@@ -273,7 +273,7 @@ class PDBParser(object):
             raise Exception('The number of MODEL and ENDMDL lines do not match')
 
         # Get models
-        models = [int(x[1][13]) for i, x in enumerate(MODEL_lines)]
+        models = [int(x[1][12:14]) for i, x in enumerate(MODEL_lines)]
         if not (models == list(range(1, len((models))+1))):
             raise Exception('The model numbers are not consecutive')
         nModels = len(models)

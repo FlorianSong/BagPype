@@ -1258,7 +1258,7 @@ class Graph_constructor(object):
 
 
             # Treat as covalent bond if length is less than 1.8A
-            if (bond_length < 1.8 and 
+            if (self.within_cov_bonding_distance(atom1, atom2) and 
                 (LINK_atoms_PDBnum[i], LINK_atoms_PDBnum[i+1]) not in cov_bonds):
 
                 if in_same_residue(atom1, atom2):
