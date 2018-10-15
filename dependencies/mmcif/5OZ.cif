@@ -1,0 +1,110 @@
+data_5OZ
+# 
+_chem_comp.id                                    5OZ 
+_chem_comp.name                                  2-methylpropanal 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C4 H8 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         Isobutyraldehyde 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2015-11-03 
+_chem_comp.pdbx_modified_date                    2016-11-11 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        72.106 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     5OZ 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5EK6 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+5OZ O   O1  O 0 1 N N N 66.534 37.751 71.067 -1.941 0.000  -0.188 O   5OZ 1  
+5OZ C01 C1  C 0 1 N N N 64.892 39.277 71.837 0.411  -0.000 -0.329 C01 5OZ 2  
+5OZ C02 C2  C 0 1 N N N 65.554 37.932 72.065 -0.897 0.000  0.419  C02 5OZ 3  
+5OZ C03 C3  C 0 1 N N N 65.824 40.417 72.204 1.212  1.249  0.043  C03 5OZ 4  
+5OZ C   C4  C 0 1 N N N 64.344 39.340 70.428 1.212  -1.249 0.043  C   5OZ 5  
+5OZ H2  H2  H 0 1 N N N 64.032 39.332 72.520 0.215  -0.000 -1.402 H2  5OZ 6  
+5OZ H3  H3  H 0 1 N N N 65.316 37.234 72.854 -0.901 0.000  1.499  H3  5OZ 7  
+5OZ H5  H5  H 0 1 N N N 66.171 40.289 73.240 1.407  1.249  1.115  H5  5OZ 8  
+5OZ H6  H6  H 0 1 N N N 66.689 40.416 71.525 2.158  1.249  -0.498 H6  5OZ 9  
+5OZ H7  H7  H 0 1 N N N 65.287 41.373 72.113 0.641  2.139  -0.222 H7  5OZ 10 
+5OZ H8  H8  H 0 1 N N N 63.864 40.316 70.264 0.641  -2.139 -0.222 H8  5OZ 11 
+5OZ H9  H9  H 0 1 N N N 65.166 39.210 69.709 2.158  -1.250 -0.498 H9  5OZ 12 
+5OZ H10 H10 H 0 1 N N N 63.603 38.539 70.287 1.407  -1.249 1.115  H10 5OZ 13 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+5OZ C   C01 SING N N 1  
+5OZ O   C02 DOUB N N 2  
+5OZ C01 C02 SING N N 3  
+5OZ C01 C03 SING N N 4  
+5OZ C01 H2  SING N N 5  
+5OZ C02 H3  SING N N 6  
+5OZ C03 H5  SING N N 7  
+5OZ C03 H6  SING N N 8  
+5OZ C03 H7  SING N N 9  
+5OZ C   H8  SING N N 10 
+5OZ C   H9  SING N N 11 
+5OZ C   H10 SING N N 12 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+5OZ InChI            InChI                1.03  "InChI=1S/C4H8O/c1-4(2)3-5/h3-4H,1-2H3" 
+5OZ InChIKey         InChI                1.03  AMIMRNSIRUDHCM-UHFFFAOYSA-N             
+5OZ SMILES_CANONICAL CACTVS               3.385 "CC(C)C=O"                              
+5OZ SMILES           CACTVS               3.385 "CC(C)C=O"                              
+5OZ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.4 "CC(C)C=O"                              
+5OZ SMILES           "OpenEye OEToolkits" 2.0.4 "CC(C)C=O"                              
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+5OZ "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.4 2-methylpropanal 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+5OZ "Create component" 2015-11-03 EBI  
+5OZ "Initial release"  2016-11-16 RCSB 
+# 

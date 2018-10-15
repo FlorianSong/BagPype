@@ -1,0 +1,96 @@
+data_CQ4
+# 
+_chem_comp.id                                    CQ4 
+_chem_comp.name                                  Chromate 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "Cr O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "Dioxido(dioxo)chromium" 
+_chem_comp.pdbx_formal_charge                    -2 
+_chem_comp.pdbx_initial_date                     2015-02-10 
+_chem_comp.pdbx_modified_date                    2016-09-09 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        115.994 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     CQ4 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4XXU 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+CQ4 O1 O1  O  -1 1 N N N -19.821 12.661 -27.160 0.000  1.357  -0.959 O1 CQ4 1 
+CQ4 O2 O2  O  -1 1 N N N -21.676 11.079 -28.527 0.000  -1.357 -0.959 O2 CQ4 2 
+CQ4 CR CR1 CR 0  0 N N N -20.238 11.957 -28.629 -0.000 -0.000 0.000  CR CQ4 3 
+CQ4 O3 O3  O  0  1 N N N -20.495 13.136 -29.787 1.357  -0.000 0.959  O3 CQ4 4 
+CQ4 O4 O4  O  0  1 N N N -18.968 10.942 -29.112 -1.357 0.000  0.959  O4 CQ4 5 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+CQ4 O3 CR DOUB N N 1 
+CQ4 O4 CR DOUB N N 2 
+CQ4 CR O2 SING N N 3 
+CQ4 CR O1 SING N N 4 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+CQ4 SMILES           ACDLabs              12.01 "[O-][Cr]([O-])(=O)=O"      
+CQ4 InChI            InChI                1.03  InChI=1S/Cr.4O/q;;;2*-1     
+CQ4 InChIKey         InChI                1.03  ZCDOYSPFYFSLEW-UHFFFAOYSA-N 
+CQ4 SMILES_CANONICAL CACTVS               3.385 "[O-][Cr]([O-])(=O)=O"      
+CQ4 SMILES           CACTVS               3.385 "[O-][Cr]([O-])(=O)=O"      
+CQ4 SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "[O-][Cr](=O)(=O)[O-]"      
+CQ4 SMILES           "OpenEye OEToolkits" 1.9.2 "[O-][Cr](=O)(=O)[O-]"      
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+CQ4 "SYSTEMATIC NAME" ACDLabs              12.01 "dioxido(dioxo)chromium"                     
+CQ4 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "bis(oxidanidyl)-bis(oxidanylidene)chromium" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+CQ4 "Create component" 2015-02-10 RCSB 
+CQ4 "Initial release"  2016-09-14 RCSB 
+# 

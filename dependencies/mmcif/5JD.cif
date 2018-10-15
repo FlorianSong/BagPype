@@ -1,0 +1,113 @@
+data_5JD
+# 
+_chem_comp.id                                    5JD 
+_chem_comp.name                                  3,4-dichlorophenol 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C6 H4 Cl2 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2015-09-30 
+_chem_comp.pdbx_modified_date                    2016-09-30 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        163.001 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     5JD 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5E1X 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+5JD CAF C1  C  0 1 Y N N 7.170 30.705 -6.502 1.192  0.983  -0.012 CAF 5JD 1  
+5JD CAI C2  C  0 1 Y N N 7.497 30.715 -5.162 -0.139 0.610  -0.004 CAI 5JD 2  
+5JD CL1 CL1 CL 0 0 N N N 8.920 29.864 -4.791 -1.380 1.824  0.000  CL1 5JD 3  
+5JD CAH C3  C  0 1 Y N N 6.703 31.351 -4.274 -0.483 -0.731 -0.001 CAH 5JD 4  
+5JD CL2 CL2 CL 0 0 N N N 7.265 31.308 -2.534 -2.155 -1.198 0.008  CL2 5JD 5  
+5JD CAE C4  C  0 1 Y N N 5.494 31.995 -4.618 0.505  -1.700 -0.004 CAE 5JD 6  
+5JD CAD C5  C  0 1 Y N N 5.120 31.913 -5.953 1.836  -1.331 -0.012 CAD 5JD 7  
+5JD CAG C6  C  0 1 Y N N 5.942 31.328 -6.836 2.183  0.013  -0.021 CAG 5JD 8  
+5JD OAA O1  O  0 1 N N N 5.544 31.314 -8.145 3.493  0.377  -0.029 OAA 5JD 9  
+5JD H1  H1  H  0 1 N N N 7.808 30.252 -7.247 1.461  2.029  -0.016 H1  5JD 10 
+5JD H2  H2  H  0 1 N N N 4.896 32.520 -3.887 0.235  -2.746 -0.001 H2  5JD 11 
+5JD H3  H3  H  0 1 N N N 4.173 32.318 -6.278 2.606  -2.088 -0.014 H3  5JD 12 
+5JD H4  H4  H  0 1 N N N 4.711 31.763 -8.228 3.877  0.480  0.852  H4  5JD 13 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+5JD OAA CAG SING N N 1  
+5JD CAG CAF DOUB Y N 2  
+5JD CAG CAD SING Y N 3  
+5JD CAF CAI SING Y N 4  
+5JD CAD CAE DOUB Y N 5  
+5JD CAI CL1 SING N N 6  
+5JD CAI CAH DOUB Y N 7  
+5JD CAE CAH SING Y N 8  
+5JD CAH CL2 SING N N 9  
+5JD CAF H1  SING N N 10 
+5JD CAE H2  SING N N 11 
+5JD CAD H3  SING N N 12 
+5JD OAA H4  SING N N 13 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+5JD SMILES           ACDLabs              12.01 "c1c(Cl)c(Cl)ccc1O"                              
+5JD InChI            InChI                1.03  "InChI=1S/C6H4Cl2O/c7-5-2-1-4(9)3-6(5)8/h1-3,9H" 
+5JD InChIKey         InChI                1.03  WDNBURPWRNALGP-UHFFFAOYSA-N                      
+5JD SMILES_CANONICAL CACTVS               3.385 "Oc1ccc(Cl)c(Cl)c1"                              
+5JD SMILES           CACTVS               3.385 "Oc1ccc(Cl)c(Cl)c1"                              
+5JD SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "c1cc(c(cc1O)Cl)Cl"                              
+5JD SMILES           "OpenEye OEToolkits" 1.9.2 "c1cc(c(cc1O)Cl)Cl"                              
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+5JD "SYSTEMATIC NAME" ACDLabs              12.01 3,4-dichlorophenol         
+5JD "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "3,4-bis(chloranyl)phenol" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+5JD "Create component" 2015-09-30 EBI  
+5JD "Initial release"  2016-10-05 RCSB 
+# 
