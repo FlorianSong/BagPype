@@ -167,7 +167,7 @@ def generate_energies_dictionary(AA):
         # Usually, DNA endpoints have a H atom instead of another phosphate link. This takes that into account:
         if parsed_cif[lower_case_aa]["_chem_comp.type"] == "DNA LINKING":
             final_dict["HO5'"] = {}
-            final_dict["O5'"] = {}
+            # final_dict["O5'"] = {}
             final_dict["O5'"]["HO5'"] = final_dict["HO5'"]["O5'"] = 459
 
 

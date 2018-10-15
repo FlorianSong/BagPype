@@ -1215,7 +1215,7 @@ class Graph_constructor(object):
                     
                     # compute the bond energy using the formula stated in Antoine's thesis
                     rij = np.linalg.norm( self.protein.atoms[atom1_id].xyz - self.protein.atoms[atom2_id].xyz  ) 
-                    energy = abs((-self.k_factor*4.184/6.022)*(332/epsilon)*(delta**2)/rij)*np.exp(-rij/debye)
+                    energy = abs((-self.k_factor*4.184/6.022)*(332/epsilon)*(delta**2)/rij)*np.exp(-1*rij/debye)
                     
                     # add this to the bond dictionary
                     atom1 = self.protein.atoms[atom1_id]
@@ -1326,12 +1326,12 @@ class Graph_constructor(object):
                             found_atoms[i] = atom
                             break
                 if not found:
-                    warnings.warn(
-                        ('LINK atom {0} {1} {2} {3} not found'.format(LINK_atom['name'], 
+                    print(
+                        ('WARNING: LINK atom {0} {1} {2} {3} not found'.format(LINK_atom['name'], 
                                                                       LINK_atom['res_name'],
                                                                       LINK_atom['res_num'],
                                                                       LINK_atom['chain'])
-                         + ' ignoring this LINK entry.')
+                         + '. Ignoring this LINK entry.')
                     )
                     found = False
             if found_atoms[0] and found_atoms[1]:

@@ -73,7 +73,6 @@ class PDBParser(object):
             print("Removing LINK entries")
             self.remove_LINK_entries()
 
-        print("Stripping unwanted atom types from the PDB file")
         if not (strip=='default' or isinstance(strip, dict)):
             raise TypeError("'strip' should be a dict")
         self.strip_atoms(strip)
@@ -133,7 +132,7 @@ class PDBParser(object):
             
         old_f = open(self.pdb_final, 'r')
         new_f = open(self.pdb_final[0:-4] + '_stripped.pdb', 'w')
-        print(( strip['res_name'] ))
+        print("Stripping unwanted atom types from the PDB file", ( strip['res_name'] ))
         for line in old_f:
             if line.startswith('ATOM') or line.startswith('HETATM'):
                 atom = parse_atom_line(line)
