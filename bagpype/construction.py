@@ -1,14 +1,12 @@
 import networkx as nx
-import bagpype
+import bagpype.parameters
+import bagpype.settings
+import bagpype.molecules
 import scipy 
 import numpy as np
 import time
-import warnings
 import itertools
 import pandas as pd
-import networkx.algorithms.matching as matching
-from networkx.algorithms import bipartite
-import itertools
 
 
 #####################################
@@ -192,7 +190,7 @@ class Graph_constructor(object):
         for atom in self.protein.atoms:
             list_of_present_residues.append(atom.res_name)
         
-        list_of_present_residues = list(set(list_of_present_residues))
+        list_of_present_residues = sorted(list(set(list_of_present_residues)))
         dictionary = bagpype.energies.generate_energies_dictionary(list_of_present_residues)
         
         for key in bagpype.parameters.non_standard_residues:
@@ -352,7 +350,7 @@ class Graph_constructor(object):
                                                    self.protein.atoms[acceptor_list[1]].xyz,
                                                    self.protein.atoms[acceptor_list[2]].xyz)
 
-        # The angle is now arccos(normal1 · normal2)
+        # The angle is now arccos(normal1 *dot* normal2)
         gamma = np.arccos(np.dot(donor_plane_normal, acceptor_plane_normal))
 
         if gamma < np.pi/2.:
@@ -847,11 +845,7 @@ class Graph_constructor(object):
     ############################
 
     def find_hydrophobics(self):
-        """ Matching type can be one of the following: 
-        1 => no matching at all
-        2 => Maximum cardinality matching
-        3 => Maximum weight matching (whilst maintaining max cardinality)
-        5 => Minimum spanning tree with negative energies
+        """ 
         """
         print(("Finding hydrophobics..."))
 

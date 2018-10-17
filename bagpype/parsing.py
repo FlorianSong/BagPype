@@ -1,3 +1,4 @@
+from __future__ import print_function
 import networkx as nx
 import os
 import subprocess

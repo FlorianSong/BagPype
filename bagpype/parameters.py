@@ -282,7 +282,7 @@ distance_cutoffs = {
 
 # We add 0.1 to all values to take into account a small tolerance as the values below are usually at equilibrium.
 ("N", "SE"): 1.76 +0.1, #S Sulfur-Nitrogen Compounds Part 3 Compounds with Sulfur of Oxidation Number IV
-("C", "SE"): 1.98 +0.1, #Table of Interatomic Distances and Configuration of Molecules and Ions, Special Publication No 11; Supplement 1956–1959, Special Publication No 18, Chemical Society, London 1958, 1965.
+("C", "SE"): 1.98 +0.1, #Table of Interatomic Distances and Configuration of Molecules and Ions, Special Publication No 11; Supplement 1956-1959, Special Publication No 18, Chemical Society, London 1958, 1965.
 ("O", "SE"): 2.302 +0.1, #10.1107/S2053229614008237
 ("H", "SE"): 1.46 +0.1, # Huheey
 ("P", "SE"): 0, # No source found
