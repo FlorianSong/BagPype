@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         2-HYDROXYTHIOPHENOL 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2007-02-27 
-_chem_comp.pdbx_modified_date                    2012-12-18 
+_chem_comp.pdbx_modified_date                    2018-04-17 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -88,11 +88,11 @@ _pdbx_chem_comp_descriptor.type
 _pdbx_chem_comp_descriptor.program 
 _pdbx_chem_comp_descriptor.program_version 
 _pdbx_chem_comp_descriptor.descriptor 
-HTS SMILES           ACDLabs              12.01 Oc1ccccc1S                                     
+HTS SMILES           ACDLabs              12.01 "c1c(c(ccc1)S)O"                               
 HTS InChI            InChI                1.03  "InChI=1S/C6H6OS/c7-5-3-1-2-4-6(5)8/h1-4,7-8H" 
 HTS InChIKey         InChI                1.03  VMKYTRPNOVFCGZ-UHFFFAOYSA-N                    
-HTS SMILES_CANONICAL CACTVS               3.370 Oc1ccccc1S                                     
-HTS SMILES           CACTVS               3.370 Oc1ccccc1S                                     
+HTS SMILES_CANONICAL CACTVS               3.385 Oc1ccccc1S                                     
+HTS SMILES           CACTVS               3.385 Oc1ccccc1S                                     
 HTS SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "c1ccc(c(c1)O)S"                               
 HTS SMILES           "OpenEye OEToolkits" 1.7.6 "c1ccc(c(c1)O)S"                               
 # 
@@ -112,5 +112,6 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site 
 HTS "Create component"         2007-02-27 RCSB 
 HTS "Modify descriptor"        2011-06-04 RCSB 
-HTS "Modify component atom id" 2012-12-18 MRS  
+HTS "Modify component atom id" 2012-12-18 RCSB 
+HTS "Other modification"       2018-04-17 RCSB 
 # 

@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2010-01-27 
-_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_modified_date                    2018-03-08 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -55,11 +55,11 @@ LAI O16  O16  O 0 1 N N N -5.665 -73.977 -21.878 -0.340 1.617  0.073  O16  LAI 8
 LAI O18  O18  O 0 1 N N N -8.421 -73.461 -22.616 -1.338 -0.832 1.200  O18  LAI 9  
 LAI O20  O20  O 0 1 N N N -7.176 -71.237 -23.441 -3.432 0.265  0.106  O20  LAI 10 
 LAI HO1  HO1  H 0 1 N N N -6.970 -78.780 -21.136 4.328  0.743  0.283  HO1  LAI 11 
-LAI H2   H2   H 0 1 N N N -5.829 -76.757 -21.013 2.138  1.685  0.147  H2   LAI 12 
-LAI H2A  H2A  H 0 1 N N N -5.663 -77.549 -22.615 2.536  0.722  -1.296 H2A  LAI 13 
-LAI H4   H4   H 0 1 N N N -7.655 -75.569 -21.725 1.082  -0.357 1.160  H4   LAI 14 
-LAI H6   H6   H 0 1 N N N -5.543 -74.798 -23.773 0.022  0.443  -1.588 H6   LAI 15 
-LAI H8   H8   H 0 1 N N N -7.667 -74.119 -24.527 -1.114 -1.547 -0.726 H8   LAI 16 
+LAI H2   H2   H 0 1 N N N -5.830 -76.757 -21.012 2.138  1.685  0.147  H2   LAI 12 
+LAI H2A  H2A  H 0 1 N N N -5.664 -77.549 -22.616 2.536  0.722  -1.296 H2A  LAI 13 
+LAI H4   H4   H 0 1 N N N -7.870 -75.566 -21.935 1.082  -0.357 1.160  H4   LAI 14 
+LAI H6   H6   H 0 1 N N N -5.576 -74.818 -23.799 0.022  0.443  -1.588 H6   LAI 15 
+LAI H8   H8   H 0 1 N N N -7.821 -74.149 -24.445 -1.114 -1.547 -0.726 H8   LAI 16 
 LAI H10  H10  H 0 1 N N N -6.546 -72.173 -25.107 -2.671 0.285  -1.724 H10  LAI 17 
 LAI HO14 HO14 H 0 0 N N N -7.997 -75.573 -24.278 1.555  -1.512 -1.461 HO14 LAI 18 
 LAI HO16 HO16 H 0 0 N N N -5.221 -73.182 -22.149 -0.451 1.598  1.033  HO16 LAI 19 
@@ -99,12 +99,13 @@ _pdbx_chem_comp_descriptor.type
 _pdbx_chem_comp_descriptor.program 
 _pdbx_chem_comp_descriptor.program_version 
 _pdbx_chem_comp_descriptor.descriptor 
-LAI SMILES_CANONICAL CACTVS               3.352 "OC[C@H](O)[C@H](O)[C@@H](O)C=O"                                          
-LAI SMILES           CACTVS               3.352 "OC[CH](O)[CH](O)[CH](O)C=O"                                              
-LAI SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "C([C@@H]([C@@H]([C@H](C=O)O)O)O)O"                                       
-LAI SMILES           "OpenEye OEToolkits" 1.7.0 "C(C(C(C(C=O)O)O)O)O"                                                     
+LAI SMILES           ACDLabs              12.01 "OCC(C(C(C=O)O)O)O"                                                       
 LAI InChI            InChI                1.03  "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4-,5+/m0/s1" 
 LAI InChIKey         InChI                1.03  PYMYPHUHKUWMLA-VAYJURFESA-N                                               
+LAI SMILES_CANONICAL CACTVS               3.385 "OC[C@H](O)[C@H](O)[C@@H](O)C=O"                                          
+LAI SMILES           CACTVS               3.385 "OC[CH](O)[CH](O)[CH](O)C=O"                                              
+LAI SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "C([C@@H]([C@@H]([C@H](C=O)O)O)O)O"                                       
+LAI SMILES           "OpenEye OEToolkits" 1.7.6 "C(C(C(C(C=O)O)O)O)O"                                                     
 # 
 loop_
 _pdbx_chem_comp_identifier.comp_id 
@@ -112,7 +113,8 @@ _pdbx_chem_comp_identifier.type
 _pdbx_chem_comp_identifier.program 
 _pdbx_chem_comp_identifier.program_version 
 _pdbx_chem_comp_identifier.identifier 
-LAI "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 "(2R,3S,4S)-2,3,4,5-tetrahydroxypentanal" 
+LAI "SYSTEMATIC NAME" ACDLabs              12.01 L-arabinose                                     
+LAI "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2R,3S,4S)-2,3,4,5-tetrakis(oxidanyl)pentanal" 
 # 
 loop_
 _pdbx_chem_comp_audit.comp_id 

@@ -1,0 +1,103 @@
+data_9S8
+# 
+_chem_comp.id                                    9S8 
+_chem_comp.name                                  "Non-cubane [4Fe-4S]-cluster" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "Fe4 S4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-07-06 
+_chem_comp.pdbx_modified_date                    2017-08-25 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        351.640 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     9S8 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   Y 
+_chem_comp.pdbx_model_coordinates_db_code        5ODC 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+9S8 S1  S1  S  0 1 N N N 152.511 117.796 0.638  ? ? ? S1  9S8 1 
+9S8 FE2 FE1 FE 0 0 N N N 150.706 116.644 0.522  ? ? ? FE2 9S8 2 
+9S8 S3  S2  S  0 1 N N N 152.431 115.513 -0.365 ? ? ? S3  9S8 3 
+9S8 FE4 FE2 FE 0 0 N N N 153.690 117.204 -1.033 ? ? ? FE4 9S8 4 
+9S8 S5  S3  S  0 1 N N N 155.083 117.908 0.583  ? ? ? S5  9S8 5 
+9S8 FE6 FE3 FE 0 0 N N N 155.999 119.630 -0.488 ? ? ? FE6 9S8 6 
+9S8 S7  S4  S  0 1 N N N 154.267 119.176 -1.631 ? ? ? S7  9S8 7 
+9S8 FE9 FE4 FE 0 0 N N N 152.613 119.709 -0.349 ? ? ? FE9 9S8 8 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+9S8 S1  FE2 SING N N 1  
+9S8 S1  FE4 SING N N 2  
+9S8 S1  FE9 SING N N 3  
+9S8 FE2 S3  SING N N 4  
+9S8 S3  FE4 SING N N 5  
+9S8 FE4 S5  SING N N 6  
+9S8 FE4 S7  SING N N 7  
+9S8 S5  FE6 SING N N 8  
+9S8 FE6 S7  SING N N 9  
+9S8 S7  FE9 SING N N 10 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+9S8 InChI            InChI                1.03  InChI=1S/4Fe.4S                  
+9S8 InChIKey         InChI                1.03  LJBDFODJNLIPKO-UHFFFAOYSA-N      
+9S8 SMILES_CANONICAL CACTVS               3.385 "S1[Fe]S[Fe]S[Fe]S[Fe]1"         
+9S8 SMILES           CACTVS               3.385 "S1[Fe]S[Fe]S[Fe]S[Fe]1"         
+9S8 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "S1[Fe][S]2[Fe]13S[Fe][S]3[Fe]2" 
+9S8 SMILES           "OpenEye OEToolkits" 2.0.6 "S1[Fe][S]2[Fe]13S[Fe][S]3[Fe]2" 
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+9S8 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "2,4$l^{3},6$l^{3},8-tetrathia-1$l^{4},3$l^{2},5$l^{2},7$l^{2}-tetraferratricyclo[4.2.0.0^{1,4}]octane" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+9S8 "Create component" 2017-07-06 EBI  
+9S8 "Initial release"  2017-08-30 RCSB 
+# 

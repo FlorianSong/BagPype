@@ -9,13 +9,13 @@ _chem_comp.mon_nstd_parent_comp_id               A
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2007-03-21 
-_chem_comp.pdbx_modified_date                    2014-09-18 
+_chem_comp.pdbx_modified_date                    2018-03-14 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
 _chem_comp.pdbx_replaces                         ? 
 _chem_comp.formula_weight                        361.248 
-_chem_comp.one_letter_code                       N 
+_chem_comp.one_letter_code                       A 
 _chem_comp.three_letter_code                     6MZ 
 _chem_comp.pdbx_model_coordinates_details        ? 
 _chem_comp.pdbx_model_coordinates_missing_flag   N 
@@ -142,11 +142,11 @@ _pdbx_chem_comp_descriptor.type
 _pdbx_chem_comp_descriptor.program 
 _pdbx_chem_comp_descriptor.program_version 
 _pdbx_chem_comp_descriptor.descriptor 
-6MZ SMILES           ACDLabs              12.01 "O=P(O)(O)OCC3OC(n2cnc1c(ncnc12)NC)C(O)C3O"                                                                                                                            
+6MZ SMILES           ACDLabs              12.01 "c1nc2c(c(n1)NC)ncn2C3OC(COP(O)(=O)O)C(C3O)O"                                                                                                                          
 6MZ InChI            InChI                1.03  "InChI=1S/C11H16N5O7P/c1-12-9-6-10(14-3-13-9)16(4-15-6)11-8(18)7(17)5(23-11)2-22-24(19,20)21/h3-5,7-8,11,17-18H,2H2,1H3,(H,12,13,14)(H2,19,20,21)/t5-,7-,8-,11-/m1/s1" 
 6MZ InChIKey         InChI                1.03  WETVNPRPZIYMAC-IOSLPCCCSA-N                                                                                                                                            
-6MZ SMILES_CANONICAL CACTVS               3.370 "CNc1ncnc2n(cnc12)[C@@H]3O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@H]3O"                                                                                                        
-6MZ SMILES           CACTVS               3.370 "CNc1ncnc2n(cnc12)[CH]3O[CH](CO[P](O)(O)=O)[CH](O)[CH]3O"                                                                                                              
+6MZ SMILES_CANONICAL CACTVS               3.385 "CNc1ncnc2n(cnc12)[C@@H]3O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@H]3O"                                                                                                        
+6MZ SMILES           CACTVS               3.385 "CNc1ncnc2n(cnc12)[CH]3O[CH](CO[P](O)(O)=O)[CH](O)[CH]3O"                                                                                                              
 6MZ SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "CNc1c2c(ncn1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)O)O)O"                                                                                                      
 6MZ SMILES           "OpenEye OEToolkits" 1.7.6 "CNc1c2c(ncn1)n(cn2)C3C(C(C(O3)COP(=O)(O)O)O)O"                                                                                                                        
 # 
@@ -171,4 +171,5 @@ _pdbx_chem_comp_audit.processing_site
 6MZ "Modify descriptor"        2011-06-04 RCSB 
 6MZ "Modify parent residue"    2011-12-15 RCSB 
 6MZ "Modify leaving atom flag" 2014-09-18 RCSB 
+6MZ "Modify one letter code"   2018-03-14 RCSB 
 # 

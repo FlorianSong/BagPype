@@ -1,7 +1,7 @@
 data_XDT
 # 
 _chem_comp.id                                    XDT 
-_chem_comp.name                                  O-METHYL-D-THREONINE 
+_chem_comp.name                                  O-methyl-D-allothreonine 
 _chem_comp.type                                  "D-PEPTIDE LINKING" 
 _chem_comp.pdbx_type                             ATOMP 
 _chem_comp.formula                               "C5 H11 N O3" 
@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               DTH
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2013-06-06 
-_chem_comp.pdbx_modified_date                    2014-09-05 
+_chem_comp.pdbx_modified_date                    2018-01-16 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -99,13 +99,13 @@ _pdbx_chem_comp_descriptor.type
 _pdbx_chem_comp_descriptor.program 
 _pdbx_chem_comp_descriptor.program_version 
 _pdbx_chem_comp_descriptor.descriptor 
-XDT SMILES           ACDLabs              12.01 "O=C(O)C(N)C(OC)C"                                                          
+XDT SMILES           ACDLabs              12.01 "NC(C(=O)O)C(OC)C"                                                          
 XDT InChI            InChI                1.03  "InChI=1S/C5H11NO3/c1-3(9-2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t3-,4-/m1/s1" 
 XDT InChIKey         InChI                1.03  FYCWLJLGIAUCCL-QWWZWVQMSA-N                                                 
 XDT SMILES_CANONICAL CACTVS               3.385 "CO[C@H](C)[C@@H](N)C(O)=O"                                                 
 XDT SMILES           CACTVS               3.385 "CO[CH](C)[CH](N)C(O)=O"                                                    
-XDT SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "CC([C@H](C(=O)O)N)OC"                                                      
-XDT SMILES           "OpenEye OEToolkits" 1.9.2 "CC(C(C(=O)O)N)OC"                                                          
+XDT SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "CC([C@H](C(=O)O)N)OC"                                                      
+XDT SMILES           "OpenEye OEToolkits" 2.0.6 "CC(C(C(=O)O)N)OC"                                                          
 # 
 loop_
 _pdbx_chem_comp_identifier.comp_id 
@@ -113,8 +113,8 @@ _pdbx_chem_comp_identifier.type
 _pdbx_chem_comp_identifier.program 
 _pdbx_chem_comp_identifier.program_version 
 _pdbx_chem_comp_identifier.identifier 
-XDT "SYSTEMATIC NAME" ACDLabs              12.01 O-methyl-D-allothreonine                
-XDT "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "(2R)-2-azanyl-3-methoxy-butanoic acid" 
+XDT "SYSTEMATIC NAME" ACDLabs              12.01 O-methyl-D-allothreonine                   
+XDT "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "(2~{R})-2-azanyl-3-methoxy-butanoic acid" 
 # 
 loop_
 _pdbx_chem_comp_audit.comp_id 
@@ -124,4 +124,5 @@ _pdbx_chem_comp_audit.processing_site
 XDT "Create component"   2013-06-06 EBI  
 XDT "Other modification" 2013-06-12 EBI  
 XDT "Modify descriptor"  2014-09-05 RCSB 
+XDT "Modify name"        2018-01-16 RCSB 
 # 

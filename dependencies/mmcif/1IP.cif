@@ -2,20 +2,20 @@ data_1IP
 # 
 _chem_comp.id                                    1IP 
 _chem_comp.name                                  "N~2~-(PHOSPHONOACETYL)-L-ASPARAGINE" 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
 _chem_comp.formula                               "C6 H11 N2 O7 P" 
 _chem_comp.mon_nstd_parent_comp_id               ? 
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2006-10-16 
-_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_modified_date                    2017-06-21 
 _chem_comp.pdbx_ambiguous_flag                   ? 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
 _chem_comp.pdbx_replaces                         ? 
 _chem_comp.formula_weight                        254.135 
-_chem_comp.one_letter_code                       ? 
+_chem_comp.one_letter_code                       N 
 _chem_comp.three_letter_code                     1IP 
 _chem_comp.pdbx_model_coordinates_details        ? 
 _chem_comp.pdbx_model_coordinates_missing_flag   N 
@@ -55,7 +55,7 @@ _chem_comp_atom.pdbx_ordinal
 1IP CA   CA   C 0 1 N N S 67.160 53.945 62.021 1.491  1.310  -0.872 CA   1IP 9  
 1IP C    C    C 0 1 N N N 65.754 53.655 61.492 0.564  2.493  -1.081 C    1IP 10 
 1IP O1   O1   O 0 1 N N N 65.080 54.642 61.122 0.636  3.559  -0.484 O1   1IP 11 
-1IP O    O    O 0 1 N N N 65.377 52.463 61.476 -0.403 2.224  -1.998 O    1IP 12 
+1IP O    O    O 0 1 N Y N 65.377 52.463 61.476 -0.403 2.224  -1.998 O    1IP 12 
 1IP CB   CB   C 0 1 N N N 67.979 54.727 60.989 1.005  0.374  0.232  CB   1IP 13 
 1IP CG   CG   C 0 1 N N N 68.327 53.897 59.750 1.928  -0.807 0.463  CG   1IP 14 
 1IP OD1  OD1  O 0 1 N N N 69.256 54.226 59.013 2.602  -1.302 -0.437 OD1  1IP 15 
@@ -66,7 +66,7 @@ _chem_comp_atom.pdbx_ordinal
 1IP HAJ2 2HAJ H 0 0 N N N 69.234 50.791 62.993 5.454  1.887  -0.454 HAJ2 1IP 20 
 1IP HN   HN   H 0 1 N N N 68.665 52.433 61.860 3.118  1.942  0.337  HN   1IP 21 
 1IP HA   HA   H 0 1 N N N 67.039 54.557 62.927 1.566  0.762  -1.819 HA   1IP 22 
-1IP HO   HO   H 0 1 N N N 64.491 52.415 61.137 -1.046 2.949  -2.151 HO   1IP 23 
+1IP HO   HO   H 0 1 N Y N 64.491 52.415 61.137 -1.046 2.949  -2.151 HO   1IP 23 
 1IP HB1  1HB  H 0 1 N N N 68.917 55.049 61.464 0.019  -0.033 -0.028 HB1  1IP 24 
 1IP HB2  2HB  H 0 1 N N N 67.367 55.579 60.657 0.880  0.924  1.172  HB2  1IP 25 
 1IP HD21 1HD2 H 0 0 N N N 66.859 52.712 60.245 2.532  -2.029 2.045  HD21 1IP 26 
@@ -135,6 +135,7 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type 
 _pdbx_chem_comp_audit.date 
 _pdbx_chem_comp_audit.processing_site 
-1IP "Create component"  2006-10-16 RCSB 
-1IP "Modify descriptor" 2011-06-04 RCSB 
+1IP "Create component"      2006-10-16 RCSB 
+1IP "Modify descriptor"     2011-06-04 RCSB 
+1IP "Modify parent residue" 2017-06-21 RCSB 
 # 

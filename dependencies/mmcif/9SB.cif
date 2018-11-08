@@ -1,0 +1,108 @@
+data_9SB
+# 
+_chem_comp.id                                    9SB 
+_chem_comp.name                                  "2-bromanylethanesulfonic acid" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C2 H5 Br O3 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-07-07 
+_chem_comp.pdbx_modified_date                    2017-08-25 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        189.028 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     9SB 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5ODQ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+9SB C1  C1  C  0 1 N N N 27.288 -32.413 17.518 -0.574 0.616  -0.000 C1  9SB 1  
+9SB C2  C2  C  0 1 N N N 27.909 -32.590 16.141 0.401  -0.563 0.000  C2  9SB 2  
+9SB BR1 BR1 BR 0 0 N N N 26.085 -33.977 17.874 -2.420 -0.060 0.000  BR1 9SB 3  
+9SB S2  S1  S  0 1 N N N 29.062 -31.422 15.906 2.104  0.061  -0.000 S2  9SB 4  
+9SB O1S O1  O  0 1 N N N 30.337 -31.854 16.516 2.404  0.694  1.237  O1S 9SB 5  
+9SB O2S O2  O  0 1 N N N 28.625 -30.149 16.523 2.968  -1.192 0.000  O2S 9SB 6  
+9SB O3S O3  O  0 1 N N N 29.263 -31.218 14.458 2.404  0.693  -1.237 O3S 9SB 7  
+9SB H1  H1  H  0 1 N N N 28.080 -32.372 18.280 -0.410 1.224  0.890  H1  9SB 8  
+9SB H2  H2  H  0 1 N N N 26.704 -31.481 17.545 -0.410 1.223  -0.890 H2  9SB 9  
+9SB H3  H3  H  0 1 N N N 27.129 -32.496 15.371 0.236  -1.170 0.890  H3  9SB 10 
+9SB H4  H4  H  0 1 N N N 28.374 -33.585 16.073 0.236  -1.171 -0.890 H4  9SB 11 
+9SB H5  H5  H  0 1 N N N 28.568 -29.476 15.855 3.918  -1.014 0.000  H5  9SB 12 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+9SB O3S S2  DOUB N N 1  
+9SB S2  C2  SING N N 2  
+9SB S2  O1S DOUB N N 3  
+9SB S2  O2S SING N N 4  
+9SB C2  C1  SING N N 5  
+9SB C1  BR1 SING N N 6  
+9SB C1  H1  SING N N 7  
+9SB C1  H2  SING N N 8  
+9SB C2  H3  SING N N 9  
+9SB C2  H4  SING N N 10 
+9SB O2S H5  SING N N 11 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+9SB InChI            InChI                1.03  "InChI=1S/C2H5BrO3S/c3-1-2-7(4,5)6/h1-2H2,(H,4,5,6)" 
+9SB InChIKey         InChI                1.03  OQFSYHWITGFERZ-UHFFFAOYSA-N                          
+9SB SMILES_CANONICAL CACTVS               3.385 "O[S](=O)(=O)CCBr"                                   
+9SB SMILES           CACTVS               3.385 "O[S](=O)(=O)CCBr"                                   
+9SB SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C(CBr)S(=O)(=O)O"                                   
+9SB SMILES           "OpenEye OEToolkits" 2.0.6 "C(CBr)S(=O)(=O)O"                                   
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+9SB "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "2-bromanylethanesulfonic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+9SB "Create component" 2017-07-07 EBI  
+9SB "Initial release"  2017-08-30 RCSB 
+# 

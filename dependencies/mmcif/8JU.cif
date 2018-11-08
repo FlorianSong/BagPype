@@ -1,0 +1,97 @@
+data_8JU
+# 
+_chem_comp.id                                    8JU 
+_chem_comp.name                                  "FE4-S4-O CLUSTER" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "Fe4 O S4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-07-20 
+_chem_comp.pdbx_modified_date                    2018-06-22 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        367.639 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     8JU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   Y 
+_chem_comp.pdbx_model_coordinates_db_code        5XVD 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+8JU S2  S1  S  0 1 N N N 87.413 -7.244 -9.027 ? ? ? S2  8JU 1 
+8JU FE2 FE1 FE 0 0 N N N 89.765 -7.254 -8.924 ? ? ? FE2 8JU 2 
+8JU FE3 FE2 FE 0 0 N N N 88.173 -7.636 -6.938 ? ? ? FE3 8JU 3 
+8JU S3  S2  S  0 1 N N N 90.414 -7.949 -6.975 ? ? ? S3  8JU 4 
+8JU FE1 FE3 FE 0 0 N N N 87.495 -5.362 -7.727 ? ? ? FE1 8JU 5 
+8JU S4  S3  S  0 1 N N N 87.618 -5.951 -5.599 ? ? ? S4  8JU 6 
+8JU S1  S4  S  0 1 N N N 88.853 -3.628 -8.056 ? ? ? S1  8JU 7 
+8JU FE4 FE4 FE 0 0 N N N 90.662 -4.317 -7.872 ? ? ? FE4 8JU 8 
+8JU O   O1  O  0 1 N N N 90.831 -5.690 -8.990 ? ? ? O   8JU 9 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+8JU S2  FE2 SING N N 1  
+8JU S2  FE3 SING N N 2  
+8JU S2  FE1 SING N N 3  
+8JU FE2 S3  SING N N 4  
+8JU FE2 O   SING N N 5  
+8JU FE3 S3  SING N N 6  
+8JU FE3 S4  SING N N 7  
+8JU FE1 S4  SING N N 8  
+8JU FE1 S1  SING N N 9  
+8JU S1  FE4 SING N N 10 
+8JU FE4 O   SING N N 11 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+8JU InChI            InChI                1.03  InChI=1S/4Fe.O.4S               
+8JU InChIKey         InChI                1.03  RAQKYMZLKKCSFU-UHFFFAOYSA-N     
+8JU SMILES_CANONICAL CACTVS               3.385 "O1[Fe]S[Fe]2S[Fe](S[Fe]1)S2"   
+8JU SMILES           CACTVS               3.385 "O1[Fe]S[Fe]2S[Fe](S[Fe]1)S2"   
+8JU SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "O1[Fe]S[Fe]2S[Fe]3[S]2[Fe]1S3" 
+8JU SMILES           "OpenEye OEToolkits" 2.0.6 "O1[Fe]S[Fe]2S[Fe]3[S]2[Fe]1S3" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+8JU "Create component" 2017-07-20 RCSB 
+8JU "Initial release"  2018-06-27 RCSB 
+# 

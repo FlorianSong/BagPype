@@ -7,9 +7,9 @@ _chem_comp.pdbx_type                             HETAIN
 _chem_comp.formula                               "C31 H34 N4 O3" 
 _chem_comp.mon_nstd_parent_comp_id               ? 
 _chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    1 
+_chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2016-07-15 
-_chem_comp.pdbx_modified_date                    2016-09-09 
+_chem_comp.pdbx_modified_date                    2018-02-27 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -66,7 +66,7 @@ _chem_comp_atom.pdbx_ordinal
 6XM "C3'"  C16 C 0 1 Y N N 21.327 25.267 18.153 3.431  2.092  -0.471 "C3'"  6XM 20 
 6XM "C6'"  C17 C 0 1 Y N N 21.487 24.347 19.198 2.250  1.362  -0.435 "C6'"  6XM 21 
 6XM "C7'"  C18 C 0 1 Y N N 21.010 24.697 20.463 1.033  2.024  -0.494 "C7'"  6XM 22 
-6XM C11    C19 C 1 1 N N N 21.155 23.822 21.528 -0.248 1.237  -0.550 C11    6XM 23 
+6XM C11    C19 C 0 1 N N S 21.155 23.822 21.528 -0.248 1.237  -0.550 C11    6XM 23 
 6XM C10    C20 C 0 1 Y N N 21.822 22.624 21.344 -0.089 -0.071 0.172  C10    6XM 24 
 6XM C9     C21 C 0 1 Y N N 22.009 21.771 22.439 -1.182 -0.653 0.799  C9     6XM 25 
 6XM C4     C22 C 0 1 Y N N 22.831 20.651 22.283 -1.045 -1.889 1.417  C4     6XM 26 
@@ -84,14 +84,14 @@ _chem_comp_atom.pdbx_ordinal
 6XM "CC1'" C31 C 0 0 N N N 24.220 23.488 14.581 6.381  -0.955 -0.945 "CC1'" 6XM 38 
 6XM H1     H1  H 0 1 N N N 19.370 26.813 24.444 -2.349 5.255  0.414  H1     6XM 39 
 6XM H2     H2  H 0 1 N N N 19.725 25.291 26.361 -4.287 4.126  1.419  H2     6XM 40 
-6XM HA2    H3  H 0 1 N N N 21.241 19.964 24.039 -4.413 -0.105 1.423  HA2    6XM 41 
-6XM HA1    H4  H 0 1 N N N 21.331 21.028 25.483 -3.499 -1.630 1.516  HA1    6XM 42 
+6XM HA1    H3  H 0 1 N N N 21.241 19.964 24.039 -4.413 -0.105 1.423  HA1    6XM 41 
+6XM HA2    H4  H 0 1 N N N 21.331 21.028 25.483 -3.499 -1.630 1.516  HA2    6XM 42 
 6XM HB2    H5  H 0 1 N N N 19.015 21.666 25.266 -4.332 -0.208 -1.054 HB2    6XM 43 
 6XM HB1    H6  H 0 1 N N N 18.891 20.915 23.639 -3.418 -1.732 -0.961 HB1    6XM 44 
-6XM HC1    H7  H 0 1 N N N 17.180 19.558 24.084 -5.012 -3.097 -1.996 HC1    6XM 45 
-6XM HC2    H8  H 0 1 N N N 17.331 18.175 25.220 -5.985 -1.651 -2.363 HC2    6XM 46 
-6XM HD1    H9  H 0 1 N N N 16.686 21.093 25.941 -7.415 -3.654 -2.422 HD1    6XM 47 
-6XM HD2    H10 H 0 1 N N N 15.575 19.684 26.035 -6.904 -4.090 -0.773 HD2    6XM 48 
+6XM HC2    H7  H 0 1 N N N 17.180 19.558 24.084 -5.012 -3.097 -1.996 HC2    6XM 45 
+6XM HC1    H8  H 0 1 N N N 17.331 18.175 25.220 -5.985 -1.651 -2.363 HC1    6XM 46 
+6XM HD2    H9  H 0 1 N N N 16.686 21.093 25.941 -7.415 -3.654 -2.422 HD2    6XM 47 
+6XM HD1    H10 H 0 1 N N N 15.575 19.684 26.035 -6.904 -4.090 -0.773 HD1    6XM 48 
 6XM HD3    H11 H 0 1 N N N 18.785 19.817 28.707 -8.586 -1.189 0.675  HD3    6XM 49 
 6XM HD4    H12 H 0 1 N N N 18.605 21.176 27.546 -7.604 -2.618 1.077  HD4    6XM 50 
 6XM HC3    H13 H 0 1 N N N 19.360 18.268 26.897 -6.683 -0.183 -0.519 HC3    6XM 51 
@@ -104,14 +104,14 @@ _chem_comp_atom.pdbx_ordinal
 6XM H4     H21 H 0 1 N N N 22.999 19.991 23.121 -1.898 -2.357 1.884  H4     6XM 58 
 6XM H5     H22 H 0 1 N N N 24.093 19.528 20.960 0.288  -3.485 1.905  H5     6XM 59 
 6XM "H4'"  H23 H 0 1 N N N 23.639 20.971 19.012 2.247  -2.409 0.878  "H4'"  6XM 60 
-6XM "HA1'" H24 H 0 0 N N N 21.245 22.917 17.063 3.145  -1.788 -1.043 "HA1'" 6XM 61 
-6XM "HA2'" H25 H 0 0 N N N 22.051 21.446 17.706 3.952  -0.280 -1.533 "HA2'" 6XM 62 
+6XM "HA2'" H24 H 0 0 N N N 21.245 22.917 17.063 3.145  -1.788 -1.043 "HA2'" 6XM 61 
+6XM "HA1'" H25 H 0 0 N N N 22.051 21.446 17.706 3.952  -0.280 -1.533 "HA1'" 6XM 62 
 6XM "HB1'" H26 H 0 0 N N N 24.192 22.200 17.125 4.722  0.066  0.798  "HB1'" 6XM 63 
 6XM "HB2'" H27 H 0 0 N N N 23.700 23.928 17.126 3.915  -1.442 1.289  "HB2'" 6XM 64 
-6XM "HC4'" H29 H 0 0 N N N 22.298 21.600 13.897 6.797  -1.132 1.688  "HC4'" 6XM 65 
-6XM "HC3'" H30 H 0 0 N N N 22.138 20.984 15.576 5.836  -2.611 1.932  "HC3'" 6XM 66 
-6XM "HD4'" H31 H 0 0 N N N 23.773 19.665 14.154 8.267  -3.104 1.596  "HD4'" 6XM 67 
-6XM "HD3'" H32 H 0 0 N N N 24.507 20.363 15.637 7.251  -3.826 0.325  "HD3'" 6XM 68 
+6XM "HC3'" H29 H 0 0 N N N 22.298 21.600 13.897 6.797  -1.132 1.688  "HC3'" 6XM 65 
+6XM "HC4'" H30 H 0 0 N N N 22.138 20.984 15.576 5.836  -2.611 1.932  "HC4'" 6XM 66 
+6XM "HD3'" H31 H 0 0 N N N 23.773 19.665 14.154 8.267  -3.104 1.596  "HD3'" 6XM 67 
+6XM "HD4'" H32 H 0 0 N N N 24.507 20.363 15.637 7.251  -3.826 0.325  "HD4'" 6XM 68 
 6XM "HD2'" H33 H 0 0 N N N 25.932 22.410 15.383 8.184  -1.248 -2.089 "HD2'" 6XM 69 
 6XM "HD1'" H34 H 0 0 N N N 26.175 23.058 13.726 7.201  -2.717 -1.876 "HD1'" 6XM 70 
 6XM "HC2'" H35 H 0 0 N N N 24.533 24.415 15.083 5.752  -0.729 -1.806 "HC2'" 6XM 71 
@@ -172,14 +172,14 @@ _chem_comp_bond.pdbx_ordinal
 6XM O1     CD2    SING N N 45 
 6XM C1     H1     SING N N 46 
 6XM C2     H2     SING N N 47 
-6XM CA     HA2    SING N N 48 
-6XM CA     HA1    SING N N 49 
+6XM CA     HA1    SING N N 48 
+6XM CA     HA2    SING N N 49 
 6XM CB     HB2    SING N N 50 
 6XM CB     HB1    SING N N 51 
-6XM CC1    HC1    SING N N 52 
-6XM CC1    HC2    SING N N 53 
-6XM CD1    HD1    SING N N 54 
-6XM CD1    HD2    SING N N 55 
+6XM CC1    HC2    SING N N 52 
+6XM CC1    HC1    SING N N 53 
+6XM CD1    HD2    SING N N 54 
+6XM CD1    HD1    SING N N 55 
 6XM CD2    HD3    SING N N 56 
 6XM CD2    HD4    SING N N 57 
 6XM CC2    HC3    SING N N 58 
@@ -192,14 +192,14 @@ _chem_comp_bond.pdbx_ordinal
 6XM C4     H4     SING N N 65 
 6XM C5     H5     SING N N 66 
 6XM "C4'"  "H4'"  SING N N 67 
-6XM "CA'"  "HA1'" SING N N 68 
-6XM "CA'"  "HA2'" SING N N 69 
+6XM "CA'"  "HA2'" SING N N 68 
+6XM "CA'"  "HA1'" SING N N 69 
 6XM "CB'"  "HB1'" SING N N 70 
 6XM "CB'"  "HB2'" SING N N 71 
-6XM "CC2'" "HC4'" SING N N 72 
-6XM "CC2'" "HC3'" SING N N 73 
-6XM "CD2'" "HD4'" SING N N 74 
-6XM "CD2'" "HD3'" SING N N 75 
+6XM "CC2'" "HC3'" SING N N 72 
+6XM "CC2'" "HC4'" SING N N 73 
+6XM "CD2'" "HD3'" SING N N 74 
+6XM "CD2'" "HD4'" SING N N 75 
 6XM "CD1'" "HD2'" SING N N 76 
 6XM "CD1'" "HD1'" SING N N 77 
 6XM "CC1'" "HC2'" SING N N 78 
@@ -211,18 +211,19 @@ _pdbx_chem_comp_descriptor.type
 _pdbx_chem_comp_descriptor.program 
 _pdbx_chem_comp_descriptor.program_version 
 _pdbx_chem_comp_descriptor.descriptor 
-6XM InChI            InChI                1.03  "InChI=1S/C31H34N4O3/c1-4-22-28-23(5-1)35(13-11-33-16-20-37-21-17-33)25-7-3-9-27-30(25)31(28)29-24(6-2-8-26(29)38-27)34(22)12-10-32-14-18-36-19-15-32/h1-9,31H,10-21H2/q+1" 
-6XM InChIKey         InChI                1.03  UKORGLZCSUITIJ-UHFFFAOYSA-N                                                                                                                                                 
-6XM SMILES_CANONICAL CACTVS               3.385 "C1CN(CCO1)CCN2c3cccc4Oc5cccc6N(CCN7CCOCC7)c8cccc2c8[CH+](c34)c56"                                                                                                          
-6XM SMILES           CACTVS               3.385 "C1CN(CCO1)CCN2c3cccc4Oc5cccc6N(CCN7CCOCC7)c8cccc2c8[CH+](c34)c56"                                                                                                          
-6XM SMILES_CANONICAL "OpenEye OEToolkits" 2.0.5 "c1cc2c3c(c1)N(c4cccc5c4[CH+]3c6c(cccc6O5)N2CCN7CCOCC7)CCN8CCOCC8"                                                                                                          
-6XM SMILES           "OpenEye OEToolkits" 2.0.5 "c1cc2c3c(c1)N(c4cccc5c4[CH+]3c6c(cccc6O5)N2CCN7CCOCC7)CCN8CCOCC8"                                                                                                          
+6XM InChI            InChI                1.03  "InChI=1S/C31H34N4O3/c1-4-22-28-23(5-1)35(13-11-33-16-20-37-21-17-33)25-7-3-9-27-30(25)31(28)29-24(6-2-8-26(29)38-27)34(22)12-10-32-14-18-36-19-15-32/h1-9,31H,10-21H2" 
+6XM InChIKey         InChI                1.03  JDODSALIMITEDK-UHFFFAOYSA-N                                                                                                                                             
+6XM SMILES_CANONICAL CACTVS               3.385 "C1CN(CCO1)CCN2c3cccc4Oc5cccc6N(CCN7CCOCC7)c8cccc2c8[C@@H](c34)c56"                                                                                                     
+6XM SMILES           CACTVS               3.385 "C1CN(CCO1)CCN2c3cccc4Oc5cccc6N(CCN7CCOCC7)c8cccc2c8[CH](c34)c56"                                                                                                       
+6XM SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "c1cc2c3c(c1)N(c4cccc5c4C3c6c(cccc6O5)N2CCN7CCOCC7)CCN8CCOCC8"                                                                                                          
+6XM SMILES           "OpenEye OEToolkits" 2.0.6 "c1cc2c3c(c1)N(c4cccc5c4C3c6c(cccc6O5)N2CCN7CCOCC7)CCN8CCOCC8"                                                                                                          
 # 
 loop_
 _pdbx_chem_comp_audit.comp_id 
 _pdbx_chem_comp_audit.action_type 
 _pdbx_chem_comp_audit.date 
 _pdbx_chem_comp_audit.processing_site 
-6XM "Create component" 2016-07-15 EBI  
-6XM "Initial release"  2016-09-14 RCSB 
+6XM "Create component"   2016-07-15 EBI  
+6XM "Initial release"    2016-09-14 RCSB 
+6XM "Other modification" 2018-02-27 EBI  
 # 

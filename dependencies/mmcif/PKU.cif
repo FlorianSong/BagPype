@@ -1,0 +1,119 @@
+data_PKU
+# 
+_chem_comp.id                                    PKU 
+_chem_comp.name                                  "4-bromanyl-~{N}-methyl-1~{H}-pyrrole-2-carboxamide" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C6 H7 Br N2 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2016-12-20 
+_chem_comp.pdbx_modified_date                    2017-04-14 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        203.037 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     PKU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5MQE 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PKU CAA C1  C  0 1 N N N -20.445 -25.062 -12.341 5.061  0.018  -0.007 CAA  PKU 1  
+PKU CAD C2  C  0 1 Y N N -18.440 -29.938 -14.759 -0.459 -1.522 -0.001 CAD  PKU 2  
+PKU CAE C3  C  0 1 Y N N -17.801 -27.883 -14.325 0.124  0.626  0.010  CAE  PKU 3  
+PKU CAH C4  C  0 1 N N N -20.011 -27.072 -13.572 2.650  0.372  0.001  CAH  PKU 4  
+PKU CAI C5  C  0 1 Y N N -17.410 -29.099 -14.765 -0.957 -0.262 0.003  CAI  PKU 5  
+PKU CAJ C6  C  0 1 Y N N -19.124 -27.988 -14.064 1.274  -0.136 0.005  CAJ  PKU 6  
+PKU NAF N1  N  0 1 N N N -19.497 -26.013 -12.933 3.686  -0.490 -0.004 NAF  PKU 7  
+PKU NAG N2  N  0 1 Y N N -19.494 -29.252 -14.304 0.895  -1.459 0.004  NAG  PKU 8  
+PKU OAB O1  O  0 1 N N N -21.225 -27.252 -13.675 2.856  1.571  0.003  OAB  PKU 9  
+PKU BR  BR1 BR 0 0 N N N -15.621 -29.666 -15.344 -2.787 0.213  -0.002 BRAC PKU 10 
+PKU H1  H1  H  0 1 N N N -19.891 -24.248 -11.852 5.221  0.627  -0.896 H1   PKU 11 
+PKU H2  H2  H  0 1 N N N -21.088 -24.645 -13.131 5.227  0.624  0.883  H2   PKU 12 
+PKU H3  H3  H  0 1 N N N -21.068 -25.580 -11.597 5.757  -0.821 -0.011 H3   PKU 13 
+PKU H4  H4  H  0 1 N N N -18.428 -30.974 -15.063 -1.046 -2.429 -0.002 H4   PKU 14 
+PKU H5  H5  H  0 1 N N N -17.183 -27.005 -14.206 0.069  1.704  0.012  H5   PKU 15 
+PKU H6  H6  H  0 1 N N N -18.509 -25.876 -12.862 3.522  -1.446 -0.004 H6   PKU 16 
+PKU H7  H7  H  0 1 N N N -20.412 -29.624 -14.165 1.497  -2.220 0.007  H7   PKU 17 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PKU BR  CAI SING N N 1  
+PKU CAI CAD DOUB Y N 2  
+PKU CAI CAE SING Y N 3  
+PKU CAD NAG SING Y N 4  
+PKU CAE CAJ DOUB Y N 5  
+PKU NAG CAJ SING Y N 6  
+PKU CAJ CAH SING N N 7  
+PKU OAB CAH DOUB N N 8  
+PKU CAH NAF SING N N 9  
+PKU NAF CAA SING N N 10 
+PKU CAA H1  SING N N 11 
+PKU CAA H2  SING N N 12 
+PKU CAA H3  SING N N 13 
+PKU CAD H4  SING N N 14 
+PKU CAE H5  SING N N 15 
+PKU NAF H6  SING N N 16 
+PKU NAG H7  SING N N 17 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PKU InChI            InChI                1.03  "InChI=1S/C6H7BrN2O/c1-8-6(10)5-2-4(7)3-9-5/h2-3,9H,1H3,(H,8,10)" 
+PKU InChIKey         InChI                1.03  HQGRBJIXXLIGLE-UHFFFAOYSA-N                                       
+PKU SMILES_CANONICAL CACTVS               3.385 "CNC(=O)c1[nH]cc(Br)c1"                                           
+PKU SMILES           CACTVS               3.385 "CNC(=O)c1[nH]cc(Br)c1"                                           
+PKU SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "CNC(=O)c1cc(c[nH]1)Br"                                           
+PKU SMILES           "OpenEye OEToolkits" 2.0.6 "CNC(=O)c1cc(c[nH]1)Br"                                           
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PKU "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "4-bromanyl-~{N}-methyl-1~{H}-pyrrole-2-carboxamide" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PKU "Create component" 2016-12-20 EBI  
+PKU "Initial release"  2017-04-19 RCSB 
+# 
