@@ -37,7 +37,7 @@ class PDBParser(object):
         
     def parse(self, protein, bio=False, model=None, chain='all', 
                 strip='default', strip_ANISOU=True, remove_LINK=False,
-              add_H=None):
+              add_H=None, alternate_location=None):
         """ Takes a bagpype Protein object and loads it with data 
         from the given PDB file.
 
@@ -77,6 +77,11 @@ class PDBParser(object):
         if not (strip=='default' or isinstance(strip, dict)):
             raise TypeError("'strip' should be a dict")
         self.strip_atoms(strip)
+
+
+        if alternate_location is not None:
+            self.strip_alternate_location(alternate_location)
+
 
         self.renumber_atoms()
 
@@ -153,6 +158,20 @@ class PDBParser(object):
                 new_f.write(line)
 
         self.pdb_final = self.pdb_final[0:-4] + '_stripped.pdb'
+
+
+    def strip_alternate_location(self, alternate_location):
+        print(self.pdb_final)
+        with open(self.pdb_final, "r") as f:
+            lines = f.readlines()
+        f.close()
+        lines2 = []
+        for l in lines:
+            if l.startswith("ATOM") and l[16:17] in [" "] + alternate_location:
+                lines2 += l
+        with open(self.pdb_final, "w") as f:
+            f.writelines(lines2)
+        f.close()
 
     
     def renumber_atoms(self):

@@ -274,7 +274,7 @@ distance_cutoffs = {
 ('O', 'P'): 1.80, 
 ('O', 'S'): 1.60, 
 ('O', 'ZN'): 2.50, 
-('P', 'P'): 2.30, 
+('P', 'P'): 0, # ('P', 'P'): 2.30, Do these bond?
 ('P', 'S'): 2.10, 
 ('S', 'S'): 2.10, 
 ('S', 'ZN'): 0., # ('S', 'ZN'): 2.50, # Could not find evidence that this exists as a covalent bond.
@@ -317,4 +317,6 @@ distance_cutoffs = {
 ("S", "F"): 1.56 +0.1, # Huheey
 ("MG", "F"): 1.77 +0.1, # Huheey
 ("BE", "F"): 1.75 +0.1, # Huheey
+("K", "K"): 0, # Set to not bond covalently.
+("K", "N"): 0, # Set to not bond covalently.
 }
