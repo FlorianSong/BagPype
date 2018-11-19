@@ -1,0 +1,113 @@
+data_DS1
+# 
+_chem_comp.id                                    DS1 
+_chem_comp.name                                  2-aminopyrimidin-5-ol 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C4 H5 N3 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-11-02 
+_chem_comp.pdbx_modified_date                    2018-11-02 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        111.102 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     DS1 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6BHB 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+DS1 C3 C1 C 0 1 Y N N -1.144 26.421 54.458 0.632  1.194  -0.016 C3 DS1 1  
+DS1 C2 C2 C 0 1 Y N N -1.062 27.696 54.907 1.343  -0.000 -0.020 C2 DS1 2  
+DS1 C1 C3 C 0 1 Y N N -2.154 28.503 54.849 0.632  -1.194 -0.013 C1 DS1 3  
+DS1 O  O1 O 0 1 N N N 0.160  28.170 55.417 2.703  -0.000 -0.030 O  DS1 4  
+DS1 N1 N1 N 0 1 Y N N -3.295 28.038 54.364 -0.691 -1.156 -0.003 N1 DS1 5  
+DS1 N2 N2 N 0 1 Y N N -2.285 25.961 53.975 -0.691 1.156  -0.000 N2 DS1 6  
+DS1 C  C4 C 0 1 Y N N -3.375 26.760 53.919 -1.336 0.000  0.001  C  DS1 7  
+DS1 N  N3 N 0 1 N N N -4.628 26.247 53.387 -2.722 0.000  0.017  N  DS1 8  
+DS1 H4 H1 H 0 1 N N N -0.276 25.779 54.495 1.152  2.141  -0.021 H4 DS1 9  
+DS1 H2 H2 H 0 1 N N N -2.091 29.523 55.198 1.152  -2.141 -0.016 H2 DS1 10 
+DS1 H3 H3 H 0 1 N N N 0.060  29.074 55.690 3.103  0.001  0.850  H3 DS1 11 
+DS1 H1 H4 H 0 1 N N N -4.508 25.294 53.110 -3.207 0.840  0.028  H1 DS1 12 
+DS1 H  H5 H 0 1 N N N -5.337 26.303 54.090 -3.207 -0.840 0.018  H  DS1 13 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+DS1 N  C  SING N N 1  
+DS1 C  N2 DOUB Y N 2  
+DS1 C  N1 SING Y N 3  
+DS1 N2 C3 SING Y N 4  
+DS1 N1 C1 DOUB Y N 5  
+DS1 C3 C2 DOUB Y N 6  
+DS1 C1 C2 SING Y N 7  
+DS1 C2 O  SING N N 8  
+DS1 C3 H4 SING N N 9  
+DS1 C1 H2 SING N N 10 
+DS1 O  H3 SING N N 11 
+DS1 N  H1 SING N N 12 
+DS1 N  H  SING N N 13 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+DS1 SMILES           ACDLabs              12.01 "c1c(O)cnc(n1)N"                                         
+DS1 InChI            InChI                1.03  "InChI=1S/C4H5N3O/c5-4-6-1-3(8)2-7-4/h1-2,8H,(H2,5,6,7)" 
+DS1 InChIKey         InChI                1.03  NVYMOVCPYONOSF-UHFFFAOYSA-N                              
+DS1 SMILES_CANONICAL CACTVS               3.385 "Nc1ncc(O)cn1"                                           
+DS1 SMILES           CACTVS               3.385 "Nc1ncc(O)cn1"                                           
+DS1 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "c1c(cnc(n1)N)O"                                         
+DS1 SMILES           "OpenEye OEToolkits" 2.0.6 "c1c(cnc(n1)N)O"                                         
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+DS1 "SYSTEMATIC NAME" ACDLabs              12.01 2-aminopyrimidin-5-ol  
+DS1 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 2-azanylpyrimidin-5-ol 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+DS1 "Create component" 2017-11-02 RCSB 
+DS1 "Initial release"  2018-11-07 RCSB 
+# 

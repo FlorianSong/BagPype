@@ -255,7 +255,7 @@ distance_cutoffs = {
 ('H', 'P'): 1.50, 
 ('H', 'S'): 1.38, 
 ('H', 'ZN'): 0.00, 
-('K', 'O'): 3.10, 
+('K', 'O'): 0., # ('K', 'O'): 3.10, # Could not find evidence that this exists as a covalent bond.
 ('MG', 'MG'): 3.782, 
 ('MG', 'N'): 2.50, 
 ("MG", "O"): 1.749 +0.1,  # ('MG', 'O'): 2.50, # Replaced by corresponding data from Huheey
@@ -269,12 +269,12 @@ distance_cutoffs = {
 ('N', 'S'): 1.73, 
 ('N', 'ZN'): 2.50, 
 ('NA', 'F'): 1.830, 
-('NA', 'O'): 2.70, 
+('NA', 'O'): 0., # ('NA', 'O'): 2.70,  # Could not find evidence that this exists as a covalent bond.
 ('O', 'O'): 1.55, 
 ('O', 'P'): 1.80, 
 ('O', 'S'): 1.60, 
 ('O', 'ZN'): 2.50, 
-('P', 'P'): 0, # ('P', 'P'): 2.30, Do these bond?
+('P', 'P'): 0, # ('P', 'P'): 2.30, # Could not find evidence that this exists as a covalent bond.
 ('P', 'S'): 2.10, 
 ('S', 'S'): 2.10, 
 ('S', 'ZN'): 0., # ('S', 'ZN'): 2.50, # Could not find evidence that this exists as a covalent bond.

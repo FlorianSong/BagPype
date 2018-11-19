@@ -167,7 +167,10 @@ class PDBParser(object):
         f.close()
         lines2 = []
         for l in lines:
-            if l.startswith("ATOM") and l[16:17] in [" "] + alternate_location:
+            if l.startswith("ATOM") or l.startswith("HETATM"): 
+                if l[16:17] in [" "] + alternate_location:
+                    lines2 += l
+            else:
                 lines2 += l
         with open(self.pdb_final, "w") as f:
             f.writelines(lines2)
