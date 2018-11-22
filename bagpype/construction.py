@@ -126,8 +126,8 @@ class Graph_constructor(object):
             raise Exception("The distance matrix does not have the same number of rows and columns as the number of atoms, so the indices will get messed up.")
         
         # Only keep upper triangular entries (setting lower triangle to max cutoff +1 so they get filtered out in the line below)
-        il1 = np.tril_indices(dist_matrix.shape[0])
-        dist_matrix[il1] = self.max_cutoff + 1
+        # il1 = np.tril_indices(dist_matrix.shape[0])
+        # dist_matrix[il1] = self.max_cutoff + 1
 
         # self.distance_matrix = dist_matrix
 
