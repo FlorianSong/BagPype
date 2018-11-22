@@ -1,6 +1,10 @@
+from pymol import cmd
+import sys
+import csv
+
 def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], filename = "bonds.csv"):
-    import sys
-    import csv
+    list_of_types = [x.upper() for x in list_of_types] if type(list_of_types) is list else [list_of_types.upper()]
+    print("Visualising: ", list_of_types, " edges.")
 
     covalent_colour = [251,101,66]
     hydrogen_colour = [55,94,151]
@@ -41,7 +45,7 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED",
 
         if len(bond_type) == 1:
 
-            if bond_type[0] in list_of_types:
+            if bond_type[0] in [x.upper() for x in list_of_types]:
                 colour = determine_colour(bond_type[0])
                 cmd.distance(prefix + bond_id,
                         'id ' + atom1_id,
