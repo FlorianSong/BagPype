@@ -238,8 +238,13 @@ class PDBParser(object):
                         bagpype.settings.DEPENDENCIES_ROOT + '/het_dict.txt ' 
                         + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
                         + '_H.pdb', shell=True)
+        elif sys.platform.startswith("darwin"):
+            subprocess.run(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
+                        bagpype.settings.DEPENDENCIES_ROOT + '/het_dict.txt ' 
+                        + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
+                        + '_H.pdb', shell=True)
         else:
-            warnings.warn("Sorry, but adding hydrogens with Reduce is currently only implemented for Linux based operating systems.")
+            warnings.warn("Sorry, but adding hydrogens with Reduce is currently only implemented for UNIX based operating systems.")
 
         self.pdb_final = self.pdb_final[0:-4] + '_H.pdb'
         

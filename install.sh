@@ -4,6 +4,10 @@ wget http://kinemage.biochem.duke.edu/php/downlode-3.php?filename=/../downloads/
 gunzip *.gz
 mv *.linuxi386 dependencies/reduce
 
+wget http://kinemage.biochem.duke.edu/php/downlode-3.php?filename=/../downloads/software/reduce31/reduce.3.23.130521.macosx.zip
+unzip *.macosx.zip
+mv *.macosx dependencies/reduce.macosx
+rm *.macosx.zip
 
 wget ftp://ftp.ebi.ac.uk/pub/databases/msd/pdbechem/files/mmcif.tar.gz
 tar -zxf mmcif.tar.gz
