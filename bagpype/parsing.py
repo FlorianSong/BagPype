@@ -233,18 +233,14 @@ class PDBParser(object):
         """ Runs the command-line program Reduce to add hydrogens
         to the specified pdb file
         """
-
-        subprocess.call(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
+        if sys.platform.startswith("linux"):
+            subprocess.run(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/het_dict.txt ' 
                         + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
                         + '_H.pdb', shell=True)
+        else:
+            warnings.warn("Sorry, but adding hydrogens with Reduce is currently only implemented for Linux based operating systems.")
 
-        # subprocess.call('python ' + bagpype.settings.DEPENDENCIES_ROOT +
-        #                 '/atom_renumbering.py ' + self.pdb_final[0:-4] + 
-        #                 '_H_temp.pdb' + ' > ' + self.pdb_final[0:-4] + '_H.pdb',
-        #                 shell=True)
-        
-        # os.remove(self.pdb_final[0:-4] + '_H_temp.pdb')
         self.pdb_final = self.pdb_final[0:-4] + '_H.pdb'
         
 
