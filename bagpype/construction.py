@@ -2,6 +2,7 @@ import networkx as nx
 import bagpype.parameters
 import bagpype.settings
 import bagpype.molecules
+import bagpype.parsing
 import scipy 
 import numpy as np
 import time

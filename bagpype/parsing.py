@@ -12,6 +12,7 @@ import bagpype.molecules
 import warnings
 import sys
 import array
+import shutil
 
 
 
@@ -63,8 +64,22 @@ class PDBParser(object):
           specifies whether LINK entries should be removed 
           from the PDB file
         """
-    
-        if strip_ANISOU:
+
+        # Sanity check whether file actually exists
+        if not os.path.isfile(self.pdb_final):
+            raise IOError("Couldn't open PDB file " + self.pdb_final)
+        
+        # Making a copy of the original file, so that it is preserved and all changes are made to copied file
+        shutil.copyfile(self.pdb_final, self.pdb_final[0:-4] + '_stripped.pdb')
+        self.pdb_final = self.pdb_final[0:-4] + '_stripped.pdb'
+
+        # Detect whether ANISOU entries are present and strip if wanted.
+        are_anisou_entries_present = False
+        with open(self.pdb_final) as f:
+            for line in f:
+                if line.startswith("ANISOU"):
+                    are_anisou_entries_present = True
+        if strip_ANISOU and are_anisou_entries_present:
             print("Removing ANISOU entries")
             self.strip_ANISOU()
 
@@ -81,10 +96,8 @@ class PDBParser(object):
             raise TypeError("'strip' should be a dict")
         self.strip_atoms(strip)
 
-
         if alternate_location is not None:
             self.strip_alternate_location(alternate_location)
-
 
         self.renumber_atoms()
 
@@ -109,24 +122,27 @@ class PDBParser(object):
         grep and cat bash commands
 
         """
-        subprocess.call("grep -v ANISOU " + self.pdb_final + " > " + 
-                        self.pdb_final[0:-4] + "_temp.pdb",
-                        shell = True)
-        subprocess.call("cat " + self.pdb_final[0:-4] + "_temp.pdb > " + 
-                        self.pdb_final, 
-                        shell = True) 
-        os.remove(self.pdb_final[0:-4] + "_temp.pdb")
+        out_lines = []
+        with open(self.pdb_final, "r") as f:
+            for line in f:
+                if not line.startswith("ANISOU"):
+                    out_lines.append(line)
+        with open(self.pdb_final, "w") as f:
+            f.writelines(out_lines)
 
     def remove_LINK_entries(self):
-        subprocess.call("grep -v LINK " + self.pdb_final + " > " + 
-                        self.pdb_final[0:-4] + "_temp.pdb", shell = True)
-        subprocess.call("cat " + self.pdb_final[0:-4] + "_temp.pdb > " + 
-                        self.pdb_final, shell = True)
-        os.remove(self.pdb_final[0:-4] + "_temp.pdb")
+        out_lines = []
+        with open(self.pdb_final, "r") as f:
+            for line in f:
+                if not line.startswith("LINK"):
+                    out_lines.append(line)
+        with open(self.pdb_final, "w") as f:
+            f.writelines(out_lines)
 
     def strip_atoms(self, strip):
         """Creates a new PDB file with atoms specified in the dictionary
         'strip' removed.
+        "CONECT" entries are also removed.
         
         Parameters
         ----------
@@ -142,7 +158,7 @@ class PDBParser(object):
             strip['res_name'] = strip.get('res_name', []) + aa_to_eliminate
             
         old_f = open(self.pdb_final, 'r')
-        new_f = open(self.pdb_final[0:-4] + '_stripped.pdb', 'w')
+        new_f = open(self.pdb_final[0:-4] + '_stripped_temp.pdb', 'w')
         print("Stripping unwanted atom types from the PDB file", ( strip['res_name'] ))
         for line in old_f:
             if line.startswith('ATOM') or line.startswith('HETATM'):
@@ -161,8 +177,8 @@ class PDBParser(object):
                 continue
             else:
                 new_f.write(line)
-
-        self.pdb_final = self.pdb_final[0:-4] + '_stripped.pdb'
+        
+        shutil.move(self.pdb_final[0:-4] + '_stripped_temp.pdb', self.pdb_final)
 
 
     def strip_alternate_location(self, alternate_location):
@@ -206,12 +222,7 @@ class PDBParser(object):
         file is assumed to have had hydrogens previously added.
         """
 
-        try:
-            pdbf = open(self.pdb_final,'r')
-        except:
-            raise IOError("Couldn't open PDB file " + self.pdb_final + 
-                            "to check for hydrogens")
-
+        pdbf = open(self.pdb_final,'r')
         for line in pdbf:
             if line[0:4] == 'ATOM' and line[13] == 'H':
                 return True
