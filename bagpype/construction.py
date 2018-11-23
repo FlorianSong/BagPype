@@ -303,17 +303,19 @@ class Graph_constructor(object):
                         theta = self.get_angle(donor, hydrogen, acceptor)
 
                         if self.donor_H_acceptor_min <= np.rad2deg(theta) <= self.donor_H_acceptor_max:
-                            
-                            if self.is_salt_bridge(hydrogen, donor, acceptor):
-                                bond_strength = self.compute_salt_bridge_energy(d)
 
+                            salt_bridge_indicator = self.is_salt_bridge(hydrogen, donor, acceptor)
+                            
+                            if salt_bridge_indicator:
+                                bond_strength = self.compute_salt_bridge_energy(d)
                             else:
                                 bond_strength = self.compute_hydrogen_bond_energy(hydrogen, donor, acceptor, d, theta)
 
-                            if  bond_strength is not None and bond_strength < energy_cutoff:
+                            if bond_strength is not None and (bond_strength < energy_cutoff or (salt_bridge_indicator and bond_strength < 0)):
                                 atom1, atom2 = hydrogen, acceptor
                                 bond_strength *= -self.k_factor*4.184/6.022
-                                self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'HYDROGEN'))
+                                # bond_strength = abs(bond_strength)
+                                self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, {True: "SALTBRIDGE", False:"HYDROGEN"}[salt_bridge_indicator]))
 
     def get_angle(self, atom1, atom2, atom3):
         """ Finds the angle formed by the three input atoms, where atom2 is the vertex of the angle.
