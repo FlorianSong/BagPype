@@ -158,7 +158,7 @@ class PDBParser(object):
             strip['res_name'] = strip.get('res_name', []) + aa_to_eliminate
             
         old_f = open(self.pdb_final, 'r')
-        new_f = open(self.pdb_final[0:-4] + '_stripped_temp.pdb', 'w')
+        new_f = open(self.pdb_final[0:-4] + '_temp.pdb', 'w')
         print("Stripping unwanted atom types from the PDB file", ( strip['res_name'] ))
         for line in old_f:
             if line.startswith('ATOM') or line.startswith('HETATM'):
@@ -177,8 +177,10 @@ class PDBParser(object):
                 continue
             else:
                 new_f.write(line)
+        old_f.close()
+        new_f.close()
         
-        shutil.move(self.pdb_final[0:-4] + '_stripped_temp.pdb', self.pdb_final)
+        shutil.move(self.pdb_final[0:-4] + '_temp.pdb', self.pdb_final)
 
 
     def strip_alternate_location(self, alternate_location):
@@ -222,11 +224,11 @@ class PDBParser(object):
         file is assumed to have had hydrogens previously added.
         """
 
-        pdbf = open(self.pdb_final,'r')
-        for line in pdbf:
-            if line[0:4] == 'ATOM' and line[13] == 'H':
-                return True
-        return False
+        with open(self.pdb_final,'r') as pdbf:
+            for line in pdbf:
+                if line[0:4] == 'ATOM' and line[13] == 'H':
+                    return True
+            return False
 
 
     def add_hydrogens(self):
@@ -244,7 +246,7 @@ class PDBParser(object):
                         + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
                         + '_H.pdb', shell=True)
         else:
-            warnings.warn("Sorry, but adding hydrogens with Reduce is currently only implemented for UNIX based operating systems.")
+            print("Sorry, but adding hydrogens with Reduce is currently only implemented for UNIX based operating systems.")
 
         self.pdb_final = self.pdb_final[0:-4] + '_H.pdb'
         
@@ -290,13 +292,13 @@ class PDBParser(object):
         """ Checks if there are multiple models in the PDB file
         """
     
-        pdbf = open(self.pdb_final, 'r')
-        models = False
-        for line in pdbf:
-            if line.startswith('MODEL'):
-                models = True
-                break
-        return models
+        with open(self.pdb_final, 'r') as pdbf:
+            models = False
+            for line in pdbf:
+                if line.startswith('MODEL'):
+                    models = True
+                    break
+            return models
 
 
     def combine_models(self):
@@ -304,8 +306,9 @@ class PDBParser(object):
         are renamed so that they do not clash.
         """
 
-        pdbf = open(self.pdb_final, 'r')
-        lines = pdbf.readlines()
+        with open(self.pdb_final, 'r') as pdbf:
+            lines = pdbf.readlines()
+        
         lines_new = []
         for i, line in enumerate(lines):
             lines_new.append(list(line.rstrip('\r\n')))
