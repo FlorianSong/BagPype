@@ -10,6 +10,9 @@ import bagpype.parameters
 import bagpype.settings
 import bagpype.molecules
 import warnings
+import sys
+import array
+
 
 
 
@@ -31,9 +34,9 @@ class PDBParser(object):
     """
 
     def __init__(self, pdb_filename):
-        self.pdb = pdb_filename
+        # self.pdb = pdb_filename
         # filename after adding hydrogens/stripping unwanted atoms etc.
-        self.pdb_final = self.pdb         
+        self.pdb_final = pdb_filename
         
     def parse(self, protein, bio=False, model=None, chain='all', 
                 strip='default', strip_ANISOU=True, remove_LINK=False,
@@ -88,7 +91,9 @@ class PDBParser(object):
         if add_H or not self.has_hydrogens():
             print("Adding hydrogens to PDB file")
             self.add_hydrogens()
-        
+
+        self.renumber_atoms()
+
         # Parse individual lines of the pdb file
         print("Loading atoms into protein object")
         (protein.atoms,
@@ -115,7 +120,7 @@ class PDBParser(object):
     def remove_LINK_entries(self):
         subprocess.call("grep -v LINK " + self.pdb_final + " > " + 
                         self.pdb_final[0:-4] + "_temp.pdb", shell = True)
-        subprocess.call("cat " + self.pdb[0:-4] + "_temp.pdb > " + 
+        subprocess.call("cat " + self.pdb_final[0:-4] + "_temp.pdb > " + 
                         self.pdb_final, shell = True)
         os.remove(self.pdb_final[0:-4] + "_temp.pdb")
 
@@ -161,7 +166,6 @@ class PDBParser(object):
 
 
     def strip_alternate_location(self, alternate_location):
-        print(self.pdb_final)
         with open(self.pdb_final, "r") as f:
             lines = f.readlines()
         f.close()
@@ -178,12 +182,24 @@ class PDBParser(object):
 
     
     def renumber_atoms(self):
-        subprocess.call('python ' + bagpype.settings.DEPENDENCIES_ROOT +
-                        '/atom_renumbering.py ' + self.pdb_final + ' > ' + 
-                        self.pdb_final[0:-4] + '_temp.pdb',
-                        shell=True)
-        subprocess.call('mv ' + self.pdb_final[0:-4] + '_temp.pdb ' + self.pdb_final, 
-                        shell=True)
+        # This function renumbers the ATOM and HETATM records following the output from reduce such that they can be treated by FIRST
+        fin = open(self.pdb_final, 'r')
+        number=0
+
+        final_lines = []
+
+        for line in fin:
+            temp = list(line)
+            if line.startswith("ATOM") or line.startswith("HETATM"):
+                number = number+1
+                temp[6+(5-len(str(number))):11] =  list(str(number))
+                dummy='     '
+                temp[6:6+(5-len(str(number)))] = list(dummy[0:(5-len(str(number)))])
+            final_lines+= ["".join(temp)]
+        fin.close()
+        with open(self.pdb_final, "w") as fout:
+            fout.writelines(final_lines)      
+
 
     def has_hydrogens(self):
         """Search PDB file for hydrogen atoms. If one is found the 
@@ -210,14 +226,14 @@ class PDBParser(object):
         subprocess.call(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/het_dict.txt ' 
                         + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
-                        + '_H_temp.pdb', shell=True)
+                        + '_H.pdb', shell=True)
+
+        # subprocess.call('python ' + bagpype.settings.DEPENDENCIES_ROOT +
+        #                 '/atom_renumbering.py ' + self.pdb_final[0:-4] + 
+        #                 '_H_temp.pdb' + ' > ' + self.pdb_final[0:-4] + '_H.pdb',
+        #                 shell=True)
         
-        subprocess.call('python ' + bagpype.settings.DEPENDENCIES_ROOT +
-                        '/atom_renumbering.py ' + self.pdb_final[0:-4] + 
-                        '_H_temp.pdb' + ' > ' + self.pdb_final[0:-4] + '_H.pdb',
-                        shell=True)
-        
-        os.remove(self.pdb_final[0:-4] + '_H_temp.pdb')
+        # os.remove(self.pdb_final[0:-4] + '_H_temp.pdb')
         self.pdb_final = self.pdb_final[0:-4] + '_H.pdb'
         
 
