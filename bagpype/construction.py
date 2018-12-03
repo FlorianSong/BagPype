@@ -217,7 +217,7 @@ class Graph_constructor(object):
     def add_covalent_bonds_using_distance_contraints(self, atom1, atom2, print_warnings = False):
         if self.within_cov_bonding_distance(atom1, atom2):
             if print_warnings:
-                print(("Adding bond between " + str(atom1.id) + " " + atom1.name + " in res " + atom1.res_name + atom1.res_num + 
+                print(("WARNING: Adding bond between " + str(atom1.id) + " " + atom1.name + " in res " + atom1.res_name + atom1.res_num + 
                        " and " + str(atom2.id) + " " + atom2.name + " in res " + atom2.res_name + atom2.res_num + " based on distance constraints using single bond energies!"))
             strength = bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
         else:

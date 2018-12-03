@@ -234,14 +234,15 @@ class PDBParser(object):
     def add_hydrogens(self):
         """ Runs the command-line program Reduce to add hydrogens
         to the specified pdb file
+        Runs with subprocess.call to retain compatibility with Python2.7
         """
         if sys.platform.startswith("linux"):
-            subprocess.run(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
+            subprocess.call(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/het_dict.txt ' 
                         + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
                         + '_H.pdb', shell=True)
         elif sys.platform.startswith("darwin"):
-            subprocess.run(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
+            subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/het_dict.txt ' 
                         + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
                         + '_H.pdb', shell=True)
