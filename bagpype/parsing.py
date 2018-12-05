@@ -81,43 +81,43 @@ class PDBParser(object):
                     are_anisou_entries_present = True
         if strip_ANISOU and are_anisou_entries_present:
             print("Removing ANISOU entries")
-            self.strip_ANISOU()
+            self._strip_ANISOU()
 
         # Symmetric subunits are often stored as separate models in bio files         
-        if self.check_models():
+        if self._check_models():
             print("Combining models")
-            self.combine_models()
+            self._combine_models()
 
         if remove_LINK:
             print("Removing LINK entries")
-            self.remove_LINK_entries()
+            self._remove_LINK_entries()
 
         if not (strip=='default' or isinstance(strip, dict)):
             raise TypeError("'strip' should be a dict")
-        self.strip_atoms(strip)
+        self._strip_atoms(strip)
 
         if alternate_location is not None:
-            self.strip_alternate_location(alternate_location)
+            self._strip_alternate_location(alternate_location)
 
-        self.renumber_atoms()
+        self._renumber_atoms()
 
-        if add_H or not self.has_hydrogens():
+        if add_H or not self._has_hydrogens():
             print("Adding hydrogens to PDB file")
-            self.add_hydrogens()
+            self._add_hydrogens()
 
-        self.renumber_atoms()
+        self._renumber_atoms()
 
         # Parse individual lines of the pdb file
         print("Loading atoms into protein object")
         (protein.atoms,
          protein.residues,
          protein.chains,
-         protein.pdbNum_to_atomID) = self.parse_pdb_lines(model, chain)
+         protein.pdbNum_to_atomID) = self._parse_pdb_lines(model, chain)
         
         protein.pdb_id = self.pdb_final
 
 
-    def strip_ANISOU(self):
+    def _strip_ANISOU(self):
         """Strips ANISOU records from the PDB file by calling 
         grep and cat bash commands
 
@@ -130,7 +130,7 @@ class PDBParser(object):
         with open(self.pdb_final, "w") as f:
             f.writelines(out_lines)
 
-    def remove_LINK_entries(self):
+    def _remove_LINK_entries(self):
         out_lines = []
         with open(self.pdb_final, "r") as f:
             for line in f:
@@ -139,7 +139,7 @@ class PDBParser(object):
         with open(self.pdb_final, "w") as f:
             f.writelines(out_lines)
 
-    def strip_atoms(self, strip):
+    def _strip_atoms(self, strip):
         """Creates a new PDB file with atoms specified in the dictionary
         'strip' removed.
         "CONECT" entries are also removed.
@@ -157,36 +157,32 @@ class PDBParser(object):
         else:
             strip['res_name'] = strip.get('res_name', []) + aa_to_eliminate
             
-        old_f = open(self.pdb_final, 'r')
-        new_f = open(self.pdb_final[0:-4] + '_temp.pdb', 'w')
-        print("Stripping unwanted atom types from the PDB file", ( strip['res_name'] ))
-        for line in old_f:
-            if line.startswith('ATOM') or line.startswith('HETATM'):
-                atom = parse_atom_line(line)
-                if (
-                        atom.PDBnum not in strip.get('PDBnum', []) and
-                        atom.name not in strip.get('name', []) and
-                        atom.element not in strip.get('element', []) and
-                        atom.chain not in strip.get('chain', []) and
-                        atom.res_num not in strip.get('res_num', []) and
-                        atom.res_name not in strip.get('res_name', []) and
-                        [atom.res_num, atom.chain] not in strip.get('residues', [])
-                ):
+        with open(self.pdb_final, 'r') as old_f, open(self.pdb_final[0:-4] + '_temp.pdb', 'w') as new_f:
+            print("Stripping unwanted atom types from the PDB file", ( strip['res_name'] ))
+            for line in old_f:
+                if line.startswith('ATOM') or line.startswith('HETATM'):
+                    atom = _parse_atom_line(line)
+                    if (
+                            atom.PDBnum not in strip.get('PDBnum', []) and
+                            atom.name not in strip.get('name', []) and
+                            atom.element not in strip.get('element', []) and
+                            atom.chain not in strip.get('chain', []) and
+                            atom.res_num not in strip.get('res_num', []) and
+                            atom.res_name not in strip.get('res_name', []) and
+                            [atom.res_num, atom.chain] not in strip.get('residues', [])
+                    ):
+                        new_f.write(line)
+                elif line.startswith('CONECT'):
+                    continue
+                else:
                     new_f.write(line)
-            elif line.startswith('CONECT'):
-                continue
-            else:
-                new_f.write(line)
-        old_f.close()
-        new_f.close()
         
         shutil.move(self.pdb_final[0:-4] + '_temp.pdb', self.pdb_final)
 
 
-    def strip_alternate_location(self, alternate_location):
+    def _strip_alternate_location(self, alternate_location):
         with open(self.pdb_final, "r") as f:
             lines = f.readlines()
-        f.close()
         lines2 = []
         for l in lines:
             if l.startswith("ATOM") or l.startswith("HETATM"): 
@@ -196,30 +192,28 @@ class PDBParser(object):
                 lines2 += l
         with open(self.pdb_final, "w") as f:
             f.writelines(lines2)
-        f.close()
 
     
-    def renumber_atoms(self):
+    def _renumber_atoms(self):
         # This function renumbers the ATOM and HETATM records following the output from reduce such that they can be treated by FIRST
-        fin = open(self.pdb_final, 'r')
-        number=0
+        with open(self.pdb_final, 'r') as fin:
+            number=0
 
-        final_lines = []
+            final_lines = []
 
-        for line in fin:
-            temp = list(line)
-            if line.startswith("ATOM") or line.startswith("HETATM"):
-                number = number+1
-                temp[6+(5-len(str(number))):11] =  list(str(number))
-                dummy='     '
-                temp[6:6+(5-len(str(number)))] = list(dummy[0:(5-len(str(number)))])
-            final_lines+= ["".join(temp)]
-        fin.close()
+            for line in fin:
+                temp = list(line)
+                if line.startswith("ATOM") or line.startswith("HETATM"):
+                    number = number+1
+                    temp[6+(5-len(str(number))):11] =  list(str(number))
+                    dummy='     '
+                    temp[6:6+(5-len(str(number)))] = list(dummy[0:(5-len(str(number)))])
+                final_lines+= ["".join(temp)]
         with open(self.pdb_final, "w") as fout:
             fout.writelines(final_lines)      
 
 
-    def has_hydrogens(self):
+    def _has_hydrogens(self):
         """Search PDB file for hydrogen atoms. If one is found the 
         file is assumed to have had hydrogens previously added.
         """
@@ -231,7 +225,7 @@ class PDBParser(object):
             return False
 
 
-    def add_hydrogens(self):
+    def _add_hydrogens(self):
         """ Runs the command-line program Reduce to add hydrogens
         to the specified pdb file
         Runs with subprocess.call to retain compatibility with Python2.7
@@ -252,7 +246,7 @@ class PDBParser(object):
         self.pdb_final = self.pdb_final[0:-4] + '_H.pdb'
         
 
-    def parse_pdb_lines(self, model, chain):
+    def _parse_pdb_lines(self, model, chain):
         """Parses the details of the atoms from a pdb file.
 
         Returns
@@ -271,7 +265,7 @@ class PDBParser(object):
         pdbNum_to_atomID = defaultdict(list)
                         
         #TO DO : use a generator here
-        atoms = load_atoms(self.pdb_final, model=model, chain=chain)
+        atoms = _load_atoms(self.pdb_final, model=model, chain=chain)
         
         for atom in atoms:
             residues[(atom.res_num, atom.chain)].append(atom.id)
@@ -289,20 +283,18 @@ class PDBParser(object):
         
         return pdb_data
 
-    def check_models(self):
+    def _check_models(self):
         """ Checks if there are multiple models in the PDB file
         """
     
         with open(self.pdb_final, 'r') as pdbf:
-            models = False
             for line in pdbf:
                 if line.startswith('MODEL'):
-                    models = True
-                    break
-            return models
+                    return True
+            return False
 
 
-    def combine_models(self):
+    def _combine_models(self):
         """ Combine multiple models into a single model. Chains and atoms
         are renamed so that they do not clash.
         """
@@ -384,15 +376,14 @@ class PDBParser(object):
             lines_new.pop(lineNumbers[model][1]-i)
             i += 1
 
-        f = open(self.pdb_final, 'w')
-        for line in lines_new:
-            print(line, file = f)
-        f.close()
+        with open(self.pdb_final, 'w') as f:
+            for line in lines_new:
+                print(line, file = f)
 
         return True
 
 
-def load_atoms(pdb, PDBnum='all', name='all', res_name='all', chain = 'all',
+def _load_atoms(pdb, PDBnum='all', name='all', res_name='all', chain = 'all',
                res_num='all', model=None):
     """ Load a list of atoms from a pdb file
     
@@ -412,7 +403,7 @@ def load_atoms(pdb, PDBnum='all', name='all', res_name='all', chain = 'all',
                     or model is None):
                     currentModel = True
             if line.startswith('ATOM') or line.startswith('HETATM'):
-                atom = parse_atom_line(line)
+                atom = _parse_atom_line(line)
                 if (
                     currentModel and 
                     (PDBnum == 'all' or atom.PDBnum in PDBnum) and
@@ -428,7 +419,7 @@ def load_atoms(pdb, PDBnum='all', name='all', res_name='all', chain = 'all',
                         currentModel = False
     return atoms
         
-def parse_atom_line(line):
+def _parse_atom_line(line):
     """ Extract data from a single ATOM line in a pdb file
 
     Returns

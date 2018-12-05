@@ -20,3 +20,5 @@ def standard_run(pdb_file):
 
     ggenerator = bagpype.construction.Graph_constructor()
     ggenerator.construct_graph(myprot)
+
+    return(myprot)

@@ -56,7 +56,7 @@ class Graph_constructor(object):
         
         time1 = time.time()
 
-        self.initialise_possible_bonds()
+        self._initialise_possible_bonds()
         self.find_covalent_bonds()
 
         # This has to be done so that the other functions can use the covalent bonds too:
@@ -109,7 +109,7 @@ class Graph_constructor(object):
         print(("    Time taken = %.2fs" % (time2-time1)))
 
 
-    def initialise_possible_bonds(self):
+    def _initialise_possible_bonds(self):
         """ Initialises all possible bonds (ie all atoms within certain distance of atom), which saves a lot of computing time later 
         Relies on the fact that atom ids run from 0 to # of atoms
         """
@@ -1314,7 +1314,7 @@ class Graph_constructor(object):
                 LINK_atom = LINK_bond[i]
                 for line in lines:
                     if (line.startswith('ATOM') or line.startswith('HETATM')):
-                        atom = bagpype.parsing.parse_atom_line(line)
+                        atom = bagpype.parsing._parse_atom_line(line)
                         if ( LINK_atom['name'] == atom.name and
                              LINK_atom['res_name'] == atom.res_name and
                              LINK_atom['res_num'] == atom.res_num and
