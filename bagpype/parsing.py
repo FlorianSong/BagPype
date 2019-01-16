@@ -1,19 +1,21 @@
 from __future__ import print_function
 import networkx as nx
 import os
+import warnings
+import sys
+import array
+import shutil
 import subprocess
 from collections import defaultdict
 import string
 import numpy as np
 import csv
+
 import bagpype.parameters
 import bagpype.settings
 import bagpype.molecules
-import warnings
-import sys
-import array
-import shutil
-
+# from bagpype.construction import within_cov_bonding_distance
+import bagpype.construction
 
 
 
@@ -104,6 +106,7 @@ class PDBParser(object):
         if add_H or not self._has_hydrogens():
             print("Adding hydrogens to PDB file")
             self._add_hydrogens()
+            print("Finished adding hydrogens")
 
         self._renumber_atoms()
 
@@ -115,6 +118,8 @@ class PDBParser(object):
          protein.pdbNum_to_atomID) = self._parse_pdb_lines(model, chain)
         
         protein.pdb_id = self.pdb_final
+
+        protein.LINKs = self._parse_LINK()
 
 
     def _strip_ANISOU(self):
@@ -131,6 +136,8 @@ class PDBParser(object):
             f.writelines(out_lines)
 
     def _remove_LINK_entries(self):
+        """Removes LINK entries.
+        """
         out_lines = []
         with open(self.pdb_final, "r") as f:
             for line in f:
@@ -264,7 +271,6 @@ class PDBParser(object):
         chains = defaultdict(list)
         pdbNum_to_atomID = defaultdict(list)
                         
-        #TO DO : use a generator here
         atoms = _load_atoms(self.pdb_final, model=model, chain=chain)
         
         for atom in atoms:
@@ -383,6 +389,35 @@ class PDBParser(object):
         return True
 
 
+
+    def _parse_LINK(self):
+        """Find the PDB numbers of the atoms in the LINK entries of
+        a pdb file and the bond length of the specified interactions
+        """
+
+        with open(self.pdb_final, 'r') as pdb:
+            lines = pdb.readlines()
+        LINK_bonds = []
+        for line in lines:
+            if line.startswith('LINK'):
+                atom1 = {'name':line[12:16].strip(), 
+                         'res_name': line[17:20].strip(), 
+                         'res_num': line[22:26].strip(),
+                         'chain': line[21]}
+                atom2 = {'name': line[42:46].strip(), 
+                         'res_name': line[47:50].strip(), 
+                         'res_num': line[52:56].strip(),
+                         'chain': line[51]}
+                distance_between = float(line[74:78])
+                LINK_bonds.append((atom1, atom2, distance_between))
+        return LINK_bonds
+        
+
+
+
+
+
+
 def _load_atoms(pdb, PDBnum='all', name='all', res_name='all', chain = 'all',
                res_num='all', model=None):
     """ Load a list of atoms from a pdb file
@@ -444,7 +479,7 @@ def _parse_atom_line(line):
                             float(line[46:54])])
                 
     # Create Atom object with this information
-    atom = bagpype.molecules.Atom(0, PDBnum, element, name,
+    atom = bagpype.molecules.Atom(-1, PDBnum, element, name,
                                         chainID, res_num, res_name,
                                         bfactor, coordinates)
     return atom

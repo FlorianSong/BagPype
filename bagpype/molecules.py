@@ -26,26 +26,26 @@ class Protein(object):
         self.residues = []
         self.pdbNum_to_atomID = []
     
-    def get_atoms(self, selection):
-        """ Returns atoms in specified residues.
+    # def get_atoms(self, selection):
+    #     """ Returns atoms in specified residues.
 
-        :param selection: List of residues with format (res_num, chain)
-        :type selection: list of tuples
+    #     :param selection: List of residues with format (res_num, chain)
+    #     :type selection: list of tuples
 
-        :returns: AtomList of atoms in the specified residues  
-        """
+    #     :returns: AtomList of atoms in the specified residues  
+    #     """
 
-        atoms = AtomList()
-        for residue in selection:
-            atoms += AtomList([self.atoms[i] 
-                               for i 
-                               in self.residues[residue]])
-        if atoms:
-            return atoms
-        else:
-            warnings.warn('Residue not found.  AtomList is empty', 
-                          RuntimeWarning)
-            return atoms
+    #     atoms = AtomList()
+    #     for residue in selection:
+    #         atoms += AtomList([self.atoms[i] 
+    #                            for i 
+    #                            in self.residues[residue]])
+    #     if atoms:
+    #         return atoms
+    #     else:
+    #         warnings.warn('Residue not found.  AtomList is empty', 
+    #                       RuntimeWarning)
+    #         return atoms
 
 class GNMProtein(object):
 
@@ -295,7 +295,8 @@ class Atom(object):
             (self.name == atom.name) and
             (self.chain == atom.chain) and
             (self.res_num == atom.res_num) and
-            (self.res_name == atom.res_name)):
+            (self.res_name == atom.res_name) and
+            (np.array_equal(self.xyz, atom.xyz))):
             return True
         else:
             return False

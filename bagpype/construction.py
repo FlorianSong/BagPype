@@ -35,6 +35,8 @@ class Graph_constructor(object):
 
         self.H_bond_energy_cutoff = -0.01
 
+        self.hydrophobic_RMST_gamma = 0.05
+
         # used to initialise all possible bonds
         # Should always be LARGER than the longest possible bond
         self.max_cutoff = 9 
@@ -52,11 +54,17 @@ class Graph_constructor(object):
         """
         # The protein should have already had atom data loaded
         # from the pdb file
+
+        print()
+        print("Graph constrution started")
+
         self.protein = protein
         
         time1 = time.time()
 
         self._initialise_possible_bonds()
+        self._process_LINKs()
+
         self.find_covalent_bonds()
 
         # This has to be done so that the other functions can use the covalent bonds too:
@@ -68,7 +76,7 @@ class Graph_constructor(object):
 
         # The following functions require knowledge of covalent bonds!
         self.find_hydrogen_bonds(energy_cutoff = self.H_bond_energy_cutoff) 
-        self.find_hydrophobics()
+        self.find_hydrophobics(gamma = self.hydrophobic_RMST_gamma)
         self.find_stacked()
         self.find_DNA_backbone()
         self.find_electrostatics()
@@ -87,13 +95,14 @@ class Graph_constructor(object):
             bond.id = id_counter
             graph.add_edge(bond.atom1.id, bond.atom2.id,
                             weight = bond.weight, 
-                            id = id_counter)
+                            id = id_counter,
+                            bond_type = bond.bond_type)
             id_counter += 1
             
 
         # Check graph is connected
         if nx.number_connected_components(graph) > 1:
-            print('Number of connected components is greater than 1.')
+            print('WARNING: Number of connected components is greater than 1.')
         
         protein.bonds = self.bonds
         protein.graph = graph
@@ -107,6 +116,7 @@ class Graph_constructor(object):
 
         print("Finished constructing the graph!")
         print(("    Time taken = %.2fs" % (time2-time1)))
+        print()
 
 
     def _initialise_possible_bonds(self):
@@ -167,6 +177,40 @@ class Graph_constructor(object):
         atom_df.to_csv(name, header = True, index = False)
 
 
+    def _process_LINKs(self):
+        print("Processing LINK entries...")
+        LINK_bonds = self.protein.LINKs
+        LINK_list = []
+
+        for LINK_bond in LINK_bonds:
+            found_atoms = [None, None]
+            for i in range(2):
+                found = False
+                LINK_atom = LINK_bond[i]
+                for atom in self.protein.atoms:
+                    if ( LINK_atom['name'] == atom.name and
+                        LINK_atom['res_name'] == atom.res_name and
+                        LINK_atom['res_num'] == atom.res_num and
+                        LINK_atom['chain'] == atom.chain ):
+                        found = True
+                        found_atoms[i] = atom
+                        break
+                if not found:
+                    print(
+                        ('WARNING: LINK atom {0} {1} {2} {3} not found'.format(LINK_atom['name'], 
+                                                                      LINK_atom['res_name'],
+                                                                      LINK_atom['res_num'],
+                                                                      LINK_atom['chain'])
+                         + '. Ignoring this LINK entry.')
+                    )
+                    found = False
+            if found_atoms[0] and found_atoms[1]:
+                is_covalent = bagpype.construction.within_cov_bonding_distance(found_atoms[0], found_atoms[1])
+                new_LINK_entry = (found_atoms, {"is_covalent":is_covalent, "distance":LINK_bond[2]})
+                LINK_list.append(new_LINK_entry)
+        self._LINK_list = LINK_list
+
+
 
     ##################
     # COVALENT BONDS #
@@ -184,7 +228,28 @@ class Graph_constructor(object):
                         self.add_intra_residue_bond(atom1, atom2, self.cov_bond_energies)
                     else:
                         self.add_inter_residue_bond(atom1, atom2)
+            
+        #################
+        # Covalent LINK entries        
+        are_there_LINK_covalent_bonds = bool(sum([x[1]["is_covalent"] for x in self._LINK_list]))
+        if are_there_LINK_covalent_bonds:
+            print("    Considering covalent LINK entries...")
 
+            # To avoid doubly adding covalent LINK entries where they have already been detected, we need the following list of covalent bonds
+            cov_bonds = [(bond.atom1.id, bond.atom2.id) for bond in self.bonds if "COVALENT" in bond.bond_type]
+            cov_bonds.extend([bond[::-1] for bond in cov_bonds])
+
+            for item in self._LINK_list:
+                atom1, atom2 = item[0]
+
+                # Is this LINK entry covalent and is this bond not already included?
+                if item[1]["is_covalent"] and (atom1.id, atom2.id) not in cov_bonds:
+
+                    bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2, print_warnings = True)
+                    if bond_strength is not None:
+                        bond_strength *= self.k_factor/6.022
+                        self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
+        #################
 
     def initialise_covbond_dictionary(self):
         list_of_present_residues = []
@@ -214,31 +279,6 @@ class Graph_constructor(object):
             bond_strength *= self.k_factor/6.022
             self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
 
-    def add_covalent_bonds_using_distance_contraints(self, atom1, atom2, print_warnings = False):
-        if self.within_cov_bonding_distance(atom1, atom2):
-            if print_warnings:
-                print(("WARNING: Adding bond between " + str(atom1.id) + " " + atom1.name + " in res " + atom1.res_name + atom1.res_num + 
-                       " and " + str(atom2.id) + " " + atom2.name + " in res " + atom2.res_name + atom2.res_num + " based on distance constraints using single bond energies!"))
-            strength = bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
-        else:
-            strength = None
-        return strength
-
-    def within_cov_bonding_distance(self, atom1, atom2):
-        """ Checks distance between two atoms is within covalent
-        bonding distance for that pair of elements.  Uses the
-        parameters specified in the distance_cutoffs dict.
-        """
-        try:
-            cutoff = bagpype.parameters.distance_cutoffs[(atom1.element, atom2.element)]
-        except KeyError:
-            try:
-                cutoff = bagpype.parameters.distance_cutoffs[(atom2.element, atom1.element)]
-            except KeyError:
-                raise KeyError("The distance cutoff between " + atom1.element + 
-                    " and " + atom2.element + " does not exist in the parameters. Please add the relevant value.")
-        return True if distance_between_two_atoms(atom1, atom2) < cutoff else False
-            
     def add_inter_residue_bond(self, atom1, atom2):
         # peptide bond, disulfide bridge and nucleic bond
         conditions = \
@@ -254,7 +294,15 @@ class Graph_constructor(object):
                 bond_strength *= self.k_factor/6.022
                 self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
 
-
+    def add_covalent_bonds_using_distance_contraints(self, atom1, atom2, print_warnings = False):
+        if within_cov_bonding_distance(atom1, atom2):
+            if print_warnings:
+                print(("WARNING: Adding bond between " + str(atom1.id) + " " + atom1.name + " in res " + atom1.res_name + atom1.res_num + 
+                       " and " + str(atom2.id) + " " + atom2.name + " in res " + atom2.res_name + atom2.res_num + " based on distance constraints using single bond energies!"))
+            strength = bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
+        else:
+            strength = None
+        return strength
 
 
 
@@ -847,7 +895,7 @@ class Graph_constructor(object):
     # HYDROPHOBIC INTERACTIONS #
     ############################
 
-    def find_hydrophobics(self):
+    def find_hydrophobics(self, gamma):
         """ 
         """
         print(("Finding hydrophobics..."))
@@ -880,7 +928,7 @@ class Graph_constructor(object):
                         # hphobic_graph.add_edge( atom1.id, atom2.id, weight = -energy, energy = energy)
                         hphobic_graph.add_edge( atom1.id, atom2.id, weight = -energy, distance = distance, energy = energy)
 
-        matches = self.hydrophobic_selection(hphobic_graph)
+        matches = self.hydrophobic_selection(hphobic_graph, gamma = gamma)
 
         # Finally, write all bonds to self.bonds
         for bond in matches:
@@ -891,9 +939,7 @@ class Graph_constructor(object):
                                                           bond_strength, 'HYDROPHOBIC'))
 
 
-    def hydrophobic_selection(self, graph):
-        gamma = 0.05
-
+    def hydrophobic_selection(self, graph, gamma):
         mst = nx.minimum_spanning_tree(graph, weight='energy')
         notmst = nx.difference(graph, mst)
 
@@ -929,7 +975,7 @@ class Graph_constructor(object):
             else:
                 not_accepted +=1
         
-        print("    Accepted: " + str(accepted) + " vs. not accepted: " + str(not_accepted) + "; MST size: " + str(len(mst.edges))  )
+        print("    RMST sparsification used. Accepted: " + str(accepted) + " vs. not accepted: " + str(not_accepted) + "; MST size: " + str(len(mst.edges))  )
         matches.sort()
 
         return matches
@@ -1231,44 +1277,35 @@ class Graph_constructor(object):
     ##############################
 
     def find_electrostatics(self):
-        """ Load electrostatic bonds using LINK entries in the PDB file.
+        """ Load electrostatic bonds using LINK entries in the PDB file. Some of these may be covalent bonds though. These are added as well.
         """
-        
+
         print(("Finding electrostatic interactions using LINK entries..."))
 
-        # Get atom numbers and bond length of LINK entries in PDB file
-        LINK_entries = self.parse_LINK_entries()
-        LINK_atoms_PDBnum = LINK_entries[0]
-        LINK_bond_distance = LINK_entries[1]
-
-        # Make a list of all covalent bonds and their reverse
-        cov_bonds = list(self.covalent_bonds_graph.edges())
-        cov_bonds_rev = [bond[::-1] for bond in cov_bonds]
-        cov_bonds.extend(cov_bonds_rev)
-        
         # epsilon is the dielectric constant
         epsilon = 4
-        for i in range(0, len(LINK_atoms_PDBnum), 2):
-            atom1 = self.protein.atoms[self.protein.pdbNum_to_atomID[LINK_atoms_PDBnum[i]]]
-            atom2 = self.protein.atoms[self.protein.pdbNum_to_atomID[LINK_atoms_PDBnum[i+1]]]        
-            bond_length = LINK_bond_distance[int(i/2)]
 
+        for LINK_entry in self._LINK_list:
+            
+            # Load the two atoms from the LINK entry parsed in parsing.
+            atom1, atom2 = LINK_entry[0]
+            
+            # The bond distance given in the LINK entry is not always accurate.
+            bond_length = distance_between_two_atoms(atom1, atom2)
+            if LINK_entry[1]["distance"] != round(bond_length,2):
+                print(("WARNING: The LINK entry between {} and {} has a different distance value than the computed one (rounded to two decimal places):" \
+                                " Computed = {}, in PDB = {}. The computed one will be used.").format(atom1, atom2, bond_length, LINK_entry[1]["distance"]))
 
-            # Treat as covalent bond if length is less than 1.8A
-            if (self.within_cov_bonding_distance(atom1, atom2) and 
-                (LINK_atoms_PDBnum[i], LINK_atoms_PDBnum[i+1]) not in cov_bonds):
-
-                if in_same_residue(atom1, atom2):
-                    self.add_intra_residue_bond(atom1, atom2, self.cov_bond_energies)
-                else:
-                    self.add_inter_residue_bond(atom1, atom2)
-
+            if LINK_entry[1]["is_covalent"]:
+                # For this case, see find_covalent().
+                pass 
             else:
                 try:
                     # Find charges of the two atoms using charge database 
                     # in bagpype.parameters file
                     charge1 = bagpype.parameters.charges[atom1.res_name][atom1.name]
                     charge2 = bagpype.parameters.charges[atom2.res_name][atom2.name]
+
                     # Calculate bond strength using Coulomb's law
                     bond_strength = (332*charge1*charge2)/(epsilon*bond_length)
                     bond_strength *= (-self.k_factor*4.184/6.022)
@@ -1278,71 +1315,11 @@ class Graph_constructor(object):
                                                             'ELECTROSTATIC')
                         self.bonds.append(bond)
                 except(KeyError):
-                    KeyError("Charge of atom {0} from residue {1} ".format(atom1.name, 
+                    print("WARNING: Charge of atom {0} from residue {1} ".format(atom1.name, 
                                                                         atom1.res_name) + 
                             "or atom {0} from residue {1} ".format(atom2.name, 
                                                                     atom2.res_name) + 
-                            "could not be found in the charge database, please update")
-
-    def parse_LINK_entries(self):
-        """Find the PDB numbers of the atoms in the LINK entries of
-        a pdb file and the bond length of the specified interactions
-        """
-
-        pdb = open(self.protein.pdb_id, 'r')
-        lines = pdb.readlines()
-        LINK_bonds = []
-        LINK_bond_distance = []
-        for line in lines:
-            if line.startswith('LINK'):
-                atom1 = {'name':line[12:16].strip(), 
-                         'res_name': line[17:20].strip(), 
-                         'res_num': line[22:26].strip(),
-                         'chain': line[21]}
-                atom2 = {'name': line[42:46].strip(), 
-                         'res_name': line[47:50].strip(), 
-                         'res_num': line[52:56].strip(),
-                         'chain': line[51]}
-                LINK_bonds.append((atom1, atom2))
-                LINK_bond_distance.append(float(line[74:78]))
-        
-        LINK_atoms_PDBnum = []
-        for LINK_bond in LINK_bonds:
-            found_atoms = [None, None]
-            for i in range(2):
-                found = False
-                LINK_atom = LINK_bond[i]
-                for line in lines:
-                    if (line.startswith('ATOM') or line.startswith('HETATM')):
-                        atom = bagpype.parsing._parse_atom_line(line)
-                        if ( LINK_atom['name'] == atom.name and
-                             LINK_atom['res_name'] == atom.res_name and
-                             LINK_atom['res_num'] == atom.res_num and
-                             LINK_atom['chain'] == atom.chain ):
-                            found = True
-                            found_atoms[i] = atom
-                            break
-                if not found:
-                    print(
-                        ('WARNING: LINK atom {0} {1} {2} {3} not found'.format(LINK_atom['name'], 
-                                                                      LINK_atom['res_name'],
-                                                                      LINK_atom['res_num'],
-                                                                      LINK_atom['chain'])
-                         + '. Ignoring this LINK entry.')
-                    )
-                    found = False
-            if found_atoms[0] and found_atoms[1]:
-                LINK_atoms_PDBnum.extend([found_atoms[0].PDBnum, found_atoms[1].PDBnum])
-
-        assert len(LINK_atoms_PDBnum) % 2 == 0, "Odd number of LINK atoms"
-
-        return (LINK_atoms_PDBnum, LINK_bond_distance)
-
-
-
-
-
-
+                            "could not be found in the charge database, please update. Ignoring this LINK entry for now.")
 
 
 
@@ -1365,6 +1342,22 @@ def sec_neighborhood(G, node):
         sec_nbhood.update(G.neighbors(n))
     sec_nbhood.remove(node)
     return list(sec_nbhood)
+
+def within_cov_bonding_distance(atom1, atom2):
+    """ Checks distance between two atoms is within covalent
+    bonding distance for that pair of elements.  Uses the
+    parameters specified in the distance_cutoffs dict.
+    """
+    try:
+        cutoff = bagpype.parameters.distance_cutoffs[(atom1.element, atom2.element)]
+    except KeyError:
+        try:
+            cutoff = bagpype.parameters.distance_cutoffs[(atom2.element, atom1.element)]
+        except KeyError:
+            raise KeyError("The distance cutoff between " + atom1.element + 
+                " and " + atom2.element + " does not exist in the parameters. Please add the relevant value.")
+    return True if distance_between_two_atoms(atom1, atom2) < cutoff else False
+
 
 def in_third_neighbourhood(G,source_atom, target_atom):
     """ check if a node is within distance at most d=3 from another node
