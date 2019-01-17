@@ -40,6 +40,11 @@ def generate_energies_dictionary(AA):
     ('P', 'S'): 335,
     }
 
+    triplebond_energies = {
+    ("C", "N"): 887,
+    ("C", "O"): 1071,
+    }
+
 
     if type(AA) == "str":
         AA = [AA]
@@ -151,6 +156,14 @@ def generate_energies_dictionary(AA):
                         bond_strength = doublebond_energies[lookup_reversed]
                     except KeyError:
                         raise Exception("Please add the double bond between " + atom1_element + " and " + atom2_element)
+            elif bond_type == "TRIP":
+                try:
+                    bond_strength = triplebond_energies[lookup]
+                except KeyError:
+                    try:
+                        bond_strength = triplebond_energies[lookup_reversed]
+                    except KeyError:
+                        raise Exception("Please add the triple bond between " + atom1_element + " and " + atom2_element)
             else:
                 raise Exception("Something went wrong with the bond types!")
 
