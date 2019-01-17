@@ -27,15 +27,19 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED",
     # file_name = "bonds.csv"
     prefix = "edge"
 
-    f = open(file_name, 'r')
-    reader = csv.reader(f)
-
+    # f = open(file_name, 'r')
+    # reader = csv.reader(f)
+    with open(file_name, 'r') as f:
+        header = f.readline()
+        lines = f.readlines()[1:]
     # header = reader.next()
     # if header != ['', 'atom1', 'atom2', 'bond_name', 'distance', 'pp', 'pp_adjusted', 'pp_normalised', 'weight', 'qs', 'qs_test_set']:
     #     raise ValueError('header is not correct format')
-    header = reader.next()
+    # header = reader.next()
+    print("HEADER:", header)
 
-    for row in reader:
+    for row in lines:
+        row = row.split(",")
         bond_id, bond_type, atom1_id, atom2_id = row[0], row[1], str(int(row[4])+1), str(int(row[9])+1)
 
         # print(bond_type.split(","))

@@ -63,7 +63,8 @@ class Graph_constructor(object):
         time1 = time.time()
 
         self._initialise_possible_bonds()
-        self._process_LINKs()
+        if self.protein.LINKs:
+            self._process_LINKs()
 
         self.find_covalent_bonds()
 
@@ -231,24 +232,25 @@ class Graph_constructor(object):
             
         #################
         # Covalent LINK entries        
-        are_there_LINK_covalent_bonds = bool(sum([x[1]["is_covalent"] for x in self._LINK_list]))
-        if are_there_LINK_covalent_bonds:
-            print("    Considering covalent LINK entries...")
+        if self.protein.LINKs:
+            are_there_LINK_covalent_bonds = bool(sum([x[1]["is_covalent"] for x in self._LINK_list]))
+            if are_there_LINK_covalent_bonds:
+                print("    Considering covalent LINK entries...")
 
-            # To avoid doubly adding covalent LINK entries where they have already been detected, we need the following list of covalent bonds
-            cov_bonds = [(bond.atom1.id, bond.atom2.id) for bond in self.bonds if "COVALENT" in bond.bond_type]
-            cov_bonds.extend([bond[::-1] for bond in cov_bonds])
+                # To avoid doubly adding covalent LINK entries where they have already been detected, we need the following list of covalent bonds
+                cov_bonds = [(bond.atom1.id, bond.atom2.id) for bond in self.bonds if "COVALENT" in bond.bond_type]
+                cov_bonds.extend([bond[::-1] for bond in cov_bonds])
 
-            for item in self._LINK_list:
-                atom1, atom2 = item[0]
+                for item in self._LINK_list:
+                    atom1, atom2 = item[0]
 
-                # Is this LINK entry covalent and is this bond not already included?
-                if item[1]["is_covalent"] and (atom1.id, atom2.id) not in cov_bonds:
+                    # Is this LINK entry covalent and is this bond not already included?
+                    if item[1]["is_covalent"] and (atom1.id, atom2.id) not in cov_bonds:
 
-                    bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2, print_warnings = True)
-                    if bond_strength is not None:
-                        bond_strength *= self.k_factor/6.022
-                        self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
+                        bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2, print_warnings = True)
+                        if bond_strength is not None:
+                            bond_strength *= self.k_factor/6.022
+                            self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
         #################
 
     def initialise_covbond_dictionary(self):
@@ -1280,46 +1282,47 @@ class Graph_constructor(object):
         """ Load electrostatic bonds using LINK entries in the PDB file. Some of these may be covalent bonds though. These are added as well.
         """
 
-        print(("Finding electrostatic interactions using LINK entries..."))
+        if self.protein.LINKs:
+            print(("Finding electrostatic interactions using LINK entries...")) 
 
-        # epsilon is the dielectric constant
-        epsilon = 4
+            # epsilon is the dielectric constant
+            epsilon = 4
 
-        for LINK_entry in self._LINK_list:
-            
-            # Load the two atoms from the LINK entry parsed in parsing.
-            atom1, atom2 = LINK_entry[0]
-            
-            # The bond distance given in the LINK entry is not always accurate.
-            bond_length = distance_between_two_atoms(atom1, atom2)
-            if LINK_entry[1]["distance"] != round(bond_length,2):
-                print(("WARNING: The LINK entry between {} and {} has a different distance value than the computed one (rounded to two decimal places):" \
-                                " Computed = {}, in PDB = {}. The computed one will be used.").format(atom1, atom2, bond_length, LINK_entry[1]["distance"]))
+            for LINK_entry in self._LINK_list:
+                
+                # Load the two atoms from the LINK entry parsed in parsing.
+                atom1, atom2 = LINK_entry[0]
+                
+                # The bond distance given in the LINK entry is not always accurate.
+                bond_length = distance_between_two_atoms(atom1, atom2)
+                if LINK_entry[1]["distance"] != round(bond_length,2):
+                    print(("WARNING: The LINK entry between {} and {} has a different distance value than the computed one (rounded to two decimal places):" \
+                                    " Computed = {}, in PDB = {}. The computed one will be used.").format(atom1, atom2, bond_length, LINK_entry[1]["distance"]))
 
-            if LINK_entry[1]["is_covalent"]:
-                # For this case, see find_covalent().
-                pass 
-            else:
-                try:
-                    # Find charges of the two atoms using charge database 
-                    # in bagpype.parameters file
-                    charge1 = bagpype.parameters.charges[atom1.res_name][atom1.name]
-                    charge2 = bagpype.parameters.charges[atom2.res_name][atom2.name]
+                if LINK_entry[1]["is_covalent"]:
+                    # For this case, see find_covalent().
+                    pass 
+                else:
+                    try:
+                        # Find charges of the two atoms using charge database 
+                        # in bagpype.parameters file
+                        charge1 = bagpype.parameters.charges[atom1.res_name][atom1.name]
+                        charge2 = bagpype.parameters.charges[atom2.res_name][atom2.name]
 
-                    # Calculate bond strength using Coulomb's law
-                    bond_strength = (332*charge1*charge2)/(epsilon*bond_length)
-                    bond_strength *= (-self.k_factor*4.184/6.022)
-                    if bond_strength > 0:
-                        bond = bagpype.molecules.Bond([], atom1, atom2, 
-                                                            bond_strength, 
-                                                            'ELECTROSTATIC')
-                        self.bonds.append(bond)
-                except(KeyError):
-                    print("WARNING: Charge of atom {0} from residue {1} ".format(atom1.name, 
-                                                                        atom1.res_name) + 
-                            "or atom {0} from residue {1} ".format(atom2.name, 
-                                                                    atom2.res_name) + 
-                            "could not be found in the charge database, please update. Ignoring this LINK entry for now.")
+                        # Calculate bond strength using Coulomb's law
+                        bond_strength = (332*charge1*charge2)/(epsilon*bond_length)
+                        bond_strength *= (-self.k_factor*4.184/6.022)
+                        if bond_strength > 0:
+                            bond = bagpype.molecules.Bond([], atom1, atom2, 
+                                                                bond_strength, 
+                                                                'ELECTROSTATIC')
+                            self.bonds.append(bond)
+                    except(KeyError):
+                        print("WARNING: Charge of atom {0} from residue {1} ".format(atom1.name, 
+                                                                            atom1.res_name) + 
+                                "or atom {0} from residue {1} ".format(atom2.name, 
+                                                                        atom2.res_name) + 
+                                "could not be found in the charge database, please update. Ignoring this LINK entry for now.")
 
 
 
