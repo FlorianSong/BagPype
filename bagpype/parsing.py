@@ -239,12 +239,12 @@ class PDBParser(object):
         """
         if sys.platform.startswith("linux"):
             subprocess.call(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
-                        bagpype.settings.DEPENDENCIES_ROOT + '/het_dict.txt ' 
+                        bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
                         + '_H.pdb', shell=True)
         elif sys.platform.startswith("darwin"):
             subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
-                        bagpype.settings.DEPENDENCIES_ROOT + '/het_dict.txt ' 
+                        bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
                         + '_H.pdb', shell=True)
         else:
