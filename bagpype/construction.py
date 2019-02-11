@@ -47,7 +47,7 @@ class Graph_constructor(object):
         # List of all bonds
         self.bonds = bagpype.molecules.BondList()
 
-    def construct_graph(self, protein, atoms_file_name = "atoms.csv", bonds_file_name = "bonds.csv"):
+    def construct_graph(self, protein, atoms_file_name = "atoms.csv", bonds_file_name = "bonds.csv", gexf_file_name = "graph.gexf"):
         """ This is the main driver function which calls
         the functions to generate each of the different types
         of bonds.
@@ -56,7 +56,7 @@ class Graph_constructor(object):
         # from the pdb file
 
         print()
-        print("Graph constrution started")
+        print("Graph construction started")
 
         self.protein = protein
         
@@ -108,10 +108,17 @@ class Graph_constructor(object):
         protein.bonds = self.bonds
         protein.graph = graph
 
-        if bonds_file_name is not None:
-            self.write_bonds_to_csv_file(bonds_file_name)
         if atoms_file_name is not None:
             self.write_atoms_to_csv_file(atoms_file_name)
+        if bonds_file_name is not None:
+            self.write_bonds_to_csv_file(bonds_file_name)
+
+
+        if gexf_file_name is not None:
+            graph_modded = graph.copy()
+            for u,v,d in graph_modded.edges(data=True):
+                d["bond_type"] = "".join(d["bond_type"])
+            nx.write_gexf(graph_modded, gexf_file_name)
 
         time2 = time.time()
 
@@ -251,6 +258,7 @@ class Graph_constructor(object):
                         if bond_strength is not None:
                             bond_strength *= self.k_factor/6.022
                             self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
+        #
         #################
 
     def initialise_covbond_dictionary(self):
@@ -941,11 +949,16 @@ class Graph_constructor(object):
                                                           bond_strength, 'HYDROPHOBIC'))
 
 
-    def hydrophobic_selection(self, graph, gamma):
+    def hydrophobic_selection(self, graph, gamma, include_MST = True):
         mst = nx.minimum_spanning_tree(graph, weight='energy')
+        # print(len([i for i in list(nx.connected_components(mst)) if len(i) != 1]))
         notmst = nx.difference(graph, mst)
 
-        matches = sorted( mst.edges )
+        if include_MST:
+            matches = sorted( mst.edges )
+        else:
+            matches = []
+        # matches = sorted( mst.edges )
 
         accepted = 0
         not_accepted = 0
@@ -1002,7 +1015,7 @@ class Graph_constructor(object):
 
         return np.sum(presum) + Lennard_Jones(r, element1, element2)
 
-    def only_bonded_to_CSH(self, atom, neighbourhood_extent = 1):
+    def only_bonded_to_CSH(self, atom, neighbourhood_extent = 2):
         """ Check whether atom is only bonded to Carbon, Sulfur or Hydrogen
         """
         if neighbourhood_extent == 1:
