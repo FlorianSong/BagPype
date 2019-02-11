@@ -6,7 +6,7 @@ import bagpype.energies
 import bagpype.construction
 import bagpype.parsing
 
-
+print(bagpype.settings.head_string)
 
 
 ################################################
