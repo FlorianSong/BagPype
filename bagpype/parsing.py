@@ -41,7 +41,7 @@ class PDBParser(object):
         # filename after adding hydrogens/stripping unwanted atoms etc.
         self.pdb_final = pdb_filename
         
-    def parse(self, protein, bio=False, model=None, chain='all', 
+    def parse(self, protein, model=None, chain='all', 
                 strip='default', strip_ANISOU=True, remove_LINK=False,
               add_H=None, alternate_location=None):
         """ Takes a bagpype Protein object and loads it with data 
@@ -49,9 +49,9 @@ class PDBParser(object):
 
         Parameters
         ----------
-        bio : bool
-          Indicates whether the file is a biological pdb file.
-          If True, multiple models in the same file will be combined.
+        # bio : bool
+        #   Indicates whether the file is a biological pdb file.
+        #   If True, multiple models in the same file will be combined.
         model : str
           Model to be loaded.  Should be specified if there
           are multiple models in the same file (e.g. NMR structures)
@@ -81,6 +81,7 @@ class PDBParser(object):
             for line in f:
                 if line.startswith("ANISOU"):
                     are_anisou_entries_present = True
+                    break
         if strip_ANISOU and are_anisou_entries_present:
             print("Removing ANISOU entries")
             self._strip_ANISOU()
@@ -193,7 +194,7 @@ class PDBParser(object):
         lines2 = []
         for l in lines:
             if l.startswith("ATOM") or l.startswith("HETATM"): 
-                if l[16:17] in [" "] + alternate_location:
+                if l[16:17] in [" "] + [alternate_location]:
                     lines2 += l
             else:
                 lines2 += l
