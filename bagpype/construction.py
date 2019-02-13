@@ -36,6 +36,7 @@ class Graph_constructor(object):
         self.H_bond_energy_cutoff = -0.01
 
         self.hydrophobic_RMST_gamma = 0.05
+        self.hydrophobic_neighbourhood = 2
 
         # used to initialise all possible bonds
         # Should always be LARGER than the longest possible bond
@@ -47,7 +48,7 @@ class Graph_constructor(object):
         # List of all bonds
         self.bonds = bagpype.molecules.BondList()
 
-    def construct_graph(self, protein, atoms_file_name = "atoms.csv", bonds_file_name = "bonds.csv", gexf_file_name = "graph.gexf"):
+    def construct_graph(self, protein, atoms_file_name = "atoms.csv", bonds_file_name = "bonds.csv", gexf_file_name = None):
         """ This is the main driver function which calls
         the functions to generate each of the different types
         of bonds.
@@ -77,7 +78,7 @@ class Graph_constructor(object):
 
         # The following functions require knowledge of covalent bonds!
         self.find_hydrogen_bonds(energy_cutoff = self.H_bond_energy_cutoff) 
-        self.find_hydrophobics(gamma = self.hydrophobic_RMST_gamma)
+        self.find_hydrophobics(gamma = self.hydrophobic_RMST_gamma, neighbourhood_extent = self.hydrophobic_neighbourhood)
         self.find_stacked()
         self.find_DNA_backbone()
         self.find_electrostatics()
@@ -905,7 +906,7 @@ class Graph_constructor(object):
     # HYDROPHOBIC INTERACTIONS #
     ############################
 
-    def find_hydrophobics(self, gamma):
+    def find_hydrophobics(self, gamma, neighbourhood_extent):
         """ 
         """
         print(("Finding hydrophobics..."))
@@ -919,7 +920,7 @@ class Graph_constructor(object):
         for atom1 in self.protein.atoms:
 
             # Requirements for atom1 to be eligible: only Carbon or Sulfur and only bonded to Carbon, Sulfur or Hydrogen
-            if atom1.element in ('C', 'S') and self.only_bonded_to_CSH(atom1):
+            if atom1.element in ('C', 'S') and self.only_bonded_to_CSH(atom1, neighbourhood_extent):
 
                 for atom2 in self.protein.atoms[ list(self.possible_bonds.neighbors(atom1.id)) ]:
 
@@ -927,7 +928,7 @@ class Graph_constructor(object):
                     # Python's logical and/or are short circuit evaluated, so putting all conditions in one is fine, if the most basic condition is in first place
                     conditions = (atom1.id < atom2.id and 
                                   atom2.element in ('C', 'S') and 
-                                  self.only_bonded_to_CSH(atom2) and
+                                  self.only_bonded_to_CSH(atom2, neighbourhood_extent) and
                                   not in_same_residue(atom1, atom2) and 
                                   not in_third_neighbourhood(self.covalent_bonds_graph, atom1, atom2)
                                   )
@@ -1015,7 +1016,7 @@ class Graph_constructor(object):
 
         return np.sum(presum) + Lennard_Jones(r, element1, element2)
 
-    def only_bonded_to_CSH(self, atom, neighbourhood_extent = 2):
+    def only_bonded_to_CSH(self, atom, neighbourhood_extent):
         """ Check whether atom is only bonded to Carbon, Sulfur or Hydrogen
         """
         if neighbourhood_extent == 1:

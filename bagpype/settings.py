@@ -8,6 +8,7 @@ aa_to_eliminate = []
 
 
 head_string = "\
+    \n\
  |‾|                Welcome to              \n\
  | |__   __ _  __ _ _ __  _   _ _ __   ___  \n\
  | '_ \ / _` |/ _` | '_ \| | | | '_ \ / _ \ \n\
