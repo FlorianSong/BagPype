@@ -2,18 +2,18 @@ from pymol import cmd
 import sys
 import csv
 
-def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], file_name = "bonds.csv"):
+def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], file_name = "bonds.csv", specific_residue = None):
     list_of_types = [x.upper() for x in list_of_types] if type(list_of_types) is list else [list_of_types.upper()]
     print("Visualising: ", list_of_types, " edges.")
 
-    covalent_colour = [251,101,66]
-    hydrogen_colour = [55,94,151]
-    saltbridge_colour = [127, 152, 189]
-    hydrophobic_colour = [255,187,0]
-    stacked_colour = [63,104,28]
-    backbone_colour = [63,104,28]
-    electrostatic_colour = [255,255,255]
-    other_colour = [0,0,0]
+    covalent_colour = [251,101,66] #FB6542
+    hydrogen_colour = [55,94,151] #375E97
+    saltbridge_colour = [127, 152, 189] #7F98BD
+    hydrophobic_colour = [255,187,0] #FFBB00
+    stacked_colour = [63,104,28] #3F681C
+    backbone_colour = [63,104,28] #3F681C
+    electrostatic_colour = [255,255,255] #FFFFFF
+    other_colour = [0,0,0] #000000
 
     cmd.set_color("COVALENT", covalent_colour)
     cmd.set_color("HYDROGEN", hydrogen_colour)
@@ -33,9 +33,6 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED",
         header = f.readline()
         lines = f.readlines()[1:]"""
     header = reader.next()
-    # if header != ['', 'atom1', 'atom2', 'bond_name', 'distance', 'pp', 'pp_adjusted', 'pp_normalised', 'weight', 'qs', 'qs_test_set']:
-    #     raise ValueError('header is not correct format')
-    # header = reader.next()
     print("HEADER:", header)
 
     for row in reader:
