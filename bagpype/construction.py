@@ -36,7 +36,7 @@ class Graph_constructor(object):
         self.H_bond_energy_cutoff = -0.01
 
         self.hydrophobic_RMST_gamma = 0.05
-        self.hydrophobic_neighbourhood = 2
+        self.hydrophobic_neighbourhood = 1
 
         # used to initialise all possible bonds
         # Should always be LARGER than the longest possible bond
