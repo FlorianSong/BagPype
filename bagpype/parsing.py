@@ -36,10 +36,16 @@ class PDBParser(object):
       PDB ID or file name
     """
 
-    def __init__(self, pdb_filename):
+    def __init__(self, pdb_filename, download = False):
         # self.pdb = pdb_filename
         # filename after adding hydrogens/stripping unwanted atoms etc.
         self.pdb_final = pdb_filename
+
+        if download:
+            import urllib.request
+            url = "https://files.rcsb.org/download/" + pdb_filename
+            urllib.request.urlretrieve(url, pdb_filename)
+
         
     def parse(self, protein, model=None, chain='all', 
                 strip='default', strip_ANISOU=True, remove_LINK=False,
