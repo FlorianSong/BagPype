@@ -7,9 +7,9 @@ REDUCE = DEPENDENCIES_ROOT + '/reduce'
 aa_to_eliminate = []
 
 
-head_string = "\
+head_string = u"\
     \n\
- |‾|                Welcome to              \n\
+ |\u203E|                Welcome to              \n\
  | |__   __ _  __ _ _ __  _   _ _ __   ___  \n\
  | '_ \ / _` |/ _` | '_ \| | | | '_ \ / _ \ \n\
  | |_) | (_| | (_| | |_) | |_| | |_) |  __/ \n\
