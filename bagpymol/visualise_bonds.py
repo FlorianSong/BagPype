@@ -75,7 +75,6 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED",
             cmd.set("dash_gap", 0, prefix + bond_id)
             cmd.set("dash_radius", 0.1, prefix + bond_id)
         else:
-            print(bond_type[0])
             cmd.set("dash_gap", 0.5, prefix + bond_id)
             cmd.set("dash_radius", 0.1, prefix + bond_id)
 
