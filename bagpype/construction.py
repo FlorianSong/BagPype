@@ -998,18 +998,18 @@ class Graph_constructor(object):
         h = np.array([-.73080, 0.20016, -.09055])
         presum = h * np.exp(- ( (r-c)/w )**2)
 
-        def Lennard_Jones(r, element1, element2):
-            epsilon_dict = {"C": -0.11, "S": -0.45}
-            epsilon1 = epsilon_dict[element1]
-            epsilon2 = epsilon_dict[element2]
+        # def Lennard_Jones(r, element1, element2):
+        #     epsilon_dict = {"C": -0.11, "S": -0.45}
+        #     epsilon1 = epsilon_dict[element1]
+        #     epsilon2 = epsilon_dict[element2]
 
-            epsilon = np.sqrt(epsilon1*epsilon2)
-            r_min = 2
+        #     epsilon = np.sqrt(epsilon1*epsilon2)
+        #     r_min = 2
 
-            temp = r_min/r
-            return epsilon* ( (temp)**12 - 2*(temp)**6 )  
+        #     temp = r_min/r
+        #     return epsilon* ( (temp)**12 - 2*(temp)**6 )  
 
-        return np.sum(presum) + Lennard_Jones(r, element1, element2)
+        return np.sum(presum) # + Lennard_Jones(r, element1, element2)
 
     def only_bonded_to_CSH(self, atom, neighbourhood_extent):
         """ Check whether atom is only bonded to Carbon, Sulfur or Hydrogen
