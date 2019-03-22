@@ -933,11 +933,13 @@ class Graph_constructor(object):
                                   not in_same_residue(atom1, atom2) and 
                                   not in_third_neighbourhood(self.covalent_bonds_graph, atom1, atom2)
                                   )
-                    distance = distance_between_two_atoms(atom1, atom2)
-                    energy = self.hydrophobic_potential(distance, atom1.element, atom2.element) if conditions else None
+                    if conditions:
+                        distance = distance_between_two_atoms(atom1, atom2)
+                        energy = self.hydrophobic_potential(distance, atom1.element, atom2.element)
+                    else:
+                        energy = None
 
                     if energy is not None:
-                        # hphobic_graph.add_edge( atom1.id, atom2.id, weight = -energy, energy = energy)
                         hphobic_graph.add_edge( atom1.id, atom2.id, weight = -energy, distance = distance, energy = energy)
 
         matches = self.hydrophobic_selection(hphobic_graph, gamma = gamma)
