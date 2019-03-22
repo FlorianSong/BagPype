@@ -118,7 +118,7 @@ class Graph_constructor(object):
 
         if gexf_file_name is not None:
             graph_modded = graph.copy()
-            for u,v,d in graph_modded.edges(data=True):
+            for _,__,d in graph_modded.edges(data=True):
                 d["bond_type"] = "".join(d["bond_type"])
             nx.write_gexf(graph_modded, gexf_file_name)
 
@@ -215,7 +215,7 @@ class Graph_constructor(object):
                     )
                     found = False
             if found_atoms[0] and found_atoms[1]:
-                is_covalent = bagpype.construction.within_cov_bonding_distance(found_atoms[0], found_atoms[1])
+                is_covalent = within_cov_bonding_distance(found_atoms[0], found_atoms[1])
                 new_LINK_entry = (found_atoms, {"is_covalent":is_covalent, "distance":LINK_bond[2]})
                 LINK_list.append(new_LINK_entry)
         self._LINK_list = LINK_list
@@ -925,7 +925,7 @@ class Graph_constructor(object):
 
                 for atom2 in self.protein.atoms[ list(self.possible_bonds.neighbors(atom1.id)) ]:
 
-                    # Remaining requirements for hydrophbic interactions to exist
+                    # Remaining requirements for hydrophbic interactions to be feasible
                     # Python's logical and/or are short circuit evaluated, so putting all conditions in one is fine, if the most basic condition is in first place
                     conditions = (atom1.id < atom2.id and 
                                   atom2.element in ('C', 'S') and 
