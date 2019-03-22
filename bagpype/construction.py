@@ -1028,7 +1028,7 @@ class Graph_constructor(object):
             return True
 
         else: 
-            raise Exception("The extent for the neighbourhood variable needs to be either 1 or 2.")
+            raise IOError("The extent for the neighbourhood variable needs to be either 1 or 2.")
 
     # def VdW_within_cutoff(self, atom1, atom2, cutoff):
     #     """ Check whether two atoms are within the cutoff (+ radii of both atoms)
