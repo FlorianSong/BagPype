@@ -26,6 +26,7 @@ class Graph_constructor(object):
 
     def __init__(self):
 
+        ### Hydrogen bond related parameters:
         # old values commented at the very right
         self.H_acceptor_cutoff = 4 #2.6 
         self.donor_acceptor_cutoff = 5 #3.6 
@@ -38,10 +39,10 @@ class Graph_constructor(object):
         self.hydrophobic_RMST_gamma = 0.05
         self.hydrophobic_neighbourhood = 1
 
-        # used to initialise all possible bonds
-        # Should always be LARGER than the longest possible bond
+        # Used to initialise all possible bonds, should always be LARGER than the longest possible bond
         self.max_cutoff = 9 
 
+        # Currently obsolete.
         self.k_factor = 6.022/4.184
 
 
