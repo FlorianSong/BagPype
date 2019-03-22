@@ -953,16 +953,12 @@ class Graph_constructor(object):
                                                           bond_strength, 'HYDROPHOBIC'))
 
 
-    def hydrophobic_selection(self, graph, gamma, include_MST = True):
+    def hydrophobic_selection(self, graph, gamma):
         mst = nx.minimum_spanning_tree(graph, weight='energy')
         # print(len([i for i in list(nx.connected_components(mst)) if len(i) != 1]))
         notmst = nx.difference(graph, mst)
 
-        if include_MST:
-            matches = sorted( mst.edges )
-        else:
-            matches = []
-        # matches = sorted( mst.edges )
+        matches = sorted( mst.edges )
 
         accepted = 0
         not_accepted = 0
@@ -979,10 +975,6 @@ class Graph_constructor(object):
             weights_along_path = [graph[u][v]["energy"] for u,v in zip(path[:-1], path[1:])]
 
             mlink = max(weights_along_path)
-
-
-            # d_i = min( [hphobic_graph[m][n]["energy"] for m,n in hphobic_graph.edges(nbunch=i)] )
-            # d_j = min( [hphobic_graph[m][n]["energy"] for m,n in hphobic_graph.edges(nbunch=j)] )
 
             left_hand_side = mlink + gamma*abs(d[i] + d[j])
             right_hand_side = graph[i][j]["energy"]
