@@ -38,6 +38,7 @@ class Graph_constructor(object):
 
         self.hydrophobic_RMST_gamma = 0.05
         self.hydrophobic_neighbourhood = 1
+        self.hydrophobic_remove_bridges = True
 
         # Used to initialise all possible bonds, should always be LARGER than the longest possible bond
         self.max_cutoff = 9 
@@ -79,7 +80,7 @@ class Graph_constructor(object):
 
         # The following functions require knowledge of covalent bonds!
         self.find_hydrogen_bonds(energy_cutoff = self.H_bond_energy_cutoff) 
-        self.find_hydrophobics(gamma = self.hydrophobic_RMST_gamma, neighbourhood_extent = self.hydrophobic_neighbourhood)
+        self.find_hydrophobics()
         self.find_stacked()
         self.find_DNA_backbone()
         self.find_electrostatics()
@@ -907,7 +908,7 @@ class Graph_constructor(object):
     # HYDROPHOBIC INTERACTIONS #
     ############################
 
-    def find_hydrophobics(self, gamma, neighbourhood_extent):
+    def find_hydrophobics(self):
         """ 
         """
         print(("Finding hydrophobics..."))
@@ -921,7 +922,7 @@ class Graph_constructor(object):
         for atom1 in self.protein.atoms:
 
             # Requirements for atom1 to be eligible: only Carbon or Sulfur and only bonded to Carbon, Sulfur or Hydrogen
-            if atom1.element in ('C', 'S') and self.only_bonded_to_CSH(atom1, neighbourhood_extent):
+            if atom1.element in ('C', 'S') and self.only_bonded_to_CSH(atom1):
 
                 for atom2 in self.protein.atoms[ list(self.possible_bonds.neighbors(atom1.id)) ]:
 
@@ -929,7 +930,7 @@ class Graph_constructor(object):
                     # Python's logical and/or are short circuit evaluated, so putting all conditions in one is fine, if the most basic condition is in first place
                     conditions = (atom1.id < atom2.id and 
                                   atom2.element in ('C', 'S') and 
-                                  self.only_bonded_to_CSH(atom2, neighbourhood_extent) and
+                                  self.only_bonded_to_CSH(atom2) and
                                   not in_same_residue(atom1, atom2) and 
                                   not in_third_neighbourhood(self.covalent_bonds_graph, atom1, atom2)
                                   )
@@ -942,7 +943,7 @@ class Graph_constructor(object):
                     if energy is not None:
                         hphobic_graph.add_edge( atom1.id, atom2.id, weight = -energy, distance = distance, energy = energy)
 
-        matches = self.hydrophobic_selection(hphobic_graph, gamma = gamma)
+        matches = self.hydrophobic_selection(hphobic_graph)
 
         # Finally, write all bonds to self.bonds
         for bond in matches:
@@ -953,7 +954,7 @@ class Graph_constructor(object):
                                                           bond_strength, 'HYDROPHOBIC'))
 
 
-    def hydrophobic_selection(self, graph, gamma):
+    def hydrophobic_selection(self, graph):
         mst = nx.minimum_spanning_tree(graph, weight='energy')
         # print(len([i for i in list(nx.connected_components(mst)) if len(i) != 1]))
         notmst = nx.difference(graph, mst)
@@ -976,7 +977,7 @@ class Graph_constructor(object):
 
             mlink = max(weights_along_path)
 
-            left_hand_side = mlink + gamma*abs(d[i] + d[j])
+            left_hand_side = mlink + self.hydrophobic_RMST_gamma*abs(d[i] + d[j])
             right_hand_side = graph[i][j]["energy"]
 
             if (left_hand_side > right_hand_side ):
@@ -986,11 +987,21 @@ class Graph_constructor(object):
             else:
                 not_accepted +=1
         
-        print("    RMST sparsification used. Accepted: " + str(accepted) + " vs. not accepted: " + str(not_accepted) + "; MST size: " + str(len(mst.edges))  )
-        matches.sort()
+        rmst_graph = nx.Graph()
+        rmst_graph.add_edges_from(matches)
+        bridges = list(nx.bridges(rmst_graph))
+        rmst_graph.remove_edges_from(bridges)
+        matches_burnt_bridges = rmst_graph.edges
 
-        return matches
+        total_hydrophobic_energy = sum([graph[i][j]["energy"] for i,j in matches])
+        print("    RMST sparsification used. Accepted: " + str(accepted) + ", rejected: " + str(not_accepted) + "; MST size: " + str(len(mst.edges)))
+        print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches_burnt_bridges)))
+        print("    Total energy of hydrophobic effect: " + str(round(total_hydrophobic_energy, 2)) + " kcal/mol" )
 
+        if self.hydrophobic_remove_bridges:
+            return sorted(matches_burnt_bridges)
+        else: 
+            return sorted(matches)
 
     def hydrophobic_potential(self, r, element1, element2):
         c = np.array([3.81679, 5.46692, 7.11677])
@@ -1011,16 +1022,16 @@ class Graph_constructor(object):
 
         return np.sum(presum) # + Lennard_Jones(r, element1, element2)
 
-    def only_bonded_to_CSH(self, atom, neighbourhood_extent):
+    def only_bonded_to_CSH(self, atom):
         """ Check whether atom is only bonded to Carbon, Sulfur or Hydrogen
         """
-        if neighbourhood_extent == 1:
+        if self.hydrophobic_neighbourhood == 1:
             for nhbr in self.covalent_bonds_graph.neighbors(atom.id):
                 if self.protein.atoms[nhbr].element not in ['C', 'S', 'H']:
                     return False
             return True
 
-        elif neighbourhood_extent == 2:   
+        elif self.hydrophobic_neighbourhood == 2:   
             first_and_second_nbhd = set(sec_neighborhood(self.covalent_bonds_graph, atom.id)).union(set(nhbr for nhbr in self.covalent_bonds_graph.neighbors(atom.id)))
             for item in first_and_second_nbhd:
                 if self.protein.atoms[item].element not in ['C', 'S', 'H']:
