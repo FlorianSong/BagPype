@@ -2,7 +2,7 @@ from pymol import cmd
 import sys
 import csv
 
-def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], file_name = "bonds.csv", specific_residue = None):
+def visualise(list_of_types = ["COVALENT", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], file_name = "bonds.csv", specific_residue = None):
     list_of_types = [x.upper() for x in list_of_types] if type(list_of_types) is list else [list_of_types.upper()]
     print("Visualising: ", list_of_types, " edges.")
 
@@ -49,6 +49,7 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED",
                         'id ' + atom1_id,
                         'id ' + atom2_id)
                 cmd.color(bond_type[0], prefix + bond_id)
+            
 
         elif len(bond_type) == 2:
 
@@ -67,7 +68,17 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "HYDROPHOBIC", "STACKED",
                         'id ' + atom2_id)
                 cmd.color(colour, prefix + bond_id)
 
+        if bond_type[0] in ["COVALENT", "ASDF"]:
+            cmd.set("dash_gap", 0, prefix + bond_id)
+            cmd.set("dash_radius", 0.15, prefix + bond_id)
+        elif bond_type[0] in ["HYDROGEN", "SALTBRIDGE"]:
+            cmd.set("dash_gap", 0, prefix + bond_id)
+            cmd.set("dash_radius", 0.1, prefix + bond_id)
+        else:
+            cmd.set("dash_gap", 0.5, prefix + bond_id)
+            cmd.set("dash_radius", 0.1, prefix + bond_id)
+
     cmd.hide('labels')
-    cmd.set('dash_gap',0)
+    # cmd.set('dash_gap',0)
 
 cmd.extend("visualise", visualise)
