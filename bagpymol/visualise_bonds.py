@@ -68,14 +68,14 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBI
                         'id ' + atom2_id)
                 cmd.color(colour, prefix + bond_id)
 
-        if bond_type[0] in ["COVALENT", "ASDF"]:
+        if bond_type[0] in ["COVALENT", "ASDF"] and bond_type[0] in list_of_types:
             cmd.set("dash_gap", 0, prefix + bond_id)
             cmd.set("dash_radius", 0.15, prefix + bond_id)
-        elif bond_type[0] in ["HYDROGEN", "SALTBRIDGE"]:
+        elif bond_type[0] in ["HYDROGEN", "SALTBRIDGE"] and bond_type[0] in list_of_types:
             cmd.set("dash_gap", 0, prefix + bond_id)
             cmd.set("dash_radius", 0.1, prefix + bond_id)
-        else:
-            cmd.set("dash_gap", 0.5, prefix + bond_id)
+        elif bond_type[0] in list_of_types:
+            cmd.set("dash_gap", 0.3, prefix + bond_id)
             cmd.set("dash_radius", 0.1, prefix + bond_id)
 
     cmd.hide('labels')
