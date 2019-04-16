@@ -36,6 +36,7 @@ class Graph_constructor(object):
 
         self.H_bond_energy_cutoff = -0.01
 
+        ### Hydrophobic interactions related parameters:
         self.hydrophobic_RMST_gamma = 0.05
         self.hydrophobic_neighbourhood = 1
         self.hydrophobic_remove_bridges = True
@@ -330,15 +331,16 @@ class Graph_constructor(object):
         """ Determine hydrogen bonds 
         """
         print("Finding hydrogen bonds at cutoff = " + str(energy_cutoff) + "kcal/mol...")
+        total_hydrogen_energy = 0
 
         print("    Assigning H-bond status...")
         # Assign H-bond status to all N, O, S atoms in the structure
         # Very efficient, so ok if some might not get used
-        status = {}
+        self.Hbond_status = {}
         for atom in self.protein.atoms:
             if atom.element in ["N", "O", "S"]:
-                status[atom.id] = self.assign_Hbond_status(atom)
-        self.Hbond_status = status
+                self.Hbond_status[atom.id] = self.assign_Hbond_status(atom)
+
 
         print("    Applying constraints and computing bond strengths...")
         # This is where hydrogen bonds are identified
@@ -375,9 +377,14 @@ class Graph_constructor(object):
 
                             if bond_strength is not None and (bond_strength < energy_cutoff or (salt_bridge_indicator and bond_strength < 0)):
                                 atom1, atom2 = hydrogen, acceptor
+                                
                                 bond_strength *= -self.k_factor*4.184/6.022
-                                # bond_strength = abs(bond_strength)
+                                total_hydrogen_energy += -bond_strength
+
                                 self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, {True: "SALTBRIDGE", False:"HYDROGEN"}[salt_bridge_indicator]))
+
+        print("    Total energy of hydrogen bonds and salt bridges: " + str(round(total_hydrogen_energy, 2)) + " kcal/mol" )
+
 
     def get_angle(self, atom1, atom2, atom3):
         """ Finds the angle formed by the three input atoms, where atom2 is the vertex of the angle.
@@ -909,7 +916,11 @@ class Graph_constructor(object):
     ############################
 
     def find_hydrophobics(self):
-        """ 
+        """ Function that implements hydrophobic interaction as a three step process: 1. Pre-selection, 2. Weighting, 3. Sparsification
+        Parameters are passed as values belonging to self: 
+        self.hydrophobic_RMST_gamma, self.hydrophobic_neighbourhood, self.hydrophobic_remove_bridges
+
+        Florian Song, September 2018 - April 2019
         """
         print(("Finding hydrophobics..."))
 
@@ -955,55 +966,75 @@ class Graph_constructor(object):
 
 
     def hydrophobic_selection(self, graph):
+        """ This function represents the sparsification step. 
+        Sparsification is done via a modified version of RMST (relaxed minimum spanning tree).
+        Reference:
+        Beguerisse-Diaz, M., Vangelov, B. & Barahona, M. 
+        Finding role communities in directed networks using Role-Based Similarity, Markov Stability and the Relaxed Minimum Spanning Tree.
+        2013 IEEE Global Conference on Signal and Information Processing 937–940 (IEEE, 2013). doi:10.1109/GlobalSIP.2013.6737046
+        """
+
+        # First step is to calculate a minimum spanning tree, note that the weight is "energy", ie negative values, units kcal/mol
         mst = nx.minimum_spanning_tree(graph, weight='energy')
-        # print(len([i for i in list(nx.connected_components(mst)) if len(i) != 1]))
+
+        # notmst contains all edges that are in graph but not in mst
         notmst = nx.difference(graph, mst)
 
+        # Initialise the final output list of accepted edges
         matches = sorted( mst.edges )
 
-        accepted = 0
-        not_accepted = 0
-
-        # find distance to nearest neighbours
+        # Find d_i (as defined by RMST). This is the strongest interaction originating at i.
         D = nx.adjacency_matrix(graph, weight="energy")
         d = D.min(axis = 0).toarray().flatten().tolist()
         
 
-        for bond_not_in_mst in notmst.edges:
-            i,j = bond_not_in_mst[0], bond_not_in_mst[1]
+        for edge_not_in_mst in notmst.edges:
+            i,j = edge_not_in_mst[0], edge_not_in_mst[1]
 
+            # Find the path between i and j along the MST and the corresponding weights
             path = nx.shortest_path(mst, source = i, target = j)
             weights_along_path = [graph[u][v]["energy"] for u,v in zip(path[:-1], path[1:])]
 
+            # mlink is the maximum of the weights along the MST path
             mlink = max(weights_along_path)
 
+            # RMST criterion for adding edge back into the tree
+            # hydrophobic_RMST_gamma is the gamma parameter as described in RMST
             left_hand_side = mlink + self.hydrophobic_RMST_gamma*abs(d[i] + d[j])
             right_hand_side = graph[i][j]["energy"]
 
             if (left_hand_side > right_hand_side ):
                 matches += [(i,j)]
 
-                accepted +=1
-            else:
-                not_accepted +=1
-        
-        rmst_graph = nx.Graph()
-        rmst_graph.add_edges_from(matches)
-        bridges = list(nx.bridges(rmst_graph))
-        rmst_graph.remove_edges_from(bridges)
-        matches_burnt_bridges = rmst_graph.edges
+        print("    RMST sparsification used. Accepted: " + str(len(matches)-len(mst.edges)) + ", rejected: " + str(len(graph.edges) - len(matches)) + "; MST size: " + str(len(mst.edges)))
 
+        # Additional step to RMST sparsification: removal of graph bridges
+        # A bridge is an edge of a graph whose deletion increases its number of connected components.
+        # Note that here we do not have to worry about weighting
+        if self.hydrophobic_remove_bridges:
+            # In order to use networkx, need to initialise new Graph
+            rmst_graph = nx.Graph()
+            rmst_graph.add_edges_from(matches)
+
+            # Use networkx to find all bridges in the graph and remove them
+            bridges = list(nx.bridges(rmst_graph))
+            rmst_graph.remove_edges_from(bridges)
+            matches = rmst_graph.edges
+
+            print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches)))
+
+        # Calculate total hydrophobic energy for command line output
         total_hydrophobic_energy = sum([graph[i][j]["energy"] for i,j in matches])
-        print("    RMST sparsification used. Accepted: " + str(accepted) + ", rejected: " + str(not_accepted) + "; MST size: " + str(len(mst.edges)))
-        print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches_burnt_bridges)))
         print("    Total energy of hydrophobic effect: " + str(round(total_hydrophobic_energy, 2)) + " kcal/mol" )
 
-        if self.hydrophobic_remove_bridges:
-            return sorted(matches_burnt_bridges)
-        else: 
-            return sorted(matches)
+        return sorted(matches)
 
     def hydrophobic_potential(self, r, element1, element2):
+        """ Hydrophobic potential as defined in 
+        Lin, M. S., Fawzi, N. L. & Head-Gordon, T. 
+        Hydrophobic Potential of Mean Force as a Solvation Function for Protein Structure Prediction. Structure 15, 727–740 (2007).
+        """
+
         c = np.array([3.81679, 5.46692, 7.11677])
         w = np.array([1.68589, 1.39064, 1.57417])
         h = np.array([-.73080, 0.20016, -.09055])
@@ -1041,14 +1072,6 @@ class Graph_constructor(object):
         else: 
             raise IOError("The extent for the neighbourhood variable needs to be either 1 or 2.")
 
-    # def VdW_within_cutoff(self, atom1, atom2, cutoff):
-    #     """ Check whether two atoms are within the cutoff (+ radii of both atoms)
-    #     """
-
-    #     radius1 = {'C':1.7, 'S':1.8}[atom1.element]
-    #     radius2 = {'C':1.7, 'S':1.8}[atom2.element]
-    #     return distance_between_two_atoms(atom1, atom2) <= cutoff + radius1 + radius2
-
 
 
 
@@ -1064,7 +1087,7 @@ class Graph_constructor(object):
         """ Function that implements pi stacking interactions, with inspiration taken from Antoine Delmotte's DNA code.
         No input, function will add bonds to internal bond list
 
-        Florian, May 2017
+        Florian Song, May 2017
         """
         print("Finding stacked interactions in DNA...")
 
