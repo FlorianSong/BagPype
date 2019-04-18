@@ -952,7 +952,7 @@ class Graph_constructor(object):
                         energy = None
 
                     if energy is not None:
-                        hphobic_graph.add_edge( atom1.id, atom2.id, weight = -energy, distance = distance, energy = energy)
+                        hphobic_graph.add_edge( atom1.id, atom2.id, weight = -1*energy, distance = distance, energy = energy)
 
         matches = self.hydrophobic_selection(hphobic_graph)
 
