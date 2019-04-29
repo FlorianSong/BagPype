@@ -1013,15 +1013,15 @@ class Graph_constructor(object):
         # Note that here we do not have to worry about weighting
         if self.hydrophobic_remove_bridges:
             # In order to use networkx, need to initialise new Graph
-            rmst_graph = nx.Graph()
-            rmst_graph.add_edges_from(matches)
+            rmst_graph = nx.Graph(matches)
 
             # Use networkx to find all bridges in the graph and remove them
             bridges = list(nx.bridges(rmst_graph))
             rmst_graph.remove_edges_from(bridges)
             matches = rmst_graph.edges
 
-            print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches)))
+            print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches)) + 
+                    ", components: " + str(nx.number_connected_components(nx.Graph(matches))))
 
         # Calculate total hydrophobic energy for command line output
         total_hydrophobic_energy = sum([graph[i][j]["energy"] for i,j in matches])
