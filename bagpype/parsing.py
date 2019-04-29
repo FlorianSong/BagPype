@@ -17,7 +17,7 @@ import bagpype.molecules
 # from bagpype.construction import within_cov_bonding_distance
 import bagpype.construction
 
-
+import dependencies.MakeMultimer
 
 #####################################
 #                                   #
@@ -49,7 +49,8 @@ class PDBParser(object):
         
     def parse(self, protein, model=None, chain='all', 
                 strip='default', strip_ANISOU=True, remove_LINK=False,
-              add_H=None, alternate_location=None):
+                add_H=None, alternate_location=None, MakeMultimer=True,
+                biomolecule_number=1):
         """ Takes a bagpype Protein object and loads it with data 
         from the given PDB file.
 
@@ -76,6 +77,27 @@ class PDBParser(object):
         # Sanity check whether file actually exists
         if not os.path.isfile(self.pdb_final):
             raise IOError("Couldn't open PDB file " + self.pdb_final)
+
+
+        # MakeMultimer step
+        if MakeMultimer is True:
+            makeMultimer_options = dict(
+            backbone = False,
+            nowater = False,
+            nohetatm = False,
+            renamechains = 0,
+            renumberresidues = 0)
+            
+            pdblurb = open(self.pdb_final).read()
+            r = dependencies.MakeMultimer.PdbReplicator(pdblurb, makeMultimer_options)
+            outfile_template = self.pdb_final.split('.')[0] + '_mm%s.pdb'
+
+            for i, bm in enumerate(r.biomolecules):
+                outfile = outfile_template % (i+1)
+                open(outfile, 'w').write(bm.output(self.pdb_final))
+
+            self.pdb_final = outfile_template % (biomolecule_number)
+
         
         # Making a copy of the original file, so that it is preserved and all changes are made to copied file
         shutil.copyfile(self.pdb_final, self.pdb_final[0:-4] + '_stripped.pdb')
