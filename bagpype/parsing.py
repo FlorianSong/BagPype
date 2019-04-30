@@ -39,7 +39,7 @@ class PDBParser(object):
     def __init__(self, pdb_filename, download = False):
         # self.pdb = pdb_filename
         # filename after adding hydrogens/stripping unwanted atoms etc.
-        self.pdb_final = pdb_filename
+        self.pdb_filename = pdb_filename
 
         if download:
             import urllib.request
@@ -49,8 +49,7 @@ class PDBParser(object):
         
     def parse(self, protein, model=None, chain='all', 
                 strip='default', strip_ANISOU=True, remove_LINK=False,
-                add_H=None, alternate_location=None, MakeMultimer=True,
-                biomolecule_number=1):
+                add_H=None, alternate_location=None, MakeMultimer_number=1):
         """ Takes a bagpype Protein object and loads it with data 
         from the given PDB file.
 
@@ -75,37 +74,22 @@ class PDBParser(object):
         """
 
         # Sanity check whether file actually exists
-        if not os.path.isfile(self.pdb_final):
-            raise IOError("Couldn't open PDB file " + self.pdb_final)
+        if not os.path.isfile(self.pdb_filename):
+            raise IOError("Couldn't open PDB file " + self.pdb_filename)
 
 
         # MakeMultimer step
-        if MakeMultimer is True:
-            makeMultimer_options = dict(
-            backbone = False,
-            nowater = False,
-            nohetatm = False,
-            renamechains = 0,
-            renumberresidues = 0)
-            
-            pdblurb = open(self.pdb_final).read()
-            r = dependencies.MakeMultimer.PdbReplicator(pdblurb, makeMultimer_options)
-            outfile_template = self.pdb_final.split('.')[0] + '_mm%s.pdb'
-
-            for i, bm in enumerate(r.biomolecules):
-                outfile = outfile_template % (i+1)
-                open(outfile, 'w').write(bm.output(self.pdb_final))
-
-            self.pdb_final = outfile_template % (biomolecule_number)
-
+        if MakeMultimer_number is not None:
+            print("Applying MakeMultimer")
+            self._MakeMultimer_wrapper(MakeMultimer_number)
         
         # Making a copy of the original file, so that it is preserved and all changes are made to copied file
-        shutil.copyfile(self.pdb_final, self.pdb_final[0:-4] + '_stripped.pdb')
-        self.pdb_final = self.pdb_final[0:-4] + '_stripped.pdb'
+        shutil.copyfile(self.pdb_filename, self.pdb_filename[0:-4] + '_stripped.pdb')
+        self.pdb_filename = self.pdb_filename[0:-4] + '_stripped.pdb'
 
         # Detect whether ANISOU entries are present and strip if wanted.
         are_anisou_entries_present = False
-        with open(self.pdb_final) as f:
+        with open(self.pdb_filename) as f:
             for line in f:
                 if line.startswith("ANISOU"):
                     are_anisou_entries_present = True
@@ -146,7 +130,7 @@ class PDBParser(object):
          protein.chains,
          protein.pdbNum_to_atomID) = self._parse_pdb_lines(model, chain)
         
-        protein.pdb_id = self.pdb_final
+        protein.pdb_id = self.pdb_filename
 
         protein.LINKs = self._parse_LINK()
 
@@ -157,22 +141,22 @@ class PDBParser(object):
 
         """
         out_lines = []
-        with open(self.pdb_final, "r") as f:
+        with open(self.pdb_filename, "r") as f:
             for line in f:
                 if not line.startswith("ANISOU"):
                     out_lines.append(line)
-        with open(self.pdb_final, "w") as f:
+        with open(self.pdb_filename, "w") as f:
             f.writelines(out_lines)
 
     def _remove_LINK_entries(self):
         """Removes LINK entries.
         """
         out_lines = []
-        with open(self.pdb_final, "r") as f:
+        with open(self.pdb_filename, "r") as f:
             for line in f:
                 if not line.startswith("LINK"):
                     out_lines.append(line)
-        with open(self.pdb_final, "w") as f:
+        with open(self.pdb_filename, "w") as f:
             f.writelines(out_lines)
 
     def _strip_atoms(self, strip):
@@ -193,7 +177,7 @@ class PDBParser(object):
         else:
             strip['res_name'] = strip.get('res_name', []) + aa_to_eliminate
             
-        with open(self.pdb_final, 'r') as old_f, open(self.pdb_final[0:-4] + '_temp.pdb', 'w') as new_f:
+        with open(self.pdb_filename, 'r') as old_f, open(self.pdb_filename[0:-4] + '_temp.pdb', 'w') as new_f:
             print("Stripping unwanted atom types from the PDB file", ( strip['res_name'] ))
             for line in old_f:
                 if line.startswith('ATOM') or line.startswith('HETATM'):
@@ -213,11 +197,11 @@ class PDBParser(object):
                 else:
                     new_f.write(line)
         
-        shutil.move(self.pdb_final[0:-4] + '_temp.pdb', self.pdb_final)
+        shutil.move(self.pdb_filename[0:-4] + '_temp.pdb', self.pdb_filename)
 
 
     def _strip_alternate_location(self, alternate_location):
-        with open(self.pdb_final, "r") as f:
+        with open(self.pdb_filename, "r") as f:
             lines = f.readlines()
         lines2 = []
         for l in lines:
@@ -226,13 +210,40 @@ class PDBParser(object):
                     lines2 += l
             else:
                 lines2 += l
-        with open(self.pdb_final, "w") as f:
+        with open(self.pdb_filename, "w") as f:
             f.writelines(lines2)
 
-    
+    def _MakeMultimer_wrapper(self, MakeMultimer_number):
+        header = []
+        with open(self.pdb_filename) as temp_file:
+            for line in temp_file:
+                if not (line.startswith("ATOM") or line.startswith("HETATM")):
+                    header.append(line)
+                else:
+                    break
+
+        MakeMultimer_options = dict(
+        backbone = False,
+        nowater = False,
+        nohetatm = False,
+        renamechains = 0,
+        renumberresidues = 0)
+        
+        pdblurb = open(self.pdb_filename).read()
+        r = dependencies.MakeMultimer.PdbReplicator(pdblurb, MakeMultimer_options)
+        outfile_template = self.pdb_filename.split('.')[0] + '_mm%s.pdb'
+
+        for i, bm in enumerate(r.biomolecules):
+            outfile = outfile_template % (i+1)
+            open(outfile, 'w').write("".join(header) + bm.output(self.pdb_filename))
+
+        self.pdb_filename = outfile_template % (MakeMultimer_number)
+
+
+
     def _renumber_atoms(self):
         # This function renumbers the ATOM and HETATM records following the output from reduce such that they can be treated by FIRST
-        with open(self.pdb_final, 'r') as fin:
+        with open(self.pdb_filename, 'r') as fin:
             number=0
 
             final_lines = []
@@ -245,7 +256,7 @@ class PDBParser(object):
                     dummy='     '
                     temp[6:6+(5-len(str(number)))] = list(dummy[0:(5-len(str(number)))])
                 final_lines+= ["".join(temp)]
-        with open(self.pdb_final, "w") as fout:
+        with open(self.pdb_filename, "w") as fout:
             fout.writelines(final_lines)      
 
 
@@ -254,7 +265,7 @@ class PDBParser(object):
         file is assumed to have had hydrogens previously added.
         """
 
-        with open(self.pdb_final,'r') as pdbf:
+        with open(self.pdb_filename,'r') as pdbf:
             for line in pdbf:
                 if line[0:4] == 'ATOM' and line[13] == 'H':
                     return True
@@ -269,17 +280,17 @@ class PDBParser(object):
         if sys.platform.startswith("linux"):
             subprocess.call(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
-                        + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
+                        + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
                         + '_H.pdb', shell=True)
         elif sys.platform.startswith("darwin"):
             subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
-                        + self.pdb_final + ' > ' + self.pdb_final[0:-4] 
+                        + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
                         + '_H.pdb', shell=True)
         else:
             print("Sorry, but adding hydrogens with Reduce is currently only implemented for UNIX based operating systems.")
 
-        self.pdb_final = self.pdb_final[0:-4] + '_H.pdb'
+        self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
         
 
     def _parse_pdb_lines(self, model, chain):
@@ -300,7 +311,7 @@ class PDBParser(object):
         chains = defaultdict(list)
         pdbNum_to_atomID = defaultdict(list)
                         
-        atoms = _load_atoms(self.pdb_final, model=model, chain=chain)
+        atoms = _load_atoms(self.pdb_filename, model=model, chain=chain)
         
         for atom in atoms:
             residues[(atom.res_num, atom.chain)].append(atom.id)
@@ -322,7 +333,7 @@ class PDBParser(object):
         """ Checks if there are multiple models in the PDB file
         """
     
-        with open(self.pdb_final, 'r') as pdbf:
+        with open(self.pdb_filename, 'r') as pdbf:
             for line in pdbf:
                 if line.startswith('MODEL'):
                     return True
@@ -334,7 +345,7 @@ class PDBParser(object):
         are renamed so that they do not clash.
         """
 
-        with open(self.pdb_final, 'r') as pdbf:
+        with open(self.pdb_filename, 'r') as pdbf:
             lines = pdbf.readlines()
         
         lines_new = []
@@ -411,7 +422,7 @@ class PDBParser(object):
             lines_new.pop(lineNumbers[model][1]-i)
             i += 1
 
-        with open(self.pdb_final, 'w') as f:
+        with open(self.pdb_filename, 'w') as f:
             for line in lines_new:
                 print(line, file = f)
 
@@ -424,7 +435,7 @@ class PDBParser(object):
         a pdb file and the bond length of the specified interactions
         """
 
-        with open(self.pdb_final, 'r') as pdb:
+        with open(self.pdb_filename, 'r') as pdb:
             lines = pdb.readlines()
         LINK_bonds = []
         for line in lines:
