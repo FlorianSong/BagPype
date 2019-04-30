@@ -47,7 +47,7 @@ class PDBParser(object):
             urllib.request.urlretrieve(url, pdb_filename)
 
         
-    def parse(self, protein, model=None, chain='all', 
+    def parse(self, protein, model=None, 
                 strip='default', strip_ANISOU=True, remove_LINK=False,
                 add_H=None, alternate_location=None, MakeMultimer_number=1):
         """ Takes a bagpype Protein object and loads it with data 
@@ -58,11 +58,9 @@ class PDBParser(object):
         # bio : bool
         #   Indicates whether the file is a biological pdb file.
         #   If True, multiple models in the same file will be combined.
-        model : str
+        model : int
           Model to be loaded.  Should be specified if there
           are multiple models in the same file (e.g. NMR structures)
-        chain : tuple of str
-          Tuple of chains to load.  
         strip : tuple of str 
           name of objects to be removed from PDB file
         strip_ANISOU : bool
@@ -87,6 +85,12 @@ class PDBParser(object):
         shutil.copyfile(self.pdb_filename, self.pdb_filename[0:-4] + '_stripped.pdb')
         self.pdb_filename = self.pdb_filename[0:-4] + '_stripped.pdb'
 
+        #######################################
+        # The area below uses self.pdb_lines
+        #######################################
+        # Read in lines from this file, so we don't need so many file read/write events.
+        self.pdb_lines = open(self.pdb_filename, "r").readlines()
+
         # Detect whether ANISOU entries are present and strip if wanted.
         are_anisou_entries_present = False
         with open(self.pdb_filename) as f:
@@ -99,10 +103,13 @@ class PDBParser(object):
             self._strip_ANISOU()
 
         # Symmetric subunits are often stored as separate models in bio files         
-        if self._check_models():
-            print("Combining models")
-            self._combine_models()
+        # if self._check_models():
+        #     print("Combining models")
+        #     self._combine_models()
 
+        if model is not None:
+            self._strip_models(model)
+        
         if remove_LINK:
             print("Removing LINK entries")
             self._remove_LINK_entries()
@@ -113,6 +120,13 @@ class PDBParser(object):
 
         if alternate_location is not None:
             self._strip_alternate_location(alternate_location)
+
+        open(self.pdb_filename, "w").writelines(self.pdb_lines)
+        #######################################
+        # The area above uses self.pdb_lines
+        #######################################
+
+
 
         self._renumber_atoms()
 
@@ -128,7 +142,7 @@ class PDBParser(object):
         (protein.atoms,
          protein.residues,
          protein.chains,
-         protein.pdbNum_to_atomID) = self._parse_pdb_lines(model, chain)
+         protein.pdbNum_to_atomID) = self._parse_pdb_lines()
         
         protein.pdb_id = self.pdb_filename
 
@@ -141,28 +155,24 @@ class PDBParser(object):
 
         """
         out_lines = []
-        with open(self.pdb_filename, "r") as f:
-            for line in f:
-                if not line.startswith("ANISOU"):
-                    out_lines.append(line)
-        with open(self.pdb_filename, "w") as f:
-            f.writelines(out_lines)
+        for line in self.pdb_lines:
+            if not line.startswith("ANISOU"):
+                out_lines.append(line)
+        self.pdb_lines = out_lines
 
     def _remove_LINK_entries(self):
         """Removes LINK entries.
         """
         out_lines = []
-        with open(self.pdb_filename, "r") as f:
-            for line in f:
-                if not line.startswith("LINK"):
-                    out_lines.append(line)
-        with open(self.pdb_filename, "w") as f:
-            f.writelines(out_lines)
+        for line in self.pdb_lines:
+            if not line.startswith("LINK"):
+                out_lines.append(line)
+        self.pdb_lines = out_lines
 
     def _strip_atoms(self, strip):
         """Creates a new PDB file with atoms specified in the dictionary
         'strip' removed.
-        "CONECT" entries are also removed.
+        # "CONECT" entries are also removed.
         
         Parameters
         ----------
@@ -176,42 +186,75 @@ class PDBParser(object):
             strip['res_name'] = aa_to_eliminate
         else:
             strip['res_name'] = strip.get('res_name', []) + aa_to_eliminate
-            
-        with open(self.pdb_filename, 'r') as old_f, open(self.pdb_filename[0:-4] + '_temp.pdb', 'w') as new_f:
-            print("Stripping unwanted atom types from the PDB file", ( strip['res_name'] ))
-            for line in old_f:
-                if line.startswith('ATOM') or line.startswith('HETATM'):
-                    atom = _parse_atom_line(line)
-                    if (
-                            atom.PDBnum not in strip.get('PDBnum', []) and
-                            atom.name not in strip.get('name', []) and
-                            atom.element not in strip.get('element', []) and
-                            atom.chain not in strip.get('chain', []) and
-                            atom.res_num not in strip.get('res_num', []) and
-                            atom.res_name not in strip.get('res_name', []) and
-                            [atom.res_num, atom.chain] not in strip.get('residues', [])
-                    ):
-                        new_f.write(line)
-                elif line.startswith('CONECT'):
-                    continue
-                else:
-                    new_f.write(line)
-        
-        shutil.move(self.pdb_filename[0:-4] + '_temp.pdb', self.pdb_filename)
+        print("Stripping unwanted atom types from the PDB file", ( strip['res_name'] ))
+
+        out_lines = []
+        for line in self.pdb_lines:
+            if line.startswith('ATOM') or line.startswith('HETATM'):
+                atom = _parse_atom_line(line)
+                if (
+                        atom.PDBnum not in strip.get('PDBnum', []) and
+                        atom.name not in strip.get('name', []) and
+                        atom.element not in strip.get('element', []) and
+                        atom.chain not in strip.get('chain', []) and
+                        atom.res_num not in strip.get('res_num', []) and
+                        atom.res_name not in strip.get('res_name', []) and
+                        [atom.res_num, atom.chain] not in strip.get('residues', [])
+                ):
+                    out_lines.append(line)
+            # elif line.startswith('CONECT'):
+            #     continue
+            else:
+                out_lines.append(line)
+
+        self.pdb_lines = out_lines
 
 
     def _strip_alternate_location(self, alternate_location):
-        with open(self.pdb_filename, "r") as f:
-            lines = f.readlines()
-        lines2 = []
-        for l in lines:
-            if l.startswith("ATOM") or l.startswith("HETATM"): 
-                if l[16:17] in [" "] + [alternate_location]:
-                    lines2 += l
+        out_lines = []
+        for line in self.pdb_lines:
+            if line.startswith("ATOM") or line.startswith("HETATM"): 
+                if line[16:17] in [" "] + [alternate_location]:
+                    out_lines += line
             else:
-                lines2 += l
-        with open(self.pdb_filename, "w") as f:
-            f.writelines(lines2)
+                out_lines += line
+        self.pdb_lines = out_lines
+
+    def _strip_models(self, model):
+        out_lines = []
+        currentModel = False
+        for line in self.pdb_lines:
+            if line.startswith("ATOM") or line.startswith("HETATM") or line.startswith("TER "):
+                if currentModel:
+                    out_lines += line
+                else:
+                    continue
+            elif (line.startswith('MODEL') and int(line[10:14]) == model):
+                currentModel = True
+            elif line.startswith("MODEL"):
+                continue
+            elif line.startswith('ENDMDL'):
+                currentModel = False
+            else:
+                out_lines += line
+
+
+
+
+
+            # if not currentModel:
+            #     if (line.startswith('MODEL') and int(line[10:14]) == model):
+            #         currentModel = True
+            #     elif not line.startswith('ATOM') or not line.startswith('HETATM'): 
+            #         out_lines += line
+            # else:
+            #     if line.startswith('ATOM') or line.startswith('HETATM'):
+            #         out_lines += line
+            #     elif line.startswith('ENDMDL'):
+            #         currentModel = False
+
+        self.pdb_lines = out_lines
+
 
     def _MakeMultimer_wrapper(self, MakeMultimer_number):
         header = []
@@ -293,7 +336,7 @@ class PDBParser(object):
         self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
         
 
-    def _parse_pdb_lines(self, model, chain):
+    def _parse_pdb_lines(self):
         """Parses the details of the atoms from a pdb file.
 
         Returns
@@ -311,7 +354,7 @@ class PDBParser(object):
         chains = defaultdict(list)
         pdbNum_to_atomID = defaultdict(list)
                         
-        atoms = _load_atoms(self.pdb_filename, model=model, chain=chain)
+        atoms = _load_atoms(self.pdb_filename)
         
         for atom in atoms:
             residues[(atom.res_num, atom.chain)].append(atom.id)
@@ -332,12 +375,11 @@ class PDBParser(object):
     def _check_models(self):
         """ Checks if there are multiple models in the PDB file
         """
-    
-        with open(self.pdb_filename, 'r') as pdbf:
-            for line in pdbf:
-                if line.startswith('MODEL'):
-                    return True
-            return False
+
+        for line in self.pdb_lines:
+            if line.startswith('MODEL'):
+                return True
+        return False
 
 
     def _combine_models(self):
@@ -345,19 +387,16 @@ class PDBParser(object):
         are renamed so that they do not clash.
         """
 
-        with open(self.pdb_filename, 'r') as pdbf:
-            lines = pdbf.readlines()
-        
         lines_new = []
-        for i, line in enumerate(lines):
+        for i, line in enumerate(self.pdb_lines):
             lines_new.append(list(line.rstrip('\r\n')))
 
         # Find MODEL and ENDMDL lines in file
         MODEL_lines = [(i, line) for i, line
-                    in enumerate(lines)
+                    in enumerate(self.pdb_lines)
                     if line.startswith('MODEL')]
         ENDMDL_lines = [(i, line) for i, line
-                        in enumerate(lines)
+                        in enumerate(self.pdb_lines)
                         if line.startswith('ENDMDL')]
 
         # Check there are the same number of MODEL and ENDMDL lines
@@ -377,7 +416,7 @@ class PDBParser(object):
         # Check that all entries between the start and end
         # of the MODEL are ATOM/HETATM/TER
         for model in models:
-            for line in lines[lineNumbers[model][0]+1:lineNumbers[model][1]-1]:
+            for line in self.pdb_lines[lineNumbers[model][0]+1:lineNumbers[model][1]-1]:
                 if not (line.startswith('ATOM')
                         or line.startswith('HETATM')
                         or line.startswith('TER')):
@@ -388,17 +427,19 @@ class PDBParser(object):
         # (these will probably be duplicate for each model)
         chainIDs_old = dict((model, []) for model in models)
         for model in models:
-            for line in lines[lineNumbers[model][0]:lineNumbers[model][1]]:
+            for line in self.pdb_lines[lineNumbers[model][0]:lineNumbers[model][1]]:
                 if line.startswith('ATOM') or line.startswith('HETATM'):
                     chainIDs_old[model].append(line[21])
             chainIDs_old[model] = sorted(list(set(chainIDs_old[model])))
+
+        new_chain_creator = string.ascii_uppercase + string.ascii_lowercase
 
         # Create new unique chain IDs
         chainIDs_new = dict((model, []) for model in models)
         chainCount = 0
         for model in models:
             for chain in chainIDs_old[model]:
-                chainIDs_new[model].append(string.ascii_uppercase[chainCount])
+                chainIDs_new[model].append(new_chain_creator[chainCount])
                 chainCount = chainCount+1
 
         # Map old chain id to new chain id
@@ -490,8 +531,8 @@ def _load_atoms(pdb, PDBnum='all', name='all', res_name='all', chain = 'all',
                     atom.id = id_counter
                     atoms.append(atom)
                     id_counter += 1
-                    if line.startswith('ENDMDL'):
-                        currentModel = False
+            if line.startswith('ENDMDL'):
+                currentModel = False
     return atoms
         
 def _parse_atom_line(line):
