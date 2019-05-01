@@ -87,8 +87,6 @@ class PDBParser(object):
             print("Applying MakeMultimer")
             self._MakeMultimer_wrapper(MakeMultimer_number)
         
-        # Making a copy of the original file, so that it is preserved and all changes are made to copied file
-        # shutil.copyfile(self.pdb_filename, self.pdb_filename[0:-4] + '_stripped.pdb')
 
         #######################################
         # The area below uses self.pdb_lines
