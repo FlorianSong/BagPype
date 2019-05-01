@@ -77,19 +77,25 @@ class PDBParser(object):
 
 
         # MakeMultimer step
-        if MakeMultimer_number is not None:
+        are_biomt_entries_present = False
+        with open(self.pdb_filename) as f:
+            for line in f:
+                if line.startswith("REMARK 350"):
+                    are_biomt_entries_present = True
+                    break
+        if MakeMultimer_number is not None and are_biomt_entries_present:
             print("Applying MakeMultimer")
             self._MakeMultimer_wrapper(MakeMultimer_number)
         
         # Making a copy of the original file, so that it is preserved and all changes are made to copied file
-        shutil.copyfile(self.pdb_filename, self.pdb_filename[0:-4] + '_stripped.pdb')
-        self.pdb_filename = self.pdb_filename[0:-4] + '_stripped.pdb'
+        # shutil.copyfile(self.pdb_filename, self.pdb_filename[0:-4] + '_stripped.pdb')
 
         #######################################
         # The area below uses self.pdb_lines
         #######################################
         # Read in lines from this file, so we don't need so many file read/write events.
         self.pdb_lines = open(self.pdb_filename, "r").readlines()
+        print(self.pdb_filename)
 
         # Detect whether ANISOU entries are present and strip if wanted.
         are_anisou_entries_present = False
@@ -121,12 +127,11 @@ class PDBParser(object):
         if alternate_location is not None:
             self._strip_alternate_location(alternate_location)
 
+        self.pdb_filename = self.pdb_filename[0:-4] + '_stripped.pdb'
         open(self.pdb_filename, "w").writelines(self.pdb_lines)
         #######################################
         # The area above uses self.pdb_lines
         #######################################
-
-
 
         self._renumber_atoms()
 
@@ -238,21 +243,6 @@ class PDBParser(object):
             else:
                 out_lines += line
 
-
-
-
-
-            # if not currentModel:
-            #     if (line.startswith('MODEL') and int(line[10:14]) == model):
-            #         currentModel = True
-            #     elif not line.startswith('ATOM') or not line.startswith('HETATM'): 
-            #         out_lines += line
-            # else:
-            #     if line.startswith('ATOM') or line.startswith('HETATM'):
-            #         out_lines += line
-            #     elif line.startswith('ENDMDL'):
-            #         currentModel = False
-
         self.pdb_lines = out_lines
 
 
@@ -269,7 +259,7 @@ class PDBParser(object):
         backbone = False,
         nowater = False,
         nohetatm = False,
-        renamechains = 0,
+        renamechains = 1,
         renumberresidues = 0)
         
         pdblurb = open(self.pdb_filename).read()
