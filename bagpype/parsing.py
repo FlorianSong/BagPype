@@ -75,6 +75,7 @@ class PDBParser(object):
         if not os.path.isfile(self.pdb_filename):
             raise IOError("Couldn't open PDB file " + self.pdb_filename)
 
+        ### Here, pdb_filename = 1xyz.pdb 
 
         # MakeMultimer step
         are_biomt_entries_present = False
@@ -84,16 +85,17 @@ class PDBParser(object):
                     are_biomt_entries_present = True
                     break
         if MakeMultimer_number is not None and are_biomt_entries_present:
-            print("Applying MakeMultimer")
+            print("Applying MakeMultimer and using Biomolecule number:", MakeMultimer_number)
             self._MakeMultimer_wrapper(MakeMultimer_number)
         
+        ### Here, pdb_filename = 1xyz_mm#.pdb
 
         #######################################
         # The area below uses self.pdb_lines
         #######################################
+        
         # Read in lines from this file, so we don't need so many file read/write events.
         self.pdb_lines = open(self.pdb_filename, "r").readlines()
-        print(self.pdb_filename)
 
         # Detect whether ANISOU entries are present and strip if wanted.
         are_anisou_entries_present = False
@@ -106,18 +108,21 @@ class PDBParser(object):
             print("Removing ANISOU entries")
             self._strip_ANISOU()
 
-        # Symmetric subunits are often stored as separate models in bio files         
+        # Symmetric subunits are often stored as separate models in bio files
         # if self._check_models():
         #     print("Combining models")
         #     self._combine_models()
 
+        # Strip all models BUT model (int)
         if model is not None:
             self._strip_models(model)
-        
+
+        # Strip LINK entries if wanted
         if remove_LINK:
             print("Removing LINK entries")
             self._remove_LINK_entries()
 
+        # Strip certain entries, according to residue name, atom number etc.
         if not (strip=='default' or isinstance(strip, dict)):
             raise TypeError("'strip' should be a dict")
         self._strip_atoms(strip)
@@ -127,9 +132,13 @@ class PDBParser(object):
 
         self.pdb_filename = self.pdb_filename[0:-4] + '_stripped.pdb'
         open(self.pdb_filename, "w").writelines(self.pdb_lines)
+        
         #######################################
         # The area above uses self.pdb_lines
         #######################################
+
+
+        ### Here, pdb_filename = 1xyz_mm#_stripped.pdb
 
         self._renumber_atoms()
 
@@ -137,6 +146,8 @@ class PDBParser(object):
             print("Adding hydrogens to PDB file")
             self._add_hydrogens()
             print("Finished adding hydrogens")
+
+        ### Here, pdb_filename = 1xyz_mm#_stripped_H.pdb
 
         self._renumber_atoms()
 
@@ -152,10 +163,46 @@ class PDBParser(object):
         protein.LINKs = self._parse_LINK()
 
 
-    def _strip_ANISOU(self):
-        """Strips ANISOU records from the PDB file by calling 
-        grep and cat bash commands
 
+
+
+
+
+
+
+    ####################
+    # Helper functions #
+    ####################
+
+    def _MakeMultimer_wrapper(self, MakeMultimer_number):
+        header = []
+        with open(self.pdb_filename) as temp_file:
+            for line in temp_file:
+                if not (line.startswith("ATOM") or line.startswith("HETATM")):
+                    header.append(line)
+                else:
+                    break
+
+        MakeMultimer_options = dict(
+        backbone = False,
+        nowater = False,
+        nohetatm = False,
+        renamechains = 1,
+        renumberresidues = 0)
+        
+        pdblurb = open(self.pdb_filename).read()
+        r = dependencies.MakeMultimer.PdbReplicator(pdblurb, MakeMultimer_options)
+        outfile_template = self.pdb_filename.split('.')[0] + '_mm%s.pdb'
+
+        for i, bm in enumerate(r.biomolecules):
+            outfile = outfile_template % (i+1)
+            open(outfile, 'w').write("".join(header) + bm.output(self.pdb_filename))
+
+        self.pdb_filename = outfile_template % (MakeMultimer_number)
+
+
+    def _strip_ANISOU(self):
+        """Strips ANISOU records from the PDB file
         """
         out_lines = []
         for line in self.pdb_lines:
@@ -242,34 +289,6 @@ class PDBParser(object):
                 out_lines += line
 
         self.pdb_lines = out_lines
-
-
-    def _MakeMultimer_wrapper(self, MakeMultimer_number):
-        header = []
-        with open(self.pdb_filename) as temp_file:
-            for line in temp_file:
-                if not (line.startswith("ATOM") or line.startswith("HETATM")):
-                    header.append(line)
-                else:
-                    break
-
-        MakeMultimer_options = dict(
-        backbone = False,
-        nowater = False,
-        nohetatm = False,
-        renamechains = 1,
-        renumberresidues = 0)
-        
-        pdblurb = open(self.pdb_filename).read()
-        r = dependencies.MakeMultimer.PdbReplicator(pdblurb, MakeMultimer_options)
-        outfile_template = self.pdb_filename.split('.')[0] + '_mm%s.pdb'
-
-        for i, bm in enumerate(r.biomolecules):
-            outfile = outfile_template % (i+1)
-            open(outfile, 'w').write("".join(header) + bm.output(self.pdb_filename))
-
-        self.pdb_filename = outfile_template % (MakeMultimer_number)
-
 
 
     def _renumber_atoms(self):
