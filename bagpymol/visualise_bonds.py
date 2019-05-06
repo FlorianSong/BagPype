@@ -6,14 +6,14 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBI
     list_of_types = [x.upper() for x in list_of_types] if type(list_of_types) is list else [list_of_types.upper()]
     print("Visualising: ", list_of_types, " edges.")
 
-    covalent_colour = [251,101,66] #FB6542
-    hydrogen_colour = [55,94,151] #375E97
-    saltbridge_colour = [127, 152, 189] #7F98BD
-    hydrophobic_colour = [255,187,0] #FFBB00
-    stacked_colour = [63,104,28] #3F681C
-    backbone_colour = [63,104,28] #3F681C
-    electrostatic_colour = [255,255,255] #FFFFFF
-    other_colour = [0,0,0] #000000
+    covalent_colour = [187,187,187] #BBBBBB
+    hydrogen_colour = [0,119,187] #0077BB
+    saltbridge_colour = [51,187,238] #33BBEE
+    hydrophobic_colour = [238,119,51] #EE7733
+    stacked_colour = [204,51,17] #CC3311
+    backbone_colour = [238,51,119] #EE3377
+    electrostatic_colour = [0,153,136] #009988
+    other_colour = [0,0,0] #FFFFFF
 
     cmd.set_color("COVALENT", covalent_colour)
     cmd.set_color("HYDROGEN", hydrogen_colour)
