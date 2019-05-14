@@ -13,6 +13,13 @@ Free for use in any way you see fit but you have to leave this notice
 in place and in effect in derived works.
 '''
 
+
+'''
+Disclaimer: This program has been adapted for the purposes of "bagpype" as a result of work 
+done at the Yaliraki Group (Imperial College London) by Florian Song.
+'''
+
+
 import sys, urllib.request, urllib.parse, urllib.error, gzip, io, re, os.path, pprint, string
 
 # this phrase precedes a matrix
@@ -189,7 +196,10 @@ class ReplicationGroup(object):
             self.matrices.append(new_matrix)
 
         for chain in sorted(list(self.source_chains)):
-            self.replicated_chains[chain] = self._replicateChain(chain)
+            try:
+                self.replicated_chains[chain] = self._replicateChain(chain)
+            except KeyError:
+                pass
 
     def _replicateChain(self, chain):
         '''
