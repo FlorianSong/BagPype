@@ -47,9 +47,10 @@ class PDBParser(object):
             urllib.request.urlretrieve(url, pdb_filename)
 
         
-    def parse(self, protein, model=None, 
-                strip='default', strip_ANISOU=True, remove_LINK=False,
-                add_H=None, alternate_location=None, MakeMultimer_number=1):
+    def parse(self, protein, model=1, 
+                strip='default', strip_ANISOU=True, remove_LINK=False, strip_HETATM=False,
+                add_H=None, alternate_location="A", MakeMultimer_number=1,
+                strip_weird_H=[]):
         """ Takes a bagpype Protein object and loads it with data 
         from the given PDB file.
 
@@ -77,19 +78,6 @@ class PDBParser(object):
 
         ### Here, pdb_filename = 1xyz.pdb 
 
-        # MakeMultimer step
-        are_biomt_entries_present = False
-        with open(self.pdb_filename) as f:
-            for line in f:
-                if line.startswith("REMARK 350"):
-                    are_biomt_entries_present = True
-                    break
-        if MakeMultimer_number is not None and are_biomt_entries_present:
-            print("Applying MakeMultimer and using Biomolecule number:", MakeMultimer_number)
-            self._MakeMultimer_wrapper(MakeMultimer_number)
-        
-        ### Here, pdb_filename = 1xyz_mm#.pdb
-
         #######################################
         # The area below uses self.pdb_lines
         #######################################
@@ -98,15 +86,19 @@ class PDBParser(object):
         self.pdb_lines = open(self.pdb_filename, "r").readlines()
 
         # Detect whether ANISOU entries are present and strip if wanted.
-        are_anisou_entries_present = False
-        with open(self.pdb_filename) as f:
-            for line in f:
-                if line.startswith("ANISOU"):
-                    are_anisou_entries_present = True
-                    break
-        if strip_ANISOU and are_anisou_entries_present:
+        if strip_ANISOU and any([l.startswith("ANISOU") for l in self.pdb_lines]):
             print("Removing ANISOU entries")
             self._strip_ANISOU()
+
+        # Strip LINK entries if wanted
+        if remove_LINK and any([l.startswith("LINK") for l in self.pdb_lines]):
+            print("Removing LINK entries")
+            self._remove_LINK_entries()
+
+        # Strip all HETATM entries if wanted
+        if strip_HETATM and any([l.startswith("HETATM") for l in self.pdb_lines]):
+            print("Removing HETATM entries")
+            self._strip_HETATM_entries()
 
         # Symmetric subunits are often stored as separate models in bio files
         # if self._check_models():
@@ -114,13 +106,9 @@ class PDBParser(object):
         #     self._combine_models()
 
         # Strip all models BUT model (int)
-        if model is not None:
+        if model is not None and any([l.startswith("MODEL") for l in self.pdb_lines]):
+            print("Selecting model number", model, "and deleting all others")
             self._strip_models(model)
-
-        # Strip LINK entries if wanted
-        if remove_LINK:
-            print("Removing LINK entries")
-            self._remove_LINK_entries()
 
         # Strip certain entries, according to residue name, atom number etc.
         if not (strip=='default' or isinstance(strip, dict)):
@@ -137,8 +125,15 @@ class PDBParser(object):
         # The area above uses self.pdb_lines
         #######################################
 
+        ### Here, pdb_filename = 1xyz_stripped.pdb
 
-        ### Here, pdb_filename = 1xyz_mm#_stripped.pdb
+        # MakeMultimer step
+        if MakeMultimer_number is not None and any([l.startswith("REMARK 350") for l in self.pdb_lines]):
+            print("Applying MakeMultimer and using Biomolecule number:", MakeMultimer_number)
+            self._MakeMultimer_wrapper(MakeMultimer_number)
+        
+        ### Here, pdb_filename = 1xyz_stripped_mm#.pdb
+
 
         self._renumber_atoms()
 
@@ -147,12 +142,18 @@ class PDBParser(object):
             self._add_hydrogens()
             print("Finished adding hydrogens")
 
-        ### Here, pdb_filename = 1xyz_mm#_stripped_H.pdb
+        ### Here, pdb_filename = 1xyz_stripped_mm#_H.pdb
+
+        self._renumber_atoms()
+
+        # Sometimes, certain H's added by REDUCE are weird, so here's a way to strip them...
+        if len(strip_weird_H)>0:
+            self._strip_weird_H(strip_weird_H)
 
         self._renumber_atoms()
 
         # Parse individual lines of the pdb file
-        print("Loading atoms into protein object")
+        print("Loading atoms into protein object from file:", self.pdb_filename)
         (protein.atoms,
          protein.residues,
          protein.chains,
@@ -174,7 +175,7 @@ class PDBParser(object):
     # Helper functions #
     ####################
 
-    def _MakeMultimer_wrapper(self, MakeMultimer_number):
+    def _MakeMultimer_wrapper(self, MakeMultimer_number, MakeMultimer_renamechains=False, MakeMultimer_renumberresidues=1000):
         header = []
         with open(self.pdb_filename) as temp_file:
             for line in temp_file:
@@ -187,8 +188,8 @@ class PDBParser(object):
         backbone = False,
         nowater = False,
         nohetatm = False,
-        renamechains = 1,
-        renumberresidues = 0)
+        renamechains = int(MakeMultimer_renamechains),
+        renumberresidues = int(MakeMultimer_renumberresidues))
         
         pdblurb = open(self.pdb_filename).read()
         r = dependencies.MakeMultimer.PdbReplicator(pdblurb, MakeMultimer_options)
@@ -207,6 +208,15 @@ class PDBParser(object):
         out_lines = []
         for line in self.pdb_lines:
             if not line.startswith("ANISOU"):
+                out_lines.append(line)
+        self.pdb_lines = out_lines
+
+    def _strip_HETATM_entries(self):
+        """Strips ANISOU records from the PDB file
+        """
+        out_lines = []
+        for line in self.pdb_lines:
+            if not line.startswith("HETATM"):
                 out_lines.append(line)
         self.pdb_lines = out_lines
 
@@ -265,9 +275,9 @@ class PDBParser(object):
         for line in self.pdb_lines:
             if line.startswith("ATOM") or line.startswith("HETATM"): 
                 if line[16:17] in [" "] + [alternate_location]:
-                    out_lines += line
+                    out_lines.append(line)
             else:
-                out_lines += line
+                out_lines.append(line)
         self.pdb_lines = out_lines
 
     def _strip_models(self, model):
@@ -276,7 +286,7 @@ class PDBParser(object):
         for line in self.pdb_lines:
             if line.startswith("ATOM") or line.startswith("HETATM") or line.startswith("TER "):
                 if currentModel:
-                    out_lines += line
+                    out_lines.append(line)
                 else:
                     continue
             elif (line.startswith('MODEL') and int(line[10:14]) == model):
@@ -286,9 +296,24 @@ class PDBParser(object):
             elif line.startswith('ENDMDL'):
                 currentModel = False
             else:
-                out_lines += line
+                out_lines.append(line)
 
         self.pdb_lines = out_lines
+
+    def _strip_weird_H(self, list_of_atom_ids):
+        with open(self.pdb_filename, 'r') as fin:
+            out_lines = []
+            for line in fin:
+                if line.startswith("ATOM") or line.startswith("HETATM"):
+                    PDBnum = int(line[6:11])
+                    atom_id = PDBnum-1
+                    if atom_id in list_of_atom_ids:
+                        continue
+                    else:
+                        out_lines.append(line)
+        with open(self.pdb_filename, "w") as fout:
+            fout.writelines(out_lines)   
+
 
 
     def _renumber_atoms(self):
@@ -296,7 +321,7 @@ class PDBParser(object):
         with open(self.pdb_filename, 'r') as fin:
             number=0
 
-            final_lines = []
+            out_lines = []
 
             for line in fin:
                 temp = list(line)
@@ -305,16 +330,15 @@ class PDBParser(object):
                     temp[6+(5-len(str(number))):11] =  list(str(number))
                     dummy='     '
                     temp[6:6+(5-len(str(number)))] = list(dummy[0:(5-len(str(number)))])
-                final_lines+= ["".join(temp)]
+                out_lines.append("".join(temp))
         with open(self.pdb_filename, "w") as fout:
-            fout.writelines(final_lines)      
+            fout.writelines(out_lines)      
 
 
     def _has_hydrogens(self):
         """Search PDB file for hydrogen atoms. If one is found the 
         file is assumed to have had hydrogens previously added.
         """
-
         with open(self.pdb_filename,'r') as pdbf:
             for line in pdbf:
                 if line[0:4] == 'ATOM' and line[13] == 'H':
@@ -332,16 +356,16 @@ class PDBParser(object):
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
                         + '_H.pdb', shell=True)
+            self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
         elif sys.platform.startswith("darwin"):
             subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
                         + '_H.pdb', shell=True)
+            self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
         else:
             print("Sorry, but adding hydrogens with Reduce is currently only implemented for UNIX based operating systems.")
 
-        self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
-        
 
     def _parse_pdb_lines(self):
         """Parses the details of the atoms from a pdb file.
@@ -378,15 +402,6 @@ class PDBParser(object):
         pdb_data = (atoms, residues, chains, pdbNum_to_atomID)
         
         return pdb_data
-
-    def _check_models(self):
-        """ Checks if there are multiple models in the PDB file
-        """
-
-        for line in self.pdb_lines:
-            if line.startswith('MODEL'):
-                return True
-        return False
 
 
     def _combine_models(self):
@@ -509,6 +524,7 @@ class PDBParser(object):
 def _load_atoms(pdb, PDBnum='all', name='all', res_name='all', chain = 'all',
                res_num='all', model=None):
     """ Load a list of atoms from a pdb file
+    Note that the selection process is currently obsolete. This is done by _strip_atoms().
     
     Returns
     --------
