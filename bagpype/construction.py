@@ -1402,7 +1402,7 @@ def sec_neighborhood(G, node):
     """ Returns the second neighbourhood of a node in a Graph G as a set;
         does not include the node itself
     """
-    sec_nbhood = set()
+    sec_nbhood = set([node])
     for n in G[node]:
         sec_nbhood.update(G.neighbors(n))
     sec_nbhood.remove(node)
