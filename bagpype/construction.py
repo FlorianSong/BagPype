@@ -74,6 +74,7 @@ class Graph_constructor(object):
 
         # This has to be done so that the other functions can use the covalent bonds too:
         self.covalent_bonds_graph = nx.Graph()
+        self.covalent_bonds_graph.add_nodes_from(self.protein.atoms.id()) # Added later, not sure if this is a good idea...
         for bond in self.bonds:
             if bond.bond_type == ["COVALENT"]:
                 self.covalent_bonds_graph.add_edge(bond.atom1.id, bond.atom2.id)
@@ -106,8 +107,9 @@ class Graph_constructor(object):
             
 
         # Check graph is connected
-        if nx.number_connected_components(graph) > 1:
-            print('WARNING: Number of connected components is greater than 1.')
+        number_connected_components = nx.number_connected_components(graph)
+        if number_connected_components > 1:
+            print('WARNING: Number of connected components is greater than 1. (It\'s %d)' % (number_connected_components))
         
         protein.bonds = self.bonds
         protein.graph = graph
@@ -126,7 +128,7 @@ class Graph_constructor(object):
 
         time2 = time.time()
 
-        print("Finished constructing the graph!")
+        print("Finished constructing the graph!" + " # atoms = %d, # bonds = %d" % (len(protein.atoms), len(protein.bonds)))
         print(("    Time taken = %.2fs" % (time2-time1)))
         print()
 
@@ -956,6 +958,18 @@ class Graph_constructor(object):
 
         matches = self.hydrophobic_selection(hphobic_graph)
 
+        # print()
+        # matches_weights = [(x[0], x[1], hphobic_graph[x[0]][x[1]]["energy"]) for x in matches]
+        # new_hphobic_graph = nx.Graph()
+        # new_hphobic_graph.add_nodes_from([atom.id for atom in self.protein.atoms])
+        # new_hphobic_graph.add_weighted_edges_from(matches_weights, weight="energy")
+        # print(new_hphobic_graph.size(weight="energy"))
+        # self.hydrophobic_remove_bridges = False
+        # new_matches = self.hydrophobic_selection(new_hphobic_graph)
+        # print(len(new_matches), len(matches))
+        # print()
+        # matches=new_matches
+
         # Finally, write all bonds to self.bonds
         for bond in matches:
             atom1, atom2 = self.protein.atoms[bond[0]], self.protein.atoms[bond[1]]
@@ -1022,6 +1036,11 @@ class Graph_constructor(object):
 
             print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches)) + 
                     ", components: " + str(nx.number_connected_components(nx.Graph(matches))))
+
+        
+        # print(list(nx.connected_components(nx.Graph(matches))))
+
+
 
         # Calculate total hydrophobic energy for command line output
         total_hydrophobic_energy = sum([graph[i][j]["energy"] for i,j in matches])

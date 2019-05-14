@@ -4,8 +4,8 @@
 single_bond_energies = \
 {'C' : {'C':346, 'H':411, 'N':305, 'O':358, 'S':272, 'F':485, 'P':264, 'SE':582, 'BR':285, 'CL':327, 'I':213}, 
  'H' : {'C':411, 'N':386, 'O':459, 'S':363, 'F':565, 'H':432, 'P':322, 'SE':276}, 
- 'N' : {'C':305, 'H':386, 'F':283, 'P':617, 'O':201, 'S':464, 'N':167}, 
- 'O' : {'C':358, 'H':459, 'F':190, 'P':335, 'S':469, 'N':201, 'O':142, 'BR':201, 'BE':448, "MG":377}, # MG=O, but here because that's the distance cutoff 
+ 'N' : {'C':305, 'H':386, 'F':283, 'P':617, 'O':201, 'S':464, 'N':167, "FE":None}, 
+ 'O' : {'C':358, 'H':459, 'F':190, 'P':335, 'S':469, 'N':201, 'O':142, 'BR':201, 'BE':448, "MG":377, "ZN":None}, # MG=O, but here because that's the distance cutoff 
  'S' : {'C':272, 'H':363, 'F':284, 'O':469, 'N':464, 'P':335, 'S':167, 'FE':339}, 
  'P' : {'O':335, 'F':490, 'N':617, 'C':264, 'S':335, 'H':322}, 
  'F' : {'C':485, 'H':565, 'N':283, 'O':190, 'S':284, 'P':490, 'F':155, 'BE':632},
@@ -15,10 +15,11 @@ single_bond_energies = \
  'OQ2' : {'CA':464},
  'CA' : {'OQ2':464}, 
  'BE' : {'F':632, 'O':448},
- 'FE' : {'S':339},
+ 'FE' : {'S':339, "N":None},
  'I' : {'C':213},
  'CU' : {'CL':360},
- "MG" : {"O":377}
+ "MG" : {"O":377},
+ "ZN" : {"O":None}
 }
 # Note: for double bond energies, see energies.py
 
@@ -340,4 +341,8 @@ distance_cutoffs = {
 ("CD", "N"): 0, # Set to not bond covalently.
 ('CL', 'ZN'): 0, # Set to not bond covalently. 
 ("F" , "I" ): 0, # Set to not bond covalently. 
+("FE", "N"): 0, # Set to not bond covalently. 
+("FE", "C"): 0, # Set to not bond covalently.
+("CL", "S"): 2.07 +0.1, #Huheey
+
 }
