@@ -38,6 +38,7 @@ def generate_energies_dictionary(AA):
     ('S', 'O'): 517,
     ('N', 'O'): 607,
     ('P', 'S'): 335,
+    ('N', 'S'): None,
     }
 
     triplebond_energies = {
