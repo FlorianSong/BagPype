@@ -2,49 +2,53 @@ from pymol import cmd
 import sys
 import csv
 
-def visualise(list_of_types = ["COVALENT", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], file_name = "bonds.csv", specific_residue = None):
+def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], 
+              file_name = "bonds.csv", specific_residues = [] # e.g. [('1', 'A')]
+              ):
     list_of_types = [x.upper() for x in list_of_types] if type(list_of_types) is list else [list_of_types.upper()]
-    print("Visualising: ", list_of_types, " edges.")
+    print("Visualising: {} edges.".format(", ".join(list_of_types).lower()))
 
-    covalent_colour = [187,187,187] #BBBBBB
-    hydrogen_colour = [0,119,187] #0077BB
-    saltbridge_colour = [51,187,238] #33BBEE
-    hydrophobic_colour = [238,119,51] #EE7733
-    stacked_colour = [204,51,17] #CC3311
-    backbone_colour = [238,51,119] #EE3377
-    electrostatic_colour = [0,153,136] #009988
-    other_colour = [0,0,0] #FFFFFF
+    colours = {"covalent": [187,187,187], #BBBBBB
+               "disulfide": [153,153,51], #999933
+               "hydrogen": [0,119,187], #0077BB
+               "saltbridge": [51,187,238], #33BBEE
+               "hydrophobic": [238,119,51], #EE7733
+               "stacked": [204,51,17], #CC3311
+               "backbone": [238,51,119], #EE3377
+               "electrostatic": [0,153,136], #009988
+               "other": [0,0,0], #FFFFFF
+               }
 
-    cmd.set_color("COVALENT", covalent_colour)
-    cmd.set_color("HYDROGEN", hydrogen_colour)
-    cmd.set_color("HYDROPHOBIC", hydrophobic_colour)
-    cmd.set_color("SALTBRIDGE", saltbridge_colour)
-    cmd.set_color("STACKED", stacked_colour)
-    cmd.set_color("BACKBONE", backbone_colour)
-    cmd.set_color("ELECTROSTATIC", electrostatic_colour)
-    cmd.set_color("OTHER", other_colour)
+    for type_of_edge in colours: 
+        cmd.set_color(type_of_edge.upper(), colours[type_of_edge])
 
-    # file_name = "bonds.csv"
-    prefix = "edge"
+    # prefix = "edge"
 
     f = open(file_name, 'r')
     reader = csv.reader(f)
-    """with open(file_name, 'r') as f:
-        header = f.readline()
-        lines = f.readlines()[1:]"""
     header = reader.next()
-    print("HEADER:", header)
 
     for row in reader:
-        #row = row.split(",")
-        bond_id, bond_type, atom1_id, atom2_id = row[0], row[1], str(int(row[4])+1), str(int(row[9])+1)
+        bond_data = {}
+        for i, item in enumerate(header):
+            bond_data[item] = row[i]
 
-        # print(bond_type.split(","))
-        bond_type = bond_type.split(",")
+        if len(specific_residues)>0:
+            current_residue1 = tuple([ str(bond_data["atom1_res_num"]), str(bond_data["atom1_chain"]) ])
+            current_residue2 = tuple([ str(bond_data["atom2_res_num"]), str(bond_data["atom2_chain"]) ])
+            if not any([current_residue1 in specific_residues, current_residue2 in specific_residues]):
+                continue
+
+        # bond_id, bond_type, atom1_id, atom2_id = row[0], row[1], str(int(row[4])+1), str(int(row[9])+1)
+        bond_id = bond_data["bond_id"]
+        bond_type = bond_data["bond_type"].split(",")
+        atom1_id = str(int( bond_data["atom1_id"]) +1 )
+        atom2_id = str(int( bond_data["atom2_id"]) +1 )
 
         if len(bond_type) == 1:
 
             if bond_type[0] in list_of_types:
+                prefix = bond_type[0].lower()
                 cmd.distance(prefix + bond_id,
                         'id ' + atom1_id,
                         'id ' + atom2_id)
@@ -56,19 +60,21 @@ def visualise(list_of_types = ["COVALENT", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBI
             type1, type2 = tuple(bond_type)
             if type1 in list_of_types or type2 in list_of_types:
 
-                rgb1 = eval(type1.lower() + "_colour")
-                rgb2 = eval(type2.lower() + "_colour")
+                rgb1 = colours[type1.lower()] # eval(type1.lower() + "_colour")
+                rgb2 = colours[type2.lower()] # eval(type2.lower() + "_colour")
 
                 rgb_avg = [(x+y)/2 for x,y in zip(rgb1, rgb2)]
                 colour = "TEMP_AVERAGE"
-                cmd.set_color("TEMP_AVERAGE", rgb_avg)
+                cmd.set_color(colour, rgb_avg)
 
+                prefix = "".join([type1, type2]).lower()
+                print(prefix)
                 cmd.distance(prefix + bond_id,
                         'id ' + atom1_id,
                         'id ' + atom2_id)
                 cmd.color(colour, prefix + bond_id)
 
-        if bond_type[0] in ["COVALENT", "ASDF"] and bond_type[0] in list_of_types:
+        if bond_type[0] in ["COVALENT", "DISULFIDE"] and bond_type[0] in list_of_types:
             cmd.set("dash_gap", 0, prefix + bond_id)
             cmd.set("dash_radius", 0.15, prefix + bond_id)
         elif bond_type[0] in ["HYDROGEN", "SALTBRIDGE"] and bond_type[0] in list_of_types:
