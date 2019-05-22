@@ -259,7 +259,7 @@ distance_cutoffs = {
 ('CU', 'S'): 2.20, 
 ('FE', 'H'): 1.00, 
 ('FE', 'N'): 2.40, 
-('FE', 'O'): 2.40, 
+("FE", "O"): 0, # ('FE', 'O'): 2.40, Set to not bond...
 ('FE', 'S'): 2.40, 
 ('GE', 'GE'): 2.95, 
 ('GE', 'SE'): 2.95, 
@@ -344,5 +344,12 @@ distance_cutoffs = {
 ("FE", "N"): 0, # Set to not bond covalently. 
 ("FE", "C"): 0, # Set to not bond covalently.
 ("CL", "S"): 2.07 +0.1, #Huheey
+("YB", "O"): 0, # Set to not bond covalently.
+("YB", "S"): 0, # Set to not bond covalently.
+("YB", "N"): 0, # Set to not bond covalently.
+("YB", "C"): 0, # Set to not bond covalently.
+("PT", "S"): 0, # Set to not bond covalently.
+("PT", "O"): 0, # Set to not bond covalently.
+("PT", "N"): 0, # Set to not bond covalently.
 
 }
