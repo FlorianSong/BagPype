@@ -2,20 +2,20 @@ data_45A
 # 
 _chem_comp.id                                    45A 
 _chem_comp.name                                  "5'-O-[(S)-hydroxy(methyl)phosphoryl]adenosine" 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.type                                  "RNA LINKING" 
+_chem_comp.pdbx_type                             ATOMN 
 _chem_comp.formula                               "C11 H16 N5 O6 P" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.mon_nstd_parent_comp_id               A 
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2015-02-09 
-_chem_comp.pdbx_modified_date                    2015-11-13 
+_chem_comp.pdbx_modified_date                    2019-05-07 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
 _chem_comp.pdbx_replaces                         ? 
 _chem_comp.formula_weight                        345.248 
-_chem_comp.one_letter_code                       ? 
+_chem_comp.one_letter_code                       A 
 _chem_comp.three_letter_code                     45A 
 _chem_comp.pdbx_model_coordinates_details        ? 
 _chem_comp.pdbx_model_coordinates_missing_flag   N 
@@ -73,9 +73,9 @@ _chem_comp_atom.pdbx_ordinal
 45A H1     H4  H 0 1 N N N 8.325  -11.576 -4.452 0.481  4.332  0.378  H1     45A 27 
 45A "H1'"  H5  H 0 1 N N N 9.388  -14.351 -0.743 -0.978 1.374  -1.300 "H1'"  45A 28 
 45A H2     H6  H 0 1 N N N 7.038  -13.027 3.063  -5.778 1.396  -1.372 H2     45A 29 
-45A 7H32   H7  H 0 0 N N N 15.289 -10.252 -4.928 5.612  -1.286 -2.358 7H32   45A 30 
-45A 7H33   H8  H 0 0 N N N 14.422 -11.794 -5.238 6.313  -2.491 -1.251 7H33   45A 31 
-45A 7H31   H9  H 0 0 N N N 13.579 -10.225 -5.477 4.638  -2.677 -1.824 7H31   45A 32 
+45A H32    H7  H 0 1 N N N 15.289 -10.252 -4.928 5.612  -1.286 -2.358 H32    45A 30 
+45A H33    H8  H 0 1 N N N 14.422 -11.794 -5.238 6.313  -2.491 -1.251 H33    45A 31 
+45A H31    H9  H 0 1 N N N 13.579 -10.225 -5.477 4.638  -2.677 -1.824 H31    45A 32 
 45A "H5'1" H10 H 0 0 N N N 12.921 -13.464 -3.684 3.490  1.533  0.605  "H5'1" 45A 33 
 45A "H5'2" H11 H 0 0 N N N 11.978 -12.550 -4.909 2.511  0.207  1.280  "H5'2" 45A 34 
 45A "HO2'" H12 H 0 0 N N N 7.535  -14.520 -2.209 -1.345 3.597  1.367  "HO2'" 45A 35 
@@ -123,9 +123,9 @@ _chem_comp_bond.pdbx_ordinal
 45A "O3'" H1     SING N N 29 
 45A "C1'" "H1'"  SING N N 30 
 45A C2    H2     SING N N 31 
-45A C31   7H32   SING N N 32 
-45A C31   7H33   SING N N 33 
-45A C31   7H31   SING N N 34 
+45A C31   H32    SING N N 32 
+45A C31   H33    SING N N 33 
+45A C31   H31    SING N N 34 
 45A "C5'" "H5'1" SING N N 35 
 45A "C5'" "H5'2" SING N N 36 
 45A "O2'" "HO2'" SING N N 37 
@@ -162,6 +162,7 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type 
 _pdbx_chem_comp_audit.date 
 _pdbx_chem_comp_audit.processing_site 
-45A "Create component" 2015-02-09 EBI  
-45A "Initial release"  2015-11-18 RCSB 
+45A "Create component"   2015-02-09 EBI  
+45A "Initial release"    2015-11-18 RCSB 
+45A "Other modification" 2019-05-07 EBI  
 # 

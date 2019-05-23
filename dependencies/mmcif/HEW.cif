@@ -1,0 +1,111 @@
+data_HEW
+# 
+_chem_comp.id                                    HEW 
+_chem_comp.name                                  4-bromanylpyridin-2-amine 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C5 H5 Br N2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2018-12-04 
+_chem_comp.pdbx_modified_date                    2019-03-15 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        173.011 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     HEW 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6Q3F 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+HEW C4  C1  C  0 1 Y N N -12.425 -4.430 -9.819  0.399  1.511  -0.000 C4  HEW 1  
+HEW C5  C2  C  0 1 Y N N -13.167 -4.784 -8.726  1.758  1.750  -0.000 C5  HEW 2  
+HEW N1  N1  N  0 1 N N N -11.438 -3.229 -5.976  3.169  -1.530 -0.000 N1  HEW 3  
+HEW N2  N2  N  0 1 Y N N -12.871 -4.366 -7.471  2.622  0.752  0.000  N2  HEW 4  
+HEW C3  C3  C  0 1 Y N N -11.318 -3.630 -9.626  -0.060 0.199  -0.000 C3  HEW 5  
+HEW C1  C4  C  0 1 Y N N -11.730 -3.597 -7.256  2.224  -0.511 0.000  C1  HEW 6  
+HEW C2  C5  C  0 1 Y N N -10.939 -3.211 -8.357  0.870  -0.826 -0.000 C2  HEW 7  
+HEW BR1 BR1 BR 0 0 N N N -10.293 -3.160 -11.143 -1.914 -0.176 0.000  BR1 HEW 8  
+HEW H1  H1  H  0 1 N N N -12.699 -4.768 -10.808 -0.300 2.334  0.004  H1  HEW 9  
+HEW H2  H2  H  0 1 N N N -14.025 -5.424 -8.869  2.120  2.768  -0.000 H2  HEW 10 
+HEW H3  H3  H  0 1 N N N -12.134 -3.593 -5.357  4.115  -1.315 -0.000 H3  HEW 11 
+HEW H4  H4  H  0 1 N N N -10.542 -3.593 -5.721  2.882  -2.457 -0.000 H4  HEW 12 
+HEW H5  H5  H  0 1 N N N -10.058 -2.603 -8.217  0.548  -1.857 0.000  H5  HEW 13 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+HEW BR1 C3 SING N N 1  
+HEW C4  C3 DOUB Y N 2  
+HEW C4  C5 SING Y N 3  
+HEW C3  C2 SING Y N 4  
+HEW C5  N2 DOUB Y N 5  
+HEW C2  C1 DOUB Y N 6  
+HEW N2  C1 SING Y N 7  
+HEW C1  N1 SING N N 8  
+HEW C4  H1 SING N N 9  
+HEW C5  H2 SING N N 10 
+HEW N1  H3 SING N N 11 
+HEW N1  H4 SING N N 12 
+HEW C2  H5 SING N N 13 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+HEW InChI            InChI                1.03  "InChI=1S/C5H5BrN2/c6-4-1-2-8-5(7)3-4/h1-3H,(H2,7,8)" 
+HEW InChIKey         InChI                1.03  BAQKUNMKVAPWGU-UHFFFAOYSA-N                           
+HEW SMILES_CANONICAL CACTVS               3.385 "Nc1cc(Br)ccn1"                                       
+HEW SMILES           CACTVS               3.385 "Nc1cc(Br)ccn1"                                       
+HEW SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "c1cnc(cc1Br)N"                                       
+HEW SMILES           "OpenEye OEToolkits" 2.0.6 "c1cnc(cc1Br)N"                                       
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+HEW "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 4-bromanylpyridin-2-amine 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+HEW "Create component" 2018-12-04 EBI  
+HEW "Initial release"  2019-03-20 RCSB 
+# 

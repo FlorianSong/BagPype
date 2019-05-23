@@ -1,0 +1,107 @@
+data_9UX
+# 
+_chem_comp.id                                    9UX 
+_chem_comp.name                                  "dioxo(di-mu-sulfide)dimolybdenum" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "H4 Mo2 O2 S2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2018-08-08 
+_chem_comp.pdbx_modified_date                    2019-03-29 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        292.041 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     9UX 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6A71 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+9UX MO1 MO1 MO 0 0 N N N -34.047 -32.255 2.474  -1.679 0.100  0.237  MO1 9UX 1  
+9UX MO2 MO2 MO 0 0 N N N -32.769 -32.744 -0.089 1.679  0.100  0.237  MO2 9UX 2  
+9UX O1  O1  O  0 1 N N N -32.858 -32.186 3.490  -2.746 -0.699 -0.886 O1  9UX 3  
+9UX O2  O2  O  0 1 N N N -31.371 -32.979 0.314  2.746  -0.699 -0.886 O2  9UX 4  
+9UX S1  S1  S  0 1 N N N -34.017 -34.182 1.230  -0.000 -1.588 -0.106 S1  9UX 5  
+9UX S2  S2  S  0 1 N N N -33.588 -30.732 0.763  0.000  1.619  -0.576 S2  9UX 6  
+9UX H3  H3  H  0 1 N N N ?       ?       ?      2.809  1.418  0.441  H3  9UX 7  
+9UX H4  H4  H  0 1 N N N ?       ?       ?      1.755  -0.288 1.940  H4  9UX 8  
+9UX H1  H1  H  0 1 N N N ?       ?       ?      -2.809 1.418  0.441  H1  9UX 9  
+9UX H2  H2  H  0 1 N N N ?       ?       ?      -1.755 -0.288 1.940  H2  9UX 10 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+9UX MO1 O1 DOUB N N 1  
+9UX MO1 S1 SING N N 2  
+9UX MO1 S2 SING N N 3  
+9UX MO2 O2 DOUB N N 4  
+9UX MO2 S1 SING N N 5  
+9UX MO2 S2 SING N N 6  
+9UX MO2 H3 SING N N 7  
+9UX MO2 H4 SING N N 8  
+9UX MO1 H1 SING N N 9  
+9UX MO1 H2 SING N N 10 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+9UX SMILES           ACDLabs              12.01 "[Mo]1(=O)S[Mo](=O)S1"      
+9UX InChI            InChI                1.03  InChI=1S/2Mo.2O.2S.4H       
+9UX InChIKey         InChI                1.03  CUCWWCHRPGBDLT-UHFFFAOYSA-N 
+9UX SMILES_CANONICAL CACTVS               3.385 "O=[MoH2]1S[MoH2](=O)S1"    
+9UX SMILES           CACTVS               3.385 "O=[MoH2]1S[MoH2](=O)S1"    
+9UX SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "O=[MoH2]1S[MoH2](=O)S1"    
+9UX SMILES           "OpenEye OEToolkits" 2.0.6 "O=[MoH2]1S[MoH2](=O)S1"    
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+9UX "SYSTEMATIC NAME" ACDLabs              12.01 "dioxo(di-mu-sulfide)dimolybdenum"                            
+9UX "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "1,3-dithia-2$l^{6},4$l^{6}-dimolybdacyclobutane 2,4-dioxide" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+9UX "Create component" 2018-08-08 PDBJ 
+9UX "Initial release"  2019-04-03 RCSB 
+# 

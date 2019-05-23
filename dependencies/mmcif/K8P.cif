@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2016-08-11 
-_chem_comp.pdbx_modified_date                    2017-01-13 
+_chem_comp.pdbx_modified_date                    2019-05-11 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -54,11 +54,11 @@ K8P P     P1  P 0 1 N N N 9.010  -30.120 -9.806  -4.186 0.260  0.150  P     K8P 
 K8P O2P   O4  O 0 1 N N N 7.908  -29.403 -10.543 -4.233 0.576  1.595  O2P   K8P 8  
 K8P O1P   O5  O 0 1 N N N 9.158  -29.430 -8.464  -5.117 1.297  -0.657 O1P   K8P 9  
 K8P O3P   O6  O 0 1 N N N 8.625  -31.569 -9.610  -4.720 -1.240 -0.089 O3P   K8P 10 
-K8P C2N   N1  N 0 0 N N N 13.994 -31.286 -12.217 2.120  -0.444 -0.599 C2N   K8P 11 
+K8P N2    N1  N 0 1 N N N 13.994 -31.286 -12.217 2.120  -0.444 -0.599 N2    K8P 11 
 K8P C2    C4  C 0 1 N N S 14.768 -30.074 -12.568 3.236  -0.555 0.350  C2    K8P 12 
 K8P C1    C5  C 0 1 N N N 16.280 -30.304 -12.623 3.772  -1.987 0.343  C1    K8P 13 
 K8P C3    C6  C 0 1 N N N 14.307 -29.529 -13.898 4.334  0.395  -0.052 C3    K8P 14 
-K8P C3O   O7  O 0 0 N N N 15.099 -28.910 -14.597 4.332  0.891  -1.160 C3O   K8P 15 
+K8P O3C   O7  O 0 1 N N N 15.099 -28.910 -14.597 4.332  0.891  -1.160 O3C   K8P 15 
 K8P C4    C7  C 0 1 N N N 12.905 -29.721 -14.345 5.402  0.720  0.893  C4    K8P 16 
 K8P C5    C8  C 0 1 N N N 12.387 -29.090 -15.392 6.375  1.562  0.537  C5    K8P 17 
 K8P H1    H1  H 0 1 N N N 14.463 -31.740 -9.106  0.530  -2.421 -1.217 H1    K8P 18 
@@ -87,12 +87,12 @@ _chem_comp_bond.pdbx_aromatic_flag
 _chem_comp_bond.pdbx_stereo_config 
 _chem_comp_bond.pdbx_ordinal 
 K8P C5    C4    DOUB N N 1  
-K8P C3O   C3    DOUB N N 2  
+K8P O3C   C3    DOUB N N 2  
 K8P C4    C3    SING N N 3  
 K8P C3    C2    SING N N 4  
 K8P C1    C2    SING N N 5  
-K8P C2    C2N   SING N N 6  
-K8P C2N   "C1'" SING N N 7  
+K8P C2    N2    SING N N 6  
+K8P N2    "C1'" SING N N 7  
 K8P "C3'" O4P   SING N N 8  
 K8P "C3'" "C2'" SING N N 9  
 K8P "C1'" "C2'" SING N N 10 
@@ -110,7 +110,7 @@ K8P "C3'" H5    SING N N 21
 K8P "C3'" H6    SING N N 22 
 K8P O1P   H7    SING N N 23 
 K8P O3P   H8    SING N N 24 
-K8P C2N   H9    SING N N 25 
+K8P N2    H9    SING N N 25 
 K8P C2    H11   SING N N 26 
 K8P C1    H12   SING N N 27 
 K8P C1    H13   SING N N 28 
@@ -147,4 +147,6 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site 
 K8P "Create component" 2016-08-11 EBI  
 K8P "Initial release"  2017-01-18 RCSB 
+K8P "Modify atom id"   2019-05-10 EBI  
+K8P "Modify atom id"   2019-05-11 EBI  
 # 

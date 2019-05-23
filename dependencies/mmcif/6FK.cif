@@ -9,13 +9,13 @@ _chem_comp.mon_nstd_parent_comp_id               DG
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2016-04-15 
-_chem_comp.pdbx_modified_date                    2016-06-02 
+_chem_comp.pdbx_modified_date                    2019-05-07 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
 _chem_comp.pdbx_replaces                         ? 
 _chem_comp.formula_weight                        480.369 
-_chem_comp.one_letter_code                       ? 
+_chem_comp.one_letter_code                       G 
 _chem_comp.three_letter_code                     6FK 
 _chem_comp.pdbx_model_coordinates_details        ? 
 _chem_comp.pdbx_model_coordinates_missing_flag   N 
@@ -75,8 +75,8 @@ _chem_comp_atom.pdbx_ordinal
 6FK C15   C16 C 0 1 Y N N 23.729 55.894 -35.059 -5.447 2.592  1.622  C15   6FK 29 
 6FK C16   C17 C 0 1 Y N N 24.490 55.557 -33.944 -4.816 1.424  2.011  C16   6FK 30 
 6FK C17   C18 C 0 1 Y N N 24.068 55.919 -32.659 -4.016 0.739  1.117  C17   6FK 31 
-6FK O1    O7  O 0 1 N N N 24.119 61.355 -23.151 5.791  -0.529 -0.023 O1    6FK 32 
-6FK O2    O8  O 0 1 N Y N 25.555 59.815 -24.551 6.428  1.906  0.159  O2    6FK 33 
+6FK OP2   O7  O 0 1 N N N 24.119 61.355 -23.151 5.791  -0.529 -0.023 OP2   6FK 32 
+6FK OP3   O8  O 0 1 N Y N 25.555 59.815 -24.551 6.428  1.906  0.159  OP3   6FK 33 
 6FK H1    H1  H 0 1 N N N 23.938 59.223 -21.905 6.846  0.581  -2.343 H1    6FK 34 
 6FK H2    H2  H 0 1 N N N 21.392 58.944 -24.211 3.354  0.162  1.251  H2    6FK 35 
 6FK H3    H3  H 0 1 N N N 22.672 57.849 -24.837 3.782  1.873  1.494  H3    6FK 36 
@@ -140,9 +140,9 @@ _chem_comp_bond.pdbx_ordinal
 6FK "C4'" "C5'" SING N N 31 
 6FK "C5'" "O5'" SING N N 32 
 6FK "O5'" P     SING N N 33 
-6FK P     O1    DOUB N N 34 
+6FK P     OP2   DOUB N N 34 
 6FK P     OP1   SING N N 35 
-6FK P     O2    SING N N 36 
+6FK P     OP3   SING N N 36 
 6FK OP1   H1    SING N N 37 
 6FK "C5'" H2    SING N N 38 
 6FK "C5'" H3    SING N N 39 
@@ -163,7 +163,7 @@ _chem_comp_bond.pdbx_ordinal
 6FK C15   H18   SING N N 54 
 6FK C16   H19   SING N N 55 
 6FK C17   H20   SING N N 56 
-6FK O2    H21   SING N N 57 
+6FK OP3   H21   SING N N 57 
 # 
 loop_
 _pdbx_chem_comp_descriptor.comp_id 
@@ -191,9 +191,11 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type 
 _pdbx_chem_comp_audit.date 
 _pdbx_chem_comp_audit.processing_site 
-6FK "Create component"   2016-04-15 EBI  
-6FK "Other modification" 2016-04-19 EBI  
-6FK "Other modification" 2016-04-22 EBI  
-6FK "Initial release"    2016-06-01 RCSB 
-6FK "Other modification" 2016-06-02 RCSB 
+6FK "Create component"       2016-04-15 EBI  
+6FK "Other modification"     2016-04-19 EBI  
+6FK "Other modification"     2016-04-22 EBI  
+6FK "Initial release"        2016-06-01 RCSB 
+6FK "Other modification"     2016-06-02 RCSB 
+6FK "Modify one letter code" 2019-05-06 EBI  
+6FK "Other modification"     2019-05-07 EBI  
 # 
