@@ -81,7 +81,7 @@ class Graph_constructor(object):
 
 
         # The following functions require knowledge of covalent bonds!
-        self.find_hydrogen_bonds(energy_cutoff = self.H_bond_energy_cutoff) 
+        self.find_hydrogen_bonds() 
         self.find_hydrophobics()
         self.find_stacked()
         self.find_DNA_backbone()
@@ -129,7 +129,7 @@ class Graph_constructor(object):
         time2 = time.time()
 
         print("Finished constructing the graph!" + " # atoms = %d, # bonds = %d" % (len(protein.atoms), len(protein.bonds)))
-        print(("    Time taken = %.2fs" % (time2-time1)))
+        print(("    Time taken = %.2fs, final filename: %s" % (time2-time1, protein.pdb_id)))
         print()
 
 
@@ -300,15 +300,23 @@ class Graph_constructor(object):
         conditions = \
         (atom1.element == "C" and atom2.element == "N") or \
         (atom1.element == "N" and atom2.element == "C") or \
-        (atom1.element == "S" and atom2.element == "S") or \
         (atom1.element == 'O' and atom2.element == 'P') or \
         (atom1.element == 'P' and atom2.element == 'O')
-
+        # (atom1.element == "S" and atom2.element == "S") or \
+        
         if conditions:
             bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2)
             if bond_strength is not None:
                 bond_strength *= self.k_factor/6.022
                 self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
+
+        # Distinguish between covalent bonds and DISULFIDE bridges! O.o
+        if atom1.element == "S" and atom2.element == "S":
+            bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2)
+            if bond_strength is not None:
+                bond_strength *= self.k_factor/6.022
+                self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'DISULFIDE'))
+
 
     def add_covalent_bonds_using_distance_contraints(self, atom1, atom2, print_warnings = False):
         if within_cov_bonding_distance(atom1, atom2):
@@ -329,10 +337,10 @@ class Graph_constructor(object):
     # HYDROGEN BONDS #
     ##################
 
-    def find_hydrogen_bonds(self, energy_cutoff):
+    def find_hydrogen_bonds(self):
         """ Determine hydrogen bonds 
         """
-        print("Finding hydrogen bonds at cutoff = " + str(energy_cutoff) + "kcal/mol...")
+        print("Finding hydrogen bonds at cutoff = " + str(self.H_bond_energy_cutoff) + "kcal/mol...")
         total_hydrogen_energy = 0
 
         print("    Assigning H-bond status...")
@@ -350,14 +358,12 @@ class Graph_constructor(object):
 
             donor = self.find_donor(hydrogen)
 
-            if donor.element not in ["N", "O", "S"]:
-                continue
-            if self.Hbond_status[donor.id] == None:
+            if donor.element not in ["N", "O", "S"] or self.Hbond_status[donor.id] == None or donor.name in ["OXT"]:
                 continue
 
             for acceptor in [atom for atom in self.protein.atoms[list(self.possible_bonds.neighbors(hydrogen.id))] if atom.element in ["N", "O", "S"]]:
                 
-                if self.Hbond_status[acceptor.id] == None:
+                if self.Hbond_status[acceptor.id] == None or acceptor.name in ["OXT"]:
                     continue
 
                 if self.is_donor(donor) and self.is_acceptor(acceptor) and not in_third_neighbourhood(self.covalent_bonds_graph, hydrogen, acceptor):
@@ -377,7 +383,7 @@ class Graph_constructor(object):
                             else:
                                 bond_strength = self.compute_hydrogen_bond_energy(hydrogen, donor, acceptor, d, theta)
 
-                            if bond_strength is not None and (bond_strength < energy_cutoff or (salt_bridge_indicator and bond_strength < 0)):
+                            if bond_strength is not None and (bond_strength < self.H_bond_energy_cutoff or (salt_bridge_indicator and bond_strength < 0)):
                                 atom1, atom2 = hydrogen, acceptor
                                 
                                 bond_strength *= -self.k_factor*4.184/6.022
@@ -591,7 +597,7 @@ class Graph_constructor(object):
         degree = nx.degree(self.covalent_bonds_graph, site1)
         
         if degree < 1:
-            raise ValueError("Couldn't find triple for single atom with no bonds!")
+            raise ValueError("Couldn't find triplet for single atom {} with no bonds!".format(str(atom.id)))
 
         elif degree == 1:
             site2 = list(self.covalent_bonds_graph.neighbors(atom.id))[0]
@@ -836,7 +842,7 @@ class Graph_constructor(object):
 
                 # check if there is a second O in neighborhood
                 for i in sec_neighbors_id:
-                    if self.protein.atoms[i].name == 'O':
+                    if self.protein.atoms[i].element == 'O':
                         other_O = i
                 # if there is than check if it is also single bonded
                 if other_O is not None:
@@ -877,7 +883,7 @@ class Graph_constructor(object):
         elif atom.res_name == "CYS" or atom.res_name == 'CYX':
             neighbours = self.covalent_bonds_graph.neighbors(atom.id)
 
-            if 'H' in [self.protein.atoms[n].name for n in neighbours]:
+            if 'H' in [self.protein.atoms[n].element for n in neighbours]:
                 return dict(DonorAcceptor = "both", Charged = False, Hybridisation = "sp3")
 
             else:
@@ -892,7 +898,7 @@ class Graph_constructor(object):
             elif degree == 2:
                 neighbours = self.covalent_bonds_graph.neighbors(atom.id)
 
-                if 'H' in [self.protein.atoms[n].name for n in neighbours]:
+                if 'H' in [self.protein.atoms[n].element for n in neighbours]:
                     return dict(DonorAcceptor = "both", Charged = False, Hybridisation = "sp3")
 
                 else:
