@@ -68,7 +68,6 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
                 cmd.set_color(colour, rgb_avg)
 
                 prefix = "".join([type1, type2]).lower()
-                print(prefix)
                 cmd.distance(prefix + bond_id,
                         'id ' + atom1_id,
                         'id ' + atom2_id)
@@ -82,7 +81,7 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
             cmd.set("dash_radius", 0.1, prefix + bond_id)
         elif bond_type[0] in list_of_types:
             cmd.set("dash_gap", 0.3, prefix + bond_id)
-            cmd.set("dash_radius", 0.1, prefix + bond_id)
+            cmd.set("dash_radius", 0.08, prefix + bond_id)
 
     cmd.hide('labels')
     # cmd.set('dash_gap',0)

@@ -47,29 +47,35 @@ class PDBParser(object):
             urllib.request.urlretrieve(url, pdb_filename)
 
         
-    def parse(self, protein, model=1, 
-                strip='default', strip_ANISOU=True, remove_LINK=False, strip_HETATM=False,
-                add_H=None, alternate_location="A", MakeMultimer_number=1,
-                strip_weird_H=[]):
+    def parse(self, protein,
+              model=1, strip='default', strip_ANISOU=True, strip_LINK=False, 
+              strip_HETATM=False, add_H=None, alternate_location="A", 
+              MakeMultimer_number=1, strip_weird_H=[]
+              ):
         """ Takes a bagpype Protein object and loads it with data 
         from the given PDB file.
 
         Parameters
         ----------
-        # bio : bool
-        #   Indicates whether the file is a biological pdb file.
-        #   If True, multiple models in the same file will be combined.
         model : int
           Model to be loaded.  Should be specified if there
           are multiple models in the same file (e.g. NMR structures)
-        strip : tuple of str 
+        strip : dict where keys are from: [PDBnum, name, element, chain, res_num, res_name, residues]
           name of objects to be removed from PDB file
         strip_ANISOU : bool
-          specifies whether remove ANISOU entries should be
-          removed from PDB file
-        remove_LINK : bool 
-          specifies whether LINK entries should be removed 
-          from the PDB file
+          specifies whether remove ANISOU entries should be removed from PDB file
+        strip_LINK : bool 
+          specifies whether LINK entries should be removed from the PDB file
+        strip_HETATM : bool
+          specifies whether HETATM entries should be removed from the PDB file
+        add_H : bool
+          specifies whether REDUCE should be run to add H's to the PDB file
+        alternate_location : str (1)
+          specifies alternate location letter to be considered
+        MakeMultimer_number : int or None
+          specifies whether MakeMultimer should be run to obtain biological assemblies.
+        strip_weird_H : list of int
+          specifies which H's should be removed from the structure even if Reduce placed them there
         """
 
         # Sanity check whether file actually exists
@@ -91,9 +97,9 @@ class PDBParser(object):
             self._strip_ANISOU()
 
         # Strip LINK entries if wanted
-        if remove_LINK and any([l.startswith("LINK") for l in self.pdb_lines]):
+        if strip_LINK and any([l.startswith("LINK") for l in self.pdb_lines]):
             print("Removing LINK entries")
-            self._remove_LINK_entries()
+            self._strip_LINK_entries()
 
         # Strip all HETATM entries if wanted
         if strip_HETATM and any([l.startswith("HETATM") for l in self.pdb_lines]):
@@ -149,8 +155,7 @@ class PDBParser(object):
         # Sometimes, certain H's added by REDUCE are weird, so here's a way to strip them...
         if len(strip_weird_H)>0:
             self._strip_weird_H(strip_weird_H)
-
-        self._renumber_atoms()
+            self._renumber_atoms()
 
         # Parse individual lines of the pdb file
         print("Loading atoms into protein object from file:", self.pdb_filename)
@@ -220,7 +225,7 @@ class PDBParser(object):
                 out_lines.append(line)
         self.pdb_lines = out_lines
 
-    def _remove_LINK_entries(self):
+    def _strip_LINK_entries(self):
         """Removes LINK entries.
         """
         out_lines = []
