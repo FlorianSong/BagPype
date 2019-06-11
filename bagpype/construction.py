@@ -32,14 +32,14 @@ class Graph_constructor(object):
         self.donor_acceptor_cutoff = 5 #3.6 
         self.donor_H_acceptor_min = 100 #90 
         self.donor_H_acceptor_max = 180
-        self.acceptor_H_neighbour_cutoff = 80
+        self.H_acceptor_neighbour_cutoff = 80
 
         self.H_bond_energy_cutoff = -0.01
 
         ### Hydrophobic interactions related parameters:
         self.hydrophobic_RMST_gamma = 0.05
         self.hydrophobic_neighbourhood = 1
-        self.hydrophobic_remove_bridges = True
+        self.hydrophobic_burn_bridges = True
 
         # Used to initialise all possible bonds, should always be LARGER than the longest possible bond
         self.max_cutoff = 9 
@@ -143,22 +143,17 @@ class Graph_constructor(object):
         # Get coordinates of all atoms as an array
         atom_coords = self.protein.atoms.coordinates()
 
-        # Compute a distance matrix between each atom
-        dist_matrix = scipy.spatial.distance.cdist(atom_coords, atom_coords)
-
-        # Check that there are as many atoms as rows in the matrix
-        if dist_matrix.shape[0] != len(self.protein.atoms) or dist_matrix.shape[1] != len(self.protein.atoms):
-            raise Exception("The distance matrix does not have the same number of rows and columns as the number of atoms, so the indices will get messed up.")
+        # Compute a distance matrix between each atom, note that pdist will compute a condensed distance matrix (1-dimensional)
+        dist_matrix = scipy.spatial.distance.pdist(atom_coords)
         
-        # Only keep upper triangular entries (setting lower triangle to max cutoff +1 so they get filtered out in the line below)
-        # il1 = np.tril_indices(dist_matrix.shape[0])
-        # dist_matrix[il1] = self.max_cutoff + 1
-
-        # self.distance_matrix = dist_matrix
-
         # Find all entries that are below the cutoff and write all those pairs of atoms to a nx graph
-        ind1, ind2 = np.where(dist_matrix <= self.max_cutoff)
-        all_possible_bonds =  list(zip(ind1, ind2))
+        # n = number of atoms, k = indices of distances less than cutoff (but in 1D format), i,j = matrix indices computed from k
+        n = atom_coords.shape[0]
+        k = np.where(dist_matrix <= self.max_cutoff)[0]
+        i = n - 2 - np.floor(np.sqrt(-8*k + 4*n*(n-1)-7)/2.0 - 0.5)
+        j = k + i + 1 - n*(n-1)/2 + (n-i)*((n-i)-1)/2
+        
+        all_possible_bonds =  list(zip(i.astype(int), j.astype(int)))
         self.possible_bonds.add_edges_from(all_possible_bonds)
 
 
@@ -221,7 +216,10 @@ class Graph_constructor(object):
             if found_atoms[0] and found_atoms[1]:
                 is_covalent = within_cov_bonding_distance(found_atoms[0], found_atoms[1])
                 new_LINK_entry = (found_atoms, {"is_covalent":is_covalent, "distance":LINK_bond[2]})
-                LINK_list.append(new_LINK_entry)
+                
+                # Check for duplicates and don't add new_LINK_entry if already present.
+                if not any([found_atoms[0] == item[0][0] and found_atoms[1] == item[0][1] for item in LINK_list]):
+                    LINK_list.append(new_LINK_entry)
         self._LINK_list = LINK_list
 
 
@@ -474,7 +472,7 @@ class Graph_constructor(object):
             for n in self.covalent_bonds_graph.neighbors(acceptor.id):
                 neighbor_atom = self.protein.atoms[n]
                 phi = self.get_angle(hydrogen, acceptor, neighbor_atom)
-                if np.rad2deg(phi) < self.acceptor_H_neighbour_cutoff:
+                if np.rad2deg(phi) < self.H_acceptor_neighbour_cutoff:
                     return False
             return True
         else:
@@ -926,7 +924,7 @@ class Graph_constructor(object):
     def find_hydrophobics(self):
         """ Function that implements hydrophobic interaction as a three step process: 1. Pre-selection, 2. Weighting, 3. Sparsification
         Parameters are passed as values belonging to self: 
-        self.hydrophobic_RMST_gamma, self.hydrophobic_neighbourhood, self.hydrophobic_remove_bridges
+        self.hydrophobic_RMST_gamma, self.hydrophobic_neighbourhood, self.hydrophobic_burn_bridges
 
         Florian Song, September 2018 - April 2019
         """
@@ -970,7 +968,7 @@ class Graph_constructor(object):
         # new_hphobic_graph.add_nodes_from([atom.id for atom in self.protein.atoms])
         # new_hphobic_graph.add_weighted_edges_from(matches_weights, weight="energy")
         # print(new_hphobic_graph.size(weight="energy"))
-        # self.hydrophobic_remove_bridges = False
+        # self.hydrophobic_burn_bridges = False
         # new_matches = self.hydrophobic_selection(new_hphobic_graph)
         # print(len(new_matches), len(matches))
         # print()
@@ -1031,7 +1029,7 @@ class Graph_constructor(object):
         # Additional step to RMST sparsification: removal of graph bridges
         # A bridge is an edge of a graph whose deletion increases its number of connected components.
         # Note that here we do not have to worry about weighting
-        if self.hydrophobic_remove_bridges:
+        if self.hydrophobic_burn_bridges:
             # In order to use networkx, need to initialise new Graph
             rmst_graph = nx.Graph(matches)
 
@@ -1043,11 +1041,7 @@ class Graph_constructor(object):
             print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches)) + 
                     ", components: " + str(nx.number_connected_components(nx.Graph(matches))))
 
-        
-        # print(list(nx.connected_components(nx.Graph(matches))))
-
-
-
+      
         # Calculate total hydrophobic energy for command line output
         total_hydrophobic_energy = sum([graph[i][j]["energy"] for i,j in matches])
         print("    Total energy of hydrophobic effect: " + str(round(total_hydrophobic_energy, 2)) + " kcal/mol" )
@@ -1363,6 +1357,11 @@ class Graph_constructor(object):
                 
                 # The bond distance given in the LINK entry is not always accurate.
                 bond_length = distance_between_two_atoms(atom1, atom2)
+                
+                if bond_length>10:
+                    print(("WARNING: The LINK entry between {} and {} has a distance value greater than 10A. It will be skipped.").format(atom1, atom2))
+                    continue
+                
                 if LINK_entry[1]["distance"] != round(bond_length,2):
                     print(("WARNING: The LINK entry between {} and {} has a different distance value than the computed one (rounded to two decimal places):" \
                                     " Computed = {}, in PDB = {}. The computed one will be used.").format(atom1, atom2, bond_length, LINK_entry[1]["distance"]))
