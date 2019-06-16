@@ -959,7 +959,7 @@ class Graph_constructor(object):
                     if energy is not None:
                         hphobic_graph.add_edge( atom1.id, atom2.id, weight = -1*energy, distance = distance, energy = energy)
 
-        matches = self.hydrophobic_selection(hphobic_graph)
+        matches = self.hydrophobic_selection2(hphobic_graph)
         matches = sorted([sorted(x) for x in matches])
 
         # print()
@@ -1048,6 +1048,130 @@ class Graph_constructor(object):
         print("    Total energy of hydrophobic effect: " + str(round(total_hydrophobic_energy, 2)) + " kcal/mol" )
 
         return sorted(matches)
+
+
+    def hydrophobic_selection2(self, graph):
+        node_list = list(graph.nodes)
+        D = nx.adjacency_matrix(graph, weight="energy", nodelist=node_list).todense()
+        N = np.shape(D)[0]
+        node_dictionary = dict(zip(range(N), node_list))
+        Emst, LLink = self.RMST_prim_algorithm(D)
+        
+        Dtemp = D + np.eye(N)*np.amax(D)
+        mD = np.amin(Dtemp,0)*self.hydrophobic_RMST_gamma
+        mD = np.abs ( np.tile(mD, (N,1)) + np.tile(np.transpose(mD), (1,N)) )
+        
+
+        E_criterion = np.greater(LLink+mD, D).astype(int)
+        E_final = np.multiply(E_criterion, D)
+
+        nonzeros = np.nonzero(E_final)
+        matches = list(zip([node_dictionary[key] for key in nonzeros[0].tolist()], 
+                           [node_dictionary[key] for key in nonzeros[1].tolist()] ))
+        
+        print("    RMST sparsification used. Accepted: " + str(len(matches)/2-np.count_nonzero(Emst)/2) + ", rejected: " + str(len(graph.edges) - len(matches)/2) + "; MST size: " + str(np.count_nonzero(Emst)/2))
+
+        # mst = nx.minimum_spanning_tree(graph, weight='energy')
+        # d = D.min(axis = 0).flatten().tolist()[0]
+        # for i in range(N):
+        #     for j in range(i+1,N):
+        #         if (self.hydrophobic_RMST_gamma*abs(d[i] + d[j]) - mD[i,j] > 0.0000001):
+        #             print(self.hydrophobic_RMST_gamma*abs(d[i] + d[j]))
+        #             print( mD[i,j])
+        #         path = nx.shortest_path(mst, source = node_dictionary[i], target = node_dictionary[j])
+        #         weights_along_path = [graph[u][v]["energy"] for u,v in zip(path[:-1], path[1:])] 
+        #         if max(weights_along_path) != LLink[i,j]:
+        #             print(max(weights_along_path), LLink[i,j])
+                
+        #         indx1, indx2 = node_dictionary[i], node_dictionary[j]
+        #         if mst.has_edge(indx1, indx2) != (Emst[i,j]!=0):
+        #             print(mst.has_edge(indx1, indx2), Emst[i,j])
+        # print("Check done")
+                
+
+        # Additional step to RMST sparsification: removal of graph bridges
+        # A bridge is an edge of a graph whose deletion increases its number of connected components.
+        # Note that here we do not have to worry about weighting
+        if self.hydrophobic_burn_bridges:
+            # In order to use networkx, need to initialise new Graph
+            rmst_graph = nx.Graph(matches)
+
+            # Use networkx to find all bridges in the graph and remove them
+            bridges = list(nx.bridges(rmst_graph))
+            rmst_graph.remove_edges_from(bridges)
+            matches = rmst_graph.edges
+
+            print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches)) + 
+                    ", components: " + str(nx.number_connected_components(nx.Graph(matches))))
+
+        return matches
+        
+
+    def RMST_prim_algorithm(self, D):
+        
+        #Initialise matrix containing all largest links along MST
+        LLink = -10*np.ones(np.shape(D))
+        
+        #Number of nodes in the network
+        N = np.shape(D)[0]
+        
+        #Allocate a matrix for the edge list
+        E = np.zeros(np.shape(D))
+        
+        #Start with a node
+        mstidx = np.full(shape = 1, fill_value = 0)
+        otheridx = np.arange(1,N,1)
+        
+        T = D[0,otheridx]
+        P = np.zeros((np.size(T)))
+        
+        while T.size > 0:
+            i = np.argmin(T)
+            idx = otheridx[i]
+            
+            #Start with a node
+            E[idx,int(P[i])] = D[idx,int(P[i])]
+            E[int(P[i]),idx] = D[int(P[i]),idx]
+
+            # 1) Update the longest links
+            #indexes of the nodes without the parent
+            idxremove = np.where(P[i] == mstidx)
+            tempmstidx = mstidx
+            tempmstidx = np.delete(tempmstidx,idxremove)
+            
+            # 2) update the link to the parent
+            LLink[idx,int(P[i])] = D[idx,int(P[i])]
+            LLink[int(P[i]),idx] = D[int(P[i]),idx]
+
+            # 3) find the maximal
+            tempLLink = np.maximum(LLink[int(P[i]),tempmstidx],D[idx,int(P[i])])
+            LLink[idx, tempmstidx] = tempLLink
+            LLink[tempmstidx, idx] = tempLLink
+            
+            # As a node is added clear his entries
+            P = np.delete(P,i)
+            T = np.delete(T,i)
+
+            # Add the node to the list
+            mstidx = np.append(mstidx,idx)
+            
+            # Remove the node from the list of the free nodes
+            otheridx = np.delete(otheridx,i)
+            
+            #update the distance matrix
+            Ttemp = D[idx,otheridx]
+            
+            if len(T) > 0:
+                idxless = np.where(Ttemp < T)
+                T[idxless] = Ttemp[idxless]
+                P[idxless[1]] = idx
+                
+        return E, LLink
+
+
+
+
+
 
     def hydrophobic_potential(self, r, element1, element2):
         """ Hydrophobic potential as defined in 
