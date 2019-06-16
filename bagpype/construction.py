@@ -1433,8 +1433,12 @@ def within_cov_bonding_distance(atom1, atom2):
 def in_third_neighbourhood(G,source_atom, target_atom):
     """ check if a node is within distance at most d=3 from another node
     """
-    length = nx.single_source_shortest_path_length(G, source_atom.id, cutoff=3)
-    return True if target_atom.id in length else False
+    # length = nx.single_source_shortest_path_length(G, source_atom.id, cutoff=3)
+    # return True if target_atom.id in length else False
+    for edge in nx.bfs_edges(G, source = source_atom.id, depth_limit=3):
+        if target_atom.id in edge:
+            return True
+    return False
 
 def uniquify(bond_list):
     """Takes a list of bonds which may contain multiple bonds between
