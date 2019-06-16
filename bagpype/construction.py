@@ -933,7 +933,6 @@ class Graph_constructor(object):
         # Initiate list of hydrophobic interactions
         # self._hphobes_list = []
         hphobic_graph = nx.Graph()
-        hphobic_graph.add_nodes_from([atom.id for atom in self.protein.atoms])
 
         # Loop through all atoms
         for atom1 in self.protein.atoms:
@@ -961,6 +960,7 @@ class Graph_constructor(object):
                         hphobic_graph.add_edge( atom1.id, atom2.id, weight = -1*energy, distance = distance, energy = energy)
 
         matches = self.hydrophobic_selection(hphobic_graph)
+        matches = sorted([sorted(x) for x in matches])
 
         # print()
         # matches_weights = [(x[0], x[1], hphobic_graph[x[0]][x[1]]["energy"]) for x in matches]
@@ -1004,6 +1004,7 @@ class Graph_constructor(object):
         # Find d_i (as defined by RMST). This is the strongest interaction originating at i.
         D = nx.adjacency_matrix(graph, weight="energy")
         d = D.min(axis = 0).toarray().flatten().tolist()
+        node_list = list(graph.nodes)
         
 
         for edge_not_in_mst in notmst.edges:
@@ -1018,7 +1019,7 @@ class Graph_constructor(object):
 
             # RMST criterion for adding edge back into the tree
             # hydrophobic_RMST_gamma is the gamma parameter as described in RMST
-            left_hand_side = mlink + self.hydrophobic_RMST_gamma*abs(d[i] + d[j])
+            left_hand_side = mlink + self.hydrophobic_RMST_gamma*abs(d[node_list.index(i)] + d[node_list.index(j)])
             right_hand_side = graph[i][j]["energy"]
 
             if (left_hand_side > right_hand_side ):
