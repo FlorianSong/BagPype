@@ -37,9 +37,9 @@ class Graph_constructor(object):
         self.H_bond_energy_cutoff = -0.01
 
         ### Hydrophobic interactions related parameters:
-        self.hydrophobic_RMST_gamma = 0.05
+        self.hydrophobic_RMST_gamma = 0.1
         self.hydrophobic_neighbourhood = 1
-        self.hydrophobic_burn_bridges = True
+        self.hydrophobic_burn_bridges = False
 
         # Used to initialise all possible bonds, should always be LARGER than the longest possible bond
         self.max_cutoff = 9 
@@ -974,6 +974,11 @@ class Graph_constructor(object):
         # print()
         # matches=new_matches
 
+        # Calculate total hydrophobic energy for command line output
+        total_hydrophobic_energy = sum([hphobic_graph[i][j]["energy"] for i,j in matches])
+        print("    Total energy of hydrophobic effect: " + str(round(total_hydrophobic_energy, 2)) + " kcal/mol" )
+        
+        
         # Finally, write all bonds to self.bonds
         for bond in matches:
             atom1, atom2 = self.protein.atoms[bond[0]], self.protein.atoms[bond[1]]
@@ -1041,12 +1046,7 @@ class Graph_constructor(object):
 
             print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches)) + 
                     ", components: " + str(nx.number_connected_components(nx.Graph(matches))))
-
-      
-        # Calculate total hydrophobic energy for command line output
-        total_hydrophobic_energy = sum([graph[i][j]["energy"] for i,j in matches])
-        print("    Total energy of hydrophobic effect: " + str(round(total_hydrophobic_energy, 2)) + " kcal/mol" )
-
+            
         return sorted(matches)
 
 
@@ -1058,18 +1058,49 @@ class Graph_constructor(object):
         Emst, LLink = self.RMST_prim_algorithm(D)
         
         Dtemp = D + np.eye(N)*np.amax(D)
-        mD = np.amin(Dtemp,0)*self.hydrophobic_RMST_gamma
-        mD = np.abs ( np.tile(mD, (N,1)) + np.tile(np.transpose(mD), (1,N)) )
+        # Dtemp[Dtemp==0] = np.amax(D)
+        mD = np.amin(Dtemp,0)
+        mD = np.abs ( np.tile(mD, (N,1)) + np.tile(np.transpose(mD), (1,N)) ) /2
+        mD *= self.hydrophobic_RMST_gamma
         
+        
+        # mlink_matrix = LLink
+        # d_i_matrix = np.abs ( np.tile(np.amin(Dtemp,0), (N,1)) + np.tile(np.transpose(np.amin(Dtemp,0)), (1,N)) )
+        # weight_matrix = D
+        # np.savetxt("./mlink.txt", mlink_matrix)
+        # np.savetxt("./d_i.txt", d_i_matrix)
+        # np.savetxt("./weight.txt", weight_matrix)
+
+
+        # gamma_matrix = (D-LLink)/(mD/self.hydrophobic_RMST_gamma)
+        # atoms_asfdadf = self.protein.atoms.coordinates()
+        # distance_matrix = scipy.spatial.distance.cdist(atoms_asfdadf[node_list,:],atoms_asfdadf[node_list,:])
+        # np.savetxt("./distance_matrix.txt", distance_matrix)
+        # np.savetxt("./gamma_matrix.txt", gamma_matrix)
+        # np.savetxt("./energy_matrix.txt", (D))
+        # x, y = np.nonzero(np.triu(D))
+        # with open("gammas.txt", "w") as f:
+        #     for i, j in zip(x,y):
+        #         atom_id1 = node_dictionary[i]
+        #         atom_id2 = node_dictionary[j]
+        #         gamma_val = gamma_matrix[i,j]
+        #         atom1 = self.protein.atoms[atom_id1]
+        #         atom2 = self.protein.atoms[atom_id2]
+
+        #         f.write( "{}, {}, {}, {}, {}, {} \n".format(atom_id1, atom_id2, gamma_val, atom1.res_name, atom2.res_name, 
+        #                                                     self.hydrophobic_potential(distance_between_two_atoms(atom1, atom2),
+        #                                                                                atom1.element, atom2.element)))
+
 
         E_criterion = np.greater(LLink+mD, D).astype(int)
         E_final = np.multiply(E_criterion, D)
 
-        nonzeros = np.nonzero(E_final)
+        nonzeros = np.nonzero(np.triu(E_final))
         matches = list(zip([node_dictionary[key] for key in nonzeros[0].tolist()], 
                            [node_dictionary[key] for key in nonzeros[1].tolist()] ))
         
-        print("    RMST sparsification used. Accepted: " + str(len(matches)/2-np.count_nonzero(Emst)/2) + ", rejected: " + str(len(graph.edges) - len(matches)/2) + "; MST size: " + str(np.count_nonzero(Emst)/2))
+        print("    RMST sparsification used. Accepted: " + str(len(matches)-np.count_nonzero(np.triu(Emst))) + ", rejected: " + str(len(graph.edges) - len(matches)) + 
+              "; MST size: " + str(np.count_nonzero(np.triu(Emst))))
 
         # mst = nx.minimum_spanning_tree(graph, weight='energy')
         # d = D.min(axis = 0).flatten().tolist()[0]
@@ -1173,7 +1204,7 @@ class Graph_constructor(object):
 
 
 
-    def hydrophobic_potential(self, r, element1, element2):
+    def hydrophobic_potential(self, r, element1 = "C", element2 = "C"):
         """ Hydrophobic potential as defined in 
         Lin, M. S., Fawzi, N. L. & Head-Gordon, T. 
         Hydrophobic Potential of Mean Force as a Solvation Function for Protein Structure Prediction. Structure 15, 727–740 (2007).

@@ -5,6 +5,8 @@ import csv
 def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], 
               file_name = "bonds.csv", specific_residues = [] # e.g. [('1', 'A')]
               ):
+    if list_of_types == "weak":
+        list_of_types = ["HYDROGEN", "SALTBRIDGE", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"]
     list_of_types = [x.upper() for x in list_of_types] if type(list_of_types) is list else [list_of_types.upper()]
     print("Visualising: {} edges.".format(", ".join(list_of_types).lower()))
 
@@ -22,13 +24,26 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
     for type_of_edge in colours: 
         cmd.set_color(type_of_edge.upper(), colours[type_of_edge])
 
-    # prefix = "edge"
-
+    with open(file_name, "r") as temp:
+        for i,_ in enumerate(temp):
+            pass
+        total_number_edges = i
+    
     f = open(file_name, 'r')
     reader = csv.reader(f)
     header = reader.next()
 
-    for row in reader:
+    
+
+    percentage = 0
+    for i,row in enumerate(reader):
+        current_percentage = 100*i/total_number_edges
+        if current_percentage>=percentage+10:
+            print("Processed {}%".format(current_percentage))
+            percentage = current_percentage
+        if i == total_number_edges-1:
+            print("Finished!")
+        
         bond_data = {}
         for i, item in enumerate(header):
             bond_data[item] = row[i]
@@ -36,6 +51,7 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
         if len(specific_residues)>0:
             current_residue1 = tuple([ str(bond_data["atom1_res_num"]), str(bond_data["atom1_chain"]) ])
             current_residue2 = tuple([ str(bond_data["atom2_res_num"]), str(bond_data["atom2_chain"]) ])
+            print(current_residue1)
             if not any([current_residue1 in specific_residues, current_residue2 in specific_residues]):
                 continue
 
@@ -85,5 +101,7 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
 
     cmd.hide('labels')
     # cmd.set('dash_gap',0)
+
+    f.close()
 
 cmd.extend("visualise", visualise)

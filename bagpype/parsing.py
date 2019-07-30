@@ -10,6 +10,8 @@ from collections import defaultdict
 import string
 import numpy as np
 import csv
+import itertools
+
 
 import bagpype.parameters
 import bagpype.settings
@@ -180,14 +182,7 @@ class PDBParser(object):
     # Helper functions #
     ####################
 
-    def _MakeMultimer_wrapper(self, MakeMultimer_number, MakeMultimer_renamechains=False, MakeMultimer_renumberresidues=1000):
-        header = []
-        with open(self.pdb_filename) as temp_file:
-            for line in temp_file:
-                if not (line.startswith("ATOM") or line.startswith("HETATM")):
-                    header.append(line)
-                else:
-                    break
+    def _MakeMultimer_wrapper(self, MakeMultimer_number, MakeMultimer_renamechains=1, MakeMultimer_renumberresidues=0):
 
         MakeMultimer_options = dict(
         backbone = False,
@@ -196,15 +191,56 @@ class PDBParser(object):
         renamechains = int(MakeMultimer_renamechains),
         renumberresidues = int(MakeMultimer_renumberresidues))
         
-        pdblurb = open(self.pdb_filename).read()
+        pdblurb = open(self.pdb_filename, "r").read()
         r = dependencies.MakeMultimer.PdbReplicator(pdblurb, MakeMultimer_options)
         outfile_template = self.pdb_filename.split('.')[0] + '_mm%s.pdb'
 
         for i, bm in enumerate(r.biomolecules):
+            header = []
+            with open(self.pdb_filename) as temp_file:
+                for line in temp_file:
+                    if not (line.startswith("ATOM") or line.startswith("HETATM")):
+                        header.append(line)
+                    else:
+                        break
+
             outfile = outfile_template % (i+1)
-            open(outfile, 'w').write("".join(header) + bm.output(self.pdb_filename))
+            MakeMultimer_output = bm.output(self.pdb_filename)
+            
+            """ Fix LINK entries """
+            new_chain_names = {}
+            for chain in bm.collected_chains:
+                new_chain_names.setdefault(chain[0], []).append(chain[1])
+
+            new_LINK_lines = []
+            first_LINK_line = len(header)
+            last_LINK_line = 0
+            
+            for i, LINK_line in ((i, line) for i, line in enumerate(header) if line.startswith("LINK  ")):
+                
+                first_LINK_line = min(first_LINK_line, i)
+                last_LINK_line = max(last_LINK_line, i)
+                
+                try:
+                    chainID1_new_names = new_chain_names[LINK_line[21]]
+                except KeyError:
+                    # print("WARNING: Link entry between {} and {} was ignores as chain {} is not part of the final biologically relevant molecule.".format())
+                    continue
+                try:
+                    chainID2_new_names = new_chain_names[LINK_line[51]]
+                except KeyError:
+                    continue
+                
+                for combo in itertools.product(chainID1_new_names, chainID2_new_names):
+                    new_LINK_lines.append(LINK_line[:21] + combo[0] + \
+                                          LINK_line[22:51] + combo[1] + \
+                                          LINK_line[52:]  )
+
+            header[first_LINK_line:last_LINK_line+1] = new_LINK_lines
+            open(outfile, 'w').write("".join(header) + MakeMultimer_output)
 
         self.pdb_filename = outfile_template % (MakeMultimer_number)
+        # self._MakeMultimer_out = r
 
 
     def _strip_ANISOU(self):
@@ -507,14 +543,14 @@ class PDBParser(object):
             lines = pdb.readlines()
         LINK_bonds = []
         for line in lines:
-            if line.startswith('LINK'):
+            if line.startswith('LINK  '):
                 atom1 = {'name':line[12:16].strip(), 
                          'res_name': line[17:20].strip(), 
-                         'res_num': line[22:26].strip(),
+                         'res_num': line[22:27].strip(),
                          'chain': line[21]}
                 atom2 = {'name': line[42:46].strip(), 
                          'res_name': line[47:50].strip(), 
-                         'res_num': line[52:56].strip(),
+                         'res_num': line[52:57].strip(),
                          'chain': line[51]}
                 distance_between = float(line[74:78])
                 LINK_bonds.append((atom1, atom2, distance_between))
