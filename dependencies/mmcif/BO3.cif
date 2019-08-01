@@ -1,0 +1,225 @@
+data_BO3
+#
+_chem_comp.id                                        BO3
+_chem_comp.name                                      "BORIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "B H3 O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            61.833
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         BO3
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1A95
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+BO3   B   B B 0 1 N N N 23.746 108.467 17.162 -0.021 0.000 -0.021   B BO3 1
+BO3  O1  O1 O 0 1 N N N 24.800 108.060 16.408 -1.021 0.000  0.987  O1 BO3 2
+BO3  O2  O2 O 0 1 N N N 22.533 107.876 17.004 -0.395 0.000 -1.391  O2 BO3 3
+BO3  O3  O3 O 0 1 N N N 23.912 109.442 18.095  1.351 0.000  0.340  O3 BO3 4
+BO3 HO1 HO1 H 0 1 N N N 25.648 108.473 16.518 -0.560 0.000  1.837 HO1 BO3 5
+BO3 HO2 HO2 H 0 1 N N N 21.795 108.160 17.531  0.424 0.000 -1.904 HO2 BO3 6
+BO3 HO3 HO3 H 0 1 N N N 23.174 109.726 18.622  1.386 0.000  1.306 HO3 BO3 7
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+BO3  B  O1 SING N N 1
+BO3  B  O2 SING N N 2
+BO3  B  O3 SING N N 3
+BO3 O1 HO1 SING N N 4
+BO3 O2 HO2 SING N N 5
+BO3 O3 HO3 SING N N 6
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+BO3           SMILES              ACDLabs 10.04                        OB(O)O
+BO3 SMILES_CANONICAL               CACTVS 3.341                        OB(O)O
+BO3           SMILES               CACTVS 3.341                        OB(O)O
+BO3 SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                      B(O)(O)O
+BO3           SMILES "OpenEye OEToolkits" 1.5.0                      B(O)(O)O
+BO3            InChI                InChI  1.03 InChI=1S/BH3O3/c2-1(3)4/h2-4H
+BO3         InChIKey                InChI  1.03   KGBXLFKZBHKPEV-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+BO3 "SYSTEMATIC NAME"              ACDLabs 10.04 "boric acid"
+BO3 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "boric acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+BO3  "Create component" 1999-07-08 RCSB ? ?
+BO3 "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   BO3
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB11326
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Boric acid"
+_pdbe_chem_comp_drugbank_details.description               "Boric acid, also known as hydrogen borate, is a weak monobasic Lewis acid of boron with the chemical formula H3BO3. Boric acid is typically utilized in industrial processing and manufacturing, but is also used as an additive in pharmaceutical products, cosmetics, lotions, soaps, mouthwash, toothpaste, astringents, and eyewashes [L2140]. It is known to exhibit some antibacterial activity against infections such as bacterial vaginosis and candidiasis [A32449]."
+_pdbe_chem_comp_drugbank_details.cas_number                10043-35-3
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Information regarding the mechanism of action of boric acid in mediating its antibacterial or antifungal actions is limited. Boric acid inhibits biofilm formation and hyphal transformation of _Candida albicans_, which are critical virulence factors [A32457]. In addition, arrest of fungal growth was observed with the treatment of boric acid [A32457]."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           BO3
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB11326
+_pdbe_chem_comp_drugbank_classification.parent            "Miscellaneous borates"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Inorganic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Miscellaneous mixed metal/non-metals"
+_pdbe_chem_comp_drugbank_classification.superclass        "Mixed metal/non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of inorganic compounds known as miscellaneous borates. These are inorganic compounds in which the largest metallic oxoanion is borate, to which either no atom or a non metal atom is bonded."
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+BO3    "Boracic acid"   ChEMBL
+BO3              E284   ChEMBL
+BO3      "Boric acid"   ChEMBL
+BO3      "Boric Acid"   ChEMBL
+BO3    "boracic acid" DrugBank
+BO3 "hydrogen borate" DrugBank
+BO3 "orthoboric acid" DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+BO3  B B 5.104  0.608 1
+BO3 O1 O 6.404  1.357 2
+BO3 O2 O 3.805  1.357 3
+BO3 O3 O 5.104 -0.892 4
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+BO3 B O1 SINGLE NONE 1
+BO3 B O2 SINGLE NONE 2
+BO3 B O3 SINGLE NONE 3
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               BO3
+_pdbe_chem_comp_rdkit_properties.exactmw                               62.018
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             28.159
+_pdbe_chem_comp_rdkit_properties.tpsa                                  60.690
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.052
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             12.410
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         4
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+BO3 UniChem        ChEMBL      CHEMBL42403
+BO3 UniChem      DrugBank          DB11326
+BO3 UniChem "KEGG LIGAND"           C12486
+BO3 UniChem         ChEBI            33118
+BO3 UniChem          ZINC ZINC000245189278
+BO3 UniChem    NMRShiftDB         30001402
+BO3 UniChem     BindingDb            39817
+BO3 UniChem        BRENDA             1395
+BO3 UniChem        BRENDA           166107
+BO3 UniChem        BRENDA            44211
+BO3 UniChem        BRENDA             7163
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+BO3   B  0.005  0.038 -0.129 ETKDGv2 1
+BO3  O1  1.440 -0.231 -0.158 ETKDGv2 2
+BO3  O2 -0.482  1.365  0.239 ETKDGv2 3
+BO3  O3 -0.943 -1.017 -0.475 ETKDGv2 4
+BO3 HO1  1.654 -0.546  0.756 ETKDGv2 5
+BO3 HO2 -0.532  1.860 -0.617 ETKDGv2 6
+BO3 HO3 -1.140 -1.469  0.384 ETKDGv2 7
+#

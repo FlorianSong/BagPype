@@ -1,0 +1,339 @@
+data_PCA
+#
+_chem_comp.id                                        PCA
+_chem_comp.name                                      "PYROGLUTAMIC ACID"
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C5 H7 N O3"
+_chem_comp.mon_nstd_parent_comp_id                   GLU
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             PCC
+_chem_comp.formula_weight                            129.114
+_chem_comp.one_letter_code                           E
+_chem_comp.three_letter_code                         PCA
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+PCA   N   N N 0 1 N N N 38.821 57.719 67.990  0.713  0.531 -0.633   N PCA  1
+PCA  CA  CA C 0 1 N N S 38.455 58.883 67.183 -0.328  0.539  0.400  CA PCA  2
+PCA  CB  CB C 0 1 N N N 37.375 59.639 67.947 -1.455 -0.368 -0.140  CB PCA  3
+PCA  CG  CG C 0 1 N N N 37.746 59.312 69.375 -1.232 -0.272 -1.667  CG PCA  4
+PCA  CD  CD C 0 1 N N N 38.398 57.930 69.250  0.231  0.082 -1.807  CD PCA  5
+PCA  OE  OE O 0 1 N N N 38.575 57.133 70.197  0.876 -0.019 -2.829  OE PCA  6
+PCA   C   C C 0 1 N N N 39.640 59.813 66.967  0.214 -0.015  1.691   C PCA  7
+PCA   O   O O 0 1 N N N 40.560 59.863 67.790  1.122 -0.812  1.672   O PCA  8
+PCA OXT OXT O 0 1 N Y N 39.626 60.540 65.853 -0.311  0.374  2.863 OXT PCA  9
+PCA   H  HN H 0 1 N N N 39.309 56.868 67.709  1.631  0.810 -0.489   H PCA 10
+PCA  HA  HA H 0 1 N N N 38.103 58.540 66.181 -0.700  1.552  0.552  HA PCA 11
+PCA HB2 1HB H 0 1 N N N 37.293 60.725 67.710 -1.331 -1.393  0.208 HB2 PCA 12
+PCA HB3 2HB H 0 1 N N N 36.325 59.396 67.657 -2.435  0.019  0.136 HB3 PCA 13
+PCA HG2 1HG H 0 1 N N N 38.375 60.080 69.881 -1.439 -1.230 -2.144 HG2 PCA 14
+PCA HG3 2HG H 0 1 N N N 36.900 59.365 70.100 -1.857  0.511 -2.095 HG3 PCA 15
+PCA HXT HXT H 0 1 N Y N 40.365 61.120 65.718  0.036  0.018  3.692 HXT PCA 16
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+PCA   N  CA SING N N  1
+PCA   N  CD SING N N  2
+PCA   N   H SING N N  3
+PCA  CA  CB SING N N  4
+PCA  CA   C SING N N  5
+PCA  CA  HA SING N N  6
+PCA  CB  CG SING N N  7
+PCA  CB HB2 SING N N  8
+PCA  CB HB3 SING N N  9
+PCA  CG  CD SING N N 10
+PCA  CG HG2 SING N N 11
+PCA  CG HG3 SING N N 12
+PCA  CD  OE DOUB N N 13
+PCA   C   O DOUB N N 14
+PCA   C OXT SING N N 15
+PCA OXT HXT SING N N 16
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+PCA           SMILES              ACDLabs 10.04                                                        O=C(O)C1NC(=O)CC1
+PCA SMILES_CANONICAL               CACTVS 3.341                                                   OC(=O)[C@@H]1CCC(=O)N1
+PCA           SMILES               CACTVS 3.341                                                     OC(=O)[CH]1CCC(=O)N1
+PCA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                   C1CC(=O)N[C@@H]1C(=O)O
+PCA           SMILES "OpenEye OEToolkits" 1.5.0                                                        C1CC(=O)NC1C(=O)O
+PCA            InChI                InChI  1.03 InChI=1S/C5H7NO3/c7-4-2-1-3(6-4)5(8)9/h3H,1-2H2,(H,6,7)(H,8,9)/t3-/m0/s1
+PCA         InChIKey                InChI  1.03                                              ODHCTXKNWHHXJC-VKHMYHEASA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+PCA "SYSTEMATIC NAME"              ACDLabs 10.04                           5-oxo-L-proline
+PCA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-5-oxopyrrolidine-2-carboxylic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+PCA  "Create component" 1999-07-08 RCSB ? ?
+PCA "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   PCA
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB03088
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Pidolic Acid"
+_pdbe_chem_comp_drugbank_details.description               "Pidolic acid is a naturally occurring but little-studied amino acid derivative that can be formed enzymatically or non-enzymatically and participates as a biological intermediate with unique pharmacodynamics in various chemical pathways [A32991, L2729]. Elevations of the acid in blood levels may be associated with problems of glutamine or glutathione metabolism [L2729]. Pidolic acid, in general, is found in large quantities in brain tissue and other tissues in bound form, like skin [L2729].  There are currently little to no medicines available that are clinically approved or marketed for employing pidolic acid as an active ingredient for any particular formal indication. Although pidolic acid is included in some over-the-counter, non-prescription dietary supplements for the proposed purpose of facilitating cognitive or memory enhancement, most available research suggest exercising caution in their recommendation as much more research is necessary [A32981, A32982]."
+_pdbe_chem_comp_drugbank_details.cas_number                98-79-3
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Pidolic acid is an endogenous amino acid derivative where the free amino group of glutamic acid or glutamine cyclizes to generate a lactam [A32991, L2729]. Subsequently it is also a metabolite in the glutathione cycle that is converted to glutamate by the enzyme 5-oxoprolinase [A32991, L2729]. Moreover, N-terminal glutamic acid and glutamine residues can either spontaneously cyclize to become pidolic acid, or be enzymatically transformed by glutaminyl cyclases [A32991, L2729]. In particular, this is ultimately a form of N-termini that is a challenge for N-terminal sequencing using Edman chemistry, which necessitates a free primary amino group that is not present in pidolic acid [A32991, L2729]. Pyroglutamate aminopeptidase can restore a free N-terminus by cleaving off the pyroglutamate residue, however [A32991, L2729].  Additionally, pidolic acid and certain pidolic acid salts like calcium, magnesium, and potassium pidolic acid are sometimes used as skin or hair conditioning agents because of their humectant effects [F53]. In such humectant formulations, hydrophilic amine, hydroxyl, or even carboxyl groups possess high affinities for forming hydrogen bonds with molecules of water, allowing the hygroscopic formulations to attract and retain moisture in the air nearby through absorption, therefore drawing the water vapor into the formulation."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           PCA
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03088
+_pdbe_chem_comp_drugbank_classification.parent            "Alpha amino acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alpha amino acids and derivatives. These are amino acids in which the amino group is attached to the carbon atom immediately adjacent to the carboxylate group (alpha carbon), or a derivative thereof."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+PCA DB03088                           "Vascular endothelial growth factor A"                                                            Humans P15692 unknown  1
+PCA DB03088                                       "Pancreatic alpha-amylase"                                                            Humans P04746 unknown  2
+PCA DB03088                                    "Ig lambda-1 chain C regions"                                                            Humans P0CG04 unknown  3
+PCA DB03088                                "Ig lambda chain V-II region MGC"                                                            Humans P01709 unknown  4
+PCA DB03088                                               "Trefoil factor 2"                                                            Humans Q03403 unknown  5
+PCA DB03088                                                  "Cytochrome c2"        "Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009)" P00091 unknown  6
+PCA DB03088 "Disintegrin and metalloproteinase domain-containing protein 28"                                                            Humans Q9UKQ2 unknown  7
+PCA DB03088                                           Endo-1,4-beta-xylanase                                          "Bacillus agaradhaerens" Q7SIE2 unknown  8
+PCA DB03088                            "Copper-containing nitrite reductase"                           "Alcaligenes xylosoxydans xylosoxydans" O68601 unknown  9
+PCA DB03088                                 "Keratin-associated protein 5-2"                                                            Humans Q701N4 unknown 10
+PCA DB03088                                                           Orexin                                                            Humans O43612 unknown 11
+PCA DB03088                                          "C-C motif chemokine 8"                                                            Humans P80075 unknown 12
+PCA DB03088                                                  "Cytochrome c'"                           "Alcaligenes xylosoxydans xylosoxydans" P00138 unknown 13
+PCA DB03088                                               "Alpha-amylase 2B"                                                            Humans P19961 unknown 14
+PCA DB03088                                                       Angiogenin                                                            Humans P03950 unknown 15
+PCA DB03088                                                 Chondroitinase-B "Pedobacter heparinus (strain ATCC 13125 / DSM 2366 / NCIB 9290)" Q46079 unknown 16
+PCA DB03088                                                "Alpha-amylase 1"                                                            Humans P04745 unknown 17
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+PCA                               SID57260135   ChEMBL
+PCA                            "Pidolic Acid"   ChEMBL
+PCA                              SID144205489   ChEMBL
+PCA                               SID29216300   ChEMBL
+PCA     "(−)-2-pyrrolidone-5-carboxylic acid" DrugBank
+PCA "(S)-(−)-2-pyrrolidone-5-carboxylic acid" DrugBank
+PCA                   "(S)-pyroglutamic acid" DrugBank
+PCA                            5-L-oxoproline DrugBank
+PCA      "5-oxo-2-pyrrolidinecarboxylic acid" DrugBank
+PCA                           5-oxo-L-proline DrugBank
+PCA         "5-Pyrrolidone-2-carboxylic acid" DrugBank
+PCA                           "Glutimic acid" DrugBank
+PCA       "L-5-Pyrrolidone-2-carboxylic acid" DrugBank
+PCA                     "L-pyroglutamic acid" DrugBank
+PCA           "L-pyrrolidone carboxylic acid" DrugBank
+PCA                                       PCA DrugBank
+PCA                            "Pidolic Acid" DrugBank
+PCA                       "Pyroglutamic Acid" DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+PCA   N N 5.640 -0.630 1
+PCA  CA C 6.854  0.252 2
+PCA  CB C 6.390  1.679 3
+PCA  CG C 4.890  1.679 4
+PCA  CD C 4.427  0.252 5
+PCA  OE O 3.000 -0.211 6
+PCA   C C 8.280 -0.211 7
+PCA   O O 9.395  0.792 8
+PCA OXT O 8.592 -1.679 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+PCA  N  CA SINGLE      NONE 1
+PCA  N  CD SINGLE      NONE 2
+PCA CA  CB SINGLE      NONE 3
+PCA CA   C SINGLE BEGINDASH 4
+PCA CB  CG SINGLE      NONE 5
+PCA CG  CD SINGLE      NONE 6
+PCA CD  OE DOUBLE      NONE 7
+PCA  C   O DOUBLE      NONE 8
+PCA  C OXT SINGLE      NONE 9
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+PCA MurckoScaffold S1 scaffold O=C1CCCN1 InChI=1S/C4H7NO/c6-4-2-1-3-5-4/h1-3H2,(H,5,6) HNJBEVLQSNELDL-UHFFFAOYSA-N
+PCA          amide F1 fragment   CC(N)=O        InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
+PCA        peptide F2 fragment     NCC=O            InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+PCA  N F1 1
+PCA CD F1 1
+PCA OE F1 1
+PCA CG F1 1
+PCA  O F2 1
+PCA  C F2 1
+PCA CA F2 1
+PCA  N F2 1
+PCA  N S1 1
+PCA CA S1 1
+PCA CB S1 1
+PCA CG S1 1
+PCA CD S1 1
+PCA OE S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               PCA
+_pdbe_chem_comp_rdkit_properties.exactmw                               129.043
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.600
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             61.840
+_pdbe_chem_comp_rdkit_properties.tpsa                                  66.400
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.650
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             28.800
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+PCA UniChem        ChEMBL     CHEMBL397976
+PCA UniChem      DrugBank          DB03088
+PCA UniChem "KEGG LIGAND"           C01879
+PCA UniChem         ChEBI            18183
+PCA UniChem          ZINC ZINC000003598263
+PCA UniChem  MetaboLights       MTBLC18183
+PCA UniChem        BRENDA             1024
+PCA UniChem        BRENDA           115935
+PCA UniChem        BRENDA           115936
+PCA UniChem        BRENDA           121007
+PCA UniChem        BRENDA             1355
+PCA UniChem        BRENDA            29599
+PCA UniChem        BRENDA             3001
+PCA UniChem        BRENDA             3609
+PCA UniChem        BRENDA            44292
+PCA UniChem        BRENDA            44752
+PCA UniChem        BRENDA            96022
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+PCA   N  0.581  1.220  0.471 ETKDGv2  1
+PCA  CA -0.582  0.356  0.359 ETKDGv2  2
+PCA  CB -0.038 -1.040 -0.035 ETKDGv2  3
+PCA  CG  1.497 -0.963  0.018 ETKDGv2  4
+PCA  CD  1.757  0.461  0.306 ETKDGv2  5
+PCA  OE  2.908  0.959  0.410 ETKDGv2  6
+PCA   C -1.563  0.883 -0.656 ETKDGv2  7
+PCA   O -1.285  1.893 -1.356 ETKDGv2  8
+PCA OXT -2.791  0.253 -0.832 ETKDGv2  9
+PCA   H  0.557  2.225  0.754 ETKDGv2 10
+PCA  HA -1.081  0.301  1.351 ETKDGv2 11
+PCA HB2 -0.410 -1.812  0.674 ETKDGv2 12
+PCA HB3 -0.356 -1.330 -1.062 ETKDGv2 13
+PCA HG2  1.948 -1.249 -0.956 ETKDGv2 14
+PCA HG3  1.902 -1.597  0.836 ETKDGv2 15
+PCA HXT -3.044 -0.560 -0.283 ETKDGv2 16
+#

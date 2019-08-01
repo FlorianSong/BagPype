@@ -1,0 +1,259 @@
+data_HYN
+#
+_chem_comp.id                                        HYN
+_chem_comp.name                                      imidazolidine-2,4-dione
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H4 N2 O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             Hydantoin
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2008-03-21
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            100.076
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         HYN
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3CL7
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+HYN   O   O O 0 1 N N N 17.911  9.873 -28.444 -2.296 -0.534 -0.001   O HYN  1
+HYN   C   C C 0 1 N N N 17.240  9.824 -27.337 -1.146 -0.151 -0.001   C HYN  2
+HYN  C1  C1 C 0 1 N N N 16.383  8.647 -27.042 -0.659  1.284  0.001  C1 HYN  3
+HYN   N   N N 0 1 N N N 15.853  9.143 -25.768  0.808  1.152  0.001   N HYN  4
+HYN  N1  N1 N 0 1 N N N 17.280 10.840 -26.495 -0.034 -0.913  0.003  N1 HYN  5
+HYN  C2  C2 C 0 1 N N N 16.430 10.358 -25.551  1.076 -0.166 -0.001  C2 HYN  6
+HYN  O1  O1 O 0 1 N N N 16.115 11.041 -24.497  2.201 -0.627 -0.002  O1 HYN  7
+HYN  H1  H1 H 0 1 N N N 15.613  8.452 -27.802 -0.997  1.805 -0.895  H1 HYN  8
+HYN H1A H1A H 0 1 N N N 16.882  7.667 -27.020 -0.997  1.803  0.897 H1A HYN  9
+HYN  HN  HN H 0 1 N N N 15.196  8.679 -25.174  1.455  1.875  0.001  HN HYN 10
+HYN HN1 HN1 H 0 1 N N N 17.783 11.703 -26.539 -0.038 -1.883  0.007 HN1 HYN 11
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+HYN  O   C DOUB N N  1
+HYN  C  C1 SING N N  2
+HYN  C  N1 SING N N  3
+HYN C1   N SING N N  4
+HYN  N  C2 SING N N  5
+HYN N1  C2 SING N N  6
+HYN C2  O1 DOUB N N  7
+HYN C1  H1 SING N N  8
+HYN C1 H1A SING N N  9
+HYN  N  HN SING N N 10
+HYN N1 HN1 SING N N 11
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+HYN           SMILES              ACDLabs 10.04                                        O=C1NC(=O)NC1
+HYN SMILES_CANONICAL               CACTVS 3.341                                        O=C1CNC(=O)N1
+HYN           SMILES               CACTVS 3.341                                        O=C1CNC(=O)N1
+HYN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                      C1C(=O)NC(=O)N1
+HYN           SMILES "OpenEye OEToolkits" 1.5.0                                      C1C(=O)NC(=O)N1
+HYN            InChI                InChI  1.03 InChI=1S/C3H4N2O2/c6-2-1-4-3(7)5-2/h1H2,(H2,4,5,6,7)
+HYN         InChIKey                InChI  1.03                          WJRBRSLFGCUECM-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+HYN "SYSTEMATIC NAME"              ACDLabs 10.04 imidazolidine-2,4-dione
+HYN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 imidazolidine-2,4-dione
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+HYN  "Create component" 2008-03-21 PDBJ ? ?
+HYN "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+HYN Imidazolidine-2,4-Dione ChEMBL
+HYN               Hydantoin ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+HYN  O O 3.000 -0.647 1
+HYN  C C 4.427 -0.184 2
+HYN C1 C 4.890  1.243 3
+HYN  N N 6.390  1.243 4
+HYN N1 N 5.640 -1.065 5
+HYN C2 C 6.854 -0.184 6
+HYN O1 O 8.280 -0.647 7
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+HYN  O  C DOUBLE NONE 1
+HYN  C C1 SINGLE NONE 2
+HYN  C N1 SINGLE NONE 3
+HYN C1  N SINGLE NONE 4
+HYN  N C2 SINGLE NONE 5
+HYN N1 C2 SINGLE NONE 6
+HYN C2 O1 DOUBLE NONE 7
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+HYN MurckoScaffold S1 scaffold O=C1CNC(=O)N1 InChI=1S/C3H4N2O2/c6-2-1-4-3(7)5-2/h1H2,(H2,4,5,6,7) WJRBRSLFGCUECM-UHFFFAOYSA-N
+HYN     acetylurea F1 fragment O=C1CNC(=O)N1 InChI=1S/C3H4N2O2/c6-2-1-4-3(7)5-2/h1H2,(H2,4,5,6,7) WJRBRSLFGCUECM-UHFFFAOYSA-N
+HYN          amide F2 fragment       CC(N)=O               InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
+HYN        peptide F3 fragment         NCC=O                   InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+HYN C1 F1 1
+HYN  C F1 1
+HYN  O F1 1
+HYN N1 F1 1
+HYN C2 F1 1
+HYN O1 F1 1
+HYN  N F1 1
+HYN N1 F2 1
+HYN  C F2 1
+HYN  O F2 1
+HYN C1 F2 1
+HYN  O F3 1
+HYN  C F3 1
+HYN C1 F3 1
+HYN  N F3 1
+HYN  O S1 1
+HYN  C S1 1
+HYN C1 S1 1
+HYN  N S1 1
+HYN N1 S1 1
+HYN C2 S1 1
+HYN O1 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               HYN
+_pdbe_chem_comp_rdkit_properties.exactmw                               100.027
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         3
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.333
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             45.622
+_pdbe_chem_comp_rdkit_properties.tpsa                                  58.200
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.174
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             21.541
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+HYN UniChem        ChEMBL     CHEMBL122334
+HYN UniChem "KEGG LIGAND"           C05146
+HYN UniChem         ChEBI            27612
+HYN UniChem          ZINC ZINC000005133259
+HYN UniChem          ZINC     ZINC05133259
+HYN UniChem    NMRShiftDB         10025298
+HYN UniChem        BRENDA             1446
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+HYN   O -1.207  2.087 -0.013 ETKDGv2  1
+HYN   C -0.526  1.029  0.004 ETKDGv2  2
+HYN  C1 -1.091 -0.345 -0.188 ETKDGv2  3
+HYN   N  0.090 -1.195 -0.081 ETKDGv2  4
+HYN  N1  0.879  1.016  0.210 ETKDGv2  5
+HYN  C2  1.213 -0.357  0.151 ETKDGv2  6
+HYN  O1  2.387 -0.791  0.289 ETKDGv2  7
+HYN  H1 -1.550 -0.447 -1.194 ETKDGv2  8
+HYN H1A -1.817 -0.590  0.616 ETKDGv2  9
+HYN  HN  0.107 -2.236 -0.161 ETKDGv2 10
+HYN HN1  1.515  1.828  0.368 ETKDGv2 11
+#

@@ -1,0 +1,178 @@
+data_CUN
+#
+_chem_comp.id                                        CUN
+_chem_comp.name                                      "CU(I)-S-MO(IV)(=O)OH CLUSTER"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "Cu H Mo O2 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        5
+_chem_comp.pdbx_initial_date                         2002-11-14
+_chem_comp.pdbx_modified_date                        2011-06-07
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            224.558
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         CUN
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
+_chem_comp.pdbx_model_coordinates_db_code            1N61
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+CUN  CU  CU CU 1 0 N N N 99.063 141.091 146.805 ? ? ?  CU CUN 1
+CUN   S   S  S 0 1 N N N 98.059 142.928 146.324 ? ? ?   S CUN 2
+CUN  MO  MO MO 4 0 N N N 96.950 144.193 147.956 ? ? ?  MO CUN 3
+CUN OM2 OM2  O 0 1 N N N 97.817 142.918 149.243 ? ? ? OM2 CUN 4
+CUN OM1 OM1  O 0 1 N N N 97.752 145.719 148.006 ? ? ? OM1 CUN 5
+CUN HO2 HO2  H 0 1 N N N 97.367 143.430 149.904 ? ? ? HO2 CUN 6
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+CUN  CU   S SING N N 1
+CUN   S  MO SING N N 2
+CUN  MO OM2 SING N N 3
+CUN  MO OM1 DOUB N N 4
+CUN OM2 HO2 SING N N 5
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+CUN           SMILES              ACDLabs 12.01                           "[Cu+]S[Mo+4](=O)O"
+CUN            InChI                InChI  1.03 InChI=1S/Cu.Mo.H2O.O.S/h;;1H2;;/q+1;+5;;;/p-1
+CUN         InChIKey                InChI  1.03                   GIYZUGIRDQLYSY-UHFFFAOYSA-M
+CUN SMILES_CANONICAL               CACTVS 3.370                             O[Mo+4](=O)S[Cu+]
+CUN           SMILES               CACTVS 3.370                             O[Mo+4](=O)S[Cu+]
+CUN SMILES_CANONICAL "OpenEye OEToolkits" 1.7.2                             O[Mo+4](=O)S[Cu+]
+CUN           SMILES "OpenEye OEToolkits" 1.7.2                             O[Mo+4](=O)S[Cu+]
+#
+_pdbx_chem_comp_identifier.comp_id               CUN
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               ACDLabs
+_pdbx_chem_comp_identifier.program_version       12.01
+_pdbx_chem_comp_identifier.identifier            hydroxy(oxo)mu-sulfidemolybdenumcopper(5+)
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+CUN  "Create component" 2002-11-14 RCSB ? ?
+CUN "Modify descriptor" 2011-06-04 RCSB ? ?
+CUN       "Modify name" 2011-06-07 RCSB ? ?
+CUN "Modify descriptor" 2011-06-07 RCSB ? ?
+CUN "Modify identifier" 2011-06-07 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+CUN  CU Cu -4.018 -0.027 1
+CUN   S  S -2.258 -1.000 2
+CUN  MO Mo -0.493  0.011 3
+CUN OM2  O  1.228 -1.009 4
+CUN OM1  O -0.458  2.025 5
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+CUN CU   S SINGLE NONE 1
+CUN  S  MO SINGLE NONE 2
+CUN MO OM2 SINGLE NONE 3
+CUN MO OM1 DOUBLE NONE 4
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               CUN
+_pdbe_chem_comp_rdkit_properties.exactmw                               225.802
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             47.727
+_pdbe_chem_comp_rdkit_properties.tpsa                                  37.300
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.033
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             10.496
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         5
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+CUN  CU  2.179 -0.561  0.762 ETKDGv2 1
+CUN   S  1.482  0.949 -0.018 ETKDGv2 2
+CUN  MO -0.359  0.416 -0.353 ETKDGv2 3
+CUN OM2 -1.130 -0.805  0.762 ETKDGv2 4
+CUN OM1 -1.358  1.566  0.152 ETKDGv2 5
+CUN HO2 -0.814 -1.565  0.211 ETKDGv2 6
+#

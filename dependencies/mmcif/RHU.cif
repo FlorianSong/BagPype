@@ -1,0 +1,245 @@
+data_RHU
+#
+_chem_comp.id                                        RHU
+_chem_comp.name                                      4-methyl-5-(trifluoromethyl)-1,2,4-triazole-3-thiol
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C4 H4 F3 N3 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2015-08-18
+_chem_comp.pdbx_modified_date                        2015-10-30
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            183.155
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         RHU
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            5ACW
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+RHU  C01  C01 C 0 1 Y N N -45.728 -30.601 33.052 -1.686 -0.336 -0.015  C01 RHU  1
+RHU  N02  N02 N 0 1 Y N N -44.668 -30.870 32.316 -1.252 -1.576 -0.010  N02 RHU  2
+RHU  N03  N03 N 0 1 Y N N -43.589 -30.823 33.021  0.033 -1.589 -0.002  N03 RHU  3
+RHU  C04  C04 C 0 1 Y N N -43.925 -30.476 34.303  0.493 -0.370 -0.003  C04 RHU  4
+RHU  N05  N05 N 0 1 Y N N -45.305 -30.319 34.363 -0.585  0.472 -0.011  N05 RHU  5
+RHU  S06  S06 S 0 1 N N N -47.387 -30.511 32.638 -3.369  0.185 -0.032  S06 RHU  6
+RHU  C07  C07 C 0 1 N N N -46.093 -29.947 35.526 -0.564  1.937 -0.014  C07 RHU  7
+RHU  C08  C08 C 0 1 N N N -42.990 -30.296 35.497  1.944  0.038  0.004  C08 RHU  8
+RHU  F09  F09 F 0 1 N N N -43.288 -31.188 36.411  2.739 -1.064 -0.330  F09 RHU  9
+RHU  F10  F10 F 0 1 N N N -41.720 -30.446 35.215  2.146  1.060 -0.929  F10 RHU 10
+RHU  F11  F11 F 0 1 N N N -43.147 -29.087 36.072  2.293  0.495  1.280  F11 RHU 11
+RHU HS06 HS06 H 0 0 N N N -47.363 -30.782 31.367 -3.616  0.259  1.354 HS06 RHU 12
+RHU  H07  H07 H 0 1 N N N -45.427 -29.802 36.389 -0.564  2.303  1.013  H07 RHU 13
+RHU H07A H07A H 0 0 N N N -46.634 -29.012 35.319  0.334  2.286 -0.524 H07A RHU 14
+RHU H07B H07B H 0 0 N N N -46.815 -30.746 35.750 -1.446  2.312 -0.534 H07B RHU 15
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+RHU C01  N02 DOUB Y N  1
+RHU C01  N05 SING Y N  2
+RHU C01  S06 SING N N  3
+RHU N02  N03 SING Y N  4
+RHU N03  C04 DOUB Y N  5
+RHU C04  N05 SING Y N  6
+RHU C04  C08 SING N N  7
+RHU N05  C07 SING N N  8
+RHU S06 HS06 SING N N  9
+RHU C07  H07 SING N N 10
+RHU C07 H07A SING N N 11
+RHU C07 H07B SING N N 12
+RHU C08  F09 SING N N 13
+RHU C08  F10 SING N N 14
+RHU C08  F11 SING N N 15
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+RHU            InChI                InChI  1.03 InChI=1S/C4H4F3N3S/c1-10-2(4(5,6)7)8-9-3(10)11/h1H3,(H,9,11)
+RHU         InChIKey                InChI  1.03                                  HUZASKHMPBJXJP-UHFFFAOYSA-N
+RHU SMILES_CANONICAL               CACTVS 3.385                                          Cn1c(S)nnc1C(F)(F)F
+RHU           SMILES               CACTVS 3.385                                          Cn1c(S)nnc1C(F)(F)F
+RHU SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                          Cn1c(nnc1S)C(F)(F)F
+RHU           SMILES "OpenEye OEToolkits" 1.7.6                                          Cn1c(nnc1S)C(F)(F)F
+#
+_pdbx_chem_comp_identifier.comp_id               RHU
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version       1.7.6
+_pdbx_chem_comp_identifier.identifier            4-methyl-5-(trifluoromethyl)-1,2,4-triazole-3-thiol
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+RHU "Create component" 2015-08-18  EBI AM ?
+RHU  "Initial release" 2015-11-04 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+RHU C01 C 4.427 -0.101  1
+RHU N02 N 4.890 -1.528  2
+RHU N03 N 6.390 -1.528  3
+RHU C04 C 6.854 -0.101  4
+RHU N05 N 5.640  0.780  5
+RHU S06 S 3.000  0.362  6
+RHU C07 C 5.640  2.280  7
+RHU C08 C 8.280  0.362  8
+RHU F09 F 9.707  0.826  9
+RHU F10 F 8.744 -1.064 10
+RHU F11 F 7.817  1.789 11
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+RHU C01 N02 DOUBLE NONE  1
+RHU C01 N05 SINGLE NONE  2
+RHU C01 S06 SINGLE NONE  3
+RHU N02 N03 SINGLE NONE  4
+RHU N03 C04 DOUBLE NONE  5
+RHU C04 N05 SINGLE NONE  6
+RHU C04 C08 SINGLE NONE  7
+RHU N05 C07 SINGLE NONE  8
+RHU C08 F09 SINGLE NONE  9
+RHU C08 F10 SINGLE NONE 10
+RHU C08 F11 SINGLE NONE 11
+#
+_pdbe_chem_comp_substructure.comp_id                      RHU
+_pdbe_chem_comp_substructure.substructure_name            MurckoScaffold
+_pdbe_chem_comp_substructure.id                           S1
+_pdbe_chem_comp_substructure.substructure_type            scaffold
+_pdbe_chem_comp_substructure.substructure_smiles          c1nnc[nH]1
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H3N3/c1-3-2-5-4-1/h1-2H,(H,3,4,5)
+_pdbe_chem_comp_substructure.substructure_inchikeys       NSPMIYGKQJPBQR-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+RHU C01 S1 1
+RHU N02 S1 1
+RHU N03 S1 1
+RHU C04 S1 1
+RHU N05 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               RHU
+_pdbe_chem_comp_rdkit_properties.exactmw                               183.008
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             70.941
+_pdbe_chem_comp_rdkit_properties.tpsa                                  30.710
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.960
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             33.561
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+RHU UniChem     ChEMBL    CHEMBL1778133
+RHU UniChem       ZINC ZINC000006072296
+RHU UniChem NMRShiftDB         20146181
+RHU UniChem  BindingDb         50129035
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+RHU  C01  1.330  0.931 -0.368 ETKDGv2  1
+RHU  N02  0.745  1.979 -0.843 ETKDGv2  2
+RHU  N03 -0.636  1.786 -0.715 ETKDGv2  3
+RHU  C04 -0.825  0.634 -0.160 ETKDGv2  4
+RHU  N05  0.405 -0.024  0.142 ETKDGv2  5
+RHU  S06  3.106  0.719 -0.371 ETKDGv2  6
+RHU  C07  0.619 -1.465  0.202 ETKDGv2  7
+RHU  C08 -2.183  0.049  0.081 ETKDGv2  8
+RHU  F09 -2.272 -0.392  1.388 ETKDGv2  9
+RHU  F10 -2.385 -1.016 -0.777 ETKDGv2 10
+RHU  F11 -3.163  1.000 -0.140 ETKDGv2 11
+RHU HS06  3.231  1.312  0.899 ETKDGv2 12
+RHU  H07  1.611 -1.681  0.651 ETKDGv2 13
+RHU H07A  0.578 -1.893 -0.821 ETKDGv2 14
+RHU H07B -0.161 -1.940  0.832 ETKDGv2 15
+#

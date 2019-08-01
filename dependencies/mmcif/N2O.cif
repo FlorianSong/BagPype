@@ -1,0 +1,206 @@
+data_N2O
+#
+_chem_comp.id                                        N2O
+_chem_comp.name                                      "NITROUS OXIDE"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "N2 O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             "NITROGEN OXIDE"
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2006-09-20
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       ?
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            44.013
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         N2O
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+N2O O3 O3 O -1 1 N N N 24.480 33.840 39.864 12.637 -11.994 -7.613 O3 N2O 1
+N2O N2 N2 N  1 1 N N N 24.041 34.054 38.776 11.488 -12.816 -7.703 N2 N2O 2
+N2O N1 N1 N  0 1 N N N 23.716 34.228 37.706 10.606 -13.448 -7.772 N1 N2O 3
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+N2O O3 N2 SING N N 1
+N2O N2 N1 TRIP N N 2
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+N2O           SMILES              ACDLabs 10.04                "[O-][N+]#N"
+N2O SMILES_CANONICAL               CACTVS 3.341                "[O-][N+]#N"
+N2O           SMILES               CACTVS 3.341                "[O-][N+]#N"
+N2O SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                  N#[N+][O-]
+N2O           SMILES "OpenEye OEToolkits" 1.5.0                  N#[N+][O-]
+N2O            InChI                InChI  1.03         InChI=1S/N2O/c1-2-3
+N2O         InChIKey                InChI  1.03 GQPLMRYTRLFLPF-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+N2O "SYSTEMATIC NAME"              ACDLabs 10.04 "nitrogen oxide"
+N2O "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0  "nitrous oxide"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+N2O  "Create component" 2006-09-20  EBI ? ?
+N2O "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   N2O
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB06690
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Nitrous oxide"
+_pdbe_chem_comp_drugbank_details.description               'Nitrous oxide, commonly known as "laughing gas", is a chemical compound with the chemical formula N2O. At room temperature, it is a colorless non-flammable gas, with a pleasant, slightly sweet odor and taste. It is used in surgery and dentistry for its anesthetic and analgesic effects. It is known as "laughing gas" due to the euphoric effects of inhaling it, a property that has led to its recreational use as an inhalant drug.'
+_pdbe_chem_comp_drugbank_details.cas_number                10024-97-2
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Findings to date indicate that nitrous oxide induces opioid peptide release in the brain stem leading to the activation of descending noradrenergic neurones, which results in modulation of the nociceptive process in the spinal cord. Several receptor–effector mechanisms including dopamine receptors, α2 adrenoceptors, benzodiazepine receptors and -methyl- -aspartate (NMDA) receptors have been implicated although the relationship of one with the other is not known."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           N2O
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB06690
+_pdbe_chem_comp_drugbank_classification.parent            "Other non-metal nitrides"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Inorganic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Other non-metal organides"
+_pdbe_chem_comp_drugbank_classification.superclass        "Homogeneous non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of inorganic compounds known as other non-metal nitrides. These are inorganic compounds of nitrogen where nitrogen has a formal oxidation state of -3, and the heaviest atom bonded to it belongs to the class of 'other non-metals'."
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+N2O             Entonox   ChEMBL
+N2O     "Nitrous Oxide"   ChEMBL
+N2O "Nitrogen Monoxide"   ChEMBL
+N2O                 N2O DrugBank
+N2O    "Nitrious oxide" DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+N2O O3 O 5.598  0.750 1
+N2O N2 N 4.299  0.000 2
+N2O N1 N 3.000 -0.750 3
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+N2O O3 N2 SINGLE NONE 1
+N2O N2 N1 TRIPLE NONE 2
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               N2O
+_pdbe_chem_comp_rdkit_properties.exactmw                               44.001
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             17.083
+_pdbe_chem_comp_rdkit_properties.tpsa                                  51.210
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.337
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             8.451
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         3
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+N2O UniChem        ChEMBL CHEMBL1234579
+N2O UniChem      DrugBank       DB06690
+N2O UniChem "KEGG LIGAND"        C00887
+N2O UniChem         ChEBI         17045
+N2O UniChem  MetaboLights    MTBLC17045
+N2O UniChem        BRENDA          1327
+N2O UniChem        BRENDA          3355
+N2O UniChem          Rhea         17045
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+N2O O3  1.230  0.067 0.000 ETKDGv2 1
+N2O N2 -0.069 -0.227 0.000 ETKDGv2 2
+N2O N1 -1.161 -0.475 0.000 ETKDGv2 3
+#

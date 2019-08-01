@@ -1,0 +1,206 @@
+data_PEO
+#
+_chem_comp.id                                        PEO
+_chem_comp.name                                      "HYDROGEN PEROXIDE"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "H2 O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            34.015
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         PEO
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1D6Z
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+PEO  O1  O1 O 0 1 N N N 47.411 41.524 13.051 -0.077 0.000  0.730  O1 PEO 1
+PEO  O2  O2 O 0 1 N N N 46.878 41.592 11.921  0.077 0.000 -0.730  O2 PEO 2
+PEO HO1 HO1 H 0 1 N N N 47.497 41.125 12.193  0.813 0.000  1.106 HO1 PEO 3
+PEO HO2 HO2 H 0 1 N N N 46.791 41.990 12.778 -0.813 0.000 -1.106 HO2 PEO 4
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+PEO O1  O2 SING N N 1
+PEO O1 HO1 SING N N 2
+PEO O2 HO2 SING N N 3
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+PEO           SMILES              ACDLabs 10.04                          OO
+PEO SMILES_CANONICAL               CACTVS 3.341                          OO
+PEO           SMILES               CACTVS 3.341                          OO
+PEO SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                          OO
+PEO           SMILES "OpenEye OEToolkits" 1.5.0                          OO
+PEO            InChI                InChI  1.03    InChI=1S/H2O2/c1-2/h1-2H
+PEO         InChIKey                InChI  1.03 MHAJPDPJQMAIIY-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+PEO "SYSTEMATIC NAME"              ACDLabs 10.04 "hydrogen peroxide"
+PEO "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "hydrogen peroxide"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+PEO  "Create component" 1999-07-08 RCSB ? ?
+PEO "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   PEO
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB11091
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Hydrogen peroxide"
+_pdbe_chem_comp_drugbank_details.description               "Hydrogen peroxide is the simplest peroxide with a chemical formula H2O2. Hydrogen peroxide is an unstable compound in the presence of a base or catalyst, and is typically stored with a stabilizer in a weakly acidic solution. If heated to its boiling point, it may undergo potentially explosive thermal decomposition. Hydrogen peroxide is formed in the body of mammals during reduction of oxygen either directly in a two-electron transfer reaction [L2024]. As a natural product of metabolism, it readily undergoes decomposition by catalase in normal cells [L2024].   Due to its potent and broad-spectrum antimicrobial actions, hydrogen peroxide is used in both liquid and gas form for preservative, disinfection and sterilization applications as an oxidative biocide [A32369]. It is used in industrial and cosmetic applications as a bleaching agent. Hydrogen peroxide is also considered as a generally recognized as safe compound by the FDA [L2024]; it is used as an antimicrobial agent in starch and cheese products, and as an oxidizing and reducing agent in products containing dried eggs, dried egg whites, and dried egg yolks."
+_pdbe_chem_comp_drugbank_details.cas_number                7722-84-1
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "The production of free hydroxyl radicals in the Fenton reaction is thought to be the basis of biocidal actions of hydrogen peroxide. Free radicals eventually lead to oxidative damage proteins and membrane lipids _in vivo_ [A32371]. The oxidizing radical as the ferryl radical induces DNA oxidation [A32371]."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           PEO
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB11091
+_pdbe_chem_comp_drugbank_classification.parent            "Homogeneous other non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Inorganic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Homogeneous other non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.superclass        "Homogeneous non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of inorganic compounds known as homogeneous other non-metal compounds. These are inorganic non-metallic compounds in which the largest atom belongs to the class of 'other non-metals'."
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+PEO              Oxydol ChEMBL
+PEO          Crystacide ChEMBL
+PEO             Peroxyl ChEMBL
+PEO "Hydrogen Peroxide" ChEMBL
+PEO              Hioxyl ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+PEO O1 O -1.000 0.000 1
+PEO O2 O  0.000 0.000 2
+#
+_pdbe_chem_comp_bond_depiction.comp_id            PEO
+_pdbe_chem_comp_bond_depiction.atom_id_1          O1
+_pdbe_chem_comp_bond_depiction.atom_id_2          O2
+_pdbe_chem_comp_bond_depiction.value_order        SINGLE
+_pdbe_chem_comp_bond_depiction.bond_dir           NONE
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       1
+
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               PEO
+_pdbe_chem_comp_rdkit_properties.exactmw                               34.005
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             14.875
+_pdbe_chem_comp_rdkit_properties.tpsa                                  40.460
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.017
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             5.258
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         2
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+PEO UniChem        ChEMBL CHEMBL71595
+PEO UniChem      DrugBank     DB11091
+PEO UniChem "KEGG LIGAND"      C00027
+PEO UniChem         ChEBI       16240
+PEO UniChem  MetaboLights  MTBLC16240
+PEO UniChem        BRENDA        1126
+PEO UniChem        BRENDA          22
+PEO UniChem          Rhea       16240
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+PEO  O1  0.562  0.272  0.370 ETKDGv2 1
+PEO  O2 -0.566  0.335 -0.308 ETKDGv2 2
+PEO HO1  1.164 -0.281 -0.191 ETKDGv2 3
+PEO HO2 -1.160 -0.327  0.129 ETKDGv2 4
+#

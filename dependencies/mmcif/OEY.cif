@@ -1,0 +1,233 @@
+data_OEY
+#
+_chem_comp.id                                        OEY
+_chem_comp.name                                      "CA-MN4-O6 CLUSTER"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "Ca Mn4 O6"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2017-01-04
+_chem_comp.pdbx_modified_date                        2017-05-30
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            355.827
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         OEY
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            5WS6
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+OEY  O1  O1  O 0 1 N N N 26.735 -37.307 -61.270 26.735 -37.307 -61.270  O1 OEY  1
+OEY CA1 CA1 CA 0 0 N N N 27.979 -37.513 -59.060 27.979 -37.513 -59.060 CA1 OEY  2
+OEY MN1 MN1 MN 0 0 N N N 25.275 -36.310 -60.766 25.275 -36.310 -60.766 MN1 OEY  3
+OEY  O2  O2  O 0 1 N N N 28.619 -35.479 -60.600 28.619 -35.479 -60.600  O2 OEY  4
+OEY MN2 MN2 MN 0 0 N N N 27.582 -35.967 -62.080 27.582 -35.967 -62.080 MN2 OEY  5
+OEY  O3  O3  O 0 1 N N N 26.202 -34.681 -61.469 26.202 -34.681 -61.469  O3 OEY  6
+OEY MN3 MN3 MN 0 0 N N R 27.510 -34.077 -59.953 27.510 -34.077 -59.953 MN3 OEY  7
+OEY  O4  O4  O 0 1 N N N 29.003 -33.453 -58.917 29.003 -33.453 -58.917  O4 OEY  8
+OEY MN4 MN4 MN 0 0 N N N 27.905 -33.849 -57.279 27.905 -33.849 -57.279 MN4 OEY  9
+OEY  O5  O5  O 0 1 N N N 26.755 -35.356 -58.586 26.755 -35.356 -58.586  O5 OEY 10
+OEY  O6  O6  O 0 1 N N N 25.487 -36.068 -58.521 25.487 -36.068 -58.521  O6 OEY 11
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+OEY  O1 MN1 SING N N  1
+OEY  O1 MN2 SING N N  2
+OEY MN1  O3 SING N N  3
+OEY MN1  O6 SING N N  4
+OEY  O2 MN2 SING N N  5
+OEY  O2 MN3 SING N N  6
+OEY MN2  O3 SING N N  7
+OEY  O3 MN3 SING N N  8
+OEY MN3  O4 SING N N  9
+OEY MN3  O5 SING N N 10
+OEY  O4 MN4 SING N N 11
+OEY MN4  O5 SING N N 12
+OEY  O5  O6 SING N N 13
+OEY  O5 CA1 SING N N 14
+OEY  O1 CA1 SING N N 15
+OEY  O2 CA1 SING N N 16
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+OEY            InChI                InChI  1.03 InChI=1S/Ca.4Mn.O2.4O/c;;;;;1-2;;;;/q;;;;+1;-1;;;;
+OEY         InChIKey                InChI  1.03                        VXLJVOKMVCJEPF-UHFFFAOYSA-N
+OEY SMILES_CANONICAL               CACTVS 3.385              O1[Mn]O[O]23[Ca]O[Mn@]2(O[Mn]1)O[Mn]3
+OEY           SMILES               CACTVS 3.385               O1[Mn]O[O]23[Ca]O[Mn]2(O[Mn]1)O[Mn]3
+OEY SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6             O1O23[Ca]4O5[Mn]1O6[Mn]5O4[Mn]62O[Mn]3
+OEY           SMILES "OpenEye OEToolkits" 2.0.6             O1O23[Ca]4O5[Mn]1O6[Mn]5O4[Mn]62O[Mn]3
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+OEY    "Create component" 2017-01-04 PDBJ YK ?
+OEY     "Initial release" 2017-03-15 RCSB  ? ?
+OEY "Modify linking type" 2017-05-30 PDBJ YK ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+OEY  O1  O  2.616 -2.638  1
+OEY CA1 Ca  3.193 -0.651  2
+OEY MN1 Mn  1.719 -2.347  3
+OEY  O2  O  0.376  0.948  4
+OEY MN2 Mn -1.032 -0.537  5
+OEY  O3  O -0.390 -1.114  6
+OEY MN3 Mn  0.730  0.058  7
+OEY  O4  O  1.793  1.904  8
+OEY MN4 Mn  3.327  1.014  9
+OEY  O5  O  2.247 -0.557 10
+OEY  O6  O  1.987 -1.528 11
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+OEY  O1 MN1 SINGLE NONE  1
+OEY  O1 MN2 SINGLE NONE  2
+OEY MN1  O3 SINGLE NONE  3
+OEY MN1  O6 SINGLE NONE  4
+OEY  O2 MN2 SINGLE NONE  5
+OEY  O2 MN3 SINGLE NONE  6
+OEY MN2  O3 SINGLE NONE  7
+OEY  O3 MN3 SINGLE NONE  8
+OEY MN3  O4 SINGLE NONE  9
+OEY MN3  O5 SINGLE NONE 10
+OEY  O4 MN4 SINGLE NONE 11
+OEY MN4  O5 SINGLE NONE 12
+OEY  O5  O6 SINGLE NONE 13
+OEY  O5 CA1 SINGLE NONE 14
+OEY  O1 CA1 SINGLE NONE 15
+OEY  O2 CA1 SINGLE NONE 16
+#
+_pdbe_chem_comp_substructure.comp_id                      OEY
+_pdbe_chem_comp_substructure.substructure_name            MurckoScaffold
+_pdbe_chem_comp_substructure.id                           S1
+_pdbe_chem_comp_substructure.substructure_type            scaffold
+_pdbe_chem_comp_substructure.substructure_smiles          O1[Mn-4]2[O+6]3[Ca-5]4[O+6]5[Mn-6]3[O+6]2[Mn-5]52O[Mn-][O+3]142
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/Ca.4Mn.O2.4O/c;;;;;1-2;;;;/q-5;-6;-5;-3;-1;+2;;3*+6
+_pdbe_chem_comp_substructure.substructure_inchikeys       BABQVYDQPNLXAR-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+OEY  O1 S1 1
+OEY CA1 S1 1
+OEY MN1 S1 1
+OEY  O2 S1 1
+OEY MN2 S1 1
+OEY  O3 S1 1
+OEY MN3 S1 1
+OEY  O4 S1 1
+OEY MN4 S1 1
+OEY  O5 S1 1
+OEY  O6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               OEY
+_pdbe_chem_comp_rdkit_properties.exactmw                               355.684
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        11
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              7
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     7
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     7
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       7
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              7
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              7
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         2
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    2
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             96.998
+_pdbe_chem_comp_rdkit_properties.tpsa                                  26.560
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.801
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             12.264
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+OEY  O1 -1.403 -0.581 -0.430 ETKDGv2  1
+OEY CA1 -0.991 -0.514 -1.393 ETKDGv2  2
+OEY MN1 -0.162 -0.831  1.347 ETKDGv2  3
+OEY  O2 -0.924  1.281 -0.694 ETKDGv2  4
+OEY MN2 -1.288  1.170  0.793 ETKDGv2  5
+OEY  O3 -0.681 -0.162  1.272 ETKDGv2  6
+OEY MN3  0.390  0.810 -0.568 ETKDGv2  7
+OEY  O4  1.318  1.357  0.611 ETKDGv2  8
+OEY MN4  2.279 -0.175  0.270 ETKDGv2  9
+OEY  O5  0.779 -0.527 -0.513 ETKDGv2 10
+OEY  O6  0.684 -1.827 -0.696 ETKDGv2 11
+#

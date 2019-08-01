@@ -1,0 +1,268 @@
+data_2KT
+#
+_chem_comp.id                                        2KT
+_chem_comp.name                                      "2-KETOBUTYRIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C4 H6 O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             "2-OXOBUTANOIC ACID"
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2003-12-10
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            102.089
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         2KT
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+2KT  C4  C4 C 0 1 N N N 80.714 24.110 -7.077  2.738  0.112 -0.000  C4 2KT  1
+2KT  C3  C3 C 0 1 N N N 80.022 22.890 -6.465  1.374  0.804 -0.000  C3 2KT  2
+2KT  C2  C2 C 0 1 N N N 80.919 22.137 -5.478  0.283 -0.236 -0.000  C2 2KT  3
+2KT  O3  O3 O 0 1 N N N 82.144 22.149 -5.589  0.568 -1.410 -0.000  O3 2KT  4
+2KT  C1  C1 C 0 1 N N N 80.289 21.356 -4.319 -1.147  0.184  0.000  C1 2KT  5
+2KT  O1  O1 O 0 1 N Y N 79.328 21.821 -3.710 -2.121 -0.745  0.000  O1 2KT  6
+2KT  O2  O2 O 0 1 N N N 80.777 20.281 -3.973 -1.433  1.362  0.000  O2 2KT  7
+2KT H41 H41 H 0 1 N N N 80.027 24.610 -7.775  2.830 -0.510  0.890 H41 2KT  8
+2KT H42 H42 H 0 1 N N N 80.998 24.810 -6.277  2.830 -0.510 -0.890 H42 2KT  9
+2KT H43 H43 H 0 1 N N N 81.615 23.787 -7.619  3.527  0.864 -0.000 H43 2KT 10
+2KT H31 H31 H 0 1 N N N 79.125 23.232 -5.928  1.282  1.427  0.890 H31 2KT 11
+2KT H32 H32 H 0 1 N N N 79.746 22.203 -7.278  1.282  1.427 -0.890 H32 2KT 12
+2KT HO1 HO1 H 0 1 N Y N 79.085 21.233 -3.005 -3.034 -0.424  0.000 HO1 2KT 13
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+2KT C4  C3 SING N N  1
+2KT C4 H41 SING N N  2
+2KT C4 H42 SING N N  3
+2KT C4 H43 SING N N  4
+2KT C3  C2 SING N N  5
+2KT C3 H31 SING N N  6
+2KT C3 H32 SING N N  7
+2KT C2  O3 DOUB N N  8
+2KT C2  C1 SING N N  9
+2KT C1  O1 SING N N 10
+2KT C1  O2 DOUB N N 11
+2KT O1 HO1 SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+2KT           SMILES              ACDLabs 12.01                                   O=C(C(=O)O)CC
+2KT SMILES_CANONICAL               CACTVS 3.370                                   CCC(=O)C(O)=O
+2KT           SMILES               CACTVS 3.370                                   CCC(=O)C(O)=O
+2KT SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                   CCC(=O)C(=O)O
+2KT           SMILES "OpenEye OEToolkits" 1.7.0                                   CCC(=O)C(=O)O
+2KT            InChI                InChI  1.03 InChI=1S/C4H6O3/c1-2-3(5)4(6)7/h2H2,1H3,(H,6,7)
+2KT         InChIKey                InChI  1.03                     TYEYBOSBBBHJIV-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+2KT "SYSTEMATIC NAME"              ACDLabs 12.01 "2-oxobutanoic acid"
+2KT "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "2-oxobutanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+2KT  "Create component" 2003-12-10 RCSB ? ?
+2KT "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   2KT
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB04553
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "2-Oxobutanoic Acid"
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                600-18-0
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           2KT
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB04553
+_pdbe_chem_comp_drugbank_classification.parent            "Short-chain keto acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Keto acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as short-chain keto acids and derivatives. These are keto acids with an alkyl chain the contains less than 6 carbon atoms."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+2KT DB04553 "Methylmalonyl-CoA carboxyltransferase 5S subunit" "Propionibacterium freudenreichii subsp. shermanii" Q70AC7 unknown 1
+2KT DB04553      "1-aminocyclopropane-1-carboxylate deaminase"                      "Pseudomonas sp. (strain ACP)" Q00740 unknown 2
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+2KT       2-Oxobutanoate ChEMBL
+2KT "2-Oxo-Butyric Acid" ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+2KT C4 C 3.000 -0.375 1
+2KT C3 C 4.299  0.375 2
+2KT C2 C 5.598 -0.375 3
+2KT O3 O 5.598 -1.875 4
+2KT C1 C 6.897  0.375 5
+2KT O1 O 8.196 -0.375 6
+2KT O2 O 6.897  1.875 7
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+2KT C4 C3 SINGLE NONE 1
+2KT C3 C2 SINGLE NONE 2
+2KT C2 O3 DOUBLE NONE 3
+2KT C2 C1 SINGLE NONE 4
+2KT C1 O1 SINGLE NONE 5
+2KT C1 O2 DOUBLE NONE 6
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               2KT
+_pdbe_chem_comp_rdkit_properties.exactmw                               102.032
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             49.468
+_pdbe_chem_comp_rdkit_properties.tpsa                                  54.370
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.050
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             22.934
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+2KT UniChem        ChEMBL     CHEMBL171246
+2KT UniChem      DrugBank          DB04553
+2KT UniChem "KEGG LIGAND"           C00109
+2KT UniChem         ChEBI            30831
+2KT UniChem          ZINC ZINC000001532540
+2KT UniChem  MetaboLights       MTBLC30831
+2KT UniChem        BRENDA            12315
+2KT UniChem        BRENDA           136233
+2KT UniChem        BRENDA           144429
+2KT UniChem        BRENDA             2720
+2KT UniChem        BRENDA            29397
+2KT UniChem        BRENDA            29733
+2KT UniChem        BRENDA            30586
+2KT UniChem        BRENDA             3288
+2KT UniChem        BRENDA            32994
+2KT UniChem        BRENDA              371
+2KT UniChem        BRENDA              390
+2KT UniChem        BRENDA            45129
+2KT UniChem        BRENDA            48620
+2KT UniChem        BRENDA             5386
+2KT UniChem        BRENDA            78575
+2KT UniChem        BRENDA            91159
+2KT UniChem        BRENDA            95796
+2KT UniChem        BRENDA             9891
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+2KT  C4  1.650  0.307  0.823 ETKDGv2  1
+2KT  C3  0.533  0.750 -0.117 ETKDGv2  2
+2KT  C2 -0.128 -0.438 -0.760 ETKDGv2  3
+2KT  O3  0.537 -1.152 -1.558 ETKDGv2  4
+2KT  C1 -1.535 -0.781 -0.487 ETKDGv2  5
+2KT  O1 -2.288 -0.022  0.404 ETKDGv2  6
+2KT  O2 -2.062 -1.771 -1.061 ETKDGv2  7
+2KT H41  2.433 -0.247  0.262 ETKDGv2  8
+2KT H42  1.242 -0.346  1.624 ETKDGv2  9
+2KT H43  2.116  1.198  1.293 ETKDGv2 10
+2KT H31 -0.199  1.353  0.460 ETKDGv2 11
+2KT H32  0.956  1.403 -0.909 ETKDGv2 12
+2KT HO1 -3.255 -0.254  0.597 ETKDGv2 13
+#

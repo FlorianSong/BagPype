@@ -1,0 +1,286 @@
+data_DAS
+#
+_chem_comp.id                                        DAS
+_chem_comp.name                                      "D-ASPARTIC ACID"
+_chem_comp.type                                      "D-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C4 H7 N O4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             DSP
+_chem_comp.formula_weight                            133.103
+_chem_comp.one_letter_code                           D
+_chem_comp.three_letter_code                         DAS
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1AN1
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+DAS   N   N N 0 1 N N N 17.583 59.747 30.265  1.659 -0.052 -0.266   N DAS  1
+DAS  CA  CA C 0 1 N N R 18.873 59.859 30.954  0.266  0.365 -0.472  CA DAS  2
+DAS   C   C C 0 1 N N N 19.982 60.297 29.948 -0.163  0.007 -1.872   C DAS  3
+DAS   O   O O 0 1 N N N 19.687 60.632 28.810  0.320 -0.951 -2.425   O DAS  4
+DAS  CB  CB C 0 1 N N N 18.788 60.798 32.128 -0.634 -0.350  0.535  CB DAS  5
+DAS  CG  CG C 0 1 N N N 18.684 62.225 31.716 -0.205  0.007  1.935  CG DAS  6
+DAS OD1 OD1 O 0 1 N N N 17.604 62.665 31.218  0.725  0.757  2.108 OD1 DAS  7
+DAS OD2 OD2 O 0 1 N N N 19.688 62.908 31.932 -0.857 -0.507  2.989 OD2 DAS  8
+DAS OXT OXT O 0 1 N Y N 21.246 60.177 30.330 -1.082  0.754 -2.503 OXT DAS  9
+DAS   H   H H 0 1 N N N 16.857 59.460 30.922  2.199  0.359 -1.012   H DAS 10
+DAS  H2 HN2 H 0 1 N Y N 17.633 59.124 29.458  1.687 -1.051 -0.405  H2 DAS 11
+DAS  HA  HA H 0 1 N N N 19.145 58.856 31.359  0.185  1.442 -0.331  HA DAS 12
+DAS HB2 1HB H 0 1 N N N 17.949 60.515 32.806 -1.668 -0.040  0.382 HB2 DAS 13
+DAS HB3 2HB H 0 1 N N N 19.644 60.644 32.825 -0.553 -1.428  0.395 HB3 DAS 14
+DAS HD2 HD2 H 0 1 N N N 19.621 63.818 31.669 -0.582 -0.277  3.887 HD2 DAS 15
+DAS HXT HXT H 0 1 N Y N 21.921 60.443 29.717 -1.358  0.524 -3.401 HXT DAS 16
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+DAS   N  CA SING N N  1
+DAS   N   H SING N N  2
+DAS   N  H2 SING N N  3
+DAS  CA   C SING N N  4
+DAS  CA  CB SING N N  5
+DAS  CA  HA SING N N  6
+DAS   C   O DOUB N N  7
+DAS   C OXT SING N N  8
+DAS  CB  CG SING N N  9
+DAS  CB HB2 SING N N 10
+DAS  CB HB3 SING N N 11
+DAS  CG OD1 DOUB N N 12
+DAS  CG OD2 SING N N 13
+DAS OD2 HD2 SING N N 14
+DAS OXT HXT SING N N 15
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+DAS           SMILES              ACDLabs 10.04                                                      O=C(O)CC(N)C(=O)O
+DAS SMILES_CANONICAL               CACTVS 3.341                                                  N[C@H](CC(O)=O)C(O)=O
+DAS           SMILES               CACTVS 3.341                                                   N[CH](CC(O)=O)C(O)=O
+DAS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                C([C@H](C(=O)O)N)C(=O)O
+DAS           SMILES "OpenEye OEToolkits" 1.5.0                                                    C(C(C(=O)O)N)C(=O)O
+DAS            InChI                InChI  1.03 InChI=1S/C4H7NO4/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H,6,7)(H,8,9)/t2-/m1/s1
+DAS         InChIKey                InChI  1.03                                            CKLJMWTZIZZHCS-UWTATZPHSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+DAS "SYSTEMATIC NAME"              ACDLabs 10.04              "D-aspartic acid"
+DAS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-aminobutanedioic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+DAS  "Create component" 1999-07-08 RCSB ? ?
+DAS "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   DAS
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02655
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "D-Aspartic Acid"
+_pdbe_chem_comp_drugbank_details.description               "The D-isomer of aspartic acid. [PubChem]"
+_pdbe_chem_comp_drugbank_details.cas_number                1783-96-6
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           DAS
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02655
+_pdbe_chem_comp_drugbank_classification.parent            "Aspartic acid and derivatives"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as aspartic acid and derivatives. These are compounds containing an aspartic acid or a derivative thereof resulting from reaction of aspartic acid at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+DAS DB02655    Thermolysin "Geobacillus stearothermophilus" P43133 unknown 1
+DAS DB02655 L-asparaginase    "Pectobacterium chrysanthemi" P06608 unknown 2
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+DAS "D-Aspartic Acid" ChEMBL
+DAS       D-aspartate ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+DAS   N N  7.702 -1.643 1
+DAS  CA C  7.702 -0.142 2
+DAS   C C  9.002  0.608 3
+DAS   O O 10.301 -0.142 4
+DAS  CB C  6.404  0.608 5
+DAS  CG C  5.104 -0.142 6
+DAS OD1 O  3.805  0.608 7
+DAS OD2 O  5.104 -1.643 8
+DAS OXT O  9.002  2.107 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+DAS  N  CA SINGLE BEGINDASH 1
+DAS CA   C SINGLE      NONE 2
+DAS CA  CB SINGLE      NONE 3
+DAS  C   O DOUBLE      NONE 4
+DAS  C OXT SINGLE      NONE 5
+DAS CB  CG SINGLE      NONE 6
+DAS CG OD1 DOUBLE      NONE 7
+DAS CG OD2 SINGLE      NONE 8
+#
+_pdbe_chem_comp_substructure.comp_id                      DAS
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+DAS  O F1 1
+DAS  C F1 1
+DAS CA F1 1
+DAS  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               DAS
+_pdbe_chem_comp_rdkit_properties.exactmw                               133.038
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                5
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             61.210
+_pdbe_chem_comp_rdkit_properties.tpsa                                  100.620
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.127
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             27.864
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+DAS UniChem        ChEMBL      CHEMBL29757
+DAS UniChem      DrugBank          DB02655
+DAS UniChem "KEGG LIGAND"           C00402
+DAS UniChem         ChEBI            17364
+DAS UniChem          ZINC ZINC000000895218
+DAS UniChem     BindingDb            31174
+DAS UniChem  MetaboLights       MTBLC17364
+DAS UniChem        BRENDA             1465
+DAS UniChem        BRENDA            43975
+DAS UniChem        BRENDA              634
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+DAS   N -1.303  1.834  0.001 ETKDGv2  1
+DAS  CA -0.426  0.726  0.390 ETKDGv2  2
+DAS   C -1.243 -0.494  0.739 ETKDGv2  3
+DAS   O -2.463 -0.564  0.426 ETKDGv2  4
+DAS  CB  0.553  0.413 -0.760 ETKDGv2  5
+DAS  CG  1.611 -0.569 -0.354 ETKDGv2  6
+DAS OD1  2.438 -0.271  0.549 ETKDGv2  7
+DAS OD2  1.686 -1.807 -0.983 ETKDGv2  8
+DAS OXT -0.646 -1.553  1.416 ETKDGv2  9
+DAS   H -1.912  2.073  0.817 ETKDGv2 10
+DAS  H2 -0.712  2.681 -0.167 ETKDGv2 11
+DAS  HA  0.151  1.032  1.293 ETKDGv2 12
+DAS HB2  1.059  1.346 -1.087 ETKDGv2 13
+DAS HB3 -0.012  0.015 -1.632 ETKDGv2 14
+DAS HD2  2.395 -2.481 -0.721 ETKDGv2 15
+DAS HXT -1.177 -2.381  1.657 ETKDGv2 16
+#

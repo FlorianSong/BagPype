@@ -1,0 +1,271 @@
+data_ERO
+#
+_chem_comp.id                                        ERO
+_chem_comp.name                                      "5-ethenyl-2,6-dioxo-1,2,3,6-tetrahydropyrimidine-4-carboxylic acid"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C7 H6 N2 O4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             "5-vinyl-orotic acid"
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2012-11-19
+_chem_comp.pdbx_modified_date                        2013-11-15
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            182.134
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         ERO
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3W1P
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+ERO OAB OAB O 0 1 N N N 4.442 52.282 75.402 -2.631 -1.842 -0.106 OAB ERO  1
+ERO CAI CAI C 0 1 N N N 5.708 52.115 75.373 -2.081 -0.617  0.012 CAI ERO  2
+ERO OAE OAE O 0 1 N N N 6.448 53.062 75.211 -2.793  0.361  0.118 OAE ERO  3
+ERO CAK CAK C 0 1 N N N 6.135 50.793 75.293 -0.612 -0.463  0.012 CAK ERO  4
+ERO NAG NAG N 0 1 N N N 5.604 49.942 76.218  0.207 -1.574  0.006 NAG ERO  5
+ERO CAL CAL C 0 1 N N N 5.889 48.586 76.149  1.544 -1.453  0.005 CAL ERO  6
+ERO OAC OAC O 0 1 N N N 5.454 47.793 76.984  2.225 -2.460 -0.000 OAC ERO  7
+ERO NAH NAH N 0 1 N N N 6.656 48.088 75.116  2.156 -0.257  0.009 NAH ERO  8
+ERO CAM CAM C 0 1 N N N 7.189 48.916 74.139  1.438  0.885  0.015 CAM ERO  9
+ERO OAD OAD O 0 1 N N N 7.835 48.380 73.254  1.994  1.967  0.015 OAD ERO 10
+ERO CAJ CAJ C 0 1 N N N 6.899 50.289 74.201 -0.038  0.796  0.011 CAJ ERO 11
+ERO CAF CAF C 0 1 N N N 7.372 51.190 73.214 -0.870  2.010  0.018 CAF ERO 12
+ERO CAA CAA C 0 1 N N N 8.692 51.032 72.600 -0.303  3.207 -0.104 CAA ERO 13
+ERO  H1  H1 H 0 1 N N N 4.241 53.203 75.282 -3.596 -1.892 -0.100  H1 ERO 14
+ERO  H2  H2 H 0 1 N N N 6.832 47.105 75.070  3.125 -0.214  0.008  H2 ERO 15
+ERO  H4  H4 H 0 1 N N N 6.743 52.013 72.907 -1.942  1.928  0.121  H4 ERO 16
+ERO  H6  H6 H 0 1 N N N 9.026 51.734 71.850  0.755  3.285 -0.309  H6 ERO 17
+ERO  H7  H7 H 0 1 N N N 9.331 50.214 72.897 -0.899  4.101  0.004  H7 ERO 18
+ERO  H9  H9 H 0 1 N N N 5.012 50.294 76.943 -0.190 -2.458  0.003  H9 ERO 19
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+ERO CAA CAF DOUB N N  1
+ERO CAF CAJ SING N N  2
+ERO OAD CAM DOUB N N  3
+ERO CAM CAJ SING N N  4
+ERO CAM NAH SING N N  5
+ERO CAJ CAK DOUB N N  6
+ERO NAH CAL SING N N  7
+ERO OAE CAI DOUB N N  8
+ERO CAK CAI SING N N  9
+ERO CAK NAG SING N N 10
+ERO CAI OAB SING N N 11
+ERO CAL NAG SING N N 12
+ERO CAL OAC DOUB N N 13
+ERO OAB  H1 SING N N 14
+ERO NAH  H2 SING N N 15
+ERO CAF  H4 SING N N 16
+ERO CAA  H6 SING N N 17
+ERO CAA  H7 SING N N 18
+ERO NAG  H9 SING N N 19
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+ERO           SMILES              ACDLabs 12.01                                                      O=C1NC(C(=O)O)=C(C(=O)N1)/C=C
+ERO            InChI                InChI  1.03 InChI=1S/C7H6N2O4/c1-2-3-4(6(11)12)8-7(13)9-5(3)10/h2H,1H2,(H,11,12)(H2,8,9,10,13)
+ERO         InChIKey                InChI  1.03                                                        HSXVSUXAHMUYQD-UHFFFAOYSA-N
+ERO SMILES_CANONICAL               CACTVS 3.370                                                       OC(=O)C1=C(C=C)C(=O)NC(=O)N1
+ERO           SMILES               CACTVS 3.370                                                       OC(=O)C1=C(C=C)C(=O)NC(=O)N1
+ERO SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                         C=CC1=C(NC(=O)NC1=O)C(=O)O
+ERO           SMILES "OpenEye OEToolkits" 1.7.6                                                         C=CC1=C(NC(=O)NC1=O)C(=O)O
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+ERO "SYSTEMATIC NAME"              ACDLabs 12.01 "5-ethenyl-2,6-dioxo-1,2,3,6-tetrahydropyrimidine-4-carboxylic acid"
+ERO "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6   "5-ethenyl-2,4-bis(oxidanylidene)-1H-pyrimidine-6-carboxylic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+ERO "Create component" 2012-11-19 PDBJ RI ?
+ERO  "Initial release" 2013-11-20 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+ERO OAB O 4.299 -2.768  1
+ERO CAI C 4.299 -1.268  2
+ERO OAE O 3.000 -0.517  3
+ERO CAK C 5.598 -0.517  4
+ERO NAG N 6.897 -1.268  5
+ERO CAL C 8.196 -0.517  6
+ERO OAC O 9.495 -1.268  7
+ERO NAH N 8.196  0.983  8
+ERO CAM C 6.897  1.732  9
+ERO OAD O 6.897  3.232 10
+ERO CAJ C 5.598  0.983 11
+ERO CAF C 4.299  1.732 12
+ERO CAA C 4.299  3.232 13
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+ERO CAA CAF DOUBLE NONE  1
+ERO CAF CAJ SINGLE NONE  2
+ERO OAD CAM DOUBLE NONE  3
+ERO CAM CAJ SINGLE NONE  4
+ERO CAM NAH SINGLE NONE  5
+ERO CAJ CAK DOUBLE NONE  6
+ERO NAH CAL SINGLE NONE  7
+ERO OAE CAI DOUBLE NONE  8
+ERO CAK CAI SINGLE NONE  9
+ERO CAK NAG SINGLE NONE 10
+ERO CAI OAB SINGLE NONE 11
+ERO CAL NAG SINGLE NONE 12
+ERO CAL OAC DOUBLE NONE 13
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+ERO MurckoScaffold S1 scaffold O=c1cc[nH]c(=O)[nH]1 InChI=1S/C4H4N2O2/c7-3-1-2-5-4(8)6-3/h1-2H,(H2,5,6,7,8) ISAKRJDGNUQOIC-UHFFFAOYSA-N
+ERO     pyrimidine F1 fragment             c1cncnc1                    InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+ERO CAJ F1 1
+ERO CAK F1 1
+ERO NAG F1 1
+ERO CAL F1 1
+ERO NAH F1 1
+ERO CAM F1 1
+ERO CAK S1 1
+ERO NAG S1 1
+ERO CAL S1 1
+ERO OAC S1 1
+ERO NAH S1 1
+ERO CAM S1 1
+ERO OAD S1 1
+ERO CAJ S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               ERO
+_pdbe_chem_comp_rdkit_properties.exactmw                               182.033
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             80.187
+_pdbe_chem_comp_rdkit_properties.tpsa                                  103.020
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.095
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             44.418
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         13
+
+#
+_pdbe_chem_comp_external_mappings.comp_id           ERO
+_pdbe_chem_comp_external_mappings.source            UniChem
+_pdbe_chem_comp_external_mappings.resource          ZINC
+_pdbe_chem_comp_external_mappings.resource_id       ZINC000095921425
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+ERO OAB  0.590  2.873 -1.486 ETKDGv2  1
+ERO CAI  0.494  1.484 -1.505 ETKDGv2  2
+ERO OAE  0.909  0.860 -2.517 ETKDGv2  3
+ERO CAK -0.126  0.754 -0.370 ETKDGv2  4
+ERO NAG -1.285  1.347  0.248 ETKDGv2  5
+ERO CAL -1.983  0.690  1.306 ETKDGv2  6
+ERO OAC -3.008  1.217  1.815 ETKDGv2  7
+ERO NAH -1.511 -0.566  1.779 ETKDGv2  8
+ERO CAM -0.338 -1.134  1.196 ETKDGv2  9
+ERO OAD  0.129 -2.202  1.676 ETKDGv2 10
+ERO CAJ  0.342 -0.448  0.061 ETKDGv2 11
+ERO CAF  1.580 -1.039 -0.512 ETKDGv2 12
+ERO CAA  1.686 -2.332 -0.811 ETKDGv2 13
+ERO  H1  0.312  3.415 -0.677 ETKDGv2 14
+ERO  H2 -2.002 -1.053  2.562 ETKDGv2 15
+ERO  H4  2.414 -0.388 -0.748 ETKDGv2 16
+ERO  H6  0.863 -3.018 -0.655 ETKDGv2 17
+ERO  H7  2.600 -2.712 -1.247 ETKDGv2 18
+ERO  H9 -1.665  2.251 -0.113 ETKDGv2 19
+#

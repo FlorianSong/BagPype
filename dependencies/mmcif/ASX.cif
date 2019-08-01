@@ -1,0 +1,219 @@
+data_ASX
+#
+_chem_comp.id                                        ASX
+_chem_comp.name                                      "ASP/ASN AMBIGUOUS"
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C4 H6 N O2 X2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-09-23
+_chem_comp.pdbx_ambiguous_flag                       Y
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            100.096
+_chem_comp.one_letter_code                           B
+_chem_comp.three_letter_code                         ASX
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       Y
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+ASX   N   N N 0 1 N N N 51.317 39.590 59.402  0.780  1.516 -0.368   N ASX  1
+ASX  CA  CA C 0 1 N N S 51.650 38.347 60.112  0.407  0.097 -0.432  CA ASX  2
+ASX   C   C C 0 1 N N N 50.527 37.977 60.972 -1.035 -0.062 -0.023   C ASX  3
+ASX   O   O O 0 1 N N N 49.674 37.321 60.470 -1.579  0.804  0.620   O ASX  4
+ASX  CB  CB C 0 1 N N N 52.940 38.356 60.920  1.297 -0.708  0.517  CB ASX  5
+ASX  CG  CG C 0 1 N N N 54.129 38.325 59.970  2.724 -0.650  0.037  CG ASX  6
+ASX XD1 AD1 X 0 1 N N N 55.289 38.501 60.390  3.100  0.195 -1.320 XD1 ASX  7
+ASX XD2 AD2 X 0 1 N N N 53.861 38.141 58.663  3.903 -1.431  0.871 XD2 ASX  8
+ASX OXT OXT O 0 1 N Y N      ?      ?      ? -1.715 -1.164 -0.375 OXT ASX  9
+ASX   H   H H 0 1 N N N 52.080 39.851 58.811  0.251  2.059 -1.033   H ASX 10
+ASX  H2  H2 H 0 1 N Y N 50.498 39.447 58.846  0.667  1.878  0.566  H2 ASX 11
+ASX  HA  HA H 0 1 N N N 51.833 37.604 59.322  0.538 -0.268 -1.451  HA ASX 12
+ASX HB1 HB1 H 0 1 N N N 52.983 39.268 61.534  1.234 -0.286  1.520 HB1 ASX 13
+ASX HB2 HB2 H 0 1 N N N 52.970 37.473 61.575  0.962 -1.745  0.537 HB2 ASX 14
+ASX HXT HXT H 0 1 N Y N      ?      ?      ? -2.637 -1.221 -0.090 HXT ASX 15
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+ASX   N  CA SING N N  1
+ASX  CA   C SING N N  2
+ASX  CA  CB SING N N  3
+ASX  CA  HA SING N N  4
+ASX   C   O DOUB N N  5
+ASX   C OXT SING N N  6
+ASX  CB  CG SING N N  7
+ASX  CB HB1 SING N N  8
+ASX  CB HB2 SING N N  9
+ASX  CG XD1 DOUB N N 10
+ASX  CG XD2 SING N N 11
+ASX OXT HXT SING N N 12
+ASX   N   H SING N N 13
+ASX   N  H2 SING N N 14
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+ASX SMILES_CANONICAL               CACTVS 3.370 C(C[C@H](N)C(O)=O)(=[F,Cl,Br,I])[F,Cl,Br,I]
+ASX           SMILES               CACTVS 3.370  C(C[CH](N)C(O)=O)(=[F,Cl,Br,I])[F,Cl,Br,I]
+ASX SMILES_CANONICAL "OpenEye OEToolkits" 1.7.2                      *=C(*)C[C@@H](C(=O)O)N
+ASX           SMILES "OpenEye OEToolkits" 1.7.2                           *=C(*)CC(C(=O)O)N
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+ASX   "Create component" 1999-07-08  EBI  ?                                     ?
+ASX "Other modification" 2011-09-23 RCSB CS "update to include leaving group OXT"
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+ASX   N N  0.120  0.073 1
+ASX  CA C  0.985  0.573 2
+ASX   C C  1.852  0.074 3
+ASX   O O  2.717  0.575 4
+ASX  CB C  0.985  1.573 5
+ASX  CG C  0.118  2.073 6
+ASX XD1 * -0.747  1.572 7
+ASX XD2 *  0.117  3.073 8
+ASX OXT O  1.853 -0.926 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+ASX  N  CA SINGLE BEGINWEDGE 1
+ASX CA   C SINGLE       NONE 2
+ASX CA  CB SINGLE       NONE 3
+ASX  C   O DOUBLE       NONE 4
+ASX  C OXT SINGLE       NONE 5
+ASX CB  CG SINGLE       NONE 6
+ASX CG XD1 DOUBLE       NONE 7
+ASX CG XD2 SINGLE       NONE 8
+#
+_pdbe_chem_comp_substructure.comp_id                      ASX
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+ASX  O F1 1
+ASX  C F1 1
+ASX CA F1 1
+ASX  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               ASX
+_pdbe_chem_comp_rdkit_properties.exactmw                               100.040
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             50.762
+_pdbe_chem_comp_rdkit_properties.tpsa                                  63.320
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.983
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             25.235
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+ASX   N -0.366 -0.387  1.421 ETKDGv2  1
+ASX  CA  0.134 -0.765  0.096 ETKDGv2  2
+ASX   C  1.488 -0.154 -0.160 ETKDGv2  3
+ASX   O  2.129 -0.467 -1.199 ETKDGv2  4
+ASX  CB -0.874 -0.408 -1.018 ETKDGv2  5
+ASX  CG -1.081  1.068 -1.154 ETKDGv2  6
+ASX XD1 -1.006  1.654 -1.680 ETKDGv2  7
+ASX XD2 -1.484  1.377 -0.107 ETKDGv2  8
+ASX OXT  2.043  0.746  0.746 ETKDGv2  9
+ASX   H -1.261 -0.897  1.601 ETKDGv2 10
+ASX  H2 -0.579  0.637  1.444 ETKDGv2 11
+ASX  HA  0.268 -1.870  0.087 ETKDGv2 12
+ASX HB1 -0.512 -0.805 -1.990 ETKDGv2 13
+ASX HB2 -1.853 -0.887 -0.802 ETKDGv2 14
+ASX HXT  2.953  1.157  0.579 ETKDGv2 15
+#

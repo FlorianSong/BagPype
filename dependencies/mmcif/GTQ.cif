@@ -1,0 +1,270 @@
+data_GTQ
+#
+_chem_comp.id                                        GTQ
+_chem_comp.name                                      "2,5-dihydroxybenzoic acid"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C7 H6 O4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2009-09-17
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            154.120
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         GTQ
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3JUT
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+GTQ  OAA  OAA O 0 1 N N N 56.277 -31.628 10.292 -1.948 -2.043 -0.008  OAA GTQ  1
+GTQ  OAB  OAB O 0 1 N N N 55.788 -31.006  8.228 -2.729  0.035  0.013  OAB GTQ  2
+GTQ  OAC  OAC O 0 1 N N N 55.024 -25.978 10.133  3.060 -1.293  0.021  OAC GTQ  3
+GTQ  OAD  OAD O 0 1 N N N 53.011 -31.055 10.782 -1.283  2.076  0.009  OAD GTQ  4
+GTQ  CAE  CAE C 0 1 Y N N 53.330 -27.437 10.858  2.163  0.911  0.020  CAE GTQ  5
+GTQ  CAF  CAF C 0 1 Y N N 52.851 -28.726 11.006  1.073  1.759  0.016  CAF GTQ  6
+GTQ  CAG  CAG C 0 1 Y N N 55.302 -28.343  9.831  0.705 -0.999  0.008  CAG GTQ  7
+GTQ  CAH  CAH C 0 1 N N N 55.695 -30.864  9.474 -1.768 -0.708  0.007  CAH GTQ  8
+GTQ  CAI  CAI C 0 1 Y N N 54.564 -27.242 10.276  1.980 -0.466  0.016  CAI GTQ  9
+GTQ  CAJ  CAJ C 0 1 Y N N 53.570 -29.836 10.584 -0.213  1.241  0.013  CAJ GTQ 10
+GTQ  CAK  CAK C 0 1 Y N N 54.822 -29.659  9.985 -0.404 -0.148  0.015  CAK GTQ 11
+GTQ HOAA HOAA H 0 0 N N N 56.767 -32.288  9.816 -2.860 -2.363 -0.013 HOAA GTQ 12
+GTQ HOAC HOAC H 0 0 N N N 55.879 -25.997  9.720  3.377 -1.531 -0.861 HOAC GTQ 13
+GTQ HOAD HOAD H 0 0 N N N 53.595 -31.729 10.454 -1.591  2.316 -0.875 HOAD GTQ 14
+GTQ  HAE  HAE H 0 1 N N N 52.745 -26.594 11.194  3.162  1.321  0.021  HAE GTQ 15
+GTQ  HAF  HAF H 0 1 N N N 51.885 -28.874 11.465  1.223  2.829  0.015  HAF GTQ 16
+GTQ  HAG  HAG H 0 1 N N N 56.260 -28.182  9.359  0.565 -2.069 -0.004  HAG GTQ 17
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+GTQ CAH  OAA SING N N  1
+GTQ OAA HOAA SING N N  2
+GTQ OAB  CAH DOUB N N  3
+GTQ OAC  CAI SING N N  4
+GTQ OAC HOAC SING N N  5
+GTQ CAJ  OAD SING N N  6
+GTQ OAD HOAD SING N N  7
+GTQ CAI  CAE DOUB Y N  8
+GTQ CAE  CAF SING Y N  9
+GTQ CAE  HAE SING N N 10
+GTQ CAJ  CAF DOUB Y N 11
+GTQ CAF  HAF SING N N 12
+GTQ CAG  CAK DOUB Y N 13
+GTQ CAG  CAI SING Y N 14
+GTQ CAG  HAG SING N N 15
+GTQ CAH  CAK SING N N 16
+GTQ CAK  CAJ SING Y N 17
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+GTQ           SMILES              ACDLabs 11.02                                             O=C(O)c1cc(O)ccc1O
+GTQ SMILES_CANONICAL               CACTVS 3.352                                             OC(=O)c1cc(O)ccc1O
+GTQ           SMILES               CACTVS 3.352                                             OC(=O)c1cc(O)ccc1O
+GTQ SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                           c1cc(c(cc1O)C(=O)O)O
+GTQ           SMILES "OpenEye OEToolkits" 1.7.0                                           c1cc(c(cc1O)C(=O)O)O
+GTQ            InChI                InChI  1.03 InChI=1S/C7H6O4/c8-4-1-2-6(9)5(3-4)7(10)11/h1-3,8-9H,(H,10,11)
+GTQ         InChIKey                InChI  1.03                                    WXTMDXOMEHJXQO-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+GTQ "SYSTEMATIC NAME"              ACDLabs 11.02 "2,5-dihydroxybenzoic acid"
+GTQ "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 "2,5-dihydroxybenzoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+GTQ     "Create component" 2009-09-17 PDBJ ? ?
+GTQ "Modify aromatic_flag" 2011-06-04 RCSB ? ?
+GTQ    "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+GTQ OAA O 7.702  2.625  1
+GTQ OAB O 5.104  2.625  2
+GTQ OAC O 9.002 -2.625  3
+GTQ OAD O 3.805  0.375  4
+GTQ CAE C 6.404 -2.625  5
+GTQ CAF C 5.104 -1.875  6
+GTQ CAG C 7.702 -0.375  7
+GTQ CAH C 6.404  1.875  8
+GTQ CAI C 7.702 -1.875  9
+GTQ CAJ C 5.104 -0.375 10
+GTQ CAK C 6.404  0.375 11
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+GTQ CAH OAA SINGLE NONE  1
+GTQ OAB CAH DOUBLE NONE  2
+GTQ OAC CAI SINGLE NONE  3
+GTQ CAJ OAD SINGLE NONE  4
+GTQ CAI CAE DOUBLE NONE  5
+GTQ CAE CAF SINGLE NONE  6
+GTQ CAJ CAF DOUBLE NONE  7
+GTQ CAG CAK DOUBLE NONE  8
+GTQ CAG CAI SINGLE NONE  9
+GTQ CAH CAK SINGLE NONE 10
+GTQ CAK CAJ SINGLE NONE 11
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+GTQ MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+GTQ         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+GTQ CAE F1 1
+GTQ CAF F1 1
+GTQ CAJ F1 1
+GTQ CAK F1 1
+GTQ CAG F1 1
+GTQ CAI F1 1
+GTQ CAE S1 1
+GTQ CAF S1 1
+GTQ CAG S1 1
+GTQ CAI S1 1
+GTQ CAJ S1 1
+GTQ CAK S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               GTQ
+_pdbe_chem_comp_rdkit_properties.exactmw                               154.027
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             71.030
+_pdbe_chem_comp_rdkit_properties.tpsa                                  77.760
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.184
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             35.245
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+GTQ UniChem        ChEMBL       CHEMBL1461
+GTQ UniChem "KEGG LIGAND"           C00628
+GTQ UniChem         ChEBI            17189
+GTQ UniChem          ZINC ZINC000000001507
+GTQ UniChem    NMRShiftDB         10009263
+GTQ UniChem     BindingDb         50335808
+GTQ UniChem  MetaboLights       MTBLC17189
+GTQ UniChem        BRENDA             2065
+GTQ UniChem        BRENDA            21610
+GTQ UniChem        BRENDA             6417
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+GTQ  OAA -2.984 -0.688  0.490 ETKDGv2  1
+GTQ  OAB -2.340 -1.107 -1.664 ETKDGv2  2
+GTQ  OAC  2.851 -1.269 -0.888 ETKDGv2  3
+GTQ  OAD -1.414  1.886  0.941 ETKDGv2  4
+GTQ  CAE  2.006  0.553  0.354 ETKDGv2  5
+GTQ  CAF  0.876  1.364  0.847 ETKDGv2  6
+GTQ  CAG  0.388 -0.913 -0.734 ETKDGv2  7
+GTQ  CAH -2.029 -0.671 -0.523 ETKDGv2  8
+GTQ  CAI  1.778 -0.521 -0.411 ETKDGv2  9
+GTQ  CAJ -0.386  1.034  0.537 ETKDGv2 10
+GTQ  CAK -0.653 -0.200 -0.264 ETKDGv2 11
+GTQ HOAA -2.748 -0.444  1.444 ETKDGv2 12
+GTQ HOAC  2.704 -2.088 -1.466 ETKDGv2 13
+GTQ HOAD -2.369  1.773  0.629 ETKDGv2 14
+GTQ  HAE  3.019  0.844  0.600 ETKDGv2 15
+GTQ  HAF  1.079  2.256  1.426 ETKDGv2 16
+GTQ  HAG  0.221 -1.811 -1.318 ETKDGv2 17
+#

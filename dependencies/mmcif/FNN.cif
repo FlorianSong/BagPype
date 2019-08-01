@@ -1,0 +1,255 @@
+data_FNN
+#
+_chem_comp.id                                        FNN
+_chem_comp.name                                      3-fluoro-4-nitrophenol
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C6 H4 F N O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2011-08-24
+_chem_comp.pdbx_modified_date                        2012-08-17
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            157.099
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         FNN
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3VGN
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+FNN  F  F F  0 1 N N N 1.789 -11.895 -10.592  0.664  2.062  0.004  F FNN  1
+FNN  N  N N  1 1 N N N 2.890  -9.970 -12.377  2.024 -0.387 -0.005  N FNN  2
+FNN  O  O O  0 1 N N N 4.471 -15.175 -12.567 -3.574 -0.074  0.023  O FNN  3
+FNN C1 C1 C  0 1 Y N N 4.092 -13.906 -12.478 -2.217 -0.149  0.017 C1 FNN  4
+FNN O1 O1 O -1 1 N N N 3.713  -8.996 -12.965  2.573 -1.475 -0.008 O1 FNN  5
+FNN C2 C2 C  0 1 Y N N 3.137 -13.561 -11.537 -1.458  1.012  0.014 C2 FNN  6
+FNN O2 O2 O  0 1 N N N 1.720  -9.602 -11.810  2.691  0.632 -0.013 O2 FNN  7
+FNN C3 C3 C  0 1 Y N N 2.716 -12.231 -11.506 -0.077  0.933  0.007 C3 FNN  8
+FNN C4 C4 C  0 1 Y N N 3.258 -11.276 -12.392  0.546 -0.304  0.003 C4 FNN  9
+FNN C5 C5 C  0 1 Y N N 4.204 -11.662 -13.330 -0.211 -1.461  0.006 C5 FNN 10
+FNN C6 C6 C  0 1 Y N N 4.599 -12.977 -13.390 -1.590 -1.386  0.019 C6 FNN 11
+FNN HO HO H  0 1 N N N 5.126 -15.263 -13.250 -3.971 -0.052 -0.858 HO FNN 12
+FNN H2 H2 H  0 1 N N N 2.733 -14.293 -10.853 -1.945  1.976  0.016 H2 FNN 13
+FNN H5 H5 H  0 1 N N N 4.627 -10.935 -14.008  0.277 -2.424  0.003 H5 FNN 14
+FNN H6 H6 H  0 1 N N N 5.304 -13.293 -14.145 -2.180 -2.291  0.025 H6 FNN 15
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+FNN  F C3 SING N N  1
+FNN  N O1 SING N N  2
+FNN  N O2 DOUB N N  3
+FNN  N C4 SING N N  4
+FNN  O C1 SING N N  5
+FNN C1 C2 DOUB Y N  6
+FNN C1 C6 SING Y N  7
+FNN C2 C3 SING Y N  8
+FNN C3 C4 DOUB Y N  9
+FNN C4 C5 SING Y N 10
+FNN C5 C6 DOUB Y N 11
+FNN  O HO SING N N 12
+FNN C2 H2 SING N N 13
+FNN C5 H5 SING N N 14
+FNN C6 H6 SING N N 15
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+FNN           SMILES              ACDLabs 12.01                           Fc1c([N+]([O-])=O)ccc(O)c1
+FNN            InChI                InChI  1.03 InChI=1S/C6H4FNO3/c7-5-3-4(9)1-2-6(5)8(10)11/h1-3,9H
+FNN         InChIKey                InChI  1.03                          CSSGKHVRDGATJL-UHFFFAOYSA-N
+FNN SMILES_CANONICAL               CACTVS 3.370                           Oc1ccc(c(F)c1)[N+]([O-])=O
+FNN           SMILES               CACTVS 3.370                           Oc1ccc(c(F)c1)[N+]([O-])=O
+FNN SMILES_CANONICAL "OpenEye OEToolkits" 1.7.2                           c1cc(c(cc1O)F)[N+](=O)[O-]
+FNN           SMILES "OpenEye OEToolkits" 1.7.2                           c1cc(c(cc1O)F)[N+](=O)[O-]
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+FNN "SYSTEMATIC NAME"              ACDLabs 12.01     3-fluoro-4-nitrophenol
+FNN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.2 3-fluoranyl-4-nitro-phenol
+#
+_pdbx_chem_comp_audit.comp_id               FNN
+_pdbx_chem_comp_audit.action_type           "Create component"
+_pdbx_chem_comp_audit.date                  2011-08-24
+_pdbx_chem_comp_audit.processing_site       PDBJ
+_pdbx_chem_comp_audit.annotator             RI
+_pdbx_chem_comp_audit.details               ?
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+FNN  F F 3.000  1.357  1
+FNN  N N 5.598  2.857  2
+FNN  O O 5.598 -3.143  3
+FNN C1 C 5.598 -1.643  4
+FNN O1 O 6.897  3.607  5
+FNN C2 C 4.299 -0.892  6
+FNN O2 O 4.299  3.607  7
+FNN C3 C 4.299  0.608  8
+FNN C4 C 5.598  1.357  9
+FNN C5 C 6.897  0.608 10
+FNN C6 C 6.897 -0.892 11
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+FNN  F C3 SINGLE NONE  1
+FNN  N O1 SINGLE NONE  2
+FNN  N O2 DOUBLE NONE  3
+FNN  N C4 SINGLE NONE  4
+FNN  O C1 SINGLE NONE  5
+FNN C1 C2 DOUBLE NONE  6
+FNN C1 C6 SINGLE NONE  7
+FNN C2 C3 SINGLE NONE  8
+FNN C3 C4 DOUBLE NONE  9
+FNN C4 C5 SINGLE NONE 10
+FNN C5 C6 DOUBLE NONE 11
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+FNN MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+FNN         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+FNN C1 F1 1
+FNN C2 F1 1
+FNN C3 F1 1
+FNN C4 F1 1
+FNN C5 F1 1
+FNN C6 F1 1
+FNN C1 S1 1
+FNN C2 S1 1
+FNN C3 S1 1
+FNN C4 S1 1
+FNN C5 S1 1
+FNN C6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               FNN
+_pdbe_chem_comp_rdkit_properties.exactmw                               157.018
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             66.751
+_pdbe_chem_comp_rdkit_properties.tpsa                                  63.370
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.596
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             33.285
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+FNN UniChem       ZINC ZINC000036047178
+FNN UniChem       ZINC     ZINC36047178
+FNN UniChem NMRShiftDB         20045307
+FNN UniChem     BRENDA             9656
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+FNN  F -1.378  2.314  0.008 ETKDGv2  1
+FNN  N -2.599 -0.233  0.074 ETKDGv2  2
+FNN  O  3.034  0.434 -0.088 ETKDGv2  3
+FNN C1  1.651  0.272 -0.048 ETKDGv2  4
+FNN O1 -3.123 -1.505  0.104 ETKDGv2  5
+FNN C2  0.855  1.348 -0.040 ETKDGv2  6
+FNN O2 -3.385  0.737  0.083 ETKDGv2  7
+FNN C3 -0.615  1.192  0.002 ETKDGv2  8
+FNN C4 -1.170 -0.042  0.032 ETKDGv2  9
+FNN C5 -0.274 -1.229  0.023 ETKDGv2 10
+FNN C6  1.056 -1.080 -0.015 ETKDGv2 11
+FNN HO  3.655 -0.366 -0.095 ETKDGv2 12
+FNN H2  1.285  2.341 -0.064 ETKDGv2 13
+FNN H5 -0.690 -2.228  0.047 ETKDGv2 14
+FNN H6  1.696 -1.953 -0.022 ETKDGv2 15
+#

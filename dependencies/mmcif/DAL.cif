@@ -1,0 +1,283 @@
+data_DAL
+#
+_chem_comp.id                                        DAL
+_chem_comp.name                                      D-ALANINE
+_chem_comp.type                                      "D-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C3 H7 N O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            89.093
+_chem_comp.one_letter_code                           A
+_chem_comp.three_letter_code                         DAL
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+DAL   N   N N 0 1 N N N 17.005 31.325 27.552 -1.564 -0.992  0.101   N DAL  1
+DAL  CA  CA C 0 1 N N R 17.495 30.650 26.346 -0.724  0.176  0.402  CA DAL  2
+DAL  CB  CB C 0 1 N N N 16.859 31.287 25.124 -1.205  1.374 -0.420  CB DAL  3
+DAL   C   C C 0 1 N N N 17.165 29.151 26.377  0.709 -0.132  0.051   C DAL  4
+DAL   O   O O 0 1 N N N 16.244 28.758 27.139  1.001 -1.213 -0.403   O DAL  5
+DAL OXT OXT O 0 1 N Y N 17.840 28.394 25.631  1.660  0.795  0.243 OXT DAL  6
+DAL   H   H H 0 1 N N N 16.893 30.656 28.287 -1.281 -1.723  0.736   H DAL  7
+DAL  H2 HN2 H 0 1 N Y N 17.663 32.023 27.834 -2.509 -0.741  0.351  H2 DAL  8
+DAL  HA  HA H 0 1 N N N 18.589 30.759 26.304 -0.796  0.411  1.464  HA DAL  9
+DAL HB1 1HB H 0 1 N N N 16.705 32.361 25.308 -1.133  1.139 -1.481 HB1 DAL 10
+DAL HB2 2HB H 0 1 N N N 17.521 31.155 24.255 -2.241  1.597 -0.166 HB2 DAL 11
+DAL HB3 3HB H 0 1 N N N 15.890 30.807 24.923 -0.582  2.240 -0.197 HB3 DAL 12
+DAL HXT HXT H 0 1 N Y N 17.544 27.498 25.738  2.580  0.598  0.018 HXT DAL 13
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+DAL   N  CA SING N N  1
+DAL   N   H SING N N  2
+DAL   N  H2 SING N N  3
+DAL  CA  CB SING N N  4
+DAL  CA   C SING N N  5
+DAL  CA  HA SING N N  6
+DAL  CB HB1 SING N N  7
+DAL  CB HB2 SING N N  8
+DAL  CB HB3 SING N N  9
+DAL   C   O DOUB N N 10
+DAL   C OXT SING N N 11
+DAL OXT HXT SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+DAL           SMILES              ACDLabs 10.04                                                 O=C(O)C(N)C
+DAL SMILES_CANONICAL               CACTVS 3.341                                            C[C@@H](N)C(O)=O
+DAL           SMILES               CACTVS 3.341                                              C[CH](N)C(O)=O
+DAL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                             C[C@H](C(=O)O)N
+DAL           SMILES "OpenEye OEToolkits" 1.5.0                                                 CC(C(=O)O)N
+DAL            InChI                InChI  1.03 InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m1/s1
+DAL         InChIKey                InChI  1.03                                 QNAYBMKLOCPYGJ-UWTATZPHSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+DAL "SYSTEMATIC NAME"              ACDLabs 10.04                    D-alanine
+DAL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-aminopropanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+DAL  "Create component" 1999-07-08 RCSB ? ?
+DAL "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   DAL
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB01786
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      D-Alanine
+_pdbe_chem_comp_drugbank_details.description               "The D-enantiomer of alanine."
+_pdbe_chem_comp_drugbank_details.cas_number                338-69-2
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           DAL
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01786
+_pdbe_chem_comp_drugbank_classification.parent            "Alanine and derivatives"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alanine and derivatives. These are compounds containing alanine or a derivative thereof resulting from reaction of alanine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+DAL DB01786                           Thermolysin "Geobacillus stearothermophilus" P43133 unknown 1
+DAL DB01786 "D-alanyl-D-alanine carboxypeptidase"  "Streptomyces sp. (strain R61)" P15555 unknown 2
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+DAL                    D-Alanine   ChEMBL
+DAL "(2R)-2-aminopropanoic acid" DrugBank
+DAL  "(R)-2-aminopropanoic acid" DrugBank
+DAL                  (R)-alanine DrugBank
+DAL    "D-2-Aminopropionic acid" DrugBank
+DAL                        D-Ala DrugBank
+DAL                  D-α-alanine DrugBank
+DAL    "D-α-aminopropionic acid" DrugBank
+DAL                          DAL DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+DAL   N N 7.702 -0.375 1
+DAL  CA C 6.404  0.375 2
+DAL  CB C 6.404  1.875 3
+DAL   C C 5.104 -0.375 4
+DAL   O O 3.805  0.375 5
+DAL OXT O 5.104 -1.875 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+DAL  N  CA SINGLE      NONE 1
+DAL CA  CB SINGLE BEGINDASH 2
+DAL CA   C SINGLE      NONE 3
+DAL  C   O DOUBLE      NONE 4
+DAL  C OXT SINGLE      NONE 5
+#
+_pdbe_chem_comp_substructure.comp_id                      DAL
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+DAL  O F1 1
+DAL  C F1 1
+DAL CA F1 1
+DAL  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               DAL
+_pdbe_chem_comp_rdkit_properties.exactmw                               89.048
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             45.802
+_pdbe_chem_comp_rdkit_properties.tpsa                                  63.320
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.582
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             21.285
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+DAL UniChem        ChEMBL      CHEMBL66693
+DAL UniChem      DrugBank          DB01786
+DAL UniChem "KEGG LIGAND"           C00133
+DAL UniChem         ChEBI            15570
+DAL UniChem         ChEBI            57416
+DAL UniChem          ZINC ZINC000004658556
+DAL UniChem          ZINC     ZINC04658556
+DAL UniChem     BindingDb         50000109
+DAL UniChem  MetaboLights       MTBLC15570
+DAL UniChem  MetaboLights       MTBLC57416
+DAL UniChem        BRENDA           149163
+DAL UniChem        BRENDA              164
+DAL UniChem        BRENDA              291
+DAL UniChem        BRENDA            93022
+DAL UniChem          Rhea            57416
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+DAL   N -0.790  1.088 -1.082 ETKDGv2  1
+DAL  CA -0.386  0.354  0.121 ETKDGv2  2
+DAL  CB -1.026 -1.035  0.117 ETKDGv2  3
+DAL   C  1.115  0.242  0.243 ETKDGv2  4
+DAL   O  1.875  0.670 -0.668 ETKDGv2  5
+DAL OXT  1.667 -0.335  1.383 ETKDGv2  6
+DAL   H -0.396  2.056 -1.035 ETKDGv2  7
+DAL  H2 -0.392  0.621 -1.930 ETKDGv2  8
+DAL  HA -0.763  0.905  1.010 ETKDGv2  9
+DAL HB1 -2.130 -0.942  0.032 ETKDGv2 10
+DAL HB2 -0.651 -1.635 -0.741 ETKDGv2 11
+DAL HB3 -0.794 -1.571  1.062 ETKDGv2 12
+DAL HXT  2.671 -0.419  1.489 ETKDGv2 13
+#

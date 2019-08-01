@@ -1,0 +1,261 @@
+data_FTE
+#
+_chem_comp.id                                        FTE
+_chem_comp.name                                      phenylisothiocyanate
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C7 H5 N S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             isothiocyanatobenzene
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2011-02-01
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            135.186
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         FTE
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3Q9K
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+FTE  C1  C1 C 0 1 Y N N  2.075 5.603 29.628  1.642 -1.281 -0.000  C1 FTE  1
+FTE  C2  C2 C 0 1 Y N N  2.774 4.546 30.199  0.439 -0.529  0.000  C2 FTE  2
+FTE  C3  C3 C 0 1 Y N N  2.167 3.752 31.165  0.506  0.888  0.000  C3 FTE  3
+FTE  C4  C4 C 0 1 Y N N  0.860 4.015 31.560  1.722  1.506  0.000  C4 FTE  4
+FTE  C5  C5 C 0 1 Y N N  0.161 5.072 30.989  2.891  0.755 -0.000  C5 FTE  5
+FTE  C6  C6 C 0 1 Y N N  0.768 5.866 30.023  2.842 -0.633 -0.000  C6 FTE  6
+FTE N13 N13 N 0 1 N N N  4.090 4.281 29.801 -0.735 -1.143 -0.000 N13 FTE  7
+FTE C15 C15 C 0 1 N N N  4.316 3.429 28.901 -1.791 -0.474 -0.000 C15 FTE  8
+FTE S17 S17 S 0 1 N N N  5.905 3.109 28.420 -3.103  0.358  0.000 S17 FTE  9
+FTE  H1  H1 H 0 1 N N N  2.547 6.220 28.878  1.607 -2.360  0.004  H1 FTE 10
+FTE  H3  H3 H 0 1 N N N  2.710 2.931 31.609 -0.401  1.474  0.000  H3 FTE 11
+FTE  H4  H4 H 0 1 N N N  0.388 3.398 32.310  1.776  2.584  0.000  H4 FTE 12
+FTE  H5  H5 H 0 1 N N N -0.854 5.276 31.296  3.847  1.256 -0.001  H5 FTE 13
+FTE  H6  H6 H 0 1 N N N  0.225 6.687 29.579  3.759 -1.203  0.000  H6 FTE 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+FTE  C1  C2 DOUB Y N  1
+FTE  C1  C6 SING Y N  2
+FTE  C2  C3 SING Y N  3
+FTE  C2 N13 SING N N  4
+FTE  C3  C4 DOUB Y N  5
+FTE  C4  C5 SING Y N  6
+FTE  C5  C6 DOUB Y N  7
+FTE N13 C15 DOUB N N  8
+FTE C15 S17 DOUB N N  9
+FTE  C1  H1 SING N N 10
+FTE  C3  H3 SING N N 11
+FTE  C4  H4 SING N N 12
+FTE  C5  H5 SING N N 13
+FTE  C6  H6 SING N N 14
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+FTE           SMILES              ACDLabs 12.01                             S=C=N\c1ccccc1
+FTE SMILES_CANONICAL               CACTVS 3.370                              S=C=Nc1ccccc1
+FTE           SMILES               CACTVS 3.370                              S=C=Nc1ccccc1
+FTE SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                            c1ccc(cc1)N=C=S
+FTE           SMILES "OpenEye OEToolkits" 1.7.0                            c1ccc(cc1)N=C=S
+FTE            InChI                InChI  1.03 InChI=1S/C7H5NS/c9-6-8-7-4-2-1-3-5-7/h1-5H
+FTE         InChIKey                InChI  1.03                QKFJKGMPGYROCL-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+FTE "SYSTEMATIC NAME"              ACDLabs 12.01 isothiocyanatobenzene
+FTE "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 isothiocyanatobenzene
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+FTE     "Create component" 2011-02-01 PDBJ ? ?
+FTE "Modify aromatic_flag" 2011-06-04 RCSB ? ?
+FTE    "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+FTE   Isothiocyanatobenzene ChEMBL
+FTE "Phenyl Isothiocyanate" ChEMBL
+FTE  Isothiocyanato-Benzene ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+FTE  C1 C 3.000 -0.750 1
+FTE  C2 C 4.299  0.000 2
+FTE  C3 C 5.598 -0.750 3
+FTE  C4 C 5.598 -2.250 4
+FTE  C5 C 4.299 -3.000 5
+FTE  C6 C 3.000 -2.250 6
+FTE N13 N 4.299  1.500 7
+FTE C15 C 5.598  2.250 8
+FTE S17 S 6.897  3.000 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+FTE  C1  C2 DOUBLE NONE 1
+FTE  C1  C6 SINGLE NONE 2
+FTE  C2  C3 SINGLE NONE 3
+FTE  C2 N13 SINGLE NONE 4
+FTE  C3  C4 DOUBLE NONE 5
+FTE  C4  C5 SINGLE NONE 6
+FTE  C5  C6 DOUBLE NONE 7
+FTE N13 C15 DOUBLE NONE 8
+FTE C15 S17 DOUBLE NONE 9
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+FTE MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+FTE         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+FTE C1 F1 1
+FTE C2 F1 1
+FTE C3 F1 1
+FTE C4 F1 1
+FTE C5 F1 1
+FTE C6 F1 1
+FTE C1 S1 1
+FTE C2 S1 1
+FTE C3 S1 1
+FTE C4 S1 1
+FTE C5 S1 1
+FTE C6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               FTE
+_pdbe_chem_comp_rdkit_properties.exactmw                               135.014
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             66.075
+_pdbe_chem_comp_rdkit_properties.tpsa                                  12.360
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.040
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             40.304
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+FTE UniChem     ChEMBL     CHEMBL309036
+FTE UniChem      ChEBI            85103
+FTE UniChem       ZINC ZINC000000164500
+FTE UniChem       ZINC     ZINC00164500
+FTE UniChem NMRShiftDB            20002
+FTE UniChem  BindingDb         50073665
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+FTE  C1 -0.323 -1.279 -0.566 ETKDGv2  1
+FTE  C2  0.639 -0.348 -0.465 ETKDGv2  2
+FTE  C3  0.373  0.887  0.328 ETKDGv2  3
+FTE  C4 -0.810  1.059  0.930 ETKDGv2  4
+FTE  C5 -1.859  0.027  0.811 ETKDGv2  5
+FTE  C6 -1.628 -1.084  0.101 ETKDGv2  6
+FTE N13  1.893 -0.571 -1.124 ETKDGv2  7
+FTE C15  2.861  0.255 -1.084 ETKDGv2  8
+FTE S17  4.086  1.299 -1.034 ETKDGv2  9
+FTE  H1 -0.151 -2.183 -1.137 ETKDGv2 10
+FTE  H3  1.132  1.653  0.425 ETKDGv2 11
+FTE  H4 -1.002  1.956  1.505 ETKDGv2 12
+FTE  H5 -2.815  0.171  1.299 ETKDGv2 13
+FTE  H6 -2.396 -1.841  0.012 ETKDGv2 14
+#

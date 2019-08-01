@@ -1,0 +1,268 @@
+data_C2B
+#
+_chem_comp.id                                        C2B
+_chem_comp.name                                      1-(4-CHLOROPHENYL)METHANAMINE
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C7 H8 Cl N"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2007-06-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       ?
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            141.598
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         C2B
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            "Corina V3.40"
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+C2B   N1   N1  N 0 1 N N N 20.321 14.144 30.597  3.593  0.005 -0.852   N1 C2B  1
+C2B   CB   CB  C 0 1 N N N 21.753 14.246 30.278  2.958  0.026  0.473   CB C2B  2
+C2B   CG   CG  C 0 1 Y N N 22.232 15.369 29.433  1.460  0.017  0.311   CG C2B  3
+C2B  CD1  CD1  C 0 1 Y N N 22.870 16.473 30.000  0.778 -1.184  0.258  CD1 C2B  4
+C2B  CE1  CE1  C 0 1 Y N N 23.298 17.549 29.222 -0.597 -1.193  0.110  CE1 C2B  5
+C2B   CZ   CZ  C 0 1 Y N N 23.073 17.581 27.856 -1.289  0.001  0.015   CZ C2B  6
+C2B  CE2  CE2  C 0 1 Y N N 22.442 16.548 27.212 -0.606  1.202  0.068  CE2 C2B  7
+C2B  CD2  CD2  C 0 1 Y N N 21.967 15.348 28.078  0.767  1.210  0.221  CD2 C2B  8
+C2B   CL   CL CL 0 0 N N N 23.559 18.946 26.982 -3.015 -0.009 -0.172   CL C2B  9
+C2B HN11 1HN1  H 0 0 N N N 20.201 14.121 31.589  4.599  0.010 -0.770 HN11 C2B 10
+C2B HN12 2HN1  H 0 0 N N N 19.839 14.935 30.221  3.279 -0.788 -1.391 HN12 C2B 11
+C2B  HB1  1HB  H 0 1 N N N 22.278 14.338 31.240  3.268 -0.853  1.038  HB1 C2B 12
+C2B  HB2  2HB  H 0 1 N N N 21.955 13.351 29.671  3.260  0.927  1.007  HB2 C2B 13
+C2B  HD1  HD1  H 0 1 N N N 23.036 16.495 31.067  1.319 -2.116  0.332  HD1 C2B 14
+C2B  HE1  HE1  H 0 1 N N N 23.814 18.372 29.694 -1.129 -2.132  0.068  HE1 C2B 15
+C2B  HE2  HE2  H 0 1 N N N 22.281 16.567 26.144 -1.146  2.135 -0.007  HE2 C2B 16
+C2B  HD2  HD2  H 0 1 N N N 21.442 14.517 27.630  1.300  2.148  0.267  HD2 C2B 17
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+C2B  N1   CB SING N N  1
+C2B  N1 HN11 SING N N  2
+C2B  N1 HN12 SING N N  3
+C2B  CB   CG SING N N  4
+C2B  CB  HB1 SING N N  5
+C2B  CB  HB2 SING N N  6
+C2B  CG  CD1 DOUB Y N  7
+C2B  CG  CD2 SING Y N  8
+C2B CD1  CE1 SING Y N  9
+C2B CD1  HD1 SING N N 10
+C2B CE1   CZ DOUB Y N 11
+C2B CE1  HE1 SING N N 12
+C2B  CZ  CE2 SING Y N 13
+C2B  CZ   CL SING N N 14
+C2B CE2  CD2 DOUB Y N 15
+C2B CE2  HE2 SING N N 16
+C2B CD2  HD2 SING N N 17
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+C2B           SMILES              ACDLabs 10.04                                    Clc1ccc(cc1)CN
+C2B SMILES_CANONICAL               CACTVS 3.341                                    NCc1ccc(Cl)cc1
+C2B           SMILES               CACTVS 3.341                                    NCc1ccc(Cl)cc1
+C2B SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                    c1cc(ccc1CN)Cl
+C2B           SMILES "OpenEye OEToolkits" 1.5.0                                    c1cc(ccc1CN)Cl
+C2B            InChI                InChI  1.03 InChI=1S/C7H8ClN/c8-7-3-1-6(5-9)2-4-7/h1-4H,5,9H2
+C2B         InChIKey                InChI  1.03                       YMVFJGSXZNNUDW-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+C2B "SYSTEMATIC NAME"              ACDLabs 10.04 1-(4-chlorophenyl)methanamine
+C2B "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0   (4-chlorophenyl)methanamine
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+C2B  "Create component" 2007-06-08 RCSB ? ?
+C2B "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+C2B 4-Chloro-Benzylamine ChEMBL
+C2B  4-Chlorobenzylamine ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+C2B  N1  N 5.598  2.910 1
+C2B  CB  C 4.299  2.160 2
+C2B  CG  C 4.299  0.660 3
+C2B CD1  C 3.000 -0.090 4
+C2B CE1  C 3.000 -1.590 5
+C2B  CZ  C 4.299 -2.340 6
+C2B CE2  C 5.598 -1.590 7
+C2B CD2  C 5.598 -0.090 8
+C2B  CL Cl 4.299 -3.840 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+C2B  N1  CB SINGLE NONE 1
+C2B  CB  CG SINGLE NONE 2
+C2B  CG CD1 DOUBLE NONE 3
+C2B  CG CD2 SINGLE NONE 4
+C2B CD1 CE1 SINGLE NONE 5
+C2B CE1  CZ DOUBLE NONE 6
+C2B  CZ CE2 SINGLE NONE 7
+C2B  CZ  CL SINGLE NONE 8
+C2B CE2 CD2 DOUBLE NONE 9
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+C2B MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+C2B         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+C2B  CG F1 1
+C2B CD1 F1 1
+C2B CE1 F1 1
+C2B  CZ F1 1
+C2B CE2 F1 1
+C2B CD2 F1 1
+C2B  CG S1 1
+C2B CD1 S1 1
+C2B CE1 S1 1
+C2B  CZ S1 1
+C2B CE2 S1 1
+C2B CD2 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               C2B
+_pdbe_chem_comp_rdkit_properties.exactmw                               141.035
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                1
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.143
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             70.795
+_pdbe_chem_comp_rdkit_properties.tpsa                                  26.020
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.744
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             39.077
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+C2B UniChem     ChEMBL      CHEMBL13218
+C2B UniChem       ZINC ZINC000000157594
+C2B UniChem NMRShiftDB         20032751
+C2B UniChem  BindingDb         50325562
+C2B UniChem     BRENDA            10325
+C2B UniChem     BRENDA            45798
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+C2B   N1  2.700  0.302  0.518 ETKDGv2  1
+C2B   CB  1.887 -0.552 -0.346 ETKDGv2  2
+C2B   CG  0.418 -0.236 -0.208 ETKDGv2  3
+C2B  CD1 -0.084  0.919 -0.682 ETKDGv2  4
+C2B  CE1 -1.525  1.218 -0.548 ETKDGv2  5
+C2B   CZ -2.342  0.336  0.043 ETKDGv2  6
+C2B  CE2 -1.800 -0.937  0.562 ETKDGv2  7
+C2B  CD2 -0.494 -1.210  0.443 ETKDGv2  8
+C2B   CL -4.053  0.686  0.204 ETKDGv2  9
+C2B HN11  2.579  1.299  0.229 ETKDGv2 10
+C2B HN12  2.356  0.211  1.502 ETKDGv2 11
+C2B  HB1  2.079 -1.613 -0.078 ETKDGv2 12
+C2B  HB2  2.201 -0.419 -1.404 ETKDGv2 13
+C2B  HD1  0.558  1.641 -1.171 ETKDGv2 14
+C2B  HE1 -1.913  2.153 -0.932 ETKDGv2 15
+C2B  HE2 -2.460 -1.651  1.039 ETKDGv2 16
+C2B  HD2 -0.107 -2.145  0.828 ETKDGv2 17
+#

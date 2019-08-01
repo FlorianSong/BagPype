@@ -1,0 +1,305 @@
+data_OCS
+#
+_chem_comp.id                                        OCS
+_chem_comp.name                                      "CYSTEINESULFONIC ACID"
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C3 H7 N O5 S"
+_chem_comp.mon_nstd_parent_comp_id                   CYS
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2014-10-29
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            169.156
+_chem_comp.one_letter_code                           C
+_chem_comp.three_letter_code                         OCS
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+OCS   N   N N 0 1 N N N 72.420 97.773 16.506 -0.868  1.606 -0.475   N OCS  1
+OCS  CA  CA C 0 1 N N R 71.014 97.756 16.023 -1.045  0.148 -0.434  CA OCS  2
+OCS  CB  CB C 0 1 N N N 70.790 96.880 14.808 -0.032 -0.461  0.537  CB OCS  3
+OCS  SG  SG S 0 1 N N N 72.006 97.093 13.487  1.650 -0.072 -0.021  SG OCS  4
+OCS   C   C C 0 1 N N N 70.059 97.164 17.051 -2.442 -0.175  0.030   C OCS  5
+OCS   O   O O 0 1 N N N 70.373 96.132 17.621 -3.085  0.651  0.632   O OCS  6
+OCS OXT OXT O 0 1 N Y N 68.900 97.791 17.229 -2.972 -1.382 -0.227 OXT OCS  7
+OCS OD1 OD1 O 0 1 N N N 72.524 98.472 13.601  1.911  1.318  0.113 OD1 OCS  8
+OCS OD2 OD2 O 0 1 N Y N 73.029 96.016 13.662  2.554 -0.725  1.014 OD2 OCS  9
+OCS OD3 OD3 O 0 1 N N N 71.390 96.830 12.151  1.946 -0.760 -1.229 OD3 OCS 10
+OCS   H HN1 H 0 1 N N N 72.491 98.369 17.306 -1.482  2.025 -1.157   H OCS 11
+OCS HN2 HN2 H 0 1 N Y N 72.698 96.845 16.756 -1.009  2.013  0.437 HN2 OCS 12
+OCS  HA  HA H 0 1 N N N 70.695 98.782 15.789 -0.888 -0.265 -1.430  HA OCS 13
+OCS HB2 HB1 H 0 1 N N N 70.818 95.830 15.133 -0.189 -0.048  1.533 HB2 OCS 14
+OCS HB3 HB2 H 0 1 N N N 69.795 97.110 14.398 -0.163 -1.543  0.567 HB3 OCS 15
+OCS HXT HXT H 0 1 N Y N 68.373 97.312 17.858 -3.871 -1.543  0.090 HXT OCS 16
+OCS HD2 HD2 H 0 1 N Y N 73.028 95.451 12.898  3.499 -0.600  0.846 HD2 OCS 17
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+OCS   N  CA SING N N  1
+OCS   N   H SING N N  2
+OCS   N HN2 SING N N  3
+OCS  CA  CB SING N N  4
+OCS  CA   C SING N N  5
+OCS  CA  HA SING N N  6
+OCS  CB  SG SING N N  7
+OCS  CB HB2 SING N N  8
+OCS  CB HB3 SING N N  9
+OCS  SG OD1 DOUB N N 10
+OCS  SG OD2 SING N N 11
+OCS  SG OD3 DOUB N N 12
+OCS   C   O DOUB N N 13
+OCS   C OXT SING N N 14
+OCS OXT HXT SING N N 15
+OCS OD2 HD2 SING N N 16
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+OCS           SMILES              ACDLabs 12.01                                                        O=S(=O)(O)CC(C(=O)O)N
+OCS            InChI                InChI  1.03 InChI=1S/C3H7NO5S/c4-2(3(5)6)1-10(7,8)9/h2H,1,4H2,(H,5,6)(H,7,8,9)/t2-/m0/s1
+OCS         InChIKey                InChI  1.03                                                  XVOYSCVBGLVSOL-REOHCLBHSA-N
+OCS SMILES_CANONICAL               CACTVS 3.385                                                 N[C@@H](C[S](O)(=O)=O)C(O)=O
+OCS           SMILES               CACTVS 3.385                                                   N[CH](C[S](O)(=O)=O)C(O)=O
+OCS SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                 C([C@@H](C(=O)O)N)S(=O)(=O)O
+OCS           SMILES "OpenEye OEToolkits" 1.7.6                                                      C(C(C(=O)O)N)S(=O)(=O)O
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+OCS "SYSTEMATIC NAME"              ACDLabs 12.01                      3-sulfo-L-alanine
+OCS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2R)-2-azanyl-3-sulfo-propanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+OCS         "Create component" 1999-07-08 PDBJ  ? ?
+OCS        "Modify descriptor" 2011-06-04 RCSB  ? ?
+OCS "Modify leaving atom flag" 2014-10-29 RCSB CS ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   OCS
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB03661
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Cysteinesulfonic Acid"
+_pdbe_chem_comp_drugbank_details.description               "Beta-Sulfoalanine. An amino acid with a C-terminal sulfonic acid group which has been isolated from human hair oxidized with permanganate. It occurs normally in the outer part of the sheep&#39;s fleece, where the wool is exposed to light and weather. [PubChem]"
+_pdbe_chem_comp_drugbank_details.cas_number                .
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           OCS
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03661
+_pdbe_chem_comp_drugbank_classification.parent            "L-alpha-amino acids"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as l-alpha-amino acids. These are alpha amino acids which have the L-configuration of the alpha-carbon atom."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+OCS DB03661                                  "Beta-lactamase VIM-2"                                                "Pseudomonas aeruginosa" Q9K2N0 unknown  1
+OCS DB03661                        "Ribose 5-phosphate isomerase B" "Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)" Q9X0G9 unknown  2
+OCS DB03661                                          "Cathepsin L1"                                                                  Humans P07711 unknown  3
+OCS DB03661                         "Methylaspartate ammonia-lyase"                                             "Clostridium tetanomorphum" Q05514 unknown  4
+OCS DB03661                                   "1-cys peroxiredoxin"                                   "Plasmodium falciparum (isolate 3D7)" Q5MYR6 unknown  5
+OCS DB03661                                   "Peptide deformylase"                                                  "Thermus thermophilus" P43522 unknown  6
+OCS DB03661 "Golgi-associated plant pathogenesis-related protein 1"                                                                  Humans Q9H4G4 unknown  7
+OCS DB03661                               "Uncharacterized protein" "Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)" Q9X0P2 unknown  8
+OCS DB03661                                   "Peptide deformylase" "Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)" P96113 unknown  9
+OCS DB03661           "3-oxoacyl-[acyl-carrier-protein] synthase 3"                                         "Escherichia coli (strain K12)" P0A6R0 unknown 10
+OCS DB03661      "Tyrosine-protein phosphatase non-receptor type 1"                                                                  Humans P18031 unknown 11
+OCS DB03661                                    "Penicillin acylase"                                             "Lysinibacillus sphaericus" P12256 unknown 12
+OCS DB03661                           "S-ribosylhomocysteine lyase"                                        "Bacillus subtilis (strain 168)" O34667 unknown 13
+OCS DB03661                  "Deoxynucleotide monophosphate kinase"                                               "Enterobacteria phage T4" P04531 unknown 14
+OCS DB03661                         "M-phase inducer phosphatase 2"                                                                  Humans P30305 unknown 15
+#
+_pdbx_chem_comp_synonyms.comp_id          OCS
+_pdbx_chem_comp_synonyms.name             "Cysteinesulfonic acid"
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+OCS   N N  7.702 -1.643  1
+OCS  CA C  7.702 -0.142  2
+OCS  CB C  6.404  0.608  3
+OCS  SG S  5.104 -0.142  4
+OCS   C C  9.002  0.608  5
+OCS   O O 10.301 -0.142  6
+OCS OXT O  9.002  2.107  7
+OCS OD1 O  3.805 -0.892  8
+OCS OD2 O  4.354  1.157  9
+OCS OD3 O  5.854 -1.442 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+OCS  N  CA SINGLE BEGINWEDGE 1
+OCS CA  CB SINGLE       NONE 2
+OCS CA   C SINGLE       NONE 3
+OCS CB  SG SINGLE       NONE 4
+OCS SG OD1 DOUBLE       NONE 5
+OCS SG OD2 SINGLE       NONE 6
+OCS SG OD3 DOUBLE       NONE 7
+OCS  C   O DOUBLE       NONE 8
+OCS  C OXT SINGLE       NONE 9
+#
+_pdbe_chem_comp_substructure.comp_id                      OCS
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+OCS  O F1 1
+OCS  C F1 1
+OCS CA F1 1
+OCS  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               OCS
+_pdbe_chem_comp_rdkit_properties.exactmw                               169.004
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                6
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             67.518
+_pdbe_chem_comp_rdkit_properties.tpsa                                  117.690
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.714
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             32.027
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+OCS UniChem        ChEMBL    CHEMBL1234939
+OCS UniChem      DrugBank          DB03661
+OCS UniChem "KEGG LIGAND"           C00506
+OCS UniChem         ChEBI            17285
+OCS UniChem          ZINC ZINC000004228276
+OCS UniChem  MetaboLights       MTBLC17285
+OCS UniChem        BRENDA            11261
+OCS UniChem        BRENDA            20206
+OCS UniChem        BRENDA             3821
+OCS UniChem        BRENDA             4827
+OCS UniChem        BRENDA             8078
+OCS UniChem        BRENDA            96313
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+OCS   N -1.642  1.555 -0.255 ETKDGv2  1
+OCS  CA -0.762  0.385 -0.301 ETKDGv2  2
+OCS  CB  0.618  0.749  0.273 ETKDGv2  3
+OCS  SG  1.833 -0.537 -0.004 ETKDGv2  4
+OCS   C -1.384 -0.773  0.437 ETKDGv2  5
+OCS   O -1.639 -0.683  1.669 ETKDGv2  6
+OCS OXT -1.678 -1.949 -0.247 ETKDGv2  7
+OCS OD1  1.483 -1.753  0.805 ETKDGv2  8
+OCS OD2  3.346  0.018  0.474 ETKDGv2  9
+OCS OD3  1.876 -0.906 -1.461 ETKDGv2 10
+OCS   H -2.558  1.305 -0.694 ETKDGv2 11
+OCS HN2 -1.831  1.813  0.742 ETKDGv2 12
+OCS  HA -0.631  0.099 -1.368 ETKDGv2 13
+OCS HB2  0.546  0.953  1.363 ETKDGv2 14
+OCS HB3  0.984  1.675 -0.222 ETKDGv2 15
+OCS HXT -2.094 -2.739  0.233 ETKDGv2 16
+OCS HD2  3.534  0.790 -0.118 ETKDGv2 17
+#

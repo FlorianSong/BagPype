@@ -1,0 +1,219 @@
+data_EBJ
+#
+_chem_comp.id                                        EBJ
+_chem_comp.name                                      1H-1,2,3-triazole-5-thiol
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C2 H3 N3 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2017-12-18
+_chem_comp.pdbx_modified_date                        2017-12-29
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            101.130
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         EBJ
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            6BWU
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+EBJ S1 S1 S 0 1 N N N 27.053 38.985 42.694 -1.985  0.012 -0.038 S1 EBJ 1
+EBJ C2 C1 C 0 1 Y N N 25.984 38.016 41.673 -0.223  0.011 -0.015 C2 EBJ 2
+EBJ N3 N1 N 0 1 Y N N 24.646 37.867 41.811  0.590 -1.083 -0.006 N3 EBJ 3
+EBJ N4 N2 N 0 1 Y N N 24.209 37.072 40.867  1.906 -0.596  0.011 N4 EBJ 4
+EBJ N5 N3 N 0 1 Y N N 25.200 36.679 40.097  1.858  0.691  0.012 N5 EBJ 5
+EBJ C6 C2 C 0 1 Y N N 26.357 37.230 40.538  0.590  1.100 -0.008 C6 EBJ 6
+EBJ H1 H1 H 0 1 N N N 27.346 37.103 40.123  0.262  2.129 -0.012 H1 EBJ 7
+EBJ H2 H2 H 0 1 N N N 26.221 39.483 43.560 -2.305  0.010  1.269 H2 EBJ 8
+EBJ H3 H3 H 0 1 N N N 24.083 38.294 42.518  0.314 -2.013 -0.011 H3 EBJ 9
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+EBJ N5 C6 SING Y N 1
+EBJ N5 N4 DOUB Y N 2
+EBJ C6 C2 DOUB Y N 3
+EBJ N4 N3 SING Y N 4
+EBJ C2 N3 SING Y N 5
+EBJ C2 S1 SING N N 6
+EBJ C6 H1 SING N N 7
+EBJ S1 H2 SING N N 8
+EBJ N3 H3 SING N N 9
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+EBJ           SMILES              ACDLabs 12.01                                         Sc1nnnc1
+EBJ            InChI                InChI  1.03 InChI=1S/C2H3N3S/c6-2-1-3-5-4-2/h1H,(H2,3,4,5,6)
+EBJ         InChIKey                InChI  1.03                      LLCOQBODWBFTDD-UHFFFAOYSA-N
+EBJ SMILES_CANONICAL               CACTVS 3.385                                      Sc1[nH]nnc1
+EBJ           SMILES               CACTVS 3.385                                      Sc1[nH]nnc1
+EBJ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                    c1c([nH]nn1)S
+EBJ           SMILES "OpenEye OEToolkits" 2.0.6                                    c1c([nH]nn1)S
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+EBJ "SYSTEMATIC NAME"              ACDLabs 12.01    1H-1,2,3-triazole-5-thiol
+EBJ "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 1~{H}-1,2,3-triazole-5-thiol
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+EBJ "Create component" 2017-12-18 RCSB IP ?
+EBJ  "Initial release" 2018-01-03 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+EBJ S1 S 3.000 -0.271 1
+EBJ C2 C 4.427  0.193 2
+EBJ N3 N 5.640 -0.689 3
+EBJ N4 N 6.854  0.193 4
+EBJ N5 N 6.390  1.619 5
+EBJ C6 C 4.890  1.619 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+EBJ N5 C6 SINGLE NONE 1
+EBJ N5 N4 DOUBLE NONE 2
+EBJ C6 C2 DOUBLE NONE 3
+EBJ N4 N3 SINGLE NONE 4
+EBJ C2 N3 SINGLE NONE 5
+EBJ C2 S1 SINGLE NONE 6
+#
+_pdbe_chem_comp_substructure.comp_id                      EBJ
+_pdbe_chem_comp_substructure.substructure_name            MurckoScaffold
+_pdbe_chem_comp_substructure.id                           S1
+_pdbe_chem_comp_substructure.substructure_type            scaffold
+_pdbe_chem_comp_substructure.substructure_smiles          c1c[nH]nn1
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H3N3/c1-2-4-5-3-1/h1-2H,(H,3,4,5)
+_pdbe_chem_comp_substructure.substructure_inchikeys       QWENRTYMTSOGBR-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+EBJ C2 S1 1
+EBJ N3 S1 1
+EBJ N4 S1 1
+EBJ N5 S1 1
+EBJ C6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               EBJ
+_pdbe_chem_comp_rdkit_properties.exactmw                               101.005
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             44.126
+_pdbe_chem_comp_rdkit_properties.tpsa                                  41.570
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.015
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             24.205
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+EBJ UniChem ZINC ZINC000012405203
+EBJ UniChem ZINC     ZINC04086148
+EBJ UniChem ZINC     ZINC12405203
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+EBJ S1  1.961 -0.015 -0.736 ETKDGv2 1
+EBJ C2  0.289  0.044 -0.107 ETKDGv2 2
+EBJ N3 -0.592 -1.058 -0.021 ETKDGv2 3
+EBJ N4 -1.771 -0.543  0.525 ETKDGv2 4
+EBJ N5 -1.655  0.704  0.752 ETKDGv2 5
+EBJ C6 -0.344  1.107  0.355 ETKDGv2 6
+EBJ H1  0.051  2.111  0.427 ETKDGv2 7
+EBJ H2  2.485 -0.300  0.538 ETKDGv2 8
+EBJ H3 -0.424 -2.051 -0.295 ETKDGv2 9
+#

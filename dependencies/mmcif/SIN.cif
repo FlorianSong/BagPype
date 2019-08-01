@@ -1,0 +1,296 @@
+data_SIN
+#
+_chem_comp.id                                        SIN
+_chem_comp.name                                      "SUCCINIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C4 H6 O4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            118.088
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         SIN
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3BIF
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SIN  C1  C1 C 0 1 N N N -28.983 -83.437 58.414  1.903 -0.044  0.002  C1 SIN  1
+SIN  O1  O1 O 0 1 N N N -30.100 -83.363 58.885  2.038 -1.245  0.001  O1 SIN  2
+SIN  O2  O2 O 0 1 N Y N -28.833 -83.518 57.206  2.984  0.753 -0.002  O2 SIN  3
+SIN  C2  C2 C 0 1 N N N -27.760 -83.413 59.351  0.522  0.559  0.002  C2 SIN  4
+SIN  C3  C3 C 0 1 N N N -26.685 -84.391 58.850 -0.522 -0.559  0.000  C3 SIN  5
+SIN  C4  C4 C 0 1 N N N -25.455 -84.308 59.773 -1.903  0.044 -0.000  C4 SIN  6
+SIN  O3  O3 O 0 1 N N N -24.380 -84.789 59.414 -2.038  1.245  0.001  O3 SIN  7
+SIN  O4  O4 O 0 1 N Y N -25.550 -83.764 60.861 -2.984 -0.753 -0.002  O4 SIN  8
+SIN HO2 HO2 H 0 1 N Y N -29.682 -83.510 56.780  3.848  0.320 -0.006 HO2 SIN  9
+SIN H21 H21 H 0 1 N N N -27.341 -82.396 59.373  0.394  1.174  0.892 H21 SIN 10
+SIN H22 H22 H 0 1 N N N -28.074 -83.708 60.363  0.396  1.176 -0.888 H22 SIN 11
+SIN H31 H31 H 0 1 N N N -27.085 -85.416 58.861 -0.394 -1.174 -0.890 H31 SIN 12
+SIN H32 H32 H 0 1 N N N -26.394 -84.124 57.823 -0.396 -1.176  0.890 H32 SIN 13
+SIN HO4 HO4 H 0 1 N Y N -24.711 -83.795 61.306 -3.848 -0.320 -0.002 HO4 SIN 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SIN C1  O1 DOUB N N  1
+SIN C1  O2 SING N N  2
+SIN C1  C2 SING N N  3
+SIN O2 HO2 SING N N  4
+SIN C2  C3 SING N N  5
+SIN C2 H21 SING N N  6
+SIN C2 H22 SING N N  7
+SIN C3  C4 SING N N  8
+SIN C3 H31 SING N N  9
+SIN C3 H32 SING N N 10
+SIN C4  O3 DOUB N N 11
+SIN C4  O4 SING N N 12
+SIN O4 HO4 SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SIN           SMILES              ACDLabs 12.01                                         O=C(O)CCC(=O)O
+SIN SMILES_CANONICAL               CACTVS 3.370                                         OC(=O)CCC(O)=O
+SIN           SMILES               CACTVS 3.370                                         OC(=O)CCC(O)=O
+SIN SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                       C(CC(=O)O)C(=O)O
+SIN           SMILES "OpenEye OEToolkits" 1.7.0                                       C(CC(=O)O)C(=O)O
+SIN            InChI                InChI  1.03 InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)
+SIN         InChIKey                InChI  1.03                            KDYFGRWQOYBRFD-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+SIN "SYSTEMATIC NAME"              ACDLabs 12.01 "butanedioic acid"
+SIN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "butanedioic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+SIN  "Create component" 1999-07-08 RCSB ? ?
+SIN "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   SIN
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB00139
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Succinic acid"
+_pdbe_chem_comp_drugbank_details.description               "A water-soluble, colorless crystal with an acid taste that is used as a chemical intermediate, in medicine, the manufacture of lacquers, and to make perfume esters. It is also used in foods as a sequestrant, buffer, and a neutralizing agent. (Hawley's Condensed Chemical Dictionary, 12th ed, p1099; McGraw-Hill Dictionary of Scientific and Technical Terms, 4th ed, p1851)"
+_pdbe_chem_comp_drugbank_details.cas_number                110-15-6
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       'Succinate is an essential component of the Krebs or citric acid cycle and serves an electron donor in the production of fumaric acid and FADH2. It also has been shown to be a good "natural" antibiotic because of its relative acidic or caustic nature (high concentrations can even cause burns). Succinate supplements have been shown to help reduce the effects of hangovers by activating the degradation of acetaldehyde - a toxic byproduct of alcohol metabolism - into CO2 and H2O through aerobic metabolism. Succinic acid has been shown to stimulate neural system recovery and bolster the immune system. Claims have also been made that it boosts awareness, concentration and reflexes.'
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           SIN
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00139
+_pdbe_chem_comp_drugbank_classification.parent            "Dicarboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as dicarboxylic acids and derivatives. These are organic compounds containing exactly two carboxylic acid groups."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+SIN DB00139                 "Succinate dehydrogenase cytochrome b560 subunit, mitochondrial" Humans Q99643 unknown  1
+SIN DB00139                                                           "Succinate receptor 1" Humans Q9BXA5 unknown  2
+SIN DB00139                "Succinyl-CoA:3-ketoacid coenzyme A transferase 2, mitochondrial" Humans Q9BYC2 unknown  3
+SIN DB00139                                     "Trimethyllysine dioxygenase, mitochondrial" Humans Q9NVH6 unknown  4
+SIN DB00139                  "Succinyl-CoA ligase [ADP-forming] subunit beta, mitochondrial" Humans Q9P2R7 unknown  5
+SIN DB00139                                            "Mitochondrial dicarboxylate carrier" Humans Q9UBX3 unknown  6
+SIN DB00139       "Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial" Humans P31040 unknown  7
+SIN DB00139                                    "17-beta-hydroxysteroid dehydrogenase type 6" Humans O14756 unknown  8
+SIN DB00139                                              "Solute carrier family 13 member 3" Humans Q8WWT9 unknown  9
+SIN DB00139                                              "Solute carrier family 13 member 2" Humans Q13183 unknown 10
+SIN DB00139                                              "Solute carrier family 13 member 1" Humans Q9BZW2 unknown 11
+SIN DB00139                  "Succinyl-CoA ligase [GDP-forming] subunit beta, mitochondrial" Humans Q96I99 unknown 12
+SIN DB00139 "Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial" Humans O14521 unknown 13
+SIN DB00139                                           "Prolyl 4-hydroxylase subunit alpha-2" Humans O15460 unknown 14
+SIN DB00139                              "Procollagen-lysine,2-oxoglutarate 5-dioxygenase 3" Humans O60568 unknown 15
+SIN DB00139                                                "Gamma-butyrobetaine dioxygenase" Humans O75936 unknown 16
+SIN DB00139                                           "Prolyl 4-hydroxylase subunit alpha-1" Humans P13674 unknown 17
+SIN DB00139        "Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial" Humans P21912 unknown 18
+SIN DB00139                            "Succinate-semialdehyde dehydrogenase, mitochondrial" Humans P51649 unknown 19
+SIN DB00139             "Succinyl-CoA ligase [ADP/GDP-forming] subunit alpha, mitochondrial" Humans P53597 unknown 20
+SIN DB00139                "Succinyl-CoA:3-ketoacid coenzyme A transferase 1, mitochondrial" Humans P55809 unknown 21
+SIN DB00139                              "Procollagen-lysine,2-oxoglutarate 5-dioxygenase 1" Humans Q02809 unknown 22
+SIN DB00139                                          "Aspartyl/asparaginyl beta-hydroxylase" Humans Q12797 unknown 23
+SIN DB00139                                                         "Prolyl 3-hydroxylase 1" Humans Q32P28 unknown 24
+SIN DB00139                                                         "Prolyl 3-hydroxylase 2" Humans Q8IVL5 unknown 25
+SIN DB00139                                                         "Prolyl 3-hydroxylase 3" Humans Q8IVL6 unknown 26
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+SIN                          E363   ChEMBL
+SIN               "Succinic Acid"   ChEMBL
+SIN "1,2-ethanedicarboxylic acid" DrugBank
+SIN                  "Amber acid" DrugBank
+SIN                       Asuccin DrugBank
+SIN            "Butanedioic acid" DrugBank
+SIN           "Butanedionic acid" DrugBank
+SIN         "Dihydrofumaric acid" DrugBank
+SIN       "Ethylenesuccinic acid" DrugBank
+SIN             "Spirit of amber" DrugBank
+SIN               "Succinic acid" DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SIN C1 C  9.002  0.375 1
+SIN O1 O 10.301 -0.375 2
+SIN O2 O  9.002  1.875 3
+SIN C2 C  7.702 -0.375 4
+SIN C3 C  6.404  0.375 5
+SIN C4 C  5.104 -0.375 6
+SIN O3 O  3.805  0.375 7
+SIN O4 O  5.104 -1.875 8
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SIN C1 O1 DOUBLE NONE 1
+SIN C1 O2 SINGLE NONE 2
+SIN C1 C2 SINGLE NONE 3
+SIN C2 C3 SINGLE NONE 4
+SIN C3 C4 SINGLE NONE 5
+SIN C4 O3 DOUBLE NONE 6
+SIN C4 O4 SINGLE NONE 7
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SIN
+_pdbe_chem_comp_rdkit_properties.exactmw                               118.027
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             54.349
+_pdbe_chem_comp_rdkit_properties.tpsa                                  74.600
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.064
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             24.506
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         8
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+SIN UniChem        ChEMBL        CHEMBL576
+SIN UniChem      DrugBank          DB00139
+SIN UniChem "KEGG LIGAND"           C00042
+SIN UniChem         ChEBI            15741
+SIN UniChem          ZINC ZINC000000895030
+SIN UniChem    NMRShiftDB         10008686
+SIN UniChem     BindingDb            26121
+SIN UniChem  MetaboLights       MTBLC15741
+SIN UniChem        BRENDA           105625
+SIN UniChem        BRENDA           137838
+SIN UniChem        BRENDA             2759
+SIN UniChem        BRENDA               58
+SIN UniChem        BRENDA            93193
+SIN UniChem        BRENDA            97700
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SIN  C1  1.321 -0.798  0.826 ETKDGv2  1
+SIN  O1  1.443 -1.926  1.372 ETKDGv2  2
+SIN  O2  1.745  0.340  1.507 ETKDGv2  3
+SIN  C2  0.685 -0.688 -0.528 ETKDGv2  4
+SIN  C3 -0.843 -0.609 -0.427 ETKDGv2  5
+SIN  C4 -1.291  0.664  0.226 ETKDGv2  6
+SIN  O3 -1.931  0.626  1.311 ETKDGv2  7
+SIN  O4 -1.007  1.889 -0.370 ETKDGv2  8
+SIN HO2  1.644  1.262  1.100 ETKDGv2  9
+SIN H21  1.081  0.203 -1.063 ETKDGv2 10
+SIN H22  0.958 -1.582 -1.130 ETKDGv2 11
+SIN H31 -1.226 -1.487  0.137 ETKDGv2 12
+SIN H32 -1.276 -0.650 -1.449 ETKDGv2 13
+SIN HO4 -1.303  2.757  0.060 ETKDGv2 14
+#

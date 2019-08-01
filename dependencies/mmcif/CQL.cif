@@ -1,0 +1,342 @@
+data_CQL
+#
+_chem_comp.id                                        CQL
+_chem_comp.name                                      5-chloro-7-iodoquinolin-8-ol
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C9 H5 Cl I N O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             Clioquinol
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2009-10-28
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            305.500
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         CQL
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3KCX
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+CQL  OAA  OAA  O 0 1 N N N -23.431 25.473  6.507  0.503  2.304  0.012  OAA CQL  1
+CQL CLAB CLAB CL 0 0 N N N -17.619 25.165  7.985 -2.415 -2.814 -0.009 CLAB CQL  2
+CQL  IAC  IAC  I 0 1 N N N -22.000 24.064  4.163  2.574 -0.067  0.004  IAC CQL  3
+CQL  CAD  CAD  C 0 1 Y N N -20.813 26.855 10.361 -4.337  1.133  0.006  CAD CQL  4
+CQL  CAE  CAE  C 0 1 Y N N -22.157 26.901  9.998 -3.590  2.309  0.010  CAE CQL  5
+CQL  CAF  CAF  C 0 1 Y N N -19.861 26.291  9.513 -3.702 -0.077  0.002  CAF CQL  6
+CQL  CAG  CAG  C 0 1 Y N N -19.820 24.724  6.249 -0.212 -1.267 -0.002  CAG CQL  7
+CQL  NAH  NAH  N 0 1 Y N N -22.556 26.420  8.821 -2.279  2.294  0.011  NAH CQL  8
+CQL  CAI  CAI  C 0 1 Y N N -19.356 25.223  7.468 -1.574 -1.295 -0.002  CAI CQL  9
+CQL  CAJ  CAJ  C 0 1 Y N N -22.099 25.381  6.807 -0.188  1.134  0.007  CAJ CQL 10
+CQL  CAK  CAK  C 0 1 Y N N -21.188 24.807  5.942  0.479 -0.058  0.003  CAK CQL 11
+CQL  CAL  CAL  C 0 1 Y N N -20.287 25.787  8.315 -2.295 -0.089  0.002  CAL CQL 12
+CQL  CAM  CAM  C 0 1 Y N N -21.644 25.870  7.996 -1.598  1.145  0.007  CAM CQL 13
+CQL HOAA HOAA  H 0 0 N N N -23.889 25.896  7.224  0.704  2.646 -0.870 HOAA CQL 14
+CQL  HAD  HAD  H 0 1 N N N -20.504 27.262 11.313 -5.416  1.178  0.010  HAD CQL 15
+CQL  HAE  HAE  H 0 1 N N N -22.881 27.330 10.675 -4.105  3.259  0.014  HAE CQL 16
+CQL  HAF  HAF  H 0 1 N N N -18.819 26.253  9.794 -4.265 -0.998 -0.002  HAF CQL 17
+CQL  HAG  HAG  H 0 1 N N N -19.131 24.277  5.547  0.340 -2.195 -0.005  HAG CQL 18
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+CQL  OAA  CAJ SING N N  1
+CQL CLAB  CAI SING N N  2
+CQL  IAC  CAK SING N N  3
+CQL  CAD  CAE DOUB Y N  4
+CQL  CAD  CAF SING Y N  5
+CQL  CAE  NAH SING Y N  6
+CQL  CAF  CAL DOUB Y N  7
+CQL  CAG  CAI DOUB Y N  8
+CQL  CAG  CAK SING Y N  9
+CQL  NAH  CAM DOUB Y N 10
+CQL  CAI  CAL SING Y N 11
+CQL  CAJ  CAK DOUB Y N 12
+CQL  CAJ  CAM SING Y N 13
+CQL  CAL  CAM SING Y N 14
+CQL  OAA HOAA SING N N 15
+CQL  CAD  HAD SING N N 16
+CQL  CAE  HAE SING N N 17
+CQL  CAF  HAF SING N N 18
+CQL  CAG  HAG SING N N 19
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+CQL           SMILES              ACDLabs 11.02                                         Ic1c(O)c2ncccc2c(Cl)c1
+CQL SMILES_CANONICAL               CACTVS 3.352                                         Oc1c(I)cc(Cl)c2cccnc12
+CQL           SMILES               CACTVS 3.352                                         Oc1c(I)cc(Cl)c2cccnc12
+CQL SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                       c1cc2c(cc(c(c2nc1)O)I)Cl
+CQL           SMILES "OpenEye OEToolkits" 1.7.0                                       c1cc2c(cc(c(c2nc1)O)I)Cl
+CQL            InChI                InChI  1.03 InChI=1S/C9H5ClINO/c10-6-4-7(11)9(13)8-5(6)2-1-3-12-8/h1-4,13H
+CQL         InChIKey                InChI  1.03                                    QCDFBFJGMNKBDO-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+CQL "SYSTEMATIC NAME"              ACDLabs 11.02  5-chloro-7-iodoquinolin-8-ol
+CQL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 5-chloro-7-iodo-quinolin-8-ol
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+CQL     "Create component" 2009-10-28 PDBJ ? ?
+CQL "Modify aromatic_flag" 2011-06-04 RCSB ? ?
+CQL    "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   CQL
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB04815
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Clioquinol
+_pdbe_chem_comp_drugbank_details.description               "Clioquinol was withdrawn in 1983 due to neurotoxicity."
+_pdbe_chem_comp_drugbank_details.cas_number                130-26-7
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Clioquinol is bacteriostatic, however, the precise mechanism of its action is unknown."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           CQL
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB04815
+_pdbe_chem_comp_drugbank_classification.parent            Chloroquinolines
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Quinolines and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as chloroquinolines. These are compounds containing a quinoline moiety, which carries one or more chlorine atoms."
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+CQL                            Vioform   ChEMBL
+CQL                         Clioquinol   ChEMBL
+CQL               Iodochlorhydroxyquin   ChEMBL
+CQL                       Quin-O-Creme   ChEMBL
+CQL                        Domeform-HC   ChEMBL
+CQL                            Oralcer   ChEMBL
+CQL 5-Chloro-7-iodo-8-hydroxyquinoline DrugBank
+CQL       5-Chloro-7-iodo-8-quinolinol DrugBank
+CQL       5-chloro-7-iodoquinolin-8-ol DrugBank
+CQL 5-Chloro-8-hydroxy-7-iodoquinoline DrugBank
+CQL 7-Iodo-5-chloro-8-hydroxyquinoline DrugBank
+CQL                7-Iodo-5-chloroxine DrugBank
+CQL                     Chloroiodoquin DrugBank
+CQL                         Clioquinol DrugBank
+CQL               Iodochlorhydroxyquin DrugBank
+CQL          Iodochlorhydroxyquinoline DrugBank
+CQL              Iodochlorohydroxyquin DrugBank
+CQL              Iodochloroxyquinoline DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+CQL  OAA  O 5.598 -2.768  1
+CQL CLAB Cl 5.598  3.232  2
+CQL  IAC  I 3.000 -1.268  3
+CQL  CAD  C 9.597  1.014  4
+CQL  CAE  C 9.597 -0.549  5
+CQL  CAF  C 8.238  1.784  6
+CQL  CAG  C 4.299  0.983  7
+CQL  NAH  N 8.238 -1.320  8
+CQL  CAI  C 5.598  1.732  9
+CQL  CAJ  C 5.598 -1.268 10
+CQL  CAK  C 4.299 -0.517 11
+CQL  CAL  C 6.897  0.983 12
+CQL  CAM  C 6.897 -0.517 13
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+CQL  OAA CAJ SINGLE NONE  1
+CQL CLAB CAI SINGLE NONE  2
+CQL  IAC CAK SINGLE NONE  3
+CQL  CAD CAE DOUBLE NONE  4
+CQL  CAD CAF SINGLE NONE  5
+CQL  CAE NAH SINGLE NONE  6
+CQL  CAF CAL DOUBLE NONE  7
+CQL  CAG CAI DOUBLE NONE  8
+CQL  CAG CAK SINGLE NONE  9
+CQL  NAH CAM DOUBLE NONE 10
+CQL  CAI CAL SINGLE NONE 11
+CQL  CAJ CAK DOUBLE NONE 12
+CQL  CAJ CAM SINGLE NONE 13
+CQL  CAL CAM SINGLE NONE 14
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+CQL MurckoScaffold S1 scaffold c1ccc2ncccc2c1 InChI=1S/C9H7N/c1-2-6-9-8(4-1)5-3-7-10-9/h1-7H SMWDFEZZVXVKRB-UHFFFAOYSA-N
+CQL         phenyl F1 fragment       c1ccccc1             InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+CQL       pyridine F2 fragment       c1ccncc1            InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
+CQL      quinoline F3 fragment c1ccc2ncccc2c1 InChI=1S/C9H7N/c1-2-6-9-8(4-1)5-3-7-10-9/h1-7H SMWDFEZZVXVKRB-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+CQL CAG F1 1
+CQL CAI F1 1
+CQL CAL F1 1
+CQL CAM F1 1
+CQL CAJ F1 1
+CQL CAK F1 1
+CQL CAE F2 1
+CQL CAD F2 1
+CQL CAF F2 1
+CQL CAL F2 1
+CQL CAM F2 1
+CQL NAH F2 1
+CQL CAG F3 1
+CQL CAI F3 1
+CQL CAL F3 1
+CQL CAM F3 1
+CQL CAJ F3 1
+CQL CAK F3 1
+CQL NAH F3 1
+CQL CAE F3 1
+CQL CAD F3 1
+CQL CAF F3 1
+CQL CAD S1 1
+CQL CAE S1 1
+CQL CAF S1 1
+CQL CAG S1 1
+CQL NAH S1 1
+CQL CAI S1 1
+CQL CAJ S1 1
+CQL CAK S1 1
+CQL CAL S1 1
+CQL CAM S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               CQL
+_pdbe_chem_comp_rdkit_properties.exactmw                               304.910
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              2
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             100.804
+_pdbe_chem_comp_rdkit_properties.tpsa                                  33.120
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.308
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             58.319
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         13
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+CQL UniChem     ChEMBL        CHEMBL497
+CQL UniChem   DrugBank          DB04815
+CQL UniChem      ChEBI            74460
+CQL UniChem       ZINC ZINC000006409735
+CQL UniChem       ZINC     ZINC06409735
+CQL UniChem NMRShiftDB         30096614
+CQL UniChem  BindingDb            32188
+CQL UniChem     BRENDA           199741
+CQL UniChem     BRENDA            42598
+CQL UniChem     BRENDA            75652
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+CQL  OAA -2.658  1.395 -0.066 ETKDGv2  1
+CQL CLAB  1.154 -3.293  0.259 ETKDGv2  2
+CQL  IAC -4.235 -1.347  0.201 ETKDGv2  3
+CQL  CAD  2.463  1.135 -0.147 ETKDGv2  4
+CQL  CAE  1.574  2.132 -0.214 ETKDGv2  5
+CQL  CAF  1.987 -0.256 -0.018 ETKDGv2  6
+CQL  CAG -1.217 -2.052  0.200 ETKDGv2  7
+CQL  NAH  0.166  1.848 -0.162 ETKDGv2  8
+CQL  CAI  0.112 -1.877  0.159 ETKDGv2  9
+CQL  CAJ -1.733  0.352  0.005 ETKDGv2 10
+CQL  CAK -2.165 -0.915  0.122 ETKDGv2 11
+CQL  CAL  0.668 -0.509  0.030 ETKDGv2 12
+CQL  CAM -0.282  0.629 -0.048 ETKDGv2 13
+CQL HOAA -2.370  2.361 -0.155 ETKDGv2 14
+CQL  HAD  3.524  1.345 -0.186 ETKDGv2 15
+CQL  HAE  1.911  3.156 -0.309 ETKDGv2 16
+CQL  HAF  2.718 -1.052  0.035 ETKDGv2 17
+CQL  HAG -1.618 -3.054  0.294 ETKDGv2 18
+#

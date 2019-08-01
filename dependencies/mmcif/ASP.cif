@@ -1,0 +1,332 @@
+data_ASP
+#
+_chem_comp.id                                        ASP
+_chem_comp.name                                      "ASPARTIC ACID"
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C4 H7 N O4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            133.103
+_chem_comp.one_letter_code                           D
+_chem_comp.three_letter_code                         ASP
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+ASP   N   N N 0 1 N N N 33.487 17.736 39.094 -0.317  1.688  0.066   N ASP  1
+ASP  CA  CA C 0 1 N N S 34.909 17.506 38.709 -0.470  0.286 -0.344  CA ASP  2
+ASP   C   C C 0 1 N N N 34.993 16.527 37.537 -1.868 -0.180 -0.029   C ASP  3
+ASP   O   O O 0 1 N N N 36.106 16.031 37.261 -2.534  0.415  0.786   O ASP  4
+ASP  CB  CB C 0 1 N N N 35.682 16.954 39.915  0.539 -0.580  0.413  CB ASP  5
+ASP  CG  CG C 0 1 N N N 35.231 15.544 40.306  1.938 -0.195  0.004  CG ASP  6
+ASP OD1 OD1 O 0 1 N N N 35.793 14.986 41.279  2.109  0.681 -0.810 OD1 ASP  7
+ASP OD2 OD2 O 0 1 N N N 34.327 14.999 39.631  2.992 -0.826  0.543 OD2 ASP  8
+ASP OXT OXT O 0 1 N Y N 33.935 16.265 36.913 -2.374 -1.256 -0.652 OXT ASP  9
+ASP   H   H H 0 1 N N N 33.448 18.377 39.860 -0.928  2.289 -0.467   H ASP 10
+ASP  H2 HN2 H 0 1 N Y N 32.988 18.117 38.315 -0.478  1.795  1.056  H2 ASP 11
+ASP  HA  HA H 0 1 N N N 35.356 18.461 38.395 -0.292  0.199 -1.416  HA ASP 12
+ASP HB2 HB1 H 0 1 N N N 36.751 16.919 39.657  0.419 -0.425  1.485 HB2 ASP 13
+ASP HB3 HB2 H 0 1 N N N 35.515 17.623 40.772  0.367 -1.630  0.176 HB3 ASP 14
+ASP HD2 HD2 H 0 1 N N N 34.155 14.130 39.974  3.869 -0.545  0.250 HD2 ASP 15
+ASP HXT HXT H 0 1 N Y N 34.122 15.645 36.218 -3.275 -1.517 -0.416 HXT ASP 16
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+ASP   N  CA SING N N  1
+ASP   N   H SING N N  2
+ASP   N  H2 SING N N  3
+ASP  CA   C SING N N  4
+ASP  CA  CB SING N N  5
+ASP  CA  HA SING N N  6
+ASP   C   O DOUB N N  7
+ASP   C OXT SING N N  8
+ASP  CB  CG SING N N  9
+ASP  CB HB2 SING N N 10
+ASP  CB HB3 SING N N 11
+ASP  CG OD1 DOUB N N 12
+ASP  CG OD2 SING N N 13
+ASP OD2 HD2 SING N N 14
+ASP OXT HXT SING N N 15
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+ASP           SMILES              ACDLabs 12.01                                                      O=C(O)CC(N)C(=O)O
+ASP SMILES_CANONICAL               CACTVS 3.370                                                 N[C@@H](CC(O)=O)C(O)=O
+ASP           SMILES               CACTVS 3.370                                                   N[CH](CC(O)=O)C(O)=O
+ASP SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                               C([C@@H](C(=O)O)N)C(=O)O
+ASP           SMILES "OpenEye OEToolkits" 1.7.0                                                    C(C(C(=O)O)N)C(=O)O
+ASP            InChI                InChI  1.03 InChI=1S/C4H7NO4/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H,6,7)(H,8,9)/t2-/m0/s1
+ASP         InChIKey                InChI  1.03                                            CKLJMWTZIZZHCS-REOHCLBHSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+ASP "SYSTEMATIC NAME"              ACDLabs 12.01               "L-aspartic acid"
+ASP "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "(2S)-2-azanylbutanedioic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+ASP         "Create component" 1999-07-08  EBI  ? ?
+ASP "Modify leaving atom flag" 2011-01-28 RCSB CS ?
+ASP        "Modify descriptor" 2011-06-04 RCSB  ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   ASP
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB00128
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Aspartic acid"
+_pdbe_chem_comp_drugbank_details.description               "One of the non-essential amino acids commonly occurring in the L-form. It is found in animals and plants, especially in sugar cane and sugar beets. It may be a neurotransmitter."
+_pdbe_chem_comp_drugbank_details.cas_number                56-84-8
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "There are also claims that L-aspartate has ergogenic effects, that it enhances performance in both prolonged exercise and short intensive exercise. It is hypothesized that L-aspartate, especially the potassium magnesium aspartate salt, spares stores of muscle glycogen and/or promotes a faster rate of glycogen resynthesis during exercise. It has also been hypothesized that L-aspartate can enhance short intensive exercise by serving as a substrate for energy production in the Krebs cycle and for stimulating the purine nucleotide cycle."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           ASP
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00128
+_pdbe_chem_comp_drugbank_classification.parent            "Aspartic acid and derivatives"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as aspartic acid and derivatives. These are compounds containing an aspartic acid or a derivative thereof resulting from reaction of aspartic acid at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+ASP DB00128                                           "Ribonuclease pancreatic" Humans P07998 unknown  1
+ASP DB00128                                                        "Lysozyme C" Humans P61626 unknown  2
+ASP DB00128             "Calcium-binding mitochondrial carrier protein Aralar2" Humans Q9UJS0 unknown  3
+ASP DB00128                           "Aspartate aminotransferase, cytoplasmic" Humans P17174 unknown  4
+ASP DB00128                                                      Aspartoacylase Humans P45381 unknown  5
+ASP DB00128                     "Asparagine synthetase [glutamine-hydrolyzing]" Humans P08243 unknown  6
+ASP DB00128                                        "Argininosuccinate synthase" Humans P00966 unknown  7
+ASP DB00128                                                      Aminoacylase-1 Humans Q03154 unknown  8
+ASP DB00128                         "Aspartate aminotransferase, mitochondrial" Humans P00505 unknown  9
+ASP DB00128                               "Aspartate--tRNA ligase, cytoplasmic" Humans P14868 unknown 10
+ASP DB00128             "Calcium-binding mitochondrial carrier protein Aralar1" Humans O75746 unknown 11
+ASP DB00128                             "Aspartyl/asparaginyl beta-hydroxylase" Humans Q12797 unknown 12
+ASP DB00128                                      "Multifunctional protein ADE2" Humans P22234 unknown 13
+ASP DB00128                                                       "CAD protein" Humans P27708 unknown 14
+ASP DB00128                             "Adenylosuccinate synthetase isozyme 2" Humans P30520 unknown 15
+ASP DB00128                               "Excitatory amino acid transporter 3" Humans P43005 unknown 16
+ASP DB00128                                        "Aspartate aminotransferase" Humans Q2TU84 unknown 17
+ASP DB00128                       "Argininosuccinate synthetase, isoform CRA_a" Humans Q5T6L4 unknown 18
+ASP DB00128                             "Aspartate--tRNA ligase, mitochondrial" Humans Q6PI48 unknown 19
+ASP DB00128                              "Isoaspartyl peptidase/L-asparaginase" Humans Q7L266 unknown 20
+ASP DB00128                             "Adenylosuccinate synthetase isozyme 1" Humans Q8N142 unknown 21
+ASP DB00128 "N-acyl-aromatic-L-amino acid amidohydrolase (carboxylate-forming)" Humans Q96HD9 unknown 22
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+ASP             "L-Aspartic acid"   ChEMBL
+ASP               "Aspartic acid"   ChEMBL
+ASP               "Aspartic Acid"   ChEMBL
+ASP "(S)-2-aminobutanedioic acid" DrugBank
+ASP    "(S)-2-aminosuccinic acid" DrugBank
+ASP        "2-Aminosuccinic acid" DrugBank
+ASP                           Asp DrugBank
+ASP               "Aspartic acid" DrugBank
+ASP                             D DrugBank
+ASP                         L-Asp DrugBank
+ASP                   L-Aspartate DrugBank
+ASP             "L-Aspartic acid" DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+ASP   N N  7.702 -1.643 1
+ASP  CA C  7.702 -0.142 2
+ASP   C C  9.002  0.608 3
+ASP   O O 10.301 -0.142 4
+ASP  CB C  6.404  0.608 5
+ASP  CG C  5.104 -0.142 6
+ASP OD1 O  3.805  0.608 7
+ASP OD2 O  5.104 -1.643 8
+ASP OXT O  9.002  2.107 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+ASP  N  CA SINGLE BEGINWEDGE 1
+ASP CA   C SINGLE       NONE 2
+ASP CA  CB SINGLE       NONE 3
+ASP  C   O DOUBLE       NONE 4
+ASP  C OXT SINGLE       NONE 5
+ASP CB  CG SINGLE       NONE 6
+ASP CG OD1 DOUBLE       NONE 7
+ASP CG OD2 SINGLE       NONE 8
+#
+_pdbe_chem_comp_substructure.comp_id                      ASP
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+ASP  O F1 1
+ASP  C F1 1
+ASP CA F1 1
+ASP  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               ASP
+_pdbe_chem_comp_rdkit_properties.exactmw                               133.038
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                5
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             61.210
+_pdbe_chem_comp_rdkit_properties.tpsa                                  100.620
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.127
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             27.864
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+ASP UniChem        ChEMBL     CHEMBL274323
+ASP UniChem      DrugBank          DB00128
+ASP UniChem      DrugBank          DB02655
+ASP UniChem "KEGG LIGAND"           C00049
+ASP UniChem         ChEBI            17053
+ASP UniChem          ZINC ZINC000000895032
+ASP UniChem     BindingDb            18125
+ASP UniChem  MetaboLights       MTBLC17053
+ASP UniChem        BRENDA           124285
+ASP UniChem        BRENDA             1353
+ASP UniChem        BRENDA           145027
+ASP UniChem        BRENDA           145044
+ASP UniChem        BRENDA           145940
+ASP UniChem        BRENDA           145958
+ASP UniChem        BRENDA           170998
+ASP UniChem        BRENDA           170999
+ASP UniChem        BRENDA              294
+ASP UniChem        BRENDA             2947
+ASP UniChem        BRENDA              304
+ASP UniChem        BRENDA            34449
+ASP UniChem        BRENDA            49150
+ASP UniChem        BRENDA            55021
+ASP UniChem        BRENDA              724
+ASP UniChem        BRENDA            96164
+ASP UniChem        BRENDA               97
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+ASP   N -0.203  0.081  1.807 ETKDGv2  1
+ASP  CA -0.460  0.396  0.397 ETKDGv2  2
+ASP   C -1.809 -0.112 -0.054 ETKDGv2  3
+ASP   O -2.527 -0.817  0.707 ETKDGv2  4
+ASP  CB  0.653 -0.193 -0.492 ETKDGv2  5
+ASP  CG  2.019  0.382 -0.215 ETKDGv2  6
+ASP OD1  2.182  1.295  0.639 ETKDGv2  7
+ASP OD2  3.122 -0.093 -0.916 ETKDGv2  8
+ASP OXT -2.271  0.211 -1.326 ETKDGv2  9
+ASP   H -0.940  0.533  2.396 ETKDGv2 10
+ASP  H2 -0.265 -0.954  1.954 ETKDGv2 11
+ASP  HA -0.465  1.502  0.277 ETKDGv2 12
+ASP HB2  0.696 -1.294 -0.350 ETKDGv2 13
+ASP HB3  0.417  0.003 -1.561 ETKDGv2 14
+ASP HD2  3.025 -0.824 -1.611 ETKDGv2 15
+ASP HXT -3.174 -0.116 -1.651 ETKDGv2 16
+#

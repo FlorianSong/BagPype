@@ -1,0 +1,287 @@
+data_SMC
+#
+_chem_comp.id                                        SMC
+_chem_comp.name                                      S-METHYLCYSTEINE
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C4 H9 N O2 S"
+_chem_comp.mon_nstd_parent_comp_id                   CYS
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             CYM
+_chem_comp.formula_weight                            135.185
+_chem_comp.one_letter_code                           C
+_chem_comp.three_letter_code                         SMC
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1CZI
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SMC    N    N N 0 1 N N N 89.125 16.244 32.120 -1.756  0.147 -0.531    N SMC  1
+SMC   CA   CA C 0 1 N N R 89.871 17.282 31.364 -0.324  0.459 -0.633   CA SMC  2
+SMC   CB   CB C 0 1 N N N 89.608 17.089 29.876  0.430 -0.233  0.503   CB SMC  3
+SMC   SG   SG S 0 1 N N N 91.058 16.158 29.336 -0.205  0.353  2.097   SG SMC  4
+SMC   CS   CS C 0 1 N N N 91.343 16.417 27.571  0.840 -0.607  3.226   CS SMC  5
+SMC    C    C C 0 1 N N N 89.258 18.656 31.701  0.203 -0.028 -1.957    C SMC  6
+SMC    O    O O 0 1 N N N 88.481 19.181 30.903 -0.293 -0.993 -2.487    O SMC  7
+SMC  OXT  OXT O 0 1 N Y N 89.536 19.272 32.813  1.226  0.609 -2.548  OXT SMC  8
+SMC    H  1HN H 0 1 N N N 89.301 16.373 33.116 -2.041  0.395  0.403    H SMC  9
+SMC   H2  2HN H 0 1 N Y N 89.344 15.299 31.804 -1.840 -0.855 -0.604   H2 SMC 10
+SMC   HA   HA H 0 1 N N N 90.955 17.215 31.615 -0.181  1.537 -0.559   HA SMC 11
+SMC  HB2  1HB H 0 1 N N N 88.629 16.613 29.631  1.492 -0.002  0.427  HB2 SMC 12
+SMC  HB3  2HB H 0 1 N N N 89.418 18.029 29.308  0.287 -1.311  0.429  HB3 SMC 13
+SMC HCS1 1HCS H 0 0 N N N 92.238 15.842 27.237  0.579 -0.365  4.256 HCS1 SMC 14
+SMC HCS2 2HCS H 0 0 N N N 90.440 16.172 26.963  0.681 -1.671  3.051 HCS2 SMC 15
+SMC HCS3 3HCS H 0 0 N N N 91.424 17.499 27.316  1.887 -0.361  3.049 HCS3 SMC 16
+SMC  HXT  HXT H 0 1 N Y N 89.158 20.118 33.020  1.564  0.296 -3.398  HXT SMC 17
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SMC   N   CA SING N N  1
+SMC   N    H SING N N  2
+SMC   N   H2 SING N N  3
+SMC  CA   CB SING N N  4
+SMC  CA    C SING N N  5
+SMC  CA   HA SING N N  6
+SMC  CB   SG SING N N  7
+SMC  CB  HB2 SING N N  8
+SMC  CB  HB3 SING N N  9
+SMC  SG   CS SING N N 10
+SMC  CS HCS1 SING N N 11
+SMC  CS HCS2 SING N N 12
+SMC  CS HCS3 SING N N 13
+SMC   C    O DOUB N N 14
+SMC   C  OXT SING N N 15
+SMC OXT  HXT SING N N 16
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SMC           SMILES              ACDLabs 10.04                                                      O=C(O)C(N)CSC
+SMC SMILES_CANONICAL               CACTVS 3.341                                                  CSC[C@H](N)C(O)=O
+SMC           SMILES               CACTVS 3.341                                                   CSC[CH](N)C(O)=O
+SMC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                 CSC[C@@H](C(=O)O)N
+SMC           SMILES "OpenEye OEToolkits" 1.5.0                                                      CSCC(C(=O)O)N
+SMC            InChI                InChI  1.03 InChI=1S/C4H9NO2S/c1-8-2-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)/t3-/m0/s1
+SMC         InChIKey                InChI  1.03                                        IDIDJDIHTAOVLG-VKHMYHEASA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+SMC "SYSTEMATIC NAME"              ACDLabs 10.04                            S-methyl-L-cysteine
+SMC "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-amino-3-methylsulfanyl-propanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+SMC  "Create component" 1999-07-08 RCSB ? ?
+SMC "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   SMC
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02216
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      S-Methylcysteine
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                1187-84-4
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           SMC
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02216
+_pdbe_chem_comp_drugbank_classification.parent            L-cysteine-S-conjugates
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as l-cysteine-s-conjugates. These are compounds containing L-cysteine where the thio-group is conjugated."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+SMC DB02216                                        "Cathepsin D" Humans P07339 unknown 1
+SMC DB02216 "Methylated-DNA--protein-cysteine methyltransferase" Humans P16455 unknown 2
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SMC   N N 3.805  1.500 1
+SMC  CA C 5.104  0.750 2
+SMC  CB C 5.104 -0.750 3
+SMC  SG S 6.404 -1.500 4
+SMC  CS C 6.404 -3.000 5
+SMC   C C 6.404  1.500 6
+SMC   O O 7.702  0.750 7
+SMC OXT O 6.404  3.000 8
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SMC  N  CA SINGLE BEGINDASH 1
+SMC CA  CB SINGLE      NONE 2
+SMC CA   C SINGLE      NONE 3
+SMC CB  SG SINGLE      NONE 4
+SMC SG  CS SINGLE      NONE 5
+SMC  C   O DOUBLE      NONE 6
+SMC  C OXT SINGLE      NONE 7
+#
+_pdbe_chem_comp_substructure.comp_id                      SMC
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+SMC  O F1 1
+SMC  C F1 1
+SMC CA F1 1
+SMC  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SMC
+_pdbe_chem_comp_rdkit_properties.exactmw                               135.035
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.750
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             65.100
+_pdbe_chem_comp_rdkit_properties.tpsa                                  63.320
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.239
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             33.993
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         8
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+SMC UniChem       ChEMBL     CHEMBL394875
+SMC UniChem     DrugBank          DB02216
+SMC UniChem        ChEBI           133545
+SMC UniChem        ChEBI            45658
+SMC UniChem         ZINC ZINC000003861771
+SMC UniChem         ZINC     ZINC03861771
+SMC UniChem    BindingDb         50213729
+SMC UniChem MetaboLights      MTBLC133545
+SMC UniChem MetaboLights       MTBLC45658
+SMC UniChem       BRENDA           160520
+SMC UniChem       BRENDA             1801
+SMC UniChem       BRENDA            30784
+SMC UniChem       BRENDA            75686
+SMC UniChem       BRENDA              929
+SMC UniChem       BRENDA             9355
+SMC UniChem       BRENDA            94974
+SMC UniChem       BRENDA            98029
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SMC    N -1.517  1.316  0.766 ETKDGv2  1
+SMC   CA -1.156  0.429 -0.344 ETKDGv2  2
+SMC   CB  0.373  0.280 -0.436 ETKDGv2  3
+SMC   SG  1.080 -0.407  1.107 ETKDGv2  4
+SMC   CS  2.798 -0.381  0.506 ETKDGv2  5
+SMC    C -1.817 -0.921 -0.195 ETKDGv2  6
+SMC    O -2.402 -1.235  0.876 ETKDGv2  7
+SMC  OXT -1.789 -1.836 -1.244 ETKDGv2  8
+SMC    H -1.080  2.252  0.596 ETKDGv2  9
+SMC   H2 -2.551  1.475  0.735 ETKDGv2 10
+SMC   HA -1.518  0.881 -1.294 ETKDGv2 11
+SMC  HB2  0.635 -0.381 -1.289 ETKDGv2 12
+SMC  HB3  0.824  1.277 -0.630 ETKDGv2 13
+SMC HCS1  3.466 -0.771  1.302 ETKDGv2 14
+SMC HCS2  2.898 -1.025 -0.393 ETKDGv2 15
+SMC HCS3  3.102  0.657  0.260 ETKDGv2 16
+SMC  HXT -1.346 -1.611 -2.127 ETKDGv2 17
+#

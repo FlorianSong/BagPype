@@ -1,0 +1,240 @@
+data_ESA
+#
+_chem_comp.id                                        ESA
+_chem_comp.name                                      "ETHANESULFONIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C2 H6 O3 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2000-07-18
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            110.132
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         ESA
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1F9P
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+ESA  C1  C1 C 0 1 N N N 34.726 33.160 28.078  0.000 -0.148  2.389  C1 ESA  1
+ESA  C2  C2 C 0 1 N N N 34.236 32.363 26.866  0.000  0.832  1.215  C2 ESA  2
+ESA   S   S S 0 1 N N N 33.068 33.368 25.884  0.000 -0.091 -0.345   S ESA  3
+ESA  O1  O1 O 0 1 N N N 32.313 34.265 26.781  1.243 -0.742 -0.568  O1 ESA  4
+ESA  O2  O2 O 0 1 N N N 32.131 32.476 25.171  0.000  1.007 -1.398  O2 ESA  5
+ESA  O3  O3 O 0 1 N N N 33.823 34.176 24.906 -1.243 -0.742 -0.568  O3 ESA  6
+ESA H11 1H1 H 0 1 N N N 33.992 33.942 28.323  0.000  0.406  3.327 H11 ESA  7
+ESA H12 2H1 H 0 1 N N N 35.694 33.626 27.843 -0.890 -0.776  2.338 H12 ESA  8
+ESA H13 3H1 H 0 1 N N N 34.844 32.485 28.938  0.890 -0.776  2.338 H13 ESA  9
+ESA H21 1H2 H 0 1 N N N 33.724 31.454 27.215 -0.890  1.459  1.266 H21 ESA 10
+ESA H22 2H2 H 0 1 N N N 35.097 32.091 26.238  0.890  1.459  1.266 H22 ESA 11
+ESA HO2 HO2 H 0 1 N N N 31.388 32.285 25.731  0.000  0.568 -2.260 HO2 ESA 12
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+ESA C1  C2 SING N N  1
+ESA C1 H11 SING N N  2
+ESA C1 H12 SING N N  3
+ESA C1 H13 SING N N  4
+ESA C2   S SING N N  5
+ESA C2 H21 SING N N  6
+ESA C2 H22 SING N N  7
+ESA  S  O1 DOUB N N  8
+ESA  S  O2 SING N N  9
+ESA  S  O3 DOUB N N 10
+ESA O2 HO2 SING N N 11
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+ESA           SMILES              ACDLabs 10.04                                     O=S(=O)(O)CC
+ESA SMILES_CANONICAL               CACTVS 3.341                                   CC[S](O)(=O)=O
+ESA           SMILES               CACTVS 3.341                                   CC[S](O)(=O)=O
+ESA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                     CCS(=O)(=O)O
+ESA           SMILES "OpenEye OEToolkits" 1.5.0                                     CCS(=O)(=O)O
+ESA            InChI                InChI  1.03 InChI=1S/C2H6O3S/c1-2-6(3,4)5/h2H2,1H3,(H,3,4,5)
+ESA         InChIKey                InChI  1.03                      CCIVGXIOQKPBKL-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+ESA "SYSTEMATIC NAME"              ACDLabs 10.04 "ethanesulfonic acid"
+ESA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "ethanesulfonic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+ESA  "Create component" 2000-07-18 RCSB ? ?
+ESA "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   ESA
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB03635
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Ethanesulfonic Acid"
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                .
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           ESA
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03635
+_pdbe_chem_comp_drugbank_classification.parent            "Organosulfonic acids"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Organic sulfonic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as organosulfonic acids. These are compounds containing the sulfonic acid group, which has the general structure RS(=O)2OH (R is not a hydrogen atom)."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+ESA DB03635 "Phosphonoacetaldehyde hydrolase" "Bacillus cereus" O31156 unknown 1
+ESA DB03635          "Platelet basic protein"            Humans P02775 unknown 2
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+ESA C1 C 7.702  0.000 1
+ESA C2 C 6.404  0.750 2
+ESA  S S 5.104  0.000 3
+ESA O1 O 3.805 -0.750 4
+ESA O2 O 4.354  1.299 5
+ESA O3 O 5.854 -1.299 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+ESA C1 C2 SINGLE NONE 1
+ESA C2  S SINGLE NONE 2
+ESA  S O1 DOUBLE NONE 3
+ESA  S O2 SINGLE NONE 4
+ESA  S O3 DOUBLE NONE 5
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               ESA
+_pdbe_chem_comp_rdkit_properties.exactmw                               110.004
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             45.249
+_pdbe_chem_comp_rdkit_properties.tpsa                                  54.370
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.106
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             22.090
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+ESA UniChem     ChEMBL    CHEMBL1232571
+ESA UniChem   DrugBank          DB03635
+ESA UniChem      ChEBI            42465
+ESA UniChem       ZINC ZINC000003861350
+ESA UniChem NMRShiftDB         10016716
+ESA UniChem     BRENDA           106027
+ESA UniChem     BRENDA           106028
+ESA UniChem     BRENDA            32632
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+ESA  C1  1.376  0.062  0.558 ETKDGv2  1
+ESA  C2  0.384 -0.622 -0.375 ETKDGv2  2
+ESA   S -1.287 -0.104 -0.017 ETKDGv2  3
+ESA  O1 -1.650 -0.510  1.383 ETKDGv2  4
+ESA  O2 -1.414  1.566 -0.159 ETKDGv2  5
+ESA  O3 -2.233 -0.761 -0.982 ETKDGv2  6
+ESA H11  2.405 -0.275  0.317 ETKDGv2  7
+ESA H12  1.324  1.165  0.432 ETKDGv2  8
+ESA H13  1.154 -0.198  1.614 ETKDGv2  9
+ESA H21  0.627 -0.363 -1.427 ETKDGv2 10
+ESA H22  0.458 -1.723 -0.252 ETKDGv2 11
+ESA HO2 -1.145  1.764 -1.092 ETKDGv2 12
+#

@@ -1,0 +1,200 @@
+data_SLP
+#
+_chem_comp.id                                        SLP
+_chem_comp.name                                      "3-selanylpropanoic acid"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H6 O2 Se"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2009-11-10
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            153.039
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         SLP
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3A9Z
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SLP  SE  SE SE 0 0 N N N  9.349 58.758 16.464  1.807 -0.084  0.000  SE SLP  1
+SLP  O1  O1  O 0 1 N N N  8.229 60.603 12.340 -2.614  1.180 -0.000  O1 SLP  2
+SLP  C2  C2  C 0 1 N N N  9.212 59.233 14.547 -0.024  0.615 -0.000  C2 SLP  3
+SLP  O2  O2  O 0 1 N N N  8.269 62.598 13.290 -3.465 -0.859  0.000  O2 SLP  4
+SLP  C6  C6  C 0 1 N N N  8.647 60.621 14.722 -1.015 -0.550  0.000  C6 SLP  5
+SLP  C7  C7  C 0 1 N N N  8.354 61.281 13.356 -2.423 -0.013  0.000  C7 SLP  6
+SLP HSE HSE  H 0 1 N N N  9.890 57.408 16.594  2.632  1.240 -0.000 HSE SLP  7
+SLP  H2  H2  H 0 1 N N N 10.177 59.214 14.019 -0.180  1.225  0.890  H2 SLP  8
+SLP H2A H2A  H 0 1 N N N  8.558 58.561 13.972 -0.180  1.225 -0.890 H2A SLP  9
+SLP HO2 HO2  H 0 1 N N N  8.110 62.861 12.391 -4.349 -0.467  0.000 HO2 SLP 10
+SLP  H6  H6  H 0 1 N N N  7.710 60.555 15.294 -0.859 -1.160 -0.890  H6 SLP 11
+SLP H6A H6A  H 0 1 N N N  9.378 61.237 15.266 -0.859 -1.160  0.890 H6A SLP 12
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SLP SE  C2 SING N N  1
+SLP O1  C7 DOUB N N  2
+SLP C2  C6 SING N N  3
+SLP O2  C7 SING N N  4
+SLP C6  C7 SING N N  5
+SLP SE HSE SING N N  6
+SLP C2  H2 SING N N  7
+SLP C2 H2A SING N N  8
+SLP O2 HO2 SING N N  9
+SLP C6  H6 SING N N 10
+SLP C6 H6A SING N N 11
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SLP SMILES_CANONICAL               CACTVS 3.352                                    OC(=O)CC[SeH]
+SLP           SMILES               CACTVS 3.352                                    OC(=O)CC[SeH]
+SLP SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                  C(C[SeH])C(=O)O
+SLP           SMILES "OpenEye OEToolkits" 1.7.0                                  C(C[SeH])C(=O)O
+SLP            InChI                InChI  1.03 InChI=1S/C3H6O2Se/c4-3(5)1-2-6/h6H,1-2H2,(H,4,5)
+SLP         InChIKey                InChI  1.03                      DGRAMMLRUJGIJS-UHFFFAOYSA-N
+#
+_pdbx_chem_comp_identifier.comp_id               SLP
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version       1.6.1
+_pdbx_chem_comp_identifier.identifier            "3-selanylpropanoic acid"
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+SLP  "Create component" 2009-11-10 PDBJ ? ?
+SLP "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SLP SE Se 9.002  1.125 1
+SLP O1  O 3.805  1.125 2
+SLP C2  C 7.702  0.375 3
+SLP O2  O 5.104 -1.125 4
+SLP C6  C 6.404  1.125 5
+SLP C7  C 5.104  0.375 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SLP SE C2 SINGLE NONE 1
+SLP O1 C7 DOUBLE NONE 2
+SLP C2 C6 SINGLE NONE 3
+SLP O2 C7 SINGLE NONE 4
+SLP C6 C7 SINGLE NONE 5
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SLP
+_pdbe_chem_comp_rdkit_properties.exactmw                               153.953
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             52.350
+_pdbe_chem_comp_rdkit_properties.tpsa                                  37.300
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.220
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             24.209
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+_pdbe_chem_comp_external_mappings.comp_id           SLP
+_pdbe_chem_comp_external_mappings.source            UniChem
+_pdbe_chem_comp_external_mappings.resource          ChEMBL
+_pdbe_chem_comp_external_mappings.resource_id       CHEMBL1235962
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SLP  SE -1.949  1.041  0.486 ETKDGv2  1
+SLP  O1  2.338 -0.629  0.544 ETKDGv2  2
+SLP  C2 -1.060 -0.664  0.144 ETKDGv2  3
+SLP  O2  1.245  1.380  0.738 ETKDGv2  4
+SLP  C6  0.254 -0.479 -0.621 ETKDGv2  5
+SLP  C7  1.335  0.077  0.256 ETKDGv2  6
+SLP HSE -2.185  1.263 -1.016 ETKDGv2  7
+SLP  H2 -0.877 -1.185  1.108 ETKDGv2  8
+SLP H2A -1.748 -1.291 -0.462 ETKDGv2  9
+SLP HO2  1.972  1.768  1.327 ETKDGv2 10
+SLP  H6  0.574 -1.471 -1.011 ETKDGv2 11
+SLP H6A  0.101  0.190 -1.493 ETKDGv2 12
+#

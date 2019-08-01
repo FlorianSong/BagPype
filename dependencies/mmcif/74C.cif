@@ -1,0 +1,174 @@
+data_74C
+#
+_chem_comp.id                                        74C
+_chem_comp.name                                      "methyl radical"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C H3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2016-08-23
+_chem_comp.pdbx_modified_date                        2017-09-08
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            15.035
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         74C
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
+_chem_comp.pdbx_model_coordinates_db_code            5LS7
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+74C  C C1 C 0 1 N N N -26.750 -6.163 -0.703 ? ? ?  C 74C 1
+74C H2 H2 H 0 1 N N N -25.670 -6.163 -0.703 ? ? ? H2 74C 2
+74C H3 H3 H 0 1 N N N -27.290 -6.163  0.232 ? ? ? H3 74C 3
+74C H4 H4 H 0 1 N N N -27.290 -6.163 -1.638 ? ? ? H4 74C 4
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+74C C H2 SING N N 1
+74C C H3 SING N N 2
+74C C H4 SING N N 3
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+74C            InChI                InChI  1.03           InChI=1S/CH4/h1H4
+74C         InChIKey                InChI  1.03 VNWKTOKETHGBQD-UHFFFAOYSA-N
+74C SMILES_CANONICAL               CACTVS 3.385                     "[CH3]"
+74C           SMILES               CACTVS 3.385                     "[CH3]"
+74C SMILES_CANONICAL "OpenEye OEToolkits" 2.0.5                     "[CH3]"
+74C           SMILES "OpenEye OEToolkits" 2.0.5                     "[CH3]"
+#
+_pdbx_chem_comp_identifier.comp_id               74C
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version       2.0.5
+_pdbx_chem_comp_identifier.identifier            "$l^{3}-carbane"
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+74C "Create component" 2016-08-23  EBI MJC ?
+74C  "Initial release" 2017-09-13 RCSB   ? ?
+#
+_pdbx_chem_comp_synonyms.comp_id          74C
+_pdbx_chem_comp_synonyms.name             Methane
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+_pdbe_chem_comp_atom_depiction.comp_id             74C
+_pdbe_chem_comp_atom_depiction.atom_id             C
+_pdbe_chem_comp_atom_depiction.element             C
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       3.805
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       0.000
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        1
+
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               74C
+_pdbe_chem_comp_rdkit_properties.exactmw                               16.031
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           0
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                0
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        0
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             12.954
+_pdbe_chem_comp_rdkit_properties.tpsa                                  0
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.636
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             6.731
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         1
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+74C UniChem        ChEMBL CHEMBL17564
+74C UniChem "KEGG LIGAND"      C01438
+74C UniChem         ChEBI       16183
+74C UniChem    NMRShiftDB    20029286
+74C UniChem  MetaboLights  MTBLC16183
+74C UniChem        BRENDA      147858
+74C UniChem        BRENDA       19239
+74C UniChem        BRENDA      192675
+74C UniChem        BRENDA        2028
+74C UniChem        BRENDA      219814
+74C UniChem        BRENDA        8062
+74C UniChem          Rhea       16183
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+74C  C -0.000 -0.001  0.277 ETKDGv2 1
+74C H2 -0.872 -0.577 -0.095 ETKDGv2 2
+74C H3  0.936 -0.466 -0.094 ETKDGv2 3
+74C H4 -0.064  1.044 -0.089 ETKDGv2 4
+#

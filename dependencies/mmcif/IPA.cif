@@ -1,0 +1,292 @@
+data_IPA
+#
+_chem_comp.id                                        IPA
+_chem_comp.name                                      "ISOPROPYL ALCOHOL"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H8 O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             2-PROPANOL
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             IOH
+_chem_comp.formula_weight                            60.095
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         IPA
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1DY5
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+IPA  C1  C1 C 0 1 N N N 62.175 -8.494 35.096 -0.622  1.298  0.111  C1 IPA  1
+IPA  C2  C2 C 0 1 N N N 61.426 -7.737 33.937  0.010 -0.007 -0.379  C2 IPA  2
+IPA  C3  C3 C 0 1 N N N 60.030 -7.315 34.415  1.459 -0.085  0.105  C3 IPA  3
+IPA  O2  O2 O 0 1 N N N 61.552 -8.822 33.066 -0.726 -1.116  0.138  O2 IPA  4
+IPA H11 H11 H 0 1 N N N 63.175 -8.796 34.751 -0.060  2.145 -0.284 H11 IPA  5
+IPA H12 H12 H 0 1 N N N 62.273 -7.828 35.966 -1.654  1.354 -0.234 H12 IPA  6
+IPA H13 H13 H 0 1 N N N 61.601 -9.388 35.381 -0.601  1.325  1.200 H13 IPA  7
+IPA  H2  H2 H 0 1 N N N 61.762 -6.775 33.522 -0.011 -0.033 -1.469  H2 IPA  8
+IPA H31 H31 H 0 1 N N N 59.508 -6.786 33.604  1.480 -0.058  1.195 H31 IPA  9
+IPA H32 H32 H 0 1 N N N 59.455 -8.208 34.700  1.909 -1.014 -0.244 H32 IPA 10
+IPA H33 H33 H 0 1 N N N 60.126 -6.648 35.285  2.021  0.762 -0.289 H33 IPA 11
+IPA HO2 HO2 H 0 1 N N N 61.151 -8.608 32.232 -1.655 -1.131 -0.129 HO2 IPA 12
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+IPA C1  C2 SING N N  1
+IPA C1 H11 SING N N  2
+IPA C1 H12 SING N N  3
+IPA C1 H13 SING N N  4
+IPA C2  C3 SING N N  5
+IPA C2  O2 SING N N  6
+IPA C2  H2 SING N N  7
+IPA C3 H31 SING N N  8
+IPA C3 H32 SING N N  9
+IPA C3 H33 SING N N 10
+IPA O2 HO2 SING N N 11
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+IPA           SMILES              ACDLabs 11.02                              OC(C)C
+IPA SMILES_CANONICAL               CACTVS 3.352                              CC(C)O
+IPA           SMILES               CACTVS 3.352                              CC(C)O
+IPA SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                              CC(C)O
+IPA           SMILES "OpenEye OEToolkits" 1.7.0                              CC(C)O
+IPA            InChI                InChI  1.03 InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3
+IPA         InChIKey                InChI  1.03         KFZMGEQAYNKOFK-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+IPA "SYSTEMATIC NAME"              ACDLabs 11.02 propan-2-ol
+IPA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 propan-2-ol
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+IPA  "Create component" 1999-07-08  EBI ? ?
+IPA "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   IPA
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02325
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Isopropyl alcohol"
+_pdbe_chem_comp_drugbank_details.description               "An isomer of 1-propanol. It is a colorless liquid having disinfectant properties. It is used in the manufacture of acetone and its derivatives and as a solvent. Topically, it is used as an antiseptic."
+_pdbe_chem_comp_drugbank_details.cas_number                67-63-0
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           IPA
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02325
+_pdbe_chem_comp_drugbank_classification.parent            "Secondary alcohols"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Organooxygen compounds"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic oxygen compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as secondary alcohols. These are compounds containing a secondary alcohol functional group, with the general structure HOC(R)(R') (R,R'=alkyl, aryl)."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+IPA DB02325                                    "mRNA-capping enzyme"                                                                  Humans O60942 unknown  1
+IPA DB02325                        "FMN-dependent NADH-azoreductase"                                         "Escherichia coli (strain K12)" P41407 unknown  2
+IPA DB02325 "Transcription termination/antitermination protein NusG"                                         "Aquifex aeolicus (strain VF5)" O67757 unknown  3
+IPA DB02325   "1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase"                                                                  Humans Q9BV57 unknown  4
+IPA DB02325                                   "GTP cyclohydrolase 1"                                                                  Humans P30793 unknown  5
+IPA DB02325                        "Growth/differentiation factor 5"                                                                  Humans P43026 unknown  6
+IPA DB02325                                        "Subtilisin BPN'"                                            "Bacillus amyloliquefaciens" P00782 unknown  7
+IPA DB02325                         "Ig kappa chain V-IV region Len"                                                                  Humans P06312 unknown  8
+IPA DB02325                                "Ribonuclease pancreatic"                                                                  Humans P07998 unknown  9
+IPA DB02325                                          "Pectate lyase"                                               "Niveispirillum irakense" Q9X592 unknown 10
+IPA DB02325                                                Trypsin-2                                                                  Humans P07478 unknown 11
+IPA DB02325                                        "Gag polyprotein"                                                                 SIV-mac P05893 unknown 12
+IPA DB02325                                "Aldehyde oxidoreductase"                                                   "Desulfovibrio gigas" Q46509 unknown 13
+IPA DB02325                  "Phospholipase A2, membrane associated"                                                                  Humans P14555 unknown 14
+IPA DB02325                              "Ganglioside GM2 activator"                                                                  Humans P17900 unknown 15
+IPA DB02325                                              Thermolysin                                        "Geobacillus stearothermophilus" P43133 unknown 16
+IPA DB02325                 "Scaffolding dockerin binding protein A"                                              "Clostridium thermocellum" P71143 unknown 17
+IPA DB02325                                        Chitotriosidase-1                                                                  Humans Q13231 unknown 18
+IPA DB02325                                        "Alr1529 protein"                              "Nostoc sp. (strain PCC 7120 / UTEX 2576)" Q8YWS4 unknown 19
+IPA DB02325                                   "L-xylulose reductase"                                                                  Humans Q7Z4W1 unknown 20
+IPA DB02325                                          Peroxiredoxin-6                                                                  Humans P30041 unknown 21
+IPA DB02325                        "Putative deoxyribonuclease YcfH" "Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)" Q9WZD5 unknown 22
+IPA DB02325                                  "Tumor necrosis factor"                                                                  Humans P01375 unknown 23
+IPA DB02325             "Tartrate-resistant acid phosphatase type 5"                                                                  Humans P13686 unknown 24
+IPA DB02325                                   Adenosylhomocysteinase                                                                  Humans P23526 unknown 25
+IPA DB02325                        "Spliceosome RNA helicase DDX39B"                                                                  Humans Q13838 unknown 26
+IPA DB02325                       "DNA mismatch repair protein MutL"                                         "Escherichia coli (strain K12)" P23367 unknown 27
+IPA DB02325                                "Gag-Pro-Pol polyprotein"                                                                 RSV-SRA Q04095 unknown 28
+IPA DB02325                                                Endolysin                                           "Enterobacteria phage lambda" P03706 unknown 29
+IPA DB02325                                  "Glucarate dehydratase"                                         "Escherichia coli (strain K12)" P0AES2 unknown 30
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+IPA "Isopropyl Alcohol"   ChEMBL
+IPA       "Medi-Swab H"   ChEMBL
+IPA                 IPA   ChEMBL
+IPA          2-Propanol   ChEMBL
+IPA             Sterets   ChEMBL
+IPA         Isopropanol   ChEMBL
+IPA             Manugel   ChEMBL
+IPA "Isopropyl alcohol"   ChEMBL
+IPA            Swim-Ear   ChEMBL
+IPA         "Sterets H"   ChEMBL
+IPA           Medi-Swab   ChEMBL
+IPA          2-Propanol DrugBank
+IPA         Isopropanol DrugBank
+IPA "Isopropyl alcohol" DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+IPA C1 C 5.598  1.125 1
+IPA C2 C 4.299  0.375 2
+IPA C3 C 3.000  1.125 3
+IPA O2 O 4.299 -1.125 4
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+IPA C1 C2 SINGLE NONE 1
+IPA C2 C3 SINGLE NONE 2
+IPA C2 O2 SINGLE NONE 3
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               IPA
+_pdbe_chem_comp_rdkit_properties.exactmw                               60.058
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                1
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        1
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             37.590
+_pdbe_chem_comp_rdkit_properties.tpsa                                  20.230
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.387
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             17.355
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         4
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+IPA UniChem        ChEMBL        CHEMBL582
+IPA UniChem      DrugBank          DB02325
+IPA UniChem      DrugBank          DB04402
+IPA UniChem "KEGG LIGAND"           C01845
+IPA UniChem         ChEBI            17824
+IPA UniChem          ZINC ZINC000000901159
+IPA UniChem          ZINC     ZINC00901159
+IPA UniChem    NMRShiftDB         10016625
+IPA UniChem        BRENDA            18169
+IPA UniChem        BRENDA             1878
+IPA UniChem        BRENDA            20752
+IPA UniChem        BRENDA            30754
+IPA UniChem        BRENDA            49534
+IPA UniChem        BRENDA              682
+IPA UniChem        BRENDA            80355
+IPA UniChem        BRENDA              958
+IPA UniChem          Rhea            17824
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+IPA  C1  1.345 -0.302  0.088 ETKDGv2  1
+IPA  C2  0.016  0.358 -0.273 ETKDGv2  2
+IPA  C3 -1.158 -0.551  0.103 ETKDGv2  3
+IPA  O2 -0.090  1.581  0.406 ETKDGv2  4
+IPA H11  2.186  0.365 -0.200 ETKDGv2  5
+IPA H12  1.459 -1.264 -0.456 ETKDGv2  6
+IPA H13  1.401 -0.493  1.181 ETKDGv2  7
+IPA  H2  0.002  0.531 -1.374 ETKDGv2  8
+IPA H31 -2.116 -0.069 -0.187 ETKDGv2  9
+IPA H32 -1.079 -1.522 -0.431 ETKDGv2 10
+IPA H33 -1.169 -0.737  1.198 ETKDGv2 11
+IPA HO2 -0.797  2.104 -0.054 ETKDGv2 12
+#

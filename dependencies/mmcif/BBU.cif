@@ -1,0 +1,217 @@
+data_BBU
+#
+_chem_comp.id                                        BBU
+_chem_comp.name                                      1-BROMOBUTANE
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C4 H9 Br"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2004-11-01
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            137.018
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         BBU
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1XVB
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+BBU BR1 BR1 BR 0 0 N N N 103.047 71.809 76.323 -0.103  0.000 -1.495 BR1 BBU  1
+BBU  C1  C1  C 0 1 N N N 103.227 73.709 76.587  0.821  0.000  0.239  C1 BBU  2
+BBU  C2  C2  C 0 1 N N N 104.421 74.338 75.856 -0.211  0.000  1.368  C2 BBU  3
+BBU  C3  C3  C 0 1 N N N 104.455 75.842 76.137  0.508  0.000  2.718  C3 BBU  4
+BBU  C4  C4  C 0 1 N N N 104.333 76.598 74.807 -0.524  0.000  3.847  C4 BBU  5
+BBU H11 1H1  H 0 1 N N N 103.266 73.949 77.675  1.445  0.890  0.318 H11 BBU  6
+BBU H12 2H1  H 0 1 N N N 102.282 74.232 76.311  1.445 -0.890  0.318 H12 BBU  7
+BBU H21 1H2  H 0 1 N N N 104.413 74.113 74.764 -0.836 -0.890  1.289 H21 BBU  8
+BBU H22 2H2  H 0 1 N N N 105.384 73.839 76.114 -0.836  0.890  1.289 H22 BBU  9
+BBU H31 1H3  H 0 1 N N N 105.357 76.146 76.718  1.132  0.890  2.797 H31 BBU 10
+BBU H32 2H3  H 0 1 N N N 103.681 76.154 76.877  1.132 -0.890  2.797 H32 BBU 11
+BBU H41 1H4  H 0 1 N N N 103.431 76.294 74.226 -0.011  0.000  4.808 H41 BBU 12
+BBU H42 2H4  H 0 1 N N N 104.358 77.694 75.012 -1.149  0.890  3.768 H42 BBU 13
+BBU H43 3H4  H 0 1 N N N 105.107 76.286 74.068 -1.149 -0.890  3.768 H43 BBU 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+BBU BR1  C1 SING N N  1
+BBU  C1  C2 SING N N  2
+BBU  C1 H11 SING N N  3
+BBU  C1 H12 SING N N  4
+BBU  C2  C3 SING N N  5
+BBU  C2 H21 SING N N  6
+BBU  C2 H22 SING N N  7
+BBU  C3  C4 SING N N  8
+BBU  C3 H31 SING N N  9
+BBU  C3 H32 SING N N 10
+BBU  C4 H41 SING N N 11
+BBU  C4 H42 SING N N 12
+BBU  C4 H43 SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+BBU           SMILES              ACDLabs 10.04                                BrCCCC
+BBU SMILES_CANONICAL               CACTVS 3.341                                CCCCBr
+BBU           SMILES               CACTVS 3.341                                CCCCBr
+BBU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                CCCCBr
+BBU           SMILES "OpenEye OEToolkits" 1.5.0                                CCCCBr
+BBU            InChI                InChI  1.03 InChI=1S/C4H9Br/c1-2-3-4-5/h2-4H2,1H3
+BBU         InChIKey                InChI  1.03           MPPPKRYCTPRNTB-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+BBU "SYSTEMATIC NAME"              ACDLabs 10.04 1-bromobutane
+BBU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 1-bromobutane
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+BBU  "Create component" 2004-11-01 RCSB ? ?
+BBU "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbx_chem_comp_synonyms.comp_id          BBU
+_pdbx_chem_comp_synonyms.name             1-Bromo-Butane
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+BBU BR1 Br 3.000 -0.375 1
+BBU  C1  C 4.299  0.375 2
+BBU  C2  C 5.598 -0.375 3
+BBU  C3  C 6.897  0.375 4
+BBU  C4  C 8.196 -0.375 5
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+BBU BR1 C1 SINGLE NONE 1
+BBU  C1 C2 SINGLE NONE 2
+BBU  C2 C3 SINGLE NONE 3
+BBU  C3 C4 SINGLE NONE 4
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               BBU
+_pdbe_chem_comp_rdkit_properties.exactmw                               135.989
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           0
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                0
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        1
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             54.346
+_pdbe_chem_comp_rdkit_properties.tpsa                                  0
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.181
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             28.702
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         5
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+BBU UniChem     ChEMBL     CHEMBL160949
+BBU UniChem       ZINC ZINC000002041078
+BBU UniChem       ZINC     ZINC02041078
+BBU UniChem NMRShiftDB         10005627
+BBU UniChem     BRENDA             7078
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+BBU BR1  2.678  1.022  0.001 ETKDGv2  1
+BBU  C1  1.465 -0.318  0.708 ETKDGv2  2
+BBU  C2  0.477 -0.810 -0.356 ETKDGv2  3
+BBU  C3 -0.528  0.262 -0.813 ETKDGv2  4
+BBU  C4 -1.554  0.611  0.265 ETKDGv2  5
+BBU H11  2.078 -1.178  1.052 ETKDGv2  6
+BBU H12  0.933  0.089  1.592 ETKDGv2  7
+BBU H21 -0.076 -1.689  0.041 ETKDGv2  8
+BBU H22  1.054 -1.158 -1.240 ETKDGv2  9
+BBU H31  0.001  1.184 -1.135 ETKDGv2 10
+BBU H32 -1.076 -0.131 -1.697 ETKDGv2 11
+BBU H41 -2.326  1.284 -0.166 ETKDGv2 12
+BBU H42 -2.056 -0.307  0.637 ETKDGv2 13
+BBU H43 -1.072  1.140  1.112 ETKDGv2 14
+#

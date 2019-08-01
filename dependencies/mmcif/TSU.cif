@@ -1,0 +1,307 @@
+data_TSU
+#
+_chem_comp.id                                        TSU
+_chem_comp.name                                      "PARA-TOLUENE SULFONATE"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C7 H8 O3 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            172.202
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         TSU
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1B0D
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+TSU   S   S S 0 1 N N N 10.899 20.185 12.209 -1.796  0.000 -0.086   S TSU  1
+TSU  O1  O1 O 0 1 N N N 11.505 20.654 13.422 -2.184 -1.249 -0.641  O1 TSU  2
+TSU  O2  O2 O 0 1 N N N 10.132 19.011 12.525 -2.184  1.251 -0.638  O2 TSU  3
+TSU  O3  O3 O 0 1 N Y N 11.957 19.794 11.314 -2.282 -0.002  1.357  O3 TSU  4
+TSU  C1  C1 C 0 1 Y N N  9.890 21.441 11.495 -0.035  0.000 -0.043  C1 TSU  5
+TSU  C2  C2 C 0 1 Y N N  8.932 22.128 12.272  0.656 -1.197 -0.029  C2 TSU  6
+TSU  C3  C3 C 0 1 Y N N  8.126 23.135 11.713  2.038 -1.197  0.005  C3 TSU  7
+TSU  C4  C4 C 0 1 Y N N  8.264 23.477 10.360  2.729 -0.000  0.023  C4 TSU  8
+TSU  C5  C5 C 0 1 Y N N  9.214 22.799  9.574  2.038  1.197  0.007  C5 TSU  9
+TSU  C6  C6 C 0 1 Y N N 10.016 21.791 10.141  0.656  1.197 -0.031  C6 TSU 10
+TSU  C7  C7 C 0 1 N N N  7.384 24.583  9.742  4.235 -0.000  0.060  C7 TSU 11
+TSU HO3 HO3 H 0 1 N Y N 12.797 19.938 11.734 -3.244 -0.002  1.448 HO3 TSU 12
+TSU  H2  H2 H 0 1 N N N  8.816 21.875 13.316  0.116 -2.132 -0.043  H2 TSU 13
+TSU  H3  H3 H 0 1 N N N  7.399 23.646 12.327  2.578 -2.132  0.017  H3 TSU 14
+TSU  H5  H5 H 0 1 N N N  9.328 23.053  8.531  2.578  2.132  0.021  H5 TSU 15
+TSU  H6  H6 H 0 1 N N N 10.740 21.278  9.525  0.116  2.132 -0.047  H6 TSU 16
+TSU H71 H71 H 0 1 N N N  7.888 25.555  9.847  4.624  0.001 -0.959 H71 TSU 17
+TSU H72 H72 H 0 1 N N N  7.220 24.368  8.676  4.586  0.890  0.583 H72 TSU 18
+TSU H73 H73 H 0 1 N N N  6.416 24.615 10.263  4.586 -0.891  0.582 H73 TSU 19
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+TSU  S  O1 DOUB N N  1
+TSU  S  O2 DOUB N N  2
+TSU  S  O3 SING N N  3
+TSU  S  C1 SING N N  4
+TSU O3 HO3 SING N N  5
+TSU C1  C2 DOUB Y N  6
+TSU C1  C6 SING Y N  7
+TSU C2  C3 SING Y N  8
+TSU C2  H2 SING N N  9
+TSU C3  C4 DOUB Y N 10
+TSU C3  H3 SING N N 11
+TSU C4  C5 SING Y N 12
+TSU C4  C7 SING N N 13
+TSU C5  C6 DOUB Y N 14
+TSU C5  H5 SING N N 15
+TSU C6  H6 SING N N 16
+TSU C7 H71 SING N N 17
+TSU C7 H72 SING N N 18
+TSU C7 H73 SING N N 19
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+TSU           SMILES              ACDLabs 12.01                                            O=S(=O)(O)c1ccc(cc1)C
+TSU SMILES_CANONICAL               CACTVS 3.370                                          Cc1ccc(cc1)[S](O)(=O)=O
+TSU           SMILES               CACTVS 3.370                                          Cc1ccc(cc1)[S](O)(=O)=O
+TSU SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                            Cc1ccc(cc1)S(=O)(=O)O
+TSU           SMILES "OpenEye OEToolkits" 1.7.0                                            Cc1ccc(cc1)S(=O)(=O)O
+TSU            InChI                InChI  1.03 InChI=1S/C7H8O3S/c1-6-2-4-7(5-3-6)11(8,9)10/h2-5H,1H3,(H,8,9,10)
+TSU         InChIKey                InChI  1.03                                      JOXIMZWYDAKGHI-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+TSU "SYSTEMATIC NAME"              ACDLabs 12.01 "4-methylbenzenesulfonic acid"
+TSU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "4-methylbenzenesulfonic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+TSU  "Create component" 1999-07-08  EBI ? ?
+TSU "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   TSU
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB03120
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Para-Toluene Sulfonate"
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                .
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           TSU
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03120
+_pdbe_chem_comp_drugbank_classification.parent            p-Methylbenzenesulfonates
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Benzene and substituted derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        Benzenoids
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as p-methylbenzenesulfonates. These are benzenesulfonic acids (or derivative thereof) carrying a methyl group at the para- position."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+TSU DB03120      "Lysozyme C" Humans P61626 unknown 1
+TSU DB03120 "Pro-cathepsin H" Humans P09668 unknown 2
+#
+_pdbx_chem_comp_synonyms.comp_id          TSU
+_pdbx_chem_comp_synonyms.name             P-Toluenesulfonate
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+TSU  S S 4.500  2.018  1
+TSU O1 O 4.500  3.518  2
+TSU O2 O 6.000  2.018  3
+TSU O3 O 3.000  2.018  4
+TSU C1 C 4.500  0.517  5
+TSU C2 C 3.201 -0.233  6
+TSU C3 C 3.201 -1.732  7
+TSU C4 C 4.500 -2.482  8
+TSU C5 C 5.799 -1.732  9
+TSU C6 C 5.799 -0.233 10
+TSU C7 C 4.500 -3.982 11
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+TSU  S O1 DOUBLE NONE  1
+TSU  S O2 DOUBLE NONE  2
+TSU  S O3 SINGLE NONE  3
+TSU  S C1 SINGLE NONE  4
+TSU C1 C2 DOUBLE NONE  5
+TSU C1 C6 SINGLE NONE  6
+TSU C2 C3 SINGLE NONE  7
+TSU C3 C4 DOUBLE NONE  8
+TSU C4 C5 SINGLE NONE  9
+TSU C4 C7 SINGLE NONE 10
+TSU C5 C6 DOUBLE NONE 11
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+TSU MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+TSU         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+TSU C1 F1 1
+TSU C2 F1 1
+TSU C3 F1 1
+TSU C4 F1 1
+TSU C5 F1 1
+TSU C6 F1 1
+TSU C1 S1 1
+TSU C2 S1 1
+TSU C3 S1 1
+TSU C4 S1 1
+TSU C5 S1 1
+TSU C6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               TSU
+_pdbe_chem_comp_rdkit_properties.exactmw                               172.019
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.143
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             76.751
+_pdbe_chem_comp_rdkit_properties.tpsa                                  54.370
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.079
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             41.298
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+TSU UniChem        ChEMBL     CHEMBL541253
+TSU UniChem      DrugBank          DB03120
+TSU UniChem "KEGG LIGAND"           C06677
+TSU UniChem         ChEBI            27849
+TSU UniChem          ZINC ZINC000006427042
+TSU UniChem    NMRShiftDB         10008880
+TSU UniChem     BindingDb         50294029
+TSU UniChem        BRENDA            49821
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+TSU   S -2.906 -0.303 -0.013 ETKDGv2  1
+TSU  O1 -3.421 -0.551 -1.403 ETKDGv2  2
+TSU  O2 -3.334 -1.444  0.867 ETKDGv2  3
+TSU  O3 -3.554  1.135  0.566 ETKDGv2  4
+TSU  C1 -1.149 -0.193 -0.042 ETKDGv2  5
+TSU  C2 -0.442 -0.380  1.083 ETKDGv2  6
+TSU  C3  1.032 -0.275  1.062 ETKDGv2  7
+TSU  C4  1.676 -0.003 -0.086 ETKDGv2  8
+TSU  C5  0.892  0.226 -1.324 ETKDGv2  9
+TSU  C6 -0.444  0.134 -1.303 ETKDGv2 10
+TSU  C7  3.168  0.142 -0.105 ETKDGv2 11
+TSU HO3 -3.204  1.219  1.489 ETKDGv2 12
+TSU  H2 -0.941 -0.604  2.017 ETKDGv2 13
+TSU  H3  1.583 -0.419  1.983 ETKDGv2 14
+TSU  H5  1.397  0.471 -2.250 ETKDGv2 15
+TSU  H6 -1.006  0.306 -2.212 ETKDGv2 16
+TSU H71  3.642 -0.620  0.550 ETKDGv2 17
+TSU H72  3.446  1.155  0.254 ETKDGv2 18
+TSU H73  3.562  0.004 -1.134 ETKDGv2 19
+#

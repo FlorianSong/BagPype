@@ -1,0 +1,244 @@
+data_EVI
+#
+_chem_comp.id                                        EVI
+_chem_comp.name                                      1,3-thiazole-2-sulfonamide
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H4 N2 O2 S2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2011-06-03
+_chem_comp.pdbx_modified_date                        2011-10-14
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            164.206
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         EVI
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3S77
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+EVI    S    S S 0 1 N N N 31.871 -0.853 13.930  1.393 -0.101 -0.000    S EVI  1
+EVI   O1   O1 O 0 1 N N N 30.906 -1.887 14.156  1.717 -0.695 -1.250   O1 EVI  2
+EVI   S1   S1 S 0 1 Y N N 33.582 -3.148 13.243 -1.512 -1.118  0.000   S1 EVI  3
+EVI   C2   C2 C 0 1 Y N N 33.087 -1.514 13.030 -0.352  0.138  0.000   C2 EVI  4
+EVI   O2   O2 O 0 1 N N N 31.383  0.285 13.161  1.717 -0.695  1.250   O2 EVI  5
+EVI   N3   N3 N 0 1 Y N N 33.753 -0.885 12.048 -0.941  1.286  0.000   N3 EVI  6
+EVI   C4   C4 C 0 1 Y N N 34.675 -1.725 11.461 -2.258  1.286  0.000   C4 EVI  7
+EVI   C5   C5 C 0 1 Y N N 34.758 -3.018 11.968 -2.813  0.071  0.000   C5 EVI  8
+EVI   NH   NH N 0 1 N N N 32.432 -0.311 15.343  2.093  1.399 -0.000   NH EVI  9
+EVI   H4   H4 H 0 1 N N N 35.303 -1.395 10.647 -2.842  2.195  0.001   H4 EVI 10
+EVI   H5   H5 H 0 1 N N N 35.428 -3.796 11.632 -3.871 -0.145  0.000   H5 EVI 11
+EVI  HNH  HNH H 0 1 N N N 31.680  0.084 15.871  1.537  2.194 -0.000  HNH EVI 12
+EVI HNHA HNHA H 0 0 N N N 32.835 -1.070 15.854  3.060  1.484 -0.000 HNHA EVI 13
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+EVI C2    S SING N N  1
+EVI O2    S DOUB N N  2
+EVI  S   O1 DOUB N N  3
+EVI  S   NH SING N N  4
+EVI C5   S1 SING Y N  5
+EVI C2   S1 SING Y N  6
+EVI N3   C2 DOUB Y N  7
+EVI C4   N3 SING Y N  8
+EVI C4   C5 DOUB Y N  9
+EVI C4   H4 SING N N 10
+EVI C5   H5 SING N N 11
+EVI NH  HNH SING N N 12
+EVI NH HNHA SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+EVI           SMILES              ACDLabs 12.01                                         O=S(=O)(N)c1nccs1
+EVI SMILES_CANONICAL               CACTVS 3.370                                       N[S](=O)(=O)c1sccn1
+EVI           SMILES               CACTVS 3.370                                       N[S](=O)(=O)c1sccn1
+EVI SMILES_CANONICAL "OpenEye OEToolkits" 1.7.2                                       c1csc(n1)S(=O)(=O)N
+EVI           SMILES "OpenEye OEToolkits" 1.7.2                                       c1csc(n1)S(=O)(=O)N
+EVI            InChI                InChI  1.03 InChI=1S/C3H4N2O2S2/c4-9(6,7)3-5-1-2-8-3/h1-2H,(H2,4,6,7)
+EVI         InChIKey                InChI  1.03                               WKXVETMYCFRGET-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+EVI "SYSTEMATIC NAME"              ACDLabs 12.01 1,3-thiazole-2-sulfonamide
+EVI "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.2 1,3-thiazole-2-sulfonamide
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+EVI     "Create component" 2011-06-03 RCSB LD ?
+EVI "Modify aromatic_flag" 2011-06-04 RCSB  ? ?
+EVI    "Modify descriptor" 2011-06-04 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+EVI  S S 4.500  0.922 1
+EVI O1 O 6.000  0.922 2
+EVI S1 S 5.713 -1.460 3
+EVI C2 C 4.500 -0.578 4
+EVI O2 O 3.000  0.922 5
+EVI N3 N 3.287 -1.460 6
+EVI C4 C 3.750 -2.887 7
+EVI C5 C 5.250 -2.887 8
+EVI NH N 4.500  2.422 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+EVI C2  S SINGLE NONE 1
+EVI O2  S DOUBLE NONE 2
+EVI  S O1 DOUBLE NONE 3
+EVI  S NH SINGLE NONE 4
+EVI C5 S1 SINGLE NONE 5
+EVI C2 S1 SINGLE NONE 6
+EVI N3 C2 DOUBLE NONE 7
+EVI C4 N3 SINGLE NONE 8
+EVI C4 C5 DOUBLE NONE 9
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+EVI MurckoScaffold S1 scaffold c1cscn1 InChI=1S/C3H3NS/c1-2-5-3-4-1/h1-3H FZWLAAWBMGSTSO-UHFFFAOYSA-N
+EVI       thiazole F1 fragment c1cscn1 InChI=1S/C3H3NS/c1-2-5-3-4-1/h1-3H FZWLAAWBMGSTSO-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+EVI C5 F1 1
+EVI C4 F1 1
+EVI N3 F1 1
+EVI C2 F1 1
+EVI S1 F1 1
+EVI S1 S1 1
+EVI C2 S1 1
+EVI N3 S1 1
+EVI C4 S1 1
+EVI C5 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               EVI
+_pdbe_chem_comp_rdkit_properties.exactmw                               163.971
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             62.128
+_pdbe_chem_comp_rdkit_properties.tpsa                                  73.050
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.318
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             34.057
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+EVI UniChem ZINC ZINC000001484979
+EVI UniChem ZINC     ZINC01484979
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+EVI    S -1.538  0.614  0.152 ETKDGv2  1
+EVI   O1 -2.233 -0.117  1.267 ETKDGv2  2
+EVI   S1  1.210  0.351 -1.297 ETKDGv2  3
+EVI   C2  0.152  0.158  0.118 ETKDGv2  4
+EVI   O2 -1.654  2.095  0.377 ETKDGv2  5
+EVI   N3  0.765 -0.352  1.138 ETKDGv2  6
+EVI   C4  2.147 -0.635  0.864 ETKDGv2  7
+EVI   C5  2.564 -0.333 -0.364 ETKDGv2  8
+EVI   NH -2.280  0.193 -1.352 ETKDGv2  9
+EVI   H4  2.801 -1.065  1.610 ETKDGv2 10
+EVI   H5  3.571 -0.483 -0.727 ETKDGv2 11
+EVI  HNH -3.296  0.420 -1.266 ETKDGv2 12
+EVI HNHA -2.210 -0.845 -1.447 ETKDGv2 13
+#

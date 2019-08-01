@@ -1,0 +1,252 @@
+data_PDO
+#
+_chem_comp.id                                        PDO
+_chem_comp.name                                      1,3-PROPANDIOL
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H8 O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             HPG
+_chem_comp.formula_weight                            76.094
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         PDO
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1NAI
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+PDO  C1  C1 C 0 1 N N N 30.221  7.281 40.592 -1.249 -0.502  0.000  C1 PDO  1
+PDO  O1  O1 O 0 1 N N N 31.364  7.997 41.091 -2.416  0.323 -0.000  O1 PDO  2
+PDO  C2  C2 C 0 1 N N N 29.148  8.302 40.250  0.000  0.382 -0.000  C2 PDO  3
+PDO  C3  C3 C 0 1 N N N 29.863  9.604 39.966  1.249 -0.502  0.000  C3 PDO  4
+PDO  O3  O3 O 0 1 N N N 30.363  9.589 38.633  2.416  0.323 -0.000  O3 PDO  5
+PDO H11 H11 H 0 1 N N N 30.497  6.709 39.694 -1.249 -1.131  0.890 H11 PDO  6
+PDO H12 H12 H 0 1 N N N 29.849  6.584 41.358 -1.249 -1.131 -0.890 H12 PDO  7
+PDO HO1 HO1 H 0 1 N N N 32.052  7.381 41.313 -3.247 -0.171  0.000 HO1 PDO  8
+PDO H21 H21 H 0 1 N N N 28.577  7.978 39.368 -0.000  1.011 -0.890 H21 PDO  9
+PDO H22 H22 H 0 1 N N N 28.451  8.423 41.092  0.000  1.011  0.890 H22 PDO 10
+PDO H31 H31 H 0 1 N N N 29.160 10.442 40.085  1.249 -1.131  0.890 H31 PDO 11
+PDO H32 H32 H 0 1 N N N 30.699  9.724 40.670  1.249 -1.131 -0.890 H32 PDO 12
+PDO HO3 HO3 H 0 1 N N N 30.812 10.407 38.454  3.247 -0.171  0.000 HO3 PDO 13
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+PDO C1  O1 SING N N  1
+PDO C1  C2 SING N N  2
+PDO C1 H11 SING N N  3
+PDO C1 H12 SING N N  4
+PDO O1 HO1 SING N N  5
+PDO C2  C3 SING N N  6
+PDO C2 H21 SING N N  7
+PDO C2 H22 SING N N  8
+PDO C3  O3 SING N N  9
+PDO C3 H31 SING N N 10
+PDO C3 H32 SING N N 11
+PDO O3 HO3 SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+PDO           SMILES              ACDLabs 11.02                                  OCCCO
+PDO SMILES_CANONICAL               CACTVS 3.352                                  OCCCO
+PDO           SMILES               CACTVS 3.352                                  OCCCO
+PDO SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                C(CO)CO
+PDO           SMILES "OpenEye OEToolkits" 1.7.0                                C(CO)CO
+PDO            InChI                InChI  1.03 InChI=1S/C3H8O2/c4-2-1-3-5/h4-5H,1-3H2
+PDO         InChIKey                InChI  1.03            YPFDHNVEDLHUCE-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+PDO "SYSTEMATIC NAME"              ACDLabs 11.02 propane-1,3-diol
+PDO "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 propane-1,3-diol
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+PDO  "Create component" 1999-07-08  EBI ? ?
+PDO "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   PDO
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02774
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      1,3-Propandiol
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                .
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           PDO
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02774
+_pdbe_chem_comp_drugbank_classification.parent            "Primary alcohols"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Organooxygen compounds"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic oxygen compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as primary alcohols. These are compounds comprising the primary alcohol functional group, with the general structure RCOH (R=alkyl, aryl)."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+PDO DB02774 "ADP-ribosylation factor 1"                      Humans P84077 unknown 1
+PDO DB02774   "Haloalkane dehalogenase" "Sphingomonas paucimobilis" P51698 unknown 2
+#
+_pdbx_chem_comp_synonyms.comp_id          PDO
+_pdbx_chem_comp_synonyms.name             1,3-Propanediol
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+PDO C1 C 7.702  0.375 1
+PDO O1 O 9.002 -0.375 2
+PDO C2 C 6.404 -0.375 3
+PDO C3 C 5.104  0.375 4
+PDO O3 O 3.805 -0.375 5
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+PDO C1 O1 SINGLE NONE 1
+PDO C1 C2 SINGLE NONE 2
+PDO C2 C3 SINGLE NONE 3
+PDO C3 O3 SINGLE NONE 4
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               PDO
+_pdbe_chem_comp_rdkit_properties.exactmw                               76.052
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             42.471
+_pdbe_chem_comp_rdkit_properties.tpsa                                  40.460
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.639
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             18.789
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         5
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+PDO UniChem        ChEMBL     CHEMBL379652
+PDO UniChem      DrugBank          DB02774
+PDO UniChem "KEGG LIGAND"           C02457
+PDO UniChem         ChEBI            16109
+PDO UniChem          ZINC ZINC000001529437
+PDO UniChem          ZINC     ZINC01529437
+PDO UniChem    NMRShiftDB         10016663
+PDO UniChem  MetaboLights       MTBLC16109
+PDO UniChem        BRENDA             2925
+PDO UniChem        BRENDA             3664
+PDO UniChem        BRENDA            43125
+PDO UniChem        BRENDA            44730
+PDO UniChem        BRENDA            90129
+PDO UniChem          Rhea            16109
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+PDO  C1 -1.186  0.487  0.069 ETKDGv2  1
+PDO  O1 -1.813 -0.667  0.561 ETKDGv2  2
+PDO  C2  0.103  0.133 -0.682 ETKDGv2  3
+PDO  C3  1.142 -0.544  0.220 ETKDGv2  4
+PDO  O3  1.538  0.311  1.259 ETKDGv2  5
+PDO H11 -0.955  1.162  0.920 ETKDGv2  6
+PDO H12 -1.875  1.036 -0.612 ETKDGv2  7
+PDO HO1 -2.232 -1.116 -0.219 ETKDGv2  8
+PDO H21 -0.141 -0.546 -1.528 ETKDGv2  9
+PDO H22  0.540  1.062 -1.111 ETKDGv2 10
+PDO H31  2.026 -0.840 -0.389 ETKDGv2 11
+PDO H32  0.716 -1.471  0.658 ETKDGv2 12
+PDO HO3  2.136  0.992  0.854 ETKDGv2 13
+#

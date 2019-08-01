@@ -1,0 +1,308 @@
+data_GOL
+#
+_chem_comp.id                                        GOL
+_chem_comp.name                                      GLYCEROL
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H8 O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             "GLYCERIN; PROPANE-1,2,3-TRIOL"
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             CRY
+_chem_comp.formula_weight                            92.094
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         GOL
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1BXO
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+GOL  C1  C1 C 0 1 N N N 29.490 2.376 31.160 -1.249 -0.665  0.295  C1 GOL  1
+GOL  O1  O1 O 0 1 N N N 28.524 1.609 30.767 -2.413 -0.087 -0.300  O1 GOL  2
+GOL  C2  C2 C 0 1 N N N 30.249 2.850 29.893  0.000  0.034 -0.245  C2 GOL  3
+GOL  O2  O2 O 0 1 N N N 29.526 4.021 29.804  0.000  1.400  0.174  O2 GOL  4
+GOL  C3  C3 C 0 1 N N N 31.780 2.780 29.785  1.249 -0.665  0.295  C3 GOL  5
+GOL  O3  O3 O 0 1 N N N 32.215 4.129 29.472  2.413 -0.087 -0.300  O3 GOL  6
+GOL H11 H11 H 0 1 N N N 29.089 3.241 31.708 -1.295 -0.543  1.377 H11 GOL  7
+GOL H12 H12 H 0 1 N N N 30.169 1.821 31.824 -1.206 -1.727  0.051 H12 GOL  8
+GOL HO1 HO1 H 0 1 N N N 28.037 1.300 31.522 -3.244 -0.483 -0.003 HO1 GOL  9
+GOL  H2  H2 H 0 1 N N N 30.271 2.201 29.005 -0.000 -0.012 -1.334  H2 GOL 10
+GOL HO2 HO2 H 0 1 N N N 29.825 4.522 29.054  0.000  1.517  1.134 HO2 GOL 11
+GOL H31 H31 H 0 1 N N N 32.222 2.438 30.733  1.295 -0.543  1.377 H31 GOL 12
+GOL H32 H32 H 0 1 N N N 32.083 2.080 28.993  1.206 -1.727  0.051 H32 GOL 13
+GOL HO3 HO3 H 0 1 N N N 33.162 4.147 29.393  3.244 -0.483 -0.003 HO3 GOL 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+GOL C1  O1 SING N N  1
+GOL C1  C2 SING N N  2
+GOL C1 H11 SING N N  3
+GOL C1 H12 SING N N  4
+GOL O1 HO1 SING N N  5
+GOL C2  O2 SING N N  6
+GOL C2  C3 SING N N  7
+GOL C2  H2 SING N N  8
+GOL O2 HO2 SING N N  9
+GOL C3  O3 SING N N 10
+GOL C3 H31 SING N N 11
+GOL C3 H32 SING N N 12
+GOL O3 HO3 SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+GOL           SMILES              ACDLabs 12.01                                 OCC(O)CO
+GOL SMILES_CANONICAL               CACTVS 3.370                                 OCC(O)CO
+GOL           SMILES               CACTVS 3.370                                 OCC(O)CO
+GOL SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                               C(C(CO)O)O
+GOL           SMILES "OpenEye OEToolkits" 1.7.0                               C(C(CO)O)O
+GOL            InChI                InChI  1.03 InChI=1S/C3H8O3/c4-1-3(6)2-5/h3-6H,1-2H2
+GOL         InChIKey                InChI  1.03              PEDCQBHIVMGVHV-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+GOL "SYSTEMATIC NAME"              ACDLabs 12.01 propane-1,2,3-triol
+GOL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 propane-1,2,3-triol
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+GOL  "Create component" 1999-07-08  EBI ? ?
+GOL "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   GOL
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB09462
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Glycerin
+_pdbe_chem_comp_drugbank_details.description               "A trihydroxy sugar alcohol that is an intermediate in carbohydrate and lipid metabolism."
+_pdbe_chem_comp_drugbank_details.cas_number                56-81-5
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "When administered rectally, glycerin exerts a hygroscopic and/or local irritant action, drawing water from the tissues into the feces and reflexively stimulating evacuation.  Glycerin decreases intraocular pressure by creating an osmotic gradient between the blood and intraocular fluid, causing fluid to move out of the aqueous and vitreous humors into the bloodstream."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           GOL
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB09462
+_pdbe_chem_comp_drugbank_classification.parent            "Sugar alcohols"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Organooxygen compounds"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic oxygen compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as sugar alcohols. These are hydrogenated forms of carbohydrate in which the carbonyl group (aldehyde or ketone, reducing sugar) has been reduced to a primary or secondary hydroxyl group."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+GOL DB09462                   "Peroxisome proliferator-activated receptor delta"                                                                         Humans Q03181     yes  1
+GOL DB09462                             "Hematopoietic prostaglandin D synthase"                                                                         Humans O60760 unknown  2
+GOL DB09462                                                    "Endoglucanase G"   "Clostridium cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 / H10)" P37700 unknown  3
+GOL DB09462                                        "Glutathione S-transferase P"                                                                         Humans P09211 unknown  4
+GOL DB09462                               "Group IIE secretory phospholipase A2"                                                                         Humans Q9NZK7 unknown  5
+GOL DB09462                                    "Inositol-3-phosphate synthase 1"                                                                         Humans Q9NPH2 unknown  6
+GOL DB09462 "C4-dicarboxylate transport transcriptional regulatory protein DctD"                                                             "Ensifer meliloti" P13632 unknown  7
+GOL DB09462                                           "Alcohol dehydrogenase 1B"                                                                         Humans P00325 unknown  8
+GOL DB09462                       "Inositol 1,4,5-trisphosphate receptor type 1"                                                                         Humans Q14643 unknown  9
+GOL DB09462                                                           Glycodelin                                                                         Humans P09466 unknown 10
+GOL DB09462                                      Alpha-N-acetylgalactosaminidase                                                                         Humans P17050 unknown 11
+GOL DB09462                                                      "Cytochrome c4"                                                         "Pseudomonas stutzeri" Q52369 unknown 12
+GOL DB09462                                                     Bacterioferritin                   "Desulfovibrio desulfuricans (strain ATCC 27774 / DSM 6949)" Q93PP9 unknown 13
+GOL DB09462                                           "TGF-beta receptor type-2"                                                                         Humans P37173 unknown 14
+GOL DB09462                                         "Argininosuccinate synthase"                                                "Escherichia coli (strain K12)" P0A6E4 unknown 15
+GOL DB09462                                                              Enolase                                                           "Enterococcus hirae" Q8GR70 unknown 16
+GOL DB09462                                          "ADP-ribosylation factor 1"                                                                         Humans P84077 unknown 17
+GOL DB09462                                  "Multidrug resistance protein MexA" "Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228)" P52477 unknown 18
+GOL DB09462      "Bifunctional 3'-phosphoadenosine 5'-phosphosulfate synthase 1"                                                                         Humans O43252 unknown 19
+GOL DB09462                                           "Histidinol dehydrogenase"                                                "Escherichia coli (strain K12)" P06988 unknown 20
+GOL DB09462                                   "DNA mismatch repair protein MutL"                                                "Escherichia coli (strain K12)" P23367 unknown 21
+GOL DB09462                                "Glycerol uptake facilitator protein"                                                "Escherichia coli (strain K12)" P0AER0 unknown 22
+GOL DB09462                "Ribonucleoside-diphosphate reductase 1 subunit beta"                                                "Escherichia coli (strain K12)" P69924 unknown 23
+GOL DB09462                                            "Adenine DNA glycosylase"                                                "Escherichia coli (strain K12)" P17802 unknown 24
+GOL DB09462                         "tRNA (cytosine(38)-C(5))-methyltransferase"                                                                         Humans O14717 unknown 25
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+GOL                     Optim   ChEMBL
+GOL   "Senokot Direct Relief"   ChEMBL
+GOL            "Tixylix Baby"   ChEMBL
+GOL "Monoctanoin Component D"   ChEMBL
+GOL              Glycogelatin   ChEMBL
+GOL                  Osmoglyn   ChEMBL
+GOL                  Keybells   ChEMBL
+GOL                   Nirolex   ChEMBL
+GOL         "Tixylix Toddler"   ChEMBL
+GOL                      E422   ChEMBL
+GOL                Ophthalgan   ChEMBL
+GOL                Waterhouse   ChEMBL
+GOL                  Glycerin   ChEMBL
+GOL                  Glycerol   ChEMBL
+GOL        1,2,3-propanetriol DrugBank
+GOL   1,2,3-trihydroxypropane DrugBank
+GOL     "Glycerin, anhydrous" DrugBank
+GOL        Glycerin,anhydrous DrugBank
+GOL                 Glycerine DrugBank
+GOL                  Glycerol DrugBank
+GOL "Monoctanoin component D" DrugBank
+GOL              Propanetriol DrugBank
+GOL         Trihydroxypropane DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+GOL C1 C 7.702  1.357 1
+GOL O1 O 9.002  0.608 2
+GOL C2 C 6.404  0.608 3
+GOL O2 O 6.404 -0.892 4
+GOL C3 C 5.104  1.357 5
+GOL O3 O 3.805  0.608 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+GOL C1 O1 SINGLE NONE 1
+GOL C1 C2 SINGLE NONE 2
+GOL C2 O2 SINGLE NONE 3
+GOL C2 C3 SINGLE NONE 4
+GOL C3 O3 SINGLE NONE 5
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               GOL
+_pdbe_chem_comp_rdkit_properties.exactmw                               92.047
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             47.352
+_pdbe_chem_comp_rdkit_properties.tpsa                                  60.690
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.668
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             20.178
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+GOL UniChem        ChEMBL        CHEMBL692
+GOL UniChem      DrugBank          DB04077
+GOL UniChem      DrugBank          DB09462
+GOL UniChem "KEGG LIGAND"           C00116
+GOL UniChem         ChEBI            17522
+GOL UniChem         ChEBI            17754
+GOL UniChem          ZINC ZINC000000895048
+GOL UniChem          ZINC     ZINC00895048
+GOL UniChem    NMRShiftDB         10005613
+GOL UniChem  MetaboLights       MTBLC17754
+GOL UniChem        BRENDA           106408
+GOL UniChem        BRENDA           107129
+GOL UniChem        BRENDA              135
+GOL UniChem        BRENDA           152146
+GOL UniChem        BRENDA           161944
+GOL UniChem        BRENDA           166157
+GOL UniChem        BRENDA           183683
+GOL UniChem        BRENDA            49999
+GOL UniChem          Rhea            17754
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+GOL  C1  1.097  0.239  0.322 ETKDGv2  1
+GOL  O1  2.241 -0.082 -0.420 ETKDGv2  2
+GOL  C2 -0.147 -0.345 -0.362 ETKDGv2  3
+GOL  O2 -0.055 -1.746 -0.402 ETKDGv2  4
+GOL  C3 -1.426  0.042  0.394 ETKDGv2  5
+GOL  O3 -1.618  1.431  0.380 ETKDGv2  6
+GOL H11  1.004  1.346  0.389 ETKDGv2  7
+GOL H12  1.189 -0.177  1.351 ETKDGv2  8
+GOL HO1  3.008  0.310  0.073 ETKDGv2  9
+GOL  H2 -0.220  0.061 -1.399 ETKDGv2 10
+GOL HO2  0.524 -1.976 -1.176 ETKDGv2 11
+GOL H31 -2.304 -0.468 -0.067 ETKDGv2 12
+GOL H32 -1.358 -0.300  1.449 ETKDGv2 13
+GOL HO3 -1.935  1.665 -0.531 ETKDGv2 14
+#

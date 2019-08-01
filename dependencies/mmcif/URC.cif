@@ -1,0 +1,348 @@
+data_URC
+#
+_chem_comp.id                                        URC
+_chem_comp.name                                      "URIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C5 H4 N4 O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             7,9-DIHYDRO-1H-PURINE-2,6,8(3H)-TRIONE
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2002-03-15
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            168.110
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         URC
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1L5S
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+URC  N1  N1 N 0 1 Y N N 38.217 -59.800  98.395  0.666 -0.000 -2.030  N1 URC  1
+URC  C2  C2 C 0 1 Y N N 36.879 -59.858  98.272 -0.678 -0.001 -2.078  C2 URC  2
+URC  C6  C6 C 0 1 Y N N 38.820 -59.260  99.467  1.311  0.000 -0.845  C6 URC  3
+URC  N3  N3 N 0 1 Y N N 36.075 -59.372  99.225 -1.417  0.004 -0.953  N3 URC  4
+URC O11 O11 O 0 1 N N N 36.388 -60.365  97.276 -1.236 -0.001 -3.159 O11 URC  5
+URC  C4  C4 C 0 1 Y N N 36.584 -58.819 100.325 -0.804 -0.000  0.278  C4 URC  6
+URC  C5  C5 C 0 1 Y N N 37.918 -58.723 100.521  0.561 -0.000  0.347  C5 URC  7
+URC  N9  N9 N 0 1 Y N N 36.036 -58.287 101.377 -1.282 -0.000  1.564  N9 URC  8
+URC O13 O13 O 0 1 N N N 40.032 -59.193  99.613  2.529  0.000 -0.807 O13 URC  9
+URC  N7  N7 N 0 1 Y N N 38.101 -58.147 101.671  0.906 -0.000  1.703  N7 URC 10
+URC  C8  C8 C 0 1 Y N N 36.945 -57.866 102.224 -0.238 -0.000  2.415  C8 URC 11
+URC O24 O24 O 0 1 N N N 36.753 -57.327 103.300 -0.316 -0.000  3.629 O24 URC 12
+URC HN1 HN1 H 0 1 N N N 38.797 -60.180  97.647  1.176  0.000 -2.855 HN1 URC 13
+URC HN3 HN3 H 0 1 N N N 35.063 -59.424  99.112 -2.385  0.004 -1.011 HN3 URC 14
+URC HN9 HN9 H 0 1 N N N 35.378 -58.927 101.821 -2.218 -0.000  1.819 HN9 URC 15
+URC HN7 HN7 H 0 1 N N N 39.014 -57.946 102.078  1.806 -0.000  2.065 HN7 URC 16
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+URC N1  C2 SING Y N  1
+URC N1  C6 SING Y N  2
+URC N1 HN1 SING N N  3
+URC C2  N3 SING Y N  4
+URC C2 O11 DOUB N N  5
+URC C6  C5 SING Y N  6
+URC C6 O13 DOUB N N  7
+URC N3  C4 SING Y N  8
+URC N3 HN3 SING N N  9
+URC C4  C5 DOUB Y N 10
+URC C4  N9 SING Y N 11
+URC C5  N7 SING Y N 12
+URC N9  C8 SING Y N 13
+URC N9 HN9 SING N N 14
+URC N7  C8 SING Y N 15
+URC N7 HN7 SING N N 16
+URC C8 O24 DOUB N N 17
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+URC           SMILES              ACDLabs 10.04                                               O=C1C2=C(NC(=O)N1)NC(=O)N2
+URC SMILES_CANONICAL               CACTVS 3.341                                               O=C1NC(=O)C2=C(N1)NC(=O)N2
+URC           SMILES               CACTVS 3.341                                               O=C1NC(=O)C2=C(N1)NC(=O)N2
+URC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                               C12=C(NC(=O)N1)NC(=O)NC2=O
+URC           SMILES "OpenEye OEToolkits" 1.5.0                                               C12=C(NC(=O)N1)NC(=O)NC2=O
+URC            InChI                InChI  1.03 InChI=1S/C5H4N4O3/c10-3-1-2(7-4(11)6-1)8-5(12)9-3/h(H4,6,7,8,9,10,11,12)
+URC         InChIKey                InChI  1.03                                              LEHOTFFKMJEONL-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+URC "SYSTEMATIC NAME"              ACDLabs 10.04 7,9-dihydro-1H-purine-2,6,8(3H)-trione
+URC "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0     7,9-dihydro-3H-purine-2,6,8-trione
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+URC  "Create component" 2002-03-15 RCSB ? ?
+URC "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   URC
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB08844
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Uric acid"
+_pdbe_chem_comp_drugbank_details.description               "Uric acid is the last product of purine metabolism in humans. The formation of uric acid is through the enzyme xanthine oxidase, which oxidizes oxypurines. Normally a small amount of uric acid is present in the body, but when there is an excess amount in the blood, called hyperuricemia, this can lead to gout and formation of kidney stones. As a therapeutic agent, it is known that uric acid is increased in response to oxidative stress, and as such, uric acid acts as an antioxidant. At present (August 2013), there is no approved formulation or indication for uric acid. In one country, Spain, uric acid is an investigational drug in a phase 3 trial studying its effects as an adjunct to alteplase in acute ischemic stroke."
+_pdbe_chem_comp_drugbank_details.cas_number                69-93-2
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "The exact mechanism of action for uric acid's antioxidant effects have not yet been elucidated."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           URC
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB08844
+_pdbe_chem_comp_drugbank_classification.parent            Xanthines
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             Imidazopyrimidines
+_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as xanthines. These are purine derivatives with a ketone group conjugated at carbons 2 and 6 of the purine moiety."
+
+#
+_pdbe_chem_comp_drugbank_targets.comp_id                        URC
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB08844
+_pdbe_chem_comp_drugbank_targets.name                           "Glycogen phosphorylase, liver form"
+_pdbe_chem_comp_drugbank_targets.organism                       Humans
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     P06737
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
+_pdbe_chem_comp_drugbank_targets.ordinal                        1
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+URC                            "Uric Acid"   ChEMBL
+URC                 2,6,8-trihydroxypurine DrugBank
+URC                     2,6,8-trioxopurine DrugBank
+URC                     2,6,8-trioxypurine DrugBank
+URC 7,9-dihydro-1H-purine-2,6,8(3H)-trione DrugBank
+URC                          "Lithic acid" DrugBank
+URC          Purine-2,6,8(1H,3H,9H)-trione DrugBank
+URC                                  Urate DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+URC  N1 N  4.299 -0.465  1
+URC  C2 C  4.299  1.035  2
+URC  C6 C  5.598 -1.215  3
+URC  N3 N  5.598  1.785  4
+URC O11 O  3.000  1.785  5
+URC  C4 C  6.897  1.035  6
+URC  C5 C  6.897 -0.465  7
+URC  N9 N  8.316  1.492  8
+URC O13 O  5.598 -2.715  9
+URC  N7 N  8.316 -0.922 10
+URC  C8 C  9.192  0.285 11
+URC O24 O 10.692  0.285 12
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+URC N1  C2 SINGLE NONE  1
+URC N1  C6 SINGLE NONE  2
+URC C2  N3 SINGLE NONE  3
+URC C2 O11 DOUBLE NONE  4
+URC C6  C5 SINGLE NONE  5
+URC C6 O13 DOUBLE NONE  6
+URC N3  C4 SINGLE NONE  7
+URC C4  C5 DOUBLE NONE  8
+URC C4  N9 SINGLE NONE  9
+URC C5  N7 SINGLE NONE 10
+URC N9  C8 SINGLE NONE 11
+URC N7  C8 SINGLE NONE 12
+URC C8 O24 DOUBLE NONE 13
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+URC MurckoScaffold S1 scaffold O=c1[nH]c(=O)c2[nH]c(=O)[nH]c2[nH]1 InChI=1S/C5H4N4O3/c10-3-1-2(7-4(11)6-1)8-5(12)9-3/h(H4,6,7,8,9,10,11,12) LEHOTFFKMJEONL-UHFFFAOYSA-N
+URC      imidazole F1 fragment                          c1c[nH]cn1                               InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
+URC         purine F2 fragment                    c1ncc2[nH]cnc2n1                 InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
+URC     pyrimidine F3 fragment                            c1cncnc1                                     InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+URC  C4 F1 1
+URC  C5 F1 1
+URC  N7 F1 1
+URC  C8 F1 1
+URC  N9 F1 1
+URC  N7 F2 1
+URC  C8 F2 1
+URC  N9 F2 1
+URC  C4 F2 1
+URC  C5 F2 1
+URC  C6 F2 1
+URC  N1 F2 1
+URC  C2 F2 1
+URC  N3 F2 1
+URC  C5 F3 1
+URC  C6 F3 1
+URC  N1 F3 1
+URC  C2 F3 1
+URC  N3 F3 1
+URC  C4 F3 1
+URC  N1 S1 1
+URC  C2 S1 1
+URC  C6 S1 1
+URC  N3 S1 1
+URC O11 S1 1
+URC  C4 S1 1
+URC  C5 S1 1
+URC  N9 S1 1
+URC O13 S1 1
+URC  N7 S1 1
+URC  C8 S1 1
+URC O24 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               URC
+_pdbe_chem_comp_rdkit_properties.exactmw                               168.028
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           7
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                4
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              2
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             69.318
+_pdbe_chem_comp_rdkit_properties.tpsa                                  114.370
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.504
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             38.279
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         12
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+URC UniChem        ChEMBL        CHEMBL792
+URC UniChem      DrugBank          DB01696
+URC UniChem      DrugBank          DB08844
+URC UniChem "KEGG LIGAND"           C00366
+URC UniChem         ChEBI            17775
+URC UniChem         ChEBI            46811
+URC UniChem         ChEBI            46814
+URC UniChem         ChEBI            46817
+URC UniChem         ChEBI            46823
+URC UniChem         ChEBI            62589
+URC UniChem          ZINC ZINC000002041003
+URC UniChem    NMRShiftDB         10016335
+URC UniChem     BindingDb         50325824
+URC UniChem  MetaboLights       MTBLC17775
+URC UniChem  MetaboLights       MTBLC46811
+URC UniChem  MetaboLights       MTBLC46814
+URC UniChem  MetaboLights       MTBLC46817
+URC UniChem  MetaboLights       MTBLC46823
+URC UniChem  MetaboLights       MTBLC62589
+URC UniChem        BRENDA             1421
+URC UniChem        BRENDA           153417
+URC UniChem        BRENDA           154402
+URC UniChem        BRENDA           163088
+URC UniChem        BRENDA           166682
+URC UniChem        BRENDA              710
+URC UniChem          Rhea            17775
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+URC  N1 -2.140  0.709 -0.210 ETKDGv2  1
+URC  C2 -2.102 -0.719 -0.377 ETKDGv2  2
+URC  C6 -0.922  1.425  0.045 ETKDGv2  3
+URC  N3 -0.847 -1.414 -0.288 ETKDGv2  4
+URC O11 -3.164 -1.359 -0.601 ETKDGv2  5
+URC  C4  0.338 -0.654 -0.032 ETKDGv2  6
+URC  C5  0.325  0.660  0.125 ETKDGv2  7
+URC  N9  1.652 -1.187  0.084 ETKDGv2  8
+URC O13 -0.929  2.675  0.196 ETKDGv2  9
+URC  N7  1.633  1.166  0.367 ETKDGv2 10
+URC  C8  2.425 -0.018  0.333 ETKDGv2 11
+URC O24  3.672 -0.029  0.504 ETKDGv2 12
+URC HN1 -3.048  1.223 -0.273 ETKDGv2 13
+URC HN3 -0.797 -2.450 -0.407 ETKDGv2 14
+URC HN9  1.966 -2.179  0.007 ETKDGv2 15
+URC HN7  1.936  2.152  0.528 ETKDGv2 16
+#

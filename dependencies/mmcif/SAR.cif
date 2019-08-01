@@ -1,0 +1,267 @@
+data_SAR
+#
+_chem_comp.id                                        SAR
+_chem_comp.name                                      SARCOSINE
+_chem_comp.type                                      "PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C3 H7 N O2"
+_chem_comp.mon_nstd_parent_comp_id                   GLY
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             MGY
+_chem_comp.formula_weight                            89.093
+_chem_comp.one_letter_code                           G
+_chem_comp.three_letter_code                         SAR
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SAR   N   N N 0 1 N N N 45.346  99.027 28.101  1.376 -0.391 -0.022   N SAR  1
+SAR  CA  CA C 0 1 N N N 45.601  99.706 26.834  0.333  0.644  0.002  CA SAR  2
+SAR   C   C C 0 1 N N N 46.937 100.430 26.842 -1.024 -0.011 -0.005   C SAR  3
+SAR   O   O O 0 1 N N N 47.878  99.899 26.239 -1.114 -1.216 -0.027   O SAR  4
+SAR  CN  CN C 0 1 N N N 46.442  98.097 28.524  2.716  0.212 -0.015  CN SAR  5
+SAR OXT OXT O 0 1 N Y N 47.131 101.584 27.485 -2.134  0.744  0.014 OXT SAR  6
+SAR   H  HN H 0 1 N Y N 45.242  99.724 28.810  1.265 -1.034  0.748   H SAR  7
+SAR HA2 HA1 H 0 1 N N N 45.610  98.958 26.028  0.441  1.247  0.903 HA2 SAR  8
+SAR HA3 HA2 H 0 1 N N N 44.802 100.442 26.661  0.434  1.281 -0.877 HA3 SAR  9
+SAR HN1 HN1 H 0 1 N N N 46.176  97.627 29.482  2.833  0.846 -0.894 HN1 SAR 10
+SAR HN2 HN2 H 0 1 N N N 46.577  97.318 27.759  2.840  0.812  0.886 HN2 SAR 11
+SAR HN3 HN3 H 0 1 N N N 47.378  98.663 28.641  3.468 -0.577 -0.033 HN3 SAR 12
+SAR HXT HXT H 0 1 N Y N 48.035 101.857 27.381 -2.981  0.280  0.008 HXT SAR 13
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SAR   N  CA SING N N  1
+SAR   N  CN SING N N  2
+SAR   N   H SING N N  3
+SAR  CA   C SING N N  4
+SAR  CA HA2 SING N N  5
+SAR  CA HA3 SING N N  6
+SAR   C   O DOUB N N  7
+SAR   C OXT SING N N  8
+SAR  CN HN1 SING N N  9
+SAR  CN HN2 SING N N 10
+SAR  CN HN3 SING N N 11
+SAR OXT HXT SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SAR           SMILES              ACDLabs 12.01                                         O=C(O)CNC
+SAR SMILES_CANONICAL               CACTVS 3.370                                         CNCC(O)=O
+SAR           SMILES               CACTVS 3.370                                         CNCC(O)=O
+SAR SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                         CNCC(=O)O
+SAR           SMILES "OpenEye OEToolkits" 1.7.0                                         CNCC(=O)O
+SAR            InChI                InChI  1.03 InChI=1S/C3H7NO2/c1-4-2-3(5)6/h4H,2H2,1H3,(H,5,6)
+SAR         InChIKey                InChI  1.03                       FSYKKLYZXJSNPZ-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+SAR "SYSTEMATIC NAME"              ACDLabs 12.01                N-methylglycine
+SAR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "2-(methylamino)ethanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+SAR         "Create component" 1999-07-08 PDBJ  ? ?
+SAR "Modify leaving atom flag" 2011-02-07 RCSB CS ?
+SAR        "Modify descriptor" 2011-06-04 RCSB  ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   SAR
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB12519
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Sarcosine
+_pdbe_chem_comp_drugbank_details.description               "Sarcosine has been investigated for the treatment of Schizophrenia."
+_pdbe_chem_comp_drugbank_details.cas_number                107-97-1
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           SAR
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB12519
+_pdbe_chem_comp_drugbank_classification.parent            "Alpha amino acids"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alpha amino acids. These are amino acids in which the amino group is attached to the carbon atom immediately adjacent to the carboxylate group (alpha carbon)."
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+SAR                 Sarcosine ChEMBL
+SAR "Methylamino-Acetic Acid" ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SAR   N N 6.897  0.347 1
+SAR  CA C 5.598  1.097 2
+SAR   C C 4.299  0.347 3
+SAR   O O 3.000  1.097 4
+SAR  CN C 8.196 -0.403 5
+SAR OXT O 4.299 -1.153 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SAR  N  CA SINGLE NONE 1
+SAR  N  CN SINGLE NONE 2
+SAR CA   C SINGLE NONE 3
+SAR  C   O DOUBLE NONE 4
+SAR  C OXT SINGLE NONE 5
+#
+_pdbe_chem_comp_substructure.comp_id                      SAR
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+SAR  O F1 1
+SAR  C F1 1
+SAR CA F1 1
+SAR  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SAR
+_pdbe_chem_comp_rdkit_properties.exactmw                               89.048
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             45.954
+_pdbe_chem_comp_rdkit_properties.tpsa                                  49.330
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.710
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             21.562
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+SAR UniChem        ChEMBL     CHEMBL304383
+SAR UniChem      DrugBank          DB12519
+SAR UniChem "KEGG LIGAND"           C00213
+SAR UniChem         ChEBI            15611
+SAR UniChem         ChEBI            57433
+SAR UniChem          ZINC ZINC000004658561
+SAR UniChem          ZINC     ZINC04658561
+SAR UniChem    NMRShiftDB         10016973
+SAR UniChem     BindingDb         50017225
+SAR UniChem  MetaboLights       MTBLC15611
+SAR UniChem  MetaboLights       MTBLC57433
+SAR UniChem        BRENDA           119072
+SAR UniChem        BRENDA             2750
+SAR UniChem        BRENDA            50132
+SAR UniChem        BRENDA              594
+SAR UniChem          Rhea            57433
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SAR   N -0.739  0.653  0.046 ETKDGv2  1
+SAR  CA  0.307 -0.374  0.136 ETKDGv2  2
+SAR   C  1.674  0.236  0.055 ETKDGv2  3
+SAR   O  1.823  1.484 -0.052 ETKDGv2  4
+SAR  CN -2.057  0.053  0.261 ETKDGv2  5
+SAR OXT  2.792 -0.590  0.104 ETKDGv2  6
+SAR   H -0.729  1.041 -0.926 ETKDGv2  7
+SAR HA2  0.196 -1.110 -0.691 ETKDGv2  8
+SAR HA3  0.232 -0.913  1.107 ETKDGv2  9
+SAR HN1 -2.127 -0.368  1.287 ETKDGv2 10
+SAR HN2 -2.838  0.836  0.159 ETKDGv2 11
+SAR HN3 -2.258 -0.745 -0.487 ETKDGv2 12
+SAR HXT  3.727 -0.203  0.053 ETKDGv2 13
+#

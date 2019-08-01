@@ -1,0 +1,260 @@
+data_BME
+#
+_chem_comp.id                                        BME
+_chem_comp.name                                      BETA-MERCAPTOETHANOL
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C2 H6 O S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             SEO
+_chem_comp.formula_weight                            78.133
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         BME
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1DIF
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+BME  C1  C1 C 0 1 N N N 15.380 16.489 22.967  0.474  0.000  1.059  C1 BME  1
+BME  C2  C2 C 0 1 N N N 15.341 15.038 23.446 -0.621  0.000 -0.007  C2 BME  2
+BME  O1  O1 O 0 1 N N N 15.298 16.553 21.552 -0.125  0.000  2.357  O1 BME  3
+BME  S2  S2 S 0 1 N N N 16.850 14.106 23.075  0.138  0.000 -1.654  S2 BME  4
+BME H11 1H1 H 0 1 N N N 16.291 16.993 23.295  1.092  0.890  0.945 H11 BME  5
+BME H12 2H1 H 0 1 N N N 14.525 17.044 23.355  1.092 -0.890  0.945 H12 BME  6
+BME H21 1H2 H 0 1 N N N 15.196 15.022 24.526 -1.240 -0.890  0.106 H21 BME  7
+BME H22 2H2 H 0 1 N N N 14.487 14.508 23.016 -1.240  0.890  0.106 H22 BME  8
+BME HO1 HO1 H 0 1 N N N 14.835 17.373 21.345  0.598  0.000  2.999 HO1 BME  9
+BME HS2 HS2 H 0 1 N N N 16.825 13.204 23.372 -0.965  0.000 -2.422 HS2 BME 10
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+BME C1  C2 SING N N 1
+BME C1  O1 SING N N 2
+BME C1 H11 SING N N 3
+BME C1 H12 SING N N 4
+BME C2  S2 SING N N 5
+BME C2 H21 SING N N 6
+BME C2 H22 SING N N 7
+BME O1 HO1 SING N N 8
+BME S2 HS2 SING N N 9
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+BME           SMILES              ACDLabs 10.04                                 OCCS
+BME SMILES_CANONICAL               CACTVS 3.341                                 OCCS
+BME           SMILES               CACTVS 3.341                                 OCCS
+BME SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                               C(CS)O
+BME           SMILES "OpenEye OEToolkits" 1.5.0                               C(CS)O
+BME            InChI                InChI  1.03 InChI=1S/C2H6OS/c3-1-2-4/h3-4H,1-2H2
+BME         InChIKey                InChI  1.03          DGVVWUTYPXICAM-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+BME "SYSTEMATIC NAME"              ACDLabs 10.04 2-sulfanylethanol
+BME "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 2-sulfanylethanol
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+BME  "Create component" 1999-07-08  EBI ? ?
+BME "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   BME
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB03345
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Mercaptoethanol
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                60-24-2
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           BME
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03345
+_pdbe_chem_comp_drugbank_classification.parent            Alkylthiols
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             Thiols
+_pdbe_chem_comp_drugbank_classification.superclass        "Organosulfur compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alkylthiols. These are organic compounds containing the thiol functional group linked to an alkyl chain."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+BME DB03345                                      Endolysin                                          "Enterobacteria phage T4" P00720 unknown  1
+BME DB03345                     "Lactoylglutathione lyase"                                                             Humans Q04760 unknown  2
+BME DB03345              "Pyridoxine-5'-phosphate oxidase"                                                             Humans Q9NVS9 unknown  3
+BME DB03345             "Glucose--fructose oxidoreductase" "Zymomonas mobilis subsp. mobilis (strain ATCC 31821 / ZM4 / CP4)" Q07982 unknown  4
+BME DB03345                            Alpha-1-antitrypsin                                                             Humans P01009 unknown  5
+BME DB03345                                     Galectin-1                                                             Humans P09382 unknown  6
+BME DB03345                                 "Protein ninB"                                      "Enterobacteria phage lambda" P03765 unknown  7
+BME DB03345                       "Polycomb protein SCMH1"                                                             Humans Q96GD3 unknown  8
+BME DB03345 "Pyridoxine/pyridoxamine 5'-phosphate oxidase"                                    "Escherichia coli (strain K12)" P0AFI7 unknown  9
+BME DB03345                             "Endonuclease III"                 "Helicobacter pylori (strain ATCC 700392 / 26695)" O25323 unknown 10
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+BME    2-Mercaptoethanol   ChEMBL
+BME Beta-Mercaptoethanol   ChEMBL
+BME    2-mercaptoethanol DrugBank
+BME beta-mercaptoethanol DrugBank
+BME       Thiomonoglycol DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+BME C1 C 5.104 -0.375 1
+BME C2 C 6.404  0.375 2
+BME O1 O 3.805  0.375 3
+BME S2 S 7.702 -0.375 4
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+BME C1 C2 SINGLE NONE 1
+BME C1 O1 SINGLE NONE 2
+BME C2 S2 SINGLE NONE 3
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               BME
+_pdbe_chem_comp_rdkit_properties.exactmw                               78.014
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             39.251
+_pdbe_chem_comp_rdkit_properties.tpsa                                  20.230
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.091
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             20.939
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         4
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+BME UniChem        ChEMBL     CHEMBL254951
+BME UniChem      DrugBank          DB03131
+BME UniChem      DrugBank          DB03345
+BME UniChem "KEGG LIGAND"           C00928
+BME UniChem         ChEBI            41218
+BME UniChem          ZINC ZINC000008216595
+BME UniChem          ZINC     ZINC08216595
+BME UniChem    NMRShiftDB         10016661
+BME UniChem     BindingDb             7971
+BME UniChem        BRENDA           104284
+BME UniChem        BRENDA           112566
+BME UniChem        BRENDA             1623
+BME UniChem        BRENDA            18188
+BME UniChem        BRENDA            31655
+BME UniChem        BRENDA            51103
+BME UniChem        BRENDA               63
+BME UniChem        BRENDA            71579
+BME UniChem        BRENDA              773
+BME UniChem        BRENDA            95173
+BME UniChem        BRENDA            98050
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+BME  C1 -0.712  0.266  0.283 ETKDGv2  1
+BME  C2  0.469 -0.670  0.024 ETKDGv2  2
+BME  O1 -1.114  0.899 -0.902 ETKDGv2  3
+BME  S2  1.914  0.255 -0.587 ETKDGv2  4
+BME H11 -1.559 -0.312  0.717 ETKDGv2  5
+BME H12 -0.419  1.040  1.023 ETKDGv2  6
+BME H21  0.184 -1.435 -0.729 ETKDGv2  7
+BME H22  0.744 -1.190  0.966 ETKDGv2  8
+BME HO1 -1.610  0.221 -1.432 ETKDGv2  9
+BME HS2  2.101  0.927  0.637 ETKDGv2 10
+#

@@ -1,0 +1,195 @@
+data_HDZ
+#
+_chem_comp.id                                        HDZ
+_chem_comp.name                                      "NITROGEN MOLECULE"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   N2
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             TFH
+_chem_comp.formula_weight                            28.013
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         HDZ
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1MAE
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+HDZ N6A N6A N 0 1 N N N 19.505 66.968 95.866 0.000 0.000 -0.516 N6A HDZ 1
+HDZ N6B N6B N 0 1 N N N 20.116 66.700 97.137 0.000 0.000  0.516 N6B HDZ 2
+#
+_chem_comp_bond.comp_id                  HDZ
+_chem_comp_bond.atom_id_1                N6A
+_chem_comp_bond.atom_id_2                N6B
+_chem_comp_bond.value_order              TRIP
+_chem_comp_bond.pdbx_aromatic_flag       N
+_chem_comp_bond.pdbx_stereo_config       N
+_chem_comp_bond.pdbx_ordinal             1
+
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+HDZ           SMILES              ACDLabs 10.04                         N#N
+HDZ SMILES_CANONICAL               CACTVS 3.341                         N#N
+HDZ           SMILES               CACTVS 3.341                         N#N
+HDZ SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                         N#N
+HDZ           SMILES "OpenEye OEToolkits" 1.5.0                         N#N
+HDZ            InChI                InChI  1.03            InChI=1S/N2/c1-2
+HDZ         InChIKey                InChI  1.03 IJGRMHOSHXDMSA-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+HDZ "SYSTEMATIC NAME"              ACDLabs 10.04             nitrogen
+HDZ "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "molecular nitrogen"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+HDZ  "Create component" 1999-07-08  EBI ? ?
+HDZ "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   HDZ
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB09152
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Nitrogen
+_pdbe_chem_comp_drugbank_details.description               "Nitrogen is a chemical element with symbol N and atomic number 7. At room temperature, it is a transparent, odorless diatomic gas.  Liquid nitrogen is used principally in cryotherapy for removal of diseased skin. Liquid nitrogen helps in removal of skin lesions through necrosis, which results from the freezing and thawing of cells. Cryotherapy usually done in doctors' office. Also, nitrogen is very famous component in fertilizers and energy-stores."
+_pdbe_chem_comp_drugbank_details.cas_number                7727-37-9
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "In cryotherapy, mechanism of action could be classified into three stages: 1. heat transfer, 2. cell injury and 3. inflammation. Boiling point of liquid nitrogen is -196°C, which is the responsible for creating the initial stage which is heat transfer. The second stage is cell injury which is induced during thawing conditions of the cells. The last step in the cryotherapy is the inflammation stage which is characterized by edema and erythema. Inflammation occurs as a result of cellular death and it helps in local cell destruction."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           HDZ
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB09152
+_pdbe_chem_comp_drugbank_classification.parent            "Other non-metal nitrides"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Inorganic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Other non-metal organides"
+_pdbe_chem_comp_drugbank_classification.superclass        "Homogeneous non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of inorganic compounds known as other non-metal nitrides. These are inorganic compounds of nitrogen where nitrogen has a formal oxidation state of -3, and the heaviest atom bonded to it belongs to the class of 'other non-metals'."
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+HDZ Nitrogen ChEMBL
+HDZ     E941 ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+HDZ N6A N 3.000 0.000 1
+HDZ N6B N 4.500 0.000 2
+#
+_pdbe_chem_comp_bond_depiction.comp_id            HDZ
+_pdbe_chem_comp_bond_depiction.atom_id_1          N6A
+_pdbe_chem_comp_bond_depiction.atom_id_2          N6B
+_pdbe_chem_comp_bond_depiction.value_order        TRIPLE
+_pdbe_chem_comp_bond_depiction.bond_dir           NONE
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       1
+
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               HDZ
+_pdbe_chem_comp_rdkit_properties.exactmw                               28.006
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             12.125
+_pdbe_chem_comp_rdkit_properties.tpsa                                  47.580
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.030
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             3.450
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         2
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+HDZ UniChem        ChEMBL CHEMBL142438
+HDZ UniChem      DrugBank      DB09152
+HDZ UniChem "KEGG LIGAND"       C00697
+HDZ UniChem         ChEBI        17997
+HDZ UniChem        BRENDA         1560
+HDZ UniChem        BRENDA         6051
+HDZ UniChem          Rhea        17997
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+HDZ N6A  0.560 0.000 0.000 ETKDGv2 1
+HDZ N6B -0.560 0.000 0.000 ETKDGv2 2
+#

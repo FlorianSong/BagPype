@@ -1,0 +1,219 @@
+data_HIU
+#
+_chem_comp.id                                        HIU
+_chem_comp.name                                      "(2R)-3-HYDROXY-2-METHYLPROPANOIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C4 H8 O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             3-HYDROXYISOBUTYRATE
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2005-03-29
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            104.105
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         HIU
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+HIU  O1  O1 O 0 1 N N N 109.900 23.972 -109.457  2.227  0.500 -0.354  O1 HIU  1
+HIU  C1  C1 C 0 1 N N N 109.837 22.897 -108.844  1.133 -0.225 -0.071  C1 HIU  2
+HIU  O2  O2 O 0 1 N N N 110.054 22.966 -107.613  1.247 -1.338  0.384  O2 HIU  3
+HIU  C2  C2 C 0 1 N N R 109.532 21.541 -109.597 -0.237  0.351 -0.321  C2 HIU  4
+HIU  C3  C3 C 0 1 N N N 108.864 20.551 -108.653 -0.413  1.625  0.507  C3 HIU  5
+HIU  C4  C4 C 0 1 N N N 110.871 20.983 -110.159 -1.301 -0.671  0.084  C4 HIU  6
+HIU  O3  O3 O 0 1 N N N 111.828 21.056 -109.707 -2.595 -0.173 -0.260  O3 HIU  7
+HIU HO1 HO1 H 0 1 N N N 110.110 24.672 -108.850  3.107  0.130 -0.193 HO1 HIU  8
+HIU  H2  H2 H 0 1 N N N 108.835 21.712 -110.430 -0.344  0.587 -1.379  H2 HIU  9
+HIU H31 1H3 H 0 1 N N N 107.896 20.956 -108.323  0.345  2.354  0.219 H31 HIU 10
+HIU H32 2H3 H 0 1 N N N 109.510 20.385 -107.778 -1.404  2.042  0.327 H32 HIU 11
+HIU H33 3H3 H 0 1 N N N 108.703 19.597 -109.176 -0.306  1.389  1.566 H33 HIU 12
+HIU H41 1H4 H 0 1 N N N 111.013 21.655 -111.018 -1.121 -1.610 -0.441 H41 HIU 13
+HIU H42 2H4 H 0 1 N N N 110.696 19.900 -110.242 -1.251 -0.841  1.159 H42 HIU 14
+HIU HO3 HO3 H 0 1 N N N 112.497 21.078 -110.382 -3.235 -0.846  0.011 HO3 HIU 15
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+HIU O1  C1 SING N N  1
+HIU O1 HO1 SING N N  2
+HIU C1  O2 DOUB N N  3
+HIU C1  C2 SING N N  4
+HIU C2  C3 SING N N  5
+HIU C2  C4 SING N N  6
+HIU C2  H2 SING N N  7
+HIU C3 H31 SING N N  8
+HIU C3 H32 SING N N  9
+HIU C3 H33 SING N N 10
+HIU C4  O3 SING N N 11
+HIU C4 H41 SING N N 12
+HIU C4 H42 SING N N 13
+HIU O3 HO3 SING N N 14
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+HIU           SMILES              ACDLabs 10.04                                                   O=C(O)C(C)CO
+HIU SMILES_CANONICAL               CACTVS 3.341                                               C[C@H](CO)C(O)=O
+HIU           SMILES               CACTVS 3.341                                                C[CH](CO)C(O)=O
+HIU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                               C[C@H](CO)C(=O)O
+HIU           SMILES "OpenEye OEToolkits" 1.5.0                                                   CC(CO)C(=O)O
+HIU            InChI                InChI  1.03 InChI=1S/C4H8O3/c1-3(2-5)4(6)7/h3,5H,2H2,1H3,(H,6,7)/t3-/m1/s1
+HIU         InChIKey                InChI  1.03                                    DBXBTMSZEOQQDU-GSVOUGTGSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+HIU "SYSTEMATIC NAME"              ACDLabs 10.04  "(2R)-3-hydroxy-2-methylpropanoic acid"
+HIU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-3-hydroxy-2-methyl-propanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+HIU  "Create component" 2005-03-29 RCSB ? ?
+HIU "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+HIU O1 O 9.002 -0.375 1
+HIU C1 C 7.702  0.375 2
+HIU O2 O 7.702  1.875 3
+HIU C2 C 6.404 -0.375 4
+HIU C3 C 6.404 -1.875 5
+HIU C4 C 5.104  0.375 6
+HIU O3 O 3.805 -0.375 7
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+HIU O1 C1 SINGLE       NONE 1
+HIU C1 O2 DOUBLE       NONE 2
+HIU C1 C2 SINGLE       NONE 3
+HIU C2 C3 SINGLE BEGINWEDGE 4
+HIU C2 C4 SINGLE       NONE 5
+HIU C4 O3 SINGLE       NONE 6
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               HIU
+_pdbe_chem_comp_rdkit_properties.exactmw                               104.047
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.750
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             52.997
+_pdbe_chem_comp_rdkit_properties.tpsa                                  57.530
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.301
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             23.886
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+HIU UniChem ChEMBL    CHEMBL1233336
+HIU UniChem   ZINC ZINC000000895528
+HIU UniChem BRENDA           104059
+HIU UniChem BRENDA            44984
+HIU UniChem BRENDA            57457
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+HIU  O1 -1.924  1.004  1.284 ETKDGv2  1
+HIU  C1 -0.905  1.003  0.336 ETKDGv2  2
+HIU  O2 -0.456  2.103 -0.083 ETKDGv2  3
+HIU  C2 -0.307 -0.299 -0.139 ETKDGv2  4
+HIU  C3  0.011 -0.258 -1.640 ETKDGv2  5
+HIU  C4  0.933 -0.669  0.692 ETKDGv2  6
+HIU  O3  1.968  0.262  0.511 ETKDGv2  7
+HIU HO1 -2.290  0.140  1.665 ETKDGv2  8
+HIU  H2 -1.063 -1.100  0.012 ETKDGv2  9
+HIU H31  0.390 -1.247 -1.976 ETKDGv2 10
+HIU H32 -0.910 -0.026 -2.217 ETKDGv2 11
+HIU H33  0.778  0.513 -1.866 ETKDGv2 12
+HIU H41  0.659 -0.751  1.770 ETKDGv2 13
+HIU H42  1.299 -1.668  0.376 ETKDGv2 14
+HIU HO3  1.817  0.993  1.166 ETKDGv2 15
+#

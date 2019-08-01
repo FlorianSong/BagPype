@@ -1,0 +1,278 @@
+data_SBK
+#
+_chem_comp.id                                        SBK
+_chem_comp.name                                      Triclopyr
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C7 H4 Cl3 N O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2016-05-26
+_chem_comp.pdbx_modified_date                        2016-09-30
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            256.471
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         SBK
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            5L4M
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SBK  C01  C1  C 0 1 Y N N -22.157 -0.076 -23.618 -1.564 -1.507  0.002  C01 SBK  1
+SBK  C02  C2  C 0 1 Y N N -21.995  0.893 -24.657 -0.179 -1.492  0.001  C02 SBK  2
+SBK  C03  C3  C 0 1 Y N N -21.042  0.640 -25.669  0.484 -0.270  0.001  C03 SBK  3
+SBK  N04  N1  N 0 1 Y N N -20.306 -0.452 -25.678 -0.194  0.865  0.001  N04 SBK  4
+SBK  C05  C4  C 0 1 Y N N -20.453 -1.357 -24.709 -1.515  0.884  0.002  C05 SBK  5
+SBK  C06  C5  C 0 1 Y N N -21.361 -1.237 -23.635 -2.240 -0.294 -0.004  C06 SBK  6
+SBK  CL6 CL1 CL 0 0 N N N -21.519 -2.478 -22.385 -3.976 -0.256 -0.004  CL6 SBK  7
+SBK  CL5 CL2 CL 0 0 N N N -19.416 -2.739 -24.830 -2.351  2.406  0.003  CL5 SBK  8
+SBK  O09  O1  O 0 1 N N N -20.907  1.555 -26.653  1.841 -0.242 -0.000  O09 SBK  9
+SBK  C10  C6  C 0 1 N N N -20.356  1.095 -27.919  2.463  1.044 -0.001  C10 SBK 10
+SBK  C11  C7  C 0 1 N N N -21.280  0.106 -28.565  3.961  0.877 -0.001  C11 SBK 11
+SBK  O12  O2  O 0 1 N N N -22.054 -0.640 -27.825  4.757  1.958 -0.002  O12 SBK 12
+SBK  O13  O3  O 0 1 N N N -21.284  0.010 -29.780  4.445 -0.230 -0.001  O13 SBK 13
+SBK  CL2 CL3 CL 0 0 N N N -22.969  2.359 -24.665  0.716 -2.978  0.002  CL2 SBK 14
+SBK H011  H1  H 0 0 N N N -22.880  0.081 -22.831 -2.106 -2.441  0.002 H011 SBK 15
+SBK H101  H2  H 0 0 N N N -19.383  0.616 -27.738  2.158  1.595 -0.891 H101 SBK 16
+SBK H102  H3  H 0 0 N N N -20.221  1.956 -28.590  2.159  1.595  0.889 H102 SBK 17
+SBK   H1  H4  H 0 1 N N N -22.567 -1.214 -28.381  5.711  1.801 -0.002   H1 SBK 18
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SBK O13  C11 DOUB N N  1
+SBK C11  C10 SING N N  2
+SBK C11  O12 SING N N  3
+SBK C10  O09 SING N N  4
+SBK O09  C03 SING N N  5
+SBK N04  C03 DOUB Y N  6
+SBK N04  C05 SING Y N  7
+SBK C03  C02 SING Y N  8
+SBK CL5  C05 SING N N  9
+SBK C05  C06 DOUB Y N 10
+SBK CL2  C02 SING N N 11
+SBK C02  C01 DOUB Y N 12
+SBK C06  C01 SING Y N 13
+SBK C06  CL6 SING N N 14
+SBK C01 H011 SING N N 15
+SBK C10 H101 SING N N 16
+SBK C10 H102 SING N N 17
+SBK O12   H1 SING N N 18
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SBK            InChI                InChI  1.03 InChI=1S/C7H4Cl3NO3/c8-3-1-4(9)7(11-6(3)10)14-2-5(12)13/h1H,2H2,(H,12,13)
+SBK         InChIKey                InChI  1.03                                               REEQLXCGVXDJSQ-UHFFFAOYSA-N
+SBK SMILES_CANONICAL               CACTVS 3.385                                                OC(=O)COc1nc(Cl)c(Cl)cc1Cl
+SBK           SMILES               CACTVS 3.385                                                OC(=O)COc1nc(Cl)c(Cl)cc1Cl
+SBK SMILES_CANONICAL "OpenEye OEToolkits" 2.0.5                                              c1c(c(nc(c1Cl)Cl)OCC(=O)O)Cl
+SBK           SMILES "OpenEye OEToolkits" 2.0.5                                              c1c(c(nc(c1Cl)Cl)OCC(=O)O)Cl
+#
+_pdbx_chem_comp_identifier.comp_id               SBK
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version       2.0.5
+_pdbx_chem_comp_identifier.identifier            "2-[3,5,6-tris(chloranyl)pyridin-2-yl]oxyethanoic acid"
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+SBK   "Create component" 2016-05-26  EBI mjc                                                            ?
+SBK "Other modification" 2016-06-02 RCSB  CS "systematic update to generate ideal coordinates and others"
+SBK    "Initial release" 2016-10-05 RCSB   ?                                                            ?
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+SBK SID144214034 ChEMBL
+SBK  SID26757343 ChEMBL
+SBK  SID29216451 ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SBK C01  C  5.598  3.607  1
+SBK C02  C  6.897  2.857  2
+SBK C03  C  6.897  1.357  3
+SBK N04  N  5.598  0.608  4
+SBK C05  C  4.299  1.357  5
+SBK C06  C  4.299  2.857  6
+SBK CL6 Cl  3.000  3.607  7
+SBK CL5 Cl  3.000  0.608  8
+SBK O09  O  8.196  0.608  9
+SBK C10  C  8.196 -0.892 10
+SBK C11  C  9.495 -1.643 11
+SBK O12  O  9.495 -3.143 12
+SBK O13  O 10.794 -0.892 13
+SBK CL2 Cl  8.196  3.607 14
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SBK O13 C11 DOUBLE NONE  1
+SBK C11 C10 SINGLE NONE  2
+SBK C11 O12 SINGLE NONE  3
+SBK C10 O09 SINGLE NONE  4
+SBK O09 C03 SINGLE NONE  5
+SBK N04 C03 DOUBLE NONE  6
+SBK N04 C05 SINGLE NONE  7
+SBK C03 C02 SINGLE NONE  8
+SBK CL5 C05 SINGLE NONE  9
+SBK C05 C06 DOUBLE NONE 10
+SBK CL2 C02 SINGLE NONE 11
+SBK C02 C01 DOUBLE NONE 12
+SBK C06 C01 SINGLE NONE 13
+SBK C06 CL6 SINGLE NONE 14
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+SBK MurckoScaffold S1 scaffold c1ccncc1 InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
+SBK       pyridine F1 fragment c1ccncc1 InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+SBK C03 F1 1
+SBK C02 F1 1
+SBK C01 F1 1
+SBK C06 F1 1
+SBK C05 F1 1
+SBK N04 F1 1
+SBK C01 S1 1
+SBK C02 S1 1
+SBK C03 S1 1
+SBK N04 S1 1
+SBK C05 S1 1
+SBK C06 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SBK
+_pdbe_chem_comp_rdkit_properties.exactmw                               254.926
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.143
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             100.067
+_pdbe_chem_comp_rdkit_properties.tpsa                                  59.420
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.043
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             51.788
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         14
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+SBK UniChem        ChEMBL    CHEMBL1865925
+SBK UniChem "KEGG LIGAND"           C11032
+SBK UniChem         ChEBI             9682
+SBK UniChem          ZINC ZINC000000900723
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SBK  C01 -2.674 -0.857 -0.817 ETKDGv2  1
+SBK  C02 -1.462 -1.285 -0.446 ETKDGv2  2
+SBK  C03 -0.412 -0.296 -0.126 ETKDGv2  3
+SBK  N04 -0.680  0.979 -0.208 ETKDGv2  4
+SBK  C05 -1.974  1.464 -0.604 ETKDGv2  5
+SBK  C06 -2.953  0.591 -0.902 ETKDGv2  6
+SBK  CL6 -4.556  1.122 -1.393 ETKDGv2  7
+SBK  CL5 -2.232  3.201 -0.683 ETKDGv2  8
+SBK  O09  0.858 -0.736  0.262 ETKDGv2  9
+SBK  C10  1.923  0.153  0.588 ETKDGv2 10
+SBK  C11  3.153 -0.615  0.964 ETKDGv2 11
+SBK  O12  4.316  0.062  1.319 ETKDGv2 12
+SBK  O13  3.147 -1.874  0.962 ETKDGv2 13
+SBK  CL2 -1.127 -3.006 -0.343 ETKDGv2 14
+SBK H011 -3.455 -1.568 -1.055 ETKDGv2 15
+SBK H101  2.154  0.795 -0.289 ETKDGv2 16
+SBK H102  1.624  0.796  1.443 ETKDGv2 17
+SBK   H1  4.349  1.074  1.328 ETKDGv2 18
+#

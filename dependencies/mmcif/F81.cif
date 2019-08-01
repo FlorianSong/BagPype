@@ -1,0 +1,260 @@
+data_F81
+#
+_chem_comp.id                                        F81
+_chem_comp.name                                      2-bromo-6-methoxyphenol
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C7 H7 Br O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2018-03-12
+_chem_comp.pdbx_modified_date                        2019-03-15
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            203.033
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         F81
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            6CO5
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+F81  C02  C1  C 0 1 Y N N  -8.916 -1.116 -16.135  0.561 -0.520  0.010  C02 F81  1
+F81  C03  C2  C 0 1 Y N N  -9.159 -2.472 -16.257  1.886 -0.098  0.006  C03 F81  2
+F81  C05  C3  C 0 1 N N N  -9.903 -3.929 -17.904  4.229 -0.506  0.011  C05 F81  3
+F81  C06  C4  C 0 1 Y N N  -8.277 -3.366 -15.692  2.179  1.257 -0.007  C06 F81  4
+F81  C07  C5  C 0 1 Y N N  -7.175 -2.925 -14.995  1.155  2.185 -0.017  C07 F81  5
+F81  C08  C6  C 0 1 Y N N  -6.902 -1.585 -14.897 -0.163  1.766 -0.013  C08 F81  6
+F81  C09  C7  C 0 1 Y N N  -7.800 -0.702 -15.460 -0.462  0.416  0.001  C09 F81  7
+F81  O01  O1  O 0 1 N N N  -9.762 -0.134 -16.676  0.269 -1.849  0.018  O01 F81  8
+F81  O04  O2  O 0 1 N N N -10.268 -2.968 -16.941  2.893 -1.012  0.016  O04 F81  9
+F81 BR10 BR1 BR 0 0 N N N  -7.508  1.186 -15.332 -2.265 -0.153  0.006 BR10 F81 10
+F81   H1  H1  H 0 1 N N N -10.804 -4.293 -18.419  4.387  0.112  0.894   H1 F81 11
+F81   H2  H2  H 0 1 N N N  -9.221 -3.473 -18.637  4.933 -1.339  0.019   H2 F81 12
+F81   H3  H3  H 0 1 N N N  -9.398 -4.771 -17.408  4.387  0.094 -0.886   H3 F81 13
+F81   H4  H4  H 0 1 N N N  -8.452 -4.427 -15.797  3.207  1.587 -0.010   H4 F81 14
+F81   H5  H5  H 0 1 N N N  -6.520 -3.641 -14.521  1.385  3.240 -0.027   H5 F81 15
+F81   H6  H6  H 0 1 N N N  -6.013 -1.232 -14.395 -0.960  2.495 -0.019   H6 F81 16
+F81   H7  H7  H 0 1 N N N  -9.414  0.728 -16.479  0.187 -2.239 -0.863   H7 F81 17
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+F81 C05  O04 SING N N  1
+F81 O04  C03 SING N N  2
+F81 O01  C02 SING N N  3
+F81 C03  C02 DOUB Y N  4
+F81 C03  C06 SING Y N  5
+F81 C02  C09 SING Y N  6
+F81 C06  C07 DOUB Y N  7
+F81 C09 BR10 SING N N  8
+F81 C09  C08 DOUB Y N  9
+F81 C07  C08 SING Y N 10
+F81 C05   H1 SING N N 11
+F81 C05   H2 SING N N 12
+F81 C05   H3 SING N N 13
+F81 C06   H4 SING N N 14
+F81 C07   H5 SING N N 15
+F81 C08   H6 SING N N 16
+F81 O01   H7 SING N N 17
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+F81           SMILES              ACDLabs 12.01                                     c1(c(cccc1OC)Br)O
+F81            InChI                InChI  1.03 InChI=1S/C7H7BrO2/c1-10-6-4-2-3-5(8)7(6)9/h2-4,9H,1H3
+F81         InChIKey                InChI  1.03                           WEUFQISIJPSTBM-UHFFFAOYSA-N
+F81 SMILES_CANONICAL               CACTVS 3.385                                       COc1cccc(Br)c1O
+F81           SMILES               CACTVS 3.385                                       COc1cccc(Br)c1O
+F81 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                       COc1cccc(c1O)Br
+F81           SMILES "OpenEye OEToolkits" 2.0.6                                       COc1cccc(c1O)Br
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+F81 "SYSTEMATIC NAME"              ACDLabs 12.01     2-bromo-6-methoxyphenol
+F81 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 2-bromanyl-6-methoxy-phenol
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+F81 "Create component" 2018-03-12 RCSB SG ?
+F81  "Initial release" 2019-03-20 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+F81  C02  C 6.897  0.517  1
+F81  C03  C 5.598 -0.233  2
+F81  C05  C 3.000 -0.233  3
+F81  C06  C 5.598 -1.732  4
+F81  C07  C 6.897 -2.482  5
+F81  C08  C 8.196 -1.732  6
+F81  C09  C 8.196 -0.233  7
+F81  O01  O 6.897  2.018  8
+F81  O04  O 4.299  0.517  9
+F81 BR10 Br 9.495  0.517 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+F81 C05  O04 SINGLE NONE  1
+F81 O04  C03 SINGLE NONE  2
+F81 O01  C02 SINGLE NONE  3
+F81 C03  C02 DOUBLE NONE  4
+F81 C03  C06 SINGLE NONE  5
+F81 C02  C09 SINGLE NONE  6
+F81 C06  C07 DOUBLE NONE  7
+F81 C09 BR10 SINGLE NONE  8
+F81 C09  C08 DOUBLE NONE  9
+F81 C07  C08 SINGLE NONE 10
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+F81 MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+F81         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+F81 C02 F1 1
+F81 C03 F1 1
+F81 C06 F1 1
+F81 C07 F1 1
+F81 C08 F1 1
+F81 C09 F1 1
+F81 C02 S1 1
+F81 C03 S1 1
+F81 C06 S1 1
+F81 C07 S1 1
+F81 C08 S1 1
+F81 C09 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               F81
+_pdbe_chem_comp_rdkit_properties.exactmw                               201.963
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.143
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             77.493
+_pdbe_chem_comp_rdkit_properties.tpsa                                  29.460
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.238
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             41.139
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+F81 UniChem   ZINC ZINC000012359068
+F81 UniChem   ZINC     ZINC12359068
+F81 UniChem BRENDA           175198
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+F81  C02 -0.697  1.118 -0.269 ETKDGv2  1
+F81  C03  0.316  0.259 -0.031 ETKDGv2  2
+F81  C05  2.779 -0.080  0.201 ETKDGv2  3
+F81  C06  0.006 -1.174  0.235 ETKDGv2  4
+F81  C07 -1.261 -1.603  0.236 ETKDGv2  5
+F81  C08 -2.362 -0.658 -0.026 ETKDGv2  6
+F81  C09 -2.098  0.632 -0.266 ETKDGv2  7
+F81  O01 -0.453  2.469 -0.523 ETKDGv2  8
+F81  O04  1.636  0.734 -0.038 ETKDGv2  9
+F81 BR10 -3.539  1.845 -0.603 ETKDGv2 10
+F81   H1  2.725 -0.525  1.216 ETKDGv2 11
+F81   H2  2.843 -0.881 -0.565 ETKDGv2 12
+F81   H3  3.691  0.548  0.136 ETKDGv2 13
+F81   H4  0.798 -1.885  0.429 ETKDGv2 14
+F81   H5 -1.482 -2.644  0.429 ETKDGv2 15
+F81   H6 -3.384 -1.017 -0.022 ETKDGv2 16
+F81   H7  0.481  2.862 -0.539 ETKDGv2 17
+#

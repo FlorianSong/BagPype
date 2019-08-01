@@ -1,0 +1,253 @@
+data_QCS
+#
+_chem_comp.id                                        QCS
+_chem_comp.name                                      S-carbamoyl-L-cysteine
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C4 H8 N2 O3 S"
+_chem_comp.mon_nstd_parent_comp_id                   CYS
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2013-10-21
+_chem_comp.pdbx_modified_date                        2013-12-13
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            164.183
+_chem_comp.one_letter_code                           C
+_chem_comp.three_letter_code                         QCS
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3WJP
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+QCS   N   N N 0 1 N N N 5.516 18.894  9.222 -1.418  1.790  0.339   N QCS  1
+QCS  CA  CA C 0 1 N N R 6.472 19.386  8.473 -1.377  0.512 -0.384  CA QCS  2
+QCS  CB  CB C 0 1 N N N 7.516 19.882  9.175 -0.113 -0.255  0.008  CB QCS  3
+QCS  SG  SG S 0 1 N N N 7.403 21.444  9.954  1.346  0.727 -0.419  SG QCS  4
+QCS  CD  CD C 0 1 N N N 8.865 22.070 10.423  2.619 -0.364  0.125  CD QCS  5
+QCS NE2 NE2 N 0 1 N N N 8.903 22.893 11.416  3.912 -0.010 -0.010 NE2 QCS  6
+QCS OE1 OE1 O 0 1 N N N 9.898 21.750  9.855  2.330 -1.435  0.623 OE1 QCS  7
+QCS   C   C C 0 1 N N N 6.980 18.509  7.381 -2.592 -0.305 -0.028   C QCS  8
+QCS   O   O O 0 1 N N N 7.658 18.999  6.443 -3.209 -0.062  0.982   O QCS  9
+QCS OXT OXT O 0 1 N Y N 6.762 17.276  7.419 -2.989 -1.303 -0.833 OXT QCS 10
+QCS   H   H H 0 1 N N N 5.257 19.566  9.916 -1.426  1.641  1.337   H QCS 11
+QCS  H2  H2 H 0 1 N Y N 4.723 18.680  8.652 -0.648  2.384  0.069  H2 QCS 12
+QCS  H4  H4 H 0 1 N N N 6.035 20.246  7.945 -1.369  0.702 -1.457  H4 QCS 13
+QCS  H5  H5 H 0 1 N N N 7.739 19.151  9.966 -0.121 -0.445  1.082  H5 QCS 14
+QCS  H6  H6 H 0 1 N N N 8.365 19.939  8.478 -0.083 -1.204 -0.528  H6 QCS 15
+QCS  H7  H7 H 0 1 N N N 9.778 23.269 11.721  4.143  0.844 -0.407  H7 QCS 16
+QCS  H8  H8 H 0 1 N N N 8.057 23.155 11.881  4.613 -0.610  0.289  H8 QCS 17
+QCS HXT HXT H 0 1 N Y N 7.175 16.858  6.672 -3.773 -1.800 -0.563 HXT QCS 18
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+QCS   O   C DOUB N N  1
+QCS   C OXT SING N N  2
+QCS   C  CA SING N N  3
+QCS  CA  CB SING N N  4
+QCS  CA   N SING N N  5
+QCS  CB  SG SING N N  6
+QCS OE1  CD DOUB N N  7
+QCS  SG  CD SING N N  8
+QCS  CD NE2 SING N N  9
+QCS   N   H SING N N 10
+QCS   N  H2 SING N N 11
+QCS  CA  H4 SING N N 12
+QCS  CB  H5 SING N N 13
+QCS  CB  H6 SING N N 14
+QCS NE2  H7 SING N N 15
+QCS NE2  H8 SING N N 16
+QCS OXT HXT SING N N 17
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+QCS           SMILES              ACDLabs 12.01                                                           O=C(SCC(C(=O)O)N)N
+QCS            InChI                InChI  1.03 InChI=1S/C4H8N2O3S/c5-2(3(7)8)1-10-4(6)9/h2H,1,5H2,(H2,6,9)(H,7,8)/t2-/m0/s1
+QCS         InChIKey                InChI  1.03                                                  YOAUVDYBDJTJJP-REOHCLBHSA-N
+QCS SMILES_CANONICAL               CACTVS 3.385                                                      N[C@@H](CSC(N)=O)C(O)=O
+QCS           SMILES               CACTVS 3.385                                                        N[CH](CSC(N)=O)C(O)=O
+QCS SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                    C([C@@H](C(=O)O)N)SC(=O)N
+QCS           SMILES "OpenEye OEToolkits" 1.7.6                                                         C(C(C(=O)O)N)SC(=O)N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+QCS "SYSTEMATIC NAME"              ACDLabs 12.01                                 S-carbamoyl-L-cysteine
+QCS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2R)-3-aminocarbonylsulfanyl-2-azanyl-propanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+QCS "Create component" 2013-10-21 PDBJ RI ?
+QCS  "Initial release" 2013-12-18 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+QCS   N N 3.805  2.340  1
+QCS  CA C 5.104  1.590  2
+QCS  CB C 5.104  0.090  3
+QCS  SG S 6.404 -0.660  4
+QCS  CD C 6.404 -2.160  5
+QCS NE2 N 5.104 -2.910  6
+QCS OE1 O 7.702 -2.910  7
+QCS   C C 6.404  2.340  8
+QCS   O O 7.702  1.590  9
+QCS OXT O 6.404  3.840 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+QCS   O   C DOUBLE       NONE 1
+QCS   C OXT SINGLE       NONE 2
+QCS   C  CA SINGLE       NONE 3
+QCS  CA  CB SINGLE       NONE 4
+QCS  CA   N SINGLE BEGINWEDGE 5
+QCS  CB  SG SINGLE       NONE 6
+QCS OE1  CD DOUBLE       NONE 7
+QCS  SG  CD SINGLE       NONE 8
+QCS  CD NE2 SINGLE       NONE 9
+#
+_pdbe_chem_comp_substructure.comp_id                      QCS
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+QCS  O F1 1
+QCS  C F1 1
+QCS CA F1 1
+QCS  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               QCS
+_pdbe_chem_comp_rdkit_properties.exactmw                               164.026
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                5
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             73.313
+_pdbe_chem_comp_rdkit_properties.tpsa                                  106.410
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.790
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             37.653
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+QCS UniChem   ZINC ZINC000002567981
+QCS UniChem   ZINC     ZINC02567981
+QCS UniChem BRENDA           109802
+QCS UniChem BRENDA            15956
+QCS UniChem BRENDA            20506
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+QCS   N -1.496 -1.613 -0.976 ETKDGv2  1
+QCS  CA -1.037 -0.335 -0.421 ETKDGv2  2
+QCS  CB  0.117 -0.572  0.567 ETKDGv2  3
+QCS  SG  1.533 -1.407 -0.237 ETKDGv2  4
+QCS  CD  2.192  0.084 -0.985 ETKDGv2  5
+QCS NE2  3.091  0.914 -0.255 ETKDGv2  6
+QCS OE1  1.868  0.389 -2.163 ETKDGv2  7
+QCS   C -2.159  0.419  0.258 ETKDGv2  8
+QCS   O -3.273 -0.131  0.468 ETKDGv2  9
+QCS OXT -1.975  1.742  0.652 ETKDGv2 10
+QCS   H -2.252 -1.427 -1.674 ETKDGv2 11
+QCS  H2 -1.903 -2.204 -0.213 ETKDGv2 12
+QCS  H4 -0.670  0.296 -1.258 ETKDGv2 13
+QCS  H5 -0.235 -1.218  1.399 ETKDGv2 14
+QCS  H6  0.456  0.388  1.013 ETKDGv2 15
+QCS  H7  3.481  1.781 -0.687 ETKDGv2 16
+QCS  H8  3.365  0.664  0.721 ETKDGv2 17
+QCS HXT -1.103  2.226  0.477 ETKDGv2 18
+#

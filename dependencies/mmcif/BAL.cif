@@ -1,0 +1,260 @@
+data_BAL
+#
+_chem_comp.id                                        BAL
+_chem_comp.name                                      BETA-ALANINE
+_chem_comp.type                                      peptide-like
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C3 H7 N O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            89.093
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         BAL
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1MCE
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+BAL   N   N N 0 1 N N N 25.745 -29.140 82.521  2.716 -0.247 -0.035   N BAL  1
+BAL  CB  CB C 0 1 N N N 26.010 -30.369 81.740  1.400  0.405 -0.014  CB BAL  2
+BAL  CA  CA C 0 1 N N N 24.667 -30.987 81.251  0.302 -0.661 -0.022  CA BAL  3
+BAL   C   C C 0 1 N N N 23.931 -30.239 80.158 -1.048  0.008  0.000   C BAL  4
+BAL   O   O O 0 1 N N N 24.209 -29.153 79.662 -1.124  1.214  0.020   O BAL  5
+BAL OXT OXT O 0 1 N Y N 23.529 -31.208 79.500 -2.165 -0.735 -0.003 OXT BAL  6
+BAL   H HN1 H 0 1 N N N 26.611 -28.749 82.832  3.458  0.436 -0.031   H BAL  7
+BAL  H2 HN2 H 0 1 N Y N 25.267 -28.476 81.946  2.813 -0.891  0.735  H2 BAL  8
+BAL HB3 HB1 H 0 1 N N N 26.634 -30.119 80.869  1.310  1.013  0.887 HB3 BAL  9
+BAL HB2 HB2 H 0 1 N N N 26.536 -31.097 82.375  1.295  1.041 -0.893 HB2 BAL 10
+BAL HA1 HA1 H 0 1 N N N 24.895 -31.990 80.860  0.392 -1.268 -0.923 HA1 BAL 11
+BAL HA2 HA2 H 0 1 N N N 23.996 -31.032 82.121  0.407 -1.297  0.857 HA2 BAL 12
+BAL HXT HXT H 0 1 N Y N 23.477 -30.969 78.582 -3.008 -0.261  0.012 HXT BAL 13
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+BAL   N  CB SING N N  1
+BAL   N   H SING N N  2
+BAL   N  H2 SING N N  3
+BAL  CB  CA SING N N  4
+BAL  CB HB3 SING N N  5
+BAL  CB HB2 SING N N  6
+BAL  CA   C SING N N  7
+BAL  CA HA1 SING N N  8
+BAL  CA HA2 SING N N  9
+BAL   C   O DOUB N N 10
+BAL   C OXT SING N N 11
+BAL OXT HXT SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+BAL           SMILES              ACDLabs 12.01                                      O=C(O)CCN
+BAL SMILES_CANONICAL               CACTVS 3.370                                      NCCC(O)=O
+BAL           SMILES               CACTVS 3.370                                      NCCC(O)=O
+BAL SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                    C(CN)C(=O)O
+BAL           SMILES "OpenEye OEToolkits" 1.7.0                                    C(CN)C(=O)O
+BAL            InChI                InChI  1.03 InChI=1S/C3H7NO2/c4-2-1-3(5)6/h1-2,4H2,(H,5,6)
+BAL         InChIKey                InChI  1.03                    UCMIRNVEIXFBKS-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+BAL "SYSTEMATIC NAME"              ACDLabs 12.01             beta-alanine
+BAL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "3-azanylpropanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+BAL  "Create component" 1999-07-08 RCSB ? ?
+BAL "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   BAL
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB03107
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Beta-Alanine
+_pdbe_chem_comp_drugbank_details.description               "An amino acid formed in vivo by the degradation of dihydrouracil and carnosine. Since neuronal uptake and neuronal receptor sensitivity to beta-alanine have been demonstrated, the compound may be a false transmitter replacing GAMMA-AMINOBUTYRIC ACID. A rare genetic disorder, hyper-beta-alaninemia, has been reported. [PubChem]"
+_pdbe_chem_comp_drugbank_details.cas_number                107-95-9
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           BAL
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03107
+_pdbe_chem_comp_drugbank_classification.parent            "Beta amino acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as beta amino acids and derivatives. These are amino acids having a (-NH2) group attached to the beta carbon atom."
+
+#
+_pdbe_chem_comp_drugbank_targets.comp_id                        BAL
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB03107
+_pdbe_chem_comp_drugbank_targets.name                           "Pantothenate synthetase"
+_pdbe_chem_comp_drugbank_targets.organism                       "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)"
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     P9WIL5
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
+_pdbe_chem_comp_drugbank_targets.ordinal                        1
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+BAL             Beta-Alanine ChEMBL
+BAL "3-Amino-Propionic Acid" ChEMBL
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+BAL   N N 9.002  0.660 1
+BAL  CB C 7.702 -0.090 2
+BAL  CA C 6.404  0.660 3
+BAL   C C 5.104 -0.090 4
+BAL   O O 3.805  0.660 5
+BAL OXT O 5.104 -1.590 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+BAL  N  CB SINGLE NONE 1
+BAL CB  CA SINGLE NONE 2
+BAL CA   C SINGLE NONE 3
+BAL  C   O DOUBLE NONE 4
+BAL  C OXT SINGLE NONE 5
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               BAL
+_pdbe_chem_comp_rdkit_properties.exactmw                               89.048
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             45.802
+_pdbe_chem_comp_rdkit_properties.tpsa                                  63.320
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.580
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             21.307
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+BAL UniChem        ChEMBL     CHEMBL297569
+BAL UniChem      DrugBank          DB03107
+BAL UniChem "KEGG LIGAND"           C00099
+BAL UniChem         ChEBI            16958
+BAL UniChem         ChEBI            57966
+BAL UniChem          ZINC ZINC000004658555
+BAL UniChem          ZINC     ZINC04658555
+BAL UniChem    NMRShiftDB         10016956
+BAL UniChem     BindingDb         50000102
+BAL UniChem  MetaboLights       MTBLC16958
+BAL UniChem  MetaboLights       MTBLC57966
+BAL UniChem        BRENDA             1199
+BAL UniChem        BRENDA           145296
+BAL UniChem        BRENDA            16830
+BAL UniChem        BRENDA           182618
+BAL UniChem        BRENDA           203114
+BAL UniChem        BRENDA           207597
+BAL UniChem        BRENDA              494
+BAL UniChem        BRENDA            92730
+BAL UniChem          Rhea            57966
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+BAL   N  1.398  0.855  0.517 ETKDGv2  1
+BAL  CB  0.712  0.235 -0.614 ETKDGv2  2
+BAL  CA -0.218 -0.886 -0.137 ETKDGv2  3
+BAL   C -1.302 -0.361  0.759 ETKDGv2  4
+BAL   O -1.337 -0.705  1.970 ETKDGv2  5
+BAL OXT -2.281  0.495  0.263 ETKDGv2  6
+BAL   H  1.967  1.650  0.146 ETKDGv2  7
+BAL  H2  2.076  0.162  0.908 ETKDGv2  8
+BAL HB3  1.461 -0.189 -1.320 ETKDGv2  9
+BAL HB2  0.126  1.005 -1.161 ETKDGv2 10
+BAL HA1  0.380 -1.656  0.399 ETKDGv2 11
+BAL HA2 -0.686 -1.374 -1.018 ETKDGv2 12
+BAL HXT -2.295  0.769 -0.711 ETKDGv2 13
+#

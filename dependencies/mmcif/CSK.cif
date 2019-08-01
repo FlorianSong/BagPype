@@ -1,0 +1,241 @@
+data_CSK
+#
+_chem_comp.id                                        CSK
+_chem_comp.name                                      S-(methylselanyl)-L-cysteine
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C4 H9 N O2 S Se"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2012-01-30
+_chem_comp.pdbx_modified_date                        2014-05-23
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            214.145
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         CSK
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            4AGI
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+CSK    N    N  N 0 1 N N N 36.004 60.151 54.894  0.957  1.068  0.760    N CSK  1
+CSK   CA   CA  C 0 1 N N R 34.869 60.894 55.377  1.729 -0.158  0.518   CA CSK  2
+CSK    C    C  C 0 1 N N N 34.959 62.285 54.779  3.107  0.204  0.028    C CSK  3
+CSK    O    O  O 0 1 N N N 35.735 62.604 53.859  3.312  1.295 -0.448    O CSK  4
+CSK   CB   CB  C 0 1 N N N 34.960 60.945 56.880  1.019 -1.008 -0.538   CB CSK  5
+CSK   SG   SG  S 0 1 N N N 34.734 59.296 57.625 -0.641 -1.443  0.052   SG CSK  6
+CSK   SE   SE SE 0 0 N N N 32.818 58.885 57.459 -1.765  0.444 -0.189   SE CSK  7
+CSK   CM   CM  C 0 1 N N N 32.955 57.521 56.091 -3.536 -0.090  0.461   CM CSK  8
+CSK  OXT  OXT  O 0 1 N Y N 33.730 63.014 55.104  4.107 -0.687  0.120  OXT CSK  9
+CSK  HN1  HN1  H 0 1 N N N 35.980 59.224 55.268  1.371  1.616  1.499  HN1 CSK 10
+CSK  HN2  HN2  H 0 1 N N N 35.974 60.108 53.895  0.868  1.612 -0.086  HN2 CSK 11
+CSK   HA   HA  H 0 1 N N N 33.926 60.416 55.073  1.810 -0.725  1.445   HA CSK 12
+CSK HB1C HB1C  H 0 0 N N N 35.950 61.332 57.164  0.937 -0.441 -1.466 HB1C CSK 13
+CSK HB2C HB2C  H 0 0 N N N 34.179 61.619 57.262  1.591 -1.918 -0.718 HB2C CSK 14
+CSK  HXT  HXT  H 0 1 N N N 33.631 63.749 54.510  4.974 -0.409 -0.208  HXT CSK 15
+CSK HM1C HM1C  H 0 0 N N N 31.951 57.145 55.845 -3.917 -0.905 -0.154 HM1C CSK 16
+CSK HM2C HM2C  H 0 0 N N N 33.416 57.951 55.190 -3.458 -0.421  1.496 HM2C CSK 17
+CSK HM3C HM3C  H 0 0 N N N 33.576 56.692 56.461 -4.216  0.759  0.401 HM3C CSK 18
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+CSK   N   CA SING N N  1
+CSK  CA    C SING N N  2
+CSK  CA   CB SING N N  3
+CSK   C    O DOUB N N  4
+CSK   C  OXT SING N N  5
+CSK  CB   SG SING N N  6
+CSK  SG   SE SING N N  7
+CSK  SE   CM SING N N  8
+CSK   N  HN1 SING N N  9
+CSK   N  HN2 SING N N 10
+CSK  CA   HA SING N N 11
+CSK  CB HB1C SING N N 12
+CSK  CB HB2C SING N N 13
+CSK OXT  HXT SING N N 14
+CSK  CM HM1C SING N N 15
+CSK  CM HM2C SING N N 16
+CSK  CM HM3C SING N N 17
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+CSK           SMILES              ACDLabs 12.01                                                      O=C(O)C(N)CS[Se]C
+CSK            InChI                InChI  1.03 InChI=1S/C4H9NO2SSe/c1-9-8-2-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)/t3-/m0/s1
+CSK         InChIKey                InChI  1.03                                            ZDHAKDUTQCFEKA-VKHMYHEASA-N
+CSK SMILES_CANONICAL               CACTVS 3.370                                                  C[Se]SC[C@H](N)C(O)=O
+CSK           SMILES               CACTVS 3.370                                                   C[Se]SC[CH](N)C(O)=O
+CSK SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                 C[Se]SC[C@@H](C(=O)O)N
+CSK           SMILES "OpenEye OEToolkits" 1.7.6                                                      C[Se]SCC(C(=O)O)N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+CSK "SYSTEMATIC NAME"              ACDLabs 12.01                           S-(methylselanyl)-L-cysteine
+CSK "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2R)-2-azanyl-3-methylselanylsulfanyl-propanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+CSK   "Create component" 2012-01-30  EBI MC ?
+CSK    "Initial release" 2013-02-01 RCSB  ? ?
+CSK "Other modification" 2014-05-23  EBI MC ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+CSK   N  N 4.299  1.875 1
+CSK  CA  C 5.598  1.125 2
+CSK   C  C 6.897  1.875 3
+CSK   O  O 8.196  1.125 4
+CSK  CB  C 5.598 -0.375 5
+CSK  SG  S 4.299 -1.125 6
+CSK  SE Se 4.299 -2.625 7
+CSK  CM  C 3.000 -3.375 8
+CSK OXT  O 6.897  3.375 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+CSK  N  CA SINGLE BEGINWEDGE 1
+CSK CA   C SINGLE       NONE 2
+CSK CA  CB SINGLE       NONE 3
+CSK  C   O DOUBLE       NONE 4
+CSK  C OXT SINGLE       NONE 5
+CSK CB  SG SINGLE       NONE 6
+CSK SG  SE SINGLE       NONE 7
+CSK SE  CM SINGLE       NONE 8
+#
+_pdbe_chem_comp_substructure.comp_id                      CSK
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+CSK  O F1 1
+CSK  C F1 1
+CSK CA F1 1
+CSK  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               CSK
+_pdbe_chem_comp_rdkit_properties.exactmw                               214.952
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.750
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             76.448
+_pdbe_chem_comp_rdkit_properties.tpsa                                  63.320
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.201
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             39.687
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+CSK    N -1.948 -1.426 -0.294 ETKDGv2  1
+CSK   CA -1.175 -0.180 -0.280 ETKDGv2  2
+CSK    C -2.073  0.978  0.060 ETKDGv2  3
+CSK    O -1.631  2.156 -0.013 ETKDGv2  4
+CSK   CB -0.000 -0.253  0.719 ETKDGv2  5
+CSK   SG  1.222 -1.526  0.241 ETKDGv2  6
+CSK   SE  2.222 -0.247 -1.334 ETKDGv2  7
+CSK   CM  3.550  0.375 -0.055 ETKDGv2  8
+CSK  OXT -3.395  0.763  0.444 ETKDGv2  9
+CSK  HN1 -1.371 -2.183 -0.728 ETKDGv2 10
+CSK  HN2 -2.168 -1.718  0.686 ETKDGv2 11
+CSK   HA -0.776  0.000 -1.302 ETKDGv2 12
+CSK HB1C -0.383 -0.501  1.732 ETKDGv2 13
+CSK HB2C  0.510  0.731  0.790 ETKDGv2 14
+CSK  HXT -4.004  1.540  0.670 ETKDGv2 15
+CSK HM1C  3.051  0.914  0.777 ETKDGv2 16
+CSK HM2C  4.254  1.065 -0.565 ETKDGv2 17
+CSK HM3C  4.115 -0.490  0.349 ETKDGv2 18
+#

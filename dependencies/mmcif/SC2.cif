@@ -1,0 +1,348 @@
+data_SC2
+#
+_chem_comp.id                                        SC2
+_chem_comp.name                                      N-ACETYL-L-CYSTEINE
+_chem_comp.type                                      peptide-like
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C5 H9 N O3 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             "(2R)-2-acetamido-3-sulfanyl-propanoic acid"
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2006-08-11
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             1ZT
+_chem_comp.formula_weight                            163.195
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         SC2
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            2J1G
+_chem_comp.pdbx_subcomponent_list                    "ACE CYS"
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SC2    C    C C 0 1 N N N 48.021 67.877 22.153  0.105 -1.772 -0.087    C CYS  1
+SC2   CB   CB C 0 1 N N N 47.732 69.937 20.806 -1.782 -0.176 -0.284   CB CYS  2
+SC2   CT   CT C 0 1 N N N 51.077 68.841 20.821  1.684  0.971  0.144   CT ACE  3
+SC2   CA   CA C 0 1 N N R 48.742 69.024 21.502 -0.350 -0.369  0.219   CA CYS  4
+SC2    N    N N 0 1 N N N 49.787 68.608 20.581  0.535  0.589 -0.449    N CYS  5
+SC2  OXT  OXT O 0 1 N Y N 46.886 68.109 22.642 -0.561 -2.820  0.423    O CYS  6
+SC2    O    O O 0 1 N N N 48.579 66.751 22.196  1.067 -1.954 -0.794  OXT CYS  7
+SC2   OT   OT O 0 1 N N N 51.814 68.247 21.442  1.985  0.522  1.229   OT ACE  8
+SC2   CM   CM C 0 1 N N N 51.530 70.277 20.937  2.594  1.956 -0.543   CM ACE  9
+SC2   SG   SG S 0 1 N N N 47.137 69.216 19.246 -2.331  1.513  0.085   SG CYS 10
+SC2   H2   H2 H 0 1 N Y N 49.530 68.132 19.740  0.294  0.948 -1.317    H CYS 11
+SC2   HA   HA H 0 1 N N N 49.256 69.576 22.302 -0.318 -0.203  1.296   HA CYS 12
+SC2 HBC1 HBC1 H 0 0 N N N 46.873 70.088 21.476 -1.814 -0.342 -1.361 HBC1 CYS 13
+SC2 HBC2 HBC2 H 0 0 N N N 48.218 70.900 20.588 -2.441 -0.888  0.213 HBC2 CYS 14
+SC2  HXT  HXT H 0 1 N Y N 46.541 67.315 23.033 -0.234 -3.701  0.195   HB CYS 15
+SC2 HMC1 HMC1 H 0 0 N N N 52.424 70.330 21.576  2.161  2.244 -1.501 HMC1 ACE 16
+SC2 HMC2 HMC2 H 0 0 N N N 51.771 70.667 19.937  2.712  2.839  0.083 HMC2 ACE 17
+SC2 HMC3 HMC3 H 0 0 N N N 50.725 70.880 21.382  3.568  1.495 -0.710 HMC3 ACE 18
+SC2  HSG  HSG H 0 1 N N N 46.310 70.127 18.825 -3.583  1.538 -0.405  HSG CYS 19
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SC2   C  OXT SING N N  1
+SC2   C    O DOUB N N  2
+SC2   C   CA SING N N  3
+SC2  CB   CA SING N N  4
+SC2  CB   SG SING N N  5
+SC2  CB HBC1 SING N N  6
+SC2  CB HBC2 SING N N  7
+SC2  CT    N SING N N  8
+SC2  CT   OT DOUB N N  9
+SC2  CT   CM SING N N 10
+SC2  CA    N SING N N 11
+SC2  CA   HA SING N N 12
+SC2   N   H2 SING N N 13
+SC2 OXT  HXT SING N N 14
+SC2  CM HMC1 SING N N 15
+SC2  CM HMC2 SING N N 16
+SC2  CM HMC3 SING N N 17
+SC2  SG  HSG SING N N 18
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SC2           SMILES              ACDLabs 12.01                                                              O=C(NC(C(=O)O)CS)C
+SC2 SMILES_CANONICAL               CACTVS 3.370                                                         CC(=O)N[C@@H](CS)C(O)=O
+SC2           SMILES               CACTVS 3.370                                                           CC(=O)N[CH](CS)C(O)=O
+SC2 SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                                         CC(=O)N[C@@H](CS)C(=O)O
+SC2           SMILES "OpenEye OEToolkits" 1.7.0                                                              CC(=O)NC(CS)C(=O)O
+SC2            InChI                InChI  1.03 InChI=1S/C5H9NO3S/c1-3(7)6-4(2-10)5(8)9/h4,10H,2H2,1H3,(H,6,7)(H,8,9)/t4-/m0/s1
+SC2         InChIKey                InChI  1.03                                                     PWKSKIMOESPYIA-BYPYZUCNSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+SC2 "SYSTEMATIC NAME"              ACDLabs 12.01                          N-acetyl-L-cysteine
+SC2 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "(2R)-2-acetamido-3-sulfanyl-propanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+SC2  "Create component" 2006-08-11 RCSB ? ?
+SC2 "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   SC2
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB06151
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Acetylcysteine
+_pdbe_chem_comp_drugbank_details.description               "Acetylcysteine (also known as N-acetylcysteine or N-acetyl-L-cysteine or NAC) is primarily used as a mucolytic agent and in the management of acetaminophen poisoning.  It is a derivative of cysteine with an acetyl group attached to the amino group of cysteine.  NAC is essentially a prodrug that is converted to cysteine (in the intestine by the enzyme aminoacylase 1) and absorbed in the intestine into the blood stream.  Cysteine is a key constituent to glutathione and hence administration of acetylcysteine replenishes glutathione stores. Acetylcysteine can also be used as a general antioxidant which can help mitigate symptoms for a variety of diseases exacerbated by reactive oxygen species (ROS). For instance, acetylcysteine is commonly used in individuals with renal impairment to prevent the precipitation of acute renal failure. Acetylcysteine has been shown to have efficacy in treating mild to moderate traumatic brain injury including ischemic brain injury, particularly in reducing neuronal losses, and also reducing cognitive and neurological symptoms when administered promptly after injury. N-acetylcysteine is now widely used in the treatment of HIV, and it has reported efficacy in chronic obstructive pulmonary disease and contrast-induced nephropathy. Acetylcysteine is also being successfully used to treat a variety of neuropsychiatric and neurodegenerative disorders including cocaine, cannabis, and smoking addictions, Alzheimer's and Parkinson's diseases, autism, compulsive and grooming disorders, schizophrenia, depression, and bipolar disorder.  Recent data also shows that N-acetylcysteine inhibits muscle fatigue and can be used to enhance performance in endurance events and in exercise and endurance training.  Acetylcysteine is also undergoing clinical trials as RK-0202, an oral rinse for the prevention and treatment of mucositis. It is comprised of acetylcysteine in a polymer matrix."
+_pdbe_chem_comp_drugbank_details.cas_number                616-91-1
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Acetylcysteine protects against acetaminophen overdose-induced hepatotoxicity by maintaining or restoring hepatic concentrations of glutathione. It does this by producing the glutathione precursor L-cysteine. Glutathione is required to inactivate an intermediate metabolite (N-acetyl-p-benzoquinoneimine or NAPQI) of acetaminophen that is thought to be hepatotoxic. In acetaminophen overdose cases, excessive quantities of this metabolite are formed because the primary metabolic (glucuronide and sulfate conjugation) pathways become saturated. Acetylcysteine may act by reducing the metabolite to the parent compound and/or by providing sulfhydryl for conjugation of the metabolite. Experimental evidence also suggests that a sulfhydryl-containing compound such as acetylcysteine may also directly inactivate the metabolite. The mechanisms of action for acetylcysteine’s well-known mucolytic effects are different.  In particular, when inhaled, acetylcysteine (and its metabolic byproduct cysteine) exerts its mucolytic action through its free sulfhydryl group, which reduces the disulfide bonds in the mucus matrix and lowers mucus viscosity. This action increases with increasing pH and is most significant at pH 7 to 9. The mucolytic action of acetylcysteine is not affected by the presence of DNA. Acetylcysteine is also an antioxidant and reduces oxidative stress. Acetylcysteine serves as a prodrug to L-cysteine which is a precursor to the biologic antioxidant, glutathione and hence administration of acetylcysteine replenishes glutathione stores. L-cysteine also serves as a precursor to cystine which in turn serves as a substrate for the cystine-glutamate antiporter on astrocytes hence increasing glutamate release into the extracellular space. This glutamate in turn acts on mGluR2/3 receptors, and at higher doses of acetylcysteine, mGluR5. Glutathione also modulates the NMDA receptor by acting at the redox site. These effects on glutamate and NMDA signaling appear to explain some of the positive neuropsychotropic effects associated with NAC.  Acetylcysteine also possesses some anti-inflammatory effects possibly via inhibiting NF-κB through redox activation of the nuclear factor kappa kinases thereby modulating cytokine synthesis."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           SC2
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB06151
+_pdbe_chem_comp_drugbank_classification.parent            "N-acyl-L-alpha-amino acids"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as n-acyl-l-alpha-amino acids. These are n-acylated alpha amino acids which have the L-configuration of the alpha-carbon atom."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+SC2 DB06151                                   "Glutathione synthetase" Humans P48637     yes  1
+SC2 DB06151                            "Cystine/glutamate transporter" Humans Q9UPY5     yes  2
+SC2 DB06151                                             Aminoacylase-1 Humans Q03154 unknown  3
+SC2 DB06151  "Inhibitor of nuclear factor kappa-B kinase subunit beta" Humans O14920 unknown  4
+SC2 DB06151 "Inhibitor of nuclear factor kappa-B kinase subunit alpha" Humans O15111 unknown  5
+SC2 DB06151                   "Glutamate receptor ionotropic, NMDA 2B" Humans Q13224 unknown  6
+SC2 DB06151                    "Glutamate receptor ionotropic, NMDA 1" Humans Q05586 unknown  7
+SC2 DB06151                   "Glutamate receptor ionotropic, NMDA 2A" Humans Q12879 unknown  8
+SC2 DB06151                   "Glutamate receptor ionotropic, NMDA 2D" Humans O15399 unknown  9
+SC2 DB06151                   "Glutamate receptor ionotropic, NMDA 3A" Humans Q8TCU5 unknown 10
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+SC2                                      Parvolex   ChEMBL
+SC2                                         Siran   ChEMBL
+SC2                                       Airbron   ChEMBL
+SC2                               "Fluimucil 600"   ChEMBL
+SC2                                          5052   ChEMBL
+SC2                                       Mucosil   ChEMBL
+SC2                                        EN-CYS   ChEMBL
+SC2                                     Fluimucil   ChEMBL
+SC2                                     Acetadote   ChEMBL
+SC2                                     Respi-Nac   ChEMBL
+SC2                                    Mucosil-20   ChEMBL
+SC2                           N-Acetyl-L-Cysteine   ChEMBL
+SC2                                        Fabrol   ChEMBL
+SC2                                      Solmucol   ChEMBL
+SC2                                       Cetylev   ChEMBL
+SC2                                       Yournac   ChEMBL
+SC2                                 "Fluimucil N"   ChEMBL
+SC2                                         Ilube   ChEMBL
+SC2                                Acetylcysteine   ChEMBL
+SC2                                    Mucosil-10   ChEMBL
+SC2                                       ACC-600   ChEMBL
+SC2                                      Mucomyst   ChEMBL
+SC2                              "Fluimucil Long"   ChEMBL
+SC2                                         A-CYS   ChEMBL
+SC2                                  "OroNAC 600"   ChEMBL
+SC2 "(2R)-2-acetylamino-3-sulfanylpropanoic acid" DrugBank
+SC2  "(R)-2-acetylamino-3-mercaptopropanoic acid" DrugBank
+SC2                        "(R)-mercapturic acid" DrugBank
+SC2                                Acetylcysteine DrugBank
+SC2                              L-acetylcysteine DrugBank
+SC2      "L-α-acetamido-β-mercaptopropionic acid" DrugBank
+SC2                            "Mercapturic acid" DrugBank
+SC2                       N-acetyl-L-(+)-cysteine DrugBank
+SC2                           N-acetyl-L-cysteine DrugBank
+SC2                              N-acetylcysteine DrugBank
+SC2                                           NAC DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SC2   C C 8.196  1.215  1
+SC2  CB C 6.897 -1.035  2
+SC2  CT C 4.299  0.465  3
+SC2  CA C 6.897  0.465  4
+SC2   N N 5.598  1.215  5
+SC2 OXT O 9.495  0.465  6
+SC2   O O 8.196  2.715  7
+SC2  OT O 4.299 -1.035  8
+SC2  CM C 3.000  1.215  9
+SC2  SG S 8.196 -1.785 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SC2  C OXT SINGLE       NONE 1
+SC2  C   O DOUBLE       NONE 2
+SC2  C  CA SINGLE       NONE 3
+SC2 CB  CA SINGLE BEGINWEDGE 4
+SC2 CB  SG SINGLE       NONE 5
+SC2 CT   N SINGLE       NONE 6
+SC2 CT  OT DOUBLE       NONE 7
+SC2 CT  CM SINGLE       NONE 8
+SC2 CA   N SINGLE       NONE 9
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+SC2   amide F1 fragment CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
+SC2 peptide F2 fragment   NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+SC2  N F1 1
+SC2 CT F1 1
+SC2 OT F1 1
+SC2 CM F1 1
+SC2  O F2 1
+SC2  C F2 1
+SC2 CA F2 1
+SC2  N F2 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SC2
+_pdbe_chem_comp_rdkit_properties.exactmw                               163.030
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.600
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             76.492
+_pdbe_chem_comp_rdkit_properties.tpsa                                  66.400
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.495
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             39.094
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+SC2 UniChem       ChEMBL        CHEMBL600
+SC2 UniChem     DrugBank          DB06151
+SC2 UniChem        ChEBI            28939
+SC2 UniChem         ZINC ZINC000003589203
+SC2 UniChem    BindingDb         50420190
+SC2 UniChem MetaboLights       MTBLC28939
+SC2 UniChem       BRENDA           109084
+SC2 UniChem       BRENDA             2415
+SC2 UniChem       BRENDA             3479
+SC2 UniChem       BRENDA             3827
+SC2 UniChem       BRENDA            48049
+SC2 UniChem       BRENDA            57233
+SC2 UniChem       BRENDA            92209
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SC2    C  1.373  1.362 -0.202 ETKDGv2  1
+SC2   CB  1.436 -1.006  0.611 ETKDGv2  2
+SC2   CT -1.684 -0.226 -1.014 ETKDGv2  3
+SC2   CA  0.768 -0.006 -0.342 ETKDGv2  4
+SC2    N -0.665  0.068 -0.048 ETKDGv2  5
+SC2  OXT  1.279  2.047  1.007 ETKDGv2  6
+SC2    O  1.968  1.892 -1.178 ETKDGv2  7
+SC2   OT -1.379 -0.541 -2.196 ETKDGv2  8
+SC2   CM -3.124 -0.130 -0.627 ETKDGv2  9
+SC2   SG  3.181 -1.281  0.160 ETKDGv2 10
+SC2   H2 -0.961  0.351  0.914 ETKDGv2 11
+SC2   HA  0.929 -0.365 -1.383 ETKDGv2 12
+SC2 HBC1  1.381 -0.642  1.660 ETKDGv2 13
+SC2 HBC2  0.905 -1.980  0.552 ETKDGv2 14
+SC2  HXT  1.683  2.970  1.114 ETKDGv2 15
+SC2 HMC1 -3.300 -0.712  0.302 ETKDGv2 16
+SC2 HMC2 -3.389  0.933 -0.448 ETKDGv2 17
+SC2 HMC3 -3.774 -0.536 -1.431 ETKDGv2 18
+SC2  HSG  3.374 -2.199  1.210 ETKDGv2 19
+#

@@ -1,0 +1,261 @@
+data_LED
+#
+_chem_comp.id                                        LED
+_chem_comp.name                                      (4R)-5-OXO-L-LEUCINE
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C6 H11 N O3"
+_chem_comp.mon_nstd_parent_comp_id                   LEU
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2006-06-07
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            145.156
+_chem_comp.one_letter_code                           L
+_chem_comp.three_letter_code                         LED
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       Y
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+LED    N    N N 0 1 N N N -6.749 51.980 14.784 -0.561  1.921  2.722    N LED  1
+LED   CA   CA C 0 1 N N S -6.871 50.659 15.444 -0.790  1.935  1.273   CA LED  2
+LED   CB   CB C 0 1 N N N -6.749 49.564 14.375  0.151  0.934  0.583   CB LED  3
+LED   CG   CG C 0 1 N N R -6.516 48.167 14.949  1.661  1.158  0.785   CG LED  4
+LED  CD1  CD1 C 0 1 N N N -7.689 47.747 15.858  2.511 -0.017  0.316  CD1 LED  5
+LED  CD2  CD2 C 0 1 N N N -6.463 47.149 13.784  2.110  2.472  0.173  CD2 LED  6
+LED   OE   OE O 0 1 N N N -5.795 47.403 12.786  1.387  3.219 -0.479   OE LED  7
+LED    C    C C 0 1 N N N -5.714 50.540 16.429 -2.250  1.567  1.083    C LED  8
+LED    O    O O 0 1 N N N -4.546 50.731 16.058 -3.009  1.240  1.987    O LED  9
+LED  OXT  OXT O 0 1 N Y N      ?      ?      ? -2.638  1.617 -0.217  OXT LED 10
+LED  HN1  1HN H 0 1 N N N -6.219 52.596 15.367 -1.338  2.100  3.315  HN1 LED 11
+LED  HN2  2HN H 0 1 N Y N -7.660 52.364 14.635  0.380  1.938  3.041  HN2 LED 12
+LED   HA   HA H 0 1 N N N -7.835 50.554 15.963 -0.605  2.958  0.933   HA LED 13
+LED HBC1 1HBC H 0 0 N N N -5.872 49.811 13.758 -0.061  0.916 -0.495 HBC1 LED 14
+LED HBC2 2HBC H 0 0 N N N -7.686 49.544 13.798 -0.080 -0.074  0.955 HBC2 LED 15
+LED   HG   HG H 0 1 N N N -5.578 48.184 15.524  1.827  1.279  1.864   HG LED 16
+LED HD11 1HD1 H 0 0 N N N -8.092 46.783 15.514  3.110 -0.421  1.139 HD11 LED 17
+LED HD12 2HD1 H 0 0 N N N -8.479 48.511 15.814  1.873 -0.825 -0.060 HD12 LED 18
+LED HD13 3HD1 H 0 0 N N N -7.333 47.647 16.894  3.186  0.262 -0.499 HD13 LED 19
+LED  HD2  HD2 H 0 1 N N N -7.011 46.220 13.849  3.154  2.761  0.389  HD2 LED 20
+LED  HXT  HXT H 0 1 N Y N  0.721 -0.074  0.614 -3.571  1.373 -0.393  HXT LED 21
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+LED   N   CA SING N N  1
+LED   N  HN1 SING N N  2
+LED   N  HN2 SING N N  3
+LED  CA   CB SING N N  4
+LED  CA    C SING N N  5
+LED  CA   HA SING N N  6
+LED  CB   CG SING N N  7
+LED  CB HBC1 SING N N  8
+LED  CB HBC2 SING N N  9
+LED  CG  CD1 SING N N 10
+LED  CG  CD2 SING N N 11
+LED  CG   HG SING N N 12
+LED CD1 HD11 SING N N 13
+LED CD1 HD12 SING N N 14
+LED CD1 HD13 SING N N 15
+LED CD2   OE DOUB N N 16
+LED CD2  HD2 SING N N 17
+LED   C    O DOUB N N 18
+LED   C  OXT SING N N 19
+LED OXT  HXT SING N N 20
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+LED           SMILES              ACDLabs 10.04                                                            O=CC(C)CC(N)C(=O)O
+LED SMILES_CANONICAL               CACTVS 3.341                                                    C[C@H](C[C@H](N)C(O)=O)C=O
+LED           SMILES               CACTVS 3.341                                                      C[CH](C[CH](N)C(O)=O)C=O
+LED SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                   C[C@H](C[C@@H](C(=O)O)N)C=O
+LED           SMILES "OpenEye OEToolkits" 1.5.0                                                            CC(CC(C(=O)O)N)C=O
+LED            InChI                InChI  1.03 InChI=1S/C6H11NO3/c1-4(3-8)2-5(7)6(9)10/h3-5H,2,7H2,1H3,(H,9,10)/t4-,5+/m1/s1
+LED         InChIKey                InChI  1.03                                                   ALVALNHXAQAJAM-UHNVWZDZSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+LED "SYSTEMATIC NAME"              ACDLabs 10.04                            (4R)-5-oxo-L-leucine
+LED "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S,4R)-2-amino-4-methyl-5-oxo-pentanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+LED  "Create component" 2006-06-07  EBI ? ?
+LED "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+LED   N N  6.404 -1.643  1
+LED  CA C  6.404 -0.142  2
+LED  CB C  7.702  0.608  3
+LED  CG C  9.002 -0.142  4
+LED CD1 C  9.002 -1.643  5
+LED CD2 C 10.301  0.608  6
+LED  OE O 11.600 -0.142  7
+LED   C C  5.104  0.608  8
+LED   O O  3.805 -0.142  9
+LED OXT O  5.104  2.107 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+LED   N  CA SINGLE BEGINWEDGE 1
+LED  CA  CB SINGLE       NONE 2
+LED  CA   C SINGLE       NONE 3
+LED  CB  CG SINGLE       NONE 4
+LED  CG CD1 SINGLE  BEGINDASH 5
+LED  CG CD2 SINGLE       NONE 6
+LED CD2  OE DOUBLE       NONE 7
+LED   C   O DOUBLE       NONE 8
+LED   C OXT SINGLE       NONE 9
+#
+_pdbe_chem_comp_substructure.comp_id                      LED
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+LED  O F1 1
+LED  C F1 1
+LED CA F1 1
+LED  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               LED
+_pdbe_chem_comp_rdkit_properties.exactmw                               145.074
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             74.679
+_pdbe_chem_comp_rdkit_properties.tpsa                                  80.390
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.377
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             35.456
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+LED UniChem       ChEMBL    CHEMBL1233977
+LED UniChem        ChEBI            43739
+LED UniChem         ZINC ZINC000034870132
+LED UniChem MetaboLights       MTBLC43739
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+LED    N  1.185  0.823 -1.517 ETKDGv2  1
+LED   CA  1.108 -0.172 -0.442 ETKDGv2  2
+LED   CB  0.014  0.216  0.575 ETKDGv2  3
+LED   CG -1.389  0.391 -0.049 ETKDGv2  4
+LED  CD1 -1.954 -0.930 -0.589 ETKDGv2  5
+LED  CD2 -2.329  0.941  0.989 ETKDGv2  6
+LED   OE -2.869  2.024  0.825 ETKDGv2  7
+LED    C  2.434 -0.336  0.264 ETKDGv2  8
+LED    O  3.414  0.408 -0.011 ETKDGv2  9
+LED  OXT  2.576 -1.330  1.228 ETKDGv2 10
+LED  HN1  1.494  1.743 -1.124 ETKDGv2 11
+LED  HN2  1.900  0.515 -2.216 ETKDGv2 12
+LED   HA  0.857 -1.156 -0.890 ETKDGv2 13
+LED HBC1 -0.038 -0.558  1.374 ETKDGv2 14
+LED HBC2  0.311  1.173  1.062 ETKDGv2 15
+LED   HG -1.330  1.116 -0.892 ETKDGv2 16
+LED HD11 -1.367 -1.277 -1.464 ETKDGv2 17
+LED HD12 -3.002 -0.787 -0.929 ETKDGv2 18
+LED HD13 -1.938 -1.716  0.197 ETKDGv2 19
+LED  HD2 -2.532  0.375  1.893 ETKDGv2 20
+LED  HXT  3.455 -1.462  1.714 ETKDGv2 21
+#

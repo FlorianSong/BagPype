@@ -1,0 +1,267 @@
+data_ALQ
+#
+_chem_comp.id                                        ALQ
+_chem_comp.name                                      "2-METHYL-PROPIONIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C4 H8 O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2000-08-25
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ISB
+_chem_comp.formula_weight                            88.105
+_chem_comp.one_letter_code                           X
+_chem_comp.three_letter_code                         ALQ
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1FKN
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+ALQ  CM  CM C 0 1 N N N 39.807 39.419 39.493  1.209  1.379  0.413  CM ALQ  1
+ALQ  CA  CA C 0 1 N N N 40.637 40.654 39.166  0.728  0.194 -0.426  CA ALQ  2
+ALQ  CB  CB C 0 1 N N N 41.037 40.673 37.665  1.618 -1.020 -0.152  CB ALQ  3
+ALQ   C   C C 0 1 N N N 39.828 41.895 39.497 -0.696 -0.135 -0.059   C ALQ  4
+ALQ   O   O O 0 1 N N N 38.616 41.959 39.217 -0.971 -1.228  0.376   O ALQ  5
+ALQ OXT OXT O 0 1 N Y N 40.492 42.897 40.066 -1.660  0.786 -0.216 OXT ALQ  6
+ALQ HM1 HM1 H 0 1 N Y N 39.537 39.430 40.559  2.240  1.617  0.148 HM1 ALQ  7
+ALQ HM2 HM2 H 0 1 N N N 38.891 39.421 38.883  0.575  2.244  0.218 HM2 ALQ  8
+ALQ HM3 HM3 H 0 1 N N N 40.393 38.515 39.272  1.157  1.121  1.471 HM3 ALQ  9
+ALQ  HA  HA H 0 1 N N N 41.559 40.632 39.766  0.780  0.452 -1.483  HA ALQ 10
+ALQ HB1 HB1 H 0 1 N N N 41.634 41.573 37.456  1.566 -1.278  0.906 HB1 ALQ 11
+ALQ HB2 HB2 H 0 1 N N N 41.631 39.777 37.433  1.275 -1.864 -0.749 HB2 ALQ 12
+ALQ HB3 HB3 H 0 1 N N N 40.129 40.683 37.044  2.649 -0.782 -0.417 HB3 ALQ 13
+ALQ HXT HXT H 0 1 N Y N 39.902 43.627 40.210 -2.558  0.529  0.032 HXT ALQ 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+ALQ  CM  CA SING N N  1
+ALQ  CM HM1 SING N N  2
+ALQ  CM HM2 SING N N  3
+ALQ  CM HM3 SING N N  4
+ALQ  CA  CB SING N N  5
+ALQ  CA   C SING N N  6
+ALQ  CA  HA SING N N  7
+ALQ  CB HB1 SING N N  8
+ALQ  CB HB2 SING N N  9
+ALQ  CB HB3 SING N N 10
+ALQ   C   O DOUB N N 11
+ALQ   C OXT SING N N 12
+ALQ OXT HXT SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+ALQ           SMILES              ACDLabs 12.01                                    O=C(O)C(C)C
+ALQ SMILES_CANONICAL               CACTVS 3.370                                    CC(C)C(O)=O
+ALQ           SMILES               CACTVS 3.370                                    CC(C)C(O)=O
+ALQ SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                    CC(C)C(=O)O
+ALQ           SMILES "OpenEye OEToolkits" 1.7.0                                    CC(C)C(=O)O
+ALQ            InChI                InChI  1.03 InChI=1S/C4H8O2/c1-3(2)4(5)6/h3H,1-2H3,(H,5,6)
+ALQ         InChIKey                InChI  1.03                    KQNPFQTWMSNSAP-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+ALQ "SYSTEMATIC NAME"              ACDLabs 12.01 "2-methylpropanoic acid"
+ALQ "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "2-methylpropanoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+ALQ  "Create component" 2000-08-25  EBI ? ?
+ALQ "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   ALQ
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02531
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Isobutyric acid"
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                79-31-2
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           ALQ
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02531
+_pdbe_chem_comp_drugbank_classification.parent            "Carboxylic acids"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as carboxylic acids. These are compounds containing a carboxylic acid group with the formula -C(=O)OH."
+
+#
+_pdbe_chem_comp_drugbank_targets.comp_id                        ALQ
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02531
+_pdbe_chem_comp_drugbank_targets.name                           "2-hydroxy-6-oxo-7-methylocta-2,4-dienoate hydrolase"
+_pdbe_chem_comp_drugbank_targets.organism                       "Pseudomonas fluorescens"
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     P96965
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
+_pdbe_chem_comp_drugbank_targets.ordinal                        1
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+ALQ         "Isobutyric Acid"   ChEMBL
+ALQ "2-methyl-propionic acid" DrugBank
+ALQ        2-Methylpropanoate DrugBank
+ALQ  "2-Methylpropanoic acid" DrugBank
+ALQ "2,2-dimethylacetic acid" DrugBank
+ALQ     "Dimethylacetic acid" DrugBank
+ALQ        "iso-butyric acid" DrugBank
+ALQ              Isobutanoate DrugBank
+ALQ               Isobutyrate DrugBank
+ALQ    "Isopropylformic acid" DrugBank
+ALQ       "α-isobutyric acid" DrugBank
+ALQ  "α-methylpropanoic acid" DrugBank
+ALQ  "α-methylpropionic acid" DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+ALQ  CM C 6.897 -0.375 1
+ALQ  CA C 5.598  0.375 2
+ALQ  CB C 5.598  1.875 3
+ALQ   C C 4.299 -0.375 4
+ALQ   O O 3.000  0.375 5
+ALQ OXT O 4.299 -1.875 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+ALQ CM  CA SINGLE NONE 1
+ALQ CA  CB SINGLE NONE 2
+ALQ CA   C SINGLE NONE 3
+ALQ  C   O DOUBLE NONE 4
+ALQ  C OXT SINGLE NONE 5
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               ALQ
+_pdbe_chem_comp_rdkit_properties.exactmw                               88.052
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.750
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             48.116
+_pdbe_chem_comp_rdkit_properties.tpsa                                  37.300
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.727
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             22.474
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+ALQ UniChem        ChEMBL     CHEMBL108778
+ALQ UniChem      DrugBank          DB02531
+ALQ UniChem      DrugBank          DB04305
+ALQ UniChem "KEGG LIGAND"           C02632
+ALQ UniChem         ChEBI            16135
+ALQ UniChem          ZINC ZINC000000901420
+ALQ UniChem    NMRShiftDB         10016777
+ALQ UniChem  MetaboLights       MTBLC16135
+ALQ UniChem        BRENDA            11133
+ALQ UniChem        BRENDA             2340
+ALQ UniChem        BRENDA            51705
+ALQ UniChem        BRENDA            93714
+ALQ UniChem        BRENDA            95782
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+ALQ  CM -0.400 -1.318  0.107 ETKDGv2  1
+ALQ  CA  0.010  0.093 -0.324 ETKDGv2  2
+ALQ  CB -1.191  1.047 -0.240 ETKDGv2  3
+ALQ   C  1.179  0.572  0.504 ETKDGv2  4
+ALQ   O  1.045  1.513  1.333 ETKDGv2  5
+ALQ OXT  2.429 -0.024  0.359 ETKDGv2  6
+ALQ HM1 -1.240 -1.683 -0.521 ETKDGv2  7
+ALQ HM2  0.450 -2.024 -0.016 ETKDGv2  8
+ALQ HM3 -0.719 -1.324  1.172 ETKDGv2  9
+ALQ  HA  0.336  0.056 -1.387 ETKDGv2 10
+ALQ HB1 -1.579  1.102  0.800 ETKDGv2 11
+ALQ HB2 -2.007  0.693 -0.907 ETKDGv2 12
+ALQ HB3 -0.894  2.065 -0.571 ETKDGv2 13
+ALQ HXT  2.582 -0.769 -0.310 ETKDGv2 14
+#

@@ -1,0 +1,307 @@
+data_URF
+#
+_chem_comp.id                                        URF
+_chem_comp.name                                      5-FLUOROURACIL
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C4 H3 F N2 O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            130.077
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         URF
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1UPF
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+URF  N1  N1 N 0 1 N N N -11.079 93.180 91.185  1.244  0.001  1.126  N1 URF  1
+URF  C2  C2 C 0 1 N N N -11.885 92.455 90.307 -0.023 -0.000  1.576  C2 URF  2
+URF  N3  N3 N 0 1 N N N -12.971 93.154 89.821 -1.062 -0.002  0.720  N3 URF  3
+URF  C4  C4 C 0 1 N N N -13.340 94.440 90.119 -0.846  0.002 -0.610  C4 URF  4
+URF  C5  C5 C 0 1 N N N -12.451 95.142 91.014  0.483 -0.001 -1.099  C5 URF  5
+URF  C6  C6 C 0 1 N N N -11.404 94.494 91.544  1.507  0.000 -0.218  C6 URF  6
+URF  O2  O2 O 0 1 N N N -11.634 91.310 89.946 -0.234 -0.000  2.774  O2 URF  7
+URF  O4  O4 O 0 1 N N N -14.324 94.909 89.549 -1.786  0.001 -1.385  O4 URF  8
+URF  F5  F5 F 0 1 N N N -12.772 96.329 91.457  0.724 -0.001 -2.428  F5 URF  9
+URF HN1 HN1 H 0 1 N N N -10.127 93.178 90.816  1.978  0.002  1.760 HN1 URF 10
+URF HN3 HN3 H 0 1 N N N -13.573 92.660 89.162 -1.970 -0.003  1.062 HN3 URF 11
+URF  H6  H6 H 0 1 N N N -10.802 95.048 92.284  2.528  0.001 -0.571  H6 URF 12
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+URF N1  C2 SING N N  1
+URF N1  C6 SING N N  2
+URF N1 HN1 SING N N  3
+URF C2  N3 SING N N  4
+URF C2  O2 DOUB N N  5
+URF N3  C4 SING N N  6
+URF N3 HN3 SING N N  7
+URF C4  C5 SING N N  8
+URF C4  O4 DOUB N N  9
+URF C5  C6 DOUB N N 10
+URF C5  F5 SING N N 11
+URF C6  H6 SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+URF           SMILES              ACDLabs 10.04                                         FC1=CNC(=O)NC1=O
+URF SMILES_CANONICAL               CACTVS 3.341                                         FC1=CNC(=O)NC1=O
+URF           SMILES               CACTVS 3.341                                         FC1=CNC(=O)NC1=O
+URF SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                     C1=C(C(=O)NC(=O)N1)F
+URF           SMILES "OpenEye OEToolkits" 1.5.0                                     C1=C(C(=O)NC(=O)N1)F
+URF            InChI                InChI  1.03 InChI=1S/C4H3FN2O2/c5-2-1-6-4(9)7-3(2)8/h1H,(H2,6,7,8,9)
+URF         InChIKey                InChI  1.03                              GHASVSINZRGABV-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+URF "SYSTEMATIC NAME"              ACDLabs 10.04 5-fluoropyrimidine-2,4(1H,3H)-dione
+URF "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0    5-fluoro-1H-pyrimidine-2,4-dione
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+URF  "Create component" 1999-07-08 RCSB ? ?
+URF "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   URF
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB00544
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Fluorouracil
+_pdbe_chem_comp_drugbank_details.description               "A pyrimidine analog that is an antineoplastic antimetabolite. It interferes with DNA synthesis by blocking the thymidylate synthetase conversion of deoxyuridylic acid to thymidylic acid."
+_pdbe_chem_comp_drugbank_details.cas_number                51-21-8
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "The precise mechanism of action has not been fully determined, but the main mechanism of fluorouracil is thought to be the binding of the deoxyribonucleotide of the drug (FdUMP) and the folate cofactor, N5–10-methylenetetrahydrofolate, to thymidylate synthase (TS) to form a covalently bound ternary complex. This results in the inhibition of the formation of thymidylate from uracil, which leads to the inhibition of DNA and RNA synthesis and cell death. Fluorouracil can also be incorporated into RNA in place of uridine triphosphate (UTP), producing a fraudulent RNA and interfering with RNA processing and protein synthesis."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           URF
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00544
+_pdbe_chem_comp_drugbank_classification.parent            Halopyrimidines
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             Diazines
+_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as halopyrimidines. These are aromatic compounds containing a halogen atom linked to a pyrimidine ring. Pyrimidine is a 6-membered ring consisting of four carbon atoms and two nitrogen centers at the 1- and 3- ring positions."
+
+#
+_pdbe_chem_comp_drugbank_targets.comp_id                        URF
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB00544
+_pdbe_chem_comp_drugbank_targets.name                           "Thymidylate synthase"
+_pdbe_chem_comp_drugbank_targets.organism                       Humans
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     P04818
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       yes
+_pdbe_chem_comp_drugbank_targets.ordinal                        1
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+URF                      Adrucil   ChEMBL
+URF               5-Fluorouracil   ChEMBL
+URF                        Carac   ChEMBL
+URF                       Efudix   ChEMBL
+URF                   Fluoroplex   ChEMBL
+URF                     Fluracil   ChEMBL
+URF                       Efudex   ChEMBL
+URF                   Actikerall   ChEMBL
+URF                       5.F.U.   ChEMBL
+URF                         5-FU   ChEMBL
+URF                 Fluorouracil   ChEMBL
+URF                     Ro-29757   ChEMBL
+URF                        Tolak   ChEMBL
+URF                     Accusite   ChEMBL
+URF        "Fluoro-Uracil Roche"   ChEMBL
+URF 5-Fluoropyrimidine-2,4-dione DrugBank
+URF               5-Fluorouracil DrugBank
+URF                   5-Fluracil DrugBank
+URF                         5-FU DrugBank
+URF              "Fluoro Uracil" DrugBank
+URF                 Fluorouracil DrugBank
+URF                   Fluouracil DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+URF N1 N 6.897  1.215 1
+URF C2 C 6.897 -0.285 2
+URF N3 N 5.598 -1.035 3
+URF C4 C 4.299 -0.285 4
+URF C5 C 4.299  1.215 5
+URF C6 C 5.598  1.965 6
+URF O2 O 8.196 -1.035 7
+URF O4 O 3.000 -1.035 8
+URF F5 F 3.000  1.965 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+URF N1 C2 SINGLE NONE 1
+URF N1 C6 SINGLE NONE 2
+URF C2 N3 SINGLE NONE 3
+URF C2 O2 DOUBLE NONE 4
+URF N3 C4 SINGLE NONE 5
+URF C4 C5 SINGLE NONE 6
+URF C4 O4 DOUBLE NONE 7
+URF C5 C6 DOUBLE NONE 8
+URF C5 F5 SINGLE NONE 9
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+URF MurckoScaffold S1 scaffold O=c1cc[nH]c(=O)[nH]1 InChI=1S/C4H4N2O2/c7-3-1-2-5-4(8)6-3/h1-2H,(H2,5,6,7,8) ISAKRJDGNUQOIC-UHFFFAOYSA-N
+URF     pyrimidine F1 fragment             c1cncnc1                    InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+URF C5 F1 1
+URF C4 F1 1
+URF N3 F1 1
+URF C2 F1 1
+URF N1 F1 1
+URF C6 F1 1
+URF N1 S1 1
+URF C2 S1 1
+URF N3 S1 1
+URF C4 S1 1
+URF C5 S1 1
+URF C6 S1 1
+URF O2 S1 1
+URF O4 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               URF
+_pdbe_chem_comp_rdkit_properties.exactmw                               130.018
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             52.690
+_pdbe_chem_comp_rdkit_properties.tpsa                                  65.720
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.002
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             27.857
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+URF UniChem        ChEMBL        CHEMBL185
+URF UniChem      DrugBank          DB00544
+URF UniChem "KEGG LIGAND"           C07649
+URF UniChem         ChEBI            46345
+URF UniChem          ZINC ZINC000038212689
+URF UniChem          ZINC     ZINC38212689
+URF UniChem    NMRShiftDB         20027309
+URF UniChem     BindingDb         50340677
+URF UniChem        BRENDA           155282
+URF UniChem        BRENDA            51649
+URF UniChem        BRENDA              812
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+URF  N1 -0.757  1.205 -0.029 ETKDGv2  1
+URF  C2 -1.371 -0.003 -0.491 ETKDGv2  2
+URF  N3 -0.623 -1.220 -0.468 ETKDGv2  3
+URF  C4  0.723 -1.199  0.018 ETKDGv2  4
+URF  C5  1.312  0.069  0.483 ETKDGv2  5
+URF  C6  0.594  1.198  0.453 ETKDGv2  6
+URF  O2 -2.557  0.007 -0.913 ETKDGv2  7
+URF  O4  1.400 -2.260  0.047 ETKDGv2  8
+URF  F5  2.588  0.093  0.945 ETKDGv2  9
+URF HN1 -1.294  2.101 -0.041 ETKDGv2 10
+URF HN3 -1.052 -2.113 -0.801 ETKDGv2 11
+URF  H6  1.038  2.123  0.798 ETKDGv2 12
+#

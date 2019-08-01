@@ -1,0 +1,242 @@
+data_DSS
+#
+_chem_comp.id                                        DSS
+_chem_comp.name                                      "METHYL METHYLSULFINYLMETHYL SULFIDE"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H8 O S2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-10-19
+_chem_comp.pdbx_modified_date                        2012-01-05
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            124.225
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         DSS
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1D7I
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+DSS   S   S S 0 1 N N S 63.560 -22.164 -28.064  1.073 -0.013  0.354   S DSS  1
+DSS   O   O O 0 1 N N N 63.083 -23.206 -27.118  1.303 -1.403  0.175   O DSS  2
+DSS  C1  C1 C 0 1 N N N 62.703 -22.383 -29.606  2.548  0.914 -0.151  C1 DSS  3
+DSS  C2  C2 C 0 1 N N N 62.840 -20.663 -27.630 -0.185  0.549 -0.826  C2 DSS  4
+DSS  S3  S3 S 0 1 N N N 63.404 -19.283 -28.641 -1.758 -0.283 -0.474  S3 DSS  5
+DSS  C4  C4 C 0 1 N N N 63.013 -17.922 -27.459 -2.348  0.571  1.014  C4 DSS  6
+DSS H11 1H1 H 0 1 N N N 63.060 -21.601 -30.315  2.799  0.664 -1.182 H11 DSS  7
+DSS H12 2H1 H 0 1 N N N 62.808 -23.415 -30.014  2.349  1.983 -0.075 H12 DSS  8
+DSS H13 3H1 H 0 1 N N N 61.594 -22.380 -29.486  3.382  0.653  0.500 H13 DSS  9
+DSS H21 1H2 H 0 1 N N N 61.727 -20.737 -27.647 -0.316  1.627 -0.733 H21 DSS 10
+DSS H22 2H2 H 0 1 N N N 62.993 -20.448 -26.546  0.134  0.307 -1.840 H22 DSS 11
+DSS H41 1H4 H 0 1 N N N 63.362 -17.067 -28.084 -3.303  0.146  1.322 H41 DSS 12
+DSS H42 2H4 H 0 1 N N N 61.964 -17.871 -27.083 -1.620  0.447  1.816 H42 DSS 13
+DSS H43 3H4 H 0 1 N N N 63.451 -18.005 -26.437 -2.474  1.632  0.798 H43 DSS 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+DSS  S   O DOUB N N  1
+DSS  S  C1 SING N N  2
+DSS  S  C2 SING N N  3
+DSS C1 H11 SING N N  4
+DSS C1 H12 SING N N  5
+DSS C1 H13 SING N N  6
+DSS C2  S3 SING N N  7
+DSS C2 H21 SING N N  8
+DSS C2 H22 SING N N  9
+DSS S3  C4 SING N N 10
+DSS C4 H41 SING N N 11
+DSS C4 H42 SING N N 12
+DSS C4 H43 SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+DSS           SMILES              ACDLabs 10.04      "methyl (methylsulfanyl)methyl (S)-sulfoxide"
+DSS            InChI                InChI  1.03 InChI=1S/C3H8OS2/c1-5-3-6(2)4/h3H2,1-2H3/t6-/m0/s1
+DSS         InChIKey                InChI  1.03                        OTKFCIVOVKCFHR-LURJTMIESA-N
+DSS SMILES_CANONICAL               CACTVS 3.385                                       CSC[S@](C)=O
+DSS           SMILES               CACTVS 3.385                                        CSC[S](C)=O
+DSS SMILES_CANONICAL "OpenEye OEToolkits" 1.7.5                                      CSC[S@@](=O)C
+DSS           SMILES "OpenEye OEToolkits" 1.7.5                                          CSCS(=O)C
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+DSS "SYSTEMATIC NAME"              ACDLabs 10.04 (methylsulfanyl)[(S)-methylsulfinyl]methane
+DSS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(S)-methylsulfinyl]methylsulfanylmethane"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+DSS   "Create component" 1999-10-19 RCSB ? ?
+DSS  "Modify descriptor" 2011-06-04 RCSB ? ?
+DSS  "Modify descriptor" 2012-01-05 RCSB ? ?
+DSS "Modify coordinates" 2012-01-05 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   DSS
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02311
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Methyl Methylsulfinylmethyl Sulfide"
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                33577-16-1
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           DSS
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02311
+_pdbe_chem_comp_drugbank_classification.parent            Sulfoxides
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             Sulfoxides
+_pdbe_chem_comp_drugbank_classification.superclass        "Organosulfur compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as sulfoxides. These are compounds containing a sulfoxide functional group, with the structure RS(=O)R' (R,R' not H)."
+
+#
+_pdbe_chem_comp_drugbank_targets.comp_id                        DSS
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02311
+_pdbe_chem_comp_drugbank_targets.name                           "Peptidyl-prolyl cis-trans isomerase FKBP1A"
+_pdbe_chem_comp_drugbank_targets.organism                       Humans
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     P62942
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
+_pdbe_chem_comp_drugbank_targets.ordinal                        1
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+DSS  S S 4.299  0.375 1
+DSS  O O 4.299 -1.125 2
+DSS C1 C 3.000  1.125 3
+DSS C2 C 5.598  1.125 4
+DSS S3 S 6.897  0.375 5
+DSS C4 C 8.196  1.125 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+DSS  S  O DOUBLE      NONE 1
+DSS  S C1 SINGLE BEGINDASH 2
+DSS  S C2 SINGLE      NONE 3
+DSS C2 S3 SINGLE      NONE 4
+DSS S3 C4 SINGLE      NONE 5
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               DSS
+_pdbe_chem_comp_rdkit_properties.exactmw                               124.002
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             56.206
+_pdbe_chem_comp_rdkit_properties.tpsa                                  17.070
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.685
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             32.448
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+DSS UniChem DrugBank          DB02311
+DSS UniChem     ZINC ZINC000001731100
+DSS UniChem     ZINC     ZINC04521681
+DSS UniChem   BRENDA           163772
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+DSS   S -1.353 -0.504 -0.670 ETKDGv2  1
+DSS   O -1.530  0.662 -1.634 ETKDGv2  2
+DSS  C1 -2.645 -0.235  0.556 ETKDGv2  3
+DSS  C2  0.170 -0.108  0.207 ETKDGv2  4
+DSS  S3  1.588 -0.329 -0.915 ETKDGv2  5
+DSS  C4  2.831  0.153  0.324 ETKDGv2  6
+DSS H11 -2.535 -0.973  1.377 ETKDGv2  7
+DSS H12 -3.639 -0.364  0.080 ETKDGv2  8
+DSS H13 -2.565  0.791  0.970 ETKDGv2  9
+DSS H21  0.272 -0.790  1.077 ETKDGv2 10
+DSS H22  0.128  0.942  0.564 ETKDGv2 11
+DSS H41  2.793 -0.537  1.192 ETKDGv2 12
+DSS H42  2.647  1.194  0.664 ETKDGv2 13
+DSS H43  3.839  0.099 -0.134 ETKDGv2 14
+#

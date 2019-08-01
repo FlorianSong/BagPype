@@ -1,0 +1,351 @@
+data_SAL
+#
+_chem_comp.id                                        SAL
+_chem_comp.name                                      "2-HYDROXYBENZOIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C7 H6 O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             "SALICYLIC ACID"
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            138.121
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         SAL
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1FO4
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      PDBJ
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SAL  "C1'"  "C1'" C 0 1 N N N 73.041 -6.580 39.637  0.226  0.006  1.635  "C1'" SAL  1
+SAL  "O1'"  "O1'" O 0 1 N N N 74.080 -7.031 39.173 -0.837  0.018  2.222  "O1'" SAL  2
+SAL  "O2'"  "O2'" O 0 1 N N N 72.831 -6.884 40.805  1.379 -0.007  2.332  "O2'" SAL  3
+SAL     C1     C1 C 0 1 Y N N 72.138 -5.766 38.890  0.255  0.005  0.161     C1 SAL  4
+SAL     C2     C2 C 0 1 Y N N 72.341 -5.396 37.534 -0.941  0.012 -0.567     C2 SAL  5
+SAL     C3     C3 C 0 1 Y N N 71.427 -4.584 36.794 -0.902  0.018 -1.953     C3 SAL  6
+SAL     C4     C4 C 0 1 Y N N 70.267 -4.132 37.444  0.311  0.003 -2.611     C4 SAL  7
+SAL     C5     C5 C 0 1 Y N N 69.995 -4.459 38.795  1.497 -0.010 -1.894     C5 SAL  8
+SAL     C6     C6 C 0 1 Y N N 70.939 -5.277 39.504  1.477 -0.009 -0.517     C6 SAL  9
+SAL     O2     O2 O 0 1 N N N 73.433 -5.793 36.840 -2.133  0.027  0.080     O2 SAL 10
+SAL "HO2'" "'HO2" H 0 0 N N N 72.024 -6.534 41.165  1.360 -0.006  3.299 "HO2'" SAL 11
+SAL     H3     H3 H 0 1 N N N 71.613 -4.311 35.741 -1.821  0.029 -2.519     H3 SAL 12
+SAL     H4     H4 H 0 1 N N N 69.553 -3.506 36.881  0.337  0.002 -3.691     H4 SAL 13
+SAL     H5     H5 H 0 1 N N N 69.076 -4.088 39.280  2.442 -0.021 -2.418     H5 SAL 14
+SAL     H6     H6 H 0 1 N N N 70.736 -5.538 40.556  2.404 -0.019  0.037     H6 SAL 15
+SAL    HO2    HO2 H 0 1 N N N 73.568 -5.545 35.932 -2.392 -0.895  0.209    HO2 SAL 16
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SAL "C1'"  "O1'" DOUB N N  1
+SAL "C1'"  "O2'" SING N N  2
+SAL "C1'"     C1 SING N N  3
+SAL "O2'" "HO2'" SING N N  4
+SAL    C1     C2 SING Y N  5
+SAL    C1     C6 DOUB Y N  6
+SAL    C2     C3 DOUB Y N  7
+SAL    C2     O2 SING N N  8
+SAL    C3     C4 SING Y N  9
+SAL    C3     H3 SING N N 10
+SAL    C4     C5 DOUB Y N 11
+SAL    C4     H4 SING N N 12
+SAL    C5     C6 SING Y N 13
+SAL    C5     H5 SING N N 14
+SAL    C6     H6 SING N N 15
+SAL    O2    HO2 SING N N 16
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SAL           SMILES              ACDLabs 10.04                                          O=C(O)c1ccccc1O
+SAL SMILES_CANONICAL               CACTVS 3.341                                          OC(=O)c1ccccc1O
+SAL           SMILES               CACTVS 3.341                                          OC(=O)c1ccccc1O
+SAL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                      c1ccc(c(c1)C(=O)O)O
+SAL           SMILES "OpenEye OEToolkits" 1.5.0                                      c1ccc(c(c1)C(=O)O)O
+SAL            InChI                InChI  1.03 InChI=1S/C7H6O3/c8-6-4-2-1-3-5(6)7(9)10/h1-4,8H,(H,9,10)
+SAL         InChIKey                InChI  1.03                              YGSDEFSMJLZEOE-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+SAL "SYSTEMATIC NAME"              ACDLabs 10.04 "2-hydroxybenzoic acid"
+SAL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-hydroxybenzoic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+SAL  "Create component" 1999-07-08 PDBJ ? ?
+SAL "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   SAL
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB00936
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Salicylic acid"
+_pdbe_chem_comp_drugbank_details.description               "A compound obtained from the bark of the white willow and wintergreen leaves, and also prepared synthetically. It has bacteriostatic, fungicidal, and keratolytic actions. Its salts, the salicylates, are used as analgesics."
+_pdbe_chem_comp_drugbank_details.cas_number                69-72-7
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Salicylic acid directly irreversibly inhibits COX-1 and COX-2 to decrease conversion of arachidonic acid to precursors of prostaglandins and thromboxanes. Salicylate's use in rheumatic diseases is due to it's analgesic and anti-inflammatory activity. Salicylic acid is a key ingredient in many skin-care products for the treatment of acne, psoriasis, calluses, corns, keratosis pilaris, and warts. Salicylic acid allows cells of the epidermis to more readily slough off. Because of its effect on skin cells, salicylic acid is used in several shampoos used to treat dandruff. Salicylic acid is also used as an active ingredient in gels which remove verrucas (plantar warts). Salicylic acid competitively inhibits oxidation of uridine-5-diphosphoglucose (UDPG) with nicotinamide adenosine dinucleotide (NAD) and noncompetitively with UDPG. It also competitively inhibits the transferring of the glucuronyl group of uridine-5-phosphoglucuronic acid (UDPGA) to a phenolic acceptor. Inhibition of mucopoly saccharide synthesis is likely responsible for the slowing of wound healing with salicylates."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           SAL
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00936
+_pdbe_chem_comp_drugbank_classification.parent            "Salicylic acids"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Benzene and substituted derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        Benzenoids
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as salicylic acids. These are ortho-hydroxylated benzoic acids."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+SAL DB00936           "Prostaglandin G/H synthase 1" Humans P23219     yes 1
+SAL DB00936           "Prostaglandin G/H synthase 2" Humans P35354     yes 2
+SAL DB00936 "Aldo-keto reductase family 1 member C1" Humans Q04828 unknown 3
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+SAL                               Freezone   ChEMBL
+SAL                                 Bazuka   ChEMBL
+SAL                                 Thwart   ChEMBL
+SAL               "2-Hydroxy-benzoic acid"   ChEMBL
+SAL                               Verrugon   ChEMBL
+SAL                                  Necol   ChEMBL
+SAL                                  Ionil   ChEMBL
+SAL                                Saligel   ChEMBL
+SAL           "Dr. Scholl's Corn Removers"   ChEMBL
+SAL                  "Salicylic Acid Soap"   ChEMBL
+SAL                                 Erytex   ChEMBL
+SAL                                Keralyt   ChEMBL
+SAL                                  Jadit   ChEMBL
+SAL                 "Duofilm Wart Remover"   ChEMBL
+SAL                               Salactol   ChEMBL
+SAL                                Salatac   ChEMBL
+SAL                               Duoplant   ChEMBL
+SAL                       "Salicylic Acid"   ChEMBL
+SAL                           "Compound V"   ChEMBL
+SAL        "Dr. Scholl's Wart Remover Kit"   ChEMBL
+SAL                       "Cuplex Verruca"   ChEMBL
+SAL                               Stri-Dex   ChEMBL
+SAL "Advanced Pain Relief Callus Removers"   ChEMBL
+SAL                              Edinburgh   ChEMBL
+SAL                                 Phytex   ChEMBL
+SAL    "Advanced Pain Relief Com Removers"   ChEMBL
+SAL                                Acnisal   ChEMBL
+SAL                                 Wartex   ChEMBL
+SAL                                Duofilm   ChEMBL
+SAL                               Metanium   ChEMBL
+SAL                                Toepedo   ChEMBL
+SAL                             Posalfilin   ChEMBL
+SAL         "Dr. Scholl's Callus Removers"   ChEMBL
+SAL                               Occlusal   ChEMBL
+SAL                               Pyralvex   ChEMBL
+SAL                               Phytocil   ChEMBL
+SAL                             Ionil-Plus   ChEMBL
+SAL              "Clear Away Wart Remover"   ChEMBL
+SAL                           "Compound W"   ChEMBL
+SAL                               Noxacorn   ChEMBL
+SAL                            Phiso-Clear   ChEMBL
+SAL                           "Gppe Paint"   ChEMBL
+SAL                        2-Carboxyphenol DrugBank
+SAL                "2-Hydroxybenzoic acid" DrugBank
+SAL                        O-carboxyphenol DrugBank
+SAL                "O-hydroxybenzoic acid" DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SAL "C1'" C -0.703 -0.836  1
+SAL "O1'" O -1.569 -0.335  2
+SAL "O2'" O -0.704 -1.836  3
+SAL    C1 C  0.163 -0.337  4
+SAL    C2 C  0.164  0.663  5
+SAL    C3 C  1.030  1.163  6
+SAL    C4 C  1.896  0.662  7
+SAL    C5 C  1.895 -0.338  8
+SAL    C6 C  1.029 -0.837  9
+SAL    O2 O -0.702  1.164 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SAL "C1'" "O1'" DOUBLE NONE  1
+SAL "C1'" "O2'" SINGLE NONE  2
+SAL "C1'"    C1 SINGLE NONE  3
+SAL    C1    C2 DOUBLE NONE  4
+SAL    C1    C6 SINGLE NONE  5
+SAL    C2    C3 SINGLE NONE  6
+SAL    C2    O2 SINGLE NONE  7
+SAL    C3    C4 DOUBLE NONE  8
+SAL    C4    C5 SINGLE NONE  9
+SAL    C5    C6 DOUBLE NONE 10
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+SAL MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+SAL         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+SAL C1 F1 1
+SAL C2 F1 1
+SAL C3 F1 1
+SAL C4 F1 1
+SAL C5 F1 1
+SAL C6 F1 1
+SAL C1 S1 1
+SAL C2 S1 1
+SAL C3 S1 1
+SAL C4 S1 1
+SAL C5 S1 1
+SAL C6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SAL
+_pdbe_chem_comp_rdkit_properties.exactmw                               138.032
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             66.149
+_pdbe_chem_comp_rdkit_properties.tpsa                                  57.530
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.573
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             34.190
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+SAL UniChem        ChEMBL        CHEMBL424
+SAL UniChem      DrugBank          DB00936
+SAL UniChem "KEGG LIGAND"           C00805
+SAL UniChem         ChEBI            16914
+SAL UniChem          ZINC ZINC000000001554
+SAL UniChem    NMRShiftDB         10008793
+SAL UniChem     BindingDb            26193
+SAL UniChem  MetaboLights       MTBLC16914
+SAL UniChem        BRENDA           145569
+SAL UniChem        BRENDA            21658
+SAL UniChem        BRENDA            24601
+SAL UniChem        BRENDA            47420
+SAL UniChem        BRENDA             5097
+SAL UniChem        BRENDA              617
+SAL UniChem        BRENDA              765
+SAL UniChem        BRENDA            90999
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SAL  "C1'" -1.997  0.066  0.100 ETKDGv2  1
+SAL  "O1'" -2.664  0.735 -0.734 ETKDGv2  2
+SAL  "O2'" -2.665 -0.677  1.069 ETKDGv2  3
+SAL     C1 -0.521  0.001  0.018 ETKDGv2  4
+SAL     C2  0.249  1.037 -0.407 ETKDGv2  5
+SAL     C3  1.711  0.852 -0.550 ETKDGv2  6
+SAL     C4  2.285 -0.310 -0.223 ETKDGv2  7
+SAL     C5  1.462 -1.423  0.280 ETKDGv2  8
+SAL     C6  0.137 -1.277  0.396 ETKDGv2  9
+SAL     O2 -0.268  2.304 -0.691 ETKDGv2 10
+SAL "HO2'" -3.676 -0.666  1.127 ETKDGv2 11
+SAL     H3  2.322  1.669 -0.911 ETKDGv2 12
+SAL     H4  3.356 -0.435 -0.324 ETKDGv2 13
+SAL     H5  1.931 -2.360  0.551 ETKDGv2 14
+SAL     H6 -0.455 -2.109  0.756 ETKDGv2 15
+SAL    HO2 -1.208  2.593 -0.458 ETKDGv2 16
+#

@@ -1,0 +1,202 @@
+data_FK2
+#
+_chem_comp.id                                        FK2
+_chem_comp.name                                      "3-oxidanylidenepropanoic acid"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H4 O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2018-07-14
+_chem_comp.pdbx_modified_date                        2019-01-18
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            88.062
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         FK2
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            6H2G
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+FK2 C1 C1 C 0 1 N N N 4.575 -18.818 -23.015  0.291  0.803  0.214 C1 FK2  1
+FK2 C2 C2 C 0 1 N N N 5.367 -18.967 -24.314  1.486 -0.104  0.358 C2 FK2  2
+FK2 O1 O1 O 0 1 N N N 6.210 -19.855 -24.443  2.441  0.037 -0.368 O1 FK2  3
+FK2  C C3 C 0 1 N N N 4.733 -17.482 -22.307 -0.949 -0.029  0.012  C FK2  4
+FK2  O O2 O 0 1 N N N 4.806 -16.480 -23.004 -0.871 -1.234 -0.013  O FK2  5
+FK2 O2 O3 O 0 1 N Y N 3.720 -16.945 -21.520 -2.141  0.570 -0.140 O2 FK2  6
+FK2 H1 H1 H 0 1 N N N 3.509 -18.954 -23.249  0.182  1.406  1.116 H1 FK2  7
+FK2 H2 H2 H 0 1 N N N 4.903 -19.609 -22.325  0.433  1.458 -0.646 H2 FK2  8
+FK2 H3 H3 H 0 1 N N N 5.184 -18.284 -25.130  1.488 -0.879  1.109 H3 FK2  9
+FK2 H5 H5 H 0 1 N N N 3.510 -16.071 -21.826 -2.908 -0.006 -0.267 H5 FK2 10
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+FK2 O1 C2 DOUB N N 1
+FK2 C2 C1 SING N N 2
+FK2 C1  C SING N N 3
+FK2  O  C DOUB N N 4
+FK2  C O2 SING N N 5
+FK2 C1 H1 SING N N 6
+FK2 C1 H2 SING N N 7
+FK2 C2 H3 SING N N 8
+FK2 O2 H5 SING N N 9
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+FK2            InChI                InChI  1.03 InChI=1S/C3H4O3/c4-2-1-3(5)6/h2H,1H2,(H,5,6)
+FK2         InChIKey                InChI  1.03                  OAKURXIZZOAYBC-UHFFFAOYSA-N
+FK2 SMILES_CANONICAL               CACTVS 3.385                                   OC(=O)CC=O
+FK2           SMILES               CACTVS 3.385                                   OC(=O)CC=O
+FK2 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                 C(C=O)C(=O)O
+FK2           SMILES "OpenEye OEToolkits" 2.0.6                                 C(C=O)C(=O)O
+#
+_pdbx_chem_comp_identifier.comp_id               FK2
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version       2.0.6
+_pdbx_chem_comp_identifier.identifier            "3-oxidanylidenepropanoic acid"
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+FK2 "Create component" 2018-07-14  EBI MJC ?
+FK2  "Initial release" 2019-01-23 RCSB   ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+FK2 C1 C 6.404  1.125 1
+FK2 C2 C 7.702  0.375 2
+FK2 O1 O 9.002  1.125 3
+FK2  C C 5.104  0.375 4
+FK2  O O 3.805  1.125 5
+FK2 O2 O 5.104 -1.125 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+FK2 O1 C2 DOUBLE NONE 1
+FK2 C2 C1 SINGLE NONE 2
+FK2 C1  C SINGLE NONE 3
+FK2  O  C DOUBLE NONE 4
+FK2  C O2 SINGLE NONE 5
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               FK2
+_pdbe_chem_comp_rdkit_properties.exactmw                               88.016
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.333
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             40.293
+_pdbe_chem_comp_rdkit_properties.tpsa                                  54.370
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.340
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             18.317
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+FK2 UniChem "KEGG LIGAND"           C00222
+FK2 UniChem         ChEBI            17960
+FK2 UniChem          ZINC ZINC000000895126
+FK2 UniChem  MetaboLights       MTBLC17960
+FK2 UniChem        BRENDA             2969
+FK2 UniChem        BRENDA             3213
+FK2 UniChem        BRENDA             3973
+FK2 UniChem        BRENDA            46972
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+FK2 C1  0.496 -0.483  0.041 ETKDGv2  1
+FK2 C2  1.406  0.346  0.906 ETKDGv2  2
+FK2 O1  0.978  1.246  1.614 ETKDGv2  3
+FK2  C -0.952 -0.134  0.218 ETKDGv2  4
+FK2  O -1.533 -0.379  1.310 ETKDGv2  5
+FK2 O2 -1.657  0.453 -0.828 ETKDGv2  6
+FK2 H1  0.641 -1.556  0.286 ETKDGv2  7
+FK2 H2  0.786 -0.329 -1.020 ETKDGv2  8
+FK2 H3  2.472  0.144  0.893 ETKDGv2  9
+FK2 H5 -2.636  0.692 -0.724 ETKDGv2 10
+#

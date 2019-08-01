@@ -1,0 +1,212 @@
+data_QEB
+#
+_chem_comp.id                                        QEB
+_chem_comp.name                                      "[Re4(mu3-OH)4(CO)12]"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "O4 Re4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2019-05-10
+_chem_comp.pdbx_modified_date                        2019-06-14
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            808.826
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         QEB
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
+_chem_comp.pdbx_model_coordinates_db_code            6RO5
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+QEB  O1  O1  O 0 1 N N N -10.286 82.176  99.563 ? ? ?  O1 QEB 1
+QEB O16  O2  O 0 1 N N N  -8.517 82.841 101.291 ? ? ? O16 QEB 2
+QEB  O3  O3  O 0 1 N N N  -7.868 82.725  98.750 ? ? ?  O3 QEB 3
+QEB  O5  O4  O 0 1 N N N  -8.350 80.535 100.106 ? ? ?  O5 QEB 4
+QEB RE1 RE1 RE 0 0 N N N  -9.121 81.047  98.148 ? ? ? RE1 QEB 5
+QEB RE2 RE2 RE 0 0 N N N  -6.743 81.960 100.436 ? ? ? RE2 QEB 6
+QEB RE3 RE3 RE 0 0 N N N  -9.907 81.180 101.451 ? ? ? RE3 QEB 7
+QEB RE4 RE4 RE 0 0 N N N  -9.259 84.091  99.679 ? ? ? RE4 QEB 8
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+QEB  O1 RE1 SING N N  1
+QEB  O1 RE3 SING N N  2
+QEB  O1 RE4 SING N N  3
+QEB O16 RE2 SING N N  4
+QEB O16 RE3 SING N N  5
+QEB O16 RE4 SING N N  6
+QEB  O3 RE1 SING N N  7
+QEB  O3 RE2 SING N N  8
+QEB  O3 RE4 SING N N  9
+QEB  O5 RE1 SING N N 10
+QEB  O5 RE2 SING N N 11
+QEB  O5 RE3 SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+QEB            InChI                InChI  1.03                InChI=1S/4O.4Re
+QEB         InChIKey                InChI  1.03    NXFRRTQSEIQUNR-UHFFFAOYSA-N
+QEB SMILES_CANONICAL               CACTVS 3.385      O1[Re]O[Re]1.O2[Re]O[Re]2
+QEB           SMILES               CACTVS 3.385      O1[Re]O[Re]1.O2[Re]O[Re]2
+QEB SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 O12[Re]3O4[Re]1O5[Re]2O3[Re]45
+QEB           SMILES "OpenEye OEToolkits" 2.0.7 O12[Re]3O4[Re]1O5[Re]2O3[Re]45
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+QEB "Create component" 2019-05-10  EBI MJC ?
+QEB  "Initial release" 2019-06-19 RCSB   ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+QEB  O1  O 0.000 0.000 1
+QEB O16  O 0.394 2.138 2
+QEB  O3  O 1.894 0.638 3
+QEB  O5  O 1.500 1.500 4
+QEB RE1 Re 1.500 0.000 5
+QEB RE2 Re 1.894 2.138 6
+QEB RE3 Re 0.000 1.500 7
+QEB RE4 Re 0.394 0.638 8
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+QEB  O1 RE1 SINGLE NONE  1
+QEB  O1 RE3 SINGLE NONE  2
+QEB  O1 RE4 SINGLE NONE  3
+QEB O16 RE2 SINGLE NONE  4
+QEB O16 RE3 SINGLE NONE  5
+QEB O16 RE4 SINGLE NONE  6
+QEB  O3 RE1 SINGLE NONE  7
+QEB  O3 RE2 SINGLE NONE  8
+QEB  O3 RE4 SINGLE NONE  9
+QEB  O5 RE1 SINGLE NONE 10
+QEB  O5 RE2 SINGLE NONE 11
+QEB  O5 RE3 SINGLE NONE 12
+#
+_pdbe_chem_comp_substructure.comp_id                      QEB
+_pdbe_chem_comp_substructure.substructure_name            MurckoScaffold
+_pdbe_chem_comp_substructure.id                           S1
+_pdbe_chem_comp_substructure.substructure_type            scaffold
+_pdbe_chem_comp_substructure.substructure_smiles          "[O+3]12[Re-3]3[O+3]4[Re-3]1[O+3]1[Re-3]2[O+3]3[Re-3]41"
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/4O.4Re/q4*+3;4*-3
+_pdbe_chem_comp_substructure.substructure_inchikeys       YMJKLSSHQUERKO-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+QEB  O1 S1 1
+QEB O16 S1 1
+QEB  O3 S1 1
+QEB  O5 S1 1
+QEB RE1 S1 1
+QEB RE2 S1 1
+QEB RE3 S1 1
+QEB RE4 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               QEB
+_pdbe_chem_comp_rdkit_properties.exactmw                               811.803
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                0
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        8
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              6
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     6
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     6
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       6
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              6
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              6
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             72.471
+_pdbe_chem_comp_rdkit_properties.tpsa                                  10.800
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.284
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             4.340
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         8
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+QEB  O1  1.142 -0.820 -0.714 ETKDGv2 1
+QEB O16 -1.213 -0.237 -0.831 ETKDGv2 2
+QEB  O3  0.174  1.120  0.407 ETKDGv2 3
+QEB  O5 -0.264 -1.084  1.145 ETKDGv2 4
+QEB RE1  1.354 -0.185 -0.552 ETKDGv2 5
+QEB RE2 -0.824  0.618 -1.097 ETKDGv2 6
+QEB RE3 -0.802 -0.714  0.770 ETKDGv2 7
+QEB RE4  0.432  1.302  0.872 ETKDGv2 8
+#

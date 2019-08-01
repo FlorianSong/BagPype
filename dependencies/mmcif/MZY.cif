@@ -1,0 +1,232 @@
+data_MZY
+#
+_chem_comp.id                                        MZY
+_chem_comp.name                                      1,3-dihydroimidazole-2-thione
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H4 N2 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             2-Mercaptoimidazole
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2016-05-12
+_chem_comp.pdbx_modified_date                        2016-06-02
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            100.142
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         MZY
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            5JT3
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+MZY  S2 S1 S 0 1 N N N 7.655 2.516 26.313 -1.961  0.000 -0.001  S2 MZY  1
+MZY  C2 C1 C 0 1 N N N 6.458 2.964 27.559 -0.249  0.000 -0.001  C2 MZY  2
+MZY  N3 N1 N 0 1 N N N 5.801 4.129 27.627  0.542  1.091  0.001  N3 MZY  3
+MZY C3A C2 C 0 1 N N N 5.028 3.996 28.779  1.861  0.664  0.000 C3A MZY  4
+MZY C1A C3 C 0 1 N N N 5.264 2.765 29.349  1.861 -0.664 -0.003 C1A MZY  5
+MZY  N1 N2 N 0 1 N N N 6.161 2.118 28.548  0.542 -1.091  0.003  N1 MZY  6
+MZY  H1 H1 H 0 1 N N N 4.349 4.742 29.165  2.734  1.300  0.001  H1 MZY  7
+MZY  H2 H2 H 0 1 N N N 4.823 2.383 30.258  2.734 -1.300 -0.004  H2 MZY  8
+MZY  H3 H3 H 0 1 N N N 5.853 4.907 27.001  0.241  2.013  0.003  H3 MZY  9
+MZY  H4 H4 H 0 1 N N N 6.523 1.195 28.677  0.241 -2.013  0.006  H4 MZY 10
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+MZY  S2  C2 DOUB N N  1
+MZY  C2  N3 SING N N  2
+MZY  C2  N1 SING N N  3
+MZY  N3 C3A SING N N  4
+MZY  N1 C1A SING N N  5
+MZY C3A C1A DOUB N N  6
+MZY C3A  H1 SING N N  7
+MZY C1A  H2 SING N N  8
+MZY  N3  H3 SING N N  9
+MZY  N1  H4 SING N N 10
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+MZY            InChI                InChI  1.03 InChI=1S/C3H4N2S/c6-3-4-1-2-5-3/h1-2H,(H2,4,5,6)
+MZY         InChIKey                InChI  1.03                      OXFSTTJBVAAALW-UHFFFAOYSA-N
+MZY SMILES_CANONICAL               CACTVS 3.385                                       S=C1NC=CN1
+MZY           SMILES               CACTVS 3.385                                       S=C1NC=CN1
+MZY SMILES_CANONICAL "OpenEye OEToolkits" 2.0.5                                     C1=CNC(=S)N1
+MZY           SMILES "OpenEye OEToolkits" 2.0.5                                     C1=CNC(=S)N1
+#
+_pdbx_chem_comp_identifier.comp_id               MZY
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version       2.0.5
+_pdbx_chem_comp_identifier.identifier            1,3-dihydroimidazole-2-thione
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+MZY   "Create component" 2016-05-12 PDBJ USMC                                                            ?
+MZY        "Modify name" 2016-05-23 PDBJ USMC                                                            ?
+MZY    "Initial release" 2016-06-01 RCSB USMC                                                            ?
+MZY "Other modification" 2016-06-02 RCSB   CS "systematic update to generate ideal coordinates and others"
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+MZY  S2 S 6.854 -0.647 1
+MZY  C2 C 5.427 -0.184 2
+MZY  N3 N 4.213 -1.065 3
+MZY C3A C 3.000 -0.184 4
+MZY C1A C 3.463  1.243 5
+MZY  N1 N 4.963  1.243 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+MZY  S2  C2 DOUBLE NONE 1
+MZY  C2  N3 SINGLE NONE 2
+MZY  C2  N1 SINGLE NONE 3
+MZY  N3 C3A SINGLE NONE 4
+MZY  N1 C1A SINGLE NONE 5
+MZY C3A C1A DOUBLE NONE 6
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+MZY MurckoScaffold S1 scaffold S=c1[nH]cc[nH]1 InChI=1S/C3H4N2S/c6-3-4-1-2-5-3/h1-2H,(H2,4,5,6) OXFSTTJBVAAALW-UHFFFAOYSA-N
+MZY      imidazole F1 fragment      c1c[nH]cn1       InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+MZY C3A F1 1
+MZY C1A F1 1
+MZY  N1 F1 1
+MZY  C2 F1 1
+MZY  N3 F1 1
+MZY  S2 S1 1
+MZY  C2 S1 1
+MZY  N3 S1 1
+MZY C3A S1 1
+MZY C1A S1 1
+MZY  N1 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               MZY
+_pdbe_chem_comp_rdkit_properties.exactmw                               100.010
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                1
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             45.955
+_pdbe_chem_comp_rdkit_properties.tpsa                                  31.580
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.072
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             25.977
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+MZY UniChem     ChEMBL    CHEMBL3260774
+MZY UniChem       ZINC ZINC000004529297
+MZY UniChem       ZINC     ZINC04529297
+MZY UniChem NMRShiftDB         20106334
+MZY UniChem     BRENDA           104593
+MZY UniChem     BRENDA             6923
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+MZY  S2  2.750  0.036 -0.216 ETKDGv2  1
+MZY  C2  1.120  0.015 -0.104 ETKDGv2  2
+MZY  N3  0.356 -1.141  0.197 ETKDGv2  3
+MZY C3A -0.986 -0.664  0.182 ETKDGv2  4
+MZY C1A -1.023  0.637 -0.098 ETKDGv2  5
+MZY  N1  0.292  1.149 -0.296 ETKDGv2  6
+MZY  H1 -1.853 -1.282  0.373 ETKDGv2  7
+MZY  H2 -1.924  1.232 -0.168 ETKDGv2  8
+MZY  H3  0.693 -2.111  0.385 ETKDGv2  9
+MZY  H4  0.575  2.127 -0.527 ETKDGv2 10
+#

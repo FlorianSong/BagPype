@@ -1,0 +1,201 @@
+data_TFS
+#
+_chem_comp.id                                        TFS
+_chem_comp.name                                      "trifluoromethanesulfonic acid"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C H F3 O3 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2007-11-19
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            150.077
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         TFS
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            2Q0M
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+TFS  FAC  FAC F 0 1 N N N 2.259 22.669 23.414 -1.373 -1.142 -0.707  FAC TFS 1
+TFS  CAD  CAD C 0 1 N N N 3.077 23.706 23.373 -0.961 -0.000 -0.012  CAD TFS 2
+TFS  FAG  FAG F 0 1 N N N 3.872 23.570 22.330 -1.373  1.142 -0.706  FAG TFS 3
+TFS  FAA  FAA F 0 1 N N N 2.367 24.806 23.218 -1.530 -0.000  1.266  FAA TFS 4
+TFS  SAE  SAE S 0 1 N N N 3.991 23.787 24.771  0.848  0.000  0.131  SAE TFS 5
+TFS  OAH  OAH O 0 1 N N N 3.144 24.178 25.925  1.343  0.000 -1.308  OAH TFS 6
+TFS  OAF  OAF O 0 1 N N N 5.069 24.776 24.588  1.306  1.237  0.659  OAF TFS 7
+TFS  OAB  OAB O 0 1 N N N 4.551 22.433 25.019  1.306 -1.237  0.659  OAB TFS 8
+TFS HOAH HOAH H 0 0 N N N 3.685 24.262 26.701  2.306  0.000 -1.393 HOAH TFS 9
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+TFS CAD  FAC SING N N 1
+TFS FAG  CAD SING N N 2
+TFS FAA  CAD SING N N 3
+TFS CAD  SAE SING N N 4
+TFS OAF  SAE DOUB N N 5
+TFS SAE  OAB DOUB N N 6
+TFS SAE  OAH SING N N 7
+TFS OAH HOAH SING N N 8
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+TFS           SMILES              ACDLabs 10.04                           FC(F)(F)S(=O)(=O)O
+TFS SMILES_CANONICAL               CACTVS 3.341                         O[S](=O)(=O)C(F)(F)F
+TFS           SMILES               CACTVS 3.341                         O[S](=O)(=O)C(F)(F)F
+TFS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                         C(F)(F)(F)S(=O)(=O)O
+TFS           SMILES "OpenEye OEToolkits" 1.5.0                         C(F)(F)(F)S(=O)(=O)O
+TFS            InChI                InChI  1.03 InChI=1S/CHF3O3S/c2-1(3,4)8(5,6)7/h(H,5,6,7)
+TFS         InChIKey                InChI  1.03                  ITMCEJHCFYSIIV-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+TFS "SYSTEMATIC NAME"              ACDLabs 10.04 "trifluoromethanesulfonic acid"
+TFS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "trifluoromethanesulfonic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+TFS  "Create component" 2007-11-19 RCSB ? ?
+TFS "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+TFS FAC F  0.374 -1.467 1
+TFS CAD C  0.375 -0.467 2
+TFS FAG F  1.241 -0.968 3
+TFS FAA F  0.876  0.399 4
+TFS SAE S -0.625 -0.466 5
+TFS OAH O -1.625 -0.465 6
+TFS OAF O -0.624  0.534 7
+TFS OAB O -0.626 -1.466 8
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+TFS CAD FAC SINGLE NONE 1
+TFS FAG CAD SINGLE NONE 2
+TFS FAA CAD SINGLE NONE 3
+TFS CAD SAE SINGLE NONE 4
+TFS OAF SAE DOUBLE NONE 5
+TFS SAE OAB DOUBLE NONE 6
+TFS SAE OAH SINGLE NONE 7
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               TFS
+_pdbe_chem_comp_rdkit_properties.exactmw                               149.960
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             44.356
+_pdbe_chem_comp_rdkit_properties.tpsa                                  54.370
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.394
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             17.604
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         8
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+TFS UniChem ChEMBL    CHEMBL1236265
+TFS UniChem  ChEBI            48511
+TFS UniChem   ZINC ZINC000011027584
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+TFS  FAC -0.959 -1.544 -0.451 ETKDGv2 1
+TFS  CAD -1.042 -0.243  0.008 ETKDGv2 2
+TFS  FAG -1.436 -0.249  1.332 ETKDGv2 3
+TFS  FAA -1.970  0.450 -0.744 ETKDGv2 4
+TFS  SAE  0.550  0.542 -0.135 ETKDGv2 5
+TFS  OAH  1.675 -0.273  0.811 ETKDGv2 6
+TFS  OAF  0.447  1.965  0.338 ETKDGv2 7
+TFS  OAB  0.997  0.530 -1.570 ETKDGv2 8
+TFS HOAH  1.739 -1.177  0.411 ETKDGv2 9
+#

@@ -1,0 +1,192 @@
+data_4SM
+#
+_chem_comp.id                                        4SM
+_chem_comp.name                                      TETRATHIOMOLYBDATE
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "Mo S4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        -2
+_chem_comp.pdbx_initial_date                         2009-10-20
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            224.200
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         4SM
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3K7R
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+4SM  S1  S1  S -1 1 N N N 81.199 13.030 41.318  0.000 -1.855 -1.312  S1 4SM 1
+4SM MO1 MO1 MO  0 0 N N N 79.975 11.881 42.759 -0.000 -0.000  0.000 MO1 4SM 2
+4SM  S2  S2  S -1 1 N N N 78.679 10.489 41.618  1.855 -0.000  1.312  S2 4SM 3
+4SM  S3  S3  S  0 1 N N N 78.652 13.337 43.778  0.000  1.855 -1.312  S3 4SM 4
+4SM  S4  S4  S  0 1 N N N 81.209 10.827 44.219 -1.855  0.000  1.312  S4 4SM 5
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+4SM  S1 MO1 SING N N 1
+4SM MO1  S3 DOUB N N 2
+4SM MO1  S4 DOUB N N 3
+4SM  S2 MO1 SING N N 4
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+4SM           SMILES              ACDLabs 11.02      "[S-][Mo]([S-])(=S)=S"
+4SM SMILES_CANONICAL               CACTVS 3.352      "[S-][Mo]([S-])(=S)=S"
+4SM           SMILES               CACTVS 3.352      "[S-][Mo]([S-])(=S)=S"
+4SM SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0      "[S-][Mo](=S)(=S)[S-]"
+4SM           SMILES "OpenEye OEToolkits" 1.7.0      "[S-][Mo](=S)(=S)[S-]"
+4SM            InChI                InChI  1.03     InChI=1S/Mo.4S/q;;;2*-1
+4SM         InChIKey                InChI  1.03 CXVCSRUYMINUSF-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+4SM "SYSTEMATIC NAME"              ACDLabs 11.02                disulfido(dithioxo)molybdenum
+4SM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 bis(sulfanidyl)-bis(sulfanylidene)molybdenum
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+4SM  "Create component" 2009-10-20 RCSB ? ?
+4SM "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   4SM
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB05088
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Tetrathiomolybdate
+_pdbe_chem_comp_drugbank_details.description               "Tetrathiomolybdate is an oral, small-molecule, anticopper agent that is highly specific for lowering the levels of free copper in serum. COPREXA has completed pivotal clinical trials for the treatment of neurologic Wilson's disease. It is also developed for fibrotic disorders based upon the rationale that the fibrotic disease process is dependent upon the availability of free copper in the body."
+_pdbe_chem_comp_drugbank_details.cas_number                16330-92-0
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Tetrathiomolybdate has demonstrated the ability to inhibit fibrosis in a number of well established animal models through the sequestration of available copper and inhibition of key fibrotric cytokines, including secreted protein acid rich in cysteine (SPARC), NFkappaB, TGF-beta, FGF-2, IL-1, IL-6, IL-8, and connective tissue growth factor (CTGF)."
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+4SM  S1  S -0.592  1.421 1
+4SM MO1 Mo -2.000  0.000 2
+4SM  S2  S -3.408 -1.421 3
+4SM  S3  S -3.421  1.408 4
+4SM  S4  S -0.579 -1.408 5
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+4SM  S1 MO1 SINGLE NONE 1
+4SM MO1  S3 DOUBLE NONE 2
+4SM MO1  S4 DOUBLE NONE 3
+4SM  S2 MO1 SINGLE NONE 4
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               4SM
+_pdbe_chem_comp_rdkit_properties.exactmw                               225.795
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           0
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             49.655
+_pdbe_chem_comp_rdkit_properties.tpsa                                  0
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.289
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             29.912
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         5
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+4SM UniChem   ChEMBL CHEMBL1230329
+4SM UniChem DrugBank       DB05088
+4SM UniChem    ChEBI         30703
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+4SM  S1  1.319 -1.000  0.457 ETKDGv2 1
+4SM MO1  0.557 -0.086 -0.043 ETKDGv2 2
+4SM  S2 -1.107 -0.830 -1.329 ETKDGv2 3
+4SM  S3  0.443  1.679 -0.573 ETKDGv2 4
+4SM  S4 -1.213  0.237  1.487 ETKDGv2 5
+#

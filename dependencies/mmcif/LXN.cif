@@ -1,0 +1,270 @@
+data_LXN
+#
+_chem_comp.id                                        LXN
+_chem_comp.name                                      ALLOXAN
+_chem_comp.type                                      non-polymer
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C4 H2 N2 O4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             MESOXALYLUREA
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2010-06-07
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            142.070
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         LXN
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            2XGM
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+LXN OAB OAB O 0 1 N N N 15.812 11.452 23.381  0.956 -2.355  0.001 OAB LXN  1
+LXN CAH CAH C 0 1 N N N 16.057 11.697 22.202  0.401 -1.276  0.001 CAH LXN  2
+LXN CAJ CAJ C 0 1 N N N 15.647 10.795 21.214  1.190  0.000  0.001 CAJ LXN  3
+LXN OAD OAD O 0 1 N N N 15.060  9.762 21.525  2.398  0.000 -0.000 OAD LXN  4
+LXN CAI CAI C 0 1 N N N 15.904 11.058 19.869  0.401  1.276  0.000 CAI LXN  5
+LXN OAC OAC O 0 1 N N N 15.536 10.265 19.003  0.956  2.355 -0.001 OAC LXN  6
+LXN NAF NAF N 0 1 N N N 16.592 12.232 19.498 -0.945  1.184  0.001 NAF LXN  7
+LXN CAG CAG C 0 1 N N N 17.014 13.134 20.488 -1.571 -0.000  0.001 CAG LXN  8
+LXN OAA OAA O 0 1 N N N 17.610 14.153 20.150 -2.786 -0.000  0.001 OAA LXN  9
+LXN NAE NAE N 0 1 N N N 16.745 12.884 21.850 -0.945 -1.184 -0.004 NAE LXN 10
+LXN HAE HAE H 0 1 N N N 17.035 13.533 22.554 -1.474 -1.997 -0.007 HAE LXN 11
+LXN HAF HAF H 0 1 N N N 16.778 12.421 18.534 -1.474  1.997  0.001 HAF LXN 12
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+LXN OAB CAH DOUB N N  1
+LXN CAH CAJ SING N N  2
+LXN CAH NAE SING N N  3
+LXN CAJ OAD DOUB N N  4
+LXN CAJ CAI SING N N  5
+LXN CAI OAC DOUB N N  6
+LXN CAI NAF SING N N  7
+LXN NAF CAG SING N N  8
+LXN CAG OAA DOUB N N  9
+LXN CAG NAE SING N N 10
+LXN NAE HAE SING N N 11
+LXN NAF HAF SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+LXN           SMILES              ACDLabs 10.04                                       O=C1C(=O)NC(=O)NC1=O
+LXN SMILES_CANONICAL               CACTVS 3.352                                     O=C1NC(=O)C(=O)C(=O)N1
+LXN           SMILES               CACTVS 3.352                                     O=C1NC(=O)C(=O)C(=O)N1
+LXN SMILES_CANONICAL "OpenEye OEToolkits" 1.6.1                                     C1(=O)C(=O)NC(=O)NC1=O
+LXN           SMILES "OpenEye OEToolkits" 1.6.1                                     C1(=O)C(=O)NC(=O)NC1=O
+LXN            InChI                InChI  1.03 InChI=1S/C4H2N2O4/c7-1-2(8)5-4(10)6-3(1)9/h(H2,5,6,8,9,10)
+LXN         InChIKey                InChI  1.03                                HIMXGTXNXJYFGB-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+LXN "SYSTEMATIC NAME"              ACDLabs 10.04 pyrimidine-2,4,5,6(1H,3H)-tetrone
+LXN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1     1,3-diazinane-2,4,5,6-tetrone
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+LXN  "Create component" 2010-06-07  EBI ? ?
+LXN "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbx_chem_comp_synonyms.comp_id          LXN
+_pdbx_chem_comp_synonyms.name             Alloxan
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+LXN OAB O 3.000 -1.785  1
+LXN CAH C 4.299 -1.035  2
+LXN CAJ C 4.299  0.465  3
+LXN OAD O 3.000  1.215  4
+LXN CAI C 5.598  1.215  5
+LXN OAC O 5.598  2.715  6
+LXN NAF N 6.897  0.465  7
+LXN CAG C 6.897 -1.035  8
+LXN OAA O 8.196 -1.785  9
+LXN NAE N 5.598 -1.785 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+LXN OAB CAH DOUBLE NONE  1
+LXN CAH CAJ SINGLE NONE  2
+LXN CAH NAE SINGLE NONE  3
+LXN CAJ OAD DOUBLE NONE  4
+LXN CAJ CAI SINGLE NONE  5
+LXN CAI OAC DOUBLE NONE  6
+LXN CAI NAF SINGLE NONE  7
+LXN NAF CAG SINGLE NONE  8
+LXN CAG OAA DOUBLE NONE  9
+LXN CAG NAE SINGLE NONE 10
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+LXN MurckoScaffold S1 scaffold O=C1NC(=O)C(=O)C(=O)N1 InChI=1S/C4H2N2O4/c7-1-2(8)5-4(10)6-3(1)9/h(H2,5,6,8,9,10) HIMXGTXNXJYFGB-UHFFFAOYSA-N
+LXN          amide F1 fragment                CC(N)=O                     InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
+LXN        peptide F2 fragment                  NCC=O                         InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+LXN NAF F1 1
+LXN CAI F1 1
+LXN OAC F1 1
+LXN CAJ F1 1
+LXN NAE F1 2
+LXN CAH F1 2
+LXN OAB F1 2
+LXN CAJ F1 2
+LXN OAD F2 1
+LXN CAJ F2 1
+LXN CAH F2 1
+LXN NAE F2 1
+LXN OAD F2 2
+LXN CAJ F2 2
+LXN CAI F2 2
+LXN NAF F2 2
+LXN OAB S1 1
+LXN CAH S1 1
+LXN CAJ S1 1
+LXN OAD S1 1
+LXN CAI S1 1
+LXN OAC S1 1
+LXN NAF S1 1
+LXN CAG S1 1
+LXN OAA S1 1
+LXN NAE S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               LXN
+_pdbe_chem_comp_rdkit_properties.exactmw                               142.001
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         4
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             57.500
+_pdbe_chem_comp_rdkit_properties.tpsa                                  92.340
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.079
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             26.688
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+LXN UniChem       ChEMBL    CHEMBL1096009
+LXN UniChem        ChEBI            76451
+LXN UniChem         ZINC ZINC000001631379
+LXN UniChem   NMRShiftDB         10016339
+LXN UniChem MetaboLights       MTBLC76451
+LXN UniChem       BRENDA             3798
+LXN UniChem       BRENDA            48710
+LXN UniChem       BRENDA            92359
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+LXN OAB  0.354  2.672  0.201 ETKDGv2  1
+LXN CAH  0.186  1.427  0.107 ETKDGv2  2
+LXN CAJ  1.334  0.515  0.206 ETKDGv2  3
+LXN OAD  2.498  0.965  0.386 ETKDGv2  4
+LXN CAI  1.099 -0.931  0.092 ETKDGv2  5
+LXN OAC  2.062 -1.739  0.172 ETKDGv2  6
+LXN NAF -0.230 -1.421 -0.112 ETKDGv2  7
+LXN CAG -1.338 -0.517 -0.207 ETKDGv2  8
+LXN OAA -2.501 -0.966 -0.386 ETKDGv2  9
+LXN NAE -1.127  0.896 -0.097 ETKDGv2 10
+LXN HAE -1.942  1.547 -0.168 ETKDGv2 11
+LXN HAF -0.395 -2.449 -0.193 ETKDGv2 12
+#

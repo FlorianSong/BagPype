@@ -1,0 +1,215 @@
+data_MMU
+#
+_chem_comp.id                                        MMU
+_chem_comp.name                                      1,3-dimethylurea
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H8 N2 O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2009-10-07
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            88.108
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         MMU
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            3K3G
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+MMU   N1   N1 N 0 1 N N N 49.432 -12.405  6.879 -1.167 -0.675 -0.000   N1 MMU  1
+MMU   N2   N2 N 0 1 N N N 49.036 -12.407  9.120  1.167 -0.675 -0.000   N2 MMU  2
+MMU  CAA  CAA C 0 1 N N N 50.055 -13.022  5.689 -2.436  0.057  0.000  CAA MMU  3
+MMU  CAB  CAB C 0 1 N N N 49.228 -13.058 10.434  2.436  0.057 -0.000  CAB MMU  4
+MMU  OAC  OAC O 0 1 N N N 50.277 -14.027  8.201  0.000  1.214  0.000  OAC MMU  5
+MMU  CAF  CAF C 0 1 N N N 49.608 -12.992  8.069 -0.000 -0.001 -0.000  CAF MMU  6
+MMU  HN1  HN1 H 0 1 N N N 48.891 -11.568  6.797 -1.167 -1.645  0.004  HN1 MMU  7
+MMU  HN2  HN2 H 0 1 N N N 48.502 -11.567  9.025  1.167 -1.645 -0.000  HN2 MMU  8
+MMU  HAA  HAA H 0 1 N N N 49.817 -12.423  4.798 -2.494  0.684 -0.890  HAA MMU  9
+MMU HAAA HAAA H 0 0 N N N 51.146 -13.060  5.825 -3.264 -0.651 -0.000 HAAA MMU 10
+MMU HAAB HAAB H 0 0 N N N 49.666 -14.043  5.559 -2.494  0.684  0.890 HAAB MMU 11
+MMU  HAB  HAB H 0 1 N N N 48.708 -12.478 11.211  2.494  0.684 -0.890  HAB MMU 12
+MMU HABA HABA H 0 0 N N N 48.817 -14.078 10.401  2.494  0.684  0.890 HABA MMU 13
+MMU HABB HABB H 0 0 N N N 50.302 -13.103 10.667  3.264 -0.651 -0.000 HABB MMU 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+MMU  N1  CAA SING N N  1
+MMU  N1  CAF SING N N  2
+MMU  N2  CAB SING N N  3
+MMU  N2  CAF SING N N  4
+MMU OAC  CAF DOUB N N  5
+MMU  N1  HN1 SING N N  6
+MMU  N2  HN2 SING N N  7
+MMU CAA  HAA SING N N  8
+MMU CAA HAAA SING N N  9
+MMU CAA HAAB SING N N 10
+MMU CAB  HAB SING N N 11
+MMU CAB HABA SING N N 12
+MMU CAB HABB SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+MMU           SMILES              ACDLabs 11.02                                       O=C(NC)NC
+MMU SMILES_CANONICAL               CACTVS 3.352                                       CNC(=O)NC
+MMU           SMILES               CACTVS 3.352                                       CNC(=O)NC
+MMU SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                       CNC(=O)NC
+MMU           SMILES "OpenEye OEToolkits" 1.7.0                                       CNC(=O)NC
+MMU            InChI                InChI  1.03 InChI=1S/C3H8N2O/c1-4-3(6)5-2/h1-2H3,(H2,4,5,6)
+MMU         InChIKey                InChI  1.03                     MGJKQDOBUOMPEZ-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+MMU "SYSTEMATIC NAME"              ACDLabs 11.02 1,3-dimethylurea
+MMU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 1,3-dimethylurea
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+MMU  "Create component" 2009-10-07 RCSB ? ?
+MMU "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+MMU  N1 N 6.897  0.660 1
+MMU  N2 N 4.299  0.660 2
+MMU CAA C 8.196 -0.090 3
+MMU CAB C 3.000 -0.090 4
+MMU OAC O 5.598 -1.590 5
+MMU CAF C 5.598 -0.090 6
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+MMU  N1 CAA SINGLE NONE 1
+MMU  N1 CAF SINGLE NONE 2
+MMU  N2 CAB SINGLE NONE 3
+MMU  N2 CAF SINGLE NONE 4
+MMU OAC CAF DOUBLE NONE 5
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               MMU
+_pdbe_chem_comp_rdkit_properties.exactmw                               88.064
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                1
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             48.086
+_pdbe_chem_comp_rdkit_properties.tpsa                                  41.130
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.455
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             23.515
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+MMU UniChem        ChEMBL    CHEMBL1234380
+MMU UniChem "KEGG LIGAND"           C16364
+MMU UniChem         ChEBI            80472
+MMU UniChem          ZINC ZINC000001653257
+MMU UniChem          ZINC     ZINC01653257
+MMU UniChem    NMRShiftDB         10008852
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+MMU   N1  1.255  0.469  0.047 ETKDGv2  1
+MMU   N2 -1.215  0.546 -0.145 ETKDGv2  2
+MMU  CAA  2.510 -0.254  0.212 ETKDGv2  3
+MMU  CAB -2.523 -0.095 -0.178 ETKDGv2  4
+MMU  OAC -0.057 -1.462  0.141 ETKDGv2  5
+MMU  CAF -0.008 -0.207  0.020 ETKDGv2  6
+MMU  HN1  1.281  1.508 -0.054 ETKDGv2  7
+MMU  HN2 -1.160  1.585 -0.244 ETKDGv2  8
+MMU  HAA  3.360  0.461  0.204 ETKDGv2  9
+MMU HAAA  2.641 -0.976 -0.621 ETKDGv2 10
+MMU HAAB  2.507 -0.798  1.180 ETKDGv2 11
+MMU  HAB -3.316  0.670 -0.313 ETKDGv2 12
+MMU HABA -2.569 -0.813 -1.025 ETKDGv2 13
+MMU HABB -2.703 -0.634  0.776 ETKDGv2 14
+#

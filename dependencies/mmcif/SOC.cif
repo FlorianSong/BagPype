@@ -1,0 +1,251 @@
+data_SOC
+#
+_chem_comp.id                                        SOC
+_chem_comp.name                                      DIOXYSELENOCYSTEINE
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C3 H7 N O4 Se"
+_chem_comp.mon_nstd_parent_comp_id                   SEC
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            200.052
+_chem_comp.one_letter_code                           U
+_chem_comp.three_letter_code                         SOC
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
+_chem_comp.pdbx_model_coordinates_db_code            1UBN
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SOC   N    N  N 0 1 N N N 62.013  -8.159 21.800 ? ? ?   N SOC  1
+SOC  CA   CA  C 0 1 N N R 63.229  -7.760 22.462 ? ? ?  CA SOC  2
+SOC  CB   CB  C 0 1 N N N 63.775  -8.896 23.382 ? ? ?  CB SOC  3
+SOC  SE   SE SE 0 0 N N N 62.710 -10.230 24.107 ? ? ?  SE SOC  4
+SOC OD1  OD1  O 0 1 N N N 63.639 -11.609 23.663 ? ? ? OD1 SOC  5
+SOC OD2  OD2  O 0 1 N N N 61.283 -10.560 23.220 ? ? ? OD2 SOC  6
+SOC   C    C  C 0 1 N N N 64.292  -7.417 21.426 ? ? ?   C SOC  7
+SOC   O    O  O 0 1 N N N 65.204  -6.671 21.766 ? ? ?   O SOC  8
+SOC OXT  OXT  O 0 1 N Y N 64.231  -7.953 20.199 ? ? ? OXT SOC  9
+SOC   H  1HN  H 0 1 N N N 61.656  -7.416 21.198 ? ? ?   H SOC 10
+SOC  H2  2HN  H 0 1 N Y N 61.308  -8.470 22.468 ? ? ?  H2 SOC 11
+SOC  HA   HA  H 0 1 N N N 62.996  -6.868 23.090 ? ? ?  HA SOC 12
+SOC HB2  1HB  H 0 1 N N N 64.602  -9.398 22.829 ? ? ? HB2 SOC 13
+SOC HB3  2HB  H 0 1 N N N 64.311  -8.406 24.227 ? ? ? HB3 SOC 14
+SOC HXT  HXT  H 0 1 N Y N 64.893  -7.739 19.553 ? ? ? HXT SOC 15
+SOC  HE HSE1  H 0 1 N Y N 62.368  -9.895 25.529 ? ? ?  HE SOC 16
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SOC   N  CA SING N N  1
+SOC   N   H SING N N  2
+SOC   N  H2 SING N N  3
+SOC  CA  CB SING N N  4
+SOC  CA   C SING N N  5
+SOC  CA  HA SING N N  6
+SOC  CB  SE SING N N  7
+SOC  CB HB2 SING N N  8
+SOC  CB HB3 SING N N  9
+SOC  SE OD1 DOUB N N 10
+SOC  SE OD2 DOUB N N 11
+SOC   C   O DOUB N N 12
+SOC   C OXT SING N N 13
+SOC OXT HXT SING N N 14
+SOC  HE  SE SING N N 15
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SOC           SMILES              ACDLabs 10.04                                              O=C(O)C(N)C[SeH](=O)=O
+SOC SMILES_CANONICAL               CACTVS 3.341                                         N[C@@H](C[SeH](=O)=O)C(O)=O
+SOC           SMILES               CACTVS 3.341                                           N[CH](C[SeH](=O)=O)C(O)=O
+SOC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                       C([C@@H](C(=O)O)N)[SeH](=O)=O
+SOC           SMILES "OpenEye OEToolkits" 1.5.0                                            C(C(C(=O)O)N)[SeH](=O)=O
+SOC            InChI                InChI  1.03 InChI=1S/C3H7NO4Se/c4-2(3(5)6)1-9(7)8/h2,9H,1,4H2,(H,5,6)/t2-/m0/s1
+SOC         InChIKey                InChI  1.03                                         LQMXQNUAKTVFAG-REOHCLBHSA-N
+#
+_pdbx_chem_comp_identifier.comp_id               SOC
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               ACDLabs
+_pdbx_chem_comp_identifier.program_version       10.04
+_pdbx_chem_comp_identifier.identifier            3-(dioxidoselanyl)-L-alanine
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+SOC      "Create component" 1999-07-08 RCSB  ? ?
+SOC     "Modify descriptor" 2011-06-04 RCSB  ? ?
+SOC "Modify parent residue" 2017-09-29 RCSB CS ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   SOC
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02442
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Dioxyselenocysteine
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                .
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SOC   N  N 6.897 -1.643 1
+SOC  CA  C 6.897 -0.142 2
+SOC  CB  C 5.598  0.608 3
+SOC  SE Se 4.299 -0.142 4
+SOC OD1  O 3.000 -0.892 5
+SOC OD2  O 3.549  1.157 6
+SOC   C  C 8.196  0.608 7
+SOC   O  O 9.495 -0.142 8
+SOC OXT  O 8.196  2.107 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SOC  N  CA SINGLE BEGINWEDGE 1
+SOC CA  CB SINGLE       NONE 2
+SOC CA   C SINGLE       NONE 3
+SOC CB  SE SINGLE       NONE 4
+SOC SE OD1 DOUBLE       NONE 5
+SOC SE OD2 DOUBLE       NONE 6
+SOC  C   O DOUBLE       NONE 7
+SOC  C OXT SINGLE       NONE 8
+#
+_pdbe_chem_comp_substructure.comp_id                      SOC
+_pdbe_chem_comp_substructure.substructure_name            peptide
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
+_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+SOC  O F1 1
+SOC  C F1 1
+SOC CA F1 1
+SOC  N F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SOC
+_pdbe_chem_comp_rdkit_properties.exactmw                               200.954
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                5
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             64.642
+_pdbe_chem_comp_rdkit_properties.tpsa                                  97.460
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.520
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             28.940
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+SOC UniChem   ChEMBL CHEMBL1236000
+SOC UniChem   ChEMBL CHEMBL1615229
+SOC UniChem DrugBank       DB02442
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SOC   N  0.033  1.454  0.692 ETKDGv2  1
+SOC  CA -0.373  0.396 -0.239 ETKDGv2  2
+SOC  CB  0.361 -0.917  0.088 ETKDGv2  3
+SOC  SE  2.318 -0.798 -0.053 ETKDGv2  4
+SOC OD1  2.446  0.498 -1.060 ETKDGv2  5
+SOC OD2  2.539  0.139  1.282 ETKDGv2  6
+SOC   C -1.867  0.173 -0.219 ETKDGv2  7
+SOC   O -2.603  0.777  0.608 ETKDGv2  8
+SOC OXT -2.440 -0.706 -1.133 ETKDGv2  9
+SOC   H -0.281  1.210  1.660 ETKDGv2 10
+SOC  H2 -0.438  2.347  0.416 ETKDGv2 11
+SOC  HA -0.100  0.708 -1.271 ETKDGv2 12
+SOC HB2  0.034 -1.709 -0.619 ETKDGv2 13
+SOC HB3  0.101 -1.251  1.116 ETKDGv2 14
+SOC HXT -3.439 -0.870 -1.140 ETKDGv2 15
+SOC  HE  3.707 -1.450 -0.128 ETKDGv2 16
+#

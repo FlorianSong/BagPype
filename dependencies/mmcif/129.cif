@@ -1,0 +1,258 @@
+data_129
+#
+_chem_comp.id                                        129
+_chem_comp.name                                      "[2(FORMYL-HYDROXY-AMINO)-ETHYL]-PHOSPHONIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H8 N O5 P"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2001-04-24
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            169.073
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         129
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1IF2
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+129    P    P P 0 1 N N N  7.698 -1.830 18.501 -0.094  0.025 -1.938    P 129  1
+129  O1P  O1P O 0 1 N N N  6.284 -1.303 18.801 -1.162 -0.985 -2.107  O1P 129  2
+129  O2P  O2P O 0 1 N N N  7.941 -3.109 19.316 -0.389  1.282 -2.901  O2P 129  3
+129  O3P  O3P O 0 1 N N N  8.732 -0.724 18.771  1.326 -0.624 -2.325  O3P 129  4
+129   C4   C4 C 0 1 N N N  7.827 -2.265 16.759 -0.055  0.585 -0.204   C4 129  5
+129   C3   C3 C 0 1 N N N  9.288 -2.181 16.266  0.224 -0.609  0.710   C3 129  6
+129   N2   N2 N 0 1 N N N  9.191 -2.253 14.800  0.256 -0.159  2.104   N2 129  7
+129   C1   C1 C 0 1 N N N  9.601 -1.361 13.937 -0.875 -0.152  2.836   C1 129  8
+129   O1   O1 O 0 1 N N N  9.168 -1.351 12.808 -0.849  0.219  3.990   O1 129  9
+129   O2   O2 O 0 1 N N N  8.236 -3.144 14.293  1.475  0.267  2.683   O2 129 10
+129 HOP2 2HOP H 0 0 N N N  8.814 -3.434 19.130 -0.402  0.943 -3.807 HOP2 129 11
+129 HOP3 3HOP H 0 0 N N N  9.605 -1.049 18.585  1.992  0.066 -2.202 HOP3 129 12
+129  H41  1H4 H 0 1 N N N  7.382 -3.266 16.553 -1.017  1.025  0.057  H41 129 13
+129  H42  2H4 H 0 1 N N N  7.146 -1.643 16.130  0.730  1.330 -0.080  H42 129 14
+129  H31  1H3 H 0 1 N N N  9.843 -1.289 16.641  1.187 -1.049  0.448  H31 129 15
+129  H32  2H3 H 0 1 N N N  9.963 -2.946 16.714 -0.561 -1.353  0.586  H32 129 16
+129   H1   H1 H 0 1 N N N 10.345 -0.581 14.172 -1.805 -0.478  2.394   H1 129 17
+129  HO2  HO2 H 0 1 N N N  8.173 -3.190 13.346  1.279  0.518  3.596  HO2 129 18
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+129   P  O1P DOUB N N  1
+129   P  O2P SING N N  2
+129   P  O3P SING N N  3
+129   P   C4 SING N N  4
+129 O2P HOP2 SING N N  5
+129 O3P HOP3 SING N N  6
+129  C4   C3 SING N N  7
+129  C4  H41 SING N N  8
+129  C4  H42 SING N N  9
+129  C3   N2 SING N N 10
+129  C3  H31 SING N N 11
+129  C3  H32 SING N N 12
+129  N2   C1 SING N N 13
+129  N2   O2 SING N N 14
+129  C1   O1 DOUB N N 15
+129  C1   H1 SING N N 16
+129  O2  HO2 SING N N 17
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+129           SMILES              ACDLabs 10.04                                             O=P(O)(O)CCN(O)C=O
+129 SMILES_CANONICAL               CACTVS 3.341                                           ON(CC[P](O)(O)=O)C=O
+129           SMILES               CACTVS 3.341                                           ON(CC[P](O)(O)=O)C=O
+129 SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                           C(CP(=O)(O)O)N(C=O)O
+129           SMILES "OpenEye OEToolkits" 1.5.0                                           C(CP(=O)(O)O)N(C=O)O
+129            InChI                InChI  1.03 InChI=1S/C3H8NO5P/c5-3-4(6)1-2-10(7,8)9/h3,6H,1-2H2,(H2,7,8,9)
+129         InChIKey                InChI  1.03                                    NBAIGNUEKZLOMI-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+129 "SYSTEMATIC NAME"              ACDLabs 10.04  "{2-[formyl(hydroxy)amino]ethyl}phosphonic acid"
+129 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-(hydroxy-methanoyl-amino)ethylphosphonic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+129  "Create component" 2001-04-24 RCSB ? ?
+129 "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   129
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB03135
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "[2(Formyl-Hydroxy-Amino)-Ethyl]-Phosphonic Acid"
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                .
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           129
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03135
+_pdbe_chem_comp_drugbank_classification.parent            "Organic phosphonic acids"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Organic phosphonic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as organic phosphonic acids. These are organic compounds containing phosphonic acid."
+
+#
+_pdbe_chem_comp_drugbank_targets.comp_id                        129
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB03135
+_pdbe_chem_comp_drugbank_targets.name                           "Triosephosphate isomerase"
+_pdbe_chem_comp_drugbank_targets.organism                       Humans
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     P60174
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
+_pdbe_chem_comp_drugbank_targets.ordinal                        1
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+129   P P  5.104 -0.708  1
+129 O1P O  3.805 -1.458  2
+129 O2P O  4.354  0.591  3
+129 O3P O  5.854 -2.007  4
+129  C4 C  6.404  0.042  5
+129  C3 C  7.702 -0.708  6
+129  N2 N  9.002  0.042  7
+129  C1 C 10.301 -0.708  8
+129  O1 O 11.600  0.042  9
+129  O2 O  9.002  1.542 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+129  P O1P DOUBLE NONE 1
+129  P O2P SINGLE NONE 2
+129  P O3P SINGLE NONE 3
+129  P  C4 SINGLE NONE 4
+129 C4  C3 SINGLE NONE 5
+129 C3  N2 SINGLE NONE 6
+129 N2  C1 SINGLE NONE 7
+129 N2  O2 SINGLE NONE 8
+129 C1  O1 DOUBLE NONE 9
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               129
+_pdbe_chem_comp_rdkit_properties.exactmw                               169.014
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                5
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             68.690
+_pdbe_chem_comp_rdkit_properties.tpsa                                  98.070
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.988
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             31.468
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+129 UniChem   ChEMBL CHEMBL1229628
+129 UniChem DrugBank       DB03135
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+129    P  2.142  0.379 -0.023 ETKDGv2  1
+129  O1P  2.500  0.448 -1.490 ETKDGv2  2
+129  O2P  2.702 -1.082  0.621 ETKDGv2  3
+129  O3P  2.874  1.671  0.789 ETKDGv2  4
+129   C4  0.334  0.489  0.170 ETKDGv2  5
+129   C3 -0.358 -0.676 -0.538 ETKDGv2  6
+129   N2 -1.806 -0.606 -0.343 ETKDGv2  7
+129   C1 -2.585  0.400 -1.001 ETKDGv2  8
+129   O1 -3.832  0.446 -0.838 ETKDGv2  9
+129   O2 -2.424 -1.545  0.414 ETKDGv2 10
+129 HOP2  2.409 -1.071  1.567 ETKDGv2 11
+129 HOP3  2.604  1.561  1.735 ETKDGv2 12
+129  H41 -0.009  1.455 -0.255 ETKDGv2 13
+129  H42  0.088  0.468  1.253 ETKDGv2 14
+129  H31 -0.129 -0.659 -1.626 ETKDGv2 15
+129  H32  0.023 -1.634 -0.122 ETKDGv2 16
+129   H1 -2.107  1.127 -1.646 ETKDGv2 17
+129  HO2 -2.427 -1.171  1.332 ETKDGv2 18
+#

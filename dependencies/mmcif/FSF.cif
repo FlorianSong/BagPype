@@ -1,0 +1,192 @@
+data_FSF
+#
+_chem_comp.id                                        FSF
+_chem_comp.name                                      "4FE-2S-O HYBRID CLUSTER"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "Fe4 O S2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2001-10-04
+_chem_comp.pdbx_modified_date                        2009-03-13
+_chem_comp.pdbx_ambiguous_flag                       Y
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            303.509
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         FSF
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+FSF FE5 FE5 FE 0 0 N N N 48.101 33.362 38.350 ? ? ? FE5 FSF 1
+FSF FE6 FE6 FE 0 0 N N N 50.060 31.296 38.138 ? ? ? FE6 FSF 2
+FSF FE7 FE7 FE 0 0 N N N 47.880 34.525 34.840 ? ? ? FE7 FSF 3
+FSF FE8 FE8 FE 0 0 N N N 50.837 34.032 36.089 ? ? ? FE8 FSF 4
+FSF O10 O10  O 0 1 N N N 47.995 34.814 37.003 ? ? ? O10 FSF 5
+FSF  S5  S5  S 0 1 N N N 47.849 31.118 38.098 ? ? ?  S5 FSF 6
+FSF  S6  S6  S 0 1 N N N 50.433 33.448 38.551 ? ? ?  S6 FSF 7
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+FSF FE5 FE6 SING N N 1
+FSF FE5 O10 SING N N 2
+FSF FE5  S5 SING N N 3
+FSF FE5  S6 SING N N 4
+FSF FE6  S5 SING N N 5
+FSF FE6  S6 SING N N 6
+FSF FE7 FE8 SING N N 7
+FSF FE7 O10 SING N N 8
+FSF FE8  S6 SING N N 9
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+FSF            InChI                InChI 1.02b InChI=1/4Fe.O.2S/rFe4OS2/c1-2-7-3-4(7,5-1)6-3
+FSF         InChIKey                InChI 1.02b                     ANJSROJJSKUDEH-RDKWERHRAJ
+FSF SMILES_CANONICAL               CACTVS 3.341               "[Fe]|1|2S[Fe]3|1O[Fe][Fe]S|23"
+FSF           SMILES               CACTVS 3.341               "[Fe]|1|2S[Fe]3|1O[Fe][Fe]S|23"
+FSF SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                 O1[Fe][Fe][S@]2[Fe@]13[Fe]2S3
+FSF           SMILES "OpenEye OEToolkits" 1.5.0                   O1[Fe][Fe][S]2[Fe]13[Fe]2S3
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+FSF FE5 Fe -0.356  1.426 1
+FSF FE6 Fe -1.594 -0.148 2
+FSF FE7 Fe  2.915  1.872 3
+FSF FE8 Fe  2.717  0.343 4
+FSF O10  O  1.000  2.725 5
+FSF  S5  S  0.415 -0.802 6
+FSF  S6  S  0.512 -0.146 7
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+FSF FE5 FE6 SINGLE NONE 1
+FSF FE5 O10 SINGLE NONE 2
+FSF FE5  S5 SINGLE NONE 3
+FSF FE5  S6 SINGLE NONE 4
+FSF FE6  S5 SINGLE NONE 5
+FSF FE6  S6 SINGLE NONE 6
+FSF FE7 FE8 SINGLE NONE 7
+FSF FE7 O10 SINGLE NONE 8
+FSF FE8  S6 SINGLE NONE 9
+#
+_pdbe_chem_comp_substructure.comp_id                      FSF
+_pdbe_chem_comp_substructure.substructure_name            MurckoScaffold
+_pdbe_chem_comp_substructure.id                           S1
+_pdbe_chem_comp_substructure.substructure_type            scaffold
+_pdbe_chem_comp_substructure.substructure_smiles          O1[Fe][Fe][S]2[Fe]3S[Fe]123
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/4Fe.O.2S
+_pdbe_chem_comp_substructure.substructure_inchikeys       ANJSROJJSKUDEH-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+FSF FE5 S1 1
+FSF FE6 S1 1
+FSF FE7 S1 1
+FSF FE8 S1 1
+FSF O10 S1 1
+FSF  S5 S1 1
+FSF  S6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               FSF
+_pdbe_chem_comp_rdkit_properties.exactmw                               303.679
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              3
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     3
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     3
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              3
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              3
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         1
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             60.938
+_pdbe_chem_comp_rdkit_properties.tpsa                                  9.230
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.218
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             16.267
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+FSF FE5  0.875  0.093 -0.669 ETKDGv2 1
+FSF FE6  1.371 -0.900  0.421 ETKDGv2 2
+FSF FE7 -1.689  0.901 -0.310 ETKDGv2 3
+FSF FE8 -1.702 -1.135 -0.350 ETKDGv2 4
+FSF O10 -0.780  0.929  1.105 ETKDGv2 5
+FSF  S5  1.856  1.343 -0.344 ETKDGv2 6
+FSF  S6  0.069 -1.230  0.147 ETKDGv2 7
+#

@@ -1,0 +1,207 @@
+data_CMO
+#
+_chem_comp.id                                        CMO
+_chem_comp.name                                      "CARBON MONOXIDE"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            28.010
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         CMO
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1BZR
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+CMO C C C -1 1 N N N -0.296 8.526 17.112  0.607 0.000 0.000 C CMO 1
+CMO O O O  1 1 N N N  0.023 7.997 18.053 -0.600 0.000 0.000 O CMO 2
+#
+_chem_comp_bond.comp_id                  CMO
+_chem_comp_bond.atom_id_1                C
+_chem_comp_bond.atom_id_2                O
+_chem_comp_bond.value_order              TRIP
+_chem_comp_bond.pdbx_aromatic_flag       N
+_chem_comp_bond.pdbx_stereo_config       N
+_chem_comp_bond.pdbx_ordinal             1
+
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+CMO           SMILES              ACDLabs 10.04                 "[O+]#[C-]"
+CMO SMILES_CANONICAL               CACTVS 3.341                 "[C-]#[O+]"
+CMO           SMILES               CACTVS 3.341                 "[C-]#[O+]"
+CMO SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                 "[C-]#[O+]"
+CMO           SMILES "OpenEye OEToolkits" 1.5.0                 "[C-]#[O+]"
+CMO            InChI                InChI  1.03            InChI=1S/CO/c1-2
+CMO         InChIKey                InChI  1.03 UGFAIRIUMAVXCW-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+CMO "SYSTEMATIC NAME"              ACDLabs 10.04 "carbon monooxide"
+CMO "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0  "carbon monoxide"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+CMO  "Create component" 1999-07-08  EBI ? ?
+CMO "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   CMO
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB11588
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Carbon monoxide"
+_pdbe_chem_comp_drugbank_details.description               "Carbon monoxide (CO) is a colorless, odorless, and tasteless gas that has a slightly lower density than air. It is toxic to hemoglobin utilizing animals (including humans), when encountered in concentrations above about 35 ppm, although it is also formed in normal animal metabolism in low quantities, and is thought to have some normal biological/homeostatic functions [L2529]. Carbon monoxide (CO), is a ubiquitous environmental product of organic combustion, which is also formed endogenously in the human body, as the byproduct of heme metabolism [A32758]. Exhaled CO (eCO), similar to exhaled nitric oxide (eNO), has been evaluated as a candidate breath biomarker of pathophysiological states, including smoking status, and inflammatory diseases of the lung and other organs. Exhalation of corbon monoxide values have been studied as potential indicators of inflammation in asthma, stable COPD and exacerbations, cystic fibrosis, lung cancer, and during surgery or critical care [L2529].  A test of the diffusing capacity of the lungs for carbon monoxide (DLCO), is one of the most clinically valuable tests of lung function testing. The technique was first described  100 years ago, and applied to clinical practice many years after. The DLCO measures the ability of the lungs to transfer gas from inhaled air to the red blood cells in pulmonary capillaries. The DLCO test is both convenient and simple for the patient to undergo. The ten seconds of breath-holding required for the DLCO maneuver is easier for most patients to perform than the forced exhalation required for other respiratory tests [L2557].  Carbon monoxide is presently used in small amounts in low oxygen modified atmosphere packaging systems (MAP) for fresh meat to stabilize and maintain natural meat color. This use of CO has been generally recognized as safe (GRAS) in several packaging applications for fresh meat products. Since 2002, FDA has favorably reviewed three GRAS notifications for carbon monoxide use in fresh meat packaging [L2537]. The FDA classifies this drug as permitted as a food additive in the packaging and preparation of food products, while following the federal code of regulations [L2531].  There have been several concerns voiced of over the use of carbon monoxide in food products [L2537], [L2538], [L2539]. The European Union has banned the use of carbon monoxide as a color stabilizer in meat and fish. A December 2001 report from the European Commission's Scientific Committee on Food concluded that the gas did not pose a risk provided that food was maintained adequately cold during storage and transport to prevent the growth of microorganisms [L2538].  In New Zealand, the use of carbon monoxide in fish preparation has been banned, as it may mask the effects of food spoilage and bacterial growth [L2539]."
+_pdbe_chem_comp_drugbank_details.cas_number                630-08-0
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "In respiratory testing, the diffusing capacity for carbon monoxide (DLCO) is a measure of the ability of gas to transfer from the alveoli across the alveolar epithelium and the capillary endothelium to the red blood cells. The DLCO depends not only on the area and thickness of the blood-gas barrier but additionally on the volume of blood in the pulmonary capillaries. The distribution of alveolar volume and ventilation also has an impact on the measurement [L2558].  DLCO is measured by sampling end-expiratory gas for carbon monoxide (CO) after patients inspire a small and safe amount of exogenous CO, hold their breath, and exhale. Measured DLCO is adjusted for alveolar volume (which is estimated from dilution of helium) and the patient’s hematocrit level. DLCO is reported as mL/min/mm Hg and as a percentage of a predicted value [A32759].  Carbon monoxide exerts effects on cell metabolism through both hypoxic and non-hypoxic modes of action. Both mechanisms of action are thought to be the result of the ability of carbon monoxide to bind strongly to heme and alter the function and/or metabolism of heme proteins. The binding affinity of carbon monoxide for hemoglobin is more than 200 times greater than that of oxygen for hemoglobin. The formation of carboxyhemoglobin (COHb) decreases the O2 carrying capacity of blood and disrupts the release of O2 from Hb for its use in tissues. Through similar mechanisms, carbon monoxide diminishes the O2 storage in muscle cells by binding to and displacing O2 from, myoglobin. Though all human tissues are vulnerable to carbon monoxide-induced hypoxic injury, those with the highest O2 demand are especially vulnerable, including the brain and heart [L2550].  Most of the non-hypoxic mechanisms of action of carbon monoxide have been thought to be due to binding of carbon monoxide to heme in proteins other than Hb. The most notable targets of carbon monoxide include components of many important physiological regulatory systems, including brain and muscle oxygen storage and use(myoglobin, neuroglobin); nitric oxide cell signaling  (e.g., nitric oxide synthase, guanylyl cyclase); prostaglandin cell signaling (cyclooxygenase, prostaglandin H synthase); energy metabolism and mitochondrial respiration (cytochrome c oxidase, cytochrome c, NADPH oxidase); steroid and drug metabolism (cytochrome P450); cellular redox balance and reactive oxygen species (ROS; catalase, peroxidases); and numerous transcription factors (e.g., neuronal PAS domain protein, NPAS2, implicated in regulation of circadian rhythm) [L2550].  In meat processing, carbon monoxide reacts with myoglobin, to form carboxymyoglobin, imparting a red appearance to the meat [L2540]."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           CMO
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB11588
+_pdbe_chem_comp_drugbank_classification.parent            "Homogeneous other non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Inorganic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Homogeneous other non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.superclass        "Homogeneous non-metal compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of inorganic compounds known as homogeneous other non-metal compounds. These are inorganic non-metallic compounds in which the largest atom belongs to the class of 'other non-metals'."
+
+#
+_pdbe_chem_comp_drugbank_targets.comp_id                        CMO
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB11588
+_pdbe_chem_comp_drugbank_targets.name                           Myoglobin
+_pdbe_chem_comp_drugbank_targets.organism                       Humans
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     P02144
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       yes
+_pdbe_chem_comp_drugbank_targets.ordinal                        1
+
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+CMO  "Carbon Monoxide"   ChEMBL
+CMO  "Carbon monoxide" DrugBank
+CMO "carbon(II) oxide" DrugBank
+CMO                 CO DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+CMO C C 3.000 0.000 1
+CMO O O 4.500 0.000 2
+#
+_pdbe_chem_comp_bond_depiction.comp_id            CMO
+_pdbe_chem_comp_bond_depiction.atom_id_1          C
+_pdbe_chem_comp_bond_depiction.atom_id_2          O
+_pdbe_chem_comp_bond_depiction.value_order        TRIPLE
+_pdbe_chem_comp_bond_depiction.bond_dir           NONE
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       1
+
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               CMO
+_pdbe_chem_comp_rdkit_properties.exactmw                               27.995
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                0
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        1
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             12.620
+_pdbe_chem_comp_rdkit_properties.tpsa                                  19.900
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.038
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             3.929
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         2
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+CMO UniChem        ChEMBL CHEMBL1231840
+CMO UniChem      DrugBank       DB11588
+CMO UniChem "KEGG LIGAND"        C00237
+CMO UniChem         ChEBI         17245
+CMO UniChem  MetaboLights    MTBLC17245
+CMO UniChem        BRENDA           176
+CMO UniChem        BRENDA          3261
+CMO UniChem          Rhea         17245
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+CMO C  0.564 0.000 0.000 ETKDGv2 1
+CMO O -0.564 0.000 0.000 ETKDGv2 2
+#

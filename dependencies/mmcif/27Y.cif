@@ -1,0 +1,257 @@
+data_27Y
+#
+_chem_comp.id                                        27Y
+_chem_comp.name                                      5-bromo-3-hydroxypyridin-2(1H)-one
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C5 H4 Br N O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2013-09-06
+_chem_comp.pdbx_modified_date                        2013-09-20
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            189.995
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         27Y
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            4MK1
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+27Y O01 O01  O 0 1 N N N 10.034 22.310  -7.981 -2.670 -1.869  0.001 O01 27Y  1
+27Y C02 C02  C 0 1 N N N 10.328 21.766  -9.209 -1.831 -0.799  0.002 C02 27Y  2
+27Y C03 C03  C 0 1 N N N 11.155 22.448 -10.107 -0.477 -0.983  0.001 C03 27Y  3
+27Y C04 C04  C 0 1 N N N 11.436 21.820 -11.326  0.367  0.138  0.001 C04 27Y  4
+27Y  BR  BR BR 0 0 N N N 12.580 22.687 -12.641  2.244 -0.091 -0.000  BR 27Y  5
+27Y C06 C06  C 0 1 N N N 10.896 20.572 -11.612 -0.162  1.384  0.001 C06 27Y  6
+27Y N07 N07  N 0 1 N N N 10.115 19.956 -10.721 -1.510  1.567  0.002 N07 27Y  7
+27Y C08 C08  C 0 1 N N N  9.824 20.516  -9.546 -2.348  0.513 -0.003 C08 27Y  8
+27Y O09 O09  O 0 1 N N N  9.053 19.852  -8.656 -3.556  0.694 -0.002 O09 27Y  9
+27Y  H1  H1  H 0 1 N N N  9.484 21.709  -7.492 -3.608 -1.633  0.002  H1 27Y 10
+27Y  H2  H2  H 0 1 N N N 11.561 23.420  -9.870 -0.061 -1.979  0.000  H2 27Y 11
+27Y  H4  H4  H 0 1 N N N 11.109 20.098 -12.559  0.493  2.242  0.002  H4 27Y 12
+27Y  H3  H3  H 0 1 N N N  9.740 19.055 -10.940 -1.871  2.467  0.003  H3 27Y 13
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+27Y  BR C04 SING N N  1
+27Y C06 C04 DOUB N N  2
+27Y C06 N07 SING N N  3
+27Y C04 C03 SING N N  4
+27Y N07 C08 SING N N  5
+27Y C03 C02 DOUB N N  6
+27Y C08 C02 SING N N  7
+27Y C08 O09 DOUB N N  8
+27Y C02 O01 SING N N  9
+27Y O01  H1 SING N N 10
+27Y C03  H2 SING N N 11
+27Y C06  H4 SING N N 12
+27Y N07  H3 SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+27Y           SMILES              ACDLabs 12.01                                     BrC1=CNC(=O)C(O)=C1
+27Y            InChI                InChI  1.03 InChI=1S/C5H4BrNO2/c6-3-1-4(8)5(9)7-2-3/h1-2,8H,(H,7,9)
+27Y         InChIKey                InChI  1.03                             KXBXUHWCODHRHK-UHFFFAOYSA-N
+27Y SMILES_CANONICAL               CACTVS 3.385                                       OC1=CC(=CNC1=O)Br
+27Y           SMILES               CACTVS 3.385                                       OC1=CC(=CNC1=O)Br
+27Y SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                     C1=C(C(=O)NC=C1Br)O
+27Y           SMILES "OpenEye OEToolkits" 1.7.6                                     C1=C(C(=O)NC=C1Br)O
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+27Y "SYSTEMATIC NAME"              ACDLabs 12.01     5-bromo-3-hydroxypyridin-2(1H)-one
+27Y "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 5-bromanyl-3-oxidanyl-1H-pyridin-2-one
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+27Y "Create component" 2013-09-06 RCSB LD ?
+27Y  "Initial release" 2013-09-25 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+27Y O01  O 8.196  1.500 1
+27Y C02  C 6.897  0.750 2
+27Y C03  C 5.598  1.500 3
+27Y C04  C 4.299  0.750 4
+27Y  BR Br 3.000  1.500 5
+27Y C06  C 4.299 -0.750 6
+27Y N07  N 5.598 -1.500 7
+27Y C08  C 6.897 -0.750 8
+27Y O09  O 8.196 -1.500 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+27Y  BR C04 SINGLE NONE 1
+27Y C06 C04 DOUBLE NONE 2
+27Y C06 N07 SINGLE NONE 3
+27Y C04 C03 SINGLE NONE 4
+27Y N07 C08 SINGLE NONE 5
+27Y C03 C02 DOUBLE NONE 6
+27Y C08 C02 SINGLE NONE 7
+27Y C08 O09 DOUBLE NONE 8
+27Y C02 O01 SINGLE NONE 9
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+27Y MurckoScaffold S1 scaffold O=c1cccc[nH]1 InChI=1S/C5H5NO/c7-5-3-1-2-4-6-5/h1-4H,(H,6,7) UBQKCCHYAOITMY-UHFFFAOYSA-N
+27Y       pyridine F1 fragment      c1ccncc1            InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
+27Y    Z1172207821 F2 fragment Oc1cncc(Br)c1   InChI=1S/C5H4BrNO/c6-4-1-5(8)3-7-2-4/h1-3,8H VNYBIBSZZDAEOK-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+27Y C06 F1 1
+27Y C04 F1 1
+27Y C03 F1 1
+27Y C02 F1 1
+27Y C08 F1 1
+27Y N07 F1 1
+27Y O01 F2 1
+27Y C02 F2 1
+27Y C08 F2 1
+27Y N07 F2 1
+27Y C06 F2 1
+27Y C04 F2 1
+27Y  BR F2 1
+27Y C03 F2 1
+27Y C02 S1 1
+27Y C03 S1 1
+27Y C04 S1 1
+27Y C06 S1 1
+27Y N07 S1 1
+27Y C08 S1 1
+27Y O09 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               27Y
+_pdbe_chem_comp_rdkit_properties.exactmw                               188.943
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             65.239
+_pdbe_chem_comp_rdkit_properties.tpsa                                  53.090
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.280
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             35.926
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+27Y UniChem    ChEMBL    CHEMBL3617029
+27Y UniChem      ZINC ZINC000021981788
+27Y UniChem      ZINC     ZINC21981788
+27Y UniChem BindingDb           105198
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+27Y O01  2.393 -0.944  0.035 ETKDGv2  1
+27Y C02  1.093 -0.443  0.016 ETKDGv2  2
+27Y C03  0.056 -1.289 -0.005 ETKDGv2  3
+27Y C04 -1.339 -0.794 -0.025 ETKDGv2  4
+27Y  BR -2.780 -2.048 -0.054 ETKDGv2  5
+27Y C06 -1.597  0.520 -0.024 ETKDGv2  6
+27Y N07 -0.523  1.469 -0.002 ETKDGv2  7
+27Y C08  0.833  1.010  0.018 ETKDGv2  8
+27Y O09  1.783  1.838  0.037 ETKDGv2  9
+27Y  H1  3.199 -0.330  0.051 ETKDGv2 10
+27Y  H2  0.236 -2.357 -0.006 ETKDGv2 11
+27Y  H4 -2.621  0.874 -0.039 ETKDGv2 12
+27Y  H3 -0.733  2.492 -0.001 ETKDGv2 13
+#

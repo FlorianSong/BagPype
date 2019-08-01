@@ -1,0 +1,284 @@
+data_FUX
+#
+_chem_comp.id                                        FUX
+_chem_comp.name                                      5-HYDROXYMETHYL-FURFURAL
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C6 H6 O3"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2003-09-10
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            126.110
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         FUX
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       Y
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1QXE
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+FUX  C1  C1 C 0 1 N N N 31.222 28.014 34.608  0.854 -2.157 -4.049  C1 FUX  1
+FUX  C2  C2 C 0 1 Y N N 32.653 28.137 34.279  0.510 -1.752 -2.729  C2 FUX  2
+FUX  O3  O3 O 0 1 Y N N 33.159 27.436 33.249  0.025 -2.696 -1.880  O3 FUX  3
+FUX  C4  C4 C 0 1 Y N N 34.443 27.816 33.306 -0.223 -2.068 -0.701  C4 FUX  4
+FUX  C5  C5 C 0 1 Y N N 34.781 28.691 34.268  0.097 -0.733 -0.788  C5 FUX  5
+FUX  C6  C6 C 0 1 Y N N 33.493 28.909 34.957  0.573 -0.528 -2.105  C6 FUX  6
+FUX  C7  C7 C 0 1 N N N 35.385 27.211 32.269 -0.761 -2.905  0.381  C7 FUX  7
+FUX  O8  O8 O 0 1 N N N 34.687 26.434 31.261 -2.190 -2.914  0.335  O8 FUX  8
+FUX OXT OXT O 0 1 N N N      ?      ?      ?  1.309 -1.389 -4.926 OXT FUX  9
+FUX  H1  H1 H 0 1 N N N 31.833 28.586 35.325  0.713 -3.236 -4.340  H1 FUX 10
+FUX  H5  H5 H 0 1 N N N 35.791 29.099 34.437 -0.000  0.002 -0.001  H5 FUX 11
+FUX  H6  H6 H 0 1 N N N 33.210 29.534 35.820  0.918  0.399 -2.541  H6 FUX 12
+FUX H71 1H7 H 0 1 N N N 36.019 27.998 31.798 -0.417 -3.955  0.314 H71 FUX 13
+FUX H72 2H7 H 0 1 N N N 36.182 26.605 32.759 -0.457 -2.542  1.381 H72 FUX 14
+FUX HO8 HO8 H 0 1 N N N 35.273 26.057 30.615 -2.491 -2.982  1.253 HO8 FUX 15
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+FUX C1  C2 SING N N  1
+FUX C1 OXT DOUB N N  2
+FUX C1  H1 SING N N  3
+FUX C2  O3 SING Y N  4
+FUX C2  C6 DOUB Y N  5
+FUX O3  C4 SING Y N  6
+FUX C4  C5 DOUB Y N  7
+FUX C4  C7 SING N N  8
+FUX C5  C6 SING Y N  9
+FUX C5  H5 SING N N 10
+FUX C6  H6 SING N N 11
+FUX C7  O8 SING N N 12
+FUX C7 H71 SING N N 13
+FUX C7 H72 SING N N 14
+FUX O8 HO8 SING N N 15
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+FUX           SMILES              ACDLabs 10.04                                   O=Cc1oc(cc1)CO
+FUX SMILES_CANONICAL               CACTVS 3.341                                   OCc1oc(C=O)cc1
+FUX           SMILES               CACTVS 3.341                                   OCc1oc(C=O)cc1
+FUX SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                   c1cc(oc1CO)C=O
+FUX           SMILES "OpenEye OEToolkits" 1.5.0                                   c1cc(oc1CO)C=O
+FUX            InChI                InChI  1.03 InChI=1S/C6H6O3/c7-3-5-1-2-6(4-8)9-5/h1-3,8H,4H2
+FUX         InChIKey                InChI  1.03                      NOEGNKMFWQHSLB-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+FUX "SYSTEMATIC NAME"              ACDLabs 10.04 5-(hydroxymethyl)furan-2-carbaldehyde
+FUX "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 5-(hydroxymethyl)furan-2-carbaldehyde
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+FUX  "Create component" 2003-09-10 RCSB ? ?
+FUX "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   FUX
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB12298
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      5-(hydroxymethyl)-2-furaldehyde
+_pdbe_chem_comp_drugbank_details.description               "Aes-103 has been used in trials studying the treatment and prevention of Hypoxia, Anemia, Sickle Cell, and Sickle Cell Disease."
+_pdbe_chem_comp_drugbank_details.cas_number                67-47-0
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           FUX
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB12298
+_pdbe_chem_comp_drugbank_classification.parent            Aryl-aldehydes
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Organooxygen compounds"
+_pdbe_chem_comp_drugbank_classification.superclass        "Organic oxygen compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as aryl-aldehydes. These are compounds containing an aldehyde group directly attached to an aromatic ring."
+
+#
+_pdbx_chem_comp_synonyms.comp_id          FUX
+_pdbx_chem_comp_synonyms.name             SID17389229
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+FUX  C1 C  4.999 -0.490 1
+FUX  C2 C  6.426 -0.027 2
+FUX  O3 O  7.639 -0.908 3
+FUX  C4 C  8.853 -0.027 4
+FUX  C5 C  8.389  1.400 5
+FUX  C6 C  6.889  1.400 6
+FUX  C7 C 10.280 -0.490 7
+FUX  O8 O 11.394  0.513 8
+FUX OXT O  3.884  0.513 9
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+FUX C1  C2 SINGLE NONE 1
+FUX C1 OXT DOUBLE NONE 2
+FUX C2  O3 SINGLE NONE 3
+FUX C2  C6 DOUBLE NONE 4
+FUX O3  C4 SINGLE NONE 5
+FUX C4  C5 DOUBLE NONE 6
+FUX C4  C7 SINGLE NONE 7
+FUX C5  C6 SINGLE NONE 8
+FUX C7  O8 SINGLE NONE 9
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+FUX MurckoScaffold S1 scaffold c1ccoc1 InChI=1S/C4H4O/c1-2-4-5-3-1/h1-4H YLQBMQCUIZJEEH-UHFFFAOYSA-N
+FUX          furan F1 fragment c1ccoc1 InChI=1S/C4H4O/c1-2-4-5-3-1/h1-4H YLQBMQCUIZJEEH-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+FUX C2 F1 1
+FUX C6 F1 1
+FUX C5 F1 1
+FUX C4 F1 1
+FUX O3 F1 1
+FUX C2 S1 1
+FUX O3 S1 1
+FUX C4 S1 1
+FUX C5 S1 1
+FUX C6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               FUX
+_pdbe_chem_comp_rdkit_properties.exactmw                               126.032
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.167
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             60.428
+_pdbe_chem_comp_rdkit_properties.tpsa                                  50.440
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.475
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             29.486
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+FUX UniChem        ChEMBL     CHEMBL185885
+FUX UniChem      DrugBank          DB12298
+FUX UniChem "KEGG LIGAND"           C11101
+FUX UniChem         ChEBI           412516
+FUX UniChem          ZINC ZINC000000900788
+FUX UniChem          ZINC     ZINC00900788
+FUX UniChem    NMRShiftDB         20111974
+FUX UniChem        BRENDA           152549
+FUX UniChem        BRENDA           196614
+FUX UniChem        BRENDA            19771
+FUX UniChem        BRENDA            62659
+FUX UniChem        BRENDA            68777
+FUX UniChem        BRENDA            69543
+FUX UniChem          Rhea           412516
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+FUX  C1  2.839 -0.601  0.685 ETKDGv2  1
+FUX  C2  1.516 -0.101  0.298 ETKDGv2  2
+FUX  O3  0.329 -0.752  0.599 ETKDGv2  3
+FUX  C4 -0.685  0.034  0.068 ETKDGv2  4
+FUX  C5 -0.176  1.102 -0.533 ETKDGv2  5
+FUX  C6  1.273  1.015 -0.379 ETKDGv2  6
+FUX  C7 -2.135 -0.312  0.138 ETKDGv2  7
+FUX  O8 -2.516 -0.954 -1.045 ETKDGv2  8
+FUX OXT  3.884  0.033  0.383 ETKDGv2  9
+FUX  H1  2.918 -1.528  1.238 ETKDGv2 10
+FUX  H5 -0.732  1.877 -1.043 ETKDGv2 11
+FUX  H6  2.008  1.720 -0.746 ETKDGv2 12
+FUX H71 -2.306 -0.986  1.006 ETKDGv2 13
+FUX H72 -2.736  0.615  0.279 ETKDGv2 14
+FUX HO8 -3.481 -1.162 -0.947 ETKDGv2 15
+#

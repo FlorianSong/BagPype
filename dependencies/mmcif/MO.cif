@@ -1,0 +1,164 @@
+data_MO
+#
+_chem_comp.id                                        MO
+_chem_comp.name                                      "MOLYBDENUM ATOM"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   Mo
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            95.940
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         MO
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+_chem_comp_atom.comp_id                        MO
+_chem_comp_atom.atom_id                        MO
+_chem_comp_atom.alt_atom_id                    MO
+_chem_comp_atom.type_symbol                    MO
+_chem_comp_atom.charge                         0
+_chem_comp_atom.pdbx_align                     0
+_chem_comp_atom.pdbx_aromatic_flag             N
+_chem_comp_atom.pdbx_leaving_atom_flag         N
+_chem_comp_atom.pdbx_stereo_config             N
+_chem_comp_atom.model_Cartn_x                  0.000
+_chem_comp_atom.model_Cartn_y                  0.000
+_chem_comp_atom.model_Cartn_z                  0.000
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       0.000
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       0.000
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       0.000
+_chem_comp_atom.pdbx_component_atom_id         MO
+_chem_comp_atom.pdbx_component_comp_id         MO
+_chem_comp_atom.pdbx_ordinal                   1
+
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+MO           SMILES              ACDLabs 10.04                      "[Mo]"
+MO SMILES_CANONICAL               CACTVS 3.341                      "[Mo]"
+MO           SMILES               CACTVS 3.341                      "[Mo]"
+MO SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                      "[Mo]"
+MO           SMILES "OpenEye OEToolkits" 1.5.0                      "[Mo]"
+MO            InChI                InChI  1.03                 InChI=1S/Mo
+MO         InChIKey                InChI  1.03 ZOKXTWBITQBERF-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+MO "SYSTEMATIC NAME"              ACDLabs 10.04 molybdenum
+MO "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 molybdenum
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+MO  "Create component" 1999-07-08 RCSB ? ?
+MO "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   MO
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB11137
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Molybdenum
+_pdbe_chem_comp_drugbank_details.description               "Molybdenum is a chemical element with symbol Mo and atomic number 42. As it is not a naturally occuring free metal on Earth, molybdenum is found only in various oxidation states in minerals. Molybdenum is commonly used in metallurgy and other chemical applications however it has essential biological roles in organisms and microorganisms. It is an essential trace dietary element and acts as a critical cofactor in several molybdenum-dependent enzymes that are involved in important cellular reactions and pathways, including xanthine oxidoreductase. When complexed with Technetium Tc 99m, molybdenum is used as a radiopharmaceutical agent in diagonistic procedures."
+_pdbe_chem_comp_drugbank_details.cas_number                7439-98-7
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           MO
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB11137
+_pdbe_chem_comp_drugbank_classification.parent            "Homogeneous transition metal compounds"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Inorganic compounds"
+_pdbe_chem_comp_drugbank_classification.class             "Homogeneous transition metal compounds"
+_pdbe_chem_comp_drugbank_classification.superclass        "Homogeneous metal compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of inorganic compounds known as homogeneous transition metal compounds. These are inorganic compounds containing only metal atoms,with the largest atom being a transition metal atom."
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+_pdbe_chem_comp_atom_depiction.comp_id             MO
+_pdbe_chem_comp_atom_depiction.atom_id             MO
+_pdbe_chem_comp_atom_depiction.element             Mo
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       3.000
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       0.000
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        1
+
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               MO
+_pdbe_chem_comp_rdkit_properties.exactmw                               97.905
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           0
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                0
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        1
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             21.757
+_pdbe_chem_comp_rdkit_properties.tpsa                                  0
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.003
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             0
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         1
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+MO UniChem        ChEMBL CHEMBL1230306
+MO UniChem      DrugBank       DB11137
+MO UniChem "KEGG LIGAND"        C00150
+MO UniChem         ChEBI         28685
+MO UniChem        BRENDA           154
+MO UniChem        BRENDA           679
+#
+_pdbe_chem_comp_rdkit_conformer.comp_id             MO
+_pdbe_chem_comp_rdkit_conformer.atom_id             MO
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       0.000
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       0.000
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       0.000
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        ETKDGv2
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       1
+
+#

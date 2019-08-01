@@ -1,0 +1,264 @@
+data_DHL
+#
+_chem_comp.id                                        DHL
+_chem_comp.name                                      2-AMINO-ETHANETHIOL
+_chem_comp.type                                      "L-PEPTIDE LINKING"
+_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.formula                                   "C2 H7 N S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             2,3-DESHYDROLANTHIONINE
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-11-22
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             SEA
+_chem_comp.formula_weight                            77.149
+_chem_comp.one_letter_code                           X
+_chem_comp.three_letter_code                         DHL
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1QOW
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+DHL   N   N N 0 1 N N N 13.120 17.000 -13.635 -0.113 -0.043  2.415   N DHL  1
+DHL  CA  CA C 0 1 N N N 14.216 17.328 -14.462  0.490 -0.001  1.076  CA DHL  2
+DHL  CB  CB C 0 1 N N N 14.612 18.544 -14.729 -0.612 -0.039  0.017  CB DHL  3
+DHL  SG  SG S 0 1 N N N 13.898 19.973 -14.130  0.132  0.012 -1.635  SG DHL  4
+DHL HN1 1HN H 0 1 N N N 12.810 16.050 -13.426 -0.627  0.817  2.528 HN1 DHL  5
+DHL HN2 2HN H 0 1 N N N 12.311 17.498 -14.006  0.647 -0.016  3.077 HN2 DHL  6
+DHL HA2 2HA H 0 1 N N N 15.100 16.783 -14.055  1.067  0.917  0.967 HA2 DHL  7
+DHL HA3 3HA H 0 1 N N N 14.042 16.823 -15.441  1.148 -0.860  0.947 HA3 DHL  8
+DHL HB2 2HB H 0 1 N N N 15.693 18.592 -14.460 -1.189 -0.958  0.127 HB2 DHL  9
+DHL HB3 3HB H 0 1 N N N 14.625 18.637 -15.840 -1.270  0.820  0.147 HB3 DHL 10
+DHL  HS  HS H 0 1 N N N 14.186 20.857 -14.324 -0.977 -0.029 -2.393  HS DHL 11
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+DHL  N  CA SING N N  1
+DHL  N HN1 SING N N  2
+DHL  N HN2 SING N N  3
+DHL CA  CB SING N N  4
+DHL CA HA2 SING N N  5
+DHL CA HA3 SING N N  6
+DHL CB  SG SING N N  7
+DHL CB HB2 SING N N  8
+DHL CB HB3 SING N N  9
+DHL SG  HS SING N N 10
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+DHL           SMILES              ACDLabs 10.04                               SCCN
+DHL SMILES_CANONICAL               CACTVS 3.341                               NCCS
+DHL           SMILES               CACTVS 3.341                               NCCS
+DHL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                             C(CS)N
+DHL           SMILES "OpenEye OEToolkits" 1.5.0                             C(CS)N
+DHL            InChI                InChI  1.03 InChI=1S/C2H7NS/c3-1-2-4/h4H,1-3H2
+DHL         InChIKey                InChI  1.03        UFULAYFCSOUIOV-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+DHL "SYSTEMATIC NAME"              ACDLabs 10.04 2-aminoethanethiol
+DHL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 2-aminoethanethiol
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+DHL  "Create component" 1999-11-22  EBI ? ?
+DHL "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   DHL
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB00847
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Cysteamine
+_pdbe_chem_comp_drugbank_details.description               "Cysteamine is a radiation-protective agent that oxidizes in air to form cystamine. It can be given intravenously or orally to treat radiation sickness. The bitartrate and hydrochloride salt forms are indicated for the treatment of neuropathic cystinosis in patients 6 years old and older. Cysteamine is marketed under several brand names such as Cystaran, Procysbi, and Cystagon."
+_pdbe_chem_comp_drugbank_details.cas_number                60-23-1
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       "The free thiol cysteamine depletes cystinotic leukocytes and other cells of cystine, whose accumulation is considered the cause of organ damage in cystinosis. Cysteamine cleaves the disulfide bond with cystine to produce molecules that can escape the metabolic defect in cystinosis and cystinuria."
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           DHL
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00847
+_pdbe_chem_comp_drugbank_classification.parent            Alkylthiols
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             Thiols
+_pdbe_chem_comp_drugbank_classification.superclass        "Organosulfur compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alkylthiols. These are organic compounds containing the thiol functional group linked to an alkyl chain."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+DHL DB00847                     Somatostatin Humans P61278 unknown 1
+DHL DB00847 "Neuropeptide Y receptor type 2" Humans P49146 unknown 2
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id          
+_pdbx_chem_comp_synonyms.name             
+_pdbx_chem_comp_synonyms.provenance       
+DHL            Mercaptamine   ChEMBL
+DHL                     MEA   ChEMBL
+DHL                Cystagon   ChEMBL
+DHL                Procysbi   ChEMBL
+DHL                  L-1573   ChEMBL
+DHL              Cysteamine   ChEMBL
+DHL   2-amino-1-ethanethiol DrugBank
+DHL     2-amino-ethanethiol DrugBank
+DHL      2-aminoethanethiol DrugBank
+DHL   beta-aminoethanethiol DrugBank
+DHL beta-Mercaptoethylamine DrugBank
+DHL              Cysteamine DrugBank
+DHL                     MEA DrugBank
+DHL            Mercaptamine DrugBank
+DHL        Thioethanolamine DrugBank
+DHL       β-aminoethylthiol DrugBank
+DHL                   β-MEA DrugBank
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+DHL  N N 7.702 -0.750 1
+DHL CA C 6.404  0.000 2
+DHL CB C 5.104 -0.750 3
+DHL SG S 3.805  0.000 4
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+DHL  N CA SINGLE NONE 1
+DHL CA CB SINGLE NONE 2
+DHL CB SG SINGLE NONE 3
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               DHL
+_pdbe_chem_comp_rdkit_properties.exactmw                               77.030
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             41.231
+_pdbe_chem_comp_rdkit_properties.tpsa                                  26.020
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.125
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             22.907
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         4
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+DHL UniChem        ChEMBL        CHEMBL602
+DHL UniChem      DrugBank          DB00847
+DHL UniChem "KEGG LIGAND"           C01678
+DHL UniChem         ChEBI            17141
+DHL UniChem          ZINC ZINC000008034121
+DHL UniChem     BindingDb             7968
+DHL UniChem  MetaboLights       MTBLC17141
+DHL UniChem        BRENDA           104842
+DHL UniChem        BRENDA            15839
+DHL UniChem        BRENDA            18187
+DHL UniChem        BRENDA            29810
+DHL UniChem        BRENDA            35109
+DHL UniChem        BRENDA            44877
+DHL UniChem        BRENDA            56950
+DHL UniChem        BRENDA             6431
+DHL UniChem        BRENDA              787
+DHL UniChem        BRENDA            96758
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+DHL   N -1.106  1.033 -0.153 ETKDGv2  1
+DHL  CA -0.764 -0.259  0.435 ETKDGv2  2
+DHL  CB  0.747 -0.384  0.624 ETKDGv2  3
+DHL  SG  1.604 -0.370 -0.983 ETKDGv2  4
+DHL HN1 -2.137  1.039 -0.328 ETKDGv2  5
+DHL HN2 -0.921  1.776  0.559 ETKDGv2  6
+DHL HA2 -1.121 -1.077 -0.228 ETKDGv2  7
+DHL HA3 -1.268 -0.368  1.422 ETKDGv2  8
+DHL HB2  0.973 -1.340  1.141 ETKDGv2  9
+DHL HB3  1.124  0.453  1.251 ETKDGv2 10
+DHL  HS  2.869 -0.504 -0.381 ETKDGv2 11
+#

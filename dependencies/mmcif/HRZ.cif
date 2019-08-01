@@ -1,0 +1,252 @@
+data_HRZ
+#
+_chem_comp.id                                        HRZ
+_chem_comp.name                                      1~{H}-pyridin-2-one
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C5 H5 N O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2018-12-18
+_chem_comp.pdbx_modified_date                        2019-06-21
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            95.099
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         HRZ
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            6QA4
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+HRZ  C2 C1 C 0 1 N N N -6.565 2.738 13.350 -0.944 -0.028 -0.002  C2 HRZ  1
+HRZ  C3 C2 C 0 1 N N N -7.538 1.838 13.880 -0.230 -1.238 -0.001  C3 HRZ  2
+HRZ  C5 C3 C 0 1 N N N -8.142 3.391 15.568  1.792  0.029  0.001  C5 HRZ  3
+HRZ  C6 C4 C 0 1 N N N -7.216 4.272 15.080  1.074  1.176  0.000  C6 HRZ  4
+HRZ  O1 O1 O 0 1 N N N -5.802 2.499 12.365 -2.165 -0.041  0.002  O1 HRZ  5
+HRZ  C4 C5 C 0 1 N N N -8.305 2.166 14.953  1.134 -1.209  0.000  C4 HRZ  6
+HRZ  N7 N1 N 0 1 N N N -6.462 3.938 14.003 -0.283  1.145 -0.001  N7 HRZ  7
+HRZ  H8 H1 H 0 1 N N N -7.668 0.871 13.416 -0.755 -2.182 -0.002  H8 HRZ  8
+HRZ H10 H2 H 0 1 N N N -8.741 3.652 16.428  2.872  0.067  0.002 H10 HRZ  9
+HRZ H11 H3 H 0 1 N N N -7.085 5.234 15.553  1.587  2.127  0.000 H11 HRZ 10
+HRZ  H9 H4 H 0 1 N N N -9.041 1.469 15.324  1.700 -2.128  0.001  H9 HRZ 11
+HRZ H12 H5 H 0 1 N N N -5.795 4.603 13.668 -0.782  1.977 -0.001 H12 HRZ 12
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+HRZ O1  C2 DOUB N N  1
+HRZ C2  C3 SING N N  2
+HRZ C2  N7 SING N N  3
+HRZ C3  C4 DOUB N N  4
+HRZ N7  C6 SING N N  5
+HRZ C4  C5 SING N N  6
+HRZ C6  C5 DOUB N N  7
+HRZ C3  H8 SING N N  8
+HRZ C5 H10 SING N N  9
+HRZ C6 H11 SING N N 10
+HRZ C4  H9 SING N N 11
+HRZ N7 H12 SING N N 12
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+HRZ            InChI                InChI  1.03 InChI=1S/C5H5NO/c7-5-3-1-2-4-6-5/h1-4H,(H,6,7)
+HRZ         InChIKey                InChI  1.03                    UBQKCCHYAOITMY-UHFFFAOYSA-N
+HRZ SMILES_CANONICAL               CACTVS 3.385                                   O=C1NC=CC=C1
+HRZ           SMILES               CACTVS 3.385                                   O=C1NC=CC=C1
+HRZ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                 C1=CC(=O)NC=C1
+HRZ           SMILES "OpenEye OEToolkits" 2.0.6                                 C1=CC(=O)NC=C1
+#
+_pdbx_chem_comp_identifier.comp_id               HRZ
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version       2.0.6
+_pdbx_chem_comp_identifier.identifier            1~{H}-pyridin-2-one
+
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+HRZ   "Create component" 2018-12-18  EBI MJC                          ?
+HRZ "Other modification" 2018-12-19  EBI MJC "remake to fix bond order"
+HRZ    "Initial release" 2019-06-26 RCSB   ?                          ?
+#
+_pdbx_chem_comp_synonyms.comp_id          HRZ
+_pdbx_chem_comp_synonyms.name             SR-1C9
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+HRZ C2 C 4.299 -0.285 1
+HRZ C3 C 5.598 -1.035 2
+HRZ C5 C 6.897  1.215 3
+HRZ C6 C 5.598  1.965 4
+HRZ O1 O 3.000 -1.035 5
+HRZ C4 C 6.897 -0.285 6
+HRZ N7 N 4.299  1.215 7
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+HRZ O1 C2 DOUBLE NONE 1
+HRZ C2 C3 SINGLE NONE 2
+HRZ C2 N7 SINGLE NONE 3
+HRZ C3 C4 DOUBLE NONE 4
+HRZ N7 C6 SINGLE NONE 5
+HRZ C4 C5 SINGLE NONE 6
+HRZ C6 C5 DOUBLE NONE 7
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+HRZ MurckoScaffold S1 scaffold O=c1cccc[nH]1 InChI=1S/C5H5NO/c7-5-3-1-2-4-6-5/h1-4H,(H,6,7) UBQKCCHYAOITMY-UHFFFAOYSA-N
+HRZ       pyridine F1 fragment      c1ccncc1            InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+HRZ C2 F1 1
+HRZ C3 F1 1
+HRZ C4 F1 1
+HRZ C5 F1 1
+HRZ C6 F1 1
+HRZ N7 F1 1
+HRZ C2 S1 1
+HRZ C3 S1 1
+HRZ C5 S1 1
+HRZ C6 S1 1
+HRZ O1 S1 1
+HRZ C4 S1 1
+HRZ N7 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               HRZ
+_pdbe_chem_comp_rdkit_properties.exactmw                               95.037
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                1
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             47.895
+_pdbe_chem_comp_rdkit_properties.tpsa                                  32.860
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.275
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             27.171
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+HRZ UniChem        ChEMBL        CHEMBL662
+HRZ UniChem "KEGG LIGAND"           C02502
+HRZ UniChem         ChEBI            16540
+HRZ UniChem          ZINC ZINC000008737707
+HRZ UniChem          ZINC     ZINC08737707
+HRZ UniChem    NMRShiftDB         10016178
+HRZ UniChem    NMRShiftDB         20027597
+HRZ UniChem  MetaboLights       MTBLC16540
+HRZ UniChem        BRENDA           172027
+HRZ UniChem        BRENDA            29392
+HRZ UniChem        BRENDA            48125
+HRZ UniChem          Rhea            16540
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+HRZ  C2  1.247 -0.668  0.041 ETKDGv2  1
+HRZ  C3  1.182  0.799 -0.039 ETKDGv2  2
+HRZ  C5 -1.265  0.613 -0.038 ETKDGv2  3
+HRZ  C6 -1.231 -0.723  0.035 ETKDGv2  4
+HRZ  O1  2.359 -1.258  0.077 ETKDGv2  5
+HRZ  C4 -0.013  1.401 -0.076 ETKDGv2  6
+HRZ  N7  0.026 -1.414  0.077 ETKDGv2  7
+HRZ  H8  2.090  1.387 -0.068 ETKDGv2  8
+HRZ H10 -2.217  1.127 -0.070 ETKDGv2  9
+HRZ H11 -2.155 -1.287  0.062 ETKDGv2 10
+HRZ  H9 -0.067  2.480 -0.135 ETKDGv2 11
+HRZ H12  0.045 -2.457  0.134 ETKDGv2 12
+#

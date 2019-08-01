@@ -1,0 +1,235 @@
+data_KFG
+#
+_chem_comp.id                                        KFG
+_chem_comp.name                                      "dimethyl hydrogen phosphate"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C2 H7 O4 P"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2018-11-30
+_chem_comp.pdbx_modified_date                        2019-07-19
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            126.048
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         KFG
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            6N8E
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+KFG  C01 C1 C 0 1 N N N -34.818 -11.576 68.511  2.639  0.296  0.139  C01 KFG  1
+KFG  C07 C2 C 0 1 N N N -38.044 -15.072 69.237 -2.639  0.296  0.139  C07 KFG  2
+KFG  O02 O1 O 0 1 N N N -35.903 -12.359 68.285  1.315  0.596  0.583  O02 KFG  3
+KFG  O04 O2 O 0 1 N N N -34.834 -14.562 67.630  0.000  0.177 -1.531  O04 KFG  4
+KFG  O05 O3 O 0 1 N N N -35.642 -14.068 70.116 -0.000 -1.651  0.210  O05 KFG  5
+KFG  O06 O4 O 0 1 N N N -37.294 -14.513 68.243 -1.315  0.596  0.583  O06 KFG  6
+KFG  P03 P1 P 0 1 N N N -35.759 -13.982 68.640 -0.000 -0.065 -0.071  P03 KFG  7
+KFG H012 H1 H 0 0 N N N -35.051 -10.537 68.235  2.830 -0.771  0.260 H012 KFG  8
+KFG H013 H2 H 0 0 N N N -34.549 -11.621 69.577  2.740  0.566 -0.912 H013 KFG  9
+KFG H011 H3 H 0 0 N N N -33.974 -11.936 67.904  3.358  0.862  0.731 H011 KFG 10
+KFG H073 H4 H 0 0 N N N -39.022 -15.373 68.834 -2.740  0.566 -0.912 H073 KFG 11
+KFG H071 H5 H 0 0 N N N -37.524 -15.956 69.635 -2.830 -0.771  0.260 H071 KFG 12
+KFG H072 H6 H 0 0 N N N -38.190 -14.338 70.043 -3.358  0.862  0.731 H072 KFG 13
+KFG   H1 H7 H 0 1 N N N -34.865 -14.564 70.344 -0.000 -1.884  1.149   H1 KFG 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+KFG O04  P03 DOUB N N  1
+KFG O06  P03 SING N N  2
+KFG O06  C07 SING N N  3
+KFG O02  C01 SING N N  4
+KFG O02  P03 SING N N  5
+KFG P03  O05 SING N N  6
+KFG C01 H012 SING N N  7
+KFG C01 H013 SING N N  8
+KFG C01 H011 SING N N  9
+KFG C07 H073 SING N N 10
+KFG C07 H071 SING N N 11
+KFG C07 H072 SING N N 12
+KFG O05   H1 SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+KFG           SMILES              ACDLabs 12.01                                   COP(=O)(O)OC
+KFG            InChI                InChI  1.03 InChI=1S/C2H7O4P/c1-5-7(3,4)6-2/h1-2H3,(H,3,4)
+KFG         InChIKey                InChI  1.03                    KKUKTXOBAWVSHC-UHFFFAOYSA-N
+KFG SMILES_CANONICAL               CACTVS 3.385                                 CO[P](O)(=O)OC
+KFG           SMILES               CACTVS 3.385                                 CO[P](O)(=O)OC
+KFG SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                   COP(=O)(O)OC
+KFG           SMILES "OpenEye OEToolkits" 2.0.6                                   COP(=O)(O)OC
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+KFG "SYSTEMATIC NAME"              ACDLabs 12.01 "dimethyl hydrogen phosphate"
+KFG "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "dimethyl hydrogen phosphate"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+KFG "Create component" 2018-11-30 RCSB LD ?
+KFG  "Initial release" 2019-07-24 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+KFG C01 C 8.196 -0.403 1
+KFG C07 C 3.000 -0.403 2
+KFG O02 O 6.897  0.347 3
+KFG O04 O 4.848  0.896 4
+KFG O05 O 6.348 -1.702 5
+KFG O06 O 4.299 -1.153 6
+KFG P03 P 5.598 -0.403 7
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+KFG O04 P03 DOUBLE NONE 1
+KFG O06 P03 SINGLE NONE 2
+KFG O06 C07 SINGLE NONE 3
+KFG O02 C01 SINGLE NONE 4
+KFG O02 P03 SINGLE NONE 5
+KFG P03 O05 SINGLE NONE 6
+#
+_pdbe_chem_comp_substructure.comp_id                      KFG
+_pdbe_chem_comp_substructure.substructure_name            phosphate
+_pdbe_chem_comp_substructure.id                           F1
+_pdbe_chem_comp_substructure.substructure_type            fragment
+_pdbe_chem_comp_substructure.substructure_smiles          O=P(O)(O)O
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)
+_pdbe_chem_comp_substructure.substructure_inchikeys       NBIIXXVUZAFLBC-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+KFG O02 F1 1
+KFG P03 F1 1
+KFG O04 F1 1
+KFG O05 F1 1
+KFG O06 F1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               KFG
+_pdbe_chem_comp_rdkit_properties.exactmw                               126.008
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             51.597
+_pdbe_chem_comp_rdkit_properties.tpsa                                  55.760
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.380
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             23.843
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+KFG UniChem   ZINC ZINC000003957811
+KFG UniChem BRENDA            12969
+KFG UniChem BRENDA           154230
+KFG UniChem BRENDA            67210
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+KFG  C01  2.537  0.023  0.409 ETKDGv2  1
+KFG  C07 -2.400 -0.588 -0.395 ETKDGv2  2
+KFG  O02  1.509 -0.931  0.305 ETKDGv2  3
+KFG  O04  0.228  0.482 -1.507 ETKDGv2  4
+KFG  O05 -0.260  1.095  1.006 ETKDGv2  5
+KFG  O06 -1.194 -1.265 -0.145 ETKDGv2  6
+KFG  P03  0.072 -0.122 -0.127 ETKDGv2  7
+KFG H012  3.478 -0.502  0.670 ETKDGv2  8
+KFG H013  2.707  0.546 -0.558 ETKDGv2  9
+KFG H011  2.330  0.754  1.222 ETKDGv2 10
+KFG H073 -2.653  0.102  0.440 ETKDGv2 11
+KFG H071 -2.372 -0.044 -1.365 ETKDGv2 12
+KFG H072 -3.216 -1.337 -0.461 ETKDGv2 13
+KFG   H1 -0.765  1.786  0.506 ETKDGv2 14
+#

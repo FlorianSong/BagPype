@@ -1,0 +1,213 @@
+data_57H
+#
+_chem_comp.id                                        57H
+_chem_comp.name                                      "prop-2-en-1-ylphosphonic acid"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H7 O3 P"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2015-08-07
+_chem_comp.pdbx_modified_date                        2015-12-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            122.060
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         57H
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       Y
+_chem_comp.pdbx_ideal_coordinates_details            Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            5D3Z
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+57H PAG P1 P 0 1 N N N 113.286 155.212 39.536 -0.700 -0.034  0.041 PAG 57H  1
+57H OAD O1 O 0 1 N N N 112.568 155.083 40.883 -1.884 -0.895 -0.628 OAD 57H  2
+57H OAB O2 O 0 1 N N N 112.882 154.370 38.335 -0.513 -0.460  1.446 OAB 57H  3
+57H CAF C1 C 0 1 N N N 113.323 156.971 39.036  0.846 -0.303 -0.887 CAF 57H  4
+57H  O1 O3 O 0 1 N Y N 114.917 154.642 39.798 -1.085  1.529  0.001  O1 57H  5
+57H  H1 H1 H 0 1 N N N 111.883 154.428 40.816 -2.739 -0.800 -0.185  H1 57H  6
+57H  H2 H2 H 0 1 N N N 112.998 157.781 39.705  1.059 -1.371 -0.936  H2 57H  7
+57H  H3 H3 H 0 1 N N N 114.055 157.363 38.315  0.737  0.093 -1.897  H3 57H  8
+57H  H5 H5 H 0 1 N Y N 115.129 153.979 39.151 -1.222  1.878 -0.890  H5 57H  9
+57H  C1 C2 C 0 1 N N N       ?       ?      ?  1.980  0.405 -0.190  C1 57H 10
+57H  C2 C3 C 0 1 N N N       ?       ?      ?  3.053 -0.262  0.157  C2 57H 11
+57H  H4 H4 H 0 1 N N N       ?       ?      ?  1.907  1.461  0.023  H4 57H 12
+57H  H6 H6 H 0 1 N N N       ?       ?      ?  3.125 -1.318 -0.057  H6 57H 13
+57H  H7 H7 H 0 1 N N N       ?       ?      ?  3.865  0.245  0.656  H7 57H 14
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+57H OAB PAG DOUB N N  1
+57H CAF PAG SING N N  2
+57H PAG OAD SING N N  3
+57H PAG  O1 SING N N  4
+57H OAD  H1 SING N N  5
+57H CAF  H2 SING N N  6
+57H CAF  H3 SING N N  7
+57H  O1  H5 SING N N  8
+57H CAF  C1 SING N N  9
+57H  C1  C2 DOUB N N 10
+57H  C1  H4 SING N N 11
+57H  C2  H6 SING N N 12
+57H  C2  H7 SING N N 13
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+57H           SMILES              ACDLabs 12.01                                     P(O)(O)(=O)C\C=C
+57H            InChI                InChI  1.03 InChI=1S/C3H7O3P/c1-2-3-7(4,5)6/h2H,1,3H2,(H2,4,5,6)
+57H         InChIKey                InChI  1.03                          RZKYDQNMAUSEDZ-UHFFFAOYSA-N
+57H SMILES_CANONICAL               CACTVS 3.385                                      O[P](O)(=O)CC=C
+57H           SMILES               CACTVS 3.385                                      O[P](O)(=O)CC=C
+57H SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2                                        C=CCP(=O)(O)O
+57H           SMILES "OpenEye OEToolkits" 1.9.2                                        C=CCP(=O)(O)O
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+57H "SYSTEMATIC NAME"              ACDLabs 12.01 "prop-2-en-1-ylphosphonic acid"
+57H "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2    "prop-2-enylphosphonic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+57H "Create component" 2015-08-07 RCSB LD ?
+57H  "Initial release" 2015-12-09 RCSB  ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+57H PAG P 5.104 -0.403 1
+57H OAD O 3.805 -1.153 2
+57H OAB O 4.354  0.896 3
+57H CAF C 6.404  0.347 4
+57H  O1 O 5.854 -1.702 5
+57H  C1 C 7.702 -0.403 6
+57H  C2 C 9.002  0.347 7
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+57H OAB PAG DOUBLE NONE 1
+57H CAF PAG SINGLE NONE 2
+57H PAG OAD SINGLE NONE 3
+57H PAG  O1 SINGLE NONE 4
+57H CAF  C1 SINGLE NONE 5
+57H  C1  C2 DOUBLE NONE 6
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               57H
+_pdbe_chem_comp_rdkit_properties.exactmw                               122.013
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.333
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             51.839
+_pdbe_chem_comp_rdkit_properties.tpsa                                  57.530
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.350
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             27.108
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+57H UniChem   ZINC ZINC000025695689
+57H UniChem BRENDA           210223
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+57H PAG  0.914 -0.585  0.933 ETKDGv2  1
+57H OAD  0.359  0.627  1.976 ETKDGv2  2
+57H OAB  2.409 -0.742  1.093 ETKDGv2  3
+57H CAF  0.536 -0.133 -0.786 ETKDGv2  4
+57H  O1  0.152 -2.047  1.312 ETKDGv2  5
+57H  H1  0.808  1.454  1.667 ETKDGv2  6
+57H  H2  1.082  0.801 -1.039 ETKDGv2  7
+57H  H3  0.891 -0.941 -1.460 ETKDGv2  8
+57H  H5  0.331 -2.183  2.277 ETKDGv2  9
+57H  C1 -0.947  0.031 -0.954 ETKDGv2 10
+57H  C2 -1.493  1.195 -1.315 ETKDGv2 11
+57H  H4 -1.593 -0.825 -0.779 ETKDGv2 12
+57H  H6 -2.569  1.276 -1.428 ETKDGv2 13
+57H  H7 -0.880  2.072 -1.498 ETKDGv2 14
+#

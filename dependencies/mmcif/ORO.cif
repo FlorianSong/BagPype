@@ -1,0 +1,303 @@
+data_ORO
+#
+_chem_comp.id                                        ORO
+_chem_comp.name                                      "OROTIC ACID"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C5 H4 N2 O4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            156.096
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         ORO
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1D3G
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+ORO  N1  N1 N 0 1 Y N N 41.864 32.767 4.711  1.126  0.005  0.042  N1 ORO  1
+ORO  C2  C2 C 0 1 Y N N 40.857 33.656 5.061  1.193 -0.001 -1.299  C2 ORO  2
+ORO  O2  O2 O 0 1 N N N 40.244 34.314 4.225  2.284 -0.001 -1.836  O2 ORO  3
+ORO  N3  N3 N 0 1 Y N N 40.585 33.763 6.410  0.088 -0.000 -2.063  N3 ORO  4
+ORO  C4  C4 C 0 1 Y N N 41.209 33.080 7.435 -1.135 -0.000 -1.495  C4 ORO  5
+ORO  O4  O4 O 0 1 N N N 40.885 33.237 8.597 -2.138  0.000 -2.184  O4 ORO  6
+ORO  C5  C5 C 0 1 Y N N 42.243 32.159 7.006 -1.236 -0.000 -0.030  C5 ORO  7
+ORO  C6  C6 C 0 1 Y N N 42.525 32.066 5.699 -0.087 -0.000  0.695  C6 ORO  8
+ORO  C7  C7 C 0 1 N N N 43.565 31.079 5.191 -0.139 -0.000  2.177  C7 ORO  9
+ORO O71 O71 O 0 1 N N N 44.647 30.922 5.742 -1.211 -0.000  2.746 O71 ORO 10
+ORO O72 O72 O 0 1 N N N 43.070 30.456 4.222  1.002 -0.000  2.891 O72 ORO 11
+ORO HN1 HN1 H 0 1 N N N 42.553 33.262 4.146  1.945  0.004  0.561 HN1 ORO 12
+ORO HN3 HN3 H 0 1 N N N 39.846 34.414 6.677  0.170 -0.000 -3.030 HN3 ORO 13
+ORO  H5  H5 H 0 1 N N N 42.826 31.516 7.687 -2.199 -0.000  0.457  H5 ORO 14
+ORO HO7 HO7 H 0 1 N N N 43.719 29.839 3.904  0.968 -0.000  3.857 HO7 ORO 15
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+ORO  N1  C2 SING Y N  1
+ORO  N1  C6 SING Y N  2
+ORO  N1 HN1 SING N N  3
+ORO  C2  O2 DOUB N N  4
+ORO  C2  N3 SING Y N  5
+ORO  N3  C4 SING Y N  6
+ORO  N3 HN3 SING N N  7
+ORO  C4  O4 DOUB N N  8
+ORO  C4  C5 SING Y N  9
+ORO  C5  C6 DOUB Y N 10
+ORO  C5  H5 SING N N 11
+ORO  C6  C7 SING N N 12
+ORO  C7 O71 DOUB N N 13
+ORO  C7 O72 SING N N 14
+ORO O72 HO7 SING N N 15
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+ORO           SMILES              ACDLabs 10.04                                                O=C(O)C1=CC(=O)NC(=O)N1
+ORO SMILES_CANONICAL               CACTVS 3.341                                                OC(=O)C1=CC(=O)NC(=O)N1
+ORO           SMILES               CACTVS 3.341                                                OC(=O)C1=CC(=O)NC(=O)N1
+ORO SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                C1=C(NC(=O)NC1=O)C(=O)O
+ORO           SMILES "OpenEye OEToolkits" 1.5.0                                                C1=C(NC(=O)NC1=O)C(=O)O
+ORO            InChI                InChI  1.03 InChI=1S/C5H4N2O4/c8-3-1-2(4(9)10)6-5(11)7-3/h1H,(H,9,10)(H2,6,7,8,11)
+ORO         InChIKey                InChI  1.03                                            PXQPEWDEAKTCGB-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+ORO "SYSTEMATIC NAME"              ACDLabs 10.04 "2,6-dioxo-1,2,3,6-tetrahydropyrimidine-4-carboxylic acid"
+ORO "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0                "2,6-dioxo-3H-pyrimidine-4-carboxylic acid"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+ORO  "Create component" 1999-07-08 RCSB ? ?
+ORO "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   ORO
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02262
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      "Orotic Acid"
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                65-86-1
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           ORO
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02262
+_pdbe_chem_comp_drugbank_classification.parent            "Pyrimidinecarboxylic acids"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             Diazines
+_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as pyrimidinecarboxylic acids. These are pyrimidines with a structure containing a carboxyl group attached to the pyrimidine ring."
+
+#
+loop_
+_pdbe_chem_comp_drugbank_targets.comp_id                        
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    
+_pdbe_chem_comp_drugbank_targets.name                           
+_pdbe_chem_comp_drugbank_targets.organism                       
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
+_pdbe_chem_comp_drugbank_targets.ordinal                        
+ORO DB02262             "Dihydroorotate dehydrogenase A (fumarate)"                           "Lactococcus lactis subsp. cremoris" Q53ZE5 unknown 1
+ORO DB02262                     "Orotate phosphoribosyltransferase" "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)" P08870 unknown 2
+ORO DB02262 "Dihydroorotate dehydrogenase (quinone), mitochondrial"                                                         Humans Q02127 unknown 3
+ORO DB02262                "Dihydroorotate dehydrogenase (quinone)"                                "Escherichia coli (strain K12)" P0A7E1 unknown 4
+ORO DB02262                                          Dihydroorotase                                "Escherichia coli (strain K12)" P05020 unknown 5
+#
+_pdbx_chem_comp_synonyms.comp_id          ORO
+_pdbx_chem_comp_synonyms.name             "Orotic Acid"
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+ORO  N1 N  7.702 -1.500  1
+ORO  C2 C  9.002 -0.750  2
+ORO  O2 O 10.301 -1.500  3
+ORO  N3 N  9.002  0.750  4
+ORO  C4 C  7.702  1.500  5
+ORO  O4 O  7.702  3.000  6
+ORO  C5 C  6.404  0.750  7
+ORO  C6 C  6.404 -0.750  8
+ORO  C7 C  5.104 -1.500  9
+ORO O71 O  3.805 -0.750 10
+ORO O72 O  5.104 -3.000 11
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+ORO N1  C2 SINGLE NONE  1
+ORO N1  C6 SINGLE NONE  2
+ORO C2  O2 DOUBLE NONE  3
+ORO C2  N3 SINGLE NONE  4
+ORO N3  C4 SINGLE NONE  5
+ORO C4  O4 DOUBLE NONE  6
+ORO C4  C5 SINGLE NONE  7
+ORO C5  C6 DOUBLE NONE  8
+ORO C6  C7 SINGLE NONE  9
+ORO C7 O71 DOUBLE NONE 10
+ORO C7 O72 SINGLE NONE 11
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+ORO MurckoScaffold S1 scaffold O=c1cc[nH]c(=O)[nH]1 InChI=1S/C4H4N2O2/c7-3-1-2-5-4(8)6-3/h1-2H,(H2,5,6,7,8) ISAKRJDGNUQOIC-UHFFFAOYSA-N
+ORO     pyrimidine F1 fragment             c1cncnc1                    InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+ORO C5 F1 1
+ORO C4 F1 1
+ORO N3 F1 1
+ORO C2 F1 1
+ORO N1 F1 1
+ORO C6 F1 1
+ORO N1 S1 1
+ORO C2 S1 1
+ORO O2 S1 1
+ORO N3 S1 1
+ORO C4 S1 1
+ORO O4 S1 1
+ORO C5 S1 1
+ORO C6 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               ORO
+_pdbe_chem_comp_rdkit_properties.exactmw                               156.017
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                3
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             65.337
+_pdbe_chem_comp_rdkit_properties.tpsa                                  103.020
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.506
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             34.593
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+ORO UniChem        ChEMBL    CHEMBL1235017
+ORO UniChem      DrugBank          DB02262
+ORO UniChem "KEGG LIGAND"           C00295
+ORO UniChem         ChEBI            16742
+ORO UniChem          ZINC ZINC000001408068
+ORO UniChem    NMRShiftDB         20027358
+ORO UniChem  MetaboLights       MTBLC16742
+ORO UniChem        BRENDA            12642
+ORO UniChem        BRENDA           163082
+ORO UniChem        BRENDA              446
+ORO UniChem        BRENDA            68893
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+ORO  N1  0.141  1.115  0.116 ETKDGv2  1
+ORO  C2 -1.254  1.432  0.155 ETKDGv2  2
+ORO  O2 -1.632  2.627  0.280 ETKDGv2  3
+ORO  N3 -2.215  0.382  0.051 ETKDGv2  4
+ORO  C4 -1.755 -0.964 -0.090 ETKDGv2  5
+ORO  O4 -2.584 -1.907 -0.183 ETKDGv2  6
+ORO  C5 -0.310 -1.245 -0.126 ETKDGv2  7
+ORO  C6  0.588 -0.247 -0.027 ETKDGv2  8
+ORO  C7  2.040 -0.533 -0.063 ETKDGv2  9
+ORO O71  2.463 -1.715 -0.187 ETKDGv2 10
+ORO O72  2.956  0.510  0.040 ETKDGv2 11
+ORO HN1  0.835  1.893  0.193 ETKDGv2 12
+ORO HN3 -3.238  0.593  0.078 ETKDGv2 13
+ORO  H5  0.012 -2.274 -0.233 ETKDGv2 14
+ORO HO7  3.953  0.332  0.017 ETKDGv2 15
+#

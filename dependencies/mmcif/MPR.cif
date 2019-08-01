@@ -1,0 +1,198 @@
+data_MPR
+#
+_chem_comp.id                                        MPR
+_chem_comp.name                                      "2-MERCAPTO-PROPION ALDEHYDE"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C3 H6 O S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            90.144
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         MPR
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1ETN
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+MPR  C1  C1 C 0 1 N N N 5.806 3.753 -0.877  0.256  0.318 -1.927  C1 MPR  1
+MPR   O   O O 0 1 N N N 6.480 3.537  0.121 -0.192 -0.391 -2.795   O MPR  2
+MPR  C2  C2 C 0 1 N N N 6.239 3.406 -2.252 -0.393  0.349 -0.568  C2 MPR  3
+MPR  C3  C3 C 0 1 N N N 7.726 3.789 -2.579  0.619 -0.089  0.490  C3 MPR  4
+MPR  S3  S3 S 0 1 N N N 7.926 5.570 -2.862 -0.162 -0.052  2.127  S3 MPR  5
+MPR  H1  H1 H 0 1 N N N 4.865 4.231 -0.556  1.123  0.931 -2.126  H1 MPR  6
+MPR H21 1H2 H 0 1 N N N 5.596 3.896 -2.969 -1.246 -0.329 -0.558 H21 MPR  7
+MPR H22 2H2 H 0 1 N N N 6.127 2.324 -2.391 -0.731  1.361 -0.350 H22 MPR  8
+MPR H31 1H3 H 0 1 N N N 8.363 3.478 -1.751  1.472  0.589  0.480 H31 MPR  9
+MPR H32 2H3 H 0 1 N N N 8.060 3.249 -3.463  0.958 -1.102  0.272 H32 MPR 10
+MPR HS3 HS3 H 0 1 N N N 8.825 5.801 -3.059  0.869 -0.459  2.888 HS3 MPR 11
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+MPR C1   O DOUB N N  1
+MPR C1  C2 SING N N  2
+MPR C1  H1 SING N N  3
+MPR C2  C3 SING N N  4
+MPR C2 H21 SING N N  5
+MPR C2 H22 SING N N  6
+MPR C3  S3 SING N N  7
+MPR C3 H31 SING N N  8
+MPR C3 H32 SING N N  9
+MPR S3 HS3 SING N N 10
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+MPR           SMILES              ACDLabs 10.04                                 O=CCCS
+MPR SMILES_CANONICAL               CACTVS 3.341                                 SCCC=O
+MPR           SMILES               CACTVS 3.341                                 SCCC=O
+MPR SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                               C(CS)C=O
+MPR           SMILES "OpenEye OEToolkits" 1.5.0                               C(CS)C=O
+MPR            InChI                InChI  1.03 InChI=1S/C3H6OS/c4-2-1-3-5/h2,5H,1,3H2
+MPR         InChIKey                InChI  1.03            BMYLOHDOJPEVOR-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+MPR "SYSTEMATIC NAME"              ACDLabs 10.04 3-sulfanylpropanal
+MPR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 3-sulfanylpropanal
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+MPR  "Create component" 1999-07-08 RCSB ? ?
+MPR "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+MPR C1 C 6.897 -0.090 1
+MPR  O O 8.196 -0.840 2
+MPR C2 C 5.598 -0.840 3
+MPR C3 C 4.299 -0.090 4
+MPR S3 S 3.000 -0.840 5
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+MPR C1  O DOUBLE NONE 1
+MPR C1 C2 SINGLE NONE 2
+MPR C2 C3 SINGLE NONE 3
+MPR C3 S3 SINGLE NONE 4
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               MPR
+_pdbe_chem_comp_rdkit_properties.exactmw                               90.014
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             44.896
+_pdbe_chem_comp_rdkit_properties.tpsa                                  17.070
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.505
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             24.534
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         5
+
+#
+_pdbe_chem_comp_external_mappings.comp_id           MPR
+_pdbe_chem_comp_external_mappings.source            UniChem
+_pdbe_chem_comp_external_mappings.resource          ChEMBL
+_pdbe_chem_comp_external_mappings.resource_id       CHEMBL1234445
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+MPR  C1 -1.256  0.650  0.818 ETKDGv2  1
+MPR   O -1.498  0.267  1.951 ETKDGv2  2
+MPR  C2 -0.597 -0.266 -0.171 ETKDGv2  3
+MPR  C3  0.825 -0.638  0.257 ETKDGv2  4
+MPR  S3  1.925  0.816  0.254 ETKDGv2  5
+MPR  H1 -1.531  1.657  0.522 ETKDGv2  6
+MPR H21 -1.205 -1.191 -0.264 ETKDGv2  7
+MPR H22 -0.571  0.224 -1.168 ETKDGv2  8
+MPR H31  0.815 -1.087  1.273 ETKDGv2  9
+MPR H32  1.233 -1.393 -0.448 ETKDGv2 10
+MPR HS3  1.860  0.961 -1.145 ETKDGv2 11
+#

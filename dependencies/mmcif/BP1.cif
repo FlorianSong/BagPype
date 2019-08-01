@@ -1,0 +1,298 @@
+data_BP1
+#
+_chem_comp.id                                        BP1
+_chem_comp.name                                      6-BROMO-7H-PURINE
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C5 H3 Br N4"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             BROMOPURINE
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2004-02-24
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            199.008
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         BP1
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1S2I
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+BP1  N9  N9  N 0 1 Y N N  1.315 -3.075 -24.355 -0.778 -0.000  2.987  N9 BP1  1
+BP1  C4  C4  C 0 1 Y N N  1.838 -4.363 -24.460  0.233 -0.000  2.099  C4 BP1  2
+BP1  N3  N3  N 0 1 Y N N  2.773 -4.859 -25.387  1.563 -0.000  2.195  N3 BP1  3
+BP1  C2  C2  C 0 1 Y N N  3.076 -6.192 -25.207  2.309 -0.000  1.112  C2 BP1  4
+BP1  N1  N1  N 0 1 Y N N  2.523 -7.011 -24.212  1.793 -0.000 -0.103  N1 BP1  5
+BP1  C6  C6  C 0 1 Y N N  1.589 -6.492 -23.295  0.481 -0.000 -0.292  C6 BP1  6
+BP1  BR  BR BR 0 0 N N N  1.051 -7.331 -22.301 -0.240 -0.000 -2.040  BR BP1  7
+BP1  C5  C5  C 0 1 Y N N  1.203 -5.084 -23.402 -0.350  0.005  0.816  C5 BP1  8
+BP1  N7  N7  N 0 1 Y N N  0.326 -4.263 -22.674 -1.714 -0.000  1.019  N7 BP1  9
+BP1  C8  C8  C 0 1 Y N N  0.446 -3.096 -23.296 -1.919 -0.000  2.356  C8 BP1 10
+BP1  H2  H2  H 0 1 N N N  3.809 -6.632 -25.904  3.383 -0.000  1.220  H2 BP1 11
+BP1 HN7 HN7  H 0 1 N N N -0.267 -4.469 -21.870 -2.398 -0.000  0.332 HN7 BP1 12
+BP1  H8  H8  H 0 1 N N N -0.129 -2.216 -22.961 -2.889 -0.001  2.832  H8 BP1 13
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+BP1 N9  C4 SING Y N  1
+BP1 N9  C8 DOUB Y N  2
+BP1 C4  N3 DOUB Y N  3
+BP1 C4  C5 SING Y N  4
+BP1 N3  C2 SING Y N  5
+BP1 C2  N1 DOUB Y N  6
+BP1 C2  H2 SING N N  7
+BP1 N1  C6 SING Y N  8
+BP1 C6  BR SING N N  9
+BP1 C6  C5 DOUB Y N 10
+BP1 C5  N7 SING Y N 11
+BP1 N7  C8 SING Y N 12
+BP1 N7 HN7 SING N N 13
+BP1 C8  H8 SING N N 14
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+BP1           SMILES              ACDLabs 10.04                                                Brc1ncnc2ncnc12
+BP1 SMILES_CANONICAL               CACTVS 3.341                                             Brc1ncnc2nc[nH]c12
+BP1           SMILES               CACTVS 3.341                                             Brc1ncnc2nc[nH]c12
+BP1 SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                           c1[nH]c2c(n1)ncnc2Br
+BP1           SMILES "OpenEye OEToolkits" 1.5.0                                           c1[nH]c2c(n1)ncnc2Br
+BP1            InChI                InChI  1.03 InChI=1S/C5H3BrN4/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H,7,8,9,10)
+BP1         InChIKey                InChI  1.03                                    CTGFGRDVWBZYNB-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+BP1 "SYSTEMATIC NAME"              ACDLabs 10.04 6-bromo-7H-purine
+BP1 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 6-bromo-7H-purine
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+BP1  "Create component" 2004-02-24 RCSB ? ?
+BP1 "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbe_chem_comp_drugbank_details.comp_id                   BP1
+_pdbe_chem_comp_drugbank_details.drugbank_id               DB02168
+_pdbe_chem_comp_drugbank_details.type                      "small molecule"
+_pdbe_chem_comp_drugbank_details.name                      Bromopurine
+_pdbe_chem_comp_drugbank_details.description               .
+_pdbe_chem_comp_drugbank_details.cas_number                767-69-1
+_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
+
+#
+_pdbe_chem_comp_drugbank_classification.comp_id           BP1
+_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02168
+_pdbe_chem_comp_drugbank_classification.parent            "Purines and purine derivatives"
+_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
+_pdbe_chem_comp_drugbank_classification.class             Imidazopyrimidines
+_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
+_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as purines and purine derivatives. These are aromatic heterocyclic compounds containing a purine moiety, which is formed a pyrimidine-ring ring fused to an imidazole ring."
+
+#
+_pdbe_chem_comp_drugbank_targets.comp_id                        BP1
+_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02168
+_pdbe_chem_comp_drugbank_targets.name                           "Nucleoside 2-deoxyribosyltransferase"
+_pdbe_chem_comp_drugbank_targets.organism                       "Lactobacillus helveticus"
+_pdbe_chem_comp_drugbank_targets.uniprot_id                     Q8RLY5
+_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
+_pdbe_chem_comp_drugbank_targets.ordinal                        1
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+BP1 N9  N 7.823 -1.957  1
+BP1 C4  C 6.404 -1.500  2
+BP1 N3  N 5.104 -2.250  3
+BP1 C2  C 3.805 -1.500  4
+BP1 N1  N 3.805  0.000  5
+BP1 C6  C 5.104  0.750  6
+BP1 BR Br 5.104  2.250  7
+BP1 C5  C 6.404  0.000  8
+BP1 N7  N 7.823  0.457  9
+BP1 C8  C 8.698 -0.750 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+BP1 N9 C4 SINGLE NONE  1
+BP1 N9 C8 DOUBLE NONE  2
+BP1 C4 N3 DOUBLE NONE  3
+BP1 C4 C5 SINGLE NONE  4
+BP1 N3 C2 SINGLE NONE  5
+BP1 C2 N1 DOUBLE NONE  6
+BP1 N1 C6 SINGLE NONE  7
+BP1 C6 BR SINGLE NONE  8
+BP1 C6 C5 DOUBLE NONE  9
+BP1 C5 N7 SINGLE NONE 10
+BP1 N7 C8 SINGLE NONE 11
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+BP1 MurckoScaffold S1 scaffold c1ncc2[nH]cnc2n1 InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
+BP1      imidazole F1 fragment       c1c[nH]cn1               InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
+BP1         purine F2 fragment c1ncc2[nH]cnc2n1 InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
+BP1     pyrimidine F3 fragment         c1cncnc1                     InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+BP1 C4 F1 1
+BP1 C5 F1 1
+BP1 N7 F1 1
+BP1 C8 F1 1
+BP1 N9 F1 1
+BP1 N7 F2 1
+BP1 C8 F2 1
+BP1 N9 F2 1
+BP1 C4 F2 1
+BP1 C5 F2 1
+BP1 C6 F2 1
+BP1 N1 F2 1
+BP1 C2 F2 1
+BP1 N3 F2 1
+BP1 C5 F3 1
+BP1 C4 F3 1
+BP1 N3 F3 1
+BP1 C2 F3 1
+BP1 N1 F3 1
+BP1 C6 F3 1
+BP1 N9 S1 1
+BP1 C4 S1 1
+BP1 N3 S1 1
+BP1 C2 S1 1
+BP1 N1 S1 1
+BP1 C6 S1 1
+BP1 C5 S1 1
+BP1 N7 S1 1
+BP1 C8 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               BP1
+_pdbe_chem_comp_rdkit_properties.exactmw                               197.954
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                3
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              2
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             69.122
+_pdbe_chem_comp_rdkit_properties.tpsa                                  54.460
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.687
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             37.178
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+BP1 UniChem   ChEMBL    CHEMBL1231430
+BP1 UniChem DrugBank          DB02168
+BP1 UniChem     ZINC ZINC000005783717
+BP1 UniChem     ZINC     ZINC05783717
+BP1 UniChem   BRENDA            31750
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+BP1  N9  1.149 -1.736 -0.129 ETKDGv2  1
+BP1  C4 -0.064 -1.001 -0.088 ETKDGv2  2
+BP1  N3 -1.273 -1.468 -0.152 ETKDGv2  3
+BP1  C2 -2.362 -0.516 -0.090 ETKDGv2  4
+BP1  N1 -2.119  0.770  0.026 ETKDGv2  5
+BP1  C6 -0.765  1.275  0.096 ETKDGv2  6
+BP1  BR -0.429  3.146  0.265 ETKDGv2  7
+BP1  C5  0.216  0.380  0.037 ETKDGv2  8
+BP1  N7  1.620  0.529  0.077 ETKDGv2  9
+BP1  C8  2.088 -0.830 -0.032 ETKDGv2 10
+BP1  H2 -3.384 -0.866 -0.141 ETKDGv2 11
+BP1 HN7  2.184  1.403  0.164 ETKDGv2 12
+BP1  H8  3.139 -1.087 -0.034 ETKDGv2 13
+#

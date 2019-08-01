@@ -1,0 +1,191 @@
+data_ARF
+#
+_chem_comp.id                                        ARF
+_chem_comp.name                                      FORMAMIDE
+_chem_comp.type                                      "L-peptide NH3 amino terminus"
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C H3 N O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2006-09-21
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       ?
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            45.041
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         ARF
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+ARF   N   N N 0 1 N N N 19.174 18.470 -23.140  0.982 -0.250 -0.049   N ARF 1
+ARF   C   C C 0 1 N N N 19.117 19.151 -24.221  1.566 -1.032  0.912   C ARF 2
+ARF   O   O O 0 1 N N N 18.842 20.454 -24.189  1.014 -1.504  1.898   O ARF 3
+ARF HN1 1HN H 0 1 N N N 18.992 19.039 -22.338 -0.003 -0.020  0.032 HN1 ARF 4
+ARF HN2 2HN H 0 1 N N N 19.376 17.491 -23.101  1.509  0.106 -0.840 HN2 ARF 5
+ARF   H   H H 0 1 N N N 19.294 18.665 -25.169  2.634 -1.199  0.697   H ARF 6
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+ARF N   C SING N N 1
+ARF N HN1 SING N N 2
+ARF N HN2 SING N N 3
+ARF C   O DOUB N N 4
+ARF C   H SING N N 5
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+ARF           SMILES              ACDLabs 10.04                               O=CN
+ARF SMILES_CANONICAL               CACTVS 3.341                               NC=O
+ARF           SMILES               CACTVS 3.341                               NC=O
+ARF SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                             C(=O)N
+ARF           SMILES "OpenEye OEToolkits" 1.5.0                             C(=O)N
+ARF            InChI                InChI  1.03 InChI=1S/CH3NO/c2-1-3/h1H,(H2,2,3)
+ARF         InChIKey                InChI  1.03        ZHNUHDYFZUAESO-UHFFFAOYSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+ARF "SYSTEMATIC NAME"              ACDLabs 10.04   formamide
+ARF "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 methanamide
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+ARF  "Create component" 2006-09-21 RCSB ? ?
+ARF "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+_pdbx_chem_comp_synonyms.comp_id          ARF
+_pdbx_chem_comp_synonyms.name             Formamide
+_pdbx_chem_comp_synonyms.provenance       ChEMBL
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+ARF N N 6.404  0.375 1
+ARF C C 5.104 -0.375 2
+ARF O O 3.805  0.375 3
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+ARF N C SINGLE NONE 1
+ARF C O DOUBLE NONE 2
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               ARF
+_pdbe_chem_comp_rdkit_properties.exactmw                               45.021
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                1
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             22.572
+_pdbe_chem_comp_rdkit_properties.tpsa                                  43.090
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.899
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             10.251
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         3
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+ARF UniChem        ChEMBL CHEMBL266160
+ARF UniChem "KEGG LIGAND"       C00488
+ARF UniChem         ChEBI        16397
+ARF UniChem         ChEBI        48431
+ARF UniChem    NMRShiftDB     10016881
+ARF UniChem        BRENDA         3075
+ARF UniChem          Rhea        16397
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+ARF   N  0.727  0.035  0.088 ETKDGv2 1
+ARF   C -0.680 -0.076 -0.103 ETKDGv2 2
+ARF   O -1.445  0.852  0.270 ETKDGv2 3
+ARF HN1  1.358 -0.736 -0.222 ETKDGv2 4
+ARF HN2  1.136  0.885  0.537 ETKDGv2 5
+ARF   H -1.095 -0.960 -0.569 ETKDGv2 6
+#

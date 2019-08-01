@@ -1,0 +1,248 @@
+data_PRI
+#
+_chem_comp.id                                        PRI
+_chem_comp.name                                      PYRROLIDINE-2-CARBALDEHYDE
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C5 H9 N O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             PROLINOL
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         2001-05-14
+_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       REL
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            99.131
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         PRI
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1H4Q
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+PRI     CB     CB C 0 1 N N N 23.807 104.313 101.000  1.279 -0.027  0.642     CB PRI  1
+PRI     CG     CG C 0 1 N N N 22.931 104.386  99.743  0.513 -0.388  1.931     CG PRI  2
+PRI      C      C C 0 1 N N N 22.421 105.200 102.903  0.470  0.182 -1.719      C PRI  3
+PRI    OT1    OT1 O 0 1 N N N 21.428 105.086 103.661 -0.361 -0.455 -2.318    OT1 PRI  4
+PRI      N      N N 0 1 N N N 21.588 103.405 101.412 -1.074  0.047  0.186      N PRI  5
+PRI     CD     CD C 0 1 N N N 21.752 103.424  99.948 -0.944  0.046  1.667     CD PRI  6
+PRI     CA     CA C 0 1 N N S 22.790 103.968 102.082  0.220  0.595 -0.292     CA PRI  7
+PRI   HCB1   1HCB H 0 0 N N N 24.418 105.224 101.201  1.703 -0.924  0.189   HCB1 PRI  8
+PRI   HCB2   2HCB H 0 0 N N N 24.674 103.616 100.930  2.065  0.695  0.858   HCB2 PRI  9
+PRI   HCG1   1HCG H 0 0 N N N 23.499 104.185  98.805  0.561 -1.462  2.111   HCG1 PRI 10
+PRI   HCG2   2HCG H 0 0 N N N 22.608 105.424  99.497  0.923  0.157  2.781   HCG2 PRI 11
+PRI "HO'T" "THO'" H 0 0 N N N 22.884 106.199 102.949  1.396  0.452 -2.206 "HO'T" PRI 12
+PRI     HN     HN H 0 1 N N N 20.735 103.882 101.703 -1.783  0.727 -0.042     HN PRI 13
+PRI   HCD1   1HCD H 0 0 N N N 21.885 102.420  99.482 -1.639 -0.665  2.110   HCD1 PRI 14
+PRI   HCD2   2HCD H 0 0 N N N 20.830 103.691  99.380 -1.119  1.047  2.062   HCD2 PRI 15
+PRI    HCA    AHC H 0 1 N N N 23.225 103.196 102.759  0.228  1.682 -0.205    HCA PRI 16
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+PRI CB     CG SING N N  1
+PRI CB     CA SING N N  2
+PRI CB   HCB1 SING N N  3
+PRI CB   HCB2 SING N N  4
+PRI CG     CD SING N N  5
+PRI CG   HCG1 SING N N  6
+PRI CG   HCG2 SING N N  7
+PRI  C    OT1 DOUB N N  8
+PRI  C     CA SING N N  9
+PRI  C "HO'T" SING N N 10
+PRI  N     CD SING N N 11
+PRI  N     CA SING N N 12
+PRI  N     HN SING N N 13
+PRI CD   HCD1 SING N N 14
+PRI CD   HCD2 SING N N 15
+PRI CA    HCA SING N N 16
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+PRI           SMILES              ACDLabs 10.04                                             O=CC1NCCC1
+PRI SMILES_CANONICAL               CACTVS 3.341                                        O=C[C@@H]1CCCN1
+PRI           SMILES               CACTVS 3.341                                          O=C[CH]1CCCN1
+PRI SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                       C1C[C@H](NC1)C=O
+PRI           SMILES "OpenEye OEToolkits" 1.5.0                                           C1CC(NC1)C=O
+PRI            InChI                InChI  1.03 InChI=1S/C5H9NO/c7-4-5-2-1-3-6-5/h4-6H,1-3H2/t5-/m0/s1
+PRI         InChIKey                InChI  1.03                            JIDDDPVQQUHACU-YFKPBYRVSA-N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+PRI "SYSTEMATIC NAME"              ACDLabs 10.04 (2S)-pyrrolidine-2-carbaldehyde
+PRI "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 (2S)-pyrrolidine-2-carbaldehyde
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+_pdbx_chem_comp_audit.annotator             
+_pdbx_chem_comp_audit.details               
+PRI  "Create component" 2001-05-14  EBI ? ?
+PRI "Modify descriptor" 2011-06-04 RCSB ? ?
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+PRI  CB C 4.213 -0.689 1
+PRI  CG C 3.000  0.193 2
+PRI   C C 6.854 -0.271 3
+PRI OT1 O 7.968  0.733 4
+PRI   N N 4.963  1.619 5
+PRI  CD C 3.463  1.619 6
+PRI  CA C 5.427  0.193 7
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+PRI CB  CG SINGLE       NONE 1
+PRI CB  CA SINGLE       NONE 2
+PRI CG  CD SINGLE       NONE 3
+PRI  C OT1 DOUBLE       NONE 4
+PRI  C  CA SINGLE BEGINWEDGE 5
+PRI  N  CD SINGLE       NONE 6
+PRI  N  CA SINGLE       NONE 7
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+PRI MurckoScaffold S1 scaffold C1CCNC1 InChI=1S/C4H9N/c1-2-4-5-3-1/h5H,1-4H2 RWRDLPDLKQPQOW-UHFFFAOYSA-N
+PRI        peptide F1 fragment   NCC=O    InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+PRI OT1 F1 1
+PRI   C F1 1
+PRI  CA F1 1
+PRI   N F1 1
+PRI  CB S1 1
+PRI  CG S1 1
+PRI   N S1 1
+PRI  CD S1 1
+PRI  CA S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               PRI
+_pdbe_chem_comp_rdkit_properties.exactmw                               99.068
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.800
+_pdbe_chem_comp_rdkit_properties.NumRings                              1
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             55.607
+_pdbe_chem_comp_rdkit_properties.tpsa                                  29.100
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.063
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             27.089
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+PRI UniChem ChEMBL    CHEMBL1235434
+PRI UniChem   ZINC ZINC000005849612
+PRI UniChem BRENDA           102865
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+PRI     CB  0.011 -1.047 -0.483 ETKDGv2  1
+PRI     CG -1.112 -0.771  0.486 ETKDGv2  2
+PRI      C  2.082  0.172  0.233 ETKDGv2  3
+PRI    OT1  2.068 -0.031  1.437 ETKDGv2  4
+PRI      N -0.037  1.327  0.017 ETKDGv2  5
+PRI     CD -1.319  0.726  0.388 ETKDGv2  6
+PRI     CA  0.799  0.261 -0.546 ETKDGv2  7
+PRI   HCB1 -0.417 -1.271 -1.486 ETKDGv2  8
+PRI   HCB2  0.623 -1.917 -0.157 ETKDGv2  9
+PRI   HCG1 -2.034 -1.333  0.220 ETKDGv2 10
+PRI   HCG2 -0.793 -1.040  1.517 ETKDGv2 11
+PRI "HO'T"  3.033  0.295 -0.276 ETKDGv2 12
+PRI     HN -0.205  2.059 -0.714 ETKDGv2 13
+PRI   HCD1 -1.663  1.139  1.360 ETKDGv2 14
+PRI   HCD2 -2.088  0.944 -0.389 ETKDGv2 15
+PRI    HCA  1.052  0.486 -1.608 ETKDGv2 16
+#
