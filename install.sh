@@ -20,7 +20,7 @@ rm -r mmcif*
 chmod +x dependencies/reduce
 
 # This bit changes the settings.py file so that no modification there is necessary
-line="DEPENDENCIES_ROOT = '$PWD/dependencies' # Modify this line"
-sed -i "2s|.*|$line|" $PWD/bagpype/settings.py
+# line="DEPENDENCIES_ROOT = '$PWD/dependencies' # Modify this line"
+# sed -i "2s|.*|$line|" $PWD/bagpype/settings.py
 
 #python proteingraph/setup.py install

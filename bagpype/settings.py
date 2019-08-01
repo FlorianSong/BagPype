@@ -1,5 +1,9 @@
 # Directories for command line calls to reduce
-DEPENDENCIES_ROOT = '/home/fv611/Documents/code_shared/bagpype/dependencies' # Modify this line
+# DEPENDENCIES_ROOT = '/home/florian/Desktop/workcode/bagpype_official/dependencies' # Modify this line
+import os
+import bagpype
+
+DEPENDENCIES_ROOT = os.path.dirname(os.path.dirname(bagpype.__file__)) + "/dependencies"
 REDUCE = DEPENDENCIES_ROOT + '/reduce'
 
 # Names for amino acids you would like automatically removed
