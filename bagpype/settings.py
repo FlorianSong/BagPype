@@ -1,7 +1,7 @@
 # Directories for command line calls to reduce
 DEPENDENCIES_ROOT = '/home/fv611/Documents/code_shared/bagpype/dependencies' # Modify this line
 REDUCE = DEPENDENCIES_ROOT + '/reduce'
-hihi
+
 # Names for amino acids you would like automatically removed
 # aa_to_eliminate = ['SOL', 'NA+', 'CL', 'EDO']
 aa_to_eliminate = []
