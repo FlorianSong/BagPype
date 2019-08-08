@@ -958,7 +958,11 @@ class Graph_constructor(object):
 
                     if energy is not None:
                         hphobic_graph.add_edge( atom1.id, atom2.id, weight = -1*energy, distance = distance, energy = energy)
-
+        
+        # The code further down won't work if the graph is empty.
+        if nx.is_empty(hphobic_graph):
+            return 
+        
         matches = self.hydrophobic_selection2(hphobic_graph)
         matches = sorted([sorted(x) for x in matches])
 
