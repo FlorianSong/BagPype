@@ -98,6 +98,8 @@ def generate_energies_dictionary(AA):
 
         # Extract covalent bond information from the dictionary
         atom_list = parsed_cif[lower_case_aa]['_chem_comp_atom.atom_id']
+        element_list = parsed_cif[lower_case_aa]['_chem_comp_atom.type_symbol']
+        aromaticity = parsed_cif[lower_case_aa]["_chem_comp_atom.pdbx_aromatic_flag"]
 
         try:
             bond_list1 = parsed_cif[lower_case_aa]['_chem_comp_bond.atom_id_1']
@@ -196,6 +198,8 @@ def generate_energies_dictionary(AA):
             bonds_dictionary = dictionary where the bonds are to be changed
             Output: returns updated bonds_dictionary
             """
+            if len(neighbours) != 2:
+                raise IndexError("Bond averaging received more than two atoms!")
             original_bond_strength1 = bonds_dictionary[atom][neighbours[0]]
             original_bond_strength2 = bonds_dictionary[atom][neighbours[1]]
             new_bond_strength = (original_bond_strength1 + original_bond_strength2) / 2.
@@ -254,15 +258,24 @@ def generate_energies_dictionary(AA):
 
         # Run above function and find aromatic rings
         aromatic_rings = find_cycles(bond_list_for_cycle_detection)
+        
+        # check whether it's 6*C
+        accepted_aromatic_rings = [ring for ring in aromatic_rings 
+                                    if len(ring) == 6 and 
+                                        all([ (element_list[ring_member_index] == 'C' and aromaticity[ring_member_index] == "Y") 
+                                            for ring_member_index in [atom_list.index(ring_member) for ring_member in ring]])
+        ]
 
+        # Make this somewhat deterministic by sorting
+        accepted_aromatic_rings.sort()
+        
         # Change corresponding entries in the dictionary
-        for ring in aromatic_rings:
-            # check whether it's 6*C
-            if len(ring) == 6 and all([i[0] == 'C' for i in ring]):
-                for i, atom in enumerate(ring):
-                    if i%2 == 0:
-                        neighbours = [i for i in list(final_dict[atom].keys()) if i in ring]
-                        final_dict = average_bond(atom, neighbours, final_dict)
+        for ring in accepted_aromatic_rings:
+            for i, atom in enumerate(ring):
+                if i%2 == 0:
+                    neighbours = [i for i in list(final_dict[atom].keys()) if i in ring]
+                    # neighbours
+                    final_dict = average_bond(atom, neighbours, final_dict)
 
 
         ################################################
