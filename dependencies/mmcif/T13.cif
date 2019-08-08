@@ -146,20 +146,18 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-T13     "Create component" 2009-05-28 PDBJ ? ?
-T13 "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-T13    "Modify descriptor" 2011-06-04 RCSB ? ?
+T13     "Create component" 2009-05-28 PDBJ
+T13 "Modify aromatic_flag" 2011-06-04 RCSB
+T13    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+T13    TL-057 ChEMBL
 T13       T67 ChEMBL
 T13 Batabulin ChEMBL
 T13  T-138067 ChEMBL
-T13    TL-057 ChEMBL
 #
 loop_
 _software.name              
@@ -348,35 +346,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-T13  CAA -2.708  3.051 -2.606 ETKDGv2  1
-T13  OAN -2.674  3.107 -1.184 ETKDGv2  2
-T13  CAV -2.182  2.076 -0.371 ETKDGv2  3
-T13  CAP -2.198  2.238  0.959 ETKDGv2  4
-T13  CAL -1.684  1.177  1.850 ETKDGv2  5
-T13  FAD -2.685  3.382  1.501 ETKDGv2  6
-T13  CAK -1.645  0.812 -0.940 ETKDGv2  7
-T13  CAJ -1.180 -0.150 -0.133 ETKDGv2  8
-T13  CAO -1.188  0.036  1.343 ETKDGv2  9
-T13  NAM -0.683 -0.974  2.235 ETKDGv2 10
-T13  SAX  0.213 -2.361  1.703 ETKDGv2 11
-T13  OAB -0.706 -3.265  0.929 ETKDGv2 12
-T13  OAC  0.728 -3.107  2.901 ETKDGv2 13
-T13  CAW  1.590 -1.852  0.720 ETKDGv2 14
-T13  CAT  2.372 -0.836  1.130 ETKDGv2 15
-T13  FAH  2.129 -0.201  2.305 ETKDGv2 16
-T13  CAR  3.514 -0.393  0.301 ETKDGv2 17
-T13  FAF  4.290  0.637  0.720 ETKDGv2 18
-T13  CAQ  3.779 -1.005 -0.859 ETKDGv2 19
-T13  FAE  4.825 -0.599 -1.621 ETKDGv2 20
-T13  CAS  2.934 -2.129 -1.311 ETKDGv2 21
-T13  FAG  3.214 -2.751 -2.483 ETKDGv2 22
-T13  CAU  1.898 -2.535 -0.565 ETKDGv2 23
-T13  FAI  1.140 -3.576 -0.992 ETKDGv2 24
-T13  HAA -1.679  2.940 -3.007 ETKDGv2 25
-T13 HAAA -3.342  2.202 -2.939 ETKDGv2 26
-T13 HAAB -3.143  3.994 -2.995 ETKDGv2 27
-T13  HAL -1.704  1.339  2.921 ETKDGv2 28
-T13  HAK -1.628  0.651 -2.009 ETKDGv2 29
-T13  HAJ -0.809 -1.062 -0.576 ETKDGv2 30
-T13 HNAM -0.789 -0.847  3.267 ETKDGv2 31
+T13  CAA  4.972  1.600  0.529 ETKDGv2  1
+T13  OAN  3.907  0.781  0.996 ETKDGv2  2
+T13  CAV  2.855  0.328  0.188 ETKDGv2  3
+T13  CAP  1.902 -0.440  0.736 ETKDGv2  4
+T13  CAL  0.775 -0.937 -0.081 ETKDGv2  5
+T13  FAD  1.964 -0.768  2.051 ETKDGv2  6
+T13  CAK  2.765  0.673 -1.256 ETKDGv2  7
+T13  CAJ  1.743  0.223 -1.994 ETKDGv2  8
+T13  CAO  0.685 -0.619 -1.387 ETKDGv2  9
+T13  NAM -0.398 -1.078 -2.215 ETKDGv2 10
+T13  SAX -1.856 -1.795 -1.604 ETKDGv2 11
+T13  OAB -1.535 -3.155 -1.050 ETKDGv2 12
+T13  OAC -2.841 -1.952 -2.728 ETKDGv2 13
+T13  CAW -2.570 -0.750 -0.370 ETKDGv2 14
+T13  CAT -2.703  0.569 -0.600 ETKDGv2 15
+T13  FAH -2.310  1.112 -1.781 ETKDGv2 16
+T13  CAR -3.281  1.452  0.436 ETKDGv2 17
+T13  FAF -3.404  2.781  0.195 ETKDGv2 18
+T13  CAQ -3.679  0.942  1.607 ETKDGv2 19
+T13  FAE -4.208  1.750  2.559 ETKDGv2 20
+T13  CAS -3.546 -0.507  1.865 ETKDGv2 21
+T13  FAG -3.959 -1.018  3.052 ETKDGv2 22
+T13  CAU -3.024 -1.312  0.931 ETKDGv2 23
+T13  FAI -2.919 -2.641  1.183 ETKDGv2 24
+T13  HAA  4.574  2.563  0.145 ETKDGv2 25
+T13 HAAA  5.663  1.811  1.371 ETKDGv2 26
+T13 HAAB  5.535  1.074 -0.271 ETKDGv2 27
+T13  HAL  0.039 -1.564  0.400 ETKDGv2 28
+T13  HAK  3.520  1.288 -1.726 ETKDGv2 29
+T13  HAJ  1.688  0.482 -3.044 ETKDGv2 30
+T13 HNAM -0.356 -0.893 -3.242 ETKDGv2 31
 #

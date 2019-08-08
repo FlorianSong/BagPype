@@ -136,10 +136,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-OC9  "Create component" 2005-05-16 RCSB ? ?
-OC9 "Modify descriptor" 2011-06-04 RCSB ? ?
+OC9  "Create component" 2005-05-16 RCSB
+OC9 "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   OC9
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB12452
@@ -163,8 +161,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-OC9 Octan-1-ol   ChEMBL
 OC9  1-Octanol   ChEMBL
+OC9 Octan-1-ol   ChEMBL
 OC9  1-Octanol DrugBank
 #
 loop_
@@ -263,31 +261,31 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-OC9  CAA  3.028  1.265  0.049 ETKDGv2  1
-OC9  CAC  2.930 -0.103 -0.626 ETKDGv2  2
-OC9  CAE  1.482 -0.601 -0.748 ETKDGv2  3
-OC9  CAG  0.865 -0.959  0.615 ETKDGv2  4
-OC9  CAI -0.469 -1.717  0.487 ETKDGv2  5
-OC9  CAH -1.586 -0.945 -0.238 ETKDGv2  6
-OC9  CAF -1.983  0.352  0.482 ETKDGv2  7
-OC9  CAD -3.213  0.990 -0.169 ETKDGv2  8
-OC9  OAB -3.566  2.164  0.509 ETKDGv2  9
-OC9 HAA1  2.383  2.003 -0.474 ETKDGv2 10
-OC9 HAA2  4.078  1.623  0.008 ETKDGv2 11
-OC9 HAA3  2.727  1.200  1.115 ETKDGv2 12
-OC9 HAC1  3.360 -0.020 -1.647 ETKDGv2 13
-OC9 HAC2  3.543 -0.840 -0.063 ETKDGv2 14
-OC9 HAE1  0.871  0.178 -1.252 ETKDGv2 15
-OC9 HAE2  1.483 -1.506 -1.394 ETKDGv2 16
-OC9 HAG1  0.720 -0.044  1.226 ETKDGv2 17
-OC9 HAG2  1.571 -1.614  1.171 ETKDGv2 18
-OC9 HAI1 -0.822 -1.987  1.506 ETKDGv2 19
-OC9 HAI2 -0.289 -2.671 -0.055 ETKDGv2 20
-OC9 HAH1 -1.284 -0.722 -1.284 ETKDGv2 21
-OC9 HAH2 -2.474 -1.612 -0.292 ETKDGv2 22
-OC9 HAF1 -2.208  0.135  1.549 ETKDGv2 23
-OC9 HAF2 -1.143  1.078  0.436 ETKDGv2 24
-OC9 HAD1 -3.012  1.210 -1.243 ETKDGv2 25
-OC9 HAD2 -4.069  0.283 -0.117 ETKDGv2 26
-OC9  HAB -2.920  2.862  0.225 ETKDGv2 27
+OC9  CAA  3.864  1.277 -0.025 ETKDGv2  1
+OC9  CAC  3.117 -0.027  0.240 ETKDGv2  2
+OC9  CAE  1.601  0.196  0.251 ETKDGv2  3
+OC9  CAG  0.854 -1.122  0.507 ETKDGv2  4
+OC9  CAI -0.663 -0.923  0.655 ETKDGv2  5
+OC9  CAH -1.339 -0.524 -0.668 ETKDGv2  6
+OC9  CAF -2.874 -0.596 -0.593 ETKDGv2  7
+OC9  CAD -3.491  0.453  0.343 ETKDGv2  8
+OC9  OAB -3.127  1.751 -0.043 ETKDGv2  9
+OC9 HAA1  3.576  1.694 -1.014 ETKDGv2 10
+OC9 HAA2  3.635  2.021  0.768 ETKDGv2 11
+OC9 HAA3  4.958  1.086 -0.026 ETKDGv2 12
+OC9 HAC1  3.444 -0.435  1.221 ETKDGv2 13
+OC9 HAC2  3.383 -0.760 -0.553 ETKDGv2 14
+OC9 HAE1  1.292  0.615 -0.731 ETKDGv2 15
+OC9 HAE2  1.343  0.928  1.047 ETKDGv2 16
+OC9 HAG1  1.061 -1.841 -0.317 ETKDGv2 17
+OC9 HAG2  1.234 -1.573  1.450 ETKDGv2 18
+OC9 HAI1 -1.100 -1.882  1.011 ETKDGv2 19
+OC9 HAI2 -0.856 -0.153  1.432 ETKDGv2 20
+OC9 HAH1 -1.006 -1.220 -1.470 ETKDGv2 21
+OC9 HAH2 -1.031  0.501 -0.964 ETKDGv2 22
+OC9 HAF1 -3.285 -0.444 -1.615 ETKDGv2 23
+OC9 HAF2 -3.185 -1.610 -0.261 ETKDGv2 24
+OC9 HAD1 -4.600  0.349  0.333 ETKDGv2 25
+OC9 HAD2 -3.159  0.278  1.387 ETKDGv2 26
+OC9  HAB -3.649  1.961 -0.861 ETKDGv2 27
 #

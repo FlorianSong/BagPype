@@ -140,11 +140,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-4PQ "Create component" 2015-05-01 RCSB GG ?
-4PQ  "Modify synonyms" 2015-07-16 RCSB GG ?
-4PQ  "Initial release" 2017-01-11 RCSB  ? ?
+4PQ "Create component" 2015-05-01 RCSB
+4PQ  "Modify synonyms" 2015-07-16 RCSB
+4PQ  "Initial release" 2017-01-11 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   4PQ
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB02959
@@ -177,8 +175,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-4PQ                   Levotonine   ChEMBL
 4PQ                   Oxitriptan   ChEMBL
+4PQ                   Levotonine   ChEMBL
 4PQ       5-hydroxy-L-tryptophan DrugBank
 4PQ "5-hydroxytryptophan L-form" DrugBank
 4PQ                      L-5-HTP DrugBank
@@ -353,32 +351,32 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-4PQ   N  3.099 -1.880  0.216 ETKDGv2  1
-4PQ  CA  2.057 -0.917 -0.146 ETKDGv2  2
-4PQ  CB  1.396 -0.357  1.127 ETKDGv2  3
-4PQ  CG  0.240  0.549  0.805 ETKDGv2  4
-4PQ CD1  0.224  1.879  0.976 ETKDGv2  5
-4PQ NE1 -1.018  2.466  0.565 ETKDGv2  6
-4PQ CE2 -1.803  1.374  0.118 ETKDGv2  7
-4PQ CZ2 -3.053  1.393 -0.346 ETKDGv2  8
-4PQ CH2 -3.663  0.090 -0.730 ETKDGv2  9
-4PQ CZ3 -2.965 -1.061 -0.596 ETKDGv2 10
-4PQ CE3 -1.571 -1.035 -0.065 ETKDGv2 11
-4PQ CD2 -1.054  0.154  0.254 ETKDGv2 12
-4PQ   C  2.623  0.185 -1.014 ETKDGv2 13
-4PQ OXT  3.613  1.044 -0.542 ETKDGv2 14
-4PQ   O  2.190  0.336 -2.186 ETKDGv2 15
-4PQ OAD -3.555 -2.270 -0.956 ETKDGv2 16
-4PQ  H1  3.871 -1.393  0.726 ETKDGv2 17
-4PQ  H2  3.506 -2.280 -0.661 ETKDGv2 18
-4PQ  H4  1.282 -1.463 -0.727 ETKDGv2 19
-4PQ  H5  1.020 -1.197  1.749 ETKDGv2 20
-4PQ  H6  2.148  0.190  1.736 ETKDGv2 21
-4PQ  H7  1.051  2.456  1.368 ETKDGv2 22
-4PQ  H8 -1.285  3.475  0.597 ETKDGv2 23
-4PQ  H9 -3.605  2.319 -0.436 ETKDGv2 24
-4PQ H10 -4.675  0.071 -1.113 ETKDGv2 25
-4PQ H11 -1.004 -1.948  0.063 ETKDGv2 26
-4PQ HXT  3.985  0.965  0.396 ETKDGv2 27
-4PQ H13 -3.053 -3.145 -0.866 ETKDGv2 28
+4PQ   N  2.911 -1.766  0.011 ETKDGv2  1
+4PQ  CA  2.642 -0.456 -0.589 ETKDGv2  2
+4PQ  CB  1.407 -0.519 -1.509 ETKDGv2  3
+4PQ  CG  0.146 -0.873 -0.767 ETKDGv2  4
+4PQ CD1 -0.200 -2.104 -0.358 ETKDGv2  5
+4PQ NE1 -1.466 -2.121  0.313 ETKDGv2  6
+4PQ CE2 -1.904 -0.773  0.292 ETKDGv2  7
+4PQ CZ2 -3.026 -0.264  0.802 ETKDGv2  8
+4PQ CH2 -3.243  1.201  0.655 ETKDGv2  9
+4PQ CZ3 -2.322  1.974  0.027 ETKDGv2 10
+4PQ CE3 -1.082  1.360 -0.524 ETKDGv2 11
+4PQ CD2 -0.925  0.042 -0.378 ETKDGv2 12
+4PQ   C  2.463  0.601  0.473 ETKDGv2 13
+4PQ OXT  2.365  1.938  0.099 ETKDGv2 14
+4PQ   O  2.394  0.287  1.692 ETKDGv2 15
+4PQ OAD -2.520  3.347 -0.110 ETKDGv2 16
+4PQ  H1  3.079 -2.453 -0.760 ETKDGv2 17
+4PQ  H2  3.812 -1.707  0.540 ETKDGv2 18
+4PQ  H4  3.519 -0.163 -1.210 ETKDGv2 19
+4PQ  H5  1.576 -1.264 -2.317 ETKDGv2 20
+4PQ  H6  1.278  0.464 -2.011 ETKDGv2 21
+4PQ  H7  0.398 -2.992 -0.518 ETKDGv2 22
+4PQ  H8 -1.956 -2.946  0.725 ETKDGv2 23
+4PQ  H9 -3.749 -0.891  1.305 ETKDGv2 24
+4PQ H10 -4.145  1.643  1.058 ETKDGv2 25
+4PQ H11 -0.335  1.966 -1.019 ETKDGv2 26
+4PQ HXT  2.234  2.663  0.794 ETKDGv2 27
+4PQ H13 -3.350  3.804  0.250 ETKDGv2 28
 #

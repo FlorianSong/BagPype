@@ -175,11 +175,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-CRR     "Create component" 2007-06-07 RCSB ? ?
-CRR "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-CRR    "Modify descriptor" 2011-06-04 RCSB ? ?
+CRR     "Create component" 2007-06-07 RCSB
+CRR "Modify aromatic_flag" 2011-06-04 RCSB
+CRR    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   CRR
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB07588
@@ -212,8 +210,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-CRR "Lycogaric Acid A" ChEMBL
 CRR "Lycogalic Acid A" ChEMBL
+CRR "Lycogaric Acid A" ChEMBL
 #
 loop_
 _software.name              
@@ -435,48 +433,48 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CRR   C5  2.477 -0.432  0.154 ETKDGv2  1
-CRR   C4  2.687  0.089  1.365 ETKDGv2  2
-CRR   C3  3.686 -0.587  2.238 ETKDGv2  3
-CRR   C2  4.336 -1.692  1.806 ETKDGv2  4
-CRR   C1  4.060 -2.248  0.453 ETKDGv2  5
-CRR  C20  3.163 -1.610 -0.302 ETKDGv2  6
-CRR   N3  2.714 -1.948 -1.603 ETKDGv2  7
-CRR  C19  1.738 -0.947 -1.924 ETKDGv2  8
-CRR   C6  1.580 -0.058 -0.934 ETKDGv2  9
-CRR   C7  0.649  1.083 -0.945 ETKDGv2 10
-CRR   C8  0.967  2.371 -0.799 ETKDGv2 11
-CRR  C36  2.331  2.945 -0.764 ETKDGv2 12
-CRR  O39  3.316  2.270 -1.164 ETKDGv2 13
-CRR  O40  2.551  4.242 -0.305 ETKDGv2 14
-CRR   N1 -0.217  3.155 -0.692 ETKDGv2 15
-CRR   C9 -1.293  2.224 -0.762 ETKDGv2 16
-CRR  C35 -2.718  2.616 -0.682 ETKDGv2 17
-CRR  O37 -3.619  1.817 -1.051 ETKDGv2 18
-CRR  O38 -3.089  3.873 -0.213 ETKDGv2 19
-CRR  C10 -0.815  0.987 -0.921 ETKDGv2 20
-CRR  C11 -1.589 -0.264 -0.883 ETKDGv2 21
-CRR  C12 -2.394 -0.750  0.233 ETKDGv2 22
-CRR  C13 -2.631 -0.258  1.452 ETKDGv2 23
-CRR  C14 -3.504 -1.056  2.355 ETKDGv2 24
-CRR  C15 -4.019 -2.237  1.942 ETKDGv2 25
-CRR  C16 -3.716 -2.756  0.579 ETKDGv2 26
-CRR  C17 -2.935 -2.008 -0.203 ETKDGv2 27
-CRR   N2 -2.488 -2.287 -1.519 ETKDGv2 28
-CRR  C18 -1.661 -1.169 -1.869 ETKDGv2 29
-CRR   H4  2.152  0.967  1.703 ETKDGv2 30
-CRR   H3  3.890 -0.190  3.224 ETKDGv2 31
-CRR   H2  5.059 -2.179  2.447 ETKDGv2 32
-CRR   H1  4.563 -3.138  0.098 ETKDGv2 33
-CRR  HN3  3.020 -2.749 -2.198 ETKDGv2 34
-CRR  H19  1.213 -0.913 -2.868 ETKDGv2 35
-CRR HO40  1.804  4.814  0.066 ETKDGv2 36
-CRR  HN1 -0.285  4.195 -0.677 ETKDGv2 37
-CRR HO38 -2.411  4.539  0.135 ETKDGv2 38
-CRR  H13 -2.203  0.683  1.773 ETKDGv2 39
-CRR  H14 -3.726 -0.688  3.348 ETKDGv2 40
-CRR  H15 -4.651 -2.813  2.605 ETKDGv2 41
-CRR  H16 -4.111 -3.704  0.238 ETKDGv2 42
-CRR  HN2 -2.707 -3.122 -2.106 ETKDGv2 43
-CRR  H18 -1.176 -1.068 -2.830 ETKDGv2 44
+CRR   C5  2.192 -0.343 -0.363 ETKDGv2  1
+CRR   C4  2.869 -0.809  0.690 ETKDGv2  2
+CRR   C3  3.910 -1.841  0.434 ETKDGv2  3
+CRR   C2  4.123 -2.303 -0.819 ETKDGv2  4
+CRR   C1  3.315 -1.788 -1.958 ETKDGv2  5
+CRR  C20  2.408 -0.846 -1.693 ETKDGv2  6
+CRR   N3  1.479 -0.254 -2.584 ETKDGv2  7
+CRR  C19  0.686  0.612 -1.761 ETKDGv2  8
+CRR   C6  1.078  0.596 -0.479 ETKDGv2  9
+CRR   C7  0.419  1.328  0.618 ETKDGv2 10
+CRR   C8  1.003  2.076  1.558 ETKDGv2 11
+CRR  C36  2.435  2.417  1.676 ETKDGv2 12
+CRR  O39  2.918  2.649  2.815 ETKDGv2 13
+CRR  O40  3.258  2.536  0.558 ETKDGv2 14
+CRR   N1  0.026  2.567  2.467 ETKDGv2 15
+CRR   C9 -1.221  2.066  1.994 ETKDGv2 16
+CRR  C35 -2.502  2.288  2.700 ETKDGv2 17
+CRR  O37 -3.487  1.532  2.489 ETKDGv2 18
+CRR  O38 -2.638  3.319  3.626 ETKDGv2 19
+CRR  C10 -1.024  1.325  0.899 ETKDGv2 20
+CRR  C11 -2.047  0.612  0.112 ETKDGv2 21
+CRR  C12 -2.008 -0.789 -0.300 ETKDGv2 22
+CRR  C13 -1.183 -1.795  0.004 ETKDGv2 23
+CRR  C14 -1.466 -3.123 -0.605 ETKDGv2 24
+CRR  C15 -2.534 -3.290 -1.416 ETKDGv2 25
+CRR  C16 -3.445 -2.149 -1.707 ETKDGv2 26
+CRR  C17 -3.154 -0.972 -1.150 ETKDGv2 27
+CRR   N2 -3.868  0.248 -1.255 ETKDGv2 28
+CRR  C18 -3.122  1.177 -0.457 ETKDGv2 29
+CRR   H4  2.662 -0.464  1.694 ETKDGv2 30
+CRR   H3  4.493 -2.229  1.260 ETKDGv2 31
+CRR   H2  4.876 -3.059 -0.996 ETKDGv2 32
+CRR   H1  3.449 -2.174 -2.960 ETKDGv2 33
+CRR  HN3  1.355 -0.450 -3.602 ETKDGv2 34
+CRR  H19 -0.143  1.195 -2.141 ETKDGv2 35
+CRR HO40  2.895  2.500 -0.385 ETKDGv2 36
+CRR  HN1  0.202  3.135  3.325 ETKDGv2 37
+CRR HO38 -1.893  3.980  3.806 ETKDGv2 38
+CRR  H13 -0.343 -1.655  0.671 ETKDGv2 39
+CRR  H14 -0.810 -3.958 -0.394 ETKDGv2 40
+CRR  H15 -2.735 -4.259 -1.854 ETKDGv2 41
+CRR  H16 -4.313 -2.271 -2.342 ETKDGv2 42
+CRR  HN2 -4.731  0.438 -1.811 ETKDGv2 43
+CRR  H18 -3.384  2.223 -0.365 ETKDGv2 44
 #

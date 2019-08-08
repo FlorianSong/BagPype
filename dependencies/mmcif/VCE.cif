@@ -65,8 +65,8 @@ VCE     C3     C3 C 0 1 Y N N 46.564 -10.442 -36.473 -0.470  0.175 -0.008     C3
 VCE     C1     C1 C 0 1 Y N N 47.749 -10.240 -34.418 -2.833 -0.172  0.338     C1 VCE 18
 VCE     C9     C9 C 0 1 N N N 43.956 -12.311 -39.591  4.175  0.568  0.253     C9 VCE 19
 VCE "HOA'" "HOA'" H 0 0 N N N 46.296  -8.566 -40.704  1.498 -2.240 -2.375 "HOA'" VCE 20
-VCE    HOB    HOB H 0 0 N N N 46.880  -9.409 -31.611 -6.135 -0.148  0.528    HOB VCE 21
-VCE    HO2    HO2 H 0 0 N N N 45.650  -9.689 -33.643 -2.171  1.661 -1.776    HO2 VCE 22
+VCE    HOB    HOB H 0 1 N N N 46.880  -9.409 -31.611 -6.135 -0.148  0.528    HOB VCE 21
+VCE    HO2    HO2 H 0 1 N N N 45.650  -9.689 -33.643 -2.171  1.661 -1.776    HO2 VCE 22
 VCE     H8     H8 H 0 1 N N N 43.642 -11.661 -37.525  2.472  1.884  0.913     H8 VCE 23
 VCE     H5     H5 H 0 1 N N N 49.780 -11.134 -36.967 -1.028 -2.701  1.677     H5 VCE 24
 VCE     H4     H4 H 0 1 N N N 47.654 -11.040 -38.226  0.816 -1.340  0.784     H4 VCE 25
@@ -146,12 +146,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-VCE     "Create component" 2011-05-23 PDBJ RI ?
-VCE "Modify aromatic_flag" 2011-06-04 RCSB RI ?
-VCE    "Modify descriptor" 2011-06-04 RCSB RI ?
-VCE       "Modify atom id" 2012-05-10 PDBJ RI ?
+VCE     "Create component" 2011-05-23 PDBJ
+VCE "Modify aromatic_flag" 2011-06-04 RCSB
+VCE    "Modify descriptor" 2011-06-04 RCSB
+VCE       "Modify atom id" 2012-05-10 PDBJ
 #
 loop_
 _software.name              
@@ -309,35 +307,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-VCE  "OA'" -0.195 -1.094  2.079 ETKDGv2  1
-VCE     OA  5.929  0.151 -0.926 ETKDGv2  2
-VCE  "OB'" -2.309 -1.521  1.313 ETKDGv2  3
-VCE     OB  5.240  1.312  0.917 ETKDGv2  4
-VCE     O2  2.531  2.028  0.297 ETKDGv2  5
-VCE     C8 -2.299  1.030 -0.096 ETKDGv2  6
-VCE     C5  2.174 -1.954 -1.058 ETKDGv2  7
-VCE     C4  1.075 -1.249 -0.779 ETKDGv2  8
-VCE     C6  3.507 -1.361 -0.849 ETKDGv2  9
-VCE    C10 -4.365 -0.329 -0.694 ETKDGv2 10
-VCE    C11 -4.761  1.137 -0.736 ETKDGv2 11
-VCE     O3  0.037  0.907 -0.006 ETKDGv2 12
-VCE   "C'" -1.285 -0.788  1.269 ETKDGv2 13
-VCE      C  4.982  0.460 -0.154 ETKDGv2 14
-VCE     C7 -1.212  0.386  0.359 ETKDGv2 15
-VCE     C2  2.404  0.696 -0.105 ETKDGv2 16
-VCE     C3  1.185  0.142 -0.269 ETKDGv2 17
-VCE     C1  3.632 -0.107 -0.378 ETKDGv2 18
-VCE     C9 -3.712  0.660  0.258 ETKDGv2 19
-VCE "HOA'" -0.216 -1.894  2.700 ETKDGv2 20
-VCE    HOB  4.553  1.491  1.638 ETKDGv2 21
-VCE    HO2  1.733  2.621  0.490 ETKDGv2 22
-VCE     H8 -2.148  1.897 -0.730 ETKDGv2 23
-VCE     H5  2.089 -2.963 -1.440 ETKDGv2 24
-VCE     H4  0.104 -1.692 -0.959 ETKDGv2 25
-VCE     H6  4.381 -1.965 -1.063 ETKDGv2 26
-VCE    H10 -3.742 -0.657 -1.554 ETKDGv2 27
-VCE   H10A -5.121 -0.989 -0.219 ETKDGv2 28
-VCE    H11 -5.759  1.342 -0.296 ETKDGv2 29
-VCE   H11A -4.389  1.670 -1.638 ETKDGv2 30
-VCE     H9 -4.044  0.632  1.318 ETKDGv2 31
+VCE  "OA'" -1.621  1.626 -3.490 ETKDGv2  1
+VCE     OA  4.658 -0.129  0.035 ETKDGv2  2
+VCE  "OB'" -3.588  0.672 -2.798 ETKDGv2  3
+VCE     OB  4.714  1.006  2.020 ETKDGv2  4
+VCE     O2  2.478 -0.453 -1.417 ETKDGv2  5
+VCE     C8 -2.259 -0.965 -0.920 ETKDGv2  6
+VCE     C5  0.475  1.754  1.574 ETKDGv2  7
+VCE     C4 -0.203  1.303  0.517 ETKDGv2  8
+VCE     C6  1.917  1.481  1.703 ETKDGv2  9
+VCE    C10 -2.414 -2.717  0.925 ETKDGv2 10
+VCE    C11 -1.652 -1.529  1.488 ETKDGv2 11
+VCE     O3 -0.215  0.029 -1.649 ETKDGv2 12
+VCE   "C'" -2.334  0.745 -2.684 ETKDGv2 13
+VCE      C  4.026  0.525  0.908 ETKDGv2 14
+VCE     C7 -1.610 -0.089 -1.707 ETKDGv2 15
+VCE     C2  1.811  0.275 -0.428 ETKDGv2 16
+VCE     C3  0.487  0.514 -0.535 ETKDGv2 17
+VCE     C1  2.572  0.782  0.757 ETKDGv2 18
+VCE     C9 -1.522 -1.883  0.015 ETKDGv2 19
+VCE "HOA'" -2.095  2.211 -4.168 ETKDGv2 20
+VCE    HOB  5.706  0.836  2.132 ETKDGv2 21
+VCE    HO2  2.011 -0.824 -2.236 ETKDGv2 22
+VCE     H8 -3.338 -1.046 -0.983 ETKDGv2 23
+VCE     H5 -0.033  2.327  2.339 ETKDGv2 24
+VCE     H4 -1.259  1.524  0.433 ETKDGv2 25
+VCE     H6  2.431  1.864  2.575 ETKDGv2 26
+VCE    H10 -3.509 -2.545  0.853 ETKDGv2 27
+VCE   H10A -1.987 -3.698  1.223 ETKDGv2 28
+VCE    H11 -2.292 -0.650  1.721 ETKDGv2 29
+VCE   H11A -0.767 -1.802  2.100 ETKDGv2 30
+VCE     H9 -0.586 -2.390 -0.304 ETKDGv2 31
 #

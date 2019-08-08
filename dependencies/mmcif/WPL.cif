@@ -134,15 +134,13 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-WPL         "Create component" 2014-01-15  EBI JMB                                  ?
-WPL "Modify component atom id" 2014-01-29  EBI  SS                                  ?
-WPL          "Initial release" 2014-11-05 RCSB  SS                                  ?
-WPL          "Initial release" 2014-11-05 RCSB   ?                                  ?
-WPL       "Other modification" 2018-08-21  EBI  DG   "Deleted N - as its part of Lys"
-WPL       "Other modification" 2018-08-21  EBI  DG "Deleted N - as it is part of Lys"
-WPL       "Other modification" 2018-08-21  EBI  DG    "Deleted N - as it part of Lys"
+WPL         "Create component" 2014-01-15  EBI
+WPL "Modify component atom id" 2014-01-29  EBI
+WPL          "Initial release" 2014-11-05 RCSB
+WPL          "Initial release" 2014-11-05 RCSB
+WPL       "Other modification" 2018-08-21  EBI
+WPL       "Other modification" 2018-08-21  EBI
+WPL       "Other modification" 2018-08-21  EBI
 #
 loop_
 _software.name              
@@ -259,31 +257,31 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-WPL CAX -1.002 -0.744  0.813 ETKDGv2  1
-WPL CAP  0.443 -1.061  0.345 ETKDGv2  2
-WPL CBA  1.362  0.185  0.387 ETKDGv2  3
-WPL CAU  2.769 -0.206 -0.018 ETKDGv2  4
-WPL OAF  3.745  0.027  0.746 ETKDGv2  5
-WPL OAD  2.993 -0.824 -1.246 ETKDGv2  6
-WPL OAI  1.375  0.727  1.690 ETKDGv2  7
-WPL CAO  0.829  1.272 -0.592 ETKDGv2  8
-WPL CAW -0.707  1.244 -0.796 ETKDGv2  9
-WPL OAG -1.173  2.534 -1.099 ETKDGv2 10
-WPL CAY -1.434  0.716  0.459 ETKDGv2 11
-WPL OAH -2.832  0.844  0.345 ETKDGv2 12
-WPL CAJ -1.965 -1.813  0.270 ETKDGv2 13
-WPL  H1 -1.023 -0.832  1.923 ETKDGv2 14
-WPL  H2  0.864 -1.868  0.986 ETKDGv2 15
-WPL  H3  0.424 -1.452 -0.698 ETKDGv2 16
-WPL  H4  3.928 -1.090 -1.531 ETKDGv2 17
-WPL  H5  1.643  0.008  2.321 ETKDGv2 18
-WPL  H6  1.137  2.273 -0.215 ETKDGv2 19
-WPL  H7  1.296  1.163 -1.596 ETKDGv2 20
-WPL  H8 -0.945  0.557 -1.644 ETKDGv2 21
-WPL  H9 -0.880  2.731 -2.028 ETKDGv2 22
-WPL H10 -1.130  1.370  1.307 ETKDGv2 23
-WPL H11 -3.102  0.502 -0.547 ETKDGv2 24
-WPL H12 -1.596 -2.828  0.531 ETKDGv2 25
-WPL H13 -2.972 -1.696  0.723 ETKDGv2 26
-WPL H14 -2.050 -1.738 -0.836 ETKDGv2 27
+WPL CAX -1.114  0.798 -0.357 ETKDGv2  1
+WPL CAP  0.211  1.072  0.378 ETKDGv2  2
+WPL CBA  1.393  0.302 -0.278 ETKDGv2  3
+WPL CAU  2.474  0.092  0.773 ETKDGv2  4
+WPL OAF  2.283 -0.728  1.711 ETKDGv2  5
+WPL OAD  3.674  0.803  0.747 ETKDGv2  6
+WPL OAI  1.891  1.100 -1.327 ETKDGv2  7
+WPL CAO  0.930 -1.071 -0.869 ETKDGv2  8
+WPL CAW -0.298 -1.648 -0.137 ETKDGv2  9
+WPL OAG -0.621 -2.923 -0.634 ETKDGv2 10
+WPL CAY -1.528 -0.697 -0.216 ETKDGv2 11
+WPL OAH -2.323 -0.882  0.929 ETKDGv2 12
+WPL CAJ -2.215  1.760  0.111 ETKDGv2 13
+WPL  H1 -0.949  1.008 -1.439 ETKDGv2 14
+WPL  H2  0.084  0.776  1.444 ETKDGv2 15
+WPL  H3  0.434  2.162  0.371 ETKDGv2 16
+WPL  H4  3.871  1.517  0.056 ETKDGv2 17
+WPL  H5  2.610  0.589 -1.785 ETKDGv2 18
+WPL  H6  1.762 -1.809 -0.841 ETKDGv2 19
+WPL  H7  0.661 -0.940 -1.941 ETKDGv2 20
+WPL  H8 -0.018 -1.774  0.931 ETKDGv2 21
+WPL  H9 -0.814 -2.828 -1.603 ETKDGv2 22
+WPL H10 -2.133 -0.946 -1.120 ETKDGv2 23
+WPL H11 -2.790 -1.751  0.818 ETKDGv2 24
+WPL H12 -3.171  1.525 -0.404 ETKDGv2 25
+WPL H13 -2.366  1.687  1.209 ETKDGv2 26
+WPL H14 -1.937  2.806 -0.137 ETKDGv2 27
 #

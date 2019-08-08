@@ -171,10 +171,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-P1Z  "Create component" 2005-07-26  EBI ? ?
-P1Z "Modify descriptor" 2011-06-04 RCSB ? ?
+P1Z  "Create component" 2005-07-26  EBI
+P1Z "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   P1Z
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00812
@@ -211,15 +209,15 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 P1Z                                     Pro-Bute   ChEMBL
-P1Z                                       Azolid   ChEMBL
-P1Z                                      Antadol   ChEMBL
 P1Z                                  Butazolidin   ChEMBL
-P1Z                               Phenylbutazone   ChEMBL
 P1Z                             Diphenylbutazone   ChEMBL
+P1Z                               Phenylbutazone   ChEMBL
+P1Z                                       Azolid   ChEMBL
+P1Z                                     Butacote   ChEMBL
+P1Z                                      Antadol   ChEMBL
+P1Z                                      Elmedal   ChEMBL
 P1Z                                     Equiphar   ChEMBL
 P1Z                                     Butaject   ChEMBL
-P1Z                                      Elmedal   ChEMBL
-P1Z                                     Butacote   ChEMBL
 P1Z 3,5-Dioxo-1,2-diphenyl-4-n-butylpyrazolidine DrugBank
 P1Z  4-butyl-1,2-diphenyl-pyrazolidine-3,5-dione DrugBank
 P1Z 4-n-Butyl-1,2-diphenyl-3,5-pyrazolidinedione DrugBank
@@ -406,47 +404,47 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-P1Z  C16 -3.197 -3.456 -0.229 ETKDGv2  1
-P1Z  C17 -2.047 -2.802 -0.026 ETKDGv2  2
-P1Z  C12 -1.679 -1.648 -0.884 ETKDGv2  3
-P1Z  C13 -2.513 -1.271 -1.871 ETKDGv2  4
-P1Z  C14 -3.782 -1.995 -2.092 ETKDGv2  5
-P1Z  C15 -4.107 -3.033 -1.313 ETKDGv2  6
-P1Z   C8 -2.337  3.539 -1.302 ETKDGv2  7
-P1Z   C9 -3.286  3.378 -0.372 ETKDGv2  8
-P1Z  C10 -3.274  2.183  0.496 ETKDGv2  9
-P1Z  C11 -2.316  1.259  0.352 ETKDGv2 10
-P1Z   C6 -1.264  1.426 -0.683 ETKDGv2 11
-P1Z   C7 -1.279  2.520 -1.465 ETKDGv2 12
-P1Z  C21  4.242  0.787  3.176 ETKDGv2 13
-P1Z  C20  4.877  0.202  1.914 ETKDGv2 14
-P1Z  C19  3.977  0.345  0.677 ETKDGv2 15
-P1Z  C18  2.731 -0.554  0.747 ETKDGv2 16
-P1Z   N2 -0.443 -0.949 -0.658 ETKDGv2 17
-P1Z   C3  0.834 -1.569 -0.531 ETKDGv2 18
-P1Z   C4  1.957 -0.575 -0.584 ETKDGv2 19
-P1Z   C5  1.158  0.678 -0.812 ETKDGv2 20
-P1Z   N1 -0.246  0.424 -0.850 ETKDGv2 21
-P1Z   O3  0.997 -2.816 -0.449 ETKDGv2 22
-P1Z   O5  1.659  1.825 -0.959 ETKDGv2 23
-P1Z  H16 -3.466 -4.293  0.403 ETKDGv2 24
-P1Z  H17 -1.392 -3.109  0.780 ETKDGv2 25
-P1Z  H13 -2.260 -0.446 -2.524 ETKDGv2 26
-P1Z  H14 -4.447 -1.683 -2.887 ETKDGv2 27
-P1Z  H15 -5.037 -3.563 -1.473 ETKDGv2 28
-P1Z   H8 -2.344  4.414 -1.939 ETKDGv2 29
-P1Z   H9 -4.062  4.123 -0.252 ETKDGv2 30
-P1Z  H10 -4.038  2.059  1.252 ETKDGv2 31
-P1Z  H11 -2.307  0.393  1.001 ETKDGv2 32
-P1Z   H7 -0.533  2.655 -2.238 ETKDGv2 33
-P1Z H211  3.357  0.193  3.483 ETKDGv2 34
-P1Z H212  3.939  1.842  3.005 ETKDGv2 35
-P1Z H213  4.980  0.762  4.006 ETKDGv2 36
-P1Z H201  5.829  0.742  1.721 ETKDGv2 37
-P1Z H202  5.127 -0.867  2.085 ETKDGv2 38
-P1Z H191  4.577  0.062 -0.216 ETKDGv2 39
-P1Z H192  3.680  1.409  0.561 ETKDGv2 40
-P1Z H181  3.056 -1.591  0.984 ETKDGv2 41
-P1Z H182  2.059 -0.210  1.563 ETKDGv2 42
-P1Z   H4  2.620 -0.789 -1.450 ETKDGv2 43
+P1Z  C16 -2.713 -3.316  1.765 ETKDGv2  1
+P1Z  C17 -1.768 -2.374  1.873 ETKDGv2  2
+P1Z  C12 -1.555 -1.399  0.775 ETKDGv2  3
+P1Z  C13 -2.318 -1.476 -0.331 ETKDGv2  4
+P1Z  C14 -3.360 -2.517 -0.446 ETKDGv2  5
+P1Z  C15 -3.548 -3.391  0.549 ETKDGv2  6
+P1Z   C8 -4.114  2.281  0.904 ETKDGv2  7
+P1Z   C9 -4.237  3.127 -0.126 ETKDGv2  8
+P1Z  C10 -3.123  3.293 -1.082 ETKDGv2  9
+P1Z  C11 -1.990  2.598 -0.920 ETKDGv2 10
+P1Z   C6 -1.847  1.655  0.218 ETKDGv2 11
+P1Z   C7 -2.865  1.513  1.086 ETKDGv2 12
+P1Z  C21  5.746  0.252 -1.271 ETKDGv2 13
+P1Z  C20  4.956 -0.953 -0.760 ETKDGv2 14
+P1Z  C19  3.949 -0.583  0.340 ETKDGv2 15
+P1Z  C18  2.748  0.210 -0.203 ETKDGv2 16
+P1Z   N2 -0.538 -0.389  0.898 ETKDGv2 17
+P1Z   C3  0.829 -0.649  1.213 ETKDGv2 18
+P1Z   C4  1.717  0.523  0.898 ETKDGv2 19
+P1Z   C5  0.679  1.484  0.398 ETKDGv2 20
+P1Z   N1 -0.627  0.911  0.384 ETKDGv2 21
+P1Z   O3  1.231 -1.738  1.703 ETKDGv2 22
+P1Z   O5  0.916  2.681  0.084 ETKDGv2 23
+P1Z  H16 -2.870 -4.022  2.570 ETKDGv2 24
+P1Z  H17 -1.170 -2.316  2.774 ETKDGv2 25
+P1Z  H13 -2.169 -0.789 -1.154 ETKDGv2 26
+P1Z  H14 -3.970 -2.570 -1.338 ETKDGv2 27
+P1Z  H15 -4.311 -4.154  0.466 ETKDGv2 28
+P1Z   H8 -4.928  2.158  1.606 ETKDGv2 29
+P1Z   H9 -5.151  3.691 -0.261 ETKDGv2 30
+P1Z  H10 -3.227  3.975 -1.916 ETKDGv2 31
+P1Z  H11 -1.184  2.714 -1.632 ETKDGv2 32
+P1Z   H7 -2.778  0.848  1.936 ETKDGv2 33
+P1Z H211  5.085  0.950 -1.826 ETKDGv2 34
+P1Z H212  6.227  0.789 -0.426 ETKDGv2 35
+P1Z H213  6.540 -0.095 -1.966 ETKDGv2 36
+P1Z H201  5.678 -1.687 -0.341 ETKDGv2 37
+P1Z H202  4.434 -1.444 -1.609 ETKDGv2 38
+P1Z H191  3.589 -1.529  0.795 ETKDGv2 39
+P1Z H192  4.459  0.001  1.137 ETKDGv2 40
+P1Z H181  3.119  1.172 -0.617 ETKDGv2 41
+P1Z H182  2.263 -0.354 -1.031 ETKDGv2 42
+P1Z   H4  2.196  0.920  1.819 ETKDGv2 43
 #

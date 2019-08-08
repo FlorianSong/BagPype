@@ -155,10 +155,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-PT1  "Create component" 1999-07-08 RCSB ? ?
-PT1 "Modify descriptor" 2011-06-04 RCSB ? ?
+PT1  "Create component" 1999-07-08 RCSB
+PT1 "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   PT1
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04196
@@ -191,8 +189,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-PT1  "Peroic Acid" ChEMBL
 PT1 "Pteroic Acid" ChEMBL
+PT1  "Peroic Acid" ChEMBL
 #
 loop_
 _software.name              
@@ -397,39 +395,39 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PT1   C2 -4.290  0.869 -1.094 ETKDGv2  1
-PT1   C3 -3.459  0.033 -0.453 ETKDGv2  2
-PT1   C5 -3.984 -0.775  0.657 ETKDGv2  3
-PT1   N6 -2.076 -0.108 -0.799 ETKDGv2  4
-PT1   C7 -6.114  0.219  0.312 ETKDGv2  5
-PT1   N9 -5.231 -0.680  1.008 ETKDGv2  6
-PT1  C10 -1.305 -0.942 -0.157 ETKDGv2  7
-PT1  N11 -7.482  0.316  0.703 ETKDGv2  8
-PT1  C12 -1.839 -1.749  0.976 ETKDGv2  9
-PT1  C21  6.679  0.450 -0.033 ETKDGv2 10
-PT1  O22  7.378 -0.447 -0.576 ETKDGv2 11
-PT1   O1 -3.856  1.665 -2.153 ETKDGv2 12
-PT1   N4 -5.664  0.944 -0.675 ETKDGv2 13
-PT1   N8 -3.088 -1.659  1.337 ETKDGv2 14
-PT1  C13  0.147 -1.034 -0.522 ETKDGv2 15
-PT1  N14  0.950 -0.149  0.327 ETKDGv2 16
-PT1  C15  2.380 -0.023  0.219 ETKDGv2 17
-PT1  C16  3.096 -0.722 -0.683 ETKDGv2 18
-PT1  C17  3.090  0.901  1.135 ETKDGv2 19
-PT1  C18  4.562 -0.562 -0.762 ETKDGv2 20
-PT1  C19  4.418  1.049  1.062 ETKDGv2 21
-PT1  C20  5.207  0.290  0.057 ETKDGv2 22
-PT1  O23  7.323  1.584  0.461 ETKDGv2 23
-PT1 H111 -8.132  0.965  0.206 ETKDGv2 24
-PT1 H112 -7.845 -0.263  1.492 ETKDGv2 25
-PT1  H12 -1.183 -2.423  1.511 ETKDGv2 26
-PT1  HO1 -2.899  1.650 -2.487 ETKDGv2 27
-PT1 H131  0.281 -0.747 -1.587 ETKDGv2 28
-PT1 H132  0.491 -2.083 -0.395 ETKDGv2 29
-PT1  H14  0.466  0.428  1.053 ETKDGv2 30
-PT1  H16  2.622 -1.411 -1.369 ETKDGv2 31
-PT1  H17  2.532  1.456  1.879 ETKDGv2 32
-PT1  H18  5.102 -1.135 -1.506 ETKDGv2 33
-PT1  H19  4.906  1.708  1.767 ETKDGv2 34
-PT1  H23  6.818  2.384  0.819 ETKDGv2 35
+PT1   C2  3.345  0.532  0.725 ETKDGv2  1
+PT1   C3  2.546 -0.414  0.223 ETKDGv2  2
+PT1   C5  2.751 -0.854 -1.163 ETKDGv2  3
+PT1   N6  1.493 -1.019  0.980 ETKDGv2  4
+PT1   C7  4.551  0.689 -1.334 ETKDGv2  5
+PT1   N9  3.696 -0.330 -1.886 ETKDGv2  6
+PT1  C10  0.723 -1.930  0.450 ETKDGv2  7
+PT1  N11  5.584  1.259 -2.134 ETKDGv2  8
+PT1  C12  0.944 -2.383 -0.954 ETKDGv2  9
+PT1  C21 -4.598  2.241 -0.745 ETKDGv2 10
+PT1  O22 -5.123  1.910 -1.841 ETKDGv2 11
+PT1   O1  3.182  0.976  2.034 ETKDGv2 12
+PT1   N4  4.381  1.090 -0.104 ETKDGv2 13
+PT1   N8  1.890 -1.868 -1.687 ETKDGv2 14
+PT1  C13 -0.363 -2.552  1.280 ETKDGv2 15
+PT1  N14 -1.153 -1.522  1.954 ETKDGv2 16
+PT1  C15 -2.016 -0.593  1.269 ETKDGv2 17
+PT1  C16 -2.591  0.407  1.956 ETKDGv2 18
+PT1  C17 -2.293 -0.714 -0.187 ETKDGv2 19
+PT1  C18 -3.473  1.380  1.279 ETKDGv2 20
+PT1  C19 -3.090  0.169 -0.801 ETKDGv2 21
+PT1  C20 -3.711  1.284 -0.042 ETKDGv2 22
+PT1  O23 -4.860  3.515 -0.240 ETKDGv2 23
+PT1 H111  5.723  0.941 -3.118 ETKDGv2 24
+PT1 H112  6.211  1.999 -1.745 ETKDGv2 25
+PT1  H12  0.309 -3.150 -1.378 ETKDGv2 26
+PT1  HO1  3.787  1.693  2.415 ETKDGv2 27
+PT1 H131  0.115 -3.205  2.042 ETKDGv2 28
+PT1 H132 -1.029 -3.196  0.667 ETKDGv2 29
+PT1  H14 -1.055 -1.449  2.992 ETKDGv2 30
+PT1  H16 -2.413  0.516  3.019 ETKDGv2 31
+PT1  H17 -1.861 -1.516 -0.769 ETKDGv2 32
+PT1  H18 -3.938  2.147  1.883 ETKDGv2 33
+PT1  H19 -3.275  0.063 -1.863 ETKDGv2 34
+PT1  H23 -4.392  3.886  0.576 ETKDGv2 35
 #

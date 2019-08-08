@@ -141,10 +141,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MPP  "Create component" 1999-07-08 RCSB ? ?
-MPP "Modify descriptor" 2011-06-04 RCSB ? ?
+MPP  "Create component" 1999-07-08 RCSB
+MPP "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   MPP
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04208
@@ -177,8 +175,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-MPP "3,4-Dimethoxy-Hydrocinnamic Acid" ChEMBL
 MPP  "3,4-Dimethoxyhydrocinnamic Acid" ChEMBL
+MPP "3,4-Dimethoxy-Hydrocinnamic Acid" ChEMBL
 #
 loop_
 _software.name              
@@ -312,33 +310,33 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MPP   CA  3.237  0.292 -0.319 ETKDGv2  1
-MPP    C  3.261  0.041  1.166 ETKDGv2  2
-MPP  OT1  2.437  0.601  1.937 ETKDGv2  3
-MPP  OT2  4.217 -0.814  1.705 ETKDGv2  4
-MPP   CB  2.094  1.212 -0.783 ETKDGv2  5
-MPP   CG  0.741  0.557 -0.643 ETKDGv2  6
-MPP  CD1 -0.177  1.042  0.212 ETKDGv2  7
-MPP  CD2  0.401 -0.618 -1.478 ETKDGv2  8
-MPP  CE1 -1.511  0.393  0.343 ETKDGv2  9
-MPP  OEA -2.478  0.872  1.239 ETKDGv2 10
-MPP  CEA -2.288  1.992  2.096 ETKDGv2 11
-MPP  CE2 -0.796 -1.203 -1.370 ETKDGv2 12
-MPP   CZ -1.806 -0.679 -0.412 ETKDGv2 13
-MPP  OZA -3.068 -1.276 -0.273 ETKDGv2 14
-MPP  CZA -3.498 -2.413 -1.013 ETKDGv2 15
-MPP  HA1  4.203  0.761 -0.603 ETKDGv2 16
-MPP  HA2  3.176 -0.683 -0.848 ETKDGv2 17
-MPP  HO2  4.897 -1.276  1.114 ETKDGv2 18
-MPP  HB1  2.250  1.462 -1.855 ETKDGv2 19
-MPP  HB2  2.144  2.171 -0.222 ETKDGv2 20
-MPP  HD1  0.061  1.907  0.817 ETKDGv2 21
-MPP  HD2  1.122 -1.005 -2.188 ETKDGv2 22
-MPP HEA1 -1.438  1.805  2.786 ETKDGv2 23
-MPP HEA2 -2.098  2.905  1.494 ETKDGv2 24
-MPP HEA3 -3.206  2.148  2.698 ETKDGv2 25
-MPP  HE2 -1.017 -2.059 -1.993 ETKDGv2 26
-MPP HZA1 -4.531 -2.676 -0.706 ETKDGv2 27
-MPP HZA2 -2.834 -3.278 -0.803 ETKDGv2 28
-MPP HZA3 -3.497 -2.184 -2.099 ETKDGv2 29
+MPP   CA  2.152  1.584  1.507 ETKDGv2  1
+MPP    C  3.333  2.437  1.873 ETKDGv2  2
+MPP  OT1  3.707  3.389  1.134 ETKDGv2  3
+MPP  OT2  4.025  2.167  3.049 ETKDGv2  4
+MPP   CB  1.485  2.012  0.191 ETKDGv2  5
+MPP   CG  0.291  1.146 -0.120 ETKDGv2  6
+MPP  CD1  0.453 -0.133 -0.503 ETKDGv2  7
+MPP  CD2 -1.075  1.706 -0.019 ETKDGv2  8
+MPP  CE1 -0.727 -0.987 -0.814 ETKDGv2  9
+MPP  OEA -0.584 -2.325 -1.209 ETKDGv2 10
+MPP  CEA  0.668 -2.987 -1.347 ETKDGv2 11
+MPP  CE2 -2.139  0.946 -0.299 ETKDGv2 12
+MPP   CZ -1.965 -0.471 -0.716 ETKDGv2 13
+MPP  OZA -3.063 -1.292 -1.014 ETKDGv2 14
+MPP  CZA -4.419 -0.865 -0.948 ETKDGv2 15
+MPP  HA1  2.497  0.531  1.427 ETKDGv2 16
+MPP  HA2  1.408  1.644  2.331 ETKDGv2 17
+MPP  HO2  4.825  2.725  3.321 ETKDGv2 18
+MPP  HB1  2.214  1.946 -0.647 ETKDGv2 19
+MPP  HB2  1.167  3.074  0.276 ETKDGv2 20
+MPP  HD1  1.452 -0.540 -0.589 ETKDGv2 21
+MPP  HD2 -1.221  2.734  0.286 ETKDGv2 22
+MPP HEA1  0.491 -4.034 -1.667 ETKDGv2 23
+MPP HEA2  1.286 -2.479 -2.117 ETKDGv2 24
+MPP HEA3  1.203 -2.998 -0.374 ETKDGv2 25
+MPP  HE2 -3.127  1.380 -0.215 ETKDGv2 26
+MPP HZA1 -4.590 -0.026 -1.655 ETKDGv2 27
+MPP HZA2 -4.670 -0.550  0.087 ETKDGv2 28
+MPP HZA3 -5.079 -1.710 -1.232 ETKDGv2 29
 #

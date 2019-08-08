@@ -134,14 +134,12 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-BFR "Create component" 2017-01-19 RCSB YHL ?
-BFR   "Modify formula" 2017-01-25 RCSB YHL ?
-BFR   "Modify formula" 2017-01-25 RCSB YHL ?
-BFR   "Modify formula" 2017-01-25 RCSB YHL ?
-BFR   "Modify formula" 2017-01-26 RCSB YHL ?
-BFR  "Initial release" 2018-01-31 RCSB   ? ?
+BFR "Create component" 2017-01-19 RCSB
+BFR   "Modify formula" 2017-01-25 RCSB
+BFR   "Modify formula" 2017-01-25 RCSB
+BFR   "Modify formula" 2017-01-25 RCSB
+BFR   "Modify formula" 2017-01-26 RCSB
+BFR  "Initial release" 2018-01-31 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   BFR
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04830
@@ -166,9 +164,9 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 BFR         Buformin   ChEMBL
-BFR              DBV   ChEMBL
-BFR   "Buformin HCl"   ChEMBL
 BFR           "W 37"   ChEMBL
+BFR   "Buformin HCl"   ChEMBL
+BFR              DBV   ChEMBL
 BFR 1-Butylbiguanide DrugBank
 #
 loop_
@@ -263,30 +261,30 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BFR   C2  2.018  0.270 -1.132 ETKDGv2  1
-BFR   C3  1.080 -0.915 -0.844 ETKDGv2  2
-BFR   C4  0.991 -1.288  0.645 ETKDGv2  3
-BFR   N1  0.576 -0.147  1.461 ETKDGv2  4
-BFR   C5 -0.756  0.388  1.427 ETKDGv2  5
-BFR   N2 -1.049  1.427  2.144 ETKDGv2  6
-BFR   N3 -1.784 -0.308  0.702 ETKDGv2  7
-BFR   C6 -2.862  0.192  0.167 ETKDGv2  8
-BFR   N4 -3.096  1.605  0.106 ETKDGv2  9
-BFR   N5 -3.808 -0.694 -0.430 ETKDGv2 10
-BFR HC22  1.704  1.163 -0.550 ETKDGv2 11
-BFR HC33  1.421 -1.804 -1.418 ETKDGv2 12
-BFR HC32  0.066 -0.660 -1.218 ETKDGv2 13
-BFR HC43  0.270 -2.123  0.778 ETKDGv2 14
-BFR HC42  1.978 -1.656  0.997 ETKDGv2 15
-BFR  HN1  1.281  0.279  2.104 ETKDGv2 16
-BFR HN22 -0.329  1.923  2.715 ETKDGv2 17
-BFR HN42 -2.331  2.302  0.232 ETKDGv2 18
-BFR HN43 -4.020  1.962 -0.225 ETKDGv2 19
-BFR HN52 -4.670 -0.321 -0.887 ETKDGv2 20
-BFR HN53 -3.650 -1.726 -0.418 ETKDGv2 21
-BFR   C1  3.483 -0.047 -0.834 ETKDGv2 22
-BFR HC11  3.643 -0.169  0.257 ETKDGv2 23
-BFR HC23  1.929  0.529 -2.209 ETKDGv2 24
-BFR HC13  3.796 -0.973 -1.362 ETKDGv2 25
-BFR HC12  4.120  0.792 -1.185 ETKDGv2 26
+BFR   C2 -2.475  0.134 -0.709 ETKDGv2  1
+BFR   C3 -2.128 -0.763  0.486 ETKDGv2  2
+BFR   C4 -0.763 -1.436  0.315 ETKDGv2  3
+BFR   N1  0.311 -0.442  0.341 ETKDGv2  4
+BFR   C5  1.172 -0.175 -0.779 ETKDGv2  5
+BFR   N2  0.846 -0.590 -1.961 ETKDGv2  6
+BFR   N3  2.316  0.679 -0.630 ETKDGv2  7
+BFR   C6  3.153  0.690  0.368 ETKDGv2  8
+BFR   N4  3.112 -0.304  1.401 ETKDGv2  9
+BFR   N5  4.183  1.677  0.395 ETKDGv2 10
+BFR HC22 -2.460 -0.465 -1.646 ETKDGv2 11
+BFR HC33 -2.901 -1.557  0.585 ETKDGv2 12
+BFR HC32 -2.129 -0.163  1.422 ETKDGv2 13
+BFR HC43 -0.749 -2.027 -0.627 ETKDGv2 14
+BFR HC42 -0.605 -2.150  1.152 ETKDGv2 15
+BFR  HN1  0.446  0.106  1.221 ETKDGv2 16
+BFR HN22  1.429 -0.361 -2.797 ETKDGv2 17
+BFR HN42  3.742 -0.219  2.229 ETKDGv2 18
+BFR HN43  2.560 -1.184  1.302 ETKDGv2 19
+BFR HN52  4.248  2.397 -0.359 ETKDGv2 20
+BFR HN53  4.884  1.693  1.168 ETKDGv2 21
+BFR   C1 -3.858  0.759 -0.545 ETKDGv2 22
+BFR HC11 -3.893  1.382  0.373 ETKDGv2 23
+BFR HC23 -1.725  0.949 -0.801 ETKDGv2 24
+BFR HC13 -4.081  1.404 -1.421 ETKDGv2 25
+BFR HC12 -4.634 -0.034 -0.481 ETKDGv2 26
 #

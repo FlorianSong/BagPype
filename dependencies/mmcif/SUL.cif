@@ -1,0 +1,170 @@
+data_SUL
+#
+_chem_comp.id                                        SUL
+_chem_comp.name                                      "SULFATE ANION"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAI
+_chem_comp.formula                                   "O4 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        -2
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2008-10-14
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       OBS
+_chem_comp.pdbx_replaced_by                          SO4
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            96.063
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         SUL
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1CZ9
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SUL  S  S S  0 1 N N N 46.215 41.996 39.906  0.000  0.000  0.000  S SUL 1
+SUL O1 O1 O  0 1 N N N 47.339 41.238 39.273  0.000 -1.201 -0.850 O1 SUL 2
+SUL O2 O2 O  0 1 N N N 46.468 43.471 39.682  0.000  1.201 -0.850 O2 SUL 3
+SUL O3 O3 O -1 1 N N N 44.909 41.605 39.298 -1.201  0.000  0.850 O3 SUL 4
+SUL O4 O4 O -1 1 N N N 46.178 41.736 41.380  1.201  0.000  0.850 O4 SUL 5
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SUL S O1 DOUB N N 1
+SUL S O2 DOUB N N 2
+SUL S O3 SING N N 3
+SUL S O4 SING N N 4
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SUL           SMILES              ACDLabs 10.04                                 "[O-]S([O-])(=O)=O"
+SUL            InChI                InChI 1.02b InChI=1/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-2/fO4S/q-2
+SUL         InChIKey                InChI 1.02b                           QAOWNCQODCNURD-RUKIOYKXCY
+SUL SMILES_CANONICAL               CACTVS 3.341                               "[O-][S]([O-])(=O)=O"
+SUL           SMILES               CACTVS 3.341                               "[O-][S]([O-])(=O)=O"
+SUL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                 "[O-]S(=O)(=O)[O-]"
+SUL           SMILES "OpenEye OEToolkits" 1.5.0                                 "[O-]S(=O)(=O)[O-]"
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+SUL "SYSTEMATIC NAME"              ACDLabs 10.04 sulfate
+SUL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 sulfate
+#
+_pdbx_chem_comp_audit.comp_id               SUL
+_pdbx_chem_comp_audit.action_type           "Create component"
+_pdbx_chem_comp_audit.date                  1999-07-08
+_pdbx_chem_comp_audit.processing_site       EBI
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SUL  S S  0.000  0.000 1
+SUL O1 O  0.498  0.867 2
+SUL O2 O -0.498 -0.867 3
+SUL O3 O -0.867  0.498 4
+SUL O4 O  0.867 -0.498 5
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SUL S O1 DOUBLE NONE 1
+SUL S O2 DOUBLE NONE 2
+SUL S O3 SINGLE NONE 3
+SUL S O4 SINGLE NONE 4
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SUL
+_pdbe_chem_comp_rdkit_properties.exactmw                               95.953
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             29.006
+_pdbe_chem_comp_rdkit_properties.tpsa                                  80.260
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.338
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             10.475
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         5
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SUL  S -0.005  0.039  0.010 ETKDGv2 1
+SUL O1  0.012  0.573  1.414 ETKDGv2 2
+SUL O2 -0.214  1.172 -0.954 ETKDGv2 3
+SUL O3 -1.254 -1.072 -0.151 ETKDGv2 4
+SUL O4  1.460 -0.713 -0.320 ETKDGv2 5
+#

@@ -118,10 +118,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-INE  "Create component" 1999-09-10 RCSB ? ?
-INE "Modify descriptor" 2011-06-04 RCSB ? ?
+INE  "Create component" 1999-09-10 RCSB
+INE "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   INE
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01997
@@ -157,10 +155,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-INE SID85230935 ChEMBL
-INE SID50104558 ChEMBL
 INE SID90341482 ChEMBL
 INE SID50104557 ChEMBL
+INE SID50104558 ChEMBL
+INE SID85230935 ChEMBL
 #
 loop_
 _software.name              
@@ -299,21 +297,21 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-INE  N1  0.422 -2.030  0.051 ETKDGv2  1
-INE  N2  1.827 -2.070  0.093 ETKDGv2  2
-INE  C3  2.315 -0.865  0.110 ETKDGv2  3
-INE  C4  1.237  1.451  0.026 ETKDGv2  4
-INE  C5 -0.085  2.125 -0.053 ETKDGv2  5
-INE  C6 -1.225  1.399 -0.083 ETKDGv2  6
-INE  C7 -1.186 -0.097 -0.032 ETKDGv2  7
-INE  C8  0.034 -0.662  0.041 ETKDGv2  8
-INE  C9  1.240  0.120  0.071 ETKDGv2  9
-INE N10 -2.407 -0.857 -0.062 ETKDGv2 10
-INE O11 -3.593 -0.235 -0.374 ETKDGv2 11
-INE O12 -2.433 -2.055  0.284 ETKDGv2 12
-INE  BR  4.184 -0.488  0.157 ETKDGv2 13
-INE H11 -0.180 -2.876 -0.035 ETKDGv2 14
-INE H41  2.158  2.019  0.035 ETKDGv2 15
-INE H51 -0.131  3.206 -0.089 ETKDGv2 16
-INE H61 -2.176  1.914 -0.140 ETKDGv2 17
+INE  N1 -0.483  2.008 -0.189 ETKDGv2  1
+INE  N2  0.770  2.646 -0.180 ETKDGv2  2
+INE  C3  1.726  1.770 -0.086 ETKDGv2  3
+INE  C4  1.737 -0.776  0.132 ETKDGv2  4
+INE  C5  0.827 -1.949  0.211 ETKDGv2  5
+INE  C6 -0.513 -1.784  0.142 ETKDGv2  6
+INE  C7 -1.113 -0.422 -0.021 ETKDGv2  7
+INE  C8 -0.249  0.609 -0.090 ETKDGv2  8
+INE  C9  1.174  0.422 -0.014 ETKDGv2  9
+INE N10 -2.541 -0.261 -0.096 ETKDGv2 10
+INE O11 -3.366 -1.316  0.217 ETKDGv2 11
+INE O12 -3.052  0.790 -0.533 ETKDGv2 12
+INE  BR  3.576  2.232 -0.032 ETKDGv2 13
+INE H11 -1.393  2.516 -0.190 ETKDGv2 14
+INE H41  2.810 -0.892  0.201 ETKDGv2 15
+INE H51  1.244 -2.941  0.327 ETKDGv2 16
+INE H61 -1.154 -2.654  0.201 ETKDGv2 17
 #

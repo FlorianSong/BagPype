@@ -161,11 +161,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-ATL    "Create component" 2002-02-06  EBI ? ?
-ATL "Modify linking type" 2011-06-04 RCSB ? ?
-ATL   "Modify descriptor" 2011-06-04 RCSB ? ?
+ATL    "Create component" 2002-02-06  EBI
+ATL "Modify linking type" 2011-06-04 RCSB
+ATL   "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -337,42 +335,42 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ATL    OP1  5.868 -1.478 -1.366 ETKDGv2  1
-ATL      P  4.905 -1.366 -0.206 ETKDGv2  2
-ATL    OP2  5.707 -0.669  1.112 ETKDGv2  3
-ATL  "O5'"  3.588 -0.391 -0.676 ETKDGv2  4
-ATL  "C5'"  2.693 -0.301  0.408 ETKDGv2  5
-ATL  "C4'"  1.509  0.601  0.040 ETKDGv2  6
-ATL  "O4'"  0.528  0.637  1.067 ETKDGv2  7
-ATL  "C3'"  0.777  0.235 -1.219 ETKDGv2  8
-ATL  "O3'"  0.106 -0.996 -1.140 ETKDGv2  9
-ATL  "C2'" -0.131  1.411 -1.022 ETKDGv2 10
-ATL  "O2'"  0.743  2.531 -1.002 ETKDGv2 11
-ATL  "C1'" -0.610  1.193  0.428 ETKDGv2 12
-ATL  "C6'"  1.882  2.049 -0.309 ETKDGv2 13
-ATL     N1 -1.798  0.314  0.505 ETKDGv2 14
-ATL     C2 -1.818 -0.955  1.201 ETKDGv2 15
-ATL     O2 -0.798 -1.396  1.794 ETKDGv2 16
-ATL     N3 -3.018 -1.729  1.218 ETKDGv2 17
-ATL     C4 -4.192 -1.227  0.583 ETKDGv2 18
-ATL     O4 -5.253 -1.907  0.607 ETKDGv2 19
-ATL     C5 -4.157  0.088 -0.087 ETKDGv2 20
-ATL    C5M -5.410  0.658 -0.694 ETKDGv2 21
-ATL     C6 -3.023  0.807 -0.082 ETKDGv2 22
-ATL    OXT  4.367 -2.918  0.208 ETKDGv2 23
-ATL   HO2P  5.915  0.255  0.821 ETKDGv2 24
-ATL  "H5'"  3.191  0.138  1.302 ETKDGv2 25
-ATL "H5''"  2.291 -1.306  0.671 ETKDGv2 26
-ATL  "H3'"  1.382  0.314 -2.156 ETKDGv2 27
-ATL     HA  0.779 -1.692 -1.356 ETKDGv2 28
-ATL  "H2'" -0.928  1.513 -1.788 ETKDGv2 29
-ATL  "H1'" -0.854  2.168  0.905 ETKDGv2 30
-ATL "H9'1"  2.773  2.103 -0.973 ETKDGv2 31
-ATL "H9'2"  2.062  2.652  0.608 ETKDGv2 32
-ATL     H3 -3.039 -2.654  1.703 ETKDGv2 33
-ATL    H71 -5.174  1.417 -1.470 ETKDGv2 34
-ATL    H72 -6.022  1.132  0.101 ETKDGv2 35
-ATL    H73 -6.005 -0.145 -1.178 ETKDGv2 36
-ATL     H6 -3.025  1.791 -0.537 ETKDGv2 37
-ATL    HXT  4.192 -2.877  1.182 ETKDGv2 38
+ATL    OP1  3.246  1.333  3.282 ETKDGv2  1
+ATL      P  3.065 -0.043  2.679 ETKDGv2  2
+ATL    OP2  2.455 -1.082  3.866 ETKDGv2  3
+ATL  "O5'"  1.953  0.028  1.389 ETKDGv2  4
+ATL  "C5'"  2.510  0.809  0.357 ETKDGv2  5
+ATL  "C4'"  1.493  0.949 -0.780 ETKDGv2  6
+ATL  "O4'"  0.246  1.467 -0.335 ETKDGv2  7
+ATL  "C3'"  1.181 -0.312 -1.528 ETKDGv2  8
+ATL  "O3'"  0.520 -1.269 -0.741 ETKDGv2  9
+ATL  "C2'"  0.265  0.462 -2.432 ETKDGv2 10
+ATL  "O2'"  1.104  1.446 -3.017 ETKDGv2 11
+ATL  "C1'" -0.635  1.189 -1.412 ETKDGv2 12
+ATL  "C6'"  1.972  1.812 -1.956 ETKDGv2 13
+ATL     N1 -1.792  0.372 -0.991 ETKDGv2 14
+ATL     C2 -2.838  0.081 -1.940 ETKDGv2 15
+ATL     O2 -2.796  0.547 -3.110 ETKDGv2 16
+ATL     N3 -3.940 -0.736 -1.547 ETKDGv2 17
+ATL     C4 -4.023 -1.207 -0.203 ETKDGv2 18
+ATL     O4 -4.980 -1.953  0.139 ETKDGv2 19
+ATL     C5 -2.989 -0.814  0.776 ETKDGv2 20
+ATL    C5M -3.069 -1.308  2.195 ETKDGv2 21
+ATL     C6 -1.939 -0.076  0.377 ETKDGv2 22
+ATL    OXT  4.559 -0.640  2.146 ETKDGv2 23
+ATL   HO2P  2.328 -1.947  3.400 ETKDGv2 24
+ATL  "H5'"  2.755  1.832  0.723 ETKDGv2 25
+ATL "H5''"  3.430  0.328 -0.046 ETKDGv2 26
+ATL  "H3'"  2.059 -0.758 -2.056 ETKDGv2 27
+ATL     HA  0.302 -2.022 -1.350 ETKDGv2 28
+ATL  "H2'" -0.258 -0.153 -3.194 ETKDGv2 29
+ATL  "H1'" -1.005  2.151 -1.835 ETKDGv2 30
+ATL "H9'1"  1.873  2.895 -1.730 ETKDGv2 31
+ATL "H9'2"  3.024  1.582 -2.236 ETKDGv2 32
+ATL     H3 -4.685 -0.981 -2.238 ETKDGv2 33
+ATL    H71 -2.508 -0.642  2.887 ETKDGv2 34
+ATL    H72 -2.642 -2.331  2.254 ETKDGv2 35
+ATL    H73 -4.125 -1.335  2.537 ETKDGv2 36
+ATL     H6 -1.177  0.171  1.106 ETKDGv2 37
+ATL    HXT  5.062  0.155  1.836 ETKDGv2 38
 #

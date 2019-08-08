@@ -233,11 +233,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-RUT     "Create component" 2004-01-06 RCSB ? ?
-RUT "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-RUT    "Modify descriptor" 2011-06-04 RCSB ? ?
+RUT     "Create component" 2004-01-06 RCSB
+RUT "Modify aromatic_flag" 2011-06-04 RCSB
+RUT    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   RUT
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01698
@@ -272,9 +270,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+RUT                                                                                                                        Rutoside   ChEMBL
 RUT                                                                                                                           Rutin   ChEMBL
 RUT                                                                                                                      NSC-115918   ChEMBL
-RUT                                                                                                                        Rutoside   ChEMBL
 RUT 3-[[6-O-(6-Deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl]oxy]-2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4H-1-benzopyran-4-one DrugBank
 RUT                                                                                                       3-Rhamnoglucosylquercetin DrugBank
 RUT                                                                                                         "3-Rutinosyl quercetin" DrugBank
@@ -527,77 +525,77 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-RUT   O1 -4.445 -0.845  0.945 ETKDGv2  1
-RUT   C1 -3.188 -0.402  0.501 ETKDGv2  2
-RUT   C2 -2.360 -1.232 -0.177 ETKDGv2  3
-RUT   O2 -1.146 -0.775 -0.702 ETKDGv2  4
-RUT   C3 -2.722 -2.647 -0.388 ETKDGv2  5
-RUT   O3 -1.913 -3.409 -0.982 ETKDGv2  6
-RUT   C4 -4.463 -4.412 -0.076 ETKDGv2  7
-RUT   O4 -3.672 -5.364 -0.716 ETKDGv2  8
-RUT   C5 -5.801 -4.800  0.432 ETKDGv2  9
-RUT   C6 -6.582 -3.902  1.047 ETKDGv2 10
-RUT   O5 -7.836 -4.283  1.517 ETKDGv2 11
-RUT   C7 -6.105 -2.513  1.224 ETKDGv2 12
-RUT   C8 -4.898 -2.155  0.771 ETKDGv2 13
-RUT   C9 -4.032 -3.142  0.087 ETKDGv2 14
-RUT  C10 -2.820  1.000  0.799 ETKDGv2 15
-RUT  C11 -1.619  1.321  1.316 ETKDGv2 16
-RUT  C12 -1.280  2.729  1.615 ETKDGv2 17
-RUT   O6 -0.016  3.022  2.128 ETKDGv2 18
-RUT  C13 -2.187  3.698  1.390 ETKDGv2 19
-RUT   O7 -1.881  5.029  1.664 ETKDGv2 20
-RUT  C14 -3.521  3.344  0.852 ETKDGv2 21
-RUT  C15 -3.822  2.069  0.579 ETKDGv2 22
-RUT  C16 -1.079  0.125 -1.811 ETKDGv2 23
-RUT  C17 -0.657 -0.646 -3.094 ETKDGv2 24
-RUT   O8 -1.782 -1.037 -3.843 ETKDGv2 25
-RUT  C18  0.310  0.204 -3.937 ETKDGv2 26
-RUT   O9  0.698 -0.513 -5.081 ETKDGv2 27
-RUT  C19  1.542  0.613 -3.089 ETKDGv2 28
-RUT  O10  2.542 -0.373 -3.164 ETKDGv2 29
-RUT  C20  1.148  0.811 -1.599 ETKDGv2 30
-RUT  C21  2.018  1.878 -0.919 ETKDGv2 31
-RUT  O11 -0.208  1.205 -1.499 ETKDGv2 32
-RUT  C22  3.802  0.861  0.196 ETKDGv2 33
-RUT  O12  3.390  1.526 -0.984 ETKDGv2 34
-RUT  C23  5.147  0.131 -0.062 ETKDGv2 35
-RUT  O13  5.940  0.805 -1.011 ETKDGv2 36
-RUT  C24  5.934 -0.111  1.254 ETKDGv2 37
-RUT  O14  6.886  0.907  1.453 ETKDGv2 38
-RUT  C25  4.959 -0.152  2.447 ETKDGv2 39
-RUT  O15  5.656 -0.341  3.652 ETKDGv2 40
-RUT  C26  4.151  1.178  2.509 ETKDGv2 41
-RUT  C27  2.806  0.995  3.219 ETKDGv2 42
-RUT  O16  3.960  1.806  1.242 ETKDGv2 43
-RUT  HO4 -3.992 -6.317 -0.841 ETKDGv2 44
-RUT   H5 -6.149 -5.818  0.302 ETKDGv2 45
-RUT  HO5 -8.443 -3.621  1.985 ETKDGv2 46
-RUT   H7 -6.734 -1.787  1.723 ETKDGv2 47
-RUT  H11 -0.884  0.554  1.527 ETKDGv2 48
-RUT  HO6  0.277  3.966  2.348 ETKDGv2 49
-RUT  HO7 -2.555  5.768  1.500 ETKDGv2 50
-RUT   H2 -4.257  4.119  0.680 ETKDGv2 51
-RUT   H1 -4.800  1.824  0.184 ETKDGv2 52
-RUT  H16 -2.082  0.578 -1.983 ETKDGv2 53
-RUT  H17 -0.117 -1.572 -2.795 ETKDGv2 54
-RUT  HO8 -2.225 -0.213 -4.175 ETKDGv2 55
-RUT  H18 -0.230  1.130 -4.248 ETKDGv2 56
-RUT  HO9  1.108  0.145 -5.702 ETKDGv2 57
-RUT  H19  1.927  1.577 -3.503 ETKDGv2 58
-RUT  H10  3.094 -0.171 -3.964 ETKDGv2 59
-RUT  H20  1.305 -0.143 -1.044 ETKDGv2 60
-RUT H211  1.884  2.846 -1.448 ETKDGv2 61
-RUT H212  1.658  2.049  0.123 ETKDGv2 62
-RUT  H22  3.049  0.084  0.478 ETKDGv2 63
-RUT  H23  4.896 -0.863 -0.496 ETKDGv2 64
-RUT  H13  6.014  1.753 -0.725 ETKDGv2 65
-RUT  H24  6.453 -1.095  1.171 ETKDGv2 66
-RUT  H14  7.582  0.540  2.057 ETKDGv2 67
-RUT  H25  4.256 -1.005  2.293 ETKDGv2 68
-RUT  H15  5.960 -1.286  3.661 ETKDGv2 69
-RUT  H26  4.741  1.894  3.123 ETKDGv2 70
-RUT H271  2.965  0.584  4.238 ETKDGv2 71
-RUT H272  2.296  1.977  3.312 ETKDGv2 72
-RUT H273  2.147  0.305  2.652 ETKDGv2 73
+RUT   O1 -4.335  1.493 -0.471 ETKDGv2  1
+RUT   C1 -3.804  0.206 -0.287 ETKDGv2  2
+RUT   C2 -2.545 -0.101 -0.676 ETKDGv2  3
+RUT   O2 -2.100 -1.425 -0.500 ETKDGv2  4
+RUT   C3 -1.692  0.949 -1.307 ETKDGv2  5
+RUT   O3 -0.561  0.655 -1.775 ETKDGv2  6
+RUT   C4 -1.484  3.364 -1.919 ETKDGv2  7
+RUT   O4 -0.164  3.189 -2.333 ETKDGv2  8
+RUT   C5 -2.103  4.708 -2.019 ETKDGv2  9
+RUT   C6 -3.372  4.902 -1.628 ETKDGv2 10
+RUT   O5 -3.964  6.160 -1.721 ETKDGv2 11
+RUT   C7 -4.154  3.771 -1.091 ETKDGv2 12
+RUT   C8 -3.599  2.557 -0.992 ETKDGv2 13
+RUT   C9 -2.205  2.331 -1.428 ETKDGv2 14
+RUT  C10 -4.686 -0.802  0.348 ETKDGv2 15
+RUT  C11 -5.970 -0.902 -0.035 ETKDGv2 16
+RUT  C12 -6.871 -1.892  0.596 ETKDGv2 17
+RUT   O6 -8.191 -1.979  0.150 ETKDGv2 18
+RUT  C13 -6.410 -2.687  1.579 ETKDGv2 19
+RUT   O7 -7.246 -3.626  2.179 ETKDGv2 20
+RUT  C14 -5.005 -2.558  2.028 ETKDGv2 21
+RUT  C15 -4.192 -1.664  1.454 ETKDGv2 22
+RUT  C16 -0.745 -1.873 -0.480 ETKDGv2 23
+RUT  C17 -0.749 -3.366 -0.100 ETKDGv2 24
+RUT   O8 -1.482 -4.118 -1.036 ETKDGv2 25
+RUT  C18  0.692 -3.891  0.021 ETKDGv2 26
+RUT   O9  0.691 -5.207  0.514 ETKDGv2 27
+RUT  C19  1.498 -2.985  0.967 ETKDGv2 28
+RUT  O10  1.050 -3.150  2.291 ETKDGv2 29
+RUT  C20  1.342 -1.495  0.576 ETKDGv2 30
+RUT  C21  2.167 -1.088 -0.666 ETKDGv2 31
+RUT  O11 -0.023 -1.107  0.474 ETKDGv2 32
+RUT  C22  4.097  0.093 -0.079 ETKDGv2 33
+RUT  O12  3.554 -1.179 -0.386 ETKDGv2 34
+RUT  C23  5.472 -0.087  0.603 ETKDGv2 35
+RUT  O13  6.155 -1.177  0.035 ETKDGv2 36
+RUT  C24  6.326  1.212  0.506 ETKDGv2 37
+RUT  O14  7.341  1.107 -0.466 ETKDGv2 38
+RUT  C25  5.437  2.446  0.240 ETKDGv2 39
+RUT  O15  6.228  3.592  0.053 ETKDGv2 40
+RUT  C26  4.544  2.211 -1.014 ETKDGv2 41
+RUT  C27  3.252  3.032 -0.957 ETKDGv2 42
+RUT  O16  4.246  0.842 -1.273 ETKDGv2 43
+RUT  HO4  0.379  3.961 -2.701 ETKDGv2 44
+RUT   H5 -1.523  5.533 -2.413 ETKDGv2 45
+RUT  HO5 -3.461  6.962 -2.084 ETKDGv2 46
+RUT   H7 -5.176  3.929 -0.771 ETKDGv2 47
+RUT  H11 -6.360 -0.271 -0.825 ETKDGv2 48
+RUT  HO6 -8.855 -2.636  0.541 ETKDGv2 49
+RUT  HO7 -6.912 -4.229  2.921 ETKDGv2 50
+RUT   H2 -4.636 -3.179  2.834 ETKDGv2 51
+RUT   H1 -3.177 -1.562  1.818 ETKDGv2 52
+RUT  H16 -0.322 -1.756 -1.500 ETKDGv2 53
+RUT  H17 -1.250 -3.472  0.888 ETKDGv2 54
+RUT  HO8 -1.037 -4.017 -1.919 ETKDGv2 55
+RUT  H18  1.181 -3.875 -0.981 ETKDGv2 56
+RUT  HO9  0.449 -5.800 -0.244 ETKDGv2 57
+RUT  H19  2.577 -3.262  0.902 ETKDGv2 58
+RUT  H10  1.519 -3.943  2.661 ETKDGv2 59
+RUT  H20  1.761 -0.908  1.422 ETKDGv2 60
+RUT H211  1.853 -0.073 -1.006 ETKDGv2 61
+RUT H212  1.954 -1.768 -1.514 ETKDGv2 62
+RUT  H22  3.430  0.624  0.645 ETKDGv2 63
+RUT  H23  5.273 -0.306  1.679 ETKDGv2 64
+RUT  H13  6.885 -1.415  0.665 ETKDGv2 65
+RUT  H24  6.830  1.360  1.486 ETKDGv2 66
+RUT  H14  6.911  0.913 -1.339 ETKDGv2 67
+RUT  H25  4.782  2.594  1.132 ETKDGv2 68
+RUT  H15  6.588  3.840  0.945 ETKDGv2 69
+RUT  H26  5.111  2.577 -1.899 ETKDGv2 70
+RUT H271  2.674  2.883 -1.894 ETKDGv2 71
+RUT H272  2.620  2.722 -0.099 ETKDGv2 72
+RUT H273  3.489  4.113 -0.858 ETKDGv2 73
 #

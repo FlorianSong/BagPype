@@ -1,0 +1,150 @@
+data_NI1
+#
+_chem_comp.id                                        NI1
+_chem_comp.name                                      "NICKEL ION, 1 WATER COORDINATED"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETIC
+_chem_comp.formula                                   "H2 Ni O"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        2
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2008-10-14
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       OBS
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            76.709
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         NI1
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
+_chem_comp.pdbx_model_coordinates_db_code            3PHM
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+NI1   NI   NI NI 2 0 N N N 22.903 7.795 49.079 -0.454  0.002 0.000   NI NI1 1
+NI1   O1   O1  O 0 1 N N N 22.254 7.820 50.932  1.549 -0.062 0.000   O1 NI1 2
+NI1 HO11 1HO1  H 0 0 N N N 22.161 8.120 50.036      ?      ?     ? HO11 NI1 3
+NI1 HO12 2HO1  H 0 0 N N N 21.910 7.372 51.696  1.858  0.854 0.000 HO12 NI1 4
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+NI1 NI   O1 SING N N 1
+NI1 O1 HO11 SING N N 2
+NI1 O1 HO12 SING N N 3
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+NI1            InChI                InChI 1.02b InChI=1/Ni.H2O/h;1H2/q+2;/rH2NiO/c1-2/h2H2/q+2
+NI1         InChIKey                InChI 1.02b                      FUFKFNZOGMJPAL-AKTWZOJAAY
+NI1 SMILES_CANONICAL               CACTVS 3.341                                       O|[Ni++]
+NI1           SMILES               CACTVS 3.341                                       O|[Ni++]
+NI1 SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                  "[OH2][Ni+2]"
+NI1           SMILES "OpenEye OEToolkits" 1.5.0                                  "[OH2][Ni+2]"
+#
+_pdbx_chem_comp_audit.comp_id               NI1
+_pdbx_chem_comp_audit.action_type           "Create component"
+_pdbx_chem_comp_audit.date                  1999-07-08
+_pdbx_chem_comp_audit.processing_site       RCSB
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+NI1 NI Ni -2.000 0.000 1
+NI1 O1  O  0.000 0.000 2
+#
+_pdbe_chem_comp_bond_depiction.comp_id            NI1
+_pdbe_chem_comp_bond_depiction.atom_id_1          NI
+_pdbe_chem_comp_bond_depiction.atom_id_2          O1
+_pdbe_chem_comp_bond_depiction.value_order        SINGLE
+_pdbe_chem_comp_bond_depiction.bond_dir           NONE
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       1
+
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               NI1
+_pdbe_chem_comp_rdkit_properties.exactmw                               75.945
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                0
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             23.948
+_pdbe_chem_comp_rdkit_properties.tpsa                                  22.900
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.827
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             3.614
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         2
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+NI1   NI  1.375 -0.059 -0.035 ETKDGv2 1
+NI1   O1 -0.071  0.002  0.127 ETKDGv2 2
+NI1 HO11 -0.617  0.810 -0.045 ETKDGv2 3
+NI1 HO12 -0.686 -0.754 -0.046 ETKDGv2 4
+#

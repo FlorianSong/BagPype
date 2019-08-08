@@ -138,11 +138,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-H3P     "Create component" 2008-11-04 RCSB ? ?
-H3P "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-H3P    "Modify descriptor" 2011-06-04 RCSB ? ?
+H3P     "Create component" 2008-11-04 RCSB
+H3P "Modify aromatic_flag" 2011-06-04 RCSB
+H3P    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   H3P
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00756
@@ -179,24 +177,24 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-H3P                                                  Phisohex   ChEMBL
-H3P                                       'Germa-Medica "Mg"'   ChEMBL
-H3P                                                 Hexascrub   ChEMBL
-H3P                                                Septi-Soft   ChEMBL
-H3P                                                  Gamophen   ChEMBL
-H3P                                                    Turgex   ChEMBL
-H3P                                                    Pre-op   ChEMBL
-H3P                          "Scrubteam Surgical Spongebrush"   ChEMBL
-H3P                                                    Pre-Op   ChEMBL
-H3P                                               "Pre-Op ii"   ChEMBL
-H3P                                              Germa-medica   ChEMBL
 H3P                                                 Hexa-Germ   ChEMBL
-H3P                                           Hexachlorophene   ChEMBL
+H3P                                                    Pre-Op   ChEMBL
 H3P                                                  Soy-Dome   ChEMBL
+H3P                                                    Turgex   ChEMBL
+H3P                          "Scrubteam Surgical Spongebrush"   ChEMBL
 H3P                                              Germa-Medica   ChEMBL
-H3P                                               "E-Z Scrub"   ChEMBL
-H3P                                               Phiso-Scrub   ChEMBL
 H3P                                                  Septisol   ChEMBL
+H3P                                               Phiso-Scrub   ChEMBL
+H3P                                                  Phisohex   ChEMBL
+H3P                                                    Pre-op   ChEMBL
+H3P                                           Hexachlorophene   ChEMBL
+H3P                                                Septi-Soft   ChEMBL
+H3P                                              Germa-medica   ChEMBL
+H3P                                       'Germa-Medica "Mg"'   ChEMBL
+H3P                                               "Pre-Op ii"   ChEMBL
+H3P                                               "E-Z Scrub"   ChEMBL
+H3P                                                  Gamophen   ChEMBL
+H3P                                                 Hexascrub   ChEMBL
 H3P "2,2'-dihydroxy-3,3',5,5',6,6'-hexachlorodiphenylmethane" DrugBank
 H3P "2,2'-dihydroxy-3,5,6,3',5',6'-hexachlorodiphenylmethane" DrugBank
 H3P              "2,2'-methanediylbis(3,4,6-trichlorophenol)" DrugBank
@@ -366,31 +364,31 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-H3P  OAA  0.890  2.151  0.045 ETKDGv2  1
-H3P  CAP  1.652  0.981  0.106 ETKDGv2  2
-H3P  CAL  2.837  0.888 -0.531 ETKDGv2  3
-H3P CLAC  3.494  2.211 -1.486 ETKDGv2  4
-H3P  CAI  3.631 -0.349 -0.433 ETKDGv2  5
-H3P  CAN  3.193 -1.382  0.292 ETKDGv2  6
-H3P CLAE  4.182 -2.834  0.383 ETKDGv2  7
-H3P  CAR  1.891 -1.300  1.001 ETKDGv2  8
-H3P CLAG  1.384 -2.693  1.964 ETKDGv2  9
-H3P  CAT  1.135 -0.176  0.898 ETKDGv2 10
-H3P  CAK -0.215 -0.037  1.583 ETKDGv2 11
-H3P  CAU -1.336  0.140  0.573 ETKDGv2 12
-H3P  CAS -2.102  1.261  0.527 ETKDGv2 13
-H3P CLAH -1.881  2.603  1.656 ETKDGv2 14
-H3P  CAO -3.172  1.384 -0.496 ETKDGv2 15
-H3P CLAF -4.163  2.834 -0.599 ETKDGv2 16
-H3P  CAJ -3.392  0.390 -1.361 ETKDGv2 17
-H3P  CAM -2.590 -0.843 -1.306 ETKDGv2 18
-H3P CLAD -2.959 -2.115 -2.465 ETKDGv2 19
-H3P  CAQ -1.615 -0.974 -0.384 ETKDGv2 20
-H3P  OAB -0.854 -2.143 -0.298 ETKDGv2 21
-H3P HOAA  1.171  2.976 -0.470 ETKDGv2 22
-H3P  HAI  4.580 -0.413 -0.950 ETKDGv2 23
-H3P  HAK -0.471 -0.911  2.212 ETKDGv2 24
-H3P HAKA -0.137  0.807  2.294 ETKDGv2 25
-H3P  HAJ -4.171  0.484 -2.107 ETKDGv2 26
-H3P HOAB -0.982 -2.939 -0.908 ETKDGv2 27
+H3P  OAA -0.633 -1.802  0.521 ETKDGv2  1
+H3P  CAP -1.552 -0.831  0.116 ETKDGv2  2
+H3P  CAL -2.803 -0.808  0.621 ETKDGv2  3
+H3P CLAC -3.347 -1.965  1.829 ETKDGv2  4
+H3P  CAI -3.769  0.199  0.152 ETKDGv2  5
+H3P  CAN -3.427  1.083 -0.787 ETKDGv2  6
+H3P CLAE -4.625  2.255 -1.324 ETKDGv2  7
+H3P  CAR -2.057  1.074 -1.359 ETKDGv2  8
+H3P CLAG -1.694  2.238 -2.640 ETKDGv2  9
+H3P  CAT -1.136  0.186 -0.901 ETKDGv2 10
+H3P  CAK  0.286  0.151 -1.447 ETKDGv2 11
+H3P  CAU  1.338  0.182 -0.347 ETKDGv2 12
+H3P  CAS  1.536  1.319  0.372 ETKDGv2 13
+H3P CLAH  0.579  2.778  0.092 ETKDGv2 14
+H3P  CAO  2.602  1.376  1.403 ETKDGv2 15
+H3P CLAF  2.863  2.833  2.355 ETKDGv2 16
+H3P  CAJ  3.389  0.320  1.614 ETKDGv2 17
+H3P  CAM  3.195 -0.919  0.845 ETKDGv2 18
+H3P CLAD  4.245 -2.289  1.185 ETKDGv2 19
+H3P  CAQ  2.220 -1.009 -0.075 ETKDGv2 20
+H3P  OAB  2.059 -2.232 -0.734 ETKDGv2 21
+H3P HOAA -0.841 -2.522  1.200 ETKDGv2 22
+H3P  HAI -4.769  0.209  0.569 ETKDGv2 23
+H3P  HAK  0.506  0.997 -2.127 ETKDGv2 24
+H3P HAKA  0.375 -0.733 -2.100 ETKDGv2 25
+H3P  HAJ  4.171  0.365  2.362 ETKDGv2 26
+H3P HOAB  1.288 -2.455 -1.346 ETKDGv2 27
 #

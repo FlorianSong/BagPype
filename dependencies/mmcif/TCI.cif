@@ -188,11 +188,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-TCI     "Create component" 2010-02-23 PDBJ ? ?
-TCI "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-TCI    "Modify descriptor" 2011-06-04 RCSB ? ?
+TCI     "Create component" 2010-02-23 PDBJ
+TCI "Modify aromatic_flag" 2011-06-04 RCSB
+TCI    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   TCI
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00470
@@ -227,11 +225,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-TCI                                                                  Marinol   ChEMBL
-TCI                                                                  Syndros   ChEMBL
-TCI                                             delta-9-Tetrahydrocannabinol   ChEMBL
 TCI                                                              delta-9-THC   ChEMBL
+TCI                                                                  Syndros   ChEMBL
 TCI                                                               Dronabinol   ChEMBL
+TCI                                             delta-9-Tetrahydrocannabinol   ChEMBL
+TCI                                                                  Marinol   ChEMBL
 TCI                                    (-)-delta9-trans-Tetrahydrocannabinol DrugBank
 TCI                                     1-trans-delta-9-Tetrahydrocannabinol DrugBank
 TCI 3-Pentyl-6,6,9-trimethyl-6a,7,8,10a-tetrahydro-6H-dibenzo(b,d)pyran-1-ol DrugBank
@@ -419,57 +417,57 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-TCI   C1  1.299  0.614  0.246 ETKDGv2  1
-TCI   O1 -0.568  0.588  1.852 ETKDGv2  2
-TCI   C2  1.775  0.822 -0.989 ETKDGv2  3
-TCI   O2 -1.331  1.665 -2.869 ETKDGv2  4
-TCI   C3  0.836  1.164 -2.077 ETKDGv2  5
-TCI   C4 -0.484  1.246 -1.845 ETKDGv2  6
-TCI   C5 -1.031  0.923 -0.487 ETKDGv2  7
-TCI   C6 -0.148  0.715  0.522 ETKDGv2  8
-TCI   C7 -2.540  0.951 -0.203 ETKDGv2  9
-TCI   C8 -3.338  0.271 -1.305 ETKDGv2 10
-TCI   C9 -3.925 -0.935 -1.181 ETKDGv2 11
-TCI  C10 -3.960 -1.673  0.133 ETKDGv2 12
-TCI  C11 -2.907 -1.180  1.124 ETKDGv2 13
-TCI  C12 -2.894  0.366  1.201 ETKDGv2 14
-TCI  C13 -1.894  0.898  2.275 ETKDGv2 15
-TCI  C14 -2.021  2.430  2.439 ETKDGv2 16
-TCI  C15 -2.124  0.257  3.658 ETKDGv2 17
-TCI  C16 -4.697 -1.496 -2.344 ETKDGv2 18
-TCI  C17  3.244  0.677 -1.282 ETKDGv2 19
-TCI  C18  3.579 -0.779 -1.631 ETKDGv2 20
-TCI  C19  5.031 -0.964 -2.108 ETKDGv2 21
-TCI  C20  6.104 -0.616 -1.061 ETKDGv2 22
-TCI  C21  6.022 -1.487  0.193 ETKDGv2 23
-TCI   H1  1.971  0.364  1.058 ETKDGv2 24
-TCI  HO2 -0.986  1.898 -3.793 ETKDGv2 25
-TCI   H3  1.226  1.384 -3.063 ETKDGv2 26
-TCI   H7 -2.858  2.016 -0.215 ETKDGv2 27
-TCI   H8 -3.463  0.801 -2.244 ETKDGv2 28
-TCI  H10 -3.802 -2.759 -0.044 ETKDGv2 29
-TCI H10A -4.970 -1.543  0.580 ETKDGv2 30
-TCI  H11 -1.907 -1.562  0.820 ETKDGv2 31
-TCI H11A -3.162 -1.627  2.106 ETKDGv2 32
-TCI  H12 -3.920  0.702  1.476 ETKDGv2 33
-TCI  H14 -1.724  2.967  1.515 ETKDGv2 34
-TCI H14A -3.065  2.710  2.698 ETKDGv2 35
-TCI H14B -1.348  2.794  3.244 ETKDGv2 36
-TCI  H15 -1.522  0.771  4.438 ETKDGv2 37
-TCI H15A -1.797 -0.804  3.666 ETKDGv2 38
-TCI H15B -3.196  0.315  3.944 ETKDGv2 39
-TCI  H16 -5.179 -2.460 -2.077 ETKDGv2 40
-TCI H16A -5.491 -0.782 -2.652 ETKDGv2 41
-TCI H16B -4.011 -1.669 -3.200 ETKDGv2 42
-TCI  H17  3.522  1.340 -2.130 ETKDGv2 43
-TCI H17A  3.832  1.004 -0.397 ETKDGv2 44
-TCI  H18  3.373 -1.437 -0.760 ETKDGv2 45
-TCI H18A  2.910 -1.112 -2.455 ETKDGv2 46
-TCI  H19  5.168 -2.021 -2.423 ETKDGv2 47
-TCI H19A  5.197 -0.334 -3.009 ETKDGv2 48
-TCI  H20  7.102 -0.771 -1.526 ETKDGv2 49
-TCI H20A  6.043  0.456 -0.778 ETKDGv2 50
-TCI  H21  6.912 -1.300  0.830 ETKDGv2 51
-TCI H21A  5.117 -1.236  0.784 ETKDGv2 52
-TCI H21B  6.002 -2.563 -0.081 ETKDGv2 53
+TCI   C1  0.814  0.104 -1.504 ETKDGv2  1
+TCI   O1 -1.591  0.261 -2.011 ETKDGv2  2
+TCI   C2  1.821 -0.361 -0.752 ETKDGv2  3
+TCI   O2 -0.010 -2.222  1.909 ETKDGv2  4
+TCI   C3  1.514 -1.153  0.457 ETKDGv2  5
+TCI   C4  0.243 -1.391  0.819 ETKDGv2  6
+TCI   C5 -0.887 -0.796  0.034 ETKDGv2  7
+TCI   C6 -0.589 -0.163 -1.130 ETKDGv2  8
+TCI   C7 -2.350 -1.002  0.453 ETKDGv2  9
+TCI   C8 -2.544 -0.809  1.949 ETKDGv2 10
+TCI   C9 -3.142  0.264  2.503 ETKDGv2 11
+TCI  C10 -3.808  1.326  1.665 ETKDGv2 12
+TCI  C11 -3.339  1.322  0.211 ETKDGv2 13
+TCI  C12 -3.336 -0.113 -0.369 ETKDGv2 14
+TCI  C13 -2.953 -0.140 -1.883 ETKDGv2 15
+TCI  C14 -3.822  0.818 -2.723 ETKDGv2 16
+TCI  C15 -3.114 -1.561 -2.469 ETKDGv2 17
+TCI  C16 -3.283  0.330  3.999 ETKDGv2 18
+TCI  C17  3.252 -0.056 -1.105 ETKDGv2 19
+TCI  C18  3.720  1.218 -0.390 ETKDGv2 20
+TCI  C19  5.124  1.671 -0.827 ETKDGv2 21
+TCI  C20  6.253  0.675 -0.508 ETKDGv2 22
+TCI  C21  6.410  0.406  0.988 ETKDGv2 23
+TCI   H1  1.017  0.684 -2.395 ETKDGv2 24
+TCI  HO2  0.735 -2.644  2.451 ETKDGv2 25
+TCI   H3  2.329 -1.572  1.035 ETKDGv2 26
+TCI   H7 -2.604 -2.064  0.250 ETKDGv2 27
+TCI   H8 -2.201 -1.596  2.612 ETKDGv2 28
+TCI  H10 -3.605  2.327  2.103 ETKDGv2 29
+TCI H10A -4.906  1.156  1.695 ETKDGv2 30
+TCI  H11 -2.323  1.768  0.150 ETKDGv2 31
+TCI H11A -4.037  1.977 -0.348 ETKDGv2 32
+TCI  H12 -4.364 -0.528 -0.258 ETKDGv2 33
+TCI  H14 -3.557  1.877 -2.523 ETKDGv2 34
+TCI H14A -3.651  0.656 -3.809 ETKDGv2 35
+TCI H14B -4.900  0.659 -2.509 ETKDGv2 36
+TCI  H15 -4.150 -1.931 -2.318 ETKDGv2 37
+TCI H15A -2.895 -1.560 -3.559 ETKDGv2 38
+TCI H15B -2.406 -2.277 -2.007 ETKDGv2 39
+TCI  H16 -3.824 -0.566  4.370 ETKDGv2 40
+TCI H16A -3.851  1.234  4.307 ETKDGv2 41
+TCI H16B -2.277  0.370  4.468 ETKDGv2 42
+TCI  H17  3.886 -0.917 -0.802 ETKDGv2 43
+TCI H17A  3.359  0.066 -2.206 ETKDGv2 44
+TCI  H18  3.011  2.042 -0.628 ETKDGv2 45
+TCI H18A  3.688  1.070  0.711 ETKDGv2 46
+TCI  H19  5.117  1.860 -1.923 ETKDGv2 47
+TCI H19A  5.352  2.641 -0.333 ETKDGv2 48
+TCI  H20  6.095 -0.283 -1.047 ETKDGv2 49
+TCI H20A  7.207  1.103 -0.885 ETKDGv2 50
+TCI  H21  7.333 -0.186  1.162 ETKDGv2 51
+TCI H21A  6.490  1.361  1.549 ETKDGv2 52
+TCI H21B  5.549 -0.181  1.372 ETKDGv2 53
 #

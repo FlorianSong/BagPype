@@ -153,11 +153,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-S38     "Create component" 2010-09-27 PDBJ ? ?
-S38 "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-S38    "Modify descriptor" 2011-06-04 RCSB ? ?
+S38     "Create component" 2010-09-27 PDBJ
+S38 "Modify aromatic_flag" 2011-06-04 RCSB
+S38    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -326,38 +324,38 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-S38   C1 -3.949  1.276  0.568 ETKDGv2  1
-S38   C2 -3.493  1.991 -0.471 ETKDGv2  2
-S38   C3 -2.190  1.652 -1.080 ETKDGv2  3
-S38   C4 -1.471  0.628 -0.604 ETKDGv2  4
-S38   C5 -1.973 -0.179  0.541 ETKDGv2  5
-S38   C6 -3.154  0.149  1.099 ETKDGv2  6
-S38   C7 -1.167 -1.299  1.082 ETKDGv2  7
-S38   N8 -0.170 -1.940  0.277 ETKDGv2  8
-S38   C9  0.902 -2.727  0.890 ETKDGv2  9
-S38  C10  2.268 -2.038  0.986 ETKDGv2 10
-S38  C11  2.009 -3.096 -0.087 ETKDGv2 11
-S38  C12  2.314 -0.599  0.532 ETKDGv2 12
-S38  C13  3.033 -0.227 -0.543 ETKDGv2 13
-S38  C14  3.068  1.190 -0.961 ETKDGv2 14
-S38  C15  2.409  2.115 -0.253 ETKDGv2 15
-S38  C16  1.657  1.723  0.955 ETKDGv2 16
-S38  C17  1.621  0.440  1.335 ETKDGv2 17
-S38  O18 -1.350 -1.685  2.270 ETKDGv2 18
-S38  C19 -4.262  3.091 -0.991 ETKDGv2 19
-S38  N20 -4.879  3.975 -1.410 ETKDGv2 20
-S38   H1 -4.901  1.514  1.029 ETKDGv2 21
-S38   H3 -1.808  2.237 -1.908 ETKDGv2 22
-S38   H4 -0.507  0.416 -1.048 ETKDGv2 23
-S38   H6 -3.548 -0.410  1.939 ETKDGv2 24
-S38  HN8 -0.216 -1.844 -0.762 ETKDGv2 25
-S38   H9  0.636 -3.520  1.621 ETKDGv2 26
-S38  H10  2.873 -2.353  1.862 ETKDGv2 27
-S38  H11  2.492 -4.073  0.124 ETKDGv2 28
-S38 H11A  1.884 -2.719 -1.125 ETKDGv2 29
-S38  H13  3.588 -0.957 -1.120 ETKDGv2 30
-S38  H14  3.628  1.477 -1.842 ETKDGv2 31
-S38  H15  2.433  3.153 -0.559 ETKDGv2 32
-S38  H16  1.142  2.476  1.537 ETKDGv2 33
-S38  H17  1.079  0.161  2.230 ETKDGv2 34
+S38   C1  3.066  1.680 -0.687 ETKDGv2  1
+S38   C2  4.337  1.255 -0.683 ETKDGv2  2
+S38   C3  4.649 -0.123 -0.248 ETKDGv2  3
+S38   C4  3.665 -0.946  0.134 ETKDGv2  4
+S38   C5  2.251 -0.490  0.117 ETKDGv2  5
+S38   C6  1.979  0.774 -0.261 ETKDGv2  6
+S38   C7  1.189 -1.417  0.577 ETKDGv2  7
+S38   N8 -0.118 -1.469 -0.020 ETKDGv2  8
+S38   C9 -0.425 -0.872 -1.323 ETKDGv2  9
+S38  C10 -1.680  0.004 -1.375 ETKDGv2 10
+S38  C11 -1.697 -1.409 -1.960 ETKDGv2 11
+S38  C12 -2.521  0.154 -0.129 ETKDGv2 12
+S38  C13 -3.836 -0.132 -0.159 ETKDGv2 13
+S38  C14 -4.669  0.052  1.048 ETKDGv2 14
+S38  C15 -4.124  0.530  2.172 ETKDGv2 15
+S38  C16 -2.690  0.880  2.206 ETKDGv2 16
+S38  C17 -1.931  0.710  1.116 ETKDGv2 17
+S38  O18  1.452 -2.212  1.519 ETKDGv2 18
+S38  C19  5.400  2.134 -1.095 ETKDGv2 19
+S38  N20  6.255  2.840 -1.426 ETKDGv2 20
+S38   H1  2.820  2.689 -0.998 ETKDGv2 21
+S38   H3  5.675 -0.470 -0.236 ETKDGv2 22
+S38   H4  3.908 -1.954  0.448 ETKDGv2 23
+S38   H6  0.970  1.159 -0.245 ETKDGv2 24
+S38  HN8 -0.823 -2.091  0.438 ETKDGv2 25
+S38   H9  0.400 -0.698 -2.047 ETKDGv2 26
+S38  H10 -1.698  0.807 -2.142 ETKDGv2 27
+S38  H11 -1.668 -1.438 -3.069 ETKDGv2 28
+S38 H11A -2.241 -2.180 -1.373 ETKDGv2 29
+S38  H13 -4.300 -0.501 -1.065 ETKDGv2 30
+S38  H14 -5.721 -0.199  1.019 ETKDGv2 31
+S38  H15 -4.732  0.666  3.057 ETKDGv2 32
+S38  H16 -2.255  1.282  3.112 ETKDGv2 33
+S38  H17 -0.886  0.982  1.151 ETKDGv2 34
 #

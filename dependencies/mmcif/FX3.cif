@@ -166,11 +166,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-FX3     "Create component" 2007-11-12  EBI ? ?
-FX3 "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-FX3    "Modify descriptor" 2011-06-04 RCSB ? ?
+FX3     "Create component" 2007-11-12  EBI
+FX3 "Modify aromatic_flag" 2011-06-04 RCSB
+FX3    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -344,45 +342,45 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FX3     O2 -0.644  0.678 -2.777 ETKDGv2  1
-FX3     C9 -0.347  0.509 -1.563 ETKDGv2  2
-FX3     C8  1.047  0.210 -1.201 ETKDGv2  3
-FX3     C7  1.417 -0.008  0.067 ETKDGv2  4
-FX3     C1  2.810 -0.322  0.469 ETKDGv2  5
-FX3     C6  3.026 -0.929  1.649 ETKDGv2  6
-FX3     C5  4.395 -1.261  2.084 ETKDGv2  7
-FX3     C4  5.446 -0.945  1.313 ETKDGv2  8
-FX3     O4  6.742 -1.261  1.718 ETKDGv2  9
-FX3     C3  5.237 -0.251  0.023 ETKDGv2 10
-FX3     O3  6.370  0.078 -0.740 ETKDGv2 11
-FX3    C10  6.338  0.741 -2.000 ETKDGv2 12
-FX3     C2  3.982  0.047 -0.374 ETKDGv2 13
-FX3  "O5'" -1.332  0.606 -0.574 ETKDGv2 14
-FX3  "C5'" -2.697  0.884 -0.871 ETKDGv2 15
-FX3  "C4'" -3.511  0.911  0.432 ETKDGv2 16
-FX3  "O4'" -3.333 -0.315  1.111 ETKDGv2 17
-FX3  "C3'" -5.011  1.127  0.213 ETKDGv2 18
-FX3  "O3'" -5.310  1.810 -0.978 ETKDGv2 19
-FX3  "C2'" -5.537 -0.278  0.175 ETKDGv2 20
-FX3  "O2'" -6.848 -0.333  0.674 ETKDGv2 21
-FX3  "C1'" -4.558 -1.016  1.084 ETKDGv2 22
-FX3    OXT -4.334 -2.318  0.613 ETKDGv2 23
-FX3     H8  1.766  0.143 -2.006 ETKDGv2 24
-FX3     H7  0.661  0.004  0.844 ETKDGv2 25
-FX3     H6  2.197 -1.200  2.293 ETKDGv2 26
-FX3     H2  3.823  0.583 -1.297 ETKDGv2 27
-FX3     H5  4.541 -1.765  3.031 ETKDGv2 28
-FX3     H4  6.928 -1.735  2.595 ETKDGv2 29
-FX3   H101  5.883  1.748 -1.891 ETKDGv2 30
-FX3   H102  7.376  0.861 -2.373 ETKDGv2 31
-FX3   H103  5.765  0.138 -2.736 ETKDGv2 32
-FX3 "H5'1" -3.095  0.098 -1.549 ETKDGv2 33
-FX3 "H5'2" -2.763  1.871 -1.378 ETKDGv2 34
-FX3  "H4'" -3.118  1.733  1.070 ETKDGv2 35
-FX3  "H3'" -5.442  1.666  1.091 ETKDGv2 36
-FX3  "H1'" -4.952 -1.051  2.127 ETKDGv2 37
-FX3     HA -5.100  2.765 -0.811 ETKDGv2 38
-FX3  "H2'" -5.491 -0.677 -0.867 ETKDGv2 39
-FX3     HB -7.185 -1.244  0.473 ETKDGv2 40
-FX3    HOT -5.144 -2.845  0.840 ETKDGv2 41
+FX3     O2  0.101 -0.856  1.305 ETKDGv2  1
+FX3     C9 -0.366  0.189  1.835 ETKDGv2  2
+FX3     C8  0.479  1.383  2.035 ETKDGv2  3
+FX3     C7  1.629  1.643  1.393 ETKDGv2  4
+FX3     C1  2.158  0.880  0.244 ETKDGv2  5
+FX3     C6  1.396  0.622 -0.833 ETKDGv2  6
+FX3     C5  1.961 -0.098 -1.989 ETKDGv2  7
+FX3     C4  3.247 -0.471 -1.991 ETKDGv2  8
+FX3     O4  3.756 -1.150 -3.097 ETKDGv2  9
+FX3     C3  4.115 -0.156 -0.826 ETKDGv2 10
+FX3     O3  5.464 -0.549 -0.871 ETKDGv2 11
+FX3    C10  6.414 -0.319  0.165 ETKDGv2 12
+FX3     C2  3.588  0.494  0.232 ETKDGv2 13
+FX3  "O5'" -1.678  0.212  2.318 ETKDGv2 14
+FX3  "C5'" -2.588 -0.882  2.200 ETKDGv2 15
+FX3  "C4'" -3.283 -0.918  0.827 ETKDGv2 16
+FX3  "O4'" -2.347 -0.933 -0.222 ETKDGv2 17
+FX3  "C3'" -4.244  0.238  0.579 ETKDGv2 18
+FX3  "O3'" -3.715  1.451  1.053 ETKDGv2 19
+FX3  "C2'" -4.312  0.262 -0.932 ETKDGv2 20
+FX3  "O2'" -5.404 -0.496 -1.384 ETKDGv2 21
+FX3  "C1'" -3.001 -0.408 -1.360 ETKDGv2 22
+FX3    OXT -2.168  0.533 -1.980 ETKDGv2 23
+FX3     H8  0.162  2.080  2.800 ETKDGv2 24
+FX3     H7  2.218  2.485  1.735 ETKDGv2 25
+FX3     H6  0.364  0.948 -0.869 ETKDGv2 26
+FX3     H2  4.194  0.740  1.094 ETKDGv2 27
+FX3     H5  1.327 -0.319 -2.839 ETKDGv2 28
+FX3     H4  4.722 -1.450 -3.140 ETKDGv2 29
+FX3   H101  6.090 -0.824  1.099 ETKDGv2 30
+FX3   H102  6.531  0.772  0.340 ETKDGv2 31
+FX3   H103  7.394 -0.736 -0.143 ETKDGv2 32
+FX3 "H5'1" -2.058 -1.843  2.383 ETKDGv2 33
+FX3 "H5'2" -3.363 -0.783  2.990 ETKDGv2 34
+FX3  "H4'" -3.865 -1.867  0.782 ETKDGv2 35
+FX3  "H3'" -5.235  0.034  1.050 ETKDGv2 36
+FX3  "H1'" -3.210 -1.241 -2.072 ETKDGv2 37
+FX3     HA -4.462  2.104  1.055 ETKDGv2 38
+FX3  "H2'" -4.384  1.304 -1.327 ETKDGv2 39
+FX3     HB -6.212  0.069 -1.264 ETKDGv2 40
+FX3    HOT -1.415  0.022 -2.377 ETKDGv2 41
 #

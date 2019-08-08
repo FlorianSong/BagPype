@@ -159,11 +159,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-M77  "Create component" 2003-08-26 RCSB  ? ?
-M77 "Modify descriptor" 2011-06-04 RCSB  ? ?
-M77   "Modify synonyms" 2011-09-26 RCSB CS ?
+M77  "Create component" 2003-08-26 RCSB
+M77 "Modify descriptor" 2011-06-04 RCSB
+M77   "Modify synonyms" 2011-09-26 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   M77
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB08162
@@ -201,9 +199,9 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 M77   Fasudil ChEMBL
-M77    AT-877 ChEMBL
-M77   HA-1077 ChEMBL
 M77 ZK-258594 ChEMBL
+M77   HA-1077 ChEMBL
+M77    AT-877 ChEMBL
 #
 loop_
 _software.name              
@@ -379,41 +377,41 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-M77   O1 -0.724 -2.794 -0.115 ETKDGv2  1
-M77   S1 -0.107 -1.597  0.555 ETKDGv2  2
-M77   O2  0.798 -2.078  1.655 ETKDGv2  3
-M77   N4  0.824 -0.677 -0.606 ETKDGv2  4
-M77  C22  1.902 -1.506 -1.195 ETKDGv2  5
-M77  C21  3.261 -1.404 -0.479 ETKDGv2  6
-M77  N17  4.059 -0.317 -1.062 ETKDGv2  7
-M77  C16  3.697  0.994 -0.512 ETKDGv2  8
-M77  C20  2.254  1.389 -0.859 ETKDGv2  9
-M77  C15  1.228  0.616 -0.013 ETKDGv2 10
-M77   C5 -1.408 -0.598  1.223 ETKDGv2 11
-M77   C6 -1.455 -0.371  2.548 ETKDGv2 12
-M77   C7 -2.518  0.470  3.131 ETKDGv2 13
-M77   C8 -3.447  1.021  2.346 ETKDGv2 14
-M77   C9 -3.415  0.788  0.887 ETKDGv2 15
-M77  C10 -2.448  0.015  0.339 ETKDGv2 16
-M77  C11 -2.451 -0.190 -1.134 ETKDGv2 17
-M77  C14 -4.440  1.402  0.015 ETKDGv2 18
-M77  N13 -4.410  1.201 -1.270 ETKDGv2 19
-M77  C12 -3.397  0.387 -1.882 ETKDGv2 20
-M77 H221  1.598 -2.576 -1.228 ETKDGv2 21
-M77 H222  2.026 -1.219 -2.261 ETKDGv2 22
-M77 H211  3.151 -1.295  0.622 ETKDGv2 23
-M77 H212  3.803 -2.361 -0.647 ETKDGv2 24
-M77  H17  5.061 -0.489 -0.813 ETKDGv2 25
-M77 H161  3.864  1.022  0.589 ETKDGv2 26
-M77 H162  4.374  1.756 -0.958 ETKDGv2 27
-M77 H201  2.139  2.472 -0.637 ETKDGv2 28
-M77 H202  2.057  1.255 -1.945 ETKDGv2 29
-M77 H151  0.321  1.253  0.062 ETKDGv2 30
-M77 H152  1.604  0.483  1.026 ETKDGv2 31
-M77   H6 -0.714 -0.795  3.212 ETKDGv2 32
-M77   H7 -2.540  0.642  4.200 ETKDGv2 33
-M77   H8 -4.223  1.638  2.782 ETKDGv2 34
-M77  H11 -1.701 -0.798 -1.619 ETKDGv2 35
-M77  H14 -5.219  2.021  0.440 ETKDGv2 36
-M77  H12 -3.404  0.242 -2.955 ETKDGv2 37
+M77   O1  0.326 -2.812  1.175 ETKDGv2  1
+M77   S1 -0.193 -1.901  0.096 ETKDGv2  2
+M77   O2 -0.546 -2.732 -1.107 ETKDGv2  3
+M77   N4  1.038 -0.730 -0.317 ETKDGv2  4
+M77  C22  2.173 -1.429 -0.948 ETKDGv2  5
+M77  C21  3.235 -0.450 -1.458 ETKDGv2  6
+M77  N17  4.009  0.073 -0.325 ETKDGv2  7
+M77  C16  3.514  1.374  0.150 ETKDGv2  8
+M77  C20  2.012  1.385  0.503 ETKDGv2  9
+M77  C15  1.442  0.014  0.894 ETKDGv2 10
+M77   C5 -1.653 -1.063  0.643 ETKDGv2 11
+M77   C6 -2.166 -1.346  1.853 ETKDGv2 12
+M77   C7 -3.361 -0.638  2.350 ETKDGv2 13
+M77   C8 -3.947  0.300  1.601 ETKDGv2 14
+M77   C9 -3.404  0.626  0.265 ETKDGv2 15
+M77  C10 -2.314 -0.022 -0.206 ETKDGv2 16
+M77  C11 -1.810  0.326 -1.561 ETKDGv2 17
+M77  C14 -4.053  1.663 -0.566 ETKDGv2 18
+M77  N13 -3.581  1.946 -1.744 ETKDGv2 19
+M77  C12 -2.430  1.271 -2.277 ETKDGv2 20
+M77 H221  2.635 -2.159 -0.245 ETKDGv2 21
+M77 H222  1.807 -1.997 -1.831 ETKDGv2 22
+M77 H211  2.770  0.360 -2.064 ETKDGv2 23
+M77 H212  3.916 -1.012 -2.136 ETKDGv2 24
+M77  H17  4.998  0.214 -0.639 ETKDGv2 25
+M77 H161  4.089  1.645  1.062 ETKDGv2 26
+M77 H162  3.720  2.162 -0.609 ETKDGv2 27
+M77 H201  1.859  2.094  1.347 ETKDGv2 28
+M77 H202  1.432  1.789 -0.356 ETKDGv2 29
+M77 H151  0.555  0.214  1.534 ETKDGv2 30
+M77 H152  2.161 -0.564  1.517 ETKDGv2 31
+M77   H6 -1.708 -2.090  2.491 ETKDGv2 32
+M77   H7 -3.759 -0.877  3.328 ETKDGv2 33
+M77   H8 -4.822  0.817  1.974 ETKDGv2 34
+M77  H11 -0.954 -0.174 -1.990 ETKDGv2 35
+M77  H14 -4.923  2.191 -0.199 ETKDGv2 36
+M77  H12 -2.068  1.529 -3.264 ETKDGv2 37
 #

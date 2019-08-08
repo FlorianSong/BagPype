@@ -120,10 +120,10 @@ RUR  HBD  HBD  H 0 1 N N N -1.413 -16.738  -4.190 ? ? ?  HBD RUR 72
 RUR HBDA HBDA  H 0 0 N N N -0.267 -16.511  -2.831 ? ? ? HBDA RUR 73
 RUR  H31  H31  H 0 1 N N N -5.146 -18.858 -10.063 ? ? ?  H31 RUR 74
 RUR  H32  H32  H 0 1 N N N -0.458 -13.585  -5.062 ? ? ?  H32 RUR 75
-RUR  H33  H33  H 0 1 N N N -2.822 -28.887  -3.234 ? ? ?    ?   ? 76
-RUR  H34  H34  H 0 1 N N N -0.904 -29.623  -5.256 ? ? ?    ?   ? 77
-RUR  H35  H35  H 0 1 N N N  1.540 -24.168   1.778 ? ? ?    ?   ? 78
-RUR  H36  H36  H 0 1 N N N  3.705 -23.207   0.139 ? ? ?    ?   ? 79
+RUR  H33  H33  H 0 1 N N N -2.822 -28.887  -3.234 ? ? ?  H33 RUR 76
+RUR  H34  H34  H 0 1 N N N -0.904 -29.623  -5.256 ? ? ?  H34 RUR 77
+RUR  H35  H35  H 0 1 N N N  1.540 -24.168   1.778 ? ? ?  H35 RUR 78
+RUR  H36  H36  H 0 1 N N N  3.705 -23.207   0.139 ? ? ?  H36 RUR 79
 #
 loop_
 _chem_comp_bond.comp_id                  
@@ -239,6 +239,12 @@ _pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
 _pdbx_chem_comp_identifier.program               ACDLabs
 _pdbx_chem_comp_identifier.program_version       12.01
 _pdbx_chem_comp_identifier.identifier            "[3,3'-(7,12-diethyl-3,8,13,17-tetramethylporphyrin-2,18-diyl-kappa~4~N~21~,N~22~,N~23~,N~24~)dipropanoato(2-)]ruthenium"
+
+#
+_pdbx_chem_comp_audit.comp_id               RUR
+_pdbx_chem_comp_audit.action_type           "Create component"
+_pdbx_chem_comp_audit.date                  2010-03-23
+_pdbx_chem_comp_audit.processing_site       RCSB
 
 #
 loop_

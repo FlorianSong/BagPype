@@ -176,11 +176,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-P17     "Create component" 2002-07-31 RCSB ? ?
-P17 "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-P17    "Modify descriptor" 2011-06-04 RCSB ? ?
+P17     "Create component" 2002-07-31 RCSB
+P17 "Modify aromatic_flag" 2011-06-04 RCSB
+P17    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   P17
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB02567
@@ -213,8 +211,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-P17                                                                                      PD-0173955   ChEMBL
 P17                                                                                        PD-17395   ChEMBL
+P17                                                                                      PD-0173955   ChEMBL
 P17 6-(2,6-dichlorophenyl)-8-methyl-2-{[3-(methylthio)phenyl]amino}pyrido[2,3-d]pyrimidin-7(8H)-one DrugBank
 #
 loop_
@@ -426,49 +424,49 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-P17  S2  7.892  0.467 -0.424 ETKDGv2  1
-P17  C3  6.305 -0.349 -0.606 ETKDGv2  2
-P17  C8  5.199  0.370 -0.845 ETKDGv2  3
-P17  C7  3.884 -0.301 -0.990 ETKDGv2  4
-P17  N9  2.722  0.492 -1.278 ETKDGv2  5
-P17 C10  1.409  0.211 -0.772 ETKDGv2  6
-P17 N15  0.386  0.864 -1.243 ETKDGv2  7
-P17 C14 -0.946  0.638 -0.746 ETKDGv2  8
-P17 N19 -2.065  1.369 -1.294 ETKDGv2  9
-P17 C20 -1.861  2.312 -2.397 ETKDGv2 10
-P17 C18 -3.394  1.060 -0.828 ETKDGv2 11
-P17 O21 -4.402  1.610 -1.350 ETKDGv2 12
-P17 C17 -3.568  0.081  0.264 ETKDGv2 13
-P17 C22 -4.914 -0.206  0.808 ETKDGv2 14
-P17 C27 -5.531 -1.383  0.560 ETKDGv2 15
-P17 CL1 -4.832  2.356  2.014 ETKDGv2 16
-P17 C26 -6.882 -1.638  1.107 ETKDGv2 17
-P17 C25 -7.498 -0.709  1.844 ETKDGv2 18
-P17 C24 -6.832  0.577  2.122 ETKDGv2 19
-P17 C23 -5.608  0.823  1.635 ETKDGv2 20
-P17 CL2 -4.793 -2.634 -0.437 ETKDGv2 21
-P17 C16 -2.490 -0.536  0.768 ETKDGv2 22
-P17 C13 -1.138 -0.263  0.238 ETKDGv2 23
-P17 C12  0.035 -0.979  0.774 ETKDGv2 24
-P17 N11  1.218 -0.741  0.290 ETKDGv2 25
-P17  C6  3.821 -1.645 -0.920 ETKDGv2 26
-P17  C5  5.041 -2.435 -0.656 ETKDGv2 27
-P17  C4  6.220 -1.821 -0.506 ETKDGv2 28
-P17  C1  7.727  0.650  1.379 ETKDGv2 29
-P17 H10  5.259  1.448 -0.924 ETKDGv2 30
-P17  H1  2.857  1.382 -1.810 ETKDGv2 31
-P17  H4 -1.837  1.758 -3.359 ETKDGv2 32
-P17  H5 -2.674  3.068 -2.431 ETKDGv2 33
-P17  H6 -0.907  2.865 -2.268 ETKDGv2 34
-P17  H7 -7.376 -2.580  0.906 ETKDGv2 35
-P17  H8 -8.487 -0.899  2.242 ETKDGv2 36
-P17  H9 -7.339  1.316  2.728 ETKDGv2 37
-P17  H3 -2.604 -1.252  1.573 ETKDGv2 38
-P17  H2 -0.081 -1.702  1.570 ETKDGv2 39
-P17 H16  2.889 -2.169 -1.084 ETKDGv2 40
-P17 H15  4.979 -3.514 -0.590 ETKDGv2 41
-P17 H14  7.113 -2.403 -0.314 ETKDGv2 42
-P17 H11  7.633 -0.348  1.856 ETKDGv2 43
-P17 H12  8.632  1.154  1.776 ETKDGv2 44
-P17 H13  6.836  1.266  1.620 ETKDGv2 45
+P17  S2  5.950  1.888 -0.104 ETKDGv2  1
+P17  C3  5.472  0.209  0.311 ETKDGv2  2
+P17  C8  4.234 -0.228  0.038 ETKDGv2  3
+P17  C7  3.838 -1.620  0.380 ETKDGv2  4
+P17  N9  2.524 -2.116  0.074 ETKDGv2  5
+P17 C10  1.336 -1.316  0.142 ETKDGv2  6
+P17 N15  0.229 -1.765 -0.376 ETKDGv2  7
+P17 C14 -0.996 -1.012 -0.306 ETKDGv2  8
+P17 N19 -2.205 -1.524 -0.907 ETKDGv2  9
+P17 C20 -2.210 -2.846 -1.542 ETKDGv2 10
+P17 C18 -3.428 -0.774 -0.762 ETKDGv2 11
+P17 O21 -4.512 -1.215 -1.233 ETKDGv2 12
+P17 C17 -3.400  0.528 -0.062 ETKDGv2 13
+P17 C22 -4.629  1.338  0.075 ETKDGv2 14
+P17 C27 -5.611  0.973  0.928 ETKDGv2 15
+P17 CL1 -3.551  3.083 -1.879 ETKDGv2 16
+P17 C26 -6.829  1.803  1.052 ETKDGv2 17
+P17 C25 -6.964  2.916  0.324 ETKDGv2 18
+P17 C24 -5.898  3.323 -0.610 ETKDGv2 19
+P17 C23 -4.789  2.581 -0.734 ETKDGv2 20
+P17 CL2 -5.480 -0.460  1.945 ETKDGv2 21
+P17 C16 -2.242  0.974  0.442 ETKDGv2 22
+P17 C13 -1.003  0.177  0.329 ETKDGv2 23
+P17 C12  0.257  0.662  0.925 ETKDGv2 24
+P17 N11  1.338 -0.052  0.830 ETKDGv2 25
+P17  C6  4.748 -2.444  0.928 ETKDGv2 26
+P17  C5  6.108 -1.956  1.237 ETKDGv2 27
+P17  C4  6.450 -0.695  0.951 ETKDGv2 28
+P17  C1  6.554  1.437 -1.760 ETKDGv2 29
+P17 H10  3.534  0.429 -0.463 ETKDGv2 30
+P17  H1  2.414 -3.132 -0.149 ETKDGv2 31
+P17  H4 -1.259 -3.019 -2.090 ETKDGv2 32
+P17  H5 -3.032 -2.930 -2.283 ETKDGv2 33
+P17  H6 -2.335 -3.630 -0.767 ETKDGv2 34
+P17  H7 -7.615  1.510  1.737 ETKDGv2 35
+P17  H8 -7.856  3.522  0.418 ETKDGv2 36
+P17  H9 -6.023  4.223 -1.198 ETKDGv2 37
+P17  H3 -2.209  1.927  0.957 ETKDGv2 38
+P17  H2  0.287  1.610  1.447 ETKDGv2 39
+P17 H16  4.489 -3.468  1.165 ETKDGv2 40
+P17 H15  6.826 -2.623  1.697 ETKDGv2 41
+P17 H14  7.447 -0.341  1.178 ETKDGv2 42
+P17 H11  5.727  1.007 -2.363 ETKDGv2 43
+P17 H12  6.934  2.347 -2.267 ETKDGv2 44
+P17 H13  7.380  0.699 -1.676 ETKDGv2 45
 #

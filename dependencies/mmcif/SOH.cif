@@ -1,0 +1,186 @@
+data_SOH
+#
+_chem_comp.id                                        SOH
+_chem_comp.name                                      "HYDROGEN SULFATE"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAI
+_chem_comp.formula                                   "H O4 S"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             "HYDROSULFATE ION"
+_chem_comp.pdbx_formal_charge                        -1
+_chem_comp.pdbx_initial_date                         2004-02-27
+_chem_comp.pdbx_modified_date                        2011-08-06
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       OBS
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            97.071
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         SOH
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1SGL
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+SOH   S   S S  0 1 N N N 7.946 45.418 37.493 -0.056  0.000  0.036   S SOH 1
+SOH  O1  O1 O  0 1 N N N 8.483 46.666 38.065  1.090  0.000 -0.965  O1 SOH 2
+SOH  O2  O2 O -1 1 N N N 6.756 45.735 36.683  0.093 -1.208  0.832  O2 SOH 3
+SOH  O3  O3 O  0 1 N N N 7.571 44.507 38.586  0.093  1.208  0.832  O3 SOH 4
+SOH  O4  O4 O  0 1 N N N 8.966 44.765 36.647 -1.284  0.000 -0.744  O4 SOH 5
+SOH HO1 HO1 H  0 1 N N N 9.250 46.461 38.587  1.910  0.000 -0.451 HO1 SOH 6
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+SOH  S  O1 SING N N 1
+SOH  S  O2 SING N N 2
+SOH  S  O3 DOUB N N 3
+SOH  S  O4 DOUB N N 4
+SOH O1 HO1 SING N N 5
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+SOH           SMILES              ACDLabs 10.04                            "[O-]S(=O)(=O)O"
+SOH SMILES_CANONICAL               CACTVS 3.341                            O[S]([O-])(=O)=O
+SOH           SMILES               CACTVS 3.341                            O[S]([O-])(=O)=O
+SOH SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                              OS(=O)(=O)[O-]
+SOH           SMILES "OpenEye OEToolkits" 1.5.0                              OS(=O)(=O)[O-]
+SOH            InChI                InChI  1.03 InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-1
+SOH         InChIKey                InChI  1.03                 QAOWNCQODCNURD-UHFFFAOYSA-M
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+SOH "SYSTEMATIC NAME"              ACDLabs 10.04 "hydrogen sulfate"
+SOH "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "hydrogen sulfate"
+#
+loop_
+_pdbx_chem_comp_audit.comp_id               
+_pdbx_chem_comp_audit.action_type           
+_pdbx_chem_comp_audit.date                  
+_pdbx_chem_comp_audit.processing_site       
+SOH   "Create component" 2004-02-27 RCSB
+SOH  "Modify descriptor" 2011-06-04 RCSB
+SOH "Obsolete component" 2011-08-06 RCSB
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+SOH  S S 4.299  0.000 1
+SOH O1 O 5.598  0.750 2
+SOH O2 O 3.000 -0.750 3
+SOH O3 O 3.549  1.299 4
+SOH O4 O 5.049 -1.299 5
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+SOH S O1 SINGLE NONE 1
+SOH S O2 SINGLE NONE 2
+SOH S O3 DOUBLE NONE 3
+SOH S O4 DOUBLE NONE 4
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               SOH
+_pdbe_chem_comp_rdkit_properties.exactmw                               96.960
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                1
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             30.498
+_pdbe_chem_comp_rdkit_properties.tpsa                                  77.430
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.995
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             12.326
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         5
+
+#
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+SOH UniChem       ChEMBL CHEMBL185404
+SOH UniChem        ChEBI        45696
+SOH UniChem MetaboLights   MTBLC45696
+SOH UniChem       BRENDA       139242
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+SOH   S -0.361 -0.130 -0.025 ETKDGv2 1
+SOH  O1  1.193  0.089 -0.626 ETKDGv2 2
+SOH  O2 -0.913  1.307  0.647 ETKDGv2 3
+SOH  O3 -1.274 -0.536 -1.147 ETKDGv2 4
+SOH  O4 -0.350 -1.206  1.023 ETKDGv2 5
+SOH HO1  1.704  0.476  0.129 ETKDGv2 6
+#

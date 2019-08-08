@@ -205,10 +205,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-BBI "Create component" 2014-01-17 PDBJ YK ?
-BBI  "Initial release" 2015-04-22 RCSB  ? ?
+BBI "Create component" 2014-01-17 PDBJ
+BBI  "Initial release" 2015-04-22 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   BBI
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01118
@@ -248,11 +246,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-BBI                                                                  Amiodarone   ChEMBL
-BBI                                                                      L-3428   ChEMBL
 BBI                                                                  SKF-33134A   ChEMBL
-BBI                                                                    Pacerone   ChEMBL
+BBI                                                                      L-3428   ChEMBL
 BBI                                                                   Cordarone   ChEMBL
+BBI                                                                    Pacerone   ChEMBL
+BBI                                                                  Amiodarone   ChEMBL
 BBI            2-Butyl-3-(3,5-diiodo-4-(2-diethylaminoethoxy)benzoyl)benzofuran DrugBank
 BBI "2-Butyl-3-benzofuranyl 4-(2-(diethylamino)ethoxy)-3,5-diiodophenyl ketone" DrugBank
 BBI        "2-n-Butyl-3',5'-diiodo-4'-N-diethylaminoethoxy-3-benzoylbenzofuran" DrugBank
@@ -447,64 +445,64 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BBI CAA -7.940  0.341  0.536 ETKDGv2  1
-BBI CAB -6.778  0.598  1.495 ETKDGv2  2
-BBI CAC -5.904  1.792  1.073 ETKDGv2  3
-BBI CAD -5.164  1.599 -0.261 ETKDGv2  4
-BBI CAE -4.213  0.436 -0.220 ETKDGv2  5
-BBI OAF -4.622 -0.865 -0.546 ETKDGv2  6
-BBI CAG -3.508 -1.673 -0.424 ETKDGv2  7
-BBI CAH -3.416 -2.990 -0.611 ETKDGv2  8
-BBI CAI -2.091 -3.626 -0.376 ETKDGv2  9
-BBI CAJ -1.037 -2.880  0.023 ETKDGv2 10
-BBI CAK -1.185 -1.413  0.227 ETKDGv2 11
-BBI CAL -2.383 -0.873 -0.022 ETKDGv2 12
-BBI CAM -2.900  0.491  0.088 ETKDGv2 13
-BBI CAN -2.123  1.693  0.462 ETKDGv2 14
-BBI OAO -2.642  2.550  1.228 ETKDGv2 15
-BBI CAP -0.744  1.900 -0.036 ETKDGv2 16
-BBI CBE -0.336  1.359 -1.356 ETKDGv2 17
-BBI CBC  0.922  1.497 -1.793 ETKDGv2 18
-BBI IBD  1.371  0.860 -3.762 ETKDGv2 19
-BBI CAQ  0.147  2.603  0.684 ETKDGv2 20
-BBI CAR  1.538  2.760  0.210 ETKDGv2 21
-BBI IAS  2.901  3.824  1.430 ETKDGv2 22
-BBI CAT  1.928  2.190 -0.944 ETKDGv2 23
-BBI OAU  3.271  2.261 -1.329 ETKDGv2 24
-BBI CAV  4.110  1.108 -1.396 ETKDGv2 25
-BBI CAW  4.438  0.596  0.010 ETKDGv2 26
-BBI NAX  5.255 -0.636 -0.074 ETKDGv2 27
-BBI CBA  6.182 -0.742  1.076 ETKDGv2 28
-BBI CBB  7.476  0.012  0.785 ETKDGv2 29
-BBI CAY  4.395 -1.838 -0.179 ETKDGv2 30
-BBI CAZ  5.092 -2.916 -1.004 ETKDGv2 31
-BBI  H1 -8.524  1.271  0.373 ETKDGv2 32
-BBI  H2 -7.568 -0.041 -0.437 ETKDGv2 33
-BBI  H3 -8.613 -0.428  0.971 ETKDGv2 34
-BBI  H4 -6.162 -0.322  1.591 ETKDGv2 35
-BBI  H5 -7.199  0.816  2.500 ETKDGv2 36
-BBI  H6 -5.160  1.983  1.876 ETKDGv2 37
-BBI  H7 -6.541  2.700  0.999 ETKDGv2 38
-BBI  H8 -5.890  1.446 -1.086 ETKDGv2 39
-BBI  H9 -4.612  2.531 -0.508 ETKDGv2 40
-BBI H10 -4.276 -3.575 -0.910 ETKDGv2 41
-BBI H11 -1.977 -4.692 -0.521 ETKDGv2 42
-BBI H12 -0.077 -3.350  0.199 ETKDGv2 43
-BBI H13 -0.352 -0.816  0.570 ETKDGv2 44
-BBI H14 -1.071  0.880 -1.991 ETKDGv2 45
-BBI H15 -0.127  3.026  1.643 ETKDGv2 46
-BBI H16  5.055  1.387 -1.907 ETKDGv2 47
-BBI H17  3.627  0.310 -1.993 ETKDGv2 48
-BBI H18  3.502  0.416  0.587 ETKDGv2 49
-BBI H19  4.984  1.411  0.533 ETKDGv2 50
-BBI H21  5.716 -0.353  2.011 ETKDGv2 51
-BBI H22  6.463 -1.800  1.273 ETKDGv2 52
-BBI H23  7.283  1.097  0.653 ETKDGv2 53
-BBI H24  7.947 -0.387 -0.138 ETKDGv2 54
-BBI H25  8.183 -0.119  1.632 ETKDGv2 55
-BBI H26  4.131 -2.239  0.826 ETKDGv2 56
-BBI H27  3.435 -1.609 -0.694 ETKDGv2 57
-BBI H28  6.028 -3.249 -0.511 ETKDGv2 58
-BBI H29  4.420 -3.793 -1.116 ETKDGv2 59
-BBI H30  5.335 -2.521 -2.014 ETKDGv2 60
+BBI CAA  7.600 -1.125 -2.895 ETKDGv2  1
+BBI CAB  6.224 -1.104 -2.237 ETKDGv2  2
+BBI CAC  6.118 -2.171 -1.139 ETKDGv2  3
+BBI CAD  4.734 -2.185 -0.478 ETKDGv2  4
+BBI CAE  4.501 -0.944  0.339 ETKDGv2  5
+BBI OAF  5.275 -0.652  1.471 ETKDGv2  6
+BBI CAG  4.788  0.534  1.988 ETKDGv2  7
+BBI CAH  5.218  1.213  3.052 ETKDGv2  8
+BBI CAI  4.527  2.491  3.376 ETKDGv2  9
+BBI CAJ  3.510  2.934  2.602 ETKDGv2 10
+BBI CAK  3.065  2.146  1.420 ETKDGv2 11
+BBI CAL  3.694  0.993  1.175 ETKDGv2 12
+BBI CAM  3.552 -0.009  0.121 ETKDGv2 13
+BBI CAN  2.575  0.030 -0.986 ETKDGv2 14
+BBI OAO  2.973 -0.191 -2.162 ETKDGv2 15
+BBI CAP  1.146  0.346 -0.744 ETKDGv2 16
+BBI CBE  0.535  0.100  0.589 ETKDGv2 17
+BBI CBC -0.752  0.390  0.812 ETKDGv2 18
+BBI IBD -1.555  0.089  2.745 ETKDGv2 19
+BBI CAQ  0.379  0.849 -1.729 ETKDGv2 20
+BBI CAR -1.043  1.170 -1.487 ETKDGv2 21
+BBI IAS -2.183  1.982 -3.073 ETKDGv2 22
+BBI CAT -1.589  0.943 -0.280 ETKDGv2 23
+BBI OAU -2.933  1.237 -0.051 ETKDGv2 24
+BBI CAV -3.937  0.233 -0.148 ETKDGv2 25
+BBI CAW -5.290  0.830  0.228 ETKDGv2 26
+BBI NAX -6.340 -0.213  0.176 ETKDGv2 27
+BBI CBA -7.397  0.040  1.183 ETKDGv2 28
+BBI CBB -7.005 -0.571  2.525 ETKDGv2 29
+BBI CAY -6.913 -0.327 -1.185 ETKDGv2 30
+BBI CAZ -7.350 -1.764 -1.456 ETKDGv2 31
+BBI  H1  7.790 -2.115 -3.362 ETKDGv2 32
+BBI  H2  7.647 -0.345 -3.684 ETKDGv2 33
+BBI  H3  8.390 -0.917 -2.142 ETKDGv2 34
+BBI  H4  5.452 -1.291 -3.015 ETKDGv2 35
+BBI  H5  6.052 -0.095 -1.805 ETKDGv2 36
+BBI  H6  6.301 -3.172 -1.588 ETKDGv2 37
+BBI  H7  6.900 -1.999 -0.366 ETKDGv2 38
+BBI  H8  4.676 -3.058  0.206 ETKDGv2 39
+BBI  H9  3.949 -2.330 -1.249 ETKDGv2 40
+BBI H10  6.045  0.854  3.650 ETKDGv2 41
+BBI H11  4.846  3.070  4.233 ETKDGv2 42
+BBI H12  3.016  3.867  2.840 ETKDGv2 43
+BBI H13  2.265  2.502  0.785 ETKDGv2 44
+BBI H14  1.132 -0.314  1.391 ETKDGv2 45
+BBI H15  0.795  1.041 -2.710 ETKDGv2 46
+BBI H16 -3.701 -0.606  0.542 ETKDGv2 47
+BBI H17 -3.963 -0.161 -1.186 ETKDGv2 48
+BBI H18 -5.533  1.685 -0.444 ETKDGv2 49
+BBI H19 -5.186  1.250  1.254 ETKDGv2 50
+BBI H21 -8.361 -0.429  0.884 ETKDGv2 51
+BBI H22 -7.593  1.130  1.301 ETKDGv2 52
+BBI H23 -6.085 -0.097  2.924 ETKDGv2 53
+BBI H24 -6.829 -1.661  2.408 ETKDGv2 54
+BBI H25 -7.826 -0.418  3.258 ETKDGv2 55
+BBI H26 -6.162 -0.066 -1.964 ETKDGv2 56
+BBI H27 -7.774  0.366 -1.323 ETKDGv2 57
+BBI H28 -7.731 -1.848 -2.496 ETKDGv2 58
+BBI H29 -6.485 -2.451 -1.336 ETKDGv2 59
+BBI H30 -8.157 -2.071 -0.760 ETKDGv2 60
 #

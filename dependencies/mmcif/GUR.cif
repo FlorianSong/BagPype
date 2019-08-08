@@ -1,0 +1,242 @@
+data_GUR
+#
+_chem_comp.id                                        GUR
+_chem_comp.name                                      GLYCOLURIL
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C4 H6 N4 O2"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2008-10-14
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       OBS
+_chem_comp.pdbx_replaced_by                          GLL
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            142.116
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         GUR
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            2IZK
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+GUR     C1     C1 C 0 1 N N N 13.687 -0.626  -8.251 -0.000  0.240 -1.815     C1 GUR  1
+GUR     O1     O1 O 0 1 N N N 14.839 -0.743  -7.882 -0.002  0.897 -2.838     O1 GUR  2
+GUR     N1     N1 N 0 1 N N N 13.258 -0.300  -9.441  1.122 -0.152 -1.201     N1 GUR  3
+GUR     C2     C2 C 0 1 N N N 11.777 -0.342  -9.541  0.776 -0.924 -0.000     C2 GUR  4
+GUR     C3     C3 C 0 1 N N N 11.357 -0.675  -8.106 -0.773 -0.927  0.000     C3 GUR  5
+GUR     N2     N2 N 0 1 N N N 12.695 -0.830  -7.433 -1.122 -0.152 -1.198     N2 GUR  6
+GUR  "N1'"  "N1'" N 0 1 N N N 11.171  1.014  -9.749  1.123 -0.151  1.200  "N1'" GUR  7
+GUR  "C1'"  "C1'" C 0 1 N N N 10.515  1.431  -8.706 -0.000  0.241  1.814  "C1'" GUR  8
+GUR  "O1'"  "O1'" O 0 1 N N N  9.976  2.503  -8.544 -0.001  0.898  2.837  "O1'" GUR  9
+GUR  "N2'"  "N2'" N 0 1 N N N 10.488  0.508  -7.777 -1.122 -0.155  1.201  "N2'" GUR 10
+GUR    HN1    HN1 H 0 1 N N N 13.691 -0.880 -10.159  2.023  0.042 -1.503    HN1 GUR 11
+GUR     H2     H2 H 0 1 N N N 11.472 -1.025 -10.367  1.214 -1.922  0.000     H2 GUR 12
+GUR     H3     H3 H 0 1 N N N 10.768 -1.581  -7.833 -1.196 -1.931  0.006     H3 GUR 13
+GUR    HN2    HN2 H 0 1 N N N 12.919 -1.062  -6.465 -2.024  0.041 -1.498    HN2 GUR 14
+GUR "HN1'" "'HN1" H 0 0 N N N 10.583  1.029 -10.582  2.024  0.044  1.501 "HN1'" GUR 15
+GUR "HN2'" "'HN2" H 0 0 N N N  9.904  0.677  -6.957 -2.024  0.036  1.502 "HN2'" GUR 16
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+GUR    C1     O1 DOUB N N  1
+GUR    C1     N1 SING N N  2
+GUR    C1     N2 SING N N  3
+GUR    N1     C2 SING N N  4
+GUR    N1    HN1 SING N N  5
+GUR    C2     C3 SING N N  6
+GUR    C2  "N1'" SING N N  7
+GUR    C2     H2 SING N N  8
+GUR    C3     N2 SING N N  9
+GUR    C3  "N2'" SING N N 10
+GUR    C3     H3 SING N N 11
+GUR    N2    HN2 SING N N 12
+GUR "N1'"  "C1'" SING N N 13
+GUR "N1'" "HN1'" SING N N 14
+GUR "C1'"  "O1'" DOUB N N 15
+GUR "C1'"  "N2'" SING N N 16
+GUR "N2'" "HN2'" SING N N 17
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+GUR           SMILES              ACDLabs 10.04                                                                    O=C1NC2NC(=O)NC2N1
+GUR            InChI                InChI 1.02b InChI=1/C4H6N4O2/c9-3-5-1-2(7-3)8-4(10)6-1/h1-2H,(H2,5,7,9)(H2,6,8,10)/t1-,2+/f/h5-8H
+GUR         InChIKey                InChI 1.02b                                                             VPVSTMAPERLKKM-VULYJZGWDX
+GUR SMILES_CANONICAL               CACTVS 3.341                                                          O=C1N[C@@H]2NC(=O)N[C@@H]2N1
+GUR           SMILES               CACTVS 3.341                                                              O=C1N[CH]2NC(=O)N[CH]2N1
+GUR SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                C12C(NC(=O)N1)NC(=O)N2
+GUR           SMILES "OpenEye OEToolkits" 1.5.0                                                                C12C(NC(=O)N1)NC(=O)N2
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+GUR "SYSTEMATIC NAME"              ACDLabs 10.04   cis-tetrahydroimidazo[4,5-d]imidazole-2,5(1H,3H)-dione
+GUR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 1,3,3a,4,6,6a-hexahydroimidazo[4,5-d]imidazole-2,5-dione
+#
+_pdbx_chem_comp_audit.comp_id               GUR
+_pdbx_chem_comp_audit.action_type           "Create component"
+_pdbx_chem_comp_audit.date                  1999-07-08
+_pdbx_chem_comp_audit.processing_site       RCSB
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+GUR    C1 C -1.539 -1.538  1
+GUR    O1 O -2.539 -1.537  2
+GUR    N1 N -0.952 -2.347  3
+GUR    C2 C -0.000 -2.039  4
+GUR    C3 C  0.000 -1.039  5
+GUR    N2 N -0.950 -0.729  6
+GUR "N1'" N  0.950 -2.349  7
+GUR "C1'" C  1.539 -1.540  8
+GUR "O1'" O  2.539 -1.541  9
+GUR "N2'" N  0.952 -0.731 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+GUR    C1    O1 DOUBLE NONE  1
+GUR    C1    N1 SINGLE NONE  2
+GUR    C1    N2 SINGLE NONE  3
+GUR    N1    C2 SINGLE NONE  4
+GUR    C2    C3 SINGLE NONE  5
+GUR    C2 "N1'" SINGLE NONE  6
+GUR    C3    N2 SINGLE NONE  7
+GUR    C3 "N2'" SINGLE NONE  8
+GUR "N1'" "C1'" SINGLE NONE  9
+GUR "C1'" "O1'" DOUBLE NONE 10
+GUR "C1'" "N2'" SINGLE NONE 11
+#
+_pdbe_chem_comp_substructure.comp_id                      GUR
+_pdbe_chem_comp_substructure.substructure_name            MurckoScaffold
+_pdbe_chem_comp_substructure.id                           S1
+_pdbe_chem_comp_substructure.substructure_type            scaffold
+_pdbe_chem_comp_substructure.substructure_smiles          O=C1NC2NC(=O)NC2N1
+_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C4H6N4O2/c9-3-5-1-2(7-3)8-4(10)6-1/h1-2H,(H2,5,7,9)(H2,6,8,10)
+_pdbe_chem_comp_substructure.substructure_inchikeys       VPVSTMAPERLKKM-UHFFFAOYSA-N
+
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+GUR    C1 S1 1
+GUR    O1 S1 1
+GUR    N1 S1 1
+GUR    C2 S1 1
+GUR    C3 S1 1
+GUR    N2 S1 1
+GUR "N1'" S1 1
+GUR "C1'" S1 1
+GUR "O1'" S1 1
+GUR "N2'" S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               GUR
+_pdbe_chem_comp_rdkit_properties.exactmw                               142.049
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                4
+_pdbe_chem_comp_rdkit_properties.NumHBA                                2
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         4
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
+_pdbe_chem_comp_rdkit_properties.NumRings                              2
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     2
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              2
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             65.007
+_pdbe_chem_comp_rdkit_properties.tpsa                                  82.260
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.736
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             30.911
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+GUR     C1 -1.860  0.080 -0.510 ETKDGv2  1
+GUR     O1 -2.930  0.162 -1.167 ETKDGv2  2
+GUR     N1 -1.175  1.201  0.003 ETKDGv2  3
+GUR     C2  0.016  0.719  0.690 ETKDGv2  4
+GUR     C3 -0.014 -0.841  0.544 ETKDGv2  5
+GUR     N2 -1.219 -1.142 -0.218 ETKDGv2  6
+GUR  "N1'"  1.217  1.156 -0.010 ETKDGv2  7
+GUR  "C1'"  1.857  0.010 -0.525 ETKDGv2  8
+GUR  "O1'"  2.926  0.051 -1.189 ETKDGv2  9
+GUR  "N2'"  1.173 -1.187 -0.227 ETKDGv2 10
+GUR    HN1 -1.456  2.200 -0.115 ETKDGv2 11
+GUR     H2  0.028  1.044  1.752 ETKDGv2 12
+GUR     H3 -0.020 -1.357  1.528 ETKDGv2 13
+GUR    HN2 -1.541 -2.090 -0.513 ETKDGv2 14
+GUR "HN1'"  1.539  2.143 -0.123 ETKDGv2 15
+GUR "HN2'"  1.458 -2.147 -0.522 ETKDGv2 16
+#

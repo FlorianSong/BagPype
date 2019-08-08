@@ -138,10 +138,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-TRP  "Create component" 1999-07-08  EBI ? ?
-TRP "Modify descriptor" 2011-06-04 RCSB ? ?
+TRP  "Create component" 1999-07-08  EBI
+TRP "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   TRP
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00150
@@ -177,12 +175,12 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-TRP                                        Tryptophan   ChEMBL
-TRP                                      L-Tryptophan   ChEMBL
 TRP                                   "Gppe Pdr Sach"   ChEMBL
-TRP                                           Optimax   ChEMBL
-TRP                                      "Optimax Wv"   ChEMBL
 TRP                                          Pacitron   ChEMBL
+TRP                                      "Optimax Wv"   ChEMBL
+TRP                                      L-Tryptophan   ChEMBL
+TRP                                        Tryptophan   ChEMBL
+TRP                                           Optimax   ChEMBL
 TRP    "(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid" DrugBank
 TRP "(S)-alpha-Amino-beta-(3-indolyl)-propionic acid" DrugBank
 TRP                                    (S)-Tryptophan DrugBank
@@ -361,31 +359,31 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-TRP   N  1.942 -1.505 -0.187 ETKDGv2  1
-TRP  CA  2.408 -0.140 -0.450 ETKDGv2  2
-TRP   C  3.021  0.471  0.788 ETKDGv2  3
-TRP   O  2.907 -0.096  1.907 ETKDGv2  4
-TRP  CB  1.253  0.730 -0.986 ETKDGv2  5
-TRP  CG  0.080  0.777 -0.046 ETKDGv2  6
-TRP CD1 -0.040  1.565  1.024 ETKDGv2  7
-TRP CD2 -1.155  0.002 -0.139 ETKDGv2  8
-TRP NE1 -1.298  1.353  1.666 ETKDGv2  9
-TRP CE2 -1.925  0.360  0.869 ETKDGv2 10
-TRP CE3 -1.582 -1.029 -1.102 ETKDGv2 11
-TRP CZ2 -3.250 -0.246  1.079 ETKDGv2 12
-TRP CZ3 -2.789 -1.597 -0.930 ETKDGv2 13
-TRP CH2 -3.662 -1.188  0.210 ETKDGv2 14
-TRP OXT  3.720  1.672  0.706 ETKDGv2 15
-TRP   H  2.770 -2.091  0.070 ETKDGv2 16
-TRP  H2  1.576 -1.907 -1.081 ETKDGv2 17
-TRP  HA  3.200 -0.180 -1.232 ETKDGv2 18
-TRP HB2  1.608  1.764 -1.187 ETKDGv2 19
-TRP HB3  0.918  0.318 -1.962 ETKDGv2 20
-TRP HD1  0.702  2.277  1.364 ETKDGv2 21
-TRP HE1 -1.669  1.823  2.521 ETKDGv2 22
-TRP HE3 -0.944 -1.324 -1.925 ETKDGv2 23
-TRP HZ2 -3.874  0.056  1.909 ETKDGv2 24
-TRP HZ3 -3.132 -2.358 -1.619 ETKDGv2 25
-TRP HH2 -4.630 -1.653  0.337 ETKDGv2 26
-TRP HXT  3.846  2.147 -0.180 ETKDGv2 27
+TRP   N  3.085 -0.008  1.090 ETKDGv2  1
+TRP  CA  2.473 -0.944  0.142 ETKDGv2  2
+TRP   C  2.351 -0.345 -1.244 ETKDGv2  3
+TRP   O  2.868 -0.947 -2.222 ETKDGv2  4
+TRP  CB  1.134 -1.496  0.672 ETKDGv2  5
+TRP  CG  0.078 -0.448  0.886 ETKDGv2  6
+TRP CD1 -0.046  0.338  1.957 ETKDGv2  7
+TRP CD2 -1.057 -0.154  0.015 ETKDGv2  8
+TRP NE1 -1.203  1.167  1.842 ETKDGv2  9
+TRP CE2 -1.772  0.788  0.598 ETKDGv2 10
+TRP CE3 -1.433 -0.697 -1.303 ETKDGv2 11
+TRP CZ2 -2.984  1.336 -0.033 ETKDGv2 12
+TRP CZ3 -2.537 -0.211 -1.898 ETKDGv2 13
+TRP CH2 -3.349  0.851 -1.234 ETKDGv2 14
+TRP OXT  1.691  0.861 -1.472 ETKDGv2 15
+TRP   H  2.560  0.894  1.100 ETKDGv2 16
+TRP  H2  4.055  0.208  0.762 ETKDGv2 17
+TRP  HA  3.151 -1.825  0.066 ETKDGv2 18
+TRP HB2  1.311 -2.028  1.631 ETKDGv2 19
+TRP HB3  0.752 -2.255 -0.044 ETKDGv2 20
+TRP HD1  0.621  0.343  2.809 ETKDGv2 21
+TRP HE1 -1.555  1.876  2.522 ETKDGv2 22
+TRP HE3 -0.837 -1.462 -1.783 ETKDGv2 23
+TRP HZ2 -3.564  2.108  0.456 ETKDGv2 24
+TRP HZ3 -2.839 -0.588 -2.867 ETKDGv2 25
+TRP HH2 -4.235  1.233 -1.724 ETKDGv2 26
+TRP HXT  1.281  1.405 -0.724 ETKDGv2 27
 #

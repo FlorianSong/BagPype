@@ -144,11 +144,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-JMS   "Other modification" 2011-03-22 RCSB EP ?
-JMS "Modify aromatic_flag" 2011-06-04 RCSB EP ?
-JMS    "Modify descriptor" 2011-06-04 RCSB EP ?
+JMS   "Other modification" 2011-03-22 RCSB
+JMS "Modify aromatic_flag" 2011-06-04 RCSB
+JMS    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   JMS
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00939
@@ -186,12 +184,12 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+JMS                               "Meclofenamic Acid"   ChEMBL
 JMS                                         Meclodium   ChEMBL
+JMS                                          Meclomen   ChEMBL
+JMS                                          INF-4668   ChEMBL
 JMS                                            CI-583   ChEMBL
 JMS                                     Meclofenamate   ChEMBL
-JMS                                          Meclomen   ChEMBL
-JMS                               "Meclofenamic Acid"   ChEMBL
-JMS                                          INF-4668   ChEMBL
 JMS                                     Meclofenamate DrugBank
 JMS                               "Meclofenamic acid" DrugBank
 JMS "N-(2,6-dichloro-3-methylphenyl)anthranilic acid" DrugBank
@@ -354,34 +352,34 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-JMS OXT -1.007 -2.420  0.141 ETKDGv2  1
-JMS  C7 -1.553 -1.366 -0.585 ETKDGv2  2
-JMS  OH -1.710 -1.487 -1.830 ETKDGv2  3
-JMS  C1 -2.006 -0.137  0.100 ETKDGv2  4
-JMS  C6 -3.232  0.533 -0.408 ETKDGv2  5
-JMS  C5 -3.749  1.586  0.233 ETKDGv2  6
-JMS  C4 -3.105  2.094  1.456 ETKDGv2  7
-JMS  C3 -1.991  1.517  1.915 ETKDGv2  8
-JMS  C2 -1.383  0.369  1.198 ETKDGv2  9
-JMS   N -0.128 -0.137  1.686 ETKDGv2 10
-JMS C1B  1.019 -0.417  0.859 ETKDGv2 11
-JMS C2B  1.391  0.472 -0.291 ETKDGv2 12
-JMS CL1  0.557  2.014 -0.529 ETKDGv2 13
-JMS C3B  2.426  0.136 -1.094 ETKDGv2 14
-JMS C7B  2.839  1.003 -2.253 ETKDGv2 15
-JMS C4B  3.217 -1.080 -0.799 ETKDGv2 16
-JMS C5B  2.926 -1.836  0.261 ETKDGv2 17
-JMS C6B  1.788 -1.492  1.133 ETKDGv2 18
-JMS CL2  1.426 -2.569  2.477 ETKDGv2 19
-JMS  H1 -0.704 -3.269 -0.321 ETKDGv2 20
-JMS  H2 -3.727  0.161 -1.297 ETKDGv2 21
-JMS  H3 -4.646  2.062 -0.140 ETKDGv2 22
-JMS  H4 -3.535  2.939  1.979 ETKDGv2 23
-JMS  H5 -1.516  1.905  2.807 ETKDGv2 24
-JMS  H6 -0.005 -0.187  2.723 ETKDGv2 25
-JMS  H7  3.229  1.973 -1.877 ETKDGv2 26
-JMS  H8  1.970  1.188 -2.920 ETKDGv2 27
-JMS  H9  3.634  0.517 -2.856 ETKDGv2 28
-JMS H10  4.053 -1.354 -1.431 ETKDGv2 29
-JMS H11  3.521 -2.715  0.473 ETKDGv2 30
+JMS OXT  1.810  2.562  1.430 ETKDGv2  1
+JMS  C7  2.876  1.851  0.884 ETKDGv2  2
+JMS  OH  4.043  2.315  0.990 ETKDGv2  3
+JMS  C1  2.659  0.538  0.232 ETKDGv2  4
+JMS  C6  3.773 -0.448  0.251 ETKDGv2  5
+JMS  C5  3.612 -1.672 -0.262 ETKDGv2  6
+JMS  C4  2.324 -2.057 -0.861 ETKDGv2  7
+JMS  C3  1.316 -1.181 -0.901 ETKDGv2  8
+JMS  C2  1.476  0.188 -0.338 ETKDGv2  9
+JMS   N  0.402  1.135 -0.478 ETKDGv2 10
+JMS C1B -0.979  0.738 -0.519 ETKDGv2 11
+JMS C2B -1.563 -0.081  0.586 ETKDGv2 12
+JMS CL1 -0.578 -0.455  2.005 ETKDGv2 13
+JMS C3B -2.853 -0.480  0.520 ETKDGv2 14
+JMS C7B -3.480 -1.296  1.617 ETKDGv2 15
+JMS C4B -3.683 -0.076 -0.639 ETKDGv2 16
+JMS C5B -3.169  0.683 -1.609 ETKDGv2 17
+JMS C6B -1.760  1.114 -1.552 ETKDGv2 18
+JMS CL2 -1.127  2.067 -2.889 ETKDGv2 19
+JMS  H1  1.959  3.452  1.890 ETKDGv2 20
+JMS  H2  4.725 -0.187  0.696 ETKDGv2 21
+JMS  H3  4.427 -2.384 -0.236 ETKDGv2 22
+JMS  H4  2.199 -3.048 -1.277 ETKDGv2 23
+JMS  H5  0.381 -1.474 -1.361 ETKDGv2 24
+JMS  H6  0.639  2.122 -0.725 ETKDGv2 25
+JMS  H7 -2.896 -2.226  1.780 ETKDGv2 26
+JMS  H8 -3.506 -0.705  2.557 ETKDGv2 27
+JMS  H9 -4.521 -1.585  1.358 ETKDGv2 28
+JMS H10 -4.719 -0.386 -0.701 ETKDGv2 29
+JMS H11 -3.788  0.976 -2.448 ETKDGv2 30
 #

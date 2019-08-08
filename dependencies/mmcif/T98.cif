@@ -157,11 +157,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-T98     "Create component" 2005-06-17 RCSB ? ?
-T98 "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-T98    "Modify descriptor" 2011-06-04 RCSB ? ?
+T98     "Create component" 2005-06-17 RCSB
+T98 "Modify aromatic_flag" 2011-06-04 RCSB
+T98    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   T98
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04787
@@ -194,8 +192,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-T98 Tanaproget ChEMBL
 T98    NSP-989 ChEMBL
+T98 Tanaproget ChEMBL
 #
 loop_
 _software.name              
@@ -356,40 +354,40 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-T98   C1 -2.169  0.542 -2.429 ETKDGv2  1
-T98   C2 -2.531  0.088 -1.006 ETKDGv2  2
-T98   C3 -1.476  0.601 -0.015 ETKDGv2  3
-T98   C4 -0.055  0.171 -0.164 ETKDGv2  4
-T98   C5  0.890  0.581  0.698 ETKDGv2  5
-T98   C6  0.518  1.504  1.793 ETKDGv2  6
-T98   C7 -0.748  1.906  1.935 ETKDGv2  7
-T98   C8 -1.796  1.436  1.001 ETKDGv2  8
-T98   N1 -3.140  1.879  1.194 ETKDGv2  9
-T98   C9 -4.166  1.434  0.316 ETKDGv2 10
-T98   S1 -5.711  1.925  0.528 ETKDGv2 11
-T98   O1 -3.852  0.573 -0.730 ETKDGv2 12
-T98  C10  2.298  0.149  0.543 ETKDGv2 13
-T98  C11  3.353  0.936  0.734 ETKDGv2 14
-T98  C12  4.551  0.147  0.448 ETKDGv2 15
-T98  C13  4.147 -1.069  0.112 ETKDGv2 16
-T98   N2  2.726 -1.159  0.154 ETKDGv2 17
-T98  C14  1.924 -2.374  0.031 ETKDGv2 18
-T98  C15  5.026 -2.152 -0.243 ETKDGv2 19
-T98   N3  5.732 -3.024 -0.528 ETKDGv2 20
-T98  C16 -2.590 -1.447 -0.948 ETKDGv2 21
-T98 H11A -2.090  1.650 -2.465 ETKDGv2 22
-T98 H12A -2.960  0.228 -3.143 ETKDGv2 23
-T98  H13 -1.207  0.105 -2.767 ETKDGv2 24
-T98   H4  0.219 -0.464 -0.994 ETKDGv2 25
-T98   H6  1.267  1.851  2.494 ETKDGv2 26
-T98   H7 -1.008  2.576  2.745 ETKDGv2 27
-T98  HN1 -3.371  2.527  1.981 ETKDGv2 28
-T98  H11  3.329  1.979  1.021 ETKDGv2 29
-T98  H12  5.577  0.488  0.499 ETKDGv2 30
-T98 H141  1.030 -2.313  0.685 ETKDGv2 31
-T98 H142  2.517 -3.259  0.343 ETKDGv2 32
-T98 H143  1.607 -2.504 -1.024 ETKDGv2 33
-T98 H161 -1.631 -1.907 -1.265 ETKDGv2 34
-T98 H162 -3.391 -1.825 -1.620 ETKDGv2 35
-T98 H163 -2.820 -1.780  0.087 ETKDGv2 36
+T98   C1 -2.959 -0.212  1.818 ETKDGv2  1
+T98   C2 -2.918  0.516  0.465 ETKDGv2  2
+T98   C3 -1.649  0.113 -0.301 ETKDGv2  3
+T98   C4 -0.309  0.395  0.292 ETKDGv2  4
+T98   C5  0.822  0.045 -0.345 ETKDGv2  5
+T98   C6  0.732 -0.606 -1.670 ETKDGv2  6
+T98   C7 -0.459 -0.863 -2.215 ETKDGv2  7
+T98   C8 -1.707 -0.496 -1.508 ETKDGv2  8
+T98   N1 -2.961 -0.792 -2.125 ETKDGv2  9
+T98   C9 -4.173 -0.442 -1.470 ETKDGv2 10
+T98   S1 -5.616 -0.771 -2.163 ETKDGv2 11
+T98   O1 -4.129  0.185 -0.230 ETKDGv2 12
+T98  C10  2.147  0.330  0.253 ETKDGv2 13
+T98  C11  2.467  1.454  0.891 ETKDGv2 14
+T98  C12  3.874  1.358  1.279 ETKDGv2 15
+T98  C13  4.315  0.182  0.859 ETKDGv2 16
+T98   N2  3.278 -0.541  0.203 ETKDGv2 17
+T98  C14  3.331 -1.929 -0.249 ETKDGv2 18
+T98  C15  5.659 -0.300  1.044 ETKDGv2 19
+T98   N3  6.738 -0.688  1.193 ETKDGv2 20
+T98  C16 -2.926  2.036  0.690 ETKDGv2 21
+T98 H11A -3.904  0.027  2.352 ETKDGv2 22
+T98 H12A -2.111  0.086  2.469 ETKDGv2 23
+T98  H13 -2.919 -1.311  1.660 ETKDGv2 24
+T98   H4 -0.249  0.871  1.262 ETKDGv2 25
+T98   H6  1.630 -0.856 -2.219 ETKDGv2 26
+T98   H7 -0.510 -1.334 -3.189 ETKDGv2 27
+T98  HN1 -2.989 -1.263 -3.058 ETKDGv2 28
+T98  H11  1.813  2.300  1.062 ETKDGv2 29
+T98  H12  4.451  2.107  1.806 ETKDGv2 30
+T98 H141  4.046 -2.507  0.374 ETKDGv2 31
+T98 H142  2.332 -2.403 -0.154 ETKDGv2 32
+T98 H143  3.663 -1.963 -1.307 ETKDGv2 33
+T98 H161 -3.869  2.344  1.191 ETKDGv2 34
+T98 H162 -2.864  2.565 -0.285 ETKDGv2 35
+T98 H163 -2.077  2.361  1.326 ETKDGv2 36
 #

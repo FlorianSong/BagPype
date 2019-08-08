@@ -190,11 +190,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MER   "Create component" 2001-02-17  EBI  ?                                                                                                                                                                                                                                                                                    ?
-MER  "Modify descriptor" 2011-06-04 RCSB  ?                                                                                                                                                                                                                                                                                    ?
-MER "Other modification" 2012-05-04 RCSB CS "It turns out MER and KOL are for the same ligand in bound form, and the 2001 built of MER was incorrect, 2011 built of KOL is correct. Based on wwPDB discussion, PDB chooses to update MER to KOL definition. Therefore, this ligandis regenerated from 3Q82. KOL to be obsolete."
+MER   "Create component" 2001-02-17  EBI
+MER  "Modify descriptor" 2011-06-04 RCSB
+MER "Other modification" 2012-05-04 RCSB
 #
 loop_
 _software.name              
@@ -362,57 +360,57 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MER   C1 -3.351  0.819 -3.731 ETKDGv2  1
-MER   C2 -1.265 -1.652 -0.520 ETKDGv2  2
-MER   C3 -3.428  0.764 -2.221 ETKDGv2  3
-MER   C4 -3.108 -0.692 -1.740 ETKDGv2  4
-MER   C5 -2.271 -1.465  0.325 ETKDGv2  5
-MER   O6 -4.066  0.110 -4.422 ETKDGv2  6
-MER   C7 -4.817  1.276 -1.729 ETKDGv2  7
-MER   O8 -4.762  1.516 -0.346 ETKDGv2  8
-MER   C9 -5.244  2.585 -2.416 ETKDGv2  9
-MER  N10 -3.383 -0.873 -0.320 ETKDGv2 10
-MER  C11 -2.320 -1.854  1.750 ETKDGv2 11
-MER  O12 -3.420 -1.486  2.519 ETKDGv2 12
-MER  O13 -1.394 -2.524  2.279 ETKDGv2 13
-MER  S14  0.303 -2.456 -0.132 ETKDGv2 14
-MER  C15  1.130 -0.951  0.522 ETKDGv2 15
-MER  C16  2.455 -0.706 -0.167 ETKDGv2 16
-MER  C17  3.279 -0.021  0.915 ETKDGv2 17
-MER  C18 -1.630 -1.192 -1.903 ETKDGv2 18
-MER  N19  2.872 -0.623  2.188 ETKDGv2 19
-MER  C20 -0.597 -0.178 -2.420 ETKDGv2 20
-MER  C21  1.497 -1.101  1.999 ETKDGv2 21
-MER  C22  4.782 -0.104  0.703 ETKDGv2 22
-MER  N23  5.704  0.582  1.579 ETKDGv2 23
-MER  O24  5.236 -0.782 -0.260 ETKDGv2 24
-MER  C25  7.143  0.349  1.419 ETKDGv2 25
-MER  C26  5.224  1.526  2.595 ETKDGv2 26
-MER   H1 -2.663  1.507 -4.211 ETKDGv2 27
-MER   H3 -2.669  1.463 -1.809 ETKDGv2 28
-MER   H4 -3.774 -1.394 -2.291 ETKDGv2 29
-MER   H7 -5.583  0.497 -1.953 ETKDGv2 30
-MER  HO8 -5.694  1.472 -0.006 ETKDGv2 31
-MER   H9 -6.174  2.972 -1.948 ETKDGv2 32
-MER  H9A -4.448  3.354 -2.313 ETKDGv2 33
-MER  H9B -5.458  2.418 -3.493 ETKDGv2 34
-MER HN10 -4.343 -0.876  0.091 ETKDGv2 35
-MER HO12 -3.481 -1.744  3.497 ETKDGv2 36
-MER  H15  0.494 -0.045  0.401 ETKDGv2 37
-MER  H16  2.915 -1.677 -0.456 ETKDGv2 38
-MER H16A  2.341 -0.058 -1.063 ETKDGv2 39
-MER  H17  2.990  1.054  0.927 ETKDGv2 40
-MER  H18 -1.618 -2.075 -2.580 ETKDGv2 41
-MER HN19  3.476 -1.459  2.377 ETKDGv2 42
-MER  H20 -0.836  0.139 -3.453 ETKDGv2 43
-MER H20A  0.403 -0.656 -2.469 ETKDGv2 44
-MER H20B -0.527  0.708 -1.754 ETKDGv2 45
-MER  H21  0.810 -0.492  2.624 ETKDGv2 46
-MER H21A  1.411 -2.160  2.333 ETKDGv2 47
-MER  H25  7.740  0.916  2.163 ETKDGv2 48
-MER H25A  7.463  0.664  0.404 ETKDGv2 49
-MER H25B  7.364 -0.731  1.553 ETKDGv2 50
-MER  H26  4.602  0.995  3.345 ETKDGv2 51
-MER H26A  6.064  2.011  3.136 ETKDGv2 52
-MER H26B  4.626  2.328  2.114 ETKDGv2 53
+MER   C1 -5.440 -1.863 -0.814 ETKDGv2  1
+MER   C2 -1.251  0.244  0.153 ETKDGv2  2
+MER   C3 -4.459 -0.724 -0.968 ETKDGv2  3
+MER   C4 -3.011 -1.197 -0.616 ETKDGv2  4
+MER   C5 -1.810 -0.332  1.216 ETKDGv2  5
+MER   O6 -6.559 -1.781 -1.295 ETKDGv2  6
+MER   C7 -4.930  0.562 -0.206 ETKDGv2  7
+MER   O8 -5.829  1.283 -1.010 ETKDGv2  8
+MER   C9 -5.613  0.295  1.145 ETKDGv2  9
+MER  N10 -2.821 -1.249  0.825 ETKDGv2 10
+MER  C11 -1.468 -0.077  2.637 ETKDGv2 11
+MER  O12 -2.292 -0.528  3.666 ETKDGv2 12
+MER  O13 -0.421  0.552  2.942 ETKDGv2 13
+MER  S14  0.074  1.467  0.190 ETKDGv2 14
+MER  C15  1.430  0.234  0.193 ETKDGv2 15
+MER  C16  2.723  0.848  0.683 ETKDGv2 16
+MER  C17  3.785  0.083 -0.088 ETKDGv2 17
+MER  C18 -1.823 -0.316 -1.116 ETKDGv2 18
+MER  N19  3.210 -0.233 -1.400 ETKDGv2 19
+MER  C20 -2.124  0.760 -2.170 ETKDGv2 20
+MER  C21  1.756 -0.282 -1.211 ETKDGv2 21
+MER  C22  5.082  0.868 -0.206 ETKDGv2 22
+MER  N23  6.335  0.389  0.338 ETKDGv2 23
+MER  O24  5.055  1.982 -0.800 ETKDGv2 24
+MER  C25  7.544  1.198  0.141 ETKDGv2 25
+MER  C26  6.418 -0.870  1.087 ETKDGv2 26
+MER   H1 -5.159 -2.769 -0.285 ETKDGv2 27
+MER   H3 -4.459 -0.500 -2.055 ETKDGv2 28
+MER   H4 -2.861 -2.220 -1.030 ETKDGv2 29
+MER   H7 -4.053  1.207  0.021 ETKDGv2 30
+MER  HO8 -5.290  1.758 -1.695 ETKDGv2 31
+MER   H9 -6.579 -0.236  1.006 ETKDGv2 32
+MER  H9A -4.969 -0.299  1.820 ETKDGv2 33
+MER  H9B -5.828  1.262  1.646 ETKDGv2 34
+MER HN10 -3.292 -1.939  1.450 ETKDGv2 35
+MER HO12 -3.171 -0.998  3.493 ETKDGv2 36
+MER  H15  1.172 -0.623  0.856 ETKDGv2 37
+MER  H16  2.757  1.931  0.428 ETKDGv2 38
+MER H16A  2.845  0.723  1.781 ETKDGv2 39
+MER  H17  3.948 -0.879  0.437 ETKDGv2 40
+MER  H18 -1.056 -0.993 -1.552 ETKDGv2 41
+MER HN19  3.413  0.543 -2.075 ETKDGv2 42
+MER  H20 -1.176  1.240 -2.493 ETKDGv2 43
+MER H20A -2.578  0.299 -3.071 ETKDGv2 44
+MER H20B -2.785  1.557 -1.780 ETKDGv2 45
+MER  H21  1.244  0.321 -1.995 ETKDGv2 46
+MER H21A  1.414 -1.334 -1.315 ETKDGv2 47
+MER  H25  7.735  1.326 -0.946 ETKDGv2 48
+MER H25A  7.407  2.196  0.608 ETKDGv2 49
+MER H25B  8.439  0.724  0.594 ETKDGv2 50
+MER  H26  5.744 -0.828  1.968 ETKDGv2 51
+MER H26A  7.446 -1.062  1.458 ETKDGv2 52
+MER H26B  6.132 -1.718  0.430 ETKDGv2 53
 #

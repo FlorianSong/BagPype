@@ -154,10 +154,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-C5P  "Create component" 1999-07-08  EBI ? ?
-C5P "Modify descriptor" 2011-06-04 RCSB ? ?
+C5P  "Create component" 1999-07-08  EBI
+C5P "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   C5P
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB03403
@@ -199,8 +197,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-C5P     "Cytidine 5'-Phosphate"   ChEMBL
 C5P "Cytidine-5'-Monophosphate"   ChEMBL
+C5P     "Cytidine 5'-Phosphate"   ChEMBL
 C5P                    "5'-CMP" DrugBank
 C5P                         CMP DrugBank
 C5P    "Cytidine monophosphate" DrugBank
@@ -387,39 +385,39 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-C5P    O3P -4.979  1.442  1.947 ETKDGv2  1
-C5P      P -4.698  0.758  0.426 ETKDGv2  2
-C5P    O1P -5.578 -0.461  0.267 ETKDGv2  3
-C5P    O2P -5.084  1.891 -0.771 ETKDGv2  4
-C5P  "O5'" -3.056  0.309  0.315 ETKDGv2  5
-C5P  "C5'" -2.810 -0.161 -0.991 ETKDGv2  6
-C5P  "C4'" -1.353 -0.630 -1.112 ETKDGv2  7
-C5P  "O4'" -0.475  0.380 -0.659 ETKDGv2  8
-C5P  "C3'" -1.047 -1.946 -0.383 ETKDGv2  9
-C5P  "O3'" -1.873 -2.117  0.742 ETKDGv2 10
-C5P  "C2'"  0.385 -1.744  0.056 ETKDGv2 11
-C5P  "O2'"  1.291 -2.254 -0.896 ETKDGv2 12
-C5P  "C1'"  0.475 -0.223  0.194 ETKDGv2 13
-C5P     N1  1.838  0.273 -0.066 ETKDGv2 14
-C5P     C2  2.262  0.821 -1.334 ETKDGv2 15
-C5P     N3  3.607  1.288 -1.479 ETKDGv2 16
-C5P     C4  4.462  1.207 -0.503 ETKDGv2 17
-C5P     C5  4.066  0.620  0.794 ETKDGv2 18
-C5P     C6  2.819  0.180  0.983 ETKDGv2 19
-C5P     O2  1.479  0.880 -2.318 ETKDGv2 20
-C5P     N4  5.794  1.684 -0.691 ETKDGv2 21
-C5P   HOP3 -4.327  2.185  2.013 ETKDGv2 22
-C5P   HOP2 -4.459  2.644 -0.617 ETKDGv2 23
-C5P "H5'1" -2.964  0.658 -1.729 ETKDGv2 24
-C5P "H5'2" -3.478 -1.014 -1.250 ETKDGv2 25
-C5P  "H4'" -1.148 -0.789 -2.195 ETKDGv2 26
-C5P  "H3'" -1.154 -2.815 -1.075 ETKDGv2 27
-C5P "HO3'" -1.778 -3.064  1.024 ETKDGv2 28
-C5P "H2'1"  0.587 -2.237  1.032 ETKDGv2 29
-C5P "HO2'"  1.093 -1.836 -1.774 ETKDGv2 30
-C5P  "H1'"  0.189  0.052  1.235 ETKDGv2 31
-C5P     H5  4.789  0.545  1.597 ETKDGv2 32
-C5P     H6  2.550 -0.250  1.941 ETKDGv2 33
-C5P   HN41  6.084  2.098 -1.605 ETKDGv2 34
-C5P   HN42  6.495  1.626  0.081 ETKDGv2 35
+C5P    O3P -5.652  0.025  0.858 ETKDGv2  1
+C5P      P -4.716  0.320 -0.523 ETKDGv2  2
+C5P    O1P -5.001 -0.733 -1.572 ETKDGv2  3
+C5P    O2P -5.130  1.839 -1.143 ETKDGv2  4
+C5P  "O5'" -3.056  0.322 -0.131 ETKDGv2  5
+C5P  "C5'" -2.732 -0.916  0.459 ETKDGv2  6
+C5P  "C4'" -1.233 -0.964  0.785 ETKDGv2  7
+C5P  "O4'" -0.473 -0.625 -0.357 ETKDGv2  8
+C5P  "C3'" -0.811 -0.079  1.967 ETKDGv2  9
+C5P  "O3'" -1.641  1.050  2.089 ETKDGv2 10
+C5P  "C2'"  0.582  0.348  1.567 ETKDGv2 11
+C5P  "O2'"  1.558 -0.526  2.089 ETKDGv2 12
+C5P  "C1'"  0.514  0.304  0.039 ETKDGv2 13
+C5P     N1  1.825  0.001 -0.562 ETKDGv2 14
+C5P     C2  2.220 -1.319 -0.998 ETKDGv2 15
+C5P     N3  3.513 -1.504 -1.581 ETKDGv2 16
+C5P     C4  4.349 -0.516 -1.706 ETKDGv2 17
+C5P     C5  3.985  0.838 -1.238 ETKDGv2 18
+C5P     C6  2.785  1.065 -0.696 ETKDGv2 19
+C5P     O2  1.458 -2.311 -0.857 ETKDGv2 20
+C5P     N4  5.630 -0.746 -2.293 ETKDGv2 21
+C5P   HOP3 -5.739 -0.960  0.909 ETKDGv2 22
+C5P   HOP2 -4.493  1.990 -1.886 ETKDGv2 23
+C5P "H5'1" -2.952 -1.752 -0.244 ETKDGv2 24
+C5P "H5'2" -3.303 -1.074  1.402 ETKDGv2 25
+C5P  "H4'" -0.987 -2.017  1.049 ETKDGv2 26
+C5P  "H3'" -0.813 -0.663  2.918 ETKDGv2 27
+C5P "HO3'" -1.456  1.444  2.981 ETKDGv2 28
+C5P "H2'1"  0.811  1.378  1.917 ETKDGv2 29
+C5P "HO2'"  1.338 -1.450  1.800 ETKDGv2 30
+C5P  "H1'"  0.177  1.301 -0.325 ETKDGv2 31
+C5P     H5  4.693  1.651 -1.334 ETKDGv2 32
+C5P     H6  2.539  2.064 -0.357 ETKDGv2 33
+C5P   HN41  5.897 -1.699 -2.625 ETKDGv2 34
+C5P   HN42  6.315  0.035 -2.400 ETKDGv2 35
 #

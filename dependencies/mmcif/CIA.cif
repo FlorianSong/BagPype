@@ -182,10 +182,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-CIA  "Create component" 2003-05-08 RCSB ? ?
-CIA "Modify descriptor" 2011-06-04 RCSB ? ?
+CIA  "Create component" 2003-05-08 RCSB
+CIA "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   CIA
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00820
@@ -223,11 +221,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+CIA                                                                                                                        IC-351   ChEMBL
 CIA                                                                                                                         IC351   ChEMBL
+CIA                                                                                                                     Tadalafil   ChEMBL
 CIA                                                                                                                       Adcirca   ChEMBL
 CIA                                                                                                                        Cialis   ChEMBL
-CIA                                                                                                                     Tadalafil   ChEMBL
-CIA                                                                                                                        IC-351   ChEMBL
 CIA      "(6R-trans)-6-(1,3-Benzodioxol-5-yl)-2,3,6,7,12,12a-hexahydro-2-methyl-pyrazino(1',2':1,6)pyrido(3,4-b)indole-1,4-dione" DrugBank
 CIA "(6R,12aR)-2,3,6,7,12,12a-Hexahydro-2-methyl-6-(3,4-(methylenedioxy)phenyl) pyrazino(1',2':1,6)pyrido(3,4-b)indole-1,4-dione" DrugBank
 CIA                                                                                                                     Tadalafil DrugBank
@@ -466,52 +464,52 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CIA   C3 -1.184  5.595  1.364 ETKDGv2  1
-CIA   C2 -2.395  5.160  0.946 ETKDGv2  2
-CIA   C1 -2.607  3.725  0.611 ETKDGv2  3
-CIA   C6 -1.560  2.906  0.733 ETKDGv2  4
-CIA   C7 -1.402  1.473  0.515 ETKDGv2  5
-CIA   C8 -0.148  1.145  0.832 ETKDGv2  6
-CIA   N9  0.632  2.276  1.247 ETKDGv2  7
-CIA   C5 -0.271  3.368  1.180 ETKDGv2  8
-CIA   C4 -0.046  4.644  1.497 ETKDGv2  9
-CIA  C13  0.364 -0.270  0.818 ETKDGv2 10
-CIA  N12 -0.660 -1.236  0.350 ETKDGv2 11
-CIA  C17 -0.381 -2.644  0.489 ETKDGv2 12
-CIA  O20  0.535 -3.042  1.259 ETKDGv2 13
-CIA  C16 -1.133 -3.644 -0.325 ETKDGv2 14
-CIA  N15 -2.538 -3.253 -0.432 ETKDGv2 15
-CIA  C31 -2.880 -1.866 -0.596 ETKDGv2 16
-CIA  O32 -4.057 -1.548 -0.926 ETKDGv2 17
-CIA  C11 -1.829 -0.783 -0.447 ETKDGv2 18
-CIA  C10 -2.459  0.474  0.188 ETKDGv2 19
-CIA  C18 -3.585 -4.275 -0.497 ETKDGv2 20
-CIA  C22  1.615 -0.365 -0.029 ETKDGv2 21
-CIA  C27  1.597 -0.048 -1.353 ETKDGv2 22
-CIA  C26  2.834 -0.153 -2.175 ETKDGv2 23
-CIA  C25  3.942 -0.565 -1.563 ETKDGv2 24
-CIA  O30  5.207 -0.748 -2.085 ETKDGv2 25
-CIA  C29  6.074 -1.205 -1.033 ETKDGv2 26
-CIA  O28  5.256 -1.285  0.147 ETKDGv2 27
-CIA  C24  3.972 -0.897 -0.181 ETKDGv2 28
-CIA  C23  2.894 -0.820  0.599 ETKDGv2 29
-CIA   H3 -1.039  6.639  1.607 ETKDGv2 30
-CIA   H2 -3.218  5.857  0.855 ETKDGv2 31
-CIA   H1 -3.572  3.362  0.284 ETKDGv2 32
-CIA  HN9  1.624  2.283  1.572 ETKDGv2 33
-CIA   H4  0.925  4.975  1.841 ETKDGv2 34
-CIA  H13  0.610 -0.511  1.875 ETKDGv2 35
-CIA H161 -1.039 -4.649  0.143 ETKDGv2 36
-CIA H162 -0.687 -3.685 -1.341 ETKDGv2 37
-CIA  H11 -1.480 -0.524 -1.469 ETKDGv2 38
-CIA H101 -3.189  0.930 -0.516 ETKDGv2 39
-CIA H102 -2.988  0.203  1.128 ETKDGv2 40
-CIA H181 -4.308 -4.122  0.332 ETKDGv2 41
-CIA H182 -4.120 -4.205 -1.468 ETKDGv2 42
-CIA H183 -3.161 -5.298 -0.411 ETKDGv2 43
-CIA  H27  0.688  0.297 -1.827 ETKDGv2 44
-CIA  H26  2.833  0.096 -3.228 ETKDGv2 45
-CIA H291  6.481 -2.208 -1.282 ETKDGv2 46
-CIA H292  6.899 -0.479 -0.876 ETKDGv2 47
-CIA  H23  2.952 -1.081  1.647 ETKDGv2 48
+CIA   C3 -1.938  5.444 -0.665 ETKDGv2  1
+CIA   C2 -2.938  4.689 -1.175 ETKDGv2  2
+CIA   C1 -2.913  3.208 -1.033 ETKDGv2  3
+CIA   C6 -1.872  2.670 -0.395 ETKDGv2  4
+CIA   C7 -1.525  1.294 -0.063 ETKDGv2  5
+CIA   C8 -0.385  1.312  0.630 ETKDGv2  6
+CIA   N9  0.139  2.638  0.798 ETKDGv2  7
+CIA   C5 -0.808  3.473  0.152 ETKDGv2  8
+CIA   C4 -0.799  4.803  0.050 ETKDGv2  9
+CIA  C13  0.249  0.080  1.214 ETKDGv2 10
+CIA  N12 -0.520 -1.149  0.898 ETKDGv2 11
+CIA  C17 -0.168 -2.367  1.585 ETKDGv2 12
+CIA  O20  0.523 -2.331  2.640 ETKDGv2 13
+CIA  C16 -0.564 -3.691  1.021 ETKDGv2 14
+CIA  N15 -1.910 -3.614  0.454 ETKDGv2 15
+CIA  C31 -2.315 -2.435 -0.262 ETKDGv2 16
+CIA  O32 -3.373 -2.456 -0.950 ETKDGv2 17
+CIA  C11 -1.453 -1.188 -0.257 ETKDGv2 18
+CIA  C10 -2.349  0.068 -0.266 ETKDGv2 19
+CIA  C18 -2.798 -4.779  0.504 ETKDGv2 20
+CIA  C22  1.674 -0.050  0.719 ETKDGv2 21
+CIA  C27  2.707 -0.119  1.602 ETKDGv2 22
+CIA  C26  4.108 -0.262  1.120 ETKDGv2 23
+CIA  C25  4.300 -0.318 -0.196 ETKDGv2 24
+CIA  O30  5.483 -0.445 -0.897 ETKDGv2 25
+CIA  C29  5.182 -0.452 -2.304 ETKDGv2 26
+CIA  O28  3.753 -0.322 -2.403 ETKDGv2 27
+CIA  C24  3.230 -0.243 -1.128 ETKDGv2 28
+CIA  C23  1.959 -0.114 -0.750 ETKDGv2 29
+CIA   H3 -1.964  6.520 -0.771 ETKDGv2 30
+CIA   H2 -3.763  5.163 -1.691 ETKDGv2 31
+CIA   H1 -3.710  2.593 -1.430 ETKDGv2 32
+CIA  HN9  0.999  2.924  1.317 ETKDGv2 33
+CIA   H4  0.002  5.395  0.473 ETKDGv2 34
+CIA  H13  0.232  0.227  2.317 ETKDGv2 35
+CIA H161 -0.517 -4.463  1.819 ETKDGv2 36
+CIA H162  0.154 -3.967  0.220 ETKDGv2 37
+CIA  H11 -0.854 -1.202 -1.192 ETKDGv2 38
+CIA H101 -3.097  0.010  0.555 ETKDGv2 39
+CIA H102 -2.886  0.144 -1.237 ETKDGv2 40
+CIA H181 -2.325 -5.628  1.041 ETKDGv2 41
+CIA H182 -3.737 -4.508  1.031 ETKDGv2 42
+CIA H183 -3.039 -5.113 -0.527 ETKDGv2 43
+CIA  H27  2.527 -0.076  2.669 ETKDGv2 44
+CIA  H26  4.938 -0.319  1.812 ETKDGv2 45
+CIA H291  5.678  0.407 -2.804 ETKDGv2 46
+CIA H292  5.510 -1.409 -2.759 ETKDGv2 47
+CIA  H23  1.172 -0.044 -1.488 ETKDGv2 48
 #

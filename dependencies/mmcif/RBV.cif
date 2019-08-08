@@ -141,8 +141,6 @@ _pdbx_chem_comp_audit.comp_id               RBV
 _pdbx_chem_comp_audit.action_type           "Create component"
 _pdbx_chem_comp_audit.date                  2011-06-25
 _pdbx_chem_comp_audit.processing_site       PDBJ
-_pdbx_chem_comp_audit.annotator             YK
-_pdbx_chem_comp_audit.details               ?
 
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   RBV
@@ -183,17 +181,17 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+RBV                           "Ribofluranosyl Carboxamide"   ChEMBL
+RBV                                                Ribapak   ChEMBL
+RBV                                                Virazid   ChEMBL
 RBV                                               Virazole   ChEMBL
+RBV                                                Viramid   ChEMBL
+RBV                                              Ribavarin   ChEMBL
 RBV                                                Copegus   ChEMBL
 RBV                                             Tribavirin   ChEMBL
-RBV                                                Viramid   ChEMBL
-RBV                                             Ribasphere   ChEMBL
-RBV                                                Ribapak   ChEMBL
 RBV                                                Rebetol   ChEMBL
-RBV                           "Ribofluranosyl Carboxamide"   ChEMBL
-RBV                                                Virazid   ChEMBL
-RBV                                              Ribavarin   ChEMBL
 RBV                                              Ribavirin   ChEMBL
+RBV                                             Ribasphere   ChEMBL
 RBV    1-beta-D-Ribofuranosyl-1,2,4-triazole-3-carboxamide DrugBank
 RBV 1-beta-D-Ribofuranosyl-1H-1,2,4-triazole-3-carboxamide DrugBank
 RBV                                                    RBV DrugBank
@@ -350,33 +348,33 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-RBV     N1  1.037  0.410 -0.220 ETKDGv2  1
-RBV     N2  2.182 -0.014 -0.892 ETKDGv2  2
-RBV     C3  3.127 -0.028 -0.007 ETKDGv2  3
-RBV     N3  5.508 -0.430  0.705 ETKDGv2  4
-RBV     O3  4.817 -0.755 -1.491 ETKDGv2  5
-RBV     N4  2.682  0.353  1.300 ETKDGv2  6
-RBV     C5  1.424  0.598  1.133 ETKDGv2  7
-RBV     C6  4.509 -0.422 -0.315 ETKDGv2  8
-RBV  "C1'" -0.319  0.310 -0.755 ETKDGv2  9
-RBV  "C2'" -0.837 -1.135 -0.768 ETKDGv2 10
-RBV  "O2'" -0.185 -1.956  0.176 ETKDGv2 11
-RBV  "C3'" -2.304 -0.964 -0.434 ETKDGv2 12
-RBV  "O3'" -3.091 -0.879 -1.601 ETKDGv2 13
-RBV  "C4'" -2.302  0.337  0.379 ETKDGv2 14
-RBV  "O4'" -1.202  1.129 -0.014 ETKDGv2 15
-RBV  "C5'" -3.612  1.141  0.306 ETKDGv2 16
-RBV  "O5'" -3.767  1.763 -0.943 ETKDGv2 17
-RBV    HN3  5.279 -0.158  1.686 ETKDGv2 18
-RBV   HN3A  6.488 -0.711  0.477 ETKDGv2 19
-RBV     H5  0.758  0.893  1.932 ETKDGv2 20
-RBV  "H1'" -0.307  0.690 -1.801 ETKDGv2 21
-RBV  "H2'" -0.703 -1.590 -1.775 ETKDGv2 22
-RBV "HO2'" -0.356 -1.588  1.082 ETKDGv2 23
-RBV  "H3'" -2.681 -1.811  0.181 ETKDGv2 24
-RBV "HO3'" -2.690 -0.198 -2.202 ETKDGv2 25
-RBV  "H4'" -2.152  0.065  1.448 ETKDGv2 26
-RBV  "H5'" -4.474  0.463  0.481 ETKDGv2 27
-RBV "H5'A" -3.624  1.905  1.117 ETKDGv2 28
-RBV "HO5'" -3.204  2.581 -0.928 ETKDGv2 29
+RBV     N1  0.890  0.691 -0.064 ETKDGv2  1
+RBV     N2  1.996  0.765 -0.910 ETKDGv2  2
+RBV     C3  3.002  0.338 -0.217 ETKDGv2  3
+RBV     N3  5.438 -0.235  0.057 ETKDGv2  4
+RBV     O3  4.601  0.624 -1.934 ETKDGv2  5
+RBV     N4  2.641 -0.070  1.108 ETKDGv2  6
+RBV     C5  1.369  0.149  1.157 ETKDGv2  7
+RBV     C6  4.368  0.257 -0.751 ETKDGv2  8
+RBV  "C1'" -0.499  0.796 -0.510 ETKDGv2  9
+RBV  "C2'" -1.063 -0.556 -0.951 ETKDGv2 10
+RBV  "O2'" -0.065 -1.471 -1.324 ETKDGv2 11
+RBV  "C3'" -1.792 -1.027  0.276 ETKDGv2 12
+RBV  "O3'" -2.911 -1.810 -0.053 ETKDGv2 13
+RBV  "C4'" -2.170  0.286  0.974 ETKDGv2 14
+RBV  "O4'" -1.291  1.306  0.542 ETKDGv2 15
+RBV  "C5'" -3.625  0.737  0.741 ETKDGv2 16
+RBV  "O5'" -3.896  0.909 -0.625 ETKDGv2 17
+RBV    HN3  5.273 -0.545  1.040 ETKDGv2 18
+RBV   HN3A  6.406 -0.289 -0.331 ETKDGv2 19
+RBV     H5  0.755 -0.069  2.020 ETKDGv2 20
+RBV  "H1'" -0.545  1.506 -1.364 ETKDGv2 21
+RBV  "H2'" -1.787 -0.408 -1.787 ETKDGv2 22
+RBV "HO2'"  0.250 -1.190 -2.222 ETKDGv2 23
+RBV  "H3'" -1.103 -1.602  0.940 ETKDGv2 24
+RBV "HO3'" -2.562 -2.692 -0.347 ETKDGv2 25
+RBV  "H4'" -2.036  0.153  2.070 ETKDGv2 26
+RBV  "H5'" -4.323 -0.022  1.153 ETKDGv2 27
+RBV "H5'A" -3.815  1.686  1.294 ETKDGv2 28
+RBV "HO5'" -3.505  1.784 -0.886 ETKDGv2 29
 #

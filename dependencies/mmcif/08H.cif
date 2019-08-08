@@ -155,8 +155,6 @@ _pdbx_chem_comp_audit.comp_id               08H
 _pdbx_chem_comp_audit.action_type           "Create component"
 _pdbx_chem_comp_audit.date                  2011-10-13
 _pdbx_chem_comp_audit.processing_site       RCSB
-_pdbx_chem_comp_audit.annotator             MZ
-_pdbx_chem_comp_audit.details               ?
 
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   08H
@@ -213,11 +211,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-08H                                                              Xanax   ChEMBL
-08H                                                            U-31889   ChEMBL
-08H                                                         Alprazolam   ChEMBL
-08H                                                            Niravam   ChEMBL
 08H                                                         "Xanax Xr"   ChEMBL
+08H                                                              Xanax   ChEMBL
+08H                                                            Niravam   ChEMBL
+08H                                                         Alprazolam   ChEMBL
+08H                                                            U-31889   ChEMBL
 08H 8-Chloro-1-methyl-6-phenyl-4H-s-triazolo(4,3-a)(1,4)benzodiazepine DrugBank
 08H                                                         Alprazolam DrugBank
 #
@@ -391,39 +389,39 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-08H  CAS -0.054  0.885  0.223 ETKDGv2  1
-08H  CAJ  0.431  2.027 -0.304 ETKDGv2  2
-08H  CAP -0.440  2.932 -1.078 ETKDGv2  3
-08H CLAB  0.223  4.402 -1.767 ETKDGv2  4
-08H  CAH -1.729  2.628 -1.255 ETKDGv2  5
-08H  CAI -2.286  1.397 -0.667 ETKDGv2  6
-08H  CAU -1.502  0.553  0.029 ETKDGv2  7
-08H  NAV -2.056 -0.607  0.669 ETKDGv2  8
-08H  CAR -3.255 -1.340  0.416 ETKDGv2  9
-08H  CAA -3.965 -1.410 -0.898 ETKDGv2 10
-08H  NAM -3.638 -2.008  1.455 ETKDGv2 11
-08H  NAN -2.724 -1.756  2.488 ETKDGv2 12
-08H  CAT -1.821 -0.959  2.022 ETKDGv2 13
-08H  CAK -0.693 -0.403  2.822 ETKDGv2 14
-08H  NAL  0.558 -0.582  2.091 ETKDGv2 15
-08H  CAO  0.874 -0.039  0.945 ETKDGv2 16
-08H  CAQ  2.203 -0.359  0.359 ETKDGv2 17
-08H  CAF  2.388 -0.380 -1.119 ETKDGv2 18
-08H  CAD  3.582 -0.672 -1.649 ETKDGv2 19
-08H  CAC  4.727 -0.981 -0.771 ETKDGv2 20
-08H  CAE  4.571 -0.977  0.558 ETKDGv2 21
-08H  CAG  3.254 -0.657  1.149 ETKDGv2 22
-08H   H1  1.473  2.295 -0.175 ETKDGv2 23
-08H   H2 -2.376  3.290 -1.818 ETKDGv2 24
-08H   H3 -3.346  1.217 -0.769 ETKDGv2 25
-08H   H4 -3.274 -1.139 -1.723 ETKDGv2 26
-08H   H5 -4.333 -2.443 -1.073 ETKDGv2 27
-08H   H6 -4.831 -0.716 -0.892 ETKDGv2 28
-08H   H7 -0.620 -0.938  3.793 ETKDGv2 29
-08H   H8 -0.866  0.675  3.024 ETKDGv2 30
-08H  H12  1.555 -0.174 -1.778 ETKDGv2 31
-08H  H13  3.710 -0.688 -2.724 ETKDGv2 32
-08H  H14  5.691 -1.214 -1.204 ETKDGv2 33
-08H  H15  5.409 -1.206  1.203 ETKDGv2 34
-08H  H16  3.160 -0.653  2.228 ETKDGv2 35
+08H  CAS  0.011 -0.437 -0.780 ETKDGv2  1
+08H  CAJ  0.566 -0.352 -2.005 ETKDGv2  2
+08H  CAP -0.251 -0.006 -3.184 ETKDGv2  3
+08H CLAB  0.503  0.115 -4.763 ETKDGv2  4
+08H  CAH -1.561  0.218 -3.045 ETKDGv2  5
+08H  CAI -2.194  0.107 -1.719 ETKDGv2  6
+08H  CAU -1.460 -0.193 -0.631 ETKDGv2  7
+08H  NAV -2.085 -0.379  0.649 ETKDGv2  8
+08H  CAR -3.336  0.079  1.162 ETKDGv2  9
+08H  CAA -4.070  1.294  0.694 ETKDGv2 10
+08H  NAM -3.748 -0.653  2.145 ETKDGv2 11
+08H  NAN -2.803 -1.667  2.352 ETKDGv2 12
+08H  CAT -1.853 -1.493  1.494 ETKDGv2 13
+08H  CAK -0.676 -2.396  1.345 ETKDGv2 14
+08H  NAL  0.547 -1.599  1.311 ETKDGv2 15
+08H  CAO  0.883 -0.725  0.400 ETKDGv2 16
+08H  CAQ  2.176 -0.008  0.557 ETKDGv2 17
+08H  CAF  2.336  1.378  0.036 ETKDGv2 18
+08H  CAD  3.498  2.027  0.179 ETKDGv2 19
+08H  CAC  4.632  1.374  0.861 ETKDGv2 20
+08H  CAE  4.497  0.134  1.344 ETKDGv2 21
+08H  CAG  3.216 -0.587  1.190 ETKDGv2 22
+08H   H1  1.627 -0.528 -2.143 ETKDGv2 23
+08H   H2 -2.168  0.468 -3.906 ETKDGv2 24
+08H   H3 -3.266  0.225 -1.654 ETKDGv2 25
+08H   H4 -4.885  0.996  0.002 ETKDGv2 26
+08H   H5 -4.512  1.825  1.563 ETKDGv2 27
+08H   H6 -3.375  1.987  0.176 ETKDGv2 28
+08H   H7 -0.626 -3.095  2.206 ETKDGv2 29
+08H   H8 -0.770 -2.991  0.411 ETKDGv2 30
+08H  H12  1.508  1.879 -0.450 ETKDGv2 31
+08H  H13  3.606  3.035 -0.199 ETKDGv2 32
+08H  H14  5.570  1.903  0.973 ETKDGv2 33
+08H  H15  5.327 -0.345  1.847 ETKDGv2 34
+08H  H16  3.140 -1.593  1.583 ETKDGv2 35
 #

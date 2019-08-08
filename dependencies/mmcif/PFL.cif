@@ -145,10 +145,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-PFL  "Create component" 2000-08-29  EBI ? ?
-PFL "Modify descriptor" 2011-06-04 RCSB ? ?
+PFL  "Create component" 2000-08-29  EBI
+PFL "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   PFL
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00818
@@ -201,12 +199,12 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-PFL                   Disoprivan   ChEMBL
-PFL                     Propofol   ChEMBL
-PFL                    Rapinovet   ChEMBL
-PFL                   Disoprofol   ChEMBL
 PFL                    ICI-35868   ChEMBL
+PFL                   Disoprivan   ChEMBL
+PFL                   Disoprofol   ChEMBL
+PFL                     Propofol   ChEMBL
 PFL                     Diprivan   ChEMBL
+PFL                    Rapinovet   ChEMBL
 PFL 2,6-bis(1-methylethyl)phenol DrugBank
 PFL        2,6-Diisopropylphenol DrugBank
 PFL                     Propofol DrugBank
@@ -341,35 +339,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PFL   O1 -0.425  0.659 -1.497 ETKDGv2  1
-PFL   C1 -0.168  0.064 -0.258 ETKDGv2  2
-PFL   C2  1.096 -0.265  0.135 ETKDGv2  3
-PFL   C6 -1.330 -0.194  0.655 ETKDGv2  4
-PFL   C3  1.305 -0.741  1.532 ETKDGv2  5
-PFL   C7  2.304 -0.087 -0.781 ETKDGv2  6
-PFL   C4  0.272 -0.933  2.351 ETKDGv2  7
-PFL   C5 -1.098 -0.668  1.892 ETKDGv2  8
-PFL  C10 -2.767  0.080  0.226 ETKDGv2  9
-PFL   C8  2.917  1.303 -0.587 ETKDGv2 10
-PFL   C9  3.369 -1.179 -0.590 ETKDGv2 11
-PFL  C11 -3.013  1.576 -0.001 ETKDGv2 12
-PFL  C12 -3.163 -0.750 -1.001 ETKDGv2 13
-PFL  HO1  0.280  1.040 -2.112 ETKDGv2 14
-PFL  HC3  2.299 -0.927  1.911 ETKDGv2 15
-PFL  HC7  1.992 -0.191 -1.841 ETKDGv2 16
-PFL  HC4  0.439 -1.281  3.362 ETKDGv2 17
-PFL  HC5 -1.912 -0.855  2.581 ETKDGv2 18
-PFL  H10 -3.461 -0.228  1.041 ETKDGv2 19
-PFL  H81  2.160  2.090 -0.792 ETKDGv2 20
-PFL  H82  3.284  1.425  0.455 ETKDGv2 21
-PFL  H83  3.767  1.449 -1.286 ETKDGv2 22
-PFL  H91  2.896 -2.184 -0.595 ETKDGv2 23
-PFL  H92  4.102 -1.140 -1.424 ETKDGv2 24
-PFL  H93  3.932 -1.043  0.357 ETKDGv2 25
-PFL H111 -2.461  1.955 -0.885 ETKDGv2 26
-PFL H112 -4.097  1.759 -0.167 ETKDGv2 27
-PFL H113 -2.699  2.154  0.894 ETKDGv2 28
-PFL H121 -2.942 -1.824 -0.823 ETKDGv2 29
-PFL H122 -2.625 -0.419 -1.913 ETKDGv2 30
-PFL H123 -4.253 -0.648 -1.189 ETKDGv2 31
+PFL   O1  0.125  1.156 -1.574 ETKDGv2  1
+PFL   C1  0.093  0.282 -0.482 ETKDGv2  2
+PFL   C2  1.239  0.046  0.204 ETKDGv2  3
+PFL   C6 -1.192 -0.368 -0.045 ETKDGv2  4
+PFL   C3  1.187 -0.771  1.444 ETKDGv2  5
+PFL   C7  2.567  0.661 -0.222 ETKDGv2  6
+PFL   C4  0.031 -1.268  1.882 ETKDGv2  7
+PFL   C5 -1.206 -1.053  1.117 ETKDGv2  8
+PFL  C10 -2.471 -0.203 -0.860 ETKDGv2  9
+PFL   C8  3.036  1.701  0.802 ETKDGv2 10
+PFL   C9  3.635 -0.418 -0.437 ETKDGv2 11
+PFL  C11 -3.286  0.983 -0.337 ETKDGv2 12
+PFL  C12 -3.332 -1.478 -0.911 ETKDGv2 13
+PFL  HO1 -0.701  1.511 -2.034 ETKDGv2 14
+PFL  HC3  2.084 -0.946  2.024 ETKDGv2 15
+PFL  HC7  2.463  1.190 -1.194 ETKDGv2 16
+PFL  HC4  0.001 -1.844  2.798 ETKDGv2 17
+PFL  HC5 -2.117 -1.482  1.508 ETKDGv2 18
+PFL  H10 -2.208 -0.003 -1.918 ETKDGv2 19
+PFL  H81  3.242  1.229  1.786 ETKDGv2 20
+PFL  H82  2.256  2.482  0.935 ETKDGv2 21
+PFL  H83  3.964  2.196  0.445 ETKDGv2 22
+PFL  H91  3.268 -1.178 -1.159 ETKDGv2 23
+PFL  H92  3.899 -0.924  0.515 ETKDGv2 24
+PFL  H93  4.557  0.039 -0.856 ETKDGv2 25
+PFL H111 -4.188  1.137 -0.967 ETKDGv2 26
+PFL H112 -2.676  1.911 -0.370 ETKDGv2 27
+PFL H113 -3.607  0.804  0.712 ETKDGv2 28
+PFL H121 -2.703 -2.355 -1.173 ETKDGv2 29
+PFL H122 -4.117 -1.370 -1.689 ETKDGv2 30
+PFL H123 -3.841 -1.667  0.057 ETKDGv2 31
 #

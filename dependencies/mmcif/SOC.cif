@@ -5,7 +5,7 @@ _chem_comp.name                                      DIOXYSELENOCYSTEINE
 _chem_comp.type                                      "L-PEPTIDE LINKING"
 _chem_comp.pdbx_type                                 ATOMP
 _chem_comp.formula                                   "C3 H7 N O4 Se"
-_chem_comp.mon_nstd_parent_comp_id                   SEC
+_chem_comp.mon_nstd_parent_comp_id                   CYS
 _chem_comp.pdbx_synonyms                             ?
 _chem_comp.pdbx_formal_charge                        0
 _chem_comp.pdbx_initial_date                         1999-07-08
@@ -15,7 +15,7 @@ _chem_comp.pdbx_release_status                       REL
 _chem_comp.pdbx_replaced_by                          ?
 _chem_comp.pdbx_replaces                             ?
 _chem_comp.formula_weight                            200.052
-_chem_comp.one_letter_code                           U
+_chem_comp.one_letter_code                           C
 _chem_comp.three_letter_code                         SOC
 _chem_comp.pdbx_model_coordinates_details            ?
 _chem_comp.pdbx_model_coordinates_missing_flag       N
@@ -112,11 +112,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-SOC      "Create component" 1999-07-08 RCSB  ? ?
-SOC     "Modify descriptor" 2011-06-04 RCSB  ? ?
-SOC "Modify parent residue" 2017-09-29 RCSB CS ?
+SOC  "Create component" 1999-07-08 RCSB
+SOC "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   SOC
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB02442
@@ -232,20 +229,20 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SOC   N  0.033  1.454  0.692 ETKDGv2  1
-SOC  CA -0.373  0.396 -0.239 ETKDGv2  2
-SOC  CB  0.361 -0.917  0.088 ETKDGv2  3
-SOC  SE  2.318 -0.798 -0.053 ETKDGv2  4
-SOC OD1  2.446  0.498 -1.060 ETKDGv2  5
-SOC OD2  2.539  0.139  1.282 ETKDGv2  6
-SOC   C -1.867  0.173 -0.219 ETKDGv2  7
-SOC   O -2.603  0.777  0.608 ETKDGv2  8
-SOC OXT -2.440 -0.706 -1.133 ETKDGv2  9
-SOC   H -0.281  1.210  1.660 ETKDGv2 10
-SOC  H2 -0.438  2.347  0.416 ETKDGv2 11
-SOC  HA -0.100  0.708 -1.271 ETKDGv2 12
-SOC HB2  0.034 -1.709 -0.619 ETKDGv2 13
-SOC HB3  0.101 -1.251  1.116 ETKDGv2 14
-SOC HXT -3.439 -0.870 -1.140 ETKDGv2 15
-SOC  HE  3.707 -1.450 -0.128 ETKDGv2 16
+SOC   N -0.572 -0.177  1.618 ETKDGv2  1
+SOC  CA -0.486  0.476  0.307 ETKDGv2  2
+SOC  CB  0.371 -0.367 -0.648 ETKDGv2  3
+SOC  SE  2.205 -0.522  0.011 ETKDGv2  4
+SOC OD1  2.724 -1.451 -1.244 ETKDGv2  5
+SOC OD2  1.953 -1.855  0.944 ETKDGv2  6
+SOC   C -1.854  0.718 -0.292 ETKDGv2  7
+SOC   O -2.884  0.205  0.222 ETKDGv2  8
+SOC OXT -1.993  1.524 -1.419 ETKDGv2  9
+SOC   H -1.124  0.434  2.264 ETKDGv2 10
+SOC  H2 -1.078 -1.088  1.526 ETKDGv2 11
+SOC  HA  0.006  1.464  0.441 ETKDGv2 12
+SOC HB2  0.415  0.117 -1.646 ETKDGv2 13
+SOC HB3 -0.069 -1.380 -0.771 ETKDGv2 14
+SOC HXT -1.193  1.975 -1.845 ETKDGv2 15
+SOC  HE  3.580 -0.075  0.531 ETKDGv2 16
 #

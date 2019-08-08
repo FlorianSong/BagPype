@@ -117,10 +117,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-DBH  "Create component" 2002-03-20 RCSB ? ?
-DBH "Modify descriptor" 2011-06-04 RCSB ? ?
+DBH  "Create component" 2002-03-20 RCSB
+DBH "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   DBH
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01672
@@ -155,8 +153,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-DBH "2,3-Dihydroxybenzoic Acid" ChEMBL
 DBH    2,3-Dihydroxybenzoicacid ChEMBL
+DBH "2,3-Dihydroxybenzoic Acid" ChEMBL
 #
 loop_
 _software.name              
@@ -286,21 +284,21 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DBH  O17  2.828  0.536 -0.594 ETKDGv2  1
-DBH  C21  2.121 -0.475  0.049 ETKDGv2  2
-DBH   O9  2.751 -1.437  0.568 ETKDGv2  3
-DBH  C18  0.641 -0.455  0.076 ETKDGv2  4
-DBH  C15 -0.032 -1.620  0.011 ETKDGv2  5
-DBH  C12 -1.503 -1.635 -0.084 ETKDGv2  6
-DBH   C3 -0.131  0.829  0.115 ETKDGv2  7
-DBH   O3  0.504  2.057  0.314 ETKDGv2  8
-DBH   C6 -1.475  0.803 -0.001 ETKDGv2  9
-DBH   C9 -2.184 -0.487 -0.112 ETKDGv2 10
-DBH   O6 -2.230  1.977  0.004 ETKDGv2 11
-DBH HO17  3.841  0.520 -0.630 ETKDGv2 12
-DBH HC15  0.494 -2.566 -0.025 ETKDGv2 13
-DBH HC12 -2.028 -2.579 -0.154 ETKDGv2 14
-DBH  HO3  1.476  2.138  0.578 ETKDGv2 15
-DBH  HC9 -3.263 -0.502 -0.196 ETKDGv2 16
-DBH  HO6 -1.810  2.896  0.079 ETKDGv2 17
+DBH  O17  3.253 -0.808  0.112 ETKDGv2  1
+DBH  C21  1.954 -1.217 -0.186 ETKDGv2  2
+DBH   O9  1.757 -2.423 -0.489 ETKDGv2  3
+DBH  C18  0.814 -0.268 -0.148 ETKDGv2  4
+DBH  C15  1.008  1.033 -0.435 ETKDGv2  5
+DBH  C12 -0.119  1.980 -0.423 ETKDGv2  6
+DBH   C3 -0.564 -0.748  0.183 ETKDGv2  7
+DBH   O3 -0.733 -2.098  0.508 ETKDGv2  8
+DBH   C6 -1.599  0.130  0.178 ETKDGv2  9
+DBH   C9 -1.350  1.553 -0.136 ETKDGv2 10
+DBH   O6 -2.918 -0.239  0.458 ETKDGv2 11
+DBH HO17  3.464  0.123  0.449 ETKDGv2 12
+DBH HC15  1.985  1.407 -0.713 ETKDGv2 13
+DBH HC12  0.053  3.023 -0.655 ETKDGv2 14
+DBH  HO3 -1.608 -2.520  0.782 ETKDGv2 15
+DBH  HC9 -2.174  2.254 -0.135 ETKDGv2 16
+DBH  HO6 -3.222 -1.182  0.651 ETKDGv2 17
 #

@@ -1,0 +1,273 @@
+data_ANE
+#
+_chem_comp.id                                        ANE
+_chem_comp.name                                      ADENINE
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C5 H5 N5"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2008-10-14
+_chem_comp.pdbx_ambiguous_flag                       N
+_chem_comp.pdbx_release_status                       OBS
+_chem_comp.pdbx_replaced_by                          ADE
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            135.127
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         ANE
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       N
+_chem_comp.pdbx_model_coordinates_db_code            1IFS
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      EBI
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+ANE   N9   N9 N 0 1 Y N N 56.979 -23.610  97.426 -0.655 -0.000 -2.079   N9 ANE  1
+ANE   C8   C8 C 0 1 Y N N 56.607 -24.228  98.589  0.680 -0.000 -2.352   C8 ANE  2
+ANE   N7   N7 N 0 1 Y N N 57.585 -24.435  99.411  1.360 -0.000 -1.242   N7 ANE  3
+ANE   C5   C5 C 0 1 Y N N 58.675 -23.944  98.765  0.507  0.005 -0.190   C5 ANE  4
+ANE   C6   C6 C 0 1 Y N N 59.998 -23.889  99.127  0.660 -0.000  1.205   C6 ANE  5
+ANE   N6   N6 N 0 1 N N N 60.427 -24.375 100.294  1.919 -0.000  1.780   N6 ANE  6
+ANE   N1   N1 N 0 1 Y N N 60.809 -23.323  98.231 -0.432 -0.000  1.962   N1 ANE  7
+ANE   C2   C2 C 0 1 Y N N 60.313 -22.862  97.100 -1.637 -0.000  1.423   C2 ANE  8
+ANE   N3   N3 N 0 1 Y N N 59.105 -22.853  96.633 -1.829 -0.000  0.121   N3 ANE  9
+ANE   C4   C4 C 0 1 Y N N 58.326 -23.428  97.547 -0.796 -0.000 -0.715   C4 ANE 10
+ANE  HN9  HN9 H 0 1 N N N 56.383 -23.343  96.641 -1.374 -0.000 -2.731  HN9 ANE 11
+ANE   H8   H8 H 0 1 N N N 55.581 -24.540  98.848  1.110 -0.001 -3.342   H8 ANE 12
+ANE HN61 1HN6 H 0 0 N N N 61.410 -24.334 100.563  2.012 -0.001  2.745 HN61 ANE 13
+ANE HN62 2HN6 H 0 0 N N N 60.125 -25.347 100.357  2.709 -0.004  1.217 HN62 ANE 14
+ANE   H2   H2 H 0 1 N N N 61.044 -22.397  96.417 -2.498  0.000  2.075   H2 ANE 15
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+ANE N9   C8 SING Y N  1
+ANE N9   C4 SING Y N  2
+ANE N9  HN9 SING N N  3
+ANE C8   N7 DOUB Y N  4
+ANE C8   H8 SING N N  5
+ANE N7   C5 SING Y N  6
+ANE C5   C6 SING Y N  7
+ANE C5   C4 DOUB Y N  8
+ANE C6   N6 SING N N  9
+ANE C6   N1 DOUB Y N 10
+ANE N6 HN61 SING N N 11
+ANE N6 HN62 SING N N 12
+ANE N1   C2 SING Y N 13
+ANE C2   N3 DOUB Y N 14
+ANE C2   H2 SING N N 15
+ANE N3   C4 SING Y N 16
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+ANE           SMILES              ACDLabs 10.04                                                         n1c(c2ncnc2nc1)N
+ANE            InChI                InChI 1.02b InChI=1/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10)/f/h9H,6H2
+ANE         InChIKey                InChI 1.02b                                                GFFGJBXGBJISGV-KYDDBTJZCX
+ANE SMILES_CANONICAL               CACTVS 3.341                                                        Nc1ncnc2[nH]cnc12
+ANE           SMILES               CACTVS 3.341                                                        Nc1ncnc2[nH]cnc12
+ANE SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                    c1[nH]c2c(n1)c(ncn2)N
+ANE           SMILES "OpenEye OEToolkits" 1.5.0                                                    c1[nH]c2c(n1)c(ncn2)N
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id               
+_pdbx_chem_comp_identifier.type                  
+_pdbx_chem_comp_identifier.program               
+_pdbx_chem_comp_identifier.program_version       
+_pdbx_chem_comp_identifier.identifier            
+ANE "SYSTEMATIC NAME"              ACDLabs 10.04 9H-purin-6-amine
+ANE "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 9H-purin-6-amine
+#
+_pdbx_chem_comp_audit.comp_id               ANE
+_pdbx_chem_comp_audit.action_type           "Create component"
+_pdbx_chem_comp_audit.date                  1999-07-08
+_pdbx_chem_comp_audit.processing_site       EBI
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+ANE N9 N -0.912 -0.748  1
+ANE C8 C -1.501  0.061  2
+ANE N7 N -0.914  0.870  3
+ANE C5 C  0.038  0.562  4
+ANE C6 C  0.903  1.063  5
+ANE N6 N  0.902  2.063  6
+ANE N1 N  1.770  0.563  7
+ANE C2 C  1.770 -0.437  8
+ANE N3 N  0.905 -0.937  9
+ANE C4 C  0.038 -0.438 10
+#
+loop_
+_pdbe_chem_comp_bond_depiction.comp_id            
+_pdbe_chem_comp_bond_depiction.atom_id_1          
+_pdbe_chem_comp_bond_depiction.atom_id_2          
+_pdbe_chem_comp_bond_depiction.value_order        
+_pdbe_chem_comp_bond_depiction.bond_dir           
+_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
+ANE N9 C8 SINGLE NONE  1
+ANE N9 C4 SINGLE NONE  2
+ANE C8 N7 DOUBLE NONE  3
+ANE N7 C5 SINGLE NONE  4
+ANE C5 C6 SINGLE NONE  5
+ANE C5 C4 DOUBLE NONE  6
+ANE C6 N6 SINGLE NONE  7
+ANE C6 N1 DOUBLE NONE  8
+ANE N1 C2 SINGLE NONE  9
+ANE C2 N3 DOUBLE NONE 10
+ANE N3 C4 SINGLE NONE 11
+#
+loop_
+_pdbe_chem_comp_substructure.comp_id                      
+_pdbe_chem_comp_substructure.substructure_name            
+_pdbe_chem_comp_substructure.id                           
+_pdbe_chem_comp_substructure.substructure_type            
+_pdbe_chem_comp_substructure.substructure_smiles          
+_pdbe_chem_comp_substructure.substructure_inchis          
+_pdbe_chem_comp_substructure.substructure_inchikeys       
+ANE MurckoScaffold S1 scaffold  c1ncc2nc[nH]c2n1        InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
+ANE        adenine F1 fragment Nc1ncnc2nc[nH]c12 InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
+ANE      imidazole F2 fragment        c1c[nH]cn1                      InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
+ANE         purine F3 fragment  c1ncc2[nH]cnc2n1        InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
+ANE     pyrimidine F4 fragment          c1cncnc1                            InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
+#
+loop_
+_pdbe_chem_comp_substructure_mapping.comp_id                    
+_pdbe_chem_comp_substructure_mapping.atom_id                    
+_pdbe_chem_comp_substructure_mapping.substructure_id            
+_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
+ANE N1 F1 1
+ANE C6 F1 1
+ANE C5 F1 1
+ANE C4 F1 1
+ANE N3 F1 1
+ANE C2 F1 1
+ANE N9 F1 1
+ANE C8 F1 1
+ANE N7 F1 1
+ANE N6 F1 1
+ANE C5 F2 1
+ANE C4 F2 1
+ANE N9 F2 1
+ANE C8 F2 1
+ANE N7 F2 1
+ANE N7 F3 1
+ANE C8 F3 1
+ANE N9 F3 1
+ANE C4 F3 1
+ANE C5 F3 1
+ANE C6 F3 1
+ANE N1 F3 1
+ANE C2 F3 1
+ANE N3 F3 1
+ANE C5 F4 1
+ANE C6 F4 1
+ANE N1 F4 1
+ANE C2 F4 1
+ANE N3 F4 1
+ANE C4 F4 1
+ANE N9 S1 1
+ANE C8 S1 1
+ANE N7 S1 1
+ANE C5 S1 1
+ANE C6 S1 1
+ANE N1 S1 1
+ANE C2 S1 1
+ANE N3 S1 1
+ANE C4 S1 1
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               ANE
+_pdbe_chem_comp_rdkit_properties.exactmw                               135.054
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
+_pdbe_chem_comp_rdkit_properties.NumHBD                                2
+_pdbe_chem_comp_rdkit_properties.NumHBA                                4
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
+_pdbe_chem_comp_rdkit_properties.NumRings                              2
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             63.520
+_pdbe_chem_comp_rdkit_properties.tpsa                                  80.480
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.874
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             33.066
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+ANE   N9  1.526 -1.595  0.502 ETKDGv2  1
+ANE   C8  2.276 -0.396  0.731 ETKDGv2  2
+ANE   N7  1.604  0.698  0.507 ETKDGv2  3
+ANE   C5  0.322  0.235  0.101 ETKDGv2  4
+ANE   C6 -0.869  0.999 -0.287 ETKDGv2  5
+ANE   N6 -0.868  2.426 -0.299 ETKDGv2  6
+ANE   N1 -1.942  0.332 -0.624 ETKDGv2  7
+ANE   C2 -1.961 -1.119 -0.617 ETKDGv2  8
+ANE   N3 -0.896 -1.795 -0.271 ETKDGv2  9
+ANE   C4  0.280 -1.068  0.099 ETKDGv2 10
+ANE  HN9  1.821 -2.591  0.605 ETKDGv2 11
+ANE   H8  3.307 -0.393  1.061 ETKDGv2 12
+ANE HN61 -0.012  2.959 -0.030 ETKDGv2 13
+ANE HN62 -1.725  2.953 -0.577 ETKDGv2 14
+ANE   H2 -2.862 -1.645 -0.901 ETKDGv2 15
+#

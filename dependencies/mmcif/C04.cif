@@ -175,10 +175,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-C04 "Create component" 2013-05-13 RCSB MRS ?
-C04  "Initial release" 2013-06-05 RCSB   ? ?
+C04 "Create component" 2013-05-13 RCSB
+C04  "Initial release" 2013-06-05 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   C04
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00671
@@ -211,13 +209,13 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-C04               Oroken   ChEMBL
-C04               FK-027   ChEMBL
-C04            CL-284635   ChEMBL
 C04              Cefspan   ChEMBL
+C04               FK-027   ChEMBL
+C04               Oroken   ChEMBL
+C04            CL-284635   ChEMBL
 C04             FR-17027   ChEMBL
-C04               Suprax   ChEMBL
 C04             Cefixime   ChEMBL
+C04               Suprax   ChEMBL
 C04          (−)-cefixim DrugBank
 C04             Cefixime DrugBank
 C04 "Cefixime anhydrous" DrugBank
@@ -415,49 +413,49 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-C04   C1  6.258 -2.562 -2.225 ETKDGv2  1
-C04   N1  2.842  0.204 -0.236 ETKDGv2  2
-C04   O1  2.804  2.210  1.313 ETKDGv2  3
-C04   S1 -5.928 -1.618  1.926 ETKDGv2  4
-C04   C2  5.450 -1.510 -2.344 ETKDGv2  5
-C04   N2  0.021  0.624  1.129 ETKDGv2  6
-C04   O2 -0.971 -1.408  1.704 ETKDGv2  7
-C04   S2  2.546 -2.298  0.531 ETKDGv2  8
-C04   C3  4.325 -1.255 -1.412 ETKDGv2  9
-C04   N3 -2.645  1.613  0.984 ETKDGv2 10
-C04   O3 -3.875  2.197  0.777 ETKDGv2 11
-C04   C4  4.020  0.009 -1.019 ETKDGv2 12
-C04   N4 -3.636 -1.889  0.781 ETKDGv2 13
-C04   O4 -5.884  4.492 -0.839 ETKDGv2 14
-C04   C5  1.783 -0.699  0.129 ETKDGv2 15
-C04   N5 -4.929 -3.879  0.542 ETKDGv2 16
-C04   O5 -6.216  3.791  1.316 ETKDGv2 17
-C04   C6  1.380  0.094  1.264 ETKDGv2 18
-C04   O6  6.270  1.026 -1.437 ETKDGv2 19
-C04   C7  2.418  1.099  0.864 ETKDGv2 20
-C04   O7  4.400  2.336 -1.272 ETKDGv2 21
-C04   C8 -1.129 -0.203  1.367 ETKDGv2 22
-C04   C9 -2.498  0.345  1.230 ETKDGv2 23
-C04  C10 -3.976  3.589  0.524 ETKDGv2 24
-C04  C11 -5.415  3.960  0.359 ETKDGv2 25
-C04  C12 -3.666 -0.563  1.339 ETKDGv2 26
-C04  C13 -4.793 -0.246  1.988 ETKDGv2 27
-C04  C14 -4.729 -2.545  1.000 ETKDGv2 28
-C04  C15  3.367 -2.409 -1.111 ETKDGv2 29
-C04  C16  4.897  1.178 -1.263 ETKDGv2 30
-C04   H1  7.072 -2.697 -2.926 ETKDGv2 31
-C04  H1A  6.147 -3.277 -1.421 ETKDGv2 32
-C04   H2  5.648 -0.799 -3.137 ETKDGv2 33
-C04  HN2 -0.110  1.630  0.877 ETKDGv2 34
-C04  HO4 -5.268  4.639 -1.629 ETKDGv2 35
-C04   H5  1.025 -0.776 -0.683 ETKDGv2 36
-C04  HN5 -5.826 -4.373  0.743 ETKDGv2 37
-C04 HN5A -4.182 -4.372  0.004 ETKDGv2 38
-C04   H6  1.580 -0.346  2.266 ETKDGv2 39
-C04  HO6  6.868  1.829 -1.590 ETKDGv2 40
-C04  H10 -3.404  3.837 -0.395 ETKDGv2 41
-C04 H10A -3.546  4.156  1.376 ETKDGv2 42
-C04  H13 -4.978  0.686  2.506 ETKDGv2 43
-C04  H15  2.588 -2.438 -1.902 ETKDGv2 44
-C04 H15A  3.894 -3.383 -1.144 ETKDGv2 45
+C04   C1  6.729  0.327  1.026 ETKDGv2  1
+C04   N1  2.385 -1.128 -0.525 ETKDGv2  2
+C04   O1  1.145 -2.903 -1.849 ETKDGv2  3
+C04   S1 -2.451 -1.519  3.502 ETKDGv2  4
+C04   C2  6.023 -0.480  0.235 ETKDGv2  5
+C04   N2 -0.704 -0.510 -0.801 ETKDGv2  6
+C04   O2 -1.154  1.752 -1.163 ETKDGv2  7
+C04   S2  2.679  1.381 -1.267 ETKDGv2  8
+C04   C3  4.564 -0.307  0.009 ETKDGv2  9
+C04   N3 -3.839  1.250 -0.294 ETKDGv2 10
+C04   O3 -3.838  2.015 -1.439 ETKDGv2 11
+C04   C4  3.747 -1.378 -0.175 ETKDGv2 12
+C04   N4 -4.203 -0.607  1.847 ETKDGv2 13
+C04   O4 -5.427  3.188 -4.269 ETKDGv2 14
+C04   C5  1.623  0.092 -0.547 ETKDGv2 15
+C04   N5 -5.270 -1.779  3.630 ETKDGv2 16
+C04   O5 -3.856  4.376 -3.100 ETKDGv2 17
+C04   C6  0.617 -0.446 -1.428 ETKDGv2 18
+C04   O6  5.218 -3.132  0.834 ETKDGv2 19
+C04   C7  1.334 -1.760 -1.359 ETKDGv2 20
+C04   O7  3.634 -3.688 -0.720 ETKDGv2 21
+C04   C8 -1.518  0.662 -0.644 ETKDGv2 22
+C04   C9 -2.792  0.596  0.112 ETKDGv2 23
+C04  C10 -5.007  2.712 -1.838 ETKDGv2 24
+C04  C11 -4.730  3.470 -3.097 ETKDGv2 25
+C04  C12 -2.913 -0.217  1.341 ETKDGv2 26
+C04  C13 -1.871 -0.600  2.090 ETKDGv2 27
+C04  C14 -4.122 -1.285  2.946 ETKDGv2 28
+C04  C15  3.999  1.113 -0.014 ETKDGv2 29
+C04  C16  4.203 -2.784 -0.054 ETKDGv2 30
+C04   H1  7.790  0.159  1.158 ETKDGv2 31
+C04  H1A  6.265  1.143  1.564 ETKDGv2 32
+C04   H2  6.541 -1.296 -0.252 ETKDGv2 33
+C04  HN2 -1.086 -1.436 -0.500 ETKDGv2 34
+C04  HO4 -6.136  2.465 -4.302 ETKDGv2 35
+C04   H5  1.263  0.356  0.474 ETKDGv2 36
+C04  HN5 -5.159 -2.319  4.517 ETKDGv2 37
+C04 HN5A -6.227 -1.605  3.253 ETKDGv2 38
+C04   H6  0.593 -0.027 -2.457 ETKDGv2 39
+C04  HO6  5.518 -4.095  0.930 ETKDGv2 40
+C04  H10 -5.832  1.985 -1.997 ETKDGv2 41
+C04 H10A -5.309  3.423 -1.040 ETKDGv2 42
+C04  H13 -0.834 -0.366  1.892 ETKDGv2 43
+C04  H15  4.805  1.840 -0.246 ETKDGv2 44
+C04 H15A  3.602  1.361  0.994 ETKDGv2 45
 #

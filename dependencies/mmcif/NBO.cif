@@ -149,8 +149,6 @@ _pdbx_chem_comp_audit.comp_id               NBO
 _pdbx_chem_comp_audit.action_type           "Create component"
 _pdbx_chem_comp_audit.date                  2011-08-11
 _pdbx_chem_comp_audit.processing_site       PDBJ
-_pdbx_chem_comp_audit.annotator             YK
-_pdbx_chem_comp_audit.details               ?
 
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   NBO
@@ -186,10 +184,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+NBO                              Nabumetone   ChEMBL
 NBO                               BRL-14777   ChEMBL
 NBO                                 Relifex   ChEMBL
 NBO                                 Relafen   ChEMBL
-NBO                              Nabumetone   ChEMBL
 NBO 4-(6-Methoxy-2-naphthalenyl)-2-butanone DrugBank
 NBO     4-(6-Methoxy-2-naphthyl)-2-butanone DrugBank
 NBO                              Nabumetone DrugBank
@@ -353,37 +351,37 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NBO     C1  5.673 -0.108  0.751 ETKDGv2  1
-NBO     O1  5.347  0.345 -1.540 ETKDGv2  2
-NBO     C2  4.828  0.231 -0.440 ETKDGv2  3
-NBO     C3  3.347  0.447 -0.286 ETKDGv2  4
-NBO     C4  2.559 -0.645 -1.017 ETKDGv2  5
-NBO "C10'"  0.314 -0.055 -1.901 ETKDGv2  6
-NBO  "C1'"  1.075 -0.435 -0.858 ETKDGv2  7
-NBO "C11'" -6.039  0.504  0.149 ETKDGv2  8
-NBO  "C2'"  0.438 -0.660  0.465 ETKDGv2  9
-NBO  "O2'" -5.085  0.100  1.127 ETKDGv2 10
-NBO  "C3'" -0.883 -0.477  0.617 ETKDGv2 11
-NBO  "C4'" -1.549 -0.690  1.913 ETKDGv2 12
-NBO  "C5'" -2.869 -0.498  2.032 ETKDGv2 13
-NBO  "C6'" -3.712 -0.071  0.887 ETKDGv2 14
-NBO  "C7'" -3.161  0.139 -0.327 ETKDGv2 15
-NBO  "C8'" -1.712 -0.052 -0.536 ETKDGv2 16
-NBO  "C9'" -1.141  0.147 -1.733 ETKDGv2 17
-NBO     H1  5.603  0.706  1.502 ETKDGv2 18
-NBO    H1A  6.737 -0.233  0.455 ETKDGv2 19
-NBO    H1B  5.313 -1.056  1.203 ETKDGv2 20
-NBO     H3  3.079  0.444  0.793 ETKDGv2 21
-NBO    H3A  3.083  1.444 -0.701 ETKDGv2 22
-NBO     H4  2.841 -0.642 -2.093 ETKDGv2 23
-NBO    H4A  2.827 -1.643 -0.606 ETKDGv2 24
-NBO "H10'"  0.754  0.114 -2.876 ETKDGv2 25
-NBO "H11'" -5.781  1.509 -0.245 ETKDGv2 26
-NBO   H11A -7.042  0.554  0.620 ETKDGv2 27
-NBO   H11B -6.073 -0.235 -0.680 ETKDGv2 28
-NBO  "H2'"  1.045 -0.977  1.304 ETKDGv2 29
-NBO  "H4'" -0.975 -1.001  2.778 ETKDGv2 30
-NBO  "H5'" -3.339 -0.660  2.994 ETKDGv2 31
-NBO  "H7'" -3.769  0.450 -1.166 ETKDGv2 32
-NBO  "H9'" -1.733  0.457 -2.585 ETKDGv2 33
+NBO     C1  5.641 -0.708  0.701 ETKDGv2  1
+NBO     O1  5.406  1.021 -0.885 ETKDGv2  2
+NBO     C2  4.847  0.303 -0.069 ETKDGv2  3
+NBO     C3  3.368  0.450  0.166 ETKDGv2  4
+NBO     C4  2.575  0.032 -1.077 ETKDGv2  5
+NBO "C10'"  0.379  1.125 -1.468 ETKDGv2  6
+NBO  "C1'"  1.093  0.171 -0.841 ETKDGv2  7
+NBO "C11'" -6.022  0.637  0.447 ETKDGv2  8
+NBO  "C2'"  0.405 -0.763  0.087 ETKDGv2  9
+NBO  "O2'" -5.113 -0.306  1.009 ETKDGv2 10
+NBO  "C3'" -0.914 -0.648  0.303 ETKDGv2 11
+NBO  "C4'" -1.630 -1.556  1.217 ETKDGv2 12
+NBO  "C5'" -2.947 -1.416  1.412 ETKDGv2 13
+NBO  "C6'" -3.738 -0.360  0.730 ETKDGv2 14
+NBO  "C7'" -3.141  0.501 -0.121 ETKDGv2 15
+NBO  "C8'" -1.691  0.408 -0.386 ETKDGv2 16
+NBO  "C9'" -1.074  1.250 -1.229 ETKDGv2 17
+NBO     H1  5.569 -0.491  1.787 ETKDGv2 18
+NBO    H1A  6.710 -0.679  0.400 ETKDGv2 19
+NBO    H1B  5.240 -1.724  0.503 ETKDGv2 20
+NBO     H3  3.146  1.510  0.416 ETKDGv2 21
+NBO    H3A  3.064 -0.177  1.032 ETKDGv2 22
+NBO     H4  2.801 -1.026 -1.331 ETKDGv2 23
+NBO    H4A  2.894  0.657 -1.941 ETKDGv2 24
+NBO "H10'"  0.856  1.817 -2.150 ETKDGv2 25
+NBO "H11'" -5.723  1.669  0.726 ETKDGv2 26
+NBO   H11A -6.049  0.531 -0.658 ETKDGv2 27
+NBO   H11B -7.039  0.443  0.847 ETKDGv2 28
+NBO  "H2'"  0.975 -1.539  0.584 ETKDGv2 29
+NBO  "H4'" -1.094 -2.341  1.737 ETKDGv2 30
+NBO  "H5'" -3.454 -2.093  2.088 ETKDGv2 31
+NBO  "H7'" -3.712  1.272 -0.621 ETKDGv2 32
+NBO  "H9'" -1.629  2.027 -1.740 ETKDGv2 33
 #

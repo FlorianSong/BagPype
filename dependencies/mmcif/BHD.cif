@@ -116,18 +116,16 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-BHD  "Create component" 1999-07-08 RCSB  ? ?
-BHD "Modify descriptor" 2011-06-04 RCSB  ? ?
-BHD       "Modify name" 2012-06-11 RCSB CS ?
+BHD  "Create component" 1999-07-08 RCSB
+BHD "Modify descriptor" 2011-06-04 RCSB
+BHD       "Modify name" 2012-06-11 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-BHD SID11113395 ChEMBL
 BHD SID26751638 ChEMBL
+BHD SID11113395 ChEMBL
 #
 loop_
 _software.name              
@@ -250,21 +248,21 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BHD   N -1.621  1.183  1.003 ETKDGv2  1
-BHD  CA -0.689  0.122  0.606 ETKDGv2  2
-BHD  CB  0.566  0.718 -0.079 ETKDGv2  3
-BHD  OB  0.217  1.259 -1.330 ETKDGv2  4
-BHD  CG  1.652 -0.315 -0.231 ETKDGv2  5
-BHD OD1  2.056 -0.660 -1.374 ETKDGv2  6
-BHD OD2  2.218 -0.890  0.903 ETKDGv2  7
-BHD   C -1.386 -0.888 -0.274 ETKDGv2  8
-BHD   O -2.543 -0.663 -0.724 ETKDGv2  9
-BHD OXT -0.752 -2.089 -0.582 ETKDGv2 10
-BHD   H -1.158  1.786  1.722 ETKDGv2 11
-BHD  H2 -1.836  1.791  0.179 ETKDGv2 12
-BHD  HA -0.376 -0.410  1.532 ETKDGv2 13
-BHD  HB  0.967  1.527  0.575 ETKDGv2 14
-BHD HOB  0.938  1.895 -1.580 ETKDGv2 15
-BHD HD2  2.950 -1.586  0.823 ETKDGv2 16
-BHD HXT -1.204 -2.780 -1.169 ETKDGv2 17
+BHD   N  0.991  1.511  0.235 ETKDGv2  1
+BHD  CA  0.271  0.507 -0.555 ETKDGv2  2
+BHD  CB -0.352 -0.595  0.338 ETKDGv2  3
+BHD  OB -1.002 -1.543 -0.469 ETKDGv2  4
+BHD  CG -1.343 -0.012  1.311 ETKDGv2  5
+BHD OD1 -1.114 -0.069  2.548 ETKDGv2  6
+BHD OD2 -2.519  0.584  0.863 ETKDGv2  7
+BHD   C  1.211 -0.090 -1.570 ETKDGv2  8
+BHD   O  0.957  0.023 -2.798 ETKDGv2  9
+BHD OXT  2.363 -0.767 -1.175 ETKDGv2 10
+BHD   H  1.604  1.038  0.938 ETKDGv2 11
+BHD  H2  0.298  2.090  0.763 ETKDGv2 12
+BHD  HA -0.548  1.020 -1.109 ETKDGv2 13
+BHD  HB  0.466 -1.095  0.910 ETKDGv2 14
+BHD HOB -1.143 -2.350  0.092 ETKDGv2 15
+BHD HD2 -2.746  0.627 -0.123 ETKDGv2 16
+BHD HXT  2.608 -0.876 -0.199 ETKDGv2 17
 #

@@ -147,10 +147,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-DFV  "Create component" 2000-08-29 RCSB ? ?
-DFV "Modify descriptor" 2011-06-04 RCSB ? ?
+DFV  "Create component" 2000-08-29 RCSB
+DFV "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   DFV
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB03601
@@ -174,11 +172,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-DFV            Liquiritigenin ChEMBL
-DFV "7,4'-Dihydroxyflavanone" ChEMBL
-DFV "4',7-Dihydroxyflavanone" ChEMBL
-DFV       (2S)-Liquiritigenin ChEMBL
 DFV             Liquirtigenin ChEMBL
+DFV "7,4'-Dihydroxyflavanone" ChEMBL
+DFV       (2S)-Liquiritigenin ChEMBL
+DFV "4',7-Dihydroxyflavanone" ChEMBL
+DFV            Liquiritigenin ChEMBL
 #
 loop_
 _software.name              
@@ -356,35 +354,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DFV  C1 -4.266 -0.667 -0.007 ETKDGv2  1
-DFV  C2 -4.537  0.476 -0.659 ETKDGv2  2
-DFV  C3 -3.439  1.375 -1.075 ETKDGv2  3
-DFV  C4 -2.164  1.044 -0.808 ETKDGv2  4
-DFV  C5 -1.865 -0.233 -0.118 ETKDGv2  5
-DFV  C6 -2.862 -1.034  0.280 ETKDGv2  6
-DFV  C7 -1.025  1.925 -1.134 ETKDGv2  7
-DFV  C8  0.340  1.585 -0.602 ETKDGv2  8
-DFV  C9  0.544  0.057 -0.568 ETKDGv2  9
-DFV  O1 -0.533 -0.588  0.118 ETKDGv2 10
-DFV C10  1.849 -0.295  0.103 ETKDGv2 11
-DFV C11  2.878 -0.797 -0.606 ETKDGv2 12
-DFV C12  4.152 -1.134  0.063 ETKDGv2 13
-DFV C13  4.292 -0.942  1.384 ETKDGv2 14
-DFV C14  3.167 -0.393  2.168 ETKDGv2 15
-DFV C15  2.012 -0.087  1.565 ETKDGv2 16
-DFV  O2 -1.194  2.984 -1.797 ETKDGv2 17
-DFV  O3 -5.291 -1.517  0.402 ETKDGv2 18
-DFV  O4  5.488 -1.255  2.029 ETKDGv2 19
-DFV  H2 -5.561  0.755 -0.876 ETKDGv2 20
-DFV  H3 -3.682  2.306 -1.572 ETKDGv2 21
-DFV  H6 -2.642 -1.962  0.792 ETKDGv2 22
-DFV H81  1.120  2.049 -1.243 ETKDGv2 23
-DFV H82  0.428  2.009  0.422 ETKDGv2 24
-DFV  H9  0.544 -0.306 -1.621 ETKDGv2 25
-DFV H11  2.791 -0.957 -1.673 ETKDGv2 26
-DFV H12  4.968 -1.535 -0.524 ETKDGv2 27
-DFV H14  3.278 -0.240  3.234 ETKDGv2 28
-DFV H15  1.193  0.311  2.152 ETKDGv2 29
-DFV HO3 -6.266 -1.302  0.223 ETKDGv2 30
-DFV HO4  6.282 -1.633  1.526 ETKDGv2 31
+DFV  C1 -4.042  1.486  0.466 ETKDGv2  1
+DFV  C2 -4.607  0.290  0.227 ETKDGv2  2
+DFV  C3 -3.762 -0.904  0.011 ETKDGv2  3
+DFV  C4 -2.423 -0.795  0.064 ETKDGv2  4
+DFV  C5 -1.802  0.517  0.361 ETKDGv2  5
+DFV  C6 -2.569  1.602  0.532 ETKDGv2  6
+DFV  C7 -1.519 -1.930 -0.207 ETKDGv2  7
+DFV  C8 -0.044 -1.674 -0.350 ETKDGv2  8
+DFV  C9  0.407 -0.553  0.609 ETKDGv2  9
+DFV  O1 -0.411  0.611  0.455 ETKDGv2 10
+DFV C10  1.851 -0.188  0.366 ETKDGv2 11
+DFV C11  2.803 -0.493  1.268 ETKDGv2 12
+DFV C12  4.214 -0.133  1.016 ETKDGv2 13
+DFV C13  4.557  0.501 -0.116 ETKDGv2 14
+DFV C14  3.518  0.840 -1.110 ETKDGv2 15
+DFV C15  2.239  0.515 -0.884 ETKDGv2 16
+DFV  O2 -1.973 -3.093 -0.381 ETKDGv2 17
+DFV  O3 -4.826  2.621  0.659 ETKDGv2 18
+DFV  O4  5.884  0.846 -0.368 ETKDGv2 19
+DFV  H2 -5.684  0.193  0.178 ETKDGv2 20
+DFV  H3 -4.237 -1.851 -0.211 ETKDGv2 21
+DFV  H6 -2.114  2.562  0.740 ETKDGv2 22
+DFV H81  0.523 -2.604 -0.125 ETKDGv2 23
+DFV H82  0.158 -1.385 -1.403 ETKDGv2 24
+DFV  H9  0.276 -0.928  1.650 ETKDGv2 25
+DFV H11  2.552 -1.007  2.188 ETKDGv2 26
+DFV H12  4.965 -0.387  1.753 ETKDGv2 27
+DFV H14  3.792  1.353 -2.022 ETKDGv2 28
+DFV H15  1.486  0.772 -1.619 ETKDGv2 29
+DFV HO3 -5.838  2.583  0.624 ETKDGv2 30
+DFV HO4  6.625  0.632  0.289 ETKDGv2 31
 #

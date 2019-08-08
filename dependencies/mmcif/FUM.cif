@@ -106,12 +106,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-FUM         "Create component" 1999-07-08 RCSB  ?                                       ?
-FUM        "Modify descriptor" 2011-06-04 RCSB  ?                                       ?
-FUM       "Other modification" 2012-08-01 RCSB CS                   "update replace code"
-FUM "Modify leaving atom flag" 2012-09-11 RCSB BH "added leaving atom flags to O1 and O8"
+FUM         "Create component" 1999-07-08 RCSB
+FUM        "Modify descriptor" 2011-06-04 RCSB
+FUM       "Other modification" 2012-08-01 RCSB
+FUM "Modify leaving atom flag" 2012-09-11 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   FUM
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01677
@@ -149,8 +147,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-FUM                                  E297   ChEMBL
 FUM                        "Fumaric Acid"   ChEMBL
+FUM                                  E297   ChEMBL
 FUM             "(2E)-2-butenedioic acid" DrugBank
 FUM              "(E)-2-butenedioic acid" DrugBank
 FUM "trans-1,2-ethylenedicarboxylic acid" DrugBank
@@ -250,16 +248,16 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FUM  O1  1.520  0.842 -0.852 ETKDGv2  1
-FUM  C2  1.695  0.020  0.258 ETKDGv2  2
-FUM  O3  2.847 -0.405  0.539 ETKDGv2  3
-FUM  C4  0.573 -0.292  1.163 ETKDGv2  4
-FUM  C5 -0.726 -0.295  0.828 ETKDGv2  5
-FUM  C6 -1.267 -0.206 -0.544 ETKDGv2  6
-FUM  O7 -0.594 -0.593 -1.535 ETKDGv2  7
-FUM  O8 -2.572  0.234 -0.745 ETKDGv2  8
-FUM HO1  2.300  1.075 -1.454 ETKDGv2  9
-FUM  H4  0.824 -0.494  2.197 ETKDGv2 10
-FUM  H5 -1.447 -0.419  1.627 ETKDGv2 11
-FUM HO8 -3.152  0.532  0.030 ETKDGv2 12
+FUM  O1 -2.715  0.575 -0.134 ETKDGv2  1
+FUM  C2 -1.956 -0.586 -0.287 ETKDGv2  2
+FUM  O3 -2.556 -1.682 -0.437 ETKDGv2  3
+FUM  C4 -0.479 -0.578 -0.305 ETKDGv2  4
+FUM  C5  0.260  0.462  0.098 ETKDGv2  5
+FUM  C6  1.731  0.426  0.072 ETKDGv2  6
+FUM  O7  2.382  1.424  0.479 ETKDGv2  7
+FUM  O8  2.411 -0.695 -0.399 ETKDGv2  8
+FUM HO1 -2.308  1.500 -0.101 ETKDGv2  9
+FUM  H4  0.014 -1.485 -0.637 ETKDGv2 10
+FUM  H5 -0.207  1.359  0.479 ETKDGv2 11
+FUM HO8  3.423 -0.719 -0.417 ETKDGv2 12
 #

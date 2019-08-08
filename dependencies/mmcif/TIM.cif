@@ -174,10 +174,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-TIM  "Create component" 2008-05-22 RCSB ? ?
-TIM "Modify descriptor" 2011-06-04 RCSB ? ?
+TIM  "Create component" 2008-05-22 RCSB
+TIM "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   TIM
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00373
@@ -213,17 +211,17 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-TIM                                                                              Betim   ChEMBL
-TIM                                                                            Istalol   ChEMBL
-TIM                                                                            Timolol   ChEMBL
-TIM                                                                           Glau-Opt   ChEMBL
 TIM                                                                             Nyogel   ChEMBL
-TIM                                                                            Glaucol   ChEMBL
-TIM                                                                           Timoptic   ChEMBL
-TIM                                                                        Timoptic-XE   ChEMBL
-TIM                                                                            Betimol   ChEMBL
+TIM                                                                              Betim   ChEMBL
 TIM                                                                             Tiopex   ChEMBL
+TIM                                                                            Istalol   ChEMBL
+TIM                                                                           Glau-Opt   ChEMBL
+TIM                                                                            Glaucol   ChEMBL
 TIM                                                                          Blocadren   ChEMBL
+TIM                                                                            Betimol   ChEMBL
+TIM                                                                        Timoptic-XE   ChEMBL
+TIM                                                                           Timoptic   ChEMBL
+TIM                                                                            Timolol   ChEMBL
 TIM (S)-1-(tert-butylamino)-3-[(4-morpholin-4-yl-1,2,5-thiadiazol-3-yl)oxy]propan-2-ol DrugBank
 TIM                                                                            Timolol DrugBank
 TIM                                                                "Timolol anhydrous" DrugBank
@@ -371,49 +369,49 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-TIM   C5  3.385  1.241  1.536 ETKDGv2  1
-TIM   C6  4.286  1.888  0.478 ETKDGv2  2
-TIM   O1  3.832  1.526 -0.811 ETKDGv2  3
-TIM   C2  4.103  0.157 -1.083 ETKDGv2  4
-TIM   C3  3.880 -0.784  0.123 ETKDGv2  5
-TIM   N4  3.042 -0.123  1.127 ETKDGv2  6
-TIM   C7  1.917 -0.785  1.724 ETKDGv2  7
-TIM   N8  1.712 -0.716  3.010 ETKDGv2  8
-TIM   S9  0.237 -1.618  3.190 ETKDGv2  9
-TIM  N10 -0.118 -2.059  1.546 ETKDGv2 10
-TIM  C11  0.880 -1.522  0.902 ETKDGv2 11
-TIM  O12  0.980 -1.593 -0.493 ETKDGv2 12
-TIM  C13 -0.068 -2.035 -1.356 ETKDGv2 13
-TIM  C14 -0.787 -0.839 -2.013 ETKDGv2 14
-TIM  O15  0.109 -0.129 -2.833 ETKDGv2 15
-TIM  C16 -1.462  0.114 -1.004 ETKDGv2 16
-TIM  N17 -2.645 -0.521 -0.395 ETKDGv2 17
-TIM  C18 -3.493  0.378  0.429 ETKDGv2 18
-TIM  C19 -4.166  1.456 -0.448 ETKDGv2 19
-TIM  C20 -2.686  1.048  1.565 ETKDGv2 20
-TIM  C21 -4.609 -0.478  1.065 ETKDGv2 21
-TIM   H5  3.895  1.227  2.523 ETKDGv2 22
-TIM  H5A  2.453  1.843  1.621 ETKDGv2 23
-TIM   H6  4.237  2.993  0.582 ETKDGv2 24
-TIM  H6A  5.349  1.589  0.629 ETKDGv2 25
-TIM   H2  5.145  0.051 -1.457 ETKDGv2 26
-TIM  H2A  3.429 -0.164 -1.906 ETKDGv2 27
-TIM   H3  4.865 -1.008  0.586 ETKDGv2 28
-TIM  H3A  3.453 -1.754 -0.205 ETKDGv2 29
-TIM  H13 -0.786 -2.696 -0.827 ETKDGv2 30
-TIM H13A  0.388 -2.648 -2.162 ETKDGv2 31
-TIM  H14 -1.581 -1.249 -2.674 ETKDGv2 32
-TIM HO15  0.783  0.300 -2.242 ETKDGv2 33
-TIM  H16 -0.729  0.419 -0.227 ETKDGv2 34
-TIM H16A -1.761  1.021 -1.567 ETKDGv2 35
-TIM HN17 -2.310 -1.303  0.214 ETKDGv2 36
-TIM  H19 -4.961  1.986  0.121 ETKDGv2 37
-TIM H19A -4.626  0.991 -1.346 ETKDGv2 38
-TIM H19B -3.441  2.229 -0.778 ETKDGv2 39
-TIM  H20 -2.129  0.285  2.150 ETKDGv2 40
-TIM H20A -3.365  1.594  2.257 ETKDGv2 41
-TIM H20B -1.961  1.787  1.164 ETKDGv2 42
-TIM  H21 -4.175 -1.256  1.730 ETKDGv2 43
-TIM H21A -5.201 -0.989  0.275 ETKDGv2 44
-TIM H21B -5.299  0.148  1.672 ETKDGv2 45
+TIM   C5  3.568 -0.146  0.764 ETKDGv2  1
+TIM   C6  3.056 -1.529  0.299 ETKDGv2  2
+TIM   O1  3.016 -1.687 -1.114 ETKDGv2  3
+TIM   C2  4.157 -1.112 -1.719 ETKDGv2  4
+TIM   C3  4.058  0.415 -1.644 ETKDGv2  5
+TIM   N4  3.515  0.813 -0.343 ETKDGv2  6
+TIM   C7  3.004  2.143 -0.159 ETKDGv2  7
+TIM   N8  3.653  3.174 -0.623 ETKDGv2  8
+TIM   S9  2.621  4.491 -0.148 ETKDGv2  9
+TIM  N10  1.314  3.660  0.643 ETKDGv2 10
+TIM  C11  1.686  2.415  0.534 ETKDGv2 11
+TIM  O12  0.887  1.369  1.003 ETKDGv2 12
+TIM  C13 -0.366  1.573  1.649 ETKDGv2 13
+TIM  C14 -1.002  0.224  2.005 ETKDGv2 14
+TIM  O15 -0.142 -0.469  2.872 ETKDGv2 15
+TIM  C16 -1.278 -0.629  0.754 ETKDGv2 16
+TIM  N17 -2.232  0.063 -0.135 ETKDGv2 17
+TIM  C18 -3.541 -0.603 -0.341 ETKDGv2 18
+TIM  C19 -4.289 -0.782  0.999 ETKDGv2 19
+TIM  C20 -4.396  0.314 -1.239 ETKDGv2 20
+TIM  C21 -3.378 -1.966 -1.054 ETKDGv2 21
+TIM   H5  4.628 -0.249  1.083 ETKDGv2 22
+TIM  H5A  3.001  0.207  1.651 ETKDGv2 23
+TIM   H6  3.680 -2.333  0.746 ETKDGv2 24
+TIM  H6A  2.025 -1.669  0.685 ETKDGv2 25
+TIM   H2  4.196 -1.424 -2.785 ETKDGv2 26
+TIM  H2A  5.095 -1.471 -1.236 ETKDGv2 27
+TIM   H3  5.057  0.876 -1.797 ETKDGv2 28
+TIM  H3A  3.373  0.765 -2.447 ETKDGv2 29
+TIM  H13 -0.210  2.160  2.580 ETKDGv2 30
+TIM H13A -1.045  2.151  0.984 ETKDGv2 31
+TIM  H14 -1.967  0.429  2.523 ETKDGv2 32
+TIM HO15 -0.688 -1.166  3.322 ETKDGv2 33
+TIM  H16 -0.321 -0.813  0.215 ETKDGv2 34
+TIM H16A -1.637 -1.626  1.077 ETKDGv2 35
+TIM HN17 -1.770  0.213 -1.064 ETKDGv2 36
+TIM  H19 -5.324 -1.149  0.823 ETKDGv2 37
+TIM H19A -4.350  0.188  1.538 ETKDGv2 38
+TIM H19B -3.789 -1.520  1.659 ETKDGv2 39
+TIM  H20 -4.518  1.313 -0.766 ETKDGv2 40
+TIM H20A -5.405 -0.120 -1.409 ETKDGv2 41
+TIM H20B -3.910  0.457 -2.228 ETKDGv2 42
+TIM  H21 -2.871 -2.713 -0.411 ETKDGv2 43
+TIM H21A -2.787 -1.848 -1.987 ETKDGv2 44
+TIM H21B -4.372 -2.385 -1.322 ETKDGv2 45
 #

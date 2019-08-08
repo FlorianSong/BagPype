@@ -147,20 +147,18 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-LU2 "Create component" 2011-07-20 RCSB GG                         ?
-LU2  "Modify synonyms" 2012-01-24 RCSB BH "Adding synonym Luteolin"
+LU2 "Create component" 2011-07-20 RCSB
+LU2  "Modify synonyms" 2012-01-24 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-LU2      Luteolin ChEMBL
-LU2      Luteolol ChEMBL
 LU2     Flacitran ChEMBL
+LU2      Luteolin ChEMBL
 LU2     Luteoline ChEMBL
 LU2 Digitoflavone ChEMBL
+LU2      Luteolol ChEMBL
 #
 loop_
 _software.name              
@@ -331,35 +329,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-LU2  C1  2.329  2.049  0.108 ETKDGv2  1
-LU2  O1  4.234  3.461  0.291 ETKDGv2  2
-LU2  C2  3.652  2.195  0.271 ETKDGv2  3
-LU2  O2  4.791 -1.350  0.570 ETKDGv2  4
-LU2  C3  4.508  1.002  0.432 ETKDGv2  5
-LU2  O3  2.514 -2.778  0.352 ETKDGv2  6
-LU2  C4  3.973 -0.230  0.417 ETKDGv2  7
-LU2  O4  0.339  0.573 -0.084 ETKDGv2  8
-LU2  C5  2.502 -0.392  0.236 ETKDGv2  9
-LU2  O5 -4.744  1.487  0.288 ETKDGv2 10
-LU2  C6  1.726  0.701  0.089 ETKDGv2 11
-LU2  O6 -5.995 -0.717 -0.850 ETKDGv2 12
-LU2  C7  1.847 -1.719  0.213 ETKDGv2 13
-LU2  C8  0.391 -1.798  0.028 ETKDGv2 14
-LU2  C9 -0.321 -0.669 -0.121 ETKDGv2 15
-LU2 C10 -1.794 -0.690 -0.309 ETKDGv2 16
-LU2 C11 -2.530  0.375  0.061 ETKDGv2 17
-LU2 C12 -4.001  0.380 -0.117 ETKDGv2 18
-LU2 C13 -4.612 -0.684 -0.668 ETKDGv2 19
-LU2 C14 -3.810 -1.847 -1.097 ETKDGv2 20
-LU2 C15 -2.482 -1.853 -0.933 ETKDGv2 21
-LU2  H1  1.693  2.917 -0.011 ETKDGv2 22
-LU2 HO1  3.682  4.304  0.184 ETKDGv2 23
-LU2 HO2  5.794 -1.268  0.695 ETKDGv2 24
-LU2  H3  5.575  1.132  0.563 ETKDGv2 25
-LU2 HO5 -4.299  2.296  0.705 ETKDGv2 26
-LU2 HO6 -6.598  0.051 -0.577 ETKDGv2 27
-LU2  H8 -0.084 -2.769  0.045 ETKDGv2 28
-LU2 H11 -2.060  1.240  0.514 ETKDGv2 29
-LU2 H14 -4.300 -2.695 -1.559 ETKDGv2 30
-LU2 H15 -1.919 -2.705 -1.288 ETKDGv2 31
+LU2  C1 -2.913  1.031 -0.897 ETKDGv2  1
+LU2  O1 -5.137  1.667 -1.444 ETKDGv2  2
+LU2  C2 -4.233  0.860 -0.755 ETKDGv2  3
+LU2  O2 -4.461 -2.051  1.537 ETKDGv2  4
+LU2  C3 -4.742 -0.204  0.130 ETKDGv2  5
+LU2  O3 -1.729 -2.324  2.394 ETKDGv2  6
+LU2  C4 -3.901 -1.009  0.796 ETKDGv2  7
+LU2  O4 -0.591  0.413 -0.306 ETKDGv2  8
+LU2  C5 -2.418 -0.777  0.692 ETKDGv2  9
+LU2  O5  3.911  1.364 -2.634 ETKDGv2 10
+LU2  C6 -1.966  0.185 -0.144 ETKDGv2 11
+LU2  O6  5.878  0.875 -0.734 ETKDGv2 12
+LU2  C7 -1.403 -1.516  1.487 ETKDGv2 13
+LU2  C8  0.026 -1.267  1.246 ETKDGv2 14
+LU2  C9  0.396 -0.317  0.375 ETKDGv2 15
+LU2 C10  1.824 -0.016  0.100 ETKDGv2 16
+LU2 C11  2.178  0.517 -1.084 ETKDGv2 17
+LU2 C12  3.593  0.827 -1.386 ETKDGv2 18
+LU2 C13  4.542  0.590 -0.462 ETKDGv2 19
+LU2 C14  4.161  0.025  0.851 ETKDGv2 20
+LU2 C15  2.882 -0.259  1.120 ETKDGv2 21
+LU2  H1 -2.529  1.803 -1.551 ETKDGv2 22
+LU2 HO1 -4.828  2.406 -2.064 ETKDGv2 23
+LU2 HO2 -3.932 -2.818  1.924 ETKDGv2 24
+LU2  H3 -5.811 -0.360  0.204 ETKDGv2 25
+LU2 HO5  4.860  1.597 -2.900 ETKDGv2 26
+LU2 HO6  6.603  0.702 -0.047 ETKDGv2 27
+LU2  H8  0.755 -1.868  1.772 ETKDGv2 28
+LU2 H11  1.435  0.711 -1.848 ETKDGv2 29
+LU2 H14  4.920 -0.149  1.603 ETKDGv2 30
+LU2 H15  2.630 -0.640  2.101 ETKDGv2 31
 #

@@ -131,19 +131,17 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-EUG     "Create component" 1999-07-08  EBI  ?                                                                                                                                                                                                             ?
-EUG   "Other modification" 2011-05-18 RCSB CS "Add methy group of C10 based on Isoeugenol chemiscal definition and the related publication. Update formula, name, synonym, etc. Keep coordinates of C10 because otherwise 2D-drawing shows cis double bond"
-EUG "Modify aromatic_flag" 2011-06-04 RCSB  ?                                                                                                                                                                                                             ?
-EUG    "Modify descriptor" 2011-06-04 RCSB  ?                                                                                                                                                                                                             ?
+EUG     "Create component" 1999-07-08  EBI
+EUG   "Other modification" 2011-05-18 RCSB
+EUG "Modify aromatic_flag" 2011-06-04 RCSB
+EUG    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-EUG SID49731943 ChEMBL
 EUG SID17389509 ChEMBL
+EUG SID49731943 ChEMBL
 EUG SID26753017 ChEMBL
 #
 loop_
@@ -272,28 +270,28 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-EUG  C1  0.502 -0.181 -0.020 ETKDGv2  1
-EUG  C2 -0.669  0.441 -0.252 ETKDGv2  2
-EUG  C3 -1.963 -0.208  0.098 ETKDGv2  3
-EUG  C4 -1.957 -1.436  0.639 ETKDGv2  4
-EUG  C5 -0.677 -2.136  0.877 ETKDGv2  5
-EUG  C6  0.484 -1.549  0.565 ETKDGv2  6
-EUG  C7  1.766  0.505 -0.386 ETKDGv2  7
-EUG  C8  2.964  0.159  0.097 ETKDGv2  8
-EUG  C9 -3.332  1.727 -0.685 ETKDGv2  9
-EUG  O3 -3.194  0.428 -0.120 ETKDGv2 10
-EUG  O4 -3.160 -2.054  0.974 ETKDGv2 11
-EUG C10  4.196  0.904 -0.308 ETKDGv2 12
-EUG  H2 -0.671  1.433 -0.688 ETKDGv2 13
-EUG  H5 -0.679 -3.134  1.296 ETKDGv2 14
-EUG  H6  1.399 -2.102  0.722 ETKDGv2 15
-EUG  H7  1.709  1.356 -1.056 ETKDGv2 16
-EUG H81  3.073 -0.647  0.809 ETKDGv2 17
-EUG H91 -4.410  1.984 -0.745 ETKDGv2 18
-EUG H92 -2.905  1.744 -1.710 ETKDGv2 19
-EUG H93 -2.822  2.478 -0.046 ETKDGv2 20
-EUG HO4 -3.179 -2.980  1.382 ETKDGv2 21
-EUG H10  4.101  1.974 -0.029 ETKDGv2 22
-EUG H11  5.081  0.476  0.207 ETKDGv2 23
-EUG H12  4.345  0.820 -1.406 ETKDGv2 24
+EUG  C1  0.502 -0.133 -0.205 ETKDGv2  1
+EUG  C2 -0.690  0.484 -0.107 ETKDGv2  2
+EUG  C3 -1.951 -0.302 -0.002 ETKDGv2  3
+EUG  C4 -1.894 -1.642 -0.021 ETKDGv2  4
+EUG  C5 -0.591 -2.328 -0.152 ETKDGv2  5
+EUG  C6  0.540 -1.620 -0.242 ETKDGv2  6
+EUG  C7  1.732  0.691 -0.306 ETKDGv2  7
+EUG  C8  2.961  0.222 -0.063 ETKDGv2  8
+EUG  C9 -3.395  1.729  0.149 ETKDGv2  9
+EUG  O3 -3.203  0.319  0.117 ETKDGv2 10
+EUG  O4 -3.066 -2.389  0.078 ETKDGv2 11
+EUG C10  4.155  1.115 -0.175 ETKDGv2 12
+EUG  H2 -0.733  1.565 -0.090 ETKDGv2 13
+EUG  H5 -0.552 -3.409 -0.186 ETKDGv2 14
+EUG  H6  1.472 -2.153 -0.367 ETKDGv2 15
+EUG  H7  1.624  1.740 -0.559 ETKDGv2 16
+EUG H81  3.123 -0.801  0.244 ETKDGv2 17
+EUG H91 -4.478  1.946  0.248 ETKDGv2 18
+EUG H92 -3.025  2.186 -0.793 ETKDGv2 19
+EUG H93 -2.863  2.167  1.020 ETKDGv2 20
+EUG HO4 -3.047 -3.402  0.064 ETKDGv2 21
+EUG H10  4.245  1.499 -1.213 ETKDGv2 22
+EUG H11  4.058  1.969  0.528 ETKDGv2 23
+EUG H12  5.075  0.547  0.078 ETKDGv2 24
 #

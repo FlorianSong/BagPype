@@ -134,11 +134,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MIL     "Create component" 1999-07-08  EBI ? ?
-MIL "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-MIL    "Modify descriptor" 2011-06-04 RCSB ? ?
+MIL     "Create component" 1999-07-08  EBI
+MIL "Modify aromatic_flag" 2011-06-04 RCSB
+MIL    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   MIL
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00235
@@ -172,9 +170,9 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 MIL                                                     Primacor   ChEMBL
+MIL                                                   WIN-472032   ChEMBL
 MIL                                                    Milrinone   ChEMBL
 MIL                                                  WIN-47203-2   ChEMBL
-MIL                                                   WIN-472032   ChEMBL
 MIL "1,6-Dihydro-2-methyl-6-oxo(3,4'-bipyridine)-5-carbonitrile" DrugBank
 MIL                                                    Milrinone DrugBank
 #
@@ -327,29 +325,29 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MIL    C1 -0.333 -0.104  0.042 ETKDGv2  1
-MIL    C2 -0.935  1.113  0.016 ETKDGv2  2
-MIL    C4 -3.121  0.041  0.547 ETKDGv2  3
-MIL    C5 -2.453 -1.269  0.537 ETKDGv2  4
-MIL    C6 -1.137 -1.328  0.298 ETKDGv2  5
-MIL   C2A -0.173  2.378 -0.281 ETKDGv2  6
-MIL   C5A -3.200 -2.476  0.786 ETKDGv2  7
-MIL "C1'"  1.121 -0.269 -0.187 ETKDGv2  8
-MIL "C2'"  1.567 -1.020 -1.208 ETKDGv2  9
-MIL "C3'"  3.021 -1.181 -1.410 ETKDGv2 10
-MIL "C5'"  3.411  0.184  0.515 ETKDGv2 11
-MIL "C6'"  2.102  0.356  0.731 ETKDGv2 12
-MIL    O4 -4.356  0.138  0.776 ETKDGv2 13
-MIL    N3 -2.344  1.214  0.290 ETKDGv2 14
-MIL   N5A -3.800 -3.445  0.986 ETKDGv2 15
-MIL "N4'"  3.861 -0.610 -0.596 ETKDGv2 16
-MIL    H6 -0.636 -2.290  0.298 ETKDGv2 17
-MIL  H2A1  0.560  2.218 -1.100 ETKDGv2 18
-MIL  H2A2  0.355  2.722  0.633 ETKDGv2 19
-MIL  H2A3 -0.867  3.180 -0.607 ETKDGv2 20
-MIL "H2'"  0.877 -1.500 -1.891 ETKDGv2 21
-MIL "H3'"  3.389 -1.773 -2.236 ETKDGv2 22
-MIL "H5'"  4.136  0.635  1.180 ETKDGv2 23
-MIL "H6'"  1.767  0.939  1.580 ETKDGv2 24
-MIL   HN3 -2.812  2.148  0.300 ETKDGv2 25
+MIL    C1  0.334 -0.103  0.032 ETKDGv2  1
+MIL    C2  0.945  1.018 -0.430 ETKDGv2  2
+MIL    C4  3.165  0.041  0.139 ETKDGv2  3
+MIL    C5  2.483 -1.176  0.603 ETKDGv2  4
+MIL    C6  1.147 -1.236  0.549 ETKDGv2  5
+MIL   C2A  0.168  2.175 -1.002 ETKDGv2  6
+MIL   C5A  3.240 -2.292  1.114 ETKDGv2  7
+MIL "C1'" -1.139 -0.255  0.035 ETKDGv2  8
+MIL "C2'" -1.722 -1.251 -0.652 ETKDGv2  9
+MIL "C3'" -3.192 -1.389 -0.625 ETKDGv2 10
+MIL "C5'" -3.315  0.504  0.832 ETKDGv2 11
+MIL "C6'" -1.987  0.665  0.831 ETKDGv2 12
+MIL    O4  4.421  0.138  0.183 ETKDGv2 13
+MIL    N3  2.378  1.123 -0.366 ETKDGv2 14
+MIL   N5A  3.847 -3.188  1.525 ETKDGv2 15
+MIL "N4'" -3.913 -0.560  0.072 ETKDGv2 16
+MIL    H6  0.637 -2.128  0.897 ETKDGv2 17
+MIL  H2A1  0.827  2.807 -1.633 ETKDGv2 18
+MIL  H2A2 -0.665  1.817 -1.643 ETKDGv2 19
+MIL  H2A3 -0.234  2.801 -0.179 ETKDGv2 20
+MIL "H2'" -1.131 -1.946 -1.235 ETKDGv2 21
+MIL "H3'" -3.670 -2.181 -1.185 ETKDGv2 22
+MIL "H5'" -3.943  1.168  1.411 ETKDGv2 23
+MIL "H6'" -1.538  1.455  1.420 ETKDGv2 24
+MIL   HN3  2.857  1.993 -0.693 ETKDGv2 25
 #

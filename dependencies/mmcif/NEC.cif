@@ -161,17 +161,15 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-NEC  "Create component" 1999-07-08 RCSB ? ?
-NEC "Modify descriptor" 2011-06-04 RCSB ? ?
+NEC  "Create component" 1999-07-08 RCSB
+NEC "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-NEC                             NECA ChEMBL
 NEC "5'-N-Ethylcarboxamidoadenosine" ChEMBL
+NEC                             NECA ChEMBL
 #
 loop_
 _software.name              
@@ -360,42 +358,42 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NEC  "C5'" -2.194 -0.150 -0.012 ETKDGv2  1
-NEC  "O5'" -1.658  0.462 -0.976 ETKDGv2  2
-NEC  "N5'" -3.619 -0.136  0.150 ETKDGv2  3
-NEC    C51 -4.503  0.627 -0.729 ETKDGv2  4
-NEC    C52 -4.418  2.116 -0.414 ETKDGv2  5
-NEC  "C4'" -1.338 -0.954  0.928 ETKDGv2  6
-NEC  "O4'" -0.108 -0.290  1.132 ETKDGv2  7
-NEC  "C3'" -1.068 -2.362  0.366 ETKDGv2  8
-NEC  "O3'" -1.490 -3.362  1.265 ETKDGv2  9
-NEC  "C2'"  0.435 -2.394  0.170 ETKDGv2 10
-NEC  "O2'"  0.754 -2.109 -1.168 ETKDGv2 11
-NEC  "C1'"  0.901 -1.271  1.087 ETKDGv2 12
-NEC     N9  2.163 -0.688  0.631 ETKDGv2 13
-NEC     C8  3.413 -0.690  1.334 ETKDGv2 14
-NEC     N7  4.256  0.206  0.906 ETKDGv2 15
-NEC     C5  3.555  0.873 -0.138 ETKDGv2 16
-NEC     C6  3.946  2.061 -0.907 ETKDGv2 17
-NEC     N6  5.241  2.644 -0.769 ETKDGv2 18
-NEC     N1  3.067  2.578 -1.724 ETKDGv2 19
-NEC     C2  1.742  2.007 -1.867 ETKDGv2 20
-NEC     N3  1.395  0.955 -1.172 ETKDGv2 21
-NEC     C4  2.359  0.375 -0.284 ETKDGv2 22
-NEC    HN5 -4.051 -0.738  0.886 ETKDGv2 23
-NEC   H511 -5.551  0.289 -0.578 ETKDGv2 24
-NEC   H512 -4.233  0.444 -1.792 ETKDGv2 25
-NEC   H521 -5.129  2.674 -1.060 ETKDGv2 26
-NEC   H522 -3.393  2.497 -0.604 ETKDGv2 27
-NEC   H523 -4.683  2.296  0.649 ETKDGv2 28
-NEC  "H4'" -1.860 -1.019  1.908 ETKDGv2 29
-NEC  "H3'" -1.591 -2.534 -0.602 ETKDGv2 30
-NEC "HO3'" -1.002 -3.235  2.121 ETKDGv2 31
-NEC  "H2'"  0.887 -3.366  0.480 ETKDGv2 32
-NEC "HO2'"  0.626 -2.953 -1.676 ETKDGv2 33
-NEC  "H1'"  1.040 -1.677  2.115 ETKDGv2 34
-NEC     H8  3.635 -1.356  2.157 ETKDGv2 35
-NEC   HN61  5.944  2.231 -0.117 ETKDGv2 36
-NEC   HN62  5.500  3.491 -1.322 ETKDGv2 37
-NEC     H2  1.032  2.460 -2.545 ETKDGv2 38
+NEC  "C5'"  3.123 -0.604 -0.666 ETKDGv2  1
+NEC  "O5'"  4.227 -1.003 -1.128 ETKDGv2  2
+NEC  "N5'"  3.093  0.335  0.418 ETKDGv2  3
+NEC    C51  4.326  0.864  1.001 ETKDGv2  4
+NEC    C52  4.019  1.839  2.133 ETKDGv2  5
+NEC  "C4'"  1.845 -1.163 -1.229 ETKDGv2  6
+NEC  "O4'"  0.881 -0.139 -1.329 ETKDGv2  7
+NEC  "C3'"  1.286 -2.292 -0.346 ETKDGv2  8
+NEC  "O3'"  1.374 -3.541 -0.991 ETKDGv2  9
+NEC  "C2'" -0.160 -1.887 -0.101 ETKDGv2 10
+NEC  "O2'" -0.356 -1.485  1.236 ETKDGv2 11
+NEC  "C1'" -0.369 -0.740 -1.090 ETKDGv2 12
+NEC     N9 -1.322  0.246 -0.583 ETKDGv2 13
+NEC     C8 -1.115  1.624 -0.240 ETKDGv2 14
+NEC     N7 -2.200  2.226  0.157 ETKDGv2 15
+NEC     C5 -3.206  1.219  0.082 ETKDGv2 16
+NEC     C6 -4.636  1.300  0.402 ETKDGv2 17
+NEC     N6 -5.227  2.512  0.869 ETKDGv2 18
+NEC     N1 -5.360  0.223  0.245 ETKDGv2 19
+NEC     C2 -4.776 -1.018 -0.229 ETKDGv2 20
+NEC     N3 -3.501 -1.086 -0.513 ETKDGv2 21
+NEC     C4 -2.705  0.092 -0.342 ETKDGv2 22
+NEC    HN5  2.168  0.643  0.794 ETKDGv2 23
+NEC   H511  4.910  1.390  0.217 ETKDGv2 24
+NEC   H512  4.936  0.025  1.401 ETKDGv2 25
+NEC   H521  3.423  2.695  1.749 ETKDGv2 26
+NEC   H522  4.968  2.227  2.559 ETKDGv2 27
+NEC   H523  3.449  1.326  2.936 ETKDGv2 28
+NEC  "H4'"  2.051 -1.538 -2.258 ETKDGv2 29
+NEC  "H3'"  1.833 -2.368  0.621 ETKDGv2 30
+NEC "HO3'"  0.844 -3.493 -1.830 ETKDGv2 31
+NEC  "H2'" -0.864 -2.718 -0.323 ETKDGv2 32
+NEC "HO2'"  0.248 -0.719  1.420 ETKDGv2 33
+NEC  "H1'" -0.756 -1.144 -2.053 ETKDGv2 34
+NEC     H8 -0.156  2.121 -0.298 ETKDGv2 35
+NEC   HN61 -6.246  2.551  1.091 ETKDGv2 36
+NEC   HN62 -4.649  3.372  0.994 ETKDGv2 37
+NEC     H2 -5.400 -1.893 -0.348 ETKDGv2 38
 #

@@ -119,18 +119,16 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-AVN  "Create component" 2007-09-24 RCSB ? ?
-AVN "Modify descriptor" 2011-06-04 RCSB ? ?
+AVN  "Create component" 2007-09-24 RCSB
+AVN "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-AVN Acivicin ChEMBL
-AVN  U-42126 ChEMBL
 AVN   AT-125 ChEMBL
+AVN  U-42126 ChEMBL
+AVN Acivicin ChEMBL
 #
 loop_
 _software.name              
@@ -255,22 +253,22 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AVN   C1 -1.333  0.977  0.172 ETKDGv2  1
-AVN   O1 -1.394  2.051 -0.710 ETKDGv2  2
-AVN   O2 -1.492  1.171  1.407 ETKDGv2  3
-AVN   C2 -1.053 -0.407 -0.354 ETKDGv2  4
-AVN   N1 -2.045 -1.346  0.174 ETKDGv2  5
-AVN   C3  0.387 -0.878 -0.034 ETKDGv2  6
-AVN   O3  0.669 -0.771  1.355 ETKDGv2  7
-AVN   N2  1.745  0.036  1.616 ETKDGv2  8
-AVN   C4  2.222  0.484  0.509 ETKDGv2  9
-AVN   C5  1.479 -0.005 -0.686 ETKDGv2 10
-AVN  CL1  3.608  1.551  0.442 ETKDGv2 11
-AVN  HO1 -1.571  2.990 -0.373 ETKDGv2 12
-AVN   H2 -1.166 -0.380 -1.461 ETKDGv2 13
-AVN HN11 -1.870 -1.506  1.193 ETKDGv2 14
-AVN HN12 -1.925 -2.267 -0.308 ETKDGv2 15
-AVN   H3  0.517 -1.936 -0.352 ETKDGv2 16
-AVN  H51  2.150 -0.616 -1.327 ETKDGv2 17
-AVN  H52  1.072  0.852 -1.263 ETKDGv2 18
+AVN   C1 -1.613 -0.591 -1.046 ETKDGv2  1
+AVN   O1 -2.407 -1.719 -0.860 ETKDGv2  2
+AVN   O2 -1.331 -0.223 -2.217 ETKDGv2  3
+AVN   C2 -1.052  0.150  0.143 ETKDGv2  4
+AVN   N1 -0.874  1.571 -0.171 ETKDGv2  5
+AVN   C3  0.274 -0.497  0.598 ETKDGv2  6
+AVN   O3  0.746  0.120  1.787 ETKDGv2  7
+AVN   N2  2.006  0.641  1.651 ETKDGv2  8
+AVN   C4  2.431  0.424  0.458 ETKDGv2  9
+AVN   C5  1.447 -0.305 -0.388 ETKDGv2 10
+AVN  CL1  4.011  0.945 -0.090 ETKDGv2 11
+AVN  HO1 -2.631 -2.056  0.068 ETKDGv2 12
+AVN   H2 -1.782  0.059  0.979 ETKDGv2 13
+AVN HN11 -1.806  1.969 -0.430 ETKDGv2 14
+AVN HN12 -0.584  2.070  0.701 ETKDGv2 15
+AVN   H3  0.116 -1.580  0.799 ETKDGv2 16
+AVN  H51  1.183  0.307 -1.276 ETKDGv2 17
+AVN  H52  1.867 -1.284 -0.706 ETKDGv2 18
 #

@@ -165,10 +165,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-ROF  "Create component" 2004-11-16 RCSB ? ?
-ROF "Modify descriptor" 2011-06-04 RCSB ? ?
+ROF  "Create component" 2004-11-16 RCSB
+ROF "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   ROF
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01656
@@ -206,11 +204,11 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 ROF   B9302-107   ChEMBL
+ROF Roflumilast   ChEMBL
 ROF   BYK-20869   ChEMBL
-ROF    Daliresp   ChEMBL
 ROF      BY-217   ChEMBL
 ROF       Daxas   ChEMBL
-ROF Roflumilast   ChEMBL
+ROF    Daliresp   ChEMBL
 ROF Roflumilast DrugBank
 #
 loop_
@@ -426,44 +424,44 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ROF  O24  3.142  0.633  1.246 ETKDGv2  1
-ROF  C23 -3.615  1.118 -2.632 ETKDGv2  2
-ROF  C22 -2.954  0.053 -3.493 ETKDGv2  3
-ROF  C21 -2.458  0.303 -2.078 ETKDGv2  4
-ROF   C8  1.892  0.459  1.204 ETKDGv2  5
-ROF   C9  1.338 -0.725  0.505 ETKDGv2  6
-ROF  C10  2.107 -1.801  0.266 ETKDGv2  7
-ROF  C11  1.556 -2.979 -0.430 ETKDGv2  8
-ROF  C12  0.275 -2.988 -0.847 ETKDGv2  9
-ROF  O15 -0.295 -4.087 -1.512 ETKDGv2 10
-ROF  C16  0.375 -5.314 -1.795 ETKDGv2 11
-ROF  F18  0.698 -5.959 -0.615 ETKDGv2 12
-ROF  F17 -0.463 -6.125 -2.535 ETKDGv2 13
-ROF  C13 -0.579 -1.800 -0.611 ETKDGv2 14
-ROF  O19 -1.905 -1.845 -1.080 ETKDGv2 15
-ROF  C20 -2.843 -0.769 -1.049 ETKDGv2 16
-ROF  C14 -0.071 -0.731  0.035 ETKDGv2 17
-ROF   N7  1.024  1.403  1.850 ETKDGv2 18
-ROF   C6  1.492  2.672  2.330 ETKDGv2 19
-ROF   C5  2.011  3.591  1.489 ETKDGv2 20
-ROF CL26  2.099  3.329 -0.249 ETKDGv2 21
-ROF   C4  2.462  4.890  2.029 ETKDGv2 22
-ROF   N3  2.343  5.150  3.298 ETKDGv2 23
-ROF   C2  1.777  4.198  4.213 ETKDGv2 24
-ROF   C1  1.358  3.005  3.770 ETKDGv2 25
-ROF CL25  0.684  1.846  4.906 ETKDGv2 26
-ROF H231 -3.350  2.157 -2.921 ETKDGv2 27
-ROF H232 -4.630  0.843 -2.272 ETKDGv2 28
-ROF H221 -2.297  0.461 -4.289 ETKDGv2 29
-ROF H222 -3.574 -0.857 -3.642 ETKDGv2 30
-ROF  H21 -1.490  0.843 -2.001 ETKDGv2 31
-ROF  H10  3.141 -1.831  0.590 ETKDGv2 32
-ROF  H11  2.208 -3.825 -0.591 ETKDGv2 33
-ROF  H16  1.295 -5.121 -2.386 ETKDGv2 34
-ROF H201 -3.850 -1.187 -1.265 ETKDGv2 35
-ROF H202 -2.894 -0.325 -0.033 ETKDGv2 36
-ROF  H14 -0.677  0.147  0.201 ETKDGv2 37
-ROF  HN7  0.083  1.080  2.169 ETKDGv2 38
-ROF   H4  2.888  5.634  1.369 ETKDGv2 39
-ROF   H2  1.694  4.453  5.261 ETKDGv2 40
+ROF  O24  3.343 -1.640 -0.244 ETKDGv2  1
+ROF  C23 -3.900  1.101  1.334 ETKDGv2  2
+ROF  C22 -3.330  2.505  1.204 ETKDGv2  3
+ROF  C21 -2.551  1.315  0.665 ETKDGv2  4
+ROF   C8  2.290 -0.981 -0.021 ETKDGv2  5
+ROF   C9  0.981 -1.513 -0.470 ETKDGv2  6
+ROF  C10  0.828 -2.821 -0.732 ETKDGv2  7
+ROF  C11 -0.478 -3.349 -1.165 ETKDGv2  8
+ROF  C12 -1.537 -2.542 -1.315 ETKDGv2  9
+ROF  O15 -2.744 -3.144 -1.716 ETKDGv2 10
+ROF  C16 -3.978 -2.479 -1.961 ETKDGv2 11
+ROF  F18 -4.949 -3.424 -2.231 ETKDGv2 12
+ROF  F17 -3.856 -1.644 -3.057 ETKDGv2 13
+ROF  C13 -1.381 -1.075 -1.047 ETKDGv2 14
+ROF  O19 -2.484 -0.220 -1.221 ETKDGv2 15
+ROF  C20 -2.553  1.161 -0.863 ETKDGv2 16
+ROF  C14 -0.177 -0.604 -0.656 ETKDGv2 17
+ROF   N7  2.370  0.264  0.689 ETKDGv2 18
+ROF   C6  3.619  0.935  0.916 ETKDGv2 19
+ROF   C5  4.003  1.254  2.168 ETKDGv2 20
+ROF CL26  3.030  0.838  3.573 ETKDGv2 21
+ROF   C4  5.298  1.932  2.377 ETKDGv2 22
+ROF   N3  6.052  2.235  1.361 ETKDGv2 23
+ROF   C2  5.656  1.935  0.014 ETKDGv2 24
+ROF   C1  4.492  1.318 -0.227 ETKDGv2 25
+ROF CL25  3.991  1.055 -1.893 ETKDGv2 26
+ROF H231 -4.756  0.894  0.656 ETKDGv2 27
+ROF H232 -3.841  0.683  2.361 ETKDGv2 28
+ROF H221 -2.936  2.919  2.156 ETKDGv2 29
+ROF H222 -3.851  3.137  0.453 ETKDGv2 30
+ROF  H21 -1.670  1.009  1.266 ETKDGv2 31
+ROF  H10  1.651 -3.515 -0.612 ETKDGv2 32
+ROF  H11 -0.575 -4.411 -1.355 ETKDGv2 33
+ROF  H16 -4.294 -1.904 -1.066 ETKDGv2 34
+ROF H201 -1.706  1.723 -1.307 ETKDGv2 35
+ROF H202 -3.481  1.582 -1.306 ETKDGv2 36
+ROF  H14 -0.029  0.453 -0.497 ETKDGv2 37
+ROF  HN7  1.524  0.607  1.197 ETKDGv2 38
+ROF   H4  5.628  2.175  3.379 ETKDGv2 39
+ROF   H2  6.298  2.233 -0.805 ETKDGv2 40
 #

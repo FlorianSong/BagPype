@@ -109,18 +109,16 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-B3R     "Create component" 2010-05-05 RCSB ? ?
-B3R "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-B3R    "Modify descriptor" 2011-06-04 RCSB ? ?
+B3R     "Create component" 2010-05-05 RCSB
+B3R "Modify aromatic_flag" 2011-06-04 RCSB
+B3R    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-B3R 3-Bromo-Phenol ChEMBL
 B3R  3-Bromophenol ChEMBL
+B3R 3-Bromo-Phenol ChEMBL
 #
 loop_
 _software.name              
@@ -240,17 +238,17 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-B3R  C1  1.174 -0.032  0.027 ETKDGv2  1
-B3R  C2  0.296  1.157  0.135 ETKDGv2  2
-B3R  C3 -1.036  1.015  0.086 ETKDGv2  3
-B3R  C4  0.632 -1.249 -0.122 ETKDGv2  4
-B3R  C5 -0.837 -1.405 -0.177 ETKDGv2  5
-B3R  C6 -1.630 -0.330 -0.078 ETKDGv2  6
-B3R  O7  2.559  0.107  0.077 ETKDGv2  7
-B3R BR8 -2.173  2.543  0.225 ETKDGv2  8
-B3R  H2  0.734  2.139  0.255 ETKDGv2  9
-B3R  H4  1.265 -2.124 -0.202 ETKDGv2 10
-B3R  H5 -1.270 -2.390 -0.296 ETKDGv2 11
-B3R  H6 -2.705 -0.446 -0.119 ETKDGv2 12
-B3R HO7  2.990  1.016  0.189 ETKDGv2 13
+B3R  C1  1.156 -0.191 -0.083 ETKDGv2  1
+B3R  C2  0.095 -1.174  0.239 ETKDGv2  2
+B3R  C3 -1.187 -0.784  0.294 ETKDGv2  3
+B3R  C4  0.830  1.088 -0.320 ETKDGv2  4
+B3R  C5 -0.583  1.516 -0.259 ETKDGv2  5
+B3R  C6 -1.541  0.627  0.032 ETKDGv2  6
+B3R  O7  2.490 -0.587 -0.142 ETKDGv2  7
+B3R BR8 -2.559 -2.046  0.709 ETKDGv2  8
+B3R  H2  0.358 -2.206  0.430 ETKDGv2  9
+B3R  H4  1.599  1.813 -0.556 ETKDGv2 10
+B3R  H5 -0.841  2.550 -0.451 ETKDGv2 11
+B3R  H6 -2.576  0.942  0.076 ETKDGv2 12
+B3R HO7  2.759 -1.548  0.033 ETKDGv2 13
 #

@@ -132,15 +132,13 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-FP5     "Create component" 2011-01-12  EBI MFS ?
-FP5          "Modify name" 2011-02-14  EBI  MC ?
-FP5       "Modify formula" 2011-02-14  EBI  MC ?
-FP5 "Modify formal charge" 2011-02-14  EBI  MC ?
-FP5        "Modify charge" 2011-02-14  EBI  MC ?
-FP5 "Modify aromatic_flag" 2011-06-04 RCSB   ? ?
-FP5    "Modify descriptor" 2011-06-04 RCSB   ? ?
+FP5     "Create component" 2011-01-12  EBI
+FP5          "Modify name" 2011-02-14  EBI
+FP5       "Modify formula" 2011-02-14  EBI
+FP5 "Modify formal charge" 2011-02-14  EBI
+FP5        "Modify charge" 2011-02-14  EBI
+FP5 "Modify aromatic_flag" 2011-06-04 RCSB
+FP5    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -273,30 +271,30 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FP5   O6 -0.727 -1.395 -2.077 ETKDGv2  1
-FP5   C5 -0.698 -1.210 -0.830 ETKDGv2  2
-FP5   N4 -1.714 -0.425 -0.191 ETKDGv2  3
-FP5   C3 -2.793  0.190 -0.963 ETKDGv2  4
-FP5    B -3.788  1.010 -0.022 ETKDGv2  5
-FP5   C7  0.434 -1.779 -0.029 ETKDGv2  6
-FP5   CG  1.616 -0.847 -0.064 ETKDGv2  7
-FP5  CD2  2.724 -1.160 -0.760 ETKDGv2  8
-FP5  CE2  3.873 -0.230 -0.789 ETKDGv2  9
-FP5   CZ  3.816  0.929 -0.121 ETKDGv2 10
-FP5  CE1  2.604  1.280  0.646 ETKDGv2 11
-FP5  CD1  1.562  0.440  0.676 ETKDGv2 12
-FP5   O1 -3.945  2.451 -0.201 ETKDGv2 13
-FP5   O2 -4.568  0.315  1.000 ETKDGv2 14
-FP5   H4 -1.659 -0.290  0.845 ETKDGv2 15
-FP5 H71C  0.120 -1.937  1.025 ETKDGv2 16
-FP5 H72C  0.699 -2.778 -0.440 ETKDGv2 17
-FP5 H31C -2.360  0.882 -1.716 ETKDGv2 18
-FP5 H32C -3.372 -0.598 -1.489 ETKDGv2 19
-FP5  HD2  2.790 -2.090 -1.311 ETKDGv2 20
-FP5  HD1  0.679  0.704  1.244 ETKDGv2 21
-FP5  HE2  4.760 -0.489 -1.352 ETKDGv2 22
-FP5   HZ  4.656  1.610 -0.142 ETKDGv2 23
-FP5  HE1  2.562  2.217  1.186 ETKDGv2 24
-FP5  HB1 -3.266  2.853  0.397 ETKDGv2 25
-FP5  HB2 -4.005  0.350  1.814 ETKDGv2 26
+FP5   O6  1.014  1.134 -1.099 ETKDGv2  1
+FP5   C5  0.742 -0.013 -0.651 ETKDGv2  2
+FP5   N4  1.568 -0.612  0.358 ETKDGv2  3
+FP5   C3  2.739  0.060  0.916 ETKDGv2  4
+FP5    B  3.941  0.049 -0.130 ETKDGv2  5
+FP5   C7 -0.479 -0.726 -1.149 ETKDGv2  6
+FP5   CG -1.701 -0.255 -0.410 ETKDGv2  7
+FP5  CD2 -1.917 -0.624  0.867 ETKDGv2  8
+FP5  CE2 -3.118 -0.153  1.586 ETKDGv2  9
+FP5   CZ -3.999  0.644  0.971 ETKDGv2 10
+FP5  CE1 -3.772  1.055 -0.430 ETKDGv2 11
+FP5  CD1 -2.684  0.630 -1.086 ETKDGv2 12
+FP5   O1  4.475 -1.221 -0.616 ETKDGv2 13
+FP5   O2  4.512  1.307 -0.604 ETKDGv2 14
+FP5   H4  1.289 -1.536  0.759 ETKDGv2 15
+FP5 H71C -0.363 -1.825 -1.029 ETKDGv2 16
+FP5 H72C -0.588 -0.530 -2.238 ETKDGv2 17
+FP5 H31C  2.481  1.103  1.196 ETKDGv2 18
+FP5 H32C  3.071 -0.474  1.832 ETKDGv2 19
+FP5  HD2 -1.216 -1.270  1.381 ETKDGv2 20
+FP5  HD1 -2.525  0.938 -2.111 ETKDGv2 21
+FP5  HE2 -3.283 -0.455  2.613 ETKDGv2 22
+FP5   HZ -4.880  0.990  1.497 ETKDGv2 23
+FP5  HE1 -4.486  1.701 -0.923 ETKDGv2 24
+FP5  HB1  5.196 -1.451  0.023 ETKDGv2 25
+FP5  HB2  3.982  1.534 -1.410 ETKDGv2 26
 #

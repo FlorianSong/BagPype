@@ -159,11 +159,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-G2S     "Create component" 2001-11-02 RCSB ? ?
-G2S "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-G2S    "Modify descriptor" 2011-06-04 RCSB ? ?
+G2S     "Create component" 2001-11-02 RCSB
+G2S "Modify aromatic_flag" 2011-06-04 RCSB
+G2S    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -342,41 +340,41 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-G2S    OP3  4.303  1.350 -2.352 ETKDGv2  1
-G2S      P  4.677  1.053 -0.726 ETKDGv2  2
-G2S    S1P  5.702 -0.334 -0.607 ETKDGv2  3
-G2S    S2P  5.699  2.726  0.061 ETKDGv2  4
-G2S  "O5'"  3.261  0.803  0.195 ETKDGv2  5
-G2S  "C5'"  2.325  0.102 -0.590 ETKDGv2  6
-G2S  "C4'"  1.123 -0.287  0.277 ETKDGv2  7
-G2S  "O4'"  0.179 -0.998 -0.489 ETKDGv2  8
-G2S  "C3'"  1.480 -1.137  1.496 ETKDGv2  9
-G2S  "O3'"  2.539 -2.034  1.246 ETKDGv2 10
-G2S  "C2'"  0.191 -1.871  1.753 ETKDGv2 11
-G2S  "C1'" -0.475 -1.904  0.377 ETKDGv2 12
-G2S     N9 -1.898 -1.579  0.482 ETKDGv2 13
-G2S     C8 -2.924 -2.335  1.136 ETKDGv2 14
-G2S     N7 -4.093 -1.763  1.096 ETKDGv2 15
-G2S     C5 -3.866 -0.553  0.378 ETKDGv2 16
-G2S     C6 -4.803  0.521  0.073 ETKDGv2 17
-G2S     O6 -6.016  0.456  0.402 ETKDGv2 18
-G2S     N1 -4.276  1.664 -0.619 ETKDGv2 19
-G2S     C2 -2.871  1.703 -0.964 ETKDGv2 20
-G2S     N2 -2.335  2.839 -1.641 ETKDGv2 21
-G2S     N3 -2.086  0.704 -0.655 ETKDGv2 22
-G2S     C4 -2.612 -0.445  0.025 ETKDGv2 23
-G2S   HOP3  5.143  1.690 -2.751 ETKDGv2 24
-G2S   HOP2  4.609  3.578 -0.199 ETKDGv2 25
-G2S  "H5'"  1.955  0.755 -1.412 ETKDGv2 26
-G2S "H5''"  2.766 -0.820 -1.036 ETKDGv2 27
-G2S  "H4'"  0.640  0.653  0.631 ETKDGv2 28
-G2S  "H3'"  1.751 -0.493  2.362 ETKDGv2 29
-G2S "HO3'"  2.272 -2.631  0.498 ETKDGv2 30
-G2S "H2'1" -0.424 -1.293  2.479 ETKDGv2 31
-G2S  "H1'" -0.374 -2.923 -0.055 ETKDGv2 32
-G2S     H8 -2.750 -3.285  1.623 ETKDGv2 33
-G2S     H1 -4.903  2.462 -0.865 ETKDGv2 34
-G2S    H21 -2.950  3.644 -1.893 ETKDGv2 35
-G2S    H22 -1.322  2.877 -1.891 ETKDGv2 36
-G2S "H2'2"  0.361 -2.894  2.154 ETKDGv2 37
+G2S    OP3 -6.104  0.088  0.505 ETKDGv2  1
+G2S      P -5.108  1.094 -0.425 ETKDGv2  2
+G2S    S1P -6.026  1.747 -1.735 ETKDGv2  3
+G2S    S2P -4.408  2.690  0.774 ETKDGv2  4
+G2S  "O5'" -3.791  0.216 -1.060 ETKDGv2  5
+G2S  "C5'" -3.154 -0.464 -0.004 ETKDGv2  6
+G2S  "C4'" -1.890 -1.156 -0.542 ETKDGv2  7
+G2S  "O4'" -1.061 -0.193 -1.157 ETKDGv2  8
+G2S  "C3'" -1.071 -1.865  0.536 ETKDGv2  9
+G2S  "O3'" -1.856 -2.304  1.614 ETKDGv2 10
+G2S  "C2'" -0.088 -0.809  0.953 ETKDGv2 11
+G2S  "C1'"  0.018  0.076 -0.285 ETKDGv2 12
+G2S     N9  1.279 -0.158 -0.987 ETKDGv2 13
+G2S     C8  1.631 -1.331 -1.736 ETKDGv2 14
+G2S     N7  2.913 -1.535 -1.822 ETKDGv2 15
+G2S     C5  3.485 -0.463 -1.083 ETKDGv2 16
+G2S     C6  4.877 -0.260 -0.703 ETKDGv2 17
+G2S     O6  5.798 -1.000 -1.138 ETKDGv2 18
+G2S     N1  5.153  0.820  0.202 ETKDGv2 19
+G2S     C2  4.059  1.619  0.711 ETKDGv2 20
+G2S     N2  4.318  2.678  1.632 ETKDGv2 21
+G2S     N3  2.829  1.370  0.340 ETKDGv2 22
+G2S     C4  2.555  0.311 -0.590 ETKDGv2 23
+G2S   HOP3 -6.300 -0.690 -0.077 ETKDGv2 24
+G2S   HOP2 -3.599  3.189 -0.264 ETKDGv2 25
+G2S  "H5'" -2.852  0.242  0.803 ETKDGv2 26
+G2S "H5''" -3.834 -1.240  0.412 ETKDGv2 27
+G2S  "H4'" -2.200 -1.901 -1.308 ETKDGv2 28
+G2S  "H3'" -0.529 -2.724  0.074 ETKDGv2 29
+G2S "HO3'" -1.268 -2.874  2.175 ETKDGv2 30
+G2S "H2'1"  0.885 -1.258  1.253 ETKDGv2 31
+G2S  "H1'" -0.031  1.145  0.018 ETKDGv2 32
+G2S     H8  0.902 -2.004 -2.169 ETKDGv2 33
+G2S     H1  6.134  1.016  0.502 ETKDGv2 34
+G2S    H21  3.534  3.257  2.008 ETKDGv2 35
+G2S    H22  5.294  2.884  1.939 ETKDGv2 36
+G2S "H2'2" -0.493 -0.216  1.804 ETKDGv2 37
 #

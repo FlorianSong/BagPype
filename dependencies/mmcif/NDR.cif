@@ -179,10 +179,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-NDR  "Create component" 2004-03-24 RCSB ? ?
-NDR "Modify descriptor" 2011-06-04 RCSB ? ?
+NDR  "Create component" 2004-03-24 RCSB
+NDR "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   NDR
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00717
@@ -215,27 +213,27 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-NDR                                               "Primolut N"   ChEMBL
-NDR                                                  Norlutate   ChEMBL
-NDR                                                      Errin   ChEMBL
 NDR                                              Norethindrone   ChEMBL
-NDR                                                 Combipatch   ChEMBL
-NDR                                                     Nor-Qd   ChEMBL
-NDR                                                     Camila   ChEMBL
-NDR                                             Norethisterone   ChEMBL
-NDR                                                   Norlutin   ChEMBL
-NDR                                                    Heather   ChEMBL
-NDR                                                     Menzol   ChEMBL
 NDR                                                   Micronor   ChEMBL
-NDR                                                    Noriday   ChEMBL
-NDR                                                     Femhrt   ChEMBL
-NDR                                                  Activella   ChEMBL
-NDR                                               Norethidrone   ChEMBL
+NDR                                                   Norlutin   ChEMBL
+NDR                                                     Menzol   ChEMBL
+NDR                                                     Camila   ChEMBL
+NDR                                                 Combipatch   ChEMBL
+NDR                                             "Micronor HRT"   ChEMBL
+NDR                                                     Nor-Qd   ChEMBL
+NDR                                                  Norlutate   ChEMBL
 NDR                                                   Incassia   ChEMBL
+NDR                                                      Errin   ChEMBL
+NDR                                             Norethisterone   ChEMBL
+NDR                                                    Utovlan   ChEMBL
+NDR                                                  Activella   ChEMBL
+NDR                                                     Femhrt   ChEMBL
 NDR                                                   Jencycla   ChEMBL
 NDR                                                   Aygestin   ChEMBL
-NDR                                                    Utovlan   ChEMBL
-NDR                                             "Micronor HRT"   ChEMBL
+NDR                                               "Primolut N"   ChEMBL
+NDR                                                    Noriday   ChEMBL
+NDR                                                    Heather   ChEMBL
+NDR                                               Norethidrone   ChEMBL
 NDR (17alpha)-17-ethynyl-17-hydroxyestra-4,8(14),9-trien-3-one DrugBank
 NDR              17-hydroxy-19-nor-17-α-pregn-4-en-20-yn-3-one DrugBank
 NDR               17-hydroxy-19-nor-17α-pregn-4-en-20-yn-3-one DrugBank
@@ -458,52 +456,52 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NDR  O22  6.261 -0.974  0.500 ETKDGv2  1
-NDR  C21  5.031 -0.814  0.278 ETKDGv2  2
-NDR  C20  4.302 -1.794 -0.592 ETKDGv2  3
-NDR  C19  4.331  0.336  0.870 ETKDGv2  4
-NDR  C17  3.044  0.604  0.585 ETKDGv2  5
-NDR  C15  2.359  1.643  1.442 ETKDGv2  6
-NDR  C14  2.327 -0.199 -0.510 ETKDGv2  7
-NDR  C18  2.781 -1.680 -0.415 ETKDGv2  8
-NDR   C8  0.765  0.023 -0.586 ETKDGv2  9
-NDR   C3  0.176  0.601  0.719 ETKDGv2 10
-NDR   C9  0.908  1.906  1.064 ETKDGv2 11
-NDR  C13 -0.031 -1.225 -1.023 ETKDGv2 12
-NDR   C6 -1.526 -0.931 -1.167 ETKDGv2 13
-NDR   C2 -2.185 -0.366  0.133 ETKDGv2 14
-NDR   C1 -1.365  0.831  0.662 ETKDGv2 15
-NDR   C7 -2.311 -1.486  1.196 ETKDGv2 16
-NDR   C5 -3.573  0.291 -0.179 ETKDGv2 17
-NDR  O12 -4.381  0.379  0.975 ETKDGv2 18
-NDR  C10 -3.232  1.704 -0.695 ETKDGv2 19
-NDR   C4 -1.829  2.036 -0.176 ETKDGv2 20
-NDR  C11 -4.353 -0.456 -1.188 ETKDGv2 21
-NDR  C16 -4.992 -1.065 -2.010 ETKDGv2 22
-NDR H201  4.623 -2.828 -0.341 ETKDGv2 23
-NDR H202  4.570 -1.594 -1.652 ETKDGv2 24
-NDR  H19  4.854  0.920  1.619 ETKDGv2 25
-NDR H151  2.389  1.300  2.500 ETKDGv2 26
-NDR H152  2.920  2.602  1.382 ETKDGv2 27
-NDR H181  2.483 -2.102  0.570 ETKDGv2 28
-NDR H182  2.327 -2.299 -1.215 ETKDGv2 29
-NDR  H91  0.884  2.606  0.200 ETKDGv2 30
-NDR  H92  0.408  2.412  1.919 ETKDGv2 31
-NDR H131  0.338 -1.564 -2.016 ETKDGv2 32
-NDR H132  0.113 -2.056 -0.301 ETKDGv2 33
-NDR  H61 -1.650 -0.213 -2.008 ETKDGv2 34
-NDR  H62 -2.035 -1.872 -1.472 ETKDGv2 35
-NDR  H71 -2.738 -1.101  2.145 ETKDGv2 36
-NDR  H72 -1.324 -1.924  1.444 ETKDGv2 37
-NDR  H73 -2.971 -2.298  0.821 ETKDGv2 38
-NDR  H12 -3.966  1.015  1.614 ETKDGv2 39
-NDR H101 -3.973  2.454 -0.339 ETKDGv2 40
-NDR H102 -3.225  1.741 -1.808 ETKDGv2 41
-NDR  H41 -1.849  2.958  0.444 ETKDGv2 42
-NDR  H42 -1.156  2.212 -1.042 ETKDGv2 43
-NDR  H16 -5.551 -1.599 -2.732 ETKDGv2 44
-NDR  H23  2.731  0.177 -1.478 ETKDGv2 45
-NDR  H24  0.603  0.783 -1.384 ETKDGv2 46
-NDR  H25  0.367 -0.132  1.536 ETKDGv2 47
-NDR  H26 -1.682  1.036  1.711 ETKDGv2 48
+NDR  O22  5.404  1.859 -1.060 ETKDGv2  1
+NDR  C21  4.316  1.475 -0.554 ETKDGv2  2
+NDR  C20  3.277  2.482 -0.169 ETKDGv2  3
+NDR  C19  4.043  0.037 -0.428 ETKDGv2  4
+NDR  C17  2.942 -0.417  0.188 ETKDGv2  5
+NDR  C15  2.629 -1.899  0.185 ETKDGv2  6
+NDR  C14  1.949  0.515  0.858 ETKDGv2  7
+NDR  C18  2.439  1.980  1.012 ETKDGv2  8
+NDR   C8  0.499  0.315  0.300 ETKDGv2  9
+NDR   C3  0.273 -1.115 -0.255 ETKDGv2 10
+NDR   C9  1.137 -2.166  0.474 ETKDGv2 11
+NDR  C13  0.038  1.323 -0.769 ETKDGv2 12
+NDR   C6 -1.231  0.884 -1.556 ETKDGv2 13
+NDR   C2 -2.089 -0.305 -0.972 ETKDGv2 14
+NDR   C1 -1.237 -1.445 -0.304 ETKDGv2 15
+NDR   C7 -2.853 -0.932 -2.175 ETKDGv2 16
+NDR   C5 -3.117  0.141  0.135 ETKDGv2 17
+NDR  O12 -4.360  0.540 -0.406 ETKDGv2 18
+NDR  C10 -3.247 -1.088  1.053 ETKDGv2 19
+NDR   C4 -1.869 -1.732  1.072 ETKDGv2 20
+NDR  C11 -2.643  1.277  0.954 ETKDGv2 21
+NDR  C16 -2.280  2.208  1.630 ETKDGv2 22
+NDR H201  3.772  3.435  0.121 ETKDGv2 23
+NDR H202  2.636  2.699 -1.046 ETKDGv2 24
+NDR  H19  4.740 -0.664 -0.872 ETKDGv2 25
+NDR H151  2.868 -2.322 -0.816 ETKDGv2 26
+NDR H152  3.260 -2.417  0.939 ETKDGv2 27
+NDR H181  1.587  2.668  1.196 ETKDGv2 28
+NDR H182  3.083  2.039  1.918 ETKDGv2 29
+NDR  H91  0.954 -2.124  1.570 ETKDGv2 30
+NDR  H92  0.875 -3.188  0.123 ETKDGv2 31
+NDR H131  0.855  1.460 -1.506 ETKDGv2 32
+NDR H132 -0.151  2.311 -0.298 ETKDGv2 33
+NDR  H61 -1.886  1.768 -1.716 ETKDGv2 34
+NDR  H62 -0.876  0.600 -2.574 ETKDGv2 35
+NDR  H71 -3.517 -1.758 -1.844 ETKDGv2 36
+NDR  H72 -3.466 -0.168 -2.699 ETKDGv2 37
+NDR  H73 -2.139 -1.355 -2.915 ETKDGv2 38
+NDR  H12 -4.909 -0.259 -0.612 ETKDGv2 39
+NDR H101 -3.588 -0.828  2.080 ETKDGv2 40
+NDR H102 -3.967 -1.825  0.632 ETKDGv2 41
+NDR  H41 -1.282 -1.295  1.906 ETKDGv2 42
+NDR  H42 -1.952 -2.826  1.254 ETKDGv2 43
+NDR  H16 -1.959  3.024  2.222 ETKDGv2 44
+NDR  H23  1.901  0.141  1.908 ETKDGv2 45
+NDR  H24 -0.157  0.467  1.177 ETKDGv2 46
+NDR  H25  0.621 -1.134 -1.315 ETKDGv2 47
+NDR  H26 -1.323 -2.389 -0.891 ETKDGv2 48
 #

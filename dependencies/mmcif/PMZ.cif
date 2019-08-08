@@ -175,10 +175,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-PMZ  "Create component" 2002-06-20 RCSB ? ?
-PMZ "Modify descriptor" 2011-06-04 RCSB ? ?
+PMZ  "Create component" 2002-06-20 RCSB
+PMZ "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   PMZ
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01614
@@ -218,8 +216,8 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 PMZ                                                   Acepromazine   ChEMBL
-PMZ                                                        Atravet   ChEMBL
 PMZ                                                    "Acezine 2"   ChEMBL
+PMZ                                                        Atravet   ChEMBL
 PMZ 1-[10-(3-dimethylamino-propyl)-10H-phenothiazin-2-yl]-ethanone DrugBank
 PMZ    "10-(3-dimethylaminopropyl)phenothiazin-3-yl methyl ketone" DrugBank
 PMZ             10-(3-dimethylaminopropyl)phenothiazine-3-ethylone DrugBank
@@ -405,49 +403,49 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PMZ   S5 -0.397  1.737 -2.025 ETKDGv2  1
-PMZ   N1 -0.070  0.768  0.890 ETKDGv2  2
-PMZ   C1 -1.776 -0.960  0.695 ETKDGv2  3
-PMZ   C2 -2.928 -1.572 -0.023 ETKDGv2  4
-PMZ   C3 -3.278 -1.079 -1.229 ETKDGv2  5
-PMZ   C4 -2.505  0.016 -1.847 ETKDGv2  6
-PMZ   C5 -1.443  0.526 -1.215 ETKDGv2  7
-PMZ   C6 -1.071  0.044  0.139 ETKDGv2  8
-PMZ   C7 -0.366  2.800 -0.582 ETKDGv2  9
-PMZ   C8 -0.575  4.118 -0.701 ETKDGv2 10
-PMZ   C9 -0.435  4.995  0.479 ETKDGv2 11
-PMZ  C10 -0.109  4.473  1.667 ETKDGv2 12
-PMZ  C11  0.073  3.013  1.813 ETKDGv2 13
-PMZ  C12 -0.049  2.204  0.744 ETKDGv2 14
-PMZ  CA1  0.883  0.081  1.780 ETKDGv2 15
-PMZ  CB1  1.669 -1.012  1.039 ETKDGv2 16
-PMZ   CG  2.551 -0.429 -0.075 ETKDGv2 17
-PMZ   ND  3.214 -1.514 -0.832 ETKDGv2 18
-PMZ  CE1  4.458 -1.940 -0.167 ETKDGv2 19
-PMZ  CE2  3.521 -1.068 -2.201 ETKDGv2 20
-PMZ  CA2 -3.676 -2.689  0.612 ETKDGv2 21
-PMZ  CB2 -4.862 -3.332 -0.043 ETKDGv2 22
-PMZ  OB3 -3.308 -3.121  1.739 ETKDGv2 23
-PMZ   H1 -1.546 -1.289  1.699 ETKDGv2 24
-PMZ   H3 -4.114 -1.481 -1.784 ETKDGv2 25
-PMZ   H4 -2.772  0.363 -2.837 ETKDGv2 26
-PMZ   H8 -0.802  4.553 -1.666 ETKDGv2 27
-PMZ   H9 -0.583  6.062  0.376 ETKDGv2 28
-PMZ  H10 -0.005  5.116  2.532 ETKDGv2 29
-PMZ  H11  0.234  2.606  2.803 ETKDGv2 30
-PMZ HA11  0.338 -0.366  2.638 ETKDGv2 31
-PMZ HA12  1.616  0.801  2.204 ETKDGv2 32
-PMZ HB11  2.304 -1.538  1.782 ETKDGv2 33
-PMZ HB12  0.970 -1.761  0.609 ETKDGv2 34
-PMZ  HG1  3.295  0.280  0.355 ETKDGv2 35
-PMZ  HG2  1.893  0.163 -0.749 ETKDGv2 36
-PMZ HE11  4.247 -2.317  0.855 ETKDGv2 37
-PMZ HE12  5.190 -1.104 -0.102 ETKDGv2 38
-PMZ HE13  4.922 -2.780 -0.728 ETKDGv2 39
-PMZ HE21  2.580 -0.836 -2.746 ETKDGv2 40
-PMZ HE22  4.031 -1.877 -2.767 ETKDGv2 41
-PMZ HE23  4.170 -0.163 -2.194 ETKDGv2 42
-PMZ HB21 -5.274 -4.139  0.600 ETKDGv2 43
-PMZ HB22 -5.658 -2.576 -0.209 ETKDGv2 44
-PMZ HB23 -4.561 -3.778 -1.014 ETKDGv2 45
+PMZ   S5 -3.427  2.219 -1.321 ETKDGv2  1
+PMZ   N1 -0.808  0.665 -0.728 ETKDGv2  2
+PMZ   C1 -1.971 -1.200  0.329 ETKDGv2  3
+PMZ   C2 -3.185 -1.780  0.969 ETKDGv2  4
+PMZ   C3 -4.326 -1.064  0.961 ETKDGv2  5
+PMZ   C4 -4.388  0.245  0.283 ETKDGv2  6
+PMZ   C5 -3.306  0.732 -0.332 ETKDGv2  7
+PMZ   C6 -2.014  0.001 -0.278 ETKDGv2  8
+PMZ   C7 -1.950  2.922 -0.594 ETKDGv2  9
+PMZ   C8 -1.933  4.202 -0.202 ETKDGv2 10
+PMZ   C9 -0.662  4.826  0.217 ETKDGv2 11
+PMZ  C10  0.471  4.116  0.195 ETKDGv2 12
+PMZ  C11  0.447  2.689 -0.192 ETKDGv2 13
+PMZ  C12 -0.713  2.098 -0.540 ETKDGv2 14
+PMZ  CA1  0.248 -0.068 -1.449 ETKDGv2 15
+PMZ  CB1  1.312 -0.639 -0.488 ETKDGv2 16
+PMZ   CG  2.722 -0.553 -1.089 ETKDGv2 17
+PMZ   ND  3.709 -1.200 -0.196 ETKDGv2 18
+PMZ  CE1  4.868 -1.669 -0.972 ETKDGv2 19
+PMZ  CE2  4.167 -0.267  0.849 ETKDGv2 20
+PMZ  CA2 -3.135 -3.112  1.631 ETKDGv2 21
+PMZ  CB2 -1.890 -3.946  1.625 ETKDGv2 22
+PMZ  OB3 -4.156 -3.562  2.219 ETKDGv2 23
+PMZ   H1 -1.034 -1.720  0.419 ETKDGv2 24
+PMZ   H3 -5.228 -1.441  1.426 ETKDGv2 25
+PMZ   H4 -5.331  0.774  0.235 ETKDGv2 26
+PMZ   H8 -2.830  4.806 -0.255 ETKDGv2 27
+PMZ   H9 -0.646  5.867  0.514 ETKDGv2 28
+PMZ  H10  1.406  4.577  0.488 ETKDGv2 29
+PMZ  H11  1.367  2.128 -0.126 ETKDGv2 30
+PMZ HA11 -0.203 -0.898 -2.035 ETKDGv2 31
+PMZ HA12  0.713  0.615 -2.194 ETKDGv2 32
+PMZ HB11  1.277 -0.106  0.483 ETKDGv2 33
+PMZ HB12  1.091 -1.709 -0.287 ETKDGv2 34
+PMZ  HG1  2.689 -1.072 -2.075 ETKDGv2 35
+PMZ  HG2  2.993  0.509 -1.288 ETKDGv2 36
+PMZ HE11  5.617 -2.144 -0.302 ETKDGv2 37
+PMZ HE12  5.351 -0.830 -1.522 ETKDGv2 38
+PMZ HE13  4.550 -2.446 -1.701 ETKDGv2 39
+PMZ HE21  4.879 -0.779  1.532 ETKDGv2 40
+PMZ HE22  4.671  0.622  0.407 ETKDGv2 41
+PMZ HE23  3.316  0.074  1.472 ETKDGv2 42
+PMZ HB21 -1.086 -3.424  2.185 ETKDGv2 43
+PMZ HB22 -1.562 -4.128  0.581 ETKDGv2 44
+PMZ HB23 -2.077 -4.928  2.110 ETKDGv2 45
 #

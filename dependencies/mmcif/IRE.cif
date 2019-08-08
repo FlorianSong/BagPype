@@ -196,12 +196,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-IRE              "Create component" 2006-05-25  EBI  ? ?
-IRE             "Modify descriptor" 2011-06-04 RCSB  ? ?
-IRE                   "Modify name" 2014-10-07  EBI GS ?
-IRE "Modify model coordinates code" 2014-10-07  EBI GS ?
+IRE              "Create component" 2006-05-25  EBI
+IRE             "Modify descriptor" 2011-06-04 RCSB
+IRE                   "Modify name" 2014-10-07  EBI
+IRE "Modify model coordinates code" 2014-10-07  EBI
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   IRE
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00317
@@ -234,8 +232,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-IRE                                                                               Iressa   ChEMBL
 IRE                                                                            Gefitinib   ChEMBL
+IRE                                                                               Iressa   ChEMBL
 IRE                                                                              ZD-1839   ChEMBL
 IRE        "4-(3'-chloro-4'-fluoroanilino)-7-methoxy-6-(3-morpholinopropoxy)quinazoline" DrugBank
 IRE                                                                            Gefitinib DrugBank
@@ -456,59 +454,59 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-IRE  CAO  5.364  2.142 -0.343 ETKDGv2  1
-IRE  CAL  6.897  2.295 -0.332 ETKDGv2  2
-IRE  OAU  7.520  1.080 -0.691 ETKDGv2  3
-IRE  CAM  7.291  0.109  0.315 ETKDGv2  4
-IRE  CAP  5.802  0.006  0.713 ETKDGv2  5
-IRE  NBE  4.961  0.718 -0.267 ETKDGv2  6
-IRE  CAN  3.532  0.573  0.084 ETKDGv2  7
-IRE  CAJ  2.628  0.963 -1.097 ETKDGv2  8
-IRE  CAK  1.158  0.657 -0.811 ETKDGv2  9
-IRE  OAV  0.964 -0.751 -0.705 ETKDGv2 10
-IRE  CBA -0.273 -1.360 -0.446 ETKDGv2 11
-IRE  CAZ -0.323 -2.700 -0.354 ETKDGv2 12
-IRE  CAH -1.623 -3.372 -0.079 ETKDGv2 13
-IRE  OAT  0.863 -3.431 -0.521 ETKDGv2 14
-IRE  CAA  0.943 -4.850 -0.446 ETKDGv2 15
-IRE  CAI -1.517 -0.561 -0.270 ETKDGv2 16
-IRE   C5 -2.687 -1.175 -0.023 ETKDGv2 17
-IRE   C4 -2.739 -2.646  0.076 ETKDGv2 18
-IRE   N3 -3.999 -3.276  0.339 ETKDGv2 19
-IRE   C2 -5.191 -2.492  0.492 ETKDGv2 20
-IRE   N1 -5.162 -1.194  0.408 ETKDGv2 21
-IRE   C6 -3.959 -0.444  0.166 ETKDGv2 22
-IRE  NAS -3.993  0.853  0.050 ETKDGv2 23
-IRE  CAY -5.135  1.701  0.245 ETKDGv2 24
-IRE  CAG -5.257  2.807 -0.505 ETKDGv2 25
-IRE  CAX -6.404  3.721 -0.317 ETKDGv2 26
-IRE   CL -6.556  5.137 -1.343 ETKDGv2 27
-IRE  CAW -7.317  3.462  0.630 ETKDGv2 28
-IRE  FAB -8.375  4.291  0.816 ETKDGv2 29
-IRE  CAD -7.166  2.273  1.494 ETKDGv2 30
-IRE  CAE -6.131  1.441  1.320 ETKDGv2 31
-IRE HAO1  4.981  2.573 -1.292 ETKDGv2 32
-IRE HAO2  4.939  2.730  0.502 ETKDGv2 33
-IRE HAL1  7.248  2.638  0.669 ETKDGv2 34
-IRE HAL2  7.196  3.078 -1.061 ETKDGv2 35
-IRE HAM1  7.627 -0.874 -0.078 ETKDGv2 36
-IRE HAM2  7.915  0.330  1.210 ETKDGv2 37
-IRE HAP1  5.519 -1.069  0.756 ETKDGv2 38
-IRE HAP2  5.659  0.439  1.730 ETKDGv2 39
-IRE HAN1  3.316 -0.489  0.337 ETKDGv2 40
-IRE HAN2  3.276  1.185  0.979 ETKDGv2 41
-IRE HAJ1  2.946  0.412 -2.009 ETKDGv2 42
-IRE HAJ2  2.720  2.051 -1.297 ETKDGv2 43
-IRE HAK1  0.849  1.156  0.134 ETKDGv2 44
-IRE HAK2  0.541  1.052 -1.648 ETKDGv2 45
-IRE  HAH -1.675 -4.450 -0.004 ETKDGv2 46
-IRE HAA1  0.625 -5.197  0.560 ETKDGv2 47
-IRE HAA2  1.994 -5.163 -0.614 ETKDGv2 48
-IRE HAA3  0.305 -5.311 -1.229 ETKDGv2 49
-IRE  HAI -1.477  0.518 -0.342 ETKDGv2 50
-IRE   H3 -4.067 -4.316  0.416 ETKDGv2 51
-IRE   H2 -6.134 -2.989  0.679 ETKDGv2 52
-IRE  HAG -4.520  3.029 -1.268 ETKDGv2 53
-IRE  HAD -7.885  2.085  2.281 ETKDGv2 54
-IRE  HAE -6.013  0.603  1.992 ETKDGv2 55
+IRE  CAO -4.786  1.957  0.001 ETKDGv2  1
+IRE  CAL -6.164  1.664 -0.603 ETKDGv2  2
+IRE  OAU -6.869  0.728  0.189 ETKDGv2  3
+IRE  CAM -6.156 -0.493  0.232 ETKDGv2  4
+IRE  CAP -4.775 -0.294  0.869 ETKDGv2  5
+IRE  NBE -4.009  0.706  0.103 ETKDGv2  6
+IRE  CAN -2.692  0.940  0.734 ETKDGv2  7
+IRE  CAJ -1.678  1.519 -0.267 ETKDGv2  8
+IRE  CAK -1.573  0.691 -1.557 ETKDGv2  9
+IRE  OAV -1.373 -0.695 -1.279 ETKDGv2 10
+IRE  CBA -0.210 -1.254 -0.727 ETKDGv2 11
+IRE  CAZ -0.260 -2.521 -0.279 ETKDGv2 12
+IRE  CAH  0.955 -3.141  0.316 ETKDGv2 13
+IRE  OAT -1.471 -3.221 -0.380 ETKDGv2 14
+IRE  CAA -1.661 -4.557  0.074 ETKDGv2 15
+IRE  CAI  1.065 -0.489 -0.634 ETKDGv2 16
+IRE   C5  2.157 -1.055 -0.090 ETKDGv2 17
+IRE   C4  2.096 -2.443  0.407 ETKDGv2 18
+IRE   N3  3.274 -3.023  0.981 ETKDGv2 19
+IRE   C2  4.488 -2.266  1.079 ETKDGv2 20
+IRE   N1  4.559 -1.042  0.645 ETKDGv2 21
+IRE   C6  3.453 -0.354  0.034 ETKDGv2 22
+IRE  NAS  3.565  0.888 -0.346 ETKDGv2 23
+IRE  CAY  4.758  1.688 -0.324 ETKDGv2 24
+IRE  CAG  5.958  1.195 -0.691 ETKDGv2 25
+IRE  CAX  7.153  2.068 -0.698 ETKDGv2 26
+IRE   CL  8.710  1.393 -1.149 ETKDGv2 27
+IRE  CAW  7.039  3.363 -0.368 ETKDGv2 28
+IRE  FAB  8.125  4.176 -0.374 ETKDGv2 29
+IRE  CAD  5.718  3.916 -0.005 ETKDGv2 30
+IRE  CAE  4.639  3.125  0.009 ETKDGv2 31
+IRE HAO1 -4.266  2.680 -0.662 ETKDGv2 32
+IRE HAO2 -4.920  2.426  1.003 ETKDGv2 33
+IRE HAL1 -6.061  1.301 -1.652 ETKDGv2 34
+IRE HAL2 -6.748  2.608 -0.637 ETKDGv2 35
+IRE HAM1 -6.055 -0.931 -0.788 ETKDGv2 36
+IRE HAM2 -6.731 -1.217  0.846 ETKDGv2 37
+IRE HAP1 -4.242 -1.270  0.857 ETKDGv2 38
+IRE HAP2 -4.900  0.030  1.928 ETKDGv2 39
+IRE HAN1 -2.269 -0.015  1.120 ETKDGv2 40
+IRE HAN2 -2.781  1.622  1.609 ETKDGv2 41
+IRE HAJ1 -0.685  1.567  0.227 ETKDGv2 42
+IRE HAJ2 -1.955  2.562 -0.527 ETKDGv2 43
+IRE HAK1 -0.761  1.080 -2.207 ETKDGv2 44
+IRE HAK2 -2.519  0.798 -2.129 ETKDGv2 45
+IRE  HAH  0.924 -4.158  0.683 ETKDGv2 46
+IRE HAA1 -0.982 -5.245 -0.472 ETKDGv2 47
+IRE HAA2 -1.472 -4.619  1.166 ETKDGv2 48
+IRE HAA3 -2.709 -4.861 -0.124 ETKDGv2 49
+IRE  HAI  1.116  0.521 -1.014 ETKDGv2 50
+IRE   H3  3.261 -4.004  1.340 ETKDGv2 51
+IRE   H2  5.363 -2.720  1.526 ETKDGv2 52
+IRE  HAG  6.061  0.169 -1.016 ETKDGv2 53
+IRE  HAD  5.625  4.965  0.247 ETKDGv2 54
+IRE  HAE  3.673  3.538  0.273 ETKDGv2 55
 #

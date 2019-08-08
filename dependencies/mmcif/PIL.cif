@@ -171,10 +171,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-PIL  "Create component" 2004-11-17 RCSB ? ?
-PIL "Modify descriptor" 2011-06-04 RCSB ? ?
+PIL  "Create component" 2004-11-17 RCSB
+PIL "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   PIL
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01791
@@ -211,9 +209,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-PIL                                                           RP-73041   ChEMBL
 PIL                                                        Piclamilast   ChEMBL
 PIL                                                           RP-73401   ChEMBL
+PIL                                                           RP-73041   ChEMBL
 PIL 3-(cyclopentyloxy)-N-(3,5-dichloro-4-pyridinyl)-4-methoxybenzamide DrugBank
 PIL          3-(cyclopentyloxy)-N-(3,5-dichloro-4-pyridyl)-p-anisamide DrugBank
 PIL                                                        Piclamilast DrugBank
@@ -463,47 +461,47 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PIL CL25 -4.201  2.191 -2.046 ETKDGv2  1
-PIL  C24 -5.355  1.931 -0.744 ETKDGv2  2
-PIL  C23 -6.481  2.655 -0.717 ETKDGv2  3
-PIL  N22 -7.477  2.409  0.288 ETKDGv2  4
-PIL  C21 -7.326  1.479  1.185 ETKDGv2  5
-PIL  C19 -6.105  0.649  1.199 ETKDGv2  6
-PIL CL20 -5.929 -0.575  2.450 ETKDGv2  7
-PIL  C18 -5.141  0.876  0.285 ETKDGv2  8
-PIL  N16 -3.939  0.091  0.288 ETKDGv2  9
-PIL  C15 -2.636  0.691  0.372 ETKDGv2 10
-PIL  O17 -2.530  1.904  0.702 ETKDGv2 11
-PIL  C14 -1.409 -0.099  0.110 ETKDGv2 12
-PIL  C13 -1.445 -1.227 -0.617 ETKDGv2 13
-PIL  C12 -0.211 -1.992 -0.873 ETKDGv2 14
-PIL   C9  0.978 -1.570 -0.396 ETKDGv2 15
-PIL  O10  2.154 -2.304 -0.620 ETKDGv2 16
-PIL  C11  2.240 -3.514 -1.367 ETKDGv2 17
-PIL   C2  1.033 -0.297  0.394 ETKDGv2 18
-PIL   C1 -0.103  0.378  0.627 ETKDGv2 19
-PIL   O3  2.216  0.252  0.923 ETKDGv2 20
-PIL   C4  3.552 -0.207  0.711 ETKDGv2 21
-PIL   C5  4.509  0.584  1.604 ETKDGv2 22
-PIL   C6  5.710  0.923  0.740 ETKDGv2 23
-PIL   C7  5.162  1.032 -0.668 ETKDGv2 24
-PIL   C8  4.009  0.041 -0.734 ETKDGv2 25
-PIL  H23 -6.661  3.417 -1.465 ETKDGv2 26
-PIL  H21 -8.099  1.321  1.926 ETKDGv2 27
-PIL  H16 -4.024 -0.944  0.401 ETKDGv2 28
-PIL  H13 -2.368 -1.590 -1.048 ETKDGv2 29
-PIL  H12 -0.296 -2.901 -1.452 ETKDGv2 30
-PIL H111  3.295 -3.856 -1.379 ETKDGv2 31
-PIL H112  1.618 -4.302 -0.892 ETKDGv2 32
-PIL H113  1.912 -3.342 -2.413 ETKDGv2 33
-PIL   H1 -0.062  1.294  1.204 ETKDGv2 34
-PIL   H4  3.640 -1.282  0.980 ETKDGv2 35
-PIL  H51  4.031  1.529  1.946 ETKDGv2 36
-PIL  H52  4.815 -0.006  2.496 ETKDGv2 37
-PIL  H61  6.191  1.871  1.064 ETKDGv2 38
-PIL  H62  6.452  0.095  0.789 ETKDGv2 39
-PIL  H71  4.779  2.063 -0.839 ETKDGv2 40
-PIL  H72  5.942  0.801 -1.425 ETKDGv2 41
-PIL  H81  4.371 -0.912 -1.179 ETKDGv2 42
-PIL  H82  3.189  0.441 -1.370 ETKDGv2 43
+PIL CL25  4.406 -0.424  2.792 ETKDGv2  1
+PIL  C24  5.221  0.772  1.793 ETKDGv2  2
+PIL  C23  6.433  1.209  2.156 ETKDGv2  3
+PIL  N22  7.087  2.243  1.403 ETKDGv2  4
+PIL  C21  6.525  2.790  0.365 ETKDGv2  5
+PIL  C19  5.187  2.348 -0.077 ETKDGv2  6
+PIL CL20  4.479  3.093 -1.505 ETKDGv2  7
+PIL  C18  4.563  1.360  0.593 ETKDGv2  8
+PIL  N16  3.267  0.904  0.174 ETKDGv2  9
+PIL  C15  3.007 -0.473 -0.139 ETKDGv2 10
+PIL  O17  3.974 -1.270 -0.292 ETKDGv2 11
+PIL  C14  1.617 -0.963 -0.308 ETKDGv2 12
+PIL  C13  1.369 -2.094 -0.986 ETKDGv2 13
+PIL  C12 -0.012 -2.580 -1.155 ETKDGv2 14
+PIL   C9 -1.053 -1.906 -0.626 ETKDGv2 15
+PIL  O10 -2.371 -2.368 -0.774 ETKDGv2 16
+PIL  C11 -2.759 -3.536 -1.491 ETKDGv2 17
+PIL   C2 -0.787 -0.645  0.142 ETKDGv2 18
+PIL   C1  0.478 -0.222  0.287 ETKDGv2 19
+PIL   O3 -1.790  0.139  0.742 ETKDGv2 20
+PIL   C4 -3.204 -0.037  0.637 ETKDGv2 21
+PIL   C5 -3.708  0.302 -0.773 ETKDGv2 22
+PIL   C6 -4.609  1.520 -0.638 ETKDGv2 23
+PIL   C7 -5.066  1.526  0.806 ETKDGv2 24
+PIL   C8 -3.909  0.932  1.588 ETKDGv2 25
+PIL  H23  6.922  0.803  3.032 ETKDGv2 26
+PIL  H21  7.046  3.568 -0.177 ETKDGv2 27
+PIL  H16  2.546  1.619 -0.069 ETKDGv2 28
+PIL  H13  2.174 -2.665 -1.434 ETKDGv2 29
+PIL  H12 -0.158 -3.494 -1.714 ETKDGv2 30
+PIL H111 -3.862 -3.639 -1.443 ETKDGv2 31
+PIL H112 -2.457 -3.448 -2.557 ETKDGv2 32
+PIL H113 -2.298 -4.436 -1.034 ETKDGv2 33
+PIL   H1  0.664  0.673  0.867 ETKDGv2 34
+PIL   H4 -3.487 -1.072  0.927 ETKDGv2 35
+PIL  H51 -2.874  0.512 -1.478 ETKDGv2 36
+PIL  H52 -4.302 -0.550 -1.171 ETKDGv2 37
+PIL  H61 -4.024  2.443 -0.846 ETKDGv2 38
+PIL  H62 -5.473  1.468 -1.335 ETKDGv2 39
+PIL  H71 -5.964  0.878  0.917 ETKDGv2 40
+PIL  H72 -5.308  2.554  1.152 ETKDGv2 41
+PIL  H81 -3.219  1.751  1.891 ETKDGv2 42
+PIL  H82 -4.271  0.413  2.502 ETKDGv2 43
 #

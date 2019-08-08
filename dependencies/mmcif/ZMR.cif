@@ -169,10 +169,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-ZMR  "Create component" 1999-07-08 RCSB ? ?
-ZMR "Modify descriptor" 2011-06-04 RCSB ? ?
+ZMR  "Create component" 1999-07-08 RCSB
+ZMR "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   ZMR
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00558
@@ -208,9 +206,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-ZMR                                                                                                                Zanamivir   ChEMBL
-ZMR                                                                                                               GR-121167X   ChEMBL
 ZMR                                                                                                                  Relenza   ChEMBL
+ZMR                                                                                                               GR-121167X   ChEMBL
+ZMR                                                                                                                Zanamivir   ChEMBL
 ZMR                                                                                                                    GG167   ChEMBL
 ZMR                                                                                                                GR-121167   ChEMBL
 ZMR "(2R,3R,4S)-3-(acetylamino)-4-carbamimidamido-2-[(1R,2R)-1,2,3-trihydroxypropyl]-3,4-dihydro-2H-pyran-6-carboxylic acid" DrugBank
@@ -371,47 +369,47 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ZMR   C1  0.717 -1.411  3.470 ETKDGv2  1
-ZMR  O1A  2.014 -1.144  3.898 ETKDGv2  2
-ZMR  O1B -0.089 -1.989  4.249 ETKDGv2  3
-ZMR   C2  0.308 -1.013  2.112 ETKDGv2  4
-ZMR   C3 -0.932 -1.252  1.657 ETKDGv2  5
-ZMR   C4 -1.320 -0.910  0.247 ETKDGv2  6
-ZMR   C5 -0.538  0.329 -0.248 ETKDGv2  7
-ZMR   N5 -1.006  1.532  0.455 ETKDGv2  8
-ZMR  C10 -1.653  2.629 -0.206 ETKDGv2  9
-ZMR  O10 -1.871  2.594 -1.447 ETKDGv2 10
-ZMR  C11 -2.109  3.809  0.588 ETKDGv2 11
-ZMR   C6  0.986  0.153 -0.010 ETKDGv2 12
-ZMR   O6  1.252 -0.367  1.300 ETKDGv2 13
-ZMR   C7  1.654 -0.746 -1.081 ETKDGv2 14
-ZMR   O7  1.536 -0.135 -2.343 ETKDGv2 15
-ZMR   C8  3.147 -1.053 -0.778 ETKDGv2 16
-ZMR   O8  3.642 -1.958 -1.733 ETKDGv2 17
-ZMR   C9  4.029  0.204 -0.786 ETKDGv2 18
-ZMR   O9  5.367 -0.159 -0.579 ETKDGv2 19
-ZMR   NE -2.764 -0.667  0.198 ETKDGv2 20
-ZMR   CZ -3.516 -0.635 -0.866 ETKDGv2 21
-ZMR  NH1 -2.993 -0.897 -2.175 ETKDGv2 22
-ZMR  NH2 -4.905 -0.343 -0.718 ETKDGv2 23
-ZMR  HO1  2.320 -1.407  4.827 ETKDGv2 24
-ZMR   H3 -1.658 -1.756  2.285 ETKDGv2 25
-ZMR   H4 -1.075 -1.798 -0.373 ETKDGv2 26
-ZMR   H5 -0.714  0.447 -1.337 ETKDGv2 27
-ZMR  HN5 -0.869  1.593  1.490 ETKDGv2 28
-ZMR H111 -2.409  4.640 -0.086 ETKDGv2 29
-ZMR H112 -1.285  4.161  1.243 ETKDGv2 30
-ZMR H113 -2.977  3.519  1.215 ETKDGv2 31
-ZMR   H6  1.443  1.163 -0.076 ETKDGv2 32
-ZMR   H7  1.114 -1.720 -1.087 ETKDGv2 33
-ZMR  HO7  1.587 -0.857 -3.022 ETKDGv2 34
-ZMR   H8  3.229 -1.517  0.233 ETKDGv2 35
-ZMR  HO8  3.271 -2.851 -1.505 ETKDGv2 36
-ZMR  H91  3.934  0.728 -1.763 ETKDGv2 37
-ZMR  H92  3.715  0.893  0.028 ETKDGv2 38
-ZMR  HO9  5.889  0.685 -0.604 ETKDGv2 39
-ZMR HN11 -2.011 -1.206 -2.341 ETKDGv2 40
-ZMR HN12 -3.619 -0.822 -3.007 ETKDGv2 41
-ZMR HN21 -5.533 -0.315 -1.551 ETKDGv2 42
-ZMR HN22 -5.309 -0.149  0.225 ETKDGv2 43
+ZMR   C1 -1.504 -2.592 -3.025 ETKDGv2  1
+ZMR  O1A -0.549 -3.498 -3.476 ETKDGv2  2
+ZMR  O1B -2.648 -2.576 -3.556 ETKDGv2  3
+ZMR   C2 -1.162 -1.667 -1.931 ETKDGv2  4
+ZMR   C3 -2.042 -0.772 -1.470 ETKDGv2  5
+ZMR   C4 -1.693  0.071 -0.280 ETKDGv2  6
+ZMR   C5 -0.221  0.515 -0.380 ETKDGv2  7
+ZMR   N5  0.120  1.287  0.821 ETKDGv2  8
+ZMR  C10  0.046  2.719  0.871 ETKDGv2  9
+ZMR  O10 -0.296  3.380 -0.147 ETKDGv2 10
+ZMR  C11  0.350  3.434  2.146 ETKDGv2 11
+ZMR   C6  0.722 -0.723 -0.548 ETKDGv2 12
+ZMR   O6  0.121 -1.736 -1.372 ETKDGv2 13
+ZMR   C7  2.122 -0.419 -1.161 ETKDGv2 14
+ZMR   O7  2.007  0.035 -2.489 ETKDGv2 15
+ZMR   C8  3.102  0.468 -0.341 ETKDGv2 16
+ZMR   O8  2.637  1.787 -0.228 ETKDGv2 17
+ZMR   C9  3.386 -0.100  1.058 ETKDGv2 18
+ZMR   O9  4.401  0.636  1.686 ETKDGv2 19
+ZMR   NE -1.901 -0.696  0.953 ETKDGv2 20
+ZMR   CZ -3.044 -1.045  1.471 ETKDGv2 21
+ZMR  NH1 -4.292 -0.672  0.873 ETKDGv2 22
+ZMR  NH2 -3.050 -1.811  2.675 ETKDGv2 23
+ZMR  HO1 -0.759 -4.144 -4.227 ETKDGv2 24
+ZMR   H3 -3.022 -0.670 -1.920 ETKDGv2 25
+ZMR   H4 -2.330  0.983 -0.266 ETKDGv2 26
+ZMR   H5 -0.138  1.161 -1.279 ETKDGv2 27
+ZMR  HN5  0.269  0.776  1.720 ETKDGv2 28
+ZMR H111  0.441  4.527  1.970 ETKDGv2 29
+ZMR H112  1.308  3.059  2.565 ETKDGv2 30
+ZMR H113 -0.465  3.251  2.876 ETKDGv2 31
+ZMR   H6  0.872 -1.186  0.450 ETKDGv2 32
+ZMR   H7  2.626 -1.409 -1.231 ETKDGv2 33
+ZMR  HO7  1.725  0.984 -2.471 ETKDGv2 34
+ZMR   H8  4.077  0.461 -0.888 ETKDGv2 35
+ZMR  HO8  3.012  2.303 -0.988 ETKDGv2 36
+ZMR  H91  2.478 -0.039  1.690 ETKDGv2 37
+ZMR  H92  3.679 -1.173  0.989 ETKDGv2 38
+ZMR  HO9  5.259  0.338  1.285 ETKDGv2 39
+ZMR HN11 -5.189 -0.987  1.305 ETKDGv2 40
+ZMR HN12 -4.354 -0.070  0.024 ETKDGv2 41
+ZMR HN21 -2.152 -2.091  3.130 ETKDGv2 42
+ZMR HN22 -3.951 -2.102  3.115 ETKDGv2 43
 #

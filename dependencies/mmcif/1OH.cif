@@ -148,11 +148,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-1OH     "Create component" 2007-10-11 PDBJ ? ?
-1OH "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-1OH    "Modify descriptor" 2011-06-04 RCSB ? ?
+1OH     "Create component" 2007-10-11 PDBJ
+1OH "Modify aromatic_flag" 2011-06-04 RCSB
+1OH    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   1OH
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB06902
@@ -185,8 +183,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-1OH SID17389498 ChEMBL
 1OH SID26752848 ChEMBL
+1OH SID17389498 ChEMBL
 #
 loop_
 _software.name              
@@ -337,36 +335,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-1OH  O2  4.856  1.308  0.668 ETKDGv2  1
-1OH C13  3.602  0.772  0.378 ETKDGv2  2
-1OH C14  3.309  0.315 -0.993 ETKDGv2  3
-1OH C15  2.110 -0.199 -1.295 ETKDGv2  4
-1OH C12  2.664  0.664  1.327 ETKDGv2  5
-1OH C11  1.341  0.094  1.002 ETKDGv2  6
-1OH  C4  1.043 -0.309 -0.254 ETKDGv2  7
-1OH  C2 -0.338 -0.926 -0.550 ETKDGv2  8
-1OH  C5 -0.355 -2.340  0.079 ETKDGv2  9
-1OH  C3 -0.601 -1.097 -2.066 ETKDGv2 10
-1OH  C1 -1.446 -0.012  0.009 ETKDGv2 11
-1OH  C6 -2.496 -0.503  0.955 ETKDGv2 12
-1OH  C7 -3.442  0.325  1.416 ETKDGv2 13
-1OH  C8 -3.465  1.736  0.993 ETKDGv2 14
-1OH  C9 -2.539  2.193  0.146 ETKDGv2 15
-1OH C10 -1.492  1.287 -0.368 ETKDGv2 16
-1OH  H2  5.095  1.632  1.598 ETKDGv2 17
-1OH H14  4.072  0.392 -1.758 ETKDGv2 18
-1OH H15  1.943 -0.528 -2.310 ETKDGv2 19
-1OH H12  2.866  0.991  2.339 ETKDGv2 20
-1OH H11  0.613  0.007  1.799 ETKDGv2 21
-1OH H51 -1.296 -2.877 -0.170 ETKDGv2 22
-1OH H52  0.491 -2.947 -0.312 ETKDGv2 23
-1OH H53 -0.251 -2.289  1.184 ETKDGv2 24
-1OH H31 -1.643 -1.442 -2.241 ETKDGv2 25
-1OH H32  0.078 -1.857 -2.511 ETKDGv2 26
-1OH H33 -0.464 -0.138 -2.610 ETKDGv2 27
-1OH  H6 -2.519 -1.531  1.288 ETKDGv2 28
-1OH  H7 -4.197 -0.041  2.100 ETKDGv2 29
-1OH  H8 -4.232  2.400  1.370 ETKDGv2 30
-1OH  H9 -2.553  3.229 -0.166 ETKDGv2 31
-1OH H10 -0.754  1.692 -1.048 ETKDGv2 32
+1OH  O2 -4.686  1.668 -0.775 ETKDGv2  1
+1OH C13 -3.491  0.986 -0.553 ETKDGv2  2
+1OH C14 -2.309  1.310 -1.372 ETKDGv2  3
+1OH C15 -1.152  0.671 -1.169 ETKDGv2  4
+1OH C12 -3.404  0.038  0.389 ETKDGv2  5
+1OH C11 -2.130 -0.678  0.614 ETKDGv2  6
+1OH  C4 -1.026 -0.370 -0.107 ETKDGv2  7
+1OH  C2  0.316 -1.105  0.056 ETKDGv2  8
+1OH  C5  0.425 -2.113 -1.113 ETKDGv2  9
+1OH  C3  0.417 -1.910  1.376 ETKDGv2 10
+1OH  C1  1.452 -0.065  0.079 ETKDGv2 11
+1OH  C6  1.382  1.044  1.077 ETKDGv2 12
+1OH  C7  2.344  1.971  1.143 ETKDGv2 13
+1OH  C8  3.497  1.907  0.227 ETKDGv2 14
+1OH  C9  3.581  0.921 -0.670 ETKDGv2 15
+1OH C10  2.523 -0.108 -0.749 ETKDGv2 16
+1OH  H2 -5.520  1.473 -0.233 ETKDGv2 17
+1OH H14 -2.381  2.065 -2.145 ETKDGv2 18
+1OH H15 -0.301  0.917 -1.792 ETKDGv2 19
+1OH H12 -4.266 -0.215  0.994 ETKDGv2 20
+1OH H11 -2.126 -1.447  1.370 ETKDGv2 21
+1OH H51 -0.449 -2.801 -1.113 ETKDGv2 22
+1OH H52  1.340 -2.737 -1.021 ETKDGv2 23
+1OH H53  0.442 -1.588 -2.093 ETKDGv2 24
+1OH H31 -0.277 -2.778  1.375 ETKDGv2 25
+1OH H32  0.186 -1.271  2.255 ETKDGv2 26
+1OH H33  1.446 -2.312  1.505 ETKDGv2 27
+1OH  H6  0.541  1.111  1.755 ETKDGv2 28
+1OH  H7  2.278  2.771  1.869 ETKDGv2 29
+1OH  H8  4.273  2.659  0.284 ETKDGv2 30
+1OH  H9  4.428  0.872 -1.342 ETKDGv2 31
+1OH H10  2.648 -0.884 -1.489 ETKDGv2 32
 #

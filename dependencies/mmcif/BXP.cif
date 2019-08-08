@@ -158,11 +158,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-BXP   "Create component" 2006-11-09  EBI  ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ?
-BXP  "Modify descriptor" 2011-06-04 RCSB  ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ?
-BXP "Other modification" 2013-01-16 RCSB CS "Add leaving group O1A. The identity of BXP is confirmed. It should have leaving group O1A for the A ring, even though the coordinates doesn't have it. Chemistry Evidence: (1) In the deposited file of 2NQY, author called BXP 1,4-BETA-D-XYLOBIOPYRANOSE, and confirmed in the validation letter. (2) There is on-hold entry with same protein and same ligand that has the leaving group O1A. Crystallography Evidence:(3) the density map of the 2NQY doesn't support deoxy as well."
+BXP   "Create component" 2006-11-09  EBI
+BXP  "Modify descriptor" 2011-06-04 RCSB
+BXP "Other modification" 2013-01-16 RCSB
 #
 loop_
 _software.name              
@@ -321,41 +319,41 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BXP  O4B  4.707 -0.124  2.141 ETKDGv2  1
-BXP  C4B  3.669 -0.673  1.369 ETKDGv2  2
-BXP  C3B  3.408  0.172  0.110 ETKDGv2  3
-BXP  O3B  4.536  0.114 -0.725 ETKDGv2  4
-BXP  C2B  2.170 -0.367 -0.632 ETKDGv2  5
-BXP  O2B  1.814  0.511 -1.668 ETKDGv2  6
-BXP  C5B  2.379 -0.802  2.196 ETKDGv2  7
-BXP  O5B  1.343 -1.372  1.417 ETKDGv2  8
-BXP  C1B  0.987 -0.508  0.350 ETKDGv2  9
-BXP  O4A -0.104 -1.103 -0.336 ETKDGv2 10
-BXP  C4A -1.131 -0.170 -0.640 ETKDGv2 11
-BXP  C3A -2.105 -0.027  0.552 ETKDGv2 12
-BXP  O3A -2.504 -1.292  1.029 ETKDGv2 13
-BXP  C5A -1.883 -0.641 -1.914 ETKDGv2 14
-BXP  O5A -3.289 -0.437 -1.868 ETKDGv2 15
-BXP  C1A -3.593  0.841 -1.347 ETKDGv2 16
-BXP  C2A -3.322  0.866  0.178 ETKDGv2 17
-BXP  O2A -4.467  0.459  0.884 ETKDGv2 18
-BXP HO4B  4.419  0.780  2.436 ETKDGv2 19
-BXP  H4B  3.979 -1.695  1.055 ETKDGv2 20
-BXP  H3B  3.215  1.227  0.421 ETKDGv2 21
-BXP HO3B  4.515  0.925 -1.296 ETKDGv2 22
-BXP  H2B  2.399 -1.379 -1.047 ETKDGv2 23
-BXP HO2B  2.374  0.275 -2.453 ETKDGv2 24
-BXP H5B1  2.576 -1.473  3.058 ETKDGv2 25
-BXP H5B2  2.069  0.183  2.615 ETKDGv2 26
-BXP  H1B  0.735  0.501  0.765 ETKDGv2 27
-BXP  H4A -0.717  0.840 -0.878 ETKDGv2 28
-BXP  H3A -1.567  0.476  1.384 ETKDGv2 29
-BXP HO3A -3.037 -1.735  0.320 ETKDGv2 30
-BXP H5A1 -1.713 -1.730 -2.057 ETKDGv2 31
-BXP H5A2 -1.462 -0.137 -2.812 ETKDGv2 32
-BXP H1A1 -2.965  1.618 -1.853 ETKDGv2 33
-BXP  O1A -4.941  1.126 -1.615 ETKDGv2 34
-BXP  H2A -3.087  1.923  0.448 ETKDGv2 35
-BXP HO2A -4.334  0.737  1.828 ETKDGv2 36
-BXP HO1A -5.074  2.090 -1.417 ETKDGv2 37
+BXP  O4B -4.770 -0.676 -0.708 ETKDGv2  1
+BXP  C4B -3.818 -0.445  0.298 ETKDGv2  2
+BXP  C3B -3.149  0.941  0.103 ETKDGv2  3
+BXP  O3B -2.741  1.448  1.349 ETKDGv2  4
+BXP  C2B -1.915  0.855 -0.821 ETKDGv2  5
+BXP  O2B -2.306  0.754 -2.170 ETKDGv2  6
+BXP  C5B -2.776 -1.582  0.280 ETKDGv2  7
+BXP  O5B -1.498 -1.098  0.636 ETKDGv2  8
+BXP  C1B -0.960 -0.314 -0.421 ETKDGv2  9
+BXP  O4A  0.270  0.242  0.009 ETKDGv2 10
+BXP  C4A  1.311 -0.723 -0.003 ETKDGv2 11
+BXP  C3A  2.316 -0.409  1.129 ETKDGv2 12
+BXP  O3A  1.639  0.076  2.261 ETKDGv2 13
+BXP  C5A  2.020 -0.697 -1.378 ETKDGv2 14
+BXP  O5A  3.391 -1.019 -1.252 ETKDGv2 15
+BXP  C1A  4.106  0.028 -0.606 ETKDGv2 16
+BXP  C2A  3.375  0.602  0.646 ETKDGv2 17
+BXP  O2A  2.765  1.831  0.335 ETKDGv2 18
+BXP HO4B -5.564 -0.122 -0.486 ETKDGv2 19
+BXP  H4B -4.329 -0.462  1.291 ETKDGv2 20
+BXP  H3B -3.879  1.652 -0.354 ETKDGv2 21
+BXP HO3B -3.554  1.795  1.801 ETKDGv2 22
+BXP  H2B -1.368  1.819 -0.728 ETKDGv2 23
+BXP HO2B -2.767 -0.116 -2.292 ETKDGv2 24
+BXP H5B1 -3.076 -2.358  1.017 ETKDGv2 25
+BXP H5B2 -2.749 -2.092 -0.711 ETKDGv2 26
+BXP  H1B -0.792 -0.960 -1.318 ETKDGv2 27
+BXP  H4A  0.933 -1.756  0.191 ETKDGv2 28
+BXP  H3A  2.840 -1.357  1.398 ETKDGv2 29
+BXP HO3A  2.277  0.028  3.019 ETKDGv2 30
+BXP H5A1  1.543 -1.447 -2.045 ETKDGv2 31
+BXP H5A2  1.892  0.293 -1.876 ETKDGv2 32
+BXP H1A1  5.062 -0.425 -0.255 ETKDGv2 33
+BXP  O1A  4.408  1.037 -1.537 ETKDGv2 34
+BXP  H2A  4.130  0.755  1.453 ETKDGv2 35
+BXP HO2A  2.614  2.305  1.194 ETKDGv2 36
+BXP HO1A  5.121  1.596 -1.130 ETKDGv2 37
 #

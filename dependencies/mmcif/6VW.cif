@@ -175,10 +175,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-6VW "Create component" 2016-07-06 RCSB MZ ?
-6VW  "Initial release" 2016-09-07 RCSB  ? ?
+6VW "Create component" 2016-07-06 RCSB
+6VW  "Initial release" 2016-09-07 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   6VW
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB13169
@@ -202,12 +200,12 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-6VW                 Nortestosterone   ChEMBL
 6VW                "Anabolin Forte"   ChEMBL
-6VW                       Durabolin   ChEMBL
-6VW                       Nandrolin   ChEMBL
 6VW                  Deca-Durabolin   ChEMBL
 6VW                      Nandrolone   ChEMBL
+6VW                       Durabolin   ChEMBL
+6VW                       Nandrolin   ChEMBL
+6VW                 Nortestosterone   ChEMBL
 6VW (17β)-17-hydroxyestr-4-en-3-one DrugBank
 6VW            19-norandrostenolone DrugBank
 6VW              19-nortestosterone DrugBank
@@ -406,50 +404,50 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-6VW  C6  4.239  0.411  2.027 ETKDGv2  1
-6VW  C2  3.948  0.483 -0.526 ETKDGv2  2
-6VW  C4  2.101 -0.386  0.921 ETKDGv2  3
-6VW  C5  2.714  0.473  2.058 ETKDGv2  4
-6VW  C1  4.724  0.834  0.674 ETKDGv2  5
-6VW  O1  5.808  1.465  0.559 ETKDGv2  6
-6VW  C3  2.725 -0.072 -0.435 ETKDGv2  7
-6VW C10  2.108 -0.682 -1.668 ETKDGv2  8
-6VW C11  0.597 -0.484 -1.673 ETKDGv2  9
-6VW C12 -0.035 -1.033 -0.377 ETKDGv2 10
-6VW C13  0.536 -0.346  0.903 ETKDGv2 11
-6VW C16 -1.578 -0.982 -0.313 ETKDGv2 12
-6VW C17 -2.222  0.405 -0.134 ETKDGv2 13
-6VW C18 -1.651  1.035  1.156 ETKDGv2 14
-6VW C19 -0.097  1.058  1.151 ETKDGv2 15
-6VW C24 -2.425 -1.697 -1.356 ETKDGv2 16
-6VW C25 -3.842 -1.143 -1.112 ETKDGv2 17
-6VW C26 -3.706 -0.029 -0.046 ETKDGv2 18
-6VW C27 -2.040  1.387 -1.337 ETKDGv2 19
-6VW O27 -4.605  1.026 -0.277 ETKDGv2 20
-6VW  H1  4.579 -0.627  2.229 ETKDGv2 21
-6VW  H2  4.657  1.080  2.811 ETKDGv2 22
-6VW  H3  4.404  0.644 -1.496 ETKDGv2 23
-6VW  H5  2.380 -1.442  1.137 ETKDGv2 24
-6VW  H6  2.425  1.539  1.941 ETKDGv2 25
-6VW  H7  2.349  0.111  3.044 ETKDGv2 26
-6VW  H9  2.343 -1.769 -1.688 ETKDGv2 27
-6VW H10  2.525 -0.228 -2.594 ETKDGv2 28
-6VW H11  0.422  0.594 -1.799 ETKDGv2 29
-6VW H12  0.177 -1.010 -2.555 ETKDGv2 30
-6VW H13  0.243 -2.111 -0.324 ETKDGv2 31
-6VW H14  0.215 -0.968  1.770 ETKDGv2 32
-6VW H15 -1.797 -1.555  0.625 ETKDGv2 33
-6VW H16 -1.990  0.456  2.044 ETKDGv2 34
-6VW H17 -2.037  2.071  1.275 ETKDGv2 35
-6VW H18  0.202  1.427  2.154 ETKDGv2 36
-6VW H19  0.292  1.785  0.411 ETKDGv2 37
-6VW H20 -2.392 -2.799 -1.211 ETKDGv2 38
-6VW H21 -2.090 -1.459 -2.387 ETKDGv2 39
-6VW H22 -4.521 -1.943 -0.746 ETKDGv2 40
-6VW H23 -4.252 -0.730 -2.060 ETKDGv2 41
-6VW H24 -3.908 -0.467  0.961 ETKDGv2 42
-6VW H25 -2.096  0.868 -2.315 ETKDGv2 43
-6VW H26 -2.819  2.177 -1.332 ETKDGv2 44
-6VW H27 -1.101  1.963 -1.290 ETKDGv2 45
-6VW H28 -5.511  0.671 -0.081 ETKDGv2 46
+6VW  C6  4.359  1.652  0.724 ETKDGv2  1
+6VW  C2  3.930 -0.414 -0.743 ETKDGv2  2
+6VW  C4  2.134  0.437  0.778 ETKDGv2  3
+6VW  C5  2.841  1.814  0.689 ETKDGv2  4
+6VW  C1  4.784  0.725 -0.373 ETKDGv2  5
+6VW  O1  5.883  0.904 -0.962 ETKDGv2  6
+6VW  C3  2.694 -0.562 -0.231 ETKDGv2  7
+6VW C10  1.987 -1.882 -0.402 ETKDGv2  8
+6VW C11  0.486 -1.675 -0.573 ETKDGv2  9
+6VW C12 -0.094 -0.856  0.599 ETKDGv2 10
+6VW C13  0.574  0.549  0.733 ETKDGv2 11
+6VW C16 -1.628 -0.671  0.590 ETKDGv2 12
+6VW C17 -2.208  0.283 -0.469 ETKDGv2 13
+6VW C18 -1.543  1.666 -0.282 ETKDGv2 14
+6VW C19  0.008  1.570 -0.302 ETKDGv2 15
+6VW C24 -2.557 -1.876  0.611 ETKDGv2 16
+6VW C25 -3.937 -1.273  0.281 ETKDGv2 17
+6VW C26 -3.700  0.218 -0.060 ETKDGv2 18
+6VW C27 -2.056 -0.190 -1.952 ETKDGv2 19
+6VW O27 -4.569  0.666 -1.068 ETKDGv2 20
+6VW  H1  4.670  1.226  1.703 ETKDGv2 21
+6VW  H2  4.845  2.644  0.600 ETKDGv2 22
+6VW  H3  4.338 -1.164 -1.411 ETKDGv2 23
+6VW  H5  2.384  0.017  1.778 ETKDGv2 24
+6VW  H6  2.518  2.460  1.533 ETKDGv2 25
+6VW  H7  2.587  2.323 -0.266 ETKDGv2 26
+6VW  H9  2.369 -2.431 -1.292 ETKDGv2 27
+6VW H10  2.179 -2.512  0.493 ETKDGv2 28
+6VW H11  0.345 -1.176 -1.542 ETKDGv2 29
+6VW H12 -0.002 -2.671 -0.621 ETKDGv2 30
+6VW H13  0.146 -1.424  1.528 ETKDGv2 31
+6VW H14  0.278  0.950  1.730 ETKDGv2 32
+6VW H15 -1.816 -0.191  1.585 ETKDGv2 33
+6VW H16 -1.854  2.109  0.689 ETKDGv2 34
+6VW H17 -1.881  2.360 -1.082 ETKDGv2 35
+6VW H18  0.383  1.328 -1.317 ETKDGv2 36
+6VW H19  0.377  2.588 -0.057 ETKDGv2 37
+6VW H20 -2.271 -2.626 -0.156 ETKDGv2 38
+6VW H21 -2.558 -2.364  1.610 ETKDGv2 39
+6VW H22 -4.625 -1.364  1.150 ETKDGv2 40
+6VW H23 -4.382 -1.808 -0.586 ETKDGv2 41
+6VW H24 -3.862  0.829  0.860 ETKDGv2 42
+6VW H25 -2.185 -1.286 -2.058 ETKDGv2 43
+6VW H26 -2.802  0.301 -2.609 ETKDGv2 44
+6VW H27 -1.093  0.103 -2.405 ETKDGv2 45
+6VW H28 -5.476  0.695 -0.666 ETKDGv2 46
 #

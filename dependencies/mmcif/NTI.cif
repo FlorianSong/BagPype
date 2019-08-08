@@ -144,10 +144,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-NTI "Create component" 2011-12-26 PDBJ YK ?
-NTI  "Initial release" 2012-08-24 RCSB  ? ?
+NTI "Create component" 2011-12-26 PDBJ
+NTI  "Initial release" 2012-08-24 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   NTI
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00507
@@ -180,9 +178,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+NTI Nitazoxanide   ChEMBL
 NTI      PH-5776   ChEMBL
 NTI       Alinia   ChEMBL
-NTI Nitazoxanide   ChEMBL
 NTI Nitazoxanide DrugBank
 #
 loop_
@@ -349,34 +347,34 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NTI    S  3.080  1.091  0.804 ETKDGv2  1
-NTI   C1 -0.517 -1.920  0.532 ETKDGv2  2
-NTI   N1  0.347  0.352  1.261 ETKDGv2  3
-NTI   O1 -1.410 -0.173 -0.827 ETKDGv2  4
-NTI   C2 -1.466 -1.486 -0.332 ETKDGv2  5
-NTI   N2  1.149  2.558  1.693 ETKDGv2  6
-NTI   O2  1.716 -1.542  1.219 ETKDGv2  7
-NTI   C3  0.581 -1.040  0.997 ETKDGv2  8
-NTI   N3  4.693  3.427  1.033 ETKDGv2  9
-NTI   O3 -2.182 -0.577 -2.975 ETKDGv2 10
-NTI   C4 -0.541 -3.333  0.992 ETKDGv2 11
-NTI   O4  4.849  4.631  1.323 ETKDGv2 12
-NTI   C5 -2.564 -2.410 -0.731 ETKDGv2 13
-NTI   O5  5.762  2.702  0.563 ETKDGv2 14
-NTI   C6 -1.515 -4.160  0.598 ETKDGv2 15
-NTI   C7  1.384  1.341  1.313 ETKDGv2 16
-NTI   C8 -2.581 -3.673 -0.293 ETKDGv2 17
-NTI   C9  3.417  2.796  1.186 ETKDGv2 18
-NTI  C10  2.312  3.398  1.630 ETKDGv2 19
-NTI  C11 -1.916  0.250 -2.061 ETKDGv2 20
-NTI  C12 -2.026  1.711 -2.338 ETKDGv2 21
-NTI  HN1 -0.632  0.666  1.447 ETKDGv2 22
-NTI   H4  0.228 -3.701  1.659 ETKDGv2 23
-NTI   H5 -3.376 -2.062 -1.356 ETKDGv2 24
-NTI   H6 -1.529 -5.186  0.943 ETKDGv2 25
-NTI   H8 -3.385 -4.338 -0.583 ETKDGv2 26
-NTI  H10  2.280  4.439  1.921 ETKDGv2 27
-NTI  H12 -2.178  2.265 -1.388 ETKDGv2 28
-NTI H12A -2.887  1.909 -3.011 ETKDGv2 29
-NTI H12B -1.093  2.067 -2.822 ETKDGv2 30
+NTI    S  3.480  0.532 -0.648 ETKDGv2  1
+NTI   C1 -1.382 -1.475  0.399 ETKDGv2  2
+NTI   N1  0.987 -0.657 -0.009 ETKDGv2  3
+NTI   O1 -1.391  0.639 -0.707 ETKDGv2  4
+NTI   C2 -2.034 -0.559 -0.355 ETKDGv2  5
+NTI   N2  2.599 -0.118  1.693 ETKDGv2  6
+NTI   O2  0.350 -1.677  1.998 ETKDGv2  7
+NTI   C3  0.012 -1.267  0.855 ETKDGv2  8
+NTI   N3  5.808  1.454  0.709 ETKDGv2  9
+NTI   O3 -3.219  2.060 -0.608 ETKDGv2 10
+NTI   C4 -2.095 -2.705  0.832 ETKDGv2 11
+NTI   O4  6.471  1.647  1.750 ETKDGv2 12
+NTI   C5 -3.422 -0.848 -0.812 ETKDGv2 13
+NTI   O5  6.336  1.825 -0.505 ETKDGv2 14
+NTI   C6 -3.353 -2.935  0.442 ETKDGv2 15
+NTI   C7  2.249 -0.153  0.445 ETKDGv2 16
+NTI   C8 -4.043 -1.968 -0.430 ETKDGv2 17
+NTI   C9  4.511  0.853  0.769 ETKDGv2 18
+NTI  C10  3.901  0.456  1.887 ETKDGv2 19
+NTI  C11 -2.031  1.855 -0.975 ETKDGv2 20
+NTI  C12 -1.252  2.963 -1.596 ETKDGv2 21
+NTI  HN1  0.784 -0.593 -1.031 ETKDGv2 22
+NTI   H4 -1.595 -3.431  1.461 ETKDGv2 23
+NTI   H5 -3.934 -0.170 -1.482 ETKDGv2 24
+NTI   H6 -3.864 -3.836  0.756 ETKDGv2 25
+NTI   H8 -5.050 -2.175 -0.769 ETKDGv2 26
+NTI  H10  4.340  0.554  2.871 ETKDGv2 27
+NTI  H12 -0.432  2.547 -2.218 ETKDGv2 28
+NTI H12A -0.816  3.601 -0.798 ETKDGv2 29
+NTI H12B -1.912  3.581 -2.240 ETKDGv2 30
 #

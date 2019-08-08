@@ -143,11 +143,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-2DI  "Create component" 2003-11-11 RCSB  ? ?
-2DI "Modify descriptor" 2011-06-04 RCSB  ? ?
-2DI   "Modify synonyms" 2011-06-04 RCSB EP ?
+2DI  "Create component" 2003-11-11 RCSB
+2DI "Modify descriptor" 2011-06-04 RCSB
+2DI   "Modify synonyms" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   2DI
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00900
@@ -182,12 +180,12 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-2DI                                                                   Didanosine   ChEMBL
+2DI                                                                   "Videx Ec"   ChEMBL
 2DI                                                       "Dideoxyinosine (DDI)"   ChEMBL
 2DI                                                                          DDI   ChEMBL
+2DI                                                                   Didanosine   ChEMBL
 2DI                                                                        Videx   ChEMBL
 2DI                                                                    BMY-40900   ChEMBL
-2DI                                                                   "Videx Ec"   ChEMBL
 2DI                                                           2,3-Dideoxyinosine DrugBank
 2DI        9-((2R,5S)-5-(hydroxymethyl)-tetrahydrofuran-2-yl)-1H-purin-6(9H)-one DrugBank
 2DI    9-((2R,5S)-5-Hydroxymethyl-tetrahydro-furan-2-yl)-1,9-dihydro-purin-6-one DrugBank
@@ -367,33 +365,33 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-2DI     N9  0.661 -0.159  0.866 ETKDGv2  1
-2DI     C4  2.006 -0.293  0.446 ETKDGv2  2
-2DI     N3  2.578 -1.400 -0.268 ETKDGv2  3
-2DI     C2  3.811 -1.335 -0.697 ETKDGv2  4
-2DI     N1  4.607 -0.150 -0.475 ETKDGv2  5
-2DI     C6  4.027  0.970  0.211 ETKDGv2  6
-2DI     O6  4.676  2.034  0.393 ETKDGv2  7
-2DI     C5  2.653  0.819  0.676 ETKDGv2  8
-2DI     N7  1.791  1.802  1.237 ETKDGv2  9
-2DI     C8  0.640  1.201  1.325 ETKDGv2 10
-2DI  "C5'" -3.329  0.814  0.743 ETKDGv2 11
-2DI  "O5'" -4.558  0.962  0.087 ETKDGv2 12
-2DI  "C4'" -2.732 -0.564  0.437 ETKDGv2 13
-2DI  "O4'" -1.583 -0.757  1.236 ETKDGv2 14
-2DI  "C1'" -0.479 -0.931  0.377 ETKDGv2 15
-2DI  "C2'" -0.868 -0.499 -1.026 ETKDGv2 16
-2DI  "C3'" -2.349 -0.709 -1.035 ETKDGv2 17
-2DI     H2  4.236 -2.175 -1.230 ETKDGv2 18
-2DI    HN1  5.589 -0.106 -0.826 ETKDGv2 19
-2DI     H8 -0.251  1.696  1.686 ETKDGv2 20
-2DI "H5'1" -2.625  1.613  0.419 ETKDGv2 21
-2DI "H5'2" -3.485  0.905  1.842 ETKDGv2 22
-2DI  "H5'" -4.884  1.872  0.315 ETKDGv2 23
-2DI  "H4'" -3.483 -1.341  0.702 ETKDGv2 24
-2DI  "H1'" -0.211 -2.011  0.369 ETKDGv2 25
-2DI "H2'1" -0.358 -1.111 -1.802 ETKDGv2 26
-2DI "H2'2" -0.644  0.579 -1.189 ETKDGv2 27
-2DI "H3'1" -2.860  0.017 -1.704 ETKDGv2 28
-2DI "H3'2" -2.576 -1.742 -1.381 ETKDGv2 29
+2DI     N9 -0.799  0.953  0.011 ETKDGv2  1
+2DI     C4 -1.872  0.166 -0.479 ETKDGv2  2
+2DI     N3 -1.848 -1.240 -0.768 ETKDGv2  3
+2DI     C2 -2.943 -1.857 -1.129 ETKDGv2  4
+2DI     N1 -4.192 -1.139 -1.228 ETKDGv2  5
+2DI     C6 -4.227  0.262 -0.915 ETKDGv2  6
+2DI     O6 -5.301  0.916 -0.958 ETKDGv2  7
+2DI     C5 -2.963  0.883 -0.537 ETKDGv2  8
+2DI     N7 -2.731  2.198 -0.050 ETKDGv2  9
+2DI     C8 -1.470  2.198  0.271 ETKDGv2 10
+2DI  "C5'"  2.974 -1.548 -0.676 ETKDGv2 11
+2DI  "O5'"  4.310 -1.769 -0.309 ETKDGv2 12
+2DI  "C4'"  2.234 -0.774  0.422 ETKDGv2 13
+2DI  "O4'"  0.863 -0.710  0.111 ETKDGv2 14
+2DI  "C1'"  0.378  0.458  0.727 ETKDGv2 15
+2DI  "C2'"  1.502  1.485  0.719 ETKDGv2 16
+2DI  "C3'"  2.752  0.654  0.586 ETKDGv2 17
+2DI     H2 -2.913 -2.916 -1.348 ETKDGv2 18
+2DI    HN1 -5.063 -1.640 -1.512 ETKDGv2 19
+2DI     H8 -0.985  3.056  0.717 ETKDGv2 20
+2DI "H5'1"  2.909 -1.011 -1.650 ETKDGv2 21
+2DI "H5'2"  2.483 -2.536 -0.809 ETKDGv2 22
+2DI  "H5'"  4.823 -0.968 -0.592 ETKDGv2 23
+2DI  "H4'"  2.351 -1.324  1.383 ETKDGv2 24
+2DI  "H1'"  0.089  0.219  1.776 ETKDGv2 25
+2DI "H2'1"  1.505  2.079  1.659 ETKDGv2 26
+2DI "H2'2"  1.412  2.170 -0.153 ETKDGv2 27
+2DI "H3'1"  3.385  0.737  1.497 ETKDGv2 28
+2DI "H3'2"  3.338  0.996 -0.295 ETKDGv2 29
 #

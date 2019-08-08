@@ -75,7 +75,7 @@ G48  "CD'"  "CD'" C 0 1 N N N 35.403  4.953  6.786 -5.214  3.464  0.201  "CD'" G
 G48    OP2    OP2 O 0 1 N N N 29.110 -2.525  2.315  6.444 -1.420 -1.103    OP2 G48 28
 G48   HOP3   HOP3 H 0 0 N Y N 30.134 -5.041  3.989  5.079 -2.091  1.322   HOP3 G48 29
 G48  "H5'"  "H5'" H 0 1 N N N 32.040 -0.943  2.999  3.186  0.443  1.147  "H5'" G48 30
-G48 "H5''" "H5''" H 0 1 N N N 30.340 -0.399  2.800  3.882  1.797  0.225 "H5''" G48 31
+G48 "H5''" "H5''" H 0 0 N N N 30.340 -0.399  2.800  3.882  1.797  0.225 "H5''" G48 31
 G48  "H4'"  "H4'" H 0 1 N N N 31.876  1.151  4.086  2.286  1.266 -1.653  "H4'" G48 32
 G48  "H3'"  "H3'" H 0 1 N N N 31.613 -1.044  6.169  1.670  2.412  0.961  "H3'" G48 33
 G48 "HO3'" "HO3'" H 0 0 N Y N 33.827 -0.468  6.467  1.703  3.585 -1.145 "HO3'" G48 34
@@ -181,11 +181,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-G48         "Create component" 1999-05-12 RCSB  ?                              ?
-G48        "Modify descriptor" 2011-06-04 RCSB  ?                              ?
-G48 "Modify component atom id" 2013-01-10 RCSB CS "standadize atom nomenclature"
+G48         "Create component" 1999-05-12 RCSB
+G48        "Modify descriptor" 2011-06-04 RCSB
+G48 "Modify component atom id" 2013-01-10 RCSB
 #
 loop_
 _software.name              
@@ -383,52 +381,52 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-G48      P -4.875 -2.567  1.466 ETKDGv2  1
-G48    OP1 -5.820 -2.016  2.508 ETKDGv2  2
-G48    OP3 -5.662 -2.575 -0.034 ETKDGv2  3
-G48  "O5'" -3.490 -1.576  1.398 ETKDGv2  4
-G48  "C5'" -2.610 -2.106  0.436 ETKDGv2  5
-G48  "C4'" -1.350 -1.237  0.357 ETKDGv2  6
-G48  "O4'" -0.427 -1.830 -0.530 ETKDGv2  7
-G48  "C3'" -1.647  0.184 -0.120 ETKDGv2  8
-G48  "O3'" -1.854  1.059  0.960 ETKDGv2  9
-G48  "C2'" -0.389  0.546 -0.857 ETKDGv2 10
-G48  "O2'" -0.690  1.426 -1.927 ETKDGv2 11
-G48  "C1'"  0.083 -0.814 -1.366 ETKDGv2 12
-G48     N9  1.541 -0.886 -1.393 ETKDGv2 13
-G48     C8  2.404 -1.065 -2.521 ETKDGv2 14
-G48     N7  3.664 -1.148 -2.200 ETKDGv2 15
-G48     C5  3.669 -1.027 -0.779 ETKDGv2 16
-G48     C6  4.796 -1.079  0.143 ETKDGv2 17
-G48     O6  5.980 -1.222 -0.262 ETKDGv2 18
-G48     N1  4.495 -0.961  1.543 ETKDGv2 19
-G48     C2  3.119 -0.808  1.966 ETKDGv2 20
-G48     N2  2.808 -0.696  3.354 ETKDGv2 21
-G48     N3  2.155 -0.773  1.082 ETKDGv2 22
-G48     C4  2.457 -0.881 -0.316 ETKDGv2 23
-G48  "CA'"  0.437  2.202 -2.295 ETKDGv2 24
-G48  "CB'"  0.304  3.619 -1.744 ETKDGv2 25
-G48  "OC'"  0.361  3.587 -0.334 ETKDGv2 26
-G48  "CD'"  0.207  4.894  0.170 ETKDGv2 27
-G48    OP2 -4.444 -4.148  1.894 ETKDGv2 28
-G48   HOP3 -5.284 -3.353 -0.517 ETKDGv2 29
-G48  "H5'" -2.295 -3.135  0.722 ETKDGv2 30
-G48 "H5''" -3.085 -2.136 -0.571 ETKDGv2 31
-G48  "H4'" -0.878 -1.203  1.366 ETKDGv2 32
-G48  "H3'" -2.515  0.202 -0.823 ETKDGv2 33
-G48 "HO3'" -2.810  0.977  1.213 ETKDGv2 34
-G48  "H2'"  0.337  0.977 -0.125 ETKDGv2 35
-G48  "H1'" -0.311 -0.984 -2.393 ETKDGv2 36
-G48     H8  2.053 -1.124 -3.543 ETKDGv2 37
-G48     H1  5.265 -0.990  2.249 ETKDGv2 38
-G48    H21  1.818 -0.586  3.668 ETKDGv2 39
-G48    H22  3.567 -0.724  4.070 ETKDGv2 40
-G48   HCA2  1.416  1.764 -1.989 ETKDGv2 41
-G48   HCA1  0.460  2.262 -3.404 ETKDGv2 42
-G48   HCB1  1.141  4.229 -2.155 ETKDGv2 43
-G48   HCB2 -0.665  4.043 -2.096 ETKDGv2 44
-G48   HCD1  1.021  5.563 -0.186 ETKDGv2 45
-G48   HCD2  0.265  4.854  1.277 ETKDGv2 46
-G48   HCD3 -0.788  5.314 -0.099 ETKDGv2 47
-G48   HOP2 -3.936 -4.051  2.739 ETKDGv2 48
+G48      P -4.156 -2.436  1.851 ETKDGv2  1
+G48    OP1 -4.838 -3.149  0.704 ETKDGv2  2
+G48    OP3 -3.083 -3.494  2.624 ETKDGv2  3
+G48  "O5'" -3.318 -1.069  1.271 ETKDGv2  4
+G48  "C5'" -2.292 -1.508  0.411 ETKDGv2  5
+G48  "C4'" -1.528 -0.290 -0.122 ETKDGv2  6
+G48  "O4'" -0.982  0.430  0.963 ETKDGv2  7
+G48  "C3'" -0.401 -0.700 -1.076 ETKDGv2  8
+G48  "O3'" -0.311  0.211 -2.143 ETKDGv2  9
+G48  "C2'"  0.834 -0.590 -0.217 ETKDGv2 10
+G48  "O2'"  1.085 -1.822  0.442 ETKDGv2 11
+G48  "C1'"  0.422  0.450  0.821 ETKDGv2 12
+G48     N9  0.872  1.785  0.420 ETKDGv2 13
+G48     C8  2.218  2.275  0.372 ETKDGv2 14
+G48     N7  2.303  3.525  0.016 ETKDGv2 15
+G48     C5  0.950  3.922 -0.187 ETKDGv2 16
+G48     C6  0.429  5.209 -0.630 ETKDGv2 17
+G48     O6  1.188  6.185 -0.869 ETKDGv2 18
+G48     N1 -0.995  5.314 -0.785 ETKDGv2 19
+G48     C2 -1.829  4.164 -0.508 ETKDGv2 20
+G48     N2 -3.243  4.254 -0.668 ETKDGv2 21
+G48     N3 -1.292  3.037 -0.115 ETKDGv2 22
+G48     C4  0.130  2.932  0.049 ETKDGv2 23
+G48  "CA'"  1.982 -2.629 -0.299 ETKDGv2 24
+G48  "CB'"  3.416 -2.400  0.173 ETKDGv2 25
+G48  "OC'"  4.278 -3.267 -0.531 ETKDGv2 26
+G48  "CD'"  5.604 -3.060 -0.098 ETKDGv2 27
+G48    OP2 -5.327 -1.923  2.961 ETKDGv2 28
+G48   HOP3 -3.645 -4.253  2.923 ETKDGv2 29
+G48  "H5'" -2.722 -2.059 -0.457 ETKDGv2 30
+G48 "H5''" -1.577 -2.166  0.955 ETKDGv2 31
+G48  "H4'" -2.256  0.363 -0.652 ETKDGv2 32
+G48  "H3'" -0.523 -1.735 -1.474 ETKDGv2 33
+G48 "HO3'" -1.038 -0.024 -2.777 ETKDGv2 34
+G48  "H2'"  1.715 -0.230 -0.802 ETKDGv2 35
+G48  "H1'"  0.880  0.210  1.805 ETKDGv2 36
+G48     H8  3.085  1.671  0.607 ETKDGv2 37
+G48     H1 -1.422  6.214 -1.100 ETKDGv2 38
+G48    H21 -3.852  3.429 -0.473 ETKDGv2 39
+G48    H22 -3.684  5.147 -0.982 ETKDGv2 40
+G48   HCA2  1.717 -3.692 -0.111 ETKDGv2 41
+G48   HCA1  1.905 -2.476 -1.402 ETKDGv2 42
+G48   HCB1  3.689 -1.337 -0.015 ETKDGv2 43
+G48   HCB2  3.460 -2.603  1.268 ETKDGv2 44
+G48   HCD1  5.715 -3.290  0.986 ETKDGv2 45
+G48   HCD2  6.270 -3.748 -0.657 ETKDGv2 46
+G48   HCD3  5.940 -2.021 -0.311 ETKDGv2 47
+G48   HOP2 -5.768 -2.756  3.268 ETKDGv2 48
 #

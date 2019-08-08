@@ -175,10 +175,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-CFX  "Create component" 2001-02-16 PDBJ ? ?
-CFX "Modify descriptor" 2011-06-04 RCSB ? ?
+CFX  "Create component" 2001-02-16 PDBJ
+CFX "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   CFX
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01331
@@ -223,10 +221,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-CFX                                                                                                                               Cenomycin   ChEMBL
-CFX                                                                                                                                 Mefoxin   ChEMBL
-CFX                                                                                                                               Cefoxitin   ChEMBL
 CFX                                                                                                                               Mefoxitin   ChEMBL
+CFX                                                                                                                                 Mefoxin   ChEMBL
+CFX                                                                                                                               Cenomycin   ChEMBL
+CFX                                                                                                                               Cefoxitin   ChEMBL
 CFX "(6R,7S)-4-[(carbamoyloxy)methyl]-7-methoxy-8-oxo-7-[(thiophen-2-enyl)acetamido]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid" DrugBank
 CFX                                                                                                                               Cefoxitin DrugBank
 CFX                                                                                                                              Ceftoxitin DrugBank
@@ -423,49 +421,49 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CFX   C4  0.313 -2.129 -0.894 ETKDGv2  1
-CFX   O5  0.180 -2.788 -1.958 ETKDGv2  2
-CFX   N1  1.451 -1.482 -0.204 ETKDGv2  3
-CFX   C2  0.560 -1.112  0.867 ETKDGv2  4
-CFX   S8  0.706  0.684  1.267 ETKDGv2  5
-CFX   C9  1.602  1.219 -0.245 ETKDGv2  6
-CFX  C10  2.856  0.394 -0.503 ETKDGv2  7
-CFX  C11  2.702 -0.944 -0.620 ETKDGv2  8
-CFX  C15  4.193  1.074 -0.712 ETKDGv2  9
-CFX  C12  3.738 -1.881 -1.114 ETKDGv2 10
-CFX  O13  3.600 -3.117 -0.906 ETKDGv2 11
-CFX  O14  4.839 -1.437 -1.840 ETKDGv2 12
-CFX   C3 -0.620 -1.613  0.167 ETKDGv2 13
-CFX  O16 -1.274 -2.686  0.826 ETKDGv2 14
-CFX  C17 -2.082 -2.206  1.881 ETKDGv2 15
-CFX  N18 -1.550 -0.616 -0.397 ETKDGv2 16
-CFX  C19 -2.595 -0.979 -1.313 ETKDGv2 17
-CFX  O21 -2.725 -2.175 -1.692 ETKDGv2 18
-CFX  C20 -3.580  0.049 -1.776 ETKDGv2 19
-CFX  C23 -4.744  0.112 -0.837 ETKDGv2 20
-CFX  S24 -6.388 -0.447 -1.218 ETKDGv2 21
-CFX  C25 -6.994 -0.003  0.395 ETKDGv2 22
-CFX  C26 -6.003  0.517  1.116 ETKDGv2 23
-CFX  C27 -4.706  0.586  0.409 ETKDGv2 24
-CFX  O30  4.191  2.404 -0.200 ETKDGv2 25
-CFX  C31  5.306  3.243 -0.275 ETKDGv2 26
-CFX  O32  6.377  2.845 -0.809 ETKDGv2 27
-CFX  N33  5.229  4.562  0.259 ETKDGv2 28
-CFX  HC2  0.803 -1.713  1.772 ETKDGv2 29
-CFX HC91  0.917  1.110 -1.113 ETKDGv2 30
-CFX HC92  1.818  2.301 -0.148 ETKDGv2 31
-CFX H151  4.983  0.501 -0.179 ETKDGv2 32
-CFX H152  4.420  1.101 -1.800 ETKDGv2 33
-CFX  HXT  5.534 -2.089 -2.184 ETKDGv2 34
-CFX H171 -1.531 -1.514  2.556 ETKDGv2 35
-CFX H172 -2.412 -3.071  2.492 ETKDGv2 36
-CFX H173 -2.995 -1.712  1.486 ETKDGv2 37
-CFX  H18 -1.524  0.376 -0.079 ETKDGv2 38
-CFX H201 -3.941 -0.221 -2.792 ETKDGv2 39
-CFX H202 -3.096  1.047 -1.844 ETKDGv2 40
-CFX  H25 -8.009 -0.131  0.746 ETKDGv2 41
-CFX  H26 -6.139  0.860  2.133 ETKDGv2 42
-CFX  H27 -3.809  0.984  0.865 ETKDGv2 43
-CFX H331  4.346  4.897  0.702 ETKDGv2 44
-CFX H332  6.053  5.201  0.211 ETKDGv2 45
+CFX   C4 -0.426 -0.539  1.318 ETKDGv2  1
+CFX   O5 -0.742 -1.500  2.067 ETKDGv2  2
+CFX   N1  0.847  0.055  0.834 ETKDGv2  3
+CFX   C2  0.082  1.025  0.084 ETKDGv2  4
+CFX   S8  0.604  0.888 -1.660 ETKDGv2  5
+CFX   C9  2.359  1.209 -1.226 ETKDGv2  6
+CFX  C10  2.954  0.161 -0.292 ETKDGv2  7
+CFX  C11  2.227 -0.319  0.756 ETKDGv2  8
+CFX  C15  4.369 -0.290 -0.574 ETKDGv2  9
+CFX  C12  2.763 -1.275  1.760 ETKDGv2 10
+CFX  O13  3.987 -1.292  2.057 ETKDGv2 11
+CFX  O14  1.899 -2.137  2.425 ETKDGv2 12
+CFX   C3 -1.196  0.455  0.481 ETKDGv2 13
+CFX  O16 -2.052  1.373  1.169 ETKDGv2 14
+CFX  C17 -1.712  1.593  2.524 ETKDGv2 15
+CFX  N18 -1.923 -0.216 -0.603 ETKDGv2 16
+CFX  C19 -2.688  0.506 -1.581 ETKDGv2 17
+CFX  O21 -2.694  1.767 -1.582 ETKDGv2 18
+CFX  C20 -3.519 -0.234 -2.584 ETKDGv2 19
+CFX  C23 -4.907 -0.436 -2.062 ETKDGv2 20
+CFX  S24 -6.363  0.346 -2.718 ETKDGv2 21
+CFX  C25 -7.420 -0.459 -1.535 ETKDGv2 22
+CFX  C26 -6.688 -1.238 -0.741 ETKDGv2 23
+CFX  C27 -5.240 -1.229 -1.042 ETKDGv2 24
+CFX  O30  5.268  0.387  0.298 ETKDGv2 25
+CFX  C31  6.648  0.167  0.278 ETKDGv2 26
+CFX  O32  7.158 -0.654 -0.532 ETKDGv2 27
+CFX  N33  7.486  0.879  1.184 ETKDGv2 28
+CFX  HC2  0.254  2.053  0.476 ETKDGv2 29
+CFX HC91  2.930  1.270 -2.175 ETKDGv2 30
+CFX HC92  2.434  2.204 -0.739 ETKDGv2 31
+CFX H151  4.457 -1.391 -0.449 ETKDGv2 32
+CFX H152  4.651 -0.066 -1.624 ETKDGv2 33
+CFX  HXT  2.245 -2.784  3.125 ETKDGv2 34
+CFX H171 -1.973  0.706  3.140 ETKDGv2 35
+CFX H172 -2.311  2.447  2.902 ETKDGv2 36
+CFX H173 -0.640  1.858  2.652 ETKDGv2 37
+CFX  H18 -1.967 -1.261 -0.616 ETKDGv2 38
+CFX H201 -3.561  0.351 -3.527 ETKDGv2 39
+CFX H202 -3.058 -1.218 -2.818 ETKDGv2 40
+CFX  H25 -8.493 -0.342 -1.462 ETKDGv2 41
+CFX  H26 -7.120 -1.828  0.057 ETKDGv2 42
+CFX  H27 -4.519 -1.813 -0.485 ETKDGv2 43
+CFX H331  7.071  1.559  1.858 ETKDGv2 44
+CFX H332  8.519  0.726  1.182 ETKDGv2 45
 #

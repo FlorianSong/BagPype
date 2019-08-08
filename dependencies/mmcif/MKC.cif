@@ -172,10 +172,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MKC  "Create component" 1999-07-08 RCSB ? ?
-MKC "Modify descriptor" 2011-06-04 RCSB ? ?
+MKC  "Create component" 1999-07-08 RCSB
+MKC "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   MKC
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB08188
@@ -208,9 +206,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-MKC                                                                        MKC-442   ChEMBL
 MKC                                                                      Emivirine   ChEMBL
 MKC                                                                      Coactinon   ChEMBL
+MKC                                                                        MKC-442   ChEMBL
 MKC 1-(ethoxymethyl)-5-(1-methylethyl)-6-(phenylmethyl)pyrimidine-2,4(1H,3H)-dione DrugBank
 MKC                              6-benzyl-1-(ethoxymethyl)-5-(1-methylethyl)uracil DrugBank
 MKC                                                                      Emivirine DrugBank
@@ -376,48 +374,48 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MKC   C1 -0.175  1.570 -0.371 ETKDGv2  1
-MKC   C2  0.007  2.791 -0.909 ETKDGv2  2
-MKC   C3  0.264  3.964 -0.047 ETKDGv2  3
-MKC   C4  0.302  3.825  1.282 ETKDGv2  4
-MKC   C5  0.090  2.498  1.890 ETKDGv2  5
-MKC   C6 -0.135  1.430  1.114 ETKDGv2  6
-MKC   C7 -0.286 -0.965 -0.634 ETKDGv2  7
-MKC   N8  1.034 -1.595 -0.671 ETKDGv2  8
-MKC   C9  1.265 -2.817  0.058 ETKDGv2  9
-MKC   O9  2.429 -3.281  0.200 ETKDGv2 10
-MKC  N10  0.166 -3.519  0.618 ETKDGv2 11
-MKC  C11 -1.139 -2.964  0.525 ETKDGv2 12
-MKC  O11 -2.125 -3.671  0.861 ETKDGv2 13
-MKC  C12 -1.326 -1.575  0.021 ETKDGv2 14
-MKC  C13 -0.473  0.402 -1.290 ETKDGv2 15
-MKC  C14 -2.689 -0.893  0.224 ETKDGv2 16
-MKC  C15 -3.713 -1.405 -0.794 ETKDGv2 17
-MKC  C16 -3.217 -1.033  1.662 ETKDGv2 18
-MKC  C17  2.152 -1.017 -1.446 ETKDGv2 19
-MKC  O17  2.523  0.252 -0.945 ETKDGv2 20
-MKC  C18  3.216  0.112  0.278 ETKDGv2 21
-MKC  C19  3.712  1.478  0.727 ETKDGv2 22
-MKC   H2 -0.035  2.933 -1.982 ETKDGv2 23
-MKC   H3  0.418  4.937 -0.496 ETKDGv2 24
-MKC   H4  0.489  4.683  1.913 ETKDGv2 25
-MKC   H5  0.123  2.389  2.966 ETKDGv2 26
-MKC   H6 -0.279  0.469  1.588 ETKDGv2 27
-MKC  HN1  0.311 -4.451  1.068 ETKDGv2 28
-MKC H131 -1.491  0.511 -1.718 ETKDGv2 29
-MKC H132  0.165  0.482 -2.190 ETKDGv2 30
-MKC  H14 -2.608  0.203  0.087 ETKDGv2 31
-MKC H151 -4.669 -0.849 -0.686 ETKDGv2 32
-MKC H152 -3.336 -1.248 -1.827 ETKDGv2 33
-MKC H153 -3.915 -2.487 -0.649 ETKDGv2 34
-MKC H161 -4.043 -0.308  1.830 ETKDGv2 35
-MKC H162 -3.623 -2.045  1.864 ETKDGv2 36
-MKC H163 -2.411 -0.810  2.393 ETKDGv2 37
-MKC H171  1.842 -0.907 -2.505 ETKDGv2 38
-MKC H172  3.030 -1.700 -1.503 ETKDGv2 39
-MKC H181  4.100 -0.556  0.169 ETKDGv2 40
-MKC H182  2.540 -0.289  1.067 ETKDGv2 41
-MKC H191  2.857  2.175  0.845 ETKDGv2 42
-MKC H192  4.238  1.386  1.700 ETKDGv2 43
-MKC H193  4.416  1.892 -0.026 ETKDGv2 44
+MKC   C1 -1.562 -0.961 -0.569 ETKDGv2  1
+MKC   C2 -1.900 -1.115  0.727 ETKDGv2  2
+MKC   C3 -3.282 -1.484  1.100 ETKDGv2  3
+MKC   C4 -4.202 -1.687  0.151 ETKDGv2  4
+MKC   C5 -3.837 -1.548 -1.272 ETKDGv2  5
+MKC   C6 -2.587 -1.211 -1.615 ETKDGv2  6
+MKC   C7  0.466  0.497 -0.127 ETKDGv2  7
+MKC   N8  1.534  0.148  0.808 ETKDGv2  8
+MKC   C9  2.323  1.190  1.408 ETKDGv2  9
+MKC   O9  3.402  0.925  2.006 ETKDGv2 10
+MKC  N10  1.876  2.535  1.339 ETKDGv2 11
+MKC  C11  0.690  2.840  0.615 ETKDGv2 12
+MKC  O11  0.222  4.007  0.688 ETKDGv2 13
+MKC  C12  0.030  1.796 -0.223 ETKDGv2 14
+MKC  C13 -0.153 -0.604 -0.987 ETKDGv2 15
+MKC  C14 -1.122  2.222 -1.150 ETKDGv2 16
+MKC  C15 -0.695  3.322 -2.133 ETKDGv2 17
+MKC  C16 -2.362  2.638 -0.347 ETKDGv2 18
+MKC  C17  1.886 -1.248  1.113 ETKDGv2 19
+MKC  O17  2.789 -1.722  0.135 ETKDGv2 20
+MKC  C18  3.252 -3.017  0.468 ETKDGv2 21
+MKC  C19  4.601 -2.930  1.172 ETKDGv2 22
+MKC   H2 -1.178 -0.956  1.516 ETKDGv2 23
+MKC   H3 -3.547 -1.589  2.144 ETKDGv2 24
+MKC   H4 -5.214 -1.957  0.424 ETKDGv2 25
+MKC   H5 -4.582 -1.722 -2.038 ETKDGv2 26
+MKC   H6 -2.330 -1.115 -2.662 ETKDGv2 27
+MKC  HN1  2.396  3.289  1.842 ETKDGv2 28
+MKC H131  0.451 -1.531 -0.988 ETKDGv2 29
+MKC H132 -0.121 -0.292 -2.053 ETKDGv2 30
+MKC  H14 -1.459  1.395 -1.796 ETKDGv2 31
+MKC H151 -0.537  4.296 -1.627 ETKDGv2 32
+MKC H152  0.242  3.027 -2.651 ETKDGv2 33
+MKC H153 -1.483  3.466 -2.903 ETKDGv2 34
+MKC H161 -3.218  2.807 -1.034 ETKDGv2 35
+MKC H162 -2.189  3.571  0.225 ETKDGv2 36
+MKC H163 -2.645  1.830  0.362 ETKDGv2 37
+MKC H171  2.331 -1.310  2.133 ETKDGv2 38
+MKC H172  0.971 -1.877  1.147 ETKDGv2 39
+MKC H181  3.391 -3.584 -0.476 ETKDGv2 40
+MKC H182  2.536 -3.607  1.088 ETKDGv2 41
+MKC H191  4.497 -2.403  2.144 ETKDGv2 42
+MKC H192  5.327 -2.380  0.536 ETKDGv2 43
+MKC H193  4.991 -3.952  1.362 ETKDGv2 44
 #

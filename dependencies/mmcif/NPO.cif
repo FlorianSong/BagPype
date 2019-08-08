@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id                   ?
 _chem_comp.pdbx_synonyms                             ?
 _chem_comp.pdbx_formal_charge                        0
 _chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
+_chem_comp.pdbx_modified_date                        2016-08-23
 _chem_comp.pdbx_ambiguous_flag                       N
 _chem_comp.pdbx_release_status                       REL
 _chem_comp.pdbx_replaced_by                          ?
@@ -52,9 +52,9 @@ NPO C4 C4 C  0 1 Y N N 11.038 37.914 61.785 -0.009 -0.017  2.109 C4 NPO  4
 NPO C5 C5 C  0 1 Y N N  9.866 37.477 62.370 -1.212 -0.018  1.406 C5 NPO  5
 NPO C6 C6 C  0 1 Y N N  8.799 38.352 62.428 -1.210 -0.005  0.042 C6 NPO  6
 NPO OH OH O  0 1 N N N 12.127 37.088 61.720 -0.019 -0.025  3.464 OH NPO  7
-NPO N1 N1 N  1 1 N N N  7.794 40.574 62.035  0.023  0.005 -1.995 N1 NPO  8
-NPO O2 O2 O -1 1 N N N  7.893 41.764 61.696 -1.026  0.009 -2.612 O2 NPO  9
-NPO O3 O3 O  0 1 N N N  6.743 40.151 62.503  1.083  0.008 -2.596 O3 NPO 10
+NPO N1 N1 N  1 1 N Y N  7.794 40.574 62.035  0.023  0.005 -1.995 N1 NPO  8
+NPO O2 O2 O -1 1 N Y N  7.893 41.764 61.696 -1.026  0.009 -2.612 O2 NPO  9
+NPO O3 O3 O  0 1 N Y N  6.743 40.151 62.503  1.083  0.008 -2.596 O3 NPO 10
 NPO H2 H2 H  0 1 N N N 10.143 41.087 60.909  2.166 -0.004 -0.466 H2 NPO 11
 NPO H3 H3 H  0 1 N N N 12.079 39.527 60.795  2.133 -0.018  1.977 H3 NPO 12
 NPO H5 H5 H  0 1 N N N  9.784 36.456 62.780 -2.149 -0.020  1.943 H5 NPO 13
@@ -113,10 +113,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-NPO  "Create component" 1999-07-08 RCSB ? ?
-NPO "Modify descriptor" 2011-06-04 RCSB ? ?
+NPO         "Create component" 1999-07-08 RCSB
+NPO        "Modify descriptor" 2011-06-04 RCSB
+NPO "Modify leaving atom flag" 2016-08-23 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   NPO
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04417
@@ -278,19 +277,19 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NPO C1 -1.171 -0.022  0.106 ETKDGv2  1
-NPO C2 -0.574 -1.183 -0.227 ETKDGv2  2
-NPO C3  0.894 -1.254 -0.384 ETKDGv2  3
-NPO C4  1.645 -0.162 -0.195 ETKDGv2  4
-NPO C5  1.001  1.118  0.171 ETKDGv2  5
-NPO C6 -0.328  1.186  0.314 ETKDGv2  6
-NPO OH  3.028 -0.239 -0.346 ETKDGv2  7
-NPO N1 -2.600  0.053  0.260 ETKDGv2  8
-NPO O2 -3.389 -1.059  0.070 ETKDGv2  9
-NPO O3 -3.145  1.132  0.570 ETKDGv2 10
-NPO H2 -1.154 -2.083 -0.387 ETKDGv2 11
-NPO H3  1.357 -2.195 -0.653 ETKDGv2 12
-NPO H5  1.605  2.003  0.325 ETKDGv2 13
-NPO H6 -0.784  2.130  0.583 ETKDGv2 14
-NPO HO  3.616  0.574 -0.208 ETKDGv2 15
+NPO C1  1.173  0.079 -0.044 ETKDGv2  1
+NPO C2  0.605 -0.884 -0.796 ETKDGv2  2
+NPO C3 -0.862 -1.061 -0.806 ETKDGv2  3
+NPO C4 -1.643 -0.263 -0.066 ETKDGv2  4
+NPO C5 -1.030  0.798  0.763 ETKDGv2  5
+NPO C6  0.298  0.961  0.775 ETKDGv2  6
+NPO OH -3.024 -0.437 -0.082 ETKDGv2  7
+NPO N1  2.600  0.255 -0.030 ETKDGv2  8
+NPO O2  3.419 -0.555 -0.783 ETKDGv2  9
+NPO O3  3.118  1.150  0.670 ETKDGv2 10
+NPO H2  1.208 -1.545 -1.404 ETKDGv2 11
+NPO H3 -1.302 -1.840 -1.416 ETKDGv2 12
+NPO H5 -1.658  1.446  1.363 ETKDGv2 13
+NPO H6  0.730  1.742  1.387 ETKDGv2 14
+NPO HO -3.634  0.155  0.469 ETKDGv2 15
 #

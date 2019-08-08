@@ -143,10 +143,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-DBQ  "Create component" 2004-08-04 RCSB ? ?
-DBQ "Modify descriptor" 2011-06-04 RCSB ? ?
+DBQ  "Create component" 2004-08-04 RCSB
+DBQ "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   DBQ
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04367
@@ -181,8 +179,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-DBQ       Debromohymenialdisine ChEMBL
 DBQ (Z)-2-Debromohymenialdisine ChEMBL
+DBQ       Debromohymenialdisine ChEMBL
 #
 loop_
 _software.name              
@@ -344,33 +342,33 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DBQ   O1 -4.043 -0.770  1.076 ETKDGv2  1
-DBQ   C5 -2.836 -0.733  0.716 ETKDGv2  2
-DBQ   N2 -2.088 -1.961  0.682 ETKDGv2  3
-DBQ   C6 -1.210 -2.417 -0.403 ETKDGv2  4
-DBQ   C7 -0.770 -1.307 -1.356 ETKDGv2  5
-DBQ   C4 -2.211  0.587  0.479 ETKDGv2  6
-DBQ   N1 -2.836  1.817  0.828 ETKDGv2  7
-DBQ   C1 -1.889  2.822  0.491 ETKDGv2  8
-DBQ   C2 -0.793  2.274 -0.012 ETKDGv2  9
-DBQ   C3 -0.997  0.822 -0.015 ETKDGv2 10
-DBQ   C8 -0.100 -0.190 -0.603 ETKDGv2 11
-DBQ   C9  1.236 -0.113 -0.432 ETKDGv2 12
-DBQ   N4  1.892  0.924  0.301 ETKDGv2 13
-DBQ  C11  3.162  0.652  0.297 ETKDGv2 14
-DBQ   N5  4.121  1.483  0.945 ETKDGv2 15
-DBQ   N3  3.520 -0.544 -0.394 ETKDGv2 16
-DBQ  C10  2.279 -1.043 -0.852 ETKDGv2 17
-DBQ   O2  2.143 -2.135 -1.463 ETKDGv2 18
-DBQ  HN2 -2.399 -2.708  1.344 ETKDGv2 19
-DBQ  H61 -1.744 -3.193 -0.991 ETKDGv2 20
-DBQ  H62 -0.310 -2.895  0.041 ETKDGv2 21
-DBQ  H71 -1.661 -0.914 -1.893 ETKDGv2 22
-DBQ  H72 -0.118 -1.721 -2.150 ETKDGv2 23
-DBQ  HN1 -3.781  1.958  1.249 ETKDGv2 24
-DBQ   H1 -2.055  3.884  0.616 ETKDGv2 25
-DBQ   H2  0.069  2.816 -0.376 ETKDGv2 26
-DBQ HN51  3.820  2.350  1.444 ETKDGv2 27
-DBQ HN52  5.134  1.231  0.925 ETKDGv2 28
-DBQ  HN3  4.466 -0.974 -0.496 ETKDGv2 29
+DBQ   O1 -3.829  0.307 -1.478 ETKDGv2  1
+DBQ   C5 -2.952 -0.068 -0.655 ETKDGv2  2
+DBQ   N2 -2.889 -1.445 -0.273 ETKDGv2  3
+DBQ   C6 -2.107 -1.889  0.875 ETKDGv2  4
+DBQ   C7 -0.617 -1.896  0.536 ETKDGv2  5
+DBQ   C4 -2.048  0.930 -0.062 ETKDGv2  6
+DBQ   N1 -2.411  2.295  0.106 ETKDGv2  7
+DBQ   C1 -1.283  2.902  0.716 ETKDGv2  8
+DBQ   C2 -0.320  2.011  0.891 ETKDGv2  9
+DBQ   C3 -0.804  0.722  0.375 ETKDGv2 10
+DBQ   C8 -0.002 -0.532  0.271 ETKDGv2 11
+DBQ   C9  1.304 -0.454 -0.070 ETKDGv2 12
+DBQ   N4  1.978  0.752 -0.435 ETKDGv2 13
+DBQ  C11  3.199  0.432 -0.744 ETKDGv2 14
+DBQ   N5  4.159  1.400 -1.158 ETKDGv2 15
+DBQ   N3  3.501 -0.959 -0.642 ETKDGv2 16
+DBQ  C10  2.282 -1.528 -0.211 ETKDGv2 17
+DBQ   O2  2.115 -2.757  0.009 ETKDGv2 18
+DBQ  HN2 -3.524 -2.128 -0.744 ETKDGv2 19
+DBQ  H61 -2.311 -1.243  1.757 ETKDGv2 20
+DBQ  H62 -2.413 -2.924  1.142 ETKDGv2 21
+DBQ  H71 -0.082 -2.364  1.390 ETKDGv2 22
+DBQ  H72 -0.473 -2.541 -0.359 ETKDGv2 23
+DBQ  HN1 -3.320  2.749 -0.132 ETKDGv2 24
+DBQ   H1 -1.229  3.944  1.003 ETKDGv2 25
+DBQ   H2  0.639  2.212  1.349 ETKDGv2 26
+DBQ HN51  3.899  2.410 -1.221 ETKDGv2 27
+DBQ HN52  5.131  1.106 -1.400 ETKDGv2 28
+DBQ  HN3  4.406 -1.441 -0.839 ETKDGv2 29
 #

@@ -176,10 +176,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-ESL  "Create component" 2004-08-30 RCSB ? ?
-ESL "Modify descriptor" 2011-06-04 RCSB ? ?
+ESL  "Create component" 2004-08-30 RCSB
+ESL "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   ESL
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04573
@@ -215,13 +213,13 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-ESL                                              Estriol   ChEMBL
-ESL                                         Ortho-Gynest   ChEMBL
 ESL                                              Theelol   ChEMBL
-ESL                                  "Estriol Succinate"   ChEMBL
-ESL                                 "Estriol Propionate"   ChEMBL
 ESL                           "Estriol Acetate Benzoate"   ChEMBL
 ESL                                             Oestriol   ChEMBL
+ESL                                 "Estriol Propionate"   ChEMBL
+ESL                                         Ortho-Gynest   ChEMBL
+ESL                                  "Estriol Succinate"   ChEMBL
+ESL                                              Estriol   ChEMBL
 ESL                                               Gynest   ChEMBL
 ESL                                              Ovestin   ChEMBL
 ESL       (16α,17β)-estra-1,3,5(10)-triene-3,16,17-triol DrugBank
@@ -429,49 +427,49 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ESL   C2  0.800  0.378 -1.083 ETKDGv2  1
-ESL   C3 -0.133  1.613 -1.047 ETKDGv2  2
-ESL   C4 -1.511  1.283 -1.630 ETKDGv2  3
-ESL   C5 -2.284  0.264 -0.742 ETKDGv2  4
-ESL   C6 -3.371 -0.417 -1.611 ETKDGv2  5
-ESL   C7 -2.904  0.993  0.497 ETKDGv2  6
-ESL   O1 -4.299  1.150  0.412 ETKDGv2  7
-ESL   C8 -2.527  0.164  1.724 ETKDGv2  8
-ESL   O2 -3.508 -0.813  1.972 ETKDGv2  9
-ESL   C9 -1.212 -0.502  1.351 ETKDGv2 10
-ESL  C10 -1.340 -0.827 -0.141 ETKDGv2 11
-ESL  C12  0.018 -0.976 -0.890 ETKDGv2 12
-ESL  C14  0.864 -2.151 -0.313 ETKDGv2 13
-ESL  C15  2.350 -2.016 -0.639 ETKDGv2 14
-ESL  C16  2.854 -0.745 -0.020 ETKDGv2 15
-ESL  C17  3.977 -0.718  0.717 ETKDGv2 16
-ESL  C18  4.420  0.545  1.345 ETKDGv2 17
-ESL   O3  5.584  0.582  2.110 ETKDGv2 18
-ESL  C19  3.700  1.659  1.177 ETKDGv2 19
-ESL  C20  2.464  1.635  0.368 ETKDGv2 20
-ESL  C21  2.035  0.483 -0.191 ETKDGv2 21
-ESL   H2  1.210  0.343 -2.118 ETKDGv2 22
-ESL  H31  0.322  2.435 -1.641 ETKDGv2 23
-ESL  H32 -0.257  1.983 -0.009 ETKDGv2 24
-ESL  H41 -2.101  2.220 -1.739 ETKDGv2 25
-ESL  H42 -1.366  0.880 -2.657 ETKDGv2 26
-ESL  H61 -2.900 -1.025 -2.413 ETKDGv2 27
-ESL  H62 -4.006 -1.089 -0.995 ETKDGv2 28
-ESL  H63 -4.023  0.343 -2.094 ETKDGv2 29
-ESL   H7 -2.443  1.998  0.641 ETKDGv2 30
-ESL  HO1 -4.461  1.912 -0.205 ETKDGv2 31
-ESL   H8 -2.403  0.822  2.615 ETKDGv2 32
-ESL  HO2 -3.343 -1.154  2.889 ETKDGv2 33
-ESL  H91 -0.373  0.202  1.538 ETKDGv2 34
-ESL  H92 -1.047 -1.417  1.961 ETKDGv2 35
-ESL  H10 -1.845 -1.820 -0.192 ETKDGv2 36
-ESL  H12 -0.260 -1.303 -1.918 ETKDGv2 37
-ESL H141  0.767 -2.213  0.791 ETKDGv2 38
-ESL H142  0.487 -3.113 -0.723 ETKDGv2 39
-ESL H151  2.898 -2.904 -0.253 ETKDGv2 40
-ESL H152  2.490 -1.972 -1.741 ETKDGv2 41
-ESL  H17  4.565 -1.616  0.860 ETKDGv2 42
-ESL  HO3  6.145 -0.249  2.251 ETKDGv2 43
-ESL  H19  4.022  2.589  1.629 ETKDGv2 44
-ESL  H20  1.940  2.569  0.228 ETKDGv2 45
+ESL   C2  0.673  0.147 -1.110 ETKDGv2  1
+ESL   C3 -0.272  1.371 -1.203 ETKDGv2  2
+ESL   C4 -1.690  0.962 -1.616 ETKDGv2  3
+ESL   C5 -2.390 -0.006 -0.599 ETKDGv2  4
+ESL   C6 -3.338 -0.931 -1.407 ETKDGv2  5
+ESL   C7 -3.166  0.788  0.494 ETKDGv2  6
+ESL   O1 -4.311  0.097  0.945 ETKDGv2  7
+ESL   C8 -2.173  1.015  1.647 ETKDGv2  8
+ESL   O2 -2.806  0.985  2.901 ETKDGv2  9
+ESL   C9 -1.129 -0.100  1.545 ETKDGv2 10
+ESL  C10 -1.363 -0.842  0.212 ETKDGv2 11
+ESL  C12 -0.061 -1.144 -0.582 ETKDGv2 12
+ESL  C14  0.839 -2.150  0.192 ETKDGv2 13
+ESL  C15  2.288 -2.115 -0.286 ETKDGv2 14
+ESL  C16  2.836 -0.744 -0.025 ETKDGv2 15
+ESL  C17  4.026 -0.566  0.573 ETKDGv2 16
+ESL  C18  4.518  0.799  0.854 ETKDGv2 17
+ESL   O3  5.751  0.991  1.472 ETKDGv2 18
+ESL  C19  3.774  1.857  0.512 ETKDGv2 19
+ESL  C20  2.465  1.667 -0.145 ETKDGv2 20
+ESL  C21  1.992  0.425 -0.388 ETKDGv2 21
+ESL   H2  0.974 -0.083 -2.157 ETKDGv2 22
+ESL  H31  0.123  2.079 -1.964 ETKDGv2 23
+ESL  H32 -0.311  1.920 -0.244 ETKDGv2 24
+ESL  H41 -1.603  0.482 -2.616 ETKDGv2 25
+ESL  H42 -2.300  1.876 -1.779 ETKDGv2 26
+ESL  H61 -4.124 -0.327 -1.911 ETKDGv2 27
+ESL  H62 -2.774 -1.491 -2.183 ETKDGv2 28
+ESL  H63 -3.835 -1.686 -0.763 ETKDGv2 29
+ESL   H7 -3.511  1.772  0.110 ETKDGv2 30
+ESL  HO1 -4.013 -0.742  1.384 ETKDGv2 31
+ESL   H8 -1.672  2.000  1.517 ETKDGv2 32
+ESL  HO2 -3.337  1.821  2.969 ETKDGv2 33
+ESL  H91 -1.232 -0.814  2.392 ETKDGv2 34
+ESL  H92 -0.110  0.340  1.607 ETKDGv2 35
+ESL  H10 -1.829 -1.821  0.471 ETKDGv2 36
+ESL  H12 -0.391 -1.694 -1.493 ETKDGv2 37
+ESL H141  0.828 -1.937  1.283 ETKDGv2 38
+ESL H142  0.438 -3.179  0.061 ETKDGv2 39
+ESL H151  2.329 -2.329 -1.376 ETKDGv2 40
+ESL H152  2.873 -2.897  0.246 ETKDGv2 41
+ESL  H17  4.634 -1.417  0.856 ETKDGv2 42
+ESL  HO3  6.332  0.206  1.740 ETKDGv2 43
+ESL  H19  4.130  2.860  0.711 ETKDGv2 44
+ESL  H20  1.920  2.554 -0.435 ETKDGv2 45
 #

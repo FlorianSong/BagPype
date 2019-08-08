@@ -147,10 +147,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-1FK "Create component" 2013-01-16 RCSB SG ?
-1FK  "Initial release" 2013-01-18 RCSB  ? ?
+1FK "Create component" 2013-01-16 RCSB
+1FK  "Initial release" 2013-01-18 RCSB
 #
 loop_
 _software.name              
@@ -309,35 +307,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-1FK   O  4.150 -1.082  0.001 ETKDGv2  1
-1FK  C1  3.069 -1.715  0.124 ETKDGv2  2
-1FK   C  3.120 -3.203  0.290 ETKDGv2  3
-1FK  C2  1.778 -0.992  0.102 ETKDGv2  4
-1FK  N3  1.614  0.416 -0.050 ETKDGv2  5
-1FK C13  2.554  1.484 -0.215 ETKDGv2  6
-1FK C12  2.091  2.736 -0.335 ETKDGv2  7
-1FK C11  0.626  3.027 -0.300 ETKDGv2  8
-1FK  N2  0.181  4.379 -0.432 ETKDGv2  9
-1FK C10 -0.274  2.035 -0.145 ETKDGv2 10
-1FK  C9  0.220  0.653 -0.012 ETKDGv2 11
-1FK  C4 -0.441 -0.497  0.149 ETKDGv2 12
-1FK  C3  0.577 -1.559  0.222 ETKDGv2 13
-1FK  C5 -1.898 -0.727  0.244 ETKDGv2 14
-1FK  N1 -2.834  0.362  0.163 ETKDGv2 15
-1FK  C8 -4.116  0.157  0.246 ETKDGv2 16
-1FK  C7 -4.630 -1.210  0.426 ETKDGv2 17
-1FK  C6 -3.752 -2.214  0.499 ETKDGv2 18
-1FK   N -2.345 -1.942  0.403 ETKDGv2 19
-1FK  H1  4.171 -3.562  0.282 ETKDGv2 20
-1FK  H2  2.656 -3.489  1.257 ETKDGv2 21
-1FK  H3  2.572 -3.693 -0.542 ETKDGv2 22
-1FK  H4  3.618  1.299 -0.244 ETKDGv2 23
-1FK  H5  2.794  3.551 -0.461 ETKDGv2 24
-1FK  H6 -0.836  4.618 -0.412 ETKDGv2 25
-1FK  H7  0.870  5.154 -0.552 ETKDGv2 26
-1FK  H8 -1.328  2.267 -0.122 ETKDGv2 27
-1FK  H9  0.383 -2.616  0.351 ETKDGv2 28
-1FK H10 -4.801  0.992  0.183 ETKDGv2 29
-1FK H11 -5.694 -1.397  0.497 ETKDGv2 30
-1FK H12 -4.096 -3.231  0.631 ETKDGv2 31
+1FK   O -3.765 -1.958 -0.627 ETKDGv2  1
+1FK  C1 -2.558 -2.311 -0.694 ETKDGv2  2
+1FK   C -2.240 -3.726 -1.072 ETKDGv2  3
+1FK  C2 -1.482 -1.337 -0.401 ETKDGv2  4
+1FK  N3 -1.671  0.027 -0.034 ETKDGv2  5
+1FK C13 -2.848  0.821  0.154 ETKDGv2  6
+1FK C12 -2.707  2.106  0.509 ETKDGv2  7
+1FK C11 -1.356  2.711  0.707 ETKDGv2  8
+1FK  N2 -1.257  4.087  1.085 ETKDGv2  9
+1FK C10 -0.237  1.980  0.535 ETKDGv2 10
+1FK  C9 -0.375  0.566  0.145 ETKDGv2 11
+1FK  C4  0.551 -0.368 -0.087 ETKDGv2 12
+1FK  C3 -0.175 -1.600 -0.441 ETKDGv2 13
+1FK  C5  2.024 -0.256 -0.020 ETKDGv2 14
+1FK  N1  2.664  0.983  0.332 ETKDGv2 15
+1FK  C8  3.960  1.079  0.390 ETKDGv2 16
+1FK  C7  4.797 -0.094  0.091 ETKDGv2 17
+1FK  C6  4.192 -1.238 -0.235 ETKDGv2 18
+1FK   N  2.758 -1.301 -0.287 ETKDGv2 19
+1FK  H1 -1.631 -3.738 -2.000 ETKDGv2 20
+1FK  H2 -1.674 -4.215 -0.252 ETKDGv2 21
+1FK  H3 -3.172 -4.302 -1.252 ETKDGv2 22
+1FK  H4 -3.836  0.406  0.017 ETKDGv2 23
+1FK  H5 -3.591  2.715  0.654 ETKDGv2 24
+1FK  H6 -2.118  4.662  1.221 ETKDGv2 25
+1FK  H7 -0.329  4.543  1.232 ETKDGv2 26
+1FK  H8  0.730  2.437  0.683 ETKDGv2 27
+1FK  H9  0.274 -2.553 -0.690 ETKDGv2 28
+1FK H10  4.419  2.021  0.658 ETKDGv2 29
+1FK H11  5.876 -0.029  0.136 ETKDGv2 30
+1FK H12  4.778 -2.120 -0.461 ETKDGv2 31
 #

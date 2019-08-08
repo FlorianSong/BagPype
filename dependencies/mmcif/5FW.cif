@@ -144,19 +144,17 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-5FW     "Create component" 2010-11-30  EBI ? ?
-5FW "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-5FW    "Modify descriptor" 2011-06-04 RCSB ? ?
+5FW     "Create component" 2010-11-30  EBI
+5FW "Modify aromatic_flag" 2011-06-04 RCSB
+5FW    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-5FW (-)-Isoproterenol ChEMBL
-5FW   Levisoprenaline ChEMBL
 5FW    L-Isoprenaline ChEMBL
+5FW   Levisoprenaline ChEMBL
+5FW (-)-Isoproterenol ChEMBL
 #
 loop_
 _software.name              
@@ -289,36 +287,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-5FW  CAI -4.309 -0.393 -0.589 ETKDGv2  1
-5FW  CAG -3.099  0.327  0.006 ETKDGv2  2
-5FW  CAJ -3.555  1.370  1.040 ETKDGv2  3
-5FW  NAD -2.194 -0.672  0.607 ETKDGv2  4
-5FW  CAF -0.796 -0.214  0.680 ETKDGv2  5
-5FW  CAE  0.026 -0.852 -0.449 ETKDGv2  6
-5FW  OAA -0.445 -0.407 -1.694 ETKDGv2  7
-5FW  CAH  1.495 -0.517 -0.299 ETKDGv2  8
-5FW  CAK  1.940  0.743 -0.462 ETKDGv2  9
-5FW  CAL  2.467 -1.591  0.021 ETKDGv2 10
-5FW  CAN  3.768 -1.309  0.152 ETKDGv2 11
-5FW  CAO  4.252  0.079 -0.023 ETKDGv2 12
-5FW  OAC  5.609  0.363  0.116 ETKDGv2 13
-5FW  CAM  3.378  1.060 -0.317 ETKDGv2 14
-5FW  OAB  3.795  2.380 -0.491 ETKDGv2 15
-5FW HAI1 -4.989  0.335 -1.080 ETKDGv2 16
-5FW HAI2 -3.973 -1.127 -1.352 ETKDGv2 17
-5FW HAI3 -4.870 -0.935  0.203 ETKDGv2 18
-5FW  HAG -2.591  0.858 -0.830 ETKDGv2 19
-5FW HAJ1 -4.211  2.125  0.555 ETKDGv2 20
-5FW HAJ2 -4.119  0.886  1.866 ETKDGv2 21
-5FW HAJ3 -2.681  1.902  1.470 ETKDGv2 22
-5FW  HAD -2.530 -0.923  1.568 ETKDGv2 23
-5FW HAF1 -0.358 -0.530  1.654 ETKDGv2 24
-5FW HAF2 -0.717  0.896  0.638 ETKDGv2 25
-5FW  HAE -0.115 -1.956 -0.378 ETKDGv2 26
-5FW  HAA -0.069 -1.021 -2.378 ETKDGv2 27
-5FW  HAK  1.251  1.542 -0.706 ETKDGv2 28
-5FW  HAL  2.128 -2.611  0.153 ETKDGv2 29
-5FW  HAN  4.469 -2.100  0.387 ETKDGv2 30
-5FW  HAC  6.278 -0.365  0.337 ETKDGv2 31
-5FW  HAB  4.766  2.659 -0.404 ETKDGv2 32
+5FW  CAI  4.292  0.943 -0.034 ETKDGv2  1
+5FW  CAG  3.101  0.061 -0.410 ETKDGv2  2
+5FW  CAJ  3.590 -1.289 -0.961 ETKDGv2  3
+5FW  NAD  2.242 -0.117  0.777 ETKDGv2  4
+5FW  CAF  0.848 -0.448  0.437 ETKDGv2  5
+5FW  CAE -0.051  0.784  0.652 ETKDGv2  6
+5FW  OAA  0.303  1.841 -0.206 ETKDGv2  7
+5FW  CAH -1.522  0.442  0.507 ETKDGv2  8
+5FW  CAK -2.028 -0.009 -0.658 ETKDGv2  9
+5FW  CAL -2.430  0.602  1.670 ETKDGv2 10
+5FW  CAN -3.730  0.304  1.562 ETKDGv2 11
+5FW  CAO -4.279 -0.191  0.280 ETKDGv2 12
+5FW  OAC -5.634 -0.498  0.178 ETKDGv2 13
+5FW  CAM -3.464 -0.340 -0.781 ETKDGv2 14
+5FW  OAB -3.944 -0.804 -2.007 ETKDGv2 15
+5FW HAI1  4.900  0.460  0.762 ETKDGv2 16
+5FW HAI2  3.930  1.925  0.340 ETKDGv2 17
+5FW HAI3  4.935  1.122 -0.922 ETKDGv2 18
+5FW  HAG  2.544  0.591 -1.215 ETKDGv2 19
+5FW HAJ1  4.200 -1.826 -0.202 ETKDGv2 20
+5FW HAJ2  4.212 -1.127 -1.867 ETKDGv2 21
+5FW HAJ3  2.731 -1.930 -1.244 ETKDGv2 22
+5FW  HAD  2.640 -0.865  1.393 ETKDGv2 23
+5FW HAF1  0.490 -1.262  1.108 ETKDGv2 24
+5FW HAF2  0.746 -0.827 -0.604 ETKDGv2 25
+5FW  HAE  0.127  1.137  1.692 ETKDGv2 26
+5FW  HAA  0.247  1.510 -1.140 ETKDGv2 27
+5FW  HAK -1.392 -0.141 -1.524 ETKDGv2 28
+5FW  HAL -2.046  0.962  2.616 ETKDGv2 29
+5FW  HAN -4.382  0.425  2.418 ETKDGv2 30
+5FW  HAC -6.258 -0.391  0.969 ETKDGv2 31
+5FW  HAB -4.917 -1.047 -2.153 ETKDGv2 32
 #

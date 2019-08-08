@@ -204,11 +204,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-1N1     "Create component" 2006-04-24 RCSB  ? ?
-1N1    "Modify descriptor" 2011-06-04 RCSB  ? ?
-1N1 "Modify internal type" 2011-07-22 RCSB IP ?
+1N1     "Create component" 2006-04-24 RCSB
+1N1    "Modify descriptor" 2011-06-04 RCSB
+1N1 "Modify internal type" 2011-07-22 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   1N1
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01254
@@ -264,10 +262,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+1N1                                                                                                                 BMS-354825-03   ChEMBL
 1N1                                                                                                                       Sprycel   ChEMBL
 1N1                                                                                                                    BMS-354825   ChEMBL
 1N1                                                                                                                     Dasatinib   ChEMBL
-1N1                                                                                                                 BMS-354825-03   ChEMBL
 1N1                                                                                                              "anh. dasatinib" DrugBank
 1N1                                                                                                         "Anhydrous dasatinib" DrugBank
 1N1                                                                                                               "BMS dasatinib" DrugBank
@@ -494,63 +492,63 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-1N1   C1  -3.630 -0.646 -2.389 ETKDGv2  1
-1N1   C2  -4.002 -0.519 -1.111 ETKDGv2  2
-1N1   C3  -5.385 -0.462 -0.606 ETKDGv2  3
-1N1   N6   6.980  1.030  1.123 ETKDGv2  4
-1N1   C7 -10.538 -0.142 -0.220 ETKDGv2  5
-1N1   C8  -9.727  0.912 -0.356 ETKDGv2  6
-1N1   C9  -8.326  0.732 -0.811 ETKDGv2  7
-1N1  C10  -7.464  1.953 -0.986 ETKDGv2  8
-1N1  C11   0.751 -0.544 -0.386 ETKDGv2  9
-1N1  C12   2.055 -0.244 -0.474 ETKDGv2 10
-1N1  C13   2.906 -0.361  0.735 ETKDGv2 11
-1N1  C14   0.971 -1.095  1.930 ETKDGv2 12
-1N1  C15   0.395 -1.604  3.209 ETKDGv2 13
-1N1  C16   5.221 -0.670  1.667 ETKDGv2 14
-1N1  C19   4.852  0.940 -0.241 ETKDGv2 15
-1N1  C20   8.266  1.246  0.421 ETKDGv2 16
-1N1  C21   9.459  0.752  1.251 ETKDGv2 17
-1N1    N  -0.086 -0.467 -1.552 ETKDGv2 18
-1N1    C  -1.519 -0.534 -1.531 ETKDGv2 19
-1N1   N1  -2.212 -0.647 -2.620 ETKDGv2 20
-1N1    S  -2.553 -0.378 -0.085 ETKDGv2 21
-1N1   N2  -6.504 -0.745 -1.462 ETKDGv2 22
-1N1   C4  -7.858 -0.520 -1.044 ETKDGv2 23
-1N1   C5  -8.776 -1.683 -0.909 ETKDGv2 24
-1N1   C6 -10.043 -1.498 -0.516 ETKDGv2 25
-1N1   CL  -8.205 -3.313 -1.233 ETKDGv2 26
-1N1    O  -5.579 -0.176  0.606 ETKDGv2 27
-1N1   N3   2.369 -0.778  1.847 ETKDGv2 28
-1N1   N4   0.220 -0.996  0.872 ETKDGv2 29
-1N1   N5   4.315 -0.060  0.687 ETKDGv2 30
-1N1  C17   6.685 -0.416  1.287 ETKDGv2 31
-1N1  C18   5.882  1.811  0.489 ETKDGv2 32
-1N1   O1  10.663  1.157  0.657 ETKDGv2 33
-1N1   H1  -4.330 -0.720 -3.210 ETKDGv2 34
-1N1   H7 -11.560 -0.003  0.108 ETKDGv2 35
-1N1   H8 -10.104  1.904 -0.136 ETKDGv2 36
-1N1 H101  -8.091  2.853 -1.155 ETKDGv2 37
-1N1 H102  -6.794  1.843 -1.865 ETKDGv2 38
-1N1 H103  -6.855  2.116 -0.073 ETKDGv2 39
-1N1  H12   2.482  0.057 -1.422 ETKDGv2 40
-1N1 H151   0.395 -2.714  3.198 ETKDGv2 41
-1N1 H152  -0.646 -1.238  3.333 ETKDGv2 42
-1N1 H153   1.003 -1.249  4.067 ETKDGv2 43
-1N1 H161   5.018 -0.246  2.675 ETKDGv2 44
-1N1 H162   5.049 -1.768  1.701 ETKDGv2 45
-1N1 H191   4.046  1.601 -0.627 ETKDGv2 46
-1N1 H192   5.334  0.428 -1.102 ETKDGv2 47
-1N1 H201   8.422  2.335  0.254 ETKDGv2 48
-1N1 H202   8.261  0.747 -0.574 ETKDGv2 49
-1N1 H211   9.390  1.141  2.293 ETKDGv2 50
-1N1 H212   9.456 -0.357  1.294 ETKDGv2 51
-1N1   HN   0.371 -0.361 -2.487 ETKDGv2 52
-1N1  HN2  -6.352 -1.312 -2.325 ETKDGv2 53
-1N1   H6 -10.712 -2.343 -0.407 ETKDGv2 54
-1N1 H171   7.319 -0.834  2.097 ETKDGv2 55
-1N1 H172   6.908 -0.975  0.349 ETKDGv2 56
-1N1 H181   5.354  2.372  1.290 ETKDGv2 57
-1N1 H182   6.258  2.578 -0.226 ETKDGv2 58
-1N1  HO1  10.794  2.111  0.901 ETKDGv2 59
+1N1   C1   3.715  2.091 -1.014 ETKDGv2  1
+1N1   C2   3.966  0.890 -0.484 ETKDGv2  2
+1N1   C3   5.294  0.287 -0.272 ETKDGv2  3
+1N1   N6  -6.981 -1.117 -0.342 ETKDGv2  4
+1N1   C7  10.380 -0.489  0.241 ETKDGv2  5
+1N1   C8   9.994 -0.508 -1.039 ETKDGv2  6
+1N1   C9   8.640 -0.036 -1.423 ETKDGv2  7
+1N1  C10   8.237 -0.079 -2.872 ETKDGv2  8
+1N1  C11  -0.811  0.840  0.064 ETKDGv2  9
+1N1  C12  -2.125  0.913 -0.199 ETKDGv2 10
+1N1  C13  -3.059  0.043  0.553 ETKDGv2 11
+1N1  C14  -1.177 -0.829  1.737 ETKDGv2 12
+1N1  C15  -0.670 -1.727  2.814 ETKDGv2 13
+1N1  C16  -5.446 -0.114  1.382 ETKDGv2 14
+1N1  C19  -5.010  0.242 -1.054 ETKDGv2 15
+1N1  C20  -8.047 -0.092 -0.426 ETKDGv2 16
+1N1  C21  -9.402 -0.711 -0.077 ETKDGv2 17
+1N1    N   0.110  1.697 -0.630 ETKDGv2 18
+1N1    C   1.537  1.547 -0.606 ETKDGv2 19
+1N1   N1   2.326  2.452 -1.091 ETKDGv2 20
+1N1    S   2.430  0.117 -0.019 ETKDGv2 21
+1N1   N2   6.481  0.883 -0.817 ETKDGv2 22
+1N1   C4   7.795  0.418 -0.467 ETKDGv2 23
+1N1   C5   8.247  0.457  0.954 ETKDGv2 24
+1N1   C6   9.470  0.020  1.281 ETKDGv2 25
+1N1   CL   7.227  1.145  2.211 ETKDGv2 26
+1N1    O   5.376 -0.785  0.386 ETKDGv2 27
+1N1   N3  -2.585 -0.758  1.464 ETKDGv2 28
+1N1   N4  -0.351 -0.064  1.084 ETKDGv2 29
+1N1   N5  -4.477  0.088  0.301 ETKDGv2 30
+1N1  C17  -6.407 -1.259  1.017 ETKDGv2 31
+1N1  C18  -5.929 -0.943 -1.367 ETKDGv2 32
+1N1   O1 -10.418  0.247 -0.191 ETKDGv2 33
+1N1   H1   4.486  2.768 -1.353 ETKDGv2 34
+1N1   H7  11.368 -0.837  0.515 ETKDGv2 35
+1N1   H8  10.678 -0.876 -1.794 ETKDGv2 36
+1N1 H101   8.982 -0.636 -3.478 ETKDGv2 37
+1N1 H102   8.164  0.955 -3.271 ETKDGv2 38
+1N1 H103   7.256 -0.588 -2.982 ETKDGv2 39
+1N1  H12  -2.498  1.615 -0.934 ETKDGv2 40
+1N1 H151  -0.574 -1.153  3.760 ETKDGv2 41
+1N1 H152  -1.375 -2.570  2.970 ETKDGv2 42
+1N1 H153   0.323 -2.139  2.534 ETKDGv2 43
+1N1 H161  -6.011  0.827  1.544 ETKDGv2 44
+1N1 H162  -4.941 -0.354  2.342 ETKDGv2 45
+1N1 H191  -4.198  0.265 -1.811 ETKDGv2 46
+1N1 H192  -5.578  1.195 -1.124 ETKDGv2 47
+1N1 H201  -8.125  0.317 -1.458 ETKDGv2 48
+1N1 H202  -7.849  0.769  0.247 ETKDGv2 49
+1N1 H211  -9.609 -1.578 -0.746 ETKDGv2 50
+1N1 H212  -9.390 -1.083  0.968 ETKDGv2 51
+1N1   HN  -0.275  2.492 -1.190 ETKDGv2 52
+1N1  HN2   6.394  1.563 -1.604 ETKDGv2 53
+1N1   H6   9.809  0.058  2.308 ETKDGv2 54
+1N1 H171  -5.849 -2.220  1.070 ETKDGv2 55
+1N1 H172  -7.212 -1.319  1.780 ETKDGv2 56
+1N1 H181  -6.380 -0.817 -2.376 ETKDGv2 57
+1N1 H182  -5.316 -1.870 -1.414 ETKDGv2 58
+1N1  HO1 -10.608  0.348 -1.161 ETKDGv2 59
 #

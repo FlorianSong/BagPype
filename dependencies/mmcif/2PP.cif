@@ -134,10 +134,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-2PP  "Create component" 1999-07-08 RCSB ? ?
-2PP "Modify descriptor" 2011-06-04 RCSB ? ?
+2PP  "Create component" 1999-07-08 RCSB
+2PP "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   2PP
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00313
@@ -192,10 +190,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-2PP                     Stavzor   ChEMBL
 2PP                       44089   ChEMBL
-2PP                    Depakene   ChEMBL
 2PP                    Depakote   ChEMBL
+2PP                    Depakene   ChEMBL
+2PP                     Stavzor   ChEMBL
 2PP                    Convulex   ChEMBL
 2PP             "Valproic Acid"   ChEMBL
 2PP             "Valproic acid"   ChEMBL
@@ -307,30 +305,30 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-2PP     C1 -0.005  1.679 -0.897 ETKDGv2  1
-2PP     C2  0.013  0.772  0.313 ETKDGv2  2
-2PP     C3  1.437  0.234  0.580 ETKDGv2  3
-2PP     C4  1.984 -0.684 -0.526 ETKDGv2  4
-2PP     C5  3.406 -1.136 -0.209 ETKDGv2  5
-2PP  "C1'" -1.037 -0.361  0.225 ETKDGv2  6
-2PP  "C2'" -2.474  0.179  0.301 ETKDGv2  7
-2PP  "C3'" -3.493 -0.955  0.236 ETKDGv2  8
-2PP     O1 -0.243  1.214 -2.044 ETKDGv2  9
-2PP     O2  0.291  3.032 -0.764 ETKDGv2 10
-2PP     H2 -0.252  1.394  1.198 ETKDGv2 11
-2PP    H31  2.125  1.100  0.707 ETKDGv2 12
-2PP    H32  1.434 -0.322  1.544 ETKDGv2 13
-2PP    H41  1.345 -1.587 -0.625 ETKDGv2 14
-2PP    H42  1.995 -0.149 -1.499 ETKDGv2 15
-2PP    H51  4.083 -0.258 -0.134 ETKDGv2 16
-2PP    H52  3.428 -1.699  0.749 ETKDGv2 17
-2PP    H53  3.775 -1.800 -1.019 ETKDGv2 18
-2PP "H1'1" -0.910 -0.933 -0.720 ETKDGv2 19
-2PP "H1'2" -0.881 -1.065  1.072 ETKDGv2 20
-2PP "H2'1" -2.663  0.876 -0.544 ETKDGv2 21
-2PP "H2'2" -2.616  0.735  1.253 ETKDGv2 22
-2PP "H3'1" -4.519 -0.536  0.293 ETKDGv2 23
-2PP "H3'2" -3.389 -1.512 -0.719 ETKDGv2 24
-2PP "H3'3" -3.347 -1.654  1.087 ETKDGv2 25
-2PP    HO2  0.514  3.435  0.139 ETKDGv2 26
+2PP     C1 -0.228 -1.598  0.699 ETKDGv2  1
+2PP     C2  0.156 -0.152  0.509 ETKDGv2  2
+2PP     C3 -1.089  0.764  0.547 ETKDGv2  3
+2PP     C4 -2.082  0.539 -0.607 ETKDGv2  4
+2PP     C5 -3.299  1.450 -0.466 ETKDGv2  5
+2PP  "C1'"  1.015  0.074 -0.761 ETKDGv2  6
+2PP  "C2'"  2.388 -0.621 -0.712 ETKDGv2  7
+2PP  "C3'"  3.360  0.045  0.262 ETKDGv2  8
+2PP     O1 -0.536 -2.320 -0.288 ETKDGv2  9
+2PP     O2 -0.284 -2.129  1.984 ETKDGv2 10
+2PP     H2  0.768  0.141  1.388 ETKDGv2 11
+2PP    H31 -0.751  1.824  0.531 ETKDGv2 12
+2PP    H32 -1.615  0.606  1.515 ETKDGv2 13
+2PP    H41 -2.432 -0.514 -0.612 ETKDGv2 14
+2PP    H42 -1.595  0.758 -1.580 ETKDGv2 15
+2PP    H51 -3.832  1.237  0.485 ETKDGv2 16
+2PP    H52 -2.987  2.516 -0.481 ETKDGv2 17
+2PP    H53 -3.996  1.272 -1.311 ETKDGv2 18
+2PP "H1'1"  0.472 -0.308 -1.652 ETKDGv2 19
+2PP "H1'2"  1.168  1.164 -0.919 ETKDGv2 20
+2PP "H2'1"  2.836 -0.577 -1.728 ETKDGv2 21
+2PP "H2'2"  2.275 -1.695 -0.448 ETKDGv2 22
+2PP "H3'1"  3.436  1.134  0.054 ETKDGv2 23
+2PP "H3'2"  3.037 -0.110  1.312 ETKDGv2 24
+2PP "H3'3"  4.367 -0.406  0.144 ETKDGv2 25
+2PP    HO2 -0.553 -3.094  2.137 ETKDGv2 26
 #

@@ -160,10 +160,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-ANM  "Create component" 2001-10-30 RCSB ? ?
-ANM "Modify descriptor" 2011-06-04 RCSB ? ?
+ANM  "Create component" 2001-10-30 RCSB
+ANM "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   ANM
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB07374
@@ -209,9 +207,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-ANM   Flagecidin ChEMBL
 ANM  GNF-Pf-4549 ChEMBL
 ANM TCMDC-125504 ChEMBL
+ANM   Flagecidin ChEMBL
 #
 loop_
 _software.name              
@@ -360,42 +358,42 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ANM   C1  1.998 -1.434  1.508 ETKDGv2  1
-ANM   C2 -1.595  0.975 -0.480 ETKDGv2  2
-ANM   C3 -2.698  1.866 -1.029 ETKDGv2  3
-ANM   C4 -3.259  1.099 -2.230 ETKDGv2  4
-ANM   C5 -1.792  0.162  1.874 ETKDGv2  5
-ANM   C6 -2.392 -0.819  2.822 ETKDGv2  6
-ANM   C9  3.077 -0.811  1.015 ETKDGv2  7
-ANM  C10  3.033 -0.269 -0.369 ETKDGv2  8
-ANM  C11  1.923 -0.396 -1.108 ETKDGv2  9
-ANM  C12  0.725 -1.071 -0.553 ETKDGv2 10
-ANM  C13  0.776 -1.578  0.691 ETKDGv2 11
-ANM  C14  5.418 -0.054  1.418 ETKDGv2 12
-ANM  C15 -0.525 -1.197 -1.391 ETKDGv2 13
-ANM  C16 -1.154  0.174 -1.708 ETKDGv2 14
-ANM   N1 -2.342 -0.001 -2.546 ETKDGv2 15
-ANM   O1  4.214 -0.693  1.826 ETKDGv2 16
-ANM   O2 -2.147  0.114  0.521 ETKDGv2 17
-ANM   O3 -1.002  1.043  2.308 ETKDGv2 18
-ANM   O4 -2.198  3.126 -1.411 ETKDGv2 19
-ANM   H1  2.014 -1.836  2.513 ETKDGv2 20
-ANM   H2 -0.747  1.577 -0.081 ETKDGv2 21
-ANM   H3 -3.492  2.026 -0.266 ETKDGv2 22
-ANM  H41 -4.249  0.668 -1.968 ETKDGv2 23
-ANM  H42 -3.398  1.769 -3.108 ETKDGv2 24
-ANM  H61 -2.759 -1.707  2.267 ETKDGv2 25
-ANM  H62 -1.630 -1.148  3.560 ETKDGv2 26
-ANM  H63 -3.242 -0.346  3.356 ETKDGv2 27
-ANM  H10  3.893  0.229 -0.796 ETKDGv2 28
-ANM  H11  1.907 -0.005 -2.117 ETKDGv2 29
-ANM  H13 -0.077 -2.092  1.117 ETKDGv2 30
-ANM H141  5.221  1.012  1.175 ETKDGv2 31
-ANM H142  6.153 -0.100  2.247 ETKDGv2 32
-ANM H143  5.845 -0.573  0.534 ETKDGv2 33
-ANM H151 -0.251 -1.693 -2.347 ETKDGv2 34
-ANM H152 -1.277 -1.852 -0.898 ETKDGv2 35
-ANM  H16 -0.406  0.784 -2.267 ETKDGv2 36
-ANM  HN1 -2.061  0.063 -3.553 ETKDGv2 37
-ANM  HO4 -1.503  2.986 -2.107 ETKDGv2 38
+ANM   C1  2.819  1.043  1.719 ETKDGv2  1
+ANM   C2 -2.300 -0.876 -0.973 ETKDGv2  2
+ANM   C3 -2.943 -2.000 -0.178 ETKDGv2  3
+ANM   C4 -2.269 -1.937  1.194 ETKDGv2  4
+ANM   C5 -3.619  1.061 -1.849 ETKDGv2  5
+ANM   C6 -4.401  2.292 -1.543 ETKDGv2  6
+ANM   C9  3.803  0.690  0.880 ETKDGv2  7
+ANM  C10  3.463  0.304 -0.516 ETKDGv2  8
+ANM  C11  2.189  0.314 -0.927 ETKDGv2  9
+ANM  C12  1.105  0.714  0.002 ETKDGv2 10
+ANM  C13  1.413  1.049  1.267 ETKDGv2 11
+ANM  C14  6.251  0.343  0.559 ETKDGv2 12
+ANM  C15 -0.328  0.680 -0.461 ETKDGv2 13
+ANM  C16 -0.921 -0.735 -0.327 ETKDGv2 14
+ANM   N1 -1.066 -1.106  1.083 ETKDGv2 15
+ANM   O1  5.123  0.697  1.351 ETKDGv2 16
+ANM   O2 -3.070  0.319 -0.797 ETKDGv2 17
+ANM   O3 -3.497  0.682 -3.045 ETKDGv2 18
+ANM   O4 -2.737 -3.249 -0.796 ETKDGv2 19
+ANM   H1  3.049  1.324  2.739 ETKDGv2 20
+ANM   H2 -2.203 -1.146 -2.048 ETKDGv2 21
+ANM   H3 -4.039 -1.838 -0.080 ETKDGv2 22
+ANM  H41 -2.958 -1.461  1.925 ETKDGv2 23
+ANM  H42 -2.022 -2.956  1.570 ETKDGv2 24
+ANM  H61 -5.481  2.041 -1.493 ETKDGv2 25
+ANM  H62 -4.237  3.055 -2.333 ETKDGv2 26
+ANM  H63 -4.079  2.712 -0.567 ETKDGv2 27
+ANM  H10  4.236  0.009 -1.213 ETKDGv2 28
+ANM  H11  1.951  0.026 -1.943 ETKDGv2 29
+ANM  H13  0.636  1.323  1.971 ETKDGv2 30
+ANM H141  7.170  0.435  1.174 ETKDGv2 31
+ANM H142  6.335  1.027 -0.312 ETKDGv2 32
+ANM H143  6.158 -0.708  0.211 ETKDGv2 33
+ANM H151 -0.369  0.995 -1.527 ETKDGv2 34
+ANM H152 -0.936  1.408  0.120 ETKDGv2 35
+ANM  H16 -0.235 -1.456 -0.833 ETKDGv2 36
+ANM  HN1 -0.232 -1.670  1.373 ETKDGv2 37
+ANM  HO4 -1.758 -3.406 -0.857 ETKDGv2 38
 #

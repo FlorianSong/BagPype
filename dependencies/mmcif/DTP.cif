@@ -177,10 +177,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-DTP  "Create component" 1999-07-08  EBI ? ?
-DTP "Modify descriptor" 2011-06-04 RCSB ? ?
+DTP  "Create component" 1999-07-08  EBI
+DTP "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   DTP
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB03222
@@ -219,9 +217,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-DTP                                dATP   ChEMBL
 DTP "2'-Deoxyadenosine 5'-Triphosphate"   ChEMBL
 DTP    "Deoxyadenosine 5'-Triphosphate"   ChEMBL
+DTP                                dATP   ChEMBL
 DTP "2'-Deoxyadenosine 5'-triphosphate" DrugBank
 DTP    "Deoxyadenosine 5'-triphosphate" DrugBank
 DTP       "Deoxyadenosine triphosphate" DrugBank
@@ -460,50 +458,50 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DTP     PG  7.742  0.939 -1.312 ETKDGv2  1
-DTP    O1G  8.474  1.257 -0.027 ETKDGv2  2
-DTP    O2G  8.115  2.126 -2.459 ETKDGv2  3
-DTP    O3G  8.254 -0.566 -1.897 ETKDGv2  4
-DTP     PB  5.658 -0.394 -0.086 ETKDGv2  5
-DTP    O1B  6.540 -0.445  1.142 ETKDGv2  6
-DTP    O2B  5.861 -1.832 -0.960 ETKDGv2  7
-DTP    O3B  6.059  0.958 -1.045 ETKDGv2  8
-DTP     PA  3.024 -0.444 -0.902 ETKDGv2  9
-DTP    O1A  3.002 -1.897 -1.322 ETKDGv2 10
-DTP    O2A  3.548  0.506 -2.203 ETKDGv2 11
-DTP    O3A  4.048 -0.242  0.446 ETKDGv2 12
-DTP  "O5'"  1.444  0.048 -0.491 ETKDGv2 13
-DTP  "C5'"  1.036 -0.667  0.652 ETKDGv2 14
-DTP  "C4'" -0.398 -0.258  1.010 ETKDGv2 15
-DTP  "O4'" -1.290 -0.652 -0.006 ETKDGv2 16
-DTP  "C3'" -0.893 -0.843  2.331 ETKDGv2 17
-DTP  "O3'" -0.403 -2.143  2.572 ETKDGv2 18
-DTP  "C2'" -2.385 -0.852  2.127 ETKDGv2 19
-DTP  "C1'" -2.532 -0.937  0.608 ETKDGv2 20
-DTP     N9 -3.557 -0.010  0.132 ETKDGv2 21
-DTP     C8 -3.436  1.107 -0.760 ETKDGv2 22
-DTP     N7 -4.575  1.682 -1.027 ETKDGv2 23
-DTP     C5 -5.529  0.925 -0.287 ETKDGv2 24
-DTP     C6 -6.987  1.075 -0.214 ETKDGv2 25
-DTP     N6 -7.665  2.115 -0.918 ETKDGv2 26
-DTP     N1 -7.655  0.223  0.519 ETKDGv2 27
-DTP     C2 -6.983 -0.842  1.239 ETKDGv2 28
-DTP     N3 -5.683 -0.974  1.169 ETKDGv2 29
-DTP     C4 -4.949 -0.040  0.370 ETKDGv2 30
-DTP   HOG2  9.086  2.022 -2.624 ETKDGv2 31
-DTP   HOG3  7.888 -0.616 -2.816 ETKDGv2 32
-DTP   HOB2  5.671 -1.591 -1.902 ETKDGv2 33
-DTP   HOA2  2.869  0.362 -2.910 ETKDGv2 34
-DTP "H5'1"  1.692 -0.423  1.518 ETKDGv2 35
-DTP "H5'2"  1.061 -1.763  0.457 ETKDGv2 36
-DTP  "H4'" -0.430  0.854  1.087 ETKDGv2 37
-DTP  "H3'" -0.612 -0.188  3.184 ETKDGv2 38
-DTP "HO3'" -0.697 -2.731  1.826 ETKDGv2 39
-DTP "H2'1" -2.816  0.099  2.515 ETKDGv2 40
-DTP "H2'2" -2.876 -1.709  2.638 ETKDGv2 41
-DTP  "H1'" -2.826 -1.971  0.325 ETKDGv2 42
-DTP     H8 -2.497  1.446 -1.176 ETKDGv2 43
-DTP   HN61 -8.703  2.206 -0.855 ETKDGv2 44
-DTP   HN62 -7.132  2.796 -1.504 ETKDGv2 45
-DTP     H2 -7.561 -1.534  1.836 ETKDGv2 46
+DTP     PG  7.369 -0.457 -0.156 ETKDGv2  1
+DTP    O1G  7.435  0.981 -0.619 ETKDGv2  2
+DTP    O2G  8.295 -0.619  1.251 ETKDGv2  3
+DTP    O3G  8.017 -1.466 -1.351 ETKDGv2  4
+DTP     PB  4.918 -1.021 -1.276 ETKDGv2  5
+DTP    O1B  5.298 -2.327 -1.936 ETKDGv2  6
+DTP    O2B  5.290  0.255 -2.330 ETKDGv2  7
+DTP    O3B  5.759 -0.880  0.199 ETKDGv2  8
+DTP     PA  2.788  0.490 -0.414 ETKDGv2  9
+DTP    O1A  2.841  1.472 -1.565 ETKDGv2 10
+DTP    O2A  3.810  1.004  0.839 ETKDGv2 11
+DTP    O3A  3.246 -1.055 -0.964 ETKDGv2 12
+DTP  "O5'"  1.187  0.382  0.163 ETKDGv2 13
+DTP  "C5'"  0.810  1.634  0.687 ETKDGv2 14
+DTP  "C4'" -0.647  1.581  1.179 ETKDGv2 15
+DTP  "O4'" -1.497  1.305  0.086 ETKDGv2 16
+DTP  "C3'" -0.910  0.548  2.277 ETKDGv2 17
+DTP  "O3'"  0.250  0.208  2.993 ETKDGv2 18
+DTP  "C2'" -1.460 -0.626  1.518 ETKDGv2 19
+DTP  "C1'" -2.018  0.002  0.248 ETKDGv2 20
+DTP     N9 -3.477  0.068  0.303 ETKDGv2 21
+DTP     C8 -4.312  0.864  1.155 ETKDGv2 22
+DTP     N7 -5.580  0.768  0.872 ETKDGv2 23
+DTP     C5 -5.624 -0.134 -0.230 ETKDGv2 24
+DTP     C6 -6.776 -0.597 -1.013 ETKDGv2 25
+DTP     N6 -8.105 -0.189 -0.694 ETKDGv2 26
+DTP     N1 -6.549 -1.399 -2.020 ETKDGv2 27
+DTP     C2 -5.204 -1.821 -2.362 ETKDGv2 28
+DTP     N3 -4.180 -1.403 -1.664 ETKDGv2 29
+DTP     C4 -4.424 -0.529 -0.557 ETKDGv2 30
+DTP   HOG2  7.824 -0.071  1.928 ETKDGv2 31
+DTP   HOG3  8.039 -2.365 -0.936 ETKDGv2 32
+DTP   HOB2  4.793  0.049 -3.162 ETKDGv2 33
+DTP   HOA2  3.868  1.988  0.742 ETKDGv2 34
+DTP "H5'1"  0.874  2.424 -0.096 ETKDGv2 35
+DTP "H5'2"  1.463  1.924  1.541 ETKDGv2 36
+DTP  "H4'" -0.904  2.589  1.574 ETKDGv2 37
+DTP  "H3'" -1.689  0.944  2.971 ETKDGv2 38
+DTP "HO3'" -0.047 -0.338  3.767 ETKDGv2 39
+DTP "H2'1" -0.644 -1.338  1.258 ETKDGv2 40
+DTP "H2'2" -2.233 -1.166  2.108 ETKDGv2 41
+DTP  "H1'" -1.713 -0.613 -0.627 ETKDGv2 42
+DTP     H8 -3.935  1.493  1.950 ETKDGv2 43
+DTP   HN61 -8.287  0.452  0.110 ETKDGv2 44
+DTP   HN62 -8.913 -0.527 -1.263 ETKDGv2 45
+DTP     H2 -5.047 -2.483 -3.202 ETKDGv2 46
 #

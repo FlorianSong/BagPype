@@ -133,10 +133,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-S2D  "Create component" 2006-12-23 RCSB ? ?
-S2D "Modify descriptor" 2011-06-04 RCSB ? ?
+S2D  "Create component" 2006-12-23 RCSB
+S2D "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   S2D
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB08508
@@ -169,8 +167,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-S2D               Benzoyl-D-Alanine ChEMBL
 S2D "2-Benzoylamino-Propionic Acid" ChEMBL
+S2D               Benzoyl-D-Alanine ChEMBL
 #
 loop_
 _software.name              
@@ -311,29 +309,29 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-S2D   O2  0.073 -1.961  0.744 ETKDGv2  1
-S2D   C4 -0.083 -0.868  0.132 ETKDGv2  2
-S2D  C27 -1.441 -0.287  0.009 ETKDGv2  3
-S2D  C32 -2.532 -1.071  0.113 ETKDGv2  4
-S2D  C31 -3.887 -0.492 -0.012 ETKDGv2  5
-S2D  C30 -4.040  0.820 -0.220 ETKDGv2  6
-S2D  C29 -2.855  1.694 -0.317 ETKDGv2  7
-S2D  C28 -1.625  1.175 -0.207 ETKDGv2  8
-S2D   N1  1.058 -0.209 -0.443 ETKDGv2  9
-S2D   C2  2.429 -0.665 -0.185 ETKDGv2 10
-S2D   C3  3.409  0.001 -1.156 ETKDGv2 11
-S2D   C1  2.829 -0.365  1.233 ETKDGv2 12
-S2D   O1  3.842 -0.926  1.730 ETKDGv2 13
-S2D  OXT  2.097  0.541  1.998 ETKDGv2 14
-S2D   H1  0.902  0.568 -1.124 ETKDGv2 15
-S2D  H32 -2.439 -2.138  0.274 ETKDGv2 16
-S2D  H28 -0.773  1.839 -0.250 ETKDGv2 17
-S2D  H31 -4.755 -1.135  0.064 ETKDGv2 18
-S2D  H30 -5.031  1.244 -0.312 ETKDGv2 19
-S2D  H29 -2.984  2.758 -0.466 ETKDGv2 20
-S2D   H2  2.478 -1.764 -0.349 ETKDGv2 21
-S2D H3C1  3.118 -0.230 -2.203 ETKDGv2 22
-S2D H3C2  4.438 -0.383 -0.988 ETKDGv2 23
-S2D H3C3  3.407  1.103 -1.017 ETKDGv2 24
-S2D  HXT  2.364  0.750  2.952 ETKDGv2 25
+S2D   O2 -0.191  1.147  1.814 ETKDGv2  1
+S2D   C4  0.037  0.473  0.773 ETKDGv2  2
+S2D  C27  1.441  0.227  0.367 ETKDGv2  3
+S2D  C32  1.773 -0.807 -0.433 ETKDGv2  4
+S2D  C31  3.183 -1.037 -0.813 ETKDGv2  5
+S2D  C30  4.143 -0.225 -0.357 ETKDGv2  6
+S2D  C29  3.796  0.903  0.529 ETKDGv2  7
+S2D  C28  2.520  1.117  0.875 ETKDGv2  8
+S2D   N1 -1.062 -0.023 -0.010 ETKDGv2  9
+S2D   C2 -2.456  0.087  0.432 ETKDGv2 10
+S2D   C3 -3.106  1.307 -0.222 ETKDGv2 11
+S2D   C1 -3.221 -1.165  0.095 ETKDGv2 12
+S2D   O1 -4.413 -1.293  0.486 ETKDGv2 13
+S2D  OXT -2.623 -2.191 -0.633 ETKDGv2 14
+S2D   H1 -0.886 -0.290 -1.005 ETKDGv2 15
+S2D  H32  1.027 -1.503 -0.792 ETKDGv2 16
+S2D  H28  2.280  1.951  1.522 ETKDGv2 17
+S2D  H31  3.436 -1.868 -1.459 ETKDGv2 18
+S2D  H30  5.176 -0.395 -0.634 ETKDGv2 19
+S2D  H29  4.576  1.556  0.898 ETKDGv2 20
+S2D   H2 -2.495  0.212  1.537 ETKDGv2 21
+S2D H3C1 -3.117  1.195 -1.328 ETKDGv2 22
+S2D H3C2 -4.148  1.432  0.141 ETKDGv2 23
+S2D H3C3 -2.534  2.223  0.038 ETKDGv2 24
+S2D  HXT -3.135 -3.036 -0.858 ETKDGv2 25
 #

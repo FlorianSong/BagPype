@@ -171,11 +171,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MI1     "Create component" 2008-10-24 RCSB ? ?
-MI1 "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-MI1    "Modify descriptor" 2011-06-04 RCSB ? ?
+MI1     "Create component" 2008-10-24 RCSB
+MI1 "Modify aromatic_flag" 2011-06-04 RCSB
+MI1    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   MI1
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB08895
@@ -212,11 +210,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-MI1   CP-690550   ChEMBL
-MI1 Tasocitinib   ChEMBL
 MI1      CP-690   ChEMBL
-MI1 Tofacitinib   ChEMBL
 MI1         550   ChEMBL
+MI1 Tofacitinib   ChEMBL
+MI1 Tasocitinib   ChEMBL
+MI1   CP-690550   ChEMBL
 MI1 Tasocitinib DrugBank
 MI1 Tofacitinib DrugBank
 #
@@ -395,47 +393,47 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MI1   C1  0.337 -0.065  0.419 ETKDGv2  1
-MI1   C2  1.515  0.856  0.802 ETKDGv2  2
-MI1   C4  3.165 -0.854  0.011 ETKDGv2  3
-MI1   C5  2.028 -1.812 -0.365 ETKDGv2  4
-MI1   C6  0.750 -1.566  0.471 ETKDGv2  5
-MI1   N3  2.676  0.528 -0.032 ETKDGv2  6
-MI1  O21  4.541  1.455 -1.089 ETKDGv2  7
-MI1  C20  3.294  1.496 -0.902 ETKDGv2  8
-MI1  C22  2.484  2.583 -1.558 ETKDGv2  9
-MI1  C23  2.965  2.854 -2.918 ETKDGv2 10
-MI1  N24  3.343  3.067 -3.991 ETKDGv2 11
-MI1   C7  0.908 -2.104  1.904 ETKDGv2 12
-MI1   N8 -0.889  0.190  1.209 ETKDGv2 13
-MI1   C9 -0.859  0.860  2.514 ETKDGv2 14
-MI1  C10 -2.129 -0.390  0.775 ETKDGv2 15
-MI1  C15 -2.714 -0.042 -0.373 ETKDGv2 16
-MI1  C16 -2.422  0.953 -1.400 ETKDGv2 17
-MI1  C11 -3.424  0.914 -2.291 ETKDGv2 18
-MI1  N12 -4.427 -0.057 -1.956 ETKDGv2 19
-MI1  C14 -3.960 -0.629 -0.750 ETKDGv2 20
-MI1  N17 -4.581 -1.492 -0.007 ETKDGv2 21
-MI1  C18 -3.955 -1.889  1.234 ETKDGv2 22
-MI1  N19 -2.809 -1.366  1.599 ETKDGv2 23
-MI1   H1  0.115  0.167 -0.645 ETKDGv2 24
-MI1   H2  1.794  0.719  1.867 ETKDGv2 25
-MI1  H2A  1.217  1.918  0.679 ETKDGv2 26
-MI1   H4  4.008 -1.004 -0.698 ETKDGv2 27
-MI1  H4A  3.539 -1.084  1.032 ETKDGv2 28
-MI1   H5  1.785 -1.665 -1.441 ETKDGv2 29
-MI1  H5A  2.372 -2.863 -0.248 ETKDGv2 30
-MI1   H6 -0.064 -2.158 -0.003 ETKDGv2 31
-MI1  H22  2.555  3.511 -0.953 ETKDGv2 32
-MI1 H22A  1.420  2.278 -1.631 ETKDGv2 33
-MI1   H7  1.217 -3.170  1.879 ETKDGv2 34
-MI1  H7A  1.666 -1.532  2.476 ETKDGv2 35
-MI1  H7B -0.061 -2.054  2.444 ETKDGv2 36
-MI1   H9 -0.476  1.896  2.403 ETKDGv2 37
-MI1  H9A -0.214  0.298  3.219 ETKDGv2 38
-MI1  H9B -1.878  0.928  2.952 ETKDGv2 39
-MI1  H16 -1.579  1.630 -1.435 ETKDGv2 40
-MI1  H11 -3.487  1.557 -3.158 ETKDGv2 41
-MI1  H18 -4.441 -2.615  1.871 ETKDGv2 42
-MI1 HN12 -5.324 -0.248 -2.454 ETKDGv2 43
+MI1   C1  0.000 -0.553  0.070 ETKDGv2  1
+MI1   C2  1.316  0.017  0.633 ETKDGv2  2
+MI1   C4  2.578 -0.953 -1.309 ETKDGv2  3
+MI1   C5  1.283 -1.557 -1.875 ETKDGv2  4
+MI1   C6  0.234 -1.839 -0.774 ETKDGv2  5
+MI1   N3  2.265  0.212 -0.469 ETKDGv2  6
+MI1  O21  2.083  2.541 -0.542 ETKDGv2  7
+MI1  C20  2.794  1.521 -0.758 ETKDGv2  8
+MI1  C22  4.163  1.691 -1.359 ETKDGv2  9
+MI1  C23  4.852  2.853 -0.784 ETKDGv2 10
+MI1  N24  5.395  3.769 -0.331 ETKDGv2 11
+MI1   C7  0.617 -3.082  0.047 ETKDGv2 12
+MI1   N8 -1.043 -0.724  1.106 ETKDGv2 13
+MI1   C9 -0.802 -1.382  2.395 ETKDGv2 14
+MI1  C10 -2.387 -0.289  0.839 ETKDGv2 15
+MI1  C15 -2.684  0.979  0.538 ETKDGv2 16
+MI1  C16 -1.908  2.212  0.447 ETKDGv2 17
+MI1  C11 -2.767  3.208  0.186 ETKDGv2 18
+MI1  N12 -4.126  2.758  0.089 ETKDGv2 19
+MI1  C14 -4.042  1.366  0.321 ETKDGv2 20
+MI1  N17 -5.033  0.535  0.421 ETKDGv2 21
+MI1  C18 -4.729 -0.843  0.736 ETKDGv2 22
+MI1  N19 -3.489 -1.222  0.936 ETKDGv2 23
+MI1   H1 -0.360  0.206 -0.660 ETKDGv2 24
+MI1   H2  1.112  0.971  1.164 ETKDGv2 25
+MI1  H2A  1.779 -0.669  1.369 ETKDGv2 26
+MI1   H4  3.230 -0.675 -2.163 ETKDGv2 27
+MI1  H4A  3.119 -1.710 -0.702 ETKDGv2 28
+MI1   H5  1.521 -2.488 -2.434 ETKDGv2 29
+MI1  H5A  0.852 -0.840 -2.607 ETKDGv2 30
+MI1   H6 -0.724 -2.079 -1.288 ETKDGv2 31
+MI1  H22  4.069  1.827 -2.456 ETKDGv2 32
+MI1 H22A  4.785  0.794 -1.157 ETKDGv2 33
+MI1   H7  0.850 -3.930 -0.631 ETKDGv2 34
+MI1  H7A -0.234 -3.405  0.679 ETKDGv2 35
+MI1  H7B  1.503 -2.896  0.686 ETKDGv2 36
+MI1   H9 -0.986 -0.661  3.218 ETKDGv2 37
+MI1  H9A  0.234 -1.758  2.488 ETKDGv2 38
+MI1  H9B -1.488 -2.246  2.515 ETKDGv2 39
+MI1  H16 -0.842  2.326  0.582 ETKDGv2 40
+MI1  H11 -2.475  4.244  0.076 ETKDGv2 41
+MI1  H18 -5.530 -1.564  0.818 ETKDGv2 42
+MI1 HN12 -4.983  3.335 -0.062 ETKDGv2 43
 #

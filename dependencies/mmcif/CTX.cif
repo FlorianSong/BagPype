@@ -199,10 +199,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-CTX  "Create component" 2005-01-14 RCSB ? ?
-CTX "Modify descriptor" 2011-06-04 RCSB ? ?
+CTX  "Create component" 2005-01-14 RCSB
+CTX "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   CTX
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00675
@@ -251,10 +249,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-CTX                                                         ICI-46474   ChEMBL
 CTX                                                          Nolvadex   ChEMBL
-CTX                                                          Soltamox   ChEMBL
 CTX                                                         Tamoxifen   ChEMBL
+CTX                                                         ICI-46474   ChEMBL
+CTX                                                          Soltamox   ChEMBL
 CTX  (Z)-2-(4-(1,2-Diphenyl-1-butenyl)phenoxy)-N,N-dimethylethanamine DrugBank
 CTX    (Z)-2-(para-(1,2-Diphenyl-1-butenyl)phenoxy)-N,N-dimethylamine DrugBank
 CTX    1-p-beta-Dimethylaminoethoxyphenyl-trans-1,2-diphenylbut-1-ene DrugBank
@@ -452,61 +450,61 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CTX   CA -1.603  3.001 -1.020 ETKDGv2  1
-CTX   CB -1.157  2.180  0.187 ETKDGv2  2
-CTX   OL  3.821 -1.213 -1.707 ETKDGv2  3
-CTX  CA1  4.973 -1.591 -0.951 ETKDGv2  4
-CTX  CB1  5.452 -0.438 -0.058 ETKDGv2  5
-CTX   C1  2.527 -1.021 -1.195 ETKDGv2  6
-CTX   C2  2.170 -1.377  0.056 ETKDGv2  7
-CTX   C3  0.794 -1.138  0.536 ETKDGv2  8
-CTX   C5  0.269 -0.190 -1.650 ETKDGv2  9
-CTX   C6  1.515 -0.410 -2.085 ETKDGv2 10
-CTX   C4 -0.112 -0.554 -0.265 ETKDGv2 11
-CTX   C7 -1.496 -0.325  0.210 ETKDGv2 12
-CTX   C8 -2.292 -1.533  0.549 ETKDGv2 13
-CTX   C9 -2.433 -2.530 -0.345 ETKDGv2 14
-CTX  C10 -3.225 -3.730 -0.005 ETKDGv2 15
-CTX  C11 -3.797 -3.838  1.200 ETKDGv2 16
-CTX  C12 -3.631 -2.760  2.196 ETKDGv2 17
-CTX  C13 -2.914 -1.671  1.892 ETKDGv2 18
-CTX  C14 -5.273  1.997  2.042 ETKDGv2 19
-CTX  C15 -6.198  1.489  1.218 ETKDGv2 20
-CTX  C16 -5.783  0.747  0.010 ETKDGv2 21
-CTX  C17 -4.483  0.579 -0.260 ETKDGv2 22
-CTX  C18 -3.450  1.129  0.655 ETKDGv2 23
-CTX  C19 -3.837  1.812  1.748 ETKDGv2 24
-CTX  C20 -2.009  0.930  0.349 ETKDGv2 25
-CTX   NI  5.541  0.825 -0.823 ETKDGv2 26
-CTX  C21  5.450  1.978  0.087 ETKDGv2 27
-CTX  C22  6.801  0.897 -1.583 ETKDGv2 28
-CTX  HA1 -0.938  3.881 -1.137 ETKDGv2 29
-CTX  HA2 -1.552  2.390 -1.946 ETKDGv2 30
-CTX  HA3 -2.644  3.363 -0.881 ETKDGv2 31
-CTX  HB1 -0.077  1.953  0.081 ETKDGv2 32
-CTX  HB2 -1.243  2.807  1.099 ETKDGv2 33
-CTX HA11  5.781 -1.867 -1.660 ETKDGv2 34
-CTX HA12  4.766 -2.497 -0.344 ETKDGv2 35
-CTX HB11  4.725 -0.338  0.777 ETKDGv2 36
-CTX HB12  6.430 -0.704  0.403 ETKDGv2 37
-CTX   H2  2.869 -1.847  0.733 ETKDGv2 38
-CTX   H3  0.530 -1.429  1.546 ETKDGv2 39
-CTX   H5 -0.463  0.243 -2.318 ETKDGv2 40
-CTX   H6  1.786 -0.141 -3.098 ETKDGv2 41
-CTX   H9 -1.984 -2.458 -1.328 ETKDGv2 42
-CTX  H10 -3.342 -4.521 -0.734 ETKDGv2 43
-CTX  H11 -4.378 -4.716  1.449 ETKDGv2 44
-CTX  H12 -4.083 -2.857  3.174 ETKDGv2 45
-CTX  H13 -2.784 -0.894  2.634 ETKDGv2 46
-CTX  H14 -5.576  2.540  2.927 ETKDGv2 47
-CTX  H15 -7.250  1.622  1.433 ETKDGv2 48
-CTX  H16 -6.533  0.344 -0.658 ETKDGv2 49
-CTX  H17 -4.187  0.041 -1.152 ETKDGv2 50
-CTX  H19 -3.107  2.214  2.440 ETKDGv2 51
-CTX H211  6.257  1.950  0.854 ETKDGv2 52
-CTX H212  5.524  2.929 -0.484 ETKDGv2 53
-CTX H213  4.463  1.984  0.597 ETKDGv2 54
-CTX H221  6.842  1.842 -2.167 ETKDGv2 55
-CTX H222  7.685  0.854 -0.909 ETKDGv2 56
-CTX H223  6.861  0.067 -2.317 ETKDGv2 57
+CTX   CA -1.747 -2.966  1.179 ETKDGv2  1
+CTX   CB -1.499 -2.289 -0.167 ETKDGv2  2
+CTX   OL  4.013  0.817  0.239 ETKDGv2  3
+CTX  CA1  4.752  0.526  1.422 ETKDGv2  4
+CTX  CB1  6.251  0.792  1.195 ETKDGv2  5
+CTX   C1  2.625  0.666  0.124 ETKDGv2  6
+CTX   C2  2.044  0.945 -1.051 ETKDGv2  7
+CTX   C3  0.584  0.795 -1.222 ETKDGv2  8
+CTX   C5  0.458  0.070  1.105 ETKDGv2  9
+CTX   C6  1.780  0.209  1.261 ETKDGv2 10
+CTX   C4 -0.175  0.361 -0.203 ETKDGv2 11
+CTX   C7 -1.642  0.226 -0.366 ETKDGv2 12
+CTX   C8 -2.396  1.474 -0.654 ETKDGv2 13
+CTX   C9 -2.271  2.547  0.148 ETKDGv2 14
+CTX  C10 -3.022  3.786 -0.141 ETKDGv2 15
+CTX  C11 -3.823  3.851 -1.211 ETKDGv2 16
+CTX  C12 -3.951  2.687 -2.110 ETKDGv2 17
+CTX  C13 -3.272  1.562 -1.852 ETKDGv2 18
+CTX  C14 -5.885 -1.864 -1.165 ETKDGv2 19
+CTX  C15 -6.575 -1.206 -0.226 ETKDGv2 20
+CTX  C16 -5.862 -0.413  0.795 ETKDGv2 21
+CTX  C17 -4.525 -0.349  0.781 ETKDGv2 22
+CTX  C18 -3.751 -1.066 -0.265 ETKDGv2 23
+CTX  C19 -4.409 -1.794 -1.186 ETKDGv2 24
+CTX  C20 -2.267 -0.981 -0.275 ETKDGv2 25
+CTX   NI  6.952 -0.227  0.380 ETKDGv2 26
+CTX  C21  7.032 -1.540  1.038 ETKDGv2 27
+CTX  C22  6.424 -0.346 -0.988 ETKDGv2 28
+CTX  HA1 -1.141 -3.894  1.246 ETKDGv2 29
+CTX  HA2 -1.459 -2.293  2.013 ETKDGv2 30
+CTX  HA3 -2.819 -3.239  1.286 ETKDGv2 31
+CTX  HB1 -0.406 -2.159 -0.300 ETKDGv2 32
+CTX  HB2 -1.820 -2.975 -0.978 ETKDGv2 33
+CTX HA11  4.400  1.196  2.235 ETKDGv2 34
+CTX HA12  4.575 -0.521  1.740 ETKDGv2 35
+CTX HB11  6.749  0.867  2.187 ETKDGv2 36
+CTX HB12  6.374  1.791  0.721 ETKDGv2 37
+CTX   H2  2.644  1.281 -1.888 ETKDGv2 38
+CTX   H3  0.139  1.029 -2.182 ETKDGv2 39
+CTX   H5 -0.150 -0.243  1.943 ETKDGv2 40
+CTX   H6  2.219 -0.005  2.226 ETKDGv2 41
+CTX   H9 -1.634  2.512  1.023 ETKDGv2 42
+CTX  H10 -2.925  4.640  0.517 ETKDGv2 43
+CTX  H11 -4.375  4.758 -1.423 ETKDGv2 44
+CTX  H12 -4.589  2.748 -2.982 ETKDGv2 45
+CTX  H13 -3.359  0.719 -2.526 ETKDGv2 46
+CTX  H14 -6.406 -2.445 -1.915 ETKDGv2 47
+CTX  H15 -7.656 -1.255 -0.211 ETKDGv2 48
+CTX  H16 -6.423  0.111  1.558 ETKDGv2 49
+CTX  H17 -4.009  0.228  1.539 ETKDGv2 50
+CTX  H19 -3.872 -2.317 -1.967 ETKDGv2 51
+CTX H211  7.786 -2.169  0.519 ETKDGv2 52
+CTX H212  7.362 -1.431  2.093 ETKDGv2 53
+CTX H213  6.057 -2.073  1.012 ETKDGv2 54
+CTX H221  6.306  0.659 -1.449 ETKDGv2 55
+CTX H222  7.142 -0.916 -1.615 ETKDGv2 56
+CTX H223  5.448 -0.877 -1.003 ETKDGv2 57
 #

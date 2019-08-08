@@ -156,12 +156,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-RCY   "Create component" 2007-10-05 RCSB  ?                                                                                          ?
-RCY  "Modify descriptor" 2011-06-04 RCSB  ?                                                                                          ?
-RCY "Other modification" 2012-02-09 RCSB GG                                                                 "split spin label and Cys"
-RCY "Other modification" 2012-02-15 RCSB GG "remove one hydrogen HO1J to make this a redical, change processing site from EBI to RCSB"
+RCY   "Create component" 2007-10-05 RCSB
+RCY  "Modify descriptor" 2011-06-04 RCSB
+RCY "Other modification" 2012-02-09 RCSB
+RCY "Other modification" 2012-02-15 RCSB
 #
 loop_
 _software.name              
@@ -335,40 +333,40 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-RCY  C1C -0.297  1.951  0.201 ETKDGv2  1
-RCY  O1G  2.729 -1.079  1.698 ETKDGv2  2
-RCY  O1H  1.266  0.817 -2.275 ETKDGv2  3
-RCY  O1J -2.796  1.269  0.867 ETKDGv2  4
-RCY  C1L  3.995 -0.034 -0.083 ETKDGv2  5
-RCY  C1M -0.754 -1.059 -0.802 ETKDGv2  6
-RCY  C1P  2.745 -0.514  0.572 ETKDGv2  7
-RCY  C1Q  2.028  0.393 -1.367 ETKDGv2  8
-RCY  N1R  1.572 -0.275 -0.192 ETKDGv2  9
-RCY  C1S  3.508  0.576 -1.407 ETKDGv2 10
-RCY  C1U  0.202 -0.572  0.276 ETKDGv2 11
-RCY  C1V -0.104  0.759  2.408 ETKDGv2 12
-RCY  N1V -1.958  0.197  0.905 ETKDGv2 13
-RCY  C1W -2.158 -0.725 -0.243 ETKDGv2 14
-RCY  C1X -0.539  0.606  0.940 ETKDGv2 15
-RCY  C1Y -3.050 -0.131 -1.363 ETKDGv2 16
-RCY  C1Z -2.824 -2.003  0.295 ETKDGv2 17
-RCY  H1C  0.778  2.227  0.222 ETKDGv2 18
-RCY H1CA -0.638  1.893 -0.853 ETKDGv2 19
-RCY H1CB -0.845  2.780  0.695 ETKDGv2 20
-RCY  H1L  4.685 -0.886 -0.266 ETKDGv2 21
-RCY H1LA  4.489  0.734  0.551 ETKDGv2 22
-RCY  H1M -0.608 -2.145 -0.995 ETKDGv2 23
-RCY H1MA -0.588 -0.533 -1.760 ETKDGv2 24
-RCY  H1S  3.937  0.034 -2.277 ETKDGv2 25
-RCY H1SA  3.759  1.657 -1.463 ETKDGv2 26
-RCY  H1U  0.263 -1.407  1.012 ETKDGv2 27
-RCY  H1V -0.683  1.570  2.899 ETKDGv2 28
-RCY H1VA -0.286 -0.181  2.972 ETKDGv2 29
-RCY H1VB  0.977  1.009  2.472 ETKDGv2 30
-RCY  H1Y -4.080  0.057 -0.991 ETKDGv2 31
-RCY H1YA -2.630  0.826 -1.738 ETKDGv2 32
-RCY H1YB -3.118 -0.839 -2.217 ETKDGv2 33
-RCY  H1Z -3.813 -1.764  0.741 ETKDGv2 34
-RCY H1ZA -2.973 -2.744 -0.520 ETKDGv2 35
-RCY H1ZB -2.192 -2.467  1.083 ETKDGv2 36
+RCY  C1C -1.203 -1.841 -1.622 ETKDGv2  1
+RCY  O1G  0.968  0.860  2.028 ETKDGv2  2
+RCY  O1H  2.893 -0.648 -1.906 ETKDGv2  3
+RCY  O1J -1.628 -0.728  1.712 ETKDGv2  4
+RCY  C1L  3.286  0.369  1.532 ETKDGv2  5
+RCY  C1M -0.604  1.352 -0.598 ETKDGv2  6
+RCY  C1P  1.841  0.511  1.191 ETKDGv2  7
+RCY  C1Q  2.780 -0.235 -0.722 ETKDGv2  8
+RCY  N1R  1.543  0.170 -0.157 ETKDGv2  9
+RCY  C1S  3.927 -0.137  0.227 ETKDGv2 10
+RCY  C1U  0.232  0.094 -0.832 ETKDGv2 11
+RCY  C1V  0.139 -2.184  0.430 ETKDGv2 12
+RCY  N1V -1.802 -0.550  0.374 ETKDGv2 13
+RCY  C1W -1.927  0.897  0.054 ETKDGv2 14
+RCY  C1X -0.648 -1.108 -0.378 ETKDGv2 15
+RCY  C1Y -2.245  1.776  1.297 ETKDGv2 16
+RCY  C1Z -3.103  1.079 -0.929 ETKDGv2 17
+RCY  H1C -1.967 -2.590 -1.322 ETKDGv2 18
+RCY H1CA -0.388 -2.368 -2.164 ETKDGv2 19
+RCY H1CB -1.668 -1.143 -2.343 ETKDGv2 20
+RCY  H1L  3.708  1.352  1.830 ETKDGv2 21
+RCY H1LA  3.415 -0.372  2.350 ETKDGv2 22
+RCY  H1M -0.059  2.088  0.032 ETKDGv2 23
+RCY H1MA -0.783  1.870 -1.567 ETKDGv2 24
+RCY  H1S  4.390 -1.136  0.373 ETKDGv2 25
+RCY H1SA  4.679  0.587 -0.154 ETKDGv2 26
+RCY  H1U  0.424  0.031 -1.928 ETKDGv2 27
+RCY  H1V -0.527 -3.036  0.688 ETKDGv2 28
+RCY H1VA  0.549 -1.788  1.379 ETKDGv2 29
+RCY H1VB  0.988 -2.578 -0.169 ETKDGv2 30
+RCY  H1Y -1.430  1.732  2.048 ETKDGv2 31
+RCY H1YA -2.367  2.840  1.002 ETKDGv2 32
+RCY H1YB -3.187  1.438  1.782 ETKDGv2 33
+RCY  H1Z -3.280  2.157 -1.138 ETKDGv2 34
+RCY H1ZA -2.912  0.588 -1.901 ETKDGv2 35
+RCY H1ZB -4.033  0.648 -0.500 ETKDGv2 36
 #

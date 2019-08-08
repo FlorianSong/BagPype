@@ -143,18 +143,16 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-16S "Create component" 2012-10-22 RCSB LT ?
-16S  "Modify synonyms" 2012-10-24 RCSB LT ?
-16S  "Initial release" 2012-10-26 RCSB  ? ?
+16S "Create component" 2012-10-22 RCSB
+16S  "Modify synonyms" 2012-10-24 RCSB
+16S  "Initial release" 2012-10-26 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-16S "3',4'-Dihydroxy Flavone" ChEMBL
 16S  "3',4'-Dihydroxyflavone" ChEMBL
+16S "3',4'-Dihydroxy Flavone" ChEMBL
 #
 loop_
 _software.name              
@@ -313,33 +311,33 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-16S CAM  2.169  0.783 -0.306 ETKDGv2  1
-16S CAL  3.499  0.824 -0.486 ETKDGv2  2
-16S OAR  4.113  1.979 -0.970 ETKDGv2  3
-16S CAP  4.322 -0.368 -0.167 ETKDGv2  4
-16S OAS  5.704 -0.349 -0.343 ETKDGv2  5
-16S CAO  3.733 -1.478  0.293 ETKDGv2  6
-16S CAN  2.270 -1.523  0.487 ETKDGv2  7
-16S CAK  1.510 -0.442  0.216 ETKDGv2  8
-16S CAJ  0.034 -0.450  0.376 ETKDGv2  9
-16S OAG -0.721  0.379 -0.477 ETKDGv2 10
-16S CAF -2.116  0.459 -0.421 ETKDGv2 11
-16S CAA -2.785  1.260 -1.261 ETKDGv2 12
-16S CAB -4.261  1.333 -1.191 ETKDGv2 13
-16S CAC -4.927  0.600 -0.288 ETKDGv2 14
-16S CAD -4.190 -0.283  0.641 ETKDGv2 15
-16S CAE -2.848 -0.349  0.576 ETKDGv2 16
-16S CAH -2.041 -1.198  1.465 ETKDGv2 17
-16S OAQ -2.582 -1.915  2.349 ETKDGv2 18
-16S CAI -0.575 -1.203  1.316 ETKDGv2 19
-16S  H1  1.571  1.657 -0.535 ETKDGv2 20
-16S  H2  3.582  2.811 -1.199 ETKDGv2 21
-16S  H3  6.185  0.472 -0.690 ETKDGv2 22
-16S  H4  4.327 -2.354  0.523 ETKDGv2 23
-16S  H5  1.829 -2.453  0.822 ETKDGv2 24
-16S  H6 -2.252  1.853 -1.992 ETKDGv2 25
-16S  H7 -4.800  1.980 -1.870 ETKDGv2 26
-16S  H8 -6.007  0.654 -0.236 ETKDGv2 27
-16S  H9 -4.744 -0.867  1.365 ETKDGv2 28
-16S H10  0.001 -1.809  2.002 ETKDGv2 29
+16S CAM  2.533 -0.142  0.675 ETKDGv2  1
+16S CAL  3.808  0.114  0.347 ETKDGv2  2
+16S OAR  4.788 -0.047  1.326 ETKDGv2  3
+16S CAP  4.134  0.569 -1.038 ETKDGv2  4
+16S OAS  5.442  0.831 -1.448 ETKDGv2  5
+16S CAO  3.145  0.735 -1.925 ETKDGv2  6
+16S CAN  1.744  0.460 -1.553 ETKDGv2  7
+16S CAK  1.437  0.022 -0.320 ETKDGv2  8
+16S CAJ  0.021 -0.250  0.035 ETKDGv2  9
+16S OAG -0.984  0.472 -0.640 ETKDGv2 10
+16S CAF -2.348  0.297 -0.385 ETKDGv2 11
+16S CAA -3.262  1.013 -1.052 ETKDGv2 12
+16S CAB -4.700  0.818 -0.770 ETKDGv2 13
+16S CAC -5.089 -0.075  0.151 ETKDGv2 14
+16S CAD -4.081 -0.868  0.888 ETKDGv2 15
+16S CAE -2.773 -0.689  0.631 ETKDGv2 16
+16S CAH -1.709 -1.439  1.315 ETKDGv2 17
+16S OAQ -1.982 -2.304  2.190 ETKDGv2 18
+16S CAI -0.304 -1.171  0.965 ETKDGv2 19
+16S  H1  2.306 -0.442  1.690 ETKDGv2 20
+16S  H2  5.768  0.138  1.168 ETKDGv2 21
+16S  H3  6.246  0.719 -0.846 ETKDGv2 22
+16S  H4  3.368  1.068 -2.931 ETKDGv2 23
+16S  H5  0.975  0.598 -2.303 ETKDGv2 24
+16S  H6 -2.954  1.736 -1.796 ETKDGv2 25
+16S  H7 -5.438  1.398 -1.309 ETKDGv2 26
+16S  H8 -6.141 -0.218  0.358 ETKDGv2 27
+16S  H9 -4.412 -1.586  1.628 ETKDGv2 28
+16S H10  0.462 -1.757  1.457 ETKDGv2 29
 #

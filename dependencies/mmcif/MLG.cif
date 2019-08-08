@@ -147,10 +147,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MLG  "Create component" 2003-10-08 RCSB ? ?
-MLG "Modify descriptor" 2011-06-04 RCSB ? ?
+MLG  "Create component" 2003-10-08 RCSB
+MLG "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   MLG
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04017
@@ -183,10 +181,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-MLG clorgyline   ChEMBL
-MLG Clorgiline   ChEMBL
-MLG Clorgyline   ChEMBL
 MLG   M&B-9302   ChEMBL
+MLG clorgyline   ChEMBL
+MLG Clorgyline   ChEMBL
+MLG Clorgiline   ChEMBL
 MLG Clorgyline DrugBank
 #
 loop_
@@ -330,36 +328,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MLG  C06 -2.837  0.285  1.050 ETKDGv2  1
-MLG  C05 -3.661  1.338  0.997 ETKDGv2  2
-MLG  C04 -4.242  1.762 -0.292 ETKDGv2  3
-MLG CL08 -5.319  3.145 -0.350 ETKDGv2  4
-MLG  C03 -3.947  1.088 -1.410 ETKDGv2  5
-MLG  C02 -3.038 -0.077 -1.359 ETKDGv2  6
-MLG CL07 -2.668 -0.929 -2.851 ETKDGv2  7
-MLG  C01 -2.498 -0.468 -0.191 ETKDGv2  8
-MLG  O09 -1.637 -1.578 -0.179 ETKDGv2  9
-MLG  C11  0.320 -1.070  1.200 ETKDGv2 10
-MLG  C10 -0.864 -2.011  0.940 ETKDGv2 11
-MLG  C12  1.292 -1.034  0.011 ETKDGv2 12
-MLG  N13  2.371 -0.047  0.250 ETKDGv2 13
-MLG  C17  3.454 -0.652  1.054 ETKDGv2 14
-MLG  C14  2.907  0.460 -1.032 ETKDGv2 15
-MLG  C15  3.707  1.674 -0.815 ETKDGv2 16
-MLG  C16  4.363  2.670 -0.638 ETKDGv2 17
-MLG  H06 -2.431 -0.008  2.008 ETKDGv2 18
-MLG  H05 -3.903  1.881  1.902 ETKDGv2 19
-MLG  H03 -4.372  1.395 -2.358 ETKDGv2 20
-MLG H111 -0.050 -0.043  1.401 ETKDGv2 21
-MLG H112  0.845 -1.426  2.110 ETKDGv2 22
-MLG H101 -1.503 -2.095  1.844 ETKDGv2 23
-MLG H102 -0.474 -3.029  0.725 ETKDGv2 24
-MLG H121  0.699 -0.757 -0.889 ETKDGv2 25
-MLG H122  1.707 -2.051 -0.178 ETKDGv2 26
-MLG H171  3.069 -1.002  2.033 ETKDGv2 27
-MLG H172  3.924 -1.509  0.523 ETKDGv2 28
-MLG H173  4.238  0.102  1.279 ETKDGv2 29
-MLG H141  2.082  0.751 -1.717 ETKDGv2 30
-MLG H142  3.526 -0.309 -1.545 ETKDGv2 31
-MLG  H16  4.938  3.544 -0.482 ETKDGv2 32
+MLG  C06  2.613  1.129  0.507 ETKDGv2  1
+MLG  C05  3.712  1.891  0.446 ETKDGv2  2
+MLG  C04  4.989  1.315 -0.018 ETKDGv2  3
+MLG CL08  6.424  2.322 -0.094 ETKDGv2  4
+MLG  C03  5.049  0.028 -0.380 ETKDGv2  5
+MLG  C02  3.838 -0.820 -0.316 ETKDGv2  6
+MLG CL07  3.956 -2.506 -0.799 ETKDGv2  7
+MLG  C01  2.670 -0.304  0.106 ETKDGv2  8
+MLG  O09  1.537 -1.130  0.157 ETKDGv2  9
+MLG  C11 -0.734 -1.860  0.500 ETKDGv2 10
+MLG  C10  0.251 -0.694  0.586 ETKDGv2 11
+MLG  C12 -2.124 -1.491  1.030 ETKDGv2 12
+MLG  N13 -2.744 -0.457  0.165 ETKDGv2 13
+MLG  C17 -4.065 -0.899 -0.320 ETKDGv2 14
+MLG  C14 -2.849  0.842  0.862 ETKDGv2 15
+MLG  C15 -2.989  1.933 -0.110 ETKDGv2 16
+MLG  C16 -3.103  2.828 -0.909 ETKDGv2 17
+MLG  H06  1.688  1.572  0.850 ETKDGv2 18
+MLG  H05  3.664  2.933  0.739 ETKDGv2 19
+MLG  H03  5.984 -0.399 -0.721 ETKDGv2 20
+MLG H111 -0.337 -2.708  1.099 ETKDGv2 21
+MLG H112 -0.818 -2.196 -0.557 ETKDGv2 22
+MLG H101  0.314 -0.336  1.637 ETKDGv2 23
+MLG H102 -0.092  0.134 -0.072 ETKDGv2 24
+MLG H121 -2.724 -2.430  1.052 ETKDGv2 25
+MLG H122 -2.045 -1.167  2.093 ETKDGv2 26
+MLG H171 -4.507 -0.137 -0.997 ETKDGv2 27
+MLG H172 -3.957 -1.834 -0.911 ETKDGv2 28
+MLG H173 -4.762 -1.082  0.527 ETKDGv2 29
+MLG H141 -3.709  0.855  1.567 ETKDGv2 30
+MLG H142 -1.926  1.052  1.446 ETKDGv2 31
+MLG  H16 -3.203  3.614 -1.611 ETKDGv2 32
 #

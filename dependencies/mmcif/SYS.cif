@@ -5,7 +5,7 @@ _chem_comp.name                                      3-[(2-amino-2-oxoethyl)sela
 _chem_comp.type                                      "L-PEPTIDE LINKING"
 _chem_comp.pdbx_type                                 ATOMP
 _chem_comp.formula                                   "C5 H10 N2 O3 Se"
-_chem_comp.mon_nstd_parent_comp_id                   SEC
+_chem_comp.mon_nstd_parent_comp_id                   CYS
 _chem_comp.pdbx_synonyms                             L-(Se-carboxamidomethyl)selenocysteine
 _chem_comp.pdbx_formal_charge                        0
 _chem_comp.pdbx_initial_date                         2008-09-17
@@ -15,7 +15,7 @@ _chem_comp.pdbx_release_status                       REL
 _chem_comp.pdbx_replaced_by                          ?
 _chem_comp.pdbx_replaces                             ?
 _chem_comp.formula_weight                            225.104
-_chem_comp.one_letter_code                           U
+_chem_comp.one_letter_code                           C
 _chem_comp.three_letter_code                         SYS
 _chem_comp.pdbx_model_coordinates_details            ?
 _chem_comp.pdbx_model_coordinates_missing_flag       N
@@ -124,11 +124,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-SYS      "Create component" 2008-09-17 RCSB  ? ?
-SYS     "Modify descriptor" 2011-06-04 RCSB  ? ?
-SYS "Modify parent residue" 2017-09-29 RCSB CS ?
+SYS  "Create component" 2008-09-17 RCSB
+SYS "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -242,25 +239,25 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SYS   N -2.059 -1.275  1.245 ETKDGv2  1
-SYS  CA -2.034 -0.037  0.460 ETKDGv2  2
-SYS  CB -0.606  0.266 -0.017 ETKDGv2  3
-SYS  SE  0.540  0.811  1.474 ETKDGv2  4
-SYS   C -2.952 -0.149 -0.733 ETKDGv2  5
-SYS   O -3.415 -1.267 -1.085 ETKDGv2  6
-SYS  HN -3.037 -1.432  1.581 ETKDGv2  7
-SYS HNA -1.487 -1.139  2.109 ETKDGv2  8
-SYS  HA -2.396  0.805  1.094 ETKDGv2  9
-SYS  HB -0.176 -0.631 -0.513 ETKDGv2 10
-SYS HBA -0.615  1.101 -0.750 ETKDGv2 11
-SYS  O2 -3.296  0.986 -1.462 ETKDGv2 12
-SYS  C4  2.144  0.894  0.352 ETKDGv2 13
-SYS  C5  2.745 -0.457  0.092 ETKDGv2 14
-SYS  N2  3.902 -0.567 -0.734 ETKDGv2 15
-SYS  O3  2.244 -1.496  0.601 ETKDGv2 16
-SYS  H6  2.896  1.524  0.870 ETKDGv2 17
-SYS  H7  1.894  1.379 -0.615 ETKDGv2 18
-SYS  H8  4.333  0.282 -1.162 ETKDGv2 19
-SYS  H9  4.331 -1.501 -0.920 ETKDGv2 20
-SYS H10 -2.955  1.903 -1.199 ETKDGv2 21
+SYS   N -2.365  1.484 -0.105 ETKDGv2  1
+SYS  CA -1.995  0.301 -0.884 ETKDGv2  2
+SYS  CB -0.736 -0.358 -0.302 ETKDGv2  3
+SYS  SE  0.854  0.728 -0.646 ETKDGv2  4
+SYS   C -3.136 -0.683 -0.878 ETKDGv2  5
+SYS   O -3.642 -1.062 -1.966 ETKDGv2  6
+SYS  HN -1.616  2.205 -0.214 ETKDGv2  7
+SYS HNA -3.224  1.903 -0.532 ETKDGv2  8
+SYS  HA -1.786  0.601 -1.937 ETKDGv2  9
+SYS  HB -0.577 -1.351 -0.778 ETKDGv2 10
+SYS HBA -0.849 -0.504  0.794 ETKDGv2 11
+SYS  O2 -3.646 -1.178  0.320 ETKDGv2 12
+SYS  C4  2.015 -0.538  0.278 ETKDGv2 13
+SYS  C5  3.431 -0.056  0.228 ETKDGv2 14
+SYS  N2  4.127  0.284  1.427 ETKDGv2 15
+SYS  O3  4.017  0.044 -0.883 ETKDGv2 16
+SYS  H6  1.676 -0.636  1.331 ETKDGv2 17
+SYS  H7  1.949 -1.532 -0.211 ETKDGv2 18
+SYS  H8  3.660  0.211  2.358 ETKDGv2 19
+SYS  H9  5.116  0.616  1.385 ETKDGv2 20
+SYS H10 -3.273 -0.883  1.214 ETKDGv2 21
 #

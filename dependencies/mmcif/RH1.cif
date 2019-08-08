@@ -147,10 +147,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-RH1  "Create component" 2001-06-06  EBI ? ?
-RH1 "Modify descriptor" 2011-06-04 RCSB ? ?
+RH1  "Create component" 2001-06-06  EBI
+RH1 "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   RH1
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04090
@@ -183,8 +181,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-RH1                                                                       SID92763376   ChEMBL
 RH1                                                                         SID525640   ChEMBL
+RH1                                                                       SID92763376   ChEMBL
 RH1 "2,5-Cyclohexadiene-1,4-dione, 2,5-bis(1-aziridinyl)-3-(hydroxymethyl)-6-methyl-" DrugBank
 #
 loop_
@@ -335,35 +333,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-RH1   O1  0.667 -2.650 -0.008 ETKDGv2  1
-RH1   O2 -0.886  2.461 -0.037 ETKDGv2  2
-RH1   N1  2.689 -0.744  0.149 ETKDGv2  3
-RH1   N2 -2.908  0.549 -0.175 ETKDGv2  4
-RH1   C1  0.293 -1.446  0.001 ETKDGv2  5
-RH1   C2  1.308 -0.374  0.094 ETKDGv2  6
-RH1   C3  0.929  0.921  0.113 ETKDGv2  7
-RH1   C4 -0.514  1.256 -0.004 ETKDGv2  8
-RH1   C5 -1.528  0.184 -0.087 ETKDGv2  9
-RH1   C6 -1.152 -1.110 -0.082 ETKDGv2 10
-RH1   C7  4.153 -0.453  0.224 ETKDGv2 11
-RH1   C8  3.769 -1.775  0.161 ETKDGv2 12
-RH1   C9 -4.367  0.243 -0.280 ETKDGv2 13
-RH1  C10 -3.996  1.569 -0.234 ETKDGv2 14
-RH1  C11  1.949  2.032  0.193 ETKDGv2 15
-RH1   O3  2.573  2.184 -1.051 ETKDGv2 16
-RH1  C12 -2.181 -2.210 -0.167 ETKDGv2 17
-RH1 HC71  4.437 -0.065  1.225 ETKDGv2 18
-RH1 HC72  4.521  0.005 -0.718 ETKDGv2 19
-RH1 HC81  3.856 -2.275 -0.826 ETKDGv2 20
-RH1 HC82  3.769 -2.342  1.115 ETKDGv2 21
-RH1 HC91 -4.620 -0.171 -1.279 ETKDGv2 22
-RH1 HC92 -4.753 -0.201  0.662 ETKDGv2 23
-RH1 H101 -4.112  2.088  0.741 ETKDGv2 24
-RH1 H102 -3.979  2.118 -1.199 ETKDGv2 25
-RH1 H111  1.470  2.992  0.486 ETKDGv2 26
-RH1 H112  2.702  1.802  0.978 ETKDGv2 27
-RH1  HO3  3.261  2.889 -0.931 ETKDGv2 28
-RH1 H121 -2.747 -2.122 -1.119 ETKDGv2 29
-RH1 H122 -2.884 -2.135  0.689 ETKDGv2 30
-RH1 H123 -1.719 -3.218 -0.139 ETKDGv2 31
+RH1   O1 -1.021 -2.457  0.622 ETKDGv2  1
+RH1   O2  1.217  2.247 -0.555 ETKDGv2  2
+RH1   N1 -2.660 -0.589 -0.631 ETKDGv2  3
+RH1   N2  2.859  0.367  0.683 ETKDGv2  4
+RH1   C1 -0.483 -1.355  0.332 ETKDGv2  5
+RH1   C2 -1.286 -0.314 -0.346 ETKDGv2  6
+RH1   C3 -0.727  0.871 -0.672 ETKDGv2  7
+RH1   C4  0.689  1.130 -0.304 ETKDGv2  8
+RH1   C5  1.493  0.085  0.365 ETKDGv2  9
+RH1   C6  0.942 -1.106  0.670 ETKDGv2 10
+RH1   C7 -4.014 -0.245 -1.162 ETKDGv2 11
+RH1   C8 -3.850 -1.490 -0.593 ETKDGv2 12
+RH1   C9  4.199  0.020  1.244 ETKDGv2 13
+RH1  C10  4.045  1.274  0.695 ETKDGv2 14
+RH1  C11 -1.531  1.953 -1.352 ETKDGv2 15
+RH1   O3 -2.383  2.558 -0.419 ETKDGv2 16
+RH1  C12  1.756 -2.177  1.354 ETKDGv2 17
+RH1 HC71 -4.014 -0.202 -2.272 ETKDGv2 18
+RH1 HC72 -4.508  0.528 -0.537 ETKDGv2 19
+RH1 HC81 -3.726 -2.346 -1.289 ETKDGv2 20
+RH1 HC82 -4.223 -1.618  0.445 ETKDGv2 21
+RH1 HC91  4.165 -0.048  2.352 ETKDGv2 22
+RH1 HC92  4.712 -0.740  0.618 ETKDGv2 23
+RH1 H101  4.445  1.424 -0.331 ETKDGv2 24
+RH1 H102  3.898  2.116  1.403 ETKDGv2 25
+RH1 H111 -2.121  1.520 -2.189 ETKDGv2 26
+RH1 H112 -0.865  2.723 -1.798 ETKDGv2 27
+RH1  HO3 -2.918  3.223 -0.924 ETKDGv2 28
+RH1 H121  2.631 -2.444  0.725 ETKDGv2 29
+RH1 H122  2.109 -1.808  2.340 ETKDGv2 30
+RH1 H123  1.169 -3.102  1.526 ETKDGv2 31
 #

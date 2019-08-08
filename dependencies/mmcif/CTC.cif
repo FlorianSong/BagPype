@@ -198,10 +198,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-CTC  "Create component" 1999-07-08 RCSB ? ?
-CTC "Modify descriptor" 2011-06-04 RCSB ? ?
+CTC  "Create component" 1999-07-08 RCSB
+CTC "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   CTC
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB09093
@@ -239,8 +237,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-CTC Chlortetracycline   ChEMBL
 CTC              E702   ChEMBL
+CTC Chlortetracycline   ChEMBL
 CTC Chlortetracycline DrugBank
 #
 loop_
@@ -447,60 +445,60 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CTC     C1 -1.878  1.471  0.208 ETKDGv2  1
-CTC     O1 -1.412  2.499  0.773 ETKDGv2  2
-CTC     C2 -2.959  0.694  0.865 ETKDGv2  3
-CTC  "C2'" -3.560  1.234  2.106 ETKDGv2  4
-CTC  "O2'" -3.680  0.495  3.120 ETKDGv2  5
-CTC  "N2'" -3.984  2.596  2.175 ETKDGv2  6
-CTC     C3 -3.375 -0.484  0.337 ETKDGv2  7
-CTC     O3 -4.524 -1.123  0.818 ETKDGv2  8
-CTC     C4 -2.689 -1.108 -0.878 ETKDGv2  9
-CTC     N4 -2.601 -2.599 -0.839 ETKDGv2 10
-CTC  "C4'" -3.691 -3.244 -1.589 ETKDGv2 11
-CTC    C4D -2.468 -3.206  0.502 ETKDGv2 12
-CTC    C4A -1.296 -0.489 -1.211 ETKDGv2 13
-CTC     C5 -0.167 -0.990 -0.292 ETKDGv2 14
-CTC    C5A  1.208 -0.409 -0.704 ETKDGv2 15
-CTC     C6  2.284 -0.513  0.431 ETKDGv2 16
-CTC     O6  2.367 -1.866  0.817 ETKDGv2 17
-CTC  "C6'"  1.887  0.317  1.675 ETKDGv2 18
-CTC    C6A  3.655  0.011 -0.051 ETKDGv2 19
-CTC     C7  4.822 -0.377  0.538 ETKDGv2 20
-CTC    CL7  4.921 -1.511  1.887 ETKDGv2 21
-CTC     C8  6.104  0.203  0.107 ETKDGv2 22
-CTC     C9  6.136  1.186 -0.787 ETKDGv2 23
-CTC    C10  4.891  1.709 -1.370 ETKDGv2 24
-CTC    O10  5.009  2.843 -2.179 ETKDGv2 25
-CTC    C6B  3.703  1.110 -1.087 ETKDGv2 26
-CTC    C11  2.443  1.488 -1.783 ETKDGv2 27
-CTC    O11  2.471  2.081 -2.895 ETKDGv2 28
-CTC    C5B  1.154  0.989 -1.273 ETKDGv2 29
-CTC    C12 -0.002  1.675 -1.442 ETKDGv2 30
-CTC    O12  0.008  3.016 -1.847 ETKDGv2 31
-CTC    C4B -1.365  1.055 -1.159 ETKDGv2 32
-CTC    O4B -2.272  1.483 -2.152 ETKDGv2 33
-CTC   HN21 -4.375  2.980  3.064 ETKDGv2 34
-CTC   HN22 -3.950  3.212  1.333 ETKDGv2 35
-CTC    HO3 -5.139 -0.729  1.518 ETKDGv2 36
-CTC     H4 -3.337 -0.808 -1.734 ETKDGv2 37
-CTC "H4'1" -3.577 -4.349 -1.566 ETKDGv2 38
-CTC "H4'2" -3.654 -2.934 -2.656 ETKDGv2 39
-CTC "H4'3" -4.682 -2.971 -1.164 ETKDGv2 40
-CTC   H4A1 -1.862 -2.575  1.183 ETKDGv2 41
-CTC   H4A2 -1.951 -4.184  0.408 ETKDGv2 42
-CTC   H4A3 -3.457 -3.383  0.976 ETKDGv2 43
-CTC    H4A -1.037 -0.796 -2.251 ETKDGv2 44
-CTC    H51 -0.421 -0.732  0.753 ETKDGv2 45
-CTC    H52 -0.092 -2.096 -0.354 ETKDGv2 46
-CTC    H5A  1.560 -1.049 -1.546 ETKDGv2 47
-CTC    HO6  2.701 -2.384  0.037 ETKDGv2 48
-CTC "H6'1"  1.056 -0.155  2.236 ETKDGv2 49
-CTC "H6'2"  1.592  1.350  1.391 ETKDGv2 50
-CTC "H6'3"  2.736  0.390  2.386 ETKDGv2 51
-CTC     H8  7.030 -0.152  0.542 ETKDGv2 52
-CTC     H9  7.085  1.622 -1.071 ETKDGv2 53
-CTC    HO1  4.248  3.477 -2.375 ETKDGv2 54
-CTC    HO2  0.844  3.585 -1.884 ETKDGv2 55
-CTC    HO4 -2.461  2.448 -2.012 ETKDGv2 56
+CTC     C1 -1.880  1.562  0.195 ETKDGv2  1
+CTC     O1 -1.456  2.528  0.887 ETKDGv2  2
+CTC     C2 -3.043  0.770  0.668 ETKDGv2  3
+CTC  "C2'" -3.767  1.234  1.873 ETKDGv2  4
+CTC  "O2'" -4.017  0.426  2.808 ETKDGv2  5
+CTC  "N2'" -4.168  2.599  2.000 ETKDGv2  6
+CTC     C3 -3.421 -0.353  0.009 ETKDGv2  7
+CTC     O3 -4.629 -0.993  0.310 ETKDGv2  8
+CTC     C4 -2.616 -0.905 -1.168 ETKDGv2  9
+CTC     N4 -2.560 -2.397 -1.230 ETKDGv2 10
+CTC  "C4'" -3.574 -2.957 -2.139 ETKDGv2 11
+CTC    C4D -2.585 -3.102  0.069 ETKDGv2 12
+CTC    C4A -1.183 -0.300 -1.301 ETKDGv2 13
+CTC     C5 -0.170 -0.898 -0.311 ETKDGv2 14
+CTC    C5A  1.254 -0.338 -0.540 ETKDGv2 15
+CTC     C6  2.214 -0.593  0.674 ETKDGv2 16
+CTC     O6  2.195 -1.977  0.948 ETKDGv2 17
+CTC  "C6'"  1.809  0.221  1.932 ETKDGv2 18
+CTC    C6A  3.645 -0.176  0.300 ETKDGv2 19
+CTC     C7  4.744 -0.719  0.897 ETKDGv2 20
+CTC    CL7  4.675 -1.883  2.222 ETKDGv2 21
+CTC     C8  6.097 -0.315  0.473 ETKDGv2 22
+CTC     C9  6.266  0.616 -0.462 ETKDGv2 23
+CTC    C10  5.100  1.292 -1.060 ETKDGv2 24
+CTC    O10  5.322  2.292 -2.007 ETKDGv2 25
+CTC    C6B  3.845  0.943 -0.687 ETKDGv2 26
+CTC    C11  2.653  1.676 -1.196 ETKDGv2 27
+CTC    O11  2.797  2.764 -1.819 ETKDGv2 28
+CTC    C5B  1.295  1.114 -0.977 ETKDGv2 29
+CTC    C12  0.173  1.838 -1.220 ETKDGv2 30
+CTC    O12  0.293  3.200 -1.516 ETKDGv2 31
+CTC    C4B -1.228  1.236 -1.140 ETKDGv2 32
+CTC    O4B -2.004  1.749 -2.204 ETKDGv2 33
+CTC   HN21 -4.026  3.275  1.217 ETKDGv2 34
+CTC   HN22 -4.647  2.928  2.867 ETKDGv2 35
+CTC    HO3 -5.311 -0.635  0.967 ETKDGv2 36
+CTC     H4 -3.161 -0.528 -2.064 ETKDGv2 37
+CTC "H4'1" -3.415 -2.573 -3.169 ETKDGv2 38
+CTC "H4'2" -4.600 -2.691 -1.803 ETKDGv2 39
+CTC "H4'3" -3.483 -4.065 -2.185 ETKDGv2 40
+CTC   H4A1 -2.080 -4.084 -0.041 ETKDGv2 41
+CTC   H4A2 -2.045 -2.537  0.856 ETKDGv2 42
+CTC   H4A3 -3.624 -3.285  0.420 ETKDGv2 43
+CTC    H4A -0.820 -0.536 -2.328 ETKDGv2 44
+CTC    H51 -0.120 -1.998 -0.452 ETKDGv2 45
+CTC    H52 -0.519 -0.706  0.721 ETKDGv2 46
+CTC    H5A  1.666 -0.915 -1.400 ETKDGv2 47
+CTC    HO6  1.381 -2.192  1.473 ETKDGv2 48
+CTC "H6'1"  2.543  0.060  2.749 ETKDGv2 49
+CTC "H6'2"  1.780  1.309  1.710 ETKDGv2 50
+CTC "H6'3"  0.819 -0.079  2.328 ETKDGv2 51
+CTC     H8  6.964 -0.783  0.922 ETKDGv2 52
+CTC     H9  7.267  0.896 -0.765 ETKDGv2 53
+CTC    HO1  6.259  2.557 -2.287 ETKDGv2 54
+CTC    HO2 -0.507  3.806 -1.639 ETKDGv2 55
+CTC    HO4 -2.397  2.621 -1.935 ETKDGv2 56
 #

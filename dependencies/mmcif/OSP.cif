@@ -148,10 +148,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-OSP  "Create component" 2007-06-21 RCSB ? ?
-OSP "Modify descriptor" 2011-06-04 RCSB ? ?
+OSP  "Create component" 2007-06-21 RCSB
+OSP "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   OSP
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB08329
@@ -184,12 +182,12 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-OSP     Ospolot   ChEMBL
 OSP   Sulthiame   ChEMBL
-OSP    Sultiame   ChEMBL
-OSP "Riker 594"   ChEMBL
 OSP     Conadil   ChEMBL
+OSP     Ospolot   ChEMBL
+OSP    Sultiame   ChEMBL
 OSP     Trolone   ChEMBL
+OSP "Riker 594"   ChEMBL
 OSP    Sultiame DrugBank
 #
 loop_
@@ -350,36 +348,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-OSP   O3 -1.353  2.513 -0.052 ETKDGv2  1
-OSP   S2 -1.980  1.444 -0.903 ETKDGv2  2
-OSP   O4 -1.929  1.835 -2.353 ETKDGv2  3
-OSP   C7 -3.658  1.172 -0.383 ETKDGv2  4
-OSP   C8 -3.650  0.164  0.770 ETKDGv2  5
-OSP   C9 -3.126 -1.239  0.376 ETKDGv2  6
-OSP  C10 -2.026 -1.264 -0.709 ETKDGv2  7
-OSP   N2 -1.178 -0.071 -0.654 ETKDGv2  8
-OSP   C4  0.224 -0.138 -0.336 ETKDGv2  9
-OSP   C3  1.110  0.651 -0.970 ETKDGv2 10
-OSP   C2  2.548  0.580 -0.640 ETKDGv2 11
-OSP   C5  0.712 -1.074  0.709 ETKDGv2 12
-OSP   C6  2.015 -1.138  1.007 ETKDGv2 13
-OSP   C1  2.985 -0.277  0.294 ETKDGv2 14
-OSP   S1  4.697 -0.352  0.699 ETKDGv2 15
-OSP   O1  5.011 -1.673  1.344 ETKDGv2 16
-OSP   O2  5.520 -0.219 -0.552 ETKDGv2 17
-OSP   N1  5.092  0.928  1.792 ETKDGv2 18
-OSP  H71 -4.102  2.133 -0.047 ETKDGv2 19
-OSP  H72 -4.255  0.774 -1.231 ETKDGv2 20
-OSP  H81 -3.022  0.568  1.595 ETKDGv2 21
-OSP  H82 -4.683  0.063  1.170 ETKDGv2 22
-OSP  H91 -3.979 -1.855  0.018 ETKDGv2 23
-OSP  H92 -2.735 -1.733  1.292 ETKDGv2 24
-OSP H101 -2.507 -1.306 -1.711 ETKDGv2 25
-OSP H102 -1.422 -2.192 -0.610 ETKDGv2 26
-OSP   H3  0.787  1.337 -1.742 ETKDGv2 27
-OSP   H2  3.241  1.228 -1.162 ETKDGv2 28
-OSP   H5  0.012 -1.695  1.254 ETKDGv2 29
-OSP   H6  2.354 -1.817  1.779 ETKDGv2 30
-OSP HN11  4.833  1.823  1.320 ETKDGv2 31
-OSP HN12  4.461  0.828  2.618 ETKDGv2 32
+OSP   O3 -2.350 -2.518 -1.636 ETKDGv2  1
+OSP   S2 -2.107 -1.051 -1.422 ETKDGv2  2
+OSP   O4 -1.455 -0.466 -2.643 ETKDGv2  3
+OSP   C7 -3.643 -0.211 -1.100 ETKDGv2  4
+OSP   C8 -4.090 -0.469  0.343 ETKDGv2  5
+OSP   C9 -3.018 -0.066  1.372 ETKDGv2  6
+OSP  C10 -1.771 -0.960  1.292 ETKDGv2  7
+OSP   N2 -1.124 -0.822 -0.014 ETKDGv2  8
+OSP   C4  0.265 -0.479 -0.124 ETKDGv2  9
+OSP   C3  1.200 -1.231  0.480 ETKDGv2 10
+OSP   C2  2.630 -0.875  0.370 ETKDGv2 11
+OSP   C5  0.680  0.727 -0.880 ETKDGv2 12
+OSP   C6  1.975  1.050 -0.979 ETKDGv2 13
+OSP   C1  3.005  0.205 -0.332 ETKDGv2 14
+OSP   S1  4.707  0.639 -0.451 ETKDGv2 15
+OSP   O1  4.926  1.514 -1.653 ETKDGv2 16
+OSP   O2  5.538 -0.604 -0.601 ETKDGv2 17
+OSP   N1  5.190  1.491  0.973 ETKDGv2 18
+OSP  H71 -3.499  0.880 -1.258 ETKDGv2 19
+OSP  H72 -4.418 -0.573 -1.808 ETKDGv2 20
+OSP  H81 -5.012  0.121  0.537 ETKDGv2 21
+OSP  H82 -4.347 -1.543  0.469 ETKDGv2 22
+OSP  H91 -3.452 -0.156  2.391 ETKDGv2 23
+OSP  H92 -2.727  0.997  1.221 ETKDGv2 24
+OSP H101 -1.071 -0.673  2.107 ETKDGv2 25
+OSP H102 -2.059 -2.022  1.449 ETKDGv2 26
+OSP   H3  0.916 -2.112  1.042 ETKDGv2 27
+OSP   H2  3.367 -1.496  0.864 ETKDGv2 28
+OSP   H5 -0.067  1.365 -1.336 ETKDGv2 29
+OSP   H6  2.265  1.939 -1.525 ETKDGv2 30
+OSP HN11  4.553  2.314  1.067 ETKDGv2 31
+OSP HN12  4.994  0.864  1.785 ETKDGv2 32
 #

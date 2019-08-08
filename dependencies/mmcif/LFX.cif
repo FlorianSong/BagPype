@@ -176,11 +176,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-LFX     "Create component" 2009-10-20 PDBJ ? ?
-LFX "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-LFX    "Modify descriptor" 2011-06-04 RCSB ? ?
+LFX     "Create component" 2009-10-20 PDBJ
+LFX "Modify aromatic_flag" 2011-06-04 RCSB
+LFX    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   LFX
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01137
@@ -216,17 +214,17 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-LFX                                                                                                                           Evoxil   ChEMBL
-LFX                                                                                                                         Quinsair   ChEMBL
-LFX                                                                                                                          Tavanic   ChEMBL
-LFX                                                                                                                            Iquix   ChEMBL
 LFX                                                                                                                     Levofloxacin   ChEMBL
-LFX                                                                                                                        RWJ-25213   ChEMBL
-LFX                                                                                                                         Floxacin   ChEMBL
-LFX                                                                                                                           Quixin   ChEMBL
-LFX                                                                                                                         Levaquin   ChEMBL
+LFX                                                                                                                           Evoxil   ChEMBL
 LFX                                                                                                                         Oftaquix   ChEMBL
 LFX                                                                                                                          DR-3355   ChEMBL
+LFX                                                                                                                          Tavanic   ChEMBL
+LFX                                                                                                                           Quixin   ChEMBL
+LFX                                                                                                                         Levaquin   ChEMBL
+LFX                                                                                                                        RWJ-25213   ChEMBL
+LFX                                                                                                                            Iquix   ChEMBL
+LFX                                                                                                                         Floxacin   ChEMBL
+LFX                                                                                                                         Quinsair   ChEMBL
 LFX                                                                                                                    (-)-Ofloxacin DrugBank
 LFX "(3S)-(-)-9-fluoro-3-methyl-10-(4-methyl-1-piperazinyl)-7-oxo-2,3-dihydro-7H-pyrido[1,2,3-de][1,4]benzoxazine-6-carboxylic acid" DrugBank
 LFX "(S)-(-)-9-fluoro-3-methyl-10-(4-methyl-1-piperazinyl)-7-oxo-2,3-dihydro-7H-pyrido[1,2,3-de][1,4]benzooxazine-6-carboxylic acid" DrugBank
@@ -434,50 +432,50 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-LFX    C -5.774  1.220  1.221 ETKDGv2  1
-LFX    F  1.599  2.148  2.004 ETKDGv2  2
-LFX    N  4.817  0.220  0.137 ETKDGv2  3
-LFX    O -6.730  0.604  0.676 ETKDGv2  4
-LFX  C01  2.856 -0.682  1.271 ETKDGv2  5
-LFX  N01  2.118  0.078  0.255 ETKDGv2  6
-LFX  O01 -0.157 -1.179 -1.035 ETKDGv2  7
-LFX  C02  2.624  0.158 -1.120 ETKDGv2  8
-LFX  N02 -2.763 -0.420 -0.461 ETKDGv2  9
-LFX  O02 -3.492  2.766  2.082 ETKDGv2 10
-LFX  C03 -2.536 -1.606 -1.324 ETKDGv2 11
-LFX  O03 -6.056  2.170  2.199 ETKDGv2 12
-LFX  C04  0.778  0.505  0.545 ETKDGv2 13
-LFX  C05 -1.633  0.251  0.145 ETKDGv2 14
-LFX  C06 -0.375 -0.144 -0.127 ETKDGv2 15
-LFX  C07  4.280 -0.979  0.800 ETKDGv2 16
-LFX  C08  4.136  0.475 -1.154 ETKDGv2 17
-LFX  C09 -1.148 -1.536 -1.989 ETKDGv2 18
-LFX  C10 -1.862  1.358  1.097 ETKDGv2 19
-LFX  C11  0.560  1.513  1.407 ETKDGv2 20
-LFX  C12 -4.102 -0.092 -0.012 ETKDGv2 21
-LFX  C13 -0.817  1.961  1.692 ETKDGv2 22
-LFX  C14 -3.603 -1.749 -2.425 ETKDGv2 23
-LFX  C15 -3.254  1.747  1.377 ETKDGv2 24
-LFX  C16  6.268  0.092 -0.064 ETKDGv2 25
-LFX  C17 -4.366  0.932  0.829 ETKDGv2 26
-LFX HO03 -7.012  2.369  2.471 ETKDGv2 27
-LFX  H01  2.912 -0.086  2.208 ETKDGv2 28
-LFX H01A  2.325 -1.633  1.490 ETKDGv2 29
-LFX  H02  2.446 -0.818 -1.620 ETKDGv2 30
-LFX H02A  2.071  0.936 -1.692 ETKDGv2 31
-LFX  H03 -2.564 -2.516 -0.685 ETKDGv2 32
-LFX  H07  4.894 -1.248  1.688 ETKDGv2 33
-LFX H07A  4.278 -1.848  0.102 ETKDGv2 34
-LFX  H08  4.267  1.549 -1.410 ETKDGv2 35
-LFX H08A  4.598 -0.120 -1.976 ETKDGv2 36
-LFX  H09 -0.883 -2.517 -2.437 ETKDGv2 37
-LFX H09A -1.152 -0.769 -2.795 ETKDGv2 38
-LFX  H12 -4.928 -0.695 -0.357 ETKDGv2 39
-LFX  H13 -0.966  2.770  2.395 ETKDGv2 40
-LFX  H14 -4.559 -2.123 -2.005 ETKDGv2 41
-LFX H14A -3.282 -2.493 -3.186 ETKDGv2 42
-LFX H14B -3.773 -0.774 -2.930 ETKDGv2 43
-LFX  H16  6.663  0.990 -0.587 ETKDGv2 44
-LFX H16A  6.784  0.027  0.918 ETKDGv2 45
-LFX H16B  6.513 -0.814 -0.663 ETKDGv2 46
+LFX    C  5.854  1.156 -0.640 ETKDGv2  1
+LFX    F -1.321  2.926  0.309 ETKDGv2  2
+LFX    N -4.853  0.221 -0.156 ETKDGv2  3
+LFX    O  6.787  0.373 -0.317 ETKDGv2  4
+LFX  C01 -2.623 -0.557 -0.864 ETKDGv2  5
+LFX  N01 -2.064  0.257  0.215 ETKDGv2  6
+LFX  O01  0.063 -1.706  0.072 ETKDGv2  7
+LFX  C02 -2.930  0.573  1.353 ETKDGv2  8
+LFX  N02  2.727 -0.960 -0.148 ETKDGv2  9
+LFX  O02  3.819  3.008  0.225 ETKDGv2 10
+LFX  C03  2.368 -2.391 -0.308 ETKDGv2 11
+LFX  O03  6.173  2.352 -1.280 ETKDGv2 12
+LFX  C04 -0.686  0.668  0.188 ETKDGv2 13
+LFX  C05  1.680  0.026  0.012 ETKDGv2 14
+LFX  C06  0.389 -0.350  0.085 ETKDGv2 15
+LFX  C07 -3.952  0.052 -1.315 ETKDGv2 16
+LFX  C08 -4.257  1.138  0.838 ETKDGv2 17
+LFX  C09  1.031 -2.696  0.392 ETKDGv2 18
+LFX  C10  2.028  1.462  0.076 ETKDGv2 19
+LFX  C11 -0.359  1.971  0.247 ETKDGv2 20
+LFX  C12  4.078 -0.512 -0.421 ETKDGv2 21
+LFX  C13  1.058  2.384  0.199 ETKDGv2 22
+LFX  C14  3.448 -3.335  0.254 ETKDGv2 23
+LFX  C15  3.450  1.825 -0.013 ETKDGv2 24
+LFX  C16 -6.153  0.744 -0.603 ETKDGv2 25
+LFX  C17  4.445  0.784 -0.357 ETKDGv2 26
+LFX HO03  5.462  2.962 -1.662 ETKDGv2 27
+LFX  H01 -2.798 -1.590 -0.492 ETKDGv2 28
+LFX H01A -1.924 -0.606 -1.728 ETKDGv2 29
+LFX  H02 -3.122 -0.355  1.933 ETKDGv2 30
+LFX H02A -2.450  1.309  2.034 ETKDGv2 31
+LFX  H03  2.245 -2.603 -1.393 ETKDGv2 32
+LFX  H07 -3.760  1.030 -1.814 ETKDGv2 33
+LFX H07A -4.414 -0.634 -2.059 ETKDGv2 34
+LFX  H08 -4.943  1.258  1.705 ETKDGv2 35
+LFX H08A -4.081  2.144  0.392 ETKDGv2 36
+LFX  H09  0.649 -3.691  0.080 ETKDGv2 37
+LFX H09A  1.174 -2.704  1.495 ETKDGv2 38
+LFX  H12  4.826 -1.238 -0.709 ETKDGv2 39
+LFX  H13  1.295  3.440  0.241 ETKDGv2 40
+LFX  H14  3.767 -3.001  1.265 ETKDGv2 41
+LFX H14A  4.328 -3.376 -0.419 ETKDGv2 42
+LFX H14B  3.058 -4.373  0.328 ETKDGv2 43
+LFX  H16 -6.622  0.038 -1.322 ETKDGv2 44
+LFX H16A -6.845  0.839  0.261 ETKDGv2 45
+LFX H16B -6.042  1.738 -1.091 ETKDGv2 46
 #

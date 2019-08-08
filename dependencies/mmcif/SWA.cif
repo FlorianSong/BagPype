@@ -138,10 +138,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-SWA  "Create component" 2001-01-15 RCSB ? ?
-SWA "Modify descriptor" 2011-06-04 RCSB ? ?
+SWA  "Create component" 2001-01-15 RCSB
+SWA "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   SWA
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB02034
@@ -174,8 +172,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-SWA                                    Swainsonine   ChEMBL
 SWA                                    Tridolgosir   ChEMBL
+SWA                                    Swainsonine   ChEMBL
 SWA (1S,2R,8R,8AR)-octahydro-1,2,8-indolizinetriol DrugBank
 SWA                                     Swainosine DrugBank
 SWA                                    Tridolgosir DrugBank
@@ -313,31 +311,31 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SWA   C1  1.343 -0.940  0.783 ETKDGv2  1
-SWA   O1  2.034 -0.594  1.956 ETKDGv2  2
-SWA   C3 -0.095 -0.369  0.863 ETKDGv2  3
-SWA   N4 -0.186  1.085  0.626 ETKDGv2  4
-SWA   C5  0.563  1.528 -0.574 ETKDGv2  5
-SWA   C6  2.026  1.100 -0.512 ETKDGv2  6
-SWA   C2  2.110 -0.420 -0.440 ETKDGv2  7
-SWA   C9 -1.626  1.304  0.408 ETKDGv2  8
-SWA   C8 -2.218  0.018 -0.188 ETKDGv2  9
-SWA  O13 -2.568  0.224 -1.532 ETKDGv2 10
-SWA   C7 -1.107 -1.030 -0.070 ETKDGv2 11
-SWA  O11 -1.588 -2.224  0.490 ETKDGv2 12
-SWA  HC1  1.275 -2.052  0.714 ETKDGv2 13
-SWA  HO1  2.808 -1.212  2.029 ETKDGv2 14
-SWA  HC3 -0.445 -0.554  1.907 ETKDGv2 15
-SWA HC51  0.109  1.130 -1.511 ETKDGv2 16
-SWA HC52  0.533  2.638 -0.631 ETKDGv2 17
-SWA HC61  2.555  1.455 -1.422 ETKDGv2 18
-SWA HC62  2.517  1.556  0.376 ETKDGv2 19
-SWA HC21  3.176 -0.729 -0.376 ETKDGv2 20
-SWA HC22  1.692 -0.864 -1.369 ETKDGv2 21
-SWA HC91 -1.833  2.194 -0.230 ETKDGv2 22
-SWA HC92 -2.102  1.504  1.394 ETKDGv2 23
-SWA  HC8 -3.119 -0.277  0.401 ETKDGv2 24
-SWA H13O -3.099 -0.568 -1.808 ETKDGv2 25
-SWA  HC7 -0.641 -1.228 -1.063 ETKDGv2 26
-SWA H11O -2.115 -2.674 -0.221 ETKDGv2 27
+SWA   C1 -1.144  0.706 -0.575 ETKDGv2  1
+SWA   O1 -1.577  1.961 -1.038 ETKDGv2  2
+SWA   C3  0.075  0.857  0.381 ETKDGv2  3
+SWA   N4  0.464 -0.412  1.012 ETKDGv2  4
+SWA   C5 -0.636 -1.232  1.560 ETKDGv2  5
+SWA   C6 -1.816 -1.396  0.596 ETKDGv2  6
+SWA   C2 -2.296 -0.034  0.110 ETKDGv2  7
+SWA   C9  1.340 -1.104  0.065 ETKDGv2  8
+SWA   C8  2.027 -0.015 -0.769 ETKDGv2  9
+SWA  O13  1.872 -0.270 -2.141 ETKDGv2 10
+SWA   C7  1.320  1.297 -0.395 ETKDGv2 11
+SWA  O11  2.142  2.065  0.448 ETKDGv2 12
+SWA  HC1 -0.842  0.108 -1.463 ETKDGv2 13
+SWA  HO1 -1.853  2.496 -0.248 ETKDGv2 14
+SWA  HC3 -0.171  1.596  1.176 ETKDGv2 15
+SWA HC51 -0.254 -2.237  1.847 ETKDGv2 16
+SWA HC52 -1.000 -0.752  2.494 ETKDGv2 17
+SWA HC61 -2.649 -1.910  1.123 ETKDGv2 18
+SWA HC62 -1.526 -2.028 -0.270 ETKDGv2 19
+SWA HC21 -3.130 -0.175 -0.612 ETKDGv2 20
+SWA HC22 -2.678  0.558  0.971 ETKDGv2 21
+SWA HC91  2.096 -1.697  0.624 ETKDGv2 22
+SWA HC92  0.763 -1.793 -0.590 ETKDGv2 23
+SWA  HC8  3.112  0.041 -0.514 ETKDGv2 24
+SWA H13O  2.487 -1.018 -2.361 ETKDGv2 25
+SWA  HC7  1.051  1.895 -1.298 ETKDGv2 26
+SWA H11O  2.823  2.493 -0.133 ETKDGv2 27
 #

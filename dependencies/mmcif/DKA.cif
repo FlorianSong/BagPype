@@ -146,11 +146,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-DKA         "Create component" 2000-07-17 RCSB  ? ?
-DKA "Modify leaving atom flag" 2010-09-27 RCSB MZ ?
-DKA        "Modify descriptor" 2011-06-04 RCSB  ? ?
+DKA         "Create component" 2000-07-17 RCSB
+DKA "Modify leaving atom flag" 2010-09-27 RCSB
+DKA        "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   DKA
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB03600
@@ -190,8 +188,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-DKA           "Decanoic Acid"   ChEMBL
 DKA     "Decanoic Acid Anion"   ChEMBL
+DKA           "Decanoic Acid"   ChEMBL
 DKA "1-nonanecarboxylic acid" DrugBank
 DKA             "Capric acid" DrugBank
 DKA           "Decanoic acid" DrugBank
@@ -304,36 +302,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DKA   C1  4.408  0.401 -0.243 ETKDGv2  1
-DKA   O1  5.093  0.710 -1.252 ETKDGv2  2
-DKA   C2  3.619 -0.877 -0.238 ETKDGv2  3
-DKA   C3  2.282 -0.723 -0.973 ETKDGv2  4
-DKA   C4  1.309  0.201 -0.225 ETKDGv2  5
-DKA   C5 -0.052  0.255 -0.935 ETKDGv2  6
-DKA   C6 -0.999  1.313 -0.337 ETKDGv2  7
-DKA   C7 -1.390  1.079  1.134 ETKDGv2  8
-DKA   C8 -2.136 -0.240  1.410 ETKDGv2  9
-DKA   C9 -3.539 -0.307  0.770 ETKDGv2 10
-DKA  C10 -3.567 -1.149 -0.505 ETKDGv2 11
-DKA   O2  4.363  1.267  0.846 ETKDGv2 12
-DKA  H21  3.445 -1.212  0.807 ETKDGv2 13
-DKA  H22  4.217 -1.667 -0.742 ETKDGv2 14
-DKA  H31  2.462 -0.334 -1.999 ETKDGv2 15
-DKA  H32  1.821 -1.731 -1.068 ETKDGv2 16
-DKA  H41  1.173 -0.183  0.808 ETKDGv2 17
-DKA  H42  1.736  1.226 -0.174 ETKDGv2 18
-DKA  H51  0.111  0.517 -2.003 ETKDGv2 19
-DKA  H52 -0.526 -0.748 -0.916 ETKDGv2 20
-DKA  H61 -0.509  2.308 -0.413 ETKDGv2 21
-DKA  H62 -1.917  1.372 -0.958 ETKDGv2 22
-DKA  H71 -2.029  1.927  1.465 ETKDGv2 23
-DKA  H72 -0.480  1.117  1.769 ETKDGv2 24
-DKA  H81 -2.263 -0.312  2.512 ETKDGv2 25
-DKA  H82 -1.513 -1.114  1.124 ETKDGv2 26
-DKA  H91 -3.929  0.710  0.552 ETKDGv2 27
-DKA  H92 -4.239 -0.775  1.497 ETKDGv2 28
-DKA H101 -2.938 -0.697 -1.296 ETKDGv2 29
-DKA H102 -4.609 -1.211 -0.883 ETKDGv2 30
-DKA H103 -3.208 -2.180 -0.295 ETKDGv2 31
-DKA  HO2  3.805  1.054  1.664 ETKDGv2 32
+DKA   C1 -4.596  0.440  0.868 ETKDGv2  1
+DKA   O1 -5.458  0.914  0.082 ETKDGv2  2
+DKA   C2 -3.615 -0.578  0.379 ETKDGv2  3
+DKA   C3 -2.354  0.107 -0.157 ETKDGv2  4
+DKA   C4 -1.329 -0.929 -0.642 ETKDGv2  5
+DKA   C5 -0.119 -0.293 -1.351 ETKDGv2  6
+DKA   C6  0.689  0.716 -0.507 ETKDGv2  7
+DKA   C7  1.254  0.160  0.815 ETKDGv2  8
+DKA   C8  2.388 -0.873  0.623 ETKDGv2  9
+DKA   C9  3.789 -0.299  0.891 ETKDGv2 10
+DKA  C10  4.214  0.738 -0.146 ETKDGv2 11
+DKA   O2 -4.526  0.894  2.181 ETKDGv2 12
+DKA  H21 -4.085 -1.188 -0.423 ETKDGv2 13
+DKA  H22 -3.346 -1.255  1.219 ETKDGv2 14
+DKA  H31 -1.908  0.720  0.655 ETKDGv2 15
+DKA  H32 -2.631  0.778 -1.001 ETKDGv2 16
+DKA  H41 -0.992 -1.561  0.206 ETKDGv2 17
+DKA  H42 -1.824 -1.608 -1.370 ETKDGv2 18
+DKA  H51  0.547 -1.105 -1.707 ETKDGv2 19
+DKA  H52 -0.482  0.232 -2.261 ETKDGv2 20
+DKA  H61  1.524  1.098 -1.131 ETKDGv2 21
+DKA  H62  0.050  1.595 -0.280 ETKDGv2 22
+DKA  H71  0.436 -0.293  1.412 ETKDGv2 23
+DKA  H72  1.617  1.015  1.426 ETKDGv2 24
+DKA  H81  2.366 -1.331 -0.387 ETKDGv2 25
+DKA  H82  2.225 -1.702  1.346 ETKDGv2 26
+DKA  H91  3.830  0.151  1.906 ETKDGv2 27
+DKA  H92  4.521 -1.136  0.867 ETKDGv2 28
+DKA H101  3.600  1.658 -0.051 ETKDGv2 29
+DKA H102  4.112  0.327 -1.173 ETKDGv2 30
+DKA H103  5.276  1.014  0.020 ETKDGv2 31
+DKA  HO2 -5.172  1.595  2.524 ETKDGv2 32
 #

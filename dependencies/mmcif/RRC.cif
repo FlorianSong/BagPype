@@ -189,10 +189,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-RRC  "Create component" 2003-09-09  EBI ? ?
-RRC "Modify descriptor" 2011-06-04 RCSB ? ?
+RRC  "Create component" 2003-09-09  EBI
+RRC "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   RRC
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB06195
@@ -233,9 +231,9 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 RRC                                                         Roscovitine   ChEMBL
-RRC                                                             CYC-202   ChEMBL
-RRC                                                          Seliciclib   ChEMBL
 RRC                                                            AL-39256   ChEMBL
+RRC                                                          Seliciclib   ChEMBL
+RRC                                                             CYC-202   ChEMBL
 RRC 2-(R)-(1-ethyl-2-hydroxyethylamino)-6-benzylamino-9-isopropylpurine DrugBank
 RRC                                                       R-roscovitine DrugBank
 RRC                                                          Seliciclib DrugBank
@@ -460,56 +458,56 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-RRC  OAP -2.799 -2.329  1.447 ETKDGv2  1
-RRC  CAQ -1.741 -2.850  0.686 ETKDGv2  2
-RRC  CAR -1.909 -2.525 -0.815 ETKDGv2  3
-RRC  CAK -2.938 -3.443 -1.518 ETKDGv2  4
-RRC  CAI -4.335 -3.437 -0.891 ETKDGv2  5
-RRC  NAS -2.229 -1.106 -1.024 ETKDGv2  6
-RRC  CAT -1.283 -0.060 -0.774 ETKDGv2  7
-RRC  NAU -1.644  1.188 -0.928 ETKDGv2  8
-RRC  CAV -0.683  2.222 -0.681 ETKDGv2  9
-RRC  NAW -0.912  3.621 -0.637 ETKDGv2 10
-RRC  CAZ -2.191  4.328 -0.544 ETKDGv2 11
-RRC  CAY -3.062  4.038 -1.770 ETKDGv2 12
-RRC  CBA -2.916  3.959  0.753 ETKDGv2 13
-RRC  CAX  0.343  4.091 -0.122 ETKDGv2 14
-RRC  CAN  0.532  1.955 -0.284 ETKDGv2 15
-RRC  NAO  1.213  3.147  0.088 ETKDGv2 16
-RRC  NAL  0.067 -0.376 -0.345 ETKDGv2 17
-RRC  CAM  0.947  0.560 -0.098 ETKDGv2 18
-RRC  NAJ  2.268  0.232  0.349 ETKDGv2 19
-RRC  CAD  2.681 -1.156  0.562 ETKDGv2 20
-RRC  CAE  4.118 -1.227  1.005 ETKDGv2 21
-RRC  CAG  5.110 -0.902  0.156 ETKDGv2 22
-RRC  CAH  6.520 -0.971  0.595 ETKDGv2 23
-RRC  CAF  6.816 -1.359  1.841 ETKDGv2 24
-RRC  CAC  5.733 -1.718  2.780 ETKDGv2 25
-RRC  CAB  4.455 -1.657  2.386 ETKDGv2 26
-RRC  HAP -2.574 -1.382  1.643 ETKDGv2 27
-RRC HAQ1 -0.768 -2.456  1.058 ETKDGv2 28
-RRC HAQ2 -1.707 -3.951  0.828 ETKDGv2 29
-RRC  HAR -0.933 -2.732 -1.309 ETKDGv2 30
-RRC HAK1 -2.556 -4.487 -1.514 ETKDGv2 31
-RRC HAK2 -3.024 -3.133 -2.582 ETKDGv2 32
-RRC HAI1 -4.320 -3.936  0.100 ETKDGv2 33
-RRC HAI2 -4.725 -2.405 -0.779 ETKDGv2 34
-RRC HAI3 -5.032 -4.003 -1.545 ETKDGv2 35
-RRC  HAS -3.155 -0.835 -1.425 ETKDGv2 36
-RRC  HAZ -1.991  5.423 -0.529 ETKDGv2 37
-RRC HAY1 -3.970  4.677 -1.749 ETKDGv2 38
-RRC HAY2 -2.495  4.264 -2.698 ETKDGv2 39
-RRC HAY3 -3.380  2.975 -1.793 ETKDGv2 40
-RRC HBA1 -3.169  2.878  0.770 ETKDGv2 41
-RRC HBA2 -3.853  4.549  0.848 ETKDGv2 42
-RRC HBA3 -2.267  4.188  1.626 ETKDGv2 43
-RRC  HAX  0.545  5.131  0.098 ETKDGv2 44
-RRC  HAJ  2.940  1.011  0.534 ETKDGv2 45
-RRC HAD1  2.558 -1.733 -0.380 ETKDGv2 46
-RRC HAD2  2.021 -1.614  1.330 ETKDGv2 47
-RRC  HAG  4.888 -0.586 -0.856 ETKDGv2 48
-RRC  HAH  7.312 -0.708 -0.094 ETKDGv2 49
-RRC  HAF  7.847 -1.411  2.164 ETKDGv2 50
-RRC  HAC  5.977 -2.031  3.787 ETKDGv2 51
-RRC  HAB  3.668 -1.920  3.082 ETKDGv2 52
+RRC  OAP -3.373 -1.478 -2.263 ETKDGv2  1
+RRC  CAQ -3.911 -2.247 -1.222 ETKDGv2  2
+RRC  CAR -3.330 -1.778  0.121 ETKDGv2  3
+RRC  CAK -3.849 -2.622  1.302 ETKDGv2  4
+RRC  CAI -5.328 -2.381  1.606 ETKDGv2  5
+RRC  NAS -1.867 -1.875  0.074 ETKDGv2  6
+RRC  CAT -0.987 -0.750  0.201 ETKDGv2  7
+RRC  NAU -1.465  0.459  0.361 ETKDGv2  8
+RRC  CAV -0.550  1.553  0.485 ETKDGv2  9
+RRC  NAW -0.865  2.933  0.487 ETKDGv2 10
+RRC  CAZ -2.138  3.524  0.070 ETKDGv2 11
+RRC  CAY -2.349  4.881  0.746 ETKDGv2 12
+RRC  CBA -2.190  3.654 -1.455 ETKDGv2 13
+RRC  CAX  0.444  3.515  0.366 ETKDGv2 14
+RRC  CAN  0.742  1.386  0.412 ETKDGv2 15
+RRC  NAO  1.407  2.640  0.328 ETKDGv2 16
+RRC  NAL  0.447 -0.958  0.128 ETKDGv2 17
+RRC  CAM  1.291  0.038  0.219 ETKDGv2 18
+RRC  NAJ  2.704 -0.179  0.124 ETKDGv2 19
+RRC  CAD  3.264 -1.515 -0.079 ETKDGv2 20
+RRC  CAE  4.765 -1.459 -0.183 ETKDGv2 21
+RRC  CAG  5.354 -0.884 -1.247 ETKDGv2 22
+RRC  CAH  6.827 -0.829 -1.345 ETKDGv2 23
+RRC  CAF  7.584 -1.354 -0.373 ETKDGv2 24
+RRC  CAC  6.946 -1.988  0.799 ETKDGv2 25
+RRC  CAB  5.611 -2.039  0.891 ETKDGv2 26
+RRC  HAP -3.767 -1.835 -3.101 ETKDGv2 27
+RRC HAQ1 -5.016 -2.126 -1.220 ETKDGv2 28
+RRC HAQ2 -3.667 -3.321 -1.384 ETKDGv2 29
+RRC  HAR -3.643 -0.723  0.280 ETKDGv2 30
+RRC HAK1 -3.684 -3.703  1.104 ETKDGv2 31
+RRC HAK2 -3.267 -2.355  2.212 ETKDGv2 32
+RRC HAI1 -5.968 -2.771  0.788 ETKDGv2 33
+RRC HAI2 -5.526 -1.297  1.748 ETKDGv2 34
+RRC HAI3 -5.604 -2.914  2.540 ETKDGv2 35
+RRC  HAS -1.436 -2.818 -0.064 ETKDGv2 36
+RRC  HAZ -2.966  2.854  0.392 ETKDGv2 37
+RRC HAY1 -2.271  4.769  1.849 ETKDGv2 38
+RRC HAY2 -1.592  5.618  0.405 ETKDGv2 39
+RRC HAY3 -3.360  5.273  0.505 ETKDGv2 40
+RRC HBA1 -1.385  4.328 -1.818 ETKDGv2 41
+RRC HBA2 -3.173  4.063 -1.771 ETKDGv2 42
+RRC HBA3 -2.059  2.655 -1.923 ETKDGv2 43
+RRC  HAX  0.622  4.578  0.282 ETKDGv2 44
+RRC  HAJ  3.342  0.646  0.210 ETKDGv2 45
+RRC HAD1  2.963 -2.165  0.771 ETKDGv2 46
+RRC HAD2  2.848 -1.959 -1.010 ETKDGv2 47
+RRC  HAG  4.756 -0.454 -2.042 ETKDGv2 48
+RRC  HAH  7.293 -0.364 -2.204 ETKDGv2 49
+RRC  HAF  8.663 -1.314 -0.443 ETKDGv2 50
+RRC  HAC  7.561 -2.410  1.583 ETKDGv2 51
+RRC  HAB  5.153 -2.505  1.755 ETKDGv2 52
 #

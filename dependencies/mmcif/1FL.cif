@@ -136,13 +136,11 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-1FL       "Create component" 2005-07-26 RCSB  ? ?
-1FL   "Modify aromatic_flag" 2011-06-04 RCSB  ? ?
-1FL      "Modify descriptor" 2011-06-04 RCSB  ? ?
-1FL        "Modify synonyms" 2013-07-29  EBI MC ?
-1FL "Modify processing site" 2013-07-29  EBI MC ?
+1FL       "Create component" 2005-07-26 RCSB
+1FL   "Modify aromatic_flag" 2011-06-04 RCSB
+1FL      "Modify descriptor" 2011-06-04 RCSB
+1FL        "Modify synonyms" 2013-07-29  EBI
+1FL "Modify processing site" 2013-07-29  EBI
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   1FL
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00861
@@ -177,9 +175,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-1FL                                        "Dolobid 500"   ChEMBL
 1FL                                           Diflunisal   ChEMBL
 1FL                                              Dolobid   ChEMBL
+1FL                                        "Dolobid 500"   ChEMBL
 1FL     "2-(hydroxy)-5-(2,4-difluorophenyl)benzoic acid" DrugBank
 1FL "2',4'-difluoro-4-hydroxy-3-biphenylcarboxylic acid" DrugBank
 1FL               "5-(2,4-difluorophenyl)salicylic acid" DrugBank
@@ -337,30 +335,30 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-1FL FAT -2.145  1.893  1.200 ETKDGv2  1
-1FL CAN -2.456  0.943  0.282 ETKDGv2  2
-1FL CAM -3.702  0.890 -0.208 ETKDGv2  3
-1FL CAF -4.054 -0.106 -1.239 ETKDGv2  4
-1FL FAE -5.317 -0.155 -1.729 ETKDGv2  5
-1FL CAG -3.125 -0.955 -1.693 ETKDGv2  6
-1FL CAH -1.749 -0.903 -1.157 ETKDGv2  7
-1FL CAO -1.417 -0.003 -0.210 ETKDGv2  8
-1FL CAP -0.043  0.037  0.347 ETKDGv2  9
-1FL CAI  1.035 -0.006 -0.459 ETKDGv2 10
-1FL CAJ  2.414  0.041  0.098 ETKDGv2 11
-1FL CAC  3.563 -0.007 -0.843 ETKDGv2 12
-1FL OAD  3.334 -0.102 -2.213 ETKDGv2 13
-1FL OAB  4.752  0.037 -0.425 ETKDGv2 14
-1FL CAQ  0.157  0.126  1.812 ETKDGv2 15
-1FL CAR  1.389  0.170  2.325 ETKDGv2 16
-1FL CAK  2.575  0.127  1.440 ETKDGv2 17
-1FL OAL  3.846  0.176  2.013 ETKDGv2 18
-1FL HAM -4.454  1.585  0.143 ETKDGv2 19
-1FL HAG -3.378 -1.686 -2.450 ETKDGv2 20
-1FL HAH -1.022 -1.617 -1.525 ETKDGv2 21
-1FL HAI  0.898 -0.056 -1.532 ETKDGv2 22
-1FL HAD  4.105 -0.136 -2.869 ETKDGv2 23
-1FL HAQ -0.696  0.139  2.479 ETKDGv2 24
-1FL HAR  1.520  0.229  3.398 ETKDGv2 25
-1FL HAL  3.970  0.240  3.016 ETKDGv2 26
+1FL FAT -1.444  2.137  0.977 ETKDGv2  1
+1FL CAN -2.163  1.029  0.664 ETKDGv2  2
+1FL CAM -3.474  1.002  0.936 ETKDGv2  3
+1FL CAF -4.287 -0.172  0.562 ETKDGv2  4
+1FL FAE -5.614 -0.192  0.843 ETKDGv2  5
+1FL CAG -3.716 -1.210 -0.058 ETKDGv2  6
+1FL CAH -2.271 -1.188 -0.363 ETKDGv2  7
+1FL CAO -1.515 -0.129 -0.015 ETKDGv2  8
+1FL CAP -0.061 -0.119 -0.311 ETKDGv2  9
+1FL CAI  0.829  0.268  0.621 ETKDGv2 10
+1FL CAJ  2.291  0.273  0.335 ETKDGv2 11
+1FL CAC  3.229  0.714  1.399 ETKDGv2 12
+1FL OAD  4.606  0.725  1.188 ETKDGv2 13
+1FL OAB  2.782  1.088  2.517 ETKDGv2 14
+1FL CAQ  0.430 -0.553 -1.640 ETKDGv2 15
+1FL CAR  1.738 -0.555 -1.909 ETKDGv2 16
+1FL CAK  2.718 -0.125 -0.886 ETKDGv2 17
+1FL OAL  4.075 -0.139 -1.207 ETKDGv2 18
+1FL HAM -3.946  1.848  1.420 ETKDGv2 19
+1FL HAG -4.310 -2.071 -0.336 ETKDGv2 20
+1FL HAH -1.830 -2.050 -0.848 ETKDGv2 21
+1FL HAI  0.482  0.558  1.605 ETKDGv2 22
+1FL HAD  5.242  1.026  1.917 ETKDGv2 23
+1FL HAQ -0.271 -0.860 -2.406 ETKDGv2 24
+1FL HAR  2.082 -0.870 -2.886 ETKDGv2 25
+1FL HAL  4.399 -0.436 -2.120 ETKDGv2 26
 #

@@ -155,11 +155,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-KXN     "Create component" 2008-07-25 RCSB ? ?
-KXN "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-KXN    "Modify descriptor" 2011-06-04 RCSB ? ?
+KXN     "Create component" 2008-07-25 RCSB
+KXN "Modify aromatic_flag" 2011-06-04 RCSB
+KXN    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   KXN
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB14086
@@ -174,9 +172,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-KXN     Cianidol ChEMBL
 KXN (+)-Catechin ChEMBL
 KXN   Cianidanol ChEMBL
+KXN     Cianidol ChEMBL
 #
 loop_
 _software.name              
@@ -362,39 +360,39 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-KXN  O94 -5.907  0.887  0.141 ETKDGv2  1
-KXN  C94 -4.566  0.633 -0.146 ETKDGv2  2
-KXN  C93 -3.542  0.796  0.915 ETKDGv2  3
-KXN  O93 -3.904  1.194  2.201 ETKDGv2  4
-KXN  C92 -2.252  0.557  0.640 ETKDGv2  5
-KXN  C95 -4.194  0.240 -1.374 ETKDGv2  6
-KXN  C96 -2.773 -0.028 -1.673 ETKDGv2  7
-KXN  C91 -1.836  0.133 -0.721 ETKDGv2  8
-KXN   C2 -0.386 -0.171 -1.010 ETKDGv2  9
-KXN   O1  0.439  0.843 -0.437 ETKDGv2 10
-KXN   C3  0.021 -1.538 -0.433 ETKDGv2 11
-KXN   O3 -0.738 -2.581 -0.993 ETKDGv2 12
-KXN   C4  1.528 -1.782 -0.650 ETKDGv2 13
-KXN  C10  2.375 -0.568 -0.329 ETKDGv2 14
-KXN   C9  1.809  0.656 -0.216 ETKDGv2 15
-KXN   C8  2.631  1.825  0.156 ETKDGv2 16
-KXN   C5  3.854 -0.703 -0.156 ETKDGv2 17
-KXN  O51  4.506 -1.922 -0.343 ETKDGv2 18
-KXN   C6  4.586  0.370  0.177 ETKDGv2 19
-KXN   C7  3.948  1.692  0.348 ETKDGv2 20
-KXN  O71  4.710  2.803  0.701 ETKDGv2 21
-KXN HO94 -6.632  0.785 -0.560 ETKDGv2 22
-KXN HO93 -4.868  1.383  2.447 ETKDGv2 23
-KXN  H92 -1.508  0.671  1.419 ETKDGv2 24
-KXN  H95 -4.932  0.114 -2.157 ETKDGv2 25
-KXN  H96 -2.502 -0.358 -2.668 ETKDGv2 26
-KXN   H2 -0.204 -0.174 -2.109 ETKDGv2 27
-KXN   H3 -0.167 -1.528  0.664 ETKDGv2 28
-KXN  HO3 -0.597 -2.562 -1.976 ETKDGv2 29
-KXN   H4  1.723 -2.075 -1.705 ETKDGv2 30
-KXN  H4A  1.826 -2.626  0.008 ETKDGv2 31
-KXN   H8  2.161  2.794  0.271 ETKDGv2 32
-KXN HO51  4.025 -2.759 -0.644 ETKDGv2 33
-KXN   H6  5.657  0.274  0.307 ETKDGv2 34
-KXN HO71  5.709  2.727  0.850 ETKDGv2 35
+KXN  O94  5.956 -0.130 -0.800 ETKDGv2  1
+KXN  C94  4.603  0.000 -0.495 ETKDGv2  2
+KXN  C93  4.158  0.840  0.645 ETKDGv2  3
+KXN  O93  5.104  1.503  1.426 ETKDGv2  4
+KXN  C92  2.848  0.954  0.918 ETKDGv2  5
+KXN  C95  3.696 -0.644 -1.241 ETKDGv2  6
+KXN  C96  2.256 -0.521 -0.936 ETKDGv2  7
+KXN  C91  1.840  0.250  0.086 ETKDGv2  8
+KXN   C2  0.374  0.361  0.431 ETKDGv2  9
+KXN   O1 -0.392  0.564 -0.756 ETKDGv2 10
+KXN   C3 -0.129 -0.896  1.154 ETKDGv2 11
+KXN   O3  0.559 -1.054  2.368 ETKDGv2 12
+KXN   C4 -1.642 -0.777  1.420 ETKDGv2 13
+KXN  C10 -2.418 -0.256  0.227 ETKDGv2 14
+KXN   C9 -1.775  0.355 -0.795 ETKDGv2 15
+KXN   C8 -2.528  0.808 -1.983 ETKDGv2 16
+KXN   C5 -3.906 -0.389  0.174 ETKDGv2 17
+KXN  O51 -4.631 -0.933  1.234 ETKDGv2 18
+KXN   C6 -4.573  0.031 -0.910 ETKDGv2 19
+KXN   C7 -3.854  0.651 -2.043 ETKDGv2 20
+KXN  O71 -4.551  1.079 -3.170 ETKDGv2 21
+KXN HO94  6.671  0.341 -0.259 ETKDGv2 22
+KXN HO93  4.836  2.084  2.212 ETKDGv2 23
+KXN  H92  2.521  1.563  1.753 ETKDGv2 24
+KXN  H95  4.013 -1.261 -2.072 ETKDGv2 25
+KXN  H96  1.545 -1.064 -1.546 ETKDGv2 26
+KXN   H2  0.215  1.241  1.094 ETKDGv2 27
+KXN   H3  0.051 -1.781  0.498 ETKDGv2 28
+KXN  HO3  0.397 -1.986  2.669 ETKDGv2 29
+KXN   H4 -1.824 -0.099  2.282 ETKDGv2 30
+KXN  H4A -2.014 -1.789  1.687 ETKDGv2 31
+KXN   H8 -1.998  1.269 -2.807 ETKDGv2 32
+KXN HO51 -4.199 -1.222  2.102 ETKDGv2 33
+KXN   H6 -5.651 -0.068 -0.952 ETKDGv2 34
+KXN HO71 -5.556  0.973 -3.238 ETKDGv2 35
 #

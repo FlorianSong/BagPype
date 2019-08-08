@@ -148,11 +148,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-BTN         "Create component" 1999-07-08 RCSB  ? ?
-BTN        "Modify descriptor" 2011-06-04 RCSB  ? ?
-BTN "Modify leaving atom flag" 2014-04-29 RCSB MZ ?
+BTN         "Create component" 1999-07-08 RCSB
+BTN        "Modify descriptor" 2011-06-04 RCSB
+BTN "Modify leaving atom flag" 2014-04-29 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   BTN
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00121
@@ -194,10 +192,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-BTN                                                            "Biotin 100"   ChEMBL
 BTN                                                             "Vitamin H"   ChEMBL
-BTN                                                              Bioepiderm   ChEMBL
 BTN                                                                  Biotin   ChEMBL
+BTN                                                            "Biotin 100"   ChEMBL
+BTN                                                              Bioepiderm   ChEMBL
 BTN        "(+)-cis-Hexahydro-2-oxo-1H-thieno[3,4]imidazole-4-valeric acid" DrugBank
 BTN "(3aS,4S,6aR)-Hexahydro-2-oxo-1H-thieno[3,4-d]imidazole-4-valeric acid" DrugBank
 BTN        "5-(2-oxohexahydro-1H-thieno[3,4-d]imidazol-4-yl)pentanoic acid" DrugBank
@@ -345,36 +343,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BTN  C11  4.369  0.871 -0.669 ETKDGv2  1
-BTN  O11  5.035  1.793 -0.129 ETKDGv2  2
-BTN  O12  5.012 -0.047 -1.494 ETKDGv2  3
-BTN  C10  2.903  0.742 -0.383 ETKDGv2  4
-BTN   C9  2.664 -0.282  0.734 ETKDGv2  5
-BTN   C8  1.189 -0.360  1.158 ETKDGv2  6
-BTN   C7  0.299 -1.008  0.083 ETKDGv2  7
-BTN   C2 -1.126 -1.308  0.600 ETKDGv2  8
-BTN   S1 -1.990 -2.514 -0.517 ETKDGv2  9
-BTN   C6 -3.236 -1.284 -1.120 ETKDGv2 10
-BTN   C5 -2.584  0.032 -0.795 ETKDGv2 11
-BTN   N1 -3.355  1.258 -0.735 ETKDGv2 12
-BTN   C3 -2.644  1.996  0.264 ETKDGv2 13
-BTN   O3 -2.835  3.222  0.478 ETKDGv2 14
-BTN   N2 -1.702  1.212  1.003 ETKDGv2 15
-BTN   C4 -2.090 -0.131  0.617 ETKDGv2 16
-BTN  HO2  4.504 -0.809 -1.925 ETKDGv2 17
-BTN H101  2.389  0.424 -1.314 ETKDGv2 18
-BTN H102  2.496  1.733 -0.084 ETKDGv2 19
-BTN  H91  3.019 -1.285  0.411 ETKDGv2 20
-BTN  H92  3.262  0.015  1.625 ETKDGv2 21
-BTN  H81  0.827  0.659  1.400 ETKDGv2 22
-BTN  H82  1.135 -0.967  2.088 ETKDGv2 23
-BTN  H71  0.266 -0.365 -0.817 ETKDGv2 24
-BTN  H72  0.764 -1.972 -0.216 ETKDGv2 25
-BTN   H2 -1.069 -1.760  1.615 ETKDGv2 26
-BTN  H61 -3.398 -1.391 -2.213 ETKDGv2 27
-BTN  H62 -4.197 -1.408 -0.575 ETKDGv2 28
-BTN   H5 -1.751  0.195 -1.516 ETKDGv2 29
-BTN  HN1 -3.885  1.682 -1.528 ETKDGv2 30
-BTN  HN2 -1.330  1.481  1.940 ETKDGv2 31
-BTN   H4 -2.941 -0.424  1.283 ETKDGv2 32
+BTN  C11  4.231 -0.594  1.605 ETKDGv2  1
+BTN  O11  4.263 -1.061  2.774 ETKDGv2  2
+BTN  O12  4.544  0.745  1.393 ETKDGv2  3
+BTN  C10  3.819 -1.475  0.461 ETKDGv2  4
+BTN   C9  2.294 -1.593  0.354 ETKDGv2  5
+BTN   C8  1.636 -0.274 -0.077 ETKDGv2  6
+BTN   C7  0.120 -0.443 -0.244 ETKDGv2  7
+BTN   C2 -0.549  0.873 -0.689 ETKDGv2  8
+BTN   S1 -0.615  2.120  0.689 ETKDGv2  9
+BTN   C6 -2.455  2.017  0.880 ETKDGv2 10
+BTN   C5 -2.783  0.706  0.218 ETKDGv2 11
+BTN   N1 -4.128  0.380 -0.211 ETKDGv2 12
+BTN   C3 -3.889 -0.416 -1.375 ETKDGv2 13
+BTN   O3 -4.808 -0.990 -2.015 ETKDGv2 14
+BTN   N2 -2.522 -0.415 -1.801 ETKDGv2 15
+BTN   C4 -2.010  0.730 -1.071 ETKDGv2 16
+BTN  HO2  4.509  1.153  0.467 ETKDGv2 17
+BTN H101  4.248 -2.488  0.618 ETKDGv2 18
+BTN H102  4.240 -1.084 -0.491 ETKDGv2 19
+BTN  H91  1.875 -1.925  1.330 ETKDGv2 20
+BTN  H92  2.059 -2.377 -0.400 ETKDGv2 21
+BTN  H81  2.077  0.059 -1.043 ETKDGv2 22
+BTN  H82  1.835  0.505  0.689 ETKDGv2 23
+BTN  H71 -0.311 -0.796  0.717 ETKDGv2 24
+BTN  H72 -0.067 -1.223 -1.014 ETKDGv2 25
+BTN   H2  0.009  1.301 -1.550 ETKDGv2 26
+BTN  H61 -2.740  2.005  1.953 ETKDGv2 27
+BTN  H62 -2.946  2.868  0.360 ETKDGv2 28
+BTN   H5 -2.442 -0.118  0.886 ETKDGv2 29
+BTN  HN1 -5.012  0.881  0.028 ETKDGv2 30
+BTN  HN2 -2.200 -0.712 -2.749 ETKDGv2 31
+BTN   H4 -2.282  1.642 -1.661 ETKDGv2 32
 #

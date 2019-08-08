@@ -45,7 +45,7 @@ _chem_comp_atom.pdbx_model_Cartn_z_ideal
 _chem_comp_atom.pdbx_component_atom_id         
 _chem_comp_atom.pdbx_component_comp_id         
 _chem_comp_atom.pdbx_ordinal                   
-MVP     P  P1 P 0 0 N N N 24.755 -32.728 283.961  4.191  0.857 -0.909     P MVP  1
+MVP     P  P1 P 0 1 N N N 24.755 -32.728 283.961  4.191  0.857 -0.909     P MVP  1
 MVP    O3  O1 O 0 1 N N N 25.241 -35.398 275.776 -4.949 -1.109 -1.933    O3 MVP  2
 MVP    C3  C1 C 0 1 N N S 25.592 -34.196 276.434 -3.840 -0.594 -1.193    C3 MVP  3
 MVP    C2  C2 C 0 1 N N R 24.398 -33.354 276.597 -3.536 -1.523 -0.013    C2 MVP  4
@@ -188,12 +188,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MVP  "Create component" 2014-07-24 RCSB CS                                                           ?
-MVP "Modify descriptor" 2014-09-05 RCSB ZF                                                           ?
-MVP   "Initial release" 2015-07-22 RCSB ZF                                                           ?
-MVP    "Modify atom id" 2015-07-22 RCSB CS "update atom labeling to be more consistent with atom type"
+MVP  "Create component" 2014-07-24 RCSB
+MVP "Modify descriptor" 2014-09-05 RCSB
+MVP   "Initial release" 2015-07-22 RCSB
+MVP    "Modify atom id" 2015-07-22 RCSB
 #
 loop_
 _software.name              
@@ -356,56 +354,56 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MVP     P  5.668  0.731  0.217 ETKDGv2  1
-MVP    O3 -4.899 -2.140 -0.533 ETKDGv2  2
-MVP    C3 -4.094 -1.025 -0.821 ETKDGv2  3
-MVP    C2 -2.599 -1.319 -0.524 ETKDGv2  4
-MVP    C1 -1.840 -0.031 -0.117 ETKDGv2  5
-MVP    O5 -2.380  1.089 -0.797 ETKDGv2  6
-MVP    C5 -3.691  1.425 -0.344 ETKDGv2  7
-MVP    C4 -4.568  0.184 -0.000 ETKDGv2  8
-MVP    O4 -5.932  0.451 -0.222 ETKDGv2  9
-MVP    C6 -3.630  2.424  0.824 ETKDGv2 10
-MVP    O6 -2.924  3.576  0.448 ETKDGv2 11
-MVP "O4'" -0.477 -0.148 -0.493 ETKDGv2 12
-MVP "C4'"  0.355 -0.573  0.579 ETKDGv2 13
-MVP "C3'"  1.037  0.641  1.240 ETKDGv2 14
-MVP "C2'"  2.000  1.312  0.245 ETKDGv2 15
-MVP "C1'"  2.955  0.276 -0.412 ETKDGv2 16
-MVP     C  4.123 -0.203  0.496 ETKDGv2 17
-MVP   OP2  6.125  0.589 -1.406 ETKDGv2 18
-MVP   OP3  6.882  0.079  1.200 ETKDGv2 19
-MVP   OP1  5.477  2.190  0.563 ETKDGv2 20
-MVP "O5'"  2.234 -0.823 -0.955 ETKDGv2 21
-MVP "C5'"  1.458 -1.498  0.025 ETKDGv2 22
-MVP "C6'"  0.853 -2.761 -0.603 ETKDGv2 23
-MVP "O6'"  1.867 -3.663 -0.958 ETKDGv2 24
-MVP "O2'"  2.738  2.317  0.890 ETKDGv2 25
-MVP "O3'"  0.079  1.575  1.666 ETKDGv2 26
-MVP    O2 -2.478 -2.261  0.514 ETKDGv2 27
-MVP    H1 -4.732 -2.804 -1.252 ETKDGv2 28
-MVP    H2 -4.196 -0.767 -1.902 ETKDGv2 29
-MVP    H3 -2.140 -1.721 -1.459 ETKDGv2 30
-MVP    H4 -1.956  0.130  0.983 ETKDGv2 31
-MVP    H5 -4.178  1.956 -1.191 ETKDGv2 32
-MVP    H6 -4.448 -0.070  1.077 ETKDGv2 33
-MVP    H7 -6.060  0.591 -1.197 ETKDGv2 34
-MVP    H8 -3.168  1.963  1.726 ETKDGv2 35
-MVP    H9 -4.664  2.724  1.099 ETKDGv2 36
-MVP   H10 -1.959  3.360  0.535 ETKDGv2 37
-MVP   H11 -0.196 -1.147  1.362 ETKDGv2 38
-MVP   H12  1.623  0.290  2.123 ETKDGv2 39
-MVP   H13  1.396  1.768 -0.576 ETKDGv2 40
-MVP   H14  3.403  0.794 -1.287 ETKDGv2 41
-MVP   H15  3.854 -0.140  1.570 ETKDGv2 42
-MVP   H16  4.354 -1.266  0.271 ETKDGv2 43
-MVP   H17  6.965  1.107 -1.480 ETKDGv2 44
-MVP   H18  7.692  0.608  0.989 ETKDGv2 45
-MVP   H19  2.096 -1.843  0.871 ETKDGv2 46
-MVP   H20  0.239 -2.501 -1.495 ETKDGv2 47
-MVP   H21  0.189 -3.262  0.133 ETKDGv2 48
-MVP   H22  2.243 -3.346 -1.820 ETKDGv2 49
-MVP   H23  2.144  3.108  0.971 ETKDGv2 50
-MVP   H24 -0.320  1.217  2.502 ETKDGv2 51
-MVP   H25 -2.517 -3.162  0.097 ETKDGv2 52
+MVP     P -5.611  0.543  0.575 ETKDGv2  1
+MVP    O3  5.034 -1.932  0.619 ETKDGv2  2
+MVP    C3  3.885 -1.141  0.454 ETKDGv2  3
+MVP    C2  3.206 -1.455 -0.889 ETKDGv2  4
+MVP    C1  2.063 -0.456 -1.152 ETKDGv2  5
+MVP    O5  2.541  0.883 -1.120 ETKDGv2  6
+MVP    C5  3.050  1.233  0.160 ETKDGv2  7
+MVP    C4  4.273  0.348  0.519 ETKDGv2  8
+MVP    O4  4.785  0.663  1.790 ETKDGv2  9
+MVP    C6  3.427  2.720  0.123 ETKDGv2 10
+MVP    O6  3.717  3.185  1.413 ETKDGv2 11
+MVP "O4'"  1.019 -0.658 -0.212 ETKDGv2 12
+MVP "C4'" -0.191 -0.044 -0.634 ETKDGv2 13
+MVP "C3'" -0.890  0.577  0.588 ETKDGv2 14
+MVP "C2'" -2.313  1.033  0.219 ETKDGv2 15
+MVP "C1'" -3.073 -0.130 -0.456 ETKDGv2 16
+MVP     C -4.509  0.262 -0.855 ETKDGv2 17
+MVP   OP2 -5.406 -0.681  1.727 ETKDGv2 18
+MVP   OP3 -7.212  0.527  0.031 ETKDGv2 19
+MVP   OP1 -5.319  1.890  1.200 ETKDGv2 20
+MVP "O5'" -2.397 -0.548 -1.632 ETKDGv2 21
+MVP "C5'" -1.100 -1.069 -1.367 ETKDGv2 22
+MVP "C6'" -1.145 -2.472 -0.718 ETKDGv2 23
+MVP "O6'" -2.062 -3.294 -1.389 ETKDGv2 24
+MVP "O2'" -2.254  2.135 -0.652 ETKDGv2 25
+MVP "O3'" -0.931 -0.345  1.647 ETKDGv2 26
+MVP    O2  4.153 -1.383 -1.926 ETKDGv2 27
+MVP    H1  4.720 -2.853  0.816 ETKDGv2 28
+MVP    H2  3.165 -1.358  1.279 ETKDGv2 29
+MVP    H3  2.784 -2.487 -0.837 ETKDGv2 30
+MVP    H4  1.695 -0.665 -2.183 ETKDGv2 31
+MVP    H5  2.258  1.116  0.935 ETKDGv2 32
+MVP    H6  5.075  0.534 -0.229 ETKDGv2 33
+MVP    H7  4.058  0.521  2.452 ETKDGv2 34
+MVP    H8  4.304  2.875 -0.546 ETKDGv2 35
+MVP    H9  2.568  3.299 -0.286 ETKDGv2 36
+MVP   H10  3.962  4.141  1.312 ETKDGv2 37
+MVP   H11 -0.010  0.803 -1.342 ETKDGv2 38
+MVP   H12 -0.295  1.466  0.906 ETKDGv2 39
+MVP   H13 -2.837  1.324  1.156 ETKDGv2 40
+MVP   H14 -3.163 -0.979  0.255 ETKDGv2 41
+MVP   H15 -4.946 -0.569 -1.449 ETKDGv2 42
+MVP   H16 -4.507  1.166 -1.500 ETKDGv2 43
+MVP   H17 -4.590 -0.430  2.229 ETKDGv2 44
+MVP   H18 -7.759  0.604  0.853 ETKDGv2 45
+MVP   H19 -0.632 -1.227 -2.363 ETKDGv2 46
+MVP   H20 -0.133 -2.936 -0.747 ETKDGv2 47
+MVP   H21 -1.439 -2.417  0.348 ETKDGv2 48
+MVP   H22 -1.640 -3.546 -2.251 ETKDGv2 49
+MVP   H23 -2.029  2.928 -0.099 ETKDGv2 50
+MVP   H24 -1.118  0.172  2.473 ETKDGv2 51
+MVP   H25  3.770 -1.875 -2.699 ETKDGv2 52
 #

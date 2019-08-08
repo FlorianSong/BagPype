@@ -1,0 +1,160 @@
+data_DML
+#
+_chem_comp.id                                        DML
+_chem_comp.name                                      "TERMINAL DIMETHYL"
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
+_chem_comp.formula                                   "C2 H6"
+_chem_comp.mon_nstd_parent_comp_id                   ?
+_chem_comp.pdbx_synonyms                             ?
+_chem_comp.pdbx_formal_charge                        0
+_chem_comp.pdbx_initial_date                         1999-07-08
+_chem_comp.pdbx_modified_date                        2008-10-14
+_chem_comp.pdbx_ambiguous_flag                       Y
+_chem_comp.pdbx_release_status                       OBS
+_chem_comp.pdbx_replaced_by                          ?
+_chem_comp.pdbx_replaces                             ?
+_chem_comp.formula_weight                            30.069
+_chem_comp.one_letter_code                           ?
+_chem_comp.three_letter_code                         DML
+_chem_comp.pdbx_model_coordinates_details            ?
+_chem_comp.pdbx_model_coordinates_missing_flag       N
+_chem_comp.pdbx_ideal_coordinates_details            ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
+_chem_comp.pdbx_model_coordinates_db_code            ?
+_chem_comp.pdbx_subcomponent_list                    ?
+_chem_comp.pdbx_processing_site                      RCSB
+
+#
+loop_
+_chem_comp_atom.comp_id                        
+_chem_comp_atom.atom_id                        
+_chem_comp_atom.alt_atom_id                    
+_chem_comp_atom.type_symbol                    
+_chem_comp_atom.charge                         
+_chem_comp_atom.pdbx_align                     
+_chem_comp_atom.pdbx_aromatic_flag             
+_chem_comp_atom.pdbx_leaving_atom_flag         
+_chem_comp_atom.pdbx_stereo_config             
+_chem_comp_atom.model_Cartn_x                  
+_chem_comp_atom.model_Cartn_y                  
+_chem_comp_atom.model_Cartn_z                  
+_chem_comp_atom.pdbx_model_Cartn_x_ideal       
+_chem_comp_atom.pdbx_model_Cartn_y_ideal       
+_chem_comp_atom.pdbx_model_Cartn_z_ideal       
+_chem_comp_atom.pdbx_component_atom_id         
+_chem_comp_atom.pdbx_component_comp_id         
+_chem_comp_atom.pdbx_ordinal                   
+DML  CM1  CM1 C 0 1 N N N 14.846 4.773 63.307 -0.819 -0.680 0.197  CM1 DML 1
+DML  CM2  CM2 C 0 1 N N N 13.275 2.734 64.092      ?      ?     ?  CM2 DML 2
+DML HM11 1HM1 H 0 0 N N N 14.306 4.773 62.372 -1.806 -0.291 0.412 HM11 DML 3
+DML HM12 2HM1 H 0 0 N N N 14.306 4.773 64.242  0.000  0.000 0.000 HM12 DML 4
+DML HM13 3HM1 H 0 0 N N N 15.926 4.773 63.307 -0.652 -1.749 0.178 HM13 DML 5
+DML HM21 1HM2 H 0 0 N N N 12.735 2.734 63.157      ?      ?     ? HM21 DML 6
+DML HM22 2HM2 H 0 0 N N N 12.735 2.734 65.027      ?      ?     ? HM22 DML 7
+DML HM23 3HM2 H 0 0 N N N 14.355 2.734 64.092      ?      ?     ? HM23 DML 8
+#
+loop_
+_chem_comp_bond.comp_id                  
+_chem_comp_bond.atom_id_1                
+_chem_comp_bond.atom_id_2                
+_chem_comp_bond.value_order              
+_chem_comp_bond.pdbx_aromatic_flag       
+_chem_comp_bond.pdbx_stereo_config       
+_chem_comp_bond.pdbx_ordinal             
+DML CM1 HM11 SING N N 1
+DML CM1 HM12 SING N N 2
+DML CM1 HM13 SING N N 3
+DML CM2 HM21 SING N N 4
+DML CM2 HM22 SING N N 5
+DML CM2 HM23 SING N N 6
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id               
+_pdbx_chem_comp_descriptor.type                  
+_pdbx_chem_comp_descriptor.program               
+_pdbx_chem_comp_descriptor.program_version       
+_pdbx_chem_comp_descriptor.descriptor            
+DML            InChI                InChI 1.02b       InChI=1/2CH4/h2*1H4
+DML         InChIKey                InChI 1.02b CREMABGTGYGIQB-UHFFFAOYAL
+DML SMILES_CANONICAL               CACTVS 3.341             "[CH3].[CH3]"
+DML           SMILES               CACTVS 3.341             "[CH3].[CH3]"
+DML SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0             "[CH3].[CH3]"
+DML           SMILES "OpenEye OEToolkits" 1.5.0             "[CH3].[CH3]"
+#
+_pdbx_chem_comp_identifier.comp_id               DML
+_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version       1.5.0
+_pdbx_chem_comp_identifier.identifier            "$l^{3}-carbane"
+
+#
+_pdbx_chem_comp_audit.comp_id               DML
+_pdbx_chem_comp_audit.action_type           "Create component"
+_pdbx_chem_comp_audit.date                  1999-07-08
+_pdbx_chem_comp_audit.processing_site       RCSB
+
+#
+loop_
+_software.name              
+_software.version           
+_software.description       
+       rdkit 2019.03.2                                      "Core functionality."
+pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
+#
+loop_
+_pdbe_chem_comp_atom_depiction.comp_id             
+_pdbe_chem_comp_atom_depiction.atom_id             
+_pdbe_chem_comp_atom_depiction.element             
+_pdbe_chem_comp_atom_depiction.model_Cartn_x       
+_pdbe_chem_comp_atom_depiction.model_Cartn_y       
+_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
+DML CM1 C  0.000 0.000 1
+DML CM2 C -2.000 0.000 2
+#
+_pdbe_chem_comp_rdkit_properties.comp_id                               DML
+_pdbe_chem_comp_rdkit_properties.exactmw                               32.063
+_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           0
+_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
+_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
+_pdbe_chem_comp_rdkit_properties.NumHBD                                0
+_pdbe_chem_comp_rdkit_properties.NumHBA                                0
+_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        0
+_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
+_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
+_pdbe_chem_comp_rdkit_properties.NumRings                              0
+_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
+_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
+_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
+_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
+_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
+_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
+_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
+_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
+_pdbe_chem_comp_rdkit_properties.labuteASA                             24.540
+_pdbe_chem_comp_rdkit_properties.tpsa                                  0
+_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.272
+_pdbe_chem_comp_rdkit_properties.CrippenMR                             13.462
+_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         2
+
+#
+loop_
+_pdbe_chem_comp_rdkit_conformer.comp_id             
+_pdbe_chem_comp_rdkit_conformer.atom_id             
+_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
+_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
+_pdbe_chem_comp_rdkit_conformer.rdkit_method        
+_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
+DML  CM1  0.002  0.002  0.277 ETKDGv2 1
+DML  CM2 -0.001  0.000  0.277 ETKDGv2 2
+DML HM11  1.039 -0.115 -0.098 ETKDGv2 3
+DML HM12 -0.619 -0.844 -0.082 ETKDGv2 4
+DML HM13 -0.422  0.957 -0.097 ETKDGv2 5
+DML HM21  0.991 -0.336 -0.089 ETKDGv2 6
+DML HM22 -0.786 -0.690 -0.095 ETKDGv2 7
+DML HM23 -0.204  1.026 -0.093 ETKDGv2 8
+#

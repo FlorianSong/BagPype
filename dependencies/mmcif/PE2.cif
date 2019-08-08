@@ -150,10 +150,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-PE2  "Create component" 1999-07-08  EBI ? ?
-PE2 "Modify descriptor" 2011-06-04 RCSB ? ?
+PE2  "Create component" 1999-07-08  EBI
+PE2 "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   PE2
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00299
@@ -189,10 +187,10 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 PE2                                             Denavir   ChEMBL
-PE2                                         Penciclovir   ChEMBL
 PE2                                           BRL-39123   ChEMBL
-PE2                                            Fenistil   ChEMBL
+PE2                                         Penciclovir   ChEMBL
 PE2                                            Vectavir   ChEMBL
+PE2                                            Fenistil   ChEMBL
 PE2         9-(4-hydroxy-3-(hydroxymethyl)butyl)guanine DrugBank
 PE2       9-(4-hydroxy-3-hydroxymethylbut-1-yl)-guanine DrugBank
 PE2 9-[2-hydroxy-1-(hydroxymethyl)-ethoxymethyl]guanine DrugBank
@@ -361,37 +359,37 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PE2     C2 -3.103  1.397  0.042 ETKDGv2  1
-PE2     C4 -1.617 -0.456  0.167 ETKDGv2  2
-PE2     C5 -2.203 -1.131 -0.786 ETKDGv2  3
-PE2  "C4'"  3.569 -0.268 -0.274 ETKDGv2  4
-PE2  "O4'"  3.579 -1.524 -0.903 ETKDGv2  5
-PE2  "C3'"  2.121  1.522  0.755 ETKDGv2  6
-PE2  "O3'"  0.802  1.975  0.892 ETKDGv2  7
-PE2  "C2'"  2.164  0.051  0.276 ETKDGv2  8
-PE2    C12  1.799 -0.942  1.414 ETKDGv2  9
-PE2  "C1'"  0.319 -0.920  1.827 ETKDGv2 10
-PE2     N9 -0.550 -1.218  0.693 ETKDGv2 11
-PE2     N3 -2.068  0.832  0.609 ETKDGv2 12
-PE2     N2 -3.538  2.681  0.485 ETKDGv2 13
-PE2     N1 -3.808  0.724 -1.029 ETKDGv2 14
-PE2     C6 -3.367 -0.573 -1.461 ETKDGv2 15
-PE2     O6 -3.963 -1.195 -2.379 ETKDGv2 16
-PE2     N7 -1.584 -2.403 -0.966 ETKDGv2 17
-PE2     C8 -0.627 -2.419 -0.083 ETKDGv2 18
-PE2 "H4'1"  4.327 -0.214  0.544 ETKDGv2 19
-PE2 "H4'2"  3.852  0.489 -1.036 ETKDGv2 20
-PE2 "HO4'"  4.022 -2.160 -0.283 ETKDGv2 21
-PE2 "H3'1"  2.658  2.186  0.037 ETKDGv2 22
-PE2 "H3'2"  2.639  1.621  1.733 ETKDGv2 23
-PE2 "HO3'"  0.457  2.128 -0.026 ETKDGv2 24
-PE2  "H2'"  1.449 -0.069 -0.567 ETKDGv2 25
-PE2   H121  2.035 -1.980  1.096 ETKDGv2 26
-PE2   H122  2.424 -0.732  2.309 ETKDGv2 27
-PE2 "H1'1"  0.156 -1.689  2.612 ETKDGv2 28
-PE2 "H1'2"  0.053  0.059  2.273 ETKDGv2 29
-PE2   HN21 -3.035  3.174  1.256 ETKDGv2 30
-PE2   HN22 -4.363  3.142  0.041 ETKDGv2 31
-PE2    HN1 -4.635  1.174 -1.481 ETKDGv2 32
-PE2     H8  0.037 -3.263  0.047 ETKDGv2 33
+PE2     C2  3.108  1.307  0.148 ETKDGv2  1
+PE2     C4  1.582 -0.466  0.572 ETKDGv2  2
+PE2     C5  2.369 -1.401  0.110 ETKDGv2  3
+PE2  "C4'" -2.065  1.406 -0.545 ETKDGv2  4
+PE2  "O4'" -0.787  1.909 -0.271 ETKDGv2  5
+PE2  "C3'" -3.292 -0.704 -1.214 ETKDGv2  6
+PE2  "O3'" -3.222 -0.404 -2.581 ETKDGv2  7
+PE2  "C2'" -2.061 -0.138 -0.479 ETKDGv2  8
+PE2    C12 -2.052 -0.659  0.982 ETKDGv2  9
+PE2  "C1'" -0.734 -0.421  1.735 ETKDGv2 10
+PE2     N9  0.388 -1.052  1.048 ETKDGv2 11
+PE2     N3  1.945  0.921  0.606 ETKDGv2 12
+PE2     N2  3.457  2.690  0.181 ETKDGv2 13
+PE2     N1  4.042  0.339 -0.388 ETKDGv2 14
+PE2     C6  3.684 -1.052 -0.411 ETKDGv2 15
+PE2     O6  4.474 -1.924 -0.859 ETKDGv2 16
+PE2     N7  1.772 -2.688  0.251 ETKDGv2 17
+PE2     C8  0.619 -2.445  0.805 ETKDGv2 18
+PE2 "H4'1" -2.360  1.745 -1.563 ETKDGv2 19
+PE2 "H4'2" -2.803  1.819  0.179 ETKDGv2 20
+PE2 "HO4'" -0.869  2.898 -0.286 ETKDGv2 21
+PE2 "H3'1" -4.223 -0.275 -0.778 ETKDGv2 22
+PE2 "H3'2" -3.325 -1.811 -1.094 ETKDGv2 23
+PE2 "HO3'" -4.049 -0.771 -2.988 ETKDGv2 24
+PE2  "H2'" -1.160 -0.519 -1.009 ETKDGv2 25
+PE2   H121 -2.881 -0.187  1.554 ETKDGv2 26
+PE2   H122 -2.244 -1.755  0.987 ETKDGv2 27
+PE2 "H1'1" -0.549  0.665  1.864 ETKDGv2 28
+PE2 "H1'2" -0.820 -0.858  2.753 ETKDGv2 29
+PE2   HN21  4.382  3.012 -0.180 ETKDGv2 30
+PE2   HN22  2.789  3.396  0.565 ETKDGv2 31
+PE2    HN1  4.971  0.647 -0.753 ETKDGv2 32
+PE2     H8 -0.088 -3.224  1.058 ETKDGv2 33
 #

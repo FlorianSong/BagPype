@@ -161,10 +161,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-VOG "Create component" 2018-01-30 RCSB MZ ?
-VOG  "Initial release" 2018-02-28 RCSB  ? ?
+VOG "Create component" 2018-01-30 RCSB
+VOG  "Initial release" 2018-02-28 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   VOG
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB04878
@@ -197,11 +195,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-VOG   Glustat   ChEMBL
-VOG   A-71100   ChEMBL
-VOG     Basen   ChEMBL
 VOG Voglibose   ChEMBL
 VOG    AO-128   ChEMBL
+VOG     Basen   ChEMBL
+VOG   Glustat   ChEMBL
+VOG   A-71100   ChEMBL
 VOG Voglibose DrugBank
 #
 loop_
@@ -341,43 +339,43 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-VOG  C1 -2.007  0.399  0.947 ETKDGv2  1
-VOG  O1 -2.573  1.563  0.383 ETKDGv2  2
-VOG  C2 -2.609 -0.821  0.201 ETKDGv2  3
-VOG  O2 -2.076 -2.012  0.734 ETKDGv2  4
-VOG  C3 -2.340 -0.743 -1.330 ETKDGv2  5
-VOG  O3 -2.405 -2.036 -1.881 ETKDGv2  6
-VOG  C4 -0.987 -0.051 -1.677 ETKDGv2  7
-VOG  O4 -0.484 -0.499 -2.913 ETKDGv2  8
-VOG  C5  0.057 -0.214 -0.549 ETKDGv2  9
-VOG  C6 -0.450  0.414  0.781 ETKDGv2 10
-VOG  C7 -2.392  0.328  2.449 ETKDGv2 11
-VOG  O7 -1.823  1.390  3.169 ETKDGv2 12
-VOG   N  1.339  0.378 -0.973 ETKDGv2 13
-VOG  C8  2.492 -0.049 -0.148 ETKDGv2 14
-VOG  C9  3.545 -0.690 -1.066 ETKDGv2 15
-VOG  O9  3.962  0.208 -2.060 ETKDGv2 16
-VOG C10  3.078  1.132  0.658 ETKDGv2 17
-VOG O10  4.154  0.712  1.453 ETKDGv2 18
-VOG  H1 -2.159  2.357  0.810 ETKDGv2 19
-VOG  H2 -3.716 -0.809  0.355 ETKDGv2 20
-VOG  H3 -2.764 -2.719  0.619 ETKDGv2 21
-VOG  H4 -3.154 -0.119 -1.773 ETKDGv2 22
-VOG  H5 -2.698 -1.938 -2.825 ETKDGv2 23
-VOG  H6 -1.182  1.039 -1.788 ETKDGv2 24
-VOG  H7 -0.125 -1.415 -2.782 ETKDGv2 25
-VOG  H8  0.195 -1.310 -0.398 ETKDGv2 26
-VOG  H9  0.024 -0.149  1.615 ETKDGv2 27
-VOG H10 -0.087  1.460  0.872 ETKDGv2 28
-VOG H11 -2.024 -0.622  2.892 ETKDGv2 29
-VOG H12 -3.502  0.329  2.559 ETKDGv2 30
-VOG H13 -2.487  2.128  3.174 ETKDGv2 31
-VOG H14  1.259  1.421 -1.033 ETKDGv2 32
-VOG H16  2.193 -0.831  0.587 ETKDGv2 33
-VOG H17  4.412 -1.061 -0.471 ETKDGv2 34
-VOG H18  3.094 -1.575 -1.562 ETKDGv2 35
-VOG H19  4.751  0.692 -1.700 ETKDGv2 36
-VOG H20  3.433  1.927 -0.031 ETKDGv2 37
-VOG H21  2.289  1.581  1.301 ETKDGv2 38
-VOG H22  3.766  0.208  2.215 ETKDGv2 39
+VOG  C1 -1.974  0.743 -0.098 ETKDGv2  1
+VOG  O1 -2.452  0.855 -1.422 ETKDGv2  2
+VOG  C2 -2.539 -0.581  0.488 ETKDGv2  3
+VOG  O2 -2.285 -0.697  1.871 ETKDGv2  4
+VOG  C3 -2.055 -1.833 -0.305 ETKDGv2  5
+VOG  O3 -1.983 -2.966  0.529 ETKDGv2  6
+VOG  C4 -0.739 -1.606 -1.108 ETKDGv2  7
+VOG  O4 -0.151 -2.844 -1.439 ETKDGv2  8
+VOG  C5  0.251 -0.655 -0.377 ETKDGv2  9
+VOG  C6 -0.411  0.724 -0.090 ETKDGv2 10
+VOG  C7 -2.505  1.945  0.726 ETKDGv2 11
+VOG  O7 -2.011  3.153  0.212 ETKDGv2 12
+VOG   N  1.488 -0.475 -1.183 ETKDGv2 13
+VOG  C8  2.705  0.012 -0.482 ETKDGv2 14
+VOG  C9  2.742  1.547 -0.351 ETKDGv2 15
+VOG  O9  2.460  2.157 -1.582 ETKDGv2 16
+VOG C10  3.017 -0.710  0.848 ETKDGv2 17
+VOG O10  2.274 -0.174  1.909 ETKDGv2 18
+VOG  H1 -2.085  1.684 -1.825 ETKDGv2 19
+VOG  H2 -3.646 -0.543  0.383 ETKDGv2 20
+VOG  H3 -1.305 -0.682  2.012 ETKDGv2 21
+VOG  H4 -2.837 -2.057 -1.065 ETKDGv2 22
+VOG  H5 -1.200 -2.856  1.128 ETKDGv2 23
+VOG  H6 -1.005 -1.120 -2.072 ETKDGv2 24
+VOG  H7  0.314 -3.189 -0.633 ETKDGv2 25
+VOG  H8  0.484 -1.151  0.585 ETKDGv2 26
+VOG  H9 -0.052  1.473 -0.827 ETKDGv2 27
+VOG H10 -0.053  1.065  0.905 ETKDGv2 28
+VOG H11 -2.195  1.850  1.791 ETKDGv2 29
+VOG H12 -3.618  1.956  0.688 ETKDGv2 30
+VOG H13 -2.396  3.872  0.778 ETKDGv2 31
+VOG H14  1.750 -1.383 -1.632 ETKDGv2 32
+VOG H16  3.566 -0.232 -1.148 ETKDGv2 33
+VOG H17  2.013  1.906  0.400 ETKDGv2 34
+VOG H18  3.747  1.867  0.008 ETKDGv2 35
+VOG H19  3.270  2.048 -2.146 ETKDGv2 36
+VOG H20  4.101 -0.590  1.074 ETKDGv2 37
+VOG H21  2.811 -1.799  0.742 ETKDGv2 38
+VOG H22  2.505 -0.714  2.708 ETKDGv2 39
 #

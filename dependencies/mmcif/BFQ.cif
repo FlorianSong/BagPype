@@ -166,10 +166,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-BFQ  "Create component" 2006-01-11 RCSB ? ?
-BFQ "Modify descriptor" 2011-06-04 RCSB ? ?
+BFQ  "Create component" 2006-01-11 RCSB
+BFQ "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   BFQ
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00710
@@ -202,13 +200,13 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-BFQ "Ibandronic Acid"   ChEMBL
+BFQ           Iasibon   ChEMBL
+BFQ            Boniva   ChEMBL
 BFQ         Bondronat   ChEMBL
 BFQ       Ibandronate   ChEMBL
-BFQ            Boniva   ChEMBL
 BFQ           Bonviva   ChEMBL
+BFQ "Ibandronic Acid"   ChEMBL
 BFQ          Quodixor   ChEMBL
-BFQ           Iasibon   ChEMBL
 BFQ "Ibandronic acid" DrugBank
 #
 loop_
@@ -321,46 +319,46 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BFQ   P1 -4.173  1.052 -0.999 ETKDGv2  1
-BFQ   O2 -4.396  2.648 -0.478 ETKDGv2  2
-BFQ   O3 -5.389  0.089 -0.319 ETKDGv2  3
-BFQ   O5 -4.276  1.006 -2.508 ETKDGv2  4
-BFQ   C7 -2.522  0.451 -0.464 ETKDGv2  5
-BFQ   P8 -2.367 -1.318 -0.922 ETKDGv2  6
-BFQ   O9 -0.924 -1.755 -0.804 ETKDGv2  7
-BFQ  O10 -3.325 -2.261  0.107 ETKDGv2  8
-BFQ  O12 -2.872 -1.543 -2.523 ETKDGv2  9
-BFQ  O14 -1.528  1.168 -1.152 ETKDGv2 10
-BFQ  C16 -2.393  0.650  1.074 ETKDGv2 11
-BFQ  C19 -1.068  0.174  1.705 ETKDGv2 12
-BFQ  N22  0.113  0.773  1.038 ETKDGv2 13
-BFQ  C23  1.321 -0.063  1.222 ETKDGv2 14
-BFQ  C26  2.295  0.138  0.053 ETKDGv2 15
-BFQ  C29  3.489 -0.820  0.154 ETKDGv2 16
-BFQ  C32  4.462 -0.611 -1.012 ETKDGv2 17
-BFQ  C35  5.649 -1.564 -0.917 ETKDGv2 18
-BFQ  C39  0.350  2.142  1.540 ETKDGv2 19
-BFQ  HO2 -3.821  3.196 -1.070 ETKDGv2 20
-BFQ  HO3 -5.449 -0.706 -0.907 ETKDGv2 21
-BFQ HO10 -3.186 -3.193 -0.199 ETKDGv2 22
-BFQ HO12 -2.793 -2.517 -2.680 ETKDGv2 23
-BFQ HO14 -1.616  2.125 -0.903 ETKDGv2 24
-BFQ H161 -2.546  1.721  1.321 ETKDGv2 25
-BFQ H162 -3.220  0.102  1.578 ETKDGv2 26
-BFQ H191 -1.074  0.414  2.792 ETKDGv2 27
-BFQ H192 -1.055 -0.934  1.645 ETKDGv2 28
-BFQ H231  1.827  0.161  2.189 ETKDGv2 29
-BFQ H232  1.060 -1.145  1.238 ETKDGv2 30
-BFQ H261  1.755 -0.045 -0.902 ETKDGv2 31
-BFQ H262  2.672  1.182  0.048 ETKDGv2 32
-BFQ H291  3.122 -1.870  0.140 ETKDGv2 33
-BFQ H292  4.021 -0.643  1.114 ETKDGv2 34
-BFQ H321  3.936 -0.787 -1.976 ETKDGv2 35
-BFQ H322  4.839  0.435 -1.003 ETKDGv2 36
-BFQ H351  6.336 -1.389 -1.772 ETKDGv2 37
-BFQ H352  5.302 -2.618 -0.950 ETKDGv2 38
-BFQ H353  6.208 -1.391  0.027 ETKDGv2 39
-BFQ H391  1.200  2.614  1.007 ETKDGv2 40
-BFQ H392 -0.531  2.788  1.349 ETKDGv2 41
-BFQ H393  0.566  2.143  2.631 ETKDGv2 42
+BFQ   P1 -1.821  2.046  0.082 ETKDGv2  1
+BFQ   O2 -0.844  2.434  1.410 ETKDGv2  2
+BFQ   O3 -3.145  3.100  0.056 ETKDGv2  3
+BFQ   O5 -1.023  2.237 -1.188 ETKDGv2  4
+BFQ   C7 -2.395  0.297  0.196 ETKDGv2  5
+BFQ   P8 -3.738  0.027 -1.028 ETKDGv2  6
+BFQ   O9 -3.235  0.331 -2.422 ETKDGv2  7
+BFQ  O10 -4.264 -1.582 -0.954 ETKDGv2  8
+BFQ  O12 -5.047  1.041 -0.676 ETKDGv2  9
+BFQ  O14 -2.887  0.035  1.486 ETKDGv2 10
+BFQ  C16 -1.243 -0.690 -0.113 ETKDGv2 11
+BFQ  C19 -0.065 -0.612  0.889 ETKDGv2 12
+BFQ  N22  0.928 -1.707  0.754 ETKDGv2 13
+BFQ  C23  1.493 -1.879 -0.605 ETKDGv2 14
+BFQ  C26  2.245 -0.633 -1.102 ETKDGv2 15
+BFQ  C29  3.374 -0.220 -0.144 ETKDGv2 16
+BFQ  C32  4.167  0.991 -0.661 ETKDGv2 17
+BFQ  C35  3.375  2.296 -0.565 ETKDGv2 18
+BFQ  C39  0.415 -2.988  1.270 ETKDGv2 19
+BFQ  HO2 -1.419  2.288  2.202 ETKDGv2 20
+BFQ  HO3 -3.521  3.063  0.971 ETKDGv2 21
+BFQ HO10 -3.632 -2.088 -1.524 ETKDGv2 22
+BFQ HO12 -5.743  0.792 -1.334 ETKDGv2 23
+BFQ HO14 -3.631  0.668  1.660 ETKDGv2 24
+BFQ H161 -1.656 -1.718 -0.099 ETKDGv2 25
+BFQ H162 -0.870 -0.491 -1.140 ETKDGv2 26
+BFQ H191  0.460  0.355  0.769 ETKDGv2 27
+BFQ H192 -0.458 -0.601  1.928 ETKDGv2 28
+BFQ H231  0.701 -2.154 -1.334 ETKDGv2 29
+BFQ H232  2.219 -2.723 -0.598 ETKDGv2 30
+BFQ H261  2.682 -0.867 -2.097 ETKDGv2 31
+BFQ H262  1.530  0.201 -1.251 ETKDGv2 32
+BFQ H291  2.966  0.009  0.864 ETKDGv2 33
+BFQ H292  4.078 -1.074 -0.035 ETKDGv2 34
+BFQ H321  5.086  1.097 -0.045 ETKDGv2 35
+BFQ H322  4.484  0.823 -1.713 ETKDGv2 36
+BFQ H351  4.035  3.148 -0.835 ETKDGv2 37
+BFQ H352  2.517  2.291 -1.268 ETKDGv2 38
+BFQ H353  3.004  2.452  0.470 ETKDGv2 39
+BFQ H391  1.256 -3.704  1.394 ETKDGv2 40
+BFQ H392 -0.330 -3.437  0.580 ETKDGv2 41
+BFQ H393 -0.046 -2.854  2.272 ETKDGv2 42
 #

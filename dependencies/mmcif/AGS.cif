@@ -179,12 +179,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-AGS   "Create component" 1999-07-08 PDBJ  ?                                                                                                                                                                                                                                                                                                                  ?
-AGS  "Modify descriptor" 2011-06-04 RCSB  ?                                                                                                                                                                                                                                                                                                                  ?
-AGS "Other modification" 2012-02-03 RCSB CS "update the definition of the thiophosphate terminal from P-S single bond to P=S double bond to follow Sigma definition. Note that other sources such as CAS displays P-S single bond for the same compound, which should not result a different definition at PDB considering the chemical nature of the ligand."
-AGS "Other modification" 2013-02-04 RCSB CS                                                                                                                                                                                                                                                                                              "update replace code"
+AGS   "Create component" 1999-07-08 PDBJ
+AGS  "Modify descriptor" 2011-06-04 RCSB
+AGS "Other modification" 2012-02-03 RCSB
+AGS "Other modification" 2013-02-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   AGS
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB02930
@@ -483,51 +481,51 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AGS     PG  7.910  0.712 -0.119 ETKDGv2  1
-AGS    S1G  8.720 -0.315 -1.248 ETKDGv2  2
-AGS    O2G  8.400  2.313 -0.382 ETKDGv2  3
-AGS    O3G  8.344  0.243  1.449 ETKDGv2  4
-AGS     PB  5.454  1.743  0.592 ETKDGv2  5
-AGS    O1B  5.611  3.076 -0.103 ETKDGv2  6
-AGS    O2B  6.129  1.864  2.143 ETKDGv2  7
-AGS    O3B  6.231  0.541 -0.337 ETKDGv2  8
-AGS     PA  3.541 -0.256  0.720 ETKDGv2  9
-AGS    O1A  4.464 -0.943  1.702 ETKDGv2 10
-AGS    O2A  3.830 -0.870 -0.833 ETKDGv2 11
-AGS    O3A  3.784  1.432  0.745 ETKDGv2 12
-AGS  "O5'"  1.935 -0.602  1.174 ETKDGv2 13
-AGS  "C5'"  1.067  0.082  0.301 ETKDGv2 14
-AGS  "C4'" -0.387 -0.232  0.676 ETKDGv2 15
-AGS  "O4'" -1.266  0.466 -0.181 ETKDGv2 16
-AGS  "C3'" -0.732 -1.726  0.647 ETKDGv2 17
-AGS  "O3'"  0.015 -2.404 -0.332 ETKDGv2 18
-AGS  "C2'" -2.190 -1.705  0.256 ETKDGv2 19
-AGS  "O2'" -3.023 -1.681  1.395 ETKDGv2 20
-AGS  "C1'" -2.290 -0.423 -0.574 ETKDGv2 21
-AGS     N9 -3.601  0.211 -0.437 ETKDGv2 22
-AGS     C8 -3.938  1.508  0.073 ETKDGv2 23
-AGS     N7 -5.207  1.789 -0.025 ETKDGv2 24
-AGS     C5 -5.773  0.632 -0.635 ETKDGv2 25
-AGS     C6 -7.162  0.370 -1.030 ETKDGv2 26
-AGS     N6 -8.197  1.322 -0.791 ETKDGv2 27
-AGS     N1 -7.428 -0.771 -1.612 ETKDGv2 28
-AGS     C2 -6.388 -1.750 -1.866 ETKDGv2 29
-AGS     N3 -5.151 -1.510 -1.515 ETKDGv2 30
-AGS     C4 -4.857 -0.264 -0.873 ETKDGv2 31
-AGS   HOG2  8.072  2.537 -1.290 ETKDGv2 32
-AGS    H21  7.829 -0.586  1.619 ETKDGv2 33
-AGS   HOB2  5.822  1.057  2.625 ETKDGv2 34
-AGS   HOA2  3.611 -0.126 -1.448 ETKDGv2 35
-AGS "H5'1"  1.211  1.182  0.393 ETKDGv2 36
-AGS "H5'2"  1.238 -0.216 -0.758 ETKDGv2 37
-AGS  "H4'" -0.555  0.145  1.710 ETKDGv2 38
-AGS  "H3'" -0.572 -2.189  1.650 ETKDGv2 39
-AGS "HO3'" -0.086 -3.374 -0.145 ETKDGv2 40
-AGS  "H2'" -2.462 -2.592 -0.358 ETKDGv2 41
-AGS "HO2'" -2.804 -0.870  1.926 ETKDGv2 42
-AGS  "H1'" -2.130 -0.674 -1.646 ETKDGv2 43
-AGS     H8 -3.218  2.194  0.498 ETKDGv2 44
-AGS   HN61 -7.986  2.233 -0.326 ETKDGv2 45
-AGS   HN62 -9.180  1.118 -1.079 ETKDGv2 46
-AGS     H2 -6.637 -2.683 -2.351 ETKDGv2 47
+AGS     PG  7.787 -0.306 -0.312 ETKDGv2  1
+AGS    S1G  8.318  0.442  1.151 ETKDGv2  2
+AGS    O2G  8.594  0.414 -1.616 ETKDGv2  3
+AGS    O3G  8.169 -1.955 -0.239 ETKDGv2  4
+AGS     PB  5.555 -1.029 -1.755 ETKDGv2  5
+AGS    O1B  5.628 -2.495 -1.390 ETKDGv2  6
+AGS    O2B  6.501 -0.755 -3.133 ETKDGv2  7
+AGS    O3B  6.107 -0.071 -0.458 ETKDGv2  8
+AGS     PA  3.056 -0.583 -0.691 ETKDGv2  9
+AGS    O1A  3.429  0.659  0.091 ETKDGv2 10
+AGS    O2A  3.361 -1.969  0.239 ETKDGv2 11
+AGS    O3A  3.946 -0.627 -2.141 ETKDGv2 12
+AGS  "O5'"  1.400 -0.513 -1.097 ETKDGv2 13
+AGS  "C5'"  0.641 -0.623  0.086 ETKDGv2 14
+AGS  "C4'" -0.849 -0.411 -0.235 ETKDGv2 15
+AGS  "O4'" -1.617 -0.809  0.880 ETKDGv2 16
+AGS  "C3'" -1.216  1.035 -0.578 ETKDGv2 17
+AGS  "O3'" -0.143  1.753 -1.131 ETKDGv2 18
+AGS  "C2'" -1.632  1.597  0.754 ETKDGv2 19
+AGS  "O2'" -2.656  2.546  0.597 ETKDGv2 20
+AGS  "C1'" -2.079  0.355  1.534 ETKDGv2 21
+AGS     N9 -3.535  0.288  1.672 ETKDGv2 22
+AGS     C8 -4.307  0.318  2.878 ETKDGv2 23
+AGS     N7 -5.568  0.050  2.694 ETKDGv2 24
+AGS     C5 -5.675 -0.183  1.292 ETKDGv2 25
+AGS     C6 -6.827 -0.654  0.514 ETKDGv2 26
+AGS     N6 -8.113 -0.814  1.112 ETKDGv2 27
+AGS     N1 -6.642 -0.929 -0.750 ETKDGv2 28
+AGS     C2 -5.339 -0.786 -1.370 ETKDGv2 29
+AGS     N3 -4.314 -0.375 -0.671 ETKDGv2 30
+AGS     C4 -4.514 -0.053  0.710 ETKDGv2 31
+AGS   HOG2  8.156  1.295 -1.733 ETKDGv2 32
+AGS    H21  8.485 -2.187 -1.149 ETKDGv2 33
+AGS   HOB2  6.084 -1.308 -3.840 ETKDGv2 34
+AGS   HOA2  3.231 -1.686  1.179 ETKDGv2 35
+AGS "H5'1"  0.757 -1.645  0.511 ETKDGv2 36
+AGS "H5'2"  0.954  0.126  0.850 ETKDGv2 37
+AGS  "H4'" -1.116 -1.066 -1.094 ETKDGv2 38
+AGS  "H3'" -2.078  1.029 -1.286 ETKDGv2 39
+AGS "HO3'" -0.518  2.611 -1.460 ETKDGv2 40
+AGS  "H2'" -0.750  2.060  1.258 ETKDGv2 41
+AGS "HO2'" -2.762  2.991  1.478 ETKDGv2 42
+AGS  "H1'" -1.626  0.391  2.549 ETKDGv2 43
+AGS     H8 -3.889  0.532  3.853 ETKDGv2 44
+AGS   HN61 -8.921 -1.153  0.544 ETKDGv2 45
+AGS   HN62 -8.262 -0.594  2.122 ETKDGv2 46
+AGS     H2 -5.213 -1.031 -2.416 ETKDGv2 47
 #

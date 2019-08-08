@@ -2,14 +2,14 @@ data_VYA
 #
 _chem_comp.id                                        VYA
 _chem_comp.name                                      "2-[(4~{Z})-2-[(1~{S})-1-azanyl-3-methyl-butyl]-4-[(4-hydroxyphenyl)methylidene]-5-oxidanylidene-imidazol-1-yl]ethanoic acid"
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
+_chem_comp.type                                      NON-POLYMER
+_chem_comp.pdbx_type                                 HETAIN
 _chem_comp.formula                                   "C17 H21 N3 O4"
 _chem_comp.mon_nstd_parent_comp_id                   "LEU, TYR, GLY"
 _chem_comp.pdbx_synonyms                             "PEPTIDE DERIVED CHROMOPHORE"
 _chem_comp.pdbx_formal_charge                        0
 _chem_comp.pdbx_initial_date                         2017-08-09
-_chem_comp.pdbx_modified_date                        2018-10-12
+_chem_comp.pdbx_modified_date                        2017-12-01
 _chem_comp.pdbx_ambiguous_flag                       N
 _chem_comp.pdbx_release_status                       REL
 _chem_comp.pdbx_replaced_by                          ?
@@ -171,12 +171,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-VYA   "Create component" 2017-08-09  EBI MJC                             ?
-VYA "Other modification" 2017-08-09  EBI MJC       "add chromophory stuff"
-VYA    "Initial release" 2017-12-06 RCSB   ?                             ?
-VYA "Other modification" 2018-10-20  EBI MJC "change HETAIN to L-pep link"
+VYA   "Create component" 2017-08-09  EBI
+VYA "Other modification" 2017-08-09  EBI
+VYA    "Initial release" 2017-12-06 RCSB
 #
 loop_
 _software.name              
@@ -337,49 +334,49 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-VYA  C2  3.256 -2.887 -0.332 ETKDGv2  1
-VYA  C4  5.095 -1.967  0.977 ETKDGv2  2
-VYA  C5  4.628 -0.615  0.607 ETKDGv2  3
-VYA  C6  2.827 -1.664 -0.665 ETKDGv2  4
-VYA  C8  3.092  0.913 -0.512 ETKDGv2  5
-VYA  C3 -4.032 -0.638  1.301 ETKDGv2  6
-VYA C21 -3.201 -1.440  0.287 ETKDGv2  7
-VYA C10 -3.072 -2.895  0.759 ETKDGv2  8
-VYA C20 -1.793 -0.833  0.074 ETKDGv2  9
-VYA C16 -1.786  0.609 -0.502 ETKDGv2 10
-VYA   N -2.453  0.682 -1.804 ETKDGv2 11
-VYA C14 -0.384  1.152 -0.648 ETKDGv2 12
-VYA N15  0.681  0.423 -0.464 ETKDGv2 13
-VYA N13 -0.105  2.517 -1.002 ETKDGv2 14
-VYA C17 -1.020  3.657 -0.925 ETKDGv2 15
-VYA   C -1.204  4.127  0.491 ETKDGv2 16
-VYA O19 -0.600  3.564  1.443 ETKDGv2 17
-VYA C12  1.311  2.584 -0.985 ETKDGv2 18
-VYA O25  1.988  3.630 -1.171 ETKDGv2 19
-VYA  C9  1.812  1.265 -0.674 ETKDGv2 20
-VYA  C7  3.531 -0.455 -0.154 ETKDGv2 21
-VYA  C1  4.440 -3.051  0.536 ETKDGv2 22
-VYA  O3  4.865 -4.334  0.879 ETKDGv2 23
-VYA OXT -2.050  5.197  0.761 ETKDGv2 24
-VYA  H1  2.743 -3.762 -0.713 ETKDGv2 25
-VYA  H2  5.968 -2.073  1.609 ETKDGv2 26
-VYA  H3  5.175  0.245  0.977 ETKDGv2 27
-VYA  H4  1.985 -1.570 -1.338 ETKDGv2 28
-VYA  H5  3.850  1.684 -0.591 ETKDGv2 29
-VYA  H6 -4.987 -1.161  1.516 ETKDGv2 30
-VYA  H7 -3.473 -0.509  2.252 ETKDGv2 31
-VYA  H8 -4.291  0.360  0.891 ETKDGv2 32
-VYA  H9 -3.746 -1.459 -0.681 ETKDGv2 33
-VYA H10 -2.504 -3.492  0.013 ETKDGv2 34
-VYA H11 -4.077 -3.355  0.870 ETKDGv2 35
-VYA H12 -2.544 -2.946  1.736 ETKDGv2 36
-VYA H13 -1.222 -1.494 -0.616 ETKDGv2 37
-VYA H14 -1.254 -0.831  1.048 ETKDGv2 38
-VYA H15 -2.308  1.280  0.213 ETKDGv2 39
-VYA H16 -2.149 -0.121 -2.403 ETKDGv2 40
-VYA H17 -3.487  0.616 -1.667 ETKDGv2 41
-VYA H19 -0.622  4.494 -1.536 ETKDGv2 42
-VYA H20 -2.007  3.372 -1.345 ETKDGv2 43
-VYA H21  5.674 -4.487  1.470 ETKDGv2 44
-VYA H22 -2.549  5.669  0.017 ETKDGv2 45
+VYA  C2  5.450 -1.811  0.600 ETKDGv2  1
+VYA  C4  5.528  0.165 -0.828 ETKDGv2  2
+VYA  C5  4.104 -0.062 -1.150 ETKDGv2  3
+VYA  C6  4.158 -2.014  0.316 ETKDGv2  4
+VYA  C8  2.028 -1.370 -0.925 ETKDGv2  5
+VYA  C3 -4.090  0.356  1.424 ETKDGv2  6
+VYA C21 -3.209 -0.770  0.861 ETKDGv2  7
+VYA C10 -3.663 -2.117  1.438 ETKDGv2  8
+VYA C20 -3.252 -0.815 -0.686 ETKDGv2  9
+VYA C16 -2.493  0.348 -1.374 ETKDGv2 10
+VYA   N -2.679  0.297 -2.825 ETKDGv2 11
+VYA C14 -1.013  0.310 -1.070 ETKDGv2 12
+VYA N15 -0.303 -0.764 -1.267 ETKDGv2 13
+VYA N13 -0.254  1.429 -0.578 ETKDGv2 14
+VYA C17 -0.732  2.719 -0.076 ETKDGv2 15
+VYA   C -1.139  2.636  1.367 ETKDGv2 16
+VYA O19 -0.887  1.608  2.051 ETKDGv2 17
+VYA C12  1.057  0.911 -0.432 ETKDGv2 18
+VYA O25  2.013  1.529  0.108 ETKDGv2 19
+VYA  C9  1.040 -0.466 -0.893 ETKDGv2 20
+VYA  C7  3.435 -1.084 -0.584 ETKDGv2 21
+VYA  C1  6.171 -0.663  0.005 ETKDGv2 22
+VYA  O3  7.513 -0.442  0.302 ETKDGv2 23
+VYA OXT -1.780  3.712  1.971 ETKDGv2 24
+VYA  H1  5.970 -2.491  1.264 ETKDGv2 25
+VYA  H2  6.049  1.003 -1.275 ETKDGv2 26
+VYA  H3  3.616  0.595 -1.859 ETKDGv2 27
+VYA  H4  3.639 -2.858  0.753 ETKDGv2 28
+VYA  H5  1.777 -2.391 -1.184 ETKDGv2 29
+VYA  H6 -5.144  0.233  1.094 ETKDGv2 30
+VYA  H7 -4.061  0.344  2.535 ETKDGv2 31
+VYA  H8 -3.726  1.349  1.096 ETKDGv2 32
+VYA  H9 -2.164 -0.604  1.198 ETKDGv2 33
+VYA H10 -4.705 -2.346  1.127 ETKDGv2 34
+VYA H11 -3.616 -2.096  2.548 ETKDGv2 35
+VYA H12 -2.995 -2.932  1.085 ETKDGv2 36
+VYA H13 -2.817 -1.776 -1.040 ETKDGv2 37
+VYA H14 -4.314 -0.806 -1.019 ETKDGv2 38
+VYA H15 -2.921  1.305 -1.020 ETKDGv2 39
+VYA H16 -3.694  0.436 -3.040 ETKDGv2 40
+VYA H17 -2.413 -0.652 -3.180 ETKDGv2 41
+VYA H19  0.071  3.478 -0.178 ETKDGv2 42
+VYA H20 -1.589  3.069 -0.687 ETKDGv2 43
+VYA H21  8.020 -1.056  0.928 ETKDGv2 44
+VYA H22 -1.989  4.555  1.449 ETKDGv2 45
 #

@@ -118,19 +118,17 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-JNZ     "Create component" 2010-07-21 RCSB ? ?
-JNZ "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-JNZ    "Modify descriptor" 2011-06-04 RCSB ? ?
+JNZ     "Create component" 2010-07-21 RCSB
+JNZ "Modify aromatic_flag" 2011-06-04 RCSB
+JNZ    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+JNZ SID50108337 ChEMBL
 JNZ  SID4252983 ChEMBL
 JNZ SID24830818 ChEMBL
-JNZ SID50108337 ChEMBL
 JNZ   SID546537 ChEMBL
 #
 loop_
@@ -263,21 +261,21 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-JNZ   C8 -1.678 -1.498  0.113 ETKDGv2  1
-JNZ   C7 -2.406 -0.370  0.289 ETKDGv2  2
-JNZ   C9 -0.202 -1.424 -0.076 ETKDGv2  3
-JNZ   C6 -1.741  0.964  0.298 ETKDGv2  4
-JNZ  C10  0.352 -0.211 -0.061 ETKDGv2  5
-JNZ   C5 -0.419  0.984  0.125 ETKDGv2  6
-JNZ   C2  1.718  0.283 -0.205 ETKDGv2  7
-JNZ   N3  1.760  1.581 -0.118 ETKDGv2  8
-JNZ   N4  0.465  2.090  0.089 ETKDGv2  9
-JNZ   N1  2.876 -0.523 -0.415 ETKDGv2 10
-JNZ   H8 -2.170 -2.463  0.108 ETKDGv2 11
-JNZ   H7 -3.478 -0.433  0.425 ETKDGv2 12
-JNZ   H9  0.393 -2.317 -0.218 ETKDGv2 13
-JNZ   H6 -2.306  1.876  0.437 ETKDGv2 14
-JNZ  HN4  0.225  3.101  0.193 ETKDGv2 15
-JNZ  HN1  3.816 -0.079 -0.507 ETKDGv2 16
-JNZ HN1A  2.795 -1.562 -0.479 ETKDGv2 17
+JNZ   C8 -1.635 -1.299  0.846 ETKDGv2  1
+JNZ   C7 -2.393 -0.239  0.476 ETKDGv2  2
+JNZ   C9 -0.162 -1.292  0.616 ETKDGv2  3
+JNZ   C6 -1.765  0.951 -0.165 ETKDGv2  4
+JNZ  C10  0.357 -0.207  0.040 ETKDGv2  5
+JNZ   C5 -0.446  0.915 -0.351 ETKDGv2  6
+JNZ   C2  1.708  0.188 -0.348 ETKDGv2  7
+JNZ   N3  1.714  1.371 -0.891 ETKDGv2  8
+JNZ   N4  0.406  1.889 -0.927 ETKDGv2  9
+JNZ   N1  2.886 -0.595 -0.170 ETKDGv2 10
+JNZ   H8 -2.099 -2.159  1.311 ETKDGv2 11
+JNZ   H7 -3.461 -0.253  0.647 ETKDGv2 12
+JNZ   H9  0.457 -2.131  0.906 ETKDGv2 13
+JNZ   H6 -2.355  1.807 -0.467 ETKDGv2 14
+JNZ  HN4  0.139  2.821 -1.313 ETKDGv2 15
+JNZ  HN1  3.814 -0.229 -0.480 ETKDGv2 16
+JNZ HN1A  2.834 -1.540  0.271 ETKDGv2 17
 #

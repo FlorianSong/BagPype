@@ -148,11 +148,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-AZZ  "Create component" 2007-11-14 PDBJ  ? ?
-AZZ "Modify descriptor" 2011-06-04 RCSB  ? ?
-AZZ   "Modify synonyms" 2012-07-12 RCSB EP ?
+AZZ  "Create component" 2007-11-14 PDBJ
+AZZ "Modify descriptor" 2011-06-04 RCSB
+AZZ   "Modify synonyms" 2012-07-12 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   AZZ
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00495
@@ -187,14 +185,14 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-AZZ       Retrovir   ChEMBL
-AZZ Azidothymidine   ChEMBL
-AZZ   "Compound S"   ChEMBL
-AZZ        BWA509U   ChEMBL
 AZZ       BW-A509U   ChEMBL
 AZZ      BW-A-509U   ChEMBL
-AZZ     Zidovudine   ChEMBL
+AZZ Azidothymidine   ChEMBL
 AZZ            AZT   ChEMBL
+AZZ   "Compound S"   ChEMBL
+AZZ       Retrovir   ChEMBL
+AZZ        BWA509U   ChEMBL
+AZZ     Zidovudine   ChEMBL
 AZZ Azidothymidine DrugBank
 AZZ            AZT DrugBank
 AZZ            ZDV DrugBank
@@ -355,36 +353,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AZZ  "O5'" -3.338 -2.554 -0.417 ETKDGv2  1
-AZZ  "C5'" -3.272 -1.352  0.302 ETKDGv2  2
-AZZ  "C4'" -2.552 -0.273 -0.519 ETKDGv2  3
-AZZ  "O4'" -1.261 -0.734 -0.865 ETKDGv2  4
-AZZ  "C3'" -2.433  1.046  0.263 ETKDGv2  5
-AZZ  "N3'" -2.949  2.153 -0.540 ETKDGv2  6
-AZZ  "N4'" -3.015  3.295 -0.082 ETKDGv2  7
-AZZ  "N5'" -3.080  4.435  0.376 ETKDGv2  8
-AZZ  "C2'" -0.948  1.190  0.489 ETKDGv2  9
-AZZ  "C1'" -0.358  0.311 -0.597 ETKDGv2 10
-AZZ     N1  0.954 -0.229 -0.202 ETKDGv2 11
-AZZ     C2  1.077 -1.247  0.812 ETKDGv2 12
-AZZ     O2  0.059 -1.710  1.393 ETKDGv2 13
-AZZ     N3  2.370 -1.743  1.158 ETKDGv2 14
-AZZ     C4  3.523 -1.228  0.492 ETKDGv2 15
-AZZ     O4  4.663 -1.680  0.781 ETKDGv2 16
-AZZ     C5  3.369 -0.172 -0.531 ETKDGv2 17
-AZZ    C5A  4.576  0.351 -1.259 ETKDGv2 18
-AZZ     C6  2.141  0.267 -0.856 ETKDGv2 19
-AZZ "HO5'" -4.044 -2.436 -1.104 ETKDGv2 20
-AZZ  "H5'" -4.298 -1.009  0.569 ETKDGv2 21
-AZZ "H5'A" -2.718 -1.535  1.247 ETKDGv2 22
-AZZ  "H4'" -3.129 -0.115 -1.458 ETKDGv2 23
-AZZ  "H3'" -2.976  1.015  1.236 ETKDGv2 24
-AZZ  "H2'" -0.589  2.239  0.402 ETKDGv2 25
-AZZ "H2'A" -0.691  0.806  1.501 ETKDGv2 26
-AZZ  "H1'" -0.261  0.922 -1.525 ETKDGv2 27
-AZZ    HN3  2.471 -2.485  1.887 ETKDGv2 28
-AZZ    H5A  4.387  1.359 -1.687 ETKDGv2 29
-AZZ   H5AA  5.439  0.436 -0.566 ETKDGv2 30
-AZZ   H5AB  4.841 -0.346 -2.082 ETKDGv2 31
-AZZ     H6  2.041  1.022 -1.627 ETKDGv2 32
+AZZ  "O5'"  2.784 -2.349  0.469 ETKDGv2  1
+AZZ  "C5'"  3.344 -1.202  1.047 ETKDGv2  2
+AZZ  "C4'"  2.458  0.021  0.784 ETKDGv2  3
+AZZ  "O4'"  1.147 -0.222  1.230 ETKDGv2  4
+AZZ  "C3'"  2.379  0.383 -0.700 ETKDGv2  5
+AZZ  "N3'"  3.445  1.298 -1.114 ETKDGv2  6
+AZZ  "N4'"  3.605  2.401 -0.586 ETKDGv2  7
+AZZ  "N5'"  3.765  3.500 -0.059 ETKDGv2  8
+AZZ  "C2'"  1.000  0.989 -0.840 ETKDGv2  9
+AZZ  "C1'"  0.309  0.629  0.478 ETKDGv2 10
+AZZ     N1 -0.991 -0.023  0.243 ETKDGv2 11
+AZZ     C2 -1.076 -1.337 -0.346 ETKDGv2 12
+AZZ     O2 -0.036 -1.966 -0.678 ETKDGv2 13
+AZZ     N3 -2.356 -1.931 -0.558 ETKDGv2 14
+AZZ     C4 -3.534 -1.221 -0.177 ETKDGv2 15
+AZZ     O4 -4.666 -1.735 -0.382 ETKDGv2 16
+AZZ     C5 -3.416  0.112  0.451 ETKDGv2 17
+AZZ    C5A -4.655  0.881  0.823 ETKDGv2 18
+AZZ     C6 -2.203  0.665  0.620 ETKDGv2 19
+AZZ "HO5'"  3.408 -3.093  0.672 ETKDGv2 20
+AZZ  "H5'"  3.437 -1.349  2.146 ETKDGv2 21
+AZZ "H5'A"  4.359 -1.022  0.628 ETKDGv2 22
+AZZ  "H4'"  2.870  0.874  1.371 ETKDGv2 23
+AZZ  "H3'"  2.431 -0.533 -1.330 ETKDGv2 24
+AZZ  "H2'"  0.477  0.564 -1.725 ETKDGv2 25
+AZZ "H2'A"  1.036  2.094 -0.959 ETKDGv2 26
+AZZ  "H1'"  0.167  1.565  1.065 ETKDGv2 27
+AZZ    HN3 -2.430 -2.879 -0.993 ETKDGv2 28
+AZZ    H5A -5.428  0.194  1.226 ETKDGv2 29
+AZZ   H5AA -5.057  1.392 -0.076 ETKDGv2 30
+AZZ   H5AB -4.440  1.641  1.605 ETKDGv2 31
+AZZ     H6 -2.133  1.658  1.049 ETKDGv2 32
 #

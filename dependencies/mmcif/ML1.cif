@@ -150,11 +150,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-ML1  "Create component" 2007-09-12 RCSB  ? ?
-ML1 "Modify descriptor" 2011-06-04 RCSB  ? ?
-ML1   "Modify synonyms" 2013-03-05 RCSB MZ ?
+ML1  "Create component" 2007-09-12 RCSB
+ML1 "Modify descriptor" 2011-06-04 RCSB
+ML1   "Modify synonyms" 2013-03-05 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   ML1
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01065
@@ -197,23 +195,23 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-ML1                                  "Health Aid"   ChEMBL
+ML1                              "Nature's Blend"   ChEMBL
+ML1                                      Melapure   ChEMBL
 ML1                                        Vespro   ChEMBL
 ML1                                      Circadin   ChEMBL
-ML1                                        Icenia   ChEMBL
-ML1                                    "Life Ext"   ChEMBL
 ML1                                     Vytalonin   ChEMBL
-ML1                                     Melatonin   ChEMBL
-ML1                  N-Acetyl-5-Methoxytryptamine   ChEMBL
-ML1                                        S.Gard   ChEMBL
-ML1                              "Quality Health"   ChEMBL
-ML1                              "Natures Bounty"   ChEMBL
-ML1                              "General Nutrit"   ChEMBL
-ML1                                      Travelag   ChEMBL
-ML1                              "Nature's Blend"   ChEMBL
-ML1                                   Heidadouppi   ChEMBL
 ML1                                        Natrol   ChEMBL
-ML1                                      Melapure   ChEMBL
+ML1                                  "Health Aid"   ChEMBL
+ML1                              "Quality Health"   ChEMBL
+ML1                                        Icenia   ChEMBL
+ML1                  N-Acetyl-5-Methoxytryptamine   ChEMBL
+ML1                                   Heidadouppi   ChEMBL
+ML1                                      Travelag   ChEMBL
+ML1                                        S.Gard   ChEMBL
+ML1                              "Natures Bounty"   ChEMBL
+ML1                                    "Life Ext"   ChEMBL
+ML1                                     Melatonin   ChEMBL
+ML1                              "General Nutrit"   ChEMBL
 ML1 N-(2-(5-Methoxy-1H-Indol-3-Yl)Ethyl)Acetamide   ChEMBL
 ML1                  5-methoxy-N-acetyltryptamine DrugBank
 ML1                                     Melatonin DrugBank
@@ -387,37 +385,37 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ML1   C1  1.819 -0.291 -0.169 ETKDGv2  1
-ML1   C2 -0.269 -2.826  1.046 ETKDGv2  2
-ML1   C3 -2.847  2.991 -0.555 ETKDGv2  3
-ML1   C4  3.846  0.974 -0.987 ETKDGv2  4
-ML1   C5  5.107  1.718 -0.689 ETKDGv2  5
-ML1   C6  1.184 -0.759  1.144 ETKDGv2  6
-ML1   C8 -1.357 -0.939  0.423 ETKDGv2  7
-ML1   C9 -1.734  0.313  0.151 ETKDGv2  8
-ML1  C12 -3.535 -1.898 -0.047 ETKDGv2  9
-ML1  C13 -2.265 -2.049  0.330 ETKDGv2 10
-ML1   C7 -0.092 -1.506  0.883 ETKDGv2 11
-ML1  C10 -3.151  0.533 -0.287 ETKDGv2 12
-ML1  C11 -3.995 -0.523 -0.378 ETKDGv2 13
-ML1   N1  3.063  0.436  0.085 ETKDGv2 14
-ML1   N2 -1.601 -3.240  0.715 ETKDGv2 15
-ML1   O1 -3.636  1.808 -0.609 ETKDGv2 16
-ML1   O2  3.469  0.839 -2.183 ETKDGv2 17
-ML1  H11  2.037 -1.175 -0.808 ETKDGv2 18
-ML1 H12A  1.115  0.375 -0.713 ETKDGv2 19
-ML1   H2  0.499 -3.510  1.383 ETKDGv2 20
-ML1  H31 -3.471  3.856 -0.860 ETKDGv2 21
-ML1  H32 -2.484  3.161  0.480 ETKDGv2 22
-ML1  H33 -1.987  2.908 -1.252 ETKDGv2 23
-ML1  H51  5.655  1.950 -1.627 ETKDGv2 24
-ML1  H52  5.759  1.101 -0.037 ETKDGv2 25
-ML1  H53  4.862  2.667 -0.169 ETKDGv2 26
-ML1  H61  1.903 -1.417  1.680 ETKDGv2 27
-ML1  H62  0.965  0.115  1.794 ETKDGv2 28
-ML1   H9 -1.035  1.131  0.252 ETKDGv2 29
-ML1  H12 -4.207 -2.744 -0.105 ETKDGv2 30
-ML1 H111 -5.019 -0.371 -0.692 ETKDGv2 31
-ML1  HN1  3.397  0.576  1.066 ETKDGv2 32
-ML1  H16 -1.996 -4.206  0.761 ETKDGv2 33
+ML1   C1  1.984  0.557  0.295 ETKDGv2  1
+ML1   C2  0.542 -2.562 -0.358 ETKDGv2  2
+ML1   C3 -5.082  1.557  1.088 ETKDGv2  3
+ML1   C4  4.311  1.132 -0.546 ETKDGv2  4
+ML1   C5  5.279  2.164 -1.025 ETKDGv2  5
+ML1   C6  1.451 -0.262 -0.884 ETKDGv2  6
+ML1   C8 -0.959 -0.904  0.003 ETKDGv2  7
+ML1   C9 -1.624  0.251  0.086 ETKDGv2  8
+ML1  C12 -2.832 -2.250  0.752 ETKDGv2  9
+ML1  C13 -1.570 -2.162  0.333 ETKDGv2 10
+ML1   C7  0.398 -1.230 -0.428 ETKDGv2 11
+ML1  C10 -3.037  0.211  0.558 ETKDGv2 12
+ML1  C11 -3.607 -0.985  0.875 ETKDGv2 13
+ML1   N1  2.985  1.519 -0.161 ETKDGv2 14
+ML1   N2 -0.645 -3.213  0.114 ETKDGv2 15
+ML1   O1 -3.731  1.427  0.655 ETKDGv2 16
+ML1   O2  4.682 -0.069 -0.443 ETKDGv2 17
+ML1  H11  1.145  1.110  0.770 ETKDGv2 18
+ML1 H12A  2.428 -0.112  1.064 ETKDGv2 19
+ML1   H2  1.446 -3.095 -0.620 ETKDGv2 20
+ML1  H31 -5.368  2.629  1.067 ETKDGv2 21
+ML1  H32 -5.756  0.995  0.408 ETKDGv2 22
+ML1  H33 -5.187  1.182  2.128 ETKDGv2 23
+ML1  H51  4.780  2.838 -1.753 ETKDGv2 24
+ML1  H52  6.147  1.682 -1.523 ETKDGv2 25
+ML1  H53  5.641  2.761 -0.163 ETKDGv2 26
+ML1  H61  2.289 -0.818 -1.358 ETKDGv2 27
+ML1  H62  1.015  0.415 -1.649 ETKDGv2 28
+ML1   H9 -1.155  1.187 -0.187 ETKDGv2 29
+ML1  H12 -3.280 -3.206  0.989 ETKDGv2 30
+ML1 H111 -4.630 -1.046  1.219 ETKDGv2 31
+ML1  HN1  2.735  2.534 -0.163 ETKDGv2 32
+ML1  H16 -0.795 -4.237  0.252 ETKDGv2 33
 #

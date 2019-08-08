@@ -155,10 +155,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-667  "Create component" 2004-09-27 RCSB ? ?
-667 "Modify descriptor" 2011-06-04 RCSB ? ?
+667  "Create component" 2004-09-27 RCSB
+667 "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   667
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB02292
@@ -193,11 +191,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-667                                                                 STX-64   ChEMBL
 667                                                              Irosustat   ChEMBL
-667                                                          "667 Coumate"   ChEMBL
 667                                                               BN-83495   ChEMBL
 667                                                                  STX64   ChEMBL
+667                                                          "667 Coumate"   ChEMBL
+667                                                                 STX-64   ChEMBL
 667 6-Oxo-8,9,10,11-Tetrahydro-7h-Cyclohepta[C][1]Benzopyran-3-O-Sulfamate DrugBank
 #
 loop_
@@ -358,40 +356,40 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-667   S1  5.474 -1.683  0.447 ETKDGv2  1
-667   O1  4.915 -3.079  0.465 ETKDGv2  2
-667   O2  6.796 -1.679  1.161 ETKDGv2  3
-667   O3  4.409 -0.610  1.253 ETKDGv2  4
-667   N1  5.719 -1.167 -1.186 ETKDGv2  5
-667   C1  3.070 -0.376  0.907 ETKDGv2  6
-667   C2  2.409 -1.103 -0.013 ETKDGv2  7
-667   C3  1.001 -0.795 -0.342 ETKDGv2  8
-667   C4  0.363  0.234  0.254 ETKDGv2  9
-667   C5  1.076  0.979  1.322 ETKDGv2 10
-667   C6  2.355  0.706  1.610 ETKDGv2 11
-667   C7 -1.050  0.631 -0.063 ETKDGv2 12
-667   C8 -1.698  1.510  0.749 ETKDGv2 13
-667   C9 -0.958  2.196  1.845 ETKDGv2 14
-667  C10 -1.773  0.049 -1.268 ETKDGv2 15
-667  C11 -3.183  1.795  0.579 ETKDGv2 16
-667   O5 -1.540  3.025  2.594 ETKDGv2 17
-667   O4  0.397  1.946  2.054 ETKDGv2 18
-667  C12 -4.031  0.534  0.820 ETKDGv2 19
-667  C13 -4.142 -0.362 -0.423 ETKDGv2 20
-667  C14 -2.809 -0.998 -0.842 ETKDGv2 21
-667 HN11  4.824 -1.312 -1.704 ETKDGv2 22
-667 HN12  5.886 -0.136 -1.156 ETKDGv2 23
-667   H2  2.878 -1.927 -0.528 ETKDGv2 24
-667   H3  0.517 -1.440 -1.058 ETKDGv2 25
-667   H6  2.863  1.261  2.390 ETKDGv2 26
-667 H101 -2.257  0.859 -1.854 ETKDGv2 27
-667 H102 -1.071 -0.399 -1.996 ETKDGv2 28
-667 H111 -3.518  2.566  1.303 ETKDGv2 29
-667 H112 -3.386  2.229 -0.423 ETKDGv2 30
-667 H121 -5.060  0.854  1.095 ETKDGv2 31
-667 H122 -3.631 -0.048  1.679 ETKDGv2 32
-667 H131 -4.860 -1.180 -0.198 ETKDGv2 33
-667 H132 -4.567  0.219 -1.270 ETKDGv2 34
-667 H141 -2.410 -1.634 -0.022 ETKDGv2 35
-667 H142 -3.009 -1.667 -1.708 ETKDGv2 36
+667   S1  5.592 -0.301 -0.029 ETKDGv2  1
+667   O1  6.920 -0.307 -0.730 ETKDGv2  2
+667   O2  5.461 -1.563  0.778 ETKDGv2  3
+667   O3  4.351 -0.222 -1.205 ETKDGv2  4
+667   N1  5.514  1.080  1.011 ETKDGv2  5
+667   C1  2.978 -0.289 -0.931 ETKDGv2  6
+667   C2  2.120 -0.077 -1.936 ETKDGv2  7
+667   C3  0.661 -0.144 -1.715 ETKDGv2  8
+667   C4  0.164 -0.450 -0.498 ETKDGv2  9
+667   C5  1.117 -0.640  0.625 ETKDGv2 10
+667   C6  2.440 -0.586  0.421 ETKDGv2 11
+667   C7 -1.302 -0.570 -0.207 ETKDGv2 12
+667   C8 -1.728 -0.689  1.081 ETKDGv2 13
+667   C9 -0.738 -0.841  2.181 ETKDGv2 14
+667  C10 -2.341 -0.470 -1.316 ETKDGv2 15
+667  C11 -3.215 -0.680  1.417 ETKDGv2 16
+667   O5 -1.119 -0.972  3.374 ETKDGv2 17
+667   O4  0.630 -0.852  1.911 ETKDGv2 18
+667  C12 -3.963  0.624  1.033 ETKDGv2 19
+667  C13 -3.254  1.550  0.024 ETKDGv2 20
+667  C14 -3.011  0.913 -1.359 ETKDGv2 21
+667 HN11  6.247  0.953  1.743 ETKDGv2 22
+667 HN12  4.593  1.059  1.501 ETKDGv2 23
+667   H2  2.493  0.148 -2.928 ETKDGv2 24
+667   H3  0.029  0.074 -2.560 ETKDGv2 25
+667   H6  3.101 -0.742  1.260 ETKDGv2 26
+667 H101 -1.926 -0.716 -2.312 ETKDGv2 27
+667 H102 -3.120 -1.248 -1.180 ETKDGv2 28
+667 H111 -3.377 -0.857  2.502 ETKDGv2 29
+667 H112 -3.703 -1.549  0.928 ETKDGv2 30
+667 H121 -4.968  0.362  0.637 ETKDGv2 31
+667 H122 -4.131  1.215  1.960 ETKDGv2 32
+667 H131 -3.881  2.457 -0.119 ETKDGv2 33
+667 H132 -2.290  1.903  0.452 ETKDGv2 34
+667 H141 -2.367  1.602 -1.948 ETKDGv2 35
+667 H142 -3.979  0.826 -1.897 ETKDGv2 36
 #

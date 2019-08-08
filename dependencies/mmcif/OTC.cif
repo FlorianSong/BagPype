@@ -200,11 +200,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-OTC     "Create component" 2010-08-30  EBI ? ?
-OTC "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-OTC    "Modify descriptor" 2011-06-04 RCSB ? ?
+OTC     "Create component" 2010-08-30  EBI
+OTC "Modify aromatic_flag" 2011-06-04 RCSB
+OTC    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   OTC
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00595
@@ -239,22 +237,22 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-OTC                  Chemocycline   ChEMBL
+OTC               Oxytetracycline   ChEMBL
+OTC                  Terrafungine   ChEMBL
 OTC                          E703   ChEMBL
 OTC                    Terramycin   ChEMBL
 OTC                     Imperacin   ChEMBL
-OTC                      Oxymycin   ChEMBL
+OTC                        Hi-Tet   ChEMBL
 OTC               Oxitetracycline   ChEMBL
+OTC               Oxytetramix-250   ChEMBL
+OTC                     Berkmycen   ChEMBL
+OTC                  Chemocycline   ChEMBL
 OTC                          OXTC   ChEMBL
 OTC                     Tetraplex   ChEMBL
-OTC                   Galenomycin   ChEMBL
-OTC               Oxytetramix-250   ChEMBL
-OTC                        Hi-Tet   ChEMBL
-OTC                  Terrafungine   ChEMBL
-OTC                      Unimycin   ChEMBL
-OTC               Oxytetracycline   ChEMBL
-OTC                     Berkmycen   ChEMBL
 OTC                      Microtet   ChEMBL
+OTC                      Oxymycin   ChEMBL
+OTC                   Galenomycin   ChEMBL
+OTC                      Unimycin   ChEMBL
 OTC         5-Hydroxytetracycline DrugBank
 OTC                    Embryostat DrugBank
 OTC          Hydroxytetracyclinum DrugBank
@@ -460,61 +458,61 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-OTC   C1 -2.211  1.447 -1.371 ETKDGv2  1
-OTC   O1 -1.994  2.628 -1.761 ETKDGv2  2
-OTC   C2 -3.585  1.033 -1.017 ETKDGv2  3
-OTC  O21 -5.693  2.119 -0.830 ETKDGv2  4
-OTC  C21 -4.723  1.803 -1.571 ETKDGv2  5
-OTC  N21 -4.717  2.229 -2.934 ETKDGv2  6
-OTC   C3 -3.769 -0.024 -0.189 ETKDGv2  7
-OTC   O3 -5.039 -0.578  0.003 ETKDGv2  8
-OTC   C4 -2.597 -0.704  0.533 ETKDGv2  9
-OTC   N4 -2.832 -0.841  1.998 ETKDGv2 10
-OTC  C41 -3.553 -2.074  2.353 ETKDGv2 11
-OTC  C42 -3.448  0.335  2.639 ETKDGv2 12
-OTC  C4A -1.215 -0.008  0.289 ETKDGv2 13
-OTC   C5 -0.021 -0.907  0.689 ETKDGv2 14
-OTC   O5 -0.136 -1.293  2.038 ETKDGv2 15
-OTC  C5A  1.364 -0.214  0.443 ETKDGv2 16
-OTC   C6  2.530 -1.245  0.198 ETKDGv2 17
-OTC   O6  2.218 -2.004 -0.947 ETKDGv2 18
-OTC  C61  2.633 -2.187  1.433 ETKDGv2 19
-OTC  C6A  3.871 -0.512 -0.044 ETKDGv2 20
-OTC   C7  5.051 -1.169  0.035 ETKDGv2 21
-OTC   C8  6.331 -0.459 -0.122 ETKDGv2 22
-OTC   C9  6.344  0.843 -0.399 ETKDGv2 23
-OTC  C10  5.077  1.570 -0.619 ETKDGv2 24
-OTC  O10  5.132  2.914 -0.987 ETKDGv2 25
-OTC  C6B  3.891  0.925 -0.483 ETKDGv2 26
-OTC  C11  2.610  1.565 -0.863 ETKDGv2 27
-OTC  O11  2.584  2.733 -1.340 ETKDGv2 28
-OTC  C5B  1.350  0.821 -0.670 ETKDGv2 29
-OTC  C12  0.281  1.060 -1.462 ETKDGv2 30
-OTC  O12  0.463  1.805 -2.632 ETKDGv2 31
-OTC  C4B -1.088  0.451 -1.182 ETKDGv2 32
-OTC  O13 -1.315 -0.621 -2.071 ETKDGv2 33
-OTC H211 -3.948  1.944 -3.582 ETKDGv2 34
-OTC H212 -5.504  2.803 -3.310 ETKDGv2 35
-OTC   H3 -5.856 -0.315 -0.533 ETKDGv2 36
-OTC   H4 -2.517 -1.715  0.073 ETKDGv2 37
-OTC  H4A -1.160  0.902  0.928 ETKDGv2 38
-OTC H411 -3.599 -2.183  3.457 ETKDGv2 39
-OTC H412 -3.011 -2.962  1.962 ETKDGv2 40
-OTC H413 -4.588 -2.071  1.953 ETKDGv2 41
-OTC H421 -3.313  0.272  3.739 ETKDGv2 42
-OTC H422 -4.536  0.395  2.419 ETKDGv2 43
-OTC H423 -2.962  1.274  2.300 ETKDGv2 44
-OTC   H5 -0.078 -1.835  0.081 ETKDGv2 45
-OTC   HA -0.126 -0.469  2.594 ETKDGv2 46
-OTC  H5A  1.613  0.359  1.365 ETKDGv2 47
-OTC   H6  2.927 -2.690 -1.066 ETKDGv2 48
-OTC H611  1.711 -2.788  1.555 ETKDGv2 49
-OTC H612  3.431 -2.946  1.330 ETKDGv2 50
-OTC H613  2.817 -1.601  2.359 ETKDGv2 51
-OTC   H7  5.106 -2.228  0.227 ETKDGv2 52
-OTC   H8  7.262 -0.996  0.003 ETKDGv2 53
-OTC   H9  7.289  1.360 -0.502 ETKDGv2 54
-OTC  H10  6.016  3.396 -1.097 ETKDGv2 55
-OTC  H12 -0.250  1.866 -3.349 ETKDGv2 56
-OTC  H13 -0.519 -1.214 -2.063 ETKDGv2 57
+OTC   C1 -2.164  1.703  1.005 ETKDGv2  1
+OTC   O1 -2.032  2.225  2.146 ETKDGv2  2
+OTC   C2 -3.518  1.447  0.473 ETKDGv2  3
+OTC  O21 -5.803  1.696  1.095 ETKDGv2  4
+OTC  C21 -4.667  2.232  0.994 ETKDGv2  5
+OTC  N21 -4.504  3.597  1.386 ETKDGv2  6
+OTC   C3 -3.689  0.553 -0.524 ETKDGv2  7
+OTC   O3 -4.923  0.504 -1.174 ETKDGv2  8
+OTC   C4 -2.557 -0.367 -1.012 ETKDGv2  9
+OTC   N4 -2.910 -1.813 -0.918 ETKDGv2 10
+OTC  C41 -3.715 -2.190  0.257 ETKDGv2 11
+OTC  C42 -3.457 -2.392 -2.156 ETKDGv2 12
+OTC  C4A -1.191 -0.152 -0.274 ETKDGv2 13
+OTC   C5  0.014 -0.629 -1.119 ETKDGv2 14
+OTC   O5 -0.183 -1.952 -1.560 ETKDGv2 15
+OTC  C5A  1.362 -0.514 -0.330 ETKDGv2 16
+OTC   C6  2.624 -0.306 -1.247 ETKDGv2 17
+OTC   O6  2.487  0.890 -1.985 ETKDGv2 18
+OTC  C61  2.776 -1.535 -2.193 ETKDGv2 19
+OTC  C6A  3.902 -0.160 -0.400 ETKDGv2 20
+OTC   C7  5.116 -0.142 -0.991 ETKDGv2 21
+OTC   C8  6.348 -0.131 -0.188 ETKDGv2 22
+OTC   C9  6.278 -0.126  1.142 ETKDGv2 23
+OTC  C10  4.972 -0.041  1.824 ETKDGv2 24
+OTC  O10  4.988 -0.049  3.221 ETKDGv2 25
+OTC  C6B  3.831  0.044  1.088 ETKDGv2 26
+OTC  C11  2.535  0.506  1.650 ETKDGv2 27
+OTC  O11  2.431  0.874  2.851 ETKDGv2 28
+OTC  C5B  1.353  0.538  0.765 ETKDGv2 29
+OTC  C12  0.345  1.432  0.932 ETKDGv2 30
+OTC  O12  0.520  2.571  1.728 ETKDGv2 31
+OTC  C4B -0.961  1.315  0.162 ETKDGv2 32
+OTC  O13 -0.852  2.176 -0.951 ETKDGv2 33
+OTC H211 -5.309  4.125  1.791 ETKDGv2 34
+OTC H212 -3.608  4.105  1.219 ETKDGv2 35
+OTC   H3 -5.061 -0.015 -2.029 ETKDGv2 36
+OTC   H4 -2.391 -0.084 -2.075 ETKDGv2 37
+OTC  H4A -1.209 -0.768  0.655 ETKDGv2 38
+OTC H411 -3.685 -3.292  0.393 ETKDGv2 39
+OTC H412 -4.775 -1.877  0.136 ETKDGv2 40
+OTC H413 -3.304 -1.729  1.179 ETKDGv2 41
+OTC H421 -4.525 -2.129 -2.297 ETKDGv2 42
+OTC H422 -2.871 -2.067 -3.041 ETKDGv2 43
+OTC H423 -3.382 -3.499 -2.108 ETKDGv2 44
+OTC   H5  0.054  0.013 -2.022 ETKDGv2 45
+OTC   HA -0.274 -2.530 -0.758 ETKDGv2 46
+OTC  H5A  1.499 -1.481  0.207 ETKDGv2 47
+OTC   H6  2.021  0.702 -2.840 ETKDGv2 48
+OTC H611  1.886 -1.662 -2.841 ETKDGv2 49
+OTC H612  2.923 -2.465 -1.602 ETKDGv2 50
+OTC H613  3.627 -1.421 -2.891 ETKDGv2 51
+OTC   H7  5.221 -0.168 -2.066 ETKDGv2 52
+OTC   H8  7.311 -0.165 -0.681 ETKDGv2 53
+OTC   H9  7.189 -0.152  1.728 ETKDGv2 54
+OTC  H10  4.192 -0.301  3.790 ETKDGv2 55
+OTC  H12  1.417  2.888  2.071 ETKDGv2 56
+OTC  H13 -1.703  2.168 -1.459 ETKDGv2 57
 #

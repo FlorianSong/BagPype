@@ -162,18 +162,16 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-SWG     "Create component" 2011-03-25  EBI GS                                                                       ?
-SWG   "Other modification" 2011-05-03  EBI SS                                                                       ?
-SWG          "Modify name" 2011-05-06  EBI MC                                                                       ?
-SWG   "Modify value order" 2011-05-06  EBI MC                                                                       ?
-SWG   "Other modification" 2011-05-06  EBI MC                     "Modified C2-O2 to double with concomitant changes"
-SWG          "Modify name" 2011-05-10  EBI MC                     "Modified C2-O2 to double with concomitant changes"
-SWG   "Modify value order" 2011-05-10  EBI MC                     "Modified C2-O2 to double with concomitant changes"
-SWG   "Other modification" 2011-05-10  EBI MC "Modified CA2-CB2 to double with concomitant changes, added split info"
-SWG "Modify aromatic_flag" 2011-06-04 RCSB MC "Modified CA2-CB2 to double with concomitant changes, added split info"
-SWG    "Modify descriptor" 2011-06-04 RCSB MC "Modified CA2-CB2 to double with concomitant changes, added split info"
+SWG     "Create component" 2011-03-25  EBI
+SWG   "Other modification" 2011-05-03  EBI
+SWG          "Modify name" 2011-05-06  EBI
+SWG   "Modify value order" 2011-05-06  EBI
+SWG   "Other modification" 2011-05-06  EBI
+SWG          "Modify name" 2011-05-10  EBI
+SWG   "Modify value order" 2011-05-10  EBI
+SWG   "Other modification" 2011-05-10  EBI
+SWG "Modify aromatic_flag" 2011-06-04 RCSB
+SWG    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -360,44 +358,44 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SWG  CD2  3.589  0.558  0.203 ETKDGv2  1
-SWG  CE3  4.297  1.461 -0.482 ETKDGv2  2
-SWG  CZ3  5.781  1.361 -0.421 ETKDGv2  3
-SWG  CH2  6.372  0.385  0.305 ETKDGv2  4
-SWG  CZ2  5.547 -0.602  1.052 ETKDGv2  5
-SWG  CE2  4.221 -0.481  0.972 ETKDGv2  6
-SWG  NE1  3.230 -1.283  1.588 ETKDGv2  7
-SWG  CD1  1.983 -0.705  1.181 ETKDGv2  8
-SWG   CG  2.151  0.354  0.367 ETKDGv2  9
-SWG  CB2  1.102  1.234 -0.194 ETKDGv2 10
-SWG  CA2 -0.172  0.868 -0.381 ETKDGv2 11
-SWG   N2 -0.721 -0.423 -0.126 ETKDGv2 12
-SWG   C2 -1.231  1.683 -0.929 ETKDGv2 13
-SWG   O2 -1.163  2.897 -1.259 ETKDGv2 14
-SWG   N3 -2.396  0.880 -1.015 ETKDGv2 15
-SWG  CA3 -3.757  1.349 -1.270 ETKDGv2 16
-SWG   C3 -4.457  1.704  0.006 ETKDGv2 17
-SWG   O3 -5.657  2.087 -0.031 ETKDGv2 18
-SWG  OXT -3.797  1.621  1.229 ETKDGv2 19
-SWG   C1 -1.979 -0.381 -0.462 ETKDGv2 20
-SWG  CA1 -2.880 -1.588 -0.349 ETKDGv2 21
-SWG   N1 -2.582 -2.519 -1.437 ETKDGv2 22
-SWG  CB1 -2.698 -2.289  1.009 ETKDGv2 23
-SWG  OG1 -2.965 -1.407  2.066 ETKDGv2 24
-SWG  HE3  3.814  2.236 -1.062 ETKDGv2 25
-SWG  HZ3  6.387  2.075 -0.963 ETKDGv2 26
-SWG  HH2  7.452  0.319  0.344 ETKDGv2 27
-SWG  HZ2  6.006 -1.388  1.638 ETKDGv2 28
-SWG  HE1  3.373 -2.093  2.232 ETKDGv2 29
-SWG  HD1  1.033 -1.068  1.544 ETKDGv2 30
-SWG  HB2  1.399  2.227 -0.506 ETKDGv2 31
-SWG HA31 -4.329  0.562 -1.803 ETKDGv2 32
-SWG HA32 -3.726  2.244 -1.929 ETKDGv2 33
-SWG  HXT -4.269  1.858  2.093 ETKDGv2 34
-SWG  HA1 -3.942 -1.270 -0.424 ETKDGv2 35
-SWG H11N -3.264 -3.311 -1.390 ETKDGv2 36
-SWG H12N -2.770 -2.033 -2.345 ETKDGv2 37
-SWG HB11 -1.656 -2.662  1.108 ETKDGv2 38
-SWG HB12 -3.374 -3.173  1.074 ETKDGv2 39
-SWG  HG1 -3.951 -1.287  2.094 ETKDGv2 40
+SWG  CD2  3.819 -0.106  0.014 ETKDGv2  1
+SWG  CE3  4.415 -1.275  0.260 ETKDGv2  2
+SWG  CZ3  5.876 -1.253  0.546 ETKDGv2  3
+SWG  CH2  6.556 -0.084  0.547 ETKDGv2  4
+SWG  CZ2  5.852  1.197  0.263 ETKDGv2  5
+SWG  CE2  4.542  1.137  0.018 ETKDGv2  6
+SWG  NE1  3.660  2.200 -0.296 ETKDGv2  7
+SWG  CD1  2.388  1.570 -0.501 ETKDGv2  8
+SWG   CG  2.437  0.242 -0.301 ETKDGv2  9
+SWG  CB2  1.353 -0.721 -0.567 ETKDGv2 10
+SWG  CA2  0.079 -0.557 -0.188 ETKDGv2 11
+SWG   N2 -0.958 -1.474 -0.527 ETKDGv2 12
+SWG   C2 -0.521  0.470  0.644 ETKDGv2 13
+SWG   O2  0.058  1.430  1.219 ETKDGv2 14
+SWG   N3 -1.899  0.169  0.781 ETKDGv2 15
+SWG  CA3 -2.927  1.105  1.241 ETKDGv2 16
+SWG   C3 -3.273  2.114  0.182 ETKDGv2 17
+SWG   O3 -2.720  2.080 -0.950 ETKDGv2 18
+SWG  OXT -4.219  3.099  0.446 ETKDGv2 19
+SWG   C1 -2.059 -1.041  0.015 ETKDGv2 20
+SWG  CA1 -3.356 -1.797 -0.147 ETKDGv2 21
+SWG   N1 -4.004 -1.981  1.153 ETKDGv2 22
+SWG  CB1 -4.291 -1.074 -1.126 ETKDGv2 23
+SWG  OG1 -5.359 -1.913 -1.470 ETKDGv2 24
+SWG  HE3  3.860 -2.204  0.254 ETKDGv2 25
+SWG  HZ3  6.395 -2.181  0.752 ETKDGv2 26
+SWG  HH2  7.618 -0.076  0.754 ETKDGv2 27
+SWG  HZ2  6.384  2.139  0.252 ETKDGv2 28
+SWG  HE1  3.895  3.209 -0.423 ETKDGv2 29
+SWG  HD1  1.514  2.107 -0.845 ETKDGv2 30
+SWG  HB2  1.617 -1.632 -1.088 ETKDGv2 31
+SWG HA31 -3.843  0.558  1.540 ETKDGv2 32
+SWG HA32 -2.555  1.643  2.138 ETKDGv2 33
+SWG  HXT -4.683  3.150  1.345 ETKDGv2 34
+SWG  HA1 -3.123 -2.800 -0.574 ETKDGv2 35
+SWG H11N -4.839 -2.598  1.024 ETKDGv2 36
+SWG H12N -3.349 -2.508  1.775 ETKDGv2 37
+SWG HB11 -4.688 -0.144 -0.664 ETKDGv2 38
+SWG HB12 -3.728 -0.803 -2.047 ETKDGv2 39
+SWG  HG1 -5.925 -1.395 -2.100 ETKDGv2 40
 #

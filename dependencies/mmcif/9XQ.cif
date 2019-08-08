@@ -57,14 +57,14 @@ _chem_comp_atom.pdbx_ordinal
 9XQ    O   O1 O 0 1 N N N 4.844  -5.521 -4.118 -2.080  2.095 -0.329    O 9XQ 10
 9XQ  NE3   N3 N 0 1 N N N 4.204 -10.649 -4.109  2.209 -0.594 -0.435  NE3 9XQ 11
 9XQ  CE4   C8 C 0 1 N N N 3.977 -11.959 -4.233  2.764  0.544  0.089  CE4 9XQ 12
-9XQ  HD1   H1 H 0 0 N N N 4.729  -8.105 -4.477  0.236  1.164 -0.472  HD1 9XQ 13
+9XQ  HD1   H1 H 0 1 N N N 4.729  -8.105 -4.477  0.236  1.164 -0.472  HD1 9XQ 13
 9XQ   HZ   H2 H 0 1 N N N 3.026 -10.783 -1.604  1.173 -2.971  0.068   HZ 9XQ 14
-9XQ  HE2   H3 H 0 0 N N N 2.288  -8.860 -0.246 -1.205 -3.471  0.441  HE2 9XQ 15
-9XQ  HD2   H4 H 0 0 N N N 2.621  -6.563 -1.079 -2.875 -1.668  0.361  HD2 9XQ 16
+9XQ  HE2   H3 H 0 1 N N N 2.288  -8.860 -0.246 -1.205 -3.471  0.441  HE2 9XQ 15
+9XQ  HD2   H4 H 0 1 N N N 2.621  -6.563 -1.079 -2.875 -1.668  0.361  HD2 9XQ 16
 9XQ HH12   H5 H 0 0 N N N 2.974 -12.262 -2.525  4.411  1.679  0.156 HH12 9XQ 17
 9XQ HH11   H6 H 0 0 N N N 3.202 -13.663 -3.518  4.538  0.309 -0.807 HH11 9XQ 18
 9XQ HH21   H7 H 0 0 N N N 4.220 -13.561 -5.408  1.169  1.035  1.195 HH21 9XQ 19
-9XQ  HE3   H9 H 0 0 N N N 4.765 -10.307 -4.863  2.755 -1.206 -0.953  HE3 9XQ 20
+9XQ  HE3   H9 H 0 1 N N N 4.765 -10.307 -4.863  2.755 -1.206 -0.953  HE3 9XQ 20
 9XQ  OXT  OXT O 0 1 N Y N 3.287  -5.167 -3.256 -3.733  0.679  0.105  OXT 9XQ 21
 9XQ  HXT  HXT H 0 1 N Y N 3.651  -4.334 -3.532 -4.350  1.422  0.067  HXT 9XQ 22
 9XQ HH22 HH22 H 0 0 N N N 4.896 -12.083 -6.007  2.408  2.170  1.201 HH22 9XQ 23
@@ -126,12 +126,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-9XQ   "Create component" 2017-07-27  EBI  DG                        ?
-9XQ "Other modification" 2017-07-29  EBI MJC      "remake to correct"
-9XQ    "Initial release" 2018-06-06 RCSB   ?                        ?
-9XQ "Other modification" 2019-05-07  EBI MJC "make H names compliant"
+9XQ   "Create component" 2017-07-27  EBI
+9XQ "Other modification" 2017-07-29  EBI
+9XQ    "Initial release" 2018-06-06 RCSB
+9XQ "Other modification" 2019-05-07  EBI
 #
 loop_
 _software.name              
@@ -248,27 +246,27 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-9XQ   CG  2.167 -0.277 -0.642 ETKDGv2  1
-9XQ  CD1  0.967 -0.890 -0.651 ETKDGv2  2
-9XQ  CE1 -0.284 -0.119 -0.459 ETKDGv2  3
-9XQ   CZ -0.219  1.217 -0.321 ETKDGv2  4
-9XQ  CE2  1.088  1.901 -0.322 ETKDGv2  5
-9XQ  CD2  2.217  1.199 -0.474 ETKDGv2  6
-9XQ  NH1 -2.587  0.301  1.471 ETKDGv2  7
-9XQ  NH2 -3.890 -0.747 -0.196 ETKDGv2  8
-9XQ    C  3.413 -1.063 -0.821 ETKDGv2  9
-9XQ    O  3.367 -2.203 -1.356 ETKDGv2 10
-9XQ  NE3 -1.545 -0.808 -0.503 ETKDGv2 11
-9XQ  CE4 -2.714 -0.407  0.233 ETKDGv2 12
-9XQ  HD1  0.898 -1.965 -0.775 ETKDGv2 13
-9XQ   HZ -1.118  1.813 -0.234 ETKDGv2 14
-9XQ  HE2  1.130  2.977 -0.215 ETKDGv2 15
-9XQ  HD2  3.158  1.730 -0.504 ETKDGv2 16
-9XQ HH12 -3.434  0.625  1.990 ETKDGv2 17
-9XQ HH11 -1.653  0.450  1.912 ETKDGv2 18
-9XQ HH21 -4.752 -0.490  0.336 ETKDGv2 19
-9XQ  HE3 -1.606 -1.672 -1.088 ETKDGv2 20
-9XQ  OXT  4.650 -0.576 -0.400 ETKDGv2 21
-9XQ  HXT  4.748  0.284  0.122 ETKDGv2 22
-9XQ HH22 -4.001 -1.282 -1.086 ETKDGv2 23
+9XQ   CG -2.177  0.094 -0.173 ETKDGv2  1
+9XQ  CD1 -1.010  0.561 -0.660 ETKDGv2  2
+9XQ  CE1  0.267  0.300  0.048 ETKDGv2  3
+9XQ   CZ  0.248 -0.382  1.208 ETKDGv2  4
+9XQ  CE2 -1.023 -0.903  1.744 ETKDGv2  5
+9XQ  CD2 -2.170 -0.682  1.093 ETKDGv2  6
+9XQ  NH1  2.903 -1.181 -0.199 ETKDGv2  7
+9XQ  NH2  3.846  0.975 -0.397 ETKDGv2  8
+9XQ    C -3.454  0.342 -0.876 ETKDGv2  9
+9XQ    O -3.479  0.999 -1.953 ETKDGv2 10
+9XQ  NE3  1.485  0.850 -0.480 ETKDGv2 11
+9XQ  CE4  2.779  0.239 -0.336 ETKDGv2 12
+9XQ  HD1 -0.984  1.131 -1.581 ETKDGv2 13
+9XQ   HZ  1.157 -0.541  1.774 ETKDGv2 14
+9XQ  HE2 -1.025 -1.463  2.671 ETKDGv2 15
+9XQ  HD2 -3.094 -1.070  1.503 ETKDGv2 16
+9XQ HH12  3.839 -1.624 -0.058 ETKDGv2 17
+9XQ HH11  2.073 -1.805 -0.301 ETKDGv2 18
+9XQ HH21  4.797  0.551 -0.321 ETKDGv2 19
+9XQ  HE3  1.420  1.737 -1.028 ETKDGv2 20
+9XQ  OXT -4.646 -0.150 -0.351 ETKDGv2 21
+9XQ  HXT -5.528  0.012 -0.822 ETKDGv2 22
+9XQ HH22  3.776  2.011 -0.518 ETKDGv2 23
 #

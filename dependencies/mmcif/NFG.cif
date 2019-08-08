@@ -158,10 +158,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-NFG  "Create component" 2000-07-07  EBI ? ?
-NFG "Modify descriptor" 2011-06-04 RCSB ? ?
+NFG  "Create component" 2000-07-07  EBI
+NFG "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   NFG
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB02658
@@ -194,9 +192,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-NFG SID50106143 ChEMBL
 NFG SID90340709 ChEMBL
 NFG SID50106144 ChEMBL
+NFG SID50106143 ChEMBL
 #
 loop_
 _software.name              
@@ -366,41 +364,41 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NFG   C1 -0.764  0.407  0.273 ETKDGv2  1
-NFG   O1  0.524  0.244  0.189 ETKDGv2  2
-NFG   C2 -1.363 -0.449  1.376 ETKDGv2  3
-NFG    F -2.132  0.278  2.259 ETKDGv2  4
-NFG   C3 -2.235 -1.485  0.710 ETKDGv2  5
-NFG   O3 -1.483 -2.136 -0.248 ETKDGv2  6
-NFG   C4 -3.372 -0.666  0.077 ETKDGv2  7
-NFG   O4 -4.287 -1.572 -0.447 ETKDGv2  8
-NFG   C5 -2.739  0.216 -0.966 ETKDGv2  9
-NFG   C6 -3.241  1.641 -0.845 ETKDGv2 10
-NFG   O6 -4.635  1.691 -0.863 ETKDGv2 11
-NFG   O5 -1.385  0.246 -0.942 ETKDGv2 12
-NFG  C11  1.805  0.081  0.106 ETKDGv2 13
-NFG  C12  2.717  1.112  0.297 ETKDGv2 14
-NFG   N1  2.340  2.439  0.599 ETKDGv2 15
-NFG  O11  1.191  3.033  0.230 ETKDGv2 16
-NFG  O12  3.153  3.138  1.284 ETKDGv2 17
-NFG  C13  4.059  0.842  0.191 ETKDGv2 18
-NFG  C14  4.513 -0.415 -0.098 ETKDGv2 19
-NFG   N2  5.900 -0.676 -0.202 ETKDGv2 20
-NFG  O21  6.325 -1.937 -0.488 ETKDGv2 21
-NFG  O22  6.695  0.274 -0.025 ETKDGv2 22
-NFG  C15  3.623 -1.439 -0.289 ETKDGv2 23
-NFG  C16  2.285 -1.218 -0.194 ETKDGv2 24
-NFG   H1 -1.060  1.464  0.584 ETKDGv2 25
-NFG   H2 -0.545 -0.929  1.950 ETKDGv2 26
-NFG   H3 -2.645 -2.231  1.419 ETKDGv2 27
-NFG H3O1 -1.998 -2.406 -1.040 ETKDGv2 28
-NFG   H4 -3.814 -0.064  0.891 ETKDGv2 29
-NFG H4O1 -3.945 -2.482 -0.396 ETKDGv2 30
-NFG   H5 -3.073 -0.166 -1.951 ETKDGv2 31
-NFG  H62 -2.933  2.111  0.117 ETKDGv2 32
-NFG  H61 -2.811  2.294 -1.636 ETKDGv2 33
-NFG   H6 -4.951  1.551  0.065 ETKDGv2 34
-NFG  H13  4.784  1.657  0.343 ETKDGv2 35
-NFG  H15  3.956 -2.450 -0.521 ETKDGv2 36
-NFG  H16  1.543 -1.997 -0.337 ETKDGv2 37
+NFG   C1 -0.749 -0.350 -0.195 ETKDGv2  1
+NFG   O1  0.441 -0.470 -0.976 ETKDGv2  2
+NFG   C2 -1.316 -1.758  0.083 ETKDGv2  3
+NFG    F -0.696 -2.283  1.204 ETKDGv2  4
+NFG   C3 -2.846 -1.730  0.303 ETKDGv2  5
+NFG   O3 -3.514 -1.994 -0.906 ETKDGv2  6
+NFG   C4 -3.281 -0.358  0.835 ETKDGv2  7
+NFG   O4 -4.676 -0.341  1.001 ETKDGv2  8
+NFG   C5 -2.833  0.760 -0.155 ETKDGv2  9
+NFG   C6 -2.626  2.108  0.556 ETKDGv2 10
+NFG   O6 -2.236  3.093 -0.362 ETKDGv2 11
+NFG   O5 -1.683  0.420 -0.929 ETKDGv2 12
+NFG  C11  1.749 -0.227 -0.523 ETKDGv2 13
+NFG  C12  2.726  0.066 -1.415 ETKDGv2 14
+NFG   N1  2.461  0.172 -2.831 ETKDGv2 15
+NFG  O11  3.507  0.203 -3.725 ETKDGv2 16
+NFG  O12  1.300  0.306 -3.268 ETKDGv2 17
+NFG  C13  4.113  0.292 -0.928 ETKDGv2 18
+NFG  C14  4.415  0.210  0.381 ETKDGv2 19
+NFG   N2  5.757  0.436  0.851 ETKDGv2 20
+NFG  O21  6.045  0.349  2.194 ETKDGv2 21
+NFG  O22  6.679  0.715  0.056 ETKDGv2 22
+NFG  C15  3.342 -0.126  1.343 ETKDGv2 23
+NFG  C16  2.092 -0.334  0.922 ETKDGv2 24
+NFG   H1 -0.524  0.164  0.765 ETKDGv2 25
+NFG   H2 -1.082 -2.429 -0.774 ETKDGv2 26
+NFG   H3 -3.126 -2.503  1.057 ETKDGv2 27
+NFG H3O1 -3.458 -2.974 -1.056 ETKDGv2 28
+NFG   H4 -2.787 -0.213  1.827 ETKDGv2 29
+NFG H4O1 -4.883  0.411  1.615 ETKDGv2 30
+NFG   H5 -3.663  0.903 -0.882 ETKDGv2 31
+NFG  H62 -3.562  2.419  1.073 ETKDGv2 32
+NFG  H61 -1.835  2.017  1.330 ETKDGv2 33
+NFG   H6 -3.050  3.345 -0.872 ETKDGv2 34
+NFG  H13  4.886  0.537 -1.644 ETKDGv2 35
+NFG  H15  3.566 -0.220  2.398 ETKDGv2 36
+NFG  H16  1.346 -0.617  1.651 ETKDGv2 37
 #

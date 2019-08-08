@@ -198,10 +198,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-TAC  "Create component" 1999-07-08 RCSB ? ?
-TAC "Modify descriptor" 2011-06-04 RCSB ? ?
+TAC  "Create component" 1999-07-08 RCSB
+TAC "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   TAC
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00759
@@ -242,19 +240,19 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-TAC                                                                                                                                       E701   ChEMBL
-TAC                                                                                                                                   Cyclopar   ChEMBL
-TAC                                                                                                                                   Panmycin   ChEMBL
-TAC                                                                                                                                 Sustamycin   ChEMBL
-TAC                                                                                                                                Vetquamycin   ChEMBL
-TAC                                                                                                                                 Liquamycin   ChEMBL
-TAC                                                                                                                                 Achromycin   ChEMBL
-TAC                                                                                                                         "Tetrabid Organon"   ChEMBL
-TAC                                                                                                                               Tetracycline   ChEMBL
-TAC                                                                                                                                 Economycin   ChEMBL
 TAC                                                                                                                                   Tetracyn   ChEMBL
-TAC                                                                                                                                 Supramycin   ChEMBL
+TAC                                                                                                                                 Economycin   ChEMBL
+TAC                                                                                                                                Vetquamycin   ChEMBL
+TAC                                                                                                                         "Tetrabid Organon"   ChEMBL
+TAC                                                                                                                                   Panmycin   ChEMBL
+TAC                                                                                                                                 Achromycin   ChEMBL
 TAC                                                                                                                             "Achromycin V"   ChEMBL
+TAC                                                                                                                                   Cyclopar   ChEMBL
+TAC                                                                                                                                 Liquamycin   ChEMBL
+TAC                                                                                                                               Tetracycline   ChEMBL
+TAC                                                                                                                                 Supramycin   ChEMBL
+TAC                                                                                                                                 Sustamycin   ChEMBL
+TAC                                                                                                                                       E701   ChEMBL
 TAC (4S,4aS,5aS,12aS)-4-(Dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-2-naphthacenecarboxamide DrugBank
 TAC                                                                                                                                  Abramycin DrugBank
 TAC                                                                                                                        Anhydrotetracycline DrugBank
@@ -454,60 +452,60 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-TAC   C1 -1.675 -1.785 -0.479 ETKDGv2  1
-TAC   O1 -1.125 -2.598 -1.273 ETKDGv2  2
-TAC   C2 -2.993 -1.195 -0.817 ETKDGv2  3
-TAC  C21 -3.779 -1.769 -1.938 ETKDGv2  4
-TAC  O21 -4.427 -1.008 -2.706 ETKDGv2  5
-TAC  N21 -3.820 -3.180 -2.159 ETKDGv2  6
-TAC   C3 -3.495 -0.178 -0.081 ETKDGv2  7
-TAC   O3 -4.827  0.192 -0.283 ETKDGv2  8
-TAC   C4 -2.694  0.488  1.049 ETKDGv2  9
-TAC   N4 -2.814  1.975  1.113 ETKDGv2 10
-TAC  C42 -3.661  2.448  2.219 ETKDGv2 11
-TAC  C43 -3.124  2.674 -0.149 ETKDGv2 12
-TAC  C41 -1.184  0.091  1.066 ETKDGv2 13
-TAC   C5 -0.338  0.868  0.037 ETKDGv2 14
-TAC  C51  1.169  0.499  0.106 ETKDGv2 15
-TAC   C6  1.934  0.846 -1.228 ETKDGv2 16
-TAC  C62  1.952  2.387 -1.384 ETKDGv2 17
-TAC   O6  1.254  0.305 -2.337 ETKDGv2 18
-TAC  C61  3.380  0.311 -1.234 ETKDGv2 19
-TAC   C7  4.225  0.651 -2.232 ETKDGv2 20
-TAC   C8  5.629  0.210 -2.221 ETKDGv2 21
-TAC   C9  6.076 -0.578 -1.244 ETKDGv2 22
-TAC  C10  5.151 -1.067 -0.199 ETKDGv2 23
-TAC  O10  5.631 -1.965  0.754 ETKDGv2 24
-TAC  C1A  3.856 -0.666 -0.198 ETKDGv2 25
-TAC  C11  2.862 -1.251  0.729 ETKDGv2 26
-TAC  O11  3.220 -1.961  1.709 ETKDGv2 27
-TAC  C1B  1.438 -0.930  0.535 ETKDGv2 28
-TAC  C12  0.455 -1.821  0.815 ETKDGv2 29
-TAC  O12  0.741 -3.170  1.059 ETKDGv2 30
-TAC  C1C -1.012 -1.428  0.831 ETKDGv2 31
-TAC  O1C -1.669 -2.145  1.850 ETKDGv2 32
-TAC HN21 -4.341 -3.567 -2.977 ETKDGv2 33
-TAC HN22 -3.392 -3.846 -1.478 ETKDGv2 34
-TAC  HO3 -5.319  0.810  0.346 ETKDGv2 35
-TAC   H4 -3.119  0.045  1.979 ETKDGv2 36
-TAC H421 -3.647  3.559  2.267 ETKDGv2 37
-TAC H422 -4.709  2.106  2.100 ETKDGv2 38
-TAC H423 -3.264  2.074  3.187 ETKDGv2 39
-TAC H431 -2.746  3.717 -0.090 ETKDGv2 40
-TAC H432 -4.217  2.716 -0.338 ETKDGv2 41
-TAC H433 -2.622  2.193 -1.014 ETKDGv2 42
-TAC  H41 -0.785  0.346  2.075 ETKDGv2 43
-TAC H51A -0.743  0.690 -0.981 ETKDGv2 44
-TAC  H52 -0.429  1.955  0.245 ETKDGv2 45
-TAC  H51  1.603  1.128  0.918 ETKDGv2 46
-TAC H621  2.535  2.857 -0.563 ETKDGv2 47
-TAC H622  2.390  2.700 -2.353 ETKDGv2 48
-TAC H623  0.925  2.805 -1.377 ETKDGv2 49
-TAC  HO6  1.233 -0.682 -2.226 ETKDGv2 50
-TAC   H7  3.904  1.270 -3.057 ETKDGv2 51
-TAC   H8  6.302  0.539 -3.002 ETKDGv2 52
-TAC   H9  7.112 -0.891 -1.238 ETKDGv2 53
-TAC  HO1  6.595 -2.275  0.749 ETKDGv2 54
-TAC  HO2  1.643 -3.594  0.885 ETKDGv2 55
-TAC  HOC -1.246 -1.905  2.716 ETKDGv2 56
+TAC   C1 -2.402  2.262  0.409 ETKDGv2  1
+TAC   O1 -2.407  3.352  1.046 ETKDGv2  2
+TAC   C2 -3.640  1.436  0.363 ETKDGv2  3
+TAC  C21 -4.899  1.981  0.929 ETKDGv2  4
+TAC  O21 -5.654  1.242  1.617 ETKDGv2  5
+TAC  N21 -5.274  3.341  0.702 ETKDGv2  6
+TAC   C3 -3.620  0.200 -0.181 ETKDGv2  7
+TAC   O3 -4.792 -0.559 -0.228 ETKDGv2  8
+TAC   C4 -2.343 -0.409 -0.741 ETKDGv2  9
+TAC   N4 -1.633 -1.330  0.204 ETKDGv2 10
+TAC  C42 -2.066 -1.264  1.615 ETKDGv2 11
+TAC  C43 -1.693 -2.730 -0.253 ETKDGv2 12
+TAC  C41 -1.399  0.699 -1.291 ETKDGv2 13
+TAC   C5 -0.100  0.126 -1.918 ETKDGv2 14
+TAC  C51  1.189  0.295 -1.056 ETKDGv2 15
+TAC   C6  2.263 -0.819 -1.362 ETKDGv2 16
+TAC  C62  2.716 -0.682 -2.837 ETKDGv2 17
+TAC   O6  1.695 -2.102 -1.225 ETKDGv2 18
+TAC  C61  3.449 -0.704 -0.385 ETKDGv2 19
+TAC   C7  4.735 -0.923 -0.746 ETKDGv2 20
+TAC   C8  5.814 -0.922  0.259 ETKDGv2 21
+TAC   C9  5.532 -0.727  1.548 ETKDGv2 22
+TAC  C10  4.139 -0.484  1.975 ETKDGv2 23
+TAC  O10  3.870 -0.246  3.322 ETKDGv2 24
+TAC  C1A  3.148 -0.468  1.057 ETKDGv2 25
+TAC  C11  1.755 -0.174  1.428 ETKDGv2 26
+TAC  O11  1.306 -0.531  2.551 ETKDGv2 27
+TAC  C1B  0.871  0.466  0.429 ETKDGv2 28
+TAC  C12 -0.134  1.299  0.794 ETKDGv2 29
+TAC  O12 -0.271  1.762  2.110 ETKDGv2 30
+TAC  C1C -1.107  1.812 -0.249 ETKDGv2 31
+TAC  O1C -0.504  2.915 -0.886 ETKDGv2 32
+TAC HN21 -4.731  3.948  0.048 ETKDGv2 33
+TAC HN22 -6.140  3.726  1.140 ETKDGv2 34
+TAC  HO3 -4.801 -1.494 -0.617 ETKDGv2 35
+TAC   H4 -2.669 -0.973 -1.647 ETKDGv2 36
+TAC H421 -1.366 -1.846  2.252 ETKDGv2 37
+TAC H422 -3.091 -1.676  1.742 ETKDGv2 38
+TAC H423 -2.048 -0.223  1.990 ETKDGv2 39
+TAC H431 -1.085 -3.381  0.413 ETKDGv2 40
+TAC H432 -1.266 -2.827 -1.273 ETKDGv2 41
+TAC H433 -2.742 -3.099 -0.265 ETKDGv2 42
+TAC  H41 -1.965  1.177 -2.126 ETKDGv2 43
+TAC H51A -0.259 -0.934 -2.201 ETKDGv2 44
+TAC  H52  0.070  0.658 -2.880 ETKDGv2 45
+TAC  H51  1.645  1.267 -1.356 ETKDGv2 46
+TAC H621  3.349 -1.544 -3.138 ETKDGv2 47
+TAC H622  1.853 -0.697 -3.532 ETKDGv2 48
+TAC H623  3.276  0.265 -2.992 ETKDGv2 49
+TAC  HO6  1.330 -2.191 -0.307 ETKDGv2 50
+TAC   H7  5.023 -1.134 -1.764 ETKDGv2 51
+TAC   H8  6.837 -1.097 -0.051 ETKDGv2 52
+TAC   H9  6.329 -0.737  2.280 ETKDGv2 53
+TAC  HO1  4.609 -0.247  4.016 ETKDGv2 54
+TAC  HO2  0.442  1.668  2.820 ETKDGv2 55
+TAC  HOC -1.147  3.278 -1.552 ETKDGv2 56
 #

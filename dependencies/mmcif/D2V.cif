@@ -231,10 +231,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-D2V  "Create component" 2008-04-30 RCSB ? ?
-D2V "Modify descriptor" 2011-06-04 RCSB ? ?
+D2V  "Create component" 2008-04-30 RCSB
+D2V "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   D2V
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00153
@@ -285,27 +283,27 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+D2V                                                 "Vitamin D2"   ChEMBL
 D2V                                                   Calciferol   ChEMBL
-D2V                                                     Sterogyl   ChEMBL
+D2V                                                      Ergo-D2   ChEMBL
+D2V                                                "Uvesterol D"   ChEMBL
+D2V                                                        Lanes   ChEMBL
+D2V                                                      D-Forte   ChEMBL
+D2V                                              "Oleovitamin D"   ChEMBL
+D2V                                                      Drisdol   ChEMBL
+D2V                                                  Sterogyl-15   ChEMBL
+D2V                                                     Deltalin   ChEMBL
 D2V                                                "Vitamin D 2"   ChEMBL
 D2V                                           "Viosterol in Oil"   ChEMBL
-D2V                                                     Deltalin   ChEMBL
-D2V                                                      Ergo-D2   ChEMBL
-D2V                                   "Oleovitamin D, Synthetic"   ChEMBL
-D2V                                                "Uvesterol D"   ChEMBL
-D2V                                                 "Vitamin D2"   ChEMBL
-D2V                                                  "Vitamin D"   ChEMBL
-D2V                                                        Lanes   ChEMBL
+D2V                                    "Calciferol In Arach Oil"   ChEMBL
+D2V                                               "Sterogyl 15H"   ChEMBL
+D2V                                                     Sterogyl   ChEMBL
 D2V                                                 "Ergoral D2"   ChEMBL
-D2V                                                      Drisdol   ChEMBL
-D2V                                                      D-Forte   ChEMBL
-D2V                                                  Sterogyl-15   ChEMBL
+D2V                                                  "Vitamin D"   ChEMBL
+D2V                                                      Osto-D2   ChEMBL
 D2V                                                "Eciferol D2"   ChEMBL
 D2V                                               Ergocalciferol   ChEMBL
-D2V                                    "Calciferol In Arach Oil"   ChEMBL
-D2V                                                      Osto-D2   ChEMBL
-D2V                                              "Oleovitamin D"   ChEMBL
-D2V                                               "Sterogyl 15H"   ChEMBL
+D2V                                   "Oleovitamin D, Synthetic"   ChEMBL
 D2V                                                     Caltrate   ChEMBL
 D2V   (3β,5Z,7E,22E)-9,10-secoergosta-5,7,10(19),22-tetraen-3-ol DrugBank
 D2V (5Z,7E,22E)-(3S)-9,10-seco-5,7,10(19),22-ergostatetraen-3-ol DrugBank
@@ -508,77 +506,77 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-D2V  C1B -4.526  1.505 -0.886 ETKDGv2  1
-D2V  C1W -5.748  0.611 -0.633 ETKDGv2  2
-D2V  C1C -6.903  1.447 -0.057 ETKDGv2  3
-D2V  C1X -5.430 -0.646  0.236 ETKDGv2  4
-D2V  C1D -4.948 -0.301  1.653 ETKDGv2  5
-D2V  C1J -4.610 -1.660 -0.569 ETKDGv2  6
-D2V  C1K -3.398 -2.238 -0.367 ETKDGv2  7
-D2V  C1Y -2.373 -1.986  0.723 ETKDGv2  8
-D2V  C1E -1.693 -3.313  1.110 ETKDGv2  9
-D2V  C2B -1.434 -0.796  0.340 ETKDGv2 10
-D2V  C1Q -0.600 -0.241  1.512 ETKDGv2 11
-D2V  C1P  0.612  0.463  0.880 ETKDGv2 12
-D2V  C2A  0.354  0.430 -0.631 ETKDGv2 13
-D2V  C2C -0.433 -0.885 -0.852 ETKDGv2 14
-D2V  C1F  0.516 -2.121 -0.737 ETKDGv2 15
-D2V  C1R -1.102 -0.869 -2.263 ETKDGv2 16
-D2V  C1L -0.375  0.025 -3.299 ETKDGv2 17
-D2V  C1M  1.145  0.155 -3.070 ETKDGv2 18
-D2V  C1V  1.488  0.553 -1.645 ETKDGv2 19
-D2V  C1I  2.753  0.936 -1.384 ETKDGv2 20
-D2V  C1H  3.202  1.561 -0.127 ETKDGv2 21
-D2V  C1U  4.374  1.276  0.480 ETKDGv2 22
-D2V  C1S  5.305  0.184 -0.017 ETKDGv2 23
-D2V  C1Z  6.786  0.553  0.202 ETKDGv2 24
-D2V  O1G  7.620 -0.522 -0.150 ETKDGv2 25
-D2V  C1O  7.051  0.991  1.655 ETKDGv2 26
-D2V  C1N  6.208  2.219  2.008 ETKDGv2 27
-D2V  C1T  4.747  1.944  1.758 ETKDGv2 28
-D2V  C1A  3.839  2.238  2.699 ETKDGv2 29
-D2V  H1B -4.804  2.347 -1.554 ETKDGv2 30
-D2V H1BA -4.131  1.929  0.060 ETKDGv2 31
-D2V H1BB -3.730  0.930 -1.393 ETKDGv2 32
-D2V  H1W -6.098  0.252 -1.627 ETKDGv2 33
-D2V  H1C -7.773  0.800  0.182 ETKDGv2 34
-D2V H1CA -7.234  2.199 -0.806 ETKDGv2 35
-D2V H1CB -6.591  1.993  0.858 ETKDGv2 36
-D2V  H1X -6.403 -1.162  0.394 ETKDGv2 37
-D2V  H1D -5.682  0.353  2.165 ETKDGv2 38
-D2V H1DA -4.895 -1.222  2.270 ETKDGv2 39
-D2V H1DB -3.977  0.231  1.642 ETKDGv2 40
-D2V  H1J -5.120 -1.994 -1.470 ETKDGv2 41
-D2V  H1K -3.083 -2.932 -1.143 ETKDGv2 42
-D2V  H1Y -2.875 -1.699  1.655 ETKDGv2 43
-D2V  H1E -1.409 -3.918  0.228 ETKDGv2 44
-D2V H1EA -2.412 -3.935  1.686 ETKDGv2 45
-D2V H1EB -0.809 -3.157  1.758 ETKDGv2 46
-D2V  H2B -2.133  0.033  0.088 ETKDGv2 47
-D2V  H1Q -0.249 -1.042  2.194 ETKDGv2 48
-D2V H1QA -1.204  0.478  2.109 ETKDGv2 49
-D2V  H1P  0.678  1.507  1.253 ETKDGv2 50
-D2V H1PA  1.539 -0.094  1.138 ETKDGv2 51
-D2V  H2A -0.325  1.290 -0.843 ETKDGv2 52
-D2V  H1F  0.855 -2.292  0.304 ETKDGv2 53
-D2V H1FA  0.027 -3.040 -1.112 ETKDGv2 54
-D2V H1FB  1.429 -2.010 -1.352 ETKDGv2 55
-D2V  H1R -2.148 -0.509 -2.194 ETKDGv2 56
-D2V H1RA -1.176 -1.899 -2.673 ETKDGv2 57
-D2V  H1L -0.559 -0.370 -4.321 ETKDGv2 58
-D2V H1LA -0.820  1.045 -3.263 ETKDGv2 59
-D2V  H1M  1.646 -0.803 -3.326 ETKDGv2 60
-D2V H1MA  1.527  0.931 -3.770 ETKDGv2 61
-D2V  H1I  3.474  0.891 -2.191 ETKDGv2 62
-D2V  H1H  2.567  2.333  0.283 ETKDGv2 63
-D2V  H1S  5.172 -0.029 -1.096 ETKDGv2 64
-D2V H1SA  5.065 -0.748  0.539 ETKDGv2 65
-D2V  H1Z  7.035  1.404 -0.470 ETKDGv2 66
-D2V HO1G  7.412 -1.277  0.460 ETKDGv2 67
-D2V  H1O  8.127  1.242  1.774 ETKDGv2 68
-D2V H1OA  6.810  0.160  2.355 ETKDGv2 69
-D2V  H1N  6.400  2.498  3.068 ETKDGv2 70
-D2V H1NA  6.523  3.074  1.372 ETKDGv2 71
-D2V  H1A  2.793  1.994  2.572 ETKDGv2 72
-D2V H1AA  4.132  2.707  3.629 ETKDGv2 73
+D2V  C1B  5.813  1.565 -3.692 ETKDGv2  1
+D2V  C1W  5.133  0.522 -2.791 ETKDGv2  2
+D2V  C1C  5.531 -0.897 -3.233 ETKDGv2  3
+D2V  C1X  5.391  0.807 -1.281 ETKDGv2  4
+D2V  C1D  6.834  0.532 -0.833 ETKDGv2  5
+D2V  C1J  4.438  0.009 -0.418 ETKDGv2  6
+D2V  C1K  3.467  0.597  0.300 ETKDGv2  7
+D2V  C1Y  2.522 -0.215  1.161 ETKDGv2  8
+D2V  C1E  3.230 -0.539  2.484 ETKDGv2  9
+D2V  C2B  1.184  0.563  1.376 ETKDGv2 10
+D2V  C1Q  0.514  0.945  0.035 ETKDGv2 11
+D2V  C1P -1.002  0.913  0.260 ETKDGv2 12
+D2V  C2A -1.172  0.707  1.765 ETKDGv2 13
+D2V  C2C  0.050 -0.145  2.176 ETKDGv2 14
+D2V  C1F -0.110 -1.631  1.717 ETKDGv2 15
+D2V  C1R  0.222 -0.093  3.730 ETKDGv2 16
+D2V  C1L -1.086  0.206  4.505 ETKDGv2 17
+D2V  C1M -2.361 -0.316  3.811 ETKDGv2 18
+D2V  C1V -2.450  0.120  2.359 ETKDGv2 19
+D2V  C1I -3.617 -0.080  1.714 ETKDGv2 20
+D2V  C1H -3.964  0.480  0.396 ETKDGv2 21
+D2V  C1U -4.728 -0.169 -0.505 ETKDGv2 22
+D2V  C1S -5.300 -1.545 -0.228 ETKDGv2 23
+D2V  C1Z -5.576 -2.324 -1.533 ETKDGv2 24
+D2V  O1G -4.367 -2.753 -2.112 ETKDGv2 25
+D2V  C1O -6.435 -1.537 -2.566 ETKDGv2 26
+D2V  C1N -6.453 -0.009 -2.362 ETKDGv2 27
+D2V  C1T -5.160  0.481 -1.770 ETKDGv2 28
+D2V  C1A -4.421  1.398 -2.409 ETKDGv2 29
+D2V  H1B  5.522  2.592 -3.385 ETKDGv2 30
+D2V H1BA  5.494  1.421 -4.746 ETKDGv2 31
+D2V H1BB  6.918  1.474 -3.648 ETKDGv2 32
+D2V  H1W  4.038  0.625 -2.966 ETKDGv2 33
+D2V  H1C  5.212 -1.067 -4.283 ETKDGv2 34
+D2V H1CA  5.035 -1.663 -2.604 ETKDGv2 35
+D2V H1CB  6.631 -1.038 -3.181 ETKDGv2 36
+D2V  H1X  5.204  1.892 -1.110 ETKDGv2 37
+D2V  H1D  6.961  0.840  0.227 ETKDGv2 38
+D2V H1DA  7.082 -0.547 -0.910 ETKDGv2 39
+D2V H1DB  7.556  1.116 -1.440 ETKDGv2 40
+D2V  H1J  4.548 -1.071 -0.378 ETKDGv2 41
+D2V  H1K  3.355  1.678  0.267 ETKDGv2 42
+D2V  H1Y  2.308 -1.168  0.630 ETKDGv2 43
+D2V  H1E  3.358  0.379  3.097 ETKDGv2 44
+D2V H1EA  4.234 -0.976  2.291 ETKDGv2 45
+D2V H1EB  2.664 -1.292  3.063 ETKDGv2 46
+D2V  H2B  1.430  1.517  1.899 ETKDGv2 47
+D2V  H1Q  0.781  0.226 -0.771 ETKDGv2 48
+D2V H1QA  0.839  1.961 -0.281 ETKDGv2 49
+D2V  H1P -1.444  0.070 -0.313 ETKDGv2 50
+D2V H1PA -1.451  1.874 -0.070 ETKDGv2 51
+D2V  H2A -1.065  1.720  2.221 ETKDGv2 52
+D2V  H1F -0.184 -1.717  0.613 ETKDGv2 53
+D2V H1FA  0.754 -2.244  2.043 ETKDGv2 54
+D2V H1FB -1.012 -2.105  2.149 ETKDGv2 55
+D2V  H1R  0.627 -1.056  4.109 ETKDGv2 56
+D2V H1RA  0.963  0.685  4.014 ETKDGv2 57
+D2V  H1L -1.184  1.307  4.632 ETKDGv2 58
+D2V H1LA -1.020 -0.230  5.525 ETKDGv2 59
+D2V  H1M -3.238  0.081  4.368 ETKDGv2 60
+D2V H1MA -2.397 -1.425  3.875 ETKDGv2 61
+D2V  H1I -4.402 -0.617  2.233 ETKDGv2 62
+D2V  H1H -3.650  1.494  0.198 ETKDGv2 63
+D2V  H1S -4.601 -2.152  0.389 ETKDGv2 64
+D2V H1SA -6.249 -1.429  0.339 ETKDGv2 65
+D2V  H1Z -6.141 -3.240 -1.255 ETKDGv2 66
+D2V HO1G -3.871 -1.948 -2.413 ETKDGv2 67
+D2V  H1O -6.071 -1.758 -3.593 ETKDGv2 68
+D2V H1OA -7.484 -1.903 -2.521 ETKDGv2 69
+D2V  H1N -7.273  0.250 -1.657 ETKDGv2 70
+D2V H1NA -6.685  0.489 -3.330 ETKDGv2 71
+D2V  H1A -4.759  1.832 -3.341 ETKDGv2 72
+D2V H1AA -3.454  1.709 -2.038 ETKDGv2 73
 #

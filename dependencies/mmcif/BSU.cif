@@ -140,10 +140,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-BSU  "Create component" 2001-05-22 RCSB ? ?
-BSU "Modify descriptor" 2011-06-04 RCSB ? ?
+BSU  "Create component" 2001-05-22 RCSB
+BSU "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   BSU
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB07496
@@ -176,8 +174,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-BSU  1,3-Diphenylurea ChEMBL
 BSU 1,3-Diphenyl-Urea ChEMBL
+BSU  1,3-Diphenylurea ChEMBL
 #
 loop_
 _software.name              
@@ -332,32 +330,32 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BSU   N7  1.023 -0.516  1.177 ETKDGv2  1
-BSU   C8 -0.052 -0.366  0.237 ETKDGv2  2
-BSU   N9 -1.406 -0.332  0.713 ETKDGv2  3
-BSU  O11  0.187 -0.338 -1.001 ETKDGv2  4
-BSU   C5  2.411 -0.343  0.843 ETKDGv2  5
-BSU   C4  3.347 -1.040  1.511 ETKDGv2  6
-BSU   C3  4.780 -0.867  1.193 ETKDGv2  7
-BSU   C2  5.157  0.002  0.249 ETKDGv2  8
-BSU   C1  4.142  0.799 -0.469 ETKDGv2  9
-BSU   C6  2.842  0.642 -0.187 ETKDGv2 10
-BSU  C10 -2.544  0.000 -0.101 ETKDGv2 11
-BSU  C16 -2.471  0.928 -1.076 ETKDGv2 12
-BSU  C15 -3.669  1.269 -1.872 ETKDGv2 13
-BSU  C14 -4.839  0.673 -1.614 ETKDGv2 14
-BSU  C13 -4.935 -0.325 -0.530 ETKDGv2 15
-BSU  C12 -3.850 -0.640  0.190 ETKDGv2 16
-BSU  H22  0.781 -0.828  2.144 ETKDGv2 17
-BSU  H23 -1.586 -0.654  1.690 ETKDGv2 18
-BSU  H41  3.061 -1.748  2.279 ETKDGv2 19
-BSU  H31  5.523 -1.447  1.725 ETKDGv2 20
-BSU  H21  6.206  0.131  0.015 ETKDGv2 21
-BSU  H11  4.453  1.520 -1.213 ETKDGv2 22
-BSU  H61  2.115  1.260 -0.696 ETKDGv2 23
-BSU H161 -1.550  1.460 -1.275 ETKDGv2 24
-BSU H151 -3.599  2.008 -2.660 ETKDGv2 25
-BSU H141 -5.717  0.924 -2.194 ETKDGv2 26
-BSU H131 -5.885 -0.799 -0.317 ETKDGv2 27
-BSU H121 -3.928 -1.372  0.984 ETKDGv2 28
+BSU   N7  1.122  0.412  1.080 ETKDGv2  1
+BSU   C8 -0.014  0.203  0.228 ETKDGv2  2
+BSU   N9 -1.214  0.955  0.457 ETKDGv2  3
+BSU  O11  0.043 -0.634 -0.713 ETKDGv2  4
+BSU   C5  2.438 -0.101  0.807 ETKDGv2  5
+BSU   C4  3.247 -0.431  1.829 ETKDGv2  6
+BSU   C3  4.608 -0.947  1.571 ETKDGv2  7
+BSU   C2  5.052 -1.070  0.315 ETKDGv2  8
+BSU   C1  4.185 -0.679 -0.815 ETKDGv2  9
+BSU   C6  2.950 -0.215 -0.586 ETKDGv2 10
+BSU  C10 -2.476  0.667 -0.170 ETKDGv2 11
+BSU  C16 -3.330  1.672 -0.434 ETKDGv2 12
+BSU  C15 -4.638  1.396 -1.066 ETKDGv2 13
+BSU  C14 -4.989  0.140 -1.361 ETKDGv2 14
+BSU  C13 -4.074 -0.975 -1.045 ETKDGv2 15
+BSU  C12 -2.886 -0.730 -0.477 ETKDGv2 16
+BSU  H22  0.959  0.901  1.989 ETKDGv2 17
+BSU  H23 -1.141  1.808  1.057 ETKDGv2 18
+BSU  H41  2.905 -0.338  2.852 ETKDGv2 19
+BSU  H31  5.244 -1.226  2.401 ETKDGv2 20
+BSU  H21  6.048 -1.447  0.125 ETKDGv2 21
+BSU  H11  4.558 -0.754 -1.828 ETKDGv2 22
+BSU  H61  2.344  0.103 -1.423 ETKDGv2 23
+BSU H161 -3.064  2.695 -0.201 ETKDGv2 24
+BSU H151 -5.310  2.215 -1.290 ETKDGv2 25
+BSU H141 -5.946 -0.063 -1.823 ETKDGv2 26
+BSU H131 -4.373 -1.993 -1.261 ETKDGv2 27
+BSU H121 -2.246 -1.562 -0.218 ETKDGv2 28
 #

@@ -184,11 +184,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-P77     "Create component" 2010-03-10 RCSB ? ?
-P77 "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-P77    "Modify descriptor" 2011-06-04 RCSB ? ?
+P77     "Create component" 2010-03-10 RCSB
+P77 "Modify aromatic_flag" 2011-06-04 RCSB
+P77    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   P77
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00433
@@ -229,11 +227,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-P77                                                            Compro   ChEMBL
-P77                                                         Compazine   ChEMBL
-P77                                                    "Stemetil Eff"   ChEMBL
 P77                                       "Prochlorperazine Mesilate"   ChEMBL
 P77                                                  Prochlorperazine   ChEMBL
+P77                                                    "Stemetil Eff"   ChEMBL
+P77                                                         Compazine   ChEMBL
+P77                                                            Compro   ChEMBL
 P77      2-Chloro-10-(3-(1-methyl-4-piperazinyl)propyl)-phenothiazine DrugBank
 P77       2-Chloro-10-(3-(4-methyl-1-piperazinyl)propyl)phenothiazine DrugBank
 P77       3-Chloro-10-(3-(1-methyl-4-piperazinyl)propyl)phenothiazine DrugBank
@@ -446,53 +444,53 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-P77    S -3.925  0.700  1.503 ETKDGv2  1
-P77   CL -4.755 -4.407 -2.220 ETKDGv2  2
-P77   C1 -4.518 -2.991 -1.213 ETKDGv2  3
-P77   N1 -2.188 -0.064 -0.857 ETKDGv2  4
-P77   C2 -5.516 -2.652 -0.179 ETKDGv2  5
-P77   N2  2.684  0.240  0.059 ETKDGv2  6
-P77   C3 -5.352 -1.564  0.581 ETKDGv2  7
-P77   N3  4.906 -0.815  1.753 ETKDGv2  8
-P77   C4 -4.165 -0.703  0.400 ETKDGv2  9
-P77   C5 -3.247 -1.000 -0.550 ETKDGv2 10
-P77   C6 -3.446 -2.207 -1.394 ETKDGv2 11
-P77   C7 -3.505  1.810  0.164 ETKDGv2 12
-P77   C8 -4.011  3.048  0.097 ETKDGv2 13
-P77   C9 -3.538  3.975 -0.951 ETKDGv2 14
-P77  C10 -2.611  3.576 -1.831 ETKDGv2 15
-P77  C11 -2.088  2.193 -1.785 ETKDGv2 16
-P77  C12 -2.521  1.342 -0.837 ETKDGv2 17
-P77  C13 -0.850 -0.541 -1.241 ETKDGv2 18
-P77  C14  0.231  0.089 -0.351 ETKDGv2 19
-P77  C15  1.620 -0.480 -0.676 ETKDGv2 20
-P77  C16  4.030 -0.079 -0.483 ETKDGv2 21
-P77  C17  4.736 -1.181  0.325 ETKDGv2 22
-P77  C18  3.933  0.196  2.224 ETKDGv2 23
-P77  C19  2.579  0.025  1.526 ETKDGv2 24
-P77  C20  6.280 -0.374  2.036 ETKDGv2 25
-P77   H2 -6.385 -3.283 -0.039 ETKDGv2 26
-P77   H3 -6.086 -1.321  1.339 ETKDGv2 27
-P77   H6 -2.740 -2.442 -2.179 ETKDGv2 28
-P77   H8 -4.726  3.391  0.835 ETKDGv2 29
-P77   H9 -3.930  4.983 -0.994 ETKDGv2 30
-P77  H10 -2.260  4.257 -2.596 ETKDGv2 31
-P77  H11 -1.405  1.870 -2.559 ETKDGv2 32
-P77  H13 -0.659 -0.310 -2.310 ETKDGv2 33
-P77 H13A -0.787 -1.644 -1.120 ETKDGv2 34
-P77  H14 -0.025 -0.117  0.710 ETKDGv2 35
-P77 H14A  0.249  1.190 -0.502 ETKDGv2 36
-P77  H15  1.775 -0.357 -1.772 ETKDGv2 37
-P77 H15A  1.653 -1.569 -0.449 ETKDGv2 38
-P77  H16  4.652  0.841 -0.449 ETKDGv2 39
-P77 H16A  3.992 -0.380 -1.553 ETKDGv2 40
-P77  H17  4.125 -2.107  0.270 ETKDGv2 41
-P77 H17A  5.709 -1.423 -0.161 ETKDGv2 42
-P77  H18  4.299  1.232  2.036 ETKDGv2 43
-P77 H18A  3.790  0.078  3.320 ETKDGv2 44
-P77  H19  2.192 -0.992  1.762 ETKDGv2 45
-P77 H19A  1.871  0.769  1.949 ETKDGv2 46
-P77  H20  6.994 -1.201  1.833 ETKDGv2 47
-P77 H20A  6.554  0.505  1.410 ETKDGv2 48
-P77 H20B  6.386 -0.103  3.109 ETKDGv2 49
+P77    S -5.328 -0.176 -0.298 ETKDGv2  1
+P77   CL -1.992  5.197  0.416 ETKDGv2  2
+P77   C1 -2.884  3.695  0.259 ETKDGv2  3
+P77   N1 -2.296  0.046 -0.476 ETKDGv2  4
+P77   C2 -4.329  3.669  0.554 ETKDGv2  5
+P77   N2  2.609 -0.293 -0.840 ETKDGv2  6
+P77   C3 -5.016  2.529  0.434 ETKDGv2  7
+P77   N3  5.129  0.040  0.184 ETKDGv2  8
+P77   C4 -4.334  1.291  0.002 ETKDGv2  9
+P77   C5 -3.001  1.292 -0.242 ETKDGv2 10
+P77   C6 -2.255  2.573 -0.116 ETKDGv2 11
+P77   C7 -4.187 -1.249  0.559 ETKDGv2 12
+P77   C8 -4.626 -2.202  1.391 ETKDGv2 13
+P77   C9 -3.675 -3.195  1.931 ETKDGv2 14
+P77  C10 -2.385 -3.147  1.577 ETKDGv2 15
+P77  C11 -1.895 -2.068  0.692 ETKDGv2 16
+P77  C12 -2.749 -1.135  0.227 ETKDGv2 17
+P77  C13 -1.189 -0.031 -1.444 ETKDGv2 18
+P77  C14  0.178  0.238 -0.782 ETKDGv2 19
+P77  C15  1.277 -0.664 -1.365 ETKDGv2 20
+P77  C16  2.750 -0.651  0.593 ETKDGv2 21
+P77  C17  4.227 -0.754  1.038 ETKDGv2 22
+P77  C18  5.048 -0.360 -1.241 ETKDGv2 23
+P77  C19  3.670 -0.926 -1.640 ETKDGv2 24
+P77  C20  4.927  1.488  0.368 ETKDGv2 25
+P77   H2 -4.835  4.575  0.864 ETKDGv2 26
+P77   H3 -6.078  2.517  0.642 ETKDGv2 27
+P77   H6 -1.195  2.611 -0.307 ETKDGv2 28
+P77   H8 -5.680 -2.292  1.618 ETKDGv2 29
+P77   H9 -4.030 -3.977  2.589 ETKDGv2 30
+P77  H10 -1.690 -3.884  1.960 ETKDGv2 31
+P77  H11 -0.838 -2.019  0.484 ETKDGv2 32
+P77  H13 -1.205 -1.034 -1.926 ETKDGv2 33
+P77 H13A -1.353  0.704 -2.263 ETKDGv2 34
+P77  H14  0.105  0.088  0.315 ETKDGv2 35
+P77 H14A  0.475  1.293 -0.957 ETKDGv2 36
+P77  H15  1.258 -0.530 -2.470 ETKDGv2 37
+P77 H15A  1.052 -1.734 -1.155 ETKDGv2 38
+P77  H16  2.266  0.139  1.204 ETKDGv2 39
+P77 H16A  2.245 -1.616  0.824 ETKDGv2 40
+P77  H17  4.327 -0.446  2.102 ETKDGv2 41
+P77 H17A  4.545 -1.820  0.994 ETKDGv2 42
+P77  H18  5.817 -1.138 -1.433 ETKDGv2 43
+P77 H18A  5.301  0.493 -1.911 ETKDGv2 44
+P77  H19  3.658 -2.031 -1.492 ETKDGv2 45
+P77 H19A  3.518 -0.729 -2.725 ETKDGv2 46
+P77  H20  5.738  2.048 -0.146 ETKDGv2 47
+P77 H20A  4.980  1.753  1.446 ETKDGv2 48
+P77 H20B  3.949  1.822 -0.040 ETKDGv2 49
 #

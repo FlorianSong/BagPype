@@ -169,10 +169,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-CLS  "Create component" 2002-02-07 RCSB ? ?
-CLS "Modify descriptor" 2011-06-04 RCSB ? ?
+CLS  "Create component" 2002-02-07 RCSB
+CLS "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   CLS
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00456
@@ -214,8 +212,8 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 CLS                                                         Cephalothin   ChEMBL
-CLS                                                           Cefalotin   ChEMBL
 CLS                                                              Seffin   ChEMBL
+CLS                                                           Cefalotin   ChEMBL
 CLS "3-Acetoxymethyl-7-(2-thienylacetamido)-3-cephem-4-carboxylic acid" DrugBank
 CLS                        "7-(2-Thienylacetamido)cephalosporanic acid" DrugBank
 CLS                       "7-(2'-thienylacetamido)cephalosporanic acid" DrugBank
@@ -415,46 +413,46 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CLS     S1 -0.636 -1.787  1.480 ETKDGv2  1
-CLS     C2 -1.736 -0.430  0.911 ETKDGv2  2
-CLS     C3 -2.693 -0.863 -0.185 ETKDGv2  3
-CLS  "C3'" -4.174 -0.654  0.051 ETKDGv2  4
-CLS    O20 -4.449  0.702  0.400 ETKDGv2  5
-CLS    C21 -4.292  1.781 -0.477 ETKDGv2  6
-CLS    O22 -3.866  1.605 -1.650 ETKDGv2  7
-CLS    C23 -4.580  3.162  0.002 ETKDGv2  8
-CLS     C4 -2.171 -1.426 -1.297 ETKDGv2  9
-CLS  "C4'" -2.917 -1.730 -2.536 ETKDGv2 10
-CLS    O4A -3.952 -0.913 -2.979 ETKDGv2 11
-CLS    O4B -2.557 -2.707 -3.246 ETKDGv2 12
-CLS     N5 -0.798 -1.793 -1.239 ETKDGv2 13
-CLS     C6 -0.002 -2.337 -0.165 ETKDGv2 14
-CLS     C7  1.224 -1.753 -0.666 ETKDGv2 15
-CLS     C8  0.441 -1.258 -1.846 ETKDGv2 16
-CLS     O9  0.714 -0.606 -2.888 ETKDGv2 17
-CLS    N10  1.742 -0.644  0.139 ETKDGv2 18
-CLS    C11  2.662 -0.863  1.217 ETKDGv2 19
-CLS    O12  3.058 -2.029  1.489 ETKDGv2 20
-CLS    C13  3.191  0.297  2.001 ETKDGv2 21
-CLS    C14  4.401  0.864  1.326 ETKDGv2 22
-CLS    C15  5.638  0.852  1.823 ETKDGv2 23
-CLS    C16  6.643  1.488  0.943 ETKDGv2 24
-CLS    C17  6.151  1.968 -0.197 ETKDGv2 25
-CLS    S19  4.399  1.666 -0.263 ETKDGv2 26
-CLS    H21 -1.107  0.404  0.534 ETKDGv2 27
-CLS    H22 -2.294 -0.051  1.793 ETKDGv2 28
-CLS "H3'1" -4.820 -0.964 -0.790 ETKDGv2 29
-CLS "H3'2" -4.468 -1.294  0.909 ETKDGv2 30
-CLS   H231 -5.013  3.770 -0.821 ETKDGv2 31
-CLS   H232 -5.306  3.128  0.842 ETKDGv2 32
-CLS   H233 -3.639  3.635  0.353 ETKDGv2 33
-CLS    HO4 -4.440 -1.113 -3.844 ETKDGv2 34
-CLS     H6  0.015 -3.448 -0.223 ETKDGv2 35
-CLS     H7  2.007 -2.484 -0.965 ETKDGv2 36
-CLS    H10  1.453  0.336 -0.081 ETKDGv2 37
-CLS   H131  2.415  1.086  2.082 ETKDGv2 38
-CLS   H132  3.441 -0.037  3.032 ETKDGv2 39
-CLS    H15  5.888  0.417  2.782 ETKDGv2 40
-CLS    H16  7.692  1.558  1.201 ETKDGv2 41
-CLS    H17  6.736  2.464 -0.960 ETKDGv2 42
+CLS     S1  0.585 -0.267 -1.654 ETKDGv2  1
+CLS     C2  2.252 -1.039 -1.717 ETKDGv2  2
+CLS     C3  2.869 -1.274 -0.343 ETKDGv2  3
+CLS  "C3'"  4.378 -1.155 -0.257 ETKDGv2  4
+CLS    O20  4.808  0.145 -0.659 ETKDGv2  5
+CLS    C21  4.537  1.310  0.068 ETKDGv2  6
+CLS    O22  3.877  1.265  1.141 ETKDGv2  7
+CLS    C23  4.989  2.627 -0.464 ETKDGv2  8
+CLS     C4  2.097 -1.721  0.684 ETKDGv2  9
+CLS  "C4'"  2.600 -1.998  2.047 ETKDGv2 10
+CLS    O4A  2.156 -3.121  2.738 ETKDGv2 11
+CLS    O4B  3.371 -1.190  2.627 ETKDGv2 12
+CLS     N5  0.693 -1.846  0.462 ETKDGv2 13
+CLS     C6 -0.111 -1.673 -0.721 ETKDGv2 14
+CLS     C7 -1.329 -1.473  0.035 ETKDGv2 15
+CLS     C8 -0.535 -1.729  1.281 ETKDGv2 16
+CLS     O9 -0.795 -1.776  2.511 ETKDGv2 17
+CLS    N10 -1.853 -0.105 -0.003 ETKDGv2 18
+CLS    C11 -2.745  0.328 -1.039 ETKDGv2 19
+CLS    O12 -3.093 -0.468 -1.953 ETKDGv2 20
+CLS    C13 -3.302  1.718 -1.021 ETKDGv2 21
+CLS    C14 -4.599  1.750 -0.273 ETKDGv2 22
+CLS    C15 -4.736  1.570  1.041 ETKDGv2 23
+CLS    C16 -6.135  1.658  1.514 ETKDGv2 24
+CLS    C17 -7.025  1.905  0.554 ETKDGv2 25
+CLS    S19 -6.190  2.046 -1.011 ETKDGv2 26
+CLS    H21  2.181 -2.012 -2.249 ETKDGv2 27
+CLS    H22  2.904 -0.380 -2.327 ETKDGv2 28
+CLS "H3'1"  4.816 -1.895 -0.959 ETKDGv2 29
+CLS "H3'2"  4.802 -1.392  0.736 ETKDGv2 30
+CLS   H231  4.162  3.096 -1.037 ETKDGv2 31
+CLS   H232  5.862  2.485 -1.134 ETKDGv2 32
+CLS   H233  5.282  3.296  0.372 ETKDGv2 33
+CLS    HO4  1.528 -3.790  2.308 ETKDGv2 34
+CLS     H6 -0.131 -2.608 -1.325 ETKDGv2 35
+CLS     H7 -2.112 -2.247 -0.123 ETKDGv2 36
+CLS    H10 -1.599  0.568  0.756 ETKDGv2 37
+CLS   H131 -3.470  2.059 -2.065 ETKDGv2 38
+CLS   H132 -2.580  2.419 -0.550 ETKDGv2 39
+CLS    H15 -3.903  1.378  1.704 ETKDGv2 40
+CLS    H16 -6.415  1.534  2.551 ETKDGv2 41
+CLS    H17 -8.090  2.003  0.714 ETKDGv2 42
 #

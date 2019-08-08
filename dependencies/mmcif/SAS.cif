@@ -169,10 +169,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-SAS  "Create component" 1999-07-08 PDBJ ? ?
-SAS "Modify descriptor" 2011-06-04 RCSB ? ?
+SAS  "Create component" 1999-07-08 PDBJ
+SAS "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   SAS
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00795
@@ -215,21 +213,21 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-SAS                                                            Azulfidine   ChEMBL
-SAS                                                           Salazopyrin   ChEMBL
-SAS                                                               SAS-500   ChEMBL
-SAS                                                   Salazosulfapyridine   ChEMBL
+SAS                                                    "Salazopyrin E.C."   ChEMBL
+SAS                                                        Sulphasalazine   ChEMBL
+SAS                                                                 Ucine   ChEMBL
+SAS                                                        Salazopyrin-En   ChEMBL
 SAS                                                                S.A.S.   ChEMBL
 SAS                                                              Colizine   ChEMBL
-SAS                                                       "Azulfidine EN"   ChEMBL
 SAS                                                            S.A.S.-500   ChEMBL
+SAS                                                               SAS-500   ChEMBL
+SAS                                                       "Azulfidine EN"   ChEMBL
 SAS                                               Salicylazosulfapyridine   ChEMBL
 SAS                                                         Sulfasalazine   ChEMBL
-SAS                                                        Sulphasalazine   ChEMBL
-SAS                                                    "Salazopyrin E.C."   ChEMBL
-SAS                                                        Salazopyrin-En   ChEMBL
-SAS                                                                 Ucine   ChEMBL
+SAS                                                   Salazosulfapyridine   ChEMBL
+SAS                                                           Salazopyrin   ChEMBL
 SAS                                                  "Azulfidine EN-Tabs"   ChEMBL
+SAS                                                            Azulfidine   ChEMBL
 SAS "2-Hydroxy-5-((4-((2-pyridinylamino)sulfonyl)phenyl)azo)benzoic acid" DrugBank
 SAS      "2-Hydroxy-5-[4-(pyridin-2-ylsulfamoyl)-phenylazo]-benzoic acid" DrugBank
 SAS         "4-(Pyridyl-2-amidosulfonyl)-3'-carboxy-4'-hydroxyazobenzene" DrugBank
@@ -463,46 +461,46 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SAS  C1  5.186  0.953  0.248 ETKDGv2  1
-SAS  C2  4.710 -0.269 -0.063 ETKDGv2  2
-SAS  C3  4.973 -0.833 -1.402 ETKDGv2  3
-SAS  C4  5.683 -0.135 -2.292 ETKDGv2  4
-SAS  C5  6.197  1.195 -1.917 ETKDGv2  5
-SAS  N1  5.954  1.678 -0.733 ETKDGv2  6
-SAS  N2  4.962  1.559  1.531 ETKDGv2  7
-SAS  S1  3.897  0.923  2.746 ETKDGv2  8
-SAS  O1  3.819  1.890  3.894 ETKDGv2  9
-SAS  O2  4.446 -0.384  3.247 ETKDGv2 10
-SAS  C6  2.283  0.705  2.079 ETKDGv2 11
-SAS  C7  1.752  1.642  1.280 ETKDGv2 12
-SAS  C8  0.404  1.454  0.706 ETKDGv2 13
-SAS  C9 -0.301  0.346  0.979 ETKDGv2 14
-SAS C10  0.286 -0.690  1.869 ETKDGv2 15
-SAS C11  1.507 -0.518  2.389 ETKDGv2 16
-SAS  N3 -1.603  0.187  0.408 ETKDGv2 17
-SAS  N4 -2.314 -0.844  0.634 ETKDGv2 18
-SAS C12 -3.620 -1.018  0.069 ETKDGv2 19
-SAS C13 -4.172 -0.101 -0.749 ETKDGv2 20
-SAS C14 -5.527 -0.314 -1.326 ETKDGv2 21
-SAS C15 -6.197 -1.449 -1.025 ETKDGv2 22
-SAS C16 -5.584 -2.455 -0.128 ETKDGv2 23
-SAS C17 -4.370 -2.248  0.392 ETKDGv2 24
-SAS C18 -6.105  0.715 -2.227 ETKDGv2 25
-SAS  O3 -7.474 -1.683 -1.536 ETKDGv2 26
-SAS  O4 -6.903  0.381 -3.143 ETKDGv2 27
-SAS  O5 -5.778  2.062 -2.086 ETKDGv2 28
-SAS  H2  4.142 -0.859  0.640 ETKDGv2 29
-SAS  H3  4.589 -1.812 -1.659 ETKDGv2 30
-SAS  H4  5.882 -0.539 -3.276 ETKDGv2 31
-SAS  H5  6.777  1.771 -2.625 ETKDGv2 32
-SAS HN2  5.415  2.480  1.726 ETKDGv2 33
-SAS  H7  2.306  2.542  1.043 ETKDGv2 34
-SAS  H8 -0.008  2.219  0.059 ETKDGv2 35
-SAS H10 -0.270 -1.589  2.103 ETKDGv2 36
-SAS H11  1.924 -1.278  3.037 ETKDGv2 37
-SAS H13 -3.616  0.788 -1.014 ETKDGv2 38
-SAS H16 -6.122 -3.362  0.114 ETKDGv2 39
-SAS H17 -3.932 -2.989  1.049 ETKDGv2 40
-SAS HO3 -7.985 -2.529 -1.311 ETKDGv2 41
-SAS HO5 -5.211  2.402 -1.320 ETKDGv2 42
+SAS  C1  5.106  0.757  0.250 ETKDGv2  1
+SAS  C2  5.714  1.926 -0.012 ETKDGv2  2
+SAS  C3  5.735  2.441 -1.395 ETKDGv2  3
+SAS  C4  5.149  1.744 -2.373 ETKDGv2  4
+SAS  C5  4.491  0.463 -2.051 ETKDGv2  5
+SAS  N1  4.485  0.025 -0.825 ETKDGv2  6
+SAS  N2  5.068  0.246  1.588 ETKDGv2  7
+SAS  S1  4.248 -1.231  1.973 ETKDGv2  8
+SAS  O1  4.333 -1.475  3.453 ETKDGv2  9
+SAS  O2  4.920 -2.363  1.247 ETKDGv2 10
+SAS  C6  2.555 -1.115  1.507 ETKDGv2 11
+SAS  C7  1.887 -2.198  1.080 ETKDGv2 12
+SAS  C8  0.468 -2.088  0.682 ETKDGv2 13
+SAS  C9 -0.165 -0.907  0.747 ETKDGv2 14
+SAS C10  0.573  0.290  1.227 ETKDGv2 15
+SAS C11  1.858  0.189  1.588 ETKDGv2 16
+SAS  N3 -1.538 -0.828  0.352 ETKDGv2 17
+SAS  N4 -2.186  0.267  0.393 ETKDGv2 18
+SAS C12 -3.562  0.364  0.001 ETKDGv2 19
+SAS C13 -4.256 -0.704 -0.436 ETKDGv2 20
+SAS C14 -5.684 -0.575 -0.836 ETKDGv2 21
+SAS C15 -6.279  0.639 -0.754 ETKDGv2 22
+SAS C16 -5.508  1.809 -0.272 ETKDGv2 23
+SAS C17 -4.228  1.678  0.083 ETKDGv2 24
+SAS C18 -6.402 -1.786 -1.311 ETKDGv2 25
+SAS  O3 -7.614  0.814 -1.117 ETKDGv2 26
+SAS  O4 -7.612 -1.733 -1.662 ETKDGv2 27
+SAS  O5 -5.736 -3.008 -1.373 ETKDGv2 28
+SAS  H2  6.187  2.496  0.778 ETKDGv2 29
+SAS  H3  6.222  3.382 -1.614 ETKDGv2 30
+SAS  H4  5.157  2.112 -3.391 ETKDGv2 31
+SAS  H5  4.014 -0.113 -2.832 ETKDGv2 32
+SAS HN2  5.523  0.774  2.366 ETKDGv2 33
+SAS  H7  2.376 -3.162  1.020 ETKDGv2 34
+SAS  H8 -0.055 -2.971  0.336 ETKDGv2 35
+SAS H10  0.078  1.251  1.290 ETKDGv2 36
+SAS H11  2.386  1.066  1.940 ETKDGv2 37
+SAS H13 -3.774 -1.672 -0.499 ETKDGv2 38
+SAS H16 -5.985  2.778 -0.207 ETKDGv2 39
+SAS H17 -3.675  2.540  0.434 ETKDGv2 40
+SAS HO3 -8.062  1.721 -1.057 ETKDGv2 41
+SAS HO5 -6.210 -3.844 -1.695 ETKDGv2 42
 #

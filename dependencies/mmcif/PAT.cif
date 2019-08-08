@@ -148,10 +148,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-PAT  "Create component" 2001-03-12 RCSB ? ?
-PAT "Modify descriptor" 2011-06-04 RCSB ? ?
+PAT  "Create component" 2001-03-12 RCSB
+PAT "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -305,36 +303,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PAT    N -1.190  0.384 -1.544 ETKDGv2  1
-PAT   CA -1.784 -0.079 -0.280 ETKDGv2  2
-PAT    C -2.175 -1.543 -0.400 ETKDGv2  3
-PAT    O -1.988 -2.163 -1.481 ETKDGv2  4
-PAT   CB -0.759  0.119  0.866 ETKDGv2  5
-PAT   CG  0.547 -0.581  0.603 ETKDGv2  6
-PAT  CD1  0.810 -1.869  0.831 ETKDGv2  7
-PAT  CD2  1.776  0.017  0.089 ETKDGv2  8
-PAT  NE1  2.161 -2.174  0.484 ETKDGv2  9
-PAT  CE2  2.686 -0.936  0.031 ETKDGv2 10
-PAT  CE3  2.081  1.395 -0.338 ETKDGv2 11
-PAT  CZ2  4.049 -0.670 -0.458 ETKDGv2 12
-PAT  CZ3  3.320  1.660 -0.789 ETKDGv2 13
-PAT  CH2  4.350  0.581 -0.851 ETKDGv2 14
-PAT  OXT -2.734 -2.235  0.673 ETKDGv2 15
-PAT    P -3.289  0.917  0.074 ETKDGv2 16
-PAT  O1P -4.339  0.633 -0.977 ETKDGv2 17
-PAT  O2P -3.918  0.539  1.599 ETKDGv2 18
-PAT  O3P -2.895  2.563  0.030 ETKDGv2 19
-PAT    H -1.904  0.332 -2.307 ETKDGv2 20
-PAT   H2 -0.920  1.391 -1.455 ETKDGv2 21
-PAT  HB2 -1.170 -0.234  1.836 ETKDGv2 22
-PAT  HB3 -0.557  1.205  0.992 ETKDGv2 23
-PAT  HD1  0.110 -2.590  1.232 ETKDGv2 24
-PAT  HE1  2.649 -3.094  0.555 ETKDGv2 25
-PAT  HE3  1.330  2.172 -0.292 ETKDGv2 26
-PAT  HZ2  4.788 -1.460 -0.500 ETKDGv2 27
-PAT  HZ3  3.575  2.662 -1.110 ETKDGv2 28
-PAT  HH2  5.343  0.809 -1.216 ETKDGv2 29
-PAT  HXT -2.884 -1.803  1.575 ETKDGv2 30
-PAT HOP2 -3.338  1.022  2.241 ETKDGv2 31
-PAT HOP3 -3.730  3.030  0.285 ETKDGv2 32
+PAT    N  0.925  0.890  1.509 ETKDGv2  1
+PAT   CA  1.680  0.286  0.399 ETKDGv2  2
+PAT    C  2.146 -1.120  0.755 ETKDGv2  3
+PAT    O  1.896 -1.605  1.891 ETKDGv2  4
+PAT   CB  0.796  0.279 -0.874 ETKDGv2  5
+PAT   CG -0.447 -0.558 -0.732 ETKDGv2  6
+PAT  CD1 -0.538 -1.875 -0.929 ETKDGv2  7
+PAT  CD2 -1.791 -0.087 -0.407 ETKDGv2  8
+PAT  NE1 -1.882 -2.320 -0.741 ETKDGv2  9
+PAT  CE2 -2.592 -1.134 -0.418 ETKDGv2 10
+PAT  CE3 -2.293  1.260 -0.082 ETKDGv2 11
+PAT  CZ2 -4.027 -1.008 -0.114 ETKDGv2 12
+PAT  CZ3 -3.601  1.399  0.200 ETKDGv2 13
+PAT  CH2 -4.508  0.213  0.182 ETKDGv2 14
+PAT  OXT  2.854 -1.899 -0.158 ETKDGv2 15
+PAT    P  3.155  1.330  0.079 ETKDGv2 16
+PAT  O1P  2.729  2.777 -0.047 ETKDGv2 17
+PAT  O2P  3.911  0.854 -1.358 ETKDGv2 18
+PAT  O3P  4.255  1.177  1.357 ETKDGv2 19
+PAT    H  0.114  0.282  1.766 ETKDGv2 20
+PAT   H2  1.534  0.950  2.358 ETKDGv2 21
+PAT  HB2  0.491  1.322 -1.109 ETKDGv2 22
+PAT  HB3  1.370 -0.083 -1.754 ETKDGv2 23
+PAT  HD1  0.281 -2.524 -1.208 ETKDGv2 24
+PAT  HE1 -2.255 -3.290 -0.829 ETKDGv2 25
+PAT  HE3 -1.629  2.114 -0.065 ETKDGv2 26
+PAT  HZ2 -4.676 -1.874 -0.128 ETKDGv2 27
+PAT  HZ3 -4.001  2.374  0.445 ETKDGv2 28
+PAT  HH2 -5.559  0.339  0.411 ETKDGv2 29
+PAT  HXT  3.067 -1.574 -1.092 ETKDGv2 30
+PAT HOP2  4.732  1.407 -1.407 ETKDGv2 31
+PAT HOP3  3.862  1.699  2.101 ETKDGv2 32
 #

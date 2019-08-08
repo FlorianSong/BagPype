@@ -170,10 +170,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MOA  "Create component" 2001-08-10 RCSB ? ?
-MOA "Modify descriptor" 2011-06-04 RCSB ? ?
+MOA  "Create component" 2001-08-10 RCSB
+MOA "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   MOA
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB01024
@@ -208,11 +206,11 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-MOA                                                                "Mycophenolic Acid"   ChEMBL
-MOA                                                                "Mycophenolic acid"   ChEMBL
-MOA                                                                           Myfortic   ChEMBL
 MOA                                                                              68618   ChEMBL
+MOA                                                                           Myfortic   ChEMBL
+MOA                                                                "Mycophenolic acid"   ChEMBL
 MOA                                                            "RS-61443 [as mofetil]"   ChEMBL
+MOA                                                                "Mycophenolic Acid"   ChEMBL
 MOA "(e)-6-(4-Hydroxy-6-methoxy-7-methyl-3-oxo-5-phthalanyl)-4-methyl-4-hexenoic acid" DrugBank
 MOA                                                                      Mycophenolate DrugBank
 MOA                                                                "Mycophenolic acid" DrugBank
@@ -372,47 +370,47 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MOA   C1 -2.771  3.537 -0.028 ETKDGv2  1
-MOA   C2  1.275 -0.505 -0.300 ETKDGv2  2
-MOA   C3  2.486 -1.057 -0.529 ETKDGv2  3
-MOA   C4  3.525 -1.041  0.571 ETKDGv2  4
-MOA   C5  4.127  0.359  0.733 ETKDGv2  5
-MOA   C6  5.182  0.367  1.800 ETKDGv2  6
-MOA   C7 -4.459 -0.854  0.816 ETKDGv2  7
-MOA   C8 -1.449 -2.728  0.874 ETKDGv2  8
-MOA   C9  2.819 -1.700 -1.855 ETKDGv2  9
-MOA  C10 -4.500  2.276  0.788 ETKDGv2 10
-MOA  C11 -3.374  1.415  0.282 ETKDGv2 11
-MOA  C12 -3.299 -0.061  0.277 ETKDGv2 12
-MOA  C13 -2.179 -0.647 -0.214 ETKDGv2 13
-MOA  C14 -1.065  0.192 -0.776 ETKDGv2 14
-MOA  C15 -1.155  1.543 -0.744 ETKDGv2 15
-MOA  C16 -2.381  2.153 -0.186 ETKDGv2 16
-MOA  C17  0.173 -0.476 -1.331 ETKDGv2 17
-MOA   O1 -2.098  4.548 -0.355 ETKDGv2 18
-MOA   O2 -4.028  3.601  0.550 ETKDGv2 19
-MOA   O3 -2.056 -2.039 -0.212 ETKDGv2 20
-MOA   O4 -0.108  2.330 -1.228 ETKDGv2 21
-MOA   O5  6.512  0.636  1.487 ETKDGv2 22
-MOA   O6  4.865  0.135  2.997 ETKDGv2 23
-MOA  H21  1.079 -0.064  0.675 ETKDGv2 24
-MOA  H41  3.058 -1.370  1.525 ETKDGv2 25
-MOA  H42  4.341 -1.761  0.342 ETKDGv2 26
-MOA  H51  4.569  0.682 -0.234 ETKDGv2 27
-MOA  H52  3.335  1.088  1.010 ETKDGv2 28
-MOA  H71 -4.311 -1.950  0.726 ETKDGv2 29
-MOA  H72 -4.606 -0.609  1.889 ETKDGv2 30
-MOA  H73 -5.380 -0.588  0.256 ETKDGv2 31
-MOA  H81 -1.467 -3.818  0.670 ETKDGv2 32
-MOA  H82 -0.396 -2.403  0.996 ETKDGv2 33
-MOA  H83 -2.008 -2.528  1.813 ETKDGv2 34
-MOA  H91  3.863 -2.079 -1.871 ETKDGv2 35
-MOA  H92  2.716 -0.957 -2.673 ETKDGv2 36
-MOA  H93  2.138 -2.556 -2.043 ETKDGv2 37
-MOA H1O1 -5.430  2.090  0.211 ETKDGv2 38
-MOA H102 -4.663  2.115  1.874 ETKDGv2 39
-MOA H171  0.521  0.068 -2.235 ETKDGv2 40
-MOA H172 -0.064 -1.512 -1.650 ETKDGv2 41
-MOA HO41 -0.139  3.340 -1.217 ETKDGv2 42
-MOA HO51  6.803  0.824  0.535 ETKDGv2 43
+MOA   C1 -2.549  3.248 -1.211 ETKDGv2  1
+MOA   C2  1.658  0.404  1.005 ETKDGv2  2
+MOA   C3  2.111 -0.334 -0.033 ETKDGv2  3
+MOA   C4  3.444  0.016 -0.660 ETKDGv2  4
+MOA   C5  4.604 -0.469  0.219 ETKDGv2  5
+MOA   C6  5.975 -0.181 -0.340 ETKDGv2  6
+MOA   C7 -4.177 -1.164 -0.254 ETKDGv2  7
+MOA   C8 -1.750 -2.987  0.570 ETKDGv2  8
+MOA   C9  1.328 -1.503 -0.578 ETKDGv2  9
+MOA  C10 -4.203  1.710 -1.578 ETKDGv2 10
+MOA  C11 -3.118  1.156 -0.692 ETKDGv2 11
+MOA  C12 -3.033 -0.197 -0.094 ETKDGv2 12
+MOA  C13 -1.937 -0.505  0.649 ETKDGv2 13
+MOA  C14 -0.854  0.517  0.869 ETKDGv2 14
+MOA  C15 -0.987  1.762  0.350 ETKDGv2 15
+MOA  C16 -2.172  2.055 -0.484 ETKDGv2 16
+MOA  C17  0.349  0.167  1.724 ETKDGv2 17
+MOA   O1 -1.901  4.325 -1.276 ETKDGv2 18
+MOA   O2 -3.753  3.034 -1.858 ETKDGv2 19
+MOA   O3 -1.818 -1.753  1.278 ETKDGv2 20
+MOA   O4 -0.026  2.741  0.607 ETKDGv2 21
+MOA   O5  6.183  0.498 -1.542 ETKDGv2 22
+MOA   O6  6.980 -0.569  0.311 ETKDGv2 23
+MOA  H21  2.274  1.221  1.373 ETKDGv2 24
+MOA  H41  3.503  1.119 -0.799 ETKDGv2 25
+MOA  H42  3.525 -0.454 -1.664 ETKDGv2 26
+MOA  H51  4.532  0.011  1.220 ETKDGv2 27
+MOA  H52  4.511 -1.568  0.360 ETKDGv2 28
+MOA  H71 -3.877 -2.009 -0.906 ETKDGv2 29
+MOA  H72 -5.060 -0.682 -0.720 ETKDGv2 30
+MOA  H73 -4.491 -1.550  0.739 ETKDGv2 31
+MOA  H81 -1.664 -2.822 -0.526 ETKDGv2 32
+MOA  H82 -0.859 -3.552  0.911 ETKDGv2 33
+MOA  H83 -2.656 -3.589  0.788 ETKDGv2 34
+MOA  H91  0.368 -1.152 -1.008 ETKDGv2 35
+MOA  H92  1.136 -2.237  0.230 ETKDGv2 36
+MOA  H93  1.888 -2.028 -1.379 ETKDGv2 37
+MOA H1O1 -5.175  1.744 -1.043 ETKDGv2 38
+MOA H102 -4.283  1.125 -2.518 ETKDGv2 39
+MOA H171  0.318 -0.883  2.078 ETKDGv2 40
+MOA H172  0.323  0.804  2.634 ETKDGv2 41
+MOA HO41 -0.098  3.683  0.249 ETKDGv2 42
+MOA HO51  5.432  0.849 -2.121 ETKDGv2 43
 #

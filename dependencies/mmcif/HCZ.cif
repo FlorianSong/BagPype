@@ -134,11 +134,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-HCZ     "Create component" 2009-08-06 RCSB ? ?
-HCZ "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-HCZ    "Modify descriptor" 2011-06-04 RCSB ? ?
+HCZ     "Create component" 2009-08-06 RCSB
+HCZ "Modify aromatic_flag" 2011-06-04 RCSB
+HCZ    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   HCZ
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00999
@@ -175,18 +173,18 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-HCZ                           HCTZ   ChEMBL
-HCZ                         Oretic   ChEMBL
-HCZ                        Esidrix   ChEMBL
-HCZ                      Microzide   ChEMBL
 HCZ                           Zide   ChEMBL
 HCZ                      Apo-Hydro   ChEMBL
-HCZ            Hydrochlorothiazide   ChEMBL
+HCZ                        Esidrix   ChEMBL
+HCZ                           HCTZ   ChEMBL
 HCZ "Hydrochlorothiazide Intensol"   ChEMBL
-HCZ                        Hydro-D   ChEMBL
+HCZ                         Oretic   ChEMBL
 HCZ                        Esidrex   ChEMBL
-HCZ                    Hydrodiuril   ChEMBL
 HCZ                   Hydrosaluric   ChEMBL
+HCZ            Hydrochlorothiazide   ChEMBL
+HCZ                        Hydro-D   ChEMBL
+HCZ                      Microzide   ChEMBL
+HCZ                    Hydrodiuril   ChEMBL
 HCZ                           HCTZ DrugBank
 HCZ            Hydrochlorothiazide DrugBank
 #
@@ -337,29 +335,29 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-HCZ  N01  4.254 -0.831  0.400 ETKDGv2  1
-HCZ  S02  3.350 -0.166 -0.916 ETKDGv2  2
-HCZ  O03  3.334 -1.158 -2.046 ETKDGv2  3
-HCZ  O04  4.010  1.094 -1.399 ETKDGv2  4
-HCZ  C05  1.699  0.186 -0.389 ETKDGv2  5
-HCZ  C06  0.691 -0.612 -0.779 ETKDGv2  6
-HCZ  C07 -0.696 -0.339 -0.346 ETKDGv2  7
-HCZ  C08 -0.960  0.701  0.464 ETKDGv2  8
-HCZ  C09  0.147  1.584  0.896 ETKDGv2  9
-HCZ  C10  1.406  1.345  0.501 ETKDGv2 10
-HCZ CL11  2.680  2.419  1.066 ETKDGv2 11
-HCZ  N12 -2.301  0.983  0.897 ETKDGv2 12
-HCZ  C13 -3.370 -0.019  0.848 ETKDGv2 13
-HCZ  N14 -3.504 -0.579 -0.498 ETKDGv2 14
-HCZ  S15 -2.009 -1.346 -0.926 ETKDGv2 15
-HCZ  O16 -1.929 -1.483 -2.420 ETKDGv2 16
-HCZ  O17 -1.936 -2.703 -0.284 ETKDGv2 17
-HCZ HN01  4.253 -0.122  1.167 ETKDGv2 18
-HCZ HN0A  3.719 -1.656  0.752 ETKDGv2 19
-HCZ  H06  0.878 -1.466 -1.418 ETKDGv2 20
-HCZ  H09 -0.067  2.424  1.544 ETKDGv2 21
-HCZ HN12 -2.510  1.910  1.330 ETKDGv2 22
-HCZ  H13 -4.332  0.451  1.145 ETKDGv2 23
-HCZ H13A -3.155 -0.830  1.577 ETKDGv2 24
-HCZ HN14 -3.654  0.213 -1.166 ETKDGv2 25
+HCZ  N01  4.263  0.685 -0.794 ETKDGv2  1
+HCZ  S02  3.253  0.952  0.584 ETKDGv2  2
+HCZ  O03  3.892  0.351  1.804 ETKDGv2  3
+HCZ  O04  3.098  2.433  0.798 ETKDGv2  4
+HCZ  C05  1.680  0.196  0.313 ETKDGv2  5
+HCZ  C06  0.567  0.948  0.284 ETKDGv2  6
+HCZ  C07 -0.754  0.325  0.054 ETKDGv2  7
+HCZ  C08 -0.855 -1.006 -0.117 ETKDGv2  8
+HCZ  C09  0.371 -1.835 -0.100 ETKDGv2  9
+HCZ  C10  1.572 -1.274  0.104 ETKDGv2 10
+HCZ CL11  2.996 -2.307  0.117 ETKDGv2 11
+HCZ  N12 -2.131 -1.630 -0.340 ETKDGv2 12
+HCZ  C13 -3.394 -0.974  0.000 ETKDGv2 13
+HCZ  N14 -3.481  0.335 -0.646 ETKDGv2 14
+HCZ  S15 -2.190  1.325 -0.046 ETKDGv2 15
+HCZ  O16 -2.541  1.858  1.315 ETKDGv2 16
+HCZ  O17 -1.957  2.465 -0.997 ETKDGv2 17
+HCZ HN01  3.798  1.148 -1.607 ETKDGv2 18
+HCZ HN0A  5.156  1.200 -0.624 ETKDGv2 19
+HCZ  H06  0.620  2.020  0.426 ETKDGv2 20
+HCZ  H09  0.292 -2.904 -0.251 ETKDGv2 21
+HCZ HN12 -2.160 -2.615 -0.689 ETKDGv2 22
+HCZ  H13 -4.240 -1.607 -0.343 ETKDGv2 23
+HCZ H13A -3.474 -0.870  1.106 ETKDGv2 24
+HCZ HN14 -4.379  0.782 -0.350 ETKDGv2 25
 #

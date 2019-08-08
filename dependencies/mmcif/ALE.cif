@@ -133,13 +133,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-ALE   "Create component" 1999-07-08  EBI   ?                                                             ?
-ALE  "Modify descriptor" 2011-06-04 RCSB   ?                                                             ?
-ALE "Other modification" 2012-11-19  EBI JMB "previous coordinates had wrong chirality for L-epinephrine."
-ALE "Other modification" 2014-04-14  EBI  MC                           "add ACDlabs SMILES, InChI and key"
-ALE "Other modification" 2018-07-25  EBI JMB                                               "Correct audit"
+ALE   "Create component" 1999-07-08  EBI
+ALE  "Modify descriptor" 2011-06-04 RCSB
+ALE "Other modification" 2012-11-19  EBI
+ALE "Other modification" 2014-04-14  EBI
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   ALE
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00668
@@ -180,46 +177,46 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-ALE                                                      Jext   ChEMBL
-ALE                                                   Symjepi   ChEMBL
-ALE                                               Asthmahaler   ChEMBL
-ALE                                                 Adrenalin   ChEMBL
-ALE                                          "Primatene Mist"   ChEMBL
-ALE                                                "Adren Co"   ChEMBL
-ALE                                                    Auvi-Q   ChEMBL
-ALE                                                   Emerade   ChEMBL
-ALE                                                  Riddofan   ChEMBL
-ALE                                               Asma-Vydrin   ChEMBL
-ALE                                 "Sus-phrine sulfite free"   ChEMBL
-ALE                                           "Gppe Inh Soln"   ChEMBL
-ALE                                                      Eppy   ChEMBL
-ALE                                                 Primatene   ChEMBL
-ALE                                                 Riddobron   ChEMBL
-ALE                             "Anaphylactic Shock Drug Kit"   ChEMBL
-ALE                                 "Sus-Phrine Sulfite-Free"   ChEMBL
-ALE                                           "Twinject 0.15"   ChEMBL
-ALE                                                  Simplene   ChEMBL
-ALE                                                   Ana-Kit   ChEMBL
-ALE                                             Medihaler-epi   ChEMBL
-ALE                                               "Epipen Jr"   ChEMBL
-ALE                                          "Epipen E Z Pen"   ChEMBL
 ALE                                                Sus-Phrine   ChEMBL
-ALE                                                    Epipen   ChEMBL
-ALE                                                    Brovon   ChEMBL
-ALE                                         "Epinephrine HCl"   ChEMBL
+ALE                             "Anaphylactic Shock Drug Kit"   ChEMBL
+ALE                                               Asma-Vydrin   ChEMBL
+ALE                                             Medihaler-epi   ChEMBL
+ALE                                                      Eppy   ChEMBL
 ALE                                           "Bronkaid Mist"   ChEMBL
-ALE                                          "Epi E Z Pen Jr"   ChEMBL
-ALE                               "Soln Made To Rybarvin For"   ChEMBL
-ALE                                                 Ana-Guard   ChEMBL
+ALE                                                 Adrenalin   ChEMBL
+ALE                                 "Sus-phrine sulfite free"   ChEMBL
+ALE                                                  Rybarvin   ChEMBL
+ALE                                                    Auvi-Q   ChEMBL
 ALE                                                  Twinject   ChEMBL
 ALE                                               Epinephrine   ChEMBL
-ALE                           Levo-Methylaminoethanolcatechol   ChEMBL
+ALE                                                   Symjepi   ChEMBL
+ALE                                                    Brovon   ChEMBL
+ALE                                                   Ana-Kit   ChEMBL
+ALE                                                 Riddobron   ChEMBL
 ALE                                              "Epipen Jr."   ChEMBL
-ALE                                                  Rybarvin   ChEMBL
 ALE                                            "Twinject 0.3"   ChEMBL
-ALE                                                    Anapen   ChEMBL
-ALE                                               Adrenaclick   ChEMBL
+ALE                                                 Ana-Guard   ChEMBL
+ALE                                                  Riddofan   ChEMBL
+ALE                                                "Adren Co"   ChEMBL
+ALE                                                 Primatene   ChEMBL
+ALE                           Levo-Methylaminoethanolcatechol   ChEMBL
+ALE                               "Soln Made To Rybarvin For"   ChEMBL
+ALE                                 "Sus-Phrine Sulfite-Free"   ChEMBL
+ALE                                          "Primatene Mist"   ChEMBL
+ALE                                          "Epipen E Z Pen"   ChEMBL
+ALE                                         "Epinephrine HCl"   ChEMBL
+ALE                                                    Epipen   ChEMBL
+ALE                                                      Jext   ChEMBL
 ALE                                                Adrenaline   ChEMBL
+ALE                                               Adrenaclick   ChEMBL
+ALE                                                    Anapen   ChEMBL
+ALE                                                   Emerade   ChEMBL
+ALE                                           "Twinject 0.15"   ChEMBL
+ALE                                           "Gppe Inh Soln"   ChEMBL
+ALE                                               "Epipen Jr"   ChEMBL
+ALE                                                  Simplene   ChEMBL
+ALE                                          "Epi E Z Pen Jr"   ChEMBL
+ALE                                               Asthmahaler   ChEMBL
 ALE                                       (−)-(R)-epinephrine DrugBank
 ALE "(−)-3,4-dihydroxy-α-((methylamino)methyl)benzyl alcohol" DrugBank
 ALE                                            (−)-adrenaline DrugBank
@@ -366,30 +363,30 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ALE   C1 -0.618 -0.590 -0.065 ETKDGv2  1
-ALE   C2 -1.122  0.375 -0.858 ETKDGv2  2
-ALE   C3 -2.500  0.879 -0.664 ETKDGv2  3
-ALE   C4 -3.267  0.364  0.327 ETKDGv2  4
-ALE   C5 -2.711 -0.693  1.200 ETKDGv2  5
-ALE   C6 -1.466 -1.143  1.018 ETKDGv2  6
-ALE   O1 -2.947  1.879 -1.532 ETKDGv2  7
-ALE   O2 -4.576  0.783  0.577 ETKDGv2  8
-ALE   O3  0.952 -1.676 -1.528 ETKDGv2  9
-ALE   C9  4.180  0.420  0.397 ETKDGv2 10
-ALE   N1  3.195 -0.584 -0.008 ETKDGv2 11
-ALE   C8  1.843 -0.013  0.024 ETKDGv2 12
-ALE   C7  0.795 -1.109 -0.250 ETKDGv2 13
-ALE   H2 -0.524  0.804 -1.652 ETKDGv2 14
-ALE   H6 -1.081 -1.917  1.671 ETKDGv2 15
-ALE   H7  0.973 -1.920  0.489 ETKDGv2 16
-ALE   H1 -3.864  2.300 -1.495 ETKDGv2 17
-ALE   H5 -3.320 -1.105  1.994 ETKDGv2 18
-ALE   HA -5.059  1.494  0.048 ETKDGv2 19
-ALE   H3  0.965 -0.940 -2.194 ETKDGv2 20
-ALE H91C  4.004  0.733  1.449 ETKDGv2 21
-ALE H92C  4.139  1.309 -0.271 ETKDGv2 22
-ALE H93C  5.199 -0.019  0.337 ETKDGv2 23
-ALE   HB  3.414 -0.852 -0.996 ETKDGv2 24
-ALE H81C  1.642  0.418  1.031 ETKDGv2 25
-ALE H82C  1.754  0.803 -0.728 ETKDGv2 26
+ALE   C1  0.532 -0.237  0.579 ETKDGv2  1
+ALE   C2  1.160  0.783 -0.038 ETKDGv2  2
+ALE   C3  2.629  0.755 -0.236 ETKDGv2  3
+ALE   C4  3.343 -0.292  0.202 ETKDGv2  4
+ALE   C5  2.661 -1.416  0.882 ETKDGv2  5
+ALE   C6  1.335 -1.391  1.060 ETKDGv2  6
+ALE   O1  3.268  1.814 -0.877 ETKDGv2  7
+ALE   O2  4.723 -0.321  0.017 ETKDGv2  8
+ALE   O3 -1.332  0.837  1.638 ETKDGv2  9
+ALE   C9 -3.971  0.494  0.155 ETKDGv2 10
+ALE   N1 -3.150 -0.565 -0.436 ETKDGv2 11
+ALE   C8 -1.733 -0.183 -0.558 ETKDGv2 12
+ALE   C7 -0.970 -0.227  0.792 ETKDGv2 13
+ALE   H2  0.602  1.636 -0.402 ETKDGv2 14
+ALE   H6  0.851 -2.221  1.560 ETKDGv2 15
+ALE   H7 -1.253 -1.168  1.309 ETKDGv2 16
+ALE   H1  2.747  2.614 -1.216 ETKDGv2 17
+ALE   H5  3.235 -2.262  1.236 ETKDGv2 18
+ALE   HA  5.280 -1.103  0.340 ETKDGv2 19
+ALE   H3 -1.214  1.685  1.136 ETKDGv2 20
+ALE H91C -5.042  0.249 -0.001 ETKDGv2 21
+ALE H92C -3.773  1.474 -0.332 ETKDGv2 22
+ALE H93C -3.796  0.570  1.249 ETKDGv2 23
+ALE   HB -3.241 -1.431  0.144 ETKDGv2 24
+ALE H81C -1.638  0.816 -1.038 ETKDGv2 25
+ALE H82C -1.255 -0.907 -1.254 ETKDGv2 26
 #

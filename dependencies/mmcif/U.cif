@@ -152,10 +152,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-U  "Create component" 1999-07-08 PDBJ ? ?
-U "Modify descriptor" 2011-06-04 RCSB ? ?
+U  "Create component" 1999-07-08 PDBJ
+U "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   U
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB03685
@@ -201,8 +199,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-U   "Uridine-5'-Monophosphate"   ChEMBL
 U                          UMP   ChEMBL
+U   "Uridine-5'-Monophosphate"   ChEMBL
 U           "5'-uridylic acid" DrugBank
 U                          UMP DrugBank
 U   "Uridine 5'-monophosphate" DrugBank
@@ -388,38 +386,38 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-U    OP3  4.985  2.627  1.165 ETKDGv2  1
-U      P  4.479  1.369  0.153 ETKDGv2  2
-U    OP1  4.503  1.854 -1.280 ETKDGv2  3
-U    OP2  5.540  0.061  0.322 ETKDGv2  4
-U  "O5'"  2.894  0.912  0.587 ETKDGv2  5
-U  "C5'"  2.517 -0.192 -0.202 ETKDGv2  6
-U  "C4'"  1.085 -0.601  0.162 ETKDGv2  7
-U  "O4'"  0.186  0.442 -0.156 ETKDGv2  8
-U  "C3'"  0.621 -1.896 -0.515 ETKDGv2  9
-U  "O3'"  1.219 -2.054 -1.778 ETKDGv2 10
-U  "C2'" -0.863 -1.657 -0.675 ETKDGv2 11
-U  "O2'" -1.588 -2.160  0.425 ETKDGv2 12
-U  "C1'" -0.941 -0.133 -0.784 ETKDGv2 13
-U     N1 -2.205  0.398 -0.238 ETKDGv2 14
-U     C2 -2.323  0.930  1.102 ETKDGv2 15
-U     O2 -1.343  0.927  1.895 ETKDGv2 16
-U     N3 -3.578  1.451  1.544 ETKDGv2 17
-U     C4 -4.705  1.401  0.669 ETKDGv2 18
-U     O4 -5.819  1.852  1.045 ETKDGv2 19
-U     C5 -4.559  0.815 -0.669 ETKDGv2 20
-U     C6 -3.377  0.345 -1.078 ETKDGv2 21
-U   HOP3  4.886  2.267  2.082 ETKDGv2 22
-U   HOP2  5.450 -0.215  1.269 ETKDGv2 23
-U  "H5'"  3.187 -1.059 -0.003 ETKDGv2 24
-U "H5''"  2.549  0.071 -1.284 ETKDGv2 25
-U  "H4'"  1.048 -0.757  1.264 ETKDGv2 26
-U  "H3'"  0.838 -2.780  0.131 ETKDGv2 27
-U "HO3'"  1.055 -2.993 -2.054 ETKDGv2 28
-U  "H2'" -1.255 -2.135 -1.600 ETKDGv2 29
-U "HO2'" -1.214 -1.766  1.255 ETKDGv2 30
-U  "H1'" -0.875  0.142 -1.862 ETKDGv2 31
-U     H3 -3.674  1.851  2.504 ETKDGv2 32
-U     H5 -5.416  0.763 -1.329 ETKDGv2 33
-U     H6 -3.307 -0.082 -2.071 ETKDGv2 34
+U    OP3 -5.548  0.326 -0.296 ETKDGv2  1
+U      P -4.501  1.277  0.634 ETKDGv2  2
+U    OP1 -4.920  2.725  0.523 ETKDGv2  3
+U    OP2 -4.592  0.806  2.259 ETKDGv2  4
+U  "O5'" -2.901  1.121  0.064 ETKDGv2  5
+U  "C5'" -2.514 -0.228  0.187 ETKDGv2  6
+U  "C4'" -1.096 -0.393 -0.372 ETKDGv2  7
+U  "O4'" -0.174  0.343  0.404 ETKDGv2  8
+U  "C3'" -0.628 -1.852 -0.464 ETKDGv2  9
+U  "O3'" -1.206 -2.676  0.523 ETKDGv2 10
+U  "C2'"  0.868 -1.725 -0.265 ETKDGv2 11
+U  "O2'"  1.546 -1.629 -1.498 ETKDGv2 12
+U  "C1'"  0.986 -0.447  0.573 ETKDGv2 13
+U     N1  2.216  0.308  0.265 ETKDGv2 14
+U     C2  2.242  1.436 -0.642 ETKDGv2 15
+U     O2  1.205  1.805 -1.255 ETKDGv2 16
+U     N3  3.471  2.131 -0.863 ETKDGv2 17
+U     C4  4.660  1.677 -0.217 ETKDGv2 18
+U     O4  5.751  2.277 -0.404 ETKDGv2 19
+U     C5  4.605  0.504  0.663 ETKDGv2 20
+U     C6  3.448 -0.130  0.876 ETKDGv2 21
+U   HOP3 -5.381  0.607 -1.231 ETKDGv2 22
+U   HOP2 -4.811 -0.160  2.233 ETKDGv2 23
+U  "H5'" -2.517 -0.533  1.257 ETKDGv2 24
+U "H5''" -3.197 -0.887 -0.396 ETKDGv2 25
+U  "H4'" -1.090  0.033 -1.401 ETKDGv2 26
+U  "H3'" -0.869 -2.279 -1.462 ETKDGv2 27
+U "HO3'" -0.944 -2.327  1.416 ETKDGv2 28
+U  "H2'"  1.277 -2.598  0.290 ETKDGv2 29
+U "HO2'"  1.149 -0.881 -2.016 ETKDGv2 30
+U  "H1'"  1.011 -0.739  1.648 ETKDGv2 31
+U     H3  3.502  2.956 -1.504 ETKDGv2 32
+U     H5  5.508  0.149  1.143 ETKDGv2 33
+U     H6  3.445 -0.994  1.529 ETKDGv2 34
 #

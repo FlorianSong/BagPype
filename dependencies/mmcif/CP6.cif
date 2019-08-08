@@ -144,11 +144,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-CP6     "Create component" 2003-02-07 RCSB ? ?
-CP6 "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-CP6    "Modify descriptor" 2011-06-04 RCSB ? ?
+CP6     "Create component" 2003-02-07 RCSB
+CP6 "Modify aromatic_flag" 2011-06-04 RCSB
+CP6    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   CP6
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00205
@@ -184,13 +182,13 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+CP6                                        TCMDC-125860   ChEMBL
 CP6                                        TCMDC-123831   ChEMBL
-CP6                                           Chloridin   ChEMBL
+CP6                                         GNF-Pf-5586   ChEMBL
+CP6                                            Daraprim   ChEMBL
 CP6                                       Pyrimethamine   ChEMBL
 CP6                                            Malacide   ChEMBL
-CP6                                            Daraprim   ChEMBL
-CP6                                        TCMDC-125860   ChEMBL
-CP6                                         GNF-Pf-5586   ChEMBL
+CP6                                           Chloridin   ChEMBL
 CP6    2,4-Diamino-5-(4-chlorophenyl)-6-ethylpyrimidine DrugBank
 CP6    2,4-Diamino-5-(P-chlorophenyl)-6-ethylpyrimidine DrugBank
 CP6        2,4-Diamino-5-chlorophenyl-6-ethylpyrimidine DrugBank
@@ -372,34 +370,34 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CP6   N1 -1.140  2.689  0.866 ETKDGv2  1
-CP6   C2 -2.109  2.538  0.014 ETKDGv2  2
-CP6   C3 -0.063  1.744  0.956 ETKDGv2  3
-CP6   C4 -0.046  0.671  0.133 ETKDGv2  4
-CP6   C5 -1.166  0.518 -0.842 ETKDGv2  5
-CP6   N6 -2.120  1.403 -0.863 ETKDGv2  6
-CP6   C7  1.035 -0.334  0.200 ETKDGv2  7
-CP6   C8  2.005 -0.357 -0.730 ETKDGv2  8
-CP6   C9  3.084 -1.364 -0.652 ETKDGv2  9
-CP6  C10  3.101 -2.254  0.349 ETKDGv2 10
-CP6  C11  2.040 -2.228  1.378 ETKDGv2 11
-CP6  C12  1.061 -1.317  1.310 ETKDGv2 12
-CP6  N13  0.977  1.982  1.913 ETKDGv2 13
-CP6  N14 -3.164  3.495 -0.047 ETKDGv2 14
-CP6  C15 -1.277 -0.677 -1.752 ETKDGv2 15
-CP6  C16 -1.939 -1.847 -1.033 ETKDGv2 16
-CP6  CL1  4.379 -3.452  0.445 ETKDGv2 17
-CP6   H8  2.006  0.359 -1.544 ETKDGv2 18
-CP6   H9  3.857 -1.375 -1.410 ETKDGv2 19
-CP6  H11  2.054 -2.945  2.189 ETKDGv2 20
-CP6  H12  0.286 -1.301  2.065 ETKDGv2 21
-CP6 H131  1.814  1.365  2.001 ETKDGv2 22
-CP6 H132  0.920  2.816  2.538 ETKDGv2 23
-CP6 H141 -3.945  3.374 -0.730 ETKDGv2 24
-CP6 H142 -3.167  4.324  0.588 ETKDGv2 25
-CP6 H151 -1.885 -0.412 -2.644 ETKDGv2 26
-CP6 H152 -0.277 -0.984 -2.122 ETKDGv2 27
-CP6 H161 -2.957 -1.562 -0.690 ETKDGv2 28
-CP6 H162 -2.027 -2.708 -1.729 ETKDGv2 29
-CP6 H163 -1.333 -2.161 -0.158 ETKDGv2 30
+CP6   N1 -1.567  2.540 -0.166 ETKDGv2  1
+CP6   C2 -2.583  1.786 -0.459 ETKDGv2  2
+CP6   C3 -0.261  1.986  0.061 ETKDGv2  3
+CP6   C4 -0.081  0.646 -0.013 ETKDGv2  4
+CP6   C5 -1.267 -0.205 -0.329 ETKDGv2  5
+CP6   N6 -2.417  0.366 -0.555 ETKDGv2  6
+CP6   C7  1.247  0.030  0.192 ETKDGv2  7
+CP6   C8  1.800 -0.016  1.417 ETKDGv2  8
+CP6   C9  3.118 -0.654  1.613 ETKDGv2  9
+CP6  C10  3.764 -1.196  0.571 ETKDGv2 10
+CP6  C11  3.156 -1.156 -0.776 ETKDGv2 11
+CP6  C12  1.963 -0.575 -0.957 ETKDGv2 12
+CP6  N13  0.824  2.885  0.323 ETKDGv2 13
+CP6  N14 -3.864  2.369 -0.685 ETKDGv2 14
+CP6  C15 -1.147 -1.706 -0.471 ETKDGv2 15
+CP6  C16 -2.410 -2.440 -0.022 ETKDGv2 16
+CP6  CL1  5.328 -1.957  0.799 ETKDGv2 17
+CP6   H8  1.286  0.409  2.271 ETKDGv2 18
+CP6   H9  3.556 -0.681  2.603 ETKDGv2 19
+CP6  H11  3.675 -1.596 -1.618 ETKDGv2 20
+CP6  H12  1.521 -0.548 -1.945 ETKDGv2 21
+CP6 H131  1.813  2.565  0.415 ETKDGv2 22
+CP6 H132  0.637  3.910  0.389 ETKDGv2 23
+CP6 H141 -3.997  3.403 -0.618 ETKDGv2 24
+CP6 H142 -4.683  1.765 -0.920 ETKDGv2 25
+CP6 H151 -0.305 -2.087  0.145 ETKDGv2 26
+CP6 H152 -0.938 -1.951 -1.534 ETKDGv2 27
+CP6 H161 -2.653 -2.179  1.031 ETKDGv2 28
+CP6 H162 -3.268 -2.176 -0.676 ETKDGv2 29
+CP6 H163 -2.246 -3.536 -0.087 ETKDGv2 30
 #

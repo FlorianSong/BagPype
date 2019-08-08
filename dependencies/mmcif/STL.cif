@@ -142,10 +142,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-STL  "Create component" 1999-07-08 RCSB ? ?
-STL "Modify descriptor" 2011-06-04 RCSB ? ?
+STL  "Create component" 1999-07-08 RCSB
+STL "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   STL
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB02709
@@ -203,8 +201,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-STL                                                                   "3,5,4'-Trihydroxy-trans-stilbene"   ChEMBL
 STL                                                                                          Resveratrol   ChEMBL
+STL                                                                   "3,5,4'-Trihydroxy-trans-stilbene"   ChEMBL
 STL                                                                                      (E)-resveratrol   ChEMBL
 STL (E)-5-(2-(4-hydroxyphenyl)ethenyl)-1,3-benzenediol(E)-5-(2-(4-hydroxyphenyl)ethenyl)-1,3-benzenediol DrugBank
 STL                                                                                      (E)-resveratrol DrugBank
@@ -375,33 +373,33 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-STL  C1 -3.700 -0.818 -1.200 ETKDGv2  1
-STL  C2 -4.546 -0.308 -0.293 ETKDGv2  2
-STL  C3 -4.022  0.343  0.927 ETKDGv2  3
-STL  C4 -2.700  0.431  1.121 ETKDGv2  4
-STL  C5 -1.750 -0.114  0.118 ETKDGv2  5
-STL  C6 -2.240 -0.723 -0.982 ETKDGv2  6
-STL  C7 -0.297 -0.004  0.401 ETKDGv2  7
-STL  C8  0.654 -0.043 -0.546 ETKDGv2  8
-STL  C9  2.104  0.073 -0.253 ETKDGv2  9
-STL C10  2.991 -0.367 -1.165 ETKDGv2 10
-STL C11  4.444 -0.269 -0.913 ETKDGv2 11
-STL C12  4.896  0.273  0.224 ETKDGv2 12
-STL C13  3.934  0.784  1.225 ETKDGv2 13
-STL C14  2.617  0.695  1.002 ETKDGv2 14
-STL  O1  6.266  0.358  0.454 ETKDGv2 15
-STL  O2 -4.896  0.866  1.877 ETKDGv2 16
-STL  O3 -4.178 -1.441 -2.351 ETKDGv2 17
-STL  H2 -5.616 -0.375 -0.446 ETKDGv2 18
-STL  H4 -2.322  0.911  2.016 ETKDGv2 19
-STL  H6 -1.589 -1.180 -1.713 ETKDGv2 20
-STL  H7 -0.019  0.138  1.435 ETKDGv2 21
-STL  H8  0.372 -0.177 -1.582 ETKDGv2 22
-STL H10  2.656 -0.813 -2.094 ETKDGv2 23
-STL H11  5.140 -0.642 -1.654 ETKDGv2 24
-STL H13  4.297  1.243  2.136 ETKDGv2 25
-STL H14  1.942  1.109  1.738 ETKDGv2 26
-STL HO1  6.631  0.766  1.306 ETKDGv2 27
-STL HO2 -5.900  0.812  1.752 ETKDGv2 28
-STL HO3 -5.170 -1.528 -2.539 ETKDGv2 29
+STL  C1 -4.116 -1.260  0.297 ETKDGv2  1
+STL  C2 -4.660 -0.039  0.237 ETKDGv2  2
+STL  C3 -3.809  1.144  0.002 ETKDGv2  3
+STL  C4 -2.481  0.997 -0.137 ETKDGv2  4
+STL  C5 -1.858 -0.355 -0.052 ETKDGv2  5
+STL  C6 -2.653 -1.424  0.137 ETKDGv2  6
+STL  C7 -0.397 -0.564 -0.206 ETKDGv2  7
+STL  C8  0.514  0.401  0.001 ETKDGv2  8
+STL  C9  1.977  0.206 -0.154 ETKDGv2  9
+STL C10  2.573 -1.002 -0.056 ETKDGv2 10
+STL C11  4.038 -1.127 -0.203 ETKDGv2 11
+STL C12  4.790 -0.041 -0.419 ETKDGv2 12
+STL C13  4.149  1.289 -0.510 ETKDGv2 13
+STL C14  2.822  1.405 -0.381 ETKDGv2 14
+STL  O1  6.170 -0.170 -0.555 ETKDGv2 15
+STL  O2 -4.401  2.403 -0.080 ETKDGv2 16
+STL  O3 -4.930 -2.369  0.510 ETKDGv2 17
+STL  H2 -5.729  0.086  0.354 ETKDGv2 18
+STL  H4 -1.877  1.870 -0.342 ETKDGv2 19
+STL  H6 -2.231 -2.421  0.191 ETKDGv2 20
+STL  H7 -0.070 -1.556 -0.489 ETKDGv2 21
+STL  H8  0.189  1.393  0.279 ETKDGv2 22
+STL H10  2.009 -1.898  0.159 ETKDGv2 23
+STL H11  4.500 -2.103 -0.129 ETKDGv2 24
+STL H13  4.754  2.171 -0.679 ETKDGv2 25
+STL H14  2.365  2.385 -0.450 ETKDGv2 26
+STL HO1  6.759  0.638 -0.719 ETKDGv2 27
+STL HO2 -3.854  3.242 -0.242 ETKDGv2 28
+STL HO3 -4.542 -3.303  0.559 ETKDGv2 29
 #

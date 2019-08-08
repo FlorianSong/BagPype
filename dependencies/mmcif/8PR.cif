@@ -174,10 +174,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-8PR "Create component" 2011-07-11 RCSB EP ?
-8PR  "Initial release" 2012-09-21 RCSB  ? ?
+8PR "Create component" 2011-07-11 RCSB
+8PR  "Initial release" 2012-09-21 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   8PR
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00715
@@ -219,10 +217,10 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 8PR                                                                           Pexeva   ChEMBL
-8PR                                                                        BRL-29060   ChEMBL
+8PR                                                                       Paroxetine   ChEMBL
 8PR                                                                            Paxil   ChEMBL
 8PR                                                       "Paxil [as hydrochloride]"   ChEMBL
-8PR                                                                       Paroxetine   ChEMBL
+8PR                                                                        BRL-29060   ChEMBL
 8PR (−)-(3S,4R)-4-(p-fluorophenyl)-3-((3,4-(methylenedioxy)phenoxy)methyl)piperidine DrugBank
 8PR      (3S-trans)-3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)piperidine DrugBank
 8PR                                                                       Paroxetine DrugBank
@@ -406,48 +404,48 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-8PR  FAA -2.481  4.804  0.946 ETKDGv2  1
-8PR  CAB -2.489  3.218 -0.767 ETKDGv2  2
-8PR  CAC -2.500  2.424  1.536 ETKDGv2  3
-8PR  CAD  3.619 -1.578 -0.286 ETKDGv2  4
-8PR  CAE -2.496  1.809 -1.212 ETKDGv2  5
-8PR  CAF -2.510  1.146  1.139 ETKDGv2  6
-8PR  CAG  5.010 -1.053 -0.198 ETKDGv2  7
-8PR  CAH  2.793  0.744 -0.189 ETKDGv2  8
-8PR  CAI -3.477 -2.919 -0.271 ETKDGv2  9
-8PR  CAJ -3.725 -1.408 -0.256 ETKDGv2 10
-8PR  CAK -1.301 -2.309  0.776 ETKDGv2 11
-8PR  CAL  5.975  2.401  0.040 ETKDGv2 12
-8PR  CAM  0.080 -0.493 -0.367 ETKDGv2 13
-8PR  NAN -2.380 -3.310  0.635 ETKDGv2 14
-8PR  OAO  1.270 -1.277 -0.367 ETKDGv2 15
-8PR  OAP  6.323  1.007 -0.025 ETKDGv2 16
-8PR  OAQ  4.539  2.453 -0.018 ETKDGv2 17
-8PR  CAR -2.490  3.511  0.538 ETKDGv2 18
-8PR  CAS  2.559 -0.735 -0.283 ETKDGv2 19
-8PR  CAT -2.510  0.805 -0.312 ETKDGv2 20
-8PR  CAU  5.160  0.268 -0.116 ETKDGv2 21
-8PR  CAV  4.056  1.163 -0.112 ETKDGv2 22
-8PR  CAW -1.154 -1.409 -0.471 ETKDGv2 23
-8PR  CAX -2.486 -0.646 -0.781 ETKDGv2 24
-8PR  HAB -2.480  4.013 -1.502 ETKDGv2 25
-8PR  HAC -2.499  2.664  2.592 ETKDGv2 26
-8PR  HAD  3.461 -2.647 -0.354 ETKDGv2 27
-8PR  HAE -2.482  1.605 -2.275 ETKDGv2 28
-8PR  HAF -2.514  0.367  1.887 ETKDGv2 29
-8PR  HAG  5.864 -1.717 -0.200 ETKDGv2 30
-8PR  HAH  1.980  1.458 -0.183 ETKDGv2 31
-8PR  HAI -3.253 -3.246 -1.312 ETKDGv2 32
-8PR HAIA -4.405 -3.440  0.050 ETKDGv2 33
-8PR  HAJ -3.978 -1.113  0.785 ETKDGv2 34
-8PR HAJA -4.606 -1.171 -0.891 ETKDGv2 35
-8PR  HAK -1.507 -1.688  1.670 ETKDGv2 36
-8PR HAKA -0.341 -2.836  0.973 ETKDGv2 37
-8PR  HAL  6.412  2.943 -0.825 ETKDGv2 38
-8PR HALA  6.335  2.840  0.994 ETKDGv2 39
-8PR  HAM  0.102  0.194 -1.242 ETKDGv2 40
-8PR HAMA  0.034  0.105  0.569 ETKDGv2 41
-8PR HNAN -1.965 -4.200  0.272 ETKDGv2 42
-8PR  HAW -0.961 -2.093 -1.329 ETKDGv2 43
-8PR  HAX -2.580 -0.652 -1.892 ETKDGv2 44
+8PR  FAA -3.065 -4.095 -2.015 ETKDGv2  1
+8PR  CAB -3.201 -1.792 -1.659 ETKDGv2  2
+8PR  CAC -2.337 -3.186  0.143 ETKDGv2  3
+8PR  CAD  3.669  1.572  0.002 ETKDGv2  4
+8PR  CAE -3.002 -0.613 -0.790 ETKDGv2  5
+8PR  CAF -2.160 -2.122  0.935 ETKDGv2  6
+8PR  CAG  5.034  1.089 -0.342 ETKDGv2  7
+8PR  CAH  2.875 -0.762 -0.097 ETKDGv2  8
+8PR  CAI -3.249  2.807  1.288 ETKDGv2  9
+8PR  CAJ -3.515  1.320  1.562 ETKDGv2 10
+8PR  CAK -1.328  2.280 -0.185 ETKDGv2 11
+8PR  CAL  6.004 -2.321 -0.937 ETKDGv2 12
+8PR  CAM  0.208  0.395  0.592 ETKDGv2 13
+8PR  NAN -2.610  3.000 -0.019 ETKDGv2 14
+8PR  OAO  1.370  1.207  0.445 ETKDGv2 15
+8PR  OAP  6.335 -0.924 -0.847 ETKDGv2 16
+8PR  OAQ  4.597 -2.413 -0.650 ETKDGv2 17
+8PR  CAR -2.885 -3.014 -1.216 ETKDGv2 18
+8PR  CAS  2.636  0.703  0.121 ETKDGv2 19
+8PR  CAT -2.512 -0.757  0.459 ETKDGv2 20
+8PR  CAU  5.191 -0.221 -0.525 ETKDGv2 21
+8PR  CAV  4.115 -1.143 -0.403 ETKDGv2 22
+8PR  CAW -1.005  1.273  0.948 ETKDGv2 23
+8PR  CAX -2.250  0.439  1.368 ETKDGv2 24
+8PR  HAB -3.601 -1.661 -2.656 ETKDGv2 25
+8PR  HAC -2.076 -4.175  0.497 ETKDGv2 26
+8PR  HAD  3.507  2.632  0.157 ETKDGv2 27
+8PR  HAE -3.263  0.359 -1.180 ETKDGv2 28
+8PR  HAF -1.751 -2.264  1.928 ETKDGv2 29
+8PR  HAG  5.867  1.773 -0.440 ETKDGv2 30
+8PR  HAH  2.084 -1.494 -0.014 ETKDGv2 31
+8PR  HAI -2.610  3.241  2.089 ETKDGv2 32
+8PR HAIA -4.213  3.359  1.309 ETKDGv2 33
+8PR  HAJ -3.884  1.218  2.606 ETKDGv2 34
+8PR HAJA -4.351  0.988  0.908 ETKDGv2 35
+8PR  HAK -1.319  1.756 -1.167 ETKDGv2 36
+8PR HAKA -0.515  3.035 -0.230 ETKDGv2 37
+8PR  HAL  6.209 -2.696 -1.962 ETKDGv2 38
+8PR HALA  6.584 -2.899 -0.189 ETKDGv2 39
+8PR  HAM  0.381 -0.341  1.408 ETKDGv2 40
+8PR HAMA  0.020 -0.154 -0.356 ETKDGv2 41
+8PR HNAN -3.279  2.694 -0.764 ETKDGv2 42
+8PR  HAW -0.702  1.871  1.838 ETKDGv2 43
+8PR  HAX -2.007  0.034  2.377 ETKDGv2 44
 #

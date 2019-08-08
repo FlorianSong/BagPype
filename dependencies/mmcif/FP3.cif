@@ -156,12 +156,10 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-FP3     "Create component" 2010-12-01 RCSB LT ?
-FP3      "Modify synonyms" 2011-02-21 RCSB LT ?
-FP3 "Modify aromatic_flag" 2011-06-04 RCSB  ? ?
-FP3    "Modify descriptor" 2011-06-04 RCSB  ? ?
+FP3     "Create component" 2010-12-01 RCSB
+FP3      "Modify synonyms" 2011-02-21 RCSB
+FP3 "Modify aromatic_flag" 2011-06-04 RCSB
+FP3    "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _software.name              
@@ -348,39 +346,39 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FP3   C1  4.182 -0.146  1.400 ETKDGv2  1
-FP3   C2  4.095 -0.921  0.144 ETKDGv2  2
-FP3   C3  2.925 -1.053 -0.490 ETKDGv2  3
-FP3   C4  1.703 -0.417  0.053 ETKDGv2  4
-FP3   C5  1.779  0.268  1.210 ETKDGv2  5
-FP3   C6  3.071  0.423  1.913 ETKDGv2  6
-FP3   N7  0.455 -0.594 -0.637 ETKDGv2  7
-FP3   C8  0.299  4.020 -0.810 ETKDGv2  8
-FP3   N9 -1.072  4.488 -0.769 ETKDGv2  9
-FP3  C10 -2.082  3.664 -0.668 ETKDGv2 10
-FP3  C11 -1.804  2.224 -0.590 ETKDGv2 11
-FP3  C12 -0.565  1.780 -0.599 ETKDGv2 12
-FP3  C13  0.573  2.705 -0.736 ETKDGv2 13
-FP3  O14 -2.712  1.178 -0.531 ETKDGv2 14
-FP3  C15 -1.944  0.011 -0.512 ETKDGv2 15
-FP3  C16 -0.643  0.324 -0.540 ETKDGv2 16
-FP3  C17 -2.537 -1.336 -0.454 ETKDGv2 17
-FP3  N18 -3.828 -1.471 -0.565 ETKDGv2 18
-FP3  C19 -4.450 -2.764 -0.496 ETKDGv2 19
-FP3  C20 -3.700 -3.853 -0.307 ETKDGv2 20
-FP3  C21 -2.243 -3.687 -0.173 ETKDGv2 21
-FP3  N22 -1.717 -2.500 -0.243 ETKDGv2 22
-FP3  O23  3.095  1.161  3.098 ETKDGv2 23
-FP3  CL1  5.751 -0.002  2.182 ETKDGv2 24
-FP3   H2  4.984 -1.386 -0.264 ETKDGv2 25
-FP3   H3  2.875 -1.623 -1.409 ETKDGv2 26
-FP3   H5  0.893  0.709  1.650 ETKDGv2 27
-FP3  HN7  0.366 -1.400 -1.296 ETKDGv2 28
-FP3   H8  1.104  4.735 -0.909 ETKDGv2 29
-FP3  H10 -3.096  4.038 -0.646 ETKDGv2 30
-FP3  H13  1.592  2.346 -0.783 ETKDGv2 31
-FP3  H19 -5.523 -2.852 -0.596 ETKDGv2 32
-FP3  H20 -4.152 -4.835 -0.251 ETKDGv2 33
-FP3  H21 -1.610 -4.550 -0.014 ETKDGv2 34
-FP3 HO23  3.937  1.314  3.638 ETKDGv2 35
+FP3   C1  4.378 -0.577 -0.269 ETKDGv2  1
+FP3   C2  3.375 -0.232 -1.298 ETKDGv2  2
+FP3   C3  2.081 -0.130 -0.972 ETKDGv2  3
+FP3   C4  1.642 -0.351  0.431 ETKDGv2  4
+FP3   C5  2.555 -0.688  1.357 ETKDGv2  5
+FP3   C6  3.989 -0.798  0.997 ETKDGv2  6
+FP3   N7  0.256 -0.259  0.796 ETKDGv2  7
+FP3   C8  0.468  4.042 -0.873 ETKDGv2  8
+FP3   N9 -0.797  4.425 -1.467 ETKDGv2  9
+FP3  C10 -1.814  3.605 -1.515 ETKDGv2 10
+FP3  C11 -1.655  2.259 -0.951 ETKDGv2 11
+FP3  C12 -0.507  1.883 -0.431 ETKDGv2 12
+FP3  C13  0.634  2.811 -0.354 ETKDGv2 13
+FP3  O14 -2.606  1.254 -0.848 ETKDGv2 14
+FP3  C15 -1.967  0.193 -0.202 ETKDGv2 15
+FP3  C16 -0.695  0.521  0.058 ETKDGv2 16
+FP3  C17 -2.648 -1.077  0.103 ETKDGv2 17
+FP3  N18 -1.989 -2.099  0.572 ETKDGv2 18
+FP3  C19 -2.650 -3.343  0.855 ETKDGv2 19
+FP3  C20 -3.960 -3.466  0.630 ETKDGv2 20
+FP3  C21 -4.692 -2.307  0.092 ETKDGv2 21
+FP3  N22 -4.059 -1.196 -0.149 ETKDGv2 22
+FP3  O23  4.928 -1.130  1.972 ETKDGv2 23
+FP3  CL1  6.069 -0.698 -0.729 ETKDGv2 24
+FP3   H2  3.686 -0.069 -2.322 ETKDGv2 25
+FP3   H3  1.358  0.104 -1.742 ETKDGv2 26
+FP3   H5  2.252 -0.869  2.381 ETKDGv2 27
+FP3  HN7 -0.073 -0.751  1.657 ETKDGv2 28
+FP3   H8  1.281  4.756 -0.840 ETKDGv2 29
+FP3  H10 -2.750  3.917 -1.958 ETKDGv2 30
+FP3  H13  1.569  2.523  0.106 ETKDGv2 31
+FP3  H19 -2.083 -4.176  1.248 ETKDGv2 32
+FP3  H20 -4.474 -4.396  0.837 ETKDGv2 33
+FP3  H21 -5.753 -2.377 -0.103 ETKDGv2 34
+FP3 HO23  4.652 -1.300  2.931 ETKDGv2 35
 #

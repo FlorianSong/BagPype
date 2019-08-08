@@ -140,11 +140,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-REF     "Create component" 2008-03-12 PDBJ ? ?
-REF "Modify aromatic_flag" 2011-06-04 RCSB ? ?
-REF    "Modify descriptor" 2011-06-04 RCSB ? ?
+REF     "Create component" 2008-03-12 PDBJ
+REF "Modify aromatic_flag" 2011-06-04 RCSB
+REF    "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   REF
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB08846
@@ -194,8 +192,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-REF                                             "Ellagic Acid"   ChEMBL
 REF                                           "Benzoaric Acid"   ChEMBL
+REF                                             "Ellagic Acid"   ChEMBL
 REF 2,3,7,8-tetrahydroxychromeno[5,4,3-cde]chromene-5,10-dione DrugBank
 REF                                             "Ellagic Acid" DrugBank
 #
@@ -369,32 +367,32 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-REF   C1 -1.156 -1.598 -0.074 ETKDGv2  1
-REF   C2 -0.738 -0.323  0.035 ETKDGv2  2
-REF   C3  0.701  0.009 -0.034 ETKDGv2  3
-REF   C4  1.615 -0.967 -0.208 ETKDGv2  4
-REF   O5  1.207 -2.305 -0.325 ETKDGv2  5
-REF   C6 -0.146 -2.658 -0.264 ETKDGv2  6
-REF   C7  1.125  1.421  0.089 ETKDGv2  7
-REF   C8  2.434  1.725  0.026 ETKDGv2  8
-REF   C9  3.445  0.656 -0.165 ETKDGv2  9
-REF  C10  3.054 -0.628 -0.277 ETKDGv2 10
-REF  C11 -1.717  0.775  0.227 ETKDGv2 11
-REF  O12 -1.270  2.099  0.339 ETKDGv2 12
-REF  C13  0.084  2.455  0.279 ETKDGv2 13
-REF  C14 -2.603 -1.903 -0.001 ETKDGv2 14
-REF  C15 -3.494 -0.916  0.173 ETKDGv2 15
-REF  C16 -3.033  0.492  0.293 ETKDGv2 16
-REF  O19  3.981 -1.656 -0.458 ETKDGv2 17
-REF  O20  4.797  0.988 -0.228 ETKDGv2 18
-REF  O21  0.400  3.670  0.389 ETKDGv2 19
-REF  O22 -3.978  1.504  0.473 ETKDGv2 20
-REF  O23 -4.851 -1.228  0.238 ETKDGv2 21
-REF  O24 -0.484 -3.866 -0.371 ETKDGv2 22
-REF   H8  2.768  2.751  0.114 ETKDGv2 23
-REF  H14 -2.946 -2.926 -0.088 ETKDGv2 24
-REF HO19  4.978 -1.486 -0.512 ETKDGv2 25
-REF HO20  5.107  1.948 -0.146 ETKDGv2 26
-REF HO22 -3.721  2.480  0.561 ETKDGv2 27
-REF HO23 -5.556 -0.513  0.368 ETKDGv2 28
+REF   C1  1.323  1.262  0.515 ETKDGv2  1
+REF   C2  0.776  0.092  0.136 ETKDGv2  2
+REF   C3 -0.678 -0.020 -0.103 ETKDGv2  3
+REF   C4 -1.478  1.054  0.057 ETKDGv2  4
+REF   O5 -0.933  2.285  0.452 ETKDGv2  5
+REF   C6  0.439  2.431  0.687 ETKDGv2  6
+REF   C7 -1.246 -1.319 -0.519 ETKDGv2  7
+REF   C8 -2.568 -1.422 -0.736 ETKDGv2  8
+REF   C9 -3.459 -0.252 -0.564 ETKDGv2  9
+REF  C10 -2.935  0.940 -0.183 ETKDGv2 10
+REF  C11  1.626 -1.109 -0.050 ETKDGv2 11
+REF  O12  1.045 -2.322 -0.445 ETKDGv2 12
+REF  C13 -0.327 -2.470 -0.681 ETKDGv2 13
+REF  C14  2.784  1.346  0.748 ETKDGv2 14
+REF  C15  3.557  0.261  0.581 ETKDGv2 15
+REF  C16  2.954 -1.027  0.163 ETKDGv2 16
+REF  O19 -3.711  2.088 -0.000 ETKDGv2 17
+REF  O20 -4.821 -0.442 -0.810 ETKDGv2 18
+REF  O21 -0.768 -3.596 -1.034 ETKDGv2 19
+REF  O22  3.783 -2.137 -0.002 ETKDGv2 20
+REF  O23  4.933  0.331  0.798 ETKDGv2 21
+REF  O24  0.900  3.548  1.041 ETKDGv2 22
+REF   H8 -3.005 -2.365 -1.041 ETKDGv2 23
+REF  H14  3.228  2.286  1.053 ETKDGv2 24
+REF HO19 -4.711  2.131 -0.134 ETKDGv2 25
+REF HO20 -5.524  0.278 -0.727 ETKDGv2 26
+REF HO22  3.429 -3.043 -0.286 ETKDGv2 27
+REF HO23  5.386  1.192  1.084 ETKDGv2 28
 #

@@ -142,17 +142,15 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-IEL  "Create component" 2008-06-26 RCSB ? ?
-IEL "Modify descriptor" 2011-06-04 RCSB ? ?
+IEL  "Create component" 2008-06-26 RCSB
+IEL "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-IEL SID11113943 ChEMBL
 IEL SID11111335 ChEMBL
+IEL SID11113943 ChEMBL
 #
 loop_
 _software.name              
@@ -271,34 +269,34 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-IEL      O -3.263 -1.913  0.909 ETKDGv2  1
-IEL      C -3.621 -1.104  0.011 ETKDGv2  2
-IEL    OXT -4.430 -1.568 -1.024 ETKDGv2  3
-IEL     CA -3.260  0.363  0.110 ETKDGv2  4
-IEL      N -3.065  0.935 -1.226 ETKDGv2  5
-IEL     CB -2.046  0.635  1.036 ETKDGv2  6
-IEL  "CG'" -0.716  0.062  0.512 ETKDGv2  7
-IEL     CG  0.397  0.221  1.558 ETKDGv2  8
-IEL     CD  1.738 -0.334  1.058 ETKDGv2  9
-IEL     NE  2.315  0.509  0.008 ETKDGv2 10
-IEL     CZ  3.552  0.182 -0.650 ETKDGv2 11
-IEL    NH1  4.021  0.966 -1.568 ETKDGv2 12
-IEL    CH2  4.310 -1.064 -0.301 ETKDGv2 13
-IEL   HOXT -4.795 -0.945 -1.734 ETKDGv2 14
-IEL     HA -4.137  0.871  0.567 ETKDGv2 15
-IEL     HN -2.311  0.415 -1.731 ETKDGv2 16
-IEL    HNA -2.765  1.933 -1.135 ETKDGv2 17
-IEL     HB -2.262  0.215  2.043 ETKDGv2 18
-IEL    HBA -1.934  1.734  1.166 ETKDGv2 19
-IEL  "HG'" -0.836 -1.015  0.270 ETKDGv2 20
-IEL "HG'A" -0.425  0.600 -0.414 ETKDGv2 21
-IEL     HG  0.517  1.292  1.832 ETKDGv2 22
-IEL    HGA  0.110 -0.336  2.477 ETKDGv2 23
-IEL     HD  2.444 -0.377  1.915 ETKDGv2 24
-IEL    HDA  1.592 -1.368  0.675 ETKDGv2 25
-IEL    HNE  1.830  1.395 -0.264 ETKDGv2 26
-IEL   HNH1  3.529  1.843 -1.849 ETKDGv2 27
-IEL    HH2  4.565 -1.061  0.779 ETKDGv2 28
-IEL   HH2A  3.691 -1.956 -0.533 ETKDGv2 29
-IEL   HH2B  5.254 -1.130 -0.884 ETKDGv2 30
+IEL      O -2.635 -1.833  1.032 ETKDGv2  1
+IEL      C -3.073 -0.653  1.106 ETKDGv2  2
+IEL    OXT -3.348 -0.111  2.358 ETKDGv2  3
+IEL     CA -3.247  0.184 -0.139 ETKDGv2  4
+IEL      N -3.534 -0.634 -1.322 ETKDGv2  5
+IEL     CB -2.049  1.126 -0.393 ETKDGv2  6
+IEL  "CG'" -0.668  0.435 -0.476 ETKDGv2  7
+IEL     CG  0.093  0.485  0.861 ETKDGv2  8
+IEL     CD  1.447 -0.232  0.778 ETKDGv2  9
+IEL     NE  2.405  0.511 -0.044 ETKDGv2 10
+IEL     CZ  3.734  0.027 -0.307 ETKDGv2 11
+IEL    NH1  4.545  0.728 -1.035 ETKDGv2 12
+IEL    CH2  4.201 -1.290  0.238 ETKDGv2 13
+IEL   HOXT -3.674  0.843  2.457 ETKDGv2 14
+IEL     HA -4.131  0.838  0.028 ETKDGv2 15
+IEL     HN -4.434 -1.144 -1.163 ETKDGv2 16
+IEL    HNA -2.792 -1.357 -1.458 ETKDGv2 17
+IEL     HB -2.034  1.917  0.390 ETKDGv2 18
+IEL    HBA -2.234  1.655 -1.354 ETKDGv2 19
+IEL  "HG'" -0.766 -0.618 -0.812 ETKDGv2 20
+IEL "HG'A" -0.065  0.963 -1.246 ETKDGv2 21
+IEL     HG  0.252  1.542  1.169 ETKDGv2 22
+IEL    HGA -0.510 -0.008  1.651 ETKDGv2 23
+IEL     HD  1.302 -1.252  0.361 ETKDGv2 24
+IEL    HDA  1.857 -0.332  1.806 ETKDGv2 25
+IEL    HNE  2.131  1.440 -0.439 ETKDGv2 26
+IEL   HNH1  4.265  1.649 -1.441 ETKDGv2 27
+IEL    HH2  4.122 -1.289  1.345 ETKDGv2 28
+IEL   HH2A  5.261 -1.479 -0.037 ETKDGv2 29
+IEL   HH2B  3.579 -2.110 -0.177 ETKDGv2 30
 #

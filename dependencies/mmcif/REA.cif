@@ -183,11 +183,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-REA   "Create component" 1999-07-08 RCSB  ?                                       ?
-REA  "Modify descriptor" 2011-06-04 RCSB  ?                                       ?
-REA "Other modification" 2016-10-18 RCSB CS "add ideal coordinates, add replace ID"
+REA   "Create component" 1999-07-08 RCSB
+REA  "Modify descriptor" 2011-06-04 RCSB
+REA "Other modification" 2016-10-18 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   REA
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00523
@@ -229,16 +227,16 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-REA                                                                                  Retin-a-micro   ChEMBL
-REA                                                                                        Acticin   ChEMBL
-REA                                                                                          Avita   ChEMBL
 REA                                                                                         Renova   ChEMBL
 REA                                                                                "Retin-A Micro"   ChEMBL
-REA                                                                                        Atralin   ChEMBL
-REA                                                                                       Tretin-X   ChEMBL
-REA                                                                                        Retin-A   ChEMBL
-REA                                                                                       Vesanoid   ChEMBL
+REA                                                                                        Acticin   ChEMBL
 REA                                                                                      Tretinoin   ChEMBL
+REA                                                                                        Atralin   ChEMBL
+REA                                                                                       Vesanoid   ChEMBL
+REA                                                                                        Retin-A   ChEMBL
+REA                                                                                  Retin-a-micro   ChEMBL
+REA                                                                                          Avita   ChEMBL
+REA                                                                                       Tretin-X   ChEMBL
 REA "(2E,4E,6Z,8E)-3,7-dimethyl-9-(2,6,6-trimethyl-1-cyclohexen-1-yl)-2,4,6,8-nonatetraenoic acid" DrugBank
 REA                                                                "(7E,9Z,11E,13E)-retinoic acid" DrugBank
 REA                                                                          "9-cis-retinoic acid" DrugBank
@@ -391,54 +389,54 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-REA   C1 -3.531 -0.213  1.096 ETKDGv2  1
-REA   C2 -4.252 -0.062  2.463 ETKDGv2  2
-REA   C3 -3.276 -0.143  3.629 ETKDGv2  3
-REA   C4 -2.263  0.993  3.533 ETKDGv2  4
-REA   C5 -1.651  1.135  2.157 ETKDGv2  5
-REA   C6 -2.212  0.575  1.049 ETKDGv2  6
-REA   C7 -1.530  0.688 -0.263 ETKDGv2  7
-REA   C8 -0.422 -0.013 -0.528 ETKDGv2  8
-REA   C9  0.298  0.071 -1.822 ETKDGv2  9
-REA  C10  1.633 -0.109 -1.812 ETKDGv2 10
-REA  C11  2.495 -0.003 -3.015 ETKDGv2 11
-REA  C12  3.832 -0.079 -2.978 ETKDGv2 12
-REA  C13  4.630 -0.169 -1.734 ETKDGv2 13
-REA  C14  5.533 -1.148 -1.530 ETKDGv2 14
-REA  C15  5.757 -2.316 -2.413 ETKDGv2 15
-REA  C16 -4.494  0.302  0.001 ETKDGv2 16
-REA  C17 -3.231 -1.704  0.824 ETKDGv2 17
-REA  C18 -0.414  1.996  2.054 ETKDGv2 18
-REA  C19 -0.454  0.362 -3.099 ETKDGv2 19
-REA  C20  4.539  0.946 -0.727 ETKDGv2 20
-REA   O1  4.986 -2.572 -3.375 ETKDGv2 21
-REA   O2  6.826 -3.173 -2.165 ETKDGv2 22
-REA  H21 -5.034 -0.845  2.584 ETKDGv2 23
-REA  H22 -4.772  0.921  2.518 ETKDGv2 24
-REA  H31 -2.752 -1.122  3.633 ETKDGv2 25
-REA  H32 -3.835 -0.055  4.586 ETKDGv2 26
-REA  H41 -1.459  0.796  4.275 ETKDGv2 27
-REA  H42 -2.750  1.954  3.806 ETKDGv2 28
-REA   H7 -1.961  1.348 -1.004 ETKDGv2 29
-REA   H8  0.001 -0.631  0.257 ETKDGv2 30
-REA  H10  2.110 -0.333 -0.865 ETKDGv2 31
-REA  H11  2.040  0.107 -3.991 ETKDGv2 32
-REA  H12  4.369 -0.073 -3.919 ETKDGv2 33
-REA  H14  6.146 -1.100 -0.636 ETKDGv2 34
-REA H161 -5.481 -0.204  0.080 ETKDGv2 35
-REA H162 -4.652  1.397  0.105 ETKDGv2 36
-REA H163 -4.095  0.102 -1.016 ETKDGv2 37
-REA H171 -4.158 -2.314  0.897 ETKDGv2 38
-REA H172 -2.813 -1.844 -0.196 ETKDGv2 39
-REA H173 -2.490 -2.101  1.548 ETKDGv2 40
-REA H181  0.457  1.381  1.748 ETKDGv2 41
-REA H182 -0.575  2.808  1.314 ETKDGv2 42
-REA H183 -0.172  2.469  3.029 ETKDGv2 43
-REA H191 -0.222  1.390 -3.448 ETKDGv2 44
-REA H192 -1.551  0.266 -2.960 ETKDGv2 45
-REA H193 -0.182 -0.372 -3.885 ETKDGv2 46
-REA H201  5.518  1.466 -0.654 ETKDGv2 47
-REA H202  4.271  0.536  0.269 ETKDGv2 48
-REA H203  3.773  1.694 -1.021 ETKDGv2 49
-REA  HO2  7.468 -3.009 -1.399 ETKDGv2 50
+REA   C1 -3.397 -0.867  0.937 ETKDGv2  1
+REA   C2 -4.473 -1.880  1.415 ETKDGv2  2
+REA   C3 -3.897 -3.280  1.583 ETKDGv2  3
+REA   C4 -2.800 -3.262  2.642 ETKDGv2  4
+REA   C5 -1.798 -2.146  2.447 ETKDGv2  5
+REA   C6 -2.055 -1.064  1.660 ETKDGv2  6
+REA   C7 -1.004 -0.039  1.448 ETKDGv2  7
+REA   C8  0.070 -0.297  0.691 ETKDGv2  8
+REA   C9  1.122  0.710  0.407 ETKDGv2  9
+REA  C10  1.820  0.587 -0.739 ETKDGv2 10
+REA  C11  2.844  1.553 -1.192 ETKDGv2 11
+REA  C12  3.547  1.329 -2.309 ETKDGv2 12
+REA  C13  4.587  2.269 -2.796 ETKDGv2 13
+REA  C14  4.846  2.437 -4.109 ETKDGv2 14
+REA  C15  4.078  1.842 -5.223 ETKDGv2 15
+REA  C16 -3.171 -1.025 -0.584 ETKDGv2 16
+REA  C17 -3.943  0.553  1.208 ETKDGv2 17
+REA  C18 -0.512 -2.251  3.233 ETKDGv2 18
+REA  C19  1.384  1.838  1.378 ETKDGv2 19
+REA  C20  5.397  3.055 -1.796 ETKDGv2 20
+REA   O1  4.598  1.802 -6.369 ETKDGv2 21
+REA   O2  2.775  1.386 -5.048 ETKDGv2 22
+REA  H21 -4.893 -1.561  2.397 ETKDGv2 23
+REA  H22 -5.324 -1.918  0.700 ETKDGv2 24
+REA  H31 -3.490 -3.654  0.620 ETKDGv2 25
+REA  H32 -4.703 -3.976  1.902 ETKDGv2 26
+REA  H41 -3.256 -3.158  3.651 ETKDGv2 27
+REA  H42 -2.275 -4.241  2.606 ETKDGv2 28
+REA   H7 -1.170  0.951  1.850 ETKDGv2 29
+REA   H8  0.146 -1.271  0.218 ETKDGv2 30
+REA  H10  1.606 -0.254 -1.390 ETKDGv2 31
+REA  H11  3.009  2.467 -0.638 ETKDGv2 32
+REA  H12  3.362  0.422 -2.871 ETKDGv2 33
+REA  H14  5.672  3.078 -4.396 ETKDGv2 34
+REA H161 -4.130 -0.934 -1.138 ETKDGv2 35
+REA H162 -2.484 -0.239 -0.965 ETKDGv2 36
+REA H163 -2.718 -2.010 -0.821 ETKDGv2 37
+REA H171 -3.290  1.332  0.760 ETKDGv2 38
+REA H172 -4.014  0.741  2.301 ETKDGv2 39
+REA H173 -4.956  0.674  0.765 ETKDGv2 40
+REA H181 -0.529 -3.126  3.917 ETKDGv2 41
+REA H182 -0.367 -1.340  3.852 ETKDGv2 42
+REA H183  0.349 -2.374  2.545 ETKDGv2 43
+REA H191  2.474  1.972  1.537 ETKDGv2 44
+REA H192  0.942  2.779  0.988 ETKDGv2 45
+REA H193  0.955  1.621  2.378 ETKDGv2 46
+REA H201  5.501  2.489 -0.846 ETKDGv2 47
+REA H202  4.894  4.023 -1.589 ETKDGv2 48
+REA H203  6.423  3.256 -2.174 ETKDGv2 49
+REA  HO2  2.250  0.999 -5.824 ETKDGv2 50
 #

@@ -125,10 +125,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-AIN  "Create component" 2004-04-08 RCSB ? ?
-AIN "Modify descriptor" 2011-06-04 RCSB ? ?
+AIN  "Create component" 2004-04-08 RCSB
+AIN "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   AIN
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00945
@@ -183,38 +181,38 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-AIN                           Danamep   ChEMBL
-AIN                  "Disprin Direct"   ChEMBL
-AIN                      "Alka Rapid"   ChEMBL
-AIN                       "Aspro Clr"   ChEMBL
-AIN                          Measurin   ChEMBL
+AIN                         Gencardia   ChEMBL
+AIN                           Aspirin   ChEMBL
+AIN                "Acetylsalic Acid"   ChEMBL
 AIN                    "Nu-Seals 600"   ChEMBL
-AIN            "Bayer Extra Strength"   ChEMBL
-AIN                       "Postmi 75"   ChEMBL
-AIN                            Enprin   ChEMBL
-AIN                         Equi-Prin   ChEMBL
-AIN              "Nu-Seals Cardio 75"   ChEMBL
+AIN                           Danamep   ChEMBL
+AIN                            Levius   ChEMBL
 AIN                          Paynocil   ChEMBL
 AIN                           Durlaza   ChEMBL
-AIN                 "Acetosalic Acid"   ChEMBL
-AIN                            Levius   ChEMBL
-AIN                         Gencardia   ChEMBL
-AIN                "Acetylsalic Acid"   ChEMBL
-AIN                            Platet   ChEMBL
-AIN                      "Disprin Cv"   ChEMBL
+AIN            "Bayer Extra Strength"   ChEMBL
+AIN                       "Aspro Clr"   ChEMBL
 AIN          "Salicylic Acid Acetate"   ChEMBL
-AIN            "Acetylsalicylic Acid"   ChEMBL
-AIN                     "Angettes 75"   ChEMBL
-AIN                    "8-Hour Bayer"   ChEMBL
-AIN                           Ecotrin   ChEMBL
-AIN                     "Nu-Seals 75"   ChEMBL
-AIN                      "Postmi 300"   ChEMBL
-AIN             "Max Strgh Aspro Clr"   ChEMBL
-AIN                      "Platet 300"   ChEMBL
+AIN                            Platet   ChEMBL
 AIN                   "Micropirin EC"   ChEMBL
-AIN                    "Nu-Seals 300"   ChEMBL
-AIN                           Aspirin   ChEMBL
+AIN            "Acetylsalicylic Acid"   ChEMBL
+AIN                            Enprin   ChEMBL
+AIN                    "8-Hour Bayer"   ChEMBL
+AIN                          Measurin   ChEMBL
+AIN              "Nu-Seals Cardio 75"   ChEMBL
+AIN                           Ecotrin   ChEMBL
+AIN                      "Platet 300"   ChEMBL
 AIN                "Anadin All Night"   ChEMBL
+AIN                  "Disprin Direct"   ChEMBL
+AIN                      "Alka Rapid"   ChEMBL
+AIN             "Max Strgh Aspro Clr"   ChEMBL
+AIN                 "Acetosalic Acid"   ChEMBL
+AIN                      "Postmi 300"   ChEMBL
+AIN                     "Nu-Seals 75"   ChEMBL
+AIN                     "Angettes 75"   ChEMBL
+AIN                      "Disprin Cv"   ChEMBL
+AIN                    "Nu-Seals 300"   ChEMBL
+AIN                       "Postmi 75"   ChEMBL
+AIN                         Equi-Prin   ChEMBL
 AIN "2-Acetoxybenzenecarboxylic acid" DrugBank
 AIN           "2-Acetoxybenzoic acid" DrugBank
 AIN                  Acetylsalicylate DrugBank
@@ -360,25 +358,25 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AIN  O1 -2.118  2.914 -0.098 ETKDGv2  1
-AIN  C7 -1.131  2.016 -0.504 ETKDGv2  2
-AIN  O2 -0.126  2.463 -1.116 ETKDGv2  3
-AIN  C3 -1.241  0.563 -0.224 ETKDGv2  4
-AIN  C4 -2.451 -0.023 -0.131 ETKDGv2  5
-AIN  C5 -2.568 -1.471  0.125 ETKDGv2  6
-AIN  C6 -1.470 -2.219  0.254 ETKDGv2  7
-AIN  C1 -0.136 -1.599  0.148 ETKDGv2  8
-AIN  C2 -0.012 -0.273 -0.060 ETKDGv2  9
-AIN  O3  1.248  0.339 -0.162 ETKDGv2 10
-AIN  C8  2.408 -0.068  0.512 ETKDGv2 11
-AIN  O4  2.344 -0.832  1.512 ETKDGv2 12
-AIN  C9  3.723  0.506  0.109 ETKDGv2 13
-AIN HO1 -2.903  2.634  0.477 ETKDGv2 14
-AIN  H4 -3.362  0.543 -0.276 ETKDGv2 15
-AIN  H5 -3.547 -1.927  0.198 ETKDGv2 16
-AIN  H6 -1.556 -3.284  0.432 ETKDGv2 17
-AIN  H1  0.734 -2.238  0.215 ETKDGv2 18
-AIN H91  4.532 -0.236  0.279 ETKDGv2 19
-AIN H92  3.929  1.417  0.709 ETKDGv2 20
-AIN H93  3.704  0.775 -0.968 ETKDGv2 21
+AIN  O1 -1.805  2.801  1.461 ETKDGv2  1
+AIN  C7 -0.923  2.085  0.651 ETKDGv2  2
+AIN  O2  0.110  2.666  0.226 ETKDGv2  3
+AIN  C3 -1.177  0.669  0.290 ETKDGv2  4
+AIN  C4 -2.439  0.207  0.193 ETKDGv2  5
+AIN  C5 -2.700 -1.195 -0.186 ETKDGv2  6
+AIN  C6 -1.682 -2.021 -0.439 ETKDGv2  7
+AIN  C1 -0.293 -1.535 -0.339 ETKDGv2  8
+AIN  C2 -0.039 -0.253 -0.006 ETKDGv2  9
+AIN  O3  1.277  0.222  0.128 ETKDGv2 10
+AIN  C8  2.379 -0.216 -0.619 ETKDGv2 11
+AIN  O4  2.224 -0.859 -1.692 ETKDGv2 12
+AIN  C9  3.751  0.185 -0.196 ETKDGv2 13
+AIN HO1 -2.603  2.368  1.908 ETKDGv2 14
+AIN  H4 -3.290  0.855  0.360 ETKDGv2 15
+AIN  H5 -3.719 -1.552 -0.260 ETKDGv2 16
+AIN  H6 -1.873 -3.051 -0.712 ETKDGv2 17
+AIN  H1  0.510 -2.240 -0.501 ETKDGv2 18
+AIN H91  4.030  1.135 -0.699 ETKDGv2 19
+AIN H92  3.779  0.333  0.904 ETKDGv2 20
+AIN H93  4.482 -0.604 -0.470 ETKDGv2 21
 #

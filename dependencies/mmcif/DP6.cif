@@ -146,17 +146,15 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-DP6  "Create component" 2007-02-15 RCSB ? ?
-DP6 "Modify descriptor" 2011-06-04 RCSB ? ?
+DP6  "Create component" 2007-02-15 RCSB
+DP6 "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-DP6      Diphosphomelavonate ChEMBL
 DP6 Mevelonate-5-Diphosphate ChEMBL
+DP6      Diphosphomelavonate ChEMBL
 #
 loop_
 _software.name              
@@ -290,36 +288,36 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DP6  C3A -3.422  0.419 -0.469 ETKDGv2  1
-DP6  O1A  3.166 -0.686  0.828 ETKDGv2  2
-DP6  O2A  2.884 -1.869 -1.480 ETKDGv2  3
-DP6  O3A -2.284 -1.645 -0.811 ETKDGv2  4
-DP6  O1B  2.915  2.810 -1.344 ETKDGv2  5
-DP6  O2B  3.786  2.097  1.026 ETKDGv2  6
-DP6  O3B  5.489  2.953 -0.960 ETKDGv2  7
-DP6   PB  4.058  2.106 -0.646 ETKDGv2  8
-DP6   O6  4.220  0.524 -1.252 ETKDGv2  9
-DP6   PA  2.929 -0.400 -0.639 ETKDGv2 10
-DP6   O5  1.447  0.423 -0.851 ETKDGv2 11
-DP6   C5  0.408 -0.387 -0.357 ETKDGv2 12
-DP6   C4 -0.923  0.352 -0.552 ETKDGv2 13
-DP6   C3 -2.190 -0.432 -0.098 ETKDGv2 14
-DP6   C2 -2.175 -0.682  1.441 ETKDGv2 15
-DP6   C1 -3.408 -1.385  1.934 ETKDGv2 16
-DP6   O1 -4.188 -0.803  2.734 ETKDGv2 17
-DP6   O2 -3.684 -2.683  1.517 ETKDGv2 18
-DP6 H3A1 -4.363 -0.126 -0.243 ETKDGv2 19
-DP6 H3A2 -3.426  0.646 -1.557 ETKDGv2 20
-DP6 H3A3 -3.423  1.378  0.092 ETKDGv2 21
-DP6 HO2A  2.720 -1.613 -2.422 ETKDGv2 22
-DP6 HO3A -1.649 -2.294 -0.413 ETKDGv2 23
-DP6 HO2B  3.762  3.053  1.284 ETKDGv2 24
-DP6 HO3B  6.191  2.447 -0.478 ETKDGv2 25
-DP6  H51  0.561 -0.580  0.727 ETKDGv2 26
-DP6  H52  0.373 -1.347 -0.916 ETKDGv2 27
-DP6  H41 -1.016  0.594 -1.634 ETKDGv2 28
-DP6  H42 -0.871  1.319 -0.003 ETKDGv2 29
-DP6  H21 -2.068  0.290  1.972 ETKDGv2 30
-DP6  H22 -1.307 -1.310  1.727 ETKDGv2 31
-DP6  HO2 -4.511 -3.169  1.844 ETKDGv2 32
+DP6  C3A -2.443 -1.526 -1.024 ETKDGv2  1
+DP6  O1A  2.778 -0.609 -1.050 ETKDGv2  2
+DP6  O2A  2.334  1.807 -0.127 ETKDGv2  3
+DP6  O3A -3.489 -1.237  1.128 ETKDGv2  4
+DP6  O1B  5.038  2.296  0.563 ETKDGv2  5
+DP6  O2B  5.445  0.335 -1.127 ETKDGv2  6
+DP6  O3B  6.680  0.428  1.331 ETKDGv2  7
+DP6   PB  5.260  0.802  0.491 ETKDGv2  8
+DP6   O6  3.961 -0.020  1.226 ETKDGv2  9
+DP6   PA  2.591  0.171  0.233 ETKDGv2 10
+DP6   O5  1.242 -0.447  1.078 ETKDGv2 11
+DP6   C5  0.090 -0.244  0.294 ETKDGv2 12
+DP6   C4 -1.122 -0.816  1.045 ETKDGv2 13
+DP6   C3 -2.482 -0.712  0.291 ETKDGv2 14
+DP6   C2 -2.828  0.774  0.004 ETKDGv2 15
+DP6   C1 -4.251  0.976 -0.433 ETKDGv2 16
+DP6   O1 -4.619  0.629 -1.587 ETKDGv2 17
+DP6   O2 -5.161  1.576  0.432 ETKDGv2 18
+DP6 H3A1 -2.007 -2.533 -0.848 ETKDGv2 19
+DP6 H3A2 -3.469 -1.673 -1.422 ETKDGv2 20
+DP6 H3A3 -1.841 -1.010 -1.801 ETKDGv2 21
+DP6 HO2A  2.147  2.230  0.749 ETKDGv2 22
+DP6 HO3A -3.291 -2.199  1.285 ETKDGv2 23
+DP6 HO2B  5.660 -0.631 -1.088 ETKDGv2 24
+DP6 HO3B  6.729 -0.561  1.317 ETKDGv2 25
+DP6  H51 -0.071  0.844  0.128 ETKDGv2 26
+DP6  H52  0.191 -0.767 -0.681 ETKDGv2 27
+DP6  H41 -1.209 -0.292  2.022 ETKDGv2 28
+DP6  H42 -0.913 -1.885  1.275 ETKDGv2 29
+DP6  H21 -2.161  1.194 -0.779 ETKDGv2 30
+DP6  H22 -2.666  1.369  0.929 ETKDGv2 31
+DP6  HO2 -6.123  1.728  0.151 ETKDGv2 32
 #

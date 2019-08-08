@@ -147,17 +147,15 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-UUL "Create component" 2012-10-17 PDBJ YK ?
-UUL  "Initial release" 2013-05-01 RCSB  ? ?
+UUL "Create component" 2012-10-17 PDBJ
+UUL  "Initial release" 2013-05-01 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-UUL  SID26753202 ChEMBL
 UUL SID103904804 ChEMBL
+UUL  SID26753202 ChEMBL
 UUL  SID29215127 ChEMBL
 #
 loop_
@@ -332,35 +330,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-UUL C16 -3.686  1.816  0.216 ETKDGv2  1
-UUL C19 -5.130  1.529  0.091 ETKDGv2  2
-UUL C12 -5.572  0.265  0.135 ETKDGv2  3
-UUL O20 -6.934  0.003  0.014 ETKDGv2  4
-UUL C18 -4.608 -0.843  0.320 ETKDGv2  5
-UUL C17 -3.299 -0.585  0.429 ETKDGv2  6
-UUL C10 -2.801  0.813  0.350 ETKDGv2  7
-UUL  N6 -1.404  1.111  0.490 ETKDGv2  8
-UUL  C2 -0.360  0.301 -0.064 ETKDGv2  9
-UUL  N1  0.880  0.456  0.271 ETKDGv2 10
-UUL  S4 -0.567 -0.903 -1.360 ETKDGv2 11
-UUL  C5  1.188 -1.196 -1.361 ETKDGv2 12
-UUL  C3  1.779 -0.403 -0.456 ETKDGv2 13
-UUL  C7  3.238 -0.388 -0.174 ETKDGv2 14
-UUL  C8  4.144 -0.905 -1.032 ETKDGv2 15
-UUL C14  5.587 -0.861 -0.717 ETKDGv2 16
-UUL C11  6.011 -0.300  0.421 ETKDGv2 17
-UUL  CL  7.723 -0.244  0.797 ETKDGv2 18
-UUL C13  5.033  0.277  1.364 ETKDGv2 19
-UUL  C9  3.725  0.238  1.084 ETKDGv2 20
-UUL  H1 -3.348  2.844  0.181 ETKDGv2 21
-UUL  H2 -5.828  2.346 -0.039 ETKDGv2 22
-UUL  H3 -7.290 -0.944  0.046 ETKDGv2 23
-UUL  H4 -4.963 -1.864  0.383 ETKDGv2 24
-UUL  H5 -2.610 -1.402  0.601 ETKDGv2 25
-UUL  H6 -1.128  2.000  0.965 ETKDGv2 26
-UUL  H7  1.681 -1.927 -1.986 ETKDGv2 27
-UUL  H8  3.846 -1.343 -1.975 ETKDGv2 28
-UUL  H9  6.297 -1.284 -1.417 ETKDGv2 29
-UUL H10  5.375  0.732  2.285 ETKDGv2 30
-UUL H11  3.023  0.662  1.791 ETKDGv2 31
+UUL C16 -3.834  0.699  1.274 ETKDGv2  1
+UUL C19 -5.243  0.466  0.895 ETKDGv2  2
+UUL C12 -5.552  0.087 -0.355 ETKDGv2  3
+UUL O20 -6.875 -0.139 -0.728 ETKDGv2  4
+UUL C18 -4.476 -0.086 -1.354 ETKDGv2  5
+UUL C17 -3.198  0.119 -1.011 ETKDGv2  6
+UUL C10 -2.849  0.510  0.380 ETKDGv2  7
+UUL  N6 -1.487  0.759  0.758 ETKDGv2  8
+UUL  C2 -0.377 -0.014  0.285 ETKDGv2  9
+UUL  N1  0.848  0.371  0.453 ETKDGv2 10
+UUL  S4 -0.485 -1.636 -0.441 ETKDGv2 11
+UUL  C5  1.291 -1.710 -0.528 ETKDGv2 12
+UUL  C3  1.815 -0.583 -0.026 ETKDGv2 13
+UUL  C7  3.272 -0.308  0.083 ETKDGv2 14
+UUL  C8  4.189 -0.992 -0.633 ETKDGv2 15
+UUL C14  5.628 -0.680 -0.503 ETKDGv2 16
+UUL C11  6.034  0.291  0.323 ETKDGv2 17
+UUL  CL  7.741  0.665  0.478 ETKDGv2 18
+UUL C13  5.041  1.054  1.105 ETKDGv2 19
+UUL  C9  3.737  0.773  0.992 ETKDGv2 20
+UUL  H1 -3.604  1.008  2.286 ETKDGv2 21
+UUL  H2 -6.021  0.603  1.635 ETKDGv2 22
+UUL  H3 -7.641 -0.029 -0.073 ETKDGv2 23
+UUL  H4 -4.725 -0.366 -2.369 ETKDGv2 24
+UUL  H5 -2.426  0.024 -1.763 ETKDGv2 25
+UUL  H6 -1.294  1.502  1.469 ETKDGv2 26
+UUL  H7  1.846 -2.559 -0.903 ETKDGv2 27
+UUL  H8  3.902 -1.766 -1.331 ETKDGv2 28
+UUL  H9  6.349 -1.242 -1.083 ETKDGv2 29
+UUL H10  5.369  1.841  1.772 ETKDGv2 30
+UUL H11  3.025  1.341  1.577 ETKDGv2 31
 #

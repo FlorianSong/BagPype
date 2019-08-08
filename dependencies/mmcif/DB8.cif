@@ -216,10 +216,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-DB8 "Create component" 2011-07-18 RCSB  ? ?
-DB8   "Modify atom id" 2011-08-31 RCSB EP ?
+DB8 "Create component" 2011-07-18 RCSB
+DB8   "Modify atom id" 2011-08-31 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   DB8
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB06616
@@ -262,10 +260,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-DB8                                                                                         "Bosutinib Monohydrate"   ChEMBL
-DB8                                                                                                         SKI-606   ChEMBL
-DB8                                                                                                       Bosutinib   ChEMBL
 DB8                                                                                                         Bosulif   ChEMBL
+DB8                                                                                                         SKI-606   ChEMBL
+DB8                                                                                         "Bosutinib Monohydrate"   ChEMBL
+DB8                                                                                                       Bosutinib   ChEMBL
 DB8 4-((2,4-dichloro-5-methoxyphenyl)amino)-6-methoxy-7-(3-(4-methyl-1-piperazinyl)propoxy)-3-quinolinecarbonitrile DrugBank
 DB8                                                                                                       Bosutinib DrugBank
 #
@@ -499,69 +497,69 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DB8  CAA  2.045 -3.569  0.347 ETKDGv2  1
-DB8  O02  6.195 -0.324  2.843 ETKDGv2  2
-DB8  CAC -4.040  1.126 -0.452 ETKDGv2  3
-DB8  NAD  6.341  2.918 -3.614 ETKDGv2  4
-DB8  CL1  7.924 -2.697  2.681 ETKDGv2  5
-DB8  CL2  6.819 -2.638 -2.651 ETKDGv2  6
-DB8  CAG  5.364  2.592 -3.086 ETKDGv2  7
-DB8  CAH  3.137  3.055 -2.297 ETKDGv2  8
-DB8  CAI  7.255 -2.474 -0.016 ETKDGv2  9
-DB8  CAJ  5.654 -0.196  0.380 ETKDGv2 10
-DB8  CAK  0.530  1.096 -0.455 ETKDGv2 11
-DB8  CAL  2.575 -0.902 -0.761 ETKDGv2 12
-DB8  CAM -2.770  0.262 -0.527 ETKDGv2 13
-DB8  CAN -2.019  0.229  0.811 ETKDGv2 14
-DB8  CAO -9.039  0.153  1.323 ETKDGv2 15
-DB8  CAP -5.544 -0.690  0.229 ETKDGv2 16
-DB8  CAQ -6.032  1.654  0.875 ETKDGv2 17
-DB8  CAR -6.914 -0.922  0.878 ETKDGv2 18
-DB8  CAS -7.332  1.394  0.095 ETKDGv2 19
-DB8  NAT  1.929  2.664 -1.625 ETKDGv2 20
-DB8  NAU  5.111 -0.108 -1.988 ETKDGv2 21
-DB8  OAV  1.144 -2.465  0.381 ETKDGv2 22
-DB8  OAW -0.819 -0.538  0.699 ETKDGv2 23
-DB8  CAX  6.335 -0.829  1.542 ETKDGv2 24
-DB8  CAY  7.100 -1.914  1.341 ETKDGv2 25
-DB8  CAZ  6.634 -1.911 -1.060 ETKDGv2 26
-DB8  CBA  4.148  2.184 -2.429 ETKDGv2 27
-DB8  CBB  5.781 -0.709 -0.860 ETKDGv2 28
-DB8  CBC  1.412 -1.187 -0.138 ETKDGv2 29
-DB8  CBD  0.354 -0.152  0.023 ETKDGv2 30
-DB8  CBE  4.011  0.812 -1.871 ETKDGv2 31
-DB8  CBF  1.773  1.465 -1.145 ETKDGv2 32
-DB8  CBG  2.848  0.458 -1.277 ETKDGv2 33
-DB8  NBH -4.986  0.642  0.579 ETKDGv2 34
-DB8  NBI -7.909  0.058  0.386 ETKDGv2 35
-DB8  C01  5.392  0.801  3.181 ETKDGv2 36
-DB8  HAA  2.275 -3.842 -0.705 ETKDGv2 37
-DB8 HAAA  2.980 -3.315  0.890 ETKDGv2 38
-DB8 HAAB  1.571 -4.439  0.843 ETKDGv2 39
-DB8  HAC -4.530  1.155 -1.451 ETKDGv2 40
-DB8 HACA -3.711  2.163 -0.218 ETKDGv2 41
-DB8  HAH  3.219  4.062 -2.687 ETKDGv2 42
-DB8  HAI  7.869 -3.354 -0.160 ETKDGv2 43
-DB8  HAJ  5.057  0.691  0.538 ETKDGv2 44
-DB8  HAK -0.229  1.856 -0.337 ETKDGv2 45
-DB8  HAL  3.314 -1.676 -0.900 ETKDGv2 46
-DB8  HAM -3.023 -0.774 -0.837 ETKDGv2 47
-DB8 HAMA -2.112  0.683 -1.315 ETKDGv2 48
-DB8  HAN -1.795  1.253  1.180 ETKDGv2 49
-DB8 HANA -2.663 -0.260  1.571 ETKDGv2 50
-DB8  HAO -8.724  0.621  2.282 ETKDGv2 51
-DB8 HAOA -9.455 -0.857  1.529 ETKDGv2 52
-DB8 HAOB -9.854  0.759  0.873 ETKDGv2 53
-DB8  HAP -5.659 -0.808 -0.873 ETKDGv2 54
-DB8 HAPA -4.850 -1.479  0.588 ETKDGv2 55
-DB8  HAQ -6.257  1.622  1.962 ETKDGv2 56
-DB8 HAQA -5.684  2.691  0.668 ETKDGv2 57
-DB8  HAR -6.794 -0.860  1.985 ETKDGv2 58
-DB8 HARA -7.262 -1.947  0.629 ETKDGv2 59
-DB8  HAS -7.109  1.450 -0.992 ETKDGv2 60
-DB8 HASA -8.054  2.214  0.306 ETKDGv2 61
-DB8 HNAU  5.521 -0.240 -2.939 ETKDGv2 62
-DB8  H01  4.333  0.610  2.907 ETKDGv2 63
-DB8 H01A  5.765  1.707  2.658 ETKDGv2 64
-DB8 H01B  5.451  0.974  4.275 ETKDGv2 65
+DB8  CAA -2.291 -2.235 -3.350 ETKDGv2  1
+DB8  O02 -5.200  2.428 -1.489 ETKDGv2  2
+DB8  CAC  3.482  1.199  0.473 ETKDGv2  3
+DB8  NAD -6.261 -1.659  4.404 ETKDGv2  4
+DB8  CL1 -7.278  1.713 -3.443 ETKDGv2  5
+DB8  CL2 -7.399 -3.121 -0.940 ETKDGv2  6
+DB8  CAG -5.257 -1.607  3.830 ETKDGv2  7
+DB8  CAH -2.867 -1.317  3.782 ETKDGv2  8
+DB8  CAI -7.203 -0.677 -2.010 ETKDGv2  9
+DB8  CAJ -5.212  0.232 -0.243 ETKDGv2 10
+DB8  CAK -0.269 -1.272  1.086 ETKDGv2 11
+DB8  CAL -2.619 -1.877 -0.455 ETKDGv2 12
+DB8  CAM  2.218  0.658 -0.207 ETKDGv2 13
+DB8  CAN  2.260 -0.860 -0.425 ETKDGv2 14
+DB8  CAO  8.642  1.870  0.493 ETKDGv2 15
+DB8  CAP  5.498 -0.095 -0.157 ETKDGv2 16
+DB8  CAQ  5.416  2.365 -0.475 ETKDGv2 17
+DB8  CAR  6.823  0.272  0.525 ETKDGv2 18
+DB8  CAS  6.806  2.155 -1.091 ETKDGv2 19
+DB8  NAT -1.620 -1.229  3.075 ETKDGv2 20
+DB8  NAU -5.204 -1.903  0.920 ETKDGv2 21
+DB8  OAV -1.241 -1.951 -2.428 ETKDGv2 22
+DB8  OAW  1.019 -1.330 -0.953 ETKDGv2 23
+DB8  CAX -5.707  1.131 -1.320 ETKDGv2 24
+DB8  CAY -6.661  0.689 -2.155 ETKDGv2 25
+DB8  CAZ -6.750 -1.490 -1.048 ETKDGv2 26
+DB8  CBA -4.008 -1.542  3.114 ETKDGv2 27
+DB8  CBB -5.692 -1.021 -0.112 ETKDGv2 28
+DB8  CBC -1.410 -1.765 -1.045 ETKDGv2 29
+DB8  CBD -0.196 -1.438 -0.250 ETKDGv2 30
+DB8  CBE -3.972 -1.696  1.635 ETKDGv2 31
+DB8  CBF -1.556 -1.380  1.785 ETKDGv2 32
+DB8  CBG -2.779 -1.650  0.999 ETKDGv2 33
+DB8  NBH  4.652  1.097 -0.432 ETKDGv2 34
+DB8  NBI  7.625  1.186 -0.320 ETKDGv2 35
+DB8  C01 -4.170  2.993 -0.685 ETKDGv2 36
+DB8  HAA -2.775 -3.200 -3.094 ETKDGv2 37
+DB8 HAAA -3.040 -1.415 -3.340 ETKDGv2 38
+DB8 HAAB -1.864 -2.313 -4.371 ETKDGv2 39
+DB8  HAC  3.265  2.261  0.732 ETKDGv2 40
+DB8 HACA  3.656  0.683  1.444 ETKDGv2 41
+DB8  HAH -2.872 -1.192  4.859 ETKDGv2 42
+DB8  HAI -7.966 -1.020 -2.697 ETKDGv2 43
+DB8  HAJ -4.462  0.596  0.444 ETKDGv2 44
+DB8  HAK  0.611 -1.055  1.675 ETKDGv2 45
+DB8  HAL -3.482 -2.149 -1.043 ETKDGv2 46
+DB8  HAM  1.345  0.917  0.428 ETKDGv2 47
+DB8 HAMA  2.080  1.166 -1.187 ETKDGv2 48
+DB8  HAN  3.049 -1.090 -1.171 ETKDGv2 49
+DB8 HANA  2.515 -1.402  0.510 ETKDGv2 50
+DB8  HAO  8.171  2.580  1.207 ETKDGv2 51
+DB8 HAOA  9.245  1.128  1.061 ETKDGv2 52
+DB8 HAOB  9.342  2.427 -0.166 ETKDGv2 53
+DB8  HAP  5.726 -0.591 -1.125 ETKDGv2 54
+DB8 HAPA  4.973 -0.854  0.463 ETKDGv2 55
+DB8  HAQ  5.544  2.789  0.547 ETKDGv2 56
+DB8 HAQA  4.858  3.104 -1.089 ETKDGv2 57
+DB8  HAR  6.595  0.729  1.516 ETKDGv2 58
+DB8 HARA  7.404 -0.659  0.704 ETKDGv2 59
+DB8  HAS  6.678  1.762 -2.123 ETKDGv2 60
+DB8 HASA  7.312  3.142 -1.193 ETKDGv2 61
+DB8 HNAU -5.830 -2.664  1.263 ETKDGv2 62
+DB8  H01 -3.953  4.020 -1.043 ETKDGv2 63
+DB8 H01A -4.500  3.048  0.374 ETKDGv2 64
+DB8 H01B -3.245  2.385 -0.767 ETKDGv2 65
 #

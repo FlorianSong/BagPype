@@ -142,11 +142,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MIG  "Create component" 2010-01-14 RCSB  ? ?
-MIG "Modify descriptor" 2011-06-04 RCSB  ? ?
-MIG   "Modify synonyms" 2016-04-12 RCSB SG ?
+MIG  "Create component" 2010-01-14 RCSB
+MIG "Modify descriptor" 2011-06-04 RCSB
+MIG   "Modify synonyms" 2016-04-12 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   MIG
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00491
@@ -183,10 +181,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
+MIG   Miglitol   ChEMBL
 MIG  Diastabol   ChEMBL
 MIG     Glyset   ChEMBL
 MIG BAY-M-1099   ChEMBL
-MIG   Miglitol   ChEMBL
 MIG   Miglitol DrugBank
 #
 loop_
@@ -312,35 +310,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MIG  OAA  2.930 -1.389  0.988 ETKDGv2  1
-MIG  OAB  0.066  3.247 -0.889 ETKDGv2  2
-MIG  OAC -1.916 -2.347  1.618 ETKDGv2  3
-MIG  OAD -3.389  0.045  1.158 ETKDGv2  4
-MIG  OAE -2.122  0.823 -1.262 ETKDGv2  5
-MIG  CAF  2.871 -0.381  0.017 ETKDGv2  6
-MIG  CAG  0.540  1.966 -1.212 ETKDGv2  7
-MIG  CAH  1.797 -0.710 -1.037 ETKDGv2  8
-MIG  CAI -0.018 -1.467  0.428 ETKDGv2  9
-MIG  CAJ -1.541 -1.445  0.609 ETKDGv2 10
-MIG  CAK -1.992 -0.027  1.003 ETKDGv2 11
-MIG  CAL -1.493  1.017 -0.018 ETKDGv2 12
-MIG  CAM  0.046  0.907 -0.191 ETKDGv2 13
-MIG  NAN  0.394 -0.485 -0.599 ETKDGv2 14
-MIG HOAA  3.631 -1.110  1.633 ETKDGv2 15
-MIG HOAB  0.560  3.537 -0.078 ETKDGv2 16
-MIG HOAC -1.857 -3.257  1.224 ETKDGv2 17
-MIG HOAD -3.809 -0.301  0.327 ETKDGv2 18
-MIG HOAE -2.950  1.370 -1.261 ETKDGv2 19
-MIG  HAF  3.855 -0.324 -0.499 ETKDGv2 20
-MIG HAFA  2.689  0.604  0.494 ETKDGv2 21
-MIG  HAG  1.651  1.998 -1.243 ETKDGv2 22
-MIG HAGA  0.183  1.702 -2.230 ETKDGv2 23
-MIG  HAH  1.923 -1.767 -1.358 ETKDGv2 24
-MIG HAHA  1.997 -0.124 -1.959 ETKDGv2 25
-MIG  HAI  0.277 -2.494  0.119 ETKDGv2 26
-MIG HAIA  0.467 -1.243  1.404 ETKDGv2 27
-MIG  HAJ -2.025 -1.733 -0.354 ETKDGv2 28
-MIG  HAK -1.540  0.220  1.990 ETKDGv2 29
-MIG  HAL -1.737  2.029  0.386 ETKDGv2 30
-MIG  HAM  0.512  1.141  0.793 ETKDGv2 31
+MIG  OAA  3.678 -1.270  1.613 ETKDGv2  1
+MIG  OAB  1.118  2.826 -0.596 ETKDGv2  2
+MIG  OAC -0.843 -2.452 -0.351 ETKDGv2  3
+MIG  OAD -2.594  0.596 -1.285 ETKDGv2  4
+MIG  OAE -2.215  1.248  1.380 ETKDGv2  5
+MIG  CAF  2.929 -0.338  0.882 ETKDGv2  6
+MIG  CAG -0.149  2.289 -0.326 ETKDGv2  7
+MIG  CAH  1.598 -0.952  0.443 ETKDGv2  8
+MIG  CAI  0.158 -0.613 -1.543 ETKDGv2  9
+MIG  CAJ -1.141 -1.335 -1.149 ETKDGv2 10
+MIG  CAK -2.093 -0.380 -0.407 ETKDGv2 11
+MIG  CAL -1.378  0.288  0.784 ETKDGv2 12
+MIG  CAM -0.014  0.931  0.398 ETKDGv2 13
+MIG  NAN  0.848  0.014 -0.392 ETKDGv2 14
+MIG HOAA  3.270 -1.315  2.517 ETKDGv2 15
+MIG HOAB  1.474  3.164  0.267 ETKDGv2 16
+MIG HOAC -1.647 -3.034 -0.358 ETKDGv2 17
+MIG HOAD -3.269  0.148 -1.860 ETKDGv2 18
+MIG HOAE -2.935  0.752  1.851 ETKDGv2 19
+MIG  HAF  3.511 -0.047 -0.020 ETKDGv2 20
+MIG HAFA  2.762  0.580  1.488 ETKDGv2 21
+MIG  HAG -0.734  3.005  0.294 ETKDGv2 22
+MIG HAGA -0.686  2.175 -1.288 ETKDGv2 23
+MIG  HAH  1.834 -1.881 -0.123 ETKDGv2 24
+MIG HAHA  1.015 -1.256  1.339 ETKDGv2 25
+MIG  HAI -0.076  0.169 -2.297 ETKDGv2 26
+MIG HAIA  0.836 -1.323 -2.066 ETKDGv2 27
+MIG  HAJ -1.633 -1.681 -2.088 ETKDGv2 28
+MIG  HAK -2.948 -0.972 -0.002 ETKDGv2 29
+MIG  HAL -1.167 -0.506  1.536 ETKDGv2 30
+MIG  HAM  0.492  1.170  1.361 ETKDGv2 31
 #

@@ -100,17 +100,15 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MSM  "Create component" 2004-11-02 RCSB ? ?
-MSM "Modify descriptor" 2011-06-04 RCSB ? ?
+MSM  "Create component" 2004-11-02 RCSB
+MSM "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-MSM    "Dimethyl Sulfide" ChEMBL
 MSM Methylsulfanylmethane ChEMBL
+MSM    "Dimethyl Sulfide" ChEMBL
 #
 loop_
 _software.name              
@@ -192,13 +190,13 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MSM  CB1  1.310  0.142 -0.234 ETKDGv2 1
-MSM  SG1  0.068 -1.165 -0.484 ETKDGv2 2
-MSM  CD1 -1.307 -0.195  0.212 ETKDGv2 3
-MSM HB11  1.394  0.388  0.846 ETKDGv2 4
-MSM HB12  2.294 -0.219 -0.597 ETKDGv2 5
-MSM HB13  1.028  1.051 -0.805 ETKDGv2 6
-MSM HD11 -2.234 -0.802  0.174 ETKDGv2 7
-MSM HD12 -1.093  0.067  1.269 ETKDGv2 8
-MSM HD13 -1.459  0.731 -0.381 ETKDGv2 9
+MSM  CB1 -1.333 -0.065 -0.187 ETKDGv2 1
+MSM  SG1 -0.103 -0.262  1.141 ETKDGv2 2
+MSM  CD1  1.328  0.053  0.061 ETKDGv2 3
+MSM HB11 -2.348 -0.217  0.234 ETKDGv2 4
+MSM HB12 -1.272  0.957 -0.616 ETKDGv2 5
+MSM HB13 -1.159 -0.817 -0.984 ETKDGv2 6
+MSM HD11  1.258  1.069 -0.380 ETKDGv2 7
+MSM HD12  1.371 -0.705 -0.748 ETKDGv2 8
+MSM HD13  2.258 -0.013  0.663 ETKDGv2 9
 #

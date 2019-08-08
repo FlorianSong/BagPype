@@ -135,11 +135,9 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-LPA   "Create component" 1999-07-08 RCSB  ?                                                                                                                                                                                                                                                                   ?
-LPA  "Modify descriptor" 2011-06-04 RCSB  ?                                                                                                                                                                                                                                                                   ?
-LPA "Other modification" 2011-09-08 RCSB CS "Natural Lipoic Acid should be R form, but was originally built as S form from 1HPC that is assumed to use non-natural D,L mixture in crystallization. Update LPA to R form for majority of entries containing LPA, create LPB for S form non-natural compound. CS"
+LPA   "Create component" 1999-07-08 RCSB
+LPA  "Modify descriptor" 2011-06-04 RCSB
+LPA "Other modification" 2011-09-08 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   LPA
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00166
@@ -175,9 +173,9 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-LPA                            Thioctacid   ChEMBL
-LPA                       "Thioctic Acid"   ChEMBL
 LPA                        "Tioctic Acid"   ChEMBL
+LPA                       "Thioctic Acid"   ChEMBL
+LPA                            Thioctacid   ChEMBL
 LPA               "(+)-alpha-Lipoic acid" DrugBank
 LPA                       (R)-(+)-Lipoate DrugBank
 LPA                 "(R)-(+)-lipoic acid" DrugBank
@@ -329,30 +327,30 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-LPA  C1  4.123 -0.291  0.117 ETKDGv2  1
-LPA  O1  4.612  0.933 -0.328 ETKDGv2  2
-LPA  C2  2.797 -0.376  0.810 ETKDGv2  3
-LPA  O2  4.785 -1.340 -0.102 ETKDGv2  4
-LPA  C3  1.660 -0.432 -0.214 ETKDGv2  5
-LPA  C4  0.295 -0.516  0.481 ETKDGv2  6
-LPA  C5 -0.844 -0.560 -0.548 ETKDGv2  7
-LPA  C6 -2.225 -0.783  0.107 ETKDGv2  8
-LPA  S6 -3.473 -1.159 -1.153 ETKDGv2  9
-LPA  C7 -2.751  0.419  0.889 ETKDGv2 10
-LPA  C8 -3.158  1.542 -0.060 ETKDGv2 11
-LPA  S8 -3.693  0.896 -1.681 ETKDGv2 12
-LPA HO1  4.090  1.789 -0.183 ETKDGv2 13
-LPA  H2  2.672  0.513  1.465 ETKDGv2 14
-LPA H2A  2.771 -1.284  1.452 ETKDGv2 15
-LPA  H3  1.692  0.480 -0.851 ETKDGv2 16
-LPA H3A  1.797 -1.323 -0.866 ETKDGv2 17
-LPA  H4  0.262 -1.432  1.111 ETKDGv2 18
-LPA H4A  0.175  0.371  1.138 ETKDGv2 19
-LPA  H5 -0.652 -1.404 -1.247 ETKDGv2 20
-LPA H5A -0.840  0.376 -1.146 ETKDGv2 21
-LPA  H6 -2.163 -1.659  0.788 ETKDGv2 22
-LPA  H7 -3.649  0.097  1.462 ETKDGv2 23
-LPA H7A -2.011  0.785  1.630 ETKDGv2 24
-LPA  H8 -2.292  2.216 -0.227 ETKDGv2 25
-LPA H8A -3.979  2.140  0.389 ETKDGv2 26
+LPA  C1  4.052 -0.528 -0.039 ETKDGv2  1
+LPA  O1  4.711  0.692 -0.150 ETKDGv2  2
+LPA  C2  2.631 -0.567  0.427 ETKDGv2  3
+LPA  O2  4.639 -1.594 -0.368 ETKDGv2  4
+LPA  C3  1.675 -0.380 -0.759 ETKDGv2  5
+LPA  C4  0.198 -0.516 -0.354 ETKDGv2  6
+LPA  C5 -0.329  0.736  0.375 ETKDGv2  7
+LPA  C6 -1.774  0.613  0.903 ETKDGv2  8
+LPA  S6 -1.931 -0.689  2.152 ETKDGv2  9
+LPA  C7 -2.803  0.313 -0.179 ETKDGv2 10
+LPA  C8 -4.175  0.208  0.473 ETKDGv2 11
+LPA  S8 -4.059 -0.502  2.154 ETKDGv2 12
+LPA HO1  5.668  0.738 -0.479 ETKDGv2 13
+LPA  H2  2.484  0.238  1.175 ETKDGv2 14
+LPA H2A  2.434 -1.543  0.924 ETKDGv2 15
+LPA  H3  1.896 -1.162 -1.519 ETKDGv2 16
+LPA H3A  1.848  0.610 -1.235 ETKDGv2 17
+LPA  H4 -0.387 -0.661 -1.287 ETKDGv2 18
+LPA H4A  0.065 -1.424  0.272 ETKDGv2 19
+LPA  H5  0.324  0.969  1.241 ETKDGv2 20
+LPA H5A -0.278  1.605 -0.318 ETKDGv2 21
+LPA  H6 -2.035  1.581  1.385 ETKDGv2 22
+LPA  H7 -2.806  1.114 -0.950 ETKDGv2 23
+LPA H7A -2.578 -0.657 -0.672 ETKDGv2 24
+LPA  H8 -4.621  1.222  0.560 ETKDGv2 25
+LPA H8A -4.848 -0.418 -0.150 ETKDGv2 26
 #

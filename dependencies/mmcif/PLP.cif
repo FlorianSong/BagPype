@@ -135,10 +135,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-PLP  "Create component" 1999-07-08 RCSB ? ?
-PLP "Modify descriptor" 2011-06-04 RCSB ? ?
+PLP  "Create component" 1999-07-08 RCSB
+PLP "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   PLP
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00114
@@ -237,8 +235,8 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-PLP                                                "Pyridoxal Phosphate"   ChEMBL
 PLP                                                "Pyridoxal phosphate"   ChEMBL
+PLP                                                "Pyridoxal Phosphate"   ChEMBL
 PLP 3-hydroxy-2-methyl-5-((phosphonooxy)methyl)-4-pyridinecarboxaldehyde DrugBank
 PLP "3-hydroxy-5-(hydroxymethyl)-2-methylisonicotinaldehyde 5-phosphate" DrugBank
 PLP                                                      Codecarboxylase DrugBank
@@ -399,30 +397,30 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PLP   N1 -1.552  2.011 -0.001 ETKDGv2  1
-PLP   C2 -2.584  1.233  0.135 ETKDGv2  2
-PLP  C2A -3.950  1.835  0.241 ETKDGv2  3
-PLP   C3 -2.410 -0.238  0.119 ETKDGv2  4
-PLP   O3 -3.560 -1.035  0.176 ETKDGv2  5
-PLP   C4 -1.163 -0.760  0.015 ETKDGv2  6
-PLP  C4A -0.968 -2.227 -0.038 ETKDGv2  7
-PLP  O4A -0.119 -2.738 -0.815 ETKDGv2  8
-PLP   C5  0.013  0.172 -0.062 ETKDGv2  9
-PLP   C6 -0.220  1.497 -0.119 ETKDGv2 10
-PLP  C5A  1.434 -0.351 -0.127 ETKDGv2 11
-PLP  O4P  2.339  0.586  0.416 ETKDGv2 12
-PLP    P  3.924 -0.007  0.205 ETKDGv2 13
-PLP  O1P  4.268 -0.045 -1.268 ETKDGv2 14
-PLP  O2P  4.064 -1.561  0.862 ETKDGv2 15
-PLP  O3P  5.005  1.028  0.995 ETKDGv2 16
-PLP H2A1 -4.526  1.614 -0.682 ETKDGv2 17
-PLP H2A2 -4.483  1.408  1.116 ETKDGv2 18
-PLP H2A3 -3.888  2.937  0.369 ETKDGv2 19
-PLP  HO3 -3.557 -2.043  0.088 ETKDGv2 20
-PLP  H4A -1.568 -2.883  0.577 ETKDGv2 21
-PLP   H6  0.593  2.203 -0.226 ETKDGv2 22
-PLP H5A1  1.664 -0.559 -1.197 ETKDGv2 23
-PLP H5A2  1.497 -1.291  0.463 ETKDGv2 24
-PLP HOP2  5.022 -1.793  0.762 ETKDGv2 25
-PLP HOP3  4.722  1.009  1.944 ETKDGv2 26
+PLP   N1 -1.963  1.835 -0.578 ETKDGv2  1
+PLP   C2 -2.770  0.829 -0.419 ETKDGv2  2
+PLP  C2A -4.248  1.065 -0.407 ETKDGv2  3
+PLP   C3 -2.226 -0.534 -0.206 ETKDGv2  4
+PLP   O3 -3.134 -1.573  0.031 ETKDGv2  5
+PLP   C4 -0.883 -0.725 -0.218 ETKDGv2  6
+PLP  C4A -0.317 -2.080 -0.024 ETKDGv2  7
+PLP  O4A  0.743 -2.253  0.632 ETKDGv2  8
+PLP   C5  0.014  0.457 -0.447 ETKDGv2  9
+PLP   C6 -0.539  1.674 -0.588 ETKDGv2 10
+PLP  C5A  1.516  0.326 -0.510 ETKDGv2 11
+PLP  O4P  2.028  0.330  0.802 ETKDGv2 12
+PLP    P  3.721  0.151  0.717 ETKDGv2 13
+PLP  O1P  4.286  0.157  2.119 ETKDGv2 14
+PLP  O2P  4.118 -1.313 -0.035 ETKDGv2 15
+PLP  O3P  4.396  1.436 -0.156 ETKDGv2 16
+PLP H2A1 -4.742  0.394 -1.140 ETKDGv2 17
+PLP H2A2 -4.650  0.858  0.607 ETKDGv2 18
+PLP H2A3 -4.483  2.117 -0.676 ETKDGv2 19
+PLP  HO3 -2.866 -2.515  0.281 ETKDGv2 20
+PLP  H4A -0.818 -2.947 -0.432 ETKDGv2 21
+PLP   H6  0.079  2.551 -0.734 ETKDGv2 22
+PLP H5A1  1.774 -0.614 -1.046 ETKDGv2 23
+PLP H5A2  1.942  1.170 -1.100 ETKDGv2 24
+PLP HOP2  3.664 -2.007  0.507 ETKDGv2 25
+PLP HOP3  5.357  1.211 -0.234 ETKDGv2 26
 #

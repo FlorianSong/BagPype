@@ -177,13 +177,11 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-T27     "Create component" 2007-11-21 PDBJ  ?                                                ?
-T27 "Modify aromatic_flag" 2011-06-04 RCSB  ?                                                ?
-T27    "Modify descriptor" 2011-06-04 RCSB  ?                                                ?
-T27      "Modify synonyms" 2012-07-12 RCSB  ?                                                ?
-T27      "Modify synonyms" 2015-06-09 RCSB SG "the drug was spelt incorrectly as Rilipivirine"
+T27     "Create component" 2007-11-21 PDBJ
+T27 "Modify aromatic_flag" 2011-06-04 RCSB
+T27    "Modify descriptor" 2011-06-04 RCSB
+T27      "Modify synonyms" 2012-07-12 RCSB
+T27      "Modify synonyms" 2015-06-09 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   T27
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB08864
@@ -218,10 +216,10 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-T27                                                                                R-278474   ChEMBL
 T27                                                                                 TMC-278   ChEMBL
-T27                                                                                 Edurant   ChEMBL
+T27                                                                                R-278474   ChEMBL
 T27                                                                             Rilpivirine   ChEMBL
+T27                                                                                 Edurant   ChEMBL
 T27 4-{[4-({4-[(E)-2-cyanovinyl]-2,6-dimethylphenyl}amino)pyrimidin-2-yl]amino}benzonitrile DrugBank
 T27                                                                             Rilpivirine DrugBank
 #
@@ -425,50 +423,50 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-T27  C1  2.277 -1.251  0.707 ETKDGv2  1
-T27  N2 -2.824 -1.201 -1.335 ETKDGv2  2
-T27  C3  4.152  0.342  0.602 ETKDGv2  3
-T27  C4  4.105  0.217 -0.873 ETKDGv2  4
-T27  C5  3.191 -0.565 -1.471 ETKDGv2  5
-T27  C6  2.221 -1.333 -0.643 ETKDGv2  6
-T27  C7  1.342 -2.032  1.591 ETKDGv2  7
-T27  C2  3.265 -0.346  1.345 ETKDGv2  8
-T27  C8  3.162 -0.687 -2.970 ETKDGv2  9
-T27  N1  1.259 -2.177 -1.293 ETKDGv2 10
-T27  C9 -2.443 -2.314 -1.887 ETKDGv2 11
-T27 C10 -1.018 -2.686 -1.885 ETKDGv2 12
-T27 C11 -0.139 -1.856 -1.308 ETKDGv2 13
-T27  N3 -0.608 -0.629 -0.719 ETKDGv2 14
-T27 C12 -1.873 -0.318 -0.713 ETKDGv2 15
-T27  N4 -2.292  0.928 -0.138 ETKDGv2 16
-T27 C13 -6.325  2.040  0.702 ETKDGv2 17
-T27 C14 -5.941  0.765  0.864 ETKDGv2 18
-T27 C15 -4.547  0.368  0.573 ETKDGv2 19
-T27 C16 -3.661  1.277  0.122 ETKDGv2 20
-T27 C17 -4.088  2.688 -0.034 ETKDGv2 21
-T27 C18 -5.349  3.048  0.235 ETKDGv2 22
-T27  N5 -8.770  2.750  1.215 ETKDGv2 23
-T27 C19 -7.680  2.433  0.986 ETKDGv2 24
-T27 C20  5.582  1.194  2.458 ETKDGv2 25
-T27 C21  5.155  1.262  1.192 ETKDGv2 26
-T27  N6  7.372  2.858  3.334 ETKDGv2 27
-T27 C22  6.574  2.116  2.943 ETKDGv2 28
-T27  H4  4.822  0.769 -1.470 ETKDGv2 29
-T27  H7  1.146 -3.041  1.172 ETKDGv2 30
-T27 H7A  0.384 -1.483  1.700 ETKDGv2 31
-T27 H7B  1.784 -2.171  2.600 ETKDGv2 32
-T27  H2  3.239 -0.240  2.420 ETKDGv2 33
-T27  H8  2.121 -0.568 -3.338 ETKDGv2 34
-T27 H8A  3.539 -1.688 -3.266 ETKDGv2 35
-T27 H8B  3.787  0.089 -3.461 ETKDGv2 36
-T27 HN1  1.615 -2.950 -1.900 ETKDGv2 37
-T27  H9 -3.173 -2.965 -2.348 ETKDGv2 38
-T27 H10 -0.698 -3.614 -2.342 ETKDGv2 39
-T27 HN4 -1.563  1.661  0.018 ETKDGv2 40
-T27 H14 -6.641  0.015  1.214 ETKDGv2 41
-T27 H15 -4.251 -0.656  0.758 ETKDGv2 42
-T27 H17 -3.379  3.431 -0.374 ETKDGv2 43
-T27 H18 -5.651  4.081  0.112 ETKDGv2 44
-T27 H20  5.224  0.435  3.139 ETKDGv2 45
-T27 H21  5.597  2.005  0.537 ETKDGv2 46
+T27  C1 -2.491  0.993  0.284 ETKDGv2  1
+T27  N2  1.599 -0.297 -3.377 ETKDGv2  2
+T27  C3 -4.523 -0.172  1.041 ETKDGv2  3
+T27  C4 -3.665 -1.327  1.392 ETKDGv2  4
+T27  C5 -2.340 -1.294  1.172 ETKDGv2  5
+T27  C6 -1.721 -0.078  0.582 ETKDGv2  6
+T27  C7 -1.904  2.252 -0.297 ETKDGv2  7
+T27  C2 -3.957  0.922  0.496 ETKDGv2  8
+T27  C8 -1.479 -2.471  1.539 ETKDGv2  9
+T27  N1 -0.301 -0.049  0.365 ETKDGv2 10
+T27  C9  0.311 -0.465 -3.331 ETKDGv2 11
+T27 C10 -0.397 -0.389 -2.042 ETKDGv2 12
+T27 C11  0.314 -0.129 -0.931 ETKDGv2 13
+T27  N3  1.737  0.047 -1.036 ETKDGv2 14
+T27 C12  2.354 -0.043 -2.180 ETKDGv2 15
+T27  N4  3.770  0.166 -2.271 ETKDGv2 16
+T27 C13  6.450  0.258  1.054 ETKDGv2 17
+T27 C14  6.676  1.025 -0.022 ETKDGv2 18
+T27 C15  5.746  0.985 -1.170 ETKDGv2 19
+T27 C16  4.656  0.199 -1.138 ETKDGv2 20
+T27 C17  4.428 -0.672  0.047 ETKDGv2 21
+T27 C18  5.274 -0.638  1.084 ETKDGv2 22
+T27  N5  8.077  0.319  3.077 ETKDGv2 23
+T27 C19  7.352  0.292  2.175 ETKDGv2 24
+T27 C20 -6.816  0.748  1.378 ETKDGv2 25
+T27 C21 -5.985 -0.294  1.268 ETKDGv2 26
+T27  N6 -9.347  0.370  1.811 ETKDGv2 27
+T27 C22 -8.219  0.538  1.618 ETKDGv2 28
+T27  H4 -4.122 -2.206  1.832 ETKDGv2 29
+T27  H7 -1.739  2.120 -1.386 ETKDGv2 30
+T27 H7A -2.590  3.112 -0.146 ETKDGv2 31
+T27 H7B -0.940  2.502  0.196 ETKDGv2 32
+T27  H2 -4.561  1.762  0.182 ETKDGv2 33
+T27  H8 -2.086 -3.363  1.806 ETKDGv2 34
+T27 H8A -0.840 -2.205  2.407 ETKDGv2 35
+T27 H8B -0.830 -2.744  0.681 ETKDGv2 36
+T27 HN1  0.319 -0.064  1.205 ETKDGv2 37
+T27  H9 -0.240 -0.659 -4.242 ETKDGv2 38
+T27 H10 -1.467 -0.548 -2.014 ETKDGv2 39
+T27 HN4  4.164  0.372 -3.217 ETKDGv2 40
+T27 H14  7.538  1.682 -0.064 ETKDGv2 41
+T27 H15  5.945  1.612 -2.030 ETKDGv2 42
+T27 H17  3.594 -1.361  0.070 ETKDGv2 43
+T27 H18  5.102 -1.280  1.939 ETKDGv2 44
+T27 H20 -6.462  1.767  1.322 ETKDGv2 45
+T27 H21 -6.388 -1.294  1.396 ETKDGv2 46
 #

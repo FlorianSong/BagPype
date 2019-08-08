@@ -195,10 +195,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-MTX  "Create component" 1999-07-08  EBI ? ?
-MTX "Modify descriptor" 2011-06-04 RCSB ? ?
+MTX  "Create component" 1999-07-08  EBI
+MTX "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   MTX
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00563
@@ -231,28 +229,28 @@ loop_
 _pdbx_chem_comp_synonyms.comp_id          
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
-MTX                                                                      Mexate-AQ   ChEMBL
-MTX                                                                  "Emtexate PF"   ChEMBL
-MTX                                                                   TCMDC-125858   ChEMBL
-MTX                                                                   TCMDC-125488   ChEMBL
+MTX                                                                         Rasuvo   ChEMBL
+MTX                                                                         Mexate   ChEMBL
 MTX                                                                  "Otrexup pfs"   ChEMBL
-MTX                                                                        Otrexup   ChEMBL
-MTX                                                                   TCMDC-123832   ChEMBL
-MTX                                                                        Ebetrex   ChEMBL
-MTX                                                              Methylaminopterin   ChEMBL
-MTX                                                                        Maxtrex   ChEMBL
-MTX                                                            "Emtexate High-Pot"   ChEMBL
+MTX                                                                     Abitrexate   ChEMBL
 MTX                                                                     Rheumatrex   ChEMBL
-MTX                                                                          Folex   ChEMBL
-MTX                                                                   Methotrexate   ChEMBL
-MTX                                                                         Zlatal   ChEMBL
+MTX                                                                        Maxtrex   ChEMBL
+MTX                                                                   TCMDC-123832   ChEMBL
+MTX                                                                       Metoject   ChEMBL
+MTX                                                                   TCMDC-125488   ChEMBL
+MTX                                                                   TCMDC-125858   ChEMBL
+MTX                                                                        Otrexup   ChEMBL
+MTX                                                                      Mexate-AQ   ChEMBL
+MTX                                                            "Emtexate High-Pot"   ChEMBL
+MTX                                                                        Ebetrex   ChEMBL
 MTX                                                                   Amethopterin   ChEMBL
 MTX                                                                       CL-14377   ChEMBL
-MTX                                                                         Rasuvo   ChEMBL
-MTX                                                                     Abitrexate   ChEMBL
-MTX                                                                       Metoject   ChEMBL
+MTX                                                                   Methotrexate   ChEMBL
+MTX                                                                          Folex   ChEMBL
 MTX                                                                        Trexall   ChEMBL
-MTX                                                                         Mexate   ChEMBL
+MTX                                                                         Zlatal   ChEMBL
+MTX                                                                  "Emtexate PF"   ChEMBL
+MTX                                                              Methylaminopterin   ChEMBL
 MTX                                                  "4-amino-10-methylfolic acid" DrugBank
 MTX                                     "4-amino-N(10)-methylpteroylglutamic acid" DrugBank
 MTX                                                                   Amethopterin DrugBank
@@ -501,59 +499,59 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MTX   N1  6.476  2.752 -0.905 ETKDGv2  1
-MTX   C2  7.751  2.514 -1.029 ETKDGv2  2
-MTX  NA2  8.644  3.571 -1.374 ETKDGv2  3
-MTX   N3  8.260  1.185 -0.818 ETKDGv2  4
-MTX   C4  7.469  0.199 -0.502 ETKDGv2  5
-MTX  NA4  8.010 -1.107 -0.300 ETKDGv2  6
-MTX  C4A  6.020  0.453 -0.357 ETKDGv2  7
-MTX   N5  5.097 -0.593 -0.012 ETKDGv2  8
-MTX   C6  3.823 -0.354  0.126 ETKDGv2  9
-MTX   C7  3.322  1.025 -0.109 ETKDGv2 10
-MTX   N8  4.159  1.970 -0.425 ETKDGv2 11
-MTX  C8A  5.563  1.701 -0.558 ETKDGv2 12
-MTX   C9  2.889 -1.488  0.450 ETKDGv2 13
-MTX  N10  1.839 -1.070  1.393 ETKDGv2 14
-MTX   CM  2.223 -0.727  2.766 ETKDGv2 15
-MTX  C11 -2.322 -1.000  0.302 ETKDGv2 16
-MTX  C12 -1.373 -0.682 -0.597 ETKDGv2 17
-MTX  C13  0.056 -0.707 -0.226 ETKDGv2 18
-MTX  C14  0.441 -1.066  1.015 ETKDGv2 19
-MTX  C15 -0.608 -1.435  2.003 ETKDGv2 20
-MTX  C16 -1.904 -1.407  1.667 ETKDGv2 21
-MTX    C -3.756 -0.966 -0.073 ETKDGv2 22
-MTX    O -4.078 -1.099 -1.285 ETKDGv2 23
-MTX    N -4.774 -0.768  0.928 ETKDGv2 24
-MTX   CA -6.223 -0.828  0.684 ETKDGv2 25
-MTX   CT -6.597 -1.952 -0.253 ETKDGv2 26
-MTX   O1 -7.348 -1.752 -1.246 ETKDGv2 27
-MTX   O2 -6.129 -3.237  0.006 ETKDGv2 28
-MTX   CB -6.793  0.557  0.294 ETKDGv2 29
-MTX   CG -6.139  1.191 -0.948 ETKDGv2 30
-MTX   CD -6.777  2.495 -1.346 ETKDGv2 31
-MTX  OE1 -7.740  2.977 -0.691 ETKDGv2 32
-MTX  OE2 -6.299  3.186 -2.455 ETKDGv2 33
-MTX HN21  9.666  3.384 -1.474 ETKDGv2 34
-MTX HN22  8.286  4.540 -1.530 ETKDGv2 35
-MTX HN41  7.395 -1.911 -0.045 ETKDGv2 36
-MTX HN42  9.035 -1.275 -0.405 ETKDGv2 37
-MTX   H7  2.271  1.258 -0.009 ETKDGv2 38
-MTX  H91  2.457 -1.880 -0.494 ETKDGv2 39
-MTX  H92  3.461 -2.327  0.902 ETKDGv2 40
-MTX  HM1  1.746  0.231  3.063 ETKDGv2 41
-MTX  HM2  1.912 -1.533  3.462 ETKDGv2 42
-MTX  HM3  3.324 -0.607  2.856 ETKDGv2 43
-MTX  H12 -1.639 -0.381 -1.603 ETKDGv2 44
-MTX  H13  0.778 -0.405 -0.971 ETKDGv2 45
-MTX  H15 -0.336 -1.755  2.999 ETKDGv2 46
-MTX  H16 -2.638 -1.717  2.399 ETKDGv2 47
-MTX   HN -4.480 -0.481  1.887 ETKDGv2 48
-MTX   HA -6.705 -1.089  1.652 ETKDGv2 49
-MTX  HO2 -6.371 -4.010 -0.601 ETKDGv2 50
-MTX  HB1 -6.650  1.246  1.156 ETKDGv2 51
-MTX  HB2 -7.889  0.460  0.130 ETKDGv2 52
-MTX  HG1 -5.067  1.392 -0.740 ETKDGv2 53
-MTX  HG2 -6.210  0.497 -1.810 ETKDGv2 54
-MTX HOE2 -5.527  2.826 -3.002 ETKDGv2 55
+MTX   N1  7.324  1.868  0.831 ETKDGv2  1
+MTX   C2  8.557  1.470  0.698 ETKDGv2  2
+MTX  NA2  9.628  2.318  1.108 ETKDGv2  3
+MTX   N3  8.841  0.175  0.139 ETKDGv2  4
+MTX   C4  7.885 -0.621 -0.245 ETKDGv2  5
+MTX  NA4  8.204 -1.900 -0.796 ETKDGv2  6
+MTX  C4A  6.479 -0.185 -0.102 ETKDGv2  7
+MTX   N5  5.380 -1.019 -0.504 ETKDGv2  8
+MTX   C6  4.146 -0.617 -0.385 ETKDGv2  9
+MTX   C7  3.880  0.719  0.206 ETKDGv2 10
+MTX   N8  4.877  1.471  0.573 ETKDGv2 11
+MTX  C8A  6.234  1.028  0.423 ETKDGv2 12
+MTX   C9  3.027 -1.540 -0.784 ETKDGv2 13
+MTX  N10  1.932 -0.809 -1.442 ETKDGv2 14
+MTX   CM  2.178 -0.209 -2.758 ETKDGv2 15
+MTX  C11 -1.999 -0.534  0.284 ETKDGv2 16
+MTX  C12 -0.906 -0.531  1.068 ETKDGv2 17
+MTX  C13  0.445 -0.627  0.478 ETKDGv2 18
+MTX  C14  0.610 -0.737 -0.855 ETKDGv2 19
+MTX  C15 -0.600 -0.758 -1.719 ETKDGv2 20
+MTX  C16 -1.824 -0.666 -1.185 ETKDGv2 21
+MTX    C -3.353 -0.431  0.880 ETKDGv2 22
+MTX    O -3.530 -0.770  2.082 ETKDGv2 23
+MTX    N -4.463  0.060  0.110 ETKDGv2 24
+MTX   CA -5.840  0.002  0.612 ETKDGv2 25
+MTX   CT -6.299 -1.433  0.650 ETKDGv2 26
+MTX   O1 -6.295 -2.125 -0.403 ETKDGv2 27
+MTX   O2 -6.726 -2.011  1.843 ETKDGv2 28
+MTX   CB -6.772  0.858 -0.277 ETKDGv2 29
+MTX   CG -8.202  0.990  0.283 ETKDGv2 30
+MTX   CD -8.313  1.878  1.492 ETKDGv2 31
+MTX  OE1 -7.323  2.533  1.919 ETKDGv2 32
+MTX  OE2 -9.540  1.990  2.136 ETKDGv2 33
+MTX HN21  9.434  3.260  1.516 ETKDGv2 34
+MTX HN22 10.617  2.002  1.004 ETKDGv2 35
+MTX HN41  9.200 -2.198 -0.892 ETKDGv2 36
+MTX HN42  7.454 -2.554 -1.110 ETKDGv2 37
+MTX   H7  2.869  1.082  0.325 ETKDGv2 38
+MTX  H91  3.411 -2.313 -1.485 ETKDGv2 39
+MTX  H92  2.672 -2.085  0.115 ETKDGv2 40
+MTX  HM1  3.264 -0.193 -2.994 ETKDGv2 41
+MTX  HM2  1.806  0.837 -2.771 ETKDGv2 42
+MTX  HM3  1.669 -0.799 -3.547 ETKDGv2 43
+MTX  H12 -0.992 -0.438  2.143 ETKDGv2 44
+MTX  H13  1.294 -0.581  1.146 ETKDGv2 45
+MTX  H15 -0.508 -0.873 -2.790 ETKDGv2 46
+MTX  H16 -2.684 -0.722 -1.839 ETKDGv2 47
+MTX   HN -4.275  0.532 -0.803 ETKDGv2 48
+MTX   HA -5.855  0.423  1.640 ETKDGv2 49
+MTX  HO2 -6.746 -1.484  2.707 ETKDGv2 50
+MTX  HB1 -6.829  0.402 -1.291 ETKDGv2 51
+MTX  HB2 -6.336  1.873 -0.408 ETKDGv2 52
+MTX  HG1 -8.852  1.416 -0.510 ETKDGv2 53
+MTX  HG2 -8.607 -0.013  0.533 ETKDGv2 54
+MTX HOE2 -9.648  2.585  2.949 ETKDGv2 55
 #

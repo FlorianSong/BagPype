@@ -223,10 +223,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type           
 _pdbx_chem_comp_audit.date                  
 _pdbx_chem_comp_audit.processing_site       
-_pdbx_chem_comp_audit.annotator             
-_pdbx_chem_comp_audit.details               
-DM2  "Create component" 1999-07-08 RCSB ? ?
-DM2 "Modify descriptor" 2011-06-04 RCSB ? ?
+DM2  "Create component" 1999-07-08 RCSB
+DM2 "Modify descriptor" 2011-06-04 RCSB
 #
 _pdbe_chem_comp_drugbank_details.comp_id                   DM2
 _pdbe_chem_comp_drugbank_details.drugbank_id               DB00997
@@ -262,11 +260,11 @@ _pdbx_chem_comp_synonyms.comp_id
 _pdbx_chem_comp_synonyms.name             
 _pdbx_chem_comp_synonyms.provenance       
 DM2                                                                                                                                               Adriamycin   ChEMBL
-DM2                                                                                                                                                    Rubex   ChEMBL
 DM2                                                                                                                                              Doxorubicin   ChEMBL
+DM2                                                                                                                                             Adriblastina   ChEMBL
 DM2                                                                                                                                                    Doxil   ChEMBL
 DM2                                                                                                                                      Hydroxydaunorubicin   ChEMBL
-DM2                                                                                                                                             Adriblastina   ChEMBL
+DM2                                                                                                                                                    Rubex   ChEMBL
 DM2         "(1S,3S)-3-glycoloyl-3,5,12-trihydroxy-10-methoxy-6,11-dioxo-1,2,3,4,6,11-hexahydrotetracen-1-yl 3-amino-2,3,6-trideoxy-α-L-lyxo-hexopyranoside" DrugBank
 DM2 (8S-cis)-10-((3-amino-2,3,6-trideoxy-α-L-lyxo-hexopyranosyl)oxy)-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-5,12-naphthacenedione DrugBank
 DM2                                                                                                                                     14-hydroxydaunomycin DrugBank
@@ -498,72 +496,72 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DM2     C1 -6.243  0.464 -2.197 ETKDGv2  1
-DM2     C2 -6.957  1.580 -2.041 ETKDGv2  2
-DM2     C3 -6.464  2.659 -1.171 ETKDGv2  3
-DM2     C4 -5.290  2.533 -0.520 ETKDGv2  4
-DM2     O4 -4.786  3.561  0.297 ETKDGv2  5
-DM2     C5 -4.492  1.276 -0.679 ETKDGv2  6
-DM2     C6 -3.222  1.095  0.066 ETKDGv2  7
-DM2     O6 -3.011  1.776  1.106 ETKDGv2  8
-DM2     C7 -2.263  0.036 -0.342 ETKDGv2  9
-DM2     C8 -0.952  0.054  0.001 ETKDGv2 10
-DM2     O8 -0.359  1.173  0.593 ETKDGv2 11
-DM2     C9 -0.092 -1.136 -0.257 ETKDGv2 12
-DM2    C10  1.358 -1.090  0.216 ETKDGv2 13
-DM2    O10  1.975  0.068 -0.329 ETKDGv2 14
-DM2    C11  2.175 -2.330 -0.202 ETKDGv2 15
-DM2    C12  1.367 -3.623 -0.035 ETKDGv2 16
-DM2    O12  0.927 -3.713  1.301 ETKDGv2 17
-DM2    C13  2.275 -4.818 -0.336 ETKDGv2 18
-DM2    O13  3.228 -5.025  0.400 ETKDGv2 19
-DM2    C14  2.076 -5.738 -1.512 ETKDGv2 20
-DM2    O14  2.481 -5.092 -2.686 ETKDGv2 21
-DM2    C15  0.144 -3.529 -0.978 ETKDGv2 22
-DM2    C16 -0.636 -2.239 -0.831 ETKDGv2 23
-DM2    C17 -2.024 -2.174 -1.381 ETKDGv2 24
-DM2    O17 -2.516 -3.217 -2.173 ETKDGv2 25
-DM2    C18 -2.802 -1.096 -1.135 ETKDGv2 26
-DM2    C19 -4.186 -0.969 -1.673 ETKDGv2 27
-DM2    O19 -4.726 -1.925 -2.292 ETKDGv2 28
-DM2    C20 -4.947  0.292 -1.491 ETKDGv2 29
-DM2    C21 -5.432  4.808  0.536 ETKDGv2 30
-DM2  "C1'"  2.942  0.611  0.553 ETKDGv2 31
-DM2  "C2'"  3.813  1.617 -0.231 ETKDGv2 32
-DM2  "C3'"  4.158  2.857  0.617 ETKDGv2 33
-DM2  "N3'"  5.300  3.573  0.042 ETKDGv2 34
-DM2  "C4'"  4.387  2.487  2.104 ETKDGv2 35
-DM2  "O4'"  5.627  1.847  2.294 ETKDGv2 36
-DM2  "C5'"  3.219  1.599  2.646 ETKDGv2 37
-DM2  "O5'"  2.287  1.264  1.628 ETKDGv2 38
-DM2  "C6'"  2.461  2.313  3.766 ETKDGv2 39
-DM2     H1 -6.622 -0.314 -2.847 ETKDGv2 40
-DM2     H2 -7.900  1.697 -2.559 ETKDGv2 41
-DM2     H3 -7.067  3.551 -1.080 ETKDGv2 42
-DM2    HO8 -0.753  2.104  0.562 ETKDGv2 43
-DM2    H10  1.315 -1.061  1.331 ETKDGv2 44
-DM2   H111  3.096 -2.383  0.418 ETKDGv2 45
-DM2   H112  2.493 -2.226 -1.265 ETKDGv2 46
-DM2   HO12  0.424 -4.563  1.400 ETKDGv2 47
-DM2   H141  1.010 -6.045 -1.585 ETKDGv2 48
-DM2   H142  2.682 -6.662 -1.372 ETKDGv2 49
-DM2   HO14  2.300 -5.727 -3.427 ETKDGv2 50
-DM2   H151  0.461 -3.602 -2.040 ETKDGv2 51
-DM2   H152 -0.527 -4.386 -0.753 ETKDGv2 52
-DM2   HO17 -1.956 -4.005 -2.471 ETKDGv2 53
-DM2   H211 -6.419  4.641  1.017 ETKDGv2 54
-DM2   H212 -4.804  5.416  1.219 ETKDGv2 55
-DM2   H213 -5.558  5.363 -0.417 ETKDGv2 56
-DM2  "H1'"  3.614 -0.199  0.931 ETKDGv2 57
-DM2 "H2'1"  4.741  1.104 -0.565 ETKDGv2 58
-DM2 "H2'2"  3.280  1.958 -1.146 ETKDGv2 59
-DM2  "H3'"  3.277  3.537  0.579 ETKDGv2 60
-DM2 "HN'1"  6.156  2.975  0.094 ETKDGv2 61
-DM2 "HN'2"  5.480  4.430  0.613 ETKDGv2 62
-DM2  "H4'"  4.433  3.444  2.671 ETKDGv2 63
-DM2 "HO4'"  5.614  0.997  1.783 ETKDGv2 64
-DM2  "H5'"  3.626  0.663  3.095 ETKDGv2 65
-DM2 "H6'1"  3.147  2.547  4.608 ETKDGv2 66
-DM2 "H6'2"  1.647  1.660  4.146 ETKDGv2 67
-DM2 "H6'3"  2.012  3.257  3.387 ETKDGv2 68
+DM2     C1  2.982  2.409 -5.148 ETKDGv2  1
+DM2     C2  3.803  1.712 -5.934 ETKDGv2  2
+DM2     C3  4.097  0.302 -5.633 ETKDGv2  3
+DM2     C4  3.537 -0.302 -4.566 ETKDGv2  4
+DM2     O4  3.822 -1.641 -4.243 ETKDGv2  5
+DM2     C5  2.600  0.471 -3.690 ETKDGv2  6
+DM2     C6  1.929 -0.190 -2.543 ETKDGv2  7
+DM2     O6  1.823 -1.446 -2.528 ETKDGv2  8
+DM2     C7  1.278  0.627 -1.486 ETKDGv2  9
+DM2     C8  0.946  0.128 -0.272 ETKDGv2 10
+DM2     O8  1.430 -1.103  0.185 ETKDGv2 11
+DM2     C9  0.085  0.913  0.650 ETKDGv2 12
+DM2    C10 -0.429  0.212  1.900 ETKDGv2 13
+DM2    O10 -1.113 -0.967  1.497 ETKDGv2 14
+DM2    C11 -1.382  1.087  2.735 ETKDGv2 15
+DM2    C12 -0.882  2.539  2.815 ETKDGv2 16
+DM2    O12  0.432  2.580  3.330 ETKDGv2 17
+DM2    C13 -1.822  3.375  3.680 ETKDGv2 18
+DM2    O13 -3.017  3.394  3.423 ETKDGv2 19
+DM2    C14 -1.319  4.208  4.832 ETKDGv2 20
+DM2    O14 -0.417  5.178  4.374 ETKDGv2 21
+DM2    C15 -0.861  3.117  1.389 ETKDGv2 22
+DM2    C16 -0.165  2.219  0.383 ETKDGv2 23
+DM2    C17  0.247  2.791 -0.936 ETKDGv2 24
+DM2    O17 -0.093  4.106 -1.270 ETKDGv2 25
+DM2    C18  0.942  2.036 -1.818 ETKDGv2 26
+DM2    C19  1.427  2.573 -3.120 ETKDGv2 27
+DM2    O19  1.074  3.718 -3.515 ETKDGv2 28
+DM2    C20  2.345  1.773 -3.967 ETKDGv2 29
+DM2    C21  4.693 -2.494 -4.981 ETKDGv2 30
+DM2  "C1'" -1.103 -1.988  2.489 ETKDGv2 31
+DM2  "C2'" -2.514 -2.171  3.099 ETKDGv2 32
+DM2  "C3'" -3.373 -3.210  2.352 ETKDGv2 33
+DM2  "N3'" -3.358 -4.493  3.067 ETKDGv2 34
+DM2  "C4'" -2.894 -3.346  0.894 ETKDGv2 35
+DM2  "O4'" -3.640 -4.320  0.209 ETKDGv2 36
+DM2  "C5'" -1.387 -3.711  0.851 ETKDGv2 37
+DM2  "O5'" -0.610 -3.199  1.934 ETKDGv2 38
+DM2  "C6'" -0.754 -3.339 -0.494 ETKDGv2 39
+DM2     H1  2.785  3.447 -5.385 ETKDGv2 40
+DM2     H2  4.262  2.184 -6.793 ETKDGv2 41
+DM2     H3  4.777 -0.224 -6.287 ETKDGv2 42
+DM2    HO8  2.223 -1.582 -0.220 ETKDGv2 43
+DM2    H10  0.481 -0.012  2.506 ETKDGv2 44
+DM2   H111 -2.394  1.068  2.272 ETKDGv2 45
+DM2   H112 -1.471  0.661  3.759 ETKDGv2 46
+DM2   HO12  0.444  2.072  4.183 ETKDGv2 47
+DM2   H141 -0.807  3.554  5.567 ETKDGv2 48
+DM2   H142 -2.168  4.697  5.362 ETKDGv2 49
+DM2   HO14 -0.955  5.865  3.901 ETKDGv2 50
+DM2   H151 -0.331  4.093  1.437 ETKDGv2 51
+DM2   H152 -1.895  3.302  1.023 ETKDGv2 52
+DM2   HO17 -0.684  4.694 -0.698 ETKDGv2 53
+DM2   H211  4.722 -3.490 -4.494 ETKDGv2 54
+DM2   H212  5.721 -2.074 -4.991 ETKDGv2 55
+DM2   H213  4.319 -2.617 -6.019 ETKDGv2 56
+DM2  "H1'" -0.432 -1.749  3.346 ETKDGv2 57
+DM2 "H2'1" -2.421 -2.463  4.168 ETKDGv2 58
+DM2 "H2'2" -3.044 -1.195  3.092 ETKDGv2 59
+DM2  "H3'" -4.423 -2.842  2.341 ETKDGv2 60
+DM2 "HN'1" -3.990 -5.168  2.580 ETKDGv2 61
+DM2 "HN'2" -2.395 -4.897  3.071 ETKDGv2 62
+DM2  "H4'" -3.043 -2.359  0.392 ETKDGv2 63
+DM2 "HO4'" -4.542 -3.935  0.055 ETKDGv2 64
+DM2  "H5'" -1.317 -4.819  0.923 ETKDGv2 65
+DM2 "H6'1" -1.253 -3.895 -1.315 ETKDGv2 66
+DM2 "H6'2" -0.853 -2.253 -0.698 ETKDGv2 67
+DM2 "H6'3"  0.323 -3.610 -0.493 ETKDGv2 68
 #
