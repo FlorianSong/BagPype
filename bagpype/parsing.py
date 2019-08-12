@@ -612,7 +612,8 @@ def _parse_atom_line(line):
     name = line[12:16].strip()
     PDBnum = int(line[6:11])
     chainID = line[21]
-    res_num = line[22:27].strip()
+    res_num = line[22:26].strip()
+    iCode = line[26:27].strip()
     res_name = line[17:20].strip()# + line[26].strip()
     try:
         bfactor = float(line[60:66])
