@@ -300,7 +300,6 @@ class BioMolecule(object):
             available_letters = sorted( list(set(available_letters) - set(orig_chains)))
             chain_list = [orig_chainname] + available_letters[orig_pos::len(orig_chains)]
 
-            print(chain_list)
             chain_counter = 0
 
             while True:
