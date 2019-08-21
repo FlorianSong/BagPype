@@ -216,9 +216,6 @@ class PDBParser(object):
                         footer.append(line)
                     elif not encountered_ATOM_lines and (line.startswith("ATOM") or line.startswith("HETATM")):
                         encountered_ATOM_lines = True
-
-            print(header)
-            print(footer)
             
             outfile = outfile_template % (i+1)
             MakeMultimer_output = bm.output(self.pdb_filename)
