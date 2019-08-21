@@ -50,7 +50,8 @@ class PDBParser(object):
 
         
     def parse(self, protein,
-              model=1, strip='default', strip_ANISOU=True, strip_LINK=False, 
+              model=1, strip='default', 
+              strip_ANISOU=True, strip_LINK=False, strip_CONECT=True,
               strip_HETATM=False, add_H=None, alternate_location="A", 
               MakeMultimer_number=1, strip_weird_H=[]
               ):
@@ -107,6 +108,13 @@ class PDBParser(object):
         if strip_HETATM and any([l.startswith("HETATM") for l in self.pdb_lines]):
             print("Removing HETATM entries")
             self._strip_HETATM_entries()
+
+
+        # Strip all HETATM entries if wanted
+        if strip_CONECT and any([l.startswith("CONECT") for l in self.pdb_lines]):
+            print("Removing CONECT entries")
+            self._strip_CONECT_entries()
+
 
         # Symmetric subunits are often stored as separate models in bio files
         # if self._check_models():
@@ -269,6 +277,16 @@ class PDBParser(object):
             if not line.startswith("LINK"):
                 out_lines.append(line)
         self.pdb_lines = out_lines
+
+    def _strip_CONECT_entries(self):
+        """Removes CONECT entries.
+        """
+        out_lines = []
+        for line in self.pdb_lines:
+            if not line.startswith("CONECT"):
+                out_lines.append(line)
+        self.pdb_lines = out_lines
+
 
     def _strip_atoms(self, strip):
         """Creates a new PDB file with atoms specified in the dictionary
