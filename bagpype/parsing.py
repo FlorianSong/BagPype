@@ -205,13 +205,21 @@ class PDBParser(object):
 
         for i, bm in enumerate(r.biomolecules):
             header = []
+            footer = []
+
+            encountered_ATOM_lines = False
             with open(self.pdb_filename) as temp_file:
                 for line in temp_file:
-                    if not (line.startswith("ATOM") or line.startswith("HETATM")):
+                    if not encountered_ATOM_lines and not (line.startswith("ATOM") or line.startswith("HETATM")):
                         header.append(line)
-                    else:
-                        break
+                    elif encountered_ATOM_lines and not (line.startswith("ATOM") or line.startswith("HETATM")):
+                        footer.append(line)
+                    elif not encountered_ATOM_lines and (line.startswith("ATOM") or line.startswith("HETATM")):
+                        encountered_ATOM_lines = True
 
+            print(header)
+            print(footer)
+            
             outfile = outfile_template % (i+1)
             MakeMultimer_output = bm.output(self.pdb_filename)
             
@@ -245,7 +253,7 @@ class PDBParser(object):
                                           LINK_line[52:]  )
 
             header[first_LINK_line:last_LINK_line+1] = new_LINK_lines
-            open(outfile, 'w').write("".join(header) + MakeMultimer_output)
+            open(outfile, 'w').write("".join(header) + MakeMultimer_output + "".join(footer))
 
         self.pdb_filename = outfile_template % (MakeMultimer_number)
         # self._MakeMultimer_out = r
