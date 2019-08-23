@@ -105,6 +105,9 @@ def generate_energies_dictionary(AA):
             bond_list1 = parsed_cif[lower_case_aa]['_chem_comp_bond.atom_id_1']
             bond_list2 = parsed_cif[lower_case_aa]['_chem_comp_bond.atom_id_2']
             bond_types = parsed_cif[lower_case_aa]['_chem_comp_bond.value_order']
+            bond_list1 = [bond_list1] if isinstance(bond_list1, str) else bond_list1
+            bond_list2 = [bond_list2] if isinstance(bond_list2, str) else bond_list2
+            bond_types = [bond_types] if isinstance(bond_types, str) else bond_types
         except KeyError:
             print("    Just to check: ", aa, " is a single atom without bonds.")
             continue

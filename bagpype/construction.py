@@ -10,6 +10,9 @@ import itertools
 import pandas as pd
 
 
+class ConstructionError(Exception):
+    pass
+
 #####################################
 #                                   #
 # The following functions deal with #
@@ -448,7 +451,7 @@ class Graph_constructor(object):
         # cov_bonding_partners_ids = [(bond.atom1.id, bond.atom2.id) for bond in covalent_bonds if bond.atom1.id == atom.id or bond.atom2.id == atom.id]
         if len(cov_bonding_partners_ids) > 1:
             raise ValueError("Atom {0} is a hydrogen, but has more than one covalent "
-                             "bonding partner.".format(atom.id))
+                             "bonding partner: {1}.".format(atom.id, cov_bonding_partners_ids))
         elif len(cov_bonding_partners_ids) == 0:
             raise ValueError("Atom {0} is a hydrogen, but has no covalent "
                              "bonding partners.".format(atom.id))
@@ -1576,17 +1579,16 @@ def sec_neighborhood(G, node):
 def within_cov_bonding_distance(atom1, atom2):
     """ Checks distance between two atoms is within covalent
     bonding distance for that pair of elements.  Uses the
-    parameters specified in the distance_cutoffs dict.
+    parameters specified by Pyykkö (doi: 10.1002/chem.200901472).
     """
-    try:
-        cutoff = bagpype.parameters.distance_cutoffs[(atom1.element, atom2.element)]
-    except KeyError:
-        try:
-            cutoff = bagpype.parameters.distance_cutoffs[(atom2.element, atom1.element)]
-        except KeyError:
-            raise KeyError("The distance cutoff between " + atom1.element + 
-                " and " + atom2.element + " does not exist in the parameters. Please add the relevant value.")
-    return True if distance_between_two_atoms(atom1, atom2) < cutoff else False
+
+    cutoff = bagpype.parameters.covalent_radii[atom1.element] + \
+             bagpype.parameters.covalent_radii[atom2.element]
+    
+    return True \
+        if cutoff is not None and \
+           distance_between_two_atoms(atom1, atom2) < min(cutoff, 3.0) \
+    else False
 
 
 def in_third_neighbourhood(G,source_atom, target_atom):
