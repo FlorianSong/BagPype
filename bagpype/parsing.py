@@ -16,7 +16,6 @@ import itertools
 import bagpype.parameters
 import bagpype.settings
 import bagpype.molecules
-# from bagpype.construction import within_cov_bonding_distance
 import bagpype.construction
 
 import dependencies.MakeMultimer

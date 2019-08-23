@@ -12,12 +12,20 @@ import bagpype.parameters
 import shlex
 from CifFile import ReadCif
 
+class MissingEnergyError(Exception):
+    pass
+
+class UnknownResidueError(Exception):
+    pass
+
 def generate_energies_dictionary(AA):
     """
     Input: LIST of amino acids or any residue identifier
     Output: Dictionary of bond energies as required by parsing.py
     """
     final_final_dict = {}
+    
+    AA = [AA] if isinstance(AA, str) else AA
 
     print(("    Generating covalent bond energies for " + ", ".join(AA)))
 
@@ -46,18 +54,12 @@ def generate_energies_dictionary(AA):
     ("C", "O"): 1071,
     }
 
-
-    if type(AA) == "str":
-        AA = [AA]
-
     for aa in AA:
 
         try:
             file = open(bagpype.settings.DEPENDENCIES_ROOT +'/mmcif/' + aa + '.cif', "r")
         except IOError:
-            print(("The residue named " + str(aa) + " was not found in the cif file library of residues. Please add it manually in 'parameters.py'."))
-            continue
-
+            raise UnknownResidueError(("The residue named " + str(aa) + " was not found in the cif file library of residues. Please add it manually in 'parameters.py'."))
 
         ################################
         # Parse corresponding CIF file #
@@ -153,7 +155,7 @@ def generate_energies_dictionary(AA):
                     try:
                         bond_strength = singlebond_energies[lookup_reversed]
                     except KeyError:
-                        raise Exception("Please add the single bond between " + atom1_element + " and " + atom2_element)
+                        raise MissingEnergyError("Please add the single bond between " + atom1_element + " and " + atom2_element)
             elif bond_type == "DOUB":
                 try:
                     bond_strength = doublebond_energies[lookup]
@@ -161,7 +163,7 @@ def generate_energies_dictionary(AA):
                     try:
                         bond_strength = doublebond_energies[lookup_reversed]
                     except KeyError:
-                        raise Exception("Please add the double bond between " + atom1_element + " and " + atom2_element)
+                        raise MissingEnergyError("Please add the double bond between " + atom1_element + " and " + atom2_element)
             elif bond_type == "TRIP":
                 try:
                     bond_strength = triplebond_energies[lookup]
@@ -169,9 +171,9 @@ def generate_energies_dictionary(AA):
                     try:
                         bond_strength = triplebond_energies[lookup_reversed]
                     except KeyError:
-                        raise Exception("Please add the triple bond between " + atom1_element + " and " + atom2_element)
+                        raise MissingEnergyError("Please add the triple bond between " + atom1_element + " and " + atom2_element)
             else:
-                raise Exception("Something went wrong with the bond types!")
+                raise Exception("Something went wrong with the bond types in {}!".format(aa))
 
 
             # Add bond to the dictionary both ways
