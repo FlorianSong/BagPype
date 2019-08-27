@@ -142,6 +142,7 @@ class Graph_constructor(object):
         """
         print("Initialising all possible bonds...")
         self.possible_bonds = nx.Graph()
+        self.possible_bonds.add_nodes_from(self.protein.atoms.id())
 
         # Get coordinates of all atoms as an array
         atom_coords = self.protein.atoms.coordinates()
