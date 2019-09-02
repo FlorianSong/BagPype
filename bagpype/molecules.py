@@ -9,7 +9,6 @@ import warnings
 #                                #
 ##################################
 
-
 class Protein(object):
     """ Stores information about atoms/residues/bonds and 
     an associated network of atoms and bonds.
@@ -26,7 +25,7 @@ class Protein(object):
         # dict for mapping residues to atom ids
         self.residues = []
         self.pdbNum_to_atomID = []
-
+    
     def get_atoms(self, selection):
         """ Returns atoms in specified residues.
 
@@ -38,15 +37,18 @@ class Protein(object):
 
         atoms = AtomList()
         for residue in selection:
-            atoms += AtomList([self.atoms[i] for i in self.residues[residue]])
+            atoms += AtomList([self.atoms[i] 
+                               for i 
+                               in self.residues[residue]])
         if atoms:
             return atoms
         else:
-            warnings.warn("Residue not found.  AtomList is empty", RuntimeWarning)
+            warnings.warn('Residue not found.  AtomList is empty', 
+                          RuntimeWarning)
             return atoms
 
-
 class GNMProtein(object):
+
     def __init__(self, **kwargs):
         self.name = []
         self.pdb_id = []
@@ -54,8 +56,8 @@ class GNMProtein(object):
         self.residues = []
         self.residue_id_map = {}
 
-
 class Residue(object):
+
     def __init__(self, id_, res_name, chain, res_num, coordinates, bfactor):
         self.id_ = id_
         self.res_name = res_name
@@ -64,8 +66,8 @@ class Residue(object):
         self.bfactor = bfactor
         self.xyz = coordinates
 
-
 class ResidueList(object):
+
     def __init__(self):
         self.residues = []
 
@@ -74,10 +76,9 @@ class ResidueList(object):
 
     def id(self):
         return [residue.id_ for residue in self.residues]
-
+    
     def __getitem__(self, idx):
         return self.residues[idx]
-
 
 class AtomList(object):
     """ Create a list of atoms. Provides interface to atoms which allows
@@ -102,9 +103,9 @@ class AtomList(object):
             atoms in the list"""
 
         nAtoms = len(self.atoms)
-        coordinates = np.zeros((nAtoms, 3))
+        coordinates = np.zeros((nAtoms,3))
         for i in range(nAtoms):
-            coordinates[i, :] = self.atoms[i].coordinates()
+            coordinates[i,:] = self.atoms[i].coordinates()
         return coordinates
 
     def append(self, atoms):
@@ -115,7 +116,7 @@ class AtomList(object):
 
     def id(self):
         return [atom.id for atom in self.atoms]
-
+    
     def find_by_PDBnum(self, idx):
         """Returns an AtomList containing atoms whose PDB ID number
         matches those in idx
@@ -126,11 +127,13 @@ class AtomList(object):
           PDB ID numbers of atoms to be found
         """
 
-        atoms = [atom for atom in self.atoms if atom.PDBnum == idx]
+        atoms = [atom 
+                for atom in self.atoms
+                if atom.PDBnum == idx]
         if len(atoms) > 1:
-            IOError("More than one atom has the same PDB number")
+            IOError('More than one atom has the same PDB number')
         elif len(atoms) == 0:
-            IOError("Atom with given PDB number not found")
+            IOError('Atom with given PDB number not found')
         else:
             return atoms[0]
 
@@ -139,7 +142,7 @@ class AtomList(object):
 
     def __getitem__(self, idx):
         if isinstance(idx, int):
-            return self.atoms[idx]
+            return self.atoms[idx] 
         elif isinstance(idx, list):
             return AtomList([self.atoms[i] for i in idx])
         elif isinstance(idx, slice):
@@ -205,25 +208,25 @@ class BondList(object):
         if isinstance(idx, int):
             bond_out = [bond for bond in self.bonds if bond.id == idx]
             if len(bond_out) > 0:
-                IOError("More than one bond in the list has the same ID")
+                IOError('More than one bond in the list has the same ID')
             if len(bond_out) == 0:
-                IOError("No bond found with that id")
-            else:
+                IOError('No bond found with that id')
+            else: 
                 return bond_out[0]
 
         elif isinstance(idx, list):
             return BondList([bond for bond in self.bonds if bond.id in idx])
         else:
-            IOError("Input should be a single integer or a list of integers")
-
+            IOError('Input should be a single integer or a list of integers')
+           
     def __getitem__(self, idx):
         if isinstance(idx, int):
-            return self.bonds[idx]
+            return self.bonds[idx] 
         elif isinstance(idx, list):
             return BondList([self.bonds[i] for i in idx])
         elif isinstance(idx, slice):
             return BondList(self.bonds[idx])
-
+    
     def __len__(self):
         return len(self.bonds)
 
@@ -246,7 +249,7 @@ class BondList(object):
     def __iter__(self):
         return iter(self.bonds)
 
-
+       
 class Atom(object):
     """Create an object representing an atom.
 
@@ -272,9 +275,8 @@ class Atom(object):
       co-ordinates of the atom from the PDB file (x, y, z)
     """
 
-    def __init__(
-        self, id, PDBnum, element, name, chain, res_num, res_name, bfactor, coordinates
-    ):
+    def __init__(self, id, PDBnum, element, name, chain, res_num,
+                 res_name, bfactor, coordinates):
         self.id = id
         self.PDBnum = PDBnum
         self.element = element
@@ -284,19 +286,17 @@ class Atom(object):
         self.res_name = res_name
         self.bfactor = bfactor
         self.xyz = coordinates
-
+        
     def coordinates(self):
         return np.atleast_2d(self.xyz)
 
     def __eq__(self, atom):
-        if (
-            (self.PDBnum == atom.PDBnum)
-            and (self.name == atom.name)
-            and (self.chain == atom.chain)
-            and (self.res_num == atom.res_num)
-            and (self.res_name == atom.res_name)
-            and (np.array_equal(self.xyz, atom.xyz))
-        ):
+        if ((self.PDBnum == atom.PDBnum) and
+            (self.name == atom.name) and
+            (self.chain == atom.chain) and
+            (self.res_num == atom.res_num) and
+            (self.res_name == atom.res_name) and
+            (np.array_equal(self.xyz, atom.xyz))):
             return True
         else:
             return False
@@ -305,12 +305,17 @@ class Atom(object):
         return not self.__eq__(atom)
 
     def __hash__(self):
-        return hash((self.PDBnum, self.name, self.chain, self.res_num, self.res_name))
+        return hash((self.PDBnum, self.name, self.chain, 
+                     self.res_num, self.res_name))
 
     def __repr__(self):
-        output = "<Atom ID: {0}. Atom {1} from residue {2} {3} in chain {4}>".format(
-            self.id, self.name, self.res_name, self.res_num, self.chain
-        )
+        output = ('<Atom ID: {0}. Atom {1} from residue {2} {3} in chain {4}>'
+                  .format(self.id, 
+                          self.name, 
+                          self.res_name, 
+                          self.res_num,
+                          self.chain,
+                          ))
         return output
 
 
@@ -339,17 +344,17 @@ class Bond(object):
         if isinstance(types, list):
             self.bond_type = types
         else:
-            self.bond_type = [types]
-
+            self.bond_type = [types] 
+        
     def add_interaction(self, weight, types):
         """ Adds a new contribution to the bond from 
             a certain type of interation (covalent/hydrogen/
             hydrophobic/electrostatic)
         """
-
+        
         self.weight += weight
         for bond_type in types:
-            # if bond_type not in self.bond_type:
+            #if bond_type not in self.bond_type:
             self.bond_type.append(bond_type)
 
     def __eq__(self, bond):
@@ -357,7 +362,8 @@ class Bond(object):
         the same two atoms.
         """
 
-        if set((self.atom1.id, self.atom2.id)) == set((bond.atom1.id, bond.atom2.id)):
+        if (set((self.atom1.id, self.atom2.id)) == 
+            set((bond.atom1.id, bond.atom2.id))):
             return True
         else:
             return False
@@ -369,7 +375,8 @@ class Bond(object):
         return not self.__eq__(bond)
 
     def __repr__(self):
-        output = "<Bond ID: {0}.  {1} bond between atoms {2} ".format(
-            self.id, self.bond_type, self.atom1.PDBnum
-        ) + "and {0} of strength {1}>".format(self.atom2.PDBnum, self.weight)
+        output = ('<Bond ID: {0}.  {1} bond between atoms {2} '
+                  .format(self.id, self.bond_type, self.atom1.PDBnum) + 
+                  'and {0} of strength {1}>'
+                  .format(self.atom2.PDBnum, self.weight))
         return output

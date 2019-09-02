@@ -4,7 +4,7 @@ import os
 import bagpype
 
 DEPENDENCIES_ROOT = os.path.dirname(os.path.dirname(bagpype.__file__)) + "/dependencies"
-REDUCE = DEPENDENCIES_ROOT + "/reduce"
+REDUCE = DEPENDENCIES_ROOT + '/reduce'
 
 # Names for amino acids you would like automatically removed
 # aa_to_eliminate = ['SOL', 'NA+', 'CL', 'EDO']

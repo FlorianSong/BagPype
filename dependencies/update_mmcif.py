@@ -1,5 +1,5 @@
 import urllib.request
-import os
+import os 
 
 
 url = "ftp://ftp.wwpdb.org/pub/pdb/data/monomers/components.cif"
