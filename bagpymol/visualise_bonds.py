@@ -31,7 +31,7 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
     
     f = open(file_name, 'r')
     reader = csv.reader(f)
-    header = reader.next()
+    header = next(reader)
 
     
 

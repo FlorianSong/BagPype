@@ -1582,9 +1582,14 @@ def within_cov_bonding_distance(atom1, atom2):
     bonding distance for that pair of elements.  Uses the
     parameters specified by Pyykkö (doi: 10.1002/chem.200901472).
     """
-
-    cutoff = bagpype.parameters.covalent_radii[atom1.element] + \
-             bagpype.parameters.covalent_radii[atom2.element]
+    try:
+        cutoff = bagpype.parameters.distance_cutoffs[(atom1.element, atom2.element)]
+    except KeyError:
+        try:
+            cutoff = bagpype.parameters.distance_cutoffs[(atom2.element, atom1.element)]
+        except KeyError:
+            cutoff = bagpype.parameters.covalent_radii[atom1.element] + \
+                     bagpype.parameters.covalent_radii[atom2.element]
     
     return True \
         if cutoff is not None and \
