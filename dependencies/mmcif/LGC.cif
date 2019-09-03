@@ -1,342 +1,131 @@
 data_LGC
-#
-_chem_comp.id                                        LGC
-_chem_comp.name                                      (3S,4R,5R,6S)-3,4,5-TRIHYDROXY-6-(HYDROXYMETHYL)TETRAHYDRO-2H-PYRAN-2-ONE
-_chem_comp.type                                      SACCHARIDE
-_chem_comp.pdbx_type                                 ATOMS
-_chem_comp.formula                                   "C6 H10 O6"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             GLUCONOLACTONE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2000-08-25
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            178.140
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         LGC
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1E6X
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    LGC 
+_chem_comp.name                                  "(3S,4R,5R,6S)-3,4,5-TRIHYDROXY-6-(HYDROXYMETHYL)TETRAHYDRO-2H-PYRAN-2-ONE" 
+_chem_comp.type                                  SACCHARIDE 
+_chem_comp.pdbx_type                             ATOMS 
+_chem_comp.formula                               "C6 H10 O6" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         GLUCONOLACTONE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2000-08-25 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        178.140 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     LGC 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1E6X 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-LGC   C1   C1 C 0 1 N N N 46.845 119.632 53.242  1.461 -0.085 -0.630   C1 LGC  1
-LGC   C2   C2 C 0 1 N N R 47.722 119.044 54.168  0.352 -0.403 -1.610   C2 LGC  2
-LGC   O5   O5 O 0 1 N N N 46.662 120.976 52.890  1.212 -0.283  0.683   O5 LGC  3
-LGC   O1   O1 O 0 1 N N N 45.918 118.964 52.689  2.530  0.330 -1.008   O1 LGC  4
-LGC   O2   O2 O 0 1 N N N 47.203 117.934 54.857  0.679  0.127 -2.895   O2 LGC  5
-LGC   C3   C3 C 0 1 N N S 48.230 120.142 55.127 -0.943  0.237 -1.099   C3 LGC  6
-LGC   O3   O3 O 0 1 N N N 49.411 119.612 55.746 -2.035 -0.168 -1.926   O3 LGC  7
-LGC   C4   C4 C 0 1 N N S 48.578 121.340 54.213 -1.195 -0.215  0.342   C4 LGC  8
-LGC   O4   O4 O 0 1 N N N 49.211 122.398 54.960 -2.414  0.360  0.816   O4 LGC  9
-LGC   C5   C5 C 0 1 N N R 47.215 121.967 53.781 -0.032  0.240  1.229   C5 LGC 10
-LGC   C6   C6 C 0 1 N N N 47.179 123.229 52.881 -0.233 -0.290  2.650   C6 LGC 11
-LGC   O6   O6 O 0 1 N N N 48.014 123.029 51.675  0.855  0.131  3.474   O6 LGC 12
-LGC  HC2  HC2 H 0 1 N N N 48.571 118.609 53.590  0.224 -1.483 -1.681  HC2 LGC 13
-LGC  HO2  HO2 H 0 1 N N N 47.796 117.536 55.483  1.506 -0.290 -3.168  HO2 LGC 14
-LGC  HC3  HC3 H 0 1 N N N 47.504 120.450 55.915 -0.848  1.322 -1.127  HC3 LGC 15
-LGC  HO3  HO3 H 0 1 N N N 49.723 120.287 56.336 -1.834  0.133 -2.822  HO3 LGC 16
-LGC  HC4  HC4 H 0 1 N N N 49.233 120.981 53.385 -1.269 -1.302  0.374  HC4 LGC 17
-LGC  HO4  HO4 H 0 1 N N N 49.424 123.133 54.398 -3.117  0.047  0.230  HO4 LGC 18
-LGC  HC5  HC5 H 0 1 N N N 46.728 122.253 54.742  0.007  1.329  1.248  HC5 LGC 19
-LGC HC61 1HC6 H 0 0 N N N 46.135 123.521 52.619 -0.272 -1.379  2.629 HC61 LGC 20
-LGC HC62 2HC6 H 0 0 N N N 47.473 124.146 53.441 -1.167  0.099  3.054 HC62 LGC 21
-LGC  HO6  HO6 H 0 1 N N N 47.991 123.802 51.123  0.690 -0.223  4.358  HO6 LGC 22
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+LGC C1   C1   C 0 1 N N N 46.845 119.632 53.242 1.461  -0.085 -0.630 C1   LGC 1  
+LGC C2   C2   C 0 1 N N R 47.722 119.044 54.168 0.352  -0.403 -1.610 C2   LGC 2  
+LGC O5   O5   O 0 1 N N N 46.662 120.976 52.890 1.212  -0.283 0.683  O5   LGC 3  
+LGC O1   O1   O 0 1 N N N 45.918 118.964 52.689 2.530  0.330  -1.008 O1   LGC 4  
+LGC O2   O2   O 0 1 N N N 47.203 117.934 54.857 0.679  0.127  -2.895 O2   LGC 5  
+LGC C3   C3   C 0 1 N N S 48.230 120.142 55.127 -0.943 0.237  -1.099 C3   LGC 6  
+LGC O3   O3   O 0 1 N N N 49.411 119.612 55.746 -2.035 -0.168 -1.926 O3   LGC 7  
+LGC C4   C4   C 0 1 N N S 48.578 121.340 54.213 -1.195 -0.215 0.342  C4   LGC 8  
+LGC O4   O4   O 0 1 N N N 49.211 122.398 54.960 -2.414 0.360  0.816  O4   LGC 9  
+LGC C5   C5   C 0 1 N N R 47.215 121.967 53.781 -0.032 0.240  1.229  C5   LGC 10 
+LGC C6   C6   C 0 1 N N N 47.179 123.229 52.881 -0.233 -0.290 2.650  C6   LGC 11 
+LGC O6   O6   O 0 1 N N N 48.014 123.029 51.675 0.855  0.131  3.474  O6   LGC 12 
+LGC HC2  HC2  H 0 1 N N N 48.571 118.609 53.590 0.224  -1.483 -1.681 HC2  LGC 13 
+LGC HO2  HO2  H 0 1 N N N 47.796 117.536 55.483 1.506  -0.290 -3.168 HO2  LGC 14 
+LGC HC3  HC3  H 0 1 N N N 47.504 120.450 55.915 -0.848 1.322  -1.127 HC3  LGC 15 
+LGC HO3  HO3  H 0 1 N N N 49.723 120.287 56.336 -1.834 0.133  -2.822 HO3  LGC 16 
+LGC HC4  HC4  H 0 1 N N N 49.233 120.981 53.385 -1.269 -1.302 0.374  HC4  LGC 17 
+LGC HO4  HO4  H 0 1 N N N 49.424 123.133 54.398 -3.117 0.047  0.230  HO4  LGC 18 
+LGC HC5  HC5  H 0 1 N N N 46.728 122.253 54.742 0.007  1.329  1.248  HC5  LGC 19 
+LGC HC61 1HC6 H 0 0 N N N 46.135 123.521 52.619 -0.272 -1.379 2.629  HC61 LGC 20 
+LGC HC62 2HC6 H 0 0 N N N 47.473 124.146 53.441 -1.167 0.099  3.054  HC62 LGC 21 
+LGC HO6  HO6  H 0 1 N N N 47.991 123.802 51.123 0.690  -0.223 4.358  HO6  LGC 22 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-LGC C1   C2 SING N N  1
-LGC C1   O5 SING N N  2
-LGC C1   O1 DOUB N N  3
-LGC C2   O2 SING N N  4
-LGC C2   C3 SING N N  5
-LGC C2  HC2 SING N N  6
-LGC O5   C5 SING N N  7
-LGC O2  HO2 SING N N  8
-LGC C3   O3 SING N N  9
-LGC C3   C4 SING N N 10
-LGC C3  HC3 SING N N 11
-LGC O3  HO3 SING N N 12
-LGC C4   O4 SING N N 13
-LGC C4   C5 SING N N 14
-LGC C4  HC4 SING N N 15
-LGC O4  HO4 SING N N 16
-LGC C5   C6 SING N N 17
-LGC C5  HC5 SING N N 18
-LGC C6   O6 SING N N 19
-LGC C6 HC61 SING N N 20
-LGC C6 HC62 SING N N 21
-LGC O6  HO6 SING N N 22
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+LGC C1 C2   SING N N 1  
+LGC C1 O5   SING N N 2  
+LGC C1 O1   DOUB N N 3  
+LGC C2 O2   SING N N 4  
+LGC C2 C3   SING N N 5  
+LGC C2 HC2  SING N N 6  
+LGC O5 C5   SING N N 7  
+LGC O2 HO2  SING N N 8  
+LGC C3 O3   SING N N 9  
+LGC C3 C4   SING N N 10 
+LGC C3 HC3  SING N N 11 
+LGC O3 HO3  SING N N 12 
+LGC C4 O4   SING N N 13 
+LGC C4 C5   SING N N 14 
+LGC C4 HC4  SING N N 15 
+LGC O4 HO4  SING N N 16 
+LGC C5 C6   SING N N 17 
+LGC C5 HC5  SING N N 18 
+LGC C6 O6   SING N N 19 
+LGC C6 HC61 SING N N 20 
+LGC C6 HC62 SING N N 21 
+LGC O6 HO6  SING N N 22 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-LGC           SMILES              ACDLabs 10.04                                                            O=C1OC(CO)C(O)C(O)C1O
-LGC SMILES_CANONICAL               CACTVS 3.341                                          OC[C@H]1OC(=O)[C@H](O)[C@@H](O)[C@@H]1O
-LGC           SMILES               CACTVS 3.341                                                OC[CH]1OC(=O)[CH](O)[CH](O)[CH]1O
-LGC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                      C([C@@H]1[C@H]([C@@H]([C@H](C(=O)O1)O)O)O)O
-LGC           SMILES "OpenEye OEToolkits" 1.5.0                                                        C(C1C(C(C(C(=O)O1)O)O)O)O
-LGC            InChI                InChI  1.03 InChI=1S/C6H10O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-5,7-10H,1H2/t2-,3-,4+,5-/m1/s1
-LGC         InChIKey                InChI  1.03                                                      PHOQVHQSTUBQQK-SQOUGZDYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+LGC SMILES           ACDLabs              10.04 "O=C1OC(CO)C(O)C(O)C1O"                                                            
+LGC SMILES_CANONICAL CACTVS               3.341 "OC[C@H]1OC(=O)[C@H](O)[C@@H](O)[C@@H]1O"                                          
+LGC SMILES           CACTVS               3.341 "OC[CH]1OC(=O)[CH](O)[CH](O)[CH]1O"                                                
+LGC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C([C@@H]1[C@H]([C@@H]([C@H](C(=O)O1)O)O)O)O"                                      
+LGC SMILES           "OpenEye OEToolkits" 1.5.0 "C(C1C(C(C(C(=O)O1)O)O)O)O"                                                        
+LGC InChI            InChI                1.03  "InChI=1S/C6H10O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-5,7-10H,1H2/t2-,3-,4+,5-/m1/s1" 
+LGC InChIKey         InChI                1.03  PHOQVHQSTUBQQK-SQOUGZDYSA-N                                                        
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-LGC "SYSTEMATIC NAME"              ACDLabs 10.04 "(3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-one (non-preferred name)"
-LGC "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0                                       (3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-one
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+LGC "SYSTEMATIC NAME" ACDLabs              10.04 "(3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-one (non-preferred name)" 
+LGC "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-one"                                     
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-LGC  "Create component" 2000-08-25  EBI
-LGC "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   LGC
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB04564
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Gluconolactone
-_pdbe_chem_comp_drugbank_details.description               "Gluconolactone is a naturally-occurring food additive used as a sequestrant, an acidifier, or a curing, pickling, or leavening agent. It is a cyclic ester of D-gluconic acid. Pure gluconolactone is a white odorless crystalline powder."
-_pdbe_chem_comp_drugbank_details.cas_number                90-80-2
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           LGC
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB04564
-_pdbe_chem_comp_drugbank_classification.parent            Gluconolactones
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Organooxygen compounds"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic oxygen compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as gluconolactones. These are polyhydroxy acids containing a gluconolactone molecule, which is characterized by a tetrahydropyran substituted by three hydroxyl groups, one ketone group, and one hydroxymethyl group."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        LGC
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB04564
-_pdbe_chem_comp_drugbank_targets.name                           "Lactase-phlorizin hydrolase"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P09848
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-LGC                            E575   ChEMBL
-LGC                  Gluconolactone   ChEMBL
-LGC            1,5-D-gluconolactone DrugBank
-LGC              1,5-Gluconolactone DrugBank
-LGC "D-gluconic acid delta-lactone" DrugBank
-LGC           D-glucono-1,5-lactone DrugBank
-LGC      D-threo-Aldono-1,5-lactone DrugBank
-LGC            delta-gluconolactone DrugBank
-LGC                             GDL DrugBank
-LGC         "Gluconic acid lactone" DrugBank
-LGC         "Glucono delta-lactone" DrugBank
-LGC           Glucono-delta-lactone DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-LGC C1 C 5.104 -0.750  1
-LGC C2 C 5.104  0.750  2
-LGC O5 O 6.404 -1.500  3
-LGC O1 O 3.805 -1.500  4
-LGC O2 O 3.805  1.500  5
-LGC C3 C 6.404  1.500  6
-LGC O3 O 6.404  3.000  7
-LGC C4 C 7.702  0.750  8
-LGC O4 O 9.002  1.500  9
-LGC C5 C 7.702 -0.750 10
-LGC C6 C 9.002 -1.500 11
-LGC O6 O 9.002 -3.000 12
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-LGC C1 C2 SINGLE       NONE  1
-LGC C1 O5 SINGLE       NONE  2
-LGC C1 O1 DOUBLE       NONE  3
-LGC C2 O2 SINGLE BEGINWEDGE  4
-LGC C2 C3 SINGLE       NONE  5
-LGC O5 C5 SINGLE       NONE  6
-LGC C3 O3 SINGLE  BEGINDASH  7
-LGC C3 C4 SINGLE       NONE  8
-LGC C4 O4 SINGLE  BEGINDASH  9
-LGC C4 C5 SINGLE       NONE 10
-LGC C5 C6 SINGLE BEGINWEDGE 11
-LGC C6 O6 SINGLE       NONE 12
-#
-_pdbe_chem_comp_substructure.comp_id                      LGC
-_pdbe_chem_comp_substructure.substructure_name            MurckoScaffold
-_pdbe_chem_comp_substructure.id                           S1
-_pdbe_chem_comp_substructure.substructure_type            scaffold
-_pdbe_chem_comp_substructure.substructure_smiles          O=C1CCCCO1
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C5H8O2/c6-5-3-1-2-4-7-5/h1-4H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       OZJPLYNZGCXSJM-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-LGC C1 S1 1
-LGC C2 S1 1
-LGC O5 S1 1
-LGC O1 S1 1
-LGC C3 S1 1
-LGC C4 S1 1
-LGC C5 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               LGC
-_pdbe_chem_comp_rdkit_properties.exactmw                               178.048
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.833
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             82.407
-_pdbe_chem_comp_rdkit_properties.tpsa                                  107.220
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -3.013
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             34.986
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         12
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-LGC UniChem        ChEMBL    CHEMBL1200829
-LGC UniChem      DrugBank          DB04564
-LGC UniChem "KEGG LIGAND"           C00198
-LGC UniChem         ChEBI            16217
-LGC UniChem          ZINC ZINC000002539702
-LGC UniChem          ZINC     ZINC02539702
-LGC UniChem     BindingDb         50366565
-LGC UniChem  MetaboLights       MTBLC16217
-LGC UniChem        BRENDA           125131
-LGC UniChem        BRENDA            12792
-LGC UniChem        BRENDA           129738
-LGC UniChem        BRENDA           148261
-LGC UniChem        BRENDA           155719
-LGC UniChem        BRENDA           197492
-LGC UniChem        BRENDA            20280
-LGC UniChem        BRENDA             2196
-LGC UniChem        BRENDA             2956
-LGC UniChem        BRENDA             3341
-LGC UniChem        BRENDA            34608
-LGC UniChem        BRENDA             3470
-LGC UniChem        BRENDA            42869
-LGC UniChem        BRENDA            44159
-LGC UniChem        BRENDA            46238
-LGC UniChem        BRENDA              467
-LGC UniChem        BRENDA            47188
-LGC UniChem        BRENDA            47627
-LGC UniChem        BRENDA            47861
-LGC UniChem        BRENDA             5961
-LGC UniChem        BRENDA            90429
-LGC UniChem        BRENDA            97795
-LGC UniChem          Rhea            16217
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-LGC   C1 -0.832  1.703  0.282 ETKDGv2  1
-LGC   C2 -1.589  0.506  0.779 ETKDGv2  2
-LGC   O5  0.447  1.513 -0.234 ETKDGv2  3
-LGC   O1 -1.330  2.859  0.323 ETKDGv2  4
-LGC   O2 -2.966  0.777  0.820 ETKDGv2  5
-LGC   C3 -1.318 -0.662 -0.190 ETKDGv2  6
-LGC   O3 -1.953 -1.827  0.279 ETKDGv2  7
-LGC   C4  0.205 -0.931 -0.426 ETKDGv2  8
-LGC   O4  0.630 -2.059  0.301 ETKDGv2  9
-LGC   C5  1.118  0.269 -0.043 ETKDGv2 10
-LGC   C6  2.427  0.261 -0.844 ETKDGv2 11
-LGC   O6  3.260  1.310 -0.429 ETKDGv2 12
-LGC  HC2 -1.216  0.232  1.793 ETKDGv2 13
-LGC  HO2 -3.135  1.279  1.660 ETKDGv2 14
-LGC  HC3 -1.757 -0.384 -1.180 ETKDGv2 15
-LGC  HO3 -2.913 -1.755  0.039 ETKDGv2 16
-LGC  HC4  0.334 -1.129 -1.519 ETKDGv2 17
-LGC  HO4  0.404 -2.859 -0.242 ETKDGv2 18
-LGC  HC5  1.373  0.184  1.038 ETKDGv2 19
-LGC HC61  2.948 -0.715 -0.721 ETKDGv2 20
-LGC HC62  2.203  0.396 -1.923 ETKDGv2 21
-LGC  HO6  3.659  1.031  0.436 ETKDGv2 22
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+LGC "Create component"  2000-08-25 EBI  
+LGC "Modify descriptor" 2011-06-04 RCSB 
+# 

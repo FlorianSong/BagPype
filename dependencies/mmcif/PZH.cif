@@ -1,264 +1,122 @@
 data_PZH
-#
-_chem_comp.id                                        PZH
-_chem_comp.name                                      1-(4-BROMOPHENYL)METHANAMINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C7 H8 Br N"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             4-BROMOBENZYLAMINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2006-07-21
-_chem_comp.pdbx_modified_date                        2014-03-14
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            186.049
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         PZH
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    PZH 
+_chem_comp.name                                  "1-(4-BROMOPHENYL)METHANAMINE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C7 H8 Br N" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         4-BROMOBENZYLAMINE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2006-07-21 
+_chem_comp.pdbx_modified_date                    2014-03-14 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        186.049 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     PZH 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PZH   N1   N1  N 0 1 N N N 20.366 14.197 30.564 -4.362 -0.006  0.898   N1 PZH  1
-PZH   CB   CB  C 0 1 N N N 21.803 14.331 30.270 -3.754 -0.025 -0.440   CB PZH  2
-PZH   CG   CG  C 0 1 Y N N 22.272 15.454 29.405 -2.253 -0.018 -0.310   CG PZH  3
-PZH  CD1  CD1  C 0 1 Y N N 22.927 16.565 29.946 -1.560 -1.212 -0.232  CD1 PZH  4
-PZH  CE1  CE1  C 0 1 Y N N 23.360 17.661 29.132 -0.183 -1.205 -0.112  CE1 PZH  5
-PZH   CZ   CZ  C 0 1 Y N N 23.116 17.711 27.761  0.502 -0.004 -0.072   CZ PZH  6
-PZH  CE2  CE2  C 0 1 Y N N 22.471 16.665 27.144 -0.192  1.190 -0.151  CE2 PZH  7
-PZH  CD2  CD2  C 0 1 Y N N 21.988 15.424 28.055 -1.568  1.183 -0.275  CD2 PZH  8
-PZH   BR   BR BR 0 0 N N N 23.533 18.897 26.986  2.386  0.005  0.090   BR PZH  9
-PZH HN11 1HN1  H 0 0 N N N 19.874 14.980 30.184 -4.130  0.886  1.309 HN11 PZH 10
-PZH HN12 2HN1  H 0 0 N N N 20.229 14.167 31.554 -5.361 -0.012  0.762 HN12 PZH 11
-PZH  HB1  1HB  H 0 1 N N N 22.040 13.429 29.687 -4.069 -0.925 -0.969  HB1 PZH 12
-PZH  HB2  2HB  H 0 1 N N N 22.306 14.458 31.240 -4.075  0.855 -0.997  HB2 PZH 13
-PZH  HD1  HD1  H 0 1 N N N 23.112 16.597 31.010 -2.095 -2.149 -0.263  HD1 PZH 14
-PZH  HE1  HE1  H 0 1 N N N 23.894 18.477 29.597  0.358 -2.138 -0.051  HE1 PZH 15
-PZH  HE2  HE2  H 0 1 N N N 22.293 16.674 26.079  0.343  2.128 -0.119  HE2 PZH 16
-PZH  HD2  HD2  H 0 1 N N N 21.456 14.591 27.619 -2.110  2.115 -0.337  HD2 PZH 17
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PZH N1   N1   N  0 1 N N N 20.366 14.197 30.564 -4.362 -0.006 0.898  N1   PZH 1  
+PZH CB   CB   C  0 1 N N N 21.803 14.331 30.270 -3.754 -0.025 -0.440 CB   PZH 2  
+PZH CG   CG   C  0 1 Y N N 22.272 15.454 29.405 -2.253 -0.018 -0.310 CG   PZH 3  
+PZH CD1  CD1  C  0 1 Y N N 22.927 16.565 29.946 -1.560 -1.212 -0.232 CD1  PZH 4  
+PZH CE1  CE1  C  0 1 Y N N 23.360 17.661 29.132 -0.183 -1.205 -0.112 CE1  PZH 5  
+PZH CZ   CZ   C  0 1 Y N N 23.116 17.711 27.761 0.502  -0.004 -0.072 CZ   PZH 6  
+PZH CE2  CE2  C  0 1 Y N N 22.471 16.665 27.144 -0.192 1.190  -0.151 CE2  PZH 7  
+PZH CD2  CD2  C  0 1 Y N N 21.988 15.424 28.055 -1.568 1.183  -0.275 CD2  PZH 8  
+PZH BR   BR   BR 0 0 N N N 23.533 18.897 26.986 2.386  0.005  0.090  BR   PZH 9  
+PZH HN11 1HN1 H  0 0 N N N 19.874 14.980 30.184 -4.130 0.886  1.309  HN11 PZH 10 
+PZH HN12 2HN1 H  0 0 N N N 20.229 14.167 31.554 -5.361 -0.012 0.762  HN12 PZH 11 
+PZH HB1  1HB  H  0 1 N N N 22.040 13.429 29.687 -4.069 -0.925 -0.969 HB1  PZH 12 
+PZH HB2  2HB  H  0 1 N N N 22.306 14.458 31.240 -4.075 0.855  -0.997 HB2  PZH 13 
+PZH HD1  HD1  H  0 1 N N N 23.112 16.597 31.010 -2.095 -2.149 -0.263 HD1  PZH 14 
+PZH HE1  HE1  H  0 1 N N N 23.894 18.477 29.597 0.358  -2.138 -0.051 HE1  PZH 15 
+PZH HE2  HE2  H  0 1 N N N 22.293 16.674 26.079 0.343  2.128  -0.119 HE2  PZH 16 
+PZH HD2  HD2  H  0 1 N N N 21.456 14.591 27.619 -2.110 2.115  -0.337 HD2  PZH 17 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PZH  N1   CB SING N N  1
-PZH  N1 HN11 SING N N  2
-PZH  N1 HN12 SING N N  3
-PZH  CB   CG SING N N  4
-PZH  CB  HB1 SING N N  5
-PZH  CB  HB2 SING N N  6
-PZH  CG  CD1 DOUB Y N  7
-PZH  CG  CD2 SING Y N  8
-PZH CD1  CE1 SING Y N  9
-PZH CD1  HD1 SING N N 10
-PZH CE1   CZ DOUB Y N 11
-PZH CE1  HE1 SING N N 12
-PZH  CZ  CE2 SING Y N 13
-PZH  CZ   BR SING N N 14
-PZH CE2  CD2 DOUB Y N 15
-PZH CE2  HE2 SING N N 16
-PZH CD2  HD2 SING N N 17
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PZH N1  CB   SING N N 1  
+PZH N1  HN11 SING N N 2  
+PZH N1  HN12 SING N N 3  
+PZH CB  CG   SING N N 4  
+PZH CB  HB1  SING N N 5  
+PZH CB  HB2  SING N N 6  
+PZH CG  CD1  DOUB Y N 7  
+PZH CG  CD2  SING Y N 8  
+PZH CD1 CE1  SING Y N 9  
+PZH CD1 HD1  SING N N 10 
+PZH CE1 CZ   DOUB Y N 11 
+PZH CE1 HE1  SING N N 12 
+PZH CZ  CE2  SING Y N 13 
+PZH CZ  BR   SING N N 14 
+PZH CE2 CD2  DOUB Y N 15 
+PZH CE2 HE2  SING N N 16 
+PZH CD2 HD2  SING N N 17 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PZH           SMILES              ACDLabs 10.04                                    Brc1ccc(cc1)CN
-PZH SMILES_CANONICAL               CACTVS 3.341                                    NCc1ccc(Br)cc1
-PZH           SMILES               CACTVS 3.341                                    NCc1ccc(Br)cc1
-PZH SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                    c1cc(ccc1CN)Br
-PZH           SMILES "OpenEye OEToolkits" 1.5.0                                    c1cc(ccc1CN)Br
-PZH            InChI                InChI  1.03 InChI=1S/C7H8BrN/c8-7-3-1-6(5-9)2-4-7/h1-4H,5,9H2
-PZH         InChIKey                InChI  1.03                       XRNVSPDQTPVECU-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PZH SMILES           ACDLabs              10.04 "Brc1ccc(cc1)CN"                                    
+PZH SMILES_CANONICAL CACTVS               3.341 "NCc1ccc(Br)cc1"                                    
+PZH SMILES           CACTVS               3.341 "NCc1ccc(Br)cc1"                                    
+PZH SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1CN)Br"                                    
+PZH SMILES           "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1CN)Br"                                    
+PZH InChI            InChI                1.03  "InChI=1S/C7H8BrN/c8-7-3-1-6(5-9)2-4-7/h1-4H,5,9H2" 
+PZH InChIKey         InChI                1.03  XRNVSPDQTPVECU-UHFFFAOYSA-N                         
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PZH "SYSTEMATIC NAME"              ACDLabs 10.04 1-(4-bromophenyl)methanamine
-PZH "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0   (4-bromophenyl)methanamine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PZH "SYSTEMATIC NAME" ACDLabs              10.04 "1-(4-bromophenyl)methanamine" 
+PZH "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(4-bromophenyl)methanamine"   
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PZH  "Create component" 2006-07-21 RCSB
-PZH "Modify descriptor" 2011-06-04 RCSB
-PZH   "Initial release" 2014-03-19 RCSB
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-PZH  4-Bromobenzylamine ChEMBL
-PZH 4-Bromo-Benzylamine ChEMBL
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PZH  N1  N 5.598  2.910 1
-PZH  CB  C 4.299  2.160 2
-PZH  CG  C 4.299  0.660 3
-PZH CD1  C 3.000 -0.090 4
-PZH CE1  C 3.000 -1.590 5
-PZH  CZ  C 4.299 -2.340 6
-PZH CE2  C 5.598 -1.590 7
-PZH CD2  C 5.598 -0.090 8
-PZH  BR Br 4.299 -3.840 9
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PZH  N1  CB SINGLE NONE 1
-PZH  CB  CG SINGLE NONE 2
-PZH  CG CD1 DOUBLE NONE 3
-PZH  CG CD2 SINGLE NONE 4
-PZH CD1 CE1 SINGLE NONE 5
-PZH CE1  CZ DOUBLE NONE 6
-PZH  CZ CE2 SINGLE NONE 7
-PZH  CZ  BR SINGLE NONE 8
-PZH CE2 CD2 DOUBLE NONE 9
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-PZH MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-PZH         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-PZH  CG F1 1
-PZH CD1 F1 1
-PZH CE1 F1 1
-PZH  CZ F1 1
-PZH CE2 F1 1
-PZH CD2 F1 1
-PZH  CG S1 1
-PZH CD1 S1 1
-PZH CE1 S1 1
-PZH  CZ S1 1
-PZH CE2 S1 1
-PZH CD2 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PZH
-_pdbe_chem_comp_rdkit_properties.exactmw                               184.984
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                1
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.143
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             74.360
-_pdbe_chem_comp_rdkit_properties.tpsa                                  26.020
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.853
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             41.767
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-PZH UniChem ChEMBL     CHEMBL138621
-PZH UniChem   ZINC ZINC000000404752
-PZH UniChem BRENDA            15410
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PZH   N1 -2.734 -0.022  0.473 ETKDGv2  1
-PZH   CB -1.859 -0.403 -0.635 ETKDGv2  2
-PZH   CG -0.407 -0.172 -0.295 ETKDGv2  3
-PZH  CD1  0.217 -0.943  0.614 ETKDGv2  4
-PZH  CE1  1.641 -0.714  0.936 ETKDGv2  5
-PZH   CZ  2.320  0.262  0.320 ETKDGv2  6
-PZH  CE2  1.644  1.111 -0.683 ETKDGv2  7
-PZH  CD2  0.354  0.906 -0.977 ETKDGv2  8
-PZH   BR  4.161  0.563  0.733 ETKDGv2  9
-PZH HN11 -2.519 -0.624  1.301 ETKDGv2 10
-PZH HN12 -2.532  0.970  0.737 ETKDGv2 11
-PZH  HB1 -2.020 -1.473 -0.886 ETKDGv2 12
-PZH  HB2 -2.143  0.190 -1.531 ETKDGv2 13
-PZH  HD1 -0.313 -1.744  1.116 ETKDGv2 14
-PZH  HE1  2.129 -1.340  1.671 ETKDGv2 15
-PZH  HE2  2.193  1.899 -1.182 ETKDGv2 16
-PZH  HD2 -0.132  1.534 -1.713 ETKDGv2 17
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PZH "Create component"  2006-07-21 RCSB 
+PZH "Modify descriptor" 2011-06-04 RCSB 
+PZH "Initial release"   2014-03-19 RCSB 
+# 

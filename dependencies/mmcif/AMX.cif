@@ -1,637 +1,273 @@
 data_AMX
-#
-_chem_comp.id                                        AMX
-_chem_comp.name                                      "AMIDOCARBOXYMETHYLDETHIA COENZYME *A"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAC
-_chem_comp.formula                                   "C23 H39 N8 O17 P3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            792.520
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         AMX
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1CSH
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    AMX 
+_chem_comp.name                                  "AMIDOCARBOXYMETHYLDETHIA COENZYME *A" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAC 
+_chem_comp.formula                               "C23 H39 N8 O17 P3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        792.520 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     AMX 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1CSH 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-AMX  N1A  AN1 N 0 1 Y N N 19.531  -8.047 13.305  5.914  1.915 -7.765  N1A AMX  1
-AMX  C2A  AC2 C 0 1 Y N N 18.960  -8.618 14.353  4.759  1.852 -8.402  C2A AMX  2
-AMX  N3A  AN3 N 0 1 Y N N 18.129  -9.653 14.415  3.641  1.500 -7.803  N3A AMX  3
-AMX  C4A  AC4 C 0 1 Y N N 17.892 -10.167 13.205  3.634  1.183 -6.513  C4A AMX  4
-AMX  C5A  AC5 C 0 1 Y N N 18.401  -9.691 12.012  4.837  1.240 -5.789  C5A AMX  5
-AMX  C6A  AC6 C 0 1 Y N N 19.277  -8.579 12.091  6.004  1.621 -6.472  C6A AMX  6
-AMX  N6A  AN6 N 0 1 N N N 19.838  -7.966 11.082  7.219  1.690 -5.813  N6A AMX  7
-AMX  N7A  AN7 N 0 1 Y N N 17.913 -10.472 10.969  4.553  0.881 -4.514  N7A AMX  8
-AMX  C8A  AC8 C 0 1 Y N N 17.149 -11.396 11.547  3.282  0.619 -4.410  C8A AMX  9
-AMX  N9A  AN9 N 0 1 Y N N 17.135 -11.287 12.911  2.671  0.794 -5.616  N9A AMX 10
-AMX  C1B AC1* C 0 1 N N R 16.242 -12.064 13.773  1.248  0.597 -5.903  C1B AMX 11
-AMX  C2B AC2* C 0 1 N N R 14.815 -11.783 13.321  0.955 -0.887 -6.236  C2B AMX 12
-AMX  O2B AO2* O 0 1 N N N 14.373 -10.485 13.624  1.171 -1.151 -7.624  O2B AMX 13
-AMX  C3B AC3* C 0 1 N N S 14.095 -12.954 14.005 -0.548 -1.010 -5.878  C3B AMX 14
-AMX  O3B AO3* O 0 1 N N N 14.063 -12.857 15.409 -1.353 -0.887 -7.052  O3B AMX 15
-AMX  P3B AP3* P 0 1 N N N 12.653 -13.089 16.190 -2.216 -2.241 -7.170  P3B AMX 16
-AMX  O7A  AO7 O 0 1 N N N 11.598 -12.387 15.403 -3.062 -2.394 -5.965  O7A AMX 17
-AMX  O8A  AO8 O 0 1 N N N 12.800 -12.747 17.631 -3.151 -2.170 -8.478  O8A AMX 18
-AMX  O9A  AO9 O 0 1 N N N 12.433 -14.565 16.065 -1.221 -3.502 -7.289  O9A AMX 19
-AMX  C4B AC4* C 0 1 N N R 15.053 -14.075 13.651 -0.801  0.165 -4.915  C4B AMX 20
-AMX  O4B AO4* O 0 1 N N N 16.346 -13.422 13.491  0.453  0.841 -4.723  O4B AMX 21
-AMX  C5B AC5* C 0 1 N N N 14.703 -14.819 12.389 -1.319 -0.360 -3.575  C5B AMX 22
-AMX  O5B AO5* O 0 1 N N N 14.447 -13.880 11.343 -1.543  0.736 -2.687  O5B AMX 23
-AMX  P1A  AP1 P 0 1 N N S 14.820 -14.330  9.854 -2.085  0.113 -1.305  P1A AMX 24
-AMX  O1A  AO1 O 0 1 N N N 13.992 -15.538  9.476 -1.071 -0.812 -0.751  O1A AMX 25
-AMX  O2A  AO2 O 0 1 N N N 16.287 -14.428  9.833 -3.453 -0.690 -1.578  O2A AMX 26
-AMX  O3A  AO3 O 0 1 N N N 14.449 -12.948  9.157 -2.360  1.300 -0.253  O3A AMX 27
-AMX  P2A  AP2 P 0 1 N N S 13.059 -12.627  8.405 -2.896  0.608  1.098  P2A AMX 28
-AMX  O4A  AO4 O 0 1 N N N 13.045 -13.312  7.078 -4.141 -0.137  0.810  O4A AMX 29
-AMX  O5A  AO5 O 0 1 N N N 11.882 -12.524  9.301 -1.780 -0.406  1.660  O5A AMX 30
-AMX  O6A  AO6 O 0 1 N N N 13.399 -11.058  8.129 -3.193  1.744  2.200  O6A AMX 31
-AMX  CBP PC11 C 0 1 N N N 14.734  -9.179  7.541 -3.966  2.098  4.463  CBP AMX 32
-AMX  CCP PC12 C 0 1 N N N 14.359 -10.604  7.185 -3.663  1.071  3.370  CCP AMX 33
-AMX  CDP PC13 C 0 1 N N N 15.428  -8.510  6.330 -2.691  2.875  4.799  CDP AMX 34
-AMX  CEP PC14 C 0 1 N N N 13.444  -8.474  7.995 -5.039  3.069  3.967  CEP AMX 35
-AMX  CAP PC10 C 0 1 N N R 15.700  -9.285  8.744 -4.469  1.377  5.715  CAP AMX 36
-AMX  OAP PO10 O 0 1 N N N 16.872  -9.993  8.344 -5.730  0.765  5.438  OAP AMX 37
-AMX  C9P  PC9 C 0 1 N N N 16.034  -7.932  9.349 -3.474  0.320  6.120  C9P AMX 38
-AMX  O9P  PO9 O 0 1 N N N 15.277  -7.475 10.231 -3.746 -0.853  5.979  O9P AMX 39
-AMX  N8P  PN8 N 0 1 N N N 17.105  -7.293  8.905 -2.283  0.678  6.638  N8P AMX 40
-AMX  C7P  PC7 C 0 1 N N N 17.455  -5.960  9.440 -1.349 -0.348  7.106  C7P AMX 41
-AMX  C6P  PC6 C 0 1 N N N 16.760  -4.865  8.608 -0.082  0.320  7.643  C6P AMX 42
-AMX  C5P  PC5 C 0 1 N N N 17.261  -4.744  7.171  0.877 -0.735  8.125  C5P AMX 43
-AMX  O5P  PO5 O 0 1 N N N 18.473  -4.749  6.935  0.578 -1.908  8.046  O5P AMX 44
-AMX  N4P  PN4 N 0 1 N N N 16.327  -4.606  6.203  2.069 -0.377  8.643  N4P AMX 45
-AMX  C3P  PC3 C 0 1 N N N 16.682  -4.440  4.805  3.003 -1.404  9.111  C3P AMX 46
-AMX  C2P  PC2 C 0 1 N N N 16.388  -5.670  3.929  4.269 -0.735  9.648  C2P AMX 47
-AMX   C1   C1 C 0 1 N N N 16.736  -5.328  2.447  5.245 -1.807 10.137   C1 AMX 48
-AMX   C2   C2 C 0 1 N N N 15.667  -4.443  1.807  6.492 -1.148 10.666   C2 AMX 49
-AMX   O2   O2 O 0 1 N N N 14.492  -4.795  1.890  6.592  0.059 10.653   O2 AMX 50
-AMX   N2   N2 N 0 1 N N N 16.023  -3.249  1.353  7.498 -1.902 11.154   N2 AMX 51
-AMX  H2A  AH2 H 0 1 N N N 19.216  -8.161 15.323  4.731  2.099 -9.453  H2A AMX 52
-AMX H61A AH61 H 0 0 N N N 19.646  -8.368 10.164  8.018  1.954 -6.295 H61A AMX 53
-AMX H62A AH62 H 0 0 N N N 20.844  -7.897 11.230  7.272  1.473 -4.869 H62A AMX 54
-AMX  H8A  AH8 H 0 1 N N N 16.597 -12.156 10.968  2.785  0.309 -3.503  H8A AMX 55
-AMX  H1B AH1* H 0 1 N N N 16.487 -11.810 14.830  0.929  1.244 -6.721  H1B AMX 56
-AMX  H2B AH2* H 0 1 N N N 14.638 -11.756 12.220  1.559 -1.551 -5.617  H2B AMX 57
-AMX HO2A AHO2 H 0 0 N N N 13.482 -10.309 13.342  2.104 -0.968 -7.801 HO2A AMX 58
-AMX  H3B AH3* H 0 1 N N N 13.029 -13.045 13.690 -0.745 -1.960 -5.379  H3B AMX 59
-AMX HOA8 8HOA H 0 0 N N N 11.977 -12.882 18.086 -3.649 -2.998 -8.511 HOA8 AMX 60
-AMX HOA9 9HOA H 0 0 N N N 11.610 -14.700 16.520 -0.689 -3.363 -8.085 HOA9 AMX 61
-AMX  H4B AH4* H 0 1 N N N 15.027 -14.851 14.450 -1.528  0.851 -5.350  H4B AMX 62
-AMX H51A AH51 H 0 0 N N N 15.483 -15.563 12.106 -0.582 -1.035 -3.140 H51A AMX 63
-AMX H52A AH52 H 0 0 N N N 13.855 -15.527 12.537 -2.254 -0.897 -3.733 H52A AMX 64
-AMX HOA2 2HOA H 0 0 N N N 16.508 -14.695  8.948 -4.085 -0.052 -1.937 HOA2 AMX 65
-AMX HOA5 5HOA H 0 0 N N N 11.063 -12.334  8.858 -0.987  0.118  1.835 HOA5 AMX 66
-AMX H121 1H12 H 0 0 N N N 15.245 -11.277  7.114 -2.898  0.379  3.723 H121 AMX 67
-AMX H122 2H12 H 0 0 N N N 14.008 -10.706  6.131 -4.571  0.517  3.130 H122 AMX 68
-AMX H131 1H13 H 0 0 N N N 15.703  -7.461  6.591 -1.890  2.175  5.033 H131 AMX 69
-AMX H132 2H13 H 0 0 N N N 16.303  -9.098  5.968 -2.402  3.486  3.944 H132 AMX 70
-AMX H133 3H13 H 0 0 N N N 14.806  -8.563  5.405 -2.875  3.519  5.659 H133 AMX 71
-AMX H141 1H14 H 0 0 N N N 13.719  -7.425  8.256 -5.968  2.525  3.791 H141 AMX 72
-AMX H142 2H14 H 0 0 N N N 12.623  -8.536  7.243 -5.207  3.840  4.718 H142 AMX 73
-AMX H143 3H14 H 0 0 N N N 12.920  -9.008  8.821 -4.709  3.532  3.037 H143 AMX 74
-AMX  H10  H10 H 0 1 N N N 15.187  -9.853  9.555 -4.585  2.096  6.526  H10 AMX 75
-AMX  HO1  HO1 H 0 1 N N N 17.465 -10.058  9.083 -5.583  0.137  4.716  HO1 AMX 76
-AMX  HN8  HN8 H 0 1 N N N 17.630  -7.798  8.191 -2.044  1.616  6.701  HN8 AMX 77
-AMX  H71  1H7 H 0 1 N N N 17.224  -5.870 10.527 -1.817 -0.930  7.900  H71 AMX 78
-AMX  H72  2H7 H 0 1 N N N 18.558  -5.807  9.496 -1.089 -1.007  6.278  H72 AMX 79
-AMX  H61  1H6 H 0 1 N N N 15.654  -5.010  8.621  0.385  0.902  6.849  H61 AMX 80
-AMX  H62  2H6 H 0 1 N N N 16.830  -3.880  9.127 -0.343  0.979  8.471  H62 AMX 81
-AMX  HN4  HN4 H 0 1 N N N 15.359  -4.627  6.525  2.308  0.560  8.706  HN4 AMX 82
-AMX  H31  1H3 H 0 1 N N N 16.189  -3.533  4.382  2.535 -1.986  9.905  H31 AMX 83
-AMX  H32  2H3 H 0 1 N N N 17.750  -4.138  4.707  3.263 -2.063  8.283  H32 AMX 84
-AMX  H21  1H2 H 0 1 N N N 16.913  -6.584  4.289  4.738 -0.153  8.854  H21 AMX 85
-AMX  H22  2H2 H 0 1 N N N 15.341  -6.036  4.046  4.009 -0.076 10.476  H22 AMX 86
-AMX  H11  1H1 H 0 1 N N N 17.748  -4.869  2.362  4.777 -2.389 10.931  H11 AMX 87
-AMX  H12  2H1 H 0 1 N N N 16.913  -6.251  1.847  5.505 -2.466  9.309  H12 AMX 88
-AMX HN21 1HN2 H 0 0 N N N 16.997  -2.957  1.284  8.301 -1.478 11.494 HN21 AMX 89
-AMX HN22 2HN2 H 0 0 N N N 15.309  -2.658  0.925  7.418 -2.869 11.164 HN22 AMX 90
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+AMX N1A  AN1  N 0 1 Y N N 19.531 -8.047  13.305 5.914  1.915  -7.765 N1A  AMX 1  
+AMX C2A  AC2  C 0 1 Y N N 18.960 -8.618  14.353 4.759  1.852  -8.402 C2A  AMX 2  
+AMX N3A  AN3  N 0 1 Y N N 18.129 -9.653  14.415 3.641  1.500  -7.803 N3A  AMX 3  
+AMX C4A  AC4  C 0 1 Y N N 17.892 -10.167 13.205 3.634  1.183  -6.513 C4A  AMX 4  
+AMX C5A  AC5  C 0 1 Y N N 18.401 -9.691  12.012 4.837  1.240  -5.789 C5A  AMX 5  
+AMX C6A  AC6  C 0 1 Y N N 19.277 -8.579  12.091 6.004  1.621  -6.472 C6A  AMX 6  
+AMX N6A  AN6  N 0 1 N N N 19.838 -7.966  11.082 7.219  1.690  -5.813 N6A  AMX 7  
+AMX N7A  AN7  N 0 1 Y N N 17.913 -10.472 10.969 4.553  0.881  -4.514 N7A  AMX 8  
+AMX C8A  AC8  C 0 1 Y N N 17.149 -11.396 11.547 3.282  0.619  -4.410 C8A  AMX 9  
+AMX N9A  AN9  N 0 1 Y N N 17.135 -11.287 12.911 2.671  0.794  -5.616 N9A  AMX 10 
+AMX C1B  AC1* C 0 1 N N R 16.242 -12.064 13.773 1.248  0.597  -5.903 C1B  AMX 11 
+AMX C2B  AC2* C 0 1 N N R 14.815 -11.783 13.321 0.955  -0.887 -6.236 C2B  AMX 12 
+AMX O2B  AO2* O 0 1 N N N 14.373 -10.485 13.624 1.171  -1.151 -7.624 O2B  AMX 13 
+AMX C3B  AC3* C 0 1 N N S 14.095 -12.954 14.005 -0.548 -1.010 -5.878 C3B  AMX 14 
+AMX O3B  AO3* O 0 1 N N N 14.063 -12.857 15.409 -1.353 -0.887 -7.052 O3B  AMX 15 
+AMX P3B  AP3* P 0 1 N N N 12.653 -13.089 16.190 -2.216 -2.241 -7.170 P3B  AMX 16 
+AMX O7A  AO7  O 0 1 N N N 11.598 -12.387 15.403 -3.062 -2.394 -5.965 O7A  AMX 17 
+AMX O8A  AO8  O 0 1 N N N 12.800 -12.747 17.631 -3.151 -2.170 -8.478 O8A  AMX 18 
+AMX O9A  AO9  O 0 1 N N N 12.433 -14.565 16.065 -1.221 -3.502 -7.289 O9A  AMX 19 
+AMX C4B  AC4* C 0 1 N N R 15.053 -14.075 13.651 -0.801 0.165  -4.915 C4B  AMX 20 
+AMX O4B  AO4* O 0 1 N N N 16.346 -13.422 13.491 0.453  0.841  -4.723 O4B  AMX 21 
+AMX C5B  AC5* C 0 1 N N N 14.703 -14.819 12.389 -1.319 -0.360 -3.575 C5B  AMX 22 
+AMX O5B  AO5* O 0 1 N N N 14.447 -13.880 11.343 -1.543 0.736  -2.687 O5B  AMX 23 
+AMX P1A  AP1  P 0 1 N N S 14.820 -14.330 9.854  -2.085 0.113  -1.305 P1A  AMX 24 
+AMX O1A  AO1  O 0 1 N N N 13.992 -15.538 9.476  -1.071 -0.812 -0.751 O1A  AMX 25 
+AMX O2A  AO2  O 0 1 N N N 16.287 -14.428 9.833  -3.453 -0.690 -1.578 O2A  AMX 26 
+AMX O3A  AO3  O 0 1 N N N 14.449 -12.948 9.157  -2.360 1.300  -0.253 O3A  AMX 27 
+AMX P2A  AP2  P 0 1 N N S 13.059 -12.627 8.405  -2.896 0.608  1.098  P2A  AMX 28 
+AMX O4A  AO4  O 0 1 N N N 13.045 -13.312 7.078  -4.141 -0.137 0.810  O4A  AMX 29 
+AMX O5A  AO5  O 0 1 N N N 11.882 -12.524 9.301  -1.780 -0.406 1.660  O5A  AMX 30 
+AMX O6A  AO6  O 0 1 N N N 13.399 -11.058 8.129  -3.193 1.744  2.200  O6A  AMX 31 
+AMX CBP  PC11 C 0 1 N N N 14.734 -9.179  7.541  -3.966 2.098  4.463  CBP  AMX 32 
+AMX CCP  PC12 C 0 1 N N N 14.359 -10.604 7.185  -3.663 1.071  3.370  CCP  AMX 33 
+AMX CDP  PC13 C 0 1 N N N 15.428 -8.510  6.330  -2.691 2.875  4.799  CDP  AMX 34 
+AMX CEP  PC14 C 0 1 N N N 13.444 -8.474  7.995  -5.039 3.069  3.967  CEP  AMX 35 
+AMX CAP  PC10 C 0 1 N N R 15.700 -9.285  8.744  -4.469 1.377  5.715  CAP  AMX 36 
+AMX OAP  PO10 O 0 1 N N N 16.872 -9.993  8.344  -5.730 0.765  5.438  OAP  AMX 37 
+AMX C9P  PC9  C 0 1 N N N 16.034 -7.932  9.349  -3.474 0.320  6.120  C9P  AMX 38 
+AMX O9P  PO9  O 0 1 N N N 15.277 -7.475  10.231 -3.746 -0.853 5.979  O9P  AMX 39 
+AMX N8P  PN8  N 0 1 N N N 17.105 -7.293  8.905  -2.283 0.678  6.638  N8P  AMX 40 
+AMX C7P  PC7  C 0 1 N N N 17.455 -5.960  9.440  -1.349 -0.348 7.106  C7P  AMX 41 
+AMX C6P  PC6  C 0 1 N N N 16.760 -4.865  8.608  -0.082 0.320  7.643  C6P  AMX 42 
+AMX C5P  PC5  C 0 1 N N N 17.261 -4.744  7.171  0.877  -0.735 8.125  C5P  AMX 43 
+AMX O5P  PO5  O 0 1 N N N 18.473 -4.749  6.935  0.578  -1.908 8.046  O5P  AMX 44 
+AMX N4P  PN4  N 0 1 N N N 16.327 -4.606  6.203  2.069  -0.377 8.643  N4P  AMX 45 
+AMX C3P  PC3  C 0 1 N N N 16.682 -4.440  4.805  3.003  -1.404 9.111  C3P  AMX 46 
+AMX C2P  PC2  C 0 1 N N N 16.388 -5.670  3.929  4.269  -0.735 9.648  C2P  AMX 47 
+AMX C1   C1   C 0 1 N N N 16.736 -5.328  2.447  5.245  -1.807 10.137 C1   AMX 48 
+AMX C2   C2   C 0 1 N N N 15.667 -4.443  1.807  6.492  -1.148 10.666 C2   AMX 49 
+AMX O2   O2   O 0 1 N N N 14.492 -4.795  1.890  6.592  0.059  10.653 O2   AMX 50 
+AMX N2   N2   N 0 1 N N N 16.023 -3.249  1.353  7.498  -1.902 11.154 N2   AMX 51 
+AMX H2A  AH2  H 0 1 N N N 19.216 -8.161  15.323 4.731  2.099  -9.453 H2A  AMX 52 
+AMX H61A AH61 H 0 0 N N N 19.646 -8.368  10.164 8.018  1.954  -6.295 H61A AMX 53 
+AMX H62A AH62 H 0 0 N N N 20.844 -7.897  11.230 7.272  1.473  -4.869 H62A AMX 54 
+AMX H8A  AH8  H 0 1 N N N 16.597 -12.156 10.968 2.785  0.309  -3.503 H8A  AMX 55 
+AMX H1B  AH1* H 0 1 N N N 16.487 -11.810 14.830 0.929  1.244  -6.721 H1B  AMX 56 
+AMX H2B  AH2* H 0 1 N N N 14.638 -11.756 12.220 1.559  -1.551 -5.617 H2B  AMX 57 
+AMX HO2A AHO2 H 0 0 N N N 13.482 -10.309 13.342 2.104  -0.968 -7.801 HO2A AMX 58 
+AMX H3B  AH3* H 0 1 N N N 13.029 -13.045 13.690 -0.745 -1.960 -5.379 H3B  AMX 59 
+AMX HOA8 8HOA H 0 0 N N N 11.977 -12.882 18.086 -3.649 -2.998 -8.511 HOA8 AMX 60 
+AMX HOA9 9HOA H 0 0 N N N 11.610 -14.700 16.520 -0.689 -3.363 -8.085 HOA9 AMX 61 
+AMX H4B  AH4* H 0 1 N N N 15.027 -14.851 14.450 -1.528 0.851  -5.350 H4B  AMX 62 
+AMX H51A AH51 H 0 0 N N N 15.483 -15.563 12.106 -0.582 -1.035 -3.140 H51A AMX 63 
+AMX H52A AH52 H 0 0 N N N 13.855 -15.527 12.537 -2.254 -0.897 -3.733 H52A AMX 64 
+AMX HOA2 2HOA H 0 0 N N N 16.508 -14.695 8.948  -4.085 -0.052 -1.937 HOA2 AMX 65 
+AMX HOA5 5HOA H 0 0 N N N 11.063 -12.334 8.858  -0.987 0.118  1.835  HOA5 AMX 66 
+AMX H121 1H12 H 0 0 N N N 15.245 -11.277 7.114  -2.898 0.379  3.723  H121 AMX 67 
+AMX H122 2H12 H 0 0 N N N 14.008 -10.706 6.131  -4.571 0.517  3.130  H122 AMX 68 
+AMX H131 1H13 H 0 0 N N N 15.703 -7.461  6.591  -1.890 2.175  5.033  H131 AMX 69 
+AMX H132 2H13 H 0 0 N N N 16.303 -9.098  5.968  -2.402 3.486  3.944  H132 AMX 70 
+AMX H133 3H13 H 0 0 N N N 14.806 -8.563  5.405  -2.875 3.519  5.659  H133 AMX 71 
+AMX H141 1H14 H 0 0 N N N 13.719 -7.425  8.256  -5.968 2.525  3.791  H141 AMX 72 
+AMX H142 2H14 H 0 0 N N N 12.623 -8.536  7.243  -5.207 3.840  4.718  H142 AMX 73 
+AMX H143 3H14 H 0 0 N N N 12.920 -9.008  8.821  -4.709 3.532  3.037  H143 AMX 74 
+AMX H10  H10  H 0 1 N N N 15.187 -9.853  9.555  -4.585 2.096  6.526  H10  AMX 75 
+AMX HO1  HO1  H 0 1 N N N 17.465 -10.058 9.083  -5.583 0.137  4.716  HO1  AMX 76 
+AMX HN8  HN8  H 0 1 N N N 17.630 -7.798  8.191  -2.044 1.616  6.701  HN8  AMX 77 
+AMX H71  1H7  H 0 1 N N N 17.224 -5.870  10.527 -1.817 -0.930 7.900  H71  AMX 78 
+AMX H72  2H7  H 0 1 N N N 18.558 -5.807  9.496  -1.089 -1.007 6.278  H72  AMX 79 
+AMX H61  1H6  H 0 1 N N N 15.654 -5.010  8.621  0.385  0.902  6.849  H61  AMX 80 
+AMX H62  2H6  H 0 1 N N N 16.830 -3.880  9.127  -0.343 0.979  8.471  H62  AMX 81 
+AMX HN4  HN4  H 0 1 N N N 15.359 -4.627  6.525  2.308  0.560  8.706  HN4  AMX 82 
+AMX H31  1H3  H 0 1 N N N 16.189 -3.533  4.382  2.535  -1.986 9.905  H31  AMX 83 
+AMX H32  2H3  H 0 1 N N N 17.750 -4.138  4.707  3.263  -2.063 8.283  H32  AMX 84 
+AMX H21  1H2  H 0 1 N N N 16.913 -6.584  4.289  4.738  -0.153 8.854  H21  AMX 85 
+AMX H22  2H2  H 0 1 N N N 15.341 -6.036  4.046  4.009  -0.076 10.476 H22  AMX 86 
+AMX H11  1H1  H 0 1 N N N 17.748 -4.869  2.362  4.777  -2.389 10.931 H11  AMX 87 
+AMX H12  2H1  H 0 1 N N N 16.913 -6.251  1.847  5.505  -2.466 9.309  H12  AMX 88 
+AMX HN21 1HN2 H 0 0 N N N 16.997 -2.957  1.284  8.301  -1.478 11.494 HN21 AMX 89 
+AMX HN22 2HN2 H 0 0 N N N 15.309 -2.658  0.925  7.418  -2.869 11.164 HN22 AMX 90 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-AMX N1A  C2A SING Y N  1
-AMX N1A  C6A DOUB Y N  2
-AMX C2A  N3A DOUB Y N  3
-AMX C2A  H2A SING N N  4
-AMX N3A  C4A SING Y N  5
-AMX C4A  C5A DOUB Y N  6
-AMX C4A  N9A SING Y N  7
-AMX C5A  C6A SING Y N  8
-AMX C5A  N7A SING Y N  9
-AMX C6A  N6A SING N N 10
-AMX N6A H61A SING N N 11
-AMX N6A H62A SING N N 12
-AMX N7A  C8A DOUB Y N 13
-AMX C8A  N9A SING Y N 14
-AMX C8A  H8A SING N N 15
-AMX N9A  C1B SING N N 16
-AMX C1B  C2B SING N N 17
-AMX C1B  O4B SING N N 18
-AMX C1B  H1B SING N N 19
-AMX C2B  O2B SING N N 20
-AMX C2B  C3B SING N N 21
-AMX C2B  H2B SING N N 22
-AMX O2B HO2A SING N N 23
-AMX C3B  O3B SING N N 24
-AMX C3B  C4B SING N N 25
-AMX C3B  H3B SING N N 26
-AMX O3B  P3B SING N N 27
-AMX P3B  O7A DOUB N N 28
-AMX P3B  O8A SING N N 29
-AMX P3B  O9A SING N N 30
-AMX O8A HOA8 SING N N 31
-AMX O9A HOA9 SING N N 32
-AMX C4B  O4B SING N N 33
-AMX C4B  C5B SING N N 34
-AMX C4B  H4B SING N N 35
-AMX C5B  O5B SING N N 36
-AMX C5B H51A SING N N 37
-AMX C5B H52A SING N N 38
-AMX O5B  P1A SING N N 39
-AMX P1A  O1A DOUB N N 40
-AMX P1A  O2A SING N N 41
-AMX P1A  O3A SING N N 42
-AMX O2A HOA2 SING N N 43
-AMX O3A  P2A SING N N 44
-AMX P2A  O4A DOUB N N 45
-AMX P2A  O5A SING N N 46
-AMX P2A  O6A SING N N 47
-AMX O5A HOA5 SING N N 48
-AMX O6A  CCP SING N N 49
-AMX CBP  CCP SING N N 50
-AMX CBP  CDP SING N N 51
-AMX CBP  CEP SING N N 52
-AMX CBP  CAP SING N N 53
-AMX CCP H121 SING N N 54
-AMX CCP H122 SING N N 55
-AMX CDP H131 SING N N 56
-AMX CDP H132 SING N N 57
-AMX CDP H133 SING N N 58
-AMX CEP H141 SING N N 59
-AMX CEP H142 SING N N 60
-AMX CEP H143 SING N N 61
-AMX CAP  OAP SING N N 62
-AMX CAP  C9P SING N N 63
-AMX CAP  H10 SING N N 64
-AMX OAP  HO1 SING N N 65
-AMX C9P  O9P DOUB N N 66
-AMX C9P  N8P SING N N 67
-AMX N8P  C7P SING N N 68
-AMX N8P  HN8 SING N N 69
-AMX C7P  C6P SING N N 70
-AMX C7P  H71 SING N N 71
-AMX C7P  H72 SING N N 72
-AMX C6P  C5P SING N N 73
-AMX C6P  H61 SING N N 74
-AMX C6P  H62 SING N N 75
-AMX C5P  O5P DOUB N N 76
-AMX C5P  N4P SING N N 77
-AMX N4P  C3P SING N N 78
-AMX N4P  HN4 SING N N 79
-AMX C3P  C2P SING N N 80
-AMX C3P  H31 SING N N 81
-AMX C3P  H32 SING N N 82
-AMX C2P   C1 SING N N 83
-AMX C2P  H21 SING N N 84
-AMX C2P  H22 SING N N 85
-AMX  C1   C2 SING N N 86
-AMX  C1  H11 SING N N 87
-AMX  C1  H12 SING N N 88
-AMX  C2   O2 DOUB N N 89
-AMX  C2   N2 SING N N 90
-AMX  N2 HN21 SING N N 91
-AMX  N2 HN22 SING N N 92
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+AMX N1A C2A  SING Y N 1  
+AMX N1A C6A  DOUB Y N 2  
+AMX C2A N3A  DOUB Y N 3  
+AMX C2A H2A  SING N N 4  
+AMX N3A C4A  SING Y N 5  
+AMX C4A C5A  DOUB Y N 6  
+AMX C4A N9A  SING Y N 7  
+AMX C5A C6A  SING Y N 8  
+AMX C5A N7A  SING Y N 9  
+AMX C6A N6A  SING N N 10 
+AMX N6A H61A SING N N 11 
+AMX N6A H62A SING N N 12 
+AMX N7A C8A  DOUB Y N 13 
+AMX C8A N9A  SING Y N 14 
+AMX C8A H8A  SING N N 15 
+AMX N9A C1B  SING N N 16 
+AMX C1B C2B  SING N N 17 
+AMX C1B O4B  SING N N 18 
+AMX C1B H1B  SING N N 19 
+AMX C2B O2B  SING N N 20 
+AMX C2B C3B  SING N N 21 
+AMX C2B H2B  SING N N 22 
+AMX O2B HO2A SING N N 23 
+AMX C3B O3B  SING N N 24 
+AMX C3B C4B  SING N N 25 
+AMX C3B H3B  SING N N 26 
+AMX O3B P3B  SING N N 27 
+AMX P3B O7A  DOUB N N 28 
+AMX P3B O8A  SING N N 29 
+AMX P3B O9A  SING N N 30 
+AMX O8A HOA8 SING N N 31 
+AMX O9A HOA9 SING N N 32 
+AMX C4B O4B  SING N N 33 
+AMX C4B C5B  SING N N 34 
+AMX C4B H4B  SING N N 35 
+AMX C5B O5B  SING N N 36 
+AMX C5B H51A SING N N 37 
+AMX C5B H52A SING N N 38 
+AMX O5B P1A  SING N N 39 
+AMX P1A O1A  DOUB N N 40 
+AMX P1A O2A  SING N N 41 
+AMX P1A O3A  SING N N 42 
+AMX O2A HOA2 SING N N 43 
+AMX O3A P2A  SING N N 44 
+AMX P2A O4A  DOUB N N 45 
+AMX P2A O5A  SING N N 46 
+AMX P2A O6A  SING N N 47 
+AMX O5A HOA5 SING N N 48 
+AMX O6A CCP  SING N N 49 
+AMX CBP CCP  SING N N 50 
+AMX CBP CDP  SING N N 51 
+AMX CBP CEP  SING N N 52 
+AMX CBP CAP  SING N N 53 
+AMX CCP H121 SING N N 54 
+AMX CCP H122 SING N N 55 
+AMX CDP H131 SING N N 56 
+AMX CDP H132 SING N N 57 
+AMX CDP H133 SING N N 58 
+AMX CEP H141 SING N N 59 
+AMX CEP H142 SING N N 60 
+AMX CEP H143 SING N N 61 
+AMX CAP OAP  SING N N 62 
+AMX CAP C9P  SING N N 63 
+AMX CAP H10  SING N N 64 
+AMX OAP HO1  SING N N 65 
+AMX C9P O9P  DOUB N N 66 
+AMX C9P N8P  SING N N 67 
+AMX N8P C7P  SING N N 68 
+AMX N8P HN8  SING N N 69 
+AMX C7P C6P  SING N N 70 
+AMX C7P H71  SING N N 71 
+AMX C7P H72  SING N N 72 
+AMX C6P C5P  SING N N 73 
+AMX C6P H61  SING N N 74 
+AMX C6P H62  SING N N 75 
+AMX C5P O5P  DOUB N N 76 
+AMX C5P N4P  SING N N 77 
+AMX N4P C3P  SING N N 78 
+AMX N4P HN4  SING N N 79 
+AMX C3P C2P  SING N N 80 
+AMX C3P H31  SING N N 81 
+AMX C3P H32  SING N N 82 
+AMX C2P C1   SING N N 83 
+AMX C2P H21  SING N N 84 
+AMX C2P H22  SING N N 85 
+AMX C1  C2   SING N N 86 
+AMX C1  H11  SING N N 87 
+AMX C1  H12  SING N N 88 
+AMX C2  O2   DOUB N N 89 
+AMX C2  N2   SING N N 90 
+AMX N2  HN21 SING N N 91 
+AMX N2  HN22 SING N N 92 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-AMX           SMILES              ACDLabs 10.04                                                                                                                                                                                                                           O=C(N)CCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC3OC(n2cnc1c(ncnc12)N)C(O)C3OP(=O)(O)O
-AMX SMILES_CANONICAL               CACTVS 3.341                                                                                                                                                                                            CC(C)(CO[P@@](O)(=O)O[P@](O)(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1O[P](O)(O)=O)n2cnc3c(N)ncnc23)[C@@H](O)C(=O)NCCC(=O)NCCCC(N)=O
-AMX           SMILES               CACTVS 3.341                                                                                                                                                                                                      CC(C)(CO[P](O)(=O)O[P](O)(=O)OC[CH]1O[CH]([CH](O)[CH]1O[P](O)(O)=O)n2cnc3c(N)ncnc23)[CH](O)C(=O)NCCC(=O)NCCCC(N)=O
-AMX SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                                                                              CC(C)(CO[P@](=O)(O)O[P@@](=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCCC(=O)N)O
-AMX           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                                                                                           CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCCC(=O)N)O
-AMX            InChI                InChI  1.03 InChI=1S/C23H39N8O17P3/c1-23(2,18(35)21(36)27-7-5-14(33)26-6-3-4-13(24)32)9-45-51(42,43)48-50(40,41)44-8-12-17(47-49(37,38)39)16(34)22(46-12)31-11-30-15-19(25)28-10-29-20(15)31/h10-12,16-18,22,34-35H,3-9H2,1-2H3,(H2,24,32)(H,26,33)(H,27,36)(H,40,41)(H,42,43)(H2,25,28,29)(H2,37,38,39)/t12-,16-,17-,18+,22-/m1/s1
-AMX         InChIKey                InChI  1.03                                                                                                                                                                                                                                                                                             RMWCNISNSABOOL-GRFIIANRSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+AMX SMILES           ACDLabs              10.04 "O=C(N)CCCNC(=O)CCNC(=O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC3OC(n2cnc1c(ncnc12)N)C(O)C3OP(=O)(O)O" 
+AMX SMILES_CANONICAL CACTVS               3.341 "CC(C)(CO[P@@](O)(=O)O[P@](O)(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1O[P](O)(O)=O)n2cnc3c(N)ncnc23)[C@@H](O)C(=O)NCCC(=O)NCCCC(N)=O" 
+AMX SMILES           CACTVS               3.341 "CC(C)(CO[P](O)(=O)O[P](O)(=O)OC[CH]1O[CH]([CH](O)[CH]1O[P](O)(O)=O)n2cnc3c(N)ncnc23)[CH](O)C(=O)NCCC(=O)NCCCC(N)=O" 
+AMX SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(C)(CO[P@](=O)(O)O[P@@](=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCCC(=O)N)O" 
+AMX SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCCC(=O)N)O" 
+AMX InChI            InChI                1.03  
+;InChI=1S/C23H39N8O17P3/c1-23(2,18(35)21(36)27-7-5-14(33)26-6-3-4-13(24)32)9-45-51(42,43)48-50(40,41)44-8-12-17(47-49(37,38)39)16(34)22(46-12)31-11-30-15-19(25)28-10-29-20(15)31/h10-12,16-18,22,34-35H,3-9H2,1-2H3,(H2,24,32)(H,26,33)(H,27,36)(H,40,41)(H,42,43)(H2,25,28,29)(H2,37,38,39)/t12-,16-,17-,18+,22-/m1/s1
+;
+AMX InChIKey         InChI                1.03  RMWCNISNSABOOL-GRFIIANRSA-N 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-AMX "SYSTEMATIC NAME"              ACDLabs 10.04 "(3R)-4-({3-[(4-amino-4-oxobutyl)amino]-3-oxopropyl}amino)-3-hydroxy-2,2-dimethyl-4-oxobutyl [(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-4-hydroxy-3-(phosphonooxy)tetrahydrofuran-2-yl]methyl dihydrogen diphosphate (non-preferred name)"
-AMX "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0             "[[(3R)-4-[[3-[(4-amino-4-oxo-butyl)amino]-3-oxo-propyl]amino]-3-hydroxy-2,2-dimethyl-4-oxo-butoxy]-hydroxy-phosphoryl] [(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxy-oxolan-2-yl]methyl hydrogen phosphate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+AMX "SYSTEMATIC NAME" ACDLabs              10.04 
+"(3R)-4-({3-[(4-amino-4-oxobutyl)amino]-3-oxopropyl}amino)-3-hydroxy-2,2-dimethyl-4-oxobutyl [(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-4-hydroxy-3-(phosphonooxy)tetrahydrofuran-2-yl]methyl dihydrogen diphosphate (non-preferred name)" 
+AMX "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 
+"[[(3R)-4-[[3-[(4-amino-4-oxo-butyl)amino]-3-oxo-propyl]amino]-3-hydroxy-2,2-dimethyl-4-oxo-butoxy]-hydroxy-phosphoryl] [(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxy-oxolan-2-yl]methyl hydrogen phosphate"             
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-AMX  "Create component" 1999-07-08 RCSB
-AMX "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-AMX N1A N 18.699 -10.601  1
-AMX C2A C 18.699  -9.101  2
-AMX N3A N 19.998  -8.351  3
-AMX C4A C 21.297  -9.101  4
-AMX C5A C 21.297 -10.601  5
-AMX C6A C 19.998 -11.351  6
-AMX N6A N 19.998 -12.851  7
-AMX N7A N 22.716 -11.059  8
-AMX C8A C 23.592  -9.851  9
-AMX N9A N 22.716  -8.644 10
-AMX C1B C 23.183  -7.219 11
-AMX C2B C 24.610  -6.758 12
-AMX O2B O 25.822  -7.641 13
-AMX C3B C 24.613  -5.258 14
-AMX O3B O 25.828  -4.378 15
-AMX P3B P 25.673  -2.886 16
-AMX O7A O 25.519  -1.394 17
-AMX O8A O 27.165  -2.732 18
-AMX O9A O 24.181  -3.040 19
-AMX C4B C 23.187  -4.792 20
-AMX O4B O 22.303  -6.003 21
-AMX C5B C 22.726  -3.364 22
-AMX O5B O 21.259  -3.050 23
-AMX P1A P 20.798  -1.622 24
-AMX O1A O 19.371  -2.083 25
-AMX O2A O 22.225  -1.161 26
-AMX O3A O 20.337  -0.195 27
-AMX P2A P 18.870   0.119 28
-AMX O4A O 19.185   1.586 29
-AMX O5A O 18.556  -1.347 30
-AMX O6A O 17.403   0.434 31
-AMX CBP C 15.476   2.176 32
-AMX CCP C 16.942   1.861 33
-AMX CDP C 15.790   3.642 34
-AMX CEP C 15.161   0.709 35
-AMX CAP C 14.009   2.490 36
-AMX OAP O 13.004   1.377 37
-AMX C9P C 13.548   3.917 38
-AMX O9P O 14.554   5.030 39
-AMX N8P N 12.081   4.232 40
-AMX C7P C 11.620   5.659 41
-AMX C6P C 10.154   5.974 42
-AMX C5P C  9.693   7.401 43
-AMX O5P O 10.698   8.514 44
-AMX N4P N  8.226   7.715 45
-AMX C3P C  7.765   9.143 46
-AMX C2P C  6.298   9.457 47
-AMX  C1 C  5.837  10.885 48
-AMX  C2 C  4.370  11.199 49
-AMX  O2 O  3.365  10.086 50
-AMX  N2 N  3.909  12.626 51
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-AMX N1A C2A DOUBLE       NONE  1
-AMX N1A C6A SINGLE       NONE  2
-AMX C2A N3A SINGLE       NONE  3
-AMX N3A C4A DOUBLE       NONE  4
-AMX C4A C5A SINGLE       NONE  5
-AMX C4A N9A SINGLE       NONE  6
-AMX C5A C6A DOUBLE       NONE  7
-AMX C5A N7A SINGLE       NONE  8
-AMX C6A N6A SINGLE       NONE  9
-AMX N7A C8A DOUBLE       NONE 10
-AMX C8A N9A SINGLE       NONE 11
-AMX N9A C1B SINGLE  BEGINDASH 12
-AMX C1B C2B SINGLE       NONE 13
-AMX C1B O4B SINGLE       NONE 14
-AMX C2B O2B SINGLE  BEGINDASH 15
-AMX C2B C3B SINGLE       NONE 16
-AMX C3B O3B SINGLE BEGINWEDGE 17
-AMX C3B C4B SINGLE       NONE 18
-AMX O3B P3B SINGLE       NONE 19
-AMX P3B O7A DOUBLE       NONE 20
-AMX P3B O8A SINGLE       NONE 21
-AMX P3B O9A SINGLE       NONE 22
-AMX C4B O4B SINGLE       NONE 23
-AMX C4B C5B SINGLE BEGINWEDGE 24
-AMX C5B O5B SINGLE       NONE 25
-AMX O5B P1A SINGLE       NONE 26
-AMX P1A O1A DOUBLE       NONE 27
-AMX P1A O2A SINGLE  BEGINDASH 28
-AMX P1A O3A SINGLE       NONE 29
-AMX O3A P2A SINGLE       NONE 30
-AMX P2A O4A DOUBLE       NONE 31
-AMX P2A O5A SINGLE BEGINWEDGE 32
-AMX P2A O6A SINGLE       NONE 33
-AMX O6A CCP SINGLE       NONE 34
-AMX CBP CCP SINGLE       NONE 35
-AMX CBP CDP SINGLE       NONE 36
-AMX CBP CEP SINGLE       NONE 37
-AMX CBP CAP SINGLE       NONE 38
-AMX CAP OAP SINGLE BEGINWEDGE 39
-AMX CAP C9P SINGLE       NONE 40
-AMX C9P O9P DOUBLE       NONE 41
-AMX C9P N8P SINGLE       NONE 42
-AMX N8P C7P SINGLE       NONE 43
-AMX C7P C6P SINGLE       NONE 44
-AMX C6P C5P SINGLE       NONE 45
-AMX C5P O5P DOUBLE       NONE 46
-AMX C5P N4P SINGLE       NONE 47
-AMX N4P C3P SINGLE       NONE 48
-AMX C3P C2P SINGLE       NONE 49
-AMX C2P  C1 SINGLE       NONE 50
-AMX  C1  C2 SINGLE       NONE 51
-AMX  C2  O2 DOUBLE       NONE 52
-AMX  C2  N2 SINGLE       NONE 53
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-AMX MurckoScaffold S1 scaffold c1ncc2ncn([C@H]3CCCO3)c2n1 InChI=1S/C9H10N4O/c1-2-8(14-3-1)13-6-12-7-4-10-5-11-9(7)13/h4-6,8H,1-3H2/t8-/m1/s1 DAKONNSVCLKUJN-MRVPVSSYSA-N
-AMX        adenine F1 fragment          Nc1ncnc2nc[nH]c12                    InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-AMX          amide F2 fragment                    CC(N)=O                                             InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-AMX      imidazole F3 fragment                 c1c[nH]cn1                                         InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-AMX      phosphate F4 fragment                 O=P(O)(O)O                                            InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-AMX         purine F5 fragment           c1ncc2[nH]cnc2n1                           InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-AMX     pyrimidine F6 fragment                   c1cncnc1                                               InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-AMX         ribose F7 fragment              OCC1OCC(O)C1O                                  InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-AMX N1A F1 1
-AMX C6A F1 1
-AMX C5A F1 1
-AMX C4A F1 1
-AMX N3A F1 1
-AMX C2A F1 1
-AMX N9A F1 1
-AMX C8A F1 1
-AMX N7A F1 1
-AMX N6A F1 1
-AMX N8P F2 1
-AMX C9P F2 1
-AMX O9P F2 1
-AMX CAP F2 1
-AMX N4P F2 2
-AMX C5P F2 2
-AMX O5P F2 2
-AMX C6P F2 2
-AMX  N2 F2 3
-AMX  C2 F2 3
-AMX  O2 F2 3
-AMX  C1 F2 3
-AMX C4A F3 1
-AMX C5A F3 1
-AMX N7A F3 1
-AMX C8A F3 1
-AMX N9A F3 1
-AMX O3B F4 1
-AMX P3B F4 1
-AMX O7A F4 1
-AMX O8A F4 1
-AMX O9A F4 1
-AMX O5B F4 2
-AMX P1A F4 2
-AMX O1A F4 2
-AMX O2A F4 2
-AMX O3A F4 2
-AMX O3A F4 3
-AMX P2A F4 3
-AMX O4A F4 3
-AMX O5A F4 3
-AMX O6A F4 3
-AMX N7A F5 1
-AMX C8A F5 1
-AMX N9A F5 1
-AMX C4A F5 1
-AMX C5A F5 1
-AMX C6A F5 1
-AMX N1A F5 1
-AMX C2A F5 1
-AMX N3A F5 1
-AMX C5A F6 1
-AMX C4A F6 1
-AMX N3A F6 1
-AMX C2A F6 1
-AMX N1A F6 1
-AMX C6A F6 1
-AMX C2B F7 1
-AMX C3B F7 1
-AMX C4B F7 1
-AMX O4B F7 1
-AMX C1B F7 1
-AMX C5B F7 1
-AMX O5B F7 1
-AMX O3B F7 1
-AMX O2B F7 1
-AMX N1A S1 1
-AMX C2A S1 1
-AMX N3A S1 1
-AMX C4A S1 1
-AMX C5A S1 1
-AMX C6A S1 1
-AMX N7A S1 1
-AMX C8A S1 1
-AMX N9A S1 1
-AMX C1B S1 1
-AMX C2B S1 1
-AMX C3B S1 1
-AMX C4B S1 1
-AMX O4B S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               AMX
-_pdbe_chem_comp_rdkit_properties.exactmw                               792.165
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           25
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           12
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     29
-_pdbe_chem_comp_rdkit_properties.NumHBD                                10
-_pdbe_chem_comp_rdkit_properties.NumHBA                                22
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        28
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         3
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.652
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             343.663
-_pdbe_chem_comp_rdkit_properties.tpsa                                  389.650
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -3.139
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             165.031
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         51
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-AMX UniChem ChEMBL    CHEMBL1230978
-AMX UniChem   ZINC ZINC000098208664
-AMX UniChem BRENDA           194468
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AMX  N1A -13.132 -1.976 -1.414 ETKDGv2  1
-AMX  C2A -12.258 -2.883 -1.042 ETKDGv2  2
-AMX  N3A -11.057 -2.498 -0.332 ETKDGv2  3
-AMX  C4A -10.917 -1.243 -0.034 ETKDGv2  4
-AMX  C5A -11.839 -0.244 -0.432 ETKDGv2  5
-AMX  C6A -12.928 -0.573 -1.125 ETKDGv2  6
-AMX  N6A -13.849  0.410 -1.597 ETKDGv2  7
-AMX  N7A -11.306  1.034 -0.113 ETKDGv2  8
-AMX  C8A -10.145  0.794  0.442 ETKDGv2  9
-AMX  N9A  -9.802 -0.604  0.553 ETKDGv2 10
-AMX  C1B  -8.477 -1.177  0.797 ETKDGv2 11
-AMX  C2B  -7.589 -1.157 -0.452 ETKDGv2 12
-AMX  O2B  -8.300 -1.126 -1.669 ETKDGv2 13
-AMX  C3B  -6.720  0.055 -0.229 ETKDGv2 14
-AMX  O3B  -5.457 -0.122 -0.846 ETKDGv2 15
-AMX  P3B  -4.981  1.329 -1.607 ETKDGv2 16
-AMX  O7A  -5.914  1.631 -2.759 ETKDGv2 17
-AMX  O8A  -5.024  2.605 -0.496 ETKDGv2 18
-AMX  O9A  -3.407  1.159 -2.202 ETKDGv2 19
-AMX  C4B  -6.638  0.098  1.302 ETKDGv2 20
-AMX  O4B  -7.837 -0.444  1.823 ETKDGv2 21
-AMX  C5B  -5.451 -0.680  1.898 ETKDGv2 22
-AMX  O5B  -4.250  0.023  1.678 ETKDGv2 23
-AMX  P1A  -2.952 -0.934  2.247 ETKDGv2 24
-AMX  O1A  -2.746 -2.118  1.327 ETKDGv2 25
-AMX  O2A  -3.289 -1.498  3.809 ETKDGv2 26
-AMX  O3A  -1.519 -0.019  2.333 ETKDGv2 27
-AMX  P2A  -1.308  0.773  0.838 ETKDGv2 28
-AMX  O4A  -2.334  1.876  0.708 ETKDGv2 29
-AMX  O5A  -1.483 -0.303 -0.459 ETKDGv2 30
-AMX  O6A   0.241  1.485  0.759 ETKDGv2 31
-AMX  CBP   2.620  1.160  1.182 ETKDGv2 32
-AMX  CCP   1.174  0.625  1.375 ETKDGv2 33
-AMX  CDP   2.709  2.588  1.771 ETKDGv2 34
-AMX  CEP   2.940  1.218 -0.331 ETKDGv2 35
-AMX  CAP   3.611  0.210  1.937 ETKDGv2 36
-AMX  OAP   3.507 -1.103  1.442 ETKDGv2 37
-AMX  C9P   5.052  0.665  1.870 ETKDGv2 38
-AMX  O9P   5.546  1.289  2.849 ETKDGv2 39
-AMX  N8P   5.866  0.368  0.726 ETKDGv2 40
-AMX  C7P   7.232  0.877  0.612 ETKDGv2 41
-AMX  C6P   7.866  0.444 -0.717 ETKDGv2 42
-AMX  C5P   9.276  0.942 -0.888 ETKDGv2 43
-AMX  O5P   9.822  1.651  0.002 ETKDGv2 44
-AMX  N4P   9.997  0.607 -2.082 ETKDGv2 45
-AMX  C3P  11.387  1.004 -2.304 ETKDGv2 46
-AMX  C2P  12.348  0.175 -1.443 ETKDGv2 47
-AMX   C1  12.304 -1.317 -1.810 ETKDGv2 48
-AMX   C2  13.269 -2.148 -1.009 ETKDGv2 49
-AMX   O2  14.010 -1.623 -0.134 ETKDGv2 50
-AMX   N2  13.348 -3.554 -1.239 ETKDGv2 51
-AMX  H2A -12.431 -3.924 -1.278 ETKDGv2 52
-AMX H61A -14.686  0.118 -2.149 ETKDGv2 53
-AMX H62A -13.705  1.425 -1.399 ETKDGv2 54
-AMX  H8A  -9.489  1.590  0.770 ETKDGv2 55
-AMX  H1B  -8.602 -2.227  1.140 ETKDGv2 56
-AMX  H2B  -6.954 -2.071 -0.448 ETKDGv2 57
-AMX HO2A  -8.721 -0.234 -1.774 ETKDGv2 58
-AMX  H3B  -7.281  0.962 -0.565 ETKDGv2 59
-AMX HOA8  -4.639  3.377 -0.982 ETKDGv2 60
-AMX HOA9  -3.427  0.323 -2.732 ETKDGv2 61
-AMX  H4B  -6.561  1.157  1.632 ETKDGv2 62
-AMX H51A  -5.418 -1.699  1.447 ETKDGv2 63
-AMX H52A  -5.631 -0.777  2.992 ETKDGv2 64
-AMX HOA2  -3.774 -2.353  3.680 ETKDGv2 65
-AMX HOA5  -0.801 -1.005 -0.308 ETKDGv2 66
-AMX H121   0.962  0.562  2.467 ETKDGv2 67
-AMX H122   1.112 -0.399  0.941 ETKDGv2 68
-AMX H131   2.486  2.577  2.859 ETKDGv2 69
-AMX H132   1.987  3.271  1.274 ETKDGv2 70
-AMX H133   3.723  3.018  1.625 ETKDGv2 71
-AMX H141   2.934  0.200 -0.776 ETKDGv2 72
-AMX H142   3.931  1.683 -0.513 ETKDGv2 73
-AMX H143   2.189  1.833 -0.871 ETKDGv2 74
-AMX  H10   3.309  0.206  3.012 ETKDGv2 75
-AMX  HO1   3.918 -1.701  2.119 ETKDGv2 76
-AMX  HN8   5.466 -0.220 -0.040 ETKDGv2 77
-AMX  H71   7.211  1.987  0.667 ETKDGv2 78
-AMX  H72   7.838  0.484  1.458 ETKDGv2 79
-AMX  H61   7.250  0.831 -1.557 ETKDGv2 80
-AMX  H62   7.876 -0.666 -0.771 ETKDGv2 81
-AMX  HN4   9.500  0.091 -2.843 ETKDGv2 82
-AMX  H31  11.508  2.084 -2.070 ETKDGv2 83
-AMX  H32  11.643  0.866 -3.377 ETKDGv2 84
-AMX  H21  12.096  0.305 -0.368 ETKDGv2 85
-AMX  H22  13.379  0.561 -1.603 ETKDGv2 86
-AMX  H11  12.549 -1.438 -2.888 ETKDGv2 87
-AMX  H12  11.280 -1.712 -1.638 ETKDGv2 88
-AMX HN21  12.743 -4.009 -1.958 ETKDGv2 89
-AMX HN22  14.012 -4.143 -0.690 ETKDGv2 90
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+AMX "Create component"  1999-07-08 RCSB 
+AMX "Modify descriptor" 2011-06-04 RCSB 
+# 

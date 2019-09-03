@@ -1,427 +1,174 @@
 data_ELW
-#
-_chem_comp.id                                        ELW
-_chem_comp.name                                      5-fluoranyl-1-[4-[2-[(3~{R})-1-methyl-3-oxidanyl-2-oxidanylidene-pyrrol-3-yl]ethynyl]pyridin-2-yl]indazole-3-carboxamide
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C20 H14 F N5 O3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2018-03-29
-_chem_comp.pdbx_modified_date                        2018-06-29
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            391.355
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         ELW
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6G4Z
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    ELW 
+_chem_comp.name                                  "5-fluoranyl-1-[4-[2-[(3~{R})-1-methyl-3-oxidanyl-2-oxidanylidene-pyrrol-3-yl]ethynyl]pyridin-2-yl]indazole-3-carboxamide" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C20 H14 F N5 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2018-03-29 
+_chem_comp.pdbx_modified_date                    2018-06-29 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        391.355 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ELW 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6G4Z 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ELW  C4  C1 C 0 1 N N N 60.216 27.940  -3.488  6.135  1.174  0.706  C4 ELW  1
-ELW C14  C2 C 0 1 Y N N 55.576 29.455  -6.137  0.270  0.542  0.036 C14 ELW  2
-ELW  C5  C3 C 0 1 N N R 58.834 27.341  -3.334  5.111  0.079  0.924  C5 ELW  3
-ELW C11  C4 C 0 1 Y N N 53.616 30.604  -4.696 -0.100  3.087 -0.888 C11 ELW  4
-ELW  C7  C5 C 0 1 N N N 57.757 28.256  -3.722  3.764  0.549  0.561  C7 ELW  5
-ELW  C8  C6 C 0 1 N N N 56.829 28.896  -4.175  2.690  0.925  0.271  C8 ELW  6
-ELW  C9  C7 C 0 1 Y N N 55.681 29.483  -4.767  1.380  1.383 -0.083  C9 ELW  7
-ELW C10  C8 C 0 1 Y N N 54.687 30.067  -4.020  1.177  2.685 -0.558 C10 ELW  8
-ELW C13  C9 C 0 1 Y N N 54.467 30.021  -6.721 -0.979  1.025 -0.324 C13 ELW  9
-ELW  N2  N1 N 0 1 N N N 60.059 25.997  -4.772  6.664 -0.552 -0.628  N2 ELW 10
-ELW  C3 C10 C 0 1 N N N 60.999 26.996  -4.374  6.981  0.723 -0.196  C3 ELW 11
-ELW  C1 C11 C 0 1 N N N 60.416 24.941  -5.679  7.433 -1.298 -1.627  C1 ELW 12
-ELW  O6  O1 O 0 1 N N N 58.648 26.822  -2.025  5.135 -0.369  2.281  O6 ELW 13
-ELW N12  N2 N 0 1 Y N N 53.481 30.597  -6.026 -1.123  2.263 -0.774 N12 ELW 14
-ELW N15  N3 N 0 1 Y N N 54.407 29.996  -8.125 -2.098  0.198 -0.212 N15 ELW 15
-ELW N16  N4 N 0 1 Y N N 55.493 29.660  -8.846 -2.058 -1.085 -0.242 N16 ELW 16
-ELW C17 C12 C 0 1 Y N N 55.099 29.762 -10.117 -3.254 -1.619 -0.114 C17 ELW 17
-ELW C18 C13 C 0 1 N N N 55.988 29.463 -11.208 -3.582 -3.056 -0.103 C18 ELW 18
-ELW N19  N5 N 0 1 N N N 57.192 28.947 -10.791 -2.603 -3.972 -0.234 N19 ELW 19
-ELW O20  O2 O 0 1 N N N 55.670 29.629 -12.378 -4.738 -3.414  0.023 O20 ELW 20
-ELW C21 C14 C 0 1 Y N N 53.748 30.169 -10.203 -4.196 -0.500  0.016 C21 ELW 21
-ELW C22 C15 C 0 1 Y N N 53.323 30.315  -8.900 -3.386  0.650 -0.050 C22 ELW 22
-ELW C23 C16 C 0 1 Y N N 52.049 30.706  -8.561 -3.974  1.906  0.044 C23 ELW 23
-ELW C24 C17 C 0 1 Y N N 51.196 30.951  -9.608 -5.338  2.014  0.199 C24 ELW 24
-ELW C25 C18 C 0 1 Y N N 51.610 30.803 -10.910 -6.138  0.878  0.264 C25 ELW 25
-ELW F26  F1 F 0 1 N N N 50.733 31.051 -11.896 -7.474  1.005  0.417 F26 ELW 26
-ELW C27 C19 C 0 1 Y N N 52.883 30.413 -11.249 -5.573 -0.377  0.178 C27 ELW 27
-ELW C28 C20 C 0 1 N N N 58.820 26.136  -4.221  5.563 -1.026 -0.010 C28 ELW 28
-ELW O29  O3 O 0 1 N N N 57.847 25.421  -4.399  5.040 -2.107 -0.174 O29 ELW 29
-ELW  H1  H1 H 0 1 N N N 60.573 28.861  -3.051  6.162  2.138  1.193  H1 ELW 30
-ELW  H2  H2 H 0 1 N N N 56.347 28.999  -6.741  0.384 -0.469  0.398  H2 ELW 31
-ELW  H3  H3 H 0 1 N N N 52.831 31.062  -4.113 -0.263  4.090 -1.254  H3 ELW 32
-ELW  H4  H4 H 0 1 N N N 54.744 30.103  -2.942  2.010  3.364 -0.664  H4 ELW 33
-ELW  H5  H5 H 0 1 N N N 62.042 27.063  -4.646  7.825  1.288 -0.562  H5 ELW 34
-ELW  H6  H6 H 0 1 N N N 59.545 24.290  -5.845  8.275 -0.693 -1.963  H6 ELW 35
-ELW  H7  H7 H 0 1 N N N 60.738 25.374  -6.637  7.804 -2.222 -1.184  H7 ELW 36
-ELW  H8  H8 H 0 1 N N N 61.238 24.351  -5.249  6.792 -1.534 -2.476  H8 ELW 37
-ELW  H9  H9 H 0 1 N N N 58.231 25.970  -2.078  4.918  0.318  2.926  H9 ELW 38
-ELW H10 H10 H 0 1 N N N 57.881 28.677 -11.464 -1.681 -3.686 -0.335 H10 ELW 39
-ELW H11 H11 H 0 1 N N N 57.379 28.841  -9.814 -2.819 -4.918 -0.227 H11 ELW 40
-ELW H12 H12 H 0 1 N N N 51.738 30.814  -7.532 -3.363  2.795 -0.005 H12 ELW 41
-ELW H13 H13 H 0 1 N N N 50.183 31.265  -9.405 -5.792  2.992  0.272 H13 ELW 42
-ELW H14 H14 H 0 1 N N N 53.190 30.303 -12.279 -6.196 -1.258  0.228 H14 ELW 43
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ELW C4  C1  C 0 1 N N N 60.216 27.940 -3.488  6.135  1.174  0.706  C4  ELW 1  
+ELW C14 C2  C 0 1 Y N N 55.576 29.455 -6.137  0.270  0.542  0.036  C14 ELW 2  
+ELW C5  C3  C 0 1 N N R 58.834 27.341 -3.334  5.111  0.079  0.924  C5  ELW 3  
+ELW C11 C4  C 0 1 Y N N 53.616 30.604 -4.696  -0.100 3.087  -0.888 C11 ELW 4  
+ELW C7  C5  C 0 1 N N N 57.757 28.256 -3.722  3.764  0.549  0.561  C7  ELW 5  
+ELW C8  C6  C 0 1 N N N 56.829 28.896 -4.175  2.690  0.925  0.271  C8  ELW 6  
+ELW C9  C7  C 0 1 Y N N 55.681 29.483 -4.767  1.380  1.383  -0.083 C9  ELW 7  
+ELW C10 C8  C 0 1 Y N N 54.687 30.067 -4.020  1.177  2.685  -0.558 C10 ELW 8  
+ELW C13 C9  C 0 1 Y N N 54.467 30.021 -6.721  -0.979 1.025  -0.324 C13 ELW 9  
+ELW N2  N1  N 0 1 N N N 60.059 25.997 -4.772  6.664  -0.552 -0.628 N2  ELW 10 
+ELW C3  C10 C 0 1 N N N 60.999 26.996 -4.374  6.981  0.723  -0.196 C3  ELW 11 
+ELW C1  C11 C 0 1 N N N 60.416 24.941 -5.679  7.433  -1.298 -1.627 C1  ELW 12 
+ELW O6  O1  O 0 1 N N N 58.648 26.822 -2.025  5.135  -0.369 2.281  O6  ELW 13 
+ELW N12 N2  N 0 1 Y N N 53.481 30.597 -6.026  -1.123 2.263  -0.774 N12 ELW 14 
+ELW N15 N3  N 0 1 Y N N 54.407 29.996 -8.125  -2.098 0.198  -0.212 N15 ELW 15 
+ELW N16 N4  N 0 1 Y N N 55.493 29.660 -8.846  -2.058 -1.085 -0.242 N16 ELW 16 
+ELW C17 C12 C 0 1 Y N N 55.099 29.762 -10.117 -3.254 -1.619 -0.114 C17 ELW 17 
+ELW C18 C13 C 0 1 N N N 55.988 29.463 -11.208 -3.582 -3.056 -0.103 C18 ELW 18 
+ELW N19 N5  N 0 1 N N N 57.192 28.947 -10.791 -2.603 -3.972 -0.234 N19 ELW 19 
+ELW O20 O2  O 0 1 N N N 55.670 29.629 -12.378 -4.738 -3.414 0.023  O20 ELW 20 
+ELW C21 C14 C 0 1 Y N N 53.748 30.169 -10.203 -4.196 -0.500 0.016  C21 ELW 21 
+ELW C22 C15 C 0 1 Y N N 53.323 30.315 -8.900  -3.386 0.650  -0.050 C22 ELW 22 
+ELW C23 C16 C 0 1 Y N N 52.049 30.706 -8.561  -3.974 1.906  0.044  C23 ELW 23 
+ELW C24 C17 C 0 1 Y N N 51.196 30.951 -9.608  -5.338 2.014  0.199  C24 ELW 24 
+ELW C25 C18 C 0 1 Y N N 51.610 30.803 -10.910 -6.138 0.878  0.264  C25 ELW 25 
+ELW F26 F1  F 0 1 N N N 50.733 31.051 -11.896 -7.474 1.005  0.417  F26 ELW 26 
+ELW C27 C19 C 0 1 Y N N 52.883 30.413 -11.249 -5.573 -0.377 0.178  C27 ELW 27 
+ELW C28 C20 C 0 1 N N N 58.820 26.136 -4.221  5.563  -1.026 -0.010 C28 ELW 28 
+ELW O29 O3  O 0 1 N N N 57.847 25.421 -4.399  5.040  -2.107 -0.174 O29 ELW 29 
+ELW H1  H1  H 0 1 N N N 60.573 28.861 -3.051  6.162  2.138  1.193  H1  ELW 30 
+ELW H2  H2  H 0 1 N N N 56.347 28.999 -6.741  0.384  -0.469 0.398  H2  ELW 31 
+ELW H3  H3  H 0 1 N N N 52.831 31.062 -4.113  -0.263 4.090  -1.254 H3  ELW 32 
+ELW H4  H4  H 0 1 N N N 54.744 30.103 -2.942  2.010  3.364  -0.664 H4  ELW 33 
+ELW H5  H5  H 0 1 N N N 62.042 27.063 -4.646  7.825  1.288  -0.562 H5  ELW 34 
+ELW H6  H6  H 0 1 N N N 59.545 24.290 -5.845  8.275  -0.693 -1.963 H6  ELW 35 
+ELW H7  H7  H 0 1 N N N 60.738 25.374 -6.637  7.804  -2.222 -1.184 H7  ELW 36 
+ELW H8  H8  H 0 1 N N N 61.238 24.351 -5.249  6.792  -1.534 -2.476 H8  ELW 37 
+ELW H9  H9  H 0 1 N N N 58.231 25.970 -2.078  4.918  0.318  2.926  H9  ELW 38 
+ELW H10 H10 H 0 1 N N N 57.881 28.677 -11.464 -1.681 -3.686 -0.335 H10 ELW 39 
+ELW H11 H11 H 0 1 N N N 57.379 28.841 -9.814  -2.819 -4.918 -0.227 H11 ELW 40 
+ELW H12 H12 H 0 1 N N N 51.738 30.814 -7.532  -3.363 2.795  -0.005 H12 ELW 41 
+ELW H13 H13 H 0 1 N N N 50.183 31.265 -9.405  -5.792 2.992  0.272  H13 ELW 42 
+ELW H14 H14 H 0 1 N N N 53.190 30.303 -12.279 -6.196 -1.258 0.228  H14 ELW 43 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ELW O20 C18 DOUB N N  1
-ELW F26 C25 SING N N  2
-ELW C27 C25 DOUB Y N  3
-ELW C27 C21 SING Y N  4
-ELW C18 N19 SING N N  5
-ELW C18 C17 SING N N  6
-ELW C25 C24 SING Y N  7
-ELW C21 C17 SING Y N  8
-ELW C21 C22 DOUB Y N  9
-ELW C17 N16 DOUB Y N 10
-ELW C24 C23 DOUB Y N 11
-ELW C22 C23 SING Y N 12
-ELW C22 N15 SING Y N 13
-ELW N16 N15 SING Y N 14
-ELW N15 C13 SING N N 15
-ELW C13 C14 DOUB Y N 16
-ELW C13 N12 SING Y N 17
-ELW C14  C9 SING Y N 18
-ELW N12 C11 DOUB Y N 19
-ELW  C1  N2 SING N N 20
-ELW  N2  C3 SING N N 21
-ELW  N2 C28 SING N N 22
-ELW  C9  C8 SING N N 23
-ELW  C9 C10 DOUB Y N 24
-ELW C11 C10 SING Y N 25
-ELW O29 C28 DOUB N N 26
-ELW  C3  C4 DOUB N N 27
-ELW C28  C5 SING N N 28
-ELW  C8  C7 TRIP N N 29
-ELW  C7  C5 SING N N 30
-ELW  C4  C5 SING N N 31
-ELW  C5  O6 SING N N 32
-ELW  C4  H1 SING N N 33
-ELW C14  H2 SING N N 34
-ELW C11  H3 SING N N 35
-ELW C10  H4 SING N N 36
-ELW  C3  H5 SING N N 37
-ELW  C1  H6 SING N N 38
-ELW  C1  H7 SING N N 39
-ELW  C1  H8 SING N N 40
-ELW  O6  H9 SING N N 41
-ELW N19 H10 SING N N 42
-ELW N19 H11 SING N N 43
-ELW C23 H12 SING N N 44
-ELW C24 H13 SING N N 45
-ELW C27 H14 SING N N 46
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ELW O20 C18 DOUB N N 1  
+ELW F26 C25 SING N N 2  
+ELW C27 C25 DOUB Y N 3  
+ELW C27 C21 SING Y N 4  
+ELW C18 N19 SING N N 5  
+ELW C18 C17 SING N N 6  
+ELW C25 C24 SING Y N 7  
+ELW C21 C17 SING Y N 8  
+ELW C21 C22 DOUB Y N 9  
+ELW C17 N16 DOUB Y N 10 
+ELW C24 C23 DOUB Y N 11 
+ELW C22 C23 SING Y N 12 
+ELW C22 N15 SING Y N 13 
+ELW N16 N15 SING Y N 14 
+ELW N15 C13 SING N N 15 
+ELW C13 C14 DOUB Y N 16 
+ELW C13 N12 SING Y N 17 
+ELW C14 C9  SING Y N 18 
+ELW N12 C11 DOUB Y N 19 
+ELW C1  N2  SING N N 20 
+ELW N2  C3  SING N N 21 
+ELW N2  C28 SING N N 22 
+ELW C9  C8  SING N N 23 
+ELW C9  C10 DOUB Y N 24 
+ELW C11 C10 SING Y N 25 
+ELW O29 C28 DOUB N N 26 
+ELW C3  C4  DOUB N N 27 
+ELW C28 C5  SING N N 28 
+ELW C8  C7  TRIP N N 29 
+ELW C7  C5  SING N N 30 
+ELW C4  C5  SING N N 31 
+ELW C5  O6  SING N N 32 
+ELW C4  H1  SING N N 33 
+ELW C14 H2  SING N N 34 
+ELW C11 H3  SING N N 35 
+ELW C10 H4  SING N N 36 
+ELW C3  H5  SING N N 37 
+ELW C1  H6  SING N N 38 
+ELW C1  H7  SING N N 39 
+ELW C1  H8  SING N N 40 
+ELW O6  H9  SING N N 41 
+ELW N19 H10 SING N N 42 
+ELW N19 H11 SING N N 43 
+ELW C23 H12 SING N N 44 
+ELW C24 H13 SING N N 45 
+ELW C27 H14 SING N N 46 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ELW            InChI                InChI  1.03 InChI=1S/C20H14FN5O3/c1-25-9-7-20(29,19(25)28)6-4-12-5-8-23-16(10-12)26-15-3-2-13(21)11-14(15)17(24-26)18(22)27/h2-3,5,7-11,29H,1H3,(H2,22,27)/t20-/m0/s1
-ELW         InChIKey                InChI  1.03                                                                                                                               ZZMZSZVGWQGKCR-FQEVSTJZSA-N
-ELW SMILES_CANONICAL               CACTVS 3.385                                                                                                 CN1C=C[C@@](O)(C#Cc2ccnc(c2)n3nc(C(N)=O)c4cc(F)ccc34)C1=O
-ELW           SMILES               CACTVS 3.385                                                                                                   CN1C=C[C](O)(C#Cc2ccnc(c2)n3nc(C(N)=O)c4cc(F)ccc34)C1=O
-ELW SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                  CN1C=C[C@](C1=O)(C#Cc2ccnc(c2)n3c4ccc(cc4c(n3)C(=O)N)F)O
-ELW           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                     CN1C=CC(C1=O)(C#Cc2ccnc(c2)n3c4ccc(cc4c(n3)C(=O)N)F)O
-#
-_pdbx_chem_comp_identifier.comp_id               ELW
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.6
-_pdbx_chem_comp_identifier.identifier            5-fluoranyl-1-[4-[2-[(3~{R})-1-methyl-3-oxidanyl-2-oxidanylidene-pyrrol-3-yl]ethynyl]pyridin-2-yl]indazole-3-carboxamide
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ELW InChI            InChI                1.03  "InChI=1S/C20H14FN5O3/c1-25-9-7-20(29,19(25)28)6-4-12-5-8-23-16(10-12)26-15-3-2-13(21)11-14(15)17(24-26)18(22)27/h2-3,5,7-11,29H,1H3,(H2,22,27)/t20-/m0/s1" 
+ELW InChIKey         InChI                1.03  ZZMZSZVGWQGKCR-FQEVSTJZSA-N                                                                                                                                 
+ELW SMILES_CANONICAL CACTVS               3.385 "CN1C=C[C@@](O)(C#Cc2ccnc(c2)n3nc(C(N)=O)c4cc(F)ccc34)C1=O"                                                                                                 
+ELW SMILES           CACTVS               3.385 "CN1C=C[C](O)(C#Cc2ccnc(c2)n3nc(C(N)=O)c4cc(F)ccc34)C1=O"                                                                                                   
+ELW SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "CN1C=C[C@](C1=O)(C#Cc2ccnc(c2)n3c4ccc(cc4c(n3)C(=O)N)F)O"                                                                                                  
+ELW SMILES           "OpenEye OEToolkits" 2.0.6 "CN1C=CC(C1=O)(C#Cc2ccnc(c2)n3c4ccc(cc4c(n3)C(=O)N)F)O"                                                                                                     
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ELW "Create component" 2018-03-29  EBI
-ELW  "Initial release" 2018-07-04 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ELW "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "5-fluoranyl-1-[4-[2-[(3~{R})-1-methyl-3-oxidanyl-2-oxidanylidene-pyrrol-3-yl]ethynyl]pyridin-2-yl]indazole-3-carboxamide" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ELW  C4 C  6.178 -6.780  1
-ELW C14 C  9.325 -0.634  2
-ELW  C5 C  6.785 -5.409  3
-ELW C11 C 12.260 -1.253  4
-ELW  C7 C  7.787 -4.293  5
-ELW  C8 C  8.789 -3.176  6
-ELW  C9 C  9.791 -2.060  7
-ELW C10 C 11.259 -2.369  8
-ELW C13 C 10.327  0.482  9
-ELW  N2 N  4.371 -5.160 10
-ELW  C3 C  4.686 -6.626 11
-ELW  C1 C  3.000 -4.552 12
-ELW  O6 O  8.157 -6.017 13
-ELW N12 N 11.794  0.173 14
-ELW N15 N  9.861  1.908 15
-ELW N16 N 10.736  3.115 16
-ELW C17 C  9.861  4.322 17
-ELW C18 C 10.327  5.748 18
-ELW N19 N  9.325  6.865 19
-ELW O20 O 11.794  6.058 20
-ELW C21 C  8.441  3.865 21
-ELW C22 C  8.441  2.365 22
-ELW C23 C  7.142  1.615 23
-ELW C24 C  5.843  2.365 24
-ELW C25 C  5.843  3.865 25
-ELW F26 F  4.544  4.615 26
-ELW C27 C  7.142  4.615 27
-ELW C28 C  5.669 -4.407 28
-ELW O29 O  5.823 -2.915 29
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ELW O20 C18 DOUBLE      NONE  1
-ELW F26 C25 SINGLE      NONE  2
-ELW C27 C25 SINGLE      NONE  3
-ELW C27 C21 DOUBLE      NONE  4
-ELW C18 N19 SINGLE      NONE  5
-ELW C18 C17 SINGLE      NONE  6
-ELW C25 C24 DOUBLE      NONE  7
-ELW C21 C17 SINGLE      NONE  8
-ELW C21 C22 SINGLE      NONE  9
-ELW C17 N16 DOUBLE      NONE 10
-ELW C24 C23 SINGLE      NONE 11
-ELW C22 C23 DOUBLE      NONE 12
-ELW C22 N15 SINGLE      NONE 13
-ELW N16 N15 SINGLE      NONE 14
-ELW N15 C13 SINGLE      NONE 15
-ELW C13 C14 DOUBLE      NONE 16
-ELW C13 N12 SINGLE      NONE 17
-ELW C14  C9 SINGLE      NONE 18
-ELW N12 C11 DOUBLE      NONE 19
-ELW  C1  N2 SINGLE      NONE 20
-ELW  N2  C3 SINGLE      NONE 21
-ELW  N2 C28 SINGLE      NONE 22
-ELW  C9  C8 SINGLE      NONE 23
-ELW  C9 C10 DOUBLE      NONE 24
-ELW C11 C10 SINGLE      NONE 25
-ELW O29 C28 DOUBLE      NONE 26
-ELW  C3  C4 DOUBLE      NONE 27
-ELW C28  C5 SINGLE      NONE 28
-ELW  C8  C7 TRIPLE      NONE 29
-ELW  C7  C5 SINGLE      NONE 30
-ELW  C4  C5 SINGLE      NONE 31
-ELW  C5  O6 SINGLE BEGINDASH 32
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-ELW MurckoScaffold S1 scaffold O=C1NC=CC1C#Cc1ccnc(-n2ncc3ccccc32)c1 InChI=1S/C18H12N4O/c23-18-14(8-10-20-18)6-5-13-7-9-19-17(11-13)22-16-4-2-1-3-15(16)12-21-22/h1-4,7-12,14H,(H,20,23) VIOCDAKMWKIPKR-UHFFFAOYSA-N
-ELW          amide F1 fragment                               CC(N)=O                                                                              InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-ELW         phenyl F2 fragment                              c1ccccc1                                                                                  InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-ELW       pyrazole F3 fragment                            c1cn[nH]c1                                                                          InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5) WTKZEGDFNFYCGP-UHFFFAOYSA-N
-ELW       pyridine F4 fragment                              c1ccncc1                                                                                 InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
-ELW    2-pyrroline F5 fragment                              C1=CNCC1                                                                           InChI=1S/C4H7N/c1-2-4-5-3-1/h1,3,5H,2,4H2 RSEBUVRVKCANEP-UHFFFAOYSA-N
-ELW    Z2697514548 F6 fragment                Cn1nc(C(N)=O)c2ccccc21                                           InChI=1S/C9H9N3O/c1-12-7-5-3-2-4-6(7)8(11-12)9(10)13/h2-5H,1H3,(H2,10,13) PVROETJHCUDAFG-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ELW  N2 F1 1
-ELW C28 F1 1
-ELW O29 F1 1
-ELW  C5 F1 1
-ELW N19 F1 2
-ELW C18 F1 2
-ELW O20 F1 2
-ELW C17 F1 2
-ELW C21 F2 1
-ELW C22 F2 1
-ELW C23 F2 1
-ELW C24 F2 1
-ELW C25 F2 1
-ELW C27 F2 1
-ELW C17 F3 1
-ELW C21 F3 1
-ELW C22 F3 1
-ELW N15 F3 1
-ELW N16 F3 1
-ELW C11 F4 1
-ELW C10 F4 1
-ELW  C9 F4 1
-ELW C14 F4 1
-ELW C13 F4 1
-ELW N12 F4 1
-ELW C28 F5 1
-ELW  C5 F5 1
-ELW  C4 F5 1
-ELW  C3 F5 1
-ELW  N2 F5 1
-ELW C13 F6 1
-ELW N15 F6 1
-ELW N16 F6 1
-ELW C17 F6 1
-ELW C18 F6 1
-ELW O20 F6 1
-ELW N19 F6 1
-ELW C21 F6 1
-ELW C27 F6 1
-ELW C25 F6 1
-ELW C24 F6 1
-ELW C23 F6 1
-ELW C22 F6 1
-ELW  C4 S1 1
-ELW C14 S1 1
-ELW  C5 S1 1
-ELW C11 S1 1
-ELW  C7 S1 1
-ELW  C8 S1 1
-ELW  C9 S1 1
-ELW C10 S1 1
-ELW C13 S1 1
-ELW  N2 S1 1
-ELW  C3 S1 1
-ELW N12 S1 1
-ELW N15 S1 1
-ELW N16 S1 1
-ELW C17 S1 1
-ELW C21 S1 1
-ELW C22 S1 1
-ELW C23 S1 1
-ELW C24 S1 1
-ELW C25 S1 1
-ELW C27 S1 1
-ELW C28 S1 1
-ELW O29 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ELW
-_pdbe_chem_comp_rdkit_properties.exactmw                               391.108
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        9
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.100
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             183.475
-_pdbe_chem_comp_rdkit_properties.tpsa                                  114.340
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.001
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             97.680
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         29
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ELW  C4  4.159 -0.161  3.644 ETKDGv2  1
-ELW C14 -0.251  0.951  0.224 ETKDGv2  2
-ELW  C5  4.260  0.665  2.394 ETKDGv2  3
-ELW C11 -1.340  3.385  1.047 ETKDGv2  4
-ELW  C7  2.925  1.086  1.943 ETKDGv2  5
-ELW  C8  1.830  1.428  1.571 ETKDGv2  6
-ELW  C9  0.523  1.832  1.125 ETKDGv2  7
-ELW C10  0.002  3.000  1.520 ETKDGv2  8
-ELW C13 -1.471  1.334 -0.195 ETKDGv2  9
-ELW  N2  5.124 -1.565  2.130 ETKDGv2 10
-ELW  C3  4.631 -1.389  3.450 ETKDGv2 11
-ELW  C1  5.353 -2.851  1.485 ETKDGv2 12
-ELW  O6  5.107  1.765  2.604 ETKDGv2 13
-ELW N12 -2.004  2.595  0.253 ETKDGv2 14
-ELW N15 -2.245  0.483 -1.059 ETKDGv2 15
-ELW N16 -1.953 -0.875 -1.286 ETKDGv2 16
-ELW C17 -2.867 -1.429 -2.029 ETKDGv2 17
-ELW C18 -2.820 -2.848 -2.430 ETKDGv2 18
-ELW N19 -1.739 -3.685 -2.015 ETKDGv2 19
-ELW O20 -3.737 -3.334 -3.143 ETKDGv2 20
-ELW C21 -3.897 -0.446 -2.381 ETKDGv2 21
-ELW C22 -3.463  0.769 -1.741 ETKDGv2 22
-ELW C23 -4.125  1.923 -1.890 ETKDGv2 23
-ELW C24 -5.365  1.901 -2.713 ETKDGv2 24
-ELW C25 -5.780  0.756 -3.300 ETKDGv2 25
-ELW F26 -6.909  0.751 -4.051 ETKDGv2 26
-ELW C27 -4.998 -0.499 -3.137 ETKDGv2 27
-ELW C28  4.868 -0.337  1.468 ETKDGv2 28
-ELW O29  5.115 -0.138  0.248 ETKDGv2 29
-ELW  H1  3.738  0.182  4.581 ETKDGv2 30
-ELW  H2  0.175  0.008 -0.094 ETKDGv2 31
-ELW  H3 -1.776  4.324  1.360 ETKDGv2 32
-ELW  H4  0.548  3.663  2.180 ETKDGv2 33
-ELW  H5  4.627 -2.168  4.201 ETKDGv2 34
-ELW  H6  4.388 -3.261  1.119 ETKDGv2 35
-ELW  H7  5.803 -3.562  2.209 ETKDGv2 36
-ELW  H8  6.049 -2.727  0.628 ETKDGv2 37
-ELW  H9  5.220  2.225  1.731 ETKDGv2 38
-ELW H10 -1.714 -4.689 -2.302 ETKDGv2 39
-ELW H11 -0.963 -3.314 -1.424 ETKDGv2 40
-ELW H12 -3.784  2.849 -1.455 ETKDGv2 41
-ELW H13 -5.934  2.813 -2.843 ETKDGv2 42
-ELW H14 -5.311 -1.410 -3.627 ETKDGv2 43
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ELW "Create component" 2018-03-29 EBI  
+ELW "Initial release"  2018-07-04 RCSB 
+# 

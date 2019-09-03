@@ -1,350 +1,144 @@
 data_MIB
-#
-_chem_comp.id                                        MIB
-_chem_comp.name                                      (3E)-4-(1-METHYL-1H-INDOL-3-YL)BUT-3-EN-2-ONE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C13 H13 N O"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2005-06-01
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            199.248
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         MIB
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1ZS5
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    MIB 
+_chem_comp.name                                  "(3E)-4-(1-METHYL-1H-INDOL-3-YL)BUT-3-EN-2-ONE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C13 H13 N O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2005-06-01 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        199.248 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     MIB 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1ZS5 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-MIB  O1  O1 O 0 1 N N N  8.414 -3.399  2.651  3.983 -1.446  0.000  O1 MIB  1
-MIB  CO  CO C 0 1 N N N  9.008 -2.424  2.233  3.864 -0.236  0.000  CO MIB  2
-MIB  CM  CM C 0 1 N N N  8.262 -1.106  2.021  5.090  0.641  0.000  CM MIB  3
-MIB  CA  CA C 0 1 N N N 10.355 -2.535  1.954  2.588  0.344  0.000  CA MIB  4
-MIB  CB  CB C 0 1 N N N 11.139 -1.504  1.476  1.481 -0.448  0.000  CB MIB  5
-MIB  CG  CG C 0 1 Y N N 12.569 -1.730  1.209  0.190  0.138  0.000  CG MIB  6
-MIB CD1 CD1 C 0 1 Y N N 13.184 -2.934  1.239 -0.107  1.485  0.000 CD1 MIB  7
-MIB CD2 CD2 C 0 1 Y N N 13.597 -0.754  0.874 -1.105 -0.570 -0.001 CD2 MIB  8
-MIB NE1 NE1 N 0 1 Y N N 14.525 -2.762  0.939 -1.451  1.651 -0.001 NE1 MIB  9
-MIB CN1 CN1 C 0 1 N N N 15.517 -3.847  0.873 -2.131  2.949 -0.001 CN1 MIB 10
-MIB CE2 CE2 C 0 1 Y N N 14.827 -1.434  0.708 -2.091  0.428  0.005 CE2 MIB 11
-MIB CE3 CE3 C 0 1 Y N N 13.583  0.642  0.700 -1.469 -1.914  0.000 CE3 MIB 12
-MIB CZ2 CZ2 C 0 1 Y N N 16.000 -0.754  0.379 -3.433  0.060 -0.002 CZ2 MIB 13
-MIB CZ3 CZ3 C 0 1 Y N N 14.762  1.329  0.369 -2.804 -2.258  0.000 CZ3 MIB 14
-MIB CH2 CH2 C 0 1 Y N N 15.968  0.633  0.209 -3.780 -1.274 -0.001 CH2 MIB 15
-MIB HM1 HM1 H 0 1 N N N  7.299 -1.305  1.528  5.386  0.852  1.028 HM1 MIB 16
-MIB HM2 HM2 H 0 1 N N N  8.867 -0.440  1.389  5.904  0.128 -0.514 HM2 MIB 17
-MIB HM3 HM3 H 0 1 N N N  8.083 -0.625  2.994  4.868  1.576 -0.514 HM3 MIB 18
-MIB  HA  HA H 0 1 N N N 10.827 -3.492  2.121  2.483  1.419  0.000  HA MIB 19
-MIB  HB  HB H 0 1 N N N 10.703 -0.532  1.298  1.586 -1.523  0.000  HB MIB 20
-MIB HD1 HD1 H 0 1 N N N 12.707 -3.877  1.461  0.620  2.284  0.000 HD1 MIB 21
-MIB HN1 HN1 H 0 1 N N N 15.100 -4.753  1.337 -2.300  3.270 -1.028 HN1 MIB 22
-MIB HN2 HN2 H 0 1 N N N 16.428 -3.544  1.411 -3.088  2.857  0.513 HN2 MIB 23
-MIB HN3 HN3 H 0 1 N N N 15.765 -4.055 -0.178 -1.512  3.684  0.513 HN3 MIB 24
-MIB HE3 HE3 H 0 1 N N N 12.660  1.189  0.822 -0.710 -2.682 -0.001 HE3 MIB 25
-MIB HZ2 HZ2 H 0 1 N N N 16.926 -1.296  0.257 -4.201  0.819 -0.002 HZ2 MIB 26
-MIB HZ3 HZ3 H 0 1 N N N 14.739  2.401  0.237 -3.090 -3.300  0.000 HZ3 MIB 27
-MIB HH2 HH2 H 0 1 N N N 16.871  1.168 -0.045 -4.823 -1.555 -0.001 HH2 MIB 28
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+MIB O1  O1  O 0 1 N N N 8.414  -3.399 2.651  3.983  -1.446 0.000  O1  MIB 1  
+MIB CO  CO  C 0 1 N N N 9.008  -2.424 2.233  3.864  -0.236 0.000  CO  MIB 2  
+MIB CM  CM  C 0 1 N N N 8.262  -1.106 2.021  5.090  0.641  0.000  CM  MIB 3  
+MIB CA  CA  C 0 1 N N N 10.355 -2.535 1.954  2.588  0.344  0.000  CA  MIB 4  
+MIB CB  CB  C 0 1 N N N 11.139 -1.504 1.476  1.481  -0.448 0.000  CB  MIB 5  
+MIB CG  CG  C 0 1 Y N N 12.569 -1.730 1.209  0.190  0.138  0.000  CG  MIB 6  
+MIB CD1 CD1 C 0 1 Y N N 13.184 -2.934 1.239  -0.107 1.485  0.000  CD1 MIB 7  
+MIB CD2 CD2 C 0 1 Y N N 13.597 -0.754 0.874  -1.105 -0.570 -0.001 CD2 MIB 8  
+MIB NE1 NE1 N 0 1 Y N N 14.525 -2.762 0.939  -1.451 1.651  -0.001 NE1 MIB 9  
+MIB CN1 CN1 C 0 1 N N N 15.517 -3.847 0.873  -2.131 2.949  -0.001 CN1 MIB 10 
+MIB CE2 CE2 C 0 1 Y N N 14.827 -1.434 0.708  -2.091 0.428  0.005  CE2 MIB 11 
+MIB CE3 CE3 C 0 1 Y N N 13.583 0.642  0.700  -1.469 -1.914 0.000  CE3 MIB 12 
+MIB CZ2 CZ2 C 0 1 Y N N 16.000 -0.754 0.379  -3.433 0.060  -0.002 CZ2 MIB 13 
+MIB CZ3 CZ3 C 0 1 Y N N 14.762 1.329  0.369  -2.804 -2.258 0.000  CZ3 MIB 14 
+MIB CH2 CH2 C 0 1 Y N N 15.968 0.633  0.209  -3.780 -1.274 -0.001 CH2 MIB 15 
+MIB HM1 HM1 H 0 1 N N N 7.299  -1.305 1.528  5.386  0.852  1.028  HM1 MIB 16 
+MIB HM2 HM2 H 0 1 N N N 8.867  -0.440 1.389  5.904  0.128  -0.514 HM2 MIB 17 
+MIB HM3 HM3 H 0 1 N N N 8.083  -0.625 2.994  4.868  1.576  -0.514 HM3 MIB 18 
+MIB HA  HA  H 0 1 N N N 10.827 -3.492 2.121  2.483  1.419  0.000  HA  MIB 19 
+MIB HB  HB  H 0 1 N N N 10.703 -0.532 1.298  1.586  -1.523 0.000  HB  MIB 20 
+MIB HD1 HD1 H 0 1 N N N 12.707 -3.877 1.461  0.620  2.284  0.000  HD1 MIB 21 
+MIB HN1 HN1 H 0 1 N N N 15.100 -4.753 1.337  -2.300 3.270  -1.028 HN1 MIB 22 
+MIB HN2 HN2 H 0 1 N N N 16.428 -3.544 1.411  -3.088 2.857  0.513  HN2 MIB 23 
+MIB HN3 HN3 H 0 1 N N N 15.765 -4.055 -0.178 -1.512 3.684  0.513  HN3 MIB 24 
+MIB HE3 HE3 H 0 1 N N N 12.660 1.189  0.822  -0.710 -2.682 -0.001 HE3 MIB 25 
+MIB HZ2 HZ2 H 0 1 N N N 16.926 -1.296 0.257  -4.201 0.819  -0.002 HZ2 MIB 26 
+MIB HZ3 HZ3 H 0 1 N N N 14.739 2.401  0.237  -3.090 -3.300 0.000  HZ3 MIB 27 
+MIB HH2 HH2 H 0 1 N N N 16.871 1.168  -0.045 -4.823 -1.555 -0.001 HH2 MIB 28 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-MIB  O1  CO DOUB N N  1
-MIB  CO  CM SING N N  2
-MIB  CO  CA SING N N  3
-MIB  CM HM1 SING N N  4
-MIB  CM HM2 SING N N  5
-MIB  CM HM3 SING N N  6
-MIB  CA  CB DOUB N E  7
-MIB  CA  HA SING N N  8
-MIB  CB  CG SING N N  9
-MIB  CB  HB SING N N 10
-MIB  CG CD1 DOUB Y N 11
-MIB  CG CD2 SING Y N 12
-MIB CD1 NE1 SING Y N 13
-MIB CD1 HD1 SING N N 14
-MIB CD2 CE2 SING Y N 15
-MIB CD2 CE3 DOUB Y N 16
-MIB NE1 CN1 SING N N 17
-MIB NE1 CE2 SING Y N 18
-MIB CN1 HN1 SING N N 19
-MIB CN1 HN2 SING N N 20
-MIB CN1 HN3 SING N N 21
-MIB CE2 CZ2 DOUB Y N 22
-MIB CE3 CZ3 SING Y N 23
-MIB CE3 HE3 SING N N 24
-MIB CZ2 CH2 SING Y N 25
-MIB CZ2 HZ2 SING N N 26
-MIB CZ3 CH2 DOUB Y N 27
-MIB CZ3 HZ3 SING N N 28
-MIB CH2 HH2 SING N N 29
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+MIB O1  CO  DOUB N N 1  
+MIB CO  CM  SING N N 2  
+MIB CO  CA  SING N N 3  
+MIB CM  HM1 SING N N 4  
+MIB CM  HM2 SING N N 5  
+MIB CM  HM3 SING N N 6  
+MIB CA  CB  DOUB N E 7  
+MIB CA  HA  SING N N 8  
+MIB CB  CG  SING N N 9  
+MIB CB  HB  SING N N 10 
+MIB CG  CD1 DOUB Y N 11 
+MIB CG  CD2 SING Y N 12 
+MIB CD1 NE1 SING Y N 13 
+MIB CD1 HD1 SING N N 14 
+MIB CD2 CE2 SING Y N 15 
+MIB CD2 CE3 DOUB Y N 16 
+MIB NE1 CN1 SING N N 17 
+MIB NE1 CE2 SING Y N 18 
+MIB CN1 HN1 SING N N 19 
+MIB CN1 HN2 SING N N 20 
+MIB CN1 HN3 SING N N 21 
+MIB CE2 CZ2 DOUB Y N 22 
+MIB CE3 CZ3 SING Y N 23 
+MIB CE3 HE3 SING N N 24 
+MIB CZ2 CH2 SING Y N 25 
+MIB CZ2 HZ2 SING N N 26 
+MIB CZ3 CH2 DOUB Y N 27 
+MIB CZ3 HZ3 SING N N 28 
+MIB CH2 HH2 SING N N 29 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-MIB           SMILES              ACDLabs 10.04                                                    O=C(\C=C\c2c1ccccc1n(c2)C)C
-MIB SMILES_CANONICAL               CACTVS 3.341                                                    Cn1cc(/C=C/C(C)=O)c2ccccc12
-MIB           SMILES               CACTVS 3.341                                                      Cn1cc(C=CC(C)=O)c2ccccc12
-MIB SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                    CC(=O)\C=C\c1cn(c2c1cccc2)C
-MIB           SMILES "OpenEye OEToolkits" 1.5.0                                                      CC(=O)C=Cc1cn(c2c1cccc2)C
-MIB            InChI                InChI  1.03 InChI=1S/C13H13NO/c1-10(15)7-8-11-9-14(2)13-6-4-3-5-12(11)13/h3-9H,1-2H3/b8-7+
-MIB         InChIKey                InChI  1.03                                                    HCYQBFAGILCNRB-BQYQJAHWSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+MIB SMILES           ACDLabs              10.04 "O=C(\C=C\c2c1ccccc1n(c2)C)C"                                                    
+MIB SMILES_CANONICAL CACTVS               3.341 "Cn1cc(/C=C/C(C)=O)c2ccccc12"                                                    
+MIB SMILES           CACTVS               3.341 "Cn1cc(C=CC(C)=O)c2ccccc12"                                                      
+MIB SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(=O)\C=C\c1cn(c2c1cccc2)C"                                                    
+MIB SMILES           "OpenEye OEToolkits" 1.5.0 "CC(=O)C=Cc1cn(c2c1cccc2)C"                                                      
+MIB InChI            InChI                1.03  "InChI=1S/C13H13NO/c1-10(15)7-8-11-9-14(2)13-6-4-3-5-12(11)13/h3-9H,1-2H3/b8-7+" 
+MIB InChIKey         InChI                1.03  HCYQBFAGILCNRB-BQYQJAHWSA-N                                                      
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-MIB "SYSTEMATIC NAME"              ACDLabs 10.04 (3E)-4-(1-methyl-1H-indol-3-yl)but-3-en-2-one
-MIB "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0      (E)-4-(1-methylindol-3-yl)but-3-en-2-one
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+MIB "SYSTEMATIC NAME" ACDLabs              10.04 "(3E)-4-(1-methyl-1H-indol-3-yl)but-3-en-2-one" 
+MIB "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(E)-4-(1-methylindol-3-yl)but-3-en-2-one"      
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-MIB  "Create component" 2005-06-01 RCSB
-MIB "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   MIB
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB08186
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      (3E)-4-(1-METHYL-1H-INDOL-3-YL)BUT-3-EN-2-ONE
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           MIB
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB08186
-_pdbe_chem_comp_drugbank_classification.parent            N-alkylindoles
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Indoles and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as n-alkylindoles. These are compounds containing an indole moiety that carries an alkyl chain at the 1-position."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        MIB
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB08186
-_pdbe_chem_comp_drugbank_targets.name                           "Histone acetyltransferase KAT2B"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     Q92831
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-MIB  O1 O  8.415  4.059  1
-MIB  CO C  9.417  2.942  2
-MIB  CM C 10.885  3.252  3
-MIB  CA C  8.951  1.516  4
-MIB  CB C  7.483  1.207  5
-MIB  CG C  7.018 -0.219  6
-MIB CD1 C  7.893 -1.426  7
-MIB CD2 C  5.598 -0.676  8
-MIB NE1 N  7.018 -2.633  9
-MIB CN1 C  7.483 -4.059 10
-MIB CE2 C  5.598 -2.176 11
-MIB CE3 C  4.299  0.074 12
-MIB CZ2 C  4.299 -2.926 13
-MIB CZ3 C  3.000 -0.676 14
-MIB CH2 C  3.000 -2.176 15
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-MIB  O1  CO DOUBLE NONE  1
-MIB  CO  CM SINGLE NONE  2
-MIB  CO  CA SINGLE NONE  3
-MIB  CA  CB DOUBLE NONE  4
-MIB  CB  CG SINGLE NONE  5
-MIB  CG CD1 DOUBLE NONE  6
-MIB  CG CD2 SINGLE NONE  7
-MIB CD1 NE1 SINGLE NONE  8
-MIB CD2 CE2 DOUBLE NONE  9
-MIB CD2 CE3 SINGLE NONE 10
-MIB NE1 CN1 SINGLE NONE 11
-MIB NE1 CE2 SINGLE NONE 12
-MIB CE2 CZ2 SINGLE NONE 13
-MIB CE3 CZ3 DOUBLE NONE 14
-MIB CZ2 CH2 DOUBLE NONE 15
-MIB CZ3 CH2 SINGLE NONE 16
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-MIB MurckoScaffold S1 scaffold c1ccc2[nH]ccc2c1 InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H SIKJAQJRHWYJAI-UHFFFAOYSA-N
-MIB         indole F1 fragment c1ccc2[nH]ccc2c1 InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H SIKJAQJRHWYJAI-UHFFFAOYSA-N
-MIB         phenyl F2 fragment         c1ccccc1            InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-MIB        pyrrole F3 fragment       c1cc[nH]c1             InChI=1S/C4H5N/c1-2-4-5-3-1/h1-5H KAESVJOAVNADME-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-MIB CE2 F1 1
-MIB CD2 F1 1
-MIB  CG F1 1
-MIB CD1 F1 1
-MIB NE1 F1 1
-MIB CE3 F1 1
-MIB CZ3 F1 1
-MIB CH2 F1 1
-MIB CZ2 F1 1
-MIB CD2 F2 1
-MIB CE2 F2 1
-MIB CZ2 F2 1
-MIB CH2 F2 1
-MIB CZ3 F2 1
-MIB CE3 F2 1
-MIB CD1 F3 1
-MIB  CG F3 1
-MIB CD2 F3 1
-MIB CE2 F3 1
-MIB NE1 F3 1
-MIB  CG S1 1
-MIB CD1 S1 1
-MIB CD2 S1 1
-MIB NE1 S1 1
-MIB CE2 S1 1
-MIB CE3 S1 1
-MIB CZ2 S1 1
-MIB CZ3 S1 1
-MIB CH2 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               MIB
-_pdbe_chem_comp_rdkit_properties.exactmw                               199.100
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                0
-_pdbe_chem_comp_rdkit_properties.NumHBA                                2
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.154
-_pdbe_chem_comp_rdkit_properties.NumRings                              2
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             107.093
-_pdbe_chem_comp_rdkit_properties.tpsa                                  22
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.297
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             60.162
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         15
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-MIB UniChem   ChEMBL    CHEMBL1234334
-MIB UniChem DrugBank          DB08186
-MIB UniChem     ZINC ZINC000012379249
-MIB UniChem     ZINC     ZINC12379249
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MIB  O1  4.514 -1.529 -1.952 ETKDGv2  1
-MIB  CO  3.867 -0.790 -1.163 ETKDGv2  2
-MIB  CM  4.612  0.210 -0.331 ETKDGv2  3
-MIB  CA  2.398 -0.945 -1.093 ETKDGv2  4
-MIB  CB  1.621 -0.212 -0.283 ETKDGv2  5
-MIB  CG  0.152 -0.366 -0.211 ETKDGv2  6
-MIB CD1 -0.630 -1.157 -0.956 ETKDGv2  7
-MIB CD2 -0.738  0.385  0.673 ETKDGv2  8
-MIB NE1 -2.002 -0.998 -0.589 ETKDGv2  9
-MIB CN1 -3.141 -1.353 -1.424 ETKDGv2 10
-MIB CE2 -1.976  0.009  0.414 ETKDGv2 11
-MIB CE3 -0.447  1.445  1.657 ETKDGv2 12
-MIB CZ2 -3.126  0.636  1.095 ETKDGv2 13
-MIB CZ3 -1.481  2.024  2.293 ETKDGv2 14
-MIB CH2 -2.881  1.602  1.999 ETKDGv2 15
-MIB HM1  4.255  1.235 -0.563 ETKDGv2 16
-MIB HM2  4.456 -0.005  0.747 ETKDGv2 17
-MIB HM3  5.701  0.160 -0.545 ETKDGv2 18
-MIB  HA  1.956 -1.695 -1.735 ETKDGv2 19
-MIB  HB  2.068  0.529  0.364 ETKDGv2 20
-MIB HD1 -0.298 -1.810 -1.751 ETKDGv2 21
-MIB HN1 -3.336 -0.541 -2.155 ETKDGv2 22
-MIB HN2 -2.929 -2.296 -1.972 ETKDGv2 23
-MIB HN3 -4.041 -1.507 -0.792 ETKDGv2 24
-MIB HE3  0.569  1.754  1.862 ETKDGv2 25
-MIB HZ2 -4.140  0.329  0.875 ETKDGv2 26
-MIB HZ3 -1.300  2.805  3.020 ETKDGv2 27
-MIB HH2 -3.704  2.079  2.515 ETKDGv2 28
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+MIB "Create component"  2005-06-01 RCSB 
+MIB "Modify descriptor" 2011-06-04 RCSB 
+# 

@@ -149,11 +149,6 @@ _pdbx_chem_comp_audit.processing_site
 CG  "Create component" 2001-03-13 PDBJ
 CG "Modify descriptor" 2011-06-04 RCSB
 #
-_pdbx_chem_comp_synonyms.comp_id          CG
-_pdbx_chem_comp_synonyms.name             Sardomozide
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
 loop_
 _software.name              
 _software.version           
@@ -281,6 +276,7 @@ _pdbe_chem_comp_external_mappings.resource
 _pdbe_chem_comp_external_mappings.resource_id       
 CG UniChem ChEMBL      CHEMBL65789
 CG UniChem   ZINC ZINC000100023874
+CG UniChem      P          9576789
 CG UniChem BRENDA            14898
 CG UniChem BRENDA            14899
 CG UniChem BRENDA           155844
@@ -297,35 +293,35 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CG   C1 -0.751 -1.609  1.701 ETKDGv2  1
-CG   C2 -0.322 -0.575  0.971 ETKDGv2  2
-CG   C3 -1.171  0.104  0.017 ETKDGv2  3
-CG   C4 -2.441 -0.300 -0.187 ETKDGv2  4
-CG   C5 -3.323  0.339 -1.188 ETKDGv2  5
-CG   N6 -3.967 -0.384 -2.049 ETKDGv2  6
-CG   N7 -3.514  1.755 -1.185 ETKDGv2  7
-CG   C8 -2.945 -1.453  0.615 ETKDGv2  8
-CG   C9 -2.147 -2.065  1.511 ETKDGv2  9
-CG  C10 -0.401  1.174 -0.701 ETKDGv2 10
-CG  C11  1.032  1.107 -0.117 ETKDGv2 11
-CG  C12  0.994  0.014  0.913 ETKDGv2 12
-CG  N13  1.971 -0.319  1.703 ETKDGv2 13
-CG  N14  3.247  0.264  1.626 ETKDGv2 14
-CG  C15  4.108  0.072  0.493 ETKDGv2 15
-CG  N16  5.201  0.759  0.388 ETKDGv2 16
-CG  N17  3.795 -0.899 -0.509 ETKDGv2 17
-CG  H11 -0.095 -2.116  2.397 ETKDGv2 18
-CG HN61 -3.870 -1.424 -2.084 ETKDGv2 19
-CG HN71 -3.153  2.342 -0.402 ETKDGv2 20
-CG HN72 -4.097  2.210 -1.922 ETKDGv2 21
-CG  H81 -3.962 -1.799  0.485 ETKDGv2 22
-CG  H91 -2.522 -2.899  2.090 ETKDGv2 23
-CG H101 -0.841  2.173 -0.504 ETKDGv2 24
-CG H102 -0.391  0.971 -1.794 ETKDGv2 25
-CG H111  1.305  2.072  0.362 ETKDGv2 26
-CG H112  1.761  0.865 -0.919 ETKDGv2 27
-CG H141  3.645  0.691  2.492 ETKDGv2 28
-CG H161  5.473  1.469  1.104 ETKDGv2 29
-CG H171  4.418 -1.020 -1.338 ETKDGv2 30
-CG H172  2.964 -1.523 -0.417 ETKDGv2 31
+CG   C1  0.500 -0.792  1.205 ETKDGv2  1
+CG   C2  0.231 -0.452 -0.064 ETKDGv2  2
+CG   C3 -1.110 -0.079 -0.478 ETKDGv2  3
+CG   C4 -2.120 -0.002  0.413 ETKDGv2  4
+CG   C5 -3.505  0.329  0.012 ETKDGv2  5
+CG   N6 -4.495 -0.407  0.408 ETKDGv2  6
+CG   N7 -3.771  1.489 -0.778 ETKDGv2  7
+CG   C8 -1.819 -0.311  1.839 ETKDGv2  8
+CG   C9 -0.583 -0.686  2.210 ETKDGv2  9
+CG  C10 -1.194  0.035 -1.971 ETKDGv2 10
+CG  C11  0.212 -0.346 -2.487 ETKDGv2 11
+CG  C12  1.053 -0.553 -1.267 ETKDGv2 12
+CG  N13  2.336 -0.761 -1.342 ETKDGv2 13
+CG  N14  3.202 -0.803 -0.237 ETKDGv2 14
+CG  C15  3.483  0.370  0.540 ETKDGv2 15
+CG  N16  2.883  1.487  0.273 ETKDGv2 16
+CG  N17  4.432  0.303  1.607 ETKDGv2 17
+CG  H11  1.460 -1.177  1.510 ETKDGv2 18
+CG HN61 -4.355 -1.260  0.994 ETKDGv2 19
+CG HN71 -3.021  2.189 -0.971 ETKDGv2 20
+CG HN72 -4.742  1.696 -1.102 ETKDGv2 21
+CG  H81 -2.600 -0.242  2.585 ETKDGv2 22
+CG  H91 -0.377 -0.923  3.246 ETKDGv2 23
+CG H101 -1.434  1.077 -2.267 ETKDGv2 24
+CG H102 -1.960 -0.662 -2.371 ETKDGv2 25
+CG H111  0.634  0.475 -3.106 ETKDGv2 26
+CG H112  0.174 -1.283 -3.083 ETKDGv2 27
+CG H141  3.851 -1.617 -0.152 ETKDGv2 28
+CG H161  3.069  2.356  0.823 ETKDGv2 29
+CG H171  4.653  1.145  2.182 ETKDGv2 30
+CG H172  4.914 -0.597  1.829 ETKDGv2 31
 #

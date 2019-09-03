@@ -1,504 +1,202 @@
 data_CTC
-#
-_chem_comp.id                                        CTC
-_chem_comp.name                                      7-CHLOROTETRACYCLINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C22 H23 Cl N2 O8"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            478.880
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         CTC
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            "not provided"
-_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
-_chem_comp.pdbx_model_coordinates_db_code            1BJ0
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    CTC 
+_chem_comp.name                                  7-CHLOROTETRACYCLINE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C22 H23 Cl N2 O8" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        478.880 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     CTC 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        "not provided" 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   Y 
+_chem_comp.pdbx_model_coordinates_db_code        1BJ0 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-CTC     C1     C1  C 0 1 N N N 21.124 36.038 34.954 ? ? ?     C1 CTC  1
-CTC     O1     O1  O 0 1 N N N 20.765 35.819 33.763 ? ? ?     O1 CTC  2
-CTC     C2     C2  C 0 1 N N N 20.387 35.419 35.973 ? ? ?     C2 CTC  3
-CTC  "C2'"  "C2'"  C 0 1 N N N 19.118 34.897 35.704 ? ? ?  "C2'" CTC  4
-CTC  "O2'"  "O2'"  O 0 1 N N N 18.719 33.795 36.215 ? ? ?  "O2'" CTC  5
-CTC  "N2'"  "N2'"  N 0 1 N N N 18.344 35.431 34.703 ? ? ?  "N2'" CTC  6
-CTC     C3     C3  C 0 1 N N N 21.070 34.983 37.097 ? ? ?     C3 CTC  7
-CTC     O3     O3  O 0 1 N N N 20.740 33.701 37.677 ? ? ?     O3 CTC  8
-CTC     C4     C4  C 0 1 N N S 22.230 35.790 37.718 ? ? ?     C4 CTC  9
-CTC     N4     N4  N 0 1 N N N 22.949 34.718 38.624 ? ? ?     N4 CTC 10
-CTC  "C4'"  "C4'"  C 0 1 N N N 23.839 33.720 37.754 ? ? ?  "C4'" CTC 11
-CTC    C4D  'C4"'  C 0 1 N N N 23.823 35.228 39.767 ? ? ?    C4D CTC 12
-CTC    C4A    C4A  C 0 1 N N S 22.968 36.735 36.682 ? ? ?    C4A CTC 13
-CTC     C5     C5  C 0 1 N N N 22.699 38.287 36.805 ? ? ?     C5 CTC 14
-CTC    C5A    C5A  C 0 1 N N S 23.372 39.276 35.782 ? ? ?    C5A CTC 15
-CTC     C6     C6  C 0 1 N N S 23.039 40.761 35.880 ? ? ?     C6 CTC 16
-CTC     O6     O6  O 0 1 N N N 21.617 40.827 35.951 ? ? ?     O6 CTC 17
-CTC  "C6'"  "C6'"  C 0 1 N N N 23.764 41.171 37.188 ? ? ?  "C6'" CTC 18
-CTC    C6A    C6A  C 0 1 Y N N 23.526 41.659 34.642 ? ? ?    C6A CTC 19
-CTC     C7     C7  C 0 1 Y N N 23.313 43.068 34.618 ? ? ?     C7 CTC 20
-CTC    CL7    CL7 CL 0 0 N N N 22.413 43.911 35.885 ? ? ?    CL7 CTC 21
-CTC     C8     C8  C 0 1 Y N N 23.637 43.829 33.506 ? ? ?     C8 CTC 22
-CTC     C9     C9  C 0 1 Y N N 24.183 43.238 32.410 ? ? ?     C9 CTC 23
-CTC    C10    C10  C 0 1 Y N N 24.390 41.861 32.388 ? ? ?    C10 CTC 24
-CTC    O10    O10  O 0 1 N N N 25.090 41.333 31.244 ? ? ?    O10 CTC 25
-CTC    C6B    C6B  C 0 1 Y N N 24.016 41.032 33.490 ? ? ?    C6B CTC 26
-CTC    C11    C11  C 0 1 N N N 23.763 39.637 33.296 ? ? ?    C11 CTC 27
-CTC    O11    O11  O 0 1 N N N 23.813 39.199 32.116 ? ? ?    O11 CTC 28
-CTC    C5B    C5B  C 0 1 N N N 23.424 38.739 34.373 ? ? ?    C5B CTC 29
-CTC    C12    C12  C 0 1 N N N 23.402 37.326 34.210 ? ? ?    C12 CTC 30
-CTC    O12    O12  O 0 1 N N N 24.039 36.723 33.064 ? ? ?    O12 CTC 31
-CTC    C4B    C4B  C 0 1 N N S 22.629 36.347 35.199 ? ? ?    C4B CTC 32
-CTC    O4B    O4B  O 0 1 N N N 23.236 35.066 34.952 ? ? ?    O4B CTC 33
-CTC   HN21   1HN2  H 0 0 N N N 18.662 36.310 34.295 ? ? ?   HN21 CTC 34
-CTC   HN22   2HN2  H 0 0 N N N 17.418 35.050 34.506 ? ? ?   HN22 CTC 35
-CTC    HO3    HO3  H 0 1 N N N 21.208 33.402 38.447 ? ? ?    HO3 CTC 36
-CTC     H4     H4  H 0 1 N N N 21.990 36.642 38.395 ? ? ?     H4 CTC 37
-CTC "H4'1" "1H4'"  H 0 0 N N N 24.347 32.962 38.394 ? ? ? "H4'1" CTC 38
-CTC "H4'2" "2H4'"  H 0 0 N N N 23.239 33.236 36.947 ? ? ? "H4'2" CTC 39
-CTC "H4'3" "3H4'"  H 0 0 N N N 24.569 34.273 37.118 ? ? ? "H4'3" CTC 40
-CTC   H4A1 '1H4"'  H 0 0 N N N 24.331 34.470 40.407 ? ? ?   H4A1 CTC 41
-CTC   H4A2 '2H4"'  H 0 0 N N N 24.583 35.935 39.361 ? ? ?   H4A2 CTC 42
-CTC   H4A3 '3H4"'  H 0 0 N N N 23.222 35.911 40.411 ? ? ?   H4A3 CTC 43
-CTC    H4A    H4A  H 0 1 N N N 24.036 36.560 36.949 ? ? ?    H4A CTC 44
-CTC    H51    1H5  H 0 1 N N N 21.597 38.458 36.792 ? ? ?    H51 CTC 45
-CTC    H52    2H5  H 0 1 N N N 22.961 38.612 37.838 ? ? ?    H52 CTC 46
-CTC    H5A    H5A  H 0 1 N N N 24.421 39.294 36.159 ? ? ?    H5A CTC 47
-CTC    HO6    HO6  H 0 1 N N N 21.409 41.752 36.012 ? ? ?    HO6 CTC 48
-CTC "H6'1" "1H6'"  H 0 0 N N N 23.520 42.256 37.259 ? ? ? "H6'1" CTC 49
-CTC "H6'2" "2H6'"  H 0 0 N N N 23.494 40.567 38.085 ? ? ? "H6'2" CTC 50
-CTC "H6'3" "3H6'"  H 0 0 N N N 24.851 40.928 37.220 ? ? ? "H6'3" CTC 51
-CTC     H8     H8  H 0 1 N N N 23.458 44.917 33.493 ? ? ?     H8 CTC 52
-CTC     H9     H9  H 0 1 N N N 24.455 43.869 31.547 ? ? ?     H9 CTC 53
-CTC    HO1    HO1  H 0 1 N N N 25.231 40.393 31.229 ? ? ?    HO1 CTC 54
-CTC    HO2    HO2  H 0 1 N N N 24.024 35.779 32.955 ? ? ?    HO2 CTC 55
-CTC    HO4    HO4  H 0 1 N N N 24.155 35.254 35.101 ? ? ?    HO4 CTC 56
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+CTC C1     C1     C  0 1 N N N 21.124 36.038 34.954 ? ? ? C1     CTC 1  
+CTC O1     O1     O  0 1 N N N 20.765 35.819 33.763 ? ? ? O1     CTC 2  
+CTC C2     C2     C  0 1 N N N 20.387 35.419 35.973 ? ? ? C2     CTC 3  
+CTC "C2'"  "C2'"  C  0 1 N N N 19.118 34.897 35.704 ? ? ? "C2'"  CTC 4  
+CTC "O2'"  "O2'"  O  0 1 N N N 18.719 33.795 36.215 ? ? ? "O2'"  CTC 5  
+CTC "N2'"  "N2'"  N  0 1 N N N 18.344 35.431 34.703 ? ? ? "N2'"  CTC 6  
+CTC C3     C3     C  0 1 N N N 21.070 34.983 37.097 ? ? ? C3     CTC 7  
+CTC O3     O3     O  0 1 N N N 20.740 33.701 37.677 ? ? ? O3     CTC 8  
+CTC C4     C4     C  0 1 N N S 22.230 35.790 37.718 ? ? ? C4     CTC 9  
+CTC N4     N4     N  0 1 N N N 22.949 34.718 38.624 ? ? ? N4     CTC 10 
+CTC "C4'"  "C4'"  C  0 1 N N N 23.839 33.720 37.754 ? ? ? "C4'"  CTC 11 
+CTC C4D    'C4"'  C  0 1 N N N 23.823 35.228 39.767 ? ? ? C4D    CTC 12 
+CTC C4A    C4A    C  0 1 N N S 22.968 36.735 36.682 ? ? ? C4A    CTC 13 
+CTC C5     C5     C  0 1 N N N 22.699 38.287 36.805 ? ? ? C5     CTC 14 
+CTC C5A    C5A    C  0 1 N N S 23.372 39.276 35.782 ? ? ? C5A    CTC 15 
+CTC C6     C6     C  0 1 N N S 23.039 40.761 35.880 ? ? ? C6     CTC 16 
+CTC O6     O6     O  0 1 N N N 21.617 40.827 35.951 ? ? ? O6     CTC 17 
+CTC "C6'"  "C6'"  C  0 1 N N N 23.764 41.171 37.188 ? ? ? "C6'"  CTC 18 
+CTC C6A    C6A    C  0 1 Y N N 23.526 41.659 34.642 ? ? ? C6A    CTC 19 
+CTC C7     C7     C  0 1 Y N N 23.313 43.068 34.618 ? ? ? C7     CTC 20 
+CTC CL7    CL7    CL 0 0 N N N 22.413 43.911 35.885 ? ? ? CL7    CTC 21 
+CTC C8     C8     C  0 1 Y N N 23.637 43.829 33.506 ? ? ? C8     CTC 22 
+CTC C9     C9     C  0 1 Y N N 24.183 43.238 32.410 ? ? ? C9     CTC 23 
+CTC C10    C10    C  0 1 Y N N 24.390 41.861 32.388 ? ? ? C10    CTC 24 
+CTC O10    O10    O  0 1 N N N 25.090 41.333 31.244 ? ? ? O10    CTC 25 
+CTC C6B    C6B    C  0 1 Y N N 24.016 41.032 33.490 ? ? ? C6B    CTC 26 
+CTC C11    C11    C  0 1 N N N 23.763 39.637 33.296 ? ? ? C11    CTC 27 
+CTC O11    O11    O  0 1 N N N 23.813 39.199 32.116 ? ? ? O11    CTC 28 
+CTC C5B    C5B    C  0 1 N N N 23.424 38.739 34.373 ? ? ? C5B    CTC 29 
+CTC C12    C12    C  0 1 N N N 23.402 37.326 34.210 ? ? ? C12    CTC 30 
+CTC O12    O12    O  0 1 N N N 24.039 36.723 33.064 ? ? ? O12    CTC 31 
+CTC C4B    C4B    C  0 1 N N S 22.629 36.347 35.199 ? ? ? C4B    CTC 32 
+CTC O4B    O4B    O  0 1 N N N 23.236 35.066 34.952 ? ? ? O4B    CTC 33 
+CTC HN21   1HN2   H  0 0 N N N 18.662 36.310 34.295 ? ? ? HN21   CTC 34 
+CTC HN22   2HN2   H  0 0 N N N 17.418 35.050 34.506 ? ? ? HN22   CTC 35 
+CTC HO3    HO3    H  0 1 N N N 21.208 33.402 38.447 ? ? ? HO3    CTC 36 
+CTC H4     H4     H  0 1 N N N 21.990 36.642 38.395 ? ? ? H4     CTC 37 
+CTC "H4'1" "1H4'" H  0 0 N N N 24.347 32.962 38.394 ? ? ? "H4'1" CTC 38 
+CTC "H4'2" "2H4'" H  0 0 N N N 23.239 33.236 36.947 ? ? ? "H4'2" CTC 39 
+CTC "H4'3" "3H4'" H  0 0 N N N 24.569 34.273 37.118 ? ? ? "H4'3" CTC 40 
+CTC H4A1   '1H4"' H  0 0 N N N 24.331 34.470 40.407 ? ? ? H4A1   CTC 41 
+CTC H4A2   '2H4"' H  0 0 N N N 24.583 35.935 39.361 ? ? ? H4A2   CTC 42 
+CTC H4A3   '3H4"' H  0 0 N N N 23.222 35.911 40.411 ? ? ? H4A3   CTC 43 
+CTC H4A    H4A    H  0 1 N N N 24.036 36.560 36.949 ? ? ? H4A    CTC 44 
+CTC H51    1H5    H  0 1 N N N 21.597 38.458 36.792 ? ? ? H51    CTC 45 
+CTC H52    2H5    H  0 1 N N N 22.961 38.612 37.838 ? ? ? H52    CTC 46 
+CTC H5A    H5A    H  0 1 N N N 24.421 39.294 36.159 ? ? ? H5A    CTC 47 
+CTC HO6    HO6    H  0 1 N N N 21.409 41.752 36.012 ? ? ? HO6    CTC 48 
+CTC "H6'1" "1H6'" H  0 0 N N N 23.520 42.256 37.259 ? ? ? "H6'1" CTC 49 
+CTC "H6'2" "2H6'" H  0 0 N N N 23.494 40.567 38.085 ? ? ? "H6'2" CTC 50 
+CTC "H6'3" "3H6'" H  0 0 N N N 24.851 40.928 37.220 ? ? ? "H6'3" CTC 51 
+CTC H8     H8     H  0 1 N N N 23.458 44.917 33.493 ? ? ? H8     CTC 52 
+CTC H9     H9     H  0 1 N N N 24.455 43.869 31.547 ? ? ? H9     CTC 53 
+CTC HO1    HO1    H  0 1 N N N 25.231 40.393 31.229 ? ? ? HO1    CTC 54 
+CTC HO2    HO2    H  0 1 N N N 24.024 35.779 32.955 ? ? ? HO2    CTC 55 
+CTC HO4    HO4    H  0 1 N N N 24.155 35.254 35.101 ? ? ? HO4    CTC 56 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-CTC    C1     O1 DOUB N N  1
-CTC    C1     C2 SING N N  2
-CTC    C1    C4B SING N N  3
-CTC    C2  "C2'" SING N N  4
-CTC    C2     C3 DOUB N N  5
-CTC "C2'"  "O2'" DOUB N N  6
-CTC "C2'"  "N2'" SING N N  7
-CTC "N2'"   HN21 SING N N  8
-CTC "N2'"   HN22 SING N N  9
-CTC    C3     O3 SING N N 10
-CTC    C3     C4 SING N N 11
-CTC    O3    HO3 SING N N 12
-CTC    C4     N4 SING N N 13
-CTC    C4    C4A SING N N 14
-CTC    C4     H4 SING N N 15
-CTC    N4  "C4'" SING N N 16
-CTC    N4    C4D SING N N 17
-CTC "C4'" "H4'1" SING N N 18
-CTC "C4'" "H4'2" SING N N 19
-CTC "C4'" "H4'3" SING N N 20
-CTC   C4D   H4A1 SING N N 21
-CTC   C4D   H4A2 SING N N 22
-CTC   C4D   H4A3 SING N N 23
-CTC   C4A     C5 SING N N 24
-CTC   C4A    C4B SING N N 25
-CTC   C4A    H4A SING N N 26
-CTC    C5    C5A SING N N 27
-CTC    C5    H51 SING N N 28
-CTC    C5    H52 SING N N 29
-CTC   C5A     C6 SING N N 30
-CTC   C5A    C5B SING N N 31
-CTC   C5A    H5A SING N N 32
-CTC    C6     O6 SING N N 33
-CTC    C6  "C6'" SING N N 34
-CTC    C6    C6A SING N N 35
-CTC    O6    HO6 SING N N 36
-CTC "C6'" "H6'1" SING N N 37
-CTC "C6'" "H6'2" SING N N 38
-CTC "C6'" "H6'3" SING N N 39
-CTC   C6A     C7 DOUB Y N 40
-CTC   C6A    C6B SING Y N 41
-CTC    C7    CL7 SING N N 42
-CTC    C7     C8 SING Y N 43
-CTC    C8     C9 DOUB Y N 44
-CTC    C8     H8 SING N N 45
-CTC    C9    C10 SING Y N 46
-CTC    C9     H9 SING N N 47
-CTC   C10    O10 SING N N 48
-CTC   C10    C6B DOUB Y N 49
-CTC   O10    HO1 SING N N 50
-CTC   C6B    C11 SING N N 51
-CTC   C11    O11 DOUB N N 52
-CTC   C11    C5B SING N N 53
-CTC   C5B    C12 DOUB N N 54
-CTC   C12    O12 SING N N 55
-CTC   C12    C4B SING N N 56
-CTC   O12    HO2 SING N N 57
-CTC   C4B    O4B SING N N 58
-CTC   O4B    HO4 SING N N 59
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+CTC C1    O1     DOUB N N 1  
+CTC C1    C2     SING N N 2  
+CTC C1    C4B    SING N N 3  
+CTC C2    "C2'"  SING N N 4  
+CTC C2    C3     DOUB N N 5  
+CTC "C2'" "O2'"  DOUB N N 6  
+CTC "C2'" "N2'"  SING N N 7  
+CTC "N2'" HN21   SING N N 8  
+CTC "N2'" HN22   SING N N 9  
+CTC C3    O3     SING N N 10 
+CTC C3    C4     SING N N 11 
+CTC O3    HO3    SING N N 12 
+CTC C4    N4     SING N N 13 
+CTC C4    C4A    SING N N 14 
+CTC C4    H4     SING N N 15 
+CTC N4    "C4'"  SING N N 16 
+CTC N4    C4D    SING N N 17 
+CTC "C4'" "H4'1" SING N N 18 
+CTC "C4'" "H4'2" SING N N 19 
+CTC "C4'" "H4'3" SING N N 20 
+CTC C4D   H4A1   SING N N 21 
+CTC C4D   H4A2   SING N N 22 
+CTC C4D   H4A3   SING N N 23 
+CTC C4A   C5     SING N N 24 
+CTC C4A   C4B    SING N N 25 
+CTC C4A   H4A    SING N N 26 
+CTC C5    C5A    SING N N 27 
+CTC C5    H51    SING N N 28 
+CTC C5    H52    SING N N 29 
+CTC C5A   C6     SING N N 30 
+CTC C5A   C5B    SING N N 31 
+CTC C5A   H5A    SING N N 32 
+CTC C6    O6     SING N N 33 
+CTC C6    "C6'"  SING N N 34 
+CTC C6    C6A    SING N N 35 
+CTC O6    HO6    SING N N 36 
+CTC "C6'" "H6'1" SING N N 37 
+CTC "C6'" "H6'2" SING N N 38 
+CTC "C6'" "H6'3" SING N N 39 
+CTC C6A   C7     DOUB Y N 40 
+CTC C6A   C6B    SING Y N 41 
+CTC C7    CL7    SING N N 42 
+CTC C7    C8     SING Y N 43 
+CTC C8    C9     DOUB Y N 44 
+CTC C8    H8     SING N N 45 
+CTC C9    C10    SING Y N 46 
+CTC C9    H9     SING N N 47 
+CTC C10   O10    SING N N 48 
+CTC C10   C6B    DOUB Y N 49 
+CTC O10   HO1    SING N N 50 
+CTC C6B   C11    SING N N 51 
+CTC C11   O11    DOUB N N 52 
+CTC C11   C5B    SING N N 53 
+CTC C5B   C12    DOUB N N 54 
+CTC C12   O12    SING N N 55 
+CTC C12   C4B    SING N N 56 
+CTC O12   HO2    SING N N 57 
+CTC C4B   O4B    SING N N 58 
+CTC O4B   HO4    SING N N 59 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-CTC           SMILES              ACDLabs 10.04                                                                                                                              Clc1c4c(c(O)cc1)C(=O)C3=C(O)C2(O)C(=O)C(=C(O)C(N(C)C)C2CC3C4(O)C)C(=O)N
-CTC SMILES_CANONICAL               CACTVS 3.341                                                                                                            CN(C)[C@H]1[C@@H]2C[C@H]3C(=C(O)[C@]2(O)C(=O)C(=C1O)C(N)=O)C(=O)c4c(O)ccc(Cl)c4[C@@]3(C)O
-CTC           SMILES               CACTVS 3.341                                                                                                                   CN(C)[CH]1[CH]2C[CH]3C(=C(O)[C]2(O)C(=O)C(=C1O)C(N)=O)C(=O)c4c(O)ccc(Cl)c4[C]3(C)O
-CTC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                         C[C@]1(c2c(ccc(c2C(=O)C3=C([C@]4([C@@H](C[C@@H]31)[C@@H](C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)Cl)O
-CTC           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                              CC1(c2c(ccc(c2C(=O)C3=C(C4(C(CC31)C(C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)Cl)O
-CTC            InChI                InChI  1.03 InChI=1S/C22H23ClN2O8/c1-21(32)7-6-8-15(25(2)3)17(28)13(20(24)31)19(30)22(8,33)18(29)11(7)16(27)12-10(26)5-4-9(23)14(12)21/h4-5,7-8,15,26,28-29,32-33H,6H2,1-3H3,(H2,24,31)/t7-,8-,15-,21-,22-/m0/s1
-CTC         InChIKey                InChI  1.03                                                                                                                                                                          CYDMQBQPVICBEU-XRNKAMNCSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+CTC SMILES           ACDLabs              10.04 "Clc1c4c(c(O)cc1)C(=O)C3=C(O)C2(O)C(=O)C(=C(O)C(N(C)C)C2CC3C4(O)C)C(=O)N"                                                                                                                              
+CTC SMILES_CANONICAL CACTVS               3.341 "CN(C)[C@H]1[C@@H]2C[C@H]3C(=C(O)[C@]2(O)C(=O)C(=C1O)C(N)=O)C(=O)c4c(O)ccc(Cl)c4[C@@]3(C)O"                                                                                                            
+CTC SMILES           CACTVS               3.341 "CN(C)[CH]1[CH]2C[CH]3C(=C(O)[C]2(O)C(=O)C(=C1O)C(N)=O)C(=O)c4c(O)ccc(Cl)c4[C]3(C)O"                                                                                                                   
+CTC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@]1(c2c(ccc(c2C(=O)C3=C([C@]4([C@@H](C[C@@H]31)[C@@H](C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)Cl)O"                                                                                                         
+CTC SMILES           "OpenEye OEToolkits" 1.5.0 "CC1(c2c(ccc(c2C(=O)C3=C(C4(C(CC31)C(C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)Cl)O"                                                                                                                              
+CTC InChI            InChI                1.03  "InChI=1S/C22H23ClN2O8/c1-21(32)7-6-8-15(25(2)3)17(28)13(20(24)31)19(30)22(8,33)18(29)11(7)16(27)12-10(26)5-4-9(23)14(12)21/h4-5,7-8,15,26,28-29,32-33H,6H2,1-3H3,(H2,24,31)/t7-,8-,15-,21-,22-/m0/s1" 
+CTC InChIKey         InChI                1.03  CYDMQBQPVICBEU-XRNKAMNCSA-N                                                                                                                                                                            
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-CTC "SYSTEMATIC NAME"              ACDLabs 10.04 (4S,4aS,5aS,6S,12aS)-7-chloro-4-(dimethylamino)-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide
-CTC "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0             (4S,4aS,5aS,6S,12aS)-7-chloro-4-dimethylamino-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+CTC "SYSTEMATIC NAME" ACDLabs              10.04 "(4S,4aS,5aS,6S,12aS)-7-chloro-4-(dimethylamino)-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide" 
+CTC "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(4S,4aS,5aS,6S,12aS)-7-chloro-4-dimethylamino-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide"             
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-CTC  "Create component" 1999-07-08 RCSB
-CTC "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   CTC
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB09093
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Chlortetracycline
-_pdbe_chem_comp_drugbank_details.description               "Chlortetracycline is a _tetracycline_ antibiotic, and historically the first member of this class to be identified. It was discovered in 1945 by the scientist, Benjamin Minge Duggar, working at Lederle Laboratories under the supervision of Yellapragada Subbarow. He discovered that this antibiotic was the product of an actinomycete strain he cultured and obtained from a soil sample from a field in Missouri. The organism was named _Streptomyces aureofaciens_ due to its gold-hued color."
-_pdbe_chem_comp_drugbank_details.cas_number                57-62-5
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Chlortetracycline, like other tetracyclines, competes for the A site of the bacterial ribosome [T28]. This binding competes with tRNA carrying amino acids preventing the addition of more amino acids to the peptide chain. This inhibition of protein synthesis ultimately inhibits growth and reproduction of the bacterial cell as necessary proteins cannot be synthesized."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           CTC
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB09093
-_pdbe_chem_comp_drugbank_classification.parent            Tetracyclines
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             Tetracyclines
-_pdbe_chem_comp_drugbank_classification.superclass        "Phenylpropanoids and polyketides"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as tetracyclines. These are polyketides having an octahydrotetracene-2-carboxamide skeleton, substituted with many hydroxy and other groups."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-CTC DB09093  "30S ribosomal protein S3" "Escherichia coli (strain K12)" P0A7V3 yes 1
-CTC DB09093  "30S ribosomal protein S8" "Escherichia coli (strain K12)" P0A7W7 yes 2
-CTC DB09093 "30S ribosomal protein S19" "Escherichia coli (strain K12)" P0A7U3 yes 3
-CTC DB09093 "30S ribosomal protein S14" "Escherichia coli (strain K12)" P0AG59 yes 4
-CTC DB09093  "30S ribosomal protein S7" "Escherichia coli (strain K12)" P02359 yes 5
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-CTC              E702   ChEMBL
-CTC Chlortetracycline   ChEMBL
-CTC Chlortetracycline DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-CTC    C1  C -2.374  2.038  1
-CTC    O1  O -2.375  3.038  2
-CTC    C2  C -3.240  1.537  3
-CTC "C2'"  C -4.106  2.037  4
-CTC "O2'"  O -4.972  1.536  5
-CTC "N2'"  N -4.107  3.037  6
-CTC    C3  C -3.239  0.537  7
-CTC    O3  O -4.105  0.037  8
-CTC    C4  C -2.373  0.038  9
-CTC    N4  N -2.372 -0.962 10
-CTC "C4'"  C -1.505 -1.461 11
-CTC   C4D  C -3.237 -1.463 12
-CTC   C4A  C -1.507  0.539 13
-CTC    C5  C -0.641  0.039 14
-CTC   C5A  C  0.225  0.540 15
-CTC    C6  C  1.091  0.041 16
-CTC    O6  O  1.735 -0.725 17
-CTC "C6'"  C  0.449 -0.726 18
-CTC   C6A  C  1.957  0.542 19
-CTC    C7  C  2.823  0.042 20
-CTC   CL7 Cl  2.824 -0.958 21
-CTC    C8  C  3.689  0.543 22
-CTC    C9  C  3.688  1.543 23
-CTC   C10  C  2.822  2.042 24
-CTC   O10  O  2.821  3.042 25
-CTC   C6B  C  1.956  1.542 26
-CTC   C11  C  1.090  2.041 27
-CTC   O11  O  1.089  3.041 28
-CTC   C5B  C  0.224  1.540 29
-CTC   C12  C -0.642  2.039 30
-CTC   O12  O -0.643  3.039 31
-CTC   C4B  C -1.508  1.539 32
-CTC   O4B  O -1.509  2.539 33
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-CTC    C1    O1 DOUBLE       NONE  1
-CTC    C1    C2 SINGLE       NONE  2
-CTC    C1   C4B SINGLE       NONE  3
-CTC    C2 "C2'" SINGLE       NONE  4
-CTC    C2    C3 DOUBLE       NONE  5
-CTC "C2'" "O2'" DOUBLE       NONE  6
-CTC "C2'" "N2'" SINGLE       NONE  7
-CTC    C3    O3 SINGLE       NONE  8
-CTC    C3    C4 SINGLE       NONE  9
-CTC    C4    N4 SINGLE BEGINWEDGE 10
-CTC    C4   C4A SINGLE       NONE 11
-CTC    N4 "C4'" SINGLE       NONE 12
-CTC    N4   C4D SINGLE       NONE 13
-CTC   C4A    C5 SINGLE       NONE 14
-CTC   C4A   C4B SINGLE       NONE 15
-CTC    C5   C5A SINGLE       NONE 16
-CTC   C5A    C6 SINGLE       NONE 17
-CTC   C5A   C5B SINGLE       NONE 18
-CTC    C6    O6 SINGLE       NONE 19
-CTC    C6 "C6'" SINGLE BEGINWEDGE 20
-CTC    C6   C6A SINGLE       NONE 21
-CTC   C6A    C7 DOUBLE       NONE 22
-CTC   C6A   C6B SINGLE       NONE 23
-CTC    C7   CL7 SINGLE       NONE 24
-CTC    C7    C8 SINGLE       NONE 25
-CTC    C8    C9 DOUBLE       NONE 26
-CTC    C9   C10 SINGLE       NONE 27
-CTC   C10   O10 SINGLE       NONE 28
-CTC   C10   C6B DOUBLE       NONE 29
-CTC   C6B   C11 SINGLE       NONE 30
-CTC   C11   O11 DOUBLE       NONE 31
-CTC   C11   C5B SINGLE       NONE 32
-CTC   C5B   C12 DOUBLE       NONE 33
-CTC   C12   O12 SINGLE       NONE 34
-CTC   C12   C4B SINGLE       NONE 35
-CTC   C4B   O4B SINGLE  BEGINDASH 36
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-CTC MurckoScaffold S1 scaffold O=C1C2=CC3C(=O)C=CC[C@@H]3C[C@@H]2Cc2ccccc21 InChI=1S/C18H16O2/c19-17-7-3-5-12-9-13-8-11-4-1-2-6-14(11)18(20)16(13)10-15(12)17/h1-4,6-7,10,12-13,15H,5,8-9H2/t12-,13+,15?/m1/s1 KRZVXWRCQRFOLN-NEJHNUGDSA-N
-CTC          amide F1 fragment                                      CC(N)=O                                                                                             InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-CTC         phenyl F2 fragment                                     c1ccccc1                                                                                                 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-CTC     Z104477350 F3 fragment                           CC(=O)c1cccc(Cl)c1                                                                                 InChI=1S/C8H7ClO/c1-6(10)7-3-2-4-8(9)5-7/h2-5H,1H3 UUWJBXKHMMQDED-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-CTC "N2'" F1 1
-CTC "C2'" F1 1
-CTC "O2'" F1 1
-CTC    C2 F1 1
-CTC   C6A F2 1
-CTC    C7 F2 1
-CTC    C8 F2 1
-CTC    C9 F2 1
-CTC   C10 F2 1
-CTC   C6B F2 1
-CTC   C5B F3 1
-CTC   C11 F3 1
-CTC   O11 F3 1
-CTC   C6B F3 1
-CTC   C10 F3 1
-CTC    C9 F3 1
-CTC    C8 F3 1
-CTC    C7 F3 1
-CTC   CL7 F3 1
-CTC   C6A F3 1
-CTC    C1 S1 1
-CTC    O1 S1 1
-CTC    C2 S1 1
-CTC    C3 S1 1
-CTC    C4 S1 1
-CTC   C4A S1 1
-CTC    C5 S1 1
-CTC   C5A S1 1
-CTC    C6 S1 1
-CTC   C6A S1 1
-CTC    C7 S1 1
-CTC    C8 S1 1
-CTC    C9 S1 1
-CTC   C10 S1 1
-CTC   C6B S1 1
-CTC   C11 S1 1
-CTC   O11 S1 1
-CTC   C5B S1 1
-CTC   C12 S1 1
-CTC   C4B S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               CTC
-_pdbe_chem_comp_rdkit_properties.exactmw                               478.114
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           10
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           7
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     10
-_pdbe_chem_comp_rdkit_properties.NumHBD                                6
-_pdbe_chem_comp_rdkit_properties.NumHBA                                9
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        11
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.409
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             225.596
-_pdbe_chem_comp_rdkit_properties.tpsa                                  181.620
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.133
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             113.409
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         33
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-CTC UniChem        ChEMBL     CHEMBL404520
-CTC UniChem      DrugBank          DB09093
-CTC UniChem "KEGG LIGAND"           C06571
-CTC UniChem         ChEBI            27644
-CTC UniChem          ZINC ZINC000019701769
-CTC UniChem          ZINC     ZINC19701769
-CTC UniChem  MetaboLights       MTBLC27644
-CTC UniChem        BRENDA            20190
-CTC UniChem        BRENDA             8065
-CTC UniChem        BRENDA            92904
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CTC     C1 -1.880  1.562  0.195 ETKDGv2  1
-CTC     O1 -1.456  2.528  0.887 ETKDGv2  2
-CTC     C2 -3.043  0.770  0.668 ETKDGv2  3
-CTC  "C2'" -3.767  1.234  1.873 ETKDGv2  4
-CTC  "O2'" -4.017  0.426  2.808 ETKDGv2  5
-CTC  "N2'" -4.168  2.599  2.000 ETKDGv2  6
-CTC     C3 -3.421 -0.353  0.009 ETKDGv2  7
-CTC     O3 -4.629 -0.993  0.310 ETKDGv2  8
-CTC     C4 -2.616 -0.905 -1.168 ETKDGv2  9
-CTC     N4 -2.560 -2.397 -1.230 ETKDGv2 10
-CTC  "C4'" -3.574 -2.957 -2.139 ETKDGv2 11
-CTC    C4D -2.585 -3.102  0.069 ETKDGv2 12
-CTC    C4A -1.183 -0.300 -1.301 ETKDGv2 13
-CTC     C5 -0.170 -0.898 -0.311 ETKDGv2 14
-CTC    C5A  1.254 -0.338 -0.540 ETKDGv2 15
-CTC     C6  2.214 -0.593  0.674 ETKDGv2 16
-CTC     O6  2.195 -1.977  0.948 ETKDGv2 17
-CTC  "C6'"  1.809  0.221  1.932 ETKDGv2 18
-CTC    C6A  3.645 -0.176  0.300 ETKDGv2 19
-CTC     C7  4.744 -0.719  0.897 ETKDGv2 20
-CTC    CL7  4.675 -1.883  2.222 ETKDGv2 21
-CTC     C8  6.097 -0.315  0.473 ETKDGv2 22
-CTC     C9  6.266  0.616 -0.462 ETKDGv2 23
-CTC    C10  5.100  1.292 -1.060 ETKDGv2 24
-CTC    O10  5.322  2.292 -2.007 ETKDGv2 25
-CTC    C6B  3.845  0.943 -0.687 ETKDGv2 26
-CTC    C11  2.653  1.676 -1.196 ETKDGv2 27
-CTC    O11  2.797  2.764 -1.819 ETKDGv2 28
-CTC    C5B  1.295  1.114 -0.977 ETKDGv2 29
-CTC    C12  0.173  1.838 -1.220 ETKDGv2 30
-CTC    O12  0.293  3.200 -1.516 ETKDGv2 31
-CTC    C4B -1.228  1.236 -1.140 ETKDGv2 32
-CTC    O4B -2.004  1.749 -2.204 ETKDGv2 33
-CTC   HN21 -4.026  3.275  1.217 ETKDGv2 34
-CTC   HN22 -4.647  2.928  2.867 ETKDGv2 35
-CTC    HO3 -5.311 -0.635  0.967 ETKDGv2 36
-CTC     H4 -3.161 -0.528 -2.064 ETKDGv2 37
-CTC "H4'1" -3.415 -2.573 -3.169 ETKDGv2 38
-CTC "H4'2" -4.600 -2.691 -1.803 ETKDGv2 39
-CTC "H4'3" -3.483 -4.065 -2.185 ETKDGv2 40
-CTC   H4A1 -2.080 -4.084 -0.041 ETKDGv2 41
-CTC   H4A2 -2.045 -2.537  0.856 ETKDGv2 42
-CTC   H4A3 -3.624 -3.285  0.420 ETKDGv2 43
-CTC    H4A -0.820 -0.536 -2.328 ETKDGv2 44
-CTC    H51 -0.120 -1.998 -0.452 ETKDGv2 45
-CTC    H52 -0.519 -0.706  0.721 ETKDGv2 46
-CTC    H5A  1.666 -0.915 -1.400 ETKDGv2 47
-CTC    HO6  1.381 -2.192  1.473 ETKDGv2 48
-CTC "H6'1"  2.543  0.060  2.749 ETKDGv2 49
-CTC "H6'2"  1.780  1.309  1.710 ETKDGv2 50
-CTC "H6'3"  0.819 -0.079  2.328 ETKDGv2 51
-CTC     H8  6.964 -0.783  0.922 ETKDGv2 52
-CTC     H9  7.267  0.896 -0.765 ETKDGv2 53
-CTC    HO1  6.259  2.557 -2.287 ETKDGv2 54
-CTC    HO2 -0.507  3.806 -1.639 ETKDGv2 55
-CTC    HO4 -2.397  2.621 -1.935 ETKDGv2 56
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+CTC "Create component"  1999-07-08 RCSB 
+CTC "Modify descriptor" 2011-06-04 RCSB 
+# 

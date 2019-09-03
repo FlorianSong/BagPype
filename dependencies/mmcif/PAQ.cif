@@ -1,388 +1,164 @@
 data_PAQ
-#
-_chem_comp.id                                        PAQ
-_chem_comp.name                                      2-OXY-4-HYDROXY-5-(2-HYDRAZINOPYRIDINE)PHENYLALANINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C14 H16 N4 O4"
-_chem_comp.mon_nstd_parent_comp_id                   TYR
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            304.301
-_chem_comp.one_letter_code                           Y
-_chem_comp.three_letter_code                         PAQ
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1SPU
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    PAQ 
+_chem_comp.name                                  "2-OXY-4-HYDROXY-5-(2-HYDRAZINOPYRIDINE)PHENYLALANINE" 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C14 H16 N4 O4" 
+_chem_comp.mon_nstd_parent_comp_id               TYR 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        304.301 
+_chem_comp.one_letter_code                       Y 
+_chem_comp.three_letter_code                     PAQ 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1SPU 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PAQ   N   N N 0 1 N N N 66.082 76.131 -3.448 -1.557  1.676  3.428   N PAQ  1
-PAQ  CA  CA C 0 1 N N S 65.267 75.089 -2.706 -1.533  0.358  2.780  CA PAQ  2
-PAQ  CB  CB C 0 1 N N N 66.046 74.128 -1.746 -0.125 -0.233  2.879  CB PAQ  3
-PAQ  CG  CG C 0 1 N N R 67.420 73.809 -2.286  0.846  0.623  2.065  CG PAQ  4
-PAQ CD1 CD1 C 0 1 N N N 67.552 72.740 -3.185  2.251  0.228  2.461 CD1 PAQ  5
-PAQ  O2  O2 O 0 1 N N N 66.585 72.055 -3.563  2.615  0.306  3.618  O2 PAQ  6
-PAQ CD2 CD2 C 0 1 N N N 68.551 74.562 -1.963  0.459  0.501  0.609 CD2 PAQ  7
-PAQ CE1 CE1 C 0 1 N N N 68.783 72.435 -3.758  3.124 -0.228  1.467 CE1 PAQ  8
-PAQ CE2 CE2 C 0 1 N N N 69.791 74.270 -2.535  1.366  0.053 -0.266 CE2 PAQ  9
-PAQ  CZ  CZ C 0 1 N N N 69.898 73.202 -3.422  2.718 -0.318  0.160  CZ PAQ 10
-PAQ  OH  OH O 0 1 N N N 71.125 72.931 -3.958  3.594 -0.766 -0.765  OH PAQ 11
-PAQ  N1  N1 N 0 1 N N N 70.788 74.860 -2.259  1.017 -0.062 -1.616  N1 PAQ 12
-PAQ  N2  N2 N 0 1 N N N 70.656 75.914 -1.358 -0.271  0.289 -2.039  N2 PAQ 13
-PAQ  C1  C1 C 0 1 Y N N 71.474 76.993 -1.361 -0.617  0.174 -3.380  C1 PAQ 14
-PAQ  C2  C2 C 0 1 Y N N 72.096 77.415 -2.539 -1.899  0.526 -3.793  C2 PAQ 15
-PAQ  C3  C3 C 0 1 Y N N 72.866 78.471 -2.497 -2.230  0.407 -5.131  C3 PAQ 16
-PAQ  C4  C4 C 0 1 Y N N 73.063 79.169 -1.361 -1.265 -0.060 -6.014  C4 PAQ 17
-PAQ  C5  C5 C 0 1 Y N N 72.414 78.700 -0.230 -0.014 -0.391 -5.534  C5 PAQ 18
-PAQ  N3  N3 N 0 1 Y N N 71.623 77.610 -0.223  0.275 -0.263 -4.253  N3 PAQ 19
-PAQ   C   C C 0 1 N N N 64.214 75.671 -1.758 -2.512 -0.557  3.469   C PAQ 20
-PAQ   O   O O 0 1 N N N 64.489 76.616 -1.002 -2.752 -0.411  4.644   O PAQ 21
-PAQ OXT OXT O 0 1 N Y N 63.059 75.038 -1.865 -3.117 -1.535  2.776 OXT PAQ 22
-PAQ   H 1HN H 0 1 N N N 65.574 76.757 -4.073 -0.894  2.254  2.933   H PAQ 23
-PAQ  H2 2HN H 0 1 N Y N 66.833 75.671 -3.962 -1.191  1.548  4.359  H2 PAQ 24
-PAQ  HA  HA H 0 1 N N N 64.853 74.549 -3.590 -1.809  0.463  1.731  HA PAQ 25
-PAQ HB2 1HB H 0 1 N N N 66.098 74.537 -0.710  0.189 -0.248  3.923 HB2 PAQ 26
-PAQ HB3 2HB H 0 1 N N N 65.464 73.200 -1.534 -0.130 -1.249  2.487 HB3 PAQ 27
-PAQ  HG  HG H 0 1 N N N 67.540 74.049 -1.204  0.697  1.661  2.363  HG PAQ 28
-PAQ HD2 HD2 H 0 1 N N N 68.463 75.397 -1.247 -0.533  0.772  0.281 HD2 PAQ 29
-PAQ HE1 HE1 H 0 1 N N N 68.873 71.596 -4.468  4.131 -0.515  1.732 HE1 PAQ 30
-PAQ  HH HOH H 0 1 N N N 71.884 73.453 -3.729  4.420 -0.958 -0.299  HH PAQ 31
-PAQ HN1 HN1 H 0 1 N N N 71.238 75.191 -3.112  1.667 -0.386 -2.259 HN1 PAQ 32
-PAQ HN2 HN2 H 0 1 N N N 70.677 75.517 -0.418 -0.921  0.613 -1.396 HN2 PAQ 33
-PAQ HC2  H2 H 0 1 N N N 71.978 76.909 -3.512 -2.625  0.886 -3.080 HC2 PAQ 34
-PAQ  H3  H3 H 0 1 N N N 73.357 78.778 -3.435 -3.217  0.672 -5.481  H3 PAQ 35
-PAQ  H4  H4 H 0 1 N N N 73.710 80.062 -1.357 -1.492 -0.165 -7.064  H4 PAQ 36
-PAQ  H5  H5 H 0 1 N N N 72.535 79.230  0.729  0.738 -0.755 -6.218  H5 PAQ 37
-PAQ HXT HXT H 0 1 N Y N 62.405 75.399 -1.277 -3.746 -2.122  3.218 HXT PAQ 38
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PAQ N   N   N 0 1 N N N 66.082 76.131 -3.448 -1.557 1.676  3.428  N   PAQ 1  
+PAQ CA  CA  C 0 1 N N S 65.267 75.089 -2.706 -1.533 0.358  2.780  CA  PAQ 2  
+PAQ CB  CB  C 0 1 N N N 66.046 74.128 -1.746 -0.125 -0.233 2.879  CB  PAQ 3  
+PAQ CG  CG  C 0 1 N N R 67.420 73.809 -2.286 0.846  0.623  2.065  CG  PAQ 4  
+PAQ CD1 CD1 C 0 1 N N N 67.552 72.740 -3.185 2.251  0.228  2.461  CD1 PAQ 5  
+PAQ O2  O2  O 0 1 N N N 66.585 72.055 -3.563 2.615  0.306  3.618  O2  PAQ 6  
+PAQ CD2 CD2 C 0 1 N N N 68.551 74.562 -1.963 0.459  0.501  0.609  CD2 PAQ 7  
+PAQ CE1 CE1 C 0 1 N N N 68.783 72.435 -3.758 3.124  -0.228 1.467  CE1 PAQ 8  
+PAQ CE2 CE2 C 0 1 N N N 69.791 74.270 -2.535 1.366  0.053  -0.266 CE2 PAQ 9  
+PAQ CZ  CZ  C 0 1 N N N 69.898 73.202 -3.422 2.718  -0.318 0.160  CZ  PAQ 10 
+PAQ OH  OH  O 0 1 N N N 71.125 72.931 -3.958 3.594  -0.766 -0.765 OH  PAQ 11 
+PAQ N1  N1  N 0 1 N N N 70.788 74.860 -2.259 1.017  -0.062 -1.616 N1  PAQ 12 
+PAQ N2  N2  N 0 1 N N N 70.656 75.914 -1.358 -0.271 0.289  -2.039 N2  PAQ 13 
+PAQ C1  C1  C 0 1 Y N N 71.474 76.993 -1.361 -0.617 0.174  -3.380 C1  PAQ 14 
+PAQ C2  C2  C 0 1 Y N N 72.096 77.415 -2.539 -1.899 0.526  -3.793 C2  PAQ 15 
+PAQ C3  C3  C 0 1 Y N N 72.866 78.471 -2.497 -2.230 0.407  -5.131 C3  PAQ 16 
+PAQ C4  C4  C 0 1 Y N N 73.063 79.169 -1.361 -1.265 -0.060 -6.014 C4  PAQ 17 
+PAQ C5  C5  C 0 1 Y N N 72.414 78.700 -0.230 -0.014 -0.391 -5.534 C5  PAQ 18 
+PAQ N3  N3  N 0 1 Y N N 71.623 77.610 -0.223 0.275  -0.263 -4.253 N3  PAQ 19 
+PAQ C   C   C 0 1 N N N 64.214 75.671 -1.758 -2.512 -0.557 3.469  C   PAQ 20 
+PAQ O   O   O 0 1 N N N 64.489 76.616 -1.002 -2.752 -0.411 4.644  O   PAQ 21 
+PAQ OXT OXT O 0 1 N Y N 63.059 75.038 -1.865 -3.117 -1.535 2.776  OXT PAQ 22 
+PAQ H   1HN H 0 1 N N N 65.574 76.757 -4.073 -0.894 2.254  2.933  H   PAQ 23 
+PAQ H2  2HN H 0 1 N Y N 66.833 75.671 -3.962 -1.191 1.548  4.359  H2  PAQ 24 
+PAQ HA  HA  H 0 1 N N N 64.853 74.549 -3.590 -1.809 0.463  1.731  HA  PAQ 25 
+PAQ HB2 1HB H 0 1 N N N 66.098 74.537 -0.710 0.189  -0.248 3.923  HB2 PAQ 26 
+PAQ HB3 2HB H 0 1 N N N 65.464 73.200 -1.534 -0.130 -1.249 2.487  HB3 PAQ 27 
+PAQ HG  HG  H 0 1 N N N 67.540 74.049 -1.204 0.697  1.661  2.363  HG  PAQ 28 
+PAQ HD2 HD2 H 0 1 N N N 68.463 75.397 -1.247 -0.533 0.772  0.281  HD2 PAQ 29 
+PAQ HE1 HE1 H 0 1 N N N 68.873 71.596 -4.468 4.131  -0.515 1.732  HE1 PAQ 30 
+PAQ HH  HOH H 0 1 N N N 71.884 73.453 -3.729 4.420  -0.958 -0.299 HH  PAQ 31 
+PAQ HN1 HN1 H 0 1 N N N 71.238 75.191 -3.112 1.667  -0.386 -2.259 HN1 PAQ 32 
+PAQ HN2 HN2 H 0 1 N N N 70.677 75.517 -0.418 -0.921 0.613  -1.396 HN2 PAQ 33 
+PAQ HC2 H2  H 0 1 N N N 71.978 76.909 -3.512 -2.625 0.886  -3.080 HC2 PAQ 34 
+PAQ H3  H3  H 0 1 N N N 73.357 78.778 -3.435 -3.217 0.672  -5.481 H3  PAQ 35 
+PAQ H4  H4  H 0 1 N N N 73.710 80.062 -1.357 -1.492 -0.165 -7.064 H4  PAQ 36 
+PAQ H5  H5  H 0 1 N N N 72.535 79.230 0.729  0.738  -0.755 -6.218 H5  PAQ 37 
+PAQ HXT HXT H 0 1 N Y N 62.405 75.399 -1.277 -3.746 -2.122 3.218  HXT PAQ 38 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PAQ   N  CA SING N N  1
-PAQ   N   H SING N N  2
-PAQ   N  H2 SING N N  3
-PAQ  CA  CB SING N N  4
-PAQ  CA   C SING N N  5
-PAQ  CA  HA SING N N  6
-PAQ  CB  CG SING N N  7
-PAQ  CB HB2 SING N N  8
-PAQ  CB HB3 SING N N  9
-PAQ  CG CD1 SING N N 10
-PAQ  CG CD2 SING N N 11
-PAQ  CG  HG SING N N 12
-PAQ CD1  O2 DOUB N N 13
-PAQ CD1 CE1 SING N N 14
-PAQ CD2 CE2 DOUB N N 15
-PAQ CD2 HD2 SING N N 16
-PAQ CE1  CZ DOUB N N 17
-PAQ CE1 HE1 SING N N 18
-PAQ CE2  CZ SING N N 19
-PAQ CE2  N1 SING N N 20
-PAQ  CZ  OH SING N N 21
-PAQ  OH  HH SING N N 22
-PAQ  N1  N2 SING N N 23
-PAQ  N1 HN1 SING N N 24
-PAQ  N2  C1 SING N N 25
-PAQ  N2 HN2 SING N N 26
-PAQ  C1  C2 SING Y N 27
-PAQ  C1  N3 DOUB Y N 28
-PAQ  C2  C3 DOUB Y N 29
-PAQ  C2 HC2 SING N N 30
-PAQ  C3  C4 SING Y N 31
-PAQ  C3  H3 SING N N 32
-PAQ  C4  C5 DOUB Y N 33
-PAQ  C4  H4 SING N N 34
-PAQ  C5  N3 SING Y N 35
-PAQ  C5  H5 SING N N 36
-PAQ   C   O DOUB N N 37
-PAQ   C OXT SING N N 38
-PAQ OXT HXT SING N N 39
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PAQ N   CA  SING N N 1  
+PAQ N   H   SING N N 2  
+PAQ N   H2  SING N N 3  
+PAQ CA  CB  SING N N 4  
+PAQ CA  C   SING N N 5  
+PAQ CA  HA  SING N N 6  
+PAQ CB  CG  SING N N 7  
+PAQ CB  HB2 SING N N 8  
+PAQ CB  HB3 SING N N 9  
+PAQ CG  CD1 SING N N 10 
+PAQ CG  CD2 SING N N 11 
+PAQ CG  HG  SING N N 12 
+PAQ CD1 O2  DOUB N N 13 
+PAQ CD1 CE1 SING N N 14 
+PAQ CD2 CE2 DOUB N N 15 
+PAQ CD2 HD2 SING N N 16 
+PAQ CE1 CZ  DOUB N N 17 
+PAQ CE1 HE1 SING N N 18 
+PAQ CE2 CZ  SING N N 19 
+PAQ CE2 N1  SING N N 20 
+PAQ CZ  OH  SING N N 21 
+PAQ OH  HH  SING N N 22 
+PAQ N1  N2  SING N N 23 
+PAQ N1  HN1 SING N N 24 
+PAQ N2  C1  SING N N 25 
+PAQ N2  HN2 SING N N 26 
+PAQ C1  C2  SING Y N 27 
+PAQ C1  N3  DOUB Y N 28 
+PAQ C2  C3  DOUB Y N 29 
+PAQ C2  HC2 SING N N 30 
+PAQ C3  C4  SING Y N 31 
+PAQ C3  H3  SING N N 32 
+PAQ C4  C5  DOUB Y N 33 
+PAQ C4  H4  SING N N 34 
+PAQ C5  N3  SING Y N 35 
+PAQ C5  H5  SING N N 36 
+PAQ C   O   DOUB N N 37 
+PAQ C   OXT SING N N 38 
+PAQ OXT HXT SING N N 39 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PAQ           SMILES              ACDLabs 10.04                                                                                                    O=C(O)C(N)CC2C=C(NNc1ncccc1)C(O)=CC2=O
-PAQ SMILES_CANONICAL               CACTVS 3.341                                                                                          N[C@@H](C[C@@H]1C=C(NNc2ccccn2)C(=CC1=O)O)C(O)=O
-PAQ           SMILES               CACTVS 3.341                                                                                              N[CH](C[CH]1C=C(NNc2ccccn2)C(=CC1=O)O)C(O)=O
-PAQ SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                             c1ccnc(c1)NNC2=CC(C(=O)C=C2O)C[C@@H](C(=O)O)N
-PAQ           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                  c1ccnc(c1)NNC2=CC(C(=O)C=C2O)CC(C(=O)O)N
-PAQ            InChI                InChI  1.03 InChI=1S/C14H16N4O4/c15-9(14(21)22)5-8-6-10(12(20)7-11(8)19)17-18-13-3-1-2-4-16-13/h1-4,6-9,17,20H,5,15H2,(H,16,18)(H,21,22)/t8-,9+/m1/s1
-PAQ         InChIKey                InChI  1.03                                                                                                               AZUQIXJQZOMXAS-BDAKNGLRSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PAQ SMILES           ACDLabs              10.04 "O=C(O)C(N)CC2C=C(NNc1ncccc1)C(O)=CC2=O"                                                                                                    
+PAQ SMILES_CANONICAL CACTVS               3.341 "N[C@@H](C[C@@H]1C=C(NNc2ccccn2)C(=CC1=O)O)C(O)=O"                                                                                          
+PAQ SMILES           CACTVS               3.341 "N[CH](C[CH]1C=C(NNc2ccccn2)C(=CC1=O)O)C(O)=O"                                                                                              
+PAQ SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1ccnc(c1)NNC2=CC(C(=O)C=C2O)C[C@@H](C(=O)O)N"                                                                                             
+PAQ SMILES           "OpenEye OEToolkits" 1.5.0 "c1ccnc(c1)NNC2=CC(C(=O)C=C2O)CC(C(=O)O)N"                                                                                                  
+PAQ InChI            InChI                1.03  "InChI=1S/C14H16N4O4/c15-9(14(21)22)5-8-6-10(12(20)7-11(8)19)17-18-13-3-1-2-4-16-13/h1-4,6-9,17,20H,5,15H2,(H,16,18)(H,21,22)/t8-,9+/m1/s1" 
+PAQ InChIKey         InChI                1.03  AZUQIXJQZOMXAS-BDAKNGLRSA-N                                                                                                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PAQ "SYSTEMATIC NAME"              ACDLabs 10.04                3-[(1R)-4-hydroxy-6-oxo-3-(2-pyridin-2-ylhydrazino)cyclohexa-2,4-dien-1-yl]-L-alanine
-PAQ "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-[4-hydroxy-6-oxo-3-(2-pyridin-2-ylhydrazinyl)-1-cyclohexa-2,4-dienyl]propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PAQ "SYSTEMATIC NAME" ACDLabs              10.04 "3-[(1R)-4-hydroxy-6-oxo-3-(2-pyridin-2-ylhydrazino)cyclohexa-2,4-dien-1-yl]-L-alanine"              
+PAQ "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-[4-hydroxy-6-oxo-3-(2-pyridin-2-ylhydrazinyl)-1-cyclohexa-2,4-dienyl]propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PAQ  "Create component" 1999-07-08 RCSB
-PAQ "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   PAQ
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01634
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      2-Oxy-4-Hydroxy-5-(2-Hydrazinopyridine)Phenylalanine
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           PAQ
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01634
-_pdbe_chem_comp_drugbank_classification.parent            "L-alpha-amino acids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as l-alpha-amino acids. These are alpha amino acids which have the L-configuration of the alpha-carbon atom."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        PAQ
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB01634
-_pdbe_chem_comp_drugbank_targets.name                           "Primary amine oxidase"
-_pdbe_chem_comp_drugbank_targets.organism                       "Escherichia coli (strain K12)"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P46883
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PAQ   N N 10.301 -1.875  1
-PAQ  CA C 10.301 -3.375  2
-PAQ  CB C  9.002 -4.125  3
-PAQ  CG C  7.702 -3.375  4
-PAQ CD1 C  6.404 -4.125  5
-PAQ  O2 O  6.404 -5.625  6
-PAQ CD2 C  7.702 -1.875  7
-PAQ CE1 C  5.104 -3.375  8
-PAQ CE2 C  6.404 -1.125  9
-PAQ  CZ C  5.104 -1.875 10
-PAQ  OH O  3.805 -1.125 11
-PAQ  N1 N  6.404  0.375 12
-PAQ  N2 N  7.702  1.125 13
-PAQ  C1 C  7.702  2.625 14
-PAQ  C2 C  6.404  3.375 15
-PAQ  C3 C  6.404  4.875 16
-PAQ  C4 C  7.702  5.625 17
-PAQ  C5 C  9.002  4.875 18
-PAQ  N3 N  9.002  3.375 19
-PAQ   C C 11.600 -4.125 20
-PAQ   O O 12.899 -3.375 21
-PAQ OXT O 11.600 -5.625 22
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PAQ   N  CA SINGLE BEGINWEDGE  1
-PAQ  CA  CB SINGLE       NONE  2
-PAQ  CA   C SINGLE       NONE  3
-PAQ  CB  CG SINGLE BEGINWEDGE  4
-PAQ  CG CD1 SINGLE       NONE  5
-PAQ  CG CD2 SINGLE       NONE  6
-PAQ CD1  O2 DOUBLE       NONE  7
-PAQ CD1 CE1 SINGLE       NONE  8
-PAQ CD2 CE2 DOUBLE       NONE  9
-PAQ CE1  CZ DOUBLE       NONE 10
-PAQ CE2  CZ SINGLE       NONE 11
-PAQ CE2  N1 SINGLE       NONE 12
-PAQ  CZ  OH SINGLE       NONE 13
-PAQ  N1  N2 SINGLE       NONE 14
-PAQ  N2  C1 SINGLE       NONE 15
-PAQ  C1  C2 DOUBLE       NONE 16
-PAQ  C1  N3 SINGLE       NONE 17
-PAQ  C2  C3 SINGLE       NONE 18
-PAQ  C3  C4 DOUBLE       NONE 19
-PAQ  C4  C5 SINGLE       NONE 20
-PAQ  C5  N3 DOUBLE       NONE 21
-PAQ   C   O DOUBLE       NONE 22
-PAQ   C OXT SINGLE       NONE 23
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-PAQ MurckoScaffold S1 scaffold O=C1C=CC(NNc2ccccn2)=CC1 InChI=1S/C11H11N3O/c15-10-6-4-9(5-7-10)13-14-11-3-1-2-8-12-11/h1-6,8,13H,7H2,(H,12,14) FDOVVWGIWQLUHG-UHFFFAOYSA-N
-PAQ        peptide F1 fragment                    NCC=O                                                     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-PAQ       pyridine F2 fragment                 c1ccncc1                                                    InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-PAQ   O F1 1
-PAQ   C F1 1
-PAQ  CA F1 1
-PAQ   N F1 1
-PAQ  C1 F2 1
-PAQ  C2 F2 1
-PAQ  C3 F2 1
-PAQ  C4 F2 1
-PAQ  C5 F2 1
-PAQ  N3 F2 1
-PAQ  CG S1 1
-PAQ CD1 S1 1
-PAQ  O2 S1 1
-PAQ CD2 S1 1
-PAQ CE1 S1 1
-PAQ CE2 S1 1
-PAQ  CZ S1 1
-PAQ  N1 S1 1
-PAQ  N2 S1 1
-PAQ  C1 S1 1
-PAQ  C2 S1 1
-PAQ  C3 S1 1
-PAQ  C4 S1 1
-PAQ  C5 S1 1
-PAQ  N3 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PAQ
-_pdbe_chem_comp_rdkit_properties.exactmw                               304.117
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     8
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                8
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        8
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.214
-_pdbe_chem_comp_rdkit_properties.NumRings                              2
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             148.757
-_pdbe_chem_comp_rdkit_properties.tpsa                                  137.570
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.056
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             77.691
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         22
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-PAQ UniChem   ChEMBL    CHEMBL1235138
-PAQ UniChem DrugBank          DB01634
-PAQ UniChem     ZINC ZINC000006080317
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PAQ   N -4.045  1.843 -1.436 ETKDGv2  1
-PAQ  CA -3.178  1.300 -0.388 ETKDGv2  2
-PAQ  CB -3.101 -0.244 -0.486 ETKDGv2  3
-PAQ  CG -2.159 -0.903  0.550 ETKDGv2  4
-PAQ CD1 -2.348 -2.401  0.520 ETKDGv2  5
-PAQ  O2 -3.438 -2.902  0.905 ETKDGv2  6
-PAQ CD2 -0.716 -0.503  0.309 ETKDGv2  7
-PAQ CE1 -1.286 -3.287  0.027 ETKDGv2  8
-PAQ CE2  0.241 -1.370 -0.073 ETKDGv2  9
-PAQ  CZ -0.074 -2.806 -0.264 ETKDGv2 10
-PAQ  OH  0.921 -3.666 -0.732 ETKDGv2 11
-PAQ  N1  1.580 -0.912 -0.331 ETKDGv2 12
-PAQ  N2  2.148  0.175  0.361 ETKDGv2 13
-PAQ  C1  3.424  0.712 -0.016 ETKDGv2 14
-PAQ  C2  3.978  1.707  0.697 ETKDGv2 15
-PAQ  C3  5.289  2.251  0.291 ETKDGv2 16
-PAQ  C4  5.912  1.753 -0.781 ETKDGv2 17
-PAQ  C5  5.274  0.663 -1.543 ETKDGv2 18
-PAQ  N3  4.118  0.196 -1.169 ETKDGv2 19
-PAQ   C -3.692  1.741  0.954 ETKDGv2 20
-PAQ   O -2.972  2.457  1.701 ETKDGv2 21
-PAQ OXT -4.962  1.358  1.376 ETKDGv2 22
-PAQ   H -4.978  1.370 -1.400 ETKDGv2 23
-PAQ  H2 -3.622  1.625 -2.367 ETKDGv2 24
-PAQ  HA -2.163  1.726 -0.541 ETKDGv2 25
-PAQ HB2 -4.128 -0.654 -0.361 ETKDGv2 26
-PAQ HB3 -2.762 -0.525 -1.508 ETKDGv2 27
-PAQ  HG -2.431 -0.563  1.572 ETKDGv2 28
-PAQ HD2 -0.468  0.542  0.428 ETKDGv2 29
-PAQ HE1 -1.493 -4.344 -0.087 ETKDGv2 30
-PAQ  HH  0.753 -4.656 -0.872 ETKDGv2 31
-PAQ HN1  2.173 -1.462 -0.992 ETKDGv2 32
-PAQ HN2  1.661  0.571  1.196 ETKDGv2 33
-PAQ HC2  3.477  2.116  1.566 ETKDGv2 34
-PAQ  H3  5.742  3.052  0.862 ETKDGv2 35
-PAQ  H4  6.874  2.144 -1.089 ETKDGv2 36
-PAQ  H5  5.766  0.251 -2.414 ETKDGv2 37
-PAQ HXT -5.318  1.646  2.280 ETKDGv2 38
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PAQ "Create component"  1999-07-08 RCSB 
+PAQ "Modify descriptor" 2011-06-04 RCSB 
+# 

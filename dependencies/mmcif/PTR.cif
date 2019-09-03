@@ -1,360 +1,145 @@
 data_PTR
-#
-_chem_comp.id                                        PTR
-_chem_comp.name                                      O-PHOSPHOTYROSINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C9 H12 N O6 P"
-_chem_comp.mon_nstd_parent_comp_id                   TYR
-_chem_comp.pdbx_synonyms                             PHOSPHONOTYROSINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            261.168
-_chem_comp.one_letter_code                           Y
-_chem_comp.three_letter_code                         PTR
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    PTR 
+_chem_comp.name                                  O-PHOSPHOTYROSINE 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C9 H12 N O6 P" 
+_chem_comp.mon_nstd_parent_comp_id               TYR 
+_chem_comp.pdbx_synonyms                         PHOSPHONOTYROSINE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        261.168 
+_chem_comp.one_letter_code                       Y 
+_chem_comp.three_letter_code                     PTR 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PTR    N    N N 0 1 N N N 46.366 11.139 -0.665  1.298  0.975  3.302    N PTR  1
-PTR   CA   CA C 0 1 N N S 44.969 11.616 -0.749 -0.036  0.399  3.512   CA PTR  2
-PTR    C    C C 0 1 N N N 44.978 13.010 -1.358 -0.148 -0.106  4.928    C PTR  3
-PTR    O    O O 0 1 N N N 43.891 13.514 -1.708  0.833 -0.507  5.505    O PTR  4
-PTR  OXT  OXT O 0 1 N Y N 46.088 13.575 -1.497 -1.339 -0.110  5.546  OXT PTR  5
-PTR   CB   CB C 0 1 N N N 44.332 11.618  0.644 -0.250 -0.760  2.538   CB PTR  6
-PTR   CG   CG C 0 1 Y N N 44.885 12.640  1.620 -0.138 -0.254  1.123   CG PTR  7
-PTR  CD1  CD1 C 0 1 Y N N 45.913 12.302  2.506  1.089 -0.250  0.487  CD1 PTR  8
-PTR  CD2  CD2 C 0 1 Y N N 44.319 13.921  1.716 -1.264  0.198  0.461  CD2 PTR  9
-PTR  CE1  CE1 C 0 1 Y N N 46.364 13.214  3.480  1.194  0.212 -0.810  CE1 PTR 10
-PTR  CE2  CE2 C 0 1 Y N N 44.753 14.849  2.683 -1.163  0.668 -0.834  CE2 PTR 11
-PTR   CZ   CZ C 0 1 Y N N 45.772 14.487  3.562  0.067  0.673 -1.474   CZ PTR 12
-PTR   OH   OH O 0 1 N N N 46.216 15.385  4.594  0.168  1.129 -2.750   OH PTR 13
-PTR    P    P P 0 1 N N N 45.382 15.884  5.757 -0.065 -0.136 -3.717    P PTR 14
-PTR  O1P  O1P O 0 1 N N N 44.096 16.422  5.355 -1.409 -0.705 -3.467  O1P PTR 15
-PTR  O2P  O2P O 0 1 N N N 46.274 16.938  6.218  0.040  0.334 -5.253  O2P PTR 16
-PTR  O3P  O3P O 0 1 N N N 45.279 14.830  6.778  1.053 -1.253 -3.419  O3P PTR 17
-PTR    H  1HN H 0 1 N N N 46.360 10.204 -0.256  1.963  0.235  3.473    H PTR 18
-PTR  HN2  2HN H 0 1 N Y N 46.972 11.785 -0.159  1.365  1.204  2.322  HN2 PTR 19
-PTR   HA   HA H 0 1 N N N 44.360 10.939 -1.392 -0.793  1.164  3.339   HA PTR 20
-PTR  HXT  HXT H 0 1 N Y N 46.093 14.445 -1.877 -1.411 -0.435  6.454  HXT PTR 21
-PTR  HB2  1HB H 0 1 N N N 43.226 11.735  0.556  0.506 -1.525  2.711  HB2 PTR 22
-PTR  HB3  2HB H 0 1 N N N 44.388 10.597  1.089 -1.241 -1.187  2.694  HB3 PTR 23
-PTR  HD1  HD1 H 0 1 N N N 46.374 11.302  2.435  1.966 -0.609  1.004  HD1 PTR 24
-PTR  HD2  HD2 H 0 1 N N N 43.515 14.204  1.015 -2.222  0.194  0.959  HD2 PTR 25
-PTR  HE1  HE1 H 0 1 N N N 47.174 12.933  4.173  2.154  0.216 -1.306  HE1 PTR 26
-PTR  HE2  HE2 H 0 1 N N N 44.298 15.851  2.751 -2.041  1.026 -1.349  HE2 PTR 27
-PTR HO2P PHO2 H 0 0 N N N 45.751 17.250  6.947 -0.105 -0.451 -5.797 HO2P PTR 28
-PTR HO3P PHO3 H 0 0 N N N 44.756 15.142  7.507  1.911 -0.843 -3.593 HO3P PTR 29
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PTR N    N    N 0 1 N N N 46.366 11.139 -0.665 1.298  0.975  3.302  N    PTR 1  
+PTR CA   CA   C 0 1 N N S 44.969 11.616 -0.749 -0.036 0.399  3.512  CA   PTR 2  
+PTR C    C    C 0 1 N N N 44.978 13.010 -1.358 -0.148 -0.106 4.928  C    PTR 3  
+PTR O    O    O 0 1 N N N 43.891 13.514 -1.708 0.833  -0.507 5.505  O    PTR 4  
+PTR OXT  OXT  O 0 1 N Y N 46.088 13.575 -1.497 -1.339 -0.110 5.546  OXT  PTR 5  
+PTR CB   CB   C 0 1 N N N 44.332 11.618 0.644  -0.250 -0.760 2.538  CB   PTR 6  
+PTR CG   CG   C 0 1 Y N N 44.885 12.640 1.620  -0.138 -0.254 1.123  CG   PTR 7  
+PTR CD1  CD1  C 0 1 Y N N 45.913 12.302 2.506  1.089  -0.250 0.487  CD1  PTR 8  
+PTR CD2  CD2  C 0 1 Y N N 44.319 13.921 1.716  -1.264 0.198  0.461  CD2  PTR 9  
+PTR CE1  CE1  C 0 1 Y N N 46.364 13.214 3.480  1.194  0.212  -0.810 CE1  PTR 10 
+PTR CE2  CE2  C 0 1 Y N N 44.753 14.849 2.683  -1.163 0.668  -0.834 CE2  PTR 11 
+PTR CZ   CZ   C 0 1 Y N N 45.772 14.487 3.562  0.067  0.673  -1.474 CZ   PTR 12 
+PTR OH   OH   O 0 1 N N N 46.216 15.385 4.594  0.168  1.129  -2.750 OH   PTR 13 
+PTR P    P    P 0 1 N N N 45.382 15.884 5.757  -0.065 -0.136 -3.717 P    PTR 14 
+PTR O1P  O1P  O 0 1 N N N 44.096 16.422 5.355  -1.409 -0.705 -3.467 O1P  PTR 15 
+PTR O2P  O2P  O 0 1 N N N 46.274 16.938 6.218  0.040  0.334  -5.253 O2P  PTR 16 
+PTR O3P  O3P  O 0 1 N N N 45.279 14.830 6.778  1.053  -1.253 -3.419 O3P  PTR 17 
+PTR H    1HN  H 0 1 N N N 46.360 10.204 -0.256 1.963  0.235  3.473  H    PTR 18 
+PTR HN2  2HN  H 0 1 N Y N 46.972 11.785 -0.159 1.365  1.204  2.322  HN2  PTR 19 
+PTR HA   HA   H 0 1 N N N 44.360 10.939 -1.392 -0.793 1.164  3.339  HA   PTR 20 
+PTR HXT  HXT  H 0 1 N Y N 46.093 14.445 -1.877 -1.411 -0.435 6.454  HXT  PTR 21 
+PTR HB2  1HB  H 0 1 N N N 43.226 11.735 0.556  0.506  -1.525 2.711  HB2  PTR 22 
+PTR HB3  2HB  H 0 1 N N N 44.388 10.597 1.089  -1.241 -1.187 2.694  HB3  PTR 23 
+PTR HD1  HD1  H 0 1 N N N 46.374 11.302 2.435  1.966  -0.609 1.004  HD1  PTR 24 
+PTR HD2  HD2  H 0 1 N N N 43.515 14.204 1.015  -2.222 0.194  0.959  HD2  PTR 25 
+PTR HE1  HE1  H 0 1 N N N 47.174 12.933 4.173  2.154  0.216  -1.306 HE1  PTR 26 
+PTR HE2  HE2  H 0 1 N N N 44.298 15.851 2.751  -2.041 1.026  -1.349 HE2  PTR 27 
+PTR HO2P PHO2 H 0 0 N N N 45.751 17.250 6.947  -0.105 -0.451 -5.797 HO2P PTR 28 
+PTR HO3P PHO3 H 0 0 N N N 44.756 15.142 7.507  1.911  -0.843 -3.593 HO3P PTR 29 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PTR   N   CA SING N N  1
-PTR   N    H SING N N  2
-PTR   N  HN2 SING N N  3
-PTR  CA    C SING N N  4
-PTR  CA   CB SING N N  5
-PTR  CA   HA SING N N  6
-PTR   C    O DOUB N N  7
-PTR   C  OXT SING N N  8
-PTR OXT  HXT SING N N  9
-PTR  CB   CG SING N N 10
-PTR  CB  HB2 SING N N 11
-PTR  CB  HB3 SING N N 12
-PTR  CG  CD1 DOUB Y N 13
-PTR  CG  CD2 SING Y N 14
-PTR CD1  CE1 SING Y N 15
-PTR CD1  HD1 SING N N 16
-PTR CD2  CE2 DOUB Y N 17
-PTR CD2  HD2 SING N N 18
-PTR CE1   CZ DOUB Y N 19
-PTR CE1  HE1 SING N N 20
-PTR CE2   CZ SING Y N 21
-PTR CE2  HE2 SING N N 22
-PTR  CZ   OH SING N N 23
-PTR  OH    P SING N N 24
-PTR   P  O1P DOUB N N 25
-PTR   P  O2P SING N N 26
-PTR   P  O3P SING N N 27
-PTR O2P HO2P SING N N 28
-PTR O3P HO3P SING N N 29
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PTR N   CA   SING N N 1  
+PTR N   H    SING N N 2  
+PTR N   HN2  SING N N 3  
+PTR CA  C    SING N N 4  
+PTR CA  CB   SING N N 5  
+PTR CA  HA   SING N N 6  
+PTR C   O    DOUB N N 7  
+PTR C   OXT  SING N N 8  
+PTR OXT HXT  SING N N 9  
+PTR CB  CG   SING N N 10 
+PTR CB  HB2  SING N N 11 
+PTR CB  HB3  SING N N 12 
+PTR CG  CD1  DOUB Y N 13 
+PTR CG  CD2  SING Y N 14 
+PTR CD1 CE1  SING Y N 15 
+PTR CD1 HD1  SING N N 16 
+PTR CD2 CE2  DOUB Y N 17 
+PTR CD2 HD2  SING N N 18 
+PTR CE1 CZ   DOUB Y N 19 
+PTR CE1 HE1  SING N N 20 
+PTR CE2 CZ   SING Y N 21 
+PTR CE2 HE2  SING N N 22 
+PTR CZ  OH   SING N N 23 
+PTR OH  P    SING N N 24 
+PTR P   O1P  DOUB N N 25 
+PTR P   O2P  SING N N 26 
+PTR P   O3P  SING N N 27 
+PTR O2P HO2P SING N N 28 
+PTR O3P HO3P SING N N 29 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PTR           SMILES              ACDLabs 10.04                                                                                 O=P(Oc1ccc(cc1)CC(C(=O)O)N)(O)O
-PTR SMILES_CANONICAL               CACTVS 3.341                                                                          N[C@@H](Cc1ccc(O[P](O)(O)=O)cc1)C(O)=O
-PTR           SMILES               CACTVS 3.341                                                                            N[CH](Cc1ccc(O[P](O)(O)=O)cc1)C(O)=O
-PTR SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                            c1cc(ccc1C[C@@H](C(=O)O)N)OP(=O)(O)O
-PTR           SMILES "OpenEye OEToolkits" 1.5.0                                                                                 c1cc(ccc1CC(C(=O)O)N)OP(=O)(O)O
-PTR            InChI                InChI  1.03 InChI=1S/C9H12NO6P/c10-8(9(11)12)5-6-1-3-7(4-2-6)16-17(13,14)15/h1-4,8H,5,10H2,(H,11,12)(H2,13,14,15)/t8-/m0/s1
-PTR         InChIKey                InChI  1.03                                                                                     DCWXELXMIBXGTH-QMMMGPOBSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PTR SMILES           ACDLabs              10.04 "O=P(Oc1ccc(cc1)CC(C(=O)O)N)(O)O"                                                                                 
+PTR SMILES_CANONICAL CACTVS               3.341 "N[C@@H](Cc1ccc(O[P](O)(O)=O)cc1)C(O)=O"                                                                          
+PTR SMILES           CACTVS               3.341 "N[CH](Cc1ccc(O[P](O)(O)=O)cc1)C(O)=O"                                                                            
+PTR SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1C[C@@H](C(=O)O)N)OP(=O)(O)O"                                                                            
+PTR SMILES           "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1CC(C(=O)O)N)OP(=O)(O)O"                                                                                 
+PTR InChI            InChI                1.03  "InChI=1S/C9H12NO6P/c10-8(9(11)12)5-6-1-3-7(4-2-6)16-17(13,14)15/h1-4,8H,5,10H2,(H,11,12)(H2,13,14,15)/t8-/m0/s1" 
+PTR InChIKey         InChI                1.03  DCWXELXMIBXGTH-QMMMGPOBSA-N                                                                                       
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PTR "SYSTEMATIC NAME"              ACDLabs 10.04                                O-phosphono-L-tyrosine
-PTR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-(4-phosphonooxyphenyl)propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PTR "SYSTEMATIC NAME" ACDLabs              10.04 O-phosphono-L-tyrosine                                
+PTR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-(4-phosphonooxyphenyl)propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PTR  "Create component" 1999-07-08 RCSB
-PTR "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   PTR
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01962
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Phosphonotyrosine
-_pdbe_chem_comp_drugbank_details.description               "An amino acid that occurs in endogenous proteins. Tyrosine phosphorylation and dephosphorylation plays a role in cellular signal transduction and possibly in cell growth control and carcinogenesis. [PubChem]"
-_pdbe_chem_comp_drugbank_details.cas_number                21820-51-9
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           PTR
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01962
-_pdbe_chem_comp_drugbank_classification.parent            "Phenylalanine and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as phenylalanine and derivatives. These are compounds containing phenylalanine or a derivative thereof resulting from reaction of phenylalanine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-PTR DB01962                "Tyrosine-protein kinase HCK" Humans P08631 unknown 1
-PTR DB01962 "Proto-oncogene tyrosine-protein kinase Src" Humans P12931 unknown 2
-PTR DB01962  "Mast/stem cell growth factor receptor Kit" Humans P10721 unknown 3
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PTR   N N 3.805 -2.250  1
-PTR  CA C 5.104 -3.000  2
-PTR   C C 5.104 -4.500  3
-PTR   O O 3.805 -5.250  4
-PTR OXT O 6.404 -5.250  5
-PTR  CB C 6.404 -2.250  6
-PTR  CG C 6.404 -0.750  7
-PTR CD1 C 7.702  0.000  8
-PTR CD2 C 5.104  0.000  9
-PTR CE1 C 7.702  1.500 10
-PTR CE2 C 5.104  1.500 11
-PTR  CZ C 6.404  2.250 12
-PTR  OH O 6.404  3.750 13
-PTR   P P 7.702  4.500 14
-PTR O1P O 9.002  5.250 15
-PTR O2P O 6.952  5.799 16
-PTR O3P O 8.453  3.201 17
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PTR   N  CA SINGLE BEGINWEDGE  1
-PTR  CA   C SINGLE       NONE  2
-PTR  CA  CB SINGLE       NONE  3
-PTR   C   O DOUBLE       NONE  4
-PTR   C OXT SINGLE       NONE  5
-PTR  CB  CG SINGLE       NONE  6
-PTR  CG CD1 DOUBLE       NONE  7
-PTR  CG CD2 SINGLE       NONE  8
-PTR CD1 CE1 SINGLE       NONE  9
-PTR CD2 CE2 DOUBLE       NONE 10
-PTR CE1  CZ DOUBLE       NONE 11
-PTR CE2  CZ SINGLE       NONE 12
-PTR  CZ  OH SINGLE       NONE 13
-PTR  OH   P SINGLE       NONE 14
-PTR   P O1P DOUBLE       NONE 15
-PTR   P O2P SINGLE       NONE 16
-PTR   P O3P SINGLE       NONE 17
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-PTR MurckoScaffold S1 scaffold   c1ccccc1      InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-PTR        peptide F1 fragment      NCC=O      InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-PTR         phenyl F2 fragment   c1ccccc1      InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-PTR      phosphate F3 fragment O=P(O)(O)O InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-PTR   O F1 1
-PTR   C F1 1
-PTR  CA F1 1
-PTR   N F1 1
-PTR  CG F2 1
-PTR CD1 F2 1
-PTR CE1 F2 1
-PTR  CZ F2 1
-PTR CE2 F2 1
-PTR CD2 F2 1
-PTR  OH F3 1
-PTR   P F3 1
-PTR O1P F3 1
-PTR O2P F3 1
-PTR O3P F3 1
-PTR  CG S1 1
-PTR CD1 S1 1
-PTR CD2 S1 1
-PTR CE1 S1 1
-PTR CE2 S1 1
-PTR  CZ S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PTR
-_pdbe_chem_comp_rdkit_properties.exactmw                               261.040
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           7
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     8
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                7
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        8
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.222
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             114.309
-_pdbe_chem_comp_rdkit_properties.tpsa                                  130.080
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.405
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             57.553
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         17
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-PTR UniChem        ChEMBL     CHEMBL286939
-PTR UniChem      DrugBank          DB01962
-PTR UniChem "KEGG LIGAND"           C06501
-PTR UniChem         ChEBI            37788
-PTR UniChem          ZINC ZINC000001530464
-PTR UniChem  MetaboLights       MTBLC37788
-PTR UniChem        BRENDA           103369
-PTR UniChem        BRENDA           130035
-PTR UniChem        BRENDA           140264
-PTR UniChem        BRENDA            16151
-PTR UniChem        BRENDA            18454
-PTR UniChem        BRENDA             2579
-PTR UniChem        BRENDA            44347
-PTR UniChem        BRENDA             6691
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PTR    N -2.574  1.112 -0.902 ETKDGv2  1
-PTR   CA -2.931 -0.199 -0.350 ETKDGv2  2
-PTR    C -4.399 -0.274 -0.006 ETKDGv2  3
-PTR    O -4.897 -1.371  0.365 ETKDGv2  4
-PTR  OXT -5.214  0.851 -0.103 ETKDGv2  5
-PTR   CB -2.074 -0.501  0.893 ETKDGv2  6
-PTR   CG -0.601 -0.511  0.564 ETKDGv2  7
-PTR  CD1  0.218  0.448  1.030 ETKDGv2  8
-PTR  CD2 -0.040 -1.596 -0.276 ETKDGv2  9
-PTR  CE1  1.658  0.427  0.699 ETKDGv2 10
-PTR  CE2  1.264 -1.614 -0.575 ETKDGv2 11
-PTR   CZ  2.167 -0.557 -0.070 ETKDGv2 12
-PTR   OH  3.524 -0.633 -0.423 ETKDGv2 13
-PTR    P  4.737  0.496  0.053 ETKDGv2 14
-PTR  O1P  4.861  0.505  1.559 ETKDGv2 15
-PTR  O2P  4.326  2.044 -0.491 ETKDGv2 16
-PTR  O3P  6.219  0.039 -0.623 ETKDGv2 17
-PTR    H -3.134  1.278 -1.770 ETKDGv2 18
-PTR  HN2 -2.818  1.862 -0.214 ETKDGv2 19
-PTR   HA -2.728 -0.971 -1.125 ETKDGv2 20
-PTR  HXT -6.199  0.800  0.125 ETKDGv2 21
-PTR  HB2 -2.298  0.251  1.683 ETKDGv2 22
-PTR  HB3 -2.345 -1.497  1.306 ETKDGv2 23
-PTR  HD1 -0.164  1.252  1.647 ETKDGv2 24
-PTR  HD2 -0.685 -2.382 -0.650 ETKDGv2 25
-PTR  HE1  2.278  1.220  1.092 ETKDGv2 26
-PTR  HE2  1.663 -2.411 -1.189 ETKDGv2 27
-PTR HO2P  4.137  1.930 -1.456 ETKDGv2 28
-PTR HO3P  6.049  0.003 -1.598 ETKDGv2 29
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PTR "Create component"  1999-07-08 RCSB 
+PTR "Modify descriptor" 2011-06-04 RCSB 
+# 

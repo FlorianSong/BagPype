@@ -1,402 +1,164 @@
 data_ATM
-#
-_chem_comp.id                                        ATM
-_chem_comp.name                                      "3'-AZIDO-3'-DEOXYTHYMIDINE-5'-MONOPHOSPHATE"
-_chem_comp.type                                      "DNA LINKING"
-_chem_comp.pdbx_type                                 ATOMN
-_chem_comp.formula                                   "C10 H14 N5 O7 P"
-_chem_comp.mon_nstd_parent_comp_id                   DT
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            347.221
-_chem_comp.one_letter_code                           T
-_chem_comp.three_letter_code                         ATM
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2TMK
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    ATM 
+_chem_comp.name                                  "3'-AZIDO-3'-DEOXYTHYMIDINE-5'-MONOPHOSPHATE" 
+_chem_comp.type                                  "DNA LINKING" 
+_chem_comp.pdbx_type                             ATOMN 
+_chem_comp.formula                               "C10 H14 N5 O7 P" 
+_chem_comp.mon_nstd_parent_comp_id               DT 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        347.221 
+_chem_comp.one_letter_code                       T 
+_chem_comp.three_letter_code                     ATM 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2TMK 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ATM      P    P P  0 1 N N N  1.208 1.705 3.891 -4.092  1.481  0.053      P ATM  1
-ATM    OP1  O1P O  0 1 N N N  2.357 2.294 3.221 -3.578  1.972  1.351    OP1 ATM  2
-ATM    OP2  O2P O  0 1 N N N  0.095 1.187 3.081 -4.760  2.702 -0.757    OP2 ATM  3
-ATM    OP3  O3P O  0 1 N Y N  1.618 0.623 4.946 -5.198  0.339  0.311    OP3 ATM  4
-ATM  "O5'"  O5* O  0 1 N N N  0.561 2.872 4.727 -2.878  0.867 -0.808  "O5'" ATM  5
-ATM  "C5'"  C5* C  0 1 N N N  1.196 3.513 5.804 -2.254 -0.127  0.008  "C5'" ATM  6
-ATM  "C4'"  C4* C  0 1 N N S  0.115 4.108 6.737 -1.085 -0.753 -0.755  "C4'" ATM  7
-ATM  "O4'"  O4* O  0 1 N N N -0.544 5.281 6.249  0.006  0.187 -0.882  "O4'" ATM  8
-ATM  "C3'"  C3* C  0 1 N N S -1.002 3.090 6.993 -0.468 -1.921  0.055  "C3'" ATM  9
-ATM  "N3'"  N3* N  0 1 N N N -1.046 2.762 8.390 -1.181 -3.174 -0.205  "N3'" ATM 10
-ATM  "N4'"  N4* N  1 1 N N N -0.854 1.711 9.004 -0.850 -4.124  0.295  "N4'" ATM 11
-ATM  "N5'"  N5* N -1 1 N N N -0.678 0.782 9.556 -0.518 -5.074  0.796  "N5'" ATM 12
-ATM  "C2'"  C2* C  0 1 N N N -2.289 3.765 6.629  0.973 -1.979 -0.507  "C2'" ATM 13
-ATM  "C1'"  C1* C  0 1 N N R -1.887 5.221 6.721  1.194 -0.585 -1.125  "C1'" ATM 14
-ATM     N1   N1 N  0 1 N N N -2.740 6.042 5.874  2.347  0.063 -0.493     N1 ATM 15
-ATM     C2   C2 C  0 1 N N N -3.421 7.107 6.497  2.299  0.381  0.813     C2 ATM 16
-ATM     O2   O2 O  0 1 N N N -3.412 7.340 7.719  1.299  0.126  1.456     O2 ATM 17
-ATM     N3   N3 N  0 1 N N N -4.100 7.943 5.614  3.343  0.976  1.419     N3 ATM 18
-ATM     C4   C4 C  0 1 N N N -4.023 7.901 4.233  4.461  1.261  0.721     C4 ATM 19
-ATM     O4   O4 O  0 1 N N N -4.523 8.788 3.576  5.407  1.800  1.269     O4 ATM 20
-ATM     C5   C5 C  0 1 N N N -3.272 6.804 3.669  4.523  0.937 -0.655     C5 ATM 21
-ATM    C5A  C5A C  0 1 N N N -3.048 6.791 2.179  5.759  1.248 -1.459    C5A ATM 22
-ATM     C6   C6 C  0 1 N N N -2.714 5.879 4.493  3.461  0.339 -1.237     C6 ATM 23
-ATM   HOP2 2HOP H  0 0 N N N -0.655 0.802 3.518 -5.481  3.040 -0.208   HOP2 ATM 24
-ATM   HOP3 3HOP H  0 0 N N N  0.867 0.238 5.383 -5.506  0.047 -0.558   HOP3 ATM 25
-ATM  "H5'" 1H5* H  0 1 N N N  1.901 2.839 6.344 -2.981 -0.900  0.258  "H5'" ATM 26
-ATM "H5''" 2H5* H  0 0 N N N  1.936 4.276 5.468 -1.885  0.335  0.924 "H5''" ATM 27
-ATM  "H4'"  H4* H  0 1 N N N  0.692 4.377 7.651 -1.410 -1.097 -1.737  "H4'" ATM 28
-ATM  "H3'"  H3* H  0 1 N N N -0.833 2.159 6.401 -0.461 -1.694  1.121  "H3'" ATM 29
-ATM  "H2'" 1H2* H  0 1 N N N -2.736 3.451 5.656  1.054 -2.752 -1.271  "H2'" ATM 30
-ATM "H2''" 2H2* H  0 0 N N N -3.173 3.472 7.241  1.689 -2.158  0.296 "H2''" ATM 31
-ATM  "H1'"  H1* H  0 1 N N N -1.984 5.602 7.764  1.364 -0.678 -2.198  "H1'" ATM 32
-ATM    HN3  HN3 H  0 1 N N N -4.711 8.653 6.016  3.292  1.198  2.362    HN3 ATM 33
-ATM    H51  1H5 H  0 1 N N N -2.468 5.944 1.743  5.670  2.245 -1.891    H51 ATM 34
-ATM    H52  2H5 H  0 1 N N N -4.032 6.864 1.661  6.634  1.211 -0.809    H52 ATM 35
-ATM    H53  3H5 H  0 1 N N N -2.575 7.753 1.872  5.868  0.514 -2.257    H53 ATM 36
-ATM     H6   H6 H  0 1 N N N -2.238 4.993 4.039  3.491  0.081 -2.286     H6 ATM 37
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ATM P      P    P 0  1 N N N 1.208  1.705 3.891 -4.092 1.481  0.053  P      ATM 1  
+ATM OP1    O1P  O 0  1 N N N 2.357  2.294 3.221 -3.578 1.972  1.351  OP1    ATM 2  
+ATM OP2    O2P  O 0  1 N N N 0.095  1.187 3.081 -4.760 2.702  -0.757 OP2    ATM 3  
+ATM OP3    O3P  O 0  1 N Y N 1.618  0.623 4.946 -5.198 0.339  0.311  OP3    ATM 4  
+ATM "O5'"  O5*  O 0  1 N N N 0.561  2.872 4.727 -2.878 0.867  -0.808 "O5'"  ATM 5  
+ATM "C5'"  C5*  C 0  1 N N N 1.196  3.513 5.804 -2.254 -0.127 0.008  "C5'"  ATM 6  
+ATM "C4'"  C4*  C 0  1 N N S 0.115  4.108 6.737 -1.085 -0.753 -0.755 "C4'"  ATM 7  
+ATM "O4'"  O4*  O 0  1 N N N -0.544 5.281 6.249 0.006  0.187  -0.882 "O4'"  ATM 8  
+ATM "C3'"  C3*  C 0  1 N N S -1.002 3.090 6.993 -0.468 -1.921 0.055  "C3'"  ATM 9  
+ATM "N3'"  N3*  N 0  1 N N N -1.046 2.762 8.390 -1.181 -3.174 -0.205 "N3'"  ATM 10 
+ATM "N4'"  N4*  N 1  1 N N N -0.854 1.711 9.004 -0.850 -4.124 0.295  "N4'"  ATM 11 
+ATM "N5'"  N5*  N -1 1 N N N -0.678 0.782 9.556 -0.518 -5.074 0.796  "N5'"  ATM 12 
+ATM "C2'"  C2*  C 0  1 N N N -2.289 3.765 6.629 0.973  -1.979 -0.507 "C2'"  ATM 13 
+ATM "C1'"  C1*  C 0  1 N N R -1.887 5.221 6.721 1.194  -0.585 -1.125 "C1'"  ATM 14 
+ATM N1     N1   N 0  1 N N N -2.740 6.042 5.874 2.347  0.063  -0.493 N1     ATM 15 
+ATM C2     C2   C 0  1 N N N -3.421 7.107 6.497 2.299  0.381  0.813  C2     ATM 16 
+ATM O2     O2   O 0  1 N N N -3.412 7.340 7.719 1.299  0.126  1.456  O2     ATM 17 
+ATM N3     N3   N 0  1 N N N -4.100 7.943 5.614 3.343  0.976  1.419  N3     ATM 18 
+ATM C4     C4   C 0  1 N N N -4.023 7.901 4.233 4.461  1.261  0.721  C4     ATM 19 
+ATM O4     O4   O 0  1 N N N -4.523 8.788 3.576 5.407  1.800  1.269  O4     ATM 20 
+ATM C5     C5   C 0  1 N N N -3.272 6.804 3.669 4.523  0.937  -0.655 C5     ATM 21 
+ATM C5A    C5A  C 0  1 N N N -3.048 6.791 2.179 5.759  1.248  -1.459 C5A    ATM 22 
+ATM C6     C6   C 0  1 N N N -2.714 5.879 4.493 3.461  0.339  -1.237 C6     ATM 23 
+ATM HOP2   2HOP H 0  0 N N N -0.655 0.802 3.518 -5.481 3.040  -0.208 HOP2   ATM 24 
+ATM HOP3   3HOP H 0  0 N N N 0.867  0.238 5.383 -5.506 0.047  -0.558 HOP3   ATM 25 
+ATM "H5'"  1H5* H 0  1 N N N 1.901  2.839 6.344 -2.981 -0.900 0.258  "H5'"  ATM 26 
+ATM "H5''" 2H5* H 0  0 N N N 1.936  4.276 5.468 -1.885 0.335  0.924  "H5''" ATM 27 
+ATM "H4'"  H4*  H 0  1 N N N 0.692  4.377 7.651 -1.410 -1.097 -1.737 "H4'"  ATM 28 
+ATM "H3'"  H3*  H 0  1 N N N -0.833 2.159 6.401 -0.461 -1.694 1.121  "H3'"  ATM 29 
+ATM "H2'"  1H2* H 0  1 N N N -2.736 3.451 5.656 1.054  -2.752 -1.271 "H2'"  ATM 30 
+ATM "H2''" 2H2* H 0  0 N N N -3.173 3.472 7.241 1.689  -2.158 0.296  "H2''" ATM 31 
+ATM "H1'"  H1*  H 0  1 N N N -1.984 5.602 7.764 1.364  -0.678 -2.198 "H1'"  ATM 32 
+ATM HN3    HN3  H 0  1 N N N -4.711 8.653 6.016 3.292  1.198  2.362  HN3    ATM 33 
+ATM H51    1H5  H 0  1 N N N -2.468 5.944 1.743 5.670  2.245  -1.891 H51    ATM 34 
+ATM H52    2H5  H 0  1 N N N -4.032 6.864 1.661 6.634  1.211  -0.809 H52    ATM 35 
+ATM H53    3H5  H 0  1 N N N -2.575 7.753 1.872 5.868  0.514  -2.257 H53    ATM 36 
+ATM H6     H6   H 0  1 N N N -2.238 4.993 4.039 3.491  0.081  -2.286 H6     ATM 37 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ATM     P    OP1 DOUB N N  1
-ATM     P    OP2 SING N N  2
-ATM     P    OP3 SING N N  3
-ATM     P  "O5'" SING N N  4
-ATM   OP2   HOP2 SING N N  5
-ATM   OP3   HOP3 SING N N  6
-ATM "O5'"  "C5'" SING N N  7
-ATM "C5'"  "C4'" SING N N  8
-ATM "C5'"  "H5'" SING N N  9
-ATM "C5'" "H5''" SING N N 10
-ATM "C4'"  "O4'" SING N N 11
-ATM "C4'"  "C3'" SING N N 12
-ATM "C4'"  "H4'" SING N N 13
-ATM "O4'"  "C1'" SING N N 14
-ATM "C3'"  "N3'" SING N N 15
-ATM "C3'"  "C2'" SING N N 16
-ATM "C3'"  "H3'" SING N N 17
-ATM "N3'"  "N4'" DOUB N N 18
-ATM "N4'"  "N5'" DOUB N N 19
-ATM "C2'"  "C1'" SING N N 20
-ATM "C2'"  "H2'" SING N N 21
-ATM "C2'" "H2''" SING N N 22
-ATM "C1'"     N1 SING N N 23
-ATM "C1'"  "H1'" SING N N 24
-ATM    N1     C2 SING N N 25
-ATM    N1     C6 SING N N 26
-ATM    C2     O2 DOUB N N 27
-ATM    C2     N3 SING N N 28
-ATM    N3     C4 SING N N 29
-ATM    N3    HN3 SING N N 30
-ATM    C4     O4 DOUB N N 31
-ATM    C4     C5 SING N N 32
-ATM    C5    C5A SING N N 33
-ATM    C5     C6 DOUB N N 34
-ATM   C5A    H51 SING N N 35
-ATM   C5A    H52 SING N N 36
-ATM   C5A    H53 SING N N 37
-ATM    C6     H6 SING N N 38
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ATM P     OP1    DOUB N N 1  
+ATM P     OP2    SING N N 2  
+ATM P     OP3    SING N N 3  
+ATM P     "O5'"  SING N N 4  
+ATM OP2   HOP2   SING N N 5  
+ATM OP3   HOP3   SING N N 6  
+ATM "O5'" "C5'"  SING N N 7  
+ATM "C5'" "C4'"  SING N N 8  
+ATM "C5'" "H5'"  SING N N 9  
+ATM "C5'" "H5''" SING N N 10 
+ATM "C4'" "O4'"  SING N N 11 
+ATM "C4'" "C3'"  SING N N 12 
+ATM "C4'" "H4'"  SING N N 13 
+ATM "O4'" "C1'"  SING N N 14 
+ATM "C3'" "N3'"  SING N N 15 
+ATM "C3'" "C2'"  SING N N 16 
+ATM "C3'" "H3'"  SING N N 17 
+ATM "N3'" "N4'"  DOUB N N 18 
+ATM "N4'" "N5'"  DOUB N N 19 
+ATM "C2'" "C1'"  SING N N 20 
+ATM "C2'" "H2'"  SING N N 21 
+ATM "C2'" "H2''" SING N N 22 
+ATM "C1'" N1     SING N N 23 
+ATM "C1'" "H1'"  SING N N 24 
+ATM N1    C2     SING N N 25 
+ATM N1    C6     SING N N 26 
+ATM C2    O2     DOUB N N 27 
+ATM C2    N3     SING N N 28 
+ATM N3    C4     SING N N 29 
+ATM N3    HN3    SING N N 30 
+ATM C4    O4     DOUB N N 31 
+ATM C4    C5     SING N N 32 
+ATM C5    C5A    SING N N 33 
+ATM C5    C6     DOUB N N 34 
+ATM C5A   H51    SING N N 35 
+ATM C5A   H52    SING N N 36 
+ATM C5A   H53    SING N N 37 
+ATM C6    H6     SING N N 38 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ATM           SMILES              ACDLabs 10.04                                                                                              O=C1NC(=O)N(C=C1C)C2OC(C(\N=[N+]=[N-])C2)COP(=O)(O)O
-ATM SMILES_CANONICAL               CACTVS 3.341                                                                                CC1=CN([C@H]2C[C@H](N=[N+]=[N-])[C@@H](CO[P](O)(O)=O)O2)C(=O)NC1=O
-ATM           SMILES               CACTVS 3.341                                                                                    CC1=CN([CH]2C[CH](N=[N+]=[N-])[CH](CO[P](O)(O)=O)O2)C(=O)NC1=O
-ATM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                  CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)COP(=O)(O)O)N=[N+]=[N-]
-ATM           SMILES "OpenEye OEToolkits" 1.5.0                                                                                               CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)O)N=[N+]=[N-]
-ATM            InChI                InChI  1.03 InChI=1S/C10H14N5O7P/c1-5-3-15(10(17)12-9(5)16)8-2-6(13-14-11)7(22-8)4-21-23(18,19)20/h3,6-8H,2,4H2,1H3,(H,12,16,17)(H2,18,19,20)/t6-,7+,8+/m0/s1
-ATM         InChIKey                InChI  1.03                                                                                                                       OIFWQOKDSPDILA-XLPZGREQSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ATM SMILES           ACDLabs              10.04 "O=C1NC(=O)N(C=C1C)C2OC(C(\N=[N+]=[N-])C2)COP(=O)(O)O"                                                                                              
+ATM SMILES_CANONICAL CACTVS               3.341 "CC1=CN([C@H]2C[C@H](N=[N+]=[N-])[C@@H](CO[P](O)(O)=O)O2)C(=O)NC1=O"                                                                                
+ATM SMILES           CACTVS               3.341 "CC1=CN([CH]2C[CH](N=[N+]=[N-])[CH](CO[P](O)(O)=O)O2)C(=O)NC1=O"                                                                                    
+ATM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)COP(=O)(O)O)N=[N+]=[N-]"                                                                                  
+ATM SMILES           "OpenEye OEToolkits" 1.5.0 "CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)O)N=[N+]=[N-]"                                                                                               
+ATM InChI            InChI                1.03  "InChI=1S/C10H14N5O7P/c1-5-3-15(10(17)12-9(5)16)8-2-6(13-14-11)7(22-8)4-21-23(18,19)20/h3,6-8H,2,4H2,1H3,(H,12,16,17)(H2,18,19,20)/t6-,7+,8+/m0/s1" 
+ATM InChIKey         InChI                1.03  OIFWQOKDSPDILA-XLPZGREQSA-N                                                                                                                         
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-ATM "SYSTEMATIC NAME"              ACDLabs 10.04                                             "3'-azido-3'-deoxythymidine 5'-(dihydrogen phosphate)"
-ATM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2S,3S,5R)-3-azido-5-(5-methyl-2,4-dioxo-pyrimidin-1-yl)oxolan-2-yl]methyl dihydrogen phosphate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ATM "SYSTEMATIC NAME" ACDLabs              10.04 
+;3'-azido-3'-deoxythymidine 5'-(dihydrogen phosphate)
+;
+ATM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2S,3S,5R)-3-azido-5-(5-methyl-2,4-dioxo-pyrimidin-1-yl)oxolan-2-yl]methyl dihydrogen phosphate" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ATM  "Create component" 1999-07-08  EBI
-ATM "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   ATM
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03666
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "3'-Azido-3'-Deoxythymidine-5'-Monophosphate"
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           ATM
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03666
-_pdbe_chem_comp_drugbank_classification.parent            Pyrimidones
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             Diazines
-_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as pyrimidones. These are compounds that contain a pyrimidine ring, which bears a ketone. Pyrimidine is a 6-membered ring consisting of four carbon atoms and two nitrogen centers at the 1- and 3- ring positions."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-ATM DB03666 "Thymidylate kinase"                                                   Humans P23919 unknown 1
-ATM DB03666 "Thymidylate kinase" "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)" P9WKE1 unknown 2
-#
-_pdbx_chem_comp_synonyms.comp_id          ATM
-_pdbx_chem_comp_synonyms.name             "Zidovudine Monophosphate"
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ATM     P P 11.620 -4.683  1
-ATM   OP1 O 12.502 -5.896  2
-ATM   OP2 O 12.834 -3.801  3
-ATM   OP3 O 10.407 -5.564  4
-ATM "O5'" O 10.739 -3.469  5
-ATM "C5'" C  9.247 -3.626  6
-ATM "C4'" C  8.365 -2.412  7
-ATM "O4'" O  8.829 -0.986  8
-ATM "C3'" C  6.865 -2.412  9
-ATM "N3'" N  5.984 -3.626 10
-ATM "N4'" N  4.492 -3.469 11
-ATM "N5'" N  3.000 -3.312 12
-ATM "C2'" C  6.402 -0.986 13
-ATM "C1'" C  7.615 -0.104 14
-ATM    N1 N  7.615  1.396 15
-ATM    C2 C  8.914  2.146 16
-ATM    O2 O 10.213  1.396 17
-ATM    N3 N  8.914  3.646 18
-ATM    C4 C  7.615  4.396 19
-ATM    O4 O  7.615  5.896 20
-ATM    C5 C  6.316  3.646 21
-ATM   C5A C  5.017  4.396 22
-ATM    C6 C  6.316  2.146 23
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ATM     P   OP1 DOUBLE       NONE  1
-ATM     P   OP2 SINGLE       NONE  2
-ATM     P   OP3 SINGLE       NONE  3
-ATM     P "O5'" SINGLE       NONE  4
-ATM "O5'" "C5'" SINGLE       NONE  5
-ATM "C5'" "C4'" SINGLE BEGINWEDGE  6
-ATM "C4'" "O4'" SINGLE       NONE  7
-ATM "C4'" "C3'" SINGLE       NONE  8
-ATM "O4'" "C1'" SINGLE       NONE  9
-ATM "C3'" "N3'" SINGLE  BEGINDASH 10
-ATM "C3'" "C2'" SINGLE       NONE 11
-ATM "N3'" "N4'" DOUBLE       NONE 12
-ATM "N4'" "N5'" DOUBLE       NONE 13
-ATM "C2'" "C1'" SINGLE       NONE 14
-ATM "C1'"    N1 SINGLE BEGINWEDGE 15
-ATM    N1    C2 SINGLE       NONE 16
-ATM    N1    C6 SINGLE       NONE 17
-ATM    C2    O2 DOUBLE       NONE 18
-ATM    C2    N3 SINGLE       NONE 19
-ATM    N3    C4 SINGLE       NONE 20
-ATM    C4    O4 DOUBLE       NONE 21
-ATM    C4    C5 SINGLE       NONE 22
-ATM    C5   C5A SINGLE       NONE 23
-ATM    C5    C6 DOUBLE       NONE 24
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-ATM MurckoScaffold S1 scaffold O=c1ccn([C@@H]2CCCO2)c(=O)[nH]1 InChI=1S/C8H10N2O3/c11-6-3-4-10(8(12)9-6)7-2-1-5-13-7/h3-4,7H,1-2,5H2,(H,9,11,12)/t7-/m0/s1 CWWIKVUHBBTKHC-ZETCQYMHSA-N
-ATM      phosphate F1 fragment                      O=P(O)(O)O                                                     InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-ATM     pyrimidine F2 fragment                        c1cncnc1                                                        InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ATM   OP2 F1 1
-ATM     P F1 1
-ATM   OP1 F1 1
-ATM   OP3 F1 1
-ATM "O5'" F1 1
-ATM    C5 F2 1
-ATM    C4 F2 1
-ATM    N3 F2 1
-ATM    C2 F2 1
-ATM    N1 F2 1
-ATM    C6 F2 1
-ATM "C4'" S1 1
-ATM "O4'" S1 1
-ATM "C3'" S1 1
-ATM "C2'" S1 1
-ATM "C1'" S1 1
-ATM    N1 S1 1
-ATM    C2 S1 1
-ATM    O2 S1 1
-ATM    N3 S1 1
-ATM    C4 S1 1
-ATM    O4 S1 1
-ATM    C5 S1 1
-ATM    C6 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ATM
-_pdbe_chem_comp_rdkit_properties.exactmw                               347.063
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           12
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     8
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                9
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        13
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.600
-_pdbe_chem_comp_rdkit_properties.NumRings                              2
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             147.987
-_pdbe_chem_comp_rdkit_properties.tpsa                                  179.610
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.666
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             75.467
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         23
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ATM UniChem   ChEMBL     CHEMBL257695
-ATM UniChem DrugBank          DB03666
-ATM UniChem     ZINC ZINC000012503817
-ATM UniChem   BRENDA           128836
-ATM UniChem   BRENDA           146543
-ATM UniChem   BRENDA           166541
-ATM UniChem   BRENDA            16978
-ATM UniChem   BRENDA           173163
-ATM UniChem   BRENDA           202812
-ATM UniChem   BRENDA            21266
-ATM UniChem   BRENDA            22061
-ATM UniChem   BRENDA            60964
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ATM      P  4.395 -0.915 -1.033 ETKDGv2  1
-ATM    OP1  5.715 -0.203 -1.227 ETKDGv2  2
-ATM    OP2  4.690 -2.489 -0.482 ETKDGv2  3
-ATM    OP3  3.578 -0.978 -2.515 ETKDGv2  4
-ATM  "O5'"  3.465 -0.056  0.108 ETKDGv2  5
-ATM  "C5'"  2.250 -0.745  0.294 ETKDGv2  6
-ATM  "C4'"  1.369  0.029  1.280 ETKDGv2  7
-ATM  "O4'"  0.177 -0.685  1.506 ETKDGv2  8
-ATM  "C3'"  1.000  1.414  0.761 ETKDGv2  9
-ATM  "N3'"  1.990  2.408  1.166 ETKDGv2 10
-ATM  "N4'"  1.883  3.584  0.818 ETKDGv2 11
-ATM  "N5'"  1.775  4.759  0.471 ETKDGv2 12
-ATM  "C2'" -0.339  1.662  1.404 ETKDGv2 13
-ATM  "C1'" -0.844  0.261  1.748 ETKDGv2 14
-ATM     N1 -2.034 -0.082  0.950 ETKDGv2 15
-ATM     C2 -3.334 -0.207  1.562 ETKDGv2 16
-ATM     O2 -3.490 -0.017  2.798 ETKDGv2 17
-ATM     N3 -4.462 -0.540  0.754 ETKDGv2 18
-ATM     C4 -4.289 -0.742 -0.649 ETKDGv2 19
-ATM     O4 -5.289 -1.013 -1.367 ETKDGv2 20
-ATM     C5 -2.942 -0.630 -1.246 ETKDGv2 21
-ATM    C5A -2.757 -0.810 -2.728 ETKDGv2 22
-ATM     C6 -1.897 -0.296 -0.472 ETKDGv2 23
-ATM   HOP2  5.109 -2.370  0.408 ETKDGv2 24
-ATM   HOP3  4.136 -1.563 -3.086 ETKDGv2 25
-ATM  "H5'"  2.439 -1.754  0.725 ETKDGv2 26
-ATM "H5''"  1.697 -0.856 -0.667 ETKDGv2 27
-ATM  "H4'"  1.910  0.116  2.251 ETKDGv2 28
-ATM  "H3'"  0.893  1.410 -0.348 ETKDGv2 29
-ATM  "H2'" -1.019  2.208  0.712 ETKDGv2 30
-ATM "H2''" -0.228  2.258  2.338 ETKDGv2 31
-ATM  "H1'" -1.080  0.229  2.834 ETKDGv2 32
-ATM    HN3 -5.410 -0.626  1.185 ETKDGv2 33
-ATM    H51 -3.414 -1.623 -3.103 ETKDGv2 34
-ATM    H52 -1.709 -1.084 -2.975 ETKDGv2 35
-ATM    H53 -3.016  0.135 -3.250 ETKDGv2 36
-ATM     H6 -0.919 -0.190 -0.926 ETKDGv2 37
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ATM "Create component"  1999-07-08 EBI  
+ATM "Modify descriptor" 2011-06-04 RCSB 
+# 

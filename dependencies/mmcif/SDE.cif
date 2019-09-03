@@ -1,456 +1,190 @@
 data_SDE
-#
-_chem_comp.id                                        SDE
-_chem_comp.name                                      "(S,S)-N6,N6-(2,3-dihydroxy-1,4-butadiyl)-2'-deoxyadenosine-5'-monophosphate"
-_chem_comp.type                                      "DNA LINKING"
-_chem_comp.pdbx_type                                 ATOMN
-_chem_comp.formula                                   "C14 H22 N5 O8 P"
-_chem_comp.mon_nstd_parent_comp_id                   DA
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2014-01-07
-_chem_comp.pdbx_modified_date                        2014-05-23
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            419.327
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         SDE
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       Y
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2MHZ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    SDE 
+_chem_comp.name                                  "(S,S)-N6,N6-(2,3-dihydroxy-1,4-butadiyl)-2'-deoxyadenosine-5'-monophosphate" 
+_chem_comp.type                                  "DNA LINKING" 
+_chem_comp.pdbx_type                             ATOMN 
+_chem_comp.formula                               "C14 H22 N5 O8 P" 
+_chem_comp.mon_nstd_parent_comp_id               DA 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2014-01-07 
+_chem_comp.pdbx_modified_date                    2014-05-23 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        419.327 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     SDE 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2MHZ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-SDE      P      P P 0 1 N N N  3.988 -7.952 17.163  5.996 -1.769 -0.375      P SDE  1
-SDE    O1P    O1P O 0 1 N N N  4.613 -8.781 18.225  7.206 -0.636 -0.831    O1P SDE  2
-SDE    O2P    O2P O 0 1 N N N  4.404 -8.158 15.754  6.625 -1.796  1.226    O2P SDE  3
-SDE  "O5'"  "O5'" O 0 1 N N N  2.374 -8.095 17.247  4.774 -0.635 -0.799  "O5'" SDE  4
-SDE  "C5'"  "C5'" C 0 1 N N N  1.681 -8.175 18.487  4.378  0.221  0.274  "C5'" SDE  5
-SDE  "C4'"  "C4'" C 0 1 N N R  0.181 -7.843 18.382  3.335  1.221 -0.230  "C4'" SDE  6
-SDE  "O4'"  "O4'" O 0 1 N N N -0.012 -6.431 18.394  2.113  0.542 -0.592  "O4'" SDE  7
-SDE  "C1'"  "C1'" C 0 1 N N R -0.477 -5.991 17.126  1.062  1.523 -0.558  "C1'" SDE  8
-SDE     N9     N9 N 0 1 Y N N  0.409 -4.897 16.664 -0.187  0.899 -0.114     N9 SDE  9
-SDE     C8     C8 C 0 1 Y N N  1.673 -4.974 16.127 -0.301 -0.232  0.637     C8 SDE 10
-SDE     N7     N7 N 0 1 Y N N  2.250 -3.819 15.930 -1.556 -0.499  0.852     N7 SDE 11
-SDE     C5     C5 C 0 1 Y N N  1.280 -2.907 16.349 -2.326  0.442  0.254     C5 SDE 12
-SDE     C6     C6 C 0 1 Y N N  1.234 -1.498 16.436 -3.709  0.667  0.149     C6 SDE 13
-SDE     N6     N6 N 0 1 N N N  2.271 -0.688 16.162 -4.614 -0.193  0.746     N6 SDE 14
-SDE     CA     CA C 0 1 N N N  2.899  0.177 17.160 -6.000  0.245  0.501     CA SDE 15
-SDE     CB     CB C 0 1 N N S  4.155  0.657 16.429 -6.736 -0.929 -0.178     CB SDE 16
-SDE     OB     OB O 0 1 N N N  4.562  1.923 16.938 -8.071 -1.044  0.321     OB SDE 17
-SDE     CG     CG C 0 1 N N S  3.689  0.733 14.966 -5.888 -2.160  0.235     CG SDE 18
-SDE     OG     OG O 0 1 N N N  4.804  0.778 14.080 -6.012 -3.213 -0.723     OG SDE 19
-SDE     CD     CD C 0 1 N N N  2.881 -0.560 14.832 -4.456 -1.569  0.230     CD SDE 20
-SDE     N1     N1 N 0 1 Y N N  0.119 -0.901 16.901 -4.128  1.726 -0.537     N1 SDE 21
-SDE     C2     C2 C 0 1 Y N N -0.916 -1.661 17.248 -3.272  2.553 -1.109     C2 SDE 22
-SDE     N3     N3 N 0 1 Y N N -1.009 -2.984 17.216 -1.968  2.381 -1.037     N3 SDE 23
-SDE     C4     C4 C 0 1 Y N N  0.143 -3.553 16.769 -1.456  1.351 -0.373     C4 SDE 24
-SDE  "C3'"  "C3'" C 0 1 N N S -0.519 -8.409 17.135  2.895  2.173  0.911  "C3'" SDE 25
-SDE  "C2'"  "C2'" C 0 1 N N N -0.517 -7.206 16.192  1.489  2.617  0.440  "C2'" SDE 26
-SDE  "O3'"  "O3'" O 0 1 N N N -1.813 -8.869 17.501  3.778  3.293  1.009  "O3'" SDE 27
-SDE     H1     H1 H 0 1 N N N  4.251 -8.540 19.070  7.765 -0.930 -1.563     H1 SDE 28
-SDE     H3     H3 H 0 1 N N N  5.348 -8.077 15.687  6.147 -2.385  1.827     H3 SDE 29
-SDE "H5'2" "H5'2" H 0 0 N N N  1.783 -9.199 18.876  3.948 -0.378  1.077 "H5'2" SDE 30
-SDE "H5'1" "H5'1" H 0 0 N N N  2.145 -7.467 19.190  5.247  0.761  0.648 "H5'1" SDE 31
-SDE  "H4'"  "H4'" H 0 1 N N N -0.314 -8.277 19.263  3.725  1.786 -1.077  "H4'" SDE 32
-SDE  "H1'"  "H1'" H 0 1 N N N -1.501 -5.600 17.223  0.928  1.957 -1.549  "H1'" SDE 33
-SDE     H8     H8 H 0 1 N N N  2.150 -5.913 15.888  0.529 -0.821  1.001     H8 SDE 34
-SDE    HA2    HA2 H 0 1 N N N  2.245  1.021 17.425 -6.484  0.490  1.446    HA2 SDE 35
-SDE    HA1    HA1 H 0 1 N N N  3.157 -0.386 18.069 -6.003  1.116 -0.154    HA1 SDE 36
-SDE     HB     HB H 0 1 N N N  4.955 -0.092 16.527 -6.741 -0.807 -1.261     HB SDE 37
-SDE    HOB    HOB H 0 1 N N N  4.840  1.827 17.841 -8.621 -0.267  0.155    HOB SDE 38
-SDE     HG     HG H 0 1 N N N  3.030  1.603 14.829 -6.163 -2.507  1.231     HG SDE 39
-SDE    HOG    HOG H 0 1 N N N  5.272  1.596 14.200 -5.499 -4.003 -0.507    HOG SDE 40
-SDE    HD1    HD1 H 0 1 N N N  2.114 -0.471 14.049 -4.057 -1.551 -0.784    HD1 SDE 41
-SDE    HD2    HD2 H 0 1 N N N  3.534 -1.417 14.609 -3.804 -2.148  0.885    HD2 SDE 42
-SDE     H2     H2 H 0 1 N N N -1.791 -1.135 17.600 -3.655  3.400 -1.657     H2 SDE 43
-SDE  "H3'"  "H3'" H 0 1 N N N  0.088 -9.220 16.706  2.838  1.641  1.861  "H3'" SDE 44
-SDE "H2'2" "H2'2" H 0 0 N N N -1.428 -7.193 15.575  1.541  3.586 -0.056 "H2'2" SDE 45
-SDE "H2'1" "H2'1" H 0 0 N N N  0.368 -7.225 15.539  0.799  2.655  1.282 "H2'1" SDE 46
-SDE     H4     H4 H 0 1 N N N -1.731 -9.614 18.085  3.544  3.918  1.709     H4 SDE 47
-SDE    O3P    O3P O 0 1 N Y N      ?      ?      ?  4.785 -2.903  0.082    O3P SDE 48
-SDE     H5     H5 H 0 1 N N N      ?      ?      ?  6.502 -2.715 -1.380     H5 SDE 49
-SDE     H6     H6 H 0 1 N N N      ?      ?      ?  5.136 -3.744  0.405     H6 SDE 50
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+SDE P      P      P 0 1 N N N 3.988  -7.952 17.163 5.996  -1.769 -0.375 P      SDE 1  
+SDE O1P    O1P    O 0 1 N N N 4.613  -8.781 18.225 7.206  -0.636 -0.831 O1P    SDE 2  
+SDE O2P    O2P    O 0 1 N N N 4.404  -8.158 15.754 6.625  -1.796 1.226  O2P    SDE 3  
+SDE "O5'"  "O5'"  O 0 1 N N N 2.374  -8.095 17.247 4.774  -0.635 -0.799 "O5'"  SDE 4  
+SDE "C5'"  "C5'"  C 0 1 N N N 1.681  -8.175 18.487 4.378  0.221  0.274  "C5'"  SDE 5  
+SDE "C4'"  "C4'"  C 0 1 N N R 0.181  -7.843 18.382 3.335  1.221  -0.230 "C4'"  SDE 6  
+SDE "O4'"  "O4'"  O 0 1 N N N -0.012 -6.431 18.394 2.113  0.542  -0.592 "O4'"  SDE 7  
+SDE "C1'"  "C1'"  C 0 1 N N R -0.477 -5.991 17.126 1.062  1.523  -0.558 "C1'"  SDE 8  
+SDE N9     N9     N 0 1 Y N N 0.409  -4.897 16.664 -0.187 0.899  -0.114 N9     SDE 9  
+SDE C8     C8     C 0 1 Y N N 1.673  -4.974 16.127 -0.301 -0.232 0.637  C8     SDE 10 
+SDE N7     N7     N 0 1 Y N N 2.250  -3.819 15.930 -1.556 -0.499 0.852  N7     SDE 11 
+SDE C5     C5     C 0 1 Y N N 1.280  -2.907 16.349 -2.326 0.442  0.254  C5     SDE 12 
+SDE C6     C6     C 0 1 Y N N 1.234  -1.498 16.436 -3.709 0.667  0.149  C6     SDE 13 
+SDE N6     N6     N 0 1 N N N 2.271  -0.688 16.162 -4.614 -0.193 0.746  N6     SDE 14 
+SDE CA     CA     C 0 1 N N N 2.899  0.177  17.160 -6.000 0.245  0.501  CA     SDE 15 
+SDE CB     CB     C 0 1 N N S 4.155  0.657  16.429 -6.736 -0.929 -0.178 CB     SDE 16 
+SDE OB     OB     O 0 1 N N N 4.562  1.923  16.938 -8.071 -1.044 0.321  OB     SDE 17 
+SDE CG     CG     C 0 1 N N S 3.689  0.733  14.966 -5.888 -2.160 0.235  CG     SDE 18 
+SDE OG     OG     O 0 1 N N N 4.804  0.778  14.080 -6.012 -3.213 -0.723 OG     SDE 19 
+SDE CD     CD     C 0 1 N N N 2.881  -0.560 14.832 -4.456 -1.569 0.230  CD     SDE 20 
+SDE N1     N1     N 0 1 Y N N 0.119  -0.901 16.901 -4.128 1.726  -0.537 N1     SDE 21 
+SDE C2     C2     C 0 1 Y N N -0.916 -1.661 17.248 -3.272 2.553  -1.109 C2     SDE 22 
+SDE N3     N3     N 0 1 Y N N -1.009 -2.984 17.216 -1.968 2.381  -1.037 N3     SDE 23 
+SDE C4     C4     C 0 1 Y N N 0.143  -3.553 16.769 -1.456 1.351  -0.373 C4     SDE 24 
+SDE "C3'"  "C3'"  C 0 1 N N S -0.519 -8.409 17.135 2.895  2.173  0.911  "C3'"  SDE 25 
+SDE "C2'"  "C2'"  C 0 1 N N N -0.517 -7.206 16.192 1.489  2.617  0.440  "C2'"  SDE 26 
+SDE "O3'"  "O3'"  O 0 1 N N N -1.813 -8.869 17.501 3.778  3.293  1.009  "O3'"  SDE 27 
+SDE H1     H1     H 0 1 N N N 4.251  -8.540 19.070 7.765  -0.930 -1.563 H1     SDE 28 
+SDE H3     H3     H 0 1 N N N 5.348  -8.077 15.687 6.147  -2.385 1.827  H3     SDE 29 
+SDE "H5'2" "H5'2" H 0 0 N N N 1.783  -9.199 18.876 3.948  -0.378 1.077  "H5'2" SDE 30 
+SDE "H5'1" "H5'1" H 0 0 N N N 2.145  -7.467 19.190 5.247  0.761  0.648  "H5'1" SDE 31 
+SDE "H4'"  "H4'"  H 0 1 N N N -0.314 -8.277 19.263 3.725  1.786  -1.077 "H4'"  SDE 32 
+SDE "H1'"  "H1'"  H 0 1 N N N -1.501 -5.600 17.223 0.928  1.957  -1.549 "H1'"  SDE 33 
+SDE H8     H8     H 0 1 N N N 2.150  -5.913 15.888 0.529  -0.821 1.001  H8     SDE 34 
+SDE HA2    HA2    H 0 1 N N N 2.245  1.021  17.425 -6.484 0.490  1.446  HA2    SDE 35 
+SDE HA1    HA1    H 0 1 N N N 3.157  -0.386 18.069 -6.003 1.116  -0.154 HA1    SDE 36 
+SDE HB     HB     H 0 1 N N N 4.955  -0.092 16.527 -6.741 -0.807 -1.261 HB     SDE 37 
+SDE HOB    HOB    H 0 1 N N N 4.840  1.827  17.841 -8.621 -0.267 0.155  HOB    SDE 38 
+SDE HG     HG     H 0 1 N N N 3.030  1.603  14.829 -6.163 -2.507 1.231  HG     SDE 39 
+SDE HOG    HOG    H 0 1 N N N 5.272  1.596  14.200 -5.499 -4.003 -0.507 HOG    SDE 40 
+SDE HD1    HD1    H 0 1 N N N 2.114  -0.471 14.049 -4.057 -1.551 -0.784 HD1    SDE 41 
+SDE HD2    HD2    H 0 1 N N N 3.534  -1.417 14.609 -3.804 -2.148 0.885  HD2    SDE 42 
+SDE H2     H2     H 0 1 N N N -1.791 -1.135 17.600 -3.655 3.400  -1.657 H2     SDE 43 
+SDE "H3'"  "H3'"  H 0 1 N N N 0.088  -9.220 16.706 2.838  1.641  1.861  "H3'"  SDE 44 
+SDE "H2'2" "H2'2" H 0 0 N N N -1.428 -7.193 15.575 1.541  3.586  -0.056 "H2'2" SDE 45 
+SDE "H2'1" "H2'1" H 0 0 N N N 0.368  -7.225 15.539 0.799  2.655  1.282  "H2'1" SDE 46 
+SDE H4     H4     H 0 1 N N N -1.731 -9.614 18.085 3.544  3.918  1.709  H4     SDE 47 
+SDE O3P    O3P    O 0 1 N Y N ?      ?      ?      4.785  -2.903 0.082  O3P    SDE 48 
+SDE H5     H5     H 0 1 N N N ?      ?      ?      6.502  -2.715 -1.380 H5     SDE 49 
+SDE H6     H6     H 0 1 N N N ?      ?      ?      5.136  -3.744 0.405  H6     SDE 50 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-SDE    OG     CG SING N N  1
-SDE    CD     CG SING N N  2
-SDE    CD     N6 SING N N  3
-SDE    CG     CB SING N N  4
-SDE   O2P      P SING N N  5
-SDE    N7     C8 DOUB Y N  6
-SDE    N7     C5 SING Y N  7
-SDE    C8     N9 SING Y N  8
-SDE    N6     C6 SING N N  9
-SDE    N6     CA SING N N 10
-SDE "C2'"  "C1'" SING N N 11
-SDE "C2'"  "C3'" SING N N 12
-SDE    C5     C6 DOUB Y N 13
-SDE    C5     C4 SING Y N 14
-SDE    CB     OB SING N N 15
-SDE    CB     CA SING N N 16
-SDE    C6     N1 SING Y N 17
-SDE    N9     C4 SING Y N 18
-SDE    N9  "C1'" SING N N 19
-SDE    C4     N3 DOUB Y N 20
-SDE    N1     C2 DOUB Y N 21
-SDE "C1'"  "O4'" SING N N 22
-SDE "C3'"  "O3'" SING N N 23
-SDE "C3'"  "C4'" SING N N 24
-SDE     P  "O5'" SING N N 25
-SDE     P    O1P SING N N 26
-SDE    N3     C2 SING Y N 27
-SDE "O5'"  "C5'" SING N N 28
-SDE "C4'"  "O4'" SING N N 29
-SDE "C4'"  "C5'" SING N N 30
-SDE   O1P     H1 SING N N 31
-SDE   O2P     H3 SING N N 32
-SDE "C5'" "H5'2" SING N N 33
-SDE "C5'" "H5'1" SING N N 34
-SDE "C4'"  "H4'" SING N N 35
-SDE "C1'"  "H1'" SING N N 36
-SDE    C8     H8 SING N N 37
-SDE    CA    HA2 SING N N 38
-SDE    CA    HA1 SING N N 39
-SDE    CB     HB SING N N 40
-SDE    OB    HOB SING N N 41
-SDE    CG     HG SING N N 42
-SDE    OG    HOG SING N N 43
-SDE    CD    HD1 SING N N 44
-SDE    CD    HD2 SING N N 45
-SDE    C2     H2 SING N N 46
-SDE "C3'"  "H3'" SING N N 47
-SDE "C2'" "H2'2" SING N N 48
-SDE "C2'" "H2'1" SING N N 49
-SDE "O3'"     H4 SING N N 50
-SDE     P    O3P SING N N 51
-SDE     P     H5 SING N N 52
-SDE   O3P     H6 SING N N 53
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+SDE OG    CG     SING N N 1  
+SDE CD    CG     SING N N 2  
+SDE CD    N6     SING N N 3  
+SDE CG    CB     SING N N 4  
+SDE O2P   P      SING N N 5  
+SDE N7    C8     DOUB Y N 6  
+SDE N7    C5     SING Y N 7  
+SDE C8    N9     SING Y N 8  
+SDE N6    C6     SING N N 9  
+SDE N6    CA     SING N N 10 
+SDE "C2'" "C1'"  SING N N 11 
+SDE "C2'" "C3'"  SING N N 12 
+SDE C5    C6     DOUB Y N 13 
+SDE C5    C4     SING Y N 14 
+SDE CB    OB     SING N N 15 
+SDE CB    CA     SING N N 16 
+SDE C6    N1     SING Y N 17 
+SDE N9    C4     SING Y N 18 
+SDE N9    "C1'"  SING N N 19 
+SDE C4    N3     DOUB Y N 20 
+SDE N1    C2     DOUB Y N 21 
+SDE "C1'" "O4'"  SING N N 22 
+SDE "C3'" "O3'"  SING N N 23 
+SDE "C3'" "C4'"  SING N N 24 
+SDE P     "O5'"  SING N N 25 
+SDE P     O1P    SING N N 26 
+SDE N3    C2     SING Y N 27 
+SDE "O5'" "C5'"  SING N N 28 
+SDE "C4'" "O4'"  SING N N 29 
+SDE "C4'" "C5'"  SING N N 30 
+SDE O1P   H1     SING N N 31 
+SDE O2P   H3     SING N N 32 
+SDE "C5'" "H5'2" SING N N 33 
+SDE "C5'" "H5'1" SING N N 34 
+SDE "C4'" "H4'"  SING N N 35 
+SDE "C1'" "H1'"  SING N N 36 
+SDE C8    H8     SING N N 37 
+SDE CA    HA2    SING N N 38 
+SDE CA    HA1    SING N N 39 
+SDE CB    HB     SING N N 40 
+SDE OB    HOB    SING N N 41 
+SDE CG    HG     SING N N 42 
+SDE OG    HOG    SING N N 43 
+SDE CD    HD1    SING N N 44 
+SDE CD    HD2    SING N N 45 
+SDE C2    H2     SING N N 46 
+SDE "C3'" "H3'"  SING N N 47 
+SDE "C2'" "H2'2" SING N N 48 
+SDE "C2'" "H2'1" SING N N 49 
+SDE "O3'" H4     SING N N 50 
+SDE P     O3P    SING N N 51 
+SDE P     H5     SING N N 52 
+SDE O3P   H6     SING N N 53 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-SDE           SMILES              ACDLabs 12.01                                                                                                      n3c1c(ncnc1N2CC(O)C(O)C2)n(c3)C4OC(C(O)C4)COP(O)(O)O
-SDE            InChI                InChI  1.03 InChI=1S/C14H22N5O8P/c20-7-1-11(27-10(7)4-26-28(23,24)25)19-6-17-12-13(15-5-16-14(12)19)18-2-8(21)9(22)3-18/h5-11,20-25,28H,1-4H2/t7-,8-,9-,10+,11+/m0/s1
-SDE         InChIKey                InChI  1.03                                                                                                                               AFIPVZHEZSDVQA-LADJIXMOSA-N
-SDE SMILES_CANONICAL               CACTVS 3.385                                                                                O[C@H]1C[C@@H](O[C@@H]1CO[PH](O)(O)O)n2cnc3c(ncnc23)N4C[C@H](O)[C@@H](O)C4
-SDE           SMILES               CACTVS 3.385                                                                                        O[CH]1C[CH](O[CH]1CO[PH](O)(O)O)n2cnc3c(ncnc23)N4C[CH](O)[CH](O)C4
-SDE SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                                                c1nc2c(c(n1)N3C[C@@H]([C@H](C3)O)O)ncn2[C@H]4C[C@@H]([C@H](O4)COP(O)(O)O)O
-SDE           SMILES "OpenEye OEToolkits" 1.7.6                                                                                                      c1nc2c(c(n1)N3CC(C(C3)O)O)ncn2C4CC(C(O4)COP(O)(O)O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+SDE SMILES           ACDLabs              12.01 "n3c1c(ncnc1N2CC(O)C(O)C2)n(c3)C4OC(C(O)C4)COP(O)(O)O"                                                                                                      
+SDE InChI            InChI                1.03  "InChI=1S/C14H22N5O8P/c20-7-1-11(27-10(7)4-26-28(23,24)25)19-6-17-12-13(15-5-16-14(12)19)18-2-8(21)9(22)3-18/h5-11,20-25,28H,1-4H2/t7-,8-,9-,10+,11+/m0/s1" 
+SDE InChIKey         InChI                1.03  AFIPVZHEZSDVQA-LADJIXMOSA-N                                                                                                                                 
+SDE SMILES_CANONICAL CACTVS               3.385 "O[C@H]1C[C@@H](O[C@@H]1CO[PH](O)(O)O)n2cnc3c(ncnc23)N4C[C@H](O)[C@@H](O)C4"                                                                                
+SDE SMILES           CACTVS               3.385 "O[CH]1C[CH](O[CH]1CO[PH](O)(O)O)n2cnc3c(ncnc23)N4C[CH](O)[CH](O)C4"                                                                                        
+SDE SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "c1nc2c(c(n1)N3C[C@@H]([C@H](C3)O)O)ncn2[C@H]4C[C@@H]([C@H](O4)COP(O)(O)O)O"                                                                                
+SDE SMILES           "OpenEye OEToolkits" 1.7.6 "c1nc2c(c(n1)N3CC(C(C3)O)O)ncn2C4CC(C(O4)COP(O)(O)O)O"                                                                                                      
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-SDE "SYSTEMATIC NAME"              ACDLabs 12.01 "(3S,4S)-1-{9-[(2R,4S,5R)-4-hydroxy-5-{[(trihydroxy-lambda~5~-phosphanyl)oxy]methyl}tetrahydrofuran-2-yl]-9H-purin-6-yl}pyrrolidine-3,4-diol (non-preferred name)"
-SDE "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6                                     (3S,4S)-1-[9-[(2R,4S,5R)-4-oxidanyl-5-[[tris(oxidanyl)-$l^{5}-phosphanyl]oxymethyl]oxolan-2-yl]purin-6-yl]pyrrolidine-3,4-diol
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+SDE "SYSTEMATIC NAME" ACDLabs              12.01 "(3S,4S)-1-{9-[(2R,4S,5R)-4-hydroxy-5-{[(trihydroxy-lambda~5~-phosphanyl)oxy]methyl}tetrahydrofuran-2-yl]-9H-purin-6-yl}pyrrolidine-3,4-diol (non-preferred name)" 
+SDE "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(3S,4S)-1-[9-[(2R,4S,5R)-4-oxidanyl-5-[[tris(oxidanyl)-$l^{5}-phosphanyl]oxymethyl]oxolan-2-yl]purin-6-yl]pyrrolidine-3,4-diol"                                   
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-SDE "Create component" 2014-01-07 RCSB
-SDE  "Initial release" 2014-05-28 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-SDE     P P -1.561 -5.181  1
-SDE   O1P O -2.150 -4.373  2
-SDE   O2P O -0.973 -5.990  3
-SDE "O5'" O -0.753 -4.593  4
-SDE "C5'" C -0.858 -3.598  5
-SDE "C4'" C -0.050 -3.010  6
-SDE "O4'" O -0.051 -2.010  7
-SDE "C1'" C  0.900 -1.700  8
-SDE    N9 N  1.208 -0.749  9
-SDE    C8 C  0.620  0.060 10
-SDE    N7 N  1.207  0.869 11
-SDE    C5 C  2.158  0.561 12
-SDE    C6 C  3.024  1.062 13
-SDE    N6 N  3.023  2.062 14
-SDE    CA C  3.832  2.650 15
-SDE    CB C  3.522  3.601 16
-SDE    OB O  4.109  4.410 17
-SDE    CG C  2.522  3.600 18
-SDE    OG O  1.934  4.409 19
-SDE    CD C  2.214  2.649 20
-SDE    N1 N  3.890  0.562 21
-SDE    C2 C  3.891 -0.438 22
-SDE    N3 N  3.026 -0.938 23
-SDE    C4 C  2.159 -0.439 24
-SDE "C3'" C  0.902 -3.318 25
-SDE "C2'" C  1.489 -2.509 26
-SDE "O3'" O  1.211 -4.269 27
-SDE   O3P O -2.370 -5.770 28
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-SDE    OG    CG SINGLE BEGINWEDGE  1
-SDE    CD    CG SINGLE       NONE  2
-SDE    CD    N6 SINGLE       NONE  3
-SDE    CG    CB SINGLE       NONE  4
-SDE   O2P     P SINGLE       NONE  5
-SDE    N7    C8 DOUBLE       NONE  6
-SDE    N7    C5 SINGLE       NONE  7
-SDE    C8    N9 SINGLE       NONE  8
-SDE    N6    C6 SINGLE       NONE  9
-SDE    N6    CA SINGLE       NONE 10
-SDE "C2'" "C1'" SINGLE       NONE 11
-SDE "C2'" "C3'" SINGLE       NONE 12
-SDE    C5    C6 DOUBLE       NONE 13
-SDE    C5    C4 SINGLE       NONE 14
-SDE    CB    OB SINGLE  BEGINDASH 15
-SDE    CB    CA SINGLE       NONE 16
-SDE    C6    N1 SINGLE       NONE 17
-SDE    N9    C4 SINGLE       NONE 18
-SDE    N9 "C1'" SINGLE  BEGINDASH 19
-SDE    C4    N3 DOUBLE       NONE 20
-SDE    N1    C2 DOUBLE       NONE 21
-SDE "C1'" "O4'" SINGLE       NONE 22
-SDE "C3'" "O3'" SINGLE  BEGINDASH 23
-SDE "C3'" "C4'" SINGLE       NONE 24
-SDE     P "O5'" SINGLE       NONE 25
-SDE     P   O1P SINGLE       NONE 26
-SDE    N3    C2 SINGLE       NONE 27
-SDE "O5'" "C5'" SINGLE       NONE 28
-SDE "C4'" "O4'" SINGLE       NONE 29
-SDE "C4'" "C5'" SINGLE  BEGINDASH 30
-SDE     P   O3P SINGLE       NONE 31
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-SDE MurckoScaffold S1 scaffold c1nc(N2CCCC2)c2ncn([C@@H]3CCCO3)c2n1 InChI=1S/C13H17N5O/c1-2-6-17(5-1)12-11-13(15-8-14-12)18(9-16-11)10-4-3-7-19-10/h8-10H,1-7H2/t10-/m0/s1 NGMDCPNBDUVGGD-JTQLQIEISA-N
-SDE        adenine F1 fragment                    Nc1ncnc2nc[nH]c12                                        InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-SDE    deoxyribose F2 fragment                           OCC1OCCC1O                                                        InChI=1S/C5H10O3/c6-3-5-4(7)1-2-8-5/h4-7H,1-3H2 NSMOSDAEGJTOIQ-UHFFFAOYSA-N
-SDE    glycerophos F3 fragment                  OCC(O)CO[PH](O)(O)O                                                 InChI=1S/C3H11O6P/c4-1-3(5)2-9-10(6,7)8/h3-8,10H,1-2H2 MTPVQHMQUWXWDQ-UHFFFAOYSA-N
-SDE      imidazole F4 fragment                           c1c[nH]cn1                                                             InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-SDE         purine F5 fragment                     c1ncc2[nH]cnc2n1                                               InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-SDE     pyrimidine F6 fragment                             c1cncnc1                                                                   InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-SDE    N1 F1 1
-SDE    C6 F1 1
-SDE    C5 F1 1
-SDE    C4 F1 1
-SDE    N3 F1 1
-SDE    C2 F1 1
-SDE    N9 F1 1
-SDE    C8 F1 1
-SDE    N7 F1 1
-SDE    N6 F1 1
-SDE "C1'" F2 1
-SDE "C2'" F2 1
-SDE "C3'" F2 1
-SDE "O3'" F2 1
-SDE "C4'" F2 1
-SDE "O4'" F2 1
-SDE "C5'" F2 1
-SDE "O5'" F2 1
-SDE "C3'" F3 1
-SDE "C4'" F3 1
-SDE "C5'" F3 1
-SDE "O5'" F3 1
-SDE     P F3 1
-SDE   O1P F3 1
-SDE   O2P F3 1
-SDE    H1 F3 1
-SDE "O4'" F3 1
-SDE "O3'" F3 1
-SDE    C5 F4 1
-SDE    C4 F4 1
-SDE    N9 F4 1
-SDE    C8 F4 1
-SDE    N7 F4 1
-SDE    N7 F5 1
-SDE    C8 F5 1
-SDE    N9 F5 1
-SDE    C4 F5 1
-SDE    C5 F5 1
-SDE    C6 F5 1
-SDE    N1 F5 1
-SDE    C2 F5 1
-SDE    N3 F5 1
-SDE    C5 F6 1
-SDE    C6 F6 1
-SDE    N1 F6 1
-SDE    C2 F6 1
-SDE    N3 F6 1
-SDE    C4 F6 1
-SDE "C4'" S1 1
-SDE "O4'" S1 1
-SDE "C1'" S1 1
-SDE    N9 S1 1
-SDE    C8 S1 1
-SDE    N7 S1 1
-SDE    C5 S1 1
-SDE    C6 S1 1
-SDE    N6 S1 1
-SDE    CA S1 1
-SDE    CB S1 1
-SDE    CG S1 1
-SDE    CD S1 1
-SDE    N1 S1 1
-SDE    C2 S1 1
-SDE    N3 S1 1
-SDE    C4 S1 1
-SDE "C3'" S1 1
-SDE "C2'" S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               SDE
-_pdbe_chem_comp_rdkit_properties.exactmw                               419.121
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           13
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     11
-_pdbe_chem_comp_rdkit_properties.NumHBD                                6
-_pdbe_chem_comp_rdkit_properties.NumHBA                                13
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        14
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.643
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     2
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       4
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             189.954
-_pdbe_chem_comp_rdkit_properties.tpsa                                  186.680
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -3.389
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             91.977
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         28
-
-#
-_pdbe_chem_comp_external_mappings.comp_id           SDE
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ZINC
-_pdbe_chem_comp_external_mappings.resource_id       ZINC000098209394
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SDE      P -6.359  1.271  0.713 ETKDGv2  1
-SDE    O1P -8.040  1.317  0.526 ETKDGv2  2
-SDE    O2P -5.710  2.014  2.095 ETKDGv2  3
-SDE  "O5'" -5.526 -0.032 -0.017 ETKDGv2  4
-SDE  "C5'" -4.257 -0.163  0.584 ETKDGv2  5
-SDE  "C4'" -3.504 -1.332 -0.065 ETKDGv2  6
-SDE  "O4'" -2.223 -1.453  0.502 ETKDGv2  7
-SDE  "C1'" -1.446 -2.157 -0.440 ETKDGv2  8
-SDE     N9 -0.050 -1.738 -0.341 ETKDGv2  9
-SDE     C8  1.102 -2.565 -0.090 ETKDGv2 10
-SDE     N7  2.224 -1.909  0.055 ETKDGv2 11
-SDE     C5  1.885 -0.533 -0.086 ETKDGv2 12
-SDE     C6  2.638  0.572 -0.001 ETKDGv2 13
-SDE     N6  4.057  0.546  0.247 ETKDGv2 14
-SDE     CA  4.868  1.751  0.212 ETKDGv2 15
-SDE     CB  6.312  1.279  0.340 ETKDGv2 16
-SDE     OB  7.042  2.144  1.170 ETKDGv2 17
-SDE     CG  6.225 -0.130  0.942 ETKDGv2 18
-SDE     OG  7.213 -0.973  0.410 ETKDGv2 19
-SDE     CD  4.834 -0.639  0.578 ETKDGv2 20
-SDE     N1  1.953  1.837 -0.174 ETKDGv2 21
-SDE     C2  0.660  1.902 -0.388 ETKDGv2 22
-SDE     N3 -0.132  0.695 -0.464 ETKDGv2 23
-SDE     C4  0.490 -0.433 -0.326 ETKDGv2 24
-SDE  "C3'" -3.333 -1.217 -1.585 ETKDGv2 25
-SDE  "C2'" -2.002 -1.896 -1.840 ETKDGv2 26
-SDE  "O3'" -3.326  0.116 -2.043 ETKDGv2 27
-SDE     H1 -8.216  0.818 -0.312 ETKDGv2 28
-SDE     H3 -4.820  2.359  1.831 ETKDGv2 29
-SDE "H5'2" -4.362 -0.388  1.669 ETKDGv2 30
-SDE "H5'1" -3.656  0.765  0.469 ETKDGv2 31
-SDE  "H4'" -4.073 -2.264  0.159 ETKDGv2 32
-SDE  "H1'" -1.517 -3.245 -0.215 ETKDGv2 33
-SDE     H8  1.051 -3.644 -0.024 ETKDGv2 34
-SDE    HA2  4.720  2.291 -0.749 ETKDGv2 35
-SDE    HA1  4.582  2.412  1.061 ETKDGv2 36
-SDE     HB  6.768  1.237 -0.678 ETKDGv2 37
-SDE    HOB  7.998  1.900  1.058 ETKDGv2 38
-SDE     HG  6.311 -0.081  2.053 ETKDGv2 39
-SDE    HOG  8.069 -0.707  0.837 ETKDGv2 40
-SDE    HD1  4.872 -1.313 -0.306 ETKDGv2 41
-SDE    HD2  4.384 -1.169  1.445 ETKDGv2 42
-SDE     H2  0.183  2.865 -0.509 ETKDGv2 43
-SDE  "H3'" -4.153 -1.762 -2.102 ETKDGv2 44
-SDE "H2'2" -2.152 -2.858 -2.377 ETKDGv2 45
-SDE "H2'1" -1.325 -1.257 -2.449 ETKDGv2 46
-SDE     H4 -2.567  0.588 -1.611 ETKDGv2 47
-SDE    O3P -5.987  2.474 -0.427 ETKDGv2 48
-SDE     H5 -6.700  0.284  1.660 ETKDGv2 49
-SDE     H6 -5.009  2.423 -0.573 ETKDGv2 50
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+SDE "Create component" 2014-01-07 RCSB 
+SDE "Initial release"  2014-05-28 RCSB 
+# 

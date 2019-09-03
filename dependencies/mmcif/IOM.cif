@@ -1,280 +1,126 @@
 data_IOM
-#
-_chem_comp.id                                        IOM
-_chem_comp.name                                      "(DIAMINOMETHYL-METHYL-AMINO)-ACETIC ACID"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C4 H11 N3 O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2002-10-17
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            133.149
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         IOM
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    IOM 
+_chem_comp.name                                  "(DIAMINOMETHYL-METHYL-AMINO)-ACETIC ACID" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C4 H11 N3 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2002-10-17 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        133.149 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     IOM 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-IOM   NA   NA N 0 1 N N N 23.506 21.859 115.554 -1.283  0.559 -2.022   NA IOM  1
-IOM   CA   CA C 0 1 N N N 24.813 21.876 115.808 -0.317 -0.510 -1.737   CA IOM  2
-IOM   NB   NB N 0 1 N N N 25.622 21.566 114.781  0.670 -0.580 -2.822   NB IOM  3
-IOM   NC   NC N 0 1 N N N 25.297 22.185 117.012  0.367 -0.226 -0.469   NC IOM  4
-IOM   CB   CB C 0 1 N N N 24.412 22.525 118.146  0.936  1.122 -0.589   CB IOM  5
-IOM   CC   CC C 0 1 N N N 26.845 22.225 117.269 -0.673 -0.155  0.565   CC IOM  6
-IOM   CD   CD C 0 1 N N N 27.573 23.542 117.465 -0.026 -0.118  1.926   CD IOM  7
-IOM   O1   O1 O 0 1 N N N 26.938 24.622 117.307  1.177 -0.148  2.024   O1 IOM  8
-IOM   O2   O2 O 0 1 N N N 28.775 23.485 117.785 -0.787 -0.052  3.029   O2 IOM  9
-IOM HNA1 1HNA H 0 0 N N N 22.891 22.094 116.333 -1.726  0.323 -2.897 HNA1 IOM 10
-IOM HNA2 2HNA H 0 0 N N N 23.241 20.952 115.168 -1.996  0.503 -1.311 HNA2 IOM 11
-IOM  HCA  HCA H 0 1 N N N 25.141 22.110 116.847 -0.842 -1.462 -1.661  HCA IOM 12
-IOM HNB1 1HNB H 0 0 N N N 26.623 21.579 114.975  1.061  0.344 -2.918 HNB1 IOM 13
-IOM HNB2 2HNB H 0 0 N N N 25.417 22.171 113.986  1.415 -1.177 -2.497 HNB2 IOM 14
-IOM HCB1 1HCB H 0 0 N N N 24.816 22.783 119.152  1.769  1.104 -1.291 HCB1 IOM 15
-IOM HCB2 2HCB H 0 0 N N N 23.748 23.360 117.821  0.170  1.808 -0.951 HCB2 IOM 16
-IOM HCB3 3HCB H 0 0 N N N 23.687 21.687 118.275  1.290  1.455  0.386 HCB3 IOM 17
-IOM HCC1 1HCC H 0 0 N N N 27.066 21.573 118.146 -1.267  0.747  0.421 HCC1 IOM 18
-IOM HCC2 2HCC H 0 0 N N N 27.347 21.672 116.441 -1.317 -1.030  0.493 HCC2 IOM 19
-IOM  HO2  HO2 H 0 1 N N N 29.230 24.309 117.907 -0.372 -0.028  3.902  HO2 IOM 20
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+IOM NA   NA   N 0 1 N N N 23.506 21.859 115.554 -1.283 0.559  -2.022 NA   IOM 1  
+IOM CA   CA   C 0 1 N N N 24.813 21.876 115.808 -0.317 -0.510 -1.737 CA   IOM 2  
+IOM NB   NB   N 0 1 N N N 25.622 21.566 114.781 0.670  -0.580 -2.822 NB   IOM 3  
+IOM NC   NC   N 0 1 N N N 25.297 22.185 117.012 0.367  -0.226 -0.469 NC   IOM 4  
+IOM CB   CB   C 0 1 N N N 24.412 22.525 118.146 0.936  1.122  -0.589 CB   IOM 5  
+IOM CC   CC   C 0 1 N N N 26.845 22.225 117.269 -0.673 -0.155 0.565  CC   IOM 6  
+IOM CD   CD   C 0 1 N N N 27.573 23.542 117.465 -0.026 -0.118 1.926  CD   IOM 7  
+IOM O1   O1   O 0 1 N N N 26.938 24.622 117.307 1.177  -0.148 2.024  O1   IOM 8  
+IOM O2   O2   O 0 1 N N N 28.775 23.485 117.785 -0.787 -0.052 3.029  O2   IOM 9  
+IOM HNA1 1HNA H 0 0 N N N 22.891 22.094 116.333 -1.726 0.323  -2.897 HNA1 IOM 10 
+IOM HNA2 2HNA H 0 0 N N N 23.241 20.952 115.168 -1.996 0.503  -1.311 HNA2 IOM 11 
+IOM HCA  HCA  H 0 1 N N N 25.141 22.110 116.847 -0.842 -1.462 -1.661 HCA  IOM 12 
+IOM HNB1 1HNB H 0 0 N N N 26.623 21.579 114.975 1.061  0.344  -2.918 HNB1 IOM 13 
+IOM HNB2 2HNB H 0 0 N N N 25.417 22.171 113.986 1.415  -1.177 -2.497 HNB2 IOM 14 
+IOM HCB1 1HCB H 0 0 N N N 24.816 22.783 119.152 1.769  1.104  -1.291 HCB1 IOM 15 
+IOM HCB2 2HCB H 0 0 N N N 23.748 23.360 117.821 0.170  1.808  -0.951 HCB2 IOM 16 
+IOM HCB3 3HCB H 0 0 N N N 23.687 21.687 118.275 1.290  1.455  0.386  HCB3 IOM 17 
+IOM HCC1 1HCC H 0 0 N N N 27.066 21.573 118.146 -1.267 0.747  0.421  HCC1 IOM 18 
+IOM HCC2 2HCC H 0 0 N N N 27.347 21.672 116.441 -1.317 -1.030 0.493  HCC2 IOM 19 
+IOM HO2  HO2  H 0 1 N N N 29.230 24.309 117.907 -0.372 -0.028 3.902  HO2  IOM 20 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-IOM NA   CA SING N N  1
-IOM NA HNA1 SING N N  2
-IOM NA HNA2 SING N N  3
-IOM CA   NB SING N N  4
-IOM CA   NC SING N N  5
-IOM CA  HCA SING N N  6
-IOM NB HNB1 SING N N  7
-IOM NB HNB2 SING N N  8
-IOM NC   CB SING N N  9
-IOM NC   CC SING N N 10
-IOM CB HCB1 SING N N 11
-IOM CB HCB2 SING N N 12
-IOM CB HCB3 SING N N 13
-IOM CC   CD SING N N 14
-IOM CC HCC1 SING N N 15
-IOM CC HCC2 SING N N 16
-IOM CD   O1 DOUB N N 17
-IOM CD   O2 SING N N 18
-IOM O2  HO2 SING N N 19
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+IOM NA CA   SING N N 1  
+IOM NA HNA1 SING N N 2  
+IOM NA HNA2 SING N N 3  
+IOM CA NB   SING N N 4  
+IOM CA NC   SING N N 5  
+IOM CA HCA  SING N N 6  
+IOM NB HNB1 SING N N 7  
+IOM NB HNB2 SING N N 8  
+IOM NC CB   SING N N 9  
+IOM NC CC   SING N N 10 
+IOM CB HCB1 SING N N 11 
+IOM CB HCB2 SING N N 12 
+IOM CB HCB3 SING N N 13 
+IOM CC CD   SING N N 14 
+IOM CC HCC1 SING N N 15 
+IOM CC HCC2 SING N N 16 
+IOM CD O1   DOUB N N 17 
+IOM CD O2   SING N N 18 
+IOM O2 HO2  SING N N 19 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-IOM           SMILES              ACDLabs 10.04                                              O=C(O)CN(C)C(N)N
-IOM SMILES_CANONICAL               CACTVS 3.341                                              CN(CC(O)=O)C(N)N
-IOM           SMILES               CACTVS 3.341                                              CN(CC(O)=O)C(N)N
-IOM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                              CN(CC(=O)O)C(N)N
-IOM           SMILES "OpenEye OEToolkits" 1.5.0                                              CN(CC(=O)O)C(N)N
-IOM            InChI                InChI  1.03 InChI=1S/C4H11N3O2/c1-7(4(5)6)2-3(8)9/h4H,2,5-6H2,1H3,(H,8,9)
-IOM         InChIKey                InChI  1.03                                   YNHURFGTTODJOO-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+IOM SMILES           ACDLabs              10.04 "O=C(O)CN(C)C(N)N"                                              
+IOM SMILES_CANONICAL CACTVS               3.341 "CN(CC(O)=O)C(N)N"                                              
+IOM SMILES           CACTVS               3.341 "CN(CC(O)=O)C(N)N"                                              
+IOM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CN(CC(=O)O)C(N)N"                                              
+IOM SMILES           "OpenEye OEToolkits" 1.5.0 "CN(CC(=O)O)C(N)N"                                              
+IOM InChI            InChI                1.03  "InChI=1S/C4H11N3O2/c1-7(4(5)6)2-3(8)9/h4H,2,5-6H2,1H3,(H,8,9)" 
+IOM InChIKey         InChI                1.03  YNHURFGTTODJOO-UHFFFAOYSA-N                                     
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-IOM "SYSTEMATIC NAME"              ACDLabs 10.04             N-(diaminomethyl)-N-methylglycine
-IOM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-(diaminomethyl-methyl-amino)ethanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+IOM "SYSTEMATIC NAME" ACDLabs              10.04 "N-(diaminomethyl)-N-methylglycine"           
+IOM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-(diaminomethyl-methyl-amino)ethanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-IOM  "Create component" 2002-10-17 RCSB
-IOM "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   IOM
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02490
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "(Diaminomethyl-Methyl-Amino)-Acetic Acid"
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           IOM
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02490
-_pdbe_chem_comp_drugbank_classification.parent            "Alpha amino acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alpha amino acids and derivatives. These are amino acids in which the amino group is attached to the carbon atom immediately adjacent to the carboxylate group (alpha carbon), or a derivative thereof."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        IOM
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02490
-_pdbe_chem_comp_drugbank_targets.name                           "Creatine kinase M-type"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P06732
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-IOM NA N 10.301 -0.608 1
-IOM CA C  9.002  0.142 2
-IOM NB N  9.002  1.643 3
-IOM NC N  7.702 -0.608 4
-IOM CB C  7.702 -2.107 5
-IOM CC C  6.404  0.142 6
-IOM CD C  5.104 -0.608 7
-IOM O1 O  3.805  0.142 8
-IOM O2 O  5.104 -2.107 9
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-IOM NA CA SINGLE NONE 1
-IOM CA NB SINGLE NONE 2
-IOM CA NC SINGLE NONE 3
-IOM NC CB SINGLE NONE 4
-IOM NC CC SINGLE NONE 5
-IOM CC CD SINGLE NONE 6
-IOM CD O1 DOUBLE NONE 7
-IOM CD O2 SINGLE NONE 8
-#
-_pdbe_chem_comp_substructure.comp_id                      IOM
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-IOM O1 F1 1
-IOM CD F1 1
-IOM CC F1 1
-IOM NC F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               IOM
-_pdbe_chem_comp_rdkit_properties.exactmw                               133.085
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                5
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.750
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             69.003
-_pdbe_chem_comp_rdkit_properties.tpsa                                  92.580
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.796
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             32.429
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-IOM UniChem   ChEMBL    CHEMBL1233634
-IOM UniChem DrugBank          DB02490
-IOM UniChem     ZINC ZINC000019329420
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-IOM   NA -0.694  1.817  0.216 ETKDGv2  1
-IOM   CA -1.116  0.491 -0.243 ETKDGv2  2
-IOM   NB -2.419  0.180  0.358 ETKDGv2  3
-IOM   NC -0.095 -0.533  0.116 ETKDGv2  4
-IOM   CB -0.465 -1.857 -0.423 ETKDGv2  5
-IOM   CC  1.257 -0.150 -0.370 ETKDGv2  6
-IOM   CD  2.060  0.495  0.724 ETKDGv2  7
-IOM   O1  1.619  0.549  1.903 ETKDGv2  8
-IOM   O2  3.316  1.024  0.443 ETKDGv2  9
-IOM HNA1 -0.714  1.835  1.262 ETKDGv2 10
-IOM HNA2 -1.395  2.519 -0.116 ETKDGv2 11
-IOM  HCA -1.233  0.533 -1.352 ETKDGv2 12
-IOM HNB1 -2.914 -0.530 -0.228 ETKDGv2 13
-IOM HNB2 -2.276 -0.221  1.314 ETKDGv2 14
-IOM HCB1 -0.579 -1.823 -1.529 ETKDGv2 15
-IOM HCB2  0.308 -2.611 -0.160 ETKDGv2 16
-IOM HCB3 -1.405 -2.221  0.039 ETKDGv2 17
-IOM HCC1  1.845 -1.030 -0.714 ETKDGv2 18
-IOM HCC2  1.198  0.543 -1.239 ETKDGv2 19
-IOM  HO2  3.701  0.989 -0.493 ETKDGv2 20
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+IOM "Create component"  2002-10-17 RCSB 
+IOM "Modify descriptor" 2011-06-04 RCSB 
+# 

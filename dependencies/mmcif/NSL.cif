@@ -1,317 +1,139 @@
 data_NSL
-#
-_chem_comp.id                                        NSL
-_chem_comp.name                                      4-Hydroxyazobenzene
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C12 H10 N2 O"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             4-[(E)-phenyldiazenyl]phenol
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2019-04-15
-_chem_comp.pdbx_modified_date                        2019-07-19
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            198.221
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         NSL
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6OJT
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    NSL 
+_chem_comp.name                                  4-Hydroxyazobenzene 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C12 H10 N2 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "4-[(E)-phenyldiazenyl]phenol" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2019-04-15 
+_chem_comp.pdbx_modified_date                    2019-07-19 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        198.221 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     NSL 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6OJT 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-NSL C01  C1 C 0 1 Y N N -69.793 -22.715 -13.497  4.964 -0.195  0.012 C01 NSL  1
-NSL C02  C2 C 0 1 Y N N -68.423 -22.888 -13.607  4.477  1.100  0.004 C02 NSL  2
-NSL C03  C3 C 0 1 Y N N -67.586 -21.784 -13.578  3.117  1.329 -0.002 C03 NSL  3
-NSL C04  C4 C 0 1 Y N N -68.115 -20.507 -13.448  2.230  0.249 -0.001 C04 NSL  4
-NSL C05  C5 C 0 1 Y N N -69.486 -20.335 -13.339  2.730 -1.056  0.006 C05 NSL  5
-NSL C06  C6 C 0 1 Y N N -70.323 -21.440 -13.366  4.092 -1.270  0.012 C06 NSL  6
-NSL C09  C7 C 0 1 Y N N -65.105 -18.398 -13.487 -1.282 -0.312 -0.012 C09 NSL  7
-NSL C10  C8 C 0 1 Y N N -65.573 -17.105 -13.311 -2.169 -1.394 -0.011 C10 NSL  8
-NSL C11  C9 C 0 1 Y N N -64.673 -16.051 -13.267 -3.527 -1.168 -0.011 C11 NSL  9
-NSL C12 C10 C 0 1 Y N N -63.313 -16.290 -13.390 -4.018  0.133 -0.012 C12 NSL 10
-NSL C13 C11 C 0 1 Y N N -62.844 -17.584 -13.554 -3.141  1.211 -0.013 C13 NSL 11
-NSL C14 C12 C 0 1 Y N N -63.742 -18.639 -13.602 -1.781  0.995 -0.013 C14 NSL 12
-NSL N07  N1 N 0 1 N N N -67.235 -19.349 -13.422  0.881  0.468 -0.007 N07 NSL 13
-NSL N08  N2 N 0 1 N N N -66.032 -19.516 -13.521  0.065 -0.531 -0.006 N08 NSL 14
-NSL O15  O1 O 0 1 N N N -62.414 -15.217 -13.344 -5.358  0.350 -0.012 O15 NSL 15
-NSL  H1  H1 H 0 1 N N N -70.449 -23.573 -13.513  6.030 -0.368  0.012  H1 NSL 16
-NSL  H2  H2 H 0 1 N N N -68.009 -23.880 -13.715  5.164  1.934  0.004  H2 NSL 17
-NSL  H3  H3 H 0 1 N N N -66.517 -21.918 -13.657  2.739  2.341 -0.007  H3 NSL 18
-NSL  H4  H4 H 0 1 N N N -69.901 -19.343 -13.233  2.050 -1.896  0.006  H4 NSL 19
-NSL  H5  H5 H 0 1 N N N -71.392 -21.307 -13.285  4.479 -2.278  0.014  H5 NSL 20
-NSL  H6  H6 H 0 1 N N N -66.632 -16.920 -13.209 -1.789 -2.405 -0.011  H6 NSL 21
-NSL  H7  H7 H 0 1 N N N -65.033 -15.041 -13.137 -4.213 -2.002 -0.011  H7 NSL 22
-NSL  H8  H8 H 0 1 N N N -61.784 -17.769 -13.644 -3.527  2.220 -0.014  H8 NSL 23
-NSL  H9  H9 H 0 1 N N N -63.381 -19.649 -13.729 -1.100  1.834 -0.014  H9 NSL 24
-NSL H10 H10 H 0 1 N N N -62.894 -14.406 -13.228 -5.746  0.414  0.872 H10 NSL 25
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+NSL C01 C1  C 0 1 Y N N -69.793 -22.715 -13.497 4.964  -0.195 0.012  C01 NSL 1  
+NSL C02 C2  C 0 1 Y N N -68.423 -22.888 -13.607 4.477  1.100  0.004  C02 NSL 2  
+NSL C03 C3  C 0 1 Y N N -67.586 -21.784 -13.578 3.117  1.329  -0.002 C03 NSL 3  
+NSL C04 C4  C 0 1 Y N N -68.115 -20.507 -13.448 2.230  0.249  -0.001 C04 NSL 4  
+NSL C05 C5  C 0 1 Y N N -69.486 -20.335 -13.339 2.730  -1.056 0.006  C05 NSL 5  
+NSL C06 C6  C 0 1 Y N N -70.323 -21.440 -13.366 4.092  -1.270 0.012  C06 NSL 6  
+NSL C09 C7  C 0 1 Y N N -65.105 -18.398 -13.487 -1.282 -0.312 -0.012 C09 NSL 7  
+NSL C10 C8  C 0 1 Y N N -65.573 -17.105 -13.311 -2.169 -1.394 -0.011 C10 NSL 8  
+NSL C11 C9  C 0 1 Y N N -64.673 -16.051 -13.267 -3.527 -1.168 -0.011 C11 NSL 9  
+NSL C12 C10 C 0 1 Y N N -63.313 -16.290 -13.390 -4.018 0.133  -0.012 C12 NSL 10 
+NSL C13 C11 C 0 1 Y N N -62.844 -17.584 -13.554 -3.141 1.211  -0.013 C13 NSL 11 
+NSL C14 C12 C 0 1 Y N N -63.742 -18.639 -13.602 -1.781 0.995  -0.013 C14 NSL 12 
+NSL N07 N1  N 0 1 N N N -67.235 -19.349 -13.422 0.881  0.468  -0.007 N07 NSL 13 
+NSL N08 N2  N 0 1 N N N -66.032 -19.516 -13.521 0.065  -0.531 -0.006 N08 NSL 14 
+NSL O15 O1  O 0 1 N N N -62.414 -15.217 -13.344 -5.358 0.350  -0.012 O15 NSL 15 
+NSL H1  H1  H 0 1 N N N -70.449 -23.573 -13.513 6.030  -0.368 0.012  H1  NSL 16 
+NSL H2  H2  H 0 1 N N N -68.009 -23.880 -13.715 5.164  1.934  0.004  H2  NSL 17 
+NSL H3  H3  H 0 1 N N N -66.517 -21.918 -13.657 2.739  2.341  -0.007 H3  NSL 18 
+NSL H4  H4  H 0 1 N N N -69.901 -19.343 -13.233 2.050  -1.896 0.006  H4  NSL 19 
+NSL H5  H5  H 0 1 N N N -71.392 -21.307 -13.285 4.479  -2.278 0.014  H5  NSL 20 
+NSL H6  H6  H 0 1 N N N -66.632 -16.920 -13.209 -1.789 -2.405 -0.011 H6  NSL 21 
+NSL H7  H7  H 0 1 N N N -65.033 -15.041 -13.137 -4.213 -2.002 -0.011 H7  NSL 22 
+NSL H8  H8  H 0 1 N N N -61.784 -17.769 -13.644 -3.527 2.220  -0.014 H8  NSL 23 
+NSL H9  H9  H 0 1 N N N -63.381 -19.649 -13.729 -1.100 1.834  -0.014 H9  NSL 24 
+NSL H10 H10 H 0 1 N N N -62.894 -14.406 -13.228 -5.746 0.414  0.872  H10 NSL 25 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-NSL C02 C03 DOUB Y N  1
-NSL C02 C01 SING Y N  2
-NSL C14 C13 DOUB Y N  3
-NSL C14 C09 SING Y N  4
-NSL C03 C04 SING Y N  5
-NSL C13 C12 SING Y N  6
-NSL N08 C09 SING N N  7
-NSL N08 N07 DOUB N N  8
-NSL C01 C06 DOUB Y N  9
-NSL C09 C10 DOUB Y N 10
-NSL C04 N07 SING N N 11
-NSL C04 C05 DOUB Y N 12
-NSL C12 O15 SING N N 13
-NSL C12 C11 DOUB Y N 14
-NSL C06 C05 SING Y N 15
-NSL C10 C11 SING Y N 16
-NSL C01  H1 SING N N 17
-NSL C02  H2 SING N N 18
-NSL C03  H3 SING N N 19
-NSL C05  H4 SING N N 20
-NSL C06  H5 SING N N 21
-NSL C10  H6 SING N N 22
-NSL C11  H7 SING N N 23
-NSL C13  H8 SING N N 24
-NSL C14  H9 SING N N 25
-NSL O15 H10 SING N N 26
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+NSL C02 C03 DOUB Y N 1  
+NSL C02 C01 SING Y N 2  
+NSL C14 C13 DOUB Y N 3  
+NSL C14 C09 SING Y N 4  
+NSL C03 C04 SING Y N 5  
+NSL C13 C12 SING Y N 6  
+NSL N08 C09 SING N N 7  
+NSL N08 N07 DOUB N N 8  
+NSL C01 C06 DOUB Y N 9  
+NSL C09 C10 DOUB Y N 10 
+NSL C04 N07 SING N N 11 
+NSL C04 C05 DOUB Y N 12 
+NSL C12 O15 SING N N 13 
+NSL C12 C11 DOUB Y N 14 
+NSL C06 C05 SING Y N 15 
+NSL C10 C11 SING Y N 16 
+NSL C01 H1  SING N N 17 
+NSL C02 H2  SING N N 18 
+NSL C03 H3  SING N N 19 
+NSL C05 H4  SING N N 20 
+NSL C06 H5  SING N N 21 
+NSL C10 H6  SING N N 22 
+NSL C11 H7  SING N N 23 
+NSL C13 H8  SING N N 24 
+NSL C14 H9  SING N N 25 
+NSL O15 H10 SING N N 26 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-NSL           SMILES              ACDLabs 12.01                                                     c1ccc(cc1)\N=N\c2ccc(O)cc2
-NSL            InChI                InChI  1.03 InChI=1S/C12H10N2O/c15-12-8-6-11(7-9-12)14-13-10-4-2-1-3-5-10/h1-9,15H/b14-13+
-NSL         InChIKey                InChI  1.03                                                    BEYOBVMPDRKTNR-BUHFOSPRSA-N
-NSL SMILES_CANONICAL               CACTVS 3.385                                                         Oc1ccc(cc1)N=Nc2ccccc2
-NSL           SMILES               CACTVS 3.385                                                         Oc1ccc(cc1)N=Nc2ccccc2
-NSL SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7                                                     c1ccc(cc1)/N=N/c2ccc(cc2)O
-NSL           SMILES "OpenEye OEToolkits" 2.0.7                                                       c1ccc(cc1)N=Nc2ccc(cc2)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+NSL SMILES           ACDLabs              12.01 "c1ccc(cc1)\N=N\c2ccc(O)cc2"                                                     
+NSL InChI            InChI                1.03  "InChI=1S/C12H10N2O/c15-12-8-6-11(7-9-12)14-13-10-4-2-1-3-5-10/h1-9,15H/b14-13+" 
+NSL InChIKey         InChI                1.03  BEYOBVMPDRKTNR-BUHFOSPRSA-N                                                      
+NSL SMILES_CANONICAL CACTVS               3.385 "Oc1ccc(cc1)N=Nc2ccccc2"                                                         
+NSL SMILES           CACTVS               3.385 "Oc1ccc(cc1)N=Nc2ccccc2"                                                         
+NSL SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)/N=N/c2ccc(cc2)O"                                                     
+NSL SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)N=Nc2ccc(cc2)O"                                                       
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-NSL "SYSTEMATIC NAME"              ACDLabs 12.01    4-[(E)-phenyldiazenyl]phenol
-NSL "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 4-[(~{E})-phenyldiazenyl]phenol
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+NSL "SYSTEMATIC NAME" ACDLabs              12.01 "4-[(E)-phenyldiazenyl]phenol"    
+NSL "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "4-[(~{E})-phenyldiazenyl]phenol" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-NSL   "Create component" 2019-04-15 RCSB
-NSL "Other modification" 2019-06-26 RCSB
-NSL    "Initial release" 2019-07-24 RCSB
-#
-_pdbx_chem_comp_synonyms.comp_id          NSL
-_pdbx_chem_comp_synonyms.name             4-Phenylazophenol
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-NSL C01 C  3.664  1.529  1
-NSL C02 C  2.798  2.030  2
-NSL C03 C  1.932  1.531  3
-NSL C04 C  1.931  0.531  4
-NSL C05 C  2.797  0.030  5
-NSL C06 C  3.663  0.529  6
-NSL C09 C  0.198 -1.468  7
-NSL C10 C -0.668 -0.967  8
-NSL C11 C -1.534 -1.467  9
-NSL C12 C -1.535 -2.467 10
-NSL C13 C -0.670 -2.967 11
-NSL C14 C  0.197 -2.468 12
-NSL N07 N  1.065  0.031 13
-NSL N08 N  1.064 -0.969 14
-NSL O15 O -2.402 -2.966 15
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-NSL C02 C03 SINGLE NONE  1
-NSL C02 C01 DOUBLE NONE  2
-NSL C14 C13 DOUBLE NONE  3
-NSL C14 C09 SINGLE NONE  4
-NSL C03 C04 DOUBLE NONE  5
-NSL C13 C12 SINGLE NONE  6
-NSL N08 C09 SINGLE NONE  7
-NSL N08 N07 DOUBLE NONE  8
-NSL C01 C06 SINGLE NONE  9
-NSL C09 C10 DOUBLE NONE 10
-NSL C04 N07 SINGLE NONE 11
-NSL C04 C05 SINGLE NONE 12
-NSL C12 O15 SINGLE NONE 13
-NSL C12 C11 DOUBLE NONE 14
-NSL C06 C05 DOUBLE NONE 15
-NSL C10 C11 SINGLE NONE 16
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-NSL MurckoScaffold S1 scaffold c1ccc(N=Nc2ccccc2)cc1 InChI=1S/C12H10N2/c1-3-7-11(8-4-1)13-14-12-9-5-2-6-10-12/h1-10H DMLAVOWQYNRWNQ-UHFFFAOYSA-N
-NSL         phenyl F1 fragment              c1ccccc1                              InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-NSL C01 F1 1
-NSL C02 F1 1
-NSL C03 F1 1
-NSL C04 F1 1
-NSL C05 F1 1
-NSL C06 F1 1
-NSL C09 F1 2
-NSL C10 F1 2
-NSL C11 F1 2
-NSL C12 F1 2
-NSL C13 F1 2
-NSL C14 F1 2
-NSL C01 S1 1
-NSL C02 S1 1
-NSL C03 S1 1
-NSL C04 S1 1
-NSL C05 S1 1
-NSL C06 S1 1
-NSL C09 S1 1
-NSL C10 S1 1
-NSL C11 S1 1
-NSL C12 S1 1
-NSL C13 S1 1
-NSL C14 S1 1
-NSL N07 S1 1
-NSL N08 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               NSL
-_pdbe_chem_comp_rdkit_properties.exactmw                               198.079
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
-_pdbe_chem_comp_rdkit_properties.NumRings                              2
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             101.866
-_pdbe_chem_comp_rdkit_properties.tpsa                                  44.950
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.584
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             56.467
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         15
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-NSL UniChem        ChEMBL      CHEMBL79759
-NSL UniChem "KEGG LIGAND"           C19433
-NSL UniChem         ChEBI            82475
-NSL UniChem          ZINC ZINC000100010406
-NSL UniChem          ZINC     ZINC13130189
-NSL UniChem    NMRShiftDB         20109403
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NSL C01 -4.864  0.095 -0.547 ETKDGv2  1
-NSL C02 -4.410 -0.981  0.107 ETKDGv2  2
-NSL C03 -2.962 -1.140  0.357 ETKDGv2  3
-NSL C04 -2.095 -0.208 -0.068 ETKDGv2  4
-NSL C05 -2.604  0.986 -0.794 ETKDGv2  5
-NSL C06 -3.917  1.126 -1.019 ETKDGv2  6
-NSL C09  1.564  0.290  0.060 ETKDGv2  7
-NSL C10  2.430  1.221 -0.365 ETKDGv2  8
-NSL C11  3.879  1.063 -0.115 ETKDGv2  9
-NSL C12  4.337 -0.013  0.538 ETKDGv2 10
-NSL C13  3.386 -1.045  1.011 ETKDGv2 11
-NSL C14  2.073 -0.904  0.786 ETKDGv2 12
-NSL N07 -0.698 -0.385  0.187 ETKDGv2 13
-NSL N08  0.167  0.467 -0.195 ETKDGv2 14
-NSL O15  5.702 -0.153  0.769 ETKDGv2 15
-NSL  H1 -5.924  0.213 -0.731 ETKDGv2 16
-NSL  H2 -5.102 -1.738  0.454 ETKDGv2 17
-NSL  H3 -2.608 -2.016  0.887 ETKDGv2 18
-NSL  H4 -1.920  1.748 -1.145 ETKDGv2 19
-NSL  H5 -4.288  1.995 -1.547 ETKDGv2 20
-NSL  H6  2.076  2.097 -0.895 ETKDGv2 21
-NSL  H7  4.566  1.823 -0.464 ETKDGv2 22
-NSL  H8  3.752 -1.916  1.539 ETKDGv2 23
-NSL  H9  1.389 -1.666  1.136 ETKDGv2 24
-NSL H10  6.071 -0.958  1.261 ETKDGv2 25
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+NSL "Create component"   2019-04-15 RCSB 
+NSL "Other modification" 2019-06-26 RCSB 
+NSL "Initial release"    2019-07-24 RCSB 
+# 

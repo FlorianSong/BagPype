@@ -1,321 +1,150 @@
 data_GUS
-#
-_chem_comp.id                                        GUS
-_chem_comp.name                                      (E)-N-[(5-carbamimidamido-2-hydroxyphenyl)methylidene]-L-alanine
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C11 H14 N4 O3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             m-guanidinosalicylidene-L-alanine
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2009-12-03
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            250.254
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         GUS
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            3AAS
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      PDBJ
-
-#
+# 
+_chem_comp.id                                    GUS 
+_chem_comp.name                                  "(E)-N-[(5-carbamimidamido-2-hydroxyphenyl)methylidene]-L-alanine" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C11 H14 N4 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         m-guanidinosalicylidene-L-alanine 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2009-12-03 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        250.254 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     GUS 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        3AAS 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-GUS    C    C C 0 1 N N N -0.574 18.800 21.280 -4.189  0.552  0.634    C GUS  1
-GUS    N    N N 0 1 N N N -1.173 16.828 19.923 -2.024  0.086 -0.359    N GUS  2
-GUS    O    O O 0 1 N N N -0.844 19.935 21.730 -3.949 -0.387  1.356    O GUS  3
-GUS   CA   CA C 0 1 N N S -1.576 18.192 20.297 -3.192  0.969 -0.416   CA GUS  4
-GUS   CB   CB C 0 1 N N N -2.960 18.148 20.946 -3.838  0.871 -1.800   CB GUS  5
-GUS  NAA  NAA N 0 1 N N N -2.554 14.261 14.158  3.457  1.822 -0.697  NAA GUS  6
-GUS  CAB  CAB C 0 1 N N N -2.598 13.008 14.599  4.288  1.165  0.062  CAB GUS  7
-GUS  NAC  NAC N 0 1 N N N -2.452 12.696 15.863  3.960 -0.094  0.512  NAC GUS  8
-GUS  CAD  CAD C 0 1 Y N N -1.883 13.119 16.989  2.689 -0.622  0.252  CAD GUS  9
-GUS  CAE  CAE C 0 1 Y N N -0.996 12.324 17.708  2.533 -1.989  0.052  CAE GUS 10
-GUS  CAF  CAF C 0 1 Y N N -0.394 12.819 18.859  1.283 -2.517 -0.204  CAF GUS 11
-GUS  NAG  NAG N 0 1 N N N -2.808 12.019 13.733  5.493  1.728  0.412  NAG GUS 12
-GUS  CAH  CAH C 0 1 Y N N -2.165 14.403 17.437  1.589  0.219  0.199  CAH GUS 13
-GUS  CAI  CAI C 0 1 Y N N -1.566 14.902 18.585  0.323 -0.309 -0.061  CAI GUS 14
-GUS  CAJ  CAJ C 0 1 Y N N -0.674 14.107 19.299  0.175 -1.688 -0.266  CAJ GUS 15
-GUS  OAK  OAK O 0 1 N N N -0.068 14.585 20.419 -1.053 -2.210 -0.520  OAK GUS 16
-GUS  CAL  CAL C 0 1 N N N -1.848 16.209 18.975 -0.852  0.579 -0.118  CAL GUS 17
-GUS  OXT  OXT O 0 1 N N N  0.439 18.122 21.559 -5.346  1.219  0.763  OXT GUS 18
-GUS   HA   HA H 0 1 N N N -1.603 18.815 19.391 -2.880  1.997 -0.233   HA GUS 19
-GUS   HB   HB H 0 1 N N N -3.682 17.711 20.241 -3.116  1.173 -2.560   HB GUS 20
-GUS  HBA  HBA H 0 1 N N N -2.918 17.532 21.857 -4.150 -0.157 -1.984  HBA GUS 21
-GUS  HBB  HBB H 0 1 N N N -3.275 19.169 21.208 -4.707  1.528 -1.843  HBB GUS 22
-GUS HNAA HNAA H 0 0 N N N -2.692 14.315 13.169  3.688  2.710 -1.014 HNAA GUS 23
-GUS HNAC HNAC H 0 0 N N N -2.938 11.841 16.045  4.610 -0.615  1.009 HNAC GUS 24
-GUS  HAE  HAE H 0 1 N N N -0.775 11.322 17.372  3.393 -2.640  0.098  HAE GUS 25
-GUS  HAF  HAF H 0 1 N N N  0.295 12.199 19.414  1.169 -3.580 -0.358  HAF GUS 26
-GUS HNAG HNAG H 0 0 N N N -2.850 11.073 14.055  5.687  2.647  0.169 HNAG GUS 27
-GUS HNAB HNAB H 0 0 N N N -2.924 12.222 12.761  6.148  1.207  0.902 HNAB GUS 28
-GUS  HAH  HAH H 0 1 N N N -2.859 15.020 16.885  1.711  1.280  0.359  HAH GUS 29
-GUS HOAK HOAK H 0 0 N N N -0.363 15.473 20.585 -1.540 -2.472  0.273 HOAK GUS 30
-GUS  HAL  HAL H 0 1 N N N -2.651 16.736 18.481 -0.734  1.641  0.041  HAL GUS 31
-GUS  HXT  HXT H 0 1 N N N  0.983 18.602 22.173 -5.956  0.912  1.448  HXT GUS 32
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+GUS C    C    C 0 1 N N N -0.574 18.800 21.280 -4.189 0.552  0.634  C    GUS 1  
+GUS N    N    N 0 1 N N N -1.173 16.828 19.923 -2.024 0.086  -0.359 N    GUS 2  
+GUS O    O    O 0 1 N N N -0.844 19.935 21.730 -3.949 -0.387 1.356  O    GUS 3  
+GUS CA   CA   C 0 1 N N S -1.576 18.192 20.297 -3.192 0.969  -0.416 CA   GUS 4  
+GUS CB   CB   C 0 1 N N N -2.960 18.148 20.946 -3.838 0.871  -1.800 CB   GUS 5  
+GUS NAA  NAA  N 0 1 N N N -2.554 14.261 14.158 3.457  1.822  -0.697 NAA  GUS 6  
+GUS CAB  CAB  C 0 1 N N N -2.598 13.008 14.599 4.288  1.165  0.062  CAB  GUS 7  
+GUS NAC  NAC  N 0 1 N N N -2.452 12.696 15.863 3.960  -0.094 0.512  NAC  GUS 8  
+GUS CAD  CAD  C 0 1 Y N N -1.883 13.119 16.989 2.689  -0.622 0.252  CAD  GUS 9  
+GUS CAE  CAE  C 0 1 Y N N -0.996 12.324 17.708 2.533  -1.989 0.052  CAE  GUS 10 
+GUS CAF  CAF  C 0 1 Y N N -0.394 12.819 18.859 1.283  -2.517 -0.204 CAF  GUS 11 
+GUS NAG  NAG  N 0 1 N N N -2.808 12.019 13.733 5.493  1.728  0.412  NAG  GUS 12 
+GUS CAH  CAH  C 0 1 Y N N -2.165 14.403 17.437 1.589  0.219  0.199  CAH  GUS 13 
+GUS CAI  CAI  C 0 1 Y N N -1.566 14.902 18.585 0.323  -0.309 -0.061 CAI  GUS 14 
+GUS CAJ  CAJ  C 0 1 Y N N -0.674 14.107 19.299 0.175  -1.688 -0.266 CAJ  GUS 15 
+GUS OAK  OAK  O 0 1 N N N -0.068 14.585 20.419 -1.053 -2.210 -0.520 OAK  GUS 16 
+GUS CAL  CAL  C 0 1 N N N -1.848 16.209 18.975 -0.852 0.579  -0.118 CAL  GUS 17 
+GUS OXT  OXT  O 0 1 N N N 0.439  18.122 21.559 -5.346 1.219  0.763  OXT  GUS 18 
+GUS HA   HA   H 0 1 N N N -1.603 18.815 19.391 -2.880 1.997  -0.233 HA   GUS 19 
+GUS HB   HB   H 0 1 N N N -3.682 17.711 20.241 -3.116 1.173  -2.560 HB   GUS 20 
+GUS HBA  HBA  H 0 1 N N N -2.918 17.532 21.857 -4.150 -0.157 -1.984 HBA  GUS 21 
+GUS HBB  HBB  H 0 1 N N N -3.275 19.169 21.208 -4.707 1.528  -1.843 HBB  GUS 22 
+GUS HNAA HNAA H 0 0 N N N -2.692 14.315 13.169 3.688  2.710  -1.014 HNAA GUS 23 
+GUS HNAC HNAC H 0 0 N N N -2.938 11.841 16.045 4.610  -0.615 1.009  HNAC GUS 24 
+GUS HAE  HAE  H 0 1 N N N -0.775 11.322 17.372 3.393  -2.640 0.098  HAE  GUS 25 
+GUS HAF  HAF  H 0 1 N N N 0.295  12.199 19.414 1.169  -3.580 -0.358 HAF  GUS 26 
+GUS HNAG HNAG H 0 0 N N N -2.850 11.073 14.055 5.687  2.647  0.169  HNAG GUS 27 
+GUS HNAB HNAB H 0 0 N N N -2.924 12.222 12.761 6.148  1.207  0.902  HNAB GUS 28 
+GUS HAH  HAH  H 0 1 N N N -2.859 15.020 16.885 1.711  1.280  0.359  HAH  GUS 29 
+GUS HOAK HOAK H 0 0 N N N -0.363 15.473 20.585 -1.540 -2.472 0.273  HOAK GUS 30 
+GUS HAL  HAL  H 0 1 N N N -2.651 16.736 18.481 -0.734 1.641  0.041  HAL  GUS 31 
+GUS HXT  HXT  H 0 1 N N N 0.983  18.602 22.173 -5.956 0.912  1.448  HXT  GUS 32 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-GUS   C    O DOUB N N  1
-GUS   C   CA SING N N  2
-GUS   C  OXT SING N N  3
-GUS   N   CA SING N N  4
-GUS   N  CAL DOUB N N  5
-GUS  CA   CB SING N N  6
-GUS NAA  CAB DOUB N N  7
-GUS CAB  NAC SING N N  8
-GUS CAB  NAG SING N N  9
-GUS NAC  CAD SING N N 10
-GUS CAD  CAE DOUB Y N 11
-GUS CAD  CAH SING Y N 12
-GUS CAE  CAF SING Y N 13
-GUS CAF  CAJ DOUB Y N 14
-GUS CAH  CAI DOUB Y N 15
-GUS CAI  CAJ SING Y N 16
-GUS CAI  CAL SING N N 17
-GUS CAJ  OAK SING N N 18
-GUS  CA   HA SING N N 19
-GUS  CB   HB SING N N 20
-GUS  CB  HBA SING N N 21
-GUS  CB  HBB SING N N 22
-GUS NAA HNAA SING N N 23
-GUS NAC HNAC SING N N 24
-GUS CAE  HAE SING N N 25
-GUS CAF  HAF SING N N 26
-GUS NAG HNAG SING N N 27
-GUS NAG HNAB SING N N 28
-GUS CAH  HAH SING N N 29
-GUS OAK HOAK SING N N 30
-GUS CAL  HAL SING N N 31
-GUS OXT  HXT SING N N 32
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+GUS C   O    DOUB N N 1  
+GUS C   CA   SING N N 2  
+GUS C   OXT  SING N N 3  
+GUS N   CA   SING N N 4  
+GUS N   CAL  DOUB N N 5  
+GUS CA  CB   SING N N 6  
+GUS NAA CAB  DOUB N N 7  
+GUS CAB NAC  SING N N 8  
+GUS CAB NAG  SING N N 9  
+GUS NAC CAD  SING N N 10 
+GUS CAD CAE  DOUB Y N 11 
+GUS CAD CAH  SING Y N 12 
+GUS CAE CAF  SING Y N 13 
+GUS CAF CAJ  DOUB Y N 14 
+GUS CAH CAI  DOUB Y N 15 
+GUS CAI CAJ  SING Y N 16 
+GUS CAI CAL  SING N N 17 
+GUS CAJ OAK  SING N N 18 
+GUS CA  HA   SING N N 19 
+GUS CB  HB   SING N N 20 
+GUS CB  HBA  SING N N 21 
+GUS CB  HBB  SING N N 22 
+GUS NAA HNAA SING N N 23 
+GUS NAC HNAC SING N N 24 
+GUS CAE HAE  SING N N 25 
+GUS CAF HAF  SING N N 26 
+GUS NAG HNAG SING N N 27 
+GUS NAG HNAB SING N N 28 
+GUS CAH HAH  SING N N 29 
+GUS OAK HOAK SING N N 30 
+GUS CAL HAL  SING N N 31 
+GUS OXT HXT  SING N N 32 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-GUS SMILES_CANONICAL               CACTVS 3.352                                                                                      C[C@H](N=Cc1cc(NC(N)=N)ccc1O)C(O)=O
-GUS           SMILES               CACTVS 3.352                                                                                       C[CH](N=Cc1cc(NC(N)=N)ccc1O)C(O)=O
-GUS SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                                                         "[H]/N=C(\N)/Nc1ccc(c(c1)/C=N/[C@@H](C)C(=O)O)O"
-GUS           SMILES "OpenEye OEToolkits" 1.7.0                                                                                          CC(C(=O)O)N=Cc1cc(ccc1O)NC(=N)N
-GUS            InChI                InChI  1.03 InChI=1S/C11H14N4O3/c1-6(10(17)18)14-5-7-4-8(15-11(12)13)2-3-9(7)16/h2-6,16H,1H3,(H,17,18)(H4,12,13,15)/b14-5+/t6-/m0/s1
-GUS         InChIKey                InChI  1.03                                                                                              XIDJFBOMDZEVTM-JHKKWMAKSA-N
-#
-_pdbx_chem_comp_identifier.comp_id               GUS
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       1.6.1
-_pdbx_chem_comp_identifier.identifier            "(2S)-2-[(E)-(5-carbamimidamido-2-hydroxy-phenyl)methylideneamino]propanoic acid"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+GUS SMILES_CANONICAL CACTVS               3.352 "C[C@H](N=Cc1cc(NC(N)=N)ccc1O)C(O)=O"                                                                                      
+GUS SMILES           CACTVS               3.352 "C[CH](N=Cc1cc(NC(N)=N)ccc1O)C(O)=O"                                                                                       
+GUS SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "[H]/N=C(\N)/Nc1ccc(c(c1)/C=N/[C@@H](C)C(=O)O)O"                                                                           
+GUS SMILES           "OpenEye OEToolkits" 1.7.0 "CC(C(=O)O)N=Cc1cc(ccc1O)NC(=N)N"                                                                                          
+GUS InChI            InChI                1.03  "InChI=1S/C11H14N4O3/c1-6(10(17)18)14-5-7-4-8(15-11(12)13)2-3-9(7)16/h2-6,16H,1H3,(H,17,18)(H4,12,13,15)/b14-5+/t6-/m0/s1" 
+GUS InChIKey         InChI                1.03  XIDJFBOMDZEVTM-JHKKWMAKSA-N                                                                                                
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-GUS     "Create component" 2009-12-03 PDBJ
-GUS "Modify aromatic_flag" 2011-06-04 RCSB
-GUS    "Modify descriptor" 2011-06-04 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+GUS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 "(2S)-2-[(E)-(5-carbamimidamido-2-hydroxy-phenyl)methylideneamino]propanoic acid" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-GUS   C C  3.277 -0.088  1
-GUS   N N  1.545 -0.089  2
-GUS   O O  3.276  0.912  3
-GUS  CA C  2.412 -0.589  4
-GUS  CB C  2.412 -1.589  5
-GUS NAA N -3.652  0.906  6
-GUS CAB C -3.651 -0.094  7
-GUS NAC N -2.784 -0.593  8
-GUS CAD C -1.919 -0.092  9
-GUS CAE C -1.920  0.908 10
-GUS CAF C -1.054  1.409 11
-GUS NAG N -4.516 -0.594 12
-GUS CAH C -1.052 -0.592 13
-GUS CAI C -0.187 -0.091 14
-GUS CAJ C -0.188  0.909 15
-GUS OAK O  0.678  1.410 16
-GUS CAL C  0.680 -0.590 17
-GUS OXT O  4.144 -0.587 18
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-GUS   C   O DOUBLE       NONE  1
-GUS   C  CA SINGLE       NONE  2
-GUS   C OXT SINGLE       NONE  3
-GUS   N  CA SINGLE       NONE  4
-GUS   N CAL DOUBLE       NONE  5
-GUS  CA  CB SINGLE BEGINWEDGE  6
-GUS NAA CAB DOUBLE       NONE  7
-GUS CAB NAC SINGLE       NONE  8
-GUS CAB NAG SINGLE       NONE  9
-GUS NAC CAD SINGLE       NONE 10
-GUS CAD CAE DOUBLE       NONE 11
-GUS CAD CAH SINGLE       NONE 12
-GUS CAE CAF SINGLE       NONE 13
-GUS CAF CAJ DOUBLE       NONE 14
-GUS CAH CAI DOUBLE       NONE 15
-GUS CAI CAJ SINGLE       NONE 16
-GUS CAI CAL SINGLE       NONE 17
-GUS CAJ OAK SINGLE       NONE 18
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-GUS MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-GUS        peptide F1 fragment    NCC=O InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-GUS         phenyl F2 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-GUS   O F1 1
-GUS   C F1 1
-GUS  CA F1 1
-GUS   N F1 1
-GUS CAD F2 1
-GUS CAE F2 1
-GUS CAF F2 1
-GUS CAJ F2 1
-GUS CAI F2 1
-GUS CAH F2 1
-GUS CAD S1 1
-GUS CAE S1 1
-GUS CAF S1 1
-GUS CAH S1 1
-GUS CAI S1 1
-GUS CAJ S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               GUS
-_pdbe_chem_comp_rdkit_properties.exactmw                               250.107
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           7
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                5
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.182
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             123.552
-_pdbe_chem_comp_rdkit_properties.tpsa                                  131.790
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.308
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             66.635
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         18
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-GUS UniChem ChEMBL    CHEMBL1233168
-GUS UniChem   ZINC ZINC000058632305
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-GUS    C  4.749  0.058  0.049 ETKDGv2  1
-GUS    N  2.373 -0.062  0.443 ETKDGv2  2
-GUS    O  4.669 -0.446 -1.044 ETKDGv2  3
-GUS   CA  3.567  0.229  0.980 ETKDGv2  4
-GUS   CB  3.618  1.682  1.538 ETKDGv2  5
-GUS  NAA -5.330  1.773 -0.731 ETKDGv2  6
-GUS  CAB -4.442  1.003 -0.265 ETKDGv2  7
-GUS  NAC -3.085  1.305 -0.628 ETKDGv2  8
-GUS  CAD -2.121  0.266 -0.882 ETKDGv2  9
-GUS  CAE -2.521 -0.885 -1.473 ETKDGv2 10
-GUS  CAF -1.627 -1.920 -1.633 ETKDGv2 11
-GUS  NAG -4.792 -0.063  0.564 ETKDGv2 12
-GUS  CAH -0.857  0.434 -0.439 ETKDGv2 13
-GUS  CAI  0.119 -0.629 -0.580 ETKDGv2 14
-GUS  CAJ -0.316 -1.743 -1.168 ETKDGv2 15
-GUS  OAK  0.524 -2.865 -1.376 ETKDGv2 16
-GUS  CAL  1.391 -0.310 -0.003 ETKDGv2 17
-GUS  OXT  5.998  0.531  0.537 ETKDGv2 18
-GUS   HA  3.867 -0.452  1.853 ETKDGv2 19
-GUS   HB  2.952  2.323  0.921 ETKDGv2 20
-GUS  HBA  3.155  1.630  2.532 ETKDGv2 21
-GUS  HBB  4.657  2.039  1.507 ETKDGv2 22
-GUS HNAA -6.329  1.834 -0.667 ETKDGv2 23
-GUS HNAC -2.832  2.292 -0.699 ETKDGv2 24
-GUS  HAE -3.540 -0.940 -1.799 ETKDGv2 25
-GUS  HAF -1.950 -2.844 -2.125 ETKDGv2 26
-GUS HNAG -4.169 -0.894  0.606 ETKDGv2 27
-GUS HNAB -5.648 -0.045  1.128 ETKDGv2 28
-GUS  HAH -0.497  1.336  0.030 ETKDGv2 29
-GUS HOAK  0.378 -3.660 -0.746 ETKDGv2 30
-GUS  HAL  1.906 -1.586 -0.326 ETKDGv2 31
-GUS  HXT  6.129  0.607  1.547 ETKDGv2 32
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+GUS "Create component"     2009-12-03 PDBJ 
+GUS "Modify aromatic_flag" 2011-06-04 RCSB 
+GUS "Modify descriptor"    2011-06-04 RCSB 
+# 

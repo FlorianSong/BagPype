@@ -1,668 +1,286 @@
 data_OLS
-#
-_chem_comp.id                                        OLS
-_chem_comp.name                                      N-biotin-C-Co4(mu3-O)4(Py)4(H2O)4-beta-alanine
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C33 H41 Co4 N7 O12 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2017-09-20
-_chem_comp.pdbx_modified_date                        2018-02-23
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            995.516
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         OLS
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
-_chem_comp.pdbx_model_coordinates_db_code            6AUC
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    OLS 
+_chem_comp.name                                  "N-biotin-C-Co4(mu3-O)4(Py)4(H2O)4-beta-alanine" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C33 H41 Co4 N7 O12 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-09-20 
+_chem_comp.pdbx_modified_date                    2018-02-23 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        995.516 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     OLS 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   Y 
+_chem_comp.pdbx_model_coordinates_db_code        6AUC 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-OLS O04  O1  O 0 1 N N N -14.467  0.596  -8.167 ? ? ? O04 OLS  1
-OLS C13  C1  C 0 1 N N N -13.242  0.535  -8.443 ? ? ? C13 OLS  2
-OLS N03  N1  N 0 1 N N N -12.343  0.675  -7.515 ? ? ? N03 OLS  3
-OLS C11  C2  C 0 1 N N R -11.016  0.598  -8.097 ? ? ? C11 OLS  4
-OLS C10  C3  C 0 1 N N N -10.239 -0.689  -7.596 ? ? ? C10 OLS  5
-OLS S01  S1  S 0 1 N N N -10.827 -2.070  -8.554 ? ? ? S01 OLS  6
-OLS N02  N2  N 0 1 N N N -12.768  0.317  -9.627 ? ? ? N02 OLS  7
-OLS C12  C4  C 0 1 N N S -11.308  0.258  -9.630 ? ? ? C12 OLS  8
-OLS C09  C5  C 0 1 N N S -10.729 -1.097 -10.015 ? ? ? C09 OLS  9
-OLS C08  C6  C 0 1 N N N -11.359 -1.638 -11.314 ? ? ? C08 OLS 10
-OLS C07  C7  C 0 1 N N N -10.525 -2.792 -11.831 ? ? ? C07 OLS 11
-OLS C06  C8  C 0 1 N N N -11.165 -3.400 -13.094 ? ? ? C06 OLS 12
-OLS C05  C9  C 0 1 N N N -10.347 -4.564 -13.682 ? ? ? C05 OLS 13
-OLS C01 C10  C 0 1 N N N  -9.035 -4.055 -14.255 ? ? ? C01 OLS 14
-OLS O01  O2  O 0 1 N N N  -9.017 -2.968 -14.926 ? ? ? O01 OLS 15
-OLS N01  N3  N 0 1 N N N  -7.985 -4.828 -14.006 ? ? ? N01 OLS 16
-OLS C02 C11  C 0 1 N N N  -6.674 -4.422 -14.465 ? ? ? C02 OLS 17
-OLS C37 C12  C 0 1 N N N  -6.517 -4.971 -15.846 ? ? ? C37 OLS 18
-OLS C04 C13  C 0 1 N N N  -5.396 -4.273 -16.479 ? ? ? C04 OLS 19
-OLS O14  O3  O 0 1 N N N  -5.317 -4.632 -17.728 ? ? ? O14 OLS 20
-OLS O03  O4  O 0 1 N N N  -4.755 -3.317 -15.786 ? ? ? O03 OLS 21
-OLS CO4 CO1 CO 0 0 N N N  -3.308 -2.246 -16.645 ? ? ? CO4 OLS 22
-OLS O05  O5  O 0 1 N N N  -2.497 -3.825 -17.179 ? ? ? O05 OLS 23
-OLS O07  O6  O 0 1 N N N  -1.738 -1.274 -17.742 ? ? ? O07 OLS 24
-OLS N07  N4  N 0 1 Y N N  -1.989 -2.399 -14.808 ? ? ? N07 OLS 25
-OLS C44 C14  C 0 1 Y N N  -2.140 -3.646 -14.343 ? ? ? C44 OLS 26
-OLS C43 C15  C 0 1 Y N N  -1.339 -4.019 -13.236 ? ? ? C43 OLS 27
-OLS C42 C16  C 0 1 Y N N  -0.438 -3.133 -12.619 ? ? ? C42 OLS 28
-OLS C41 C17  C 0 1 Y N N  -0.386 -1.912 -13.196 ? ? ? C41 OLS 29
-OLS C40 C18  C 0 1 Y N N  -1.085 -1.490 -14.261 ? ? ? C40 OLS 30
-OLS CO1 CO2 CO 0 0 N N N  -1.215 -2.907 -18.576 ? ? ? CO1 OLS 31
-OLS N04  N5  N 0 1 Y N N   0.469 -3.414 -17.007 ? ? ? N04 OLS 32
-OLS C22 C19  C 0 1 Y N N   1.136 -2.238 -16.760 ? ? ? C22 OLS 33
-OLS C21 C20  C 0 1 Y N N   2.203 -2.336 -15.850 ? ? ? C21 OLS 34
-OLS C20 C21  C 0 1 Y N N   2.532 -3.610 -15.314 ? ? ? C20 OLS 35
-OLS C19 C22  C 0 1 Y N N   1.869 -4.698 -15.632 ? ? ? C19 OLS 36
-OLS C18 C23  C 0 1 Y N N   0.869 -4.624 -16.475 ? ? ? C18 OLS 37
-OLS O12  O7  O 0 1 N N N  -4.371 -2.133 -18.374 ? ? ? O12 OLS 38
-OLS CO3 CO3 CO 0 0 N N N  -3.136 -0.812 -19.064 ? ? ? CO3 OLS 39
-OLS N06  N6  N 0 1 Y N N  -4.655 -0.328 -20.569 ? ? ? N06 OLS 40
-OLS C34 C24  C 0 1 Y N N  -4.318 -0.601 -21.880 ? ? ? C34 OLS 41
-OLS C35 C25  C 0 1 Y N N  -5.152 -0.345 -22.864 ? ? ? C35 OLS 42
-OLS C30 C26  C 0 1 Y N N  -6.325  0.173 -22.616 ? ? ? C30 OLS 43
-OLS C29 C27  C 0 1 Y N N  -6.737  0.469 -21.285 ? ? ? C29 OLS 44
-OLS C28 C28  C 0 1 Y N N  -5.850  0.204 -20.221 ? ? ? C28 OLS 45
-OLS O10  O8  O 0 1 N N N   0.218 -1.579 -19.803 ? ? ? O10 OLS 46
-OLS O15  O9  O 0 1 N N N  -4.322 -0.376 -15.850 ? ? ? O15 OLS 47
-OLS O06 O10  O 0 1 N N N  -2.487 -2.522 -19.953 ? ? ? O06 OLS 48
-OLS CO2 CO4 CO 0 0 N N N  -3.855 -3.643 -18.900 ? ? ? CO2 OLS 49
-OLS O09 O11  O 0 1 N N N  -3.325 -5.467 -19.501 ? ? ? O09 OLS 50
-OLS O08 O12  O 0 1 N N N  -0.917 -4.489 -19.420 ? ? ? O08 OLS 51
-OLS N05  N7  N 0 1 Y N N  -5.244 -3.643 -20.516 ? ? ? N05 OLS 52
-OLS C32 C29  C 0 1 Y N N  -6.532 -3.303 -20.139 ? ? ? C32 OLS 53
-OLS C33 C30  C 0 1 Y N N  -7.555 -3.288 -21.131 ? ? ? C33 OLS 54
-OLS C26 C31  C 0 1 Y N N  -7.224 -3.640 -22.463 ? ? ? C26 OLS 55
-OLS C25 C32  C 0 1 Y N N  -5.876 -3.973 -22.790 ? ? ? C25 OLS 56
-OLS C24 C33  C 0 1 Y N N  -4.884 -3.993 -21.782 ? ? ? C24 OLS 57
-OLS  H1  H1  H 0 1 N N N -12.537  0.815  -6.544 ? ? ?  H1 OLS 58
-OLS  H2  H2  H 0 1 N N N -10.418  1.514  -7.985 ? ? ?  H2 OLS 59
-OLS  H3  H3  H 0 1 N N N  -9.157 -0.559  -7.748 ? ? ?  H3 OLS 60
-OLS  H4  H4  H 0 1 N N N -10.441 -0.859  -6.528 ? ? ?  H4 OLS 61
-OLS  H5  H5  H 0 1 N N N -13.334  0.202 -10.443 ? ? ?  H5 OLS 62
-OLS  H6  H6  H 0 1 N N N -10.881  1.048 -10.265 ? ? ?  H6 OLS 63
-OLS  H7  H7  H 0 1 N N N  -9.653 -0.961 -10.201 ? ? ?  H7 OLS 64
-OLS  H8  H8  H 0 1 N N N -12.382 -1.987 -11.109 ? ? ?  H8 OLS 65
-OLS  H9  H9  H 0 1 N N N -11.388 -0.839 -12.069 ? ? ?  H9 OLS 66
-OLS H10 H10  H 0 1 N N N  -9.516 -2.428 -12.076 ? ? ? H10 OLS 67
-OLS H11 H11  H 0 1 N N N -10.456 -3.566 -11.052 ? ? ? H11 OLS 68
-OLS H12 H12  H 0 1 N N N -12.167 -3.772 -12.835 ? ? ? H12 OLS 69
-OLS H13 H13  H 0 1 N N N -11.252 -2.612 -13.857 ? ? ? H13 OLS 70
-OLS H14 H14  H 0 1 N N N -10.136 -5.296 -12.888 ? ? ? H14 OLS 71
-OLS H15 H15  H 0 1 N N N -10.928 -5.047 -14.481 ? ? ? H15 OLS 72
-OLS H16 H16  H 0 1 N N N  -8.099 -5.686 -13.504 ? ? ? H16 OLS 73
-OLS H17 H17  H 0 1 N N N  -6.601 -3.325 -14.482 ? ? ? H17 OLS 74
-OLS H18 H18  H 0 1 N N N  -5.896 -4.831 -13.803 ? ? ? H18 OLS 75
-OLS H19 H19  H 0 1 N N N  -6.308 -6.050 -15.798 ? ? ? H19 OLS 76
-OLS H20 H20  H 0 1 N N N  -7.438 -4.801 -16.423 ? ? ? H20 OLS 77
-OLS H21 H21  H 0 1 N N N  -4.681 -5.046 -16.162 ? ? ? H21 OLS 78
-OLS H22 H22  H 0 1 N N N  -2.840 -4.335 -14.791 ? ? ? H22 OLS 79
-OLS H23 H23  H 0 1 N N N  -1.424 -5.024 -12.850 ? ? ? H23 OLS 80
-OLS H24 H24  H 0 1 N N N   0.159 -3.404 -11.761 ? ? ? H24 OLS 81
-OLS H25 H25  H 0 1 N N N   0.292 -1.198 -12.752 ? ? ? H25 OLS 82
-OLS H26 H26  H 0 1 N N N  -0.954 -0.500 -14.672 ? ? ? H26 OLS 83
-OLS H27 H27  H 0 1 N N N   0.860 -1.306 -17.231 ? ? ? H27 OLS 84
-OLS H28 H28  H 0 1 N N N   2.763 -1.458 -15.563 ? ? ? H28 OLS 85
-OLS H29 H29  H 0 1 N N N   3.356 -3.686 -14.621 ? ? ? H29 OLS 86
-OLS H30 H30  H 0 1 N N N   2.147 -5.649 -15.201 ? ? ? H30 OLS 87
-OLS H31 H31  H 0 1 N N N   0.348 -5.526 -16.759 ? ? ? H31 OLS 88
-OLS H32 H32  H 0 1 N N N  -3.353 -1.032 -22.101 ? ? ? H32 OLS 89
-OLS H33 H33  H 0 1 N N N  -4.866 -0.564 -23.882 ? ? ? H33 OLS 90
-OLS H34 H34  H 0 1 N N N  -6.996  0.381 -23.436 ? ? ? H34 OLS 91
-OLS H35 H35  H 0 1 N N N  -7.713  0.890 -21.094 ? ? ? H35 OLS 92
-OLS H36 H36  H 0 1 N N N  -6.108  0.412 -19.193 ? ? ? H36 OLS 93
-OLS H41 H41  H 0 1 N N N  -6.757 -3.054 -19.113 ? ? ? H41 OLS 94
-OLS H42 H42  H 0 1 N N N  -8.567 -3.013 -20.872 ? ? ? H42 OLS 95
-OLS H43 H43  H 0 1 N N N  -7.988 -3.656 -23.226 ? ? ? H43 OLS 96
-OLS H44 H44  H 0 1 N N N  -5.612 -4.210 -23.810 ? ? ? H44 OLS 97
-OLS H45 H45  H 0 1 N N N  -3.868 -4.278 -22.010 ? ? ? H45 OLS 98
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+OLS O04 O1  O  0 1 N N N -14.467 0.596  -8.167  ? ? ? O04 OLS 1  
+OLS C13 C1  C  0 1 N N N -13.242 0.535  -8.443  ? ? ? C13 OLS 2  
+OLS N03 N1  N  0 1 N N N -12.343 0.675  -7.515  ? ? ? N03 OLS 3  
+OLS C11 C2  C  0 1 N N R -11.016 0.598  -8.097  ? ? ? C11 OLS 4  
+OLS C10 C3  C  0 1 N N N -10.239 -0.689 -7.596  ? ? ? C10 OLS 5  
+OLS S01 S1  S  0 1 N N N -10.827 -2.070 -8.554  ? ? ? S01 OLS 6  
+OLS N02 N2  N  0 1 N N N -12.768 0.317  -9.627  ? ? ? N02 OLS 7  
+OLS C12 C4  C  0 1 N N S -11.308 0.258  -9.630  ? ? ? C12 OLS 8  
+OLS C09 C5  C  0 1 N N S -10.729 -1.097 -10.015 ? ? ? C09 OLS 9  
+OLS C08 C6  C  0 1 N N N -11.359 -1.638 -11.314 ? ? ? C08 OLS 10 
+OLS C07 C7  C  0 1 N N N -10.525 -2.792 -11.831 ? ? ? C07 OLS 11 
+OLS C06 C8  C  0 1 N N N -11.165 -3.400 -13.094 ? ? ? C06 OLS 12 
+OLS C05 C9  C  0 1 N N N -10.347 -4.564 -13.682 ? ? ? C05 OLS 13 
+OLS C01 C10 C  0 1 N N N -9.035  -4.055 -14.255 ? ? ? C01 OLS 14 
+OLS O01 O2  O  0 1 N N N -9.017  -2.968 -14.926 ? ? ? O01 OLS 15 
+OLS N01 N3  N  0 1 N N N -7.985  -4.828 -14.006 ? ? ? N01 OLS 16 
+OLS C02 C11 C  0 1 N N N -6.674  -4.422 -14.465 ? ? ? C02 OLS 17 
+OLS C37 C12 C  0 1 N N N -6.517  -4.971 -15.846 ? ? ? C37 OLS 18 
+OLS C04 C13 C  0 1 N N N -5.396  -4.273 -16.479 ? ? ? C04 OLS 19 
+OLS O14 O3  O  0 1 N N N -5.317  -4.632 -17.728 ? ? ? O14 OLS 20 
+OLS O03 O4  O  0 1 N N N -4.755  -3.317 -15.786 ? ? ? O03 OLS 21 
+OLS CO4 CO1 CO 0 0 N N N -3.308  -2.246 -16.645 ? ? ? CO4 OLS 22 
+OLS O05 O5  O  0 1 N N N -2.497  -3.825 -17.179 ? ? ? O05 OLS 23 
+OLS O07 O6  O  0 1 N N N -1.738  -1.274 -17.742 ? ? ? O07 OLS 24 
+OLS N07 N4  N  0 1 Y N N -1.989  -2.399 -14.808 ? ? ? N07 OLS 25 
+OLS C44 C14 C  0 1 Y N N -2.140  -3.646 -14.343 ? ? ? C44 OLS 26 
+OLS C43 C15 C  0 1 Y N N -1.339  -4.019 -13.236 ? ? ? C43 OLS 27 
+OLS C42 C16 C  0 1 Y N N -0.438  -3.133 -12.619 ? ? ? C42 OLS 28 
+OLS C41 C17 C  0 1 Y N N -0.386  -1.912 -13.196 ? ? ? C41 OLS 29 
+OLS C40 C18 C  0 1 Y N N -1.085  -1.490 -14.261 ? ? ? C40 OLS 30 
+OLS CO1 CO2 CO 0 0 N N N -1.215  -2.907 -18.576 ? ? ? CO1 OLS 31 
+OLS N04 N5  N  0 1 Y N N 0.469   -3.414 -17.007 ? ? ? N04 OLS 32 
+OLS C22 C19 C  0 1 Y N N 1.136   -2.238 -16.760 ? ? ? C22 OLS 33 
+OLS C21 C20 C  0 1 Y N N 2.203   -2.336 -15.850 ? ? ? C21 OLS 34 
+OLS C20 C21 C  0 1 Y N N 2.532   -3.610 -15.314 ? ? ? C20 OLS 35 
+OLS C19 C22 C  0 1 Y N N 1.869   -4.698 -15.632 ? ? ? C19 OLS 36 
+OLS C18 C23 C  0 1 Y N N 0.869   -4.624 -16.475 ? ? ? C18 OLS 37 
+OLS O12 O7  O  0 1 N N N -4.371  -2.133 -18.374 ? ? ? O12 OLS 38 
+OLS CO3 CO3 CO 0 0 N N N -3.136  -0.812 -19.064 ? ? ? CO3 OLS 39 
+OLS N06 N6  N  0 1 Y N N -4.655  -0.328 -20.569 ? ? ? N06 OLS 40 
+OLS C34 C24 C  0 1 Y N N -4.318  -0.601 -21.880 ? ? ? C34 OLS 41 
+OLS C35 C25 C  0 1 Y N N -5.152  -0.345 -22.864 ? ? ? C35 OLS 42 
+OLS C30 C26 C  0 1 Y N N -6.325  0.173  -22.616 ? ? ? C30 OLS 43 
+OLS C29 C27 C  0 1 Y N N -6.737  0.469  -21.285 ? ? ? C29 OLS 44 
+OLS C28 C28 C  0 1 Y N N -5.850  0.204  -20.221 ? ? ? C28 OLS 45 
+OLS O10 O8  O  0 1 N N N 0.218   -1.579 -19.803 ? ? ? O10 OLS 46 
+OLS O15 O9  O  0 1 N N N -4.322  -0.376 -15.850 ? ? ? O15 OLS 47 
+OLS O06 O10 O  0 1 N N N -2.487  -2.522 -19.953 ? ? ? O06 OLS 48 
+OLS CO2 CO4 CO 0 0 N N N -3.855  -3.643 -18.900 ? ? ? CO2 OLS 49 
+OLS O09 O11 O  0 1 N N N -3.325  -5.467 -19.501 ? ? ? O09 OLS 50 
+OLS O08 O12 O  0 1 N N N -0.917  -4.489 -19.420 ? ? ? O08 OLS 51 
+OLS N05 N7  N  0 1 Y N N -5.244  -3.643 -20.516 ? ? ? N05 OLS 52 
+OLS C32 C29 C  0 1 Y N N -6.532  -3.303 -20.139 ? ? ? C32 OLS 53 
+OLS C33 C30 C  0 1 Y N N -7.555  -3.288 -21.131 ? ? ? C33 OLS 54 
+OLS C26 C31 C  0 1 Y N N -7.224  -3.640 -22.463 ? ? ? C26 OLS 55 
+OLS C25 C32 C  0 1 Y N N -5.876  -3.973 -22.790 ? ? ? C25 OLS 56 
+OLS C24 C33 C  0 1 Y N N -4.884  -3.993 -21.782 ? ? ? C24 OLS 57 
+OLS H1  H1  H  0 1 N N N -12.537 0.815  -6.544  ? ? ? H1  OLS 58 
+OLS H2  H2  H  0 1 N N N -10.418 1.514  -7.985  ? ? ? H2  OLS 59 
+OLS H3  H3  H  0 1 N N N -9.157  -0.559 -7.748  ? ? ? H3  OLS 60 
+OLS H4  H4  H  0 1 N N N -10.441 -0.859 -6.528  ? ? ? H4  OLS 61 
+OLS H5  H5  H  0 1 N N N -13.334 0.202  -10.443 ? ? ? H5  OLS 62 
+OLS H6  H6  H  0 1 N N N -10.881 1.048  -10.265 ? ? ? H6  OLS 63 
+OLS H7  H7  H  0 1 N N N -9.653  -0.961 -10.201 ? ? ? H7  OLS 64 
+OLS H8  H8  H  0 1 N N N -12.382 -1.987 -11.109 ? ? ? H8  OLS 65 
+OLS H9  H9  H  0 1 N N N -11.388 -0.839 -12.069 ? ? ? H9  OLS 66 
+OLS H10 H10 H  0 1 N N N -9.516  -2.428 -12.076 ? ? ? H10 OLS 67 
+OLS H11 H11 H  0 1 N N N -10.456 -3.566 -11.052 ? ? ? H11 OLS 68 
+OLS H12 H12 H  0 1 N N N -12.167 -3.772 -12.835 ? ? ? H12 OLS 69 
+OLS H13 H13 H  0 1 N N N -11.252 -2.612 -13.857 ? ? ? H13 OLS 70 
+OLS H14 H14 H  0 1 N N N -10.136 -5.296 -12.888 ? ? ? H14 OLS 71 
+OLS H15 H15 H  0 1 N N N -10.928 -5.047 -14.481 ? ? ? H15 OLS 72 
+OLS H16 H16 H  0 1 N N N -8.099  -5.686 -13.504 ? ? ? H16 OLS 73 
+OLS H17 H17 H  0 1 N N N -6.601  -3.325 -14.482 ? ? ? H17 OLS 74 
+OLS H18 H18 H  0 1 N N N -5.896  -4.831 -13.803 ? ? ? H18 OLS 75 
+OLS H19 H19 H  0 1 N N N -6.308  -6.050 -15.798 ? ? ? H19 OLS 76 
+OLS H20 H20 H  0 1 N N N -7.438  -4.801 -16.423 ? ? ? H20 OLS 77 
+OLS H21 H21 H  0 1 N N N -4.681  -5.046 -16.162 ? ? ? H21 OLS 78 
+OLS H22 H22 H  0 1 N N N -2.840  -4.335 -14.791 ? ? ? H22 OLS 79 
+OLS H23 H23 H  0 1 N N N -1.424  -5.024 -12.850 ? ? ? H23 OLS 80 
+OLS H24 H24 H  0 1 N N N 0.159   -3.404 -11.761 ? ? ? H24 OLS 81 
+OLS H25 H25 H  0 1 N N N 0.292   -1.198 -12.752 ? ? ? H25 OLS 82 
+OLS H26 H26 H  0 1 N N N -0.954  -0.500 -14.672 ? ? ? H26 OLS 83 
+OLS H27 H27 H  0 1 N N N 0.860   -1.306 -17.231 ? ? ? H27 OLS 84 
+OLS H28 H28 H  0 1 N N N 2.763   -1.458 -15.563 ? ? ? H28 OLS 85 
+OLS H29 H29 H  0 1 N N N 3.356   -3.686 -14.621 ? ? ? H29 OLS 86 
+OLS H30 H30 H  0 1 N N N 2.147   -5.649 -15.201 ? ? ? H30 OLS 87 
+OLS H31 H31 H  0 1 N N N 0.348   -5.526 -16.759 ? ? ? H31 OLS 88 
+OLS H32 H32 H  0 1 N N N -3.353  -1.032 -22.101 ? ? ? H32 OLS 89 
+OLS H33 H33 H  0 1 N N N -4.866  -0.564 -23.882 ? ? ? H33 OLS 90 
+OLS H34 H34 H  0 1 N N N -6.996  0.381  -23.436 ? ? ? H34 OLS 91 
+OLS H35 H35 H  0 1 N N N -7.713  0.890  -21.094 ? ? ? H35 OLS 92 
+OLS H36 H36 H  0 1 N N N -6.108  0.412  -19.193 ? ? ? H36 OLS 93 
+OLS H41 H41 H  0 1 N N N -6.757  -3.054 -19.113 ? ? ? H41 OLS 94 
+OLS H42 H42 H  0 1 N N N -8.567  -3.013 -20.872 ? ? ? H42 OLS 95 
+OLS H43 H43 H  0 1 N N N -7.988  -3.656 -23.226 ? ? ? H43 OLS 96 
+OLS H44 H44 H  0 1 N N N -5.612  -4.210 -23.810 ? ? ? H44 OLS 97 
+OLS H45 H45 H  0 1 N N N -3.868  -4.278 -22.010 ? ? ? H45 OLS 98 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-OLS O04 C13 DOUB N N   1
-OLS C13 N03 SING N N   2
-OLS C13 N02 SING N N   3
-OLS N03 C11 SING N N   4
-OLS C11 C10 SING N N   5
-OLS C11 C12 SING N N   6
-OLS C10 S01 SING N N   7
-OLS S01 C09 SING N N   8
-OLS N02 C12 SING N N   9
-OLS C12 C09 SING N N  10
-OLS C09 C08 SING N N  11
-OLS C08 C07 SING N N  12
-OLS C07 C06 SING N N  13
-OLS C06 C05 SING N N  14
-OLS C05 C01 SING N N  15
-OLS C01 O01 DOUB N N  16
-OLS C01 N01 SING N N  17
-OLS N01 C02 SING N N  18
-OLS C02 C37 SING N N  19
-OLS C37 C04 SING N N  20
-OLS C04 O14 SING N N  21
-OLS C04 O03 SING N N  22
-OLS O14 CO2 SING N N  23
-OLS O03 CO4 SING N N  24
-OLS CO4 O05 SING N N  25
-OLS CO4 O07 SING N N  26
-OLS CO4 N07 SING N N  27
-OLS CO4 O12 SING N N  28
-OLS CO4 O15 SING N N  29
-OLS O05 CO1 SING N N  30
-OLS O05 CO2 SING N N  31
-OLS O07 CO1 SING N N  32
-OLS O07 CO3 SING N N  33
-OLS N07 C44 DOUB Y N  34
-OLS N07 C40 SING Y N  35
-OLS C44 C43 SING Y N  36
-OLS C43 C42 DOUB Y N  37
-OLS C42 C41 SING Y N  38
-OLS C41 C40 DOUB Y N  39
-OLS CO1 N04 SING N N  40
-OLS CO1 O10 SING N N  41
-OLS CO1 O06 SING N N  42
-OLS CO1 O08 SING N N  43
-OLS N04 C22 DOUB Y N  44
-OLS N04 C18 SING Y N  45
-OLS C22 C21 SING Y N  46
-OLS C21 C20 DOUB Y N  47
-OLS C20 C19 SING Y N  48
-OLS C19 C18 DOUB Y N  49
-OLS O12 CO3 SING N N  50
-OLS O12 CO2 SING N N  51
-OLS CO3 N06 SING N N  52
-OLS CO3 O06 SING N N  53
-OLS N06 C34 DOUB Y N  54
-OLS N06 C28 SING Y N  55
-OLS C34 C35 SING Y N  56
-OLS C35 C30 DOUB Y N  57
-OLS C30 C29 SING Y N  58
-OLS C29 C28 DOUB Y N  59
-OLS O06 CO2 SING N N  60
-OLS CO2 O09 SING N N  61
-OLS CO2 N05 SING N N  62
-OLS N05 C32 DOUB Y N  63
-OLS N05 C24 SING Y N  64
-OLS C32 C33 SING Y N  65
-OLS C33 C26 DOUB Y N  66
-OLS C26 C25 SING Y N  67
-OLS C25 C24 DOUB Y N  68
-OLS N03  H1 SING N N  69
-OLS C11  H2 SING N N  70
-OLS C10  H3 SING N N  71
-OLS C10  H4 SING N N  72
-OLS N02  H5 SING N N  73
-OLS C12  H6 SING N N  74
-OLS C09  H7 SING N N  75
-OLS C08  H8 SING N N  76
-OLS C08  H9 SING N N  77
-OLS C07 H10 SING N N  78
-OLS C07 H11 SING N N  79
-OLS C06 H12 SING N N  80
-OLS C06 H13 SING N N  81
-OLS C05 H14 SING N N  82
-OLS C05 H15 SING N N  83
-OLS N01 H16 SING N N  84
-OLS C02 H17 SING N N  85
-OLS C02 H18 SING N N  86
-OLS C37 H19 SING N N  87
-OLS C37 H20 SING N N  88
-OLS C04 H21 SING N N  89
-OLS C44 H22 SING N N  90
-OLS C43 H23 SING N N  91
-OLS C42 H24 SING N N  92
-OLS C41 H25 SING N N  93
-OLS C40 H26 SING N N  94
-OLS C22 H27 SING N N  95
-OLS C21 H28 SING N N  96
-OLS C20 H29 SING N N  97
-OLS C19 H30 SING N N  98
-OLS C18 H31 SING N N  99
-OLS C34 H32 SING N N 100
-OLS C35 H33 SING N N 101
-OLS C30 H34 SING N N 102
-OLS C29 H35 SING N N 103
-OLS C28 H36 SING N N 104
-OLS C32 H41 SING N N 105
-OLS C33 H42 SING N N 106
-OLS C26 H43 SING N N 107
-OLS C25 H44 SING N N 108
-OLS C24 H45 SING N N 109
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+OLS O04 C13 DOUB N N 1   
+OLS C13 N03 SING N N 2   
+OLS C13 N02 SING N N 3   
+OLS N03 C11 SING N N 4   
+OLS C11 C10 SING N N 5   
+OLS C11 C12 SING N N 6   
+OLS C10 S01 SING N N 7   
+OLS S01 C09 SING N N 8   
+OLS N02 C12 SING N N 9   
+OLS C12 C09 SING N N 10  
+OLS C09 C08 SING N N 11  
+OLS C08 C07 SING N N 12  
+OLS C07 C06 SING N N 13  
+OLS C06 C05 SING N N 14  
+OLS C05 C01 SING N N 15  
+OLS C01 O01 DOUB N N 16  
+OLS C01 N01 SING N N 17  
+OLS N01 C02 SING N N 18  
+OLS C02 C37 SING N N 19  
+OLS C37 C04 SING N N 20  
+OLS C04 O14 SING N N 21  
+OLS C04 O03 SING N N 22  
+OLS O14 CO2 SING N N 23  
+OLS O03 CO4 SING N N 24  
+OLS CO4 O05 SING N N 25  
+OLS CO4 O07 SING N N 26  
+OLS CO4 N07 SING N N 27  
+OLS CO4 O12 SING N N 28  
+OLS CO4 O15 SING N N 29  
+OLS O05 CO1 SING N N 30  
+OLS O05 CO2 SING N N 31  
+OLS O07 CO1 SING N N 32  
+OLS O07 CO3 SING N N 33  
+OLS N07 C44 DOUB Y N 34  
+OLS N07 C40 SING Y N 35  
+OLS C44 C43 SING Y N 36  
+OLS C43 C42 DOUB Y N 37  
+OLS C42 C41 SING Y N 38  
+OLS C41 C40 DOUB Y N 39  
+OLS CO1 N04 SING N N 40  
+OLS CO1 O10 SING N N 41  
+OLS CO1 O06 SING N N 42  
+OLS CO1 O08 SING N N 43  
+OLS N04 C22 DOUB Y N 44  
+OLS N04 C18 SING Y N 45  
+OLS C22 C21 SING Y N 46  
+OLS C21 C20 DOUB Y N 47  
+OLS C20 C19 SING Y N 48  
+OLS C19 C18 DOUB Y N 49  
+OLS O12 CO3 SING N N 50  
+OLS O12 CO2 SING N N 51  
+OLS CO3 N06 SING N N 52  
+OLS CO3 O06 SING N N 53  
+OLS N06 C34 DOUB Y N 54  
+OLS N06 C28 SING Y N 55  
+OLS C34 C35 SING Y N 56  
+OLS C35 C30 DOUB Y N 57  
+OLS C30 C29 SING Y N 58  
+OLS C29 C28 DOUB Y N 59  
+OLS O06 CO2 SING N N 60  
+OLS CO2 O09 SING N N 61  
+OLS CO2 N05 SING N N 62  
+OLS N05 C32 DOUB Y N 63  
+OLS N05 C24 SING Y N 64  
+OLS C32 C33 SING Y N 65  
+OLS C33 C26 DOUB Y N 66  
+OLS C26 C25 SING Y N 67  
+OLS C25 C24 DOUB Y N 68  
+OLS N03 H1  SING N N 69  
+OLS C11 H2  SING N N 70  
+OLS C10 H3  SING N N 71  
+OLS C10 H4  SING N N 72  
+OLS N02 H5  SING N N 73  
+OLS C12 H6  SING N N 74  
+OLS C09 H7  SING N N 75  
+OLS C08 H8  SING N N 76  
+OLS C08 H9  SING N N 77  
+OLS C07 H10 SING N N 78  
+OLS C07 H11 SING N N 79  
+OLS C06 H12 SING N N 80  
+OLS C06 H13 SING N N 81  
+OLS C05 H14 SING N N 82  
+OLS C05 H15 SING N N 83  
+OLS N01 H16 SING N N 84  
+OLS C02 H17 SING N N 85  
+OLS C02 H18 SING N N 86  
+OLS C37 H19 SING N N 87  
+OLS C37 H20 SING N N 88  
+OLS C04 H21 SING N N 89  
+OLS C44 H22 SING N N 90  
+OLS C43 H23 SING N N 91  
+OLS C42 H24 SING N N 92  
+OLS C41 H25 SING N N 93  
+OLS C40 H26 SING N N 94  
+OLS C22 H27 SING N N 95  
+OLS C21 H28 SING N N 96  
+OLS C20 H29 SING N N 97  
+OLS C19 H30 SING N N 98  
+OLS C18 H31 SING N N 99  
+OLS C34 H32 SING N N 100 
+OLS C35 H33 SING N N 101 
+OLS C30 H34 SING N N 102 
+OLS C29 H35 SING N N 103 
+OLS C28 H36 SING N N 104 
+OLS C32 H41 SING N N 105 
+OLS C33 H42 SING N N 106 
+OLS C26 H43 SING N N 107 
+OLS C25 H44 SING N N 108 
+OLS C24 H45 SING N N 109 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-OLS            InChI                InChI  1.03 InChI=1S/C13H21N3O4S.4C5H5N.4Co.4H2O.4O/c17-10(14-6-5-11(18)19)4-2-1-3-9-12-8(7-21-9)15-13(20)16-12;4*1-2-4-6-5-3-1;;;;;;;;;;;;/h8-9,11-12H,1-7H2,(H,14,17)(H2,15,16,20);4*1-5H;;;;;4*1H2;;;;/q-2;;;;;;3*+2;;;;;;;;/p-4/t8-,9-,12-;;;;;;;;;;;;;;;;/m0................/s1
-OLS         InChIKey                InChI  1.03                                                                                                                                                                                                                                              NCRQDMYNPQXLIW-VNIQYHKJSA-J
-OLS SMILES_CANONICAL               CACTVS 3.385                                                                                                                                                      O.O.O.O.O=C(CCCC[C@@H]1SC[C@@H]2NC(=O)N[C@H]12)NCCC3O[Co]4O[Co]O[Co]O[Co](O3)O4.c5ccncc5.c6ccncc6.c7ccncc7.c8ccncc8
-OLS           SMILES               CACTVS 3.385                                                                                                                                                           O.O.O.O.O=C(CCCC[CH]1SC[CH]2NC(=O)N[CH]12)NCCC3O[Co]4O[Co]O[Co]O[Co](O3)O4.c5ccncc5.c6ccncc6.c7ccncc7.c8ccncc8
-OLS SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                      C1[C@H]2[C@@H]([C@@H](S1)CCCCC(=O)NCCC3O[Co]45(O6[Co]7(O4[Co]8(O3)(O7[Co]6(O58)([N]9=CC=CC=C9)([O])[O])([N]1=CC=CC=C1)[O])[N]1=CC=CC=C1)([N]1=CC=CC=C1)[O])NC(=O)N2
-OLS           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                                    C1C2C(C(S1)CCCCC(=O)NCCC3O[Co]45(O6[Co]7(O4[Co]8(O3)(O7[Co]6(O58)([N]9=CC=CC=C9)([O])[O])([N]1=CC=CC=C1)[O])[N]1=CC=CC=C1)([N]1=CC=CC=C1)[O])NC(=O)N2
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+OLS InChI            InChI                1.03  
+;InChI=1S/C13H21N3O4S.4C5H5N.4Co.4H2O.4O/c17-10(14-6-5-11(18)19)4-2-1-3-9-12-8(7-21-9)15-13(20)16-12;4*1-2-4-6-5-3-1;;;;;;;;;;;;/h8-9,11-12H,1-7H2,(H,14,17)(H2,15,16,20);4*1-5H;;;;;4*1H2;;;;/q-2;;;;;;3*+2;;;;;;;;/p-4/t8-,9-,12-;;;;;;;;;;;;;;;;/m0................/s1
+;
+OLS InChIKey         InChI                1.03  NCRQDMYNPQXLIW-VNIQYHKJSA-J 
+OLS SMILES_CANONICAL CACTVS               3.385 "O.O.O.O.O=C(CCCC[C@@H]1SC[C@@H]2NC(=O)N[C@H]12)NCCC3O[Co]4O[Co]O[Co]O[Co](O3)O4.c5ccncc5.c6ccncc6.c7ccncc7.c8ccncc8" 
+OLS SMILES           CACTVS               3.385 "O.O.O.O.O=C(CCCC[CH]1SC[CH]2NC(=O)N[CH]12)NCCC3O[Co]4O[Co]O[Co]O[Co](O3)O4.c5ccncc5.c6ccncc6.c7ccncc7.c8ccncc8" 
+OLS SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C1[C@H]2[C@@H]([C@@H](S1)CCCCC(=O)NCCC3O[Co]45(O6[Co]7(O4[Co]8(O3)(O7[Co]6(O58)([N]9=CC=CC=C9)([O])[O])([N]1=CC=CC=C1)[O])[N]1=CC=CC=C1)([N]1=CC=CC=C1)[O])NC(=O)N2" 
+OLS SMILES           "OpenEye OEToolkits" 2.0.6 "C1C2C(C(S1)CCCCC(=O)NCCC3O[Co]45(O6[Co]7(O4[Co]8(O3)(O7[Co]6(O58)([N]9=CC=CC=C9)([O])[O])([N]1=CC=CC=C1)[O])[N]1=CC=CC=C1)([N]1=CC=CC=C1)[O])NC(=O)N2" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-OLS "Create component" 2017-09-20 RCSB
-OLS  "Initial release" 2018-02-28 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-OLS O04  O  32.615  -7.516  1
-OLS C13  C  31.941  -8.247  2
-OLS N03  N  32.123  -9.240  3
-OLS C11  C  31.273  -9.732  4
-OLS C10  C  30.842 -10.628  5
-OLS S01  S  29.838 -10.528  6
-OLS N02  N  30.936  -8.147  7
-OLS C12  C  30.504  -9.044  8
-OLS C09  C  29.655  -9.535  9
-OLS C08  C  28.731  -9.116 10
-OLS C07  C  27.913  -9.698 11
-OLS C06  C  26.999  -9.280 12
-OLS C05  C  26.180  -9.861 13
-OLS C01  C  25.267  -9.442 14
-OLS O01  O  25.173  -8.442 15
-OLS N01  N  24.447 -10.023 16
-OLS C02  C  23.535  -9.603 17
-OLS C37  C  22.715 -10.183 18
-OLS C04  C  21.802  -9.764 19
-OLS O14  O  20.983 -10.344 20
-OLS O03  O  21.709  -8.764 21
-OLS CO4 Co  20.504  -6.068 22
-OLS O05  O  16.420  -7.378 23
-OLS O07  O  12.948   3.400 24
-OLS N07  N  25.362   2.708 25
-OLS C44  C  24.847   3.565 26
-OLS C43  C  25.331   4.440 27
-OLS C42  C  26.331   4.458 28
-OLS C41  C  26.846   3.601 29
-OLS C40  C  26.362   2.726 30
-OLS CO1 Co   5.376  -1.034 31
-OLS N04  N  12.288  -4.912 32
-OLS C22  C  13.148  -4.401 33
-OLS C21  C  14.020  -4.891 34
-OLS C20  C  14.032  -5.891 35
-OLS C19  C  13.172  -6.401 36
-OLS C18  C  12.300  -5.912 37
-OLS O12  O  17.408 -16.266 38
-OLS CO3 Co   0.592 -14.936 39
-OLS N06  N  -8.506 -19.222 40
-OLS C34  C  -8.589 -20.219 41
-OLS C35  C  -9.494 -20.645 42
-OLS C30  C -10.315 -20.074 43
-OLS C29  C -10.232 -19.078 44
-OLS C28  C  -9.327 -18.652 45
-OLS O10  O  12.194  -5.030 46
-OLS O15  O  30.358  -7.236 47
-OLS O06  O   1.252 -11.180 48
-OLS CO2 Co  15.798 -12.768 49
-OLS O09  O  10.300 -10.352 50
-OLS O08  O  12.378  -4.826 51
-OLS N05  N  10.338 -10.288 52
-OLS C32  C   9.525 -10.870 53
-OLS C33  C   8.614 -10.456 54
-OLS C26  C   8.517  -9.461 55
-OLS C25  C   9.330  -8.879 56
-OLS C24  C  10.241  -9.293 57
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-OLS O04 C13 DOUBLE       NONE  1
-OLS C13 N03 SINGLE       NONE  2
-OLS C13 N02 SINGLE       NONE  3
-OLS N03 C11 SINGLE       NONE  4
-OLS C11 C10 SINGLE       NONE  5
-OLS C11 C12 SINGLE       NONE  6
-OLS C10 S01 SINGLE       NONE  7
-OLS S01 C09 SINGLE       NONE  8
-OLS N02 C12 SINGLE       NONE  9
-OLS C12 C09 SINGLE       NONE 10
-OLS C09 C08 SINGLE BEGINWEDGE 11
-OLS C08 C07 SINGLE       NONE 12
-OLS C07 C06 SINGLE       NONE 13
-OLS C06 C05 SINGLE       NONE 14
-OLS C05 C01 SINGLE       NONE 15
-OLS C01 O01 DOUBLE       NONE 16
-OLS C01 N01 SINGLE       NONE 17
-OLS N01 C02 SINGLE       NONE 18
-OLS C02 C37 SINGLE       NONE 19
-OLS C37 C04 SINGLE       NONE 20
-OLS C04 O14 SINGLE       NONE 21
-OLS C04 O03 SINGLE       NONE 22
-OLS O14 CO2 SINGLE       NONE 23
-OLS O03 CO4 SINGLE       NONE 24
-OLS CO4 O05 SINGLE       NONE 25
-OLS CO4 O07 SINGLE       NONE 26
-OLS CO4 N07 SINGLE       NONE 27
-OLS CO4 O12 SINGLE       NONE 28
-OLS CO4 O15 SINGLE       NONE 29
-OLS O05 CO1 SINGLE       NONE 30
-OLS O05 CO2 SINGLE       NONE 31
-OLS O07 CO1 SINGLE       NONE 32
-OLS O07 CO3 SINGLE       NONE 33
-OLS N07 C44 DOUBLE       NONE 34
-OLS N07 C40 SINGLE       NONE 35
-OLS C44 C43 SINGLE       NONE 36
-OLS C43 C42 DOUBLE       NONE 37
-OLS C42 C41 SINGLE       NONE 38
-OLS C41 C40 DOUBLE       NONE 39
-OLS CO1 N04 SINGLE       NONE 40
-OLS CO1 O10 SINGLE       NONE 41
-OLS CO1 O06 SINGLE       NONE 42
-OLS CO1 O08 SINGLE       NONE 43
-OLS N04 C22 DOUBLE       NONE 44
-OLS N04 C18 SINGLE       NONE 45
-OLS C22 C21 SINGLE       NONE 46
-OLS C21 C20 DOUBLE       NONE 47
-OLS C20 C19 SINGLE       NONE 48
-OLS C19 C18 DOUBLE       NONE 49
-OLS O12 CO3 SINGLE       NONE 50
-OLS O12 CO2 SINGLE       NONE 51
-OLS CO3 N06 SINGLE       NONE 52
-OLS CO3 O06 SINGLE       NONE 53
-OLS N06 C34 DOUBLE       NONE 54
-OLS N06 C28 SINGLE       NONE 55
-OLS C34 C35 SINGLE       NONE 56
-OLS C35 C30 DOUBLE       NONE 57
-OLS C30 C29 SINGLE       NONE 58
-OLS C29 C28 DOUBLE       NONE 59
-OLS O06 CO2 SINGLE       NONE 60
-OLS CO2 O09 SINGLE       NONE 61
-OLS CO2 N05 SINGLE       NONE 62
-OLS N05 C32 DOUBLE       NONE 63
-OLS N05 C24 SINGLE       NONE 64
-OLS C32 C33 SINGLE       NONE 65
-OLS C33 C26 DOUBLE       NONE 66
-OLS C26 C25 SINGLE       NONE 67
-OLS C25 C24 DOUBLE       NONE 68
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-OLS MurckoScaffold S1 scaffold O=C(CCCC[C@@H]1SC[C@@H]2NC(=O)N[C@H]12)NCCC1O[Co-7]23([n+]4ccccc4)[O+6]4[Co-7]5([n+]6ccccc6)[O+6]6[Co-7]4([n+]4ccccc4)[O+6]2[Co-7]6([n+]2ccccc2)(O1)[O+6]53 InChI=1S/C13H21N3O4S.4C5H5N.4Co.4O/c17-10(14-6-5-11(18)19)4-2-1-3-9-12-8(7-21-9)15-13(20)16-12;4*1-2-4-6-5-3-1;;;;;;;;/h8-9,11-12H,1-7H2,(H,14,17)(H2,15,16,20);4*1-5H;;;;;;;;/q-2;;;;;2*-6;2*-5;4*+6/t8-,9-,12-;;;;;;;;;;;;/m0............/s1 ALUPEQWZMDTGDI-XNLOESRCSA-N
-OLS          amide F1 fragment                                                                                                                                                     CC(N)=O                                                                                                                                                                                                         InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-OLS       pyridine F2 fragment                                                                                                                                                    c1ccncc1                                                                                                                                                                                                            InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-OLS N01 F1 1
-OLS C01 F1 1
-OLS O01 F1 1
-OLS C05 F1 1
-OLS C44 F2 1
-OLS C43 F2 1
-OLS C42 F2 1
-OLS C41 F2 1
-OLS C40 F2 1
-OLS N07 F2 1
-OLS C22 F2 2
-OLS C21 F2 2
-OLS C20 F2 2
-OLS C19 F2 2
-OLS C18 F2 2
-OLS N04 F2 2
-OLS C34 F2 3
-OLS C35 F2 3
-OLS C30 F2 3
-OLS C29 F2 3
-OLS C28 F2 3
-OLS N06 F2 3
-OLS C32 F2 4
-OLS C33 F2 4
-OLS C26 F2 4
-OLS C25 F2 4
-OLS C24 F2 4
-OLS N05 F2 4
-OLS O04 S1 1
-OLS C13 S1 1
-OLS N03 S1 1
-OLS C11 S1 1
-OLS C10 S1 1
-OLS S01 S1 1
-OLS N02 S1 1
-OLS C12 S1 1
-OLS C09 S1 1
-OLS C08 S1 1
-OLS C07 S1 1
-OLS C06 S1 1
-OLS C05 S1 1
-OLS C01 S1 1
-OLS O01 S1 1
-OLS N01 S1 1
-OLS C02 S1 1
-OLS C37 S1 1
-OLS C04 S1 1
-OLS O14 S1 1
-OLS O03 S1 1
-OLS CO4 S1 1
-OLS O05 S1 1
-OLS O07 S1 1
-OLS N07 S1 1
-OLS C44 S1 1
-OLS C43 S1 1
-OLS C42 S1 1
-OLS C41 S1 1
-OLS C40 S1 1
-OLS CO1 S1 1
-OLS N04 S1 1
-OLS C22 S1 1
-OLS C21 S1 1
-OLS C20 S1 1
-OLS C19 S1 1
-OLS C18 S1 1
-OLS O12 S1 1
-OLS CO3 S1 1
-OLS N06 S1 1
-OLS C34 S1 1
-OLS C35 S1 1
-OLS C30 S1 1
-OLS C29 S1 1
-OLS C28 S1 1
-OLS O06 S1 1
-OLS CO2 S1 1
-OLS N05 S1 1
-OLS C32 S1 1
-OLS C33 S1 1
-OLS C26 S1 1
-OLS C25 S1 1
-OLS C24 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               OLS
-_pdbe_chem_comp_rdkit_properties.exactmw                               994.986
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           19
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     12
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                5
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        24
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         3
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.333
-_pdbe_chem_comp_rdkit_properties.NumRings                              14
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      4
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     10
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     10
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       14
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               4
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              10
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              10
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         2
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    2
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             391.549
-_pdbe_chem_comp_rdkit_properties.tpsa                                  194.610
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.894
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             172.768
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         57
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-OLS O04  7.875  4.679  0.964 ETKDGv2  1
-OLS C13  7.769  3.475  1.315 ETKDGv2  2
-OLS N03  8.066  3.013  2.611 ETKDGv2  3
-OLS C11  7.826  1.574  2.641 ETKDGv2  4
-OLS C10  6.683  1.246  3.602 ETKDGv2  5
-OLS S01  5.135  1.241  2.657 ETKDGv2  6
-OLS N02  7.353  2.445  0.452 ETKDGv2  7
-OLS C12  7.401  1.185  1.195 ETKDGv2  8
-OLS C09  6.031  0.493  1.265 ETKDGv2  9
-OLS C08  5.224  0.579 -0.047 ETKDGv2 10
-OLS C07  3.994 -0.346 -0.059 ETKDGv2 11
-OLS C06  4.350 -1.803 -0.401 ETKDGv2 12
-OLS C05  3.135 -2.738 -0.266 ETKDGv2 13
-OLS C01  2.069 -2.523 -1.310 ETKDGv2 14
-OLS O01  2.300 -1.819 -2.332 ETKDGv2 15
-OLS N01  0.784 -3.136 -1.136 ETKDGv2 16
-OLS C02 -0.316 -2.935 -2.076 ETKDGv2 17
-OLS C37 -0.114 -3.798 -3.327 ETKDGv2 18
-OLS C04 -1.241 -3.599 -4.343 ETKDGv2 19
-OLS O14 -0.961 -4.329 -5.499 ETKDGv2 20
-OLS O03 -2.455 -4.037 -3.811 ETKDGv2 21
-OLS CO4 -2.100 -1.592 -8.265 ETKDGv2 22
-OLS O05 -1.811 -2.645  1.360 ETKDGv2 23
-OLS O07 -1.796 -2.661  1.384 ETKDGv2 24
-OLS N07  0.374 -0.453  0.628 ETKDGv2 25
-OLS C44  0.715 -0.313  1.876 ETKDGv2 26
-OLS C43  1.247  0.978  2.356 ETKDGv2 27
-OLS C42  1.373  1.993  1.494 ETKDGv2 28
-OLS C41  0.978  1.810  0.084 ETKDGv2 29
-OLS C40  0.502  0.625 -0.315 ETKDGv2 30
-OLS CO1 -6.320  1.292  2.242 ETKDGv2 31
-OLS N04 -6.295  0.942  0.295 ETKDGv2 32
-OLS C22 -6.147  1.944 -0.524 ETKDGv2 33
-OLS C21 -6.123  1.709 -1.981 ETKDGv2 34
-OLS C20 -6.258  0.462 -2.444 ETKDGv2 35
-OLS C19 -6.424 -0.658 -1.497 ETKDGv2 36
-OLS C18 -6.436 -0.408 -0.182 ETKDGv2 37
-OLS O12 -4.102 -3.152 -0.929 ETKDGv2 38
-OLS CO3 -6.937  1.863  2.237 ETKDGv2 39
-OLS N06 -4.591  1.466  2.890 ETKDGv2 40
-OLS C34 -3.499  2.174  2.932 ETKDGv2 41
-OLS C35 -2.237  1.563  3.395 ETKDGv2 42
-OLS C30 -2.233  0.277  3.765 ETKDGv2 43
-OLS C29 -3.482 -0.508  3.704 ETKDGv2 44
-OLS C28 -4.606  0.081  3.280 ETKDGv2 45
-OLS O10 -1.871 -2.730  1.443 ETKDGv2 46
-OLS O15 -4.198 -3.640 -1.432 ETKDGv2 47
-OLS O06 -1.947 -2.740  1.336 ETKDGv2 48
-OLS CO2 -3.056 -1.182 -1.697 ETKDGv2 49
-OLS O09 -0.986  4.506  1.434 ETKDGv2 50
-OLS O08 -5.282 -2.448 -4.526 ETKDGv2 51
-OLS N05 -2.994 -0.635 -1.182 ETKDGv2 52
-OLS C32 -2.893  0.284 -0.265 ETKDGv2 53
-OLS C33 -2.666  1.691 -0.649 ETKDGv2 54
-OLS C26 -2.560  2.005 -1.945 ETKDGv2 55
-OLS C25 -2.677  0.946 -2.967 ETKDGv2 56
-OLS C24 -2.888 -0.318 -2.581 ETKDGv2 57
-OLS  H1  8.402  3.599  3.408 ETKDGv2 58
-OLS  H2  8.757  1.046  2.943 ETKDGv2 59
-OLS  H3  6.836  0.232  4.030 ETKDGv2 60
-OLS  H4  6.624  1.977  4.436 ETKDGv2 61
-OLS  H5  7.181  2.551 -0.573 ETKDGv2 62
-OLS  H6  8.156  0.513  0.730 ETKDGv2 63
-OLS  H7  6.211 -0.574  1.517 ETKDGv2 64
-OLS  H8  4.873  1.625 -0.186 ETKDGv2 65
-OLS  H9  5.879  0.331 -0.911 ETKDGv2 66
-OLS H10  3.289  0.039 -0.825 ETKDGv2 67
-OLS H11  3.477 -0.302  0.921 ETKDGv2 68
-OLS H12  4.766 -1.865 -1.430 ETKDGv2 69
-OLS H13  5.133 -2.168  0.296 ETKDGv2 70
-OLS H14  3.481 -3.791 -0.341 ETKDGv2 71
-OLS H15  2.687 -2.608  0.743 ETKDGv2 72
-OLS H16  0.599 -3.683 -0.264 ETKDGv2 73
-OLS H17 -1.269 -3.222 -1.582 ETKDGv2 74
-OLS H18 -0.382 -1.860 -2.350 ETKDGv2 75
-OLS H19 -0.066 -4.870 -3.032 ETKDGv2 76
-OLS H20  0.851 -3.529 -3.808 ETKDGv2 77
-OLS H21 -1.325 -2.524 -4.612 ETKDGv2 78
-OLS H22  0.614 -1.145  2.559 ETKDGv2 79
-OLS H23  1.534  1.098  3.392 ETKDGv2 80
-OLS H24  1.764  2.945  1.827 ETKDGv2 81
-OLS H25  1.076  2.626 -0.620 ETKDGv2 82
-OLS H26  0.214  0.473 -1.346 ETKDGv2 83
-OLS H27 -6.034  2.947 -0.135 ETKDGv2 84
-OLS H28 -5.990  2.538 -2.665 ETKDGv2 85
-OLS H29 -6.234  0.270 -3.509 ETKDGv2 86
-OLS H30 -6.529 -1.671 -1.863 ETKDGv2 87
-OLS H31 -6.550 -1.218  0.525 ETKDGv2 88
-OLS H32 -3.516  3.210  2.621 ETKDGv2 89
-OLS H33 -1.329  2.150  3.433 ETKDGv2 90
-OLS H34 -1.318 -0.188  4.109 ETKDGv2 91
-OLS H35 -3.484 -1.551  3.995 ETKDGv2 92
-OLS H36 -5.529 -0.482  3.226 ETKDGv2 93
-OLS H41 -2.974  0.015  0.777 ETKDGv2 94
-OLS H42 -2.582  2.457  0.110 ETKDGv2 95
-OLS H43 -2.389  3.030 -2.244 ETKDGv2 96
-OLS H44 -2.598  1.192 -4.018 ETKDGv2 97
-OLS H45 -2.985 -1.103 -3.318 ETKDGv2 98
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+OLS "Create component" 2017-09-20 RCSB 
+OLS "Initial release"  2018-02-28 RCSB 
+# 

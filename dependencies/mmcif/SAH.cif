@@ -1,518 +1,181 @@
 data_SAH
-#
-_chem_comp.id                                        SAH
-_chem_comp.name                                      S-ADENOSYL-L-HOMOCYSTEINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C14 H20 N6 O5 S"
-_chem_comp.mon_nstd_parent_comp_id                   CYS
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            384.411
-_chem_comp.one_letter_code                           C
-_chem_comp.three_letter_code                         SAH
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1VP9
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    SAH 
+_chem_comp.name                                  S-ADENOSYL-L-HOMOCYSTEINE 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C14 H20 N6 O5 S" 
+_chem_comp.mon_nstd_parent_comp_id               CYS 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        384.411 
+_chem_comp.one_letter_code                       C 
+_chem_comp.three_letter_code                     SAH 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1VP9 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-SAH      N    N N 0 1 N N N -3.939 12.949 23.901  0.663  0.742  6.843      N SAH  1
-SAH     CA   CA C 0 1 N N S -4.200 11.982 24.960 -0.668  0.558  6.251     CA SAH  2
-SAH     CB   CB C 0 1 N N N -2.943 11.132 25.184 -0.553 -0.315  5.000     CB SAH  3
-SAH     CG   CG C 0 1 N N N -2.492 10.496 23.863  0.365  0.365  3.985     CG SAH  4
-SAH     SD   SD S 0 1 N N N -1.157  9.287 23.889  0.501 -0.669  2.501     SD SAH  5
-SAH      C    C C 0 1 N N N -4.719 12.651 26.250 -1.573 -0.112  7.251      C SAH  6
-SAH      O    O O 0 1 N N N -5.617 13.513 26.083 -1.112 -0.872  8.070      O SAH  7
-SAH    OXT  OXT O 0 1 N Y N -4.557 12.062 27.354 -2.893  0.132  7.232    OXT SAH  8
-SAH  "C5'"  C5* C 0 1 N N N -1.266  8.748 22.187  1.616  0.354  1.503  "C5'" SAH  9
-SAH  "C4'"  C4* C 0 1 N N S -2.548  8.017 21.888  1.883 -0.337  0.164  "C4'" SAH 10
-SAH  "O4'"  O4* O 0 1 N N N -2.591  7.839 20.440  0.652 -0.486 -0.561  "O4'" SAH 11
-SAH  "C3'"  C3* C 0 1 N N S -2.781  6.590 22.615  2.824  0.529 -0.694  "C3'" SAH 12
-SAH  "O3'"  O3* O 0 1 N N N -3.878  6.611 23.589  4.026 -0.179 -1.001  "O3'" SAH 13
-SAH  "C2'"  C2* C 0 1 N N R -3.023  5.688 21.355  2.009  0.800 -1.986  "C2'" SAH 14
-SAH  "O2'"  O2* O 0 1 N N N -3.902  4.527 21.448  2.844  0.710 -3.143  "O2'" SAH 15
-SAH  "C1'"  C1* C 0 1 N N R -3.483  6.739 20.313  0.970 -0.349 -1.963  "C1'" SAH 16
-SAH     N9   N9 N 0 1 Y N N -3.468  6.341 18.914 -0.223  0.014 -2.730     N9 SAH 17
-SAH     C8   C8 C 0 1 Y N N -2.455  5.677 18.202 -1.297  0.715 -2.267     C8 SAH 18
-SAH     N7   N7 N 0 1 Y N N -2.858  5.266 17.036 -2.176  0.859 -3.215     N7 SAH 19
-SAH     C5   C5 C 0 1 Y N N -4.192  5.728 16.955 -1.724  0.261 -4.344     C5 SAH 20
-SAH     C6   C6 C 0 1 Y N N -5.166  5.614 15.968 -2.228  0.098 -5.645     C6 SAH 21
-SAH     N6   N6 N 0 1 N N N -4.869  5.106 14.769 -3.462  0.617 -5.997     N6 SAH 22
-SAH     N1   N1 N 0 1 Y N N -6.425  5.947 16.306 -1.493 -0.566 -6.531     N1 SAH 23
-SAH     C2   C2 C 0 1 Y N N -6.694  6.366 17.522 -0.314 -1.065 -6.204     C2 SAH 24
-SAH     N3   N3 N 0 1 Y N N -5.859  6.623 18.501  0.196 -0.936 -4.998     N3 SAH 25
-SAH     C4   C4 C 0 1 Y N N -4.599  6.290 18.133 -0.463 -0.283 -4.048     C4 SAH 26
-SAH    HN1  1HN H 0 1 N N N -4.774 13.514 23.752  1.260  1.096  6.110    HN1 SAH 27
-SAH    HN2  2HN H 0 1 N N N -3.612 12.505 23.042  1.006 -0.176  7.077    HN2 SAH 28
-SAH     HA   HA H 0 1 N N N -5.026 11.304 24.641 -1.082  1.528  5.979     HA SAH 29
-SAH    HB1  1HB H 0 1 N N N -2.124 11.716 25.665 -0.139 -1.286  5.272    HB1 SAH 30
-SAH    HB2  2HB H 0 1 N N N -3.092 10.369 25.983 -1.541 -0.452  4.561    HB2 SAH 31
-SAH    HG1  1HG H 0 1 N N N -3.378 10.042 23.361 -0.048  1.336  3.713    HG1 SAH 32
-SAH    HG2  2HG H 0 1 N N N -2.228 11.307 23.145  1.354  0.502  4.424    HG2 SAH 33
-SAH    HXT  HXT H 0 1 N Y N -4.876 12.473 28.148 -3.474 -0.297  7.874    HXT SAH 34
-SAH "H5'1" 1H5* H 0 0 N N N -1.121  9.603 21.486  1.155  1.325  1.324 "H5'1" SAH 35
-SAH "H5'2" 2H5* H 0 0 N N N -0.380  8.132 21.905  2.557  0.491  2.035 "H5'2" SAH 36
-SAH  "H4'"  H4* H 0 1 N N N -3.369  8.644 22.305  2.333 -1.315  0.336  "H4'" SAH 37
-SAH  "H3'"  H3* H 0 1 N N N -1.945  6.236 23.263  3.052  1.464 -0.184  "H3'" SAH 38
-SAH "HO3'" *HO3 H 0 0 N N N -4.014  5.773 24.015  4.544  0.389 -1.587 "HO3'" SAH 39
-SAH  "H2'"  H2* H 0 1 N N N -2.095  5.118 21.112  1.516  1.771 -1.940  "H2'" SAH 40
-SAH "HO2'" *HO2 H 0 0 N N N -4.048  3.980 20.684  3.465  1.449 -3.098 "HO2'" SAH 41
-SAH  "H1'"  H1* H 0 1 N N N -4.554  6.943 20.542  1.407 -1.269 -2.349  "H1'" SAH 42
-SAH     H8   H8 H 0 1 N N N -1.419  5.492 18.534 -1.402  1.095 -1.262     H8 SAH 43
-SAH   HN61 1HN6 H 0 0 N N N -5.583  5.022 14.045 -3.799  0.498 -6.899   HN61 SAH 44
-SAH   HN62 2HN6 H 0 0 N N N -4.448  4.187 14.908 -3.989  1.101 -5.343   HN62 SAH 45
-SAH     H2   H2 H 0 1 N Y N -7.761  6.522 17.751  0.250 -1.598 -6.954     H2 SAH 46
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+SAH N      N    N 0 1 N N N -3.939 12.949 23.901 0.663  0.742  6.843  N      SAH 1  
+SAH CA     CA   C 0 1 N N S -4.200 11.982 24.960 -0.668 0.558  6.251  CA     SAH 2  
+SAH CB     CB   C 0 1 N N N -2.943 11.132 25.184 -0.553 -0.315 5.000  CB     SAH 3  
+SAH CG     CG   C 0 1 N N N -2.492 10.496 23.863 0.365  0.365  3.985  CG     SAH 4  
+SAH SD     SD   S 0 1 N N N -1.157 9.287  23.889 0.501  -0.669 2.501  SD     SAH 5  
+SAH C      C    C 0 1 N N N -4.719 12.651 26.250 -1.573 -0.112 7.251  C      SAH 6  
+SAH O      O    O 0 1 N N N -5.617 13.513 26.083 -1.112 -0.872 8.070  O      SAH 7  
+SAH OXT    OXT  O 0 1 N Y N -4.557 12.062 27.354 -2.893 0.132  7.232  OXT    SAH 8  
+SAH "C5'"  C5*  C 0 1 N N N -1.266 8.748  22.187 1.616  0.354  1.503  "C5'"  SAH 9  
+SAH "C4'"  C4*  C 0 1 N N S -2.548 8.017  21.888 1.883  -0.337 0.164  "C4'"  SAH 10 
+SAH "O4'"  O4*  O 0 1 N N N -2.591 7.839  20.440 0.652  -0.486 -0.561 "O4'"  SAH 11 
+SAH "C3'"  C3*  C 0 1 N N S -2.781 6.590  22.615 2.824  0.529  -0.694 "C3'"  SAH 12 
+SAH "O3'"  O3*  O 0 1 N N N -3.878 6.611  23.589 4.026  -0.179 -1.001 "O3'"  SAH 13 
+SAH "C2'"  C2*  C 0 1 N N R -3.023 5.688  21.355 2.009  0.800  -1.986 "C2'"  SAH 14 
+SAH "O2'"  O2*  O 0 1 N N N -3.902 4.527  21.448 2.844  0.710  -3.143 "O2'"  SAH 15 
+SAH "C1'"  C1*  C 0 1 N N R -3.483 6.739  20.313 0.970  -0.349 -1.963 "C1'"  SAH 16 
+SAH N9     N9   N 0 1 Y N N -3.468 6.341  18.914 -0.223 0.014  -2.730 N9     SAH 17 
+SAH C8     C8   C 0 1 Y N N -2.455 5.677  18.202 -1.297 0.715  -2.267 C8     SAH 18 
+SAH N7     N7   N 0 1 Y N N -2.858 5.266  17.036 -2.176 0.859  -3.215 N7     SAH 19 
+SAH C5     C5   C 0 1 Y N N -4.192 5.728  16.955 -1.724 0.261  -4.344 C5     SAH 20 
+SAH C6     C6   C 0 1 Y N N -5.166 5.614  15.968 -2.228 0.098  -5.645 C6     SAH 21 
+SAH N6     N6   N 0 1 N N N -4.869 5.106  14.769 -3.462 0.617  -5.997 N6     SAH 22 
+SAH N1     N1   N 0 1 Y N N -6.425 5.947  16.306 -1.493 -0.566 -6.531 N1     SAH 23 
+SAH C2     C2   C 0 1 Y N N -6.694 6.366  17.522 -0.314 -1.065 -6.204 C2     SAH 24 
+SAH N3     N3   N 0 1 Y N N -5.859 6.623  18.501 0.196  -0.936 -4.998 N3     SAH 25 
+SAH C4     C4   C 0 1 Y N N -4.599 6.290  18.133 -0.463 -0.283 -4.048 C4     SAH 26 
+SAH HN1    1HN  H 0 1 N N N -4.774 13.514 23.752 1.260  1.096  6.110  HN1    SAH 27 
+SAH HN2    2HN  H 0 1 N N N -3.612 12.505 23.042 1.006  -0.176 7.077  HN2    SAH 28 
+SAH HA     HA   H 0 1 N N N -5.026 11.304 24.641 -1.082 1.528  5.979  HA     SAH 29 
+SAH HB1    1HB  H 0 1 N N N -2.124 11.716 25.665 -0.139 -1.286 5.272  HB1    SAH 30 
+SAH HB2    2HB  H 0 1 N N N -3.092 10.369 25.983 -1.541 -0.452 4.561  HB2    SAH 31 
+SAH HG1    1HG  H 0 1 N N N -3.378 10.042 23.361 -0.048 1.336  3.713  HG1    SAH 32 
+SAH HG2    2HG  H 0 1 N N N -2.228 11.307 23.145 1.354  0.502  4.424  HG2    SAH 33 
+SAH HXT    HXT  H 0 1 N Y N -4.876 12.473 28.148 -3.474 -0.297 7.874  HXT    SAH 34 
+SAH "H5'1" 1H5* H 0 0 N N N -1.121 9.603  21.486 1.155  1.325  1.324  "H5'1" SAH 35 
+SAH "H5'2" 2H5* H 0 0 N N N -0.380 8.132  21.905 2.557  0.491  2.035  "H5'2" SAH 36 
+SAH "H4'"  H4*  H 0 1 N N N -3.369 8.644  22.305 2.333  -1.315 0.336  "H4'"  SAH 37 
+SAH "H3'"  H3*  H 0 1 N N N -1.945 6.236  23.263 3.052  1.464  -0.184 "H3'"  SAH 38 
+SAH "HO3'" *HO3 H 0 0 N N N -4.014 5.773  24.015 4.544  0.389  -1.587 "HO3'" SAH 39 
+SAH "H2'"  H2*  H 0 1 N N N -2.095 5.118  21.112 1.516  1.771  -1.940 "H2'"  SAH 40 
+SAH "HO2'" *HO2 H 0 0 N N N -4.048 3.980  20.684 3.465  1.449  -3.098 "HO2'" SAH 41 
+SAH "H1'"  H1*  H 0 1 N N N -4.554 6.943  20.542 1.407  -1.269 -2.349 "H1'"  SAH 42 
+SAH H8     H8   H 0 1 N N N -1.419 5.492  18.534 -1.402 1.095  -1.262 H8     SAH 43 
+SAH HN61   1HN6 H 0 0 N N N -5.583 5.022  14.045 -3.799 0.498  -6.899 HN61   SAH 44 
+SAH HN62   2HN6 H 0 0 N N N -4.448 4.187  14.908 -3.989 1.101  -5.343 HN62   SAH 45 
+SAH H2     H2   H 0 1 N Y N -7.761 6.522  17.751 0.250  -1.598 -6.954 H2     SAH 46 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-SAH     N     CA SING N N  1
-SAH     N    HN1 SING N N  2
-SAH     N    HN2 SING N N  3
-SAH    CA     CB SING N N  4
-SAH    CA      C SING N N  5
-SAH    CA     HA SING N N  6
-SAH    CB     CG SING N N  7
-SAH    CB    HB1 SING N N  8
-SAH    CB    HB2 SING N N  9
-SAH    CG     SD SING N N 10
-SAH    CG    HG1 SING N N 11
-SAH    CG    HG2 SING N N 12
-SAH    SD  "C5'" SING N N 13
-SAH     C      O DOUB N N 14
-SAH     C    OXT SING N N 15
-SAH   OXT    HXT SING N N 16
-SAH "C5'"  "C4'" SING N N 17
-SAH "C5'" "H5'1" SING N N 18
-SAH "C5'" "H5'2" SING N N 19
-SAH "C4'"  "O4'" SING N N 20
-SAH "C4'"  "C3'" SING N N 21
-SAH "C4'"  "H4'" SING N N 22
-SAH "O4'"  "C1'" SING N N 23
-SAH "C3'"  "O3'" SING N N 24
-SAH "C3'"  "C2'" SING N N 25
-SAH "C3'"  "H3'" SING N N 26
-SAH "O3'" "HO3'" SING N N 27
-SAH "C2'"  "O2'" SING N N 28
-SAH "C2'"  "C1'" SING N N 29
-SAH "C2'"  "H2'" SING N N 30
-SAH "O2'" "HO2'" SING N N 31
-SAH "C1'"     N9 SING N N 32
-SAH "C1'"  "H1'" SING N N 33
-SAH    N9     C8 SING Y N 34
-SAH    N9     C4 SING Y N 35
-SAH    C8     N7 DOUB Y N 36
-SAH    C8     H8 SING N N 37
-SAH    N7     C5 SING Y N 38
-SAH    C5     C6 SING Y N 39
-SAH    C5     C4 DOUB Y N 40
-SAH    C6     N6 SING N N 41
-SAH    C6     N1 DOUB Y N 42
-SAH    N6   HN61 SING N N 43
-SAH    N6   HN62 SING N N 44
-SAH    N1     C2 SING Y N 45
-SAH    C2     N3 DOUB Y N 46
-SAH    C2     H2 SING N N 47
-SAH    N3     C4 SING Y N 48
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+SAH N     CA     SING N N 1  
+SAH N     HN1    SING N N 2  
+SAH N     HN2    SING N N 3  
+SAH CA    CB     SING N N 4  
+SAH CA    C      SING N N 5  
+SAH CA    HA     SING N N 6  
+SAH CB    CG     SING N N 7  
+SAH CB    HB1    SING N N 8  
+SAH CB    HB2    SING N N 9  
+SAH CG    SD     SING N N 10 
+SAH CG    HG1    SING N N 11 
+SAH CG    HG2    SING N N 12 
+SAH SD    "C5'"  SING N N 13 
+SAH C     O      DOUB N N 14 
+SAH C     OXT    SING N N 15 
+SAH OXT   HXT    SING N N 16 
+SAH "C5'" "C4'"  SING N N 17 
+SAH "C5'" "H5'1" SING N N 18 
+SAH "C5'" "H5'2" SING N N 19 
+SAH "C4'" "O4'"  SING N N 20 
+SAH "C4'" "C3'"  SING N N 21 
+SAH "C4'" "H4'"  SING N N 22 
+SAH "O4'" "C1'"  SING N N 23 
+SAH "C3'" "O3'"  SING N N 24 
+SAH "C3'" "C2'"  SING N N 25 
+SAH "C3'" "H3'"  SING N N 26 
+SAH "O3'" "HO3'" SING N N 27 
+SAH "C2'" "O2'"  SING N N 28 
+SAH "C2'" "C1'"  SING N N 29 
+SAH "C2'" "H2'"  SING N N 30 
+SAH "O2'" "HO2'" SING N N 31 
+SAH "C1'" N9     SING N N 32 
+SAH "C1'" "H1'"  SING N N 33 
+SAH N9    C8     SING Y N 34 
+SAH N9    C4     SING Y N 35 
+SAH C8    N7     DOUB Y N 36 
+SAH C8    H8     SING N N 37 
+SAH N7    C5     SING Y N 38 
+SAH C5    C6     SING Y N 39 
+SAH C5    C4     DOUB Y N 40 
+SAH C6    N6     SING N N 41 
+SAH C6    N1     DOUB Y N 42 
+SAH N6    HN61   SING N N 43 
+SAH N6    HN62   SING N N 44 
+SAH N1    C2     SING Y N 45 
+SAH C2    N3     DOUB Y N 46 
+SAH C2    H2     SING N N 47 
+SAH N3    C4     SING Y N 48 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-SAH           SMILES              ACDLabs 10.04                                                                                                                                   O=C(O)C(N)CCSCC3OC(n2cnc1c(ncnc12)N)C(O)C3O
-SAH SMILES_CANONICAL               CACTVS 3.341                                                                                                             N[C@@H](CCSC[C@H]1O[C@H]([C@H](O)[C@@H]1O)n2cnc3c(N)ncnc23)C(O)=O
-SAH           SMILES               CACTVS 3.341                                                                                                                    N[CH](CCSC[CH]1O[CH]([CH](O)[CH]1O)n2cnc3c(N)ncnc23)C(O)=O
-SAH SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                      c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CSCC[C@@H](C(=O)O)N)O)O)N
-SAH           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                             c1nc(c2c(n1)n(cn2)C3C(C(C(O3)CSCCC(C(=O)O)N)O)O)N
-SAH            InChI                InChI  1.03 InChI=1S/C14H20N6O5S/c15-6(14(23)24)1-2-26-3-7-9(21)10(22)13(25-7)20-5-19-8-11(16)17-4-18-12(8)20/h4-7,9-10,13,21-22H,1-3,15H2,(H,23,24)(H2,16,17,18)/t6-,7+,9+,10+,13+/m0/s1
-SAH         InChIKey                InChI  1.03                                                                                                                                                   ZJUKTBDSGOFHSH-WFMPWKQPSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+SAH SMILES           ACDLabs              10.04 "O=C(O)C(N)CCSCC3OC(n2cnc1c(ncnc12)N)C(O)C3O"                                                                                                                                   
+SAH SMILES_CANONICAL CACTVS               3.341 "N[C@@H](CCSC[C@H]1O[C@H]([C@H](O)[C@@H]1O)n2cnc3c(N)ncnc23)C(O)=O"                                                                                                             
+SAH SMILES           CACTVS               3.341 "N[CH](CCSC[CH]1O[CH]([CH](O)[CH]1O)n2cnc3c(N)ncnc23)C(O)=O"                                                                                                                    
+SAH SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CSCC[C@@H](C(=O)O)N)O)O)N"                                                                                                      
+SAH SMILES           "OpenEye OEToolkits" 1.5.0 "c1nc(c2c(n1)n(cn2)C3C(C(C(O3)CSCCC(C(=O)O)N)O)O)N"                                                                                                                             
+SAH InChI            InChI                1.03  "InChI=1S/C14H20N6O5S/c15-6(14(23)24)1-2-26-3-7-9(21)10(22)13(25-7)20-5-19-8-11(16)17-4-18-12(8)20/h4-7,9-10,13,21-22H,1-3,15H2,(H,23,24)(H2,16,17,18)/t6-,7+,9+,10+,13+/m0/s1" 
+SAH InChIKey         InChI                1.03  ZJUKTBDSGOFHSH-WFMPWKQPSA-N                                                                                                                                                     
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-SAH "SYSTEMATIC NAME"              ACDLabs 10.04 "(2S)-2-amino-4-({[(2S,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxytetrahydrofuran-2-yl]methyl}sulfanyl)butanoic acid (non-preferred name)"
-SAH "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0                                    "(2S)-2-amino-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methylsulfanyl]butanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+SAH "SYSTEMATIC NAME" ACDLabs              10.04 "(2S)-2-amino-4-({[(2S,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxytetrahydrofuran-2-yl]methyl}sulfanyl)butanoic acid (non-preferred name)" 
+SAH "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methylsulfanyl]butanoic acid"                                    
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-SAH  "Create component" 1999-07-08 RCSB
-SAH "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   SAH
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01752
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      S-adenosyl-L-homocysteine
-_pdbe_chem_comp_drugbank_details.description               "5'-S-(3-Amino-3-carboxypropyl)-5'-thioadenosine. Formed from S-adenosylmethionine after transmethylation reactions."
-_pdbe_chem_comp_drugbank_details.cas_number                979-92-0
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           SAH
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01752
-_pdbe_chem_comp_drugbank_classification.parent            "5'-deoxy-5'-thionucleosides"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "5'-deoxyribonucleosides"
-_pdbe_chem_comp_drugbank_classification.superclass        "Nucleosides, nucleotides, and analogues"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as 5'-deoxy-5'-thionucleosides. These are 5'-deoxyribonucleosides  in which the ribose is thio-substituted at the 5'position by a S-alkyl group."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-SAH DB01752               "Release factor glutamine methyltransferase"                                         "Escherichia coli (strain K12)" P0ACC1 unknown  1
-SAH DB01752   "Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase"                                                                    VACV P07617 unknown  2
-SAH DB01752               "Cobalt-precorrin-4 C(11)-methyltransferase"                                                   "Bacillus megaterium" O87696 unknown  3
-SAH DB01752  "Protein-L-isoaspartate(D-aspartate) O-methyltransferase"                                                                  Humans P22061 unknown  4
-SAH DB01752                                       "Genome polyprotein"                                                                  DENV-2 P12823 unknown  5
-SAH DB01752                   "Phenylethanolamine N-methyltransferase"                                                                  Humans P11086 unknown  6
-SAH DB01752                     "Cyclopropane mycolic acid synthase 2"                "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)" P9WPB5 unknown  7
-SAH DB01752                              "Modification methylase RsrI"                                               "Rhodobacter sphaeroides" P14751 unknown  8
-SAH DB01752               "Release factor glutamine methyltransferase" "Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)" Q9WYV8 unknown  9
-SAH DB01752                   "Protein arginine N-methyltransferase 3"                                                                  Humans O60678 unknown 10
-SAH DB01752                            "Histamine N-methyltransferase"                                                                  Humans P50135 unknown 11
-SAH DB01752          "Ribosomal RNA small subunit methyltransferase H" "Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)" Q9WZX6 unknown 12
-SAH DB01752                       "rRNA adenine N-6-methyltransferase"                                                     "Bacillus subtilis" P13956 unknown 13
-SAH DB01752               "tRNA (cytosine(38)-C(5))-methyltransferase"                                                                  Humans O14717 unknown 14
-SAH DB01752                              "Glycine N-methyltransferase"                                                                  Humans Q14749 unknown 15
-SAH DB01752               "tRNA (cytidine(34)-2'-O)-methyltransferase"    "Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd)" P44868 unknown 16
-SAH DB01752                             "Modification methylase PvuII"                                                       "Proteus hauseri" P11409 unknown 17
-SAH DB01752                                    "DNA adenine methylase"                                               "Enterobacteria phage T4" P04392 unknown 18
-SAH DB01752                     "Cyclopropane mycolic acid synthase 3"                "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)" P9WPB3 unknown 19
-SAH DB01752                   "Protein arginine N-methyltransferase 1"                                                                  Humans Q99873 unknown 20
-SAH DB01752                                        "Siroheme synthase"          "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)" P25924 unknown 21
-SAH DB01752                              "Modification methylase HhaI"                                          "Haemophilus parahaemolyticus" P05102 unknown 22
-SAH DB01752                 "Histone-lysine N-methyltransferase SETD7"                                                                  Humans Q8WTS6 unknown 23
-SAH DB01752                   "tRNA (guanine-N(1)-)-methyltransferase"    "Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd)" P43912 unknown 24
-SAH DB01752                 "Cyclopropane mycolic acid synthase MmaA2"                "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)" Q79FX6 unknown 25
-SAH DB01752                          "Diphthine methyl ester synthase"                                                                  Humans Q9H2P9 unknown 26
-SAH DB01752                        "Aclacinomycin 10-hydroxylase RdmB"                                             "Streptomyces purpurascens" Q54527 unknown 27
-SAH DB01752                   "tRNA (guanine-N(1)-)-methyltransferase"                                                     "Shigella flexneri" P0A876 unknown 28
-SAH DB01752                 "Uroporphyrinogen-III C-methyltransferase"                                             "Pseudomonas denitrificans" P21631 unknown 29
-SAH DB01752                                  "Uncharacterized protein"              "Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)" Q5SKH6 unknown 30
-SAH DB01752                     "Chemotaxis protein methyltransferase"          "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)" P07801 unknown 31
-SAH DB01752                              "Modification methylase TaqI"                                                     "Thermus aquaticus" P14385 unknown 32
-SAH DB01752               "Protein-L-isoaspartate O-methyltransferase" "Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)" Q56308 unknown 33
-SAH DB01752 "Catechol O-methyltransferase domain-containing protein 1"                                                                  Humans Q86VU5 unknown 34
-SAH DB01752                  "Carminomycin 4-O-methyltransferase DnrK"                                                "Streptomyces peucetius" Q06528 unknown 35
-SAH DB01752                     "Guanidinoacetate N-methyltransferase"                                                                  Humans Q14353 unknown 36
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-SAH                                              S-Adenosylhomocysteine   ChEMBL
-SAH                                             S-Adenosyl-Homocysteine   ChEMBL
-SAH                                           "S-Adenosyl Homocysteine"   ChEMBL
-SAH                                         2-S-adenosyl-L-homocysteine DrugBank
-SAH                                             Adenosyl-L-homocysteine DrugBank
-SAH                                                adenosylhomocysteine DrugBank
-SAH                                                              AdoHcy DrugBank
-SAH                                    "S-(5'-adenosyl)-L-homocysteine" DrugBank
-SAH S-[1-(adenin-9-yl)-1,5-dideoxy-β-D-ribofuranos-5-yl]-L-homocysteine DrugBank
-SAH                                              S-Adenosylhomocysteine DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-SAH     N N  6.649  6.216  1
-SAH    CA C  8.116  5.901  2
-SAH    CB C  8.577  4.474  3
-SAH    CG C  7.571  3.361  4
-SAH    SD S  8.032  1.933  5
-SAH     C C  9.121  7.014  6
-SAH     O O  8.660  8.442  7
-SAH   OXT O 10.588  6.700  8
-SAH "C5'" C  7.027  0.821  9
-SAH "C4'" C  7.487 -0.607 10
-SAH "O4'" O  6.604 -1.819 11
-SAH "C3'" C  8.913 -1.073 12
-SAH "O3'" O 10.129 -0.193 13
-SAH "C2'" C  8.911 -2.573 14
-SAH "O2'" O 10.123 -3.457 15
-SAH "C1'" C  7.483 -3.034 16
-SAH    N9 N  7.018 -4.460 17
-SAH    C8 C  7.893 -5.667 18
-SAH    N7 N  7.018 -6.874 19
-SAH    C5 C  5.598 -6.417 20
-SAH    C6 C  4.299 -7.167 21
-SAH    N6 N  4.299 -8.667 22
-SAH    N1 N  3.000 -6.417 23
-SAH    C2 C  3.000 -4.917 24
-SAH    N3 N  4.299 -4.167 25
-SAH    C4 C  5.598 -4.917 26
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-SAH     N    CA SINGLE BEGINWEDGE  1
-SAH    CA    CB SINGLE       NONE  2
-SAH    CA     C SINGLE       NONE  3
-SAH    CB    CG SINGLE       NONE  4
-SAH    CG    SD SINGLE       NONE  5
-SAH    SD "C5'" SINGLE       NONE  6
-SAH     C     O DOUBLE       NONE  7
-SAH     C   OXT SINGLE       NONE  8
-SAH "C5'" "C4'" SINGLE BEGINWEDGE  9
-SAH "C4'" "O4'" SINGLE       NONE 10
-SAH "C4'" "C3'" SINGLE       NONE 11
-SAH "O4'" "C1'" SINGLE       NONE 12
-SAH "C3'" "O3'" SINGLE  BEGINDASH 13
-SAH "C3'" "C2'" SINGLE       NONE 14
-SAH "C2'" "O2'" SINGLE BEGINWEDGE 15
-SAH "C2'" "C1'" SINGLE       NONE 16
-SAH "C1'"    N9 SINGLE BEGINWEDGE 17
-SAH    N9    C8 SINGLE       NONE 18
-SAH    N9    C4 SINGLE       NONE 19
-SAH    C8    N7 DOUBLE       NONE 20
-SAH    N7    C5 SINGLE       NONE 21
-SAH    C5    C6 SINGLE       NONE 22
-SAH    C5    C4 DOUBLE       NONE 23
-SAH    C6    N6 SINGLE       NONE 24
-SAH    C6    N1 DOUBLE       NONE 25
-SAH    N1    C2 SINGLE       NONE 26
-SAH    C2    N3 DOUBLE       NONE 27
-SAH    N3    C4 SINGLE       NONE 28
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-SAH MurckoScaffold S1 scaffold c1ncc2ncn([C@@H]3CCCO3)c2n1 InChI=1S/C9H10N4O/c1-2-8(14-3-1)13-6-12-7-4-10-5-11-9(7)13/h4-6,8H,1-3H2/t8-/m0/s1 DAKONNSVCLKUJN-QMMMGPOBSA-N
-SAH        adenine F1 fragment           Nc1ncnc2nc[nH]c12                    InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-SAH      imidazole F2 fragment                  c1c[nH]cn1                                         InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-SAH        peptide F3 fragment                       NCC=O                                                 InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-SAH         purine F4 fragment            c1ncc2[nH]cnc2n1                           InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-SAH     pyrimidine F5 fragment                    c1cncnc1                                               InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-SAH    N1 F1 1
-SAH    C6 F1 1
-SAH    C5 F1 1
-SAH    C4 F1 1
-SAH    N3 F1 1
-SAH    C2 F1 1
-SAH    N9 F1 1
-SAH    C8 F1 1
-SAH    N7 F1 1
-SAH    N6 F1 1
-SAH    C5 F2 1
-SAH    C4 F2 1
-SAH    N9 F2 1
-SAH    C8 F2 1
-SAH    N7 F2 1
-SAH     O F3 1
-SAH     C F3 1
-SAH    CA F3 1
-SAH     N F3 1
-SAH    N7 F4 1
-SAH    C8 F4 1
-SAH    N9 F4 1
-SAH    C4 F4 1
-SAH    C5 F4 1
-SAH    C6 F4 1
-SAH    N1 F4 1
-SAH    C2 F4 1
-SAH    N3 F4 1
-SAH    C5 F5 1
-SAH    C6 F5 1
-SAH    N1 F5 1
-SAH    C2 F5 1
-SAH    N3 F5 1
-SAH    C4 F5 1
-SAH "C4'" S1 1
-SAH "O4'" S1 1
-SAH "C3'" S1 1
-SAH "C2'" S1 1
-SAH "C1'" S1 1
-SAH    N9 S1 1
-SAH    C8 S1 1
-SAH    N7 S1 1
-SAH    C5 S1 1
-SAH    C6 S1 1
-SAH    N1 S1 1
-SAH    C2 S1 1
-SAH    N3 S1 1
-SAH    C4 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               SAH
-_pdbe_chem_comp_rdkit_properties.exactmw                               384.122
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           11
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           7
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     11
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                12
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        12
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.571
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             180.522
-_pdbe_chem_comp_rdkit_properties.tpsa                                  182.630
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.246
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             90.182
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         26
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-SAH UniChem        ChEMBL     CHEMBL418052
-SAH UniChem      DrugBank          DB01752
-SAH UniChem "KEGG LIGAND"           C00021
-SAH UniChem         ChEBI            16680
-SAH UniChem         ChEBI            57856
-SAH UniChem          ZINC ZINC000004228232
-SAH UniChem          ZINC     ZINC04228232
-SAH UniChem     BindingDb         50009672
-SAH UniChem  MetaboLights       MTBLC16680
-SAH UniChem  MetaboLights       MTBLC57856
-SAH UniChem        BRENDA           102272
-SAH UniChem        BRENDA           107214
-SAH UniChem        BRENDA           107648
-SAH UniChem        BRENDA               36
-SAH UniChem        BRENDA            45892
-SAH UniChem        BRENDA            46387
-SAH UniChem        BRENDA             5733
-SAH UniChem        BRENDA              843
-SAH UniChem        BRENDA            92307
-SAH UniChem        BRENDA            94955
-SAH UniChem        BRENDA            96154
-SAH UniChem          Rhea            57856
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SAH      N  5.284 -1.228  1.919 ETKDGv2  1
-SAH     CA  5.328 -1.234  0.453 ETKDGv2  2
-SAH     CB  4.173 -2.065 -0.159 ETKDGv2  3
-SAH     CG  2.774 -1.541  0.191 ETKDGv2  4
-SAH     SD  2.489  0.117 -0.523 ETKDGv2  5
-SAH      C  6.652 -1.776 -0.013 ETKDGv2  6
-SAH      O  6.952 -1.730 -1.237 ETKDGv2  7
-SAH    OXT  7.556 -2.320  0.896 ETKDGv2  8
-SAH  "C5'"  0.806  0.290  0.169 ETKDGv2  9
-SAH  "C4'"  0.175  1.621 -0.259 ETKDGv2 10
-SAH  "O4'" -1.027  1.806  0.460 ETKDGv2 11
-SAH  "C3'" -0.126  1.667 -1.772 ETKDGv2 12
-SAH  "O3'"  0.520  2.756 -2.390 ETKDGv2 13
-SAH  "C2'" -1.635  1.808 -1.840 ETKDGv2 14
-SAH  "O2'" -2.251  0.576 -2.141 ETKDGv2 15
-SAH  "C1'" -1.985  2.306 -0.441 ETKDGv2 16
-SAH     N9 -3.331  1.905 -0.032 ETKDGv2 17
-SAH     C8 -4.567  2.336 -0.618 ETKDGv2 18
-SAH     N7 -5.576  1.562 -0.338 ETKDGv2 19
-SAH     C5 -5.016  0.538  0.477 ETKDGv2 20
-SAH     C6 -5.633 -0.706  0.952 ETKDGv2 21
-SAH     N6 -7.027 -0.957  0.782 ETKDGv2 22
-SAH     N1 -4.864 -1.590  1.533 ETKDGv2 23
-SAH     C2 -3.443 -1.360  1.698 ETKDGv2 24
-SAH     N3 -2.895 -0.256  1.263 ETKDGv2 25
-SAH     C4 -3.734  0.727  0.643 ETKDGv2 26
-SAH    HN1  4.523 -0.586  2.238 ETKDGv2 27
-SAH    HN2  5.067 -2.189  2.274 ETKDGv2 28
-SAH     HA  5.262 -0.184  0.092 ETKDGv2 29
-SAH    HB1  4.252 -3.118  0.189 ETKDGv2 30
-SAH    HB2  4.271 -2.077 -1.267 ETKDGv2 31
-SAH    HG1  2.630 -1.518  1.291 ETKDGv2 32
-SAH    HG2  2.022 -2.241 -0.233 ETKDGv2 33
-SAH    HXT  8.450 -2.683  0.587 ETKDGv2 34
-SAH "H5'1"  0.168 -0.557 -0.162 ETKDGv2 35
-SAH "H5'2"  0.875  0.264  1.278 ETKDGv2 36
-SAH  "H4'"  0.874  2.440  0.024 ETKDGv2 37
-SAH  "H3'"  0.198  0.739 -2.295 ETKDGv2 38
-SAH "HO3'"  0.208  3.590 -1.950 ETKDGv2 39
-SAH  "H2'" -1.945  2.552 -2.607 ETKDGv2 40
-SAH "HO2'" -1.952 -0.092 -1.469 ETKDGv2 41
-SAH  "H1'" -1.930  3.418 -0.423 ETKDGv2 42
-SAH     H8 -4.655  3.205 -1.256 ETKDGv2 43
-SAH   HN61 -7.642 -0.252  0.318 ETKDGv2 44
-SAH   HN62 -7.449 -1.850  1.122 ETKDGv2 45
-SAH     H2 -2.829 -2.113  2.172 ETKDGv2 46
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+SAH "Create component"  1999-07-08 RCSB 
+SAH "Modify descriptor" 2011-06-04 RCSB 
+# 

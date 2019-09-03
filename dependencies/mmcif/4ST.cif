@@ -1,551 +1,224 @@
 data_4ST
-#
-_chem_comp.id                                        4ST
-_chem_comp.name                                      1,2,3,4-TETRAHYDROGEN-STAUROSPORINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C28 H30 N4 O3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             AFN941
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2005-03-14
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            470.563
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         4ST
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1YVJ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    4ST 
+_chem_comp.name                                  1,2,3,4-TETRAHYDROGEN-STAUROSPORINE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C28 H30 N4 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         AFN941 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2005-03-14 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        470.563 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     4ST 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1YVJ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-4ST  CAB  CAB C 0 1 N N N  6.626 -10.476 -8.069  4.129 -2.416 -1.757  CAB 4ST  1
-4ST  OAQ  OAQ O 0 1 N N N  7.162 -10.186 -6.747  3.270 -1.493 -1.085  OAQ 4ST  2
-4ST  CBF  CBF C 0 1 N N R  6.193 -10.143 -5.651  2.336 -2.270 -0.333  CBF 4ST  3
-4ST  CBD  CBD C 0 1 N N R  6.725  -9.142 -4.695  1.096 -2.515 -1.202  CBD 4ST  4
-4ST  NAO  NAO N 0 1 N N N  6.637  -7.820 -5.319  0.514 -1.230 -1.612  NAO 4ST  5
-4ST  CAA  CAA C 0 1 N N N  7.168  -6.629 -4.610 -0.242 -1.483 -2.846  CAA 4ST  6
-4ST  CAN  CAN C 0 1 N N N  8.149  -9.488 -4.356  0.082 -3.299 -0.360  CAN 4ST  7
-4ST  CBE  CBE C 0 1 N N R  8.282 -10.897 -3.794 -0.244 -2.514  0.901  CBE 4ST  8
-4ST  OAR  OAR O 0 1 N N N  6.973 -11.523 -3.697  0.885 -2.113  1.627  OAR 4ST  9
-4ST  CBI  CBI C 0 1 N N S  6.120 -11.434 -4.787  1.915 -1.497  0.910  CBI 4ST 10
-4ST  CAC  CAC C 0 1 N N N  4.800 -11.376 -3.997  3.140 -1.537  1.825  CAC 4ST 11
-4ST  NBH  NBH N 0 1 Y N N  6.393 -12.569 -5.726  1.689 -0.084  0.618  NBH 4ST 12
-4ST  CAY  CAY C 0 1 Y N N  5.466 -13.261 -6.509  2.638  0.906  0.517  CAY 4ST 13
-4ST  CAH  CAH C 0 1 Y N N  4.039 -13.146 -6.632  4.025  0.847  0.639  CAH 4ST 14
-4ST  CAF  CAF C 0 1 Y N N  3.352 -14.026 -7.551  4.724  2.034  0.490  CAF 4ST 15
-4ST  CAE  CAE C 0 1 Y N N  4.024 -15.006 -8.345  4.089  3.235  0.230  CAE 4ST 16
-4ST  CAG  CAG C 0 1 Y N N  5.437 -15.092 -8.199  2.712  3.320  0.103  CAG 4ST 17
-4ST  CAX  CAX C 0 1 Y N N  6.135 -14.218 -7.284  1.992  2.135  0.250  CAX 4ST 18
-4ST  CBA  CBA C 0 1 Y N N  7.470 -14.192 -7.042  0.557  1.852  0.177  CBA 4ST 19
-4ST  CBC  CBC C 0 1 Y N N  7.614 -13.142 -6.055  0.437  0.476  0.412  CBC 4ST 20
-4ST  CBB  CBB C 0 1 Y N N  8.940 -12.778 -5.512 -0.816 -0.138  0.408  CBB 4ST 21
-4ST  NBG  NBG N 0 1 Y N N  9.165 -11.794 -4.559 -1.164 -1.418  0.622  NBG 4ST 22
-4ST  CAV  CAV C 0 1 Y N N 10.545 -11.852 -4.386 -2.533 -1.542  0.481  CAV 4ST 23
-4ST  CAL  CAL C 0 1 N N N 11.389 -10.808 -3.757 -3.374 -2.790  0.613  CAL 4ST 24
-4ST  CAJ  CAJ C 0 1 N N N 12.745 -11.442 -3.434 -4.832 -2.374  0.840  CAJ 4ST 25
-4ST  CAI  CAI C 0 1 N N N 13.396 -12.030 -4.691 -5.241 -1.350 -0.222  CAI 4ST 26
-4ST  CAK  CAK C 0 1 N N N 12.576 -13.178 -5.289 -4.513 -0.027  0.041  CAK 4ST 27
-4ST  CAT  CAT C 0 1 Y N N 11.058 -12.872 -5.241 -3.043 -0.315  0.226  CAT 4ST 28
-4ST  CAZ  CAZ C 0 1 Y N N 10.063 -13.497 -5.995 -1.975  0.604  0.168  CAZ 4ST 29
-4ST  CAW  CAW C 0 1 Y N N  9.958 -14.526 -6.952 -1.848  2.039 -0.071  CAW 4ST 30
-4ST  CAU  CAU C 0 1 Y N N  8.706 -14.891 -7.477 -0.581  2.619 -0.059  CAU 4ST 31
-4ST  CAM  CAM C 0 1 N N N  8.854 -16.051 -8.423 -0.785  4.088 -0.338  CAM 4ST 32
-4ST  NAP  NAP N 0 1 N N N 10.333 -16.089 -8.557 -2.231  4.277 -0.501  NAP 4ST 33
-4ST  CAS  CAS C 0 1 N N N 10.949 -15.356 -7.577 -2.837  3.088 -0.344  CAS 4ST 34
-4ST  OAD  OAD O 0 1 N N N 12.127 -15.397 -7.268 -4.038  2.907 -0.419  OAD 4ST 35
-4ST HAB1 1HAB H 0 0 N N N  5.813  -9.753 -8.313  4.862 -1.867 -2.347 HAB1 4ST 36
-4ST HAB2 2HAB H 0 0 N N N  7.364 -10.509 -8.904  4.644 -3.035 -1.022 HAB2 4ST 37
-4ST HAB3 3HAB H 0 0 N N N  6.047 -11.428 -8.040  3.536 -3.052 -2.415 HAB3 4ST 38
-4ST  HBF  HBF H 0 1 N N N  5.196  -9.954 -6.113  2.801 -3.210 -0.036  HBF 4ST 39
-4ST  HBD  HBD H 0 1 N N N  6.134  -9.139 -3.749  1.371 -3.094 -2.083  HBD 4ST 40
-4ST  HNO  HNO H 0 1 N N N  5.663  -7.642 -5.563  1.286 -0.629 -1.863  HNO 4ST 41
-4ST HAA1 1HAA H 0 0 N N N  8.233  -6.823 -4.343  0.431 -1.867 -3.612 HAA1 4ST 42
-4ST HAA2 2HAA H 0 0 N N N  7.101  -5.622 -5.085 -1.023 -2.217 -2.648 HAA2 4ST 43
-4ST HAA3 3HAA H 0 0 N N N  6.692  -6.576 -3.603 -0.695 -0.554 -3.191 HAA3 4ST 44
-4ST HAN1 1HAN H 0 0 N N N  8.593  -8.735 -3.664 -0.829 -3.452 -0.939 HAN1 4ST 45
-4ST HAN2 2HAN H 0 0 N N N  8.820  -9.339 -5.234  0.506 -4.266 -0.088 HAN2 4ST 46
-4ST  HBE  HBE H 0 1 N N N  8.754 -10.758 -2.794 -0.788 -3.202  1.548  HBE 4ST 47
-4ST HAC1 1HAC H 0 0 N N N  3.906 -11.235 -4.648  3.145 -2.473  2.384 HAC1 4ST 48
-4ST HAC2 2HAC H 0 0 N N N  4.748 -12.302 -3.377  4.046 -1.468  1.223 HAC2 4ST 49
-4ST HAC3 3HAC H 0 0 N N N  4.689 -10.442 -3.398  3.102 -0.699  2.521 HAC3 4ST 50
-4ST  HAH  HAH H 0 1 N N N  3.485 -12.401 -6.036  4.534 -0.084  0.842  HAH 4ST 51
-4ST  HAF  HAF H 0 1 N N N  2.257 -13.945 -7.652  5.800  2.021  0.579  HAF 4ST 52
-4ST  HAE  HAE H 0 1 N N N  3.477 -15.666 -9.039  4.682  4.131  0.124  HAE 4ST 53
-4ST  HAG  HAG H 0 1 N N N  5.991 -15.836 -8.795  2.219  4.259 -0.100  HAG 4ST 54
-4ST HAL1 1HAL H 0 0 N N N 10.907 -10.337 -2.868 -3.025 -3.379  1.460 HAL1 4ST 55
-4ST HAL2 2HAL H 0 0 N N N 11.478  -9.888 -4.380 -3.300 -3.379 -0.301 HAL2 4ST 56
-4ST HAJ1 1HAJ H 0 0 N N N 12.659 -12.202 -2.623 -4.933 -1.931  1.831 HAJ1 4ST 57
-4ST HAJ2 2HAJ H 0 0 N N N 13.423 -10.721 -2.921 -5.475 -3.251  0.767 HAJ2 4ST 58
-4ST HAI1 1HAI H 0 0 N N N 14.446 -12.348 -4.489 -6.318 -1.188 -0.175 HAI1 4ST 59
-4ST HAI2 2HAI H 0 0 N N N 13.593 -11.238 -5.450 -4.971 -1.724 -1.210 HAI2 4ST 60
-4ST HAK1 1HAK H 0 0 N N N 12.813 -14.150 -4.796 -4.911  0.437  0.943 HAK1 4ST 61
-4ST HAK2 2HAK H 0 0 N N N 12.911 -13.424 -6.324 -4.651  0.641 -0.809 HAK2 4ST 62
-4ST HAM1 1HAM H 0 0 N N N  8.282 -15.976 -9.377 -0.422  4.682  0.501 HAM1 4ST 63
-4ST HAM2 2HAM H 0 0 N N N  8.371 -17.003 -8.103 -0.264  4.372 -1.252 HAM2 4ST 64
-4ST  HAP  HAP H 0 1 N N N 10.881 -16.579 -9.264 -2.674  5.119 -0.690  HAP 4ST 65
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+4ST CAB  CAB  C 0 1 N N N 6.626  -10.476 -8.069 4.129  -2.416 -1.757 CAB  4ST 1  
+4ST OAQ  OAQ  O 0 1 N N N 7.162  -10.186 -6.747 3.270  -1.493 -1.085 OAQ  4ST 2  
+4ST CBF  CBF  C 0 1 N N R 6.193  -10.143 -5.651 2.336  -2.270 -0.333 CBF  4ST 3  
+4ST CBD  CBD  C 0 1 N N R 6.725  -9.142  -4.695 1.096  -2.515 -1.202 CBD  4ST 4  
+4ST NAO  NAO  N 0 1 N N N 6.637  -7.820  -5.319 0.514  -1.230 -1.612 NAO  4ST 5  
+4ST CAA  CAA  C 0 1 N N N 7.168  -6.629  -4.610 -0.242 -1.483 -2.846 CAA  4ST 6  
+4ST CAN  CAN  C 0 1 N N N 8.149  -9.488  -4.356 0.082  -3.299 -0.360 CAN  4ST 7  
+4ST CBE  CBE  C 0 1 N N R 8.282  -10.897 -3.794 -0.244 -2.514 0.901  CBE  4ST 8  
+4ST OAR  OAR  O 0 1 N N N 6.973  -11.523 -3.697 0.885  -2.113 1.627  OAR  4ST 9  
+4ST CBI  CBI  C 0 1 N N S 6.120  -11.434 -4.787 1.915  -1.497 0.910  CBI  4ST 10 
+4ST CAC  CAC  C 0 1 N N N 4.800  -11.376 -3.997 3.140  -1.537 1.825  CAC  4ST 11 
+4ST NBH  NBH  N 0 1 Y N N 6.393  -12.569 -5.726 1.689  -0.084 0.618  NBH  4ST 12 
+4ST CAY  CAY  C 0 1 Y N N 5.466  -13.261 -6.509 2.638  0.906  0.517  CAY  4ST 13 
+4ST CAH  CAH  C 0 1 Y N N 4.039  -13.146 -6.632 4.025  0.847  0.639  CAH  4ST 14 
+4ST CAF  CAF  C 0 1 Y N N 3.352  -14.026 -7.551 4.724  2.034  0.490  CAF  4ST 15 
+4ST CAE  CAE  C 0 1 Y N N 4.024  -15.006 -8.345 4.089  3.235  0.230  CAE  4ST 16 
+4ST CAG  CAG  C 0 1 Y N N 5.437  -15.092 -8.199 2.712  3.320  0.103  CAG  4ST 17 
+4ST CAX  CAX  C 0 1 Y N N 6.135  -14.218 -7.284 1.992  2.135  0.250  CAX  4ST 18 
+4ST CBA  CBA  C 0 1 Y N N 7.470  -14.192 -7.042 0.557  1.852  0.177  CBA  4ST 19 
+4ST CBC  CBC  C 0 1 Y N N 7.614  -13.142 -6.055 0.437  0.476  0.412  CBC  4ST 20 
+4ST CBB  CBB  C 0 1 Y N N 8.940  -12.778 -5.512 -0.816 -0.138 0.408  CBB  4ST 21 
+4ST NBG  NBG  N 0 1 Y N N 9.165  -11.794 -4.559 -1.164 -1.418 0.622  NBG  4ST 22 
+4ST CAV  CAV  C 0 1 Y N N 10.545 -11.852 -4.386 -2.533 -1.542 0.481  CAV  4ST 23 
+4ST CAL  CAL  C 0 1 N N N 11.389 -10.808 -3.757 -3.374 -2.790 0.613  CAL  4ST 24 
+4ST CAJ  CAJ  C 0 1 N N N 12.745 -11.442 -3.434 -4.832 -2.374 0.840  CAJ  4ST 25 
+4ST CAI  CAI  C 0 1 N N N 13.396 -12.030 -4.691 -5.241 -1.350 -0.222 CAI  4ST 26 
+4ST CAK  CAK  C 0 1 N N N 12.576 -13.178 -5.289 -4.513 -0.027 0.041  CAK  4ST 27 
+4ST CAT  CAT  C 0 1 Y N N 11.058 -12.872 -5.241 -3.043 -0.315 0.226  CAT  4ST 28 
+4ST CAZ  CAZ  C 0 1 Y N N 10.063 -13.497 -5.995 -1.975 0.604  0.168  CAZ  4ST 29 
+4ST CAW  CAW  C 0 1 Y N N 9.958  -14.526 -6.952 -1.848 2.039  -0.071 CAW  4ST 30 
+4ST CAU  CAU  C 0 1 Y N N 8.706  -14.891 -7.477 -0.581 2.619  -0.059 CAU  4ST 31 
+4ST CAM  CAM  C 0 1 N N N 8.854  -16.051 -8.423 -0.785 4.088  -0.338 CAM  4ST 32 
+4ST NAP  NAP  N 0 1 N N N 10.333 -16.089 -8.557 -2.231 4.277  -0.501 NAP  4ST 33 
+4ST CAS  CAS  C 0 1 N N N 10.949 -15.356 -7.577 -2.837 3.088  -0.344 CAS  4ST 34 
+4ST OAD  OAD  O 0 1 N N N 12.127 -15.397 -7.268 -4.038 2.907  -0.419 OAD  4ST 35 
+4ST HAB1 1HAB H 0 0 N N N 5.813  -9.753  -8.313 4.862  -1.867 -2.347 HAB1 4ST 36 
+4ST HAB2 2HAB H 0 0 N N N 7.364  -10.509 -8.904 4.644  -3.035 -1.022 HAB2 4ST 37 
+4ST HAB3 3HAB H 0 0 N N N 6.047  -11.428 -8.040 3.536  -3.052 -2.415 HAB3 4ST 38 
+4ST HBF  HBF  H 0 1 N N N 5.196  -9.954  -6.113 2.801  -3.210 -0.036 HBF  4ST 39 
+4ST HBD  HBD  H 0 1 N N N 6.134  -9.139  -3.749 1.371  -3.094 -2.083 HBD  4ST 40 
+4ST HNO  HNO  H 0 1 N N N 5.663  -7.642  -5.563 1.286  -0.629 -1.863 HNO  4ST 41 
+4ST HAA1 1HAA H 0 0 N N N 8.233  -6.823  -4.343 0.431  -1.867 -3.612 HAA1 4ST 42 
+4ST HAA2 2HAA H 0 0 N N N 7.101  -5.622  -5.085 -1.023 -2.217 -2.648 HAA2 4ST 43 
+4ST HAA3 3HAA H 0 0 N N N 6.692  -6.576  -3.603 -0.695 -0.554 -3.191 HAA3 4ST 44 
+4ST HAN1 1HAN H 0 0 N N N 8.593  -8.735  -3.664 -0.829 -3.452 -0.939 HAN1 4ST 45 
+4ST HAN2 2HAN H 0 0 N N N 8.820  -9.339  -5.234 0.506  -4.266 -0.088 HAN2 4ST 46 
+4ST HBE  HBE  H 0 1 N N N 8.754  -10.758 -2.794 -0.788 -3.202 1.548  HBE  4ST 47 
+4ST HAC1 1HAC H 0 0 N N N 3.906  -11.235 -4.648 3.145  -2.473 2.384  HAC1 4ST 48 
+4ST HAC2 2HAC H 0 0 N N N 4.748  -12.302 -3.377 4.046  -1.468 1.223  HAC2 4ST 49 
+4ST HAC3 3HAC H 0 0 N N N 4.689  -10.442 -3.398 3.102  -0.699 2.521  HAC3 4ST 50 
+4ST HAH  HAH  H 0 1 N N N 3.485  -12.401 -6.036 4.534  -0.084 0.842  HAH  4ST 51 
+4ST HAF  HAF  H 0 1 N N N 2.257  -13.945 -7.652 5.800  2.021  0.579  HAF  4ST 52 
+4ST HAE  HAE  H 0 1 N N N 3.477  -15.666 -9.039 4.682  4.131  0.124  HAE  4ST 53 
+4ST HAG  HAG  H 0 1 N N N 5.991  -15.836 -8.795 2.219  4.259  -0.100 HAG  4ST 54 
+4ST HAL1 1HAL H 0 0 N N N 10.907 -10.337 -2.868 -3.025 -3.379 1.460  HAL1 4ST 55 
+4ST HAL2 2HAL H 0 0 N N N 11.478 -9.888  -4.380 -3.300 -3.379 -0.301 HAL2 4ST 56 
+4ST HAJ1 1HAJ H 0 0 N N N 12.659 -12.202 -2.623 -4.933 -1.931 1.831  HAJ1 4ST 57 
+4ST HAJ2 2HAJ H 0 0 N N N 13.423 -10.721 -2.921 -5.475 -3.251 0.767  HAJ2 4ST 58 
+4ST HAI1 1HAI H 0 0 N N N 14.446 -12.348 -4.489 -6.318 -1.188 -0.175 HAI1 4ST 59 
+4ST HAI2 2HAI H 0 0 N N N 13.593 -11.238 -5.450 -4.971 -1.724 -1.210 HAI2 4ST 60 
+4ST HAK1 1HAK H 0 0 N N N 12.813 -14.150 -4.796 -4.911 0.437  0.943  HAK1 4ST 61 
+4ST HAK2 2HAK H 0 0 N N N 12.911 -13.424 -6.324 -4.651 0.641  -0.809 HAK2 4ST 62 
+4ST HAM1 1HAM H 0 0 N N N 8.282  -15.976 -9.377 -0.422 4.682  0.501  HAM1 4ST 63 
+4ST HAM2 2HAM H 0 0 N N N 8.371  -17.003 -8.103 -0.264 4.372  -1.252 HAM2 4ST 64 
+4ST HAP  HAP  H 0 1 N N N 10.881 -16.579 -9.264 -2.674 5.119  -0.690 HAP  4ST 65 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-4ST CAB  OAQ SING N N  1
-4ST CAB HAB1 SING N N  2
-4ST CAB HAB2 SING N N  3
-4ST CAB HAB3 SING N N  4
-4ST OAQ  CBF SING N N  5
-4ST CBF  CBD SING N N  6
-4ST CBF  CBI SING N N  7
-4ST CBF  HBF SING N N  8
-4ST CBD  NAO SING N N  9
-4ST CBD  CAN SING N N 10
-4ST CBD  HBD SING N N 11
-4ST NAO  CAA SING N N 12
-4ST NAO  HNO SING N N 13
-4ST CAA HAA1 SING N N 14
-4ST CAA HAA2 SING N N 15
-4ST CAA HAA3 SING N N 16
-4ST CAN  CBE SING N N 17
-4ST CAN HAN1 SING N N 18
-4ST CAN HAN2 SING N N 19
-4ST CBE  OAR SING N N 20
-4ST CBE  NBG SING N N 21
-4ST CBE  HBE SING N N 22
-4ST OAR  CBI SING N N 23
-4ST CBI  CAC SING N N 24
-4ST CBI  NBH SING N N 25
-4ST CAC HAC1 SING N N 26
-4ST CAC HAC2 SING N N 27
-4ST CAC HAC3 SING N N 28
-4ST NBH  CAY SING Y N 29
-4ST NBH  CBC SING Y N 30
-4ST CAY  CAH DOUB Y N 31
-4ST CAY  CAX SING Y N 32
-4ST CAH  CAF SING Y N 33
-4ST CAH  HAH SING N N 34
-4ST CAF  CAE DOUB Y N 35
-4ST CAF  HAF SING N N 36
-4ST CAE  CAG SING Y N 37
-4ST CAE  HAE SING N N 38
-4ST CAG  CAX DOUB Y N 39
-4ST CAG  HAG SING N N 40
-4ST CAX  CBA SING Y N 41
-4ST CBA  CBC DOUB Y N 42
-4ST CBA  CAU SING Y N 43
-4ST CBC  CBB SING Y N 44
-4ST CBB  NBG SING Y N 45
-4ST CBB  CAZ DOUB Y N 46
-4ST NBG  CAV SING Y N 47
-4ST CAV  CAL SING N N 48
-4ST CAV  CAT DOUB Y N 49
-4ST CAL  CAJ SING N N 50
-4ST CAL HAL1 SING N N 51
-4ST CAL HAL2 SING N N 52
-4ST CAJ  CAI SING N N 53
-4ST CAJ HAJ1 SING N N 54
-4ST CAJ HAJ2 SING N N 55
-4ST CAI  CAK SING N N 56
-4ST CAI HAI1 SING N N 57
-4ST CAI HAI2 SING N N 58
-4ST CAK  CAT SING N N 59
-4ST CAK HAK1 SING N N 60
-4ST CAK HAK2 SING N N 61
-4ST CAT  CAZ SING Y N 62
-4ST CAZ  CAW SING Y N 63
-4ST CAW  CAU DOUB Y N 64
-4ST CAW  CAS SING N N 65
-4ST CAU  CAM SING N N 66
-4ST CAM  NAP SING N N 67
-4ST CAM HAM1 SING N N 68
-4ST CAM HAM2 SING N N 69
-4ST NAP  CAS SING N N 70
-4ST NAP  HAP SING N N 71
-4ST CAS  OAD DOUB N N 72
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+4ST CAB OAQ  SING N N 1  
+4ST CAB HAB1 SING N N 2  
+4ST CAB HAB2 SING N N 3  
+4ST CAB HAB3 SING N N 4  
+4ST OAQ CBF  SING N N 5  
+4ST CBF CBD  SING N N 6  
+4ST CBF CBI  SING N N 7  
+4ST CBF HBF  SING N N 8  
+4ST CBD NAO  SING N N 9  
+4ST CBD CAN  SING N N 10 
+4ST CBD HBD  SING N N 11 
+4ST NAO CAA  SING N N 12 
+4ST NAO HNO  SING N N 13 
+4ST CAA HAA1 SING N N 14 
+4ST CAA HAA2 SING N N 15 
+4ST CAA HAA3 SING N N 16 
+4ST CAN CBE  SING N N 17 
+4ST CAN HAN1 SING N N 18 
+4ST CAN HAN2 SING N N 19 
+4ST CBE OAR  SING N N 20 
+4ST CBE NBG  SING N N 21 
+4ST CBE HBE  SING N N 22 
+4ST OAR CBI  SING N N 23 
+4ST CBI CAC  SING N N 24 
+4ST CBI NBH  SING N N 25 
+4ST CAC HAC1 SING N N 26 
+4ST CAC HAC2 SING N N 27 
+4ST CAC HAC3 SING N N 28 
+4ST NBH CAY  SING Y N 29 
+4ST NBH CBC  SING Y N 30 
+4ST CAY CAH  DOUB Y N 31 
+4ST CAY CAX  SING Y N 32 
+4ST CAH CAF  SING Y N 33 
+4ST CAH HAH  SING N N 34 
+4ST CAF CAE  DOUB Y N 35 
+4ST CAF HAF  SING N N 36 
+4ST CAE CAG  SING Y N 37 
+4ST CAE HAE  SING N N 38 
+4ST CAG CAX  DOUB Y N 39 
+4ST CAG HAG  SING N N 40 
+4ST CAX CBA  SING Y N 41 
+4ST CBA CBC  DOUB Y N 42 
+4ST CBA CAU  SING Y N 43 
+4ST CBC CBB  SING Y N 44 
+4ST CBB NBG  SING Y N 45 
+4ST CBB CAZ  DOUB Y N 46 
+4ST NBG CAV  SING Y N 47 
+4ST CAV CAL  SING N N 48 
+4ST CAV CAT  DOUB Y N 49 
+4ST CAL CAJ  SING N N 50 
+4ST CAL HAL1 SING N N 51 
+4ST CAL HAL2 SING N N 52 
+4ST CAJ CAI  SING N N 53 
+4ST CAJ HAJ1 SING N N 54 
+4ST CAJ HAJ2 SING N N 55 
+4ST CAI CAK  SING N N 56 
+4ST CAI HAI1 SING N N 57 
+4ST CAI HAI2 SING N N 58 
+4ST CAK CAT  SING N N 59 
+4ST CAK HAK1 SING N N 60 
+4ST CAK HAK2 SING N N 61 
+4ST CAT CAZ  SING Y N 62 
+4ST CAZ CAW  SING Y N 63 
+4ST CAW CAU  DOUB Y N 64 
+4ST CAW CAS  SING N N 65 
+4ST CAU CAM  SING N N 66 
+4ST CAM NAP  SING N N 67 
+4ST CAM HAM1 SING N N 68 
+4ST CAM HAM2 SING N N 69 
+4ST NAP CAS  SING N N 70 
+4ST NAP HAP  SING N N 71 
+4ST CAS OAD  DOUB N N 72 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-4ST           SMILES              ACDLabs 10.04                                                                                                                                                              O=C4NCc3c2c1ccccc1n7c2c5n(c6c(c5c34)CCCC6)C8OC7(C)C(OC)C(NC)C8
-4ST SMILES_CANONICAL               CACTVS 3.341                                                                                                                                                CN[C@@H]1C[C@H]2O[C@@](C)([C@@H]1OC)n3c4ccccc4c5c6CNC(=O)c6c7c8CCCCc8n2c7c35
-4ST           SMILES               CACTVS 3.341                                                                                                                                                       CN[CH]1C[CH]2O[C](C)([CH]1OC)n3c4ccccc4c5c6CNC(=O)c6c7c8CCCCc8n2c7c35
-4ST SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                           C[C@@]12[C@@H]([C@@H](C[C@@H](O1)n3c4c(c5c3c6n2c7ccccc7c6c8c5C(=O)NC8)CCCC4)NC)OC
-4ST           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                              CC12C(C(CC(O1)n3c4c(c5c3c6n2c7ccccc7c6c8c5C(=O)NC8)CCCC4)NC)OC
-4ST            InChI                InChI  1.03 InChI=1S/C28H30N4O3/c1-28-26(34-3)17(29-2)12-20(35-28)31-18-10-6-4-8-14(18)22-23-16(13-30-27(23)33)21-15-9-5-7-11-19(15)32(28)25(21)24(22)31/h5,7,9,11,17,20,26,29H,4,6,8,10,12-13H2,1-3H3,(H,30,33)/t17-,20-,26-,28+/m1/s1
-4ST         InChIKey                InChI  1.03                                                                                                                                                                                                 KIZWKTROWIIMNN-FYTWVXJKSA-N
-#
-_pdbx_chem_comp_identifier.comp_id               4ST
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               ACDLabs
-_pdbx_chem_comp_identifier.program_version       10.04
-_pdbx_chem_comp_identifier.identifier            (5S,6R,7R,9R)-6-methoxy-5-methyl-7-(methylamino)-6,7,8,9,10,11,12,13,15,16-decahydro-5H,14H-5,9-epoxy-4b,9a,15-triazadibenzo[b,h]cyclonona[1,2,3,4-jkl]cyclopenta[e]-as-indacen-14-one
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+4ST SMILES           ACDLabs              10.04 "O=C4NCc3c2c1ccccc1n7c2c5n(c6c(c5c34)CCCC6)C8OC7(C)C(OC)C(NC)C8" 
+4ST SMILES_CANONICAL CACTVS               3.341 "CN[C@@H]1C[C@H]2O[C@@](C)([C@@H]1OC)n3c4ccccc4c5c6CNC(=O)c6c7c8CCCCc8n2c7c35" 
+4ST SMILES           CACTVS               3.341 "CN[CH]1C[CH]2O[C](C)([CH]1OC)n3c4ccccc4c5c6CNC(=O)c6c7c8CCCCc8n2c7c35" 
+4ST SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@@]12[C@@H]([C@@H](C[C@@H](O1)n3c4c(c5c3c6n2c7ccccc7c6c8c5C(=O)NC8)CCCC4)NC)OC" 
+4ST SMILES           "OpenEye OEToolkits" 1.5.0 "CC12C(C(CC(O1)n3c4c(c5c3c6n2c7ccccc7c6c8c5C(=O)NC8)CCCC4)NC)OC" 
+4ST InChI            InChI                1.03  
+"InChI=1S/C28H30N4O3/c1-28-26(34-3)17(29-2)12-20(35-28)31-18-10-6-4-8-14(18)22-23-16(13-30-27(23)33)21-15-9-5-7-11-19(15)32(28)25(21)24(22)31/h5,7,9,11,17,20,26,29H,4,6,8,10,12-13H2,1-3H3,(H,30,33)/t17-,20-,26-,28+/m1/s1" 
+4ST InChIKey         InChI                1.03  KIZWKTROWIIMNN-FYTWVXJKSA-N 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-4ST  "Create component" 2005-03-14 RCSB
-4ST "Modify descriptor" 2011-06-04 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+4ST "SYSTEMATIC NAME" ACDLabs 10.04 "(5S,6R,7R,9R)-6-methoxy-5-methyl-7-(methylamino)-6,7,8,9,10,11,12,13,15,16-decahydro-5H,14H-5,9-epoxy-4b,9a,15-triazadibenzo[b,h]cyclonona[1,2,3,4-jkl]cyclopenta[e]-as-indacen-14-one" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-4ST CAB C -1.954 -2.103  1
-4ST OAQ O -2.456 -1.238  2
-4ST CBF C -1.958 -0.371  3
-4ST CBD C -2.460  0.494  4
-4ST NAO N -3.460  0.491  5
-4ST CAA C -3.962  1.356  6
-4ST CAN C -1.962  1.361  7
-4ST CBE C -0.962  1.363  8
-4ST OAR O -0.460  0.499  9
-4ST CBI C -0.958 -0.369 10
-4ST CAC C -1.084 -1.360 11
-4ST NBH N  0.018 -0.624 12
-4ST CAY C  0.371 -1.559 13
-4ST CAH C -0.087 -2.448 14
-4ST CAF C  0.453 -3.289 15
-4ST CAE C  1.452 -3.242 16
-4ST CAG C  1.910 -2.353 17
-4ST CAX C  1.370 -1.512 18
-4ST CBA C  1.634 -0.547 19
-4ST CBC C  0.798  0.002 20
-4ST CBB C  0.796  1.002 21
-4ST NBG N  0.012  1.623 22
-4ST CAV C  0.361  2.560 23
-4ST CAL C -0.101  3.447 24
-4ST CAJ C  0.435  4.291 25
-4ST CAI C  1.434  4.248 26
-4ST CAK C  1.897  3.362 27
-4ST CAT C  1.361  2.518 28
-4ST CAZ C  1.629  1.555 29
-4ST CAW C  2.528  1.006 30
-4ST CAU C  2.530  0.006 31
-4ST CAM C  3.482 -0.301 32
-4ST NAP N  4.068  0.509 33
-4ST CAS C  3.478  1.317 34
-4ST OAD O  3.785  2.269 35
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-4ST CAB OAQ SINGLE       NONE  1
-4ST OAQ CBF SINGLE BEGINWEDGE  2
-4ST CBF CBD SINGLE       NONE  3
-4ST CBF CBI SINGLE       NONE  4
-4ST CBD NAO SINGLE BEGINWEDGE  5
-4ST CBD CAN SINGLE       NONE  6
-4ST NAO CAA SINGLE       NONE  7
-4ST CAN CBE SINGLE       NONE  8
-4ST CBE OAR SINGLE       NONE  9
-4ST CBE NBG SINGLE       NONE 10
-4ST OAR CBI SINGLE       NONE 11
-4ST CBI CAC SINGLE  BEGINDASH 12
-4ST CBI NBH SINGLE       NONE 13
-4ST NBH CAY SINGLE       NONE 14
-4ST NBH CBC SINGLE       NONE 15
-4ST CAY CAH DOUBLE       NONE 16
-4ST CAY CAX SINGLE       NONE 17
-4ST CAH CAF SINGLE       NONE 18
-4ST CAF CAE DOUBLE       NONE 19
-4ST CAE CAG SINGLE       NONE 20
-4ST CAG CAX DOUBLE       NONE 21
-4ST CAX CBA SINGLE       NONE 22
-4ST CBA CBC SINGLE       NONE 23
-4ST CBA CAU DOUBLE       NONE 24
-4ST CBC CBB DOUBLE       NONE 25
-4ST CBB NBG SINGLE       NONE 26
-4ST CBB CAZ SINGLE       NONE 27
-4ST NBG CAV SINGLE       NONE 28
-4ST CAV CAL SINGLE       NONE 29
-4ST CAV CAT DOUBLE       NONE 30
-4ST CAL CAJ SINGLE       NONE 31
-4ST CAJ CAI SINGLE       NONE 32
-4ST CAI CAK SINGLE       NONE 33
-4ST CAK CAT SINGLE       NONE 34
-4ST CAT CAZ SINGLE       NONE 35
-4ST CAZ CAW DOUBLE       NONE 36
-4ST CAW CAU SINGLE       NONE 37
-4ST CAW CAS SINGLE       NONE 38
-4ST CAU CAM SINGLE       NONE 39
-4ST CAM NAP SINGLE       NONE 40
-4ST NAP CAS SINGLE       NONE 41
-4ST CAS OAD DOUBLE       NONE 42
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-4ST MurckoScaffold S1 scaffold O=C1NCc2c1c1c3c(n4c1c1c2c2ccccc2n1C1CCC[C@H]4O1)CCCC3 InChI=1S/C25H23N3O2/c29-25-22-15(12-26-25)20-13-6-1-3-8-16(13)27-18-10-5-11-19(30-18)28-17-9-4-2-7-14(17)21(22)24(28)23(20)27/h1,3,6,8,18-19H,2,4-5,7,9-12H2,(H,26,29)/t18?,19-/m1/s1 QIUMGOMXPFHGST-MUMRKEEXSA-N
-4ST          amide F1 fragment                                               CC(N)=O                                                                                                                                                InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-4ST      carbazole F2 fragment                              c1ccc2c(c1)[nH]c1ccccc12                                                                                                                       InChI=1S/C12H9N/c1-3-7-11-9(5-1)10-6-2-4-8-12(10)13-11/h1-8,13H UJOBWOGCFQCDNV-UHFFFAOYSA-N
-4ST         indole F3 fragment                                      c1ccc2[nH]ccc2c1                                                                                                                                         InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H SIKJAQJRHWYJAI-UHFFFAOYSA-N
-4ST         phenyl F4 fragment                                              c1ccccc1                                                                                                                                                    InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-4ST        pyrrole F5 fragment                                            c1cc[nH]c1                                                                                                                                                     InChI=1S/C4H5N/c1-2-4-5-3-1/h1-5H KAESVJOAVNADME-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-4ST NAP F1 1
-4ST CAS F1 1
-4ST OAD F1 1
-4ST CAW F1 1
-4ST CAY F2 1
-4ST CAX F2 1
-4ST CBA F2 1
-4ST CBC F2 1
-4ST NBH F2 1
-4ST CBB F2 1
-4ST CAZ F2 1
-4ST CAW F2 1
-4ST CAU F2 1
-4ST CAG F2 1
-4ST CAE F2 1
-4ST CAF F2 1
-4ST CAH F2 1
-4ST CAY F3 1
-4ST CAX F3 1
-4ST CBA F3 1
-4ST CBC F3 1
-4ST NBH F3 1
-4ST CAG F3 1
-4ST CAE F3 1
-4ST CAF F3 1
-4ST CAH F3 1
-4ST CBC F3 2
-4ST CBA F3 2
-4ST CAX F3 2
-4ST CAY F3 2
-4ST NBH F3 2
-4ST CAU F3 2
-4ST CAW F3 2
-4ST CAZ F3 2
-4ST CBB F3 2
-4ST CBB F3 3
-4ST CAZ F3 3
-4ST CAT F3 3
-4ST CAV F3 3
-4ST NBG F3 3
-4ST CAW F3 3
-4ST CAU F3 3
-4ST CBA F3 3
-4ST CBC F3 3
-4ST CAY F4 1
-4ST CAH F4 1
-4ST CAF F4 1
-4ST CAE F4 1
-4ST CAG F4 1
-4ST CAX F4 1
-4ST CBA F4 2
-4ST CBC F4 2
-4ST CBB F4 2
-4ST CAZ F4 2
-4ST CAW F4 2
-4ST CAU F4 2
-4ST CAY F5 1
-4ST CAX F5 1
-4ST CBA F5 1
-4ST CBC F5 1
-4ST NBH F5 1
-4ST CBB F5 2
-4ST CAZ F5 2
-4ST CAT F5 2
-4ST CAV F5 2
-4ST NBG F5 2
-4ST CBF S1 1
-4ST CBD S1 1
-4ST CAN S1 1
-4ST CBE S1 1
-4ST OAR S1 1
-4ST CBI S1 1
-4ST NBH S1 1
-4ST CAY S1 1
-4ST CAH S1 1
-4ST CAF S1 1
-4ST CAE S1 1
-4ST CAG S1 1
-4ST CAX S1 1
-4ST CBA S1 1
-4ST CBC S1 1
-4ST CBB S1 1
-4ST NBG S1 1
-4ST CAV S1 1
-4ST CAL S1 1
-4ST CAJ S1 1
-4ST CAI S1 1
-4ST CAK S1 1
-4ST CAT S1 1
-4ST CAZ S1 1
-4ST CAW S1 1
-4ST CAU S1 1
-4ST CAM S1 1
-4ST NAP S1 1
-4ST CAS S1 1
-4ST OAD S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               4ST
-_pdbe_chem_comp_rdkit_properties.exactmw                               470.232
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           7
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.464
-_pdbe_chem_comp_rdkit_properties.NumRings                              8
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      4
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     4
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       5
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              3
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    2
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             245.154
-_pdbe_chem_comp_rdkit_properties.tpsa                                  69.450
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.575
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             127.102
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         35
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-4ST UniChem ChEMBL    CHEMBL1230330
-4ST UniChem   ZINC ZINC000022066862
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-4ST  CAB -4.004  1.010 -0.980 ETKDGv2  1
-4ST  OAQ -2.768  0.504 -0.517 ETKDGv2  2
-4ST  CBF -2.865  0.033  0.823 ETKDGv2  3
-4ST  CBD -2.963 -1.585  0.836 ETKDGv2  4
-4ST  NAO -3.957 -2.045 -0.149 ETKDGv2  5
-4ST  CAA -4.438 -3.396  0.151 ETKDGv2  6
-4ST  CAN -1.572 -2.357  0.672 ETKDGv2  7
-4ST  CBE -0.551 -1.274  0.819 ETKDGv2  8
-4ST  OAR -0.874 -0.604  2.017 ETKDGv2  9
-4ST  CBI -1.583  0.534  1.660 ETKDGv2 10
-4ST  CAC -2.017  1.195  2.979 ETKDGv2 11
-4ST  NBH -0.612  1.428  0.939 ETKDGv2 12
-4ST  CAY -0.770  2.810  0.565 ETKDGv2 13
-4ST  CAH -1.897  3.532  0.567 ETKDGv2 14
-4ST  CAF -1.830  4.950  0.130 ETKDGv2 15
-4ST  CAE -0.661  5.490 -0.268 ETKDGv2 16
-4ST  CAG  0.578  4.674 -0.284 ETKDGv2 17
-4ST  CAX  0.494  3.401  0.116 ETKDGv2 18
-4ST  CBA  1.503  2.349  0.177 ETKDGv2 19
-4ST  CBC  0.818  1.163  0.708 ETKDGv2 20
-4ST  CBB  1.477 -0.048  0.674 ETKDGv2 21
-4ST  NBG  0.882 -1.347  0.789 ETKDGv2 22
-4ST  CAV  1.761 -2.227  0.082 ETKDGv2 23
-4ST  CAL  1.475 -3.678 -0.169 ETKDGv2 24
-4ST  CAJ  2.771 -4.434 -0.487 ETKDGv2 25
-4ST  CAI  3.558 -3.709 -1.588 ETKDGv2 26
-4ST  CAK  3.936 -2.270 -1.182 ETKDGv2 27
-4ST  CAT  2.860 -1.596 -0.370 ETKDGv2 28
-4ST  CAZ  2.762 -0.170 -0.003 ETKDGv2 29
-4ST  CAW  3.388  0.937 -0.449 ETKDGv2 30
-4ST  CAU  2.736  2.251 -0.360 ETKDGv2 31
-4ST  CAM  3.510  3.266 -1.150 ETKDGv2 32
-4ST  NAP  4.652  2.508 -1.667 ETKDGv2 33
-4ST  CAS  4.570  1.148 -1.256 ETKDGv2 34
-4ST  OAD  5.462  0.296 -1.503 ETKDGv2 35
-4ST HAB1 -4.801  0.238 -0.950 ETKDGv2 36
-4ST HAB2 -4.322  1.898 -0.395 ETKDGv2 37
-4ST HAB3 -3.881  1.328 -2.035 ETKDGv2 38
-4ST  HBF -3.785  0.411  1.333 ETKDGv2 39
-4ST  HBD -3.334 -1.830  1.858 ETKDGv2 40
-4ST  HNO -3.525 -2.051 -1.103 ETKDGv2 41
-4ST HAA1 -5.191 -3.693 -0.610 ETKDGv2 42
-4ST HAA2 -4.932 -3.420  1.146 ETKDGv2 43
-4ST HAA3 -3.607 -4.133  0.126 ETKDGv2 44
-4ST HAN1 -1.477 -2.848 -0.322 ETKDGv2 45
-4ST HAN2 -1.446 -3.121  1.470 ETKDGv2 46
-4ST  HBE -0.747 -0.735 -0.149 ETKDGv2 47
-4ST HAC1 -2.555  0.459  3.615 ETKDGv2 48
-4ST HAC2 -1.126  1.553  3.538 ETKDGv2 49
-4ST HAC3 -2.696  2.052  2.812 ETKDGv2 50
-4ST  HAH -2.842  3.112  0.867 ETKDGv2 51
-4ST  HAF -2.730  5.552  0.132 ETKDGv2 52
-4ST  HAE -0.623  6.525 -0.585 ETKDGv2 53
-4ST  HAG  1.512  5.108 -0.608 ETKDGv2 54
-4ST HAL1  0.996 -4.125  0.728 ETKDGv2 55
-4ST HAL2  0.773 -3.764 -1.026 ETKDGv2 56
-4ST HAJ1  2.524 -5.464 -0.824 ETKDGv2 57
-4ST HAJ2  3.397 -4.510  0.429 ETKDGv2 58
-4ST HAI1  4.482 -4.281 -1.821 ETKDGv2 59
-4ST HAI2  2.939 -3.680 -2.512 ETKDGv2 60
-4ST HAK1  4.108 -1.692 -2.114 ETKDGv2 61
-4ST HAK2  4.874 -2.283 -0.587 ETKDGv2 62
-4ST HAM1  3.861  4.089 -0.493 ETKDGv2 63
-4ST HAM2  2.905  3.654 -1.996 ETKDGv2 64
-4ST  HAP  5.422  2.911 -2.246 ETKDGv2 65
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+4ST "Create component"  2005-03-14 RCSB 
+4ST "Modify descriptor" 2011-06-04 RCSB 
+# 

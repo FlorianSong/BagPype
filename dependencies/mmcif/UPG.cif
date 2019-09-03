@@ -1,567 +1,214 @@
 data_UPG
-#
-_chem_comp.id                                        UPG
-_chem_comp.name                                      "URIDINE-5'-DIPHOSPHATE-GLUCOSE"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C15 H24 N2 O17 P2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             "URIDINE-5'-MONOPHOSPHATE GLUCOPYRANOSYL-MONOPHOSPHATE ESTER"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2013-05-07
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             GUD
-_chem_comp.formula_weight                            566.302
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         UPG
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1EK6
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    UPG 
+_chem_comp.name                                  "URIDINE-5'-DIPHOSPHATE-GLUCOSE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C15 H24 N2 O17 P2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         
+;URIDINE-5'-MONOPHOSPHATE GLUCOPYRANOSYL-MONOPHOSPHATE ESTER
+;
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2013-05-07 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         GUD 
+_chem_comp.formula_weight                        566.302 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     UPG 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1EK6 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-UPG     N1     N1 N 0 1 N N N 25.413  6.752 43.956  4.871 -1.188  0.165     N1 UPG  1
-UPG     C2     C2 C 0 1 N N N 24.539  6.200 44.894  5.434 -2.195  0.857     C2 UPG  2
-UPG     N3     N3 N 0 1 N N N 24.197  7.045 45.917  5.677 -3.384  0.274     N3 UPG  3
-UPG     C4     C4 C 0 1 N N N 24.620  8.374 46.083  5.358 -3.583 -1.021     C4 UPG  4
-UPG     C5     C5 C 0 1 N N N 25.498  8.840 45.060  4.766 -2.532 -1.760     C5 UPG  5
-UPG     C6     C6 C 0 1 N N N 25.855  8.055 44.059  4.533 -1.350 -1.151     C6 UPG  6
-UPG     O2     O2 O 0 1 N N N 24.106  5.041 44.840  5.726 -2.030  2.026     O2 UPG  7
-UPG     O4     O4 O 0 1 N N N 24.217  9.023 47.037  5.579 -4.658 -1.549     O4 UPG  8
-UPG    C1C "C1'A" C 0 1 N N R 25.915  5.905 42.850  4.613  0.093  0.828    C1C UPG  9
-UPG    C2C "C2'A" C 0 1 N N R 25.525  6.365 41.451  5.477  1.216  0.201    C2C UPG 10
-UPG    O2C "O2'A" O 0 1 N N N 24.217  5.848 41.079  6.766  1.271  0.814    O2C UPG 11
-UPG    C3C "C3'A" C 0 1 N N S 26.667  5.791 40.579  4.653  2.484  0.534    C3C UPG 12
-UPG    C4C "C4'A" C 0 1 N N R 27.850  5.881 41.532  3.231  1.951  0.799    C4C UPG 13
-UPG    O4C "O4'A" O 0 1 N N N 27.306  5.888 42.894  3.260  0.530  0.580    O4C UPG 14
-UPG    O3C "O3'A" O 0 1 N N N 26.435  4.438 40.151  5.171  3.126  1.700    O3C UPG 15
-UPG    C5C "C5'A" C 0 1 N N N 28.721  7.089 41.335  2.242  2.606 -0.167    C5C UPG 16
-UPG    O5C "O5'A" O 0 1 N N N 27.849  8.218 41.413  0.913  2.195  0.161    O5C UPG 17
-UPG     PA     PA P 0 1 N N N 28.478  9.680 41.403 -0.385  2.693 -0.651     PA UPG 18
-UPG    O1A    O1A O 0 1 N N N 29.568  9.872 42.372 -0.213  2.389 -2.090    O1A UPG 19
-UPG    O2A    O2A O 0 1 N N N 27.398 10.697 41.466 -0.563  4.281 -0.456    O2A UPG 20
-UPG    O3A    O3A O 0 1 N N N 29.280  9.741 39.973 -1.691  1.934 -0.095    O3A UPG 21
-UPG     PB     PB P 0 1 N N N 28.768  9.732 38.482 -3.161  1.656 -0.689     PB UPG 22
-UPG    O1B    O1B O 0 1 N N N 27.329  9.980 38.379 -3.049  1.210 -2.095    O1B UPG 23
-UPG    O2B    O2B O 0 1 N N N 29.251  8.422 37.941 -4.031  3.009 -0.623    O2B UPG 24
-UPG    O3B    O3B O 0 1 N N N 29.518 10.990 37.753 -3.884  0.511  0.182    O3B UPG 25
-UPG  "C1'"  "C1'" C 0 1 N N R 30.770 11.399 38.211 -5.161 -0.034 -0.156  "C1'" UPG 26
-UPG  "C2'"  "C2'" C 0 1 N N R 30.814 12.938 38.266 -5.883 -0.473  1.120  "C2'" UPG 27
-UPG  "C3'"  "C3'" C 0 1 N N S 30.475 13.471 36.893 -5.071 -1.579  1.803  "C3'" UPG 28
-UPG  "C4'"  "C4'" C 0 1 N N S 31.423 12.927 35.834 -4.877 -2.736  0.818  "C4'" UPG 29
-UPG  "C5'"  "C5'" C 0 1 N N R 31.464 11.395 35.905 -4.194 -2.210 -0.447  "C5'" UPG 30
-UPG  "C6'"  "C6'" C 0 1 N N N 32.586 10.815 35.067 -4.051 -3.348 -1.460  "C6'" UPG 31
-UPG  "O2'"  "O2'" O 0 1 N N N 29.878 13.546 39.180 -6.009  0.642  2.005  "O2'" UPG 32
-UPG  "O3'"  "O3'" O 0 1 N N N 30.600 14.902 36.901 -5.774 -2.045  2.956  "O3'" UPG 33
-UPG  "O4'"  "O4'" O 0 1 N N N 30.948 13.293 34.533 -4.060 -3.742  1.419  "O4'" UPG 34
-UPG  "O5'"  "O5'" O 0 1 N N N 31.735 10.926 37.242 -4.985 -1.164 -1.014  "O5'" UPG 35
-UPG  "O6'"  "O6'" O 0 1 N N N 32.414  9.376 35.139 -3.310 -2.887 -2.592  "O6'" UPG 36
-UPG    HN3    HN3 H 0 1 N N N 23.584  6.678 46.617  6.084 -4.099  0.787    HN3 UPG 37
-UPG     H5     H5 H 0 1 N N N 25.877  9.850 45.104  4.504 -2.673 -2.799     H5 UPG 38
-UPG     H6     H6 H 0 1 N N N 26.514  8.446 43.297  4.081 -0.536 -1.699     H6 UPG 39
-UPG    H1C "H1'A" H 0 1 N N N 25.528  4.885 42.990  4.804  0.015  1.899    H1C UPG 40
-UPG    H2C "H2'A" H 0 1 N N N 25.540  7.464 41.401  5.567  1.082 -0.877    H2C UPG 41
-UPG   HO2C "HO2'" H 0 0 N N N 23.995  6.147 40.205  7.344  1.959  0.456   HO2C UPG 42
-UPG    H3C "H3'A" H 0 1 N N N 26.835  6.452 39.716  4.651  3.171 -0.312    H3C UPG 43
-UPG    H4C "H4'A" H 0 1 N N N 28.468  4.981 41.399  2.942  2.162  1.828    H4C UPG 44
-UPG   HO3C "HO3'" H 0 0 N N N 27.167  4.143 39.622  6.085  3.429  1.609   HO3C UPG 45
-UPG   H5C1 "H5'1" H 0 0 N N N 29.486  7.142 42.123  2.317  3.690 -0.085   H5C1 UPG 46
-UPG   H5C2 "H5'2" H 0 0 N N N 29.211  7.051 40.351  2.474  2.302 -1.188   H5C2 UPG 47
-UPG   HOA2   HOA2 H 0 0 N N N 27.596 11.328 42.148 -0.681  4.554  0.465   HOA2 UPG 48
-UPG   HOB2   HOB2 H 0 0 N N N 28.515  7.930 37.598 -4.146  3.360  0.271   HOB2 UPG 49
-UPG  "H1'"  "H1'" H 0 1 N N N 30.988 10.991 39.209 -5.755  0.722 -0.668  "H1'" UPG 50
-UPG  "H2'"  "H2'" H 0 1 N N N 31.838 13.247 38.523 -6.873 -0.851  0.867  "H2'" UPG 51
-UPG  "H3'"  "H3'" H 0 1 N N N 29.446 13.181 36.637 -4.099 -1.186  2.101  "H3'" UPG 52
-UPG  "H4'"  "H4'" H 0 1 N N N 32.433 13.326 36.006 -5.847 -3.160  0.558  "H4'" UPG 53
-UPG  "H5'"  "H5'" H 0 1 N N N 30.503 10.995 35.549 -3.207 -1.823 -0.193  "H5'" UPG 54
-UPG "H6'1" "H6'1" H 0 0 N N N 32.507 11.161 34.026 -3.524 -4.182 -0.997 "H6'1" UPG 55
-UPG "H6'2" "H6'2" H 0 0 N N N 33.564 11.107 35.477 -5.040 -3.675 -1.781 "H6'2" UPG 56
-UPG "HO2'"   HO2A H 0 0 N N N 29.973 14.491 39.150 -6.508  1.383  1.636 "HO2'" UPG 57
-UPG "HO3'"   HO3A H 0 0 N N N 30.388 15.244 36.040 -5.938 -1.362  3.620 "HO3'" UPG 58
-UPG "HO4'" "HO4'" H 0 0 N N N 31.540 12.953 33.872 -4.430 -4.117  2.230 "HO4'" UPG 59
-UPG "HO6'" "HO6'" H 0 0 N N N 33.093  8.950 34.629 -3.181 -3.557 -3.277 "HO6'" UPG 60
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+UPG N1     N1     N 0 1 N N N 25.413 6.752  43.956 4.871  -1.188 0.165  N1     UPG 1  
+UPG C2     C2     C 0 1 N N N 24.539 6.200  44.894 5.434  -2.195 0.857  C2     UPG 2  
+UPG N3     N3     N 0 1 N N N 24.197 7.045  45.917 5.677  -3.384 0.274  N3     UPG 3  
+UPG C4     C4     C 0 1 N N N 24.620 8.374  46.083 5.358  -3.583 -1.021 C4     UPG 4  
+UPG C5     C5     C 0 1 N N N 25.498 8.840  45.060 4.766  -2.532 -1.760 C5     UPG 5  
+UPG C6     C6     C 0 1 N N N 25.855 8.055  44.059 4.533  -1.350 -1.151 C6     UPG 6  
+UPG O2     O2     O 0 1 N N N 24.106 5.041  44.840 5.726  -2.030 2.026  O2     UPG 7  
+UPG O4     O4     O 0 1 N N N 24.217 9.023  47.037 5.579  -4.658 -1.549 O4     UPG 8  
+UPG C1C    "C1'A" C 0 1 N N R 25.915 5.905  42.850 4.613  0.093  0.828  C1C    UPG 9  
+UPG C2C    "C2'A" C 0 1 N N R 25.525 6.365  41.451 5.477  1.216  0.201  C2C    UPG 10 
+UPG O2C    "O2'A" O 0 1 N N N 24.217 5.848  41.079 6.766  1.271  0.814  O2C    UPG 11 
+UPG C3C    "C3'A" C 0 1 N N S 26.667 5.791  40.579 4.653  2.484  0.534  C3C    UPG 12 
+UPG C4C    "C4'A" C 0 1 N N R 27.850 5.881  41.532 3.231  1.951  0.799  C4C    UPG 13 
+UPG O4C    "O4'A" O 0 1 N N N 27.306 5.888  42.894 3.260  0.530  0.580  O4C    UPG 14 
+UPG O3C    "O3'A" O 0 1 N N N 26.435 4.438  40.151 5.171  3.126  1.700  O3C    UPG 15 
+UPG C5C    "C5'A" C 0 1 N N N 28.721 7.089  41.335 2.242  2.606  -0.167 C5C    UPG 16 
+UPG O5C    "O5'A" O 0 1 N N N 27.849 8.218  41.413 0.913  2.195  0.161  O5C    UPG 17 
+UPG PA     PA     P 0 1 N N N 28.478 9.680  41.403 -0.385 2.693  -0.651 PA     UPG 18 
+UPG O1A    O1A    O 0 1 N N N 29.568 9.872  42.372 -0.213 2.389  -2.090 O1A    UPG 19 
+UPG O2A    O2A    O 0 1 N N N 27.398 10.697 41.466 -0.563 4.281  -0.456 O2A    UPG 20 
+UPG O3A    O3A    O 0 1 N N N 29.280 9.741  39.973 -1.691 1.934  -0.095 O3A    UPG 21 
+UPG PB     PB     P 0 1 N N N 28.768 9.732  38.482 -3.161 1.656  -0.689 PB     UPG 22 
+UPG O1B    O1B    O 0 1 N N N 27.329 9.980  38.379 -3.049 1.210  -2.095 O1B    UPG 23 
+UPG O2B    O2B    O 0 1 N N N 29.251 8.422  37.941 -4.031 3.009  -0.623 O2B    UPG 24 
+UPG O3B    O3B    O 0 1 N N N 29.518 10.990 37.753 -3.884 0.511  0.182  O3B    UPG 25 
+UPG "C1'"  "C1'"  C 0 1 N N R 30.770 11.399 38.211 -5.161 -0.034 -0.156 "C1'"  UPG 26 
+UPG "C2'"  "C2'"  C 0 1 N N R 30.814 12.938 38.266 -5.883 -0.473 1.120  "C2'"  UPG 27 
+UPG "C3'"  "C3'"  C 0 1 N N S 30.475 13.471 36.893 -5.071 -1.579 1.803  "C3'"  UPG 28 
+UPG "C4'"  "C4'"  C 0 1 N N S 31.423 12.927 35.834 -4.877 -2.736 0.818  "C4'"  UPG 29 
+UPG "C5'"  "C5'"  C 0 1 N N R 31.464 11.395 35.905 -4.194 -2.210 -0.447 "C5'"  UPG 30 
+UPG "C6'"  "C6'"  C 0 1 N N N 32.586 10.815 35.067 -4.051 -3.348 -1.460 "C6'"  UPG 31 
+UPG "O2'"  "O2'"  O 0 1 N N N 29.878 13.546 39.180 -6.009 0.642  2.005  "O2'"  UPG 32 
+UPG "O3'"  "O3'"  O 0 1 N N N 30.600 14.902 36.901 -5.774 -2.045 2.956  "O3'"  UPG 33 
+UPG "O4'"  "O4'"  O 0 1 N N N 30.948 13.293 34.533 -4.060 -3.742 1.419  "O4'"  UPG 34 
+UPG "O5'"  "O5'"  O 0 1 N N N 31.735 10.926 37.242 -4.985 -1.164 -1.014 "O5'"  UPG 35 
+UPG "O6'"  "O6'"  O 0 1 N N N 32.414 9.376  35.139 -3.310 -2.887 -2.592 "O6'"  UPG 36 
+UPG HN3    HN3    H 0 1 N N N 23.584 6.678  46.617 6.084  -4.099 0.787  HN3    UPG 37 
+UPG H5     H5     H 0 1 N N N 25.877 9.850  45.104 4.504  -2.673 -2.799 H5     UPG 38 
+UPG H6     H6     H 0 1 N N N 26.514 8.446  43.297 4.081  -0.536 -1.699 H6     UPG 39 
+UPG H1C    "H1'A" H 0 1 N N N 25.528 4.885  42.990 4.804  0.015  1.899  H1C    UPG 40 
+UPG H2C    "H2'A" H 0 1 N N N 25.540 7.464  41.401 5.567  1.082  -0.877 H2C    UPG 41 
+UPG HO2C   "HO2'" H 0 0 N N N 23.995 6.147  40.205 7.344  1.959  0.456  HO2C   UPG 42 
+UPG H3C    "H3'A" H 0 1 N N N 26.835 6.452  39.716 4.651  3.171  -0.312 H3C    UPG 43 
+UPG H4C    "H4'A" H 0 1 N N N 28.468 4.981  41.399 2.942  2.162  1.828  H4C    UPG 44 
+UPG HO3C   "HO3'" H 0 0 N N N 27.167 4.143  39.622 6.085  3.429  1.609  HO3C   UPG 45 
+UPG H5C1   "H5'1" H 0 0 N N N 29.486 7.142  42.123 2.317  3.690  -0.085 H5C1   UPG 46 
+UPG H5C2   "H5'2" H 0 0 N N N 29.211 7.051  40.351 2.474  2.302  -1.188 H5C2   UPG 47 
+UPG HOA2   HOA2   H 0 0 N N N 27.596 11.328 42.148 -0.681 4.554  0.465  HOA2   UPG 48 
+UPG HOB2   HOB2   H 0 0 N N N 28.515 7.930  37.598 -4.146 3.360  0.271  HOB2   UPG 49 
+UPG "H1'"  "H1'"  H 0 1 N N N 30.988 10.991 39.209 -5.755 0.722  -0.668 "H1'"  UPG 50 
+UPG "H2'"  "H2'"  H 0 1 N N N 31.838 13.247 38.523 -6.873 -0.851 0.867  "H2'"  UPG 51 
+UPG "H3'"  "H3'"  H 0 1 N N N 29.446 13.181 36.637 -4.099 -1.186 2.101  "H3'"  UPG 52 
+UPG "H4'"  "H4'"  H 0 1 N N N 32.433 13.326 36.006 -5.847 -3.160 0.558  "H4'"  UPG 53 
+UPG "H5'"  "H5'"  H 0 1 N N N 30.503 10.995 35.549 -3.207 -1.823 -0.193 "H5'"  UPG 54 
+UPG "H6'1" "H6'1" H 0 0 N N N 32.507 11.161 34.026 -3.524 -4.182 -0.997 "H6'1" UPG 55 
+UPG "H6'2" "H6'2" H 0 0 N N N 33.564 11.107 35.477 -5.040 -3.675 -1.781 "H6'2" UPG 56 
+UPG "HO2'" HO2A   H 0 0 N N N 29.973 14.491 39.150 -6.508 1.383  1.636  "HO2'" UPG 57 
+UPG "HO3'" HO3A   H 0 0 N N N 30.388 15.244 36.040 -5.938 -1.362 3.620  "HO3'" UPG 58 
+UPG "HO4'" "HO4'" H 0 0 N N N 31.540 12.953 33.872 -4.430 -4.117 2.230  "HO4'" UPG 59 
+UPG "HO6'" "HO6'" H 0 0 N N N 33.093 8.950  34.629 -3.181 -3.557 -3.277 "HO6'" UPG 60 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-UPG    N1     C2 SING N N  1
-UPG    N1     C6 SING N N  2
-UPG    N1    C1C SING N N  3
-UPG    C2     N3 SING N N  4
-UPG    C2     O2 DOUB N N  5
-UPG    N3     C4 SING N N  6
-UPG    N3    HN3 SING N N  7
-UPG    C4     C5 SING N N  8
-UPG    C4     O4 DOUB N N  9
-UPG    C5     C6 DOUB N N 10
-UPG    C5     H5 SING N N 11
-UPG    C6     H6 SING N N 12
-UPG   C1C    C2C SING N N 13
-UPG   C1C    O4C SING N N 14
-UPG   C1C    H1C SING N N 15
-UPG   C2C    O2C SING N N 16
-UPG   C2C    C3C SING N N 17
-UPG   C2C    H2C SING N N 18
-UPG   O2C   HO2C SING N N 19
-UPG   C3C    C4C SING N N 20
-UPG   C3C    O3C SING N N 21
-UPG   C3C    H3C SING N N 22
-UPG   C4C    O4C SING N N 23
-UPG   C4C    C5C SING N N 24
-UPG   C4C    H4C SING N N 25
-UPG   O3C   HO3C SING N N 26
-UPG   C5C    O5C SING N N 27
-UPG   C5C   H5C1 SING N N 28
-UPG   C5C   H5C2 SING N N 29
-UPG   O5C     PA SING N N 30
-UPG    PA    O1A DOUB N N 31
-UPG    PA    O2A SING N N 32
-UPG    PA    O3A SING N N 33
-UPG   O2A   HOA2 SING N N 34
-UPG   O3A     PB SING N N 35
-UPG    PB    O1B DOUB N N 36
-UPG    PB    O2B SING N N 37
-UPG    PB    O3B SING N N 38
-UPG   O2B   HOB2 SING N N 39
-UPG   O3B  "C1'" SING N N 40
-UPG "C1'"  "C2'" SING N N 41
-UPG "C1'"  "O5'" SING N N 42
-UPG "C1'"  "H1'" SING N N 43
-UPG "C2'"  "C3'" SING N N 44
-UPG "C2'"  "O2'" SING N N 45
-UPG "C2'"  "H2'" SING N N 46
-UPG "C3'"  "C4'" SING N N 47
-UPG "C3'"  "O3'" SING N N 48
-UPG "C3'"  "H3'" SING N N 49
-UPG "C4'"  "C5'" SING N N 50
-UPG "C4'"  "O4'" SING N N 51
-UPG "C4'"  "H4'" SING N N 52
-UPG "C5'"  "C6'" SING N N 53
-UPG "C5'"  "O5'" SING N N 54
-UPG "C5'"  "H5'" SING N N 55
-UPG "C6'"  "O6'" SING N N 56
-UPG "C6'" "H6'1" SING N N 57
-UPG "C6'" "H6'2" SING N N 58
-UPG "O2'" "HO2'" SING N N 59
-UPG "O3'" "HO3'" SING N N 60
-UPG "O4'" "HO4'" SING N N 61
-UPG "O6'" "HO6'" SING N N 62
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+UPG N1    C2     SING N N 1  
+UPG N1    C6     SING N N 2  
+UPG N1    C1C    SING N N 3  
+UPG C2    N3     SING N N 4  
+UPG C2    O2     DOUB N N 5  
+UPG N3    C4     SING N N 6  
+UPG N3    HN3    SING N N 7  
+UPG C4    C5     SING N N 8  
+UPG C4    O4     DOUB N N 9  
+UPG C5    C6     DOUB N N 10 
+UPG C5    H5     SING N N 11 
+UPG C6    H6     SING N N 12 
+UPG C1C   C2C    SING N N 13 
+UPG C1C   O4C    SING N N 14 
+UPG C1C   H1C    SING N N 15 
+UPG C2C   O2C    SING N N 16 
+UPG C2C   C3C    SING N N 17 
+UPG C2C   H2C    SING N N 18 
+UPG O2C   HO2C   SING N N 19 
+UPG C3C   C4C    SING N N 20 
+UPG C3C   O3C    SING N N 21 
+UPG C3C   H3C    SING N N 22 
+UPG C4C   O4C    SING N N 23 
+UPG C4C   C5C    SING N N 24 
+UPG C4C   H4C    SING N N 25 
+UPG O3C   HO3C   SING N N 26 
+UPG C5C   O5C    SING N N 27 
+UPG C5C   H5C1   SING N N 28 
+UPG C5C   H5C2   SING N N 29 
+UPG O5C   PA     SING N N 30 
+UPG PA    O1A    DOUB N N 31 
+UPG PA    O2A    SING N N 32 
+UPG PA    O3A    SING N N 33 
+UPG O2A   HOA2   SING N N 34 
+UPG O3A   PB     SING N N 35 
+UPG PB    O1B    DOUB N N 36 
+UPG PB    O2B    SING N N 37 
+UPG PB    O3B    SING N N 38 
+UPG O2B   HOB2   SING N N 39 
+UPG O3B   "C1'"  SING N N 40 
+UPG "C1'" "C2'"  SING N N 41 
+UPG "C1'" "O5'"  SING N N 42 
+UPG "C1'" "H1'"  SING N N 43 
+UPG "C2'" "C3'"  SING N N 44 
+UPG "C2'" "O2'"  SING N N 45 
+UPG "C2'" "H2'"  SING N N 46 
+UPG "C3'" "C4'"  SING N N 47 
+UPG "C3'" "O3'"  SING N N 48 
+UPG "C3'" "H3'"  SING N N 49 
+UPG "C4'" "C5'"  SING N N 50 
+UPG "C4'" "O4'"  SING N N 51 
+UPG "C4'" "H4'"  SING N N 52 
+UPG "C5'" "C6'"  SING N N 53 
+UPG "C5'" "O5'"  SING N N 54 
+UPG "C5'" "H5'"  SING N N 55 
+UPG "C6'" "O6'"  SING N N 56 
+UPG "C6'" "H6'1" SING N N 57 
+UPG "C6'" "H6'2" SING N N 58 
+UPG "O2'" "HO2'" SING N N 59 
+UPG "O3'" "HO3'" SING N N 60 
+UPG "O4'" "HO4'" SING N N 61 
+UPG "O6'" "HO6'" SING N N 62 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-UPG           SMILES              ACDLabs 12.01                                                                                                                                                                 O=C1C=CN(C(=O)N1)C2OC(C(O)C2O)COP(=O)(OP(=O)(OC3OC(C(O)C(O)C3O)CO)O)O
-UPG            InChI                InChI  1.03 InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)/t5-,6-,8-,9-,10+,11-,12-,13-,14-/m1/s1
-UPG         InChIKey                InChI  1.03                                                                                                                                                                                                           HSCJRCZFDFQWRP-JZMIEXBBSA-N
-UPG SMILES_CANONICAL               CACTVS 3.370                                                                                                                        OC[C@H]1O[C@H](O[P](O)(=O)O[P](O)(=O)OC[C@H]2O[C@H]([C@H](O)[C@@H]2O)N3C=CC(=O)NC3=O)[C@H](O)[C@@H](O)[C@@H]1O
-UPG           SMILES               CACTVS 3.370                                                                                                                                    OC[CH]1O[CH](O[P](O)(=O)O[P](O)(=O)OC[CH]2O[CH]([CH](O)[CH]2O)N3C=CC(=O)NC3=O)[CH](O)[CH](O)[CH]1O
-UPG SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                                                                              C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)CO[P@](=O)(O)O[P@](=O)(O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O
-UPG           SMILES "OpenEye OEToolkits" 1.7.6                                                                                                                                                             C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+UPG SMILES           ACDLabs              12.01 "O=C1C=CN(C(=O)N1)C2OC(C(O)C2O)COP(=O)(OP(=O)(OC3OC(C(O)C(O)C3O)CO)O)O" 
+UPG InChI            InChI                1.03  
+"InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)/t5-,6-,8-,9-,10+,11-,12-,13-,14-/m1/s1" 
+UPG InChIKey         InChI                1.03  HSCJRCZFDFQWRP-JZMIEXBBSA-N 
+UPG SMILES_CANONICAL CACTVS               3.370 "OC[C@H]1O[C@H](O[P](O)(=O)O[P](O)(=O)OC[C@H]2O[C@H]([C@H](O)[C@@H]2O)N3C=CC(=O)NC3=O)[C@H](O)[C@@H](O)[C@@H]1O" 
+UPG SMILES           CACTVS               3.370 "OC[CH]1O[CH](O[P](O)(=O)O[P](O)(=O)OC[CH]2O[CH]([CH](O)[CH]2O)N3C=CC(=O)NC3=O)[CH](O)[CH](O)[CH]1O" 
+UPG SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)CO[P@](=O)(O)O[P@](=O)(O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O" 
+UPG SMILES           "OpenEye OEToolkits" 1.7.6 "C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O" 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-UPG "SYSTEMATIC NAME"              ACDLabs 12.01 "[(2R,3S,4R,5R)-5-(2,4-dioxo-3,4-dihydropyrimidin-1(2H)-yl)-3,4-dihydroxytetrahydrofuran-2-yl]methyl (2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-yl dihydrogen diphosphate (non-preferred name)"
-UPG "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6                    "[[(2R,3S,4R,5R)-5-[2,4-bis(oxidanylidene)pyrimidin-1-yl]-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-oxidanyl-phosphoryl] [(2R,3R,4S,5S,6R)-6-(hydroxymethyl)-3,4,5-tris(oxidanyl)oxan-2-yl] hydrogen phosphate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+UPG "SYSTEMATIC NAME" ACDLabs              12.01 
+"[(2R,3S,4R,5R)-5-(2,4-dioxo-3,4-dihydropyrimidin-1(2H)-yl)-3,4-dihydroxytetrahydrofuran-2-yl]methyl (2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-yl dihydrogen diphosphate (non-preferred name)" 
+UPG "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "[[(2R,3S,4R,5R)-5-[2,4-bis(oxidanylidene)pyrimidin-1-yl]-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-oxidanyl-phosphoryl] [(2R,3R,4S,5S,6R)-6-(hydroxymethyl)-3,4,5-tris(oxidanyl)oxan-2-yl] hydrogen phosphate" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-UPG   "Create component" 1999-07-08 RCSB
-UPG  "Modify descriptor" 2011-06-04 RCSB
-UPG "Other modification" 2013-05-07 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   UPG
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01861
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "Uridine diphosphate glucose"
-_pdbe_chem_comp_drugbank_details.description               "A key intermediate in carbohydrate metabolism. Serves as a precursor of glycogen, can be metabolized into UDPgalactose and UDPglucuronic acid which can then be incorporated into polysaccharides as galactose and glucuronic acid. Also serves as a precursor of sucrose lipopolysaccharides, and glycosphingolipids."
-_pdbe_chem_comp_drugbank_details.cas_number                133-89-1
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           UPG
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01861
-_pdbe_chem_comp_drugbank_classification.parent            "Pyrimidine nucleotide sugars"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Pyrimidine nucleotides"
-_pdbe_chem_comp_drugbank_classification.superclass        "Nucleosides, nucleotides, and analogues"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as pyrimidine nucleotide sugars. These are pyrimidine nucleotides bound to a saccharide derivative through the terminal phosphate group."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-UPG DB01861                                                     WbpP                                       "Pseudomonas aeruginosa" Q8KN66 unknown 1
-UPG DB01861                                             Glycogenin-1                                                         Humans P46976 unknown 2
-UPG DB01861 "Alpha,alpha-trehalose-phosphate synthase [UDP-forming]"                                "Escherichia coli (strain K12)" P31677 unknown 3
-UPG DB01861              "Galactose-1-phosphate uridylyltransferase"                                "Escherichia coli (strain K12)" P09148 unknown 4
-UPG DB01861                                "UDP-glucose 4-epimerase"                                                         Humans Q14376 unknown 5
-UPG DB01861              "Glucose-1-phosphate thymidylyltransferase" "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)" P26393 unknown 6
-UPG DB01861                                "UDP-glucose 4-epimerase"                                "Escherichia coli (strain K12)" P09147 unknown 7
-UPG DB01861                           "DNA beta-glucosyltransferase"                                      "Enterobacteria phage T4" P04547 unknown 8
-UPG DB01861      "Glycosyltransferase 6 domain-containing protein 1"                                                         Humans Q7Z4J2 unknown 9
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-UPG            "Uridine Diphosphate Glucose"   ChEMBL
-UPG                                     UDPG   ChEMBL
-UPG                    "5'-Diphosphoglucose"   ChEMBL
-UPG                              Udp-Glucose   ChEMBL
-UPG            "Uridine-5'-Diphosphoglucose"   ChEMBL
-UPG                    "5'-Diphosphoglucose" DrugBank
-UPG                      Co-galactoisomerase DrugBank
-UPG                             Co-waldenase DrugBank
-UPG                       Cogalactoisomerase DrugBank
-UPG                              UDP-Glucose DrugBank
-UPG                                     UDPG DrugBank
-UPG "Uridine 5'-pyrophosphate glucose ester" DrugBank
-UPG            "Uridine-5'-Diphosphoglucose" DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-UPG    N1 N 15.133  5.389  1
-UPG    C2 C 16.625  5.546  2
-UPG    N3 N 17.235  6.916  3
-UPG    C4 C 16.353  8.130  4
-UPG    C5 C 14.861  7.973  5
-UPG    C6 C 14.251  6.603  6
-UPG    O2 O 17.506  4.332  7
-UPG    O4 O 16.963  9.500  8
-UPG   C1C C 14.523  4.019  9
-UPG   C2C C 15.273  2.720 10
-UPG   O2C O 16.765  2.563 11
-UPG   C3C C 14.269  1.605 12
-UPG   C4C C 12.899  2.215 13
-UPG   O4C O 13.055  3.707 14
-UPG   O3C O 14.581  0.138 15
-UPG   C5C C 11.600  1.465 16
-UPG   O5C O 11.600 -0.035 17
-UPG    PA P 10.301 -0.785 18
-UPG   O1A O  9.551  0.514 19
-UPG   O2A O 11.051 -2.084 20
-UPG   O3A O  9.002 -1.535 21
-UPG    PB P  9.002 -3.035 22
-UPG   O1B O 10.502 -3.035 23
-UPG   O2B O  7.502 -3.035 24
-UPG   O3B O  9.002 -4.535 25
-UPG "C1'" C  7.702 -5.285 26
-UPG "C2'" C  7.702 -6.785 27
-UPG "C3'" C  6.404 -7.535 28
-UPG "C4'" C  5.104 -6.785 29
-UPG "C5'" C  5.104 -5.285 30
-UPG "C6'" C  3.805 -4.535 31
-UPG "O2'" O  9.002 -7.535 32
-UPG "O3'" O  6.404 -9.035 33
-UPG "O4'" O  3.805 -7.535 34
-UPG "O5'" O  6.404 -4.535 35
-UPG "O6'" O  3.805 -3.035 36
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-UPG    N1    C2 SINGLE       NONE  1
-UPG    N1    C6 SINGLE       NONE  2
-UPG    N1   C1C SINGLE BEGINWEDGE  3
-UPG    C2    N3 SINGLE       NONE  4
-UPG    C2    O2 DOUBLE       NONE  5
-UPG    N3    C4 SINGLE       NONE  6
-UPG    C4    C5 SINGLE       NONE  7
-UPG    C4    O4 DOUBLE       NONE  8
-UPG    C5    C6 DOUBLE       NONE  9
-UPG   C1C   C2C SINGLE       NONE 10
-UPG   C1C   O4C SINGLE       NONE 11
-UPG   C2C   O2C SINGLE BEGINWEDGE 12
-UPG   C2C   C3C SINGLE       NONE 13
-UPG   C3C   C4C SINGLE       NONE 14
-UPG   C3C   O3C SINGLE BEGINWEDGE 15
-UPG   C4C   O4C SINGLE       NONE 16
-UPG   C4C   C5C SINGLE  BEGINDASH 17
-UPG   C5C   O5C SINGLE       NONE 18
-UPG   O5C    PA SINGLE       NONE 19
-UPG    PA   O1A DOUBLE       NONE 20
-UPG    PA   O2A SINGLE       NONE 21
-UPG    PA   O3A SINGLE       NONE 22
-UPG   O3A    PB SINGLE       NONE 23
-UPG    PB   O1B DOUBLE       NONE 24
-UPG    PB   O2B SINGLE       NONE 25
-UPG    PB   O3B SINGLE       NONE 26
-UPG   O3B "C1'" SINGLE BEGINWEDGE 27
-UPG "C1'" "C2'" SINGLE       NONE 28
-UPG "C1'" "O5'" SINGLE       NONE 29
-UPG "C2'" "C3'" SINGLE       NONE 30
-UPG "C2'" "O2'" SINGLE  BEGINDASH 31
-UPG "C3'" "C4'" SINGLE       NONE 32
-UPG "C3'" "O3'" SINGLE BEGINWEDGE 33
-UPG "C4'" "C5'" SINGLE       NONE 34
-UPG "C4'" "O4'" SINGLE BEGINWEDGE 35
-UPG "C5'" "C6'" SINGLE BEGINWEDGE 36
-UPG "C5'" "O5'" SINGLE       NONE 37
-UPG "C6'" "O6'" SINGLE       NONE 38
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-UPG MurckoScaffold S1 scaffold O=c1ccn([C@H]2CC[C@H](CO[PH](=O)O[PH](=O)O[C@H]3CCCCO3)O2)c(=O)[nH]1 InChI=1S/C14H22N2O9P2/c17-11-6-7-16(14(18)15-11)12-5-4-10(23-12)9-22-26(19)25-27(20)24-13-3-1-2-8-21-13/h6-7,10,12-13,26-27H,1-5,8-9H2,(H,15,17,18)/t10-,12-,13+/m1/s1 AKKVBKIXAFLMCT-RTXFEEFZSA-N
-UPG      phosphate F1 fragment                                                           O=P(O)(O)O                                                                                                                                InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-UPG       pyranose F2 fragment                                                            OC1CCCCO1                                                                                                                          InChI=1S/C5H10O2/c6-5-3-1-2-4-7-5/h5-6H,1-4H2 CELWCAITJAEQNL-UHFFFAOYSA-N
-UPG     pyrimidine F3 fragment                                                             c1cncnc1                                                                                                                                   InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-UPG         ribose F4 fragment                                                        OCC1OCC(O)C1O                                                                                                                      InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-UPG   O5C F1 1
-UPG    PA F1 1
-UPG   O1A F1 1
-UPG   O2A F1 1
-UPG   O3A F1 1
-UPG   O3A F1 2
-UPG    PB F1 2
-UPG   O1B F1 2
-UPG   O2B F1 2
-UPG   O3B F1 2
-UPG "C4'" F2 1
-UPG "C5'" F2 1
-UPG "O5'" F2 1
-UPG "C1'" F2 1
-UPG "C2'" F2 1
-UPG "C3'" F2 1
-UPG   O3B F2 1
-UPG    C5 F3 1
-UPG    C4 F3 1
-UPG    N3 F3 1
-UPG    C2 F3 1
-UPG    N1 F3 1
-UPG    C6 F3 1
-UPG   C2C F4 1
-UPG   C3C F4 1
-UPG   C4C F4 1
-UPG   O4C F4 1
-UPG   C1C F4 1
-UPG   C5C F4 1
-UPG   O5C F4 1
-UPG   O3C F4 1
-UPG   O2C F4 1
-UPG    N1 S1 1
-UPG    C2 S1 1
-UPG    N3 S1 1
-UPG    C4 S1 1
-UPG    C5 S1 1
-UPG    C6 S1 1
-UPG    O2 S1 1
-UPG    O4 S1 1
-UPG   C1C S1 1
-UPG   C2C S1 1
-UPG   C3C S1 1
-UPG   C4C S1 1
-UPG   O4C S1 1
-UPG   C5C S1 1
-UPG   O5C S1 1
-UPG    PA S1 1
-UPG   O1A S1 1
-UPG   O3A S1 1
-UPG    PB S1 1
-UPG   O1B S1 1
-UPG   O3B S1 1
-UPG "C1'" S1 1
-UPG "C2'" S1 1
-UPG "C3'" S1 1
-UPG "C4'" S1 1
-UPG "C5'" S1 1
-UPG "O5'" S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               UPG
-_pdbe_chem_comp_rdkit_properties.exactmw                               566.055
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           19
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           9
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     17
-_pdbe_chem_comp_rdkit_properties.NumHBD                                9
-_pdbe_chem_comp_rdkit_properties.NumHBA                                18
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        21
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.733
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     2
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             233.898
-_pdbe_chem_comp_rdkit_properties.tpsa                                  296.990
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.994
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             109.002
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         36
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-UPG UniChem        ChEMBL     CHEMBL375951
-UPG UniChem      DrugBank          DB01861
-UPG UniChem "KEGG LIGAND"           C00029
-UPG UniChem         ChEBI            46229
-UPG UniChem         ChEBI            52249
-UPG UniChem          ZINC ZINC000008215472
-UPG UniChem     BindingDb         50209659
-UPG UniChem     BindingDb         50423218
-UPG UniChem  MetaboLights       MTBLC46229
-UPG UniChem        BRENDA           107457
-UPG UniChem        BRENDA           107464
-UPG UniChem        BRENDA           129835
-UPG UniChem        BRENDA              186
-UPG UniChem        BRENDA           198459
-UPG UniChem        BRENDA            23835
-UPG UniChem        BRENDA              364
-UPG UniChem        BRENDA            41824
-UPG UniChem        BRENDA            44923
-UPG UniChem        BRENDA               64
-UPG UniChem        BRENDA             7631
-UPG UniChem        BRENDA              889
-UPG UniChem        BRENDA            98588
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-UPG     N1 -6.321 -0.687 -0.581 ETKDGv2  1
-UPG     C2 -7.022 -0.442 -1.818 ETKDGv2  2
-UPG     N3 -8.181 -1.214 -2.138 ETKDGv2  3
-UPG     C4 -8.643 -2.198 -1.212 ETKDGv2  4
-UPG     C5 -7.927 -2.396  0.055 ETKDGv2  5
-UPG     C6 -6.838 -1.674  0.339 ETKDGv2  6
-UPG     O2 -6.625  0.446 -2.620 ETKDGv2  7
-UPG     O4 -9.661 -2.889 -1.477 ETKDGv2  8
-UPG    C1C -5.144  0.127 -0.227 ETKDGv2  9
-UPG    C2C -5.540  1.467  0.391 ETKDGv2 10
-UPG    O2C -6.732  1.380  1.142 ETKDGv2 11
-UPG    C3C -4.341  1.778  1.254 ETKDGv2 12
-UPG    C4C -3.813  0.382  1.610 ETKDGv2 13
-UPG    O4C -4.299 -0.559  0.673 ETKDGv2 14
-UPG    O3C -4.702  2.508  2.398 ETKDGv2 15
-UPG    C5C -2.282  0.331  1.657 ETKDGv2 16
-UPG    O5C -1.758  0.556  0.368 ETKDGv2 17
-UPG     PA -0.056  0.531  0.462 ETKDGv2 18
-UPG    O1A  0.402 -0.830  0.941 ETKDGv2 19
-UPG    O2A  0.469  1.723  1.547 ETKDGv2 20
-UPG    O3A  0.560  0.821 -1.099 ETKDGv2 21
-UPG     PB  2.231  1.115 -0.957 ETKDGv2 22
-UPG    O1B  2.448  2.494 -0.372 ETKDGv2 23
-UPG    O2B  2.901  1.056 -2.512 ETKDGv2 24
-UPG    O3B  2.961 -0.068  0.041 ETKDGv2 25
-UPG  "C1'"  4.363  0.098  0.027 ETKDGv2 26
-UPG  "C2'"  4.956 -0.654  1.242 ETKDGv2 27
-UPG  "C3'"  6.410 -1.131  0.970 ETKDGv2 28
-UPG  "C4'"  7.102 -0.204 -0.048 ETKDGv2 29
-UPG  "C5'"  6.243 -0.063 -1.354 ETKDGv2 30
-UPG  "C6'"  6.799 -0.872 -2.537 ETKDGv2 31
-UPG  "O2'"  4.892  0.147  2.397 ETKDGv2 32
-UPG  "O3'"  6.401 -2.443  0.466 ETKDGv2 33
-UPG  "O4'"  8.402 -0.666 -0.320 ETKDGv2 34
-UPG  "O5'"  4.891 -0.462 -1.161 ETKDGv2 35
-UPG  "O6'"  7.995 -0.302 -2.997 ETKDGv2 36
-UPG    HN3 -8.689 -1.056 -3.036 ETKDGv2 37
-UPG     H5 -8.287 -3.129  0.766 ETKDGv2 38
-UPG     H6 -6.347 -1.841  1.290 ETKDGv2 39
-UPG    H1C -4.546  0.323 -1.146 ETKDGv2 40
-UPG    H2C -5.671  2.241 -0.397 ETKDGv2 41
-UPG   HO2C -6.598  0.712  1.865 ETKDGv2 42
-UPG    H3C -3.604  2.353  0.646 ETKDGv2 43
-UPG    H4C -4.199  0.091  2.613 ETKDGv2 44
-UPG   HO3C -3.853  2.801  2.822 ETKDGv2 45
-UPG   H5C1 -1.927  1.102  2.378 ETKDGv2 46
-UPG   H5C2 -1.986 -0.677  2.027 ETKDGv2 47
-UPG   HOA2  0.043  2.558  1.228 ETKDGv2 48
-UPG   HOB2  3.691  1.653 -2.478 ETKDGv2 49
-UPG  "H1'"  4.635  1.181  0.115 ETKDGv2 50
-UPG  "H2'"  4.332 -1.555  1.438 ETKDGv2 51
-UPG  "H3'"  6.994 -1.108  1.921 ETKDGv2 52
-UPG  "H4'"  7.175  0.811  0.411 ETKDGv2 53
-UPG  "H5'"  6.251  1.006 -1.668 ETKDGv2 54
-UPG "H6'1"  6.055 -0.863 -3.365 ETKDGv2 55
-UPG "H6'2"  6.968 -1.928 -2.231 ETKDGv2 56
-UPG "HO2'"  5.508  0.915  2.266 ETKDGv2 57
-UPG "HO3'"  6.250 -3.048  1.239 ETKDGv2 58
-UPG "HO4'"  8.953 -0.471  0.483 ETKDGv2 59
-UPG "HO6'"  8.308 -0.881 -3.739 ETKDGv2 60
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+UPG "Create component"   1999-07-08 RCSB 
+UPG "Modify descriptor"  2011-06-04 RCSB 
+UPG "Other modification" 2013-05-07 RCSB 
+# 

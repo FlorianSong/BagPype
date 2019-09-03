@@ -1,493 +1,182 @@
 data_ECV
-#
-_chem_comp.id                                        ECV
-_chem_comp.name                                      2-[(3~{S})-7-fluoranyl-4-[(3-oxidanylidene-4~{H}-1,4-benzoxazin-6-yl)carbonyl]-2,3-dihydro-1,4-benzoxazin-3-yl]-~{N}-methyl-ethanamide
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C20 H18 F N3 O5"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2017-01-19
-_chem_comp.pdbx_modified_date                        2018-03-02
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            399.372
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         ECV
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            5MWP
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    ECV 
+_chem_comp.name                                  "2-[(3~{S})-7-fluoranyl-4-[(3-oxidanylidene-4~{H}-1,4-benzoxazin-6-yl)carbonyl]-2,3-dihydro-1,4-benzoxazin-3-yl]-~{N}-methyl-ethanamide" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C20 H18 F N3 O5" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-01-19 
+_chem_comp.pdbx_modified_date                    2018-03-02 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        399.372 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ECV 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5MWP 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ECV  C1  C1 C 0 1 N N N  7.668 19.696 13.472  0.701  3.164 -2.260  C1 ECV  1
-ECV  C3  C2 C 0 1 N N N  7.792 17.302 13.131 -0.994  2.455 -0.660  C3 ECV  2
-ECV  O4  O1 O 0 1 N N N  7.762 17.368 11.910 -1.696  2.126 -1.593  O4 ECV  3
-ECV  C7  C3 C 0 1 N N N  6.858 14.592 15.686 -1.869  0.524  2.511  C7 ECV  4
-ECV  C9  C4 C 0 1 Y N N  9.118 14.131 16.194 -3.580 -0.278  1.051  C9 ECV  5
-ECV C10  C5 C 0 1 Y N N 10.122 13.191 16.361 -4.881 -0.729  0.890 C10 ECV  6
-ECV C11  C6 C 0 1 Y N N 11.329 13.620 16.869 -5.224 -1.467 -0.230 C11 ECV  7
-ECV C13  C7 C 0 1 Y N N 11.546 14.945 17.194 -4.273 -1.758 -1.192 C13 ECV  8
-ECV C14  C8 C 0 1 Y N N 10.542 15.878 17.032 -2.973 -1.311 -1.038 C14 ECV  9
-ECV C15  C9 C 0 1 Y N N  9.311 15.466 16.542 -2.621 -0.575  0.078 C15 ECV 10
-ECV C19 C10 C 0 1 Y N N  8.196 17.526 18.607  1.104 -0.276 -0.194 C19 ECV 11
-ECV C20 C11 C 0 1 Y N N  8.231 16.443 19.473  1.405  0.943  0.420 C20 ECV 12
-ECV C21 C12 C 0 1 Y N N  8.575 16.637 20.807  2.713  1.264  0.714 C21 ECV 13
-ECV C22 C13 C 0 1 Y N N  8.874 17.917 21.252  3.733  0.379  0.400 C22 ECV 14
-ECV C24 C14 C 0 1 N N N 10.070 19.254 22.763  5.885 -0.403  1.031 C24 ECV 15
-ECV  N2  N1 N 0 1 N N N  7.900 18.372 13.950  0.225  2.985 -0.887  N2 ECV 16
-ECV  C5 C15 C 0 1 N N N  7.790 15.983 13.849 -1.484  2.271  0.753  C5 ECV 17
-ECV  C6 C16 C 0 1 N N S  7.300 15.980 15.290 -1.047  0.899  1.270  C6 ECV 18
-ECV  O8  O2 O 0 1 N N N  7.925 13.641 15.639 -3.250  0.453  2.149  O8 ECV 19
-ECV F12  F1 F 0 1 N N N 12.303 12.717 17.028 -6.493 -1.905 -0.384 F12 ECV 20
-ECV N16  N2 N 0 1 N N N  8.257 16.394 16.318 -1.299 -0.126  0.243 N16 ECV 21
-ECV C17 C17 C 0 1 N N N  7.847 17.440 17.163 -0.296 -0.616 -0.513 C17 ECV 22
-ECV O18  O3 O 0 1 N N N  7.173 18.373 16.749 -0.546 -1.340 -1.459 O18 ECV 23
-ECV O23  O4 O 0 1 N N N  9.178 18.142 22.588  5.025  0.687  0.686 O23 ECV 24
-ECV C25 C18 C 0 1 N N N  9.552 20.509 22.125  5.694 -1.529  0.047 C25 ECV 25
-ECV O26  O5 O 0 1 N N N  9.609 21.608 22.669  6.622 -2.260 -0.228 O26 ECV 26
-ECV N27  N3 N 0 1 N N N  9.073 20.282 20.859  4.485 -1.721 -0.525 N27 ECV 27
-ECV C28 C19 C 0 1 Y N N  8.808 18.991 20.390  3.439 -0.840 -0.214 C28 ECV 28
-ECV C29 C20 C 0 1 Y N N  8.492 18.798 19.063  2.131 -1.169 -0.511 C29 ECV 29
-ECV  H1  H1 H 0 1 N N N  7.807 20.413 14.294  0.737  2.196 -2.761  H1 ECV 30
-ECV  H2  H2 H 0 1 N N N  8.378 19.923 12.663  0.022  3.826 -2.797  H2 ECV 31
-ECV  H3  H3 H 0 1 N N N  6.640 19.773 13.089  1.699  3.602 -2.245  H3 ECV 32
-ECV  H4  H4 H 0 1 N N N  6.462 14.627 16.712 -1.540 -0.445  2.888  H4 ECV 33
-ECV  H5  H5 H 0 1 N N N  6.064 14.265 14.998 -1.732  1.281  3.283  H5 ECV 34
-ECV  H6  H6 H 0 1 N N N  9.964 12.155 16.101 -5.627 -0.505  1.639  H6 ECV 35
-ECV  H7  H7 H 0 1 N N N 12.508 15.253 17.577 -4.546 -2.333 -2.064  H7 ECV 36
-ECV  H8  H8 H 0 1 N N N 10.712 16.915 17.283 -2.230 -1.538 -1.788  H8 ECV 37
-ECV  H9  H9 H 0 1 N N N  7.992 15.453 19.113  0.612  1.634  0.664  H9 ECV 38
-ECV H10 H10 H 0 1 N N N  8.609 15.800 21.489  2.943  2.207  1.189 H10 ECV 39
-ECV H11 H11 H 0 1 N N N 11.041 19.003 22.311  6.922 -0.069  1.004 H11 ECV 40
-ECV H12 H12 H 0 1 N N N 10.203 19.434 23.840  5.642 -0.753  2.034 H12 ECV 41
-ECV H13 H13 H 0 1 N N N  8.147 18.233 14.909  0.786  3.248 -0.140 H13 ECV 42
-ECV H14 H14 H 0 1 N N N  7.147 15.296 13.279 -1.062  3.050  1.388 H14 ECV 43
-ECV H15 H15 H 0 1 N N N  8.823 15.604 13.849 -2.572  2.336  0.772 H15 ECV 44
-ECV H16 H16 H 0 1 N N N  6.423 16.641 15.346  0.014  0.919  1.521 H16 ECV 45
-ECV H17 H17 H 0 1 N N N  8.909 21.062 20.255  4.343 -2.457 -1.141 H17 ECV 46
-ECV H18 H18 H 0 1 N N N  8.475 19.636 18.382  1.903 -2.112 -0.986 H18 ECV 47
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ECV C1  C1  C 0 1 N N N 7.668  19.696 13.472 0.701  3.164  -2.260 C1  ECV 1  
+ECV C3  C2  C 0 1 N N N 7.792  17.302 13.131 -0.994 2.455  -0.660 C3  ECV 2  
+ECV O4  O1  O 0 1 N N N 7.762  17.368 11.910 -1.696 2.126  -1.593 O4  ECV 3  
+ECV C7  C3  C 0 1 N N N 6.858  14.592 15.686 -1.869 0.524  2.511  C7  ECV 4  
+ECV C9  C4  C 0 1 Y N N 9.118  14.131 16.194 -3.580 -0.278 1.051  C9  ECV 5  
+ECV C10 C5  C 0 1 Y N N 10.122 13.191 16.361 -4.881 -0.729 0.890  C10 ECV 6  
+ECV C11 C6  C 0 1 Y N N 11.329 13.620 16.869 -5.224 -1.467 -0.230 C11 ECV 7  
+ECV C13 C7  C 0 1 Y N N 11.546 14.945 17.194 -4.273 -1.758 -1.192 C13 ECV 8  
+ECV C14 C8  C 0 1 Y N N 10.542 15.878 17.032 -2.973 -1.311 -1.038 C14 ECV 9  
+ECV C15 C9  C 0 1 Y N N 9.311  15.466 16.542 -2.621 -0.575 0.078  C15 ECV 10 
+ECV C19 C10 C 0 1 Y N N 8.196  17.526 18.607 1.104  -0.276 -0.194 C19 ECV 11 
+ECV C20 C11 C 0 1 Y N N 8.231  16.443 19.473 1.405  0.943  0.420  C20 ECV 12 
+ECV C21 C12 C 0 1 Y N N 8.575  16.637 20.807 2.713  1.264  0.714  C21 ECV 13 
+ECV C22 C13 C 0 1 Y N N 8.874  17.917 21.252 3.733  0.379  0.400  C22 ECV 14 
+ECV C24 C14 C 0 1 N N N 10.070 19.254 22.763 5.885  -0.403 1.031  C24 ECV 15 
+ECV N2  N1  N 0 1 N N N 7.900  18.372 13.950 0.225  2.985  -0.887 N2  ECV 16 
+ECV C5  C15 C 0 1 N N N 7.790  15.983 13.849 -1.484 2.271  0.753  C5  ECV 17 
+ECV C6  C16 C 0 1 N N S 7.300  15.980 15.290 -1.047 0.899  1.270  C6  ECV 18 
+ECV O8  O2  O 0 1 N N N 7.925  13.641 15.639 -3.250 0.453  2.149  O8  ECV 19 
+ECV F12 F1  F 0 1 N N N 12.303 12.717 17.028 -6.493 -1.905 -0.384 F12 ECV 20 
+ECV N16 N2  N 0 1 N N N 8.257  16.394 16.318 -1.299 -0.126 0.243  N16 ECV 21 
+ECV C17 C17 C 0 1 N N N 7.847  17.440 17.163 -0.296 -0.616 -0.513 C17 ECV 22 
+ECV O18 O3  O 0 1 N N N 7.173  18.373 16.749 -0.546 -1.340 -1.459 O18 ECV 23 
+ECV O23 O4  O 0 1 N N N 9.178  18.142 22.588 5.025  0.687  0.686  O23 ECV 24 
+ECV C25 C18 C 0 1 N N N 9.552  20.509 22.125 5.694  -1.529 0.047  C25 ECV 25 
+ECV O26 O5  O 0 1 N N N 9.609  21.608 22.669 6.622  -2.260 -0.228 O26 ECV 26 
+ECV N27 N3  N 0 1 N N N 9.073  20.282 20.859 4.485  -1.721 -0.525 N27 ECV 27 
+ECV C28 C19 C 0 1 Y N N 8.808  18.991 20.390 3.439  -0.840 -0.214 C28 ECV 28 
+ECV C29 C20 C 0 1 Y N N 8.492  18.798 19.063 2.131  -1.169 -0.511 C29 ECV 29 
+ECV H1  H1  H 0 1 N N N 7.807  20.413 14.294 0.737  2.196  -2.761 H1  ECV 30 
+ECV H2  H2  H 0 1 N N N 8.378  19.923 12.663 0.022  3.826  -2.797 H2  ECV 31 
+ECV H3  H3  H 0 1 N N N 6.640  19.773 13.089 1.699  3.602  -2.245 H3  ECV 32 
+ECV H4  H4  H 0 1 N N N 6.462  14.627 16.712 -1.540 -0.445 2.888  H4  ECV 33 
+ECV H5  H5  H 0 1 N N N 6.064  14.265 14.998 -1.732 1.281  3.283  H5  ECV 34 
+ECV H6  H6  H 0 1 N N N 9.964  12.155 16.101 -5.627 -0.505 1.639  H6  ECV 35 
+ECV H7  H7  H 0 1 N N N 12.508 15.253 17.577 -4.546 -2.333 -2.064 H7  ECV 36 
+ECV H8  H8  H 0 1 N N N 10.712 16.915 17.283 -2.230 -1.538 -1.788 H8  ECV 37 
+ECV H9  H9  H 0 1 N N N 7.992  15.453 19.113 0.612  1.634  0.664  H9  ECV 38 
+ECV H10 H10 H 0 1 N N N 8.609  15.800 21.489 2.943  2.207  1.189  H10 ECV 39 
+ECV H11 H11 H 0 1 N N N 11.041 19.003 22.311 6.922  -0.069 1.004  H11 ECV 40 
+ECV H12 H12 H 0 1 N N N 10.203 19.434 23.840 5.642  -0.753 2.034  H12 ECV 41 
+ECV H13 H13 H 0 1 N N N 8.147  18.233 14.909 0.786  3.248  -0.140 H13 ECV 42 
+ECV H14 H14 H 0 1 N N N 7.147  15.296 13.279 -1.062 3.050  1.388  H14 ECV 43 
+ECV H15 H15 H 0 1 N N N 8.823  15.604 13.849 -2.572 2.336  0.772  H15 ECV 44 
+ECV H16 H16 H 0 1 N N N 6.423  16.641 15.346 0.014  0.919  1.521  H16 ECV 45 
+ECV H17 H17 H 0 1 N N N 8.909  21.062 20.255 4.343  -2.457 -1.141 H17 ECV 46 
+ECV H18 H18 H 0 1 N N N 8.475  19.636 18.382 1.903  -2.112 -0.986 H18 ECV 47 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ECV  O4  C3 DOUB N N  1
-ECV  C3  C5 SING N N  2
-ECV  C3  N2 SING N N  3
-ECV  C1  N2 SING N N  4
-ECV  C5  C6 SING N N  5
-ECV  C6  C7 SING N N  6
-ECV  C6 N16 SING N N  7
-ECV  O8  C7 SING N N  8
-ECV  O8  C9 SING N N  9
-ECV  C9 C10 DOUB Y N 10
-ECV  C9 C15 SING Y N 11
-ECV N16 C15 SING N N 12
-ECV N16 C17 SING N N 13
-ECV C10 C11 SING Y N 14
-ECV C15 C14 DOUB Y N 15
-ECV O18 C17 DOUB N N 16
-ECV C11 F12 SING N N 17
-ECV C11 C13 DOUB Y N 18
-ECV C14 C13 SING Y N 19
-ECV C17 C19 SING N N 20
-ECV C19 C29 DOUB Y N 21
-ECV C19 C20 SING Y N 22
-ECV C29 C28 SING Y N 23
-ECV C20 C21 DOUB Y N 24
-ECV C28 N27 SING N N 25
-ECV C28 C22 DOUB Y N 26
-ECV C21 C22 SING Y N 27
-ECV N27 C25 SING N N 28
-ECV C22 O23 SING N N 29
-ECV C25 O26 DOUB N N 30
-ECV C25 C24 SING N N 31
-ECV O23 C24 SING N N 32
-ECV  C1  H1 SING N N 33
-ECV  C1  H2 SING N N 34
-ECV  C1  H3 SING N N 35
-ECV  C7  H4 SING N N 36
-ECV  C7  H5 SING N N 37
-ECV C10  H6 SING N N 38
-ECV C13  H7 SING N N 39
-ECV C14  H8 SING N N 40
-ECV C20  H9 SING N N 41
-ECV C21 H10 SING N N 42
-ECV C24 H11 SING N N 43
-ECV C24 H12 SING N N 44
-ECV  N2 H13 SING N N 45
-ECV  C5 H14 SING N N 46
-ECV  C5 H15 SING N N 47
-ECV  C6 H16 SING N N 48
-ECV N27 H17 SING N N 49
-ECV C29 H18 SING N N 50
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ECV O4  C3  DOUB N N 1  
+ECV C3  C5  SING N N 2  
+ECV C3  N2  SING N N 3  
+ECV C1  N2  SING N N 4  
+ECV C5  C6  SING N N 5  
+ECV C6  C7  SING N N 6  
+ECV C6  N16 SING N N 7  
+ECV O8  C7  SING N N 8  
+ECV O8  C9  SING N N 9  
+ECV C9  C10 DOUB Y N 10 
+ECV C9  C15 SING Y N 11 
+ECV N16 C15 SING N N 12 
+ECV N16 C17 SING N N 13 
+ECV C10 C11 SING Y N 14 
+ECV C15 C14 DOUB Y N 15 
+ECV O18 C17 DOUB N N 16 
+ECV C11 F12 SING N N 17 
+ECV C11 C13 DOUB Y N 18 
+ECV C14 C13 SING Y N 19 
+ECV C17 C19 SING N N 20 
+ECV C19 C29 DOUB Y N 21 
+ECV C19 C20 SING Y N 22 
+ECV C29 C28 SING Y N 23 
+ECV C20 C21 DOUB Y N 24 
+ECV C28 N27 SING N N 25 
+ECV C28 C22 DOUB Y N 26 
+ECV C21 C22 SING Y N 27 
+ECV N27 C25 SING N N 28 
+ECV C22 O23 SING N N 29 
+ECV C25 O26 DOUB N N 30 
+ECV C25 C24 SING N N 31 
+ECV O23 C24 SING N N 32 
+ECV C1  H1  SING N N 33 
+ECV C1  H2  SING N N 34 
+ECV C1  H3  SING N N 35 
+ECV C7  H4  SING N N 36 
+ECV C7  H5  SING N N 37 
+ECV C10 H6  SING N N 38 
+ECV C13 H7  SING N N 39 
+ECV C14 H8  SING N N 40 
+ECV C20 H9  SING N N 41 
+ECV C21 H10 SING N N 42 
+ECV C24 H11 SING N N 43 
+ECV C24 H12 SING N N 44 
+ECV N2  H13 SING N N 45 
+ECV C5  H14 SING N N 46 
+ECV C5  H15 SING N N 47 
+ECV C6  H16 SING N N 48 
+ECV N27 H17 SING N N 49 
+ECV C29 H18 SING N N 50 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ECV            InChI                InChI  1.03 InChI=1S/C20H18FN3O5/c1-22-18(25)8-13-9-28-17-7-12(21)3-4-15(17)24(13)20(27)11-2-5-16-14(6-11)23-19(26)10-29-16/h2-7,13H,8-10H2,1H3,(H,22,25)(H,23,26)/t13-/m0/s1
-ECV         InChIKey                InChI  1.03                                                                                                                                       MBKYLPOPYYLTNW-ZDUSSCGKSA-N
-ECV SMILES_CANONICAL               CACTVS 3.385                                                                                                              CNC(=O)C[C@H]1COc2cc(F)ccc2N1C(=O)c3ccc4OCC(=O)Nc4c3
-ECV           SMILES               CACTVS 3.385                                                                                                               CNC(=O)C[CH]1COc2cc(F)ccc2N1C(=O)c3ccc4OCC(=O)Nc4c3
-ECV SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                            CNC(=O)C[C@H]1COc2cc(ccc2N1C(=O)c3ccc4c(c3)NC(=O)CO4)F
-ECV           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                                CNC(=O)CC1COc2cc(ccc2N1C(=O)c3ccc4c(c3)NC(=O)CO4)F
-#
-_pdbx_chem_comp_identifier.comp_id               ECV
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.6
-_pdbx_chem_comp_identifier.identifier            2-[(3~{S})-7-fluoranyl-4-[(3-oxidanylidene-4~{H}-1,4-benzoxazin-6-yl)carbonyl]-2,3-dihydro-1,4-benzoxazin-3-yl]-~{N}-methyl-ethanamide
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ECV InChI            InChI                1.03  "InChI=1S/C20H18FN3O5/c1-22-18(25)8-13-9-28-17-7-12(21)3-4-15(17)24(13)20(27)11-2-5-16-14(6-11)23-19(26)10-29-16/h2-7,13H,8-10H2,1H3,(H,22,25)(H,23,26)/t13-/m0/s1" 
+ECV InChIKey         InChI                1.03  MBKYLPOPYYLTNW-ZDUSSCGKSA-N                                                                                                                                         
+ECV SMILES_CANONICAL CACTVS               3.385 "CNC(=O)C[C@H]1COc2cc(F)ccc2N1C(=O)c3ccc4OCC(=O)Nc4c3"                                                                                                              
+ECV SMILES           CACTVS               3.385 "CNC(=O)C[CH]1COc2cc(F)ccc2N1C(=O)c3ccc4OCC(=O)Nc4c3"                                                                                                               
+ECV SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "CNC(=O)C[C@H]1COc2cc(ccc2N1C(=O)c3ccc4c(c3)NC(=O)CO4)F"                                                                                                            
+ECV SMILES           "OpenEye OEToolkits" 2.0.6 "CNC(=O)CC1COc2cc(ccc2N1C(=O)c3ccc4c(c3)NC(=O)CO4)F"                                                                                                                
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ECV "Create component" 2017-01-19  EBI
-ECV  "Initial release" 2018-03-07 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ECV "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "2-[(3~{S})-7-fluoranyl-4-[(3-oxidanylidene-4~{H}-1,4-benzoxazin-6-yl)carbonyl]-2,3-dihydro-1,4-benzoxazin-3-yl]-~{N}-methyl-ethanamide" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ECV  C1 C 13.491  5.651  1
-ECV  C3 C 12.192  3.401  2
-ECV  O4 O 13.491  2.651  3
-ECV  C7 C  9.594  4.901  4
-ECV  C9 C  6.996  4.901  5
-ECV C10 C  5.655  5.703  6
-ECV C11 C  4.296  4.932  7
-ECV C13 C  4.296  3.370  8
-ECV C14 C  5.655  2.599  9
-ECV C15 C  6.996  3.401 10
-ECV C19 C  9.594  0.401 11
-ECV C20 C 10.893  1.151 12
-ECV C21 C 12.192  0.401 13
-ECV C22 C 12.192 -1.099 14
-ECV C24 C 13.569 -3.422 15
-ECV  N2 N 12.192  4.901 16
-ECV  C5 C 10.893  2.651 17
-ECV  C6 C  9.594  3.401 18
-ECV  O8 O  8.295  5.651 19
-ECV F12 F  3.000  5.687 20
-ECV N16 N  8.295  2.651 21
-ECV C17 C  8.295  1.151 22
-ECV O18 O  6.996  0.401 23
-ECV O23 O 13.557 -1.859 24
-ECV C25 C 12.216 -4.203 25
-ECV O26 O 12.210 -5.703 26
-ECV N27 N 10.869 -3.411 27
-ECV C28 C 10.893 -1.849 28
-ECV C29 C  9.594 -1.099 29
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ECV  O4  C3 DOUBLE       NONE  1
-ECV  C3  C5 SINGLE       NONE  2
-ECV  C3  N2 SINGLE       NONE  3
-ECV  C1  N2 SINGLE       NONE  4
-ECV  C5  C6 SINGLE BEGINWEDGE  5
-ECV  C6  C7 SINGLE       NONE  6
-ECV  C6 N16 SINGLE       NONE  7
-ECV  O8  C7 SINGLE       NONE  8
-ECV  O8  C9 SINGLE       NONE  9
-ECV  C9 C10 DOUBLE       NONE 10
-ECV  C9 C15 SINGLE       NONE 11
-ECV N16 C15 SINGLE       NONE 12
-ECV N16 C17 SINGLE       NONE 13
-ECV C10 C11 SINGLE       NONE 14
-ECV C15 C14 DOUBLE       NONE 15
-ECV O18 C17 DOUBLE       NONE 16
-ECV C11 F12 SINGLE       NONE 17
-ECV C11 C13 DOUBLE       NONE 18
-ECV C14 C13 SINGLE       NONE 19
-ECV C17 C19 SINGLE       NONE 20
-ECV C19 C29 SINGLE       NONE 21
-ECV C19 C20 DOUBLE       NONE 22
-ECV C29 C28 DOUBLE       NONE 23
-ECV C20 C21 SINGLE       NONE 24
-ECV C28 N27 SINGLE       NONE 25
-ECV C28 C22 SINGLE       NONE 26
-ECV C21 C22 DOUBLE       NONE 27
-ECV N27 C25 SINGLE       NONE 28
-ECV C22 O23 SINGLE       NONE 29
-ECV C25 O26 DOUBLE       NONE 30
-ECV C25 C24 SINGLE       NONE 31
-ECV O23 C24 SINGLE       NONE 32
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-ECV MurckoScaffold S1 scaffold O=C1COc2ccc(C(=O)N3CCOc4ccccc43)cc2N1 InChI=1S/C17H14N2O4/c20-16-10-23-14-6-5-11(9-12(14)18-16)17(21)19-7-8-22-15-4-2-1-3-13(15)19/h1-6,9H,7-8,10H2,(H,18,20) ATZGRDKFIWORFR-UHFFFAOYSA-N
-ECV          amide F1 fragment                               CC(N)=O                                                                                  InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-ECV         phenyl F2 fragment                              c1ccccc1                                                                                      InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-ECV      Z57040482 F3 fragment                      CC(=O)Nc1ccccc1O                                                       InChI=1S/C8H9NO2/c1-6(10)9-7-4-2-3-5-8(7)11/h2-5,11H,1H3,(H,9,10) ADVGKWPZRIDURE-UHFFFAOYSA-N
-ECV      Z27782760 F4 fragment           CCOc1ccc(C(=O)Nc2ccccc2)cc1                         InChI=1S/C15H15NO2/c1-2-18-14-10-8-12(9-11-14)15(17)16-13-6-4-3-5-7-13/h3-11H,2H2,1H3,(H,16,17) VCHIXAVDNIQOPN-UHFFFAOYSA-N
-ECV    Z2092370954 F5 fragment                CCN(C)C(=O)c1cccc(N)c1                                                  InChI=1S/C10H14N2O/c1-3-12(2)10(13)8-5-4-6-9(11)7-8/h4-7H,3,11H2,1-2H3 URNKFNQWYLXELN-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ECV  N2 F1 1
-ECV  C3 F1 1
-ECV  O4 F1 1
-ECV  C5 F1 1
-ECV N16 F1 2
-ECV C17 F1 2
-ECV O18 F1 2
-ECV C19 F1 2
-ECV N27 F1 3
-ECV C25 F1 3
-ECV O26 F1 3
-ECV C24 F1 3
-ECV  C9 F2 1
-ECV C10 F2 1
-ECV C11 F2 1
-ECV C13 F2 1
-ECV C14 F2 1
-ECV C15 F2 1
-ECV C19 F2 2
-ECV C20 F2 2
-ECV C21 F2 2
-ECV C22 F2 2
-ECV C28 F2 2
-ECV C29 F2 2
-ECV C19 F3 1
-ECV C17 F3 1
-ECV O18 F3 1
-ECV N16 F3 1
-ECV C15 F3 1
-ECV C14 F3 1
-ECV C13 F3 1
-ECV C11 F3 1
-ECV C10 F3 1
-ECV  C9 F3 1
-ECV  O8 F3 1
-ECV C24 F3 2
-ECV C25 F3 2
-ECV O26 F3 2
-ECV N27 F3 2
-ECV C28 F3 2
-ECV C29 F3 2
-ECV C19 F3 2
-ECV C20 F3 2
-ECV C21 F3 2
-ECV C22 F3 2
-ECV O23 F3 2
-ECV C25 F4 1
-ECV C24 F4 1
-ECV O23 F4 1
-ECV C22 F4 1
-ECV C21 F4 1
-ECV C20 F4 1
-ECV C19 F4 1
-ECV C29 F4 1
-ECV C28 F4 1
-ECV C17 F4 1
-ECV O18 F4 1
-ECV N16 F4 1
-ECV C15 F4 1
-ECV  C9 F4 1
-ECV C10 F4 1
-ECV C11 F4 1
-ECV C13 F4 1
-ECV C14 F4 1
-ECV  C7 F5 1
-ECV  C6 F5 1
-ECV N16 F5 1
-ECV C15 F5 1
-ECV C17 F5 1
-ECV O18 F5 1
-ECV C19 F5 1
-ECV C20 F5 1
-ECV C21 F5 1
-ECV C22 F5 1
-ECV C28 F5 1
-ECV N27 F5 1
-ECV C29 F5 1
-ECV  C5 F5 2
-ECV  C6 F5 2
-ECV N16 F5 2
-ECV C15 F5 2
-ECV C17 F5 2
-ECV O18 F5 2
-ECV C19 F5 2
-ECV C20 F5 2
-ECV C21 F5 2
-ECV C22 F5 2
-ECV C28 F5 2
-ECV N27 F5 2
-ECV C29 F5 2
-ECV  C7 S1 1
-ECV  C9 S1 1
-ECV C10 S1 1
-ECV C11 S1 1
-ECV C13 S1 1
-ECV C14 S1 1
-ECV C15 S1 1
-ECV C19 S1 1
-ECV C20 S1 1
-ECV C21 S1 1
-ECV C22 S1 1
-ECV C24 S1 1
-ECV  C6 S1 1
-ECV  O8 S1 1
-ECV N16 S1 1
-ECV C17 S1 1
-ECV O18 S1 1
-ECV O23 S1 1
-ECV C25 S1 1
-ECV O26 S1 1
-ECV N27 S1 1
-ECV C28 S1 1
-ECV C29 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ECV
-_pdbe_chem_comp_rdkit_properties.exactmw                               399.123
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                5
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        9
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         3
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.250
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             190.539
-_pdbe_chem_comp_rdkit_properties.tpsa                                  96.970
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.040
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             98.609
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         29
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ECV UniChem    ChEMBL CHEMBL3916929
-ECV UniChem BindingDb        238159
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ECV  C1 -5.001  3.260 -0.775 ETKDGv2  1
-ECV  C3 -3.199  1.795 -1.822 ETKDGv2  2
-ECV  O4 -3.925  1.545 -2.822 ETKDGv2  3
-ECV  C7 -2.550 -0.445  0.109 ETKDGv2  4
-ECV  C9 -1.538 -2.679  0.290 ETKDGv2  5
-ECV C10 -1.502 -3.881  0.879 ETKDGv2  6
-ECV C11 -0.358 -4.784  0.641 ETKDGv2  7
-ECV C13  0.637 -4.404 -0.170 ETKDGv2  8
-ECV C14  0.591 -3.086 -0.837 ETKDGv2  9
-ECV C15 -0.451 -2.256 -0.624 ETKDGv2 10
-ECV C19  1.694  0.167 -1.076 ETKDGv2 11
-ECV C20  2.841  0.582 -1.649 ETKDGv2 12
-ECV C21  3.945  1.109 -0.821 ETKDGv2 13
-ECV C22  3.812  1.183  0.509 ETKDGv2 14
-ECV C24  4.821  1.806  2.718 ETKDGv2 15
-ECV  N2 -3.680  2.639 -0.765 ETKDGv2 16
-ECV  C5 -1.836  1.170 -1.729 ETKDGv2 17
-ECV  C6 -1.901 -0.315 -1.289 ETKDGv2 18
-ECV  O8 -2.604 -1.811  0.519 ETKDGv2 19
-ECV F12 -0.317 -5.996  1.247 ETKDGv2 20
-ECV N16 -0.568 -0.967 -1.270 ETKDGv2 21
-ECV C17  0.581 -0.367 -1.897 ETKDGv2 22
-ECV O18  0.634 -0.312 -3.156 ETKDGv2 23
-ECV O23  4.857  1.681  1.290 ETKDGv2 24
-ECV C25  3.530  1.349  3.351 ETKDGv2 25
-ECV O26  3.405  1.422  4.602 ETKDGv2 26
-ECV N27  2.448  0.835  2.568 ETKDGv2 27
-ECV C28  2.562  0.740  1.149 ETKDGv2 28
-ECV C29  1.555  0.260  0.403 ETKDGv2 29
-ECV  H1 -5.577  2.910  0.106 ETKDGv2 30
-ECV  H2 -5.568  3.008 -1.695 ETKDGv2 31
-ECV  H3 -4.889  4.363 -0.717 ETKDGv2 32
-ECV  H4 -3.585 -0.044  0.105 ETKDGv2 33
-ECV  H5 -1.956  0.130  0.852 ETKDGv2 34
-ECV  H6 -2.302 -4.189  1.541 ETKDGv2 35
-ECV  H7  1.477 -5.064 -0.347 ETKDGv2 36
-ECV  H8  1.397 -2.818 -1.507 ETKDGv2 37
-ECV  H9  2.980  0.531 -2.722 ETKDGv2 38
-ECV H10  4.861  1.435 -1.296 ETKDGv2 39
-ECV H11  5.656  1.210  3.143 ETKDGv2 40
-ECV H12  4.989  2.871  2.982 ETKDGv2 41
-ECV H13 -3.066  2.815  0.062 ETKDGv2 42
-ECV H14 -1.201  1.747 -1.021 ETKDGv2 43
-ECV H15 -1.372  1.246 -2.734 ETKDGv2 44
-ECV H16 -2.540 -0.866 -2.014 ETKDGv2 45
-ECV H17  1.571  0.529  3.048 ETKDGv2 46
-ECV H18  0.638 -0.055  0.883 ETKDGv2 47
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ECV "Create component" 2017-01-19 EBI  
+ECV "Initial release"  2018-03-07 RCSB 
+# 

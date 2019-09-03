@@ -1,285 +1,143 @@
 data_ACL
-#
-_chem_comp.id                                        ACL
-_chem_comp.name                                      DEOXY-CHLOROMETHYL-ARGININE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C7 H15 Cl N4 O"
-_chem_comp.mon_nstd_parent_comp_id                   ARG
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-08-31
-_chem_comp.pdbx_modified_date                        2011-08-06
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       OBS
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            206.673
-_chem_comp.one_letter_code                           R
-_chem_comp.three_letter_code                         ACL
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1CVR
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    ACL 
+_chem_comp.name                                  DEOXY-CHLOROMETHYL-ARGININE 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C7 H15 Cl N4 O" 
+_chem_comp.mon_nstd_parent_comp_id               ARG 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-08-31 
+_chem_comp.pdbx_modified_date                    2011-08-06 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   OBS 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        206.673 
+_chem_comp.one_letter_code                       R 
+_chem_comp.three_letter_code                     ACL 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1CVR 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ACL    N    N  N 0 1 N N N 61.699 20.989 50.643  2.289 -0.171  1.070    N ACL  1
-ACL   CA   CA  C 0 1 N N S 60.424 21.526 51.123  0.946  0.397  1.247   CA ACL  2
-ACL   CB   CB  C 0 1 N N N 60.666 22.488 52.322  0.032 -0.091  0.121   CB ACL  3
-ACL   CG   CG  C 0 1 N N N 61.233 21.752 53.553  0.601  0.353 -1.226   CG ACL  4
-ACL   CD   CD  C 0 1 N N N 61.403 22.760 54.719 -0.312 -0.135 -2.352   CD ACL  5
-ACL   NE   NE  N 0 1 N N N 61.842 22.107 55.972  0.232  0.291 -3.643   NE ACL  6
-ACL   CZ   CZ  C 0 1 N N N 60.825 21.620 56.755 -0.422 -0.034 -4.807   CZ ACL  7
-ACL  NH1  NH1  N 0 1 N N N 59.572 21.786 56.402 -1.528 -0.723 -4.762  NH1 ACL  8
-ACL  NH2  NH2  N 0 1 N N N 61.116 20.995 57.834  0.088  0.365 -6.019  NH2 ACL  9
-ACL    C    C  C 0 1 N N N 59.752 22.319 49.981  0.386 -0.041  2.575    C ACL 10
-ACL    O    O  O 0 1 N N N 58.871 23.113 50.240  0.711 -1.104  3.046    O ACL 11
-ACL   CM   CM  C 0 1 N N N 60.133 22.098 48.527 -0.580  0.846  3.316   CM ACL 12
-ACL   CL   CL CL 0 0 N Y N 61.544 23.207 48.565 -1.066  0.051  4.859   CL ACL 13
-ACL    H  1HN  H 0 1 N N N 61.540 20.358 49.857  2.185 -1.175  1.102    H ACL 14
-ACL   H2  2HN  H 0 1 N Y N 62.230 20.541 51.390  2.580  0.059  0.132   H2 ACL 15
-ACL   HA   HA  H 0 1 N N N 59.772 20.682 51.450  1.006  1.485  1.219   HA ACL 16
-ACL  HB2  1HB  H 0 1 N N N 61.317 23.343 52.027 -0.027 -1.179  0.149  HB2 ACL 17
-ACL  HB3  2HB  H 0 1 N N N 59.739 23.051 52.580 -0.963  0.330  0.253  HB3 ACL 18
-ACL  HG2  1HG  H 0 1 N N N 60.612 20.871 53.842  0.661  1.441 -1.254  HG2 ACL 19
-ACL  HG3  2HG  H 0 1 N N N 62.179 21.209 53.322  1.597 -0.068 -1.358  HG3 ACL 20
-ACL  HD2  1HD  H 0 1 N N N 62.092 23.589 54.435 -0.372 -1.223 -2.324  HD2 ACL 21
-ACL  HD3  2HD  H 0 1 N N N 60.470 23.349 54.879 -1.308  0.287 -2.220  HD3 ACL 22
-ACL   HE  HNE  H 0 1 N N N 62.431 22.740 56.512  1.055  0.803 -3.677   HE ACL 23
-ACL  HH1  HN1  H 0 1 N N N 59.196 22.693 56.676 -1.990 -0.953 -5.583  HH1 ACL 24
-ACL HH21 1HN2  H 0 0 N N N 60.360 20.633 58.415 -0.374  0.135 -6.840 HH21 ACL 25
-ACL HH22 2HN2  H 0 0 N N N 61.714 21.589 58.406  0.911  0.877 -6.053 HH22 ACL 26
-ACL  HM1  1HM  H 0 1 N N N 60.302 21.050 48.185 -0.102  1.801  3.534  HM1 ACL 27
-ACL  HM2  2HM  H 0 1 N N N 59.352 22.274 47.750 -1.463  1.014  2.700  HM2 ACL 28
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ACL N    N    N  0 1 N N N 61.699 20.989 50.643 2.289  -0.171 1.070  N    ACL 1  
+ACL CA   CA   C  0 1 N N S 60.424 21.526 51.123 0.946  0.397  1.247  CA   ACL 2  
+ACL CB   CB   C  0 1 N N N 60.666 22.488 52.322 0.032  -0.091 0.121  CB   ACL 3  
+ACL CG   CG   C  0 1 N N N 61.233 21.752 53.553 0.601  0.353  -1.226 CG   ACL 4  
+ACL CD   CD   C  0 1 N N N 61.403 22.760 54.719 -0.312 -0.135 -2.352 CD   ACL 5  
+ACL NE   NE   N  0 1 N N N 61.842 22.107 55.972 0.232  0.291  -3.643 NE   ACL 6  
+ACL CZ   CZ   C  0 1 N N N 60.825 21.620 56.755 -0.422 -0.034 -4.807 CZ   ACL 7  
+ACL NH1  NH1  N  0 1 N N N 59.572 21.786 56.402 -1.528 -0.723 -4.762 NH1  ACL 8  
+ACL NH2  NH2  N  0 1 N N N 61.116 20.995 57.834 0.088  0.365  -6.019 NH2  ACL 9  
+ACL C    C    C  0 1 N N N 59.752 22.319 49.981 0.386  -0.041 2.575  C    ACL 10 
+ACL O    O    O  0 1 N N N 58.871 23.113 50.240 0.711  -1.104 3.046  O    ACL 11 
+ACL CM   CM   C  0 1 N N N 60.133 22.098 48.527 -0.580 0.846  3.316  CM   ACL 12 
+ACL CL   CL   CL 0 0 N Y N 61.544 23.207 48.565 -1.066 0.051  4.859  CL   ACL 13 
+ACL H    1HN  H  0 1 N N N 61.540 20.358 49.857 2.185  -1.175 1.102  H    ACL 14 
+ACL H2   2HN  H  0 1 N Y N 62.230 20.541 51.390 2.580  0.059  0.132  H2   ACL 15 
+ACL HA   HA   H  0 1 N N N 59.772 20.682 51.450 1.006  1.485  1.219  HA   ACL 16 
+ACL HB2  1HB  H  0 1 N N N 61.317 23.343 52.027 -0.027 -1.179 0.149  HB2  ACL 17 
+ACL HB3  2HB  H  0 1 N N N 59.739 23.051 52.580 -0.963 0.330  0.253  HB3  ACL 18 
+ACL HG2  1HG  H  0 1 N N N 60.612 20.871 53.842 0.661  1.441  -1.254 HG2  ACL 19 
+ACL HG3  2HG  H  0 1 N N N 62.179 21.209 53.322 1.597  -0.068 -1.358 HG3  ACL 20 
+ACL HD2  1HD  H  0 1 N N N 62.092 23.589 54.435 -0.372 -1.223 -2.324 HD2  ACL 21 
+ACL HD3  2HD  H  0 1 N N N 60.470 23.349 54.879 -1.308 0.287  -2.220 HD3  ACL 22 
+ACL HE   HNE  H  0 1 N N N 62.431 22.740 56.512 1.055  0.803  -3.677 HE   ACL 23 
+ACL HH1  HN1  H  0 1 N N N 59.196 22.693 56.676 -1.990 -0.953 -5.583 HH1  ACL 24 
+ACL HH21 1HN2 H  0 0 N N N 60.360 20.633 58.415 -0.374 0.135  -6.840 HH21 ACL 25 
+ACL HH22 2HN2 H  0 0 N N N 61.714 21.589 58.406 0.911  0.877  -6.053 HH22 ACL 26 
+ACL HM1  1HM  H  0 1 N N N 60.302 21.050 48.185 -0.102 1.801  3.534  HM1  ACL 27 
+ACL HM2  2HM  H  0 1 N N N 59.352 22.274 47.750 -1.463 1.014  2.700  HM2  ACL 28 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ACL   N   CA SING N N  1
-ACL   N    H SING N N  2
-ACL   N   H2 SING N N  3
-ACL  CA   CB SING N N  4
-ACL  CA    C SING N N  5
-ACL  CA   HA SING N N  6
-ACL  CB   CG SING N N  7
-ACL  CB  HB2 SING N N  8
-ACL  CB  HB3 SING N N  9
-ACL  CG   CD SING N N 10
-ACL  CG  HG2 SING N N 11
-ACL  CG  HG3 SING N N 12
-ACL  CD   NE SING N N 13
-ACL  CD  HD2 SING N N 14
-ACL  CD  HD3 SING N N 15
-ACL  NE   CZ SING N N 16
-ACL  NE   HE SING N N 17
-ACL  CZ  NH1 DOUB N N 18
-ACL  CZ  NH2 SING N N 19
-ACL NH1  HH1 SING N N 20
-ACL NH2 HH21 SING N N 21
-ACL NH2 HH22 SING N N 22
-ACL   C    O DOUB N N 23
-ACL   C   CM SING N N 24
-ACL  CM   CL SING N N 25
-ACL  CM  HM1 SING N N 26
-ACL  CM  HM2 SING N N 27
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ACL N   CA   SING N N 1  
+ACL N   H    SING N N 2  
+ACL N   H2   SING N N 3  
+ACL CA  CB   SING N N 4  
+ACL CA  C    SING N N 5  
+ACL CA  HA   SING N N 6  
+ACL CB  CG   SING N N 7  
+ACL CB  HB2  SING N N 8  
+ACL CB  HB3  SING N N 9  
+ACL CG  CD   SING N N 10 
+ACL CG  HG2  SING N N 11 
+ACL CG  HG3  SING N N 12 
+ACL CD  NE   SING N N 13 
+ACL CD  HD2  SING N N 14 
+ACL CD  HD3  SING N N 15 
+ACL NE  CZ   SING N N 16 
+ACL NE  HE   SING N N 17 
+ACL CZ  NH1  DOUB N N 18 
+ACL CZ  NH2  SING N N 19 
+ACL NH1 HH1  SING N N 20 
+ACL NH2 HH21 SING N N 21 
+ACL NH2 HH22 SING N N 22 
+ACL C   O    DOUB N N 23 
+ACL C   CM   SING N N 24 
+ACL CM  CL   SING N N 25 
+ACL CM  HM1  SING N N 26 
+ACL CM  HM2  SING N N 27 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ACL           SMILES              ACDLabs 10.04                                                             ClCC(=O)C(N)CCCNC(=[N@H])N
-ACL SMILES_CANONICAL               CACTVS 3.341                                                            N[C@@H](CCCNC(N)=N)C(=O)CCl
-ACL           SMILES               CACTVS 3.341                                                              N[CH](CCCNC(N)=N)C(=O)CCl
-ACL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                          C(C[C@@H](C(=O)CCl)N)CNC(=N)N
-ACL           SMILES "OpenEye OEToolkits" 1.5.0                                                               C(CC(C(=O)CCl)N)CNC(=N)N
-ACL            InChI                InChI  1.03 InChI=1S/C7H15ClN4O/c8-4-6(13)5(9)2-1-3-12-7(10)11/h5H,1-4,9H2,(H4,10,11,12)/t5-/m0/s1
-ACL         InChIKey                InChI  1.03                                                            VNDNKFJKUBLYQB-YFKPBYRVSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ACL SMILES           ACDLabs              10.04 "ClCC(=O)C(N)CCCNC(=[N@H])N"                                                             
+ACL SMILES_CANONICAL CACTVS               3.341 "N[C@@H](CCCNC(N)=N)C(=O)CCl"                                                            
+ACL SMILES           CACTVS               3.341 "N[CH](CCCNC(N)=N)C(=O)CCl"                                                              
+ACL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C(C[C@@H](C(=O)CCl)N)CNC(=N)N"                                                          
+ACL SMILES           "OpenEye OEToolkits" 1.5.0 "C(CC(C(=O)CCl)N)CNC(=N)N"                                                               
+ACL InChI            InChI                1.03  "InChI=1S/C7H15ClN4O/c8-4-6(13)5(9)2-1-3-12-7(10)11/h5H,1-4,9H2,(H4,10,11,12)/t5-/m0/s1" 
+ACL InChIKey         InChI                1.03  VNDNKFJKUBLYQB-YFKPBYRVSA-N                                                              
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-ACL "SYSTEMATIC NAME"              ACDLabs 10.04  1-[(4S)-4-amino-6-chloro-5-oxohexyl]guanidine
-ACL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 1-[(4S)-4-amino-6-chloro-5-oxo-hexyl]guanidine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ACL "SYSTEMATIC NAME" ACDLabs              10.04 "1-[(4S)-4-amino-6-chloro-5-oxohexyl]guanidine"  
+ACL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "1-[(4S)-4-amino-6-chloro-5-oxo-hexyl]guanidine" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ACL   "Create component" 1999-08-31  EBI
-ACL  "Modify descriptor" 2011-06-04 RCSB
-ACL "Obsolete component" 2011-08-06 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ACL   N  N  6.404  3.465  1
-ACL  CA  C  7.702  2.715  2
-ACL  CB  C  7.702  1.215  3
-ACL  CG  C  6.404  0.465  4
-ACL  CD  C  6.404 -1.035  5
-ACL  NE  N  5.104 -1.785  6
-ACL  CZ  C  5.104 -3.285  7
-ACL NH1  N  3.805 -4.035  8
-ACL NH2  N  6.404 -4.035  9
-ACL   C  C  9.002  3.465 10
-ACL   O  O  9.002  4.965 11
-ACL  CM  C 10.301  2.715 12
-ACL  CL Cl 11.600  3.465 13
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ACL  N  CA SINGLE BEGINWEDGE  1
-ACL CA  CB SINGLE       NONE  2
-ACL CA   C SINGLE       NONE  3
-ACL CB  CG SINGLE       NONE  4
-ACL CG  CD SINGLE       NONE  5
-ACL CD  NE SINGLE       NONE  6
-ACL NE  CZ SINGLE       NONE  7
-ACL CZ NH1 DOUBLE       NONE  8
-ACL CZ NH2 SINGLE       NONE  9
-ACL  C   O DOUBLE       NONE 10
-ACL  C  CM SINGLE       NONE 11
-ACL CM  CL SINGLE       NONE 12
-#
-_pdbe_chem_comp_substructure.comp_id                      ACL
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ACL  O F1 1
-ACL  C F1 1
-ACL CA F1 1
-ACL  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ACL
-_pdbe_chem_comp_rdkit_properties.exactmw                               206.093
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.714
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             103.732
-_pdbe_chem_comp_rdkit_properties.tpsa                                  104.990
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.615
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             52.853
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         13
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ACL UniChem ChEMBL    CHEMBL1230808
-ACL UniChem   ZINC ZINC000003645191
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ACL    N -1.467  1.898  1.312 ETKDGv2  1
-ACL   CA -1.635  0.484  1.670 ETKDGv2  2
-ACL   CB -0.300 -0.298  1.588 ETKDGv2  3
-ACL   CG  0.247 -0.468  0.159 ETKDGv2  4
-ACL   CD  1.498 -1.354  0.155 ETKDGv2  5
-ACL   NE  2.023 -1.500 -1.201 ETKDGv2  6
-ACL   CZ  2.696 -0.456 -1.925 ETKDGv2  7
-ACL  NH1  2.999 -0.650 -3.169 ETKDGv2  8
-ACL  NH2  3.053  0.781 -1.293 ETKDGv2  9
-ACL    C -2.736 -0.185  0.866 ETKDGv2 10
-ACL    O -3.083 -1.316  1.175 ETKDGv2 11
-ACL   CM -3.447  0.500 -0.270 ETKDGv2 12
-ACL   CL -4.576  1.723  0.362 ETKDGv2 13
-ACL    H -1.071  1.989  0.351 ETKDGv2 14
-ACL   H2 -0.782  2.332  1.972 ETKDGv2 15
-ACL   HA -1.962  0.454  2.733 ETKDGv2 16
-ACL  HB2 -0.457 -1.304  2.037 ETKDGv2 17
-ACL  HB3  0.461  0.220  2.210 ETKDGv2 18
-ACL  HG2  0.502  0.523 -0.266 ETKDGv2 19
-ACL  HG3 -0.521 -0.939 -0.491 ETKDGv2 20
-ACL  HD2  1.222 -2.360  0.542 ETKDGv2 21
-ACL  HD3  2.283 -0.948  0.828 ETKDGv2 22
-ACL   HE  1.900 -2.426 -1.672 ETKDGv2 23
-ACL  HH1  3.494  0.074 -3.736 ETKDGv2 24
-ACL HH21  2.880  0.955 -0.280 ETKDGv2 25
-ACL HH22  3.524  1.536 -1.839 ETKDGv2 26
-ACL  HM1 -2.718  0.977 -0.956 ETKDGv2 27
-ACL  HM2 -4.028 -0.242 -0.860 ETKDGv2 28
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ACL "Create component"   1999-08-31 EBI  
+ACL "Modify descriptor"  2011-06-04 RCSB 
+ACL "Obsolete component" 2011-08-06 RCSB 
+# 

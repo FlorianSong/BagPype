@@ -1,271 +1,122 @@
 data_PUT
-#
-_chem_comp.id                                        PUT
-_chem_comp.name                                      1,4-DIAMINOBUTANE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C4 H12 N2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             PUTRESCINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            88.151
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         PUT
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1A99
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    PUT 
+_chem_comp.name                                  1,4-DIAMINOBUTANE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C4 H12 N2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         PUTRESCINE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        88.151 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     PUT 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1A99 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PUT   N2   N2 N 0 1 N N N 186.923 74.117 33.631 -0.250 -0.020  3.089   N2 PUT  1
-PUT   C4   C4 C 0 1 N N N 186.360 75.016 34.678  0.535 -0.020  1.849   C4 PUT  2
-PUT   C3   C3 C 0 1 N N N 185.783 74.195 35.839 -0.409 -0.020  0.646   C3 PUT  3
-PUT   C2   C2 C 0 1 N N N 185.405 75.031 37.050  0.409 -0.020 -0.646   C2 PUT  4
-PUT   C1   C1 C 0 1 N N N 184.822 74.191 38.179 -0.535 -0.020 -1.849   C1 PUT  5
-PUT   N1   N1 N 0 1 N N N 184.705 75.020 39.428  0.250 -0.020 -3.089   N1 PUT  6
-PUT HN21 1HN2 H 0 0 N N N 187.306 74.662 32.859 -0.734  0.864  3.126 HN21 PUT  7
-PUT HN22 2HN2 H 0 0 N N N 186.236 73.434 33.308  0.410 -0.020  3.852 HN22 PUT  8
-PUT  H41  1H4 H 0 1 N N N 187.110 75.761 35.030  1.164  0.869  1.817  H41 PUT  9
-PUT  H42  2H4 H 0 1 N N N 185.607 75.722 34.256  1.164 -0.910  1.817  H42 PUT 10
-PUT  H31  1H3 H 0 1 N N N 184.915 73.584 35.496 -1.038 -0.910  0.678  H31 PUT 11
-PUT  H32  2H3 H 0 1 N N N 186.483 73.377 36.128 -1.038  0.869  0.678  H32 PUT 12
-PUT  H21  1H2 H 0 1 N N N 186.271 75.636 37.406  1.038  0.869 -0.678  H21 PUT 13
-PUT  H22  2H2 H 0 1 N N N 184.713 75.858 36.766  1.038 -0.910 -0.678  H22 PUT 14
-PUT  H11  1H1 H 0 1 N N N 183.850 73.724 37.894 -1.164 -0.910 -1.817  H11 PUT 15
-PUT  H12  2H1 H 0 1 N N N 185.406 73.257 38.350 -1.164  0.869 -1.817  H12 PUT 16
-PUT HN11 1HN1 H 0 0 N N N 184.314 74.457 40.184 -0.410 -0.020 -3.852 HN11 PUT 17
-PUT HN12 2HN1 H 0 0 N N N 184.170 75.874 39.271  0.735  0.864 -3.126 HN12 PUT 18
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PUT N2   N2   N 0 1 N N N 186.923 74.117 33.631 -0.250 -0.020 3.089  N2   PUT 1  
+PUT C4   C4   C 0 1 N N N 186.360 75.016 34.678 0.535  -0.020 1.849  C4   PUT 2  
+PUT C3   C3   C 0 1 N N N 185.783 74.195 35.839 -0.409 -0.020 0.646  C3   PUT 3  
+PUT C2   C2   C 0 1 N N N 185.405 75.031 37.050 0.409  -0.020 -0.646 C2   PUT 4  
+PUT C1   C1   C 0 1 N N N 184.822 74.191 38.179 -0.535 -0.020 -1.849 C1   PUT 5  
+PUT N1   N1   N 0 1 N N N 184.705 75.020 39.428 0.250  -0.020 -3.089 N1   PUT 6  
+PUT HN21 1HN2 H 0 0 N N N 187.306 74.662 32.859 -0.734 0.864  3.126  HN21 PUT 7  
+PUT HN22 2HN2 H 0 0 N N N 186.236 73.434 33.308 0.410  -0.020 3.852  HN22 PUT 8  
+PUT H41  1H4  H 0 1 N N N 187.110 75.761 35.030 1.164  0.869  1.817  H41  PUT 9  
+PUT H42  2H4  H 0 1 N N N 185.607 75.722 34.256 1.164  -0.910 1.817  H42  PUT 10 
+PUT H31  1H3  H 0 1 N N N 184.915 73.584 35.496 -1.038 -0.910 0.678  H31  PUT 11 
+PUT H32  2H3  H 0 1 N N N 186.483 73.377 36.128 -1.038 0.869  0.678  H32  PUT 12 
+PUT H21  1H2  H 0 1 N N N 186.271 75.636 37.406 1.038  0.869  -0.678 H21  PUT 13 
+PUT H22  2H2  H 0 1 N N N 184.713 75.858 36.766 1.038  -0.910 -0.678 H22  PUT 14 
+PUT H11  1H1  H 0 1 N N N 183.850 73.724 37.894 -1.164 -0.910 -1.817 H11  PUT 15 
+PUT H12  2H1  H 0 1 N N N 185.406 73.257 38.350 -1.164 0.869  -1.817 H12  PUT 16 
+PUT HN11 1HN1 H 0 0 N N N 184.314 74.457 40.184 -0.410 -0.020 -3.852 HN11 PUT 17 
+PUT HN12 2HN1 H 0 0 N N N 184.170 75.874 39.271 0.735  0.864  -3.126 HN12 PUT 18 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PUT N2   C4 SING N N  1
-PUT N2 HN21 SING N N  2
-PUT N2 HN22 SING N N  3
-PUT C4   C3 SING N N  4
-PUT C4  H41 SING N N  5
-PUT C4  H42 SING N N  6
-PUT C3   C2 SING N N  7
-PUT C3  H31 SING N N  8
-PUT C3  H32 SING N N  9
-PUT C2   C1 SING N N 10
-PUT C2  H21 SING N N 11
-PUT C2  H22 SING N N 12
-PUT C1   N1 SING N N 13
-PUT C1  H11 SING N N 14
-PUT C1  H12 SING N N 15
-PUT N1 HN11 SING N N 16
-PUT N1 HN12 SING N N 17
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PUT N2 C4   SING N N 1  
+PUT N2 HN21 SING N N 2  
+PUT N2 HN22 SING N N 3  
+PUT C4 C3   SING N N 4  
+PUT C4 H41  SING N N 5  
+PUT C4 H42  SING N N 6  
+PUT C3 C2   SING N N 7  
+PUT C3 H31  SING N N 8  
+PUT C3 H32  SING N N 9  
+PUT C2 C1   SING N N 10 
+PUT C2 H21  SING N N 11 
+PUT C2 H22  SING N N 12 
+PUT C1 N1   SING N N 13 
+PUT C1 H11  SING N N 14 
+PUT C1 H12  SING N N 15 
+PUT N1 HN11 SING N N 16 
+PUT N1 HN12 SING N N 17 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PUT           SMILES              ACDLabs 10.04                               NCCCCN
-PUT SMILES_CANONICAL               CACTVS 3.341                               NCCCCN
-PUT           SMILES               CACTVS 3.341                               NCCCCN
-PUT SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                             C(CCN)CN
-PUT           SMILES "OpenEye OEToolkits" 1.5.0                             C(CCN)CN
-PUT            InChI                InChI  1.03 InChI=1S/C4H12N2/c5-3-1-2-4-6/h1-6H2
-PUT         InChIKey                InChI  1.03          KIDHWZJUCRJVML-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PUT SMILES           ACDLabs              10.04 NCCCCN                               
+PUT SMILES_CANONICAL CACTVS               3.341 NCCCCN                               
+PUT SMILES           CACTVS               3.341 NCCCCN                               
+PUT SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C(CCN)CN"                           
+PUT SMILES           "OpenEye OEToolkits" 1.5.0 "C(CCN)CN"                           
+PUT InChI            InChI                1.03  InChI=1S/C4H12N2/c5-3-1-2-4-6/h1-6H2 
+PUT InChIKey         InChI                1.03  KIDHWZJUCRJVML-UHFFFAOYSA-N          
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PUT "SYSTEMATIC NAME"              ACDLabs 10.04 butane-1,4-diamine
-PUT "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 butane-1,4-diamine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PUT "SYSTEMATIC NAME" ACDLabs              10.04 butane-1,4-diamine 
+PUT "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 butane-1,4-diamine 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PUT  "Create component" 1999-07-08  EBI
-PUT "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   PUT
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01917
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Putrescine
-_pdbe_chem_comp_drugbank_details.description               "Putrescine is a toxic diamine formed by putrefaction from the decarboxylation of arginine and ornithine. Putrescine is a solid. This compound belongs to the polyamines. These are compounds containing more than one amine group. Known drug targets of putrescine include putrescine-binding periplasmic protein, ornithine decarboxylase, and S-adenosylmethionine decarboxylase proenzyme."
-_pdbe_chem_comp_drugbank_details.cas_number                110-60-1
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           PUT
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01917
-_pdbe_chem_comp_drugbank_classification.parent            Monoalkylamines
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Organonitrogen compounds"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic nitrogen compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as monoalkylamines. These are organic compounds containing an primary aliphatic amine group."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-PUT DB01917                      "Ornithine decarboxylase"                          Humans P11926 unknown 1
-PUT DB01917 "S-adenosylmethionine decarboxylase proenzyme"                          Humans P17707 unknown 2
-PUT DB01917       "Putrescine-binding periplasmic protein" "Escherichia coli (strain K12)" P31133 unknown 3
-PUT DB01917                   "Beta-1 adrenergic receptor"                          Humans P08588 unknown 4
-PUT DB01917                   "Beta-2 adrenergic receptor"                          Humans P07550 unknown 5
-#
-_pdbx_chem_comp_synonyms.comp_id          PUT
-_pdbx_chem_comp_synonyms.name             Putrescine
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PUT N2 N 10.301  0.375 1
-PUT C4 C  9.002 -0.375 2
-PUT C3 C  7.702  0.375 3
-PUT C2 C  6.404 -0.375 4
-PUT C1 C  5.104  0.375 5
-PUT N1 N  3.805 -0.375 6
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PUT N2 C4 SINGLE NONE 1
-PUT C4 C3 SINGLE NONE 2
-PUT C3 C2 SINGLE NONE 3
-PUT C2 C1 SINGLE NONE 4
-PUT C1 N1 SINGLE NONE 5
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PUT
-_pdbe_chem_comp_rdkit_properties.exactmw                               88.100
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                2
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             55.606
-_pdbe_chem_comp_rdkit_properties.tpsa                                  52.040
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.316
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             27.343
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-PUT UniChem        ChEMBL      CHEMBL46257
-PUT UniChem      DrugBank          DB01917
-PUT UniChem "KEGG LIGAND"           C00134
-PUT UniChem "KEGG LIGAND"           C02896
-PUT UniChem         ChEBI            17148
-PUT UniChem          ZINC ZINC000005828633
-PUT UniChem    NMRShiftDB         10006310
-PUT UniChem     BindingDb         50009385
-PUT UniChem  MetaboLights       MTBLC17148
-PUT UniChem        BRENDA           109948
-PUT UniChem        BRENDA             1296
-PUT UniChem        BRENDA              155
-PUT UniChem        BRENDA            16078
-PUT UniChem        BRENDA            21689
-PUT UniChem        BRENDA            49379
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PUT   N2  3.047 -0.329 -0.127 ETKDGv2  1
-PUT   C4  1.828  0.446  0.082 ETKDGv2  2
-PUT   C3  0.601 -0.463 -0.019 ETKDGv2  3
-PUT   C2 -0.695  0.334  0.174 ETKDGv2  4
-PUT   C1 -1.924 -0.580  0.073 ETKDGv2  5
-PUT   N1 -3.163  0.174  0.255 ETKDGv2  6
-PUT HN21  3.182 -0.955  0.701 ETKDGv2  7
-PUT HN22  3.852  0.338 -0.128 ETKDGv2  8
-PUT  H41  1.765  1.239 -0.695 ETKDGv2  9
-PUT  H42  1.859  0.934  1.083 ETKDGv2 10
-PUT  H31  0.591 -0.951 -1.019 ETKDGv2 11
-PUT  H32  0.666 -1.255  0.760 ETKDGv2 12
-PUT  H21 -0.682  0.823  1.173 ETKDGv2 13
-PUT  H22 -0.760  1.125 -0.606 ETKDGv2 14
-PUT  H11 -1.946 -1.073 -0.924 ETKDGv2 15
-PUT  H12 -1.868 -1.374  0.849 ETKDGv2 16
-PUT HN11 -3.213  0.923 -0.473 ETKDGv2 17
-PUT HN12 -3.140  0.641  1.191 ETKDGv2 18
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PUT "Create component"  1999-07-08 EBI  
+PUT "Modify descriptor" 2011-06-04 RCSB 
+# 

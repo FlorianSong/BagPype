@@ -1,304 +1,114 @@
 data_CYS
-#
-_chem_comp.id                                        CYS
-_chem_comp.name                                      CYSTEINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C3 H7 N O2 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             BTC
-_chem_comp.formula_weight                            121.158
-_chem_comp.one_letter_code                           C
-_chem_comp.three_letter_code                         CYS
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    CYS 
+_chem_comp.name                                  CYSTEINE 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C3 H7 N O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         BTC 
+_chem_comp.formula_weight                        121.158 
+_chem_comp.one_letter_code                       C 
+_chem_comp.three_letter_code                     CYS 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-CYS   N   N N 0 1 N N N 22.585 13.716 37.715  1.585  0.483 -0.081   N CYS  1
-CYS  CA  CA C 0 1 N N R 22.372 13.468 39.168  0.141  0.450  0.186  CA CYS  2
-CYS   C   C C 0 1 N N N 21.806 14.686 39.893 -0.095  0.006  1.606   C CYS  3
-CYS   O   O O 0 1 N N N 22.614 15.553 40.277  0.685 -0.742  2.143   O CYS  4
-CYS  CB  CB C 0 1 N N N 23.683 13.019 39.828 -0.533 -0.530 -0.774  CB CYS  5
-CYS  SG  SG S 0 1 N N N 25.202 13.440 38.921 -0.247  0.004 -2.484  SG CYS  6
-CYS OXT OXT O 0 1 N Y N 20.565 14.747 40.076 -1.174  0.443  2.275 OXT CYS  7
-CYS   H   H H 0 1 N N N 22.963 12.902 37.230  1.928 -0.454  0.063   H CYS  8
-CYS  H2 HN2 H 0 1 N Y N 23.171 14.537 37.565  1.693  0.682 -1.065  H2 CYS  9
-CYS  HA  HA H 0 1 N N N 21.614 12.654 39.253 -0.277  1.446  0.042  HA CYS 10
-CYS HB2 1HB H 0 1 N N N 23.739 13.412 40.869 -0.114 -1.526 -0.630 HB2 CYS 11
-CYS HB3 2HB H 0 1 N N N 23.651 11.923 40.031 -1.604 -0.554 -0.575 HB3 CYS 12
-CYS  HG  HG H 0 1 N N N 26.013 13.162 39.329 -0.904 -0.965 -3.145  HG CYS 13
-CYS HXT HXT H 0 1 N Y N 20.212 15.505 40.527 -1.326  0.158  3.186 HXT CYS 14
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+CYS N   N   N 0 1 N N N 22.585 13.716 37.715 1.585  0.483  -0.081 N   CYS 1  
+CYS CA  CA  C 0 1 N N R 22.372 13.468 39.168 0.141  0.450  0.186  CA  CYS 2  
+CYS C   C   C 0 1 N N N 21.806 14.686 39.893 -0.095 0.006  1.606  C   CYS 3  
+CYS O   O   O 0 1 N N N 22.614 15.553 40.277 0.685  -0.742 2.143  O   CYS 4  
+CYS CB  CB  C 0 1 N N N 23.683 13.019 39.828 -0.533 -0.530 -0.774 CB  CYS 5  
+CYS SG  SG  S 0 1 N N N 25.202 13.440 38.921 -0.247 0.004  -2.484 SG  CYS 6  
+CYS OXT OXT O 0 1 N Y N 20.565 14.747 40.076 -1.174 0.443  2.275  OXT CYS 7  
+CYS H   H   H 0 1 N N N 22.963 12.902 37.230 1.928  -0.454 0.063  H   CYS 8  
+CYS H2  HN2 H 0 1 N Y N 23.171 14.537 37.565 1.693  0.682  -1.065 H2  CYS 9  
+CYS HA  HA  H 0 1 N N N 21.614 12.654 39.253 -0.277 1.446  0.042  HA  CYS 10 
+CYS HB2 1HB H 0 1 N N N 23.739 13.412 40.869 -0.114 -1.526 -0.630 HB2 CYS 11 
+CYS HB3 2HB H 0 1 N N N 23.651 11.923 40.031 -1.604 -0.554 -0.575 HB3 CYS 12 
+CYS HG  HG  H 0 1 N N N 26.013 13.162 39.329 -0.904 -0.965 -3.145 HG  CYS 13 
+CYS HXT HXT H 0 1 N Y N 20.212 15.505 40.527 -1.326 0.158  3.186  HXT CYS 14 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-CYS   N  CA SING N N  1
-CYS   N   H SING N N  2
-CYS   N  H2 SING N N  3
-CYS  CA   C SING N N  4
-CYS  CA  CB SING N N  5
-CYS  CA  HA SING N N  6
-CYS   C   O DOUB N N  7
-CYS   C OXT SING N N  8
-CYS  CB  SG SING N N  9
-CYS  CB HB2 SING N N 10
-CYS  CB HB3 SING N N 11
-CYS  SG  HG SING N N 12
-CYS OXT HXT SING N N 13
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+CYS N   CA  SING N N 1  
+CYS N   H   SING N N 2  
+CYS N   H2  SING N N 3  
+CYS CA  C   SING N N 4  
+CYS CA  CB  SING N N 5  
+CYS CA  HA  SING N N 6  
+CYS C   O   DOUB N N 7  
+CYS C   OXT SING N N 8  
+CYS CB  SG  SING N N 9  
+CYS CB  HB2 SING N N 10 
+CYS CB  HB3 SING N N 11 
+CYS SG  HG  SING N N 12 
+CYS OXT HXT SING N N 13 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-CYS           SMILES              ACDLabs 10.04                                                   O=C(O)C(N)CS
-CYS SMILES_CANONICAL               CACTVS 3.341                                              N[C@@H](CS)C(O)=O
-CYS           SMILES               CACTVS 3.341                                                N[CH](CS)C(O)=O
-CYS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                            C([C@@H](C(=O)O)N)S
-CYS           SMILES "OpenEye OEToolkits" 1.5.0                                                 C(C(C(=O)O)N)S
-CYS            InChI                InChI  1.03 InChI=1S/C3H7NO2S/c4-2(1-7)3(5)6/h2,7H,1,4H2,(H,5,6)/t2-/m0/s1
-CYS         InChIKey                InChI  1.03                                    XUJNEKJLAYXESH-REOHCLBHSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+CYS SMILES           ACDLabs              10.04 "O=C(O)C(N)CS"                                                   
+CYS SMILES_CANONICAL CACTVS               3.341 "N[C@@H](CS)C(O)=O"                                              
+CYS SMILES           CACTVS               3.341 "N[CH](CS)C(O)=O"                                                
+CYS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C([C@@H](C(=O)O)N)S"                                            
+CYS SMILES           "OpenEye OEToolkits" 1.5.0 "C(C(C(=O)O)N)S"                                                 
+CYS InChI            InChI                1.03  "InChI=1S/C3H7NO2S/c4-2(1-7)3(5)6/h2,7H,1,4H2,(H,5,6)/t2-/m0/s1" 
+CYS InChIKey         InChI                1.03  XUJNEKJLAYXESH-REOHCLBHSA-N                                      
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-CYS "SYSTEMATIC NAME"              ACDLabs 10.04                               L-cysteine
-CYS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-amino-3-sulfanyl-propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+CYS "SYSTEMATIC NAME" ACDLabs              10.04 L-cysteine                               
+CYS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-amino-3-sulfanyl-propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-CYS  "Create component" 1999-07-08 RCSB
-CYS "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   CYS
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB00151
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      L-Cysteine
-_pdbe_chem_comp_drugbank_details.description               "A thiol-containing non-essential amino acid that is oxidized to form cystine."
-_pdbe_chem_comp_drugbank_details.cas_number                52-90-4
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Cysteine can usually be synthesized by the human body under normal physiological conditions if a sufficient quantity of methionine is available. Cysteine is typically synthesized in the human body when there is sufficient methionine available. Cysteine exhibits antioxidant properties and participates in redox reactions. Cysteine's antioxidant properties are typically expressed in the tripeptide glutathione, which occurs in humans as well as other organisms. Glutathione (GSH) typically requires biosynthesis from its constituent amino acids, cysteine, glycine, and glutamic acid, due to its limited systemic availability. Glutamic acid and glycine are readily available in the diets of most industrialized countries, but the availability of cysteine can be the limiting substrate. In human metabolism, cysteine is also involved in the generation of sulfide present in iron-sulfur clusters and nitrogenase by acting as a precursor. In a 1994 report released by five top cigarette companies, cysteine is one of the 599 additives to cigarettes. Its use or purpose, however, is unknown, like most cigarette additives. Its inclusion in cigarettes could offer two benefits: Acting as an expectorant, since smoking increases mucus production in the lungs; and increasing the beneficial antioxidant glutathione (which is diminished in smokers)."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           CYS
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00151
-_pdbe_chem_comp_drugbank_classification.parent            "Cysteine and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as cysteine and derivatives. These are compounds containing cysteine or a derivative thereof resulting from reaction of cysteine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-CYS DB00151      "Glutamate--cysteine ligase regulatory subunit" Humans P48507 unknown  1
-CYS DB00151       "Glutamate--cysteine ligase catalytic subunit" Humans P48506 unknown  2
-CYS DB00151            "Aspartate aminotransferase, cytoplasmic" Humans P17174 unknown  3
-CYS DB00151                          "Cystathionine gamma-lyase" Humans P32929 unknown  4
-CYS DB00151                        "Cystathionine beta-synthase" Humans P35520 unknown  5
-CYS DB00151                 "Cysteine--tRNA ligase, cytoplasmic" Humans P49589 unknown  6
-CYS DB00151 "Methylated-DNA--protein-cysteine methyltransferase" Humans P16455 unknown  7
-CYS DB00151                             "Glutathione synthetase" Humans P48637 unknown  8
-CYS DB00151                             "Thiamine transporter 2" Humans Q9BZV2 unknown  9
-CYS DB00151      "Probable cysteine--tRNA ligase, mitochondrial" Humans Q9HA77 unknown 10
-CYS DB00151               "Cysteine sulfinic acid decarboxylase" Humans Q9Y600 unknown 11
-CYS DB00151                "Cysteine desulfurase, mitochondrial" Humans Q9Y697 unknown 12
-CYS DB00151                        "Cysteine dioxygenase type 1" Humans Q16878 unknown 13
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-CYS                          "Cysteine HCl"   ChEMBL
-CYS                                    E920   ChEMBL
-CYS                                    E921   ChEMBL
-CYS                                Cysteine   ChEMBL
-CYS "(2R)-2-amino-3-mercaptopropanoic acid" DrugBank
-CYS "(2R)-2-amino-3-sulfanylpropanoic acid" DrugBank
-CYS  "(R)-2-Amino-3-mercaptopropanoic acid" DrugBank
-CYS                                     Cys DrugBank
-CYS                                Cysteine DrugBank
-CYS                         "Free Cysteine" DrugBank
-CYS    "L-2-Amino-3-mercaptopropionic acid" DrugBank
-CYS                                   L-Cys DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-CYS   N N 3.805  1.215 1
-CYS  CA C 5.104  0.465 2
-CYS   C C 6.404  1.215 3
-CYS   O O 7.702  0.465 4
-CYS  CB C 5.104 -1.035 5
-CYS  SG S 6.404 -1.785 6
-CYS OXT O 6.404  2.715 7
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-CYS  N  CA SINGLE BEGINWEDGE 1
-CYS CA   C SINGLE       NONE 2
-CYS CA  CB SINGLE       NONE 3
-CYS  C   O DOUBLE       NONE 4
-CYS  C OXT SINGLE       NONE 5
-CYS CB  SG SINGLE       NONE 6
-#
-_pdbe_chem_comp_substructure.comp_id                      CYS
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-CYS  O F1 1
-CYS  C F1 1
-CYS CA F1 1
-CYS  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               CYS
-_pdbe_chem_comp_rdkit_properties.exactmw                               121.020
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             56.638
-_pdbe_chem_comp_rdkit_properties.tpsa                                  63.320
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.672
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             29.464
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-CYS UniChem        ChEMBL        CHEMBL863
-CYS UniChem      DrugBank          DB00151
-CYS UniChem      DrugBank          DB03201
-CYS UniChem      DrugBank          DB04443
-CYS UniChem "KEGG LIGAND"           C00097
-CYS UniChem         ChEBI            17561
-CYS UniChem         ChEBI            35235
-CYS UniChem          ZINC ZINC000000895042
-CYS UniChem          ZINC     ZINC00895042
-CYS UniChem     BindingDb         50109609
-CYS UniChem  MetaboLights       MTBLC17561
-CYS UniChem  MetaboLights       MTBLC35235
-CYS UniChem        BRENDA           136826
-CYS UniChem        BRENDA           138051
-CYS UniChem        BRENDA              153
-CYS UniChem        BRENDA              336
-CYS UniChem        BRENDA              553
-CYS UniChem        BRENDA               74
-CYS UniChem          Rhea            35235
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CYS   N -0.034 -0.908  1.111 ETKDGv2  1
-CYS  CA  0.127 -0.447 -0.270 ETKDGv2  2
-CYS   C -1.194 -0.539 -0.990 ETKDGv2  3
-CYS   O -1.289 -1.231 -2.038 ETKDGv2  4
-CYS  CB  0.636  1.003 -0.305 ETKDGv2  5
-CYS  SG  2.374  1.117  0.233 ETKDGv2  6
-CYS OXT -2.318  0.128 -0.510 ETKDGv2  7
-CYS   H -0.435 -1.874  1.092 ETKDGv2  8
-CYS  H2  0.913 -1.010  1.540 ETKDGv2  9
-CYS  HA  0.865 -1.098 -0.793 ETKDGv2 10
-CYS HB2  0.586  1.389 -1.346 ETKDGv2 11
-CYS HB3  0.008  1.657  0.337 ETKDGv2 12
-CYS  HG  2.041  1.133  1.600 ETKDGv2 13
-CYS HXT -2.281  0.680  0.339 ETKDGv2 14
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+CYS "Create component"  1999-07-08 RCSB 
+CYS "Modify descriptor" 2011-06-04 RCSB 
+# 

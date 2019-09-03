@@ -1,668 +1,272 @@
 data_FDA
-#
-_chem_comp.id                                        FDA
-_chem_comp.name                                      "DIHYDROFLAVINE-ADENINE DINUCLEOTIDE"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C27 H35 N9 O15 P2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            787.566
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         FDA
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1FNC
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    FDA 
+_chem_comp.name                                  "DIHYDROFLAVINE-ADENINE DINUCLEOTIDE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C27 H35 N9 O15 P2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        787.566 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     FDA 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1FNC 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FDA     PA   AP P 0 1 N N S 24.445 -0.811 -0.526 -1.668 -0.576  -3.237     PA FDA  1
-FDA    O1A  AO1 O 0 1 N N N 24.815  0.609 -0.510 -0.812 -1.776  -3.378    O1A FDA  2
-FDA    O2A  AO2 O 0 1 N N N 25.166 -1.918 -1.277 -3.190 -1.029  -2.973    O2A FDA  3
-FDA    O5B AO5* O 0 1 N N N 22.867 -1.044 -0.870 -1.595  0.296  -4.588    O5B FDA  4
-FDA    C5B AC5* C 0 1 N N N 22.032  0.019 -0.367 -2.066 -0.540  -5.647    C5B FDA  5
-FDA    C4B AC4* C 0 1 N N R 20.855  0.062 -1.279 -2.022  0.232  -6.966    C4B FDA  6
-FDA    O4B AO4* O 0 1 N N N 20.092 -1.107 -0.914 -0.667  0.606  -7.269    O4B FDA  7
-FDA    C3B AC3* C 0 1 N N S 19.827  1.173 -1.097 -2.521 -0.664  -8.116    C3B FDA  8
-FDA    O3B AO3* O 0 1 N N N 20.237  2.438 -1.536 -3.670 -0.092  -8.743    O3B FDA  9
-FDA    C2B AC2* C 0 1 N N R 18.617  0.561 -1.842 -1.327 -0.707  -9.105    C2B FDA 10
-FDA    O2B AO2* O 0 1 N N N 18.780  0.712 -3.262 -1.782 -0.618 -10.456    O2B FDA 11
-FDA    C1B AC1* C 0 1 N N R 18.796 -0.903 -1.586 -0.528  0.559  -8.705    C1B FDA 12
-FDA    N9A  AN9 N 0 1 Y N N 17.741 -1.487 -0.745  0.880  0.425  -9.083    N9A FDA 13
-FDA    C8A  AC8 C 0 1 Y N N 17.671 -1.612  0.663  1.859 -0.171  -8.346    C8A FDA 14
-FDA    N7A  AN7 N 0 1 Y N N 16.601 -2.322  1.028  2.993 -0.111  -8.982    N7A FDA 15
-FDA    C5A  AC5 C 0 1 Y N N 15.986 -2.639 -0.164  2.814  0.525 -10.165    C5A FDA 16
-FDA    C6A  AC6 C 0 1 Y N N 14.774 -3.357 -0.463  3.653  0.872 -11.237    C6A FDA 17
-FDA    N6A  AN6 N 0 1 N N N 14.019 -3.877  0.473  4.999  0.551 -11.216    N6A FDA 18
-FDA    N1A  AN1 N 0 1 Y N N 14.464 -3.459 -1.796  3.123  1.515 -12.273    N1A FDA 19
-FDA    C2A  AC2 C 0 1 Y N N 15.240 -2.921 -2.788  1.840  1.825 -12.302    C2A FDA 20
-FDA    N3A  AN3 N 0 1 Y N N 16.347 -2.242 -2.593  1.017  1.521 -11.320    N3A FDA 21
-FDA    C4A  AC4 C 0 1 Y N N 16.665 -2.143 -1.286  1.455  0.872 -10.246    C4A FDA 22
-FDA     N1   N1 N 0 1 N N N 23.963  1.281  9.306  2.543 -1.358   7.432     N1 FDA 23
-FDA     C2   C2 C 0 1 N N N 24.235  0.345 10.227  3.864 -1.405   7.691     C2 FDA 24
-FDA     O2   O2 O 0 1 N N N 24.041 -0.843  9.994  4.563 -2.196   7.088     O2 FDA 25
-FDA     N3   N3 N 0 1 N N N 24.656  0.759 11.508  4.422 -0.591   8.605     N3 FDA 26
-FDA     C4   C4 C 0 1 N N N 24.879  2.037 11.850  3.669  0.294   9.288     C4 FDA 27
-FDA     O4   O4 O 0 1 N N N 25.361  2.319 12.882  4.181  1.030  10.115     O4 FDA 28
-FDA    C4X  C4A C 0 1 N N N 24.671  3.028 10.810  2.290  0.362   9.037    C4X FDA 29
-FDA     N5   N5 N 0 1 N N N 24.815  4.296 11.098  1.472  1.281   9.740     N5 FDA 30
-FDA    C5X  C5A C 0 1 Y N N 24.493  5.165 10.092  0.079  1.127   9.675    C5X FDA 31
-FDA     C6   C6 C 0 1 Y N N 24.716  6.507 10.302 -0.750  1.813  10.544     C6 FDA 32
-FDA     C7   C7 C 0 1 Y N N 24.328  7.405  9.333 -2.123  1.644  10.462     C7 FDA 33
-FDA    C7M  C7M C 0 1 N N N 24.495  8.861  9.529 -3.029  2.388  11.408    C7M FDA 34
-FDA     C8   C8 C 0 1 Y N N 23.949  6.964  8.047 -2.663  0.790   9.520     C8 FDA 35
-FDA    C8M  C8M C 0 1 N N N 23.641  7.970  6.986 -4.157  0.611   9.439    C8M FDA 36
-FDA     C9   C9 C 0 1 Y N N 23.828  5.632  7.768 -1.837  0.105   8.644     C9 FDA 37
-FDA    C9A  C9A C 0 1 Y N N 24.118  4.732  8.785 -0.466  0.269   8.718    C9A FDA 38
-FDA    N10  N10 N 0 1 N N N 23.908  3.406  8.597  0.386 -0.419   7.841    N10 FDA 39
-FDA    C10  C10 C 0 1 N N N 24.187  2.518  9.579  1.737 -0.471   8.104    C10 FDA 40
-FDA  "C1'"  C1* C 0 1 N N N 23.537  2.866  7.275 -0.158 -1.080   6.653  "C1'" FDA 41
-FDA  "C2'"  C2* C 0 1 N N S 24.851  2.506  6.446 -0.038 -0.144   5.448  "C2'" FDA 42
-FDA  "O2'"  O2* O 0 1 N N N 25.548  3.726  6.154 -0.852  1.011   5.660  "O2'" FDA 43
-FDA  "C3'"  C3* C 0 1 N N S 24.587  1.796  5.101 -0.506 -0.873   4.187  "C3'" FDA 44
-FDA  "O3'"  O3* O 0 1 N N N 23.679  2.559  4.270  0.307 -2.028   3.975  "O3'" FDA 45
-FDA  "C4'"  C4* C 0 1 N N R 24.100  0.358  5.267 -0.386  0.062   2.983  "C4'" FDA 46
-FDA  "O4'"  O4* O 0 1 N N N 25.040 -0.396  6.073 -1.200  1.218   3.195  "O4'" FDA 47
-FDA  "C5'"  C5* C 0 1 N N N 23.883 -0.338  3.893 -0.854 -0.666   1.722  "C5'" FDA 48
-FDA  "O5'"  O5* O 0 1 N N N 25.089 -0.148  3.066 -0.742  0.208   0.597  "O5'" FDA 49
-FDA      P    P P 0 1 N N R 25.643 -1.363  2.139 -1.248 -0.619  -0.687      P FDA 50
-FDA    O1P  O1P O 0 1 N N N 26.850 -0.739  1.450 -0.400 -1.818  -0.867    O1P FDA 51
-FDA    O2P  O2P O 0 1 N N N 25.687 -2.714  2.851 -2.777 -1.072  -0.465    O2P FDA 52
-FDA    O3P  O3P O 0 1 N N N 24.395 -1.302  1.055 -1.149  0.310  -1.997    O3P FDA 53
-FDA   HOA2 2HOA H 0 0 N N N 24.926 -2.837 -1.287 -3.712 -0.220  -2.887   HOA2 FDA 54
-FDA   H51A AH51 H 0 0 N N N 21.762 -0.092  0.709 -1.431 -1.423  -5.721   H51A FDA 55
-FDA   H52A AH52 H 0 0 N N N 22.559  0.996 -0.268 -3.091 -0.847  -5.439   H52A FDA 56
-FDA    H4B AH4* H 0 1 N N N 21.284  0.176 -2.301 -2.645  1.123  -6.894    H4B FDA 57
-FDA    H3B AH3* H 0 1 N N N 19.611  1.430 -0.033 -2.747 -1.665  -7.747    H3B FDA 58
-FDA   HO3A AHO3 H 0 0 N N N 19.596  3.130 -1.422 -3.896 -0.665  -9.488   HO3A FDA 59
-FDA    H2B AH2* H 0 1 N N N 17.650  1.015 -1.522 -0.729 -1.607  -8.956    H2B FDA 60
-FDA   HO2A AHO2 H 0 0 N N N 18.037  0.336 -3.719 -2.268 -1.433 -10.642   HO2A FDA 61
-FDA    H1B AH1* H 0 1 N N N 18.747 -1.414 -2.575 -0.964  1.447  -9.162    H1B FDA 62
-FDA    H8A  AH8 H 0 1 N N N 18.378 -1.198  1.401  1.716 -0.625  -7.377    H8A FDA 63
-FDA   H61A AH61 H 0 0 N N N 13.160 -4.385  0.261  5.567  0.796 -11.963   H61A FDA 64
-FDA   H62A AH62 H 0 0 N N N 13.783 -3.132  1.129  5.373  0.081 -10.455   H62A FDA 65
-FDA    H2A  AH2 H 0 1 N N N 14.945 -3.046 -3.843  1.451  2.349 -13.162    H2A FDA 66
-FDA    HN1  HN1 H 0 1 N N N 22.989  1.181  9.017  2.160 -1.953   6.769    HN1 FDA 67
-FDA    HN3  HN3 H 0 1 N N N 24.812  0.076 12.249  5.376 -0.643   8.775    HN3 FDA 68
-FDA    HN5  HN5 H 0 1 N N N 25.764  4.475 11.424  1.867  2.002  10.254    HN5 FDA 69
-FDA     H6   H6 H 0 1 N N N 25.197  6.856 11.230 -0.329  2.478  11.284     H6 FDA 70
-FDA   HM71 1HM7 H 0 0 N N N 24.180  9.588  8.744 -3.304  3.347  10.969   HM71 FDA 71
-FDA   HM72 2HM7 H 0 0 N N N 23.989  9.141 10.482 -3.929  1.800  11.588   HM72 FDA 72
-FDA   HM73 3HM7 H 0 0 N N N 25.565  9.056  9.771 -2.510  2.557  12.352   HM73 FDA 73
-FDA   HM81 1HM8 H 0 0 N N N 23.341  7.621  5.970 -4.460 -0.213  10.084   HM81 FDA 74
-FDA   HM82 2HM8 H 0 0 N N N 22.856  8.663  7.369 -4.651  1.527   9.764   HM82 FDA 75
-FDA   HM83 3HM8 H 0 0 N N N 24.512  8.657  6.883 -4.441  0.391   8.410   HM83 FDA 76
-FDA     H9   H9 H 0 1 N N N 23.510  5.298  6.766 -2.264 -0.558   7.905     H9 FDA 77
-FDA "H1'1" 1H1* H 0 0 N N N 22.843  1.996  7.357  0.399 -1.996   6.458 "H1'1" FDA 78
-FDA "H1'2" 2H1* H 0 0 N N N 22.865  3.557  6.714 -1.207 -1.323   6.821 "H1'2" FDA 79
-FDA  "H2'"  H2* H 0 1 N N N 25.434  1.800  7.082  1.000  0.160   5.327  "H2'" FDA 80
-FDA "HO2'" *HO2 H 0 0 N N N 26.330  3.511  5.660 -1.758  0.696   5.780 "HO2'" FDA 81
-FDA  "H3'"  H3* H 0 1 N N N 25.573  1.738  4.584 -1.546 -1.178   4.308  "H3'" FDA 82
-FDA "HO3'" *HO3 H 0 0 N N N 23.516  2.122  3.442  1.216 -1.715   3.873 "HO3'" FDA 83
-FDA  "H4'"  H4* H 0 1 N N N 23.113  0.389  5.786  0.652  0.367   2.862  "H4'" FDA 84
-FDA "HO4'" *HO4 H 0 0 N N N 24.737 -1.290  6.176 -2.109  0.904   3.297 "HO4'" FDA 85
-FDA "H5'1" 1H5* H 0 0 N N N 23.605 -1.412  3.999 -0.233 -1.547   1.560 "H5'1" FDA 86
-FDA "H5'2" 2H5* H 0 0 N N N 22.956  0.011  3.380 -1.894 -0.971   1.843 "H5'2" FDA 87
-FDA   HOP2 2HOP H 0 0 N N N 26.010 -3.424  2.309 -3.295 -0.263  -0.352   HOP2 FDA 88
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FDA PA     AP   P 0 1 N N S 24.445 -0.811 -0.526 -1.668 -0.576 -3.237  PA     FDA 1  
+FDA O1A    AO1  O 0 1 N N N 24.815 0.609  -0.510 -0.812 -1.776 -3.378  O1A    FDA 2  
+FDA O2A    AO2  O 0 1 N N N 25.166 -1.918 -1.277 -3.190 -1.029 -2.973  O2A    FDA 3  
+FDA O5B    AO5* O 0 1 N N N 22.867 -1.044 -0.870 -1.595 0.296  -4.588  O5B    FDA 4  
+FDA C5B    AC5* C 0 1 N N N 22.032 0.019  -0.367 -2.066 -0.540 -5.647  C5B    FDA 5  
+FDA C4B    AC4* C 0 1 N N R 20.855 0.062  -1.279 -2.022 0.232  -6.966  C4B    FDA 6  
+FDA O4B    AO4* O 0 1 N N N 20.092 -1.107 -0.914 -0.667 0.606  -7.269  O4B    FDA 7  
+FDA C3B    AC3* C 0 1 N N S 19.827 1.173  -1.097 -2.521 -0.664 -8.116  C3B    FDA 8  
+FDA O3B    AO3* O 0 1 N N N 20.237 2.438  -1.536 -3.670 -0.092 -8.743  O3B    FDA 9  
+FDA C2B    AC2* C 0 1 N N R 18.617 0.561  -1.842 -1.327 -0.707 -9.105  C2B    FDA 10 
+FDA O2B    AO2* O 0 1 N N N 18.780 0.712  -3.262 -1.782 -0.618 -10.456 O2B    FDA 11 
+FDA C1B    AC1* C 0 1 N N R 18.796 -0.903 -1.586 -0.528 0.559  -8.705  C1B    FDA 12 
+FDA N9A    AN9  N 0 1 Y N N 17.741 -1.487 -0.745 0.880  0.425  -9.083  N9A    FDA 13 
+FDA C8A    AC8  C 0 1 Y N N 17.671 -1.612 0.663  1.859  -0.171 -8.346  C8A    FDA 14 
+FDA N7A    AN7  N 0 1 Y N N 16.601 -2.322 1.028  2.993  -0.111 -8.982  N7A    FDA 15 
+FDA C5A    AC5  C 0 1 Y N N 15.986 -2.639 -0.164 2.814  0.525  -10.165 C5A    FDA 16 
+FDA C6A    AC6  C 0 1 Y N N 14.774 -3.357 -0.463 3.653  0.872  -11.237 C6A    FDA 17 
+FDA N6A    AN6  N 0 1 N N N 14.019 -3.877 0.473  4.999  0.551  -11.216 N6A    FDA 18 
+FDA N1A    AN1  N 0 1 Y N N 14.464 -3.459 -1.796 3.123  1.515  -12.273 N1A    FDA 19 
+FDA C2A    AC2  C 0 1 Y N N 15.240 -2.921 -2.788 1.840  1.825  -12.302 C2A    FDA 20 
+FDA N3A    AN3  N 0 1 Y N N 16.347 -2.242 -2.593 1.017  1.521  -11.320 N3A    FDA 21 
+FDA C4A    AC4  C 0 1 Y N N 16.665 -2.143 -1.286 1.455  0.872  -10.246 C4A    FDA 22 
+FDA N1     N1   N 0 1 N N N 23.963 1.281  9.306  2.543  -1.358 7.432   N1     FDA 23 
+FDA C2     C2   C 0 1 N N N 24.235 0.345  10.227 3.864  -1.405 7.691   C2     FDA 24 
+FDA O2     O2   O 0 1 N N N 24.041 -0.843 9.994  4.563  -2.196 7.088   O2     FDA 25 
+FDA N3     N3   N 0 1 N N N 24.656 0.759  11.508 4.422  -0.591 8.605   N3     FDA 26 
+FDA C4     C4   C 0 1 N N N 24.879 2.037  11.850 3.669  0.294  9.288   C4     FDA 27 
+FDA O4     O4   O 0 1 N N N 25.361 2.319  12.882 4.181  1.030  10.115  O4     FDA 28 
+FDA C4X    C4A  C 0 1 N N N 24.671 3.028  10.810 2.290  0.362  9.037   C4X    FDA 29 
+FDA N5     N5   N 0 1 N N N 24.815 4.296  11.098 1.472  1.281  9.740   N5     FDA 30 
+FDA C5X    C5A  C 0 1 Y N N 24.493 5.165  10.092 0.079  1.127  9.675   C5X    FDA 31 
+FDA C6     C6   C 0 1 Y N N 24.716 6.507  10.302 -0.750 1.813  10.544  C6     FDA 32 
+FDA C7     C7   C 0 1 Y N N 24.328 7.405  9.333  -2.123 1.644  10.462  C7     FDA 33 
+FDA C7M    C7M  C 0 1 N N N 24.495 8.861  9.529  -3.029 2.388  11.408  C7M    FDA 34 
+FDA C8     C8   C 0 1 Y N N 23.949 6.964  8.047  -2.663 0.790  9.520   C8     FDA 35 
+FDA C8M    C8M  C 0 1 N N N 23.641 7.970  6.986  -4.157 0.611  9.439   C8M    FDA 36 
+FDA C9     C9   C 0 1 Y N N 23.828 5.632  7.768  -1.837 0.105  8.644   C9     FDA 37 
+FDA C9A    C9A  C 0 1 Y N N 24.118 4.732  8.785  -0.466 0.269  8.718   C9A    FDA 38 
+FDA N10    N10  N 0 1 N N N 23.908 3.406  8.597  0.386  -0.419 7.841   N10    FDA 39 
+FDA C10    C10  C 0 1 N N N 24.187 2.518  9.579  1.737  -0.471 8.104   C10    FDA 40 
+FDA "C1'"  C1*  C 0 1 N N N 23.537 2.866  7.275  -0.158 -1.080 6.653   "C1'"  FDA 41 
+FDA "C2'"  C2*  C 0 1 N N S 24.851 2.506  6.446  -0.038 -0.144 5.448   "C2'"  FDA 42 
+FDA "O2'"  O2*  O 0 1 N N N 25.548 3.726  6.154  -0.852 1.011  5.660   "O2'"  FDA 43 
+FDA "C3'"  C3*  C 0 1 N N S 24.587 1.796  5.101  -0.506 -0.873 4.187   "C3'"  FDA 44 
+FDA "O3'"  O3*  O 0 1 N N N 23.679 2.559  4.270  0.307  -2.028 3.975   "O3'"  FDA 45 
+FDA "C4'"  C4*  C 0 1 N N R 24.100 0.358  5.267  -0.386 0.062  2.983   "C4'"  FDA 46 
+FDA "O4'"  O4*  O 0 1 N N N 25.040 -0.396 6.073  -1.200 1.218  3.195   "O4'"  FDA 47 
+FDA "C5'"  C5*  C 0 1 N N N 23.883 -0.338 3.893  -0.854 -0.666 1.722   "C5'"  FDA 48 
+FDA "O5'"  O5*  O 0 1 N N N 25.089 -0.148 3.066  -0.742 0.208  0.597   "O5'"  FDA 49 
+FDA P      P    P 0 1 N N R 25.643 -1.363 2.139  -1.248 -0.619 -0.687  P      FDA 50 
+FDA O1P    O1P  O 0 1 N N N 26.850 -0.739 1.450  -0.400 -1.818 -0.867  O1P    FDA 51 
+FDA O2P    O2P  O 0 1 N N N 25.687 -2.714 2.851  -2.777 -1.072 -0.465  O2P    FDA 52 
+FDA O3P    O3P  O 0 1 N N N 24.395 -1.302 1.055  -1.149 0.310  -1.997  O3P    FDA 53 
+FDA HOA2   2HOA H 0 0 N N N 24.926 -2.837 -1.287 -3.712 -0.220 -2.887  HOA2   FDA 54 
+FDA H51A   AH51 H 0 0 N N N 21.762 -0.092 0.709  -1.431 -1.423 -5.721  H51A   FDA 55 
+FDA H52A   AH52 H 0 0 N N N 22.559 0.996  -0.268 -3.091 -0.847 -5.439  H52A   FDA 56 
+FDA H4B    AH4* H 0 1 N N N 21.284 0.176  -2.301 -2.645 1.123  -6.894  H4B    FDA 57 
+FDA H3B    AH3* H 0 1 N N N 19.611 1.430  -0.033 -2.747 -1.665 -7.747  H3B    FDA 58 
+FDA HO3A   AHO3 H 0 0 N N N 19.596 3.130  -1.422 -3.896 -0.665 -9.488  HO3A   FDA 59 
+FDA H2B    AH2* H 0 1 N N N 17.650 1.015  -1.522 -0.729 -1.607 -8.956  H2B    FDA 60 
+FDA HO2A   AHO2 H 0 0 N N N 18.037 0.336  -3.719 -2.268 -1.433 -10.642 HO2A   FDA 61 
+FDA H1B    AH1* H 0 1 N N N 18.747 -1.414 -2.575 -0.964 1.447  -9.162  H1B    FDA 62 
+FDA H8A    AH8  H 0 1 N N N 18.378 -1.198 1.401  1.716  -0.625 -7.377  H8A    FDA 63 
+FDA H61A   AH61 H 0 0 N N N 13.160 -4.385 0.261  5.567  0.796  -11.963 H61A   FDA 64 
+FDA H62A   AH62 H 0 0 N N N 13.783 -3.132 1.129  5.373  0.081  -10.455 H62A   FDA 65 
+FDA H2A    AH2  H 0 1 N N N 14.945 -3.046 -3.843 1.451  2.349  -13.162 H2A    FDA 66 
+FDA HN1    HN1  H 0 1 N N N 22.989 1.181  9.017  2.160  -1.953 6.769   HN1    FDA 67 
+FDA HN3    HN3  H 0 1 N N N 24.812 0.076  12.249 5.376  -0.643 8.775   HN3    FDA 68 
+FDA HN5    HN5  H 0 1 N N N 25.764 4.475  11.424 1.867  2.002  10.254  HN5    FDA 69 
+FDA H6     H6   H 0 1 N N N 25.197 6.856  11.230 -0.329 2.478  11.284  H6     FDA 70 
+FDA HM71   1HM7 H 0 0 N N N 24.180 9.588  8.744  -3.304 3.347  10.969  HM71   FDA 71 
+FDA HM72   2HM7 H 0 0 N N N 23.989 9.141  10.482 -3.929 1.800  11.588  HM72   FDA 72 
+FDA HM73   3HM7 H 0 0 N N N 25.565 9.056  9.771  -2.510 2.557  12.352  HM73   FDA 73 
+FDA HM81   1HM8 H 0 0 N N N 23.341 7.621  5.970  -4.460 -0.213 10.084  HM81   FDA 74 
+FDA HM82   2HM8 H 0 0 N N N 22.856 8.663  7.369  -4.651 1.527  9.764   HM82   FDA 75 
+FDA HM83   3HM8 H 0 0 N N N 24.512 8.657  6.883  -4.441 0.391  8.410   HM83   FDA 76 
+FDA H9     H9   H 0 1 N N N 23.510 5.298  6.766  -2.264 -0.558 7.905   H9     FDA 77 
+FDA "H1'1" 1H1* H 0 0 N N N 22.843 1.996  7.357  0.399  -1.996 6.458   "H1'1" FDA 78 
+FDA "H1'2" 2H1* H 0 0 N N N 22.865 3.557  6.714  -1.207 -1.323 6.821   "H1'2" FDA 79 
+FDA "H2'"  H2*  H 0 1 N N N 25.434 1.800  7.082  1.000  0.160  5.327   "H2'"  FDA 80 
+FDA "HO2'" *HO2 H 0 0 N N N 26.330 3.511  5.660  -1.758 0.696  5.780   "HO2'" FDA 81 
+FDA "H3'"  H3*  H 0 1 N N N 25.573 1.738  4.584  -1.546 -1.178 4.308   "H3'"  FDA 82 
+FDA "HO3'" *HO3 H 0 0 N N N 23.516 2.122  3.442  1.216  -1.715 3.873   "HO3'" FDA 83 
+FDA "H4'"  H4*  H 0 1 N N N 23.113 0.389  5.786  0.652  0.367  2.862   "H4'"  FDA 84 
+FDA "HO4'" *HO4 H 0 0 N N N 24.737 -1.290 6.176  -2.109 0.904  3.297   "HO4'" FDA 85 
+FDA "H5'1" 1H5* H 0 0 N N N 23.605 -1.412 3.999  -0.233 -1.547 1.560   "H5'1" FDA 86 
+FDA "H5'2" 2H5* H 0 0 N N N 22.956 0.011  3.380  -1.894 -0.971 1.843   "H5'2" FDA 87 
+FDA HOP2   2HOP H 0 0 N N N 26.010 -3.424 2.309  -3.295 -0.263 -0.352  HOP2   FDA 88 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FDA    PA    O1A DOUB N N  1
-FDA    PA    O2A SING N N  2
-FDA    PA    O5B SING N N  3
-FDA    PA    O3P SING N N  4
-FDA   O2A   HOA2 SING N N  5
-FDA   O5B    C5B SING N N  6
-FDA   C5B    C4B SING N N  7
-FDA   C5B   H51A SING N N  8
-FDA   C5B   H52A SING N N  9
-FDA   C4B    O4B SING N N 10
-FDA   C4B    C3B SING N N 11
-FDA   C4B    H4B SING N N 12
-FDA   O4B    C1B SING N N 13
-FDA   C3B    O3B SING N N 14
-FDA   C3B    C2B SING N N 15
-FDA   C3B    H3B SING N N 16
-FDA   O3B   HO3A SING N N 17
-FDA   C2B    O2B SING N N 18
-FDA   C2B    C1B SING N N 19
-FDA   C2B    H2B SING N N 20
-FDA   O2B   HO2A SING N N 21
-FDA   C1B    N9A SING N N 22
-FDA   C1B    H1B SING N N 23
-FDA   N9A    C8A SING Y N 24
-FDA   N9A    C4A SING Y N 25
-FDA   C8A    N7A DOUB Y N 26
-FDA   C8A    H8A SING N N 27
-FDA   N7A    C5A SING Y N 28
-FDA   C5A    C6A SING Y N 29
-FDA   C5A    C4A DOUB Y N 30
-FDA   C6A    N6A SING N N 31
-FDA   C6A    N1A DOUB Y N 32
-FDA   N6A   H61A SING N N 33
-FDA   N6A   H62A SING N N 34
-FDA   N1A    C2A SING Y N 35
-FDA   C2A    N3A DOUB Y N 36
-FDA   C2A    H2A SING N N 37
-FDA   N3A    C4A SING Y N 38
-FDA    N1     C2 SING N N 39
-FDA    N1    C10 SING N N 40
-FDA    N1    HN1 SING N N 41
-FDA    C2     O2 DOUB N N 42
-FDA    C2     N3 SING N N 43
-FDA    N3     C4 SING N N 44
-FDA    N3    HN3 SING N N 45
-FDA    C4     O4 DOUB N N 46
-FDA    C4    C4X SING N N 47
-FDA   C4X     N5 SING N N 48
-FDA   C4X    C10 DOUB N N 49
-FDA    N5    C5X SING N N 50
-FDA    N5    HN5 SING N N 51
-FDA   C5X     C6 DOUB Y N 52
-FDA   C5X    C9A SING Y N 53
-FDA    C6     C7 SING Y N 54
-FDA    C6     H6 SING N N 55
-FDA    C7    C7M SING N N 56
-FDA    C7     C8 DOUB Y N 57
-FDA   C7M   HM71 SING N N 58
-FDA   C7M   HM72 SING N N 59
-FDA   C7M   HM73 SING N N 60
-FDA    C8    C8M SING N N 61
-FDA    C8     C9 SING Y N 62
-FDA   C8M   HM81 SING N N 63
-FDA   C8M   HM82 SING N N 64
-FDA   C8M   HM83 SING N N 65
-FDA    C9    C9A DOUB Y N 66
-FDA    C9     H9 SING N N 67
-FDA   C9A    N10 SING N N 68
-FDA   N10    C10 SING N N 69
-FDA   N10  "C1'" SING N N 70
-FDA "C1'"  "C2'" SING N N 71
-FDA "C1'" "H1'1" SING N N 72
-FDA "C1'" "H1'2" SING N N 73
-FDA "C2'"  "O2'" SING N N 74
-FDA "C2'"  "C3'" SING N N 75
-FDA "C2'"  "H2'" SING N N 76
-FDA "O2'" "HO2'" SING N N 77
-FDA "C3'"  "O3'" SING N N 78
-FDA "C3'"  "C4'" SING N N 79
-FDA "C3'"  "H3'" SING N N 80
-FDA "O3'" "HO3'" SING N N 81
-FDA "C4'"  "O4'" SING N N 82
-FDA "C4'"  "C5'" SING N N 83
-FDA "C4'"  "H4'" SING N N 84
-FDA "O4'" "HO4'" SING N N 85
-FDA "C5'"  "O5'" SING N N 86
-FDA "C5'" "H5'1" SING N N 87
-FDA "C5'" "H5'2" SING N N 88
-FDA "O5'"      P SING N N 89
-FDA     P    O1P DOUB N N 90
-FDA     P    O2P SING N N 91
-FDA     P    O3P SING N N 92
-FDA   O2P   HOP2 SING N N 93
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FDA PA    O1A    DOUB N N 1  
+FDA PA    O2A    SING N N 2  
+FDA PA    O5B    SING N N 3  
+FDA PA    O3P    SING N N 4  
+FDA O2A   HOA2   SING N N 5  
+FDA O5B   C5B    SING N N 6  
+FDA C5B   C4B    SING N N 7  
+FDA C5B   H51A   SING N N 8  
+FDA C5B   H52A   SING N N 9  
+FDA C4B   O4B    SING N N 10 
+FDA C4B   C3B    SING N N 11 
+FDA C4B   H4B    SING N N 12 
+FDA O4B   C1B    SING N N 13 
+FDA C3B   O3B    SING N N 14 
+FDA C3B   C2B    SING N N 15 
+FDA C3B   H3B    SING N N 16 
+FDA O3B   HO3A   SING N N 17 
+FDA C2B   O2B    SING N N 18 
+FDA C2B   C1B    SING N N 19 
+FDA C2B   H2B    SING N N 20 
+FDA O2B   HO2A   SING N N 21 
+FDA C1B   N9A    SING N N 22 
+FDA C1B   H1B    SING N N 23 
+FDA N9A   C8A    SING Y N 24 
+FDA N9A   C4A    SING Y N 25 
+FDA C8A   N7A    DOUB Y N 26 
+FDA C8A   H8A    SING N N 27 
+FDA N7A   C5A    SING Y N 28 
+FDA C5A   C6A    SING Y N 29 
+FDA C5A   C4A    DOUB Y N 30 
+FDA C6A   N6A    SING N N 31 
+FDA C6A   N1A    DOUB Y N 32 
+FDA N6A   H61A   SING N N 33 
+FDA N6A   H62A   SING N N 34 
+FDA N1A   C2A    SING Y N 35 
+FDA C2A   N3A    DOUB Y N 36 
+FDA C2A   H2A    SING N N 37 
+FDA N3A   C4A    SING Y N 38 
+FDA N1    C2     SING N N 39 
+FDA N1    C10    SING N N 40 
+FDA N1    HN1    SING N N 41 
+FDA C2    O2     DOUB N N 42 
+FDA C2    N3     SING N N 43 
+FDA N3    C4     SING N N 44 
+FDA N3    HN3    SING N N 45 
+FDA C4    O4     DOUB N N 46 
+FDA C4    C4X    SING N N 47 
+FDA C4X   N5     SING N N 48 
+FDA C4X   C10    DOUB N N 49 
+FDA N5    C5X    SING N N 50 
+FDA N5    HN5    SING N N 51 
+FDA C5X   C6     DOUB Y N 52 
+FDA C5X   C9A    SING Y N 53 
+FDA C6    C7     SING Y N 54 
+FDA C6    H6     SING N N 55 
+FDA C7    C7M    SING N N 56 
+FDA C7    C8     DOUB Y N 57 
+FDA C7M   HM71   SING N N 58 
+FDA C7M   HM72   SING N N 59 
+FDA C7M   HM73   SING N N 60 
+FDA C8    C8M    SING N N 61 
+FDA C8    C9     SING Y N 62 
+FDA C8M   HM81   SING N N 63 
+FDA C8M   HM82   SING N N 64 
+FDA C8M   HM83   SING N N 65 
+FDA C9    C9A    DOUB Y N 66 
+FDA C9    H9     SING N N 67 
+FDA C9A   N10    SING N N 68 
+FDA N10   C10    SING N N 69 
+FDA N10   "C1'"  SING N N 70 
+FDA "C1'" "C2'"  SING N N 71 
+FDA "C1'" "H1'1" SING N N 72 
+FDA "C1'" "H1'2" SING N N 73 
+FDA "C2'" "O2'"  SING N N 74 
+FDA "C2'" "C3'"  SING N N 75 
+FDA "C2'" "H2'"  SING N N 76 
+FDA "O2'" "HO2'" SING N N 77 
+FDA "C3'" "O3'"  SING N N 78 
+FDA "C3'" "C4'"  SING N N 79 
+FDA "C3'" "H3'"  SING N N 80 
+FDA "O3'" "HO3'" SING N N 81 
+FDA "C4'" "O4'"  SING N N 82 
+FDA "C4'" "C5'"  SING N N 83 
+FDA "C4'" "H4'"  SING N N 84 
+FDA "O4'" "HO4'" SING N N 85 
+FDA "C5'" "O5'"  SING N N 86 
+FDA "C5'" "H5'1" SING N N 87 
+FDA "C5'" "H5'2" SING N N 88 
+FDA "O5'" P      SING N N 89 
+FDA P     O1P    DOUB N N 90 
+FDA P     O2P    SING N N 91 
+FDA P     O3P    SING N N 92 
+FDA O2P   HOP2   SING N N 93 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FDA           SMILES              ACDLabs 10.04                                                                                                                                                                                                                              O=C3C=2Nc1cc(c(cc1N(C=2NC(=O)N3)CC(O)C(O)C(O)COP(=O)(O)OP(=O)(O)OCC6OC(n5cnc4c(ncnc45)N)C(O)C6O)C)C
-FDA SMILES_CANONICAL               CACTVS 3.341                                                                                                                                                                                              Cc1cc2NC3=C(NC(=O)NC3=O)N(C[C@H](O)[C@H](O)[C@H](O)CO[P@](O)(=O)O[P@](O)(=O)OC[C@H]4O[C@H]([C@H](O)[C@@H]4O)n5cnc6c(N)ncnc56)c2cc1C
-FDA           SMILES               CACTVS 3.341                                                                                                                                                                                                        Cc1cc2NC3=C(NC(=O)NC3=O)N(C[CH](O)[CH](O)[CH](O)CO[P](O)(=O)O[P](O)(=O)OC[CH]4O[CH]([CH](O)[CH]4O)n5cnc6c(N)ncnc56)c2cc1C
-FDA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                                                                    Cc1cc2c(cc1C)N(C3=C(N2)C(=O)NC(=O)N3)C[C@@H]([C@@H]([C@@H](CO[P@@](=O)(O)O[P@@](=O)(O)OC[C@@H]4[C@H]([C@H]([C@@H](O4)n5cnc6c5ncnc6N)O)O)O)O)O
-FDA           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                                                                                             Cc1cc2c(cc1C)N(C3=C(N2)C(=O)NC(=O)N3)CC(C(C(COP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)n5cnc6c5ncnc6N)O)O)O)O)O
-FDA            InChI                InChI  1.03 InChI=1S/C27H35N9O15P2/c1-10-3-12-13(4-11(10)2)35(24-18(32-12)25(42)34-27(43)33-24)5-14(37)19(39)15(38)6-48-52(44,45)51-53(46,47)49-7-16-20(40)21(41)26(50-16)36-9-31-17-22(28)29-8-30-23(17)36/h3-4,8-9,14-16,19-21,26,32,37-41H,5-7H2,1-2H3,(H,44,45)(H,46,47)(H2,28,29,30)(H2,33,34,42,43)/t14-,15+,16+,19-,20+,21+,26+/m0/s1
-FDA         InChIKey                InChI  1.03                                                                                                                                                                                                                                                                                                      YPZRHBJKEMOYQH-UYBVJOGSSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FDA SMILES           ACDLabs              10.04 "O=C3C=2Nc1cc(c(cc1N(C=2NC(=O)N3)CC(O)C(O)C(O)COP(=O)(O)OP(=O)(O)OCC6OC(n5cnc4c(ncnc45)N)C(O)C6O)C)C" 
+FDA SMILES_CANONICAL CACTVS               3.341 "Cc1cc2NC3=C(NC(=O)NC3=O)N(C[C@H](O)[C@H](O)[C@H](O)CO[P@](O)(=O)O[P@](O)(=O)OC[C@H]4O[C@H]([C@H](O)[C@@H]4O)n5cnc6c(N)ncnc56)c2cc1C" 
+FDA SMILES           CACTVS               3.341 "Cc1cc2NC3=C(NC(=O)NC3=O)N(C[CH](O)[CH](O)[CH](O)CO[P](O)(=O)O[P](O)(=O)OC[CH]4O[CH]([CH](O)[CH]4O)n5cnc6c(N)ncnc56)c2cc1C" 
+FDA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "Cc1cc2c(cc1C)N(C3=C(N2)C(=O)NC(=O)N3)C[C@@H]([C@@H]([C@@H](CO[P@@](=O)(O)O[P@@](=O)(O)OC[C@@H]4[C@H]([C@H]([C@@H](O4)n5cnc6c5ncnc6N)O)O)O)O)O" 
+FDA SMILES           "OpenEye OEToolkits" 1.5.0 "Cc1cc2c(cc1C)N(C3=C(N2)C(=O)NC(=O)N3)CC(C(C(COP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)n5cnc6c5ncnc6N)O)O)O)O)O" 
+FDA InChI            InChI                1.03  
+;InChI=1S/C27H35N9O15P2/c1-10-3-12-13(4-11(10)2)35(24-18(32-12)25(42)34-27(43)33-24)5-14(37)19(39)15(38)6-48-52(44,45)51-53(46,47)49-7-16-20(40)21(41)26(50-16)36-9-31-17-22(28)29-8-30-23(17)36/h3-4,8-9,14-16,19-21,26,32,37-41H,5-7H2,1-2H3,(H,44,45)(H,46,47)(H2,28,29,30)(H2,33,34,42,43)/t14-,15+,16+,19-,20+,21+,26+/m0/s1
+;
+FDA InChIKey         InChI                1.03  YPZRHBJKEMOYQH-UYBVJOGSSA-N 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FDA "SYSTEMATIC NAME"              ACDLabs 10.04 "[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxytetrahydrofuran-2-yl]methyl (2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxo-1,3,4,5-tetrahydrobenzo[g]pteridin-10(2H)-yl)-2,3,4-trihydroxypentyl dihydrogen diphosphate (non-preferred name)"
-FDA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0                        "[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methyl [[(2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxo-1,5-dihydrobenzo[g]pteridin-10-yl)-2,3,4-trihydroxy-pentoxy]-hydroxy-phosphoryl] hydrogen phosphate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FDA "SYSTEMATIC NAME" ACDLabs              10.04 
+"[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxytetrahydrofuran-2-yl]methyl (2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxo-1,3,4,5-tetrahydrobenzo[g]pteridin-10(2H)-yl)-2,3,4-trihydroxypentyl dihydrogen diphosphate (non-preferred name)" 
+FDA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 
+"[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methyl [[(2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxo-1,5-dihydrobenzo[g]pteridin-10-yl)-2,3,4-trihydroxy-pentoxy]-hydroxy-phosphoryl] hydrogen phosphate"                        
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FDA  "Create component" 1999-07-08 RCSB
-FDA "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FDA    PA P 12.030   2.024  1
-FDA   O1A O 12.780   3.323  2
-FDA   O2A O 11.280   0.725  3
-FDA   O5B O 10.730   2.774  4
-FDA   C5B C 10.730   4.274  5
-FDA   C4B C  9.431   5.024  6
-FDA   O4B O  9.275   6.516  7
-FDA   C3B C  8.061   4.414  8
-FDA   O3B O  7.749   2.946  9
-FDA   C2B C  7.058   5.528 10
-FDA   O2B O  5.566   5.372 11
-FDA   C1B C  7.808   6.827 12
-FDA   N9A N  7.197   8.198 13
-FDA   C8A C  7.944   9.488 14
-FDA   N7A N  6.949  10.599 15
-FDA   C5A C  5.584   9.998 16
-FDA   C6A C  4.215  10.611 17
-FDA   N6A N  4.061  12.103 18
-FDA   N1A N  3.000   9.731 19
-FDA   C2A C  3.154   8.239 20
-FDA   N3A N  4.523   7.627 21
-FDA   C4A C  5.739   8.507 22
-FDA    N1 N 19.866  -8.424 23
-FDA    C2 C 21.225  -9.195 24
-FDA    O2 O 22.521  -8.440 25
-FDA    N3 N 21.225 -10.757 26
-FDA    C4 C 19.866 -11.528 27
-FDA    O4 O 19.848 -13.028 28
-FDA   C4X C 18.525 -10.726 29
-FDA    N5 N 17.226 -11.476 30
-FDA   C5X C 15.927 -10.726 31
-FDA    C6 C 14.586 -11.528 32
-FDA    C7 C 13.227 -10.757 33
-FDA   C7M C 11.930 -11.512 34
-FDA    C8 C 13.227  -9.195 35
-FDA   C8M C 11.930  -8.440 36
-FDA    C9 C 14.586  -8.424 37
-FDA   C9A C 15.927  -9.226 38
-FDA   N10 N 17.226  -8.476 39
-FDA   C10 C 18.525  -9.226 40
-FDA "C1'" C 17.226  -6.976 41
-FDA "C2'" C 15.927  -6.226 42
-FDA "O2'" O 14.627  -6.976 43
-FDA "C3'" C 15.927  -4.726 44
-FDA "O3'" O 17.226  -3.976 45
-FDA "C4'" C 14.627  -3.976 46
-FDA "O4'" O 13.329  -4.726 47
-FDA "C5'" C 14.627  -2.476 48
-FDA "O5'" O 13.329  -1.726 49
-FDA     P P 13.329  -0.226 50
-FDA   O1P O 11.829  -0.226 51
-FDA   O2P O 14.829  -0.226 52
-FDA   O3P O 13.329   1.274 53
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-FDA    PA   O1A DOUBLE       NONE  1
-FDA    PA   O2A SINGLE  BEGINDASH  2
-FDA    PA   O5B SINGLE       NONE  3
-FDA    PA   O3P SINGLE       NONE  4
-FDA   O5B   C5B SINGLE       NONE  5
-FDA   C5B   C4B SINGLE  BEGINDASH  6
-FDA   C4B   O4B SINGLE       NONE  7
-FDA   C4B   C3B SINGLE       NONE  8
-FDA   O4B   C1B SINGLE       NONE  9
-FDA   C3B   O3B SINGLE  BEGINDASH 10
-FDA   C3B   C2B SINGLE       NONE 11
-FDA   C2B   O2B SINGLE BEGINWEDGE 12
-FDA   C2B   C1B SINGLE       NONE 13
-FDA   C1B   N9A SINGLE BEGINWEDGE 14
-FDA   N9A   C8A SINGLE       NONE 15
-FDA   N9A   C4A SINGLE       NONE 16
-FDA   C8A   N7A DOUBLE       NONE 17
-FDA   N7A   C5A SINGLE       NONE 18
-FDA   C5A   C6A SINGLE       NONE 19
-FDA   C5A   C4A DOUBLE       NONE 20
-FDA   C6A   N6A SINGLE       NONE 21
-FDA   C6A   N1A DOUBLE       NONE 22
-FDA   N1A   C2A SINGLE       NONE 23
-FDA   C2A   N3A DOUBLE       NONE 24
-FDA   N3A   C4A SINGLE       NONE 25
-FDA    N1    C2 SINGLE       NONE 26
-FDA    N1   C10 SINGLE       NONE 27
-FDA    C2    O2 DOUBLE       NONE 28
-FDA    C2    N3 SINGLE       NONE 29
-FDA    N3    C4 SINGLE       NONE 30
-FDA    C4    O4 DOUBLE       NONE 31
-FDA    C4   C4X SINGLE       NONE 32
-FDA   C4X    N5 SINGLE       NONE 33
-FDA   C4X   C10 DOUBLE       NONE 34
-FDA    N5   C5X SINGLE       NONE 35
-FDA   C5X    C6 DOUBLE       NONE 36
-FDA   C5X   C9A SINGLE       NONE 37
-FDA    C6    C7 SINGLE       NONE 38
-FDA    C7   C7M SINGLE       NONE 39
-FDA    C7    C8 DOUBLE       NONE 40
-FDA    C8   C8M SINGLE       NONE 41
-FDA    C8    C9 SINGLE       NONE 42
-FDA    C9   C9A DOUBLE       NONE 43
-FDA   C9A   N10 SINGLE       NONE 44
-FDA   N10   C10 SINGLE       NONE 45
-FDA   N10 "C1'" SINGLE       NONE 46
-FDA "C1'" "C2'" SINGLE       NONE 47
-FDA "C2'" "O2'" SINGLE  BEGINDASH 48
-FDA "C2'" "C3'" SINGLE       NONE 49
-FDA "C3'" "O3'" SINGLE BEGINWEDGE 50
-FDA "C3'" "C4'" SINGLE       NONE 51
-FDA "C4'" "O4'" SINGLE BEGINWEDGE 52
-FDA "C4'" "C5'" SINGLE       NONE 53
-FDA "C5'" "O5'" SINGLE       NONE 54
-FDA "O5'"     P SINGLE       NONE 55
-FDA     P   O1P DOUBLE       NONE 56
-FDA     P   O2P SINGLE BEGINWEDGE 57
-FDA     P   O3P SINGLE       NONE 58
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-FDA MurckoScaffold S1 scaffold O=c1[nH]c2c(c(=O)[nH]1)Nc1ccccc1N2CCCCCO[PH](=O)O[PH](=O)OC[C@@H]1CC[C@@H](n2cnc3cncnc32)O1 InChI=1S/C25H30N8O8P2/c34-24-21-23(30-25(35)31-24)32(19-7-3-2-6-17(19)29-21)10-4-1-5-11-38-42(36)41-43(37)39-13-16-8-9-20(40-16)33-15-28-18-12-26-14-27-22(18)33/h2-3,6-7,12,14-16,20,29,42-43H,1,4-5,8-11,13H2,(H2,30,31,34,35)/t16-,20-/m0/s1 YWXILGKBCQBYLT-JXFKEZNVSA-N
-FDA        adenine F1 fragment                                                                           Nc1ncnc2nc[nH]c12                                                                                                                                                                                 InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-FDA      imidazole F2 fragment                                                                                  c1c[nH]cn1                                                                                                                                                                                                      InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-FDA         phenyl F3 fragment                                                                                    c1ccccc1                                                                                                                                                                                                              InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-FDA      phosphate F4 fragment                                                                                  O=P(O)(O)O                                                                                                                                                                                                         InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-FDA         purine F5 fragment                                                                            c1ncc2[nH]cnc2n1                                                                                                                                                                                        InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-FDA     pyrimidine F6 fragment                                                                                    c1cncnc1                                                                                                                                                                                                            InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-FDA         ribose F7 fragment                                                                               OCC1OCC(O)C1O                                                                                                                                                                                               InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-FDA   N1A F1 1
-FDA   C6A F1 1
-FDA   C5A F1 1
-FDA   C4A F1 1
-FDA   N3A F1 1
-FDA   C2A F1 1
-FDA   N9A F1 1
-FDA   C8A F1 1
-FDA   N7A F1 1
-FDA   N6A F1 1
-FDA   C5A F2 1
-FDA   C4A F2 1
-FDA   N9A F2 1
-FDA   C8A F2 1
-FDA   N7A F2 1
-FDA   C5X F3 1
-FDA    C6 F3 1
-FDA    C7 F3 1
-FDA    C8 F3 1
-FDA    C9 F3 1
-FDA   C9A F3 1
-FDA   O2A F4 1
-FDA    PA F4 1
-FDA   O1A F4 1
-FDA   O5B F4 1
-FDA   O3P F4 1
-FDA "O5'" F4 2
-FDA     P F4 2
-FDA   O1P F4 2
-FDA   O2P F4 2
-FDA   O3P F4 2
-FDA   N7A F5 1
-FDA   C8A F5 1
-FDA   N9A F5 1
-FDA   C4A F5 1
-FDA   C5A F5 1
-FDA   C6A F5 1
-FDA   N1A F5 1
-FDA   C2A F5 1
-FDA   N3A F5 1
-FDA   C5A F6 1
-FDA   C6A F6 1
-FDA   N1A F6 1
-FDA   C2A F6 1
-FDA   N3A F6 1
-FDA   C4A F6 1
-FDA   C4X F6 2
-FDA    C4 F6 2
-FDA    N3 F6 2
-FDA    C2 F6 2
-FDA    N1 F6 2
-FDA   C10 F6 2
-FDA   C2B F7 1
-FDA   C3B F7 1
-FDA   C4B F7 1
-FDA   O4B F7 1
-FDA   C1B F7 1
-FDA   C5B F7 1
-FDA   O5B F7 1
-FDA   O3B F7 1
-FDA   O2B F7 1
-FDA    PA S1 1
-FDA   O1A S1 1
-FDA   O5B S1 1
-FDA   C5B S1 1
-FDA   C4B S1 1
-FDA   O4B S1 1
-FDA   C3B S1 1
-FDA   C2B S1 1
-FDA   C1B S1 1
-FDA   N9A S1 1
-FDA   C8A S1 1
-FDA   N7A S1 1
-FDA   C5A S1 1
-FDA   C6A S1 1
-FDA   N1A S1 1
-FDA   C2A S1 1
-FDA   N3A S1 1
-FDA   C4A S1 1
-FDA    N1 S1 1
-FDA    C2 S1 1
-FDA    O2 S1 1
-FDA    N3 S1 1
-FDA    C4 S1 1
-FDA    O4 S1 1
-FDA   C4X S1 1
-FDA    N5 S1 1
-FDA   C5X S1 1
-FDA    C6 S1 1
-FDA    C7 S1 1
-FDA    C8 S1 1
-FDA    C9 S1 1
-FDA   C9A S1 1
-FDA   N10 S1 1
-FDA   C10 S1 1
-FDA "C1'" S1 1
-FDA "C2'" S1 1
-FDA "C3'" S1 1
-FDA "C4'" S1 1
-FDA "C5'" S1 1
-FDA "O5'" S1 1
-FDA     P S1 1
-FDA   O1P S1 1
-FDA   O3P S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FDA
-_pdbe_chem_comp_rdkit_properties.exactmw                               787.173
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           24
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           12
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     23
-_pdbe_chem_comp_rdkit_properties.NumHBD                                11
-_pdbe_chem_comp_rdkit_properties.NumHBA                                22
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        26
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.444
-_pdbe_chem_comp_rdkit_properties.NumRings                              6
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      4
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       5
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             346.269
-_pdbe_chem_comp_rdkit_properties.tpsa                                  363.280
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.391
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             173.565
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         53
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-FDA UniChem       ChEMBL    CHEMBL1232689
-FDA UniChem        ChEBI            17877
-FDA UniChem         ZINC ZINC000095099885
-FDA UniChem MetaboLights       MTBLC17877
-FDA UniChem       BRENDA              256
-FDA UniChem       BRENDA            44763
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FDA     PA  3.199 -4.171 -0.957 ETKDGv2  1
-FDA    O1A  3.105 -5.632 -1.338 ETKDGv2  2
-FDA    O2A  1.996 -3.301 -1.774 ETKDGv2  3
-FDA    O5B  4.732 -3.592 -1.426 ETKDGv2  4
-FDA    C5B  4.797 -2.218 -1.120 ETKDGv2  5
-FDA    C4B  6.205 -1.683 -1.432 ETKDGv2  6
-FDA    O4B  6.167 -0.271 -1.417 ETKDGv2  7
-FDA    C3B  7.284 -2.146 -0.445 ETKDGv2  8
-FDA    O3B  6.985 -3.368  0.179 ETKDGv2  9
-FDA    C2B  7.314 -1.027  0.554 ETKDGv2 10
-FDA    O2B  8.600 -0.870  1.097 ETKDGv2 11
-FDA    C1B  6.862  0.179 -0.273 ETKDGv2 12
-FDA    N9A  7.994  1.005 -0.694 ETKDGv2 13
-FDA    C8A  9.005  0.723 -1.672 ETKDGv2 14
-FDA    N7A  9.799  1.730 -1.902 ETKDGv2 15
-FDA    C5A  9.311  2.760 -1.045 ETKDGv2 16
-FDA    C6A  9.779  4.142 -0.887 ETKDGv2 17
-FDA    N6A 10.901  4.637 -1.616 ETKDGv2 18
-FDA    N1A  9.133  4.915 -0.053 ETKDGv2 19
-FDA    C2A  7.987  4.430  0.693 ETKDGv2 20
-FDA    N3A  7.572  3.199  0.546 ETKDGv2 21
-FDA    C4A  8.279  2.348 -0.364 ETKDGv2 22
-FDA     N1 -6.651 -1.226 -2.211 ETKDGv2 23
-FDA     C2 -7.331 -1.480 -3.442 ETKDGv2 24
-FDA     O2 -7.037 -2.490 -4.134 ETKDGv2 25
-FDA     N3 -8.337 -0.578 -3.885 ETKDGv2 26
-FDA     C4 -8.634  0.569 -3.092 ETKDGv2 27
-FDA     O4 -9.509  1.384 -3.488 ETKDGv2 28
-FDA    C4X -7.920  0.798 -1.811 ETKDGv2 29
-FDA     N5 -8.244  1.969 -1.047 ETKDGv2 30
-FDA    C5X -7.522  2.303  0.136 ETKDGv2 31
-FDA     C6 -7.768  3.453  0.782 ETKDGv2 32
-FDA     C7 -7.013  3.809  2.004 ETKDGv2 33
-FDA    C7M -7.318  5.115  2.691 ETKDGv2 34
-FDA     C8 -6.059  2.965  2.461 ETKDGv2 35
-FDA    C8M -5.252  3.274  3.696 ETKDGv2 36
-FDA     C9 -5.807  1.689  1.743 ETKDGv2 37
-FDA    C9A -6.502  1.361  0.630 ETKDGv2 38
-FDA    N10 -6.303  0.116 -0.098 ETKDGv2 39
-FDA    C10 -6.977 -0.083 -1.381 ETKDGv2 40
-FDA  "C1'" -5.484 -0.966  0.489 ETKDGv2 41
-FDA  "C2'" -3.986 -0.784  0.158 ETKDGv2 42
-FDA  "O2'" -3.819 -0.734 -1.236 ETKDGv2 43
-FDA  "C3'" -3.147 -1.950  0.747 ETKDGv2 44
-FDA  "O3'" -3.346 -2.071  2.136 ETKDGv2 45
-FDA  "C4'" -1.636 -1.821  0.413 ETKDGv2 46
-FDA  "O4'" -1.112 -0.593  0.859 ETKDGv2 47
-FDA  "C5'" -0.823 -3.005  0.966 ETKDGv2 48
-FDA  "O5'"  0.520 -2.866  0.564 ETKDGv2 49
-FDA      P  1.403 -4.214  1.130 ETKDGv2 50
-FDA    O1P  1.294 -4.291  2.637 ETKDGv2 51
-FDA    O2P  0.793 -5.652  0.469 ETKDGv2 52
-FDA    O3P  3.046 -4.018  0.733 ETKDGv2 53
-FDA   HOA2  2.198 -3.431 -2.735 ETKDGv2 54
-FDA   H51A  4.569 -2.024 -0.047 ETKDGv2 55
-FDA   H52A  4.070 -1.658 -1.751 ETKDGv2 56
-FDA    H4B  6.486 -2.014 -2.457 ETKDGv2 57
-FDA    H3B  8.268 -2.208 -0.969 ETKDGv2 58
-FDA   HO3A  7.218 -4.080 -0.472 ETKDGv2 59
-FDA    H2B  6.573 -1.225  1.366 ETKDGv2 60
-FDA   HO2A  8.512 -0.217  1.839 ETKDGv2 61
-FDA    H1B  6.171  0.796  0.342 ETKDGv2 62
-FDA    H8A  9.099 -0.225 -2.184 ETKDGv2 63
-FDA   H61A 11.417  4.020 -2.281 ETKDGv2 64
-FDA   H62A 11.219  5.623 -1.490 ETKDGv2 65
-FDA    H2A  7.472  5.093  1.375 ETKDGv2 66
-FDA    HN1 -5.882 -1.884 -1.967 ETKDGv2 67
-FDA    HN3 -8.842 -0.747 -4.784 ETKDGv2 68
-FDA    HN5 -8.995  2.613 -1.383 ETKDGv2 69
-FDA     H6 -8.523  4.132  0.403 ETKDGv2 70
-FDA   HM71 -8.170  5.635  2.205 ETKDGv2 71
-FDA   HM72 -6.433  5.783  2.643 ETKDGv2 72
-FDA   HM73 -7.590  4.935  3.752 ETKDGv2 73
-FDA   HM81 -5.918  3.310  4.583 ETKDGv2 74
-FDA   HM82 -4.477  2.500  3.878 ETKDGv2 75
-FDA   HM83 -4.735  4.250  3.581 ETKDGv2 76
-FDA     H9 -5.048  1.039  2.148 ETKDGv2 77
-FDA "H1'1" -5.844 -1.962  0.162 ETKDGv2 78
-FDA "H1'2" -5.637 -1.001  1.588 ETKDGv2 79
-FDA  "H2'" -3.639  0.172  0.614 ETKDGv2 80
-FDA "HO2'" -3.098 -0.078 -1.427 ETKDGv2 81
-FDA  "H3'" -3.510 -2.891  0.277 ETKDGv2 82
-FDA "HO3'" -3.178 -1.185  2.548 ETKDGv2 83
-FDA  "H4'" -1.527 -1.849 -0.693 ETKDGv2 84
-FDA "HO4'" -1.052 -0.626  1.849 ETKDGv2 85
-FDA "H5'1" -0.900 -3.012  2.076 ETKDGv2 86
-FDA "H5'2" -1.260 -3.946  0.561 ETKDGv2 87
-FDA   HOP2  0.464 -5.405 -0.432 ETKDGv2 88
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FDA "Create component"  1999-07-08 RCSB 
+FDA "Modify descriptor" 2011-06-04 RCSB 
+# 

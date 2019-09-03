@@ -346,11 +346,15 @@ _pdbe_chem_comp_rdkit_properties.CrippenMR                             80.604
 _pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         20
 
 #
-_pdbe_chem_comp_external_mappings.comp_id           AO
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ChEBI
-_pdbe_chem_comp_external_mappings.resource_id       52788
-
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+AO UniChem ChEBI    52788
+AO UniChem     P 44140562
+AO UniChem     P  5035218
+AO UniChem     P  5231310
 #
 loop_
 _pdbe_chem_comp_rdkit_conformer.comp_id             
@@ -360,44 +364,44 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AO   C1  2.370  2.215 -0.780 ETKDGv2  1
-AO   C2  3.538  1.632 -0.486 ETKDGv2  2
-AO   C3  3.622  0.247  0.065 ETKDGv2  3
-AO   C4  2.489 -0.457  0.278 ETKDGv2  4
-AO   C5 -2.343 -0.752  0.121 ETKDGv2  5
-AO   C6 -3.688 -0.176 -0.178 ETKDGv2  6
-AO   C7 -3.751  1.081 -0.673 ETKDGv2  7
-AO   C8 -2.523  1.866 -0.912 ETKDGv2  8
-AO   C9 -0.073  2.075 -0.860 ETKDGv2  9
-AO  N10  0.073 -0.579  0.189 ETKDGv2 10
-AO  C11  1.161  0.116 -0.023 ETKDGv2 11
-AO  C12 -1.325  1.334 -0.639 ETKDGv2 12
-AO  C13  1.101  1.498 -0.568 ETKDGv2 13
-AO  C14 -1.228 -0.037 -0.097 ETKDGv2 14
-AO  N15  4.917 -0.330  0.373 ETKDGv2 15
-AO  CX7  5.124 -1.783  0.333 ETKDGv2 16
-AO  CX8  6.051  0.539  0.706 ETKDGv2 17
-AO  N16 -4.892 -0.954  0.054 ETKDGv2 18
-AO  CXH -6.201 -0.300  0.182 ETKDGv2 19
-AO  CXI -4.814 -2.414  0.179 ETKDGv2 20
-AO   H1  2.366  3.221 -1.181 ETKDGv2 21
-AO   H2  4.443  2.195 -0.671 ETKDGv2 22
-AO   H4  2.531 -1.454  0.694 ETKDGv2 23
-AO   H5 -2.254 -1.750  0.527 ETKDGv2 24
-AO   H7 -4.696  1.544 -0.920 ETKDGv2 25
-AO   H8 -2.605  2.870 -1.310 ETKDGv2 26
-AO   H9 -0.106  3.084 -1.258 ETKDGv2 27
-AO  H10  0.145 -1.549  0.574 ETKDGv2 28
-AO H151  6.205 -2.039  0.322 ETKDGv2 29
-AO H152  4.664 -2.255  1.227 ETKDGv2 30
-AO H153  4.671 -2.205 -0.589 ETKDGv2 31
-AO H154  6.437  1.025 -0.214 ETKDGv2 32
-AO H155  5.733  1.315  1.434 ETKDGv2 33
-AO H156  6.880 -0.037  1.171 ETKDGv2 34
-AO H161 -6.975 -1.002  0.559 ETKDGv2 35
-AO H162 -6.532  0.080 -0.807 ETKDGv2 36
-AO H163 -6.135  0.541  0.904 ETKDGv2 37
-AO H164 -5.820 -2.883  0.149 ETKDGv2 38
-AO H165 -4.333 -2.685  1.142 ETKDGv2 39
-AO H166 -4.226 -2.834 -0.665 ETKDGv2 40
+AO   C1  2.512 -1.103  1.920 ETKDGv2  1
+AO   C2  3.639 -0.725  1.307 ETKDGv2  2
+AO   C3  3.632  0.041  0.024 ETKDGv2  3
+AO   C4  2.455  0.372 -0.548 ETKDGv2  4
+AO   C5 -2.388  0.301 -0.498 ETKDGv2  5
+AO   C6 -3.693 -0.084  0.119 ETKDGv2  6
+AO   C7 -3.673 -0.780  1.278 ETKDGv2  7
+AO   C8 -2.395 -1.153  1.919 ETKDGv2  8
+AO   C9  0.063 -1.147  1.952 ETKDGv2  9
+AO  N10  0.035  0.323 -0.499 ETKDGv2 10
+AO  C11  1.166 -0.006  0.068 ETKDGv2 11
+AO  C12 -1.235 -0.800  1.353 ETKDGv2 12
+AO  C13  1.198 -0.771  1.343 ETKDGv2 13
+AO  C14 -1.229 -0.038  0.086 ETKDGv2 14
+AO  N15  4.887  0.416 -0.599 ETKDGv2 15
+AO  CX7  6.096 -0.378 -0.359 ETKDGv2 16
+AO  CX8  4.977  1.605 -1.456 ETKDGv2 17
+AO  N16 -4.946  0.290 -0.512 ETKDGv2 18
+AO  CXH -6.195 -0.412 -0.187 ETKDGv2 19
+AO  CXI -4.979  1.374 -1.501 ETKDGv2 20
+AO   H1  2.573 -1.654  2.851 ETKDGv2 21
+AO   H2  4.579 -0.982  1.776 ETKDGv2 22
+AO   H4  2.431  0.911 -1.486 ETKDGv2 23
+AO   H5 -2.365  0.849 -1.430 ETKDGv2 24
+AO   H7 -4.586 -1.073  1.776 ETKDGv2 25
+AO   H8 -2.411 -1.711  2.847 ETKDGv2 26
+AO   H9  0.097 -1.704  2.881 ETKDGv2 27
+AO  H10  0.042  0.861 -1.396 ETKDGv2 28
+AO H151  6.488 -0.171  0.659 ETKDGv2 29
+AO H152  6.892 -0.138 -1.096 ETKDGv2 30
+AO H153  5.865 -1.460 -0.458 ETKDGv2 31
+AO H154  4.511  1.397 -2.442 ETKDGv2 32
+AO H155  6.033  1.903 -1.626 ETKDGv2 33
+AO H156  4.461  2.461 -0.972 ETKDGv2 34
+AO H161 -7.009 -0.151 -0.897 ETKDGv2 35
+AO H162 -6.527 -0.139  0.836 ETKDGv2 36
+AO H163 -6.038 -1.510 -0.250 ETKDGv2 37
+AO H164 -6.020  1.678 -1.741 ETKDGv2 38
+AO H165 -4.490  1.041 -2.440 ETKDGv2 39
+AO H166 -4.455  2.267 -1.100 ETKDGv2 40
 #

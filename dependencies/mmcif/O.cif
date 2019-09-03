@@ -96,20 +96,15 @@ _pdbe_chem_comp_drugbank_classification.description       "This compound belongs
 
 #
 loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-O                "Sterile water"   ChEMBL
-O                       Pur-Wash   ChEMBL
-O               "Purified Water"   ChEMBL
-O              "Water, Purified"   ChEMBL
-O                          Water   ChEMBL
-O "Sterile Water For Irrigation"   ChEMBL
-O  "Sterile Water For Injection"   ChEMBL
-O             "Dihydrogen oxide" DrugBank
-O               "Purified water" DrugBank
-O                "Sterile water" DrugBank
-O               "Water purified" DrugBank
+_pdbe_chem_comp_synonyms.comp_id          
+_pdbe_chem_comp_synonyms.name             
+_pdbe_chem_comp_synonyms.provenance       
+_pdbe_chem_comp_synonyms.type             
+O           Pur-Wash   ChEMBL Tradename
+O "Dihydrogen oxide" DrugBank         .
+O   "Purified water" DrugBank         .
+O    "Sterile water" DrugBank         .
+O   "Water purified" DrugBank         .
 #
 loop_
 _software.name              
@@ -164,6 +159,8 @@ O UniChem        ChEMBL CHEMBL1098659
 O UniChem      DrugBank       DB09145
 O UniChem "KEGG LIGAND"        C00001
 O UniChem         ChEBI         15377
+O UniChem             P      22247451
+O UniChem             P           962
 O UniChem    NMRShiftDB      20188012
 O UniChem  MetaboLights    MTBLC15377
 O UniChem        BRENDA             1

@@ -1,280 +1,138 @@
 data_G01
-#
-_chem_comp.id                                        G01
-_chem_comp.name                                      "N-[(R)-hydroxy(methyl)phosphoryl]-D-glutamic acid"
-_chem_comp.type                                      "D-peptide NH3 amino terminus"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C6 H12 N O6 P"
-_chem_comp.mon_nstd_parent_comp_id                   GLU
-_chem_comp.pdbx_synonyms                             "N-PHOSPHONOMETHYL-D-GLUTAMIC ACID"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2009-03-06
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            225.136
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         G01
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            3GIQ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    G01 
+_chem_comp.name                                  "N-[(R)-hydroxy(methyl)phosphoryl]-D-glutamic acid" 
+_chem_comp.type                                  "D-peptide NH3 amino terminus" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C6 H12 N O6 P" 
+_chem_comp.mon_nstd_parent_comp_id               GLU 
+_chem_comp.pdbx_synonyms                         "N-PHOSPHONOMETHYL-D-GLUTAMIC ACID" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2009-03-06 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        225.136 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     G01 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        3GIQ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-G01   CD   CD C 0 1 N N N 17.615 90.518 30.006  3.502  0.554 -0.062   CD G01  1
-G01   CG   CG C 0 1 N N N 16.093 90.389 30.008  2.022  0.598  0.214   CG G01  2
-G01   CB   CB C 0 1 N N N 15.673 89.105 29.282  1.407 -0.771 -0.085   CB G01  3
-G01   CA   CA C 0 1 N N R 14.172 88.744 29.147 -0.097 -0.727  0.196   CA G01  4
-G01    C    C C 0 1 N N N 13.607 88.409 30.552 -0.681 -2.105  0.020    C G01  5
-G01   C6   C6 C 0 1 N N N 13.356 86.352 25.852 -1.397  1.959  1.423   C6 G01  6
-G01    P    P P 0 1 N N R 13.107 87.841 26.815 -2.021  1.011 -0.004    P G01  7
-G01  OPA  OPA O 0 1 N N N 11.556 87.926 27.128 -2.701  2.018 -1.061  OPA G01  8
-G01  OPB  OPB O 0 1 N N N 13.557 89.010 26.024 -3.026  0.028  0.458  OPB G01  9
-G01    N    N N 0 1 N N N 13.889 87.611 28.225 -0.743  0.202 -0.741    N G01 10
-G01    O    O O 0 1 N N N 13.673 87.232 30.968 -1.547 -2.293 -0.802    O G01 11
-G01  OXT  OXT O 0 1 N Y N 13.109 89.365 31.193 -0.240 -3.122  0.775  OXT G01 12
-G01  OE1  OE1 O 0 1 N N N 18.103 91.351 29.225  4.013 -0.465 -0.462  OE1 G01 13
-G01  OE2  OE2 O 0 1 N N N 18.247 89.770 30.783  4.254  1.650  0.131  OE2 G01 14
-G01  HG2  HG2 H 0 1 N N N 15.733 90.353 31.047  1.855  0.850  1.261  HG2 G01 15
-G01  HG3  HG3 H 0 1 N N N 15.657 91.256 29.490  1.556  1.352 -0.420  HG3 G01 16
-G01  HB2  HB2 H 0 1 N N N 16.058 89.196 28.256  1.574 -1.023 -1.132  HB2 G01 17
-G01  HB3  HB3 H 0 1 N N N 16.075 88.304 29.920  1.873 -1.525  0.549  HB3 G01 18
-G01   HA   HA H 0 1 N N N 13.682 89.624 28.705 -0.266 -0.388  1.218   HA G01 19
-G01   H6   H6 H 0 1 N N N 13.407 86.610 24.784 -2.225  2.483  1.901   H6 G01 20
-G01  H6A  H6A H 0 1 N N N 14.296 85.870 26.158 -0.937  1.278  2.139  H6A G01 21
-G01  H6B  H6B H 0 1 N N N 12.517 85.661 26.022 -0.657  2.683  1.083  H6B G01 22
-G01 HOPA HOPA H 0 0 N N N 11.423 87.943 28.068 -3.446  2.519 -0.703 HOPA G01 23
-G01   H2   H2 H 0 1 N N N 14.781 87.232 27.981 -0.074  0.854 -1.123   HN G01 24
-G01  HXT  HXT H 0 1 N Y N 12.795 89.054 32.034 -0.645 -3.988  0.626  HXT G01 25
-G01  HE2  HE2 H 0 1 N N N 19.179 89.931 30.691  5.199  1.573 -0.060  HE2 G01 26
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+G01 CD   CD   C 0 1 N N N 17.615 90.518 30.006 3.502  0.554  -0.062 CD   G01 1  
+G01 CG   CG   C 0 1 N N N 16.093 90.389 30.008 2.022  0.598  0.214  CG   G01 2  
+G01 CB   CB   C 0 1 N N N 15.673 89.105 29.282 1.407  -0.771 -0.085 CB   G01 3  
+G01 CA   CA   C 0 1 N N R 14.172 88.744 29.147 -0.097 -0.727 0.196  CA   G01 4  
+G01 C    C    C 0 1 N N N 13.607 88.409 30.552 -0.681 -2.105 0.020  C    G01 5  
+G01 C6   C6   C 0 1 N N N 13.356 86.352 25.852 -1.397 1.959  1.423  C6   G01 6  
+G01 P    P    P 0 1 N N R 13.107 87.841 26.815 -2.021 1.011  -0.004 P    G01 7  
+G01 OPA  OPA  O 0 1 N N N 11.556 87.926 27.128 -2.701 2.018  -1.061 OPA  G01 8  
+G01 OPB  OPB  O 0 1 N N N 13.557 89.010 26.024 -3.026 0.028  0.458  OPB  G01 9  
+G01 N    N    N 0 1 N N N 13.889 87.611 28.225 -0.743 0.202  -0.741 N    G01 10 
+G01 O    O    O 0 1 N N N 13.673 87.232 30.968 -1.547 -2.293 -0.802 O    G01 11 
+G01 OXT  OXT  O 0 1 N Y N 13.109 89.365 31.193 -0.240 -3.122 0.775  OXT  G01 12 
+G01 OE1  OE1  O 0 1 N N N 18.103 91.351 29.225 4.013  -0.465 -0.462 OE1  G01 13 
+G01 OE2  OE2  O 0 1 N N N 18.247 89.770 30.783 4.254  1.650  0.131  OE2  G01 14 
+G01 HG2  HG2  H 0 1 N N N 15.733 90.353 31.047 1.855  0.850  1.261  HG2  G01 15 
+G01 HG3  HG3  H 0 1 N N N 15.657 91.256 29.490 1.556  1.352  -0.420 HG3  G01 16 
+G01 HB2  HB2  H 0 1 N N N 16.058 89.196 28.256 1.574  -1.023 -1.132 HB2  G01 17 
+G01 HB3  HB3  H 0 1 N N N 16.075 88.304 29.920 1.873  -1.525 0.549  HB3  G01 18 
+G01 HA   HA   H 0 1 N N N 13.682 89.624 28.705 -0.266 -0.388 1.218  HA   G01 19 
+G01 H6   H6   H 0 1 N N N 13.407 86.610 24.784 -2.225 2.483  1.901  H6   G01 20 
+G01 H6A  H6A  H 0 1 N N N 14.296 85.870 26.158 -0.937 1.278  2.139  H6A  G01 21 
+G01 H6B  H6B  H 0 1 N N N 12.517 85.661 26.022 -0.657 2.683  1.083  H6B  G01 22 
+G01 HOPA HOPA H 0 0 N N N 11.423 87.943 28.068 -3.446 2.519  -0.703 HOPA G01 23 
+G01 H2   H2   H 0 1 N N N 14.781 87.232 27.981 -0.074 0.854  -1.123 HN   G01 24 
+G01 HXT  HXT  H 0 1 N Y N 12.795 89.054 32.034 -0.645 -3.988 0.626  HXT  G01 25 
+G01 HE2  HE2  H 0 1 N N N 19.179 89.931 30.691 5.199  1.573  -0.060 HE2  G01 26 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-G01 OE1   CD DOUB N N  1
-G01  CD   CG SING N N  2
-G01  CD  OE2 SING N N  3
-G01  CB   CG SING N N  4
-G01  CG  HG2 SING N N  5
-G01  CG  HG3 SING N N  6
-G01  CA   CB SING N N  7
-G01  CB  HB2 SING N N  8
-G01  CB  HB3 SING N N  9
-G01   N   CA SING N N 10
-G01  CA    C SING N N 11
-G01  CA   HA SING N N 12
-G01   C    O DOUB N N 13
-G01   C  OXT SING N N 14
-G01  C6    P SING N N 15
-G01  C6   H6 SING N N 16
-G01  C6  H6A SING N N 17
-G01  C6  H6B SING N N 18
-G01 OPB    P DOUB N N 19
-G01   P  OPA SING N N 20
-G01   P    N SING N N 21
-G01 OPA HOPA SING N N 22
-G01   N   H2 SING N N 23
-G01 OXT  HXT SING N N 24
-G01 OE2  HE2 SING N N 25
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+G01 OE1 CD   DOUB N N 1  
+G01 CD  CG   SING N N 2  
+G01 CD  OE2  SING N N 3  
+G01 CB  CG   SING N N 4  
+G01 CG  HG2  SING N N 5  
+G01 CG  HG3  SING N N 6  
+G01 CA  CB   SING N N 7  
+G01 CB  HB2  SING N N 8  
+G01 CB  HB3  SING N N 9  
+G01 N   CA   SING N N 10 
+G01 CA  C    SING N N 11 
+G01 CA  HA   SING N N 12 
+G01 C   O    DOUB N N 13 
+G01 C   OXT  SING N N 14 
+G01 C6  P    SING N N 15 
+G01 C6  H6   SING N N 16 
+G01 C6  H6A  SING N N 17 
+G01 C6  H6B  SING N N 18 
+G01 OPB P    DOUB N N 19 
+G01 P   OPA  SING N N 20 
+G01 P   N    SING N N 21 
+G01 OPA HOPA SING N N 22 
+G01 N   H2   SING N N 23 
+G01 OXT HXT  SING N N 24 
+G01 OE2 HE2  SING N N 25 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-G01           SMILES              ACDLabs 10.04                                                                               O=C(O)CCC(NP(=O)(O)C)C(=O)O
-G01 SMILES_CANONICAL               CACTVS 3.341                                                                        C[P@](O)(=O)N[C@H](CCC(O)=O)C(O)=O
-G01           SMILES               CACTVS 3.341                                                                          C[P](O)(=O)N[CH](CCC(O)=O)C(O)=O
-G01 SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                        C[P@](=O)(N[C@H](CCC(=O)O)C(=O)O)O
-G01           SMILES "OpenEye OEToolkits" 1.5.0                                                                               CP(=O)(NC(CCC(=O)O)C(=O)O)O
-G01            InChI                InChI  1.03 InChI=1S/C6H12NO6P/c1-14(12,13)7-4(6(10)11)2-3-5(8)9/h4H,2-3H2,1H3,(H,8,9)(H,10,11)(H2,7,12,13)/t4-/m1/s1
-G01         InChIKey                InChI  1.03                                                                               XVXVUGZUKCQIOK-SCSAIBSYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+G01 SMILES           ACDLabs              10.04 "O=C(O)CCC(NP(=O)(O)C)C(=O)O"                                                                               
+G01 SMILES_CANONICAL CACTVS               3.341 "C[P@](O)(=O)N[C@H](CCC(O)=O)C(O)=O"                                                                        
+G01 SMILES           CACTVS               3.341 "C[P](O)(=O)N[CH](CCC(O)=O)C(O)=O"                                                                          
+G01 SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[P@](=O)(N[C@H](CCC(=O)O)C(=O)O)O"                                                                        
+G01 SMILES           "OpenEye OEToolkits" 1.5.0 "CP(=O)(NC(CCC(=O)O)C(=O)O)O"                                                                               
+G01 InChI            InChI                1.03  "InChI=1S/C6H12NO6P/c1-14(12,13)7-4(6(10)11)2-3-5(8)9/h4H,2-3H2,1H3,(H,8,9)(H,10,11)(H2,7,12,13)/t4-/m1/s1" 
+G01 InChIKey         InChI                1.03  XVXVUGZUKCQIOK-SCSAIBSYSA-N                                                                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-G01 "SYSTEMATIC NAME"              ACDLabs 10.04          "N-[(R)-hydroxy(methyl)phosphoryl]-D-glutamic acid"
-G01 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-[(hydroxy-methyl-phosphoryl)amino]pentanedioic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+G01 "SYSTEMATIC NAME" ACDLabs              10.04 "N-[(R)-hydroxy(methyl)phosphoryl]-D-glutamic acid"          
+G01 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-[(hydroxy-methyl-phosphoryl)amino]pentanedioic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-G01  "Create component" 2009-03-06 RCSB
-G01 "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-G01  CD C  5.104 -2.160  1
-G01  CG C  5.104 -0.660  2
-G01  CB C  6.404  0.090  3
-G01  CA C  6.404  1.590  4
-G01   C C  5.104  2.340  5
-G01  C6 C 10.301  0.840  6
-G01   P P  9.002  1.590  7
-G01 OPA O  8.252  0.291  8
-G01 OPB O  9.752  2.889  9
-G01   N N  7.702  2.340 10
-G01   O O  3.805  1.590 11
-G01 OXT O  5.104  3.840 12
-G01 OE1 O  3.805 -2.910 13
-G01 OE2 O  6.404 -2.910 14
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-G01 OE1  CD DOUBLE       NONE  1
-G01  CD  CG SINGLE       NONE  2
-G01  CD OE2 SINGLE       NONE  3
-G01  CB  CG SINGLE       NONE  4
-G01  CA  CB SINGLE  BEGINDASH  5
-G01   N  CA SINGLE       NONE  6
-G01  CA   C SINGLE       NONE  7
-G01   C   O DOUBLE       NONE  8
-G01   C OXT SINGLE       NONE  9
-G01  C6   P SINGLE BEGINWEDGE 10
-G01 OPB   P DOUBLE       NONE 11
-G01   P OPA SINGLE       NONE 12
-G01   P   N SINGLE       NONE 13
-#
-_pdbe_chem_comp_substructure.comp_id                      G01
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-G01  O F1 1
-G01  C F1 1
-G01 CA F1 1
-G01  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               G01
-_pdbe_chem_comp_rdkit_properties.exactmw                               225.040
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           7
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     8
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        8
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             97.430
-_pdbe_chem_comp_rdkit_properties.tpsa                                  123.930
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.291
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             47.179
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         14
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-G01 UniChem ChEMBL    CHEMBL1232884
-G01 UniChem   ZINC ZINC000034279157
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-G01   CD  3.430  1.056 -0.136 ETKDGv2  1
-G01   CG  2.587 -0.090  0.328 ETKDGv2  2
-G01   CB  1.099  0.215  0.101 ETKDGv2  3
-G01   CA  0.160 -0.896  0.640 ETKDGv2  4
-G01    C  0.065 -2.096 -0.284 ETKDGv2  5
-G01   C6 -3.780  0.489  0.010 ETKDGv2  6
-G01    P -1.991  0.522 -0.293 ETKDGv2  7
-G01  OPA -1.471  2.133 -0.305 ETKDGv2  8
-G01  OPB -1.713 -0.097 -1.644 ETKDGv2  9
-G01    N -1.168 -0.358  1.006 ETKDGv2 10
-G01    O  1.114 -2.671 -0.681 ETKDGv2 11
-G01  OXT -1.172 -2.619 -0.652 ETKDGv2 12
-G01  OE1  3.830  1.103 -1.330 ETKDGv2 13
-G01  OE2  3.734  2.092  0.741 ETKDGv2 14
-G01  HG2  2.778 -0.259  1.410 ETKDGv2 15
-G01  HG3  2.891 -1.003 -0.223 ETKDGv2 16
-G01  HB2  0.867  1.164  0.633 ETKDGv2 17
-G01  HB3  0.916  0.377 -0.985 ETKDGv2 18
-G01   HA  0.609 -1.274  1.585 ETKDGv2 19
-G01   H6 -4.137 -0.561  0.006 ETKDGv2 20
-G01  H6A -4.301  1.060 -0.786 ETKDGv2 21
-G01  H6B -3.996  0.949  0.996 ETKDGv2 22
-G01 HOPA -1.613  2.450  0.622 ETKDGv2 23
-G01   H2 -1.789 -1.138  1.322 ETKDGv2 24
-G01  HXT -1.237 -3.432 -1.253 ETKDGv2 25
-G01  HE2  4.289  2.884  0.437 ETKDGv2 26
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+G01 "Create component"  2009-03-06 RCSB 
+G01 "Modify descriptor" 2011-06-04 RCSB 
+# 

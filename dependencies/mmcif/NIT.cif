@@ -1,276 +1,119 @@
 data_NIT
-#
-_chem_comp.id                                        NIT
-_chem_comp.name                                      4-NITROANILINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C6 H6 N2 O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             PARANITROANILINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            138.124
-_chem_comp.one_letter_code                           X
-_chem_comp.three_letter_code                         NIT
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1PIP
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    NIT 
+_chem_comp.name                                  4-NITROANILINE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C6 H6 N2 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         PARANITROANILINE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        138.124 
+_chem_comp.one_letter_code                       X 
+_chem_comp.three_letter_code                     NIT 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1PIP 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-NIT   N1   N1 N  0 1 N N N 55.910 44.351 19.845  3.547 -0.000  0.001   N1 NIT  1
-NIT   C1   C1 C  0 1 Y N N 57.190 44.422 19.476  2.150 -0.000  0.001   C1 NIT  2
-NIT   C2   C2 C  0 1 Y N N 57.695 45.498 18.731  1.454  1.202 -0.000   C2 NIT  3
-NIT   C3   C3 C  0 1 Y N N 59.043 45.579 18.350  0.073  1.199 -0.000   C3 NIT  4
-NIT   C4   C4 C  0 1 Y N N 59.979 44.575 18.651 -0.617  0.000  0.001   C4 NIT  5
-NIT   N4   N4 N  1 1 N N N 61.259 44.669 18.296 -2.097 -0.000  0.000   N4 NIT  6
-NIT  ON1  ON1 O -1 1 N N N 61.671 45.754 17.641 -2.706  1.055 -0.001  ON1 NIT  7
-NIT  ON2  ON2 O  0 1 N N N 62.092 43.678 18.607 -2.706 -1.055  0.001  ON2 NIT  8
-NIT   C5   C5 C  0 1 Y N N 59.468 43.458 19.334  0.073 -1.199  0.002   C5 NIT  9
-NIT   C6   C6 C  0 1 Y N N 58.120 43.390 19.723  1.454 -1.202 -0.004   C6 NIT 10
-NIT HN11 HN11 H  0 0 N N N 55.759 43.510 20.365  4.032  0.840  0.000 HN11 NIT 11
-NIT HN12 HN12 H  0 0 N Y N 55.683 45.141 20.415  4.032 -0.840  0.006 HN12 NIT 12
-NIT   H2   H2 H  0 1 N N N 57.023 46.292 18.441  1.992  2.138 -0.001   H2 NIT 13
-NIT   H3   H3 H  0 1 N N N 59.375 46.449 17.803 -0.469  2.133 -0.001   H3 NIT 14
-NIT   H5   H5 H  0 1 N N N 60.126 42.634 19.565 -0.469 -2.133  0.003   H5 NIT 15
-NIT   H6   H6 H  0 1 N N N 57.778 42.504 20.237  1.992 -2.138 -0.008   H6 NIT 16
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+NIT N1   N1   N 0  1 N N N 55.910 44.351 19.845 3.547  -0.000 0.001  N1   NIT 1  
+NIT C1   C1   C 0  1 Y N N 57.190 44.422 19.476 2.150  -0.000 0.001  C1   NIT 2  
+NIT C2   C2   C 0  1 Y N N 57.695 45.498 18.731 1.454  1.202  -0.000 C2   NIT 3  
+NIT C3   C3   C 0  1 Y N N 59.043 45.579 18.350 0.073  1.199  -0.000 C3   NIT 4  
+NIT C4   C4   C 0  1 Y N N 59.979 44.575 18.651 -0.617 0.000  0.001  C4   NIT 5  
+NIT N4   N4   N 1  1 N N N 61.259 44.669 18.296 -2.097 -0.000 0.000  N4   NIT 6  
+NIT ON1  ON1  O -1 1 N N N 61.671 45.754 17.641 -2.706 1.055  -0.001 ON1  NIT 7  
+NIT ON2  ON2  O 0  1 N N N 62.092 43.678 18.607 -2.706 -1.055 0.001  ON2  NIT 8  
+NIT C5   C5   C 0  1 Y N N 59.468 43.458 19.334 0.073  -1.199 0.002  C5   NIT 9  
+NIT C6   C6   C 0  1 Y N N 58.120 43.390 19.723 1.454  -1.202 -0.004 C6   NIT 10 
+NIT HN11 HN11 H 0  0 N N N 55.759 43.510 20.365 4.032  0.840  0.000  HN11 NIT 11 
+NIT HN12 HN12 H 0  0 N Y N 55.683 45.141 20.415 4.032  -0.840 0.006  HN12 NIT 12 
+NIT H2   H2   H 0  1 N N N 57.023 46.292 18.441 1.992  2.138  -0.001 H2   NIT 13 
+NIT H3   H3   H 0  1 N N N 59.375 46.449 17.803 -0.469 2.133  -0.001 H3   NIT 14 
+NIT H5   H5   H 0  1 N N N 60.126 42.634 19.565 -0.469 -2.133 0.003  H5   NIT 15 
+NIT H6   H6   H 0  1 N N N 57.778 42.504 20.237 1.992  -2.138 -0.008 H6   NIT 16 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-NIT N1   C1 SING N N  1
-NIT N1 HN11 SING N N  2
-NIT N1 HN12 SING N N  3
-NIT C1   C2 DOUB Y N  4
-NIT C1   C6 SING Y N  5
-NIT C2   C3 SING Y N  6
-NIT C2   H2 SING N N  7
-NIT C3   C4 DOUB Y N  8
-NIT C3   H3 SING N N  9
-NIT C4   N4 SING N N 10
-NIT C4   C5 SING Y N 11
-NIT N4  ON1 SING N N 12
-NIT N4  ON2 DOUB N N 13
-NIT C5   C6 DOUB Y N 14
-NIT C5   H5 SING N N 15
-NIT C6   H6 SING N N 16
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+NIT N1 C1   SING N N 1  
+NIT N1 HN11 SING N N 2  
+NIT N1 HN12 SING N N 3  
+NIT C1 C2   DOUB Y N 4  
+NIT C1 C6   SING Y N 5  
+NIT C2 C3   SING Y N 6  
+NIT C2 H2   SING N N 7  
+NIT C3 C4   DOUB Y N 8  
+NIT C3 H3   SING N N 9  
+NIT C4 N4   SING N N 10 
+NIT C4 C5   SING Y N 11 
+NIT N4 ON1  SING N N 12 
+NIT N4 ON2  DOUB N N 13 
+NIT C5 C6   DOUB Y N 14 
+NIT C5 H5   SING N N 15 
+NIT C6 H6   SING N N 16 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-NIT           SMILES              ACDLabs 12.01                             O=[N+]([O-])c1ccc(N)cc1
-NIT SMILES_CANONICAL               CACTVS 3.370                             Nc1ccc(cc1)[N+]([O-])=O
-NIT           SMILES               CACTVS 3.370                             Nc1ccc(cc1)[N+]([O-])=O
-NIT SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                             c1cc(ccc1N)[N+](=O)[O-]
-NIT           SMILES "OpenEye OEToolkits" 1.7.0                             c1cc(ccc1N)[N+](=O)[O-]
-NIT            InChI                InChI  1.03 InChI=1S/C6H6N2O2/c7-5-1-3-6(4-2-5)8(9)10/h1-4H,7H2
-NIT         InChIKey                InChI  1.03                         TYMLOMAKGOJONV-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+NIT SMILES           ACDLabs              12.01 "O=[N+]([O-])c1ccc(N)cc1"                             
+NIT SMILES_CANONICAL CACTVS               3.370 "Nc1ccc(cc1)[N+]([O-])=O"                             
+NIT SMILES           CACTVS               3.370 "Nc1ccc(cc1)[N+]([O-])=O"                             
+NIT SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "c1cc(ccc1N)[N+](=O)[O-]"                             
+NIT SMILES           "OpenEye OEToolkits" 1.7.0 "c1cc(ccc1N)[N+](=O)[O-]"                             
+NIT InChI            InChI                1.03  "InChI=1S/C6H6N2O2/c7-5-1-3-6(4-2-5)8(9)10/h1-4H,7H2" 
+NIT InChIKey         InChI                1.03  TYMLOMAKGOJONV-UHFFFAOYSA-N                           
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-NIT "SYSTEMATIC NAME"              ACDLabs 12.01 4-nitroaniline
-NIT "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 4-nitroaniline
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+NIT "SYSTEMATIC NAME" ACDLabs              12.01 4-nitroaniline 
+NIT "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 4-nitroaniline 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-NIT  "Create component" 1999-07-08 RCSB
-NIT "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-NIT         p-Nitroaniline ChEMBL
-NIT 1-Amino-4-nitrobenzene ChEMBL
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-NIT  N1 N 4.299 -3.143  1
-NIT  C1 C 4.299 -1.643  2
-NIT  C2 C 3.000 -0.892  3
-NIT  C3 C 3.000  0.608  4
-NIT  C4 C 4.299  1.357  5
-NIT  N4 N 4.299  2.857  6
-NIT ON1 O 5.598  3.607  7
-NIT ON2 O 3.000  3.607  8
-NIT  C5 C 5.598  0.608  9
-NIT  C6 C 5.598 -0.892 10
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-NIT N1  C1 SINGLE NONE  1
-NIT C1  C2 DOUBLE NONE  2
-NIT C1  C6 SINGLE NONE  3
-NIT C2  C3 SINGLE NONE  4
-NIT C3  C4 DOUBLE NONE  5
-NIT C4  N4 SINGLE NONE  6
-NIT C4  C5 SINGLE NONE  7
-NIT N4 ON1 SINGLE NONE  8
-NIT N4 ON2 DOUBLE NONE  9
-NIT C5  C6 DOUBLE NONE 10
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-NIT MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-NIT         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-NIT C1 F1 1
-NIT C2 F1 1
-NIT C3 F1 1
-NIT C4 F1 1
-NIT C5 F1 1
-NIT C6 F1 1
-NIT C1 S1 1
-NIT C2 S1 1
-NIT C3 S1 1
-NIT C4 S1 1
-NIT C5 S1 1
-NIT C6 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               NIT
-_pdbe_chem_comp_rdkit_properties.exactmw                               138.043
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             65.970
-_pdbe_chem_comp_rdkit_properties.tpsa                                  69.160
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.416
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             35.861
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-NIT UniChem        ChEMBL      CHEMBL14282
-NIT UniChem "KEGG LIGAND"           C02126
-NIT UniChem         ChEBI            17064
-NIT UniChem          ZINC ZINC000003860644
-NIT UniChem          ZINC     ZINC03860644
-NIT UniChem    NMRShiftDB         10008618
-NIT UniChem  MetaboLights       MTBLC17064
-NIT UniChem        BRENDA           103916
-NIT UniChem        BRENDA           108375
-NIT UniChem        BRENDA           108436
-NIT UniChem        BRENDA           117489
-NIT UniChem        BRENDA           134668
-NIT UniChem        BRENDA            20019
-NIT UniChem        BRENDA              209
-NIT UniChem        BRENDA             3182
-NIT UniChem        BRENDA               99
-NIT UniChem          Rhea            17064
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NIT   N1 -2.847  0.286 -0.129 ETKDGv2  1
-NIT   C1 -1.427  0.127 -0.068 ETKDGv2  2
-NIT   C2 -0.866 -1.074 -0.273 ETKDGv2  3
-NIT   C3  0.602 -1.232 -0.209 ETKDGv2  4
-NIT   C4  1.393 -0.175  0.056 ETKDGv2  5
-NIT   N4  2.823 -0.323  0.120 ETKDGv2  6
-NIT  ON1  3.415 -1.548 -0.088 ETKDGv2  7
-NIT  ON2  3.549  0.662  0.366 ETKDGv2  8
-NIT   C5  0.765  1.154  0.282 ETKDGv2  9
-NIT   C6 -0.565  1.295  0.224 ETKDGv2 10
-NIT HN11 -3.472 -0.526 -0.333 ETKDGv2 11
-NIT HN12 -3.282  1.221  0.031 ETKDGv2 12
-NIT   H2 -1.481 -1.939 -0.487 ETKDGv2 13
-NIT   H3  1.023 -2.215 -0.379 ETKDGv2 14
-NIT   H5  1.379  2.019  0.497 ETKDGv2 15
-NIT   H6 -1.010  2.268  0.390 ETKDGv2 16
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+NIT "Create component"  1999-07-08 RCSB 
+NIT "Modify descriptor" 2011-06-04 RCSB 
+# 

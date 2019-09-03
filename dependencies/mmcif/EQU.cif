@@ -1,440 +1,166 @@
 data_EQU
-#
-_chem_comp.id                                        EQU
-_chem_comp.name                                      EQUILENIN
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C18 H18 O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            266.334
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         EQU
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1QJG
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    EQU 
+_chem_comp.name                                  EQUILENIN 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C18 H18 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        266.334 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     EQU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1QJG 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-EQU   C1   C1 C 0 1 Y N N -36.532 70.355 -40.494  0.193  0.126 -4.373   C1 EQU  1
-EQU   C2   C2 C 0 1 Y N N -35.498 69.592 -40.016 -0.971  0.094 -3.661   C2 EQU  2
-EQU   C3   C3 C 0 1 Y N N -35.671 68.965 -38.764 -0.927 -0.051 -2.264   C3 EQU  3
-EQU   C4   C4 C 0 1 Y N N -36.928 69.127 -38.001  0.324 -0.159 -1.615   C4 EQU  4
-EQU   C5   C5 C 0 1 Y N N -37.947 69.912 -38.533  1.505 -0.123 -2.379   C5 EQU  5
-EQU   C6   C6 C 0 1 Y N N -37.750 70.513 -39.756  1.430  0.016 -3.729   C6 EQU  6
-EQU  C10  C10 C 0 1 Y N N -34.576 68.169 -38.264 -2.105 -0.091 -1.499  C10 EQU  7
-EQU  C11  C11 C 0 1 Y N N -34.727 67.534 -37.000 -2.016 -0.247 -0.152  C11 EQU  8
-EQU  C12  C12 C 0 1 Y N N -35.944 67.692 -36.261 -0.783 -0.360  0.490  C12 EQU  9
-EQU  C13  C13 C 0 1 Y N N -37.055 68.483 -36.750  0.386 -0.296 -0.209  C13 EQU 10
-EQU  C16  C16 C 0 1 N N R -36.046 67.013 -34.962 -0.737 -0.583  1.964  C16 EQU 11
-EQU  C17  C17 C 0 1 N N S -37.505 66.678 -34.595  0.543  0.114  2.495  C17 EQU 12
-EQU  C18  C18 C 0 1 N N N -38.403 67.935 -34.625  1.713 -0.659  1.922  C18 EQU 13
-EQU  C19  C19 C 0 1 N N N -38.351 68.660 -35.984  1.752 -0.360  0.419  C19 EQU 14
-EQU  C24  C24 C 0 1 N N N -35.387 65.620 -34.811 -1.832  0.077  2.804  C24 EQU 15
-EQU  C25  C25 C 0 1 N N N -35.784 65.308 -33.335 -1.172  0.151  4.210  C25 EQU 16
-EQU  C26  C26 C 0 1 N N N -37.180 66.026 -33.260  0.354  0.094  3.982  C26 EQU 17
-EQU  C27  C27 C 0 1 N N N -38.092 65.587 -35.527  0.587  1.561  1.999  C27 EQU 18
-EQU   O1   O1 O 0 1 N N N -36.344 70.921 -41.649  0.150  0.266 -5.724   O1 EQU 19
-EQU  O26  O26 O 0 1 N N N -37.895 66.066 -32.299  1.216  0.049  4.826  O26 EQU 20
-EQU   H2   H2 H 0 1 N N N -34.573 69.487 -40.608 -1.921  0.181 -4.168   H2 EQU 21
-EQU   H5   H5 H 0 1 N N N -38.897 70.055 -37.992  2.467 -0.207 -1.895   H5 EQU 22
-EQU   H6   H6 H 0 1 N N N -38.577 71.127 -40.148  2.338  0.042 -4.313   H6 EQU 23
-EQU  H10  H10 H 0 1 N N N -33.641 68.048 -38.837 -3.069  0.000 -1.977  H10 EQU 24
-EQU  H11  H11 H 0 1 N N N -33.903 66.921 -36.594 -2.923 -0.285  0.433  H11 EQU 25
-EQU  H16  H16 H 0 1 N N N -35.524 67.768 -34.329 -0.696 -1.652  2.178  H16 EQU 26
-EQU H181 1H18 H 0 0 N N N -39.452 67.686 -34.341  2.641 -0.331  2.391 H181 EQU 27
-EQU H182 2H18 H 0 0 N N N -38.152 68.628 -33.789  1.569 -1.727  2.086 H182 EQU 28
-EQU H191 1H19 H 0 0 N N N -38.576 69.743 -35.852  2.253  0.594  0.264 H191 EQU 29
-EQU H192 2H19 H 0 0 N N N -39.217 68.357 -36.616  2.330 -1.140 -0.077 H192 EQU 30
-EQU H241 1H24 H 0 0 N N N -35.677 64.855 -35.568 -2.059  1.075  2.429 H241 EQU 31
-EQU H242 2H24 H 0 0 N N N -34.298 65.564 -35.048 -2.729 -0.541  2.829 H242 EQU 32
-EQU H251 1H25 H 0 0 N N N -35.778 64.230 -33.050 -1.453  1.080  4.706 H251 EQU 33
-EQU H252 2H25 H 0 0 N N N -35.041 65.611 -32.560 -1.481 -0.702  4.813 H252 EQU 34
-EQU H271 1H27 H 0 0 N N N -39.147 65.344 -35.261  1.524  2.023  2.308 H271 EQU 35
-EQU H272 2H27 H 0 0 N N N -37.997 65.874 -36.600  0.516  1.574  0.911 H272 EQU 36
-EQU H273 3H27 H 0 0 N N N -37.454 64.672 -35.535 -0.249  2.116  2.424 H273 EQU 37
-EQU  HO1  HO1 H 0 1 N N N -37.060 71.449 -41.980  0.174  1.215 -5.907  HO1 EQU 38
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+EQU C1   C1   C 0 1 Y N N -36.532 70.355 -40.494 0.193  0.126  -4.373 C1   EQU 1  
+EQU C2   C2   C 0 1 Y N N -35.498 69.592 -40.016 -0.971 0.094  -3.661 C2   EQU 2  
+EQU C3   C3   C 0 1 Y N N -35.671 68.965 -38.764 -0.927 -0.051 -2.264 C3   EQU 3  
+EQU C4   C4   C 0 1 Y N N -36.928 69.127 -38.001 0.324  -0.159 -1.615 C4   EQU 4  
+EQU C5   C5   C 0 1 Y N N -37.947 69.912 -38.533 1.505  -0.123 -2.379 C5   EQU 5  
+EQU C6   C6   C 0 1 Y N N -37.750 70.513 -39.756 1.430  0.016  -3.729 C6   EQU 6  
+EQU C10  C10  C 0 1 Y N N -34.576 68.169 -38.264 -2.105 -0.091 -1.499 C10  EQU 7  
+EQU C11  C11  C 0 1 Y N N -34.727 67.534 -37.000 -2.016 -0.247 -0.152 C11  EQU 8  
+EQU C12  C12  C 0 1 Y N N -35.944 67.692 -36.261 -0.783 -0.360 0.490  C12  EQU 9  
+EQU C13  C13  C 0 1 Y N N -37.055 68.483 -36.750 0.386  -0.296 -0.209 C13  EQU 10 
+EQU C16  C16  C 0 1 N N R -36.046 67.013 -34.962 -0.737 -0.583 1.964  C16  EQU 11 
+EQU C17  C17  C 0 1 N N S -37.505 66.678 -34.595 0.543  0.114  2.495  C17  EQU 12 
+EQU C18  C18  C 0 1 N N N -38.403 67.935 -34.625 1.713  -0.659 1.922  C18  EQU 13 
+EQU C19  C19  C 0 1 N N N -38.351 68.660 -35.984 1.752  -0.360 0.419  C19  EQU 14 
+EQU C24  C24  C 0 1 N N N -35.387 65.620 -34.811 -1.832 0.077  2.804  C24  EQU 15 
+EQU C25  C25  C 0 1 N N N -35.784 65.308 -33.335 -1.172 0.151  4.210  C25  EQU 16 
+EQU C26  C26  C 0 1 N N N -37.180 66.026 -33.260 0.354  0.094  3.982  C26  EQU 17 
+EQU C27  C27  C 0 1 N N N -38.092 65.587 -35.527 0.587  1.561  1.999  C27  EQU 18 
+EQU O1   O1   O 0 1 N N N -36.344 70.921 -41.649 0.150  0.266  -5.724 O1   EQU 19 
+EQU O26  O26  O 0 1 N N N -37.895 66.066 -32.299 1.216  0.049  4.826  O26  EQU 20 
+EQU H2   H2   H 0 1 N N N -34.573 69.487 -40.608 -1.921 0.181  -4.168 H2   EQU 21 
+EQU H5   H5   H 0 1 N N N -38.897 70.055 -37.992 2.467  -0.207 -1.895 H5   EQU 22 
+EQU H6   H6   H 0 1 N N N -38.577 71.127 -40.148 2.338  0.042  -4.313 H6   EQU 23 
+EQU H10  H10  H 0 1 N N N -33.641 68.048 -38.837 -3.069 0.000  -1.977 H10  EQU 24 
+EQU H11  H11  H 0 1 N N N -33.903 66.921 -36.594 -2.923 -0.285 0.433  H11  EQU 25 
+EQU H16  H16  H 0 1 N N N -35.524 67.768 -34.329 -0.696 -1.652 2.178  H16  EQU 26 
+EQU H181 1H18 H 0 0 N N N -39.452 67.686 -34.341 2.641  -0.331 2.391  H181 EQU 27 
+EQU H182 2H18 H 0 0 N N N -38.152 68.628 -33.789 1.569  -1.727 2.086  H182 EQU 28 
+EQU H191 1H19 H 0 0 N N N -38.576 69.743 -35.852 2.253  0.594  0.264  H191 EQU 29 
+EQU H192 2H19 H 0 0 N N N -39.217 68.357 -36.616 2.330  -1.140 -0.077 H192 EQU 30 
+EQU H241 1H24 H 0 0 N N N -35.677 64.855 -35.568 -2.059 1.075  2.429  H241 EQU 31 
+EQU H242 2H24 H 0 0 N N N -34.298 65.564 -35.048 -2.729 -0.541 2.829  H242 EQU 32 
+EQU H251 1H25 H 0 0 N N N -35.778 64.230 -33.050 -1.453 1.080  4.706  H251 EQU 33 
+EQU H252 2H25 H 0 0 N N N -35.041 65.611 -32.560 -1.481 -0.702 4.813  H252 EQU 34 
+EQU H271 1H27 H 0 0 N N N -39.147 65.344 -35.261 1.524  2.023  2.308  H271 EQU 35 
+EQU H272 2H27 H 0 0 N N N -37.997 65.874 -36.600 0.516  1.574  0.911  H272 EQU 36 
+EQU H273 3H27 H 0 0 N N N -37.454 64.672 -35.535 -0.249 2.116  2.424  H273 EQU 37 
+EQU HO1  HO1  H 0 1 N N N -37.060 71.449 -41.980 0.174  1.215  -5.907 HO1  EQU 38 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-EQU  C1   C2 DOUB Y N  1
-EQU  C1   C6 SING Y N  2
-EQU  C1   O1 SING N N  3
-EQU  C2   C3 SING Y N  4
-EQU  C2   H2 SING N N  5
-EQU  C3   C4 DOUB Y N  6
-EQU  C3  C10 SING Y N  7
-EQU  C4   C5 SING Y N  8
-EQU  C4  C13 SING Y N  9
-EQU  C5   C6 DOUB Y N 10
-EQU  C5   H5 SING N N 11
-EQU  C6   H6 SING N N 12
-EQU C10  C11 DOUB Y N 13
-EQU C10  H10 SING N N 14
-EQU C11  C12 SING Y N 15
-EQU C11  H11 SING N N 16
-EQU C12  C13 DOUB Y N 17
-EQU C12  C16 SING N N 18
-EQU C13  C19 SING N N 19
-EQU C16  C17 SING N N 20
-EQU C16  C24 SING N N 21
-EQU C16  H16 SING N N 22
-EQU C17  C18 SING N N 23
-EQU C17  C26 SING N N 24
-EQU C17  C27 SING N N 25
-EQU C18  C19 SING N N 26
-EQU C18 H181 SING N N 27
-EQU C18 H182 SING N N 28
-EQU C19 H191 SING N N 29
-EQU C19 H192 SING N N 30
-EQU C24  C25 SING N N 31
-EQU C24 H241 SING N N 32
-EQU C24 H242 SING N N 33
-EQU C25  C26 SING N N 34
-EQU C25 H251 SING N N 35
-EQU C25 H252 SING N N 36
-EQU C26  O26 DOUB N N 37
-EQU C27 H271 SING N N 38
-EQU C27 H272 SING N N 39
-EQU C27 H273 SING N N 40
-EQU  O1  HO1 SING N N 41
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+EQU C1  C2   DOUB Y N 1  
+EQU C1  C6   SING Y N 2  
+EQU C1  O1   SING N N 3  
+EQU C2  C3   SING Y N 4  
+EQU C2  H2   SING N N 5  
+EQU C3  C4   DOUB Y N 6  
+EQU C3  C10  SING Y N 7  
+EQU C4  C5   SING Y N 8  
+EQU C4  C13  SING Y N 9  
+EQU C5  C6   DOUB Y N 10 
+EQU C5  H5   SING N N 11 
+EQU C6  H6   SING N N 12 
+EQU C10 C11  DOUB Y N 13 
+EQU C10 H10  SING N N 14 
+EQU C11 C12  SING Y N 15 
+EQU C11 H11  SING N N 16 
+EQU C12 C13  DOUB Y N 17 
+EQU C12 C16  SING N N 18 
+EQU C13 C19  SING N N 19 
+EQU C16 C17  SING N N 20 
+EQU C16 C24  SING N N 21 
+EQU C16 H16  SING N N 22 
+EQU C17 C18  SING N N 23 
+EQU C17 C26  SING N N 24 
+EQU C17 C27  SING N N 25 
+EQU C18 C19  SING N N 26 
+EQU C18 H181 SING N N 27 
+EQU C18 H182 SING N N 28 
+EQU C19 H191 SING N N 29 
+EQU C19 H192 SING N N 30 
+EQU C24 C25  SING N N 31 
+EQU C24 H241 SING N N 32 
+EQU C24 H242 SING N N 33 
+EQU C25 C26  SING N N 34 
+EQU C25 H251 SING N N 35 
+EQU C25 H252 SING N N 36 
+EQU C26 O26  DOUB N N 37 
+EQU C27 H271 SING N N 38 
+EQU C27 H272 SING N N 39 
+EQU C27 H273 SING N N 40 
+EQU O1  HO1  SING N N 41 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-EQU           SMILES              ACDLabs 10.04                                                                                       O=C4C3(CCc1c(ccc2c1ccc(O)c2)C3CC4)C
-EQU SMILES_CANONICAL               CACTVS 3.341                                                                                 C[C@]12CCc3c(ccc4cc(O)ccc34)[C@@H]1CCC2=O
-EQU           SMILES               CACTVS 3.341                                                                                    C[C]12CCc3c(ccc4cc(O)ccc34)[CH]1CCC2=O
-EQU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                   C[C@]12CCc3c4ccc(cc4ccc3[C@@H]1CCC2=O)O
-EQU           SMILES "OpenEye OEToolkits" 1.5.0                                                                                           CC12CCc3c4ccc(cc4ccc3C1CCC2=O)O
-EQU            InChI                InChI  1.03 InChI=1S/C18H18O2/c1-18-9-8-14-13-5-3-12(19)10-11(13)2-4-15(14)16(18)6-7-17(18)20/h2-5,10,16,19H,6-9H2,1H3/t16-,18-/m0/s1
-EQU         InChIKey                InChI  1.03                                                                                               PDRGHUMCVRDZLQ-WMZOPIPTSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+EQU SMILES           ACDLabs              10.04 "O=C4C3(CCc1c(ccc2c1ccc(O)c2)C3CC4)C"                                                                                       
+EQU SMILES_CANONICAL CACTVS               3.341 "C[C@]12CCc3c(ccc4cc(O)ccc34)[C@@H]1CCC2=O"                                                                                 
+EQU SMILES           CACTVS               3.341 "C[C]12CCc3c(ccc4cc(O)ccc34)[CH]1CCC2=O"                                                                                    
+EQU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@]12CCc3c4ccc(cc4ccc3[C@@H]1CCC2=O)O"                                                                                   
+EQU SMILES           "OpenEye OEToolkits" 1.5.0 "CC12CCc3c4ccc(cc4ccc3C1CCC2=O)O"                                                                                           
+EQU InChI            InChI                1.03  "InChI=1S/C18H18O2/c1-18-9-8-14-13-5-3-12(19)10-11(13)2-4-15(14)16(18)6-7-17(18)20/h2-5,10,16,19H,6-9H2,1H3/t16-,18-/m0/s1" 
+EQU InChIKey         InChI                1.03  PDRGHUMCVRDZLQ-WMZOPIPTSA-N                                                                                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-EQU "SYSTEMATIC NAME"              ACDLabs 10.04                                              3-hydroxyestra-1,3,5(10),6,8-pentaen-17-one
-EQU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 (13S,14S)-3-hydroxy-13-methyl-12,14,15,16-tetrahydro-11H-cyclopenta[a]phenanthren-17-one
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+EQU "SYSTEMATIC NAME" ACDLabs              10.04 "3-hydroxyestra-1,3,5(10),6,8-pentaen-17-one"                                              
+EQU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(13S,14S)-3-hydroxy-13-methyl-12,14,15,16-tetrahydro-11H-cyclopenta[a]phenanthren-17-one" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-EQU  "Create component" 1999-07-08 RCSB
-EQU "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   EQU
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03515
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Equilenin
-_pdbe_chem_comp_drugbank_details.description               "An estrogenic steroid produced by HORSES. It has a total of five double bonds in the A- and B-ring. High concentration of equilenin is found in the URINE of pregnant mares. [PubChem]"
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           EQU
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03515
-_pdbe_chem_comp_drugbank_classification.parent            "Estrogens and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Steroids and steroid derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Lipids and lipid-like molecules"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as estrogens and derivatives. These are steroids with a structure containing a 3-hydroxylated estrane."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-EQU DB03515 "Steroid Delta-isomerase" "Comamonas testosteroni" P00947 unknown 1
-EQU DB03515 "Steroid Delta-isomerase"     "Pseudomonas putida" P07445 unknown 2
-#
-_pdbx_chem_comp_synonyms.comp_id          EQU
-_pdbx_chem_comp_synonyms.name             Equilenin
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-EQU  C1 C  5.106 -2.451  1
-EQU  C2 C  6.515 -3.265  2
-EQU  C3 C  7.918 -2.441  3
-EQU  C4 C  7.930 -0.878  4
-EQU  C5 C  6.540 -0.032  5
-EQU  C6 C  5.118 -0.824  6
-EQU C10 C  9.271 -3.222  7
-EQU C11 C 10.618 -2.430  8
-EQU C12 C 10.594 -0.868  9
-EQU C13 C  9.295 -0.118 10
-EQU C16 C 11.893 -0.118 11
-EQU C17 C 11.893  1.382 12
-EQU C18 C 10.594  2.132 13
-EQU C19 C  9.295  1.382 14
-EQU C24 C 13.312 -0.575 15
-EQU C25 C 14.188  0.632 16
-EQU C26 C 13.312  1.839 17
-EQU C27 C 11.893  2.882 18
-EQU  O1 O  3.804 -3.196 19
-EQU O26 O 13.779  3.265 20
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-EQU  C1  C2 DOUBLE       NONE  1
-EQU  C1  C6 SINGLE       NONE  2
-EQU  C1  O1 SINGLE       NONE  3
-EQU  C2  C3 SINGLE       NONE  4
-EQU  C3  C4 DOUBLE       NONE  5
-EQU  C3 C10 SINGLE       NONE  6
-EQU  C4  C5 SINGLE       NONE  7
-EQU  C4 C13 SINGLE       NONE  8
-EQU  C5  C6 DOUBLE       NONE  9
-EQU C10 C11 DOUBLE       NONE 10
-EQU C11 C12 SINGLE       NONE 11
-EQU C12 C13 DOUBLE       NONE 12
-EQU C12 C16 SINGLE       NONE 13
-EQU C13 C19 SINGLE       NONE 14
-EQU C16 C17 SINGLE       NONE 15
-EQU C16 C24 SINGLE       NONE 16
-EQU C17 C18 SINGLE       NONE 17
-EQU C17 C26 SINGLE       NONE 18
-EQU C17 C27 SINGLE BEGINWEDGE 19
-EQU C18 C19 SINGLE       NONE 20
-EQU C24 C25 SINGLE       NONE 21
-EQU C25 C26 SINGLE       NONE 22
-EQU C26 O26 DOUBLE       NONE 23
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-EQU MurckoScaffold S1 scaffold                 O=C1CC[C@H]2c3ccc4ccccc4c3CCC12 InChI=1S/C17H16O/c18-17-10-9-15-14-6-5-11-3-1-2-4-12(11)13(14)7-8-16(15)17/h1-6,15-16H,7-10H2/t15-,16?/m0/s1 CMOSMSJBKVDZBJ-VYRBHSGPSA-N
-EQU   cyclopentane F1 fragment                                         C1CCCC1                                                                           InChI=1S/C5H10/c1-2-4-5-3-1/h1-5H2 RGSFGYAAUTVSQA-UHFFFAOYSA-N
-EQU     napthalene F2 fragment                                  c1ccc2ccccc2c1                                                              InChI=1S/C10H8/c1-2-6-10-8-4-3-7-9(10)5-1/h1-8H UFWIBTONFRDIAS-UHFFFAOYSA-N
-EQU         phenyl F3 fragment                                        c1ccccc1                                                                           InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-EQU   steroid-like F4 fragment C1~C~C~C2~C(~C~1)~C~C~C1~C3~C~C~C~C~3~C~C~C~2~1                                                                                                            .                           .
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-EQU C16 F1 1
-EQU C17 F1 1
-EQU C26 F1 1
-EQU C25 F1 1
-EQU C24 F1 1
-EQU  C1 F2 1
-EQU  C6 F2 1
-EQU  C5 F2 1
-EQU  C4 F2 1
-EQU  C3 F2 1
-EQU  C2 F2 1
-EQU C10 F2 1
-EQU C11 F2 1
-EQU C12 F2 1
-EQU C13 F2 1
-EQU  C1 F3 1
-EQU  C2 F3 1
-EQU  C3 F3 1
-EQU  C4 F3 1
-EQU  C5 F3 1
-EQU  C6 F3 1
-EQU  C3 F3 2
-EQU  C4 F3 2
-EQU C13 F3 2
-EQU C12 F3 2
-EQU C11 F3 2
-EQU C10 F3 2
-EQU  C6 F4 1
-EQU  C1 F4 1
-EQU  C2 F4 1
-EQU  C3 F4 1
-EQU  C4 F4 1
-EQU  C5 F4 1
-EQU C13 F4 1
-EQU C12 F4 1
-EQU C11 F4 1
-EQU C10 F4 1
-EQU C16 F4 1
-EQU C17 F4 1
-EQU C18 F4 1
-EQU C19 F4 1
-EQU C26 F4 1
-EQU C25 F4 1
-EQU C24 F4 1
-EQU  C1 S1 1
-EQU  C2 S1 1
-EQU  C3 S1 1
-EQU  C4 S1 1
-EQU  C5 S1 1
-EQU  C6 S1 1
-EQU C10 S1 1
-EQU C11 S1 1
-EQU C12 S1 1
-EQU C13 S1 1
-EQU C16 S1 1
-EQU C17 S1 1
-EQU C18 S1 1
-EQU C19 S1 1
-EQU C24 S1 1
-EQU C25 S1 1
-EQU C26 S1 1
-EQU O26 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               EQU
-_pdbe_chem_comp_rdkit_properties.exactmw                               266.131
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                2
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.389
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             143.353
-_pdbe_chem_comp_rdkit_properties.tpsa                                  37.300
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.944
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             75.675
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         20
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-EQU UniChem        ChEMBL     CHEMBL225546
-EQU UniChem      DrugBank          DB03515
-EQU UniChem "KEGG LIGAND"           C14303
-EQU UniChem         ChEBI            34739
-EQU UniChem          ZINC ZINC000000393154
-EQU UniChem          ZINC     ZINC00393154
-EQU UniChem     BindingDb         50423545
-EQU UniChem        BRENDA            11127
-EQU UniChem        BRENDA            91440
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-EQU   C1  4.782  0.171  0.291 ETKDGv2  1
-EQU   C2  4.037 -0.927  0.101 ETKDGv2  2
-EQU   C3  2.559 -0.845  0.144 ETKDGv2  3
-EQU   C4  1.947  0.342  0.375 ETKDGv2  4
-EQU   C5  2.789  1.552  0.587 ETKDGv2  5
-EQU   C6  4.124  1.467  0.546 ETKDGv2  6
-EQU  C10  1.758 -2.068 -0.060 ETKDGv2  7
-EQU  C11  0.425 -2.015 -0.027 ETKDGv2  8
-EQU  C12 -0.266 -0.725  0.197 ETKDGv2  9
-EQU  C13  0.451  0.413  0.415 ETKDGv2 10
-EQU  C16 -1.758 -0.666  0.352 ETKDGv2 11
-EQU  C17 -2.319  0.611 -0.273 ETKDGv2 12
-EQU  C18 -1.796  1.778  0.580 ETKDGv2 13
-EQU  C19 -0.239  1.771  0.633 ETKDGv2 14
-EQU  C24 -2.659 -1.794 -0.156 ETKDGv2 15
-EQU  C25 -4.059 -1.154 -0.156 ETKDGv2 16
-EQU  C26 -3.779  0.318 -0.193 ETKDGv2 17
-EQU  C27 -1.954  0.809 -1.769 ETKDGv2 18
-EQU   O1  6.174  0.108  0.252 ETKDGv2 19
-EQU  O26 -4.652  1.173 -0.213 ETKDGv2 20
-EQU   H2  4.517 -1.881 -0.086 ETKDGv2 21
-EQU   H5  2.339  2.516  0.780 ETKDGv2 22
-EQU   H6  4.726  2.353  0.703 ETKDGv2 23
-EQU  H10  2.251 -3.018 -0.229 ETKDGv2 24
-EQU  H11 -0.143 -2.925 -0.165 ETKDGv2 25
-EQU  H16 -1.929 -0.641  1.457 ETKDGv2 26
-EQU H181 -2.196  1.696  1.616 ETKDGv2 27
-EQU H182 -2.157  2.747  0.171 ETKDGv2 28
-EQU H191  0.125  2.465 -0.155 ETKDGv2 29
-EQU H192  0.080  2.185  1.614 ETKDGv2 30
-EQU H241 -2.369 -2.096 -1.186 ETKDGv2 31
-EQU H242 -2.622 -2.679  0.515 ETKDGv2 32
-EQU H251 -4.644 -1.469 -1.046 ETKDGv2 33
-EQU H252 -4.606 -1.407  0.778 ETKDGv2 34
-EQU H271 -0.861  0.912 -1.925 ETKDGv2 35
-EQU H272 -2.439  1.730 -2.157 ETKDGv2 36
-EQU H273 -2.302 -0.045 -2.389 ETKDGv2 37
-EQU  HO1  6.664 -0.762  0.080 ETKDGv2 38
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+EQU "Create component"  1999-07-08 RCSB 
+EQU "Modify descriptor" 2011-06-04 RCSB 
+# 

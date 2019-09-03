@@ -196,31 +196,29 @@ DT DB01643                      "Thymidylate synthase"                          
 DT DB01643                       "DNA topoisomerase 1"                                                "Escherichia coli (strain K12)" P06612 unknown 9
 #
 loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-DT                            "Thymidine Monophosphate"   ChEMBL
-DT                             "Thymidine-5'-Phosphate"   ChEMBL
-DT                    "2'-Deoxythymidine Monophosphate"   ChEMBL
-DT "2'-deoxy-5-methyluridine 5'-(dihydrogen phosphate)" DrugBank
-DT                                        5-Methyl-dUMP DrugBank
-DT                                 "5'-Thymidylic acid" DrugBank
-DT                                             "5'-TMP" DrugBank
-DT                  "Deoxyribosylthymine monophosphate" DrugBank
-DT                       "Deoxythymidine monophosphate" DrugBank
-DT                                                 dTMP DrugBank
-DT                     "ribothymidine 5'-monophosphate" DrugBank
-DT                "thymidine 5'-(dihydrogen phosphate)" DrugBank
-DT                             "Thymidine 5'-phosphate" DrugBank
-DT                       "Thymidine 5'-phosphoric acid" DrugBank
-DT                           "Thymidine mononucleotide" DrugBank
-DT                            "Thymidine monophosphate" DrugBank
-DT                         "Thymidine-5'-Monophosphate" DrugBank
-DT                   "Thymidine-5'-monophosphoric acid" DrugBank
-DT                             "Thymidine-5'-phosphate" DrugBank
-DT                                          Thymidylate DrugBank
-DT                                    "Thymidylic acid" DrugBank
-DT                                                  TMP DrugBank
+_pdbe_chem_comp_synonyms.comp_id          
+_pdbe_chem_comp_synonyms.name             
+_pdbe_chem_comp_synonyms.provenance       
+_pdbe_chem_comp_synonyms.type             
+DT "2'-deoxy-5-methyluridine 5'-(dihydrogen phosphate)" DrugBank .
+DT                                        5-Methyl-dUMP DrugBank .
+DT                                 "5'-Thymidylic acid" DrugBank .
+DT                                             "5'-TMP" DrugBank .
+DT                  "Deoxyribosylthymine monophosphate" DrugBank .
+DT                       "Deoxythymidine monophosphate" DrugBank .
+DT                                                 dTMP DrugBank .
+DT                     "ribothymidine 5'-monophosphate" DrugBank .
+DT                "thymidine 5'-(dihydrogen phosphate)" DrugBank .
+DT                             "Thymidine 5'-phosphate" DrugBank .
+DT                       "Thymidine 5'-phosphoric acid" DrugBank .
+DT                           "Thymidine mononucleotide" DrugBank .
+DT                            "Thymidine monophosphate" DrugBank .
+DT                         "Thymidine-5'-Monophosphate" DrugBank .
+DT                   "Thymidine-5'-monophosphoric acid" DrugBank .
+DT                             "Thymidine-5'-phosphate" DrugBank .
+DT                                          Thymidylate DrugBank .
+DT                                    "Thymidylic acid" DrugBank .
+DT                                                  TMP DrugBank .
 #
 loop_
 _software.name              
@@ -378,6 +376,7 @@ DT UniChem      DrugBank          DB01643
 DT UniChem "KEGG LIGAND"           C00364
 DT UniChem         ChEBI            17013
 DT UniChem          ZINC ZINC000001678872
+DT UniChem             P             9700
 DT UniChem     BindingDb         50332929
 DT UniChem  MetaboLights       MTBLC17013
 DT UniChem        BRENDA             1020
@@ -408,40 +407,40 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DT    OP3  5.684  0.885  0.273 ETKDGv2  1
-DT      P  4.342  1.595  1.021 ETKDGv2  2
-DT    OP1  3.839  2.742  0.173 ETKDGv2  3
-DT    OP2  4.802  2.189  2.537 ETKDGv2  4
-DT  "O5'"  3.102  0.443  1.235 ETKDGv2  5
-DT  "C5'"  2.804 -0.129 -0.017 ETKDGv2  6
-DT  "C4'"  1.644 -1.126  0.149 ETKDGv2  7
-DT  "O4'"  0.532 -0.465  0.709 ETKDGv2  8
-DT  "C3'"  1.177 -1.785 -1.152 ETKDGv2  9
-DT  "O3'"  2.187 -1.919 -2.126 ETKDGv2 10
-DT  "C2'"  0.012 -0.931 -1.597 ETKDGv2 11
-DT  "C1'" -0.320 -0.097 -0.356 ETKDGv2 12
-DT     N1 -1.727 -0.269  0.043 ETKDGv2 13
-DT     C2 -2.209 -1.520  0.575 ETKDGv2 14
-DT     O2 -1.433 -2.502  0.724 ETKDGv2 15
-DT     N3 -3.583 -1.647  0.939 ETKDGv2 16
-DT     C4 -4.459 -0.531  0.783 ETKDGv2 17
-DT     O4 -5.677 -0.647  1.085 ETKDGv2 18
-DT     C5 -3.931  0.749  0.267 ETKDGv2 19
-DT     C7 -4.855  1.920  0.070 ETKDGv2 20
-DT     C6 -2.640  0.841 -0.094 ETKDGv2 21
-DT   HOP3  5.964  0.163  0.891 ETKDGv2 22
-DT   HOP2  5.570  2.786  2.352 ETKDGv2 23
-DT  "H5'"  3.689 -0.680 -0.405 ETKDGv2 24
-DT "H5''"  2.498  0.656 -0.747 ETKDGv2 25
-DT  "H4'"  1.975 -1.921  0.854 ETKDGv2 26
-DT  "H3'"  0.795 -2.802 -0.910 ETKDGv2 27
-DT "HO3'"  2.394 -1.023 -2.497 ETKDGv2 28
-DT  "H2'" -0.839 -1.568 -1.923 ETKDGv2 29
-DT "H2''"  0.285 -0.258 -2.440 ETKDGv2 30
-DT  "H1'" -0.119  0.973 -0.592 ETKDGv2 31
-DT     H3 -3.946 -2.552  1.315 ETKDGv2 32
-DT    H71 -5.596  1.969  0.895 ETKDGv2 33
-DT    H72 -4.296  2.881  0.062 ETKDGv2 34
-DT    H73 -5.392  1.807 -0.895 ETKDGv2 35
-DT     H6 -2.274  1.775 -0.506 ETKDGv2 36
+DT    OP3  4.988  0.801 -1.482 ETKDGv2  1
+DT      P  5.165  0.562  0.185 ETKDGv2  2
+DT    OP1  6.474 -0.148  0.445 ETKDGv2  3
+DT    OP2  5.183  2.056  0.984 ETKDGv2  4
+DT  "O5'"  3.890 -0.407  0.771 ETKDGv2  5
+DT  "C5'"  2.680  0.288  0.581 ETKDGv2  6
+DT  "C4'"  1.499 -0.611  0.992 ETKDGv2  7
+DT  "O4'"  0.330  0.170  1.082 ETKDGv2  8
+DT  "C3'"  1.213 -1.759  0.021 ETKDGv2  9
+DT  "O3'"  2.353 -2.163 -0.693 ETKDGv2 10
+DT  "C2'"  0.155 -1.192 -0.892 ETKDGv2 11
+DT  "C1'" -0.357  0.040 -0.145 ETKDGv2 12
+DT     N1 -1.808 -0.045  0.097 ETKDGv2 13
+DT     C2 -2.362 -1.013  1.012 ETKDGv2 14
+DT     O2 -1.616 -1.808  1.644 ETKDGv2 15
+DT     N3 -3.775 -1.070  1.205 ETKDGv2 16
+DT     C4 -4.619 -0.160  0.500 ETKDGv2 17
+DT     O4 -5.869 -0.221  0.654 ETKDGv2 18
+DT     C5 -4.022  0.844 -0.406 ETKDGv2 19
+DT     C7 -4.907  1.785 -1.176 ETKDGv2 20
+DT     C6 -2.691  0.864 -0.594 ETKDGv2 21
+DT   HOP3  5.727  1.413 -1.730 ETKDGv2 22
+DT   HOP2  4.590  2.640  0.447 ETKDGv2 23
+DT  "H5'"  2.545  0.596 -0.482 ETKDGv2 24
+DT "H5''"  2.661  1.194  1.227 ETKDGv2 25
+DT  "H4'"  1.716 -1.032  1.998 ETKDGv2 26
+DT  "H3'"  0.794 -2.619  0.594 ETKDGv2 27
+DT "HO3'"  2.108 -3.002 -1.163 ETKDGv2 28
+DT  "H2'"  0.595 -0.886 -1.868 ETKDGv2 29
+DT "H2''" -0.644 -1.942 -1.083 ETKDGv2 30
+DT  "H1'" -0.125  0.941 -0.757 ETKDGv2 31
+DT     H3 -4.189 -1.774  1.856 ETKDGv2 32
+DT    H71 -5.295  1.270 -2.080 ETKDGv2 33
+DT    H72 -5.764  2.109 -0.548 ETKDGv2 34
+DT    H73 -4.355  2.697 -1.488 ETKDGv2 35
+DT     H6 -2.270  1.582 -1.288 ETKDGv2 36
 #

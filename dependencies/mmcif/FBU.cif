@@ -1,291 +1,121 @@
 data_FBU
-#
-_chem_comp.id                                        FBU
-_chem_comp.name                                      3,5-DIFLUOROBENZENESULFONAMIDE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C6 H5 F2 N O2 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2001-04-16
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            193.171
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         FBU
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1IF6
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    FBU 
+_chem_comp.name                                  3,5-DIFLUOROBENZENESULFONAMIDE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C6 H5 F2 N O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2001-04-16 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        193.171 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     FBU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1IF6 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FBU  C01  C01 C 0 1 Y N N -4.735  4.067 14.561 -0.000 -0.034 -2.526  C01 FBU  1
-FBU  C02  C02 C 0 1 Y N N -3.850  2.954 14.615 -1.198 -0.011 -1.834  C02 FBU  2
-FBU  C03  C03 C 0 1 Y N N -4.190  1.800 15.392 -1.197  0.033 -0.450  C03 FBU  3
-FBU  C04  C04 C 0 1 Y N N -5.427  1.745 16.129  0.000  0.056  0.239  C04 FBU  4
-FBU  C05  C05 C 0 1 Y N N -6.284  2.878 16.054  1.197  0.038 -0.450  C05 FBU  5
-FBU  C06  C06 C 0 1 Y N N -5.943  4.021 15.281  1.198 -0.012 -1.834  C06 FBU  6
-FBU  S07  S07 S 0 1 N N N -5.864  0.509 17.000  0.000  0.114  2.000  S07 FBU  7
-FBU  O08  O08 O 0 1 N N N -5.411  0.646 18.380 -1.262  0.653  2.369  O08 FBU  8
-FBU  O09  O09 O 0 1 N N N -7.269  0.405 17.016  1.263  0.651  2.369  O09 FBU  9
-FBU  NP0  NP0 N 0 1 N N N -5.297 -0.708 16.450 -0.000 -1.448  2.548  NP0 FBU 10
-FBU  F11  F11 F 0 1 N N N -6.796  5.089 15.235  2.368 -0.034 -2.508  F11 FBU 11
-FBU  F12  F12 F 0 1 N N N -2.671  2.985 13.920 -2.369 -0.033 -2.508  F12 FBU 12
-FBU  HC1  HC1 H 0 1 N N N -4.486  4.960 13.964 -0.000 -0.070 -3.605  HC1 FBU 13
-FBU  HC3  HC3 H 0 1 N N N -3.492  0.945 15.423 -2.132  0.051  0.090  HC3 FBU 14
-FBU  HC5  HC5 H 0 1 N N N -7.237  2.870 16.609  2.132  0.056  0.089  HC5 FBU 15
-FBU HN01 1HN0 H 0 0 N N N -5.580 -1.509 17.014 -0.000 -1.628  3.501 HN01 FBU 16
-FBU HN02 2HN0 H 0 0 N N N -4.283 -0.647 16.351 -0.005 -2.183  1.915 HN02 FBU 17
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FBU C01  C01  C 0 1 Y N N -4.735 4.067  14.561 -0.000 -0.034 -2.526 C01  FBU 1  
+FBU C02  C02  C 0 1 Y N N -3.850 2.954  14.615 -1.198 -0.011 -1.834 C02  FBU 2  
+FBU C03  C03  C 0 1 Y N N -4.190 1.800  15.392 -1.197 0.033  -0.450 C03  FBU 3  
+FBU C04  C04  C 0 1 Y N N -5.427 1.745  16.129 0.000  0.056  0.239  C04  FBU 4  
+FBU C05  C05  C 0 1 Y N N -6.284 2.878  16.054 1.197  0.038  -0.450 C05  FBU 5  
+FBU C06  C06  C 0 1 Y N N -5.943 4.021  15.281 1.198  -0.012 -1.834 C06  FBU 6  
+FBU S07  S07  S 0 1 N N N -5.864 0.509  17.000 0.000  0.114  2.000  S07  FBU 7  
+FBU O08  O08  O 0 1 N N N -5.411 0.646  18.380 -1.262 0.653  2.369  O08  FBU 8  
+FBU O09  O09  O 0 1 N N N -7.269 0.405  17.016 1.263  0.651  2.369  O09  FBU 9  
+FBU NP0  NP0  N 0 1 N N N -5.297 -0.708 16.450 -0.000 -1.448 2.548  NP0  FBU 10 
+FBU F11  F11  F 0 1 N N N -6.796 5.089  15.235 2.368  -0.034 -2.508 F11  FBU 11 
+FBU F12  F12  F 0 1 N N N -2.671 2.985  13.920 -2.369 -0.033 -2.508 F12  FBU 12 
+FBU HC1  HC1  H 0 1 N N N -4.486 4.960  13.964 -0.000 -0.070 -3.605 HC1  FBU 13 
+FBU HC3  HC3  H 0 1 N N N -3.492 0.945  15.423 -2.132 0.051  0.090  HC3  FBU 14 
+FBU HC5  HC5  H 0 1 N N N -7.237 2.870  16.609 2.132  0.056  0.089  HC5  FBU 15 
+FBU HN01 1HN0 H 0 0 N N N -5.580 -1.509 17.014 -0.000 -1.628 3.501  HN01 FBU 16 
+FBU HN02 2HN0 H 0 0 N N N -4.283 -0.647 16.351 -0.005 -2.183 1.915  HN02 FBU 17 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FBU C01  C02 DOUB Y N  1
-FBU C01  C06 SING Y N  2
-FBU C01  HC1 SING N N  3
-FBU C02  C03 SING Y N  4
-FBU C02  F12 SING N N  5
-FBU C03  C04 DOUB Y N  6
-FBU C03  HC3 SING N N  7
-FBU C04  C05 SING Y N  8
-FBU C04  S07 SING N N  9
-FBU C05  C06 DOUB Y N 10
-FBU C05  HC5 SING N N 11
-FBU C06  F11 SING N N 12
-FBU S07  O08 DOUB N N 13
-FBU S07  O09 DOUB N N 14
-FBU S07  NP0 SING N N 15
-FBU NP0 HN01 SING N N 16
-FBU NP0 HN02 SING N N 17
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FBU C01 C02  DOUB Y N 1  
+FBU C01 C06  SING Y N 2  
+FBU C01 HC1  SING N N 3  
+FBU C02 C03  SING Y N 4  
+FBU C02 F12  SING N N 5  
+FBU C03 C04  DOUB Y N 6  
+FBU C03 HC3  SING N N 7  
+FBU C04 C05  SING Y N 8  
+FBU C04 S07  SING N N 9  
+FBU C05 C06  DOUB Y N 10 
+FBU C05 HC5  SING N N 11 
+FBU C06 F11  SING N N 12 
+FBU S07 O08  DOUB N N 13 
+FBU S07 O09  DOUB N N 14 
+FBU S07 NP0  SING N N 15 
+FBU NP0 HN01 SING N N 16 
+FBU NP0 HN02 SING N N 17 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FBU           SMILES              ACDLabs 10.04                                             Fc1cc(cc(F)c1)S(=O)(=O)N
-FBU SMILES_CANONICAL               CACTVS 3.341                                           N[S](=O)(=O)c1cc(F)cc(F)c1
-FBU           SMILES               CACTVS 3.341                                           N[S](=O)(=O)c1cc(F)cc(F)c1
-FBU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                             c1c(cc(cc1F)S(=O)(=O)N)F
-FBU           SMILES "OpenEye OEToolkits" 1.5.0                                             c1c(cc(cc1F)S(=O)(=O)N)F
-FBU            InChI                InChI  1.03 InChI=1S/C6H5F2NO2S/c7-4-1-5(8)3-6(2-4)12(9,10)11/h1-3H,(H2,9,10,11)
-FBU         InChIKey                InChI  1.03                                          MKQPOVUFDWKPNO-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FBU SMILES           ACDLabs              10.04 "Fc1cc(cc(F)c1)S(=O)(=O)N"                                             
+FBU SMILES_CANONICAL CACTVS               3.341 "N[S](=O)(=O)c1cc(F)cc(F)c1"                                           
+FBU SMILES           CACTVS               3.341 "N[S](=O)(=O)c1cc(F)cc(F)c1"                                           
+FBU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1c(cc(cc1F)S(=O)(=O)N)F"                                             
+FBU SMILES           "OpenEye OEToolkits" 1.5.0 "c1c(cc(cc1F)S(=O)(=O)N)F"                                             
+FBU InChI            InChI                1.03  "InChI=1S/C6H5F2NO2S/c7-4-1-5(8)3-6(2-4)12(9,10)11/h1-3H,(H2,9,10,11)" 
+FBU InChIKey         InChI                1.03  MKQPOVUFDWKPNO-UHFFFAOYSA-N                                            
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FBU "SYSTEMATIC NAME"              ACDLabs 10.04 3,5-difluorobenzenesulfonamide
-FBU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 3,5-difluorobenzenesulfonamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FBU "SYSTEMATIC NAME" ACDLabs              10.04 3,5-difluorobenzenesulfonamide 
+FBU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 3,5-difluorobenzenesulfonamide 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FBU  "Create component" 2001-04-16 RCSB
-FBU "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   FBU
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02087
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      3,5-Difluorobenzenesulfonamide
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           FBU
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02087
-_pdbe_chem_comp_drugbank_classification.parent            Benzenesulfonamides
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Benzene and substituted derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        Benzenoids
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as benzenesulfonamides. These are organic compounds containing a sulfonamide group that is S-linked to a benzene ring."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        FBU
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02087
-_pdbe_chem_comp_drugbank_targets.name                           "Carbonic anhydrase 2"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P00918
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FBU C01 C 5.598 -3.232  1
-FBU C02 C 4.299 -2.482  2
-FBU C03 C 4.299 -0.983  3
-FBU C04 C 5.598 -0.233  4
-FBU C05 C 6.897 -0.983  5
-FBU C06 C 6.897 -2.482  6
-FBU S07 S 5.598  1.268  7
-FBU O08 O 7.098  1.268  8
-FBU O09 O 4.098  1.268  9
-FBU NP0 N 5.598  2.768 10
-FBU F11 F 8.196 -3.232 11
-FBU F12 F 3.000 -3.232 12
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-FBU C01 C02 DOUBLE NONE  1
-FBU C01 C06 SINGLE NONE  2
-FBU C02 C03 SINGLE NONE  3
-FBU C02 F12 SINGLE NONE  4
-FBU C03 C04 DOUBLE NONE  5
-FBU C04 C05 SINGLE NONE  6
-FBU C04 S07 SINGLE NONE  7
-FBU C05 C06 DOUBLE NONE  8
-FBU C06 F11 SINGLE NONE  9
-FBU S07 O08 DOUBLE NONE 10
-FBU S07 O09 DOUBLE NONE 11
-FBU S07 NP0 SINGLE NONE 12
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-FBU MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-FBU         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-FBU C01 F1 1
-FBU C02 F1 1
-FBU C03 F1 1
-FBU C04 F1 1
-FBU C05 F1 1
-FBU C06 F1 1
-FBU C01 S1 1
-FBU C02 S1 1
-FBU C03 S1 1
-FBU C04 S1 1
-FBU C05 S1 1
-FBU C06 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FBU
-_pdbe_chem_comp_rdkit_properties.exactmw                               193.001
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                2
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             75.004
-_pdbe_chem_comp_rdkit_properties.tpsa                                  60.160
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.504
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             38.301
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         12
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-FBU UniChem   ChEMBL    CHEMBL1232675
-FBU UniChem DrugBank          DB02087
-FBU UniChem    ChEBI            42566
-FBU UniChem     ZINC ZINC000002576766
-FBU UniChem     ZINC     ZINC02576766
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FBU  C01 -2.556  0.206 -0.261 ETKDGv2  1
-FBU  C02 -1.933 -0.836 -0.824 ETKDGv2  2
-FBU  C03 -0.491 -1.056 -0.581 ETKDGv2  3
-FBU  C04  0.196 -0.216  0.211 ETKDGv2  4
-FBU  C05 -0.498  0.941  0.826 ETKDGv2  5
-FBU  C06 -1.803  1.139  0.603 ETKDGv2  6
-FBU  S07  1.915 -0.466  0.490 ETKDGv2  7
-FBU  O08  2.193 -1.934  0.650 ETKDGv2  8
-FBU  O09  2.338  0.245  1.745 ETKDGv2  9
-FBU  NP0  2.811  0.151 -0.853 ETKDGv2 10
-FBU  F11 -2.437  2.197  1.166 ETKDGv2 11
-FBU  F12 -2.621 -1.692 -1.619 ETKDGv2 12
-FBU  HC1 -3.612  0.369 -0.438 ETKDGv2 13
-FBU  HC3  0.002 -1.899 -1.049 ETKDGv2 14
-FBU  HC5  0.050  1.631  1.456 ETKDGv2 15
-FBU HN01  2.621  1.177 -0.902 ETKDGv2 16
-FBU HN02  3.824  0.042 -0.621 ETKDGv2 17
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FBU "Create component"  2001-04-16 RCSB 
+FBU "Modify descriptor" 2011-06-04 RCSB 
+# 

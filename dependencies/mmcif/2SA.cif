@@ -1,496 +1,188 @@
 data_2SA
-#
-_chem_comp.id                                        2SA
-_chem_comp.name                                      "2-[9-(3,4-DIHYDROXY-5-PHOSPHONOOXYMETHYL-TETRAHYDRO-FURAN-2-YL)-9H-PURIN-6-YLAMINO]-SUCCINIC ACID"
-_chem_comp.type                                      "RNA LINKING"
-_chem_comp.pdbx_type                                 ATOMN
-_chem_comp.formula                                   "C14 H18 N5 O11 P"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             "ADENYLOSUCCINIC ACID"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2002-08-14
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            463.293
-_chem_comp.one_letter_code                           N
-_chem_comp.three_letter_code                         2SA
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
-_chem_comp.pdbx_model_coordinates_db_code            1MEZ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    2SA 
+_chem_comp.name                                  "2-[9-(3,4-DIHYDROXY-5-PHOSPHONOOXYMETHYL-TETRAHYDRO-FURAN-2-YL)-9H-PURIN-6-YLAMINO]-SUCCINIC ACID" 
+_chem_comp.type                                  "RNA LINKING" 
+_chem_comp.pdbx_type                             ATOMN 
+_chem_comp.formula                               "C14 H18 N5 O11 P" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "ADENYLOSUCCINIC ACID" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2002-08-14 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        463.293 
+_chem_comp.one_letter_code                       N 
+_chem_comp.three_letter_code                     2SA 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   Y 
+_chem_comp.pdbx_model_coordinates_db_code        1MEZ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-2SA    PA    PA P 0 1 N N N 62.076 66.504 39.274 -6.478 -1.710 -0.239    PA 2SA  1
-2SA   O1A   O1A O 0 1 N N N 60.620 66.067 39.295 -6.031 -2.050 -1.609   O1A 2SA  2
-2SA   O2A   O2A O 0 1 N N N 62.304 67.780 40.058 -6.850 -3.060  0.554   O2A 2SA  3
-2SA   O3A   O3A O 0 1 N N N 62.999 65.369 39.668 -7.774 -0.759 -0.318   O3A 2SA  4
-2SA "O5'" "O5'" O 0 1 N N N 62.417 66.888 37.723 -5.294 -0.941  0.535 "O5'" 2SA  5
-2SA "C5'" "C5'" C 0 1 N N N 63.671 67.510 37.365 -4.929  0.178 -0.275 "C5'" 2SA  6
-2SA "C4'" "C4'" C 0 1 N N R 64.273 66.802 36.179 -3.803  0.956  0.408 "C4'" 2SA  7
-2SA "O4'" "O4'" O 0 1 N N N 64.600 65.435 36.549 -2.596  0.159  0.454 "O4'" 2SA  8
-2SA "C1'" "C1'" C 0 1 N N R 64.110 64.558 35.562 -1.520  1.104  0.639 "C1'" 2SA  9
-2SA    N9    N9 N 0 1 Y N N 63.669 63.325 36.200 -0.245  0.516  0.221    N9 2SA 10
-2SA    C4    C4 C 0 1 Y N N 63.670 62.084 35.615  1.006  0.939  0.595    C4 2SA 11
-2SA    N3    N3 N 0 1 Y N N 64.192 61.747 34.423  1.474  1.902  1.382    N3 2SA 12
-2SA    C2    C2 C 0 1 Y N N 63.938 60.471 34.145  2.770  2.058  1.553    C2 2SA 13
-2SA    N1    N1 N 0 1 Y N N 63.250 59.572 34.856  3.661  1.278  0.969    N1 2SA 14
-2SA    C6    C6 C 0 1 Y N N 62.718 59.953 36.042  3.287  0.285  0.168    C6 2SA 15
-2SA    N6    N6 N 0 1 N N N 61.733 59.187 36.664  4.228 -0.527 -0.440    N6 2SA 16
-2SA   C61   C61 C 0 1 N N S 60.548 58.985 35.804  5.655 -0.296 -0.206   C61 2SA 17
-2SA   C62   C62 C 0 1 N N N 60.783 57.861 34.800  6.158  0.756 -1.159   C62 2SA 18
-2SA   C63   C63 C 0 1 N N N 60.152 60.293 35.074  6.426 -1.599 -0.431   C63 2SA 19
-2SA   C64   C64 C 0 1 N N N 58.904 60.137 34.188  6.010 -2.614  0.602   C64 2SA 20
-2SA   O65   O65 O 0 1 N N N 61.060 56.734 35.268  7.446  1.132 -1.126   O65 2SA 21
-2SA   O66   O66 O 0 1 N N N 60.691 58.106 33.574  5.401  1.262 -1.954   O66 2SA 22
-2SA   O67   O67 O 0 1 N N N 58.040 59.277 34.473  6.559 -3.839  0.599   O67 2SA 23
-2SA   O68   O68 O 0 1 N N N 58.779 60.894 33.203  5.183 -2.325  1.434   O68 2SA 24
-2SA    C5    C5 C 0 1 Y N N 62.962 61.265 36.475  1.913  0.079 -0.046    C5 2SA 25
-2SA    N7    N7 N 0 1 Y N N 62.609 61.953 37.629  1.184 -0.803 -0.771    N7 2SA 26
-2SA    C8    C8 C 0 1 Y N N 63.071 63.164 37.427 -0.083 -0.548 -0.615    C8 2SA 27
-2SA "C2'" "C2'" C 0 1 N N R 62.868 65.263 35.027 -1.884  2.300 -0.268 "C2'" 2SA 28
-2SA "O2'" "O2'" O 0 1 N N N 62.418 64.714 33.809 -1.522  3.534  0.355 "O2'" 2SA 29
-2SA "C3'" "C3'" C 0 1 N N S 63.335 66.708 34.981 -3.418  2.201 -0.422 "C3'" 2SA 30
-2SA "O3'" "O3'" O 0 1 N N N 63.976 67.076 33.765 -4.051  3.369  0.104 "O3'" 2SA 31
-2SA   HO1   HO1 H 0 1 N N N 60.477 65.267 38.803      ?      ?      ?   HO1 2SA 32
-2SA   H2A   H2A H 0 1 N N N 63.214 68.053 40.045 -7.561 -3.489  0.058   H2A 2SA 33
-2SA  HC51  1HC5 H 0 0 N N N 64.376 67.557 38.227 -5.794  0.830 -0.404  HC51 2SA 34
-2SA  HC52  2HC5 H 0 0 N N N 63.560 68.605 37.187 -4.590 -0.173 -1.249  HC52 2SA 35
-2SA   HC4   HC4 H 0 1 N N N 65.166 67.404 35.890 -4.101  1.251  1.414   HC4 2SA 36
-2SA   HC1   HC1 H 0 1 N N N 64.871 64.322 34.782 -1.468  1.421  1.681   HC1 2SA 37
-2SA   HC2   HC2 H 0 1 N N N 64.357 60.108 33.191  3.118  2.853  2.196   HC2 2SA 38
-2SA   HN6   HN6 H 0 1 N N N 61.470 59.588 37.564  3.942 -1.248 -1.023   HN6 2SA 39
-2SA   H61   H61 H 0 1 N N N 59.701 58.690 36.466  5.805  0.041  0.820   H61 2SA 40
-2SA  H631  1H63 H 0 0 N N N 61.010 60.694 34.485  6.206 -1.983 -1.427  H631 2SA 41
-2SA  H632  2H63 H 0 0 N N N 60.022 61.129 35.800  7.495 -1.408 -0.344  H632 2SA 42
-2SA   H66   H66 H 0 1 N N N 60.837 57.406 32.949      ?      ?      ?   H66 2SA 43
-2SA   H67   H67 H 0 1 N N N 57.269 59.181 33.926  6.293 -4.490  1.262   H67 2SA 44
-2SA   HC8   HC8 H 0 1 N N N 62.969 63.950 38.194 -0.887 -1.098 -1.081   HC8 2SA 45
-2SA "H2'" "H2'" H 0 1 N N N 61.950 65.149 35.649 -1.396  2.205 -1.239 "H2'" 2SA 46
-2SA   HO2   HO2 H 0 1 N N N 61.644 65.153 33.476 -1.828  4.242 -0.228   HO2 2SA 47
-2SA   HC3   HC3 H 0 1 N N N 62.478 67.421 35.024 -3.689  2.060 -1.469   HC3 2SA 48
-2SA   HO3   HO3 H 0 1 N Y N 63.392 67.017 33.018 -3.751  4.115 -0.433   HO3 2SA 49
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+2SA PA    PA    P 0 1 N N N 62.076 66.504 39.274 -6.478 -1.710 -0.239 PA    2SA 1  
+2SA O1A   O1A   O 0 1 N N N 60.620 66.067 39.295 -6.031 -2.050 -1.609 O1A   2SA 2  
+2SA O2A   O2A   O 0 1 N N N 62.304 67.780 40.058 -6.850 -3.060 0.554  O2A   2SA 3  
+2SA O3A   O3A   O 0 1 N N N 62.999 65.369 39.668 -7.774 -0.759 -0.318 O3A   2SA 4  
+2SA "O5'" "O5'" O 0 1 N N N 62.417 66.888 37.723 -5.294 -0.941 0.535  "O5'" 2SA 5  
+2SA "C5'" "C5'" C 0 1 N N N 63.671 67.510 37.365 -4.929 0.178  -0.275 "C5'" 2SA 6  
+2SA "C4'" "C4'" C 0 1 N N R 64.273 66.802 36.179 -3.803 0.956  0.408  "C4'" 2SA 7  
+2SA "O4'" "O4'" O 0 1 N N N 64.600 65.435 36.549 -2.596 0.159  0.454  "O4'" 2SA 8  
+2SA "C1'" "C1'" C 0 1 N N R 64.110 64.558 35.562 -1.520 1.104  0.639  "C1'" 2SA 9  
+2SA N9    N9    N 0 1 Y N N 63.669 63.325 36.200 -0.245 0.516  0.221  N9    2SA 10 
+2SA C4    C4    C 0 1 Y N N 63.670 62.084 35.615 1.006  0.939  0.595  C4    2SA 11 
+2SA N3    N3    N 0 1 Y N N 64.192 61.747 34.423 1.474  1.902  1.382  N3    2SA 12 
+2SA C2    C2    C 0 1 Y N N 63.938 60.471 34.145 2.770  2.058  1.553  C2    2SA 13 
+2SA N1    N1    N 0 1 Y N N 63.250 59.572 34.856 3.661  1.278  0.969  N1    2SA 14 
+2SA C6    C6    C 0 1 Y N N 62.718 59.953 36.042 3.287  0.285  0.168  C6    2SA 15 
+2SA N6    N6    N 0 1 N N N 61.733 59.187 36.664 4.228  -0.527 -0.440 N6    2SA 16 
+2SA C61   C61   C 0 1 N N S 60.548 58.985 35.804 5.655  -0.296 -0.206 C61   2SA 17 
+2SA C62   C62   C 0 1 N N N 60.783 57.861 34.800 6.158  0.756  -1.159 C62   2SA 18 
+2SA C63   C63   C 0 1 N N N 60.152 60.293 35.074 6.426  -1.599 -0.431 C63   2SA 19 
+2SA C64   C64   C 0 1 N N N 58.904 60.137 34.188 6.010  -2.614 0.602  C64   2SA 20 
+2SA O65   O65   O 0 1 N N N 61.060 56.734 35.268 7.446  1.132  -1.126 O65   2SA 21 
+2SA O66   O66   O 0 1 N N N 60.691 58.106 33.574 5.401  1.262  -1.954 O66   2SA 22 
+2SA O67   O67   O 0 1 N N N 58.040 59.277 34.473 6.559  -3.839 0.599  O67   2SA 23 
+2SA O68   O68   O 0 1 N N N 58.779 60.894 33.203 5.183  -2.325 1.434  O68   2SA 24 
+2SA C5    C5    C 0 1 Y N N 62.962 61.265 36.475 1.913  0.079  -0.046 C5    2SA 25 
+2SA N7    N7    N 0 1 Y N N 62.609 61.953 37.629 1.184  -0.803 -0.771 N7    2SA 26 
+2SA C8    C8    C 0 1 Y N N 63.071 63.164 37.427 -0.083 -0.548 -0.615 C8    2SA 27 
+2SA "C2'" "C2'" C 0 1 N N R 62.868 65.263 35.027 -1.884 2.300  -0.268 "C2'" 2SA 28 
+2SA "O2'" "O2'" O 0 1 N N N 62.418 64.714 33.809 -1.522 3.534  0.355  "O2'" 2SA 29 
+2SA "C3'" "C3'" C 0 1 N N S 63.335 66.708 34.981 -3.418 2.201  -0.422 "C3'" 2SA 30 
+2SA "O3'" "O3'" O 0 1 N N N 63.976 67.076 33.765 -4.051 3.369  0.104  "O3'" 2SA 31 
+2SA HO1   HO1   H 0 1 N N N 60.477 65.267 38.803 ?      ?      ?      HO1   2SA 32 
+2SA H2A   H2A   H 0 1 N N N 63.214 68.053 40.045 -7.561 -3.489 0.058  H2A   2SA 33 
+2SA HC51  1HC5  H 0 0 N N N 64.376 67.557 38.227 -5.794 0.830  -0.404 HC51  2SA 34 
+2SA HC52  2HC5  H 0 0 N N N 63.560 68.605 37.187 -4.590 -0.173 -1.249 HC52  2SA 35 
+2SA HC4   HC4   H 0 1 N N N 65.166 67.404 35.890 -4.101 1.251  1.414  HC4   2SA 36 
+2SA HC1   HC1   H 0 1 N N N 64.871 64.322 34.782 -1.468 1.421  1.681  HC1   2SA 37 
+2SA HC2   HC2   H 0 1 N N N 64.357 60.108 33.191 3.118  2.853  2.196  HC2   2SA 38 
+2SA HN6   HN6   H 0 1 N N N 61.470 59.588 37.564 3.942  -1.248 -1.023 HN6   2SA 39 
+2SA H61   H61   H 0 1 N N N 59.701 58.690 36.466 5.805  0.041  0.820  H61   2SA 40 
+2SA H631  1H63  H 0 0 N N N 61.010 60.694 34.485 6.206  -1.983 -1.427 H631  2SA 41 
+2SA H632  2H63  H 0 0 N N N 60.022 61.129 35.800 7.495  -1.408 -0.344 H632  2SA 42 
+2SA H66   H66   H 0 1 N N N 60.837 57.406 32.949 ?      ?      ?      H66   2SA 43 
+2SA H67   H67   H 0 1 N N N 57.269 59.181 33.926 6.293  -4.490 1.262  H67   2SA 44 
+2SA HC8   HC8   H 0 1 N N N 62.969 63.950 38.194 -0.887 -1.098 -1.081 HC8   2SA 45 
+2SA "H2'" "H2'" H 0 1 N N N 61.950 65.149 35.649 -1.396 2.205  -1.239 "H2'" 2SA 46 
+2SA HO2   HO2   H 0 1 N N N 61.644 65.153 33.476 -1.828 4.242  -0.228 HO2   2SA 47 
+2SA HC3   HC3   H 0 1 N N N 62.478 67.421 35.024 -3.689 2.060  -1.469 HC3   2SA 48 
+2SA HO3   HO3   H 0 1 N Y N 63.392 67.017 33.018 -3.751 4.115  -0.433 HO3   2SA 49 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-2SA    PA   O1A SING N N  1
-2SA    PA   O2A SING N N  2
-2SA    PA   O3A DOUB N N  3
-2SA    PA "O5'" SING N N  4
-2SA   O1A   HO1 SING N N  5
-2SA   O2A   H2A SING N N  6
-2SA "O5'" "C5'" SING N N  7
-2SA "C5'" "C4'" SING N N  8
-2SA "C5'"  HC51 SING N N  9
-2SA "C5'"  HC52 SING N N 10
-2SA "C4'" "O4'" SING N N 11
-2SA "C4'" "C3'" SING N N 12
-2SA "C4'"   HC4 SING N N 13
-2SA "O4'" "C1'" SING N N 14
-2SA "C1'"    N9 SING N N 15
-2SA "C1'" "C2'" SING N N 16
-2SA "C1'"   HC1 SING N N 17
-2SA    N9    C4 SING Y N 18
-2SA    N9    C8 SING Y N 19
-2SA    C4    N3 DOUB Y N 20
-2SA    C4    C5 SING Y N 21
-2SA    N3    C2 SING Y N 22
-2SA    C2    N1 DOUB Y N 23
-2SA    C2   HC2 SING N N 24
-2SA    N1    C6 SING Y N 25
-2SA    C6    N6 SING N N 26
-2SA    C6    C5 DOUB Y N 27
-2SA    N6   C61 SING N N 28
-2SA    N6   HN6 SING N N 29
-2SA   C61   C62 SING N N 30
-2SA   C61   C63 SING N N 31
-2SA   C61   H61 SING N N 32
-2SA   C62   O65 DOUB N N 33
-2SA   C62   O66 SING N N 34
-2SA   C63   C64 SING N N 35
-2SA   C63  H631 SING N N 36
-2SA   C63  H632 SING N N 37
-2SA   C64   O67 SING N N 38
-2SA   C64   O68 DOUB N N 39
-2SA   O66   H66 SING N N 40
-2SA   O67   H67 SING N N 41
-2SA    C5    N7 SING Y N 42
-2SA    N7    C8 DOUB Y N 43
-2SA    C8   HC8 SING N N 44
-2SA "C2'" "O2'" SING N N 45
-2SA "C2'" "C3'" SING N N 46
-2SA "C2'" "H2'" SING N N 47
-2SA "O2'"   HO2 SING N N 48
-2SA "C3'" "O3'" SING N N 49
-2SA "C3'"   HC3 SING N N 50
-2SA "O3'"   HO3 SING N N 51
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+2SA PA    O1A   SING N N 1  
+2SA PA    O2A   SING N N 2  
+2SA PA    O3A   DOUB N N 3  
+2SA PA    "O5'" SING N N 4  
+2SA O1A   HO1   SING N N 5  
+2SA O2A   H2A   SING N N 6  
+2SA "O5'" "C5'" SING N N 7  
+2SA "C5'" "C4'" SING N N 8  
+2SA "C5'" HC51  SING N N 9  
+2SA "C5'" HC52  SING N N 10 
+2SA "C4'" "O4'" SING N N 11 
+2SA "C4'" "C3'" SING N N 12 
+2SA "C4'" HC4   SING N N 13 
+2SA "O4'" "C1'" SING N N 14 
+2SA "C1'" N9    SING N N 15 
+2SA "C1'" "C2'" SING N N 16 
+2SA "C1'" HC1   SING N N 17 
+2SA N9    C4    SING Y N 18 
+2SA N9    C8    SING Y N 19 
+2SA C4    N3    DOUB Y N 20 
+2SA C4    C5    SING Y N 21 
+2SA N3    C2    SING Y N 22 
+2SA C2    N1    DOUB Y N 23 
+2SA C2    HC2   SING N N 24 
+2SA N1    C6    SING Y N 25 
+2SA C6    N6    SING N N 26 
+2SA C6    C5    DOUB Y N 27 
+2SA N6    C61   SING N N 28 
+2SA N6    HN6   SING N N 29 
+2SA C61   C62   SING N N 30 
+2SA C61   C63   SING N N 31 
+2SA C61   H61   SING N N 32 
+2SA C62   O65   DOUB N N 33 
+2SA C62   O66   SING N N 34 
+2SA C63   C64   SING N N 35 
+2SA C63   H631  SING N N 36 
+2SA C63   H632  SING N N 37 
+2SA C64   O67   SING N N 38 
+2SA C64   O68   DOUB N N 39 
+2SA O66   H66   SING N N 40 
+2SA O67   H67   SING N N 41 
+2SA C5    N7    SING Y N 42 
+2SA N7    C8    DOUB Y N 43 
+2SA C8    HC8   SING N N 44 
+2SA "C2'" "O2'" SING N N 45 
+2SA "C2'" "C3'" SING N N 46 
+2SA "C2'" "H2'" SING N N 47 
+2SA "O2'" HO2   SING N N 48 
+2SA "C3'" "O3'" SING N N 49 
+2SA "C3'" HC3   SING N N 50 
+2SA "O3'" HO3   SING N N 51 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-2SA           SMILES              ACDLabs 10.04                                                                                                                                                           O=C(O)CC(C(=O)O)Nc3ncnc1c3ncn1C2OC(C(O)C2O)COP(=O)(O)O
-2SA SMILES_CANONICAL               CACTVS 3.341                                                                                                                               O[C@H]1[C@@H](O)[C@@H](O[C@@H]1CO[P](O)(O)=O)n2cnc3c(N[C@@H](CC(O)=O)C(O)=O)ncnc23
-2SA           SMILES               CACTVS 3.341                                                                                                                                        O[CH]1[CH](O)[CH](O[CH]1CO[P](O)(O)=O)n2cnc3c(N[CH](CC(O)=O)C(O)=O)ncnc23
-2SA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                            c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)O)O)O)N[C@@H](CC(=O)O)C(=O)O
-2SA           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                   c1nc(c2c(n1)n(cn2)C3C(C(C(O3)COP(=O)(O)O)O)O)NC(CC(=O)O)C(=O)O
-2SA            InChI                InChI  1.03 InChI=1S/C14H18N5O11P/c20-7(21)1-5(14(24)25)18-11-8-12(16-3-15-11)19(4-17-8)13-10(23)9(22)6(30-13)2-29-31(26,27)28/h3-6,9-10,13,22-23H,1-2H2,(H,20,21)(H,24,25)(H,15,16,18)(H2,26,27,28)/t5-,6+,9+,10+,13+/m0/s1
-2SA         InChIKey                InChI  1.03                                                                                                                                                                                      OFBHPPMPBOJXRT-VWJPMABRSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+2SA SMILES           ACDLabs              10.04 "O=C(O)CC(C(=O)O)Nc3ncnc1c3ncn1C2OC(C(O)C2O)COP(=O)(O)O" 
+2SA SMILES_CANONICAL CACTVS               3.341 "O[C@H]1[C@@H](O)[C@@H](O[C@@H]1CO[P](O)(O)=O)n2cnc3c(N[C@@H](CC(O)=O)C(O)=O)ncnc23" 
+2SA SMILES           CACTVS               3.341 "O[CH]1[CH](O)[CH](O[CH]1CO[P](O)(O)=O)n2cnc3c(N[CH](CC(O)=O)C(O)=O)ncnc23" 
+2SA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)O)O)O)N[C@@H](CC(=O)O)C(=O)O" 
+2SA SMILES           "OpenEye OEToolkits" 1.5.0 "c1nc(c2c(n1)n(cn2)C3C(C(C(O3)COP(=O)(O)O)O)O)NC(CC(=O)O)C(=O)O" 
+2SA InChI            InChI                1.03  
+"InChI=1S/C14H18N5O11P/c20-7(21)1-5(14(24)25)18-11-8-12(16-3-15-11)19(4-17-8)13-10(23)9(22)6(30-13)2-29-31(26,27)28/h3-6,9-10,13,22-23H,1-2H2,(H,20,21)(H,24,25)(H,15,16,18)(H2,26,27,28)/t5-,6+,9+,10+,13+/m0/s1" 
+2SA InChIKey         InChI                1.03  OFBHPPMPBOJXRT-VWJPMABRSA-N 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-2SA "SYSTEMATIC NAME"              ACDLabs 10.04 "(2S)-2-[(9-{(2R,3R,4S,5R)-3,4-dihydroxy-5-[(phosphonooxy)methyl]tetrahydrofuran-2-yl}-9H-purin-6-yl)amino]butanedioic acid (non-preferred name)"
-2SA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0                                     "(2S)-2-[[9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(phosphonooxymethyl)oxolan-2-yl]purin-6-yl]amino]butanedioic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+2SA "SYSTEMATIC NAME" ACDLabs              10.04 "(2S)-2-[(9-{(2R,3R,4S,5R)-3,4-dihydroxy-5-[(phosphonooxy)methyl]tetrahydrofuran-2-yl}-9H-purin-6-yl)amino]butanedioic acid (non-preferred name)" 
+2SA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-[[9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(phosphonooxymethyl)oxolan-2-yl]purin-6-yl]amino]butanedioic acid"                                     
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-2SA  "Create component" 2002-08-14 RCSB
-2SA "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   2SA
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB04418
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "Adenylosuccinic acid"
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                19046-78-7
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           2SA
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB04418
-_pdbe_chem_comp_drugbank_classification.parent            "Purine ribonucleoside monophosphates"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Purine nucleotides"
-_pdbe_chem_comp_drugbank_classification.superclass        "Nucleosides, nucleotides, and analogues"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as purine ribonucleoside monophosphates. These are nucleotides consisting of a purine base linked to a ribose to which one monophosphate group is attached."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        2SA
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB04418
-_pdbe_chem_comp_drugbank_targets.name                           "Adenylosuccinate synthetase isozyme 1"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     Q8N142
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-2SA "Aspartyl adenylate" DrugBank
-2SA       "Succinyl AMP" DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-2SA    PA P 12.274  6.920  1
-2SA   O1A O 11.812  8.348  2
-2SA   O2A O 13.701  7.381  3
-2SA   O3A O 10.846  6.459  4
-2SA "O5'" O 12.735  5.493  5
-2SA "C5'" C 11.729  4.380  6
-2SA "C4'" C 12.190  2.952  7
-2SA "O4'" O 11.306  1.740  8
-2SA "C1'" C 12.186  0.525  9
-2SA    N9 N 11.720 -0.900 10
-2SA    C4 C 10.301 -1.357 11
-2SA    N3 N  9.002 -0.608 12
-2SA    C2 C  7.702 -1.357 13
-2SA    N1 N  7.702 -2.857 14
-2SA    C6 C  9.002 -3.607 15
-2SA    N6 N  9.002 -5.107 16
-2SA   C61 C  7.702 -5.857 17
-2SA   C62 C  7.702 -7.357 18
-2SA   C63 C  6.404 -5.107 19
-2SA   C64 C  5.104 -5.857 20
-2SA   O65 O  6.404 -8.107 21
-2SA   O66 O  9.002 -8.107 22
-2SA   O67 O  3.805 -5.107 23
-2SA   O68 O  5.104 -7.357 24
-2SA    C5 C 10.301 -2.857 25
-2SA    N7 N 11.720 -3.315 26
-2SA    C8 C 12.595 -2.107 27
-2SA "C2'" C 13.613  0.986 28
-2SA "O2'" O 14.825  0.103 29
-2SA "C3'" C 13.616  2.486 30
-2SA "O3'" O 14.831  3.366 31
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-2SA    PA   O1A SINGLE       NONE  1
-2SA    PA   O2A SINGLE       NONE  2
-2SA    PA   O3A DOUBLE       NONE  3
-2SA    PA "O5'" SINGLE       NONE  4
-2SA "O5'" "C5'" SINGLE       NONE  5
-2SA "C5'" "C4'" SINGLE  BEGINDASH  6
-2SA "C4'" "O4'" SINGLE       NONE  7
-2SA "C4'" "C3'" SINGLE       NONE  8
-2SA "O4'" "C1'" SINGLE       NONE  9
-2SA "C1'"    N9 SINGLE  BEGINDASH 10
-2SA "C1'" "C2'" SINGLE       NONE 11
-2SA    N9    C4 SINGLE       NONE 12
-2SA    N9    C8 SINGLE       NONE 13
-2SA    C4    N3 DOUBLE       NONE 14
-2SA    C4    C5 SINGLE       NONE 15
-2SA    N3    C2 SINGLE       NONE 16
-2SA    C2    N1 DOUBLE       NONE 17
-2SA    N1    C6 SINGLE       NONE 18
-2SA    C6    N6 SINGLE       NONE 19
-2SA    C6    C5 DOUBLE       NONE 20
-2SA    N6   C61 SINGLE       NONE 21
-2SA   C61   C62 SINGLE       NONE 22
-2SA   C61   C63 SINGLE  BEGINDASH 23
-2SA   C62   O65 DOUBLE       NONE 24
-2SA   C62   O66 SINGLE       NONE 25
-2SA   C63   C64 SINGLE       NONE 26
-2SA   C64   O67 SINGLE       NONE 27
-2SA   C64   O68 DOUBLE       NONE 28
-2SA    C5    N7 SINGLE       NONE 29
-2SA    N7    C8 DOUBLE       NONE 30
-2SA "C2'" "O2'" SINGLE  BEGINDASH 31
-2SA "C2'" "C3'" SINGLE       NONE 32
-2SA "C3'" "O3'" SINGLE BEGINWEDGE 33
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-2SA MurckoScaffold S1 scaffold c1ncc2ncn([C@H]3CCCO3)c2n1 InChI=1S/C9H10N4O/c1-2-8(14-3-1)13-6-12-7-4-10-5-11-9(7)13/h4-6,8H,1-3H2/t8-/m1/s1 DAKONNSVCLKUJN-MRVPVSSYSA-N
-2SA        adenine F1 fragment          Nc1ncnc2nc[nH]c12                    InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-2SA      imidazole F2 fragment                 c1c[nH]cn1                                         InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-2SA        peptide F3 fragment                      NCC=O                                                 InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-2SA      phosphate F4 fragment                 O=P(O)(O)O                                            InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-2SA         purine F5 fragment           c1ncc2[nH]cnc2n1                           InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-2SA     pyrimidine F6 fragment                   c1cncnc1                                               InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-2SA         ribose F7 fragment              OCC1OCC(O)C1O                                  InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-2SA    N1 F1 1
-2SA    C6 F1 1
-2SA    C5 F1 1
-2SA    C4 F1 1
-2SA    N3 F1 1
-2SA    C2 F1 1
-2SA    N9 F1 1
-2SA    C8 F1 1
-2SA    N7 F1 1
-2SA    N6 F1 1
-2SA    C4 F2 1
-2SA    C5 F2 1
-2SA    N7 F2 1
-2SA    C8 F2 1
-2SA    N9 F2 1
-2SA   O65 F3 1
-2SA   C62 F3 1
-2SA   C61 F3 1
-2SA    N6 F3 1
-2SA   O1A F4 1
-2SA    PA F4 1
-2SA   O3A F4 1
-2SA   O2A F4 1
-2SA "O5'" F4 1
-2SA    N7 F5 1
-2SA    C8 F5 1
-2SA    N9 F5 1
-2SA    C4 F5 1
-2SA    C5 F5 1
-2SA    C6 F5 1
-2SA    N1 F5 1
-2SA    C2 F5 1
-2SA    N3 F5 1
-2SA    C5 F6 1
-2SA    C4 F6 1
-2SA    N3 F6 1
-2SA    C2 F6 1
-2SA    N1 F6 1
-2SA    C6 F6 1
-2SA "C2'" F7 1
-2SA "C3'" F7 1
-2SA "C4'" F7 1
-2SA "O4'" F7 1
-2SA "C1'" F7 1
-2SA "C5'" F7 1
-2SA "O5'" F7 1
-2SA "O3'" F7 1
-2SA "O2'" F7 1
-2SA "C4'" S1 1
-2SA "O4'" S1 1
-2SA "C1'" S1 1
-2SA    N9 S1 1
-2SA    C4 S1 1
-2SA    N3 S1 1
-2SA    C2 S1 1
-2SA    N1 S1 1
-2SA    C6 S1 1
-2SA    C5 S1 1
-2SA    N7 S1 1
-2SA    C8 S1 1
-2SA "C2'" S1 1
-2SA "C3'" S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               2SA
-_pdbe_chem_comp_rdkit_properties.exactmw                               463.074
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           16
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           7
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     13
-_pdbe_chem_comp_rdkit_properties.NumHBD                                7
-_pdbe_chem_comp_rdkit_properties.NumHBA                                16
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        17
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             197.752
-_pdbe_chem_comp_rdkit_properties.tpsa                                  246.680
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.914
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             93.512
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         31
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-2SA UniChem        ChEMBL    CHEMBL1229994
-2SA UniChem      DrugBank          DB04418
-2SA UniChem "KEGG LIGAND"           C03794
-2SA UniChem          ZINC ZINC000004096207
-2SA UniChem        BRENDA             1670
-2SA UniChem        BRENDA            38527
-2SA UniChem        BRENDA             5000
-2SA UniChem        BRENDA             5646
-2SA UniChem        BRENDA            97325
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-2SA    PA  6.263 -1.653  0.280 ETKDGv2  1
-2SA   O1A  6.713 -1.282 -1.310 ETKDGv2  2
-2SA   O2A  7.643 -2.075  1.163 ETKDGv2  3
-2SA   O3A  5.304 -2.823  0.273 ETKDGv2  4
-2SA "O5'"  5.528 -0.304  1.020 ETKDGv2  5
-2SA "C5'"  4.453  0.116  0.213 ETKDGv2  6
-2SA "C4'"  3.725  1.281  0.892 ETKDGv2  7
-2SA "O4'"  2.719  1.771  0.030 ETKDGv2  8
-2SA "C1'"  1.574  2.049  0.808 ETKDGv2  9
-2SA    N9  0.458  1.231  0.330 ETKDGv2 10
-2SA    C4 -0.809  1.657 -0.123 ETKDGv2 11
-2SA    N3 -1.300  2.858 -0.139 ETKDGv2 12
-2SA    C2 -2.654  3.013 -0.624 ETKDGv2 13
-2SA    N1 -3.348  1.967 -1.010 ETKDGv2 14
-2SA    C6 -2.789  0.631 -0.969 ETKDGv2 15
-2SA    N6 -3.557 -0.513 -1.371 ETKDGv2 16
-2SA   C61 -4.938 -0.387 -1.854 ETKDGv2 17
-2SA   C62 -5.888  0.033 -0.754 ETKDGv2 18
-2SA   C63 -5.415 -1.682 -2.550 ETKDGv2 19
-2SA   C64 -5.489 -2.903 -1.670 ETKDGv2 20
-2SA   O65 -7.020  0.489 -1.064 ETKDGv2 21
-2SA   O66 -5.555 -0.081  0.595 ETKDGv2 22
-2SA   O67 -5.923 -4.104 -2.222 ETKDGv2 23
-2SA   O68 -5.166 -2.860 -0.452 ETKDGv2 24
-2SA    C5 -1.536  0.513 -0.531 ETKDGv2 25
-2SA    N7 -0.727 -0.643 -0.346 ETKDGv2 26
-2SA    C8  0.403 -0.198  0.142 ETKDGv2 27
-2SA "C2'"  1.887  1.784  2.283 ETKDGv2 28
-2SA "O2'"  0.825  1.172  2.968 ETKDGv2 29
-2SA "C3'"  3.082  0.876  2.218 ETKDGv2 30
-2SA "O3'"  3.942  1.118  3.302 ETKDGv2 31
-2SA   HO1  7.351 -0.530 -1.221 ETKDGv2 32
-2SA   H2A  8.063 -2.806  0.642 ETKDGv2 33
-2SA  HC51  3.726 -0.711  0.042 ETKDGv2 34
-2SA  HC52  4.830  0.477 -0.771 ETKDGv2 35
-2SA   HC4  4.455  2.104  1.066 ETKDGv2 36
-2SA   HC1  1.316  3.124  0.685 ETKDGv2 37
-2SA   HC2 -3.100  3.997 -0.664 ETKDGv2 38
-2SA   HN6 -3.089 -1.448 -1.387 ETKDGv2 39
-2SA   H61 -4.951  0.413 -2.628 ETKDGv2 40
-2SA  H631 -6.422 -1.507 -2.987 ETKDGv2 41
-2SA  H632 -4.728 -1.905 -3.394 ETKDGv2 42
-2SA   H66 -4.675 -0.472  0.906 ETKDGv2 43
-2SA   H67 -5.983 -4.943 -1.658 ETKDGv2 44
-2SA   HC8  1.224 -0.858  0.380 ETKDGv2 45
-2SA "H2'"  2.168  2.743  2.782 ETKDGv2 46
-2SA   HO2  0.133  1.872  3.094 ETKDGv2 47
-2SA   HC3  2.748 -0.189  2.202 ETKDGv2 48
-2SA   HO3  4.527  0.321  3.384 ETKDGv2 49
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+2SA "Create component"  2002-08-14 RCSB 
+2SA "Modify descriptor" 2011-06-04 RCSB 
+# 

@@ -1,423 +1,160 @@
 data_C5P
-#
-_chem_comp.id                                        C5P
-_chem_comp.name                                      "CYTIDINE-5'-MONOPHOSPHATE"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C9 H14 N3 O8 P"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             C25
-_chem_comp.formula_weight                            323.197
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         C5P
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    C5P 
+_chem_comp.name                                  "CYTIDINE-5'-MONOPHOSPHATE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C9 H14 N3 O8 P" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         C25 
+_chem_comp.formula_weight                        323.197 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     C5P 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-C5P    O3P  O3P O 0 1 N N N -1.659 19.319 41.272 -4.698  2.129 -1.038    O3P C5P  1
-C5P      P    P P 0 1 N N N -0.970 17.977 40.788 -4.058  1.026 -0.055      P C5P  2
-C5P    O1P  O1P O 0 1 N N N -1.576 17.439 39.592 -3.660  1.669  1.217    O1P C5P  3
-C5P    O2P  O2P O 0 1 N N N -0.613 16.964 41.923 -5.145 -0.124  0.242    O2P C5P  4
-C5P  "O5'"  O5* O 0 1 N N N  0.524 18.418 40.366 -2.763  0.372 -0.753  "O5'" C5P  5
-C5P  "C5'"  C5* C 0 1 N N N  1.437 17.513 39.833 -2.175 -0.507  0.208  "C5'" C5P  6
-C5P  "C4'"  C4* C 0 1 N N R  2.631 18.280 39.552 -0.932 -1.165 -0.395  "C4'" C5P  7
-C5P  "O4'"  O4* O 0 1 N N N  2.772 19.241 38.505  0.096 -0.177 -0.630  "O4'" C5P  8
-C5P  "C3'"  C3* C 0 1 N N S  3.430 18.828 40.769 -0.304 -2.156  0.609  "C3'" C5P  9
-C5P  "O3'"  O3* O 0 1 N N N  3.899 17.935 41.810 -0.714 -3.493  0.316  "O3'" C5P 10
-C5P  "C2'"  C2* C 0 1 N Y R  4.290 19.916 40.172  1.219 -1.996  0.394  "C2'" C5P 11
-C5P  "O2'"  O2* O 0 1 N N N  5.377 19.098 39.795  1.797 -3.230 -0.037  "O2'" C5P 12
-C5P  "C1'"  C1* C 0 1 N N R  3.913 20.029 38.749  1.329 -0.924 -0.713  "C1'" C5P 13
-C5P     N1   N1 N 0 1 N N N  3.081 21.332 38.493  2.475 -0.046 -0.461     N1 C5P 14
-C5P     C2   C2 C 0 1 N N N  3.609 22.330 37.604  2.499  0.722  0.643     C2 C5P 15
-C5P     N3   N3 N 0 1 N N N  2.974 23.496 37.314  3.527  1.529  0.897     N3 C5P 16
-C5P     C4   C4 C 0 1 N N N  1.711 23.759 37.912  4.558  1.596  0.064     C4 C5P 17
-C5P     C5   C5 C 0 1 N N N  1.106 22.835 38.819  4.561  0.807 -1.105     C5 C5P 18
-C5P     C6   C6 C 0 1 N N N  1.815 21.662 39.074  3.510 -0.013 -1.346     C6 C5P 19
-C5P     O2   O2 O 0 1 N N N  4.719 22.158 37.054  1.563  0.680  1.424     O2 C5P 20
-C5P     N4   N4 N 0 1 N N N  1.061 24.916 37.621  5.614  2.433  0.336     N4 C5P 21
-C5P   HOP3 3HOP H 0 0 N N N -1.797 19.284 42.211 -5.468  2.495 -0.583   HOP3 C5P 22
-C5P   HOP2 2HOP H 0 0 N N N -0.541 16.090 41.557 -5.377 -0.517 -0.611   HOP2 C5P 23
-C5P "H5'1" 1H5* H 0 0 N N N  1.651 16.708 40.551 -2.895 -1.277  0.485 "H5'1" C5P 24
-C5P "H5'2" 2H5* H 0 0 N N N  1.044 17.030 38.926 -1.891  0.061  1.094 "H5'2" C5P 25
-C5P  "H4'"  H4* H 0 1 N N N  3.027 17.359 39.099 -1.187 -1.676 -1.324  "H4'" C5P 26
-C5P  "H3'"  H3* H 0 1 N N N  2.783 19.250 41.552 -0.577 -1.889  1.630  "H3'" C5P 27
-C5P "HO3'" *HO3 H 0 0 N N N  4.002 17.060 41.455 -0.293 -4.065  0.972 "HO3'" C5P 28
-C5P "H2'1" 1H2* H 0 0 N N N  4.331 20.824 40.792  1.700 -1.649  1.309 "H2'1" C5P 29
-C5P "HO2'" *HO2 H 0 0 N N N  5.328 18.914 38.864  1.643 -3.872  0.670 "HO2'" C5P 30
-C5P  "H1'"  H1* H 0 1 N N N  4.854 19.860 38.205  1.422 -1.397 -1.691  "H1'" C5P 31
-C5P     H5   H5 H 0 1 N N N  0.151 23.035 39.282  5.392  0.850 -1.793     H5 C5P 32
-C5P     H6   H6 H 0 1 N N N  1.378 20.951 39.759  3.491 -0.630 -2.232     H6 C5P 33
-C5P   HN41 1HN4 H 0 0 N N N  1.620 25.440 36.979  5.608  2.978  1.139   HN41 C5P 34
-C5P   HN42 2HN4 H 0 0 N N N  0.174 25.196 37.987  6.368  2.477 -0.273   HN42 C5P 35
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+C5P O3P    O3P  O 0 1 N N N -1.659 19.319 41.272 -4.698 2.129  -1.038 O3P    C5P 1  
+C5P P      P    P 0 1 N N N -0.970 17.977 40.788 -4.058 1.026  -0.055 P      C5P 2  
+C5P O1P    O1P  O 0 1 N N N -1.576 17.439 39.592 -3.660 1.669  1.217  O1P    C5P 3  
+C5P O2P    O2P  O 0 1 N N N -0.613 16.964 41.923 -5.145 -0.124 0.242  O2P    C5P 4  
+C5P "O5'"  O5*  O 0 1 N N N 0.524  18.418 40.366 -2.763 0.372  -0.753 "O5'"  C5P 5  
+C5P "C5'"  C5*  C 0 1 N N N 1.437  17.513 39.833 -2.175 -0.507 0.208  "C5'"  C5P 6  
+C5P "C4'"  C4*  C 0 1 N N R 2.631  18.280 39.552 -0.932 -1.165 -0.395 "C4'"  C5P 7  
+C5P "O4'"  O4*  O 0 1 N N N 2.772  19.241 38.505 0.096  -0.177 -0.630 "O4'"  C5P 8  
+C5P "C3'"  C3*  C 0 1 N N S 3.430  18.828 40.769 -0.304 -2.156 0.609  "C3'"  C5P 9  
+C5P "O3'"  O3*  O 0 1 N N N 3.899  17.935 41.810 -0.714 -3.493 0.316  "O3'"  C5P 10 
+C5P "C2'"  C2*  C 0 1 N Y R 4.290  19.916 40.172 1.219  -1.996 0.394  "C2'"  C5P 11 
+C5P "O2'"  O2*  O 0 1 N N N 5.377  19.098 39.795 1.797  -3.230 -0.037 "O2'"  C5P 12 
+C5P "C1'"  C1*  C 0 1 N N R 3.913  20.029 38.749 1.329  -0.924 -0.713 "C1'"  C5P 13 
+C5P N1     N1   N 0 1 N N N 3.081  21.332 38.493 2.475  -0.046 -0.461 N1     C5P 14 
+C5P C2     C2   C 0 1 N N N 3.609  22.330 37.604 2.499  0.722  0.643  C2     C5P 15 
+C5P N3     N3   N 0 1 N N N 2.974  23.496 37.314 3.527  1.529  0.897  N3     C5P 16 
+C5P C4     C4   C 0 1 N N N 1.711  23.759 37.912 4.558  1.596  0.064  C4     C5P 17 
+C5P C5     C5   C 0 1 N N N 1.106  22.835 38.819 4.561  0.807  -1.105 C5     C5P 18 
+C5P C6     C6   C 0 1 N N N 1.815  21.662 39.074 3.510  -0.013 -1.346 C6     C5P 19 
+C5P O2     O2   O 0 1 N N N 4.719  22.158 37.054 1.563  0.680  1.424  O2     C5P 20 
+C5P N4     N4   N 0 1 N N N 1.061  24.916 37.621 5.614  2.433  0.336  N4     C5P 21 
+C5P HOP3   3HOP H 0 0 N N N -1.797 19.284 42.211 -5.468 2.495  -0.583 HOP3   C5P 22 
+C5P HOP2   2HOP H 0 0 N N N -0.541 16.090 41.557 -5.377 -0.517 -0.611 HOP2   C5P 23 
+C5P "H5'1" 1H5* H 0 0 N N N 1.651  16.708 40.551 -2.895 -1.277 0.485  "H5'1" C5P 24 
+C5P "H5'2" 2H5* H 0 0 N N N 1.044  17.030 38.926 -1.891 0.061  1.094  "H5'2" C5P 25 
+C5P "H4'"  H4*  H 0 1 N N N 3.027  17.359 39.099 -1.187 -1.676 -1.324 "H4'"  C5P 26 
+C5P "H3'"  H3*  H 0 1 N N N 2.783  19.250 41.552 -0.577 -1.889 1.630  "H3'"  C5P 27 
+C5P "HO3'" *HO3 H 0 0 N N N 4.002  17.060 41.455 -0.293 -4.065 0.972  "HO3'" C5P 28 
+C5P "H2'1" 1H2* H 0 0 N N N 4.331  20.824 40.792 1.700  -1.649 1.309  "H2'1" C5P 29 
+C5P "HO2'" *HO2 H 0 0 N N N 5.328  18.914 38.864 1.643  -3.872 0.670  "HO2'" C5P 30 
+C5P "H1'"  H1*  H 0 1 N N N 4.854  19.860 38.205 1.422  -1.397 -1.691 "H1'"  C5P 31 
+C5P H5     H5   H 0 1 N N N 0.151  23.035 39.282 5.392  0.850  -1.793 H5     C5P 32 
+C5P H6     H6   H 0 1 N N N 1.378  20.951 39.759 3.491  -0.630 -2.232 H6     C5P 33 
+C5P HN41   1HN4 H 0 0 N N N 1.620  25.440 36.979 5.608  2.978  1.139  HN41   C5P 34 
+C5P HN42   2HN4 H 0 0 N N N 0.174  25.196 37.987 6.368  2.477  -0.273 HN42   C5P 35 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-C5P   O3P      P SING N N  1
-C5P   O3P   HOP3 SING N N  2
-C5P     P    O1P DOUB N N  3
-C5P     P    O2P SING N N  4
-C5P     P  "O5'" SING N N  5
-C5P   O2P   HOP2 SING N N  6
-C5P "O5'"  "C5'" SING N N  7
-C5P "C5'"  "C4'" SING N N  8
-C5P "C5'" "H5'1" SING N N  9
-C5P "C5'" "H5'2" SING N N 10
-C5P "C4'"  "O4'" SING N N 11
-C5P "C4'"  "C3'" SING N N 12
-C5P "C4'"  "H4'" SING N N 13
-C5P "O4'"  "C1'" SING N N 14
-C5P "C3'"  "O3'" SING N N 15
-C5P "C3'"  "C2'" SING N N 16
-C5P "C3'"  "H3'" SING N N 17
-C5P "O3'" "HO3'" SING N N 18
-C5P "C2'"  "O2'" SING N N 19
-C5P "C2'"  "C1'" SING N N 20
-C5P "C2'" "H2'1" SING N N 21
-C5P "O2'" "HO2'" SING N N 22
-C5P "C1'"     N1 SING N N 23
-C5P "C1'"  "H1'" SING N N 24
-C5P    N1     C2 SING N N 25
-C5P    N1     C6 SING N N 26
-C5P    C2     N3 SING N N 27
-C5P    C2     O2 DOUB N N 28
-C5P    N3     C4 DOUB N N 29
-C5P    C4     C5 SING N N 30
-C5P    C4     N4 SING N N 31
-C5P    C5     C6 DOUB N N 32
-C5P    C5     H5 SING N N 33
-C5P    C6     H6 SING N N 34
-C5P    N4   HN41 SING N N 35
-C5P    N4   HN42 SING N N 36
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+C5P O3P   P      SING N N 1  
+C5P O3P   HOP3   SING N N 2  
+C5P P     O1P    DOUB N N 3  
+C5P P     O2P    SING N N 4  
+C5P P     "O5'"  SING N N 5  
+C5P O2P   HOP2   SING N N 6  
+C5P "O5'" "C5'"  SING N N 7  
+C5P "C5'" "C4'"  SING N N 8  
+C5P "C5'" "H5'1" SING N N 9  
+C5P "C5'" "H5'2" SING N N 10 
+C5P "C4'" "O4'"  SING N N 11 
+C5P "C4'" "C3'"  SING N N 12 
+C5P "C4'" "H4'"  SING N N 13 
+C5P "O4'" "C1'"  SING N N 14 
+C5P "C3'" "O3'"  SING N N 15 
+C5P "C3'" "C2'"  SING N N 16 
+C5P "C3'" "H3'"  SING N N 17 
+C5P "O3'" "HO3'" SING N N 18 
+C5P "C2'" "O2'"  SING N N 19 
+C5P "C2'" "C1'"  SING N N 20 
+C5P "C2'" "H2'1" SING N N 21 
+C5P "O2'" "HO2'" SING N N 22 
+C5P "C1'" N1     SING N N 23 
+C5P "C1'" "H1'"  SING N N 24 
+C5P N1    C2     SING N N 25 
+C5P N1    C6     SING N N 26 
+C5P C2    N3     SING N N 27 
+C5P C2    O2     DOUB N N 28 
+C5P N3    C4     DOUB N N 29 
+C5P C4    C5     SING N N 30 
+C5P C4    N4     SING N N 31 
+C5P C5    C6     DOUB N N 32 
+C5P C5    H5     SING N N 33 
+C5P C6    H6     SING N N 34 
+C5P N4    HN41   SING N N 35 
+C5P N4    HN42   SING N N 36 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-C5P           SMILES              ACDLabs 10.04                                                                                                            O=C1N=C(N)C=CN1C2OC(C(O)C2O)COP(=O)(O)O
-C5P SMILES_CANONICAL               CACTVS 3.341                                                                                      NC1=NC(=O)N(C=C1)[C@@H]2O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@H]2O
-C5P           SMILES               CACTVS 3.341                                                                                            NC1=NC(=O)N(C=C1)[CH]2O[CH](CO[P](O)(O)=O)[CH](O)[CH]2O
-C5P SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                      C1=CN(C(=O)N=C1N)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)O
-C5P           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                        C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)O)O)O
-C5P            InChI                InChI  1.03 InChI=1S/C9H14N3O8P/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(20-8)3-19-21(16,17)18/h1-2,4,6-8,13-14H,3H2,(H2,10,11,15)(H2,16,17,18)/t4-,6-,7-,8-/m1/s1
-C5P         InChIKey                InChI  1.03                                                                                                                        IERHLVCPSMICTF-XVFCMESISA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+C5P SMILES           ACDLabs              10.04 "O=C1N=C(N)C=CN1C2OC(C(O)C2O)COP(=O)(O)O"                                                                                                            
+C5P SMILES_CANONICAL CACTVS               3.341 "NC1=NC(=O)N(C=C1)[C@@H]2O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@H]2O"                                                                                      
+C5P SMILES           CACTVS               3.341 "NC1=NC(=O)N(C=C1)[CH]2O[CH](CO[P](O)(O)=O)[CH](O)[CH]2O"                                                                                            
+C5P SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C1=CN(C(=O)N=C1N)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)O"                                                                                      
+C5P SMILES           "OpenEye OEToolkits" 1.5.0 "C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)O)O)O"                                                                                                        
+C5P InChI            InChI                1.03  "InChI=1S/C9H14N3O8P/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(20-8)3-19-21(16,17)18/h1-2,4,6-8,13-14H,3H2,(H2,10,11,15)(H2,16,17,18)/t4-,6-,7-,8-/m1/s1" 
+C5P InChIKey         InChI                1.03  IERHLVCPSMICTF-XVFCMESISA-N                                                                                                                          
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-C5P "SYSTEMATIC NAME"              ACDLabs 10.04                                                                                     "5'-cytidylic acid"
-C5P "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R,3S,4R,5R)-5-(4-amino-2-oxo-pyrimidin-1-yl)-3,4-dihydroxy-oxolan-2-yl]methyl dihydrogen phosphate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+C5P "SYSTEMATIC NAME" ACDLabs              10.04 
+;5'-cytidylic acid
+;
+C5P "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R,3S,4R,5R)-5-(4-amino-2-oxo-pyrimidin-1-yl)-3,4-dihydroxy-oxolan-2-yl]methyl dihydrogen phosphate" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-C5P  "Create component" 1999-07-08  EBI
-C5P "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   C5P
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03403
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "Cytidine-5'-Monophosphate"
-_pdbe_chem_comp_drugbank_details.description               "A pyrimidine ribonucleoside 5'-monophosphate having cytosine as the nucleobase."
-_pdbe_chem_comp_drugbank_details.cas_number                63-37-6
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           C5P
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03403
-_pdbe_chem_comp_drugbank_classification.parent            "Pyrimidine ribonucleoside monophosphates"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Pyrimidine nucleotides"
-_pdbe_chem_comp_drugbank_classification.superclass        "Nucleosides, nucleotides, and analogues"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as pyrimidine ribonucleoside monophosphates. These are pyrimidine ribobucleotides with monophosphate group  linked to the ribose moiety."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-C5P DB03403                         "Bifunctional enzyme IspD/IspF" "Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168)" Q9PM68 unknown 1
-C5P DB03403                                        "UMP-CMP kinase"                                                                              Humans P30085 unknown 2
-C5P DB03403 "2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase"                          "Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)" Q8RQP5 unknown 3
-C5P DB03403                                     "Cytidylate kinase"                                                     "Escherichia coli (strain K12)" P0A6I0 unknown 4
-C5P DB03403                             "Uridine-cytidine kinase 2"                                                                              Humans Q9BZX2 unknown 5
-C5P DB03403       "3-deoxy-manno-octulosonate cytidylyltransferase"                                                                  "Escherichia coli" P42216 unknown 6
-C5P DB03403 "2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase"                                                                 "Shigella flexneri" P62619 unknown 7
-C5P DB03403                        Alpha-2,3-/2,8-sialyltransferase                                                              "Campylobacter jejuni" Q9LAK3 unknown 8
-C5P DB03403    "Coenzyme A biosynthesis bifunctional protein CoaBC"                                                     "Escherichia coli (strain K12)" P0ABQ0 unknown 9
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-C5P "Cytidine-5'-Monophosphate"   ChEMBL
-C5P     "Cytidine 5'-Phosphate"   ChEMBL
-C5P                    "5'-CMP" DrugBank
-C5P                         CMP DrugBank
-C5P    "Cytidine monophosphate" DrugBank
-C5P                  cytidylate DrugBank
-C5P            "Cytidylic acid" DrugBank
-C5P                          pC DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-C5P   O3P O 11.218 -6.129  1
-C5P     P P 10.336 -4.915  2
-C5P   O1P O 11.550 -4.033  3
-C5P   O2P O  9.123 -5.797  4
-C5P "O5'" O  9.455 -3.701  5
-C5P "C5'" C  7.963 -3.858  6
-C5P "C4'" C  7.081 -2.645  7
-C5P "O4'" O  7.545 -1.218  8
-C5P "C3'" C  5.581 -2.645  9
-C5P "O3'" O  4.699 -3.858 10
-C5P "C2'" C  5.118 -1.218 11
-C5P "O2'" O  3.691 -0.755 12
-C5P "C1'" C  6.331 -0.337 13
-C5P    N1 N  6.331  1.163 14
-C5P    C2 C  7.630  1.914 15
-C5P    N3 N  7.630  3.413 16
-C5P    C4 C  6.331  4.163 17
-C5P    C5 C  5.032  3.413 18
-C5P    C6 C  5.032  1.914 19
-C5P    O2 O  8.929  1.163 20
-C5P    N4 N  6.331  5.663 21
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-C5P   O3P     P SINGLE       NONE  1
-C5P     P   O1P DOUBLE       NONE  2
-C5P     P   O2P SINGLE       NONE  3
-C5P     P "O5'" SINGLE       NONE  4
-C5P "O5'" "C5'" SINGLE       NONE  5
-C5P "C5'" "C4'" SINGLE  BEGINDASH  6
-C5P "C4'" "O4'" SINGLE       NONE  7
-C5P "C4'" "C3'" SINGLE       NONE  8
-C5P "O4'" "C1'" SINGLE       NONE  9
-C5P "C3'" "O3'" SINGLE  BEGINDASH 10
-C5P "C3'" "C2'" SINGLE       NONE 11
-C5P "C2'" "O2'" SINGLE BEGINWEDGE 12
-C5P "C2'" "C1'" SINGLE       NONE 13
-C5P "C1'"    N1 SINGLE BEGINWEDGE 14
-C5P    N1    C2 SINGLE       NONE 15
-C5P    N1    C6 SINGLE       NONE 16
-C5P    C2    N3 SINGLE       NONE 17
-C5P    C2    O2 DOUBLE       NONE 18
-C5P    N3    C4 DOUBLE       NONE 19
-C5P    C4    C5 SINGLE       NONE 20
-C5P    C4    N4 SINGLE       NONE 21
-C5P    C5    C6 DOUBLE       NONE 22
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-C5P MurckoScaffold S1 scaffold O=c1ncccn1[C@@H]1CCCO1 InChI=1S/C8H10N2O2/c11-8-9-4-2-5-10(8)7-3-1-6-12-7/h2,4-5,7H,1,3,6H2/t7-/m0/s1 AKXKPKRAUWTVBW-ZETCQYMHSA-N
-C5P      phosphate F1 fragment             O=P(O)(O)O                                        InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-C5P     pyrimidine F2 fragment               c1cncnc1                                           InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-C5P         ribose F3 fragment          OCC1OCC(O)C1O                              InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-C5P   O3P F1 1
-C5P     P F1 1
-C5P   O1P F1 1
-C5P   O2P F1 1
-C5P "O5'" F1 1
-C5P    C5 F2 1
-C5P    C4 F2 1
-C5P    N3 F2 1
-C5P    C2 F2 1
-C5P    N1 F2 1
-C5P    C6 F2 1
-C5P "C2'" F3 1
-C5P "C3'" F3 1
-C5P "C4'" F3 1
-C5P "O4'" F3 1
-C5P "C1'" F3 1
-C5P "C5'" F3 1
-C5P "O5'" F3 1
-C5P "O3'" F3 1
-C5P "O2'" F3 1
-C5P "C4'" S1 1
-C5P "O4'" S1 1
-C5P "C3'" S1 1
-C5P "C2'" S1 1
-C5P "C1'" S1 1
-C5P    N1 S1 1
-C5P    C2 S1 1
-C5P    N3 S1 1
-C5P    C4 S1 1
-C5P    C5 S1 1
-C5P    C6 S1 1
-C5P    O2 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               C5P
-_pdbe_chem_comp_rdkit_properties.exactmw                               323.052
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           11
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     9
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                11
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        12
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.556
-_pdbe_chem_comp_rdkit_properties.NumRings                              2
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             137.487
-_pdbe_chem_comp_rdkit_properties.tpsa                                  177.360
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.927
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             66.113
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         21
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-C5P UniChem        ChEMBL     CHEMBL307679
-C5P UniChem      DrugBank          DB03403
-C5P UniChem "KEGG LIGAND"           C00055
-C5P UniChem         ChEBI            17361
-C5P UniChem          ZINC ZINC000003861744
-C5P UniChem     BindingDb         50310540
-C5P UniChem  MetaboLights       MTBLC17361
-C5P UniChem        BRENDA              100
-C5P UniChem        BRENDA           102643
-C5P UniChem        BRENDA           105789
-C5P UniChem        BRENDA           124491
-C5P UniChem        BRENDA             1572
-C5P UniChem        BRENDA            16658
-C5P UniChem        BRENDA           210730
-C5P UniChem        BRENDA            24116
-C5P UniChem        BRENDA            24532
-C5P UniChem        BRENDA            46235
-C5P UniChem        BRENDA            47166
-C5P UniChem        BRENDA            67069
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-C5P    O3P -5.652  0.025  0.858 ETKDGv2  1
-C5P      P -4.716  0.320 -0.523 ETKDGv2  2
-C5P    O1P -5.001 -0.733 -1.572 ETKDGv2  3
-C5P    O2P -5.130  1.839 -1.143 ETKDGv2  4
-C5P  "O5'" -3.056  0.322 -0.131 ETKDGv2  5
-C5P  "C5'" -2.732 -0.916  0.459 ETKDGv2  6
-C5P  "C4'" -1.233 -0.964  0.785 ETKDGv2  7
-C5P  "O4'" -0.473 -0.625 -0.357 ETKDGv2  8
-C5P  "C3'" -0.811 -0.079  1.967 ETKDGv2  9
-C5P  "O3'" -1.641  1.050  2.089 ETKDGv2 10
-C5P  "C2'"  0.582  0.348  1.567 ETKDGv2 11
-C5P  "O2'"  1.558 -0.526  2.089 ETKDGv2 12
-C5P  "C1'"  0.514  0.304  0.039 ETKDGv2 13
-C5P     N1  1.825  0.001 -0.562 ETKDGv2 14
-C5P     C2  2.220 -1.319 -0.998 ETKDGv2 15
-C5P     N3  3.513 -1.504 -1.581 ETKDGv2 16
-C5P     C4  4.349 -0.516 -1.706 ETKDGv2 17
-C5P     C5  3.985  0.838 -1.238 ETKDGv2 18
-C5P     C6  2.785  1.065 -0.696 ETKDGv2 19
-C5P     O2  1.458 -2.311 -0.857 ETKDGv2 20
-C5P     N4  5.630 -0.746 -2.293 ETKDGv2 21
-C5P   HOP3 -5.739 -0.960  0.909 ETKDGv2 22
-C5P   HOP2 -4.493  1.990 -1.886 ETKDGv2 23
-C5P "H5'1" -2.952 -1.752 -0.244 ETKDGv2 24
-C5P "H5'2" -3.303 -1.074  1.402 ETKDGv2 25
-C5P  "H4'" -0.987 -2.017  1.049 ETKDGv2 26
-C5P  "H3'" -0.813 -0.663  2.918 ETKDGv2 27
-C5P "HO3'" -1.456  1.444  2.981 ETKDGv2 28
-C5P "H2'1"  0.811  1.378  1.917 ETKDGv2 29
-C5P "HO2'"  1.338 -1.450  1.800 ETKDGv2 30
-C5P  "H1'"  0.177  1.301 -0.325 ETKDGv2 31
-C5P     H5  4.693  1.651 -1.334 ETKDGv2 32
-C5P     H6  2.539  2.064 -0.357 ETKDGv2 33
-C5P   HN41  5.897 -1.699 -2.625 ETKDGv2 34
-C5P   HN42  6.315  0.035 -2.400 ETKDGv2 35
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+C5P "Create component"  1999-07-08 EBI  
+C5P "Modify descriptor" 2011-06-04 RCSB 
+# 

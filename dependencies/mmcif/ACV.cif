@@ -1,412 +1,184 @@
 data_ACV
-#
-_chem_comp.id                                        ACV
-_chem_comp.name                                      L-D-(A-AMINOADIPOYL)-L-CYSTEINYL-D-VALINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C14 H25 N3 O6 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            363.430
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         ACV
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1BK0
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    ACV 
+_chem_comp.name                                  "L-D-(A-AMINOADIPOYL)-L-CYSTEINYL-D-VALINE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C14 H25 N3 O6 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        363.430 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ACV 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1BK0 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ACV   C1   C1 C 0 1 N N N 17.256 36.323 5.678 -1.006  0.068 -7.366   C1 ACV  1
-ACV   C2   C2 C 0 1 N N S 15.825 36.580 6.152 -0.444 -0.568 -6.122   C2 ACV  2
-ACV   C3   C3 C 0 1 N N N 15.215 37.807 5.475 -0.670  0.359 -4.927   C3 ACV  3
-ACV   C4   C4 C 0 1 N N N 13.767 38.088 5.905 -0.099 -0.287 -3.663   C4 ACV  4
-ACV   C7   C7 C 0 1 N N N 13.324 39.364 5.174 -0.325  0.641 -2.468   C7 ACV  5
-ACV  C10  C10 C 0 1 N N N 11.896 39.664 5.596  0.237  0.004 -1.224  C10 ACV  6
-ACV  N11  N11 N 0 1 N N N 10.935 39.424 4.717  0.152  0.645 -0.041  N11 ACV  7
-ACV  C12  C12 C 0 1 N N R  9.507 39.725 4.863  0.699  0.026  1.168  C12 ACV  8
-ACV  C13  C13 C 0 1 N N N  8.761 38.394 4.692 -0.094  0.478  2.366  C13 ACV  9
-ACV  N14  N14 N 0 1 N N N 15.776 36.742 7.752  0.995 -0.799 -6.298  N14 ACV 10
-ACV  O15  O15 O 0 1 N N N 11.558 40.039 6.706  0.767 -1.084 -1.286  O15 ACV 11
-ACV  C16  C16 C 0 1 N N N  9.115 40.711 3.756  2.161  0.443  1.338  C16 ACV 12
-ACV  S17  S17 S 0 1 N N N  9.520 40.070 2.096  3.117 -0.100 -0.104  S17 ACV 13
-ACV  O18  O18 O 0 1 N N N  9.281 37.298 4.686 -1.025  1.242  2.224  O18 ACV 14
-ACV  O19  O19 O 0 1 N N N 18.163 36.456 6.537 -2.282 -0.158 -7.718  O19 ACV 15
-ACV  O20  O20 O 0 1 N N N 17.399 36.065 4.484 -0.309  0.782 -8.047  O20 ACV 16
-ACV  N29  N29 N 0 1 N N N  7.416 38.496 4.617  0.229  0.033  3.596  N29 ACV 17
-ACV  C30  C30 C 0 1 N N R  6.543 37.343 4.402 -0.542  0.472  4.761  C30 ACV 18
-ACV  C31  C31 C 0 1 N N N  5.318 37.419 5.330 -1.686 -0.479  4.994  C31 ACV 19
-ACV  C32  C32 C 0 1 N N N  6.109 37.156 2.915  0.363  0.493  5.995  C32 ACV 20
-ACV  C33  C33 C 0 1 N N N  7.348 36.875 2.046 -0.442  0.952  7.211  C33 ACV 21
-ACV  C37  C37 C 0 1 N N N  5.559 38.540 2.492  0.912 -0.912  6.247  C37 ACV 22
-ACV  O42  O42 O 0 1 N N N  5.241 38.296 6.204 -2.713 -0.080  5.491  O42 ACV 23
-ACV  O43  O43 O 0 1 N N N  4.426 36.572 5.147 -1.565 -1.771  4.649  O43 ACV 24
-ACV   H2   H2 H 0 1 N N N 15.214 35.693 5.860 -0.945 -1.520 -5.942   H2 ACV 25
-ACV  H31  1H3 H 0 1 N N N 15.855 38.705 5.635 -1.738  0.530 -4.796  H31 ACV 26
-ACV H32A  2H3 H 0 0 N N N 15.287 37.722 4.365 -0.169  1.311 -5.106 H32A ACV 27
-ACV  H41  1H4 H 0 1 N N N 13.083 37.224 5.733  0.969 -0.457 -3.794  H41 ACV 28
-ACV  H42  2H4 H 0 1 N N N 13.642 38.150 7.011 -0.599 -1.238 -3.484  H42 ACV 29
-ACV  H71  1H7 H 0 1 N N N 14.015 40.222 5.342 -1.393  0.812 -2.338  H71 ACV 30
-ACV  H72  2H7 H 0 1 N N N 13.443 39.293 4.067  0.175  1.592 -2.648  H72 ACV 31
-ACV  HNB  HNB H 0 1 N N N 11.316 38.982 3.880 -0.271  1.516  0.008  HNB ACV 32
-ACV  H12  H12 H 0 1 N N N  9.261 40.179 5.851  0.638 -1.058  1.080  H12 ACV 33
-ACV HNE1 1HNE H 0 0 N N N 14.821 36.913 8.068  1.416  0.103 -6.460 HNE1 ACV 34
-ACV HNE2 2HNE H 0 0 N N N 16.417 37.464 8.078  1.347 -1.127 -5.411 HNE2 ACV 35
-ACV H161 1H16 H 0 0 N N N  8.039 40.994 3.829  2.221  1.528  1.426 H161 ACV 36
-ACV H162 2H16 H 0 0 N N N  9.573 41.713 3.925  2.568 -0.017  2.238 H162 ACV 37
-ACV  HS7  HS7 H 0 1 N N N  9.277 40.680 1.410  4.336  0.352  0.238  HS7 ACV 38
-ACV  HOJ  HOJ H 0 1 N N N 19.052 36.296 6.242 -2.643  0.250 -8.517  HOJ ACV 39
-ACV  HNT  HNT H 0 1 N N N  7.058 39.445 4.722  0.974 -0.577  3.710  HNT ACV 40
-ACV  H30  H30 H 0 1 N N N  7.143 36.439 4.657 -0.933  1.474  4.581  H30 ACV 41
-ACV  H32  H32 H 0 1 N N N  5.378 36.321 2.799  1.191  1.182  5.826  H32 ACV 42
-ACV H331 1H33 H 0 0 N N N  7.037 36.741 0.983  0.202  0.966  8.090 H331 ACV 43
-ACV H332 2H33 H 0 0 N N N  8.128 37.662 2.160 -0.834  1.953  7.031 H332 ACV 44
-ACV H333 3H33 H 0 0 N N N  7.938 36.007 2.423 -1.270  0.263  7.380 H333 ACV 45
-ACV H371 1H37 H 0 0 N N N  5.248 38.406 1.429  0.084 -1.601  6.416 H371 ACV 46
-ACV H372 2H37 H 0 0 N N N  4.752 38.930 3.155  1.486 -1.239  5.380 H372 ACV 47
-ACV H373 3H37 H 0 0 N N N  6.272 39.381 2.654  1.557 -0.897  7.126 H373 ACV 48
-ACV   HO   HO H 0 1 N N N  3.669 36.618 5.720 -2.300 -2.382  4.798   HO ACV 49
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ACV C1   C1   C 0 1 N N N 17.256 36.323 5.678 -1.006 0.068  -7.366 C1   ACV 1  
+ACV C2   C2   C 0 1 N N S 15.825 36.580 6.152 -0.444 -0.568 -6.122 C2   ACV 2  
+ACV C3   C3   C 0 1 N N N 15.215 37.807 5.475 -0.670 0.359  -4.927 C3   ACV 3  
+ACV C4   C4   C 0 1 N N N 13.767 38.088 5.905 -0.099 -0.287 -3.663 C4   ACV 4  
+ACV C7   C7   C 0 1 N N N 13.324 39.364 5.174 -0.325 0.641  -2.468 C7   ACV 5  
+ACV C10  C10  C 0 1 N N N 11.896 39.664 5.596 0.237  0.004  -1.224 C10  ACV 6  
+ACV N11  N11  N 0 1 N N N 10.935 39.424 4.717 0.152  0.645  -0.041 N11  ACV 7  
+ACV C12  C12  C 0 1 N N R 9.507  39.725 4.863 0.699  0.026  1.168  C12  ACV 8  
+ACV C13  C13  C 0 1 N N N 8.761  38.394 4.692 -0.094 0.478  2.366  C13  ACV 9  
+ACV N14  N14  N 0 1 N N N 15.776 36.742 7.752 0.995  -0.799 -6.298 N14  ACV 10 
+ACV O15  O15  O 0 1 N N N 11.558 40.039 6.706 0.767  -1.084 -1.286 O15  ACV 11 
+ACV C16  C16  C 0 1 N N N 9.115  40.711 3.756 2.161  0.443  1.338  C16  ACV 12 
+ACV S17  S17  S 0 1 N N N 9.520  40.070 2.096 3.117  -0.100 -0.104 S17  ACV 13 
+ACV O18  O18  O 0 1 N N N 9.281  37.298 4.686 -1.025 1.242  2.224  O18  ACV 14 
+ACV O19  O19  O 0 1 N N N 18.163 36.456 6.537 -2.282 -0.158 -7.718 O19  ACV 15 
+ACV O20  O20  O 0 1 N N N 17.399 36.065 4.484 -0.309 0.782  -8.047 O20  ACV 16 
+ACV N29  N29  N 0 1 N N N 7.416  38.496 4.617 0.229  0.033  3.596  N29  ACV 17 
+ACV C30  C30  C 0 1 N N R 6.543  37.343 4.402 -0.542 0.472  4.761  C30  ACV 18 
+ACV C31  C31  C 0 1 N N N 5.318  37.419 5.330 -1.686 -0.479 4.994  C31  ACV 19 
+ACV C32  C32  C 0 1 N N N 6.109  37.156 2.915 0.363  0.493  5.995  C32  ACV 20 
+ACV C33  C33  C 0 1 N N N 7.348  36.875 2.046 -0.442 0.952  7.211  C33  ACV 21 
+ACV C37  C37  C 0 1 N N N 5.559  38.540 2.492 0.912  -0.912 6.247  C37  ACV 22 
+ACV O42  O42  O 0 1 N N N 5.241  38.296 6.204 -2.713 -0.080 5.491  O42  ACV 23 
+ACV O43  O43  O 0 1 N N N 4.426  36.572 5.147 -1.565 -1.771 4.649  O43  ACV 24 
+ACV H2   H2   H 0 1 N N N 15.214 35.693 5.860 -0.945 -1.520 -5.942 H2   ACV 25 
+ACV H31  1H3  H 0 1 N N N 15.855 38.705 5.635 -1.738 0.530  -4.796 H31  ACV 26 
+ACV H32A 2H3  H 0 0 N N N 15.287 37.722 4.365 -0.169 1.311  -5.106 H32A ACV 27 
+ACV H41  1H4  H 0 1 N N N 13.083 37.224 5.733 0.969  -0.457 -3.794 H41  ACV 28 
+ACV H42  2H4  H 0 1 N N N 13.642 38.150 7.011 -0.599 -1.238 -3.484 H42  ACV 29 
+ACV H71  1H7  H 0 1 N N N 14.015 40.222 5.342 -1.393 0.812  -2.338 H71  ACV 30 
+ACV H72  2H7  H 0 1 N N N 13.443 39.293 4.067 0.175  1.592  -2.648 H72  ACV 31 
+ACV HNB  HNB  H 0 1 N N N 11.316 38.982 3.880 -0.271 1.516  0.008  HNB  ACV 32 
+ACV H12  H12  H 0 1 N N N 9.261  40.179 5.851 0.638  -1.058 1.080  H12  ACV 33 
+ACV HNE1 1HNE H 0 0 N N N 14.821 36.913 8.068 1.416  0.103  -6.460 HNE1 ACV 34 
+ACV HNE2 2HNE H 0 0 N N N 16.417 37.464 8.078 1.347  -1.127 -5.411 HNE2 ACV 35 
+ACV H161 1H16 H 0 0 N N N 8.039  40.994 3.829 2.221  1.528  1.426  H161 ACV 36 
+ACV H162 2H16 H 0 0 N N N 9.573  41.713 3.925 2.568  -0.017 2.238  H162 ACV 37 
+ACV HS7  HS7  H 0 1 N N N 9.277  40.680 1.410 4.336  0.352  0.238  HS7  ACV 38 
+ACV HOJ  HOJ  H 0 1 N N N 19.052 36.296 6.242 -2.643 0.250  -8.517 HOJ  ACV 39 
+ACV HNT  HNT  H 0 1 N N N 7.058  39.445 4.722 0.974  -0.577 3.710  HNT  ACV 40 
+ACV H30  H30  H 0 1 N N N 7.143  36.439 4.657 -0.933 1.474  4.581  H30  ACV 41 
+ACV H32  H32  H 0 1 N N N 5.378  36.321 2.799 1.191  1.182  5.826  H32  ACV 42 
+ACV H331 1H33 H 0 0 N N N 7.037  36.741 0.983 0.202  0.966  8.090  H331 ACV 43 
+ACV H332 2H33 H 0 0 N N N 8.128  37.662 2.160 -0.834 1.953  7.031  H332 ACV 44 
+ACV H333 3H33 H 0 0 N N N 7.938  36.007 2.423 -1.270 0.263  7.380  H333 ACV 45 
+ACV H371 1H37 H 0 0 N N N 5.248  38.406 1.429 0.084  -1.601 6.416  H371 ACV 46 
+ACV H372 2H37 H 0 0 N N N 4.752  38.930 3.155 1.486  -1.239 5.380  H372 ACV 47 
+ACV H373 3H37 H 0 0 N N N 6.272  39.381 2.654 1.557  -0.897 7.126  H373 ACV 48 
+ACV HO   HO   H 0 1 N N N 3.669  36.618 5.720 -2.300 -2.382 4.798  HO   ACV 49 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ACV  C1   C2 SING N N  1
-ACV  C1  O19 SING N N  2
-ACV  C1  O20 DOUB N N  3
-ACV  C2   C3 SING N N  4
-ACV  C2  N14 SING N N  5
-ACV  C2   H2 SING N N  6
-ACV  C3   C4 SING N N  7
-ACV  C3  H31 SING N N  8
-ACV  C3 H32A SING N N  9
-ACV  C4   C7 SING N N 10
-ACV  C4  H41 SING N N 11
-ACV  C4  H42 SING N N 12
-ACV  C7  C10 SING N N 13
-ACV  C7  H71 SING N N 14
-ACV  C7  H72 SING N N 15
-ACV C10  N11 SING N N 16
-ACV C10  O15 DOUB N N 17
-ACV N11  C12 SING N N 18
-ACV N11  HNB SING N N 19
-ACV C12  C13 SING N N 20
-ACV C12  C16 SING N N 21
-ACV C12  H12 SING N N 22
-ACV C13  O18 DOUB N N 23
-ACV C13  N29 SING N N 24
-ACV N14 HNE1 SING N N 25
-ACV N14 HNE2 SING N N 26
-ACV C16  S17 SING N N 27
-ACV C16 H161 SING N N 28
-ACV C16 H162 SING N N 29
-ACV S17  HS7 SING N N 30
-ACV O19  HOJ SING N N 31
-ACV N29  C30 SING N N 32
-ACV N29  HNT SING N N 33
-ACV C30  C31 SING N N 34
-ACV C30  C32 SING N N 35
-ACV C30  H30 SING N N 36
-ACV C31  O42 DOUB N N 37
-ACV C31  O43 SING N N 38
-ACV C32  C33 SING N N 39
-ACV C32  C37 SING N N 40
-ACV C32  H32 SING N N 41
-ACV C33 H331 SING N N 42
-ACV C33 H332 SING N N 43
-ACV C33 H333 SING N N 44
-ACV C37 H371 SING N N 45
-ACV C37 H372 SING N N 46
-ACV C37 H373 SING N N 47
-ACV O43   HO SING N N 48
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ACV C1  C2   SING N N 1  
+ACV C1  O19  SING N N 2  
+ACV C1  O20  DOUB N N 3  
+ACV C2  C3   SING N N 4  
+ACV C2  N14  SING N N 5  
+ACV C2  H2   SING N N 6  
+ACV C3  C4   SING N N 7  
+ACV C3  H31  SING N N 8  
+ACV C3  H32A SING N N 9  
+ACV C4  C7   SING N N 10 
+ACV C4  H41  SING N N 11 
+ACV C4  H42  SING N N 12 
+ACV C7  C10  SING N N 13 
+ACV C7  H71  SING N N 14 
+ACV C7  H72  SING N N 15 
+ACV C10 N11  SING N N 16 
+ACV C10 O15  DOUB N N 17 
+ACV N11 C12  SING N N 18 
+ACV N11 HNB  SING N N 19 
+ACV C12 C13  SING N N 20 
+ACV C12 C16  SING N N 21 
+ACV C12 H12  SING N N 22 
+ACV C13 O18  DOUB N N 23 
+ACV C13 N29  SING N N 24 
+ACV N14 HNE1 SING N N 25 
+ACV N14 HNE2 SING N N 26 
+ACV C16 S17  SING N N 27 
+ACV C16 H161 SING N N 28 
+ACV C16 H162 SING N N 29 
+ACV S17 HS7  SING N N 30 
+ACV O19 HOJ  SING N N 31 
+ACV N29 C30  SING N N 32 
+ACV N29 HNT  SING N N 33 
+ACV C30 C31  SING N N 34 
+ACV C30 C32  SING N N 35 
+ACV C30 H30  SING N N 36 
+ACV C31 O42  DOUB N N 37 
+ACV C31 O43  SING N N 38 
+ACV C32 C33  SING N N 39 
+ACV C32 C37  SING N N 40 
+ACV C32 H32  SING N N 41 
+ACV C33 H331 SING N N 42 
+ACV C33 H332 SING N N 43 
+ACV C33 H333 SING N N 44 
+ACV C37 H371 SING N N 45 
+ACV C37 H372 SING N N 46 
+ACV C37 H373 SING N N 47 
+ACV O43 HO   SING N N 48 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ACV           SMILES              ACDLabs 10.04                                                                                                                          O=C(NC(C(=O)O)C(C)C)C(NC(=O)CCCC(C(=O)O)N)CS
-ACV SMILES_CANONICAL               CACTVS 3.341                                                                                                             CC(C)[C@@H](NC(=O)[C@H](CS)NC(=O)CCC[C@H](N)C(O)=O)C(O)=O
-ACV           SMILES               CACTVS 3.341                                                                                                                 CC(C)[CH](NC(=O)[CH](CS)NC(=O)CCC[CH](N)C(O)=O)C(O)=O
-ACV SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                             CC(C)[C@H](C(=O)O)NC(=O)[C@H](CS)NC(=O)CCC[C@@H](C(=O)O)N
-ACV           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                          CC(C)C(C(=O)O)NC(=O)C(CS)NC(=O)CCCC(C(=O)O)N
-ACV            InChI                InChI  1.03 InChI=1S/C14H25N3O6S/c1-7(2)11(14(22)23)17-12(19)9(6-24)16-10(18)5-3-4-8(15)13(20)21/h7-9,11,24H,3-6,15H2,1-2H3,(H,16,18)(H,17,19)(H,20,21)(H,22,23)/t8-,9-,11+/m0/s1
-ACV         InChIKey                InChI  1.03                                                                                                                                           BYEIJZFKOAXBBV-ATZCPNFKSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ACV SMILES           ACDLabs              10.04 "O=C(NC(C(=O)O)C(C)C)C(NC(=O)CCCC(C(=O)O)N)CS"                                                                                                                          
+ACV SMILES_CANONICAL CACTVS               3.341 "CC(C)[C@@H](NC(=O)[C@H](CS)NC(=O)CCC[C@H](N)C(O)=O)C(O)=O"                                                                                                             
+ACV SMILES           CACTVS               3.341 "CC(C)[CH](NC(=O)[CH](CS)NC(=O)CCC[CH](N)C(O)=O)C(O)=O"                                                                                                                 
+ACV SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(C)[C@H](C(=O)O)NC(=O)[C@H](CS)NC(=O)CCC[C@@H](C(=O)O)N"                                                                                                             
+ACV SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C)C(C(=O)O)NC(=O)C(CS)NC(=O)CCCC(C(=O)O)N"                                                                                                                          
+ACV InChI            InChI                1.03  "InChI=1S/C14H25N3O6S/c1-7(2)11(14(22)23)17-12(19)9(6-24)16-10(18)5-3-4-8(15)13(20)21/h7-9,11,24H,3-6,15H2,1-2H3,(H,16,18)(H,17,19)(H,20,21)(H,22,23)/t8-,9-,11+/m0/s1" 
+ACV InChIKey         InChI                1.03  BYEIJZFKOAXBBV-ATZCPNFKSA-N                                                                                                                                             
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-ACV "SYSTEMATIC NAME"              ACDLabs 10.04                                                                            N-[(5S)-5-amino-5-carboxypentanoyl]-L-cysteinyl-D-valine
-ACV "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-6-[[(2R)-1-[[(2R)-1-hydroxy-3-methyl-1-oxo-butan-2-yl]amino]-1-oxo-3-sulfanyl-propan-2-yl]amino]-6-oxo-hexanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ACV "SYSTEMATIC NAME" ACDLabs              10.04 "N-[(5S)-5-amino-5-carboxypentanoyl]-L-cysteinyl-D-valine"                                                                          
+ACV "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-6-[[(2R)-1-[[(2R)-1-hydroxy-3-methyl-1-oxo-butan-2-yl]amino]-1-oxo-3-sulfanyl-propan-2-yl]amino]-6-oxo-hexanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ACV  "Create component" 1999-07-08 RCSB
-ACV "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   ACV
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02025
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      L-D-(a-Aminoadipoyl)-L-Cysteinyl-D-Valine
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           ACV
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02025
-_pdbe_chem_comp_drugbank_classification.parent            Dipeptides
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as dipeptides. These are organic compounds containing a sequence of exactly two alpha-amino acids joined by a peptide bond."
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ACV  C1 C 19.394 -0.840  1
-ACV  C2 C 18.095 -0.090  2
-ACV  C3 C 16.796 -0.840  3
-ACV  C4 C 15.497 -0.090  4
-ACV  C7 C 14.198 -0.840  5
-ACV C10 C 12.899 -0.090  6
-ACV N11 N 11.600 -0.840  7
-ACV C12 C 10.301 -0.090  8
-ACV C13 C  9.002 -0.840  9
-ACV N14 N 18.095  1.410 10
-ACV O15 O 12.899  1.410 11
-ACV C16 C 10.301  1.410 12
-ACV S17 S 11.600  2.160 13
-ACV O18 O  9.002 -2.340 14
-ACV O19 O 20.693 -0.090 15
-ACV O20 O 19.394 -2.340 16
-ACV N29 N  7.702 -0.090 17
-ACV C30 C  6.404 -0.840 18
-ACV C31 C  6.404 -2.340 19
-ACV C32 C  5.104 -0.090 20
-ACV C33 C  3.805 -0.840 21
-ACV C37 C  5.104  1.410 22
-ACV O42 O  5.104 -3.090 23
-ACV O43 O  7.702 -3.090 24
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ACV  C1  C2 SINGLE       NONE  1
-ACV  C1 O19 SINGLE       NONE  2
-ACV  C1 O20 DOUBLE       NONE  3
-ACV  C2  C3 SINGLE       NONE  4
-ACV  C2 N14 SINGLE  BEGINDASH  5
-ACV  C3  C4 SINGLE       NONE  6
-ACV  C4  C7 SINGLE       NONE  7
-ACV  C7 C10 SINGLE       NONE  8
-ACV C10 N11 SINGLE       NONE  9
-ACV C10 O15 DOUBLE       NONE 10
-ACV N11 C12 SINGLE       NONE 11
-ACV C12 C13 SINGLE       NONE 12
-ACV C12 C16 SINGLE BEGINWEDGE 13
-ACV C13 O18 DOUBLE       NONE 14
-ACV C13 N29 SINGLE       NONE 15
-ACV C16 S17 SINGLE       NONE 16
-ACV N29 C30 SINGLE BEGINWEDGE 17
-ACV C30 C31 SINGLE       NONE 18
-ACV C30 C32 SINGLE       NONE 19
-ACV C31 O42 DOUBLE       NONE 20
-ACV C31 O43 SINGLE       NONE 21
-ACV C32 C33 SINGLE       NONE 22
-ACV C32 C37 SINGLE       NONE 23
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-ACV   amide F1 fragment CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-ACV peptide F2 fragment   NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ACV N11 F1 1
-ACV C10 F1 1
-ACV O15 F1 1
-ACV  C7 F1 1
-ACV N29 F1 2
-ACV C13 F1 2
-ACV O18 F1 2
-ACV C12 F1 2
-ACV O18 F2 1
-ACV C13 F2 1
-ACV C12 F2 1
-ACV N11 F2 1
-ACV O20 F2 2
-ACV  C1 F2 2
-ACV  C2 F2 2
-ACV N14 F2 2
-ACV O42 F2 3
-ACV C31 F2 3
-ACV C30 F2 3
-ACV N29 F2 3
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ACV
-_pdbe_chem_comp_rdkit_properties.exactmw                               363.146
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           9
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     15
-_pdbe_chem_comp_rdkit_properties.NumHBD                                6
-_pdbe_chem_comp_rdkit_properties.NumHBA                                8
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        10
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.714
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             180.523
-_pdbe_chem_comp_rdkit_properties.tpsa                                  158.820
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.791
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             89.650
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         24
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ACV UniChem   ChEMBL      CHEMBL70421
-ACV UniChem DrugBank          DB02025
-ACV UniChem    ChEBI            28496
-ACV UniChem     ZINC ZINC000003873037
-ACV UniChem   BRENDA           132825
-ACV UniChem   BRENDA           152257
-ACV UniChem   BRENDA           153508
-ACV UniChem   BRENDA            75917
-ACV UniChem   BRENDA             9598
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ACV   C1  2.987  2.698  1.642 ETKDGv2  1
-ACV   C2  3.501  1.506  0.889 ETKDGv2  2
-ACV   C3  2.564  1.187 -0.298 ETKDGv2  3
-ACV   C4  3.087  0.033 -1.170 ETKDGv2  4
-ACV   C7  2.298 -0.105 -2.480 ETKDGv2  5
-ACV  C10  0.863 -0.467 -2.228 ETKDGv2  6
-ACV  N11 -0.184  0.462 -2.547 ETKDGv2  7
-ACV  C12 -1.582  0.213 -2.175 ETKDGv2  8
-ACV  C13 -1.742  0.257 -0.675 ETKDGv2  9
-ACV  N14  3.638  0.373  1.809 ETKDGv2 10
-ACV  O15  0.585 -1.592 -1.730 ETKDGv2 11
-ACV  C16 -2.537  1.199 -2.874 ETKDGv2 12
-ACV  S17 -2.192  2.946 -2.471 ETKDGv2 13
-ACV  O18 -1.338  1.266 -0.033 ETKDGv2 14
-ACV  O19  3.674  3.906  1.577 ETKDGv2 15
-ACV  O20  1.924  2.616  2.315 ETKDGv2 16
-ACV  N29 -2.331 -0.853  0.021 ETKDGv2 17
-ACV  C30 -2.504 -0.881  1.480 ETKDGv2 18
-ACV  C31 -3.889 -1.353  1.848 ETKDGv2 19
-ACV  C32 -1.415 -1.753  2.160 ETKDGv2 20
-ACV  C33 -0.024 -1.124  2.007 ETKDGv2 21
-ACV  C37 -1.401 -3.201  1.644 ETKDGv2 22
-ACV  O42 -4.685 -1.779  0.967 ETKDGv2 23
-ACV  O43 -4.297 -1.310  3.178 ETKDGv2 24
-ACV   H2  4.508  1.763  0.488 ETKDGv2 25
-ACV  H31  1.550  0.936  0.082 ETKDGv2 26
-ACV H32A  2.473  2.100 -0.928 ETKDGv2 27
-ACV  H41  4.153  0.219 -1.427 ETKDGv2 28
-ACV  H42  3.033 -0.924 -0.607 ETKDGv2 29
-ACV  H71  2.366  0.845 -3.052 ETKDGv2 30
-ACV  H72  2.762 -0.899 -3.103 ETKDGv2 31
-ACV  HNB  0.066  1.329 -3.074 ETKDGv2 32
-ACV  H12 -1.860 -0.800 -2.540 ETKDGv2 33
-ACV HNE1  4.232 -0.362  1.362 ETKDGv2 34
-ACV HNE2  2.699 -0.046  1.998 ETKDGv2 35
-ACV H161 -2.451  1.070 -3.975 ETKDGv2 36
-ACV H162 -3.585  0.966 -2.586 ETKDGv2 37
-ACV  HS7 -3.241  3.409 -3.287 ETKDGv2 38
-ACV  HOJ  3.337  4.723  2.072 ETKDGv2 39
-ACV  HNT -2.576 -1.707 -0.529 ETKDGv2 40
-ACV  H30 -2.424  0.152  1.885 ETKDGv2 41
-ACV  H32 -1.632 -1.788  3.252 ETKDGv2 42
-ACV H331  0.723 -1.704  2.589 ETKDGv2 43
-ACV H332  0.291 -1.113  0.943 ETKDGv2 44
-ACV H333 -0.025 -0.081  2.391 ETKDGv2 45
-ACV H371 -1.097 -3.242  0.577 ETKDGv2 46
-ACV H372 -2.403 -3.666  1.754 ETKDGv2 47
-ACV H373 -0.679 -3.805  2.234 ETKDGv2 48
-ACV   HO -5.222 -1.621  3.448 ETKDGv2 49
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ACV "Create component"  1999-07-08 RCSB 
+ACV "Modify descriptor" 2011-06-04 RCSB 
+# 

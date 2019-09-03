@@ -77,9 +77,10 @@ _pdbx_chem_comp_audit.processing_site
 XE  "Create component" 1999-07-21 RCSB
 XE "Modify descriptor" 2011-06-04 RCSB
 #
-_pdbx_chem_comp_synonyms.comp_id          XE
-_pdbx_chem_comp_synonyms.name             Xenon
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
+_pdbe_chem_comp_synonyms.comp_id          XE
+_pdbe_chem_comp_synonyms.name             Xenon
+_pdbe_chem_comp_synonyms.provenance       ChEMBL
+_pdbe_chem_comp_synonyms.type             "International Nonproprietary Name"
 
 #
 loop_
@@ -135,6 +136,7 @@ XE UniChem        ChEMBL CHEMBL1236802
 XE UniChem "KEGG LIGAND"        C13373
 XE UniChem         ChEBI         49956
 XE UniChem         ChEBI         49957
+XE UniChem             P         23991
 XE UniChem        BRENDA         18290
 #
 _pdbe_chem_comp_rdkit_conformer.comp_id             XE

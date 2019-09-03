@@ -1,358 +1,146 @@
 data_3NF
-#
-_chem_comp.id                                        3NF
-_chem_comp.name                                      N-acetyl-L-tyrosine
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C11 H13 N O4"
-_chem_comp.mon_nstd_parent_comp_id                   TYR
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2010-06-11
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            223.225
-_chem_comp.one_letter_code                           Y
-_chem_comp.three_letter_code                         3NF
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    3NF 
+_chem_comp.name                                  N-acetyl-L-tyrosine 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C11 H13 N O4" 
+_chem_comp.mon_nstd_parent_comp_id               TYR 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2010-06-11 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        223.225 
+_chem_comp.one_letter_code                       Y 
+_chem_comp.three_letter_code                     3NF 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-3NF   O1   O1 O 0 1 N N N 12.832 -34.568 10.065 -2.071  1.676 -1.458   O1 3NF  1
-3NF   C2   C2 C 0 1 N N N 12.467 -34.943  8.960 -1.702  1.863 -0.317   C2 3NF  2
-3NF   C3   C3 C 0 1 N N N 13.270 -35.881  8.105 -1.686  3.259  0.250   C3 3NF  3
-3NF   N4   N4 N 0 1 N N N 11.314 -34.536  8.446 -1.313  0.822  0.444   N4 3NF  4
-3NF   C5   C5 C 0 1 N N S 10.511 -33.553  9.146 -1.334 -0.536 -0.106   C5 3NF  5
-3NF   C6   C6 C 0 1 N N N  9.912 -34.135 10.408 -2.714 -1.121  0.054   C6 3NF  6
-3NF   O7   O7 O 0 1 N N N  9.506 -35.320 10.391 -3.589 -0.471  0.575   O7 3NF  7
-3NF  OXT   O8 O 0 1 N Y N  9.843 -33.431 11.445 -2.970 -2.365 -0.381  OXT 3NF  8
-3NF   C9   C9 C 0 1 N N N  9.493 -33.015  8.135 -0.322 -1.406  0.642   C9 3NF  9
-3NF  C10  C10 C 0 1 Y N N  8.323 -32.282  8.743  1.071 -0.892  0.382  C10 3NF 10
-3NF  C11  C11 C 0 1 Y N N  7.267 -33.025  9.240  1.793 -1.372 -0.695  C11 3NF 11
-3NF  C12  C12 C 0 1 Y N N  6.172 -32.382  9.794  3.070 -0.903 -0.936  C12 3NF 12
-3NF  C13  C13 C 0 1 Y N N  6.130 -30.998  9.837  3.627  0.051 -0.097  C13 3NF 13
-3NF  C14  C14 C 0 1 Y N N  7.178 -30.238  9.332  2.900  0.531  0.983  C14 3NF 14
-3NF  C15  C15 C 0 1 Y N N  8.283 -30.888  8.781  1.622  0.063  1.216  C15 3NF 15
-3NF  O16  O16 O 0 1 N N N  5.040 -30.406 10.383  4.884  0.513 -0.331  O16 3NF 16
-3NF   H3   H3 H 0 1 N N N 14.198 -36.153  8.630 -2.647  3.472  0.719   H3 3NF 17
-3NF  H3A  H3A H 0 1 N N N 12.682 -36.789  7.905 -0.893  3.340  0.994  H3A 3NF 18
-3NF  H3B  H3B H 0 1 N N N 13.518 -35.388  7.154 -1.506  3.975 -0.552  H3B 3NF 19
-3NF   H2  HN4 H 0 1 N Y N 10.998 -34.908  7.573 -1.018  0.971  1.356   H2 3NF 20
-3NF   H5   H5 H 0 1 N N N 11.112 -32.708  9.513 -1.074 -0.504 -1.164   H5 3NF 21
-3NF  HXT  HO8 H 0 1 N Y N  9.455 -33.939 12.148 -3.870 -2.697 -0.256  HXT 3NF 22
-3NF   H9   H9 H 0 1 N N N 10.019 -32.313  7.471 -0.529 -1.366  1.712   H9 3NF 23
-3NF  H9A  H9A H 0 1 N N N  9.095 -33.872  7.572 -0.400 -2.436  0.294  H9A 3NF 24
-3NF  H11  H11 H 0 1 N N N  7.296 -34.104  9.196  1.359 -2.115 -1.348  H11 3NF 25
-3NF  H12  H12 H 0 1 N N N  5.351 -32.960 10.192  3.634 -1.279 -1.777  H12 3NF 26
-3NF  H14  H14 H 0 1 N N N  7.138 -29.159  9.365  3.332  1.274  1.637  H14 3NF 27
-3NF  H15  H15 H 0 1 N N N  9.106 -30.313  8.384  1.054  0.440  2.053  H15 3NF 28
-3NF HO16 HO16 H 0 0 N N N  5.141 -29.462 10.348  4.916  1.288 -0.909 HO16 3NF 29
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+3NF O1   O1   O 0 1 N N N 12.832 -34.568 10.065 -2.071 1.676  -1.458 O1   3NF 1  
+3NF C2   C2   C 0 1 N N N 12.467 -34.943 8.960  -1.702 1.863  -0.317 C2   3NF 2  
+3NF C3   C3   C 0 1 N N N 13.270 -35.881 8.105  -1.686 3.259  0.250  C3   3NF 3  
+3NF N4   N4   N 0 1 N N N 11.314 -34.536 8.446  -1.313 0.822  0.444  N4   3NF 4  
+3NF C5   C5   C 0 1 N N S 10.511 -33.553 9.146  -1.334 -0.536 -0.106 C5   3NF 5  
+3NF C6   C6   C 0 1 N N N 9.912  -34.135 10.408 -2.714 -1.121 0.054  C6   3NF 6  
+3NF O7   O7   O 0 1 N N N 9.506  -35.320 10.391 -3.589 -0.471 0.575  O7   3NF 7  
+3NF OXT  O8   O 0 1 N Y N 9.843  -33.431 11.445 -2.970 -2.365 -0.381 OXT  3NF 8  
+3NF C9   C9   C 0 1 N N N 9.493  -33.015 8.135  -0.322 -1.406 0.642  C9   3NF 9  
+3NF C10  C10  C 0 1 Y N N 8.323  -32.282 8.743  1.071  -0.892 0.382  C10  3NF 10 
+3NF C11  C11  C 0 1 Y N N 7.267  -33.025 9.240  1.793  -1.372 -0.695 C11  3NF 11 
+3NF C12  C12  C 0 1 Y N N 6.172  -32.382 9.794  3.070  -0.903 -0.936 C12  3NF 12 
+3NF C13  C13  C 0 1 Y N N 6.130  -30.998 9.837  3.627  0.051  -0.097 C13  3NF 13 
+3NF C14  C14  C 0 1 Y N N 7.178  -30.238 9.332  2.900  0.531  0.983  C14  3NF 14 
+3NF C15  C15  C 0 1 Y N N 8.283  -30.888 8.781  1.622  0.063  1.216  C15  3NF 15 
+3NF O16  O16  O 0 1 N N N 5.040  -30.406 10.383 4.884  0.513  -0.331 O16  3NF 16 
+3NF H3   H3   H 0 1 N N N 14.198 -36.153 8.630  -2.647 3.472  0.719  H3   3NF 17 
+3NF H3A  H3A  H 0 1 N N N 12.682 -36.789 7.905  -0.893 3.340  0.994  H3A  3NF 18 
+3NF H3B  H3B  H 0 1 N N N 13.518 -35.388 7.154  -1.506 3.975  -0.552 H3B  3NF 19 
+3NF H2   HN4  H 0 1 N Y N 10.998 -34.908 7.573  -1.018 0.971  1.356  H2   3NF 20 
+3NF H5   H5   H 0 1 N N N 11.112 -32.708 9.513  -1.074 -0.504 -1.164 H5   3NF 21 
+3NF HXT  HO8  H 0 1 N Y N 9.455  -33.939 12.148 -3.870 -2.697 -0.256 HXT  3NF 22 
+3NF H9   H9   H 0 1 N N N 10.019 -32.313 7.471  -0.529 -1.366 1.712  H9   3NF 23 
+3NF H9A  H9A  H 0 1 N N N 9.095  -33.872 7.572  -0.400 -2.436 0.294  H9A  3NF 24 
+3NF H11  H11  H 0 1 N N N 7.296  -34.104 9.196  1.359  -2.115 -1.348 H11  3NF 25 
+3NF H12  H12  H 0 1 N N N 5.351  -32.960 10.192 3.634  -1.279 -1.777 H12  3NF 26 
+3NF H14  H14  H 0 1 N N N 7.138  -29.159 9.365  3.332  1.274  1.637  H14  3NF 27 
+3NF H15  H15  H 0 1 N N N 9.106  -30.313 8.384  1.054  0.440  2.053  H15  3NF 28 
+3NF HO16 HO16 H 0 0 N N N 5.141  -29.462 10.348 4.916  1.288  -0.909 HO16 3NF 29 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-3NF  C2   O1 DOUB N N  1
-3NF  C3   C2 SING N N  2
-3NF  N4   C2 SING N N  3
-3NF  C3   H3 SING N N  4
-3NF  C3  H3A SING N N  5
-3NF  C3  H3B SING N N  6
-3NF  N4   C5 SING N N  7
-3NF  N4   H2 SING N N  8
-3NF  C9   C5 SING N N  9
-3NF  C5   C6 SING N N 10
-3NF  C5   H5 SING N N 11
-3NF  O7   C6 DOUB N N 12
-3NF  C6  OXT SING N N 13
-3NF OXT  HXT SING N N 14
-3NF  C9  C10 SING N N 15
-3NF  C9   H9 SING N N 16
-3NF  C9  H9A SING N N 17
-3NF C10  C15 DOUB Y N 18
-3NF C10  C11 SING Y N 19
-3NF C11  C12 DOUB Y N 20
-3NF C11  H11 SING N N 21
-3NF C12  C13 SING Y N 22
-3NF C12  H12 SING N N 23
-3NF C14  C13 DOUB Y N 24
-3NF C13  O16 SING N N 25
-3NF C15  C14 SING Y N 26
-3NF C14  H14 SING N N 27
-3NF C15  H15 SING N N 28
-3NF O16 HO16 SING N N 29
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+3NF C2  O1   DOUB N N 1  
+3NF C3  C2   SING N N 2  
+3NF N4  C2   SING N N 3  
+3NF C3  H3   SING N N 4  
+3NF C3  H3A  SING N N 5  
+3NF C3  H3B  SING N N 6  
+3NF N4  C5   SING N N 7  
+3NF N4  H2   SING N N 8  
+3NF C9  C5   SING N N 9  
+3NF C5  C6   SING N N 10 
+3NF C5  H5   SING N N 11 
+3NF O7  C6   DOUB N N 12 
+3NF C6  OXT  SING N N 13 
+3NF OXT HXT  SING N N 14 
+3NF C9  C10  SING N N 15 
+3NF C9  H9   SING N N 16 
+3NF C9  H9A  SING N N 17 
+3NF C10 C15  DOUB Y N 18 
+3NF C10 C11  SING Y N 19 
+3NF C11 C12  DOUB Y N 20 
+3NF C11 H11  SING N N 21 
+3NF C12 C13  SING Y N 22 
+3NF C12 H12  SING N N 23 
+3NF C14 C13  DOUB Y N 24 
+3NF C13 O16  SING N N 25 
+3NF C15 C14  SING Y N 26 
+3NF C14 H14  SING N N 27 
+3NF C15 H15  SING N N 28 
+3NF O16 HO16 SING N N 29 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-3NF           SMILES              ACDLabs 12.01                                                                                   O=C(O)C(NC(=O)C)Cc1ccc(O)cc1
-3NF SMILES_CANONICAL               CACTVS 3.370                                                                              CC(=O)N[C@@H](Cc1ccc(O)cc1)C(O)=O
-3NF           SMILES               CACTVS 3.370                                                                                CC(=O)N[CH](Cc1ccc(O)cc1)C(O)=O
-3NF SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                                                              CC(=O)N[C@@H](Cc1ccc(cc1)O)C(=O)O
-3NF           SMILES "OpenEye OEToolkits" 1.7.0                                                                                   CC(=O)NC(Cc1ccc(cc1)O)C(=O)O
-3NF            InChI                InChI  1.03 InChI=1S/C11H13NO4/c1-7(13)12-10(11(15)16)6-8-2-4-9(14)5-3-8/h2-5,10,14H,6H2,1H3,(H,12,13)(H,15,16)/t10-/m0/s1
-3NF         InChIKey                InChI  1.03                                                                                    CAHKINHBCWCHCF-JTQLQIEISA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+3NF SMILES           ACDLabs              12.01 "O=C(O)C(NC(=O)C)Cc1ccc(O)cc1"                                                                                   
+3NF SMILES_CANONICAL CACTVS               3.370 "CC(=O)N[C@@H](Cc1ccc(O)cc1)C(O)=O"                                                                              
+3NF SMILES           CACTVS               3.370 "CC(=O)N[CH](Cc1ccc(O)cc1)C(O)=O"                                                                                
+3NF SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "CC(=O)N[C@@H](Cc1ccc(cc1)O)C(=O)O"                                                                              
+3NF SMILES           "OpenEye OEToolkits" 1.7.0 "CC(=O)NC(Cc1ccc(cc1)O)C(=O)O"                                                                                   
+3NF InChI            InChI                1.03  "InChI=1S/C11H13NO4/c1-7(13)12-10(11(15)16)6-8-2-4-9(14)5-3-8/h2-5,10,14H,6H2,1H3,(H,12,13)(H,15,16)/t10-/m0/s1" 
+3NF InChIKey         InChI                1.03  CAHKINHBCWCHCF-JTQLQIEISA-N                                                                                      
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-3NF "SYSTEMATIC NAME"              ACDLabs 12.01                                  N-acetyl-L-tyrosine
-3NF "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "(2S)-2-acetamido-3-(4-hydroxyphenyl)propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+3NF "SYSTEMATIC NAME" ACDLabs              12.01 N-acetyl-L-tyrosine                                  
+3NF "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "(2S)-2-acetamido-3-(4-hydroxyphenyl)propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-3NF     "Create component" 2010-06-11 RCSB
-3NF "Modify aromatic_flag" 2011-06-04 RCSB
-3NF    "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   3NF
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB11102
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      N-acetyltyrosine
-_pdbe_chem_comp_drugbank_details.description               "N-acetyltyrosine, also referred to as N-acetyl-L-tyrosine, is used in place of as a tyrosine precursor. [DB00135] is a non-essential amino acid with a polar side group. N-acetyltyrosine is administered as parenteral nutrition or intravenous infusion due to its enhanced solubility compared to tyrosine [A32652]. It is typically administered as a source of nutritional support where oral nutrition is inadequate or cannot be tolerated."
-_pdbe_chem_comp_drugbank_details.cas_number                537-55-3
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Used as a source of [DB00135]. See [DB00135] for more information on its role and pharmacology."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           3NF
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB11102
-_pdbe_chem_comp_drugbank_classification.parent            "Tyrosine and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as tyrosine and derivatives. These are compounds containing tyrosine or a derivative thereof resulting from reaction of tyrosine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-3NF                                            "Acetyl Tyrosine"   ChEMBL
-3NF "(+)-(2s)-2-(acetylamino)-3-(4-hydroxyphenyl)propanoic acid" DrugBank
-3NF       "(2s)-2-acetylamino-3-(4-hydroxyphenyl)propanoic acid" DrugBank
-3NF                                            "Acetyl tyrosine" DrugBank
-3NF                                           L-N-acetyltyrosine DrugBank
-3NF                                                Melanowhite-A DrugBank
-3NF                                          N-acetyl-L-tyrosine DrugBank
-3NF                                            N-acetyl-tyrosine DrugBank
-3NF                                              N-acetyltyrosin DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-3NF  O1 O 8.196  3.232  1
-3NF  C2 C 6.897  3.982  2
-3NF  C3 C 6.897  5.482  3
-3NF  N4 N 5.598  3.232  4
-3NF  C5 C 5.598  1.732  5
-3NF  C6 C 6.897  0.983  6
-3NF  O7 O 8.196  1.732  7
-3NF OXT O 6.897 -0.517  8
-3NF  C9 C 4.299  0.983  9
-3NF C10 C 4.299 -0.517 10
-3NF C11 C 3.000 -1.268 11
-3NF C12 C 3.000 -2.768 12
-3NF C13 C 4.299 -3.518 13
-3NF C14 C 5.598 -2.768 14
-3NF C15 C 5.598 -1.268 15
-3NF O16 O 4.299 -5.018 16
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-3NF  C2  O1 DOUBLE       NONE  1
-3NF  C3  C2 SINGLE       NONE  2
-3NF  N4  C2 SINGLE       NONE  3
-3NF  N4  C5 SINGLE       NONE  4
-3NF  C9  C5 SINGLE BEGINWEDGE  5
-3NF  C5  C6 SINGLE       NONE  6
-3NF  O7  C6 DOUBLE       NONE  7
-3NF  C6 OXT SINGLE       NONE  8
-3NF  C9 C10 SINGLE       NONE  9
-3NF C10 C15 DOUBLE       NONE 10
-3NF C10 C11 SINGLE       NONE 11
-3NF C11 C12 DOUBLE       NONE 12
-3NF C12 C13 SINGLE       NONE 13
-3NF C14 C13 DOUBLE       NONE 14
-3NF C13 O16 SINGLE       NONE 15
-3NF C15 C14 SINGLE       NONE 16
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-3NF MurckoScaffold S1 scaffold c1ccccc1     InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-3NF          amide F1 fragment  CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-3NF        peptide F2 fragment    NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-3NF         phenyl F3 fragment c1ccccc1     InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-3NF  N4 F1 1
-3NF  C2 F1 1
-3NF  O1 F1 1
-3NF  C3 F1 1
-3NF  O7 F2 1
-3NF  C6 F2 1
-3NF  C5 F2 1
-3NF  N4 F2 1
-3NF C10 F3 1
-3NF C11 F3 1
-3NF C12 F3 1
-3NF C13 F3 1
-3NF C14 F3 1
-3NF C15 F3 1
-3NF C10 S1 1
-3NF C11 S1 1
-3NF C12 S1 1
-3NF C13 S1 1
-3NF C14 S1 1
-3NF C15 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               3NF
-_pdbe_chem_comp_rdkit_properties.exactmw                               223.084
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.273
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             111.214
-_pdbe_chem_comp_rdkit_properties.tpsa                                  86.630
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.007
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             56.175
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         16
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-3NF UniChem       ChEMBL      CHEMBL65543
-3NF UniChem     DrugBank          DB11102
-3NF UniChem        ChEBI            21563
-3NF UniChem         ZINC ZINC000000156395
-3NF UniChem    BindingDb         50043802
-3NF UniChem MetaboLights       MTBLC21563
-3NF UniChem       BRENDA           116135
-3NF UniChem       BRENDA            16377
-3NF UniChem       BRENDA             1840
-3NF UniChem       BRENDA            21178
-3NF UniChem       BRENDA            29692
-3NF UniChem       BRENDA            34481
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-3NF   O1 -3.359 -0.607 -1.406 ETKDGv2  1
-3NF   C2 -2.635 -1.165 -0.537 ETKDGv2  2
-3NF   C3 -2.666 -2.652 -0.396 ETKDGv2  3
-3NF   N4 -1.758 -0.387  0.290 ETKDGv2  4
-3NF   C5 -1.565  1.055  0.090 ETKDGv2  5
-3NF   C6 -1.223  1.754  1.387 ETKDGv2  6
-3NF   O7 -0.923  1.096  2.418 ETKDGv2  7
-3NF  OXT -1.235  3.145  1.455 ETKDGv2  8
-3NF   C9 -0.496  1.311 -0.990 ETKDGv2  9
-3NF  C10  0.842  0.708 -0.638 ETKDGv2 10
-3NF  C11  1.152 -0.688 -1.038 ETKDGv2 11
-3NF  C12  2.334 -1.233 -0.726 ETKDGv2 12
-3NF  C13  3.344 -0.444  0.015 ETKDGv2 13
-3NF  C14  3.072  0.818  0.371 ETKDGv2 14
-3NF  C15  1.767  1.422  0.028 ETKDGv2 15
-3NF  O16  4.576 -1.005  0.343 ETKDGv2 16
-3NF   H3 -2.775 -2.924  0.674 ETKDGv2 17
-3NF  H3A -1.720 -3.079 -0.788 ETKDGv2 18
-3NF  H3B -3.520 -3.080 -0.963 ETKDGv2 19
-3NF   H2 -1.111 -0.904  0.928 ETKDGv2 20
-3NF   H5 -2.522  1.500 -0.261 ETKDGv2 21
-3NF  HXT -1.485  3.709  0.651 ETKDGv2 22
-3NF   H9 -0.847  0.882 -1.953 ETKDGv2 23
-3NF  H9A -0.389  2.405 -1.164 ETKDGv2 24
-3NF  H11  0.419 -1.273 -1.579 ETKDGv2 25
-3NF  H12  2.551 -2.253 -1.017 ETKDGv2 26
-3NF  H14  3.804  1.403  0.912 ETKDGv2 27
-3NF  H15  1.566  2.444  0.328 ETKDGv2 28
-3NF HO16  4.804 -1.957  0.084 ETKDGv2 29
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+3NF "Create component"     2010-06-11 RCSB 
+3NF "Modify aromatic_flag" 2011-06-04 RCSB 
+3NF "Modify descriptor"    2011-06-04 RCSB 
+# 

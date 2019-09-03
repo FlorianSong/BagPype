@@ -1,253 +1,126 @@
 data_OLT
-#
-_chem_comp.id                                        OLT
-_chem_comp.name                                      O-METHYL-L-THREONINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C5 H11 N O3"
-_chem_comp.mon_nstd_parent_comp_id                   THR
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2005-09-02
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            133.146
-_chem_comp.one_letter_code                           T
-_chem_comp.three_letter_code                         OLT
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    OLT 
+_chem_comp.name                                  O-METHYL-L-THREONINE 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C5 H11 N O3" 
+_chem_comp.mon_nstd_parent_comp_id               THR 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2005-09-02 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        133.146 
+_chem_comp.one_letter_code                       T 
+_chem_comp.three_letter_code                     OLT 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-OLT    N    N N 0 1 N N N 23.325 25.052 18.510 -0.328 -1.842 -0.671    N OLT  1
-OLT   CA   CA C 0 1 N N S 22.760 26.374 18.513 -0.388 -0.845  0.406   CA OLT  2
-OLT    C    C C 0 1 N N N 21.392 26.475 17.820 -1.476  0.154  0.105    C OLT  3
-OLT    O    O O 0 1 N N N 20.760 27.555 17.950 -1.884  0.280 -1.025    O OLT  4
-OLT   CB   CB C 0 1 N N R 23.708 27.371 17.815  0.956 -0.120  0.505   CB OLT  5
-OLT  OG1  OG1 O 0 1 N N N 23.905 27.009 16.457  1.184  0.628 -0.691  OG1 OLT  6
-OLT  CG2  CG2 C 0 1 N N N 25.094 27.322 18.511  2.077 -1.146  0.686  CG2 OLT  7
-OLT  CD1  CD1 C 0 1 N N N 24.570 26.040 15.642  1.974  1.761 -0.325  CD1 OLT  8
-OLT  OXT  OXT O 0 1 N Y N 20.870 25.468 17.172 -1.991  0.903  1.093  OXT OLT  9
-OLT    H  1HN H 0 1 N N N 23.456 24.747 17.566 -1.258 -2.219 -0.769    H OLT 10
-OLT   H2  2HN H 0 1 N Y N 24.206 25.065 18.981 -0.127 -1.338 -1.522   H2 OLT 11
-OLT  HCA  HCA H 0 1 N N N 22.622 26.616 19.576 -0.603 -1.343  1.351  HCA OLT 12
-OLT   HB  HCB H 0 1 N N N 23.259 28.374 17.876  0.942  0.557  1.360   HB OLT 13
-OLT HG21 1HG2 H 0 0 N N N 25.888 27.310 17.749  2.091 -1.823 -0.168 HG21 OLT 14
-OLT HG22 2HG2 H 0 0 N N N 25.215 28.207 19.152  3.034 -0.630  0.757 HG22 OLT 15
-OLT HG23 3HG2 H 0 0 N N N 25.163 26.412 19.126  1.903 -1.717  1.599 HG23 OLT 16
-OLT HD11 1HD1 H 0 0 N N N 24.742 26.458 14.640  2.917  1.423  0.105 HD11 OLT 17
-OLT HD12 2HD1 H 0 0 N N N 25.536 25.778 16.100  2.175  2.365 -1.210 HD12 OLT 18
-OLT HD13 3HD1 H 0 0 N N N 23.946 25.137 15.562  1.434  2.359  0.408 HD13 OLT 19
-OLT  HXT  HXT H 0 1 N Y N 20.006 25.708 16.856 -2.689  1.544  0.900  HXT OLT 20
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+OLT N    N    N 0 1 N N N 23.325 25.052 18.510 -0.328 -1.842 -0.671 N    OLT 1  
+OLT CA   CA   C 0 1 N N S 22.760 26.374 18.513 -0.388 -0.845 0.406  CA   OLT 2  
+OLT C    C    C 0 1 N N N 21.392 26.475 17.820 -1.476 0.154  0.105  C    OLT 3  
+OLT O    O    O 0 1 N N N 20.760 27.555 17.950 -1.884 0.280  -1.025 O    OLT 4  
+OLT CB   CB   C 0 1 N N R 23.708 27.371 17.815 0.956  -0.120 0.505  CB   OLT 5  
+OLT OG1  OG1  O 0 1 N N N 23.905 27.009 16.457 1.184  0.628  -0.691 OG1  OLT 6  
+OLT CG2  CG2  C 0 1 N N N 25.094 27.322 18.511 2.077  -1.146 0.686  CG2  OLT 7  
+OLT CD1  CD1  C 0 1 N N N 24.570 26.040 15.642 1.974  1.761  -0.325 CD1  OLT 8  
+OLT OXT  OXT  O 0 1 N Y N 20.870 25.468 17.172 -1.991 0.903  1.093  OXT  OLT 9  
+OLT H    1HN  H 0 1 N N N 23.456 24.747 17.566 -1.258 -2.219 -0.769 H    OLT 10 
+OLT H2   2HN  H 0 1 N Y N 24.206 25.065 18.981 -0.127 -1.338 -1.522 H2   OLT 11 
+OLT HCA  HCA  H 0 1 N N N 22.622 26.616 19.576 -0.603 -1.343 1.351  HCA  OLT 12 
+OLT HB   HCB  H 0 1 N N N 23.259 28.374 17.876 0.942  0.557  1.360  HB   OLT 13 
+OLT HG21 1HG2 H 0 0 N N N 25.888 27.310 17.749 2.091  -1.823 -0.168 HG21 OLT 14 
+OLT HG22 2HG2 H 0 0 N N N 25.215 28.207 19.152 3.034  -0.630 0.757  HG22 OLT 15 
+OLT HG23 3HG2 H 0 0 N N N 25.163 26.412 19.126 1.903  -1.717 1.599  HG23 OLT 16 
+OLT HD11 1HD1 H 0 0 N N N 24.742 26.458 14.640 2.917  1.423  0.105  HD11 OLT 17 
+OLT HD12 2HD1 H 0 0 N N N 25.536 25.778 16.100 2.175  2.365  -1.210 HD12 OLT 18 
+OLT HD13 3HD1 H 0 0 N N N 23.946 25.137 15.562 1.434  2.359  0.408  HD13 OLT 19 
+OLT HXT  HXT  H 0 1 N Y N 20.006 25.708 16.856 -2.689 1.544  0.900  HXT  OLT 20 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-OLT   N   CA SING N N  1
-OLT   N    H SING N N  2
-OLT   N   H2 SING N N  3
-OLT  CA    C SING N N  4
-OLT  CA   CB SING N N  5
-OLT  CA  HCA SING N N  6
-OLT   C    O DOUB N N  7
-OLT   C  OXT SING N N  8
-OLT  CB  OG1 SING N N  9
-OLT  CB  CG2 SING N N 10
-OLT  CB   HB SING N N 11
-OLT OG1  CD1 SING N N 12
-OLT CG2 HG21 SING N N 13
-OLT CG2 HG22 SING N N 14
-OLT CG2 HG23 SING N N 15
-OLT CD1 HD11 SING N N 16
-OLT CD1 HD12 SING N N 17
-OLT CD1 HD13 SING N N 18
-OLT OXT  HXT SING N N 19
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+OLT N   CA   SING N N 1  
+OLT N   H    SING N N 2  
+OLT N   H2   SING N N 3  
+OLT CA  C    SING N N 4  
+OLT CA  CB   SING N N 5  
+OLT CA  HCA  SING N N 6  
+OLT C   O    DOUB N N 7  
+OLT C   OXT  SING N N 8  
+OLT CB  OG1  SING N N 9  
+OLT CB  CG2  SING N N 10 
+OLT CB  HB   SING N N 11 
+OLT OG1 CD1  SING N N 12 
+OLT CG2 HG21 SING N N 13 
+OLT CG2 HG22 SING N N 14 
+OLT CG2 HG23 SING N N 15 
+OLT CD1 HD11 SING N N 16 
+OLT CD1 HD12 SING N N 17 
+OLT CD1 HD13 SING N N 18 
+OLT OXT HXT  SING N N 19 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-OLT           SMILES              ACDLabs 10.04                                                          O=C(O)C(N)C(OC)C
-OLT SMILES_CANONICAL               CACTVS 3.341                                                  CO[C@H](C)[C@H](N)C(O)=O
-OLT           SMILES               CACTVS 3.341                                                    CO[CH](C)[CH](N)C(O)=O
-OLT SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                 C[C@H]([C@@H](C(=O)O)N)OC
-OLT           SMILES "OpenEye OEToolkits" 1.5.0                                                          CC(C(C(=O)O)N)OC
-OLT            InChI                InChI  1.03 InChI=1S/C5H11NO3/c1-3(9-2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t3-,4+/m1/s1
-OLT         InChIKey                InChI  1.03                                               FYCWLJLGIAUCCL-DMTCNVIQSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+OLT SMILES           ACDLabs              10.04 "O=C(O)C(N)C(OC)C"                                                          
+OLT SMILES_CANONICAL CACTVS               3.341 "CO[C@H](C)[C@H](N)C(O)=O"                                                  
+OLT SMILES           CACTVS               3.341 "CO[CH](C)[CH](N)C(O)=O"                                                    
+OLT SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@H]([C@@H](C(=O)O)N)OC"                                                 
+OLT SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C(C(=O)O)N)OC"                                                          
+OLT InChI            InChI                1.03  "InChI=1S/C5H11NO3/c1-3(9-2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t3-,4+/m1/s1" 
+OLT InChIKey         InChI                1.03  FYCWLJLGIAUCCL-DMTCNVIQSA-N                                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-OLT "SYSTEMATIC NAME"              ACDLabs 10.04                      O-methyl-L-threonine
-OLT "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S,3R)-2-amino-3-methoxy-butanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+OLT "SYSTEMATIC NAME" ACDLabs              10.04 O-methyl-L-threonine                      
+OLT "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S,3R)-2-amino-3-methoxy-butanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-OLT  "Create component" 2005-09-02 RCSB
-OLT "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-OLT   N N  6.404 -1.643 1
-OLT  CA C  6.404 -0.142 2
-OLT   C C  5.104  0.608 3
-OLT   O O  3.805 -0.142 4
-OLT  CB C  7.702  0.608 5
-OLT OG1 O  9.002 -0.142 6
-OLT CG2 C  7.702  2.107 7
-OLT CD1 C 10.301  0.608 8
-OLT OXT O  5.104  2.107 9
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-OLT   N  CA SINGLE BEGINDASH 1
-OLT  CA   C SINGLE      NONE 2
-OLT  CA  CB SINGLE      NONE 3
-OLT   C   O DOUBLE      NONE 4
-OLT   C OXT SINGLE      NONE 5
-OLT  CB OG1 SINGLE      NONE 6
-OLT  CB CG2 SINGLE BEGINDASH 7
-OLT OG1 CD1 SINGLE      NONE 8
-#
-_pdbe_chem_comp_substructure.comp_id                      OLT
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-OLT  O F1 1
-OLT  C F1 1
-OLT CA F1 1
-OLT  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               OLT
-_pdbe_chem_comp_rdkit_properties.exactmw                               133.074
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.800
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             69.266
-_pdbe_chem_comp_rdkit_properties.tpsa                                  72.550
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.567
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             32.082
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-OLT UniChem ChEMBL    CHEMBL1234983
-OLT UniChem   ZINC ZINC000001700276
-OLT UniChem   ZINC     ZINC01700276
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-OLT    N -0.382 -0.407 -2.078 ETKDGv2  1
-OLT   CA -0.713 -0.605 -0.665 ETKDGv2  2
-OLT    C -1.885  0.259 -0.265 ETKDGv2  3
-OLT    O -1.821  1.514 -0.368 ETKDGv2  4
-OLT   CB  0.536 -0.359  0.213 ETKDGv2  5
-OLT  OG1  0.919  1.005  0.131 ETKDGv2  6
-OLT  CG2  0.268 -0.728  1.678 ETKDGv2  7
-OLT  CD1  2.322  1.129  0.047 ETKDGv2  8
-OLT  OXT -3.047 -0.335  0.218 ETKDGv2  9
-OLT    H -1.215 -0.664 -2.657 ETKDGv2 10
-OLT   H2 -0.179  0.604 -2.255 ETKDGv2 11
-OLT  HCA -1.012 -1.670 -0.536 ETKDGv2 12
-OLT   HB  1.325 -1.057 -0.165 ETKDGv2 13
-OLT HG21  1.202 -0.633  2.270 ETKDGv2 14
-OLT HG22 -0.085 -1.779  1.755 ETKDGv2 15
-OLT HG23 -0.497 -0.055  2.120 ETKDGv2 16
-OLT HD11  2.585  2.206  0.067 ETKDGv2 17
-OLT HD12  2.697  0.707 -0.912 ETKDGv2 18
-OLT HD13  2.826  0.641  0.910 ETKDGv2 19
-OLT  HXT -3.844  0.227  0.491 ETKDGv2 20
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+OLT "Create component"  2005-09-02 RCSB 
+OLT "Modify descriptor" 2011-06-04 RCSB 
+# 

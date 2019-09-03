@@ -1,436 +1,182 @@
 data_PZG
-#
-_chem_comp.id                                        PZG
-_chem_comp.name                                      "[(2~{R},3~{S},4~{R},5~{R})-5-(2-azanyl-6-oxidanylidene-1~{H}-purin-9-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-(3-methyl-1~{H}-pyrazol-4-yl)phosphinic acid"
-_chem_comp.type                                      "DNA linking"
-_chem_comp.pdbx_type                                 ATOMN
-_chem_comp.formula                                   "C14 H18 N7 O7 P"
-_chem_comp.mon_nstd_parent_comp_id                   DG
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2016-01-05
-_chem_comp.pdbx_modified_date                        2016-12-02
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            427.309
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         PZG
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            5HBW
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    PZG 
+_chem_comp.name                                  "[(2~{R},3~{S},4~{R},5~{R})-5-(2-azanyl-6-oxidanylidene-1~{H}-purin-9-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-(3-methyl-1~{H}-pyrazol-4-yl)phosphinic acid" 
+_chem_comp.type                                  "DNA linking" 
+_chem_comp.pdbx_type                             ATOMN 
+_chem_comp.formula                               "C14 H18 N7 O7 P" 
+_chem_comp.mon_nstd_parent_comp_id               DG 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2016-01-05 
+_chem_comp.pdbx_modified_date                    2016-12-02 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        427.309 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     PZG 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5HBW 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PZG  O1  O6 O 0 1 N N N 10.938  -8.816  5.799  6.147  2.711  1.181  O1 PZG  1
-PZG  C1  C6 C 0 1 N N N 11.175  -8.855  4.617  5.643  1.852  0.479  C1 PZG  2
-PZG  N1  N1 N 0 1 N N N 12.473  -8.544  4.284  6.335  1.298 -0.542  N1 PZG  3
-PZG  C2  C2 C 0 1 N N N 12.876  -8.661  2.966  5.761  0.337 -1.320  C2 PZG  4
-PZG  N2  N2 N 0 1 N N N 14.109  -8.333  2.700  6.487 -0.207 -2.350  N2 PZG  5
-PZG  N3  N3 N 0 1 N N N 12.050  -9.085  2.007  4.534 -0.083 -1.113  N3 PZG  6
-PZG  C3  C4 C 0 1 Y N N 10.761  -9.354  2.347  3.789  0.418 -0.121  C3 PZG  7
-PZG  C4  C5 C 0 1 Y N N 10.308  -9.280  3.648  4.323  1.404  0.717  C4 PZG  8
-PZG  N4  N7 N 0 1 Y N N  9.041  -9.682  3.655  3.365  1.725  1.621  N4 PZG  9
-PZG  C5  C8 C 0 1 Y N N  8.698  -9.956  2.412  2.302  1.012  1.393  C5 PZG 10
-PZG  N5  N9 N 0 1 Y N N  9.757  -9.738  1.604  2.517  0.186  0.329  N5 PZG 11
-PZG  C6 C1* C 0 1 N N R  9.782  -9.948  0.152  1.561 -0.772 -0.232  C6 PZG 12
-PZG  O2 O4* O 0 1 N N N  8.518 -10.640 -0.079  0.211 -0.404  0.125  O2 PZG 13
-PZG  C7 C2* C 0 1 N N R 10.838 -10.941 -0.308  1.770 -2.169  0.394  C7 PZG 14
-PZG  O3 O2* O 0 1 N N N 11.856 -10.254 -1.053  2.555 -2.993 -0.470  O3 PZG 15
-PZG  C8 C3* C 0 1 N N S 10.128 -11.757 -1.316  0.340 -2.736  0.535  C8 PZG 16
-PZG  O4 O3* O 0 1 N N N 10.376 -11.121 -2.548  0.194 -3.928 -0.239  O4 PZG 17
-PZG  C9 C4* C 0 1 N N R  8.673 -11.553 -1.175 -0.565 -1.612 -0.025  C9 PZG 18
-PZG C10 C5* C 0 1 N N N  7.993 -12.920 -1.100 -1.860 -1.518  0.786 C10 PZG 19
-PZG  O5 O5* O 0 1 N N N  8.340 -13.561  0.104 -2.729 -0.557  0.184  O5 PZG 20
-PZG  P1 P6* P 0 1 N N N  8.153 -15.177  0.482 -4.184 -0.200  0.774  P1 PZG 21
-PZG  O6 O7* O 0 1 N N N  7.622 -16.167 -0.672 -4.055  0.206  2.192  O6 PZG 22
-PZG  O7 O8* O 0 1 N Y N  7.222 -14.937  1.693 -5.137 -1.493  0.670  O7 PZG 23
-PZG C11 C10 C 0 1 Y N N 10.030 -15.659  0.530 -4.907  1.162 -0.181 C11 PZG 24
-PZG C12 C11 C 0 1 Y N N 10.819 -15.457 -0.537 -4.764  2.482  0.081 C12 PZG 25
-PZG  N6 N12 N 0 1 Y N N 12.042 -15.864 -0.199 -5.453  3.165 -0.858  N6 PZG 26
-PZG  N7 N13 N 0 1 Y N N 12.024 -16.346  1.079 -6.038  2.234 -1.725  N7 PZG 27
-PZG C13 C14 C 0 1 Y N N 10.767 -16.213  1.528 -5.705  1.034 -1.323 C13 PZG 28
-PZG C14 C15 C 0 1 N N N 10.260 -16.633  2.943 -6.115 -0.262 -1.974 C14 PZG 29
-PZG  H1  H1 H 0 1 N N N 13.117  -8.237  4.985  7.243  1.587 -0.722  H1 PZG 30
-PZG  H2  H2 H 0 1 N N N 14.452  -8.397  1.763  7.395  0.094 -2.515  H2 PZG 31
-PZG  H3  H3 H 0 1 N N N 14.712  -8.018  3.433  6.093 -0.891 -2.913  H3 PZG 32
-PZG  H4  H4 H 0 1 N N N  7.726 -10.300  2.092  1.386  1.063  1.964  H4 PZG 33
-PZG  H5  H5 H 0 1 N N N  9.850  -9.002 -0.405  1.667 -0.823 -1.316  H5 PZG 34
-PZG  H6  H6 H 0 1 N N N 11.233 -11.541  0.525  2.245 -2.082  1.372  H6 PZG 35
-PZG  H7  H7 H 0 1 N N N 12.361  -9.703 -0.467  2.717 -3.882 -0.126  H7 PZG 36
-PZG  H8  H8 H 0 1 N N N 10.418 -12.818 -1.290  0.107 -2.928  1.582  H8 PZG 37
-PZG  H9  H9 H 0 1 N N N 11.301 -11.184 -2.757  0.740 -4.665  0.068  H9 PZG 38
-PZG H10 H10 H 0 1 N N N  8.312 -11.060 -2.090 -0.789 -1.793 -1.076 H10 PZG 39
-PZG H11 H11 H 0 1 N N N  6.902 -12.788 -1.142 -2.350 -2.491  0.802 H11 PZG 40
-PZG H12 H12 H 0 1 N N N  8.320 -13.537 -1.950 -1.628 -1.210  1.805 H12 PZG 41
-PZG H13 H13 H 0 1 N Y N  6.421 -15.435  1.581 -5.267 -1.815 -0.232 H13 PZG 42
-PZG H14 H14 H 0 1 N N N 10.520 -15.043 -1.489 -4.200  2.912  0.896 H14 PZG 43
-PZG H15 H15 H 0 1 N N N 12.848 -15.823 -0.789 -5.529  4.130 -0.920 H15 PZG 44
-PZG H16 H16 H 0 1 N N N 11.094 -17.057  3.521 -7.054 -0.605 -1.539 H16 PZG 45
-PZG H17 H17 H 0 1 N N N  9.863 -15.751  3.467 -6.245 -0.105 -3.044 H17 PZG 46
-PZG H18 H18 H 0 1 N N N  9.465 -17.386  2.839 -5.341 -1.012 -1.808 H18 PZG 47
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PZG O1  O6  O 0 1 N N N 10.938 -8.816  5.799  6.147  2.711  1.181  O1  PZG 1  
+PZG C1  C6  C 0 1 N N N 11.175 -8.855  4.617  5.643  1.852  0.479  C1  PZG 2  
+PZG N1  N1  N 0 1 N N N 12.473 -8.544  4.284  6.335  1.298  -0.542 N1  PZG 3  
+PZG C2  C2  C 0 1 N N N 12.876 -8.661  2.966  5.761  0.337  -1.320 C2  PZG 4  
+PZG N2  N2  N 0 1 N N N 14.109 -8.333  2.700  6.487  -0.207 -2.350 N2  PZG 5  
+PZG N3  N3  N 0 1 N N N 12.050 -9.085  2.007  4.534  -0.083 -1.113 N3  PZG 6  
+PZG C3  C4  C 0 1 Y N N 10.761 -9.354  2.347  3.789  0.418  -0.121 C3  PZG 7  
+PZG C4  C5  C 0 1 Y N N 10.308 -9.280  3.648  4.323  1.404  0.717  C4  PZG 8  
+PZG N4  N7  N 0 1 Y N N 9.041  -9.682  3.655  3.365  1.725  1.621  N4  PZG 9  
+PZG C5  C8  C 0 1 Y N N 8.698  -9.956  2.412  2.302  1.012  1.393  C5  PZG 10 
+PZG N5  N9  N 0 1 Y N N 9.757  -9.738  1.604  2.517  0.186  0.329  N5  PZG 11 
+PZG C6  C1* C 0 1 N N R 9.782  -9.948  0.152  1.561  -0.772 -0.232 C6  PZG 12 
+PZG O2  O4* O 0 1 N N N 8.518  -10.640 -0.079 0.211  -0.404 0.125  O2  PZG 13 
+PZG C7  C2* C 0 1 N N R 10.838 -10.941 -0.308 1.770  -2.169 0.394  C7  PZG 14 
+PZG O3  O2* O 0 1 N N N 11.856 -10.254 -1.053 2.555  -2.993 -0.470 O3  PZG 15 
+PZG C8  C3* C 0 1 N N S 10.128 -11.757 -1.316 0.340  -2.736 0.535  C8  PZG 16 
+PZG O4  O3* O 0 1 N N N 10.376 -11.121 -2.548 0.194  -3.928 -0.239 O4  PZG 17 
+PZG C9  C4* C 0 1 N N R 8.673  -11.553 -1.175 -0.565 -1.612 -0.025 C9  PZG 18 
+PZG C10 C5* C 0 1 N N N 7.993  -12.920 -1.100 -1.860 -1.518 0.786  C10 PZG 19 
+PZG O5  O5* O 0 1 N N N 8.340  -13.561 0.104  -2.729 -0.557 0.184  O5  PZG 20 
+PZG P1  P6* P 0 1 N N N 8.153  -15.177 0.482  -4.184 -0.200 0.774  P1  PZG 21 
+PZG O6  O7* O 0 1 N N N 7.622  -16.167 -0.672 -4.055 0.206  2.192  O6  PZG 22 
+PZG O7  O8* O 0 1 N Y N 7.222  -14.937 1.693  -5.137 -1.493 0.670  O7  PZG 23 
+PZG C11 C10 C 0 1 Y N N 10.030 -15.659 0.530  -4.907 1.162  -0.181 C11 PZG 24 
+PZG C12 C11 C 0 1 Y N N 10.819 -15.457 -0.537 -4.764 2.482  0.081  C12 PZG 25 
+PZG N6  N12 N 0 1 Y N N 12.042 -15.864 -0.199 -5.453 3.165  -0.858 N6  PZG 26 
+PZG N7  N13 N 0 1 Y N N 12.024 -16.346 1.079  -6.038 2.234  -1.725 N7  PZG 27 
+PZG C13 C14 C 0 1 Y N N 10.767 -16.213 1.528  -5.705 1.034  -1.323 C13 PZG 28 
+PZG C14 C15 C 0 1 N N N 10.260 -16.633 2.943  -6.115 -0.262 -1.974 C14 PZG 29 
+PZG H1  H1  H 0 1 N N N 13.117 -8.237  4.985  7.243  1.587  -0.722 H1  PZG 30 
+PZG H2  H2  H 0 1 N N N 14.452 -8.397  1.763  7.395  0.094  -2.515 H2  PZG 31 
+PZG H3  H3  H 0 1 N N N 14.712 -8.018  3.433  6.093  -0.891 -2.913 H3  PZG 32 
+PZG H4  H4  H 0 1 N N N 7.726  -10.300 2.092  1.386  1.063  1.964  H4  PZG 33 
+PZG H5  H5  H 0 1 N N N 9.850  -9.002  -0.405 1.667  -0.823 -1.316 H5  PZG 34 
+PZG H6  H6  H 0 1 N N N 11.233 -11.541 0.525  2.245  -2.082 1.372  H6  PZG 35 
+PZG H7  H7  H 0 1 N N N 12.361 -9.703  -0.467 2.717  -3.882 -0.126 H7  PZG 36 
+PZG H8  H8  H 0 1 N N N 10.418 -12.818 -1.290 0.107  -2.928 1.582  H8  PZG 37 
+PZG H9  H9  H 0 1 N N N 11.301 -11.184 -2.757 0.740  -4.665 0.068  H9  PZG 38 
+PZG H10 H10 H 0 1 N N N 8.312  -11.060 -2.090 -0.789 -1.793 -1.076 H10 PZG 39 
+PZG H11 H11 H 0 1 N N N 6.902  -12.788 -1.142 -2.350 -2.491 0.802  H11 PZG 40 
+PZG H12 H12 H 0 1 N N N 8.320  -13.537 -1.950 -1.628 -1.210 1.805  H12 PZG 41 
+PZG H13 H13 H 0 1 N Y N 6.421  -15.435 1.581  -5.267 -1.815 -0.232 H13 PZG 42 
+PZG H14 H14 H 0 1 N N N 10.520 -15.043 -1.489 -4.200 2.912  0.896  H14 PZG 43 
+PZG H15 H15 H 0 1 N N N 12.848 -15.823 -0.789 -5.529 4.130  -0.920 H15 PZG 44 
+PZG H16 H16 H 0 1 N N N 11.094 -17.057 3.521  -7.054 -0.605 -1.539 H16 PZG 45 
+PZG H17 H17 H 0 1 N N N 9.863  -15.751 3.467  -6.245 -0.105 -3.044 H17 PZG 46 
+PZG H18 H18 H 0 1 N N N 9.465  -17.386 2.839  -5.341 -1.012 -1.808 H18 PZG 47 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PZG  O4  C8 SING N N  1
-PZG  C8  C9 SING N N  2
-PZG  C8  C7 SING N N  3
-PZG  C9 C10 SING N N  4
-PZG  C9  O2 SING N N  5
-PZG C10  O5 SING N N  6
-PZG  O3  C7 SING N N  7
-PZG  O6  P1 DOUB N N  8
-PZG C12  N6 SING Y N  9
-PZG C12 C11 DOUB Y N 10
-PZG  C7  C6 SING N N 11
-PZG  N6  N7 SING Y N 12
-PZG  O2  C6 SING N N 13
-PZG  O5  P1 SING N N 14
-PZG  C6  N5 SING N N 15
-PZG  P1 C11 SING N N 16
-PZG  P1  O7 SING N N 17
-PZG C11 C13 SING Y N 18
-PZG  N7 C13 DOUB Y N 19
-PZG C13 C14 SING N N 20
-PZG  N5  C3 SING Y N 21
-PZG  N5  C5 SING Y N 22
-PZG  N3  C3 SING N N 23
-PZG  N3  C2 DOUB N N 24
-PZG  C3  C4 DOUB Y N 25
-PZG  C5  N4 DOUB Y N 26
-PZG  N2  C2 SING N N 27
-PZG  C2  N1 SING N N 28
-PZG  C4  N4 SING Y N 29
-PZG  C4  C1 SING N N 30
-PZG  N1  C1 SING N N 31
-PZG  C1  O1 DOUB N N 32
-PZG  N1  H1 SING N N 33
-PZG  N2  H2 SING N N 34
-PZG  N2  H3 SING N N 35
-PZG  C5  H4 SING N N 36
-PZG  C6  H5 SING N N 37
-PZG  C7  H6 SING N N 38
-PZG  O3  H7 SING N N 39
-PZG  C8  H8 SING N N 40
-PZG  O4  H9 SING N N 41
-PZG  C9 H10 SING N N 42
-PZG C10 H11 SING N N 43
-PZG C10 H12 SING N N 44
-PZG  O7 H13 SING N N 45
-PZG C12 H14 SING N N 46
-PZG  N6 H15 SING N N 47
-PZG C14 H16 SING N N 48
-PZG C14 H17 SING N N 49
-PZG C14 H18 SING N N 50
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PZG O4  C8  SING N N 1  
+PZG C8  C9  SING N N 2  
+PZG C8  C7  SING N N 3  
+PZG C9  C10 SING N N 4  
+PZG C9  O2  SING N N 5  
+PZG C10 O5  SING N N 6  
+PZG O3  C7  SING N N 7  
+PZG O6  P1  DOUB N N 8  
+PZG C12 N6  SING Y N 9  
+PZG C12 C11 DOUB Y N 10 
+PZG C7  C6  SING N N 11 
+PZG N6  N7  SING Y N 12 
+PZG O2  C6  SING N N 13 
+PZG O5  P1  SING N N 14 
+PZG C6  N5  SING N N 15 
+PZG P1  C11 SING N N 16 
+PZG P1  O7  SING N N 17 
+PZG C11 C13 SING Y N 18 
+PZG N7  C13 DOUB Y N 19 
+PZG C13 C14 SING N N 20 
+PZG N5  C3  SING Y N 21 
+PZG N5  C5  SING Y N 22 
+PZG N3  C3  SING N N 23 
+PZG N3  C2  DOUB N N 24 
+PZG C3  C4  DOUB Y N 25 
+PZG C5  N4  DOUB Y N 26 
+PZG N2  C2  SING N N 27 
+PZG C2  N1  SING N N 28 
+PZG C4  N4  SING Y N 29 
+PZG C4  C1  SING N N 30 
+PZG N1  C1  SING N N 31 
+PZG C1  O1  DOUB N N 32 
+PZG N1  H1  SING N N 33 
+PZG N2  H2  SING N N 34 
+PZG N2  H3  SING N N 35 
+PZG C5  H4  SING N N 36 
+PZG C6  H5  SING N N 37 
+PZG C7  H6  SING N N 38 
+PZG O3  H7  SING N N 39 
+PZG C8  H8  SING N N 40 
+PZG O4  H9  SING N N 41 
+PZG C9  H10 SING N N 42 
+PZG C10 H11 SING N N 43 
+PZG C10 H12 SING N N 44 
+PZG O7  H13 SING N N 45 
+PZG C12 H14 SING N N 46 
+PZG N6  H15 SING N N 47 
+PZG C14 H16 SING N N 48 
+PZG C14 H17 SING N N 49 
+PZG C14 H18 SING N N 50 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PZG            InChI                InChI  1.03 InChI=1S/C14H18N7O7P/c1-5-7(2-17-20-5)29(25,26)27-3-6-9(22)10(23)13(28-6)21-4-16-8-11(21)18-14(15)19-12(8)24/h2,4,6,9-10,13,22-23H,3H2,1H3,(H,17,20)(H,25,26)(H3,15,18,19,24)/t6-,9-,10-,13-/m1/s1
-PZG         InChIKey                InChI  1.03                                                                                                                                                                        KSGRBDIXLOOOHG-ZRFIDHNTSA-N
-PZG SMILES_CANONICAL               CACTVS 3.385                                                                                                                         Cc1n[nH]cc1[P](O)(=O)OC[C@H]2O[C@H]([C@H](O)[C@@H]2O)n3cnc4C(=O)NC(=Nc34)N
-PZG           SMILES               CACTVS 3.385                                                                                                                              Cc1n[nH]cc1[P](O)(=O)OC[CH]2O[CH]([CH](O)[CH]2O)n3cnc4C(=O)NC(=Nc34)N
-PZG SMILES_CANONICAL "OpenEye OEToolkits" 2.0.4                                                                                                                        Cc1c(c[nH]n1)P(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)n3cnc4c3N=C(NC4=O)N)O)O
-PZG           SMILES "OpenEye OEToolkits" 2.0.4                                                                                                                                          Cc1c(c[nH]n1)P(=O)(O)OCC2C(C(C(O2)n3cnc4c3N=C(NC4=O)N)O)O
-#
-_pdbx_chem_comp_identifier.comp_id               PZG
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.4
-_pdbx_chem_comp_identifier.identifier            "[(2~{R},3~{S},4~{R},5~{R})-5-(2-azanyl-6-oxidanylidene-1~{H}-purin-9-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-(3-methyl-1~{H}-pyrazol-4-yl)phosphinic acid"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PZG InChI            InChI                1.03  "InChI=1S/C14H18N7O7P/c1-5-7(2-17-20-5)29(25,26)27-3-6-9(22)10(23)13(28-6)21-4-16-8-11(21)18-14(15)19-12(8)24/h2,4,6,9-10,13,22-23H,3H2,1H3,(H,17,20)(H,25,26)(H3,15,18,19,24)/t6-,9-,10-,13-/m1/s1" 
+PZG InChIKey         InChI                1.03  KSGRBDIXLOOOHG-ZRFIDHNTSA-N                                                                                                                                                                          
+PZG SMILES_CANONICAL CACTVS               3.385 "Cc1n[nH]cc1[P](O)(=O)OC[C@H]2O[C@H]([C@H](O)[C@@H]2O)n3cnc4C(=O)NC(=Nc34)N"                                                                                                                         
+PZG SMILES           CACTVS               3.385 "Cc1n[nH]cc1[P](O)(=O)OC[CH]2O[CH]([CH](O)[CH]2O)n3cnc4C(=O)NC(=Nc34)N"                                                                                                                              
+PZG SMILES_CANONICAL "OpenEye OEToolkits" 2.0.4 "Cc1c(c[nH]n1)P(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)n3cnc4c3N=C(NC4=O)N)O)O"                                                                                                                        
+PZG SMILES           "OpenEye OEToolkits" 2.0.4 "Cc1c(c[nH]n1)P(=O)(O)OCC2C(C(C(O2)n3cnc4c3N=C(NC4=O)N)O)O"                                                                                                                                          
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PZG "Create component" 2016-01-05 RCSB
-PZG  "Initial release" 2016-12-07 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PZG "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.4 "[(2~{R},3~{S},4~{R},5~{R})-5-(2-azanyl-6-oxidanylidene-1~{H}-purin-9-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-(3-methyl-1~{H}-pyrazol-4-yl)phosphinic acid" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PZG  O1 O  6.404 -5.791  1
-PZG  C1 C  6.404 -4.291  2
-PZG  N1 N  5.104 -3.541  3
-PZG  C2 C  5.104 -2.041  4
-PZG  N2 N  3.805 -1.291  5
-PZG  N3 N  6.404 -1.291  6
-PZG  C3 C  7.702 -2.041  7
-PZG  C4 C  7.702 -3.541  8
-PZG  N4 N  9.122 -3.998  9
-PZG  C5 C  9.997 -2.791 10
-PZG  N5 N  9.122 -1.584 11
-PZG  C6 C  9.588 -0.158 12
-PZG  O2 O 11.015  0.303 13
-PZG  C7 C  8.708  1.057 14
-PZG  O3 O  7.208  1.060 15
-PZG  C8 C  9.592  2.269 16
-PZG  O4 O  9.131  3.697 17
-PZG  C9 C 11.018  1.803 18
-PZG C10 C 12.233  2.683 19
-PZG  O5 O 13.602  2.071 20
-PZG  P1 P 14.817  2.950 21
-PZG  O6 O 15.697  1.735 22
-PZG  O7 O 13.938  4.165 23
-PZG C11 C 16.032  3.829 24
-PZG C12 C 16.035  5.330 25
-PZG  N6 N 17.462  5.791 26
-PZG  N7 N 18.342  4.576 27
-PZG C13 C 17.458  3.364 28
-PZG C14 C 17.919  1.936 29
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PZG  O4  C8 SINGLE  BEGINDASH  1
-PZG  C8  C9 SINGLE       NONE  2
-PZG  C8  C7 SINGLE       NONE  3
-PZG  C9 C10 SINGLE BEGINWEDGE  4
-PZG  C9  O2 SINGLE       NONE  5
-PZG C10  O5 SINGLE       NONE  6
-PZG  O3  C7 SINGLE  BEGINDASH  7
-PZG  O6  P1 DOUBLE       NONE  8
-PZG C12  N6 SINGLE       NONE  9
-PZG C12 C11 DOUBLE       NONE 10
-PZG  C7  C6 SINGLE       NONE 11
-PZG  N6  N7 SINGLE       NONE 12
-PZG  O2  C6 SINGLE       NONE 13
-PZG  O5  P1 SINGLE       NONE 14
-PZG  C6  N5 SINGLE BEGINWEDGE 15
-PZG  P1 C11 SINGLE       NONE 16
-PZG  P1  O7 SINGLE       NONE 17
-PZG C11 C13 SINGLE       NONE 18
-PZG  N7 C13 DOUBLE       NONE 19
-PZG C13 C14 SINGLE       NONE 20
-PZG  N5  C3 SINGLE       NONE 21
-PZG  N5  C5 SINGLE       NONE 22
-PZG  N3  C3 SINGLE       NONE 23
-PZG  N3  C2 DOUBLE       NONE 24
-PZG  C3  C4 DOUBLE       NONE 25
-PZG  C5  N4 DOUBLE       NONE 26
-PZG  N2  C2 SINGLE       NONE 27
-PZG  C2  N1 SINGLE       NONE 28
-PZG  C4  N4 SINGLE       NONE 29
-PZG  C4  C1 SINGLE       NONE 30
-PZG  N1  C1 SINGLE       NONE 31
-PZG  C1  O1 DOUBLE       NONE 32
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-PZG MurckoScaffold S1 scaffold O=c1[nH]cnc2c1ncn2[C@H]1CC[C@@H](CO[PH](=O)c2cn[nH]c2)O1 InChI=1S/C13H15N6O4P/c20-13-11-12(14-6-15-13)19(7-16-11)10-2-1-8(23-10)5-22-24(21)9-3-17-18-4-9/h3-4,6-8,10,24H,1-2,5H2,(H,17,18)(H,14,15,20)/t8-,10+/m0/s1 CTZQZBKXQNKDJF-WCBMZHEXSA-N
-PZG      imidazole F1 fragment                                               c1c[nH]cn1                                                                                                                  InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-PZG         purine F2 fragment                                         c1ncc2[nH]cnc2n1                                                                                                    InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-PZG       pyrazole F3 fragment                                               c1cn[nH]c1                                                                                                                  InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5) WTKZEGDFNFYCGP-UHFFFAOYSA-N
-PZG     pyrimidine F4 fragment                                                 c1cncnc1                                                                                                                        InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-PZG         ribose F5 fragment                                            OCC1OCC(O)C1O                                                                                                           InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-PZG  C3 F1 1
-PZG  C4 F1 1
-PZG  N4 F1 1
-PZG  C5 F1 1
-PZG  N5 F1 1
-PZG  N4 F2 1
-PZG  C5 F2 1
-PZG  N5 F2 1
-PZG  C3 F2 1
-PZG  C4 F2 1
-PZG  C1 F2 1
-PZG  N1 F2 1
-PZG  C2 F2 1
-PZG  N3 F2 1
-PZG C12 F3 1
-PZG C11 F3 1
-PZG C13 F3 1
-PZG  N7 F3 1
-PZG  N6 F3 1
-PZG  C4 F4 1
-PZG  C1 F4 1
-PZG  N1 F4 1
-PZG  C2 F4 1
-PZG  N3 F4 1
-PZG  C3 F4 1
-PZG  C7 F5 1
-PZG  C8 F5 1
-PZG  C9 F5 1
-PZG  O2 F5 1
-PZG  C6 F5 1
-PZG C10 F5 1
-PZG  O5 F5 1
-PZG  O4 F5 1
-PZG  O3 F5 1
-PZG  O1 S1 1
-PZG  C1 S1 1
-PZG  N1 S1 1
-PZG  C2 S1 1
-PZG  N3 S1 1
-PZG  C3 S1 1
-PZG  C4 S1 1
-PZG  N4 S1 1
-PZG  C5 S1 1
-PZG  N5 S1 1
-PZG  C6 S1 1
-PZG  O2 S1 1
-PZG  C7 S1 1
-PZG  C8 S1 1
-PZG  C9 S1 1
-PZG C10 S1 1
-PZG  O5 S1 1
-PZG  P1 S1 1
-PZG  O6 S1 1
-PZG C11 S1 1
-PZG C12 S1 1
-PZG  N6 S1 1
-PZG  N7 S1 1
-PZG C13 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PZG
-_pdbe_chem_comp_rdkit_properties.exactmw                               427.101
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           14
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           7
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     10
-_pdbe_chem_comp_rdkit_properties.NumHBD                                6
-_pdbe_chem_comp_rdkit_properties.NumHBA                                12
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        15
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.429
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       4
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             187.185
-_pdbe_chem_comp_rdkit_properties.tpsa                                  214.490
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.084
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             94.033
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         29
-
-#
-_pdbe_chem_comp_external_mappings.comp_id           PZG
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ZINC
-_pdbe_chem_comp_external_mappings.resource_id       ZINC000584905660
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PZG  O1  1.319  4.276  0.642 ETKDGv2  1
-PZG  C1  1.970  3.274  0.246 ETKDGv2  2
-PZG  N1  2.998  3.397 -0.749 ETKDGv2  3
-PZG  C2  3.683  2.210 -1.213 ETKDGv2  4
-PZG  N2  4.686  2.315 -2.223 ETKDGv2  5
-PZG  N3  3.381  1.037 -0.719 ETKDGv2  6
-PZG  C3  2.380  0.915  0.302 ETKDGv2  7
-PZG  C4  1.708  1.937  0.762 ETKDGv2  8
-PZG  N4  0.649  1.508  1.606 ETKDGv2  9
-PZG  C5  0.749  0.211  1.607 ETKDGv2 10
-PZG  N5  1.841 -0.292  0.814 ETKDGv2 11
-PZG  C6  1.973 -1.605  0.168 ETKDGv2 12
-PZG  O2  1.361 -1.572 -1.102 ETKDGv2 13
-PZG  C7  1.354 -2.733  0.989 ETKDGv2 14
-PZG  O3  2.104 -3.907  0.799 ETKDGv2 15
-PZG  C8 -0.033 -2.853  0.386 ETKDGv2 16
-PZG  O4 -0.505 -4.179  0.338 ETKDGv2 17
-PZG  C9  0.106 -2.214 -1.008 ETKDGv2 18
-PZG C10 -0.997 -1.190 -1.293 ETKDGv2 19
-PZG  O5 -2.261 -1.801 -1.167 ETKDGv2 20
-PZG  P1 -3.436 -0.576 -1.007 ETKDGv2 21
-PZG  O6 -4.811 -1.199 -1.086 ETKDGv2 22
-PZG  O7 -3.270  0.559 -2.252 ETKDGv2 23
-PZG C11 -3.245  0.209  0.596 ETKDGv2 24
-PZG C12 -3.425 -0.383  1.764 ETKDGv2 25
-PZG  N6 -3.073  0.537  2.787 ETKDGv2 26
-PZG  N7 -2.643  1.717  2.172 ETKDGv2 27
-PZG C13 -2.736  1.551  0.892 ETKDGv2 28
-PZG C14 -2.315  2.585 -0.100 ETKDGv2 29
-PZG  H1  3.233  4.333 -1.147 ETKDGv2 30
-PZG  H2  4.933  3.245 -2.628 ETKDGv2 31
-PZG  H3  5.183  1.464 -2.567 ETKDGv2 32
-PZG  H4  0.059 -0.414  2.154 ETKDGv2 33
-PZG  H5  3.058 -1.805  0.028 ETKDGv2 34
-PZG  H6  1.315 -2.476  2.074 ETKDGv2 35
-PZG  H7  1.873 -4.517  1.548 ETKDGv2 36
-PZG  H8 -0.740 -2.268  1.014 ETKDGv2 37
-PZG  H9  0.045 -4.688 -0.314 ETKDGv2 38
-PZG H10  0.065 -2.994 -1.799 ETKDGv2 39
-PZG H11 -0.871 -0.809 -2.331 ETKDGv2 40
-PZG H12 -0.859 -0.341 -0.587 ETKDGv2 41
-PZG H13 -3.346  0.032 -3.087 ETKDGv2 42
-PZG H14 -3.750 -1.402  1.926 ETKDGv2 43
-PZG H15 -3.081  0.366  3.816 ETKDGv2 44
-PZG H16 -3.177  2.854 -0.745 ETKDGv2 45
-PZG H17 -1.958  3.499  0.421 ETKDGv2 46
-PZG H18 -1.491  2.186 -0.727 ETKDGv2 47
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PZG "Create component" 2016-01-05 RCSB 
+PZG "Initial release"  2016-12-07 RCSB 
+# 

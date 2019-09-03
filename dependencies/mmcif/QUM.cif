@@ -1,515 +1,205 @@
 data_QUM
-#
-_chem_comp.id                                        QUM
-_chem_comp.name                                      "QUINACRINE MUSTARD"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C23 H28 Cl3 N3 O"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             N-{(1S)-4-[BIS(2-CHLOROETHYL)AMINO]-1-METHYLBUTYL}-N-(6-CHLORO-2-METHOXY-9-ACRIDINYL)AMINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2002-04-04
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            468.847
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         QUM
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       Y
-_chem_comp.pdbx_ideal_coordinates_details            "OpenEye/OEToolkits V1.4.2"
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1GXF
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    QUM 
+_chem_comp.name                                  "QUINACRINE MUSTARD" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C23 H28 Cl3 N3 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "N-{(1S)-4-[BIS(2-CHLOROETHYL)AMINO]-1-METHYLBUTYL}-N-(6-CHLORO-2-METHOXY-9-ACRIDINYL)AMINE" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2002-04-04 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        468.847 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     QUM 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        "OpenEye/OEToolkits V1.4.2" 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1GXF 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-QUM   C2   C2  C 0 1 Y N N 23.759 13.555 -2.319 -4.250  1.798 -0.359   C2 QUM  1
-QUM   C3   C3  C 0 1 Y N N 23.620 13.194 -0.963 -5.487  1.359 -0.828   C3 QUM  2
-QUM   C4   C4  C 0 1 Y N N 22.648 12.337 -0.584 -6.334  0.634  0.009   C4 QUM  3
-QUM  C11  C11  C 0 1 Y N N 21.766 11.794 -1.547 -5.952  0.340  1.324  C11 QUM  4
-QUM  C12  C12  C 0 1 Y N N 21.900 12.150 -2.907 -4.705  0.785  1.792  C12 QUM  5
-QUM   C1   C1  C 0 1 Y N N 22.931 13.054 -3.273 -3.856  1.514  0.949   C1 QUM  6
-QUM  N10  N10  N 0 1 Y N N 20.800 10.930 -1.113 -6.798 -0.386  2.168  N10 QUM  7
-QUM  C14  C14  C 0 1 Y N N 19.911 10.363 -1.966 -6.482 -0.716  3.492  C14 QUM  8
-QUM  C13  C13  C 0 1 Y N N 19.993 10.684 -3.343 -5.255 -0.314  4.053  C13 QUM  9
-QUM   C9   C9  C 0 1 Y N N 20.987 11.578 -3.858 -4.303  0.470  3.197   C9 QUM 10
-QUM   C5   C5  C 0 1 Y N N 18.931  9.474 -1.457 -7.390 -1.449  4.269   C5 QUM 11
-QUM   C6   C6  C 0 1 Y N N 18.052  8.913 -2.340 -7.086 -1.781  5.587   C6 QUM 12
-QUM   C7   C7  C 0 1 Y N N 18.114  9.221 -3.697 -5.872 -1.383  6.140   C7 QUM 13
-QUM   C8   C8  C 0 1 Y N N 19.042 10.063 -4.196 -4.957 -0.652  5.379   C8 QUM 14
-QUM  N18  N18  N 0 1 N N N 21.023 11.838 -5.164 -3.152  0.887  3.619  N18 QUM 15
-QUM  C19  C19  C 0 1 N N S 21.745 12.574 -6.143 -2.386  1.628  2.630  C19 QUM 16
-QUM  C20  C20  C 0 1 N N N 22.825 13.411 -5.461 -1.085  2.079  3.281  C20 QUM 17
-QUM  C21  C21  C 0 1 N N N 22.390 11.537 -7.107 -2.117  0.725  1.420  C21 QUM 18
-QUM  C22  C22  C 0 1 N N N 23.618 10.829 -6.530 -1.245  1.416  0.363  C22 QUM 19
-QUM  C23  C23  C 0 1 N N N 23.486  9.319 -6.445 -0.921  0.511 -0.829  C23 QUM 20
-QUM  N24  N24  N 0 1 N N N 24.612  8.627 -5.812 -0.184 -0.679 -0.425  N24 QUM 21
-QUM  C27  C27  C 0 1 N N N 25.239  7.594 -6.673  1.084 -0.311  0.208  C27 QUM 22
-QUM  C25  C25  C 0 1 N N N 25.524  9.682 -5.193  0.059 -1.551 -1.576  C25 QUM 23
-QUM  C28  C28  C 0 1 N N N 24.974  7.808 -8.138  1.854 -1.517  0.719  C28 QUM 24
-QUM  C26  C26  C 0 1 N N N 25.425  9.785 -3.753 -1.227 -2.083 -2.186  C26 QUM 25
-QUM  CL1  CL1 CL 0 0 N N N 16.869  7.794 -1.772 -8.207 -2.683  6.530  CL1 QUM 26
-QUM  O15  O15  O 0 1 N N N 24.786 14.444 -2.565 -3.425  2.506 -1.178  O15 QUM 27
-QUM  C17  C17  C 0 1 N N N 25.912 13.935 -3.262 -3.890  2.763 -2.503  C17 QUM 28
-QUM  CL2  CL2 CL 0 0 N Y N 23.758  9.339 -3.237 -0.894 -3.142 -3.579  CL2 QUM 29
-QUM  CL3  CL3 CL 0 0 N Y N      ?      ?      ?  3.385 -1.031  1.487  CL3 QUM 30
-QUM   H3   H3  H 0 1 N N N 24.308 13.613 -0.209 -5.797  1.579 -1.846   H3 QUM 31
-QUM   H4   H4  H 0 1 N N N 22.542 12.060  0.478 -7.296  0.299 -0.371   H4 QUM 32
-QUM   H1   H1  H 0 1 N N N 23.060 13.349 -4.328 -2.888  1.867  1.293   H1 QUM 33
-QUM  H10  H10  H 0 1 N N N 20.746 10.705 -0.119 -7.689 -0.693  1.800  H10 QUM 34
-QUM   H5   H5  H 0 1 N N N 18.880  9.242 -0.380 -8.338 -1.762  3.835   H5 QUM 35
-QUM   H7   H7  H 0 1 N N N 17.383  8.763 -4.384 -5.621 -1.635  7.167   H7 QUM 36
-QUM   H8   H8  H 0 1 N N N 19.063 10.272 -5.279 -4.026 -0.366  5.856   H8 QUM 37
-QUM  H19  H19  H 0 1 N N N 21.050 13.238 -6.708 -2.957  2.511  2.319  H19 QUM 38
-QUM H201 1H20  H 0 0 N N N 23.391 13.988 -6.229 -0.494  1.223  3.625 H201 QUM 39
-QUM H202 2H20  H 0 0 N N N 23.496 12.792 -4.821 -1.288  2.710  4.153 H202 QUM 40
-QUM H203 3H20  H 0 0 N N N 22.406 14.069 -4.664 -0.475  2.656  2.579 H203 QUM 41
-QUM H211 1H21  H 0 0 N N N 22.636 12.012 -8.085 -3.069  0.417  0.972 H211 QUM 42
-QUM H212 2H21  H 0 0 N N N 21.632 10.792 -7.445 -1.609 -0.187  1.758 H212 QUM 43
-QUM H221 1H22  H 0 0 N N N 23.880 11.254 -5.533 -0.300  1.727  0.824 H221 QUM 44
-QUM H222 2H22  H 0 0 N N N 24.533 11.108 -7.102 -1.737  2.329  0.006 H222 QUM 45
-QUM H231 1H23  H 0 0 N N N 23.295  8.894 -7.458 -1.855  0.205 -1.312 H231 QUM 46
-QUM H232 2H23  H 0 0 N N N 22.533  9.046 -5.935 -0.335  1.065 -1.571 H232 QUM 47
-QUM H271 1H27  H 0 0 N N N 24.927  6.571 -6.358  1.670  0.257 -0.521 H271 QUM 48
-QUM H272 2H27  H 0 0 N N N 26.334  7.521 -6.473  0.839  0.356  1.041 H272 QUM 49
-QUM H251 1H25  H 0 0 N N N 25.348 10.676 -5.667  0.643 -0.985 -2.308 H251 QUM 50
-QUM H252 2H25  H 0 0 N N N 26.582  9.510 -5.499  0.675 -2.382 -1.219 H252 QUM 51
-QUM H281 1H28  H 0 0 N N N 25.445  7.032 -8.785  2.095 -2.211 -0.092 H281 QUM 52
-QUM H282 2H28  H 0 0 N N N 25.286  8.831 -8.453  1.268 -2.052  1.472 H282 QUM 53
-QUM H261 1H26  H 0 0 N N N 25.728 10.791 -3.380 -1.871 -1.270 -2.535 H261 QUM 54
-QUM H262 2H26  H 0 0 N N N 26.204  9.182 -3.232 -1.780 -2.676 -1.452 H262 QUM 55
-QUM H171 1H17  H 0 0 N N N 26.742 14.653 -3.461 -3.506  1.995 -3.179 H171 QUM 56
-QUM H172 2H17  H 0 0 N N N 25.581 13.470 -4.220 -3.549  3.750 -2.824 H172 QUM 57
-QUM H173 3H17  H 0 0 N N N 26.310 13.041 -2.728 -4.982  2.736 -2.508 H173 QUM 58
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+QUM C2   C2   C  0 1 Y N N 23.759 13.555 -2.319 -4.250 1.798  -0.359 C2   QUM 1  
+QUM C3   C3   C  0 1 Y N N 23.620 13.194 -0.963 -5.487 1.359  -0.828 C3   QUM 2  
+QUM C4   C4   C  0 1 Y N N 22.648 12.337 -0.584 -6.334 0.634  0.009  C4   QUM 3  
+QUM C11  C11  C  0 1 Y N N 21.766 11.794 -1.547 -5.952 0.340  1.324  C11  QUM 4  
+QUM C12  C12  C  0 1 Y N N 21.900 12.150 -2.907 -4.705 0.785  1.792  C12  QUM 5  
+QUM C1   C1   C  0 1 Y N N 22.931 13.054 -3.273 -3.856 1.514  0.949  C1   QUM 6  
+QUM N10  N10  N  0 1 Y N N 20.800 10.930 -1.113 -6.798 -0.386 2.168  N10  QUM 7  
+QUM C14  C14  C  0 1 Y N N 19.911 10.363 -1.966 -6.482 -0.716 3.492  C14  QUM 8  
+QUM C13  C13  C  0 1 Y N N 19.993 10.684 -3.343 -5.255 -0.314 4.053  C13  QUM 9  
+QUM C9   C9   C  0 1 Y N N 20.987 11.578 -3.858 -4.303 0.470  3.197  C9   QUM 10 
+QUM C5   C5   C  0 1 Y N N 18.931 9.474  -1.457 -7.390 -1.449 4.269  C5   QUM 11 
+QUM C6   C6   C  0 1 Y N N 18.052 8.913  -2.340 -7.086 -1.781 5.587  C6   QUM 12 
+QUM C7   C7   C  0 1 Y N N 18.114 9.221  -3.697 -5.872 -1.383 6.140  C7   QUM 13 
+QUM C8   C8   C  0 1 Y N N 19.042 10.063 -4.196 -4.957 -0.652 5.379  C8   QUM 14 
+QUM N18  N18  N  0 1 N N N 21.023 11.838 -5.164 -3.152 0.887  3.619  N18  QUM 15 
+QUM C19  C19  C  0 1 N N S 21.745 12.574 -6.143 -2.386 1.628  2.630  C19  QUM 16 
+QUM C20  C20  C  0 1 N N N 22.825 13.411 -5.461 -1.085 2.079  3.281  C20  QUM 17 
+QUM C21  C21  C  0 1 N N N 22.390 11.537 -7.107 -2.117 0.725  1.420  C21  QUM 18 
+QUM C22  C22  C  0 1 N N N 23.618 10.829 -6.530 -1.245 1.416  0.363  C22  QUM 19 
+QUM C23  C23  C  0 1 N N N 23.486 9.319  -6.445 -0.921 0.511  -0.829 C23  QUM 20 
+QUM N24  N24  N  0 1 N N N 24.612 8.627  -5.812 -0.184 -0.679 -0.425 N24  QUM 21 
+QUM C27  C27  C  0 1 N N N 25.239 7.594  -6.673 1.084  -0.311 0.208  C27  QUM 22 
+QUM C25  C25  C  0 1 N N N 25.524 9.682  -5.193 0.059  -1.551 -1.576 C25  QUM 23 
+QUM C28  C28  C  0 1 N N N 24.974 7.808  -8.138 1.854  -1.517 0.719  C28  QUM 24 
+QUM C26  C26  C  0 1 N N N 25.425 9.785  -3.753 -1.227 -2.083 -2.186 C26  QUM 25 
+QUM CL1  CL1  CL 0 0 N N N 16.869 7.794  -1.772 -8.207 -2.683 6.530  CL1  QUM 26 
+QUM O15  O15  O  0 1 N N N 24.786 14.444 -2.565 -3.425 2.506  -1.178 O15  QUM 27 
+QUM C17  C17  C  0 1 N N N 25.912 13.935 -3.262 -3.890 2.763  -2.503 C17  QUM 28 
+QUM CL2  CL2  CL 0 0 N Y N 23.758 9.339  -3.237 -0.894 -3.142 -3.579 CL2  QUM 29 
+QUM CL3  CL3  CL 0 0 N Y N ?      ?      ?      3.385  -1.031 1.487  CL3  QUM 30 
+QUM H3   H3   H  0 1 N N N 24.308 13.613 -0.209 -5.797 1.579  -1.846 H3   QUM 31 
+QUM H4   H4   H  0 1 N N N 22.542 12.060 0.478  -7.296 0.299  -0.371 H4   QUM 32 
+QUM H1   H1   H  0 1 N N N 23.060 13.349 -4.328 -2.888 1.867  1.293  H1   QUM 33 
+QUM H10  H10  H  0 1 N N N 20.746 10.705 -0.119 -7.689 -0.693 1.800  H10  QUM 34 
+QUM H5   H5   H  0 1 N N N 18.880 9.242  -0.380 -8.338 -1.762 3.835  H5   QUM 35 
+QUM H7   H7   H  0 1 N N N 17.383 8.763  -4.384 -5.621 -1.635 7.167  H7   QUM 36 
+QUM H8   H8   H  0 1 N N N 19.063 10.272 -5.279 -4.026 -0.366 5.856  H8   QUM 37 
+QUM H19  H19  H  0 1 N N N 21.050 13.238 -6.708 -2.957 2.511  2.319  H19  QUM 38 
+QUM H201 1H20 H  0 0 N N N 23.391 13.988 -6.229 -0.494 1.223  3.625  H201 QUM 39 
+QUM H202 2H20 H  0 0 N N N 23.496 12.792 -4.821 -1.288 2.710  4.153  H202 QUM 40 
+QUM H203 3H20 H  0 0 N N N 22.406 14.069 -4.664 -0.475 2.656  2.579  H203 QUM 41 
+QUM H211 1H21 H  0 0 N N N 22.636 12.012 -8.085 -3.069 0.417  0.972  H211 QUM 42 
+QUM H212 2H21 H  0 0 N N N 21.632 10.792 -7.445 -1.609 -0.187 1.758  H212 QUM 43 
+QUM H221 1H22 H  0 0 N N N 23.880 11.254 -5.533 -0.300 1.727  0.824  H221 QUM 44 
+QUM H222 2H22 H  0 0 N N N 24.533 11.108 -7.102 -1.737 2.329  0.006  H222 QUM 45 
+QUM H231 1H23 H  0 0 N N N 23.295 8.894  -7.458 -1.855 0.205  -1.312 H231 QUM 46 
+QUM H232 2H23 H  0 0 N N N 22.533 9.046  -5.935 -0.335 1.065  -1.571 H232 QUM 47 
+QUM H271 1H27 H  0 0 N N N 24.927 6.571  -6.358 1.670  0.257  -0.521 H271 QUM 48 
+QUM H272 2H27 H  0 0 N N N 26.334 7.521  -6.473 0.839  0.356  1.041  H272 QUM 49 
+QUM H251 1H25 H  0 0 N N N 25.348 10.676 -5.667 0.643  -0.985 -2.308 H251 QUM 50 
+QUM H252 2H25 H  0 0 N N N 26.582 9.510  -5.499 0.675  -2.382 -1.219 H252 QUM 51 
+QUM H281 1H28 H  0 0 N N N 25.445 7.032  -8.785 2.095  -2.211 -0.092 H281 QUM 52 
+QUM H282 2H28 H  0 0 N N N 25.286 8.831  -8.453 1.268  -2.052 1.472  H282 QUM 53 
+QUM H261 1H26 H  0 0 N N N 25.728 10.791 -3.380 -1.871 -1.270 -2.535 H261 QUM 54 
+QUM H262 2H26 H  0 0 N N N 26.204 9.182  -3.232 -1.780 -2.676 -1.452 H262 QUM 55 
+QUM H171 1H17 H  0 0 N N N 26.742 14.653 -3.461 -3.506 1.995  -3.179 H171 QUM 56 
+QUM H172 2H17 H  0 0 N N N 25.581 13.470 -4.220 -3.549 3.750  -2.824 H172 QUM 57 
+QUM H173 3H17 H  0 0 N N N 26.310 13.041 -2.728 -4.982 2.736  -2.508 H173 QUM 58 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-QUM  C2   C3 DOUB Y N  1
-QUM  C2   C1 SING Y N  2
-QUM  C2  O15 SING N N  3
-QUM  C3   C4 SING Y N  4
-QUM  C3   H3 SING N N  5
-QUM  C4  C11 DOUB Y N  6
-QUM  C4   H4 SING N N  7
-QUM C11  C12 SING Y N  8
-QUM C11  N10 SING Y N  9
-QUM C12   C1 DOUB Y N 10
-QUM C12   C9 SING Y N 11
-QUM  C1   H1 SING N N 12
-QUM N10  C14 SING Y N 13
-QUM N10  H10 SING N N 14
-QUM C14  C13 DOUB Y N 15
-QUM C14   C5 SING Y N 16
-QUM C13   C9 SING Y N 17
-QUM C13   C8 SING Y N 18
-QUM  C9  N18 DOUB N Z 19
-QUM  C5   C6 DOUB Y N 20
-QUM  C5   H5 SING N N 21
-QUM  C6   C7 SING Y N 22
-QUM  C6  CL1 SING N N 23
-QUM  C7   C8 DOUB Y N 24
-QUM  C7   H7 SING N N 25
-QUM  C8   H8 SING N N 26
-QUM N18  C19 SING N N 27
-QUM C19  C20 SING N N 28
-QUM C19  C21 SING N N 29
-QUM C19  H19 SING N N 30
-QUM C20 H201 SING N N 31
-QUM C20 H202 SING N N 32
-QUM C20 H203 SING N N 33
-QUM C21  C22 SING N N 34
-QUM C21 H211 SING N N 35
-QUM C21 H212 SING N N 36
-QUM C22  C23 SING N N 37
-QUM C22 H221 SING N N 38
-QUM C22 H222 SING N N 39
-QUM C23  N24 SING N N 40
-QUM C23 H231 SING N N 41
-QUM C23 H232 SING N N 42
-QUM N24  C27 SING N N 43
-QUM N24  C25 SING N N 44
-QUM C27  C28 SING N N 45
-QUM C27 H271 SING N N 46
-QUM C27 H272 SING N N 47
-QUM C25  C26 SING N N 48
-QUM C25 H251 SING N N 49
-QUM C25 H252 SING N N 50
-QUM C28  CL3 SING N N 51
-QUM C28 H281 SING N N 52
-QUM C28 H282 SING N N 53
-QUM C26  CL2 SING N N 54
-QUM C26 H261 SING N N 55
-QUM C26 H262 SING N N 56
-QUM O15  C17 SING N N 57
-QUM C17 H171 SING N N 58
-QUM C17 H172 SING N N 59
-QUM C17 H173 SING N N 60
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+QUM C2  C3   DOUB Y N 1  
+QUM C2  C1   SING Y N 2  
+QUM C2  O15  SING N N 3  
+QUM C3  C4   SING Y N 4  
+QUM C3  H3   SING N N 5  
+QUM C4  C11  DOUB Y N 6  
+QUM C4  H4   SING N N 7  
+QUM C11 C12  SING Y N 8  
+QUM C11 N10  SING Y N 9  
+QUM C12 C1   DOUB Y N 10 
+QUM C12 C9   SING Y N 11 
+QUM C1  H1   SING N N 12 
+QUM N10 C14  SING Y N 13 
+QUM N10 H10  SING N N 14 
+QUM C14 C13  DOUB Y N 15 
+QUM C14 C5   SING Y N 16 
+QUM C13 C9   SING Y N 17 
+QUM C13 C8   SING Y N 18 
+QUM C9  N18  DOUB N Z 19 
+QUM C5  C6   DOUB Y N 20 
+QUM C5  H5   SING N N 21 
+QUM C6  C7   SING Y N 22 
+QUM C6  CL1  SING N N 23 
+QUM C7  C8   DOUB Y N 24 
+QUM C7  H7   SING N N 25 
+QUM C8  H8   SING N N 26 
+QUM N18 C19  SING N N 27 
+QUM C19 C20  SING N N 28 
+QUM C19 C21  SING N N 29 
+QUM C19 H19  SING N N 30 
+QUM C20 H201 SING N N 31 
+QUM C20 H202 SING N N 32 
+QUM C20 H203 SING N N 33 
+QUM C21 C22  SING N N 34 
+QUM C21 H211 SING N N 35 
+QUM C21 H212 SING N N 36 
+QUM C22 C23  SING N N 37 
+QUM C22 H221 SING N N 38 
+QUM C22 H222 SING N N 39 
+QUM C23 N24  SING N N 40 
+QUM C23 H231 SING N N 41 
+QUM C23 H232 SING N N 42 
+QUM N24 C27  SING N N 43 
+QUM N24 C25  SING N N 44 
+QUM C27 C28  SING N N 45 
+QUM C27 H271 SING N N 46 
+QUM C27 H272 SING N N 47 
+QUM C25 C26  SING N N 48 
+QUM C25 H251 SING N N 49 
+QUM C25 H252 SING N N 50 
+QUM C28 CL3  SING N N 51 
+QUM C28 H281 SING N N 52 
+QUM C28 H282 SING N N 53 
+QUM C26 CL2  SING N N 54 
+QUM C26 H261 SING N N 55 
+QUM C26 H262 SING N N 56 
+QUM O15 C17  SING N N 57 
+QUM C17 H171 SING N N 58 
+QUM C17 H172 SING N N 59 
+QUM C17 H173 SING N N 60 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-QUM           SMILES              ACDLabs 10.04                                                                                                               ClCCN(CCCl)CCCC(/N=C2\c1c(ccc(OC)c1)Nc3c2ccc(Cl)c3)C
-QUM SMILES_CANONICAL               CACTVS 3.341                                                                                                              COc1ccc2Nc3cc(Cl)ccc3C(=N[C@@H](C)CCCN(CCCl)CCCl)c2c1
-QUM           SMILES               CACTVS 3.341                                                                                                                COc1ccc2Nc3cc(Cl)ccc3C(=N[CH](C)CCCN(CCCl)CCCl)c2c1
-QUM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                           C[C@@H](CCCN(CCCl)CCCl)/N=C\1/c2ccc(cc2Nc3c1cc(cc3)OC)Cl
-QUM           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                   CC(CCCN(CCCl)CCCl)N=C1c2ccc(cc2Nc3c1cc(cc3)OC)Cl
-QUM            InChI                InChI  1.03 InChI=1S/C23H28Cl3N3O/c1-16(4-3-11-29(12-9-24)13-10-25)27-23-19-7-5-17(26)14-22(19)28-21-8-6-18(30-2)15-20(21)23/h5-8,14-16H,3-4,9-13H2,1-2H3,(H,27,28)/t16-/m0/s1
-QUM         InChIKey                InChI  1.03                                                                                                                                        UKOBAUFLOGFCMV-INIZCTEOSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+QUM SMILES           ACDLabs              10.04 "ClCCN(CCCl)CCCC(/N=C2\c1c(ccc(OC)c1)Nc3c2ccc(Cl)c3)C"                                                                                                               
+QUM SMILES_CANONICAL CACTVS               3.341 "COc1ccc2Nc3cc(Cl)ccc3C(=N[C@@H](C)CCCN(CCCl)CCCl)c2c1"                                                                                                              
+QUM SMILES           CACTVS               3.341 "COc1ccc2Nc3cc(Cl)ccc3C(=N[CH](C)CCCN(CCCl)CCCl)c2c1"                                                                                                                
+QUM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@@H](CCCN(CCCl)CCCl)/N=C\1/c2ccc(cc2Nc3c1cc(cc3)OC)Cl"                                                                                                           
+QUM SMILES           "OpenEye OEToolkits" 1.5.0 "CC(CCCN(CCCl)CCCl)N=C1c2ccc(cc2Nc3c1cc(cc3)OC)Cl"                                                                                                                   
+QUM InChI            InChI                1.03  "InChI=1S/C23H28Cl3N3O/c1-16(4-3-11-29(12-9-24)13-10-25)27-23-19-7-5-17(26)14-22(19)28-21-8-6-18(30-2)15-20(21)23/h5-8,14-16H,3-4,9-13H2,1-2H3,(H,27,28)/t16-/m0/s1" 
+QUM InChIKey         InChI                1.03  UKOBAUFLOGFCMV-INIZCTEOSA-N                                                                                                                                          
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-QUM "SYSTEMATIC NAME"              ACDLabs 10.04 (4S)-N~1~,N~1~-bis(2-chloroethyl)-N~4~-[(9Z)-6-chloro-2-methoxyacridin-9(10H)-ylidene]pentane-1,4-diamine
-QUM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0             (4S)-N,N-bis(2-chloroethyl)-4-[(6-chloro-2-methoxy-10H-acridin-9-ylidene)amino]pentan-1-amine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+QUM "SYSTEMATIC NAME" ACDLabs              10.04 "(4S)-N~1~,N~1~-bis(2-chloroethyl)-N~4~-[(9Z)-6-chloro-2-methoxyacridin-9(10H)-ylidene]pentane-1,4-diamine" 
+QUM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(4S)-N,N-bis(2-chloroethyl)-4-[(6-chloro-2-methoxy-10H-acridin-9-ylidene)amino]pentan-1-amine"             
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-QUM  "Create component" 2002-04-04  EBI
-QUM "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   QUM
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02240
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "Quinacrine mustard"
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                64046-79-3
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           QUM
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02240
-_pdbe_chem_comp_drugbank_classification.parent            Acridines
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Quinolines and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as acridines. These are organic compounds containing the acridine moiety, a linear tricyclic heterocycle which consists of two benzene rings joined by a pyridine ring."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        QUM
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02240
-_pdbe_chem_comp_drugbank_targets.name                           "Trypanothione reductase"
-_pdbe_chem_comp_drugbank_targets.organism                       "Trypanosoma cruzi"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P28593
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-_pdbx_chem_comp_synonyms.comp_id          QUM
-_pdbx_chem_comp_synonyms.name             "Quinacrine Mustard"
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-QUM  C2  C 14.793 -4.443  1
-QUM  C3  C 14.793 -6.005  2
-QUM  C4  C 13.434 -6.776  3
-QUM C11  C 12.093 -5.974  4
-QUM C12  C 12.093 -4.474  5
-QUM  C1  C 13.434 -3.672  6
-QUM N10  N 10.794 -6.724  7
-QUM C14  C  9.495 -5.974  8
-QUM C13  C  9.495 -4.474  9
-QUM  C9  C 10.794 -3.724 10
-QUM  C5  C  8.154 -6.776 11
-QUM  C6  C  6.795 -6.005 12
-QUM  C7  C  6.795 -4.443 13
-QUM  C8  C  8.154 -3.672 14
-QUM N18  N 10.794 -2.224 15
-QUM C19  C  9.495 -1.474 16
-QUM C20  C  8.196 -2.224 17
-QUM C21  C  9.495  0.026 18
-QUM C22  C  8.196  0.776 19
-QUM C23  C  8.196  2.276 20
-QUM N24  N  6.897  3.026 21
-QUM C27  C  6.897  4.526 22
-QUM C25  C  5.598  2.276 23
-QUM C28  C  5.598  5.276 24
-QUM C26  C  4.299  3.026 25
-QUM CL1 Cl  5.499 -6.760 26
-QUM O15  O 16.089 -3.688 27
-QUM C17  C 17.391 -4.433 28
-QUM CL2 Cl  3.000  2.276 29
-QUM CL3 Cl  5.598  6.776 30
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-QUM  C2  C3 DOUBLE      NONE  1
-QUM  C2  C1 SINGLE      NONE  2
-QUM  C2 O15 SINGLE      NONE  3
-QUM  C3  C4 SINGLE      NONE  4
-QUM  C4 C11 DOUBLE      NONE  5
-QUM C11 C12 SINGLE      NONE  6
-QUM C11 N10 SINGLE      NONE  7
-QUM C12  C1 DOUBLE      NONE  8
-QUM C12  C9 SINGLE      NONE  9
-QUM N10 C14 SINGLE      NONE 10
-QUM C14 C13 DOUBLE      NONE 11
-QUM C14  C5 SINGLE      NONE 12
-QUM C13  C9 SINGLE      NONE 13
-QUM C13  C8 SINGLE      NONE 14
-QUM  C9 N18 DOUBLE      NONE 15
-QUM  C5  C6 DOUBLE      NONE 16
-QUM  C6  C7 SINGLE      NONE 17
-QUM  C6 CL1 SINGLE      NONE 18
-QUM  C7  C8 DOUBLE      NONE 19
-QUM N18 C19 SINGLE      NONE 20
-QUM C19 C20 SINGLE BEGINDASH 21
-QUM C19 C21 SINGLE      NONE 22
-QUM C21 C22 SINGLE      NONE 23
-QUM C22 C23 SINGLE      NONE 24
-QUM C23 N24 SINGLE      NONE 25
-QUM N24 C27 SINGLE      NONE 26
-QUM N24 C25 SINGLE      NONE 27
-QUM C27 C28 SINGLE      NONE 28
-QUM C25 C26 SINGLE      NONE 29
-QUM C28 CL3 SINGLE      NONE 30
-QUM C26 CL2 SINGLE      NONE 31
-QUM O15 C17 SINGLE      NONE 32
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-QUM MurckoScaffold S1 scaffold N=c1c2ccccc2[nH]c2ccccc12 InChI=1S/C13H10N2/c14-13-9-5-1-3-7-11(9)15-12-8-4-2-6-10(12)13/h1-8H,(H2,14,15) XJGFWWJLMVZSIG-UHFFFAOYSA-N
-QUM       acridine F1 fragment      c1ccc2nc3ccccc3cc2c1                 InChI=1S/C13H9N/c1-3-7-12-10(5-1)9-11-6-2-4-8-13(11)14-12/h1-9H DZBUGLKDJFMEHC-UHFFFAOYSA-N
-QUM         phenyl F2 fragment                  c1ccccc1                                              InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-QUM       pyridine F3 fragment                  c1ccncc1                                             InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
-QUM      quinoline F4 fragment            c1ccc2ncccc2c1                                  InChI=1S/C9H7N/c1-2-6-9-8(4-1)5-3-7-10-9/h1-7H SMWDFEZZVXVKRB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-QUM  C3 F1 1
-QUM  C2 F1 1
-QUM  C1 F1 1
-QUM C12 F1 1
-QUM C11 F1 1
-QUM  C4 F1 1
-QUM N10 F1 1
-QUM C14 F1 1
-QUM C13 F1 1
-QUM  C9 F1 1
-QUM  C8 F1 1
-QUM  C7 F1 1
-QUM  C6 F1 1
-QUM  C5 F1 1
-QUM  C2 F2 1
-QUM  C3 F2 1
-QUM  C4 F2 1
-QUM C11 F2 1
-QUM C12 F2 1
-QUM  C1 F2 1
-QUM C14 F2 2
-QUM C13 F2 2
-QUM  C8 F2 2
-QUM  C7 F2 2
-QUM  C6 F2 2
-QUM  C5 F2 2
-QUM C11 F3 1
-QUM C12 F3 1
-QUM  C9 F3 1
-QUM C13 F3 1
-QUM C14 F3 1
-QUM N10 F3 1
-QUM  C2 F4 1
-QUM  C1 F4 1
-QUM C12 F4 1
-QUM C11 F4 1
-QUM  C4 F4 1
-QUM  C3 F4 1
-QUM N10 F4 1
-QUM C14 F4 1
-QUM C13 F4 1
-QUM  C9 F4 1
-QUM  C7 F4 2
-QUM  C8 F4 2
-QUM C13 F4 2
-QUM C14 F4 2
-QUM  C5 F4 2
-QUM  C6 F4 2
-QUM N10 F4 2
-QUM C11 F4 2
-QUM C12 F4 2
-QUM  C9 F4 2
-QUM  C2 S1 1
-QUM  C3 S1 1
-QUM  C4 S1 1
-QUM C11 S1 1
-QUM C12 S1 1
-QUM  C1 S1 1
-QUM N10 S1 1
-QUM C14 S1 1
-QUM C13 S1 1
-QUM  C9 S1 1
-QUM  C5 S1 1
-QUM  C6 S1 1
-QUM  C7 S1 1
-QUM  C8 S1 1
-QUM N18 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               QUM
-_pdbe_chem_comp_rdkit_properties.exactmw                               467.130
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     12
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.435
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             231.740
-_pdbe_chem_comp_rdkit_properties.tpsa                                  40.620
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          5.413
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             124.592
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         30
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-QUM UniChem   ChEMBL    CHEMBL1235577
-QUM UniChem DrugBank          DB02240
-QUM UniChem     ZINC ZINC000004404007
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-QUM   C2 -4.589  2.915 -1.126 ETKDGv2  1
-QUM   C3 -5.752  2.365 -0.719 ETKDGv2  2
-QUM   C4 -5.787  0.969 -0.235 ETKDGv2  3
-QUM  C11 -4.663  0.238 -0.210 ETKDGv2  4
-QUM  C12 -3.384  0.833 -0.649 ETKDGv2  5
-QUM   C1 -3.349  2.108 -1.075 ETKDGv2  6
-QUM  N10 -4.670 -1.121  0.245 ETKDGv2  7
-QUM  C14 -3.543 -1.981 -0.003 ETKDGv2  8
-QUM  C13 -2.361 -1.477 -0.443 ETKDGv2  9
-QUM   C9 -2.170  0.006 -0.502 ETKDGv2 10
-QUM   C5 -3.707 -3.445  0.160 ETKDGv2 11
-QUM   C6 -2.733 -4.280 -0.217 ETKDGv2 12
-QUM   C7 -1.512 -3.746 -0.846 ETKDGv2 13
-QUM   C8 -1.344 -2.425 -0.975 ETKDGv2 14
-QUM  N18 -1.053  0.617 -0.199 ETKDGv2 15
-QUM  C19  0.232  0.084  0.264 ETKDGv2 16
-QUM  C20  0.075 -0.536  1.661 ETKDGv2 17
-QUM  C21  1.246  1.249  0.276 ETKDGv2 18
-QUM  C22  2.676  0.878  0.713 ETKDGv2 19
-QUM  C23  3.338 -0.166 -0.199 ETKDGv2 20
-QUM  N24  4.769 -0.308  0.153 ETKDGv2 21
-QUM  C27  5.240 -1.699 -0.048 ETKDGv2 22
-QUM  C25  5.606  0.656 -0.599 ETKDGv2 23
-QUM  C28  4.949 -2.551  1.188 ETKDGv2 24
-QUM  C26  6.816  1.067  0.239 ETKDGv2 25
-QUM  CL1 -2.931 -6.013 -0.029 ETKDGv2 26
-QUM  O15 -4.499  4.235 -1.596 ETKDGv2 27
-QUM  C17 -5.598  5.135 -1.703 ETKDGv2 28
-QUM  CL2  7.792  2.270 -0.641 ETKDGv2 29
-QUM  CL3  5.815 -1.914  2.611 ETKDGv2 30
-QUM   H3 -6.677  2.924 -0.738 ETKDGv2 31
-QUM   H4 -6.729  0.543  0.087 ETKDGv2 32
-QUM   H1 -2.415  2.562 -1.383 ETKDGv2 33
-QUM  H10 -5.549 -1.532  0.634 ETKDGv2 34
-QUM   H5 -4.623 -3.838  0.583 ETKDGv2 35
-QUM   H7 -0.773 -4.426 -1.251 ETKDGv2 36
-QUM   H8 -0.508 -2.072 -1.556 ETKDGv2 37
-QUM  H19  0.606 -0.669 -0.446 ETKDGv2 38
-QUM H201 -0.732 -1.296  1.672 ETKDGv2 39
-QUM H202 -0.173  0.247  2.409 ETKDGv2 40
-QUM H203  1.008 -1.054  1.966 ETKDGv2 41
-QUM H211  0.872  2.048  0.954 ETKDGv2 42
-QUM H212  1.295  1.691 -0.744 ETKDGv2 43
-QUM H221  3.280  1.810  0.701 ETKDGv2 44
-QUM H222  2.681  0.515  1.762 ETKDGv2 45
-QUM H231  3.213  0.115 -1.270 ETKDGv2 46
-QUM H232  2.799 -1.126 -0.055 ETKDGv2 47
-QUM H271  6.338 -1.736 -0.222 ETKDGv2 48
-QUM H272  4.763 -2.158 -0.944 ETKDGv2 49
-QUM H251  5.938  0.228 -1.572 ETKDGv2 50
-QUM H252  5.038  1.585 -0.831 ETKDGv2 51
-QUM H281  5.288 -3.592  1.005 ETKDGv2 52
-QUM H282  3.861 -2.573  1.408 ETKDGv2 53
-QUM H261  7.457  0.190  0.463 ETKDGv2 54
-QUM H262  6.475  1.515  1.197 ETKDGv2 55
-QUM H171 -6.361  4.725 -2.398 ETKDGv2 56
-QUM H172 -6.047  5.310 -0.702 ETKDGv2 57
-QUM H173 -5.236  6.103 -2.104 ETKDGv2 58
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+QUM "Create component"  2002-04-04 EBI  
+QUM "Modify descriptor" 2011-06-04 RCSB 
+# 

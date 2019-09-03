@@ -1,518 +1,205 @@
 data_OTC
-#
-_chem_comp.id                                        OTC
-_chem_comp.name                                      OXYTETRACYCLINE
-_chem_comp.type                                      non-polymer
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C22 H24 N2 O9"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2010-08-30
-_chem_comp.pdbx_modified_date                        2011-09-02
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            460.434
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         OTC
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2XPW
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    OTC 
+_chem_comp.name                                  OXYTETRACYCLINE 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C22 H24 N2 O9" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2010-08-30 
+_chem_comp.pdbx_modified_date                    2011-09-02 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        460.434 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     OTC 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2XPW 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-OTC   C1   C1 C 0 1 N N N 18.988 32.928 34.477 -1.851 -1.080 -0.811   C1 OTC  1
-OTC   O1   O1 O 0 1 N N N 18.432 33.351 33.476 -1.394 -1.758 -1.708   O1 OTC  2
-OTC   C2   C2 C 0 1 N N N 18.558 31.719 35.166 -3.030 -0.245 -1.034   C2 OTC  3
-OTC  O21  O21 O 0 1 N N N 16.980 30.080 35.398 -4.578 -1.361 -2.374  O21 OTC  4
-OTC  C21  C21 C 0 1 N N N 17.422 30.957 34.669 -3.824 -0.413 -2.262  C21 OTC  5
-OTC  N21  N21 N 0 1 N N N 16.766 31.361 33.593 -3.715  0.483 -3.263  N21 OTC  6
-OTC   C3   C3 C 0 1 N N N 19.234 31.345 36.262 -3.401  0.695 -0.105   C3 OTC  7
-OTC   O3   O3 O 0 1 N N N 19.171 30.186 36.860 -4.471  1.464 -0.353   O3 OTC  8
-OTC   C4   C4 C 0 1 N N S 20.142 32.248 37.026 -2.649  0.891  1.177   C4 OTC  9
-OTC   N4   N4 N 0 1 N N N 21.247 31.606 37.765 -3.367  0.204  2.259   N4 OTC 10
-OTC  C41  C41 C 0 1 N N N 22.304 31.047 36.873 -2.753  0.490  3.563  C41 OTC 11
-OTC  C42  C42 C 0 1 N N N 21.836 32.454 38.868 -4.791  0.564  2.258  C42 OTC 12
-OTC  C4A  C4A C 0 1 N N R 20.485 33.598 36.360 -1.235  0.348  1.103  C4A OTC 13
-OTC   C5   C5 C 0 1 N N S 19.583 34.758 36.759 -0.332  1.227  0.243   C5 OTC 14
-OTC   O5   O5 O 0 1 N N N 19.455 34.835 38.130 -0.511  2.599  0.601   O5 OTC 15
-OTC  C5A  C5A C 0 1 N N R 19.952 36.065 36.130  1.119  0.811  0.498  C5A OTC 16
-OTC   C6   C6 C 0 1 N N S 18.844 37.128 36.102  2.038  1.519 -0.495   C6 OTC 17
-OTC   O6   O6 O 0 1 N N N 17.813 36.663 35.145  1.594  1.249 -1.826   O6 OTC 18
-OTC  C61  C61 C 0 1 N N N 18.133 37.286 37.449  1.990  3.027 -0.242  C61 OTC 19
-OTC  C6A  C6A C 0 1 Y N N 19.396 38.425 35.556  3.454  1.034 -0.332  C6A OTC 20
-OTC   C7   C7 C 0 1 Y N N 18.886 39.612 36.015  4.508  1.906 -0.503   C7 OTC 21
-OTC   C8   C8 C 0 1 Y N N 19.307 40.800 35.424  5.812  1.459 -0.368   C8 OTC 22
-OTC   C9   C9 C 0 1 Y N N 20.251 40.788 34.413  6.071  0.138 -0.063   C9 OTC 23
-OTC  C10  C10 C 0 1 Y N N 20.761 39.578 33.955  5.023 -0.752  0.118  C10 OTC 24
-OTC  O10  O10 O 0 1 N N N 21.667 39.598 32.954  5.274 -2.052  0.417  O10 OTC 25
-OTC  C6B  C6B C 0 1 Y N N 20.345 38.384 34.539  3.704 -0.301 -0.011  C6B OTC 26
-OTC  C11  C11 C 0 1 N N N 20.885 37.090 34.056  2.573 -1.224  0.213  C11 OTC 27
-OTC  O11  O11 O 0 1 N N N 21.493 37.114 32.962  2.757 -2.427  0.263  O11 OTC 28
-OTC  C5B  C5B C 0 1 N N N 20.522 35.902 34.728  1.263 -0.682  0.370  C5B OTC 29
-OTC  C12  C12 C 0 1 N N N 20.798 34.677 34.139  0.222 -1.520  0.395  C12 OTC 30
-OTC  O12  O12 O 0 1 N N N 21.321 34.493 32.977  0.469 -2.838  0.261  O12 OTC 31
-OTC  C4B  C4B C 0 1 N N S 20.401 33.405 34.858 -1.212 -1.088  0.566  C4B OTC 32
-OTC  O13  O13 O 0 1 N N N 21.347 32.390 34.463 -1.921 -1.966  1.442  O13 OTC 33
-OTC H211 H211 H 0 0 N N N 17.227 32.147 33.181 -3.064  1.200 -3.204 H211 OTC 34
-OTC H212 H212 H 0 0 N N N 15.929 30.940 33.242 -4.288  0.411 -4.043 H212 OTC 35
-OTC   H3   H3 H 0 1 N N N 19.156 29.494 36.209 -4.972  1.273 -1.158   H3 OTC 36
-OTC   H4   H4 H 0 1 N N N 19.474 32.555 37.844 -2.606  1.956  1.403   H4 OTC 37
-OTC  H4A  H4A H 0 1 N N N 21.492 33.876 36.704 -0.826  0.327  2.113  H4A OTC 38
-OTC H411 H411 H 0 0 N N N 21.895 30.909 35.861 -2.670  1.568  3.697 H411 OTC 39
-OTC H412 H412 H 0 0 N N N 23.155 31.742 36.833 -3.373  0.072  4.356 H412 OTC 40
-OTC H413 H413 H 0 0 N N N 22.641 30.077 37.267 -1.760  0.041  3.603 H413 OTC 41
-OTC H421 H421 H 0 0 N N N 21.979 31.838 39.768 -5.264  0.174  1.357 H421 OTC 42
-OTC H422 H422 H 0 0 N N N 22.806 32.857 38.542 -5.275  0.136  3.136 H422 OTC 43
-OTC H423 H423 H 0 0 N N N 21.152 33.284 39.097 -4.892  1.649  2.281 H423 OTC 44
-OTC   H5   H5 H 0 1 N N N 18.589 34.535 36.344 -0.576  1.087 -0.810   H5 OTC 45
-OTC   HA   HA H 0 1 N N N 20.317 34.853 38.528 -0.234  2.809  1.503   HA OTC 46
-OTC  H5A  H5A H 0 1 N N N 20.730 36.443 36.810  1.399  1.101  1.511  H5A OTC 47
-OTC   H6   H6 H 0 1 N N N 16.983 36.563 35.597  2.131  1.667 -2.512   H6 OTC 48
-OTC H611 H611 H 0 0 N N N 18.880 37.324 38.256  2.219  3.228  0.805 H611 OTC 49
-OTC H612 H612 H 0 0 N N N 17.547 38.217 37.447  2.724  3.526 -0.876 H612 OTC 50
-OTC H613 H613 H 0 0 N N N 17.461 36.430 37.611  0.994  3.404 -0.474 H613 OTC 51
-OTC   H7   H7 H 0 1 N N N 18.169 39.625 36.822  4.316  2.941 -0.742   H7 OTC 52
-OTC   H8   H8 H 0 1 N N N 18.893 41.740 35.758  6.631  2.150 -0.503   H8 OTC 53
-OTC   H9   H9 H 0 1 N N N 20.591 41.717 33.980  7.091 -0.203  0.035   H9 OTC 54
-OTC  H10  H10 H 0 1 N N N 21.216 39.603 32.118  5.330 -2.234  1.365  H10 OTC 55
-OTC  H12  H12 H 0 1 N N N 20.633 34.448 32.323  0.137 -3.420  0.958  H12 OTC 56
-OTC  H13  H13 H 0 1 N N N 21.555 32.492 33.542 -1.887 -2.896  1.179  H13 OTC 57
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+OTC C1   C1   C 0 1 N N N 18.988 32.928 34.477 -1.851 -1.080 -0.811 C1   OTC 1  
+OTC O1   O1   O 0 1 N N N 18.432 33.351 33.476 -1.394 -1.758 -1.708 O1   OTC 2  
+OTC C2   C2   C 0 1 N N N 18.558 31.719 35.166 -3.030 -0.245 -1.034 C2   OTC 3  
+OTC O21  O21  O 0 1 N N N 16.980 30.080 35.398 -4.578 -1.361 -2.374 O21  OTC 4  
+OTC C21  C21  C 0 1 N N N 17.422 30.957 34.669 -3.824 -0.413 -2.262 C21  OTC 5  
+OTC N21  N21  N 0 1 N N N 16.766 31.361 33.593 -3.715 0.483  -3.263 N21  OTC 6  
+OTC C3   C3   C 0 1 N N N 19.234 31.345 36.262 -3.401 0.695  -0.105 C3   OTC 7  
+OTC O3   O3   O 0 1 N N N 19.171 30.186 36.860 -4.471 1.464  -0.353 O3   OTC 8  
+OTC C4   C4   C 0 1 N N S 20.142 32.248 37.026 -2.649 0.891  1.177  C4   OTC 9  
+OTC N4   N4   N 0 1 N N N 21.247 31.606 37.765 -3.367 0.204  2.259  N4   OTC 10 
+OTC C41  C41  C 0 1 N N N 22.304 31.047 36.873 -2.753 0.490  3.563  C41  OTC 11 
+OTC C42  C42  C 0 1 N N N 21.836 32.454 38.868 -4.791 0.564  2.258  C42  OTC 12 
+OTC C4A  C4A  C 0 1 N N R 20.485 33.598 36.360 -1.235 0.348  1.103  C4A  OTC 13 
+OTC C5   C5   C 0 1 N N S 19.583 34.758 36.759 -0.332 1.227  0.243  C5   OTC 14 
+OTC O5   O5   O 0 1 N N N 19.455 34.835 38.130 -0.511 2.599  0.601  O5   OTC 15 
+OTC C5A  C5A  C 0 1 N N R 19.952 36.065 36.130 1.119  0.811  0.498  C5A  OTC 16 
+OTC C6   C6   C 0 1 N N S 18.844 37.128 36.102 2.038  1.519  -0.495 C6   OTC 17 
+OTC O6   O6   O 0 1 N N N 17.813 36.663 35.145 1.594  1.249  -1.826 O6   OTC 18 
+OTC C61  C61  C 0 1 N N N 18.133 37.286 37.449 1.990  3.027  -0.242 C61  OTC 19 
+OTC C6A  C6A  C 0 1 Y N N 19.396 38.425 35.556 3.454  1.034  -0.332 C6A  OTC 20 
+OTC C7   C7   C 0 1 Y N N 18.886 39.612 36.015 4.508  1.906  -0.503 C7   OTC 21 
+OTC C8   C8   C 0 1 Y N N 19.307 40.800 35.424 5.812  1.459  -0.368 C8   OTC 22 
+OTC C9   C9   C 0 1 Y N N 20.251 40.788 34.413 6.071  0.138  -0.063 C9   OTC 23 
+OTC C10  C10  C 0 1 Y N N 20.761 39.578 33.955 5.023  -0.752 0.118  C10  OTC 24 
+OTC O10  O10  O 0 1 N N N 21.667 39.598 32.954 5.274  -2.052 0.417  O10  OTC 25 
+OTC C6B  C6B  C 0 1 Y N N 20.345 38.384 34.539 3.704  -0.301 -0.011 C6B  OTC 26 
+OTC C11  C11  C 0 1 N N N 20.885 37.090 34.056 2.573  -1.224 0.213  C11  OTC 27 
+OTC O11  O11  O 0 1 N N N 21.493 37.114 32.962 2.757  -2.427 0.263  O11  OTC 28 
+OTC C5B  C5B  C 0 1 N N N 20.522 35.902 34.728 1.263  -0.682 0.370  C5B  OTC 29 
+OTC C12  C12  C 0 1 N N N 20.798 34.677 34.139 0.222  -1.520 0.395  C12  OTC 30 
+OTC O12  O12  O 0 1 N N N 21.321 34.493 32.977 0.469  -2.838 0.261  O12  OTC 31 
+OTC C4B  C4B  C 0 1 N N S 20.401 33.405 34.858 -1.212 -1.088 0.566  C4B  OTC 32 
+OTC O13  O13  O 0 1 N N N 21.347 32.390 34.463 -1.921 -1.966 1.442  O13  OTC 33 
+OTC H211 H211 H 0 0 N N N 17.227 32.147 33.181 -3.064 1.200  -3.204 H211 OTC 34 
+OTC H212 H212 H 0 0 N N N 15.929 30.940 33.242 -4.288 0.411  -4.043 H212 OTC 35 
+OTC H3   H3   H 0 1 N N N 19.156 29.494 36.209 -4.972 1.273  -1.158 H3   OTC 36 
+OTC H4   H4   H 0 1 N N N 19.474 32.555 37.844 -2.606 1.956  1.403  H4   OTC 37 
+OTC H4A  H4A  H 0 1 N N N 21.492 33.876 36.704 -0.826 0.327  2.113  H4A  OTC 38 
+OTC H411 H411 H 0 0 N N N 21.895 30.909 35.861 -2.670 1.568  3.697  H411 OTC 39 
+OTC H412 H412 H 0 0 N N N 23.155 31.742 36.833 -3.373 0.072  4.356  H412 OTC 40 
+OTC H413 H413 H 0 0 N N N 22.641 30.077 37.267 -1.760 0.041  3.603  H413 OTC 41 
+OTC H421 H421 H 0 0 N N N 21.979 31.838 39.768 -5.264 0.174  1.357  H421 OTC 42 
+OTC H422 H422 H 0 0 N N N 22.806 32.857 38.542 -5.275 0.136  3.136  H422 OTC 43 
+OTC H423 H423 H 0 0 N N N 21.152 33.284 39.097 -4.892 1.649  2.281  H423 OTC 44 
+OTC H5   H5   H 0 1 N N N 18.589 34.535 36.344 -0.576 1.087  -0.810 H5   OTC 45 
+OTC HA   HA   H 0 1 N N N 20.317 34.853 38.528 -0.234 2.809  1.503  HA   OTC 46 
+OTC H5A  H5A  H 0 1 N N N 20.730 36.443 36.810 1.399  1.101  1.511  H5A  OTC 47 
+OTC H6   H6   H 0 1 N N N 16.983 36.563 35.597 2.131  1.667  -2.512 H6   OTC 48 
+OTC H611 H611 H 0 0 N N N 18.880 37.324 38.256 2.219  3.228  0.805  H611 OTC 49 
+OTC H612 H612 H 0 0 N N N 17.547 38.217 37.447 2.724  3.526  -0.876 H612 OTC 50 
+OTC H613 H613 H 0 0 N N N 17.461 36.430 37.611 0.994  3.404  -0.474 H613 OTC 51 
+OTC H7   H7   H 0 1 N N N 18.169 39.625 36.822 4.316  2.941  -0.742 H7   OTC 52 
+OTC H8   H8   H 0 1 N N N 18.893 41.740 35.758 6.631  2.150  -0.503 H8   OTC 53 
+OTC H9   H9   H 0 1 N N N 20.591 41.717 33.980 7.091  -0.203 0.035  H9   OTC 54 
+OTC H10  H10  H 0 1 N N N 21.216 39.603 32.118 5.330  -2.234 1.365  H10  OTC 55 
+OTC H12  H12  H 0 1 N N N 20.633 34.448 32.323 0.137  -3.420 0.958  H12  OTC 56 
+OTC H13  H13  H 0 1 N N N 21.555 32.492 33.542 -1.887 -2.896 1.179  H13  OTC 57 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-OTC  C1   O1 DOUB N N  1
-OTC  C1   C2 SING N N  2
-OTC  C1  C4B SING N N  3
-OTC  C2  C21 SING N N  4
-OTC  C2   C3 DOUB N N  5
-OTC O21  C21 DOUB N N  6
-OTC C21  N21 SING N N  7
-OTC  C3   O3 SING N N  8
-OTC  C3   C4 SING N N  9
-OTC  C4   N4 SING N N 10
-OTC  C4  C4A SING N N 11
-OTC  N4  C41 SING N N 12
-OTC  N4  C42 SING N N 13
-OTC C4A   C5 SING N N 14
-OTC C4A  C4B SING N N 15
-OTC  C5   O5 SING N N 16
-OTC  C5  C5A SING N N 17
-OTC C5A   C6 SING N N 18
-OTC C5A  C5B SING N N 19
-OTC  C6   O6 SING N N 20
-OTC  C6  C61 SING N N 21
-OTC  C6  C6A SING N N 22
-OTC C6A   C7 SING Y N 23
-OTC C6A  C6B DOUB Y N 24
-OTC  C7   C8 DOUB Y N 25
-OTC  C8   C9 SING Y N 26
-OTC  C9  C10 DOUB Y N 27
-OTC C10  O10 SING N N 28
-OTC C10  C6B SING Y N 29
-OTC C6B  C11 SING N N 30
-OTC C11  O11 DOUB N N 31
-OTC C11  C5B SING N N 32
-OTC C5B  C12 DOUB N N 33
-OTC C12  O12 SING N N 34
-OTC C12  C4B SING N N 35
-OTC C4B  O13 SING N N 36
-OTC N21 H211 SING N N 37
-OTC N21 H212 SING N N 38
-OTC  O3   H3 SING N N 39
-OTC  C4   H4 SING N N 40
-OTC C4A  H4A SING N N 41
-OTC C41 H411 SING N N 42
-OTC C41 H412 SING N N 43
-OTC C41 H413 SING N N 44
-OTC C42 H421 SING N N 45
-OTC C42 H422 SING N N 46
-OTC C42 H423 SING N N 47
-OTC  C5   H5 SING N N 48
-OTC  O5   HA SING N N 49
-OTC C5A  H5A SING N N 50
-OTC  O6   H6 SING N N 51
-OTC C61 H611 SING N N 52
-OTC C61 H612 SING N N 53
-OTC C61 H613 SING N N 54
-OTC  C7   H7 SING N N 55
-OTC  C8   H8 SING N N 56
-OTC  C9   H9 SING N N 57
-OTC O10  H10 SING N N 58
-OTC O12  H12 SING N N 59
-OTC O13  H13 SING N N 60
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+OTC C1  O1   DOUB N N 1  
+OTC C1  C2   SING N N 2  
+OTC C1  C4B  SING N N 3  
+OTC C2  C21  SING N N 4  
+OTC C2  C3   DOUB N N 5  
+OTC O21 C21  DOUB N N 6  
+OTC C21 N21  SING N N 7  
+OTC C3  O3   SING N N 8  
+OTC C3  C4   SING N N 9  
+OTC C4  N4   SING N N 10 
+OTC C4  C4A  SING N N 11 
+OTC N4  C41  SING N N 12 
+OTC N4  C42  SING N N 13 
+OTC C4A C5   SING N N 14 
+OTC C4A C4B  SING N N 15 
+OTC C5  O5   SING N N 16 
+OTC C5  C5A  SING N N 17 
+OTC C5A C6   SING N N 18 
+OTC C5A C5B  SING N N 19 
+OTC C6  O6   SING N N 20 
+OTC C6  C61  SING N N 21 
+OTC C6  C6A  SING N N 22 
+OTC C6A C7   SING Y N 23 
+OTC C6A C6B  DOUB Y N 24 
+OTC C7  C8   DOUB Y N 25 
+OTC C8  C9   SING Y N 26 
+OTC C9  C10  DOUB Y N 27 
+OTC C10 O10  SING N N 28 
+OTC C10 C6B  SING Y N 29 
+OTC C6B C11  SING N N 30 
+OTC C11 O11  DOUB N N 31 
+OTC C11 C5B  SING N N 32 
+OTC C5B C12  DOUB N N 33 
+OTC C12 O12  SING N N 34 
+OTC C12 C4B  SING N N 35 
+OTC C4B O13  SING N N 36 
+OTC N21 H211 SING N N 37 
+OTC N21 H212 SING N N 38 
+OTC O3  H3   SING N N 39 
+OTC C4  H4   SING N N 40 
+OTC C4A H4A  SING N N 41 
+OTC C41 H411 SING N N 42 
+OTC C41 H412 SING N N 43 
+OTC C41 H413 SING N N 44 
+OTC C42 H421 SING N N 45 
+OTC C42 H422 SING N N 46 
+OTC C42 H423 SING N N 47 
+OTC C5  H5   SING N N 48 
+OTC O5  HA   SING N N 49 
+OTC C5A H5A  SING N N 50 
+OTC O6  H6   SING N N 51 
+OTC C61 H611 SING N N 52 
+OTC C61 H612 SING N N 53 
+OTC C61 H613 SING N N 54 
+OTC C7  H7   SING N N 55 
+OTC C8  H8   SING N N 56 
+OTC C9  H9   SING N N 57 
+OTC O10 H10  SING N N 58 
+OTC O12 H12  SING N N 59 
+OTC O13 H13  SING N N 60 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-OTC           SMILES              ACDLabs 10.04                                                                                                                                  O=C3C2=C(O)C1(O)C(=O)C(=C(O)C(N(C)C)C1C(O)C2C(O)(c4cccc(O)c34)C)C(=O)N
-OTC SMILES_CANONICAL               CACTVS 3.352                                                                                                           CN(C)[C@H]1[C@@H]2[C@@H](O)[C@H]3C(=C(O)[C@]2(O)C(=O)C(=C1O)C(N)=O)C(=O)c4c(O)cccc4[C@@]3(C)O
-OTC           SMILES               CACTVS 3.352                                                                                                                    CN(C)[CH]1[CH]2[CH](O)[CH]3C(=C(O)[C]2(O)C(=O)C(=C1O)C(N)=O)C(=O)c4c(O)cccc4[C]3(C)O
-OTC SMILES_CANONICAL "OpenEye OEToolkits" 1.6.1                                                                                                         C[C@]1(c2cccc(c2C(=O)C3=C([C@]4([C@@H]([C@H]([C@@H]31)O)[C@@H](C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)O
-OTC           SMILES "OpenEye OEToolkits" 1.6.1                                                                                                                                  CC1(c2cccc(c2C(=O)C3=C(C4(C(C(C31)O)C(C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)O
-OTC            InChI                InChI  1.03 InChI=1S/C22H24N2O9/c1-21(32)7-5-4-6-8(25)9(7)15(26)10-12(21)17(28)13-14(24(2)3)16(27)11(20(23)31)19(30)22(13,33)18(10)29/h4-6,12-14,17,25,27-29,32-33H,1-3H3,(H2,23,31)/t12-,13-,14+,17+,21-,22+/m1/s1
-OTC         InChIKey                InChI  1.03                                                                                                                                                                             IWVCMVBTMGNXQD-PXOLEDIWSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+OTC SMILES           ACDLabs              10.04 "O=C3C2=C(O)C1(O)C(=O)C(=C(O)C(N(C)C)C1C(O)C2C(O)(c4cccc(O)c34)C)C(=O)N"                                                                                                                                  
+OTC SMILES_CANONICAL CACTVS               3.352 "CN(C)[C@H]1[C@@H]2[C@@H](O)[C@H]3C(=C(O)[C@]2(O)C(=O)C(=C1O)C(N)=O)C(=O)c4c(O)cccc4[C@@]3(C)O"                                                                                                           
+OTC SMILES           CACTVS               3.352 "CN(C)[CH]1[CH]2[CH](O)[CH]3C(=C(O)[C]2(O)C(=O)C(=C1O)C(N)=O)C(=O)c4c(O)cccc4[C]3(C)O"                                                                                                                    
+OTC SMILES_CANONICAL "OpenEye OEToolkits" 1.6.1 "C[C@]1(c2cccc(c2C(=O)C3=C([C@]4([C@@H]([C@H]([C@@H]31)O)[C@@H](C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)O"                                                                                                         
+OTC SMILES           "OpenEye OEToolkits" 1.6.1 "CC1(c2cccc(c2C(=O)C3=C(C4(C(C(C31)O)C(C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)O"                                                                                                                                  
+OTC InChI            InChI                1.03  "InChI=1S/C22H24N2O9/c1-21(32)7-5-4-6-8(25)9(7)15(26)10-12(21)17(28)13-14(24(2)3)16(27)11(20(23)31)19(30)22(13,33)18(10)29/h4-6,12-14,17,25,27-29,32-33H,1-3H3,(H2,23,31)/t12-,13-,14+,17+,21-,22+/m1/s1" 
+OTC InChIKey         InChI                1.03  IWVCMVBTMGNXQD-PXOLEDIWSA-N                                                                                                                                                                               
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-OTC "SYSTEMATIC NAME"              ACDLabs 10.04 (4S,4aR,5S,5aR,6S,12aS)-4-(dimethylamino)-3,5,6,10,12,12a-hexahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide
-OTC "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1             (4S,4aR,5S,5aR,6S,12aS)-4-dimethylamino-3,5,6,10,12,12a-hexahydroxy-6-methyl-1,11-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+OTC "SYSTEMATIC NAME" ACDLabs              10.04 "(4S,4aR,5S,5aR,6S,12aS)-4-(dimethylamino)-3,5,6,10,12,12a-hexahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide" 
+OTC "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 "(4S,4aR,5S,5aR,6S,12aS)-4-dimethylamino-3,5,6,10,12,12a-hexahydroxy-6-methyl-1,11-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide"             
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-OTC     "Create component" 2010-08-30  EBI
-OTC "Modify aromatic_flag" 2011-06-04 RCSB
-OTC    "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   OTC
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB00595
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Oxytetracycline
-_pdbe_chem_comp_drugbank_details.description               "A tetracycline analog isolated from the actinomycete streptomyces rimosus and used in a wide variety of clinical conditions."
-_pdbe_chem_comp_drugbank_details.cas_number                79-57-2
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Oxytetracycline inhibits cell growth by inhibiting translation. It binds to the 30S ribosomal subunit and prevents the amino-acyl tRNA from binding to the A site of the ribosome. The binding is reversible in nature. Oxytetracycline is lipophilic and can easily pass through the cell membrane or passively diffuses through porin channels in the bacterial membrane."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           OTC
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00595
-_pdbe_chem_comp_drugbank_classification.parent            Tetracyclines
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             Tetracyclines
-_pdbe_chem_comp_drugbank_classification.superclass        "Phenylpropanoids and polyketides"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as tetracyclines. These are polyketides having an octahydrotetracene-2-carboxamide skeleton, substituted with many hydroxy and other groups."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-OTC DB00595 "30S ribosomal protein S9" "Escherichia coli (strain K12)" P0A7X3 yes 1
-OTC DB00595 "30S ribosomal protein S4" "Escherichia coli (strain K12)" P0A7V8 yes 2
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-OTC               Oxytetracycline   ChEMBL
-OTC                  Terrafungine   ChEMBL
-OTC                          E703   ChEMBL
-OTC                    Terramycin   ChEMBL
-OTC                     Imperacin   ChEMBL
-OTC                        Hi-Tet   ChEMBL
-OTC               Oxitetracycline   ChEMBL
-OTC               Oxytetramix-250   ChEMBL
-OTC                     Berkmycen   ChEMBL
-OTC                  Chemocycline   ChEMBL
-OTC                          OXTC   ChEMBL
-OTC                     Tetraplex   ChEMBL
-OTC                      Microtet   ChEMBL
-OTC                      Oxymycin   ChEMBL
-OTC                   Galenomycin   ChEMBL
-OTC                      Unimycin   ChEMBL
-OTC         5-Hydroxytetracycline DrugBank
-OTC                    Embryostat DrugBank
-OTC          Hydroxytetracyclinum DrugBank
-OTC                       Mepatar DrugBank
-OTC                   Oxyterracin DrugBank
-OTC                  Oxyterracine DrugBank
-OTC               Oxytetracycline DrugBank
-OTC "Oxytetracycline (anhydrous)" DrugBank
-OTC  "Oxytetracycline amphoteric" DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-OTC  C1 C -2.269  1.933  1
-OTC  O1 O -2.270  2.933  2
-OTC  C2 C -3.135  1.432  3
-OTC O21 O -4.867  1.431  4
-OTC C21 C -4.001  1.932  5
-OTC N21 N -4.002  2.932  6
-OTC  C3 C -3.134  0.432  7
-OTC  O3 O -4.000 -0.068  8
-OTC  C4 C -2.268 -0.067  9
-OTC  N4 N -2.267 -1.067 10
-OTC C41 C -1.400 -1.566 11
-OTC C42 C -3.132 -1.568 12
-OTC C4A C -1.402  0.434 13
-OTC  C5 C -0.536 -0.065 14
-OTC  O5 O -0.535 -1.065 15
-OTC C5A C  0.330  0.435 16
-OTC  C6 C  1.196 -0.064 17
-OTC  O6 O  1.840 -0.830 18
-OTC C61 C  0.554 -0.831 19
-OTC C6A C  2.062  0.437 20
-OTC  C7 C  2.928 -0.063 21
-OTC  C8 C  3.794  0.438 22
-OTC  C9 C  3.793  1.438 23
-OTC C10 C  2.927  1.937 24
-OTC O10 O  2.926  2.937 25
-OTC C6B C  2.061  1.437 26
-OTC C11 C  1.195  1.936 27
-OTC O11 O  1.194  2.936 28
-OTC C5B C  0.329  1.435 29
-OTC C12 C -0.537  1.935 30
-OTC O12 O -0.538  2.935 31
-OTC C4B C -1.403  1.434 32
-OTC O13 O -1.404  2.434 33
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-OTC  C1  O1 DOUBLE       NONE  1
-OTC  C1  C2 SINGLE       NONE  2
-OTC  C1 C4B SINGLE       NONE  3
-OTC  C2 C21 SINGLE       NONE  4
-OTC  C2  C3 DOUBLE       NONE  5
-OTC O21 C21 DOUBLE       NONE  6
-OTC C21 N21 SINGLE       NONE  7
-OTC  C3  O3 SINGLE       NONE  8
-OTC  C3  C4 SINGLE       NONE  9
-OTC  C4  N4 SINGLE BEGINWEDGE 10
-OTC  C4 C4A SINGLE       NONE 11
-OTC  N4 C41 SINGLE       NONE 12
-OTC  N4 C42 SINGLE       NONE 13
-OTC C4A  C5 SINGLE       NONE 14
-OTC C4A C4B SINGLE       NONE 15
-OTC  C5  O5 SINGLE BEGINWEDGE 16
-OTC  C5 C5A SINGLE       NONE 17
-OTC C5A  C6 SINGLE       NONE 18
-OTC C5A C5B SINGLE       NONE 19
-OTC  C6  O6 SINGLE       NONE 20
-OTC  C6 C61 SINGLE BEGINWEDGE 21
-OTC  C6 C6A SINGLE       NONE 22
-OTC C6A  C7 DOUBLE       NONE 23
-OTC C6A C6B SINGLE       NONE 24
-OTC  C7  C8 SINGLE       NONE 25
-OTC  C8  C9 DOUBLE       NONE 26
-OTC  C9 C10 SINGLE       NONE 27
-OTC C10 O10 SINGLE       NONE 28
-OTC C10 C6B DOUBLE       NONE 29
-OTC C6B C11 SINGLE       NONE 30
-OTC C11 O11 DOUBLE       NONE 31
-OTC C11 C5B SINGLE       NONE 32
-OTC C5B C12 DOUBLE       NONE 33
-OTC C12 O12 SINGLE       NONE 34
-OTC C12 C4B SINGLE       NONE 35
-OTC C4B O13 SINGLE  BEGINDASH 36
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-OTC MurckoScaffold S1 scaffold O=C1C2=CC3C(=O)C=CC[C@H]3C[C@H]2Cc2ccccc21 InChI=1S/C18H16O2/c19-17-7-3-5-12-9-13-8-11-4-1-2-6-14(11)18(20)16(13)10-15(12)17/h1-4,6-7,10,12-13,15H,5,8-9H2/t12-,13+,15?/m0/s1 KRZVXWRCQRFOLN-IKCIUXDWSA-N
-OTC          amide F1 fragment                                    CC(N)=O                                                                                             InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-OTC         phenyl F2 fragment                                   c1ccccc1                                                                                                 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-OTC N21 F1 1
-OTC C21 F1 1
-OTC O21 F1 1
-OTC  C2 F1 1
-OTC C6A F2 1
-OTC  C7 F2 1
-OTC  C8 F2 1
-OTC  C9 F2 1
-OTC C10 F2 1
-OTC C6B F2 1
-OTC  C1 S1 1
-OTC  O1 S1 1
-OTC  C2 S1 1
-OTC  C3 S1 1
-OTC  C4 S1 1
-OTC C4A S1 1
-OTC  C5 S1 1
-OTC C5A S1 1
-OTC  C6 S1 1
-OTC C6A S1 1
-OTC  C7 S1 1
-OTC  C8 S1 1
-OTC  C9 S1 1
-OTC C10 S1 1
-OTC C6B S1 1
-OTC C11 S1 1
-OTC O11 S1 1
-OTC C5B S1 1
-OTC C12 S1 1
-OTC C4B S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               OTC
-_pdbe_chem_comp_rdkit_properties.exactmw                               460.148
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           11
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           8
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     11
-_pdbe_chem_comp_rdkit_properties.NumHBD                                7
-_pdbe_chem_comp_rdkit_properties.NumHBA                                10
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        11
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.409
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             221.579
-_pdbe_chem_comp_rdkit_properties.tpsa                                  201.850
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.815
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             109.789
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         33
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-OTC UniChem        ChEMBL       CHEMBL1517
-OTC UniChem      DrugBank          DB00595
-OTC UniChem "KEGG LIGAND"           C06624
-OTC UniChem         ChEBI           133011
-OTC UniChem         ChEBI            27701
-OTC UniChem          ZINC ZINC000095626782
-OTC UniChem          ZINC     ZINC18202350
-OTC UniChem  MetaboLights      MTBLC133011
-OTC UniChem  MetaboLights       MTBLC27701
-OTC UniChem        BRENDA           139231
-OTC UniChem        BRENDA            15900
-OTC UniChem          Rhea           133011
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-OTC   C1 -2.164  1.703  1.005 ETKDGv2  1
-OTC   O1 -2.032  2.225  2.146 ETKDGv2  2
-OTC   C2 -3.518  1.447  0.473 ETKDGv2  3
-OTC  O21 -5.803  1.696  1.095 ETKDGv2  4
-OTC  C21 -4.667  2.232  0.994 ETKDGv2  5
-OTC  N21 -4.504  3.597  1.386 ETKDGv2  6
-OTC   C3 -3.689  0.553 -0.524 ETKDGv2  7
-OTC   O3 -4.923  0.504 -1.174 ETKDGv2  8
-OTC   C4 -2.557 -0.367 -1.012 ETKDGv2  9
-OTC   N4 -2.910 -1.813 -0.918 ETKDGv2 10
-OTC  C41 -3.715 -2.190  0.257 ETKDGv2 11
-OTC  C42 -3.457 -2.392 -2.156 ETKDGv2 12
-OTC  C4A -1.191 -0.152 -0.274 ETKDGv2 13
-OTC   C5  0.014 -0.629 -1.119 ETKDGv2 14
-OTC   O5 -0.183 -1.952 -1.560 ETKDGv2 15
-OTC  C5A  1.362 -0.514 -0.330 ETKDGv2 16
-OTC   C6  2.624 -0.306 -1.247 ETKDGv2 17
-OTC   O6  2.487  0.890 -1.985 ETKDGv2 18
-OTC  C61  2.776 -1.535 -2.193 ETKDGv2 19
-OTC  C6A  3.902 -0.160 -0.400 ETKDGv2 20
-OTC   C7  5.116 -0.142 -0.991 ETKDGv2 21
-OTC   C8  6.348 -0.131 -0.188 ETKDGv2 22
-OTC   C9  6.278 -0.126  1.142 ETKDGv2 23
-OTC  C10  4.972 -0.041  1.824 ETKDGv2 24
-OTC  O10  4.988 -0.049  3.221 ETKDGv2 25
-OTC  C6B  3.831  0.044  1.088 ETKDGv2 26
-OTC  C11  2.535  0.506  1.650 ETKDGv2 27
-OTC  O11  2.431  0.874  2.851 ETKDGv2 28
-OTC  C5B  1.353  0.538  0.765 ETKDGv2 29
-OTC  C12  0.345  1.432  0.932 ETKDGv2 30
-OTC  O12  0.520  2.571  1.728 ETKDGv2 31
-OTC  C4B -0.961  1.315  0.162 ETKDGv2 32
-OTC  O13 -0.852  2.176 -0.951 ETKDGv2 33
-OTC H211 -5.309  4.125  1.791 ETKDGv2 34
-OTC H212 -3.608  4.105  1.219 ETKDGv2 35
-OTC   H3 -5.061 -0.015 -2.029 ETKDGv2 36
-OTC   H4 -2.391 -0.084 -2.075 ETKDGv2 37
-OTC  H4A -1.209 -0.768  0.655 ETKDGv2 38
-OTC H411 -3.685 -3.292  0.393 ETKDGv2 39
-OTC H412 -4.775 -1.877  0.136 ETKDGv2 40
-OTC H413 -3.304 -1.729  1.179 ETKDGv2 41
-OTC H421 -4.525 -2.129 -2.297 ETKDGv2 42
-OTC H422 -2.871 -2.067 -3.041 ETKDGv2 43
-OTC H423 -3.382 -3.499 -2.108 ETKDGv2 44
-OTC   H5  0.054  0.013 -2.022 ETKDGv2 45
-OTC   HA -0.274 -2.530 -0.758 ETKDGv2 46
-OTC  H5A  1.499 -1.481  0.207 ETKDGv2 47
-OTC   H6  2.021  0.702 -2.840 ETKDGv2 48
-OTC H611  1.886 -1.662 -2.841 ETKDGv2 49
-OTC H612  2.923 -2.465 -1.602 ETKDGv2 50
-OTC H613  3.627 -1.421 -2.891 ETKDGv2 51
-OTC   H7  5.221 -0.168 -2.066 ETKDGv2 52
-OTC   H8  7.311 -0.165 -0.681 ETKDGv2 53
-OTC   H9  7.189 -0.152  1.728 ETKDGv2 54
-OTC  H10  4.192 -0.301  3.790 ETKDGv2 55
-OTC  H12  1.417  2.888  2.071 ETKDGv2 56
-OTC  H13 -1.703  2.168 -1.459 ETKDGv2 57
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+OTC "Create component"     2010-08-30 EBI  
+OTC "Modify aromatic_flag" 2011-06-04 RCSB 
+OTC "Modify descriptor"    2011-06-04 RCSB 
+# 

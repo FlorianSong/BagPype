@@ -1,675 +1,293 @@
 data_CQM
-#
-_chem_comp.id                                        CQM
-_chem_comp.name                                      Citramalyl-CoA
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C26 H42 N7 O20 P3 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2017-09-29
-_chem_comp.pdbx_modified_date                        2018-07-27
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            897.633
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         CQM
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6AQ4
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    CQM 
+_chem_comp.name                                  Citramalyl-CoA 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C26 H42 N7 O20 P3 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-09-29 
+_chem_comp.pdbx_modified_date                    2018-07-27 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        897.633 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     CQM 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6AQ4 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-CQM  C2  C1 C 0 1 N N N -32.508 18.279 -15.483 -11.827  3.034  1.399  C2 CQM  1
-CQM  C4  C2 C 0 1 N N N -34.364 17.148 -16.460 -13.207  5.092  1.307  C4 CQM  2
-CQM  C6  C3 C 0 1 N N N -31.944 16.320 -16.813 -12.573  3.952 -0.802  C6 CQM  3
-CQM P2A  P1 P 0 1 N N N -22.712 25.417  -5.134   1.292 -3.919  0.570 P2A CQM  4
-CQM O5A  O1 O 0 1 N N N -21.594 26.385  -5.404   0.256 -3.548  1.560 O5A CQM  5
-CQM O4A  O2 O 0 1 N N N -23.779 25.993  -4.212   2.026 -5.272  1.042 O4A CQM  6
-CQM O3A  O3 O 0 1 N N N -22.227 24.035  -4.565   2.375 -2.733  0.456 O3A CQM  7
-CQM O6A  O4 O 0 1 N N N -23.406 25.081  -6.529   0.601 -4.155 -0.865 O6A CQM  8
-CQM P1A  P2 P 0 1 N N N -21.000 23.759  -3.620   3.157 -1.825  1.531 P1A CQM  9
-CQM O1A  O5 O 0 1 N N N -21.306 22.460  -2.888   3.668 -2.684  2.623 O1A CQM 10
-CQM O2A  O6 O 0 1 N N N -20.775 24.901  -2.626   2.151 -0.726  2.139 O2A CQM 11
-CQM O5B  O7 O 0 1 N N N -19.712 23.544  -4.498   4.391 -1.084  0.811 O5B CQM 12
-CQM C5B  C4 C 0 1 N N N -18.499 23.197  -3.913   5.342 -0.287  1.520 C5B CQM 13
-CQM C4B  C5 C 0 1 N N R -17.276 23.224  -4.830   6.376  0.268  0.538 C4B CQM 14
-CQM O4B  O8 O 0 1 N N N -17.544 22.388  -5.893   5.749  1.202 -0.357 O4B CQM 15
-CQM C3B  C6 C 0 1 N N S -17.045 24.552  -5.417   7.472  1.031  1.307 C3B CQM 16
-CQM O3B  O9 O 0 1 N N N -15.683 24.723  -5.697   8.751  0.435  1.079 O3B CQM 17
-CQM C2B  C7 C 0 1 N N R -17.779 24.555  -6.606   7.425  2.461  0.716 C2B CQM 18
-CQM O2B O10 O 0 1 N N N -17.299 25.503  -7.505   8.743  2.981  0.533 O2B CQM 19
-CQM C1B  C8 C 0 1 N N R -17.834 23.144  -7.012   6.725  2.224 -0.651 C1B CQM 20
-CQM P3B  P3 P 0 1 N N N -14.656 25.169  -4.556   9.661 -0.168  2.263 P3B CQM 21
-CQM O7A O11 O 0 1 N N N -13.430 25.768  -5.236   8.880 -1.168  3.025 O7A CQM 22
-CQM O8A O12 O 0 1 N N N -14.252 23.958  -3.724  10.964 -0.871  1.632 O8A CQM 23
-CQM O9A O13 O 0 1 N N N -15.309 26.189  -3.642  10.116  1.021  3.248 O9A CQM 24
-CQM N9A  N1 N 0 1 Y N N -18.932 22.692  -7.883   6.068  3.449 -1.113 N9A CQM 25
-CQM C4A  C9 C 0 1 Y N N -18.821 22.445  -9.199   6.655  4.469 -1.819 C4A CQM 26
-CQM N3A  N2 N 0 1 Y N N -17.794 22.522 -10.059   7.877  4.705 -2.285 N3A CQM 27
-CQM C2A C10 C 0 1 Y N N -17.976 22.200 -11.337   8.140  5.812 -2.947 C2A CQM 28
-CQM N1A  N3 N 0 1 Y N N -19.177 21.798 -11.797   7.222  6.733 -3.181 N1A CQM 29
-CQM C6A C11 C 0 1 Y N N -20.236 21.697 -10.985   5.973  6.584 -2.754 C6A CQM 30
-CQM C5A C12 C 0 1 Y N N -20.078 22.024  -9.641   5.643  5.418 -2.042 C5A CQM 31
-CQM N7A  N4 N 0 1 Y N N -20.906 22.036  -8.576   4.512  4.937 -1.472 N7A CQM 32
-CQM C8A C13 C 0 1 Y N N -20.203 22.441  -7.505   4.759  3.782 -0.927 C8A CQM 33
-CQM N6A  N5 N 0 1 N N N -21.521 21.254 -11.492   5.019  7.554 -3.004 N6A CQM 34
-CQM CBP C14 C 0 1 N N N -25.010 24.030  -7.978  -0.892 -5.050 -2.541 CBP CQM 35
-CQM CCP C15 C 0 1 N N N -24.530 24.256  -6.586  -0.477 -5.070 -1.069 CCP CQM 36
-CQM CDP C16 C 0 1 N N N -25.293 25.365  -8.594  -1.342 -3.639 -2.924 CDP CQM 37
-CQM CEP C17 C 0 1 N N N -26.301 23.173  -7.983   0.297 -5.460 -3.412 CEP CQM 38
-CQM CAP C18 C 0 1 N N R -23.885 23.347  -8.726  -2.047 -6.030 -2.759 CAP CQM 39
-CQM OAP O14 O 0 1 N N N -23.600 22.080  -8.186  -1.589 -7.364 -2.530 OAP CQM 40
-CQM C9P C19 C 0 1 N N N -24.241 23.121 -10.190  -3.164 -5.711 -1.800 C9P CQM 41
-CQM O9P O15 O 0 1 N N N -24.297 24.051 -10.961  -3.434 -6.483 -0.905 O9P CQM 42
-CQM N8P  N6 N 0 1 N N N -24.534 21.778 -10.641  -3.864 -4.567 -1.938 N8P CQM 43
-CQM C7P C20 C 0 1 N N N -24.900 21.521 -12.003  -4.886 -4.210 -0.950 C7P CQM 44
-CQM C6P C21 C 0 1 N N N -26.074 22.367 -12.523  -5.525 -2.875 -1.338 C6P CQM 45
-CQM C5P C22 C 0 1 N N N -26.548 22.011 -13.903  -6.576 -2.508 -0.322 C5P CQM 46
-CQM O5P O16 O 0 1 N N N -25.764 21.998 -14.831  -6.792 -3.241  0.620 O5P CQM 47
-CQM N4P  N7 N 0 1 N N N -27.939 21.704 -14.097  -7.276 -1.364 -0.460 N4P CQM 48
-CQM C3P C23 C 0 1 N N N -28.406 21.335 -15.434  -8.297 -1.007  0.528 C3P CQM 49
-CQM C2P C24 C 0 1 N N N -28.603 19.841 -15.576  -8.937  0.328  0.140 C2P CQM 50
-CQM S1P  S1 S 0 1 N N N -29.910 19.137 -14.561 -10.198  0.769  1.361 S1P CQM 51
-CQM  C1 C25 C 0 1 N N N -31.409 19.330 -15.581 -10.738  2.256  0.706  C1 CQM 52
-CQM  O2 O17 O 0 1 N N N -31.566 20.303 -16.367 -10.244  2.684 -0.316  O2 CQM 53
-CQM  C3 C26 C 0 1 N N S -32.899 17.506 -16.717 -12.118  4.314  0.614  C3 CQM 54
-CQM  O7 O18 O 0 1 N N N -32.839 18.236 -17.893 -10.934  5.111  0.545  O7 CQM 55
-CQM  O3 O19 O 0 1 N N N -35.329 17.736 -17.089 -13.999  4.520  2.018  O3 CQM 56
-CQM  O4 O20 O 0 1 N N N -34.606 16.273 -15.595 -13.297  6.420  1.135  O4 CQM 57
-CQM  H1  H1 H 0 1 N N N -33.413 18.792 -15.125 -12.730  2.426  1.452  H1 CQM 58
-CQM  H2  H2 H 0 1 N N N -32.183 17.543 -14.733 -11.503  3.292  2.408  H2 CQM 59
-CQM  H3  H3 H 0 1 N N N -31.988 15.737 -15.881 -12.780  4.864 -1.361  H3 CQM 60
-CQM  H4  H4 H 0 1 N N N -32.237 15.681 -17.659 -11.785  3.389 -1.303  H4 CQM 61
-CQM  H5  H5 H 0 1 N N N -30.919 16.687 -16.968 -13.476  3.344 -0.749  H5 CQM 62
-CQM  H6  H6 H 0 1 N N N -23.542 26.880  -3.968   2.718 -5.575  0.439  H6 CQM 63
-CQM  H7  H7 H 0 1 N N N -20.871 24.573  -1.739   1.777 -0.126  1.479  H7 CQM 64
-CQM  H8  H8 H 0 1 N N N -18.598 22.176  -3.515   4.829  0.539  2.012  H8 CQM 65
-CQM  H9  H9 H 0 1 N N N -18.313 23.897  -3.085   5.844 -0.900  2.268  H9 CQM 66
-CQM H10 H10 H 0 1 N N N -16.389 22.896  -4.268   6.822 -0.548 -0.030 H10 CQM 67
-CQM H11 H11 H 0 1 N N N -17.405 25.332  -4.730   7.246  1.051  2.374 H11 CQM 68
-CQM H12 H12 H 0 1 N N N -18.809 24.842  -6.350   6.832  3.123  1.347 H12 CQM 69
-CQM H13 H13 H 0 1 N N N -17.324 26.363  -7.102   8.766  3.875  0.164 H13 CQM 70
-CQM H14 H14 H 0 1 N N N -16.945 23.031  -7.650   7.441  1.868 -1.392 H14 CQM 71
-CQM H15 H15 H 0 1 N N N -13.315 23.821  -3.798  11.560 -1.257  2.289 H15 CQM 72
-CQM H16 H16 H 0 1 N N N -14.821 27.003  -3.676  10.633  1.714  2.815 H16 CQM 73
-CQM H17 H17 H 0 1 N N N -17.143 22.262 -12.021   9.143  5.974 -3.312 H17 CQM 74
-CQM H18 H18 H 0 1 N N N -20.592 22.548  -6.503   4.033  3.174 -0.407 H18 CQM 75
-CQM H19 H19 H 0 1 N N N -21.446 21.063 -12.471   5.259  8.355 -3.497 H19 CQM 76
-CQM H20 H20 H 0 1 N N N -21.800 20.423 -11.011   4.110  7.434 -2.687 H20 CQM 77
-CQM H21 H21 H 0 1 N N N -25.339 24.724  -6.007  -0.156 -6.076 -0.796 H21 CQM 78
-CQM H22 H22 H 0 1 N N N -24.275 23.283  -6.140  -1.324 -4.778 -0.448 H22 CQM 79
-CQM H23 H23 H 0 1 N N N -26.111 25.856  -8.046  -0.490 -2.961 -2.878 H23 CQM 80
-CQM H24 H24 H 0 1 N N N -24.390 25.991  -8.543  -1.745 -3.648 -3.937 H24 CQM 81
-CQM H25 H25 H 0 1 N N N -25.586 25.229  -9.646  -2.112 -3.302 -2.230 H25 CQM 82
-CQM H26 H26 H 0 1 N N N -27.094 23.700  -7.432   0.579 -6.488 -3.181 H26 CQM 83
-CQM H27 H27 H 0 1 N N N -26.625 23.005  -9.021   0.019 -5.387 -4.464 H27 CQM 84
-CQM H28 H28 H 0 1 N N N -26.100 22.205  -7.500   1.140 -4.799 -3.212 H28 CQM 85
-CQM H29 H29 H 0 1 N N N -22.992 23.988  -8.679  -2.410 -5.942 -3.783 H29 CQM 86
-CQM H30 H30 H 0 1 N N N -23.371 22.171  -7.268  -1.251 -7.516 -1.636 H30 CQM 87
-CQM H31 H31 H 0 1 N N N -24.480 21.018  -9.993  -3.692 -3.980 -2.691 H31 CQM 88
-CQM H32 H32 H 0 1 N N N -25.178 20.460 -12.089  -5.651 -4.985 -0.923 H32 CQM 89
-CQM H33 H33 H 0 1 N N N -24.024 21.723 -12.637  -4.424 -4.119  0.033 H33 CQM 90
-CQM H34 H34 H 0 1 N N N -25.758 23.421 -12.531  -4.760 -2.100 -1.366 H34 CQM 91
-CQM H35 H35 H 0 1 N N N -26.918 22.243 -11.829  -5.987 -2.966 -2.321 H35 CQM 92
-CQM H36 H36 H 0 1 N N N -28.578 21.742 -13.329  -7.103 -0.777 -1.213 H36 CQM 93
-CQM H37 H37 H 0 1 N N N -27.662 21.667 -16.174  -9.062 -1.782  0.556 H37 CQM 94
-CQM H38 H38 H 0 1 N N N -29.365 21.839 -15.627  -7.835 -0.916  1.512 H38 CQM 95
-CQM H39 H39 H 0 1 N N N -28.839 19.628 -16.629  -8.171  1.103  0.113 H39 CQM 96
-CQM H40 H40 H 0 1 N N N -27.659 19.347 -15.305  -9.398  0.237 -0.843 H40 CQM 97
-CQM H41 H41 H 0 1 N N N -33.720 18.423 -18.195 -10.589  5.378  1.408 H41 CQM 98
-CQM H42 H42 H 0 1 N N N -35.545 16.155 -15.517 -14.012  6.876  1.600 H42 CQM 99
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+CQM C2  C1  C 0 1 N N N -32.508 18.279 -15.483 -11.827 3.034  1.399  C2  CQM 1  
+CQM C4  C2  C 0 1 N N N -34.364 17.148 -16.460 -13.207 5.092  1.307  C4  CQM 2  
+CQM C6  C3  C 0 1 N N N -31.944 16.320 -16.813 -12.573 3.952  -0.802 C6  CQM 3  
+CQM P2A P1  P 0 1 N N N -22.712 25.417 -5.134  1.292   -3.919 0.570  P2A CQM 4  
+CQM O5A O1  O 0 1 N N N -21.594 26.385 -5.404  0.256   -3.548 1.560  O5A CQM 5  
+CQM O4A O2  O 0 1 N N N -23.779 25.993 -4.212  2.026   -5.272 1.042  O4A CQM 6  
+CQM O3A O3  O 0 1 N N N -22.227 24.035 -4.565  2.375   -2.733 0.456  O3A CQM 7  
+CQM O6A O4  O 0 1 N N N -23.406 25.081 -6.529  0.601   -4.155 -0.865 O6A CQM 8  
+CQM P1A P2  P 0 1 N N N -21.000 23.759 -3.620  3.157   -1.825 1.531  P1A CQM 9  
+CQM O1A O5  O 0 1 N N N -21.306 22.460 -2.888  3.668   -2.684 2.623  O1A CQM 10 
+CQM O2A O6  O 0 1 N N N -20.775 24.901 -2.626  2.151   -0.726 2.139  O2A CQM 11 
+CQM O5B O7  O 0 1 N N N -19.712 23.544 -4.498  4.391   -1.084 0.811  O5B CQM 12 
+CQM C5B C4  C 0 1 N N N -18.499 23.197 -3.913  5.342   -0.287 1.520  C5B CQM 13 
+CQM C4B C5  C 0 1 N N R -17.276 23.224 -4.830  6.376   0.268  0.538  C4B CQM 14 
+CQM O4B O8  O 0 1 N N N -17.544 22.388 -5.893  5.749   1.202  -0.357 O4B CQM 15 
+CQM C3B C6  C 0 1 N N S -17.045 24.552 -5.417  7.472   1.031  1.307  C3B CQM 16 
+CQM O3B O9  O 0 1 N N N -15.683 24.723 -5.697  8.751   0.435  1.079  O3B CQM 17 
+CQM C2B C7  C 0 1 N N R -17.779 24.555 -6.606  7.425   2.461  0.716  C2B CQM 18 
+CQM O2B O10 O 0 1 N N N -17.299 25.503 -7.505  8.743   2.981  0.533  O2B CQM 19 
+CQM C1B C8  C 0 1 N N R -17.834 23.144 -7.012  6.725   2.224  -0.651 C1B CQM 20 
+CQM P3B P3  P 0 1 N N N -14.656 25.169 -4.556  9.661   -0.168 2.263  P3B CQM 21 
+CQM O7A O11 O 0 1 N N N -13.430 25.768 -5.236  8.880   -1.168 3.025  O7A CQM 22 
+CQM O8A O12 O 0 1 N N N -14.252 23.958 -3.724  10.964  -0.871 1.632  O8A CQM 23 
+CQM O9A O13 O 0 1 N N N -15.309 26.189 -3.642  10.116  1.021  3.248  O9A CQM 24 
+CQM N9A N1  N 0 1 Y N N -18.932 22.692 -7.883  6.068   3.449  -1.113 N9A CQM 25 
+CQM C4A C9  C 0 1 Y N N -18.821 22.445 -9.199  6.655   4.469  -1.819 C4A CQM 26 
+CQM N3A N2  N 0 1 Y N N -17.794 22.522 -10.059 7.877   4.705  -2.285 N3A CQM 27 
+CQM C2A C10 C 0 1 Y N N -17.976 22.200 -11.337 8.140   5.812  -2.947 C2A CQM 28 
+CQM N1A N3  N 0 1 Y N N -19.177 21.798 -11.797 7.222   6.733  -3.181 N1A CQM 29 
+CQM C6A C11 C 0 1 Y N N -20.236 21.697 -10.985 5.973   6.584  -2.754 C6A CQM 30 
+CQM C5A C12 C 0 1 Y N N -20.078 22.024 -9.641  5.643   5.418  -2.042 C5A CQM 31 
+CQM N7A N4  N 0 1 Y N N -20.906 22.036 -8.576  4.512   4.937  -1.472 N7A CQM 32 
+CQM C8A C13 C 0 1 Y N N -20.203 22.441 -7.505  4.759   3.782  -0.927 C8A CQM 33 
+CQM N6A N5  N 0 1 N N N -21.521 21.254 -11.492 5.019   7.554  -3.004 N6A CQM 34 
+CQM CBP C14 C 0 1 N N N -25.010 24.030 -7.978  -0.892  -5.050 -2.541 CBP CQM 35 
+CQM CCP C15 C 0 1 N N N -24.530 24.256 -6.586  -0.477  -5.070 -1.069 CCP CQM 36 
+CQM CDP C16 C 0 1 N N N -25.293 25.365 -8.594  -1.342  -3.639 -2.924 CDP CQM 37 
+CQM CEP C17 C 0 1 N N N -26.301 23.173 -7.983  0.297   -5.460 -3.412 CEP CQM 38 
+CQM CAP C18 C 0 1 N N R -23.885 23.347 -8.726  -2.047  -6.030 -2.759 CAP CQM 39 
+CQM OAP O14 O 0 1 N N N -23.600 22.080 -8.186  -1.589  -7.364 -2.530 OAP CQM 40 
+CQM C9P C19 C 0 1 N N N -24.241 23.121 -10.190 -3.164  -5.711 -1.800 C9P CQM 41 
+CQM O9P O15 O 0 1 N N N -24.297 24.051 -10.961 -3.434  -6.483 -0.905 O9P CQM 42 
+CQM N8P N6  N 0 1 N N N -24.534 21.778 -10.641 -3.864  -4.567 -1.938 N8P CQM 43 
+CQM C7P C20 C 0 1 N N N -24.900 21.521 -12.003 -4.886  -4.210 -0.950 C7P CQM 44 
+CQM C6P C21 C 0 1 N N N -26.074 22.367 -12.523 -5.525  -2.875 -1.338 C6P CQM 45 
+CQM C5P C22 C 0 1 N N N -26.548 22.011 -13.903 -6.576  -2.508 -0.322 C5P CQM 46 
+CQM O5P O16 O 0 1 N N N -25.764 21.998 -14.831 -6.792  -3.241 0.620  O5P CQM 47 
+CQM N4P N7  N 0 1 N N N -27.939 21.704 -14.097 -7.276  -1.364 -0.460 N4P CQM 48 
+CQM C3P C23 C 0 1 N N N -28.406 21.335 -15.434 -8.297  -1.007 0.528  C3P CQM 49 
+CQM C2P C24 C 0 1 N N N -28.603 19.841 -15.576 -8.937  0.328  0.140  C2P CQM 50 
+CQM S1P S1  S 0 1 N N N -29.910 19.137 -14.561 -10.198 0.769  1.361  S1P CQM 51 
+CQM C1  C25 C 0 1 N N N -31.409 19.330 -15.581 -10.738 2.256  0.706  C1  CQM 52 
+CQM O2  O17 O 0 1 N N N -31.566 20.303 -16.367 -10.244 2.684  -0.316 O2  CQM 53 
+CQM C3  C26 C 0 1 N N S -32.899 17.506 -16.717 -12.118 4.314  0.614  C3  CQM 54 
+CQM O7  O18 O 0 1 N N N -32.839 18.236 -17.893 -10.934 5.111  0.545  O7  CQM 55 
+CQM O3  O19 O 0 1 N N N -35.329 17.736 -17.089 -13.999 4.520  2.018  O3  CQM 56 
+CQM O4  O20 O 0 1 N N N -34.606 16.273 -15.595 -13.297 6.420  1.135  O4  CQM 57 
+CQM H1  H1  H 0 1 N N N -33.413 18.792 -15.125 -12.730 2.426  1.452  H1  CQM 58 
+CQM H2  H2  H 0 1 N N N -32.183 17.543 -14.733 -11.503 3.292  2.408  H2  CQM 59 
+CQM H3  H3  H 0 1 N N N -31.988 15.737 -15.881 -12.780 4.864  -1.361 H3  CQM 60 
+CQM H4  H4  H 0 1 N N N -32.237 15.681 -17.659 -11.785 3.389  -1.303 H4  CQM 61 
+CQM H5  H5  H 0 1 N N N -30.919 16.687 -16.968 -13.476 3.344  -0.749 H5  CQM 62 
+CQM H6  H6  H 0 1 N N N -23.542 26.880 -3.968  2.718   -5.575 0.439  H6  CQM 63 
+CQM H7  H7  H 0 1 N N N -20.871 24.573 -1.739  1.777   -0.126 1.479  H7  CQM 64 
+CQM H8  H8  H 0 1 N N N -18.598 22.176 -3.515  4.829   0.539  2.012  H8  CQM 65 
+CQM H9  H9  H 0 1 N N N -18.313 23.897 -3.085  5.844   -0.900 2.268  H9  CQM 66 
+CQM H10 H10 H 0 1 N N N -16.389 22.896 -4.268  6.822   -0.548 -0.030 H10 CQM 67 
+CQM H11 H11 H 0 1 N N N -17.405 25.332 -4.730  7.246   1.051  2.374  H11 CQM 68 
+CQM H12 H12 H 0 1 N N N -18.809 24.842 -6.350  6.832   3.123  1.347  H12 CQM 69 
+CQM H13 H13 H 0 1 N N N -17.324 26.363 -7.102  8.766   3.875  0.164  H13 CQM 70 
+CQM H14 H14 H 0 1 N N N -16.945 23.031 -7.650  7.441   1.868  -1.392 H14 CQM 71 
+CQM H15 H15 H 0 1 N N N -13.315 23.821 -3.798  11.560  -1.257 2.289  H15 CQM 72 
+CQM H16 H16 H 0 1 N N N -14.821 27.003 -3.676  10.633  1.714  2.815  H16 CQM 73 
+CQM H17 H17 H 0 1 N N N -17.143 22.262 -12.021 9.143   5.974  -3.312 H17 CQM 74 
+CQM H18 H18 H 0 1 N N N -20.592 22.548 -6.503  4.033   3.174  -0.407 H18 CQM 75 
+CQM H19 H19 H 0 1 N N N -21.446 21.063 -12.471 5.259   8.355  -3.497 H19 CQM 76 
+CQM H20 H20 H 0 1 N N N -21.800 20.423 -11.011 4.110   7.434  -2.687 H20 CQM 77 
+CQM H21 H21 H 0 1 N N N -25.339 24.724 -6.007  -0.156  -6.076 -0.796 H21 CQM 78 
+CQM H22 H22 H 0 1 N N N -24.275 23.283 -6.140  -1.324  -4.778 -0.448 H22 CQM 79 
+CQM H23 H23 H 0 1 N N N -26.111 25.856 -8.046  -0.490  -2.961 -2.878 H23 CQM 80 
+CQM H24 H24 H 0 1 N N N -24.390 25.991 -8.543  -1.745  -3.648 -3.937 H24 CQM 81 
+CQM H25 H25 H 0 1 N N N -25.586 25.229 -9.646  -2.112  -3.302 -2.230 H25 CQM 82 
+CQM H26 H26 H 0 1 N N N -27.094 23.700 -7.432  0.579   -6.488 -3.181 H26 CQM 83 
+CQM H27 H27 H 0 1 N N N -26.625 23.005 -9.021  0.019   -5.387 -4.464 H27 CQM 84 
+CQM H28 H28 H 0 1 N N N -26.100 22.205 -7.500  1.140   -4.799 -3.212 H28 CQM 85 
+CQM H29 H29 H 0 1 N N N -22.992 23.988 -8.679  -2.410  -5.942 -3.783 H29 CQM 86 
+CQM H30 H30 H 0 1 N N N -23.371 22.171 -7.268  -1.251  -7.516 -1.636 H30 CQM 87 
+CQM H31 H31 H 0 1 N N N -24.480 21.018 -9.993  -3.692  -3.980 -2.691 H31 CQM 88 
+CQM H32 H32 H 0 1 N N N -25.178 20.460 -12.089 -5.651  -4.985 -0.923 H32 CQM 89 
+CQM H33 H33 H 0 1 N N N -24.024 21.723 -12.637 -4.424  -4.119 0.033  H33 CQM 90 
+CQM H34 H34 H 0 1 N N N -25.758 23.421 -12.531 -4.760  -2.100 -1.366 H34 CQM 91 
+CQM H35 H35 H 0 1 N N N -26.918 22.243 -11.829 -5.987  -2.966 -2.321 H35 CQM 92 
+CQM H36 H36 H 0 1 N N N -28.578 21.742 -13.329 -7.103  -0.777 -1.213 H36 CQM 93 
+CQM H37 H37 H 0 1 N N N -27.662 21.667 -16.174 -9.062  -1.782 0.556  H37 CQM 94 
+CQM H38 H38 H 0 1 N N N -29.365 21.839 -15.627 -7.835  -0.916 1.512  H38 CQM 95 
+CQM H39 H39 H 0 1 N N N -28.839 19.628 -16.629 -8.171  1.103  0.113  H39 CQM 96 
+CQM H40 H40 H 0 1 N N N -27.659 19.347 -15.305 -9.398  0.237  -0.843 H40 CQM 97 
+CQM H41 H41 H 0 1 N N N -33.720 18.423 -18.195 -10.589 5.378  1.408  H41 CQM 98 
+CQM H42 H42 H 0 1 N N N -35.545 16.155 -15.517 -14.012 6.876  1.600  H42 CQM 99 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-CQM  O7  C3 SING N N   1
-CQM  O3  C4 DOUB N N   2
-CQM  C6  C3 SING N N   3
-CQM  C3  C4 SING N N   4
-CQM  C3  C2 SING N N   5
-CQM  C4  O4 SING N N   6
-CQM  O2  C1 DOUB N N   7
-CQM  C1  C2 SING N N   8
-CQM  C1 S1P SING N N   9
-CQM C2P C3P SING N N  10
-CQM C2P S1P SING N N  11
-CQM C3P N4P SING N N  12
-CQM O5P C5P DOUB N N  13
-CQM N4P C5P SING N N  14
-CQM C5P C6P SING N N  15
-CQM C6P C7P SING N N  16
-CQM C7P N8P SING N N  17
-CQM N1A C2A SING Y N  18
-CQM N1A C6A DOUB Y N  19
-CQM N6A C6A SING N N  20
-CQM C2A N3A DOUB Y N  21
-CQM C6A C5A SING Y N  22
-CQM O9P C9P DOUB N N  23
-CQM N8P C9P SING N N  24
-CQM C9P CAP SING N N  25
-CQM N3A C4A SING Y N  26
-CQM C5A C4A DOUB Y N  27
-CQM C5A N7A SING Y N  28
-CQM C4A N9A SING Y N  29
-CQM CAP OAP SING N N  30
-CQM CAP CBP SING N N  31
-CQM CDP CBP SING N N  32
-CQM N7A C8A DOUB Y N  33
-CQM CEP CBP SING N N  34
-CQM CBP CCP SING N N  35
-CQM N9A C8A SING Y N  36
-CQM N9A C1B SING N N  37
-CQM O2B C2B SING N N  38
-CQM C1B C2B SING N N  39
-CQM C1B O4B SING N N  40
-CQM C2B C3B SING N N  41
-CQM CCP O6A SING N N  42
-CQM O6A P2A SING N N  43
-CQM O4B C4B SING N N  44
-CQM O3B C3B SING N N  45
-CQM O3B P3B SING N N  46
-CQM C3B C4B SING N N  47
-CQM O5A P2A DOUB N N  48
-CQM O7A P3B DOUB N N  49
-CQM P2A O3A SING N N  50
-CQM P2A O4A SING N N  51
-CQM C4B C5B SING N N  52
-CQM O3A P1A SING N N  53
-CQM P3B O8A SING N N  54
-CQM P3B O9A SING N N  55
-CQM O5B C5B SING N N  56
-CQM O5B P1A SING N N  57
-CQM P1A O1A DOUB N N  58
-CQM P1A O2A SING N N  59
-CQM  C2  H1 SING N N  60
-CQM  C2  H2 SING N N  61
-CQM  C6  H3 SING N N  62
-CQM  C6  H4 SING N N  63
-CQM  C6  H5 SING N N  64
-CQM O4A  H6 SING N N  65
-CQM O2A  H7 SING N N  66
-CQM C5B  H8 SING N N  67
-CQM C5B  H9 SING N N  68
-CQM C4B H10 SING N N  69
-CQM C3B H11 SING N N  70
-CQM C2B H12 SING N N  71
-CQM O2B H13 SING N N  72
-CQM C1B H14 SING N N  73
-CQM O8A H15 SING N N  74
-CQM O9A H16 SING N N  75
-CQM C2A H17 SING N N  76
-CQM C8A H18 SING N N  77
-CQM N6A H19 SING N N  78
-CQM N6A H20 SING N N  79
-CQM CCP H21 SING N N  80
-CQM CCP H22 SING N N  81
-CQM CDP H23 SING N N  82
-CQM CDP H24 SING N N  83
-CQM CDP H25 SING N N  84
-CQM CEP H26 SING N N  85
-CQM CEP H27 SING N N  86
-CQM CEP H28 SING N N  87
-CQM CAP H29 SING N N  88
-CQM OAP H30 SING N N  89
-CQM N8P H31 SING N N  90
-CQM C7P H32 SING N N  91
-CQM C7P H33 SING N N  92
-CQM C6P H34 SING N N  93
-CQM C6P H35 SING N N  94
-CQM N4P H36 SING N N  95
-CQM C3P H37 SING N N  96
-CQM C3P H38 SING N N  97
-CQM C2P H39 SING N N  98
-CQM C2P H40 SING N N  99
-CQM  O7 H41 SING N N 100
-CQM  O4 H42 SING N N 101
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+CQM O7  C3  SING N N 1   
+CQM O3  C4  DOUB N N 2   
+CQM C6  C3  SING N N 3   
+CQM C3  C4  SING N N 4   
+CQM C3  C2  SING N N 5   
+CQM C4  O4  SING N N 6   
+CQM O2  C1  DOUB N N 7   
+CQM C1  C2  SING N N 8   
+CQM C1  S1P SING N N 9   
+CQM C2P C3P SING N N 10  
+CQM C2P S1P SING N N 11  
+CQM C3P N4P SING N N 12  
+CQM O5P C5P DOUB N N 13  
+CQM N4P C5P SING N N 14  
+CQM C5P C6P SING N N 15  
+CQM C6P C7P SING N N 16  
+CQM C7P N8P SING N N 17  
+CQM N1A C2A SING Y N 18  
+CQM N1A C6A DOUB Y N 19  
+CQM N6A C6A SING N N 20  
+CQM C2A N3A DOUB Y N 21  
+CQM C6A C5A SING Y N 22  
+CQM O9P C9P DOUB N N 23  
+CQM N8P C9P SING N N 24  
+CQM C9P CAP SING N N 25  
+CQM N3A C4A SING Y N 26  
+CQM C5A C4A DOUB Y N 27  
+CQM C5A N7A SING Y N 28  
+CQM C4A N9A SING Y N 29  
+CQM CAP OAP SING N N 30  
+CQM CAP CBP SING N N 31  
+CQM CDP CBP SING N N 32  
+CQM N7A C8A DOUB Y N 33  
+CQM CEP CBP SING N N 34  
+CQM CBP CCP SING N N 35  
+CQM N9A C8A SING Y N 36  
+CQM N9A C1B SING N N 37  
+CQM O2B C2B SING N N 38  
+CQM C1B C2B SING N N 39  
+CQM C1B O4B SING N N 40  
+CQM C2B C3B SING N N 41  
+CQM CCP O6A SING N N 42  
+CQM O6A P2A SING N N 43  
+CQM O4B C4B SING N N 44  
+CQM O3B C3B SING N N 45  
+CQM O3B P3B SING N N 46  
+CQM C3B C4B SING N N 47  
+CQM O5A P2A DOUB N N 48  
+CQM O7A P3B DOUB N N 49  
+CQM P2A O3A SING N N 50  
+CQM P2A O4A SING N N 51  
+CQM C4B C5B SING N N 52  
+CQM O3A P1A SING N N 53  
+CQM P3B O8A SING N N 54  
+CQM P3B O9A SING N N 55  
+CQM O5B C5B SING N N 56  
+CQM O5B P1A SING N N 57  
+CQM P1A O1A DOUB N N 58  
+CQM P1A O2A SING N N 59  
+CQM C2  H1  SING N N 60  
+CQM C2  H2  SING N N 61  
+CQM C6  H3  SING N N 62  
+CQM C6  H4  SING N N 63  
+CQM C6  H5  SING N N 64  
+CQM O4A H6  SING N N 65  
+CQM O2A H7  SING N N 66  
+CQM C5B H8  SING N N 67  
+CQM C5B H9  SING N N 68  
+CQM C4B H10 SING N N 69  
+CQM C3B H11 SING N N 70  
+CQM C2B H12 SING N N 71  
+CQM O2B H13 SING N N 72  
+CQM C1B H14 SING N N 73  
+CQM O8A H15 SING N N 74  
+CQM O9A H16 SING N N 75  
+CQM C2A H17 SING N N 76  
+CQM C8A H18 SING N N 77  
+CQM N6A H19 SING N N 78  
+CQM N6A H20 SING N N 79  
+CQM CCP H21 SING N N 80  
+CQM CCP H22 SING N N 81  
+CQM CDP H23 SING N N 82  
+CQM CDP H24 SING N N 83  
+CQM CDP H25 SING N N 84  
+CQM CEP H26 SING N N 85  
+CQM CEP H27 SING N N 86  
+CQM CEP H28 SING N N 87  
+CQM CAP H29 SING N N 88  
+CQM OAP H30 SING N N 89  
+CQM N8P H31 SING N N 90  
+CQM C7P H32 SING N N 91  
+CQM C7P H33 SING N N 92  
+CQM C6P H34 SING N N 93  
+CQM C6P H35 SING N N 94  
+CQM N4P H36 SING N N 95  
+CQM C3P H37 SING N N 96  
+CQM C3P H38 SING N N 97  
+CQM C2P H39 SING N N 98  
+CQM C2P H40 SING N N 99  
+CQM O7  H41 SING N N 100 
+CQM O4  H42 SING N N 101 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-CQM           SMILES              ACDLabs 12.01                                                                                                                                                                                                                                        C(C(SCCNC(CCNC(C(C(COP(OP(=O)(O)OCC1OC(C(C1OP(O)(O)=O)O)n2cnc3c2ncnc3N)(O)=O)(C)C)O)=O)=O)=O)C(C(O)=O)(C)O
-CQM            InChI                InChI  1.03 InChI=1S/C26H42N7O20P3S/c1-25(2,19(37)22(38)29-5-4-14(34)28-6-7-57-15(35)8-26(3,41)24(39)40)10-50-56(47,48)53-55(45,46)49-9-13-18(52-54(42,43)44)17(36)23(51-13)33-12-32-16-20(27)30-11-31-21(16)33/h11-13,17-19,23,36-37,41H,4-10H2,1-3H3,(H,28,34)(H,29,38)(H,39,40)(H,45,46)(H,47,48)(H2,27,30,31)(H2,42,43,44)/t13-,17-,18-,19+,23-,26+/m1/s1
-CQM         InChIKey                InChI  1.03                                                                                                                                                                                                                                                                                                                       XYGOWHUIVNMEIA-XBVYHAPZSA-N
-CQM SMILES_CANONICAL               CACTVS 3.385                                                                                                                                                                                                         CC(C)(CO[P](O)(=O)O[P](O)(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1O[P](O)(O)=O)n2cnc3c(N)ncnc23)[C@@H](O)C(=O)NCCC(=O)NCCSC(=O)C[C@](C)(O)C(O)=O
-CQM           SMILES               CACTVS 3.385                                                                                                                                                                                                                 CC(C)(CO[P](O)(=O)O[P](O)(=O)OC[CH]1O[CH]([CH](O)[CH]1O[P](O)(O)=O)n2cnc3c(N)ncnc23)[CH](O)C(=O)NCCC(=O)NCCSC(=O)C[C](C)(O)C(O)=O
-CQM SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                                                                                                                              C[C@](CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)O)(C(=O)O)O
-CQM           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                                                                                                                                                        CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC(C)(C(=O)O)O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+CQM SMILES           ACDLabs              12.01 "C(C(SCCNC(CCNC(C(C(COP(OP(=O)(O)OCC1OC(C(C1OP(O)(O)=O)O)n2cnc3c2ncnc3N)(O)=O)(C)C)O)=O)=O)=O)C(C(O)=O)(C)O" 
+CQM InChI            InChI                1.03  
+;InChI=1S/C26H42N7O20P3S/c1-25(2,19(37)22(38)29-5-4-14(34)28-6-7-57-15(35)8-26(3,41)24(39)40)10-50-56(47,48)53-55(45,46)49-9-13-18(52-54(42,43)44)17(36)23(51-13)33-12-32-16-20(27)30-11-31-21(16)33/h11-13,17-19,23,36-37,41H,4-10H2,1-3H3,(H,28,34)(H,29,38)(H,39,40)(H,45,46)(H,47,48)(H2,27,30,31)(H2,42,43,44)/t13-,17-,18-,19+,23-,26+/m1/s1
+;
+CQM InChIKey         InChI                1.03  XYGOWHUIVNMEIA-XBVYHAPZSA-N 
+CQM SMILES_CANONICAL CACTVS               3.385 "CC(C)(CO[P](O)(=O)O[P](O)(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1O[P](O)(O)=O)n2cnc3c(N)ncnc23)[C@@H](O)C(=O)NCCC(=O)NCCSC(=O)C[C@](C)(O)C(O)=O" 
+CQM SMILES           CACTVS               3.385 "CC(C)(CO[P](O)(=O)O[P](O)(=O)OC[CH]1O[CH]([CH](O)[CH]1O[P](O)(O)=O)n2cnc3c(N)ncnc23)[CH](O)C(=O)NCCC(=O)NCCSC(=O)C[C](C)(O)C(O)=O" 
+CQM SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C[C@](CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)O)(C(=O)O)O" 
+CQM SMILES           "OpenEye OEToolkits" 2.0.6 "CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)n2cnc3c2ncnc3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC(C)(C(=O)O)O)O" 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-CQM "SYSTEMATIC NAME"              ACDLabs 12.01                                 "(3R,5R,9R,21S)-1-[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-4-hydroxy-3-(phosphonooxy)tetrahydrofuran-2-yl]-3,5,9,21-tetrahydroxy-8,8,21-trimethyl-10,14,19-trioxo-2,4,6-trioxa-18-thia-11,15-diaza-3,5-diphosphadocosan-22-oic acid 3,5-dioxide (non-preferred name)"
-CQM "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "(2~{S})-4-[2-[3-[[(2~{R})-4-[[[(2~{R},3~{S},4~{R},5~{R})-5-(6-aminopurin-9-yl)-4-oxidanyl-3-phosphonooxy-oxolan-2-yl]methoxy-oxidanyl-phosphoryl]oxy-oxidanyl-phosphoryl]oxy-3,3-dimethyl-2-oxidanyl-butanoyl]amino]propanoylamino]ethylsulfanyl]-2-methyl-2-oxidanyl-4-oxidanylidene-butanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+CQM "SYSTEMATIC NAME" ACDLabs              12.01 
+;(3R,5R,9R,21S)-1-[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-4-hydroxy-3-(phosphonooxy)tetrahydrofuran-2-yl]-3,5,9,21-tetrahydroxy-8,8,21-trimethyl-10,14,19-trioxo-2,4,6-trioxa-18-thia-11,15-diaza-3,5-diphosphadocosan-22-oic acid 3,5-dioxide (non-preferred name)
+;
+CQM "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 
+;(2~{S})-4-[2-[3-[[(2~{R})-4-[[[(2~{R},3~{S},4~{R},5~{R})-5-(6-aminopurin-9-yl)-4-oxidanyl-3-phosphonooxy-oxolan-2-yl]methoxy-oxidanyl-phosphoryl]oxy-oxidanyl-phosphoryl]oxy-3,3-dimethyl-2-oxidanyl-butanoyl]amino]propanoylamino]ethylsulfanyl]-2-methyl-2-oxidanyl-4-oxidanylidene-butanoic acid
+;
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-CQM "Create component" 2017-09-29 RCSB
-CQM  "Initial release" 2018-08-01 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-CQM  C2 C  7.304  11.846  1
-CQM  C4 C  4.370  12.475  2
-CQM  C6 C  6.152  13.627  3
-CQM P2A P 22.265  -0.661  4
-CQM O5A O 22.579   0.806  5
-CQM O4A O 21.950  -2.128  6
-CQM O3A O 23.731  -0.975  7
-CQM O6A O 20.798  -0.347  8
-CQM P1A P 24.192  -2.403  9
-CQM O1A O 22.765  -2.864 10
-CQM O2A O 25.620  -1.942 11
-CQM O5B O 24.653  -3.830 12
-CQM C5B C 26.120  -4.145 13
-CQM C4B C 26.581  -5.572 14
-CQM O4B O 25.697  -6.784 15
-CQM C3B C 28.007  -6.038 16
-CQM O3B O 29.222  -5.159 17
-CQM C2B C 28.004  -7.538 18
-CQM O2B O 29.216  -8.422 19
-CQM C1B C 26.577  -7.999 20
-CQM P3B P 29.068  -3.667 21
-CQM O7A O 28.914  -2.174 22
-CQM O8A O 30.560  -3.512 23
-CQM O9A O 27.576  -3.821 24
-CQM N9A N 26.111  -9.425 25
-CQM C4A C 24.692  -9.882 26
-CQM N3A N 23.392  -9.132 27
-CQM C2A C 22.093  -9.882 28
-CQM N1A N 22.093 -11.382 29
-CQM C6A C 23.392 -12.132 30
-CQM C5A C 24.692 -11.382 31
-CQM N7A N 26.111 -11.839 32
-CQM C8A C 26.986 -10.632 33
-CQM N6A N 23.392 -13.632 34
-CQM CBP C 18.870   1.395 35
-CQM CCP C 20.337   1.081 36
-CQM CDP C 19.185   2.862 37
-CQM CEP C 18.556  -0.072 38
-CQM CAP C 17.403   1.710 39
-CQM OAP O 16.398   0.597 40
-CQM C9P C 16.942   3.137 41
-CQM O9P O 17.948   4.250 42
-CQM N8P N 15.476   3.451 43
-CQM C7P C 15.015   4.879 44
-CQM C6P C 13.548   5.193 45
-CQM C5P C 13.087   6.620 46
-CQM O5P O 14.093   7.733 47
-CQM N4P N 11.620   6.935 48
-CQM C3P C 11.159   8.362 49
-CQM C2P C  9.693   8.677 50
-CQM S1P S  9.232  10.104 51
-CQM  C1 C  7.765  10.418 52
-CQM  O2 O  6.759   9.306 53
-CQM  C3 C  5.837  12.160 54
-CQM  O7 O  5.523  10.694 55
-CQM  O3 O  3.909  13.902 56
-CQM  O4 O  3.365  11.362 57
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-CQM  O7  C3 SINGLE       NONE  1
-CQM  O3  C4 DOUBLE       NONE  2
-CQM  C6  C3 SINGLE BEGINWEDGE  3
-CQM  C3  C4 SINGLE       NONE  4
-CQM  C3  C2 SINGLE       NONE  5
-CQM  C4  O4 SINGLE       NONE  6
-CQM  O2  C1 DOUBLE       NONE  7
-CQM  C1  C2 SINGLE       NONE  8
-CQM  C1 S1P SINGLE       NONE  9
-CQM C2P C3P SINGLE       NONE 10
-CQM C2P S1P SINGLE       NONE 11
-CQM C3P N4P SINGLE       NONE 12
-CQM O5P C5P DOUBLE       NONE 13
-CQM N4P C5P SINGLE       NONE 14
-CQM C5P C6P SINGLE       NONE 15
-CQM C6P C7P SINGLE       NONE 16
-CQM C7P N8P SINGLE       NONE 17
-CQM N1A C2A SINGLE       NONE 18
-CQM N1A C6A DOUBLE       NONE 19
-CQM N6A C6A SINGLE       NONE 20
-CQM C2A N3A DOUBLE       NONE 21
-CQM C6A C5A SINGLE       NONE 22
-CQM O9P C9P DOUBLE       NONE 23
-CQM N8P C9P SINGLE       NONE 24
-CQM C9P CAP SINGLE       NONE 25
-CQM N3A C4A SINGLE       NONE 26
-CQM C5A C4A DOUBLE       NONE 27
-CQM C5A N7A SINGLE       NONE 28
-CQM C4A N9A SINGLE       NONE 29
-CQM CAP OAP SINGLE  BEGINDASH 30
-CQM CAP CBP SINGLE       NONE 31
-CQM CDP CBP SINGLE       NONE 32
-CQM N7A C8A DOUBLE       NONE 33
-CQM CEP CBP SINGLE       NONE 34
-CQM CBP CCP SINGLE       NONE 35
-CQM N9A C8A SINGLE       NONE 36
-CQM N9A C1B SINGLE  BEGINDASH 37
-CQM O2B C2B SINGLE BEGINWEDGE 38
-CQM C1B C2B SINGLE       NONE 39
-CQM C1B O4B SINGLE       NONE 40
-CQM C2B C3B SINGLE       NONE 41
-CQM CCP O6A SINGLE       NONE 42
-CQM O6A P2A SINGLE       NONE 43
-CQM O4B C4B SINGLE       NONE 44
-CQM O3B C3B SINGLE BEGINWEDGE 45
-CQM O3B P3B SINGLE       NONE 46
-CQM C3B C4B SINGLE       NONE 47
-CQM O5A P2A DOUBLE       NONE 48
-CQM O7A P3B DOUBLE       NONE 49
-CQM P2A O3A SINGLE       NONE 50
-CQM P2A O4A SINGLE       NONE 51
-CQM C4B C5B SINGLE  BEGINDASH 52
-CQM O3A P1A SINGLE       NONE 53
-CQM P3B O8A SINGLE       NONE 54
-CQM P3B O9A SINGLE       NONE 55
-CQM O5B C5B SINGLE       NONE 56
-CQM O5B P1A SINGLE       NONE 57
-CQM P1A O1A DOUBLE       NONE 58
-CQM P1A O2A SINGLE       NONE 59
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-CQM MurckoScaffold S1 scaffold c1ncc2ncn([C@H]3CCCO3)c2n1 InChI=1S/C9H10N4O/c1-2-8(14-3-1)13-6-12-7-4-10-5-11-9(7)13/h4-6,8H,1-3H2/t8-/m1/s1 DAKONNSVCLKUJN-MRVPVSSYSA-N
-CQM        adenine F1 fragment          Nc1ncnc2nc[nH]c12                    InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-CQM          amide F2 fragment                    CC(N)=O                                             InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-CQM      imidazole F3 fragment                 c1c[nH]cn1                                         InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-CQM      phosphate F4 fragment                 O=P(O)(O)O                                            InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-CQM         purine F5 fragment           c1ncc2[nH]cnc2n1                           InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-CQM     pyrimidine F6 fragment                   c1cncnc1                                               InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-CQM         ribose F7 fragment              OCC1OCC(O)C1O                                  InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-CQM N1A F1 1
-CQM C6A F1 1
-CQM C5A F1 1
-CQM C4A F1 1
-CQM N3A F1 1
-CQM C2A F1 1
-CQM N9A F1 1
-CQM C8A F1 1
-CQM N7A F1 1
-CQM N6A F1 1
-CQM N8P F2 1
-CQM C9P F2 1
-CQM O9P F2 1
-CQM CAP F2 1
-CQM N4P F2 2
-CQM C5P F2 2
-CQM O5P F2 2
-CQM C6P F2 2
-CQM C4A F3 1
-CQM C5A F3 1
-CQM N7A F3 1
-CQM C8A F3 1
-CQM N9A F3 1
-CQM O4A F4 1
-CQM P2A F4 1
-CQM O5A F4 1
-CQM O3A F4 1
-CQM O6A F4 1
-CQM O3A F4 2
-CQM P1A F4 2
-CQM O1A F4 2
-CQM O2A F4 2
-CQM O5B F4 2
-CQM O3B F4 3
-CQM P3B F4 3
-CQM O7A F4 3
-CQM O8A F4 3
-CQM O9A F4 3
-CQM N7A F5 1
-CQM C8A F5 1
-CQM N9A F5 1
-CQM C4A F5 1
-CQM C5A F5 1
-CQM C6A F5 1
-CQM N1A F5 1
-CQM C2A F5 1
-CQM N3A F5 1
-CQM C5A F6 1
-CQM C4A F6 1
-CQM N3A F6 1
-CQM C2A F6 1
-CQM N1A F6 1
-CQM C6A F6 1
-CQM C2B F7 1
-CQM C3B F7 1
-CQM C4B F7 1
-CQM O4B F7 1
-CQM C1B F7 1
-CQM C5B F7 1
-CQM O5B F7 1
-CQM O3B F7 1
-CQM O2B F7 1
-CQM C4B S1 1
-CQM O4B S1 1
-CQM C3B S1 1
-CQM C2B S1 1
-CQM C1B S1 1
-CQM N9A S1 1
-CQM C4A S1 1
-CQM N3A S1 1
-CQM C2A S1 1
-CQM N1A S1 1
-CQM C6A S1 1
-CQM C5A S1 1
-CQM N7A S1 1
-CQM C8A S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               CQM
-_pdbe_chem_comp_rdkit_properties.exactmw                               897.142
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           27
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           12
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     33
-_pdbe_chem_comp_rdkit_properties.NumHBD                                11
-_pdbe_chem_comp_rdkit_properties.NumHBA                                26
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        31
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.654
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             385.563
-_pdbe_chem_comp_rdkit_properties.tpsa                                  421.160
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.919
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             186.945
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         57
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-CQM UniChem        ChEBI            36882
-CQM UniChem         ZINC ZINC000096077636
-CQM UniChem MetaboLights       MTBLC36882
-CQM UniChem       BRENDA           114701
-CQM UniChem       BRENDA            12268
-CQM UniChem       BRENDA            90061
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CQM  C2  11.549  1.134 -0.781 ETKDGv2  1
-CQM  C4  11.802  3.601 -0.316 ETKDGv2  2
-CQM  C6  12.667  2.675 -2.454 ETKDGv2  3
-CQM P2A  -1.908  1.087  2.338 ETKDGv2  4
-CQM O5A  -2.257  1.417  3.772 ETKDGv2  5
-CQM O4A  -1.524  2.516  1.512 ETKDGv2  6
-CQM O3A  -3.218  0.282  1.605 ETKDGv2  7
-CQM O6A  -0.551  0.056  2.340 ETKDGv2  8
-CQM P1A  -4.442  1.432  1.319 ETKDGv2  9
-CQM O1A  -4.038  2.326  0.168 ETKDGv2 10
-CQM O2A  -4.726  2.382  2.694 ETKDGv2 11
-CQM O5B  -5.875  0.619  0.888 ETKDGv2 12
-CQM C5B  -6.255 -0.209  1.962 ETKDGv2 13
-CQM C4B  -7.504 -1.012  1.581 ETKDGv2 14
-CQM O4B  -8.559 -0.121  1.281 ETKDGv2 15
-CQM C3B  -7.249 -1.942  0.380 ETKDGv2 16
-CQM O3B  -7.824 -3.215  0.621 ETKDGv2 17
-CQM C2B  -7.996 -1.247 -0.732 ETKDGv2 18
-CQM O2B  -8.551 -2.161 -1.642 ETKDGv2 19
-CQM C1B  -9.071 -0.481  0.021 ETKDGv2 20
-CQM P3B  -6.639 -4.270  1.254 ETKDGv2 21
-CQM O7A  -6.051 -3.700  2.525 ETKDGv2 22
-CQM O8A  -5.408 -4.503  0.115 ETKDGv2 23
-CQM O9A  -7.361 -5.760  1.602 ETKDGv2 24
-CQM N9A  -9.467  0.717 -0.714 ETKDGv2 25
-CQM C4A -10.736  1.065 -1.223 ETKDGv2 26
-CQM N3A -11.933  0.278 -1.216 ETKDGv2 27
-CQM C2A -13.021  0.800 -1.720 ETKDGv2 28
-CQM N1A -13.009  2.144 -2.266 ETKDGv2 29
-CQM C6A -11.919  2.866 -2.271 ETKDGv2 30
-CQM C5A -10.700  2.275 -1.708 ETKDGv2 31
-CQM N7A  -9.402  2.845 -1.554 ETKDGv2 32
-CQM C8A  -8.711  1.909 -0.968 ETKDGv2 33
-CQM N6A -11.926  4.188 -2.808 ETKDGv2 34
-CQM CBP   0.990 -1.221  0.947 ETKDGv2 35
-CQM CCP  -0.256 -0.295  1.006 ETKDGv2 36
-CQM CDP   0.703 -2.511  1.752 ETKDGv2 37
-CQM CEP   2.192 -0.484  1.584 ETKDGv2 38
-CQM CAP   1.299 -1.550 -0.553 ETKDGv2 39
-CQM OAP   0.207 -2.209 -1.144 ETKDGv2 40
-CQM C9P   2.547 -2.384 -0.735 ETKDGv2 41
-CQM O9P   2.497 -3.633 -0.567 ETKDGv2 42
-CQM N8P   3.783 -1.759 -1.107 ETKDGv2 43
-CQM C7P   5.022 -2.529 -1.224 ETKDGv2 44
-CQM C6P   6.222 -1.619 -1.524 ETKDGv2 45
-CQM C5P   6.571 -0.684 -0.396 ETKDGv2 46
-CQM O5P   5.918 -0.704  0.684 ETKDGv2 47
-CQM N4P   7.658  0.236 -0.560 ETKDGv2 48
-CQM C3P   8.085  1.152  0.497 ETKDGv2 49
-CQM C2P   8.816  0.408  1.619 ETKDGv2 50
-CQM S1P  10.186 -0.638  1.001 ETKDGv2 51
-CQM  C1  11.309  0.720  0.653 ETKDGv2 52
-CQM  O2  11.902  1.253  1.579 ETKDGv2 53
-CQM  C3  12.452  2.388 -0.956 ETKDGv2 54
-CQM  O7  13.707  2.168 -0.351 ETKDGv2 55
-CQM  O3  12.397  4.224  0.603 ETKDGv2 56
-CQM  O4  10.548  4.052 -0.726 ETKDGv2 57
-CQM  H1  12.016  0.271 -1.304 ETKDGv2 58
-CQM  H2  10.571  1.305 -1.274 ETKDGv2 59
-CQM  H3  13.177  1.819 -2.945 ETKDGv2 60
-CQM  H4  13.302  3.578 -2.585 ETKDGv2 61
-CQM  H5  11.700  2.842 -2.975 ETKDGv2 62
-CQM  H6  -0.708  2.855  1.959 ETKDGv2 63
-CQM  H7  -5.489  2.962  2.446 ETKDGv2 64
-CQM  H8  -5.445 -0.928  2.225 ETKDGv2 65
-CQM  H9  -6.499  0.404  2.859 ETKDGv2 66
-CQM H10  -7.802 -1.613  2.469 ETKDGv2 67
-CQM H11  -6.171 -1.996  0.090 ETKDGv2 68
-CQM H12  -7.303 -0.548 -1.257 ETKDGv2 69
-CQM H13  -8.895 -1.624 -2.403 ETKDGv2 70
-CQM H14  -9.960 -1.134  0.176 ETKDGv2 71
-CQM H15  -4.800 -5.165  0.531 ETKDGv2 72
-CQM H16  -7.725 -6.070  0.735 ETKDGv2 73
-CQM H17 -13.938  0.226 -1.728 ETKDGv2 74
-CQM H18  -7.671  2.031 -0.697 ETKDGv2 75
-CQM H19 -11.056  4.765 -2.813 ETKDGv2 76
-CQM H20 -12.804  4.592 -3.204 ETKDGv2 77
-CQM H21  -0.048  0.619  0.402 ETKDGv2 78
-CQM H22  -1.122 -0.830  0.552 ETKDGv2 79
-CQM H23   1.596 -3.169  1.787 ETKDGv2 80
-CQM H24   0.434 -2.270  2.803 ETKDGv2 81
-CQM H25  -0.139 -3.079  1.304 ETKDGv2 82
-CQM H26   2.432  0.440  1.014 ETKDGv2 83
-CQM H27   1.974 -0.197  2.635 ETKDGv2 84
-CQM H28   3.095 -1.130  1.600 ETKDGv2 85
-CQM H29   1.454 -0.579 -1.081 ETKDGv2 86
-CQM H30   0.319 -2.131 -2.128 ETKDGv2 87
-CQM H31   3.796 -0.725 -1.263 ETKDGv2 88
-CQM H32   5.206 -3.092 -0.282 ETKDGv2 89
-CQM H33   4.914 -3.264 -2.050 ETKDGv2 90
-CQM H34   6.010 -1.023 -2.438 ETKDGv2 91
-CQM H35   7.107 -2.257 -1.733 ETKDGv2 92
-CQM H36   8.138  0.289 -1.487 ETKDGv2 93
-CQM H37   8.755  1.926  0.071 ETKDGv2 94
-CQM H38   7.201  1.681  0.913 ETKDGv2 95
-CQM H39   9.204  1.141  2.359 ETKDGv2 96
-CQM H40   8.098 -0.249  2.152 ETKDGv2 97
-CQM H41  14.111  1.359 -0.764 ETKDGv2 98
-CQM H42  10.028  3.595 -1.465 ETKDGv2 99
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+CQM "Create component" 2017-09-29 RCSB 
+CQM "Initial release"  2018-08-01 RCSB 
+# 

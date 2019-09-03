@@ -1,326 +1,143 @@
 data_BBS
-#
-_chem_comp.id                                        BBS
-_chem_comp.name                                      "4-TERT-BUTYLBENZENESULFONIC ACID"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C10 H14 O3 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2000-03-31
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            214.281
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         BBS
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1EOJ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    BBS 
+_chem_comp.name                                  "4-TERT-BUTYLBENZENESULFONIC ACID" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C10 H14 O3 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2000-03-31 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        214.281 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     BBS 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1EOJ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-BBS  C1  C1 C 0 1 N N N 22.027 14.153 26.090  1.442  0.030  3.804  C1 BBS  1
-BBS  C2  C2 C 0 1 N N N 21.334 15.239 25.322  0.000  0.022  3.294  C2 BBS  2
-BBS  C3  C3 C 0 1 N N N 20.844 16.309 26.260 -0.722 -1.216  3.827  C3 BBS  3
-BBS  C4  C4 C 0 1 N N N 22.300 15.841 24.330 -0.719  1.281  3.782  C4 BBS  4
-BBS CD2 CD2 C 0 1 Y N N 20.255 14.355 23.283 -1.197 -0.015  1.097 CD2 BBS  5
-BBS CE2 CE2 C 0 1 Y N N 19.100 13.820 22.687 -1.197 -0.040 -0.285 CE2 BBS  6
-BBS  CZ  CZ C 0 1 Y N N 17.954 13.615 23.356  0.000 -0.054 -0.976  CZ BBS  7
-BBS CE1 CE1 C 0 1 Y N N 17.885 13.900 24.740  1.197 -0.042 -0.285 CE1 BBS  8
-BBS CD1 CD1 C 0 1 Y N N 19.021 14.424 25.367  1.197 -0.012  1.097 CD1 BBS  9
-BBS  CG  CG C 0 1 Y N N 20.198 14.667 24.660  0.000 -0.004  1.788  CG BBS 10
-BBS   S   S S 0 1 N N N 16.549 13.197 22.404 -0.000 -0.087 -2.737   S BBS 11
-BBS  O1  O1 O 0 1 N N N 16.606 12.321 21.133  1.262 -0.620 -3.114  O1 BBS 12
-BBS  O2  O2 O 0 1 N N N 15.761 11.997 23.172 -1.262 -0.619 -3.114  O2 BBS 13
-BBS  O3  O3 O 0 1 N Y N 15.335 14.164 22.443  0.000  1.356 -3.220  O3 BBS 14
-BBS H11 1H1 H 0 1 N N N 22.390 13.360 25.395  1.957  0.912  3.425 H11 BBS 15
-BBS H12 2H1 H 0 1 N N N 22.847 14.554 26.729  1.442  0.049  4.894 H12 BBS 16
-BBS H13 3H1 H 0 1 N N N 21.379 13.735 26.896  1.955 -0.867  3.457 H13 BBS 17
-BBS H31 1H3 H 0 1 N N N 20.328 17.116 25.689 -0.210 -2.113  3.480 H31 BBS 18
-BBS H32 2H3 H 0 1 N N N 20.196 15.891 27.066 -0.722 -1.196  4.917 H32 BBS 19
-BBS H33 3H3 H 0 1 N N N 21.664 16.710 26.899 -1.750 -1.221  3.464 H33 BBS 20
-BBS H41 1H4 H 0 1 N N N 21.784 16.648 23.759 -0.204  2.164  3.402 H41 BBS 21
-BBS H42 2H4 H 0 1 N N N 23.237 16.198 24.816 -1.747  1.276  3.418 H42 BBS 22
-BBS H43 3H4 H 0 1 N N N 22.752 15.072 23.660 -0.719  1.301  4.872 H43 BBS 23
-BBS HD2 HD2 H 0 1 N N N 21.171 14.523 22.692 -2.132 -0.004  1.636 HD2 BBS 24
-BBS HE2 HE2 H 0 1 N N N 19.092 13.541 21.619 -2.132 -0.049 -0.825 HE2 BBS 25
-BBS HE1 HE1 H 0 1 N N N 16.963 13.717 25.318  2.132 -0.053 -0.825 HE1 BBS 26
-BBS HD1 HD1 H 0 1 N N N 18.987 14.651 26.445  2.132 -0.003  1.636 HD1 BBS 27
-BBS HO3 HO3 H 0 1 N N N 14.571 13.936 21.925  0.000  1.328 -4.186 HO3 BBS 28
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+BBS C1  C1  C 0 1 N N N 22.027 14.153 26.090 1.442  0.030  3.804  C1  BBS 1  
+BBS C2  C2  C 0 1 N N N 21.334 15.239 25.322 0.000  0.022  3.294  C2  BBS 2  
+BBS C3  C3  C 0 1 N N N 20.844 16.309 26.260 -0.722 -1.216 3.827  C3  BBS 3  
+BBS C4  C4  C 0 1 N N N 22.300 15.841 24.330 -0.719 1.281  3.782  C4  BBS 4  
+BBS CD2 CD2 C 0 1 Y N N 20.255 14.355 23.283 -1.197 -0.015 1.097  CD2 BBS 5  
+BBS CE2 CE2 C 0 1 Y N N 19.100 13.820 22.687 -1.197 -0.040 -0.285 CE2 BBS 6  
+BBS CZ  CZ  C 0 1 Y N N 17.954 13.615 23.356 0.000  -0.054 -0.976 CZ  BBS 7  
+BBS CE1 CE1 C 0 1 Y N N 17.885 13.900 24.740 1.197  -0.042 -0.285 CE1 BBS 8  
+BBS CD1 CD1 C 0 1 Y N N 19.021 14.424 25.367 1.197  -0.012 1.097  CD1 BBS 9  
+BBS CG  CG  C 0 1 Y N N 20.198 14.667 24.660 0.000  -0.004 1.788  CG  BBS 10 
+BBS S   S   S 0 1 N N N 16.549 13.197 22.404 -0.000 -0.087 -2.737 S   BBS 11 
+BBS O1  O1  O 0 1 N N N 16.606 12.321 21.133 1.262  -0.620 -3.114 O1  BBS 12 
+BBS O2  O2  O 0 1 N N N 15.761 11.997 23.172 -1.262 -0.619 -3.114 O2  BBS 13 
+BBS O3  O3  O 0 1 N Y N 15.335 14.164 22.443 0.000  1.356  -3.220 O3  BBS 14 
+BBS H11 1H1 H 0 1 N N N 22.390 13.360 25.395 1.957  0.912  3.425  H11 BBS 15 
+BBS H12 2H1 H 0 1 N N N 22.847 14.554 26.729 1.442  0.049  4.894  H12 BBS 16 
+BBS H13 3H1 H 0 1 N N N 21.379 13.735 26.896 1.955  -0.867 3.457  H13 BBS 17 
+BBS H31 1H3 H 0 1 N N N 20.328 17.116 25.689 -0.210 -2.113 3.480  H31 BBS 18 
+BBS H32 2H3 H 0 1 N N N 20.196 15.891 27.066 -0.722 -1.196 4.917  H32 BBS 19 
+BBS H33 3H3 H 0 1 N N N 21.664 16.710 26.899 -1.750 -1.221 3.464  H33 BBS 20 
+BBS H41 1H4 H 0 1 N N N 21.784 16.648 23.759 -0.204 2.164  3.402  H41 BBS 21 
+BBS H42 2H4 H 0 1 N N N 23.237 16.198 24.816 -1.747 1.276  3.418  H42 BBS 22 
+BBS H43 3H4 H 0 1 N N N 22.752 15.072 23.660 -0.719 1.301  4.872  H43 BBS 23 
+BBS HD2 HD2 H 0 1 N N N 21.171 14.523 22.692 -2.132 -0.004 1.636  HD2 BBS 24 
+BBS HE2 HE2 H 0 1 N N N 19.092 13.541 21.619 -2.132 -0.049 -0.825 HE2 BBS 25 
+BBS HE1 HE1 H 0 1 N N N 16.963 13.717 25.318 2.132  -0.053 -0.825 HE1 BBS 26 
+BBS HD1 HD1 H 0 1 N N N 18.987 14.651 26.445 2.132  -0.003 1.636  HD1 BBS 27 
+BBS HO3 HO3 H 0 1 N N N 14.571 13.936 21.925 0.000  1.328  -4.186 HO3 BBS 28 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-BBS  C1  C2 SING N N  1
-BBS  C1 H11 SING N N  2
-BBS  C1 H12 SING N N  3
-BBS  C1 H13 SING N N  4
-BBS  C2  C3 SING N N  5
-BBS  C2  C4 SING N N  6
-BBS  C2  CG SING N N  7
-BBS  C3 H31 SING N N  8
-BBS  C3 H32 SING N N  9
-BBS  C3 H33 SING N N 10
-BBS  C4 H41 SING N N 11
-BBS  C4 H42 SING N N 12
-BBS  C4 H43 SING N N 13
-BBS CD2 CE2 DOUB Y N 14
-BBS CD2  CG SING Y N 15
-BBS CD2 HD2 SING N N 16
-BBS CE2  CZ SING Y N 17
-BBS CE2 HE2 SING N N 18
-BBS  CZ CE1 DOUB Y N 19
-BBS  CZ   S SING N N 20
-BBS CE1 CD1 SING Y N 21
-BBS CE1 HE1 SING N N 22
-BBS CD1  CG DOUB Y N 23
-BBS CD1 HD1 SING N N 24
-BBS   S  O1 DOUB N N 25
-BBS   S  O2 DOUB N N 26
-BBS   S  O3 SING N N 27
-BBS  O3 HO3 SING N N 28
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+BBS C1  C2  SING N N 1  
+BBS C1  H11 SING N N 2  
+BBS C1  H12 SING N N 3  
+BBS C1  H13 SING N N 4  
+BBS C2  C3  SING N N 5  
+BBS C2  C4  SING N N 6  
+BBS C2  CG  SING N N 7  
+BBS C3  H31 SING N N 8  
+BBS C3  H32 SING N N 9  
+BBS C3  H33 SING N N 10 
+BBS C4  H41 SING N N 11 
+BBS C4  H42 SING N N 12 
+BBS C4  H43 SING N N 13 
+BBS CD2 CE2 DOUB Y N 14 
+BBS CD2 CG  SING Y N 15 
+BBS CD2 HD2 SING N N 16 
+BBS CE2 CZ  SING Y N 17 
+BBS CE2 HE2 SING N N 18 
+BBS CZ  CE1 DOUB Y N 19 
+BBS CZ  S   SING N N 20 
+BBS CE1 CD1 SING Y N 21 
+BBS CE1 HE1 SING N N 22 
+BBS CD1 CG  DOUB Y N 23 
+BBS CD1 HD1 SING N N 24 
+BBS S   O1  DOUB N N 25 
+BBS S   O2  DOUB N N 26 
+BBS S   O3  SING N N 27 
+BBS O3  HO3 SING N N 28 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-BBS           SMILES              ACDLabs 10.04                                                    O=S(=O)(O)c1ccc(cc1)C(C)(C)C
-BBS SMILES_CANONICAL               CACTVS 3.341                                                  CC(C)(C)c1ccc(cc1)[S](O)(=O)=O
-BBS           SMILES               CACTVS 3.341                                                  CC(C)(C)c1ccc(cc1)[S](O)(=O)=O
-BBS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                    CC(C)(C)c1ccc(cc1)S(=O)(=O)O
-BBS           SMILES "OpenEye OEToolkits" 1.5.0                                                    CC(C)(C)c1ccc(cc1)S(=O)(=O)O
-BBS            InChI                InChI  1.03 InChI=1S/C10H14O3S/c1-10(2,3)8-4-6-9(7-5-8)14(11,12)13/h4-7H,1-3H3,(H,11,12,13)
-BBS         InChIKey                InChI  1.03                                                     LZQMCUIWYRQLOG-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+BBS SMILES           ACDLabs              10.04 "O=S(=O)(O)c1ccc(cc1)C(C)(C)C"                                                    
+BBS SMILES_CANONICAL CACTVS               3.341 "CC(C)(C)c1ccc(cc1)[S](O)(=O)=O"                                                  
+BBS SMILES           CACTVS               3.341 "CC(C)(C)c1ccc(cc1)[S](O)(=O)=O"                                                  
+BBS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(C)(C)c1ccc(cc1)S(=O)(=O)O"                                                    
+BBS SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C)(C)c1ccc(cc1)S(=O)(=O)O"                                                    
+BBS InChI            InChI                1.03  "InChI=1S/C10H14O3S/c1-10(2,3)8-4-6-9(7-5-8)14(11,12)13/h4-7H,1-3H3,(H,11,12,13)" 
+BBS InChIKey         InChI                1.03  LZQMCUIWYRQLOG-UHFFFAOYSA-N                                                       
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-BBS "SYSTEMATIC NAME"              ACDLabs 10.04 "4-tert-butylbenzenesulfonic acid"
-BBS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "4-tert-butylbenzenesulfonic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+BBS "SYSTEMATIC NAME" ACDLabs              10.04 "4-tert-butylbenzenesulfonic acid" 
+BBS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "4-tert-butylbenzenesulfonic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-BBS  "Create component" 2000-03-31  EBI
-BBS "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   BBS
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB07440
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "4-TERT-BUTYLBENZENESULFONIC ACID"
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           BBS
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB07440
-_pdbe_chem_comp_drugbank_classification.parent            "Benzenesulfonic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Benzene and substituted derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        Benzenoids
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as benzenesulfonic acids and derivatives. These are organic compounds containing a sulfonic acid or a derivative thereof that is linked to a benzene ring."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        BBS
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB07440
-_pdbe_chem_comp_drugbank_targets.name                           Prothrombin
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P00734
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-BBS  C1 C 4.500  4.268  1
-BBS  C2 C 4.500  2.768  2
-BBS  C3 C 6.000  2.768  3
-BBS  C4 C 3.000  2.768  4
-BBS CD2 C 5.799  0.517  5
-BBS CE2 C 5.799 -0.983  6
-BBS  CZ C 4.500 -1.732  7
-BBS CE1 C 3.201 -0.983  8
-BBS CD1 C 3.201  0.517  9
-BBS  CG C 4.500  1.268 10
-BBS   S S 4.500 -3.232 11
-BBS  O1 O 4.500 -4.732 12
-BBS  O2 O 3.000 -3.232 13
-BBS  O3 O 6.000 -3.232 14
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-BBS  C1  C2 SINGLE NONE  1
-BBS  C2  C3 SINGLE NONE  2
-BBS  C2  C4 SINGLE NONE  3
-BBS  C2  CG SINGLE NONE  4
-BBS CD2 CE2 DOUBLE NONE  5
-BBS CD2  CG SINGLE NONE  6
-BBS CE2  CZ SINGLE NONE  7
-BBS  CZ CE1 DOUBLE NONE  8
-BBS  CZ   S SINGLE NONE  9
-BBS CE1 CD1 SINGLE NONE 10
-BBS CD1  CG DOUBLE NONE 11
-BBS   S  O1 DOUBLE NONE 12
-BBS   S  O2 DOUBLE NONE 13
-BBS   S  O3 SINGLE NONE 14
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-BBS MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-BBS         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-BBS CD2 F1 1
-BBS CE2 F1 1
-BBS  CZ F1 1
-BBS CE1 F1 1
-BBS CD1 F1 1
-BBS  CG F1 1
-BBS CD2 S1 1
-BBS CE2 S1 1
-BBS  CZ S1 1
-BBS CE1 S1 1
-BBS CD1 S1 1
-BBS  CG S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               BBS
-_pdbe_chem_comp_rdkit_properties.exactmw                               214.066
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.400
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             104.276
-_pdbe_chem_comp_rdkit_properties.tpsa                                  54.370
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.068
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             55.261
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         14
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-BBS UniChem   ChEMBL    CHEMBL1231239
-BBS UniChem DrugBank          DB07440
-BBS UniChem     ZINC ZINC000001565641
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BBS  C1 -2.398  0.700  1.306 ETKDGv2  1
-BBS  C2 -1.952 -0.030  0.022 ETKDGv2  2
-BBS  C3 -2.472 -1.483  0.052 ETKDGv2  3
-BBS  C4 -2.617  0.683 -1.181 ETKDGv2  4
-BBS CD2  0.360 -0.701  1.051 ETKDGv2  5
-BBS CE2  1.697 -0.737  1.030 ETKDGv2  6
-BBS  CZ  2.441 -0.123 -0.088 ETKDGv2  7
-BBS CE1  1.768  0.478 -1.076 ETKDGv2  8
-BBS CD1  0.291  0.519 -1.060 ETKDGv2  9
-BBS  CG -0.411 -0.043 -0.047 ETKDGv2 10
-BBS   S  4.202 -0.158 -0.107 ETKDGv2 11
-BBS  O1  4.696 -1.263  0.783 ETKDGv2 12
-BBS  O2  4.695 -0.410 -1.504 ETKDGv2 13
-BBS  O3  4.802  1.310  0.452 ETKDGv2 14
-BBS H11 -2.043  0.176  2.218 ETKDGv2 15
-BBS H12 -3.507  0.754  1.364 ETKDGv2 16
-BBS H13 -1.996  1.736  1.321 ETKDGv2 17
-BBS H31 -2.117 -2.025  0.954 ETKDGv2 18
-BBS H32 -2.124 -2.037 -0.847 ETKDGv2 19
-BBS H33 -3.583 -1.504  0.067 ETKDGv2 20
-BBS H41 -2.305  1.749 -1.232 ETKDGv2 21
-BBS H42 -3.725  0.665 -1.087 ETKDGv2 22
-BBS H43 -2.355  0.177 -2.136 ETKDGv2 23
-BBS HD2 -0.154 -1.160  1.884 ETKDGv2 24
-BBS HE2  2.231 -1.216  1.840 ETKDGv2 25
-BBS HE1  2.297  0.944 -1.898 ETKDGv2 26
-BBS HD1 -0.188  1.016 -1.889 ETKDGv2 27
-BBS HO3  4.468  1.984 -0.193 ETKDGv2 28
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+BBS "Create component"  2000-03-31 EBI  
+BBS "Modify descriptor" 2011-06-04 RCSB 
+# 

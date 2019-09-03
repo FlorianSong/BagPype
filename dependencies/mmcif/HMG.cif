@@ -1,705 +1,294 @@
 data_HMG
-#
-_chem_comp.id                                        HMG
-_chem_comp.name                                      "3-HYDROXY-3-METHYLGLUTARYL-COENZYME A"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAC
-_chem_comp.formula                                   "C27 H39 N7 O20 P3 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             (S)-HMG-COA
-_chem_comp.pdbx_formal_charge                        -5
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2012-01-05
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            906.620
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         HMG
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1DQ9
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    HMG 
+_chem_comp.name                                  "3-HYDROXY-3-METHYLGLUTARYL-COENZYME A" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAC 
+_chem_comp.formula                               "C27 H39 N7 O20 P3 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "(S)-HMG-COA" 
+_chem_comp.pdbx_formal_charge                    -5 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2012-01-05 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        906.620 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     HMG 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1DQ9 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-HMG    P2A  P2A P  0 1 N N N 28.473 14.160 16.192  -2.024 -3.980 -0.874    P2A HMG  1
-HMG    O5A  O5A O  0 1 N N N 27.522 14.224 17.491  -2.603 -5.162 -1.684    O5A HMG  2
-HMG    O4A  O4A O -1 1 N N N 29.654 13.087 16.392  -1.067 -3.162 -1.770    O4A HMG  3
-HMG    O3A  O3A O  0 1 N N N 29.119 15.592 15.905  -3.226 -3.035 -0.369    O3A HMG  4
-HMG    O6A  O6A O  0 1 N N N 27.590 13.770 14.925  -1.215 -4.546  0.398    O6A HMG  5
-HMG    P1A  P1A P  0 1 N N N 30.464 15.777 15.042  -4.594 -2.513 -1.037    P1A HMG  6
-HMG    O1A  O1A O  0 1 N N N 31.730 15.986 16.000  -4.340 -2.156 -2.519    O1A HMG  7
-HMG    O2A  O2A O -1 1 N N N 30.298 17.066 14.096  -5.666 -3.622 -0.951    O2A HMG  8
-HMG    O5B O5*A O  0 1 N N N 30.759 14.505 14.155  -5.110 -1.206 -0.251    O5B HMG  9
-HMG    C5B C5*A C  0 1 N N N 31.379 14.768 12.921  -6.246 -0.445 -0.668    C5B HMG 10
-HMG    C4B C4*A C  0 1 N N R 31.486 13.520 12.056  -6.458  0.724  0.296    C4B HMG 11
-HMG    O4B O4*A O  0 1 N N N 30.161 13.017 11.828  -5.363  1.650  0.190    O4B HMG 12
-HMG    C3B C3*A C  0 1 N N S 32.097 13.894 10.709  -7.742  1.488 -0.081    C3B HMG 13
-HMG    O3B O3*A O  0 1 N N N 33.474 13.532 10.596  -8.672  1.469  1.003    O3B HMG 14
-HMG    C2B C2*A C  0 1 N N R 31.163 13.264  9.676  -7.258  2.933 -0.353    C2B HMG 15
-HMG    O2B O2*A O  0 1 N N N 31.624 12.029  9.134  -8.172  3.888  0.189    O2B HMG 16
-HMG    C1B C1*A C  0 1 N N R 29.835 13.147 10.434  -5.906  2.971  0.404    C1B HMG 17
-HMG    P3B P3*A P  0 1 N N N 34.530 14.731 10.433 -10.145  0.829  0.883    P3B HMG 18
-HMG    O7A  O7A O  0 1 N N N 34.068 15.655  9.200 -10.904  1.488 -0.318    O7A HMG 19
-HMG    O8A  O8A O -1 1 N N N 34.514 15.649 11.762 -10.026 -0.715  0.642    O8A HMG 20
-HMG    O9A  O9A O -1 1 N N N 36.006 14.129 10.176 -10.938  1.091  2.209    O9A HMG 21
-HMG    N9A  N9A N  0 1 Y N N 28.966 14.340 10.205  -5.022  3.990 -0.168    N9A HMG 22
-HMG    C4A  C4A C  0 1 Y N N 28.393 14.764  9.014  -4.953  5.308  0.209    C4A HMG 23
-HMG    N3A  N3A N  0 1 Y N N 28.412 14.256  7.634  -5.574  6.060  1.112    N3A HMG 24
-HMG    C2A  C2A C  0 1 Y N N 27.722 14.942  6.755  -5.279  7.336  1.240    C2A HMG 25
-HMG    N1A  N1A N  0 1 Y N N 27.010 16.035  6.964  -4.366  7.931  0.492    N1A HMG 26
-HMG    C6A  C6A C  0 1 Y N N 26.930 16.568  8.179  -3.693  7.260 -0.437    C6A HMG 27
-HMG    C5A  C5A C  0 1 Y N N 27.625 15.971  9.302  -3.973  5.893 -0.610    C5A HMG 28
-HMG    N7A  N7A N  0 1 Y N N 27.685 16.351 10.637  -3.504  4.922 -1.429    N7A HMG 29
-HMG    C8A  C8A C  0 1 Y N N 28.492 15.325 11.071  -4.115  3.802 -1.167    C8A HMG 30
-HMG    N6A  N6A N  0 1 N N N 26.205 17.667  8.338  -2.739  7.891 -1.215    N6A HMG 31
-HMG    CBP C11P C  0 1 N N N 25.306 13.440 14.161   0.393 -5.818  1.677    CBP HMG 32
-HMG    CCP C12P C  0 1 N N N 26.344 14.419 14.698  -0.155 -5.497  0.285    CCP HMG 33
-HMG    CDP C13P C  0 1 N N N 23.988 14.221 13.948   0.923 -4.537  2.324    CDP HMG 34
-HMG    CEP C14P C  0 1 N N N 25.816 12.927 12.779  -0.726 -6.401  2.543    CEP HMG 35
-HMG    CAP C10P C  0 1 N N R 25.131 12.269 15.219   1.528 -6.837  1.557    CAP HMG 36
-HMG    OAP O10P O  0 1 N N N 24.719 12.827 16.501   1.005 -8.078  1.079    OAP HMG 37
-HMG    C9P  C9P C  0 1 N N N 24.143 11.153 14.784   2.564 -6.322  0.591    C9P HMG 38
-HMG    O9P  O9P O  0 1 N N N 24.580 10.182 14.151   2.725 -6.874 -0.477    O9P HMG 39
-HMG    N8P  N8P N  0 1 N N N 22.844 11.307 15.103   3.312 -5.248  0.914    N8P HMG 40
-HMG    C7P  C7P C  0 1 N N N 21.847 10.234 14.946   4.251 -4.689 -0.062    C7P HMG 41
-HMG    C6P  C6P C  0 1 N N N 21.680  9.851 13.466   4.968 -3.485  0.552    C6P HMG 42
-HMG    C5P  C5P C  0 1 N N N 20.671  8.744 13.241   5.934 -2.910 -0.452    C5P HMG 43
-HMG    O5P  O5P O  0 1 N N N 21.000  7.575 13.488   6.038 -3.414 -1.550    O5P HMG 44
-HMG    N4P  N4P N  0 1 N N N 19.454  9.140 12.783   6.682 -1.837 -0.129    N4P HMG 45
-HMG    C3P  C3P C  0 1 N N N 18.727  8.480 11.680   7.620 -1.278 -1.105    C3P HMG 46
-HMG    C2P  C2P C  0 1 N N N 17.906  7.314 12.242   8.338 -0.074 -0.491    C2P HMG 47
-HMG    S1P  S1P S  0 1 N N N 16.566  7.888 13.365   9.498  0.617 -1.697    S1P HMG 48
-HMG     C1   C1 C  0 1 N N N 15.074  6.910 12.847  10.145  1.910 -0.780     C1 HMG 49
-HMG     O2   O2 O  0 1 N N N 14.068  7.445 12.290   9.760  2.101  0.355     O2 HMG 50
-HMG     C2   C2 C  0 1 N N N 15.073  5.356 13.102  11.192  2.811 -1.383     C2 HMG 51
-HMG     C3   C3 C  0 1 N N S 15.053  4.877 14.593  11.713  3.773 -0.313     C3 HMG 52
-HMG     O7   O7 O  0 1 N N N 13.889  5.433 15.203  10.636  4.580  0.167     O7 HMG 53
-HMG     C4   C4 C  0 1 N N N 14.940  3.305 14.637  12.307  2.973  0.847     C4 HMG 54
-HMG     C5   C5 C  0 1 N N N 15.090  2.603 16.020  12.821  3.921  1.900     C5 HMG 55
-HMG     O3   O3 O  0 1 N N N 16.148  2.552 16.640  12.720  5.125  1.737     O3 HMG 56
-HMG     O4   O4 O -1 1 N N N 13.910  2.049 16.475  13.336  3.484  2.915     O4 HMG 57
-HMG     C6   C6 C  0 1 N N N 16.319  5.384 15.369  12.793  4.672 -0.919     C6 HMG 58
-HMG "H5'1" 1H5* H  0 0 N N N 30.862 15.593 12.377  -6.076 -0.060 -1.674 "H5'1" HMG 59
-HMG "H5'2" 2H5* H  0 0 N N N 32.375 15.247 13.063  -7.130 -1.082 -0.666 "H5'2" HMG 60
-HMG    H4B H4*A H  0 1 N N N 32.120 12.755 12.562  -6.531  0.353  1.318    H4B HMG 61
-HMG    H3B H3*A H  0 1 N N N 32.154 14.996 10.554  -8.192  1.059 -0.976    H3B HMG 62
-HMG  "H2'"  H2* H  0 1 N N N 31.082 13.884  8.752  -7.111  3.100 -1.421  "H2'" HMG 63
-HMG    H2B H2*A H  0 1 N N N 31.043 11.637  8.492  -7.912  4.808  0.043    H2B HMG 64
-HMG    H1B H1*A H  0 1 N N N 29.259 12.263 10.071  -6.066  3.152  1.467    H1B HMG 65
-HMG   H2A1 1H2A H  0 0 N N N 27.742 14.555  5.722  -5.802  7.919  1.983   H2A1 HMG 66
-HMG   H8A1 1H8A H  0 0 N N N 28.765 15.291 12.139  -3.931  2.864 -1.669   H8A1 HMG 67
-HMG   H61A H61A H  0 0 N N N 26.143 18.076  9.270  -2.555  8.835 -1.085   H61A HMG 68
-HMG   H62A H62A H  0 0 N N N 25.262 17.496  7.987  -2.255  7.391 -1.890   H62A HMG 69
-HMG   H121 1H12 H  0 0 N N N 25.980 14.942 15.613  -0.533 -6.410 -0.176   H121 HMG 70
-HMG   H122 2H12 H  0 0 N N N 26.457 15.304 14.030   0.642 -5.082 -0.332   H122 HMG 71
-HMG   H131 1H13 H  0 0 N N N 23.228 13.505 13.555   0.093 -3.859  2.522   H131 HMG 72
-HMG   H132 2H13 H  0 0 N N N 23.646 14.753 14.866   1.422 -4.783  3.261   H132 HMG 73
-HMG   H133 3H13 H  0 0 N N N 24.115 15.117 13.296   1.632 -4.056  1.650   H133 HMG 74
-HMG   H141 1H14 H  0 0 N N N 25.056 12.211 12.386  -1.063 -7.345  2.114   H141 HMG 75
-HMG   H142 2H14 H  0 0 N N N 26.044 13.753 12.065  -0.352 -6.574  3.552   H142 HMG 76
-HMG   H143 3H14 H  0 0 N N N 26.840 12.490 12.828  -1.560 -5.700  2.580   H143 HMG 77
-HMG   H101 1H10 H  0 0 N N N 26.126 11.774 15.301   1.986 -6.988  2.535   H101 HMG 78
-HMG    H10  H10 H  0 1 N N N 24.614 12.126 17.134   0.582 -8.018  0.211    H10 HMG 79
-HMG     H8   H8 H  0 1 N N N 22.615 12.233 15.462   3.229 -4.846  1.793     H8 HMG 80
-HMG   H7P1 1H7P H  0 0 N N N 22.094  9.347 15.575   4.984 -5.448 -0.337   H7P1 HMG 81
-HMG   H7P2 2H7P H  0 0 N N N 20.872 10.506 15.413   3.705 -4.372 -0.951   H7P2 HMG 82
-HMG   H6P1 1H6P H  0 0 N N N 21.427 10.746 12.851   4.235 -2.727  0.827   H6P1 HMG 83
-HMG   H6P2 2H6P H  0 0 N N N 22.663  9.587 13.012   5.514 -3.802  1.441   H6P2 HMG 84
-HMG     H4   H4 H  0 1 N N N 19.078  9.949 13.277   6.598 -1.434  0.750     H4 HMG 85
-HMG   H3P1 1H3P H  0 0 N N N 18.101  9.196 11.097   8.353 -2.036 -1.380   H3P1 HMG 86
-HMG   H3P2 2H3P H  0 0 N N N 19.407  8.159 10.856   7.075 -0.961 -1.994   H3P2 HMG 87
-HMG   H2P1 1H2P H  0 0 N N N 17.500  6.674 11.423   7.605  0.685 -0.216   H2P1 HMG 88
-HMG   H2P2 2H2P H  0 0 N N N 18.560  6.564 12.744   8.883 -0.391  0.398   H2P2 HMG 89
-HMG    H21  1H2 H  0 1 N N N 14.222  4.890 12.551  12.016  2.207 -1.761    H21 HMG 90
-HMG    H22  2H2 H  0 1 N N N 15.939  4.892 12.575  10.753  3.381 -2.201    H22 HMG 91
-HMG     HX   HX H  0 1 N N N 13.876  5.142 16.107   9.913  4.076  0.565     HX HMG 92
-HMG    H41  1H4 H  0 1 N N N 13.976  2.993 14.170  11.538  2.332  1.279    H41 HMG 93
-HMG    H42  2H4 H  0 1 N N N 15.672  2.864 13.921  13.129  2.357  0.481    H42 HMG 94
-HMG    H61  1H6 H  0 1 N N N 16.304  5.043 16.430  12.366  5.251 -1.738    H61 HMG 95
-HMG    H62  2H6 H  0 1 N N N 17.262  5.084 14.854  13.172  5.350 -0.154    H62 HMG 96
-HMG    H63  3H6 H  0 1 N N N 16.428  6.491 15.295  13.609  4.056 -1.296    H63 HMG 97
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+HMG P2A    P2A  P 0  1 N N N 28.473 14.160 16.192 -2.024  -3.980 -0.874 P2A    HMG 1  
+HMG O5A    O5A  O 0  1 N N N 27.522 14.224 17.491 -2.603  -5.162 -1.684 O5A    HMG 2  
+HMG O4A    O4A  O -1 1 N N N 29.654 13.087 16.392 -1.067  -3.162 -1.770 O4A    HMG 3  
+HMG O3A    O3A  O 0  1 N N N 29.119 15.592 15.905 -3.226  -3.035 -0.369 O3A    HMG 4  
+HMG O6A    O6A  O 0  1 N N N 27.590 13.770 14.925 -1.215  -4.546 0.398  O6A    HMG 5  
+HMG P1A    P1A  P 0  1 N N N 30.464 15.777 15.042 -4.594  -2.513 -1.037 P1A    HMG 6  
+HMG O1A    O1A  O 0  1 N N N 31.730 15.986 16.000 -4.340  -2.156 -2.519 O1A    HMG 7  
+HMG O2A    O2A  O -1 1 N N N 30.298 17.066 14.096 -5.666  -3.622 -0.951 O2A    HMG 8  
+HMG O5B    O5*A O 0  1 N N N 30.759 14.505 14.155 -5.110  -1.206 -0.251 O5B    HMG 9  
+HMG C5B    C5*A C 0  1 N N N 31.379 14.768 12.921 -6.246  -0.445 -0.668 C5B    HMG 10 
+HMG C4B    C4*A C 0  1 N N R 31.486 13.520 12.056 -6.458  0.724  0.296  C4B    HMG 11 
+HMG O4B    O4*A O 0  1 N N N 30.161 13.017 11.828 -5.363  1.650  0.190  O4B    HMG 12 
+HMG C3B    C3*A C 0  1 N N S 32.097 13.894 10.709 -7.742  1.488  -0.081 C3B    HMG 13 
+HMG O3B    O3*A O 0  1 N N N 33.474 13.532 10.596 -8.672  1.469  1.003  O3B    HMG 14 
+HMG C2B    C2*A C 0  1 N N R 31.163 13.264 9.676  -7.258  2.933  -0.353 C2B    HMG 15 
+HMG O2B    O2*A O 0  1 N N N 31.624 12.029 9.134  -8.172  3.888  0.189  O2B    HMG 16 
+HMG C1B    C1*A C 0  1 N N R 29.835 13.147 10.434 -5.906  2.971  0.404  C1B    HMG 17 
+HMG P3B    P3*A P 0  1 N N N 34.530 14.731 10.433 -10.145 0.829  0.883  P3B    HMG 18 
+HMG O7A    O7A  O 0  1 N N N 34.068 15.655 9.200  -10.904 1.488  -0.318 O7A    HMG 19 
+HMG O8A    O8A  O -1 1 N N N 34.514 15.649 11.762 -10.026 -0.715 0.642  O8A    HMG 20 
+HMG O9A    O9A  O -1 1 N N N 36.006 14.129 10.176 -10.938 1.091  2.209  O9A    HMG 21 
+HMG N9A    N9A  N 0  1 Y N N 28.966 14.340 10.205 -5.022  3.990  -0.168 N9A    HMG 22 
+HMG C4A    C4A  C 0  1 Y N N 28.393 14.764 9.014  -4.953  5.308  0.209  C4A    HMG 23 
+HMG N3A    N3A  N 0  1 Y N N 28.412 14.256 7.634  -5.574  6.060  1.112  N3A    HMG 24 
+HMG C2A    C2A  C 0  1 Y N N 27.722 14.942 6.755  -5.279  7.336  1.240  C2A    HMG 25 
+HMG N1A    N1A  N 0  1 Y N N 27.010 16.035 6.964  -4.366  7.931  0.492  N1A    HMG 26 
+HMG C6A    C6A  C 0  1 Y N N 26.930 16.568 8.179  -3.693  7.260  -0.437 C6A    HMG 27 
+HMG C5A    C5A  C 0  1 Y N N 27.625 15.971 9.302  -3.973  5.893  -0.610 C5A    HMG 28 
+HMG N7A    N7A  N 0  1 Y N N 27.685 16.351 10.637 -3.504  4.922  -1.429 N7A    HMG 29 
+HMG C8A    C8A  C 0  1 Y N N 28.492 15.325 11.071 -4.115  3.802  -1.167 C8A    HMG 30 
+HMG N6A    N6A  N 0  1 N N N 26.205 17.667 8.338  -2.739  7.891  -1.215 N6A    HMG 31 
+HMG CBP    C11P C 0  1 N N N 25.306 13.440 14.161 0.393   -5.818 1.677  CBP    HMG 32 
+HMG CCP    C12P C 0  1 N N N 26.344 14.419 14.698 -0.155  -5.497 0.285  CCP    HMG 33 
+HMG CDP    C13P C 0  1 N N N 23.988 14.221 13.948 0.923   -4.537 2.324  CDP    HMG 34 
+HMG CEP    C14P C 0  1 N N N 25.816 12.927 12.779 -0.726  -6.401 2.543  CEP    HMG 35 
+HMG CAP    C10P C 0  1 N N R 25.131 12.269 15.219 1.528   -6.837 1.557  CAP    HMG 36 
+HMG OAP    O10P O 0  1 N N N 24.719 12.827 16.501 1.005   -8.078 1.079  OAP    HMG 37 
+HMG C9P    C9P  C 0  1 N N N 24.143 11.153 14.784 2.564   -6.322 0.591  C9P    HMG 38 
+HMG O9P    O9P  O 0  1 N N N 24.580 10.182 14.151 2.725   -6.874 -0.477 O9P    HMG 39 
+HMG N8P    N8P  N 0  1 N N N 22.844 11.307 15.103 3.312   -5.248 0.914  N8P    HMG 40 
+HMG C7P    C7P  C 0  1 N N N 21.847 10.234 14.946 4.251   -4.689 -0.062 C7P    HMG 41 
+HMG C6P    C6P  C 0  1 N N N 21.680 9.851  13.466 4.968   -3.485 0.552  C6P    HMG 42 
+HMG C5P    C5P  C 0  1 N N N 20.671 8.744  13.241 5.934   -2.910 -0.452 C5P    HMG 43 
+HMG O5P    O5P  O 0  1 N N N 21.000 7.575  13.488 6.038   -3.414 -1.550 O5P    HMG 44 
+HMG N4P    N4P  N 0  1 N N N 19.454 9.140  12.783 6.682   -1.837 -0.129 N4P    HMG 45 
+HMG C3P    C3P  C 0  1 N N N 18.727 8.480  11.680 7.620   -1.278 -1.105 C3P    HMG 46 
+HMG C2P    C2P  C 0  1 N N N 17.906 7.314  12.242 8.338   -0.074 -0.491 C2P    HMG 47 
+HMG S1P    S1P  S 0  1 N N N 16.566 7.888  13.365 9.498   0.617  -1.697 S1P    HMG 48 
+HMG C1     C1   C 0  1 N N N 15.074 6.910  12.847 10.145  1.910  -0.780 C1     HMG 49 
+HMG O2     O2   O 0  1 N N N 14.068 7.445  12.290 9.760   2.101  0.355  O2     HMG 50 
+HMG C2     C2   C 0  1 N N N 15.073 5.356  13.102 11.192  2.811  -1.383 C2     HMG 51 
+HMG C3     C3   C 0  1 N N S 15.053 4.877  14.593 11.713  3.773  -0.313 C3     HMG 52 
+HMG O7     O7   O 0  1 N N N 13.889 5.433  15.203 10.636  4.580  0.167  O7     HMG 53 
+HMG C4     C4   C 0  1 N N N 14.940 3.305  14.637 12.307  2.973  0.847  C4     HMG 54 
+HMG C5     C5   C 0  1 N N N 15.090 2.603  16.020 12.821  3.921  1.900  C5     HMG 55 
+HMG O3     O3   O 0  1 N N N 16.148 2.552  16.640 12.720  5.125  1.737  O3     HMG 56 
+HMG O4     O4   O -1 1 N N N 13.910 2.049  16.475 13.336  3.484  2.915  O4     HMG 57 
+HMG C6     C6   C 0  1 N N N 16.319 5.384  15.369 12.793  4.672  -0.919 C6     HMG 58 
+HMG "H5'1" 1H5* H 0  0 N N N 30.862 15.593 12.377 -6.076  -0.060 -1.674 "H5'1" HMG 59 
+HMG "H5'2" 2H5* H 0  0 N N N 32.375 15.247 13.063 -7.130  -1.082 -0.666 "H5'2" HMG 60 
+HMG H4B    H4*A H 0  1 N N N 32.120 12.755 12.562 -6.531  0.353  1.318  H4B    HMG 61 
+HMG H3B    H3*A H 0  1 N N N 32.154 14.996 10.554 -8.192  1.059  -0.976 H3B    HMG 62 
+HMG "H2'"  H2*  H 0  1 N N N 31.082 13.884 8.752  -7.111  3.100  -1.421 "H2'"  HMG 63 
+HMG H2B    H2*A H 0  1 N N N 31.043 11.637 8.492  -7.912  4.808  0.043  H2B    HMG 64 
+HMG H1B    H1*A H 0  1 N N N 29.259 12.263 10.071 -6.066  3.152  1.467  H1B    HMG 65 
+HMG H2A1   1H2A H 0  0 N N N 27.742 14.555 5.722  -5.802  7.919  1.983  H2A1   HMG 66 
+HMG H8A1   1H8A H 0  0 N N N 28.765 15.291 12.139 -3.931  2.864  -1.669 H8A1   HMG 67 
+HMG H61A   H61A H 0  0 N N N 26.143 18.076 9.270  -2.555  8.835  -1.085 H61A   HMG 68 
+HMG H62A   H62A H 0  0 N N N 25.262 17.496 7.987  -2.255  7.391  -1.890 H62A   HMG 69 
+HMG H121   1H12 H 0  0 N N N 25.980 14.942 15.613 -0.533  -6.410 -0.176 H121   HMG 70 
+HMG H122   2H12 H 0  0 N N N 26.457 15.304 14.030 0.642   -5.082 -0.332 H122   HMG 71 
+HMG H131   1H13 H 0  0 N N N 23.228 13.505 13.555 0.093   -3.859 2.522  H131   HMG 72 
+HMG H132   2H13 H 0  0 N N N 23.646 14.753 14.866 1.422   -4.783 3.261  H132   HMG 73 
+HMG H133   3H13 H 0  0 N N N 24.115 15.117 13.296 1.632   -4.056 1.650  H133   HMG 74 
+HMG H141   1H14 H 0  0 N N N 25.056 12.211 12.386 -1.063  -7.345 2.114  H141   HMG 75 
+HMG H142   2H14 H 0  0 N N N 26.044 13.753 12.065 -0.352  -6.574 3.552  H142   HMG 76 
+HMG H143   3H14 H 0  0 N N N 26.840 12.490 12.828 -1.560  -5.700 2.580  H143   HMG 77 
+HMG H101   1H10 H 0  0 N N N 26.126 11.774 15.301 1.986   -6.988 2.535  H101   HMG 78 
+HMG H10    H10  H 0  1 N N N 24.614 12.126 17.134 0.582   -8.018 0.211  H10    HMG 79 
+HMG H8     H8   H 0  1 N N N 22.615 12.233 15.462 3.229   -4.846 1.793  H8     HMG 80 
+HMG H7P1   1H7P H 0  0 N N N 22.094 9.347  15.575 4.984   -5.448 -0.337 H7P1   HMG 81 
+HMG H7P2   2H7P H 0  0 N N N 20.872 10.506 15.413 3.705   -4.372 -0.951 H7P2   HMG 82 
+HMG H6P1   1H6P H 0  0 N N N 21.427 10.746 12.851 4.235   -2.727 0.827  H6P1   HMG 83 
+HMG H6P2   2H6P H 0  0 N N N 22.663 9.587  13.012 5.514   -3.802 1.441  H6P2   HMG 84 
+HMG H4     H4   H 0  1 N N N 19.078 9.949  13.277 6.598   -1.434 0.750  H4     HMG 85 
+HMG H3P1   1H3P H 0  0 N N N 18.101 9.196  11.097 8.353   -2.036 -1.380 H3P1   HMG 86 
+HMG H3P2   2H3P H 0  0 N N N 19.407 8.159  10.856 7.075   -0.961 -1.994 H3P2   HMG 87 
+HMG H2P1   1H2P H 0  0 N N N 17.500 6.674  11.423 7.605   0.685  -0.216 H2P1   HMG 88 
+HMG H2P2   2H2P H 0  0 N N N 18.560 6.564  12.744 8.883   -0.391 0.398  H2P2   HMG 89 
+HMG H21    1H2  H 0  1 N N N 14.222 4.890  12.551 12.016  2.207  -1.761 H21    HMG 90 
+HMG H22    2H2  H 0  1 N N N 15.939 4.892  12.575 10.753  3.381  -2.201 H22    HMG 91 
+HMG HX     HX   H 0  1 N N N 13.876 5.142  16.107 9.913   4.076  0.565  HX     HMG 92 
+HMG H41    1H4  H 0  1 N N N 13.976 2.993  14.170 11.538  2.332  1.279  H41    HMG 93 
+HMG H42    2H4  H 0  1 N N N 15.672 2.864  13.921 13.129  2.357  0.481  H42    HMG 94 
+HMG H61    1H6  H 0  1 N N N 16.304 5.043  16.430 12.366  5.251  -1.738 H61    HMG 95 
+HMG H62    2H6  H 0  1 N N N 17.262 5.084  14.854 13.172  5.350  -0.154 H62    HMG 96 
+HMG H63    3H6  H 0  1 N N N 16.428 6.491  15.295 13.609  4.056  -1.296 H63    HMG 97 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-HMG P2A    O5A DOUB N N  1
-HMG P2A    O4A SING N N  2
-HMG P2A    O3A SING N N  3
-HMG P2A    O6A SING N N  4
-HMG O3A    P1A SING N N  5
-HMG O6A    CCP SING N N  6
-HMG P1A    O1A DOUB N N  7
-HMG P1A    O2A SING N N  8
-HMG P1A    O5B SING N N  9
-HMG O5B    C5B SING N N 10
-HMG C5B    C4B SING N N 11
-HMG C5B "H5'1" SING N N 12
-HMG C5B "H5'2" SING N N 13
-HMG C4B    O4B SING N N 14
-HMG C4B    C3B SING N N 15
-HMG C4B    H4B SING N N 16
-HMG O4B    C1B SING N N 17
-HMG C3B    O3B SING N N 18
-HMG C3B    C2B SING N N 19
-HMG C3B    H3B SING N N 20
-HMG O3B    P3B SING N N 21
-HMG C2B    O2B SING N N 22
-HMG C2B    C1B SING N N 23
-HMG C2B  "H2'" SING N N 24
-HMG O2B    H2B SING N N 25
-HMG C1B    N9A SING N N 26
-HMG C1B    H1B SING N N 27
-HMG P3B    O7A DOUB N N 28
-HMG P3B    O8A SING N N 29
-HMG P3B    O9A SING N N 30
-HMG N9A    C4A SING Y N 31
-HMG N9A    C8A SING Y N 32
-HMG C4A    N3A SING Y N 33
-HMG C4A    C5A DOUB Y N 34
-HMG N3A    C2A DOUB Y N 35
-HMG C2A    N1A SING Y N 36
-HMG C2A   H2A1 SING N N 37
-HMG N1A    C6A DOUB Y N 38
-HMG C6A    C5A SING Y N 39
-HMG C6A    N6A SING N N 40
-HMG C5A    N7A SING Y N 41
-HMG N7A    C8A DOUB Y N 42
-HMG C8A   H8A1 SING N N 43
-HMG N6A   H61A SING N N 44
-HMG N6A   H62A SING N N 45
-HMG CBP    CCP SING N N 46
-HMG CBP    CDP SING N N 47
-HMG CBP    CEP SING N N 48
-HMG CBP    CAP SING N N 49
-HMG CCP   H121 SING N N 50
-HMG CCP   H122 SING N N 51
-HMG CDP   H131 SING N N 52
-HMG CDP   H132 SING N N 53
-HMG CDP   H133 SING N N 54
-HMG CEP   H141 SING N N 55
-HMG CEP   H142 SING N N 56
-HMG CEP   H143 SING N N 57
-HMG CAP    OAP SING N N 58
-HMG CAP    C9P SING N N 59
-HMG CAP   H101 SING N N 60
-HMG OAP    H10 SING N N 61
-HMG C9P    O9P DOUB N N 62
-HMG C9P    N8P SING N N 63
-HMG N8P    C7P SING N N 64
-HMG N8P     H8 SING N N 65
-HMG C7P    C6P SING N N 66
-HMG C7P   H7P1 SING N N 67
-HMG C7P   H7P2 SING N N 68
-HMG C6P    C5P SING N N 69
-HMG C6P   H6P1 SING N N 70
-HMG C6P   H6P2 SING N N 71
-HMG C5P    O5P DOUB N N 72
-HMG C5P    N4P SING N N 73
-HMG N4P    C3P SING N N 74
-HMG N4P     H4 SING N N 75
-HMG C3P    C2P SING N N 76
-HMG C3P   H3P1 SING N N 77
-HMG C3P   H3P2 SING N N 78
-HMG C2P    S1P SING N N 79
-HMG C2P   H2P1 SING N N 80
-HMG C2P   H2P2 SING N N 81
-HMG S1P     C1 SING N N 82
-HMG  C1     O2 DOUB N N 83
-HMG  C1     C2 SING N N 84
-HMG  C2     C3 SING N N 85
-HMG  C2    H21 SING N N 86
-HMG  C2    H22 SING N N 87
-HMG  C3     O7 SING N N 88
-HMG  C3     C4 SING N N 89
-HMG  C3     C6 SING N N 90
-HMG  O7     HX SING N N 91
-HMG  C4     C5 SING N N 92
-HMG  C4    H41 SING N N 93
-HMG  C4    H42 SING N N 94
-HMG  C5     O3 DOUB N N 95
-HMG  C5     O4 SING N N 96
-HMG  C6    H61 SING N N 97
-HMG  C6    H62 SING N N 98
-HMG  C6    H63 SING N N 99
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+HMG P2A O5A    DOUB N N 1  
+HMG P2A O4A    SING N N 2  
+HMG P2A O3A    SING N N 3  
+HMG P2A O6A    SING N N 4  
+HMG O3A P1A    SING N N 5  
+HMG O6A CCP    SING N N 6  
+HMG P1A O1A    DOUB N N 7  
+HMG P1A O2A    SING N N 8  
+HMG P1A O5B    SING N N 9  
+HMG O5B C5B    SING N N 10 
+HMG C5B C4B    SING N N 11 
+HMG C5B "H5'1" SING N N 12 
+HMG C5B "H5'2" SING N N 13 
+HMG C4B O4B    SING N N 14 
+HMG C4B C3B    SING N N 15 
+HMG C4B H4B    SING N N 16 
+HMG O4B C1B    SING N N 17 
+HMG C3B O3B    SING N N 18 
+HMG C3B C2B    SING N N 19 
+HMG C3B H3B    SING N N 20 
+HMG O3B P3B    SING N N 21 
+HMG C2B O2B    SING N N 22 
+HMG C2B C1B    SING N N 23 
+HMG C2B "H2'"  SING N N 24 
+HMG O2B H2B    SING N N 25 
+HMG C1B N9A    SING N N 26 
+HMG C1B H1B    SING N N 27 
+HMG P3B O7A    DOUB N N 28 
+HMG P3B O8A    SING N N 29 
+HMG P3B O9A    SING N N 30 
+HMG N9A C4A    SING Y N 31 
+HMG N9A C8A    SING Y N 32 
+HMG C4A N3A    SING Y N 33 
+HMG C4A C5A    DOUB Y N 34 
+HMG N3A C2A    DOUB Y N 35 
+HMG C2A N1A    SING Y N 36 
+HMG C2A H2A1   SING N N 37 
+HMG N1A C6A    DOUB Y N 38 
+HMG C6A C5A    SING Y N 39 
+HMG C6A N6A    SING N N 40 
+HMG C5A N7A    SING Y N 41 
+HMG N7A C8A    DOUB Y N 42 
+HMG C8A H8A1   SING N N 43 
+HMG N6A H61A   SING N N 44 
+HMG N6A H62A   SING N N 45 
+HMG CBP CCP    SING N N 46 
+HMG CBP CDP    SING N N 47 
+HMG CBP CEP    SING N N 48 
+HMG CBP CAP    SING N N 49 
+HMG CCP H121   SING N N 50 
+HMG CCP H122   SING N N 51 
+HMG CDP H131   SING N N 52 
+HMG CDP H132   SING N N 53 
+HMG CDP H133   SING N N 54 
+HMG CEP H141   SING N N 55 
+HMG CEP H142   SING N N 56 
+HMG CEP H143   SING N N 57 
+HMG CAP OAP    SING N N 58 
+HMG CAP C9P    SING N N 59 
+HMG CAP H101   SING N N 60 
+HMG OAP H10    SING N N 61 
+HMG C9P O9P    DOUB N N 62 
+HMG C9P N8P    SING N N 63 
+HMG N8P C7P    SING N N 64 
+HMG N8P H8     SING N N 65 
+HMG C7P C6P    SING N N 66 
+HMG C7P H7P1   SING N N 67 
+HMG C7P H7P2   SING N N 68 
+HMG C6P C5P    SING N N 69 
+HMG C6P H6P1   SING N N 70 
+HMG C6P H6P2   SING N N 71 
+HMG C5P O5P    DOUB N N 72 
+HMG C5P N4P    SING N N 73 
+HMG N4P C3P    SING N N 74 
+HMG N4P H4     SING N N 75 
+HMG C3P C2P    SING N N 76 
+HMG C3P H3P1   SING N N 77 
+HMG C3P H3P2   SING N N 78 
+HMG C2P S1P    SING N N 79 
+HMG C2P H2P1   SING N N 80 
+HMG C2P H2P2   SING N N 81 
+HMG S1P C1     SING N N 82 
+HMG C1  O2     DOUB N N 83 
+HMG C1  C2     SING N N 84 
+HMG C2  C3     SING N N 85 
+HMG C2  H21    SING N N 86 
+HMG C2  H22    SING N N 87 
+HMG C3  O7     SING N N 88 
+HMG C3  C4     SING N N 89 
+HMG C3  C6     SING N N 90 
+HMG O7  HX     SING N N 91 
+HMG C4  C5     SING N N 92 
+HMG C4  H41    SING N N 93 
+HMG C4  H42    SING N N 94 
+HMG C5  O3     DOUB N N 95 
+HMG C5  O4     SING N N 96 
+HMG C6  H61    SING N N 97 
+HMG C6  H62    SING N N 98 
+HMG C6  H63    SING N N 99 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-HMG           SMILES              ACDLabs 12.01                                                                                                                                                                                                                             "[O-]C(=O)CC(O)(C)CC(=O)SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP([O-])(=O)OP([O-])(=O)OCC3OC(n2cnc1c(ncnc12)N)C(O)C3OP([O-])([O-])=O"
-HMG            InChI                InChI  1.03 InChI=1S/C27H44N7O20P3S/c1-26(2,21(40)24(41)30-5-4-15(35)29-6-7-58-17(38)9-27(3,42)8-16(36)37)11-51-57(48,49)54-56(46,47)50-10-14-20(53-55(43,44)45)19(39)25(52-14)34-13-33-18-22(28)31-12-32-23(18)34/h12-14,19-21,25,39-40,42H,4-11H2,1-3H3,(H,29,35)(H,30,41)(H,36,37)(H,46,47)(H,48,49)(H2,28,31,32)(H2,43,44,45)/p-5/t14-,19-,20-,21+,25-,27+/m1/s1
-HMG         InChIKey                InChI  1.03                                                                                                                                                                                                                                                                                                                              CABVTRNMFUVUDM-VRHQGPGLSA-I
-HMG SMILES_CANONICAL               CACTVS 3.385                                                                                                                                                                                                 C[C@](O)(CC([O-])=O)CC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO[P]([O-])(=O)O[P]([O-])(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1O[P]([O-])([O-])=O)n2cnc3c(N)ncnc23
-HMG           SMILES               CACTVS 3.385                                                                                                                                                                                                        C[C](O)(CC([O-])=O)CC(=O)SCCNC(=O)CCNC(=O)[CH](O)C(C)(C)CO[P]([O-])(=O)O[P]([O-])(=O)OC[CH]1O[CH]([CH](O)[CH]1O[P]([O-])([O-])=O)n2cnc3c(N)ncnc23
-HMG SMILES_CANONICAL "OpenEye OEToolkits" 1.7.5                                                                                                                                                                                                     C[C@](CC(=O)[O-])(CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)n2cnc3c2ncnc3N)O)OP(=O)([O-])[O-])O)O
-HMG           SMILES "OpenEye OEToolkits" 1.7.5                                                                                                                                                                                                                               CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)n2cnc3c2ncnc3N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CC(C)(CC(=O)[O-])O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+HMG SMILES           ACDLabs              12.01 "[O-]C(=O)CC(O)(C)CC(=O)SCCNC(=O)CCNC(=O)C(O)C(C)(C)COP([O-])(=O)OP([O-])(=O)OCC3OC(n2cnc1c(ncnc12)N)C(O)C3OP([O-])([O-])=O" 
+HMG InChI            InChI                1.03  
+;InChI=1S/C27H44N7O20P3S/c1-26(2,21(40)24(41)30-5-4-15(35)29-6-7-58-17(38)9-27(3,42)8-16(36)37)11-51-57(48,49)54-56(46,47)50-10-14-20(53-55(43,44)45)19(39)25(52-14)34-13-33-18-22(28)31-12-32-23(18)34/h12-14,19-21,25,39-40,42H,4-11H2,1-3H3,(H,29,35)(H,30,41)(H,36,37)(H,46,47)(H,48,49)(H2,28,31,32)(H2,43,44,45)/p-5/t14-,19-,20-,21+,25-,27+/m1/s1
+;
+HMG InChIKey         InChI                1.03  CABVTRNMFUVUDM-VRHQGPGLSA-I 
+HMG SMILES_CANONICAL CACTVS               3.385 "C[C@](O)(CC([O-])=O)CC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO[P]([O-])(=O)O[P]([O-])(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1O[P]([O-])([O-])=O)n2cnc3c(N)ncnc23" 
+HMG SMILES           CACTVS               3.385 "C[C](O)(CC([O-])=O)CC(=O)SCCNC(=O)CCNC(=O)[CH](O)C(C)(C)CO[P]([O-])(=O)O[P]([O-])(=O)OC[CH]1O[CH]([CH](O)[CH]1O[P]([O-])([O-])=O)n2cnc3c(N)ncnc23" 
+HMG SMILES_CANONICAL "OpenEye OEToolkits" 1.7.5 "C[C@](CC(=O)[O-])(CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)n2cnc3c2ncnc3N)O)OP(=O)([O-])[O-])O)O" 
+HMG SMILES           "OpenEye OEToolkits" 1.7.5 "CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)n2cnc3c2ncnc3N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CC(C)(CC(=O)[O-])O)O" 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-HMG "SYSTEMATIC NAME"              ACDLabs 12.01                  "(9R,21S)-1-[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-4-hydroxy-3-(phosphonatooxy)tetrahydrofuran-2-yl]-9,21-dihydroxy-8,8,21-trimethyl-3,5-dioxido-10,14,19-trioxo-2,4,6-trioxa-18-thia-11,15-diaza-3,5-diphosphatricosan-23-oate 3,5-dioxide (non-preferred name)"
-HMG "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.2 (3S)-5-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-oxidanyl-3-phosphonatooxy-oxolan-2-yl]methoxy-oxidanidyl-phosphoryl]oxy-oxidanidyl-phosphoryl]oxy-3,3-dimethyl-2-oxidanyl-butanoyl]amino]propanoylamino]ethylsulfanyl]-3-methyl-3-oxidanyl-5-oxidanylidene-pentanoate
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+HMG "SYSTEMATIC NAME" ACDLabs              12.01 
+;(9R,21S)-1-[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-4-hydroxy-3-(phosphonatooxy)tetrahydrofuran-2-yl]-9,21-dihydroxy-8,8,21-trimethyl-3,5-dioxido-10,14,19-trioxo-2,4,6-trioxa-18-thia-11,15-diaza-3,5-diphosphatricosan-23-oate 3,5-dioxide (non-preferred name)
+;
+HMG "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.2 
+;(3S)-5-[2-[3-[[(2R)-4-[[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-oxidanyl-3-phosphonatooxy-oxolan-2-yl]methoxy-oxidanidyl-phosphoryl]oxy-oxidanidyl-phosphoryl]oxy-3,3-dimethyl-2-oxidanyl-butanoyl]amino]propanoylamino]ethylsulfanyl]-3-methyl-3-oxidanyl-5-oxidanylidene-pentanoate
+;
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-HMG   "Create component" 1999-07-08 RCSB
-HMG  "Modify descriptor" 2011-06-04 RCSB
-HMG        "Modify name" 2011-06-07 RCSB
-HMG  "Modify descriptor" 2011-06-07 RCSB
-HMG  "Modify identifier" 2011-06-07 RCSB
-HMG  "Modify descriptor" 2012-01-05 RCSB
-HMG "Modify coordinates" 2012-01-05 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   HMG
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03169
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      (S)-Hmg-Coa
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           HMG
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03169
-_pdbe_chem_comp_drugbank_classification.parent            "(S)-3-hydroxy-3-alkylglutaryl CoAs"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Fatty Acyls"
-_pdbe_chem_comp_drugbank_classification.superclass        "Lipids and lipid-like molecules"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as (s)-3-hydroxy-3-alkylglutaryl coas. These are 3-hydroxy-3-alkylglutaryl-CoAs where the 3-hydroxy-3-alkylglutaryl component has (S)-configuration."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-HMG DB03169 "3-hydroxy-3-methylglutaryl-coenzyme A reductase"              "Pseudomonas mevalonii"     P13702 unknown 1
-HMG DB03169 "3-hydroxy-3-methylglutaryl-coenzyme A reductase"                               Humans     P04035 unknown 2
-HMG DB03169         "3-hydroxy-3-methylglutaryl CoA synthase" "Staphylococcus aureus (strain MW2)" A0A0H3K1U2 unknown 3
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-HMG P2A P 15.297  3.353  1
-HMG O5A O 15.909  4.722  2
-HMG O4A O 14.684  1.983  3
-HMG O3A O 13.928  3.965  4
-HMG O6A O 16.666  2.740  5
-HMG P1A P 12.713  3.086  6
-HMG O1A O 13.592  1.871  7
-HMG O2A O 11.833  4.301  8
-HMG O5B O 11.498  2.206  9
-HMG C5B C 10.129  2.818 10
-HMG C4B C  8.913  1.939 11
-HMG O4B O  8.911  0.439 12
-HMG C3B C  7.487  2.405 13
-HMG O3B O  7.027  3.832 14
-HMG C2B C  6.604  1.193 15
-HMG O2B O  5.104  1.196 16
-HMG C1B C  7.483 -0.022 17
-HMG P3B P  8.032  4.945 18
-HMG O7A O  9.038  6.058 19
-HMG O8A O  6.919  5.951 20
-HMG O9A O  9.145  3.940 21
-HMG N9A N  7.018 -1.448 22
-HMG C4A C  5.598 -1.905 23
-HMG N3A N  4.299 -1.155 24
-HMG C2A C  3.000 -1.905 25
-HMG N1A N  3.000 -3.405 26
-HMG C6A C  4.299 -4.155 27
-HMG C5A C  5.598 -3.405 28
-HMG N7A N  7.018 -3.862 29
-HMG C8A C  7.893 -2.655 30
-HMG N6A N  4.299 -5.655 31
-HMG CBP C 19.251  3.007 32
-HMG CCP C 17.881  3.620 33
-HMG CDP C 19.863  4.377 34
-HMG CEP C 18.638  1.638 35
-HMG CAP C 20.620  2.395 36
-HMG OAP O 20.774  0.903 37
-HMG C9P C 21.835  3.274 38
-HMG O9P O 21.681  4.766 39
-HMG N8P N 23.204  2.662 40
-HMG C7P C 24.419  3.542 41
-HMG C6P C 25.788  2.929 42
-HMG C5P C 27.004  3.809 43
-HMG O5P O 26.849  5.301 44
-HMG N4P N 28.373  3.196 45
-HMG C3P C 29.588  4.076 46
-HMG C2P C 30.957  3.463 47
-HMG S1P S 32.172  4.343 48
-HMG  C1 C 33.541  3.730 49
-HMG  O2 O 33.696  2.238 50
-HMG  C2 C 34.757  4.610 51
-HMG  C3 C 36.126  3.998 52
-HMG  O7 O 36.738  5.367 53
-HMG  C4 C 37.495  3.385 54
-HMG  C5 C 38.710  4.264 55
-HMG  O3 O 40.079  3.652 56
-HMG  O4 O 38.556  5.756 57
-HMG  C6 C 35.513  2.628 58
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-HMG P2A O5A DOUBLE       NONE  1
-HMG P2A O4A SINGLE       NONE  2
-HMG P2A O3A SINGLE       NONE  3
-HMG P2A O6A SINGLE       NONE  4
-HMG O3A P1A SINGLE       NONE  5
-HMG O6A CCP SINGLE       NONE  6
-HMG P1A O1A DOUBLE       NONE  7
-HMG P1A O2A SINGLE       NONE  8
-HMG P1A O5B SINGLE       NONE  9
-HMG O5B C5B SINGLE       NONE 10
-HMG C5B C4B SINGLE BEGINWEDGE 11
-HMG C4B O4B SINGLE       NONE 12
-HMG C4B C3B SINGLE       NONE 13
-HMG O4B C1B SINGLE       NONE 14
-HMG C3B O3B SINGLE BEGINWEDGE 15
-HMG C3B C2B SINGLE       NONE 16
-HMG O3B P3B SINGLE       NONE 17
-HMG C2B O2B SINGLE  BEGINDASH 18
-HMG C2B C1B SINGLE       NONE 19
-HMG C1B N9A SINGLE  BEGINDASH 20
-HMG P3B O7A DOUBLE       NONE 21
-HMG P3B O8A SINGLE       NONE 22
-HMG P3B O9A SINGLE       NONE 23
-HMG N9A C4A SINGLE       NONE 24
-HMG N9A C8A SINGLE       NONE 25
-HMG C4A N3A DOUBLE       NONE 26
-HMG C4A C5A SINGLE       NONE 27
-HMG N3A C2A SINGLE       NONE 28
-HMG C2A N1A DOUBLE       NONE 29
-HMG N1A C6A SINGLE       NONE 30
-HMG C6A C5A DOUBLE       NONE 31
-HMG C6A N6A SINGLE       NONE 32
-HMG C5A N7A SINGLE       NONE 33
-HMG N7A C8A DOUBLE       NONE 34
-HMG CBP CCP SINGLE       NONE 35
-HMG CBP CDP SINGLE       NONE 36
-HMG CBP CEP SINGLE       NONE 37
-HMG CBP CAP SINGLE       NONE 38
-HMG CAP OAP SINGLE  BEGINDASH 39
-HMG CAP C9P SINGLE       NONE 40
-HMG C9P O9P DOUBLE       NONE 41
-HMG C9P N8P SINGLE       NONE 42
-HMG N8P C7P SINGLE       NONE 43
-HMG C7P C6P SINGLE       NONE 44
-HMG C6P C5P SINGLE       NONE 45
-HMG C5P O5P DOUBLE       NONE 46
-HMG C5P N4P SINGLE       NONE 47
-HMG N4P C3P SINGLE       NONE 48
-HMG C3P C2P SINGLE       NONE 49
-HMG C2P S1P SINGLE       NONE 50
-HMG S1P  C1 SINGLE       NONE 51
-HMG  C1  O2 DOUBLE       NONE 52
-HMG  C1  C2 SINGLE       NONE 53
-HMG  C2  C3 SINGLE       NONE 54
-HMG  C3  O7 SINGLE       NONE 55
-HMG  C3  C4 SINGLE       NONE 56
-HMG  C3  C6 SINGLE BEGINWEDGE 57
-HMG  C4  C5 SINGLE       NONE 58
-HMG  C5  O3 DOUBLE       NONE 59
-HMG  C5  O4 SINGLE       NONE 60
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-HMG MurckoScaffold S1 scaffold c1ncc2ncn([C@@H]3CCCO3)c2n1 InChI=1S/C9H10N4O/c1-2-8(14-3-1)13-6-12-7-4-10-5-11-9(7)13/h4-6,8H,1-3H2/t8-/m0/s1 DAKONNSVCLKUJN-QMMMGPOBSA-N
-HMG        adenine F1 fragment           Nc1ncnc2nc[nH]c12                    InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-HMG          amide F2 fragment                     CC(N)=O                                             InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-HMG      imidazole F3 fragment                  c1c[nH]cn1                                         InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-HMG      phosphate F4 fragment                  O=P(O)(O)O                                            InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-HMG         purine F5 fragment            c1ncc2[nH]cnc2n1                           InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-HMG     pyrimidine F6 fragment                    c1cncnc1                                               InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-HMG         ribose F7 fragment               OCC1OCC(O)C1O                                  InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-HMG N1A F1 1
-HMG C6A F1 1
-HMG C5A F1 1
-HMG C4A F1 1
-HMG N3A F1 1
-HMG C2A F1 1
-HMG N9A F1 1
-HMG C8A F1 1
-HMG N7A F1 1
-HMG N6A F1 1
-HMG N8P F2 1
-HMG C9P F2 1
-HMG O9P F2 1
-HMG CAP F2 1
-HMG N4P F2 2
-HMG C5P F2 2
-HMG O5P F2 2
-HMG C6P F2 2
-HMG C4A F3 1
-HMG C5A F3 1
-HMG N7A F3 1
-HMG C8A F3 1
-HMG N9A F3 1
-HMG O4A F4 1
-HMG P2A F4 1
-HMG O5A F4 1
-HMG O3A F4 1
-HMG O6A F4 1
-HMG O3A F4 2
-HMG P1A F4 2
-HMG O1A F4 2
-HMG O2A F4 2
-HMG O5B F4 2
-HMG O3B F4 3
-HMG P3B F4 3
-HMG O7A F4 3
-HMG O8A F4 3
-HMG O9A F4 3
-HMG N7A F5 1
-HMG C8A F5 1
-HMG N9A F5 1
-HMG C4A F5 1
-HMG C5A F5 1
-HMG C6A F5 1
-HMG N1A F5 1
-HMG C2A F5 1
-HMG N3A F5 1
-HMG C5A F6 1
-HMG C4A F6 1
-HMG N3A F6 1
-HMG C2A F6 1
-HMG N1A F6 1
-HMG C6A F6 1
-HMG C2B F7 1
-HMG C3B F7 1
-HMG C4B F7 1
-HMG O4B F7 1
-HMG C1B F7 1
-HMG C5B F7 1
-HMG O5B F7 1
-HMG O3B F7 1
-HMG O2B F7 1
-HMG C4B S1 1
-HMG O4B S1 1
-HMG C3B S1 1
-HMG C2B S1 1
-HMG C1B S1 1
-HMG N9A S1 1
-HMG C4A S1 1
-HMG N3A S1 1
-HMG C2A S1 1
-HMG N1A S1 1
-HMG C6A S1 1
-HMG C5A S1 1
-HMG N7A S1 1
-HMG C8A S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               HMG
-_pdbe_chem_comp_rdkit_properties.exactmw                               906.121
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           27
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           7
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     30
-_pdbe_chem_comp_rdkit_properties.NumHBD                                6
-_pdbe_chem_comp_rdkit_properties.NumHBA                                26
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        31
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             387.279
-_pdbe_chem_comp_rdkit_properties.tpsa                                  435.310
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -6.391
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             180.058
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         58
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-HMG UniChem       ChEMBL CHEMBL1233353
-HMG UniChem     DrugBank       DB03169
-HMG UniChem        ChEBI         43074
-HMG UniChem MetaboLights    MTBLC43074
-HMG UniChem         Rhea         43074
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-HMG    P2A -0.148  1.250 -0.677 ETKDGv2  1
-HMG    O5A -0.809  0.341  0.334 ETKDGv2  2
-HMG    O4A -0.940  1.091 -2.167 ETKDGv2  3
-HMG    O3A -0.196  2.858 -0.115 ETKDGv2  4
-HMG    O6A  1.475  0.765 -0.850 ETKDGv2  5
-HMG    P1A -1.794  3.415 -0.289 ETKDGv2  6
-HMG    O1A -1.923  4.728  0.450 ETKDGv2  7
-HMG    O2A -2.120  3.678 -1.930 ETKDGv2  8
-HMG    O5B -2.892  2.288  0.374 ETKDGv2  9
-HMG    C5B -4.198  2.676  0.022 ETKDGv2 10
-HMG    C4B -5.201  1.712  0.676 ETKDGv2 11
-HMG    O4B -4.991  1.708  2.073 ETKDGv2 12
-HMG    C3B -6.669  2.067  0.403 ETKDGv2 13
-HMG    O3B -6.853  2.818 -0.783 ETKDGv2 14
-HMG    C2B -7.018  2.904  1.601 ETKDGv2 15
-HMG    O2B -8.376  2.767  1.934 ETKDGv2 16
-HMG    C1B -6.080  2.366  2.685 ETKDGv2 17
-HMG    P3B -7.200  1.763 -2.079 ETKDGv2 18
-HMG    O7A -7.256  2.561 -3.361 ETKDGv2 19
-HMG    O8A -6.000  0.579 -2.219 ETKDGv2 20
-HMG    O9A -8.699  1.020 -1.826 ETKDGv2 21
-HMG    N9A -6.762  1.433  3.583 ETKDGv2 22
-HMG    C4A -7.033  1.583  4.960 ETKDGv2 23
-HMG    N3A -6.810  2.609  5.722 ETKDGv2 24
-HMG    C2A -7.193  2.497  7.113 ETKDGv2 25
-HMG    N1A -7.744  1.394  7.567 ETKDGv2 26
-HMG    C6A -7.984  0.261  6.699 ETKDGv2 27
-HMG    C5A -7.626  0.384  5.423 ETKDGv2 28
-HMG    N7A -7.721 -0.537  4.342 ETKDGv2 29
-HMG    C8A -7.218  0.091  3.310 ETKDGv2 30
-HMG    N6A -8.580 -0.933  7.206 ETKDGv2 31
-HMG    CBP  3.579  1.190 -1.994 ETKDGv2 32
-HMG    CCP  2.105  1.623 -1.776 ETKDGv2 33
-HMG    CDP  4.336  1.255 -0.645 ETKDGv2 34
-HMG    CEP  3.595 -0.272 -2.499 ETKDGv2 35
-HMG    CAP  4.237  2.117 -3.078 ETKDGv2 36
-HMG    OAP  4.088  3.484 -2.774 ETKDGv2 37
-HMG    C9P  5.690  1.785 -3.358 ETKDGv2 38
-HMG    O9P  6.600  2.289 -2.644 ETKDGv2 39
-HMG    N8P  6.031  0.893 -4.429 ETKDGv2 40
-HMG    C7P  7.392  0.400 -4.640 ETKDGv2 41
-HMG    C6P  7.790 -0.618 -3.558 ETKDGv2 42
-HMG    C5P  6.984 -1.890 -3.591 ETKDGv2 43
-HMG    O5P  6.114 -2.080 -4.486 ETKDGv2 44
-HMG    N4P  7.218 -2.896 -2.595 ETKDGv2 45
-HMG    C3P  6.427 -4.122 -2.515 ETKDGv2 46
-HMG    C2P  5.073 -3.842 -1.867 ETKDGv2 47
-HMG    S1P  4.048 -5.347 -1.897 ETKDGv2 48
-HMG     C1  2.584 -4.555 -1.211 ETKDGv2 49
-HMG     O2  1.856 -3.910 -1.950 ETKDGv2 50
-HMG     C2  2.186 -4.815  0.220 ETKDGv2 51
-HMG     C3  1.922 -3.550  1.086 ETKDGv2 52
-HMG     O7  0.818 -2.839  0.570 ETKDGv2 53
-HMG     C4  3.191 -2.650  1.158 ETKDGv2 54
-HMG     C5  3.023 -1.462  2.062 ETKDGv2 55
-HMG     O3  2.144 -0.594  1.820 ETKDGv2 56
-HMG     O4  3.845 -1.313  3.172 ETKDGv2 57
-HMG     C6  1.542 -4.026  2.503 ETKDGv2 58
-HMG "H5'1" -4.414  3.710  0.377 ETKDGv2 59
-HMG "H5'2" -4.324  2.624 -1.083 ETKDGv2 60
-HMG    H4B -5.001  0.689  0.289 ETKDGv2 61
-HMG    H3B -7.290  1.139  0.440 ETKDGv2 62
-HMG  "H2'" -6.777  3.975  1.397 ETKDGv2 63
-HMG    H2B -8.562  3.447  2.634 ETKDGv2 64
-HMG    H1B -5.690  3.222  3.277 ETKDGv2 65
-HMG   H2A1 -7.025  3.328  7.784 ETKDGv2 66
-HMG   H8A1 -7.144 -0.372  2.336 ETKDGv2 67
-HMG   H61A -8.848 -0.995  8.213 ETKDGv2 68
-HMG   H62A -8.757 -1.755  6.586 ETKDGv2 69
-HMG   H121  2.089  2.670 -1.396 ETKDGv2 70
-HMG   H122  1.577  1.592 -2.757 ETKDGv2 71
-HMG   H131  4.296  2.274 -0.207 ETKDGv2 72
-HMG   H132  5.398  0.956 -0.764 ETKDGv2 73
-HMG   H133  3.884  0.558  0.090 ETKDGv2 74
-HMG   H141  3.064 -0.948 -1.797 ETKDGv2 75
-HMG   H142  3.103 -0.354 -3.492 ETKDGv2 76
-HMG   H143  4.636 -0.640 -2.589 ETKDGv2 77
-HMG   H101  3.681  1.956 -4.028 ETKDGv2 78
-HMG    H10  4.616  3.683 -1.959 ETKDGv2 79
-HMG     H8  5.285  0.585 -5.093 ETKDGv2 80
-HMG   H7P1  7.466 -0.077 -5.642 ETKDGv2 81
-HMG   H7P2  8.103  1.254 -4.628 ETKDGv2 82
-HMG   H6P1  8.860 -0.881 -3.696 ETKDGv2 83
-HMG   H6P2  7.685 -0.154 -2.554 ETKDGv2 84
-HMG     H4  8.006 -2.766 -1.920 ETKDGv2 85
-HMG   H3P1  6.973 -4.870 -1.900 ETKDGv2 86
-HMG   H3P2  6.292 -4.550 -3.532 ETKDGv2 87
-HMG   H2P1  5.231 -3.519 -0.817 ETKDGv2 88
-HMG   H2P2  4.549 -3.042 -2.427 ETKDGv2 89
-HMG    H21  2.977 -5.431  0.702 ETKDGv2 90
-HMG    H22  1.264 -5.437  0.198 ETKDGv2 91
-HMG     HX  1.121 -2.292 -0.200 ETKDGv2 92
-HMG    H41  4.053 -3.255  1.516 ETKDGv2 93
-HMG    H42  3.450 -2.274  0.148 ETKDGv2 94
-HMG    H61  0.675 -4.720  2.460 ETKDGv2 95
-HMG    H62  2.393 -4.553  2.984 ETKDGv2 96
-HMG    H63  1.247 -3.168  3.143 ETKDGv2 97
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+HMG "Create component"   1999-07-08 RCSB 
+HMG "Modify descriptor"  2011-06-04 RCSB 
+HMG "Modify name"        2011-06-07 RCSB 
+HMG "Modify descriptor"  2011-06-07 RCSB 
+HMG "Modify identifier"  2011-06-07 RCSB 
+HMG "Modify descriptor"  2012-01-05 RCSB 
+HMG "Modify coordinates" 2012-01-05 RCSB 
+# 

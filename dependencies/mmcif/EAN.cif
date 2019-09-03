@@ -1,399 +1,174 @@
 data_EAN
-#
-_chem_comp.id                                        EAN
-_chem_comp.name                                      "[(1~{S},2~{R},4~{R},6~{S},8~{R})-8-[5-methyl-2,4-bis(oxidanylidene)pyrimidin-1-yl]-6-oxidanyl-9-oxatricyclo[4.3.0.0^{2,4}]nonan-2-yl] dihydrogen phosphate"
-_chem_comp.type                                      "DNA linking"
-_chem_comp.pdbx_type                                 ATOMN
-_chem_comp.formula                                   "C13 H17 N2 O8 P"
-_chem_comp.mon_nstd_parent_comp_id                   DT
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2018-03-12
-_chem_comp.pdbx_modified_date                        2019-05-06
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            360.256
-_chem_comp.one_letter_code                           T
-_chem_comp.three_letter_code                         EAN
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6GN4
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    EAN 
+_chem_comp.name                                  "[(1~{S},2~{R},4~{R},6~{S},8~{R})-8-[5-methyl-2,4-bis(oxidanylidene)pyrimidin-1-yl]-6-oxidanyl-9-oxatricyclo[4.3.0.0^{2,4}]nonan-2-yl] dihydrogen phosphate" 
+_chem_comp.type                                  "DNA linking" 
+_chem_comp.pdbx_type                             ATOMN 
+_chem_comp.formula                               "C13 H17 N2 O8 P" 
+_chem_comp.mon_nstd_parent_comp_id               DT 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2018-03-12 
+_chem_comp.pdbx_modified_date                    2019-05-06 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        360.256 
+_chem_comp.one_letter_code                       T 
+_chem_comp.three_letter_code                     EAN 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6GN4 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-EAN     C7  C1 C 0 1 N N N 1.891  -4.728  -9.765  3.154 -1.614 -2.517     C7 EAN  1
-EAN     C6  C2 C 0 1 N N N 4.262  -4.211 -10.396  2.003 -0.462 -0.645     C6 EAN  2
-EAN     C5  C3 C 0 1 N N N 2.978  -3.772 -10.225  3.145 -0.975 -1.152     C5 EAN  3
-EAN     C4  C4 C 0 1 N N N 2.628  -2.375 -10.484  4.332 -0.903 -0.385     C4 EAN  4
-EAN     C2  C5 C 0 1 N N N 5.021  -1.999 -11.074  3.149  0.185  1.311     C2 EAN  5
-EAN      P  P1 P 0 1 N N N 6.734  -9.044 -10.671 -3.110 -1.582  0.389      P EAN  6
-EAN    O1P  O1 O 0 1 N N N 7.919  -8.538 -11.407 -4.077 -0.855  1.241    O1P EAN  7
-EAN    O2P  O2 O 0 1 N N N 6.903 -10.096  -9.644 -3.756 -2.978 -0.086    O2P EAN  8
-EAN  "O5'"  O3 O 0 1 N N N 6.012  -7.778  -9.967 -2.755 -0.688 -0.902  "O5'" EAN  9
-EAN  "C5'"  C6 C 0 1 N N R 6.807  -6.852  -9.264 -2.263  0.650 -0.811  "C5'" EAN 10
-EAN  "C4'"  C7 C 0 1 N N S 7.547  -5.781 -10.050 -1.407  1.005  0.418  "C4'" EAN 11
-EAN  "O4'"  O4 O 0 1 N N N 6.712  -5.278 -11.101 -0.359  0.027  0.558  "O4'" EAN 12
-EAN  "C1'"  C8 C 0 1 N N R 6.679  -3.842 -11.063  0.776  0.685  1.139  "C1'" EAN 13
-EAN     N1  N1 N 0 1 N N N 5.275  -3.360 -10.827  2.013  0.119  0.593     N1 EAN 14
-EAN     O4  O5 O 0 1 N N N 1.500  -1.895 -10.379  5.374 -1.358 -0.822     O4 EAN 15
-EAN     N3  N2 N 0 1 N N N 3.702  -1.573 -10.886  4.299 -0.327  0.833     N3 EAN 16
-EAN     O2  O6 O 0 1 N N N 5.898  -1.215 -11.435  3.134  0.702  2.411     O2 EAN 17
-EAN  "C3'"  C9 C 0 1 N N S 7.862  -4.637  -9.110 -0.653  2.306  0.004  "C3'" EAN 18
-EAN  "C2'" C10 C 0 1 N N N 7.610  -3.385  -9.942  0.679  2.178  0.775  "C2'" EAN 19
-EAN  "C7'" C11 C 0 1 N N N 6.878  -4.800  -7.922 -0.397  2.096 -1.505  "C7'" EAN 20
-EAN  "C6'" C12 C 0 1 N N S 6.346  -6.226  -7.976 -1.621  1.343 -2.024  "C6'" EAN 21
-EAN  "C8'" C13 C 0 1 N N N 7.392  -7.297  -7.951 -3.008  1.769 -1.543  "C8'" EAN 22
-EAN  "O3'"  O7 O 0 1 N N N 9.220  -4.750  -8.685 -1.370  3.506  0.299  "O3'" EAN 23
-EAN    O3P  O8 O 0 1 N Y N 5.653  -9.584 -11.756 -1.767 -1.871  1.228    O3P EAN 24
-EAN    H73  H1 H 0 1 N N N 2.321  -5.730  -9.618  3.376 -0.859 -3.271    H73 EAN 25
-EAN    H71  H2 H 0 1 N N N 1.464  -4.369  -8.817  3.916 -2.393 -2.548    H71 EAN 26
-EAN    H72  H3 H 0 1 N N N 1.100  -4.778 -10.528  2.178 -2.054 -2.719    H72 EAN 27
-EAN     H6  H4 H 0 1 N N N 4.496  -5.245 -10.191  1.087 -0.507 -1.216     H6 EAN 28
-EAN     H1  H5 H 0 1 N N N 7.821 -10.333  -9.581 -3.996 -3.569  0.641     H1 EAN 29
-EAN  "H4'"  H6 H 0 1 N N N 8.481  -6.198 -10.455 -2.002  1.130  1.323  "H4'" EAN 30
-EAN  "H1'"  H7 H 0 1 N N N 7.045  -3.432 -12.016  0.761  0.564  2.222  "H1'" EAN 31
-EAN     H3  H8 H 0 1 N N N 3.509  -0.606 -11.054  5.109 -0.271  1.364     H3 EAN 32
-EAN  "H2'"  H9 H 0 1 N N N 8.553  -2.998 -10.355  0.656  2.789  1.677  "H2'" EAN 33
-EAN "H2''" H10 H 0 0 N N N 7.129  -2.605  -9.333  1.516  2.469  0.139 "H2''" EAN 34
-EAN  "H7'" H11 H 0 1 N N N 7.403  -4.629  -6.971 -0.288  3.057 -2.008  "H7'" EAN 35
-EAN "H7''" H12 H 0 0 N N N 6.049  -4.084  -8.018  0.493  1.486 -1.658 "H7''" EAN 36
-EAN  "H6'" H13 H 0 1 N N N 5.335  -6.438  -7.598 -1.526  0.826 -2.979  "H6'" EAN 37
-EAN  "H8'" H14 H 0 1 N N N 7.150  -8.293  -7.551 -3.862  1.485 -2.158  "H8'" EAN 38
-EAN "H8''" H15 H 0 0 N N N 8.432  -7.043  -7.699 -3.092  2.732 -1.039 "H8''" EAN 39
-EAN     H2 H16 H 0 1 N N N 9.428  -4.036  -8.094 -0.905  4.315  0.044     H2 EAN 40
-EAN     H4 H17 H 0 1 N N N 5.998  -9.466 -12.633 -1.087 -2.345  0.730     H4 EAN 41
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+EAN C7     C1  C 0 1 N N N 1.891 -4.728  -9.765  3.154  -1.614 -2.517 C7     EAN 1  
+EAN C6     C2  C 0 1 N N N 4.262 -4.211  -10.396 2.003  -0.462 -0.645 C6     EAN 2  
+EAN C5     C3  C 0 1 N N N 2.978 -3.772  -10.225 3.145  -0.975 -1.152 C5     EAN 3  
+EAN C4     C4  C 0 1 N N N 2.628 -2.375  -10.484 4.332  -0.903 -0.385 C4     EAN 4  
+EAN C2     C5  C 0 1 N N N 5.021 -1.999  -11.074 3.149  0.185  1.311  C2     EAN 5  
+EAN P      P1  P 0 1 N N N 6.734 -9.044  -10.671 -3.110 -1.582 0.389  P      EAN 6  
+EAN O1P    O1  O 0 1 N N N 7.919 -8.538  -11.407 -4.077 -0.855 1.241  O1P    EAN 7  
+EAN O2P    O2  O 0 1 N N N 6.903 -10.096 -9.644  -3.756 -2.978 -0.086 O2P    EAN 8  
+EAN "O5'"  O3  O 0 1 N N N 6.012 -7.778  -9.967  -2.755 -0.688 -0.902 "O5'"  EAN 9  
+EAN "C5'"  C6  C 0 1 N N R 6.807 -6.852  -9.264  -2.263 0.650  -0.811 "C5'"  EAN 10 
+EAN "C4'"  C7  C 0 1 N N S 7.547 -5.781  -10.050 -1.407 1.005  0.418  "C4'"  EAN 11 
+EAN "O4'"  O4  O 0 1 N N N 6.712 -5.278  -11.101 -0.359 0.027  0.558  "O4'"  EAN 12 
+EAN "C1'"  C8  C 0 1 N N R 6.679 -3.842  -11.063 0.776  0.685  1.139  "C1'"  EAN 13 
+EAN N1     N1  N 0 1 N N N 5.275 -3.360  -10.827 2.013  0.119  0.593  N1     EAN 14 
+EAN O4     O5  O 0 1 N N N 1.500 -1.895  -10.379 5.374  -1.358 -0.822 O4     EAN 15 
+EAN N3     N2  N 0 1 N N N 3.702 -1.573  -10.886 4.299  -0.327 0.833  N3     EAN 16 
+EAN O2     O6  O 0 1 N N N 5.898 -1.215  -11.435 3.134  0.702  2.411  O2     EAN 17 
+EAN "C3'"  C9  C 0 1 N N S 7.862 -4.637  -9.110  -0.653 2.306  0.004  "C3'"  EAN 18 
+EAN "C2'"  C10 C 0 1 N N N 7.610 -3.385  -9.942  0.679  2.178  0.775  "C2'"  EAN 19 
+EAN "C7'"  C11 C 0 1 N N N 6.878 -4.800  -7.922  -0.397 2.096  -1.505 "C7'"  EAN 20 
+EAN "C6'"  C12 C 0 1 N N S 6.346 -6.226  -7.976  -1.621 1.343  -2.024 "C6'"  EAN 21 
+EAN "C8'"  C13 C 0 1 N N N 7.392 -7.297  -7.951  -3.008 1.769  -1.543 "C8'"  EAN 22 
+EAN "O3'"  O7  O 0 1 N N N 9.220 -4.750  -8.685  -1.370 3.506  0.299  "O3'"  EAN 23 
+EAN O3P    O8  O 0 1 N Y N 5.653 -9.584  -11.756 -1.767 -1.871 1.228  O3P    EAN 24 
+EAN H73    H1  H 0 1 N N N 2.321 -5.730  -9.618  3.376  -0.859 -3.271 H73    EAN 25 
+EAN H71    H2  H 0 1 N N N 1.464 -4.369  -8.817  3.916  -2.393 -2.548 H71    EAN 26 
+EAN H72    H3  H 0 1 N N N 1.100 -4.778  -10.528 2.178  -2.054 -2.719 H72    EAN 27 
+EAN H6     H4  H 0 1 N N N 4.496 -5.245  -10.191 1.087  -0.507 -1.216 H6     EAN 28 
+EAN H1     H5  H 0 1 N N N 7.821 -10.333 -9.581  -3.996 -3.569 0.641  H1     EAN 29 
+EAN "H4'"  H6  H 0 1 N N N 8.481 -6.198  -10.455 -2.002 1.130  1.323  "H4'"  EAN 30 
+EAN "H1'"  H7  H 0 1 N N N 7.045 -3.432  -12.016 0.761  0.564  2.222  "H1'"  EAN 31 
+EAN H3     H8  H 0 1 N N N 3.509 -0.606  -11.054 5.109  -0.271 1.364  H3     EAN 32 
+EAN "H2'"  H9  H 0 1 N N N 8.553 -2.998  -10.355 0.656  2.789  1.677  "H2'"  EAN 33 
+EAN "H2''" H10 H 0 0 N N N 7.129 -2.605  -9.333  1.516  2.469  0.139  "H2''" EAN 34 
+EAN "H7'"  H11 H 0 1 N N N 7.403 -4.629  -6.971  -0.288 3.057  -2.008 "H7'"  EAN 35 
+EAN "H7''" H12 H 0 0 N N N 6.049 -4.084  -8.018  0.493  1.486  -1.658 "H7''" EAN 36 
+EAN "H6'"  H13 H 0 1 N N N 5.335 -6.438  -7.598  -1.526 0.826  -2.979 "H6'"  EAN 37 
+EAN "H8'"  H14 H 0 1 N N N 7.150 -8.293  -7.551  -3.862 1.485  -2.158 "H8'"  EAN 38 
+EAN "H8''" H15 H 0 0 N N N 8.432 -7.043  -7.699  -3.092 2.732  -1.039 "H8''" EAN 39 
+EAN H2     H16 H 0 1 N N N 9.428 -4.036  -8.094  -0.905 4.315  0.044  H2     EAN 40 
+EAN H4     H17 H 0 1 N N N 5.998 -9.466  -12.633 -1.087 -2.345 0.730  H4     EAN 41 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-EAN    O2     C2 DOUB N N  1
-EAN   O1P      P DOUB N N  2
-EAN "O4'"  "C1'" SING N N  3
-EAN "O4'"  "C4'" SING N N  4
-EAN    C2     N3 SING N N  5
-EAN    C2     N1 SING N N  6
-EAN "C1'"     N1 SING N N  7
-EAN "C1'"  "C2'" SING N N  8
-EAN    N3     C4 SING N N  9
-EAN    N1     C6 SING N N 10
-EAN     P  "O5'" SING N N 11
-EAN     P    O2P SING N N 12
-EAN    C4     O4 DOUB N N 13
-EAN    C4     C5 SING N N 14
-EAN    C6     C5 DOUB N N 15
-EAN    C5     C7 SING N N 16
-EAN "C4'"  "C5'" SING N N 17
-EAN "C4'"  "C3'" SING N N 18
-EAN "O5'"  "C5'" SING N N 19
-EAN "C2'"  "C3'" SING N N 20
-EAN "C5'"  "C6'" SING N N 21
-EAN "C5'"  "C8'" SING N N 22
-EAN "C3'"  "O3'" SING N N 23
-EAN "C3'"  "C7'" SING N N 24
-EAN "C6'"  "C8'" SING N N 25
-EAN "C6'"  "C7'" SING N N 26
-EAN     P    O3P SING N N 27
-EAN    C7    H73 SING N N 28
-EAN    C7    H71 SING N N 29
-EAN    C7    H72 SING N N 30
-EAN    C6     H6 SING N N 31
-EAN   O2P     H1 SING N N 32
-EAN "C4'"  "H4'" SING N N 33
-EAN "C1'"  "H1'" SING N N 34
-EAN    N3     H3 SING N N 35
-EAN "C2'"  "H2'" SING N N 36
-EAN "C2'" "H2''" SING N N 37
-EAN "C7'"  "H7'" SING N N 38
-EAN "C7'" "H7''" SING N N 39
-EAN "C6'"  "H6'" SING N N 40
-EAN "C8'"  "H8'" SING N N 41
-EAN "C8'" "H8''" SING N N 42
-EAN "O3'"     H2 SING N N 43
-EAN   O3P     H4 SING N N 44
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+EAN O2    C2     DOUB N N 1  
+EAN O1P   P      DOUB N N 2  
+EAN "O4'" "C1'"  SING N N 3  
+EAN "O4'" "C4'"  SING N N 4  
+EAN C2    N3     SING N N 5  
+EAN C2    N1     SING N N 6  
+EAN "C1'" N1     SING N N 7  
+EAN "C1'" "C2'"  SING N N 8  
+EAN N3    C4     SING N N 9  
+EAN N1    C6     SING N N 10 
+EAN P     "O5'"  SING N N 11 
+EAN P     O2P    SING N N 12 
+EAN C4    O4     DOUB N N 13 
+EAN C4    C5     SING N N 14 
+EAN C6    C5     DOUB N N 15 
+EAN C5    C7     SING N N 16 
+EAN "C4'" "C5'"  SING N N 17 
+EAN "C4'" "C3'"  SING N N 18 
+EAN "O5'" "C5'"  SING N N 19 
+EAN "C2'" "C3'"  SING N N 20 
+EAN "C5'" "C6'"  SING N N 21 
+EAN "C5'" "C8'"  SING N N 22 
+EAN "C3'" "O3'"  SING N N 23 
+EAN "C3'" "C7'"  SING N N 24 
+EAN "C6'" "C8'"  SING N N 25 
+EAN "C6'" "C7'"  SING N N 26 
+EAN P     O3P    SING N N 27 
+EAN C7    H73    SING N N 28 
+EAN C7    H71    SING N N 29 
+EAN C7    H72    SING N N 30 
+EAN C6    H6     SING N N 31 
+EAN O2P   H1     SING N N 32 
+EAN "C4'" "H4'"  SING N N 33 
+EAN "C1'" "H1'"  SING N N 34 
+EAN N3    H3     SING N N 35 
+EAN "C2'" "H2'"  SING N N 36 
+EAN "C2'" "H2''" SING N N 37 
+EAN "C7'" "H7'"  SING N N 38 
+EAN "C7'" "H7''" SING N N 39 
+EAN "C6'" "H6'"  SING N N 40 
+EAN "C8'" "H8'"  SING N N 41 
+EAN "C8'" "H8''" SING N N 42 
+EAN "O3'" H2     SING N N 43 
+EAN O3P   H4     SING N N 44 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-EAN            InChI                InChI  1.03 InChI=1S/C13H17N2O8P/c1-6-5-15(11(17)14-9(6)16)8-4-12(18)2-7-3-13(7,10(12)22-8)23-24(19,20)21/h5,7-8,10,18H,2-4H2,1H3,(H,14,16,17)(H2,19,20,21)/t7-,8-,10+,12+,13-/m1/s1
-EAN         InChIKey                InChI  1.03                                                                                                                                              GOQODLUGMVNILT-ZIDZYHNGSA-N
-EAN SMILES_CANONICAL               CACTVS 3.385                                                                                                   CC1=CN([C@H]2C[C@@]3(O)C[C@@H]4C[C@]4(O[P](O)(O)=O)[C@H]3O2)C(=O)NC1=O
-EAN           SMILES               CACTVS 3.385                                                                                                          CC1=CN([CH]2C[C]3(O)C[CH]4C[C]4(O[P](O)(O)=O)[CH]3O2)C(=O)NC1=O
-EAN SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                     CC1=CN(C(=O)NC1=O)[C@H]2C[C@]3(C[C@@H]4C[C@@]4([C@H]3O2)OP(=O)(O)O)O
-EAN           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                                         CC1=CN(C(=O)NC1=O)C2CC3(CC4CC4(C3O2)OP(=O)(O)O)O
-#
-_pdbx_chem_comp_identifier.comp_id               EAN
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.6
-_pdbx_chem_comp_identifier.identifier            "[(1~{S},2~{R},4~{R},6~{S},8~{R})-8-[5-methyl-2,4-bis(oxidanylidene)pyrimidin-1-yl]-6-oxidanyl-9-oxatricyclo[4.3.0.0^{2,4}]nonan-2-yl] dihydrogen phosphate"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+EAN InChI            InChI                1.03  "InChI=1S/C13H17N2O8P/c1-6-5-15(11(17)14-9(6)16)8-4-12(18)2-7-3-13(7,10(12)22-8)23-24(19,20)21/h5,7-8,10,18H,2-4H2,1H3,(H,14,16,17)(H2,19,20,21)/t7-,8-,10+,12+,13-/m1/s1" 
+EAN InChIKey         InChI                1.03  GOQODLUGMVNILT-ZIDZYHNGSA-N                                                                                                                                                
+EAN SMILES_CANONICAL CACTVS               3.385 "CC1=CN([C@H]2C[C@@]3(O)C[C@@H]4C[C@]4(O[P](O)(O)=O)[C@H]3O2)C(=O)NC1=O"                                                                                                   
+EAN SMILES           CACTVS               3.385 "CC1=CN([CH]2C[C]3(O)C[CH]4C[C]4(O[P](O)(O)=O)[CH]3O2)C(=O)NC1=O"                                                                                                          
+EAN SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "CC1=CN(C(=O)NC1=O)[C@H]2C[C@]3(C[C@@H]4C[C@@]4([C@H]3O2)OP(=O)(O)O)O"                                                                                                     
+EAN SMILES           "OpenEye OEToolkits" 2.0.6 "CC1=CN(C(=O)NC1=O)C2CC3(CC4CC4(C3O2)OP(=O)(O)O)O"                                                                                                                         
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-EAN       "Create component" 2018-03-12  EBI
-EAN     "Other modification" 2018-04-19  EBI
-EAN     "Other modification" 2018-04-27  EBI
-EAN     "Other modification" 2018-05-30  EBI
-EAN        "Initial release" 2018-06-06 RCSB
-EAN "Modify one letter code" 2019-05-06  EBI
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+EAN "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "[(1~{S},2~{R},4~{R},6~{S},8~{R})-8-[5-methyl-2,4-bis(oxidanylidene)pyrimidin-1-yl]-6-oxidanyl-9-oxatricyclo[4.3.0.0^{2,4}]nonan-2-yl] dihydrogen phosphate" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-EAN    C7 C 11.012  5.289  1
-EAN    C6 C  9.274  3.358  2
-EAN    C5 C 10.700  3.821  3
-EAN    C4 C 11.815  2.818  4
-EAN    C2 C 10.076  0.887  5
-EAN     P P  5.428 -3.250  6
-EAN   O1P O  5.271 -4.742  7
-EAN   O2P O  6.919 -3.407  8
-EAN "O5'" O  5.584 -1.759  9
-EAN "C5'" C  4.371 -0.877 10
-EAN "C4'" C  5.584  0.005 11
-EAN "O4'" O  7.075  0.009 12
-EAN "C1'" C  7.535  1.427 13
-EAN    N1 N  8.962  1.891 14
-EAN    O4 O 13.241  3.281 15
-EAN    N3 N 11.503  1.351 16
-EAN    O2 O  9.764 -0.580 17
-EAN "C3'" C  5.121  1.431 18
-EAN "C2'" C  6.329  2.305 19
-EAN "C7'" C  3.621  1.431 20
-EAN "C6'" C  3.157  0.005 21
-EAN "C8'" C  3.000 -1.488 22
-EAN "O3'" O  4.657  2.858 23
-EAN   O3P O  3.936 -3.093 24
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-EAN    O2    C2 DOUBLE       NONE  1
-EAN   O1P     P DOUBLE       NONE  2
-EAN "O4'" "C1'" SINGLE       NONE  3
-EAN "O4'" "C4'" SINGLE       NONE  4
-EAN    C2    N3 SINGLE       NONE  5
-EAN    C2    N1 SINGLE       NONE  6
-EAN "C1'"    N1 SINGLE  BEGINDASH  7
-EAN "C1'" "C2'" SINGLE       NONE  8
-EAN    N3    C4 SINGLE       NONE  9
-EAN    N1    C6 SINGLE       NONE 10
-EAN     P "O5'" SINGLE       NONE 11
-EAN     P   O2P SINGLE       NONE 12
-EAN    C4    O4 DOUBLE       NONE 13
-EAN    C4    C5 SINGLE       NONE 14
-EAN    C6    C5 DOUBLE       NONE 15
-EAN    C5    C7 SINGLE       NONE 16
-EAN "C4'" "C5'" SINGLE       NONE 17
-EAN "C4'" "C3'" SINGLE       NONE 18
-EAN "O5'" "C5'" SINGLE BEGINWEDGE 19
-EAN "C2'" "C3'" SINGLE       NONE 20
-EAN "C5'" "C6'" SINGLE       NONE 21
-EAN "C5'" "C8'" SINGLE       NONE 22
-EAN "C3'" "O3'" SINGLE BEGINWEDGE 23
-EAN "C3'" "C7'" SINGLE       NONE 24
-EAN "C6'" "C8'" SINGLE       NONE 25
-EAN "C6'" "C7'" SINGLE       NONE 26
-EAN     P   O3P SINGLE       NONE 27
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-EAN MurckoScaffold S1 scaffold O=c1ccn([C@H]2CC3C[C@H]4CC4[C@H]3O2)c(=O)[nH]1 InChI=1S/C12H14N2O3/c15-9-1-2-14(12(16)13-9)10-5-7-3-6-4-8(6)11(7)17-10/h1-2,6-8,10-11H,3-5H2,(H,13,15,16)/t6-,7?,8?,10+,11-/m0/s1 MDCNMLAVIIVONS-YVXZIJOHSA-N
-EAN    cyclohexane F1 fragment                                       C1CCCCC1                                                                                               InChI=1S/C6H12/c1-2-4-6-5-3-1/h1-6H2 XDTMQSROBMDMFD-UHFFFAOYSA-N
-EAN   cyclopentane F2 fragment                                        C1CCCC1                                                                                                 InChI=1S/C5H10/c1-2-4-5-3-1/h1-5H2 RGSFGYAAUTVSQA-UHFFFAOYSA-N
-EAN   cyclopropane F3 fragment                                          C1CC1                                                                                                      InChI=1S/C3H6/c1-2-3-1/h1-3H2 LVZWSLJZHVFIQJ-UHFFFAOYSA-N
-EAN    deoxyribose F4 fragment                                     OCC1OCCC1O                                                                                    InChI=1S/C5H10O3/c6-3-5-4(7)1-2-8-5/h4-7H,1-3H2 NSMOSDAEGJTOIQ-UHFFFAOYSA-N
-EAN      phosphate F5 fragment                                     O=P(O)(O)O                                                                                            InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-EAN     pyrimidine F6 fragment                                       c1cncnc1                                                                                               InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-EAN "C5'" F1 1
-EAN "C4'" F1 1
-EAN "C3'" F1 1
-EAN "C7'" F1 1
-EAN "C6'" F1 1
-EAN "C8'" F1 1
-EAN "C5'" F2 1
-EAN "C4'" F2 1
-EAN "C3'" F2 1
-EAN "C7'" F2 1
-EAN "C6'" F2 1
-EAN "C5'" F3 1
-EAN "C6'" F3 1
-EAN "C8'" F3 1
-EAN "C1'" F4 1
-EAN "C2'" F4 1
-EAN "C3'" F4 1
-EAN "O3'" F4 1
-EAN "C4'" F4 1
-EAN "O4'" F4 1
-EAN "C5'" F4 1
-EAN "O5'" F4 1
-EAN   O2P F5 1
-EAN     P F5 1
-EAN   O1P F5 1
-EAN "O5'" F5 1
-EAN   O3P F5 1
-EAN    C5 F6 1
-EAN    C6 F6 1
-EAN    N1 F6 1
-EAN    C2 F6 1
-EAN    N3 F6 1
-EAN    C4 F6 1
-EAN    C6 S1 1
-EAN    C5 S1 1
-EAN    C4 S1 1
-EAN    C2 S1 1
-EAN "C5'" S1 1
-EAN "C4'" S1 1
-EAN "O4'" S1 1
-EAN "C1'" S1 1
-EAN    N1 S1 1
-EAN    O4 S1 1
-EAN    N3 S1 1
-EAN    O2 S1 1
-EAN "C3'" S1 1
-EAN "C2'" S1 1
-EAN "C7'" S1 1
-EAN "C6'" S1 1
-EAN "C8'" S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               EAN
-_pdbe_chem_comp_rdkit_properties.exactmw                               360.072
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           10
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                9
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        11
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.692
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     3
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             159.033
-_pdbe_chem_comp_rdkit_properties.tpsa                                  151.080
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.880
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             78.071
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         24
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-EAN     C7  5.131 -1.081 -1.779 ETKDGv2  1
-EAN     C6  2.940 -0.757 -0.674 ETKDGv2  2
-EAN     C5  3.644 -0.858 -1.814 ETKDGv2  3
-EAN     C4  2.955 -0.744 -3.115 ETKDGv2  4
-EAN     C2  0.817 -0.403 -1.930 ETKDGv2  5
-EAN      P -3.881 -1.486  0.253 ETKDGv2  6
-EAN    O1P -5.311 -1.972  0.310 ETKDGv2  7
-EAN    O2P -2.859 -2.724  0.789 ETKDGv2  8
-EAN  "O5'" -3.720 -0.129  1.272 ETKDGv2  9
-EAN  "C5'" -2.489  0.483  0.978 ETKDGv2 10
-EAN  "C4'" -1.205 -0.119  1.560 ETKDGv2 11
-EAN  "O4'" -0.510 -0.839  0.563 ETKDGv2 12
-EAN  "C1'"  0.834 -0.427  0.632 ETKDGv2 13
-EAN     N1  1.512 -0.546 -0.672 ETKDGv2 14
-EAN     O4  3.600 -0.845 -4.192 ETKDGv2 15
-EAN     N3  1.547 -0.515 -3.152 ETKDGv2 16
-EAN     O2 -0.421 -0.180 -1.970 ETKDGv2 17
-EAN  "C3'" -0.334  1.026  2.076 ETKDGv2 18
-EAN  "C2'"  0.855  1.003  1.131 ETKDGv2 19
-EAN  "C7'" -1.180  2.312  2.010 ETKDGv2 20
-EAN  "C6'" -2.514  1.948  1.374 ETKDGv2 21
-EAN  "C8'" -2.475  1.572 -0.095 ETKDGv2 22
-EAN  "O3'"  0.075  0.753  3.396 ETKDGv2 23
-EAN    O3P -3.492 -1.089 -1.347 ETKDGv2 24
-EAN    H73  5.645 -0.241 -2.292 ETKDGv2 25
-EAN    H71  5.521 -1.146 -0.740 ETKDGv2 26
-EAN    H72  5.377 -2.029 -2.303 ETKDGv2 27
-EAN     H6  3.457 -0.835  0.275 ETKDGv2 28
-EAN     H1 -2.906 -3.414  0.081 ETKDGv2 29
-EAN  "H4'" -1.475 -0.813  2.387 ETKDGv2 30
-EAN  "H1'"  1.348 -1.080  1.376 ETKDGv2 31
-EAN     H3  1.053 -0.424 -4.069 ETKDGv2 32
-EAN  "H2'"  1.814  1.241  1.640 ETKDGv2 33
-EAN "H2''"  0.715  1.701  0.276 ETKDGv2 34
-EAN  "H7'" -0.684  3.124  1.436 ETKDGv2 35
-EAN "H7''" -1.382  2.698  3.032 ETKDGv2 36
-EAN  "H6'" -3.476  2.335  1.775 ETKDGv2 37
-EAN  "H8'" -3.443  1.725 -0.616 ETKDGv2 38
-EAN "H8''" -1.504  1.745 -0.599 ETKDGv2 39
-EAN     H2  0.638  1.516  3.695 ETKDGv2 40
-EAN     H4 -4.218 -0.484 -1.643 ETKDGv2 41
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+EAN "Create component"       2018-03-12 EBI  
+EAN "Other modification"     2018-04-19 EBI  
+EAN "Other modification"     2018-04-27 EBI  
+EAN "Other modification"     2018-05-30 EBI  
+EAN "Initial release"        2018-06-06 RCSB 
+EAN "Modify one letter code" 2019-05-06 EBI  
+# 

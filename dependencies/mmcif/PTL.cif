@@ -1,263 +1,118 @@
 data_PTL
-#
-_chem_comp.id                                        PTL
-_chem_comp.name                                      PENTANAL
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C5 H10 O"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            86.132
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         PTL
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1IHT
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    PTL 
+_chem_comp.name                                  PENTANAL 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C5 H10 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        86.132 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     PTL 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1IHT 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PTL  C1  C1 C 0 1 N N N 15.322 17.907 13.182 -0.183 -0.393 -1.920  C1 PTL  1
-PTL  O1  O1 O 0 1 N N N 15.021 16.712 13.254 -0.198  0.429 -2.804  O1 PTL  2
-PTL  C2  C2 C 0 1 N N N 16.628 18.524 13.691  0.624 -0.145 -0.673  C2 PTL  3
-PTL  C3  C3 C 0 1 N N N 16.945 18.273 15.176 -0.303 -0.145  0.543  C3 PTL  4
-PTL  C4  C4 C 0 1 N N N 15.830 18.789 16.060  0.516  0.106  1.810  C4 PTL  5
-PTL  C5  C5 C 0 1 N N N 15.973 18.325 17.500 -0.411  0.105  3.026  C5 PTL  6
-PTL  H1  H1 H 0 1 N N N 14.467 18.398 12.687 -0.749 -1.308 -2.024  H1 PTL  7
-PTL H21 1H2 H 0 1 N N N 17.481 18.188 13.056  1.122  0.821 -0.749 H21 PTL  8
-PTL H22 2H2 H 0 1 N N N 16.641 19.618 13.477  1.370 -0.931 -0.561 H22 PTL  9
-PTL H31 1H3 H 0 1 N N N 17.164 17.198 15.374 -0.802 -1.112  0.619 H31 PTL 10
-PTL H32 2H3 H 0 1 N N N 17.932 18.702 15.465 -1.050  0.640  0.431 H32 PTL 11
-PTL H41 1H4 H 0 1 N N N 15.751 19.899 16.001  1.014  1.073  1.733 H41 PTL 12
-PTL H42 2H4 H 0 1 N N N 14.830 18.517 15.647  1.263 -0.679  1.922 H42 PTL 13
-PTL H51 1H5 H 0 1 N N N 15.151 18.705 18.151  0.172  0.285  3.929 H51 PTL 14
-PTL H52 2H5 H 0 1 N N N 16.052 17.214 17.558 -1.158  0.891  2.914 H52 PTL 15
-PTL H53 3H5 H 0 1 N N N 16.972 18.596 17.913 -0.909 -0.860  3.103 H53 PTL 16
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PTL C1  C1  C 0 1 N N N 15.322 17.907 13.182 -0.183 -0.393 -1.920 C1  PTL 1  
+PTL O1  O1  O 0 1 N N N 15.021 16.712 13.254 -0.198 0.429  -2.804 O1  PTL 2  
+PTL C2  C2  C 0 1 N N N 16.628 18.524 13.691 0.624  -0.145 -0.673 C2  PTL 3  
+PTL C3  C3  C 0 1 N N N 16.945 18.273 15.176 -0.303 -0.145 0.543  C3  PTL 4  
+PTL C4  C4  C 0 1 N N N 15.830 18.789 16.060 0.516  0.106  1.810  C4  PTL 5  
+PTL C5  C5  C 0 1 N N N 15.973 18.325 17.500 -0.411 0.105  3.026  C5  PTL 6  
+PTL H1  H1  H 0 1 N N N 14.467 18.398 12.687 -0.749 -1.308 -2.024 H1  PTL 7  
+PTL H21 1H2 H 0 1 N N N 17.481 18.188 13.056 1.122  0.821  -0.749 H21 PTL 8  
+PTL H22 2H2 H 0 1 N N N 16.641 19.618 13.477 1.370  -0.931 -0.561 H22 PTL 9  
+PTL H31 1H3 H 0 1 N N N 17.164 17.198 15.374 -0.802 -1.112 0.619  H31 PTL 10 
+PTL H32 2H3 H 0 1 N N N 17.932 18.702 15.465 -1.050 0.640  0.431  H32 PTL 11 
+PTL H41 1H4 H 0 1 N N N 15.751 19.899 16.001 1.014  1.073  1.733  H41 PTL 12 
+PTL H42 2H4 H 0 1 N N N 14.830 18.517 15.647 1.263  -0.679 1.922  H42 PTL 13 
+PTL H51 1H5 H 0 1 N N N 15.151 18.705 18.151 0.172  0.285  3.929  H51 PTL 14 
+PTL H52 2H5 H 0 1 N N N 16.052 17.214 17.558 -1.158 0.891  2.914  H52 PTL 15 
+PTL H53 3H5 H 0 1 N N N 16.972 18.596 17.913 -0.909 -0.860 3.103  H53 PTL 16 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PTL C1  O1 DOUB N N  1
-PTL C1  C2 SING N N  2
-PTL C1  H1 SING N N  3
-PTL C2  C3 SING N N  4
-PTL C2 H21 SING N N  5
-PTL C2 H22 SING N N  6
-PTL C3  C4 SING N N  7
-PTL C3 H31 SING N N  8
-PTL C3 H32 SING N N  9
-PTL C4  C5 SING N N 10
-PTL C4 H41 SING N N 11
-PTL C4 H42 SING N N 12
-PTL C5 H51 SING N N 13
-PTL C5 H52 SING N N 14
-PTL C5 H53 SING N N 15
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PTL C1 O1  DOUB N N 1  
+PTL C1 C2  SING N N 2  
+PTL C1 H1  SING N N 3  
+PTL C2 C3  SING N N 4  
+PTL C2 H21 SING N N 5  
+PTL C2 H22 SING N N 6  
+PTL C3 C4  SING N N 7  
+PTL C3 H31 SING N N 8  
+PTL C3 H32 SING N N 9  
+PTL C4 C5  SING N N 10 
+PTL C4 H41 SING N N 11 
+PTL C4 H42 SING N N 12 
+PTL C5 H51 SING N N 13 
+PTL C5 H52 SING N N 14 
+PTL C5 H53 SING N N 15 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PTL           SMILES              ACDLabs 10.04                                    O=CCCCC
-PTL SMILES_CANONICAL               CACTVS 3.341                                    CCCCC=O
-PTL           SMILES               CACTVS 3.341                                    CCCCC=O
-PTL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                    CCCCC=O
-PTL           SMILES "OpenEye OEToolkits" 1.5.0                                    CCCCC=O
-PTL            InChI                InChI  1.03 InChI=1S/C5H10O/c1-2-3-4-5-6/h5H,2-4H2,1H3
-PTL         InChIKey                InChI  1.03                HGBOYTHUEUWSSQ-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PTL SMILES           ACDLabs              10.04 O=CCCCC                                    
+PTL SMILES_CANONICAL CACTVS               3.341 CCCCC=O                                    
+PTL SMILES           CACTVS               3.341 CCCCC=O                                    
+PTL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 CCCCC=O                                    
+PTL SMILES           "OpenEye OEToolkits" 1.5.0 CCCCC=O                                    
+PTL InChI            InChI                1.03  InChI=1S/C5H10O/c1-2-3-4-5-6/h5H,2-4H2,1H3 
+PTL InChIKey         InChI                1.03  HGBOYTHUEUWSSQ-UHFFFAOYSA-N                
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PTL "SYSTEMATIC NAME"              ACDLabs 10.04 pentanal
-PTL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 pentanal
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PTL "SYSTEMATIC NAME" ACDLabs              10.04 pentanal 
+PTL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 pentanal 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PTL  "Create component" 1999-07-08  EBI
-PTL "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   PTL
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01919
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Pentanal
-_pdbe_chem_comp_drugbank_details.description               "Pentanal is a solid. This compound belongs to the polyamines. These are compounds containing more than one amine group. This drug targets the protein cAMP-dependent protein kinase catalytic subunit alpha."
-_pdbe_chem_comp_drugbank_details.cas_number                110-62-3
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           PTL
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01919
-_pdbe_chem_comp_drugbank_classification.parent            "Alpha-hydrogen aldehydes"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Organooxygen compounds"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic oxygen compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alpha-hydrogen aldehydes. These are aldehydes with the general formula HC(H)(R)C(=O)H, where R is an organyl group."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        PTL
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB01919
-_pdbe_chem_comp_drugbank_targets.name                           "cAMP-dependent protein kinase catalytic subunit alpha"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P17612
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-_pdbx_chem_comp_synonyms.comp_id          PTL
-_pdbx_chem_comp_synonyms.name             Pentanal
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PTL C1 C 8.196 0.090 1
-PTL O1 O 9.495 0.840 2
-PTL C2 C 6.897 0.840 3
-PTL C3 C 5.598 0.090 4
-PTL C4 C 4.299 0.840 5
-PTL C5 C 3.000 0.090 6
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PTL C1 O1 DOUBLE NONE 1
-PTL C1 C2 SINGLE NONE 2
-PTL C2 C3 SINGLE NONE 3
-PTL C3 C4 SINGLE NONE 4
-PTL C4 C5 SINGLE NONE 5
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PTL
-_pdbe_chem_comp_rdkit_properties.exactmw                               86.073
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                0
-_pdbe_chem_comp_rdkit_properties.NumHBA                                1
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        1
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.800
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             52.410
-_pdbe_chem_comp_rdkit_properties.tpsa                                  17.070
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.375
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             25.589
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-PTL UniChem       ChEMBL      CHEMBL18602
-PTL UniChem     DrugBank          DB01919
-PTL UniChem        ChEBI            84069
-PTL UniChem         ZINC ZINC000001667603
-PTL UniChem         ZINC     ZINC01667603
-PTL UniChem   NMRShiftDB         10016746
-PTL UniChem    BindingDb         50028837
-PTL UniChem MetaboLights       MTBLC84069
-PTL UniChem       BRENDA           106754
-PTL UniChem       BRENDA            11265
-PTL UniChem       BRENDA            12619
-PTL UniChem       BRENDA             1481
-PTL UniChem       BRENDA           195335
-PTL UniChem       BRENDA             2492
-PTL UniChem       BRENDA             3401
-PTL UniChem       BRENDA            42938
-PTL UniChem       BRENDA              781
-PTL UniChem         Rhea            84069
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PTL  C1  2.267  0.467  0.045 ETKDGv2  1
-PTL  O1  2.642  0.312  1.197 ETKDGv2  2
-PTL  C2  1.429 -0.580 -0.630 ETKDGv2  3
-PTL  C3  0.059 -0.744  0.043 ETKDGv2  4
-PTL  C4 -0.827  0.498 -0.140 ETKDGv2  5
-PTL  C5 -2.199  0.293  0.495 ETKDGv2  6
-PTL  H1  2.553  1.362 -0.496 ETKDGv2  7
-PTL H21  1.971 -1.549 -0.592 ETKDGv2  8
-PTL H22  1.293 -0.311 -1.699 ETKDGv2  9
-PTL H31 -0.450 -1.621 -0.414 ETKDGv2 10
-PTL H32  0.195 -0.957  1.126 ETKDGv2 11
-PTL H41 -0.960  0.707 -1.224 ETKDGv2 12
-PTL H42 -0.344  1.381  0.332 ETKDGv2 13
-PTL H51 -2.095  0.104  1.585 ETKDGv2 14
-PTL H52 -2.719 -0.567  0.022 ETKDGv2 15
-PTL H53 -2.815  1.205  0.350 ETKDGv2 16
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PTL "Create component"  1999-07-08 EBI  
+PTL "Modify descriptor" 2011-06-04 RCSB 
+# 

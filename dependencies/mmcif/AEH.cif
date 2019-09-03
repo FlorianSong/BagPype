@@ -1,320 +1,142 @@
 data_AEH
-#
-_chem_comp.id                                        AEH
-_chem_comp.name                                      4-(2-aminoethyl)-2-ethylphenol
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C10 H15 N O"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2008-01-07
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            165.232
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         AEH
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            3BUG
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      PDBJ
-
-#
+# 
+_chem_comp.id                                    AEH 
+_chem_comp.name                                  "4-(2-aminoethyl)-2-ethylphenol" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C10 H15 N O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2008-01-07 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        165.232 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     AEH 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        3BUG 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-AEH   C4   C4 C 0 1 N N N -21.888 42.568 89.867  2.319 -1.466  0.585   C4 AEH  1
-AEH   C5   C5 C 0 1 Y N N -18.976 40.459 91.136 -0.974  0.373  0.413   C5 AEH  2
-AEH   C6   C6 C 0 1 Y N N -20.974 39.815 92.353  0.761  1.873 -0.274   C6 AEH  3
-AEH   C8   C8 C 0 1 N N N -21.962 42.262 88.366  2.678 -2.104 -0.758   C8 AEH  4
-AEH  C10  C10 C 0 1 N N N -17.503 40.288 90.880 -2.432  0.101  0.681  C10 AEH  5
-AEH  N12  N12 N 0 1 N N N -15.422 39.958 92.211 -4.518 -0.683 -0.334  N12 AEH  6
-AEH   O7   O7 O 0 1 N N N -23.031 40.886 91.871  3.017  1.118 -0.321   O7 AEH  7
-AEH   C3   C3 C 0 1 Y N N -21.689 40.755 91.616  1.702  0.872 -0.079   C3 AEH  8
-AEH   C9   C9 C 0 1 Y N N -19.609 39.669 92.107 -0.575  1.621 -0.027   C9 AEH  9
-AEH  C11  C11 C 0 1 N N N -16.667 40.798 92.059 -3.097 -0.418 -0.595  C11 AEH 10
-AEH   C2   C2 C 0 1 Y N N -19.708 41.401 90.401 -0.038 -0.625  0.613   C2 AEH 11
-AEH   C1   C1 C 0 1 Y N N -21.078 41.556 90.636  1.299 -0.378  0.368   C1 AEH 12
-AEH   H4   H4 H 0 1 N N N -21.420 43.555 89.996  1.905 -2.225  1.249   H4 AEH 13
-AEH  H4A  H4A H 0 1 N N N -22.914 42.539 90.261  3.215 -1.039  1.036  H4A AEH 14
-AEH   H6   H6 H 0 1 N N N -21.467 39.211 93.100  1.073  2.847 -0.621   H6 AEH 15
-AEH   H8   H8 H 0 1 N N N -21.980 43.205 87.799  3.416 -2.891 -0.601   H8 AEH 16
-AEH  H8A  H8A H 0 1 N N N -21.083 41.672 88.068  1.782 -2.531 -1.208  H8A AEH 17
-AEH  H8B  H8B H 0 1 N N N -22.877 41.690 88.153  3.092 -1.346 -1.422  H8B AEH 18
-AEH  H10  H10 H 0 1 N N N -17.290 39.219 90.730 -2.523 -0.647  1.469  H10 AEH 19
-AEH H10A H10A H 0 0 N N N -17.236 40.872 89.987 -2.921  1.022  0.997 H10A AEH 20
-AEH HN12 HN12 H 0 0 N N N -15.032 39.772 91.309 -4.980  0.140  0.022 HN12 AEH 21
-AEH HN1A HN1A H 0 0 N N N -14.753 40.451 92.768 -4.980 -1.027 -1.162 HN1A AEH 22
-AEH  HO7  HO7 H 0 1 N N N -23.174 40.916 92.810  3.502  1.450  0.447  HO7 AEH 23
-AEH   H9   H9 H 0 1 N N N -19.037 38.944 92.667 -1.307  2.400 -0.179   H9 AEH 24
-AEH  H11  H11 H 0 1 N N N -16.380 41.844 91.875 -3.006  0.330 -1.383  H11 AEH 25
-AEH H11A H11A H 0 0 N N N -17.263 40.730 92.981 -2.608 -1.339 -0.911 H11A AEH 26
-AEH   H2   H2 H 0 1 N N N -19.215 42.006 89.654 -0.352 -1.597  0.961   H2 AEH 27
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+AEH C4   C4   C 0 1 N N N -21.888 42.568 89.867 2.319  -1.466 0.585  C4   AEH 1  
+AEH C5   C5   C 0 1 Y N N -18.976 40.459 91.136 -0.974 0.373  0.413  C5   AEH 2  
+AEH C6   C6   C 0 1 Y N N -20.974 39.815 92.353 0.761  1.873  -0.274 C6   AEH 3  
+AEH C8   C8   C 0 1 N N N -21.962 42.262 88.366 2.678  -2.104 -0.758 C8   AEH 4  
+AEH C10  C10  C 0 1 N N N -17.503 40.288 90.880 -2.432 0.101  0.681  C10  AEH 5  
+AEH N12  N12  N 0 1 N N N -15.422 39.958 92.211 -4.518 -0.683 -0.334 N12  AEH 6  
+AEH O7   O7   O 0 1 N N N -23.031 40.886 91.871 3.017  1.118  -0.321 O7   AEH 7  
+AEH C3   C3   C 0 1 Y N N -21.689 40.755 91.616 1.702  0.872  -0.079 C3   AEH 8  
+AEH C9   C9   C 0 1 Y N N -19.609 39.669 92.107 -0.575 1.621  -0.027 C9   AEH 9  
+AEH C11  C11  C 0 1 N N N -16.667 40.798 92.059 -3.097 -0.418 -0.595 C11  AEH 10 
+AEH C2   C2   C 0 1 Y N N -19.708 41.401 90.401 -0.038 -0.625 0.613  C2   AEH 11 
+AEH C1   C1   C 0 1 Y N N -21.078 41.556 90.636 1.299  -0.378 0.368  C1   AEH 12 
+AEH H4   H4   H 0 1 N N N -21.420 43.555 89.996 1.905  -2.225 1.249  H4   AEH 13 
+AEH H4A  H4A  H 0 1 N N N -22.914 42.539 90.261 3.215  -1.039 1.036  H4A  AEH 14 
+AEH H6   H6   H 0 1 N N N -21.467 39.211 93.100 1.073  2.847  -0.621 H6   AEH 15 
+AEH H8   H8   H 0 1 N N N -21.980 43.205 87.799 3.416  -2.891 -0.601 H8   AEH 16 
+AEH H8A  H8A  H 0 1 N N N -21.083 41.672 88.068 1.782  -2.531 -1.208 H8A  AEH 17 
+AEH H8B  H8B  H 0 1 N N N -22.877 41.690 88.153 3.092  -1.346 -1.422 H8B  AEH 18 
+AEH H10  H10  H 0 1 N N N -17.290 39.219 90.730 -2.523 -0.647 1.469  H10  AEH 19 
+AEH H10A H10A H 0 0 N N N -17.236 40.872 89.987 -2.921 1.022  0.997  H10A AEH 20 
+AEH HN12 HN12 H 0 0 N N N -15.032 39.772 91.309 -4.980 0.140  0.022  HN12 AEH 21 
+AEH HN1A HN1A H 0 0 N N N -14.753 40.451 92.768 -4.980 -1.027 -1.162 HN1A AEH 22 
+AEH HO7  HO7  H 0 1 N N N -23.174 40.916 92.810 3.502  1.450  0.447  HO7  AEH 23 
+AEH H9   H9   H 0 1 N N N -19.037 38.944 92.667 -1.307 2.400  -0.179 H9   AEH 24 
+AEH H11  H11  H 0 1 N N N -16.380 41.844 91.875 -3.006 0.330  -1.383 H11  AEH 25 
+AEH H11A H11A H 0 0 N N N -17.263 40.730 92.981 -2.608 -1.339 -0.911 H11A AEH 26 
+AEH H2   H2   H 0 1 N N N -19.215 42.006 89.654 -0.352 -1.597 0.961  H2   AEH 27 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-AEH  C4   C8 SING N N  1
-AEH  C4   C1 SING N N  2
-AEH  C5  C10 SING N N  3
-AEH  C5   C9 DOUB Y N  4
-AEH  C5   C2 SING Y N  5
-AEH  C6   C3 DOUB Y N  6
-AEH  C6   C9 SING Y N  7
-AEH C10  C11 SING N N  8
-AEH N12  C11 SING N N  9
-AEH  O7   C3 SING N N 10
-AEH  C3   C1 SING Y N 11
-AEH  C2   C1 DOUB Y N 12
-AEH  C4   H4 SING N N 13
-AEH  C4  H4A SING N N 14
-AEH  C6   H6 SING N N 15
-AEH  C8   H8 SING N N 16
-AEH  C8  H8A SING N N 17
-AEH  C8  H8B SING N N 18
-AEH C10  H10 SING N N 19
-AEH C10 H10A SING N N 20
-AEH N12 HN12 SING N N 21
-AEH N12 HN1A SING N N 22
-AEH  O7  HO7 SING N N 23
-AEH  C9   H9 SING N N 24
-AEH C11  H11 SING N N 25
-AEH C11 H11A SING N N 26
-AEH  C2   H2 SING N N 27
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+AEH C4  C8   SING N N 1  
+AEH C4  C1   SING N N 2  
+AEH C5  C10  SING N N 3  
+AEH C5  C9   DOUB Y N 4  
+AEH C5  C2   SING Y N 5  
+AEH C6  C3   DOUB Y N 6  
+AEH C6  C9   SING Y N 7  
+AEH C10 C11  SING N N 8  
+AEH N12 C11  SING N N 9  
+AEH O7  C3   SING N N 10 
+AEH C3  C1   SING Y N 11 
+AEH C2  C1   DOUB Y N 12 
+AEH C4  H4   SING N N 13 
+AEH C4  H4A  SING N N 14 
+AEH C6  H6   SING N N 15 
+AEH C8  H8   SING N N 16 
+AEH C8  H8A  SING N N 17 
+AEH C8  H8B  SING N N 18 
+AEH C10 H10  SING N N 19 
+AEH C10 H10A SING N N 20 
+AEH N12 HN12 SING N N 21 
+AEH N12 HN1A SING N N 22 
+AEH O7  HO7  SING N N 23 
+AEH C9  H9   SING N N 24 
+AEH C11 H11  SING N N 25 
+AEH C11 H11A SING N N 26 
+AEH C2  H2   SING N N 27 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-AEH           SMILES              ACDLabs 10.04                                                          Oc1ccc(cc1CC)CCN
-AEH SMILES_CANONICAL               CACTVS 3.341                                                          CCc1cc(CCN)ccc1O
-AEH           SMILES               CACTVS 3.341                                                          CCc1cc(CCN)ccc1O
-AEH SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                          CCc1cc(ccc1O)CCN
-AEH           SMILES "OpenEye OEToolkits" 1.5.0                                                          CCc1cc(ccc1O)CCN
-AEH            InChI                InChI  1.03 InChI=1S/C10H15NO/c1-2-9-7-8(5-6-11)3-4-10(9)12/h3-4,7,12H,2,5-6,11H2,1H3
-AEH         InChIKey                InChI  1.03                                               LDAFQVRTSOETPE-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+AEH SMILES           ACDLabs              10.04 "Oc1ccc(cc1CC)CCN"                                                          
+AEH SMILES_CANONICAL CACTVS               3.341 "CCc1cc(CCN)ccc1O"                                                          
+AEH SMILES           CACTVS               3.341 "CCc1cc(CCN)ccc1O"                                                          
+AEH SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CCc1cc(ccc1O)CCN"                                                          
+AEH SMILES           "OpenEye OEToolkits" 1.5.0 "CCc1cc(ccc1O)CCN"                                                          
+AEH InChI            InChI                1.03  "InChI=1S/C10H15NO/c1-2-9-7-8(5-6-11)3-4-10(9)12/h3-4,7,12H,2,5-6,11H2,1H3" 
+AEH InChIKey         InChI                1.03  LDAFQVRTSOETPE-UHFFFAOYSA-N                                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-AEH "SYSTEMATIC NAME"              ACDLabs 10.04  4-(2-aminoethyl)-2-ethylphenol
-AEH "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 4-(2-aminoethyl)-2-ethyl-phenol
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+AEH "SYSTEMATIC NAME" ACDLabs              10.04 "4-(2-aminoethyl)-2-ethylphenol"  
+AEH "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "4-(2-aminoethyl)-2-ethyl-phenol" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-AEH     "Create component" 2008-01-07 PDBJ
-AEH "Modify aromatic_flag" 2011-06-04 RCSB
-AEH    "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   AEH
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB07346
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      4-(2-aminoethyl)-2-ethylphenol
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           AEH
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB07346
-_pdbe_chem_comp_drugbank_classification.parent            Phenethylamines
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Benzene and substituted derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        Benzenoids
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as phenethylamines. These are compounds containing a phenethylamine moiety, which consists of a phenyl group substituted at the second position by an ethan-1-amine."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        AEH
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB07346
-_pdbe_chem_comp_drugbank_targets.name                           "Beta-secretase 1"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P56817
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-AEH  C4 C  6.404  3.465  1
-AEH  C5 C  7.702 -0.285  2
-AEH  C6 C  5.104 -0.285  3
-AEH  C8 C  7.702  4.215  4
-AEH C10 C  9.002 -1.035  5
-AEH N12 N 10.301 -3.285  6
-AEH  O7 O  3.805  1.965  7
-AEH  C3 C  5.104  1.215  8
-AEH  C9 C  6.404 -1.035  9
-AEH C11 C  9.002 -2.535 10
-AEH  C2 C  7.702  1.215 11
-AEH  C1 C  6.404  1.965 12
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-AEH  C4  C8 SINGLE NONE  1
-AEH  C4  C1 SINGLE NONE  2
-AEH  C5 C10 SINGLE NONE  3
-AEH  C5  C9 DOUBLE NONE  4
-AEH  C5  C2 SINGLE NONE  5
-AEH  C6  C3 DOUBLE NONE  6
-AEH  C6  C9 SINGLE NONE  7
-AEH C10 C11 SINGLE NONE  8
-AEH N12 C11 SINGLE NONE  9
-AEH  O7  C3 SINGLE NONE 10
-AEH  C3  C1 SINGLE NONE 11
-AEH  C2  C1 DOUBLE NONE 12
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-AEH MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-AEH         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-AEH C5 F1 1
-AEH C9 F1 1
-AEH C6 F1 1
-AEH C3 F1 1
-AEH C1 F1 1
-AEH C2 F1 1
-AEH C5 S1 1
-AEH C6 S1 1
-AEH C3 S1 1
-AEH C9 S1 1
-AEH C2 S1 1
-AEH C1 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               AEH
-_pdbe_chem_comp_rdkit_properties.exactmw                               165.115
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                2
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.400
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             94.303
-_pdbe_chem_comp_rdkit_properties.tpsa                                  46.250
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.884
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             49.101
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         12
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-AEH UniChem    ChEMBL CHEMBL255750
-AEH UniChem  DrugBank      DB07346
-AEH UniChem BindingDb     50372983
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AEH   C4 -2.390 -1.284 -0.257 ETKDGv2  1
-AEH   C5  0.904  0.634 -0.823 ETKDGv2  2
-AEH   C6 -0.774  2.161  0.090 ETKDGv2  3
-AEH   C8 -2.603 -1.756  1.178 ETKDGv2  4
-AEH  C10  2.301  0.321 -1.295 ETKDGv2  5
-AEH  N12  2.892 -1.186  0.565 ETKDGv2  6
-AEH   O7 -2.993  1.474  0.582 ETKDGv2  7
-AEH   C3 -1.704  1.193  0.129 ETKDGv2  8
-AEH   C9  0.587  1.869 -0.400 ETKDGv2  9
-AEH  C11  3.251  0.052 -0.123 ETKDGv2 10
-AEH   C2 -0.118 -0.439 -0.774 ETKDGv2 11
-AEH   C1 -1.358 -0.184 -0.317 ETKDGv2 12
-AEH   H4 -3.350 -0.915 -0.677 ETKDGv2 13
-AEH  H4A -2.077 -2.156 -0.872 ETKDGv2 14
-AEH   H6 -1.014  3.165  0.414 ETKDGv2 15
-AEH   H8 -3.352 -2.575  1.192 ETKDGv2 16
-AEH  H8A -2.978 -0.926  1.813 ETKDGv2 17
-AEH  H8B -1.650 -2.138  1.601 ETKDGv2 18
-AEH  H10  2.693  1.177 -1.888 ETKDGv2 19
-AEH H10A  2.289 -0.561 -1.972 ETKDGv2 20
-AEH HN12  2.045 -1.003  1.151 ETKDGv2 21
-AEH HN1A  3.664 -1.414  1.232 ETKDGv2 22
-AEH  HO7 -3.261  2.401  0.892 ETKDGv2 23
-AEH   H9  1.323  2.663 -0.410 ETKDGv2 24
-AEH  H11  4.283 -0.043 -0.525 ETKDGv2 25
-AEH H11A  3.240  0.907  0.591 ETKDGv2 26
-AEH   H2  0.151 -1.437 -1.097 ETKDGv2 27
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+AEH "Create component"     2008-01-07 PDBJ 
+AEH "Modify aromatic_flag" 2011-06-04 RCSB 
+AEH "Modify descriptor"    2011-06-04 RCSB 
+# 

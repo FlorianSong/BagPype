@@ -1,294 +1,117 @@
 data_FCN
-#
-_chem_comp.id                                        FCN
-_chem_comp.name                                      FOSFOMYCIN
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C3 H7 O4 P"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             "1,2-EPOXYPROPYLPHOSPHONIC ACID"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            138.059
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         FCN
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1UAE
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    FCN 
+_chem_comp.name                                  FOSFOMYCIN 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C3 H7 O4 P" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "1,2-EPOXYPROPYLPHOSPHONIC ACID" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        138.059 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     FCN 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1UAE 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FCN   C1   C1 C 0 1 N N R 37.708 24.607 44.233 -0.798  0.665  0.643   C1 FCN  1
-FCN   C2   C2 C 0 1 N N S 38.728 25.086 45.320 -0.102  0.479  1.993   C2 FCN  2
-FCN   C3   C3 C 0 1 N N N 40.144 24.426 45.258  1.231 -0.269  2.010   C3 FCN  3
-FCN    O    O O 0 1 N N N 37.409 23.188 44.329 -1.273 -0.254  1.630    O FCN  4
-FCN    P    P P 0 1 N N N 38.192 24.927 42.452  0.016 -0.022 -0.835    P FCN  5
-FCN  O1P  O1P O 0 1 N N N 37.038 24.662 41.608  0.227 -1.475 -0.651  O1P FCN  6
-FCN  O2P  O2P O 0 1 N N N 39.346 23.990 42.104 -0.914  0.225 -2.125  O2P FCN  7
-FCN  O3P  O3P O 0 1 N N N 38.692 26.358 42.219  1.437  0.703 -1.052  O3P FCN  8
-FCN   H1   H1 H 0 1 N N N 36.820 25.237 44.473 -1.367  1.581  0.486   H1 FCN  9
-FCN   H2   H2 H 0 1 N N N 38.888 25.964 45.988 -0.208  1.273  2.732   H2 FCN 10
-FCN  H31  1H3 H 0 1 N N N 40.870 24.767 46.032  1.592 -0.344  3.036  H31 FCN 11
-FCN  H32  2H3 H 0 1 N N N 40.047 23.315 45.289  1.091 -1.270  1.600  H32 FCN 12
-FCN  H33  3H3 H 0 1 N N N 40.581 24.558 44.241  1.960  0.271  1.407  H33 FCN 13
-FCN HOP2 2HOP H 0 0 N N N 39.591 24.152 41.200 -0.448 -0.152 -2.883 HOP2 FCN 14
-FCN HOP3 3HOP H 0 0 N N N 38.937 26.520 41.315  1.254  1.645 -1.167 HOP3 FCN 15
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FCN C1   C1   C 0 1 N N R 37.708 24.607 44.233 -0.798 0.665  0.643  C1   FCN 1  
+FCN C2   C2   C 0 1 N N S 38.728 25.086 45.320 -0.102 0.479  1.993  C2   FCN 2  
+FCN C3   C3   C 0 1 N N N 40.144 24.426 45.258 1.231  -0.269 2.010  C3   FCN 3  
+FCN O    O    O 0 1 N N N 37.409 23.188 44.329 -1.273 -0.254 1.630  O    FCN 4  
+FCN P    P    P 0 1 N N N 38.192 24.927 42.452 0.016  -0.022 -0.835 P    FCN 5  
+FCN O1P  O1P  O 0 1 N N N 37.038 24.662 41.608 0.227  -1.475 -0.651 O1P  FCN 6  
+FCN O2P  O2P  O 0 1 N N N 39.346 23.990 42.104 -0.914 0.225  -2.125 O2P  FCN 7  
+FCN O3P  O3P  O 0 1 N N N 38.692 26.358 42.219 1.437  0.703  -1.052 O3P  FCN 8  
+FCN H1   H1   H 0 1 N N N 36.820 25.237 44.473 -1.367 1.581  0.486  H1   FCN 9  
+FCN H2   H2   H 0 1 N N N 38.888 25.964 45.988 -0.208 1.273  2.732  H2   FCN 10 
+FCN H31  1H3  H 0 1 N N N 40.870 24.767 46.032 1.592  -0.344 3.036  H31  FCN 11 
+FCN H32  2H3  H 0 1 N N N 40.047 23.315 45.289 1.091  -1.270 1.600  H32  FCN 12 
+FCN H33  3H3  H 0 1 N N N 40.581 24.558 44.241 1.960  0.271  1.407  H33  FCN 13 
+FCN HOP2 2HOP H 0 0 N N N 39.591 24.152 41.200 -0.448 -0.152 -2.883 HOP2 FCN 14 
+FCN HOP3 3HOP H 0 0 N N N 38.937 26.520 41.315 1.254  1.645  -1.167 HOP3 FCN 15 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FCN  C1   C2 SING N N  1
-FCN  C1    O SING N N  2
-FCN  C1    P SING N N  3
-FCN  C1   H1 SING N N  4
-FCN  C2   C3 SING N N  5
-FCN  C2    O SING N N  6
-FCN  C2   H2 SING N N  7
-FCN  C3  H31 SING N N  8
-FCN  C3  H32 SING N N  9
-FCN  C3  H33 SING N N 10
-FCN   P  O1P DOUB N N 11
-FCN   P  O2P SING N N 12
-FCN   P  O3P SING N N 13
-FCN O2P HOP2 SING N N 14
-FCN O3P HOP3 SING N N 15
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FCN C1  C2   SING N N 1  
+FCN C1  O    SING N N 2  
+FCN C1  P    SING N N 3  
+FCN C1  H1   SING N N 4  
+FCN C2  C3   SING N N 5  
+FCN C2  O    SING N N 6  
+FCN C2  H2   SING N N 7  
+FCN C3  H31  SING N N 8  
+FCN C3  H32  SING N N 9  
+FCN C3  H33  SING N N 10 
+FCN P   O1P  DOUB N N 11 
+FCN P   O2P  SING N N 12 
+FCN P   O3P  SING N N 13 
+FCN O2P HOP2 SING N N 14 
+FCN O3P HOP3 SING N N 15 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FCN           SMILES              ACDLabs 10.04                                                       O=P(O)(O)C1OC1C
-FCN SMILES_CANONICAL               CACTVS 3.341                                           C[C@@H]1O[C@@H]1[P](O)(O)=O
-FCN           SMILES               CACTVS 3.341                                               C[CH]1O[CH]1[P](O)(O)=O
-FCN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                             C[C@H]1[C@H](O1)P(=O)(O)O
-FCN           SMILES "OpenEye OEToolkits" 1.5.0                                                     CC1C(O1)P(=O)(O)O
-FCN            InChI                InChI  1.03 InChI=1S/C3H7O4P/c1-2-3(7-2)8(4,5)6/h2-3H,1H3,(H2,4,5,6)/t2-,3+/m0/s1
-FCN         InChIKey                InChI  1.03                                           YMDXZJFXQJVXBF-STHAYSLISA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FCN SMILES           ACDLabs              10.04 "O=P(O)(O)C1OC1C"                                                       
+FCN SMILES_CANONICAL CACTVS               3.341 "C[C@@H]1O[C@@H]1[P](O)(O)=O"                                           
+FCN SMILES           CACTVS               3.341 "C[CH]1O[CH]1[P](O)(O)=O"                                               
+FCN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@H]1[C@H](O1)P(=O)(O)O"                                             
+FCN SMILES           "OpenEye OEToolkits" 1.5.0 "CC1C(O1)P(=O)(O)O"                                                     
+FCN InChI            InChI                1.03  "InChI=1S/C3H7O4P/c1-2-3(7-2)8(4,5)6/h2-3H,1H3,(H2,4,5,6)/t2-,3+/m0/s1" 
+FCN InChIKey         InChI                1.03  YMDXZJFXQJVXBF-STHAYSLISA-N                                             
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FCN "SYSTEMATIC NAME"              ACDLabs 10.04 "[(2R,3S)-3-methyloxiran-2-yl]phosphonic acid"
-FCN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R,3S)-3-methyloxiran-2-yl]phosphonic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FCN "SYSTEMATIC NAME" ACDLabs              10.04 "[(2R,3S)-3-methyloxiran-2-yl]phosphonic acid" 
+FCN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R,3S)-3-methyloxiran-2-yl]phosphonic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FCN  "Create component" 1999-07-08  EBI
-FCN "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   FCN
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB00828
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Fosfomycin
-_pdbe_chem_comp_drugbank_details.description               "An antibiotic produced by Streptomyces fradiae."
-_pdbe_chem_comp_drugbank_details.cas_number                23155-02-4
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Fosfomycin is a phosphoenolpyruvate analogue produced by Streptomyces that irreversibly inhibits enolpyruvate transferase (MurA), which prevents the formation of N-acetylmuramic acid, an essential element of the peptidoglycan cell wall."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           FCN
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00828
-_pdbe_chem_comp_drugbank_classification.parent            "Organic phosphonic acids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Organic phosphonic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as organic phosphonic acids. These are organic compounds containing phosphonic acid."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        FCN
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB00828
-_pdbe_chem_comp_drugbank_targets.name                           "UDP-N-acetylglucosamine 1-carboxyvinyltransferase"
-_pdbe_chem_comp_drugbank_targets.organism                       "Escherichia coli (strain K12)"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P0A749
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       yes
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-FCN                           "Fosfomycin Calcium"   ChEMBL
-FCN                                      Fosfocina   ChEMBL
-FCN                                     Fosfomycin   ChEMBL
-FCN                                        Monurol   ChEMBL
-FCN                            "Fosfomycin Sodium"   ChEMBL
-FCN "(-)-(1R,2S)-(1,2-Epoxypropyl)phosphonic acid" DrugBank
-FCN           "(1R,2S)-epoxypropylphosphonic acid" DrugBank
-FCN   "(2R-cis)-(3-Methyloxiranyl)phosphonic acid" DrugBank
-FCN      "1R-cis-(1,2-epoxypropyl)phosphonic acid" DrugBank
-FCN       "cis-(1R,2S)-epoxypropylphosphonic acid" DrugBank
-FCN                                            FCM DrugBank
-FCN                                      Fosfocina DrugBank
-FCN                                     Fosfomycin DrugBank
-FCN         "L-cis-1,2-epoxypropylphosphonic acid" DrugBank
-FCN                                   Phosphomycin DrugBank
-FCN                                 Phosphonemycin DrugBank
-FCN                                 Phosphonomycin DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FCN  C1 C 5.049 -0.042 1
-FCN  C2 C 3.750  0.708 2
-FCN  C3 C 3.000  2.007 3
-FCN   O O 3.750 -0.792 4
-FCN   P P 6.549 -0.042 5
-FCN O1P O 8.049 -0.042 6
-FCN O2P O 6.549 -1.542 7
-FCN O3P O 6.549  1.458 8
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-FCN C1  C2 SINGLE       NONE 1
-FCN C1   O SINGLE       NONE 2
-FCN C1   P SINGLE  BEGINDASH 3
-FCN C2  C3 SINGLE BEGINWEDGE 4
-FCN C2   O SINGLE       NONE 5
-FCN  P O1P DOUBLE       NONE 6
-FCN  P O2P SINGLE       NONE 7
-FCN  P O3P SINGLE       NONE 8
-#
-_pdbe_chem_comp_substructure.comp_id                      FCN
-_pdbe_chem_comp_substructure.substructure_name            MurckoScaffold
-_pdbe_chem_comp_substructure.id                           S1
-_pdbe_chem_comp_substructure.substructure_type            scaffold
-_pdbe_chem_comp_substructure.substructure_smiles          C1CO1
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H4O/c1-2-3-1/h1-2H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       IAYPIBMASNFSPL-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-FCN C1 S1 1
-FCN C2 S1 1
-FCN  O S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FCN
-_pdbe_chem_comp_rdkit_properties.exactmw                               138.008
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             56.636
-_pdbe_chem_comp_rdkit_properties.tpsa                                  70.060
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.091
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             26.379
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         8
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-FCN UniChem        ChEMBL       CHEMBL1757
-FCN UniChem      DrugBank          DB00828
-FCN UniChem "KEGG LIGAND"           C06454
-FCN UniChem         ChEBI            28915
-FCN UniChem          ZINC ZINC000001530427
-FCN UniChem     BindingDb         50024894
-FCN UniChem        BRENDA             1153
-FCN UniChem        BRENDA           156583
-FCN UniChem        BRENDA           162504
-FCN UniChem        BRENDA           195007
-FCN UniChem        BRENDA            95402
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FCN   C1  0.090  0.503 -0.392 ETKDGv2  1
-FCN   C2 -0.932 -0.062  0.518 ETKDGv2  2
-FCN   C3 -2.382  0.050  0.058 ETKDGv2  3
-FCN    O -0.359  1.207  0.744 ETKDGv2  4
-FCN    P  1.783 -0.125 -0.156 ETKDGv2  5
-FCN  O1P  2.047 -0.405  1.307 ETKDGv2  6
-FCN  O2P  1.981 -1.551 -1.046 ETKDGv2  7
-FCN  O3P  2.887  1.033 -0.706 ETKDGv2  8
-FCN   H1 -0.219  0.986 -1.343 ETKDGv2  9
-FCN   H2 -0.636 -0.801  1.292 ETKDGv2 10
-FCN  H31 -3.042  0.116  0.947 ETKDGv2 11
-FCN  H32 -2.651 -0.857 -0.522 ETKDGv2 12
-FCN  H33 -2.550  0.948 -0.577 ETKDGv2 13
-FCN HOP2  1.289 -2.167 -0.694 ETKDGv2 14
-FCN HOP3  2.694  1.126 -1.673 ETKDGv2 15
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FCN "Create component"  1999-07-08 EBI  
+FCN "Modify descriptor" 2011-06-04 RCSB 
+# 

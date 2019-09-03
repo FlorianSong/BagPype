@@ -160,11 +160,6 @@ _pdbx_chem_comp_audit.processing_site
 DA  "Create component" 2001-01-25 RCSB
 DA "Modify descriptor" 2011-06-04 RCSB
 #
-_pdbx_chem_comp_synonyms.comp_id          DA
-_pdbx_chem_comp_synonyms.name             SID8139940
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
 loop_
 _software.name              
 _software.version           
@@ -351,6 +346,7 @@ DA UniChem        ChEMBL    CHEMBL1206239
 DA UniChem "KEGG LIGAND"           C00360
 DA UniChem         ChEBI            17713
 DA UniChem          ZINC ZINC000001713574
+DA UniChem             P            12599
 DA UniChem  MetaboLights       MTBLC17713
 DA UniChem        BRENDA           101842
 DA UniChem        BRENDA           105885
@@ -372,40 +368,40 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DA    OP3 -4.461  2.991  0.432 ETKDGv2  1
-DA      P -4.713  1.321  0.552 ETKDGv2  2
-DA    OP1 -5.572  0.854 -0.602 ETKDGv2  3
-DA    OP2 -5.509  0.987  2.007 ETKDGv2  4
-DA  "O5'" -3.220  0.497  0.537 ETKDGv2  5
-DA  "C5'" -2.511  0.879 -0.620 ETKDGv2  6
-DA  "C4'" -1.189  0.104 -0.706 ETKDGv2  7
-DA  "O4'" -0.482  0.199  0.511 ETKDGv2  8
-DA  "C3'" -1.349 -1.372 -1.075 ETKDGv2  9
-DA  "O3'" -2.518 -1.919 -0.518 ETKDGv2 10
-DA  "C2'" -0.137 -1.981 -0.430 ETKDGv2 11
-DA  "C1'"  0.115 -1.057  0.755 ETKDGv2 12
-DA     N9  1.546 -0.891  0.994 ETKDGv2 13
-DA     C8  2.284 -1.184  2.187 ETKDGv2 14
-DA     N7  3.511 -0.746  2.158 ETKDGv2 15
-DA     C5  3.627 -0.116  0.885 ETKDGv2 16
-DA     C6  4.746  0.650  0.323 ETKDGv2 17
-DA     N6  5.989  0.767  1.013 ETKDGv2 18
-DA     N1  4.570  1.232 -0.834 ETKDGv2 19
-DA     C2  3.310  1.134 -1.545 ETKDGv2 20
-DA     N3  2.313  0.457 -1.037 ETKDGv2 21
-DA     C4  2.504 -0.193  0.224 ETKDGv2 22
-DA   HOP3 -5.364  3.390  0.515 ETKDGv2 23
-DA   HOP2 -5.547 -0.001  2.053 ETKDGv2 24
-DA  "H5'" -3.099  0.677 -1.545 ETKDGv2 25
-DA "H5''" -2.265  1.964 -0.576 ETKDGv2 26
-DA  "H4'" -0.571  0.587 -1.497 ETKDGv2 27
-DA  "H3'" -1.339 -1.507 -2.182 ETKDGv2 28
-DA "HO3'" -2.668 -2.789 -0.972 ETKDGv2 29
-DA  "H2'" -0.309 -3.030 -0.105 ETKDGv2 30
-DA "H2''"  0.714 -1.956 -1.147 ETKDGv2 31
-DA  "H1'" -0.361 -1.496  1.660 ETKDGv2 32
-DA     H8  1.867 -1.705  3.038 ETKDGv2 33
-DA    H61  6.773  1.318  0.600 ETKDGv2 34
-DA    H62  6.130  0.302  1.938 ETKDGv2 35
-DA     H2  3.191  1.632 -2.498 ETKDGv2 36
+DA    OP3  5.664 -0.419 -0.510 ETKDGv2  1
+DA      P  4.903  1.015 -0.990 ETKDGv2  2
+DA    OP1  5.793  2.187 -0.642 ETKDGv2  3
+DA    OP2  4.648  0.988 -2.663 ETKDGv2  4
+DA  "O5'"  3.418  1.186 -0.171 ETKDGv2  5
+DA  "C5'"  2.593  0.100 -0.521 ETKDGv2  6
+DA  "C4'"  1.259  0.210  0.228 ETKDGv2  7
+DA  "O4'"  0.421 -0.873 -0.111 ETKDGv2  8
+DA  "C3'"  1.396  0.264  1.752 ETKDGv2  9
+DA  "O3'"  2.488 -0.487  2.232 ETKDGv2 10
+DA  "C2'"  0.087 -0.323  2.207 ETKDGv2 11
+DA  "C1'" -0.298 -1.239  1.050 ETKDGv2 12
+DA     N9 -1.734 -1.179  0.786 ETKDGv2 13
+DA     C8 -2.684 -2.251  0.809 ETKDGv2 14
+DA     N7 -3.860 -1.911  0.363 ETKDGv2 15
+DA     C5 -3.716 -0.538  0.010 ETKDGv2 16
+DA     C6 -4.681  0.368 -0.624 ETKDGv2 17
+DA     N6 -6.017 -0.046 -0.906 ETKDGv2 18
+DA     N1 -4.279  1.574 -0.931 ETKDGv2 19
+DA     C2 -2.922  2.009 -0.660 ETKDGv2 20
+DA     N3 -2.064  1.196 -0.101 ETKDGv2 21
+DA     C4 -2.502 -0.122  0.246 ETKDGv2 22
+DA   HOP3  6.464 -0.486 -1.090 ETKDGv2 23
+DA   HOP2  4.147  1.821 -2.856 ETKDGv2 24
+DA  "H5'"  2.370  0.118 -1.612 ETKDGv2 25
+DA "H5''"  3.073 -0.873 -0.271 ETKDGv2 26
+DA  "H4'"  0.759  1.145 -0.111 ETKDGv2 27
+DA  "H3'"  1.501  1.314  2.101 ETKDGv2 28
+DA "HO3'"  2.362 -1.434  1.959 ETKDGv2 29
+DA  "H2'" -0.659  0.492  2.341 ETKDGv2 30
+DA "H2''"  0.186 -0.884  3.163 ETKDGv2 31
+DA  "H1'" -0.019 -2.283  1.313 ETKDGv2 32
+DA     H8 -2.453 -3.251  1.151 ETKDGv2 33
+DA    H61 -6.689  0.612 -1.360 ETKDGv2 34
+DA    H62 -6.338 -1.009 -0.661 ETKDGv2 35
+DA     H2 -2.616  3.010 -0.929 ETKDGv2 36
 #

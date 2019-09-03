@@ -1,476 +1,183 @@
 data_AXI
-#
-_chem_comp.id                                        AXI
-_chem_comp.name                                      AXITINIB
-_chem_comp.type                                      non-polymer
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C22 H18 N4 O S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             N-METHYL-2-(3-((E)-2-PYRIDIN-2-YL-VINYL)-1H-INDAZOL-6-YLSULFANYL)-BENZAMIDE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2012-01-24
-_chem_comp.pdbx_modified_date                        2014-04-28
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            386.470
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         AXI
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            4AG8
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    AXI 
+_chem_comp.name                                  AXITINIB 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C22 H18 N4 O S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "N-METHYL-2-(3-((E)-2-PYRIDIN-2-YL-VINYL)-1H-INDAZOL-6-YLSULFANYL)-BENZAMIDE" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2012-01-24 
+_chem_comp.pdbx_modified_date                    2014-04-28 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        386.470 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     AXI 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4AG8 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-AXI  O81  O81 O 0 1 N N N 24.831 23.470 35.794  5.520 -1.272 -0.959  O81 AXI  1
-AXI  C80  C80 C 0 1 N N N 25.499 22.806 36.610  5.951 -0.241 -0.480  C80 AXI  2
-AXI  N82  N82 N 0 1 N N N 26.415 21.916 36.184  7.280 -0.015 -0.453  N82 AXI  3
-AXI  C88  C88 C 0 1 N N N 26.782 21.727 34.783  8.204 -1.012 -0.999  C88 AXI  4
-AXI  C23  C23 C 0 1 Y N N 25.292 23.032 38.066  5.021  0.765  0.064  C23 AXI  5
-AXI  C22  C22 C 0 1 Y N N 26.456 22.997 38.889  5.512  1.952  0.615  C22 AXI  6
-AXI  C21  C21 C 0 1 Y N N 26.409 23.200 40.291  4.638  2.888  1.122  C21 AXI  7
-AXI  C20  C20 C 0 1 Y N N 25.156 23.462 40.885  3.270  2.659  1.089  C20 AXI  8
-AXI  C18  C18 C 0 1 Y N N 24.018 23.298 38.674  3.635  0.540  0.026  C18 AXI  9
-AXI  C19  C19 C 0 1 Y N N 23.982 23.492 40.094  2.770  1.493  0.549  C19 AXI 10
-AXI  S24  S24 S 0 1 N N N 22.510 23.347 37.788  2.999 -0.947 -0.672  S24 AXI 11
-AXI  C07  C07 C 0 1 Y N N 21.489 24.548 38.526  1.273 -0.837 -0.333  C07 AXI 12
-AXI  C08  C08 C 0 1 Y N N 20.123 24.259 38.796  0.416 -0.312 -1.310  C08 AXI 13
-AXI  C09  C09 C 0 1 Y N N 19.257 25.239 39.392 -0.921 -0.206 -1.099  C09 AXI 14
-AXI  C12  C12 C 0 1 Y N N 22.020 25.832 38.865  0.802 -1.269  0.873  C12 AXI 15
-AXI  C11  C11 C 0 1 Y N N 21.178 26.775 39.450 -0.579 -1.184  1.150  C11 AXI 16
-AXI  N15  N15 N 0 1 Y N N 21.430 28.076 39.855 -1.333 -1.506  2.189  N15 AXI 17
-AXI  N14  N14 N 0 1 Y N N 20.339 28.597 40.306 -2.668 -1.196  1.909  N14 AXI 18
-AXI  C13  C13 C 0 1 Y N N 19.371 27.755 40.274 -2.763 -0.664  0.662  C13 AXI 19
-AXI  C10  C10 C 0 1 Y N N 19.844 26.504 39.711 -1.469 -0.628  0.123  C10 AXI 20
-AXI  C16  C16 C 0 1 N N N 18.018 28.134 40.713 -3.952 -0.227  0.023  C16 AXI 21
-AXI  C17  C17 C 0 1 N N N 16.885 27.325 40.808 -5.137 -0.321  0.664  C17 AXI 22
-AXI  C02  C02 C 0 1 Y N N 15.547 27.825 41.273 -6.369  0.132  0.002  C02 AXI 23
-AXI  N03  N03 N 0 1 Y N N 14.576 26.890 41.337 -6.311  0.635 -1.229  N03 AXI 24
-AXI  C04  C04 C 0 1 Y N N 13.319 27.223 41.745 -7.393  1.051 -1.855  C04 AXI 25
-AXI  C05  C05 C 0 1 Y N N 13.002 28.545 42.103 -8.635  0.980 -1.251  C05 AXI 26
-AXI  C06  C06 C 0 1 Y N N 14.004 29.530 42.041 -8.742  0.463  0.034  C06 AXI 27
-AXI  C01  C01 C 0 1 Y N N 15.312 29.179 41.616 -7.595  0.027  0.668  C01 AXI 28
-AXI  H82  H82 H 0 1 N N N 26.872 21.349 36.869  7.624  0.808 -0.071  H82 AXI 29
-AXI H881 H881 H 0 0 N N N 27.550 20.943 34.707  7.985 -1.169 -2.055 H881 AXI 30
-AXI H882 H882 H 0 0 N N N 25.893 21.427 34.209  9.228 -0.656 -0.889 H882 AXI 31
-AXI H883 H883 H 0 0 N N N 27.179 22.669 34.378  8.085 -1.951 -0.459 H883 AXI 32
-AXI  H22  H22 H 0 1 N N N 27.413 22.808 38.425  6.576  2.135  0.643  H22 AXI 33
-AXI  H21  H21 H 0 1 N N N 27.308 23.155 40.888  5.019  3.804  1.547  H21 AXI 34
-AXI  H20  H20 H 0 1 N N N 25.092 23.641 41.948  2.593  3.399  1.490  H20 AXI 35
-AXI  H19  H19 H 0 1 N N N 23.031 23.666 40.575  1.703  1.323  0.529  H19 AXI 36
-AXI  H08  H08 H 0 1 N N N 19.729 23.284 38.548  0.829  0.015 -2.253  H08 AXI 37
-AXI  H12  H12 H 0 1 N N N 23.056 26.066 38.671  1.480 -1.674  1.609  H12 AXI 38
-AXI  H09  H09 H 0 1 N N N 18.216 25.031 39.589 -1.560  0.203 -1.868  H09 AXI 39
-AXI  H14  H14 H 0 1 N N N 20.258 29.537 40.638 -3.413 -1.339  2.514  H14 AXI 40
-AXI  H16  H16 H 0 1 N N N 17.886 29.168 40.997 -3.909  0.182 -0.976  H16 AXI 41
-AXI  H17  H17 H 0 1 N N N 16.975 26.285 40.533 -5.179 -0.729  1.663  H17 AXI 42
-AXI  H01  H01 H 0 1 N N N 16.099 29.917 41.556 -7.643 -0.385  1.666  H01 AXI 43
-AXI  H04  H04 H 0 1 N N N 12.556 26.461 41.794 -7.308  1.453 -2.853  H04 AXI 44
-AXI  H05  H05 H 0 1 N N N 12.002 28.801 42.421 -9.515  1.325 -1.774  H05 AXI 45
-AXI  H06  H06 H 0 1 N N N 13.779 30.550 42.316 -9.703  0.399  0.524  H06 AXI 46
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+AXI O81  O81  O 0 1 N N N 24.831 23.470 35.794 5.520  -1.272 -0.959 O81  AXI 1  
+AXI C80  C80  C 0 1 N N N 25.499 22.806 36.610 5.951  -0.241 -0.480 C80  AXI 2  
+AXI N82  N82  N 0 1 N N N 26.415 21.916 36.184 7.280  -0.015 -0.453 N82  AXI 3  
+AXI C88  C88  C 0 1 N N N 26.782 21.727 34.783 8.204  -1.012 -0.999 C88  AXI 4  
+AXI C23  C23  C 0 1 Y N N 25.292 23.032 38.066 5.021  0.765  0.064  C23  AXI 5  
+AXI C22  C22  C 0 1 Y N N 26.456 22.997 38.889 5.512  1.952  0.615  C22  AXI 6  
+AXI C21  C21  C 0 1 Y N N 26.409 23.200 40.291 4.638  2.888  1.122  C21  AXI 7  
+AXI C20  C20  C 0 1 Y N N 25.156 23.462 40.885 3.270  2.659  1.089  C20  AXI 8  
+AXI C18  C18  C 0 1 Y N N 24.018 23.298 38.674 3.635  0.540  0.026  C18  AXI 9  
+AXI C19  C19  C 0 1 Y N N 23.982 23.492 40.094 2.770  1.493  0.549  C19  AXI 10 
+AXI S24  S24  S 0 1 N N N 22.510 23.347 37.788 2.999  -0.947 -0.672 S24  AXI 11 
+AXI C07  C07  C 0 1 Y N N 21.489 24.548 38.526 1.273  -0.837 -0.333 C07  AXI 12 
+AXI C08  C08  C 0 1 Y N N 20.123 24.259 38.796 0.416  -0.312 -1.310 C08  AXI 13 
+AXI C09  C09  C 0 1 Y N N 19.257 25.239 39.392 -0.921 -0.206 -1.099 C09  AXI 14 
+AXI C12  C12  C 0 1 Y N N 22.020 25.832 38.865 0.802  -1.269 0.873  C12  AXI 15 
+AXI C11  C11  C 0 1 Y N N 21.178 26.775 39.450 -0.579 -1.184 1.150  C11  AXI 16 
+AXI N15  N15  N 0 1 Y N N 21.430 28.076 39.855 -1.333 -1.506 2.189  N15  AXI 17 
+AXI N14  N14  N 0 1 Y N N 20.339 28.597 40.306 -2.668 -1.196 1.909  N14  AXI 18 
+AXI C13  C13  C 0 1 Y N N 19.371 27.755 40.274 -2.763 -0.664 0.662  C13  AXI 19 
+AXI C10  C10  C 0 1 Y N N 19.844 26.504 39.711 -1.469 -0.628 0.123  C10  AXI 20 
+AXI C16  C16  C 0 1 N N N 18.018 28.134 40.713 -3.952 -0.227 0.023  C16  AXI 21 
+AXI C17  C17  C 0 1 N N N 16.885 27.325 40.808 -5.137 -0.321 0.664  C17  AXI 22 
+AXI C02  C02  C 0 1 Y N N 15.547 27.825 41.273 -6.369 0.132  0.002  C02  AXI 23 
+AXI N03  N03  N 0 1 Y N N 14.576 26.890 41.337 -6.311 0.635  -1.229 N03  AXI 24 
+AXI C04  C04  C 0 1 Y N N 13.319 27.223 41.745 -7.393 1.051  -1.855 C04  AXI 25 
+AXI C05  C05  C 0 1 Y N N 13.002 28.545 42.103 -8.635 0.980  -1.251 C05  AXI 26 
+AXI C06  C06  C 0 1 Y N N 14.004 29.530 42.041 -8.742 0.463  0.034  C06  AXI 27 
+AXI C01  C01  C 0 1 Y N N 15.312 29.179 41.616 -7.595 0.027  0.668  C01  AXI 28 
+AXI H82  H82  H 0 1 N N N 26.872 21.349 36.869 7.624  0.808  -0.071 H82  AXI 29 
+AXI H881 H881 H 0 0 N N N 27.550 20.943 34.707 7.985  -1.169 -2.055 H881 AXI 30 
+AXI H882 H882 H 0 0 N N N 25.893 21.427 34.209 9.228  -0.656 -0.889 H882 AXI 31 
+AXI H883 H883 H 0 0 N N N 27.179 22.669 34.378 8.085  -1.951 -0.459 H883 AXI 32 
+AXI H22  H22  H 0 1 N N N 27.413 22.808 38.425 6.576  2.135  0.643  H22  AXI 33 
+AXI H21  H21  H 0 1 N N N 27.308 23.155 40.888 5.019  3.804  1.547  H21  AXI 34 
+AXI H20  H20  H 0 1 N N N 25.092 23.641 41.948 2.593  3.399  1.490  H20  AXI 35 
+AXI H19  H19  H 0 1 N N N 23.031 23.666 40.575 1.703  1.323  0.529  H19  AXI 36 
+AXI H08  H08  H 0 1 N N N 19.729 23.284 38.548 0.829  0.015  -2.253 H08  AXI 37 
+AXI H12  H12  H 0 1 N N N 23.056 26.066 38.671 1.480  -1.674 1.609  H12  AXI 38 
+AXI H09  H09  H 0 1 N N N 18.216 25.031 39.589 -1.560 0.203  -1.868 H09  AXI 39 
+AXI H14  H14  H 0 1 N N N 20.258 29.537 40.638 -3.413 -1.339 2.514  H14  AXI 40 
+AXI H16  H16  H 0 1 N N N 17.886 29.168 40.997 -3.909 0.182  -0.976 H16  AXI 41 
+AXI H17  H17  H 0 1 N N N 16.975 26.285 40.533 -5.179 -0.729 1.663  H17  AXI 42 
+AXI H01  H01  H 0 1 N N N 16.099 29.917 41.556 -7.643 -0.385 1.666  H01  AXI 43 
+AXI H04  H04  H 0 1 N N N 12.556 26.461 41.794 -7.308 1.453  -2.853 H04  AXI 44 
+AXI H05  H05  H 0 1 N N N 12.002 28.801 42.421 -9.515 1.325  -1.774 H05  AXI 45 
+AXI H06  H06  H 0 1 N N N 13.779 30.550 42.316 -9.703 0.399  0.524  H06  AXI 46 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-AXI O81  C80 DOUB N N  1
-AXI C80  N82 SING N N  2
-AXI C80  C23 SING N N  3
-AXI N82  C88 SING N N  4
-AXI C23  C22 SING Y N  5
-AXI C23  C18 DOUB Y N  6
-AXI C22  C21 DOUB Y N  7
-AXI C21  C20 SING Y N  8
-AXI C20  C19 DOUB Y N  9
-AXI C18  C19 SING Y N 10
-AXI C18  S24 SING N N 11
-AXI S24  C07 SING N N 12
-AXI C07  C08 SING Y N 13
-AXI C07  C12 DOUB Y N 14
-AXI C08  C09 DOUB Y N 15
-AXI C09  C10 SING Y N 16
-AXI C12  C11 SING Y N 17
-AXI C11  N15 DOUB Y N 18
-AXI C11  C10 SING Y N 19
-AXI N15  N14 SING Y N 20
-AXI N14  C13 SING Y N 21
-AXI C13  C10 DOUB Y N 22
-AXI C13  C16 SING N N 23
-AXI C16  C17 DOUB N E 24
-AXI C17  C02 SING N N 25
-AXI C02  N03 DOUB Y N 26
-AXI C02  C01 SING Y N 27
-AXI N03  C04 SING Y N 28
-AXI C04  C05 DOUB Y N 29
-AXI C05  C06 SING Y N 30
-AXI C06  C01 DOUB Y N 31
-AXI N82  H82 SING N N 32
-AXI C88 H881 SING N N 33
-AXI C88 H882 SING N N 34
-AXI C88 H883 SING N N 35
-AXI C22  H22 SING N N 36
-AXI C21  H21 SING N N 37
-AXI C20  H20 SING N N 38
-AXI C19  H19 SING N N 39
-AXI C08  H08 SING N N 40
-AXI C12  H12 SING N N 41
-AXI C09  H09 SING N N 42
-AXI N14  H14 SING N N 43
-AXI C16  H16 SING N N 44
-AXI C17  H17 SING N N 45
-AXI C01  H01 SING N N 46
-AXI C04  H04 SING N N 47
-AXI C05  H05 SING N N 48
-AXI C06  H06 SING N N 49
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+AXI O81 C80  DOUB N N 1  
+AXI C80 N82  SING N N 2  
+AXI C80 C23  SING N N 3  
+AXI N82 C88  SING N N 4  
+AXI C23 C22  SING Y N 5  
+AXI C23 C18  DOUB Y N 6  
+AXI C22 C21  DOUB Y N 7  
+AXI C21 C20  SING Y N 8  
+AXI C20 C19  DOUB Y N 9  
+AXI C18 C19  SING Y N 10 
+AXI C18 S24  SING N N 11 
+AXI S24 C07  SING N N 12 
+AXI C07 C08  SING Y N 13 
+AXI C07 C12  DOUB Y N 14 
+AXI C08 C09  DOUB Y N 15 
+AXI C09 C10  SING Y N 16 
+AXI C12 C11  SING Y N 17 
+AXI C11 N15  DOUB Y N 18 
+AXI C11 C10  SING Y N 19 
+AXI N15 N14  SING Y N 20 
+AXI N14 C13  SING Y N 21 
+AXI C13 C10  DOUB Y N 22 
+AXI C13 C16  SING N N 23 
+AXI C16 C17  DOUB N E 24 
+AXI C17 C02  SING N N 25 
+AXI C02 N03  DOUB Y N 26 
+AXI C02 C01  SING Y N 27 
+AXI N03 C04  SING Y N 28 
+AXI C04 C05  DOUB Y N 29 
+AXI C05 C06  SING Y N 30 
+AXI C06 C01  DOUB Y N 31 
+AXI N82 H82  SING N N 32 
+AXI C88 H881 SING N N 33 
+AXI C88 H882 SING N N 34 
+AXI C88 H883 SING N N 35 
+AXI C22 H22  SING N N 36 
+AXI C21 H21  SING N N 37 
+AXI C20 H20  SING N N 38 
+AXI C19 H19  SING N N 39 
+AXI C08 H08  SING N N 40 
+AXI C12 H12  SING N N 41 
+AXI C09 H09  SING N N 42 
+AXI N14 H14  SING N N 43 
+AXI C16 H16  SING N N 44 
+AXI C17 H17  SING N N 45 
+AXI C01 H01  SING N N 46 
+AXI C04 H04  SING N N 47 
+AXI C05 H05  SING N N 48 
+AXI C06 H06  SING N N 49 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-AXI           SMILES              ACDLabs 12.01                                                                                                     O=C(NC)c4ccccc4Sc2ccc3c(\C=C\c1ncccc1)nnc3c2
-AXI            InChI                InChI  1.03 InChI=1S/C22H18N4OS/c1-23-22(27)18-7-2-3-8-21(18)28-16-10-11-17-19(25-26-20(17)14-16)12-9-15-6-4-5-13-24-15/h2-14H,1H3,(H,23,27)(H,25,26)/b12-9+
-AXI         InChIKey                InChI  1.03                                                                                                                      RITAVMQDGBJQJZ-FMIVXFBMSA-N
-AXI SMILES_CANONICAL               CACTVS 3.370                                                                                                  CNC(=O)c1ccccc1Sc2ccc3c([nH]nc3c2)\C=C\c4ccccn4
-AXI           SMILES               CACTVS 3.370                                                                                                    CNC(=O)c1ccccc1Sc2ccc3c([nH]nc3c2)C=Cc4ccccn4
-AXI SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                                                                  CNC(=O)c1ccccc1Sc2ccc3c(c2)n[nH]c3/C=C/c4ccccn4
-AXI           SMILES "OpenEye OEToolkits" 1.7.6                                                                                                    CNC(=O)c1ccccc1Sc2ccc3c(c2)n[nH]c3C=Cc4ccccn4
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+AXI SMILES           ACDLabs              12.01 "O=C(NC)c4ccccc4Sc2ccc3c(\C=C\c1ncccc1)nnc3c2"                                                                                                     
+AXI InChI            InChI                1.03  "InChI=1S/C22H18N4OS/c1-23-22(27)18-7-2-3-8-21(18)28-16-10-11-17-19(25-26-20(17)14-16)12-9-15-6-4-5-13-24-15/h2-14H,1H3,(H,23,27)(H,25,26)/b12-9+" 
+AXI InChIKey         InChI                1.03  RITAVMQDGBJQJZ-FMIVXFBMSA-N                                                                                                                        
+AXI SMILES_CANONICAL CACTVS               3.370 "CNC(=O)c1ccccc1Sc2ccc3c([nH]nc3c2)\C=C\c4ccccn4"                                                                                                  
+AXI SMILES           CACTVS               3.370 "CNC(=O)c1ccccc1Sc2ccc3c([nH]nc3c2)C=Cc4ccccn4"                                                                                                    
+AXI SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "CNC(=O)c1ccccc1Sc2ccc3c(c2)n[nH]c3/C=C/c4ccccn4"                                                                                                  
+AXI SMILES           "OpenEye OEToolkits" 1.7.6 "CNC(=O)c1ccccc1Sc2ccc3c(c2)n[nH]c3C=Cc4ccccn4"                                                                                                    
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-AXI "SYSTEMATIC NAME"              ACDLabs 12.01 N-methyl-2-({3-[(E)-2-pyridin-2-ylethenyl]-2H-indazol-6-yl}sulfanyl)benzamide
-AXI "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 N-methyl-2-[[3-[(E)-2-pyridin-2-ylethenyl]-2H-indazol-6-yl]sulfanyl]benzamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+AXI "SYSTEMATIC NAME" ACDLabs              12.01 "N-methyl-2-({3-[(E)-2-pyridin-2-ylethenyl]-2H-indazol-6-yl}sulfanyl)benzamide" 
+AXI "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "N-methyl-2-[[3-[(E)-2-pyridin-2-ylethenyl]-2H-indazol-6-yl]sulfanyl]benzamide" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-AXI   "Create component" 2012-01-24  EBI
-AXI    "Initial release" 2012-09-21 RCSB
-AXI "Other modification" 2014-04-29  EBI
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   AXI
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB06626
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Axitinib
-_pdbe_chem_comp_drugbank_details.description               "Axitinib is a second generation tyrosine kinase inhibitor that works by selectively inhibiting vascular endothelial growth factor receptors (VEGFR-1, VEGFR-2, VEGFR-3).[L6676] Through this mechanism of action, axitinib blocks angiogenesis, tumour growth and metastases. It is reported to exhibit potency that is 50-450 times higher than that of the first generation VEGFR inhibitors.[L6676] Axitinib is an indazole derivative.[A179398] It is most commonly marketed under the name Inlyta® and is available in oral formulations."
-_pdbe_chem_comp_drugbank_details.cas_number                319460-85-0
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Axitinib selectively blocks the tyrosine kinase receptors VEGFR-1 (vascular endothelial growth factor receptor), VEGFR-2, and VEGFR-3."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           AXI
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB06626
-_pdbe_chem_comp_drugbank_classification.parent            Diarylthioethers
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             Thioethers
-_pdbe_chem_comp_drugbank_classification.superclass        "Organosulfur compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as diarylthioethers. These are organosulfur compounds containing a thioether group that is substituted by two aryl groups."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-AXI DB06626 "Vascular endothelial growth factor receptor 1" Humans P17948 yes 1
-AXI DB06626 "Vascular endothelial growth factor receptor 2" Humans P35968 yes 2
-AXI DB06626 "Vascular endothelial growth factor receptor 3" Humans P35916 yes 3
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-AXI  AG-13736   ChEMBL
-AXI  Axitinib   ChEMBL
-AXI    Inlyta   ChEMBL
-AXI AG-013736   ChEMBL
-AXI  Axitinib DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-AXI O81 O  6.404 -4.735  1
-AXI C80 C  5.104 -3.985  2
-AXI N82 N  3.805 -4.735  3
-AXI C88 C  3.805 -6.235  4
-AXI C23 C  5.104 -2.485  5
-AXI C22 C  3.805 -1.735  6
-AXI C21 C  3.805 -0.235  7
-AXI C20 C  5.104  0.515  8
-AXI C18 C  6.404 -1.735  9
-AXI C19 C  6.404 -0.235 10
-AXI S24 S  7.702 -2.485 11
-AXI C07 C  9.002 -1.735 12
-AXI C08 C  9.002 -0.235 13
-AXI C09 C 10.301  0.515 14
-AXI C12 C 10.301 -2.485 15
-AXI C11 C 11.600 -1.735 16
-AXI N15 N 13.019 -2.192 17
-AXI N14 N 13.894 -0.985 18
-AXI C13 C 13.019  0.222 19
-AXI C10 C 11.600 -0.235 20
-AXI C16 C 13.485  1.648 21
-AXI C17 C 14.953  1.958 22
-AXI C02 C 15.419  3.383 23
-AXI N03 N 14.417  4.500 24
-AXI C04 C 14.883  5.925 25
-AXI C05 C 16.351  6.235 26
-AXI C06 C 17.352  5.118 27
-AXI C01 C 16.886  3.692 28
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-AXI O81 C80 DOUBLE NONE  1
-AXI C80 N82 SINGLE NONE  2
-AXI C80 C23 SINGLE NONE  3
-AXI N82 C88 SINGLE NONE  4
-AXI C23 C22 DOUBLE NONE  5
-AXI C23 C18 SINGLE NONE  6
-AXI C22 C21 SINGLE NONE  7
-AXI C21 C20 DOUBLE NONE  8
-AXI C20 C19 SINGLE NONE  9
-AXI C18 C19 DOUBLE NONE 10
-AXI C18 S24 SINGLE NONE 11
-AXI S24 C07 SINGLE NONE 12
-AXI C07 C08 SINGLE NONE 13
-AXI C07 C12 DOUBLE NONE 14
-AXI C08 C09 DOUBLE NONE 15
-AXI C09 C10 SINGLE NONE 16
-AXI C12 C11 SINGLE NONE 17
-AXI C11 N15 DOUBLE NONE 18
-AXI C11 C10 SINGLE NONE 19
-AXI N15 N14 SINGLE NONE 20
-AXI N14 C13 SINGLE NONE 21
-AXI C13 C10 DOUBLE NONE 22
-AXI C13 C16 SINGLE NONE 23
-AXI C16 C17 DOUBLE NONE 24
-AXI C17 C02 SINGLE NONE 25
-AXI C02 N03 DOUBLE NONE 26
-AXI C02 C01 SINGLE NONE 27
-AXI N03 C04 SINGLE NONE 28
-AXI C04 C05 DOUBLE NONE 29
-AXI C05 C06 SINGLE NONE 30
-AXI C06 C01 DOUBLE NONE 31
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-AXI MurckoScaffold S1 scaffold C(=Cc1[nH]nc2cc(Sc3ccccc3)ccc12)c1ccccn1 InChI=1S/C20H15N3S/c1-2-7-16(8-3-1)24-17-10-11-18-19(22-23-20(18)14-17)12-9-15-6-4-5-13-21-15/h1-14H,(H,22,23) KUFCBNDXGOEXEH-UHFFFAOYSA-N
-AXI          amide F1 fragment                                  CC(N)=O                                                                         InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-AXI         phenyl F2 fragment                                 c1ccccc1                                                                             InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-AXI       pyrazole F3 fragment                               c1cn[nH]c1                                                                     InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5) WTKZEGDFNFYCGP-UHFFFAOYSA-N
-AXI       pyridine F4 fragment                                 c1ccncc1                                                                            InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-AXI N82 F1 1
-AXI C80 F1 1
-AXI O81 F1 1
-AXI C23 F1 1
-AXI C23 F2 1
-AXI C22 F2 1
-AXI C21 F2 1
-AXI C20 F2 1
-AXI C19 F2 1
-AXI C18 F2 1
-AXI C07 F2 2
-AXI C08 F2 2
-AXI C09 F2 2
-AXI C10 F2 2
-AXI C11 F2 2
-AXI C12 F2 2
-AXI C11 F3 1
-AXI C10 F3 1
-AXI C13 F3 1
-AXI N14 F3 1
-AXI N15 F3 1
-AXI C02 F4 1
-AXI C01 F4 1
-AXI C06 F4 1
-AXI C05 F4 1
-AXI C04 F4 1
-AXI N03 F4 1
-AXI C23 S1 1
-AXI C22 S1 1
-AXI C21 S1 1
-AXI C20 S1 1
-AXI C18 S1 1
-AXI C19 S1 1
-AXI S24 S1 1
-AXI C07 S1 1
-AXI C08 S1 1
-AXI C09 S1 1
-AXI C12 S1 1
-AXI C11 S1 1
-AXI N15 S1 1
-AXI N14 S1 1
-AXI C13 S1 1
-AXI C10 S1 1
-AXI C16 S1 1
-AXI C17 S1 1
-AXI C02 S1 1
-AXI N03 S1 1
-AXI C04 S1 1
-AXI C05 S1 1
-AXI C06 S1 1
-AXI C01 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               AXI
-_pdbe_chem_comp_rdkit_properties.exactmw                               386.120
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.045
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      4
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             191.854
-_pdbe_chem_comp_rdkit_properties.tpsa                                  70.670
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          3.831
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             111.350
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         28
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-AXI UniChem    ChEMBL    CHEMBL1289926
-AXI UniChem  DrugBank          DB06626
-AXI UniChem     ChEBI            66910
-AXI UniChem      ZINC ZINC000003816287
-AXI UniChem      ZINC     ZINC03816287
-AXI UniChem BindingDb            25117
-AXI UniChem    BRENDA            14173
-AXI UniChem    BRENDA           213518
-AXI UniChem    BRENDA            66997
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AXI  O81  4.648 -0.943 -1.094 ETKDGv2  1
-AXI  C80  5.161 -0.232 -0.190 ETKDGv2  2
-AXI  N82  6.561  0.081 -0.250 ETKDGv2  3
-AXI  C88  7.382 -0.303 -1.392 ETKDGv2  4
-AXI  C23  4.319  0.269  0.927 ETKDGv2  5
-AXI  C22  4.583  1.478  1.462 ETKDGv2  6
-AXI  C21  3.820  1.974  2.623 ETKDGv2  7
-AXI  C20  2.865  1.219  3.170 ETKDGv2  8
-AXI  C18  3.208 -0.552  1.512 ETKDGv2  9
-AXI  C19  2.554 -0.103  2.597 ETKDGv2 10
-AXI  S24  2.757 -2.167  0.851 ETKDGv2 11
-AXI  C07  1.272 -1.561  0.040 ETKDGv2 12
-AXI  C08 -0.019 -1.560  0.807 ETKDGv2 13
-AXI  C09 -1.170 -1.110  0.272 ETKDGv2 14
-AXI  C12  1.322 -1.154 -1.245 ETKDGv2 15
-AXI  C11  0.088 -0.665 -1.863 ETKDGv2 16
-AXI  N15 -0.087 -0.301 -3.089 ETKDGv2 17
-AXI  N14 -1.444  0.033 -3.213 ETKDGv2 18
-AXI  C13 -2.067 -0.162 -1.944 ETKDGv2 19
-AXI  C10 -1.135 -0.603 -1.106 ETKDGv2 20
-AXI  C16 -3.508  0.034 -1.705 ETKDGv2 21
-AXI  C17 -3.995  0.461 -0.534 ETKDGv2 22
-AXI  C02 -5.437  0.680 -0.303 ETKDGv2 23
-AXI  N03 -6.314  0.426 -1.237 ETKDGv2 24
-AXI  C04 -7.723  0.628 -1.034 ETKDGv2 25
-AXI  C05 -8.171  1.089  0.139 ETKDGv2 26
-AXI  C06 -7.207  1.385  1.215 ETKDGv2 27
-AXI  C01 -5.900  1.191  1.009 ETKDGv2 28
-AXI  H82  7.025  0.563  0.553 ETKDGv2 29
-AXI H881  7.365 -1.407 -1.514 ETKDGv2 30
-AXI H882  8.431  0.023 -1.229 ETKDGv2 31
-AXI H883  6.994  0.180 -2.313 ETKDGv2 32
-AXI  H22  5.358  2.114  1.053 ETKDGv2 33
-AXI  H21  4.046  2.948  3.039 ETKDGv2 34
-AXI  H20  2.313  1.577  4.029 ETKDGv2 35
-AXI  H19  1.774 -0.699  3.055 ETKDGv2 36
-AXI  H08 -0.030 -1.948  1.818 ETKDGv2 37
-AXI  H12  2.238 -1.191 -1.817 ETKDGv2 38
-AXI  H09 -2.089 -1.157  0.839 ETKDGv2 39
-AXI  H14 -1.899  0.356 -4.095 ETKDGv2 40
-AXI  H16 -4.172 -0.104 -2.549 ETKDGv2 41
-AXI  H17 -3.316  0.696  0.275 ETKDGv2 42
-AXI  H01 -5.190  1.407  1.797 ETKDGv2 43
-AXI  H04 -8.418  0.406 -1.833 ETKDGv2 44
-AXI  H05 -9.231  1.244  0.299 ETKDGv2 45
-AXI  H06 -7.559  1.758  2.168 ETKDGv2 46
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+AXI "Create component"   2012-01-24 EBI  
+AXI "Initial release"    2012-09-21 RCSB 
+AXI "Other modification" 2014-04-29 EBI  
+# 

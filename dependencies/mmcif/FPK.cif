@@ -1,269 +1,127 @@
 data_FPK
-#
-_chem_comp.id                                        FPK
-_chem_comp.name                                      1-formyl-L-proline
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C6 H9 N O3"
-_chem_comp.mon_nstd_parent_comp_id                   PRO
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2012-10-08
-_chem_comp.pdbx_modified_date                        2019-05-07
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            143.141
-_chem_comp.one_letter_code                           P
-_chem_comp.three_letter_code                         FPK
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            4BDS
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    FPK 
+_chem_comp.name                                  1-formyl-L-proline 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C6 H9 N O3" 
+_chem_comp.mon_nstd_parent_comp_id               PRO 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2012-10-08 
+_chem_comp.pdbx_modified_date                    2019-05-07 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        143.141 
+_chem_comp.one_letter_code                       P 
+_chem_comp.three_letter_code                     FPK 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4BDS 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FPK   C   C C 0 1 N N N 138.932 117.420 40.915 -1.328  0.526 -0.151   C FPK  1
-FPK   N   N N 0 1 N N N 139.753 115.030 40.920  0.788 -0.674  0.007   N FPK  2
-FPK   O   O O 0 1 N N N 137.671 117.570 41.304 -2.340  1.208  0.408   O FPK  3
-FPK  CA  CA C 0 1 N N S 139.829 116.296 41.594  0.004  0.446  0.549  CA FPK  4
-FPK  CB  CB C 0 1 N N N 141.263 116.673 41.715  0.811  1.737  0.292  CB FPK  5
-FPK  CC  CC C 0 1 N N N 141.971 115.444 41.657  2.261  1.212  0.126  CC FPK  6
-FPK  CD  CD C 0 1 N N N 141.033 114.370 41.133  2.023 -0.139 -0.594  CD FPK  7
-FPK  CE  CE C 0 1 N N N 138.583 114.460 40.145  0.437 -1.974  0.056  CE FPK  8
-FPK  OE  OE O 0 1 N N N 137.488 115.082 40.001 -0.608 -2.301  0.578  OE FPK  9
-FPK OXT OXT O 0 1 N Y N 139.482 118.411 39.960 -1.486 -0.027 -1.214 OXT FPK 10
-FPK  HO  HO H 0 1 N N N 137.298 118.336 40.883 -3.175  1.231 -0.079  HO FPK 11
-FPK  HA  HA H 0 1 N N N 139.437 116.163 42.613 -0.148  0.308  1.620  HA FPK 12
-FPK  HB  HB H 0 1 N N N 141.561 117.331 40.885  0.471  2.228 -0.619  HB FPK 13
-FPK HBA HBA H 0 1 N N N 141.450 117.182 42.672  0.737  2.413  1.144 HBA FPK 14
-FPK  HC  HC H 0 1 N N N 142.834 115.545 40.982  2.852  1.887 -0.495  HC FPK 15
-FPK HCA HCA H 0 1 N N N 142.322 115.171 42.663  2.736  1.061  1.095 HCA FPK 16
-FPK  HD  HD H 0 1 N N N 140.928 113.560 41.870  2.857 -0.817 -0.413  HD FPK 17
-FPK HDA HDA H 0 1 N N N 141.413 113.958 40.187  1.887  0.020 -1.664 HDA FPK 18
-FPK  HE  HE H 0 1 N N N 138.686 113.483 39.696  1.087 -2.725 -0.369  HE FPK 19
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FPK C   C   C 0 1 N N N 138.932 117.420 40.915 -1.328 0.526  -0.151 C   FPK 1  
+FPK N   N   N 0 1 N N N 139.753 115.030 40.920 0.788  -0.674 0.007  N   FPK 2  
+FPK O   O   O 0 1 N N N 137.671 117.570 41.304 -2.340 1.208  0.408  O   FPK 3  
+FPK CA  CA  C 0 1 N N S 139.829 116.296 41.594 0.004  0.446  0.549  CA  FPK 4  
+FPK CB  CB  C 0 1 N N N 141.263 116.673 41.715 0.811  1.737  0.292  CB  FPK 5  
+FPK CC  CC  C 0 1 N N N 141.971 115.444 41.657 2.261  1.212  0.126  CC  FPK 6  
+FPK CD  CD  C 0 1 N N N 141.033 114.370 41.133 2.023  -0.139 -0.594 CD  FPK 7  
+FPK CE  CE  C 0 1 N N N 138.583 114.460 40.145 0.437  -1.974 0.056  CE  FPK 8  
+FPK OE  OE  O 0 1 N N N 137.488 115.082 40.001 -0.608 -2.301 0.578  OE  FPK 9  
+FPK OXT OXT O 0 1 N Y N 139.482 118.411 39.960 -1.486 -0.027 -1.214 OXT FPK 10 
+FPK HO  HO  H 0 1 N N N 137.298 118.336 40.883 -3.175 1.231  -0.079 HO  FPK 11 
+FPK HA  HA  H 0 1 N N N 139.437 116.163 42.613 -0.148 0.308  1.620  HA  FPK 12 
+FPK HB  HB  H 0 1 N N N 141.561 117.331 40.885 0.471  2.228  -0.619 HB  FPK 13 
+FPK HBA HBA H 0 1 N N N 141.450 117.182 42.672 0.737  2.413  1.144  HBA FPK 14 
+FPK HC  HC  H 0 1 N N N 142.834 115.545 40.982 2.852  1.887  -0.495 HC  FPK 15 
+FPK HCA HCA H 0 1 N N N 142.322 115.171 42.663 2.736  1.061  1.095  HCA FPK 16 
+FPK HD  HD  H 0 1 N N N 140.928 113.560 41.870 2.857  -0.817 -0.413 HD  FPK 17 
+FPK HDA HDA H 0 1 N N N 141.413 113.958 40.187 1.887  0.020  -1.664 HDA FPK 18 
+FPK HE  HE  H 0 1 N N N 138.686 113.483 39.696 1.087  -2.725 -0.369 HE  FPK 19 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FPK OXT   C DOUB N N  1
-FPK   C   O SING N N  2
-FPK   C  CA SING N N  3
-FPK  CE   N SING N N  4
-FPK   N  CD SING N N  5
-FPK   N  CA SING N N  6
-FPK   O  HO SING N N  7
-FPK  CA  CB SING N N  8
-FPK  CA  HA SING N N  9
-FPK  CC  CB SING N N 10
-FPK  CB  HB SING N N 11
-FPK  CB HBA SING N N 12
-FPK  CD  CC SING N N 13
-FPK  CC  HC SING N N 14
-FPK  CC HCA SING N N 15
-FPK  CD  HD SING N N 16
-FPK  CD HDA SING N N 17
-FPK  OE  CE DOUB N N 18
-FPK  CE  HE SING N N 19
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FPK OXT C   DOUB N N 1  
+FPK C   O   SING N N 2  
+FPK C   CA  SING N N 3  
+FPK CE  N   SING N N 4  
+FPK N   CD  SING N N 5  
+FPK N   CA  SING N N 6  
+FPK O   HO  SING N N 7  
+FPK CA  CB  SING N N 8  
+FPK CA  HA  SING N N 9  
+FPK CC  CB  SING N N 10 
+FPK CB  HB  SING N N 11 
+FPK CB  HBA SING N N 12 
+FPK CD  CC  SING N N 13 
+FPK CC  HC  SING N N 14 
+FPK CC  HCA SING N N 15 
+FPK CD  HD  SING N N 16 
+FPK CD  HDA SING N N 17 
+FPK OE  CE  DOUB N N 18 
+FPK CE  HE  SING N N 19 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FPK           SMILES              ACDLabs 12.01                                                      O=CN1C(C(=O)O)CCC1
-FPK            InChI                InChI  1.03 InChI=1S/C6H9NO3/c8-4-7-3-1-2-5(7)6(9)10/h4-5H,1-3H2,(H,9,10)/t5-/m0/s1
-FPK         InChIKey                InChI  1.03                                             DHDRGOURKDLAOT-YFKPBYRVSA-N
-FPK SMILES_CANONICAL               CACTVS 3.385                                                   OC(=O)[C@@H]1CCCN1C=O
-FPK           SMILES               CACTVS 3.385                                                     OC(=O)[CH]1CCCN1C=O
-FPK SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2                                                C1C[C@H](N(C1)C=O)C(=O)O
-FPK           SMILES "OpenEye OEToolkits" 1.9.2                                                    C1CC(N(C1)C=O)C(=O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FPK SMILES           ACDLabs              12.01 "O=CN1C(C(=O)O)CCC1"                                                      
+FPK InChI            InChI                1.03  "InChI=1S/C6H9NO3/c8-4-7-3-1-2-5(7)6(9)10/h4-5H,1-3H2,(H,9,10)/t5-/m0/s1" 
+FPK InChIKey         InChI                1.03  DHDRGOURKDLAOT-YFKPBYRVSA-N                                               
+FPK SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@@H]1CCCN1C=O"                                                   
+FPK SMILES           CACTVS               3.385 "OC(=O)[CH]1CCCN1C=O"                                                     
+FPK SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "C1C[C@H](N(C1)C=O)C(=O)O"                                                
+FPK SMILES           "OpenEye OEToolkits" 1.9.2 "C1CC(N(C1)C=O)C(=O)O"                                                    
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FPK "SYSTEMATIC NAME"              ACDLabs 12.01                              1-formyl-L-proline
-FPK "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "(2S)-1-methanoylpyrrolidine-2-carboxylic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FPK "SYSTEMATIC NAME" ACDLabs              12.01 1-formyl-L-proline                              
+FPK "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "(2S)-1-methanoylpyrrolidine-2-carboxylic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FPK       "Create component" 2012-10-08  EBI
-FPK        "Initial release" 2013-05-29 RCSB
-FPK      "Modify descriptor" 2014-09-05 RCSB
-FPK "Modify one letter code" 2019-05-07  EBI
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FPK   C C 6.939  0.389  1
-FPK   N N 4.299 -0.029  2
-FPK   O O 8.054  1.393  3
-FPK  CA C 5.513  0.853  4
-FPK  CB C 5.049  2.279  5
-FPK  CC C 3.549  2.279  6
-FPK  CD C 3.086  0.853  7
-FPK  CE C 4.299 -1.529  8
-FPK  OE O 3.000 -2.279  9
-FPK OXT O 7.251 -1.078 10
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-FPK OXT  C DOUBLE      NONE  1
-FPK   C  O SINGLE      NONE  2
-FPK   C CA SINGLE BEGINDASH  3
-FPK  CE  N SINGLE      NONE  4
-FPK   N CD SINGLE      NONE  5
-FPK   N CA SINGLE      NONE  6
-FPK  CA CB SINGLE      NONE  7
-FPK  CC CB SINGLE      NONE  8
-FPK  CD CC SINGLE      NONE  9
-FPK  OE CE DOUBLE      NONE 10
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-FPK MurckoScaffold S1 scaffold         C1CCNC1                         InChI=1S/C4H9N/c1-2-4-5-3-1/h5H,1-4H2 RWRDLPDLKQPQOW-UHFFFAOYSA-N
-FPK        peptide F1 fragment           NCC=O                            InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-FPK    Z2856434905 F2 fragment CN1CCC[C@@H]1CO InChI=1S/C6H13NO/c1-7-4-2-3-6(7)5-8/h6,8H,2-5H2,1H3/t6-/m1/s1 VCOJPHPOVDIRJK-ZCFIWIBFSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-FPK OXT F1 1
-FPK   C F1 1
-FPK  CA F1 1
-FPK   N F1 1
-FPK  CE F2 1
-FPK   N F2 1
-FPK  CD F2 1
-FPK  CC F2 1
-FPK  CB F2 1
-FPK  CA F2 1
-FPK   C F2 1
-FPK   O F2 1
-FPK   N S1 1
-FPK  CA S1 1
-FPK  CB S1 1
-FPK  CC S1 1
-FPK  CD S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FPK
-_pdbe_chem_comp_rdkit_properties.exactmw                               143.058
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             71.167
-_pdbe_chem_comp_rdkit_properties.tpsa                                  57.610
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.308
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             33.428
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
-
-#
-_pdbe_chem_comp_external_mappings.comp_id           FPK
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ZINC
-_pdbe_chem_comp_external_mappings.resource_id       ZINC000002033577
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FPK   C  1.805  0.104  0.001 ETKDGv2  1
-FPK   N -0.510  0.748 -0.356 ETKDGv2  2
-FPK   O  2.964 -0.034 -0.756 ETKDGv2  3
-FPK  CA  0.479 -0.294 -0.584 ETKDGv2  4
-FPK  CB -0.087 -1.539  0.102 ETKDGv2  5
-FPK  CC -1.162 -1.033  1.064 ETKDGv2  6
-FPK  CD -1.569  0.343  0.549 ETKDGv2  7
-FPK  CE -0.515  2.016 -1.023 ETKDGv2  8
-FPK  OE  0.395  2.313 -1.842 ETKDGv2  9
-FPK OXT  1.875  0.542  1.182 ETKDGv2 10
-FPK  HO  3.867  0.221 -0.376 ETKDGv2 11
-FPK  HA  0.588 -0.481 -1.676 ETKDGv2 12
-FPK  HB -0.564 -2.192 -0.662 ETKDGv2 13
-FPK HBA  0.687 -2.133  0.636 ETKDGv2 14
-FPK  HC -2.030 -1.725  1.102 ETKDGv2 15
-FPK HCA -0.728 -0.935  2.083 ETKDGv2 16
-FPK  HD -2.531  0.282 -0.006 ETKDGv2 17
-FPK HDA -1.660  1.067  1.387 ETKDGv2 18
-FPK  HE -1.305  2.729 -0.826 ETKDGv2 19
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FPK "Create component"       2012-10-08 EBI  
+FPK "Initial release"        2013-05-29 RCSB 
+FPK "Modify descriptor"      2014-09-05 RCSB 
+FPK "Modify one letter code" 2019-05-07 EBI  
+# 

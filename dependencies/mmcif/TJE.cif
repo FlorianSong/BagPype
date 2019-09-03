@@ -1,487 +1,219 @@
 data_TJE
-#
-_chem_comp.id                                        TJE
-_chem_comp.name                                      "(2S)-2-{[(S)-{(1R)-1-[(N-acetyl-L-tyrosyl)amino]ethyl}(hydroxy)phosphoryl]methyl}-4-phenylbutanoic acid"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C24 H31 N2 O7 P"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             Acetyl-Tyr-Ala-Y(PO2CH2)-homoPhe-OH
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2014-12-17
-_chem_comp.pdbx_modified_date                        2016-01-15
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            490.486
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         TJE
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            4UEF
-_chem_comp.pdbx_subcomponent_list                    "ACY TYR WN6"
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    TJE 
+_chem_comp.name                                  "(2S)-2-{[(S)-{(1R)-1-[(N-acetyl-L-tyrosyl)amino]ethyl}(hydroxy)phosphoryl]methyl}-4-phenylbutanoic acid" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C24 H31 N2 O7 P" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "Acetyl-Tyr-Ala-Y(PO2CH2)-homoPhe-OH" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2014-12-17 
+_chem_comp.pdbx_modified_date                    2016-01-15 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        490.486 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     TJE 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4UEF 
+_chem_comp.pdbx_subcomponent_list                "ACY TYR WN6" 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-TJE  C9 C11 C 0 1 N N N -11.762 17.618 -20.192   4.385  2.744 -0.059   C ACY  1
-TJE  O2 O13 O 0 1 N N N -12.921 17.220 -20.080   3.457  2.641  0.716   O ACY  2
-TJE C10 C12 C 0 1 N N N -11.421 19.048 -19.937   5.231  3.991 -0.060 CH3 ACY  3
-TJE  N1 N10 N 0 1 N N N -10.661 16.839 -20.604   4.663  1.740 -0.914   N TYR  4
-TJE  C8 C09 C 0 1 N N S -10.881 15.525 -20.825   3.845  0.525 -0.908  CA TYR  5
-TJE C11 C14 C 0 1 N N N -10.156 14.608 -19.821   2.414  0.881 -1.218   C TYR  6
-TJE  O3 O15 O 0 1 N N N  -8.963 14.749 -19.603   2.027  2.021 -1.069   O TYR  7
-TJE  C7 C08 C 0 1 N N N -10.595 15.020 -22.247   3.919 -0.133  0.471  CB TYR  8
-TJE  C4 C05 C 0 1 Y N N -11.297 15.561 -23.359   5.328 -0.601  0.730  CG TYR  9
-TJE  C3 C04 C 0 1 Y N N -10.898 16.754 -23.955   6.235  0.246  1.341 CD1 TYR 10
-TJE  C5 C06 C 0 1 Y N N -12.427 14.897 -23.812   5.711 -1.877  0.362 CD2 TYR 11
-TJE  C2 C03 C 0 1 Y N N -11.610 17.339 -25.045   7.527 -0.180  1.579 CE1 TYR 12
-TJE  C6 C07 C 0 1 Y N N -13.175 15.426 -24.882   7.002 -2.308  0.598 CE2 TYR 13
-TJE  C1 C02 C 0 1 Y N N -12.762 16.648 -25.505   7.915 -1.458  1.205  CZ TYR 14
-TJE  O1 O01 O 0 1 N N N -13.493 17.229 -26.610   9.186 -1.879  1.438  OH TYR 15
-TJE  N2 N16 N 0 1 N N N -10.906 13.653 -19.400   1.565 -0.066 -1.662 N16 WN6 16
-TJE C12 C17 C 0 1 N N R -10.299 12.560 -18.490   0.174  0.280 -1.964 C17 WN6 17
-TJE C13 C18 C 0 1 N N N -11.151 12.353 -17.201  -0.232 -0.351 -3.297 C18 WN6 18
-TJE  P1 P19 P 0 1 N N N -10.147 11.113 -19.400  -0.910 -0.348 -0.640 P19 WN6 19
-TJE  O4 O20 O 0 1 N N N  -9.498 10.036 -18.601  -0.484  0.316  0.764 O20 WN6 20
-TJE C14 C21 C 0 1 N N N -11.737 10.487 -19.911  -2.641  0.083 -1.015 C21 WN6 21
-TJE C15 C22 C 0 1 N N S -11.625  9.398 -20.943  -3.563 -0.550  0.029 C22 WN6 22
-TJE C16 C23 C 0 1 N N N -13.023  8.725 -21.329  -4.946  0.098 -0.051 C23 WN6 23
-TJE C17 C24 C 0 1 N N N -13.276  7.396 -20.616  -5.830 -0.446  1.073 C24 WN6 24
-TJE C18 C25 C 0 1 Y N N -12.458  6.200 -20.925  -7.193  0.193  0.994 C25 WN6 25
-TJE C19 C26 C 0 1 Y N N -11.449  5.788 -20.085  -8.190 -0.397  0.239 C26 WN6 26
-TJE C20 C27 C 0 1 Y N N -10.644  4.671 -20.356  -9.440  0.189  0.166 C27 WN6 27
-TJE C21 C28 C 0 1 Y N N -10.945  3.866 -21.451  -9.693  1.365  0.848 C28 WN6 28
-TJE C22 C29 C 0 1 Y N N -12.037  4.234 -22.291  -8.696  1.954  1.603 C29 WN6 29
-TJE C23 C30 C 0 1 Y N N -12.721  5.423 -22.091  -7.448  1.365  1.681 C30 WN6 30
-TJE C24 C31 C 0 1 N N N -11.085 10.031 -22.311  -3.684 -2.028 -0.238 C31 WN6 31
-TJE  O5 O32 O 0 1 N N N -11.672 11.042 -22.687  -4.448 -2.794  0.557 O32 WN6 32
-TJE  O6 O33 O 0 1 N N N -10.172  9.411 -22.970  -3.094 -2.524 -1.169 O33 WN6 33
-TJE  O7 O34 O 0 1 N N N  -9.463 11.484 -20.609  -0.777 -1.819 -0.549 O34 WN6 34
-TJE H10 H10 H 0 1 N N N -12.332 19.599 -19.660   4.860  4.683  0.696  H1 ACY 35
-TJE H11 H11 H 0 1 N N N -10.691 19.110 -19.117   6.265  3.729  0.163  H2 ACY 36
-TJE H12 H12 H 0 1 N N N -10.988 19.490 -20.847   5.179  4.464 -1.041  H3 ACY 37
-TJE  H9  H9 H 0 1 N N N  -9.755 17.243 -20.727   5.405  1.822 -1.533  H2 TYR 38
-TJE  H8  H8 H 0 1 N N N -11.953 15.339 -20.663   4.219 -0.169 -1.662  HA TYR 39
-TJE  H6  H6 H 0 1 N N N -10.795 13.938 -22.244   3.630  0.589  1.235 HB2 TYR 40
-TJE  H7  H7 H 0 1 N N N  -9.525 15.194 -22.434   3.242 -0.987  0.504 HB3 TYR 41
-TJE  H3  H3 H 0 1 N N N -10.018 17.255 -23.579   5.932  1.242  1.631 HD1 TYR 42
-TJE  H4  H4 H 0 1 N N N -12.734 13.973 -23.344   5.000 -2.538 -0.111 HD2 TYR 43
-TJE  H2  H2 H 0 1 N N N -11.287 18.264 -25.499   8.235  0.482  2.056 HE1 TYR 44
-TJE  H5  H5 H 0 1 N N N -14.058 14.911 -25.232   7.300 -3.305  0.311 HE2 TYR 45
-TJE  H1  H1 H 0 1 N N N -14.237 16.678 -26.823   9.307 -2.307  2.297  HH TYR 46
-TJE H13 H13 H 0 1 N N N -11.871 13.617 -19.658   1.874 -0.978 -1.782 H13 WN6 47
-TJE H14 H14 H 0 1 N N N  -9.283 12.864 -18.197   0.075  1.364 -2.030 H14 WN6 48
-TJE H15 H15 H 0 1 N N N -11.222 13.303 -16.651   0.416  0.025 -4.089 H15 WN6 49
-TJE H16 H16 H 0 1 N N N -12.160 12.015 -17.479  -0.133 -1.435 -3.231 H16 WN6 50
-TJE H17 H17 H 0 1 N N N -10.673 11.595 -16.563  -1.267 -0.093 -3.522 H17 WN6 51
-TJE H18 H18 H 0 1 N N N  -8.702  9.754 -19.036  -0.547  1.281  0.777 H18 WN6 52
-TJE H19 H19 H 0 1 N N N -12.322 11.316 -20.336  -2.759  1.166 -0.994 H19 WN6 53
-TJE H20 H20 H 0 1 N N N -12.257 10.085 -19.029  -2.902 -0.291 -2.005 H20 WN6 54
-TJE H21 H21 H 0 1 N N N -10.928  8.617 -20.605  -3.146 -0.394  1.024 H21 WN6 55
-TJE H22 H22 H 0 1 N N N -13.831  9.423 -21.063  -4.848  1.178  0.054 H22 WN6 56
-TJE H23 H23 H 0 1 N N N -13.036  8.546 -22.414  -5.400 -0.133 -1.015 H23 WN6 57
-TJE H24 H24 H 0 1 N N N -13.154  7.589 -19.540  -5.929 -1.526  0.968 H24 WN6 58
-TJE H25 H25 H 0 1 N N N -14.321  7.123 -20.824  -5.376 -0.214  2.037 H25 WN6 59
-TJE H26 H26 H 0 1 N N N -11.269  6.348 -19.179  -7.992 -1.315 -0.294 H26 WN6 60
-TJE H27 H27 H 0 1 N N N  -9.801  4.439 -19.722 -10.218 -0.271 -0.425 H27 WN6 61
-TJE H28 H28 H 0 1 N N N -10.363  2.980 -21.660 -10.669  1.823  0.790 H28 WN6 62
-TJE H29 H29 H 0 1 N N N -12.335  3.577 -23.095  -8.896  2.870  2.140 H29 WN6 63
-TJE H30 H30 H 0 1 N N N -13.449  5.759 -22.814  -6.670  1.825  2.271 H30 WN6 64
-TJE H31 H31 H 0 1 N N N -11.347 11.297 -23.543  -4.495 -3.737  0.346 H31 WN6 65
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+TJE C9  C11 C 0 1 N N N -11.762 17.618 -20.192 4.385   2.744  -0.059 C   ACY 1  
+TJE O2  O13 O 0 1 N N N -12.921 17.220 -20.080 3.457   2.641  0.716  O   ACY 2  
+TJE C10 C12 C 0 1 N N N -11.421 19.048 -19.937 5.231   3.991  -0.060 CH3 ACY 3  
+TJE N1  N10 N 0 1 N N N -10.661 16.839 -20.604 4.663   1.740  -0.914 N   TYR 4  
+TJE C8  C09 C 0 1 N N S -10.881 15.525 -20.825 3.845   0.525  -0.908 CA  TYR 5  
+TJE C11 C14 C 0 1 N N N -10.156 14.608 -19.821 2.414   0.881  -1.218 C   TYR 6  
+TJE O3  O15 O 0 1 N N N -8.963  14.749 -19.603 2.027   2.021  -1.069 O   TYR 7  
+TJE C7  C08 C 0 1 N N N -10.595 15.020 -22.247 3.919   -0.133 0.471  CB  TYR 8  
+TJE C4  C05 C 0 1 Y N N -11.297 15.561 -23.359 5.328   -0.601 0.730  CG  TYR 9  
+TJE C3  C04 C 0 1 Y N N -10.898 16.754 -23.955 6.235   0.246  1.341  CD1 TYR 10 
+TJE C5  C06 C 0 1 Y N N -12.427 14.897 -23.812 5.711   -1.877 0.362  CD2 TYR 11 
+TJE C2  C03 C 0 1 Y N N -11.610 17.339 -25.045 7.527   -0.180 1.579  CE1 TYR 12 
+TJE C6  C07 C 0 1 Y N N -13.175 15.426 -24.882 7.002   -2.308 0.598  CE2 TYR 13 
+TJE C1  C02 C 0 1 Y N N -12.762 16.648 -25.505 7.915   -1.458 1.205  CZ  TYR 14 
+TJE O1  O01 O 0 1 N N N -13.493 17.229 -26.610 9.186   -1.879 1.438  OH  TYR 15 
+TJE N2  N16 N 0 1 N N N -10.906 13.653 -19.400 1.565   -0.066 -1.662 N16 WN6 16 
+TJE C12 C17 C 0 1 N N R -10.299 12.560 -18.490 0.174   0.280  -1.964 C17 WN6 17 
+TJE C13 C18 C 0 1 N N N -11.151 12.353 -17.201 -0.232  -0.351 -3.297 C18 WN6 18 
+TJE P1  P19 P 0 1 N N N -10.147 11.113 -19.400 -0.910  -0.348 -0.640 P19 WN6 19 
+TJE O4  O20 O 0 1 N N N -9.498  10.036 -18.601 -0.484  0.316  0.764  O20 WN6 20 
+TJE C14 C21 C 0 1 N N N -11.737 10.487 -19.911 -2.641  0.083  -1.015 C21 WN6 21 
+TJE C15 C22 C 0 1 N N S -11.625 9.398  -20.943 -3.563  -0.550 0.029  C22 WN6 22 
+TJE C16 C23 C 0 1 N N N -13.023 8.725  -21.329 -4.946  0.098  -0.051 C23 WN6 23 
+TJE C17 C24 C 0 1 N N N -13.276 7.396  -20.616 -5.830  -0.446 1.073  C24 WN6 24 
+TJE C18 C25 C 0 1 Y N N -12.458 6.200  -20.925 -7.193  0.193  0.994  C25 WN6 25 
+TJE C19 C26 C 0 1 Y N N -11.449 5.788  -20.085 -8.190  -0.397 0.239  C26 WN6 26 
+TJE C20 C27 C 0 1 Y N N -10.644 4.671  -20.356 -9.440  0.189  0.166  C27 WN6 27 
+TJE C21 C28 C 0 1 Y N N -10.945 3.866  -21.451 -9.693  1.365  0.848  C28 WN6 28 
+TJE C22 C29 C 0 1 Y N N -12.037 4.234  -22.291 -8.696  1.954  1.603  C29 WN6 29 
+TJE C23 C30 C 0 1 Y N N -12.721 5.423  -22.091 -7.448  1.365  1.681  C30 WN6 30 
+TJE C24 C31 C 0 1 N N N -11.085 10.031 -22.311 -3.684  -2.028 -0.238 C31 WN6 31 
+TJE O5  O32 O 0 1 N N N -11.672 11.042 -22.687 -4.448  -2.794 0.557  O32 WN6 32 
+TJE O6  O33 O 0 1 N N N -10.172 9.411  -22.970 -3.094  -2.524 -1.169 O33 WN6 33 
+TJE O7  O34 O 0 1 N N N -9.463  11.484 -20.609 -0.777  -1.819 -0.549 O34 WN6 34 
+TJE H10 H10 H 0 1 N N N -12.332 19.599 -19.660 4.860   4.683  0.696  H1  ACY 35 
+TJE H11 H11 H 0 1 N N N -10.691 19.110 -19.117 6.265   3.729  0.163  H2  ACY 36 
+TJE H12 H12 H 0 1 N N N -10.988 19.490 -20.847 5.179   4.464  -1.041 H3  ACY 37 
+TJE H9  H9  H 0 1 N N N -9.755  17.243 -20.727 5.405   1.822  -1.533 H2  TYR 38 
+TJE H8  H8  H 0 1 N N N -11.953 15.339 -20.663 4.219   -0.169 -1.662 HA  TYR 39 
+TJE H6  H6  H 0 1 N N N -10.795 13.938 -22.244 3.630   0.589  1.235  HB2 TYR 40 
+TJE H7  H7  H 0 1 N N N -9.525  15.194 -22.434 3.242   -0.987 0.504  HB3 TYR 41 
+TJE H3  H3  H 0 1 N N N -10.018 17.255 -23.579 5.932   1.242  1.631  HD1 TYR 42 
+TJE H4  H4  H 0 1 N N N -12.734 13.973 -23.344 5.000   -2.538 -0.111 HD2 TYR 43 
+TJE H2  H2  H 0 1 N N N -11.287 18.264 -25.499 8.235   0.482  2.056  HE1 TYR 44 
+TJE H5  H5  H 0 1 N N N -14.058 14.911 -25.232 7.300   -3.305 0.311  HE2 TYR 45 
+TJE H1  H1  H 0 1 N N N -14.237 16.678 -26.823 9.307   -2.307 2.297  HH  TYR 46 
+TJE H13 H13 H 0 1 N N N -11.871 13.617 -19.658 1.874   -0.978 -1.782 H13 WN6 47 
+TJE H14 H14 H 0 1 N N N -9.283  12.864 -18.197 0.075   1.364  -2.030 H14 WN6 48 
+TJE H15 H15 H 0 1 N N N -11.222 13.303 -16.651 0.416   0.025  -4.089 H15 WN6 49 
+TJE H16 H16 H 0 1 N N N -12.160 12.015 -17.479 -0.133  -1.435 -3.231 H16 WN6 50 
+TJE H17 H17 H 0 1 N N N -10.673 11.595 -16.563 -1.267  -0.093 -3.522 H17 WN6 51 
+TJE H18 H18 H 0 1 N N N -8.702  9.754  -19.036 -0.547  1.281  0.777  H18 WN6 52 
+TJE H19 H19 H 0 1 N N N -12.322 11.316 -20.336 -2.759  1.166  -0.994 H19 WN6 53 
+TJE H20 H20 H 0 1 N N N -12.257 10.085 -19.029 -2.902  -0.291 -2.005 H20 WN6 54 
+TJE H21 H21 H 0 1 N N N -10.928 8.617  -20.605 -3.146  -0.394 1.024  H21 WN6 55 
+TJE H22 H22 H 0 1 N N N -13.831 9.423  -21.063 -4.848  1.178  0.054  H22 WN6 56 
+TJE H23 H23 H 0 1 N N N -13.036 8.546  -22.414 -5.400  -0.133 -1.015 H23 WN6 57 
+TJE H24 H24 H 0 1 N N N -13.154 7.589  -19.540 -5.929  -1.526 0.968  H24 WN6 58 
+TJE H25 H25 H 0 1 N N N -14.321 7.123  -20.824 -5.376  -0.214 2.037  H25 WN6 59 
+TJE H26 H26 H 0 1 N N N -11.269 6.348  -19.179 -7.992  -1.315 -0.294 H26 WN6 60 
+TJE H27 H27 H 0 1 N N N -9.801  4.439  -19.722 -10.218 -0.271 -0.425 H27 WN6 61 
+TJE H28 H28 H 0 1 N N N -10.363 2.980  -21.660 -10.669 1.823  0.790  H28 WN6 62 
+TJE H29 H29 H 0 1 N N N -12.335 3.577  -23.095 -8.896  2.870  2.140  H29 WN6 63 
+TJE H30 H30 H 0 1 N N N -13.449 5.759  -22.814 -6.670  1.825  2.271  H30 WN6 64 
+TJE H31 H31 H 0 1 N N N -11.347 11.297 -23.543 -4.495  -3.737 0.346  H31 WN6 65 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-TJE  O1  C1 SING N N  1
-TJE  C1  C2 DOUB Y N  2
-TJE  C1  C6 SING Y N  3
-TJE  C2  C3 SING Y N  4
-TJE  C6  C5 DOUB Y N  5
-TJE  C3  C4 DOUB Y N  6
-TJE  C5  C4 SING Y N  7
-TJE  C4  C7 SING N N  8
-TJE  O6 C24 DOUB N N  9
-TJE  O5 C24 SING N N 10
-TJE C24 C15 SING N N 11
-TJE C22 C23 DOUB Y N 12
-TJE C22 C21 SING Y N 13
-TJE  C7  C8 SING N N 14
-TJE C23 C18 SING Y N 15
-TJE C21 C20 DOUB Y N 16
-TJE C16 C15 SING N N 17
-TJE C16 C17 SING N N 18
-TJE C15 C14 SING N N 19
-TJE C18 C17 SING N N 20
-TJE C18 C19 DOUB Y N 21
-TJE  C8  N1 SING N N 22
-TJE  C8 C11 SING N N 23
-TJE  O7  P1 DOUB N N 24
-TJE  N1  C9 SING N N 25
-TJE C20 C19 SING Y N 26
-TJE  C9  O2 DOUB N N 27
-TJE  C9 C10 SING N N 28
-TJE C14  P1 SING N N 29
-TJE C11  O3 DOUB N N 30
-TJE C11  N2 SING N N 31
-TJE  P1  O4 SING N N 32
-TJE  P1 C12 SING N N 33
-TJE  N2 C12 SING N N 34
-TJE C12 C13 SING N N 35
-TJE  O1  H1 SING N N 36
-TJE  C2  H2 SING N N 37
-TJE  C3  H3 SING N N 38
-TJE  C5  H4 SING N N 39
-TJE  C6  H5 SING N N 40
-TJE  C7  H6 SING N N 41
-TJE  C7  H7 SING N N 42
-TJE  C8  H8 SING N N 43
-TJE  N1  H9 SING N N 44
-TJE C10 H10 SING N N 45
-TJE C10 H11 SING N N 46
-TJE C10 H12 SING N N 47
-TJE  N2 H13 SING N N 48
-TJE C12 H14 SING N N 49
-TJE C13 H15 SING N N 50
-TJE C13 H16 SING N N 51
-TJE C13 H17 SING N N 52
-TJE  O4 H18 SING N N 53
-TJE C14 H19 SING N N 54
-TJE C14 H20 SING N N 55
-TJE C15 H21 SING N N 56
-TJE C16 H22 SING N N 57
-TJE C16 H23 SING N N 58
-TJE C17 H24 SING N N 59
-TJE C17 H25 SING N N 60
-TJE C19 H26 SING N N 61
-TJE C20 H27 SING N N 62
-TJE C21 H28 SING N N 63
-TJE C22 H29 SING N N 64
-TJE C23 H30 SING N N 65
-TJE  O5 H31 SING N N 66
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+TJE O1  C1  SING N N 1  
+TJE C1  C2  DOUB Y N 2  
+TJE C1  C6  SING Y N 3  
+TJE C2  C3  SING Y N 4  
+TJE C6  C5  DOUB Y N 5  
+TJE C3  C4  DOUB Y N 6  
+TJE C5  C4  SING Y N 7  
+TJE C4  C7  SING N N 8  
+TJE O6  C24 DOUB N N 9  
+TJE O5  C24 SING N N 10 
+TJE C24 C15 SING N N 11 
+TJE C22 C23 DOUB Y N 12 
+TJE C22 C21 SING Y N 13 
+TJE C7  C8  SING N N 14 
+TJE C23 C18 SING Y N 15 
+TJE C21 C20 DOUB Y N 16 
+TJE C16 C15 SING N N 17 
+TJE C16 C17 SING N N 18 
+TJE C15 C14 SING N N 19 
+TJE C18 C17 SING N N 20 
+TJE C18 C19 DOUB Y N 21 
+TJE C8  N1  SING N N 22 
+TJE C8  C11 SING N N 23 
+TJE O7  P1  DOUB N N 24 
+TJE N1  C9  SING N N 25 
+TJE C20 C19 SING Y N 26 
+TJE C9  O2  DOUB N N 27 
+TJE C9  C10 SING N N 28 
+TJE C14 P1  SING N N 29 
+TJE C11 O3  DOUB N N 30 
+TJE C11 N2  SING N N 31 
+TJE P1  O4  SING N N 32 
+TJE P1  C12 SING N N 33 
+TJE N2  C12 SING N N 34 
+TJE C12 C13 SING N N 35 
+TJE O1  H1  SING N N 36 
+TJE C2  H2  SING N N 37 
+TJE C3  H3  SING N N 38 
+TJE C5  H4  SING N N 39 
+TJE C6  H5  SING N N 40 
+TJE C7  H6  SING N N 41 
+TJE C7  H7  SING N N 42 
+TJE C8  H8  SING N N 43 
+TJE N1  H9  SING N N 44 
+TJE C10 H10 SING N N 45 
+TJE C10 H11 SING N N 46 
+TJE C10 H12 SING N N 47 
+TJE N2  H13 SING N N 48 
+TJE C12 H14 SING N N 49 
+TJE C13 H15 SING N N 50 
+TJE C13 H16 SING N N 51 
+TJE C13 H17 SING N N 52 
+TJE O4  H18 SING N N 53 
+TJE C14 H19 SING N N 54 
+TJE C14 H20 SING N N 55 
+TJE C15 H21 SING N N 56 
+TJE C16 H22 SING N N 57 
+TJE C16 H23 SING N N 58 
+TJE C17 H24 SING N N 59 
+TJE C17 H25 SING N N 60 
+TJE C19 H26 SING N N 61 
+TJE C20 H27 SING N N 62 
+TJE C21 H28 SING N N 63 
+TJE C22 H29 SING N N 64 
+TJE C23 H30 SING N N 65 
+TJE O5  H31 SING N N 66 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-TJE           SMILES              ACDLabs 12.01                                                                                                                                                                     O=C(O)C(CCc1ccccc1)CP(=O)(O)C(NC(=O)C(NC(=O)C)Cc2ccc(O)cc2)C
-TJE            InChI                InChI  1.03 InChI=1S/C24H31N2O7P/c1-16(27)25-22(14-19-9-12-21(28)13-10-19)23(29)26-17(2)34(32,33)15-20(24(30)31)11-8-18-6-4-3-5-7-18/h3-7,9-10,12-13,17,20,22,28H,8,11,14-15H2,1-2H3,(H,25,27)(H,26,29)(H,30,31)(H,32,33)/t17-,20-,22+/m1/s1
-TJE         InChIKey                InChI  1.03                                                                                                                                                                                                      WUDUKXMVLMXYCW-ZNLUXHQJSA-N
-TJE SMILES_CANONICAL               CACTVS 3.385                                                                                                                                                      C[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(C)=O)[P](O)(=O)C[C@@H](CCc2ccccc2)C(O)=O
-TJE           SMILES               CACTVS 3.385                                                                                                                                                          C[CH](NC(=O)[CH](Cc1ccc(O)cc1)NC(C)=O)[P](O)(=O)C[CH](CCc2ccccc2)C(O)=O
-TJE SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                                                                                                                        C[C@H](NC(=O)[C@H](Cc1ccc(cc1)O)NC(=O)C)P(=O)(C[C@@H](CCc2ccccc2)C(=O)O)O
-TJE           SMILES "OpenEye OEToolkits" 1.7.6                                                                                                                                                                     CC(NC(=O)C(Cc1ccc(cc1)O)NC(=O)C)P(=O)(CC(CCc2ccccc2)C(=O)O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+TJE SMILES           ACDLabs              12.01 "O=C(O)C(CCc1ccccc1)CP(=O)(O)C(NC(=O)C(NC(=O)C)Cc2ccc(O)cc2)C" 
+TJE InChI            InChI                1.03  
+"InChI=1S/C24H31N2O7P/c1-16(27)25-22(14-19-9-12-21(28)13-10-19)23(29)26-17(2)34(32,33)15-20(24(30)31)11-8-18-6-4-3-5-7-18/h3-7,9-10,12-13,17,20,22,28H,8,11,14-15H2,1-2H3,(H,25,27)(H,26,29)(H,30,31)(H,32,33)/t17-,20-,22+/m1/s1" 
+TJE InChIKey         InChI                1.03  WUDUKXMVLMXYCW-ZNLUXHQJSA-N 
+TJE SMILES_CANONICAL CACTVS               3.385 "C[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(C)=O)[P](O)(=O)C[C@@H](CCc2ccccc2)C(O)=O" 
+TJE SMILES           CACTVS               3.385 "C[CH](NC(=O)[CH](Cc1ccc(O)cc1)NC(C)=O)[P](O)(=O)C[CH](CCc2ccccc2)C(O)=O" 
+TJE SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "C[C@H](NC(=O)[C@H](Cc1ccc(cc1)O)NC(=O)C)P(=O)(C[C@@H](CCc2ccccc2)C(=O)O)O" 
+TJE SMILES           "OpenEye OEToolkits" 1.7.6 "CC(NC(=O)C(Cc1ccc(cc1)O)NC(=O)C)P(=O)(CC(CCc2ccccc2)C(=O)O)O" 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-TJE "SYSTEMATIC NAME"              ACDLabs 12.01                          "(2S)-2-{[(S)-{(1R)-1-[(N-acetyl-L-tyrosyl)amino]ethyl}(hydroxy)phosphoryl]methyl}-4-phenylbutanoic acid"
-TJE "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2S)-2-[[[(1R)-1-[[(2S)-2-acetamido-3-(4-hydroxyphenyl)propanoyl]amino]ethyl]-oxidanyl-phosphoryl]methyl]-4-phenyl-butanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+TJE "SYSTEMATIC NAME" ACDLabs              12.01 "(2S)-2-{[(S)-{(1R)-1-[(N-acetyl-L-tyrosyl)amino]ethyl}(hydroxy)phosphoryl]methyl}-4-phenylbutanoic acid"                          
+TJE "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2S)-2-[[[(1R)-1-[[(2S)-2-acetamido-3-(4-hydroxyphenyl)propanoyl]amino]ethyl]-oxidanyl-phosphoryl]methyl]-4-phenyl-butanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-TJE "Create component" 2014-12-17  EBI
-TJE  "Initial release" 2016-01-20 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-TJE  C9 C 12.093 -2.393  1
-TJE  O2 O 12.093 -0.892  2
-TJE C10 C 13.392 -3.143  3
-TJE  N1 N 10.794 -3.143  4
-TJE  C8 C  9.495 -2.393  5
-TJE C11 C  9.495 -0.892  6
-TJE  O3 O 10.794 -0.142  7
-TJE  C7 C  8.196 -3.143  8
-TJE  C4 C  8.196 -4.643  9
-TJE  C3 C  6.897 -5.393 10
-TJE  C5 C  9.495 -5.393 11
-TJE  C2 C  6.897 -6.893 12
-TJE  C6 C  9.495 -6.893 13
-TJE  C1 C  8.196 -7.643 14
-TJE  O1 O  8.196 -9.143 15
-TJE  N2 N  8.196 -0.142 16
-TJE C12 C  8.196  1.357 17
-TJE C13 C  9.495  2.107 18
-TJE  P1 P  6.897  2.107 19
-TJE  O4 O  7.647  3.406 20
-TJE C14 C  5.598  2.857 21
-TJE C15 C  5.598  4.357 22
-TJE C16 C  6.897  5.107 23
-TJE C17 C  6.897  6.607 24
-TJE C18 C  8.196  7.357 25
-TJE C19 C  8.196  8.857 26
-TJE C20 C  9.495  9.607 27
-TJE C21 C 10.794  8.857 28
-TJE C22 C 10.794  7.357 29
-TJE C23 C  9.495  6.607 30
-TJE C24 C  4.299  5.107 31
-TJE  O5 O  4.299  6.607 32
-TJE  O6 O  3.000  4.357 33
-TJE  O7 O  6.147  0.808 34
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-TJE  O1  C1 SINGLE       NONE  1
-TJE  C1  C2 SINGLE       NONE  2
-TJE  C1  C6 DOUBLE       NONE  3
-TJE  C2  C3 DOUBLE       NONE  4
-TJE  C6  C5 SINGLE       NONE  5
-TJE  C3  C4 SINGLE       NONE  6
-TJE  C5  C4 DOUBLE       NONE  7
-TJE  C4  C7 SINGLE       NONE  8
-TJE  O6 C24 DOUBLE       NONE  9
-TJE  O5 C24 SINGLE       NONE 10
-TJE C24 C15 SINGLE       NONE 11
-TJE C22 C23 DOUBLE       NONE 12
-TJE C22 C21 SINGLE       NONE 13
-TJE  C7  C8 SINGLE BEGINWEDGE 14
-TJE C23 C18 SINGLE       NONE 15
-TJE C21 C20 DOUBLE       NONE 16
-TJE C16 C15 SINGLE  BEGINDASH 17
-TJE C16 C17 SINGLE       NONE 18
-TJE C15 C14 SINGLE       NONE 19
-TJE C18 C17 SINGLE       NONE 20
-TJE C18 C19 DOUBLE       NONE 21
-TJE  C8  N1 SINGLE       NONE 22
-TJE  C8 C11 SINGLE       NONE 23
-TJE  O7  P1 DOUBLE       NONE 24
-TJE  N1  C9 SINGLE       NONE 25
-TJE C20 C19 SINGLE       NONE 26
-TJE  C9  O2 DOUBLE       NONE 27
-TJE  C9 C10 SINGLE       NONE 28
-TJE C14  P1 SINGLE       NONE 29
-TJE C11  O3 DOUBLE       NONE 30
-TJE C11  N2 SINGLE       NONE 31
-TJE  P1  O4 SINGLE       NONE 32
-TJE  P1 C12 SINGLE       NONE 33
-TJE  N2 C12 SINGLE       NONE 34
-TJE C12 C13 SINGLE  BEGINDASH 35
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-TJE MurckoScaffold S1 scaffold O=C(CCc1ccccc1)NC[PH](=O)CCCCc1ccccc1 InChI=1S/C20H26NO2P/c22-20(15-14-19-11-5-2-6-12-19)21-17-24(23)16-8-7-13-18-9-3-1-4-10-18/h1-6,9-12,24H,7-8,13-17H2,(H,21,22) SQLMMNCIQVYOLI-UHFFFAOYSA-N
-TJE          amide F1 fragment                               CC(N)=O                                                                                        InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-TJE        peptide F2 fragment                                 NCC=O                                                                                            InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-TJE         phenyl F3 fragment                              c1ccccc1                                                                                            InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-TJE  N1 F1 1
-TJE  C9 F1 1
-TJE  O2 F1 1
-TJE C10 F1 1
-TJE  N2 F1 2
-TJE C11 F1 2
-TJE  O3 F1 2
-TJE  C8 F1 2
-TJE  O3 F2 1
-TJE C11 F2 1
-TJE  C8 F2 1
-TJE  N1 F2 1
-TJE  C4 F3 1
-TJE  C3 F3 1
-TJE  C2 F3 1
-TJE  C1 F3 1
-TJE  C6 F3 1
-TJE  C5 F3 1
-TJE C18 F3 2
-TJE C19 F3 2
-TJE C20 F3 2
-TJE C21 F3 2
-TJE C22 F3 2
-TJE C23 F3 2
-TJE  C8 S1 1
-TJE C11 S1 1
-TJE  O3 S1 1
-TJE  C7 S1 1
-TJE  C4 S1 1
-TJE  C3 S1 1
-TJE  C5 S1 1
-TJE  C2 S1 1
-TJE  C6 S1 1
-TJE  C1 S1 1
-TJE  N2 S1 1
-TJE C12 S1 1
-TJE  P1 S1 1
-TJE C14 S1 1
-TJE C15 S1 1
-TJE C16 S1 1
-TJE C17 S1 1
-TJE C18 S1 1
-TJE C19 S1 1
-TJE C20 S1 1
-TJE C21 S1 1
-TJE C22 S1 1
-TJE C23 S1 1
-TJE  O7 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               TJE
-_pdbe_chem_comp_rdkit_properties.exactmw                               490.187
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           9
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     16
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                7
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        10
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.375
-_pdbe_chem_comp_rdkit_properties.NumRings                              2
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             242.141
-_pdbe_chem_comp_rdkit_properties.tpsa                                  153.030
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.934
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             126.459
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         34
-
-#
-_pdbe_chem_comp_external_mappings.comp_id           TJE
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ZINC
-_pdbe_chem_comp_external_mappings.resource_id       ZINC000263621198
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-TJE  C9 -3.743 -0.921  3.091 ETKDGv2  1
-TJE  O2 -2.911 -1.680  3.659 ETKDGv2  2
-TJE C10 -4.017  0.433  3.660 ETKDGv2  3
-TJE  N1 -4.429 -1.350  1.906 ETKDGv2  4
-TJE  C8 -4.149 -2.641  1.265 ETKDGv2  5
-TJE C11 -2.731 -2.685  0.749 ETKDGv2  6
-TJE  O3 -2.086 -3.766  0.814 ETKDGv2  7
-TJE  C7 -5.177 -2.962  0.155 ETKDGv2  8
-TJE  C4 -5.082 -2.056 -1.051 ETKDGv2  9
-TJE  C3 -5.946 -0.852 -1.152 ETKDGv2 10
-TJE  C5 -4.244 -2.348 -2.063 ETKDGv2 11
-TJE  C2 -5.856 -0.044 -2.215 ETKDGv2 12
-TJE  C6 -4.144 -1.451 -3.233 ETKDGv2 13
-TJE  C1 -4.905 -0.352 -3.306 ETKDGv2 14
-TJE  O1 -4.798  0.491 -4.409 ETKDGv2 15
-TJE  N2 -2.123 -1.511  0.187 ETKDGv2 16
-TJE C12 -0.729 -1.473 -0.254 ETKDGv2 17
-TJE C13 -0.659 -1.677 -1.766 ETKDGv2 18
-TJE  P1  0.014  0.125  0.222 ETKDGv2 19
-TJE  O4 -0.152  0.334  1.894 ETKDGv2 20
-TJE C14  1.789  0.137 -0.211 ETKDGv2 21
-TJE C15  2.525  1.358  0.374 ETKDGv2 22
-TJE C16  4.048  1.216  0.166 ETKDGv2 23
-TJE C17  4.841  2.325  0.876 ETKDGv2 24
-TJE C18  6.324  2.111  0.715 ETKDGv2 25
-TJE C19  7.093  1.761  1.763 ETKDGv2 26
-TJE C20  8.546  1.557  1.586 ETKDGv2 27
-TJE C21  9.106  1.723  0.382 ETKDGv2 28
-TJE C22  8.272  2.113 -0.772 ETKDGv2 29
-TJE C23  6.955  2.298 -0.617 ETKDGv2 30
-TJE C24  2.015  2.646 -0.231 ETKDGv2 31
-TJE  O5  2.122  2.898 -1.597 ETKDGv2 32
-TJE  O6  1.482  3.513  0.511 ETKDGv2 33
-TJE  O7 -0.698  1.249 -0.499 ETKDGv2 34
-TJE H10 -3.841  1.205  2.882 ETKDGv2 35
-TJE H11 -3.349  0.636  4.524 ETKDGv2 36
-TJE H12 -5.072  0.486  3.997 ETKDGv2 37
-TJE  H9 -5.166 -0.721  1.517 ETKDGv2 38
-TJE  H8 -4.261 -3.434  2.038 ETKDGv2 39
-TJE  H6 -6.200 -2.897  0.586 ETKDGv2 40
-TJE  H7 -5.048 -4.020 -0.165 ETKDGv2 41
-TJE  H3 -6.656 -0.624 -0.368 ETKDGv2 42
-TJE  H4 -3.621 -3.232 -2.026 ETKDGv2 43
-TJE  H2 -6.486  0.834 -2.279 ETKDGv2 44
-TJE  H5 -3.447 -1.687 -4.027 ETKDGv2 45
-TJE  H1 -5.364  1.327 -4.486 ETKDGv2 46
-TJE H13 -2.725 -0.678 -0.006 ETKDGv2 47
-TJE H14 -0.144 -2.275  0.246 ETKDGv2 48
-TJE H15 -1.211 -0.871 -2.295 ETKDGv2 49
-TJE H16  0.397 -1.682 -2.108 ETKDGv2 50
-TJE H17 -1.112 -2.655 -2.034 ETKDGv2 51
-TJE H18 -1.125  0.441  2.043 ETKDGv2 52
-TJE H19  1.897  0.106 -1.316 ETKDGv2 53
-TJE H20  2.234 -0.794  0.200 ETKDGv2 54
-TJE H21  2.336  1.374  1.472 ETKDGv2 55
-TJE H22  4.378  0.236  0.579 ETKDGv2 56
-TJE H23  4.285  1.217 -0.920 ETKDGv2 57
-TJE H24  4.562  2.338  1.953 ETKDGv2 58
-TJE H25  4.580  3.317  0.452 ETKDGv2 59
-TJE H26  6.661  1.618  2.746 ETKDGv2 60
-TJE H27  9.156  1.272  2.434 ETKDGv2 61
-TJE H28 10.170  1.574  0.252 ETKDGv2 62
-TJE H29  8.729  2.251 -1.744 ETKDGv2 63
-TJE H30  6.351  2.590 -1.467 ETKDGv2 64
-TJE H31  2.543  2.230 -2.230 ETKDGv2 65
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+TJE "Create component" 2014-12-17 EBI  
+TJE "Initial release"  2016-01-20 RCSB 
+# 

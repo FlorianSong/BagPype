@@ -144,15 +144,14 @@ _pdbe_chem_comp_drugbank_classification.description       "This compound belongs
 
 #
 loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-NQ                       NSC-8625   ChEMBL
-NQ        2-Hydroxynaphthoquinone   ChEMBL
-NQ                        Lawsone   ChEMBL
-NQ 2-hydroxy-1,4-naphthalenedione DrugBank
-NQ   2-hydroxy-1,4-naphthoquinone DrugBank
-NQ        2-Hydroxynaphthoquinone DrugBank
+_pdbe_chem_comp_synonyms.comp_id          
+_pdbe_chem_comp_synonyms.name             
+_pdbe_chem_comp_synonyms.provenance       
+_pdbe_chem_comp_synonyms.type             
+NQ                       NSC-8625   ChEMBL "Research Code"
+NQ 2-hydroxy-1,4-naphthalenedione DrugBank               .
+NQ   2-hydroxy-1,4-naphthoquinone DrugBank               .
+NQ        2-Hydroxynaphthoquinone DrugBank               .
 #
 loop_
 _software.name              
@@ -293,23 +292,23 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NQ OAB -1.451  2.165 -0.896 ETKDGv2  1
-NQ CAK -1.238  0.999 -0.468 ETKDGv2  2
-NQ CAM  0.146  0.549 -0.178 ETKDGv2  3
-NQ CAG  1.297  1.465 -0.389 ETKDGv2  4
-NQ CAE  2.542  1.054 -0.127 ETKDGv2  5
-NQ CAD  2.782 -0.313  0.375 ETKDGv2  6
-NQ CAF  1.754 -1.147  0.569 ETKDGv2  7
-NQ CAL  0.366 -0.704  0.281 ETKDGv2  8
-NQ CAJ -0.778 -1.622  0.494 ETKDGv2  9
-NQ OAA -0.591 -2.792  0.921 ETKDGv2 10
-NQ CAH -2.148 -1.165  0.203 ETKDGv2 11
-NQ CAI -2.373  0.072 -0.251 ETKDGv2 12
-NQ OAC -3.682  0.472 -0.516 ETKDGv2 13
-NQ HAG  1.136  2.471 -0.757 ETKDGv2 14
-NQ HAE  3.379  1.723 -0.281 ETKDGv2 15
-NQ HAD  3.792 -0.639  0.585 ETKDGv2 16
-NQ HAF  1.944 -2.147  0.937 ETKDGv2 17
-NQ HAH -2.980 -1.841  0.360 ETKDGv2 18
-NQ HAC -3.896  1.400 -0.861 ETKDGv2 19
+NQ OAB  1.372 -2.388 -0.103 ETKDGv2  1
+NQ CAK  1.200 -1.139 -0.102 ETKDGv2  2
+NQ CAM -0.165 -0.572  0.024 ETKDGv2  3
+NQ CAG -1.345 -1.465  0.150 ETKDGv2  4
+NQ CAE -2.573 -0.948  0.264 ETKDGv2  5
+NQ CAD -2.764  0.515  0.263 ETKDGv2  6
+NQ CAF -1.710  1.330  0.150 ETKDGv2  7
+NQ CAL -0.340  0.769  0.023 ETKDGv2  8
+NQ CAJ  0.833  1.666 -0.103 ETKDGv2  9
+NQ OAA  0.688  2.918 -0.105 ETKDGv2 10
+NQ CAH  2.184  1.091 -0.227 ETKDGv2 11
+NQ CAI  2.365 -0.233 -0.228 ETKDGv2 12
+NQ OAC  3.657 -0.743 -0.347 ETKDGv2 13
+NQ HAG -1.220 -2.541  0.152 ETKDGv2 14
+NQ HAE -3.431 -1.601  0.356 ETKDGv2 15
+NQ HAD -3.761  0.927  0.355 ETKDGv2 16
+NQ HAF -1.864  2.402  0.151 ETKDGv2 17
+NQ HAH  3.038  1.752 -0.319 ETKDGv2 18
+NQ HAC  3.838 -1.740 -0.352 ETKDGv2 19
 #

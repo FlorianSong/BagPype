@@ -1,549 +1,227 @@
 data_ONA
-#
-_chem_comp.id                                        ONA
-_chem_comp.name                                      "3'-O-[2-(METHYLAMINO)BENZOYL]ADENOSINE 5'-(TETRAHYDROGEN TRIPHOSPHATE)"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C18 H23 N6 O14 P3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             "2'(3')-O-(N-METHYLANTHRANILOYL)-ADENOSINE 5'-TRIPHOSPHATE"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2006-05-08
-_chem_comp.pdbx_modified_date                        2012-01-05
-_chem_comp.pdbx_ambiguous_flag                       ?
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            640.328
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         ONA
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2GVZ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    ONA 
+_chem_comp.name                                  
+;3'-O-[2-(METHYLAMINO)BENZOYL]ADENOSINE 5'-(TETRAHYDROGEN TRIPHOSPHATE)
+;
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C18 H23 N6 O14 P3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         
+;2'(3')-O-(N-METHYLANTHRANILOYL)-ADENOSINE 5'-TRIPHOSPHATE
+;
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2006-05-08 
+_chem_comp.pdbx_modified_date                    2012-01-05 
+_chem_comp.pdbx_ambiguous_flag                   ? 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        640.328 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ONA 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2GVZ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ONA    CA7  CA7 C 0 1 N N N 66.475 -13.831 54.267 -6.273  5.409  2.065    CA7 ONA  1
-ONA    NA1  NA1 N 0 1 N N N 65.090 -14.260 54.589 -5.491  4.378  1.379    NA1 ONA  2
-ONA    CA6  CA6 C 0 1 Y N N 64.628 -15.497 54.949 -5.136  4.546  0.047    CA6 ONA  3
-ONA    CA5  CA5 C 0 1 Y N N 65.633 -16.721 55.068 -5.620  5.633 -0.672    CA5 ONA  4
-ONA    CA4  CA4 C 0 1 Y N N 65.005 -18.167 55.288 -5.266  5.798 -1.995    CA4 ONA  5
-ONA    CA3  CA3 C 0 1 Y N N 63.510 -18.206 55.756 -4.428  4.885 -2.618    CA3 ONA  6
-ONA    CA2  CA2 C 0 1 Y N N 62.708 -16.875 55.575 -3.939  3.802 -1.921    CA2 ONA  7
-ONA    CA1  CA1 C 0 1 Y N N 63.225 -15.628 55.204 -4.283  3.624 -0.578    CA1 ONA  8
-ONA     CA   CA C 0 1 N N N 62.201 -14.479 55.109 -3.758  2.471  0.174     CA ONA  9
-ONA     OA   OA O 0 1 N N N 62.203 -13.399 56.061 -4.141  2.260  1.308     OA ONA 10
-ONA  "O3'"  O3* O 0 1 N N N 61.307 -14.582 54.078 -2.852  1.651 -0.394  "O3'" ONA 11
-ONA  "C3'"  C3* C 0 1 N N S 60.313 -13.554 53.683 -2.379  0.536  0.406  "C3'" ONA 12
-ONA  "C2'"  C2* C 0 1 N N R 59.556 -14.096 52.481 -3.252 -0.715  0.161  "C2'" ONA 13
-ONA  "O2'"  O2* O 0 1 N N N 60.447 -14.710 51.547 -4.284 -0.429 -0.786  "O2'" ONA 14
-ONA  "C4'"  C4* C 0 1 N N R 59.171 -13.413 54.686 -0.967  0.104 -0.049  "C4'" ONA 15
-ONA  "C5'"  C5* C 0 1 N N N 58.405 -12.048 54.874  0.097  0.710  0.868  "C5'" ONA 16
-ONA  "O5'"  O5* O 0 1 N N N 58.783 -10.919 54.395  1.396  0.395  0.363  "O5'" ONA 17
-ONA     PA   PA P 0 1 N N R 57.536  -9.879 54.544  2.755  0.875  1.080     PA ONA 18
-ONA    O3A  O3A O 0 1 N N N 58.055  -8.788 53.543  2.733  2.346  1.246    O3A ONA 19
-ONA    O2A  O2A O 0 1 N N N 56.228 -10.484 54.233  2.876  0.174  2.524    O2A ONA 20
-ONA    O1A  O1A O 0 1 N N N 57.773  -9.635 56.079  4.017  0.456  0.173    O1A ONA 21
-ONA     PB   PB P 0 1 N N R 56.789  -8.960 57.077  5.569  0.884  0.150     PB ONA 22
-ONA    O3B  O3B O 0 1 N N N 55.616 -10.068 56.929  6.098  0.895  1.532    O3B ONA 23
-ONA    O2B  O2B O 0 1 N N N 56.128  -7.593 56.890  5.712  2.353 -0.491    O2B ONA 24
-ONA    O1B  O1B O 0 1 N N N 57.688  -9.353 58.265  6.404 -0.171 -0.735    O1B ONA 25
-ONA     PG   PG P 0 1 N N N 58.456  -8.158 58.876  7.962 -0.565 -0.832     PG ONA 26
-ONA    O3G  O3G O 0 1 N N N 58.949  -7.155 57.684  8.520 -0.707  0.531    O3G ONA 27
-ONA    O1G  O1G O 0 1 N N N 57.355  -7.464 59.843  8.115 -1.959 -1.623    O1G ONA 28
-ONA    O2G  O2G O 0 1 N N N 59.630  -8.654 59.639  8.759  0.590 -1.621    O2G ONA 29
-ONA  "O4'"  O4* O 0 1 N N N 58.163 -14.444 54.343 -0.968 -1.336  0.064  "O4'" ONA 30
-ONA  "C1'"  C1* C 0 1 N N R 58.619 -15.115 53.132 -2.264 -1.755 -0.414  "C1'" ONA 31
-ONA     N9   N9 N 0 1 Y N N 57.475 -15.550 52.253 -2.585 -3.094  0.088     N9 ONA 32
-ONA     C8   C8 C 0 1 Y N N 57.203 -16.836 51.936 -2.022 -3.706  1.169     C8 ONA 33
-ONA     N7   N7 N 0 1 Y N N 56.140 -16.894 51.130 -2.541 -4.889  1.329     N7 ONA 34
-ONA     C5   C5 C 0 1 Y N N 55.723 -15.653 50.925 -3.466 -5.111  0.365     C5 ONA 35
-ONA     C4   C4 C 0 1 Y N N 56.574 -14.778 51.644 -3.510 -3.959 -0.439     C4 ONA 36
-ONA     N3   N3 N 0 1 Y N N 56.395 -13.419 51.625 -4.353 -3.920 -1.465     N3 ONA 37
-ONA     C2   C2 C 0 1 Y N N 55.410 -12.808 50.933 -5.141 -4.942 -1.726     C2 ONA 38
-ONA     N1   N1 N 0 1 Y N N 54.516 -13.624 50.183 -5.138 -6.043 -0.998     N1 ONA 39
-ONA     C6   C6 C 0 1 Y N N 54.675 -15.060 50.177 -4.322 -6.177  0.043     C6 ONA 40
-ONA     N6   N6 N 0 1 N N N 53.836 -15.819 49.470 -4.328 -7.334  0.802     N6 ONA 41
-ONA   HA71 1HA7 H 0 0 N N N 67.187 -14.585 54.634 -5.721  6.349  2.056   HA71 ONA 42
-ONA   HA72 2HA7 H 0 0 N N N 66.681 -12.865 54.751 -7.226  5.543  1.554   HA72 ONA 43
-ONA   HA73 3HA7 H 0 0 N N N 66.583 -13.725 53.177 -6.453  5.103  3.095   HA73 ONA 44
-ONA    HA1  HA1 H 0 1 N N N 64.847 -13.686 55.371 -5.221  3.577  1.855    HA1 ONA 45
-ONA    HA5  HA5 H 0 1 N N N 66.701 -16.578 55.002 -6.273  6.348 -0.195    HA5 ONA 46
-ONA    HA4  HA4 H 0 1 N N N 65.576 -19.069 55.124 -5.645  6.643 -2.550    HA4 ONA 47
-ONA    HA3  HA3 H 0 1 N N N 63.062 -19.094 56.176 -4.158  5.024 -3.654    HA3 ONA 48
-ONA    HA2  HA2 H 0 1 N N N 61.644 -16.923 55.755 -3.287  3.094 -2.411    HA2 ONA 49
-ONA  "H3'"  H3* H 0 1 N N N 60.876 -12.618 53.553 -2.378  0.799  1.464  "H3'" ONA 50
-ONA     H1   H1 H 0 1 N N N 59.028 -13.328 51.897 -3.682 -1.071  1.097     H1 ONA 51
-ONA  "H2'"  H2* H 0 1 N N N 59.997 -14.846 50.722 -4.862 -1.180 -0.977  "H2'" ONA 52
-ONA  "H4'"  H4* H 0 1 N N N 59.694 -13.510 55.649 -0.793  0.404 -1.082  "H4'" ONA 53
-ONA "H5'1" 1H5* H 0 0 N N N 58.547 -11.876 55.951 -0.027  1.793  0.902 "H5'1" ONA 54
-ONA "H5'2" 2H5* H 0 0 N N N 57.416 -12.222 54.426 -0.012  0.300  1.872 "H5'2" ONA 55
-ONA    H2A  H2A H 0 1 N N N 55.740 -10.614 55.037  2.896 -0.792  2.492    H2A ONA 56
-ONA    H2B  H2B H 0 1 N N N 55.991  -7.188 57.738  5.384  2.420 -1.399    H2B ONA 57
-ONA    H1G  H1G H 0 1 N N N 57.731  -7.328 60.705  9.030 -2.258 -1.719    H1G ONA 58
-ONA    H2G  H2G H 0 1 N N N 60.369  -8.760 59.051  8.446  0.738 -2.524    H2G ONA 59
-ONA  "H1'"  H1* H 0 1 N N N 59.139 -16.063 53.334 -2.290 -1.742 -1.503  "H1'" ONA 60
-ONA     H8   H8 H 0 1 N N N 57.764 -17.691 52.284 -1.259 -3.274  1.798     H8 ONA 61
-ONA     H2   H2 H 0 1 N N N 55.303 -11.733 50.948 -5.815 -4.877 -2.568     H2 ONA 62
-ONA   HN61 1HN6 H 0 0 N N N 53.575 -15.337 48.634 -3.736 -7.416  1.567   HN61 ONA 63
-ONA   HN62 2HN6 H 0 0 N N N 53.019 -16.009 50.014 -4.924 -8.064  0.570   HN62 ONA 64
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ONA CA7    CA7  C 0 1 N N N 66.475 -13.831 54.267 -6.273 5.409  2.065  CA7    ONA 1  
+ONA NA1    NA1  N 0 1 N N N 65.090 -14.260 54.589 -5.491 4.378  1.379  NA1    ONA 2  
+ONA CA6    CA6  C 0 1 Y N N 64.628 -15.497 54.949 -5.136 4.546  0.047  CA6    ONA 3  
+ONA CA5    CA5  C 0 1 Y N N 65.633 -16.721 55.068 -5.620 5.633  -0.672 CA5    ONA 4  
+ONA CA4    CA4  C 0 1 Y N N 65.005 -18.167 55.288 -5.266 5.798  -1.995 CA4    ONA 5  
+ONA CA3    CA3  C 0 1 Y N N 63.510 -18.206 55.756 -4.428 4.885  -2.618 CA3    ONA 6  
+ONA CA2    CA2  C 0 1 Y N N 62.708 -16.875 55.575 -3.939 3.802  -1.921 CA2    ONA 7  
+ONA CA1    CA1  C 0 1 Y N N 63.225 -15.628 55.204 -4.283 3.624  -0.578 CA1    ONA 8  
+ONA CA     CA   C 0 1 N N N 62.201 -14.479 55.109 -3.758 2.471  0.174  CA     ONA 9  
+ONA OA     OA   O 0 1 N N N 62.203 -13.399 56.061 -4.141 2.260  1.308  OA     ONA 10 
+ONA "O3'"  O3*  O 0 1 N N N 61.307 -14.582 54.078 -2.852 1.651  -0.394 "O3'"  ONA 11 
+ONA "C3'"  C3*  C 0 1 N N S 60.313 -13.554 53.683 -2.379 0.536  0.406  "C3'"  ONA 12 
+ONA "C2'"  C2*  C 0 1 N N R 59.556 -14.096 52.481 -3.252 -0.715 0.161  "C2'"  ONA 13 
+ONA "O2'"  O2*  O 0 1 N N N 60.447 -14.710 51.547 -4.284 -0.429 -0.786 "O2'"  ONA 14 
+ONA "C4'"  C4*  C 0 1 N N R 59.171 -13.413 54.686 -0.967 0.104  -0.049 "C4'"  ONA 15 
+ONA "C5'"  C5*  C 0 1 N N N 58.405 -12.048 54.874 0.097  0.710  0.868  "C5'"  ONA 16 
+ONA "O5'"  O5*  O 0 1 N N N 58.783 -10.919 54.395 1.396  0.395  0.363  "O5'"  ONA 17 
+ONA PA     PA   P 0 1 N N R 57.536 -9.879  54.544 2.755  0.875  1.080  PA     ONA 18 
+ONA O3A    O3A  O 0 1 N N N 58.055 -8.788  53.543 2.733  2.346  1.246  O3A    ONA 19 
+ONA O2A    O2A  O 0 1 N N N 56.228 -10.484 54.233 2.876  0.174  2.524  O2A    ONA 20 
+ONA O1A    O1A  O 0 1 N N N 57.773 -9.635  56.079 4.017  0.456  0.173  O1A    ONA 21 
+ONA PB     PB   P 0 1 N N R 56.789 -8.960  57.077 5.569  0.884  0.150  PB     ONA 22 
+ONA O3B    O3B  O 0 1 N N N 55.616 -10.068 56.929 6.098  0.895  1.532  O3B    ONA 23 
+ONA O2B    O2B  O 0 1 N N N 56.128 -7.593  56.890 5.712  2.353  -0.491 O2B    ONA 24 
+ONA O1B    O1B  O 0 1 N N N 57.688 -9.353  58.265 6.404  -0.171 -0.735 O1B    ONA 25 
+ONA PG     PG   P 0 1 N N N 58.456 -8.158  58.876 7.962  -0.565 -0.832 PG     ONA 26 
+ONA O3G    O3G  O 0 1 N N N 58.949 -7.155  57.684 8.520  -0.707 0.531  O3G    ONA 27 
+ONA O1G    O1G  O 0 1 N N N 57.355 -7.464  59.843 8.115  -1.959 -1.623 O1G    ONA 28 
+ONA O2G    O2G  O 0 1 N N N 59.630 -8.654  59.639 8.759  0.590  -1.621 O2G    ONA 29 
+ONA "O4'"  O4*  O 0 1 N N N 58.163 -14.444 54.343 -0.968 -1.336 0.064  "O4'"  ONA 30 
+ONA "C1'"  C1*  C 0 1 N N R 58.619 -15.115 53.132 -2.264 -1.755 -0.414 "C1'"  ONA 31 
+ONA N9     N9   N 0 1 Y N N 57.475 -15.550 52.253 -2.585 -3.094 0.088  N9     ONA 32 
+ONA C8     C8   C 0 1 Y N N 57.203 -16.836 51.936 -2.022 -3.706 1.169  C8     ONA 33 
+ONA N7     N7   N 0 1 Y N N 56.140 -16.894 51.130 -2.541 -4.889 1.329  N7     ONA 34 
+ONA C5     C5   C 0 1 Y N N 55.723 -15.653 50.925 -3.466 -5.111 0.365  C5     ONA 35 
+ONA C4     C4   C 0 1 Y N N 56.574 -14.778 51.644 -3.510 -3.959 -0.439 C4     ONA 36 
+ONA N3     N3   N 0 1 Y N N 56.395 -13.419 51.625 -4.353 -3.920 -1.465 N3     ONA 37 
+ONA C2     C2   C 0 1 Y N N 55.410 -12.808 50.933 -5.141 -4.942 -1.726 C2     ONA 38 
+ONA N1     N1   N 0 1 Y N N 54.516 -13.624 50.183 -5.138 -6.043 -0.998 N1     ONA 39 
+ONA C6     C6   C 0 1 Y N N 54.675 -15.060 50.177 -4.322 -6.177 0.043  C6     ONA 40 
+ONA N6     N6   N 0 1 N N N 53.836 -15.819 49.470 -4.328 -7.334 0.802  N6     ONA 41 
+ONA HA71   1HA7 H 0 0 N N N 67.187 -14.585 54.634 -5.721 6.349  2.056  HA71   ONA 42 
+ONA HA72   2HA7 H 0 0 N N N 66.681 -12.865 54.751 -7.226 5.543  1.554  HA72   ONA 43 
+ONA HA73   3HA7 H 0 0 N N N 66.583 -13.725 53.177 -6.453 5.103  3.095  HA73   ONA 44 
+ONA HA1    HA1  H 0 1 N N N 64.847 -13.686 55.371 -5.221 3.577  1.855  HA1    ONA 45 
+ONA HA5    HA5  H 0 1 N N N 66.701 -16.578 55.002 -6.273 6.348  -0.195 HA5    ONA 46 
+ONA HA4    HA4  H 0 1 N N N 65.576 -19.069 55.124 -5.645 6.643  -2.550 HA4    ONA 47 
+ONA HA3    HA3  H 0 1 N N N 63.062 -19.094 56.176 -4.158 5.024  -3.654 HA3    ONA 48 
+ONA HA2    HA2  H 0 1 N N N 61.644 -16.923 55.755 -3.287 3.094  -2.411 HA2    ONA 49 
+ONA "H3'"  H3*  H 0 1 N N N 60.876 -12.618 53.553 -2.378 0.799  1.464  "H3'"  ONA 50 
+ONA H1     H1   H 0 1 N N N 59.028 -13.328 51.897 -3.682 -1.071 1.097  H1     ONA 51 
+ONA "H2'"  H2*  H 0 1 N N N 59.997 -14.846 50.722 -4.862 -1.180 -0.977 "H2'"  ONA 52 
+ONA "H4'"  H4*  H 0 1 N N N 59.694 -13.510 55.649 -0.793 0.404  -1.082 "H4'"  ONA 53 
+ONA "H5'1" 1H5* H 0 0 N N N 58.547 -11.876 55.951 -0.027 1.793  0.902  "H5'1" ONA 54 
+ONA "H5'2" 2H5* H 0 0 N N N 57.416 -12.222 54.426 -0.012 0.300  1.872  "H5'2" ONA 55 
+ONA H2A    H2A  H 0 1 N N N 55.740 -10.614 55.037 2.896  -0.792 2.492  H2A    ONA 56 
+ONA H2B    H2B  H 0 1 N N N 55.991 -7.188  57.738 5.384  2.420  -1.399 H2B    ONA 57 
+ONA H1G    H1G  H 0 1 N N N 57.731 -7.328  60.705 9.030  -2.258 -1.719 H1G    ONA 58 
+ONA H2G    H2G  H 0 1 N N N 60.369 -8.760  59.051 8.446  0.738  -2.524 H2G    ONA 59 
+ONA "H1'"  H1*  H 0 1 N N N 59.139 -16.063 53.334 -2.290 -1.742 -1.503 "H1'"  ONA 60 
+ONA H8     H8   H 0 1 N N N 57.764 -17.691 52.284 -1.259 -3.274 1.798  H8     ONA 61 
+ONA H2     H2   H 0 1 N N N 55.303 -11.733 50.948 -5.815 -4.877 -2.568 H2     ONA 62 
+ONA HN61   1HN6 H 0 0 N N N 53.575 -15.337 48.634 -3.736 -7.416 1.567  HN61   ONA 63 
+ONA HN62   2HN6 H 0 0 N N N 53.019 -16.009 50.014 -4.924 -8.064 0.570  HN62   ONA 64 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ONA   CA7    NA1 SING N N  1
-ONA   CA7   HA71 SING N N  2
-ONA   CA7   HA72 SING N N  3
-ONA   CA7   HA73 SING N N  4
-ONA   NA1    CA6 SING N N  5
-ONA   NA1    HA1 SING N N  6
-ONA   CA6    CA5 SING Y N  7
-ONA   CA6    CA1 DOUB Y N  8
-ONA   CA5    CA4 DOUB Y N  9
-ONA   CA5    HA5 SING N N 10
-ONA   CA4    CA3 SING Y N 11
-ONA   CA4    HA4 SING N N 12
-ONA   CA3    CA2 DOUB Y N 13
-ONA   CA3    HA3 SING N N 14
-ONA   CA2    CA1 SING Y N 15
-ONA   CA2    HA2 SING N N 16
-ONA   CA1     CA SING N N 17
-ONA    CA     OA DOUB N N 18
-ONA    CA  "O3'" SING N N 19
-ONA "O3'"  "C3'" SING N N 20
-ONA "C3'"  "C2'" SING N N 21
-ONA "C3'"  "C4'" SING N N 22
-ONA "C3'"  "H3'" SING N N 23
-ONA "C2'"  "O2'" SING N N 24
-ONA "C2'"  "C1'" SING N N 25
-ONA "C2'"     H1 SING N N 26
-ONA "O2'"  "H2'" SING N N 27
-ONA "C4'"  "C5'" SING N N 28
-ONA "C4'"  "O4'" SING N N 29
-ONA "C4'"  "H4'" SING N N 30
-ONA "C5'"  "O5'" SING N N 31
-ONA "C5'" "H5'1" SING N N 32
-ONA "C5'" "H5'2" SING N N 33
-ONA "O5'"     PA SING N N 34
-ONA    PA    O3A DOUB N N 35
-ONA    PA    O2A SING N N 36
-ONA    PA    O1A SING N N 37
-ONA   O2A    H2A SING N N 38
-ONA   O1A     PB SING N N 39
-ONA    PB    O3B DOUB N N 40
-ONA    PB    O2B SING N N 41
-ONA    PB    O1B SING N N 42
-ONA   O2B    H2B SING N N 43
-ONA   O1B     PG SING N N 44
-ONA    PG    O3G DOUB N N 45
-ONA    PG    O1G SING N N 46
-ONA    PG    O2G SING N N 47
-ONA   O1G    H1G SING N N 48
-ONA   O2G    H2G SING N N 49
-ONA "O4'"  "C1'" SING N N 50
-ONA "C1'"     N9 SING N N 51
-ONA "C1'"  "H1'" SING N N 52
-ONA    N9     C8 SING Y N 53
-ONA    N9     C4 SING Y N 54
-ONA    C8     N7 DOUB Y N 55
-ONA    C8     H8 SING N N 56
-ONA    N7     C5 SING Y N 57
-ONA    C5     C4 SING Y N 58
-ONA    C5     C6 DOUB Y N 59
-ONA    C4     N3 DOUB Y N 60
-ONA    N3     C2 SING Y N 61
-ONA    C2     N1 DOUB Y N 62
-ONA    C2     H2 SING N N 63
-ONA    N1     C6 SING Y N 64
-ONA    C6     N6 SING N N 65
-ONA    N6   HN61 SING N N 66
-ONA    N6   HN62 SING N N 67
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ONA CA7   NA1    SING N N 1  
+ONA CA7   HA71   SING N N 2  
+ONA CA7   HA72   SING N N 3  
+ONA CA7   HA73   SING N N 4  
+ONA NA1   CA6    SING N N 5  
+ONA NA1   HA1    SING N N 6  
+ONA CA6   CA5    SING Y N 7  
+ONA CA6   CA1    DOUB Y N 8  
+ONA CA5   CA4    DOUB Y N 9  
+ONA CA5   HA5    SING N N 10 
+ONA CA4   CA3    SING Y N 11 
+ONA CA4   HA4    SING N N 12 
+ONA CA3   CA2    DOUB Y N 13 
+ONA CA3   HA3    SING N N 14 
+ONA CA2   CA1    SING Y N 15 
+ONA CA2   HA2    SING N N 16 
+ONA CA1   CA     SING N N 17 
+ONA CA    OA     DOUB N N 18 
+ONA CA    "O3'"  SING N N 19 
+ONA "O3'" "C3'"  SING N N 20 
+ONA "C3'" "C2'"  SING N N 21 
+ONA "C3'" "C4'"  SING N N 22 
+ONA "C3'" "H3'"  SING N N 23 
+ONA "C2'" "O2'"  SING N N 24 
+ONA "C2'" "C1'"  SING N N 25 
+ONA "C2'" H1     SING N N 26 
+ONA "O2'" "H2'"  SING N N 27 
+ONA "C4'" "C5'"  SING N N 28 
+ONA "C4'" "O4'"  SING N N 29 
+ONA "C4'" "H4'"  SING N N 30 
+ONA "C5'" "O5'"  SING N N 31 
+ONA "C5'" "H5'1" SING N N 32 
+ONA "C5'" "H5'2" SING N N 33 
+ONA "O5'" PA     SING N N 34 
+ONA PA    O3A    DOUB N N 35 
+ONA PA    O2A    SING N N 36 
+ONA PA    O1A    SING N N 37 
+ONA O2A   H2A    SING N N 38 
+ONA O1A   PB     SING N N 39 
+ONA PB    O3B    DOUB N N 40 
+ONA PB    O2B    SING N N 41 
+ONA PB    O1B    SING N N 42 
+ONA O2B   H2B    SING N N 43 
+ONA O1B   PG     SING N N 44 
+ONA PG    O3G    DOUB N N 45 
+ONA PG    O1G    SING N N 46 
+ONA PG    O2G    SING N N 47 
+ONA O1G   H1G    SING N N 48 
+ONA O2G   H2G    SING N N 49 
+ONA "O4'" "C1'"  SING N N 50 
+ONA "C1'" N9     SING N N 51 
+ONA "C1'" "H1'"  SING N N 52 
+ONA N9    C8     SING Y N 53 
+ONA N9    C4     SING Y N 54 
+ONA C8    N7     DOUB Y N 55 
+ONA C8    H8     SING N N 56 
+ONA N7    C5     SING Y N 57 
+ONA C5    C4     SING Y N 58 
+ONA C5    C6     DOUB Y N 59 
+ONA C4    N3     DOUB Y N 60 
+ONA N3    C2     SING Y N 61 
+ONA C2    N1     DOUB Y N 62 
+ONA C2    H2     SING N N 63 
+ONA N1    C6     SING Y N 64 
+ONA C6    N6     SING N N 65 
+ONA N6    HN61   SING N N 66 
+ONA N6    HN62   SING N N 67 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ONA           SMILES              ACDLabs 10.04                                                                                                                                                                                     O=P(O)(O)OP(=O)(O)OP(=O)(O)OCC4OC(n2cnc1c(ncnc12)N)C(O)C4OC(=O)c3ccccc3NC
-ONA            InChI                InChI  1.03 InChI=1S/C18H23N6O14P3/c1-20-10-5-3-2-4-9(10)18(26)36-14-11(6-34-40(30,31)38-41(32,33)37-39(27,28)29)35-17(13(14)25)24-8-23-12-15(19)21-7-22-16(12)24/h2-5,7-8,11,13-14,17,20,25H,6H2,1H3,(H,30,31)(H,32,33)(H2,19,21,22)(H2,27,28,29)/t11-,13-,14-,17-/m1/s1
-ONA         InChIKey                InChI  1.03                                                                                                                                                                                                                                   YAPJXKKTHXODSV-LSCFUAHRSA-N
-ONA SMILES_CANONICAL               CACTVS 3.385                                                                                                                                                            CNc1ccccc1C(=O)O[C@H]2[C@@H](O)[C@@H](O[C@@H]2CO[P](O)(=O)O[P](O)(=O)O[P](O)(O)=O)n3cnc4c(N)ncnc34
-ONA           SMILES               CACTVS 3.385                                                                                                                                                                   CNc1ccccc1C(=O)O[CH]2[CH](O)[CH](O[CH]2CO[P](O)(=O)O[P](O)(=O)O[P](O)(O)=O)n3cnc4c(N)ncnc34
-ONA SMILES_CANONICAL "OpenEye OEToolkits" 1.7.5                                                                                                                                                              CNc1ccccc1C(=O)O[C@@H]2[C@H](O[C@H]([C@@H]2O)n3cnc4c3ncnc4N)CO[P@@](=O)(O)O[P@](=O)(O)OP(=O)(O)O
-ONA           SMILES "OpenEye OEToolkits" 1.7.5                                                                                                                                                                                       CNc1ccccc1C(=O)OC2C(OC(C2O)n3cnc4c3ncnc4N)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ONA SMILES           ACDLabs              10.04 "O=P(O)(O)OP(=O)(O)OP(=O)(O)OCC4OC(n2cnc1c(ncnc12)N)C(O)C4OC(=O)c3ccccc3NC" 
+ONA InChI            InChI                1.03  
+"InChI=1S/C18H23N6O14P3/c1-20-10-5-3-2-4-9(10)18(26)36-14-11(6-34-40(30,31)38-41(32,33)37-39(27,28)29)35-17(13(14)25)24-8-23-12-15(19)21-7-22-16(12)24/h2-5,7-8,11,13-14,17,20,25H,6H2,1H3,(H,30,31)(H,32,33)(H2,19,21,22)(H2,27,28,29)/t11-,13-,14-,17-/m1/s1" 
+ONA InChIKey         InChI                1.03  YAPJXKKTHXODSV-LSCFUAHRSA-N 
+ONA SMILES_CANONICAL CACTVS               3.385 "CNc1ccccc1C(=O)O[C@H]2[C@@H](O)[C@@H](O[C@@H]2CO[P](O)(=O)O[P](O)(=O)O[P](O)(O)=O)n3cnc4c(N)ncnc34" 
+ONA SMILES           CACTVS               3.385 "CNc1ccccc1C(=O)O[CH]2[CH](O)[CH](O[CH]2CO[P](O)(=O)O[P](O)(=O)O[P](O)(O)=O)n3cnc4c(N)ncnc34" 
+ONA SMILES_CANONICAL "OpenEye OEToolkits" 1.7.5 "CNc1ccccc1C(=O)O[C@@H]2[C@H](O[C@H]([C@@H]2O)n3cnc4c3ncnc4N)CO[P@@](=O)(O)O[P@](=O)(O)OP(=O)(O)O" 
+ONA SMILES           "OpenEye OEToolkits" 1.7.5 "CNc1ccccc1C(=O)OC2C(OC(C2O)n3cnc4c3ncnc4N)COP(=O)(O)OP(=O)(O)OP(=O)(O)O" 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-ONA "SYSTEMATIC NAME"              ACDLabs 10.04                                                                         "3'-O-{[2-(methylamino)phenyl]carbonyl}adenosine 5'-(tetrahydrogen triphosphate)"
-ONA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-2-[[hydroxy-(hydroxy-phosphonooxy-phosphoryl)oxy-phosphoryl]oxymethyl]oxolan-3-yl] 2-methylaminobenzoate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ONA "SYSTEMATIC NAME" ACDLabs              10.04 
+;3'-O-{[2-(methylamino)phenyl]carbonyl}adenosine 5'-(tetrahydrogen triphosphate)
+;
+ONA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-2-[[hydroxy-(hydroxy-phosphonooxy-phosphoryl)oxy-phosphoryl]oxymethyl]oxolan-3-yl] 2-methylaminobenzoate" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ONA   "Create component" 2006-05-08 RCSB
-ONA  "Modify descriptor" 2011-06-04 RCSB
-ONA  "Modify descriptor" 2012-01-05 RCSB
-ONA "Modify coordinates" 2012-01-05 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ONA   CA7 C 17.461  0.193  1
-ONA   NA1 N 16.092  0.806  2
-ONA   CA6 C 15.938  2.298  3
-ONA   CA5 C 17.152  3.177  4
-ONA   CA4 C 16.998  4.669  5
-ONA   CA3 C 15.629  5.282  6
-ONA   CA2 C 14.414  4.402  7
-ONA   CA1 C 14.568  2.910  8
-ONA    CA C 13.353  2.030  9
-ONA    OA O 11.984  2.643 10
-ONA "O3'" O 13.507  0.538 11
-ONA "C3'" C 12.292 -0.341 12
-ONA "C2'" C 12.290 -1.841 13
-ONA "O2'" O 13.502 -2.725 14
-ONA "C4'" C 10.867  0.125 15
-ONA "C5'" C 10.405  1.552 16
-ONA "O5'" O  8.939  1.867 17
-ONA    PA P  8.478  3.294 18
-ONA   O3A O  7.051  2.833 19
-ONA   O2A O  9.905  3.755 20
-ONA   O1A O  8.017  4.721 21
-ONA    PB P  6.550  5.036 22
-ONA   O3B O  6.864  6.503 23
-ONA   O2B O  6.236  3.569 24
-ONA   O1B O  5.083  5.350 25
-ONA    PG P  4.622  6.778 26
-ONA   O3G O  4.161  8.205 27
-ONA   O1G O  3.195  6.317 28
-ONA   O2G O  6.050  7.239 29
-ONA "O4'" O  9.983 -1.087 30
-ONA "C1'" C 10.862 -2.302 31
-ONA    N9 N 10.396 -3.728 32
-ONA    C8 C 11.272 -4.935 33
-ONA    N7 N 10.396 -6.142 34
-ONA    C5 C  8.977 -5.685 35
-ONA    C4 C  8.977 -4.185 36
-ONA    N3 N  7.678 -3.435 37
-ONA    C2 C  6.379 -4.185 38
-ONA    N1 N  6.379 -5.685 39
-ONA    C6 C  7.678 -6.435 40
-ONA    N6 N  7.678 -7.935 41
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ONA   CA7   NA1 SINGLE       NONE  1
-ONA   NA1   CA6 SINGLE       NONE  2
-ONA   CA6   CA5 DOUBLE       NONE  3
-ONA   CA6   CA1 SINGLE       NONE  4
-ONA   CA5   CA4 SINGLE       NONE  5
-ONA   CA4   CA3 DOUBLE       NONE  6
-ONA   CA3   CA2 SINGLE       NONE  7
-ONA   CA2   CA1 DOUBLE       NONE  8
-ONA   CA1    CA SINGLE       NONE  9
-ONA    CA    OA DOUBLE       NONE 10
-ONA    CA "O3'" SINGLE       NONE 11
-ONA "O3'" "C3'" SINGLE  BEGINDASH 12
-ONA "C3'" "C2'" SINGLE       NONE 13
-ONA "C3'" "C4'" SINGLE       NONE 14
-ONA "C2'" "O2'" SINGLE BEGINWEDGE 15
-ONA "C2'" "C1'" SINGLE       NONE 16
-ONA "C4'" "C5'" SINGLE  BEGINDASH 17
-ONA "C4'" "O4'" SINGLE       NONE 18
-ONA "C5'" "O5'" SINGLE       NONE 19
-ONA "O5'"    PA SINGLE       NONE 20
-ONA    PA   O3A DOUBLE       NONE 21
-ONA    PA   O2A SINGLE BEGINWEDGE 22
-ONA    PA   O1A SINGLE       NONE 23
-ONA   O1A    PB SINGLE       NONE 24
-ONA    PB   O3B DOUBLE       NONE 25
-ONA    PB   O2B SINGLE  BEGINDASH 26
-ONA    PB   O1B SINGLE       NONE 27
-ONA   O1B    PG SINGLE       NONE 28
-ONA    PG   O3G DOUBLE       NONE 29
-ONA    PG   O1G SINGLE       NONE 30
-ONA    PG   O2G SINGLE       NONE 31
-ONA "O4'" "C1'" SINGLE       NONE 32
-ONA "C1'"    N9 SINGLE  BEGINDASH 33
-ONA    N9    C8 SINGLE       NONE 34
-ONA    N9    C4 SINGLE       NONE 35
-ONA    C8    N7 DOUBLE       NONE 36
-ONA    N7    C5 SINGLE       NONE 37
-ONA    C5    C4 DOUBLE       NONE 38
-ONA    C5    C6 SINGLE       NONE 39
-ONA    C4    N3 SINGLE       NONE 40
-ONA    N3    C2 DOUBLE       NONE 41
-ONA    C2    N1 SINGLE       NONE 42
-ONA    N1    C6 DOUBLE       NONE 43
-ONA    C6    N6 SINGLE       NONE 44
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-ONA MurckoScaffold S1 scaffold O=C(O[C@H]1CO[C@@H](n2cnc3cncnc32)C1)c1ccccc1 InChI=1S/C16H14N4O3/c21-16(11-4-2-1-3-5-11)23-12-6-14(22-8-12)20-10-19-13-7-17-9-18-15(13)20/h1-5,7,9-10,12,14H,6,8H2/t12-,14-/m1/s1 DBTLDMDEXJWFQK-TZMCWYRMSA-N
-ONA        adenine F1 fragment                             Nc1ncnc2nc[nH]c12                                                                      InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-ONA      imidazole F2 fragment                                    c1c[nH]cn1                                                                                           InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-ONA         phenyl F3 fragment                                      c1ccccc1                                                                                                   InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-ONA      phosphate F4 fragment                                    O=P(O)(O)O                                                                                              InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-ONA         purine F5 fragment                              c1ncc2[nH]cnc2n1                                                                             InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-ONA     pyrimidine F6 fragment                                      c1cncnc1                                                                                                 InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-ONA         ribose F7 fragment                                 OCC1OCC(O)C1O                                                                                    InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ONA    N1 F1 1
-ONA    C6 F1 1
-ONA    C5 F1 1
-ONA    C4 F1 1
-ONA    N3 F1 1
-ONA    C2 F1 1
-ONA    N9 F1 1
-ONA    C8 F1 1
-ONA    N7 F1 1
-ONA    N6 F1 1
-ONA    C5 F2 1
-ONA    C4 F2 1
-ONA    N9 F2 1
-ONA    C8 F2 1
-ONA    N7 F2 1
-ONA   CA6 F3 1
-ONA   CA5 F3 1
-ONA   CA4 F3 1
-ONA   CA3 F3 1
-ONA   CA2 F3 1
-ONA   CA1 F3 1
-ONA "O5'" F4 1
-ONA    PA F4 1
-ONA   O3A F4 1
-ONA   O2A F4 1
-ONA   O1A F4 1
-ONA   O1A F4 2
-ONA    PB F4 2
-ONA   O3B F4 2
-ONA   O2B F4 2
-ONA   O1B F4 2
-ONA   O1B F4 3
-ONA    PG F4 3
-ONA   O3G F4 3
-ONA   O1G F4 3
-ONA   O2G F4 3
-ONA    N7 F5 1
-ONA    C8 F5 1
-ONA    N9 F5 1
-ONA    C4 F5 1
-ONA    C5 F5 1
-ONA    C6 F5 1
-ONA    N1 F5 1
-ONA    C2 F5 1
-ONA    N3 F5 1
-ONA    C5 F6 1
-ONA    C4 F6 1
-ONA    N3 F6 1
-ONA    C2 F6 1
-ONA    N1 F6 1
-ONA    C6 F6 1
-ONA "C2'" F7 1
-ONA "C3'" F7 1
-ONA "C4'" F7 1
-ONA "O4'" F7 1
-ONA "C1'" F7 1
-ONA "C5'" F7 1
-ONA "O5'" F7 1
-ONA "O3'" F7 1
-ONA "O2'" F7 1
-ONA   CA6 S1 1
-ONA   CA5 S1 1
-ONA   CA4 S1 1
-ONA   CA3 S1 1
-ONA   CA2 S1 1
-ONA   CA1 S1 1
-ONA    CA S1 1
-ONA    OA S1 1
-ONA "O3'" S1 1
-ONA "C3'" S1 1
-ONA "C2'" S1 1
-ONA "C4'" S1 1
-ONA "O4'" S1 1
-ONA "C1'" S1 1
-ONA    N9 S1 1
-ONA    C8 S1 1
-ONA    N7 S1 1
-ONA    C5 S1 1
-ONA    C4 S1 1
-ONA    N3 S1 1
-ONA    C2 S1 1
-ONA    N1 S1 1
-ONA    C6 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ONA
-_pdbe_chem_comp_rdkit_properties.exactmw                               640.049
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           20
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           8
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     18
-_pdbe_chem_comp_rdkit_properties.NumHBD                                7
-_pdbe_chem_comp_rdkit_properties.NumHBA                                20
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        23
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.333
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             261.958
-_pdbe_chem_comp_rdkit_properties.tpsa                                  297.230
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.967
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             130.541
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         41
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ONA UniChem    ChEMBL     CHEMBL254869
-ONA UniChem      ZINC ZINC000049952164
-ONA UniChem BindingDb         50206817
-ONA UniChem    BRENDA            18834
-ONA UniChem    BRENDA           197445
-ONA UniChem    BRENDA             5826
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ONA    CA7 -0.224 -2.268 -1.718 ETKDGv2  1
-ONA    NA1 -1.364 -2.359 -0.811 ETKDGv2  2
-ONA    CA6 -1.693 -3.549 -0.069 ETKDGv2  3
-ONA    CA5 -1.453 -4.768 -0.594 ETKDGv2  4
-ONA    CA4 -1.918 -5.988  0.091 ETKDGv2  5
-ONA    CA3 -2.596 -5.895  1.237 ETKDGv2  6
-ONA    CA2 -2.842 -4.575  1.846 ETKDGv2  7
-ONA    CA1 -2.396 -3.451  1.253 ETKDGv2  8
-ONA     CA -2.531 -2.155  1.955 ETKDGv2  9
-ONA     OA -3.466 -1.975  2.783 ETKDGv2 10
-ONA  "O3'" -1.584 -1.151  1.734 ETKDGv2 11
-ONA  "C3'" -1.672  0.170  2.273 ETKDGv2 12
-ONA  "C2'" -2.656  1.013  1.505 ETKDGv2 13
-ONA  "O2'" -3.927  0.996  2.102 ETKDGv2 14
-ONA  "C4'" -0.355  0.948  2.117 ETKDGv2 15
-ONA  "C5'"  0.616  0.315  1.109 ETKDGv2 16
-ONA  "O5'"  1.766  1.121  1.002 ETKDGv2 17
-ONA     PA  2.769  0.472 -0.216 ETKDGv2 18
-ONA    O3A  3.040 -0.996  0.041 ETKDGv2 19
-ONA    O2A  1.995  0.631 -1.712 ETKDGv2 20
-ONA    O1A  4.228  1.348 -0.280 ETKDGv2 21
-ONA     PB  5.092  1.023  1.152 ETKDGv2 22
-ONA    O3B  6.281  1.955  1.226 ETKDGv2 23
-ONA    O2B  4.113  1.318  2.503 ETKDGv2 24
-ONA    O1B  5.611 -0.599  1.198 ETKDGv2 25
-ONA     PG  6.718 -0.829 -0.075 ETKDGv2 26
-ONA    O3G  7.106 -2.290 -0.118 ETKDGv2 27
-ONA    O1G  8.112  0.094  0.190 ETKDGv2 28
-ONA    O2G  6.031 -0.403 -1.564 ETKDGv2 29
-ONA  "O4'" -0.642  2.270  1.706 ETKDGv2 30
-ONA  "C1'" -2.040  2.398  1.604 ETKDGv2 31
-ONA     N9 -2.380  3.207  0.437 ETKDGv2 32
-ONA     C8 -3.069  4.463  0.398 ETKDGv2 33
-ONA     N7 -3.102  5.000 -0.789 ETKDGv2 34
-ONA     C5 -2.396  4.073 -1.610 ETKDGv2 35
-ONA     C4 -1.978  3.055 -0.910 ETKDGv2 36
-ONA     N3 -1.216  1.990 -1.488 ETKDGv2 37
-ONA     C2 -0.938  2.047 -2.764 ETKDGv2 38
-ONA     N1 -1.389  3.168 -3.567 ETKDGv2 39
-ONA     C6 -2.082  4.144 -3.042 ETKDGv2 40
-ONA     N6 -2.515  5.241 -3.846 ETKDGv2 41
-ONA   HA71 -0.108 -1.222 -2.070 ETKDGv2 42
-ONA   HA72  0.704 -2.570 -1.188 ETKDGv2 43
-ONA   HA73 -0.384 -2.915 -2.604 ETKDGv2 44
-ONA    HA1 -1.940 -1.499 -0.675 ETKDGv2 45
-ONA    HA5 -0.967 -4.879 -1.553 ETKDGv2 46
-ONA    HA4 -1.728 -6.958 -0.350 ETKDGv2 47
-ONA    HA3 -2.947 -6.791  1.734 ETKDGv2 48
-ONA    HA2 -3.341 -4.539  2.807 ETKDGv2 49
-ONA  "H3'" -1.944  0.130  3.353 ETKDGv2 50
-ONA     H1 -2.702  0.681  0.440 ETKDGv2 51
-ONA  "H2'" -4.437  0.263  1.670 ETKDGv2 52
-ONA  "H4'"  0.156  0.990  3.105 ETKDGv2 53
-ONA "H5'1"  0.097  0.227  0.128 ETKDGv2 54
-ONA "H5'2"  0.898 -0.698  1.477 ETKDGv2 55
-ONA    H2A  2.636  0.259 -2.369 ETKDGv2 56
-ONA    H2B  4.643  0.995  3.274 ETKDGv2 57
-ONA    H1G  8.652 -0.021 -0.633 ETKDGv2 58
-ONA    H2G  5.301 -1.057 -1.704 ETKDGv2 59
-ONA  "H1'" -2.408  2.908  2.524 ETKDGv2 60
-ONA     H8 -3.516  4.930  1.265 ETKDGv2 61
-ONA     H2 -0.366  1.253 -3.225 ETKDGv2 62
-ONA   HN61 -3.069  6.021 -3.428 ETKDGv2 63
-ONA   HN62 -2.282  5.275 -4.863 ETKDGv2 64
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ONA "Create component"   2006-05-08 RCSB 
+ONA "Modify descriptor"  2011-06-04 RCSB 
+ONA "Modify descriptor"  2012-01-05 RCSB 
+ONA "Modify coordinates" 2012-01-05 RCSB 
+# 

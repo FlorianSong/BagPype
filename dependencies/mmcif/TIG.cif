@@ -1,354 +1,159 @@
 data_TIG
-#
-_chem_comp.id                                        TIG
-_chem_comp.name                                      N-(2-aminoethyl)-L-tryptophan
-_chem_comp.type                                      peptide-like
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C13 H17 N3 O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2010-10-14
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            247.293
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         TIG
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            3O3D
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    TIG 
+_chem_comp.name                                  "N-(2-aminoethyl)-L-tryptophan" 
+_chem_comp.type                                  peptide-like 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C13 H17 N3 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2010-10-14 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        247.293 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     TIG 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        3O3D 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-TIG    C    C C 0 1 N N N -5.394 -35.402 27.527  2.979  1.189  0.335    C TIG  1
-TIG    N    N N 0 1 N N N -3.005 -34.710 27.432  1.295 -0.561  0.256    N TIG  2
-TIG    O    O O 0 1 N N N -6.439 -35.272 28.191  3.636  0.390  0.959    O TIG  3
-TIG   C1   C1 C 0 1 N N N -2.518 -35.191 28.572  1.831 -1.529 -0.710   C1 TIG  4
-TIG   N1   N1 N 0 1 N N N -0.213 -34.936 27.911  2.028 -3.917 -1.217   N1 TIG  5
-TIG   C2   C2 C 0 1 N N N -1.158 -35.788 28.594  1.492 -2.949 -0.251   C2 TIG  6
-TIG   CA   CA C 0 1 N N S -4.381 -34.218 27.472  1.603  0.816 -0.152   CA TIG  7
-TIG   CB   CB C 0 1 N N N -4.671 -33.066 26.450  0.571  1.770  0.453   CB TIG  8
-TIG   CG   CG C 0 1 Y N N -5.916 -33.229 25.576 -0.788  1.475 -0.129   CG TIG  9
-TIG  CD1  CD1 C 0 1 Y N N -7.234 -33.123 25.970 -1.358  2.091 -1.176  CD1 TIG 10
-TIG  CD2  CD2 C 0 1 Y N N -5.946 -33.497 24.166 -1.733  0.458  0.338  CD2 TIG 11
-TIG  NE1  NE1 N 0 1 Y N N -8.067 -33.349 24.895 -2.595  1.556 -1.415  NE1 TIG 12
-TIG  CE2  CE2 C 0 1 Y N N -7.304 -33.574 23.778 -2.855  0.554 -0.506  CE2 TIG 13
-TIG  CE3  CE3 C 0 1 Y N N -4.961 -33.678 23.193 -1.714 -0.486  1.365  CE3 TIG 14
-TIG  CH2  CH2 C 0 1 Y N N -6.708 -34.010 21.530 -3.895 -1.224  0.716  CH2 TIG 15
-TIG  CZ2  CZ2 C 0 1 Y N N -7.697 -33.829 22.458 -3.935 -0.299 -0.304  CZ2 TIG 16
-TIG  CZ3  CZ3 C 0 1 Y N N -5.355 -33.941 21.885 -2.786 -1.314  1.546  CZ3 TIG 17
-TIG  OXT  OXT O 0 1 N Y N -5.127 -36.618 26.825  3.472  2.411  0.081   O2 TIG 18
-TIG   H1   H1 H 0 1 N N N -2.495 -34.347 29.277  1.389 -1.348 -1.689   H1 TIG 19
-TIG  HN1  HN1 H 0 1 N N N  0.694 -35.356 27.937  3.021 -3.790 -1.343  HN1 TIG 20
-TIG HN1A HN1A H 0 0 N Y N -0.498 -34.818 26.960  1.817 -4.863 -0.936 HN1A TIG 21
-TIG   H2   H2 H 0 1 N N N -0.838 -35.913 29.639  1.935 -3.130  0.728   H2 TIG 22
-TIG  H2A  H2A H 0 1 N N N -1.187 -36.766 28.092  0.410 -3.061 -0.187  H2A TIG 23
-TIG   HA   HA H 0 1 N N N -4.538 -33.686 28.422  1.570  0.888 -1.239   HA TIG 24
-TIG   HB   HB H 0 1 N N N -4.799 -32.140 27.030  0.541  1.634  1.534   HB TIG 25
-TIG  HBA  HBA H 0 1 N N N -3.805 -33.004 25.775  0.849  2.799  0.224  HBA TIG 26
-TIG  HD1  HD1 H 0 1 N N N -7.564 -32.896 26.973 -0.909  2.891 -1.746  HD1 TIG 27
-TIG  HE3  HE3 H 0 1 N N N -3.914 -33.615 23.451 -0.854 -0.563  2.015  HE3 TIG 28
-TIG  HH2  HH2 H 0 1 N N N -6.976 -34.210 20.503 -4.734 -1.885  0.872  HH2 TIG 29
-TIG  HZ2  HZ2 H 0 1 N N N -8.740 -33.881 22.183 -4.802 -0.235 -0.945  HZ2 TIG 30
-TIG  HZ3  HZ3 H 0 1 N N N -4.601 -34.095 21.127 -2.770 -2.045  2.341  HZ3 TIG 31
-TIG HNE1 HNE1 H 0 0 N N N -9.067 -33.349 24.925 -3.197  1.838 -2.121 HNE1 TIG 32
-TIG  H15  H15 H 0 1 N N N -2.974 -35.450 26.760  1.641 -0.748  1.186  H15 TIG 33
-TIG  H16  H16 H 0 1 N N N -3.208 -35.986 28.890  2.914 -1.417 -0.774  H16 TIG 34
-TIG  HXT  HXT H 0 1 N Y N -5.842 -37.228 26.964  4.358  2.606  0.417  H17 TIG 35
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+TIG C    C    C 0 1 N N N -5.394 -35.402 27.527 2.979  1.189  0.335  C    TIG 1  
+TIG N    N    N 0 1 N N N -3.005 -34.710 27.432 1.295  -0.561 0.256  N    TIG 2  
+TIG O    O    O 0 1 N N N -6.439 -35.272 28.191 3.636  0.390  0.959  O    TIG 3  
+TIG C1   C1   C 0 1 N N N -2.518 -35.191 28.572 1.831  -1.529 -0.710 C1   TIG 4  
+TIG N1   N1   N 0 1 N N N -0.213 -34.936 27.911 2.028  -3.917 -1.217 N1   TIG 5  
+TIG C2   C2   C 0 1 N N N -1.158 -35.788 28.594 1.492  -2.949 -0.251 C2   TIG 6  
+TIG CA   CA   C 0 1 N N S -4.381 -34.218 27.472 1.603  0.816  -0.152 CA   TIG 7  
+TIG CB   CB   C 0 1 N N N -4.671 -33.066 26.450 0.571  1.770  0.453  CB   TIG 8  
+TIG CG   CG   C 0 1 Y N N -5.916 -33.229 25.576 -0.788 1.475  -0.129 CG   TIG 9  
+TIG CD1  CD1  C 0 1 Y N N -7.234 -33.123 25.970 -1.358 2.091  -1.176 CD1  TIG 10 
+TIG CD2  CD2  C 0 1 Y N N -5.946 -33.497 24.166 -1.733 0.458  0.338  CD2  TIG 11 
+TIG NE1  NE1  N 0 1 Y N N -8.067 -33.349 24.895 -2.595 1.556  -1.415 NE1  TIG 12 
+TIG CE2  CE2  C 0 1 Y N N -7.304 -33.574 23.778 -2.855 0.554  -0.506 CE2  TIG 13 
+TIG CE3  CE3  C 0 1 Y N N -4.961 -33.678 23.193 -1.714 -0.486 1.365  CE3  TIG 14 
+TIG CH2  CH2  C 0 1 Y N N -6.708 -34.010 21.530 -3.895 -1.224 0.716  CH2  TIG 15 
+TIG CZ2  CZ2  C 0 1 Y N N -7.697 -33.829 22.458 -3.935 -0.299 -0.304 CZ2  TIG 16 
+TIG CZ3  CZ3  C 0 1 Y N N -5.355 -33.941 21.885 -2.786 -1.314 1.546  CZ3  TIG 17 
+TIG OXT  OXT  O 0 1 N Y N -5.127 -36.618 26.825 3.472  2.411  0.081  O2   TIG 18 
+TIG H1   H1   H 0 1 N N N -2.495 -34.347 29.277 1.389  -1.348 -1.689 H1   TIG 19 
+TIG HN1  HN1  H 0 1 N N N 0.694  -35.356 27.937 3.021  -3.790 -1.343 HN1  TIG 20 
+TIG HN1A HN1A H 0 0 N Y N -0.498 -34.818 26.960 1.817  -4.863 -0.936 HN1A TIG 21 
+TIG H2   H2   H 0 1 N N N -0.838 -35.913 29.639 1.935  -3.130 0.728  H2   TIG 22 
+TIG H2A  H2A  H 0 1 N N N -1.187 -36.766 28.092 0.410  -3.061 -0.187 H2A  TIG 23 
+TIG HA   HA   H 0 1 N N N -4.538 -33.686 28.422 1.570  0.888  -1.239 HA   TIG 24 
+TIG HB   HB   H 0 1 N N N -4.799 -32.140 27.030 0.541  1.634  1.534  HB   TIG 25 
+TIG HBA  HBA  H 0 1 N N N -3.805 -33.004 25.775 0.849  2.799  0.224  HBA  TIG 26 
+TIG HD1  HD1  H 0 1 N N N -7.564 -32.896 26.973 -0.909 2.891  -1.746 HD1  TIG 27 
+TIG HE3  HE3  H 0 1 N N N -3.914 -33.615 23.451 -0.854 -0.563 2.015  HE3  TIG 28 
+TIG HH2  HH2  H 0 1 N N N -6.976 -34.210 20.503 -4.734 -1.885 0.872  HH2  TIG 29 
+TIG HZ2  HZ2  H 0 1 N N N -8.740 -33.881 22.183 -4.802 -0.235 -0.945 HZ2  TIG 30 
+TIG HZ3  HZ3  H 0 1 N N N -4.601 -34.095 21.127 -2.770 -2.045 2.341  HZ3  TIG 31 
+TIG HNE1 HNE1 H 0 0 N N N -9.067 -33.349 24.925 -3.197 1.838  -2.121 HNE1 TIG 32 
+TIG H15  H15  H 0 1 N N N -2.974 -35.450 26.760 1.641  -0.748 1.186  H15  TIG 33 
+TIG H16  H16  H 0 1 N N N -3.208 -35.986 28.890 2.914  -1.417 -0.774 H16  TIG 34 
+TIG HXT  HXT  H 0 1 N Y N -5.842 -37.228 26.964 4.358  2.606  0.417  H17  TIG 35 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-TIG   C    O DOUB N N  1
-TIG   C  OXT SING N N  2
-TIG   N   CA SING N N  3
-TIG   N   C1 SING N N  4
-TIG  C1   C2 SING N N  5
-TIG  C1   H1 SING N N  6
-TIG  N1   C2 SING N N  7
-TIG  N1  HN1 SING N N  8
-TIG  N1 HN1A SING N N  9
-TIG  C2   H2 SING N N 10
-TIG  C2  H2A SING N N 11
-TIG  CA    C SING N N 12
-TIG  CA   HA SING N N 13
-TIG  CB   CA SING N N 14
-TIG  CB   HB SING N N 15
-TIG  CB  HBA SING N N 16
-TIG  CG   CB SING N N 17
-TIG  CG  CD1 DOUB Y N 18
-TIG CD1  HD1 SING N N 19
-TIG CD2   CG SING Y N 20
-TIG NE1  CD1 SING Y N 21
-TIG NE1 HNE1 SING N N 22
-TIG CE2  CD2 SING Y N 23
-TIG CE2  NE1 SING Y N 24
-TIG CE3  CD2 DOUB Y N 25
-TIG CE3  HE3 SING N N 26
-TIG CH2  CZ3 DOUB Y N 27
-TIG CH2  CZ2 SING Y N 28
-TIG CH2  HH2 SING N N 29
-TIG CZ2  CE2 DOUB Y N 30
-TIG CZ2  HZ2 SING N N 31
-TIG CZ3  CE3 SING Y N 32
-TIG CZ3  HZ3 SING N N 33
-TIG   N  H15 SING N N 34
-TIG  C1  H16 SING N N 35
-TIG OXT  HXT SING N N 36
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+TIG C   O    DOUB N N 1  
+TIG C   OXT  SING N N 2  
+TIG N   CA   SING N N 3  
+TIG N   C1   SING N N 4  
+TIG C1  C2   SING N N 5  
+TIG C1  H1   SING N N 6  
+TIG N1  C2   SING N N 7  
+TIG N1  HN1  SING N N 8  
+TIG N1  HN1A SING N N 9  
+TIG C2  H2   SING N N 10 
+TIG C2  H2A  SING N N 11 
+TIG CA  C    SING N N 12 
+TIG CA  HA   SING N N 13 
+TIG CB  CA   SING N N 14 
+TIG CB  HB   SING N N 15 
+TIG CB  HBA  SING N N 16 
+TIG CG  CB   SING N N 17 
+TIG CG  CD1  DOUB Y N 18 
+TIG CD1 HD1  SING N N 19 
+TIG CD2 CG   SING Y N 20 
+TIG NE1 CD1  SING Y N 21 
+TIG NE1 HNE1 SING N N 22 
+TIG CE2 CD2  SING Y N 23 
+TIG CE2 NE1  SING Y N 24 
+TIG CE3 CD2  DOUB Y N 25 
+TIG CE3 HE3  SING N N 26 
+TIG CH2 CZ3  DOUB Y N 27 
+TIG CH2 CZ2  SING Y N 28 
+TIG CH2 HH2  SING N N 29 
+TIG CZ2 CE2  DOUB Y N 30 
+TIG CZ2 HZ2  SING N N 31 
+TIG CZ3 CE3  SING Y N 32 
+TIG CZ3 HZ3  SING N N 33 
+TIG N   H15  SING N N 34 
+TIG C1  H16  SING N N 35 
+TIG OXT HXT  SING N N 36 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-TIG           SMILES              ACDLabs 12.01                                                                                           O=C(O)C(NCCN)Cc2c1ccccc1nc2
-TIG SMILES_CANONICAL               CACTVS 3.370                                                                                   NCCN[C@@H](Cc1c[nH]c2ccccc12)C(O)=O
-TIG           SMILES               CACTVS 3.370                                                                                     NCCN[CH](Cc1c[nH]c2ccccc12)C(O)=O
-TIG SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0                                                                               c1ccc2c(c1)c(c[nH]2)C[C@@H](C(=O)O)NCCN
-TIG           SMILES "OpenEye OEToolkits" 1.7.0                                                                                    c1ccc2c(c1)c(c[nH]2)CC(C(=O)O)NCCN
-TIG            InChI                InChI  1.03 InChI=1S/C13H17N3O2/c14-5-6-15-12(13(17)18)7-9-8-16-11-4-2-1-3-10(9)11/h1-4,8,12,15-16H,5-7,14H2,(H,17,18)/t12-/m0/s1
-TIG         InChIKey                InChI  1.03                                                                                           UBMBKENWHLNSDC-LBPRGKRZSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+TIG SMILES           ACDLabs              12.01 "O=C(O)C(NCCN)Cc2c1ccccc1nc2"                                                                                           
+TIG SMILES_CANONICAL CACTVS               3.370 "NCCN[C@@H](Cc1c[nH]c2ccccc12)C(O)=O"                                                                                   
+TIG SMILES           CACTVS               3.370 "NCCN[CH](Cc1c[nH]c2ccccc12)C(O)=O"                                                                                     
+TIG SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "c1ccc2c(c1)c(c[nH]2)C[C@@H](C(=O)O)NCCN"                                                                               
+TIG SMILES           "OpenEye OEToolkits" 1.7.0 "c1ccc2c(c1)c(c[nH]2)CC(C(=O)O)NCCN"                                                                                    
+TIG InChI            InChI                1.03  "InChI=1S/C13H17N3O2/c14-5-6-15-12(13(17)18)7-9-8-16-11-4-2-1-3-10(9)11/h1-4,8,12,15-16H,5-7,14H2,(H,17,18)/t12-/m0/s1" 
+TIG InChIKey         InChI                1.03  UBMBKENWHLNSDC-LBPRGKRZSA-N                                                                                             
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-TIG "SYSTEMATIC NAME"              ACDLabs 12.01                                 N-(2-aminoethyl)-L-tryptophan
-TIG "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "(2S)-2-(2-azanylethylamino)-3-(1H-indol-3-yl)propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+TIG "SYSTEMATIC NAME" ACDLabs              12.01 "N-(2-aminoethyl)-L-tryptophan"                               
+TIG "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.0 "(2S)-2-(2-azanylethylamino)-3-(1H-indol-3-yl)propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-TIG     "Create component" 2010-10-14 RCSB
-TIG "Modify aromatic_flag" 2011-06-04 RCSB
-TIG    "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-TIG   C C  9.953 -0.777  1
-TIG   N N  9.417  1.765  2
-TIG   O O 11.421 -0.468  3
-TIG  C1 C 10.885  2.075  4
-TIG  N1 N 12.819  3.810  5
-TIG  C2 C 11.351  3.500  6
-TIG  CA C  8.951  0.340  7
-TIG  CB C  7.483  0.030  8
-TIG  CG C  7.018 -1.396  9
-TIG CD1 C  7.893 -2.603 10
-TIG CD2 C  5.598 -1.853 11
-TIG NE1 N  7.018 -3.810 12
-TIG CE2 C  5.598 -3.353 13
-TIG CE3 C  4.299 -1.103 14
-TIG CH2 C  3.000 -3.353 15
-TIG CZ2 C  4.299 -4.103 16
-TIG CZ3 C  3.000 -1.853 17
-TIG OXT O  9.487 -2.203 18
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-TIG   C   O DOUBLE       NONE  1
-TIG   C OXT SINGLE       NONE  2
-TIG   N  CA SINGLE       NONE  3
-TIG   N  C1 SINGLE       NONE  4
-TIG  C1  C2 SINGLE       NONE  5
-TIG  N1  C2 SINGLE       NONE  6
-TIG  CA   C SINGLE       NONE  7
-TIG  CB  CA SINGLE BEGINWEDGE  8
-TIG  CG  CB SINGLE       NONE  9
-TIG  CG CD1 DOUBLE       NONE 10
-TIG CD2  CG SINGLE       NONE 11
-TIG NE1 CD1 SINGLE       NONE 12
-TIG CE2 CD2 DOUBLE       NONE 13
-TIG CE2 NE1 SINGLE       NONE 14
-TIG CE3 CD2 SINGLE       NONE 15
-TIG CH2 CZ3 SINGLE       NONE 16
-TIG CH2 CZ2 DOUBLE       NONE 17
-TIG CZ2 CE2 SINGLE       NONE 18
-TIG CZ3 CE3 DOUBLE       NONE 19
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-TIG MurckoScaffold S1 scaffold c1ccc2[nH]ccc2c1 InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H SIKJAQJRHWYJAI-UHFFFAOYSA-N
-TIG         indole F1 fragment c1ccc2[nH]ccc2c1 InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H SIKJAQJRHWYJAI-UHFFFAOYSA-N
-TIG        peptide F2 fragment            NCC=O            InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-TIG         phenyl F3 fragment         c1ccccc1            InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-TIG        pyrrole F4 fragment       c1cc[nH]c1             InChI=1S/C4H5N/c1-2-4-5-3-1/h1-5H KAESVJOAVNADME-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-TIG CE2 F1 1
-TIG CD2 F1 1
-TIG  CG F1 1
-TIG CD1 F1 1
-TIG NE1 F1 1
-TIG CE3 F1 1
-TIG CZ3 F1 1
-TIG CH2 F1 1
-TIG CZ2 F1 1
-TIG   O F2 1
-TIG   C F2 1
-TIG  CA F2 1
-TIG   N F2 1
-TIG CD2 F3 1
-TIG CE2 F3 1
-TIG CZ2 F3 1
-TIG CH2 F3 1
-TIG CZ3 F3 1
-TIG CE3 F3 1
-TIG CD1 F4 1
-TIG  CG F4 1
-TIG CD2 F4 1
-TIG CE2 F4 1
-TIG NE1 F4 1
-TIG  CG S1 1
-TIG CD1 S1 1
-TIG CD2 S1 1
-TIG NE1 S1 1
-TIG CE2 S1 1
-TIG CE3 S1 1
-TIG CH2 S1 1
-TIG CZ2 S1 1
-TIG CZ3 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               TIG
-_pdbe_chem_comp_rdkit_properties.exactmw                               247.132
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.308
-_pdbe_chem_comp_rdkit_properties.NumRings                              2
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             129.196
-_pdbe_chem_comp_rdkit_properties.tpsa                                  91.140
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.229
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             68.012
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         18
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-TIG UniChem ChEMBL    CHEMBL1236301
-TIG UniChem   ZINC ZINC000058638474
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-TIG    C -1.810 -2.599 -1.165 ETKDGv2  1
-TIG    N -1.834 -0.134 -1.129 ETKDGv2  2
-TIG    O -2.299 -2.852 -2.299 ETKDGv2  3
-TIG   C1 -2.623  0.199  0.065 ETKDGv2  4
-TIG   N1 -2.588  1.500  2.171 ETKDGv2  5
-TIG   C2 -1.809  1.105  0.999 ETKDGv2  6
-TIG   CA -1.005 -1.343 -0.942 ETKDGv2  7
-TIG   CB  0.198 -1.298 -1.897 ETKDGv2  8
-TIG   CG  1.052 -0.090 -1.634 ETKDGv2  9
-TIG  CD1  1.175  0.971 -2.433 ETKDGv2 10
-TIG  CD2  1.859  0.180 -0.446 ETKDGv2 11
-TIG  NE1  2.025  1.952 -1.839 ETKDGv2 12
-TIG  CE2  2.402  1.372 -0.600 ETKDGv2 13
-TIG  CE3  2.117 -0.631  0.757 ETKDGv2 14
-TIG  CH2  3.519  1.238  1.541 ETKDGv2 15
-TIG  CZ2  3.278  1.957  0.429 ETKDGv2 16
-TIG  CZ3  2.914 -0.116  1.711 ETKDGv2 17
-TIG  OXT -2.022 -3.479 -0.108 ETKDGv2 18
-TIG   H1 -2.954 -0.718  0.604 ETKDGv2 19
-TIG  HN1 -3.448  2.003  1.851 ETKDGv2 20
-TIG HN1A -2.893  0.638  2.679 ETKDGv2 21
-TIG   H2 -1.493  2.018  0.448 ETKDGv2 22
-TIG  H2A -0.890  0.581  1.340 ETKDGv2 23
-TIG   HA -0.606 -1.379  0.096 ETKDGv2 24
-TIG   HB -0.162 -1.280 -2.949 ETKDGv2 25
-TIG  HBA  0.822 -2.209 -1.765 ETKDGv2 26
-TIG  HD1  0.684  1.094 -3.390 ETKDGv2 27
-TIG  HE3  1.686 -1.616  0.870 ETKDGv2 28
-TIG  HH2  4.158  1.640  2.316 ETKDGv2 29
-TIG  HZ2  3.714  2.938  0.295 ETKDGv2 30
-TIG  HZ3  3.124 -0.687  2.606 ETKDGv2 31
-TIG HNE1  2.293  2.885 -2.222 ETKDGv2 32
-TIG  H15 -2.479 -0.263 -1.944 ETKDGv2 33
-TIG  H16 -3.539  0.748 -0.246 ETKDGv2 34
-TIG  HXT -2.564 -4.325 -0.237 ETKDGv2 35
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+TIG "Create component"     2010-10-14 RCSB 
+TIG "Modify aromatic_flag" 2011-06-04 RCSB 
+TIG "Modify descriptor"    2011-06-04 RCSB 
+# 

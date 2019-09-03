@@ -1,260 +1,127 @@
 data_PAS
-#
-_chem_comp.id                                        PAS
-_chem_comp.name                                      "2-AMINO-4-OXO-4-PHOSPHONOOXY-BUTYRIC ACID"
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C4 H8 N O7 P"
-_chem_comp.mon_nstd_parent_comp_id                   ASP
-_chem_comp.pdbx_synonyms                             "PHOSPHORYLATED ASPARTATE"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-10-13
-_chem_comp.pdbx_modified_date                        2009-01-07
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       OBS
-_chem_comp.pdbx_replaced_by                          PHD
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            213.083
-_chem_comp.one_letter_code                           D
-_chem_comp.three_letter_code                         PAS
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    PAS 
+_chem_comp.name                                  "2-AMINO-4-OXO-4-PHOSPHONOOXY-BUTYRIC ACID" 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C4 H8 N O7 P" 
+_chem_comp.mon_nstd_parent_comp_id               ASP 
+_chem_comp.pdbx_synonyms                         "PHOSPHORYLATED ASPARTATE" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-10-13 
+_chem_comp.pdbx_modified_date                    2009-01-07 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   OBS 
+_chem_comp.pdbx_replaced_by                      PHD 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        213.083 
+_chem_comp.one_letter_code                       D 
+_chem_comp.three_letter_code                     PAS 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PAS   N   N N 0 1 N N N 23.105 59.254 69.908  1.661  0.095  2.185   N PAS  1
-PAS  CA  CA C 0 1 N N S 23.209 60.577 70.458  0.224  0.373  2.311  CA PAS  2
-PAS  CB  CB C 0 1 N N N 22.373 61.556 69.619 -0.541 -0.407  1.242  CB PAS  3
-PAS  CG  CG C 0 1 N N N 22.260 62.929 70.322 -0.066  0.012 -0.124  CG PAS  4
-PAS OD1 OD1 O 0 1 N N N 21.151 63.208 70.683  0.796  0.850 -0.233 OD1 PAS  5
-PAS  P1  P1 P 0 1 N N N 23.264 65.107 71.325 -0.094 -0.096 -2.682  P1 PAS  6
-PAS  O1  O1 O 0 1 N N N 24.646 65.699 70.980 -0.900 -0.919 -3.807  O1 PAS  7
-PAS  O2  O2 O 0 1 N N N 23.101 64.787 72.771 -0.354  1.479 -2.880  O2 PAS  8
-PAS  O3  O3 O 0 1 N N N 22.180 65.972 70.799  1.353 -0.377 -2.809  O3 PAS  9
-PAS  O4  O4 O 0 1 N N N 23.346 63.692 70.529 -0.601 -0.545 -1.222  O4 PAS 10
-PAS   C   C C 0 1 N N N 22.658 60.425 71.888 -0.250 -0.045  3.678   C PAS 11
-PAS   O   O O 0 1 N N N 22.037 59.401 72.210  0.289 -0.963  4.250   O PAS 12
-PAS OXT OXT O 0 1 N Y N 22.886 61.422 72.741 -1.273  0.599  4.260 OXT PAS 13
-PAS   H   H H 0 1 N N N 23.659 58.604 70.464  1.912  0.293  1.228   H PAS 14
-PAS HN2 HN2 H 0 1 N N N 23.359 59.227 68.920  1.776 -0.898  2.315 HN2 PAS 15
-PAS  HA  HA H 0 1 N N N 24.246 60.984 70.458  0.048  1.441  2.177  HA PAS 16
-PAS HB1 1HB H 0 1 N N N 22.772 61.655 68.582 -0.365 -1.475  1.376 HB1 PAS 17
-PAS HB2 2HB H 0 1 N N N 21.370 61.135 69.373 -1.607 -0.201  1.335 HB2 PAS 18
-PAS HO1 1HO H 0 1 N N N 24.749 65.903 70.058 -0.566 -0.621 -4.664 HO1 PAS 19
-PAS HO2 2HO H 0 1 N N N 22.249 64.422 72.983 -1.307  1.619 -2.790 HO2 PAS 20
-PAS HXT HXT H 0 1 N Y N 22.546 61.328 73.623 -1.578  0.329  5.137 HXT PAS 21
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PAS N   N   N 0 1 N N N 23.105 59.254 69.908 1.661  0.095  2.185  N   PAS 1  
+PAS CA  CA  C 0 1 N N S 23.209 60.577 70.458 0.224  0.373  2.311  CA  PAS 2  
+PAS CB  CB  C 0 1 N N N 22.373 61.556 69.619 -0.541 -0.407 1.242  CB  PAS 3  
+PAS CG  CG  C 0 1 N N N 22.260 62.929 70.322 -0.066 0.012  -0.124 CG  PAS 4  
+PAS OD1 OD1 O 0 1 N N N 21.151 63.208 70.683 0.796  0.850  -0.233 OD1 PAS 5  
+PAS P1  P1  P 0 1 N N N 23.264 65.107 71.325 -0.094 -0.096 -2.682 P1  PAS 6  
+PAS O1  O1  O 0 1 N N N 24.646 65.699 70.980 -0.900 -0.919 -3.807 O1  PAS 7  
+PAS O2  O2  O 0 1 N N N 23.101 64.787 72.771 -0.354 1.479  -2.880 O2  PAS 8  
+PAS O3  O3  O 0 1 N N N 22.180 65.972 70.799 1.353  -0.377 -2.809 O3  PAS 9  
+PAS O4  O4  O 0 1 N N N 23.346 63.692 70.529 -0.601 -0.545 -1.222 O4  PAS 10 
+PAS C   C   C 0 1 N N N 22.658 60.425 71.888 -0.250 -0.045 3.678  C   PAS 11 
+PAS O   O   O 0 1 N N N 22.037 59.401 72.210 0.289  -0.963 4.250  O   PAS 12 
+PAS OXT OXT O 0 1 N Y N 22.886 61.422 72.741 -1.273 0.599  4.260  OXT PAS 13 
+PAS H   H   H 0 1 N N N 23.659 58.604 70.464 1.912  0.293  1.228  H   PAS 14 
+PAS HN2 HN2 H 0 1 N N N 23.359 59.227 68.920 1.776  -0.898 2.315  HN2 PAS 15 
+PAS HA  HA  H 0 1 N N N 24.246 60.984 70.458 0.048  1.441  2.177  HA  PAS 16 
+PAS HB1 1HB H 0 1 N N N 22.772 61.655 68.582 -0.365 -1.475 1.376  HB1 PAS 17 
+PAS HB2 2HB H 0 1 N N N 21.370 61.135 69.373 -1.607 -0.201 1.335  HB2 PAS 18 
+PAS HO1 1HO H 0 1 N N N 24.749 65.903 70.058 -0.566 -0.621 -4.664 HO1 PAS 19 
+PAS HO2 2HO H 0 1 N N N 22.249 64.422 72.983 -1.307 1.619  -2.790 HO2 PAS 20 
+PAS HXT HXT H 0 1 N Y N 22.546 61.328 73.623 -1.578 0.329  5.137  HXT PAS 21 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PAS   N  CA SING N N  1
-PAS   N   H SING N N  2
-PAS   N HN2 SING N N  3
-PAS  CA  CB SING N N  4
-PAS  CA   C SING N N  5
-PAS  CA  HA SING N N  6
-PAS  CB  CG SING N N  7
-PAS  CB HB1 SING N N  8
-PAS  CB HB2 SING N N  9
-PAS  CG OD1 DOUB N N 10
-PAS  CG  O4 SING N N 11
-PAS  P1  O1 SING N N 12
-PAS  P1  O2 SING N N 13
-PAS  P1  O3 DOUB N N 14
-PAS  P1  O4 SING N N 15
-PAS  O1 HO1 SING N N 16
-PAS  O2 HO2 SING N N 17
-PAS   C   O DOUB N N 18
-PAS   C OXT SING N N 19
-PAS OXT HXT SING N N 20
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PAS N   CA  SING N N 1  
+PAS N   H   SING N N 2  
+PAS N   HN2 SING N N 3  
+PAS CA  CB  SING N N 4  
+PAS CA  C   SING N N 5  
+PAS CA  HA  SING N N 6  
+PAS CB  CG  SING N N 7  
+PAS CB  HB1 SING N N 8  
+PAS CB  HB2 SING N N 9  
+PAS CG  OD1 DOUB N N 10 
+PAS CG  O4  SING N N 11 
+PAS P1  O1  SING N N 12 
+PAS P1  O2  SING N N 13 
+PAS P1  O3  DOUB N N 14 
+PAS P1  O4  SING N N 15 
+PAS O1  HO1 SING N N 16 
+PAS O2  HO2 SING N N 17 
+PAS C   O   DOUB N N 18 
+PAS C   OXT SING N N 19 
+PAS OXT HXT SING N N 20 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PAS           SMILES              ACDLabs 10.04                                                                         O=C(OP(=O)(O)O)CC(C(=O)O)N
-PAS            InChI                InChI 1.02b InChI=1/C4H8NO7P/c5-2(4(7)8)1-3(6)12-13(9,10)11/h2H,1,5H2,(H,7,8)(H2,9,10,11)/t2-/m0/s1/f/h7,9-10H
-PAS         InChIKey                InChI 1.02b                                                                          IXZNKTPIYKDIGG-ANURBJKSDQ
-PAS SMILES_CANONICAL               CACTVS 3.341                                                                  N[C@@H](CC(=O)O[P](O)(O)=O)C(O)=O
-PAS           SMILES               CACTVS 3.341                                                                    N[CH](CC(=O)O[P](O)(O)=O)C(O)=O
-PAS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                  C([C@@H](C(=O)O)N)C(=O)OP(=O)(O)O
-PAS           SMILES "OpenEye OEToolkits" 1.5.0                                                                       C(C(C(=O)O)N)C(=O)OP(=O)(O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PAS SMILES           ACDLabs              10.04 "O=C(OP(=O)(O)O)CC(C(=O)O)N"                                                                         
+PAS InChI            InChI                1.02b "InChI=1/C4H8NO7P/c5-2(4(7)8)1-3(6)12-13(9,10)11/h2H,1,5H2,(H,7,8)(H2,9,10,11)/t2-/m0/s1/f/h7,9-10H" 
+PAS InChIKey         InChI                1.02b IXZNKTPIYKDIGG-ANURBJKSDQ                                                                            
+PAS SMILES_CANONICAL CACTVS               3.341 "N[C@@H](CC(=O)O[P](O)(O)=O)C(O)=O"                                                                  
+PAS SMILES           CACTVS               3.341 "N[CH](CC(=O)O[P](O)(O)=O)C(O)=O"                                                                    
+PAS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C([C@@H](C(=O)O)N)C(=O)OP(=O)(O)O"                                                                  
+PAS SMILES           "OpenEye OEToolkits" 1.5.0 "C(C(C(=O)O)N)C(=O)OP(=O)(O)O"                                                                       
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PAS "SYSTEMATIC NAME"              ACDLabs 10.04                    4-oxo-O-phosphono-L-homoserine
-PAS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-4-oxo-4-phosphonooxy-butanoic acid"
-#
-_pdbx_chem_comp_audit.comp_id               PAS
-_pdbx_chem_comp_audit.action_type           "Create component"
-_pdbx_chem_comp_audit.date                  1999-10-13
-_pdbx_chem_comp_audit.processing_site       RCSB
-
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PAS "SYSTEMATIC NAME" ACDLabs              10.04 4-oxo-O-phosphono-L-homoserine                    
+PAS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-4-oxo-4-phosphonooxy-butanoic acid" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PAS   N N  0.255 -0.531  1
-PAS  CA C  1.123 -0.034  2
-PAS  CB C  1.127  0.966  3
-PAS  CG C  0.263  1.469  4
-PAS OD1 O -0.605  0.972  5
-PAS  P1 P -0.598  2.972  6
-PAS  O1 O -0.095  3.836  7
-PAS  O2 O -1.101  2.108  8
-PAS  O3 O -1.462  3.475  9
-PAS  O4 O  0.266  2.469 10
-PAS   C C  1.987 -0.537 11
-PAS   O O  2.855 -0.040 12
-PAS OXT O  1.984 -1.537 13
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PAS  N  CA SINGLE BEGINDASH  1
-PAS CA  CB SINGLE      NONE  2
-PAS CA   C SINGLE      NONE  3
-PAS CB  CG SINGLE      NONE  4
-PAS CG OD1 DOUBLE      NONE  5
-PAS CG  O4 SINGLE      NONE  6
-PAS P1  O1 SINGLE      NONE  7
-PAS P1  O2 SINGLE      NONE  8
-PAS P1  O3 DOUBLE      NONE  9
-PAS P1  O4 SINGLE      NONE 10
-PAS  C   O DOUBLE      NONE 11
-PAS  C OXT SINGLE      NONE 12
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-PAS   peptide F1 fragment      NCC=O      InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-PAS phosphate F2 fragment O=P(O)(O)O InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-PAS  O F1 1
-PAS  C F1 1
-PAS CA F1 1
-PAS  N F1 1
-PAS O1 F2 1
-PAS P1 F2 1
-PAS O3 F2 1
-PAS O2 F2 1
-PAS O4 F2 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PAS
-_pdbe_chem_comp_rdkit_properties.exactmw                               213.004
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                8
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        9
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             84.159
-_pdbe_chem_comp_rdkit_properties.tpsa                                  147.150
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.576
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             38.364
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         13
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PAS   N  1.984  1.296  1.420 ETKDGv2  1
-PAS  CA  2.129  0.429  0.244 ETKDGv2  2
-PAS  CB  0.908  0.534 -0.704 ETKDGv2  3
-PAS  CG -0.388 -0.034 -0.185 ETKDGv2  4
-PAS OD1 -0.445 -0.630  0.925 ETKDGv2  5
-PAS  P1 -3.076 -0.476 -0.480 ETKDGv2  6
-PAS  O1 -3.577  0.345  0.914 ETKDGv2  7
-PAS  O2 -4.195 -0.201 -1.718 ETKDGv2  8
-PAS  O3 -3.002 -1.960 -0.199 ETKDGv2  9
-PAS  O4 -1.532  0.099 -0.975 ETKDGv2 10
-PAS   C  2.428 -0.996  0.646 ETKDGv2 11
-PAS   O  2.387 -1.343  1.857 ETKDGv2 12
-PAS OXT  2.770 -1.942 -0.317 ETKDGv2 13
-PAS   H  1.910  2.288  1.098 ETKDGv2 14
-PAS HN2  1.101  1.069  1.930 ETKDGv2 15
-PAS  HA  3.017  0.787 -0.323 ETKDGv2 16
-PAS HB1  0.741  1.605 -0.950 ETKDGv2 17
-PAS HB2  1.147  0.022 -1.660 ETKDGv2 18
-PAS HO1 -2.974  0.025  1.632 ETKDGv2 19
-PAS HO2 -4.176  0.780 -1.859 ETKDGv2 20
-PAS HXT  2.841 -1.695 -1.296 ETKDGv2 21
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PAS "Create component" 1999-10-13 RCSB 
+# 

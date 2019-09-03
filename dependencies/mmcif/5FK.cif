@@ -1,461 +1,196 @@
 data_5FK
-#
-_chem_comp.id                                        5FK
-_chem_comp.name                                      (5R,7S)-5-(4-ethylphenyl)-N-[(5-fluoropyridin-2-yl)methyl]-7-(trifluoromethyl)-4,5,6,7-tetrahydropyrazolo[1,5-a]pyrimidine-3-carboxamide
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C22 H21 F4 N5 O"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2015-09-20
-_chem_comp.pdbx_modified_date                        2016-01-15
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            447.429
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         5FK
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            5DU8
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    5FK 
+_chem_comp.name                                  "(5R,7S)-5-(4-ethylphenyl)-N-[(5-fluoropyridin-2-yl)methyl]-7-(trifluoromethyl)-4,5,6,7-tetrahydropyrazolo[1,5-a]pyrimidine-3-carboxamide" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C22 H21 F4 N5 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2015-09-20 
+_chem_comp.pdbx_modified_date                    2016-01-15 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        447.429 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     5FK 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5DU8 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-5FK  C1  C1 C 0 1 N N R -18.594 26.092 -34.454  2.660 -0.029 -0.789  C1 5FK  1
-5FK  C2  C2 C 0 1 N N N -17.957 24.738 -34.064  3.089 -1.337 -0.116  C2 5FK  2
-5FK  C3  C3 C 0 1 N N S -16.981 24.182 -35.112  2.146 -2.461 -0.570  C3 5FK  3
-5FK  C5  C4 C 0 1 Y N N -18.394 25.468 -36.772  0.447 -0.655 -0.329  C5 5FK  4
-5FK  C7  C5 C 0 1 Y N N -19.657 26.378 -33.465  3.678  1.043 -0.498  C7 5FK  5
-5FK  C8  C6 C 0 1 Y N N -20.947 25.848 -33.578  3.664  1.698  0.719  C8 5FK  6
-5FK  C9  C7 C 0 1 Y N N -21.911 26.140 -32.594  4.598  2.681  0.986  C9 5FK  7
-5FK C10  C8 C 0 1 Y N N -21.586 26.969 -31.501  5.547  3.009  0.036 C10 5FK  8
-5FK C11  C9 C 0 1 Y N N -20.292 27.485 -31.407  5.562  2.353 -1.181 C11 5FK  9
-5FK C12 C10 C 0 1 Y N N -19.342 27.189 -32.380  4.631  1.367 -1.446 C12 5FK 10
-5FK C13 C11 C 0 1 N N N -16.859 22.664 -35.108  2.323 -3.683  0.333 C13 5FK 11
-5FK C17 C12 C 0 1 Y N N -18.486 25.510 -38.245 -0.938 -0.580 -0.265 C17 5FK 12
-5FK C18 C13 C 0 1 Y N N -17.529 24.616 -38.700 -1.428 -1.905 -0.371 C18 5FK 13
-5FK C20 C14 C 0 1 N N N -19.395 26.411 -38.979 -1.742  0.639 -0.115 C20 5FK 14
-5FK C23 C15 C 0 1 N N N -20.263 27.209 -41.135 -3.888  1.775  0.081 C23 5FK 15
-5FK C24 C16 C 0 1 Y N N -19.274 27.989 -41.978 -5.351  1.413  0.107 C24 5FK 16
-5FK C25 C17 C 0 1 Y N N -19.405 28.022 -43.366 -5.990  1.242  1.320 C25 5FK 17
-5FK C26 C18 C 0 1 Y N N -18.473 28.733 -44.113 -7.337  0.915  1.335 C26 5FK 18
-5FK C27 C19 C 0 1 Y N N -17.429 29.384 -43.467 -7.995  0.771  0.120 C27 5FK 19
-5FK C28 C20 C 0 1 Y N N -17.321 29.325 -42.084 -7.287  0.957 -1.055 C28 5FK 20
-5FK C32 C21 C 0 1 N N N -22.583 27.320 -30.395  6.565  4.082  0.327 C32 5FK 21
-5FK F58  F1 F 0 1 N N N -15.892 22.290 -35.916  3.646 -4.131  0.259 F58 5FK 22
-5FK F57  F2 F 0 1 N N N -16.591 22.259 -33.891  2.023 -3.333  1.655 F57 5FK 23
-5FK F56  F3 F 0 1 N N N -17.970 22.115 -35.550  1.461 -4.702 -0.086 F56 5FK 24
-5FK C33 C22 C 0 1 N N N -23.953 27.725 -30.915  7.800  3.451  0.972 C33 5FK 25
-5FK  N6  N1 N 0 1 N N N -19.094 26.149 -35.833  1.349  0.386 -0.267  N6 5FK 26
-5FK  N4  N2 N 0 1 Y N N -17.471 24.610 -36.436  0.770 -1.960 -0.466  N4 5FK 27
-5FK N19  N3 N 0 1 Y N N -16.922 24.054 -37.613 -0.407 -2.709 -0.489 N19 5FK 28
-5FK O22  O1 O 0 1 N N N -20.026 27.223 -38.319 -1.194  1.723 -0.035 O22 5FK 29
-5FK N21  N4 N 0 1 N N N -19.437 26.331 -40.318 -3.086  0.558 -0.068 N21 5FK 30
-5FK N29  N5 N 0 1 Y N N -18.236 28.636 -41.385 -6.006  1.268 -1.028 N29 5FK 31
-5FK F30  F4 F 0 1 N N N -16.530 30.070 -44.184 -9.307  0.452  0.086 F30 5FK 32
-5FK  H1  H1 H 0 1 N N N -17.814 26.860 -34.343  2.590 -0.181 -1.866  H1 5FK 33
-5FK  H2  H2 H 0 1 N N N -18.764 24.005 -33.920  4.112 -1.579 -0.407  H2 5FK 34
-5FK  H3  H3 H 0 1 N N N -17.410 24.872 -33.119  3.034 -1.227  0.966  H3 5FK 35
-5FK  H4  H4 H 0 1 N N N -15.987 24.618 -34.932  2.365 -2.731 -1.604  H4 5FK 36
-5FK  H5  H5 H 0 1 N N N -21.202 25.217 -34.417  2.922  1.441  1.462  H5 5FK 37
-5FK  H6  H6 H 0 1 N N N -22.905 25.726 -32.677  4.586  3.193  1.937  H6 5FK 38
-5FK  H7  H7 H 0 1 N N N -20.026 28.118 -30.573  6.303  2.610 -1.923  H7 5FK 39
-5FK  H8  H8 H 0 1 N N N -18.345 27.595 -32.291  4.645  0.852 -2.395  H8 5FK 40
-5FK  H9  H9 H 0 1 N N N -17.303 24.401 -39.734 -2.467 -2.199 -0.356  H9 5FK 41
-5FK H10 H10 H 0 1 N N N -20.853 27.887 -40.501 -3.694  2.443 -0.758 H10 5FK 42
-5FK H11 H11 H 0 1 N N N -20.940 26.622 -41.774 -3.621  2.275  1.013 H11 5FK 43
-5FK H12 H12 H 0 1 N N N -20.218 27.503 -43.853 -5.447  1.362  2.246 H12 5FK 44
-5FK H13 H13 H 0 1 N N N -18.560 28.779 -45.189 -7.863  0.775  2.268 H13 5FK 45
-5FK H14 H14 H 0 1 N N N -16.510 29.827 -41.577 -7.790  0.847 -2.005 H14 5FK 46
-5FK H15 H15 H 0 1 N N N -22.704 26.441 -29.745  6.851  4.572 -0.604 H15 5FK 47
-5FK H16 H16 H 0 1 N N N -22.172 28.156 -29.809  6.135  4.816  1.007 H16 5FK 48
-5FK H17 H17 H 0 1 N N N -24.612 27.962 -30.067  8.231  2.717  0.291 H17 5FK 49
-5FK H18 H18 H 0 1 N N N -23.853 28.611 -31.560  8.537  4.227  1.182 H18 5FK 50
-5FK H19 H19 H 0 1 N N N -24.385 26.896 -31.495  7.514  2.960  1.902 H19 5FK 51
-5FK H20 H20 H 0 1 N N N -19.111 27.110 -36.108  1.003  1.195 -0.760 H20 5FK 52
-5FK H21 H21 H 0 1 N N N -18.877 25.639 -40.774 -3.523 -0.305 -0.132 H21 5FK 53
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+5FK C1  C1  C 0 1 N N R -18.594 26.092 -34.454 2.660  -0.029 -0.789 C1  5FK 1  
+5FK C2  C2  C 0 1 N N N -17.957 24.738 -34.064 3.089  -1.337 -0.116 C2  5FK 2  
+5FK C3  C3  C 0 1 N N S -16.981 24.182 -35.112 2.146  -2.461 -0.570 C3  5FK 3  
+5FK C5  C4  C 0 1 Y N N -18.394 25.468 -36.772 0.447  -0.655 -0.329 C5  5FK 4  
+5FK C7  C5  C 0 1 Y N N -19.657 26.378 -33.465 3.678  1.043  -0.498 C7  5FK 5  
+5FK C8  C6  C 0 1 Y N N -20.947 25.848 -33.578 3.664  1.698  0.719  C8  5FK 6  
+5FK C9  C7  C 0 1 Y N N -21.911 26.140 -32.594 4.598  2.681  0.986  C9  5FK 7  
+5FK C10 C8  C 0 1 Y N N -21.586 26.969 -31.501 5.547  3.009  0.036  C10 5FK 8  
+5FK C11 C9  C 0 1 Y N N -20.292 27.485 -31.407 5.562  2.353  -1.181 C11 5FK 9  
+5FK C12 C10 C 0 1 Y N N -19.342 27.189 -32.380 4.631  1.367  -1.446 C12 5FK 10 
+5FK C13 C11 C 0 1 N N N -16.859 22.664 -35.108 2.323  -3.683 0.333  C13 5FK 11 
+5FK C17 C12 C 0 1 Y N N -18.486 25.510 -38.245 -0.938 -0.580 -0.265 C17 5FK 12 
+5FK C18 C13 C 0 1 Y N N -17.529 24.616 -38.700 -1.428 -1.905 -0.371 C18 5FK 13 
+5FK C20 C14 C 0 1 N N N -19.395 26.411 -38.979 -1.742 0.639  -0.115 C20 5FK 14 
+5FK C23 C15 C 0 1 N N N -20.263 27.209 -41.135 -3.888 1.775  0.081  C23 5FK 15 
+5FK C24 C16 C 0 1 Y N N -19.274 27.989 -41.978 -5.351 1.413  0.107  C24 5FK 16 
+5FK C25 C17 C 0 1 Y N N -19.405 28.022 -43.366 -5.990 1.242  1.320  C25 5FK 17 
+5FK C26 C18 C 0 1 Y N N -18.473 28.733 -44.113 -7.337 0.915  1.335  C26 5FK 18 
+5FK C27 C19 C 0 1 Y N N -17.429 29.384 -43.467 -7.995 0.771  0.120  C27 5FK 19 
+5FK C28 C20 C 0 1 Y N N -17.321 29.325 -42.084 -7.287 0.957  -1.055 C28 5FK 20 
+5FK C32 C21 C 0 1 N N N -22.583 27.320 -30.395 6.565  4.082  0.327  C32 5FK 21 
+5FK F58 F1  F 0 1 N N N -15.892 22.290 -35.916 3.646  -4.131 0.259  F58 5FK 22 
+5FK F57 F2  F 0 1 N N N -16.591 22.259 -33.891 2.023  -3.333 1.655  F57 5FK 23 
+5FK F56 F3  F 0 1 N N N -17.970 22.115 -35.550 1.461  -4.702 -0.086 F56 5FK 24 
+5FK C33 C22 C 0 1 N N N -23.953 27.725 -30.915 7.800  3.451  0.972  C33 5FK 25 
+5FK N6  N1  N 0 1 N N N -19.094 26.149 -35.833 1.349  0.386  -0.267 N6  5FK 26 
+5FK N4  N2  N 0 1 Y N N -17.471 24.610 -36.436 0.770  -1.960 -0.466 N4  5FK 27 
+5FK N19 N3  N 0 1 Y N N -16.922 24.054 -37.613 -0.407 -2.709 -0.489 N19 5FK 28 
+5FK O22 O1  O 0 1 N N N -20.026 27.223 -38.319 -1.194 1.723  -0.035 O22 5FK 29 
+5FK N21 N4  N 0 1 N N N -19.437 26.331 -40.318 -3.086 0.558  -0.068 N21 5FK 30 
+5FK N29 N5  N 0 1 Y N N -18.236 28.636 -41.385 -6.006 1.268  -1.028 N29 5FK 31 
+5FK F30 F4  F 0 1 N N N -16.530 30.070 -44.184 -9.307 0.452  0.086  F30 5FK 32 
+5FK H1  H1  H 0 1 N N N -17.814 26.860 -34.343 2.590  -0.181 -1.866 H1  5FK 33 
+5FK H2  H2  H 0 1 N N N -18.764 24.005 -33.920 4.112  -1.579 -0.407 H2  5FK 34 
+5FK H3  H3  H 0 1 N N N -17.410 24.872 -33.119 3.034  -1.227 0.966  H3  5FK 35 
+5FK H4  H4  H 0 1 N N N -15.987 24.618 -34.932 2.365  -2.731 -1.604 H4  5FK 36 
+5FK H5  H5  H 0 1 N N N -21.202 25.217 -34.417 2.922  1.441  1.462  H5  5FK 37 
+5FK H6  H6  H 0 1 N N N -22.905 25.726 -32.677 4.586  3.193  1.937  H6  5FK 38 
+5FK H7  H7  H 0 1 N N N -20.026 28.118 -30.573 6.303  2.610  -1.923 H7  5FK 39 
+5FK H8  H8  H 0 1 N N N -18.345 27.595 -32.291 4.645  0.852  -2.395 H8  5FK 40 
+5FK H9  H9  H 0 1 N N N -17.303 24.401 -39.734 -2.467 -2.199 -0.356 H9  5FK 41 
+5FK H10 H10 H 0 1 N N N -20.853 27.887 -40.501 -3.694 2.443  -0.758 H10 5FK 42 
+5FK H11 H11 H 0 1 N N N -20.940 26.622 -41.774 -3.621 2.275  1.013  H11 5FK 43 
+5FK H12 H12 H 0 1 N N N -20.218 27.503 -43.853 -5.447 1.362  2.246  H12 5FK 44 
+5FK H13 H13 H 0 1 N N N -18.560 28.779 -45.189 -7.863 0.775  2.268  H13 5FK 45 
+5FK H14 H14 H 0 1 N N N -16.510 29.827 -41.577 -7.790 0.847  -2.005 H14 5FK 46 
+5FK H15 H15 H 0 1 N N N -22.704 26.441 -29.745 6.851  4.572  -0.604 H15 5FK 47 
+5FK H16 H16 H 0 1 N N N -22.172 28.156 -29.809 6.135  4.816  1.007  H16 5FK 48 
+5FK H17 H17 H 0 1 N N N -24.612 27.962 -30.067 8.231  2.717  0.291  H17 5FK 49 
+5FK H18 H18 H 0 1 N N N -23.853 28.611 -31.560 8.537  4.227  1.182  H18 5FK 50 
+5FK H19 H19 H 0 1 N N N -24.385 26.896 -31.495 7.514  2.960  1.902  H19 5FK 51 
+5FK H20 H20 H 0 1 N N N -19.111 27.110 -36.108 1.003  1.195  -0.760 H20 5FK 52 
+5FK H21 H21 H 0 1 N N N -18.877 25.639 -40.774 -3.523 -0.305 -0.132 H21 5FK 53 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-5FK F30 C27 SING N N  1
-5FK C26 C27 DOUB Y N  2
-5FK C26 C25 SING Y N  3
-5FK C27 C28 SING Y N  4
-5FK C25 C24 DOUB Y N  5
-5FK C28 N29 DOUB Y N  6
-5FK C24 N29 SING Y N  7
-5FK C24 C23 SING N N  8
-5FK C23 N21 SING N N  9
-5FK N21 C20 SING N N 10
-5FK C20 O22 DOUB N N 11
-5FK C20 C17 SING N N 12
-5FK C18 C17 SING Y N 13
-5FK C18 N19 DOUB Y N 14
-5FK C17  C5 DOUB Y N 15
-5FK N19  N4 SING Y N 16
-5FK  C5  N4 SING Y N 17
-5FK  C5  N6 SING N N 18
-5FK  N4  C3 SING N N 19
-5FK F58 C13 SING N N 20
-5FK  N6  C1 SING N N 21
-5FK F56 C13 SING N N 22
-5FK  C3 C13 SING N N 23
-5FK  C3  C2 SING N N 24
-5FK C13 F57 SING N N 25
-5FK  C1  C2 SING N N 26
-5FK  C1  C7 SING N N 27
-5FK  C8  C7 DOUB Y N 28
-5FK  C8  C9 SING Y N 29
-5FK  C7 C12 SING Y N 30
-5FK  C9 C10 DOUB Y N 31
-5FK C12 C11 DOUB Y N 32
-5FK C10 C11 SING Y N 33
-5FK C10 C32 SING N N 34
-5FK C33 C32 SING N N 35
-5FK  C1  H1 SING N N 36
-5FK  C2  H2 SING N N 37
-5FK  C2  H3 SING N N 38
-5FK  C3  H4 SING N N 39
-5FK  C8  H5 SING N N 40
-5FK  C9  H6 SING N N 41
-5FK C11  H7 SING N N 42
-5FK C12  H8 SING N N 43
-5FK C18  H9 SING N N 44
-5FK C23 H10 SING N N 45
-5FK C23 H11 SING N N 46
-5FK C25 H12 SING N N 47
-5FK C26 H13 SING N N 48
-5FK C28 H14 SING N N 49
-5FK C32 H15 SING N N 50
-5FK C32 H16 SING N N 51
-5FK C33 H17 SING N N 52
-5FK C33 H18 SING N N 53
-5FK C33 H19 SING N N 54
-5FK  N6 H20 SING N N 55
-5FK N21 H21 SING N N 56
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+5FK F30 C27 SING N N 1  
+5FK C26 C27 DOUB Y N 2  
+5FK C26 C25 SING Y N 3  
+5FK C27 C28 SING Y N 4  
+5FK C25 C24 DOUB Y N 5  
+5FK C28 N29 DOUB Y N 6  
+5FK C24 N29 SING Y N 7  
+5FK C24 C23 SING N N 8  
+5FK C23 N21 SING N N 9  
+5FK N21 C20 SING N N 10 
+5FK C20 O22 DOUB N N 11 
+5FK C20 C17 SING N N 12 
+5FK C18 C17 SING Y N 13 
+5FK C18 N19 DOUB Y N 14 
+5FK C17 C5  DOUB Y N 15 
+5FK N19 N4  SING Y N 16 
+5FK C5  N4  SING Y N 17 
+5FK C5  N6  SING N N 18 
+5FK N4  C3  SING N N 19 
+5FK F58 C13 SING N N 20 
+5FK N6  C1  SING N N 21 
+5FK F56 C13 SING N N 22 
+5FK C3  C13 SING N N 23 
+5FK C3  C2  SING N N 24 
+5FK C13 F57 SING N N 25 
+5FK C1  C2  SING N N 26 
+5FK C1  C7  SING N N 27 
+5FK C8  C7  DOUB Y N 28 
+5FK C8  C9  SING Y N 29 
+5FK C7  C12 SING Y N 30 
+5FK C9  C10 DOUB Y N 31 
+5FK C12 C11 DOUB Y N 32 
+5FK C10 C11 SING Y N 33 
+5FK C10 C32 SING N N 34 
+5FK C33 C32 SING N N 35 
+5FK C1  H1  SING N N 36 
+5FK C2  H2  SING N N 37 
+5FK C2  H3  SING N N 38 
+5FK C3  H4  SING N N 39 
+5FK C8  H5  SING N N 40 
+5FK C9  H6  SING N N 41 
+5FK C11 H7  SING N N 42 
+5FK C12 H8  SING N N 43 
+5FK C18 H9  SING N N 44 
+5FK C23 H10 SING N N 45 
+5FK C23 H11 SING N N 46 
+5FK C25 H12 SING N N 47 
+5FK C26 H13 SING N N 48 
+5FK C28 H14 SING N N 49 
+5FK C32 H15 SING N N 50 
+5FK C32 H16 SING N N 51 
+5FK C33 H17 SING N N 52 
+5FK C33 H18 SING N N 53 
+5FK C33 H19 SING N N 54 
+5FK N6  H20 SING N N 55 
+5FK N21 H21 SING N N 56 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-5FK           SMILES              ACDLabs 12.01                                                                                                                         C1(CC(C(F)(F)F)n2c(N1)c(cn2)C(=O)NCc3ncc(cc3)F)c4ccc(cc4)CC
-5FK            InChI                InChI  1.03 InChI=1S/C22H21F4N5O/c1-2-13-3-5-14(6-4-13)18-9-19(22(24,25)26)31-20(30-18)17(12-29-31)21(32)28-11-16-8-7-15(23)10-27-16/h3-8,10,12,18-19,30H,2,9,11H2,1H3,(H,28,32)/t18-,19+/m1/s1
-5FK         InChIKey                InChI  1.03                                                                                                                                                         AURWIOYIXRLAMD-MOPGFXCFSA-N
-5FK SMILES_CANONICAL               CACTVS 3.385                                                                                                                     CCc1ccc(cc1)[C@H]2C[C@H](n3ncc(C(=O)NCc4ccc(F)cn4)c3N2)C(F)(F)F
-5FK           SMILES               CACTVS 3.385                                                                                                                       CCc1ccc(cc1)[CH]2C[CH](n3ncc(C(=O)NCc4ccc(F)cn4)c3N2)C(F)(F)F
-5FK SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2                                                                                                                   CCc1ccc(cc1)[C@H]2C[C@H](n3c(c(cn3)C(=O)NCc4ccc(cn4)F)N2)C(F)(F)F
-5FK           SMILES "OpenEye OEToolkits" 1.9.2                                                                                                                           CCc1ccc(cc1)C2CC(n3c(c(cn3)C(=O)NCc4ccc(cn4)F)N2)C(F)(F)F
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+5FK SMILES           ACDLabs              12.01 "C1(CC(C(F)(F)F)n2c(N1)c(cn2)C(=O)NCc3ncc(cc3)F)c4ccc(cc4)CC"                                                                                                                         
+5FK InChI            InChI                1.03  "InChI=1S/C22H21F4N5O/c1-2-13-3-5-14(6-4-13)18-9-19(22(24,25)26)31-20(30-18)17(12-29-31)21(32)28-11-16-8-7-15(23)10-27-16/h3-8,10,12,18-19,30H,2,9,11H2,1H3,(H,28,32)/t18-,19+/m1/s1" 
+5FK InChIKey         InChI                1.03  AURWIOYIXRLAMD-MOPGFXCFSA-N                                                                                                                                                           
+5FK SMILES_CANONICAL CACTVS               3.385 "CCc1ccc(cc1)[C@H]2C[C@H](n3ncc(C(=O)NCc4ccc(F)cn4)c3N2)C(F)(F)F"                                                                                                                     
+5FK SMILES           CACTVS               3.385 "CCc1ccc(cc1)[CH]2C[CH](n3ncc(C(=O)NCc4ccc(F)cn4)c3N2)C(F)(F)F"                                                                                                                       
+5FK SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "CCc1ccc(cc1)[C@H]2C[C@H](n3c(c(cn3)C(=O)NCc4ccc(cn4)F)N2)C(F)(F)F"                                                                                                                   
+5FK SMILES           "OpenEye OEToolkits" 1.9.2 "CCc1ccc(cc1)C2CC(n3c(c(cn3)C(=O)NCc4ccc(cn4)F)N2)C(F)(F)F"                                                                                                                           
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-5FK "SYSTEMATIC NAME"              ACDLabs 12.01    (5R,7S)-5-(4-ethylphenyl)-N-[(5-fluoropyridin-2-yl)methyl]-7-(trifluoromethyl)-4,5,6,7-tetrahydropyrazolo[1,5-a]pyrimidine-3-carboxamide
-5FK "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 (5R,7S)-5-(4-ethylphenyl)-N-[(5-fluoranylpyridin-2-yl)methyl]-7-(trifluoromethyl)-4,5,6,7-tetrahydropyrazolo[1,5-a]pyrimidine-3-carboxamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+5FK "SYSTEMATIC NAME" ACDLabs              12.01 "(5R,7S)-5-(4-ethylphenyl)-N-[(5-fluoropyridin-2-yl)methyl]-7-(trifluoromethyl)-4,5,6,7-tetrahydropyrazolo[1,5-a]pyrimidine-3-carboxamide"    
+5FK "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "(5R,7S)-5-(4-ethylphenyl)-N-[(5-fluoranylpyridin-2-yl)methyl]-7-(trifluoromethyl)-4,5,6,7-tetrahydropyrazolo[1,5-a]pyrimidine-3-carboxamide" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-5FK "Create component" 2015-09-20  EBI
-5FK  "Initial release" 2016-01-20 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-5FK  C1 C  9.495 -0.206  1
-5FK  C2 C  9.495 -1.706  2
-5FK  C3 C 10.794 -2.456  3
-5FK  C5 C 12.093 -0.206  4
-5FK  C7 C  8.196  0.544  5
-5FK  C8 C  8.196  2.044  6
-5FK  C9 C  6.897  2.794  7
-5FK C10 C  5.598  2.044  8
-5FK C11 C  5.598  0.544  9
-5FK C12 C  6.897 -0.206 10
-5FK C13 C 10.794 -3.956 11
-5FK C17 C 13.513  0.251 12
-5FK C18 C 14.388 -0.956 13
-5FK C20 C 13.979  1.677 14
-5FK C23 C 15.912  3.412 15
-5FK C24 C 17.380  3.721 16
-5FK C25 C 17.846  5.147 17
-5FK C26 C 19.314  5.456 18
-5FK C27 C 20.316  4.340 19
-5FK C28 C 19.850  2.914 20
-5FK C32 C  4.299  2.794 21
-5FK F58 F 10.794 -5.456 22
-5FK F57 F  9.294 -3.956 23
-5FK F56 F 12.294 -3.956 24
-5FK C33 C  3.000  2.044 25
-5FK  N6 N 10.794  0.544 26
-5FK  N4 N 12.093 -1.706 27
-5FK N19 N 13.513 -2.163 28
-5FK O22 O 12.977  2.793 29
-5FK N21 N 15.446  1.986 30
-5FK N29 N 18.382  2.605 31
-5FK F30 F 21.783  4.649 32
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-5FK F30 C27 SINGLE       NONE  1
-5FK C26 C27 SINGLE       NONE  2
-5FK C26 C25 DOUBLE       NONE  3
-5FK C27 C28 DOUBLE       NONE  4
-5FK C25 C24 SINGLE       NONE  5
-5FK C28 N29 SINGLE       NONE  6
-5FK C24 N29 DOUBLE       NONE  7
-5FK C24 C23 SINGLE       NONE  8
-5FK C23 N21 SINGLE       NONE  9
-5FK N21 C20 SINGLE       NONE 10
-5FK C20 O22 DOUBLE       NONE 11
-5FK C20 C17 SINGLE       NONE 12
-5FK C18 C17 SINGLE       NONE 13
-5FK C18 N19 DOUBLE       NONE 14
-5FK C17  C5 DOUBLE       NONE 15
-5FK N19  N4 SINGLE       NONE 16
-5FK  C5  N4 SINGLE       NONE 17
-5FK  C5  N6 SINGLE       NONE 18
-5FK  N4  C3 SINGLE       NONE 19
-5FK F58 C13 SINGLE       NONE 20
-5FK  N6  C1 SINGLE       NONE 21
-5FK F56 C13 SINGLE       NONE 22
-5FK  C3 C13 SINGLE  BEGINDASH 23
-5FK  C3  C2 SINGLE       NONE 24
-5FK C13 F57 SINGLE       NONE 25
-5FK  C1  C2 SINGLE       NONE 26
-5FK  C1  C7 SINGLE BEGINWEDGE 27
-5FK  C8  C7 DOUBLE       NONE 28
-5FK  C8  C9 SINGLE       NONE 29
-5FK  C7 C12 SINGLE       NONE 30
-5FK  C9 C10 DOUBLE       NONE 31
-5FK C12 C11 DOUBLE       NONE 32
-5FK C10 C11 SINGLE       NONE 33
-5FK C10 C32 SINGLE       NONE 34
-5FK C33 C32 SINGLE       NONE 35
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-5FK MurckoScaffold S1 scaffold O=C(NCc1ccccn1)c1cnn2c1N[C@H](c1ccccc1)CC2 InChI=1S/C19H19N5O/c25-19(21-12-15-8-4-5-10-20-15)16-13-22-24-11-9-17(23-18(16)24)14-6-2-1-3-7-14/h1-8,10,13,17,23H,9,11-12H2,(H,21,25)/t17-/m0/s1 FUUYRTDIBWOZRR-KRWDZBQOSA-N
-5FK          amide F1 fragment                                    CC(N)=O                                                                                                             InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-5FK         phenyl F2 fragment                                   c1ccccc1                                                                                                                 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-5FK       pyrazole F3 fragment                                 c1cn[nH]c1                                                                                                         InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5) WTKZEGDFNFYCGP-UHFFFAOYSA-N
-5FK       pyridine F4 fragment                                   c1ccncc1                                                                                                                InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
-5FK    Z1157794254 F5 fragment                           FC(F)(F)Cn1cccn1                                                                                               InChI=1S/C5H5F3N2/c6-5(7,8)4-10-3-1-2-9-10/h1-3H,4H2 DNHVFNDOHJKATM-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-5FK N21 F1 1
-5FK C20 F1 1
-5FK O22 F1 1
-5FK C17 F1 1
-5FK  C7 F2 1
-5FK  C8 F2 1
-5FK  C9 F2 1
-5FK C10 F2 1
-5FK C11 F2 1
-5FK C12 F2 1
-5FK  C5 F3 1
-5FK C17 F3 1
-5FK C18 F3 1
-5FK N19 F3 1
-5FK  N4 F3 1
-5FK C24 F4 1
-5FK C25 F4 1
-5FK C26 F4 1
-5FK C27 F4 1
-5FK C28 F4 1
-5FK N29 F4 1
-5FK F58 F5 1
-5FK C13 F5 1
-5FK F57 F5 1
-5FK F56 F5 1
-5FK  C3 F5 1
-5FK  N4 F5 1
-5FK  C5 F5 1
-5FK C17 F5 1
-5FK C18 F5 1
-5FK N19 F5 1
-5FK  C1 S1 1
-5FK  C2 S1 1
-5FK  C3 S1 1
-5FK  C5 S1 1
-5FK  C7 S1 1
-5FK  C8 S1 1
-5FK  C9 S1 1
-5FK C10 S1 1
-5FK C11 S1 1
-5FK C12 S1 1
-5FK C17 S1 1
-5FK C18 S1 1
-5FK C20 S1 1
-5FK C23 S1 1
-5FK C24 S1 1
-5FK C25 S1 1
-5FK C26 S1 1
-5FK C27 S1 1
-5FK C28 S1 1
-5FK  N6 S1 1
-5FK  N4 S1 1
-5FK N19 S1 1
-5FK O22 S1 1
-5FK N21 S1 1
-5FK N29 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               5FK
-_pdbe_chem_comp_rdkit_properties.exactmw                               447.168
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                5
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        10
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.318
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             210.830
-_pdbe_chem_comp_rdkit_properties.tpsa                                  71.840
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          3.970
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             107.597
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         32
-
-#
-_pdbe_chem_comp_external_mappings.comp_id           5FK
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ZINC
-_pdbe_chem_comp_external_mappings.resource_id       ZINC000142617072
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-5FK  C1 -1.926  2.307  0.259 ETKDGv2  1
-5FK  C2 -2.151  2.844 -1.182 ETKDGv2  2
-5FK  C3 -1.426  2.019 -2.275 ETKDGv2  3
-5FK  C5  0.392  1.767 -0.540 ETKDGv2  4
-5FK  C7 -2.779  1.084  0.535 ETKDGv2  5
-5FK  C8 -2.390 -0.154  0.172 ETKDGv2  6
-5FK  C9 -3.255 -1.321  0.439 ETKDGv2  7
-5FK C10 -4.438 -1.163  1.056 ETKDGv2  8
-5FK C11 -4.879  0.198  1.440 ETKDGv2  9
-5FK C12 -4.097  1.256  1.197 ETKDGv2 10
-5FK C13 -1.512  2.717 -3.643 ETKDGv2 11
-5FK C17  1.596  1.205 -0.475 ETKDGv2 12
-5FK C18  1.927  0.872 -1.871 ETKDGv2 13
-5FK C20  2.398  0.884  0.724 ETKDGv2 14
-5FK C23  4.316 -0.352  1.807 ETKDGv2 15
-5FK C24  5.390 -1.339  1.454 ETKDGv2 16
-5FK C25  6.448 -0.977  0.482 ETKDGv2 17
-5FK C26  7.395 -1.871  0.181 ETKDGv2 18
-5FK C27  7.376 -3.202  0.819 ETKDGv2 19
-5FK C28  6.407 -3.496  1.694 ETKDGv2 20
-5FK C32 -5.343 -2.341  1.298 ETKDGv2 21
-5FK F58 -0.815  3.913 -3.621 ETKDGv2 22
-5FK F57 -2.833  2.970 -3.967 ETKDGv2 23
-5FK F56 -0.972  1.902 -4.622 ETKDGv2 24
-5FK C33 -6.273 -2.561  0.109 ETKDGv2 25
-5FK  N6 -0.509  2.036  0.539 ETKDGv2 26
-5FK  N4 -0.030  1.826 -1.885 ETKDGv2 27
-5FK N19  0.959  1.215 -2.661 ETKDGv2 28
-5FK O22  2.156  1.465  1.816 ETKDGv2 29
-5FK N21  3.469 -0.068  0.648 ETKDGv2 30
-5FK N29  5.396 -2.521  2.005 ETKDGv2 31
-5FK F30  8.333 -4.116  0.521 ETKDGv2 32
-5FK  H1 -2.248  3.117  0.949 ETKDGv2 33
-5FK  H2 -3.242  2.880 -1.398 ETKDGv2 34
-5FK  H3 -1.776  3.890 -1.214 ETKDGv2 35
-5FK  H4 -1.915  1.026 -2.363 ETKDGv2 36
-5FK  H5 -1.442 -0.321 -0.322 ETKDGv2 37
-5FK  H6 -2.923 -2.304  0.126 ETKDGv2 38
-5FK  H7 -5.841  0.342  1.918 ETKDGv2 39
-5FK  H8 -4.437  2.244  1.481 ETKDGv2 40
-5FK  H9  2.826  0.383 -2.219 ETKDGv2 41
-5FK H10  3.685 -0.753  2.630 ETKDGv2 42
-5FK H11  4.794  0.587  2.159 ETKDGv2 43
-5FK H12  6.456  0.001  0.018 ETKDGv2 44
-5FK H13  8.175 -1.622 -0.527 ETKDGv2 45
-5FK H14  6.379 -4.467  2.171 ETKDGv2 46
-5FK H15 -4.744 -3.261  1.473 ETKDGv2 47
-5FK H16 -5.953 -2.164  2.211 ETKDGv2 48
-5FK H17 -6.936 -3.428  0.311 ETKDGv2 49
-5FK H18 -6.904 -1.662 -0.058 ETKDGv2 50
-5FK H19 -5.682 -2.770 -0.808 ETKDGv2 51
-5FK H20 -0.223  1.879  1.529 ETKDGv2 52
-5FK H21  3.621 -0.594 -0.242 ETKDGv2 53
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+5FK "Create component" 2015-09-20 EBI  
+5FK "Initial release"  2016-01-20 RCSB 
+# 

@@ -1,578 +1,224 @@
 data_FMM
-#
-_chem_comp.id                                        FMM
-_chem_comp.name                                      N-{3-CHLORO-4-[(3-FLUOROBENZYL)OXY]PHENYL}-6-[5-({[2-(METHYLSULFONYL)ETHYL]AMINO}METHYL)-2-FURYL]-4-QUINAZOLINAMINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C29 H26 Cl F N4 O4 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2004-10-04
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            581.058
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         FMM
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1XKK
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    FMM 
+_chem_comp.name                                  "N-{3-CHLORO-4-[(3-FLUOROBENZYL)OXY]PHENYL}-6-[5-({[2-(METHYLSULFONYL)ETHYL]AMINO}METHYL)-2-FURYL]-4-QUINAZOLINAMINE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C29 H26 Cl F N4 O4 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2004-10-04 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        581.058 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     FMM 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1XKK 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FMM   C1   C1  C 0 1 N N N 22.604 34.487 31.141  3.027  1.808 -10.875   C1 FMM  1
-FMM   S2   S2  S 0 1 N N N 24.036 33.465 31.350  3.219  0.434  -9.706   S2 FMM  2
-FMM   O3   O3  O 0 1 N N N 25.053 34.204 32.067  3.256 -0.787 -10.431   O3 FMM  3
-FMM   O4   O4  O 0 1 N N N 24.543 33.077 30.053  4.267  0.743  -8.797   O4 FMM  4
-FMM   C5   C5  C 0 1 N N N 23.587 31.980 32.291  1.630  0.559  -8.839   C5 FMM  5
-FMM   C6   C6  C 0 1 N N N 22.061 31.836 32.324  1.547 -0.529  -7.768   C6 FMM  6
-FMM   N7   N7  N 0 1 N N N 21.569 32.184 33.665  0.261 -0.429  -7.066   N7 FMM  7
-FMM   C8   C8  C 0 1 N N N 20.914 31.019 34.265  0.246 -1.496  -6.057   C8 FMM  8
-FMM   C9   C9  C 0 1 Y N N 19.416 31.208 34.223 -1.053 -1.449  -5.295   C9 FMM  9
-FMM  C10  C10  C 0 1 Y N N 18.674 30.977 33.121 -2.183 -2.103  -5.630  C10 FMM 10
-FMM  C11  C11  C 0 1 Y N N 17.445 31.237 33.421 -3.148 -1.785  -4.653  C11 FMM 11
-FMM  C12  C12  C 0 1 Y N N 17.409 31.645 34.731 -2.550 -0.939  -3.772  C12 FMM 12
-FMM  O13  O13  O 0 1 Y N N 18.655 31.653 35.363 -1.279 -0.745  -4.174  O13 FMM 13
-FMM  C14  C14  C 0 1 Y N N 16.176 32.058 35.407 -3.184 -0.339  -2.580  C14 FMM 14
-FMM  C15  C15  C 0 1 Y N N 14.958 31.986 34.735 -4.513  0.110  -2.648  C15 FMM 15
-FMM  C16  C16  C 0 1 Y N N 13.807 32.402 35.359 -5.118  0.665  -1.565  C16 FMM 16
-FMM  C17  C17  C 0 1 Y N N 13.849 32.890 36.664 -4.413  0.796  -0.359  C17 FMM 17
-FMM  N18  N18  N 0 1 Y N N 12.683 33.305 37.276 -4.974  1.339   0.731  N18 FMM 18
-FMM  C19  C19  C 0 1 Y N N 12.708 33.790 38.568 -4.292  1.449   1.846  C19 FMM 19
-FMM  N20  N20  N 0 1 Y N N 13.899 33.863 39.260 -3.038  1.044   1.968  N20 FMM 20
-FMM  C21  C21  C 0 1 Y N N 15.077 33.452 38.668 -2.387  0.493   0.952  C21 FMM 21
-FMM  N22  N22  N 0 1 N N N 16.282 33.527 39.366 -1.081  0.074   1.091  N22 FMM 22
-FMM  C23  C23  C 0 1 Y N N 16.332 33.843 40.735 -0.462  0.117   2.346  C23 FMM 23
-FMM  C24  C24  C 0 1 Y N N 17.118 34.909 41.178 -1.199 -0.145   3.493  C24 FMM 24
-FMM  C25  C25  C 0 1 Y N N 17.164 35.215 42.535 -0.589 -0.103   4.731  C25 FMM 25
-FMM  C26  C26  C 0 1 Y N N 16.428 34.457 43.438  0.760  0.201   4.829  C26 FMM 26
-FMM  O27  O27  O 0 1 N N N 16.446 34.747 44.828  1.361  0.242   6.049  O27 FMM 27
-FMM  C28  C28  C 0 1 N N N 17.065 36.002 45.143  0.355 -0.067   7.015  C28 FMM 28
-FMM  C29  C29  C 0 1 Y N N 16.085 37.181 44.984  0.958 -0.038   8.396  C29 FMM 29
-FMM  C30  C30  C 0 1 Y N N 16.519 38.462 45.246  0.966  1.138   9.122  C30 FMM 30
-FMM  C31  C31  C 0 1 Y N N 15.653 39.527 45.102  1.519  1.166  10.388  C31 FMM 31
-FMM  C32  C32  C 0 1 Y N N 14.354 39.312 44.693  2.065  0.018  10.930  C32 FMM 32
-FMM  C33  C33  C 0 1 Y N N 13.916 38.036 44.429  2.059 -1.160  10.204  C33 FMM 33
-FMM  F34  F34  F 0 1 N N N 12.679 37.837 44.035  2.592 -2.283  10.733  F34 FMM 34
-FMM  C35  C35  C 0 1 Y N N 14.772 36.966 44.573  1.499 -1.188   8.938  C35 FMM 35
-FMM  C36  C36  C 0 1 Y N N 15.665 33.415 42.999  1.498  0.463   3.683  C36 FMM 36
-FMM  CL3  CL3 CL 0 0 N N N 14.784 32.514 44.128  3.187  0.844   3.807  CL3 FMM 37
-FMM  C38  C38  C 0 1 Y N N 15.607 33.098 41.660  0.889  0.417   2.444  C38 FMM 38
-FMM  C39  C39  C 0 1 Y N N 15.053 32.959 37.349 -3.072  0.346  -0.280  C39 FMM 39
-FMM  C40  C40  C 0 1 Y N N 16.220 32.545 36.731 -2.464 -0.227  -1.399  C40 FMM 40
-FMM H11A  1H1  H 0 0 N N N 22.846 35.458 30.649  3.919  1.883 -11.497 H11A FMM 41
-FMM  H12  2H1  H 0 1 N N N 21.821 33.918 30.589  2.158  1.629 -11.507  H12 FMM 42
-FMM  H13  3H1  H 0 1 N N N 22.228 34.890 32.110  2.890  2.738 -10.323  H13 FMM 43
-FMM  H51  1H5  H 0 1 N N N 24.032 31.979 33.313  1.549  1.539  -8.369  H51 FMM 44
-FMM  H52  2H5  H 0 1 N N N 24.088 31.065 31.898  0.816  0.430  -9.552  H52 FMM 45
-FMM  H61  1H6  H 0 1 N N N 21.725 30.823 32.000  1.629 -1.509  -8.238  H61 FMM 46
-FMM  H62  2H6  H 0 1 N N N 21.563 32.431 31.524  2.361 -0.400  -7.055  H62 FMM 47
-FMM  HN7  HN7  H 0 1 N N N 20.961 33.003 33.651  0.273  0.445  -6.563  HN7 FMM 48
-FMM  H81  1H8  H 0 1 N N N 21.284 30.812 35.296  0.344 -2.463  -6.549  H81 FMM 49
-FMM  H82  2H8  H 0 1 N N N 21.232 30.063 33.787  1.077 -1.354  -5.366  H82 FMM 50
-FMM  H10  H10  H 0 1 N N N 19.018 30.631 32.132 -2.321 -2.753  -6.481  H10 FMM 51
-FMM  H11  H11  H 0 1 N N N 16.607 31.133 32.712 -4.167 -2.141  -4.614  H11 FMM 52
-FMM  H15  H15  H 0 1 N N N 14.905 31.598 33.704 -5.062  0.013  -3.573  H15 FMM 53
-FMM  H16  H16  H 0 1 N N N 12.850 32.344 34.813 -6.141  1.006  -1.633  H16 FMM 54
-FMM  H19  H19  H 0 1 N N N 11.772 34.121 39.050 -4.776  1.891   2.704  H19 FMM 55
-FMM  H22  H22  H 0 1 N N N 16.886 34.184 38.873 -0.590 -0.249   0.319  H22 FMM 56
-FMM  H24  H24  H 0 1 N N N 17.701 35.508 40.458 -2.250 -0.382   3.417  H24 FMM 57
-FMM  H25  H25  H 0 1 N N N 17.782 36.056 42.894 -1.162 -0.307   5.623  H25 FMM 58
-FMM H281 1H28  H 0 0 N N N 17.991 36.160 44.542 -0.447  0.667   6.954 H281 FMM 59
-FMM H282 2H28  H 0 0 N N N 17.519 35.986 46.161 -0.046 -1.060   6.815 H282 FMM 60
-FMM  H30  H30  H 0 1 N N N 17.559 38.635 45.571  0.539  2.035   8.699  H30 FMM 61
-FMM  H31  H31  H 0 1 N N N 16.000 40.552 45.314  1.525  2.086  10.955  H31 FMM 62
-FMM  H32  H32  H 0 1 N N N 13.663 40.164 44.577  2.498  0.040  11.920  H32 FMM 63
-FMM  H35  H35  H 0 1 N N N 14.409 35.946 44.361  1.493 -2.107   8.370  H35 FMM 64
-FMM  H38  H38  H 0 1 N N N 14.983 32.251 41.330  1.463  0.620   1.552  H38 FMM 65
-FMM  H40  H40  H 0 1 N N N 17.172 32.602 37.286 -1.443 -0.576  -1.347  H40 FMM 66
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FMM C1   C1   C  0 1 N N N 22.604 34.487 31.141 3.027  1.808  -10.875 C1   FMM 1  
+FMM S2   S2   S  0 1 N N N 24.036 33.465 31.350 3.219  0.434  -9.706  S2   FMM 2  
+FMM O3   O3   O  0 1 N N N 25.053 34.204 32.067 3.256  -0.787 -10.431 O3   FMM 3  
+FMM O4   O4   O  0 1 N N N 24.543 33.077 30.053 4.267  0.743  -8.797  O4   FMM 4  
+FMM C5   C5   C  0 1 N N N 23.587 31.980 32.291 1.630  0.559  -8.839  C5   FMM 5  
+FMM C6   C6   C  0 1 N N N 22.061 31.836 32.324 1.547  -0.529 -7.768  C6   FMM 6  
+FMM N7   N7   N  0 1 N N N 21.569 32.184 33.665 0.261  -0.429 -7.066  N7   FMM 7  
+FMM C8   C8   C  0 1 N N N 20.914 31.019 34.265 0.246  -1.496 -6.057  C8   FMM 8  
+FMM C9   C9   C  0 1 Y N N 19.416 31.208 34.223 -1.053 -1.449 -5.295  C9   FMM 9  
+FMM C10  C10  C  0 1 Y N N 18.674 30.977 33.121 -2.183 -2.103 -5.630  C10  FMM 10 
+FMM C11  C11  C  0 1 Y N N 17.445 31.237 33.421 -3.148 -1.785 -4.653  C11  FMM 11 
+FMM C12  C12  C  0 1 Y N N 17.409 31.645 34.731 -2.550 -0.939 -3.772  C12  FMM 12 
+FMM O13  O13  O  0 1 Y N N 18.655 31.653 35.363 -1.279 -0.745 -4.174  O13  FMM 13 
+FMM C14  C14  C  0 1 Y N N 16.176 32.058 35.407 -3.184 -0.339 -2.580  C14  FMM 14 
+FMM C15  C15  C  0 1 Y N N 14.958 31.986 34.735 -4.513 0.110  -2.648  C15  FMM 15 
+FMM C16  C16  C  0 1 Y N N 13.807 32.402 35.359 -5.118 0.665  -1.565  C16  FMM 16 
+FMM C17  C17  C  0 1 Y N N 13.849 32.890 36.664 -4.413 0.796  -0.359  C17  FMM 17 
+FMM N18  N18  N  0 1 Y N N 12.683 33.305 37.276 -4.974 1.339  0.731   N18  FMM 18 
+FMM C19  C19  C  0 1 Y N N 12.708 33.790 38.568 -4.292 1.449  1.846   C19  FMM 19 
+FMM N20  N20  N  0 1 Y N N 13.899 33.863 39.260 -3.038 1.044  1.968   N20  FMM 20 
+FMM C21  C21  C  0 1 Y N N 15.077 33.452 38.668 -2.387 0.493  0.952   C21  FMM 21 
+FMM N22  N22  N  0 1 N N N 16.282 33.527 39.366 -1.081 0.074  1.091   N22  FMM 22 
+FMM C23  C23  C  0 1 Y N N 16.332 33.843 40.735 -0.462 0.117  2.346   C23  FMM 23 
+FMM C24  C24  C  0 1 Y N N 17.118 34.909 41.178 -1.199 -0.145 3.493   C24  FMM 24 
+FMM C25  C25  C  0 1 Y N N 17.164 35.215 42.535 -0.589 -0.103 4.731   C25  FMM 25 
+FMM C26  C26  C  0 1 Y N N 16.428 34.457 43.438 0.760  0.201  4.829   C26  FMM 26 
+FMM O27  O27  O  0 1 N N N 16.446 34.747 44.828 1.361  0.242  6.049   O27  FMM 27 
+FMM C28  C28  C  0 1 N N N 17.065 36.002 45.143 0.355  -0.067 7.015   C28  FMM 28 
+FMM C29  C29  C  0 1 Y N N 16.085 37.181 44.984 0.958  -0.038 8.396   C29  FMM 29 
+FMM C30  C30  C  0 1 Y N N 16.519 38.462 45.246 0.966  1.138  9.122   C30  FMM 30 
+FMM C31  C31  C  0 1 Y N N 15.653 39.527 45.102 1.519  1.166  10.388  C31  FMM 31 
+FMM C32  C32  C  0 1 Y N N 14.354 39.312 44.693 2.065  0.018  10.930  C32  FMM 32 
+FMM C33  C33  C  0 1 Y N N 13.916 38.036 44.429 2.059  -1.160 10.204  C33  FMM 33 
+FMM F34  F34  F  0 1 N N N 12.679 37.837 44.035 2.592  -2.283 10.733  F34  FMM 34 
+FMM C35  C35  C  0 1 Y N N 14.772 36.966 44.573 1.499  -1.188 8.938   C35  FMM 35 
+FMM C36  C36  C  0 1 Y N N 15.665 33.415 42.999 1.498  0.463  3.683   C36  FMM 36 
+FMM CL3  CL3  CL 0 0 N N N 14.784 32.514 44.128 3.187  0.844  3.807   CL3  FMM 37 
+FMM C38  C38  C  0 1 Y N N 15.607 33.098 41.660 0.889  0.417  2.444   C38  FMM 38 
+FMM C39  C39  C  0 1 Y N N 15.053 32.959 37.349 -3.072 0.346  -0.280  C39  FMM 39 
+FMM C40  C40  C  0 1 Y N N 16.220 32.545 36.731 -2.464 -0.227 -1.399  C40  FMM 40 
+FMM H11A 1H1  H  0 0 N N N 22.846 35.458 30.649 3.919  1.883  -11.497 H11A FMM 41 
+FMM H12  2H1  H  0 1 N N N 21.821 33.918 30.589 2.158  1.629  -11.507 H12  FMM 42 
+FMM H13  3H1  H  0 1 N N N 22.228 34.890 32.110 2.890  2.738  -10.323 H13  FMM 43 
+FMM H51  1H5  H  0 1 N N N 24.032 31.979 33.313 1.549  1.539  -8.369  H51  FMM 44 
+FMM H52  2H5  H  0 1 N N N 24.088 31.065 31.898 0.816  0.430  -9.552  H52  FMM 45 
+FMM H61  1H6  H  0 1 N N N 21.725 30.823 32.000 1.629  -1.509 -8.238  H61  FMM 46 
+FMM H62  2H6  H  0 1 N N N 21.563 32.431 31.524 2.361  -0.400 -7.055  H62  FMM 47 
+FMM HN7  HN7  H  0 1 N N N 20.961 33.003 33.651 0.273  0.445  -6.563  HN7  FMM 48 
+FMM H81  1H8  H  0 1 N N N 21.284 30.812 35.296 0.344  -2.463 -6.549  H81  FMM 49 
+FMM H82  2H8  H  0 1 N N N 21.232 30.063 33.787 1.077  -1.354 -5.366  H82  FMM 50 
+FMM H10  H10  H  0 1 N N N 19.018 30.631 32.132 -2.321 -2.753 -6.481  H10  FMM 51 
+FMM H11  H11  H  0 1 N N N 16.607 31.133 32.712 -4.167 -2.141 -4.614  H11  FMM 52 
+FMM H15  H15  H  0 1 N N N 14.905 31.598 33.704 -5.062 0.013  -3.573  H15  FMM 53 
+FMM H16  H16  H  0 1 N N N 12.850 32.344 34.813 -6.141 1.006  -1.633  H16  FMM 54 
+FMM H19  H19  H  0 1 N N N 11.772 34.121 39.050 -4.776 1.891  2.704   H19  FMM 55 
+FMM H22  H22  H  0 1 N N N 16.886 34.184 38.873 -0.590 -0.249 0.319   H22  FMM 56 
+FMM H24  H24  H  0 1 N N N 17.701 35.508 40.458 -2.250 -0.382 3.417   H24  FMM 57 
+FMM H25  H25  H  0 1 N N N 17.782 36.056 42.894 -1.162 -0.307 5.623   H25  FMM 58 
+FMM H281 1H28 H  0 0 N N N 17.991 36.160 44.542 -0.447 0.667  6.954   H281 FMM 59 
+FMM H282 2H28 H  0 0 N N N 17.519 35.986 46.161 -0.046 -1.060 6.815   H282 FMM 60 
+FMM H30  H30  H  0 1 N N N 17.559 38.635 45.571 0.539  2.035  8.699   H30  FMM 61 
+FMM H31  H31  H  0 1 N N N 16.000 40.552 45.314 1.525  2.086  10.955  H31  FMM 62 
+FMM H32  H32  H  0 1 N N N 13.663 40.164 44.577 2.498  0.040  11.920  H32  FMM 63 
+FMM H35  H35  H  0 1 N N N 14.409 35.946 44.361 1.493  -2.107 8.370   H35  FMM 64 
+FMM H38  H38  H  0 1 N N N 14.983 32.251 41.330 1.463  0.620  1.552   H38  FMM 65 
+FMM H40  H40  H  0 1 N N N 17.172 32.602 37.286 -1.443 -0.576 -1.347  H40  FMM 66 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FMM  C1   S2 SING N N  1
-FMM  C1 H11A SING N N  2
-FMM  C1  H12 SING N N  3
-FMM  C1  H13 SING N N  4
-FMM  S2   O3 DOUB N N  5
-FMM  S2   O4 DOUB N N  6
-FMM  S2   C5 SING N N  7
-FMM  C5   C6 SING N N  8
-FMM  C5  H51 SING N N  9
-FMM  C5  H52 SING N N 10
-FMM  C6   N7 SING N N 11
-FMM  C6  H61 SING N N 12
-FMM  C6  H62 SING N N 13
-FMM  N7   C8 SING N N 14
-FMM  N7  HN7 SING N N 15
-FMM  C8   C9 SING N N 16
-FMM  C8  H81 SING N N 17
-FMM  C8  H82 SING N N 18
-FMM  C9  C10 DOUB Y N 19
-FMM  C9  O13 SING Y N 20
-FMM C10  C11 SING Y N 21
-FMM C10  H10 SING N N 22
-FMM C11  C12 DOUB Y N 23
-FMM C11  H11 SING N N 24
-FMM C12  O13 SING Y N 25
-FMM C12  C14 SING Y N 26
-FMM C14  C15 SING Y N 27
-FMM C14  C40 DOUB Y N 28
-FMM C15  C16 DOUB Y N 29
-FMM C15  H15 SING N N 30
-FMM C16  C17 SING Y N 31
-FMM C16  H16 SING N N 32
-FMM C17  N18 DOUB Y N 33
-FMM C17  C39 SING Y N 34
-FMM N18  C19 SING Y N 35
-FMM C19  N20 DOUB Y N 36
-FMM C19  H19 SING N N 37
-FMM N20  C21 SING Y N 38
-FMM C21  N22 SING N N 39
-FMM C21  C39 DOUB Y N 40
-FMM N22  C23 SING N N 41
-FMM N22  H22 SING N N 42
-FMM C23  C24 DOUB Y N 43
-FMM C23  C38 SING Y N 44
-FMM C24  C25 SING Y N 45
-FMM C24  H24 SING N N 46
-FMM C25  C26 DOUB Y N 47
-FMM C25  H25 SING N N 48
-FMM C26  O27 SING N N 49
-FMM C26  C36 SING Y N 50
-FMM O27  C28 SING N N 51
-FMM C28  C29 SING N N 52
-FMM C28 H281 SING N N 53
-FMM C28 H282 SING N N 54
-FMM C29  C30 DOUB Y N 55
-FMM C29  C35 SING Y N 56
-FMM C30  C31 SING Y N 57
-FMM C30  H30 SING N N 58
-FMM C31  C32 DOUB Y N 59
-FMM C31  H31 SING N N 60
-FMM C32  C33 SING Y N 61
-FMM C32  H32 SING N N 62
-FMM C33  F34 SING N N 63
-FMM C33  C35 DOUB Y N 64
-FMM C35  H35 SING N N 65
-FMM C36  CL3 SING N N 66
-FMM C36  C38 DOUB Y N 67
-FMM C38  H38 SING N N 68
-FMM C39  C40 SING Y N 69
-FMM C40  H40 SING N N 70
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FMM C1  S2   SING N N 1  
+FMM C1  H11A SING N N 2  
+FMM C1  H12  SING N N 3  
+FMM C1  H13  SING N N 4  
+FMM S2  O3   DOUB N N 5  
+FMM S2  O4   DOUB N N 6  
+FMM S2  C5   SING N N 7  
+FMM C5  C6   SING N N 8  
+FMM C5  H51  SING N N 9  
+FMM C5  H52  SING N N 10 
+FMM C6  N7   SING N N 11 
+FMM C6  H61  SING N N 12 
+FMM C6  H62  SING N N 13 
+FMM N7  C8   SING N N 14 
+FMM N7  HN7  SING N N 15 
+FMM C8  C9   SING N N 16 
+FMM C8  H81  SING N N 17 
+FMM C8  H82  SING N N 18 
+FMM C9  C10  DOUB Y N 19 
+FMM C9  O13  SING Y N 20 
+FMM C10 C11  SING Y N 21 
+FMM C10 H10  SING N N 22 
+FMM C11 C12  DOUB Y N 23 
+FMM C11 H11  SING N N 24 
+FMM C12 O13  SING Y N 25 
+FMM C12 C14  SING Y N 26 
+FMM C14 C15  SING Y N 27 
+FMM C14 C40  DOUB Y N 28 
+FMM C15 C16  DOUB Y N 29 
+FMM C15 H15  SING N N 30 
+FMM C16 C17  SING Y N 31 
+FMM C16 H16  SING N N 32 
+FMM C17 N18  DOUB Y N 33 
+FMM C17 C39  SING Y N 34 
+FMM N18 C19  SING Y N 35 
+FMM C19 N20  DOUB Y N 36 
+FMM C19 H19  SING N N 37 
+FMM N20 C21  SING Y N 38 
+FMM C21 N22  SING N N 39 
+FMM C21 C39  DOUB Y N 40 
+FMM N22 C23  SING N N 41 
+FMM N22 H22  SING N N 42 
+FMM C23 C24  DOUB Y N 43 
+FMM C23 C38  SING Y N 44 
+FMM C24 C25  SING Y N 45 
+FMM C24 H24  SING N N 46 
+FMM C25 C26  DOUB Y N 47 
+FMM C25 H25  SING N N 48 
+FMM C26 O27  SING N N 49 
+FMM C26 C36  SING Y N 50 
+FMM O27 C28  SING N N 51 
+FMM C28 C29  SING N N 52 
+FMM C28 H281 SING N N 53 
+FMM C28 H282 SING N N 54 
+FMM C29 C30  DOUB Y N 55 
+FMM C29 C35  SING Y N 56 
+FMM C30 C31  SING Y N 57 
+FMM C30 H30  SING N N 58 
+FMM C31 C32  DOUB Y N 59 
+FMM C31 H31  SING N N 60 
+FMM C32 C33  SING Y N 61 
+FMM C32 H32  SING N N 62 
+FMM C33 F34  SING N N 63 
+FMM C33 C35  DOUB Y N 64 
+FMM C35 H35  SING N N 65 
+FMM C36 CL3  SING N N 66 
+FMM C36 C38  DOUB Y N 67 
+FMM C38 H38  SING N N 68 
+FMM C39 C40  SING Y N 69 
+FMM C40 H40  SING N N 70 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FMM           SMILES              ACDLabs 10.04                                                                                                                                        Fc1cccc(c1)COc2ccc(cc2Cl)Nc5ncnc4c5cc(c3oc(cc3)CNCCS(=O)(=O)C)cc4
-FMM SMILES_CANONICAL               CACTVS 3.341                                                                                                                                    C[S](=O)(=O)CCNCc1oc(cc1)c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2
-FMM           SMILES               CACTVS 3.341                                                                                                                                    C[S](=O)(=O)CCNCc1oc(cc1)c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2
-FMM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                    CS(=O)(=O)CCNCc1ccc(o1)c2ccc3c(c2)c(ncn3)Nc4ccc(c(c4)Cl)OCc5cccc(c5)F
-FMM           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                    CS(=O)(=O)CCNCc1ccc(o1)c2ccc3c(c2)c(ncn3)Nc4ccc(c(c4)Cl)OCc5cccc(c5)F
-FMM            InChI                InChI  1.03 InChI=1S/C29H26ClFN4O4S/c1-40(36,37)12-11-32-16-23-7-10-27(39-23)20-5-8-26-24(14-20)29(34-18-33-26)35-22-6-9-28(25(30)15-22)38-17-19-3-2-4-21(31)13-19/h2-10,13-15,18,32H,11-12,16-17H2,1H3,(H,33,34,35)
-FMM         InChIKey                InChI  1.03                                                                                                                                                                              BCFGMOOMADDAQU-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FMM SMILES           ACDLabs              10.04 "Fc1cccc(c1)COc2ccc(cc2Cl)Nc5ncnc4c5cc(c3oc(cc3)CNCCS(=O)(=O)C)cc4"                                                                                                                                        
+FMM SMILES_CANONICAL CACTVS               3.341 "C[S](=O)(=O)CCNCc1oc(cc1)c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2"                                                                                                                                    
+FMM SMILES           CACTVS               3.341 "C[S](=O)(=O)CCNCc1oc(cc1)c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2"                                                                                                                                    
+FMM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CS(=O)(=O)CCNCc1ccc(o1)c2ccc3c(c2)c(ncn3)Nc4ccc(c(c4)Cl)OCc5cccc(c5)F"                                                                                                                                    
+FMM SMILES           "OpenEye OEToolkits" 1.5.0 "CS(=O)(=O)CCNCc1ccc(o1)c2ccc3c(c2)c(ncn3)Nc4ccc(c(c4)Cl)OCc5cccc(c5)F"                                                                                                                                    
+FMM InChI            InChI                1.03  "InChI=1S/C29H26ClFN4O4S/c1-40(36,37)12-11-32-16-23-7-10-27(39-23)20-5-8-26-24(14-20)29(34-18-33-26)35-22-6-9-28(25(30)15-22)38-17-19-3-2-4-21(31)13-19/h2-10,13-15,18,32H,11-12,16-17H2,1H3,(H,33,34,35)" 
+FMM InChIKey         InChI                1.03  BCFGMOOMADDAQU-UHFFFAOYSA-N                                                                                                                                                                                
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FMM "SYSTEMATIC NAME"              ACDLabs 10.04 N-{3-chloro-4-[(3-fluorobenzyl)oxy]phenyl}-6-[5-({[2-(methylsulfonyl)ethyl]amino}methyl)furan-2-yl]quinazolin-4-amine
-FMM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 N-[3-chloro-4-[(3-fluorophenyl)methoxy]phenyl]-6-[5-[(2-methylsulfonylethylamino)methyl]furan-2-yl]quinazolin-4-amine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FMM "SYSTEMATIC NAME" ACDLabs              10.04 "N-{3-chloro-4-[(3-fluorobenzyl)oxy]phenyl}-6-[5-({[2-(methylsulfonyl)ethyl]amino}methyl)furan-2-yl]quinazolin-4-amine" 
+FMM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "N-[3-chloro-4-[(3-fluorophenyl)methoxy]phenyl]-6-[5-[(2-methylsulfonylethylamino)methyl]furan-2-yl]quinazolin-4-amine" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FMM     "Create component" 2004-10-04 RCSB
-FMM "Modify aromatic_flag" 2011-06-04 RCSB
-FMM    "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   FMM
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01259
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Lapatinib
-_pdbe_chem_comp_drugbank_details.description               "Lapatinib is an anti-cancer drug developed by GlaxoSmithKline (GSK) as a treatment for solid tumours such as breast and lung cancer. It was approved by the FDA on March 13, 2007, for use in patients with advanced metastatic breast cancer in conjunction with the chemotherapy drug Capecitabine. Lapatinib is human epidermal growth factor receptor type 2 (HER2/ERBB2) and epidermal growth factor receptor (HER1/EGFR/ERBB1) tyrosine kinases inhibitor. It binds to the intracellular phosphorylation domain to prevent receptor autophosphorylation upon ligand binding."
-_pdbe_chem_comp_drugbank_details.cas_number                231277-92-2
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both epidermal growth factor receptor (HER1/EGFR/ERBB1) and human epidermal growth factor receptor type 2 (HER2/ERBB2)with a dissociation half-life of &ge;300 minutes. Lapatinib inhibits ERBB-driven tumor cell growth in vitro and in various animal models. An additive effect was demonstrated in an in vitro study when lapatinib and 5-florouracil (the active metabolite of capecitabine) were used in combination in the 4 tumor cell lines tested. The growth inhibitory effects of lapatinib were evaluated in trastuzumab-conditioned cell lines. Lapatinib retained significant activity against breast cancer cell lines selected for long-term growth in trastuzumab-containing medium in vitro. These in vitro findings suggest non-cross-resistance between these two agents."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           FMM
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01259
-_pdbe_chem_comp_drugbank_classification.parent            Quinazolinamines
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             Diazanaphthalenes
-_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as quinazolinamines. These are heterocyclic aromatic compounds containing a quianazoline moiety substituted by one or more amine groups."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-FMM DB01259        "Epidermal growth factor receptor" Humans P00533 yes 1
-FMM DB01259 "Receptor tyrosine-protein kinase erbB-2" Humans P04626 yes 2
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-FMM                                                                                                                   GW-2016   ChEMBL
-FMM                                                                                                                 Lapatinib   ChEMBL
-FMM                                                                                                                    Tyverb   ChEMBL
-FMM                                                                                                                 GW-572016   ChEMBL
-FMM                                                                                                                 Lapatinib DrugBank
-FMM N-(3-chloro-4-((3-fluorophenyl)methoxy)phenyl)-6-(5-(((2-(methylsulfonyl)ethyl)amino)methyl)-2-furanyl)-4-quinazolinamine DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FMM  C1  C  3.000 -2.941  1
-FMM  S2  S  4.370 -3.551  2
-FMM  O3  O  5.741 -4.161  3
-FMM  O4  O  3.760 -4.921  4
-FMM  C5  C  4.981 -2.181  5
-FMM  C6  C  6.472 -2.024  6
-FMM  N7  N  7.082 -0.653  7
-FMM  C8  C  8.574 -0.497  8
-FMM  C9  C  9.184  0.874  9
-FMM C10  C  8.434  2.173 10
-FMM C11  C  9.438  3.287 11
-FMM C12  C 10.808  2.677 12
-FMM O13  O 10.652  1.185 13
-FMM C14  C 12.107  3.427 14
-FMM C15  C 12.107  4.927 15
-FMM C16  C 13.406  5.677 16
-FMM C17  C 14.705  4.927 17
-FMM N18  N 16.046  5.729 18
-FMM C19  C 17.405  4.958 19
-FMM N20  N 17.405  3.396 20
-FMM C21  C 16.046  2.625 21
-FMM N22  N 16.029  1.125 22
-FMM C23  C 17.319  0.360 23
-FMM C24  C 18.627  1.095 24
-FMM C25  C 19.917  0.331 25
-FMM C26  C 19.900 -1.169 26
-FMM O27  O 21.190 -1.934 27
-FMM C28  C 22.498 -1.200 28
-FMM C29  C 23.788 -1.965 29
-FMM C30  C 25.096 -1.230 30
-FMM C31  C 26.386 -1.995 31
-FMM C32  C 26.369 -3.494 32
-FMM C33  C 25.061 -4.229 33
-FMM F34  F 25.044 -5.729 34
-FMM C35  C 23.770 -3.464 35
-FMM C36  C 18.592 -1.904 36
-FMM CL3 Cl 18.575 -3.404 37
-FMM C38  C 17.302 -1.139 38
-FMM C39  C 14.705  3.427 39
-FMM C40  C 13.406  2.677 40
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-FMM  C1  S2 SINGLE NONE  1
-FMM  S2  O3 DOUBLE NONE  2
-FMM  S2  O4 DOUBLE NONE  3
-FMM  S2  C5 SINGLE NONE  4
-FMM  C5  C6 SINGLE NONE  5
-FMM  C6  N7 SINGLE NONE  6
-FMM  N7  C8 SINGLE NONE  7
-FMM  C8  C9 SINGLE NONE  8
-FMM  C9 C10 DOUBLE NONE  9
-FMM  C9 O13 SINGLE NONE 10
-FMM C10 C11 SINGLE NONE 11
-FMM C11 C12 DOUBLE NONE 12
-FMM C12 O13 SINGLE NONE 13
-FMM C12 C14 SINGLE NONE 14
-FMM C14 C15 DOUBLE NONE 15
-FMM C14 C40 SINGLE NONE 16
-FMM C15 C16 SINGLE NONE 17
-FMM C16 C17 DOUBLE NONE 18
-FMM C17 N18 SINGLE NONE 19
-FMM C17 C39 SINGLE NONE 20
-FMM N18 C19 DOUBLE NONE 21
-FMM C19 N20 SINGLE NONE 22
-FMM N20 C21 DOUBLE NONE 23
-FMM C21 N22 SINGLE NONE 24
-FMM C21 C39 SINGLE NONE 25
-FMM N22 C23 SINGLE NONE 26
-FMM C23 C24 DOUBLE NONE 27
-FMM C23 C38 SINGLE NONE 28
-FMM C24 C25 SINGLE NONE 29
-FMM C25 C26 DOUBLE NONE 30
-FMM C26 O27 SINGLE NONE 31
-FMM C26 C36 SINGLE NONE 32
-FMM O27 C28 SINGLE NONE 33
-FMM C28 C29 SINGLE NONE 34
-FMM C29 C30 DOUBLE NONE 35
-FMM C29 C35 SINGLE NONE 36
-FMM C30 C31 SINGLE NONE 37
-FMM C31 C32 DOUBLE NONE 38
-FMM C32 C33 SINGLE NONE 39
-FMM C33 F34 SINGLE NONE 40
-FMM C33 C35 DOUBLE NONE 41
-FMM C36 CL3 SINGLE NONE 42
-FMM C36 C38 DOUBLE NONE 43
-FMM C39 C40 DOUBLE NONE 44
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-FMM MurckoScaffold S1 scaffold c1ccc(COc2ccc(Nc3ncnc4ccc(-c5ccco5)cc34)cc2)cc1 InChI=1S/C25H19N3O2/c1-2-5-18(6-3-1)16-30-21-11-9-20(10-12-21)28-25-22-15-19(24-7-4-14-29-24)8-13-23(22)26-17-27-25/h1-15,17H,16H2,(H,26,27,28) CJQVGTFFDYKCRG-UHFFFAOYSA-N
-FMM          furan F1 fragment                                         c1ccoc1                                                                                                               InChI=1S/C4H4O/c1-2-4-5-3-1/h1-4H YLQBMQCUIZJEEH-UHFFFAOYSA-N
-FMM         phenyl F2 fragment                                        c1ccccc1                                                                                                              InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-FMM     pyrimidine F3 fragment                                        c1cncnc1                                                                                                            InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-FMM    quinazoline F4 fragment                                  c1ccc2ncncc2c1                                                                                                 InChI=1S/C8H6N2/c1-2-4-8-7(3-1)5-9-6-10-8/h1-6H JWVCLYRUEFBMGU-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-FMM  C9 F1 1
-FMM C10 F1 1
-FMM C11 F1 1
-FMM C12 F1 1
-FMM O13 F1 1
-FMM C14 F2 1
-FMM C15 F2 1
-FMM C16 F2 1
-FMM C17 F2 1
-FMM C39 F2 1
-FMM C40 F2 1
-FMM C23 F2 2
-FMM C24 F2 2
-FMM C25 F2 2
-FMM C26 F2 2
-FMM C36 F2 2
-FMM C38 F2 2
-FMM C29 F2 3
-FMM C30 F2 3
-FMM C31 F2 3
-FMM C32 F2 3
-FMM C33 F2 3
-FMM C35 F2 3
-FMM C39 F3 1
-FMM C17 F3 1
-FMM N18 F3 1
-FMM C19 F3 1
-FMM N20 F3 1
-FMM C21 F3 1
-FMM C14 F4 1
-FMM C15 F4 1
-FMM C16 F4 1
-FMM C17 F4 1
-FMM C39 F4 1
-FMM C40 F4 1
-FMM C21 F4 1
-FMM N20 F4 1
-FMM C19 F4 1
-FMM N18 F4 1
-FMM  C9 S1 1
-FMM C10 S1 1
-FMM C11 S1 1
-FMM C12 S1 1
-FMM O13 S1 1
-FMM C14 S1 1
-FMM C15 S1 1
-FMM C16 S1 1
-FMM C17 S1 1
-FMM N18 S1 1
-FMM C19 S1 1
-FMM N20 S1 1
-FMM C21 S1 1
-FMM N22 S1 1
-FMM C23 S1 1
-FMM C24 S1 1
-FMM C25 S1 1
-FMM C26 S1 1
-FMM O27 S1 1
-FMM C28 S1 1
-FMM C29 S1 1
-FMM C30 S1 1
-FMM C31 S1 1
-FMM C32 S1 1
-FMM C33 S1 1
-FMM C35 S1 1
-FMM C36 S1 1
-FMM C38 S1 1
-FMM C39 S1 1
-FMM C40 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FMM
-_pdbe_chem_comp_rdkit_properties.exactmw                               580.135
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     12
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                8
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        11
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.172
-_pdbe_chem_comp_rdkit_properties.NumRings                              5
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      5
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             272.296
-_pdbe_chem_comp_rdkit_properties.tpsa                                  106.350
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          3.998
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             147.806
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         40
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-FMM UniChem    ChEMBL        CHEMBL554
-FMM UniChem  DrugBank          DB01259
-FMM UniChem  DrugBank          DB02584
-FMM UniChem     ChEBI            49603
-FMM UniChem      ZINC ZINC000001550477
-FMM UniChem BindingDb             5445
-FMM UniChem    BRENDA           213440
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FMM   C1  10.535 -3.064  0.085 ETKDGv2  1
-FMM   S2  10.453 -1.400 -0.546 ETKDGv2  2
-FMM   O3  10.676 -0.430  0.580 ETKDGv2  3
-FMM   O4  11.534 -1.216 -1.573 ETKDGv2  4
-FMM   C5   8.867 -1.087 -1.315 ETKDGv2  5
-FMM   C6   7.696 -1.364 -0.370 ETKDGv2  6
-FMM   N7   7.738 -0.456  0.786 ETKDGv2  7
-FMM   C8   6.767 -0.844  1.819 ETKDGv2  8
-FMM   C9   5.352 -0.632  1.363 ETKDGv2  9
-FMM  C10   4.428 -1.575  1.249 ETKDGv2 10
-FMM  C11   3.218 -0.916  0.768 ETKDGv2 11
-FMM  C12   3.508  0.376  0.631 ETKDGv2 12
-FMM  O13   4.831  0.599  0.994 ETKDGv2 13
-FMM  C14   2.595  1.446  0.163 ETKDGv2 14
-FMM  C15   3.060  2.703  0.027 ETKDGv2 15
-FMM  C16   2.172  3.790 -0.431 ETKDGv2 16
-FMM  C17   0.894  3.527 -0.726 ETKDGv2 17
-FMM  N18   0.011  4.574 -1.139 ETKDGv2 18
-FMM  C19  -1.237  4.329 -1.411 ETKDGv2 19
-FMM  N20  -1.770  2.995 -1.321 ETKDGv2 20
-FMM  C21  -1.066  1.963 -0.946 ETKDGv2 21
-FMM  N22  -1.668  0.656 -0.944 ETKDGv2 22
-FMM  C23  -3.072  0.420 -0.743 ETKDGv2 23
-FMM  C24  -3.817  1.220  0.042 ETKDGv2 24
-FMM  C25  -5.251  0.936  0.254 ETKDGv2 25
-FMM  C26  -5.826 -0.140 -0.321 ETKDGv2 26
-FMM  O27  -7.185 -0.451 -0.150 ETKDGv2 27
-FMM  C28  -8.106  0.314  0.623 ETKDGv2 28
-FMM  C29  -9.467 -0.313  0.530 ETKDGv2 29
-FMM  C30 -10.084 -0.806  1.620 ETKDGv2 30
-FMM  C31 -11.424 -1.420  1.502 ETKDGv2 31
-FMM  C32 -12.029 -1.488  0.310 ETKDGv2 32
-FMM  C33 -11.358 -0.949 -0.891 ETKDGv2 33
-FMM  F34 -11.974 -1.020 -2.097 ETKDGv2 34
-FMM  C35 -10.145 -0.391 -0.788 ETKDGv2 35
-FMM  C36  -5.000 -1.034 -1.166 ETKDGv2 36
-FMM  CL3  -5.722 -2.448 -1.917 ETKDGv2 37
-FMM  C38  -3.700 -0.771 -1.360 ETKDGv2 38
-FMM  C39   0.366  2.152 -0.603 ETKDGv2 39
-FMM  C40   1.168  1.166 -0.161 ETKDGv2 40
-FMM H11A  11.573 -3.288  0.404 ETKDGv2 41
-FMM  H12  10.232 -3.777 -0.709 ETKDGv2 42
-FMM  H13   9.857 -3.169  0.956 ETKDGv2 43
-FMM  H51   8.832 -0.031 -1.659 ETKDGv2 44
-FMM  H52   8.773 -1.742 -2.207 ETKDGv2 45
-FMM  H61   6.747 -1.218 -0.934 ETKDGv2 46
-FMM  H62   7.738 -2.425 -0.040 ETKDGv2 47
-FMM  HN7   7.526  0.517  0.463 ETKDGv2 48
-FMM  H81   6.938 -0.219  2.720 ETKDGv2 49
-FMM  H82   6.932 -1.902  2.123 ETKDGv2 50
-FMM  H10   4.555 -2.627  1.464 ETKDGv2 51
-FMM  H11   2.275 -1.402  0.560 ETKDGv2 52
-FMM  H15   4.092  2.944  0.255 ETKDGv2 53
-FMM  H16   2.559  4.797 -0.516 ETKDGv2 54
-FMM  H19  -1.883  5.139 -1.721 ETKDGv2 55
-FMM  H22  -1.080 -0.158 -1.230 ETKDGv2 56
-FMM  H24  -3.378  2.068  0.550 ETKDGv2 57
-FMM  H25  -5.818  1.609  0.882 ETKDGv2 58
-FMM H281  -8.163  1.350  0.225 ETKDGv2 59
-FMM H282  -7.756  0.356  1.678 ETKDGv2 60
-FMM  H30  -9.613 -0.763  2.594 ETKDGv2 61
-FMM  H31 -11.914 -1.815  2.383 ETKDGv2 62
-FMM  H32 -13.009 -1.939  0.224 ETKDGv2 63
-FMM  H35  -9.657  0.003 -1.671 ETKDGv2 64
-FMM  H38  -3.102 -1.429 -1.979 ETKDGv2 65
-FMM  H40   0.777  0.169 -0.025 ETKDGv2 66
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FMM "Create component"     2004-10-04 RCSB 
+FMM "Modify aromatic_flag" 2011-06-04 RCSB 
+FMM "Modify descriptor"    2011-06-04 RCSB 
+# 

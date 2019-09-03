@@ -109,13 +109,14 @@ LI DB01356      "Inositol monophosphatase 2" Humans O14732 unknown 3
 LI DB01356            "Glutamate receptor 3" Humans P42263 unknown 4
 #
 loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-LI                 Li(+) DrugBank
-LI         "Lithium ion" DrugBank
-LI        "Lithium, ion" DrugBank
-LI "Lithium, ion (li1+)" DrugBank
+_pdbe_chem_comp_synonyms.comp_id          
+_pdbe_chem_comp_synonyms.name             
+_pdbe_chem_comp_synonyms.provenance       
+_pdbe_chem_comp_synonyms.type             
+LI                 Li(+) DrugBank .
+LI         "Lithium ion" DrugBank .
+LI        "Lithium, ion" DrugBank .
+LI "Lithium, ion (li1+)" DrugBank .
 #
 loop_
 _software.name              
@@ -169,6 +170,7 @@ _pdbe_chem_comp_external_mappings.resource_id
 LI UniChem   ChEMBL CHEMBL1234004
 LI UniChem DrugBank       DB01356
 LI UniChem    ChEBI         49713
+LI UniChem        P         28486
 LI UniChem   BRENDA         12806
 LI UniChem   BRENDA           152
 LI UniChem   BRENDA         17651

@@ -1,419 +1,193 @@
 data_LOB
-#
-_chem_comp.id                                        LOB
-_chem_comp.name                                      LOBELINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C22 H27 N O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             2-{(2S,6R)-6-[(2R)-2-HYDROXY-2-PHENYLETHYL]-1-METHYLPIPERIDIN-2-YL}-1-PHENYLETHANONE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2005-08-04
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            337.455
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         LOB
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2BYS
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    LOB 
+_chem_comp.name                                  LOBELINE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C22 H27 N O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "2-{(2S,6R)-6-[(2R)-2-HYDROXY-2-PHENYLETHYL]-1-METHYLPIPERIDIN-2-YL}-1-PHENYLETHANONE" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2005-08-04 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        337.455 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     LOB 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2BYS 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-LOB   O1   O1 O 0 1 N N N  -5.815 22.584  6.149 -3.541 -1.410 -0.892   O1 LOB  1
-LOB   C3   C3 C 0 1 N N N  -5.871 23.800  6.088 -3.641 -0.350 -0.311   C3 LOB  2
-LOB   C1   C1 C 0 1 Y N N  -5.293 24.612  7.229 -4.968  0.247 -0.091   C1 LOB  3
-LOB   C2   C2 C 0 1 Y N N  -4.770 23.956  8.351 -6.117 -0.406 -0.550   C2 LOB  4
-LOB   C5   C5 C 0 1 Y N N  -4.231 24.683  9.414 -7.357  0.160 -0.340   C5 LOB  5
-LOB   C6   C6 C 0 1 Y N N  -4.209 26.076  9.373 -7.466  1.370  0.322   C6 LOB  6
-LOB   C7   C7 C 0 1 Y N N  -4.721 26.740  8.264 -6.334  2.022  0.779   C7 LOB  7
-LOB   C4   C4 C 0 1 Y N N  -5.254 26.009  7.201 -5.087  1.466  0.583   C4 LOB  8
-LOB   C8   C8 C 0 1 N N N  -6.479 24.410  4.837 -2.406  0.356  0.185   C8 LOB  9
-LOB   C9   C9 C 0 1 N N S  -7.993 24.207  4.642 -1.182 -0.531 -0.051   C9 LOB 10
-LOB  C12  C12 C 0 1 N N N  -8.451 22.786  4.915 -1.285 -1.782  0.823  C12 LOB 11
-LOB  C15  C15 C 0 1 N N N  -9.907 22.675  4.529 -0.075 -2.683  0.557  C15 LOB 12
-LOB  C13  C13 C 0 1 N N N -10.029 22.710  3.017  1.207 -1.878  0.794  C13 LOB 13
-LOB  C11  C11 C 0 1 N N R  -9.269 23.854  2.338  1.180 -0.622 -0.078  C11 LOB 14
-LOB   N1   N1 N 0 1 N N N  -8.316 24.573  3.234  0.034  0.216  0.293   N1 LOB 15
-LOB  C22  C22 C 0 1 N N N  -8.314 26.014  3.004  0.069  1.392 -0.586  C22 LOB 16
-LOB  C14  C14 C 0 1 N N N  -8.490 23.320  1.119  2.474  0.168  0.128  C14 LOB 17
-LOB  C16  C16 C 0 1 N N R  -8.077 24.436  0.155  3.663 -0.668 -0.352  C16 LOB 18
-LOB   O2   O2 O 0 1 N N N  -6.700 24.744  0.374  3.546 -0.899 -1.757   O2 LOB 19
-LOB  C17  C17 C 0 1 Y N N  -8.264 24.115 -1.291  4.944  0.073 -0.070  C17 LOB 20
-LOB  C18  C18 C 0 1 Y N N  -7.861 22.897 -1.838  5.706 -0.258  1.035  C18 LOB 21
-LOB  C20  C20 C 0 1 Y N N  -8.045 22.631 -3.197  6.881  0.421  1.294  C20 LOB 22
-LOB  C21  C21 C 0 1 Y N N  -8.626 23.585 -4.031  7.295  1.433  0.447  C21 LOB 23
-LOB  C10  C10 C 0 1 Y N N  -9.015 24.812 -3.492  6.534  1.764 -0.658  C10 LOB 24
-LOB  C19  C19 C 0 1 Y N N  -8.830 25.075 -2.134  5.361  1.081 -0.919  C19 LOB 25
-LOB   H2   H2 H 0 1 N N N  -4.784 22.854  8.395 -6.033 -1.350 -1.068   H2 LOB 26
-LOB   H5   H5 H 0 1 N N N  -3.821 24.153 10.290 -8.245 -0.343 -0.694   H5 LOB 27
-LOB   H6   H6 H 0 1 N N N  -3.787 26.649 10.216 -8.440  1.808  0.483   H6 LOB 28
-LOB   H7   H7 H 0 1 N N N  -4.706 27.842  8.224 -6.428  2.966  1.296   H7 LOB 29
-LOB   H4   H4 H 0 1 N N N  -5.652 26.544  6.322 -4.205  1.976  0.940   H4 LOB 30
-LOB H8C1 1H8C H 0 0 N N N  -5.932 24.045  3.937 -2.507  0.560  1.251 H8C1 LOB 31
-LOB H8C2 2H8C H 0 0 N N N  -6.237 25.498  4.794 -2.283  1.296 -0.355 H8C2 LOB 32
-LOB   H9   H9 H 0 1 N N N  -8.539 24.898  5.326 -1.143 -0.824 -1.100   H9 LOB 33
-LOB H121 1H12 H 0 0 N N N  -8.260 22.468  5.966 -2.200 -2.321  0.581 H121 LOB 34
-LOB H122 2H12 H 0 0 N N N  -7.813 22.024  4.408 -1.299 -1.492  1.874 H122 LOB 35
-LOB H151 1H15 H 0 0 N N N -10.535 23.453  5.022 -0.100 -3.034 -0.475 H151 LOB 36
-LOB H152 2H15 H 0 0 N N N -10.394 21.775  4.971 -0.100 -3.537  1.235 H152 LOB 37
-LOB H131 1H13 H 0 0 N N N -11.102 22.727  2.716  2.072 -2.486  0.531 H131 LOB 38
-LOB H132 2H13 H 0 0 N N N  -9.722 21.730  2.582  1.267 -1.591  1.844 H132 LOB 39
-LOB  H11  H11 H 0 1 N N N -10.018 24.593  1.970  1.094 -0.910 -1.126  H11 LOB 40
-LOB H221 1H22 H 0 0 N N N  -8.556 26.288  1.951  0.070  1.069 -1.627 H221 LOB 41
-LOB H222 2H22 H 0 0 N N N  -7.345 26.466  3.320 -0.809  2.011 -0.399 H222 LOB 42
-LOB H223 3H22 H 0 0 N N N  -8.998 26.531  3.717  0.970  1.970 -0.384 H223 LOB 43
-LOB H141 1H14 H 0 0 N N N  -9.066 22.525  0.590  2.429  1.096 -0.442 H141 LOB 44
-LOB H142 2H14 H 0 0 N N N  -7.608 22.718  1.438  2.595  0.397  1.187 H142 LOB 45
-LOB  H16  H16 H 0 1 N N N  -8.680 25.343  0.392  3.672 -1.622  0.174  H16 LOB 46
-LOB   HA   HA H 0 1 N N N  -6.444 25.436 -0.224  3.600 -0.035 -2.188   HA LOB 47
-LOB  H18  H18 H 0 1 N N N  -7.392 22.136 -1.191  5.382 -1.049  1.696  H18 LOB 48
-LOB  H20  H20 H 0 1 N N N  -7.728 21.660 -3.613  7.476  0.163  2.157  H20 LOB 49
-LOB  H21  H21 H 0 1 N N N  -8.776 23.373 -5.103  8.213  1.965  0.650  H21 LOB 50
-LOB  H10  H10 H 0 1 N N N  -9.471 25.577 -4.142  6.857  2.555 -1.319  H10 LOB 51
-LOB  H19  H19 H 0 1 N N N  -9.134 26.052 -1.721  4.766  1.340 -1.783  H19 LOB 52
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+LOB O1   O1   O 0 1 N N N -5.815  22.584 6.149  -3.541 -1.410 -0.892 O1   LOB 1  
+LOB C3   C3   C 0 1 N N N -5.871  23.800 6.088  -3.641 -0.350 -0.311 C3   LOB 2  
+LOB C1   C1   C 0 1 Y N N -5.293  24.612 7.229  -4.968 0.247  -0.091 C1   LOB 3  
+LOB C2   C2   C 0 1 Y N N -4.770  23.956 8.351  -6.117 -0.406 -0.550 C2   LOB 4  
+LOB C5   C5   C 0 1 Y N N -4.231  24.683 9.414  -7.357 0.160  -0.340 C5   LOB 5  
+LOB C6   C6   C 0 1 Y N N -4.209  26.076 9.373  -7.466 1.370  0.322  C6   LOB 6  
+LOB C7   C7   C 0 1 Y N N -4.721  26.740 8.264  -6.334 2.022  0.779  C7   LOB 7  
+LOB C4   C4   C 0 1 Y N N -5.254  26.009 7.201  -5.087 1.466  0.583  C4   LOB 8  
+LOB C8   C8   C 0 1 N N N -6.479  24.410 4.837  -2.406 0.356  0.185  C8   LOB 9  
+LOB C9   C9   C 0 1 N N S -7.993  24.207 4.642  -1.182 -0.531 -0.051 C9   LOB 10 
+LOB C12  C12  C 0 1 N N N -8.451  22.786 4.915  -1.285 -1.782 0.823  C12  LOB 11 
+LOB C15  C15  C 0 1 N N N -9.907  22.675 4.529  -0.075 -2.683 0.557  C15  LOB 12 
+LOB C13  C13  C 0 1 N N N -10.029 22.710 3.017  1.207  -1.878 0.794  C13  LOB 13 
+LOB C11  C11  C 0 1 N N R -9.269  23.854 2.338  1.180  -0.622 -0.078 C11  LOB 14 
+LOB N1   N1   N 0 1 N N N -8.316  24.573 3.234  0.034  0.216  0.293  N1   LOB 15 
+LOB C22  C22  C 0 1 N N N -8.314  26.014 3.004  0.069  1.392  -0.586 C22  LOB 16 
+LOB C14  C14  C 0 1 N N N -8.490  23.320 1.119  2.474  0.168  0.128  C14  LOB 17 
+LOB C16  C16  C 0 1 N N R -8.077  24.436 0.155  3.663  -0.668 -0.352 C16  LOB 18 
+LOB O2   O2   O 0 1 N N N -6.700  24.744 0.374  3.546  -0.899 -1.757 O2   LOB 19 
+LOB C17  C17  C 0 1 Y N N -8.264  24.115 -1.291 4.944  0.073  -0.070 C17  LOB 20 
+LOB C18  C18  C 0 1 Y N N -7.861  22.897 -1.838 5.706  -0.258 1.035  C18  LOB 21 
+LOB C20  C20  C 0 1 Y N N -8.045  22.631 -3.197 6.881  0.421  1.294  C20  LOB 22 
+LOB C21  C21  C 0 1 Y N N -8.626  23.585 -4.031 7.295  1.433  0.447  C21  LOB 23 
+LOB C10  C10  C 0 1 Y N N -9.015  24.812 -3.492 6.534  1.764  -0.658 C10  LOB 24 
+LOB C19  C19  C 0 1 Y N N -8.830  25.075 -2.134 5.361  1.081  -0.919 C19  LOB 25 
+LOB H2   H2   H 0 1 N N N -4.784  22.854 8.395  -6.033 -1.350 -1.068 H2   LOB 26 
+LOB H5   H5   H 0 1 N N N -3.821  24.153 10.290 -8.245 -0.343 -0.694 H5   LOB 27 
+LOB H6   H6   H 0 1 N N N -3.787  26.649 10.216 -8.440 1.808  0.483  H6   LOB 28 
+LOB H7   H7   H 0 1 N N N -4.706  27.842 8.224  -6.428 2.966  1.296  H7   LOB 29 
+LOB H4   H4   H 0 1 N N N -5.652  26.544 6.322  -4.205 1.976  0.940  H4   LOB 30 
+LOB H8C1 1H8C H 0 0 N N N -5.932  24.045 3.937  -2.507 0.560  1.251  H8C1 LOB 31 
+LOB H8C2 2H8C H 0 0 N N N -6.237  25.498 4.794  -2.283 1.296  -0.355 H8C2 LOB 32 
+LOB H9   H9   H 0 1 N N N -8.539  24.898 5.326  -1.143 -0.824 -1.100 H9   LOB 33 
+LOB H121 1H12 H 0 0 N N N -8.260  22.468 5.966  -2.200 -2.321 0.581  H121 LOB 34 
+LOB H122 2H12 H 0 0 N N N -7.813  22.024 4.408  -1.299 -1.492 1.874  H122 LOB 35 
+LOB H151 1H15 H 0 0 N N N -10.535 23.453 5.022  -0.100 -3.034 -0.475 H151 LOB 36 
+LOB H152 2H15 H 0 0 N N N -10.394 21.775 4.971  -0.100 -3.537 1.235  H152 LOB 37 
+LOB H131 1H13 H 0 0 N N N -11.102 22.727 2.716  2.072  -2.486 0.531  H131 LOB 38 
+LOB H132 2H13 H 0 0 N N N -9.722  21.730 2.582  1.267  -1.591 1.844  H132 LOB 39 
+LOB H11  H11  H 0 1 N N N -10.018 24.593 1.970  1.094  -0.910 -1.126 H11  LOB 40 
+LOB H221 1H22 H 0 0 N N N -8.556  26.288 1.951  0.070  1.069  -1.627 H221 LOB 41 
+LOB H222 2H22 H 0 0 N N N -7.345  26.466 3.320  -0.809 2.011  -0.399 H222 LOB 42 
+LOB H223 3H22 H 0 0 N N N -8.998  26.531 3.717  0.970  1.970  -0.384 H223 LOB 43 
+LOB H141 1H14 H 0 0 N N N -9.066  22.525 0.590  2.429  1.096  -0.442 H141 LOB 44 
+LOB H142 2H14 H 0 0 N N N -7.608  22.718 1.438  2.595  0.397  1.187  H142 LOB 45 
+LOB H16  H16  H 0 1 N N N -8.680  25.343 0.392  3.672  -1.622 0.174  H16  LOB 46 
+LOB HA   HA   H 0 1 N N N -6.444  25.436 -0.224 3.600  -0.035 -2.188 HA   LOB 47 
+LOB H18  H18  H 0 1 N N N -7.392  22.136 -1.191 5.382  -1.049 1.696  H18  LOB 48 
+LOB H20  H20  H 0 1 N N N -7.728  21.660 -3.613 7.476  0.163  2.157  H20  LOB 49 
+LOB H21  H21  H 0 1 N N N -8.776  23.373 -5.103 8.213  1.965  0.650  H21  LOB 50 
+LOB H10  H10  H 0 1 N N N -9.471  25.577 -4.142 6.857  2.555  -1.319 H10  LOB 51 
+LOB H19  H19  H 0 1 N N N -9.134  26.052 -1.721 4.766  1.340  -1.783 H19  LOB 52 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-LOB  O1   C3 DOUB N N  1
-LOB  C3   C1 SING N N  2
-LOB  C3   C8 SING N N  3
-LOB  C1   C2 DOUB Y N  4
-LOB  C1   C4 SING Y N  5
-LOB  C2   C5 SING Y N  6
-LOB  C2   H2 SING N N  7
-LOB  C5   C6 DOUB Y N  8
-LOB  C5   H5 SING N N  9
-LOB  C6   C7 SING Y N 10
-LOB  C6   H6 SING N N 11
-LOB  C7   C4 DOUB Y N 12
-LOB  C7   H7 SING N N 13
-LOB  C4   H4 SING N N 14
-LOB  C8   C9 SING N N 15
-LOB  C8 H8C1 SING N N 16
-LOB  C8 H8C2 SING N N 17
-LOB  C9  C12 SING N N 18
-LOB  C9   N1 SING N N 19
-LOB  C9   H9 SING N N 20
-LOB C12  C15 SING N N 21
-LOB C12 H121 SING N N 22
-LOB C12 H122 SING N N 23
-LOB C15  C13 SING N N 24
-LOB C15 H151 SING N N 25
-LOB C15 H152 SING N N 26
-LOB C13  C11 SING N N 27
-LOB C13 H131 SING N N 28
-LOB C13 H132 SING N N 29
-LOB C11   N1 SING N N 30
-LOB C11  C14 SING N N 31
-LOB C11  H11 SING N N 32
-LOB  N1  C22 SING N N 33
-LOB C22 H221 SING N N 34
-LOB C22 H222 SING N N 35
-LOB C22 H223 SING N N 36
-LOB C14  C16 SING N N 37
-LOB C14 H141 SING N N 38
-LOB C14 H142 SING N N 39
-LOB C16   O2 SING N N 40
-LOB C16  C17 SING N N 41
-LOB C16  H16 SING N N 42
-LOB  O2   HA SING N N 43
-LOB C17  C18 DOUB Y N 44
-LOB C17  C19 SING Y N 45
-LOB C18  C20 SING Y N 46
-LOB C18  H18 SING N N 47
-LOB C20  C21 DOUB Y N 48
-LOB C20  H20 SING N N 49
-LOB C21  C10 SING Y N 50
-LOB C21  H21 SING N N 51
-LOB C10  C19 DOUB Y N 52
-LOB C10  H10 SING N N 53
-LOB C19  H19 SING N N 54
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+LOB O1  C3   DOUB N N 1  
+LOB C3  C1   SING N N 2  
+LOB C3  C8   SING N N 3  
+LOB C1  C2   DOUB Y N 4  
+LOB C1  C4   SING Y N 5  
+LOB C2  C5   SING Y N 6  
+LOB C2  H2   SING N N 7  
+LOB C5  C6   DOUB Y N 8  
+LOB C5  H5   SING N N 9  
+LOB C6  C7   SING Y N 10 
+LOB C6  H6   SING N N 11 
+LOB C7  C4   DOUB Y N 12 
+LOB C7  H7   SING N N 13 
+LOB C4  H4   SING N N 14 
+LOB C8  C9   SING N N 15 
+LOB C8  H8C1 SING N N 16 
+LOB C8  H8C2 SING N N 17 
+LOB C9  C12  SING N N 18 
+LOB C9  N1   SING N N 19 
+LOB C9  H9   SING N N 20 
+LOB C12 C15  SING N N 21 
+LOB C12 H121 SING N N 22 
+LOB C12 H122 SING N N 23 
+LOB C15 C13  SING N N 24 
+LOB C15 H151 SING N N 25 
+LOB C15 H152 SING N N 26 
+LOB C13 C11  SING N N 27 
+LOB C13 H131 SING N N 28 
+LOB C13 H132 SING N N 29 
+LOB C11 N1   SING N N 30 
+LOB C11 C14  SING N N 31 
+LOB C11 H11  SING N N 32 
+LOB N1  C22  SING N N 33 
+LOB C22 H221 SING N N 34 
+LOB C22 H222 SING N N 35 
+LOB C22 H223 SING N N 36 
+LOB C14 C16  SING N N 37 
+LOB C14 H141 SING N N 38 
+LOB C14 H142 SING N N 39 
+LOB C16 O2   SING N N 40 
+LOB C16 C17  SING N N 41 
+LOB C16 H16  SING N N 42 
+LOB O2  HA   SING N N 43 
+LOB C17 C18  DOUB Y N 44 
+LOB C17 C19  SING Y N 45 
+LOB C18 C20  SING Y N 46 
+LOB C18 H18  SING N N 47 
+LOB C20 C21  DOUB Y N 48 
+LOB C20 H20  SING N N 49 
+LOB C21 C10  SING Y N 50 
+LOB C21 H21  SING N N 51 
+LOB C10 C19  DOUB Y N 52 
+LOB C10 H10  SING N N 53 
+LOB C19 H19  SING N N 54 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-LOB           SMILES              ACDLabs 10.04                                                                                                            O=C(c1ccccc1)CC3N(C)C(CC(O)c2ccccc2)CCC3
-LOB SMILES_CANONICAL               CACTVS 3.341                                                                                                 CN1[C@H](CCC[C@H]1CC(=O)c2ccccc2)C[C@@H](O)c3ccccc3
-LOB           SMILES               CACTVS 3.341                                                                                                     CN1[CH](CCC[CH]1CC(=O)c2ccccc2)C[CH](O)c3ccccc3
-LOB SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                              C[N@@]1[C@H](CCC[C@H]1CC(=O)c2ccccc2)C[C@H](c3ccccc3)O
-LOB           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                              CN1C(CCCC1CC(=O)c2ccccc2)CC(c3ccccc3)O
-LOB            InChI                InChI  1.03 InChI=1S/C22H27NO2/c1-23-19(15-21(24)17-9-4-2-5-10-17)13-8-14-20(23)16-22(25)18-11-6-3-7-12-18/h2-7,9-12,19-21,24H,8,13-16H2,1H3/t19-,20+,21-/m1/s1
-LOB         InChIKey                InChI  1.03                                                                                                                         MXYUKLILVYORSK-QHAWAJNXSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+LOB SMILES           ACDLabs              10.04 "O=C(c1ccccc1)CC3N(C)C(CC(O)c2ccccc2)CCC3"                                                                                                            
+LOB SMILES_CANONICAL CACTVS               3.341 "CN1[C@H](CCC[C@H]1CC(=O)c2ccccc2)C[C@@H](O)c3ccccc3"                                                                                                 
+LOB SMILES           CACTVS               3.341 "CN1[CH](CCC[CH]1CC(=O)c2ccccc2)C[CH](O)c3ccccc3"                                                                                                     
+LOB SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[N@@]1[C@H](CCC[C@H]1CC(=O)c2ccccc2)C[C@H](c3ccccc3)O"                                                                                              
+LOB SMILES           "OpenEye OEToolkits" 1.5.0 "CN1C(CCCC1CC(=O)c2ccccc2)CC(c3ccccc3)O"                                                                                                              
+LOB InChI            InChI                1.03  "InChI=1S/C22H27NO2/c1-23-19(15-21(24)17-9-4-2-5-10-17)13-8-14-20(23)16-22(25)18-11-6-3-7-12-18/h2-7,9-12,19-21,24H,8,13-16H2,1H3/t19-,20+,21-/m1/s1" 
+LOB InChIKey         InChI                1.03  MXYUKLILVYORSK-QHAWAJNXSA-N                                                                                                                           
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-LOB "SYSTEMATIC NAME"              ACDLabs 10.04       2-{(2S,6R)-6-[(2R)-2-hydroxy-2-phenylethyl]-1-methylpiperidin-2-yl}-1-phenylethanone
-LOB "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 2-[(1R,2S,6R)-6-[(2R)-2-hydroxy-2-phenyl-ethyl]-1-methyl-piperidin-2-yl]-1-phenyl-ethanone
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+LOB "SYSTEMATIC NAME" ACDLabs              10.04 "2-{(2S,6R)-6-[(2R)-2-hydroxy-2-phenylethyl]-1-methylpiperidin-2-yl}-1-phenylethanone"       
+LOB "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-[(1R,2S,6R)-6-[(2R)-2-hydroxy-2-phenyl-ethyl]-1-methyl-piperidin-2-yl]-1-phenyl-ethanone" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-LOB  "Create component" 2005-08-04  EBI
-LOB "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-LOB  O1 O  6.897  1.875  1
-LOB  C3 C  6.897  0.375  2
-LOB  C1 C  5.598 -0.375  3
-LOB  C2 C  4.299  0.375  4
-LOB  C5 C  3.000 -0.375  5
-LOB  C6 C  3.000 -1.875  6
-LOB  C7 C  4.299 -2.625  7
-LOB  C4 C  5.598 -1.875  8
-LOB  C8 C  8.196 -0.375  9
-LOB  C9 C  9.495  0.375 10
-LOB C12 C  9.495  1.875 11
-LOB C15 C 10.794  2.625 12
-LOB C13 C 12.093  1.875 13
-LOB C11 C 12.093  0.375 14
-LOB  N1 N 10.794 -0.375 15
-LOB C22 C 10.794 -1.875 16
-LOB C14 C 13.392 -0.375 17
-LOB C16 C 14.691  0.375 18
-LOB  O2 O 14.691  1.875 19
-LOB C17 C 15.990 -0.375 20
-LOB C18 C 15.990 -1.875 21
-LOB C20 C 17.290 -2.625 22
-LOB C21 C 18.588 -1.875 23
-LOB C10 C 18.588 -0.375 24
-LOB C19 C 17.290  0.375 25
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-LOB  O1  C3 DOUBLE       NONE  1
-LOB  C3  C1 SINGLE       NONE  2
-LOB  C3  C8 SINGLE       NONE  3
-LOB  C1  C2 DOUBLE       NONE  4
-LOB  C1  C4 SINGLE       NONE  5
-LOB  C2  C5 SINGLE       NONE  6
-LOB  C5  C6 DOUBLE       NONE  7
-LOB  C6  C7 SINGLE       NONE  8
-LOB  C7  C4 DOUBLE       NONE  9
-LOB  C8  C9 SINGLE  BEGINDASH 10
-LOB  C9 C12 SINGLE       NONE 11
-LOB  C9  N1 SINGLE       NONE 12
-LOB C12 C15 SINGLE       NONE 13
-LOB C15 C13 SINGLE       NONE 14
-LOB C13 C11 SINGLE       NONE 15
-LOB C11  N1 SINGLE       NONE 16
-LOB C11 C14 SINGLE  BEGINDASH 17
-LOB  N1 C22 SINGLE       NONE 18
-LOB C14 C16 SINGLE       NONE 19
-LOB C16  O2 SINGLE BEGINWEDGE 20
-LOB C16 C17 SINGLE       NONE 21
-LOB C17 C18 DOUBLE       NONE 22
-LOB C17 C19 SINGLE       NONE 23
-LOB C18 C20 SINGLE       NONE 24
-LOB C20 C21 DOUBLE       NONE 25
-LOB C21 C10 SINGLE       NONE 26
-LOB C10 C19 DOUBLE       NONE 27
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-LOB MurckoScaffold S1 scaffold O=C(C[C@@H]1CCC[C@H](CCc2ccccc2)N1)c1ccccc1 InChI=1S/C21H25NO/c23-21(18-10-5-2-6-11-18)16-20-13-7-12-19(22-20)15-14-17-8-3-1-4-9-17/h1-6,8-11,19-20,22H,7,12-16H2/t19-,20+/m1/s1 WVUVUCZLQGVEFX-UXHICEINSA-N
-LOB         phenyl F1 fragment                                    c1ccccc1                                                                                                   InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-LOB  C1 F1 1
-LOB  C2 F1 1
-LOB  C5 F1 1
-LOB  C6 F1 1
-LOB  C7 F1 1
-LOB  C4 F1 1
-LOB C17 F1 2
-LOB C18 F1 2
-LOB C20 F1 2
-LOB C21 F1 2
-LOB C10 F1 2
-LOB C19 F1 2
-LOB  O1 S1 1
-LOB  C3 S1 1
-LOB  C1 S1 1
-LOB  C2 S1 1
-LOB  C5 S1 1
-LOB  C6 S1 1
-LOB  C7 S1 1
-LOB  C4 S1 1
-LOB  C8 S1 1
-LOB  C9 S1 1
-LOB C12 S1 1
-LOB C15 S1 1
-LOB C13 S1 1
-LOB C11 S1 1
-LOB  N1 S1 1
-LOB C14 S1 1
-LOB C16 S1 1
-LOB C17 S1 1
-LOB C18 S1 1
-LOB C20 S1 1
-LOB C21 S1 1
-LOB C10 S1 1
-LOB C19 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               LOB
-_pdbe_chem_comp_rdkit_properties.exactmw                               337.204
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     8
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.409
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             187.869
-_pdbe_chem_comp_rdkit_properties.tpsa                                  40.540
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          4.127
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             100.066
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         25
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-LOB UniChem ChEMBL    CHEMBL1234059
-LOB UniChem   ZINC ZINC000000156931
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-LOB   O1  2.803  1.401  1.128 ETKDGv2  1
-LOB   C3  3.344  0.642  0.278 ETKDGv2  2
-LOB   C1  4.318  1.220 -0.682 ETKDGv2  3
-LOB   C2  5.223  0.453 -1.326 ETKDGv2  4
-LOB   C5  6.182  1.061 -2.272 ETKDGv2  5
-LOB   C6  6.164  2.380 -2.493 ETKDGv2  6
-LOB   C7  5.186  3.232 -1.790 ETKDGv2  7
-LOB   C4  4.314  2.686 -0.932 ETKDGv2  8
-LOB   C8  3.019 -0.836  0.290 ETKDGv2  9
-LOB   C9  1.624 -1.155  0.891 ETKDGv2 10
-LOB  C12  1.403 -2.693  1.051 ETKDGv2 11
-LOB  C15  0.319 -3.271  0.132 ETKDGv2 12
-LOB  C13 -0.999 -2.471  0.172 ETKDGv2 13
-LOB  C11 -0.806 -1.020  0.675 ETKDGv2 14
-LOB   N1  0.487 -0.455  0.216 ETKDGv2 15
-LOB  C22  0.606 -0.344 -1.258 ETKDGv2 16
-LOB  C14 -2.002 -0.098  0.323 ETKDGv2 17
-LOB  C16 -3.246 -0.360  1.206 ETKDGv2 18
-LOB   O2 -2.988 -0.107  2.567 ETKDGv2 19
-LOB  C17 -4.440  0.447  0.735 ETKDGv2 20
-LOB  C18 -4.433  1.795  0.760 ETKDGv2 21
-LOB  C20 -5.608  2.558  0.292 ETKDGv2 22
-LOB  C21 -6.690  1.915 -0.161 ETKDGv2 23
-LOB  C10 -6.711  0.440 -0.194 ETKDGv2 24
-LOB  C19 -5.649 -0.257  0.229 ETKDGv2 25
-LOB   H2  5.285 -0.613 -1.155 ETKDGv2 26
-LOB   H5  6.901  0.436 -2.785 ETKDGv2 27
-LOB   H6  6.867  2.825 -3.185 ETKDGv2 28
-LOB   H7  5.175  4.299 -1.970 ETKDGv2 29
-LOB   H4  3.600  3.325 -0.429 ETKDGv2 30
-LOB H8C1  3.799 -1.341  0.899 ETKDGv2 31
-LOB H8C2  3.081 -1.256 -0.736 ETKDGv2 32
-LOB   H9  1.664 -0.757  1.931 ETKDGv2 33
-LOB H121  1.099 -2.903  2.101 ETKDGv2 34
-LOB H122  2.347 -3.256  0.885 ETKDGv2 35
-LOB H151  0.708 -3.325 -0.905 ETKDGv2 36
-LOB H152  0.115 -4.322  0.434 ETKDGv2 37
-LOB H131 -1.442 -2.471 -0.848 ETKDGv2 38
-LOB H132 -1.715 -2.992  0.843 ETKDGv2 39
-LOB  H11 -0.770 -1.066  1.788 ETKDGv2 40
-LOB H221 -0.329  0.020 -1.723 ETKDGv2 41
-LOB H222  1.373  0.412 -1.519 ETKDGv2 42
-LOB H223  0.883 -1.303 -1.734 ETKDGv2 43
-LOB H141 -1.683  0.960  0.440 ETKDGv2 44
-LOB H142 -2.297 -0.242 -0.738 ETKDGv2 45
-LOB  H16 -3.499 -1.437  1.117 ETKDGv2 46
-LOB   HA -2.603  0.805  2.644 ETKDGv2 47
-LOB  H18 -3.570  2.342  1.118 ETKDGv2 48
-LOB  H20 -5.591  3.640  0.316 ETKDGv2 49
-LOB  H21 -7.551  2.474 -0.504 ETKDGv2 50
-LOB  H10 -7.588 -0.077 -0.561 ETKDGv2 51
-LOB  H19 -5.678 -1.339  0.198 ETKDGv2 52
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+LOB "Create component"  2005-08-04 EBI  
+LOB "Modify descriptor" 2011-06-04 RCSB 
+# 

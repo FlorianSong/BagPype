@@ -1,487 +1,248 @@
 data_SQA
-#
-_chem_comp.id                                        SQA
-_chem_comp.name                                      2-AZASQUALENE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C29 H51 N"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             (4E,8E,12Z,16Z)-N,N,4,8,13,17,21-HEPTAMETHYLDOCOSA-4,8,12,16,20-PENTAEN-1-AMINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2003-08-27
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            413.722
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         SQA
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            "OpenEye/OEToolkits V1.4.2"
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1UMP
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    SQA 
+_chem_comp.name                                  2-AZASQUALENE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C29 H51 N" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "(4E,8E,12Z,16Z)-N,N,4,8,13,17,21-HEPTAMETHYLDOCOSA-4,8,12,16,20-PENTAEN-1-AMINE" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2003-08-27 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        413.722 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     SQA 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        "OpenEye/OEToolkits V1.4.2" 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1UMP 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-SQA   C1   C1 C 0 1 N N N 63.070 68.151 56.966  3.299 -3.866  5.559   C1 SQA  1
-SQA   N2   N2 N 0 1 N N N 62.361 69.349 57.448  4.711 -4.248  5.632   N2 SQA  2
-SQA   C3   C3 C 0 1 N N N 63.157 69.934 58.526  5.549 -3.077  5.855   C3 SQA  3
-SQA   C4   C4 C 0 1 N N N 62.839 71.428 58.719  5.359 -2.064  4.726   C4 SQA  4
-SQA   C5   C5 C 0 1 N N N 63.070 71.817 60.184  6.227 -0.822  4.951   C5 SQA  5
-SQA   C6   C6 C 0 1 N N N 62.204 70.905 61.043  6.037  0.216  3.870   C6 SQA  6
-SQA   C7   C7 C 0 1 N N N 62.795 69.881 61.704  5.158  1.234  3.946   C7 SQA  7
-SQA   C8   C8 C 0 1 N N N 62.048 68.885 62.583  4.936  2.320  2.928   C8 SQA  8
-SQA   C9   C9 C 0 1 N N N 62.937 68.612 63.791  3.806  1.955  1.956   C9 SQA  9
-SQA  C10  C10 C 0 1 N N N 63.084 69.905 64.523  2.436  1.667  2.551  C10 SQA 10
-SQA  C11  C11 C 0 1 N N N 64.287 70.465 64.608  1.806  0.479  2.450  C11 SQA 11
-SQA  C12  C12 C 0 1 N N N 64.506 71.770 65.315  0.445  0.146  3.004  C12 SQA 12
-SQA  C13  C13 C 0 1 N N N 65.815 71.767 66.047 -0.705  0.429  2.027  C13 SQA 13
-SQA  C14  C14 C 0 1 N N N 65.693 70.955 67.308 -0.601 -0.347  0.743  C14 SQA 14
-SQA  C15  C15 C 0 1 N N N 66.099 69.685 67.421 -1.153 -1.540  0.451  C15 SQA 15
-SQA  C16  C16 C 0 1 N N N 65.888 68.998 68.750 -0.965 -2.141 -0.930  C16 SQA 16
-SQA  C17  C17 C 0 1 N N N 67.164 68.805 69.519 -0.331 -3.538 -0.926  C17 SQA 17
-SQA  C18  C18 C 0 1 N N N 67.647 70.126 70.090  1.072 -3.532 -0.384  C18 SQA 18
-SQA  C19  C19 C 0 1 N N N 68.430 70.223 71.179  1.580 -4.266  0.625  C19 SQA 19
-SQA  C20  C20 C 0 1 N N N 68.911 71.566 71.726  3.035 -4.101  1.021  C20 SQA 20
-SQA  C21  C21 C 0 1 N N N 68.347 72.778 70.979  3.979 -5.100  0.341  C21 SQA 21
-SQA  C22  C22 C 0 1 N N N 68.863 74.054 71.630  5.395 -4.975  0.830  C22 SQA 22
-SQA  C23  C23 C 0 1 N N N 70.011 74.669 71.243  6.408 -4.282  0.276  C23 SQA 23
-SQA  C24  C24 C 0 1 N N N 70.881 74.141 70.125  7.805 -4.202  0.821  C24 SQA 24
-SQA  C25  C25 C 0 1 N N N 60.976 69.081 57.852  4.914 -5.237  6.693  C25 SQA 25
-SQA  C26  C26 C 0 1 N N N 60.730 71.148 61.068  6.936  0.071  2.672  C26 SQA 26
-SQA  C27  C27 C 0 1 N N N 61.854 70.527 65.117  1.835  2.856  3.259  C27 SQA 27
-SQA  C28  C28 C 0 1 N N N 66.682 68.925 66.245 -1.985 -2.352  1.404  C28 SQA 28
-SQA  C29  C29 C 0 1 N N N 68.891 69.005 71.930  0.806 -5.251  1.456  C29 SQA 29
-SQA  C30  C30 C 0 1 N N N 70.469 75.930 71.935  6.195 -3.518 -1.004  C30 SQA 30
-SQA H1C1 1H1C H 0 0 N N N 62.459 67.258 57.166  3.180 -2.815  5.835 H1C1 SQA 31
-SQA H1C2 2H1C H 0 0 N N N 64.034 68.060 57.489  2.706 -4.479  6.242 H1C2 SQA 32
-SQA H1C3 3H1C H 0 0 N N N 63.247 68.239 55.884  2.921 -4.008  4.543 H1C3 SQA 33
-SQA H3C1 1H3C H 0 0 N N N 64.220 69.839 58.261  6.597 -3.392  5.905 H3C1 SQA 34
-SQA H3C2 2H3C H 0 0 N N N 62.932 69.401 59.461  5.289 -2.624  6.818 H3C2 SQA 35
-SQA H4C1 1H4C H 0 0 N N N 61.789 71.616 58.452  5.617 -2.528  3.766 H4C1 SQA 36
-SQA H4C2 2H4C H 0 0 N N N 63.496 72.029 58.073  4.303 -1.771  4.667 H4C2 SQA 37
-SQA H5C1 1H5C H 0 0 N N N 62.804 72.871 60.350  6.009 -0.393  5.934 H5C1 SQA 38
-SQA H5C2 2H5C H 0 0 N N N 64.131 71.689 60.447  7.285 -1.110  4.995 H5C2 SQA 39
-SQA   H7   H7 H 0 1 N N N 63.864 69.763 61.602  4.546  1.323  4.842   H7 SQA 40
-SQA H8C1 1H8C H 0 0 N N N 61.835 67.957 62.033  5.856  2.540  2.376 H8C1 SQA 41
-SQA H8C2 2H8C H 0 0 N N N 61.084 69.305 62.904  4.679  3.236  3.475 H8C2 SQA 42
-SQA H9C1 1H9C H 0 0 N N N 63.918 68.225 63.477  3.691  2.781  1.241 H9C1 SQA 43
-SQA H9C2 2H9C H 0 0 N N N 62.476 67.855 64.442  4.112  1.076  1.373 H9C2 SQA 44
-SQA  H11  H11 H 0 1 N N N 65.131 69.966 64.155  2.299 -0.333  1.923  H11 SQA 45
-SQA H121 1H12 H 0 0 N N N 63.695 71.917 66.043  0.281  0.753  3.903 H121 SQA 46
-SQA H122 2H12 H 0 0 N N N 64.512 72.583 64.574  0.402 -0.909  3.299 H122 SQA 47
-SQA H131 1H13 H 0 0 N N N 66.089 72.801 66.306 -1.658  0.229  2.529 H131 SQA 48
-SQA H132 2H13 H 0 0 N N N 66.591 71.327 65.404 -0.730  1.498  1.781 H132 SQA 49
-SQA  H14  H14 H 0 1 N N N 65.251 71.426 68.174 -0.011  0.146 -0.029  H14 SQA 50
-SQA H161 1H16 H 0 0 N N N 65.471 68.001 68.545 -0.357 -1.474 -1.558 H161 SQA 51
-SQA H162 2H16 H 0 0 N N N 65.210 69.617 69.355 -1.942 -2.193 -1.426 H162 SQA 52
-SQA H171 1H17 H 0 0 N N N 67.933 68.409 68.839 -0.982 -4.243 -0.403 H171 SQA 53
-SQA H172 2H17 H 0 0 N N N 66.984 68.100 70.344 -0.282 -3.897 -1.962 H172 SQA 54
-SQA  H18  H18 H 0 1 N N N 67.345 71.037 69.595  1.743 -2.846 -0.900  H18 SQA 55
-SQA H201 1H20 H 0 0 N N N 70.004 71.591 71.602  3.370 -3.076  0.819 H201 SQA 56
-SQA H202 2H20 H 0 0 N N N 68.596 71.638 72.778  3.117 -4.223  2.108 H202 SQA 57
-SQA H211 1H21 H 0 0 N N N 67.248 72.760 71.023  3.907 -5.025 -0.747 H211 SQA 58
-SQA H212 2H21 H 0 0 N N N 68.669 72.745 69.928  3.640 -6.115  0.585 H212 SQA 59
-SQA  H22  H22 H 0 1 N N N 68.291 74.490 72.436  5.598 -5.532  1.744  H22 SQA 60
-SQA H241 1H24 H 0 0 N N N 71.308 73.171 70.420  8.521 -4.553  0.071 H241 SQA 61
-SQA H242 2H24 H 0 0 N N N 71.694 74.855 69.925  7.960 -4.805  1.718 H242 SQA 62
-SQA H243 3H24 H 0 0 N N N 70.274 74.013 69.217  8.051 -3.165  1.073 H243 SQA 63
-SQA H251 1H25 H 0 0 N N N 60.643 68.131 57.409  5.958 -5.560  6.710 H251 SQA 64
-SQA H252 2H25 H 0 0 N N N 60.327 69.897 57.501  4.278 -6.110  6.522 H252 SQA 65
-SQA H253 3H25 H 0 0 N N N 60.920 69.014 58.949  4.663 -4.805  7.665 H253 SQA 66
-SQA H261 1H26 H 0 0 N N N 60.214 70.321 60.558  6.765  0.853  1.925 H261 SQA 67
-SQA H262 2H26 H 0 0 N N N 60.506 72.094 60.553  6.769 -0.894  2.182 H262 SQA 68
-SQA H263 3H26 H 0 0 N N N 60.385 71.208 62.111  7.987  0.129  2.976 H263 SQA 69
-SQA H271 1H27 H 0 0 N N N 60.993 69.861 64.957  2.449  3.136  4.120 H271 SQA 70
-SQA H272 2H27 H 0 0 N N N 61.663 71.496 64.633  1.788  3.713  2.578 H272 SQA 71
-SQA H273 3H27 H 0 0 N N N 62.004 70.679 66.196  0.818  2.681  3.620 H273 SQA 72
-SQA H281 1H28 H 0 0 N N N 65.993 68.119 65.952 -1.558 -3.352  1.531 H281 SQA 73
-SQA H282 2H28 H 0 0 N N N 67.652 68.493 66.532 -3.003 -2.460  1.015 H282 SQA 74
-SQA H283 3H28 H 0 0 N N N 66.823 69.612 65.397 -2.056 -1.912  2.401 H283 SQA 75
-SQA H291 1H29 H 0 0 N N N 68.148 68.746 72.699 -0.249 -5.320  1.187 H291 SQA 76
-SQA H292 2H29 H 0 0 N N N 69.858 69.215 72.410  0.848 -4.963  2.513 H292 SQA 77
-SQA H293 3H29 H 0 0 N N N 69.004 68.163 71.231  1.233 -6.254  1.357 H293 SQA 78
-SQA H301 1H30 H 0 0 N N N 69.724 76.724 71.780  5.167 -3.597 -1.372 H301 SQA 79
-SQA H302 2H30 H 0 0 N N N 71.436 76.247 71.517  6.412 -2.456 -0.851 H302 SQA 80
-SQA H303 3H30 H 0 0 N N N 70.580 75.738 73.012  6.858 -3.900 -1.788 H303 SQA 81
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+SQA C1   C1   C 0 1 N N N 63.070 68.151 56.966 3.299  -3.866 5.559  C1   SQA 1  
+SQA N2   N2   N 0 1 N N N 62.361 69.349 57.448 4.711  -4.248 5.632  N2   SQA 2  
+SQA C3   C3   C 0 1 N N N 63.157 69.934 58.526 5.549  -3.077 5.855  C3   SQA 3  
+SQA C4   C4   C 0 1 N N N 62.839 71.428 58.719 5.359  -2.064 4.726  C4   SQA 4  
+SQA C5   C5   C 0 1 N N N 63.070 71.817 60.184 6.227  -0.822 4.951  C5   SQA 5  
+SQA C6   C6   C 0 1 N N N 62.204 70.905 61.043 6.037  0.216  3.870  C6   SQA 6  
+SQA C7   C7   C 0 1 N N N 62.795 69.881 61.704 5.158  1.234  3.946  C7   SQA 7  
+SQA C8   C8   C 0 1 N N N 62.048 68.885 62.583 4.936  2.320  2.928  C8   SQA 8  
+SQA C9   C9   C 0 1 N N N 62.937 68.612 63.791 3.806  1.955  1.956  C9   SQA 9  
+SQA C10  C10  C 0 1 N N N 63.084 69.905 64.523 2.436  1.667  2.551  C10  SQA 10 
+SQA C11  C11  C 0 1 N N N 64.287 70.465 64.608 1.806  0.479  2.450  C11  SQA 11 
+SQA C12  C12  C 0 1 N N N 64.506 71.770 65.315 0.445  0.146  3.004  C12  SQA 12 
+SQA C13  C13  C 0 1 N N N 65.815 71.767 66.047 -0.705 0.429  2.027  C13  SQA 13 
+SQA C14  C14  C 0 1 N N N 65.693 70.955 67.308 -0.601 -0.347 0.743  C14  SQA 14 
+SQA C15  C15  C 0 1 N N N 66.099 69.685 67.421 -1.153 -1.540 0.451  C15  SQA 15 
+SQA C16  C16  C 0 1 N N N 65.888 68.998 68.750 -0.965 -2.141 -0.930 C16  SQA 16 
+SQA C17  C17  C 0 1 N N N 67.164 68.805 69.519 -0.331 -3.538 -0.926 C17  SQA 17 
+SQA C18  C18  C 0 1 N N N 67.647 70.126 70.090 1.072  -3.532 -0.384 C18  SQA 18 
+SQA C19  C19  C 0 1 N N N 68.430 70.223 71.179 1.580  -4.266 0.625  C19  SQA 19 
+SQA C20  C20  C 0 1 N N N 68.911 71.566 71.726 3.035  -4.101 1.021  C20  SQA 20 
+SQA C21  C21  C 0 1 N N N 68.347 72.778 70.979 3.979  -5.100 0.341  C21  SQA 21 
+SQA C22  C22  C 0 1 N N N 68.863 74.054 71.630 5.395  -4.975 0.830  C22  SQA 22 
+SQA C23  C23  C 0 1 N N N 70.011 74.669 71.243 6.408  -4.282 0.276  C23  SQA 23 
+SQA C24  C24  C 0 1 N N N 70.881 74.141 70.125 7.805  -4.202 0.821  C24  SQA 24 
+SQA C25  C25  C 0 1 N N N 60.976 69.081 57.852 4.914  -5.237 6.693  C25  SQA 25 
+SQA C26  C26  C 0 1 N N N 60.730 71.148 61.068 6.936  0.071  2.672  C26  SQA 26 
+SQA C27  C27  C 0 1 N N N 61.854 70.527 65.117 1.835  2.856  3.259  C27  SQA 27 
+SQA C28  C28  C 0 1 N N N 66.682 68.925 66.245 -1.985 -2.352 1.404  C28  SQA 28 
+SQA C29  C29  C 0 1 N N N 68.891 69.005 71.930 0.806  -5.251 1.456  C29  SQA 29 
+SQA C30  C30  C 0 1 N N N 70.469 75.930 71.935 6.195  -3.518 -1.004 C30  SQA 30 
+SQA H1C1 1H1C H 0 0 N N N 62.459 67.258 57.166 3.180  -2.815 5.835  H1C1 SQA 31 
+SQA H1C2 2H1C H 0 0 N N N 64.034 68.060 57.489 2.706  -4.479 6.242  H1C2 SQA 32 
+SQA H1C3 3H1C H 0 0 N N N 63.247 68.239 55.884 2.921  -4.008 4.543  H1C3 SQA 33 
+SQA H3C1 1H3C H 0 0 N N N 64.220 69.839 58.261 6.597  -3.392 5.905  H3C1 SQA 34 
+SQA H3C2 2H3C H 0 0 N N N 62.932 69.401 59.461 5.289  -2.624 6.818  H3C2 SQA 35 
+SQA H4C1 1H4C H 0 0 N N N 61.789 71.616 58.452 5.617  -2.528 3.766  H4C1 SQA 36 
+SQA H4C2 2H4C H 0 0 N N N 63.496 72.029 58.073 4.303  -1.771 4.667  H4C2 SQA 37 
+SQA H5C1 1H5C H 0 0 N N N 62.804 72.871 60.350 6.009  -0.393 5.934  H5C1 SQA 38 
+SQA H5C2 2H5C H 0 0 N N N 64.131 71.689 60.447 7.285  -1.110 4.995  H5C2 SQA 39 
+SQA H7   H7   H 0 1 N N N 63.864 69.763 61.602 4.546  1.323  4.842  H7   SQA 40 
+SQA H8C1 1H8C H 0 0 N N N 61.835 67.957 62.033 5.856  2.540  2.376  H8C1 SQA 41 
+SQA H8C2 2H8C H 0 0 N N N 61.084 69.305 62.904 4.679  3.236  3.475  H8C2 SQA 42 
+SQA H9C1 1H9C H 0 0 N N N 63.918 68.225 63.477 3.691  2.781  1.241  H9C1 SQA 43 
+SQA H9C2 2H9C H 0 0 N N N 62.476 67.855 64.442 4.112  1.076  1.373  H9C2 SQA 44 
+SQA H11  H11  H 0 1 N N N 65.131 69.966 64.155 2.299  -0.333 1.923  H11  SQA 45 
+SQA H121 1H12 H 0 0 N N N 63.695 71.917 66.043 0.281  0.753  3.903  H121 SQA 46 
+SQA H122 2H12 H 0 0 N N N 64.512 72.583 64.574 0.402  -0.909 3.299  H122 SQA 47 
+SQA H131 1H13 H 0 0 N N N 66.089 72.801 66.306 -1.658 0.229  2.529  H131 SQA 48 
+SQA H132 2H13 H 0 0 N N N 66.591 71.327 65.404 -0.730 1.498  1.781  H132 SQA 49 
+SQA H14  H14  H 0 1 N N N 65.251 71.426 68.174 -0.011 0.146  -0.029 H14  SQA 50 
+SQA H161 1H16 H 0 0 N N N 65.471 68.001 68.545 -0.357 -1.474 -1.558 H161 SQA 51 
+SQA H162 2H16 H 0 0 N N N 65.210 69.617 69.355 -1.942 -2.193 -1.426 H162 SQA 52 
+SQA H171 1H17 H 0 0 N N N 67.933 68.409 68.839 -0.982 -4.243 -0.403 H171 SQA 53 
+SQA H172 2H17 H 0 0 N N N 66.984 68.100 70.344 -0.282 -3.897 -1.962 H172 SQA 54 
+SQA H18  H18  H 0 1 N N N 67.345 71.037 69.595 1.743  -2.846 -0.900 H18  SQA 55 
+SQA H201 1H20 H 0 0 N N N 70.004 71.591 71.602 3.370  -3.076 0.819  H201 SQA 56 
+SQA H202 2H20 H 0 0 N N N 68.596 71.638 72.778 3.117  -4.223 2.108  H202 SQA 57 
+SQA H211 1H21 H 0 0 N N N 67.248 72.760 71.023 3.907  -5.025 -0.747 H211 SQA 58 
+SQA H212 2H21 H 0 0 N N N 68.669 72.745 69.928 3.640  -6.115 0.585  H212 SQA 59 
+SQA H22  H22  H 0 1 N N N 68.291 74.490 72.436 5.598  -5.532 1.744  H22  SQA 60 
+SQA H241 1H24 H 0 0 N N N 71.308 73.171 70.420 8.521  -4.553 0.071  H241 SQA 61 
+SQA H242 2H24 H 0 0 N N N 71.694 74.855 69.925 7.960  -4.805 1.718  H242 SQA 62 
+SQA H243 3H24 H 0 0 N N N 70.274 74.013 69.217 8.051  -3.165 1.073  H243 SQA 63 
+SQA H251 1H25 H 0 0 N N N 60.643 68.131 57.409 5.958  -5.560 6.710  H251 SQA 64 
+SQA H252 2H25 H 0 0 N N N 60.327 69.897 57.501 4.278  -6.110 6.522  H252 SQA 65 
+SQA H253 3H25 H 0 0 N N N 60.920 69.014 58.949 4.663  -4.805 7.665  H253 SQA 66 
+SQA H261 1H26 H 0 0 N N N 60.214 70.321 60.558 6.765  0.853  1.925  H261 SQA 67 
+SQA H262 2H26 H 0 0 N N N 60.506 72.094 60.553 6.769  -0.894 2.182  H262 SQA 68 
+SQA H263 3H26 H 0 0 N N N 60.385 71.208 62.111 7.987  0.129  2.976  H263 SQA 69 
+SQA H271 1H27 H 0 0 N N N 60.993 69.861 64.957 2.449  3.136  4.120  H271 SQA 70 
+SQA H272 2H27 H 0 0 N N N 61.663 71.496 64.633 1.788  3.713  2.578  H272 SQA 71 
+SQA H273 3H27 H 0 0 N N N 62.004 70.679 66.196 0.818  2.681  3.620  H273 SQA 72 
+SQA H281 1H28 H 0 0 N N N 65.993 68.119 65.952 -1.558 -3.352 1.531  H281 SQA 73 
+SQA H282 2H28 H 0 0 N N N 67.652 68.493 66.532 -3.003 -2.460 1.015  H282 SQA 74 
+SQA H283 3H28 H 0 0 N N N 66.823 69.612 65.397 -2.056 -1.912 2.401  H283 SQA 75 
+SQA H291 1H29 H 0 0 N N N 68.148 68.746 72.699 -0.249 -5.320 1.187  H291 SQA 76 
+SQA H292 2H29 H 0 0 N N N 69.858 69.215 72.410 0.848  -4.963 2.513  H292 SQA 77 
+SQA H293 3H29 H 0 0 N N N 69.004 68.163 71.231 1.233  -6.254 1.357  H293 SQA 78 
+SQA H301 1H30 H 0 0 N N N 69.724 76.724 71.780 5.167  -3.597 -1.372 H301 SQA 79 
+SQA H302 2H30 H 0 0 N N N 71.436 76.247 71.517 6.412  -2.456 -0.851 H302 SQA 80 
+SQA H303 3H30 H 0 0 N N N 70.580 75.738 73.012 6.858  -3.900 -1.788 H303 SQA 81 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-SQA  C1   N2 SING N N  1
-SQA  C1 H1C1 SING N N  2
-SQA  C1 H1C2 SING N N  3
-SQA  C1 H1C3 SING N N  4
-SQA  N2   C3 SING N N  5
-SQA  N2  C25 SING N N  6
-SQA  C3   C4 SING N N  7
-SQA  C3 H3C1 SING N N  8
-SQA  C3 H3C2 SING N N  9
-SQA  C4   C5 SING N N 10
-SQA  C4 H4C1 SING N N 11
-SQA  C4 H4C2 SING N N 12
-SQA  C5   C6 SING N N 13
-SQA  C5 H5C1 SING N N 14
-SQA  C5 H5C2 SING N N 15
-SQA  C6   C7 DOUB N E 16
-SQA  C6  C26 SING N N 17
-SQA  C7   C8 SING N N 18
-SQA  C7   H7 SING N N 19
-SQA  C8   C9 SING N N 20
-SQA  C8 H8C1 SING N N 21
-SQA  C8 H8C2 SING N N 22
-SQA  C9  C10 SING N N 23
-SQA  C9 H9C1 SING N N 24
-SQA  C9 H9C2 SING N N 25
-SQA C10  C11 DOUB N E 26
-SQA C10  C27 SING N N 27
-SQA C11  C12 SING N N 28
-SQA C11  H11 SING N N 29
-SQA C12  C13 SING N N 30
-SQA C12 H121 SING N N 31
-SQA C12 H122 SING N N 32
-SQA C13  C14 SING N N 33
-SQA C13 H131 SING N N 34
-SQA C13 H132 SING N N 35
-SQA C14  C15 DOUB N E 36
-SQA C14  H14 SING N N 37
-SQA C15  C16 SING N N 38
-SQA C15  C28 SING N N 39
-SQA C16  C17 SING N N 40
-SQA C16 H161 SING N N 41
-SQA C16 H162 SING N N 42
-SQA C17  C18 SING N N 43
-SQA C17 H171 SING N N 44
-SQA C17 H172 SING N N 45
-SQA C18  C19 DOUB N E 46
-SQA C18  H18 SING N N 47
-SQA C19  C20 SING N N 48
-SQA C19  C29 SING N N 49
-SQA C20  C21 SING N N 50
-SQA C20 H201 SING N N 51
-SQA C20 H202 SING N N 52
-SQA C21  C22 SING N N 53
-SQA C21 H211 SING N N 54
-SQA C21 H212 SING N N 55
-SQA C22  C23 DOUB N N 56
-SQA C22  H22 SING N N 57
-SQA C23  C24 SING N N 58
-SQA C23  C30 SING N N 59
-SQA C24 H241 SING N N 60
-SQA C24 H242 SING N N 61
-SQA C24 H243 SING N N 62
-SQA C25 H251 SING N N 63
-SQA C25 H252 SING N N 64
-SQA C25 H253 SING N N 65
-SQA C26 H261 SING N N 66
-SQA C26 H262 SING N N 67
-SQA C26 H263 SING N N 68
-SQA C27 H271 SING N N 69
-SQA C27 H272 SING N N 70
-SQA C27 H273 SING N N 71
-SQA C28 H281 SING N N 72
-SQA C28 H282 SING N N 73
-SQA C28 H283 SING N N 74
-SQA C29 H291 SING N N 75
-SQA C29 H292 SING N N 76
-SQA C29 H293 SING N N 77
-SQA C30 H301 SING N N 78
-SQA C30 H302 SING N N 79
-SQA C30 H303 SING N N 80
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+SQA C1  N2   SING N N 1  
+SQA C1  H1C1 SING N N 2  
+SQA C1  H1C2 SING N N 3  
+SQA C1  H1C3 SING N N 4  
+SQA N2  C3   SING N N 5  
+SQA N2  C25  SING N N 6  
+SQA C3  C4   SING N N 7  
+SQA C3  H3C1 SING N N 8  
+SQA C3  H3C2 SING N N 9  
+SQA C4  C5   SING N N 10 
+SQA C4  H4C1 SING N N 11 
+SQA C4  H4C2 SING N N 12 
+SQA C5  C6   SING N N 13 
+SQA C5  H5C1 SING N N 14 
+SQA C5  H5C2 SING N N 15 
+SQA C6  C7   DOUB N E 16 
+SQA C6  C26  SING N N 17 
+SQA C7  C8   SING N N 18 
+SQA C7  H7   SING N N 19 
+SQA C8  C9   SING N N 20 
+SQA C8  H8C1 SING N N 21 
+SQA C8  H8C2 SING N N 22 
+SQA C9  C10  SING N N 23 
+SQA C9  H9C1 SING N N 24 
+SQA C9  H9C2 SING N N 25 
+SQA C10 C11  DOUB N E 26 
+SQA C10 C27  SING N N 27 
+SQA C11 C12  SING N N 28 
+SQA C11 H11  SING N N 29 
+SQA C12 C13  SING N N 30 
+SQA C12 H121 SING N N 31 
+SQA C12 H122 SING N N 32 
+SQA C13 C14  SING N N 33 
+SQA C13 H131 SING N N 34 
+SQA C13 H132 SING N N 35 
+SQA C14 C15  DOUB N E 36 
+SQA C14 H14  SING N N 37 
+SQA C15 C16  SING N N 38 
+SQA C15 C28  SING N N 39 
+SQA C16 C17  SING N N 40 
+SQA C16 H161 SING N N 41 
+SQA C16 H162 SING N N 42 
+SQA C17 C18  SING N N 43 
+SQA C17 H171 SING N N 44 
+SQA C17 H172 SING N N 45 
+SQA C18 C19  DOUB N E 46 
+SQA C18 H18  SING N N 47 
+SQA C19 C20  SING N N 48 
+SQA C19 C29  SING N N 49 
+SQA C20 C21  SING N N 50 
+SQA C20 H201 SING N N 51 
+SQA C20 H202 SING N N 52 
+SQA C21 C22  SING N N 53 
+SQA C21 H211 SING N N 54 
+SQA C21 H212 SING N N 55 
+SQA C22 C23  DOUB N N 56 
+SQA C22 H22  SING N N 57 
+SQA C23 C24  SING N N 58 
+SQA C23 C30  SING N N 59 
+SQA C24 H241 SING N N 60 
+SQA C24 H242 SING N N 61 
+SQA C24 H243 SING N N 62 
+SQA C25 H251 SING N N 63 
+SQA C25 H252 SING N N 64 
+SQA C25 H253 SING N N 65 
+SQA C26 H261 SING N N 66 
+SQA C26 H262 SING N N 67 
+SQA C26 H263 SING N N 68 
+SQA C27 H271 SING N N 69 
+SQA C27 H272 SING N N 70 
+SQA C27 H273 SING N N 71 
+SQA C28 H281 SING N N 72 
+SQA C28 H282 SING N N 73 
+SQA C28 H283 SING N N 74 
+SQA C29 H291 SING N N 75 
+SQA C29 H292 SING N N 76 
+SQA C29 H293 SING N N 77 
+SQA C30 H301 SING N N 78 
+SQA C30 H302 SING N N 79 
+SQA C30 H303 SING N N 80 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-SQA           SMILES              ACDLabs 10.04                                                                                                            C(=C(/CCCN(C)C)C)\CCC(=C/CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)C)/C
-SQA SMILES_CANONICAL               CACTVS 3.341                                                                                                                CN(C)CCC\C(C)=C\CC\C(C)=C\CC\C=C(C)\CC\C=C(C)\CCC=C(C)C
-SQA           SMILES               CACTVS 3.341                                                                                                                        CN(C)CCCC(C)=CCCC(C)=CCCC=C(C)CCC=C(C)CCC=C(C)C
-SQA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                            CC(=CCC/C(=C/CC/C(=C/CC\C=C(/C)\CC\C=C(/C)\CCCN(C)C)/C)/C)C
-SQA           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                        CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCCN(C)C)C)C)C
-SQA            InChI                InChI  1.03 InChI=1S/C29H51N/c1-25(2)15-11-18-28(5)21-12-19-26(3)16-9-10-17-27(4)20-13-22-29(6)23-14-24-30(7)8/h15-17,21-22H,9-14,18-20,23-24H2,1-8H3/b26-16+,27-17+,28-21+,29-22+
-SQA         InChIKey                InChI  1.03                                                                                                                                            OBYAAZRQFIVRJS-GUUMBNHASA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+SQA SMILES           ACDLabs              10.04 "C(=C(/CCCN(C)C)C)\CCC(=C/CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)C)/C"                                                                                                            
+SQA SMILES_CANONICAL CACTVS               3.341 "CN(C)CCC\C(C)=C\CC\C(C)=C\CC\C=C(C)\CC\C=C(C)\CCC=C(C)C"                                                                                                                
+SQA SMILES           CACTVS               3.341 "CN(C)CCCC(C)=CCCC(C)=CCCC=C(C)CCC=C(C)CCC=C(C)C"                                                                                                                        
+SQA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(=CCC/C(=C/CC/C(=C/CC\C=C(/C)\CC\C=C(/C)\CCCN(C)C)/C)/C)C"                                                                                                            
+SQA SMILES           "OpenEye OEToolkits" 1.5.0 "CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCCN(C)C)C)C)C"                                                                                                                        
+SQA InChI            InChI                1.03  "InChI=1S/C29H51N/c1-25(2)15-11-18-28(5)21-12-19-26(3)16-9-10-17-27(4)20-13-22-29(6)23-14-24-30(7)8/h15-17,21-22H,9-14,18-20,23-24H2,1-8H3/b26-16+,27-17+,28-21+,29-22+" 
+SQA InChIKey         InChI                1.03  OBYAAZRQFIVRJS-GUUMBNHASA-N                                                                                                                                              
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-SQA "SYSTEMATIC NAME"              ACDLabs 10.04 (4E,8E,12E,16E)-N,N,4,8,13,17,21-heptamethyldocosa-4,8,12,16,20-pentaen-1-amine
-SQA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 (4E,8E,12E,16E)-N,N,4,8,13,17,21-heptamethyldocosa-4,8,12,16,20-pentaen-1-amine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+SQA "SYSTEMATIC NAME" ACDLabs              10.04 "(4E,8E,12E,16E)-N,N,4,8,13,17,21-heptamethyldocosa-4,8,12,16,20-pentaen-1-amine" 
+SQA "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(4E,8E,12E,16E)-N,N,4,8,13,17,21-heptamethyldocosa-4,8,12,16,20-pentaen-1-amine" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-SQA  "Create component" 2003-08-27  EBI
-SQA "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   SQA
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03874
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      (4e,8e,12z,16z)-N,N,4,8,13,17,21-Heptamethyldocosa-4,8,12,16,20-Pentaen-1-Amine
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           SQA
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03874
-_pdbe_chem_comp_drugbank_classification.parent            Sesterterpenoids
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Prenol lipids"
-_pdbe_chem_comp_drugbank_classification.superclass        "Lipids and lipid-like molecules"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as sesterterpenoids. These are terpenes composed of five consecutive isoprene units."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        SQA
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB03874
-_pdbe_chem_comp_drugbank_targets.name                           "Squalene--hopene cyclase"
-_pdbe_chem_comp_drugbank_targets.organism                       "Alicyclobacillus acidocaldarius subsp. acidocaldarius (strain ATCC 27009 / DSM 446 / JCM 5260 / NBRC 15652 / NCIMB 11725 / NRRL B-14509 / 104-1A)"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P33247
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-SQA  C1 C  3.000  0.375  1
-SQA  N2 N  4.299 -0.375  2
-SQA  C3 C  5.598  0.375  3
-SQA  C4 C  6.897 -0.375  4
-SQA  C5 C  8.196  0.375  5
-SQA  C6 C  9.495 -0.375  6
-SQA  C7 C 10.794  0.375  7
-SQA  C8 C 12.093 -0.375  8
-SQA  C9 C 13.392  0.375  9
-SQA C10 C 14.691 -0.375 10
-SQA C11 C 15.990  0.375 11
-SQA C12 C 17.290 -0.375 12
-SQA C13 C 18.588  0.375 13
-SQA C14 C 19.887 -0.375 14
-SQA C15 C 21.187  0.375 15
-SQA C16 C 22.486 -0.375 16
-SQA C17 C 23.785  0.375 17
-SQA C18 C 25.084 -0.375 18
-SQA C19 C 26.383  0.375 19
-SQA C20 C 27.682 -0.375 20
-SQA C21 C 28.981  0.375 21
-SQA C22 C 30.280 -0.375 22
-SQA C23 C 31.579  0.375 23
-SQA C24 C 32.878 -0.375 24
-SQA C25 C  4.299 -1.875 25
-SQA C26 C  9.495 -1.875 26
-SQA C27 C 14.691 -1.875 27
-SQA C28 C 21.187  1.875 28
-SQA C29 C 26.383  1.875 29
-SQA C30 C 31.579  1.875 30
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-SQA  C1  N2 SINGLE NONE  1
-SQA  N2  C3 SINGLE NONE  2
-SQA  N2 C25 SINGLE NONE  3
-SQA  C3  C4 SINGLE NONE  4
-SQA  C4  C5 SINGLE NONE  5
-SQA  C5  C6 SINGLE NONE  6
-SQA  C6  C7 DOUBLE NONE  7
-SQA  C6 C26 SINGLE NONE  8
-SQA  C7  C8 SINGLE NONE  9
-SQA  C8  C9 SINGLE NONE 10
-SQA  C9 C10 SINGLE NONE 11
-SQA C10 C11 DOUBLE NONE 12
-SQA C10 C27 SINGLE NONE 13
-SQA C11 C12 SINGLE NONE 14
-SQA C12 C13 SINGLE NONE 15
-SQA C13 C14 SINGLE NONE 16
-SQA C14 C15 DOUBLE NONE 17
-SQA C15 C16 SINGLE NONE 18
-SQA C15 C28 SINGLE NONE 19
-SQA C16 C17 SINGLE NONE 20
-SQA C17 C18 SINGLE NONE 21
-SQA C18 C19 DOUBLE NONE 22
-SQA C19 C20 SINGLE NONE 23
-SQA C19 C29 SINGLE NONE 24
-SQA C20 C21 SINGLE NONE 25
-SQA C21 C22 SINGLE NONE 26
-SQA C22 C23 DOUBLE NONE 27
-SQA C23 C24 SINGLE NONE 28
-SQA C23 C30 SINGLE NONE 29
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               SQA
-_pdbe_chem_comp_rdkit_properties.exactmw                               413.402
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     24
-_pdbe_chem_comp_rdkit_properties.NumHBD                                0
-_pdbe_chem_comp_rdkit_properties.NumHBA                                1
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        1
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.655
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             260.923
-_pdbe_chem_comp_rdkit_properties.tpsa                                  3.240
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          9.200
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             139.183
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         30
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-SQA UniChem   ChEMBL    CHEMBL1236034
-SQA UniChem DrugBank          DB03874
-SQA UniChem     ZINC ZINC000005158550
-SQA UniChem   BRENDA            90975
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SQA   C1   8.598 -0.244  1.997 ETKDGv2  1
-SQA   N2   8.085 -1.274  1.080 ETKDGv2  2
-SQA   C3   6.902 -0.827  0.311 ETKDGv2  3
-SQA   C4   5.657 -0.528  1.176 ETKDGv2  4
-SQA   C5   4.465 -0.071  0.322 ETKDGv2  5
-SQA   C6   4.690  1.307 -0.279 ETKDGv2  6
-SQA   C7   4.914  1.528 -1.596 ETKDGv2  7
-SQA   C8   4.966  0.475 -2.678 ETKDGv2  8
-SQA   C9   3.632  0.371 -3.430 ETKDGv2  9
-SQA  C10   2.561 -0.302 -2.599 ETKDGv2 10
-SQA  C11   1.737  0.458 -1.842 ETKDGv2 11
-SQA  C12   0.628 -0.085 -0.973 ETKDGv2 12
-SQA  C13  -0.679 -0.256 -1.759 ETKDGv2 13
-SQA  C14  -1.220  1.073 -2.231 ETKDGv2 14
-SQA  C15  -2.038  1.875 -1.513 ETKDGv2 15
-SQA  C16  -2.570  1.497 -0.144 ETKDGv2 16
-SQA  C17  -3.887  0.726 -0.269 ETKDGv2 17
-SQA  C18  -4.384  0.322  1.098 ETKDGv2 18
-SQA  C19  -5.525  0.768  1.671 ETKDGv2 19
-SQA  C20  -5.905  0.256  3.046 ETKDGv2 20
-SQA  C21  -6.448 -1.177  2.984 ETKDGv2 21
-SQA  C22  -7.759 -1.223  2.231 ETKDGv2 22
-SQA  C23  -7.954 -1.859  1.055 ETKDGv2 23
-SQA  C24  -6.849 -2.617  0.358 ETKDGv2 24
-SQA  C25   7.869 -2.550  1.780 ETKDGv2 25
-SQA  C26   4.645  2.501  0.639 ETKDGv2 26
-SQA  C27   2.460 -1.809 -2.628 ETKDGv2 27
-SQA  C28  -2.481  3.178 -2.126 ETKDGv2 28
-SQA  C29  -6.430  1.761  0.984 ETKDGv2 29
-SQA  C30  -9.318 -1.789  0.419 ETKDGv2 30
-SQA H1C1   7.942 -0.124  2.886 ETKDGv2 31
-SQA H1C2   9.612 -0.530  2.347 ETKDGv2 32
-SQA H1C3   8.689  0.733  1.475 ETKDGv2 33
-SQA H3C1   7.176  0.080 -0.270 ETKDGv2 34
-SQA H3C2   6.644 -1.607 -0.438 ETKDGv2 35
-SQA H4C1   5.884  0.249  1.934 ETKDGv2 36
-SQA H4C2   5.348 -1.449  1.714 ETKDGv2 37
-SQA H5C1   4.244 -0.844 -0.434 ETKDGv2 38
-SQA H5C2   3.561 -0.023  0.967 ETKDGv2 39
-SQA   H7   5.041  2.555 -1.931 ETKDGv2 40
-SQA H8C1   5.297 -0.515 -2.307 ETKDGv2 41
-SQA H8C2   5.741  0.793 -3.408 ETKDGv2 42
-SQA H9C1   3.791 -0.212 -4.362 ETKDGv2 43
-SQA H9C2   3.301  1.383 -3.755 ETKDGv2 44
-SQA  H11   1.868  1.537 -1.841 ETKDGv2 45
-SQA H121   0.921 -1.052 -0.514 ETKDGv2 46
-SQA H122   0.465  0.622 -0.133 ETKDGv2 47
-SQA H131  -1.423 -0.792 -1.135 ETKDGv2 48
-SQA H132  -0.501 -0.898 -2.646 ETKDGv2 49
-SQA  H14  -0.901  1.401 -3.217 ETKDGv2 50
-SQA H161  -2.749  2.420  0.449 ETKDGv2 51
-SQA H162  -1.826  0.904  0.427 ETKDGv2 52
-SQA H171  -3.731 -0.197 -0.865 ETKDGv2 53
-SQA H172  -4.621  1.349 -0.821 ETKDGv2 54
-SQA  H18  -3.765 -0.384  1.646 ETKDGv2 55
-SQA H201  -6.664  0.916  3.519 ETKDGv2 56
-SQA H202  -5.012  0.280  3.709 ETKDGv2 57
-SQA H211  -6.636 -1.532  4.019 ETKDGv2 58
-SQA H212  -5.678 -1.848  2.552 ETKDGv2 59
-SQA  H22  -8.591 -0.682  2.676 ETKDGv2 60
-SQA H241  -6.498 -3.451  1.002 ETKDGv2 61
-SQA H242  -7.195 -3.053 -0.602 ETKDGv2 62
-SQA H243  -6.003 -1.935  0.134 ETKDGv2 63
-SQA H251   8.845 -2.956  2.122 ETKDGv2 64
-SQA H252   7.211 -2.425  2.666 ETKDGv2 65
-SQA H253   7.420 -3.300  1.093 ETKDGv2 66
-SQA H261   4.409  2.201  1.682 ETKDGv2 67
-SQA H262   5.630  3.014  0.636 ETKDGv2 68
-SQA H263   3.861  3.209  0.298 ETKDGv2 69
-SQA H271   2.608 -2.227 -1.611 ETKDGv2 70
-SQA H272   1.471 -2.122 -3.018 ETKDGv2 71
-SQA H273   3.241 -2.247 -3.285 ETKDGv2 72
-SQA H281  -3.186  3.720 -1.460 ETKDGv2 73
-SQA H282  -1.598  3.827 -2.307 ETKDGv2 74
-SQA H283  -2.996  2.985 -3.091 ETKDGv2 75
-SQA H291  -6.819  1.326  0.039 ETKDGv2 76
-SQA H292  -7.304  2.021  1.618 ETKDGv2 77
-SQA H293  -5.872  2.697  0.767 ETKDGv2 78
-SQA H301 -10.074 -2.228  1.104 ETKDGv2 79
-SQA H302  -9.356 -2.345 -0.540 ETKDGv2 80
-SQA H303  -9.583 -0.729  0.217 ETKDGv2 81
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+SQA "Create component"  2003-08-27 EBI  
+SQA "Modify descriptor" 2011-06-04 RCSB 
+# 

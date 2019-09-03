@@ -345,11 +345,13 @@ _pdbe_chem_comp_rdkit_properties.CrippenMR                             70.625
 _pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         23
 
 #
-_pdbe_chem_comp_external_mappings.comp_id           0A
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ZINC
-_pdbe_chem_comp_external_mappings.resource_id       ZINC000001532515
-
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+0A UniChem ZINC ZINC000001532515
+0A UniChem    P         92144436
 #
 loop_
 _pdbe_chem_comp_rdkit_conformer.comp_id             
@@ -359,41 +361,41 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-0A      P -4.535 -1.598 -0.667 ETKDGv2  1
-0A     N1  5.285  0.055  0.336 ETKDGv2  2
-0A     C2  4.653  1.225  0.915 ETKDGv2  3
-0A     N3  3.428  1.546  0.589 ETKDGv2  4
-0A     C4  2.739  0.731 -0.367 ETKDGv2  5
-0A     C5  3.285 -0.330 -0.896 ETKDGv2  6
-0A     C6  4.655 -0.703 -0.521 ETKDGv2  7
-0A     N6  5.285 -1.862 -1.066 ETKDGv2  8
-0A     N7  2.326 -1.074 -1.639 ETKDGv2  9
-0A     C8  1.227 -0.387 -1.515 ETKDGv2 10
-0A     N9  1.374  0.808 -0.733 ETKDGv2 11
-0A  "C1'"  0.319  1.503  0.002 ETKDGv2 12
-0A  "C2'" -0.063  0.742  1.263 ETKDGv2 13
-0A  "O2'"  0.700  1.171  2.361 ETKDGv2 14
-0A  "C3'" -1.527  1.075  1.410 ETKDGv2 15
-0A  "O3'" -1.702  2.265  2.139 ETKDGv2 16
-0A  "C4'" -1.957  1.301 -0.042 ETKDGv2 17
-0A  "O4'" -0.823  1.641 -0.814 ETKDGv2 18
-0A  "C5'" -2.619  0.057 -0.649 ETKDGv2 19
-0A  "O5'" -3.841 -0.194  0.006 ETKDGv2 20
-0A    OP1 -4.849 -1.373 -2.130 ETKDGv2 21
-0A    OP2 -3.473 -2.907 -0.509 ETKDGv2 22
-0A    OP3 -5.969 -1.952  0.159 ETKDGv2 23
-0A     H2  5.194  1.828  1.631 ETKDGv2 24
-0A    HN6  6.258 -2.115 -0.785 ETKDGv2 25
-0A   HN6A  4.783 -2.468 -1.751 ETKDGv2 26
-0A     H8  0.287 -0.710 -1.943 ETKDGv2 27
-0A  "H1'"  0.676  2.524  0.268 ETKDGv2 28
-0A  "H2'"  0.058 -0.356  1.105 ETKDGv2 29
-0A "HO2'"  0.520  0.527  3.095 ETKDGv2 30
-0A  "H3'" -2.082  0.235  1.893 ETKDGv2 31
-0A "HO3'" -1.727  2.013  3.099 ETKDGv2 32
-0A  "H4'" -2.687  2.140 -0.098 ETKDGv2 33
-0A  "H5'" -1.922 -0.806 -0.545 ETKDGv2 34
-0A "H5'A" -2.796  0.255 -1.731 ETKDGv2 35
-0A   HOP2 -3.975 -3.685 -0.862 ETKDGv2 36
-0A   HOP3 -6.506 -1.121  0.099 ETKDGv2 37
+0A      P  4.205  1.660  0.681 ETKDGv2  1
+0A     N1 -5.207  0.319  0.201 ETKDGv2  2
+0A     C2 -4.765 -0.468 -0.934 ETKDGv2  3
+0A     N3 -3.516 -0.436 -1.316 ETKDGv2  4
+0A     C4 -2.604  0.412 -0.607 ETKDGv2  5
+0A     C5 -2.977  1.122  0.423 ETKDGv2  6
+0A     C6 -4.376  1.077  0.866 ETKDGv2  7
+0A     N6 -4.823  1.828  1.994 ETKDGv2  8
+0A     N7 -1.849  1.683  1.084 ETKDGv2  9
+0A     C8 -0.832  1.270  0.383 ETKDGv2 10
+0A     N9 -1.196  0.458 -0.745 ETKDGv2 11
+0A  "C1'" -0.361 -0.547 -1.400 ETKDGv2 12
+0A  "C2'" -0.194 -1.783 -0.503 ETKDGv2 13
+0A  "O2'" -0.412 -2.956 -1.246 ETKDGv2 14
+0A  "C3'"  1.248 -1.689 -0.066 ETKDGv2 15
+0A  "O3'"  1.856 -2.949  0.057 ETKDGv2 16
+0A  "C4'"  1.876 -0.888 -1.196 ETKDGv2 17
+0A  "O4'"  0.907  0.008 -1.685 ETKDGv2 18
+0A  "C5'"  3.129 -0.125 -0.752 ETKDGv2 19
+0A  "O5'"  2.782  0.860  0.193 ETKDGv2 20
+0A    OP1  3.847  2.734  1.683 ETKDGv2 21
+0A    OP2  5.271  0.562  1.406 ETKDGv2 22
+0A    OP3  4.960  2.377 -0.654 ETKDGv2 23
+0A     H2 -5.472 -1.097 -1.458 ETKDGv2 24
+0A    HN6 -5.821  1.781  2.298 ETKDGv2 25
+0A   HN6A -4.161  2.434  2.527 ETKDGv2 26
+0A     H8  0.190  1.499  0.650 ETKDGv2 27
+0A  "H1'" -0.842 -0.829 -2.363 ETKDGv2 28
+0A  "H2'" -0.865 -1.763  0.388 ETKDGv2 29
+0A "HO2'" -1.396 -3.054 -1.334 ETKDGv2 30
+0A  "H3'"  1.310 -1.128  0.897 ETKDGv2 31
+0A "HO3'"  1.501 -3.350  0.893 ETKDGv2 32
+0A  "H4'"  2.163 -1.578 -2.024 ETKDGv2 33
+0A  "H5'"  3.579  0.344 -1.656 ETKDGv2 34
+0A "H5'A"  3.851 -0.858 -0.324 ETKDGv2 35
+0A   HOP2  4.736  0.122  2.115 ETKDGv2 36
+0A   HOP3  4.261  2.948 -1.062 ETKDGv2 37
 #

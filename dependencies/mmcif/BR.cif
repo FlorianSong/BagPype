@@ -78,14 +78,6 @@ BR  "Create component" 1999-07-08 RCSB
 BR "Modify descriptor" 2011-06-04 RCSB
 #
 loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-BR   "Bromine Ion" ChEMBL
-BR         Bromide ChEMBL
-BR "Bromide Anion" ChEMBL
-#
-loop_
 _software.name              
 _software.version           
 _software.description       
@@ -137,6 +129,7 @@ _pdbe_chem_comp_external_mappings.resource_id
 BR UniChem        ChEMBL CHEMBL11685
 BR UniChem "KEGG LIGAND"      C01324
 BR UniChem         ChEBI       15858
+BR UniChem             P         259
 BR UniChem     BindingDb       26980
 BR UniChem  MetaboLights  MTBLC15858
 BR UniChem        BRENDA      105606

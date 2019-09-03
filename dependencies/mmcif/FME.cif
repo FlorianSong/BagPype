@@ -1,345 +1,130 @@
 data_FME
-#
-_chem_comp.id                                        FME
-_chem_comp.name                                      N-FORMYLMETHIONINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C6 H11 N O3 S"
-_chem_comp.mon_nstd_parent_comp_id                   MET
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            177.221
-_chem_comp.one_letter_code                           M
-_chem_comp.three_letter_code                         FME
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1BQ9
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    FME 
+_chem_comp.name                                  N-FORMYLMETHIONINE 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C6 H11 N O3 S" 
+_chem_comp.mon_nstd_parent_comp_id               MET 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        177.221 
+_chem_comp.one_letter_code                       M 
+_chem_comp.three_letter_code                     FME 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1BQ9 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FME   N   N N 0 1 N N N 23.447 -5.765 5.119  0.999  0.704 -1.069   N FME  1
-FME  CN  CN C 0 1 N N N 23.308 -6.776 4.291  2.093  0.373 -1.783  CN FME  2
-FME  O1  O1 O 0 1 N N N 22.504 -6.713 3.357  2.179 -0.727 -2.285  O1 FME  3
-FME  CA  CA C 0 1 N N S 22.488 -4.745 5.410 -0.086 -0.264 -0.900  CA FME  4
-FME  CB  CB C 0 1 N N N 22.433 -4.342 6.827 -0.785 -0.018  0.437  CB FME  5
-FME  CG  CG C 0 1 N N N 22.198 -5.618 7.751  0.222 -0.179  1.576  CG FME  6
-FME  SD  SD S 0 1 N N N 20.445 -6.032 7.772 -0.606  0.111  3.164  SD FME  7
-FME  CE  CE C 0 1 N N N 20.476 -7.587 8.656  0.787 -0.138  4.297  CE FME  8
-FME   C   C C 0 1 N N N 22.699 -3.530 4.487 -1.080 -0.105 -2.023   C FME  9
-FME   O   O O 0 1 N N N 23.804 -3.248 4.077 -1.712 -1.059 -2.408   O FME 10
-FME OXT OXT O 0 1 N Y N 21.633 -2.939 4.043 -1.261  1.095 -2.593 OXT FME 11
-FME   H  HN H 0 1 N N N 24.363 -5.772 5.567  0.930  1.584 -0.667   H FME 12
-FME HCN HCN H 0 1 N N N 23.886 -7.710 4.383  2.893  1.087 -1.907 HCN FME 13
-FME  HA  HA H 0 1 N N N 21.489 -5.197 5.204  0.322 -1.274 -0.917  HA FME 14
-FME HB2 1HB H 0 1 N N N 23.338 -3.766 7.132 -1.593 -0.739  0.563 HB2 FME 15
-FME HB3 2HB H 0 1 N N N 21.668 -3.550 7.006 -1.194  0.991  0.454 HB3 FME 16
-FME HG2 1HG H 0 1 N N N 22.831 -6.482 7.443  1.030  0.541  1.451 HG2 FME 17
-FME HG3 2HG H 0 1 N N N 22.609 -5.475 8.777  0.631 -1.190  1.560 HG3 FME 18
-FME HE1 1HE H 0 1 N N N 19.390 -7.843 8.669  0.450  0.003  5.324 HE1 FME 19
-FME HE2 2HE H 0 1 N N N 21.148 -8.367 8.230  1.174 -1.150  4.179 HE2 FME 20
-FME HE3 3HE H 0 1 N N N 20.975 -7.562 9.652  1.574  0.580  4.070 HE3 FME 21
-FME HXT HXT H 0 1 N Y N 21.763 -2.189 3.473 -1.899  1.197 -3.313 HXT FME 22
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FME N   N   N 0 1 N N N 23.447 -5.765 5.119 0.999  0.704  -1.069 N   FME 1  
+FME CN  CN  C 0 1 N N N 23.308 -6.776 4.291 2.093  0.373  -1.783 CN  FME 2  
+FME O1  O1  O 0 1 N N N 22.504 -6.713 3.357 2.179  -0.727 -2.285 O1  FME 3  
+FME CA  CA  C 0 1 N N S 22.488 -4.745 5.410 -0.086 -0.264 -0.900 CA  FME 4  
+FME CB  CB  C 0 1 N N N 22.433 -4.342 6.827 -0.785 -0.018 0.437  CB  FME 5  
+FME CG  CG  C 0 1 N N N 22.198 -5.618 7.751 0.222  -0.179 1.576  CG  FME 6  
+FME SD  SD  S 0 1 N N N 20.445 -6.032 7.772 -0.606 0.111  3.164  SD  FME 7  
+FME CE  CE  C 0 1 N N N 20.476 -7.587 8.656 0.787  -0.138 4.297  CE  FME 8  
+FME C   C   C 0 1 N N N 22.699 -3.530 4.487 -1.080 -0.105 -2.023 C   FME 9  
+FME O   O   O 0 1 N N N 23.804 -3.248 4.077 -1.712 -1.059 -2.408 O   FME 10 
+FME OXT OXT O 0 1 N Y N 21.633 -2.939 4.043 -1.261 1.095  -2.593 OXT FME 11 
+FME H   HN  H 0 1 N N N 24.363 -5.772 5.567 0.930  1.584  -0.667 H   FME 12 
+FME HCN HCN H 0 1 N N N 23.886 -7.710 4.383 2.893  1.087  -1.907 HCN FME 13 
+FME HA  HA  H 0 1 N N N 21.489 -5.197 5.204 0.322  -1.274 -0.917 HA  FME 14 
+FME HB2 1HB H 0 1 N N N 23.338 -3.766 7.132 -1.593 -0.739 0.563  HB2 FME 15 
+FME HB3 2HB H 0 1 N N N 21.668 -3.550 7.006 -1.194 0.991  0.454  HB3 FME 16 
+FME HG2 1HG H 0 1 N N N 22.831 -6.482 7.443 1.030  0.541  1.451  HG2 FME 17 
+FME HG3 2HG H 0 1 N N N 22.609 -5.475 8.777 0.631  -1.190 1.560  HG3 FME 18 
+FME HE1 1HE H 0 1 N N N 19.390 -7.843 8.669 0.450  0.003  5.324  HE1 FME 19 
+FME HE2 2HE H 0 1 N N N 21.148 -8.367 8.230 1.174  -1.150 4.179  HE2 FME 20 
+FME HE3 3HE H 0 1 N N N 20.975 -7.562 9.652 1.574  0.580  4.070  HE3 FME 21 
+FME HXT HXT H 0 1 N Y N 21.763 -2.189 3.473 -1.899 1.197  -3.313 HXT FME 22 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FME   N  CN SING N N  1
-FME   N  CA SING N N  2
-FME   N   H SING N N  3
-FME  CN  O1 DOUB N N  4
-FME  CN HCN SING N N  5
-FME  CA  CB SING N N  6
-FME  CA   C SING N N  7
-FME  CA  HA SING N N  8
-FME  CB  CG SING N N  9
-FME  CB HB2 SING N N 10
-FME  CB HB3 SING N N 11
-FME  CG  SD SING N N 12
-FME  CG HG2 SING N N 13
-FME  CG HG3 SING N N 14
-FME  SD  CE SING N N 15
-FME  CE HE1 SING N N 16
-FME  CE HE2 SING N N 17
-FME  CE HE3 SING N N 18
-FME   C   O DOUB N N 19
-FME   C OXT SING N N 20
-FME OXT HXT SING N N 21
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FME N   CN  SING N N 1  
+FME N   CA  SING N N 2  
+FME N   H   SING N N 3  
+FME CN  O1  DOUB N N 4  
+FME CN  HCN SING N N 5  
+FME CA  CB  SING N N 6  
+FME CA  C   SING N N 7  
+FME CA  HA  SING N N 8  
+FME CB  CG  SING N N 9  
+FME CB  HB2 SING N N 10 
+FME CB  HB3 SING N N 11 
+FME CG  SD  SING N N 12 
+FME CG  HG2 SING N N 13 
+FME CG  HG3 SING N N 14 
+FME SD  CE  SING N N 15 
+FME CE  HE1 SING N N 16 
+FME CE  HE2 SING N N 17 
+FME CE  HE3 SING N N 18 
+FME C   O   DOUB N N 19 
+FME C   OXT SING N N 20 
+FME OXT HXT SING N N 21 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FME           SMILES              ACDLabs 10.04                                                                     O=CNC(C(=O)O)CCSC
-FME SMILES_CANONICAL               CACTVS 3.341                                                                 CSCC[C@H](NC=O)C(O)=O
-FME           SMILES               CACTVS 3.341                                                                  CSCC[CH](NC=O)C(O)=O
-FME SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                CSCC[C@@H](C(=O)O)NC=O
-FME           SMILES "OpenEye OEToolkits" 1.5.0                                                                     CSCCC(C(=O)O)NC=O
-FME            InChI                InChI  1.03 InChI=1S/C6H11NO3S/c1-11-3-2-5(6(9)10)7-4-8/h4-5H,2-3H2,1H3,(H,7,8)(H,9,10)/t5-/m0/s1
-FME         InChIKey                InChI  1.03                                                           PYUSHNKNPOHWEZ-YFKPBYRVSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FME SMILES           ACDLabs              10.04 "O=CNC(C(=O)O)CCSC"                                                                     
+FME SMILES_CANONICAL CACTVS               3.341 "CSCC[C@H](NC=O)C(O)=O"                                                                 
+FME SMILES           CACTVS               3.341 "CSCC[CH](NC=O)C(O)=O"                                                                  
+FME SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CSCC[C@@H](C(=O)O)NC=O"                                                                
+FME SMILES           "OpenEye OEToolkits" 1.5.0 "CSCCC(C(=O)O)NC=O"                                                                     
+FME InChI            InChI                1.03  "InChI=1S/C6H11NO3S/c1-11-3-2-5(6(9)10)7-4-8/h4-5H,2-3H2,1H3,(H,7,8)(H,9,10)/t5-/m0/s1" 
+FME InChIKey         InChI                1.03  PYUSHNKNPOHWEZ-YFKPBYRVSA-N                                                             
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FME "SYSTEMATIC NAME"              ACDLabs 10.04                             N-formyl-L-methionine
-FME "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-formamido-4-methylsulfanyl-butanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FME "SYSTEMATIC NAME" ACDLabs              10.04 N-formyl-L-methionine                             
+FME "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-formamido-4-methylsulfanyl-butanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FME  "Create component" 1999-07-08 RCSB
-FME "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   FME
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB04464
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      N-Formylmethionine
-_pdbe_chem_comp_drugbank_details.description               "Effective in the initiation of protein synthesis. The initiating methionine residue enters the ribosome as N-formylmethionyl tRNA. This process occurs in Escherichia coli and other bacteria as well as in the mitochondria of eucaryotic cells. [PubChem]"
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           FME
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB04464
-_pdbe_chem_comp_drugbank_classification.parent            "Methionine and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as methionine and derivatives. These are compounds containing methionine or a derivative thereof resulting from reaction of methionine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-FME DB04464                                    "Glutamate--cysteine ligase"                                           "Escherichia coli (strain K12)" P0A6W9 unknown  1
-FME DB04464                                       "Ribonuclease pancreatic"                                                                    Humans P07998 unknown  2
-FME DB04464 "ATP-dependent Clp protease proteolytic subunit, mitochondrial"                                                                    Humans Q16740 unknown  3
-FME DB04464               "Geranylgeranyl transferase type-2 subunit alpha"                                                                    Humans Q92696 unknown  4
-FME DB04464                "Geranylgeranyl transferase type-2 subunit beta"                                                                    Humans P53611 unknown  5
-FME DB04464           "Photosynthetic reaction center cytochrome c subunit"                                                   "Blastochloris viridis" P07173 unknown  6
-FME DB04464                               "Reaction center protein H chain"                                                   "Blastochloris viridis" P06008 unknown  7
-FME DB04464                               "Reaction center protein L chain"                                                   "Blastochloris viridis" P06009 unknown  8
-FME DB04464                               "Reaction center protein M chain"                                                   "Blastochloris viridis" P06010 unknown  9
-FME DB04464                "Light-harvesting protein B-800/820 alpha chain"                                                "Rhodoblastus acidophilus" P35089 unknown 10
-FME DB04464                 "Light-harvesting protein B-800/820 beta chain"                                                "Rhodoblastus acidophilus" P35094 unknown 11
-FME DB04464                "Light-harvesting protein B-800/850 alpha chain"                                                "Rhodoblastus acidophilus" P26789 unknown 12
-FME DB04464                 "Light-harvesting protein B-800/850 beta chain"                                                "Rhodoblastus acidophilus" P26790 unknown 13
-FME DB04464                                                Antithrombin-III                                                                    Humans P01008 unknown 14
-FME DB04464                                            Beta-2-microglobulin                                                                    Humans P61769 unknown 15
-FME DB04464                        "NADH-ubiquinone oxidoreductase chain 1"                                                                    Humans P03886 unknown 16
-FME DB04464      "HLA class I histocompatibility antigen, B-27 alpha chain"                                                                    Humans P03989 unknown 17
-FME DB04464                   "Respiratory nitrate reductase 1 alpha chain"                                           "Escherichia coli (strain K12)" P09152 unknown 18
-FME DB04464                    "Respiratory nitrate reductase 1 beta chain"                                           "Escherichia coli (strain K12)" P11349 unknown 19
-FME DB04464                   "Respiratory nitrate reductase 1 gamma chain"                                           "Escherichia coli (strain K12)" P11350 unknown 20
-FME DB04464                                                "Protein S100-G"                                                                    Humans P29377 unknown 21
-FME DB04464                                                      Rubredoxin "Desulfovibrio vulgaris (strain Hildenborough / ATCC 29579 / NCIMB 8303)" P00269 unknown 22
-FME DB04464       "Cytochrome c oxidase subunit 4 isoform 1, mitochondrial"                                                                    Humans P13073 unknown 23
-FME DB04464                                "Cytochrome c oxidase subunit 1"                                                                    Humans P00395 unknown 24
-FME DB04464                                "Cytochrome c oxidase subunit 2"                                                                    Humans P00403 unknown 25
-FME DB04464                                "Cytochrome c oxidase subunit 3"                                                                    Humans P00414 unknown 26
-FME DB04464                "Cytochrome c oxidase subunit 5A, mitochondrial"                                                                    Humans P20674 unknown 27
-FME DB04464                "Cytochrome c oxidase subunit 5B, mitochondrial"                                                                    Humans P10606 unknown 28
-FME DB04464                               "Cytochrome c oxidase subunit 6C"                                                                    Humans P09669 unknown 29
-FME DB04464                "Cytochrome c oxidase subunit 7B, mitochondrial"                                                                    Humans P24311 unknown 30
-FME DB04464                "Cytochrome c oxidase subunit 7C, mitochondrial"                                                                    Humans P15954 unknown 31
-FME DB04464                "Cytochrome c oxidase subunit 8A, mitochondrial"                                                                    Humans P10176 unknown 32
-FME DB04464               "Cytochrome c oxidase subunit 6A2, mitochondrial"                                                                    Humans Q02221 unknown 33
-FME DB04464                              "Cytochrome c oxidase subunit 6B1"                                                                    Humans P14854 unknown 34
-FME DB04464               "Cytochrome c oxidase subunit 7A1, mitochondrial"                                                                    Humans P24310 unknown 35
-FME DB04464                              "Methionyl-tRNA formyltransferase"                                           "Escherichia coli (strain K12)" P23882 unknown 36
-FME DB04464                                                    Streptavidin                                                   "Streptomyces avidinii" P22629 unknown 37
-FME DB04464                                                "Protein S100-B"                                                                    Humans P04271 unknown 38
-FME DB04464                                                 Delta-hemolysin                                                   "Staphylococcus aureus" P0C1V1 unknown 39
-FME DB04464                                                 Polyubiquitin-C                                                                    Humans P0CG48 unknown 40
-FME DB04464                                                            AtpH                                              "Arthrospira platensis HN01" A5HEI4 unknown 41
-FME DB04464               "Probable L-ascorbate-6-phosphate lactonase UlaG"                                           "Escherichia coli (strain K12)" P39300 unknown 42
-FME DB04464                            "Immunoglobulin G-binding protein G"                                               "Streptococcus sp. group G" P19909 unknown 43
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FME   N N 5.598  1.875  1
-FME  CN C 4.299  1.125  2
-FME  O1 O 3.000  1.875  3
-FME  CA C 6.897  1.125  4
-FME  CB C 6.897 -0.375  5
-FME  CG C 8.196 -1.125  6
-FME  SD S 8.196 -2.625  7
-FME  CE C 9.495 -3.375  8
-FME   C C 8.196  1.875  9
-FME   O O 9.495  1.125 10
-FME OXT O 8.196  3.375 11
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-FME  N  CN SINGLE       NONE  1
-FME  N  CA SINGLE       NONE  2
-FME CN  O1 DOUBLE       NONE  3
-FME CA  CB SINGLE BEGINWEDGE  4
-FME CA   C SINGLE       NONE  5
-FME CB  CG SINGLE       NONE  6
-FME CG  SD SINGLE       NONE  7
-FME SD  CE SINGLE       NONE  8
-FME  C   O DOUBLE       NONE  9
-FME  C OXT SINGLE       NONE 10
-#
-_pdbe_chem_comp_substructure.comp_id                      FME
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-FME  O F1 1
-FME  C F1 1
-FME CA F1 1
-FME  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FME
-_pdbe_chem_comp_rdkit_properties.exactmw                               177.046
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             84.954
-_pdbe_chem_comp_rdkit_properties.tpsa                                  66.400
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.061
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             43.623
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-FME UniChem        ChEMBL    CHEMBL1232779
-FME UniChem      DrugBank          DB04464
-FME UniChem "KEGG LIGAND"           C03145
-FME UniChem         ChEBI            16552
-FME UniChem          ZINC ZINC000001529464
-FME UniChem  MetaboLights       MTBLC16552
-FME UniChem        BRENDA           111409
-FME UniChem        BRENDA           115671
-FME UniChem        BRENDA            25162
-FME UniChem        BRENDA            36132
-FME UniChem        BRENDA            46040
-FME UniChem        BRENDA             4839
-FME UniChem        BRENDA             6743
-FME UniChem        BRENDA             7249
-FME UniChem        BRENDA             9328
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FME   N -2.224  0.177 -1.068 ETKDGv2  1
-FME  CN -2.604 -1.206 -1.119 ETKDGv2  2
-FME  O1 -1.957 -2.088 -0.497 ETKDGv2  3
-FME  CA -1.089  0.719 -0.309 ETKDGv2  4
-FME  CB  0.244  0.086 -0.760 ETKDGv2  5
-FME  CG  1.456  0.858 -0.226 ETKDGv2  6
-FME  SD  3.011  0.114 -0.833 ETKDGv2  7
-FME  CE  3.188 -1.092  0.522 ETKDGv2  8
-FME   C -1.322  0.581  1.172 ETKDGv2  9
-FME   O -1.303 -0.552  1.726 ETKDGv2 10
-FME OXT -1.553  1.718  1.940 ETKDGv2 11
-FME   H -2.797  0.846 -1.630 ETKDGv2 12
-FME HCN -3.463 -1.499 -1.707 ETKDGv2 13
-FME  HA -1.034  1.807 -0.535 ETKDGv2 14
-FME HB2  0.303 -0.970 -0.425 ETKDGv2 15
-FME HB3  0.285  0.091 -1.872 ETKDGv2 16
-FME HG2  1.415  1.904 -0.596 ETKDGv2 17
-FME HG3  1.445  0.890  0.885 ETKDGv2 18
-FME HE1  2.313 -1.773  0.554 ETKDGv2 19
-FME HE2  3.290 -0.564  1.492 ETKDGv2 20
-FME HE3  4.102 -1.697  0.348 ETKDGv2 21
-FME HXT -1.709  1.648  2.939 ETKDGv2 22
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FME "Create component"  1999-07-08 RCSB 
+FME "Modify descriptor" 2011-06-04 RCSB 
+# 

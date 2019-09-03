@@ -1,232 +1,117 @@
 data_ALM
-#
-_chem_comp.id                                        ALM
-_chem_comp.name                                      1-METHYL-ALANINAL
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C4 H9 N O"
-_chem_comp.mon_nstd_parent_comp_id                   ALA
-_chem_comp.pdbx_synonyms                             3-AMINO-BUTAN-2-ONE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-08-06
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       OBS
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            87.120
-_chem_comp.one_letter_code                           A
-_chem_comp.three_letter_code                         ALM
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1HNE
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    ALM 
+_chem_comp.name                                  1-METHYL-ALANINAL 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C4 H9 N O" 
+_chem_comp.mon_nstd_parent_comp_id               ALA 
+_chem_comp.pdbx_synonyms                         3-AMINO-BUTAN-2-ONE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-08-06 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   OBS 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        87.120 
+_chem_comp.one_letter_code                       A 
+_chem_comp.three_letter_code                     ALM 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1HNE 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ALM   N   N N 0 1 N N N 40.676 11.098 53.815 -0.909  0.535  1.508   N ALM  1
-ALM  CA  CA C 0 1 N N S 41.428 10.820 55.057  0.282  0.415  0.658  CA ALM  2
-ALM   C   C C 0 1 N N N 42.569  9.846 54.791 -0.131  0.003 -0.731   C ALM  3
-ALM   O   O O 0 1 N N N 43.327  9.582 55.943 -1.118 -0.672 -0.891   O ALM  4
-ALM  CB  CB C 0 1 N N N 40.420 10.273 56.090  1.222 -0.640  1.244  CB ALM  5
-ALM  CM  CM C 0 1 N N N 43.540 10.183 53.629  0.686  0.436 -1.920  CM ALM  6
-ALM   H 1HN H 0 1 N N N 39.912 11.750 53.993 -0.580  0.708  2.446   H ALM  7
-ALM  H2 2HN H 0 1 N Y N 40.345 10.240 53.373 -1.350 -0.371  1.519  H2 ALM  8
-ALM  HA  HA H 0 1 N N N 41.903 11.747 55.454  0.796  1.375  0.615  HA ALM  9
-ALM HB1 1HB H 0 1 N N N 40.987 10.063 57.026  1.521 -0.342  2.248 HB1 ALM 10
-ALM HB2 2HB H 0 1 N N N 39.548 10.949 56.249  0.708 -1.600  1.287 HB2 ALM 11
-ALM HB3 3HB H 0 1 N N N 39.850  9.389 55.718  2.106 -0.729  0.612 HB3 ALM 12
-ALM HM1 1HM H 0 1 N N N 44.375  9.470 53.434  0.236  0.046 -2.832 HM1 ALM 13
-ALM HM2 2HM H 0 1 N N N 42.955 10.332 52.691  0.714  1.525 -1.965 HM2 ALM 14
-ALM HM3 3HM H 0 1 N N N 43.956 11.206 53.780  1.701  0.051 -1.822 HM3 ALM 15
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ALM N   N   N 0 1 N N N 40.676 11.098 53.815 -0.909 0.535  1.508  N   ALM 1  
+ALM CA  CA  C 0 1 N N S 41.428 10.820 55.057 0.282  0.415  0.658  CA  ALM 2  
+ALM C   C   C 0 1 N N N 42.569 9.846  54.791 -0.131 0.003  -0.731 C   ALM 3  
+ALM O   O   O 0 1 N N N 43.327 9.582  55.943 -1.118 -0.672 -0.891 O   ALM 4  
+ALM CB  CB  C 0 1 N N N 40.420 10.273 56.090 1.222  -0.640 1.244  CB  ALM 5  
+ALM CM  CM  C 0 1 N N N 43.540 10.183 53.629 0.686  0.436  -1.920 CM  ALM 6  
+ALM H   1HN H 0 1 N N N 39.912 11.750 53.993 -0.580 0.708  2.446  H   ALM 7  
+ALM H2  2HN H 0 1 N Y N 40.345 10.240 53.373 -1.350 -0.371 1.519  H2  ALM 8  
+ALM HA  HA  H 0 1 N N N 41.903 11.747 55.454 0.796  1.375  0.615  HA  ALM 9  
+ALM HB1 1HB H 0 1 N N N 40.987 10.063 57.026 1.521  -0.342 2.248  HB1 ALM 10 
+ALM HB2 2HB H 0 1 N N N 39.548 10.949 56.249 0.708  -1.600 1.287  HB2 ALM 11 
+ALM HB3 3HB H 0 1 N N N 39.850 9.389  55.718 2.106  -0.729 0.612  HB3 ALM 12 
+ALM HM1 1HM H 0 1 N N N 44.375 9.470  53.434 0.236  0.046  -2.832 HM1 ALM 13 
+ALM HM2 2HM H 0 1 N N N 42.955 10.332 52.691 0.714  1.525  -1.965 HM2 ALM 14 
+ALM HM3 3HM H 0 1 N N N 43.956 11.206 53.780 1.701  0.051  -1.822 HM3 ALM 15 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ALM  N  CA SING N N  1
-ALM  N   H SING N N  2
-ALM  N  H2 SING N N  3
-ALM CA   C SING N N  4
-ALM CA  CB SING N N  5
-ALM CA  HA SING N N  6
-ALM  C   O DOUB N N  7
-ALM  C  CM SING N N  8
-ALM CB HB1 SING N N  9
-ALM CB HB2 SING N N 10
-ALM CB HB3 SING N N 11
-ALM CM HM1 SING N N 12
-ALM CM HM2 SING N N 13
-ALM CM HM3 SING N N 14
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ALM N  CA  SING N N 1  
+ALM N  H   SING N N 2  
+ALM N  H2  SING N N 3  
+ALM CA C   SING N N 4  
+ALM CA CB  SING N N 5  
+ALM CA HA  SING N N 6  
+ALM C  O   DOUB N N 7  
+ALM C  CM  SING N N 8  
+ALM CB HB1 SING N N 9  
+ALM CB HB2 SING N N 10 
+ALM CB HB3 SING N N 11 
+ALM CM HM1 SING N N 12 
+ALM CM HM2 SING N N 13 
+ALM CM HM3 SING N N 14 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ALM           SMILES              ACDLabs 10.04                                          O=C(C)C(N)C
-ALM SMILES_CANONICAL               CACTVS 3.341                                      C[C@H](N)C(C)=O
-ALM           SMILES               CACTVS 3.341                                       C[CH](N)C(C)=O
-ALM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                     C[C@@H](C(=O)C)N
-ALM           SMILES "OpenEye OEToolkits" 1.5.0                                          CC(C(=O)C)N
-ALM            InChI                InChI  1.03 InChI=1S/C4H9NO/c1-3(5)4(2)6/h3H,5H2,1-2H3/t3-/m0/s1
-ALM         InChIKey                InChI  1.03                          OLYWGXUJESDUAC-VKHMYHEASA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ALM SMILES           ACDLabs              10.04 "O=C(C)C(N)C"                                          
+ALM SMILES_CANONICAL CACTVS               3.341 "C[C@H](N)C(C)=O"                                      
+ALM SMILES           CACTVS               3.341 "C[CH](N)C(C)=O"                                       
+ALM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@@H](C(=O)C)N"                                     
+ALM SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C(=O)C)N"                                          
+ALM InChI            InChI                1.03  "InChI=1S/C4H9NO/c1-3(5)4(2)6/h3H,5H2,1-2H3/t3-/m0/s1" 
+ALM InChIKey         InChI                1.03  OLYWGXUJESDUAC-VKHMYHEASA-N                            
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-ALM "SYSTEMATIC NAME"              ACDLabs 10.04 (3S)-3-aminobutan-2-one
-ALM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 (3S)-3-aminobutan-2-one
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ALM "SYSTEMATIC NAME" ACDLabs              10.04 "(3S)-3-aminobutan-2-one" 
+ALM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(3S)-3-aminobutan-2-one" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ALM   "Create component" 1999-07-08  EBI
-ALM  "Modify descriptor" 2011-06-04 RCSB
-ALM "Obsolete component" 2011-08-06 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ALM  N N 6.404  1.875 1
-ALM CA C 6.404  0.375 2
-ALM  C C 5.104 -0.375 3
-ALM  O O 3.805  0.375 4
-ALM CB C 7.702 -0.375 5
-ALM CM C 5.104 -1.875 6
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ALM  N CA SINGLE       NONE 1
-ALM CA  C SINGLE       NONE 2
-ALM CA CB SINGLE BEGINWEDGE 3
-ALM  C  O DOUBLE       NONE 4
-ALM  C CM SINGLE       NONE 5
-#
-_pdbe_chem_comp_substructure.comp_id                      ALM
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ALM  O F1 1
-ALM  C F1 1
-ALM CA F1 1
-ALM  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ALM
-_pdbe_chem_comp_rdkit_properties.exactmw                               87.068
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                2
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.750
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             50.096
-_pdbe_chem_comp_rdkit_properties.tpsa                                  43.090
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.077
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             24.330
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         6
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ALM UniChem ChEMBL    CHEMBL1230951
-ALM UniChem   ZINC ZINC000006467705
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ALM   N -0.776  1.452  0.074 ETKDGv2  1
-ALM  CA -0.722  0.088  0.601 ETKDGv2  2
-ALM   C  0.654 -0.202  1.154 ETKDGv2  3
-ALM   O  0.771 -0.561  2.316 ETKDGv2  4
-ALM  CB -1.084 -0.919 -0.495 ETKDGv2  5
-ALM  CM  1.889 -0.051  0.312 ETKDGv2  6
-ALM   H -1.757  1.650 -0.229 ETKDGv2  7
-ALM  H2 -0.578  2.115  0.859 ETKDGv2  8
-ALM  HA -1.472 -0.015  1.419 ETKDGv2  9
-ALM HB1 -0.408 -0.813 -1.370 ETKDGv2 10
-ALM HB2 -2.128 -0.751 -0.834 ETKDGv2 11
-ALM HB3 -1.008 -1.956 -0.103 ETKDGv2 12
-ALM HM1  2.395 -1.034  0.216 ETKDGv2 13
-ALM HM2  1.642  0.325 -0.702 ETKDGv2 14
-ALM HM3  2.582  0.669  0.795 ETKDGv2 15
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ALM "Create component"   1999-07-08 EBI  
+ALM "Modify descriptor"  2011-06-04 RCSB 
+ALM "Obsolete component" 2011-08-06 RCSB 
+# 

@@ -1,321 +1,153 @@
 data_EPE
-#
-_chem_comp.id                                        EPE
-_chem_comp.name                                      "4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C8 H18 N2 O4 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             HEPES
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            238.305
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         EPE
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1CXQ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    EPE 
+_chem_comp.name                                  "4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C8 H18 N2 O4 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         HEPES 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        238.305 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     EPE 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1CXQ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-EPE   N1   N1 N 0 1 N N N 61.652 47.337 51.616 -0.820 -0.330  0.258   N1 EPE  1
-EPE   C2   C2 C 0 1 N N N 63.051 46.905 51.967 -1.669  0.557  1.061   C2 EPE  2
-EPE   C3   C3 C 0 1 N N N 63.962 47.257 50.796 -1.693  0.072  2.511   C3 EPE  3
-EPE   N4   N4 N 0 1 N N N 63.551 46.544 49.578 -0.342  0.147  3.079   N4 EPE  4
-EPE   C5   C5 C 0 1 N N N 62.151 46.910 49.248  0.507 -0.740  2.276   C5 EPE  5
-EPE   C6   C6 C 0 1 N N N 61.218 46.554 50.402  0.531 -0.255  0.826   C6 EPE  6
-EPE   C7   C7 C 0 1 N N N 64.368 46.893 48.385 -0.416 -0.441  4.423   C7 EPE  7
-EPE   C8   C8 C 0 1 N N N 65.854 46.721 48.613  0.966 -0.395  5.076   C8 EPE  8
-EPE   O8   O8 O 0 1 N N N 66.240 45.400 48.979  1.402  0.961  5.174   O8 EPE  9
-EPE   C9   C9 C 0 1 N N N 60.685 46.992 52.709 -0.746  0.258 -1.085   C9 EPE 10
-EPE  C10  C10 C 0 1 N N N 60.870 47.974 53.893  0.128 -0.621 -1.980  C10 EPE 11
-EPE    S    S S 0 1 N N N 59.559 47.692 55.090  0.219  0.104 -3.640    S EPE 12
-EPE  O1S  O1S O 0 1 N N N 59.732 48.694 56.115 -1.019 -0.001 -4.327  O1S EPE 13
-EPE  O2S  O2S O 0 1 N N N 59.737 46.327 55.596  0.986  1.301 -3.646  O2S EPE 14
-EPE  O3S  O3S O 0 1 N N N 58.331 47.863 54.358  1.110 -0.870 -4.397  O3S EPE 15
-EPE  H21  1H2 H 0 1 N N N 63.405 47.334 52.932 -2.683  0.551  0.659  H21 EPE 16
-EPE  H22  2H2 H 0 1 N N N 63.111 45.828 52.251 -1.271  1.571  1.024  H22 EPE 17
-EPE  H31  1H3 H 0 1 N N N 64.013 48.358 50.630 -2.044 -0.959  2.543  H31 EPE 18
-EPE  H32  2H3 H 0 1 N N N 65.034 47.072 51.038 -2.367  0.702  3.093  H32 EPE 19
-EPE  H51  1H5 H 0 1 N N N 62.060 47.982 48.958  1.520 -0.734  2.677  H51 EPE 20
-EPE  H52  2H5 H 0 1 N N N 61.817 46.449 48.288  0.109 -1.754  2.313  H52 EPE 21
-EPE  H61  1H6 H 0 1 N N N 61.169 45.456 50.592  1.204 -0.885  0.244  H61 EPE 22
-EPE  H62  2H6 H 0 1 N N N 60.143 46.711 50.150  0.881  0.775  0.794  H62 EPE 23
-EPE  H71  1H7 H 0 1 N N N 64.033 46.316 47.491 -0.748 -1.476  4.348  H71 EPE 24
-EPE  H72  2H7 H 0 1 N N N 64.136 47.925 48.032 -1.123  0.124  5.029  H72 EPE 25
-EPE  H81  1H8 H 0 1 N N N 66.427 47.061 47.719  1.673 -0.961  4.470  H81 EPE 26
-EPE  H82  2H8 H 0 1 N N N 66.220 47.457 49.365  0.911 -0.832  6.073  H82 EPE 27
-EPE  HO8  HO8 H 0 1 N N N 67.172 45.292 49.122  2.275  0.945  5.590  HO8 EPE 28
-EPE  H91  1H9 H 0 1 N N N 59.631 46.964 52.345 -1.748  0.323 -1.509  H91 EPE 29
-EPE  H92  2H9 H 0 1 N N N 60.772 45.927 53.027 -0.313  1.256 -1.022  H92 EPE 30
-EPE H101 1H10 H 0 0 N N N 61.885 47.904 54.349  1.131 -0.687 -1.557 H101 EPE 31
-EPE H102 2H10 H 0 0 N N N 60.921 49.037 53.560 -0.304 -1.620 -2.044 H102 EPE 32
-EPE HOS3 3HOS H 0 0 N N N 57.638 47.714 54.990  1.194 -0.529 -5.298 HOS3 EPE 33
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+EPE N1   N1   N 0 1 N N N 61.652 47.337 51.616 -0.820 -0.330 0.258  N1   EPE 1  
+EPE C2   C2   C 0 1 N N N 63.051 46.905 51.967 -1.669 0.557  1.061  C2   EPE 2  
+EPE C3   C3   C 0 1 N N N 63.962 47.257 50.796 -1.693 0.072  2.511  C3   EPE 3  
+EPE N4   N4   N 0 1 N N N 63.551 46.544 49.578 -0.342 0.147  3.079  N4   EPE 4  
+EPE C5   C5   C 0 1 N N N 62.151 46.910 49.248 0.507  -0.740 2.276  C5   EPE 5  
+EPE C6   C6   C 0 1 N N N 61.218 46.554 50.402 0.531  -0.255 0.826  C6   EPE 6  
+EPE C7   C7   C 0 1 N N N 64.368 46.893 48.385 -0.416 -0.441 4.423  C7   EPE 7  
+EPE C8   C8   C 0 1 N N N 65.854 46.721 48.613 0.966  -0.395 5.076  C8   EPE 8  
+EPE O8   O8   O 0 1 N N N 66.240 45.400 48.979 1.402  0.961  5.174  O8   EPE 9  
+EPE C9   C9   C 0 1 N N N 60.685 46.992 52.709 -0.746 0.258  -1.085 C9   EPE 10 
+EPE C10  C10  C 0 1 N N N 60.870 47.974 53.893 0.128  -0.621 -1.980 C10  EPE 11 
+EPE S    S    S 0 1 N N N 59.559 47.692 55.090 0.219  0.104  -3.640 S    EPE 12 
+EPE O1S  O1S  O 0 1 N N N 59.732 48.694 56.115 -1.019 -0.001 -4.327 O1S  EPE 13 
+EPE O2S  O2S  O 0 1 N N N 59.737 46.327 55.596 0.986  1.301  -3.646 O2S  EPE 14 
+EPE O3S  O3S  O 0 1 N N N 58.331 47.863 54.358 1.110  -0.870 -4.397 O3S  EPE 15 
+EPE H21  1H2  H 0 1 N N N 63.405 47.334 52.932 -2.683 0.551  0.659  H21  EPE 16 
+EPE H22  2H2  H 0 1 N N N 63.111 45.828 52.251 -1.271 1.571  1.024  H22  EPE 17 
+EPE H31  1H3  H 0 1 N N N 64.013 48.358 50.630 -2.044 -0.959 2.543  H31  EPE 18 
+EPE H32  2H3  H 0 1 N N N 65.034 47.072 51.038 -2.367 0.702  3.093  H32  EPE 19 
+EPE H51  1H5  H 0 1 N N N 62.060 47.982 48.958 1.520  -0.734 2.677  H51  EPE 20 
+EPE H52  2H5  H 0 1 N N N 61.817 46.449 48.288 0.109  -1.754 2.313  H52  EPE 21 
+EPE H61  1H6  H 0 1 N N N 61.169 45.456 50.592 1.204  -0.885 0.244  H61  EPE 22 
+EPE H62  2H6  H 0 1 N N N 60.143 46.711 50.150 0.881  0.775  0.794  H62  EPE 23 
+EPE H71  1H7  H 0 1 N N N 64.033 46.316 47.491 -0.748 -1.476 4.348  H71  EPE 24 
+EPE H72  2H7  H 0 1 N N N 64.136 47.925 48.032 -1.123 0.124  5.029  H72  EPE 25 
+EPE H81  1H8  H 0 1 N N N 66.427 47.061 47.719 1.673  -0.961 4.470  H81  EPE 26 
+EPE H82  2H8  H 0 1 N N N 66.220 47.457 49.365 0.911  -0.832 6.073  H82  EPE 27 
+EPE HO8  HO8  H 0 1 N N N 67.172 45.292 49.122 2.275  0.945  5.590  HO8  EPE 28 
+EPE H91  1H9  H 0 1 N N N 59.631 46.964 52.345 -1.748 0.323  -1.509 H91  EPE 29 
+EPE H92  2H9  H 0 1 N N N 60.772 45.927 53.027 -0.313 1.256  -1.022 H92  EPE 30 
+EPE H101 1H10 H 0 0 N N N 61.885 47.904 54.349 1.131  -0.687 -1.557 H101 EPE 31 
+EPE H102 2H10 H 0 0 N N N 60.921 49.037 53.560 -0.304 -1.620 -2.044 H102 EPE 32 
+EPE HOS3 3HOS H 0 0 N N N 57.638 47.714 54.990 1.194  -0.529 -5.298 HOS3 EPE 33 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-EPE  N1   C2 SING N N  1
-EPE  N1   C6 SING N N  2
-EPE  N1   C9 SING N N  3
-EPE  C2   C3 SING N N  4
-EPE  C2  H21 SING N N  5
-EPE  C2  H22 SING N N  6
-EPE  C3   N4 SING N N  7
-EPE  C3  H31 SING N N  8
-EPE  C3  H32 SING N N  9
-EPE  N4   C5 SING N N 10
-EPE  N4   C7 SING N N 11
-EPE  C5   C6 SING N N 12
-EPE  C5  H51 SING N N 13
-EPE  C5  H52 SING N N 14
-EPE  C6  H61 SING N N 15
-EPE  C6  H62 SING N N 16
-EPE  C7   C8 SING N N 17
-EPE  C7  H71 SING N N 18
-EPE  C7  H72 SING N N 19
-EPE  C8   O8 SING N N 20
-EPE  C8  H81 SING N N 21
-EPE  C8  H82 SING N N 22
-EPE  O8  HO8 SING N N 23
-EPE  C9  C10 SING N N 24
-EPE  C9  H91 SING N N 25
-EPE  C9  H92 SING N N 26
-EPE C10    S SING N N 27
-EPE C10 H101 SING N N 28
-EPE C10 H102 SING N N 29
-EPE   S  O1S DOUB N N 30
-EPE   S  O2S DOUB N N 31
-EPE   S  O3S SING N N 32
-EPE O3S HOS3 SING N N 33
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+EPE N1  C2   SING N N 1  
+EPE N1  C6   SING N N 2  
+EPE N1  C9   SING N N 3  
+EPE C2  C3   SING N N 4  
+EPE C2  H21  SING N N 5  
+EPE C2  H22  SING N N 6  
+EPE C3  N4   SING N N 7  
+EPE C3  H31  SING N N 8  
+EPE C3  H32  SING N N 9  
+EPE N4  C5   SING N N 10 
+EPE N4  C7   SING N N 11 
+EPE C5  C6   SING N N 12 
+EPE C5  H51  SING N N 13 
+EPE C5  H52  SING N N 14 
+EPE C6  H61  SING N N 15 
+EPE C6  H62  SING N N 16 
+EPE C7  C8   SING N N 17 
+EPE C7  H71  SING N N 18 
+EPE C7  H72  SING N N 19 
+EPE C8  O8   SING N N 20 
+EPE C8  H81  SING N N 21 
+EPE C8  H82  SING N N 22 
+EPE O8  HO8  SING N N 23 
+EPE C9  C10  SING N N 24 
+EPE C9  H91  SING N N 25 
+EPE C9  H92  SING N N 26 
+EPE C10 S    SING N N 27 
+EPE C10 H101 SING N N 28 
+EPE C10 H102 SING N N 29 
+EPE S   O1S  DOUB N N 30 
+EPE S   O2S  DOUB N N 31 
+EPE S   O3S  SING N N 32 
+EPE O3S HOS3 SING N N 33 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-EPE           SMILES              ACDLabs 10.04                                                          O=S(=O)(O)CCN1CCN(CCO)CC1
-EPE SMILES_CANONICAL               CACTVS 3.341                                                        OCCN1CCN(CC1)CC[S](O)(=O)=O
-EPE           SMILES               CACTVS 3.341                                                        OCCN1CCN(CC1)CC[S](O)(=O)=O
-EPE SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                          C1CN(CCN1CCO)CCS(=O)(=O)O
-EPE           SMILES "OpenEye OEToolkits" 1.5.0                                                          C1CN(CCN1CCO)CCS(=O)(=O)O
-EPE            InChI                InChI  1.03 InChI=1S/C8H18N2O4S/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14/h11H,1-8H2,(H,12,13,14)
-EPE         InChIKey                InChI  1.03                                                        JKMHFZQWWAIEOD-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+EPE SMILES           ACDLabs              10.04 "O=S(=O)(O)CCN1CCN(CCO)CC1"                                                          
+EPE SMILES_CANONICAL CACTVS               3.341 "OCCN1CCN(CC1)CC[S](O)(=O)=O"                                                        
+EPE SMILES           CACTVS               3.341 "OCCN1CCN(CC1)CC[S](O)(=O)=O"                                                        
+EPE SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C1CN(CCN1CCO)CCS(=O)(=O)O"                                                          
+EPE SMILES           "OpenEye OEToolkits" 1.5.0 "C1CN(CCN1CCO)CCS(=O)(=O)O"                                                          
+EPE InChI            InChI                1.03  "InChI=1S/C8H18N2O4S/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14/h11H,1-8H2,(H,12,13,14)" 
+EPE InChIKey         InChI                1.03  JKMHFZQWWAIEOD-UHFFFAOYSA-N                                                          
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-EPE "SYSTEMATIC NAME"              ACDLabs 10.04 "2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonic acid"
-EPE "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+EPE "SYSTEMATIC NAME" ACDLabs              10.04 "2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonic acid" 
+EPE "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-EPE  "Create component" 1999-07-08 RCSB
-EPE "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-EPE  N1 N 7.299 -1.659  1
-EPE  C2 C 6.000 -0.909  2
-EPE  C3 C 6.000  0.591  3
-EPE  N4 N 7.299  1.341  4
-EPE  C5 C 8.598  0.591  5
-EPE  C6 C 8.598 -0.909  6
-EPE  C7 C 7.299  2.841  7
-EPE  C8 C 8.598  3.591  8
-EPE  O8 O 8.598  5.091  9
-EPE  C9 C 6.549 -2.958 10
-EPE C10 C 5.049 -2.958 11
-EPE   S S 4.299 -4.257 12
-EPE O1S O 3.549 -5.556 13
-EPE O2S O 3.000 -3.507 14
-EPE O3S O 5.598 -5.007 15
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-EPE  N1  C2 SINGLE NONE  1
-EPE  N1  C6 SINGLE NONE  2
-EPE  N1  C9 SINGLE NONE  3
-EPE  C2  C3 SINGLE NONE  4
-EPE  C3  N4 SINGLE NONE  5
-EPE  N4  C5 SINGLE NONE  6
-EPE  N4  C7 SINGLE NONE  7
-EPE  C5  C6 SINGLE NONE  8
-EPE  C7  C8 SINGLE NONE  9
-EPE  C8  O8 SINGLE NONE 10
-EPE  C9 C10 SINGLE NONE 11
-EPE C10   S SINGLE NONE 12
-EPE   S O1S DOUBLE NONE 13
-EPE   S O2S DOUBLE NONE 14
-EPE   S O3S SINGLE NONE 15
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-EPE MurckoScaffold S1 scaffold C1CNCCN1 InChI=1S/C4H10N2/c1-2-6-4-3-5-1/h5-6H,1-4H2 GLUUGHFHXGJENI-UHFFFAOYSA-N
-EPE     piperazine F1 fragment C1CNCCN1 InChI=1S/C4H10N2/c1-2-6-4-3-5-1/h5-6H,1-4H2 GLUUGHFHXGJENI-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-EPE N1 F1 1
-EPE C2 F1 1
-EPE C3 F1 1
-EPE N4 F1 1
-EPE C5 F1 1
-EPE C6 F1 1
-EPE N1 S1 1
-EPE C2 S1 1
-EPE C3 S1 1
-EPE N4 S1 1
-EPE C5 S1 1
-EPE C6 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               EPE
-_pdbe_chem_comp_rdkit_properties.exactmw                               238.099
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             115.693
-_pdbe_chem_comp_rdkit_properties.tpsa                                  81.080
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.516
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             56.381
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         15
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-EPE UniChem ChEMBL    CHEMBL1232545
-EPE UniChem  ChEBI            42334
-EPE UniChem  ChEBI            46755
-EPE UniChem   ZINC ZINC000019203136
-EPE UniChem   ZINC     ZINC19203136
-EPE UniChem BRENDA            44219
-EPE UniChem BRENDA             9180
-EPE UniChem BRENDA            94175
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-EPE   N1 -1.074 -0.402 -0.450 ETKDGv2  1
-EPE   C2 -0.176 -1.371  0.226 ETKDGv2  2
-EPE   C3  1.249 -0.811  0.406 ETKDGv2  3
-EPE   N4  1.223  0.657  0.304 ETKDGv2  4
-EPE   C5  0.803  1.103 -1.041 ETKDGv2  5
-EPE   C6 -0.376  0.261 -1.569 ETKDGv2  6
-EPE   C7  2.459  1.318  0.781 ETKDGv2  7
-EPE   C8  3.755  0.790  0.143 ETKDGv2  8
-EPE   O8  4.836  1.555  0.600 ETKDGv2  9
-EPE   C9 -2.315 -1.052 -0.926 ETKDGv2 10
-EPE  C10 -3.267 -1.386  0.230 ETKDGv2 11
-EPE    S -3.736  0.071  1.157 ETKDGv2 12
-EPE  O1S -4.818 -0.296  2.132 ETKDGv2 13
-EPE  O2S -4.259  1.126  0.222 ETKDGv2 14
-EPE  O3S -2.413  0.667  2.010 ETKDGv2 15
-EPE  H21 -0.115 -2.329 -0.338 ETKDGv2 16
-EPE  H22 -0.584 -1.593  1.234 ETKDGv2 17
-EPE  H31  1.643 -1.125  1.398 ETKDGv2 18
-EPE  H32  1.909 -1.240 -0.382 ETKDGv2 19
-EPE  H51  1.637  1.041 -1.771 ETKDGv2 20
-EPE  H52  0.484  2.166 -0.978 ETKDGv2 21
-EPE  H61 -0.002 -0.500 -2.291 ETKDGv2 22
-EPE  H62 -1.068  0.938 -2.117 ETKDGv2 23
-EPE  H71  2.386  2.414  0.602 ETKDGv2 24
-EPE  H72  2.529  1.186  1.883 ETKDGv2 25
-EPE  H81  3.705  0.859 -0.964 ETKDGv2 26
-EPE  H82  3.916 -0.271  0.433 ETKDGv2 27
-EPE  HO8  5.646  1.176  0.168 ETKDGv2 28
-EPE  H91 -2.085 -1.979 -1.498 ETKDGv2 29
-EPE  H92 -2.866 -0.377 -1.619 ETKDGv2 30
-EPE H101 -4.188 -1.844 -0.189 ETKDGv2 31
-EPE H102 -2.810 -2.129  0.916 ETKDGv2 32
-EPE HOS3 -2.026  1.376  1.436 ETKDGv2 33
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+EPE "Create component"  1999-07-08 RCSB 
+EPE "Modify descriptor" 2011-06-04 RCSB 
+# 

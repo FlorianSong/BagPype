@@ -1,463 +1,180 @@
 data_ECS
-#
-_chem_comp.id                                        ECS
-_chem_comp.name                                      2,3,17BETA-TRIHYDROXY-1,3,5(10)-ESTRATRIENE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C18 H24 O3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2005-07-12
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       ?
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            288.381
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         ECS
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            "OpenEye/OEToolkits V1.4.2"
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2BW7
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    ECS 
+_chem_comp.name                                  "2,3,17BETA-TRIHYDROXY-1,3,5(10)-ESTRATRIENE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C18 H24 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2005-07-12 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   ? 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        288.381 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ECS 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        "OpenEye/OEToolkits V1.4.2" 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2BW7 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ECS   C1   C1 C 0 1 Y N N  2.570 -4.365 5.953  2.153  0.012 -0.080   C1 ECS  1
-ECS  C10  C10 C 0 1 Y N N  2.162 -3.084 6.538  3.340 -0.741 -0.080  C10 ECS  2
-ECS  C11  C11 C 0 1 N N N  0.266 -2.763 4.760  4.805  1.340  0.440  C11 ECS  3
-ECS  C12  C12 C 0 1 N N N -0.656 -1.786 3.971  6.209  1.968  0.335  C12 ECS  4
-ECS  C13  C13 C 0 1 N N S -1.510 -0.916 4.934  7.298  1.017  0.845  C13 ECS  5
-ECS  C14  C14 C 0 1 N N S -0.511 -0.155 5.937  7.186 -0.306  0.061  C14 ECS  6
-ECS  C15  C15 C 0 1 N N N -1.477  0.821 6.611  8.479 -1.037  0.411  C15 ECS  7
-ECS  C16  C16 C 0 1 N N N -2.224  1.436 5.371  9.521  0.089  0.538  C16 ECS  8
-ECS  C17  C17 C 0 1 N N S -2.224  0.308 4.283  8.736  1.413  0.461  C17 ECS  9
-ECS  C18  C18 C 0 1 N N N -2.617 -1.827 5.641  7.165  0.870  2.383  C18 ECS 10
-ECS   C2   C2 C 0 1 Y N N  3.394 -5.288 6.678  0.902 -0.605 -0.005   C2 ECS 11
-ECS   C3   C3 C 0 1 Y N N  3.846 -4.959 8.004  0.811 -1.989  0.057   C3 ECS 12
-ECS   C4   C4 C 0 1 Y N N  3.473 -3.712 8.622  1.972 -2.757  0.035   C4 ECS 13
-ECS   C5   C5 C 0 1 Y N N  2.638 -2.756 7.916  3.237 -2.149 -0.049   C5 ECS 14
-ECS   C6   C6 C 0 1 N N N  2.249 -1.420 8.607  4.449 -3.048 -0.049   C6 ECS 15
-ECS   C7   C7 C 0 1 N N N  1.341 -0.447 7.766  5.746 -2.343 -0.437   C7 ECS 16
-ECS   C8   C8 C 0 1 N N S  0.386 -1.173 6.782  5.846 -1.003  0.293   C8 ECS 17
-ECS   C9   C9 C 0 1 N N S  1.257 -2.057 5.762  4.704 -0.067 -0.208   C9 ECS 18
-ECS  O17  O17 O 0 1 N N N -3.588  0.082 3.829  9.299  2.421  1.277  O17 ECS 19
-ECS   O3   O3 O 0 1 N N N  4.634 -5.849 8.682 -0.401 -2.604  0.134   O3 ECS 20
-ECS   O2   O2 O 0 1 N N N  3.747 -6.478 6.094 -0.223  0.164  0.001   O2 ECS 21
-ECS   H1   H1 H 0 1 N N N  2.236 -4.624 4.934  2.182  1.096 -0.145   H1 ECS 22
-ECS   H9   H9 H 0 1 N N N  1.919 -1.374 5.180  4.846  0.081 -1.290   H9 ECS 23
-ECS H111 1H11 H 0 0 N N N -0.345 -3.529 5.292  4.496  1.288  1.491 H111 ECS 24
-ECS H112 2H11 H 0 0 N N N  0.828 -3.421 4.057  4.109  2.033 -0.048 H112 ECS 25
-ECS H121 1H12 H 0 0 N N N -1.294 -2.329 3.235  6.396  2.220 -0.717 H121 ECS 26
-ECS H122 2H12 H 0 0 N N N -0.072 -1.157 3.260  6.231  2.915  0.887 H122 ECS 27
-ECS  H14  H14 H 0 1 N N N  0.184  0.451 5.310  7.247 -0.081 -1.017  H14 ECS 28
-ECS  H17  H17 H 0 1 N N N -1.615  0.653 3.415  8.764  1.782 -0.572  H17 ECS 29
-ECS H181 1H18 H 0 0 N N N -3.230 -1.203 6.332  7.992  1.375  2.890 H181 ECS 30
-ECS H182 2H18 H 0 0 N N N -2.170 -2.709 6.156  6.226  1.311  2.731 H182 ECS 31
-ECS H183 3H18 H 0 0 N N N -3.245 -2.376 4.901  7.178 -0.186  2.671 H183 ECS 32
-ECS H151 1H15 H 0 0 N N N -1.002  1.563 7.295  8.766 -1.757 -0.363 H151 ECS 33
-ECS H152 2H15 H 0 0 N N N -2.138  0.373 7.389  8.389 -1.584  1.356 H152 ECS 34
-ECS   H8   H8 H 0 1 N N N -0.285 -1.848 7.363  5.716 -1.202  1.365   H8 ECS 35
-ECS H161 1H16 H 0 0 N N N -3.240  1.830 5.609 10.085 -0.008  1.473 H161 ECS 36
-ECS H162 2H16 H 0 0 N N N -1.789  2.400 5.018 10.251  0.038 -0.277 H162 ECS 37
-ECS   HA   HA H 0 1 N N N -4.023  0.828 3.432  9.861  2.973  0.706   HA ECS 38
-ECS   H2   H2 H 0 1 N N N  4.293 -7.089 6.574 -0.042  1.026 -0.406   H2 ECS 39
-ECS   H4   H4 H 0 1 N N N  3.825 -3.481 9.642  1.895 -3.842  0.081   H4 ECS 40
-ECS   H3   H3 H 0 1 N N N  4.932 -5.632 9.557 -0.870 -2.323  0.936   H3 ECS 41
-ECS H6C1 1H6C H 0 0 N N N  3.168 -0.885 8.941  4.558 -3.465  0.961 H6C1 ECS 42
-ECS H6C2 2H6C H 0 0 N N N  1.769 -1.629 9.592  4.289 -3.888 -0.735 H6C2 ECS 43
-ECS H7C1 1H7C H 0 0 N N N  0.768  0.234 8.438  6.590 -2.995 -0.188 H7C1 ECS 44
-ECS H7C2 2H7C H 0 0 N N N  1.965  0.303 7.226  5.774 -2.184 -1.522 H7C2 ECS 45
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ECS C1   C1   C 0 1 Y N N 2.570  -4.365 5.953 2.153  0.012  -0.080 C1   ECS 1  
+ECS C10  C10  C 0 1 Y N N 2.162  -3.084 6.538 3.340  -0.741 -0.080 C10  ECS 2  
+ECS C11  C11  C 0 1 N N N 0.266  -2.763 4.760 4.805  1.340  0.440  C11  ECS 3  
+ECS C12  C12  C 0 1 N N N -0.656 -1.786 3.971 6.209  1.968  0.335  C12  ECS 4  
+ECS C13  C13  C 0 1 N N S -1.510 -0.916 4.934 7.298  1.017  0.845  C13  ECS 5  
+ECS C14  C14  C 0 1 N N S -0.511 -0.155 5.937 7.186  -0.306 0.061  C14  ECS 6  
+ECS C15  C15  C 0 1 N N N -1.477 0.821  6.611 8.479  -1.037 0.411  C15  ECS 7  
+ECS C16  C16  C 0 1 N N N -2.224 1.436  5.371 9.521  0.089  0.538  C16  ECS 8  
+ECS C17  C17  C 0 1 N N S -2.224 0.308  4.283 8.736  1.413  0.461  C17  ECS 9  
+ECS C18  C18  C 0 1 N N N -2.617 -1.827 5.641 7.165  0.870  2.383  C18  ECS 10 
+ECS C2   C2   C 0 1 Y N N 3.394  -5.288 6.678 0.902  -0.605 -0.005 C2   ECS 11 
+ECS C3   C3   C 0 1 Y N N 3.846  -4.959 8.004 0.811  -1.989 0.057  C3   ECS 12 
+ECS C4   C4   C 0 1 Y N N 3.473  -3.712 8.622 1.972  -2.757 0.035  C4   ECS 13 
+ECS C5   C5   C 0 1 Y N N 2.638  -2.756 7.916 3.237  -2.149 -0.049 C5   ECS 14 
+ECS C6   C6   C 0 1 N N N 2.249  -1.420 8.607 4.449  -3.048 -0.049 C6   ECS 15 
+ECS C7   C7   C 0 1 N N N 1.341  -0.447 7.766 5.746  -2.343 -0.437 C7   ECS 16 
+ECS C8   C8   C 0 1 N N S 0.386  -1.173 6.782 5.846  -1.003 0.293  C8   ECS 17 
+ECS C9   C9   C 0 1 N N S 1.257  -2.057 5.762 4.704  -0.067 -0.208 C9   ECS 18 
+ECS O17  O17  O 0 1 N N N -3.588 0.082  3.829 9.299  2.421  1.277  O17  ECS 19 
+ECS O3   O3   O 0 1 N N N 4.634  -5.849 8.682 -0.401 -2.604 0.134  O3   ECS 20 
+ECS O2   O2   O 0 1 N N N 3.747  -6.478 6.094 -0.223 0.164  0.001  O2   ECS 21 
+ECS H1   H1   H 0 1 N N N 2.236  -4.624 4.934 2.182  1.096  -0.145 H1   ECS 22 
+ECS H9   H9   H 0 1 N N N 1.919  -1.374 5.180 4.846  0.081  -1.290 H9   ECS 23 
+ECS H111 1H11 H 0 0 N N N -0.345 -3.529 5.292 4.496  1.288  1.491  H111 ECS 24 
+ECS H112 2H11 H 0 0 N N N 0.828  -3.421 4.057 4.109  2.033  -0.048 H112 ECS 25 
+ECS H121 1H12 H 0 0 N N N -1.294 -2.329 3.235 6.396  2.220  -0.717 H121 ECS 26 
+ECS H122 2H12 H 0 0 N N N -0.072 -1.157 3.260 6.231  2.915  0.887  H122 ECS 27 
+ECS H14  H14  H 0 1 N N N 0.184  0.451  5.310 7.247  -0.081 -1.017 H14  ECS 28 
+ECS H17  H17  H 0 1 N N N -1.615 0.653  3.415 8.764  1.782  -0.572 H17  ECS 29 
+ECS H181 1H18 H 0 0 N N N -3.230 -1.203 6.332 7.992  1.375  2.890  H181 ECS 30 
+ECS H182 2H18 H 0 0 N N N -2.170 -2.709 6.156 6.226  1.311  2.731  H182 ECS 31 
+ECS H183 3H18 H 0 0 N N N -3.245 -2.376 4.901 7.178  -0.186 2.671  H183 ECS 32 
+ECS H151 1H15 H 0 0 N N N -1.002 1.563  7.295 8.766  -1.757 -0.363 H151 ECS 33 
+ECS H152 2H15 H 0 0 N N N -2.138 0.373  7.389 8.389  -1.584 1.356  H152 ECS 34 
+ECS H8   H8   H 0 1 N N N -0.285 -1.848 7.363 5.716  -1.202 1.365  H8   ECS 35 
+ECS H161 1H16 H 0 0 N N N -3.240 1.830  5.609 10.085 -0.008 1.473  H161 ECS 36 
+ECS H162 2H16 H 0 0 N N N -1.789 2.400  5.018 10.251 0.038  -0.277 H162 ECS 37 
+ECS HA   HA   H 0 1 N N N -4.023 0.828  3.432 9.861  2.973  0.706  HA   ECS 38 
+ECS H2   H2   H 0 1 N N N 4.293  -7.089 6.574 -0.042 1.026  -0.406 H2   ECS 39 
+ECS H4   H4   H 0 1 N N N 3.825  -3.481 9.642 1.895  -3.842 0.081  H4   ECS 40 
+ECS H3   H3   H 0 1 N N N 4.932  -5.632 9.557 -0.870 -2.323 0.936  H3   ECS 41 
+ECS H6C1 1H6C H 0 0 N N N 3.168  -0.885 8.941 4.558  -3.465 0.961  H6C1 ECS 42 
+ECS H6C2 2H6C H 0 0 N N N 1.769  -1.629 9.592 4.289  -3.888 -0.735 H6C2 ECS 43 
+ECS H7C1 1H7C H 0 0 N N N 0.768  0.234  8.438 6.590  -2.995 -0.188 H7C1 ECS 44 
+ECS H7C2 2H7C H 0 0 N N N 1.965  0.303  7.226 5.774  -2.184 -1.522 H7C2 ECS 45 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ECS  C1  C10 SING Y N  1
-ECS  C1   C2 DOUB Y N  2
-ECS  C1   H1 SING N N  3
-ECS C10   C5 DOUB Y N  4
-ECS C10   C9 SING N N  5
-ECS C11  C12 SING N N  6
-ECS C11   C9 SING N N  7
-ECS C11 H111 SING N N  8
-ECS C11 H112 SING N N  9
-ECS C12  C13 SING N N 10
-ECS C12 H121 SING N N 11
-ECS C12 H122 SING N N 12
-ECS C13  C14 SING N N 13
-ECS C13  C17 SING N N 14
-ECS C13  C18 SING N N 15
-ECS C14  C15 SING N N 16
-ECS C14   C8 SING N N 17
-ECS C14  H14 SING N N 18
-ECS C15  C16 SING N N 19
-ECS C15 H151 SING N N 20
-ECS C15 H152 SING N N 21
-ECS C16  C17 SING N N 22
-ECS C16 H161 SING N N 23
-ECS C16 H162 SING N N 24
-ECS C17  O17 SING N N 25
-ECS C17  H17 SING N N 26
-ECS C18 H181 SING N N 27
-ECS C18 H182 SING N N 28
-ECS C18 H183 SING N N 29
-ECS  C2   C3 SING Y N 30
-ECS  C2   O2 SING N N 31
-ECS  C3   C4 DOUB Y N 32
-ECS  C3   O3 SING N N 33
-ECS  C4   C5 SING Y N 34
-ECS  C4   H4 SING N N 35
-ECS  C5   C6 SING N N 36
-ECS  C6   C7 SING N N 37
-ECS  C6 H6C1 SING N N 38
-ECS  C6 H6C2 SING N N 39
-ECS  C7 H7C2 SING N N 40
-ECS  C7   C8 SING N N 41
-ECS  C7 H7C1 SING N N 42
-ECS  C8   C9 SING N N 43
-ECS  C8   H8 SING N N 44
-ECS  C9   H9 SING N N 45
-ECS O17   HA SING N N 46
-ECS  O3   H3 SING N N 47
-ECS  O2   H2 SING N N 48
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ECS C1  C10  SING Y N 1  
+ECS C1  C2   DOUB Y N 2  
+ECS C1  H1   SING N N 3  
+ECS C10 C5   DOUB Y N 4  
+ECS C10 C9   SING N N 5  
+ECS C11 C12  SING N N 6  
+ECS C11 C9   SING N N 7  
+ECS C11 H111 SING N N 8  
+ECS C11 H112 SING N N 9  
+ECS C12 C13  SING N N 10 
+ECS C12 H121 SING N N 11 
+ECS C12 H122 SING N N 12 
+ECS C13 C14  SING N N 13 
+ECS C13 C17  SING N N 14 
+ECS C13 C18  SING N N 15 
+ECS C14 C15  SING N N 16 
+ECS C14 C8   SING N N 17 
+ECS C14 H14  SING N N 18 
+ECS C15 C16  SING N N 19 
+ECS C15 H151 SING N N 20 
+ECS C15 H152 SING N N 21 
+ECS C16 C17  SING N N 22 
+ECS C16 H161 SING N N 23 
+ECS C16 H162 SING N N 24 
+ECS C17 O17  SING N N 25 
+ECS C17 H17  SING N N 26 
+ECS C18 H181 SING N N 27 
+ECS C18 H182 SING N N 28 
+ECS C18 H183 SING N N 29 
+ECS C2  C3   SING Y N 30 
+ECS C2  O2   SING N N 31 
+ECS C3  C4   DOUB Y N 32 
+ECS C3  O3   SING N N 33 
+ECS C4  C5   SING Y N 34 
+ECS C4  H4   SING N N 35 
+ECS C5  C6   SING N N 36 
+ECS C6  C7   SING N N 37 
+ECS C6  H6C1 SING N N 38 
+ECS C6  H6C2 SING N N 39 
+ECS C7  H7C2 SING N N 40 
+ECS C7  C8   SING N N 41 
+ECS C7  H7C1 SING N N 42 
+ECS C8  C9   SING N N 43 
+ECS C8  H8   SING N N 44 
+ECS C9  H9   SING N N 45 
+ECS O17 HA   SING N N 46 
+ECS O3  H3   SING N N 47 
+ECS O2  H2   SING N N 48 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ECS           SMILES              ACDLabs 10.04                                                                                                               Oc1cc4c(cc1O)C3CCC2(C(CCC2O)C3CC4)C
-ECS SMILES_CANONICAL               CACTVS 3.341                                                                                         C[C@]12CC[C@H]3[C@@H](CCc4cc(O)c(O)cc34)[C@@H]1CC[C@@H]2O
-ECS           SMILES               CACTVS 3.341                                                                                                 C[C]12CC[CH]3[CH](CCc4cc(O)c(O)cc34)[CH]1CC[CH]2O
-ECS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                           C[C@]12CC[C@@H]3c4cc(c(cc4CC[C@H]3[C@@H]1CC[C@@H]2O)O)O
-ECS           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                 CC12CCC3c4cc(c(cc4CCC3C1CCC2O)O)O
-ECS            InChI                InChI  1.03 InChI=1S/C18H24O3/c1-18-7-6-11-12(14(18)4-5-17(18)21)3-2-10-8-15(19)16(20)9-13(10)11/h8-9,11-12,14,17,19-21H,2-7H2,1H3/t11-,12+,14-,17-,18-/m0/s1
-ECS         InChIKey                InChI  1.03                                                                                                                       DILDHNKDVHLEQB-XSSYPUMDSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ECS SMILES           ACDLabs              10.04 "Oc1cc4c(cc1O)C3CCC2(C(CCC2O)C3CC4)C"                                                                                                               
+ECS SMILES_CANONICAL CACTVS               3.341 "C[C@]12CC[C@H]3[C@@H](CCc4cc(O)c(O)cc34)[C@@H]1CC[C@@H]2O"                                                                                         
+ECS SMILES           CACTVS               3.341 "C[C]12CC[CH]3[CH](CCc4cc(O)c(O)cc34)[CH]1CC[CH]2O"                                                                                                 
+ECS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@]12CC[C@@H]3c4cc(c(cc4CC[C@H]3[C@@H]1CC[C@@H]2O)O)O"                                                                                           
+ECS SMILES           "OpenEye OEToolkits" 1.5.0 "CC12CCC3c4cc(c(cc4CCC3C1CCC2O)O)O"                                                                                                                 
+ECS InChI            InChI                1.03  "InChI=1S/C18H24O3/c1-18-7-6-11-12(14(18)4-5-17(18)21)3-2-10-8-15(19)16(20)9-13(10)11/h8-9,11-12,14,17,19-21H,2-7H2,1H3/t11-,12+,14-,17-,18-/m0/s1" 
+ECS InChIKey         InChI                1.03  DILDHNKDVHLEQB-XSSYPUMDSA-N                                                                                                                         
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-ECS "SYSTEMATIC NAME"              ACDLabs 10.04                                      (9beta,13alpha,14beta,17alpha)-estra-1,3,5(10)-triene-2,3,17-triol
-ECS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 (8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-2,3,17-triol
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ECS "SYSTEMATIC NAME" ACDLabs              10.04 "(9beta,13alpha,14beta,17alpha)-estra-1,3,5(10)-triene-2,3,17-triol"                                      
+ECS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-2,3,17-triol" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ECS  "Create component" 2005-07-12 RCSB
-ECS "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   ECS
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB07706
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      2-Hydroxyestradiol
-_pdbe_chem_comp_drugbank_details.description               "2-Hydroxyestradiol is classified as an endogenous steroid, catechol estrogen, and metabolite of estradiol. It is also a positional isomer of estriol. [A31630]"
-_pdbe_chem_comp_drugbank_details.cas_number                362-05-0
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           ECS
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB07706
-_pdbe_chem_comp_drugbank_classification.parent            "Estrogens and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Steroids and steroid derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Lipids and lipid-like molecules"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as estrogens and derivatives. These are steroids with a structure containing a 3-hydroxylated estrane."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        ECS
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB07706
-_pdbe_chem_comp_drugbank_targets.name                           "Adenylate cyclase"
-_pdbe_chem_comp_drugbank_targets.organism                       "Arthrospira platensis"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     O32393
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-ECS                        2-Hydroxyestradiol   ChEMBL
-ECS                       2-Hydroxy-Estradiol   ChEMBL
-ECS (17β)-estra-1,3,5(10)-triene-2,3,17-triol DrugBank
-ECS                2-hydroxy-17beta-estradiol DrugBank
-ECS                   2-hydroxy-17β-estradiol DrugBank
-ECS                 2-Hydroxyestradiol-17beta DrugBank
-ECS                            2-OH-Estradiol DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ECS  C1 C  5.740  0.303  1
-ECS C10 C  7.130 -0.543  2
-ECS C11 C  8.495  1.717  3
-ECS C12 C  9.794  2.467  4
-ECS C13 C 11.093  1.717  5
-ECS C14 C 11.093  0.217  6
-ECS C15 C 12.512 -0.240  7
-ECS C16 C 13.388  0.967  8
-ECS C17 C 12.512  2.174  9
-ECS C18 C 11.093  3.217 10
-ECS  C2 C  4.318 -0.489 11
-ECS  C3 C  4.305 -2.117 12
-ECS  C4 C  5.715 -2.930 13
-ECS  C5 C  7.118 -2.106 14
-ECS  C6 C  8.471 -2.887 15
-ECS  C7 C  9.818 -2.095 16
-ECS  C8 C  9.794 -0.533 17
-ECS  C9 C  8.495  0.217 18
-ECS O17 O 12.979  3.600 19
-ECS  O3 O  3.004 -2.861 20
-ECS  O2 O  3.028  0.276 21
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ECS  C1 C10 DOUBLE       NONE  1
-ECS  C1  C2 SINGLE       NONE  2
-ECS C10  C5 SINGLE       NONE  3
-ECS C10  C9 SINGLE       NONE  4
-ECS C11 C12 SINGLE       NONE  5
-ECS C11  C9 SINGLE       NONE  6
-ECS C12 C13 SINGLE       NONE  7
-ECS C13 C14 SINGLE       NONE  8
-ECS C13 C17 SINGLE       NONE  9
-ECS C13 C18 SINGLE  BEGINDASH 10
-ECS C14 C15 SINGLE       NONE 11
-ECS C14  C8 SINGLE       NONE 12
-ECS C15 C16 SINGLE       NONE 13
-ECS C16 C17 SINGLE       NONE 14
-ECS C17 O17 SINGLE BEGINWEDGE 15
-ECS  C2  C3 DOUBLE       NONE 16
-ECS  C2  O2 SINGLE       NONE 17
-ECS  C3  C4 SINGLE       NONE 18
-ECS  C3  O3 SINGLE       NONE 19
-ECS  C4  C5 DOUBLE       NONE 20
-ECS  C5  C6 SINGLE       NONE 21
-ECS  C6  C7 SINGLE       NONE 22
-ECS  C7  C8 SINGLE       NONE 23
-ECS  C8  C9 SINGLE       NONE 24
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-ECS MurckoScaffold S1 scaffold        c1ccc2c(c1)CC[C@H]1[C@H]3CCCC3CC[C@@H]21 InChI=1S/C17H22/c1-2-6-14-12(4-1)8-10-17-15-7-3-5-13(15)9-11-16(14)17/h1-2,4,6,13,15-17H,3,5,7-11H2/t13?,15-,16-,17-/m0/s1 GBGFUQOSVTZLFA-TXJLAWCJSA-N
-ECS    cyclohexane F1 fragment                                        C1CCCCC1                                                                                       InChI=1S/C6H12/c1-2-4-6-5-3-1/h1-6H2 XDTMQSROBMDMFD-UHFFFAOYSA-N
-ECS   cyclopentane F2 fragment                                         C1CCCC1                                                                                         InChI=1S/C5H10/c1-2-4-5-3-1/h1-5H2 RGSFGYAAUTVSQA-UHFFFAOYSA-N
-ECS         phenyl F3 fragment                                        c1ccccc1                                                                                         InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-ECS   steroid-like F4 fragment C1~C~C~C2~C(~C~1)~C~C~C1~C3~C~C~C~C~3~C~C~C~2~1                                                                                                                          .                           .
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ECS C11 F1 1
-ECS C12 F1 1
-ECS C13 F1 1
-ECS C14 F1 1
-ECS  C8 F1 1
-ECS  C9 F1 1
-ECS C13 F2 1
-ECS C14 F2 1
-ECS C15 F2 1
-ECS C16 F2 1
-ECS C17 F2 1
-ECS  C1 F3 1
-ECS C10 F3 1
-ECS  C5 F3 1
-ECS  C4 F3 1
-ECS  C3 F3 1
-ECS  C2 F3 1
-ECS  C2 F4 1
-ECS  C3 F4 1
-ECS  C4 F4 1
-ECS  C5 F4 1
-ECS C10 F4 1
-ECS  C1 F4 1
-ECS  C9 F4 1
-ECS  C8 F4 1
-ECS  C7 F4 1
-ECS  C6 F4 1
-ECS C14 F4 1
-ECS C13 F4 1
-ECS C12 F4 1
-ECS C11 F4 1
-ECS C17 F4 1
-ECS C16 F4 1
-ECS C15 F4 1
-ECS  C1 S1 1
-ECS C10 S1 1
-ECS C11 S1 1
-ECS C12 S1 1
-ECS C13 S1 1
-ECS C14 S1 1
-ECS C15 S1 1
-ECS C16 S1 1
-ECS C17 S1 1
-ECS  C2 S1 1
-ECS  C3 S1 1
-ECS  C4 S1 1
-ECS  C5 S1 1
-ECS  C6 S1 1
-ECS  C7 S1 1
-ECS  C8 S1 1
-ECS  C9 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ECS
-_pdbe_chem_comp_rdkit_properties.exactmw                               288.173
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     2
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             159.155
-_pdbe_chem_comp_rdkit_properties.tpsa                                  60.690
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.281
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             78.643
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         21
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ECS UniChem        ChEMBL     CHEMBL467987
-ECS UniChem      DrugBank          DB07706
-ECS UniChem "KEGG LIGAND"           C05301
-ECS UniChem         ChEBI            28744
-ECS UniChem          ZINC ZINC000003815419
-ECS UniChem          ZINC     ZINC03815419
-ECS UniChem     BindingDb         50262140
-ECS UniChem  MetaboLights       MTBLC28744
-ECS UniChem        BRENDA            10485
-ECS UniChem        BRENDA           139258
-ECS UniChem        BRENDA           139265
-ECS UniChem        BRENDA           144422
-ECS UniChem        BRENDA             2067
-ECS UniChem        BRENDA            33271
-ECS UniChem          Rhea            28744
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ECS   C1  2.876  1.050  0.981 ETKDGv2  1
-ECS  C10  2.033  0.395  0.163 ETKDGv2  2
-ECS  C11 -0.128  0.394  1.484 ETKDGv2  3
-ECS  C12 -1.650  0.695  1.506 ETKDGv2  4
-ECS  C13 -2.380  0.041  0.305 ETKDGv2  5
-ECS  C14 -1.682  0.505 -0.983 ETKDGv2  6
-ECS  C15 -2.636  0.170 -2.119 ETKDGv2  7
-ECS  C16 -4.031  0.366 -1.496 ETKDGv2  8
-ECS  C17 -3.834  0.521  0.037 ETKDGv2  9
-ECS  C18 -2.440 -1.506  0.502 ETKDGv2 10
-ECS   C2  4.303  0.675  1.073 ETKDGv2 11
-ECS   C3  4.776 -0.339  0.312 ETKDGv2 12
-ECS   C4  3.861 -1.044 -0.610 ETKDGv2 13
-ECS   C5  2.560 -0.717 -0.684 ETKDGv2 14
-ECS   C6  1.690 -1.382 -1.721 ETKDGv2 15
-ECS   C7  0.206 -1.276 -1.370 ETKDGv2 16
-ECS   C8 -0.173  0.195 -1.106 ETKDGv2 17
-ECS   C9  0.560  0.774  0.141 ETKDGv2 18
-ECS  O17 -4.059  1.846  0.463 ETKDGv2 19
-ECS   O3  6.108 -0.760  0.344 ETKDGv2 20
-ECS   O2  5.102  1.401  1.960 ETKDGv2 21
-ECS   H1  2.515  1.862  1.601 ETKDGv2 22
-ECS   H9  0.508  1.884  0.056 ETKDGv2 23
-ECS H111  0.067 -0.672  1.720 ETKDGv2 24
-ECS H112  0.338  0.977  2.308 ETKDGv2 25
-ECS H121 -2.088  0.331  2.461 ETKDGv2 26
-ECS H122 -1.778  1.799  1.485 ETKDGv2 27
-ECS  H14 -1.690  1.623 -0.966 ETKDGv2 28
-ECS  H17 -4.583 -0.111  0.564 ETKDGv2 29
-ECS H181 -1.526 -1.936  0.942 ETKDGv2 30
-ECS H182 -2.664 -2.039 -0.444 ETKDGv2 31
-ECS H183 -3.235 -1.771  1.232 ETKDGv2 32
-ECS H151 -2.483  0.850 -2.986 ETKDGv2 33
-ECS H152 -2.513 -0.879 -2.458 ETKDGv2 34
-ECS   H8  0.182  0.772 -1.992 ETKDGv2 35
-ECS H161 -4.664 -0.522 -1.711 ETKDGv2 36
-ECS H162 -4.532  1.259 -1.930 ETKDGv2 37
-ECS   HA -3.573  2.465 -0.140 ETKDGv2 38
-ECS   H2  6.089  1.241  2.102 ETKDGv2 39
-ECS   H4  4.265 -1.823 -1.246 ETKDGv2 40
-ECS   H3  6.820 -0.360  0.938 ETKDGv2 41
-ECS H6C1  1.874 -0.901 -2.706 ETKDGv2 42
-ECS H6C2  1.956 -2.459 -1.811 ETKDGv2 43
-ECS H7C1 -0.384 -1.686 -2.215 ETKDGv2 44
-ECS H7C2  0.038 -1.911 -0.485 ETKDGv2 45
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ECS "Create component"  2005-07-12 RCSB 
+ECS "Modify descriptor" 2011-06-04 RCSB 
+# 

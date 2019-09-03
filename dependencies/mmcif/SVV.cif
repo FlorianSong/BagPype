@@ -1,264 +1,134 @@
 data_SVV
-#
-_chem_comp.id                                        SVV
-_chem_comp.name                                      O-[(S)-AMINO(HYDROXY)PHOSPHORYL]-L-SERINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C3 H9 N2 O5 P"
-_chem_comp.mon_nstd_parent_comp_id                   SER
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2007-02-13
-_chem_comp.pdbx_modified_date                        2011-11-17
-_chem_comp.pdbx_ambiguous_flag                       ?
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            184.088
-_chem_comp.one_letter_code                           S
-_chem_comp.three_letter_code                         SVV
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            "OpenEye/OEToolkits V1.4.2"
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2JGJ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    SVV 
+_chem_comp.name                                  "O-[(S)-AMINO(HYDROXY)PHOSPHORYL]-L-SERINE" 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C3 H9 N2 O5 P" 
+_chem_comp.mon_nstd_parent_comp_id               SER 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2007-02-13 
+_chem_comp.pdbx_modified_date                    2011-11-17 
+_chem_comp.pdbx_ambiguous_flag                   ? 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        184.088 
+_chem_comp.one_letter_code                       S 
+_chem_comp.three_letter_code                     SVV 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        "OpenEye/OEToolkits V1.4.2" 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2JGJ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-SVV    N    N N 0 1 N N N 25.587 12.148 14.330 -1.027 -2.041 -1.535    N SVV  1
-SVV   CA   CA C 0 1 N N S 26.686 12.449 13.390 -0.469 -2.117 -0.207   CA SVV  2
-SVV    C    C C 0 1 N N N 27.940 11.559 13.641 -1.234 -3.187  0.543    C SVV  3
-SVV    O    O O 0 1 N N N 27.858 10.329 13.438 -2.430 -3.415  0.420    O SVV  4
-SVV   CB   CB C 0 1 N N N 26.990 13.951 13.362 -0.564 -0.783  0.519   CB SVV  5
-SVV   OG   OG O 0 1 N N N 27.744 14.305 12.202 -0.039 -0.928  1.833   OG SVV  6
-SVV   O3   O3 O 0 1 N N N 29.568 15.166 13.594  0.723  1.479  1.947   O3 SVV  7
-SVV   P1   P1 P 0 1 N N S 28.946 15.372 12.237 -0.011  0.341  2.845   P1 SVV  8
-SVV   O2   O2 O 0 1 N N N 28.830 16.773 11.736  0.772  0.036  4.094   O2 SVV  9
-SVV   N4   N4 N 0 1 N N N 29.889 14.547 11.026 -1.571  0.848  3.061   N4 SVV 10
-SVV  OXT  OXT O 0 1 N Y N 29.069 12.146 14.070 -0.443 -3.852  1.425  OXT SVV 11
-SVV HBC1 1HBC H 0 0 N N N 27.497 14.284 14.297 -1.606 -0.457  0.608 HBC1 SVV 12
-SVV  HA2  2HA H 0 1 N N N 26.059 14.559 13.447  0.000 -0.000  0.000  HA2 SVV 13
-SVV   H3   H3 H 0 1 N N N 30.278 15.796 13.615  1.686  1.397  1.779   H3 SVV 14
-SVV H4N1 1H4N H 0 0 N N N 29.450 14.346 10.128 -2.219  0.186  3.484 H4N1 SVV 15
-SVV H4N2 2H4N H 0 0 N N N 30.652 15.224 11.048 -1.708  1.727  3.558 H4N2 SVV 16
-SVV   HA   HA H 0 1 N N N 25.049 11.365 14.321 -0.898 -4.534  1.963   HA SVV 17
-SVV  HN1  HN1 H 0 1 N N N 25.951 12.080 15.259 -2.004 -1.827 -1.642  HN1 SVV 18
-SVV  HN2  HN2 H 0 1 N N N 24.906 12.880 14.292 -0.492 -2.397 -2.309  HN2 SVV 19
-SVV   HC   HC H 0 1 N N N 26.349 12.183 12.377  0.572 -2.429 -0.348   HC SVV 20
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+SVV N    N    N 0 1 N N N 25.587 12.148 14.330 -1.027 -2.041 -1.535 N    SVV 1  
+SVV CA   CA   C 0 1 N N S 26.686 12.449 13.390 -0.469 -2.117 -0.207 CA   SVV 2  
+SVV C    C    C 0 1 N N N 27.940 11.559 13.641 -1.234 -3.187 0.543  C    SVV 3  
+SVV O    O    O 0 1 N N N 27.858 10.329 13.438 -2.430 -3.415 0.420  O    SVV 4  
+SVV CB   CB   C 0 1 N N N 26.990 13.951 13.362 -0.564 -0.783 0.519  CB   SVV 5  
+SVV OG   OG   O 0 1 N N N 27.744 14.305 12.202 -0.039 -0.928 1.833  OG   SVV 6  
+SVV O3   O3   O 0 1 N N N 29.568 15.166 13.594 0.723  1.479  1.947  O3   SVV 7  
+SVV P1   P1   P 0 1 N N S 28.946 15.372 12.237 -0.011 0.341  2.845  P1   SVV 8  
+SVV O2   O2   O 0 1 N N N 28.830 16.773 11.736 0.772  0.036  4.094  O2   SVV 9  
+SVV N4   N4   N 0 1 N N N 29.889 14.547 11.026 -1.571 0.848  3.061  N4   SVV 10 
+SVV OXT  OXT  O 0 1 N Y N 29.069 12.146 14.070 -0.443 -3.852 1.425  OXT  SVV 11 
+SVV HBC1 1HBC H 0 0 N N N 27.497 14.284 14.297 -1.606 -0.457 0.608  HBC1 SVV 12 
+SVV HA2  2HA  H 0 1 N N N 26.059 14.559 13.447 0.000  -0.000 0.000  HA2  SVV 13 
+SVV H3   H3   H 0 1 N N N 30.278 15.796 13.615 1.686  1.397  1.779  H3   SVV 14 
+SVV H4N1 1H4N H 0 0 N N N 29.450 14.346 10.128 -2.219 0.186  3.484  H4N1 SVV 15 
+SVV H4N2 2H4N H 0 0 N N N 30.652 15.224 11.048 -1.708 1.727  3.558  H4N2 SVV 16 
+SVV HA   HA   H 0 1 N N N 25.049 11.365 14.321 -0.898 -4.534 1.963  HA   SVV 17 
+SVV HN1  HN1  H 0 1 N N N 25.951 12.080 15.259 -2.004 -1.827 -1.642 HN1  SVV 18 
+SVV HN2  HN2  H 0 1 N N N 24.906 12.880 14.292 -0.492 -2.397 -2.309 HN2  SVV 19 
+SVV HC   HC   H 0 1 N N N 26.349 12.183 12.377 0.572  -2.429 -0.348 HC   SVV 20 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-SVV   N   CA SING N N  1
-SVV  CA    C SING N N  2
-SVV   C    O DOUB N N  3
-SVV  CA   CB SING N N  4
-SVV  CB   OG SING N N  5
-SVV  OG   P1 SING N N  6
-SVV  O3   P1 SING N N  7
-SVV  P1   O2 DOUB N N  8
-SVV  P1   N4 SING N N  9
-SVV   C  OXT SING N N 10
-SVV  CB HBC1 SING N N 11
-SVV  CB  HA2 SING N N 12
-SVV  O3   H3 SING N N 13
-SVV  N4 H4N1 SING N N 14
-SVV  N4 H4N2 SING N N 15
-SVV OXT   HA SING N N 16
-SVV   N  HN1 SING N N 17
-SVV   N  HN2 SING N N 18
-SVV  CA   HC SING N N 19
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+SVV N   CA   SING N N 1  
+SVV CA  C    SING N N 2  
+SVV C   O    DOUB N N 3  
+SVV CA  CB   SING N N 4  
+SVV CB  OG   SING N N 5  
+SVV OG  P1   SING N N 6  
+SVV O3  P1   SING N N 7  
+SVV P1  O2   DOUB N N 8  
+SVV P1  N4   SING N N 9  
+SVV C   OXT  SING N N 10 
+SVV CB  HBC1 SING N N 11 
+SVV CB  HA2  SING N N 12 
+SVV O3  H3   SING N N 13 
+SVV N4  H4N1 SING N N 14 
+SVV N4  H4N2 SING N N 15 
+SVV OXT HA   SING N N 16 
+SVV N   HN1  SING N N 17 
+SVV N   HN2  SING N N 18 
+SVV CA  HC   SING N N 19 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-SVV           SMILES              ACDLabs 10.04                                                             O=P(O)(OCC(C(=O)O)N)N
-SVV SMILES_CANONICAL               CACTVS 3.341                                                     N[C@@H](CO[P@](N)(O)=O)C(O)=O
-SVV           SMILES               CACTVS 3.341                                                        N[CH](CO[P](N)(O)=O)C(O)=O
-SVV SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                   C([C@@H](C(=O)O)N)O[P@](=O)(N)O
-SVV           SMILES "OpenEye OEToolkits" 1.5.0                                                           C(C(C(=O)O)N)OP(=O)(N)O
-SVV            InChI                InChI  1.03 InChI=1S/C3H9N2O5P/c4-2(3(6)7)1-10-11(5,8)9/h2H,1,4H2,(H,6,7)(H3,5,8,9)/t2-/m0/s1
-SVV         InChIKey                InChI  1.03                                                       MSLTYEXLEBVFLN-REOHCLBHSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+SVV SMILES           ACDLabs              10.04 "O=P(O)(OCC(C(=O)O)N)N"                                                             
+SVV SMILES_CANONICAL CACTVS               3.341 "N[C@@H](CO[P@](N)(O)=O)C(O)=O"                                                     
+SVV SMILES           CACTVS               3.341 "N[CH](CO[P](N)(O)=O)C(O)=O"                                                        
+SVV SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C([C@@H](C(=O)O)N)O[P@](=O)(N)O"                                                   
+SVV SMILES           "OpenEye OEToolkits" 1.5.0 "C(C(C(=O)O)N)OP(=O)(N)O"                                                           
+SVV InChI            InChI                1.03  "InChI=1S/C3H9N2O5P/c4-2(3(6)7)1-10-11(5,8)9/h2H,1,4H2,(H,6,7)(H3,5,8,9)/t2-/m0/s1" 
+SVV InChIKey         InChI                1.03  MSLTYEXLEBVFLN-REOHCLBHSA-N                                                         
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-SVV "SYSTEMATIC NAME"              ACDLabs 10.04                     O-[(S)-amino(hydroxy)phosphoryl]-L-serine
-SVV "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-(amino-hydroxy-phosphoryl)oxy-propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+SVV "SYSTEMATIC NAME" ACDLabs              10.04 "O-[(S)-amino(hydroxy)phosphoryl]-L-serine"                   
+SVV "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-(amino-hydroxy-phosphoryl)oxy-propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-SVV "Modify model coordinates code" 2011-05-03  EBI
-SVV      "Modify leaving atom flag" 2011-05-03  EBI
-SVV           "Modify linking type" 2011-05-03  EBI
-SVV          "Modify internal type" 2011-05-03  EBI
-SVV         "Modify parent residue" 2011-05-03  EBI
-SVV        "Modify processing site" 2011-05-03  EBI
-SVV        "Modify one letter code" 2011-05-03  EBI
-SVV            "Other modification" 2011-05-03  EBI
-SVV           "Modify linking type" 2011-05-05  EBI
-SVV             "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-SVV   N N  9.002  1.945  1
-SVV  CA C  9.002  0.445  2
-SVV   C C 10.301 -0.305  3
-SVV   O O 11.600  0.445  4
-SVV  CB C  7.702 -0.305  5
-SVV  OG O  6.404  0.445  6
-SVV  O3 O  3.805 -1.055  7
-SVV  P1 P  5.104 -0.305  8
-SVV  O2 O  4.354  0.994  9
-SVV  N4 N  5.854 -1.604 10
-SVV OXT O 10.301 -1.805 11
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-SVV  N  CA SINGLE  BEGINDASH  1
-SVV CA   C SINGLE       NONE  2
-SVV  C   O DOUBLE       NONE  3
-SVV CA  CB SINGLE       NONE  4
-SVV CB  OG SINGLE       NONE  5
-SVV OG  P1 SINGLE       NONE  6
-SVV O3  P1 SINGLE       NONE  7
-SVV P1  O2 DOUBLE       NONE  8
-SVV P1  N4 SINGLE BEGINWEDGE  9
-SVV  C OXT SINGLE       NONE 10
-#
-_pdbe_chem_comp_substructure.comp_id                      SVV
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-SVV  O F1 1
-SVV  C F1 1
-SVV CA F1 1
-SVV  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               SVV
-_pdbe_chem_comp_rdkit_properties.exactmw                               184.025
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           7
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        8
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             75.582
-_pdbe_chem_comp_rdkit_properties.tpsa                                  135.870
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.526
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             35.576
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-SVV UniChem ChEMBL    CHEMBL1236096
-SVV UniChem   ZINC ZINC000058649428
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SVV    N -1.971  1.214  0.287 ETKDGv2  1
-SVV   CA -1.556 -0.032 -0.367 ETKDGv2  2
-SVV    C -2.563 -1.135 -0.132 ETKDGv2  3
-SVV    O -2.423 -2.230 -0.738 ETKDGv2  4
-SVV   CB -0.158 -0.469  0.106 ETKDGv2  5
-SVV   OG  0.776  0.542 -0.192 ETKDGv2  6
-SVV   O3  2.736 -1.444 -0.252 ETKDGv2  7
-SVV   P1  2.303  0.059  0.396 ETKDGv2  8
-SVV   O2  2.270 -0.035  1.905 ETKDGv2  9
-SVV   N4  3.497  1.250 -0.075 ETKDGv2 10
-SVV  OXT -3.654 -0.982  0.725 ETKDGv2 11
-SVV HBC1 -0.198 -0.667  1.202 ETKDGv2 12
-SVV  HA2  0.115 -1.409 -0.426 ETKDGv2 13
-SVV   H3  2.717 -1.311 -1.233 ETKDGv2 14
-SVV H4N1  3.462  1.317 -1.117 ETKDGv2 15
-SVV H4N2  3.171  2.169  0.297 ETKDGv2 16
-SVV   HA -3.834 -0.131  1.241 ETKDGv2 17
-SVV  HN1 -1.793  1.148  1.316 ETKDGv2 18
-SVV  HN2 -1.384  1.999 -0.079 ETKDGv2 19
-SVV   HC -1.515  0.148 -1.465 ETKDGv2 20
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+SVV "Modify model coordinates code" 2011-05-03 EBI  
+SVV "Modify leaving atom flag"      2011-05-03 EBI  
+SVV "Modify linking type"           2011-05-03 EBI  
+SVV "Modify internal type"          2011-05-03 EBI  
+SVV "Modify parent residue"         2011-05-03 EBI  
+SVV "Modify processing site"        2011-05-03 EBI  
+SVV "Modify one letter code"        2011-05-03 EBI  
+SVV "Other modification"            2011-05-03 EBI  
+SVV "Modify linking type"           2011-05-05 EBI  
+SVV "Modify descriptor"             2011-06-04 RCSB 
+# 

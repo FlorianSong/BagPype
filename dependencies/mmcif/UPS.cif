@@ -1,344 +1,154 @@
 data_UPS
-#
-_chem_comp.id                                        UPS
-_chem_comp.name                                      "2'-deoxy-5'-O-thiophosphonouridine"
-_chem_comp.type                                      "DNA linking"
-_chem_comp.pdbx_type                                 ATOMN
-_chem_comp.formula                                   "C9 H13 N2 O7 P S"
-_chem_comp.mon_nstd_parent_comp_id                   DU
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2009-02-10
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            324.247
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         UPS
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            3G3C
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      PDBJ
-
-#
+# 
+_chem_comp.id                                    UPS 
+_chem_comp.name                                  "2'-deoxy-5'-O-thiophosphonouridine" 
+_chem_comp.type                                  "DNA linking" 
+_chem_comp.pdbx_type                             ATOMN 
+_chem_comp.formula                               "C9 H13 N2 O7 P S" 
+_chem_comp.mon_nstd_parent_comp_id               DU 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2009-02-10 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        324.247 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     UPS 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        3G3C 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-UPS    OP3    O3P O 0 1 N Y N  3.477  3.404 -32.752  3.365 -2.220  0.794    OP3 UPS  1
-UPS      P      P P 0 1 N N N  3.979  1.981 -33.280  3.769 -1.017 -0.197      P UPS  2
-UPS    S1P    S1P S 0 1 N N N  4.054  2.071 -34.758  4.978  0.114  0.659    S1P UPS  3
-UPS    OP2    O2P O 0 1 N N N  3.146  0.920 -32.675  4.448 -1.620 -1.526    OP2 UPS  4
-UPS  "O5'"  "O5'" O 0 1 N N N  5.450  1.878 -32.657  2.449 -0.186 -0.598  "O5'" UPS  5
-UPS  "C5'"  "C5'" C 0 1 N N N  6.564  2.213 -33.457  1.800  0.722  0.294  "C5'" UPS  6
-UPS  "C4'"  "C4'" C 0 1 N N R  7.829  2.058 -32.656  0.584  1.338 -0.400  "C4'" UPS  7
-UPS  "O4'"  "O4'" O 0 1 N N N  7.595  2.620 -31.349 -0.448  0.344 -0.583  "O4'" UPS  8
-UPS  "C1'"  "C1'" C 0 1 N N R  8.557  2.048 -30.496 -1.670  1.092 -0.764  "C1'" UPS  9
-UPS     N1     N1 N 0 1 N N N  8.188  2.333 -29.040 -2.832  0.249 -0.474     N1 UPS 10
-UPS     C2     C2 C 0 1 N N N  9.148  2.884 -28.185 -2.911 -0.395  0.704     C2 UPS 11
-UPS     O2     O2 O 0 1 N N N 10.293  3.143 -28.526 -2.015 -0.270  1.517     O2 UPS 12
-UPS     N3     N3 N 0 1 N N N  8.728  3.127 -26.889 -3.968 -1.176  0.997     N3 UPS 13
-UPS     C4     C4 C 0 1 N N N  7.458  2.875 -26.372 -4.970 -1.325  0.107     C4 UPS 14
-UPS     O4     O4 O 0 1 N N N  7.226  3.135 -25.191 -5.926 -2.030  0.371     O4 UPS 15
-UPS     C5     C5 C 0 1 N N N  6.511  2.300 -27.311 -4.899 -0.653 -1.137     C5 UPS 16
-UPS     C6     C6 C 0 1 N N N  6.901  2.065 -28.578 -3.830  0.128 -1.402     C6 UPS 17
-UPS  "C2'"  "C2'" C 0 1 N N N  8.630  0.587 -30.941 -1.578  2.250  0.255  "C2'" UPS 18
-UPS  "C3'"  "C3'" C 0 1 N N S  8.288  0.616 -32.438 -0.061  2.415  0.499  "C3'" UPS 19
-UPS  "O3'"  "O3'" O 0 1 N N N  9.402  0.318 -33.334  0.370  3.720  0.106  "O3'" UPS 20
-UPS   HOP3   HO3P H 0 0 N Y N  3.377  3.375 -31.808  2.737 -2.849  0.413   HOP3 UPS 21
-UPS   HOP2   HO2P H 0 0 N N N  2.967  0.249 -33.323  5.250 -2.134 -1.360   HOP2 UPS 22
-UPS  "H5'"  "H5'" H 0 1 N N N  6.601  1.545 -34.330  1.476  0.185  1.186  "H5'" UPS 23
-UPS "H5'A" "H5'A" H 0 0 N N N  6.471  3.256 -33.793  2.495  1.512  0.578 "H5'A" UPS 24
-UPS  "H4'"  "H4'" H 0 1 N N N  8.616  2.563 -33.235  0.873  1.768 -1.360  "H4'" UPS 25
-UPS  "H1'"  "H1'" H 0 1 N N N  9.572  2.468 -30.560 -1.729  1.482 -1.780  "H1'" UPS 26
-UPS     H5     H5 H 0 1 N N N  5.505  2.064 -26.996 -5.692 -0.760 -1.862     H5 UPS 27
-UPS     H6     H6 H 0 1 N N N  6.182  1.649 -29.269 -3.761  0.652 -2.345     H6 UPS 28
-UPS  "H2'"  "H2'" H 0 1 N N N  9.635  0.172 -30.773 -1.999  3.163 -0.166  "H2'" UPS 29
-UPS "H2'A" "H2'A" H 0 0 N N N  7.940 -0.054 -30.372 -2.090  1.986  1.180 "H2'A" UPS 30
-UPS  "H3'"  "H3'" H 0 1 N N N  7.547 -0.162 -32.674  0.179  2.232  1.547  "H3'" UPS 31
-UPS "HO3'" "HO3'" H 0 0 N Y N  9.083  0.253 -34.226 -0.005  4.435  0.638 "HO3'" UPS 32
-UPS    HN3    HN3 H 0 1 N N N  9.400  3.521 -26.263 -4.009 -1.633  1.852    HN3 UPS 33
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+UPS OP3    O3P    O 0 1 N Y N 3.477  3.404  -32.752 3.365  -2.220 0.794  OP3    UPS 1  
+UPS P      P      P 0 1 N N N 3.979  1.981  -33.280 3.769  -1.017 -0.197 P      UPS 2  
+UPS S1P    S1P    S 0 1 N N N 4.054  2.071  -34.758 4.978  0.114  0.659  S1P    UPS 3  
+UPS OP2    O2P    O 0 1 N N N 3.146  0.920  -32.675 4.448  -1.620 -1.526 OP2    UPS 4  
+UPS "O5'"  "O5'"  O 0 1 N N N 5.450  1.878  -32.657 2.449  -0.186 -0.598 "O5'"  UPS 5  
+UPS "C5'"  "C5'"  C 0 1 N N N 6.564  2.213  -33.457 1.800  0.722  0.294  "C5'"  UPS 6  
+UPS "C4'"  "C4'"  C 0 1 N N R 7.829  2.058  -32.656 0.584  1.338  -0.400 "C4'"  UPS 7  
+UPS "O4'"  "O4'"  O 0 1 N N N 7.595  2.620  -31.349 -0.448 0.344  -0.583 "O4'"  UPS 8  
+UPS "C1'"  "C1'"  C 0 1 N N R 8.557  2.048  -30.496 -1.670 1.092  -0.764 "C1'"  UPS 9  
+UPS N1     N1     N 0 1 N N N 8.188  2.333  -29.040 -2.832 0.249  -0.474 N1     UPS 10 
+UPS C2     C2     C 0 1 N N N 9.148  2.884  -28.185 -2.911 -0.395 0.704  C2     UPS 11 
+UPS O2     O2     O 0 1 N N N 10.293 3.143  -28.526 -2.015 -0.270 1.517  O2     UPS 12 
+UPS N3     N3     N 0 1 N N N 8.728  3.127  -26.889 -3.968 -1.176 0.997  N3     UPS 13 
+UPS C4     C4     C 0 1 N N N 7.458  2.875  -26.372 -4.970 -1.325 0.107  C4     UPS 14 
+UPS O4     O4     O 0 1 N N N 7.226  3.135  -25.191 -5.926 -2.030 0.371  O4     UPS 15 
+UPS C5     C5     C 0 1 N N N 6.511  2.300  -27.311 -4.899 -0.653 -1.137 C5     UPS 16 
+UPS C6     C6     C 0 1 N N N 6.901  2.065  -28.578 -3.830 0.128  -1.402 C6     UPS 17 
+UPS "C2'"  "C2'"  C 0 1 N N N 8.630  0.587  -30.941 -1.578 2.250  0.255  "C2'"  UPS 18 
+UPS "C3'"  "C3'"  C 0 1 N N S 8.288  0.616  -32.438 -0.061 2.415  0.499  "C3'"  UPS 19 
+UPS "O3'"  "O3'"  O 0 1 N N N 9.402  0.318  -33.334 0.370  3.720  0.106  "O3'"  UPS 20 
+UPS HOP3   HO3P   H 0 0 N Y N 3.377  3.375  -31.808 2.737  -2.849 0.413  HOP3   UPS 21 
+UPS HOP2   HO2P   H 0 0 N N N 2.967  0.249  -33.323 5.250  -2.134 -1.360 HOP2   UPS 22 
+UPS "H5'"  "H5'"  H 0 1 N N N 6.601  1.545  -34.330 1.476  0.185  1.186  "H5'"  UPS 23 
+UPS "H5'A" "H5'A" H 0 0 N N N 6.471  3.256  -33.793 2.495  1.512  0.578  "H5'A" UPS 24 
+UPS "H4'"  "H4'"  H 0 1 N N N 8.616  2.563  -33.235 0.873  1.768  -1.360 "H4'"  UPS 25 
+UPS "H1'"  "H1'"  H 0 1 N N N 9.572  2.468  -30.560 -1.729 1.482  -1.780 "H1'"  UPS 26 
+UPS H5     H5     H 0 1 N N N 5.505  2.064  -26.996 -5.692 -0.760 -1.862 H5     UPS 27 
+UPS H6     H6     H 0 1 N N N 6.182  1.649  -29.269 -3.761 0.652  -2.345 H6     UPS 28 
+UPS "H2'"  "H2'"  H 0 1 N N N 9.635  0.172  -30.773 -1.999 3.163  -0.166 "H2'"  UPS 29 
+UPS "H2'A" "H2'A" H 0 0 N N N 7.940  -0.054 -30.372 -2.090 1.986  1.180  "H2'A" UPS 30 
+UPS "H3'"  "H3'"  H 0 1 N N N 7.547  -0.162 -32.674 0.179  2.232  1.547  "H3'"  UPS 31 
+UPS "HO3'" "HO3'" H 0 0 N Y N 9.083  0.253  -34.226 -0.005 4.435  0.638  "HO3'" UPS 32 
+UPS HN3    HN3    H 0 1 N N N 9.400  3.521  -26.263 -4.009 -1.633 1.852  HN3    UPS 33 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-UPS     P    OP3 SING N N  1
-UPS   S1P      P DOUB N N  2
-UPS     P    OP2 SING N N  3
-UPS     P  "O5'" SING N N  4
-UPS   OP3   HOP3 SING N N  5
-UPS   OP2   HOP2 SING N N  6
-UPS "C5'"  "O5'" SING N N  7
-UPS "C5'"  "C4'" SING N N  8
-UPS "C5'"  "H5'" SING N N  9
-UPS "C5'" "H5'A" SING N N 10
-UPS "C4'"  "C3'" SING N N 11
-UPS "C4'"  "O4'" SING N N 12
-UPS "C4'"  "H4'" SING N N 13
-UPS "O4'"  "C1'" SING N N 14
-UPS "C2'"  "C1'" SING N N 15
-UPS "C1'"     N1 SING N N 16
-UPS "C1'"  "H1'" SING N N 17
-UPS    N1     C6 SING N N 18
-UPS    N1     C2 SING N N 19
-UPS    O2     C2 DOUB N N 20
-UPS    C2     N3 SING N N 21
-UPS    N3     C4 SING N N 22
-UPS    C5     C4 SING N N 23
-UPS    C4     O4 DOUB N N 24
-UPS    C6     C5 DOUB N N 25
-UPS    C5     H5 SING N N 26
-UPS    C6     H6 SING N N 27
-UPS "C3'"  "C2'" SING N N 28
-UPS "C2'"  "H2'" SING N N 29
-UPS "C2'" "H2'A" SING N N 30
-UPS "O3'"  "C3'" SING N N 31
-UPS "C3'"  "H3'" SING N N 32
-UPS "O3'" "HO3'" SING N N 33
-UPS    N3    HN3 SING N N 34
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+UPS P     OP3    SING N N 1  
+UPS S1P   P      DOUB N N 2  
+UPS P     OP2    SING N N 3  
+UPS P     "O5'"  SING N N 4  
+UPS OP3   HOP3   SING N N 5  
+UPS OP2   HOP2   SING N N 6  
+UPS "C5'" "O5'"  SING N N 7  
+UPS "C5'" "C4'"  SING N N 8  
+UPS "C5'" "H5'"  SING N N 9  
+UPS "C5'" "H5'A" SING N N 10 
+UPS "C4'" "C3'"  SING N N 11 
+UPS "C4'" "O4'"  SING N N 12 
+UPS "C4'" "H4'"  SING N N 13 
+UPS "O4'" "C1'"  SING N N 14 
+UPS "C2'" "C1'"  SING N N 15 
+UPS "C1'" N1     SING N N 16 
+UPS "C1'" "H1'"  SING N N 17 
+UPS N1    C6     SING N N 18 
+UPS N1    C2     SING N N 19 
+UPS O2    C2     DOUB N N 20 
+UPS C2    N3     SING N N 21 
+UPS N3    C4     SING N N 22 
+UPS C5    C4     SING N N 23 
+UPS C4    O4     DOUB N N 24 
+UPS C6    C5     DOUB N N 25 
+UPS C5    H5     SING N N 26 
+UPS C6    H6     SING N N 27 
+UPS "C3'" "C2'"  SING N N 28 
+UPS "C2'" "H2'"  SING N N 29 
+UPS "C2'" "H2'A" SING N N 30 
+UPS "O3'" "C3'"  SING N N 31 
+UPS "C3'" "H3'"  SING N N 32 
+UPS "O3'" "HO3'" SING N N 33 
+UPS N3    HN3    SING N N 34 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-UPS           SMILES              ACDLabs 10.04                                                                                                     O=C1NC(=O)N(C=C1)C2OC(C(O)C2)COP(=S)(O)O
-UPS SMILES_CANONICAL               CACTVS 3.341                                                                                         O[C@H]1C[C@@H](O[C@@H]1CO[P](O)(O)=S)N2C=CC(=O)NC2=O
-UPS           SMILES               CACTVS 3.341                                                                                              O[CH]1C[CH](O[CH]1CO[P](O)(O)=S)N2C=CC(=O)NC2=O
-UPS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                          C1[C@@H]([C@H](O[C@H]1N2C=CC(=O)NC2=O)COP(=S)(O)O)O
-UPS           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                       C1C(C(OC1N2C=CC(=O)NC2=O)COP(=S)(O)O)O
-UPS            InChI                InChI  1.03 InChI=1S/C9H13N2O7PS/c12-5-3-8(11-2-1-7(13)10-9(11)14)18-6(5)4-17-19(15,16)20/h1-2,5-6,8,12H,3-4H2,(H,10,13,14)(H2,15,16,20)/t5-,6+,8+/m0/s1
-UPS         InChIKey                InChI  1.03                                                                                                                  LGZBLTPUGKWVDT-SHYZEUOFSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+UPS SMILES           ACDLabs              10.04 "O=C1NC(=O)N(C=C1)C2OC(C(O)C2)COP(=S)(O)O"                                                                                                     
+UPS SMILES_CANONICAL CACTVS               3.341 "O[C@H]1C[C@@H](O[C@@H]1CO[P](O)(O)=S)N2C=CC(=O)NC2=O"                                                                                         
+UPS SMILES           CACTVS               3.341 "O[CH]1C[CH](O[CH]1CO[P](O)(O)=S)N2C=CC(=O)NC2=O"                                                                                              
+UPS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C1[C@@H]([C@H](O[C@H]1N2C=CC(=O)NC2=O)COP(=S)(O)O)O"                                                                                          
+UPS SMILES           "OpenEye OEToolkits" 1.5.0 "C1C(C(OC1N2C=CC(=O)NC2=O)COP(=S)(O)O)O"                                                                                                       
+UPS InChI            InChI                1.03  "InChI=1S/C9H13N2O7PS/c12-5-3-8(11-2-1-7(13)10-9(11)14)18-6(5)4-17-19(15,16)20/h1-2,5-6,8,12H,3-4H2,(H,10,13,14)(H2,15,16,20)/t5-,6+,8+/m0/s1" 
+UPS InChIKey         InChI                1.03  LGZBLTPUGKWVDT-SHYZEUOFSA-N                                                                                                                    
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-UPS "SYSTEMATIC NAME"              ACDLabs 10.04                                                           "2'-deoxy-5'-O-thiophosphonouridine"
-UPS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 1-[(2R,4S,5R)-5-(dihydroxyphosphinothioyloxymethyl)-4-hydroxy-oxolan-2-yl]pyrimidine-2,4-dione
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+UPS "SYSTEMATIC NAME" ACDLabs              10.04 "2'-deoxy-5'-O-thiophosphonouridine"                                                             
+UPS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "1-[(2R,4S,5R)-5-(dihydroxyphosphinothioyloxymethyl)-4-hydroxy-oxolan-2-yl]pyrimidine-2,4-dione" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-UPS  "Create component" 2009-02-10 PDBJ
-UPS "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-UPS   OP3 O  8.348 -5.564  1
-UPS     P P  9.562 -4.683  2
-UPS   S1P S 10.444 -5.896  3
-UPS   OP2 O 10.775 -3.801  4
-UPS "O5'" O  8.680 -3.469  5
-UPS "C5'" C  7.188 -3.626  6
-UPS "C4'" C  6.307 -2.412  7
-UPS "O4'" O  6.770 -0.986  8
-UPS "C1'" C  5.557 -0.104  9
-UPS    N1 N  5.557  1.396 10
-UPS    C2 C  6.856  2.146 11
-UPS    O2 O  8.155  1.396 12
-UPS    N3 N  6.856  3.646 13
-UPS    C4 C  5.557  4.396 14
-UPS    O4 O  5.557  5.896 15
-UPS    C5 C  4.258  3.646 16
-UPS    C6 C  4.258  2.146 17
-UPS "C2'" C  4.343 -0.986 18
-UPS "C3'" C  4.807 -2.412 19
-UPS "O3'" O  3.925 -3.626 20
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-UPS     P   OP3 SINGLE       NONE  1
-UPS   S1P     P DOUBLE       NONE  2
-UPS     P   OP2 SINGLE       NONE  3
-UPS     P "O5'" SINGLE       NONE  4
-UPS "C5'" "O5'" SINGLE       NONE  5
-UPS "C5'" "C4'" SINGLE BEGINWEDGE  6
-UPS "C4'" "C3'" SINGLE       NONE  7
-UPS "C4'" "O4'" SINGLE       NONE  8
-UPS "O4'" "C1'" SINGLE       NONE  9
-UPS "C2'" "C1'" SINGLE       NONE 10
-UPS "C1'"    N1 SINGLE BEGINWEDGE 11
-UPS    N1    C6 SINGLE       NONE 12
-UPS    N1    C2 SINGLE       NONE 13
-UPS    O2    C2 DOUBLE       NONE 14
-UPS    C2    N3 SINGLE       NONE 15
-UPS    N3    C4 SINGLE       NONE 16
-UPS    C5    C4 SINGLE       NONE 17
-UPS    C4    O4 DOUBLE       NONE 18
-UPS    C6    C5 DOUBLE       NONE 19
-UPS "C3'" "C2'" SINGLE       NONE 20
-UPS "O3'" "C3'" SINGLE BEGINWEDGE 21
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-UPS MurckoScaffold S1 scaffold O=c1ccn([C@@H]2CCCO2)c(=O)[nH]1 InChI=1S/C8H10N2O3/c11-6-3-4-10(8(12)9-6)7-2-1-5-13-7/h3-4,7H,1-2,5H2,(H,9,11,12)/t7-/m0/s1 CWWIKVUHBBTKHC-ZETCQYMHSA-N
-UPS    deoxyribose F1 fragment                      OCC1OCCC1O                                             InChI=1S/C5H10O3/c6-3-5-4(7)1-2-8-5/h4-7H,1-3H2 NSMOSDAEGJTOIQ-UHFFFAOYSA-N
-UPS     pyrimidine F2 fragment                        c1cncnc1                                                        InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-UPS "C1'" F1 1
-UPS "C2'" F1 1
-UPS "C3'" F1 1
-UPS "O3'" F1 1
-UPS "C4'" F1 1
-UPS "O4'" F1 1
-UPS "C5'" F1 1
-UPS "O5'" F1 1
-UPS    C5 F2 1
-UPS    C4 F2 1
-UPS    N3 F2 1
-UPS    C2 F2 1
-UPS    N1 F2 1
-UPS    C6 F2 1
-UPS "C4'" S1 1
-UPS "O4'" S1 1
-UPS "C1'" S1 1
-UPS    N1 S1 1
-UPS    C2 S1 1
-UPS    O2 S1 1
-UPS    N3 S1 1
-UPS    C4 S1 1
-UPS    O4 S1 1
-UPS    C5 S1 1
-UPS    C6 S1 1
-UPS "C2'" S1 1
-UPS "C3'" S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               UPS
-_pdbe_chem_comp_rdkit_properties.exactmw                               324.018
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           9
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                9
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        11
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.556
-_pdbe_chem_comp_rdkit_properties.NumRings                              2
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             135.795
-_pdbe_chem_comp_rdkit_properties.tpsa                                  134.010
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.210
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             70.747
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         20
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-UPS UniChem ChEMBL CHEMBL1236591
-UPS UniChem BRENDA        110062
-UPS UniChem BRENDA         21924
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-UPS    OP3  2.973  2.051  2.181 ETKDGv2  1
-UPS      P  1.929  3.268  1.634 ETKDGv2  2
-UPS    S1P  2.854  4.544  0.919 ETKDGv2  3
-UPS    OP2  1.070  3.885  2.956 ETKDGv2  4
-UPS  "O5'"  0.815  2.655  0.494 ETKDGv2  5
-UPS  "C5'"  1.468  1.708 -0.320 ETKDGv2  6
-UPS  "C4'"  0.499  1.225 -1.409 ETKDGv2  7
-UPS  "O4'" -0.684  0.747 -0.798 ETKDGv2  8
-UPS  "C1'" -0.949 -0.531 -1.328 ETKDGv2  9
-UPS     N1 -1.554 -1.402 -0.306 ETKDGv2 10
-UPS     C2 -0.976 -1.545  1.010 ETKDGv2 11
-UPS     O2  0.068 -0.917  1.331 ETKDGv2 12
-UPS     N3 -1.599 -2.407  1.964 ETKDGv2 13
-UPS     C4 -2.791 -3.105  1.602 ETKDGv2 14
-UPS     O4 -3.354 -3.867  2.431 ETKDGv2 15
-UPS     C5 -3.356 -2.929  0.259 ETKDGv2 16
-UPS     C6 -2.762 -2.123 -0.627 ETKDGv2 17
-UPS  "C2'"  0.346 -1.112 -1.863 ETKDGv2 18
-UPS  "C3'"  1.081  0.120 -2.310 ETKDGv2 19
-UPS  "O3'"  2.471 -0.032 -2.168 ETKDGv2 20
-UPS   HOP3  3.396  2.423  2.996 ETKDGv2 21
-UPS   HOP2  0.318  4.392  2.559 ETKDGv2 22
-UPS  "H5'"  1.786  0.831  0.286 ETKDGv2 23
-UPS "H5'A"  2.355  2.164 -0.817 ETKDGv2 24
-UPS  "H4'"  0.236  2.102 -2.042 ETKDGv2 25
-UPS  "H1'" -1.650 -0.401 -2.185 ETKDGv2 26
-UPS     H5 -4.260 -3.458 -0.017 ETKDGv2 27
-UPS     H6 -3.207 -2.023 -1.610 ETKDGv2 28
-UPS  "H2'"  0.164 -1.812 -2.707 ETKDGv2 29
-UPS "H2'A"  0.915 -1.633 -1.062 ETKDGv2 30
-UPS  "H3'"  0.824  0.345 -3.373 ETKDGv2 31
-UPS "HO3'"  2.763 -0.641 -2.896 ETKDGv2 32
-UPS    HN3 -1.190 -2.522  2.918 ETKDGv2 33
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+UPS "Create component"  2009-02-10 PDBJ 
+UPS "Modify descriptor" 2011-06-04 RCSB 
+# 

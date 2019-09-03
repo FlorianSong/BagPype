@@ -1,294 +1,117 @@
 data_PRS
-#
-_chem_comp.id                                        PRS
-_chem_comp.name                                      THIOPROLINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C4 H7 N O2 S"
-_chem_comp.mon_nstd_parent_comp_id                   PRO
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            133.169
-_chem_comp.one_letter_code                           P
-_chem_comp.three_letter_code                         PRS
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1SAV
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    PRS 
+_chem_comp.name                                  THIOPROLINE 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C4 H7 N O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               PRO 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        133.169 
+_chem_comp.one_letter_code                       P 
+_chem_comp.three_letter_code                     PRS 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1SAV 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PRS   N   N N 0 1 N N N -31.011 45.444 -14.856 -1.252 -0.134 -0.349   N PRS  1
-PRS  CD  CD C 0 1 N N N -30.705 44.051 -15.204 -1.134 -0.407 -1.813  CD PRS  2
-PRS  CA  CA C 0 1 N N R -31.434 46.240 -16.025  0.004 -0.487  0.335  CA PRS  3
-PRS  CB  CB C 0 1 N N N -32.118 45.232 -16.953  1.215  0.135 -0.408  CB PRS  4
-PRS  SG  SG S 0 1 N N N -31.914 43.554 -16.329  0.568  0.225 -2.131  SG PRS  5
-PRS   C   C C 0 1 N N N -32.425 47.348 -15.674 -0.033  0.033  1.749   C PRS  6
-PRS   O   O O 0 1 N N N -33.412 47.121 -14.976 -0.667  1.028  2.008   O PRS  7
-PRS OXT OXT O 0 1 N Y N -32.198 48.532 -16.222  0.635 -0.608  2.719 OXT PRS  8
-PRS   H  HN H 0 1 N N N -30.224 45.883 -14.377 -1.960 -0.760  0.006   H PRS  9
-PRS HD3 1HD H 0 1 N N N -29.665 43.907 -15.580 -1.876  0.153 -2.380 HD3 PRS 10
-PRS HD2 2HD H 0 1 N N N -30.624 43.380 -14.316 -1.204 -1.474 -2.023 HD2 PRS 11
-PRS  HA  HA H 0 1 N N N -30.553 46.753 -16.477  0.112 -1.572  0.354  HA PRS 12
-PRS HB2 1HB H 0 1 N N N -33.191 45.484 -17.118  1.442  1.129 -0.022 HB2 PRS 13
-PRS HB3 2HB H 0 1 N N N -31.759 45.328 -18.004  2.087 -0.514 -0.350 HB3 PRS 14
-PRS HXT HXT H 0 1 N Y N -32.814 49.221 -16.003  0.610 -0.274  3.626 HXT PRS 15
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PRS N   N   N 0 1 N N N -31.011 45.444 -14.856 -1.252 -0.134 -0.349 N   PRS 1  
+PRS CD  CD  C 0 1 N N N -30.705 44.051 -15.204 -1.134 -0.407 -1.813 CD  PRS 2  
+PRS CA  CA  C 0 1 N N R -31.434 46.240 -16.025 0.004  -0.487 0.335  CA  PRS 3  
+PRS CB  CB  C 0 1 N N N -32.118 45.232 -16.953 1.215  0.135  -0.408 CB  PRS 4  
+PRS SG  SG  S 0 1 N N N -31.914 43.554 -16.329 0.568  0.225  -2.131 SG  PRS 5  
+PRS C   C   C 0 1 N N N -32.425 47.348 -15.674 -0.033 0.033  1.749  C   PRS 6  
+PRS O   O   O 0 1 N N N -33.412 47.121 -14.976 -0.667 1.028  2.008  O   PRS 7  
+PRS OXT OXT O 0 1 N Y N -32.198 48.532 -16.222 0.635  -0.608 2.719  OXT PRS 8  
+PRS H   HN  H 0 1 N N N -30.224 45.883 -14.377 -1.960 -0.760 0.006  H   PRS 9  
+PRS HD3 1HD H 0 1 N N N -29.665 43.907 -15.580 -1.876 0.153  -2.380 HD3 PRS 10 
+PRS HD2 2HD H 0 1 N N N -30.624 43.380 -14.316 -1.204 -1.474 -2.023 HD2 PRS 11 
+PRS HA  HA  H 0 1 N N N -30.553 46.753 -16.477 0.112  -1.572 0.354  HA  PRS 12 
+PRS HB2 1HB H 0 1 N N N -33.191 45.484 -17.118 1.442  1.129  -0.022 HB2 PRS 13 
+PRS HB3 2HB H 0 1 N N N -31.759 45.328 -18.004 2.087  -0.514 -0.350 HB3 PRS 14 
+PRS HXT HXT H 0 1 N Y N -32.814 49.221 -16.003 0.610  -0.274 3.626  HXT PRS 15 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PRS   N  CD SING N N  1
-PRS   N  CA SING N N  2
-PRS   N   H SING N N  3
-PRS  CD  SG SING N N  4
-PRS  CD HD3 SING N N  5
-PRS  CD HD2 SING N N  6
-PRS  CA  CB SING N N  7
-PRS  CA   C SING N N  8
-PRS  CA  HA SING N N  9
-PRS  CB  SG SING N N 10
-PRS  CB HB2 SING N N 11
-PRS  CB HB3 SING N N 12
-PRS   C   O DOUB N N 13
-PRS   C OXT SING N N 14
-PRS OXT HXT SING N N 15
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PRS N   CD  SING N N 1  
+PRS N   CA  SING N N 2  
+PRS N   H   SING N N 3  
+PRS CD  SG  SING N N 4  
+PRS CD  HD3 SING N N 5  
+PRS CD  HD2 SING N N 6  
+PRS CA  CB  SING N N 7  
+PRS CA  C   SING N N 8  
+PRS CA  HA  SING N N 9  
+PRS CB  SG  SING N N 10 
+PRS CB  HB2 SING N N 11 
+PRS CB  HB3 SING N N 12 
+PRS C   O   DOUB N N 13 
+PRS C   OXT SING N N 14 
+PRS OXT HXT SING N N 15 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PRS           SMILES              ACDLabs 10.04                                                      O=C(O)C1NCSC1
-PRS SMILES_CANONICAL               CACTVS 3.341                                                 OC(=O)[C@@H]1CSCN1
-PRS           SMILES               CACTVS 3.341                                                   OC(=O)[CH]1CSCN1
-PRS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                C1[C@H](NCS1)C(=O)O
-PRS           SMILES "OpenEye OEToolkits" 1.5.0                                                    C1C(NCS1)C(=O)O
-PRS            InChI                InChI  1.03 InChI=1S/C4H7NO2S/c6-4(7)3-1-8-2-5-3/h3,5H,1-2H2,(H,6,7)/t3-/m0/s1
-PRS         InChIKey                InChI  1.03                                        DZLNHFMRPBPULJ-VKHMYHEASA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PRS SMILES           ACDLabs              10.04 "O=C(O)C1NCSC1"                                                      
+PRS SMILES_CANONICAL CACTVS               3.341 "OC(=O)[C@@H]1CSCN1"                                                 
+PRS SMILES           CACTVS               3.341 "OC(=O)[CH]1CSCN1"                                                   
+PRS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C1[C@H](NCS1)C(=O)O"                                                
+PRS SMILES           "OpenEye OEToolkits" 1.5.0 "C1C(NCS1)C(=O)O"                                                    
+PRS InChI            InChI                1.03  "InChI=1S/C4H7NO2S/c6-4(7)3-1-8-2-5-3/h3,5H,1-2H2,(H,6,7)/t3-/m0/s1" 
+PRS InChIKey         InChI                1.03  DZLNHFMRPBPULJ-VKHMYHEASA-N                                          
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PRS "SYSTEMATIC NAME"              ACDLabs 10.04 "(4R)-1,3-thiazolidine-4-carboxylic acid"
-PRS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(4R)-1,3-thiazolidine-4-carboxylic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PRS "SYSTEMATIC NAME" ACDLabs              10.04 "(4R)-1,3-thiazolidine-4-carboxylic acid" 
+PRS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(4R)-1,3-thiazolidine-4-carboxylic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PRS  "Create component" 1999-07-08  EBI
-PRS "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   PRS
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02846
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      L-thioproline
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                2756-91-4
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           PRS
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02846
-_pdbe_chem_comp_drugbank_classification.parent            "L-alpha-amino acids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as l-alpha-amino acids. These are alpha amino acids which have the L-configuration of the alpha-carbon atom."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        PRS
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02846
-_pdbe_chem_comp_drugbank_targets.name                           "Annexin A5"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P08758
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-PRS                           L-Thiaproline   ChEMBL
-PRS    "(4R)-4-Thiazolidinecarboxylic acid" DrugBank
-PRS "(R)-(-)-4-Thiazolidinecarboxylic acid" DrugBank
-PRS     "(R)-4-Thiazolidinecarboxylic acid" DrugBank
-PRS                           4-thiaproline DrugBank
-PRS                           L-thiaproline DrugBank
-PRS      "L-Thiazolidine-4-carboxylic acid" DrugBank
-PRS           "Thiazolidinecarboxylic acid" DrugBank
-PRS                           γ-thioproline DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PRS   N N 6.005  1.679 1
-PRS  CD C 7.505  1.679 2
-PRS  CA C 5.541  0.252 3
-PRS  CB C 6.755 -0.630 4
-PRS  SG S 7.968  0.252 5
-PRS   C C 4.115 -0.211 6
-PRS   O O 3.000  0.792 7
-PRS OXT O 3.803 -1.679 8
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PRS  N  CD SINGLE       NONE 1
-PRS  N  CA SINGLE       NONE 2
-PRS CD  SG SINGLE       NONE 3
-PRS CA  CB SINGLE       NONE 4
-PRS CA   C SINGLE BEGINWEDGE 5
-PRS CB  SG SINGLE       NONE 6
-PRS  C   O DOUBLE       NONE 7
-PRS  C OXT SINGLE       NONE 8
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-PRS MurckoScaffold S1 scaffold C1CSCN1 InChI=1S/C3H7NS/c1-2-5-3-4-1/h4H,1-3H2 OGYGFUAIIOPWQD-UHFFFAOYSA-N
-PRS        peptide F1 fragment   NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-PRS  O F1 1
-PRS  C F1 1
-PRS CA F1 1
-PRS  N F1 1
-PRS  N S1 1
-PRS CD S1 1
-PRS CA S1 1
-PRS CB S1 1
-PRS SG S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PRS
-_pdbe_chem_comp_rdkit_properties.exactmw                               133.020
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     1
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.750
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             61.436
-_pdbe_chem_comp_rdkit_properties.tpsa                                  49.330
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.267
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             31.884
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         8
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-PRS UniChem       ChEMBL    CHEMBL1235440
-PRS UniChem     DrugBank          DB02846
-PRS UniChem        ChEBI            45171
-PRS UniChem         ZINC ZINC000000967473
-PRS UniChem         ZINC     ZINC00967473
-PRS UniChem    BindingDb         50357232
-PRS UniChem MetaboLights       MTBLC45171
-PRS UniChem       BRENDA           195551
-PRS UniChem       BRENDA            20347
-PRS UniChem       BRENDA            45214
-PRS UniChem       BRENDA            45542
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PRS   N -0.574 -0.787  0.462 ETKDGv2  1
-PRS  CD -1.931 -0.569 -0.032 ETKDGv2  2
-PRS  CA  0.333 -0.079 -0.436 ETKDGv2  3
-PRS  CB -0.261  1.297 -0.693 ETKDGv2  4
-PRS  SG -2.059  1.098 -0.751 ETKDGv2  5
-PRS   C  1.707  0.028  0.163 ETKDGv2  6
-PRS   O  2.641  0.550 -0.505 ETKDGv2  7
-PRS OXT  1.960 -0.448  1.447 ETKDGv2  8
-PRS   H -0.364 -1.812  0.418 ETKDGv2  9
-PRS HD3 -2.651 -0.666  0.806 ETKDGv2 10
-PRS HD2 -2.185 -1.316 -0.817 ETKDGv2 11
-PRS  HA  0.407 -0.632 -1.402 ETKDGv2 12
-PRS HB2 -0.018  1.996  0.137 ETKDGv2 13
-PRS HB3  0.110  1.717 -1.652 ETKDGv2 14
-PRS HXT  2.885 -0.379  1.854 ETKDGv2 15
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PRS "Create component"  1999-07-08 EBI  
+PRS "Modify descriptor" 2011-06-04 RCSB 
+# 

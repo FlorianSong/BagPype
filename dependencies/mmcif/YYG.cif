@@ -1,534 +1,231 @@
 data_YYG
-#
-_chem_comp.id                                        YYG
-_chem_comp.name                                      "4-(3-[5-O-PHOSPHONORIBOFURANOSYL]-4,6-DIMETHYL-8-OXO-4,8-DIHYDRO-3H-1,3,4,5,7A-PENTAAZA-S-INDACEN-YLAMINO-BUTYRIC ACID METHYL ESTER"
-_chem_comp.type                                      "RNA LINKING"
-_chem_comp.pdbx_type                                 ATOMN
-_chem_comp.formula                                   "C21 H29 N6 O12 P"
-_chem_comp.mon_nstd_parent_comp_id                   G
-_chem_comp.pdbx_synonyms                             "MODIFIED GUANOSINE-5'-PHOSPHATE"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-10-04
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            588.462
-_chem_comp.one_letter_code                           G
-_chem_comp.three_letter_code                         YYG
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            486D
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    YYG 
+_chem_comp.name                                  "4-(3-[5-O-PHOSPHONORIBOFURANOSYL]-4,6-DIMETHYL-8-OXO-4,8-DIHYDRO-3H-1,3,4,5,7A-PENTAAZA-S-INDACEN-YLAMINO-BUTYRIC ACID METHYL ESTER" 
+_chem_comp.type                                  "RNA LINKING" 
+_chem_comp.pdbx_type                             ATOMN 
+_chem_comp.formula                               "C21 H29 N6 O12 P" 
+_chem_comp.mon_nstd_parent_comp_id               G 
+_chem_comp.pdbx_synonyms                         
+;MODIFIED GUANOSINE-5'-PHOSPHATE
+;
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-10-04 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        588.462 
+_chem_comp.one_letter_code                       G 
+_chem_comp.three_letter_code                     YYG 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        486D 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-YYG      P    P P 0 1 N N N  5.752 107.848 270.630  1.682 -0.127 -8.592      P YYG  1
-YYG    OP1  O1P O 0 1 N N N  6.065 106.876 269.558  2.467  1.073 -8.228    OP1 YYG  2
-YYG    OP2  O2P O 0 1 N N N  5.687 109.273 270.166  2.680 -1.292 -9.081    OP2 YYG  3
-YYG    OP3  O3P O 0 1 N Y N  4.304 107.366 271.137  0.661  0.238 -9.782    OP3 YYG  4
-YYG  "O5'"  O5* O 0 1 N N N  6.605 107.739 271.975  0.852 -0.635 -7.310  "O5'" YYG  5
-YYG  "C5'"  C5* C 0 1 N N N  5.889 108.177 273.172 -0.010  0.437 -6.925  "C5'" YYG  6
-YYG  "C4'"  C4* C 0 1 N N R  6.851 107.958 274.314 -0.833  0.017 -5.705  "C4'" YYG  7
-YYG  "O4'"  O4* O 0 1 N N N  6.553 106.734 274.962  0.036 -0.272 -4.589  "O4'" YYG  8
-YYG  "C3'"  C3* C 0 1 N N S  8.326 107.836 273.928 -1.718  1.187 -5.222  "C3'" YYG  9
-YYG  "O3'"  O3* O 0 1 N N N  9.008 109.081 273.707 -3.050  1.046 -5.720  "O3'" YYG 10
-YYG  "C2'"  C2* C 0 1 N N R  8.896 107.068 275.111 -1.699  1.063 -3.681  "C2'" YYG 11
-YYG  "O2'"  O2* O 0 1 N N N  9.114 108.003 276.148 -3.019  0.843 -3.180  "O2'" YYG 12
-YYG  "C1'"  C1* C 0 1 N N R  7.745 106.128 275.462 -0.801 -0.166 -3.417  "C1'" YYG 13
-YYG     N9   N9 N 0 1 Y N N  7.972 104.855 274.853  0.018  0.048 -2.222     N9 YYG 14
-YYG     C8   C8 C 0 1 Y N N  7.401 104.414 273.663  1.249  0.637 -2.183     C8 YYG 15
-YYG     N7   N7 N 0 1 Y N N  7.788 103.193 273.326  1.683  0.660 -0.957     N7 YYG 16
-YYG     C5   C5 C 0 1 Y N N  8.631 102.845 274.336  0.757  0.088 -0.146     C5 YYG 17
-YYG     C6   C6 C 0 1 N N N  9.374 101.647 274.566  0.696 -0.154  1.248     C6 YYG 18
-YYG     O6   O6 O 0 1 N N N  9.364 100.662 273.793  1.619  0.181  1.968     O6 YYG 19
-YYG     N1   N1 N 0 1 Y N N 10.138 101.601 275.669 -0.387 -0.757  1.774     N1 YYG 20
-YYG     C2   C2 C 0 1 Y N N 10.153 102.655 276.498 -1.430 -1.141  0.981     C2 YYG 21
-YYG     N2   N2 N 0 1 Y N N 11.060 102.267 277.588 -2.342 -1.699  1.747     N2 YYG 22
-YYG     N3   N3 N 0 1 N N N  9.507 103.823 276.396 -1.396 -0.916 -0.380     N3 YYG 23
-YYG     C3   C3 C 0 1 N N N  9.636 104.811 277.335 -2.523 -1.333 -1.219     C3 YYG 24
-YYG     C4   C4 C 0 1 Y N N  8.762 103.835 275.272 -0.308 -0.304 -0.949     C4 YYG 25
-YYG    C10  C10 C 0 1 N N N 12.398 100.214 278.062 -2.675 -2.244  4.203    C10 YYG 26
-YYG    C11  C11 C 0 1 Y N N 11.446 101.046 277.250 -1.918 -1.695  3.021    C11 YYG 27
-YYG    C12  C12 C 0 1 Y N N 10.888 100.616 276.062 -0.709 -1.110  3.066    C12 YYG 28
-YYG    C13  C13 C 0 1 N N N 11.089  99.279 275.386  0.136 -0.890  4.294    C13 YYG 29
-YYG    C14  C14 C 0 1 N N N  9.858  98.449 275.661 -0.198  0.471  4.906    C14 YYG 30
-YYG    C15  C15 C 0 1 N N S 10.202  97.151 276.299  0.659  0.694  6.152    C15 YYG 31
-YYG    C16  C16 C 0 1 N N N  9.584  97.035 277.662  0.329  2.035  6.756    C16 YYG 32
-YYG    O17  O17 O 0 1 N N N  8.643  97.759 278.002  0.936  3.020  6.408    O17 YYG 33
-YYG    O18  O18 O 0 1 N N N 10.092  96.064 278.595 -0.639  2.135  7.679    O18 YYG 34
-YYG    C19  C19 C 0 1 N N N 10.814  96.746 279.617 -0.957  3.427  8.261    C19 YYG 35
-YYG    N20  N20 N 0 1 N N N  9.622  96.059 275.478  0.385 -0.361  7.130    N20 YYG 36
-YYG    C21  C21 C 0 1 N N N  8.333  96.087 275.209  1.352 -0.758  7.981    C21 YYG 37
-YYG    O22  O22 O 0 1 N N N  7.561  96.827 275.818  2.450 -0.240  7.938    O22 YYG 38
-YYG    O23  O23 O 0 1 N N N  7.807  95.231 274.190  1.100 -1.729  8.880    O23 YYG 39
-YYG    C24  C24 C 0 1 N N N  6.915  94.279 274.771  2.141 -2.157  9.797    C24 YYG 40
-YYG   HOP2 2HOP H 0 0 N N N  5.486 109.896 270.853  3.157 -0.948 -9.848   HOP2 YYG 41
-YYG   HOP3 3HOP H 0 0 N N N  4.103 107.989 271.824  0.171 -0.568 -9.988   HOP3 YYG 42
-YYG  "H5'" 1H5* H 0 1 N N N  5.499 109.219 273.106 -0.681  0.677 -7.750  "H5'" YYG 43
-YYG "H5''" 2H5* H 0 0 N N N  4.902 107.677 273.313  0.587  1.313 -6.677 "H5''" YYG 44
-YYG  "H4'"  H4* H 0 1 N N N  6.718 108.868 274.943 -1.448 -0.850 -5.943  "H4'" YYG 45
-YYG  "H3'"  H3* H 0 1 N N N  8.455 107.337 272.939 -1.294  2.142 -5.535  "H3'" YYG 46
-YYG "HO3'"  H3T H 0 0 N Y N  9.924 109.005 273.467 -3.554  1.801 -5.388 "HO3'" YYG 47
-YYG  "H2'"  H2* H 0 1 N N N  9.853 106.526 274.928 -1.264  1.955 -3.231  "H2'" YYG 48
-YYG "HO2'" 2HO* H 0 0 N N N  9.470 107.523 276.886 -3.544  1.616 -3.428 "HO2'" YYG 49
-YYG  "H1'"  H1* H 0 1 N N N  7.660 105.964 276.561 -1.410 -1.063 -3.303  "H1'" YYG 50
-YYG     H8   H8 H 0 1 N N N  6.697 104.987 273.036  1.780  1.025 -3.039     H8 YYG 51
-YYG    H31  1H3 H 0 1 N N N  9.097 105.783 277.250 -3.287 -1.797 -0.596    H31 YYG 52
-YYG    H32  2H3 H 0 1 N N N  9.384 104.370 278.327 -2.943 -0.462 -1.722    H32 YYG 53
-YYG    H33  3H3 H 0 1 N N N 10.723 105.033 277.446 -2.176 -2.050 -1.963    H33 YYG 54
-YYG   H101 1H10 H 0 0 N N N 12.723  99.186 277.777 -2.417 -3.294  4.344   H101 YYG 55
-YYG   H102 2H10 H 0 0 N N N 13.321 100.821 278.208 -2.410 -1.681  5.098   H102 YYG 56
-YYG   H103 3H10 H 0 0 N N N 11.981 100.152 279.094 -3.746 -2.155  4.022   H103 YYG 57
-YYG   H131 1H13 H 0 0 N N N 11.320  99.369 274.299  1.190 -0.915  4.018   H131 YYG 58
-YYG   H132 2H13 H 0 0 N N N 12.034  98.772 275.692 -0.067 -1.676  5.021   H132 YYG 59
-YYG   H141 1H14 H 0 0 N N N  9.112  99.015 276.267 -1.253  0.495  5.182   H141 YYG 60
-YYG   H142 2H14 H 0 0 N N N  9.253  98.300 274.736  0.005  1.256  4.179   H142 YYG 61
-YYG    H15  H15 H 0 1 N N N 11.312  97.086 276.378  1.714  0.670  5.877    H15 YYG 62
-YYG   H191 1H19 H 0 0 N N N 11.207  95.993 280.339 -1.763  3.311  8.985   H191 YYG 63
-YYG   H192 2H19 H 0 0 N N N 11.615  97.403 279.206 -0.075  3.829  8.760   H192 YYG 64
-YYG   H193 3H19 H 0 0 N N N 10.205  97.537 280.113 -1.272  4.112  7.473   H193 YYG 65
-YYG   HN20 HN20 H 0 0 N N N 10.125  95.263 275.085 -0.491 -0.774  7.165   HN20 YYG 66
-YYG   H241 1H24 H 0 0 N N N  6.505  93.612 273.977  1.754 -2.944 10.444   H241 YYG 67
-YYG   H242 2H24 H 0 0 N N N  7.395  93.702 275.595  2.991 -2.537  9.230   H242 YYG 68
-YYG   H243 3H24 H 0 0 N N N  6.108  94.768 275.365  2.460 -1.311 10.406   H243 YYG 69
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+YYG P      P    P 0 1 N N N 5.752  107.848 270.630 1.682  -0.127 -8.592 P      YYG 1  
+YYG OP1    O1P  O 0 1 N N N 6.065  106.876 269.558 2.467  1.073  -8.228 OP1    YYG 2  
+YYG OP2    O2P  O 0 1 N N N 5.687  109.273 270.166 2.680  -1.292 -9.081 OP2    YYG 3  
+YYG OP3    O3P  O 0 1 N Y N 4.304  107.366 271.137 0.661  0.238  -9.782 OP3    YYG 4  
+YYG "O5'"  O5*  O 0 1 N N N 6.605  107.739 271.975 0.852  -0.635 -7.310 "O5'"  YYG 5  
+YYG "C5'"  C5*  C 0 1 N N N 5.889  108.177 273.172 -0.010 0.437  -6.925 "C5'"  YYG 6  
+YYG "C4'"  C4*  C 0 1 N N R 6.851  107.958 274.314 -0.833 0.017  -5.705 "C4'"  YYG 7  
+YYG "O4'"  O4*  O 0 1 N N N 6.553  106.734 274.962 0.036  -0.272 -4.589 "O4'"  YYG 8  
+YYG "C3'"  C3*  C 0 1 N N S 8.326  107.836 273.928 -1.718 1.187  -5.222 "C3'"  YYG 9  
+YYG "O3'"  O3*  O 0 1 N N N 9.008  109.081 273.707 -3.050 1.046  -5.720 "O3'"  YYG 10 
+YYG "C2'"  C2*  C 0 1 N N R 8.896  107.068 275.111 -1.699 1.063  -3.681 "C2'"  YYG 11 
+YYG "O2'"  O2*  O 0 1 N N N 9.114  108.003 276.148 -3.019 0.843  -3.180 "O2'"  YYG 12 
+YYG "C1'"  C1*  C 0 1 N N R 7.745  106.128 275.462 -0.801 -0.166 -3.417 "C1'"  YYG 13 
+YYG N9     N9   N 0 1 Y N N 7.972  104.855 274.853 0.018  0.048  -2.222 N9     YYG 14 
+YYG C8     C8   C 0 1 Y N N 7.401  104.414 273.663 1.249  0.637  -2.183 C8     YYG 15 
+YYG N7     N7   N 0 1 Y N N 7.788  103.193 273.326 1.683  0.660  -0.957 N7     YYG 16 
+YYG C5     C5   C 0 1 Y N N 8.631  102.845 274.336 0.757  0.088  -0.146 C5     YYG 17 
+YYG C6     C6   C 0 1 N N N 9.374  101.647 274.566 0.696  -0.154 1.248  C6     YYG 18 
+YYG O6     O6   O 0 1 N N N 9.364  100.662 273.793 1.619  0.181  1.968  O6     YYG 19 
+YYG N1     N1   N 0 1 Y N N 10.138 101.601 275.669 -0.387 -0.757 1.774  N1     YYG 20 
+YYG C2     C2   C 0 1 Y N N 10.153 102.655 276.498 -1.430 -1.141 0.981  C2     YYG 21 
+YYG N2     N2   N 0 1 Y N N 11.060 102.267 277.588 -2.342 -1.699 1.747  N2     YYG 22 
+YYG N3     N3   N 0 1 N N N 9.507  103.823 276.396 -1.396 -0.916 -0.380 N3     YYG 23 
+YYG C3     C3   C 0 1 N N N 9.636  104.811 277.335 -2.523 -1.333 -1.219 C3     YYG 24 
+YYG C4     C4   C 0 1 Y N N 8.762  103.835 275.272 -0.308 -0.304 -0.949 C4     YYG 25 
+YYG C10    C10  C 0 1 N N N 12.398 100.214 278.062 -2.675 -2.244 4.203  C10    YYG 26 
+YYG C11    C11  C 0 1 Y N N 11.446 101.046 277.250 -1.918 -1.695 3.021  C11    YYG 27 
+YYG C12    C12  C 0 1 Y N N 10.888 100.616 276.062 -0.709 -1.110 3.066  C12    YYG 28 
+YYG C13    C13  C 0 1 N N N 11.089 99.279  275.386 0.136  -0.890 4.294  C13    YYG 29 
+YYG C14    C14  C 0 1 N N N 9.858  98.449  275.661 -0.198 0.471  4.906  C14    YYG 30 
+YYG C15    C15  C 0 1 N N S 10.202 97.151  276.299 0.659  0.694  6.152  C15    YYG 31 
+YYG C16    C16  C 0 1 N N N 9.584  97.035  277.662 0.329  2.035  6.756  C16    YYG 32 
+YYG O17    O17  O 0 1 N N N 8.643  97.759  278.002 0.936  3.020  6.408  O17    YYG 33 
+YYG O18    O18  O 0 1 N N N 10.092 96.064  278.595 -0.639 2.135  7.679  O18    YYG 34 
+YYG C19    C19  C 0 1 N N N 10.814 96.746  279.617 -0.957 3.427  8.261  C19    YYG 35 
+YYG N20    N20  N 0 1 N N N 9.622  96.059  275.478 0.385  -0.361 7.130  N20    YYG 36 
+YYG C21    C21  C 0 1 N N N 8.333  96.087  275.209 1.352  -0.758 7.981  C21    YYG 37 
+YYG O22    O22  O 0 1 N N N 7.561  96.827  275.818 2.450  -0.240 7.938  O22    YYG 38 
+YYG O23    O23  O 0 1 N N N 7.807  95.231  274.190 1.100  -1.729 8.880  O23    YYG 39 
+YYG C24    C24  C 0 1 N N N 6.915  94.279  274.771 2.141  -2.157 9.797  C24    YYG 40 
+YYG HOP2   2HOP H 0 0 N N N 5.486  109.896 270.853 3.157  -0.948 -9.848 HOP2   YYG 41 
+YYG HOP3   3HOP H 0 0 N N N 4.103  107.989 271.824 0.171  -0.568 -9.988 HOP3   YYG 42 
+YYG "H5'"  1H5* H 0 1 N N N 5.499  109.219 273.106 -0.681 0.677  -7.750 "H5'"  YYG 43 
+YYG "H5''" 2H5* H 0 0 N N N 4.902  107.677 273.313 0.587  1.313  -6.677 "H5''" YYG 44 
+YYG "H4'"  H4*  H 0 1 N N N 6.718  108.868 274.943 -1.448 -0.850 -5.943 "H4'"  YYG 45 
+YYG "H3'"  H3*  H 0 1 N N N 8.455  107.337 272.939 -1.294 2.142  -5.535 "H3'"  YYG 46 
+YYG "HO3'" H3T  H 0 0 N Y N 9.924  109.005 273.467 -3.554 1.801  -5.388 "HO3'" YYG 47 
+YYG "H2'"  H2*  H 0 1 N N N 9.853  106.526 274.928 -1.264 1.955  -3.231 "H2'"  YYG 48 
+YYG "HO2'" 2HO* H 0 0 N N N 9.470  107.523 276.886 -3.544 1.616  -3.428 "HO2'" YYG 49 
+YYG "H1'"  H1*  H 0 1 N N N 7.660  105.964 276.561 -1.410 -1.063 -3.303 "H1'"  YYG 50 
+YYG H8     H8   H 0 1 N N N 6.697  104.987 273.036 1.780  1.025  -3.039 H8     YYG 51 
+YYG H31    1H3  H 0 1 N N N 9.097  105.783 277.250 -3.287 -1.797 -0.596 H31    YYG 52 
+YYG H32    2H3  H 0 1 N N N 9.384  104.370 278.327 -2.943 -0.462 -1.722 H32    YYG 53 
+YYG H33    3H3  H 0 1 N N N 10.723 105.033 277.446 -2.176 -2.050 -1.963 H33    YYG 54 
+YYG H101   1H10 H 0 0 N N N 12.723 99.186  277.777 -2.417 -3.294 4.344  H101   YYG 55 
+YYG H102   2H10 H 0 0 N N N 13.321 100.821 278.208 -2.410 -1.681 5.098  H102   YYG 56 
+YYG H103   3H10 H 0 0 N N N 11.981 100.152 279.094 -3.746 -2.155 4.022  H103   YYG 57 
+YYG H131   1H13 H 0 0 N N N 11.320 99.369  274.299 1.190  -0.915 4.018  H131   YYG 58 
+YYG H132   2H13 H 0 0 N N N 12.034 98.772  275.692 -0.067 -1.676 5.021  H132   YYG 59 
+YYG H141   1H14 H 0 0 N N N 9.112  99.015  276.267 -1.253 0.495  5.182  H141   YYG 60 
+YYG H142   2H14 H 0 0 N N N 9.253  98.300  274.736 0.005  1.256  4.179  H142   YYG 61 
+YYG H15    H15  H 0 1 N N N 11.312 97.086  276.378 1.714  0.670  5.877  H15    YYG 62 
+YYG H191   1H19 H 0 0 N N N 11.207 95.993  280.339 -1.763 3.311  8.985  H191   YYG 63 
+YYG H192   2H19 H 0 0 N N N 11.615 97.403  279.206 -0.075 3.829  8.760  H192   YYG 64 
+YYG H193   3H19 H 0 0 N N N 10.205 97.537  280.113 -1.272 4.112  7.473  H193   YYG 65 
+YYG HN20   HN20 H 0 0 N N N 10.125 95.263  275.085 -0.491 -0.774 7.165  HN20   YYG 66 
+YYG H241   1H24 H 0 0 N N N 6.505  93.612  273.977 1.754  -2.944 10.444 H241   YYG 67 
+YYG H242   2H24 H 0 0 N N N 7.395  93.702  275.595 2.991  -2.537 9.230  H242   YYG 68 
+YYG H243   3H24 H 0 0 N N N 6.108  94.768  275.365 2.460  -1.311 10.406 H243   YYG 69 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-YYG     P    OP1 DOUB N N  1
-YYG     P    OP2 SING N N  2
-YYG     P    OP3 SING N N  3
-YYG     P  "O5'" SING N N  4
-YYG   OP2   HOP2 SING N N  5
-YYG   OP3   HOP3 SING N N  6
-YYG "O5'"  "C5'" SING N N  7
-YYG "C5'"  "C4'" SING N N  8
-YYG "C5'"  "H5'" SING N N  9
-YYG "C5'" "H5''" SING N N 10
-YYG "C4'"  "O4'" SING N N 11
-YYG "C4'"  "C3'" SING N N 12
-YYG "C4'"  "H4'" SING N N 13
-YYG "O4'"  "C1'" SING N N 14
-YYG "C3'"  "O3'" SING N N 15
-YYG "C3'"  "C2'" SING N N 16
-YYG "C3'"  "H3'" SING N N 17
-YYG "O3'" "HO3'" SING N N 18
-YYG "C2'"  "O2'" SING N N 19
-YYG "C2'"  "C1'" SING N N 20
-YYG "C2'"  "H2'" SING N N 21
-YYG "O2'" "HO2'" SING N N 22
-YYG "C1'"     N9 SING N N 23
-YYG "C1'"  "H1'" SING N N 24
-YYG    N9     C8 SING Y N 25
-YYG    N9     C4 SING Y N 26
-YYG    C8     N7 DOUB Y N 27
-YYG    C8     H8 SING N N 28
-YYG    N7     C5 SING Y N 29
-YYG    C5     C6 SING N N 30
-YYG    C5     C4 DOUB Y N 31
-YYG    C6     O6 DOUB N N 32
-YYG    C6     N1 SING N N 33
-YYG    N1     C2 SING Y N 34
-YYG    N1    C12 SING Y N 35
-YYG    C2     N2 DOUB Y N 36
-YYG    C2     N3 SING N N 37
-YYG    N2    C11 SING Y N 38
-YYG    N3     C3 SING N N 39
-YYG    N3     C4 SING N N 40
-YYG    C3    H31 SING N N 41
-YYG    C3    H32 SING N N 42
-YYG    C3    H33 SING N N 43
-YYG   C10    C11 SING N N 44
-YYG   C10   H101 SING N N 45
-YYG   C10   H102 SING N N 46
-YYG   C10   H103 SING N N 47
-YYG   C11    C12 DOUB Y N 48
-YYG   C12    C13 SING N N 49
-YYG   C13    C14 SING N N 50
-YYG   C13   H131 SING N N 51
-YYG   C13   H132 SING N N 52
-YYG   C14    C15 SING N N 53
-YYG   C14   H141 SING N N 54
-YYG   C14   H142 SING N N 55
-YYG   C15    C16 SING N N 56
-YYG   C15    N20 SING N N 57
-YYG   C15    H15 SING N N 58
-YYG   C16    O17 DOUB N N 59
-YYG   C16    O18 SING N N 60
-YYG   O18    C19 SING N N 61
-YYG   C19   H191 SING N N 62
-YYG   C19   H192 SING N N 63
-YYG   C19   H193 SING N N 64
-YYG   N20    C21 SING N N 65
-YYG   N20   HN20 SING N N 66
-YYG   C21    O22 DOUB N N 67
-YYG   C21    O23 SING N N 68
-YYG   O23    C24 SING N N 69
-YYG   C24   H241 SING N N 70
-YYG   C24   H242 SING N N 71
-YYG   C24   H243 SING N N 72
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+YYG P     OP1    DOUB N N 1  
+YYG P     OP2    SING N N 2  
+YYG P     OP3    SING N N 3  
+YYG P     "O5'"  SING N N 4  
+YYG OP2   HOP2   SING N N 5  
+YYG OP3   HOP3   SING N N 6  
+YYG "O5'" "C5'"  SING N N 7  
+YYG "C5'" "C4'"  SING N N 8  
+YYG "C5'" "H5'"  SING N N 9  
+YYG "C5'" "H5''" SING N N 10 
+YYG "C4'" "O4'"  SING N N 11 
+YYG "C4'" "C3'"  SING N N 12 
+YYG "C4'" "H4'"  SING N N 13 
+YYG "O4'" "C1'"  SING N N 14 
+YYG "C3'" "O3'"  SING N N 15 
+YYG "C3'" "C2'"  SING N N 16 
+YYG "C3'" "H3'"  SING N N 17 
+YYG "O3'" "HO3'" SING N N 18 
+YYG "C2'" "O2'"  SING N N 19 
+YYG "C2'" "C1'"  SING N N 20 
+YYG "C2'" "H2'"  SING N N 21 
+YYG "O2'" "HO2'" SING N N 22 
+YYG "C1'" N9     SING N N 23 
+YYG "C1'" "H1'"  SING N N 24 
+YYG N9    C8     SING Y N 25 
+YYG N9    C4     SING Y N 26 
+YYG C8    N7     DOUB Y N 27 
+YYG C8    H8     SING N N 28 
+YYG N7    C5     SING Y N 29 
+YYG C5    C6     SING N N 30 
+YYG C5    C4     DOUB Y N 31 
+YYG C6    O6     DOUB N N 32 
+YYG C6    N1     SING N N 33 
+YYG N1    C2     SING Y N 34 
+YYG N1    C12    SING Y N 35 
+YYG C2    N2     DOUB Y N 36 
+YYG C2    N3     SING N N 37 
+YYG N2    C11    SING Y N 38 
+YYG N3    C3     SING N N 39 
+YYG N3    C4     SING N N 40 
+YYG C3    H31    SING N N 41 
+YYG C3    H32    SING N N 42 
+YYG C3    H33    SING N N 43 
+YYG C10   C11    SING N N 44 
+YYG C10   H101   SING N N 45 
+YYG C10   H102   SING N N 46 
+YYG C10   H103   SING N N 47 
+YYG C11   C12    DOUB Y N 48 
+YYG C12   C13    SING N N 49 
+YYG C13   C14    SING N N 50 
+YYG C13   H131   SING N N 51 
+YYG C13   H132   SING N N 52 
+YYG C14   C15    SING N N 53 
+YYG C14   H141   SING N N 54 
+YYG C14   H142   SING N N 55 
+YYG C15   C16    SING N N 56 
+YYG C15   N20    SING N N 57 
+YYG C15   H15    SING N N 58 
+YYG C16   O17    DOUB N N 59 
+YYG C16   O18    SING N N 60 
+YYG O18   C19    SING N N 61 
+YYG C19   H191   SING N N 62 
+YYG C19   H192   SING N N 63 
+YYG C19   H193   SING N N 64 
+YYG N20   C21    SING N N 65 
+YYG N20   HN20   SING N N 66 
+YYG C21   O22    DOUB N N 67 
+YYG C21   O23    SING N N 68 
+YYG O23   C24    SING N N 69 
+YYG C24   H241   SING N N 70 
+YYG C24   H242   SING N N 71 
+YYG C24   H243   SING N N 72 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-YYG           SMILES              ACDLabs 10.04                                                                                                                                                              O=C(OC)C(NC(=O)OC)CCc3c(nc4N(c1c(ncn1C2OC(C(O)C2O)COP(=O)(O)O)C(=O)n34)C)C
-YYG SMILES_CANONICAL               CACTVS 3.341                                                                                                                                       COC(=O)N[C@@H](CCc1n2C(=O)c3ncn([C@@H]4O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@H]4O)c3N(C)c2nc1C)C(=O)OC
-YYG           SMILES               CACTVS 3.341                                                                                                                                               COC(=O)N[CH](CCc1n2C(=O)c3ncn([CH]4O[CH](CO[P](O)(O)=O)[CH](O)[CH]4O)c3N(C)c2nc1C)C(=O)OC
-YYG SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                     Cc1c(n2c(n1)N(c3c(ncn3[C@H]4[C@@H]([C@@H]([C@H](O4)COP(=O)(O)O)O)O)C2=O)C)CC[C@@H](C(=O)OC)NC(=O)OC
-YYG           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                            Cc1c(n2c(n1)N(c3c(ncn3C4C(C(C(O4)COP(=O)(O)O)O)O)C2=O)C)CCC(C(=O)OC)NC(=O)OC
-YYG            InChI                InChI  1.03 InChI=1S/C21H29N6O12P/c1-9-11(6-5-10(19(31)36-3)24-21(32)37-4)27-17(30)13-16(25(2)20(27)23-9)26(8-22-13)18-15(29)14(28)12(39-18)7-38-40(33,34)35/h8,10,12,14-15,18,28-29H,5-7H2,1-4H3,(H,24,32)(H2,33,34,35)/t10-,12+,14+,15+,18+/m0/s1
-YYG         InChIKey                InChI  1.03                                                                                                                                                                                                             WOMRPCAFQVCGCI-QHOAOGIMSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+YYG SMILES           ACDLabs              10.04 "O=C(OC)C(NC(=O)OC)CCc3c(nc4N(c1c(ncn1C2OC(C(O)C2O)COP(=O)(O)O)C(=O)n34)C)C" 
+YYG SMILES_CANONICAL CACTVS               3.341 "COC(=O)N[C@@H](CCc1n2C(=O)c3ncn([C@@H]4O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@H]4O)c3N(C)c2nc1C)C(=O)OC" 
+YYG SMILES           CACTVS               3.341 "COC(=O)N[CH](CCc1n2C(=O)c3ncn([CH]4O[CH](CO[P](O)(O)=O)[CH](O)[CH]4O)c3N(C)c2nc1C)C(=O)OC" 
+YYG SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "Cc1c(n2c(n1)N(c3c(ncn3[C@H]4[C@@H]([C@@H]([C@H](O4)COP(=O)(O)O)O)O)C2=O)C)CC[C@@H](C(=O)OC)NC(=O)OC" 
+YYG SMILES           "OpenEye OEToolkits" 1.5.0 "Cc1c(n2c(n1)N(c3c(ncn3C4C(C(C(O4)COP(=O)(O)O)O)O)C2=O)C)CCC(C(=O)OC)NC(=O)OC" 
+YYG InChI            InChI                1.03  
+"InChI=1S/C21H29N6O12P/c1-9-11(6-5-10(19(31)36-3)24-21(32)37-4)27-17(30)13-16(25(2)20(27)23-9)26(8-22-13)18-15(29)14(28)12(39-18)7-38-40(33,34)35/h8,10,12,14-15,18,28-29H,5-7H2,1-4H3,(H,24,32)(H2,33,34,35)/t10-,12+,14+,15+,18+/m0/s1" 
+YYG InChIKey         InChI                1.03  WOMRPCAFQVCGCI-QHOAOGIMSA-N 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-YYG "SYSTEMATIC NAME"              ACDLabs 10.04             7-{(3S)-4-methoxy-3-[(methoxycarbonyl)amino]-4-oxobutyl}-4,6-dimethyl-3-(5-O-phosphono-beta-D-ribofuranosyl)-3,4-dihydro-9H-imidazo[1,2-a]purin-9-one
-YYG "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "methyl (2S)-4-[3-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(phosphonooxymethyl)oxolan-2-yl]-4,6-dimethyl-9-oxo-imidazo[3,2-a]purin-7-yl]-2-(methoxycarbonylamino)butanoate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+YYG "SYSTEMATIC NAME" ACDLabs              10.04 "7-{(3S)-4-methoxy-3-[(methoxycarbonyl)amino]-4-oxobutyl}-4,6-dimethyl-3-(5-O-phosphono-beta-D-ribofuranosyl)-3,4-dihydro-9H-imidazo[1,2-a]purin-9-one"           
+YYG "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "methyl (2S)-4-[3-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(phosphonooxymethyl)oxolan-2-yl]-4,6-dimethyl-9-oxo-imidazo[3,2-a]purin-7-yl]-2-(methoxycarbonylamino)butanoate" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-YYG  "Create component" 1999-10-04  EBI
-YYG "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-YYG     P P  5.064 -6.165  1
-YYG   OP1 O  3.849 -7.045  2
-YYG   OP2 O  4.184 -4.950  3
-YYG   OP3 O  5.944 -7.380  4
-YYG "O5'" O  6.279 -5.286  5
-YYG "C5'" C  7.648 -5.898  6
-YYG "C4'" C  8.863 -5.019  7
-YYG "O4'" O  8.866 -3.518  8
-YYG "C3'" C 10.289 -5.485  9
-YYG "O3'" O 10.750 -6.912 10
-YYG "C2'" C 11.173 -4.273 11
-YYG "O2'" O 12.673 -4.275 12
-YYG "C1'" C 10.293 -3.058 13
-YYG    N9 N 10.759 -1.632 14
-YYG    C8 C  9.884 -0.425 15
-YYG    N7 N 10.759  0.782 16
-YYG    C5 C 12.179  0.325 17
-YYG    C6 C 13.478  1.075 18
-YYG    O6 O 13.478  2.575 19
-YYG    N1 N 14.777  0.325 20
-YYG    C2 C 14.777 -1.175 21
-YYG    N2 N 16.196 -1.632 22
-YYG    N3 N 13.478 -1.925 23
-YYG    C3 C 13.478 -3.425 24
-YYG    C4 C 12.179 -1.175 25
-YYG   C10 C 18.572 -0.425 26
-YYG   C11 C 17.072 -0.425 27
-YYG   C12 C 16.196  0.782 28
-YYG   C13 C 16.662  2.208 29
-YYG   C14 C 18.130  2.518 30
-YYG   C15 C 18.596  3.943 31
-YYG   C16 C 17.594  5.060 32
-YYG   O17 O 16.126  4.750 33
-YYG   O18 O 18.060  6.486 34
-YYG   C19 C 17.058  7.602 35
-YYG   N20 N 20.064  4.253 36
-YYG   C21 C 20.530  5.678 37
-YYG   O22 O 19.528  6.795 38
-YYG   O23 O 21.997  5.988 39
-YYG   C24 C 22.463  7.414 40
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-YYG     P   OP1 DOUBLE       NONE  1
-YYG     P   OP2 SINGLE       NONE  2
-YYG     P   OP3 SINGLE       NONE  3
-YYG     P "O5'" SINGLE       NONE  4
-YYG "O5'" "C5'" SINGLE       NONE  5
-YYG "C5'" "C4'" SINGLE BEGINWEDGE  6
-YYG "C4'" "O4'" SINGLE       NONE  7
-YYG "C4'" "C3'" SINGLE       NONE  8
-YYG "O4'" "C1'" SINGLE       NONE  9
-YYG "C3'" "O3'" SINGLE BEGINWEDGE 10
-YYG "C3'" "C2'" SINGLE       NONE 11
-YYG "C2'" "O2'" SINGLE  BEGINDASH 12
-YYG "C2'" "C1'" SINGLE       NONE 13
-YYG "C1'"    N9 SINGLE  BEGINDASH 14
-YYG    N9    C8 SINGLE       NONE 15
-YYG    N9    C4 SINGLE       NONE 16
-YYG    C8    N7 DOUBLE       NONE 17
-YYG    N7    C5 SINGLE       NONE 18
-YYG    C5    C6 SINGLE       NONE 19
-YYG    C5    C4 DOUBLE       NONE 20
-YYG    C6    O6 DOUBLE       NONE 21
-YYG    C6    N1 SINGLE       NONE 22
-YYG    N1    C2 SINGLE       NONE 23
-YYG    N1   C12 SINGLE       NONE 24
-YYG    C2    N2 DOUBLE       NONE 25
-YYG    C2    N3 SINGLE       NONE 26
-YYG    N2   C11 SINGLE       NONE 27
-YYG    N3    C3 SINGLE       NONE 28
-YYG    N3    C4 SINGLE       NONE 29
-YYG   C10   C11 SINGLE       NONE 30
-YYG   C11   C12 DOUBLE       NONE 31
-YYG   C12   C13 SINGLE       NONE 32
-YYG   C13   C14 SINGLE       NONE 33
-YYG   C14   C15 SINGLE  BEGINDASH 34
-YYG   C15   C16 SINGLE       NONE 35
-YYG   C15   N20 SINGLE       NONE 36
-YYG   C16   O17 DOUBLE       NONE 37
-YYG   C16   O18 SINGLE       NONE 38
-YYG   O18   C19 SINGLE       NONE 39
-YYG   N20   C21 SINGLE       NONE 40
-YYG   C21   O22 DOUBLE       NONE 41
-YYG   C21   O23 SINGLE       NONE 42
-YYG   O23   C24 SINGLE       NONE 43
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-YYG MurckoScaffold S1 scaffold O=c1c2ncn([C@@H]3CCCO3)c2[nH]c2nccn12 InChI=1S/C11H11N5O2/c17-10-8-9(14-11-12-3-4-15(10)11)16(6-13-8)7-2-1-5-18-7/h3-4,6-7H,1-2,5H2,(H,12,14)/t7-/m0/s1 ICBVPQLGYVWOGG-ZETCQYMHSA-N
-YYG      imidazole F1 fragment                            c1c[nH]cn1                                                                        InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-YYG        peptide F2 fragment                                 NCC=O                                                                                InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-YYG      phosphate F3 fragment                            O=P(O)(O)O                                                                           InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-YYG         purine F4 fragment                      c1ncc2[nH]cnc2n1                                                          InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-YYG     pyrimidine F5 fragment                              c1cncnc1                                                                              InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-YYG         ribose F6 fragment                         OCC1OCC(O)C1O                                                                 InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-YYG    C5 F1 1
-YYG    C4 F1 1
-YYG    N9 F1 1
-YYG    C8 F1 1
-YYG    N7 F1 1
-YYG   C11 F1 2
-YYG   C12 F1 2
-YYG    N1 F1 2
-YYG    C2 F1 2
-YYG    N2 F1 2
-YYG   O17 F2 1
-YYG   C16 F2 1
-YYG   C15 F2 1
-YYG   N20 F2 1
-YYG   OP2 F3 1
-YYG     P F3 1
-YYG   OP1 F3 1
-YYG   OP3 F3 1
-YYG "O5'" F3 1
-YYG    N7 F4 1
-YYG    C8 F4 1
-YYG    N9 F4 1
-YYG    C4 F4 1
-YYG    C5 F4 1
-YYG    C6 F4 1
-YYG    N1 F4 1
-YYG    C2 F4 1
-YYG    N3 F4 1
-YYG    C5 F5 1
-YYG    C6 F5 1
-YYG    N1 F5 1
-YYG    C2 F5 1
-YYG    N3 F5 1
-YYG    C4 F5 1
-YYG "C2'" F6 1
-YYG "C3'" F6 1
-YYG "C4'" F6 1
-YYG "O4'" F6 1
-YYG "C1'" F6 1
-YYG "C5'" F6 1
-YYG "O5'" F6 1
-YYG "O3'" F6 1
-YYG "O2'" F6 1
-YYG "C4'" S1 1
-YYG "O4'" S1 1
-YYG "C3'" S1 1
-YYG "C2'" S1 1
-YYG "C1'" S1 1
-YYG    N9 S1 1
-YYG    C8 S1 1
-YYG    N7 S1 1
-YYG    C5 S1 1
-YYG    C6 S1 1
-YYG    O6 S1 1
-YYG    N1 S1 1
-YYG    C2 S1 1
-YYG    N2 S1 1
-YYG    N3 S1 1
-YYG    C4 S1 1
-YYG   C11 S1 1
-YYG   C12 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               YYG
-_pdbe_chem_comp_rdkit_properties.exactmw                               588.158
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           18
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     17
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                17
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        19
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.571
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       4
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             265.987
-_pdbe_chem_comp_rdkit_properties.tpsa                                  238.200
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.602
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             128.313
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         40
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-YYG UniChem ChEMBL    CHEMBL1236920
-YYG UniChem  ChEBI            74300
-YYG UniChem   ZINC ZINC000058661278
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-YYG      P  -9.404 -0.413 -0.066 ETKDGv2  1
-YYG    OP1  -9.641 -1.880 -0.347 ETKDGv2  2
-YYG    OP2  -9.678 -0.103  1.575 ETKDGv2  3
-YYG    OP3 -10.483  0.504 -0.992 ETKDGv2  4
-YYG  "O5'"  -7.808  0.009 -0.495 ETKDGv2  5
-YYG  "C5'"  -6.922 -0.665  0.368 ETKDGv2  6
-YYG  "C4'"  -5.475 -0.373 -0.053 ETKDGv2  7
-YYG  "O4'"  -4.584 -0.941  0.888 ETKDGv2  8
-YYG  "C3'"  -5.101 -0.860 -1.472 ETKDGv2  9
-YYG  "O3'"  -5.988 -1.844 -1.948 ETKDGv2 10
-YYG  "C2'"  -3.740 -1.480 -1.268 ETKDGv2 11
-YYG  "O2'"  -2.734 -0.523 -1.479 ETKDGv2 12
-YYG  "C1'"  -3.816 -1.890  0.196 ETKDGv2 13
-YYG     N9  -2.500 -2.101  0.821 ETKDGv2 14
-YYG     C8  -1.860 -3.386  0.770 ETKDGv2 15
-YYG     N7  -0.566 -3.344  0.820 ETKDGv2 16
-YYG     C5  -0.259 -1.964  0.928 ETKDGv2 17
-YYG     C6   1.083 -1.369  0.942 ETKDGv2 18
-YYG     O6   2.124 -2.074  0.876 ETKDGv2 19
-YYG     N1   1.138  0.057  1.014 ETKDGv2 20
-YYG     C2  -0.042  0.837  1.015 ETKDGv2 21
-YYG     N2   0.172  2.105  0.874 ETKDGv2 22
-YYG     N3  -1.343  0.217  1.082 ETKDGv2 23
-YYG     C3  -2.515  1.007  1.449 ETKDGv2 24
-YYG     C4  -1.365 -1.231  0.945 ETKDGv2 25
-YYG    C10   2.279  3.530  0.518 ETKDGv2 26
-YYG    C11   1.598  2.218  0.765 ETKDGv2 27
-YYG    C12   2.175  1.012  0.850 ETKDGv2 28
-YYG    C13   3.632  0.677  0.688 ETKDGv2 29
-YYG    C14   3.976  0.495 -0.799 ETKDGv2 30
-YYG    C15   5.422  0.024 -1.048 ETKDGv2 31
-YYG    C16   5.676 -1.333 -0.444 ETKDGv2 32
-YYG    O17   5.046 -2.334 -0.884 ETKDGv2 33
-YYG    O18   6.596 -1.480  0.600 ETKDGv2 34
-YYG    C19   6.851 -2.732  1.225 ETKDGv2 35
-YYG    N20   6.383  1.011 -0.539 ETKDGv2 36
-YYG    C21   7.188  1.837 -1.389 ETKDGv2 37
-YYG    O22   7.091  1.752 -2.645 ETKDGv2 38
-YYG    O23   8.081  2.743 -0.810 ETKDGv2 39
-YYG    C24   8.912  3.601 -1.583 ETKDGv2 40
-YYG   HOP2  -9.491  0.864  1.684 ETKDGv2 41
-YYG   HOP3 -10.230  1.445 -0.814 ETKDGv2 42
-YYG  "H5'"  -7.087 -1.767  0.350 ETKDGv2 43
-YYG "H5''"  -7.052 -0.300  1.411 ETKDGv2 44
-YYG  "H4'"  -5.340  0.731 -0.022 ETKDGv2 45
-YYG  "H3'"  -5.045 -0.004 -2.188 ETKDGv2 46
-YYG "HO3'"  -6.684 -1.376 -2.477 ETKDGv2 47
-YYG  "H2'"  -3.573 -2.372 -1.918 ETKDGv2 48
-YYG "HO2'"  -2.597 -0.468 -2.461 ETKDGv2 49
-YYG  "H1'"  -4.376 -2.853  0.248 ETKDGv2 50
-YYG     H8  -2.402 -4.315  0.647 ETKDGv2 51
-YYG    H31  -3.104  0.476  2.224 ETKDGv2 52
-YYG    H32  -3.121  1.215  0.547 ETKDGv2 53
-YYG    H33  -2.216  1.981  1.890 ETKDGv2 54
-YYG   H101   3.374  3.422  0.390 ETKDGv2 55
-YYG   H102   1.864  3.987 -0.404 ETKDGv2 56
-YYG   H103   2.084  4.209  1.374 ETKDGv2 57
-YYG   H131   4.252  1.477  1.140 ETKDGv2 58
-YYG   H132   3.852 -0.252  1.253 ETKDGv2 59
-YYG   H141   3.823  1.462 -1.328 ETKDGv2 60
-YYG   H142   3.276 -0.242 -1.252 ETKDGv2 61
-YYG    H15   5.547 -0.088 -2.147 ETKDGv2 62
-YYG   H191   7.613 -2.593  2.019 ETKDGv2 63
-YYG   H192   7.237 -3.458  0.478 ETKDGv2 64
-YYG   H193   5.919 -3.124  1.683 ETKDGv2 65
-YYG   HN20   6.480  1.142  0.493 ETKDGv2 66
-YYG   H241   8.287  4.268 -2.214 ETKDGv2 67
-YYG   H242   9.527  4.223 -0.901 ETKDGv2 68
-YYG   H243   9.586  2.998 -2.228 ETKDGv2 69
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+YYG "Create component"  1999-10-04 EBI  
+YYG "Modify descriptor" 2011-06-04 RCSB 
+# 

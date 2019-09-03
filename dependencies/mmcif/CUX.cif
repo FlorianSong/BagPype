@@ -1,438 +1,185 @@
 data_CUX
-#
-_chem_comp.id                                        CUX
-_chem_comp.name                                      2-[[7-[(2~{R},3~{R},4~{S},5~{R})-5-[(~{R})-(4-chlorophenyl)-oxidanyl-methyl]-3,4-bis(oxidanyl)oxolan-2-yl]pyrrolo[2,3-d]pyrimidin-4-yl]amino]ethanal
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C19 H19 Cl N4 O5"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2019-05-16
-_chem_comp.pdbx_modified_date                        2019-06-14
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            418.831
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         CUX
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       Y
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6K1S
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      PDBJ
-
-#
+# 
+_chem_comp.id                                    CUX 
+_chem_comp.name                                  "2-[[7-[(2~{R},3~{R},4~{S},5~{R})-5-[(~{R})-(4-chlorophenyl)-oxidanyl-methyl]-3,4-bis(oxidanyl)oxolan-2-yl]pyrrolo[2,3-d]pyrimidin-4-yl]amino]ethanal" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H19 Cl N4 O5" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2019-05-16 
+_chem_comp.pdbx_modified_date                    2019-06-14 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        418.831 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     CUX 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6K1S 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-CUX  C4  C1  C 0 1 Y N N -14.915 -102.555 -3.260  2.432 -0.632 -0.538  C4 CUX  1
-CUX  C5  C2  C 0 1 Y N N -13.614 -102.448 -3.554  3.202  0.414  0.001  C5 CUX  2
-CUX  C6  C3  C 0 1 Y N N -12.773 -103.438 -3.167  4.565  0.485 -0.325  C6 CUX  3
-CUX  N1  N1  N 0 1 Y N N -13.205 -104.471 -2.428  5.069 -0.444 -1.133  N1 CUX  4
-CUX  N3  N2  N 0 1 Y N N -15.393 -103.575 -2.542  3.028 -1.514 -1.339  N3 CUX  5
-CUX CBB  C4  C 0 1 N N N -11.542 -102.983 -5.946  7.425  2.736  0.502 CBB CUX  6
-CUX CBA  C5  C 0 1 N N N -10.841 -103.136 -4.588  6.785  1.550 -0.174 CBA CUX  7
-CUX NAA  N3  N 0 1 N N N -11.453 -103.345 -3.398  5.365  1.495  0.180 NAA CUX  8
-CUX  C2  C6  C 0 1 Y N N -14.551 -104.588 -2.093  4.309 -1.410 -1.618  C2 CUX  9
-CUX CAI  C7  C 0 1 Y N N -13.466 -101.315 -4.263  2.293  1.208  0.825 CAI CUX 10
-CUX CAH  C8  C 0 1 Y N N -14.651 -100.751 -4.403  1.085  0.627  0.740 CAH CUX 11
-CUX NAG  N4  N 0 1 Y N N -15.547 -101.514 -3.769  1.155 -0.472 -0.076 NAG CUX 12
-CUX CAK  C9  C 0 1 N N R -16.991 -101.285 -3.621  0.028 -1.351 -0.400 CAK CUX 13
-CUX OAL  O1  O 0 1 N N N -17.472 -101.261 -4.939 -1.227 -0.690 -0.129 OAL CUX 14
-CUX CAP C10  C 0 1 N N R -17.275  -99.894 -3.139  0.003 -2.577  0.547 CAP CUX 15
-CUX OAQ  O2  O 0 1 N N N -17.213  -99.805 -1.711  0.836 -3.625  0.047 OAQ CUX 16
-CUX CAN C11  C 0 1 N N S -18.678  -99.655 -3.654 -1.489 -2.990  0.504 CAN CUX 17
-CUX OAO  O3  O 0 1 N N N -19.691 -100.041 -2.696 -1.686 -4.059 -0.423 OAO CUX 18
-CUX CAM C12  C 0 1 N N R -18.733 -100.573 -4.871 -2.218 -1.719  0.026 CAM CUX 19
-CUX CAR C13  C 0 1 N N R -18.945  -99.782 -6.184 -3.254 -1.291  1.067 CAR CUX 20
-CUX OAS  O4  O 0 1 N N N -17.866  -98.845 -6.367 -4.216 -2.334  1.239 OAS CUX 21
-CUX CAT C14  C 0 1 Y N N -20.253  -99.207 -6.224 -3.949 -0.039  0.598 CAT CUX 22
-CUX CAU C15  C 0 1 Y N N -21.356 -100.077 -6.259 -3.500  1.199  1.019 CAU CUX 23
-CUX CAV C16  C 0 1 Y N N -22.659  -99.611 -6.299 -4.137  2.348  0.589 CAV CUX 24
-CUX CAW C17  C 0 1 Y N N -22.891  -98.254 -6.311 -5.225  2.259 -0.262 CAW CUX 25
-CUX CLA CL1 CL 0 0 N N N -24.502  -97.702 -6.366 -6.025  3.701 -0.802 CLA CUX 26
-CUX CAX C18  C 0 1 Y N N -21.819  -97.359 -6.273 -5.674  1.020 -0.682 CAX CUX 27
-CUX CAY C19  C 0 1 Y N N -20.498  -97.828 -6.236 -5.032 -0.128 -0.256 CAY CUX 28
-CUX  H1  H1  H 0 1 N N N -11.975 -103.664 -6.664  7.015  3.725  0.360  H1 CUX 29
-CUX  H4  H4  H 0 1 N N N -10.153 -103.985 -4.712  6.887  1.649 -1.254  H4 CUX 30
-CUX  H5  H5  H 0 1 N N N -14.922 -105.421 -1.515  4.759 -2.144 -2.270  H5 CUX 31
-CUX  H6  H6  H 0 1 N N N -12.535 -100.931 -4.652  2.543  2.093  1.392  H6 CUX 32
-CUX  H7  H7  H 0 1 N N N -14.860  -99.835 -4.936  0.192  0.975  1.238  H7 CUX 33
-CUX  H8  H8  H 0 1 N N N -17.474 -102.046 -2.990  0.079 -1.671 -1.441  H8 CUX 34
-CUX  H9  H9  H 0 1 N N N -16.579  -99.183 -3.609  0.300 -2.295  1.557  H9 CUX 35
-CUX H10 H10  H 0 1 N N N -16.321  -99.960 -1.422  0.853 -4.414  0.606 H10 CUX 36
-CUX H11 H11  H 0 1 N N N -18.799  -98.606 -3.964 -1.833 -3.279  1.497 H11 CUX 37
-CUX H12 H12  H 0 1 N N N -19.650  -99.465 -1.942 -1.201 -4.866 -0.201 H12 CUX 38
-CUX H13 H13  H 0 1 N N N -19.558 -101.291 -4.748 -2.707 -1.910 -0.929 H13 CUX 39
-CUX H14 H14  H 0 1 N N N -18.882 -100.519 -6.998 -2.756 -1.096  2.017 H14 CUX 40
-CUX H15 H15  H 0 1 N N N -17.036  -99.305 -6.327 -4.699 -2.560  0.433 H15 CUX 41
-CUX H16 H16  H 0 1 N N N -21.182 -101.143 -6.255 -2.652  1.269  1.683 H16 CUX 42
-CUX H17 H17  H 0 1 N N N -23.486 -100.306 -6.321 -3.787  3.315  0.918 H17 CUX 43
-CUX H18 H18  H 0 1 N N N -22.009  -96.296 -6.272 -6.522  0.949 -1.346 H18 CUX 44
-CUX H19 H19  H 0 1 N N N -19.674  -97.130 -6.217 -5.382 -1.096 -0.584 H19 CUX 45
-CUX H20 H20  H 0 1 N N N -10.261 -102.210 -4.456  7.278  0.635  0.156 H20 CUX 46
-CUX H21 H21  H 0 1 N N N -11.073 -104.207 -3.062  4.984  2.166  0.768 H21 CUX 47
-CUX  O5  O5  O 0 1 N Y N       ?        ?      ?  8.396  2.580  1.203  O5 CUX 48
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+CUX C4  C1  C  0 1 Y N N -14.915 -102.555 -3.260 2.432  -0.632 -0.538 C4  CUX 1  
+CUX C5  C2  C  0 1 Y N N -13.614 -102.448 -3.554 3.202  0.414  0.001  C5  CUX 2  
+CUX C6  C3  C  0 1 Y N N -12.773 -103.438 -3.167 4.565  0.485  -0.325 C6  CUX 3  
+CUX N1  N1  N  0 1 Y N N -13.205 -104.471 -2.428 5.069  -0.444 -1.133 N1  CUX 4  
+CUX N3  N2  N  0 1 Y N N -15.393 -103.575 -2.542 3.028  -1.514 -1.339 N3  CUX 5  
+CUX CBB C4  C  0 1 N N N -11.542 -102.983 -5.946 7.425  2.736  0.502  CBB CUX 6  
+CUX CBA C5  C  0 1 N N N -10.841 -103.136 -4.588 6.785  1.550  -0.174 CBA CUX 7  
+CUX NAA N3  N  0 1 N N N -11.453 -103.345 -3.398 5.365  1.495  0.180  NAA CUX 8  
+CUX C2  C6  C  0 1 Y N N -14.551 -104.588 -2.093 4.309  -1.410 -1.618 C2  CUX 9  
+CUX CAI C7  C  0 1 Y N N -13.466 -101.315 -4.263 2.293  1.208  0.825  CAI CUX 10 
+CUX CAH C8  C  0 1 Y N N -14.651 -100.751 -4.403 1.085  0.627  0.740  CAH CUX 11 
+CUX NAG N4  N  0 1 Y N N -15.547 -101.514 -3.769 1.155  -0.472 -0.076 NAG CUX 12 
+CUX CAK C9  C  0 1 N N R -16.991 -101.285 -3.621 0.028  -1.351 -0.400 CAK CUX 13 
+CUX OAL O1  O  0 1 N N N -17.472 -101.261 -4.939 -1.227 -0.690 -0.129 OAL CUX 14 
+CUX CAP C10 C  0 1 N N R -17.275 -99.894  -3.139 0.003  -2.577 0.547  CAP CUX 15 
+CUX OAQ O2  O  0 1 N N N -17.213 -99.805  -1.711 0.836  -3.625 0.047  OAQ CUX 16 
+CUX CAN C11 C  0 1 N N S -18.678 -99.655  -3.654 -1.489 -2.990 0.504  CAN CUX 17 
+CUX OAO O3  O  0 1 N N N -19.691 -100.041 -2.696 -1.686 -4.059 -0.423 OAO CUX 18 
+CUX CAM C12 C  0 1 N N R -18.733 -100.573 -4.871 -2.218 -1.719 0.026  CAM CUX 19 
+CUX CAR C13 C  0 1 N N R -18.945 -99.782  -6.184 -3.254 -1.291 1.067  CAR CUX 20 
+CUX OAS O4  O  0 1 N N N -17.866 -98.845  -6.367 -4.216 -2.334 1.239  OAS CUX 21 
+CUX CAT C14 C  0 1 Y N N -20.253 -99.207  -6.224 -3.949 -0.039 0.598  CAT CUX 22 
+CUX CAU C15 C  0 1 Y N N -21.356 -100.077 -6.259 -3.500 1.199  1.019  CAU CUX 23 
+CUX CAV C16 C  0 1 Y N N -22.659 -99.611  -6.299 -4.137 2.348  0.589  CAV CUX 24 
+CUX CAW C17 C  0 1 Y N N -22.891 -98.254  -6.311 -5.225 2.259  -0.262 CAW CUX 25 
+CUX CLA CL1 CL 0 0 N N N -24.502 -97.702  -6.366 -6.025 3.701  -0.802 CLA CUX 26 
+CUX CAX C18 C  0 1 Y N N -21.819 -97.359  -6.273 -5.674 1.020  -0.682 CAX CUX 27 
+CUX CAY C19 C  0 1 Y N N -20.498 -97.828  -6.236 -5.032 -0.128 -0.256 CAY CUX 28 
+CUX H1  H1  H  0 1 N N N -11.975 -103.664 -6.664 7.015  3.725  0.360  H1  CUX 29 
+CUX H4  H4  H  0 1 N N N -10.153 -103.985 -4.712 6.887  1.649  -1.254 H4  CUX 30 
+CUX H5  H5  H  0 1 N N N -14.922 -105.421 -1.515 4.759  -2.144 -2.270 H5  CUX 31 
+CUX H6  H6  H  0 1 N N N -12.535 -100.931 -4.652 2.543  2.093  1.392  H6  CUX 32 
+CUX H7  H7  H  0 1 N N N -14.860 -99.835  -4.936 0.192  0.975  1.238  H7  CUX 33 
+CUX H8  H8  H  0 1 N N N -17.474 -102.046 -2.990 0.079  -1.671 -1.441 H8  CUX 34 
+CUX H9  H9  H  0 1 N N N -16.579 -99.183  -3.609 0.300  -2.295 1.557  H9  CUX 35 
+CUX H10 H10 H  0 1 N N N -16.321 -99.960  -1.422 0.853  -4.414 0.606  H10 CUX 36 
+CUX H11 H11 H  0 1 N N N -18.799 -98.606  -3.964 -1.833 -3.279 1.497  H11 CUX 37 
+CUX H12 H12 H  0 1 N N N -19.650 -99.465  -1.942 -1.201 -4.866 -0.201 H12 CUX 38 
+CUX H13 H13 H  0 1 N N N -19.558 -101.291 -4.748 -2.707 -1.910 -0.929 H13 CUX 39 
+CUX H14 H14 H  0 1 N N N -18.882 -100.519 -6.998 -2.756 -1.096 2.017  H14 CUX 40 
+CUX H15 H15 H  0 1 N N N -17.036 -99.305  -6.327 -4.699 -2.560 0.433  H15 CUX 41 
+CUX H16 H16 H  0 1 N N N -21.182 -101.143 -6.255 -2.652 1.269  1.683  H16 CUX 42 
+CUX H17 H17 H  0 1 N N N -23.486 -100.306 -6.321 -3.787 3.315  0.918  H17 CUX 43 
+CUX H18 H18 H  0 1 N N N -22.009 -96.296  -6.272 -6.522 0.949  -1.346 H18 CUX 44 
+CUX H19 H19 H  0 1 N N N -19.674 -97.130  -6.217 -5.382 -1.096 -0.584 H19 CUX 45 
+CUX H20 H20 H  0 1 N N N -10.261 -102.210 -4.456 7.278  0.635  0.156  H20 CUX 46 
+CUX H21 H21 H  0 1 N N N -11.073 -104.207 -3.062 4.984  2.166  0.768  H21 CUX 47 
+CUX O5  O5  O  0 1 N Y N ?       ?        ?      8.396  2.580  1.203  O5  CUX 48 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-CUX OAS CAR SING N N  1
-CUX CLA CAW SING N N  2
-CUX CAW CAV DOUB Y N  3
-CUX CAW CAX SING Y N  4
-CUX CAV CAU SING Y N  5
-CUX CAX CAY DOUB Y N  6
-CUX CAU CAT DOUB Y N  7
-CUX CAY CAT SING Y N  8
-CUX CAT CAR SING N N  9
-CUX CAR CAM SING N N 10
-CUX CBB CBA SING N N 11
-CUX OAL CAM SING N N 12
-CUX OAL CAK SING N N 13
-CUX CAM CAN SING N N 14
-CUX CBA NAA SING N N 15
-CUX CAH CAI DOUB Y N 16
-CUX CAH NAG SING Y N 17
-CUX CAI  C5 SING Y N 18
-CUX NAG CAK SING N N 19
-CUX NAG  C4 SING Y N 20
-CUX CAN CAP SING N N 21
-CUX CAN OAO SING N N 22
-CUX CAK CAP SING N N 23
-CUX  C5  C4 DOUB Y N 24
-CUX  C5  C6 SING Y N 25
-CUX NAA  C6 SING N N 26
-CUX  C4  N3 SING Y N 27
-CUX  C6  N1 DOUB Y N 28
-CUX CAP OAQ SING N N 29
-CUX  N3  C2 DOUB Y N 30
-CUX  N1  C2 SING Y N 31
-CUX CBB  H1 SING N N 32
-CUX CBA  H4 SING N N 33
-CUX  C2  H5 SING N N 34
-CUX CAI  H6 SING N N 35
-CUX CAH  H7 SING N N 36
-CUX CAK  H8 SING N N 37
-CUX CAP  H9 SING N N 38
-CUX OAQ H10 SING N N 39
-CUX CAN H11 SING N N 40
-CUX OAO H12 SING N N 41
-CUX CAM H13 SING N N 42
-CUX CAR H14 SING N N 43
-CUX OAS H15 SING N N 44
-CUX CAU H16 SING N N 45
-CUX CAV H17 SING N N 46
-CUX CAX H18 SING N N 47
-CUX CAY H19 SING N N 48
-CUX CBA H20 SING N N 49
-CUX NAA H21 SING N N 50
-CUX CBB  O5 DOUB N N 51
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+CUX OAS CAR SING N N 1  
+CUX CLA CAW SING N N 2  
+CUX CAW CAV DOUB Y N 3  
+CUX CAW CAX SING Y N 4  
+CUX CAV CAU SING Y N 5  
+CUX CAX CAY DOUB Y N 6  
+CUX CAU CAT DOUB Y N 7  
+CUX CAY CAT SING Y N 8  
+CUX CAT CAR SING N N 9  
+CUX CAR CAM SING N N 10 
+CUX CBB CBA SING N N 11 
+CUX OAL CAM SING N N 12 
+CUX OAL CAK SING N N 13 
+CUX CAM CAN SING N N 14 
+CUX CBA NAA SING N N 15 
+CUX CAH CAI DOUB Y N 16 
+CUX CAH NAG SING Y N 17 
+CUX CAI C5  SING Y N 18 
+CUX NAG CAK SING N N 19 
+CUX NAG C4  SING Y N 20 
+CUX CAN CAP SING N N 21 
+CUX CAN OAO SING N N 22 
+CUX CAK CAP SING N N 23 
+CUX C5  C4  DOUB Y N 24 
+CUX C5  C6  SING Y N 25 
+CUX NAA C6  SING N N 26 
+CUX C4  N3  SING Y N 27 
+CUX C6  N1  DOUB Y N 28 
+CUX CAP OAQ SING N N 29 
+CUX N3  C2  DOUB Y N 30 
+CUX N1  C2  SING Y N 31 
+CUX CBB H1  SING N N 32 
+CUX CBA H4  SING N N 33 
+CUX C2  H5  SING N N 34 
+CUX CAI H6  SING N N 35 
+CUX CAH H7  SING N N 36 
+CUX CAK H8  SING N N 37 
+CUX CAP H9  SING N N 38 
+CUX OAQ H10 SING N N 39 
+CUX CAN H11 SING N N 40 
+CUX OAO H12 SING N N 41 
+CUX CAM H13 SING N N 42 
+CUX CAR H14 SING N N 43 
+CUX OAS H15 SING N N 44 
+CUX CAU H16 SING N N 45 
+CUX CAV H17 SING N N 46 
+CUX CAX H18 SING N N 47 
+CUX CAY H19 SING N N 48 
+CUX CBA H20 SING N N 49 
+CUX NAA H21 SING N N 50 
+CUX CBB O5  DOUB N N 51 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-CUX            InChI                InChI  1.03 InChI=1S/C19H19ClN4O5/c20-11-3-1-10(2-4-11)13(26)16-14(27)15(28)19(29-16)24-7-5-12-17(21-6-8-25)22-9-23-18(12)24/h1-5,7-9,13-16,19,26-28H,6H2,(H,21,22,23)/t13-,14+,15-,16-,19-/m1/s1
-CUX         InChIKey                InChI  1.03                                                                                                                                                           XDGPGIJAAMLWOB-PPLBCVRQSA-N
-CUX SMILES_CANONICAL               CACTVS 3.385                                                                                                              O[C@H]1[C@@H](O)[C@@H](O[C@@H]1[C@H](O)c2ccc(Cl)cc2)n3ccc4c(NCC=O)ncnc34
-CUX           SMILES               CACTVS 3.385                                                                                                                      O[CH]1[CH](O)[CH](O[CH]1[CH](O)c2ccc(Cl)cc2)n3ccc4c(NCC=O)ncnc34
-CUX SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7                                                                                                               c1cc(ccc1[C@H]([C@@H]2[C@H]([C@H]([C@@H](O2)n3ccc4c3ncnc4NCC=O)O)O)O)Cl
-CUX           SMILES "OpenEye OEToolkits" 2.0.7                                                                                                                                     c1cc(ccc1C(C2C(C(C(O2)n3ccc4c3ncnc4NCC=O)O)O)O)Cl
-#
-_pdbx_chem_comp_identifier.comp_id               CUX
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.7
-_pdbx_chem_comp_identifier.identifier            2-[[7-[(2~{R},3~{R},4~{S},5~{R})-5-[(~{R})-(4-chlorophenyl)-oxidanyl-methyl]-3,4-bis(oxidanyl)oxolan-2-yl]pyrrolo[2,3-d]pyrimidin-4-yl]amino]ethanal
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+CUX InChI            InChI                1.03  "InChI=1S/C19H19ClN4O5/c20-11-3-1-10(2-4-11)13(26)16-14(27)15(28)19(29-16)24-7-5-12-17(21-6-8-25)22-9-23-18(12)24/h1-5,7-9,13-16,19,26-28H,6H2,(H,21,22,23)/t13-,14+,15-,16-,19-/m1/s1" 
+CUX InChIKey         InChI                1.03  XDGPGIJAAMLWOB-PPLBCVRQSA-N                                                                                                                                                             
+CUX SMILES_CANONICAL CACTVS               3.385 "O[C@H]1[C@@H](O)[C@@H](O[C@@H]1[C@H](O)c2ccc(Cl)cc2)n3ccc4c(NCC=O)ncnc34"                                                                                                              
+CUX SMILES           CACTVS               3.385 "O[CH]1[CH](O)[CH](O[CH]1[CH](O)c2ccc(Cl)cc2)n3ccc4c(NCC=O)ncnc34"                                                                                                                      
+CUX SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1[C@H]([C@@H]2[C@H]([C@H]([C@@H](O2)n3ccc4c3ncnc4NCC=O)O)O)O)Cl"                                                                                                               
+CUX SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1C(C2C(C(C(O2)n3ccc4c3ncnc4NCC=O)O)O)O)Cl"                                                                                                                                     
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-CUX              "Create component" 2019-05-16 PDBJ
-CUX "Modify model coordinates code" 2019-05-28 PDBJ
-CUX               "Initial release" 2019-06-19 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+CUX "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "2-[[7-[(2~{R},3~{R},4~{S},5~{R})-5-[(~{R})-(4-chlorophenyl)-oxidanyl-methyl]-3,4-bis(oxidanyl)oxolan-2-yl]pyrrolo[2,3-d]pyrimidin-4-yl]amino]ethanal" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-CUX  C4  C  6.897  1.720  1
-CUX  C5  C  6.897  3.220  2
-CUX  C6  C  5.598  3.970  3
-CUX  N1  N  4.299  3.220  4
-CUX  N3  N  5.598  0.970  5
-CUX CBB  C  4.299  7.720  6
-CUX CBA  C  4.299  6.220  7
-CUX NAA  N  5.598  5.470  8
-CUX  C2  C  4.299  1.720  9
-CUX CAI  C  8.316  3.677 10
-CUX CAH  C  9.192  2.470 11
-CUX NAG  N  8.316  1.263 12
-CUX CAK  C  8.783 -0.163 13
-CUX OAL  O  7.903 -1.378 14
-CUX CAP  C 10.210 -0.624 15
-CUX OAQ  O 11.422  0.260 16
-CUX CAN  C 10.213 -2.124 17
-CUX OAO  O 11.428 -3.004 18
-CUX CAM  C  8.787 -2.590 19
-CUX CAR  C  8.326 -4.018 20
-CUX OAS  O  6.859 -4.332 21
-CUX CAT  C  9.331 -5.131 22
-CUX CAU  C 10.798 -4.816 23
-CUX CAV  C 11.803 -5.929 24
-CUX CAW  C 11.342 -7.357 25
-CUX CLA Cl 12.348 -8.470 26
-CUX CAX  C  9.876 -7.671 27
-CUX CAY  C  8.870 -6.558 28
-CUX  O5  O  3.000  8.470 29
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-CUX OAS CAR SINGLE  BEGINDASH  1
-CUX CLA CAW SINGLE       NONE  2
-CUX CAW CAV SINGLE       NONE  3
-CUX CAW CAX DOUBLE       NONE  4
-CUX CAV CAU DOUBLE       NONE  5
-CUX CAX CAY SINGLE       NONE  6
-CUX CAU CAT SINGLE       NONE  7
-CUX CAY CAT DOUBLE       NONE  8
-CUX CAT CAR SINGLE       NONE  9
-CUX CAR CAM SINGLE       NONE 10
-CUX CBB CBA SINGLE       NONE 11
-CUX OAL CAM SINGLE BEGINWEDGE 12
-CUX OAL CAK SINGLE       NONE 13
-CUX CAM CAN SINGLE       NONE 14
-CUX CBA NAA SINGLE       NONE 15
-CUX CAH CAI DOUBLE       NONE 16
-CUX CAH NAG SINGLE       NONE 17
-CUX CAI  C5 SINGLE       NONE 18
-CUX NAG CAK SINGLE BEGINWEDGE 19
-CUX NAG  C4 SINGLE       NONE 20
-CUX CAN CAP SINGLE       NONE 21
-CUX CAN OAO SINGLE  BEGINDASH 22
-CUX CAK CAP SINGLE       NONE 23
-CUX  C5  C4 SINGLE       NONE 24
-CUX  C5  C6 DOUBLE       NONE 25
-CUX NAA  C6 SINGLE       NONE 26
-CUX  C4  N3 DOUBLE       NONE 27
-CUX  C6  N1 SINGLE       NONE 28
-CUX CAP OAQ SINGLE BEGINWEDGE 29
-CUX  N3  C2 SINGLE       NONE 30
-CUX  N1  C2 DOUBLE       NONE 31
-CUX CBB  O5 DOUBLE       NONE 32
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-CUX MurckoScaffold S1 scaffold c1ccc(C[C@@H]2CC[C@H](n3ccc4cncnc43)O2)cc1 InChI=1S/C17H17N3O/c1-2-4-13(5-3-1)10-15-6-7-16(21-15)20-9-8-14-11-18-12-19-17(14)20/h1-5,8-9,11-12,15-16H,6-7,10H2/t15-,16+/m0/s1 NBZCSCWSHKZCJJ-JKSUJKDBSA-N
-CUX        peptide F1 fragment                                      NCC=O                                                                                                 InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-CUX         phenyl F2 fragment                                   c1ccccc1                                                                                                 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-CUX     pyrimidine F3 fragment                                   c1cncnc1                                                                                               InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-CUX        pyrrole F4 fragment                                 c1cc[nH]c1                                                                                                  InChI=1S/C4H5N/c1-2-4-5-3-1/h1-5H KAESVJOAVNADME-UHFFFAOYSA-N
-CUX         ribose F5 fragment                              OCC1OCC(O)C1O                                                                                  InChI=1S/C5H10O4/c6-1-4-5(8)3(7)2-9-4/h3-8H,1-2H2 KZVAAIRBJJYZOW-UHFFFAOYSA-N
-CUX     Z104479788 F6 fragment                          CC(O)c1ccc(Cl)cc1                                                                              InChI=1S/C8H9ClO/c1-6(10)7-2-4-8(9)5-3-7/h2-6,10H,1H3 MVOSNPUNXINWAD-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-CUX  H1 F1 1
-CUX CBB F1 1
-CUX CBA F1 1
-CUX NAA F1 1
-CUX CAT F2 1
-CUX CAU F2 1
-CUX CAV F2 1
-CUX CAW F2 1
-CUX CAX F2 1
-CUX CAY F2 1
-CUX  C5 F3 1
-CUX  C4 F3 1
-CUX  N3 F3 1
-CUX  C2 F3 1
-CUX  N1 F3 1
-CUX  C6 F3 1
-CUX  C4 F4 1
-CUX  C5 F4 1
-CUX CAI F4 1
-CUX CAH F4 1
-CUX NAG F4 1
-CUX CAP F5 1
-CUX CAN F5 1
-CUX CAM F5 1
-CUX OAL F5 1
-CUX CAK F5 1
-CUX CAR F5 1
-CUX OAS F5 1
-CUX OAO F5 1
-CUX OAQ F5 1
-CUX CAM F6 1
-CUX CAR F6 1
-CUX OAS F6 1
-CUX CAT F6 1
-CUX CAU F6 1
-CUX CAV F6 1
-CUX CAW F6 1
-CUX CLA F6 1
-CUX CAX F6 1
-CUX CAY F6 1
-CUX  C4 S1 1
-CUX  C5 S1 1
-CUX  C6 S1 1
-CUX  N1 S1 1
-CUX  N3 S1 1
-CUX  C2 S1 1
-CUX CAI S1 1
-CUX CAH S1 1
-CUX NAG S1 1
-CUX CAK S1 1
-CUX OAL S1 1
-CUX CAP S1 1
-CUX CAN S1 1
-CUX CAM S1 1
-CUX CAR S1 1
-CUX CAT S1 1
-CUX CAU S1 1
-CUX CAV S1 1
-CUX CAW S1 1
-CUX CAX S1 1
-CUX CAY S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               CUX
-_pdbe_chem_comp_rdkit_properties.exactmw                               418.104
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           9
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     9
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                9
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        10
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.316
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             197.101
-_pdbe_chem_comp_rdkit_properties.tpsa                                  129.730
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.185
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             101.121
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         29
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CUX  C4  2.303  0.175  0.059 ETKDGv2  1
-CUX  C5  3.593  0.713  0.356 ETKDGv2  2
-CUX  C6  4.671  0.289 -0.308 ETKDGv2  3
-CUX  N1  4.466 -0.711 -1.333 ETKDGv2  4
-CUX  N3  2.122 -0.737 -0.847 ETKDGv2  5
-CUX CBB  7.478 -1.107 -0.298 ETKDGv2  6
-CUX CBA  7.172  0.301 -0.708 ETKDGv2  7
-CUX NAA  5.984  0.789 -0.014 ETKDGv2  8
-CUX  C2  3.274 -1.196 -1.589 ETKDGv2  9
-CUX CAI  3.391  1.630  1.470 ETKDGv2 10
-CUX CAH  2.086  1.607  1.775 ETKDGv2 11
-CUX NAG  1.320  0.745  0.912 ETKDGv2 12
-CUX CAK  0.014  0.168  1.243 ETKDGv2 13
-CUX OAL -0.523 -0.512  0.136 ETKDGv2 14
-CUX CAP -1.000  1.236  1.646 ETKDGv2 15
-CUX OAQ -0.797  2.447  0.953 ETKDGv2 16
-CUX CAN -2.326  0.607  1.258 ETKDGv2 17
-CUX OAO -2.984  0.101  2.392 ETKDGv2 18
-CUX CAM -1.920 -0.554  0.329 ETKDGv2 19
-CUX CAR -2.622 -0.489 -1.043 ETKDGv2 20
-CUX OAS -2.140 -1.525 -1.858 ETKDGv2 21
-CUX CAT -4.126 -0.619 -0.900 ETKDGv2 22
-CUX CAU -4.721 -1.884 -0.395 ETKDGv2 23
-CUX CAV -6.048 -2.002 -0.262 ETKDGv2 24
-CUX CAW -6.932 -0.874 -0.621 ETKDGv2 25
-CUX CLA -8.669 -1.035 -0.442 ETKDGv2 26
-CUX CAX -6.404  0.266 -1.085 ETKDGv2 27
-CUX CAY -4.940  0.400 -1.233 ETKDGv2 28
-CUX  H1  7.466 -1.901 -1.036 ETKDGv2 29
-CUX  H4  7.015  0.353 -1.807 ETKDGv2 30
-CUX  H5  3.153 -1.945 -2.359 ETKDGv2 31
-CUX  H6  4.148  2.195  1.997 ETKDGv2 32
-CUX  H7  1.656  2.157  2.603 ETKDGv2 33
-CUX  H8  0.147 -0.556  2.079 ETKDGv2 34
-CUX  H9 -0.939  1.436  2.738 ETKDGv2 35
-CUX H10 -0.814  2.253 -0.021 ETKDGv2 36
-CUX H11 -2.979  1.350  0.742 ETKDGv2 37
-CUX H12 -3.398  0.879  2.850 ETKDGv2 38
-CUX H13 -2.163 -1.530  0.810 ETKDGv2 39
-CUX H14 -2.355  0.489 -1.510 ETKDGv2 40
-CUX H15 -2.411 -1.307 -2.788 ETKDGv2 41
-CUX H16 -4.084 -2.721 -0.137 ETKDGv2 42
-CUX H17 -6.474 -2.927  0.106 ETKDGv2 43
-CUX H18 -7.044  1.098 -1.352 ETKDGv2 44
-CUX H19 -4.537  1.333 -1.607 ETKDGv2 45
-CUX H20  8.042  0.945 -0.455 ETKDGv2 46
-CUX H21  6.106  1.538  0.705 ETKDGv2 47
-CUX  O5  7.746 -1.366  0.865 ETKDGv2 48
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+CUX "Create component"              2019-05-16 PDBJ 
+CUX "Modify model coordinates code" 2019-05-28 PDBJ 
+CUX "Initial release"               2019-06-19 RCSB 
+# 

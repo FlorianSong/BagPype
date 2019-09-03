@@ -1,373 +1,151 @@
 data_HGH
-#
-_chem_comp.id                                        HGH
-_chem_comp.name                                      "2-[3-[(2-azanyl-9~{H}-purin-6-yl)oxy]phenyl]ethanoic acid"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C13 H11 N5 O3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2018-12-06
-_chem_comp.pdbx_modified_date                        2019-03-15
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            285.258
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         HGH
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6Q4H
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    HGH 
+_chem_comp.name                                  "2-[3-[(2-azanyl-9~{H}-purin-6-yl)oxy]phenyl]ethanoic acid" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C13 H11 N5 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2018-12-06 
+_chem_comp.pdbx_modified_date                    2019-03-15 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        285.258 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     HGH 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6Q4H 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-HGH  C4  C1 C 0 1 Y N N -1.038  -8.408 -26.305 -0.799  0.771 -1.724  C4 HGH  1
-HGH  C5  C2 C 0 1 Y N N -1.172  -9.752 -26.077 -1.947  1.525 -1.870  C5 HGH  2
-HGH  C6  C3 C 0 1 Y N N -1.206 -10.253 -24.796 -2.983  1.392 -0.964  C6 HGH  3
-HGH C11  C4 C 0 1 Y N N -0.548  -4.130 -26.234  2.799 -0.915 -0.084 C11 HGH  4
-HGH  C7  C5 C 0 1 Y N N -1.146  -9.413 -23.714 -2.873  0.506  0.091  C7 HGH  5
-HGH  C8  C6 C 0 1 N N N -1.126  -9.953 -22.305 -4.004  0.364  1.077  C8 HGH  6
-HGH  C9  C7 C 0 1 N N N -2.312  -9.711 -21.414 -4.951 -0.708  0.604  C9 HGH  7
-HGH C10  C8 C 0 1 Y N N -1.024  -8.055 -23.932 -1.727 -0.251  0.242 C10 HGH  8
-HGH C12  C9 C 0 1 Y N N -1.180  -2.139 -25.984  4.467 -2.302 -0.136 C12 HGH  9
-HGH C13 C10 C 0 1 Y N N  0.174  -3.345 -27.153  3.943 -0.210  0.328 C13 HGH 10
-HGH  N1  N1 N 0 1 N N N  2.155  -5.699 -28.745  2.579  3.021  0.934  N1 HGH 11
-HGH  N2  N2 N 0 1 Y N N  0.612  -5.995 -27.059  1.553  1.054  0.203  N2 HGH 12
-HGH  C3 C11 C 0 1 Y N N -0.982  -7.579 -25.224 -0.686 -0.120 -0.665  C3 HGH 13
-HGH  N3  N3 N 0 1 Y N N -1.354  -3.330 -25.471  3.188 -2.187 -0.349  N3 HGH 14
-HGH  C1 C12 C 0 1 Y N N  1.261  -5.150 -27.905  2.656  1.681  0.593  C1 HGH 15
-HGH  C2 C13 C 0 1 Y N N -0.276  -5.474 -26.218  1.576 -0.229 -0.134  C2 HGH 16
-HGH  O1  O1 O 0 1 N N N -1.005  -6.195 -25.313  0.442 -0.863 -0.519  O1 HGH 17
-HGH  O2  O2 O 0 1 N N N -3.211  -8.917 -21.743 -4.731 -1.297 -0.427  O2 HGH 18
-HGH  O3  O3 O 0 1 N N N -2.380 -10.354 -20.363 -6.040 -1.009  1.329  O3 HGH 19
-HGH  N4  N4 N 0 1 Y N N -0.233  -2.065 -26.967  4.978 -1.109  0.284  N4 HGH 20
-HGH  N5  N5 N 0 1 Y N N  1.080  -3.825 -28.012  3.829  1.073  0.655  N5 HGH 21
-HGH  H1  H1 H 0 1 N N N -0.979  -8.017 -27.310  0.008  0.871 -2.434  H1 HGH 22
-HGH  H2  H2 H 0 1 N N N -1.252 -10.428 -26.915 -2.036  2.218 -2.693  H2 HGH 23
-HGH  H3  H3 H 0 1 N N N -1.281 -11.319 -24.641 -3.880  1.982 -1.081  H3 HGH 24
-HGH  H4  H4 H 0 1 N N N -0.996 -11.043 -22.379 -3.603  0.090  2.053  H4 HGH 25
-HGH  H5  H5 H 0 1 N N N -0.251  -9.513 -21.804 -4.537  1.311  1.156  H5 HGH 26
-HGH  H6  H6 H 0 1 N N N -0.962  -7.372 -23.097 -1.641 -0.943  1.067  H6 HGH 27
-HGH  H7  H7 H 0 1 N N N -1.743  -1.278 -25.655  5.038 -3.209 -0.269  H7 HGH 28
-HGH  H8  H8 H 0 1 N N N  2.545  -4.987 -29.329  1.728  3.485  0.886  H8 HGH 29
-HGH  H9  H9 H 0 1 N N N  2.884  -6.134 -28.217  3.375  3.495  1.222  H9 HGH 30
-HGH H11 H11 H 0 1 N N N -3.184 -10.134 -19.908 -6.618 -1.704  0.986 H11 HGH 31
-HGH H12 H12 H 0 1 N N N  0.089  -1.247 -27.444  5.904 -0.930  0.511 H12 HGH 32
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+HGH C4  C1  C 0 1 Y N N -1.038 -8.408  -26.305 -0.799 0.771  -1.724 C4  HGH 1  
+HGH C5  C2  C 0 1 Y N N -1.172 -9.752  -26.077 -1.947 1.525  -1.870 C5  HGH 2  
+HGH C6  C3  C 0 1 Y N N -1.206 -10.253 -24.796 -2.983 1.392  -0.964 C6  HGH 3  
+HGH C11 C4  C 0 1 Y N N -0.548 -4.130  -26.234 2.799  -0.915 -0.084 C11 HGH 4  
+HGH C7  C5  C 0 1 Y N N -1.146 -9.413  -23.714 -2.873 0.506  0.091  C7  HGH 5  
+HGH C8  C6  C 0 1 N N N -1.126 -9.953  -22.305 -4.004 0.364  1.077  C8  HGH 6  
+HGH C9  C7  C 0 1 N N N -2.312 -9.711  -21.414 -4.951 -0.708 0.604  C9  HGH 7  
+HGH C10 C8  C 0 1 Y N N -1.024 -8.055  -23.932 -1.727 -0.251 0.242  C10 HGH 8  
+HGH C12 C9  C 0 1 Y N N -1.180 -2.139  -25.984 4.467  -2.302 -0.136 C12 HGH 9  
+HGH C13 C10 C 0 1 Y N N 0.174  -3.345  -27.153 3.943  -0.210 0.328  C13 HGH 10 
+HGH N1  N1  N 0 1 N N N 2.155  -5.699  -28.745 2.579  3.021  0.934  N1  HGH 11 
+HGH N2  N2  N 0 1 Y N N 0.612  -5.995  -27.059 1.553  1.054  0.203  N2  HGH 12 
+HGH C3  C11 C 0 1 Y N N -0.982 -7.579  -25.224 -0.686 -0.120 -0.665 C3  HGH 13 
+HGH N3  N3  N 0 1 Y N N -1.354 -3.330  -25.471 3.188  -2.187 -0.349 N3  HGH 14 
+HGH C1  C12 C 0 1 Y N N 1.261  -5.150  -27.905 2.656  1.681  0.593  C1  HGH 15 
+HGH C2  C13 C 0 1 Y N N -0.276 -5.474  -26.218 1.576  -0.229 -0.134 C2  HGH 16 
+HGH O1  O1  O 0 1 N N N -1.005 -6.195  -25.313 0.442  -0.863 -0.519 O1  HGH 17 
+HGH O2  O2  O 0 1 N N N -3.211 -8.917  -21.743 -4.731 -1.297 -0.427 O2  HGH 18 
+HGH O3  O3  O 0 1 N N N -2.380 -10.354 -20.363 -6.040 -1.009 1.329  O3  HGH 19 
+HGH N4  N4  N 0 1 Y N N -0.233 -2.065  -26.967 4.978  -1.109 0.284  N4  HGH 20 
+HGH N5  N5  N 0 1 Y N N 1.080  -3.825  -28.012 3.829  1.073  0.655  N5  HGH 21 
+HGH H1  H1  H 0 1 N N N -0.979 -8.017  -27.310 0.008  0.871  -2.434 H1  HGH 22 
+HGH H2  H2  H 0 1 N N N -1.252 -10.428 -26.915 -2.036 2.218  -2.693 H2  HGH 23 
+HGH H3  H3  H 0 1 N N N -1.281 -11.319 -24.641 -3.880 1.982  -1.081 H3  HGH 24 
+HGH H4  H4  H 0 1 N N N -0.996 -11.043 -22.379 -3.603 0.090  2.053  H4  HGH 25 
+HGH H5  H5  H 0 1 N N N -0.251 -9.513  -21.804 -4.537 1.311  1.156  H5  HGH 26 
+HGH H6  H6  H 0 1 N N N -0.962 -7.372  -23.097 -1.641 -0.943 1.067  H6  HGH 27 
+HGH H7  H7  H 0 1 N N N -1.743 -1.278  -25.655 5.038  -3.209 -0.269 H7  HGH 28 
+HGH H8  H8  H 0 1 N N N 2.545  -4.987  -29.329 1.728  3.485  0.886  H8  HGH 29 
+HGH H9  H9  H 0 1 N N N 2.884  -6.134  -28.217 3.375  3.495  1.222  H9  HGH 30 
+HGH H11 H11 H 0 1 N N N -3.184 -10.134 -19.908 -6.618 -1.704 0.986  H11 HGH 31 
+HGH H12 H12 H 0 1 N N N 0.089  -1.247  -27.444 5.904  -0.930 0.511  H12 HGH 32 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-HGH  N1  C1 SING N N  1
-HGH  N5  C1 DOUB Y N  2
-HGH  N5 C13 SING Y N  3
-HGH  C1  N2 SING Y N  4
-HGH C13  N4 SING Y N  5
-HGH C13 C11 DOUB Y N  6
-HGH  N2  C2 DOUB Y N  7
-HGH  N4 C12 SING Y N  8
-HGH  C4  C5 DOUB Y N  9
-HGH  C4  C3 SING Y N 10
-HGH C11  C2 SING Y N 11
-HGH C11  N3 SING Y N 12
-HGH  C2  O1 SING N N 13
-HGH  C5  C6 SING Y N 14
-HGH C12  N3 DOUB Y N 15
-HGH  O1  C3 SING N N 16
-HGH  C3 C10 DOUB Y N 17
-HGH  C6  C7 DOUB Y N 18
-HGH C10  C7 SING Y N 19
-HGH  C7  C8 SING N N 20
-HGH  C8  C9 SING N N 21
-HGH  O2  C9 DOUB N N 22
-HGH  C9  O3 SING N N 23
-HGH  C4  H1 SING N N 24
-HGH  C5  H2 SING N N 25
-HGH  C6  H3 SING N N 26
-HGH  C8  H4 SING N N 27
-HGH  C8  H5 SING N N 28
-HGH C10  H6 SING N N 29
-HGH C12  H7 SING N N 30
-HGH  N1  H8 SING N N 31
-HGH  N1  H9 SING N N 32
-HGH  O3 H11 SING N N 33
-HGH  N4 H12 SING N N 34
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+HGH N1  C1  SING N N 1  
+HGH N5  C1  DOUB Y N 2  
+HGH N5  C13 SING Y N 3  
+HGH C1  N2  SING Y N 4  
+HGH C13 N4  SING Y N 5  
+HGH C13 C11 DOUB Y N 6  
+HGH N2  C2  DOUB Y N 7  
+HGH N4  C12 SING Y N 8  
+HGH C4  C5  DOUB Y N 9  
+HGH C4  C3  SING Y N 10 
+HGH C11 C2  SING Y N 11 
+HGH C11 N3  SING Y N 12 
+HGH C2  O1  SING N N 13 
+HGH C5  C6  SING Y N 14 
+HGH C12 N3  DOUB Y N 15 
+HGH O1  C3  SING N N 16 
+HGH C3  C10 DOUB Y N 17 
+HGH C6  C7  DOUB Y N 18 
+HGH C10 C7  SING Y N 19 
+HGH C7  C8  SING N N 20 
+HGH C8  C9  SING N N 21 
+HGH O2  C9  DOUB N N 22 
+HGH C9  O3  SING N N 23 
+HGH C4  H1  SING N N 24 
+HGH C5  H2  SING N N 25 
+HGH C6  H3  SING N N 26 
+HGH C8  H4  SING N N 27 
+HGH C8  H5  SING N N 28 
+HGH C10 H6  SING N N 29 
+HGH C12 H7  SING N N 30 
+HGH N1  H8  SING N N 31 
+HGH N1  H9  SING N N 32 
+HGH O3  H11 SING N N 33 
+HGH N4  H12 SING N N 34 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-HGH            InChI                InChI  1.03 InChI=1S/C13H11N5O3/c14-13-17-11-10(15-6-16-11)12(18-13)21-8-3-1-2-7(4-8)5-9(19)20/h1-4,6H,5H2,(H,19,20)(H3,14,15,16,17,18)
-HGH         InChIKey                InChI  1.03                                                                                                 BLWZOYNPKKUDEW-UHFFFAOYSA-N
-HGH SMILES_CANONICAL               CACTVS 3.385                                                                                       Nc1nc2[nH]cnc2c(Oc3cccc(CC(O)=O)c3)n1
-HGH           SMILES               CACTVS 3.385                                                                                       Nc1nc2[nH]cnc2c(Oc3cccc(CC(O)=O)c3)n1
-HGH SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                   c1cc(cc(c1)Oc2c3c([nH]cn3)nc(n2)N)CC(=O)O
-HGH           SMILES "OpenEye OEToolkits" 2.0.6                                                                                   c1cc(cc(c1)Oc2c3c([nH]cn3)nc(n2)N)CC(=O)O
-#
-_pdbx_chem_comp_identifier.comp_id               HGH
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.6
-_pdbx_chem_comp_identifier.identifier            "2-[3-[(2-azanyl-9~{H}-purin-6-yl)oxy]phenyl]ethanoic acid"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+HGH InChI            InChI                1.03  "InChI=1S/C13H11N5O3/c14-13-17-11-10(15-6-16-11)12(18-13)21-8-3-1-2-7(4-8)5-9(19)20/h1-4,6H,5H2,(H,19,20)(H3,14,15,16,17,18)" 
+HGH InChIKey         InChI                1.03  BLWZOYNPKKUDEW-UHFFFAOYSA-N                                                                                                   
+HGH SMILES_CANONICAL CACTVS               3.385 "Nc1nc2[nH]cnc2c(Oc3cccc(CC(O)=O)c3)n1"                                                                                       
+HGH SMILES           CACTVS               3.385 "Nc1nc2[nH]cnc2c(Oc3cccc(CC(O)=O)c3)n1"                                                                                       
+HGH SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "c1cc(cc(c1)Oc2c3c([nH]cn3)nc(n2)N)CC(=O)O"                                                                                   
+HGH SMILES           "OpenEye OEToolkits" 2.0.6 "c1cc(cc(c1)Oc2c3c([nH]cn3)nc(n2)N)CC(=O)O"                                                                                   
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-HGH "Create component" 2018-12-06  EBI
-HGH  "Initial release" 2019-03-20 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+HGH "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "2-[3-[(2-azanyl-9~{H}-purin-6-yl)oxy]phenyl]ethanoic acid" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-HGH  C4 C  5.598 -0.892  1
-HGH  C5 C  4.299 -0.142  2
-HGH  C6 C  4.299  1.357  3
-HGH C11 C  9.495 -3.143  4
-HGH  C7 C  5.598  2.107  5
-HGH  C8 C  5.598  3.607  6
-HGH  C9 C  4.299  4.357  7
-HGH C10 C  6.897  1.357  8
-HGH C12 C 11.790 -3.893  9
-HGH C13 C  9.495 -4.643 10
-HGH  N1 N  5.598 -5.393 11
-HGH  N2 N  6.897 -3.143 12
-HGH  C3 C  6.897 -0.142 13
-HGH  N3 N 10.915 -2.685 14
-HGH  C1 C  6.897 -4.643 15
-HGH  C2 C  8.196 -2.393 16
-HGH  O1 O  8.196 -0.892 17
-HGH  O2 O  4.299  5.857 18
-HGH  O3 O  3.000  3.607 19
-HGH  N4 N 10.915 -5.100 20
-HGH  N5 N  8.196 -5.393 21
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-HGH  N1  C1 SINGLE NONE  1
-HGH  N5  C1 SINGLE NONE  2
-HGH  N5 C13 DOUBLE NONE  3
-HGH  C1  N2 DOUBLE NONE  4
-HGH C13  N4 SINGLE NONE  5
-HGH C13 C11 SINGLE NONE  6
-HGH  N2  C2 SINGLE NONE  7
-HGH  N4 C12 SINGLE NONE  8
-HGH  C4  C5 DOUBLE NONE  9
-HGH  C4  C3 SINGLE NONE 10
-HGH C11  C2 DOUBLE NONE 11
-HGH C11  N3 SINGLE NONE 12
-HGH  C2  O1 SINGLE NONE 13
-HGH  C5  C6 SINGLE NONE 14
-HGH C12  N3 DOUBLE NONE 15
-HGH  O1  C3 SINGLE NONE 16
-HGH  C3 C10 DOUBLE NONE 17
-HGH  C6  C7 DOUBLE NONE 18
-HGH C10  C7 SINGLE NONE 19
-HGH  C7  C8 SINGLE NONE 20
-HGH  C8  C9 SINGLE NONE 21
-HGH  O2  C9 DOUBLE NONE 22
-HGH  C9  O3 SINGLE NONE 23
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-HGH MurckoScaffold S1 scaffold c1ccc(Oc2ncnc3[nH]cnc23)cc1 InChI=1S/C11H8N4O/c1-2-4-8(5-3-1)16-11-9-10(13-6-12-9)14-7-15-11/h1-7H,(H,12,13,14,15) QUFBIKHKPIVLBM-UHFFFAOYSA-N
-HGH        guanine F1 fragment        Nc1nc(O)c2[nH]cnc2n1                   InChI=1S/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11) UYTPUPDQBNUYGX-UHFFFAOYSA-N
-HGH      imidazole F2 fragment                  c1c[nH]cn1                                             InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-HGH        inosine F3 fragment           Oc1ncnc2nc[nH]c12                       InChI=1S/C5H4N4O/c10-5-3-4(7-1-6-3)8-2-9-5/h1-2H,(H2,6,7,8,9,10) FDGQSTZJBFJUBT-UHFFFAOYSA-N
-HGH         phenyl F4 fragment                    c1ccccc1                                                     InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-HGH         purine F5 fragment            c1ncc2[nH]cnc2n1                               InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-HGH     pyrimidine F6 fragment                    c1cncnc1                                                   InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-HGH  C1 F1 1
-HGH  N2 F1 1
-HGH  C2 F1 1
-HGH C11 F1 1
-HGH C13 F1 1
-HGH  N5 F1 1
-HGH  N4 F1 1
-HGH C12 F1 1
-HGH  N3 F1 1
-HGH  O1 F1 1
-HGH  N1 F1 1
-HGH C11 F2 1
-HGH C13 F2 1
-HGH  N4 F2 1
-HGH C12 F2 1
-HGH  N3 F2 1
-HGH  C1 F3 1
-HGH  N2 F3 1
-HGH  C2 F3 1
-HGH C11 F3 1
-HGH C13 F3 1
-HGH  N5 F3 1
-HGH  N4 F3 1
-HGH C12 F3 1
-HGH  N3 F3 1
-HGH  O1 F3 1
-HGH  C4 F4 1
-HGH  C5 F4 1
-HGH  C6 F4 1
-HGH  C7 F4 1
-HGH C10 F4 1
-HGH  C3 F4 1
-HGH  N3 F5 1
-HGH C12 F5 1
-HGH  N4 F5 1
-HGH C13 F5 1
-HGH C11 F5 1
-HGH  C2 F5 1
-HGH  N2 F5 1
-HGH  C1 F5 1
-HGH  N5 F5 1
-HGH C11 F6 1
-HGH C13 F6 1
-HGH  N5 F6 1
-HGH  C1 F6 1
-HGH  N2 F6 1
-HGH  C2 F6 1
-HGH  C4 S1 1
-HGH  C5 S1 1
-HGH  C6 S1 1
-HGH C11 S1 1
-HGH  C7 S1 1
-HGH C10 S1 1
-HGH C12 S1 1
-HGH C13 S1 1
-HGH  N2 S1 1
-HGH  C3 S1 1
-HGH  N3 S1 1
-HGH  C1 S1 1
-HGH  C2 S1 1
-HGH  O1 S1 1
-HGH  N4 S1 1
-HGH  N5 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               HGH
-_pdbe_chem_comp_rdkit_properties.exactmw                               285.086
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                7
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        8
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.077
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             133.893
-_pdbe_chem_comp_rdkit_properties.tpsa                                  127.010
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.434
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             69.436
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         21
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-HGH  C4 -0.574  0.258  1.160 ETKDGv2  1
-HGH  C5 -1.655 -0.195  1.805 ETKDGv2  2
-HGH  C6 -2.829 -0.667  1.045 ETKDGv2  3
-HGH C11  2.400 -0.264  0.133 ETKDGv2  4
-HGH  C7 -2.818 -0.649 -0.299 ETKDGv2  5
-HGH  C8 -4.024 -1.090 -1.083 ETKDGv2  6
-HGH  C9 -4.988  0.043 -1.241 ETKDGv2  7
-HGH C10 -1.622 -0.132 -1.010 ETKDGv2  8
-HGH C12  2.827 -2.210  0.995 ETKDGv2  9
-HGH C13  3.768 -0.258  0.503 ETKDGv2 10
-HGH  N1  4.898  2.900 -0.924 ETKDGv2 11
-HGH  N2  2.780  1.832 -0.911 ETKDGv2 12
-HGH  C3 -0.545  0.280 -0.326 ETKDGv2 13
-HGH  N3  1.846 -1.533  0.458 ETKDGv2 14
-HGH  C1  4.048  1.814 -0.565 ETKDGv2 15
-HGH  C2  1.886  0.748 -0.572 ETKDGv2 16
-HGH  O1  0.564  0.764 -1.035 ETKDGv2 17
-HGH  O2 -4.667  1.057 -1.917 ETKDGv2 18
-HGH  O3 -6.242 -0.025 -0.642 ETKDGv2 19
-HGH  N4  4.082 -1.509  1.073 ETKDGv2 20
-HGH  N5  4.590  0.684  0.160 ETKDGv2 21
-HGH  H1  0.269  0.625  1.731 ETKDGv2 22
-HGH  H2 -1.677 -0.204  2.888 ETKDGv2 23
-HGH  H3 -3.700 -1.019  1.586 ETKDGv2 24
-HGH  H4 -4.524 -1.937 -0.565 ETKDGv2 25
-HGH  H5 -3.718 -1.453 -2.087 ETKDGv2 26
-HGH  H6 -1.615 -0.098 -2.093 ETKDGv2 27
-HGH  H7  2.704 -3.229  1.338 ETKDGv2 28
-HGH  H8  4.521  3.718 -1.453 ETKDGv2 29
-HGH  H9  5.907  2.887 -0.658 ETKDGv2 30
-HGH H11 -6.906  0.734 -0.740 ETKDGv2 31
-HGH H12  5.012 -1.873  1.374 ETKDGv2 32
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+HGH "Create component" 2018-12-06 EBI  
+HGH "Initial release"  2019-03-20 RCSB 
+# 

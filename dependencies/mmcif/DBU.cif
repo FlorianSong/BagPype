@@ -1,256 +1,118 @@
 data_DBU
-#
-_chem_comp.id                                        DBU
-_chem_comp.name                                      "(2Z)-2-AMINOBUT-2-ENOIC ACID"
-_chem_comp.type                                      "PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C4 H7 N O2"
-_chem_comp.mon_nstd_parent_comp_id                   THR
-_chem_comp.pdbx_synonyms                             Z-DEHYDROBUTYRINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2004-03-16
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            101.104
-_chem_comp.one_letter_code                           T
-_chem_comp.three_letter_code                         DBU
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       Y
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    DBU 
+_chem_comp.name                                  "(2Z)-2-AMINOBUT-2-ENOIC ACID" 
+_chem_comp.type                                  "PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C4 H7 N O2" 
+_chem_comp.mon_nstd_parent_comp_id               THR 
+_chem_comp.pdbx_synonyms                         Z-DEHYDROBUTYRINE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2004-03-16 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        101.104 
+_chem_comp.one_letter_code                       T 
+_chem_comp.three_letter_code                     DBU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-DBU   N   N N 0 1 N N N  0.370 21.917 6.620 0.897  2.171 -1.353   N DBU  1
-DBU  CA  CA C 0 1 N N N -0.171 23.187 6.670 2.034  1.474 -1.063  CA DBU  2
-DBU  CB  CB C 0 1 N N N  0.511 24.230 6.180 2.118  0.311 -0.392  CB DBU  3
-DBU  CG  CG C 0 1 N N N  1.866 23.988 5.602 0.973 -0.465  0.179  CG DBU  4
-DBU   C   C C 0 1 N N N -1.563 23.412 7.240 3.331  2.048 -1.531   C DBU  5
-DBU   O   O O 0 1 N N N -1.783 24.276 8.088 4.435  1.555 -1.357   O DBU  6
-DBU OXT OXT O 0 1 N Y N      ?      ?     ? 3.131  3.215 -2.192 OXT DBU  7
-DBU   H   H H 0 1 N N N -0.149 21.123 6.993 0.983  3.094 -1.718  H1 DBU  8
-DBU  H2  H2 H 0 1 N Y N  1.286 21.940 7.067 0.016  1.735 -1.190  H2 DBU  9
-DBU  HB 1HB H 0 1 N N N -0.022 25.142 5.956 3.088 -0.152 -0.221 HB1 DBU 10
-DBU HG1 1HG H 0 1 N N N  2.615 24.111 6.366 0.000  0.000 -0.000 HG1 DBU 11
-DBU HG2 2HG H 0 1 N N N  2.041 24.695 4.802 1.102 -0.569  1.261 HG2 DBU 12
-DBU HG3 3HG H 0 1 N N N  1.922 22.983 5.214 0.952 -1.467 -0.260 HG3 DBU 13
-DBU HXT HXT H 0 1 N Y N      ?      ?     ? 3.973  3.607 -2.507 HXT DBU 14
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+DBU N   N   N 0 1 N N N 0.370  21.917 6.620 0.897 2.171  -1.353 N   DBU 1  
+DBU CA  CA  C 0 1 N N N -0.171 23.187 6.670 2.034 1.474  -1.063 CA  DBU 2  
+DBU CB  CB  C 0 1 N N N 0.511  24.230 6.180 2.118 0.311  -0.392 CB  DBU 3  
+DBU CG  CG  C 0 1 N N N 1.866  23.988 5.602 0.973 -0.465 0.179  CG  DBU 4  
+DBU C   C   C 0 1 N N N -1.563 23.412 7.240 3.331 2.048  -1.531 C   DBU 5  
+DBU O   O   O 0 1 N N N -1.783 24.276 8.088 4.435 1.555  -1.357 O   DBU 6  
+DBU OXT OXT O 0 1 N Y N ?      ?      ?     3.131 3.215  -2.192 OXT DBU 7  
+DBU H   H   H 0 1 N N N -0.149 21.123 6.993 0.983 3.094  -1.718 H1  DBU 8  
+DBU H2  H2  H 0 1 N Y N 1.286  21.940 7.067 0.016 1.735  -1.190 H2  DBU 9  
+DBU HB  1HB H 0 1 N N N -0.022 25.142 5.956 3.088 -0.152 -0.221 HB1 DBU 10 
+DBU HG1 1HG H 0 1 N N N 2.615  24.111 6.366 0.000 0.000  -0.000 HG1 DBU 11 
+DBU HG2 2HG H 0 1 N N N 2.041  24.695 4.802 1.102 -0.569 1.261  HG2 DBU 12 
+DBU HG3 3HG H 0 1 N N N 1.922  22.983 5.214 0.952 -1.467 -0.260 HG3 DBU 13 
+DBU HXT HXT H 0 1 N Y N ?      ?      ?     3.973 3.607  -2.507 HXT DBU 14 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-DBU   N  CA SING N N  1
-DBU   N   H SING N N  2
-DBU   N  H2 SING N N  3
-DBU  CA  CB DOUB N Z  4
-DBU  CA   C SING N N  5
-DBU  CB  CG SING N N  6
-DBU  CB  HB SING N N  7
-DBU  CG HG1 SING N N  8
-DBU  CG HG2 SING N N  9
-DBU  CG HG3 SING N N 10
-DBU   C   O DOUB N N 11
-DBU   C OXT SING N N 12
-DBU OXT HXT SING N N 13
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+DBU N   CA  SING N N 1  
+DBU N   H   SING N N 2  
+DBU N   H2  SING N N 3  
+DBU CA  CB  DOUB N Z 4  
+DBU CA  C   SING N N 5  
+DBU CB  CG  SING N N 6  
+DBU CB  HB  SING N N 7  
+DBU CG  HG1 SING N N 8  
+DBU CG  HG2 SING N N 9  
+DBU CG  HG3 SING N N 10 
+DBU C   O   DOUB N N 11 
+DBU C   OXT SING N N 12 
+DBU OXT HXT SING N N 13 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-DBU           SMILES              ACDLabs 10.04                                           O=C(O)C(=C/C)/N
-DBU SMILES_CANONICAL               CACTVS 3.341                                           C\C=C(/N)C(O)=O
-DBU           SMILES               CACTVS 3.341                                             CC=C(N)C(O)=O
-DBU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                          C\C=C(\C(=O)O)/N
-DBU           SMILES "OpenEye OEToolkits" 1.5.0                                             CC=C(C(=O)O)N
-DBU            InChI                InChI  1.03 InChI=1S/C4H7NO2/c1-2-3(5)4(6)7/h2H,5H2,1H3,(H,6,7)/b3-2-
-DBU         InChIKey                InChI  1.03                               PAWSVPVNIXFKOS-IHWYPQMZSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+DBU SMILES           ACDLabs              10.04 "O=C(O)C(=C/C)/N"                                           
+DBU SMILES_CANONICAL CACTVS               3.341 "C\C=C(/N)C(O)=O"                                           
+DBU SMILES           CACTVS               3.341 "CC=C(N)C(O)=O"                                             
+DBU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C\C=C(\C(=O)O)/N"                                          
+DBU SMILES           "OpenEye OEToolkits" 1.5.0 "CC=C(C(=O)O)N"                                             
+DBU InChI            InChI                1.03  "InChI=1S/C4H7NO2/c1-2-3(5)4(6)7/h2H,5H2,1H3,(H,6,7)/b3-2-" 
+DBU InChIKey         InChI                1.03  PAWSVPVNIXFKOS-IHWYPQMZSA-N                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-DBU "SYSTEMATIC NAME"              ACDLabs 10.04 "(2Z)-2-aminobut-2-enoic acid"
-DBU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0  "(Z)-2-aminobut-2-enoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+DBU "SYSTEMATIC NAME" ACDLabs              10.04 "(2Z)-2-aminobut-2-enoic acid" 
+DBU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(Z)-2-aminobut-2-enoic acid"  
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-DBU              "Create component" 2004-03-16  EBI
-DBU         "Modify parent residue" 2011-01-07  EBI
-DBU "Modify model coordinates code" 2011-01-12  EBI
-DBU "Modify model coordinates code" 2011-01-20  EBI
-DBU                   "Modify name" 2011-02-09  EBI
-DBU             "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   DBU
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03720
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Z-Dehydrobutyrine
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           DBU
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03720
-_pdbe_chem_comp_drugbank_classification.parent            "Alpha amino acids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alpha amino acids. These are amino acids in which the amino group is attached to the carbon atom immediately adjacent to the carboxylate group (alpha carbon)."
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-DBU   N N 3.805  0.750 1
-DBU  CA C 5.104  0.000 2
-DBU  CB C 5.104 -1.500 3
-DBU  CG C 3.805 -2.250 4
-DBU   C C 6.404  0.750 5
-DBU   O O 7.702  0.000 6
-DBU OXT O 6.404  2.250 7
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-DBU  N  CA SINGLE NONE 1
-DBU CA  CB DOUBLE NONE 2
-DBU CA   C SINGLE NONE 3
-DBU CB  CG SINGLE NONE 4
-DBU  C   O DOUBLE NONE 5
-DBU  C OXT SINGLE NONE 6
-#
-_pdbe_chem_comp_substructure.comp_id                      DBU
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-DBU  O F1 1
-DBU  C F1 1
-DBU CA F1 1
-DBU  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               DBU
-_pdbe_chem_comp_rdkit_properties.exactmw                               101.048
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.250
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             51.478
-_pdbe_chem_comp_rdkit_properties.tpsa                                  63.320
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.067
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             25.580
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-DBU UniChem        ChEMBL CHEMBL1232128
-DBU UniChem      DrugBank       DB03720
-DBU UniChem "KEGG LIGAND"        C17234
-DBU UniChem         ChEBI         18820
-DBU UniChem        BRENDA        172751
-DBU UniChem        BRENDA         90066
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DBU   N  0.663 -1.279 -1.388 ETKDGv2  1
-DBU  CA  0.203 -0.348 -0.397 ETKDGv2  2
-DBU  CB -0.879 -0.685  0.336 ETKDGv2  3
-DBU  CG -1.496  0.160  1.410 ETKDGv2  4
-DBU   C  0.947  0.931 -0.240 ETKDGv2  5
-DBU   O  0.604  1.798  0.608 ETKDGv2  6
-DBU OXT  2.052  1.184 -1.047 ETKDGv2  7
-DBU   H  1.494 -1.070 -1.983 ETKDGv2  8
-DBU  H2  0.178 -2.192 -1.541 ETKDGv2  9
-DBU  HB -1.355 -1.640  0.149 ETKDGv2 10
-DBU HG1 -0.765  0.340  2.226 ETKDGv2 11
-DBU HG2 -1.850  1.123  0.986 ETKDGv2 12
-DBU HG3 -2.371 -0.369  1.841 ETKDGv2 13
-DBU HXT  2.576  2.047 -0.959 ETKDGv2 14
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+DBU "Create component"              2004-03-16 EBI  
+DBU "Modify parent residue"         2011-01-07 EBI  
+DBU "Modify model coordinates code" 2011-01-12 EBI  
+DBU "Modify model coordinates code" 2011-01-20 EBI  
+DBU "Modify name"                   2011-02-09 EBI  
+DBU "Modify descriptor"             2011-06-04 RCSB 
+# 

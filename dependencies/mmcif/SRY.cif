@@ -1,584 +1,252 @@
 data_SRY
-#
-_chem_comp.id                                        SRY
-_chem_comp.name                                      STREPTOMYCIN
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C21 H39 N7 O12"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             "STREPTOMYCIN A"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2000-08-25
-_chem_comp.pdbx_modified_date                        2012-01-05
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            581.574
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         SRY
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1NTA
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    SRY 
+_chem_comp.name                                  STREPTOMYCIN 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C21 H39 N7 O12" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "STREPTOMYCIN A" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2000-08-25 
+_chem_comp.pdbx_modified_date                    2012-01-05 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        581.574 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     SRY 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1NTA 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-SRY  C11  C11 C 0 1 N N R  6.651 34.161 -1.203 -4.507  0.184 -0.242  C11 SRY  1
-SRY  N11  N11 N 0 1 N N N  7.760 33.416 -0.486 -5.686  0.670 -0.963  N11 SRY  2
-SRY  CA1  CA1 C 0 1 N N N  8.902 33.432 -1.157 -6.824 -0.099 -1.017  CA1 SRY  3
-SRY  NB1  NB1 N 0 1 N N N  9.591 34.506 -1.048 -6.856 -1.324 -0.394  NB1 SRY  4
-SRY  NC1  NC1 N 0 1 N N N  9.292 32.429 -1.867 -7.873  0.334 -1.659  NC1 SRY  5
-SRY  C21  C21 C 0 1 N N R  5.865 35.030 -0.203 -3.657  1.374  0.207  C21 SRY  6
-SRY  O21  O21 O 0 1 N N N  6.753 35.981  0.302 -4.429  2.213  1.068  O21 SRY  7
-SRY  C31  C31 C 0 1 N N S  4.712 35.791 -0.871 -2.425  0.866  0.961  C31 SRY  8
-SRY  N31  N31 N 0 1 N N N  3.930 36.635  0.064 -1.611  2.006  1.390  N31 SRY  9
-SRY  CD1  CD1 C 0 1 N N N  3.954 36.163  1.265 -1.902  2.653  2.568  CD1 SRY 10
-SRY  NE1  NE1 N 0 1 N N N  4.748 35.211  1.681 -1.138  3.722  2.971  NE1 SRY 11
-SRY  NF1  NF1 N 0 1 N N N  3.107 36.677  2.068 -2.902  2.252  3.302  NF1 SRY 12
-SRY  C41  C41 C 0 1 N N R  3.786 34.772 -1.516 -1.599 -0.033  0.039  C41 SRY 13
-SRY  O41  O41 O 0 1 N N N  2.724 35.481 -2.135 -0.449 -0.507  0.743  O41 SRY 14
-SRY  C51  C51 C 0 1 N N R  4.566 33.922 -2.559 -2.449 -1.223 -0.410  C51 SRY 15
-SRY  O51  O51 O 0 1 N N N  3.679 32.980 -3.160 -1.676 -2.063 -1.270  O51 SRY 16
-SRY  C61  C61 C 0 1 N N S  5.708 33.167 -1.847 -3.680 -0.715 -1.163  C61 SRY 17
-SRY  O61  O61 O 0 1 N N N  6.441 32.374 -2.795 -4.474 -1.827 -1.582  O61 SRY 18
-SRY  C12  C12 C 0 1 N N R  1.451 35.087 -1.593  0.684 -0.752 -0.093  C12 SRY 19
-SRY  C22  C22 C 0 1 N N S  0.436 36.009 -2.260  1.910 -1.140  0.763  C22 SRY 20
-SRY  C32  C32 C 0 1 N N S -0.011 35.173 -3.379  1.893 -2.684  0.766  C32 SRY 21
-SRY  O32  O32 O 0 1 N N N -1.371 34.816 -3.124  3.085 -3.200  0.168  O32 SRY 22
-SRY  CG2  CG2 C 0 1 N N N  0.141 35.947 -4.661  1.739 -3.208  2.170  CG2 SRY 23
-SRY  OG2  OG2 O 0 1 N N N -0.096 35.511 -5.766  0.791 -3.898  2.457  OG2 SRY 24
-SRY  C42  C42 C 0 1 N N S  0.795 33.946 -3.401  0.659 -3.048 -0.089  C42 SRY 25
-SRY  CH2  CH2 C 0 1 N N N  0.177 32.698 -3.951  0.943 -4.291 -0.935  CH2 SRY 26
-SRY  O42  O42 O 0 1 N N N  1.203 33.777 -2.049  0.447 -1.899 -0.938  O42 SRY 27
-SRY  O13  O13 O 0 1 N N N -0.430 36.466 -1.371  3.113 -0.653  0.163  O13 SRY 28
-SRY  C13  C13 C 0 1 N N S  0.183 37.124 -0.318  3.562  0.596  0.692  C13 SRY 29
-SRY  C23  C23 C 0 1 N N S  0.101 38.634 -0.362  5.014  0.837  0.271  C23 SRY 30
-SRY  N23  N23 N 0 1 N N N  0.622 39.082 -1.607  5.851 -0.276  0.739  N23 SRY 31
-SRY  CI3  CI3 C 0 1 N N N  2.032 39.369 -1.403  6.284 -0.061  2.126  CI3 SRY 32
-SRY  C33  C33 C 0 1 N N S -1.212 39.067 -0.241  5.087  0.925 -1.257  C33 SRY 33
-SRY  O33  O33 O 0 1 N N N -1.183 40.450  0.007  6.426  1.222 -1.655  O33 SRY 34
-SRY  C43  C43 C 0 1 N N R -1.892 38.365  0.905  4.150  2.037 -1.738  C43 SRY 35
-SRY  O43  O43 O 0 1 N N N -3.262 38.635  0.854  4.155  2.081 -3.166  O43 SRY 36
-SRY  C53  C53 C 0 1 N N S -1.700 36.892  0.779  2.731  1.750 -1.240  C53 SRY 37
-SRY  O53  O53 O 0 1 N N N -0.327 36.633  0.835  2.740  1.650  0.186  O53 SRY 38
-SRY  C63  C63 C 0 1 N N N -2.366 36.138  1.947  1.801  2.888 -1.665  C63 SRY 39
-SRY  O63  O63 O 0 1 N N N -2.278 36.930  3.126  0.457  2.566 -1.302  O63 SRY 40
-SRY  H11  H11 H 0 1 N N N  7.096 34.807 -1.974 -4.825 -0.386  0.632  H11 SRY 41
-SRY HN11 1HN1 H 0 0 N N N  7.642 32.962  0.397 -5.663  1.534 -1.403 HN11 SRY 42
-SRY HB11 1HB1 H 0 0 N N N 10.434 34.440 -1.581 -6.076 -1.646  0.084 HB11 SRY 43
-SRY HB12 2HB1 H 0 0 N N N  9.323 35.301 -0.504 -7.660 -1.866 -0.432 HB12 SRY 44
-SRY HC11 1HC1 H 0 0 N N N  8.623 31.687 -1.826 -7.850  1.198 -2.098 HC11 SRY 45
-SRY  H21  H21 H 0 1 N N N  5.442 34.373  0.571 -3.339  1.943 -0.666  H21 SRY 46
-SRY HO21 1HO2 H 0 0 N N N  6.955 35.777  1.208 -5.227  2.572  0.655 HO21 SRY 47
-SRY  H31  H31 H 0 1 N N N  5.155 36.477 -1.608 -2.743  0.297  1.834  H31 SRY 48
-SRY HN31 1HN3 H 0 0 N N N  3.444 37.467 -0.203 -0.867  2.304  0.844 HN31 SRY 49
-SRY HE11 1HE1 H 0 0 N N N  4.611 34.989  2.646 -0.394  4.020  2.425 HE11 SRY 50
-SRY HE12 2HE1 H 0 0 N N N  5.420 34.755  1.097 -1.343  4.179  3.802 HE12 SRY 51
-SRY HF11 1HF1 H 0 0 N N N  2.549 37.386  1.637 -3.441  1.498  3.018 HF11 SRY 52
-SRY  H41  H41 H 0 1 N N N  3.385 34.081 -0.760 -1.281  0.536 -0.835  H41 SRY 53
-SRY  H51  H51 H 0 1 N N N  4.984 34.580 -3.335 -2.767 -1.792  0.464  H51 SRY 54
-SRY HO51 1HO5 H 0 0 N N N  3.482 33.252 -4.049 -2.153 -2.839 -1.594 HO51 SRY 55
-SRY  H61  H61 H 0 1 N N N  5.274 32.511 -1.078 -3.362 -0.146 -2.037  H61 SRY 56
-SRY HO61 1HO6 H 0 0 N N N  6.603 32.886 -3.579 -4.012 -2.440 -2.170 HO61 SRY 57
-SRY  H12  H12 H 0 1 N N N  1.409 35.136 -0.495  0.906  0.127 -0.698  H12 SRY 58
-SRY  H22  H22 H 0 1 N N N  0.778 36.974 -2.663  1.805 -0.754  1.777  H22 SRY 59
-SRY HO32 2HO3 H 0 0 N N N -1.508 34.737 -2.187  3.127 -4.165  0.144 HO32 SRY 60
-SRY HG21 1HG2 H 0 0 N N N  0.487 36.968 -4.590  2.477 -2.966  2.921 HG21 SRY 61
-SRY  H42  H42 H 0 1 N N N  1.611 34.087 -4.125 -0.209 -3.215  0.549  H42 SRY 62
-SRY HH21 1HH2 H 0 0 N N N  0.025 32.810 -5.035  1.181 -5.129 -0.280 HH21 SRY 63
-SRY HH22 2HH2 H 0 0 N N N  0.844 31.844 -3.761  0.064 -4.534 -1.531 HH22 SRY 64
-SRY HH23 3HH2 H 0 0 N N N -0.792 32.523 -3.462  1.788 -4.095 -1.596 HH23 SRY 65
-SRY  H13  H13 H 0 1 N N N  1.262 36.926 -0.395  3.497  0.575  1.780  H13 SRY 66
-SRY  H23  H23 H 0 1 N N N  0.682 39.044  0.477  5.370  1.770  0.708  H23 SRY 67
-SRY HN23 3HN2 H 0 0 N N N  0.510 38.374 -2.304  5.369 -1.157  0.643 HN23 SRY 68
-SRY HI31 1HI3 H 0 0 N N N  2.537 39.442 -2.378  6.862  0.861  2.188 HI31 SRY 69
-SRY HI32 2HI3 H 0 0 N N N  2.138 40.322 -0.864  5.410  0.014  2.772 HI32 SRY 70
-SRY HI33 3HI3 H 0 0 N N N  2.489 38.561 -0.813  6.903 -0.900  2.447 HI33 SRY 71
-SRY  H33  H33 H 0 1 N N N -1.770 38.844 -1.162  4.779 -0.026 -1.692  H33 SRY 72
-SRY HO33 3HO3 H 0 0 N N N -1.176 40.604  0.944  6.546  1.293 -2.612 HO33 SRY 73
-SRY  H43  H43 H 0 1 N N N -1.462 38.719  1.854  4.489  2.995 -1.343  H43 SRY 74
-SRY HO43 3HO4 H 0 0 N N N -3.606 38.696  1.737  3.582  2.764 -3.541 HO43 SRY 75
-SRY  H53  H53 H 0 1 N N N -2.151 36.556 -0.166  2.378  0.812 -1.668  H53 SRY 76
-SRY H631 1H63 H 0 0 N N N -3.423 35.949  1.708  2.101  3.809 -1.166 H631 SRY 77
-SRY H632 2H63 H 0 0 N N N -1.853 35.178  2.108  1.863  3.023 -2.745 H632 SRY 78
-SRY HO63 3HO6 H 0 0 N N N -2.258 36.363  3.888 -0.189  3.244 -1.543 HO63 SRY 79
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+SRY C11  C11  C 0 1 N N R 6.651  34.161 -1.203 -4.507 0.184  -0.242 C11  SRY 1  
+SRY N11  N11  N 0 1 N N N 7.760  33.416 -0.486 -5.686 0.670  -0.963 N11  SRY 2  
+SRY CA1  CA1  C 0 1 N N N 8.902  33.432 -1.157 -6.824 -0.099 -1.017 CA1  SRY 3  
+SRY NB1  NB1  N 0 1 N N N 9.591  34.506 -1.048 -6.856 -1.324 -0.394 NB1  SRY 4  
+SRY NC1  NC1  N 0 1 N N N 9.292  32.429 -1.867 -7.873 0.334  -1.659 NC1  SRY 5  
+SRY C21  C21  C 0 1 N N R 5.865  35.030 -0.203 -3.657 1.374  0.207  C21  SRY 6  
+SRY O21  O21  O 0 1 N N N 6.753  35.981 0.302  -4.429 2.213  1.068  O21  SRY 7  
+SRY C31  C31  C 0 1 N N S 4.712  35.791 -0.871 -2.425 0.866  0.961  C31  SRY 8  
+SRY N31  N31  N 0 1 N N N 3.930  36.635 0.064  -1.611 2.006  1.390  N31  SRY 9  
+SRY CD1  CD1  C 0 1 N N N 3.954  36.163 1.265  -1.902 2.653  2.568  CD1  SRY 10 
+SRY NE1  NE1  N 0 1 N N N 4.748  35.211 1.681  -1.138 3.722  2.971  NE1  SRY 11 
+SRY NF1  NF1  N 0 1 N N N 3.107  36.677 2.068  -2.902 2.252  3.302  NF1  SRY 12 
+SRY C41  C41  C 0 1 N N R 3.786  34.772 -1.516 -1.599 -0.033 0.039  C41  SRY 13 
+SRY O41  O41  O 0 1 N N N 2.724  35.481 -2.135 -0.449 -0.507 0.743  O41  SRY 14 
+SRY C51  C51  C 0 1 N N R 4.566  33.922 -2.559 -2.449 -1.223 -0.410 C51  SRY 15 
+SRY O51  O51  O 0 1 N N N 3.679  32.980 -3.160 -1.676 -2.063 -1.270 O51  SRY 16 
+SRY C61  C61  C 0 1 N N S 5.708  33.167 -1.847 -3.680 -0.715 -1.163 C61  SRY 17 
+SRY O61  O61  O 0 1 N N N 6.441  32.374 -2.795 -4.474 -1.827 -1.582 O61  SRY 18 
+SRY C12  C12  C 0 1 N N R 1.451  35.087 -1.593 0.684  -0.752 -0.093 C12  SRY 19 
+SRY C22  C22  C 0 1 N N S 0.436  36.009 -2.260 1.910  -1.140 0.763  C22  SRY 20 
+SRY C32  C32  C 0 1 N N S -0.011 35.173 -3.379 1.893  -2.684 0.766  C32  SRY 21 
+SRY O32  O32  O 0 1 N N N -1.371 34.816 -3.124 3.085  -3.200 0.168  O32  SRY 22 
+SRY CG2  CG2  C 0 1 N N N 0.141  35.947 -4.661 1.739  -3.208 2.170  CG2  SRY 23 
+SRY OG2  OG2  O 0 1 N N N -0.096 35.511 -5.766 0.791  -3.898 2.457  OG2  SRY 24 
+SRY C42  C42  C 0 1 N N S 0.795  33.946 -3.401 0.659  -3.048 -0.089 C42  SRY 25 
+SRY CH2  CH2  C 0 1 N N N 0.177  32.698 -3.951 0.943  -4.291 -0.935 CH2  SRY 26 
+SRY O42  O42  O 0 1 N N N 1.203  33.777 -2.049 0.447  -1.899 -0.938 O42  SRY 27 
+SRY O13  O13  O 0 1 N N N -0.430 36.466 -1.371 3.113  -0.653 0.163  O13  SRY 28 
+SRY C13  C13  C 0 1 N N S 0.183  37.124 -0.318 3.562  0.596  0.692  C13  SRY 29 
+SRY C23  C23  C 0 1 N N S 0.101  38.634 -0.362 5.014  0.837  0.271  C23  SRY 30 
+SRY N23  N23  N 0 1 N N N 0.622  39.082 -1.607 5.851  -0.276 0.739  N23  SRY 31 
+SRY CI3  CI3  C 0 1 N N N 2.032  39.369 -1.403 6.284  -0.061 2.126  CI3  SRY 32 
+SRY C33  C33  C 0 1 N N S -1.212 39.067 -0.241 5.087  0.925  -1.257 C33  SRY 33 
+SRY O33  O33  O 0 1 N N N -1.183 40.450 0.007  6.426  1.222  -1.655 O33  SRY 34 
+SRY C43  C43  C 0 1 N N R -1.892 38.365 0.905  4.150  2.037  -1.738 C43  SRY 35 
+SRY O43  O43  O 0 1 N N N -3.262 38.635 0.854  4.155  2.081  -3.166 O43  SRY 36 
+SRY C53  C53  C 0 1 N N S -1.700 36.892 0.779  2.731  1.750  -1.240 C53  SRY 37 
+SRY O53  O53  O 0 1 N N N -0.327 36.633 0.835  2.740  1.650  0.186  O53  SRY 38 
+SRY C63  C63  C 0 1 N N N -2.366 36.138 1.947  1.801  2.888  -1.665 C63  SRY 39 
+SRY O63  O63  O 0 1 N N N -2.278 36.930 3.126  0.457  2.566  -1.302 O63  SRY 40 
+SRY H11  H11  H 0 1 N N N 7.096  34.807 -1.974 -4.825 -0.386 0.632  H11  SRY 41 
+SRY HN11 1HN1 H 0 0 N N N 7.642  32.962 0.397  -5.663 1.534  -1.403 HN11 SRY 42 
+SRY HB11 1HB1 H 0 0 N N N 10.434 34.440 -1.581 -6.076 -1.646 0.084  HB11 SRY 43 
+SRY HB12 2HB1 H 0 0 N N N 9.323  35.301 -0.504 -7.660 -1.866 -0.432 HB12 SRY 44 
+SRY HC11 1HC1 H 0 0 N N N 8.623  31.687 -1.826 -7.850 1.198  -2.098 HC11 SRY 45 
+SRY H21  H21  H 0 1 N N N 5.442  34.373 0.571  -3.339 1.943  -0.666 H21  SRY 46 
+SRY HO21 1HO2 H 0 0 N N N 6.955  35.777 1.208  -5.227 2.572  0.655  HO21 SRY 47 
+SRY H31  H31  H 0 1 N N N 5.155  36.477 -1.608 -2.743 0.297  1.834  H31  SRY 48 
+SRY HN31 1HN3 H 0 0 N N N 3.444  37.467 -0.203 -0.867 2.304  0.844  HN31 SRY 49 
+SRY HE11 1HE1 H 0 0 N N N 4.611  34.989 2.646  -0.394 4.020  2.425  HE11 SRY 50 
+SRY HE12 2HE1 H 0 0 N N N 5.420  34.755 1.097  -1.343 4.179  3.802  HE12 SRY 51 
+SRY HF11 1HF1 H 0 0 N N N 2.549  37.386 1.637  -3.441 1.498  3.018  HF11 SRY 52 
+SRY H41  H41  H 0 1 N N N 3.385  34.081 -0.760 -1.281 0.536  -0.835 H41  SRY 53 
+SRY H51  H51  H 0 1 N N N 4.984  34.580 -3.335 -2.767 -1.792 0.464  H51  SRY 54 
+SRY HO51 1HO5 H 0 0 N N N 3.482  33.252 -4.049 -2.153 -2.839 -1.594 HO51 SRY 55 
+SRY H61  H61  H 0 1 N N N 5.274  32.511 -1.078 -3.362 -0.146 -2.037 H61  SRY 56 
+SRY HO61 1HO6 H 0 0 N N N 6.603  32.886 -3.579 -4.012 -2.440 -2.170 HO61 SRY 57 
+SRY H12  H12  H 0 1 N N N 1.409  35.136 -0.495 0.906  0.127  -0.698 H12  SRY 58 
+SRY H22  H22  H 0 1 N N N 0.778  36.974 -2.663 1.805  -0.754 1.777  H22  SRY 59 
+SRY HO32 2HO3 H 0 0 N N N -1.508 34.737 -2.187 3.127  -4.165 0.144  HO32 SRY 60 
+SRY HG21 1HG2 H 0 0 N N N 0.487  36.968 -4.590 2.477  -2.966 2.921  HG21 SRY 61 
+SRY H42  H42  H 0 1 N N N 1.611  34.087 -4.125 -0.209 -3.215 0.549  H42  SRY 62 
+SRY HH21 1HH2 H 0 0 N N N 0.025  32.810 -5.035 1.181  -5.129 -0.280 HH21 SRY 63 
+SRY HH22 2HH2 H 0 0 N N N 0.844  31.844 -3.761 0.064  -4.534 -1.531 HH22 SRY 64 
+SRY HH23 3HH2 H 0 0 N N N -0.792 32.523 -3.462 1.788  -4.095 -1.596 HH23 SRY 65 
+SRY H13  H13  H 0 1 N N N 1.262  36.926 -0.395 3.497  0.575  1.780  H13  SRY 66 
+SRY H23  H23  H 0 1 N N N 0.682  39.044 0.477  5.370  1.770  0.708  H23  SRY 67 
+SRY HN23 3HN2 H 0 0 N N N 0.510  38.374 -2.304 5.369  -1.157 0.643  HN23 SRY 68 
+SRY HI31 1HI3 H 0 0 N N N 2.537  39.442 -2.378 6.862  0.861  2.188  HI31 SRY 69 
+SRY HI32 2HI3 H 0 0 N N N 2.138  40.322 -0.864 5.410  0.014  2.772  HI32 SRY 70 
+SRY HI33 3HI3 H 0 0 N N N 2.489  38.561 -0.813 6.903  -0.900 2.447  HI33 SRY 71 
+SRY H33  H33  H 0 1 N N N -1.770 38.844 -1.162 4.779  -0.026 -1.692 H33  SRY 72 
+SRY HO33 3HO3 H 0 0 N N N -1.176 40.604 0.944  6.546  1.293  -2.612 HO33 SRY 73 
+SRY H43  H43  H 0 1 N N N -1.462 38.719 1.854  4.489  2.995  -1.343 H43  SRY 74 
+SRY HO43 3HO4 H 0 0 N N N -3.606 38.696 1.737  3.582  2.764  -3.541 HO43 SRY 75 
+SRY H53  H53  H 0 1 N N N -2.151 36.556 -0.166 2.378  0.812  -1.668 H53  SRY 76 
+SRY H631 1H63 H 0 0 N N N -3.423 35.949 1.708  2.101  3.809  -1.166 H631 SRY 77 
+SRY H632 2H63 H 0 0 N N N -1.853 35.178 2.108  1.863  3.023  -2.745 H632 SRY 78 
+SRY HO63 3HO6 H 0 0 N N N -2.258 36.363 3.888  -0.189 3.244  -1.543 HO63 SRY 79 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-SRY C11  N11 SING N N  1
-SRY C11  C21 SING N N  2
-SRY C11  C61 SING N N  3
-SRY C11  H11 SING N N  4
-SRY N11  CA1 SING N N  5
-SRY N11 HN11 SING N N  6
-SRY CA1  NB1 SING N N  7
-SRY CA1  NC1 DOUB N N  8
-SRY NB1 HB11 SING N N  9
-SRY NB1 HB12 SING N N 10
-SRY NC1 HC11 SING N N 11
-SRY C21  O21 SING N N 12
-SRY C21  C31 SING N N 13
-SRY C21  H21 SING N N 14
-SRY O21 HO21 SING N N 15
-SRY C31  N31 SING N N 16
-SRY C31  C41 SING N N 17
-SRY C31  H31 SING N N 18
-SRY N31  CD1 SING N N 19
-SRY N31 HN31 SING N N 20
-SRY CD1  NE1 SING N N 21
-SRY CD1  NF1 DOUB N N 22
-SRY NE1 HE11 SING N N 23
-SRY NE1 HE12 SING N N 24
-SRY NF1 HF11 SING N N 25
-SRY C41  O41 SING N N 26
-SRY C41  C51 SING N N 27
-SRY C41  H41 SING N N 28
-SRY O41  C12 SING N N 29
-SRY C51  O51 SING N N 30
-SRY C51  C61 SING N N 31
-SRY C51  H51 SING N N 32
-SRY O51 HO51 SING N N 33
-SRY C61  O61 SING N N 34
-SRY C61  H61 SING N N 35
-SRY O61 HO61 SING N N 36
-SRY C12  C22 SING N N 37
-SRY C12  O42 SING N N 38
-SRY C12  H12 SING N N 39
-SRY C22  C32 SING N N 40
-SRY C22  O13 SING N N 41
-SRY C22  H22 SING N N 42
-SRY C32  O32 SING N N 43
-SRY C32  CG2 SING N N 44
-SRY C32  C42 SING N N 45
-SRY O32 HO32 SING N N 46
-SRY CG2  OG2 DOUB N N 47
-SRY CG2 HG21 SING N N 48
-SRY C42  CH2 SING N N 49
-SRY C42  O42 SING N N 50
-SRY C42  H42 SING N N 51
-SRY CH2 HH21 SING N N 52
-SRY CH2 HH22 SING N N 53
-SRY CH2 HH23 SING N N 54
-SRY O13  C13 SING N N 55
-SRY C13  C23 SING N N 56
-SRY C13  O53 SING N N 57
-SRY C13  H13 SING N N 58
-SRY C23  N23 SING N N 59
-SRY C23  C33 SING N N 60
-SRY C23  H23 SING N N 61
-SRY N23  CI3 SING N N 62
-SRY N23 HN23 SING N N 63
-SRY CI3 HI31 SING N N 64
-SRY CI3 HI32 SING N N 65
-SRY CI3 HI33 SING N N 66
-SRY C33  O33 SING N N 67
-SRY C33  C43 SING N N 68
-SRY C33  H33 SING N N 69
-SRY O33 HO33 SING N N 70
-SRY C43  O43 SING N N 71
-SRY C43  C53 SING N N 72
-SRY C43  H43 SING N N 73
-SRY O43 HO43 SING N N 74
-SRY C53  O53 SING N N 75
-SRY C53  C63 SING N N 76
-SRY C53  H53 SING N N 77
-SRY C63  O63 SING N N 78
-SRY C63 H631 SING N N 79
-SRY C63 H632 SING N N 80
-SRY O63 HO63 SING N N 81
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+SRY C11 N11  SING N N 1  
+SRY C11 C21  SING N N 2  
+SRY C11 C61  SING N N 3  
+SRY C11 H11  SING N N 4  
+SRY N11 CA1  SING N N 5  
+SRY N11 HN11 SING N N 6  
+SRY CA1 NB1  SING N N 7  
+SRY CA1 NC1  DOUB N N 8  
+SRY NB1 HB11 SING N N 9  
+SRY NB1 HB12 SING N N 10 
+SRY NC1 HC11 SING N N 11 
+SRY C21 O21  SING N N 12 
+SRY C21 C31  SING N N 13 
+SRY C21 H21  SING N N 14 
+SRY O21 HO21 SING N N 15 
+SRY C31 N31  SING N N 16 
+SRY C31 C41  SING N N 17 
+SRY C31 H31  SING N N 18 
+SRY N31 CD1  SING N N 19 
+SRY N31 HN31 SING N N 20 
+SRY CD1 NE1  SING N N 21 
+SRY CD1 NF1  DOUB N N 22 
+SRY NE1 HE11 SING N N 23 
+SRY NE1 HE12 SING N N 24 
+SRY NF1 HF11 SING N N 25 
+SRY C41 O41  SING N N 26 
+SRY C41 C51  SING N N 27 
+SRY C41 H41  SING N N 28 
+SRY O41 C12  SING N N 29 
+SRY C51 O51  SING N N 30 
+SRY C51 C61  SING N N 31 
+SRY C51 H51  SING N N 32 
+SRY O51 HO51 SING N N 33 
+SRY C61 O61  SING N N 34 
+SRY C61 H61  SING N N 35 
+SRY O61 HO61 SING N N 36 
+SRY C12 C22  SING N N 37 
+SRY C12 O42  SING N N 38 
+SRY C12 H12  SING N N 39 
+SRY C22 C32  SING N N 40 
+SRY C22 O13  SING N N 41 
+SRY C22 H22  SING N N 42 
+SRY C32 O32  SING N N 43 
+SRY C32 CG2  SING N N 44 
+SRY C32 C42  SING N N 45 
+SRY O32 HO32 SING N N 46 
+SRY CG2 OG2  DOUB N N 47 
+SRY CG2 HG21 SING N N 48 
+SRY C42 CH2  SING N N 49 
+SRY C42 O42  SING N N 50 
+SRY C42 H42  SING N N 51 
+SRY CH2 HH21 SING N N 52 
+SRY CH2 HH22 SING N N 53 
+SRY CH2 HH23 SING N N 54 
+SRY O13 C13  SING N N 55 
+SRY C13 C23  SING N N 56 
+SRY C13 O53  SING N N 57 
+SRY C13 H13  SING N N 58 
+SRY C23 N23  SING N N 59 
+SRY C23 C33  SING N N 60 
+SRY C23 H23  SING N N 61 
+SRY N23 CI3  SING N N 62 
+SRY N23 HN23 SING N N 63 
+SRY CI3 HI31 SING N N 64 
+SRY CI3 HI32 SING N N 65 
+SRY CI3 HI33 SING N N 66 
+SRY C33 O33  SING N N 67 
+SRY C33 C43  SING N N 68 
+SRY C33 H33  SING N N 69 
+SRY O33 HO33 SING N N 70 
+SRY C43 O43  SING N N 71 
+SRY C43 C53  SING N N 72 
+SRY C43 H43  SING N N 73 
+SRY O43 HO43 SING N N 74 
+SRY C53 O53  SING N N 75 
+SRY C53 C63  SING N N 76 
+SRY C53 H53  SING N N 77 
+SRY C63 O63  SING N N 78 
+SRY C63 H631 SING N N 79 
+SRY C63 H632 SING N N 80 
+SRY O63 HO63 SING N N 81 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-SRY           SMILES              ACDLabs 10.04                                                                                                                                                                                  O=CC3(O)C(OC1OC(C(O)C(O)C1NC)CO)C(OC2C(NC(=[N@H])N)C(O)C(NC(=[N@H])N)C(O)C2O)OC3C
-SRY            InChI                InChI  1.03 InChI=1S/C21H39N7O12/c1-5-21(36,4-30)16(40-17-9(26-2)13(34)10(31)6(3-29)38-17)18(37-5)39-15-8(28-20(24)25)11(32)7(27-19(22)23)12(33)14(15)35/h4-18,26,29,31-36H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/t5-,6-,7+,8-,9-,10-,11+,12-,13-,14+,15+,16-,17-,18-,21+/m0/s1
-SRY         InChIKey                InChI  1.03                                                                                                                                                                                                                                        UCSJYZPVAKXKNQ-HZYVHMACSA-N
-SRY SMILES_CANONICAL               CACTVS 3.385                                                                                                                         CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]2[C@@H](O[C@@H](C)[C@]2(O)C=O)O[C@H]3[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]3NC(N)=N
-SRY           SMILES               CACTVS 3.385                                                                                                                                              CN[CH]1[CH](O)[CH](O)[CH](CO)O[CH]1O[CH]2[CH](O[CH](C)[C]2(O)C=O)O[CH]3[CH](O)[CH](O)[CH](NC(N)=N)[CH](O)[CH]3NC(N)=N
-SRY SMILES_CANONICAL "OpenEye OEToolkits" 1.7.5                                                                                                      "[H]/N=C(/N)\N[C@@H]1[C@H]([C@@H]([C@H]([C@@H]([C@H]1O)O)O[C@H]2[C@@H]([C@]([C@@H](O2)C)(C=O)O)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)N/C(=N\[H])/N)O"
-SRY           SMILES "OpenEye OEToolkits" 1.7.5                                                                                                                                                                                      CC1C(C(C(O1)OC2C(C(C(C(C2O)O)NC(=N)N)O)NC(=N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+SRY SMILES           ACDLabs              10.04 "O=CC3(O)C(OC1OC(C(O)C(O)C1NC)CO)C(OC2C(NC(=[N@H])N)C(O)C(NC(=[N@H])N)C(O)C2O)OC3C" 
+SRY InChI            InChI                1.03  
+;InChI=1S/C21H39N7O12/c1-5-21(36,4-30)16(40-17-9(26-2)13(34)10(31)6(3-29)38-17)18(37-5)39-15-8(28-20(24)25)11(32)7(27-19(22)23)12(33)14(15)35/h4-18,26,29,31-36H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/t5-,6-,7+,8-,9-,10-,11+,12-,13-,14+,15+,16-,17-,18-,21+/m0/s1
+;
+SRY InChIKey         InChI                1.03  UCSJYZPVAKXKNQ-HZYVHMACSA-N 
+SRY SMILES_CANONICAL CACTVS               3.385 "CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]2[C@@H](O[C@@H](C)[C@]2(O)C=O)O[C@H]3[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]3NC(N)=N" 
+SRY SMILES           CACTVS               3.385 "CN[CH]1[CH](O)[CH](O)[CH](CO)O[CH]1O[CH]2[CH](O[CH](C)[C]2(O)C=O)O[CH]3[CH](O)[CH](O)[CH](NC(N)=N)[CH](O)[CH]3NC(N)=N" 
+SRY SMILES_CANONICAL "OpenEye OEToolkits" 1.7.5 "[H]/N=C(/N)\N[C@@H]1[C@H]([C@@H]([C@H]([C@@H]([C@H]1O)O)O[C@H]2[C@@H]([C@]([C@@H](O2)C)(C=O)O)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)N/C(=N\[H])/N)O" 
+SRY SMILES           "OpenEye OEToolkits" 1.7.5 "CC1C(C(C(O1)OC2C(C(C(C(C2O)O)NC(=N)N)O)NC(=N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O" 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-SRY "SYSTEMATIC NAME"              ACDLabs 10.04                                          "N,N'''-[(1R,2R,3S,4R,5R,6S)-4-({5-deoxy-2-O-[2-deoxy-2-(methylamino)-alpha-L-glucopyranosyl]-3-C-formyl-alpha-L-lyxofuranosyl}oxy)-2,5,6-trihydroxycyclohexane-1,3-diyl]diguanidine"
-SRY "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 1-[(1R,2R,3S,4R,5R,6S)-3-carbamimidamido-4-[(2R,3R,4R,5S)-3-[(2S,3S,4S,5R,6S)-4,5-dihydroxy-6-(hydroxymethyl)-3-methylamino-oxan-2-yl]oxy-4-hydroxy-4-methanoyl-5-methyl-oxolan-2-yl]oxy-2,5,6-trihydroxy-cyclohexyl]guanidine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+SRY "SYSTEMATIC NAME" ACDLabs              10.04 "N,N'''-[(1R,2R,3S,4R,5R,6S)-4-({5-deoxy-2-O-[2-deoxy-2-(methylamino)-alpha-L-glucopyranosyl]-3-C-formyl-alpha-L-lyxofuranosyl}oxy)-2,5,6-trihydroxycyclohexane-1,3-diyl]diguanidine" 
+SRY "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 
+"1-[(1R,2R,3S,4R,5R,6S)-3-carbamimidamido-4-[(2R,3R,4R,5S)-3-[(2S,3S,4S,5R,6S)-4,5-dihydroxy-6-(hydroxymethyl)-3-methylamino-oxan-2-yl]oxy-4-hydroxy-4-methanoyl-5-methyl-oxolan-2-yl]oxy-2,5,6-trihydroxy-cyclohexyl]guanidine" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-SRY   "Create component" 2000-08-25  EBI
-SRY  "Modify descriptor" 2011-06-04 RCSB
-SRY  "Modify descriptor" 2012-01-05 RCSB
-SRY "Modify coordinates" 2012-01-05 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   SRY
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01082
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Streptomycin
-_pdbe_chem_comp_drugbank_details.description               "Streptomycin is an aminoglycoside antibiotic produced by the soil actinomycete Streptomyces griseus. It acts by binding to the 30S ribosomal subunit of susceptible organisms and disrupting the initiation and elongation steps in protein synthesis. It is bactericidal due to effects that are not fully understood."
-_pdbe_chem_comp_drugbank_details.cas_number                57-92-1
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       'Aminoglycosides like Streptomycin "irreversibly" bind to specific 30S-subunit proteins and 16S rRNA. Specifically Streptomycin binds to four nucleotides of 16S rRNA and a single amino acid of protein S12. This interferes with decoding site in the vicinity of nucleotide 1400 in 16S rRNA of 30S subunit. This region interacts with the wobble base in the anticodon of tRNA. This leads to interference with the initiation complex, misreading of mRNA so incorrect amino acids are inserted into the polypeptide leading to nonfunctional or toxic peptides and the breakup of polysomes into nonfunctional monosomes.'
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           SRY
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01082
-_pdbe_chem_comp_drugbank_classification.parent            "Aminocyclitol glycosides"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Organooxygen compounds"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic oxygen compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as aminocyclitol glycosides. These are organic compounds containing an amicocyclitol moiety glycosidically linked to a carbohydrate moiety. There are two major classes of aminoglycosides containing a 2-streptamine core. They are called 4,5- and 4,6-disubstituted 2-deoxystreptamines."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-SRY DB01082         "30S ribosomal protein S12" "Escherichia coli (strain K12)" P0A7S3     yes 1
-SRY DB01082 "Protein-arginine deiminase type-4"                          Humans Q9UM07 unknown 2
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-SRY                                                                                                                                        Chemform   ChEMBL
-SRY                                                                                                                                    Streptomycin   ChEMBL
-SRY                                                                                                                                           Gerox   ChEMBL
-SRY                                                                                                                                       NSC-14083   ChEMBL
-SRY                                                                                                                                        Strepcen   ChEMBL
-SRY "2,4-diguanidino-3,5,6-trihydroxycyclohexyl 5-deoxy-2-O-(2-deoxy-2-methylamino-alpha-L-glucopyranosyl)-3-C-formyl-beta-L-lyxopentanofuranoside" DrugBank
-SRY                                                                                                                                    Streptomycin DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-SRY C11 C 14.986  3.195  1
-SRY N11 N 16.101  4.199  2
-SRY CA1 C 17.568  4.511  3
-SRY NB1 N 18.031  5.938  4
-SRY NC1 N 18.572  3.396  5
-SRY C21 C 13.559  3.659  6
-SRY O21 O 13.768  5.144  7
-SRY C31 C 12.444  2.655  8
-SRY N31 N 11.018  3.119  9
-SRY CD1 C 10.706  4.586 10
-SRY NE1 N  9.280  5.049 11
-SRY NF1 N 11.410  5.910 12
-SRY C41 C 12.757  1.188 13
-SRY O41 O 11.642  0.184 14
-SRY C51 C 14.183  0.724 15
-SRY O51 O 14.495 -0.743 16
-SRY C61 C 15.298  1.728 17
-SRY O61 O 16.724  1.264 18
-SRY C12 C 10.215  0.648 19
-SRY C22 C  9.002 -0.234 20
-SRY C32 C  7.788  0.648 21
-SRY O32 O  6.906 -0.566 22
-SRY CG2 C  6.362  1.111 23
-SRY OG2 O  5.247  0.108 24
-SRY C42 C  8.252  2.074 25
-SRY CH2 C  7.370  3.288 26
-SRY O42 O  9.752  2.074 27
-SRY O13 O  9.002 -1.734 28
-SRY C13 C  7.702 -2.484 29
-SRY C23 C  7.702 -3.984 30
-SRY N23 N  9.002 -4.734 31
-SRY CI3 C  9.002 -6.234 32
-SRY C33 C  6.404 -4.734 33
-SRY O33 O  6.404 -6.234 34
-SRY C43 C  5.104 -3.984 35
-SRY O43 O  3.805 -4.734 36
-SRY C53 C  5.104 -2.484 37
-SRY O53 O  6.404 -1.734 38
-SRY C63 C  3.805 -1.734 39
-SRY O63 O  3.805 -0.234 40
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-SRY C11 N11 SINGLE  BEGINDASH  1
-SRY C11 C21 SINGLE       NONE  2
-SRY C11 C61 SINGLE       NONE  3
-SRY N11 CA1 SINGLE       NONE  4
-SRY CA1 NB1 SINGLE       NONE  5
-SRY CA1 NC1 DOUBLE       NONE  6
-SRY C21 O21 SINGLE  BEGINDASH  7
-SRY C21 C31 SINGLE       NONE  8
-SRY C31 N31 SINGLE BEGINWEDGE  9
-SRY C31 C41 SINGLE       NONE 10
-SRY N31 CD1 SINGLE       NONE 11
-SRY CD1 NE1 SINGLE       NONE 12
-SRY CD1 NF1 DOUBLE       NONE 13
-SRY C41 O41 SINGLE  BEGINDASH 14
-SRY C41 C51 SINGLE       NONE 15
-SRY O41 C12 SINGLE BEGINWEDGE 16
-SRY C51 O51 SINGLE  BEGINDASH 17
-SRY C51 C61 SINGLE       NONE 18
-SRY C61 O61 SINGLE BEGINWEDGE 19
-SRY C12 C22 SINGLE       NONE 20
-SRY C12 O42 SINGLE       NONE 21
-SRY C22 C32 SINGLE       NONE 22
-SRY C22 O13 SINGLE BEGINWEDGE 23
-SRY C32 O32 SINGLE BEGINWEDGE 24
-SRY C32 CG2 SINGLE       NONE 25
-SRY C32 C42 SINGLE       NONE 26
-SRY CG2 OG2 DOUBLE       NONE 27
-SRY C42 CH2 SINGLE  BEGINDASH 28
-SRY C42 O42 SINGLE       NONE 29
-SRY O13 C13 SINGLE  BEGINDASH 30
-SRY C13 C23 SINGLE       NONE 31
-SRY C13 O53 SINGLE       NONE 32
-SRY C23 N23 SINGLE  BEGINDASH 33
-SRY C23 C33 SINGLE       NONE 34
-SRY N23 CI3 SINGLE       NONE 35
-SRY C33 O33 SINGLE  BEGINDASH 36
-SRY C33 C43 SINGLE       NONE 37
-SRY C43 O43 SINGLE BEGINWEDGE 38
-SRY C43 C53 SINGLE       NONE 39
-SRY C53 O53 SINGLE       NONE 40
-SRY C53 C63 SINGLE BEGINWEDGE 41
-SRY C63 O63 SINGLE       NONE 42
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-SRY MurckoScaffold S1 scaffold C1CCC(O[C@@H]2OCC[C@@H]2O[C@@H]2CCCCO2)CC1 InChI=1S/C15H26O4/c1-2-6-12(7-3-1)18-15-13(9-11-17-15)19-14-8-4-5-10-16-14/h12-15H,1-11H2/t13-,14+,15-/m0/s1 ZVOXSFNMCIUBSV-ZNMIVQPWSA-N
-SRY    cyclohexane F1 fragment                                   C1CCCCC1                                                                         InChI=1S/C6H12/c1-2-4-6-5-3-1/h1-6H2 XDTMQSROBMDMFD-UHFFFAOYSA-N
-SRY       furanose F2 fragment                                   OC1CCCO1                                                                   InChI=1S/C4H8O2/c5-4-2-1-3-6-4/h4-5H,1-3H2 JNODDICFTDYODH-UHFFFAOYSA-N
-SRY       pyranose F3 fragment                                  OC1CCCCO1                                                                InChI=1S/C5H10O2/c6-5-3-1-2-4-7-5/h5-6H,1-4H2 CELWCAITJAEQNL-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-SRY C11 F1 1
-SRY C21 F1 1
-SRY C31 F1 1
-SRY C41 F1 1
-SRY C51 F1 1
-SRY C61 F1 1
-SRY C32 F2 1
-SRY C42 F2 1
-SRY O42 F2 1
-SRY C12 F2 1
-SRY C22 F2 1
-SRY O41 F2 1
-SRY C43 F3 1
-SRY C53 F3 1
-SRY O53 F3 1
-SRY C13 F3 1
-SRY C23 F3 1
-SRY C33 F3 1
-SRY O13 F3 1
-SRY C11 S1 1
-SRY C21 S1 1
-SRY C31 S1 1
-SRY C41 S1 1
-SRY O41 S1 1
-SRY C51 S1 1
-SRY C61 S1 1
-SRY C12 S1 1
-SRY C22 S1 1
-SRY C32 S1 1
-SRY C42 S1 1
-SRY O42 S1 1
-SRY O13 S1 1
-SRY C13 S1 1
-SRY C23 S1 1
-SRY C33 S1 1
-SRY C43 S1 1
-SRY C53 S1 1
-SRY O53 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               SRY
-_pdbe_chem_comp_rdkit_properties.exactmw                               581.266
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           19
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           16
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     18
-_pdbe_chem_comp_rdkit_properties.NumHBD                                14
-_pdbe_chem_comp_rdkit_properties.NumHBA                                15
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        19
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.857
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     3
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             283.819
-_pdbe_chem_comp_rdkit_properties.tpsa                                  331.430
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -7.742
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             131.399
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         40
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-SRY UniChem        ChEMBL     CHEMBL372795
-SRY UniChem      DrugBank          DB01082
-SRY UniChem "KEGG LIGAND"           C00413
-SRY UniChem         ChEBI            17076
-SRY UniChem          ZINC ZINC000008214681
-SRY UniChem     BindingDb         50103513
-SRY UniChem  MetaboLights       MTBLC17076
-SRY UniChem        BRENDA             2358
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SRY  C11  2.823  1.785 -0.227 ETKDGv2  1
-SRY  N11  2.525  3.118  0.313 ETKDGv2  2
-SRY  CA1  3.503  4.159  0.467 ETKDGv2  3
-SRY  NB1  3.099  5.436  0.967 ETKDGv2  4
-SRY  NC1  4.744  3.948  0.161 ETKDGv2  5
-SRY  C21  2.591  0.716  0.866 ETKDGv2  6
-SRY  O21  1.307  0.870  1.415 ETKDGv2  7
-SRY  C31  2.767 -0.728  0.329 ETKDGv2  8
-SRY  N31  4.192 -1.021  0.111 ETKDGv2  9
-SRY  CD1  4.903 -2.077  0.777 ETKDGv2 10
-SRY  NE1  6.294 -2.268  0.509 ETKDGv2 11
-SRY  NF1  4.293 -2.859  1.612 ETKDGv2 12
-SRY  C41  1.958 -0.985 -0.967 ETKDGv2 13
-SRY  O41  0.570 -1.003 -0.663 ETKDGv2 14
-SRY  C51  2.225  0.106 -2.028 ETKDGv2 15
-SRY  O51  1.464 -0.136 -3.187 ETKDGv2 16
-SRY  C61  1.953  1.521 -1.474 ETKDGv2 17
-SRY  O61  2.254  2.464 -2.472 ETKDGv2 18
-SRY  C12  0.058 -2.322 -0.613 ETKDGv2 19
-SRY  C22 -1.384 -2.327 -0.069 ETKDGv2 20
-SRY  C32 -2.044 -3.393 -0.930 ETKDGv2 21
-SRY  O32 -3.410 -3.129 -1.152 ETKDGv2 22
-SRY  CG2 -1.849 -4.771 -0.313 ETKDGv2 23
-SRY  OG2 -2.800 -5.505 -0.097 ETKDGv2 24
-SRY  C42 -1.260 -3.228 -2.235 ETKDGv2 25
-SRY  CH2 -1.292 -4.449 -3.160 ETKDGv2 26
-SRY  O42  0.068 -2.898 -1.907 ETKDGv2 27
-SRY  O13 -2.016 -1.073 -0.298 ETKDGv2 28
-SRY  C13 -1.833 -0.171  0.785 ETKDGv2 29
-SRY  C23 -3.108 -0.061  1.697 ETKDGv2 30
-SRY  N23 -4.389 -0.221  0.962 ETKDGv2 31
-SRY  CI3 -5.323 -1.095  1.677 ETKDGv2 32
-SRY  C33 -3.083  1.320  2.376 ETKDGv2 33
-SRY  O33 -4.183  1.458  3.238 ETKDGv2 34
-SRY  C43 -3.073  2.455  1.322 ETKDGv2 35
-SRY  O43 -2.381  3.554  1.863 ETKDGv2 36
-SRY  C53 -2.416  1.973 -0.005 ETKDGv2 37
-SRY  O53 -1.364  1.074  0.277 ETKDGv2 38
-SRY  C63 -1.867  3.122 -0.861 ETKDGv2 39
-SRY  O63 -2.896  4.012 -1.191 ETKDGv2 40
-SRY  H11  3.888  1.734 -0.539 ETKDGv2 41
-SRY HN11  1.539  3.330  0.590 ETKDGv2 42
-SRY HB11  2.101  5.615  1.217 ETKDGv2 43
-SRY HB12  3.791  6.208  1.090 ETKDGv2 44
-SRY HC11  5.471  4.690  0.267 ETKDGv2 45
-SRY  H21  3.348  0.889  1.667 ETKDGv2 46
-SRY HO21  1.314  0.423  2.301 ETKDGv2 47
-SRY  H31  2.367 -1.416  1.105 ETKDGv2 48
-SRY HN31  4.729 -0.437 -0.568 ETKDGv2 49
-SRY HE11  6.794 -1.645 -0.163 ETKDGv2 50
-SRY HE12  6.832 -3.030  0.978 ETKDGv2 51
-SRY HF11  4.791 -3.633  2.105 ETKDGv2 52
-SRY  H41  2.317 -1.948 -1.406 ETKDGv2 53
-SRY  H51  3.293  0.051 -2.329 ETKDGv2 54
-SRY HO51  0.508  0.012 -2.965 ETKDGv2 55
-SRY  H61  0.876  1.596 -1.196 ETKDGv2 56
-SRY HO61  1.725  3.279 -2.270 ETKDGv2 57
-SRY  H12  0.679 -2.955  0.063 ETKDGv2 58
-SRY  H22 -1.425 -2.628  1.007 ETKDGv2 59
-SRY HO32 -3.856 -3.113 -0.265 ETKDGv2 60
-SRY HG21 -0.849 -5.115 -0.064 ETKDGv2 61
-SRY  H42 -1.691 -2.372 -2.806 ETKDGv2 62
-SRY HH21 -0.815 -4.193 -4.129 ETKDGv2 63
-SRY HH22 -0.735 -5.300 -2.714 ETKDGv2 64
-SRY HH23 -2.342 -4.756 -3.354 ETKDGv2 65
-SRY  H13 -1.015 -0.505  1.468 ETKDGv2 66
-SRY  H23 -3.008 -0.840  2.490 ETKDGv2 67
-SRY HN23 -4.262 -0.625  0.009 ETKDGv2 68
-SRY HI31 -6.279 -1.153  1.114 ETKDGv2 69
-SRY HI32 -5.544 -0.690  2.687 ETKDGv2 70
-SRY HI33 -4.906 -2.122  1.772 ETKDGv2 71
-SRY  H33 -2.143  1.370  2.978 ETKDGv2 72
-SRY HO33 -3.993  2.241  3.819 ETKDGv2 73
-SRY  H43 -4.131  2.737  1.095 ETKDGv2 74
-SRY HO43 -2.839  4.377  1.548 ETKDGv2 75
-SRY  H53 -3.184  1.468 -0.635 ETKDGv2 76
-SRY H631 -1.433  2.698 -1.794 ETKDGv2 77
-SRY H632 -1.055  3.656 -0.316 ETKDGv2 78
-SRY HO63 -2.475  4.732 -1.729 ETKDGv2 79
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+SRY "Create component"   2000-08-25 EBI  
+SRY "Modify descriptor"  2011-06-04 RCSB 
+SRY "Modify descriptor"  2012-01-05 RCSB 
+SRY "Modify coordinates" 2012-01-05 RCSB 
+# 

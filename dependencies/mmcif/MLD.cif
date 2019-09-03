@@ -1,779 +1,341 @@
 data_MLD
-#
-_chem_comp.id                                        MLD
-_chem_comp.name                                      GLCNAC(BETA1-4)-MURNAC(1,6-ANHYDRO)-L-ALA-GAMMA-D-GLU-MESO-A2PM-D-ALA
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C37 H59 N7 O20"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOPYRANOSE(BETA1-4)-2-ACETAMIDO-1,6-ANHYDRO-3-O-[(R)-1-CARBOXYETHYL]-2-DEOXY-BETA-D-GLUCOPYRANOSE-L-ALANYL-GAMMA-D-GLUTAMYL-MESO-DIAMINOPIMELYL-D-ALANINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2005-11-18
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            921.899
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         MLD
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2F2L
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    MLD 
+_chem_comp.name                                  "GLCNAC(BETA1-4)-MURNAC(1,6-ANHYDRO)-L-ALA-GAMMA-D-GLU-MESO-A2PM-D-ALA" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C37 H59 N7 O20" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOPYRANOSE(BETA1-4)-2-ACETAMIDO-1,6-ANHYDRO-3-O-[(R)-1-CARBOXYETHYL]-2-DEOXY-BETA-D-GLUCOPYRANOSE-L-ALANYL-GAMMA-D-GLUTAMYL-MESO-DIAMINOPIMELYL-D-ALANINE" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2005-11-18 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        921.899 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     MLD 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2F2L 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-MLD  CAA  CAA C 0 1 N N N 30.514 17.557  8.212  10.748 -2.384  0.943  CAA MLD   1
-MLD  CAB  CAB C 0 1 N N N 31.227 17.779  9.537  10.083 -1.446 -0.031  CAB MLD   2
-MLD  OAC  OAC O 0 1 N N N 30.966 18.753 10.231   9.293 -1.876 -0.845  OAC MLD   3
-MLD   N2   N2 N 0 1 N N N 32.118 16.844  9.853  10.368 -0.128  0.001   N2 MLD   4
-MLD   C2   C2 C 0 1 N N R 32.944 16.871 11.055   9.722  0.783 -0.947   C2 MLD   5
-MLD   C3   C3 C 0 1 N N R 34.395 16.689 10.602  10.604  2.021 -1.150   C3 MLD   6
-MLD   O3   O3 O 0 1 N N N 34.824 17.727  9.699  11.817  1.646 -1.806   O3 MLD   7
-MLD   C4   C4 C 0 1 N N S 35.326 16.541 11.801   9.840  3.029 -2.017   C4 MLD   8
-MLD   O4   O4 O 0 1 N N N 36.601 16.187 11.296  10.580  4.249 -2.098   O4 MLD   9
-MLD   C5   C5 C 0 1 N N R 34.816 15.416 12.708   8.475  3.299 -1.381   C5 MLD  10
-MLD   C6   C6 C 0 1 N N N 35.579 15.222 14.031   7.718  4.330 -2.222   C6 MLD  11
-MLD   O6   O6 O 0 1 N N N 35.119 13.981 14.642   6.497  4.676 -1.566   O6 MLD  12
-MLD   O5   O5 O 0 1 N N N 33.491 15.756 13.108   7.721  2.090 -1.322   O5 MLD  13
-MLD   C1   C1 C 0 1 N N S 32.559 15.749 12.002   8.366  1.224 -0.391   C1 MLD  14
-MLD   O1   O1 O 0 1 N N N 31.274 16.009 12.504   7.548  0.073 -0.167   O1 MLD  15
-MLD  CA4  CA4 C 0 1 N N S 30.743 14.880 13.238   6.350  0.534  0.462  CA4 MLD  16
-MLD  CA5  CA5 C 0 1 N N R 30.279 13.687 12.402   6.530  0.518  1.991  CA5 MLD  17
-MLD  OA5  OA5 O 0 1 N N N 28.856 13.363 12.557   6.940 -0.850  2.339  OA5 MLD  18
-MLD  CA6  CA6 C 0 1 N N N 30.916 12.560 13.139   5.143  0.645  2.665  CA6 MLD  19
-MLD  OA6  OA6 O 0 1 N N N 30.035 12.314 14.217   4.681 -0.709  2.818  OA6 MLD  20
-MLD  CA1  CA1 C 0 1 N N R 28.808 13.060 13.961   5.687 -1.564  2.246  CA1 MLD  21
-MLD  CA2  CA2 C 0 1 N N R 28.863 14.359 14.781   5.369 -1.748  0.754  CA2 MLD  22
-MLD  NAD  NAD N 0 1 N N N 27.489 14.808 15.093   6.485 -2.428  0.091  NAD MLD  23
-MLD  CAE  CAE C 0 1 N N N 27.070 15.029 16.326   6.552 -3.774  0.096  CAE MLD  24
-MLD  CAF  CAF C 0 1 N N N 25.623 15.468 16.426   7.699 -4.474 -0.585  CAF MLD  25
-MLD  OAG  OAG O 0 1 N N N 27.774 14.915 17.330   5.688 -4.422  0.649  OAG MLD  26
-MLD  CA3  CA3 C 0 1 N N R 29.573 15.470 14.010   5.160 -0.369  0.119  CA3 MLD  27
-MLD  OAH  OAH O 0 1 N N N 30.096 16.514 14.904   3.958  0.213  0.628  OAH MLD  28
-MLD  CAI  CAI C 0 1 N N R 29.266 17.698 14.988   2.901 -0.194 -0.243  CAI MLD  29
-MLD  CAJ  CAJ C 0 1 N N N 29.639 18.743 13.962   2.744  0.831 -1.368  CAJ MLD  30
-MLD  CAL  CAL C 0 1 N N N 29.418 18.320 16.392   1.614 -0.284  0.537  CAL MLD  31
-MLD  OAM  OAM O 0 1 N N N 28.831 19.375 16.605   1.584  0.061  1.699  OAM MLD  32
-MLD    N    N N 0 1 N N N 30.154 17.688 17.306   0.497 -0.748 -0.058    N MLD  33
-MLD   CA   CA C 0 1 N N S 30.339 18.164 18.683  -0.754 -0.836  0.700   CA MLD  34
-MLD   CB   CB C 0 1 N N N 29.195 17.547 19.495  -1.470  0.516  0.660   CB MLD  35
-MLD    C    C C 0 1 N N N 31.676 17.591 19.186  -1.638 -1.892  0.088    C MLD  36
-MLD    O    O O 0 1 N N N 31.904 16.382 19.096  -1.261 -2.510 -0.884    O MLD  37
-MLD  NAN  NAN N 0 1 N N N 32.521 18.497 19.671  -2.849 -2.149  0.623  NAN MLD  38
-MLD  CAO  CAO C 0 1 N N R 33.859 18.208 20.211  -3.708 -3.175  0.029  CAO MLD  39
-MLD  CAP  CAP C 0 1 N N N 34.931 19.177 19.615  -3.336 -4.526  0.584  CAP MLD  40
-MLD  OBA  OBA O 0 1 N N N 35.972 19.288 20.268  -3.996 -5.623  0.180  OBA MLD  41
-MLD  OAQ  OAQ O 0 1 N N N 34.697 19.814 18.559  -2.444 -4.621  1.394  OAQ MLD  42
-MLD  CBB  CBB C 0 1 N N N 33.861 18.503 21.707  -5.170 -2.872  0.362  CBB MLD  43
-MLD  CBC  CBC C 0 1 N N N 33.024 17.556 22.550  -5.584 -1.560 -0.307  CBC MLD  44
-MLD  CBD  CBD C 0 1 N N N 33.199 17.928 24.033  -7.024 -1.260  0.022  CBD MLD  45
-MLD  OBE  OBE O 0 1 N N N 33.512 19.068 24.379  -7.657 -2.022  0.722  OBE MLD  46
-MLD  NBF  NBF N 0 1 N N N 32.995 16.946 24.885  -7.609 -0.147 -0.463  NBF MLD  47
-MLD  CBG  CBG C 0 1 N N S 33.120 17.134 26.336  -9.009  0.144 -0.144  CBG MLD  48
-MLD  CBH  CBH C 0 1 N N N 34.596 17.385 26.705  -9.906 -0.577 -1.116  CBH MLD  49
-MLD  OBI  OBI O 0 1 N N N 35.497 16.707 26.214  -9.424 -1.265 -1.991  OBI MLD  50
-MLD  NBJ  NBJ N 0 1 N N N 34.803 18.398 27.544 -11.245 -0.456 -1.015  NBJ MLD  51
-MLD  CBK  CBK C 0 1 N N R 36.138 18.795 28.045 -12.117 -1.156 -1.961  CBK MLD  52
-MLD  CBL  CBL C 0 1 N N N 36.101 18.766 29.577 -12.284 -0.310 -3.224  CBL MLD  53
-MLD  CBM  CBM C 0 1 N N N 36.578 20.208 27.605 -13.466 -1.383 -1.327  CBM MLD  54
-MLD  OBO  OBO O 0 1 N N N 35.687 21.051 27.322 -13.676 -0.999 -0.201  OBO MLD  55
-MLD  OBN  OBN O 0 1 N N N 37.817 20.416 27.584 -14.433 -2.012 -2.014  OBN MLD  56
-MLD  CBP  CBP C 0 1 N N N 32.548 15.892 27.040  -9.253  1.651 -0.245  CBP MLD  57
-MLD  CBQ  CBQ C 0 1 N N N 32.276 16.149 28.533  -8.434  2.373  0.827  CBQ MLD  58
-MLD  CBR  CBR C 0 1 N N N 31.566 14.956 29.178  -8.678  3.880  0.726  CBR MLD  59
-MLD  CBS  CBS C 0 1 N N R 30.795 15.329 30.446  -7.860  4.602  1.799  CBS MLD  60
-MLD  CBT  CBT C 0 1 N N N 29.536 16.119 30.063  -8.193  6.072  1.780  CBT MLD  61
-MLD  OBV  OBV O 0 1 N N N 28.609 15.473 29.547  -7.455  6.851  1.224  OBV MLD  62
-MLD  OBU  OBU O 0 1 N N N 29.525 17.344 30.300  -9.308  6.515  2.380  OBU MLD  63
-MLD  NBW  NBW N 0 1 N N N 31.648 16.137 31.326  -6.428  4.421  1.526  NBW MLD  64
-MLD HAA1 1HAA H 0 0 N N N 30.861 16.615  7.763  11.419 -1.819  1.590 HAA1 MLD  65
-MLD HAA2 2HAA H 0 0 N N N 30.737 18.392  7.532   9.987 -2.875  1.550 HAA2 MLD  66
-MLD HAA3 3HAA H 0 0 N N N 29.429 17.503  8.383  11.316 -3.134  0.395 HAA3 MLD  67
-MLD  HN2  HN2 H 0 1 N N N 32.229 16.073  9.226  11.000  0.216  0.651  HN2 MLD  68
-MLD   H2   H2 H 0 1 N N N 32.805 17.821 11.592   9.579  0.277 -1.901   H2 MLD  69
-MLD   H3   H3 H 0 1 N N N 34.445 15.752 10.027  10.834  2.470 -0.184   H3 MLD  70
-MLD  HO3  HO3 H 0 1 N N N 34.918 18.543 10.176  12.332  2.456 -1.924  HO3 MLD  71
-MLD   H4   H4 H 0 1 N N N 35.371 17.475 12.381   9.702  2.619 -3.017   H4 MLD  72
-MLD  HO4  HO4 H 0 1 N N N 36.557 16.108 10.350  10.061  4.854 -2.645  HO4 MLD  73
-MLD   H5   H5 H 0 1 N N N 34.926 14.497 12.113   8.615  3.688 -0.372   H5 MLD  74
-MLD  H61  1H6 H 0 1 N N N 35.392 16.070 14.706   8.333  5.222 -2.341  H61 MLD  75
-MLD  H62  2H6 H 0 1 N N N 36.660 15.165 13.835   7.497  3.907 -3.202  H62 MLD  76
-MLD  HO6  HO6 H 0 1 N N N 35.019 13.315 13.972   6.053  5.326 -2.128  HO6 MLD  77
-MLD   H1   H1 H 0 1 N N N 32.577 14.780 11.482   8.515  1.751  0.552   H1 MLD  78
-MLD  HA4  HA4 H 0 1 N N N 31.541 14.442 13.855   6.129  1.548  0.130  HA4 MLD  79
-MLD  HA5  HA5 H 0 1 N N N 30.500 13.869 11.340   7.238  1.271  2.339  HA5 MLD  80
-MLD HA61 1HA6 H 0 0 N N N 31.936 12.800 13.475   4.462  1.208  2.027 HA61 MLD  81
-MLD HA62 2HA6 H 0 0 N N N 31.022 11.672 12.498   5.238  1.126  3.638 HA62 MLD  82
-MLD  HA1  HA1 H 0 1 N N N 27.893 12.513 14.230   5.736 -2.522  2.762  HA1 MLD  83
-MLD  HA2  HA2 H 0 1 N N N 29.422 14.151 15.705   4.462 -2.342  0.644  HA2 MLD  84
-MLD HNAD HNAD H 0 0 N N N 26.849 14.950 14.338   7.176 -1.910 -0.351 HNAD MLD  85
-MLD HAF1 1HAF H 0 0 N N N 24.978 14.714 15.951   8.369 -3.733 -1.022 HAF1 MLD  86
-MLD HAF2 2HAF H 0 0 N N N 25.497 16.434 15.915   8.245 -5.072  0.145 HAF2 MLD  87
-MLD HAF3 3HAF H 0 0 N N N 25.344 15.574 17.485   7.314 -5.124 -1.371 HAF3 MLD  88
-MLD  HA3  HA3 H 0 1 N N N 28.834 15.924 13.333   5.083 -0.474 -0.963  HA3 MLD  89
-MLD  HAI  HAI H 0 1 N N N 28.230 17.385 14.793   3.136 -1.169 -0.670  HAI MLD  90
-MLD HAJ1 1HAJ H 0 0 N N N 28.859 18.791 13.188   3.675  0.897 -1.932 HAJ1 MLD  91
-MLD HAJ2 2HAJ H 0 0 N N N 30.600 18.475 13.498   1.938  0.521 -2.033 HAJ2 MLD  92
-MLD HAJ3 3HAJ H 0 0 N N N 29.730 19.723 14.453   2.509  1.806 -0.941 HAJ3 MLD  93
-MLD   HN   HN H 0 1 N N N 30.608 16.838 17.038   0.521 -1.024 -0.988   HN MLD  94
-MLD   HA   HA H 0 1 N N N 30.343 19.261 18.764  -0.534 -1.100  1.734   HA MLD  95
-MLD  HB1  1HB H 0 1 N N N 28.916 16.577 19.057  -2.401  0.450  1.223  HB1 MLD  96
-MLD  HB2  2HB H 0 1 N N N 28.326 18.222 19.476  -0.830  1.279  1.102  HB2 MLD  97
-MLD  HB3  3HB H 0 1 N N N 29.521 17.399 20.535  -1.690  0.780 -0.375  HB3 MLD  98
-MLD HNAN HNAN H 0 0 N N N 32.223 19.451 19.668  -3.150 -1.654  1.401 HNAN MLD  99
-MLD  HAO  HAO H 0 1 N N N 34.090 17.160 19.969  -3.576 -3.179 -1.053  HAO MLD 100
-MLD HOBA HOBA H 0 0 N N N 36.545 19.918 19.847  -3.757 -6.489  0.537 HOBA MLD 101
-MLD HBB1 1HBB H 0 0 N N N 33.415 19.501 21.827  -5.285 -2.780  1.442 HBB1 MLD 102
-MLD HBB2 2HBB H 0 0 N N N 34.901 18.433 22.059  -5.802 -3.681 -0.003 HBB2 MLD 103
-MLD HBC1 1HBC H 0 0 N N N 33.351 16.519 22.384  -5.470 -1.651 -1.387 HBC1 MLD 104
-MLD HBC2 2HBC H 0 0 N N N 31.965 17.646 22.268  -4.953 -0.750  0.058 HBC2 MLD 105
-MLD HNBF HNBF H 0 0 N N N 32.747 16.043 24.533  -7.103  0.462 -1.023 HNBF MLD 106
-MLD  HBG  HBG H 0 1 N N N 32.550 18.015 26.668  -9.228 -0.192  0.870  HBG MLD 107
-MLD HNBJ HNBJ H 0 0 N N N 34.009 18.922 27.854 -11.630  0.095 -0.316 HNBJ MLD 108
-MLD  HBK  HBK H 0 1 N N N 36.863 18.085 27.620 -11.673 -2.116 -2.223  HBK MLD 109
-MLD HBL1 1HBL H 0 0 N N N 35.574 17.861 29.914 -11.308 -0.145 -3.683 HBL1 MLD 110
-MLD HBL2 2HBL H 0 0 N N N 35.573 19.657 29.948 -12.933 -0.831 -3.928 HBL2 MLD 111
-MLD HBL3 3HBL H 0 0 N N N 37.129 18.759 29.969 -12.728  0.651 -2.962 HBL3 MLD 112
-MLD HOBN HOBN H 0 0 N N N 37.983 21.313 27.320 -15.298 -2.158 -1.607 HOBN MLD 113
-MLD HBP1 1HBP H 0 0 N N N 33.291 15.084 26.963  -8.950  2.002 -1.231 HBP1 MLD 114
-MLD HBP2 2HBP H 0 0 N N N 31.601 15.617 26.553 -10.312  1.858 -0.094 HBP2 MLD 115
-MLD HBQ1 1HBQ H 0 0 N N N 31.627 17.033 28.623  -8.737  2.021  1.814 HBQ1 MLD 116
-MLD HBQ2 2HBQ H 0 0 N N N 33.234 16.314 29.047  -7.375  2.165  0.677 HBQ2 MLD 117
-MLD HBR1 1HBR H 0 0 N N N 32.339 14.228 29.465  -8.375  4.232 -0.260 HBR1 MLD 118
-MLD HBR2 2HBR H 0 0 N N N 30.852 14.544 28.449  -9.737  4.088  0.877 HBR2 MLD 119
-MLD  HBS  HBS H 0 1 N N N 30.500 14.413 30.980  -8.098  4.188  2.778  HBS MLD 120
-MLD HOBU HOBU H 0 0 N N N 28.694 17.713 30.024  -9.522  7.458  2.368 HOBU MLD 121
-MLD HBW1 1HBW H 0 0 N N N 31.190 17.002 31.531  -6.271  3.427  1.446 HBW1 MLD 122
-MLD HBW2 2HBW H 0 0 N N N 32.519 16.321 30.870  -6.253  4.817  0.615 HBW2 MLD 123
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+MLD CAA  CAA  C 0 1 N N N 30.514 17.557 8.212  10.748  -2.384 0.943  CAA  MLD 1   
+MLD CAB  CAB  C 0 1 N N N 31.227 17.779 9.537  10.083  -1.446 -0.031 CAB  MLD 2   
+MLD OAC  OAC  O 0 1 N N N 30.966 18.753 10.231 9.293   -1.876 -0.845 OAC  MLD 3   
+MLD N2   N2   N 0 1 N N N 32.118 16.844 9.853  10.368  -0.128 0.001  N2   MLD 4   
+MLD C2   C2   C 0 1 N N R 32.944 16.871 11.055 9.722   0.783  -0.947 C2   MLD 5   
+MLD C3   C3   C 0 1 N N R 34.395 16.689 10.602 10.604  2.021  -1.150 C3   MLD 6   
+MLD O3   O3   O 0 1 N N N 34.824 17.727 9.699  11.817  1.646  -1.806 O3   MLD 7   
+MLD C4   C4   C 0 1 N N S 35.326 16.541 11.801 9.840   3.029  -2.017 C4   MLD 8   
+MLD O4   O4   O 0 1 N N N 36.601 16.187 11.296 10.580  4.249  -2.098 O4   MLD 9   
+MLD C5   C5   C 0 1 N N R 34.816 15.416 12.708 8.475   3.299  -1.381 C5   MLD 10  
+MLD C6   C6   C 0 1 N N N 35.579 15.222 14.031 7.718   4.330  -2.222 C6   MLD 11  
+MLD O6   O6   O 0 1 N N N 35.119 13.981 14.642 6.497   4.676  -1.566 O6   MLD 12  
+MLD O5   O5   O 0 1 N N N 33.491 15.756 13.108 7.721   2.090  -1.322 O5   MLD 13  
+MLD C1   C1   C 0 1 N N S 32.559 15.749 12.002 8.366   1.224  -0.391 C1   MLD 14  
+MLD O1   O1   O 0 1 N N N 31.274 16.009 12.504 7.548   0.073  -0.167 O1   MLD 15  
+MLD CA4  CA4  C 0 1 N N S 30.743 14.880 13.238 6.350   0.534  0.462  CA4  MLD 16  
+MLD CA5  CA5  C 0 1 N N R 30.279 13.687 12.402 6.530   0.518  1.991  CA5  MLD 17  
+MLD OA5  OA5  O 0 1 N N N 28.856 13.363 12.557 6.940   -0.850 2.339  OA5  MLD 18  
+MLD CA6  CA6  C 0 1 N N N 30.916 12.560 13.139 5.143   0.645  2.665  CA6  MLD 19  
+MLD OA6  OA6  O 0 1 N N N 30.035 12.314 14.217 4.681   -0.709 2.818  OA6  MLD 20  
+MLD CA1  CA1  C 0 1 N N R 28.808 13.060 13.961 5.687   -1.564 2.246  CA1  MLD 21  
+MLD CA2  CA2  C 0 1 N N R 28.863 14.359 14.781 5.369   -1.748 0.754  CA2  MLD 22  
+MLD NAD  NAD  N 0 1 N N N 27.489 14.808 15.093 6.485   -2.428 0.091  NAD  MLD 23  
+MLD CAE  CAE  C 0 1 N N N 27.070 15.029 16.326 6.552   -3.774 0.096  CAE  MLD 24  
+MLD CAF  CAF  C 0 1 N N N 25.623 15.468 16.426 7.699   -4.474 -0.585 CAF  MLD 25  
+MLD OAG  OAG  O 0 1 N N N 27.774 14.915 17.330 5.688   -4.422 0.649  OAG  MLD 26  
+MLD CA3  CA3  C 0 1 N N R 29.573 15.470 14.010 5.160   -0.369 0.119  CA3  MLD 27  
+MLD OAH  OAH  O 0 1 N N N 30.096 16.514 14.904 3.958   0.213  0.628  OAH  MLD 28  
+MLD CAI  CAI  C 0 1 N N R 29.266 17.698 14.988 2.901   -0.194 -0.243 CAI  MLD 29  
+MLD CAJ  CAJ  C 0 1 N N N 29.639 18.743 13.962 2.744   0.831  -1.368 CAJ  MLD 30  
+MLD CAL  CAL  C 0 1 N N N 29.418 18.320 16.392 1.614   -0.284 0.537  CAL  MLD 31  
+MLD OAM  OAM  O 0 1 N N N 28.831 19.375 16.605 1.584   0.061  1.699  OAM  MLD 32  
+MLD N    N    N 0 1 N N N 30.154 17.688 17.306 0.497   -0.748 -0.058 N    MLD 33  
+MLD CA   CA   C 0 1 N N S 30.339 18.164 18.683 -0.754  -0.836 0.700  CA   MLD 34  
+MLD CB   CB   C 0 1 N N N 29.195 17.547 19.495 -1.470  0.516  0.660  CB   MLD 35  
+MLD C    C    C 0 1 N N N 31.676 17.591 19.186 -1.638  -1.892 0.088  C    MLD 36  
+MLD O    O    O 0 1 N N N 31.904 16.382 19.096 -1.261  -2.510 -0.884 O    MLD 37  
+MLD NAN  NAN  N 0 1 N N N 32.521 18.497 19.671 -2.849  -2.149 0.623  NAN  MLD 38  
+MLD CAO  CAO  C 0 1 N N R 33.859 18.208 20.211 -3.708  -3.175 0.029  CAO  MLD 39  
+MLD CAP  CAP  C 0 1 N N N 34.931 19.177 19.615 -3.336  -4.526 0.584  CAP  MLD 40  
+MLD OBA  OBA  O 0 1 N N N 35.972 19.288 20.268 -3.996  -5.623 0.180  OBA  MLD 41  
+MLD OAQ  OAQ  O 0 1 N N N 34.697 19.814 18.559 -2.444  -4.621 1.394  OAQ  MLD 42  
+MLD CBB  CBB  C 0 1 N N N 33.861 18.503 21.707 -5.170  -2.872 0.362  CBB  MLD 43  
+MLD CBC  CBC  C 0 1 N N N 33.024 17.556 22.550 -5.584  -1.560 -0.307 CBC  MLD 44  
+MLD CBD  CBD  C 0 1 N N N 33.199 17.928 24.033 -7.024  -1.260 0.022  CBD  MLD 45  
+MLD OBE  OBE  O 0 1 N N N 33.512 19.068 24.379 -7.657  -2.022 0.722  OBE  MLD 46  
+MLD NBF  NBF  N 0 1 N N N 32.995 16.946 24.885 -7.609  -0.147 -0.463 NBF  MLD 47  
+MLD CBG  CBG  C 0 1 N N S 33.120 17.134 26.336 -9.009  0.144  -0.144 CBG  MLD 48  
+MLD CBH  CBH  C 0 1 N N N 34.596 17.385 26.705 -9.906  -0.577 -1.116 CBH  MLD 49  
+MLD OBI  OBI  O 0 1 N N N 35.497 16.707 26.214 -9.424  -1.265 -1.991 OBI  MLD 50  
+MLD NBJ  NBJ  N 0 1 N N N 34.803 18.398 27.544 -11.245 -0.456 -1.015 NBJ  MLD 51  
+MLD CBK  CBK  C 0 1 N N R 36.138 18.795 28.045 -12.117 -1.156 -1.961 CBK  MLD 52  
+MLD CBL  CBL  C 0 1 N N N 36.101 18.766 29.577 -12.284 -0.310 -3.224 CBL  MLD 53  
+MLD CBM  CBM  C 0 1 N N N 36.578 20.208 27.605 -13.466 -1.383 -1.327 CBM  MLD 54  
+MLD OBO  OBO  O 0 1 N N N 35.687 21.051 27.322 -13.676 -0.999 -0.201 OBO  MLD 55  
+MLD OBN  OBN  O 0 1 N N N 37.817 20.416 27.584 -14.433 -2.012 -2.014 OBN  MLD 56  
+MLD CBP  CBP  C 0 1 N N N 32.548 15.892 27.040 -9.253  1.651  -0.245 CBP  MLD 57  
+MLD CBQ  CBQ  C 0 1 N N N 32.276 16.149 28.533 -8.434  2.373  0.827  CBQ  MLD 58  
+MLD CBR  CBR  C 0 1 N N N 31.566 14.956 29.178 -8.678  3.880  0.726  CBR  MLD 59  
+MLD CBS  CBS  C 0 1 N N R 30.795 15.329 30.446 -7.860  4.602  1.799  CBS  MLD 60  
+MLD CBT  CBT  C 0 1 N N N 29.536 16.119 30.063 -8.193  6.072  1.780  CBT  MLD 61  
+MLD OBV  OBV  O 0 1 N N N 28.609 15.473 29.547 -7.455  6.851  1.224  OBV  MLD 62  
+MLD OBU  OBU  O 0 1 N N N 29.525 17.344 30.300 -9.308  6.515  2.380  OBU  MLD 63  
+MLD NBW  NBW  N 0 1 N N N 31.648 16.137 31.326 -6.428  4.421  1.526  NBW  MLD 64  
+MLD HAA1 1HAA H 0 0 N N N 30.861 16.615 7.763  11.419  -1.819 1.590  HAA1 MLD 65  
+MLD HAA2 2HAA H 0 0 N N N 30.737 18.392 7.532  9.987   -2.875 1.550  HAA2 MLD 66  
+MLD HAA3 3HAA H 0 0 N N N 29.429 17.503 8.383  11.316  -3.134 0.395  HAA3 MLD 67  
+MLD HN2  HN2  H 0 1 N N N 32.229 16.073 9.226  11.000  0.216  0.651  HN2  MLD 68  
+MLD H2   H2   H 0 1 N N N 32.805 17.821 11.592 9.579   0.277  -1.901 H2   MLD 69  
+MLD H3   H3   H 0 1 N N N 34.445 15.752 10.027 10.834  2.470  -0.184 H3   MLD 70  
+MLD HO3  HO3  H 0 1 N N N 34.918 18.543 10.176 12.332  2.456  -1.924 HO3  MLD 71  
+MLD H4   H4   H 0 1 N N N 35.371 17.475 12.381 9.702   2.619  -3.017 H4   MLD 72  
+MLD HO4  HO4  H 0 1 N N N 36.557 16.108 10.350 10.061  4.854  -2.645 HO4  MLD 73  
+MLD H5   H5   H 0 1 N N N 34.926 14.497 12.113 8.615   3.688  -0.372 H5   MLD 74  
+MLD H61  1H6  H 0 1 N N N 35.392 16.070 14.706 8.333   5.222  -2.341 H61  MLD 75  
+MLD H62  2H6  H 0 1 N N N 36.660 15.165 13.835 7.497   3.907  -3.202 H62  MLD 76  
+MLD HO6  HO6  H 0 1 N N N 35.019 13.315 13.972 6.053   5.326  -2.128 HO6  MLD 77  
+MLD H1   H1   H 0 1 N N N 32.577 14.780 11.482 8.515   1.751  0.552  H1   MLD 78  
+MLD HA4  HA4  H 0 1 N N N 31.541 14.442 13.855 6.129   1.548  0.130  HA4  MLD 79  
+MLD HA5  HA5  H 0 1 N N N 30.500 13.869 11.340 7.238   1.271  2.339  HA5  MLD 80  
+MLD HA61 1HA6 H 0 0 N N N 31.936 12.800 13.475 4.462   1.208  2.027  HA61 MLD 81  
+MLD HA62 2HA6 H 0 0 N N N 31.022 11.672 12.498 5.238   1.126  3.638  HA62 MLD 82  
+MLD HA1  HA1  H 0 1 N N N 27.893 12.513 14.230 5.736   -2.522 2.762  HA1  MLD 83  
+MLD HA2  HA2  H 0 1 N N N 29.422 14.151 15.705 4.462   -2.342 0.644  HA2  MLD 84  
+MLD HNAD HNAD H 0 0 N N N 26.849 14.950 14.338 7.176   -1.910 -0.351 HNAD MLD 85  
+MLD HAF1 1HAF H 0 0 N N N 24.978 14.714 15.951 8.369   -3.733 -1.022 HAF1 MLD 86  
+MLD HAF2 2HAF H 0 0 N N N 25.497 16.434 15.915 8.245   -5.072 0.145  HAF2 MLD 87  
+MLD HAF3 3HAF H 0 0 N N N 25.344 15.574 17.485 7.314   -5.124 -1.371 HAF3 MLD 88  
+MLD HA3  HA3  H 0 1 N N N 28.834 15.924 13.333 5.083   -0.474 -0.963 HA3  MLD 89  
+MLD HAI  HAI  H 0 1 N N N 28.230 17.385 14.793 3.136   -1.169 -0.670 HAI  MLD 90  
+MLD HAJ1 1HAJ H 0 0 N N N 28.859 18.791 13.188 3.675   0.897  -1.932 HAJ1 MLD 91  
+MLD HAJ2 2HAJ H 0 0 N N N 30.600 18.475 13.498 1.938   0.521  -2.033 HAJ2 MLD 92  
+MLD HAJ3 3HAJ H 0 0 N N N 29.730 19.723 14.453 2.509   1.806  -0.941 HAJ3 MLD 93  
+MLD HN   HN   H 0 1 N N N 30.608 16.838 17.038 0.521   -1.024 -0.988 HN   MLD 94  
+MLD HA   HA   H 0 1 N N N 30.343 19.261 18.764 -0.534  -1.100 1.734  HA   MLD 95  
+MLD HB1  1HB  H 0 1 N N N 28.916 16.577 19.057 -2.401  0.450  1.223  HB1  MLD 96  
+MLD HB2  2HB  H 0 1 N N N 28.326 18.222 19.476 -0.830  1.279  1.102  HB2  MLD 97  
+MLD HB3  3HB  H 0 1 N N N 29.521 17.399 20.535 -1.690  0.780  -0.375 HB3  MLD 98  
+MLD HNAN HNAN H 0 0 N N N 32.223 19.451 19.668 -3.150  -1.654 1.401  HNAN MLD 99  
+MLD HAO  HAO  H 0 1 N N N 34.090 17.160 19.969 -3.576  -3.179 -1.053 HAO  MLD 100 
+MLD HOBA HOBA H 0 0 N N N 36.545 19.918 19.847 -3.757  -6.489 0.537  HOBA MLD 101 
+MLD HBB1 1HBB H 0 0 N N N 33.415 19.501 21.827 -5.285  -2.780 1.442  HBB1 MLD 102 
+MLD HBB2 2HBB H 0 0 N N N 34.901 18.433 22.059 -5.802  -3.681 -0.003 HBB2 MLD 103 
+MLD HBC1 1HBC H 0 0 N N N 33.351 16.519 22.384 -5.470  -1.651 -1.387 HBC1 MLD 104 
+MLD HBC2 2HBC H 0 0 N N N 31.965 17.646 22.268 -4.953  -0.750 0.058  HBC2 MLD 105 
+MLD HNBF HNBF H 0 0 N N N 32.747 16.043 24.533 -7.103  0.462  -1.023 HNBF MLD 106 
+MLD HBG  HBG  H 0 1 N N N 32.550 18.015 26.668 -9.228  -0.192 0.870  HBG  MLD 107 
+MLD HNBJ HNBJ H 0 0 N N N 34.009 18.922 27.854 -11.630 0.095  -0.316 HNBJ MLD 108 
+MLD HBK  HBK  H 0 1 N N N 36.863 18.085 27.620 -11.673 -2.116 -2.223 HBK  MLD 109 
+MLD HBL1 1HBL H 0 0 N N N 35.574 17.861 29.914 -11.308 -0.145 -3.683 HBL1 MLD 110 
+MLD HBL2 2HBL H 0 0 N N N 35.573 19.657 29.948 -12.933 -0.831 -3.928 HBL2 MLD 111 
+MLD HBL3 3HBL H 0 0 N N N 37.129 18.759 29.969 -12.728 0.651  -2.962 HBL3 MLD 112 
+MLD HOBN HOBN H 0 0 N N N 37.983 21.313 27.320 -15.298 -2.158 -1.607 HOBN MLD 113 
+MLD HBP1 1HBP H 0 0 N N N 33.291 15.084 26.963 -8.950  2.002  -1.231 HBP1 MLD 114 
+MLD HBP2 2HBP H 0 0 N N N 31.601 15.617 26.553 -10.312 1.858  -0.094 HBP2 MLD 115 
+MLD HBQ1 1HBQ H 0 0 N N N 31.627 17.033 28.623 -8.737  2.021  1.814  HBQ1 MLD 116 
+MLD HBQ2 2HBQ H 0 0 N N N 33.234 16.314 29.047 -7.375  2.165  0.677  HBQ2 MLD 117 
+MLD HBR1 1HBR H 0 0 N N N 32.339 14.228 29.465 -8.375  4.232  -0.260 HBR1 MLD 118 
+MLD HBR2 2HBR H 0 0 N N N 30.852 14.544 28.449 -9.737  4.088  0.877  HBR2 MLD 119 
+MLD HBS  HBS  H 0 1 N N N 30.500 14.413 30.980 -8.098  4.188  2.778  HBS  MLD 120 
+MLD HOBU HOBU H 0 0 N N N 28.694 17.713 30.024 -9.522  7.458  2.368  HOBU MLD 121 
+MLD HBW1 1HBW H 0 0 N N N 31.190 17.002 31.531 -6.271  3.427  1.446  HBW1 MLD 122 
+MLD HBW2 2HBW H 0 0 N N N 32.519 16.321 30.870 -6.253  4.817  0.615  HBW2 MLD 123 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-MLD CAA  CAB SING N N   1
-MLD CAA HAA1 SING N N   2
-MLD CAA HAA2 SING N N   3
-MLD CAA HAA3 SING N N   4
-MLD CAB  OAC DOUB N N   5
-MLD CAB   N2 SING N N   6
-MLD  N2   C2 SING N N   7
-MLD  N2  HN2 SING N N   8
-MLD  C2   C3 SING N N   9
-MLD  C2   C1 SING N N  10
-MLD  C2   H2 SING N N  11
-MLD  C3   O3 SING N N  12
-MLD  C3   C4 SING N N  13
-MLD  C3   H3 SING N N  14
-MLD  O3  HO3 SING N N  15
-MLD  C4   O4 SING N N  16
-MLD  C4   C5 SING N N  17
-MLD  C4   H4 SING N N  18
-MLD  O4  HO4 SING N N  19
-MLD  C5   C6 SING N N  20
-MLD  C5   O5 SING N N  21
-MLD  C5   H5 SING N N  22
-MLD  C6   O6 SING N N  23
-MLD  C6  H61 SING N N  24
-MLD  C6  H62 SING N N  25
-MLD  O6  HO6 SING N N  26
-MLD  O5   C1 SING N N  27
-MLD  C1   O1 SING N N  28
-MLD  C1   H1 SING N N  29
-MLD  O1  CA4 SING N N  30
-MLD CA4  CA5 SING N N  31
-MLD CA4  CA3 SING N N  32
-MLD CA4  HA4 SING N N  33
-MLD CA5  OA5 SING N N  34
-MLD CA5  CA6 SING N N  35
-MLD CA5  HA5 SING N N  36
-MLD OA5  CA1 SING N N  37
-MLD CA6  OA6 SING N N  38
-MLD CA6 HA61 SING N N  39
-MLD CA6 HA62 SING N N  40
-MLD OA6  CA1 SING N N  41
-MLD CA1  CA2 SING N N  42
-MLD CA1  HA1 SING N N  43
-MLD CA2  NAD SING N N  44
-MLD CA2  CA3 SING N N  45
-MLD CA2  HA2 SING N N  46
-MLD NAD  CAE SING N N  47
-MLD NAD HNAD SING N N  48
-MLD CAE  CAF SING N N  49
-MLD CAE  OAG DOUB N N  50
-MLD CAF HAF1 SING N N  51
-MLD CAF HAF2 SING N N  52
-MLD CAF HAF3 SING N N  53
-MLD CA3  OAH SING N N  54
-MLD CA3  HA3 SING N N  55
-MLD OAH  CAI SING N N  56
-MLD CAI  CAJ SING N N  57
-MLD CAI  CAL SING N N  58
-MLD CAI  HAI SING N N  59
-MLD CAJ HAJ1 SING N N  60
-MLD CAJ HAJ2 SING N N  61
-MLD CAJ HAJ3 SING N N  62
-MLD CAL  OAM DOUB N N  63
-MLD CAL    N SING N N  64
-MLD   N   CA SING N N  65
-MLD   N   HN SING N N  66
-MLD  CA   CB SING N N  67
-MLD  CA    C SING N N  68
-MLD  CA   HA SING N N  69
-MLD  CB  HB1 SING N N  70
-MLD  CB  HB2 SING N N  71
-MLD  CB  HB3 SING N N  72
-MLD   C    O DOUB N N  73
-MLD   C  NAN SING N N  74
-MLD NAN  CAO SING N N  75
-MLD NAN HNAN SING N N  76
-MLD CAO  CAP SING N N  77
-MLD CAO  CBB SING N N  78
-MLD CAO  HAO SING N N  79
-MLD CAP  OBA SING N N  80
-MLD CAP  OAQ DOUB N N  81
-MLD OBA HOBA SING N N  82
-MLD CBB  CBC SING N N  83
-MLD CBB HBB1 SING N N  84
-MLD CBB HBB2 SING N N  85
-MLD CBC  CBD SING N N  86
-MLD CBC HBC1 SING N N  87
-MLD CBC HBC2 SING N N  88
-MLD CBD  OBE DOUB N N  89
-MLD CBD  NBF SING N N  90
-MLD NBF  CBG SING N N  91
-MLD NBF HNBF SING N N  92
-MLD CBG  CBH SING N N  93
-MLD CBG  CBP SING N N  94
-MLD CBG  HBG SING N N  95
-MLD CBH  OBI DOUB N N  96
-MLD CBH  NBJ SING N N  97
-MLD NBJ  CBK SING N N  98
-MLD NBJ HNBJ SING N N  99
-MLD CBK  CBL SING N N 100
-MLD CBK  CBM SING N N 101
-MLD CBK  HBK SING N N 102
-MLD CBL HBL1 SING N N 103
-MLD CBL HBL2 SING N N 104
-MLD CBL HBL3 SING N N 105
-MLD CBM  OBO DOUB N N 106
-MLD CBM  OBN SING N N 107
-MLD OBN HOBN SING N N 108
-MLD CBP  CBQ SING N N 109
-MLD CBP HBP1 SING N N 110
-MLD CBP HBP2 SING N N 111
-MLD CBQ  CBR SING N N 112
-MLD CBQ HBQ1 SING N N 113
-MLD CBQ HBQ2 SING N N 114
-MLD CBR  CBS SING N N 115
-MLD CBR HBR1 SING N N 116
-MLD CBR HBR2 SING N N 117
-MLD CBS  CBT SING N N 118
-MLD CBS  NBW SING N N 119
-MLD CBS  HBS SING N N 120
-MLD CBT  OBV DOUB N N 121
-MLD CBT  OBU SING N N 122
-MLD OBU HOBU SING N N 123
-MLD NBW HBW1 SING N N 124
-MLD NBW HBW2 SING N N 125
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+MLD CAA CAB  SING N N 1   
+MLD CAA HAA1 SING N N 2   
+MLD CAA HAA2 SING N N 3   
+MLD CAA HAA3 SING N N 4   
+MLD CAB OAC  DOUB N N 5   
+MLD CAB N2   SING N N 6   
+MLD N2  C2   SING N N 7   
+MLD N2  HN2  SING N N 8   
+MLD C2  C3   SING N N 9   
+MLD C2  C1   SING N N 10  
+MLD C2  H2   SING N N 11  
+MLD C3  O3   SING N N 12  
+MLD C3  C4   SING N N 13  
+MLD C3  H3   SING N N 14  
+MLD O3  HO3  SING N N 15  
+MLD C4  O4   SING N N 16  
+MLD C4  C5   SING N N 17  
+MLD C4  H4   SING N N 18  
+MLD O4  HO4  SING N N 19  
+MLD C5  C6   SING N N 20  
+MLD C5  O5   SING N N 21  
+MLD C5  H5   SING N N 22  
+MLD C6  O6   SING N N 23  
+MLD C6  H61  SING N N 24  
+MLD C6  H62  SING N N 25  
+MLD O6  HO6  SING N N 26  
+MLD O5  C1   SING N N 27  
+MLD C1  O1   SING N N 28  
+MLD C1  H1   SING N N 29  
+MLD O1  CA4  SING N N 30  
+MLD CA4 CA5  SING N N 31  
+MLD CA4 CA3  SING N N 32  
+MLD CA4 HA4  SING N N 33  
+MLD CA5 OA5  SING N N 34  
+MLD CA5 CA6  SING N N 35  
+MLD CA5 HA5  SING N N 36  
+MLD OA5 CA1  SING N N 37  
+MLD CA6 OA6  SING N N 38  
+MLD CA6 HA61 SING N N 39  
+MLD CA6 HA62 SING N N 40  
+MLD OA6 CA1  SING N N 41  
+MLD CA1 CA2  SING N N 42  
+MLD CA1 HA1  SING N N 43  
+MLD CA2 NAD  SING N N 44  
+MLD CA2 CA3  SING N N 45  
+MLD CA2 HA2  SING N N 46  
+MLD NAD CAE  SING N N 47  
+MLD NAD HNAD SING N N 48  
+MLD CAE CAF  SING N N 49  
+MLD CAE OAG  DOUB N N 50  
+MLD CAF HAF1 SING N N 51  
+MLD CAF HAF2 SING N N 52  
+MLD CAF HAF3 SING N N 53  
+MLD CA3 OAH  SING N N 54  
+MLD CA3 HA3  SING N N 55  
+MLD OAH CAI  SING N N 56  
+MLD CAI CAJ  SING N N 57  
+MLD CAI CAL  SING N N 58  
+MLD CAI HAI  SING N N 59  
+MLD CAJ HAJ1 SING N N 60  
+MLD CAJ HAJ2 SING N N 61  
+MLD CAJ HAJ3 SING N N 62  
+MLD CAL OAM  DOUB N N 63  
+MLD CAL N    SING N N 64  
+MLD N   CA   SING N N 65  
+MLD N   HN   SING N N 66  
+MLD CA  CB   SING N N 67  
+MLD CA  C    SING N N 68  
+MLD CA  HA   SING N N 69  
+MLD CB  HB1  SING N N 70  
+MLD CB  HB2  SING N N 71  
+MLD CB  HB3  SING N N 72  
+MLD C   O    DOUB N N 73  
+MLD C   NAN  SING N N 74  
+MLD NAN CAO  SING N N 75  
+MLD NAN HNAN SING N N 76  
+MLD CAO CAP  SING N N 77  
+MLD CAO CBB  SING N N 78  
+MLD CAO HAO  SING N N 79  
+MLD CAP OBA  SING N N 80  
+MLD CAP OAQ  DOUB N N 81  
+MLD OBA HOBA SING N N 82  
+MLD CBB CBC  SING N N 83  
+MLD CBB HBB1 SING N N 84  
+MLD CBB HBB2 SING N N 85  
+MLD CBC CBD  SING N N 86  
+MLD CBC HBC1 SING N N 87  
+MLD CBC HBC2 SING N N 88  
+MLD CBD OBE  DOUB N N 89  
+MLD CBD NBF  SING N N 90  
+MLD NBF CBG  SING N N 91  
+MLD NBF HNBF SING N N 92  
+MLD CBG CBH  SING N N 93  
+MLD CBG CBP  SING N N 94  
+MLD CBG HBG  SING N N 95  
+MLD CBH OBI  DOUB N N 96  
+MLD CBH NBJ  SING N N 97  
+MLD NBJ CBK  SING N N 98  
+MLD NBJ HNBJ SING N N 99  
+MLD CBK CBL  SING N N 100 
+MLD CBK CBM  SING N N 101 
+MLD CBK HBK  SING N N 102 
+MLD CBL HBL1 SING N N 103 
+MLD CBL HBL2 SING N N 104 
+MLD CBL HBL3 SING N N 105 
+MLD CBM OBO  DOUB N N 106 
+MLD CBM OBN  SING N N 107 
+MLD OBN HOBN SING N N 108 
+MLD CBP CBQ  SING N N 109 
+MLD CBP HBP1 SING N N 110 
+MLD CBP HBP2 SING N N 111 
+MLD CBQ CBR  SING N N 112 
+MLD CBQ HBQ1 SING N N 113 
+MLD CBQ HBQ2 SING N N 114 
+MLD CBR CBS  SING N N 115 
+MLD CBR HBR1 SING N N 116 
+MLD CBR HBR2 SING N N 117 
+MLD CBS CBT  SING N N 118 
+MLD CBS NBW  SING N N 119 
+MLD CBS HBS  SING N N 120 
+MLD CBT OBV  DOUB N N 121 
+MLD CBT OBU  SING N N 122 
+MLD OBU HOBU SING N N 123 
+MLD NBW HBW1 SING N N 124 
+MLD NBW HBW2 SING N N 125 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-MLD           SMILES              ACDLabs 10.04                                                                                                                                                                                                                                                                                                           O=C(O)C(NC(=O)C(NC(=O)CCC(C(=O)O)NC(=O)C(NC(=O)C(OC3C(OC1OC(CO)C(O)C(O)C1NC(=O)C)C2OC(OC2)C3NC(=O)C)C)C)CCCC(C(=O)O)N)C
-MLD SMILES_CANONICAL               CACTVS 3.341                                                                                                                                                                                                                                 C[C@@H](NC(=O)[C@H](CCC[C@@H](N)C(O)=O)NC(=O)CC[C@@H](NC(=O)[C@H](C)NC(=O)[C@@H](C)O[C@@H]1[C@@H](NC(C)=O)[C@@H]2OC[C@@H](O2)[C@H]1O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3NC(C)=O)C(O)=O)C(O)=O
-MLD           SMILES               CACTVS 3.341                                                                                                                                                                                                                                                           C[CH](NC(=O)[CH](CCC[CH](N)C(O)=O)NC(=O)CC[CH](NC(=O)[CH](C)NC(=O)[CH](C)O[CH]1[CH](NC(C)=O)[CH]2OC[CH](O2)[CH]1O[CH]3O[CH](CO)[CH](O)[CH](O)[CH]3NC(C)=O)C(O)=O)C(O)=O
-MLD SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                                                                                                                  C[C@@H](C(=O)N[C@H](CCC(=O)N[C@@H](CCC[C@H](C(=O)O)N)C(=O)N[C@H](C)C(=O)O)C(=O)O)NC(=O)[C@@H](C)O[C@@H]1[C@H]([C@@H]2OC[C@H]([C@H]1O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)NC(=O)C)O2)NC(=O)C
-MLD           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                                                                                                                                                                         CC(C(=O)NC(CCC(=O)NC(CCCC(C(=O)O)N)C(=O)NC(C)C(=O)O)C(=O)O)NC(=O)C(C)OC1C(C2OCC(C1OC3C(C(C(C(O3)CO)O)O)NC(=O)C)O2)NC(=O)C
-MLD            InChI                InChI  1.03 InChI=1S/C37H59N7O20/c1-13(30(51)44-20(35(58)59)9-10-23(48)43-19(8-6-7-18(38)34(56)57)32(53)40-14(2)33(54)55)39-31(52)15(3)61-29-25(42-17(5)47)36-60-12-22(63-36)28(29)64-37-24(41-16(4)46)27(50)26(49)21(11-45)62-37/h13-15,18-22,24-29,36-37,45,49-50H,6-12,38H2,1-5H3,(H,39,52)(H,40,53)(H,41,46)(H,42,47)(H,43,48)(H,44,51)(H,54,55)(H,56,57)(H,58,59)/t13-,14+,15+,18+,19-,20+,21+,22+,24+,25+,26+,27+,28+,29+,36+,37-/m0/s1
-MLD         InChIKey                InChI  1.03                                                                                                                                                                                                                                                                                                                                                                                                       UPFMKPIBAIPLHT-RSJSDIDPSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+MLD SMILES           ACDLabs              10.04 "O=C(O)C(NC(=O)C(NC(=O)CCC(C(=O)O)NC(=O)C(NC(=O)C(OC3C(OC1OC(CO)C(O)C(O)C1NC(=O)C)C2OC(OC2)C3NC(=O)C)C)C)CCCC(C(=O)O)N)C" 
+MLD SMILES_CANONICAL CACTVS               3.341 "C[C@@H](NC(=O)[C@H](CCC[C@@H](N)C(O)=O)NC(=O)CC[C@@H](NC(=O)[C@H](C)NC(=O)[C@@H](C)O[C@@H]1[C@@H](NC(C)=O)[C@@H]2OC[C@@H](O2)[C@H]1O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3NC(C)=O)C(O)=O)C(O)=O" 
+MLD SMILES           CACTVS               3.341 "C[CH](NC(=O)[CH](CCC[CH](N)C(O)=O)NC(=O)CC[CH](NC(=O)[CH](C)NC(=O)[CH](C)O[CH]1[CH](NC(C)=O)[CH]2OC[CH](O2)[CH]1O[CH]3O[CH](CO)[CH](O)[CH](O)[CH]3NC(C)=O)C(O)=O)C(O)=O" 
+MLD SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[C@@H](C(=O)N[C@H](CCC(=O)N[C@@H](CCC[C@H](C(=O)O)N)C(=O)N[C@H](C)C(=O)O)C(=O)O)NC(=O)[C@@H](C)O[C@@H]1[C@H]([C@@H]2OC[C@H]([C@H]1O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)NC(=O)C)O2)NC(=O)C" 
+MLD SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C(=O)NC(CCC(=O)NC(CCCC(C(=O)O)N)C(=O)NC(C)C(=O)O)C(=O)O)NC(=O)C(C)OC1C(C2OCC(C1OC3C(C(C(C(O3)CO)O)O)NC(=O)C)O2)NC(=O)C" 
+MLD InChI            InChI                1.03  
+;InChI=1S/C37H59N7O20/c1-13(30(51)44-20(35(58)59)9-10-23(48)43-19(8-6-7-18(38)34(56)57)32(53)40-14(2)33(54)55)39-31(52)15(3)61-29-25(42-17(5)47)36-60-12-22(63-36)28(29)64-37-24(41-16(4)46)27(50)26(49)21(11-45)62-37/h13-15,18-22,24-29,36-37,45,49-50H,6-12,38H2,1-5H3,(H,39,52)(H,40,53)(H,41,46)(H,42,47)(H,43,48)(H,44,51)(H,54,55)(H,56,57)(H,58,59)/t13-,14+,15+,18+,19-,20+,21+,22+,24+,25+,26+,27+,28+,29+,36+,37-/m0/s1
+;
+MLD InChIKey         InChI                1.03  UPFMKPIBAIPLHT-RSJSDIDPSA-N 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-MLD "SYSTEMATIC NAME"              ACDLabs 10.04 "(2R,5S,10R,13S,16R)-16-{[(1R,2S,3R,4R,5R)-4-(acetylamino)-2-{[(2S,3R,4R,5S,6R)-3-(acetylamino)-4,5-dihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-yl]oxy}-6,8-dioxabicyclo[3.2.1]oct-3-yl]oxy}-5-[(4R)-4-amino-4-carboxybutyl]-10-carboxy-2,13-dimethyl-4,7,12,15-tetraoxo-3,6,11,14-tetraazaheptadecan-1-oic acid (non-preferred name)"
-MLD "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0         "(2R,6S)-6-[[(4R)-4-[[(2S)-2-[[(2R)-2-[[(1R,2S,3R,4R,5R)-4-acetamido-2-[(2S,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6,8-dioxabicyclo[3.2.1]octan-3-yl]oxy]propanoyl]amino]propanoyl]amino]-5-hydroxy-5-oxo-pentanoyl]amino]-2-amino-7-[[(2R)-1-hydroxy-1-oxo-propan-2-yl]amino]-7-oxo-heptanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+MLD "SYSTEMATIC NAME" ACDLabs              10.04 
+;(2R,5S,10R,13S,16R)-16-{[(1R,2S,3R,4R,5R)-4-(acetylamino)-2-{[(2S,3R,4R,5S,6R)-3-(acetylamino)-4,5-dihydroxy-6-(hydroxymethyl)tetrahydro-2H-pyran-2-yl]oxy}-6,8-dioxabicyclo[3.2.1]oct-3-yl]oxy}-5-[(4R)-4-amino-4-carboxybutyl]-10-carboxy-2,13-dimethyl-4,7,12,15-tetraoxo-3,6,11,14-tetraazaheptadecan-1-oic acid (non-preferred name)
+;
+MLD "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 
+;(2R,6S)-6-[[(4R)-4-[[(2S)-2-[[(2R)-2-[[(1R,2S,3R,4R,5R)-4-acetamido-2-[(2S,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6,8-dioxabicyclo[3.2.1]octan-3-yl]oxy]propanoyl]amino]propanoyl]amino]-5-hydroxy-5-oxo-pentanoyl]amino]-2-amino-7-[[(2R)-1-hydroxy-1-oxo-propan-2-yl]amino]-7-oxo-heptanoic acid
+;
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-MLD  "Create component" 2005-11-18 RCSB
-MLD "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   MLD
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB04736
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOPYRANOSE(BETA1-4)-2-ACETAMIDO-1,6-ANHYDRO-3-O-[(R)-1-CARBOXYETHYL]-2-DEOXY-BETA-D-GLUCOPYRANOSE-L-ALANYL-GAMMA-D-GLUTAMYL-MESO-DIAMINOPIMELYL-D-ALANINE
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           MLD
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB04736
-_pdbe_chem_comp_drugbank_classification.parent            Oligopeptides
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as oligopeptides. These are organic compounds containing a sequence of between three and ten alpha-amino acids joined by peptide bonds."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        MLD
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB04736
-_pdbe_chem_comp_drugbank_targets.name                           "Peptidoglycan recognition protein 3"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     Q96LB9
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-MLD CAA C -3.632 -1.744  1
-MLD CAB C -3.624 -2.745  2
-MLD OAC O -4.484 -3.252  3
-MLD  N2 N -2.755 -3.234  4
-MLD  C2 C -2.732 -4.226  5
-MLD  C3 C -3.566 -4.768  6
-MLD  O3 O -4.457 -4.293  7
-MLD  C4 C -3.549 -5.776  8
-MLD  O4 O -4.390 -6.298  9
-MLD  C5 C -2.670 -6.227 10
-MLD  C6 C -2.638 -7.236 11
-MLD  O6 O -3.489 -7.762 12
-MLD  O5 O -1.818 -5.714 13
-MLD  C1 C -1.869 -4.707 14
-MLD  O1 O -1.073 -4.205 15
-MLD CA4 C -1.046 -3.216 16
-MLD CA5 C -1.841 -2.487 17
-MLD OA5 O -1.640 -1.861 18
-MLD CA6 C -2.724 -2.049 19
-MLD OA6 O -2.038 -0.836 20
-MLD CA1 C -1.209 -1.367 21
-MLD CA2 C -0.180 -1.670 22
-MLD NAD N  0.619 -1.066 23
-MLD CAE C  0.536 -0.072 24
-MLD CAF C  1.364  0.493 25
-MLD OAG O -0.362  0.360 26
-MLD CA3 C -0.105 -2.732 27
-MLD OAH O  0.776 -3.231 28
-MLD CAI C  1.641 -2.730 29
-MLD CAJ C  1.641 -1.730 30
-MLD CAL C  2.509 -3.230 31
-MLD OAM O  2.509 -4.230 32
-MLD   N N  3.376 -2.730 33
-MLD  CA C  4.243 -3.231 34
-MLD  CB C  4.243 -4.231 35
-MLD   C C  5.109 -2.731 36
-MLD   O O  5.108 -1.731 37
-MLD NAN N  5.975 -3.230 38
-MLD CAO C  6.841 -2.729 39
-MLD CAP C  7.707 -3.229 40
-MLD OBA O  7.708 -4.229 41
-MLD OAQ O  8.573 -2.728 42
-MLD CBB C  6.840 -1.729 43
-MLD CBC C  5.973 -1.229 44
-MLD CBD C  5.972 -0.229 45
-MLD OBE O  6.838  0.272 46
-MLD NBF N  5.106  0.270 47
-MLD CBG C  5.104  1.271 48
-MLD CBH C  5.969  1.772 49
-MLD OBI O  6.836  1.274 50
-MLD NBJ N  5.968  2.773 51
-MLD CBK C  6.833  3.274 52
-MLD CBL C  7.700  2.776 53
-MLD CBM C  6.831  4.275 54
-MLD OBO O  5.964  4.773 55
-MLD OBN O  7.696  4.776 56
-MLD CBP C  4.237  1.769 57
-MLD CBQ C  4.236  2.769 58
-MLD CBR C  3.369  3.268 59
-MLD CBS C  3.368  4.268 60
-MLD CBT C  2.502  4.767 61
-MLD OBV O  1.636  4.266 62
-MLD OBU O  2.501  5.767 63
-MLD NBW N  4.234  4.769 64
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-MLD CAA CAB SINGLE       NONE  1
-MLD CAB OAC DOUBLE       NONE  2
-MLD CAB  N2 SINGLE       NONE  3
-MLD  N2  C2 SINGLE  BEGINDASH  4
-MLD  C2  C3 SINGLE       NONE  5
-MLD  C2  C1 SINGLE       NONE  6
-MLD  C3  O3 SINGLE  BEGINDASH  7
-MLD  C3  C4 SINGLE       NONE  8
-MLD  C4  O4 SINGLE BEGINWEDGE  9
-MLD  C4  C5 SINGLE       NONE 10
-MLD  C5  C6 SINGLE  BEGINDASH 11
-MLD  C5  O5 SINGLE       NONE 12
-MLD  C6  O6 SINGLE       NONE 13
-MLD  O5  C1 SINGLE       NONE 14
-MLD  C1  O1 SINGLE BEGINWEDGE 15
-MLD  O1 CA4 SINGLE  BEGINDASH 16
-MLD CA4 CA5 SINGLE       NONE 17
-MLD CA4 CA3 SINGLE       NONE 18
-MLD CA5 OA5 SINGLE       NONE 19
-MLD CA5 CA6 SINGLE       NONE 20
-MLD OA5 CA1 SINGLE       NONE 21
-MLD CA6 OA6 SINGLE       NONE 22
-MLD OA6 CA1 SINGLE       NONE 23
-MLD CA1 CA2 SINGLE       NONE 24
-MLD CA2 NAD SINGLE BEGINWEDGE 25
-MLD CA2 CA3 SINGLE       NONE 26
-MLD NAD CAE SINGLE       NONE 27
-MLD CAE CAF SINGLE       NONE 28
-MLD CAE OAG DOUBLE       NONE 29
-MLD CA3 OAH SINGLE BEGINWEDGE 30
-MLD OAH CAI SINGLE       NONE 31
-MLD CAI CAJ SINGLE BEGINWEDGE 32
-MLD CAI CAL SINGLE       NONE 33
-MLD CAL OAM DOUBLE       NONE 34
-MLD CAL   N SINGLE       NONE 35
-MLD   N  CA SINGLE       NONE 36
-MLD  CA  CB SINGLE BEGINWEDGE 37
-MLD  CA   C SINGLE       NONE 38
-MLD   C   O DOUBLE       NONE 39
-MLD   C NAN SINGLE       NONE 40
-MLD NAN CAO SINGLE       NONE 41
-MLD CAO CAP SINGLE       NONE 42
-MLD CAO CBB SINGLE  BEGINDASH 43
-MLD CAP OBA SINGLE       NONE 44
-MLD CAP OAQ DOUBLE       NONE 45
-MLD CBB CBC SINGLE       NONE 46
-MLD CBC CBD SINGLE       NONE 47
-MLD CBD OBE DOUBLE       NONE 48
-MLD CBD NBF SINGLE       NONE 49
-MLD NBF CBG SINGLE       NONE 50
-MLD CBG CBH SINGLE       NONE 51
-MLD CBG CBP SINGLE BEGINWEDGE 52
-MLD CBH OBI DOUBLE       NONE 53
-MLD CBH NBJ SINGLE       NONE 54
-MLD NBJ CBK SINGLE       NONE 55
-MLD CBK CBL SINGLE  BEGINDASH 56
-MLD CBK CBM SINGLE       NONE 57
-MLD CBM OBO DOUBLE       NONE 58
-MLD CBM OBN SINGLE       NONE 59
-MLD CBP CBQ SINGLE       NONE 60
-MLD CBQ CBR SINGLE       NONE 61
-MLD CBR CBS SINGLE       NONE 62
-MLD CBS CBT SINGLE       NONE 63
-MLD CBS NBW SINGLE BEGINWEDGE 64
-MLD CBT OBV DOUBLE       NONE 65
-MLD CBT OBU SINGLE       NONE 66
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-MLD MurckoScaffold S1 scaffold C1CC[C@@H](O[C@H]2CC[C@@H]3OC[C@@H]2O3)OC1 InChI=1S/C11H18O4/c1-2-6-12-10(3-1)14-8-4-5-11-13-7-9(8)15-11/h8-11H,1-7H2/t8-,9-,10+,11+/m0/s1 CMUSDFWOGKYTMW-UKKRHICBSA-N
-MLD          amide F1 fragment                                    CC(N)=O                                                          InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-MLD        peptide F2 fragment                                      NCC=O                                                              InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-MLD       pyranose F3 fragment                                  OC1CCCCO1                                                   InChI=1S/C5H10O2/c6-5-3-1-2-4-7-5/h5-6H,1-4H2 CELWCAITJAEQNL-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-MLD  N2 F1 1
-MLD CAB F1 1
-MLD OAC F1 1
-MLD CAA F1 1
-MLD NAD F1 2
-MLD CAE F1 2
-MLD OAG F1 2
-MLD CAF F1 2
-MLD   N F1 3
-MLD CAL F1 3
-MLD OAM F1 3
-MLD CAI F1 3
-MLD NAN F1 4
-MLD   C F1 4
-MLD   O F1 4
-MLD  CA F1 4
-MLD NBF F1 5
-MLD CBD F1 5
-MLD OBE F1 5
-MLD CBC F1 5
-MLD NBJ F1 6
-MLD CBH F1 6
-MLD OBI F1 6
-MLD CBG F1 6
-MLD   O F2 1
-MLD   C F2 1
-MLD  CA F2 1
-MLD   N F2 1
-MLD OAQ F2 2
-MLD CAP F2 2
-MLD CAO F2 2
-MLD NAN F2 2
-MLD OBI F2 3
-MLD CBH F2 3
-MLD CBG F2 3
-MLD NBF F2 3
-MLD OBO F2 4
-MLD CBM F2 4
-MLD CBK F2 4
-MLD NBJ F2 4
-MLD OBV F2 5
-MLD CBT F2 5
-MLD CBS F2 5
-MLD NBW F2 5
-MLD  C4 F3 1
-MLD  C5 F3 1
-MLD  O5 F3 1
-MLD  C1 F3 1
-MLD  C2 F3 1
-MLD  C3 F3 1
-MLD  O1 F3 1
-MLD CA4 F3 2
-MLD CA5 F3 2
-MLD OA5 F3 2
-MLD CA1 F3 2
-MLD CA2 F3 2
-MLD CA3 F3 2
-MLD OA6 F3 2
-MLD  C2 S1 1
-MLD  C3 S1 1
-MLD  C4 S1 1
-MLD  C5 S1 1
-MLD  O5 S1 1
-MLD  C1 S1 1
-MLD  O1 S1 1
-MLD CA4 S1 1
-MLD CA5 S1 1
-MLD OA5 S1 1
-MLD CA6 S1 1
-MLD OA6 S1 1
-MLD CA1 S1 1
-MLD CA2 S1 1
-MLD CA3 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               MLD
-_pdbe_chem_comp_rdkit_properties.exactmw                               921.381
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           27
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           14
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     33
-_pdbe_chem_comp_rdkit_properties.NumHBD                                13
-_pdbe_chem_comp_rdkit_properties.NumHBA                                21
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        27
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         6
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.757
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     3
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              3
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    2
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             449.163
-_pdbe_chem_comp_rdkit_properties.tpsa                                  419.360
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -6.141
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             209.829
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         64
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-MLD UniChem   ChEMBL    CHEMBL1234356
-MLD UniChem DrugBank          DB04736
-MLD UniChem    ChEBI            46763
-MLD UniChem     ZINC ZINC000096006131
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-MLD  CAA   6.536 -4.271  1.788 ETKDGv2   1
-MLD  CAB   7.354 -3.157  1.217 ETKDGv2   2
-MLD  OAC   7.343 -2.969 -0.030 ETKDGv2   3
-MLD   N2   8.135 -2.310  2.074 ETKDGv2   4
-MLD   C2   8.732 -1.056  1.602 ETKDGv2   5
-MLD   C3  10.065 -0.793  2.322 ETKDGv2   6
-MLD   O3  10.994 -1.777  1.947 ETKDGv2   7
-MLD   C4  10.597  0.604  1.951 ETKDGv2   8
-MLD   O4  11.701  0.903  2.768 ETKDGv2   9
-MLD   C5   9.482  1.661  2.154 ETKDGv2  10
-MLD   C6   9.957  3.050  1.714 ETKDGv2  11
-MLD   O6   8.924  3.979  1.891 ETKDGv2  12
-MLD   O5   8.335  1.320  1.392 ETKDGv2  13
-MLD   C1   7.764  0.111  1.861 ETKDGv2  14
-MLD   O1   6.572 -0.142  1.144 ETKDGv2  15
-MLD  CA4   5.477  0.593  1.664 ETKDGv2  16
-MLD  CA5   4.762 -0.260  2.756 ETKDGv2  17
-MLD  OA5   4.284 -1.420  2.160 ETKDGv2  18
-MLD  CA6   3.501  0.394  3.271 ETKDGv2  19
-MLD  OA6   2.492 -0.006  2.385 ETKDGv2  20
-MLD  CA1   3.118 -0.948  1.535 ETKDGv2  21
-MLD  CA2   3.526 -0.275  0.202 ETKDGv2  22
-MLD  NAD   4.154 -1.265 -0.682 ETKDGv2  23
-MLD  CAE   3.402 -2.296 -1.335 ETKDGv2  24
-MLD  CAF   4.110 -3.339 -2.137 ETKDGv2  25
-MLD  OAG   2.143 -2.314 -1.263 ETKDGv2  26
-MLD  CA3   4.507  0.914  0.483 ETKDGv2  27
-MLD  OAH   3.773  2.086  0.807 ETKDGv2  28
-MLD  CAI   3.287  2.761 -0.345 ETKDGv2  29
-MLD  CAJ   3.885  4.166 -0.377 ETKDGv2  30
-MLD  CAL   1.785  2.839 -0.290 ETKDGv2  31
-MLD  OAM   1.175  2.516  0.767 ETKDGv2  32
-MLD    N   1.045  3.242 -1.452 ETKDGv2  33
-MLD   CA  -0.408  3.073 -1.542 ETKDGv2  34
-MLD   CB  -0.958  3.794 -2.775 ETKDGv2  35
-MLD    C  -0.745  1.607 -1.604 ETKDGv2  36
-MLD    O  -0.246  0.894 -2.517 ETKDGv2  37
-MLD  NAN  -1.615  1.021 -0.624 ETKDGv2  38
-MLD  CAO  -1.848 -0.425 -0.542 ETKDGv2  39
-MLD  CAP  -0.863 -1.059  0.401 ETKDGv2  40
-MLD  OBA  -0.666 -2.436  0.364 ETKDGv2  41
-MLD  OAQ  -0.229 -0.359  1.236 ETKDGv2  42
-MLD  CBB  -3.285 -0.717 -0.077 ETKDGv2  43
-MLD  CBC  -4.325 -0.205 -1.088 ETKDGv2  44
-MLD  CBD  -5.741 -0.503 -0.676 ETKDGv2  45
-MLD  OBE  -5.985 -1.097  0.411 ETKDGv2  46
-MLD  NBF  -6.820 -0.102 -1.533 ETKDGv2  47
-MLD  CBG  -8.221 -0.391 -1.207 ETKDGv2  48
-MLD  CBH  -8.475 -1.867 -1.365 ETKDGv2  49
-MLD  OBI  -8.292 -2.413 -2.488 ETKDGv2  50
-MLD  NBJ  -8.904 -2.652 -0.242 ETKDGv2  51
-MLD  CBK  -9.056 -4.108 -0.326 ETKDGv2  52
-MLD  CBL  -9.779 -4.648  0.912 ETKDGv2  53
-MLD  CBM  -7.709 -4.758 -0.466 ETKDGv2  54
-MLD  OBO  -6.820 -4.572  0.408 ETKDGv2  55
-MLD  OBN  -7.440 -5.560 -1.570 ETKDGv2  56
-MLD  CBP  -9.180  0.411 -2.109 ETKDGv2  57
-MLD  CBQ  -9.112  1.918 -1.818 ETKDGv2  58
-MLD  CBR -10.084  2.696 -2.718 ETKDGv2  59
-MLD  CBS -10.149  4.198 -2.360 ETKDGv2  60
-MLD  CBT -11.228  4.872 -3.166 ETKDGv2  61
-MLD  OBV -10.946  5.781 -3.993 ETKDGv2  62
-MLD  OBU -12.555  4.491 -2.989 ETKDGv2  63
-MLD  NBW  -8.862  4.870 -2.577 ETKDGv2  64
-MLD HAA1   6.634 -4.310  2.893 ETKDGv2  65
-MLD HAA2   5.468 -4.115  1.530 ETKDGv2  66
-MLD HAA3   6.877 -5.238  1.363 ETKDGv2  67
-MLD  HN2   8.111 -2.489  3.104 ETKDGv2  68
-MLD   H2   8.935 -1.117  0.509 ETKDGv2  69
-MLD   H3   9.891 -0.835  3.424 ETKDGv2  70
-MLD  HO3  11.704 -1.784  2.641 ETKDGv2  71
-MLD   H4  10.894  0.588  0.874 ETKDGv2  72
-MLD  HO4  12.351  1.405  2.212 ETKDGv2  73
-MLD   H5   9.226  1.729  3.237 ETKDGv2  74
-MLD  H61  10.836  3.360  2.323 ETKDGv2  75
-MLD  H62  10.255  3.022  0.641 ETKDGv2  76
-MLD  HO6   9.280  4.850  1.574 ETKDGv2  77
-MLD   H1   7.565  0.164  2.961 ETKDGv2  78
-MLD  HA4   5.805  1.564  2.109 ETKDGv2  79
-MLD  HA5   5.447 -0.510  3.594 ETKDGv2  80
-MLD HA61   3.578  1.501  3.313 ETKDGv2  81
-MLD HA62   3.261  0.013  4.287 ETKDGv2  82
-MLD  HA1   2.424 -1.795  1.355 ETKDGv2  83
-MLD  HA2   2.613  0.112 -0.300 ETKDGv2  84
-MLD HNAD   5.184 -1.229 -0.854 ETKDGv2  85
-MLD HAF1   4.556 -2.871 -3.039 ETKDGv2  86
-MLD HAF2   4.916 -3.795 -1.525 ETKDGv2  87
-MLD HAF3   3.405 -4.136 -2.452 ETKDGv2  88
-MLD  HA3   5.151  1.100 -0.410 ETKDGv2  89
-MLD  HAI   3.548  2.257 -1.306 ETKDGv2  90
-MLD HAJ1   4.993  4.098 -0.409 ETKDGv2  91
-MLD HAJ2   3.543  4.719 -1.277 ETKDGv2  92
-MLD HAJ3   3.590  4.733  0.532 ETKDGv2  93
-MLD   HN   1.573  3.609 -2.276 ETKDGv2  94
-MLD   HA  -0.880  3.537 -0.648 ETKDGv2  95
-MLD  HB1  -2.062  3.673 -2.828 ETKDGv2  96
-MLD  HB2  -0.727  4.878 -2.712 ETKDGv2  97
-MLD  HB3  -0.506  3.386 -3.705 ETKDGv2  98
-MLD HNAN  -1.978  1.627  0.148 ETKDGv2  99
-MLD  HAO  -1.706 -0.888 -1.544 ETKDGv2 100
-MLD HOBA  -0.011 -2.884  0.994 ETKDGv2 101
-MLD HBB1  -3.460 -0.240  0.913 ETKDGv2 102
-MLD HBB2  -3.412 -1.817  0.040 ETKDGv2 103
-MLD HBC1  -4.140 -0.681 -2.075 ETKDGv2 104
-MLD HBC2  -4.222  0.894 -1.206 ETKDGv2 105
-MLD HNBF  -6.586  0.404 -2.417 ETKDGv2 106
-MLD  HBG  -8.413 -0.093 -0.152 ETKDGv2 107
-MLD HNBJ  -9.122 -2.164  0.656 ETKDGv2 108
-MLD  HBK  -9.678 -4.357 -1.214 ETKDGv2 109
-MLD HBL1 -10.785 -4.184  0.992 ETKDGv2 110
-MLD HBL2  -9.906 -5.749  0.831 ETKDGv2 111
-MLD HBL3  -9.205 -4.417  1.835 ETKDGv2 112
-MLD HOBN  -6.534 -6.000 -1.684 ETKDGv2 113
-MLD HBP1  -8.936  0.224 -3.178 ETKDGv2 114
-MLD HBP2 -10.221  0.061 -1.929 ETKDGv2 115
-MLD HBQ1  -9.373  2.098 -0.752 ETKDGv2 116
-MLD HBQ2  -8.077  2.278 -1.995 ETKDGv2 117
-MLD HBR1  -9.783  2.574 -3.782 ETKDGv2 118
-MLD HBR2 -11.099  2.256 -2.601 ETKDGv2 119
-MLD  HBS -10.429  4.303 -1.288 ETKDGv2 120
-MLD HOBU -13.297  4.932 -3.519 ETKDGv2 121
-MLD HBW1  -8.200  4.599 -1.814 ETKDGv2 122
-MLD HBW2  -8.448  4.563 -3.488 ETKDGv2 123
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+MLD "Create component"  2005-11-18 RCSB 
+MLD "Modify descriptor" 2011-06-04 RCSB 
+# 

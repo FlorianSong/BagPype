@@ -191,11 +191,6 @@ _pdbe_chem_comp_drugbank_targets.ordinal
 DG DB04457 "Deoxynucleotide monophosphate kinase"       "Enterobacteria phage T4" P04531 unknown 1
 DG DB04457                 "Thymidylate synthase" "Escherichia coli (strain K12)" P0A884 unknown 2
 #
-_pdbx_chem_comp_synonyms.comp_id          DG
-_pdbx_chem_comp_synonyms.name             "Deoxyguanosine 5'-Monophosphate"
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
 loop_
 _software.name              
 _software.version           
@@ -375,6 +370,8 @@ DG UniChem      DrugBank          DB04457
 DG UniChem "KEGG LIGAND"           C00362
 DG UniChem         ChEBI            16192
 DG UniChem          ZINC ZINC000001730395
+DG UniChem             P        135398597
+DG UniChem             P            65059
 DG UniChem  MetaboLights       MTBLC16192
 DG UniChem        BRENDA           115551
 DG UniChem        BRENDA             2466
@@ -389,41 +386,41 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DG    OP3 -5.541 -0.137 -1.236 ETKDGv2  1
-DG      P -4.678 -1.523 -0.785 ETKDGv2  2
-DG    OP1 -4.359 -2.353 -2.010 ETKDGv2  3
-DG    OP2 -5.637 -2.439  0.265 ETKDGv2  4
-DG  "O5'" -3.238 -1.093  0.023 ETKDGv2  5
-DG  "C5'" -2.476 -0.268 -0.827 ETKDGv2  6
-DG  "C4'" -1.154  0.091 -0.138 ETKDGv2  7
-DG  "O4'" -0.380  0.923 -0.973 ETKDGv2  8
-DG  "C3'" -1.318  0.781  1.219 ETKDGv2  9
-DG  "O3'" -2.465  1.599  1.284 ETKDGv2 10
-DG  "C2'" -0.058  1.599  1.313 ETKDGv2 11
-DG  "C1'"  0.295  1.852 -0.149 ETKDGv2 12
-DG     N9  1.737  1.755 -0.367 ETKDGv2 13
-DG     C8  2.626  2.761 -0.867 ETKDGv2 14
-DG     N7  3.831  2.321 -1.090 ETKDGv2 15
-DG     C5  3.771  0.943 -0.732 ETKDGv2 16
-DG     C6  4.809 -0.076 -0.827 ETKDGv2 17
-DG     O6  5.972  0.197 -1.223 ETKDGv2 18
-DG     N1  4.442 -1.413 -0.451 ETKDGv2 19
-DG     C2  3.088 -1.685 -0.016 ETKDGv2 20
-DG     N2  2.710 -3.011  0.350 ETKDGv2 21
-DG     N3  2.205 -0.721  0.040 ETKDGv2 22
-DG     C4  2.574  0.616 -0.324 ETKDGv2 23
-DG   HOP3 -5.199  0.102 -2.135 ETKDGv2 24
-DG   HOP2 -5.052 -3.182  0.559 ETKDGv2 25
-DG  "H5'" -3.024  0.668 -1.075 ETKDGv2 26
-DG "H5''" -2.229 -0.801 -1.773 ETKDGv2 27
-DG  "H4'" -0.588 -0.855  0.019 ETKDGv2 28
-DG  "H3'" -1.366  0.032  2.040 ETKDGv2 29
-DG "HO3'" -2.392  2.297  0.580 ETKDGv2 30
-DG  "H2'" -0.212  2.548  1.872 ETKDGv2 31
-DG "H2''"  0.733  1.003  1.822 ETKDGv2 32
-DG  "H1'" -0.048  2.873 -0.428 ETKDGv2 33
-DG     H8  2.331  3.785 -1.052 ETKDGv2 34
-DG     H1  5.147 -2.182 -0.497 ETKDGv2 35
-DG    H21  3.404 -3.789  0.309 ETKDGv2 36
-DG    H22  1.735 -3.217  0.662 ETKDGv2 37
+DG    OP3  5.078 -0.646  2.124 ETKDGv2  1
+DG      P  4.853 -0.267  0.490 ETKDGv2  2
+DG    OP1  5.638  0.982  0.159 ETKDGv2  3
+DG    OP2  5.419 -1.545 -0.466 ETKDGv2  4
+DG  "O5'"  3.203  0.014  0.172 ETKDGv2  5
+DG  "C5'"  2.481 -1.146  0.516 ETKDGv2  6
+DG  "C4'"  0.987 -0.954  0.195 ETKDGv2  7
+DG  "O4'"  0.470  0.095  0.982 ETKDGv2  8
+DG  "C3'"  0.685 -0.651 -1.275 ETKDGv2  9
+DG  "O3'"  1.688 -1.096 -2.152 ETKDGv2 10
+DG  "C2'"  0.567  0.845 -1.305 ETKDGv2 11
+DG  "C1'"  0.286  1.220  0.148 ETKDGv2 12
+DG     N9 -1.078  1.721  0.301 ETKDGv2 13
+DG     C8 -1.501  3.016  0.742 ETKDGv2 14
+DG     N7 -2.791  3.115  0.894 ETKDGv2 15
+DG     C5 -3.283  1.824  0.544 ETKDGv2 16
+DG     C6 -4.648  1.317  0.600 ETKDGv2 17
+DG     O6 -5.616  2.052  0.928 ETKDGv2 18
+DG     N1 -4.841 -0.067  0.268 ETKDGv2 19
+DG     C2 -3.696 -0.883 -0.081 ETKDGv2 20
+DG     N2 -3.873 -2.262 -0.398 ETKDGv2 21
+DG     N3 -2.496 -0.362 -0.103 ETKDGv2 22
+DG     C4 -2.305  1.025  0.209 ETKDGv2 23
+DG   HOP3  4.668  0.109  2.617 ETKDGv2 24
+DG   HOP2  5.162 -1.301 -1.391 ETKDGv2 25
+DG  "H5'"  2.853 -2.035 -0.042 ETKDGv2 26
+DG "H5''"  2.571 -1.350  1.607 ETKDGv2 27
+DG  "H4'"  0.461 -1.893  0.476 ETKDGv2 28
+DG  "H3'" -0.298 -1.097 -1.558 ETKDGv2 29
+DG "HO3'"  1.572 -2.078 -2.235 ETKDGv2 30
+DG  "H2'"  1.525  1.308 -1.632 ETKDGv2 31
+DG "H2''" -0.241  1.172 -1.997 ETKDGv2 32
+DG  "H1'"  0.999  2.013  0.463 ETKDGv2 33
+DG     H8 -0.822  3.835  0.940 ETKDGv2 34
+DG     H1 -5.799 -0.483  0.288 ETKDGv2 35
+DG    H21 -3.053 -2.858 -0.649 ETKDGv2 36
+DG    H22 -4.825 -2.690 -0.382 ETKDGv2 37
 #

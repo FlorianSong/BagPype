@@ -252,13 +252,13 @@ CU DB09130                                                              Vitronec
 CU DB09130                                                 "Amyloid-like protein 1"                                                             Humans P51693 unknown 147
 #
 loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-CU "Paragard T 380A" ChEMBL
-CU            Copper ChEMBL
-CU              CU-7 ChEMBL
-CU           Tatum-T ChEMBL
+_pdbe_chem_comp_synonyms.comp_id          
+_pdbe_chem_comp_synonyms.name             
+_pdbe_chem_comp_synonyms.provenance       
+_pdbe_chem_comp_synonyms.type             
+CU              CU-7 ChEMBL Tradename
+CU           Tatum-T ChEMBL Tradename
+CU "Paragard T 380A" ChEMBL Tradename
 #
 loop_
 _software.name              
@@ -313,6 +313,7 @@ CU UniChem   ChEMBL CHEMBL55643
 CU UniChem DrugBank     DB09130
 CU UniChem DrugBank     DB14552
 CU UniChem    ChEBI       29036
+CU UniChem        P       27099
 CU UniChem   BRENDA      118050
 CU UniChem   BRENDA       16309
 CU UniChem   BRENDA      170702

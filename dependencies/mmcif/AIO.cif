@@ -1,380 +1,181 @@
 data_AIO
-#
-_chem_comp.id                                        AIO
-_chem_comp.name                                      "[(2R)-1-(L-ALANYL-L-ISOLEUCYL)PYRROLIDIN-2-YL]BORONIC ACID"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C13 H26 B N3 O4"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2007-02-23
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       ?
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            299.174
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         AIO
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    AIO 
+_chem_comp.name                                  "[(2R)-1-(L-ALANYL-L-ISOLEUCYL)PYRROLIDIN-2-YL]BORONIC ACID" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C13 H26 B N3 O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2007-02-23 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   ? 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        299.174 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     AIO 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   Y 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-AIO   O2   O2 O 0 1 N N N  -7.274 43.586 67.046 ? ? ?   O2 AIO  1
-AIO   C9   C9 C 0 1 N N N  -7.497 43.496 65.864 ? ? ?   C9 AIO  2
-AIO   C4   C4 C 0 1 N N S  -7.074 44.603 64.934 ? ? ?   C4 AIO  3
-AIO   C5   C5 C 0 1 N N S  -5.534 44.566 64.941 ? ? ?   C5 AIO  4
-AIO   C7   C7 C 0 1 N N N  -4.857 45.695 64.165 ? ? ?   C7 AIO  5
-AIO   C8   C8 C 0 1 N N N  -5.173 45.693 62.706 ? ? ?   C8 AIO  6
-AIO   C6   C6 C 0 1 N N N  -4.977 43.206 64.502 ? ? ?   C6 AIO  7
-AIO   N2   N2 N 0 1 N N N  -7.476 45.856 65.514 ? ? ?   N2 AIO  8
-AIO   C3   C3 C 0 1 N N N  -8.695 46.390 65.337 ? ? ?   C3 AIO  9
-AIO   O1   O1 O 0 1 N N N  -9.633 45.762 64.869 ? ? ?   O1 AIO 10
-AIO   C1   C1 C 0 1 N N S  -8.894 47.828 65.765 ? ? ?   C1 AIO 11
-AIO   C2   C2 C 0 1 N N N  -9.310 47.767 67.247 ? ? ?   C2 AIO 12
-AIO   N1   N1 N 0 1 N N N  -9.967 48.461 64.966 ? ? ?   N1 AIO 13
-AIO   N3   N3 N 0 1 N N N  -8.119 42.426 65.431 ? ? ?   N3 AIO 14
-AIO  C13  C13 C 0 1 N N N  -8.487 42.039 64.069 ? ? ?  C13 AIO 15
-AIO  C12  C12 C 0 1 N N N  -9.262 40.728 64.267 ? ? ?  C12 AIO 16
-AIO  C11  C11 C 0 1 N N N  -9.593 40.646 65.750 ? ? ?  C11 AIO 17
-AIO  C10  C10 C 0 1 N N R  -8.542 41.469 66.469 ? ? ?  C10 AIO 18
-AIO    B    B B 0 1 N N N  -7.229 40.626 66.951 ? ? ?    B AIO 19
-AIO   O4   O4 O 0 1 N N N  -6.275 41.110 68.057 ? ? ?   O4 AIO 20
-AIO   O3   O3 O 0 1 N N N  -6.511 39.774 65.922 ? ? ?   O3 AIO 21
-AIO   H4   H4 H 0 1 N N N  -7.505 44.493 63.928 ? ? ?   H4 AIO 22
-AIO   H5   H5 H 0 1 N N N  -5.278 44.730 65.998 ? ? ?   H5 AIO 23
-AIO  H71  1H7 H 0 1 N N N  -3.769 45.583 64.279 ? ? ?  H71 AIO 24
-AIO  H72  2H7 H 0 1 N N N  -5.234 46.643 64.577 ? ? ?  H72 AIO 25
-AIO  H81  1H8 H 0 1 N N N  -6.264 45.693 62.567 ? ? ?  H81 AIO 26
-AIO  H82  2H8 H 0 1 N N N  -4.744 46.591 62.237 ? ? ?  H82 AIO 27
-AIO  H83  3H8 H 0 1 N N N  -4.744 44.794 62.239 ? ? ?  H83 AIO 28
-AIO  H61  1H6 H 0 1 N N N  -4.844 43.199 63.410 ? ? ?  H61 AIO 29
-AIO  H62  2H6 H 0 1 N N N  -4.007 43.032 64.991 ? ? ?  H62 AIO 30
-AIO  H63  3H6 H 0 1 N N N  -5.681 42.411 64.790 ? ? ?  H63 AIO 31
-AIO  HN2  HN2 H 0 1 N N N  -6.816 46.354 66.076 ? ? ?  HN2 AIO 32
-AIO   H1   H1 H 0 1 N N N  -7.980 48.423 65.618 ? ? ?   H1 AIO 33
-AIO  H21  1H2 H 0 1 N N N  -8.411 47.752 67.880 ? ? ?  H21 AIO 34
-AIO  H22  2H2 H 0 1 N N N  -9.918 48.650 67.494 ? ? ?  H22 AIO 35
-AIO  H23  3H2 H 0 1 N N N  -9.898 46.855 67.425 ? ? ?  H23 AIO 36
-AIO HN11 1HN1 H 0 0 N N N -10.772 48.604 65.542 ? ? ? HN11 AIO 37
-AIO HN12 2HN1 H 0 0 N N N  -9.647 49.342 64.617 ? ? ? HN12 AIO 38
-AIO H131 1H13 H 0 0 N N N  -7.599 41.891 63.437 ? ? ? H131 AIO 39
-AIO H132 2H13 H 0 0 N N N  -9.078 42.809 63.552 ? ? ? H132 AIO 40
-AIO H121 1H12 H 0 0 N N N -10.183 40.730 63.666 ? ? ? H121 AIO 41
-AIO H122 2H12 H 0 0 N N N  -8.667 39.861 63.944 ? ? ? H122 AIO 42
-AIO H111 1H11 H 0 0 N N N -10.598 41.050 65.944 ? ? ? H111 AIO 43
-AIO H112 2H11 H 0 0 N N N  -9.590 39.603 66.101 ? ? ? H112 AIO 44
-AIO  H10  H10 H 0 1 N N N  -8.958 41.897 67.393 ? ? ?  H10 AIO 45
-AIO  HO4  HO4 H 0 1 N N N  -5.400 41.210 67.700 ? ? ?  HO4 AIO 46
-AIO  HO3  HO3 H 0 1 N N N  -6.361 40.286 65.136 ? ? ?  HO3 AIO 47
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+AIO O2   O2   O 0 1 N N N -7.274  43.586 67.046 ? ? ? O2   AIO 1  
+AIO C9   C9   C 0 1 N N N -7.497  43.496 65.864 ? ? ? C9   AIO 2  
+AIO C4   C4   C 0 1 N N S -7.074  44.603 64.934 ? ? ? C4   AIO 3  
+AIO C5   C5   C 0 1 N N S -5.534  44.566 64.941 ? ? ? C5   AIO 4  
+AIO C7   C7   C 0 1 N N N -4.857  45.695 64.165 ? ? ? C7   AIO 5  
+AIO C8   C8   C 0 1 N N N -5.173  45.693 62.706 ? ? ? C8   AIO 6  
+AIO C6   C6   C 0 1 N N N -4.977  43.206 64.502 ? ? ? C6   AIO 7  
+AIO N2   N2   N 0 1 N N N -7.476  45.856 65.514 ? ? ? N2   AIO 8  
+AIO C3   C3   C 0 1 N N N -8.695  46.390 65.337 ? ? ? C3   AIO 9  
+AIO O1   O1   O 0 1 N N N -9.633  45.762 64.869 ? ? ? O1   AIO 10 
+AIO C1   C1   C 0 1 N N S -8.894  47.828 65.765 ? ? ? C1   AIO 11 
+AIO C2   C2   C 0 1 N N N -9.310  47.767 67.247 ? ? ? C2   AIO 12 
+AIO N1   N1   N 0 1 N N N -9.967  48.461 64.966 ? ? ? N1   AIO 13 
+AIO N3   N3   N 0 1 N N N -8.119  42.426 65.431 ? ? ? N3   AIO 14 
+AIO C13  C13  C 0 1 N N N -8.487  42.039 64.069 ? ? ? C13  AIO 15 
+AIO C12  C12  C 0 1 N N N -9.262  40.728 64.267 ? ? ? C12  AIO 16 
+AIO C11  C11  C 0 1 N N N -9.593  40.646 65.750 ? ? ? C11  AIO 17 
+AIO C10  C10  C 0 1 N N R -8.542  41.469 66.469 ? ? ? C10  AIO 18 
+AIO B    B    B 0 1 N N N -7.229  40.626 66.951 ? ? ? B    AIO 19 
+AIO O4   O4   O 0 1 N N N -6.275  41.110 68.057 ? ? ? O4   AIO 20 
+AIO O3   O3   O 0 1 N N N -6.511  39.774 65.922 ? ? ? O3   AIO 21 
+AIO H4   H4   H 0 1 N N N -7.505  44.493 63.928 ? ? ? H4   AIO 22 
+AIO H5   H5   H 0 1 N N N -5.278  44.730 65.998 ? ? ? H5   AIO 23 
+AIO H71  1H7  H 0 1 N N N -3.769  45.583 64.279 ? ? ? H71  AIO 24 
+AIO H72  2H7  H 0 1 N N N -5.234  46.643 64.577 ? ? ? H72  AIO 25 
+AIO H81  1H8  H 0 1 N N N -6.264  45.693 62.567 ? ? ? H81  AIO 26 
+AIO H82  2H8  H 0 1 N N N -4.744  46.591 62.237 ? ? ? H82  AIO 27 
+AIO H83  3H8  H 0 1 N N N -4.744  44.794 62.239 ? ? ? H83  AIO 28 
+AIO H61  1H6  H 0 1 N N N -4.844  43.199 63.410 ? ? ? H61  AIO 29 
+AIO H62  2H6  H 0 1 N N N -4.007  43.032 64.991 ? ? ? H62  AIO 30 
+AIO H63  3H6  H 0 1 N N N -5.681  42.411 64.790 ? ? ? H63  AIO 31 
+AIO HN2  HN2  H 0 1 N N N -6.816  46.354 66.076 ? ? ? HN2  AIO 32 
+AIO H1   H1   H 0 1 N N N -7.980  48.423 65.618 ? ? ? H1   AIO 33 
+AIO H21  1H2  H 0 1 N N N -8.411  47.752 67.880 ? ? ? H21  AIO 34 
+AIO H22  2H2  H 0 1 N N N -9.918  48.650 67.494 ? ? ? H22  AIO 35 
+AIO H23  3H2  H 0 1 N N N -9.898  46.855 67.425 ? ? ? H23  AIO 36 
+AIO HN11 1HN1 H 0 0 N N N -10.772 48.604 65.542 ? ? ? HN11 AIO 37 
+AIO HN12 2HN1 H 0 0 N N N -9.647  49.342 64.617 ? ? ? HN12 AIO 38 
+AIO H131 1H13 H 0 0 N N N -7.599  41.891 63.437 ? ? ? H131 AIO 39 
+AIO H132 2H13 H 0 0 N N N -9.078  42.809 63.552 ? ? ? H132 AIO 40 
+AIO H121 1H12 H 0 0 N N N -10.183 40.730 63.666 ? ? ? H121 AIO 41 
+AIO H122 2H12 H 0 0 N N N -8.667  39.861 63.944 ? ? ? H122 AIO 42 
+AIO H111 1H11 H 0 0 N N N -10.598 41.050 65.944 ? ? ? H111 AIO 43 
+AIO H112 2H11 H 0 0 N N N -9.590  39.603 66.101 ? ? ? H112 AIO 44 
+AIO H10  H10  H 0 1 N N N -8.958  41.897 67.393 ? ? ? H10  AIO 45 
+AIO HO4  HO4  H 0 1 N N N -5.400  41.210 67.700 ? ? ? HO4  AIO 46 
+AIO HO3  HO3  H 0 1 N N N -6.361  40.286 65.136 ? ? ? HO3  AIO 47 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-AIO  O2   C9 DOUB N N  1
-AIO  C9   C4 SING N N  2
-AIO  C9   N3 SING N N  3
-AIO  C4   C5 SING N N  4
-AIO  C4   N2 SING N N  5
-AIO  C4   H4 SING N N  6
-AIO  C5   C7 SING N N  7
-AIO  C5   C6 SING N N  8
-AIO  C5   H5 SING N N  9
-AIO  C7   C8 SING N N 10
-AIO  C7  H71 SING N N 11
-AIO  C7  H72 SING N N 12
-AIO  C8  H81 SING N N 13
-AIO  C8  H82 SING N N 14
-AIO  C8  H83 SING N N 15
-AIO  C6  H61 SING N N 16
-AIO  C6  H62 SING N N 17
-AIO  C6  H63 SING N N 18
-AIO  N2   C3 SING N N 19
-AIO  N2  HN2 SING N N 20
-AIO  C3   O1 DOUB N N 21
-AIO  C3   C1 SING N N 22
-AIO  C1   N1 SING N N 23
-AIO  C1   C2 SING N N 24
-AIO  C1   H1 SING N N 25
-AIO  C2  H21 SING N N 26
-AIO  C2  H22 SING N N 27
-AIO  C2  H23 SING N N 28
-AIO  N1 HN11 SING N N 29
-AIO  N1 HN12 SING N N 30
-AIO  N3  C13 SING N N 31
-AIO  N3  C10 SING N N 32
-AIO C13  C12 SING N N 33
-AIO C13 H131 SING N N 34
-AIO C13 H132 SING N N 35
-AIO C12  C11 SING N N 36
-AIO C12 H121 SING N N 37
-AIO C12 H122 SING N N 38
-AIO C11  C10 SING N N 39
-AIO C11 H111 SING N N 40
-AIO C11 H112 SING N N 41
-AIO C10    B SING N N 42
-AIO C10  H10 SING N N 43
-AIO   B   O3 SING N N 44
-AIO   B   O4 SING N N 45
-AIO  O4  HO4 SING N N 46
-AIO  O3  HO3 SING N N 47
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+AIO O2  C9   DOUB N N 1  
+AIO C9  C4   SING N N 2  
+AIO C9  N3   SING N N 3  
+AIO C4  C5   SING N N 4  
+AIO C4  N2   SING N N 5  
+AIO C4  H4   SING N N 6  
+AIO C5  C7   SING N N 7  
+AIO C5  C6   SING N N 8  
+AIO C5  H5   SING N N 9  
+AIO C7  C8   SING N N 10 
+AIO C7  H71  SING N N 11 
+AIO C7  H72  SING N N 12 
+AIO C8  H81  SING N N 13 
+AIO C8  H82  SING N N 14 
+AIO C8  H83  SING N N 15 
+AIO C6  H61  SING N N 16 
+AIO C6  H62  SING N N 17 
+AIO C6  H63  SING N N 18 
+AIO N2  C3   SING N N 19 
+AIO N2  HN2  SING N N 20 
+AIO C3  O1   DOUB N N 21 
+AIO C3  C1   SING N N 22 
+AIO C1  N1   SING N N 23 
+AIO C1  C2   SING N N 24 
+AIO C1  H1   SING N N 25 
+AIO C2  H21  SING N N 26 
+AIO C2  H22  SING N N 27 
+AIO C2  H23  SING N N 28 
+AIO N1  HN11 SING N N 29 
+AIO N1  HN12 SING N N 30 
+AIO N3  C13  SING N N 31 
+AIO N3  C10  SING N N 32 
+AIO C13 C12  SING N N 33 
+AIO C13 H131 SING N N 34 
+AIO C13 H132 SING N N 35 
+AIO C12 C11  SING N N 36 
+AIO C12 H121 SING N N 37 
+AIO C12 H122 SING N N 38 
+AIO C11 C10  SING N N 39 
+AIO C11 H111 SING N N 40 
+AIO C11 H112 SING N N 41 
+AIO C10 B    SING N N 42 
+AIO C10 H10  SING N N 43 
+AIO B   O3   SING N N 44 
+AIO B   O4   SING N N 45 
+AIO O4  HO4  SING N N 46 
+AIO O3  HO3  SING N N 47 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-AIO           SMILES              ACDLabs 10.04                                                                                                     O=C(N1CCCC1B(O)O)C(NC(=O)C(N)C)C(C)CC
-AIO SMILES_CANONICAL               CACTVS 3.341                                                                                     CC[C@H](C)[C@H](NC(=O)[C@H](C)N)C(=O)N1CCC[C@H]1B(O)O
-AIO           SMILES               CACTVS 3.341                                                                                         CC[CH](C)[CH](NC(=O)[CH](C)N)C(=O)N1CCC[CH]1B(O)O
-AIO SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                 B([C@@H]1CCCN1C(=O)[C@H]([C@@H](C)CC)NC(=O)[C@H](C)N)(O)O
-AIO           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                   B(C1CCCN1C(=O)C(C(C)CC)NC(=O)C(C)N)(O)O
-AIO            InChI                InChI  1.03 InChI=1S/C13H26BN3O4/c1-4-8(2)11(16-12(18)9(3)15)13(19)17-7-5-6-10(17)14(20)21/h8-11,20-21H,4-7,15H2,1-3H3,(H,16,18)/t8-,9-,10-,11-/m0/s1
-AIO         InChIKey                InChI  1.03                                                                                                               ZJPVCZLCDXPKCH-NAKRPEOUSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+AIO SMILES           ACDLabs              10.04 "O=C(N1CCCC1B(O)O)C(NC(=O)C(N)C)C(C)CC"                                                                                                     
+AIO SMILES_CANONICAL CACTVS               3.341 "CC[C@H](C)[C@H](NC(=O)[C@H](C)N)C(=O)N1CCC[C@H]1B(O)O"                                                                                     
+AIO SMILES           CACTVS               3.341 "CC[CH](C)[CH](NC(=O)[CH](C)N)C(=O)N1CCC[CH]1B(O)O"                                                                                         
+AIO SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "B([C@@H]1CCCN1C(=O)[C@H]([C@@H](C)CC)NC(=O)[C@H](C)N)(O)O"                                                                                 
+AIO SMILES           "OpenEye OEToolkits" 1.5.0 "B(C1CCCN1C(=O)C(C(C)CC)NC(=O)C(C)N)(O)O"                                                                                                   
+AIO InChI            InChI                1.03  "InChI=1S/C13H26BN3O4/c1-4-8(2)11(16-12(18)9(3)15)13(19)17-7-5-6-10(17)14(20)21/h8-11,20-21H,4-7,15H2,1-3H3,(H,16,18)/t8-,9-,10-,11-/m0/s1" 
+AIO InChIKey         InChI                1.03  ZJPVCZLCDXPKCH-NAKRPEOUSA-N                                                                                                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-AIO "SYSTEMATIC NAME"              ACDLabs 10.04                                        "[(2R)-1-(L-alanyl-L-isoleucyl)pyrrolidin-2-yl]boronic acid"
-AIO "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R)-1-[(2S,3S)-2-[[(2S)-2-aminopropanoyl]amino]-3-methyl-pentanoyl]pyrrolidin-2-yl]boronic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+AIO "SYSTEMATIC NAME" ACDLabs              10.04 "[(2R)-1-(L-alanyl-L-isoleucyl)pyrrolidin-2-yl]boronic acid"                                        
+AIO "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R)-1-[(2S,3S)-2-[[(2S)-2-aminopropanoyl]amino]-3-methyl-pentanoyl]pyrrolidin-2-yl]boronic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-AIO  "Create component" 2007-02-23 RCSB
-AIO "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-AIO  O2 O  9.495  0.436  1
-AIO  C9 C  8.196  1.186  2
-AIO  C4 C  6.897  0.436  3
-AIO  C5 C  5.598  1.186  4
-AIO  C7 C  4.299  0.436  5
-AIO  C8 C  3.000  1.186  6
-AIO  C6 C  5.598  2.686  7
-AIO  N2 N  6.897 -1.064  8
-AIO  C3 C  5.598 -1.814  9
-AIO  O1 O  4.299 -1.064 10
-AIO  C1 C  5.598 -3.314 11
-AIO  C2 C  4.299 -4.064 12
-AIO  N1 N  6.897 -4.064 13
-AIO  N3 N  8.196  2.686 14
-AIO C13 C  6.983  3.568 15
-AIO C12 C  7.446  4.994 16
-AIO C11 C  8.946  4.994 17
-AIO C10 C  9.410  3.568 18
-AIO   B B 10.836  3.104 19
-AIO  O4 O 11.951  4.108 20
-AIO  O3 O 11.148  1.637 21
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-AIO  O2  C9 DOUBLE       NONE  1
-AIO  C9  C4 SINGLE       NONE  2
-AIO  C9  N3 SINGLE       NONE  3
-AIO  C4  C5 SINGLE       NONE  4
-AIO  C4  N2 SINGLE BEGINWEDGE  5
-AIO  C5  C7 SINGLE       NONE  6
-AIO  C5  C6 SINGLE  BEGINDASH  7
-AIO  C7  C8 SINGLE       NONE  8
-AIO  N2  C3 SINGLE       NONE  9
-AIO  C3  O1 DOUBLE       NONE 10
-AIO  C3  C1 SINGLE       NONE 11
-AIO  C1  N1 SINGLE       NONE 12
-AIO  C1  C2 SINGLE  BEGINDASH 13
-AIO  N3 C13 SINGLE       NONE 14
-AIO  N3 C10 SINGLE       NONE 15
-AIO C13 C12 SINGLE       NONE 16
-AIO C12 C11 SINGLE       NONE 17
-AIO C11 C10 SINGLE       NONE 18
-AIO C10   B SINGLE BEGINWEDGE 19
-AIO   B  O3 SINGLE       NONE 20
-AIO   B  O4 SINGLE       NONE 21
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-AIO MurckoScaffold S1 scaffold C1CCNC1  InChI=1S/C4H9N/c1-2-4-5-3-1/h5H,1-4H2 RWRDLPDLKQPQOW-UHFFFAOYSA-N
-AIO          amide F1 fragment CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-AIO        peptide F2 fragment   NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-AIO  N2 F1 1
-AIO  C3 F1 1
-AIO  O1 F1 1
-AIO  C1 F1 1
-AIO  N3 F1 2
-AIO  C9 F1 2
-AIO  O2 F1 2
-AIO  C4 F1 2
-AIO  O2 F2 1
-AIO  C9 F2 1
-AIO  C4 F2 1
-AIO  N2 F2 1
-AIO  O1 F2 2
-AIO  C3 F2 2
-AIO  C1 F2 2
-AIO  N1 F2 2
-AIO  N3 S1 1
-AIO C13 S1 1
-AIO C12 S1 1
-AIO C11 S1 1
-AIO C10 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               AIO
-_pdbe_chem_comp_rdkit_properties.exactmw                               299.202
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           7
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     12
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                5
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        8
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.846
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             162.443
-_pdbe_chem_comp_rdkit_properties.tpsa                                  115.890
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.132
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             79.962
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         21
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-AIO UniChem ChEMBL    CHEMBL1230911
-AIO UniChem ChEMBL    CHEMBL1614835
-AIO UniChem   ZINC ZINC000263621343
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AIO   O2  0.221  1.138 -1.572 ETKDGv2  1
-AIO   C9  0.444  0.665 -0.423 ETKDGv2  2
-AIO   C4 -0.674 -0.079  0.295 ETKDGv2  3
-AIO   C5 -0.831 -1.548 -0.197 ETKDGv2  4
-AIO   C7  0.380 -2.409  0.233 ETKDGv2  5
-AIO   C8  0.179 -3.902 -0.031 ETKDGv2  6
-AIO   C6 -1.086 -1.632 -1.715 ETKDGv2  7
-AIO   N2 -1.946  0.643  0.153 ETKDGv2  8
-AIO   C3 -3.031  0.476  1.081 ETKDGv2  9
-AIO   O1 -2.875 -0.230  2.114 ETKDGv2 10
-AIO   C1 -4.370  1.130  0.835 ETKDGv2 11
-AIO   C2 -4.241  2.654  0.775 ETKDGv2 12
-AIO   N1 -4.990  0.622 -0.390 ETKDGv2 13
-AIO   N3  1.763  0.806  0.150 ETKDGv2 14
-AIO  C13  2.046  0.656  1.570 ETKDGv2 15
-AIO  C12  3.392  1.328  1.805 ETKDGv2 16
-AIO  C11  4.040  1.456  0.432 ETKDGv2 17
-AIO  C10  2.888  1.393 -0.574 ETKDGv2 18
-AIO    B  3.296  0.546 -1.879 ETKDGv2 19
-AIO   O4  2.688 -0.754 -2.151 ETKDGv2 20
-AIO   O3  4.306  1.073 -2.794 ETKDGv2 21
-AIO   H4 -0.436 -0.113  1.377 ETKDGv2 22
-AIO   H5 -1.728 -1.968  0.309 ETKDGv2 23
-AIO  H71  0.545 -2.283  1.325 ETKDGv2 24
-AIO  H72  1.300 -2.071 -0.288 ETKDGv2 25
-AIO  H81  1.013 -4.473  0.428 ETKDGv2 26
-AIO  H82 -0.776 -4.251  0.416 ETKDGv2 27
-AIO  H83  0.179 -4.112 -1.120 ETKDGv2 28
-AIO  H61 -1.442 -2.647 -1.990 ETKDGv2 29
-AIO  H62 -0.160 -1.415 -2.287 ETKDGv2 30
-AIO  H63 -1.877 -0.915 -2.021 ETKDGv2 31
-AIO  HN2 -2.102  1.243 -0.688 ETKDGv2 32
-AIO   H1 -5.045  0.890  1.688 ETKDGv2 33
-AIO  H21 -5.249  3.111  0.673 ETKDGv2 34
-AIO  H22 -3.776  3.036  1.709 ETKDGv2 35
-AIO  H23 -3.623  2.970 -0.092 ETKDGv2 36
-AIO HN11 -4.364  0.804 -1.208 ETKDGv2 37
-AIO HN12 -5.098 -0.415 -0.305 ETKDGv2 38
-AIO H131  2.099 -0.423  1.830 ETKDGv2 39
-AIO H132  1.270  1.162  2.184 ETKDGv2 40
-AIO H121  4.025  0.734  2.500 ETKDGv2 41
-AIO H122  3.234  2.342  2.234 ETKDGv2 42
-AIO H111  4.752  0.609  0.301 ETKDGv2 43
-AIO H112  4.601  2.411  0.341 ETKDGv2 44
-AIO  H10  2.612  2.423 -0.890 ETKDGv2 45
-AIO  HO4  3.282 -1.406 -1.699 ETKDGv2 46
-AIO  HO3  5.166  0.725 -2.446 ETKDGv2 47
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+AIO "Create component"  2007-02-23 RCSB 
+AIO "Modify descriptor" 2011-06-04 RCSB 
+# 

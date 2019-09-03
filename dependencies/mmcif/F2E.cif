@@ -1,480 +1,219 @@
 data_F2E
-#
-_chem_comp.id                                        F2E
-_chem_comp.name                                      1-[(4-aminophenyl)methyl]-3-[(2~{S},3~{R})-1-[2-(2-bromophenyl)pyrazolidin-1-yl]-1-oxidanylidene-3-(3-oxidanylpropoxy)butan-2-yl]urea
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C24 H32 Br N5 O4"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2018-05-17
-_chem_comp.pdbx_modified_date                        2019-05-24
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            534.446
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         F2E
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6GJX
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    F2E 
+_chem_comp.name                                  "1-[(4-aminophenyl)methyl]-3-[(2~{S},3~{R})-1-[2-(2-bromophenyl)pyrazolidin-1-yl]-1-oxidanylidene-3-(3-oxidanylpropoxy)butan-2-yl]urea" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C24 H32 Br N5 O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2018-05-17 
+_chem_comp.pdbx_modified_date                    2019-05-24 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        534.446 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     F2E 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6GJX 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-F2E   N  N1  N 0 1 N N N 79.570 68.848 115.911 -1.189  0.543 -0.650   N F2E  1
-F2E  CA  C1  C 0 1 N N S 80.493 67.848 115.778  0.063  0.718 -1.391  CA F2E  2
-F2E   C  C2  C 0 1 N N N 80.229 67.009 117.113  1.214  0.211 -0.560   C F2E  3
-F2E   O  O1  O 0 1 N N N 79.496 67.337 117.965  1.033 -0.105  0.597   O F2E  4
-F2E  CB  C3  C 0 1 N N R 81.872 68.479 115.620  0.271  2.203 -1.698  CB F2E  5
-F2E OG1  O2  O 0 1 N N N 81.903 69.721 116.355  0.310  2.941 -0.475 OG1 F2E  6
-F2E CG2  C4  C 0 1 N N N 82.086 68.785 114.132 -0.883  2.711 -2.564 CG2 F2E  7
-F2E CAB  C5  C 0 1 Y N N 73.382 71.655 117.556 -7.936 -0.557  1.445 CAB F2E  8
-F2E CAC  C6  C 0 1 Y N N 74.197 70.540 117.938 -7.630  0.689  0.912 CAC F2E  9
-F2E CAD  C7  C 0 1 Y N N 75.080 70.041 117.062 -6.594  0.816  0.008 CAD F2E 10
-F2E CAE  C8  C 0 1 Y N N 75.192 70.621 115.806 -5.860 -0.295 -0.366 CAE F2E 11
-F2E CAF  C9  C 0 1 N N N 76.197 70.075 114.752 -4.730 -0.152 -1.353 CAF F2E 12
-F2E CAH C10  C 0 1 N N N 78.344 68.795 115.124 -2.334  0.290 -1.314 CAH F2E 13
-F2E CAN C11  C 0 1 N N N 82.577 69.603 117.634  1.630  3.240 -0.019 CAN F2E 14
-F2E CAO C12  C 0 1 N N N 82.458 70.953 118.420  1.555  3.927  1.347 CAO F2E 15
-F2E CAP C13  C 0 1 N N N 81.997 72.121 117.572  2.969  4.247  1.836 CAP F2E 16
-F2E CAU C14  C 0 1 Y N N 83.333 65.539 116.214  3.649 -0.936  0.800 CAU F2E 17
-F2E CAV C15  C 0 1 Y N N 83.890 65.838 117.456  4.287 -0.368  1.895 CAV F2E 18
-F2E CAW C16  C 0 1 Y N N 85.246 66.113 117.541  4.318 -1.041  3.101 CAW F2E 19
-F2E CAX C17  C 0 1 Y N N 86.018 66.094 116.436  3.714 -2.280  3.218 CAX F2E 20
-F2E CAY C18  C 0 1 Y N N 85.443 65.801 115.165  3.077 -2.849  2.130 CAY F2E 21
-F2E CAZ C19  C 0 1 Y N N 84.122 65.530 115.086  3.043 -2.181  0.922 CAZ F2E 22
-F2E CBB C20  C 0 1 N N N 81.435 63.989 115.977  4.790  0.187 -1.176 CBB F2E 23
-F2E CBC C21  C 0 1 N N N 81.318 63.536 117.449  4.250  0.847 -2.461 CBC F2E 24
-F2E CBD C22  C 0 1 N N N 80.850 64.822 118.169  2.785  0.361 -2.513 CBD F2E 25
-F2E CBG C23  C 0 1 Y N N 74.387 71.719 115.426 -6.162 -1.537  0.162 CBG F2E 26
-F2E CBH C24  C 0 1 Y N N 73.497 72.221 116.310 -7.193 -1.670  1.071 CBH F2E 27
-F2E NAA  N2  N 0 1 N N N 72.399 72.221 118.495 -8.983 -0.690  2.360 NAA F2E 28
-F2E NAG  N3  N 0 1 N N N 77.439 69.970 115.436 -3.485  0.123 -0.632 NAG F2E 29
-F2E NAS  N4  N 0 1 N N N 80.922 65.741 117.231  2.443  0.109 -1.102 NAS F2E 30
-F2E NAT  N5  N 0 1 N N N 81.882 65.222 116.086  3.611 -0.254 -0.419 NAT F2E 31
-F2E OAQ  O3  O 0 1 N N N 83.072 72.573 116.829  2.898  4.888  3.111 OAQ F2E 32
-F2E OBF  O4  O 0 1 N N N 78.116 67.910 114.302 -2.330  0.211 -2.527 OBF F2E 33
-F2E  BR BR1 BR 0 0 N N N 83.284 65.122 113.354  2.172 -2.959 -0.566  BR F2E 34
-F2E  H1  H1  H 0 1 N N N 79.734 69.607 116.541 -1.192  0.606  0.318  H1 F2E 35
-F2E  H2  H2  H 0 1 N N N 80.280 67.205 114.911  0.014  0.157 -2.324  H2 F2E 36
-F2E  H3  H3  H 0 1 N N N 82.648 67.785 115.976  1.212  2.335 -2.232  H3 F2E 37
-F2E  H4  H4  H 0 1 N N N 83.076 69.242 113.990 -1.811  2.669 -1.994  H4 F2E 38
-F2E  H5  H5  H 0 1 N N N 82.027 67.851 113.554 -0.687  3.740 -2.863  H5 F2E 39
-F2E  H6  H6  H 0 1 N N N 81.308 69.481 113.785 -0.974  2.085 -3.452  H6 F2E 40
-F2E  H7  H7  H 0 1 N N N 74.101 70.106 118.922 -8.203  1.557  1.204  H7 F2E 41
-F2E  H8  H8  H 0 1 N N N 75.698 69.197 117.330 -6.356  1.784 -0.407  H8 F2E 42
-F2E  H9  H9  H 0 1 N N N 76.282 70.771 113.904 -4.624 -1.077 -1.921  H9 F2E 43
-F2E H10 H10  H 0 1 N N N 75.874 69.089 114.386 -4.945  0.670 -2.035 H10 F2E 44
-F2E H11 H11  H 0 1 N N N 82.111 68.797 118.220  2.202  2.316  0.071 H11 F2E 45
-F2E H12 H12  H 0 1 N N N 83.639 69.369 117.468  2.120  3.903 -0.732 H12 F2E 46
-F2E H13 H13  H 0 1 N N N 83.445 71.198 118.839  0.983  4.850  1.258 H13 F2E 47
-F2E H14 H14  H 0 1 N N N 81.737 70.814 119.239  1.065  3.264  2.060 H14 F2E 48
-F2E H15 H15  H 0 1 N N N 81.629 72.929 118.221  3.540  3.323  1.924 H15 F2E 49
-F2E H16 H16  H 0 1 N N N 81.191 71.795 116.898  3.458  4.910  1.122 H16 F2E 50
-F2E H17 H17  H 0 1 N N N 83.272 65.855 118.342  4.759  0.599  1.804 H17 F2E 51
-F2E H18 H18  H 0 1 N N N 85.687 66.344 118.499  4.814 -0.600  3.952 H18 F2E 52
-F2E H19 H19  H 0 1 N N N 87.075 66.301 116.514  3.739 -2.804  4.162 H19 F2E 53
-F2E H20 H20  H 0 1 N N N 86.056 65.796 114.276  2.607 -3.816  2.225 H20 F2E 54
-F2E H21 H21  H 0 1 N N N 80.456 63.965 115.476  5.416 -0.669 -1.429 H21 F2E 55
-F2E H22 H22  H 0 1 N N N 82.145 63.357 115.423  5.361  0.910 -0.594 H22 F2E 56
-F2E H23 H23  H 0 1 N N N 80.578 62.730 117.557  4.293  1.934 -2.383 H23 F2E 57
-F2E H24 H24  H 0 1 N N N 82.290 63.196 117.837  4.803  0.501 -3.334 H24 F2E 58
-F2E H25 H25  H 0 1 N N N 81.515 65.066 119.011  2.140  1.134 -2.931 H25 F2E 59
-F2E H26 H26  H 0 1 N N N 79.819 64.714 118.536  2.708 -0.557 -3.097 H26 F2E 60
-F2E H27 H27  H 0 1 N N N 74.482 72.151 114.441 -5.588 -2.403 -0.132 H27 F2E 61
-F2E H28 H28  H 0 1 N N N 72.879 73.064 116.038 -7.428 -2.640  1.484 H28 F2E 62
-F2E H29 H29  H 0 1 N N N 72.427 71.711 119.355 -9.498  0.089  2.623 H29 F2E 63
-F2E H30 H30  H 0 1 N N N 72.619 73.181 118.669 -9.195 -1.560  2.731 H30 F2E 64
-F2E H31 H31  H 0 1 N N N 77.710 70.658 116.109 -3.489  0.186  0.336 H31 F2E 65
-F2E H32 H32  H 0 1 N N N 82.799 73.307 116.291  3.760  5.121  3.482 H32 F2E 66
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+F2E N   N1  N  0 1 N N N 79.570 68.848 115.911 -1.189 0.543  -0.650 N   F2E 1  
+F2E CA  C1  C  0 1 N N S 80.493 67.848 115.778 0.063  0.718  -1.391 CA  F2E 2  
+F2E C   C2  C  0 1 N N N 80.229 67.009 117.113 1.214  0.211  -0.560 C   F2E 3  
+F2E O   O1  O  0 1 N N N 79.496 67.337 117.965 1.033  -0.105 0.597  O   F2E 4  
+F2E CB  C3  C  0 1 N N R 81.872 68.479 115.620 0.271  2.203  -1.698 CB  F2E 5  
+F2E OG1 O2  O  0 1 N N N 81.903 69.721 116.355 0.310  2.941  -0.475 OG1 F2E 6  
+F2E CG2 C4  C  0 1 N N N 82.086 68.785 114.132 -0.883 2.711  -2.564 CG2 F2E 7  
+F2E CAB C5  C  0 1 Y N N 73.382 71.655 117.556 -7.936 -0.557 1.445  CAB F2E 8  
+F2E CAC C6  C  0 1 Y N N 74.197 70.540 117.938 -7.630 0.689  0.912  CAC F2E 9  
+F2E CAD C7  C  0 1 Y N N 75.080 70.041 117.062 -6.594 0.816  0.008  CAD F2E 10 
+F2E CAE C8  C  0 1 Y N N 75.192 70.621 115.806 -5.860 -0.295 -0.366 CAE F2E 11 
+F2E CAF C9  C  0 1 N N N 76.197 70.075 114.752 -4.730 -0.152 -1.353 CAF F2E 12 
+F2E CAH C10 C  0 1 N N N 78.344 68.795 115.124 -2.334 0.290  -1.314 CAH F2E 13 
+F2E CAN C11 C  0 1 N N N 82.577 69.603 117.634 1.630  3.240  -0.019 CAN F2E 14 
+F2E CAO C12 C  0 1 N N N 82.458 70.953 118.420 1.555  3.927  1.347  CAO F2E 15 
+F2E CAP C13 C  0 1 N N N 81.997 72.121 117.572 2.969  4.247  1.836  CAP F2E 16 
+F2E CAU C14 C  0 1 Y N N 83.333 65.539 116.214 3.649  -0.936 0.800  CAU F2E 17 
+F2E CAV C15 C  0 1 Y N N 83.890 65.838 117.456 4.287  -0.368 1.895  CAV F2E 18 
+F2E CAW C16 C  0 1 Y N N 85.246 66.113 117.541 4.318  -1.041 3.101  CAW F2E 19 
+F2E CAX C17 C  0 1 Y N N 86.018 66.094 116.436 3.714  -2.280 3.218  CAX F2E 20 
+F2E CAY C18 C  0 1 Y N N 85.443 65.801 115.165 3.077  -2.849 2.130  CAY F2E 21 
+F2E CAZ C19 C  0 1 Y N N 84.122 65.530 115.086 3.043  -2.181 0.922  CAZ F2E 22 
+F2E CBB C20 C  0 1 N N N 81.435 63.989 115.977 4.790  0.187  -1.176 CBB F2E 23 
+F2E CBC C21 C  0 1 N N N 81.318 63.536 117.449 4.250  0.847  -2.461 CBC F2E 24 
+F2E CBD C22 C  0 1 N N N 80.850 64.822 118.169 2.785  0.361  -2.513 CBD F2E 25 
+F2E CBG C23 C  0 1 Y N N 74.387 71.719 115.426 -6.162 -1.537 0.162  CBG F2E 26 
+F2E CBH C24 C  0 1 Y N N 73.497 72.221 116.310 -7.193 -1.670 1.071  CBH F2E 27 
+F2E NAA N2  N  0 1 N N N 72.399 72.221 118.495 -8.983 -0.690 2.360  NAA F2E 28 
+F2E NAG N3  N  0 1 N N N 77.439 69.970 115.436 -3.485 0.123  -0.632 NAG F2E 29 
+F2E NAS N4  N  0 1 N N N 80.922 65.741 117.231 2.443  0.109  -1.102 NAS F2E 30 
+F2E NAT N5  N  0 1 N N N 81.882 65.222 116.086 3.611  -0.254 -0.419 NAT F2E 31 
+F2E OAQ O3  O  0 1 N N N 83.072 72.573 116.829 2.898  4.888  3.111  OAQ F2E 32 
+F2E OBF O4  O  0 1 N N N 78.116 67.910 114.302 -2.330 0.211  -2.527 OBF F2E 33 
+F2E BR  BR1 BR 0 0 N N N 83.284 65.122 113.354 2.172  -2.959 -0.566 BR  F2E 34 
+F2E H1  H1  H  0 1 N N N 79.734 69.607 116.541 -1.192 0.606  0.318  H1  F2E 35 
+F2E H2  H2  H  0 1 N N N 80.280 67.205 114.911 0.014  0.157  -2.324 H2  F2E 36 
+F2E H3  H3  H  0 1 N N N 82.648 67.785 115.976 1.212  2.335  -2.232 H3  F2E 37 
+F2E H4  H4  H  0 1 N N N 83.076 69.242 113.990 -1.811 2.669  -1.994 H4  F2E 38 
+F2E H5  H5  H  0 1 N N N 82.027 67.851 113.554 -0.687 3.740  -2.863 H5  F2E 39 
+F2E H6  H6  H  0 1 N N N 81.308 69.481 113.785 -0.974 2.085  -3.452 H6  F2E 40 
+F2E H7  H7  H  0 1 N N N 74.101 70.106 118.922 -8.203 1.557  1.204  H7  F2E 41 
+F2E H8  H8  H  0 1 N N N 75.698 69.197 117.330 -6.356 1.784  -0.407 H8  F2E 42 
+F2E H9  H9  H  0 1 N N N 76.282 70.771 113.904 -4.624 -1.077 -1.921 H9  F2E 43 
+F2E H10 H10 H  0 1 N N N 75.874 69.089 114.386 -4.945 0.670  -2.035 H10 F2E 44 
+F2E H11 H11 H  0 1 N N N 82.111 68.797 118.220 2.202  2.316  0.071  H11 F2E 45 
+F2E H12 H12 H  0 1 N N N 83.639 69.369 117.468 2.120  3.903  -0.732 H12 F2E 46 
+F2E H13 H13 H  0 1 N N N 83.445 71.198 118.839 0.983  4.850  1.258  H13 F2E 47 
+F2E H14 H14 H  0 1 N N N 81.737 70.814 119.239 1.065  3.264  2.060  H14 F2E 48 
+F2E H15 H15 H  0 1 N N N 81.629 72.929 118.221 3.540  3.323  1.924  H15 F2E 49 
+F2E H16 H16 H  0 1 N N N 81.191 71.795 116.898 3.458  4.910  1.122  H16 F2E 50 
+F2E H17 H17 H  0 1 N N N 83.272 65.855 118.342 4.759  0.599  1.804  H17 F2E 51 
+F2E H18 H18 H  0 1 N N N 85.687 66.344 118.499 4.814  -0.600 3.952  H18 F2E 52 
+F2E H19 H19 H  0 1 N N N 87.075 66.301 116.514 3.739  -2.804 4.162  H19 F2E 53 
+F2E H20 H20 H  0 1 N N N 86.056 65.796 114.276 2.607  -3.816 2.225  H20 F2E 54 
+F2E H21 H21 H  0 1 N N N 80.456 63.965 115.476 5.416  -0.669 -1.429 H21 F2E 55 
+F2E H22 H22 H  0 1 N N N 82.145 63.357 115.423 5.361  0.910  -0.594 H22 F2E 56 
+F2E H23 H23 H  0 1 N N N 80.578 62.730 117.557 4.293  1.934  -2.383 H23 F2E 57 
+F2E H24 H24 H  0 1 N N N 82.290 63.196 117.837 4.803  0.501  -3.334 H24 F2E 58 
+F2E H25 H25 H  0 1 N N N 81.515 65.066 119.011 2.140  1.134  -2.931 H25 F2E 59 
+F2E H26 H26 H  0 1 N N N 79.819 64.714 118.536 2.708  -0.557 -3.097 H26 F2E 60 
+F2E H27 H27 H  0 1 N N N 74.482 72.151 114.441 -5.588 -2.403 -0.132 H27 F2E 61 
+F2E H28 H28 H  0 1 N N N 72.879 73.064 116.038 -7.428 -2.640 1.484  H28 F2E 62 
+F2E H29 H29 H  0 1 N N N 72.427 71.711 119.355 -9.498 0.089  2.623  H29 F2E 63 
+F2E H30 H30 H  0 1 N N N 72.619 73.181 118.669 -9.195 -1.560 2.731  H30 F2E 64 
+F2E H31 H31 H  0 1 N N N 77.710 70.658 116.109 -3.489 0.186  0.336  H31 F2E 65 
+F2E H32 H32 H  0 1 N N N 82.799 73.307 116.291 3.760  5.121  3.482  H32 F2E 66 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-F2E  BR CAZ SING N N  1
-F2E CG2  CB SING N N  2
-F2E OBF CAH DOUB N N  3
-F2E CAF NAG SING N N  4
-F2E CAF CAE SING N N  5
-F2E CAZ CAY DOUB Y N  6
-F2E CAZ CAU SING Y N  7
-F2E CAH NAG SING N N  8
-F2E CAH   N SING N N  9
-F2E CAY CAX SING Y N 10
-F2E CBG CAE DOUB Y N 11
-F2E CBG CBH SING Y N 12
-F2E  CB  CA SING N N 13
-F2E  CB OG1 SING N N 14
-F2E  CA   N SING N N 15
-F2E  CA   C SING N N 16
-F2E CAE CAD SING Y N 17
-F2E CBB NAT SING N N 18
-F2E CBB CBC SING N N 19
-F2E NAT CAU SING N N 20
-F2E NAT NAS SING N N 21
-F2E CAU CAV DOUB Y N 22
-F2E CBH CAB DOUB Y N 23
-F2E OG1 CAN SING N N 24
-F2E CAX CAW DOUB Y N 25
-F2E OAQ CAP SING N N 26
-F2E CAD CAC DOUB Y N 27
-F2E   C NAS SING N N 28
-F2E   C   O DOUB N N 29
-F2E NAS CBD SING N N 30
-F2E CBC CBD SING N N 31
-F2E CAV CAW SING Y N 32
-F2E CAB CAC SING Y N 33
-F2E CAB NAA SING N N 34
-F2E CAP CAO SING N N 35
-F2E CAN CAO SING N N 36
-F2E   N  H1 SING N N 37
-F2E  CA  H2 SING N N 38
-F2E  CB  H3 SING N N 39
-F2E CG2  H4 SING N N 40
-F2E CG2  H5 SING N N 41
-F2E CG2  H6 SING N N 42
-F2E CAC  H7 SING N N 43
-F2E CAD  H8 SING N N 44
-F2E CAF  H9 SING N N 45
-F2E CAF H10 SING N N 46
-F2E CAN H11 SING N N 47
-F2E CAN H12 SING N N 48
-F2E CAO H13 SING N N 49
-F2E CAO H14 SING N N 50
-F2E CAP H15 SING N N 51
-F2E CAP H16 SING N N 52
-F2E CAV H17 SING N N 53
-F2E CAW H18 SING N N 54
-F2E CAX H19 SING N N 55
-F2E CAY H20 SING N N 56
-F2E CBB H21 SING N N 57
-F2E CBB H22 SING N N 58
-F2E CBC H23 SING N N 59
-F2E CBC H24 SING N N 60
-F2E CBD H25 SING N N 61
-F2E CBD H26 SING N N 62
-F2E CBG H27 SING N N 63
-F2E CBH H28 SING N N 64
-F2E NAA H29 SING N N 65
-F2E NAA H30 SING N N 66
-F2E NAG H31 SING N N 67
-F2E OAQ H32 SING N N 68
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+F2E BR  CAZ SING N N 1  
+F2E CG2 CB  SING N N 2  
+F2E OBF CAH DOUB N N 3  
+F2E CAF NAG SING N N 4  
+F2E CAF CAE SING N N 5  
+F2E CAZ CAY DOUB Y N 6  
+F2E CAZ CAU SING Y N 7  
+F2E CAH NAG SING N N 8  
+F2E CAH N   SING N N 9  
+F2E CAY CAX SING Y N 10 
+F2E CBG CAE DOUB Y N 11 
+F2E CBG CBH SING Y N 12 
+F2E CB  CA  SING N N 13 
+F2E CB  OG1 SING N N 14 
+F2E CA  N   SING N N 15 
+F2E CA  C   SING N N 16 
+F2E CAE CAD SING Y N 17 
+F2E CBB NAT SING N N 18 
+F2E CBB CBC SING N N 19 
+F2E NAT CAU SING N N 20 
+F2E NAT NAS SING N N 21 
+F2E CAU CAV DOUB Y N 22 
+F2E CBH CAB DOUB Y N 23 
+F2E OG1 CAN SING N N 24 
+F2E CAX CAW DOUB Y N 25 
+F2E OAQ CAP SING N N 26 
+F2E CAD CAC DOUB Y N 27 
+F2E C   NAS SING N N 28 
+F2E C   O   DOUB N N 29 
+F2E NAS CBD SING N N 30 
+F2E CBC CBD SING N N 31 
+F2E CAV CAW SING Y N 32 
+F2E CAB CAC SING Y N 33 
+F2E CAB NAA SING N N 34 
+F2E CAP CAO SING N N 35 
+F2E CAN CAO SING N N 36 
+F2E N   H1  SING N N 37 
+F2E CA  H2  SING N N 38 
+F2E CB  H3  SING N N 39 
+F2E CG2 H4  SING N N 40 
+F2E CG2 H5  SING N N 41 
+F2E CG2 H6  SING N N 42 
+F2E CAC H7  SING N N 43 
+F2E CAD H8  SING N N 44 
+F2E CAF H9  SING N N 45 
+F2E CAF H10 SING N N 46 
+F2E CAN H11 SING N N 47 
+F2E CAN H12 SING N N 48 
+F2E CAO H13 SING N N 49 
+F2E CAO H14 SING N N 50 
+F2E CAP H15 SING N N 51 
+F2E CAP H16 SING N N 52 
+F2E CAV H17 SING N N 53 
+F2E CAW H18 SING N N 54 
+F2E CAX H19 SING N N 55 
+F2E CAY H20 SING N N 56 
+F2E CBB H21 SING N N 57 
+F2E CBB H22 SING N N 58 
+F2E CBC H23 SING N N 59 
+F2E CBC H24 SING N N 60 
+F2E CBD H25 SING N N 61 
+F2E CBD H26 SING N N 62 
+F2E CBG H27 SING N N 63 
+F2E CBH H28 SING N N 64 
+F2E NAA H29 SING N N 65 
+F2E NAA H30 SING N N 66 
+F2E NAG H31 SING N N 67 
+F2E OAQ H32 SING N N 68 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-F2E            InChI                InChI  1.03 InChI=1S/C24H32BrN5O4/c1-17(34-15-5-14-31)22(28-24(33)27-16-18-8-10-19(26)11-9-18)23(32)30-13-4-12-29(30)21-7-3-2-6-20(21)25/h2-3,6-11,17,22,31H,4-5,12-16,26H2,1H3,(H2,27,28,33)/t17-,22+/m1/s1
-F2E         InChIKey                InChI  1.03                                                                                                                                                                      LJKCBQRVXGGZLY-VGSWGCGISA-N
-F2E SMILES_CANONICAL               CACTVS 3.385                                                                                                                                   C[C@@H](OCCCO)[C@H](NC(=O)NCc1ccc(N)cc1)C(=O)N2CCCN2c3ccccc3Br
-F2E           SMILES               CACTVS 3.385                                                                                                                                      C[CH](OCCCO)[CH](NC(=O)NCc1ccc(N)cc1)C(=O)N2CCCN2c3ccccc3Br
-F2E SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                                                   C[C@H]([C@@H](C(=O)N1CCCN1c2ccccc2Br)NC(=O)NCc3ccc(cc3)N)OCCCO
-F2E           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                                                            CC(C(C(=O)N1CCCN1c2ccccc2Br)NC(=O)NCc3ccc(cc3)N)OCCCO
-#
-_pdbx_chem_comp_identifier.comp_id               F2E
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.6
-_pdbx_chem_comp_identifier.identifier            1-[(4-aminophenyl)methyl]-3-[(2~{S},3~{R})-1-[2-(2-bromophenyl)pyrazolidin-1-yl]-1-oxidanylidene-3-(3-oxidanylpropoxy)butan-2-yl]urea
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+F2E InChI            InChI                1.03  "InChI=1S/C24H32BrN5O4/c1-17(34-15-5-14-31)22(28-24(33)27-16-18-8-10-19(26)11-9-18)23(32)30-13-4-12-29(30)21-7-3-2-6-20(21)25/h2-3,6-11,17,22,31H,4-5,12-16,26H2,1H3,(H2,27,28,33)/t17-,22+/m1/s1" 
+F2E InChIKey         InChI                1.03  LJKCBQRVXGGZLY-VGSWGCGISA-N                                                                                                                                                                        
+F2E SMILES_CANONICAL CACTVS               3.385 "C[C@@H](OCCCO)[C@H](NC(=O)NCc1ccc(N)cc1)C(=O)N2CCCN2c3ccccc3Br"                                                                                                                                   
+F2E SMILES           CACTVS               3.385 "C[CH](OCCCO)[CH](NC(=O)NCc1ccc(N)cc1)C(=O)N2CCCN2c3ccccc3Br"                                                                                                                                      
+F2E SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C[C@H]([C@@H](C(=O)N1CCCN1c2ccccc2Br)NC(=O)NCc3ccc(cc3)N)OCCCO"                                                                                                                                   
+F2E SMILES           "OpenEye OEToolkits" 2.0.6 "CC(C(C(=O)N1CCCN1c2ccccc2Br)NC(=O)NCc3ccc(cc3)N)OCCCO"                                                                                                                                            
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-F2E "Create component" 2018-05-17  EBI
-F2E  "Initial release" 2019-05-29 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+F2E "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "1-[(4-aminophenyl)methyl]-3-[(2~{S},3~{R})-1-[2-(2-bromophenyl)pyrazolidin-1-yl]-1-oxidanylidene-3-(3-oxidanylpropoxy)butan-2-yl]urea" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-F2E   N  N 10.780 -1.664  1
-F2E  CA  C  9.353 -1.200  2
-F2E   C  C  8.238 -2.204  3
-F2E   O  O  8.550 -3.671  4
-F2E  CB  C  9.041  0.267  5
-F2E OG1  O 10.156  1.271  6
-F2E CG2  C  7.614  0.731  7
-F2E CAB  C 18.715 -1.510  8
-F2E CAC  C 17.601 -2.514  9
-F2E CAD  C 16.174 -2.051 10
-F2E CAE  C 15.862 -0.584 11
-F2E CAF  C 14.435 -0.120 12
-F2E CAH  C 11.894 -0.660 13
-F2E CAN  C  9.844  2.738 14
-F2E CAO  C 10.959  3.742 15
-F2E CAP  C 10.647  5.209 16
-F2E CAU  C  5.598 -4.122 17
-F2E CAV  C  6.897 -4.872 18
-F2E CAW  C  6.897 -6.372 19
-F2E CAX  C  5.598 -7.122 20
-F2E CAY  C  4.299 -6.372 21
-F2E CAZ  C  4.299 -4.872 22
-F2E CBB  C  4.385 -1.740 23
-F2E CBC  C  4.848 -0.314 24
-F2E CBD  C  6.348 -0.314 25
-F2E CBG  C 16.977  0.420 26
-F2E CBH  C 18.403 -0.043 27
-F2E NAA  N 20.142 -1.974 28
-F2E NAG  N 13.321 -1.124 29
-F2E NAS  N  6.812 -1.740 30
-F2E NAT  N  5.598 -2.622 31
-F2E OAQ  O 11.761  6.212 32
-F2E OBF  O 11.582  0.807 33
-F2E  BR Br  3.000 -4.122 34
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-F2E  BR CAZ SINGLE      NONE  1
-F2E CG2  CB SINGLE BEGINDASH  2
-F2E OBF CAH DOUBLE      NONE  3
-F2E CAF NAG SINGLE      NONE  4
-F2E CAF CAE SINGLE      NONE  5
-F2E CAZ CAY DOUBLE      NONE  6
-F2E CAZ CAU SINGLE      NONE  7
-F2E CAH NAG SINGLE      NONE  8
-F2E CAH   N SINGLE      NONE  9
-F2E CAY CAX SINGLE      NONE 10
-F2E CBG CAE DOUBLE      NONE 11
-F2E CBG CBH SINGLE      NONE 12
-F2E  CB  CA SINGLE      NONE 13
-F2E  CB OG1 SINGLE      NONE 14
-F2E  CA   N SINGLE BEGINDASH 15
-F2E  CA   C SINGLE      NONE 16
-F2E CAE CAD SINGLE      NONE 17
-F2E CBB NAT SINGLE      NONE 18
-F2E CBB CBC SINGLE      NONE 19
-F2E NAT CAU SINGLE      NONE 20
-F2E NAT NAS SINGLE      NONE 21
-F2E CAU CAV DOUBLE      NONE 22
-F2E CBH CAB DOUBLE      NONE 23
-F2E OG1 CAN SINGLE      NONE 24
-F2E CAX CAW DOUBLE      NONE 25
-F2E OAQ CAP SINGLE      NONE 26
-F2E CAD CAC DOUBLE      NONE 27
-F2E   C NAS SINGLE      NONE 28
-F2E   C   O DOUBLE      NONE 29
-F2E NAS CBD SINGLE      NONE 30
-F2E CBC CBD SINGLE      NONE 31
-F2E CAV CAW SINGLE      NONE 32
-F2E CAB CAC SINGLE      NONE 33
-F2E CAB NAA SINGLE      NONE 34
-F2E CAP CAO SINGLE      NONE 35
-F2E CAN CAO SINGLE      NONE 36
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-F2E MurckoScaffold S1 scaffold O=C(NCC(=O)N1CCCN1c1ccccc1)NCc1ccccc1 InChI=1S/C19H22N4O2/c24-18(15-21-19(25)20-14-16-8-3-1-4-9-16)23-13-7-12-22(23)17-10-5-2-6-11-17/h1-6,8-11H,7,12-15H2,(H2,20,21,25) PWOKOCLTTIVZLG-UHFFFAOYSA-N
-F2E          amide F1 fragment                               CC(N)=O                                                                                             InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-F2E        peptide F2 fragment                                 NCC=O                                                                                                 InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-F2E         phenyl F3 fragment                              c1ccccc1                                                                                                 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-F2E NAS F1 1
-F2E   C F1 1
-F2E   O F1 1
-F2E  CA F1 1
-F2E   O F2 1
-F2E   C F2 1
-F2E  CA F2 1
-F2E   N F2 1
-F2E CAB F3 1
-F2E CAC F3 1
-F2E CAD F3 1
-F2E CAE F3 1
-F2E CBG F3 1
-F2E CBH F3 1
-F2E CAU F3 2
-F2E CAV F3 2
-F2E CAW F3 2
-F2E CAX F3 2
-F2E CAY F3 2
-F2E CAZ F3 2
-F2E   N S1 1
-F2E  CA S1 1
-F2E   C S1 1
-F2E   O S1 1
-F2E CAB S1 1
-F2E CAC S1 1
-F2E CAD S1 1
-F2E CAE S1 1
-F2E CAF S1 1
-F2E CAH S1 1
-F2E CAU S1 1
-F2E CAV S1 1
-F2E CAW S1 1
-F2E CAX S1 1
-F2E CAY S1 1
-F2E CAZ S1 1
-F2E CBB S1 1
-F2E CBC S1 1
-F2E CBD S1 1
-F2E CBG S1 1
-F2E CBH S1 1
-F2E NAG S1 1
-F2E NAS S1 1
-F2E NAT S1 1
-F2E OBF S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               F2E
-_pdbe_chem_comp_rdkit_properties.exactmw                               533.164
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           9
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     13
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        10
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         3
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.417
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             253.168
-_pdbe_chem_comp_rdkit_properties.tpsa                                  120.160
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.825
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             133.035
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         34
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-F2E   N -0.212  0.007 -0.896 ETKDGv2  1
-F2E  CA -1.498  0.210 -0.223 ETKDGv2  2
-F2E   C -2.536  0.660 -1.229 ETKDGv2  3
-F2E   O -2.481  1.827 -1.704 ETKDGv2  4
-F2E  CB -1.338  1.195  0.962 ETKDGv2  5
-F2E OG1 -0.900  2.465  0.498 ETKDGv2  6
-F2E CG2 -2.659  1.377  1.717 ETKDGv2  7
-F2E CAB  4.772  0.765  2.738 ETKDGv2  8
-F2E CAC  4.035 -0.483  3.041 ETKDGv2  9
-F2E CAD  3.564 -1.246  2.047 ETKDGv2 10
-F2E CAE  3.775 -0.847  0.633 ETKDGv2 11
-F2E CAF  3.200 -1.678 -0.481 ETKDGv2 12
-F2E CAH  0.809 -0.845 -0.361 ETKDGv2 13
-F2E CAN  0.458  2.708  0.818 ETKDGv2 14
-F2E CAO  0.580  3.323  2.216 ETKDGv2 15
-F2E CAP  2.040  3.625  2.562 ETKDGv2 16
-F2E CAU -2.285 -2.302 -1.998 ETKDGv2 17
-F2E CAV -1.572 -1.941 -3.079 ETKDGv2 18
-F2E CAW -0.307 -2.631 -3.401 ETKDGv2 19
-F2E CAX  0.134 -3.622 -2.619 ETKDGv2 20
-F2E CAY -0.644 -4.027 -1.430 ETKDGv2 21
-F2E CAZ -1.794 -3.406 -1.132 ETKDGv2 22
-F2E CBB -4.798 -2.209 -1.961 ETKDGv2 23
-F2E CBC -5.754 -1.027 -2.185 ETKDGv2 24
-F2E CBD -4.932  0.247 -1.949 ETKDGv2 25
-F2E CBG  4.436  0.292  0.362 ETKDGv2 26
-F2E CBH  4.961  1.130  1.460 ETKDGv2 27
-F2E NAA  5.264  1.581  3.805 ETKDGv2 28
-F2E NAG  2.046 -1.001 -1.067 ETKDGv2 29
-F2E NAS -3.595 -0.218 -1.644 ETKDGv2 30
-F2E NAT -3.505 -1.613 -1.677 ETKDGv2 31
-F2E OAQ  2.132  4.163  3.852 ETKDGv2 32
-F2E OBF  0.620 -1.456  0.727 ETKDGv2 33
-F2E  BR -2.743 -3.908  0.452 ETKDGv2 34
-F2E  H1 -0.027  0.484 -1.808 ETKDGv2 35
-F2E  H2 -1.831 -0.762  0.200 ETKDGv2 36
-F2E  H3 -0.638  0.730  1.698 ETKDGv2 37
-F2E  H4 -3.049  0.394  2.058 ETKDGv2 38
-F2E  H5 -2.492  2.017  2.610 ETKDGv2 39
-F2E  H6 -3.420  1.867  1.074 ETKDGv2 40
-F2E  H7  3.874 -0.781  4.069 ETKDGv2 41
-F2E  H8  3.024 -2.155  2.280 ETKDGv2 42
-F2E  H9  3.976 -1.827 -1.263 ETKDGv2 43
-F2E H10  2.901 -2.685 -0.119 ETKDGv2 44
-F2E H11  0.853  3.435  0.077 ETKDGv2 45
-F2E H12  1.094  1.797  0.728 ETKDGv2 46
-F2E H13 -0.011  4.264  2.253 ETKDGv2 47
-F2E H14  0.167  2.622  2.973 ETKDGv2 48
-F2E H15  2.480  4.327  1.817 ETKDGv2 49
-F2E H16  2.625  2.682  2.533 ETKDGv2 50
-F2E H17 -1.915 -1.138 -3.720 ETKDGv2 51
-F2E H18  0.265 -2.329 -4.269 ETKDGv2 52
-F2E H19  1.065 -4.124 -2.850 ETKDGv2 53
-F2E H20 -0.269 -4.819 -0.795 ETKDGv2 54
-F2E H21 -4.745 -2.843 -2.874 ETKDGv2 55
-F2E H22 -5.129 -2.821 -1.096 ETKDGv2 56
-F2E H23 -6.607 -1.077 -1.474 ETKDGv2 57
-F2E H24 -6.149 -1.042 -3.224 ETKDGv2 58
-F2E H25 -4.915  0.884 -2.860 ETKDGv2 59
-F2E H26 -5.339  0.822 -1.089 ETKDGv2 60
-F2E H27  4.583  0.613 -0.662 ETKDGv2 61
-F2E H28  5.490  2.044  1.220 ETKDGv2 62
-F2E H29  5.775  2.471  3.612 ETKDGv2 63
-F2E H30  5.110  1.300  4.799 ETKDGv2 64
-F2E H31  2.144 -0.578 -2.017 ETKDGv2 65
-F2E H32  1.838  5.110  3.786 ETKDGv2 66
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+F2E "Create component" 2018-05-17 EBI  
+F2E "Initial release"  2019-05-29 RCSB 
+# 

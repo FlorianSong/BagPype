@@ -1,249 +1,141 @@
 data_NWB
-#
-_chem_comp.id                                        NWB
-_chem_comp.name                                      N,N,N-TRIMETHYL-4-OXOPENTAN-1-AMINIUM
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C8 H18 N O"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        1
-_chem_comp.pdbx_initial_date                         2005-10-27
-_chem_comp.pdbx_modified_date                        2008-10-14
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       OBS
-_chem_comp.pdbx_replaced_by                          CHH
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            144.235
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         NWB
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2C5F
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    NWB 
+_chem_comp.name                                  N,N,N-TRIMETHYL-4-OXOPENTAN-1-AMINIUM 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C8 H18 N O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    1 
+_chem_comp.pdbx_initial_date                     2005-10-27 
+_chem_comp.pdbx_modified_date                    2008-10-14 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   OBS 
+_chem_comp.pdbx_replaced_by                      CHH 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        144.235 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     NWB 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2C5F 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-NWB   N1   N1 N 1 1 N N N -0.525 61.071 72.729 -2.191 -0.012  0.000   N1 NWB  1
-NWB   C2   C2 C 0 1 N N N  0.643 62.013 72.596 -0.985 -0.850  0.000   C2 NWB  2
-NWB   C3   C3 C 0 1 N N N  0.838 62.770 71.226  0.257  0.044  0.000   C3 NWB  3
-NWB   C5   C5 C 0 1 N N N  2.316 63.125 69.569  2.737  0.052  0.000   C5 NWB  4
-NWB   O7   O7 O 0 1 N N N  1.955 64.478 69.626  2.616  1.253  0.000   O7 NWB  5
-NWB   C6   C6 C 0 1 N N N  3.420 62.859 68.905  4.111 -0.567  0.000   C6 NWB  6
-NWB  C10  C10 C 0 1 N N N -0.279 59.810 72.040 -2.198  0.836 -1.199  C10 NWB  7
-NWB   C8   C8 C 0 1 N N N -0.574 60.684 74.115 -3.383 -0.870  0.000   C8 NWB  8
-NWB  C14  C14 C 0 1 N N N  1.767 62.069 70.397  1.514 -0.829  0.000  C14 NWB  9
-NWB   C9   C9 C 0 1 N N N -1.936 61.611 72.396 -2.198  0.836  1.199   C9 NWB 10
-NWB H2C1 1H2C H 0 0 N N N  1.531 61.370 72.687 -0.979 -1.479 -0.890 H2C1 NWB 11
-NWB  HA2  2HA H 0 1 N N N  0.514 62.786 73.368 -0.979 -1.479  0.890  HA2 NWB 12
-NWB  HA1  1HA H 0 1 N N N  1.229 63.778 71.428  0.252  0.673  0.890  HA1 NWB 13
-NWB  HB2  2HB H 0 1 N N N -0.130 62.835 70.708  0.252  0.673 -0.890  HB2 NWB 14
-NWB H6C1 1H6C H 0 0 N N N  3.356 63.280 67.875  4.864  0.220  0.000 H6C1 NWB 15
-NWB H6C2 2H6C H 0 0 N N N  4.265 63.462 69.313  4.231 -1.185  0.890 H6C2 NWB 16
-NWB  H63  3H6 H 0 1 N N N  3.707 61.783 68.860  4.231 -1.185 -0.890  H63 NWB 17
-NWB H101 1H10 H 0 0 N N N -1.103 59.112 72.249 -2.193  0.207 -2.089 H101 NWB 18
-NWB H102 2H10 H 0 0 N N N  0.668 59.377 72.395 -3.094  1.458 -1.199 H102 NWB 19
-NWB H103 3H10 H 0 0 N N N -0.217 59.990 70.957 -1.314  1.473 -1.199 H103 NWB 20
-NWB H8C1 1H8C H 0 0 N N N -1.484 61.093 74.578 -3.378 -1.500  0.890 H8C1 NWB 21
-NWB H8C2 2H8C H 0 0 N N N  0.311 61.077 74.637 -4.279 -0.249  0.000 H8C2 NWB 22
-NWB H8C3 3H8C H 0 0 N N N -0.586 59.587 74.190 -3.378 -1.500 -0.890 H8C3 NWB 23
-NWB H141 1H14 H 0 0 N N N  1.303 61.259 69.815  1.519 -1.458 -0.890 H141 NWB 24
-NWB H142 2H14 H 0 0 N N N  2.546 61.568 70.990  1.519 -1.458  0.890 H142 NWB 25
-NWB H9C1 1H9C H 0 0 N N N -2.456 60.897 71.741 -1.314  1.473  1.199 H9C1 NWB 26
-NWB H9C2 2H9C H 0 0 N N N -1.846 62.581 71.884 -3.094  1.458  1.199 H9C2 NWB 27
-NWB H9C3 3H9C H 0 0 N N N -2.509 61.739 73.326 -2.193  0.207  2.089 H9C3 NWB 28
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+NWB N1   N1   N 1 1 N N N -0.525 61.071 72.729 -2.191 -0.012 0.000  N1   NWB 1  
+NWB C2   C2   C 0 1 N N N 0.643  62.013 72.596 -0.985 -0.850 0.000  C2   NWB 2  
+NWB C3   C3   C 0 1 N N N 0.838  62.770 71.226 0.257  0.044  0.000  C3   NWB 3  
+NWB C5   C5   C 0 1 N N N 2.316  63.125 69.569 2.737  0.052  0.000  C5   NWB 4  
+NWB O7   O7   O 0 1 N N N 1.955  64.478 69.626 2.616  1.253  0.000  O7   NWB 5  
+NWB C6   C6   C 0 1 N N N 3.420  62.859 68.905 4.111  -0.567 0.000  C6   NWB 6  
+NWB C10  C10  C 0 1 N N N -0.279 59.810 72.040 -2.198 0.836  -1.199 C10  NWB 7  
+NWB C8   C8   C 0 1 N N N -0.574 60.684 74.115 -3.383 -0.870 0.000  C8   NWB 8  
+NWB C14  C14  C 0 1 N N N 1.767  62.069 70.397 1.514  -0.829 0.000  C14  NWB 9  
+NWB C9   C9   C 0 1 N N N -1.936 61.611 72.396 -2.198 0.836  1.199  C9   NWB 10 
+NWB H2C1 1H2C H 0 0 N N N 1.531  61.370 72.687 -0.979 -1.479 -0.890 H2C1 NWB 11 
+NWB HA2  2HA  H 0 1 N N N 0.514  62.786 73.368 -0.979 -1.479 0.890  HA2  NWB 12 
+NWB HA1  1HA  H 0 1 N N N 1.229  63.778 71.428 0.252  0.673  0.890  HA1  NWB 13 
+NWB HB2  2HB  H 0 1 N N N -0.130 62.835 70.708 0.252  0.673  -0.890 HB2  NWB 14 
+NWB H6C1 1H6C H 0 0 N N N 3.356  63.280 67.875 4.864  0.220  0.000  H6C1 NWB 15 
+NWB H6C2 2H6C H 0 0 N N N 4.265  63.462 69.313 4.231  -1.185 0.890  H6C2 NWB 16 
+NWB H63  3H6  H 0 1 N N N 3.707  61.783 68.860 4.231  -1.185 -0.890 H63  NWB 17 
+NWB H101 1H10 H 0 0 N N N -1.103 59.112 72.249 -2.193 0.207  -2.089 H101 NWB 18 
+NWB H102 2H10 H 0 0 N N N 0.668  59.377 72.395 -3.094 1.458  -1.199 H102 NWB 19 
+NWB H103 3H10 H 0 0 N N N -0.217 59.990 70.957 -1.314 1.473  -1.199 H103 NWB 20 
+NWB H8C1 1H8C H 0 0 N N N -1.484 61.093 74.578 -3.378 -1.500 0.890  H8C1 NWB 21 
+NWB H8C2 2H8C H 0 0 N N N 0.311  61.077 74.637 -4.279 -0.249 0.000  H8C2 NWB 22 
+NWB H8C3 3H8C H 0 0 N N N -0.586 59.587 74.190 -3.378 -1.500 -0.890 H8C3 NWB 23 
+NWB H141 1H14 H 0 0 N N N 1.303  61.259 69.815 1.519  -1.458 -0.890 H141 NWB 24 
+NWB H142 2H14 H 0 0 N N N 2.546  61.568 70.990 1.519  -1.458 0.890  H142 NWB 25 
+NWB H9C1 1H9C H 0 0 N N N -2.456 60.897 71.741 -1.314 1.473  1.199  H9C1 NWB 26 
+NWB H9C2 2H9C H 0 0 N N N -1.846 62.581 71.884 -3.094 1.458  1.199  H9C2 NWB 27 
+NWB H9C3 3H9C H 0 0 N N N -2.509 61.739 73.326 -2.193 0.207  2.089  H9C3 NWB 28 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-NWB  N1   C2 SING N N  1
-NWB  N1  C10 SING N N  2
-NWB  N1   C8 SING N N  3
-NWB  N1   C9 SING N N  4
-NWB  C2   C3 SING N N  5
-NWB  C2 H2C1 SING N N  6
-NWB  C2  HA2 SING N N  7
-NWB  C3  C14 SING N N  8
-NWB  C3  HA1 SING N N  9
-NWB  C3  HB2 SING N N 10
-NWB  C5   O7 DOUB N E 11
-NWB  C5   C6 SING N N 12
-NWB  C5  C14 SING N N 13
-NWB  C6 H6C1 SING N N 14
-NWB  C6 H6C2 SING N N 15
-NWB  C6  H63 SING N N 16
-NWB C10 H101 SING N N 17
-NWB C10 H102 SING N N 18
-NWB C10 H103 SING N N 19
-NWB  C8 H8C1 SING N N 20
-NWB  C8 H8C2 SING N N 21
-NWB  C8 H8C3 SING N N 22
-NWB C14 H141 SING N N 23
-NWB C14 H142 SING N N 24
-NWB  C9 H9C1 SING N N 25
-NWB  C9 H9C2 SING N N 26
-NWB  C9 H9C3 SING N N 27
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+NWB N1  C2   SING N N 1  
+NWB N1  C10  SING N N 2  
+NWB N1  C8   SING N N 3  
+NWB N1  C9   SING N N 4  
+NWB C2  C3   SING N N 5  
+NWB C2  H2C1 SING N N 6  
+NWB C2  HA2  SING N N 7  
+NWB C3  C14  SING N N 8  
+NWB C3  HA1  SING N N 9  
+NWB C3  HB2  SING N N 10 
+NWB C5  O7   DOUB N E 11 
+NWB C5  C6   SING N N 12 
+NWB C5  C14  SING N N 13 
+NWB C6  H6C1 SING N N 14 
+NWB C6  H6C2 SING N N 15 
+NWB C6  H63  SING N N 16 
+NWB C10 H101 SING N N 17 
+NWB C10 H102 SING N N 18 
+NWB C10 H103 SING N N 19 
+NWB C8  H8C1 SING N N 20 
+NWB C8  H8C2 SING N N 21 
+NWB C8  H8C3 SING N N 22 
+NWB C14 H141 SING N N 23 
+NWB C14 H142 SING N N 24 
+NWB C9  H9C1 SING N N 25 
+NWB C9  H9C2 SING N N 26 
+NWB C9  H9C3 SING N N 27 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-NWB           SMILES              ACDLabs 10.04                                   O=C(C)CCC[N+](C)(C)C
-NWB            InChI                InChI 1.02b InChI=1/C8H18NO/c1-8(10)6-5-7-9(2,3)4/h5-7H2,1-4H3/q+1
-NWB         InChIKey                InChI 1.02b                              UKCYTFTWLWVZSO-UHFFFAOYAD
-NWB SMILES_CANONICAL               CACTVS 3.341                                   CC(=O)CCC[N+](C)(C)C
-NWB           SMILES               CACTVS 3.341                                   CC(=O)CCC[N+](C)(C)C
-NWB SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                   CC(=O)CCC[N+](C)(C)C
-NWB           SMILES "OpenEye OEToolkits" 1.5.0                                   CC(=O)CCC[N+](C)(C)C
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+NWB SMILES           ACDLabs              10.04 "O=C(C)CCC[N+](C)(C)C"                                   
+NWB InChI            InChI                1.02b "InChI=1/C8H18NO/c1-8(10)6-5-7-9(2,3)4/h5-7H2,1-4H3/q+1" 
+NWB InChIKey         InChI                1.02b UKCYTFTWLWVZSO-UHFFFAOYAD                                
+NWB SMILES_CANONICAL CACTVS               3.341 "CC(=O)CCC[N+](C)(C)C"                                   
+NWB SMILES           CACTVS               3.341 "CC(=O)CCC[N+](C)(C)C"                                   
+NWB SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(=O)CCC[N+](C)(C)C"                                   
+NWB SMILES           "OpenEye OEToolkits" 1.5.0 "CC(=O)CCC[N+](C)(C)C"                                   
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-NWB "SYSTEMATIC NAME"              ACDLabs 10.04 N,N,N-trimethyl-4-oxopentan-1-aminium
-NWB "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0        trimethyl-(4-oxopentyl)azanium
-#
-_pdbx_chem_comp_audit.comp_id               NWB
-_pdbx_chem_comp_audit.action_type           "Create component"
-_pdbx_chem_comp_audit.date                  2005-10-27
-_pdbx_chem_comp_audit.processing_site       EBI
-
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+NWB "SYSTEMATIC NAME" ACDLabs              10.04 N,N,N-trimethyl-4-oxopentan-1-aminium 
+NWB "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "trimethyl-(4-oxopentyl)azanium"      
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-NWB  N1 N  0.986 -0.767  1
-NWB  C2 C  0.119 -1.267  2
-NWB  C3 C -0.746 -0.766  3
-NWB  C5 C -2.478 -0.764  4
-NWB  O7 O -2.478  0.236  5
-NWB  C6 C -3.345 -1.264  6
-NWB C10 C  0.486  0.099  7
-NWB  C8 C  1.486  0.098  8
-NWB C14 C -1.613 -1.265  9
-NWB  C9 C  1.851 -1.268 10
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-NWB N1  C2 SINGLE NONE 1
-NWB N1 C10 SINGLE NONE 2
-NWB N1  C8 SINGLE NONE 3
-NWB N1  C9 SINGLE NONE 4
-NWB C2  C3 SINGLE NONE 5
-NWB C3 C14 SINGLE NONE 6
-NWB C5  O7 DOUBLE NONE 7
-NWB C5  C6 SINGLE NONE 8
-NWB C5 C14 SINGLE NONE 9
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               NWB
-_pdbe_chem_comp_rdkit_properties.exactmw                               144.138
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     8
-_pdbe_chem_comp_rdkit_properties.NumHBD                                0
-_pdbe_chem_comp_rdkit_properties.NumHBA                                1
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        2
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.875
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             88.715
-_pdbe_chem_comp_rdkit_properties.tpsa                                  17.070
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.062
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             42.814
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-NWB   N1 -1.594  0.487  0.045 ETKDGv2  1
-NWB   C2 -0.560  0.293  1.117 ETKDGv2  2
-NWB   C3  0.924  0.176  0.675 ETKDGv2  3
-NWB   C5  2.755 -1.392  0.004 ETKDGv2  4
-NWB   O7  3.180 -2.215  0.800 ETKDGv2  5
-NWB   C6  3.723 -0.635 -0.856 ETKDGv2  6
-NWB  C10 -1.147  1.434 -1.004 ETKDGv2  7
-NWB   C8 -2.811  1.050  0.684 ETKDGv2  8
-NWB  C14  1.277 -1.119 -0.070 ETKDGv2  9
-NWB   C9 -1.976 -0.804 -0.578 ETKDGv2 10
-NWB H2C1 -0.580  1.162  1.815 ETKDGv2 11
-NWB  HA2 -0.814 -0.588  1.748 ETKDGv2 12
-NWB  HA1  1.528  0.209  1.610 ETKDGv2 13
-NWB  HB2  1.244  1.059  0.083 ETKDGv2 14
-NWB H6C1  4.287 -1.346 -1.495 ETKDGv2 15
-NWB H6C2  4.436 -0.078 -0.212 ETKDGv2 16
-NWB  H63  3.192  0.089 -1.509 ETKDGv2 17
-NWB H101 -0.787  2.385 -0.553 ETKDGv2 18
-NWB H102 -1.978  1.679 -1.704 ETKDGv2 19
-NWB H103 -0.330  1.002 -1.622 ETKDGv2 20
-NWB H8C1 -3.638  1.176 -0.052 ETKDGv2 21
-NWB H8C2 -2.608  2.052  1.125 ETKDGv2 22
-NWB H8C3 -3.179  0.385  1.497 ETKDGv2 23
-NWB H141  0.722 -1.978  0.368 ETKDGv2 24
-NWB H142  1.004 -1.027 -1.140 ETKDGv2 25
-NWB H9C1 -1.165 -1.227 -1.197 ETKDGv2 26
-NWB H9C2 -2.258 -1.556  0.192 ETKDGv2 27
-NWB H9C3 -2.847 -0.677 -1.260 ETKDGv2 28
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+NWB "Create component" 2005-10-27 EBI 
+# 

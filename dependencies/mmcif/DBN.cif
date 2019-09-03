@@ -1,470 +1,193 @@
 data_DBN
-#
-_chem_comp.id                                        DBN
-_chem_comp.name                                      6-(4,5-DIHYDRO-1H-IMIDAZOL-2-YL)-2-{5-[4-(4,5-DIHYDRO-1H-IMIDAZOL-2-YL)PHENYL]THIEN-2-YL}-1H-BENZIMIDAZOLE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C23 H20 N6 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             DB819
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2005-10-06
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            412.510
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         DBN
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2B3E
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    DBN 
+_chem_comp.name                                  "6-(4,5-DIHYDRO-1H-IMIDAZOL-2-YL)-2-{5-[4-(4,5-DIHYDRO-1H-IMIDAZOL-2-YL)PHENYL]THIEN-2-YL}-1H-BENZIMIDAZOLE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C23 H20 N6 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         DB819 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2005-10-06 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        412.510 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     DBN 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2B3E 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-DBN  C27  C27 C 0 1 N N N  9.754 18.085 15.016   9.693 -1.555  0.375  C27 DBN  1
-DBN  C28  C28 C 0 1 N N N  8.298 17.606 15.191   9.018 -2.474 -0.663  C28 DBN  2
-DBN  C29  C29 C 0 1 N N N 13.696 27.623 -0.581  -9.937 -1.065 -0.774  C29 DBN  3
-DBN  C30  C30 C 0 1 N N N 14.547 26.346 -0.445  -9.825 -1.395  0.728  C30 DBN  4
-DBN   C1   C1 C 0 1 Y N N  9.604 24.728  5.570  -2.281  0.837  0.058   C1 DBN  5
-DBN   S2   S2 S 0 1 Y N N 10.025 23.454  6.613  -0.834 -0.207 -0.004   S2 DBN  6
-DBN   C3   C3 C 0 1 Y N N  8.565 23.549  7.480   0.408  1.074  0.058   C3 DBN  7
-DBN   C4   C4 C 0 1 Y N N  7.759 24.557  6.984  -0.362  2.224  0.123   C4 DBN  8
-DBN   C5   C5 C 0 1 Y N N  8.358 25.210  5.875  -1.725  2.103  0.117   C5 DBN  9
-DBN   C6   C6 C 0 1 Y N N  8.291 22.697  8.639   1.871  0.943  0.044   C6 DBN 10
-DBN   N7   N7 N 0 1 Y N N  7.090 22.591  9.150   2.722  1.944  0.088   N7 DBN 11
-DBN   C8   C8 C 0 1 Y N N  7.248 21.748 10.214   3.984  1.473  0.063   C8 DBN 12
-DBN   C9   C9 C 0 1 Y N N  8.567 21.339 10.356   3.905  0.069 -0.012   C9 DBN 13
-DBN  N10  N10 N 0 1 Y N N  9.236 21.991  9.329   2.557 -0.243 -0.022  N10 DBN 14
-DBN  C11  C11 C 0 1 Y N N  6.293 21.268 11.112   5.239  2.095  0.091  C11 DBN 15
-DBN  C12  C12 C 0 1 Y N N  6.654 20.403 12.129   6.375  1.344  0.045  C12 DBN 16
-DBN  C13  C13 C 0 1 Y N N  7.980 19.976 12.293   6.302 -0.052 -0.030  C13 DBN 17
-DBN  C14  C14 C 0 1 Y N N  8.942 20.478 11.381   5.063 -0.688 -0.058  C14 DBN 18
-DBN  C15  C15 C 0 1 Y N N 10.464 25.176  4.459  -3.705  0.449  0.045  C15 DBN 19
-DBN  C16  C16 C 0 1 Y N N 11.502 24.333  4.025  -4.627  1.200 -0.690  C16 DBN 20
-DBN  C17  C17 C 0 1 Y N N 12.322 24.728  2.958  -5.949  0.836 -0.705  C17 DBN 21
-DBN  C18  C18 C 0 1 Y N N 12.111 25.956  2.318  -6.376 -0.279  0.020  C18 DBN 22
-DBN  C19  C19 C 0 1 Y N N 11.052 26.776  2.743  -5.455 -1.030  0.753  C19 DBN 23
-DBN  C20  C20 C 0 1 Y N N 10.232 26.389  3.812  -4.132 -0.670  0.766  C20 DBN 24
-DBN  C21  C21 C 0 1 N N N  8.388 19.093 13.411   7.544 -0.854 -0.079  C21 DBN 25
-DBN  N22  N22 N 0 1 N N N  9.622 19.018 13.873   8.654 -0.554  0.668  N22 DBN 26
-DBN  N23  N23 N 0 1 N N N  7.595 18.345 14.121   7.678 -1.895 -0.834  N23 DBN 27
-DBN  C24  C24 C 0 1 N N N 12.942 26.374  1.197  -7.803 -0.667  0.006  C24 DBN 28
-DBN  N25  N25 N 0 1 N N N 12.732 27.474  0.512  -8.580 -0.609 -1.122  N25 DBN 29
-DBN  N26  N26 N 0 1 N N N 13.928 25.671  0.697  -8.425 -1.091  1.057  N26 DBN 30
-DBN H271 1H27 H 0 0 N N N 10.226 18.515 15.929   9.956 -2.117  1.272 H271 DBN 31
-DBN H272 2H27 H 0 0 N N N 10.508 17.275 14.884  10.575 -1.076 -0.052 H272 DBN 32
-DBN H281 1H28 H 0 0 N N N  8.160 16.499 15.167   8.948 -3.493 -0.283 H281 DBN 33
-DBN H282 2H28 H 0 0 N N N  7.876 17.744 16.214   9.566 -2.454 -1.605 H282 DBN 34
-DBN H291 1H29 H 0 0 N N N 14.274 28.576 -0.571 -10.202 -1.954 -1.345 H291 DBN 35
-DBN H292 2H29 H 0 0 N N N 13.244 27.781 -1.587 -10.664 -0.270 -0.939 H292 DBN 36
-DBN H301 1H30 H 0 0 N N N 14.617 25.729 -1.371 -10.499 -0.766  1.309 H301 DBN 37
-DBN H302 2H30 H 0 0 N N N 15.643 26.522 -0.346 -10.038 -2.450  0.904 H302 DBN 38
-DBN   H4   H4 H 0 1 N N N  6.774 24.805  7.413   0.104  3.197  0.173   H4 DBN 39
-DBN   H5   H5 H 0 1 N N N  7.892 26.026  5.296  -2.356  2.979  0.167   H5 DBN 40
-DBN  H10  H10 H 0 1 N N N 10.233 21.957  9.120   2.170 -1.131 -0.068  H10 DBN 41
-DBN  H11  H11 H 0 1 N N N  5.238 21.576 11.016   5.307  3.172  0.149  H11 DBN 42
-DBN  H12  H12 H 0 1 N N N  5.871 20.047 12.820   7.340  1.830  0.067  H12 DBN 43
-DBN  H14  H14 H 0 1 N N N 10.003 20.192 11.470   5.006 -1.765 -0.115  H14 DBN 44
-DBN  H16  H16 H 0 1 N N N 11.672 23.362  4.521  -4.298  2.064 -1.247  H16 DBN 45
-DBN  H17  H17 H 0 1 N N N 13.138 24.068  2.619  -6.662  1.416 -1.273  H17 DBN 46
-DBN  H19  H19 H 0 1 N N N 10.862 27.734  2.231  -5.785 -1.894  1.311  H19 DBN 47
-DBN  H20  H20 H 0 1 N N N  9.404 27.038  4.143  -3.419 -1.251  1.334  H20 DBN 48
-DBN  H22  H22 H 0 1 N N N 10.276 18.777 13.128   8.739  0.187  1.288  H22 DBN 49
-DBN  H25  H25 H 0 1 N N N 11.772 27.522  0.170  -8.287 -0.318 -1.999  H25 DBN 50
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+DBN C27  C27  C 0 1 N N N 9.754  18.085 15.016 9.693   -1.555 0.375  C27  DBN 1  
+DBN C28  C28  C 0 1 N N N 8.298  17.606 15.191 9.018   -2.474 -0.663 C28  DBN 2  
+DBN C29  C29  C 0 1 N N N 13.696 27.623 -0.581 -9.937  -1.065 -0.774 C29  DBN 3  
+DBN C30  C30  C 0 1 N N N 14.547 26.346 -0.445 -9.825  -1.395 0.728  C30  DBN 4  
+DBN C1   C1   C 0 1 Y N N 9.604  24.728 5.570  -2.281  0.837  0.058  C1   DBN 5  
+DBN S2   S2   S 0 1 Y N N 10.025 23.454 6.613  -0.834  -0.207 -0.004 S2   DBN 6  
+DBN C3   C3   C 0 1 Y N N 8.565  23.549 7.480  0.408   1.074  0.058  C3   DBN 7  
+DBN C4   C4   C 0 1 Y N N 7.759  24.557 6.984  -0.362  2.224  0.123  C4   DBN 8  
+DBN C5   C5   C 0 1 Y N N 8.358  25.210 5.875  -1.725  2.103  0.117  C5   DBN 9  
+DBN C6   C6   C 0 1 Y N N 8.291  22.697 8.639  1.871   0.943  0.044  C6   DBN 10 
+DBN N7   N7   N 0 1 Y N N 7.090  22.591 9.150  2.722   1.944  0.088  N7   DBN 11 
+DBN C8   C8   C 0 1 Y N N 7.248  21.748 10.214 3.984   1.473  0.063  C8   DBN 12 
+DBN C9   C9   C 0 1 Y N N 8.567  21.339 10.356 3.905   0.069  -0.012 C9   DBN 13 
+DBN N10  N10  N 0 1 Y N N 9.236  21.991 9.329  2.557   -0.243 -0.022 N10  DBN 14 
+DBN C11  C11  C 0 1 Y N N 6.293  21.268 11.112 5.239   2.095  0.091  C11  DBN 15 
+DBN C12  C12  C 0 1 Y N N 6.654  20.403 12.129 6.375   1.344  0.045  C12  DBN 16 
+DBN C13  C13  C 0 1 Y N N 7.980  19.976 12.293 6.302   -0.052 -0.030 C13  DBN 17 
+DBN C14  C14  C 0 1 Y N N 8.942  20.478 11.381 5.063   -0.688 -0.058 C14  DBN 18 
+DBN C15  C15  C 0 1 Y N N 10.464 25.176 4.459  -3.705  0.449  0.045  C15  DBN 19 
+DBN C16  C16  C 0 1 Y N N 11.502 24.333 4.025  -4.627  1.200  -0.690 C16  DBN 20 
+DBN C17  C17  C 0 1 Y N N 12.322 24.728 2.958  -5.949  0.836  -0.705 C17  DBN 21 
+DBN C18  C18  C 0 1 Y N N 12.111 25.956 2.318  -6.376  -0.279 0.020  C18  DBN 22 
+DBN C19  C19  C 0 1 Y N N 11.052 26.776 2.743  -5.455  -1.030 0.753  C19  DBN 23 
+DBN C20  C20  C 0 1 Y N N 10.232 26.389 3.812  -4.132  -0.670 0.766  C20  DBN 24 
+DBN C21  C21  C 0 1 N N N 8.388  19.093 13.411 7.544   -0.854 -0.079 C21  DBN 25 
+DBN N22  N22  N 0 1 N N N 9.622  19.018 13.873 8.654   -0.554 0.668  N22  DBN 26 
+DBN N23  N23  N 0 1 N N N 7.595  18.345 14.121 7.678   -1.895 -0.834 N23  DBN 27 
+DBN C24  C24  C 0 1 N N N 12.942 26.374 1.197  -7.803  -0.667 0.006  C24  DBN 28 
+DBN N25  N25  N 0 1 N N N 12.732 27.474 0.512  -8.580  -0.609 -1.122 N25  DBN 29 
+DBN N26  N26  N 0 1 N N N 13.928 25.671 0.697  -8.425  -1.091 1.057  N26  DBN 30 
+DBN H271 1H27 H 0 0 N N N 10.226 18.515 15.929 9.956   -2.117 1.272  H271 DBN 31 
+DBN H272 2H27 H 0 0 N N N 10.508 17.275 14.884 10.575  -1.076 -0.052 H272 DBN 32 
+DBN H281 1H28 H 0 0 N N N 8.160  16.499 15.167 8.948   -3.493 -0.283 H281 DBN 33 
+DBN H282 2H28 H 0 0 N N N 7.876  17.744 16.214 9.566   -2.454 -1.605 H282 DBN 34 
+DBN H291 1H29 H 0 0 N N N 14.274 28.576 -0.571 -10.202 -1.954 -1.345 H291 DBN 35 
+DBN H292 2H29 H 0 0 N N N 13.244 27.781 -1.587 -10.664 -0.270 -0.939 H292 DBN 36 
+DBN H301 1H30 H 0 0 N N N 14.617 25.729 -1.371 -10.499 -0.766 1.309  H301 DBN 37 
+DBN H302 2H30 H 0 0 N N N 15.643 26.522 -0.346 -10.038 -2.450 0.904  H302 DBN 38 
+DBN H4   H4   H 0 1 N N N 6.774  24.805 7.413  0.104   3.197  0.173  H4   DBN 39 
+DBN H5   H5   H 0 1 N N N 7.892  26.026 5.296  -2.356  2.979  0.167  H5   DBN 40 
+DBN H10  H10  H 0 1 N N N 10.233 21.957 9.120  2.170   -1.131 -0.068 H10  DBN 41 
+DBN H11  H11  H 0 1 N N N 5.238  21.576 11.016 5.307   3.172  0.149  H11  DBN 42 
+DBN H12  H12  H 0 1 N N N 5.871  20.047 12.820 7.340   1.830  0.067  H12  DBN 43 
+DBN H14  H14  H 0 1 N N N 10.003 20.192 11.470 5.006   -1.765 -0.115 H14  DBN 44 
+DBN H16  H16  H 0 1 N N N 11.672 23.362 4.521  -4.298  2.064  -1.247 H16  DBN 45 
+DBN H17  H17  H 0 1 N N N 13.138 24.068 2.619  -6.662  1.416  -1.273 H17  DBN 46 
+DBN H19  H19  H 0 1 N N N 10.862 27.734 2.231  -5.785  -1.894 1.311  H19  DBN 47 
+DBN H20  H20  H 0 1 N N N 9.404  27.038 4.143  -3.419  -1.251 1.334  H20  DBN 48 
+DBN H22  H22  H 0 1 N N N 10.276 18.777 13.128 8.739   0.187  1.288  H22  DBN 49 
+DBN H25  H25  H 0 1 N N N 11.772 27.522 0.170  -8.287  -0.318 -1.999 H25  DBN 50 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-DBN C27  C28 SING N N  1
-DBN C27  N22 SING N N  2
-DBN C27 H271 SING N N  3
-DBN C27 H272 SING N N  4
-DBN C28  N23 SING N N  5
-DBN C28 H281 SING N N  6
-DBN C28 H282 SING N N  7
-DBN C29  C30 SING N N  8
-DBN C29  N25 SING N N  9
-DBN C29 H291 SING N N 10
-DBN C29 H292 SING N N 11
-DBN C30  N26 SING N N 12
-DBN C30 H301 SING N N 13
-DBN C30 H302 SING N N 14
-DBN  C1   S2 SING Y N 15
-DBN  C1   C5 DOUB Y N 16
-DBN  C1  C15 SING Y N 17
-DBN  S2   C3 SING Y N 18
-DBN  C3   C4 DOUB Y N 19
-DBN  C3   C6 SING Y N 20
-DBN  C4   C5 SING Y N 21
-DBN  C4   H4 SING N N 22
-DBN  C5   H5 SING N N 23
-DBN  C6   N7 DOUB Y N 24
-DBN  C6  N10 SING Y N 25
-DBN  N7   C8 SING Y N 26
-DBN  C8   C9 DOUB Y N 27
-DBN  C8  C11 SING Y N 28
-DBN  C9  N10 SING Y N 29
-DBN  C9  C14 SING Y N 30
-DBN N10  H10 SING N N 31
-DBN C11  C12 DOUB Y N 32
-DBN C11  H11 SING N N 33
-DBN C12  C13 SING Y N 34
-DBN C12  H12 SING N N 35
-DBN C13  C14 DOUB Y N 36
-DBN C13  C21 SING N N 37
-DBN C14  H14 SING N N 38
-DBN C15  C16 SING Y N 39
-DBN C15  C20 DOUB Y N 40
-DBN C16  C17 DOUB Y N 41
-DBN C16  H16 SING N N 42
-DBN C17  C18 SING Y N 43
-DBN C17  H17 SING N N 44
-DBN C18  C19 DOUB Y N 45
-DBN C18  C24 SING N N 46
-DBN C19  C20 SING Y N 47
-DBN C19  H19 SING N N 48
-DBN C20  H20 SING N N 49
-DBN C21  N22 SING N N 50
-DBN C21  N23 DOUB N N 51
-DBN N22  H22 SING N N 52
-DBN C24  N25 SING N N 53
-DBN C24  N26 DOUB N N 54
-DBN N25  H25 SING N N 55
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+DBN C27 C28  SING N N 1  
+DBN C27 N22  SING N N 2  
+DBN C27 H271 SING N N 3  
+DBN C27 H272 SING N N 4  
+DBN C28 N23  SING N N 5  
+DBN C28 H281 SING N N 6  
+DBN C28 H282 SING N N 7  
+DBN C29 C30  SING N N 8  
+DBN C29 N25  SING N N 9  
+DBN C29 H291 SING N N 10 
+DBN C29 H292 SING N N 11 
+DBN C30 N26  SING N N 12 
+DBN C30 H301 SING N N 13 
+DBN C30 H302 SING N N 14 
+DBN C1  S2   SING Y N 15 
+DBN C1  C5   DOUB Y N 16 
+DBN C1  C15  SING Y N 17 
+DBN S2  C3   SING Y N 18 
+DBN C3  C4   DOUB Y N 19 
+DBN C3  C6   SING Y N 20 
+DBN C4  C5   SING Y N 21 
+DBN C4  H4   SING N N 22 
+DBN C5  H5   SING N N 23 
+DBN C6  N7   DOUB Y N 24 
+DBN C6  N10  SING Y N 25 
+DBN N7  C8   SING Y N 26 
+DBN C8  C9   DOUB Y N 27 
+DBN C8  C11  SING Y N 28 
+DBN C9  N10  SING Y N 29 
+DBN C9  C14  SING Y N 30 
+DBN N10 H10  SING N N 31 
+DBN C11 C12  DOUB Y N 32 
+DBN C11 H11  SING N N 33 
+DBN C12 C13  SING Y N 34 
+DBN C12 H12  SING N N 35 
+DBN C13 C14  DOUB Y N 36 
+DBN C13 C21  SING N N 37 
+DBN C14 H14  SING N N 38 
+DBN C15 C16  SING Y N 39 
+DBN C15 C20  DOUB Y N 40 
+DBN C16 C17  DOUB Y N 41 
+DBN C16 H16  SING N N 42 
+DBN C17 C18  SING Y N 43 
+DBN C17 H17  SING N N 44 
+DBN C18 C19  DOUB Y N 45 
+DBN C18 C24  SING N N 46 
+DBN C19 C20  SING Y N 47 
+DBN C19 H19  SING N N 48 
+DBN C20 H20  SING N N 49 
+DBN C21 N22  SING N N 50 
+DBN C21 N23  DOUB N N 51 
+DBN N22 H22  SING N N 52 
+DBN C24 N25  SING N N 53 
+DBN C24 N26  DOUB N N 54 
+DBN N25 H25  SING N N 55 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-DBN           SMILES              ACDLabs 10.04                                                                                                              n3c2c(cc(C1=NCCN1)cc2)nc3c4sc(cc4)c6ccc(C5=NCCN5)cc6
-DBN SMILES_CANONICAL               CACTVS 3.341                                                                                                           C1CN=C(N1)c2ccc(cc2)c3sc(cc3)c4[nH]c5cc(ccc5n4)C6=NCCN6
-DBN           SMILES               CACTVS 3.341                                                                                                           C1CN=C(N1)c2ccc(cc2)c3sc(cc3)c4[nH]c5cc(ccc5n4)C6=NCCN6
-DBN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                             c1cc(ccc1c2ccc(s2)c3[nH]c4cc(ccc4n3)C5=NCCN5)C6=NCCN6
-DBN           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                             c1cc(ccc1c2ccc(s2)c3[nH]c4cc(ccc4n3)C5=NCCN5)C6=NCCN6
-DBN            InChI                InChI  1.03 InChI=1S/C23H20N6S/c1-3-15(21-24-9-10-25-21)4-2-14(1)19-7-8-20(30-19)23-28-17-6-5-16(13-18(17)29-23)22-26-11-12-27-22/h1-8,13H,9-12H2,(H,24,25)(H,26,27)(H,28,29)
-DBN         InChIKey                InChI  1.03                                                                                                                                       KPAUDMFCLSTUBG-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+DBN SMILES           ACDLabs              10.04 "n3c2c(cc(C1=NCCN1)cc2)nc3c4sc(cc4)c6ccc(C5=NCCN5)cc6"                                                                                                              
+DBN SMILES_CANONICAL CACTVS               3.341 "C1CN=C(N1)c2ccc(cc2)c3sc(cc3)c4[nH]c5cc(ccc5n4)C6=NCCN6"                                                                                                           
+DBN SMILES           CACTVS               3.341 "C1CN=C(N1)c2ccc(cc2)c3sc(cc3)c4[nH]c5cc(ccc5n4)C6=NCCN6"                                                                                                           
+DBN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1c2ccc(s2)c3[nH]c4cc(ccc4n3)C5=NCCN5)C6=NCCN6"                                                                                                             
+DBN SMILES           "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1c2ccc(s2)c3[nH]c4cc(ccc4n3)C5=NCCN5)C6=NCCN6"                                                                                                             
+DBN InChI            InChI                1.03  "InChI=1S/C23H20N6S/c1-3-15(21-24-9-10-25-21)4-2-14(1)19-7-8-20(30-19)23-28-17-6-5-16(13-18(17)29-23)22-26-11-12-27-22/h1-8,13H,9-12H2,(H,24,25)(H,26,27)(H,28,29)" 
+DBN InChIKey         InChI                1.03  KPAUDMFCLSTUBG-UHFFFAOYSA-N                                                                                                                                         
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-DBN "SYSTEMATIC NAME"              ACDLabs 10.04 6-(4,5-dihydro-1H-imidazol-2-yl)-2-{5-[4-(4,5-dihydro-1H-imidazol-2-yl)phenyl]thiophen-2-yl}-1H-benzimidazole
-DBN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 6-(4,5-dihydro-1H-imidazol-2-yl)-2-[5-[4-(4,5-dihydro-1H-imidazol-2-yl)phenyl]thiophen-2-yl]-1H-benzimidazole
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+DBN "SYSTEMATIC NAME" ACDLabs              10.04 "6-(4,5-dihydro-1H-imidazol-2-yl)-2-{5-[4-(4,5-dihydro-1H-imidazol-2-yl)phenyl]thiophen-2-yl}-1H-benzimidazole" 
+DBN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "6-(4,5-dihydro-1H-imidazol-2-yl)-2-[5-[4-(4,5-dihydro-1H-imidazol-2-yl)phenyl]thiophen-2-yl]-1H-benzimidazole" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-DBN     "Create component" 2005-10-06 RCSB
-DBN "Modify aromatic_flag" 2011-06-04 RCSB
-DBN    "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-DBN C27 C  3.000 -0.407  1
-DBN C28 C  3.750  0.892  2
-DBN C29 C 21.655  3.829  3
-DBN C30 C 22.537  2.615  4
-DBN  C1 C 15.374 -1.662  5
-DBN  S2 S 13.948 -1.198  6
-DBN  C3 C 13.066 -2.412  7
-DBN  C4 C 13.948 -3.625  8
-DBN  C5 C 15.374 -3.162  9
-DBN  C6 C 11.566 -2.412 10
-DBN  N7 N 10.691 -3.619 11
-DBN  C8 C  9.271 -3.162 12
-DBN  C9 C  9.271 -1.662 13
-DBN N10 N 10.691 -1.205 14
-DBN C11 C  7.972 -3.912 15
-DBN C12 C  6.673 -3.162 16
-DBN C13 C  6.673 -1.662 17
-DBN C14 C  7.972 -0.912 18
-DBN C15 C 16.588 -0.780 19
-DBN C16 C 16.431  0.712 20
-DBN C17 C 17.644  1.593 21
-DBN C18 C 19.015  0.983 22
-DBN C19 C 19.172 -0.508 23
-DBN C20 C 17.958 -1.390 24
-DBN C21 C  5.374 -0.912 25
-DBN N22 N  4.004 -1.522 26
-DBN N23 N  5.217  0.580 27
-DBN C24 C 20.228  1.865 28
-DBN N25 N 20.228  3.365 29
-DBN N26 N 21.655  1.401 30
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-DBN C27 C28 SINGLE NONE  1
-DBN C27 N22 SINGLE NONE  2
-DBN C28 N23 SINGLE NONE  3
-DBN C29 C30 SINGLE NONE  4
-DBN C29 N25 SINGLE NONE  5
-DBN C30 N26 SINGLE NONE  6
-DBN  C1  S2 SINGLE NONE  7
-DBN  C1  C5 DOUBLE NONE  8
-DBN  C1 C15 SINGLE NONE  9
-DBN  S2  C3 SINGLE NONE 10
-DBN  C3  C4 DOUBLE NONE 11
-DBN  C3  C6 SINGLE NONE 12
-DBN  C4  C5 SINGLE NONE 13
-DBN  C6  N7 DOUBLE NONE 14
-DBN  C6 N10 SINGLE NONE 15
-DBN  N7  C8 SINGLE NONE 16
-DBN  C8  C9 DOUBLE NONE 17
-DBN  C8 C11 SINGLE NONE 18
-DBN  C9 N10 SINGLE NONE 19
-DBN  C9 C14 SINGLE NONE 20
-DBN C11 C12 DOUBLE NONE 21
-DBN C12 C13 SINGLE NONE 22
-DBN C13 C14 DOUBLE NONE 23
-DBN C13 C21 SINGLE NONE 24
-DBN C15 C16 DOUBLE NONE 25
-DBN C15 C20 SINGLE NONE 26
-DBN C16 C17 SINGLE NONE 27
-DBN C17 C18 DOUBLE NONE 28
-DBN C18 C19 SINGLE NONE 29
-DBN C18 C24 SINGLE NONE 30
-DBN C19 C20 DOUBLE NONE 31
-DBN C21 N22 SINGLE NONE 32
-DBN C21 N23 DOUBLE NONE 33
-DBN C24 N25 SINGLE NONE 34
-DBN C24 N26 DOUBLE NONE 35
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-DBN MurckoScaffold S1 scaffold c1cc(-c2ccc(-c3nc4ccc(C5=NCCN5)cc4[nH]3)s2)ccc1C1=NCCN1 InChI=1S/C23H20N6S/c1-3-15(21-24-9-10-25-21)4-2-14(1)19-7-8-20(30-19)23-28-17-6-5-16(13-18(17)29-23)22-26-11-12-27-22/h1-8,13H,9-12H2,(H,24,25)(H,26,27)(H,28,29) KPAUDMFCLSTUBG-UHFFFAOYSA-N
-DBN  benzimidazole F1 fragment                                        c1ccc2[nH]cnc2c1                                                                                                              InChI=1S/C7H6N2/c1-2-4-7-6(3-1)8-5-9-7/h1-5H,(H,8,9) HYZJCKYKOHLVJF-UHFFFAOYSA-N
-DBN      imidazole F2 fragment                                              c1c[nH]cn1                                                                                                                        InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-DBN         phenyl F3 fragment                                                c1ccccc1                                                                                                                                InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-DBN       thiophen F4 fragment                                                 c1ccsc1                                                                                                                                 InChI=1S/C4H4S/c1-2-4-5-3-1/h1-4H YTPLMLYBLZKORZ-UHFFFAOYSA-N
-DBN     Z744754722 F5 fragment                                    c1csc(-c2ncc[nH]2)c1                                                                                                          InChI=1S/C7H6N2S/c1-2-6(10-5-1)7-8-3-4-9-7/h1-5H,(H,8,9) UZLSJAUHCCPJMC-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-DBN  C8 F1 1
-DBN  N7 F1 1
-DBN  C6 F1 1
-DBN N10 F1 1
-DBN  C9 F1 1
-DBN C14 F1 1
-DBN C13 F1 1
-DBN C12 F1 1
-DBN C11 F1 1
-DBN  C8 F2 1
-DBN  C9 F2 1
-DBN N10 F2 1
-DBN  C6 F2 1
-DBN  N7 F2 1
-DBN  C8 F3 1
-DBN  C9 F3 1
-DBN C14 F3 1
-DBN C13 F3 1
-DBN C12 F3 1
-DBN C11 F3 1
-DBN C15 F3 2
-DBN C16 F3 2
-DBN C17 F3 2
-DBN C18 F3 2
-DBN C19 F3 2
-DBN C20 F3 2
-DBN  C1 F4 1
-DBN  C5 F4 1
-DBN  C4 F4 1
-DBN  C3 F4 1
-DBN  S2 F4 1
-DBN  C5 F5 1
-DBN  C1 F5 1
-DBN  S2 F5 1
-DBN  C3 F5 1
-DBN  C4 F5 1
-DBN  C6 F5 1
-DBN  N7 F5 1
-DBN  C8 F5 1
-DBN  C9 F5 1
-DBN N10 F5 1
-DBN C27 S1 1
-DBN C28 S1 1
-DBN C29 S1 1
-DBN C30 S1 1
-DBN  C1 S1 1
-DBN  S2 S1 1
-DBN  C3 S1 1
-DBN  C4 S1 1
-DBN  C5 S1 1
-DBN  C6 S1 1
-DBN  N7 S1 1
-DBN  C8 S1 1
-DBN  C9 S1 1
-DBN N10 S1 1
-DBN C11 S1 1
-DBN C12 S1 1
-DBN C13 S1 1
-DBN C14 S1 1
-DBN C15 S1 1
-DBN C16 S1 1
-DBN C17 S1 1
-DBN C18 S1 1
-DBN C19 S1 1
-DBN C20 S1 1
-DBN C21 S1 1
-DBN N22 S1 1
-DBN N23 S1 1
-DBN C24 S1 1
-DBN N25 S1 1
-DBN N26 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               DBN
-_pdbe_chem_comp_rdkit_properties.exactmw                               412.147
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.174
-_pdbe_chem_comp_rdkit_properties.NumRings                              6
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      4
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       4
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             205.638
-_pdbe_chem_comp_rdkit_properties.tpsa                                  77.460
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.360
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             118.274
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         30
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-DBN UniChem ChEMBL    CHEMBL1232122
-DBN UniChem   ZINC ZINC000033913599
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DBN  C27  10.098 -0.944  0.069 ETKDGv2  1
-DBN  C28   9.779  0.514  0.427 ETKDGv2  2
-DBN  C29 -10.038 -0.530 -0.712 ETKDGv2  3
-DBN  C30 -10.087  0.815  0.026 ETKDGv2  4
-DBN   C1  -2.120  0.762 -0.009 ETKDGv2  5
-DBN   S2  -0.972 -0.603 -0.095 ETKDGv2  6
-DBN   C3   0.444  0.463  0.040 ETKDGv2  7
-DBN   C4   0.041  1.730  0.137 ETKDGv2  8
-DBN   C5  -1.429  1.902  0.107 ETKDGv2  9
-DBN   C6   1.840  0.003  0.041 ETKDGv2 10
-DBN   N7   2.159 -1.254 -0.059 ETKDGv2 11
-DBN   C8   3.582 -1.256 -0.017 ETKDGv2 12
-DBN   C9   4.046 -0.038  0.103 ETKDGv2 13
-DBN  N10   2.971  0.878  0.151 ETKDGv2 14
-DBN  C11   4.481 -2.415 -0.087 ETKDGv2 15
-DBN  C12   5.808 -2.194 -0.027 ETKDGv2 16
-DBN  C13   6.353 -0.798  0.104 ETKDGv2 17
-DBN  C14   5.488  0.243  0.172 ETKDGv2 18
-DBN  C15  -3.599  0.640 -0.070 ETKDGv2 19
-DBN  C16  -4.171 -0.505 -0.486 ETKDGv2 20
-DBN  C17  -5.641 -0.637 -0.554 ETKDGv2 21
-DBN  C18  -6.439  0.387 -0.198 ETKDGv2 22
-DBN  C19  -5.812  1.647  0.276 ETKDGv2 23
-DBN  C20  -4.480  1.767  0.337 ETKDGv2 24
-DBN  C21   7.817 -0.561  0.166 ETKDGv2 25
-DBN  N22   8.794 -1.559 -0.076 ETKDGv2 26
-DBN  N23   8.324  0.591  0.443 ETKDGv2 27
-DBN  C24  -7.917  0.278 -0.257 ETKDGv2 28
-DBN  N25  -8.621 -0.801 -0.849 ETKDGv2 29
-DBN  N26  -8.692  1.185  0.231 ETKDGv2 30
-DBN H271  10.665 -1.444  0.883 ETKDGv2 31
-DBN H272  10.656 -1.008 -0.889 ETKDGv2 32
-DBN H281  10.181  0.776  1.429 ETKDGv2 33
-DBN H282  10.184  1.210 -0.339 ETKDGv2 34
-DBN H291 -10.523 -1.334 -0.118 ETKDGv2 35
-DBN H292 -10.508 -0.452 -1.716 ETKDGv2 36
-DBN H301 -10.595  1.588 -0.589 ETKDGv2 37
-DBN H302 -10.598  0.713  1.007 ETKDGv2 38
-DBN   H4   0.719  2.567  0.226 ETKDGv2 39
-DBN   H5  -1.884  2.881  0.156 ETKDGv2 40
-DBN  H10   3.006  1.917  0.244 ETKDGv2 41
-DBN  H11   4.087 -3.418 -0.178 ETKDGv2 42
-DBN  H12   6.472 -3.046 -0.063 ETKDGv2 43
-DBN  H14   5.828  1.266  0.267 ETKDGv2 44
-DBN  H16  -3.570 -1.351 -0.793 ETKDGv2 45
-DBN  H17  -6.046 -1.581 -0.887 ETKDGv2 46
-DBN  H19  -6.429  2.482  0.581 ETKDGv2 47
-DBN  H20  -4.062  2.693  0.705 ETKDGv2 48
-DBN  H22   8.630 -2.547 -0.367 ETKDGv2 49
-DBN  H25  -8.219 -1.621 -1.352 ETKDGv2 50
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+DBN "Create component"     2005-10-06 RCSB 
+DBN "Modify aromatic_flag" 2011-06-04 RCSB 
+DBN "Modify descriptor"    2011-06-04 RCSB 
+# 

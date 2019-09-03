@@ -77,9 +77,10 @@ _pdbx_chem_comp_audit.processing_site
 HG  "Create component" 1999-07-08  EBI
 HG "Modify descriptor" 2011-06-04 RCSB
 #
-_pdbx_chem_comp_synonyms.comp_id          HG
-_pdbx_chem_comp_synonyms.name             "Mercury, Metallic"
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
+_pdbe_chem_comp_synonyms.comp_id          HG
+_pdbe_chem_comp_synonyms.name             "Mercury, Metallic"
+_pdbe_chem_comp_synonyms.provenance       ChEMBL
+_pdbe_chem_comp_synonyms.type             "International Nonproprietary Name"
 
 #
 loop_
@@ -134,6 +135,7 @@ _pdbe_chem_comp_external_mappings.resource_id
 HG UniChem        ChEMBL CHEMBL1233302
 HG UniChem "KEGG LIGAND"        C00703
 HG UniChem         ChEBI         16793
+HG UniChem             P         26623
 HG UniChem  MetaboLights    MTBLC16793
 HG UniChem        BRENDA        106262
 HG UniChem        BRENDA        106263

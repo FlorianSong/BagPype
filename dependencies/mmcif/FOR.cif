@@ -1,227 +1,94 @@
 data_FOR
-#
-_chem_comp.id                                        FOR
-_chem_comp.name                                      "FORMYL GROUP"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C H2 O"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            30.026
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         FOR
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    FOR 
+_chem_comp.name                                  "FORMYL GROUP" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C H2 O" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        30.026 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     FOR 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FOR  C  C C 0 1 N N N 19.495 51.786 15.788  0.607  0.000 0.000  C FOR 1
-FOR  O  O O 0 1 N N N 20.015 52.842 16.206 -0.600  0.000 0.000  O FOR 2
-FOR H1 1H H 0 1 N N N 20.073 50.922 16.157  1.147  0.935 0.002 H1 FOR 3
-FOR H2 2H H 0 1 N N N 18.458 51.717 16.157  1.147 -0.935 0.002 H2 FOR 4
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FOR C  C  C 0 1 N N N 19.495 51.786 15.788 0.607  0.000  0.000 C  FOR 1 
+FOR O  O  O 0 1 N N N 20.015 52.842 16.206 -0.600 0.000  0.000 O  FOR 2 
+FOR H1 1H H 0 1 N N N 20.073 50.922 16.157 1.147  0.935  0.002 H1 FOR 3 
+FOR H2 2H H 0 1 N N N 18.458 51.717 16.157 1.147  -0.935 0.002 H2 FOR 4 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FOR C  O DOUB N N 1
-FOR C H1 SING N N 2
-FOR C H2 SING N N 3
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FOR C O  DOUB N N 1 
+FOR C H1 SING N N 2 
+FOR C H2 SING N N 3 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FOR           SMILES              ACDLabs 10.04                         O=C
-FOR SMILES_CANONICAL               CACTVS 3.341                         C=O
-FOR           SMILES               CACTVS 3.341                         C=O
-FOR SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                         C=O
-FOR           SMILES "OpenEye OEToolkits" 1.5.0                         C=O
-FOR            InChI                InChI  1.03     InChI=1S/CH2O/c1-2/h1H2
-FOR         InChIKey                InChI  1.03 WSFSSNUMVMOOMR-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FOR SMILES           ACDLabs              10.04 O=C                         
+FOR SMILES_CANONICAL CACTVS               3.341 C=O                         
+FOR SMILES           CACTVS               3.341 C=O                         
+FOR SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 C=O                         
+FOR SMILES           "OpenEye OEToolkits" 1.5.0 C=O                         
+FOR InChI            InChI                1.03  InChI=1S/CH2O/c1-2/h1H2     
+FOR InChIKey         InChI                1.03  WSFSSNUMVMOOMR-UHFFFAOYSA-N 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FOR "SYSTEMATIC NAME"              ACDLabs 10.04 formaldehyde
-FOR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0     methanal
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FOR "SYSTEMATIC NAME" ACDLabs              10.04 formaldehyde 
+FOR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 methanal     
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FOR  "Create component" 1999-07-08 RCSB
-FOR "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   FOR
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03843
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Formaldehyde
-_pdbe_chem_comp_drugbank_details.description               "A highly reactive aldehyde gas formed by oxidation or incomplete combustion of hydrocarbons. In solution, it has a wide range of uses: in the manufacture of resins and textiles, as a disinfectant, and as a laboratory fixative or preservative. Formaldehyde solution (formalin) is considered a hazardous compound, and its vapor toxic. (From Reynolds, Martindale The Extra Pharmacopoeia, 30th ed, p717)"
-_pdbe_chem_comp_drugbank_details.cas_number                50-00-0
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           FOR
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03843
-_pdbe_chem_comp_drugbank_classification.parent            "Carbonyl compounds"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Organooxygen compounds"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic oxygen compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as carbonyl compounds. These are organic compounds containing a carbonyl group, with the general structure RC(=O)R', where R=organyl, R'=H, N, O, organyl group or halide group."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        FOR
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB03843
-_pdbe_chem_comp_drugbank_targets.name                           "D-alanyl-D-alanine carboxypeptidase"
-_pdbe_chem_comp_drugbank_targets.organism                       "Streptomyces sp. (strain R61)"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P15555
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-FOR                 Veracur   ChEMBL
-FOR                Formalin   ChEMBL
-FOR             "Dowling's"   ChEMBL
-FOR            Formaldehyde   ChEMBL
-FOR                    E240   ChEMBL
-FOR "Formaldehyde solution" DrugBank
-FOR                Formalin DrugBank
-FOR       "Formic aldehyde" DrugBank
-FOR                  Formol DrugBank
-FOR                Methanal DrugBank
-FOR       "Methyl aldehyde" DrugBank
-FOR       "Methylene oxide" DrugBank
-FOR              Oxomethane DrugBank
-FOR            Oxomethylene DrugBank
-FOR            Oxymethylene DrugBank
-FOR                Paraform DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FOR C C 3.000 -0.840 1
-FOR O O 4.299 -0.090 2
-#
-_pdbe_chem_comp_bond_depiction.comp_id            FOR
-_pdbe_chem_comp_bond_depiction.atom_id_1          C
-_pdbe_chem_comp_bond_depiction.atom_id_2          O
-_pdbe_chem_comp_bond_depiction.value_order        DOUBLE
-_pdbe_chem_comp_bond_depiction.bond_dir           NONE
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       1
-
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FOR
-_pdbe_chem_comp_rdkit_properties.exactmw                               30.011
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           1
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           0
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     0
-_pdbe_chem_comp_rdkit_properties.NumHBD                                0
-_pdbe_chem_comp_rdkit_properties.NumHBA                                1
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        1
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             15.711
-_pdbe_chem_comp_rdkit_properties.tpsa                                  17.070
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.185
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             7.121
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         2
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-FOR UniChem        ChEMBL CHEMBL1255
-FOR UniChem      DrugBank    DB03843
-FOR UniChem "KEGG LIGAND"     C00067
-FOR UniChem         ChEBI      16842
-FOR UniChem  MetaboLights MTBLC16842
-FOR UniChem        BRENDA     100541
-FOR UniChem        BRENDA     102610
-FOR UniChem        BRENDA        130
-FOR UniChem        BRENDA      21307
-FOR UniChem        BRENDA       5995
-FOR UniChem          Rhea      16842
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FOR  C -0.032  0.006 -0.008 ETKDGv2 1
-FOR  O  1.133 -0.222  0.270 ETKDGv2 2
-FOR H1 -0.720 -0.814 -0.178 ETKDGv2 3
-FOR H2 -0.380  1.031 -0.084 ETKDGv2 4
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FOR "Create component"  1999-07-08 RCSB 
+FOR "Modify descriptor" 2011-06-04 RCSB 
+# 

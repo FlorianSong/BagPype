@@ -1,600 +1,236 @@
 data_CBD
-#
-_chem_comp.id                                        CBD
-_chem_comp.name                                      "CIBACRON BLUE"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C29 H20 Cl N7 O11 S3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            774.157
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         CBD
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1QRD
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    CBD 
+_chem_comp.name                                  "CIBACRON BLUE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C29 H20 Cl N7 O11 S3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        774.157 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     CBD 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1QRD 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-CBD   C1   C1  C 0 1 Y N N 26.802  8.647  5.497  1.596 -1.663   4.687   C1 CBD  1
-CBD   SA   SA  S 0 1 N N N 27.274  8.744  7.188  2.740 -2.954   4.328   SA CBD  2
-CBD  O1A  O1A  O 0 1 N N N 26.837 10.074  7.707  2.376 -3.446   3.045  O1A CBD  3
-CBD  O2A  O2A  O 0 1 N N N 28.733  8.550  7.194  4.019 -2.447   4.682  O2A CBD  4
-CBD  O3A  O3A  O 0 1 N N N 26.369  7.750  7.838  2.462 -4.092   5.301  O3A CBD  5
-CBD   C2   C2  C 0 1 Y N N 27.573  9.320  4.523  1.880 -0.752   5.710   C2 CBD  6
-CBD   N2   N2  N 0 1 N N N 28.832 10.035  5.047  3.054 -0.866   6.437   N2 CBD  7
-CBD   C3   C3  C 0 1 Y N N 26.996  9.471  3.225  0.972  0.269   6.000   C3 CBD  8
-CBD   C4   C4  C 0 1 N N N 27.645 10.218  2.143  1.252  1.243   7.068   C4 CBD  9
-CBD   O4   O4  O 0 1 N N N 28.689 10.816  2.447  2.365  1.326   7.550   O4 CBD 10
-CBD   C5   C5  C 0 1 Y N N 27.199 10.260  0.744  0.160  2.117   7.550   C5 CBD 11
-CBD   C6   C6  C 0 1 Y N N 27.889 10.959 -0.284  0.299  2.838   8.732   C6 CBD 12
-CBD   C7   C7  C 0 1 Y N N 27.323 10.994 -1.567 -0.733  3.648   9.169   C7 CBD 13
-CBD   C8   C8  C 0 1 Y N N 26.095 10.382 -1.860 -1.904  3.747   8.439   C8 CBD 14
-CBD   C9   C9  C 0 1 Y N N 25.409  9.705 -0.860 -2.058  3.038   7.261   C9 CBD 15
-CBD  C10  C10  C 0 1 Y N N 25.966  9.652  0.443 -1.030  2.219   6.807  C10 CBD 16
-CBD  C11  C11  C 0 1 N N N 25.378  8.884  1.495 -1.176  1.453   5.550  C11 CBD 17
-CBD  O11  O11  O 0 1 N N N 24.293  8.408  1.209 -2.077  1.711   4.774  O11 CBD 18
-CBD  C12  C12  C 0 1 Y N N 25.816  8.763  2.887 -0.219  0.376   5.250  C12 CBD 19
-CBD  C13  C13  C 0 1 Y N N 25.044  8.157  3.922 -0.479 -0.546   4.232  C13 CBD 20
-CBD  C14  C14  C 0 1 Y N N 25.524  8.122  5.236  0.444 -1.562   3.965  C14 CBD 21
-CBD   NB   NB  N 0 1 N N N 23.789  7.425  3.626 -1.646 -0.455   3.491   NB CBD 22
-CBD  CB1  CB1  C 0 1 Y N N 23.298  4.367  5.837 -2.753 -0.948   0.020  CB1 CBD 23
-CBD   SB   SB  S 0 1 N N N 24.202  3.066  6.641 -4.251 -1.154  -0.883   SB CBD 24
-CBD  O1B  O1B  O 0 1 N N N 23.828  3.058  8.113 -5.289 -0.728  -0.011  O1B CBD 25
-CBD  O2B  O2B  O 0 1 N N N 25.615  3.290  6.272 -3.996 -0.627  -2.177  O2B CBD 26
-CBD  O3B  O3B  O 0 1 N N N 23.693  1.864  5.895 -4.463 -2.648  -1.078  O3B CBD 27
-CBD  CB2  CB2  C 0 1 Y N N 21.917  4.489  6.117 -1.534 -0.951  -0.645  CB2 CBD 28
-CBD  CB3  CB3  C 0 1 Y N N 21.195  5.556  5.537 -0.353 -0.790   0.067  CB3 CBD 29
-CBD  CB4  CB4  C 0 1 Y N N 21.822  6.480  4.725 -0.390 -0.625   1.437  CB4 CBD 30
-CBD  CB5  CB5  C 0 1 Y N N 23.196  6.346  4.430 -1.609 -0.621   2.103  CB5 CBD 31
-CBD  CB6  CB6  C 0 1 Y N N 23.956  5.275  4.970 -2.790 -0.788   1.391  CB6 CBD 32
-CBD   NC   NC  N 0 1 N N N 21.388  3.466  7.025 -1.496 -1.118  -2.035   NC CBD 33
-CBD  NC1  NC1  N 0 1 Y N N 19.016  3.806  6.315  0.142  0.554  -2.222  NC1 CBD 34
-CBD  CC2  CC2  C 0 1 Y N N 17.690  3.483  6.297  0.999  1.252  -2.948  CC2 CBD 35
-CBD   CL   CL CL 0 0 N N N 16.528  4.401  5.147  1.968  2.482  -2.199   CL CBD 36
-CBD  NC3  NC3  N 0 1 Y N N 17.368  2.397  7.094  1.120  1.014  -4.244  NC3 CBD 37
-CBD  CC4  CC4  C 0 1 Y N N 18.299  1.688  7.823  0.379  0.071  -4.821  CC4 CBD 38
-CBD  NC5  NC5  N 0 1 Y N N 19.592  2.057  7.784 -0.479 -0.634  -4.094  NC5 CBD 39
-CBD  CC6  CC6  C 0 1 Y N N 19.958  3.119  7.035 -0.602 -0.390  -2.793  CC6 CBD 40
-CBD   ND   ND  N 0 1 N N N 17.949  0.492  8.613  0.507 -0.176  -6.174   ND CBD 41
-CBD  CD1  CD1  C 0 1 Y N N 18.634 -1.673  9.494  1.280  0.734  -8.272  CD1 CBD 42
-CBD   SD   SD  S 0 1 N N N 17.320 -2.373  8.479 -0.206  0.199  -9.051   SD CBD 43
-CBD  O1D  O1D  O 0 1 N N N 17.824 -2.374  7.059 -1.180  0.132  -8.019  O1D CBD 44
-CBD  O2D  O2D  O 0 1 N N N 16.085 -1.586  8.813 -0.318  0.970 -10.239  O2D CBD 45
-CBD  O3D  O3D  O 0 1 N N N 17.069 -3.811  8.803  0.010 -1.235  -9.509  O3D CBD 46
-CBD  CD2  CD2  C 0 1 Y N N 18.880 -0.275  9.437  1.482  0.494  -6.919  CD2 CBD 47
-CBD  CD3  CD3  C 0 1 Y N N 19.926  0.256 10.236  2.655  0.918  -6.309  CD3 CBD 48
-CBD  CD4  CD4  C 0 1 Y N N 20.712 -0.564 11.053  3.616  1.580  -7.047  CD4 CBD 49
-CBD  CD5  CD5  C 0 1 Y N N 20.485 -1.939 11.110  3.409  1.823  -8.393  CD5 CBD 50
-CBD  CD6  CD6  C 0 1 Y N N 19.460 -2.496 10.347  2.242  1.403  -9.004  CD6 CBD 51
-CBD HOA3 3HOA  H 0 0 N N N 26.624  7.802  8.751  3.094 -4.795   5.096 HOA3 CBD 52
-CBD HN21 1HN2  H 0 0 N N N 29.388 10.520  4.343  3.493 -0.070   6.777 HN21 CBD 53
-CBD HN22 2HN2  H 0 0 N N N 29.417  9.376  5.561  3.435 -1.741   6.609 HN22 CBD 54
-CBD   H6   H6  H 0 1 N N N 28.848 11.466 -0.089  1.211  2.765   9.306   H6 CBD 55
-CBD   H7   H7  H 0 1 N N N 27.861 11.520 -2.372 -0.624  4.207  10.087   H7 CBD 56
-CBD   H8   H8  H 0 1 N N N 25.669 10.433 -2.876 -2.702  4.383   8.791   H8 CBD 57
-CBD   H9   H9  H 0 1 N N N 24.445  9.221 -1.094 -2.975  3.121   6.696   H9 CBD 58
-CBD  H14  H14  H 0 1 N N N 24.910  7.691  6.045  0.242 -2.275   3.179  H14 CBD 59
-CBD  HNB  HNB  H 0 1 N N N 23.891  7.053  2.681 -2.490 -0.275   3.936  HNB CBD 60
-CBD HOB3 3HOB  H 0 0 N N N 24.176  1.168  6.324 -5.286 -2.751  -1.575 HOB3 CBD 61
-CBD  HB3  HB3  H 0 1 N N N 20.113  5.670  5.722  0.594 -0.793  -0.450  HB3 CBD 62
-CBD  HB4  HB4  H 0 1 N N N 21.231  7.316  4.316  0.528 -0.499   1.990  HB4 CBD 63
-CBD  HB6  HB6  H 0 1 N N N 25.024  5.152  4.723 -3.737 -0.786   1.909  HB6 CBD 64
-CBD  HNC  HNC  H 0 1 N N N 21.657  3.718  7.975 -2.099 -1.746  -2.464  HNC CBD 65
-CBD  HND  HND  H 0 1 N N N 17.517 -0.169  7.967 -0.078 -0.816  -6.607  HND CBD 66
-CBD HOD3 3HOD  H 0 0 N N N 16.376 -4.180  8.267 -0.810 -1.520  -9.935 HOD3 CBD 67
-CBD  HD3  HD3  H 0 1 N N N 20.134  1.339 10.221  2.817  0.729  -5.258  HD3 CBD 68
-CBD  HD4  HD4  H 0 1 N N N 21.520 -0.121 11.659  4.528  1.910  -6.573  HD4 CBD 69
-CBD  HD5  HD5  H 0 1 N N N 21.110 -2.580 11.753  4.162  2.342  -8.969  HD5 CBD 70
-CBD  HD6  HD6  H 0 1 N N N 19.302 -3.585 10.418  2.084  1.595 -10.055  HD6 CBD 71
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+CBD C1   C1   C  0 1 Y N N 26.802 8.647  5.497  1.596  -1.663 4.687   C1   CBD 1  
+CBD SA   SA   S  0 1 N N N 27.274 8.744  7.188  2.740  -2.954 4.328   SA   CBD 2  
+CBD O1A  O1A  O  0 1 N N N 26.837 10.074 7.707  2.376  -3.446 3.045   O1A  CBD 3  
+CBD O2A  O2A  O  0 1 N N N 28.733 8.550  7.194  4.019  -2.447 4.682   O2A  CBD 4  
+CBD O3A  O3A  O  0 1 N N N 26.369 7.750  7.838  2.462  -4.092 5.301   O3A  CBD 5  
+CBD C2   C2   C  0 1 Y N N 27.573 9.320  4.523  1.880  -0.752 5.710   C2   CBD 6  
+CBD N2   N2   N  0 1 N N N 28.832 10.035 5.047  3.054  -0.866 6.437   N2   CBD 7  
+CBD C3   C3   C  0 1 Y N N 26.996 9.471  3.225  0.972  0.269  6.000   C3   CBD 8  
+CBD C4   C4   C  0 1 N N N 27.645 10.218 2.143  1.252  1.243  7.068   C4   CBD 9  
+CBD O4   O4   O  0 1 N N N 28.689 10.816 2.447  2.365  1.326  7.550   O4   CBD 10 
+CBD C5   C5   C  0 1 Y N N 27.199 10.260 0.744  0.160  2.117  7.550   C5   CBD 11 
+CBD C6   C6   C  0 1 Y N N 27.889 10.959 -0.284 0.299  2.838  8.732   C6   CBD 12 
+CBD C7   C7   C  0 1 Y N N 27.323 10.994 -1.567 -0.733 3.648  9.169   C7   CBD 13 
+CBD C8   C8   C  0 1 Y N N 26.095 10.382 -1.860 -1.904 3.747  8.439   C8   CBD 14 
+CBD C9   C9   C  0 1 Y N N 25.409 9.705  -0.860 -2.058 3.038  7.261   C9   CBD 15 
+CBD C10  C10  C  0 1 Y N N 25.966 9.652  0.443  -1.030 2.219  6.807   C10  CBD 16 
+CBD C11  C11  C  0 1 N N N 25.378 8.884  1.495  -1.176 1.453  5.550   C11  CBD 17 
+CBD O11  O11  O  0 1 N N N 24.293 8.408  1.209  -2.077 1.711  4.774   O11  CBD 18 
+CBD C12  C12  C  0 1 Y N N 25.816 8.763  2.887  -0.219 0.376  5.250   C12  CBD 19 
+CBD C13  C13  C  0 1 Y N N 25.044 8.157  3.922  -0.479 -0.546 4.232   C13  CBD 20 
+CBD C14  C14  C  0 1 Y N N 25.524 8.122  5.236  0.444  -1.562 3.965   C14  CBD 21 
+CBD NB   NB   N  0 1 N N N 23.789 7.425  3.626  -1.646 -0.455 3.491   NB   CBD 22 
+CBD CB1  CB1  C  0 1 Y N N 23.298 4.367  5.837  -2.753 -0.948 0.020   CB1  CBD 23 
+CBD SB   SB   S  0 1 N N N 24.202 3.066  6.641  -4.251 -1.154 -0.883  SB   CBD 24 
+CBD O1B  O1B  O  0 1 N N N 23.828 3.058  8.113  -5.289 -0.728 -0.011  O1B  CBD 25 
+CBD O2B  O2B  O  0 1 N N N 25.615 3.290  6.272  -3.996 -0.627 -2.177  O2B  CBD 26 
+CBD O3B  O3B  O  0 1 N N N 23.693 1.864  5.895  -4.463 -2.648 -1.078  O3B  CBD 27 
+CBD CB2  CB2  C  0 1 Y N N 21.917 4.489  6.117  -1.534 -0.951 -0.645  CB2  CBD 28 
+CBD CB3  CB3  C  0 1 Y N N 21.195 5.556  5.537  -0.353 -0.790 0.067   CB3  CBD 29 
+CBD CB4  CB4  C  0 1 Y N N 21.822 6.480  4.725  -0.390 -0.625 1.437   CB4  CBD 30 
+CBD CB5  CB5  C  0 1 Y N N 23.196 6.346  4.430  -1.609 -0.621 2.103   CB5  CBD 31 
+CBD CB6  CB6  C  0 1 Y N N 23.956 5.275  4.970  -2.790 -0.788 1.391   CB6  CBD 32 
+CBD NC   NC   N  0 1 N N N 21.388 3.466  7.025  -1.496 -1.118 -2.035  NC   CBD 33 
+CBD NC1  NC1  N  0 1 Y N N 19.016 3.806  6.315  0.142  0.554  -2.222  NC1  CBD 34 
+CBD CC2  CC2  C  0 1 Y N N 17.690 3.483  6.297  0.999  1.252  -2.948  CC2  CBD 35 
+CBD CL   CL   CL 0 0 N N N 16.528 4.401  5.147  1.968  2.482  -2.199  CL   CBD 36 
+CBD NC3  NC3  N  0 1 Y N N 17.368 2.397  7.094  1.120  1.014  -4.244  NC3  CBD 37 
+CBD CC4  CC4  C  0 1 Y N N 18.299 1.688  7.823  0.379  0.071  -4.821  CC4  CBD 38 
+CBD NC5  NC5  N  0 1 Y N N 19.592 2.057  7.784  -0.479 -0.634 -4.094  NC5  CBD 39 
+CBD CC6  CC6  C  0 1 Y N N 19.958 3.119  7.035  -0.602 -0.390 -2.793  CC6  CBD 40 
+CBD ND   ND   N  0 1 N N N 17.949 0.492  8.613  0.507  -0.176 -6.174  ND   CBD 41 
+CBD CD1  CD1  C  0 1 Y N N 18.634 -1.673 9.494  1.280  0.734  -8.272  CD1  CBD 42 
+CBD SD   SD   S  0 1 N N N 17.320 -2.373 8.479  -0.206 0.199  -9.051  SD   CBD 43 
+CBD O1D  O1D  O  0 1 N N N 17.824 -2.374 7.059  -1.180 0.132  -8.019  O1D  CBD 44 
+CBD O2D  O2D  O  0 1 N N N 16.085 -1.586 8.813  -0.318 0.970  -10.239 O2D  CBD 45 
+CBD O3D  O3D  O  0 1 N N N 17.069 -3.811 8.803  0.010  -1.235 -9.509  O3D  CBD 46 
+CBD CD2  CD2  C  0 1 Y N N 18.880 -0.275 9.437  1.482  0.494  -6.919  CD2  CBD 47 
+CBD CD3  CD3  C  0 1 Y N N 19.926 0.256  10.236 2.655  0.918  -6.309  CD3  CBD 48 
+CBD CD4  CD4  C  0 1 Y N N 20.712 -0.564 11.053 3.616  1.580  -7.047  CD4  CBD 49 
+CBD CD5  CD5  C  0 1 Y N N 20.485 -1.939 11.110 3.409  1.823  -8.393  CD5  CBD 50 
+CBD CD6  CD6  C  0 1 Y N N 19.460 -2.496 10.347 2.242  1.403  -9.004  CD6  CBD 51 
+CBD HOA3 3HOA H  0 0 N N N 26.624 7.802  8.751  3.094  -4.795 5.096   HOA3 CBD 52 
+CBD HN21 1HN2 H  0 0 N N N 29.388 10.520 4.343  3.493  -0.070 6.777   HN21 CBD 53 
+CBD HN22 2HN2 H  0 0 N N N 29.417 9.376  5.561  3.435  -1.741 6.609   HN22 CBD 54 
+CBD H6   H6   H  0 1 N N N 28.848 11.466 -0.089 1.211  2.765  9.306   H6   CBD 55 
+CBD H7   H7   H  0 1 N N N 27.861 11.520 -2.372 -0.624 4.207  10.087  H7   CBD 56 
+CBD H8   H8   H  0 1 N N N 25.669 10.433 -2.876 -2.702 4.383  8.791   H8   CBD 57 
+CBD H9   H9   H  0 1 N N N 24.445 9.221  -1.094 -2.975 3.121  6.696   H9   CBD 58 
+CBD H14  H14  H  0 1 N N N 24.910 7.691  6.045  0.242  -2.275 3.179   H14  CBD 59 
+CBD HNB  HNB  H  0 1 N N N 23.891 7.053  2.681  -2.490 -0.275 3.936   HNB  CBD 60 
+CBD HOB3 3HOB H  0 0 N N N 24.176 1.168  6.324  -5.286 -2.751 -1.575  HOB3 CBD 61 
+CBD HB3  HB3  H  0 1 N N N 20.113 5.670  5.722  0.594  -0.793 -0.450  HB3  CBD 62 
+CBD HB4  HB4  H  0 1 N N N 21.231 7.316  4.316  0.528  -0.499 1.990   HB4  CBD 63 
+CBD HB6  HB6  H  0 1 N N N 25.024 5.152  4.723  -3.737 -0.786 1.909   HB6  CBD 64 
+CBD HNC  HNC  H  0 1 N N N 21.657 3.718  7.975  -2.099 -1.746 -2.464  HNC  CBD 65 
+CBD HND  HND  H  0 1 N N N 17.517 -0.169 7.967  -0.078 -0.816 -6.607  HND  CBD 66 
+CBD HOD3 3HOD H  0 0 N N N 16.376 -4.180 8.267  -0.810 -1.520 -9.935  HOD3 CBD 67 
+CBD HD3  HD3  H  0 1 N N N 20.134 1.339  10.221 2.817  0.729  -5.258  HD3  CBD 68 
+CBD HD4  HD4  H  0 1 N N N 21.520 -0.121 11.659 4.528  1.910  -6.573  HD4  CBD 69 
+CBD HD5  HD5  H  0 1 N N N 21.110 -2.580 11.753 4.162  2.342  -8.969  HD5  CBD 70 
+CBD HD6  HD6  H  0 1 N N N 19.302 -3.585 10.418 2.084  1.595  -10.055 HD6  CBD 71 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-CBD  C1   SA SING N N  1
-CBD  C1   C2 DOUB Y N  2
-CBD  C1  C14 SING Y N  3
-CBD  SA  O1A DOUB N N  4
-CBD  SA  O2A DOUB N N  5
-CBD  SA  O3A SING N N  6
-CBD O3A HOA3 SING N N  7
-CBD  C2   N2 SING N N  8
-CBD  C2   C3 SING Y N  9
-CBD  N2 HN21 SING N N 10
-CBD  N2 HN22 SING N N 11
-CBD  C3   C4 SING N N 12
-CBD  C3  C12 DOUB Y N 13
-CBD  C4   O4 DOUB N N 14
-CBD  C4   C5 SING N N 15
-CBD  C5   C6 DOUB Y N 16
-CBD  C5  C10 SING Y N 17
-CBD  C6   C7 SING Y N 18
-CBD  C6   H6 SING N N 19
-CBD  C7   C8 DOUB Y N 20
-CBD  C7   H7 SING N N 21
-CBD  C8   C9 SING Y N 22
-CBD  C8   H8 SING N N 23
-CBD  C9  C10 DOUB Y N 24
-CBD  C9   H9 SING N N 25
-CBD C10  C11 SING N N 26
-CBD C11  O11 DOUB N N 27
-CBD C11  C12 SING N N 28
-CBD C12  C13 SING Y N 29
-CBD C13  C14 DOUB Y N 30
-CBD C13   NB SING N N 31
-CBD C14  H14 SING N N 32
-CBD  NB  CB5 SING N N 33
-CBD  NB  HNB SING N N 34
-CBD CB1   SB SING N N 35
-CBD CB1  CB2 DOUB Y N 36
-CBD CB1  CB6 SING Y N 37
-CBD  SB  O1B DOUB N N 38
-CBD  SB  O2B DOUB N N 39
-CBD  SB  O3B SING N N 40
-CBD O3B HOB3 SING N N 41
-CBD CB2  CB3 SING Y N 42
-CBD CB2   NC SING N N 43
-CBD CB3  CB4 DOUB Y N 44
-CBD CB3  HB3 SING N N 45
-CBD CB4  CB5 SING Y N 46
-CBD CB4  HB4 SING N N 47
-CBD CB5  CB6 DOUB Y N 48
-CBD CB6  HB6 SING N N 49
-CBD  NC  CC6 SING N N 50
-CBD  NC  HNC SING N N 51
-CBD NC1  CC2 DOUB Y N 52
-CBD NC1  CC6 SING Y N 53
-CBD CC2   CL SING N N 54
-CBD CC2  NC3 SING Y N 55
-CBD NC3  CC4 DOUB Y N 56
-CBD CC4  NC5 SING Y N 57
-CBD CC4   ND SING N N 58
-CBD NC5  CC6 DOUB Y N 59
-CBD  ND  CD2 SING N N 60
-CBD  ND  HND SING N N 61
-CBD CD1   SD SING N N 62
-CBD CD1  CD2 DOUB Y N 63
-CBD CD1  CD6 SING Y N 64
-CBD  SD  O1D DOUB N N 65
-CBD  SD  O2D DOUB N N 66
-CBD  SD  O3D SING N N 67
-CBD O3D HOD3 SING N N 68
-CBD CD2  CD3 SING Y N 69
-CBD CD3  CD4 DOUB Y N 70
-CBD CD3  HD3 SING N N 71
-CBD CD4  CD5 SING Y N 72
-CBD CD4  HD4 SING N N 73
-CBD CD5  CD6 DOUB Y N 74
-CBD CD5  HD5 SING N N 75
-CBD CD6  HD6 SING N N 76
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+CBD C1  SA   SING N N 1  
+CBD C1  C2   DOUB Y N 2  
+CBD C1  C14  SING Y N 3  
+CBD SA  O1A  DOUB N N 4  
+CBD SA  O2A  DOUB N N 5  
+CBD SA  O3A  SING N N 6  
+CBD O3A HOA3 SING N N 7  
+CBD C2  N2   SING N N 8  
+CBD C2  C3   SING Y N 9  
+CBD N2  HN21 SING N N 10 
+CBD N2  HN22 SING N N 11 
+CBD C3  C4   SING N N 12 
+CBD C3  C12  DOUB Y N 13 
+CBD C4  O4   DOUB N N 14 
+CBD C4  C5   SING N N 15 
+CBD C5  C6   DOUB Y N 16 
+CBD C5  C10  SING Y N 17 
+CBD C6  C7   SING Y N 18 
+CBD C6  H6   SING N N 19 
+CBD C7  C8   DOUB Y N 20 
+CBD C7  H7   SING N N 21 
+CBD C8  C9   SING Y N 22 
+CBD C8  H8   SING N N 23 
+CBD C9  C10  DOUB Y N 24 
+CBD C9  H9   SING N N 25 
+CBD C10 C11  SING N N 26 
+CBD C11 O11  DOUB N N 27 
+CBD C11 C12  SING N N 28 
+CBD C12 C13  SING Y N 29 
+CBD C13 C14  DOUB Y N 30 
+CBD C13 NB   SING N N 31 
+CBD C14 H14  SING N N 32 
+CBD NB  CB5  SING N N 33 
+CBD NB  HNB  SING N N 34 
+CBD CB1 SB   SING N N 35 
+CBD CB1 CB2  DOUB Y N 36 
+CBD CB1 CB6  SING Y N 37 
+CBD SB  O1B  DOUB N N 38 
+CBD SB  O2B  DOUB N N 39 
+CBD SB  O3B  SING N N 40 
+CBD O3B HOB3 SING N N 41 
+CBD CB2 CB3  SING Y N 42 
+CBD CB2 NC   SING N N 43 
+CBD CB3 CB4  DOUB Y N 44 
+CBD CB3 HB3  SING N N 45 
+CBD CB4 CB5  SING Y N 46 
+CBD CB4 HB4  SING N N 47 
+CBD CB5 CB6  DOUB Y N 48 
+CBD CB6 HB6  SING N N 49 
+CBD NC  CC6  SING N N 50 
+CBD NC  HNC  SING N N 51 
+CBD NC1 CC2  DOUB Y N 52 
+CBD NC1 CC6  SING Y N 53 
+CBD CC2 CL   SING N N 54 
+CBD CC2 NC3  SING Y N 55 
+CBD NC3 CC4  DOUB Y N 56 
+CBD CC4 NC5  SING Y N 57 
+CBD CC4 ND   SING N N 58 
+CBD NC5 CC6  DOUB Y N 59 
+CBD ND  CD2  SING N N 60 
+CBD ND  HND  SING N N 61 
+CBD CD1 SD   SING N N 62 
+CBD CD1 CD2  DOUB Y N 63 
+CBD CD1 CD6  SING Y N 64 
+CBD SD  O1D  DOUB N N 65 
+CBD SD  O2D  DOUB N N 66 
+CBD SD  O3D  SING N N 67 
+CBD O3D HOD3 SING N N 68 
+CBD CD2 CD3  SING Y N 69 
+CBD CD3 CD4  DOUB Y N 70 
+CBD CD3 HD3  SING N N 71 
+CBD CD4 CD5  SING Y N 72 
+CBD CD4 HD4  SING N N 73 
+CBD CD5 CD6  DOUB Y N 74 
+CBD CD5 HD5  SING N N 75 
+CBD CD6 HD6  SING N N 76 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-CBD           SMILES              ACDLabs 10.04                                                                                                                                                                 Clc1nc(nc(n1)Nc5ccc(Nc4cc(c(N)c3C(=O)c2ccccc2C(=O)c34)S(=O)(=O)O)cc5S(=O)(=O)O)Nc6ccccc6S(=O)(=O)O
-CBD SMILES_CANONICAL               CACTVS 3.341                                                                                                                                                         Nc1c(cc(Nc2ccc(Nc3nc(Cl)nc(Nc4ccccc4[S](O)(=O)=O)n3)c(c2)[S](O)(=O)=O)c5C(=O)c6ccccc6C(=O)c15)[S](O)(=O)=O
-CBD           SMILES               CACTVS 3.341                                                                                                                                                         Nc1c(cc(Nc2ccc(Nc3nc(Cl)nc(Nc4ccccc4[S](O)(=O)=O)n3)c(c2)[S](O)(=O)=O)c5C(=O)c6ccccc6C(=O)c15)[S](O)(=O)=O
-CBD SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                                             c1ccc2c(c1)C(=O)c3c(cc(c(c3C2=O)N)S(=O)(=O)O)Nc4ccc(c(c4)S(=O)(=O)O)Nc5nc(nc(n5)Cl)Nc6ccccc6S(=O)(=O)O
-CBD           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                             c1ccc2c(c1)C(=O)c3c(cc(c(c3C2=O)N)S(=O)(=O)O)Nc4ccc(c(c4)S(=O)(=O)O)Nc5nc(nc(n5)Cl)Nc6ccccc6S(=O)(=O)O
-CBD            InChI                InChI  1.03 InChI=1S/C29H20ClN7O11S3/c30-27-35-28(33-16-7-3-4-8-19(16)49(40,41)42)37-29(36-27)34-17-10-9-13(11-20(17)50(43,44)45)32-18-12-21(51(46,47)48)24(31)23-22(18)25(38)14-5-1-2-6-15(14)26(23)39/h1-12,32H,31H2,(H,40,41,42)(H,43,44,45)(H,46,47,48)(H2,33,34,35,36,37)
-CBD         InChIKey                InChI  1.03                                                                                                                                                                                                                                        YKCWQPZFAFZLBI-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+CBD SMILES           ACDLabs              10.04 "Clc1nc(nc(n1)Nc5ccc(Nc4cc(c(N)c3C(=O)c2ccccc2C(=O)c34)S(=O)(=O)O)cc5S(=O)(=O)O)Nc6ccccc6S(=O)(=O)O" 
+CBD SMILES_CANONICAL CACTVS               3.341 "Nc1c(cc(Nc2ccc(Nc3nc(Cl)nc(Nc4ccccc4[S](O)(=O)=O)n3)c(c2)[S](O)(=O)=O)c5C(=O)c6ccccc6C(=O)c15)[S](O)(=O)=O" 
+CBD SMILES           CACTVS               3.341 "Nc1c(cc(Nc2ccc(Nc3nc(Cl)nc(Nc4ccccc4[S](O)(=O)=O)n3)c(c2)[S](O)(=O)=O)c5C(=O)c6ccccc6C(=O)c15)[S](O)(=O)=O" 
+CBD SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1ccc2c(c1)C(=O)c3c(cc(c(c3C2=O)N)S(=O)(=O)O)Nc4ccc(c(c4)S(=O)(=O)O)Nc5nc(nc(n5)Cl)Nc6ccccc6S(=O)(=O)O" 
+CBD SMILES           "OpenEye OEToolkits" 1.5.0 "c1ccc2c(c1)C(=O)c3c(cc(c(c3C2=O)N)S(=O)(=O)O)Nc4ccc(c(c4)S(=O)(=O)O)Nc5nc(nc(n5)Cl)Nc6ccccc6S(=O)(=O)O" 
+CBD InChI            InChI                1.03  
+;InChI=1S/C29H20ClN7O11S3/c30-27-35-28(33-16-7-3-4-8-19(16)49(40,41)42)37-29(36-27)34-17-10-9-13(11-20(17)50(43,44)45)32-18-12-21(51(46,47)48)24(31)23-22(18)25(38)14-5-1-2-6-15(14)26(23)39/h1-12,32H,31H2,(H,40,41,42)(H,43,44,45)(H,46,47,48)(H2,33,34,35,36,37)
+;
+CBD InChIKey         InChI                1.03  YKCWQPZFAFZLBI-UHFFFAOYSA-N 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-CBD "SYSTEMATIC NAME"              ACDLabs 10.04 "1-amino-4-{[4-({4-chloro-6-[(2-sulfophenyl)amino]-1,3,5-triazin-2-yl}amino)-3-sulfophenyl]amino}-9,10-dioxo-9,10-dihydroanthracene-2-sulfonic acid"
-CBD "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0            "1-amino-4-[[4-[[4-chloro-6-[(2-sulfophenyl)amino]-1,3,5-triazin-2-yl]amino]-3-sulfo-phenyl]amino]-9,10-dioxo-anthracene-2-sulfonic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+CBD "SYSTEMATIC NAME" ACDLabs              10.04 "1-amino-4-{[4-({4-chloro-6-[(2-sulfophenyl)amino]-1,3,5-triazin-2-yl}amino)-3-sulfophenyl]amino}-9,10-dioxo-9,10-dihydroanthracene-2-sulfonic acid" 
+CBD "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "1-amino-4-[[4-[[4-chloro-6-[(2-sulfophenyl)amino]-1,3,5-triazin-2-yl]amino]-3-sulfo-phenyl]amino]-9,10-dioxo-anthracene-2-sulfonic acid"            
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-CBD  "Create component" 1999-07-08 RCSB
-CBD "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   CBD
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02633
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "Cibacron Blue"
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                84166-13-2
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           CBD
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02633
-_pdbe_chem_comp_drugbank_classification.parent            Anthraquinones
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             Anthracenes
-_pdbe_chem_comp_drugbank_classification.superclass        Benzenoids
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as anthraquinones. These are organic compounds containing either anthracene-9,10-quinone, 1,4-anthraquinone, or 1,2-anthraquinone."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-CBD DB02633 "NAD(P)H dehydrogenase [quinone] 1" Humans P15559 unknown 1
-CBD DB02633       "Glutathione S-transferase P" Humans P09211 unknown 2
-#
-_pdbx_chem_comp_synonyms.comp_id          CBD
-_pdbx_chem_comp_synonyms.name             "Cibacron Blue 3Ga"
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-CBD  C1  C 10.998  3.787  1
-CBD  SA  S 12.294  4.542  2
-CBD O1A  O 13.590  5.297  3
-CBD O2A  O 13.049  3.245  4
-CBD O3A  O 11.539  5.838  5
-CBD  C2  C  9.639  4.558  6
-CBD  N2  N  9.622  6.057  7
-CBD  C3  C  8.298  3.756  8
-CBD  C4  C  6.999  4.505  9
-CBD  O4  O  6.999  6.006 10
-CBD  C5  C  5.700  3.756 11
-CBD  C6  C  4.359  4.558 12
-CBD  C7  C  3.000  3.787 13
-CBD  C8  C  3.000  2.224 14
-CBD  C9  C  4.359  1.454 15
-CBD C10  C  5.700  2.256 16
-CBD C11  C  6.999  1.506 17
-CBD O11  O  6.999  0.006 18
-CBD C12  C  8.298  2.256 19
-CBD C13  C  9.639  1.454 20
-CBD C14  C 10.998  2.224 21
-CBD  NB  N  9.622 -0.046 22
-CBD CB1  C 12.185 -3.076 23
-CBD  SB  S 12.168 -4.576 24
-CBD O1B  O 12.150 -6.076 25
-CBD O2B  O 10.668 -4.559 26
-CBD O3B  O 13.667 -4.593 27
-CBD CB2  C 13.492 -2.341 28
-CBD CB3  C 13.510 -0.841 29
-CBD CB4  C 12.220 -0.076 30
-CBD CB5  C 10.912 -0.811 31
-CBD CB6  C 10.895 -2.311 32
-CBD  NC  N 14.783 -3.106 33
-CBD NC1  N 17.381 -3.136 34
-CBD CC2  C 18.688 -2.401 35
-CBD  CL Cl 19.979 -3.166 36
-CBD NC3  N 18.706 -0.901 37
-CBD CC4  C 17.415 -0.137 38
-CBD NC5  N 16.108 -0.872 39
-CBD CC6  C 16.090 -2.371 40
-CBD  ND  N 17.433  1.363 41
-CBD CD1  C 18.758  3.598 42
-CBD  SD  S 17.467  4.363 43
-CBD O1D  O 18.232  5.654 44
-CBD O2D  O 16.177  5.128 45
-CBD O3D  O 16.703  3.073 46
-CBD CD2  C 18.740  2.098 47
-CBD CD3  C 20.030  1.333 48
-CBD CD4  C 21.338  2.068 49
-CBD CD5  C 21.356  3.568 50
-CBD CD6  C 20.065  4.333 51
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-CBD  C1  SA SINGLE NONE  1
-CBD  C1  C2 DOUBLE NONE  2
-CBD  C1 C14 SINGLE NONE  3
-CBD  SA O1A DOUBLE NONE  4
-CBD  SA O2A DOUBLE NONE  5
-CBD  SA O3A SINGLE NONE  6
-CBD  C2  N2 SINGLE NONE  7
-CBD  C2  C3 SINGLE NONE  8
-CBD  C3  C4 SINGLE NONE  9
-CBD  C3 C12 DOUBLE NONE 10
-CBD  C4  O4 DOUBLE NONE 11
-CBD  C4  C5 SINGLE NONE 12
-CBD  C5  C6 DOUBLE NONE 13
-CBD  C5 C10 SINGLE NONE 14
-CBD  C6  C7 SINGLE NONE 15
-CBD  C7  C8 DOUBLE NONE 16
-CBD  C8  C9 SINGLE NONE 17
-CBD  C9 C10 DOUBLE NONE 18
-CBD C10 C11 SINGLE NONE 19
-CBD C11 O11 DOUBLE NONE 20
-CBD C11 C12 SINGLE NONE 21
-CBD C12 C13 SINGLE NONE 22
-CBD C13 C14 DOUBLE NONE 23
-CBD C13  NB SINGLE NONE 24
-CBD  NB CB5 SINGLE NONE 25
-CBD CB1  SB SINGLE NONE 26
-CBD CB1 CB2 DOUBLE NONE 27
-CBD CB1 CB6 SINGLE NONE 28
-CBD  SB O1B DOUBLE NONE 29
-CBD  SB O2B DOUBLE NONE 30
-CBD  SB O3B SINGLE NONE 31
-CBD CB2 CB3 SINGLE NONE 32
-CBD CB2  NC SINGLE NONE 33
-CBD CB3 CB4 DOUBLE NONE 34
-CBD CB4 CB5 SINGLE NONE 35
-CBD CB5 CB6 DOUBLE NONE 36
-CBD  NC CC6 SINGLE NONE 37
-CBD NC1 CC2 DOUBLE NONE 38
-CBD NC1 CC6 SINGLE NONE 39
-CBD CC2  CL SINGLE NONE 40
-CBD CC2 NC3 SINGLE NONE 41
-CBD NC3 CC4 DOUBLE NONE 42
-CBD CC4 NC5 SINGLE NONE 43
-CBD CC4  ND SINGLE NONE 44
-CBD NC5 CC6 DOUBLE NONE 45
-CBD  ND CD2 SINGLE NONE 46
-CBD CD1  SD SINGLE NONE 47
-CBD CD1 CD2 DOUBLE NONE 48
-CBD CD1 CD6 SINGLE NONE 49
-CBD  SD O1D DOUBLE NONE 50
-CBD  SD O2D DOUBLE NONE 51
-CBD  SD O3D SINGLE NONE 52
-CBD CD2 CD3 SINGLE NONE 53
-CBD CD3 CD4 DOUBLE NONE 54
-CBD CD4 CD5 SINGLE NONE 55
-CBD CD5 CD6 DOUBLE NONE 56
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-CBD MurckoScaffold S1 scaffold O=C1c2ccccc2C(=O)c2c(Nc3ccc(Nc4ncnc(Nc5ccccc5)n4)cc3)cccc21 InChI=1S/C29H20N6O2/c36-26-21-9-4-5-10-22(21)27(37)25-23(26)11-6-12-24(25)32-19-13-15-20(16-14-19)34-29-31-17-30-28(35-29)33-18-7-2-1-3-8-18/h1-17,32H,(H2,30,31,33,34,35) DQTXMVFWKZVYOM-UHFFFAOYSA-N
-CBD         phenyl F1 fragment                                                    c1ccccc1                                                                                                                                         InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-CBD  C1 F1 1
-CBD  C2 F1 1
-CBD  C3 F1 1
-CBD C12 F1 1
-CBD C13 F1 1
-CBD C14 F1 1
-CBD  C5 F1 2
-CBD  C6 F1 2
-CBD  C7 F1 2
-CBD  C8 F1 2
-CBD  C9 F1 2
-CBD C10 F1 2
-CBD CB1 F1 3
-CBD CB2 F1 3
-CBD CB3 F1 3
-CBD CB4 F1 3
-CBD CB5 F1 3
-CBD CB6 F1 3
-CBD CD1 F1 4
-CBD CD2 F1 4
-CBD CD3 F1 4
-CBD CD4 F1 4
-CBD CD5 F1 4
-CBD CD6 F1 4
-CBD  C1 S1 1
-CBD  C2 S1 1
-CBD  C3 S1 1
-CBD  C4 S1 1
-CBD  O4 S1 1
-CBD  C5 S1 1
-CBD  C6 S1 1
-CBD  C7 S1 1
-CBD  C8 S1 1
-CBD  C9 S1 1
-CBD C10 S1 1
-CBD C11 S1 1
-CBD O11 S1 1
-CBD C12 S1 1
-CBD C13 S1 1
-CBD C14 S1 1
-CBD  NB S1 1
-CBD CB1 S1 1
-CBD CB2 S1 1
-CBD CB3 S1 1
-CBD CB4 S1 1
-CBD CB5 S1 1
-CBD CB6 S1 1
-CBD  NC S1 1
-CBD NC1 S1 1
-CBD CC2 S1 1
-CBD NC3 S1 1
-CBD CC4 S1 1
-CBD NC5 S1 1
-CBD CC6 S1 1
-CBD  ND S1 1
-CBD CD1 S1 1
-CBD CD2 S1 1
-CBD CD3 S1 1
-CBD CD4 S1 1
-CBD CD5 S1 1
-CBD CD6 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               CBD
-_pdbe_chem_comp_rdkit_properties.exactmw                               773.007
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           18
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           8
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     13
-_pdbe_chem_comp_rdkit_properties.NumHBD                                7
-_pdbe_chem_comp_rdkit_properties.NumHBA                                18
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        22
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0
-_pdbe_chem_comp_rdkit_properties.NumRings                              6
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      5
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             321.194
-_pdbe_chem_comp_rdkit_properties.tpsa                                  298.030
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.646
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             176.052
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         51
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-CBD UniChem    ChEMBL     CHEMBL572528
-CBD UniChem  DrugBank          DB02633
-CBD UniChem      ZINC ZINC000085427635
-CBD UniChem BindingDb         50300129
-CBD UniChem    BRENDA            11081
-CBD UniChem    BRENDA            11884
-CBD UniChem    BRENDA            43928
-CBD UniChem    BRENDA             5140
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CBD   C1 -6.136 -1.661 -2.363 ETKDGv2  1
-CBD   SA -7.030 -2.893 -3.270 ETKDGv2  2
-CBD  O1A -8.446 -2.432 -3.473 ETKDGv2  3
-CBD  O2A -6.400 -3.119 -4.616 ETKDGv2  4
-CBD  O3A -7.025 -4.345 -2.422 ETKDGv2  5
-CBD   C2 -6.425 -1.366 -1.074 ETKDGv2  6
-CBD   N2 -7.433 -2.109 -0.370 ETKDGv2  7
-CBD   C3 -5.640 -0.300 -0.360 ETKDGv2  8
-CBD   C4 -6.063  0.183  0.992 ETKDGv2  9
-CBD   O4 -7.218 -0.063  1.432 ETKDGv2 10
-CBD   C5 -5.144  1.009  1.799 ETKDGv2 11
-CBD   C6 -5.344  1.228  3.112 ETKDGv2 12
-CBD   C7 -4.402  2.075  3.873 ETKDGv2 13
-CBD   C8 -3.356  2.636  3.256 ETKDGv2 14
-CBD   C9 -3.140  2.412  1.812 ETKDGv2 15
-CBD  C10 -3.990  1.633  1.117 ETKDGv2 16
-CBD  C11 -3.830  1.393 -0.326 ETKDGv2 17
-CBD  O11 -3.102  2.163 -1.009 ETKDGv2 18
-CBD  C12 -4.569  0.273 -0.978 ETKDGv2 19
-CBD  C13 -4.170 -0.199 -2.341 ETKDGv2 20
-CBD  C14 -4.962 -1.043 -3.008 ETKDGv2 21
-CBD   NB -2.925  0.193 -2.945 ETKDGv2 22
-CBD  CB1 -0.158 -0.791 -0.532 ETKDGv2 23
-CBD   SB -0.051 -1.671  0.998 ETKDGv2 24
-CBD  O1B  0.629 -2.991  0.769 ETKDGv2 25
-CBD  O2B  0.730 -0.871  2.003 ETKDGv2 26
-CBD  O3B -1.591 -1.950  1.615 ETKDGv2 27
-CBD  CB2  0.908 -0.152 -1.066 ETKDGv2 28
-CBD  CB3  0.736  0.618 -2.324 ETKDGv2 29
-CBD  CB4 -0.463  0.713 -2.905 ETKDGv2 30
-CBD  CB5 -1.638  0.038 -2.315 ETKDGv2 31
-CBD  CB6 -1.475 -0.708 -1.206 ETKDGv2 32
-CBD   NC  2.208 -0.242 -0.461 ETKDGv2 33
-CBD  NC1  2.576  2.225 -0.525 ETKDGv2 34
-CBD  CC2  3.353  3.248 -0.336 ETKDGv2 35
-CBD   CL  2.757  4.865 -0.642 ETKDGv2 36
-CBD  NC3  4.697  3.054  0.125 ETKDGv2 37
-CBD  CC4  5.138  1.855  0.367 ETKDGv2 38
-CBD  NC5  4.277  0.725  0.150 ETKDGv2 39
-CBD  CC6  3.062  0.894 -0.281 ETKDGv2 40
-CBD   ND  6.489  1.670  0.809 ETKDGv2 41
-CBD  CD1  8.216 -0.040  0.906 ETKDGv2 42
-CBD   SD  9.234  0.859 -0.226 ETKDGv2 43
-CBD  O1D  8.428  1.245 -1.434 ETKDGv2 44
-CBD  O2D  9.764  2.099  0.439 ETKDGv2 45
-CBD  O3D 10.525 -0.093 -0.735 ETKDGv2 46
-CBD  CD2  6.992  0.406  1.275 ETKDGv2 47
-CBD  CD3  6.177 -0.403  2.220 ETKDGv2 48
-CBD  CD4  6.634 -1.570  2.685 ETKDGv2 49
-CBD  CD5  7.960 -2.061  2.269 ETKDGv2 50
-CBD  CD6  8.710 -1.337  1.432 ETKDGv2 51
-CBD HOA3 -6.067 -4.548 -2.269 ETKDGv2 52
-CBD HN21 -8.258 -2.523 -0.855 ETKDGv2 53
-CBD HN22 -7.316 -2.337  0.641 ETKDGv2 54
-CBD   H6 -6.185  0.785  3.630 ETKDGv2 55
-CBD   H7 -4.562  2.241  4.930 ETKDGv2 56
-CBD   H8 -2.666  3.257  3.812 ETKDGv2 57
-CBD   H9 -2.289  2.878  1.330 ETKDGv2 58
-CBD  H14 -4.673 -1.361 -4.002 ETKDGv2 59
-CBD  HNB -2.946  0.506 -3.943 ETKDGv2 60
-CBD HOB3 -1.951 -1.050  1.823 ETKDGv2 61
-CBD  HB3  1.589  1.101 -2.784 ETKDGv2 62
-CBD  HB4 -0.571  1.285 -3.818 ETKDGv2 63
-CBD  HB6 -2.308 -1.251 -0.783 ETKDGv2 64
-CBD  HNC  2.533 -1.165 -0.095 ETKDGv2 65
-CBD  HND  7.135  2.490  0.765 ETKDGv2 66
-CBD HOD3 11.200 -0.021 -0.013 ETKDGv2 67
-CBD  HD3  5.213 -0.042  2.554 ETKDGv2 68
-CBD  HD4  6.037 -2.152  3.375 ETKDGv2 69
-CBD  HD5  8.326 -3.006  2.649 ETKDGv2 70
-CBD  HD6  9.683 -1.710  1.141 ETKDGv2 71
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+CBD "Create component"  1999-07-08 RCSB 
+CBD "Modify descriptor" 2011-06-04 RCSB 
+# 

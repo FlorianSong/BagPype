@@ -1,335 +1,141 @@
 data_ING
-#
-_chem_comp.id                                        ING
-_chem_comp.name                                      D-[(AMINO)CARBONYL]PHENYLALANINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C10 H12 N2 O3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2000-11-21
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            208.214
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         ING
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1HDU
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    ING 
+_chem_comp.name                                  "D-[(AMINO)CARBONYL]PHENYLALANINE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C10 H12 N2 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2000-11-21 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        208.214 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ING 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1HDU 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ING    N    N N 0 1 N N N 6.092  9.580 -0.908  0.756  0.417 -0.933    N ING  1
-ING   CA   CA C 0 1 N N S 5.608  9.231 -2.274 -0.584 -0.172 -0.961   CA ING  2
-ING    C    C C 0 1 N N N 6.813  8.841 -3.152 -1.204  0.052 -2.316    C ING  3
-ING    O    O O 0 1 N N N 7.868  9.391 -3.103 -1.998 -0.744 -2.756    O ING  4
-ING   CG   CG C 0 1 Y N N 3.995  9.949 -4.098 -0.833  0.261  1.467   CG ING  5
-ING   CB   CB C 0 1 N N N 4.858 10.409 -2.944 -1.453  0.485  0.112   CB ING  6
-ING  CD1  CD1 C 0 1 Y N N 2.715  9.378 -3.858  0.075  1.173  1.972  CD1 ING  7
-ING  CD2  CD2 C 0 1 Y N N 4.453 10.072 -5.440 -1.176 -0.853  2.208  CD2 ING  8
-ING  CE1  CE1 C 0 1 Y N N 1.911  8.940 -4.938  0.644  0.967  3.215  CE1 ING  9
-ING  CE2  CE2 C 0 1 Y N N 3.647  9.631 -6.519 -0.604 -1.062  3.450  CE2 ING 10
-ING   CZ   CZ C 0 1 Y N N 2.380  9.066 -6.268  0.304 -0.150  3.953   CZ ING 11
-ING  OXT  OXT O 0 1 N N N 6.524  7.823 -3.979 -0.874  1.138 -3.033  OXT ING 12
-ING   C1   C1 C 0 1 N N N 6.846  8.745 -0.146  1.824 -0.319 -1.295   C1 ING 13
-ING   N1   N1 N 0 1 N N N 7.211  9.166  1.085  3.058  0.222 -1.269   N1 ING 14
-ING   O1   O1 O 0 1 N N N 7.191  7.652 -0.532  1.676 -1.475 -1.643   O1 ING 15
-ING    H    H H 0 1 N N N 5.275  9.840 -0.354  0.875  1.339 -0.655    H ING 16
-ING   HA   HA H 0 1 N N N 4.894  8.380 -2.175 -0.514 -1.242 -0.766   HA ING 17
-ING  HB1  1HB H 0 1 N N N 4.262 10.985 -2.198 -1.523  1.556 -0.081  HB1 ING 18
-ING  HB2  2HB H 0 1 N N N 5.565 11.210 -3.262 -2.450  0.046  0.092  HB2 ING 19
-ING  HD1  HD1 H 0 1 N N N 2.342  9.273 -2.825  0.340  2.046  1.394  HD1 ING 20
-ING  HD2  HD2 H 0 1 N N N 5.442 10.513 -5.645 -1.886 -1.566  1.815  HD2 ING 21
-ING  HE1  HE1 H 0 1 N N N 0.918  8.500 -4.743  1.354  1.679  3.608  HE1 ING 22
-ING  HE2  HE2 H 0 1 N N N 4.006  9.727 -7.557 -0.869 -1.935  4.027  HE2 ING 23
-ING   HZ   HZ H 0 1 N N N 1.756  8.723 -7.110  0.749 -0.312  4.924   HZ ING 24
-ING  HXT  HXT H 0 1 N N N 7.266  7.582 -4.520 -1.272  1.282 -3.902  HXT ING 25
-ING HN11 1HN1 H 0 0 N N N 6.920 10.087  1.410  3.827 -0.308 -1.529 HN11 ING 26
-ING HN12 2HN1 H 0 0 N N N 7.777  8.539  1.657  3.176  1.145 -0.995 HN12 ING 27
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ING N    N    N 0 1 N N N 6.092 9.580  -0.908 0.756  0.417  -0.933 N    ING 1  
+ING CA   CA   C 0 1 N N S 5.608 9.231  -2.274 -0.584 -0.172 -0.961 CA   ING 2  
+ING C    C    C 0 1 N N N 6.813 8.841  -3.152 -1.204 0.052  -2.316 C    ING 3  
+ING O    O    O 0 1 N N N 7.868 9.391  -3.103 -1.998 -0.744 -2.756 O    ING 4  
+ING CG   CG   C 0 1 Y N N 3.995 9.949  -4.098 -0.833 0.261  1.467  CG   ING 5  
+ING CB   CB   C 0 1 N N N 4.858 10.409 -2.944 -1.453 0.485  0.112  CB   ING 6  
+ING CD1  CD1  C 0 1 Y N N 2.715 9.378  -3.858 0.075  1.173  1.972  CD1  ING 7  
+ING CD2  CD2  C 0 1 Y N N 4.453 10.072 -5.440 -1.176 -0.853 2.208  CD2  ING 8  
+ING CE1  CE1  C 0 1 Y N N 1.911 8.940  -4.938 0.644  0.967  3.215  CE1  ING 9  
+ING CE2  CE2  C 0 1 Y N N 3.647 9.631  -6.519 -0.604 -1.062 3.450  CE2  ING 10 
+ING CZ   CZ   C 0 1 Y N N 2.380 9.066  -6.268 0.304  -0.150 3.953  CZ   ING 11 
+ING OXT  OXT  O 0 1 N N N 6.524 7.823  -3.979 -0.874 1.138  -3.033 OXT  ING 12 
+ING C1   C1   C 0 1 N N N 6.846 8.745  -0.146 1.824  -0.319 -1.295 C1   ING 13 
+ING N1   N1   N 0 1 N N N 7.211 9.166  1.085  3.058  0.222  -1.269 N1   ING 14 
+ING O1   O1   O 0 1 N N N 7.191 7.652  -0.532 1.676  -1.475 -1.643 O1   ING 15 
+ING H    H    H 0 1 N N N 5.275 9.840  -0.354 0.875  1.339  -0.655 H    ING 16 
+ING HA   HA   H 0 1 N N N 4.894 8.380  -2.175 -0.514 -1.242 -0.766 HA   ING 17 
+ING HB1  1HB  H 0 1 N N N 4.262 10.985 -2.198 -1.523 1.556  -0.081 HB1  ING 18 
+ING HB2  2HB  H 0 1 N N N 5.565 11.210 -3.262 -2.450 0.046  0.092  HB2  ING 19 
+ING HD1  HD1  H 0 1 N N N 2.342 9.273  -2.825 0.340  2.046  1.394  HD1  ING 20 
+ING HD2  HD2  H 0 1 N N N 5.442 10.513 -5.645 -1.886 -1.566 1.815  HD2  ING 21 
+ING HE1  HE1  H 0 1 N N N 0.918 8.500  -4.743 1.354  1.679  3.608  HE1  ING 22 
+ING HE2  HE2  H 0 1 N N N 4.006 9.727  -7.557 -0.869 -1.935 4.027  HE2  ING 23 
+ING HZ   HZ   H 0 1 N N N 1.756 8.723  -7.110 0.749  -0.312 4.924  HZ   ING 24 
+ING HXT  HXT  H 0 1 N N N 7.266 7.582  -4.520 -1.272 1.282  -3.902 HXT  ING 25 
+ING HN11 1HN1 H 0 0 N N N 6.920 10.087 1.410  3.827  -0.308 -1.529 HN11 ING 26 
+ING HN12 2HN1 H 0 0 N N N 7.777 8.539  1.657  3.176  1.145  -0.995 HN12 ING 27 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ING   N   CA SING N N  1
-ING   N   C1 SING N N  2
-ING   N    H SING N N  3
-ING  CA    C SING N N  4
-ING  CA   CB SING N N  5
-ING  CA   HA SING N N  6
-ING   C    O DOUB N N  7
-ING   C  OXT SING N N  8
-ING  CG   CB SING N N  9
-ING  CG  CD1 DOUB Y N 10
-ING  CG  CD2 SING Y N 11
-ING  CB  HB1 SING N N 12
-ING  CB  HB2 SING N N 13
-ING CD1  CE1 SING Y N 14
-ING CD1  HD1 SING N N 15
-ING CD2  CE2 DOUB Y N 16
-ING CD2  HD2 SING N N 17
-ING CE1   CZ DOUB Y N 18
-ING CE1  HE1 SING N N 19
-ING CE2   CZ SING Y N 20
-ING CE2  HE2 SING N N 21
-ING  CZ   HZ SING N N 22
-ING OXT  HXT SING N N 23
-ING  C1   N1 SING N N 24
-ING  C1   O1 DOUB N N 25
-ING  N1 HN11 SING N N 26
-ING  N1 HN12 SING N N 27
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ING N   CA   SING N N 1  
+ING N   C1   SING N N 2  
+ING N   H    SING N N 3  
+ING CA  C    SING N N 4  
+ING CA  CB   SING N N 5  
+ING CA  HA   SING N N 6  
+ING C   O    DOUB N N 7  
+ING C   OXT  SING N N 8  
+ING CG  CB   SING N N 9  
+ING CG  CD1  DOUB Y N 10 
+ING CG  CD2  SING Y N 11 
+ING CB  HB1  SING N N 12 
+ING CB  HB2  SING N N 13 
+ING CD1 CE1  SING Y N 14 
+ING CD1 HD1  SING N N 15 
+ING CD2 CE2  DOUB Y N 16 
+ING CD2 HD2  SING N N 17 
+ING CE1 CZ   DOUB Y N 18 
+ING CE1 HE1  SING N N 19 
+ING CE2 CZ   SING Y N 20 
+ING CE2 HE2  SING N N 21 
+ING CZ  HZ   SING N N 22 
+ING OXT HXT  SING N N 23 
+ING C1  N1   SING N N 24 
+ING C1  O1   DOUB N N 25 
+ING N1  HN11 SING N N 26 
+ING N1  HN12 SING N N 27 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ING           SMILES              ACDLabs 10.04                                                                               O=C(O)C(NC(=O)N)Cc1ccccc1
-ING SMILES_CANONICAL               CACTVS 3.341                                                                          NC(=O)N[C@@H](Cc1ccccc1)C(O)=O
-ING           SMILES               CACTVS 3.341                                                                            NC(=O)N[CH](Cc1ccccc1)C(O)=O
-ING SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                        c1ccc(cc1)C[C@@H](C(=O)O)NC(=O)N
-ING           SMILES "OpenEye OEToolkits" 1.5.0                                                                             c1ccc(cc1)CC(C(=O)O)NC(=O)N
-ING            InChI                InChI  1.03 InChI=1S/C10H12N2O3/c11-10(15)12-8(9(13)14)6-7-4-2-1-3-5-7/h1-5,8H,6H2,(H,13,14)(H3,11,12,15)/t8-/m0/s1
-ING         InChIKey                InChI  1.03                                                                             IPWQOZCSQLTKOI-QMMMGPOBSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ING SMILES           ACDLabs              10.04 "O=C(O)C(NC(=O)N)Cc1ccccc1"                                                                               
+ING SMILES_CANONICAL CACTVS               3.341 "NC(=O)N[C@@H](Cc1ccccc1)C(O)=O"                                                                          
+ING SMILES           CACTVS               3.341 "NC(=O)N[CH](Cc1ccccc1)C(O)=O"                                                                            
+ING SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1ccc(cc1)C[C@@H](C(=O)O)NC(=O)N"                                                                        
+ING SMILES           "OpenEye OEToolkits" 1.5.0 "c1ccc(cc1)CC(C(=O)O)NC(=O)N"                                                                             
+ING InChI            InChI                1.03  "InChI=1S/C10H12N2O3/c11-10(15)12-8(9(13)14)6-7-4-2-1-3-5-7/h1-5,8H,6H2,(H,13,14)(H3,11,12,15)/t8-/m0/s1" 
+ING InChIKey         InChI                1.03  IPWQOZCSQLTKOI-QMMMGPOBSA-N                                                                               
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-ING "SYSTEMATIC NAME"              ACDLabs 10.04                           N-carbamoyl-L-phenylalanine
-ING "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-(aminocarbonylamino)-3-phenyl-propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ING "SYSTEMATIC NAME" ACDLabs              10.04 N-carbamoyl-L-phenylalanine                           
+ING "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-(aminocarbonylamino)-3-phenyl-propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ING  "Create component" 2000-11-21  EBI
-ING "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   ING
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB04058
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      D-[(Amino)Carbonyl]Phenylalanine
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           ING
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB04058
-_pdbe_chem_comp_drugbank_classification.parent            "Phenylalanine and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as phenylalanine and derivatives. These are compounds containing phenylalanine or a derivative thereof resulting from reaction of phenylalanine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-ING DB04058 "N-carbamoyl-D-amino acid hydrolase" "Agrobacterium sp. (strain KNK712)" P60327 unknown 1
-ING DB04058                "Carboxypeptidase A1"                              Humans P15085 unknown 2
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ING   N N 5.598  2.018  1
-ING  CA C 5.598  0.517  2
-ING   C C 6.897 -0.233  3
-ING   O O 8.196  0.517  4
-ING  CG C 4.299 -1.732  5
-ING  CB C 4.299 -0.233  6
-ING CD1 C 3.000 -2.482  7
-ING CD2 C 5.598 -2.482  8
-ING CE1 C 3.000 -3.982  9
-ING CE2 C 5.598 -3.982 10
-ING  CZ C 4.299 -4.732 11
-ING OXT O 6.897 -1.732 12
-ING  C1 C 6.897  2.768 13
-ING  N1 N 8.196  2.018 14
-ING  O1 O 6.897  4.268 15
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ING   N  CA SINGLE      NONE  1
-ING   N  C1 SINGLE      NONE  2
-ING  CA   C SINGLE      NONE  3
-ING  CA  CB SINGLE BEGINDASH  4
-ING   C   O DOUBLE      NONE  5
-ING   C OXT SINGLE      NONE  6
-ING  CG  CB SINGLE      NONE  7
-ING  CG CD1 DOUBLE      NONE  8
-ING  CG CD2 SINGLE      NONE  9
-ING CD1 CE1 SINGLE      NONE 10
-ING CD2 CE2 DOUBLE      NONE 11
-ING CE1  CZ DOUBLE      NONE 12
-ING CE2  CZ SINGLE      NONE 13
-ING  C1  N1 SINGLE      NONE 14
-ING  C1  O1 DOUBLE      NONE 15
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-ING MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-ING        peptide F1 fragment    NCC=O InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-ING         phenyl F2 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ING   O F1 1
-ING   C F1 1
-ING  CA F1 1
-ING   N F1 1
-ING  CG F2 1
-ING CD1 F2 1
-ING CE1 F2 1
-ING  CZ F2 1
-ING CE2 F2 1
-ING CD2 F2 1
-ING  CG S1 1
-ING CD1 S1 1
-ING CD2 S1 1
-ING CE1 S1 1
-ING CE2 S1 1
-ING  CZ S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ING
-_pdbe_chem_comp_rdkit_properties.exactmw                               208.085
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.200
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             104.019
-_pdbe_chem_comp_rdkit_properties.tpsa                                  92.420
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.296
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             54.023
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         15
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ING UniChem   ChEMBL    CHEMBL1233616
-ING UniChem DrugBank          DB04058
-ING UniChem     ZINC ZINC000003581319
-ING UniChem   BRENDA           134286
-ING UniChem   BRENDA            54010
-ING UniChem   BRENDA             9551
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ING    N -2.214 -0.657 -0.981 ETKDGv2  1
-ING   CA -1.012  0.075 -0.565 ETKDGv2  2
-ING    C -0.539  0.968 -1.681 ETKDGv2  3
-ING    O -0.193  0.476 -2.789 ETKDGv2  4
-ING   CG  1.278 -0.206  0.455 ETKDGv2  5
-ING   CB  0.090 -0.917 -0.144 ETKDGv2  6
-ING  CD1  2.368  0.064 -0.286 ETKDGv2  7
-ING  CD2  1.227  0.250  1.867 ETKDGv2  8
-ING  CE1  3.510  0.791  0.307 ETKDGv2  9
-ING  CE2  2.261  0.911  2.400 ETKDGv2 10
-ING   CZ  3.459  1.193  1.583 ETKDGv2 11
-ING  OXT -0.478  2.344 -1.486 ETKDGv2 12
-ING   C1 -3.112 -1.257 -0.036 ETKDGv2 13
-ING   N1 -4.255 -1.976 -0.497 ETKDGv2 14
-ING   O1 -2.903 -1.150  1.202 ETKDGv2 15
-ING    H -2.454 -0.726 -1.996 ETKDGv2 16
-ING   HA -1.272  0.721  0.304 ETKDGv2 17
-ING  HB1  0.398 -1.536 -1.015 ETKDGv2 18
-ING  HB2 -0.314 -1.621  0.615 ETKDGv2 19
-ING  HD1  2.422 -0.242 -1.324 ETKDGv2 20
-ING  HD2  0.350  0.050  2.470 ETKDGv2 21
-ING  HE1  4.385  1.000 -0.294 ETKDGv2 22
-ING  HE2  2.222  1.243  3.429 ETKDGv2 23
-ING   HZ  4.294  1.728  2.018 ETKDGv2 24
-ING  HXT -0.158  2.960 -2.224 ETKDGv2 25
-ING HN11 -4.445 -2.074 -1.519 ETKDGv2 26
-ING HN12 -4.914 -2.413  0.186 ETKDGv2 27
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ING "Create component"  2000-11-21 EBI  
+ING "Modify descriptor" 2011-06-04 RCSB 
+# 

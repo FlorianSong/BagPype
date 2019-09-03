@@ -1,244 +1,114 @@
 data_SPV
-#
-_chem_comp.id                                        SPV
-_chem_comp.name                                      SULFOPYRUVATE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C3 H4 O6 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2002-06-19
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            168.125
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         SPV
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1M1B
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    SPV 
+_chem_comp.name                                  SULFOPYRUVATE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C3 H4 O6 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2002-06-19 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        168.125 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     SPV 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1M1B 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-SPV     C1     C1 C 0 1 N N N 53.403 103.578 54.806  0.236  0.000  2.491     C1 SPV  1
-SPV     O1     O1 O 0 1 N N N 52.511 104.328 55.353  1.418  0.000  2.761     O1 SPV  2
-SPV  "O2'"  "O2'" O 0 1 N N N 53.928 102.647 55.384 -0.679  0.000  3.477  "O2'" SPV  3
-SPV     C2     C2 C 0 1 N N N 53.728 103.964 53.368 -0.201  0.000  1.066     C2 SPV  4
-SPV     C3     C3 C 0 1 N N N 54.227 105.126 52.850  0.824  0.000 -0.037     C3 SPV  5
-SPV     O2     O2 O 0 1 N N N 53.471 103.044 52.519 -1.379  0.000  0.796     O2 SPV  6
-SPV      S      S S 0 1 N N N 55.953 105.450 53.342 -0.017  0.000 -1.644      S SPV  7
-SPV    O1S    O1S O 0 1 N N N 56.639 104.240 53.143 -0.655 -1.243 -1.901    O1S SPV  8
-SPV    O2S    O2S O 0 1 N N N 55.868 105.855 54.705  1.135  0.000 -2.639    O2S SPV  9
-SPV    O3S    O3S O 0 1 N N N 56.471 106.404 52.461 -0.655  1.243 -1.901    O3S SPV 10
-SPV "H2'O" "OH2'" H 0 0 N N N 54.586 102.093 54.980 -0.395  0.000  4.401 "H2'O" SPV 11
-SPV    H31    1H3 H 0 1 N N N 54.121 105.143 51.740  1.447  0.890  0.046    H31 SPV 12
-SPV    H32    2H3 H 0 1 N N N 53.571 105.989 53.110  1.447 -0.890  0.046    H32 SPV 13
-SPV   H2SO   OH2S H 0 0 N N N 56.767 106.023 54.961  0.741  0.000 -3.522   H2SO SPV 14
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+SPV C1     C1     C 0 1 N N N 53.403 103.578 54.806 0.236  0.000  2.491  C1     SPV 1  
+SPV O1     O1     O 0 1 N N N 52.511 104.328 55.353 1.418  0.000  2.761  O1     SPV 2  
+SPV "O2'"  "O2'"  O 0 1 N N N 53.928 102.647 55.384 -0.679 0.000  3.477  "O2'"  SPV 3  
+SPV C2     C2     C 0 1 N N N 53.728 103.964 53.368 -0.201 0.000  1.066  C2     SPV 4  
+SPV C3     C3     C 0 1 N N N 54.227 105.126 52.850 0.824  0.000  -0.037 C3     SPV 5  
+SPV O2     O2     O 0 1 N N N 53.471 103.044 52.519 -1.379 0.000  0.796  O2     SPV 6  
+SPV S      S      S 0 1 N N N 55.953 105.450 53.342 -0.017 0.000  -1.644 S      SPV 7  
+SPV O1S    O1S    O 0 1 N N N 56.639 104.240 53.143 -0.655 -1.243 -1.901 O1S    SPV 8  
+SPV O2S    O2S    O 0 1 N N N 55.868 105.855 54.705 1.135  0.000  -2.639 O2S    SPV 9  
+SPV O3S    O3S    O 0 1 N N N 56.471 106.404 52.461 -0.655 1.243  -1.901 O3S    SPV 10 
+SPV "H2'O" "OH2'" H 0 0 N N N 54.586 102.093 54.980 -0.395 0.000  4.401  "H2'O" SPV 11 
+SPV H31    1H3    H 0 1 N N N 54.121 105.143 51.740 1.447  0.890  0.046  H31    SPV 12 
+SPV H32    2H3    H 0 1 N N N 53.571 105.989 53.110 1.447  -0.890 0.046  H32    SPV 13 
+SPV H2SO   OH2S   H 0 0 N N N 56.767 106.023 54.961 0.741  0.000  -3.522 H2SO   SPV 14 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-SPV    C1     O1 DOUB N N  1
-SPV    C1  "O2'" SING N N  2
-SPV    C1     C2 SING N N  3
-SPV "O2'" "H2'O" SING N N  4
-SPV    C2     C3 SING N N  5
-SPV    C2     O2 DOUB N N  6
-SPV    C3      S SING N N  7
-SPV    C3    H31 SING N N  8
-SPV    C3    H32 SING N N  9
-SPV     S    O1S DOUB N N 10
-SPV     S    O2S SING N N 11
-SPV     S    O3S DOUB N N 12
-SPV   O2S   H2SO SING N N 13
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+SPV C1    O1     DOUB N N 1  
+SPV C1    "O2'"  SING N N 2  
+SPV C1    C2     SING N N 3  
+SPV "O2'" "H2'O" SING N N 4  
+SPV C2    C3     SING N N 5  
+SPV C2    O2     DOUB N N 6  
+SPV C3    S      SING N N 7  
+SPV C3    H31    SING N N 8  
+SPV C3    H32    SING N N 9  
+SPV S     O1S    DOUB N N 10 
+SPV S     O2S    SING N N 11 
+SPV S     O3S    DOUB N N 12 
+SPV O2S   H2SO   SING N N 13 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-SPV           SMILES              ACDLabs 10.04                                       O=C(O)C(=O)CS(=O)(=O)O
-SPV SMILES_CANONICAL               CACTVS 3.341                                     OC(=O)C(=O)C[S](O)(=O)=O
-SPV           SMILES               CACTVS 3.341                                     OC(=O)C(=O)C[S](O)(=O)=O
-SPV SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                     C(C(=O)C(=O)O)S(=O)(=O)O
-SPV           SMILES "OpenEye OEToolkits" 1.5.0                                     C(C(=O)C(=O)O)S(=O)(=O)O
-SPV            InChI                InChI  1.03 InChI=1S/C3H4O6S/c4-2(3(5)6)1-10(7,8)9/h1H2,(H,5,6)(H,7,8,9)
-SPV         InChIKey                InChI  1.03                                  BUTHMSUEBYPMKJ-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+SPV SMILES           ACDLabs              10.04 "O=C(O)C(=O)CS(=O)(=O)O"                                       
+SPV SMILES_CANONICAL CACTVS               3.341 "OC(=O)C(=O)C[S](O)(=O)=O"                                     
+SPV SMILES           CACTVS               3.341 "OC(=O)C(=O)C[S](O)(=O)=O"                                     
+SPV SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C(C(=O)C(=O)O)S(=O)(=O)O"                                     
+SPV SMILES           "OpenEye OEToolkits" 1.5.0 "C(C(=O)C(=O)O)S(=O)(=O)O"                                     
+SPV InChI            InChI                1.03  "InChI=1S/C3H4O6S/c4-2(3(5)6)1-10(7,8)9/h1H2,(H,5,6)(H,7,8,9)" 
+SPV InChIKey         InChI                1.03  BUTHMSUEBYPMKJ-UHFFFAOYSA-N                                    
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-SPV "SYSTEMATIC NAME"              ACDLabs 10.04  "2-oxo-3-sulfopropanoic acid"
-SPV "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-oxo-3-sulfo-propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+SPV "SYSTEMATIC NAME" ACDLabs              10.04 "2-oxo-3-sulfopropanoic acid"  
+SPV "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-oxo-3-sulfo-propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-SPV  "Create component" 2002-06-19 RCSB
-SPV "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   SPV
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02156
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Sulfopyruvate
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                98022-26-5
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           SPV
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02156
-_pdbe_chem_comp_drugbank_classification.parent            "Alpha-keto acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Keto acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as alpha-keto acids and derivatives. These are organic compounds containing an aldehyde substituted with a keto group on the adjacent carbon."
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-SPV    C1 C  9.002  0.375  1
-SPV    O1 O 10.301 -0.375  2
-SPV "O2'" O  9.002  1.875  3
-SPV    C2 C  7.702 -0.375  4
-SPV    C3 C  6.404  0.375  5
-SPV    O2 O  7.702 -1.875  6
-SPV     S S  5.104 -0.375  7
-SPV   O1S O  3.805 -1.125  8
-SPV   O2S O  4.354  0.924  9
-SPV   O3S O  5.854 -1.674 10
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-SPV C1    O1 DOUBLE NONE 1
-SPV C1 "O2'" SINGLE NONE 2
-SPV C1    C2 SINGLE NONE 3
-SPV C2    C3 SINGLE NONE 4
-SPV C2    O2 DOUBLE NONE 5
-SPV C3     S SINGLE NONE 6
-SPV  S   O1S DOUBLE NONE 7
-SPV  S   O2S SINGLE NONE 8
-SPV  S   O3S DOUBLE NONE 9
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               SPV
-_pdbe_chem_comp_rdkit_properties.exactmw                               167.973
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.333
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             62.008
-_pdbe_chem_comp_rdkit_properties.tpsa                                  108.740
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.472
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             29.058
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-SPV UniChem        ChEMBL    CHEMBL1236028
-SPV UniChem      DrugBank          DB02156
-SPV UniChem "KEGG LIGAND"           C05528
-SPV UniChem         ChEBI            16894
-SPV UniChem          ZINC ZINC000004096823
-SPV UniChem     BindingDb           223201
-SPV UniChem  MetaboLights       MTBLC16894
-SPV UniChem        BRENDA           108150
-SPV UniChem        BRENDA             3119
-SPV UniChem        BRENDA            45373
-SPV UniChem        BRENDA             8490
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SPV     C1  2.317 -0.341 -0.451 ETKDGv2  1
-SPV     O1  3.231 -1.204 -0.370 ETKDGv2  2
-SPV  "O2'"  2.648  0.950 -0.862 ETKDGv2  3
-SPV     C2  0.931 -0.718 -0.111 ETKDGv2  4
-SPV     C3 -0.190  0.284 -0.214 ETKDGv2  5
-SPV     O2  0.699 -1.897  0.276 ETKDGv2  6
-SPV      S -1.793 -0.403  0.193 ETKDGv2  7
-SPV    O1S -1.795 -0.907  1.609 ETKDGv2  8
-SPV    O2S -2.969  0.786  0.022 ETKDGv2  9
-SPV    O3S -2.107 -1.539 -0.740 ETKDGv2 10
-SPV "H2'O"  1.961  1.688 -0.941 ETKDGv2 11
-SPV    H31  0.012  1.129  0.477 ETKDGv2 12
-SPV    H32 -0.236  0.676 -1.252 ETKDGv2 13
-SPV   H2SO -2.710  1.495  0.663 ETKDGv2 14
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+SPV "Create component"  2002-06-19 RCSB 
+SPV "Modify descriptor" 2011-06-04 RCSB 
+# 

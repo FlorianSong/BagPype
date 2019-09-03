@@ -1,299 +1,137 @@
 data_BB8
-#
-_chem_comp.id                                        BB8
-_chem_comp.name                                      (2S,3S)-BETA-HYDROXY-PHENYLALANINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C9 H11 N O3"
-_chem_comp.mon_nstd_parent_comp_id                   PHE
-_chem_comp.pdbx_synonyms                             "BETA-HYDROXY-PHENYLALANINE, THREO-BETA-HYDROXY-L-PHENYLALANINE, (BETAS)-BETA-HYDROXY-L-PHENYLALANINE, L-THREO-3-PHENYLSERINE, L-THREO-BETA-PHENYLSERINE, 3-HYDROXY-L-PHENYLALANINE"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2009-01-15
-_chem_comp.pdbx_modified_date                        2011-07-13
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            181.189
-_chem_comp.one_letter_code                           F
-_chem_comp.three_letter_code                         BB8
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2C77
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    BB8 
+_chem_comp.name                                  "(2S,3S)-BETA-HYDROXY-PHENYLALANINE" 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C9 H11 N O3" 
+_chem_comp.mon_nstd_parent_comp_id               PHE 
+_chem_comp.pdbx_synonyms                         "BETA-HYDROXY-PHENYLALANINE, THREO-BETA-HYDROXY-L-PHENYLALANINE, (BETAS)-BETA-HYDROXY-L-PHENYLALANINE, L-THREO-3-PHENYLSERINE, L-THREO-BETA-PHENYLSERINE, 3-HYDROXY-L-PHENYLALANINE" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2009-01-15 
+_chem_comp.pdbx_modified_date                    2011-07-13 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        181.189 
+_chem_comp.one_letter_code                       F 
+_chem_comp.three_letter_code                     BB8 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2C77 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-BB8   N   N N 0 1 N N N 10.078 -1.776 33.799 -0.903  1.673 -0.756   N BB8  1
-BB8  CA  CA C 0 1 N N S 10.517 -0.675 32.895 -1.221  0.259 -0.512  CA BB8  2
-BB8   C   C C 0 1 N N N 11.182 -1.362 31.705 -2.683  0.125 -0.171   C BB8  3
-BB8  CB  CB C 0 1 N N S 11.491  0.207 33.667 -0.376 -0.261  0.652  CB BB8  4
-BB8  OB  OB O 0 1 N N N 12.402  0.974 32.921 -0.685 -1.635  0.889  OB BB8  5
-BB8  CG  CG C 0 1 Y N N 10.712  1.023 34.758  1.086 -0.126  0.311  CG BB8  6
-BB8 CD1 CD1 C 0 1 Y N N  9.932  2.185 34.315  1.818  0.933  0.812 CD1 BB8  7
-BB8 CE1 CE1 C 0 1 Y N N  9.186  2.972 35.252  3.159  1.057  0.499 CE1 BB8  8
-BB8  CZ  CZ C 0 1 Y N N  9.197  2.616 36.634  3.767  0.120 -0.315  CZ BB8  9
-BB8 CE2 CE2 C 0 1 Y N N  9.954  1.486 37.092  3.035 -0.940 -0.816 CE2 BB8 10
-BB8 CD2 CD2 C 0 1 Y N N 10.716  0.688 36.159  1.696 -1.066 -0.499 CD2 BB8 11
-BB8   O   O O 0 1 N Y N 12.494 -2.469 31.774 -3.303  1.086  0.219   O BB8 12
-BB8 OXT OXT O 0 1 N Y N 10.727 -1.099 30.499 -3.296 -1.062 -0.300 OXT BB8 13
-BB8 HN1 HN1 H 0 1 N N N  9.980 -2.621 33.273 -1.401  2.022 -1.561 HN1 BB8 14
-BB8 HA2 HA2 H 0 1 N N N 10.760 -1.909 34.518 -1.098  2.233  0.061 HA2 BB8 15
-BB8  HA  HA H 0 1 N N N  9.696 -0.033 32.544 -1.003 -0.322 -1.408  HA BB8 16
-BB8  HB  HB H 0 1 N N N 12.188 -0.489 34.156 -0.595  0.320  1.548  HB BB8 17
-BB8 HXT HXT H 0 1 N N N 11.227 -1.589 29.857 -4.234 -1.099 -0.069 HXT BB8 18
-BB8  HC  HC H 0 1 N N N 12.040  1.147 32.060 -0.515 -2.213  0.132  HC BB8 19
-BB8 HD1 HD1 H 0 1 N N N  9.920  2.451 33.268  1.343  1.665  1.449 HD1 BB8 20
-BB8 HD2 HD2 H 0 1 N N N 11.287 -0.158 36.511  1.125 -1.896 -0.888 HD2 BB8 21
-BB8 HE1 HE1 H 0 1 N N N  8.620  3.828 34.915  3.731  1.885  0.891 HE1 BB8 22
-BB8  HZ  HZ H 0 1 N N N  8.630  3.203 37.342  4.815  0.217 -0.560  HZ BB8 23
-BB8 HE2 HE2 H 0 1 N N N  9.954  1.230 38.141  3.511 -1.672 -1.452 HE2 BB8 24
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+BB8 N   N   N 0 1 N N N 10.078 -1.776 33.799 -0.903 1.673  -0.756 N   BB8 1  
+BB8 CA  CA  C 0 1 N N S 10.517 -0.675 32.895 -1.221 0.259  -0.512 CA  BB8 2  
+BB8 C   C   C 0 1 N N N 11.182 -1.362 31.705 -2.683 0.125  -0.171 C   BB8 3  
+BB8 CB  CB  C 0 1 N N S 11.491 0.207  33.667 -0.376 -0.261 0.652  CB  BB8 4  
+BB8 OB  OB  O 0 1 N N N 12.402 0.974  32.921 -0.685 -1.635 0.889  OB  BB8 5  
+BB8 CG  CG  C 0 1 Y N N 10.712 1.023  34.758 1.086  -0.126 0.311  CG  BB8 6  
+BB8 CD1 CD1 C 0 1 Y N N 9.932  2.185  34.315 1.818  0.933  0.812  CD1 BB8 7  
+BB8 CE1 CE1 C 0 1 Y N N 9.186  2.972  35.252 3.159  1.057  0.499  CE1 BB8 8  
+BB8 CZ  CZ  C 0 1 Y N N 9.197  2.616  36.634 3.767  0.120  -0.315 CZ  BB8 9  
+BB8 CE2 CE2 C 0 1 Y N N 9.954  1.486  37.092 3.035  -0.940 -0.816 CE2 BB8 10 
+BB8 CD2 CD2 C 0 1 Y N N 10.716 0.688  36.159 1.696  -1.066 -0.499 CD2 BB8 11 
+BB8 O   O   O 0 1 N Y N 12.494 -2.469 31.774 -3.303 1.086  0.219  O   BB8 12 
+BB8 OXT OXT O 0 1 N Y N 10.727 -1.099 30.499 -3.296 -1.062 -0.300 OXT BB8 13 
+BB8 HN1 HN1 H 0 1 N N N 9.980  -2.621 33.273 -1.401 2.022  -1.561 HN1 BB8 14 
+BB8 HA2 HA2 H 0 1 N N N 10.760 -1.909 34.518 -1.098 2.233  0.061  HA2 BB8 15 
+BB8 HA  HA  H 0 1 N N N 9.696  -0.033 32.544 -1.003 -0.322 -1.408 HA  BB8 16 
+BB8 HB  HB  H 0 1 N N N 12.188 -0.489 34.156 -0.595 0.320  1.548  HB  BB8 17 
+BB8 HXT HXT H 0 1 N N N 11.227 -1.589 29.857 -4.234 -1.099 -0.069 HXT BB8 18 
+BB8 HC  HC  H 0 1 N N N 12.040 1.147  32.060 -0.515 -2.213 0.132  HC  BB8 19 
+BB8 HD1 HD1 H 0 1 N N N 9.920  2.451  33.268 1.343  1.665  1.449  HD1 BB8 20 
+BB8 HD2 HD2 H 0 1 N N N 11.287 -0.158 36.511 1.125  -1.896 -0.888 HD2 BB8 21 
+BB8 HE1 HE1 H 0 1 N N N 8.620  3.828  34.915 3.731  1.885  0.891  HE1 BB8 22 
+BB8 HZ  HZ  H 0 1 N N N 8.630  3.203  37.342 4.815  0.217  -0.560 HZ  BB8 23 
+BB8 HE2 HE2 H 0 1 N N N 9.954  1.230  38.141 3.511  -1.672 -1.452 HE2 BB8 24 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-BB8   N  CA SING N N  1
-BB8  CA   C SING N N  2
-BB8  CA  CB SING N N  3
-BB8   C OXT SING N N  4
-BB8  CB  OB SING N N  5
-BB8  CB  CG SING N N  6
-BB8  CG CD1 SING Y N  7
-BB8  CG CD2 DOUB Y N  8
-BB8 CD1 CE1 DOUB Y N  9
-BB8 CE1  CZ SING Y N 10
-BB8  CZ CE2 DOUB Y N 11
-BB8 CE2 CD2 SING Y N 12
-BB8   N HN1 SING N N 13
-BB8   N HA2 SING N N 14
-BB8  CA  HA SING N N 15
-BB8   C   O DOUB N N 16
-BB8  CB  HB SING N N 17
-BB8 OXT HXT SING N N 18
-BB8  OB  HC SING N N 19
-BB8 CD1 HD1 SING N N 20
-BB8 CD2 HD2 SING N N 21
-BB8 CE1 HE1 SING N N 22
-BB8  CZ  HZ SING N N 23
-BB8 CE2 HE2 SING N N 24
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+BB8 N   CA  SING N N 1  
+BB8 CA  C   SING N N 2  
+BB8 CA  CB  SING N N 3  
+BB8 C   OXT SING N N 4  
+BB8 CB  OB  SING N N 5  
+BB8 CB  CG  SING N N 6  
+BB8 CG  CD1 SING Y N 7  
+BB8 CG  CD2 DOUB Y N 8  
+BB8 CD1 CE1 DOUB Y N 9  
+BB8 CE1 CZ  SING Y N 10 
+BB8 CZ  CE2 DOUB Y N 11 
+BB8 CE2 CD2 SING Y N 12 
+BB8 N   HN1 SING N N 13 
+BB8 N   HA2 SING N N 14 
+BB8 CA  HA  SING N N 15 
+BB8 C   O   DOUB N N 16 
+BB8 CB  HB  SING N N 17 
+BB8 OXT HXT SING N N 18 
+BB8 OB  HC  SING N N 19 
+BB8 CD1 HD1 SING N N 20 
+BB8 CD2 HD2 SING N N 21 
+BB8 CE1 HE1 SING N N 22 
+BB8 CZ  HZ  SING N N 23 
+BB8 CE2 HE2 SING N N 24 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-BB8           SMILES              ACDLabs 10.04                                                                      O=C(O)C(N)C(O)c1ccccc1
-BB8 SMILES_CANONICAL               CACTVS 3.352                                                            N[C@@H]([C@@H](O)c1ccccc1)C(O)=O
-BB8           SMILES               CACTVS 3.352                                                                N[CH]([CH](O)c1ccccc1)C(O)=O
-BB8 SMILES_CANONICAL "OpenEye OEToolkits" 1.6.1                                                          c1ccc(cc1)[C@@H]([C@@H](C(=O)O)N)O
-BB8           SMILES "OpenEye OEToolkits" 1.6.1                                                                    c1ccc(cc1)C(C(C(=O)O)N)O
-BB8            InChI                InChI  1.03 InChI=1S/C9H11NO3/c10-7(9(12)13)8(11)6-4-2-1-3-5-6/h1-5,7-8,11H,10H2,(H,12,13)/t7-,8-/m0/s1
-BB8         InChIKey                InChI  1.03                                                                 VHVGNTVUSQUXPS-YUMQZZPRSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+BB8 SMILES           ACDLabs              10.04 "O=C(O)C(N)C(O)c1ccccc1"                                                                      
+BB8 SMILES_CANONICAL CACTVS               3.352 "N[C@@H]([C@@H](O)c1ccccc1)C(O)=O"                                                            
+BB8 SMILES           CACTVS               3.352 "N[CH]([CH](O)c1ccccc1)C(O)=O"                                                                
+BB8 SMILES_CANONICAL "OpenEye OEToolkits" 1.6.1 "c1ccc(cc1)[C@@H]([C@@H](C(=O)O)N)O"                                                          
+BB8 SMILES           "OpenEye OEToolkits" 1.6.1 "c1ccc(cc1)C(C(C(=O)O)N)O"                                                                    
+BB8 InChI            InChI                1.03  "InChI=1S/C9H11NO3/c10-7(9(12)13)8(11)6-4-2-1-3-5-6/h1-5,7-8,11H,10H2,(H,12,13)/t7-,8-/m0/s1" 
+BB8 InChIKey         InChI                1.03  VHVGNTVUSQUXPS-YUMQZZPRSA-N                                                                   
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-BB8 "SYSTEMATIC NAME"              ACDLabs 10.04                (betaS)-beta-hydroxy-L-phenylalanine
-BB8 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 "(2S,3S)-2-amino-3-hydroxy-3-phenyl-propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+BB8 "SYSTEMATIC NAME" ACDLabs              10.04 "(betaS)-beta-hydroxy-L-phenylalanine"              
+BB8 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 "(2S,3S)-2-amino-3-hydroxy-3-phenyl-propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-BB8      "Modify synonyms" 2011-04-06  EBI
-BB8  "Modify linking type" 2011-04-26 RCSB
-BB8 "Modify aromatic_flag" 2011-06-04 RCSB
-BB8    "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-BB8   N N 7.702  0.285  1
-BB8  CA C 6.404  1.035  2
-BB8   C C 6.404  2.535  3
-BB8  CB C 5.104  0.285  4
-BB8  OB O 3.805  1.035  5
-BB8  CG C 5.104 -1.215  6
-BB8 CD1 C 3.805 -1.965  7
-BB8 CE1 C 3.805 -3.465  8
-BB8  CZ C 5.104 -4.215  9
-BB8 CE2 C 6.404 -3.465 10
-BB8 CD2 C 6.404 -1.965 11
-BB8   O O 7.702  3.285 12
-BB8 OXT O 5.104  3.285 13
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-BB8   N  CA SINGLE BEGINWEDGE  1
-BB8  CA   C SINGLE       NONE  2
-BB8  CA  CB SINGLE       NONE  3
-BB8   C OXT SINGLE       NONE  4
-BB8  CB  OB SINGLE BEGINWEDGE  5
-BB8  CB  CG SINGLE       NONE  6
-BB8  CG CD1 DOUBLE       NONE  7
-BB8  CG CD2 SINGLE       NONE  8
-BB8 CD1 CE1 SINGLE       NONE  9
-BB8 CE1  CZ DOUBLE       NONE 10
-BB8  CZ CE2 SINGLE       NONE 11
-BB8 CE2 CD2 DOUBLE       NONE 12
-BB8   C   O DOUBLE       NONE 13
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-BB8 MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-BB8        peptide F1 fragment    NCC=O InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-BB8         phenyl F2 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-BB8   O F1 1
-BB8   C F1 1
-BB8  CA F1 1
-BB8   N F1 1
-BB8  CG F2 1
-BB8 CD1 F2 1
-BB8 CE1 F2 1
-BB8  CZ F2 1
-BB8 CE2 F2 1
-BB8 CD2 F2 1
-BB8  CG S1 1
-BB8 CD1 S1 1
-BB8 CE1 S1 1
-BB8  CZ S1 1
-BB8 CE2 S1 1
-BB8 CD2 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               BB8
-_pdbe_chem_comp_rdkit_properties.exactmw                               181.074
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.222
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             91.360
-_pdbe_chem_comp_rdkit_properties.tpsa                                  83.550
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.077
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             46.747
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         13
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-BB8 UniChem        ChEBI            16795
-BB8 UniChem        ChEBI            57901
-BB8 UniChem         ZINC ZINC000000034161
-BB8 UniChem         ZINC     ZINC00034161
-BB8 UniChem MetaboLights       MTBLC16795
-BB8 UniChem MetaboLights       MTBLC57901
-BB8 UniChem       BRENDA            20719
-BB8 UniChem       BRENDA            23825
-BB8 UniChem       BRENDA            30777
-BB8 UniChem         Rhea            57901
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BB8   N  1.553  0.351 -1.374 ETKDGv2  1
-BB8  CA  1.535  0.448  0.090 ETKDGv2  2
-BB8   C  2.913  0.244  0.675 ETKDGv2  3
-BB8  CB  0.517 -0.548  0.699 ETKDGv2  4
-BB8  OB  0.797 -1.866  0.296 ETKDGv2  5
-BB8  CG -0.899 -0.191  0.297 ETKDGv2  6
-BB8 CD1 -1.720  0.437  1.161 ETKDGv2  7
-BB8 CE1 -3.099  0.790  0.763 ETKDGv2  8
-BB8  CZ -3.542  0.486 -0.462 ETKDGv2  9
-BB8 CE2 -2.655 -0.207 -1.417 ETKDGv2 10
-BB8 CD2 -1.406 -0.529 -1.061 ETKDGv2 11
-BB8   O  3.102  0.435  1.907 ETKDGv2 12
-BB8 OXT  3.980 -0.145 -0.130 ETKDGv2 13
-BB8 HN1  2.180  1.097 -1.754 ETKDGv2 14
-BB8 HA2  1.948 -0.574 -1.664 ETKDGv2 15
-BB8  HA  1.214  1.479  0.362 ETKDGv2 16
-BB8  HB  0.592 -0.487  1.812 ETKDGv2 17
-BB8 HXT  4.905 -0.280  0.261 ETKDGv2 18
-BB8  HC  1.558 -2.185  0.847 ETKDGv2 19
-BB8 HD1 -1.383  0.702  2.156 ETKDGv2 20
-BB8 HD2 -0.769 -1.045 -1.768 ETKDGv2 21
-BB8 HE1 -3.748  1.298  1.464 ETKDGv2 22
-BB8  HZ -4.552  0.745 -0.755 ETKDGv2 23
-BB8 HE2 -3.020 -0.457 -2.405 ETKDGv2 24
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+BB8 "Modify synonyms"      2011-04-06 EBI  
+BB8 "Modify linking type"  2011-04-26 RCSB 
+BB8 "Modify aromatic_flag" 2011-06-04 RCSB 
+BB8 "Modify descriptor"    2011-06-04 RCSB 
+# 

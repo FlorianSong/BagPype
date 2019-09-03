@@ -1,287 +1,154 @@
 data_AG3
-#
-_chem_comp.id                                        AG3
-_chem_comp.name                                      1-{4-[(3-aminopropyl)amino]butyl}guanidine
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C8 H21 N5"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             N1-aminopropylagmatine
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2007-06-26
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       ?
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            187.286
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         AG3
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            "OpenEye/OEToolkits V1.4.2"
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    AG3 
+_chem_comp.name                                  "1-{4-[(3-aminopropyl)amino]butyl}guanidine" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C8 H21 N5" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         N1-aminopropylagmatine 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2007-06-26 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   ? 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        187.286 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     AG3 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        "OpenEye/OEToolkits V1.4.2" 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-AG3    N    N N 0 1 N N N 34.670 27.158 11.212  2.315 -0.799 -3.277    N AG3  1
-AG3   CA   CA C 0 1 N N N 34.337 27.256 12.642  1.387 -0.945 -2.165   CA AG3  2
-AG3   CB   CB C 0 1 N N N 35.539 27.696 13.483  1.938 -0.327 -0.886   CB AG3  3
-AG3   CG   CG C 0 1 N N N 36.375 26.489 13.938  0.958 -0.452  0.285   CG AG3  4
-AG3   CD   CD C 0 1 N N N 35.542 25.523 14.804  1.509  0.147  1.575   CD AG3  5
-AG3   NE   NE N 0 1 N N N 36.448 24.605 15.493  0.580  0.048  2.666   NE AG3  6
-AG3   CZ   CZ C 0 1 N N N 35.979 23.598 16.306  0.769  0.476  3.968   CZ AG3  7
-AG3  NH1  NH1 N 0 1 N N N 34.692 23.418 16.489  1.975  1.063  4.258  NH1 AG3  8
-AG3  NH2  NH2 N 0 1 N N N 36.879 22.778 16.929 -0.159  0.327  4.877  NH2 AG3  9
-AG3   C7   C7 C 0 1 N N N 33.639 27.942 10.490  1.769 -1.385 -4.494   C7 AG3 10
-AG3   C8   C8 C 0 1 N N N 32.287 27.195 10.425  2.710 -1.241 -5.688   C8 AG3 11
-AG3   C9   C9 C 0 1 N N N 31.120 28.197 10.420  3.018  0.208 -6.059   C9 AG3 12
-AG3  N10  N10 N 0 1 N N N 31.144 28.928  9.345  3.929  0.312 -7.166  N10 AG3 13
-AG3   HN   HN H 0 1 N N N 34.658 26.204 10.914  3.193 -1.265 -3.046   HN AG3 14
-AG3  HA1  1HA H 0 1 N N N 33.532 27.996 12.765  1.177 -2.011 -2.031  HA1 AG3 15
-AG3  HA2  2HA H 0 1 N N N 34.025 26.260 12.988  0.453 -0.449 -2.447  HA2 AG3 16
-AG3  HB1  1HB H 0 1 N N N 36.173 28.359 12.877  2.152  0.732 -1.070  HB1 AG3 17
-AG3  HB2  2HB H 0 1 N N N 35.166 28.218 14.377  2.887 -0.813 -0.631  HB2 AG3 18
-AG3  HG1  1HG H 0 1 N N N 36.734 25.950 13.049  0.705 -1.507  0.448  HG1 AG3 19
-AG3  HG2  2HG H 0 1 N N N 37.218 26.858 14.541  0.026  0.068  0.029  HG2 AG3 20
-AG3  HD1  1HD H 0 1 N N N 34.962 26.095 15.543  1.721  1.212  1.432  HD1 AG3 21
-AG3  HD2  2HD H 0 1 N N N 34.849 24.954 14.167  2.437 -0.347  1.878  HD2 AG3 22
-AG3  HNE  HNE H 0 1 N N N 37.435 24.712 15.370 -0.318 -0.388  2.452  HNE AG3 23
-AG3 HH11 1HH1 H 0 0 N N N 34.531 22.647 17.105  2.700  1.184  3.560 HH11 AG3 24
-AG3 HH12 2HH1 H 0 0 N N N 33.973 23.974 16.071  2.182  1.400  5.192 HH12 AG3 25
-AG3 HNH2 HNH2 H 0 0 N N N 37.814 23.041 16.692 -0.969 -0.130  4.444 HNH2 AG3 26
-AG3  H71  1H7 H 0 1 N N N 33.990 28.125  9.464  1.592 -2.445 -4.284  H71 AG3 27
-AG3  H72  2H7 H 0 1 N N N 33.483 28.885 11.034  0.801 -0.912 -4.687  H72 AG3 28
-AG3  H81  1H8 H 0 1 N N N 32.195 26.538 11.303  3.654 -1.754 -5.469  H81 AG3 29
-AG3  H82  2H8 H 0 1 N N N 32.251 26.601  9.500  2.260 -1.748 -6.550  H82 AG3 30
-AG3  H91  1H9 H 0 1 N N N 31.205 28.851 11.300  2.108  0.757 -6.321  H91 AG3 31
-AG3  H92  2H9 H 0 1 N N N 30.173 27.637 10.446  3.488  0.718 -5.212  H92 AG3 32
-AG3 H101 1H10 H 0 0 N N N 31.150 29.895  9.599  3.690  0.906 -7.945 H101 AG3 33
-AG3 H102 2H10 H 0 0 N N N 31.967 28.717  8.817  4.683 -0.352 -7.247 H102 AG3 34
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+AG3 N    N    N 0 1 N N N 34.670 27.158 11.212 2.315  -0.799 -3.277 N    AG3 1  
+AG3 CA   CA   C 0 1 N N N 34.337 27.256 12.642 1.387  -0.945 -2.165 CA   AG3 2  
+AG3 CB   CB   C 0 1 N N N 35.539 27.696 13.483 1.938  -0.327 -0.886 CB   AG3 3  
+AG3 CG   CG   C 0 1 N N N 36.375 26.489 13.938 0.958  -0.452 0.285  CG   AG3 4  
+AG3 CD   CD   C 0 1 N N N 35.542 25.523 14.804 1.509  0.147  1.575  CD   AG3 5  
+AG3 NE   NE   N 0 1 N N N 36.448 24.605 15.493 0.580  0.048  2.666  NE   AG3 6  
+AG3 CZ   CZ   C 0 1 N N N 35.979 23.598 16.306 0.769  0.476  3.968  CZ   AG3 7  
+AG3 NH1  NH1  N 0 1 N N N 34.692 23.418 16.489 1.975  1.063  4.258  NH1  AG3 8  
+AG3 NH2  NH2  N 0 1 N N N 36.879 22.778 16.929 -0.159 0.327  4.877  NH2  AG3 9  
+AG3 C7   C7   C 0 1 N N N 33.639 27.942 10.490 1.769  -1.385 -4.494 C7   AG3 10 
+AG3 C8   C8   C 0 1 N N N 32.287 27.195 10.425 2.710  -1.241 -5.688 C8   AG3 11 
+AG3 C9   C9   C 0 1 N N N 31.120 28.197 10.420 3.018  0.208  -6.059 C9   AG3 12 
+AG3 N10  N10  N 0 1 N N N 31.144 28.928 9.345  3.929  0.312  -7.166 N10  AG3 13 
+AG3 HN   HN   H 0 1 N N N 34.658 26.204 10.914 3.193  -1.265 -3.046 HN   AG3 14 
+AG3 HA1  1HA  H 0 1 N N N 33.532 27.996 12.765 1.177  -2.011 -2.031 HA1  AG3 15 
+AG3 HA2  2HA  H 0 1 N N N 34.025 26.260 12.988 0.453  -0.449 -2.447 HA2  AG3 16 
+AG3 HB1  1HB  H 0 1 N N N 36.173 28.359 12.877 2.152  0.732  -1.070 HB1  AG3 17 
+AG3 HB2  2HB  H 0 1 N N N 35.166 28.218 14.377 2.887  -0.813 -0.631 HB2  AG3 18 
+AG3 HG1  1HG  H 0 1 N N N 36.734 25.950 13.049 0.705  -1.507 0.448  HG1  AG3 19 
+AG3 HG2  2HG  H 0 1 N N N 37.218 26.858 14.541 0.026  0.068  0.029  HG2  AG3 20 
+AG3 HD1  1HD  H 0 1 N N N 34.962 26.095 15.543 1.721  1.212  1.432  HD1  AG3 21 
+AG3 HD2  2HD  H 0 1 N N N 34.849 24.954 14.167 2.437  -0.347 1.878  HD2  AG3 22 
+AG3 HNE  HNE  H 0 1 N N N 37.435 24.712 15.370 -0.318 -0.388 2.452  HNE  AG3 23 
+AG3 HH11 1HH1 H 0 0 N N N 34.531 22.647 17.105 2.700  1.184  3.560  HH11 AG3 24 
+AG3 HH12 2HH1 H 0 0 N N N 33.973 23.974 16.071 2.182  1.400  5.192  HH12 AG3 25 
+AG3 HNH2 HNH2 H 0 0 N N N 37.814 23.041 16.692 -0.969 -0.130 4.444  HNH2 AG3 26 
+AG3 H71  1H7  H 0 1 N N N 33.990 28.125 9.464  1.592  -2.445 -4.284 H71  AG3 27 
+AG3 H72  2H7  H 0 1 N N N 33.483 28.885 11.034 0.801  -0.912 -4.687 H72  AG3 28 
+AG3 H81  1H8  H 0 1 N N N 32.195 26.538 11.303 3.654  -1.754 -5.469 H81  AG3 29 
+AG3 H82  2H8  H 0 1 N N N 32.251 26.601 9.500  2.260  -1.748 -6.550 H82  AG3 30 
+AG3 H91  1H9  H 0 1 N N N 31.205 28.851 11.300 2.108  0.757  -6.321 H91  AG3 31 
+AG3 H92  2H9  H 0 1 N N N 30.173 27.637 10.446 3.488  0.718  -5.212 H92  AG3 32 
+AG3 H101 1H10 H 0 0 N N N 31.150 29.895 9.599  3.690  0.906  -7.945 H101 AG3 33 
+AG3 H102 2H10 H 0 0 N N N 31.967 28.717 8.817  4.683  -0.352 -7.247 H102 AG3 34 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-AG3 N10   C9 SING N N  1
-AG3  C9   C8 SING N N  2
-AG3  C8   C7 SING N N  3
-AG3  C7    N SING N N  4
-AG3   N   CA SING N N  5
-AG3  CA   CB SING N N  6
-AG3  CB   CG SING N N  7
-AG3  CG   CD SING N N  8
-AG3  CD   NE SING N N  9
-AG3  NE   CZ SING N N 10
-AG3  CZ  NH1 SING N N 11
-AG3  CZ  NH2 DOUB N N 12
-AG3   N   HN SING N N 13
-AG3  CA  HA1 SING N N 14
-AG3  CA  HA2 SING N N 15
-AG3  CB  HB1 SING N N 16
-AG3  CB  HB2 SING N N 17
-AG3  CG  HG1 SING N N 18
-AG3  CG  HG2 SING N N 19
-AG3  CD  HD1 SING N N 20
-AG3  CD  HD2 SING N N 21
-AG3  NE  HNE SING N N 22
-AG3 NH1 HH11 SING N N 23
-AG3 NH1 HH12 SING N N 24
-AG3 NH2 HNH2 SING N N 25
-AG3  C7  H71 SING N N 26
-AG3  C7  H72 SING N N 27
-AG3  C8  H81 SING N N 28
-AG3  C8  H82 SING N N 29
-AG3  C9  H91 SING N N 30
-AG3  C9  H92 SING N N 31
-AG3 N10 H101 SING N N 32
-AG3 N10 H102 SING N N 33
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+AG3 N10 C9   SING N N 1  
+AG3 C9  C8   SING N N 2  
+AG3 C8  C7   SING N N 3  
+AG3 C7  N    SING N N 4  
+AG3 N   CA   SING N N 5  
+AG3 CA  CB   SING N N 6  
+AG3 CB  CG   SING N N 7  
+AG3 CG  CD   SING N N 8  
+AG3 CD  NE   SING N N 9  
+AG3 NE  CZ   SING N N 10 
+AG3 CZ  NH1  SING N N 11 
+AG3 CZ  NH2  DOUB N N 12 
+AG3 N   HN   SING N N 13 
+AG3 CA  HA1  SING N N 14 
+AG3 CA  HA2  SING N N 15 
+AG3 CB  HB1  SING N N 16 
+AG3 CB  HB2  SING N N 17 
+AG3 CG  HG1  SING N N 18 
+AG3 CG  HG2  SING N N 19 
+AG3 CD  HD1  SING N N 20 
+AG3 CD  HD2  SING N N 21 
+AG3 NE  HNE  SING N N 22 
+AG3 NH1 HH11 SING N N 23 
+AG3 NH1 HH12 SING N N 24 
+AG3 NH2 HNH2 SING N N 25 
+AG3 C7  H71  SING N N 26 
+AG3 C7  H72  SING N N 27 
+AG3 C8  H81  SING N N 28 
+AG3 C8  H82  SING N N 29 
+AG3 C9  H91  SING N N 30 
+AG3 C9  H92  SING N N 31 
+AG3 N10 H101 SING N N 32 
+AG3 N10 H102 SING N N 33 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-AG3           SMILES              ACDLabs 10.04                                                     "[N@H]=C(N)NCCCCNCCCN"
-AG3 SMILES_CANONICAL               CACTVS 3.341                                                           NCCCNCCCCNC(N)=N
-AG3           SMILES               CACTVS 3.341                                                           NCCCNCCCCNC(N)=N
-AG3 SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                   "[H]/N=C(/N)\NCCCCNCCCN"
-AG3           SMILES "OpenEye OEToolkits" 1.5.0                                                      "[H]N=C(N)NCCCCNCCCN"
-AG3            InChI                InChI  1.03 InChI=1S/C8H21N5/c9-4-3-6-12-5-1-2-7-13-8(10)11/h12H,1-7,9H2,(H4,10,11,13)
-AG3         InChIKey                InChI  1.03                                                XYCUJKFFVBCJEF-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+AG3 SMILES           ACDLabs              10.04 "[N@H]=C(N)NCCCCNCCCN"                                                       
+AG3 SMILES_CANONICAL CACTVS               3.341 "NCCCNCCCCNC(N)=N"                                                           
+AG3 SMILES           CACTVS               3.341 "NCCCNCCCCNC(N)=N"                                                           
+AG3 SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "[H]/N=C(/N)\NCCCCNCCCN"                                                     
+AG3 SMILES           "OpenEye OEToolkits" 1.5.0 "[H]N=C(N)NCCCCNCCCN"                                                        
+AG3 InChI            InChI                1.03  "InChI=1S/C8H21N5/c9-4-3-6-12-5-1-2-7-13-8(10)11/h12H,1-7,9H2,(H4,10,11,13)" 
+AG3 InChIKey         InChI                1.03  XYCUJKFFVBCJEF-UHFFFAOYSA-N                                                  
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-AG3 "SYSTEMATIC NAME"              ACDLabs 10.04 1-{4-[(3-aminopropyl)amino]butyl}guanidine
-AG3 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0   1-[4-(3-aminopropylamino)butyl]guanidine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+AG3 "SYSTEMATIC NAME" ACDLabs              10.04 "1-{4-[(3-aminopropyl)amino]butyl}guanidine" 
+AG3 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "1-[4-(3-aminopropylamino)butyl]guanidine"   
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-AG3  "Create component" 2007-06-26 RCSB
-AG3 "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-AG3   N N 12.899  0.142  1
-AG3  CA C 11.600  0.892  2
-AG3  CB C 10.301  0.142  3
-AG3  CG C  9.002  0.892  4
-AG3  CD C  7.702  0.142  5
-AG3  NE N  6.404  0.892  6
-AG3  CZ C  5.104  0.142  7
-AG3 NH1 N  3.805  0.892  8
-AG3 NH2 N  5.104 -1.357  9
-AG3  C7 C 14.198  0.892 10
-AG3  C8 C 15.497  0.142 11
-AG3  C9 C 16.796  0.892 12
-AG3 N10 N 18.095  0.142 13
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-AG3 N10  C9 SINGLE NONE  1
-AG3  C9  C8 SINGLE NONE  2
-AG3  C8  C7 SINGLE NONE  3
-AG3  C7   N SINGLE NONE  4
-AG3   N  CA SINGLE NONE  5
-AG3  CA  CB SINGLE NONE  6
-AG3  CB  CG SINGLE NONE  7
-AG3  CG  CD SINGLE NONE  8
-AG3  CD  NE SINGLE NONE  9
-AG3  NE  CZ SINGLE NONE 10
-AG3  CZ NH1 SINGLE NONE 11
-AG3  CZ NH2 DOUBLE NONE 12
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               AG3
-_pdbe_chem_comp_rdkit_properties.exactmw                               187.180
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           7
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     9
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.875
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             109.669
-_pdbe_chem_comp_rdkit_properties.tpsa                                  99.950
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.812
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             55.692
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         13
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-AG3 UniChem ChEMBL    CHEMBL1230868
-AG3 UniChem  ChEBI            64339
-AG3 UniChem   ZINC ZINC000032194868
-AG3 UniChem BRENDA            15292
-AG3 UniChem BRENDA           170005
-AG3 UniChem BRENDA           171264
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-AG3    N -1.399 -0.086  0.318 ETKDGv2  1
-AG3   CA -0.363 -0.971 -0.228 ETKDGv2  2
-AG3   CB  1.007 -0.579  0.332 ETKDGv2  3
-AG3   CG  2.115 -1.471 -0.243 ETKDGv2  4
-AG3   CD  3.494 -1.106  0.317 ETKDGv2  5
-AG3   NE  3.911  0.217 -0.154 ETKDGv2  6
-AG3   CZ  4.177  1.343  0.700 ETKDGv2  7
-AG3  NH1  5.049  2.376  0.242 ETKDGv2  8
-AG3  NH2  3.601  1.472  1.855 ETKDGv2  9
-AG3   C7 -2.704 -0.399 -0.276 ETKDGv2 10
-AG3   C8 -3.759  0.594  0.226 ETKDGv2 11
-AG3   C9 -5.179  0.247 -0.256 ETKDGv2 12
-AG3  N10 -5.344  0.435 -1.697 ETKDGv2 13
-AG3   HN -1.464 -0.268  1.348 ETKDGv2 14
-AG3  HA1 -0.333 -0.878 -1.337 ETKDGv2 15
-AG3  HA2 -0.584 -2.030  0.039 ETKDGv2 16
-AG3  HB1  1.210  0.484  0.075 ETKDGv2 17
-AG3  HB2  0.991 -0.679  1.440 ETKDGv2 18
-AG3  HG1  2.134 -1.383 -1.351 ETKDGv2 19
-AG3  HG2  1.900 -2.531  0.015 ETKDGv2 20
-AG3  HD1  4.232 -1.855 -0.042 ETKDGv2 21
-AG3  HD2  3.493 -1.172  1.424 ETKDGv2 22
-AG3  HNE  4.143  0.309 -1.169 ETKDGv2 23
-AG3 HH11  5.514  2.302 -0.690 ETKDGv2 24
-AG3 HH12  5.238  3.214  0.836 ETKDGv2 25
-AG3 HNH2  2.917  0.786  2.240 ETKDGv2 26
-AG3  H71 -3.008 -1.436 -0.005 ETKDGv2 27
-AG3  H72 -2.636 -0.322 -1.383 ETKDGv2 28
-AG3  H81 -3.763  0.582  1.338 ETKDGv2 29
-AG3  H82 -3.489  1.623 -0.098 ETKDGv2 30
-AG3  H91 -5.430 -0.802  0.015 ETKDGv2 31
-AG3  H92 -5.902  0.906  0.270 ETKDGv2 32
-AG3 H101 -4.796 -0.296 -2.206 ETKDGv2 33
-AG3 H102 -4.972  1.373 -1.971 ETKDGv2 34
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+AG3 "Create component"  2007-06-26 RCSB 
+AG3 "Modify descriptor" 2011-06-04 RCSB 
+# 

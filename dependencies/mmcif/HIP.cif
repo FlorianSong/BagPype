@@ -1,324 +1,139 @@
 data_HIP
-#
-_chem_comp.id                                        HIP
-_chem_comp.name                                      ND1-PHOSPHONOHISTIDINE
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C6 H11 N3 O5 P"
-_chem_comp.mon_nstd_parent_comp_id                   HIS
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        1
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            236.142
-_chem_comp.one_letter_code                           H
-_chem_comp.three_letter_code                         HIP
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1JEM
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    HIP 
+_chem_comp.name                                  ND1-PHOSPHONOHISTIDINE 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C6 H11 N3 O5 P" 
+_chem_comp.mon_nstd_parent_comp_id               HIS 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    1 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        236.142 
+_chem_comp.one_letter_code                       H 
+_chem_comp.three_letter_code                     HIP 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1JEM 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-HIP    N    N N 0 1 N N N 5.445 6.863 4.104  2.335  1.642  0.808    N HIP  1
-HIP   CA   CA C 0 1 N N S 6.744 6.583 4.784  1.908  0.299  0.394   CA HIP  2
-HIP   CB   CB C 0 1 N N N 7.259 7.861 5.486  0.983  0.410 -0.820   CB HIP  3
-HIP   CG   CG C 0 1 Y N N 6.437 8.218 6.698 -0.283  1.125 -0.423   CG HIP  4
-HIP  CD2  CD2 C 0 1 Y N N 5.092 8.406 6.874 -0.473  2.458 -0.382  CD2 HIP  5
-HIP  NE2  NE2 N 1 1 Y N N 4.839 8.763 8.188 -1.732  2.686  0.020  NE2 HIP  6
-HIP  CE1  CE1 C 0 1 Y N N 6.027 8.786 8.788 -2.330  1.545  0.230  CE1 HIP  7
-HIP  ND1  ND1 N 0 1 Y N N 7.023 8.468 7.939 -1.462  0.546 -0.039  ND1 HIP  8
-HIP    P    P P 0 1 N N N 8.454 8.783 8.160 -1.763 -1.062  0.079    P HIP  9
-HIP  O1P  O1P O 0 1 N N N 8.602 9.676 9.331 -2.764 -1.300  1.143  O1P HIP 10
-HIP  O2P  O2P O 0 1 N N N 9.030 9.422 6.954 -2.331 -1.607 -1.325  O2P HIP 11
-HIP  O3P  O3P O 0 1 N N N 9.033 7.446 8.410 -0.399 -1.837  0.444  O3P HIP 12
-HIP    C    C C 0 1 N N N 6.587 5.395 5.760  3.118 -0.522  0.030    C HIP 13
-HIP    O    O O 0 1 N N N 5.850 4.467 5.487  4.159  0.025 -0.245    O HIP 14
-HIP  OXT  OXT O 0 1 N Y N 7.300 5.388 6.865  3.038 -1.862  0.010  OXT HIP 15
-HIP    H  1HN H 0 1 N N N 4.845 7.544 4.457  2.820  2.048  0.022    H HIP 16
-HIP   H2  2HN H 0 1 N Y N 5.512 7.651 3.461  1.495  2.185  0.942   H2 HIP 17
-HIP   HA   HA H 0 1 N N N 7.462 6.298 4.027  1.376 -0.182  1.214   HA HIP 18
-HIP  HB2  1HB H 0 1 N N N 7.229 8.683 4.784  1.484  0.969 -1.609  HB2 HIP 19
-HIP  HB3  2HB H 0 1 N N N 8.273 7.702 5.795  0.737 -0.589 -1.182  HB3 HIP 20
-HIP  HD2  HD2 H 0 1 N N N 4.348 8.304 6.108  0.261  3.211 -0.630  HD2 HIP 21
-HIP  HE2  HE2 H 0 1 N N N 3.968 8.958 8.592 -2.135  3.561  0.136  HE2 HIP 22
-HIP  HE1  HE1 H 0 1 N N N 6.175 9.030 9.830 -3.350  1.421  0.561  HE1 HIP 23
-HIP HOP2 2HOP H 0 0 N N N 9.947 9.623 7.095 -1.650 -1.433 -1.989 HOP2 HIP 24
-HIP HOP3 3HOP H 0 0 N N N 9.950 7.647 8.551 -0.620 -2.777  0.504 HOP3 HIP 25
-HIP  HXT  HXT H 0 1 N Y N 7.203 4.657 7.464  3.815 -2.389 -0.223  HXT HIP 26
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+HIP N    N    N 0 1 N N N 5.445 6.863 4.104 2.335  1.642  0.808  N    HIP 1  
+HIP CA   CA   C 0 1 N N S 6.744 6.583 4.784 1.908  0.299  0.394  CA   HIP 2  
+HIP CB   CB   C 0 1 N N N 7.259 7.861 5.486 0.983  0.410  -0.820 CB   HIP 3  
+HIP CG   CG   C 0 1 Y N N 6.437 8.218 6.698 -0.283 1.125  -0.423 CG   HIP 4  
+HIP CD2  CD2  C 0 1 Y N N 5.092 8.406 6.874 -0.473 2.458  -0.382 CD2  HIP 5  
+HIP NE2  NE2  N 1 1 Y N N 4.839 8.763 8.188 -1.732 2.686  0.020  NE2  HIP 6  
+HIP CE1  CE1  C 0 1 Y N N 6.027 8.786 8.788 -2.330 1.545  0.230  CE1  HIP 7  
+HIP ND1  ND1  N 0 1 Y N N 7.023 8.468 7.939 -1.462 0.546  -0.039 ND1  HIP 8  
+HIP P    P    P 0 1 N N N 8.454 8.783 8.160 -1.763 -1.062 0.079  P    HIP 9  
+HIP O1P  O1P  O 0 1 N N N 8.602 9.676 9.331 -2.764 -1.300 1.143  O1P  HIP 10 
+HIP O2P  O2P  O 0 1 N N N 9.030 9.422 6.954 -2.331 -1.607 -1.325 O2P  HIP 11 
+HIP O3P  O3P  O 0 1 N N N 9.033 7.446 8.410 -0.399 -1.837 0.444  O3P  HIP 12 
+HIP C    C    C 0 1 N N N 6.587 5.395 5.760 3.118  -0.522 0.030  C    HIP 13 
+HIP O    O    O 0 1 N N N 5.850 4.467 5.487 4.159  0.025  -0.245 O    HIP 14 
+HIP OXT  OXT  O 0 1 N Y N 7.300 5.388 6.865 3.038  -1.862 0.010  OXT  HIP 15 
+HIP H    1HN  H 0 1 N N N 4.845 7.544 4.457 2.820  2.048  0.022  H    HIP 16 
+HIP H2   2HN  H 0 1 N Y N 5.512 7.651 3.461 1.495  2.185  0.942  H2   HIP 17 
+HIP HA   HA   H 0 1 N N N 7.462 6.298 4.027 1.376  -0.182 1.214  HA   HIP 18 
+HIP HB2  1HB  H 0 1 N N N 7.229 8.683 4.784 1.484  0.969  -1.609 HB2  HIP 19 
+HIP HB3  2HB  H 0 1 N N N 8.273 7.702 5.795 0.737  -0.589 -1.182 HB3  HIP 20 
+HIP HD2  HD2  H 0 1 N N N 4.348 8.304 6.108 0.261  3.211  -0.630 HD2  HIP 21 
+HIP HE2  HE2  H 0 1 N N N 3.968 8.958 8.592 -2.135 3.561  0.136  HE2  HIP 22 
+HIP HE1  HE1  H 0 1 N N N 6.175 9.030 9.830 -3.350 1.421  0.561  HE1  HIP 23 
+HIP HOP2 2HOP H 0 0 N N N 9.947 9.623 7.095 -1.650 -1.433 -1.989 HOP2 HIP 24 
+HIP HOP3 3HOP H 0 0 N N N 9.950 7.647 8.551 -0.620 -2.777 0.504  HOP3 HIP 25 
+HIP HXT  HXT  H 0 1 N Y N 7.203 4.657 7.464 3.815  -2.389 -0.223 HXT  HIP 26 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-HIP   N   CA SING N N  1
-HIP   N    H SING N N  2
-HIP   N   H2 SING N N  3
-HIP  CA   CB SING N N  4
-HIP  CA    C SING N N  5
-HIP  CA   HA SING N N  6
-HIP  CB   CG SING N N  7
-HIP  CB  HB2 SING N N  8
-HIP  CB  HB3 SING N N  9
-HIP  CG  CD2 DOUB Y N 10
-HIP  CG  ND1 SING Y N 11
-HIP CD2  NE2 SING Y N 12
-HIP CD2  HD2 SING N N 13
-HIP NE2  CE1 DOUB Y N 14
-HIP NE2  HE2 SING N N 15
-HIP CE1  ND1 SING Y N 16
-HIP CE1  HE1 SING N N 17
-HIP ND1    P SING N N 18
-HIP   P  O1P DOUB N N 19
-HIP   P  O2P SING N N 20
-HIP   P  O3P SING N N 21
-HIP O2P HOP2 SING N N 22
-HIP O3P HOP3 SING N N 23
-HIP   C    O DOUB N N 24
-HIP   C  OXT SING N N 25
-HIP OXT  HXT SING N N 26
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+HIP N   CA   SING N N 1  
+HIP N   H    SING N N 2  
+HIP N   H2   SING N N 3  
+HIP CA  CB   SING N N 4  
+HIP CA  C    SING N N 5  
+HIP CA  HA   SING N N 6  
+HIP CB  CG   SING N N 7  
+HIP CB  HB2  SING N N 8  
+HIP CB  HB3  SING N N 9  
+HIP CG  CD2  DOUB Y N 10 
+HIP CG  ND1  SING Y N 11 
+HIP CD2 NE2  SING Y N 12 
+HIP CD2 HD2  SING N N 13 
+HIP NE2 CE1  DOUB Y N 14 
+HIP NE2 HE2  SING N N 15 
+HIP CE1 ND1  SING Y N 16 
+HIP CE1 HE1  SING N N 17 
+HIP ND1 P    SING N N 18 
+HIP P   O1P  DOUB N N 19 
+HIP P   O2P  SING N N 20 
+HIP P   O3P  SING N N 21 
+HIP O2P HOP2 SING N N 22 
+HIP O3P HOP3 SING N N 23 
+HIP C   O    DOUB N N 24 
+HIP C   OXT  SING N N 25 
+HIP OXT HXT  SING N N 26 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-HIP           SMILES              ACDLabs 10.04                                                                             O=P(O)(O)n1c(c[nH+]c1)CC(C(=O)O)N
-HIP SMILES_CANONICAL               CACTVS 3.341                                                                        N[C@@H](Cc1c[nH+]cn1[P](O)(O)=O)C(O)=O
-HIP           SMILES               CACTVS 3.341                                                                          N[CH](Cc1c[nH+]cn1[P](O)(O)=O)C(O)=O
-HIP SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                      c1c(n(c[nH+]1)P(=O)(O)O)C[C@@H](C(=O)O)N
-HIP           SMILES "OpenEye OEToolkits" 1.5.0                                                                           c1c(n(c[nH+]1)P(=O)(O)O)CC(C(=O)O)N
-HIP            InChI                InChI  1.03 InChI=1S/C6H10N3O5P/c7-5(6(10)11)1-4-2-8-3-9(4)15(12,13)14/h2-3,5H,1,7H2,(H,10,11)(H2,12,13,14)/p+1/t5-/m0/s1
-HIP         InChIKey                InChI  1.03                                                                                   VOHVXLVXSYAFOA-YFKPBYRVSA-O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+HIP SMILES           ACDLabs              10.04 "O=P(O)(O)n1c(c[nH+]c1)CC(C(=O)O)N"                                                                             
+HIP SMILES_CANONICAL CACTVS               3.341 "N[C@@H](Cc1c[nH+]cn1[P](O)(O)=O)C(O)=O"                                                                        
+HIP SMILES           CACTVS               3.341 "N[CH](Cc1c[nH+]cn1[P](O)(O)=O)C(O)=O"                                                                          
+HIP SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1c(n(c[nH+]1)P(=O)(O)O)C[C@@H](C(=O)O)N"                                                                      
+HIP SMILES           "OpenEye OEToolkits" 1.5.0 "c1c(n(c[nH+]1)P(=O)(O)O)CC(C(=O)O)N"                                                                           
+HIP InChI            InChI                1.03  "InChI=1S/C6H10N3O5P/c7-5(6(10)11)1-4-2-8-3-9(4)15(12,13)14/h2-3,5H,1,7H2,(H,10,11)(H2,12,13,14)/p+1/t5-/m0/s1" 
+HIP InChIKey         InChI                1.03  VOHVXLVXSYAFOA-YFKPBYRVSA-O                                                                                     
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-HIP "SYSTEMATIC NAME"              ACDLabs 10.04                3-(1-phosphono-1H-imidazol-3-ium-5-yl)-L-alanine
-HIP "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-(3-phosphonoimidazol-1-ium-4-yl)propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+HIP "SYSTEMATIC NAME" ACDLabs              10.04 "3-(1-phosphono-1H-imidazol-3-ium-5-yl)-L-alanine"              
+HIP "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-(3-phosphonoimidazol-1-ium-4-yl)propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-HIP  "Create component" 1999-07-08 RCSB
-HIP "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   HIP
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB01899
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Nd1-Phosphonohistidine
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           HIP
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB01899
-_pdbe_chem_comp_drugbank_classification.parent            "Histidine and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as histidine and derivatives. These are compounds containing cysteine or a derivative thereof resulting from reaction of cysteine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        HIP
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB01899
-_pdbe_chem_comp_drugbank_targets.name                           "Phosphocarrier protein HPr"
-_pdbe_chem_comp_drugbank_targets.organism                       "Bacillus subtilis (strain 168)"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P08877
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-HIP   N N -0.607 -2.416  1
-HIP  CA C  0.257 -1.912  2
-HIP  CB C  0.253 -0.912  3
-HIP  CG C -0.615 -0.416  4
-HIP CD2 C -1.527 -0.827  5
-HIP NE2 N -2.200 -0.087  6
-HIP CE1 C -1.703  0.781  7
-HIP ND1 N -0.724  0.578  8
-HIP   P P  0.016  1.250  9
-HIP O1P O  0.756  1.923 10
-HIP O2P O -0.657  1.991 11
-HIP O3P O  0.688  0.510 12
-HIP   C C  1.126 -2.408 13
-HIP   O O  1.989 -1.905 14
-HIP OXT O  1.130 -3.408 15
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-HIP   N  CA SINGLE BEGINDASH  1
-HIP  CA  CB SINGLE      NONE  2
-HIP  CA   C SINGLE      NONE  3
-HIP  CB  CG SINGLE      NONE  4
-HIP  CG CD2 DOUBLE      NONE  5
-HIP  CG ND1 SINGLE      NONE  6
-HIP CD2 NE2 SINGLE      NONE  7
-HIP NE2 CE1 DOUBLE      NONE  8
-HIP CE1 ND1 SINGLE      NONE  9
-HIP ND1   P SINGLE      NONE 10
-HIP   P O1P DOUBLE      NONE 11
-HIP   P O2P SINGLE      NONE 12
-HIP   P O3P SINGLE      NONE 13
-HIP   C   O DOUBLE      NONE 14
-HIP   C OXT SINGLE      NONE 15
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-HIP MurckoScaffold S1 scaffold c1c[nH+]c[nH]1 InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5)/p+1 RAXXELZNTBOGNW-UHFFFAOYSA-O
-HIP      imidazole F1 fragment     c1c[nH]cn1     InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-HIP        peptide F2 fragment          NCC=O             InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-HIP  CG F1 1
-HIP CD2 F1 1
-HIP NE2 F1 1
-HIP CE1 F1 1
-HIP ND1 F1 1
-HIP   O F2 1
-HIP   C F2 1
-HIP  CA F2 1
-HIP   N F2 1
-HIP  CG S1 1
-HIP CD2 S1 1
-HIP NE2 S1 1
-HIP CE1 S1 1
-HIP ND1 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               HIP
-_pdbe_chem_comp_rdkit_properties.exactmw                               236.043
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                7
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        9
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.333
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             100.457
-_pdbe_chem_comp_rdkit_properties.tpsa                                  139.920
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.857
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             47.479
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         15
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-HIP UniChem   ChEMBL CHEMBL1233332
-HIP UniChem DrugBank       DB01899
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-HIP    N  1.224 -0.090  1.811 ETKDGv2  1
-HIP   CA  1.898 -0.305  0.526 ETKDGv2  2
-HIP   CB  0.884 -0.738 -0.551 ETKDGv2  3
-HIP   CG -0.134  0.332 -0.843 ETKDGv2  4
-HIP  CD2  0.137  1.529 -1.345 ETKDGv2  5
-HIP  NE2 -1.072  2.270 -1.464 ETKDGv2  6
-HIP  CE1 -2.021  1.503 -1.042 ETKDGv2  7
-HIP  ND1 -1.545  0.218 -0.657 ETKDGv2  8
-HIP    P -2.388 -0.863  0.441 ETKDGv2  9
-HIP  O1P -2.075 -2.300  0.091 ETKDGv2 10
-HIP  O2P -1.901 -0.553  2.031 ETKDGv2 11
-HIP  O3P -4.057 -0.612  0.311 ETKDGv2 12
-HIP    C  2.969 -1.362  0.658 ETKDGv2 13
-HIP    O  3.021 -2.100  1.678 ETKDGv2 14
-HIP  OXT  3.911 -1.535 -0.352 ETKDGv2 15
-HIP    H  0.585  0.733  1.717 ETKDGv2 16
-HIP   H2  1.942  0.200  2.515 ETKDGv2 17
-HIP   HA  2.395  0.642  0.214 ETKDGv2 18
-HIP  HB2  0.379 -1.669 -0.224 ETKDGv2 19
-HIP  HB3  1.416 -0.969 -1.499 ETKDGv2 20
-HIP  HD2  1.119  1.905 -1.604 ETKDGv2 21
-HIP  HE2 -1.177  3.257 -1.789 ETKDGv2 22
-HIP  HE1 -3.054  1.817 -0.970 ETKDGv2 23
-HIP HOP2 -2.102  0.407  2.172 ETKDGv2 24
-HIP HOP3 -4.262 -0.766 -0.645 ETKDGv2 25
-HIP  HXT  3.907 -0.951 -1.179 ETKDGv2 26
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+HIP "Create component"  1999-07-08 RCSB 
+HIP "Modify descriptor" 2011-06-04 RCSB 
+# 

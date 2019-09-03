@@ -1,600 +1,275 @@
 data_PI6
-#
-_chem_comp.id                                        PI6
-_chem_comp.name                                      "[1-BENZYL-3-(8-SEC-BUTYL-7,10-DIOXO-2-OXA-6,9-DIAZA-BICYCLO[11.2.2] HEPTADECA-1(16),13(17),14-TRIEN-11-YLAMINO)-2-HYDROXY-PROPYL]-CARBAMIC ACID TERT-BUTYL ESTER"
-_chem_comp.type                                      peptide-like
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C33 H48 N4 O6"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             "MACROCYCLIC PEPTIDOMIMETIC INHIBITOR 6"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2012-07-19
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             0EZ
-_chem_comp.formula_weight                            596.757
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         PI6
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1MTR
-_chem_comp.pdbx_subcomponent_list                    "BOC T00 ILE 0D8"
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    PI6 
+_chem_comp.name                                  "[1-BENZYL-3-(8-SEC-BUTYL-7,10-DIOXO-2-OXA-6,9-DIAZA-BICYCLO[11.2.2] HEPTADECA-1(16),13(17),14-TRIEN-11-YLAMINO)-2-HYDROXY-PROPYL]-CARBAMIC ACID TERT-BUTYL ESTER" 
+_chem_comp.type                                  peptide-like 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C33 H48 N4 O6" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "MACROCYCLIC PEPTIDOMIMETIC INHIBITOR 6" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2012-07-19 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         0EZ 
+_chem_comp.formula_weight                        596.757 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     PI6 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1MTR 
+_chem_comp.pdbx_subcomponent_list                "BOC T00 ILE 0D8" 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PI6   O1  O1 O 0 1 N N N  3.812  -0.151 12.128  5.776 -0.828  0.257   O1 BOC  1
-PI6    C  C1 C 0 1 N N N  3.839   1.070 12.419  5.427 -0.724 -0.902    C BOC  2
-PI6   O2  O2 O 0 1 N N N  2.846   1.907 12.139  6.259 -1.100 -1.891   O2 BOC  3
-PI6   CT  C2 C 0 1 N N N  1.609   1.362 11.669  7.557 -1.621 -1.500   CT BOC  4
-PI6   C1  C3 C 0 1 N N N  1.066   0.359 12.657  7.365 -2.864 -0.628   C1 BOC  5
-PI6   C2  C4 C 0 1 N N N  0.650   2.515 11.579  8.356 -1.993 -2.750   C2 BOC  6
-PI6   C3  C5 C 0 1 N N N  1.815   0.746 10.269  8.316 -0.555 -0.707   C3 BOC  7
-PI6    N  N1 N 0 1 N N N  4.892   1.641 12.992  4.206 -0.237 -1.197   N1 T00  8
-PI6   CA  C6 C 0 1 N N S  6.086   0.898 13.394  3.298  0.166 -0.120   C1 T00  9
-PI6   C4  C7 C 0 1 N N R  6.025   0.540 14.867  1.852  0.079 -0.612   C2 T00 10
-PI6  OXT  O4 O 0 1 N N N  7.214  -0.158 15.210  1.647  1.032 -1.657   O1 T00 11
-PI6   CB  C8 C 0 1 N N N  7.325   1.731 13.147  3.610  1.605  0.297   C3 T00 12
-PI6   CG  C9 C 0 1 Y N N  7.517   2.083 11.738  4.991  1.667  0.895   C4 T00 13
-PI6  CD1 C10 C 0 1 Y N N  7.852   1.103 10.818  6.085  1.910  0.086   C5 T00 14
-PI6  CD2 C11 C 0 1 Y N N  7.277   3.381 11.300  5.164  1.486  2.255   C6 T00 15
-PI6  CE1 C12 C 0 1 Y N N  7.934   1.407  9.477  7.352  1.966  0.635   C7 T00 16
-PI6  CE2 C13 C 0 1 Y N N  7.359   3.695  9.959  6.431  1.543  2.804   C8 T00 17
-PI6   CZ C14 C 0 1 Y N N  7.686   2.701  9.042  7.526  1.780  1.994   C9 T00 18
-PI6   CM C15 C 0 1 N N N  4.826  -0.350 15.162  0.900  0.380  0.547  C10 T00 19
-PI6   N1  N2 N 0 1 N N N  4.980  -0.749 16.565 -0.487  0.180  0.106   N2 T00 20
-PI6  CA1 C16 C 0 1 N N S  4.733  -2.185 16.866 -1.424  0.349  1.224  C11 T00 21
-PI6   C5 C17 C 0 1 N N N  5.727  -3.184 16.261 -2.657 -0.480  0.976  C12 T00 22
-PI6    O  O5 O 0 1 N N N  5.938  -3.213 15.043 -3.727 -0.152  1.445   O2 T00 23
-PI6  CB1 C18 C 0 1 N N N  3.307  -2.601 16.485 -1.819  1.824  1.341  C13 T00 24
-PI6  CG1 C19 C 0 1 Y N N  3.088  -4.088 16.588 -3.134  2.044  0.638  C14 T00 25
-PI6 CD11 C20 C 0 0 Y N N  3.043  -4.729 17.840 -4.317  1.687  1.260  C15 T00 26
-PI6 CD21 C21 C 0 0 Y N N  3.069  -4.882 15.437 -3.157  2.604 -0.626  C16 T00 27
-PI6 CE11 C22 C 0 0 Y N N  3.007  -6.103 17.928 -5.522  1.878  0.613  C17 T00 28
-PI6 CE21 C23 C 0 0 Y N N  3.027  -6.265 15.516 -4.360  2.803 -1.274  C18 T00 29
-PI6  CZ1 C24 C 0 1 Y N N  3.006  -6.870 16.757 -5.547  2.434 -0.657  C19 T00 30
-PI6   N2  N3 N 0 1 N N N  6.302  -4.005 17.141 -2.548 -1.611  0.210    N ILE 31
-PI6  CA2 C25 C 0 1 N N S  7.239  -5.100 16.804 -3.826 -2.346  0.027   CA ILE 32
-PI6   C6 C26 C 0 1 N N N  6.869  -6.158 17.847 -4.742 -1.507 -0.825    C ILE 33
-PI6   O3  O8 O 0 1 N N N  6.850  -5.873 19.059 -4.320 -0.526 -1.401    O ILE 34
-PI6  CB2 C27 C 0 1 N N S  8.739  -4.777 17.039 -4.477 -2.595  1.389   CB ILE 35
-PI6 CG11 C28 C 0 0 N N N  9.222  -3.621 16.161 -3.570 -3.497  2.230  CG1 ILE 36
-PI6  CG2 C29 C 0 1 N N N  9.576  -6.027 16.773 -5.831 -3.278  1.190  CG2 ILE 37
-PI6 CD12 C30 C 0 0 N N N  9.703  -4.059 14.843 -2.286 -2.743  2.582  CD1 ILE 38
-PI6   OH  O6 O 0 1 N N N  3.018  -8.249 16.778 -6.731  2.610 -1.301   OH 0D8 39
-PI6   N3  N4 N 0 1 N N N  6.543  -7.355 17.370 -6.052 -1.867 -0.939   N3 0D8 40
-PI6  CA3 C31 C 0 1 N N N  6.161  -8.448 18.247 -6.887 -0.994 -1.792  CA3 0D8 41
-PI6   C7 C32 C 0 1 N N N  5.077  -9.284 17.577 -7.246  0.268 -1.006   C7 0D8 42
-PI6   C8 C33 C 0 1 N N N  3.687  -8.760 17.916 -7.289  1.466 -1.954   C8 0D8 43
-PI6  H11  H1 H 0 1 N N N  0.116  -0.050 12.281  6.825 -3.624 -1.193  H11 BOC 44
-PI6  H12  H2 H 0 1 N N N  1.791  -0.458 12.786  8.340 -3.255 -0.334  H12 BOC 45
-PI6  H13  H3 H 0 1 N N N  0.895   0.853 13.625  6.796 -2.600  0.262  H13 BOC 46
-PI6  H21  H4 H 0 1 N N N -0.325   2.154 11.220  8.492 -1.107 -3.371  H21 BOC 47
-PI6  H22  H5 H 0 1 N N N  0.530   2.970 12.573  9.330 -2.384 -2.456  H22 BOC 48
-PI6  H23  H6 H 0 1 N N N  1.044   3.265 10.878  7.815 -2.752 -3.315  H23 BOC 49
-PI6  H31  H7 H 0 1 N N N  0.864   0.327  9.908  7.747 -0.290  0.184  H31 BOC 50
-PI6  H32  H8 H 0 1 N N N  2.160   1.525  9.573  9.290 -0.946 -0.413  H32 BOC 51
-PI6  H33  H9 H 0 1 N N N  2.569  -0.053 10.327  8.452  0.331 -1.328  H33 BOC 52
-PI6    H H11 H 0 1 N N N  4.867   2.627 13.157  3.927 -0.154 -2.123   H1 T00 53
-PI6   HA H13 H 0 1 N N N  6.158  -0.029 12.806  3.431 -0.497  0.735   H2 T00 54
-PI6   HC H14 H 0 1 N N N  5.939   1.464 15.458  1.657 -0.924 -0.992   H3 T00 55
-PI6  HOR H15 H 0 1 N N N  7.191  -0.390 16.131  1.803  1.949 -1.390   H4 T00 56
-PI6  HB2 H16 H 0 1 N N N  7.243   2.660 13.731  3.563  2.255 -0.577   H5 T00 57
-PI6  HB3 H17 H 0 1 N N N  8.202   1.161 13.487  2.879  1.936  1.035   H6 T00 58
-PI6  HD1 H18 H 0 1 N N N  8.050   0.096 11.154  5.950  2.055 -0.976   H7 T00 59
-PI6  HD2 H19 H 0 1 N N N  7.024   4.150 12.015  4.309  1.301  2.888   H8 T00 60
-PI6  HE1 H20 H 0 1 N N N  8.191   0.638  8.764  8.207  2.155  0.002   H9 T00 61
-PI6  HE2 H21 H 0 1 N N N  7.171   4.704  9.624  6.566  1.402  3.866  H10 T00 62
-PI6   HZ H22 H 0 1 N N N  7.747   2.937  7.990  8.516  1.824  2.423  H11 T00 63
-PI6  HM2 H24 H 0 1 N N N  3.888   0.207 15.020  1.117 -0.290  1.379  H12 T00 64
-PI6  HM3 H25 H 0 1 N N N  4.831  -1.234 14.507  1.034  1.413  0.868  H13 T00 65
-PI6   H1 H26 H 0 1 N N N  4.339  -0.208 17.109 -0.601 -0.723 -0.328  H14 T00 66
-PI6  HA1 H28 H 0 1 N N N  4.807  -2.299 17.958 -0.949  0.026  2.150  H15 T00 67
-PI6 HB21 H29 H 0 0 N N N  2.601  -2.094 17.159 -1.919  2.092  2.393  H16 T00 68
-PI6 HB31 H30 H 0 0 N N N  3.114  -2.288 15.448 -1.051  2.444  0.878  H17 T00 69
-PI6 HD11 H31 H 0 0 N N N  3.037  -4.136 18.743 -4.297  1.258  2.251  H18 T00 70
-PI6 HD21 H32 H 0 0 N N N  3.087  -4.408 14.467 -2.232  2.886 -1.108  H19 T00 71
-PI6 HE11 H33 H 0 0 N N N  2.980  -6.585 18.894 -6.445  1.595  1.097  H20 T00 72
-PI6 HE21 H34 H 0 0 N N N  3.011  -6.863 14.617 -4.378  3.245 -2.259  H21 T00 73
-PI6   H2 H37 H 0 1 N N N  6.082  -3.870 18.107 -1.710 -1.906 -0.178    H ILE 74
-PI6  HA2 H39 H 0 1 N N N  7.077  -5.477 15.784 -3.634 -3.297 -0.470   HA ILE 75
-PI6   HB H40 H 0 1 N N N  8.867  -4.490 18.093 -4.620 -1.645  1.902   HB ILE 76
-PI6 HG12 H41 H 0 0 N N N  8.387  -2.921 16.014 -4.088 -3.780  3.146 HG12 ILE 77
-PI6 HG13 H42 H 0 0 N N N 10.044  -3.107 16.680 -3.320 -4.393  1.661 HG13 ILE 78
-PI6 HG21 H43 H 0 0 N N N 10.639  -5.799 16.939 -5.774 -3.959  0.341 HG21 ILE 79
-PI6 HG22 H44 H 0 0 N N N  9.262  -6.830 17.456 -6.091 -3.838  2.089 HG22 ILE 80
-PI6 HG23 H45 H 0 0 N N N  9.429  -6.352 15.732 -6.594 -2.523  0.999 HG23 ILE 81
-PI6 HD12 H46 H 0 0 N N N 10.034  -3.184 14.264 -1.674 -2.629  1.688 HD11 ILE 82
-PI6 HD13 H47 H 0 0 N N N 10.546  -4.753 14.973 -2.540 -1.758  2.976 HD12 ILE 83
-PI6 HD14 H48 H 0 0 N N N  8.889  -4.567 14.306 -1.731 -3.303  3.334 HD13 ILE 84
-PI6   H3 H50 H 0 1 N N N  6.561  -7.507 16.382 -6.414 -2.646 -0.489   H3 0D8 85
-PI6 HA21 H52 H 0 0 N N N  7.039  -9.080 18.449 -6.331 -0.720 -2.689 HA21 0D8 86
-PI6  HA3 H53 H 0 1 N N N  5.777  -8.041 19.194 -7.799 -1.522 -2.073  HA3 0D8 87
-PI6  H14 H55 H 0 1 N N N  3.091  -9.583 18.338 -8.323  1.674 -2.230  H14 0D8 88
-PI6  H24 H56 H 0 1 N N N  3.783  -7.957 18.661 -6.711  1.242 -2.850  H24 0D8 89
-PI6  H89 H89 H 0 1 N N N  5.218  -9.247 16.487 -8.222  0.139 -0.539  H89 0D8 90
-PI6  H99 H99 H 0 1 N N N  5.162 -10.325 17.923 -6.495  0.441 -0.235  H99 0D8 91
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PI6 O1   O1  O 0 1 N N N 3.812  -0.151  12.128 5.776  -0.828 0.257  O1   BOC 1  
+PI6 C    C1  C 0 1 N N N 3.839  1.070   12.419 5.427  -0.724 -0.902 C    BOC 2  
+PI6 O2   O2  O 0 1 N N N 2.846  1.907   12.139 6.259  -1.100 -1.891 O2   BOC 3  
+PI6 CT   C2  C 0 1 N N N 1.609  1.362   11.669 7.557  -1.621 -1.500 CT   BOC 4  
+PI6 C1   C3  C 0 1 N N N 1.066  0.359   12.657 7.365  -2.864 -0.628 C1   BOC 5  
+PI6 C2   C4  C 0 1 N N N 0.650  2.515   11.579 8.356  -1.993 -2.750 C2   BOC 6  
+PI6 C3   C5  C 0 1 N N N 1.815  0.746   10.269 8.316  -0.555 -0.707 C3   BOC 7  
+PI6 N    N1  N 0 1 N N N 4.892  1.641   12.992 4.206  -0.237 -1.197 N1   T00 8  
+PI6 CA   C6  C 0 1 N N S 6.086  0.898   13.394 3.298  0.166  -0.120 C1   T00 9  
+PI6 C4   C7  C 0 1 N N R 6.025  0.540   14.867 1.852  0.079  -0.612 C2   T00 10 
+PI6 OXT  O4  O 0 1 N N N 7.214  -0.158  15.210 1.647  1.032  -1.657 O1   T00 11 
+PI6 CB   C8  C 0 1 N N N 7.325  1.731   13.147 3.610  1.605  0.297  C3   T00 12 
+PI6 CG   C9  C 0 1 Y N N 7.517  2.083   11.738 4.991  1.667  0.895  C4   T00 13 
+PI6 CD1  C10 C 0 1 Y N N 7.852  1.103   10.818 6.085  1.910  0.086  C5   T00 14 
+PI6 CD2  C11 C 0 1 Y N N 7.277  3.381   11.300 5.164  1.486  2.255  C6   T00 15 
+PI6 CE1  C12 C 0 1 Y N N 7.934  1.407   9.477  7.352  1.966  0.635  C7   T00 16 
+PI6 CE2  C13 C 0 1 Y N N 7.359  3.695   9.959  6.431  1.543  2.804  C8   T00 17 
+PI6 CZ   C14 C 0 1 Y N N 7.686  2.701   9.042  7.526  1.780  1.994  C9   T00 18 
+PI6 CM   C15 C 0 1 N N N 4.826  -0.350  15.162 0.900  0.380  0.547  C10  T00 19 
+PI6 N1   N2  N 0 1 N N N 4.980  -0.749  16.565 -0.487 0.180  0.106  N2   T00 20 
+PI6 CA1  C16 C 0 1 N N S 4.733  -2.185  16.866 -1.424 0.349  1.224  C11  T00 21 
+PI6 C5   C17 C 0 1 N N N 5.727  -3.184  16.261 -2.657 -0.480 0.976  C12  T00 22 
+PI6 O    O5  O 0 1 N N N 5.938  -3.213  15.043 -3.727 -0.152 1.445  O2   T00 23 
+PI6 CB1  C18 C 0 1 N N N 3.307  -2.601  16.485 -1.819 1.824  1.341  C13  T00 24 
+PI6 CG1  C19 C 0 1 Y N N 3.088  -4.088  16.588 -3.134 2.044  0.638  C14  T00 25 
+PI6 CD11 C20 C 0 0 Y N N 3.043  -4.729  17.840 -4.317 1.687  1.260  C15  T00 26 
+PI6 CD21 C21 C 0 0 Y N N 3.069  -4.882  15.437 -3.157 2.604  -0.626 C16  T00 27 
+PI6 CE11 C22 C 0 0 Y N N 3.007  -6.103  17.928 -5.522 1.878  0.613  C17  T00 28 
+PI6 CE21 C23 C 0 0 Y N N 3.027  -6.265  15.516 -4.360 2.803  -1.274 C18  T00 29 
+PI6 CZ1  C24 C 0 1 Y N N 3.006  -6.870  16.757 -5.547 2.434  -0.657 C19  T00 30 
+PI6 N2   N3  N 0 1 N N N 6.302  -4.005  17.141 -2.548 -1.611 0.210  N    ILE 31 
+PI6 CA2  C25 C 0 1 N N S 7.239  -5.100  16.804 -3.826 -2.346 0.027  CA   ILE 32 
+PI6 C6   C26 C 0 1 N N N 6.869  -6.158  17.847 -4.742 -1.507 -0.825 C    ILE 33 
+PI6 O3   O8  O 0 1 N N N 6.850  -5.873  19.059 -4.320 -0.526 -1.401 O    ILE 34 
+PI6 CB2  C27 C 0 1 N N S 8.739  -4.777  17.039 -4.477 -2.595 1.389  CB   ILE 35 
+PI6 CG11 C28 C 0 0 N N N 9.222  -3.621  16.161 -3.570 -3.497 2.230  CG1  ILE 36 
+PI6 CG2  C29 C 0 1 N N N 9.576  -6.027  16.773 -5.831 -3.278 1.190  CG2  ILE 37 
+PI6 CD12 C30 C 0 0 N N N 9.703  -4.059  14.843 -2.286 -2.743 2.582  CD1  ILE 38 
+PI6 OH   O6  O 0 1 N N N 3.018  -8.249  16.778 -6.731 2.610  -1.301 OH   0D8 39 
+PI6 N3   N4  N 0 1 N N N 6.543  -7.355  17.370 -6.052 -1.867 -0.939 N3   0D8 40 
+PI6 CA3  C31 C 0 1 N N N 6.161  -8.448  18.247 -6.887 -0.994 -1.792 CA3  0D8 41 
+PI6 C7   C32 C 0 1 N N N 5.077  -9.284  17.577 -7.246 0.268  -1.006 C7   0D8 42 
+PI6 C8   C33 C 0 1 N N N 3.687  -8.760  17.916 -7.289 1.466  -1.954 C8   0D8 43 
+PI6 H11  H1  H 0 1 N N N 0.116  -0.050  12.281 6.825  -3.624 -1.193 H11  BOC 44 
+PI6 H12  H2  H 0 1 N N N 1.791  -0.458  12.786 8.340  -3.255 -0.334 H12  BOC 45 
+PI6 H13  H3  H 0 1 N N N 0.895  0.853   13.625 6.796  -2.600 0.262  H13  BOC 46 
+PI6 H21  H4  H 0 1 N N N -0.325 2.154   11.220 8.492  -1.107 -3.371 H21  BOC 47 
+PI6 H22  H5  H 0 1 N N N 0.530  2.970   12.573 9.330  -2.384 -2.456 H22  BOC 48 
+PI6 H23  H6  H 0 1 N N N 1.044  3.265   10.878 7.815  -2.752 -3.315 H23  BOC 49 
+PI6 H31  H7  H 0 1 N N N 0.864  0.327   9.908  7.747  -0.290 0.184  H31  BOC 50 
+PI6 H32  H8  H 0 1 N N N 2.160  1.525   9.573  9.290  -0.946 -0.413 H32  BOC 51 
+PI6 H33  H9  H 0 1 N N N 2.569  -0.053  10.327 8.452  0.331  -1.328 H33  BOC 52 
+PI6 H    H11 H 0 1 N N N 4.867  2.627   13.157 3.927  -0.154 -2.123 H1   T00 53 
+PI6 HA   H13 H 0 1 N N N 6.158  -0.029  12.806 3.431  -0.497 0.735  H2   T00 54 
+PI6 HC   H14 H 0 1 N N N 5.939  1.464   15.458 1.657  -0.924 -0.992 H3   T00 55 
+PI6 HOR  H15 H 0 1 N N N 7.191  -0.390  16.131 1.803  1.949  -1.390 H4   T00 56 
+PI6 HB2  H16 H 0 1 N N N 7.243  2.660   13.731 3.563  2.255  -0.577 H5   T00 57 
+PI6 HB3  H17 H 0 1 N N N 8.202  1.161   13.487 2.879  1.936  1.035  H6   T00 58 
+PI6 HD1  H18 H 0 1 N N N 8.050  0.096   11.154 5.950  2.055  -0.976 H7   T00 59 
+PI6 HD2  H19 H 0 1 N N N 7.024  4.150   12.015 4.309  1.301  2.888  H8   T00 60 
+PI6 HE1  H20 H 0 1 N N N 8.191  0.638   8.764  8.207  2.155  0.002  H9   T00 61 
+PI6 HE2  H21 H 0 1 N N N 7.171  4.704   9.624  6.566  1.402  3.866  H10  T00 62 
+PI6 HZ   H22 H 0 1 N N N 7.747  2.937   7.990  8.516  1.824  2.423  H11  T00 63 
+PI6 HM2  H24 H 0 1 N N N 3.888  0.207   15.020 1.117  -0.290 1.379  H12  T00 64 
+PI6 HM3  H25 H 0 1 N N N 4.831  -1.234  14.507 1.034  1.413  0.868  H13  T00 65 
+PI6 H1   H26 H 0 1 N N N 4.339  -0.208  17.109 -0.601 -0.723 -0.328 H14  T00 66 
+PI6 HA1  H28 H 0 1 N N N 4.807  -2.299  17.958 -0.949 0.026  2.150  H15  T00 67 
+PI6 HB21 H29 H 0 0 N N N 2.601  -2.094  17.159 -1.919 2.092  2.393  H16  T00 68 
+PI6 HB31 H30 H 0 0 N N N 3.114  -2.288  15.448 -1.051 2.444  0.878  H17  T00 69 
+PI6 HD11 H31 H 0 0 N N N 3.037  -4.136  18.743 -4.297 1.258  2.251  H18  T00 70 
+PI6 HD21 H32 H 0 0 N N N 3.087  -4.408  14.467 -2.232 2.886  -1.108 H19  T00 71 
+PI6 HE11 H33 H 0 0 N N N 2.980  -6.585  18.894 -6.445 1.595  1.097  H20  T00 72 
+PI6 HE21 H34 H 0 0 N N N 3.011  -6.863  14.617 -4.378 3.245  -2.259 H21  T00 73 
+PI6 H2   H37 H 0 1 N N N 6.082  -3.870  18.107 -1.710 -1.906 -0.178 H    ILE 74 
+PI6 HA2  H39 H 0 1 N N N 7.077  -5.477  15.784 -3.634 -3.297 -0.470 HA   ILE 75 
+PI6 HB   H40 H 0 1 N N N 8.867  -4.490  18.093 -4.620 -1.645 1.902  HB   ILE 76 
+PI6 HG12 H41 H 0 0 N N N 8.387  -2.921  16.014 -4.088 -3.780 3.146  HG12 ILE 77 
+PI6 HG13 H42 H 0 0 N N N 10.044 -3.107  16.680 -3.320 -4.393 1.661  HG13 ILE 78 
+PI6 HG21 H43 H 0 0 N N N 10.639 -5.799  16.939 -5.774 -3.959 0.341  HG21 ILE 79 
+PI6 HG22 H44 H 0 0 N N N 9.262  -6.830  17.456 -6.091 -3.838 2.089  HG22 ILE 80 
+PI6 HG23 H45 H 0 0 N N N 9.429  -6.352  15.732 -6.594 -2.523 0.999  HG23 ILE 81 
+PI6 HD12 H46 H 0 0 N N N 10.034 -3.184  14.264 -1.674 -2.629 1.688  HD11 ILE 82 
+PI6 HD13 H47 H 0 0 N N N 10.546 -4.753  14.973 -2.540 -1.758 2.976  HD12 ILE 83 
+PI6 HD14 H48 H 0 0 N N N 8.889  -4.567  14.306 -1.731 -3.303 3.334  HD13 ILE 84 
+PI6 H3   H50 H 0 1 N N N 6.561  -7.507  16.382 -6.414 -2.646 -0.489 H3   0D8 85 
+PI6 HA21 H52 H 0 0 N N N 7.039  -9.080  18.449 -6.331 -0.720 -2.689 HA21 0D8 86 
+PI6 HA3  H53 H 0 1 N N N 5.777  -8.041  19.194 -7.799 -1.522 -2.073 HA3  0D8 87 
+PI6 H14  H55 H 0 1 N N N 3.091  -9.583  18.338 -8.323 1.674  -2.230 H14  0D8 88 
+PI6 H24  H56 H 0 1 N N N 3.783  -7.957  18.661 -6.711 1.242  -2.850 H24  0D8 89 
+PI6 H89  H89 H 0 1 N N N 5.218  -9.247  16.487 -8.222 0.139  -0.539 H89  0D8 90 
+PI6 H99  H99 H 0 1 N N N 5.162  -10.325 17.923 -6.495 0.441  -0.235 H99  0D8 91 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PI6   O1    C DOUB N N  1
-PI6    C   O2 SING N N  2
-PI6   O2   CT SING N N  3
-PI6   CT   C1 SING N N  4
-PI6   CT   C2 SING N N  5
-PI6   CT   C3 SING N N  6
-PI6   C1  H11 SING N N  7
-PI6   C1  H12 SING N N  8
-PI6   C1  H13 SING N N  9
-PI6   C2  H21 SING N N 10
-PI6   C2  H22 SING N N 11
-PI6   C2  H23 SING N N 12
-PI6   C3  H31 SING N N 13
-PI6   C3  H32 SING N N 14
-PI6   C3  H33 SING N N 15
-PI6    N   CA SING N N 16
-PI6    N    H SING N N 17
-PI6   CA   C4 SING N N 18
-PI6   CA   CB SING N N 19
-PI6   CA   HA SING N N 20
-PI6   C4  OXT SING N N 21
-PI6   C4   CM SING N N 22
-PI6   C4   HC SING N N 23
-PI6  OXT  HOR SING N N 24
-PI6   CB   CG SING N N 25
-PI6   CB  HB2 SING N N 26
-PI6   CB  HB3 SING N N 27
-PI6   CG  CD1 DOUB Y N 28
-PI6   CG  CD2 SING Y N 29
-PI6  CD1  CE1 SING Y N 30
-PI6  CD1  HD1 SING N N 31
-PI6  CD2  CE2 DOUB Y N 32
-PI6  CD2  HD2 SING N N 33
-PI6  CE1   CZ DOUB Y N 34
-PI6  CE1  HE1 SING N N 35
-PI6  CE2   CZ SING Y N 36
-PI6  CE2  HE2 SING N N 37
-PI6   CZ   HZ SING N N 38
-PI6   CM  HM2 SING N N 39
-PI6   CM  HM3 SING N N 40
-PI6   N1  CA1 SING N N 41
-PI6   N1   H1 SING N N 42
-PI6  CA1   C5 SING N N 43
-PI6  CA1  CB1 SING N N 44
-PI6  CA1  HA1 SING N N 45
-PI6   C5    O DOUB N N 46
-PI6  CB1  CG1 SING N N 47
-PI6  CB1 HB21 SING N N 48
-PI6  CB1 HB31 SING N N 49
-PI6  CG1 CD11 DOUB Y N 50
-PI6  CG1 CD21 SING Y N 51
-PI6 CD11 CE11 SING Y N 52
-PI6 CD11 HD11 SING N N 53
-PI6 CD21 CE21 DOUB Y N 54
-PI6 CD21 HD21 SING N N 55
-PI6 CE11  CZ1 DOUB Y N 56
-PI6 CE11 HE11 SING N N 57
-PI6 CE21  CZ1 SING Y N 58
-PI6 CE21 HE21 SING N N 59
-PI6  CZ1   OH SING N N 60
-PI6   N2  CA2 SING N N 61
-PI6   N2   H2 SING N N 62
-PI6  CA2   C6 SING N N 63
-PI6  CA2  CB2 SING N N 64
-PI6  CA2  HA2 SING N N 65
-PI6   C6   O3 DOUB N N 66
-PI6  CB2 CG11 SING N N 67
-PI6  CB2  CG2 SING N N 68
-PI6  CB2   HB SING N N 69
-PI6 CG11 CD12 SING N N 70
-PI6 CG11 HG12 SING N N 71
-PI6 CG11 HG13 SING N N 72
-PI6  CG2 HG21 SING N N 73
-PI6  CG2 HG22 SING N N 74
-PI6  CG2 HG23 SING N N 75
-PI6 CD12 HD12 SING N N 76
-PI6 CD12 HD13 SING N N 77
-PI6 CD12 HD14 SING N N 78
-PI6   N3  CA3 SING N N 79
-PI6   N3   H3 SING N N 80
-PI6  CA3   C7 SING N N 81
-PI6  CA3 HA21 SING N N 82
-PI6  CA3  HA3 SING N N 83
-PI6   C8  H14 SING N N 84
-PI6   C8  H24 SING N N 85
-PI6    C    N SING N N 86
-PI6   CM   N1 SING N N 87
-PI6   C5   N2 SING N N 88
-PI6   C6   N3 SING N N 89
-PI6   C7   C8 SING N N 90
-PI6   C7  H89 SING N N 91
-PI6   C7  H99 SING N N 92
-PI6   OH   C8 SING N N 93
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PI6 O1   C    DOUB N N 1  
+PI6 C    O2   SING N N 2  
+PI6 O2   CT   SING N N 3  
+PI6 CT   C1   SING N N 4  
+PI6 CT   C2   SING N N 5  
+PI6 CT   C3   SING N N 6  
+PI6 C1   H11  SING N N 7  
+PI6 C1   H12  SING N N 8  
+PI6 C1   H13  SING N N 9  
+PI6 C2   H21  SING N N 10 
+PI6 C2   H22  SING N N 11 
+PI6 C2   H23  SING N N 12 
+PI6 C3   H31  SING N N 13 
+PI6 C3   H32  SING N N 14 
+PI6 C3   H33  SING N N 15 
+PI6 N    CA   SING N N 16 
+PI6 N    H    SING N N 17 
+PI6 CA   C4   SING N N 18 
+PI6 CA   CB   SING N N 19 
+PI6 CA   HA   SING N N 20 
+PI6 C4   OXT  SING N N 21 
+PI6 C4   CM   SING N N 22 
+PI6 C4   HC   SING N N 23 
+PI6 OXT  HOR  SING N N 24 
+PI6 CB   CG   SING N N 25 
+PI6 CB   HB2  SING N N 26 
+PI6 CB   HB3  SING N N 27 
+PI6 CG   CD1  DOUB Y N 28 
+PI6 CG   CD2  SING Y N 29 
+PI6 CD1  CE1  SING Y N 30 
+PI6 CD1  HD1  SING N N 31 
+PI6 CD2  CE2  DOUB Y N 32 
+PI6 CD2  HD2  SING N N 33 
+PI6 CE1  CZ   DOUB Y N 34 
+PI6 CE1  HE1  SING N N 35 
+PI6 CE2  CZ   SING Y N 36 
+PI6 CE2  HE2  SING N N 37 
+PI6 CZ   HZ   SING N N 38 
+PI6 CM   HM2  SING N N 39 
+PI6 CM   HM3  SING N N 40 
+PI6 N1   CA1  SING N N 41 
+PI6 N1   H1   SING N N 42 
+PI6 CA1  C5   SING N N 43 
+PI6 CA1  CB1  SING N N 44 
+PI6 CA1  HA1  SING N N 45 
+PI6 C5   O    DOUB N N 46 
+PI6 CB1  CG1  SING N N 47 
+PI6 CB1  HB21 SING N N 48 
+PI6 CB1  HB31 SING N N 49 
+PI6 CG1  CD11 DOUB Y N 50 
+PI6 CG1  CD21 SING Y N 51 
+PI6 CD11 CE11 SING Y N 52 
+PI6 CD11 HD11 SING N N 53 
+PI6 CD21 CE21 DOUB Y N 54 
+PI6 CD21 HD21 SING N N 55 
+PI6 CE11 CZ1  DOUB Y N 56 
+PI6 CE11 HE11 SING N N 57 
+PI6 CE21 CZ1  SING Y N 58 
+PI6 CE21 HE21 SING N N 59 
+PI6 CZ1  OH   SING N N 60 
+PI6 N2   CA2  SING N N 61 
+PI6 N2   H2   SING N N 62 
+PI6 CA2  C6   SING N N 63 
+PI6 CA2  CB2  SING N N 64 
+PI6 CA2  HA2  SING N N 65 
+PI6 C6   O3   DOUB N N 66 
+PI6 CB2  CG11 SING N N 67 
+PI6 CB2  CG2  SING N N 68 
+PI6 CB2  HB   SING N N 69 
+PI6 CG11 CD12 SING N N 70 
+PI6 CG11 HG12 SING N N 71 
+PI6 CG11 HG13 SING N N 72 
+PI6 CG2  HG21 SING N N 73 
+PI6 CG2  HG22 SING N N 74 
+PI6 CG2  HG23 SING N N 75 
+PI6 CD12 HD12 SING N N 76 
+PI6 CD12 HD13 SING N N 77 
+PI6 CD12 HD14 SING N N 78 
+PI6 N3   CA3  SING N N 79 
+PI6 N3   H3   SING N N 80 
+PI6 CA3  C7   SING N N 81 
+PI6 CA3  HA21 SING N N 82 
+PI6 CA3  HA3  SING N N 83 
+PI6 C8   H14  SING N N 84 
+PI6 C8   H24  SING N N 85 
+PI6 C    N    SING N N 86 
+PI6 CM   N1   SING N N 87 
+PI6 C5   N2   SING N N 88 
+PI6 C6   N3   SING N N 89 
+PI6 C7   C8   SING N N 90 
+PI6 C7   H89  SING N N 91 
+PI6 C7   H99  SING N N 92 
+PI6 OH   C8   SING N N 93 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PI6           SMILES              ACDLabs 12.01                                                                                                                                                                                   O=C(OC(C)(C)C)NC(Cc1ccccc1)C(O)CNC3C(=O)NC(C(=O)NCCCOc2ccc(cc2)C3)C(C)CC
-PI6            InChI                InChI  1.03 InChI=1S/C33H48N4O6/c1-6-22(2)29-31(40)34-17-10-18-42-25-15-13-24(14-16-25)20-27(30(39)37-29)35-21-28(38)26(19-23-11-8-7-9-12-23)36-32(41)43-33(3,4)5/h7-9,11-16,22,26-29,35,38H,6,10,17-21H2,1-5H3,(H,34,40)(H,36,41)(H,37,39)/t22-,26-,27-,28+,29-/m0/s1
-PI6         InChIKey                InChI  1.03                                                                                                                                                                                                                                RFUKEYSMPSCDLJ-CLFZCTPNSA-N
-PI6 SMILES_CANONICAL               CACTVS 3.370                                                                                                                                                               CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(OCCCNC1=O)cc2)NC[C@@H](O)[C@H](Cc3ccccc3)NC(=O)OC(C)(C)C
-PI6           SMILES               CACTVS 3.370                                                                                                                                                                      CC[CH](C)[CH]1NC(=O)[CH](Cc2ccc(OCCCNC1=O)cc2)NC[CH](O)[CH](Cc3ccccc3)NC(=O)OC(C)(C)C
-PI6 SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                                                                                                                              CC[C@H](C)[C@H]1C(=O)NCCCOc2ccc(cc2)C[C@@H](C(=O)N1)NC[C@H]([C@H](Cc3ccccc3)NC(=O)OC(C)(C)C)O
-PI6           SMILES "OpenEye OEToolkits" 1.7.6                                                                                                                                                                                   CCC(C)C1C(=O)NCCCOc2ccc(cc2)CC(C(=O)N1)NCC(C(Cc3ccccc3)NC(=O)OC(C)(C)C)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PI6 SMILES           ACDLabs              12.01 "O=C(OC(C)(C)C)NC(Cc1ccccc1)C(O)CNC3C(=O)NC(C(=O)NCCCOc2ccc(cc2)C3)C(C)CC" 
+PI6 InChI            InChI                1.03  
+"InChI=1S/C33H48N4O6/c1-6-22(2)29-31(40)34-17-10-18-42-25-15-13-24(14-16-25)20-27(30(39)37-29)35-21-28(38)26(19-23-11-8-7-9-12-23)36-32(41)43-33(3,4)5/h7-9,11-16,22,26-29,35,38H,6,10,17-21H2,1-5H3,(H,34,40)(H,36,41)(H,37,39)/t22-,26-,27-,28+,29-/m0/s1" 
+PI6 InChIKey         InChI                1.03  RFUKEYSMPSCDLJ-CLFZCTPNSA-N 
+PI6 SMILES_CANONICAL CACTVS               3.370 "CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(OCCCNC1=O)cc2)NC[C@@H](O)[C@H](Cc3ccccc3)NC(=O)OC(C)(C)C" 
+PI6 SMILES           CACTVS               3.370 "CC[CH](C)[CH]1NC(=O)[CH](Cc2ccc(OCCCNC1=O)cc2)NC[CH](O)[CH](Cc3ccccc3)NC(=O)OC(C)(C)C" 
+PI6 SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "CC[C@H](C)[C@H]1C(=O)NCCCOc2ccc(cc2)C[C@@H](C(=O)N1)NC[C@H]([C@H](Cc3ccccc3)NC(=O)OC(C)(C)C)O" 
+PI6 SMILES           "OpenEye OEToolkits" 1.7.6 "CCC(C)C1C(=O)NCCCOc2ccc(cc2)CC(C(=O)N1)NCC(C(Cc3ccccc3)NC(=O)OC(C)(C)C)O" 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PI6 "SYSTEMATIC NAME"              ACDLabs 12.01                    "tert-butyl [(2S,3R)-4-{[(8S,11S)-8-[(2S)-butan-2-yl]-7,10-dioxo-2-oxa-6,9-diazabicyclo[11.2.2]heptadeca-1(15),13,16-trien-11-yl]amino}-3-hydroxy-1-phenylbutan-2-yl]carbamate"
-PI6 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "tert-butyl N-[(2S,3R)-4-[[(3S,6S)-6-[(2S)-butan-2-yl]-4,7-bis(oxidanylidene)-12-oxa-5,8-diazabicyclo[11.2.2]heptadeca-1(16),13(17),14-trien-3-yl]amino]-3-oxidanyl-1-phenyl-butan-2-yl]carbamate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PI6 "SYSTEMATIC NAME" ACDLabs              12.01 "tert-butyl [(2S,3R)-4-{[(8S,11S)-8-[(2S)-butan-2-yl]-7,10-dioxo-2-oxa-6,9-diazabicyclo[11.2.2]heptadeca-1(15),13,16-trien-11-yl]amino}-3-hydroxy-1-phenylbutan-2-yl]carbamate"                    
+PI6 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "tert-butyl N-[(2S,3R)-4-[[(3S,6S)-6-[(2S)-butan-2-yl]-4,7-bis(oxidanylidene)-12-oxa-5,8-diazabicyclo[11.2.2]heptadeca-1(16),13(17),14-trien-3-yl]amino]-3-oxidanyl-1-phenyl-butan-2-yl]carbamate" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PI6              "Create component" 1999-07-08 RCSB
-PI6             "Modify descriptor" 2011-06-04 RCSB
-PI6      "Modify subcomponent list" 2012-07-19 RCSB
-PI6                "Modify atom id" 2012-07-19 RCSB
-PI6 "Modify model coordinates code" 2012-07-19 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PI6   O1 O 10.019 -4.503  1
-PI6    C C 11.318 -5.253  2
-PI6   O2 O 11.318 -6.753  3
-PI6   CT C 10.019 -7.503  4
-PI6   C1 C  8.720 -8.254  5
-PI6   C2 C 10.769 -8.803  6
-PI6   C3 C  9.269 -6.205  7
-PI6    N N 12.617 -4.503  8
-PI6   CA C 12.617 -3.003  9
-PI6   C4 C 11.318 -2.253 10
-PI6  OXT O 10.019 -3.003 11
-PI6   CB C 13.916 -2.253 12
-PI6   CG C 15.215 -3.003 13
-PI6  CD1 C 15.215 -4.503 14
-PI6  CD2 C 16.514 -2.253 15
-PI6  CE1 C 16.514 -5.253 16
-PI6  CE2 C 17.813 -3.003 17
-PI6   CZ C 17.813 -4.503 18
-PI6   CM C 11.318 -0.753 19
-PI6   N1 N 10.019 -0.003 20
-PI6  CA1 C 10.019  1.497 21
-PI6   C5 C  8.754  2.227 22
-PI6    O O  8.366  0.778 23
-PI6  CB1 C 11.284  2.227 24
-PI6  CG1 C 11.284  3.688 25
-PI6 CD11 C 12.550  4.419 26
-PI6 CD21 C 10.019  4.419 27
-PI6 CE11 C 12.550  5.880 28
-PI6 CE21 C 10.019  5.880 29
-PI6  CZ1 C 11.284  6.611 30
-PI6   N2 N  7.292  2.227 31
-PI6  CA2 C  6.562  3.493 32
-PI6   C6 C  7.291  5.215 33
-PI6   O3 O  5.791  5.193 34
-PI6  CB2 C  5.073  3.308 35
-PI6 CG11 C  4.489  1.927 36
-PI6  CG2 C  4.169  4.505 37
-PI6 CD12 C  3.000  1.742 38
-PI6   OH O 11.284  8.072 39
-PI6   N3 N  6.562  6.806 40
-PI6  CA3 C  7.292  8.072 41
-PI6   C7 C  8.754  8.072 42
-PI6   C8 C 10.019  8.803 43
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PI6   O1    C DOUBLE       NONE  1
-PI6    C   O2 SINGLE       NONE  2
-PI6   O2   CT SINGLE       NONE  3
-PI6   CT   C1 SINGLE       NONE  4
-PI6   CT   C2 SINGLE       NONE  5
-PI6   CT   C3 SINGLE       NONE  6
-PI6    N   CA SINGLE       NONE  7
-PI6   CA   C4 SINGLE       NONE  8
-PI6   CA   CB SINGLE  BEGINDASH  9
-PI6   C4  OXT SINGLE BEGINWEDGE 10
-PI6   C4   CM SINGLE       NONE 11
-PI6   CB   CG SINGLE       NONE 12
-PI6   CG  CD1 DOUBLE       NONE 13
-PI6   CG  CD2 SINGLE       NONE 14
-PI6  CD1  CE1 SINGLE       NONE 15
-PI6  CD2  CE2 DOUBLE       NONE 16
-PI6  CE1   CZ DOUBLE       NONE 17
-PI6  CE2   CZ SINGLE       NONE 18
-PI6   N1  CA1 SINGLE       NONE 19
-PI6  CA1   C5 SINGLE       NONE 20
-PI6  CA1  CB1 SINGLE       NONE 21
-PI6   C5    O DOUBLE       NONE 22
-PI6  CB1  CG1 SINGLE       NONE 23
-PI6  CG1 CD11 DOUBLE       NONE 24
-PI6  CG1 CD21 SINGLE       NONE 25
-PI6 CD11 CE11 SINGLE       NONE 26
-PI6 CD21 CE21 DOUBLE       NONE 27
-PI6 CE11  CZ1 DOUBLE       NONE 28
-PI6 CE21  CZ1 SINGLE       NONE 29
-PI6  CZ1   OH SINGLE       NONE 30
-PI6   N2  CA2 SINGLE       NONE 31
-PI6  CA2   C6 SINGLE       NONE 32
-PI6  CA2  CB2 SINGLE       NONE 33
-PI6   C6   O3 DOUBLE       NONE 34
-PI6  CB2 CG11 SINGLE       NONE 35
-PI6  CB2  CG2 SINGLE  BEGINDASH 36
-PI6 CG11 CD12 SINGLE       NONE 37
-PI6   N3  CA3 SINGLE       NONE 38
-PI6  CA3   C7 SINGLE       NONE 39
-PI6    C    N SINGLE       NONE 40
-PI6   CM   N1 SINGLE       NONE 41
-PI6   C5   N2 SINGLE       NONE 42
-PI6   C6   N3 SINGLE       NONE 43
-PI6   C7   C8 SINGLE       NONE 44
-PI6   OH   C8 SINGLE       NONE 45
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-PI6 MurckoScaffold S1 scaffold O=C1CNC(=O)[C@@H](NCCCCc2ccccc2)Cc2ccc(cc2)OCCCN1 InChI=1S/C24H31N3O3/c28-23-18-27-24(29)22(25-14-5-4-9-19-7-2-1-3-8-19)17-20-10-12-21(13-11-20)30-16-6-15-26-23/h1-3,7-8,10-13,22,25H,4-6,9,14-18H2,(H,26,28)(H,27,29)/t22-/m0/s1 VSWUFWJVLUWAOS-QFIPXVFZSA-N
-PI6          amide F1 fragment                                           CC(N)=O                                                                                                                                           InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-PI6        peptide F2 fragment                                             NCC=O                                                                                                                                               InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-PI6         phenyl F3 fragment                                          c1ccccc1                                                                                                                                               InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-PI6   N2 F1 1
-PI6   C5 F1 1
-PI6    O F1 1
-PI6  CA1 F1 1
-PI6   N3 F1 2
-PI6   C6 F1 2
-PI6   O3 F1 2
-PI6  CA2 F1 2
-PI6    O F2 1
-PI6   C5 F2 1
-PI6  CA1 F2 1
-PI6   N1 F2 1
-PI6   O3 F2 2
-PI6   C6 F2 2
-PI6  CA2 F2 2
-PI6   N2 F2 2
-PI6   CG F3 1
-PI6  CD1 F3 1
-PI6  CE1 F3 1
-PI6   CZ F3 1
-PI6  CE2 F3 1
-PI6  CD2 F3 1
-PI6  CG1 F3 2
-PI6 CD11 F3 2
-PI6 CE11 F3 2
-PI6  CZ1 F3 2
-PI6 CE21 F3 2
-PI6 CD21 F3 2
-PI6   CA S1 1
-PI6   C4 S1 1
-PI6   CB S1 1
-PI6   CG S1 1
-PI6  CD1 S1 1
-PI6  CD2 S1 1
-PI6  CE1 S1 1
-PI6  CE2 S1 1
-PI6   CZ S1 1
-PI6   CM S1 1
-PI6   N1 S1 1
-PI6  CA1 S1 1
-PI6   C5 S1 1
-PI6    O S1 1
-PI6  CB1 S1 1
-PI6  CG1 S1 1
-PI6 CD11 S1 1
-PI6 CD21 S1 1
-PI6 CE11 S1 1
-PI6 CE21 S1 1
-PI6  CZ1 S1 1
-PI6   N2 S1 1
-PI6  CA2 S1 1
-PI6   C6 S1 1
-PI6   O3 S1 1
-PI6   OH S1 1
-PI6   N3 S1 1
-PI6  CA3 S1 1
-PI6   C7 S1 1
-PI6   C8 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PI6
-_pdbe_chem_comp_rdkit_properties.exactmw                               596.357
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           10
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     12
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                7
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        10
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         3
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.545
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    2
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             322.609
-_pdbe_chem_comp_rdkit_properties.tpsa                                  138.020
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.542
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             164.613
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         43
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-PI6 UniChem ChEMBL    CHEMBL1229578
-PI6 UniChem   ZINC ZINC000014954127
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PI6   O1  2.091  0.619  1.658 ETKDGv2  1
-PI6    C  3.061 -0.176  1.791 ETKDGv2  2
-PI6   O2  4.021  0.020  2.794 ETKDGv2  3
-PI6   CT  4.096  1.144  3.684 ETKDGv2  4
-PI6   C1  2.840  1.221  4.573 ETKDGv2  5
-PI6   C2  4.281  2.451  2.888 ETKDGv2  6
-PI6   C3  5.326  0.932  4.580 ETKDGv2  7
-PI6    N  3.206 -1.290  0.902 ETKDGv2  8
-PI6   CA  2.432 -1.421 -0.339 ETKDGv2  9
-PI6   C4  1.986 -2.897 -0.522 ETKDGv2 10
-PI6  OXT  1.353 -3.349  0.651 ETKDGv2 11
-PI6   CB  3.284 -0.915 -1.525 ETKDGv2 12
-PI6   CG  3.689  0.526 -1.334 ETKDGv2 13
-PI6  CD1  2.776  1.510 -1.428 ETKDGv2 14
-PI6  CD2  5.095  0.870 -1.005 ETKDGv2 15
-PI6  CE1  3.164  2.914 -1.188 ETKDGv2 16
-PI6  CE2  5.444  2.144 -0.788 ETKDGv2 17
-PI6   CZ  4.431  3.216 -0.882 ETKDGv2 18
-PI6   CM  1.015 -3.096 -1.704 ETKDGv2 19
-PI6   N1 -0.149 -2.204 -1.587 ETKDGv2 20
-PI6  CA1 -1.032 -2.255 -2.766 ETKDGv2 21
-PI6   C5 -1.739 -0.927 -2.950 ETKDGv2 22
-PI6    O -1.894 -0.481 -4.118 ETKDGv2 23
-PI6  CB1 -2.036 -3.444 -2.722 ETKDGv2 24
-PI6  CG1 -3.223 -3.198 -1.822 ETKDGv2 25
-PI6 CD11 -4.359 -2.674 -2.318 ETKDGv2 26
-PI6 CD21 -3.119 -3.445 -0.365 ETKDGv2 27
-PI6 CE11 -5.421 -2.205 -1.407 ETKDGv2 28
-PI6 CE21 -4.073 -3.005  0.461 ETKDGv2 29
-PI6  CZ1 -5.253 -2.279 -0.080 ETKDGv2 30
-PI6   N2 -2.337 -0.218 -1.850 ETKDGv2 31
-PI6  CA2 -1.533  0.492 -0.846 ETKDGv2 32
-PI6   C6 -1.768 -0.094  0.544 ETKDGv2 33
-PI6   O3 -0.781 -0.621  1.125 ETKDGv2 34
-PI6  CB2 -1.734  2.036 -0.941 ETKDGv2 35
-PI6 CG11 -1.271  2.561 -2.326 ETKDGv2 36
-PI6  CG2 -0.982  2.762  0.193 ETKDGv2 37
-PI6 CD12 -1.614  4.033 -2.564 ETKDGv2 38
-PI6   OH -6.181 -1.640  0.751 ETKDGv2 39
-PI6   N3 -3.029 -0.089  1.246 ETKDGv2 40
-PI6  CA3 -4.233  0.646  0.853 ETKDGv2 41
-PI6   C7 -5.400  0.423  1.835 ETKDGv2 42
-PI6   C8 -5.852 -1.039  2.005 ETKDGv2 43
-PI6  H11  2.963  2.001  5.355 ETKDGv2 44
-PI6  H12  1.939  1.481  3.981 ETKDGv2 45
-PI6  H13  2.663  0.244  5.071 ETKDGv2 46
-PI6  H21  3.387  2.680  2.272 ETKDGv2 47
-PI6  H22  4.446  3.308  3.576 ETKDGv2 48
-PI6  H23  5.157  2.366  2.211 ETKDGv2 49
-PI6  H31  5.222 -0.011  5.159 ETKDGv2 50
-PI6  H32  5.449  1.774  5.295 ETKDGv2 51
-PI6  H33  6.246  0.857  3.960 ETKDGv2 52
-PI6    H  4.021 -1.927  1.049 ETKDGv2 53
-PI6   HA  1.519 -0.797 -0.270 ETKDGv2 54
-PI6   HC  2.887 -3.524 -0.726 ETKDGv2 55
-PI6  HOR  2.062 -3.694  1.254 ETKDGv2 56
-PI6  HB2  4.188 -1.554 -1.624 ETKDGv2 57
-PI6  HB3  2.719 -0.989 -2.477 ETKDGv2 58
-PI6  HD1  1.746  1.280 -1.664 ETKDGv2 59
-PI6  HD2  5.842  0.090 -0.924 ETKDGv2 60
-PI6  HE1  2.419  3.697 -1.255 ETKDGv2 61
-PI6  HE2  6.467  2.393 -0.539 ETKDGv2 62
-PI6   HZ  4.717  4.244 -0.701 ETKDGv2 63
-PI6  HM2  1.555 -2.912 -2.656 ETKDGv2 64
-PI6  HM3  0.684 -4.158 -1.715 ETKDGv2 65
-PI6   H1 -0.683 -2.460 -0.729 ETKDGv2 66
-PI6  HA1 -0.411 -2.402 -3.680 ETKDGv2 67
-PI6 HB21 -2.395 -3.638 -3.757 ETKDGv2 68
-PI6 HB31 -1.522 -4.376 -2.405 ETKDGv2 69
-PI6 HD11 -4.462 -2.483 -3.379 ETKDGv2 70
-PI6 HD21 -2.268 -3.978  0.039 ETKDGv2 71
-PI6 HE11 -6.282 -1.693 -1.817 ETKDGv2 72
-PI6 HE21 -3.978 -3.204  1.519 ETKDGv2 73
-PI6   H2 -3.318  0.104 -1.996 ETKDGv2 74
-PI6  HA2 -0.459  0.322 -1.082 ETKDGv2 75
-PI6   HB -2.812  2.269 -0.857 ETKDGv2 76
-PI6 HG12 -0.176  2.420 -2.448 ETKDGv2 77
-PI6 HG13 -1.774  1.981 -3.127 ETKDGv2 78
-PI6 HG21  0.112  2.582  0.115 ETKDGv2 79
-PI6 HG22 -1.174  3.853  0.163 ETKDGv2 80
-PI6 HG23 -1.331  2.413  1.187 ETKDGv2 81
-PI6 HD12 -1.434  4.285 -3.631 ETKDGv2 82
-PI6 HD13 -2.682  4.229 -2.332 ETKDGv2 83
-PI6 HD14 -0.969  4.694 -1.949 ETKDGv2 84
-PI6   H3 -3.040 -0.594  2.161 ETKDGv2 85
-PI6 HA21 -4.012  1.731  0.870 ETKDGv2 86
-PI6  HA3 -4.551  0.359 -0.165 ETKDGv2 87
-PI6  H14 -5.100 -1.626  2.566 ETKDGv2 88
-PI6  H24 -6.769 -1.037  2.632 ETKDGv2 89
-PI6  H89 -6.269  1.018  1.480 ETKDGv2 90
-PI6  H99 -5.114  0.822  2.832 ETKDGv2 91
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PI6 "Create component"              1999-07-08 RCSB 
+PI6 "Modify descriptor"             2011-06-04 RCSB 
+PI6 "Modify subcomponent list"      2012-07-19 RCSB 
+PI6 "Modify atom id"                2012-07-19 RCSB 
+PI6 "Modify model coordinates code" 2012-07-19 RCSB 
+# 

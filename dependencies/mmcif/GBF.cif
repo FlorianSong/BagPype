@@ -1,539 +1,336 @@
 data_GBF
-#
-_chem_comp.id                                        GBF
-_chem_comp.name                                      "Bacteriochlorophyll g"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C50 H58 Mg N4 O5"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2017-08-11
-_chem_comp.pdbx_modified_date                        2017-09-01
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            819.324
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         GBF
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       Y
-_chem_comp.pdbx_model_coordinates_db_code            5V8K
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    GBF 
+_chem_comp.name                                  "Bacteriochlorophyll g" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C50 H58 Mg N4 O5" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-08-11 
+_chem_comp.pdbx_modified_date                    2017-09-01 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        819.324 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     GBF 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   Y 
+_chem_comp.pdbx_model_coordinates_db_code        5V8K 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-GBF   MG MG1 MG 0 0 N N N 158.946 88.412  7.147 ? ? ?   MG GBF   1
-GBF  CHA  C1  C 0 1 N N N 161.080 91.131  6.777 ? ? ?  CHA GBF   2
-GBF  CHB  C2  C 0 1 N N N 156.809 89.790  5.051 ? ? ?  CHB GBF   3
-GBF  CHC  C3  C 0 1 N N N 157.145 85.539  7.589 ? ? ?  CHC GBF   4
-GBF  CHD  C4  C 0 1 N N N 161.651 86.828  8.946 ? ? ?  CHD GBF   5
-GBF   NA  N1  N 0 1 N N S 158.953 90.080  6.123 ? ? ?   NA GBF   6
-GBF  C1A  C5  C 0 1 N N N 159.769 91.136  6.077 ? ? ?  C1A GBF   7
-GBF  C2A  C6  C 0 1 N N N 159.420 92.312  5.200 ? ? ?  C2A GBF   8
-GBF  C3A  C7  C 0 1 N N N 157.983 91.927  4.898 ? ? ?  C3A GBF   9
-GBF  C4A  C8  C 0 1 N N N 157.918 90.501  5.369 ? ? ?  C4A GBF  10
-GBF  CMA  C9  C 0 1 N N N 156.973 92.762  5.689 ? ? ?  CMA GBF  11
-GBF  CAA C10  C 0 1 N N N 160.206 92.561  3.907 ? ? ?  CAA GBF  12
-GBF  CBA C11  C 0 1 N N N 160.201 91.414  2.902 ? ? ?  CBA GBF  13
-GBF  CGA C12  C 0 1 N N N 161.179 90.363  3.349 ? ? ?  CGA GBF  14
-GBF  O1A  O1  O 0 1 N N N 162.312 90.717  3.627 ? ? ?  O1A GBF  15
-GBF  O2A  O2  O 0 1 N N N 160.709 89.122  3.939 ? ? ?  O2A GBF  16
-GBF   NB  N2  N 0 1 N N N 157.234 87.736  6.328 ? ? ?   NB GBF  17
-GBF  C1B C13  C 0 1 N N N 156.420 88.454  5.556 ? ? ?  C1B GBF  18
-GBF  C2B C14  C 0 1 N N N 155.290 87.684  5.305 ? ? ?  C2B GBF  19
-GBF  C3B C15  C 0 1 N N N 155.421 86.493  6.030 ? ? ?  C3B GBF  20
-GBF  C4B C16  C 0 1 N N N 156.631 86.605  6.707 ? ? ?  C4B GBF  21
-GBF  CMB C17  C 0 1 N N N 154.184 88.097  4.400 ? ? ?  CMB GBF  22
-GBF  CAB C18  C 0 1 N N N 154.522 85.305  6.108 ? ? ?  CAB GBF  23
-GBF  CBB C19  C 0 1 N N N 153.493 85.047  5.338 ? ? ?  CBB GBF  24
-GBF   NC  N3  N 0 1 Y N N 159.349 86.615  8.040 ? ? ?   NC GBF  25
-GBF  C1C C20  C 0 1 Y N N 158.507 85.590  8.174 ? ? ?  C1C GBF  26
-GBF  C2C C21  C 0 1 Y N N 158.772 84.333  8.934 ? ? ?  C2C GBF  27
-GBF  C3C C22  C 0 1 Y N N 160.111 84.853  9.227 ? ? ?  C3C GBF  28
-GBF  C4C C23  C 0 1 Y N N 160.395 86.122  8.734 ? ? ?  C4C GBF  29
-GBF  CMC C24  C 0 1 N N N 157.872 84.272 10.161 ? ? ?  CMC GBF  30
-GBF  CAC C25  C 0 1 N N N 161.116 84.091 10.020 ? ? ?  CAC GBF  31
-GBF  CBC C26  C 0 1 N N N 160.844 82.708 10.576 ? ? ?  CBC GBF  32
-GBF   ND  N4  N 0 1 N N N 160.854 88.716  7.683 ? ? ?   ND GBF  33
-GBF  C1D C27  C 0 1 N N N 161.803 88.181  8.425 ? ? ?  C1D GBF  34
-GBF  C2D C28  C 0 1 N N N 163.133 88.968  8.820 ? ? ?  C2D GBF  35
-GBF  C3D C29  C 0 1 N N N 162.659 90.074  8.098 ? ? ?  C3D GBF  36
-GBF  C4D C30  C 0 1 N N N 161.407 89.959  7.453 ? ? ?  C4D GBF  37
-GBF  CMD C31  C 0 1 N N N 164.333 88.586  9.622 ? ? ?  CMD GBF  38
-GBF  CAD C32  C 0 1 N N N 163.029 91.508  7.985 ? ? ?  CAD GBF  39
-GBF  OBD  O3  O 0 1 N N N 164.169 92.070  8.050 ? ? ?  OBD GBF  40
-GBF  CBD C33  C 0 1 N N R 162.088 92.169  7.030 ? ? ?  CBD GBF  41
-GBF  CGD C34  C 0 1 N N N 161.441 93.379  7.623 ? ? ?  CGD GBF  42
-GBF  O1D  O4  O 0 1 N N N 161.049 93.393  8.762 ? ? ?  O1D GBF  43
-GBF  O2D  O5  O 0 1 N N N 161.280 94.586  6.882 ? ? ?  O2D GBF  44
-GBF  CED C35  C 0 1 N N N 160.570 95.644  7.526 ? ? ?  CED GBF  45
-GBF   C1 C36  C 0 1 N N N 161.663 88.105  4.284 ? ? ?   C1 GBF  46
-GBF   C2 C37  C 0 1 N N N 161.634 87.056  3.200 ? ? ?   C2 GBF  47
-GBF   C3 C38  C 0 1 N N N 160.915 85.917  3.230 ? ? ?   C3 GBF  48
-GBF   C4 C39  C 0 1 N N N 161.018 85.021  2.025 ? ? ?   C4 GBF  49
-GBF   C5 C40  C 0 1 N N N 160.015 85.509  4.383 ? ? ?   C5 GBF  50
-GBF   C6 C41  C 0 1 N N N 160.382 84.158  4.964 ? ? ?   C6 GBF  51
-GBF   C7 C42  C 0 1 N N N 159.124 83.431  5.391 ? ? ?   C7 GBF  52
-GBF   C8 C43  C 0 1 N N N 159.230 82.296  6.099 ? ? ?   C8 GBF  53
-GBF   C9 C44  C 0 1 N N N 160.620 81.831  6.449 ? ? ?   C9 GBF  54
-GBF  C10 C45  C 0 1 N N N 157.975 81.554  6.549 ? ? ?  C10 GBF  55
-GBF  C11 C46  C 0 1 N N N 158.131 80.048  6.382 ? ? ?  C11 GBF  56
-GBF  C12 C47  C 0 1 N N N 157.585 79.268  7.578 ? ? ?  C12 GBF  57
-GBF  C13 C48  C 0 1 N N N 158.277 78.254  8.164 ? ? ?  C13 GBF  58
-GBF  C14 C49  C 0 1 N N N 159.637 77.843  7.669 ? ? ?  C14 GBF  59
-GBF  C15 C50  C 0 1 N N N 157.711 77.472  9.341 ? ? ?  C15 GBF  60
-GBF  HHB  H1  H 0 1 N N N 156.131 90.251  4.348 ? ? ?  HHB GBF  61
-GBF  HHC  H2  H 0 1 N N N 156.510 84.696  7.815 ? ? ?  HHC GBF  62
-GBF  HHD  H3  H 0 1 N N N 162.460 86.355  9.483 ? ? ?  HHD GBF  63
-GBF HMA3  H4  H 0 0 N N N 155.952 92.443  5.433 ? ? ? HMA3 GBF  64
-GBF HMA1  H5  H 0 0 N N N 157.143 92.618  6.766 ? ? ? HMA1 GBF  65
-GBF HMA2  H6  H 0 0 N N N 157.099 93.825  5.436 ? ? ? HMA2 GBF  66
-GBF HAA2  H7  H 0 0 N N N 159.775 93.445  3.414 ? ? ? HAA2 GBF  67
-GBF HAA1  H8  H 0 0 N N N 161.251 92.767  4.181 ? ? ? HAA1 GBF  68
-GBF HBA1  H9  H 0 0 N N N 159.193 90.978  2.845 ? ? ? HBA1 GBF  69
-GBF HBA2 H10  H 0 0 N N N 160.493 91.791  1.911 ? ? ? HBA2 GBF  70
-GBF HMB3 H11  H 0 0 N N N 153.415 87.311  4.377 ? ? ? HMB3 GBF  71
-GBF HMB2 H12  H 0 0 N N N 153.740 89.034  4.768 ? ? ? HMB2 GBF  72
-GBF HMB1 H13  H 0 0 N N N 154.579 88.252  3.385 ? ? ? HMB1 GBF  73
-GBF  HAB H14  H 0 1 N N N 155.188 84.437  5.994 ? ? ?  HAB GBF  74
-GBF   H1 H15  H 0 1 N N N 154.115 85.323  7.130 ? ? ?   H1 GBF  75
-GBF HBB3 H16  H 0 0 N N N 153.033 84.096  5.646 ? ? ? HBB3 GBF  76
-GBF HBB2 H17  H 0 0 N N N 152.755 85.857  5.429 ? ? ? HBB2 GBF  77
-GBF   H3 H18  H 0 1 N N N 153.827 84.971  4.293 ? ? ?   H3 GBF  78
-GBF HMC2 H19  H 0 0 N N N 157.332 83.314 10.173 ? ? ? HMC2 GBF  79
-GBF HMC3 H20  H 0 0 N N N 158.485 84.358 11.070 ? ? ? HMC3 GBF  80
-GBF HMC1 H21  H 0 0 N N N 157.149 85.100 10.127 ? ? ? HMC1 GBF  81
-GBF HAC1 H22  H 0 0 N N N 162.001 83.991  9.374 ? ? ? HAC1 GBF  82
-GBF   H4 H23  H 0 1 N N N 161.364 84.723 10.885 ? ? ?   H4 GBF  83
-GBF HBC3 H24  H 0 0 N N N 161.730 82.351 11.122 ? ? ? HBC3 GBF  84
-GBF HBC2 H25  H 0 0 N N N 159.984 82.751 11.260 ? ? ? HBC2 GBF  85
-GBF HBC1 H26  H 0 0 N N N 160.621 82.018  9.749 ? ? ? HBC1 GBF  86
-GBF HMD1 H27  H 0 0 N N N 165.036 89.431  9.656 ? ? ? HMD1 GBF  87
-GBF HMD2 H28  H 0 0 N N N 164.023 88.326 10.645 ? ? ? HMD2 GBF  88
-GBF HMD3 H29  H 0 0 N N N 164.824 87.719  9.156 ? ? ? HMD3 GBF  89
-GBF  HBD H30  H 0 1 N N N 162.613 92.435  6.100 ? ? ?  HBD GBF  90
-GBF HED1 H31  H 0 0 N N N 160.516 96.513  6.853 ? ? ? HED1 GBF  91
-GBF HED3 H32  H 0 0 N N N 159.552 95.306  7.772 ? ? ? HED3 GBF  92
-GBF HED2 H33  H 0 0 N N N 161.095 95.928  8.450 ? ? ? HED2 GBF  93
-GBF  H12 H34  H 0 1 N N N 162.669 88.544  4.353 ? ? ?  H12 GBF  94
-GBF  H11 H35  H 0 1 N N N 161.394 87.652  5.250 ? ? ?  H11 GBF  95
-GBF   H2 H36  H 0 1 N N N 162.242 87.233  2.325 ? ? ?   H2 GBF  96
-GBF  H41 H37  H 0 1 N N N 160.388 84.132  2.174 ? ? ?  H41 GBF  97
-GBF  H43 H38  H 0 1 N N N 160.677 85.566  1.133 ? ? ?  H43 GBF  98
-GBF  H42 H39  H 0 1 N N N 162.064 84.710  1.888 ? ? ?  H42 GBF  99
-GBF  H52 H40  H 0 1 N N N 160.095 86.267  5.177 ? ? ?  H52 GBF 100
-GBF  H51 H41  H 0 1 N N N 158.977 85.466  4.021 ? ? ?  H51 GBF 101
-GBF  H62 H42  H 0 1 N N N 160.909 83.563  4.203 ? ? ?  H62 GBF 102
-GBF  H61 H43  H 0 1 N N N 161.037 84.300  5.836 ? ? ?  H61 GBF 103
-GBF  H71 H44  H 0 1 N N N 158.152 83.822  5.129 ? ? ?  H71 GBF 104
-GBF  H92 H45  H 0 1 N N N 160.560 80.896  7.026 ? ? ?  H92 GBF 105
-GBF  H93 H46  H 0 1 N N N 161.191 81.656  5.525 ? ? ?  H93 GBF 106
-GBF  H91 H47  H 0 1 N N N 161.123 82.602  7.051 ? ? ?  H91 GBF 107
-GBF H102 H48  H 0 0 N N N 157.787 81.779  7.609 ? ? ? H102 GBF 108
-GBF H101 H49  H 0 0 N N N 157.121 81.895  5.945 ? ? ? H101 GBF 109
-GBF H111 H50  H 0 0 N N N 157.587 79.735  5.478 ? ? ? H111 GBF 110
-GBF H112 H51  H 0 0 N N N 159.200 79.814  6.266 ? ? ? H112 GBF 111
-GBF H121 H52  H 0 0 N N N 156.615 79.532  7.972 ? ? ? H121 GBF 112
-GBF H142 H53  H 0 0 N N N 160.014 77.010  8.280 ? ? ? H142 GBF 113
-GBF H141 H54  H 0 0 N N N 159.564 77.523  6.619 ? ? ? H141 GBF 114
-GBF H143 H55  H 0 0 N N N 160.328 78.696  7.745 ? ? ? H143 GBF 115
-GBF H152 H56  H 0 0 N N N 158.434 76.704  9.653 ? ? ? H152 GBF 116
-GBF H151 H57  H 0 0 N N N 157.520 78.158 10.179 ? ? ? H151 GBF 117
-GBF   H5 H58  H 0 1 N N N 156.770 76.989  9.041 ? ? ?   H5 GBF 118
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+GBF MG   MG1 MG 0 0 N N N 158.946 88.412 7.147  ? ? ? MG   GBF 1   
+GBF CHA  C1  C  0 1 N N N 161.080 91.131 6.777  ? ? ? CHA  GBF 2   
+GBF CHB  C2  C  0 1 N N N 156.809 89.790 5.051  ? ? ? CHB  GBF 3   
+GBF CHC  C3  C  0 1 N N N 157.145 85.539 7.589  ? ? ? CHC  GBF 4   
+GBF CHD  C4  C  0 1 N N N 161.651 86.828 8.946  ? ? ? CHD  GBF 5   
+GBF NA   N1  N  0 1 N N S 158.953 90.080 6.123  ? ? ? NA   GBF 6   
+GBF C1A  C5  C  0 1 N N N 159.769 91.136 6.077  ? ? ? C1A  GBF 7   
+GBF C2A  C6  C  0 1 N N N 159.420 92.312 5.200  ? ? ? C2A  GBF 8   
+GBF C3A  C7  C  0 1 N N N 157.983 91.927 4.898  ? ? ? C3A  GBF 9   
+GBF C4A  C8  C  0 1 N N N 157.918 90.501 5.369  ? ? ? C4A  GBF 10  
+GBF CMA  C9  C  0 1 N N N 156.973 92.762 5.689  ? ? ? CMA  GBF 11  
+GBF CAA  C10 C  0 1 N N N 160.206 92.561 3.907  ? ? ? CAA  GBF 12  
+GBF CBA  C11 C  0 1 N N N 160.201 91.414 2.902  ? ? ? CBA  GBF 13  
+GBF CGA  C12 C  0 1 N N N 161.179 90.363 3.349  ? ? ? CGA  GBF 14  
+GBF O1A  O1  O  0 1 N N N 162.312 90.717 3.627  ? ? ? O1A  GBF 15  
+GBF O2A  O2  O  0 1 N N N 160.709 89.122 3.939  ? ? ? O2A  GBF 16  
+GBF NB   N2  N  0 1 N N N 157.234 87.736 6.328  ? ? ? NB   GBF 17  
+GBF C1B  C13 C  0 1 N N N 156.420 88.454 5.556  ? ? ? C1B  GBF 18  
+GBF C2B  C14 C  0 1 N N N 155.290 87.684 5.305  ? ? ? C2B  GBF 19  
+GBF C3B  C15 C  0 1 N N N 155.421 86.493 6.030  ? ? ? C3B  GBF 20  
+GBF C4B  C16 C  0 1 N N N 156.631 86.605 6.707  ? ? ? C4B  GBF 21  
+GBF CMB  C17 C  0 1 N N N 154.184 88.097 4.400  ? ? ? CMB  GBF 22  
+GBF CAB  C18 C  0 1 N N N 154.522 85.305 6.108  ? ? ? CAB  GBF 23  
+GBF CBB  C19 C  0 1 N N N 153.493 85.047 5.338  ? ? ? CBB  GBF 24  
+GBF NC   N3  N  0 1 Y N N 159.349 86.615 8.040  ? ? ? NC   GBF 25  
+GBF C1C  C20 C  0 1 Y N N 158.507 85.590 8.174  ? ? ? C1C  GBF 26  
+GBF C2C  C21 C  0 1 Y N N 158.772 84.333 8.934  ? ? ? C2C  GBF 27  
+GBF C3C  C22 C  0 1 Y N N 160.111 84.853 9.227  ? ? ? C3C  GBF 28  
+GBF C4C  C23 C  0 1 Y N N 160.395 86.122 8.734  ? ? ? C4C  GBF 29  
+GBF CMC  C24 C  0 1 N N N 157.872 84.272 10.161 ? ? ? CMC  GBF 30  
+GBF CAC  C25 C  0 1 N N N 161.116 84.091 10.020 ? ? ? CAC  GBF 31  
+GBF CBC  C26 C  0 1 N N N 160.844 82.708 10.576 ? ? ? CBC  GBF 32  
+GBF ND   N4  N  0 1 N N N 160.854 88.716 7.683  ? ? ? ND   GBF 33  
+GBF C1D  C27 C  0 1 N N N 161.803 88.181 8.425  ? ? ? C1D  GBF 34  
+GBF C2D  C28 C  0 1 N N N 163.133 88.968 8.820  ? ? ? C2D  GBF 35  
+GBF C3D  C29 C  0 1 N N N 162.659 90.074 8.098  ? ? ? C3D  GBF 36  
+GBF C4D  C30 C  0 1 N N N 161.407 89.959 7.453  ? ? ? C4D  GBF 37  
+GBF CMD  C31 C  0 1 N N N 164.333 88.586 9.622  ? ? ? CMD  GBF 38  
+GBF CAD  C32 C  0 1 N N N 163.029 91.508 7.985  ? ? ? CAD  GBF 39  
+GBF OBD  O3  O  0 1 N N N 164.169 92.070 8.050  ? ? ? OBD  GBF 40  
+GBF CBD  C33 C  0 1 N N R 162.088 92.169 7.030  ? ? ? CBD  GBF 41  
+GBF CGD  C34 C  0 1 N N N 161.441 93.379 7.623  ? ? ? CGD  GBF 42  
+GBF O1D  O4  O  0 1 N N N 161.049 93.393 8.762  ? ? ? O1D  GBF 43  
+GBF O2D  O5  O  0 1 N N N 161.280 94.586 6.882  ? ? ? O2D  GBF 44  
+GBF CED  C35 C  0 1 N N N 160.570 95.644 7.526  ? ? ? CED  GBF 45  
+GBF C1   C36 C  0 1 N N N 161.663 88.105 4.284  ? ? ? C1   GBF 46  
+GBF C2   C37 C  0 1 N N N 161.634 87.056 3.200  ? ? ? C2   GBF 47  
+GBF C3   C38 C  0 1 N N N 160.915 85.917 3.230  ? ? ? C3   GBF 48  
+GBF C4   C39 C  0 1 N N N 161.018 85.021 2.025  ? ? ? C4   GBF 49  
+GBF C5   C40 C  0 1 N N N 160.015 85.509 4.383  ? ? ? C5   GBF 50  
+GBF C6   C41 C  0 1 N N N 160.382 84.158 4.964  ? ? ? C6   GBF 51  
+GBF C7   C42 C  0 1 N N N 159.124 83.431 5.391  ? ? ? C7   GBF 52  
+GBF C8   C43 C  0 1 N N N 159.230 82.296 6.099  ? ? ? C8   GBF 53  
+GBF C9   C44 C  0 1 N N N 160.620 81.831 6.449  ? ? ? C9   GBF 54  
+GBF C10  C45 C  0 1 N N N 157.975 81.554 6.549  ? ? ? C10  GBF 55  
+GBF C11  C46 C  0 1 N N N 158.131 80.048 6.382  ? ? ? C11  GBF 56  
+GBF C12  C47 C  0 1 N N N 157.585 79.268 7.578  ? ? ? C12  GBF 57  
+GBF C13  C48 C  0 1 N N N 158.277 78.254 8.164  ? ? ? C13  GBF 58  
+GBF C14  C49 C  0 1 N N N 159.637 77.843 7.669  ? ? ? C14  GBF 59  
+GBF C15  C50 C  0 1 N N N 157.711 77.472 9.341  ? ? ? C15  GBF 60  
+GBF HHB  H1  H  0 1 N N N 156.131 90.251 4.348  ? ? ? HHB  GBF 61  
+GBF HHC  H2  H  0 1 N N N 156.510 84.696 7.815  ? ? ? HHC  GBF 62  
+GBF HHD  H3  H  0 1 N N N 162.460 86.355 9.483  ? ? ? HHD  GBF 63  
+GBF HMA3 H4  H  0 0 N N N 155.952 92.443 5.433  ? ? ? HMA3 GBF 64  
+GBF HMA1 H5  H  0 0 N N N 157.143 92.618 6.766  ? ? ? HMA1 GBF 65  
+GBF HMA2 H6  H  0 0 N N N 157.099 93.825 5.436  ? ? ? HMA2 GBF 66  
+GBF HAA2 H7  H  0 0 N N N 159.775 93.445 3.414  ? ? ? HAA2 GBF 67  
+GBF HAA1 H8  H  0 0 N N N 161.251 92.767 4.181  ? ? ? HAA1 GBF 68  
+GBF HBA1 H9  H  0 0 N N N 159.193 90.978 2.845  ? ? ? HBA1 GBF 69  
+GBF HBA2 H10 H  0 0 N N N 160.493 91.791 1.911  ? ? ? HBA2 GBF 70  
+GBF HMB3 H11 H  0 0 N N N 153.415 87.311 4.377  ? ? ? HMB3 GBF 71  
+GBF HMB2 H12 H  0 0 N N N 153.740 89.034 4.768  ? ? ? HMB2 GBF 72  
+GBF HMB1 H13 H  0 0 N N N 154.579 88.252 3.385  ? ? ? HMB1 GBF 73  
+GBF HAB  H14 H  0 1 N N N 155.188 84.437 5.994  ? ? ? HAB  GBF 74  
+GBF H1   H15 H  0 1 N N N 154.115 85.323 7.130  ? ? ? H1   GBF 75  
+GBF HBB3 H16 H  0 0 N N N 153.033 84.096 5.646  ? ? ? HBB3 GBF 76  
+GBF HBB2 H17 H  0 0 N N N 152.755 85.857 5.429  ? ? ? HBB2 GBF 77  
+GBF H3   H18 H  0 1 N N N 153.827 84.971 4.293  ? ? ? H3   GBF 78  
+GBF HMC2 H19 H  0 0 N N N 157.332 83.314 10.173 ? ? ? HMC2 GBF 79  
+GBF HMC3 H20 H  0 0 N N N 158.485 84.358 11.070 ? ? ? HMC3 GBF 80  
+GBF HMC1 H21 H  0 0 N N N 157.149 85.100 10.127 ? ? ? HMC1 GBF 81  
+GBF HAC1 H22 H  0 0 N N N 162.001 83.991 9.374  ? ? ? HAC1 GBF 82  
+GBF H4   H23 H  0 1 N N N 161.364 84.723 10.885 ? ? ? H4   GBF 83  
+GBF HBC3 H24 H  0 0 N N N 161.730 82.351 11.122 ? ? ? HBC3 GBF 84  
+GBF HBC2 H25 H  0 0 N N N 159.984 82.751 11.260 ? ? ? HBC2 GBF 85  
+GBF HBC1 H26 H  0 0 N N N 160.621 82.018 9.749  ? ? ? HBC1 GBF 86  
+GBF HMD1 H27 H  0 0 N N N 165.036 89.431 9.656  ? ? ? HMD1 GBF 87  
+GBF HMD2 H28 H  0 0 N N N 164.023 88.326 10.645 ? ? ? HMD2 GBF 88  
+GBF HMD3 H29 H  0 0 N N N 164.824 87.719 9.156  ? ? ? HMD3 GBF 89  
+GBF HBD  H30 H  0 1 N N N 162.613 92.435 6.100  ? ? ? HBD  GBF 90  
+GBF HED1 H31 H  0 0 N N N 160.516 96.513 6.853  ? ? ? HED1 GBF 91  
+GBF HED3 H32 H  0 0 N N N 159.552 95.306 7.772  ? ? ? HED3 GBF 92  
+GBF HED2 H33 H  0 0 N N N 161.095 95.928 8.450  ? ? ? HED2 GBF 93  
+GBF H12  H34 H  0 1 N N N 162.669 88.544 4.353  ? ? ? H12  GBF 94  
+GBF H11  H35 H  0 1 N N N 161.394 87.652 5.250  ? ? ? H11  GBF 95  
+GBF H2   H36 H  0 1 N N N 162.242 87.233 2.325  ? ? ? H2   GBF 96  
+GBF H41  H37 H  0 1 N N N 160.388 84.132 2.174  ? ? ? H41  GBF 97  
+GBF H43  H38 H  0 1 N N N 160.677 85.566 1.133  ? ? ? H43  GBF 98  
+GBF H42  H39 H  0 1 N N N 162.064 84.710 1.888  ? ? ? H42  GBF 99  
+GBF H52  H40 H  0 1 N N N 160.095 86.267 5.177  ? ? ? H52  GBF 100 
+GBF H51  H41 H  0 1 N N N 158.977 85.466 4.021  ? ? ? H51  GBF 101 
+GBF H62  H42 H  0 1 N N N 160.909 83.563 4.203  ? ? ? H62  GBF 102 
+GBF H61  H43 H  0 1 N N N 161.037 84.300 5.836  ? ? ? H61  GBF 103 
+GBF H71  H44 H  0 1 N N N 158.152 83.822 5.129  ? ? ? H71  GBF 104 
+GBF H92  H45 H  0 1 N N N 160.560 80.896 7.026  ? ? ? H92  GBF 105 
+GBF H93  H46 H  0 1 N N N 161.191 81.656 5.525  ? ? ? H93  GBF 106 
+GBF H91  H47 H  0 1 N N N 161.123 82.602 7.051  ? ? ? H91  GBF 107 
+GBF H102 H48 H  0 0 N N N 157.787 81.779 7.609  ? ? ? H102 GBF 108 
+GBF H101 H49 H  0 0 N N N 157.121 81.895 5.945  ? ? ? H101 GBF 109 
+GBF H111 H50 H  0 0 N N N 157.587 79.735 5.478  ? ? ? H111 GBF 110 
+GBF H112 H51 H  0 0 N N N 159.200 79.814 6.266  ? ? ? H112 GBF 111 
+GBF H121 H52 H  0 0 N N N 156.615 79.532 7.972  ? ? ? H121 GBF 112 
+GBF H142 H53 H  0 0 N N N 160.014 77.010 8.280  ? ? ? H142 GBF 113 
+GBF H141 H54 H  0 0 N N N 159.564 77.523 6.619  ? ? ? H141 GBF 114 
+GBF H143 H55 H  0 0 N N N 160.328 78.696 7.745  ? ? ? H143 GBF 115 
+GBF H152 H56 H  0 0 N N N 158.434 76.704 9.653  ? ? ? H152 GBF 116 
+GBF H151 H57 H  0 0 N N N 157.520 78.158 10.179 ? ? ? H151 GBF 117 
+GBF H5   H58 H  0 1 N N N 156.770 76.989 9.041  ? ? ? H5   GBF 118 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-GBF  MG   NA SING N N   1
-GBF  MG   NB SING N N   2
-GBF  MG   NC SING N N   3
-GBF  MG   ND SING N N   4
-GBF CHA  C1A DOUB N N   5
-GBF CHA  C4D SING N N   6
-GBF CHA  CBD SING N N   7
-GBF CHB  C4A DOUB N N   8
-GBF CHB  C1B SING N N   9
-GBF CHC  C4B DOUB N N  10
-GBF CHC  C1C SING N N  11
-GBF CHD  C4C SING N N  12
-GBF CHD  C1D DOUB N N  13
-GBF  NA  C1A SING N N  14
-GBF  NA  C4A SING N N  15
-GBF C1A  C2A SING N N  16
-GBF C2A  C3A DOUB N N  17
-GBF C2A  CAA SING N N  18
-GBF C3A  C4A SING N N  19
-GBF C3A  CMA SING N N  20
-GBF CAA  CBA SING N N  21
-GBF CBA  CGA SING N N  22
-GBF CGA  O1A DOUB N N  23
-GBF CGA  O2A SING N N  24
-GBF O2A   C1 SING N N  25
-GBF  NB  C1B DOUB N N  26
-GBF  NB  C4B SING N N  27
-GBF C1B  C2B SING N N  28
-GBF C2B  C3B DOUB N N  29
-GBF C2B  CMB SING N N  30
-GBF C3B  C4B SING N N  31
-GBF C3B  CAB SING N N  32
-GBF CAB  CBB SING N N  33
-GBF  NC  C1C SING Y N  34
-GBF  NC  C4C SING Y N  35
-GBF C1C  C2C DOUB Y N  36
-GBF C2C  C3C SING Y N  37
-GBF C2C  CMC SING N N  38
-GBF C3C  C4C DOUB Y N  39
-GBF C3C  CAC SING N N  40
-GBF CAC  CBC SING N N  41
-GBF  ND  C1D SING N N  42
-GBF  ND  C4D DOUB N N  43
-GBF C1D  C2D SING N N  44
-GBF C2D  C3D DOUB N N  45
-GBF C2D  CMD SING N N  46
-GBF C3D  C4D SING N N  47
-GBF C3D  CAD SING N N  48
-GBF CAD  OBD DOUB N N  49
-GBF CAD  CBD SING N N  50
-GBF CBD  CGD SING N N  51
-GBF CGD  O1D DOUB N N  52
-GBF CGD  O2D SING N N  53
-GBF O2D  CED SING N N  54
-GBF  C1   C2 SING N N  55
-GBF  C2   C3 DOUB N Z  56
-GBF  C3   C4 SING N N  57
-GBF  C3   C5 SING N N  58
-GBF  C5   C6 SING N N  59
-GBF  C6   C7 SING N N  60
-GBF  C7   C8 DOUB N E  61
-GBF  C8   C9 SING N N  62
-GBF  C8  C10 SING N N  63
-GBF C10  C11 SING N N  64
-GBF C11  C12 SING N N  65
-GBF C12  C13 DOUB N N  66
-GBF C13  C14 SING N N  67
-GBF C13  C15 SING N N  68
-GBF CHB  HHB SING N N  69
-GBF CHC  HHC SING N N  70
-GBF CHD  HHD SING N N  71
-GBF CMA HMA3 SING N N  72
-GBF CMA HMA1 SING N N  73
-GBF CMA HMA2 SING N N  74
-GBF CAA HAA2 SING N N  75
-GBF CAA HAA1 SING N N  76
-GBF CBA HBA1 SING N N  77
-GBF CBA HBA2 SING N N  78
-GBF CMB HMB3 SING N N  79
-GBF CMB HMB2 SING N N  80
-GBF CMB HMB1 SING N N  81
-GBF CAB  HAB SING N N  82
-GBF CAB   H1 SING N N  83
-GBF CBB HBB3 SING N N  84
-GBF CBB HBB2 SING N N  85
-GBF CBB   H3 SING N N  86
-GBF CMC HMC2 SING N N  87
-GBF CMC HMC3 SING N N  88
-GBF CMC HMC1 SING N N  89
-GBF CAC HAC1 SING N N  90
-GBF CAC   H4 SING N N  91
-GBF CBC HBC3 SING N N  92
-GBF CBC HBC2 SING N N  93
-GBF CBC HBC1 SING N N  94
-GBF CMD HMD1 SING N N  95
-GBF CMD HMD2 SING N N  96
-GBF CMD HMD3 SING N N  97
-GBF CBD  HBD SING N N  98
-GBF CED HED1 SING N N  99
-GBF CED HED3 SING N N 100
-GBF CED HED2 SING N N 101
-GBF  C1  H12 SING N N 102
-GBF  C1  H11 SING N N 103
-GBF  C2   H2 SING N N 104
-GBF  C4  H41 SING N N 105
-GBF  C4  H43 SING N N 106
-GBF  C4  H42 SING N N 107
-GBF  C5  H52 SING N N 108
-GBF  C5  H51 SING N N 109
-GBF  C6  H62 SING N N 110
-GBF  C6  H61 SING N N 111
-GBF  C7  H71 SING N N 112
-GBF  C9  H92 SING N N 113
-GBF  C9  H93 SING N N 114
-GBF  C9  H91 SING N N 115
-GBF C10 H102 SING N N 116
-GBF C10 H101 SING N N 117
-GBF C11 H111 SING N N 118
-GBF C11 H112 SING N N 119
-GBF C12 H121 SING N N 120
-GBF C14 H142 SING N N 121
-GBF C14 H141 SING N N 122
-GBF C14 H143 SING N N 123
-GBF C15 H152 SING N N 124
-GBF C15 H151 SING N N 125
-GBF C15   H5 SING N N 126
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+GBF MG  NA   SING N N 1   
+GBF MG  NB   SING N N 2   
+GBF MG  NC   SING N N 3   
+GBF MG  ND   SING N N 4   
+GBF CHA C1A  DOUB N N 5   
+GBF CHA C4D  SING N N 6   
+GBF CHA CBD  SING N N 7   
+GBF CHB C4A  DOUB N N 8   
+GBF CHB C1B  SING N N 9   
+GBF CHC C4B  DOUB N N 10  
+GBF CHC C1C  SING N N 11  
+GBF CHD C4C  SING N N 12  
+GBF CHD C1D  DOUB N N 13  
+GBF NA  C1A  SING N N 14  
+GBF NA  C4A  SING N N 15  
+GBF C1A C2A  SING N N 16  
+GBF C2A C3A  DOUB N N 17  
+GBF C2A CAA  SING N N 18  
+GBF C3A C4A  SING N N 19  
+GBF C3A CMA  SING N N 20  
+GBF CAA CBA  SING N N 21  
+GBF CBA CGA  SING N N 22  
+GBF CGA O1A  DOUB N N 23  
+GBF CGA O2A  SING N N 24  
+GBF O2A C1   SING N N 25  
+GBF NB  C1B  DOUB N N 26  
+GBF NB  C4B  SING N N 27  
+GBF C1B C2B  SING N N 28  
+GBF C2B C3B  DOUB N N 29  
+GBF C2B CMB  SING N N 30  
+GBF C3B C4B  SING N N 31  
+GBF C3B CAB  SING N N 32  
+GBF CAB CBB  SING N N 33  
+GBF NC  C1C  SING Y N 34  
+GBF NC  C4C  SING Y N 35  
+GBF C1C C2C  DOUB Y N 36  
+GBF C2C C3C  SING Y N 37  
+GBF C2C CMC  SING N N 38  
+GBF C3C C4C  DOUB Y N 39  
+GBF C3C CAC  SING N N 40  
+GBF CAC CBC  SING N N 41  
+GBF ND  C1D  SING N N 42  
+GBF ND  C4D  DOUB N N 43  
+GBF C1D C2D  SING N N 44  
+GBF C2D C3D  DOUB N N 45  
+GBF C2D CMD  SING N N 46  
+GBF C3D C4D  SING N N 47  
+GBF C3D CAD  SING N N 48  
+GBF CAD OBD  DOUB N N 49  
+GBF CAD CBD  SING N N 50  
+GBF CBD CGD  SING N N 51  
+GBF CGD O1D  DOUB N N 52  
+GBF CGD O2D  SING N N 53  
+GBF O2D CED  SING N N 54  
+GBF C1  C2   SING N N 55  
+GBF C2  C3   DOUB N Z 56  
+GBF C3  C4   SING N N 57  
+GBF C3  C5   SING N N 58  
+GBF C5  C6   SING N N 59  
+GBF C6  C7   SING N N 60  
+GBF C7  C8   DOUB N E 61  
+GBF C8  C9   SING N N 62  
+GBF C8  C10  SING N N 63  
+GBF C10 C11  SING N N 64  
+GBF C11 C12  SING N N 65  
+GBF C12 C13  DOUB N N 66  
+GBF C13 C14  SING N N 67  
+GBF C13 C15  SING N N 68  
+GBF CHB HHB  SING N N 69  
+GBF CHC HHC  SING N N 70  
+GBF CHD HHD  SING N N 71  
+GBF CMA HMA3 SING N N 72  
+GBF CMA HMA1 SING N N 73  
+GBF CMA HMA2 SING N N 74  
+GBF CAA HAA2 SING N N 75  
+GBF CAA HAA1 SING N N 76  
+GBF CBA HBA1 SING N N 77  
+GBF CBA HBA2 SING N N 78  
+GBF CMB HMB3 SING N N 79  
+GBF CMB HMB2 SING N N 80  
+GBF CMB HMB1 SING N N 81  
+GBF CAB HAB  SING N N 82  
+GBF CAB H1   SING N N 83  
+GBF CBB HBB3 SING N N 84  
+GBF CBB HBB2 SING N N 85  
+GBF CBB H3   SING N N 86  
+GBF CMC HMC2 SING N N 87  
+GBF CMC HMC3 SING N N 88  
+GBF CMC HMC1 SING N N 89  
+GBF CAC HAC1 SING N N 90  
+GBF CAC H4   SING N N 91  
+GBF CBC HBC3 SING N N 92  
+GBF CBC HBC2 SING N N 93  
+GBF CBC HBC1 SING N N 94  
+GBF CMD HMD1 SING N N 95  
+GBF CMD HMD2 SING N N 96  
+GBF CMD HMD3 SING N N 97  
+GBF CBD HBD  SING N N 98  
+GBF CED HED1 SING N N 99  
+GBF CED HED3 SING N N 100 
+GBF CED HED2 SING N N 101 
+GBF C1  H12  SING N N 102 
+GBF C1  H11  SING N N 103 
+GBF C2  H2   SING N N 104 
+GBF C4  H41  SING N N 105 
+GBF C4  H43  SING N N 106 
+GBF C4  H42  SING N N 107 
+GBF C5  H52  SING N N 108 
+GBF C5  H51  SING N N 109 
+GBF C6  H62  SING N N 110 
+GBF C6  H61  SING N N 111 
+GBF C7  H71  SING N N 112 
+GBF C9  H92  SING N N 113 
+GBF C9  H93  SING N N 114 
+GBF C9  H91  SING N N 115 
+GBF C10 H102 SING N N 116 
+GBF C10 H101 SING N N 117 
+GBF C11 H111 SING N N 118 
+GBF C11 H112 SING N N 119 
+GBF C12 H121 SING N N 120 
+GBF C14 H142 SING N N 121 
+GBF C14 H141 SING N N 122 
+GBF C14 H143 SING N N 123 
+GBF C15 H152 SING N N 124 
+GBF C15 H151 SING N N 125 
+GBF C15 H5   SING N N 126 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-GBF           SMILES              ACDLabs 12.01                                                                                                                                                                                                                                              "[Mg]321N4C5=C9C8=N1C(=Cc7n2c(C=C6N3=C(C=C4C(=C5CCC(=O)OC\C=C(\C)CC\C=C(/C)CC\C=C(/C)C)C)C(=C6CC)C)c(c7CC)C)C(=C8C(=O)C9C(=O)OC)C"
-GBF            InChI                InChI  1.03 InChI=1S/C50H59N4O5.Mg/c1-12-34-30(7)37-24-39-32(9)36(20-21-43(55)59-23-22-29(6)19-15-18-28(5)17-14-16-27(3)4)47(53-39)45-46(50(57)58-11)49(56)44-33(10)40(54-48(44)45)26-42-35(13-2)31(8)38(52-42)25-41(34)51-37;/h16,18,22,24-26,46H,12-15,17,19-21,23H2,1-11H3,(H-,51,52,53,54,56);/q-1;+2/p-1/b28-18+,29-22-,37-24-,38-25-,39-24-,40-26-,41-25-,42-26-,47-45-;/t46-;/m1./s1
-GBF         InChIKey                InChI  1.03                                                                                                                                                                                                                                                                                                                                                     LRFAKGNZCOQNAG-QZHKZBCOSA-M
-GBF SMILES_CANONICAL               CACTVS 3.385                                                                                                                                                                                                                                            CCC1=C(C)C2=NC1=Cc3n4[Mg][N@]5C(=C2)C(=C(CCC(=O)OC\C=C(\C)CC\C=C(/C)CCC=C(C)C)C5=C6[C@@H](C(=O)OC)C(=O)C7=C(C)C(=Cc4c(CC)c3C)N=C67)C
-GBF           SMILES               CACTVS 3.385                                                                                                                                                                                                                                                   CCC1=C(C)C2=NC1=Cc3n4[Mg][N]5C(=C2)C(=C(CCC(=O)OCC=C(C)CCC=C(C)CCC=C(C)C)C5=C6[CH](C(=O)OC)C(=O)C7=C(C)C(=Cc4c(CC)c3C)N=C67)C
-GBF SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                                                                                                                                                   CCc1c(c2n3c1C=C4C(=C5C(=O)[C@@H](C6=C7C(=C(C8=CC9=[N]([Mg]3(N87)[N]4=C65)C(=C2)C(=C9C)CC)C)CCC(=O)OC/C=C(/C)\CC/C=C(\C)/CCC=C(C)C)C(=O)OC)C)C
-GBF           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                                                                                                                                                              CCc1c(c2n3c1C=C4C(=C5C(=O)C(C6=C7C(=C(C8=CC9=[N]([Mg]3(N87)[N]4=C65)C(=C2)C(=C9C)CC)C)CCC(=O)OCC=C(C)CCC=C(C)CCC=C(C)C)C(=O)OC)C)C
-#
-_pdbx_chem_comp_identifier.comp_id               GBF
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               ACDLabs
-_pdbx_chem_comp_identifier.program_version       12.01
-_pdbx_chem_comp_identifier.identifier            "[methyl 9,14-diethyl-4,8,13,18-tetramethyl-20-oxo-3-{3-oxo-3-[(3,7,11-trimethyldodeca-2,6,10-trien-1-yl)oxy]propyl}-3,4,23,25-tetradehydro-24,26-dihydrophorbine-21-carboxylatato(2-)-kappa~4~N~23~,N~24~,N~25~,N~26~]magnesium"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+GBF SMILES           ACDLabs              12.01 "[Mg]321N4C5=C9C8=N1C(=Cc7n2c(C=C6N3=C(C=C4C(=C5CCC(=O)OC\C=C(\C)CC\C=C(/C)CC\C=C(/C)C)C)C(=C6CC)C)c(c7CC)C)C(=C8C(=O)C9C(=O)OC)C" 
+GBF InChI            InChI                1.03  
+;InChI=1S/C50H59N4O5.Mg/c1-12-34-30(7)37-24-39-32(9)36(20-21-43(55)59-23-22-29(6)19-15-18-28(5)17-14-16-27(3)4)47(53-39)45-46(50(57)58-11)49(56)44-33(10)40(54-48(44)45)26-42-35(13-2)31(8)38(52-42)25-41(34)51-37;/h16,18,22,24-26,46H,12-15,17,19-21,23H2,1-11H3,(H-,51,52,53,54,56);/q-1;+2/p-1/b28-18+,29-22-,37-24-,38-25-,39-24-,40-26-,41-25-,42-26-,47-45-;/t46-;/m1./s1
+;
+GBF InChIKey         InChI                1.03  LRFAKGNZCOQNAG-QZHKZBCOSA-M 
+GBF SMILES_CANONICAL CACTVS               3.385 "CCC1=C(C)C2=NC1=Cc3n4[Mg][N@]5C(=C2)C(=C(CCC(=O)OC\C=C(\C)CC\C=C(/C)CCC=C(C)C)C5=C6[C@@H](C(=O)OC)C(=O)C7=C(C)C(=Cc4c(CC)c3C)N=C67)C" 
+GBF SMILES           CACTVS               3.385 "CCC1=C(C)C2=NC1=Cc3n4[Mg][N]5C(=C2)C(=C(CCC(=O)OCC=C(C)CCC=C(C)CCC=C(C)C)C5=C6[CH](C(=O)OC)C(=O)C7=C(C)C(=Cc4c(CC)c3C)N=C67)C" 
+GBF SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "CCc1c(c2n3c1C=C4C(=C5C(=O)[C@@H](C6=C7C(=C(C8=CC9=[N]([Mg]3(N87)[N]4=C65)C(=C2)C(=C9C)CC)C)CCC(=O)OC/C=C(/C)\CC/C=C(\C)/CCC=C(C)C)C(=O)OC)C)C" 
+GBF SMILES           "OpenEye OEToolkits" 2.0.6 "CCc1c(c2n3c1C=C4C(=C5C(=O)C(C6=C7C(=C(C8=CC9=[N]([Mg]3(N87)[N]4=C65)C(=C2)C(=C9C)CC)C)CCC(=O)OCC=C(C)CCC=C(C)CCC=C(C)C)C(=O)OC)C)C" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-GBF   "Create component" 2017-08-11 RCSB
-GBF "Other modification" 2017-08-16 RCSB
-GBF        "Modify name" 2017-08-16 RCSB
-GBF "Other modification" 2017-08-31 RCSB
-GBF    "Initial release" 2017-09-06 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+GBF "SYSTEMATIC NAME" ACDLabs 12.01 
+"[methyl 9,14-diethyl-4,8,13,18-tetramethyl-20-oxo-3-{3-oxo-3-[(3,7,11-trimethyldodeca-2,6,10-trien-1-yl)oxy]propyl}-3,4,23,25-tetradehydro-24,26-dihydrophorbine-21-carboxylatato(2-)-kappa~4~N~23~,N~24~,N~25~,N~26~]magnesium" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-GBF  MG Mg   0.000  0.000  1
-GBF CHA  C  -3.758  0.000  2
-GBF CHB  C   0.000  3.796  3
-GBF CHC  C   3.796  0.000  4
-GBF CHD  C   0.000 -3.796  5
-GBF  NA  N  -1.518  1.556  6
-GBF C1A  C  -2.999  1.291  7
-GBF C2A  C  -3.682  2.657  8
-GBF C3A  C  -2.619  3.720  9
-GBF C4A  C  -1.291  3.037 10
-GBF CMA  C  -2.855  5.205 11
-GBF CAA  C  -5.190  2.908 12
-GBF CBA  C  -5.717  4.312 13
-GBF CGA  C  -7.196  4.558 14
-GBF O1A  O  -8.149  3.399 15
-GBF O2A  O  -7.723  5.962 16
-GBF  NB  N   1.556  1.556 17
-GBF C1B  C   1.329  3.037 18
-GBF C2B  C   2.658  3.720 19
-GBF C3B  C   3.758  2.657 20
-GBF C4B  C   3.037  1.291 21
-GBF CMB  C   2.886  5.197 22
-GBF CAB  C   5.265  2.923 23
-GBF CBB  C   5.779  4.333 24
-GBF  NC  N   1.556 -1.556 25
-GBF C1C  C   3.037 -1.291 26
-GBF C2C  C   3.758 -2.657 27
-GBF C3C  C   2.658 -3.720 28
-GBF C4C  C   1.329 -3.037 29
-GBF CMC  C   5.288 -2.877 30
-GBF CAC  C   2.871 -5.236 31
-GBF CBC  C   1.689 -6.159 32
-GBF  ND  N  -1.518 -1.556 33
-GBF C1D  C  -1.291 -3.037 34
-GBF C2D  C  -2.619 -3.720 35
-GBF C3D  C  -3.682 -2.657 36
-GBF C4D  C  -2.999 -1.291 37
-GBF CMD  C  -2.848 -5.197 38
-GBF CAD  C  -4.617 -2.257 39
-GBF OBD  O  -5.491 -2.778 40
-GBF CBD  C  -4.991 -0.804 41
-GBF CGD  C  -6.386 -0.252 42
-GBF O1D  O  -7.561 -1.184 43
-GBF O2D  O  -6.605  1.232 44
-GBF CED  C  -8.000  1.784 45
-GBF  C1  C  -9.203  6.208 46
-GBF  C2  C  -9.730  7.612 47
-GBF  C3  C -11.210  7.858 48
-GBF  C4  C -11.737  9.263 49
-GBF  C5  C -12.163  6.700 50
-GBF  C6  C -13.642  6.945 51
-GBF  C7  C -14.595  5.787 52
-GBF  C8  C -16.075  6.033 53
-GBF  C9  C -17.027  4.874 54
-GBF C10  C -16.602  7.437 55
-GBF C11  C -18.081  7.683 56
-GBF C12  C -18.608  9.087 57
-GBF C13  C -20.088  9.333 58
-GBF C14  C -20.615 10.737 59
-GBF C15  C -21.041  8.174 60
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-GBF  MG  NA SINGLE       NONE  1
-GBF  MG  NB SINGLE       NONE  2
-GBF  MG  NC SINGLE       NONE  3
-GBF  MG  ND SINGLE       NONE  4
-GBF CHA C1A DOUBLE       NONE  5
-GBF CHA C4D SINGLE       NONE  6
-GBF CHA CBD SINGLE       NONE  7
-GBF CHB C4A DOUBLE       NONE  8
-GBF CHB C1B SINGLE       NONE  9
-GBF CHC C4B DOUBLE       NONE 10
-GBF CHC C1C SINGLE       NONE 11
-GBF CHD C4C SINGLE       NONE 12
-GBF CHD C1D DOUBLE       NONE 13
-GBF  NA C1A SINGLE  BEGINDASH 14
-GBF  NA C4A SINGLE       NONE 15
-GBF C1A C2A SINGLE       NONE 16
-GBF C2A C3A DOUBLE       NONE 17
-GBF C2A CAA SINGLE       NONE 18
-GBF C3A C4A SINGLE       NONE 19
-GBF C3A CMA SINGLE       NONE 20
-GBF CAA CBA SINGLE       NONE 21
-GBF CBA CGA SINGLE       NONE 22
-GBF CGA O1A DOUBLE       NONE 23
-GBF CGA O2A SINGLE       NONE 24
-GBF O2A  C1 SINGLE       NONE 25
-GBF  NB C1B DOUBLE       NONE 26
-GBF  NB C4B SINGLE       NONE 27
-GBF C1B C2B SINGLE       NONE 28
-GBF C2B C3B DOUBLE       NONE 29
-GBF C2B CMB SINGLE       NONE 30
-GBF C3B C4B SINGLE       NONE 31
-GBF C3B CAB SINGLE       NONE 32
-GBF CAB CBB SINGLE       NONE 33
-GBF  NC C1C SINGLE       NONE 34
-GBF  NC C4C SINGLE       NONE 35
-GBF C1C C2C DOUBLE       NONE 36
-GBF C2C C3C SINGLE       NONE 37
-GBF C2C CMC SINGLE       NONE 38
-GBF C3C C4C DOUBLE       NONE 39
-GBF C3C CAC SINGLE       NONE 40
-GBF CAC CBC SINGLE       NONE 41
-GBF  ND C1D SINGLE       NONE 42
-GBF  ND C4D DOUBLE       NONE 43
-GBF C1D C2D SINGLE       NONE 44
-GBF C2D C3D DOUBLE       NONE 45
-GBF C2D CMD SINGLE       NONE 46
-GBF C3D C4D SINGLE       NONE 47
-GBF C3D CAD SINGLE       NONE 48
-GBF CAD OBD DOUBLE       NONE 49
-GBF CAD CBD SINGLE       NONE 50
-GBF CBD CGD SINGLE BEGINWEDGE 51
-GBF CGD O1D DOUBLE       NONE 52
-GBF CGD O2D SINGLE       NONE 53
-GBF O2D CED SINGLE       NONE 54
-GBF  C1  C2 SINGLE       NONE 55
-GBF  C2  C3 DOUBLE       NONE 56
-GBF  C3  C4 SINGLE       NONE 57
-GBF  C3  C5 SINGLE       NONE 58
-GBF  C5  C6 SINGLE       NONE 59
-GBF  C6  C7 SINGLE       NONE 60
-GBF  C7  C8 DOUBLE       NONE 61
-GBF  C8  C9 SINGLE       NONE 62
-GBF  C8 C10 SINGLE       NONE 63
-GBF C10 C11 SINGLE       NONE 64
-GBF C11 C12 SINGLE       NONE 65
-GBF C12 C13 DOUBLE       NONE 66
-GBF C13 C14 SINGLE       NONE 67
-GBF C13 C15 SINGLE       NONE 68
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-GBF cyclopentane F1 fragment                                                              C1CCCC1        InChI=1S/C5H10/c1-2-4-5-3-1/h1-5H2 RGSFGYAAUTVSQA-UHFFFAOYSA-N
-GBF porphin-like F2 fragment C1~C~C2~C~C3~C~C~C(~C~C4~C~C~C(~C~C5~C~C~C(~C~C~1~N~2)~N~5)~N~4)~N~3                                         .                           .
-GBF  3-pyrroline F3 fragment                                                             C1=CCNC1 InChI=1S/C4H7N/c1-2-4-5-3-1/h1-2,5H,3-4H2 JVQIKJMSUIMUDI-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-GBF CHA F1 1
-GBF C4D F1 1
-GBF C3D F1 1
-GBF CAD F1 1
-GBF CBD F1 1
-GBF C2A F2 1
-GBF C3A F2 1
-GBF C4A F2 1
-GBF CHB F2 1
-GBF C1B F2 1
-GBF  NB F2 1
-GBF C4B F2 1
-GBF C3B F2 1
-GBF C2B F2 1
-GBF CHC F2 1
-GBF C1C F2 1
-GBF  NC F2 1
-GBF C4C F2 1
-GBF CHD F2 1
-GBF C1D F2 1
-GBF  ND F2 1
-GBF C4D F2 1
-GBF CHA F2 1
-GBF C1A F2 1
-GBF  NA F2 1
-GBF C3D F2 1
-GBF C2D F2 1
-GBF C3C F2 1
-GBF C2C F2 1
-GBF C1A F3 1
-GBF  NA F3 1
-GBF C4A F3 1
-GBF C3A F3 1
-GBF C2A F3 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id       GBF
-
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+GBF "Create component"   2017-08-11 RCSB 
+GBF "Other modification" 2017-08-16 RCSB 
+GBF "Modify name"        2017-08-16 RCSB 
+GBF "Other modification" 2017-08-31 RCSB 
+GBF "Initial release"    2017-09-06 RCSB 
+# 

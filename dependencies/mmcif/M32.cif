@@ -1,536 +1,214 @@
 data_M32
-#
-_chem_comp.id                                        M32
-_chem_comp.name                                      N-(benzylsulfonyl)-D-alanyl-N-[2-(aminomethyl)-5-chlorobenzyl]-L-prolinamide
-_chem_comp.type                                      peptide-like
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C23 H29 Cl N4 O4 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2011-04-25
-_chem_comp.pdbx_modified_date                        2012-04-20
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            493.019
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         M32
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            3RMM
-_chem_comp.pdbx_subcomponent_list                    "PMS DAL PRO 00T"
-_chem_comp.pdbx_processing_site                      PDBJ
-
-#
+# 
+_chem_comp.id                                    M32 
+_chem_comp.name                                  "N-(benzylsulfonyl)-D-alanyl-N-[2-(aminomethyl)-5-chlorobenzyl]-L-prolinamide" 
+_chem_comp.type                                  peptide-like 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C23 H29 Cl N4 O4 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2011-04-25 
+_chem_comp.pdbx_modified_date                    2012-04-20 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        493.019 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     M32 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        3RMM 
+_chem_comp.pdbx_subcomponent_list                "PMS DAL PRO 00T" 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-M32   C7   C7  C 0 1 N N N 16.457 -17.911 22.566  -5.727  0.050  0.666    C PMS  1
-M32   S8   S8  S 0 1 N N N 15.828 -16.383 22.296  -4.438  1.108 -0.048    S PMS  2
-M32   C6   C6  C 0 1 Y N N 16.113 -18.406 23.953  -6.987  0.172 -0.153   C1 PMS  3
-M32   C1   C1  C 0 1 Y N N 17.046 -18.274 24.974  -7.202 -0.680 -1.219   C2 PMS  4
-M32   C2   C2  C 0 1 Y N N 16.752 -18.719 26.257  -8.358 -0.569 -1.970   C3 PMS  5
-M32  C30  C30  C 0 1 Y N N 15.517 -19.301 26.518  -9.298  0.394 -1.653   C4 PMS  6
-M32   C4   C4  C 0 1 Y N N 14.584 -19.437 25.497  -9.082  1.245 -0.586   C5 PMS  7
-M32   C5   C5  C 0 1 Y N N 14.878 -18.989 24.213  -7.926  1.135  0.164   C6 PMS  8
-M32  O13  O13  O 0 1 N N N 16.227 -15.962 20.985  -4.021  0.604 -1.310  O2S PMS  9
-M32  O14  O14  O 0 1 N N N 14.395 -16.425 22.341  -4.769  2.480  0.119  O1S PMS 10
-M32   N9   N9  N 0 1 N N N 16.407 -15.386 23.413  -3.125  0.882  0.936    N DAL 11
-M32  C10  C10  C 0 1 N N R 17.565 -14.561 23.153  -2.481 -0.432  1.007   CA DAL 12
-M32  C33  C33  C 0 1 N N N 18.254 -14.231 24.474  -3.047 -1.214  2.194   CB DAL 13
-M32  C11  C11  C 0 1 N N N 17.165 -13.278 22.482  -0.995 -0.254  1.185    C DAL 14
-M32  O15  O15  O 0 1 N N N 16.142 -12.710 22.848  -0.521  0.860  1.246    O DAL 15
-M32  N12  N12  N 0 1 N N N 17.960 -12.821 21.520  -0.193 -1.334  1.276    N PRO 16
-M32  C16  C16  C 0 1 N N S 17.634 -11.576 20.820   1.266 -1.304  1.450   CA PRO 17
-M32  C17  C17  C 0 1 N N N 16.180 -11.471 20.446   1.905 -0.571  0.299    C PRO 18
-M32  O18  O18  O 0 1 N N N 15.570 -12.405 19.936   1.215 -0.113 -0.587    O PRO 19
-M32  C21  C21  C 0 1 N N N 18.531 -11.609 19.585   1.754 -2.768  1.475   CB PRO 20
-M32  C22  C22  C 0 1 N N N 19.727 -12.460 19.988   0.613 -3.527  0.747   CG PRO 21
-M32  C23  C23  C 0 1 N N N 19.187 -13.446 21.013  -0.635 -2.739  1.223   CD PRO 22
-M32  N19  N19  N 0 1 N N N 15.569 -10.313 20.728   3.244 -0.424  0.254  N19 00T 23
-M32  C20  C20  C 0 1 N N N 14.168 -10.088 20.395   3.865  0.289 -0.865  C10 00T 24
-M32  C24  C24  C 0 1 Y N N 13.260 -10.086 21.601   5.360  0.314 -0.677   C6 00T 25
-M32  C25  C25  C 0 1 Y N N 12.469 -11.181 21.897   6.117 -0.795 -1.009   C5 00T 26
-M32  C26  C26  C 0 1 N N N 12.519 -12.426 21.038   5.446 -2.027 -1.558  C32 00T 27
-M32  N32  N32  N 0 1 N N N 13.247 -13.468 21.761   5.165 -1.837 -2.987  N33 00T 28
-M32  C27  C27  C 0 1 Y N N 11.620 -11.167 22.999   7.488 -0.773 -0.837   C4 00T 29
-M32  C28  C28  C 0 1 Y N N 11.552 -10.035 23.808   8.104  0.357 -0.333   C3 00T 30
-M32  C29  C29  C 0 1 Y N N 12.358  -8.943 23.502   7.347  1.467 -0.001   C2 00T 31
-M32  CL3  CL3 CL 0 0 N N N 12.301  -7.490 24.540   8.120  2.886  0.633  CL1 00T 32
-M32  C31  C31  C 0 1 Y N N 13.212  -8.954 22.407   5.976  1.447 -0.179   C7 00T 33
-M32   H7   H7  H 0 1 N N N 17.551 -17.869 22.464  -5.928  0.363  1.690  H2A PMS 34
-M32  H7A  H7A  H 0 1 N N N 16.036 -18.606 21.825  -5.390 -0.986  0.662   H1 PMS 35
-M32   H1   H1  H 0 1 N N N 18.006 -17.823 24.769  -6.470 -1.436 -1.464   H2 PMS 36
-M32   H2   H2  H 0 1 N N N 17.480 -18.613 27.048  -8.527 -1.235 -2.804   H3 PMS 37
-M32  H30  H30  H 0 1 N N N 15.283 -19.647 27.514 -10.201  0.481 -2.240   H4 PMS 38
-M32   H4   H4  H 0 1 N N N 13.626 -19.893 25.701  -9.817  1.997 -0.338   H5 PMS 39
-M32   H5   H5  H 0 1 N N N 14.150 -19.094 23.422  -7.758  1.800  0.998   H6 PMS 40
-M32  HN9  HN9  H 0 1 N N N 15.663 -14.751 23.621  -2.783  1.619  1.465    H DAL 41
-M32  H10  H10  H 0 1 N N N 18.247 -15.114 22.490  -2.673 -0.981  0.085   HA DAL 42
-M32  H33  H33  H 0 1 N N N 19.136 -13.603 24.281  -2.855 -0.665  3.115  HB1 DAL 43
-M32 H33A H33A  H 0 0 N N N 17.554 -13.689 25.127  -4.122 -1.343  2.065  HB2 DAL 44
-M32 H33B H33B  H 0 0 N N N 18.568 -15.163 24.966  -2.568 -2.192  2.247  HB3 DAL 45
-M32  H16  H16  H 0 1 N N N 17.805 -10.695 21.457   1.518 -0.811  2.389   HA PRO 46
-M32  H21  H21  H 0 1 N N N 18.004 -12.052 18.727   2.693 -2.871  0.932  HB2 PRO 47
-M32 H21A H21A  H 0 0 N N N 18.847 -10.595 19.301   1.859 -3.122  2.500  HB3 PRO 48
-M32  H22  H22  H 0 1 N N N 20.145 -12.987 19.118   0.730 -3.464 -0.335  HG2 PRO 49
-M32 H22A H22A  H 0 0 N N N 20.523 -11.838 20.423   0.565 -4.566  1.073  HG3 PRO 50
-M32  H23  H23  H 0 1 N N N 19.912 -13.611 21.824  -0.945 -3.076  2.212  HD2 PRO 51
-M32 H23A H23A  H 0 0 N N N 18.973 -14.421 20.550  -1.451 -2.854  0.509  HD3 PRO 52
-M32 HN19 HN19  H 0 0 N N N 16.087  -9.585 21.178   3.796 -0.790  0.962 HN19 00T 53
-M32  H20  H20  H 0 1 N N N 14.085  -9.109 19.901   3.625 -0.219 -1.799  H10 00T 54
-M32 H20A H20A  H 0 0 N N N 13.842 -10.893 19.720   3.487  1.311 -0.900 H10A 00T 55
-M32  H26  H26  H 0 1 N N N 11.496 -12.769 20.823   6.103 -2.887 -1.428  H32 00T 56
-M32 H26A H26A  H 0 0 N N N 13.033 -12.203 20.091   4.511 -2.201 -1.025 H32A 00T 57
-M32 HN32 HN32  H 0 0 N N N 13.286 -14.296 21.202   6.008 -1.610 -3.494 HN33 00T 58
-M32 HN3A HN3A  H 0 0 N N N 14.176 -13.152 21.955   4.715 -2.650 -3.379 HN3A 00T 59
-M32  H27  H27  H 0 1 N N N 11.015 -12.032 23.227   8.079 -1.639 -1.097   H4 00T 60
-M32  H28  H28  H 0 1 N N N 10.886 -10.006 24.657   9.175  0.373 -0.198   H3 00T 61
-M32  H31  H31  H 0 1 N N N 13.830  -8.096 22.185   5.385  2.314  0.076   H7 00T 62
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+M32 C7   C7   C  0 1 N N N 16.457 -17.911 22.566 -5.727  0.050  0.666  C    PMS 1  
+M32 S8   S8   S  0 1 N N N 15.828 -16.383 22.296 -4.438  1.108  -0.048 S    PMS 2  
+M32 C6   C6   C  0 1 Y N N 16.113 -18.406 23.953 -6.987  0.172  -0.153 C1   PMS 3  
+M32 C1   C1   C  0 1 Y N N 17.046 -18.274 24.974 -7.202  -0.680 -1.219 C2   PMS 4  
+M32 C2   C2   C  0 1 Y N N 16.752 -18.719 26.257 -8.358  -0.569 -1.970 C3   PMS 5  
+M32 C30  C30  C  0 1 Y N N 15.517 -19.301 26.518 -9.298  0.394  -1.653 C4   PMS 6  
+M32 C4   C4   C  0 1 Y N N 14.584 -19.437 25.497 -9.082  1.245  -0.586 C5   PMS 7  
+M32 C5   C5   C  0 1 Y N N 14.878 -18.989 24.213 -7.926  1.135  0.164  C6   PMS 8  
+M32 O13  O13  O  0 1 N N N 16.227 -15.962 20.985 -4.021  0.604  -1.310 O2S  PMS 9  
+M32 O14  O14  O  0 1 N N N 14.395 -16.425 22.341 -4.769  2.480  0.119  O1S  PMS 10 
+M32 N9   N9   N  0 1 N N N 16.407 -15.386 23.413 -3.125  0.882  0.936  N    DAL 11 
+M32 C10  C10  C  0 1 N N R 17.565 -14.561 23.153 -2.481  -0.432 1.007  CA   DAL 12 
+M32 C33  C33  C  0 1 N N N 18.254 -14.231 24.474 -3.047  -1.214 2.194  CB   DAL 13 
+M32 C11  C11  C  0 1 N N N 17.165 -13.278 22.482 -0.995  -0.254 1.185  C    DAL 14 
+M32 O15  O15  O  0 1 N N N 16.142 -12.710 22.848 -0.521  0.860  1.246  O    DAL 15 
+M32 N12  N12  N  0 1 N N N 17.960 -12.821 21.520 -0.193  -1.334 1.276  N    PRO 16 
+M32 C16  C16  C  0 1 N N S 17.634 -11.576 20.820 1.266   -1.304 1.450  CA   PRO 17 
+M32 C17  C17  C  0 1 N N N 16.180 -11.471 20.446 1.905   -0.571 0.299  C    PRO 18 
+M32 O18  O18  O  0 1 N N N 15.570 -12.405 19.936 1.215   -0.113 -0.587 O    PRO 19 
+M32 C21  C21  C  0 1 N N N 18.531 -11.609 19.585 1.754   -2.768 1.475  CB   PRO 20 
+M32 C22  C22  C  0 1 N N N 19.727 -12.460 19.988 0.613   -3.527 0.747  CG   PRO 21 
+M32 C23  C23  C  0 1 N N N 19.187 -13.446 21.013 -0.635  -2.739 1.223  CD   PRO 22 
+M32 N19  N19  N  0 1 N N N 15.569 -10.313 20.728 3.244   -0.424 0.254  N19  00T 23 
+M32 C20  C20  C  0 1 N N N 14.168 -10.088 20.395 3.865   0.289  -0.865 C10  00T 24 
+M32 C24  C24  C  0 1 Y N N 13.260 -10.086 21.601 5.360   0.314  -0.677 C6   00T 25 
+M32 C25  C25  C  0 1 Y N N 12.469 -11.181 21.897 6.117   -0.795 -1.009 C5   00T 26 
+M32 C26  C26  C  0 1 N N N 12.519 -12.426 21.038 5.446   -2.027 -1.558 C32  00T 27 
+M32 N32  N32  N  0 1 N N N 13.247 -13.468 21.761 5.165   -1.837 -2.987 N33  00T 28 
+M32 C27  C27  C  0 1 Y N N 11.620 -11.167 22.999 7.488   -0.773 -0.837 C4   00T 29 
+M32 C28  C28  C  0 1 Y N N 11.552 -10.035 23.808 8.104   0.357  -0.333 C3   00T 30 
+M32 C29  C29  C  0 1 Y N N 12.358 -8.943  23.502 7.347   1.467  -0.001 C2   00T 31 
+M32 CL3  CL3  CL 0 0 N N N 12.301 -7.490  24.540 8.120   2.886  0.633  CL1  00T 32 
+M32 C31  C31  C  0 1 Y N N 13.212 -8.954  22.407 5.976   1.447  -0.179 C7   00T 33 
+M32 H7   H7   H  0 1 N N N 17.551 -17.869 22.464 -5.928  0.363  1.690  H2A  PMS 34 
+M32 H7A  H7A  H  0 1 N N N 16.036 -18.606 21.825 -5.390  -0.986 0.662  H1   PMS 35 
+M32 H1   H1   H  0 1 N N N 18.006 -17.823 24.769 -6.470  -1.436 -1.464 H2   PMS 36 
+M32 H2   H2   H  0 1 N N N 17.480 -18.613 27.048 -8.527  -1.235 -2.804 H3   PMS 37 
+M32 H30  H30  H  0 1 N N N 15.283 -19.647 27.514 -10.201 0.481  -2.240 H4   PMS 38 
+M32 H4   H4   H  0 1 N N N 13.626 -19.893 25.701 -9.817  1.997  -0.338 H5   PMS 39 
+M32 H5   H5   H  0 1 N N N 14.150 -19.094 23.422 -7.758  1.800  0.998  H6   PMS 40 
+M32 HN9  HN9  H  0 1 N N N 15.663 -14.751 23.621 -2.783  1.619  1.465  H    DAL 41 
+M32 H10  H10  H  0 1 N N N 18.247 -15.114 22.490 -2.673  -0.981 0.085  HA   DAL 42 
+M32 H33  H33  H  0 1 N N N 19.136 -13.603 24.281 -2.855  -0.665 3.115  HB1  DAL 43 
+M32 H33A H33A H  0 0 N N N 17.554 -13.689 25.127 -4.122  -1.343 2.065  HB2  DAL 44 
+M32 H33B H33B H  0 0 N N N 18.568 -15.163 24.966 -2.568  -2.192 2.247  HB3  DAL 45 
+M32 H16  H16  H  0 1 N N N 17.805 -10.695 21.457 1.518   -0.811 2.389  HA   PRO 46 
+M32 H21  H21  H  0 1 N N N 18.004 -12.052 18.727 2.693   -2.871 0.932  HB2  PRO 47 
+M32 H21A H21A H  0 0 N N N 18.847 -10.595 19.301 1.859   -3.122 2.500  HB3  PRO 48 
+M32 H22  H22  H  0 1 N N N 20.145 -12.987 19.118 0.730   -3.464 -0.335 HG2  PRO 49 
+M32 H22A H22A H  0 0 N N N 20.523 -11.838 20.423 0.565   -4.566 1.073  HG3  PRO 50 
+M32 H23  H23  H  0 1 N N N 19.912 -13.611 21.824 -0.945  -3.076 2.212  HD2  PRO 51 
+M32 H23A H23A H  0 0 N N N 18.973 -14.421 20.550 -1.451  -2.854 0.509  HD3  PRO 52 
+M32 HN19 HN19 H  0 0 N N N 16.087 -9.585  21.178 3.796   -0.790 0.962  HN19 00T 53 
+M32 H20  H20  H  0 1 N N N 14.085 -9.109  19.901 3.625   -0.219 -1.799 H10  00T 54 
+M32 H20A H20A H  0 0 N N N 13.842 -10.893 19.720 3.487   1.311  -0.900 H10A 00T 55 
+M32 H26  H26  H  0 1 N N N 11.496 -12.769 20.823 6.103   -2.887 -1.428 H32  00T 56 
+M32 H26A H26A H  0 0 N N N 13.033 -12.203 20.091 4.511   -2.201 -1.025 H32A 00T 57 
+M32 HN32 HN32 H  0 0 N N N 13.286 -14.296 21.202 6.008   -1.610 -3.494 HN33 00T 58 
+M32 HN3A HN3A H  0 0 N N N 14.176 -13.152 21.955 4.715   -2.650 -3.379 HN3A 00T 59 
+M32 H27  H27  H  0 1 N N N 11.015 -12.032 23.227 8.079   -1.639 -1.097 H4   00T 60 
+M32 H28  H28  H  0 1 N N N 10.886 -10.006 24.657 9.175   0.373  -0.198 H3   00T 61 
+M32 H31  H31  H  0 1 N N N 13.830 -8.096  22.185 5.385   2.314  0.076  H7   00T 62 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-M32  C1   C2 DOUB Y N  1
-M32  C1   C6 SING Y N  2
-M32  C2  C30 SING Y N  3
-M32 CL3  C29 SING N N  4
-M32  C4   C5 SING Y N  5
-M32  C4  C30 DOUB Y N  6
-M32  C5   C6 DOUB Y N  7
-M32  C6   C7 SING N N  8
-M32  C7   S8 SING N N  9
-M32  S8   N9 SING N N 10
-M32  S8  O13 DOUB N N 11
-M32  S8  O14 DOUB N N 12
-M32  N9  C10 SING N N 13
-M32 C10  C11 SING N N 14
-M32 C10  C33 SING N N 15
-M32 C11  N12 SING N N 16
-M32 C11  O15 DOUB N N 17
-M32 N12  C16 SING N N 18
-M32 N12  C23 SING N N 19
-M32 C16  C17 SING N N 20
-M32 C16  C21 SING N N 21
-M32 C17  O18 DOUB N N 22
-M32 C17  N19 SING N N 23
-M32 N19  C20 SING N N 24
-M32 C20  C24 SING N N 25
-M32 C21  C22 SING N N 26
-M32 C22  C23 SING N N 27
-M32 C24  C25 DOUB Y N 28
-M32 C24  C31 SING Y N 29
-M32 C25  C26 SING N N 30
-M32 C25  C27 SING Y N 31
-M32 C26  N32 SING N N 32
-M32 C27  C28 DOUB Y N 33
-M32 C28  C29 SING Y N 34
-M32 C29  C31 DOUB Y N 35
-M32  C1   H1 SING N N 36
-M32  C2   H2 SING N N 37
-M32  C4   H4 SING N N 38
-M32  C5   H5 SING N N 39
-M32  C7   H7 SING N N 40
-M32  C7  H7A SING N N 41
-M32  N9  HN9 SING N N 42
-M32 C10  H10 SING N N 43
-M32 C16  H16 SING N N 44
-M32 N19 HN19 SING N N 45
-M32 C20  H20 SING N N 46
-M32 C20 H20A SING N N 47
-M32 C21  H21 SING N N 48
-M32 C21 H21A SING N N 49
-M32 C22  H22 SING N N 50
-M32 C22 H22A SING N N 51
-M32 C23  H23 SING N N 52
-M32 C23 H23A SING N N 53
-M32 C26  H26 SING N N 54
-M32 C26 H26A SING N N 55
-M32 C27  H27 SING N N 56
-M32 C28  H28 SING N N 57
-M32 C30  H30 SING N N 58
-M32 C31  H31 SING N N 59
-M32 N32 HN32 SING N N 60
-M32 N32 HN3A SING N N 61
-M32 C33  H33 SING N N 62
-M32 C33 H33A SING N N 63
-M32 C33 H33B SING N N 64
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+M32 C1  C2   DOUB Y N 1  
+M32 C1  C6   SING Y N 2  
+M32 C2  C30  SING Y N 3  
+M32 CL3 C29  SING N N 4  
+M32 C4  C5   SING Y N 5  
+M32 C4  C30  DOUB Y N 6  
+M32 C5  C6   DOUB Y N 7  
+M32 C6  C7   SING N N 8  
+M32 C7  S8   SING N N 9  
+M32 S8  N9   SING N N 10 
+M32 S8  O13  DOUB N N 11 
+M32 S8  O14  DOUB N N 12 
+M32 N9  C10  SING N N 13 
+M32 C10 C11  SING N N 14 
+M32 C10 C33  SING N N 15 
+M32 C11 N12  SING N N 16 
+M32 C11 O15  DOUB N N 17 
+M32 N12 C16  SING N N 18 
+M32 N12 C23  SING N N 19 
+M32 C16 C17  SING N N 20 
+M32 C16 C21  SING N N 21 
+M32 C17 O18  DOUB N N 22 
+M32 C17 N19  SING N N 23 
+M32 N19 C20  SING N N 24 
+M32 C20 C24  SING N N 25 
+M32 C21 C22  SING N N 26 
+M32 C22 C23  SING N N 27 
+M32 C24 C25  DOUB Y N 28 
+M32 C24 C31  SING Y N 29 
+M32 C25 C26  SING N N 30 
+M32 C25 C27  SING Y N 31 
+M32 C26 N32  SING N N 32 
+M32 C27 C28  DOUB Y N 33 
+M32 C28 C29  SING Y N 34 
+M32 C29 C31  DOUB Y N 35 
+M32 C1  H1   SING N N 36 
+M32 C2  H2   SING N N 37 
+M32 C4  H4   SING N N 38 
+M32 C5  H5   SING N N 39 
+M32 C7  H7   SING N N 40 
+M32 C7  H7A  SING N N 41 
+M32 N9  HN9  SING N N 42 
+M32 C10 H10  SING N N 43 
+M32 C16 H16  SING N N 44 
+M32 N19 HN19 SING N N 45 
+M32 C20 H20  SING N N 46 
+M32 C20 H20A SING N N 47 
+M32 C21 H21  SING N N 48 
+M32 C21 H21A SING N N 49 
+M32 C22 H22  SING N N 50 
+M32 C22 H22A SING N N 51 
+M32 C23 H23  SING N N 52 
+M32 C23 H23A SING N N 53 
+M32 C26 H26  SING N N 54 
+M32 C26 H26A SING N N 55 
+M32 C27 H27  SING N N 56 
+M32 C28 H28  SING N N 57 
+M32 C30 H30  SING N N 58 
+M32 C31 H31  SING N N 59 
+M32 N32 HN32 SING N N 60 
+M32 N32 HN3A SING N N 61 
+M32 C33 H33  SING N N 62 
+M32 C33 H33A SING N N 63 
+M32 C33 H33B SING N N 64 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-M32           SMILES              ACDLabs 12.01                                                                                                                                           O=C(NCc1cc(Cl)ccc1CN)C3N(C(=O)C(NS(=O)(=O)Cc2ccccc2)C)CCC3
-M32 SMILES_CANONICAL               CACTVS 3.370                                                                                                                                  C[C@@H](N[S](=O)(=O)Cc1ccccc1)C(=O)N2CCC[C@H]2C(=O)NCc3cc(Cl)ccc3CN
-M32           SMILES               CACTVS 3.370                                                                                                                                     C[CH](N[S](=O)(=O)Cc1ccccc1)C(=O)N2CCC[CH]2C(=O)NCc3cc(Cl)ccc3CN
-M32 SMILES_CANONICAL "OpenEye OEToolkits" 1.7.2                                                                                                                                     C[C@H](C(=O)N1CCC[C@H]1C(=O)NCc2cc(ccc2CN)Cl)NS(=O)(=O)Cc3ccccc3
-M32           SMILES "OpenEye OEToolkits" 1.7.2                                                                                                                                             CC(C(=O)N1CCCC1C(=O)NCc2cc(ccc2CN)Cl)NS(=O)(=O)Cc3ccccc3
-M32            InChI                InChI  1.03 InChI=1S/C23H29ClN4O4S/c1-16(27-33(31,32)15-17-6-3-2-4-7-17)23(30)28-11-5-8-21(28)22(29)26-14-19-12-20(24)10-9-18(19)13-25/h2-4,6-7,9-10,12,16,21,27H,5,8,11,13-15,25H2,1H3,(H,26,29)/t16-,21+/m1/s1
-M32         InChIKey                InChI  1.03                                                                                                                                                                          MAUGNQAVJWFOOZ-IERDGZPVSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+M32 SMILES           ACDLabs              12.01 "O=C(NCc1cc(Cl)ccc1CN)C3N(C(=O)C(NS(=O)(=O)Cc2ccccc2)C)CCC3"                                                                                                                                           
+M32 SMILES_CANONICAL CACTVS               3.370 "C[C@@H](N[S](=O)(=O)Cc1ccccc1)C(=O)N2CCC[C@H]2C(=O)NCc3cc(Cl)ccc3CN"                                                                                                                                  
+M32 SMILES           CACTVS               3.370 "C[CH](N[S](=O)(=O)Cc1ccccc1)C(=O)N2CCC[CH]2C(=O)NCc3cc(Cl)ccc3CN"                                                                                                                                     
+M32 SMILES_CANONICAL "OpenEye OEToolkits" 1.7.2 "C[C@H](C(=O)N1CCC[C@H]1C(=O)NCc2cc(ccc2CN)Cl)NS(=O)(=O)Cc3ccccc3"                                                                                                                                     
+M32 SMILES           "OpenEye OEToolkits" 1.7.2 "CC(C(=O)N1CCCC1C(=O)NCc2cc(ccc2CN)Cl)NS(=O)(=O)Cc3ccccc3"                                                                                                                                             
+M32 InChI            InChI                1.03  "InChI=1S/C23H29ClN4O4S/c1-16(27-33(31,32)15-17-6-3-2-4-7-17)23(30)28-11-5-8-21(28)22(29)26-14-19-12-20(24)10-9-18(19)13-25/h2-4,6-7,9-10,12,16,21,27H,5,8,11,13-15,25H2,1H3,(H,26,29)/t16-,21+/m1/s1" 
+M32 InChIKey         InChI                1.03  MAUGNQAVJWFOOZ-IERDGZPVSA-N                                                                                                                                                                            
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-M32 "SYSTEMATIC NAME"              ACDLabs 12.01                                                   N-(benzylsulfonyl)-D-alanyl-N-[2-(aminomethyl)-5-chlorobenzyl]-L-prolinamide
-M32 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.2 (2S)-N-[[2-(aminomethyl)-5-chloranyl-phenyl]methyl]-1-[(2R)-2-[(phenylmethyl)sulfonylamino]propanoyl]pyrrolidine-2-carboxamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+M32 "SYSTEMATIC NAME" ACDLabs              12.01 "N-(benzylsulfonyl)-D-alanyl-N-[2-(aminomethyl)-5-chlorobenzyl]-L-prolinamide"                                                   
+M32 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.2 "(2S)-N-[[2-(aminomethyl)-5-chloranyl-phenyl]methyl]-1-[(2R)-2-[(phenylmethyl)sulfonylamino]propanoyl]pyrrolidine-2-carboxamide" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-M32     "Create component" 2011-04-25 PDBJ
-M32 "Modify aromatic_flag" 2011-06-04 RCSB
-M32    "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-M32  C7  C  9.164  5.963  1
-M32  S8  S  8.852  4.496  2
-M32  C6  C  8.049  6.967  3
-M32  C1  C  8.361  8.434  4
-M32  C2  C  7.246  9.438  5
-M32 C30  C  5.819  8.974  6
-M32  C4  C  5.508  7.507  7
-M32  C5  C  6.622  6.503  8
-M32 O13  O  7.385  4.808  9
-M32 O14  O 10.319  4.184 10
-M32  N9  N  8.540  3.029 11
-M32 C10  C  9.655  2.025 12
-M32 C33  C 11.081  2.489 13
-M32 C11  C  9.343  0.558 14
-M32 O15  O  7.916  0.094 15
-M32 N12  N 10.457 -0.446 16
-M32 C16  C 10.301 -1.938 17
-M32 C17  C  9.002 -2.688 18
-M32 O18  O  7.702 -1.938 19
-M32 C21  C 11.671 -2.548 20
-M32 C22  C 12.675 -1.433 21
-M32 C23  C 11.925 -0.134 22
-M32 N19  N  9.002 -4.188 23
-M32 C20  C  7.702 -4.938 24
-M32 C24  C  7.702 -6.438 25
-M32 C25  C  6.404 -7.188 26
-M32 C26  C  5.104 -6.438 27
-M32 N32  N  3.805 -7.188 28
-M32 C27  C  6.404 -8.688 29
-M32 C28  C  7.702 -9.438 30
-M32 C29  C  9.002 -8.688 31
-M32 CL3 Cl 10.301 -9.438 32
-M32 C31  C  9.002 -7.188 33
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-M32  C1  C2 DOUBLE       NONE  1
-M32  C1  C6 SINGLE       NONE  2
-M32  C2 C30 SINGLE       NONE  3
-M32 CL3 C29 SINGLE       NONE  4
-M32  C4  C5 SINGLE       NONE  5
-M32  C4 C30 DOUBLE       NONE  6
-M32  C5  C6 DOUBLE       NONE  7
-M32  C6  C7 SINGLE       NONE  8
-M32  C7  S8 SINGLE       NONE  9
-M32  S8  N9 SINGLE       NONE 10
-M32  S8 O13 DOUBLE       NONE 11
-M32  S8 O14 DOUBLE       NONE 12
-M32  N9 C10 SINGLE       NONE 13
-M32 C10 C11 SINGLE       NONE 14
-M32 C10 C33 SINGLE  BEGINDASH 15
-M32 C11 N12 SINGLE       NONE 16
-M32 C11 O15 DOUBLE       NONE 17
-M32 N12 C16 SINGLE       NONE 18
-M32 N12 C23 SINGLE       NONE 19
-M32 C16 C17 SINGLE BEGINWEDGE 20
-M32 C16 C21 SINGLE       NONE 21
-M32 C17 O18 DOUBLE       NONE 22
-M32 C17 N19 SINGLE       NONE 23
-M32 N19 C20 SINGLE       NONE 24
-M32 C20 C24 SINGLE       NONE 25
-M32 C21 C22 SINGLE       NONE 26
-M32 C22 C23 SINGLE       NONE 27
-M32 C24 C25 DOUBLE       NONE 28
-M32 C24 C31 SINGLE       NONE 29
-M32 C25 C26 SINGLE       NONE 30
-M32 C25 C27 SINGLE       NONE 31
-M32 C26 N32 SINGLE       NONE 32
-M32 C27 C28 DOUBLE       NONE 33
-M32 C28 C29 SINGLE       NONE 34
-M32 C29 C31 DOUBLE       NONE 35
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-M32 MurckoScaffold S1 scaffold O=C(NCc1ccccc1)[C@@H]1CCCN1C(=O)CNS(=O)(=O)Cc1ccccc1 InChI=1S/C21H25N3O4S/c25-20(15-23-29(27,28)16-18-10-5-2-6-11-18)24-13-7-12-19(24)21(26)22-14-17-8-3-1-4-9-17/h1-6,8-11,19,23H,7,12-16H2,(H,22,26)/t19-/m0/s1 YFXRPOGWTQREEP-IBGZPJMESA-N
-M32          amide F1 fragment                                              CC(N)=O                                                                                                                       InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-M32        peptide F2 fragment                                                NCC=O                                                                                                                           InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-M32         phenyl F3 fragment                                             c1ccccc1                                                                                                                           InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-M32     Z133621020 F4 fragment                                 CNS(=O)(=O)Cc1ccccc1                                                                                             InChI=1S/C8H11NO2S/c1-9-12(10,11)7-8-5-3-2-4-6-8/h2-6,9H,7H2,1H3 NYLBABUQWKLNCW-UHFFFAOYSA-N
-M32     Z431570984 F5 fragment                                   CNCCNS(C)(=O)=O.Cl                                                                                             InChI=1S/C4H12N2O2S.ClH/c1-5-3-4-6-9(2,7)8;/h5-6H,3-4H2,1-2H3;1H KOWKLRCTVDADQT-UHFFFAOYSA-N
-M32    Z2856434770 F6 fragment                                      CNCc1cccc(Cl)c1                                                                                                   InChI=1S/C8H10ClN/c1-10-6-7-3-2-4-8(9)5-7/h2-5,10H,6H2,1H3 ZPNLAQVYPIAHTO-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-M32 N12 F1 1
-M32 C11 F1 1
-M32 O15 F1 1
-M32 C10 F1 1
-M32 N19 F1 2
-M32 C17 F1 2
-M32 O18 F1 2
-M32 C16 F1 2
-M32 O15 F2 1
-M32 C11 F2 1
-M32 C10 F2 1
-M32  N9 F2 1
-M32 O18 F2 2
-M32 C17 F2 2
-M32 C16 F2 2
-M32 N12 F2 2
-M32  C6 F3 1
-M32  C1 F3 1
-M32  C2 F3 1
-M32 C30 F3 1
-M32  C4 F3 1
-M32  C5 F3 1
-M32 C24 F3 2
-M32 C25 F3 2
-M32 C27 F3 2
-M32 C28 F3 2
-M32 C29 F3 2
-M32 C31 F3 2
-M32 C10 F4 1
-M32  N9 F4 1
-M32  S8 F4 1
-M32 O13 F4 1
-M32 O14 F4 1
-M32  C7 F4 1
-M32  C6 F4 1
-M32  C1 F4 1
-M32  C2 F4 1
-M32 C30 F4 1
-M32  C4 F4 1
-M32  C5 F4 1
-M32 CL3 F5 1
-M32 C16 F5 1
-M32 N12 F5 1
-M32 C11 F5 1
-M32 C10 F5 1
-M32  N9 F5 1
-M32  S8 F5 1
-M32 O13 F5 1
-M32 O14 F5 1
-M32  C7 F5 1
-M32 CL3 F5 2
-M32 C23 F5 2
-M32 N12 F5 2
-M32 C11 F5 2
-M32 C10 F5 2
-M32  N9 F5 2
-M32  S8 F5 2
-M32 O13 F5 2
-M32 O14 F5 2
-M32  C7 F5 2
-M32 C17 F6 1
-M32 N19 F6 1
-M32 C20 F6 1
-M32 C24 F6 1
-M32 C25 F6 1
-M32 C27 F6 1
-M32 C28 F6 1
-M32 C29 F6 1
-M32 CL3 F6 1
-M32 C31 F6 1
-M32  C7 S1 1
-M32  S8 S1 1
-M32  C6 S1 1
-M32  C1 S1 1
-M32  C2 S1 1
-M32 C30 S1 1
-M32  C4 S1 1
-M32  C5 S1 1
-M32 O13 S1 1
-M32 O14 S1 1
-M32  N9 S1 1
-M32 C10 S1 1
-M32 C11 S1 1
-M32 O15 S1 1
-M32 N12 S1 1
-M32 C16 S1 1
-M32 C17 S1 1
-M32 O18 S1 1
-M32 C21 S1 1
-M32 C22 S1 1
-M32 C23 S1 1
-M32 N19 S1 1
-M32 C20 S1 1
-M32 C24 S1 1
-M32 C25 S1 1
-M32 C27 S1 1
-M32 C28 S1 1
-M32 C29 S1 1
-M32 C31 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               M32
-_pdbe_chem_comp_rdkit_properties.exactmw                               492.160
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     11
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                5
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        10
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.391
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             240.060
-_pdbe_chem_comp_rdkit_properties.tpsa                                  121.600
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.750
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             126.791
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         33
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-M32 UniChem    ChEMBL    CHEMBL2152427
-M32 UniChem      ZINC ZINC000095579950
-M32 UniChem BindingDb         50392026
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-M32   C7  1.690 -0.897 -1.266 ETKDGv2  1
-M32   S8  3.025  0.245 -1.603 ETKDGv2  2
-M32   C6  2.188 -2.096 -0.507 ETKDGv2  3
-M32   C1  2.065 -2.145  0.971 ETKDGv2  4
-M32   C2  2.488 -3.218  1.649 ETKDGv2  5
-M32  C30  3.086 -4.360  0.928 ETKDGv2  6
-M32   C4  3.204 -4.323 -0.404 ETKDGv2  7
-M32   C5  2.733 -3.141 -1.157 ETKDGv2  8
-M32  O13  4.183 -0.507 -2.196 ETKDGv2  9
-M32  O14  2.552  1.263 -2.604 ETKDGv2 10
-M32   N9  3.555  1.019 -0.131 ETKDGv2 11
-M32  C10  2.948  2.347  0.055 ETKDGv2 12
-M32  C33  3.597  3.038  1.256 ETKDGv2 13
-M32  C11  1.449  2.259  0.266 ETKDGv2 14
-M32  O15  1.006  1.532  1.198 ETKDGv2 15
-M32  N12  0.520  2.985 -0.565 ETKDGv2 16
-M32  C16 -0.921  2.782 -0.501 ETKDGv2 17
-M32  C17 -1.294  1.504 -1.206 ETKDGv2 18
-M32  O18 -0.860  1.283 -2.370 ETKDGv2 19
-M32  C21 -1.534  4.000 -1.194 ETKDGv2 20
-M32  C22 -0.413  4.612 -2.028 ETKDGv2 21
-M32  C23  0.887  4.108 -1.415 ETKDGv2 22
-M32  N19 -2.146  0.547 -0.564 ETKDGv2 23
-M32  C20 -2.473 -0.728 -1.201 ETKDGv2 24
-M32  C24 -3.353 -1.577 -0.308 ETKDGv2 25
-M32  C25 -2.910 -2.138  0.852 ETKDGv2 26
-M32  C26 -1.514 -1.936  1.391 ETKDGv2 27
-M32  N32 -1.478 -0.770  2.267 ETKDGv2 28
-M32  C27 -3.852 -2.939  1.676 ETKDGv2 29
-M32  C28 -5.115 -3.129  1.282 ETKDGv2 30
-M32  C29 -5.591 -2.537  0.020 ETKDGv2 31
-M32  CL3 -7.250 -2.793 -0.489 ETKDGv2 32
-M32  C31 -4.761 -1.804 -0.731 ETKDGv2 33
-M32   H7  1.226 -1.214 -2.225 ETKDGv2 34
-M32  H7A  0.907 -0.376 -0.681 ETKDGv2 35
-M32   H1  1.636 -1.310  1.509 ETKDGv2 36
-M32   H2  2.397 -3.250  2.727 ETKDGv2 37
-M32  H30  3.429 -5.226  1.480 ETKDGv2 38
-M32   H4  3.642 -5.158 -0.934 ETKDGv2 39
-M32   H5  2.831 -3.130 -2.235 ETKDGv2 40
-M32  HN9  3.314  0.400  0.675 ETKDGv2 41
-M32  H10  3.191  2.972 -0.827 ETKDGv2 42
-M32  H33  4.692  3.130  1.092 ETKDGv2 43
-M32 H33A  3.425  2.456  2.187 ETKDGv2 44
-M32 H33B  3.175  4.058  1.385 ETKDGv2 45
-M32  H16 -1.258  2.757  0.559 ETKDGv2 46
-M32  H21 -2.415  3.744 -1.824 ETKDGv2 47
-M32 H21A -1.856  4.736 -0.425 ETKDGv2 48
-M32  H22 -0.496  4.254 -3.078 ETKDGv2 49
-M32 H22A -0.462  5.723 -2.018 ETKDGv2 50
-M32  H23  1.362  4.904 -0.801 ETKDGv2 51
-M32 H23A  1.579  3.782 -2.220 ETKDGv2 52
-M32 HN19 -2.565  0.790  0.362 ETKDGv2 53
-M32  H20 -2.992 -0.518 -2.161 ETKDGv2 54
-M32 H20A -1.545 -1.280 -1.459 ETKDGv2 55
-M32  H26 -1.194 -2.839  1.959 ETKDGv2 56
-M32 H26A -0.778 -1.811  0.574 ETKDGv2 57
-M32 HN32 -0.491 -0.634  2.581 ETKDGv2 58
-M32 HN3A -2.035 -0.987  3.126 ETKDGv2 59
-M32  H27 -3.518 -3.375  2.610 ETKDGv2 60
-M32  H28 -5.789 -3.715  1.893 ETKDGv2 61
-M32  H31 -5.123 -1.369 -1.654 ETKDGv2 62
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+M32 "Create component"     2011-04-25 PDBJ 
+M32 "Modify aromatic_flag" 2011-06-04 RCSB 
+M32 "Modify descriptor"    2011-06-04 RCSB 
+# 

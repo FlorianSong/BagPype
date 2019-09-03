@@ -1,553 +1,231 @@
 data_DRY
-#
-_chem_comp.id                                        DRY
-_chem_comp.name                                      "[(1-{3-[(6-BENZOYL-1-PROPYL-2-NAPHTHYL)OXY]PROPYL}-1H-INDOL-5-YL)OXY]ACETIC ACID"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C33 H31 N O5"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             "{1-[3-(6-BENZOYL-1-PROPYLNAPHTHALEN-2-YLOXY)PROPYL]-1H-INDOL-5-YLOXY}-ACETIC ACID"
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2006-08-09
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       ?
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            521.603
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         DRY
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      PDBJ
-
-#
+# 
+_chem_comp.id                                    DRY 
+_chem_comp.name                                  "[(1-{3-[(6-BENZOYL-1-PROPYL-2-NAPHTHYL)OXY]PROPYL}-1H-INDOL-5-YL)OXY]ACETIC ACID" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C33 H31 N O5" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         "{1-[3-(6-BENZOYL-1-PROPYLNAPHTHALEN-2-YLOXY)PROPYL]-1H-INDOL-5-YLOXY}-ACETIC ACID" 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2006-08-09 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   ? 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        521.603 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     DRY 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBJ 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-DRY  CAO  CAO C 0 1 Y N N -32.877  7.942 44.021 -3.488 -1.053  2.642  CAO DRY  1
-DRY  CAR  CAR C 0 1 Y N N -33.022  8.813 45.098 -3.798 -0.713  3.958  CAR DRY  2
-DRY  CAQ  CAQ C 0 1 Y N N -33.865  8.472 46.153 -2.792 -0.676  4.924  CAQ DRY  3
-DRY  CAP  CAP C 0 1 Y N N -34.563  7.262 46.134 -1.477 -0.978  4.573  CAP DRY  4
-DRY  CAS  CAS C 0 1 Y N N -34.415  6.390 45.057 -1.167 -1.318  3.256  CAS DRY  5
-DRY  CAT  CAT C 0 1 Y N N -33.575  6.729 43.995 -2.182 -1.345  2.328  CAT DRY  6
-DRY  CAU  CAU C 0 1 N N N -33.369  5.771 42.814 -1.850 -1.709  0.917  CAU DRY  7
-DRY  OBH  OBH O 0 1 N N N -32.220  5.353 42.603 -2.781 -1.727  0.100  OBH DRY  8
-DRY  CAV  CAV C 0 1 Y N N -34.502  5.279 41.889 -0.497 -2.034  0.494  CAV DRY  9
-DRY  CBA  CBA C 0 1 Y N N -35.824  5.101 42.303 -0.048 -3.354  0.545  CBA DRY 10
-DRY  CAW  CAW C 0 1 Y N N -34.151  4.954 40.575  0.350 -1.027  0.039  CAW DRY 11
-DRY  CAZ  CAZ C 0 1 Y N N -35.095  4.445 39.691  1.648 -1.337 -0.367  CAZ DRY 12
-DRY  CAY  CAY C 0 1 Y N N -36.411  4.250 40.103  2.117 -2.660 -0.322  CAY DRY 13
-DRY  CBD  CBD C 0 1 Y N N -37.331  3.705 39.192  3.421 -2.990 -0.727  CBD DRY 14
-DRY  CBE  CBE C 0 1 N N N -36.921  3.328 37.747  4.370 -1.941 -1.224  CBE DRY 15
-DRY  CBF  CBF C 0 1 N N N -36.953  4.617 36.819  5.196 -1.334 -0.084  CBF DRY 16
-DRY  CBG  CBG C 0 1 N N N -36.835  4.177 35.352  6.181 -0.294 -0.594  CBG DRY 17
-DRY  CAX  CAX C 0 1 Y N N -36.775  4.587 41.412  1.256 -3.684  0.140  CAX DRY 18
-DRY  CBB  CBB C 0 1 Y N N -38.089  4.383 41.828  1.724 -5.007  0.185  CBB DRY 19
-DRY  CBC  CBC C 0 1 Y N N -39.016  3.840 40.937  3.023 -5.317 -0.221  CBC DRY 20
-DRY  CAE  CAE C 0 1 Y N N -38.646  3.503 39.635  3.869 -4.310 -0.676  CAE DRY 21
-DRY  OAD  OAD O 0 1 N N N -39.539  2.962 38.751  5.134 -4.636 -1.067  OAD DRY 22
-DRY  CAC  CAC C 0 1 N N N -40.920  3.186 39.118  5.978 -5.239 -0.089  CAC DRY 23
-DRY  CAB  CAB C 0 1 N N N -41.776  3.339 37.849  7.425 -4.880 -0.404  CAB DRY 24
-DRY  CAA  CAA C 0 1 N N N -42.159  4.804 37.603  7.890 -5.381 -1.771  CAA DRY 25
-DRY  NAM  NAM N 0 1 Y N N -41.337  5.395 36.539  9.254 -4.994 -2.107  NAM DRY 26
-DRY  CAN  CAN C 0 1 Y N N -40.792  4.718 35.528 10.354 -5.740 -1.803  CAN DRY 27
-DRY  CAF  CAF C 0 1 Y N N -40.115  5.576 34.764 11.457 -5.064 -2.272  CAF DRY 28
-DRY  CAG  CAG C 0 1 Y N N -40.238  6.796 35.292 11.001 -3.862 -2.882  CAG DRY 29
-DRY  CAL  CAL C 0 1 Y N N -39.744  8.037 34.908 11.640 -2.783 -3.525  CAL DRY 30
-DRY  CAH  CAH C 0 1 Y N N -41.029  6.682 36.439  9.609 -3.844 -2.763  CAH DRY 31
-DRY  CAK  CAK C 0 1 Y N N -41.328  7.814 37.204  8.822 -2.798 -3.258  CAK DRY 32
-DRY  CAJ  CAJ C 0 1 Y N N -40.835  9.059 36.817  9.479 -1.739 -3.892  CAJ DRY 33
-DRY  CAI  CAI C 0 1 Y N N -40.042  9.173 35.672 10.866 -1.730 -4.025  CAI DRY 34
-DRY  OBI  OBI O 0 1 N N N -39.561 10.393 35.300 11.478 -0.684 -4.648  OBI DRY 35
-DRY  CBJ  CBJ C 0 1 N N N -38.373 10.254 34.467 12.696 -0.962 -5.335  CBJ DRY 36
-DRY  CBK  CBK C 0 1 N N N -37.920 11.661 34.025 12.859 -0.012 -6.489  CBK DRY 37
-DRY  OBM  OBM O 0 1 N N N -38.589 12.669 34.394 14.031 -0.249 -7.129  OBM DRY 38
-DRY  OBL  OBL O 0 1 N N N -36.896 11.735 33.311 12.063  0.855 -6.818  OBL DRY 39
-DRY  HBM  HBM H 0 1 N N N -38.191 13.458 34.046 14.163  0.359 -7.888  HBM DRY 40
-DRY HBJ1 1HBJ H 0 0 N N N -37.570  9.767 35.040 13.523 -0.825 -4.633 HBJ1 DRY 41
-DRY HBJ2 2HBJ H 0 0 N N N -38.601  9.637 33.585 12.674 -1.993 -5.696 HBJ2 DRY 42
-DRY  HAJ  HAJ H 0 1 N N N -41.066  9.936 37.403  8.891 -0.913 -4.285  HAJ DRY 43
-DRY  HAK  HAK H 0 1 N N N -41.938  7.724 38.091  7.742 -2.800 -3.157  HAK DRY 44
-DRY  HAN  HAN H 0 1 N N N -40.883  3.656 35.357 10.269 -6.685 -1.283  HAN DRY 45
-DRY  HAF  HAF H 0 1 N N N -39.562  5.327 33.871 12.481 -5.399 -2.184  HAF DRY 46
-DRY  HAL  HAL H 0 1 N N N -39.132  8.125 34.023 12.722 -2.770 -3.632  HAL DRY 47
-DRY HAA1 1HAA H 0 0 N N N -43.217  4.851 37.304  7.815 -6.473 -1.832 HAA1 DRY 48
-DRY HAA2 2HAA H 0 0 N N N -41.990  5.370 38.531  7.242 -4.974 -2.558 HAA2 DRY 49
-DRY HAB1 1HAB H 0 0 N N N -41.200  2.973 36.986  7.533 -3.788 -0.372 HAB1 DRY 50
-DRY HAB2 2HAB H 0 0 N N N -42.700  2.757 37.982  8.076 -5.263  0.392 HAB2 DRY 51
-DRY HAC1 1HAC H 0 0 N N N -41.286  2.330 39.704  5.681 -4.865  0.896 HAC1 DRY 52
-DRY HAC2 2HAC H 0 0 N N N -40.993  4.104 39.719  5.829 -6.322 -0.121 HAC2 DRY 53
-DRY  HBC  HBC H 0 1 N N N -40.034  3.679 41.260  3.366 -6.347 -0.179  HBC DRY 54
-DRY  HBB  HBB H 0 1 N N N -38.388  4.643 42.833  1.080 -5.810  0.536  HBB DRY 55
-DRY  HBA  HBA H 0 1 N N N -36.113  5.360 43.311 -0.719 -4.134  0.902  HBA DRY 56
-DRY  HAW  HAW H 0 1 N N N -33.134  5.100 40.243  0.010  0.004 -0.004  HAW DRY 57
-DRY  HAZ  HAZ H 0 1 N N N -34.807  4.199 38.680  2.278 -0.522 -0.716  HAZ DRY 58
-DRY HBE1 1HBE H 0 0 N N N -35.903  2.911 37.755  5.047 -2.370 -1.978 HBE1 DRY 59
-DRY HBE2 2HBE H 0 0 N N N -37.628  2.582 37.354  3.817 -1.142 -1.740 HBE2 DRY 60
-DRY HBF1 1HBF H 0 0 N N N -37.899  5.157 36.968  4.531 -0.868  0.654 HBF1 DRY 61
-DRY HBF2 2HBF H 0 0 N N N -36.116  5.282 37.077  5.748 -2.123  0.442 HBF2 DRY 62
-DRY HBG1 1HBG H 0 0 N N N -36.807  5.065 34.703  6.884 -0.736 -1.307 HBG1 DRY 63
-DRY HBG2 2HBG H 0 0 N N N -35.911  3.595 35.217  5.659  0.530 -1.090 HBG2 DRY 64
-DRY HBG3 3HBG H 0 0 N N N -37.703  3.556 35.085  6.758  0.122  0.238 HBG3 DRY 65
-DRY  HAS  HAS H 0 1 N N N -34.950  5.452 45.044 -0.138 -1.552  2.994  HAS DRY 66
-DRY  HAP  HAP H 0 1 N N N -35.217  7.002 46.953 -0.693 -0.950  5.325  HAP DRY 67
-DRY  HAQ  HAQ H 0 1 N N N -33.980  9.146 46.989 -3.033 -0.411  5.949  HAQ DRY 68
-DRY  HAR  HAR H 0 1 N N N -32.483  9.749 45.115 -4.822 -0.477  4.232  HAR DRY 69
-DRY  HAO  HAO H 0 1 N N N -32.223  8.204 43.202 -4.280 -1.079  1.897  HAO DRY 70
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+DRY CAO  CAO  C 0 1 Y N N -32.877 7.942  44.021 -3.488 -1.053 2.642  CAO  DRY 1  
+DRY CAR  CAR  C 0 1 Y N N -33.022 8.813  45.098 -3.798 -0.713 3.958  CAR  DRY 2  
+DRY CAQ  CAQ  C 0 1 Y N N -33.865 8.472  46.153 -2.792 -0.676 4.924  CAQ  DRY 3  
+DRY CAP  CAP  C 0 1 Y N N -34.563 7.262  46.134 -1.477 -0.978 4.573  CAP  DRY 4  
+DRY CAS  CAS  C 0 1 Y N N -34.415 6.390  45.057 -1.167 -1.318 3.256  CAS  DRY 5  
+DRY CAT  CAT  C 0 1 Y N N -33.575 6.729  43.995 -2.182 -1.345 2.328  CAT  DRY 6  
+DRY CAU  CAU  C 0 1 N N N -33.369 5.771  42.814 -1.850 -1.709 0.917  CAU  DRY 7  
+DRY OBH  OBH  O 0 1 N N N -32.220 5.353  42.603 -2.781 -1.727 0.100  OBH  DRY 8  
+DRY CAV  CAV  C 0 1 Y N N -34.502 5.279  41.889 -0.497 -2.034 0.494  CAV  DRY 9  
+DRY CBA  CBA  C 0 1 Y N N -35.824 5.101  42.303 -0.048 -3.354 0.545  CBA  DRY 10 
+DRY CAW  CAW  C 0 1 Y N N -34.151 4.954  40.575 0.350  -1.027 0.039  CAW  DRY 11 
+DRY CAZ  CAZ  C 0 1 Y N N -35.095 4.445  39.691 1.648  -1.337 -0.367 CAZ  DRY 12 
+DRY CAY  CAY  C 0 1 Y N N -36.411 4.250  40.103 2.117  -2.660 -0.322 CAY  DRY 13 
+DRY CBD  CBD  C 0 1 Y N N -37.331 3.705  39.192 3.421  -2.990 -0.727 CBD  DRY 14 
+DRY CBE  CBE  C 0 1 N N N -36.921 3.328  37.747 4.370  -1.941 -1.224 CBE  DRY 15 
+DRY CBF  CBF  C 0 1 N N N -36.953 4.617  36.819 5.196  -1.334 -0.084 CBF  DRY 16 
+DRY CBG  CBG  C 0 1 N N N -36.835 4.177  35.352 6.181  -0.294 -0.594 CBG  DRY 17 
+DRY CAX  CAX  C 0 1 Y N N -36.775 4.587  41.412 1.256  -3.684 0.140  CAX  DRY 18 
+DRY CBB  CBB  C 0 1 Y N N -38.089 4.383  41.828 1.724  -5.007 0.185  CBB  DRY 19 
+DRY CBC  CBC  C 0 1 Y N N -39.016 3.840  40.937 3.023  -5.317 -0.221 CBC  DRY 20 
+DRY CAE  CAE  C 0 1 Y N N -38.646 3.503  39.635 3.869  -4.310 -0.676 CAE  DRY 21 
+DRY OAD  OAD  O 0 1 N N N -39.539 2.962  38.751 5.134  -4.636 -1.067 OAD  DRY 22 
+DRY CAC  CAC  C 0 1 N N N -40.920 3.186  39.118 5.978  -5.239 -0.089 CAC  DRY 23 
+DRY CAB  CAB  C 0 1 N N N -41.776 3.339  37.849 7.425  -4.880 -0.404 CAB  DRY 24 
+DRY CAA  CAA  C 0 1 N N N -42.159 4.804  37.603 7.890  -5.381 -1.771 CAA  DRY 25 
+DRY NAM  NAM  N 0 1 Y N N -41.337 5.395  36.539 9.254  -4.994 -2.107 NAM  DRY 26 
+DRY CAN  CAN  C 0 1 Y N N -40.792 4.718  35.528 10.354 -5.740 -1.803 CAN  DRY 27 
+DRY CAF  CAF  C 0 1 Y N N -40.115 5.576  34.764 11.457 -5.064 -2.272 CAF  DRY 28 
+DRY CAG  CAG  C 0 1 Y N N -40.238 6.796  35.292 11.001 -3.862 -2.882 CAG  DRY 29 
+DRY CAL  CAL  C 0 1 Y N N -39.744 8.037  34.908 11.640 -2.783 -3.525 CAL  DRY 30 
+DRY CAH  CAH  C 0 1 Y N N -41.029 6.682  36.439 9.609  -3.844 -2.763 CAH  DRY 31 
+DRY CAK  CAK  C 0 1 Y N N -41.328 7.814  37.204 8.822  -2.798 -3.258 CAK  DRY 32 
+DRY CAJ  CAJ  C 0 1 Y N N -40.835 9.059  36.817 9.479  -1.739 -3.892 CAJ  DRY 33 
+DRY CAI  CAI  C 0 1 Y N N -40.042 9.173  35.672 10.866 -1.730 -4.025 CAI  DRY 34 
+DRY OBI  OBI  O 0 1 N N N -39.561 10.393 35.300 11.478 -0.684 -4.648 OBI  DRY 35 
+DRY CBJ  CBJ  C 0 1 N N N -38.373 10.254 34.467 12.696 -0.962 -5.335 CBJ  DRY 36 
+DRY CBK  CBK  C 0 1 N N N -37.920 11.661 34.025 12.859 -0.012 -6.489 CBK  DRY 37 
+DRY OBM  OBM  O 0 1 N N N -38.589 12.669 34.394 14.031 -0.249 -7.129 OBM  DRY 38 
+DRY OBL  OBL  O 0 1 N N N -36.896 11.735 33.311 12.063 0.855  -6.818 OBL  DRY 39 
+DRY HBM  HBM  H 0 1 N N N -38.191 13.458 34.046 14.163 0.359  -7.888 HBM  DRY 40 
+DRY HBJ1 1HBJ H 0 0 N N N -37.570 9.767  35.040 13.523 -0.825 -4.633 HBJ1 DRY 41 
+DRY HBJ2 2HBJ H 0 0 N N N -38.601 9.637  33.585 12.674 -1.993 -5.696 HBJ2 DRY 42 
+DRY HAJ  HAJ  H 0 1 N N N -41.066 9.936  37.403 8.891  -0.913 -4.285 HAJ  DRY 43 
+DRY HAK  HAK  H 0 1 N N N -41.938 7.724  38.091 7.742  -2.800 -3.157 HAK  DRY 44 
+DRY HAN  HAN  H 0 1 N N N -40.883 3.656  35.357 10.269 -6.685 -1.283 HAN  DRY 45 
+DRY HAF  HAF  H 0 1 N N N -39.562 5.327  33.871 12.481 -5.399 -2.184 HAF  DRY 46 
+DRY HAL  HAL  H 0 1 N N N -39.132 8.125  34.023 12.722 -2.770 -3.632 HAL  DRY 47 
+DRY HAA1 1HAA H 0 0 N N N -43.217 4.851  37.304 7.815  -6.473 -1.832 HAA1 DRY 48 
+DRY HAA2 2HAA H 0 0 N N N -41.990 5.370  38.531 7.242  -4.974 -2.558 HAA2 DRY 49 
+DRY HAB1 1HAB H 0 0 N N N -41.200 2.973  36.986 7.533  -3.788 -0.372 HAB1 DRY 50 
+DRY HAB2 2HAB H 0 0 N N N -42.700 2.757  37.982 8.076  -5.263 0.392  HAB2 DRY 51 
+DRY HAC1 1HAC H 0 0 N N N -41.286 2.330  39.704 5.681  -4.865 0.896  HAC1 DRY 52 
+DRY HAC2 2HAC H 0 0 N N N -40.993 4.104  39.719 5.829  -6.322 -0.121 HAC2 DRY 53 
+DRY HBC  HBC  H 0 1 N N N -40.034 3.679  41.260 3.366  -6.347 -0.179 HBC  DRY 54 
+DRY HBB  HBB  H 0 1 N N N -38.388 4.643  42.833 1.080  -5.810 0.536  HBB  DRY 55 
+DRY HBA  HBA  H 0 1 N N N -36.113 5.360  43.311 -0.719 -4.134 0.902  HBA  DRY 56 
+DRY HAW  HAW  H 0 1 N N N -33.134 5.100  40.243 0.010  0.004  -0.004 HAW  DRY 57 
+DRY HAZ  HAZ  H 0 1 N N N -34.807 4.199  38.680 2.278  -0.522 -0.716 HAZ  DRY 58 
+DRY HBE1 1HBE H 0 0 N N N -35.903 2.911  37.755 5.047  -2.370 -1.978 HBE1 DRY 59 
+DRY HBE2 2HBE H 0 0 N N N -37.628 2.582  37.354 3.817  -1.142 -1.740 HBE2 DRY 60 
+DRY HBF1 1HBF H 0 0 N N N -37.899 5.157  36.968 4.531  -0.868 0.654  HBF1 DRY 61 
+DRY HBF2 2HBF H 0 0 N N N -36.116 5.282  37.077 5.748  -2.123 0.442  HBF2 DRY 62 
+DRY HBG1 1HBG H 0 0 N N N -36.807 5.065  34.703 6.884  -0.736 -1.307 HBG1 DRY 63 
+DRY HBG2 2HBG H 0 0 N N N -35.911 3.595  35.217 5.659  0.530  -1.090 HBG2 DRY 64 
+DRY HBG3 3HBG H 0 0 N N N -37.703 3.556  35.085 6.758  0.122  0.238  HBG3 DRY 65 
+DRY HAS  HAS  H 0 1 N N N -34.950 5.452  45.044 -0.138 -1.552 2.994  HAS  DRY 66 
+DRY HAP  HAP  H 0 1 N N N -35.217 7.002  46.953 -0.693 -0.950 5.325  HAP  DRY 67 
+DRY HAQ  HAQ  H 0 1 N N N -33.980 9.146  46.989 -3.033 -0.411 5.949  HAQ  DRY 68 
+DRY HAR  HAR  H 0 1 N N N -32.483 9.749  45.115 -4.822 -0.477 4.232  HAR  DRY 69 
+DRY HAO  HAO  H 0 1 N N N -32.223 8.204  43.202 -4.280 -1.079 1.897  HAO  DRY 70 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-DRY CAO  CAR DOUB Y N  1
-DRY CAO  CAT SING Y N  2
-DRY CAO  HAO SING N N  3
-DRY CAR  CAQ SING Y N  4
-DRY CAR  HAR SING N N  5
-DRY CAQ  CAP DOUB Y N  6
-DRY CAQ  HAQ SING N N  7
-DRY CAP  CAS SING Y N  8
-DRY CAP  HAP SING N N  9
-DRY CAS  CAT DOUB Y N 10
-DRY CAS  HAS SING N N 11
-DRY CAT  CAU SING N N 12
-DRY CAU  CAV SING N N 13
-DRY CAU  OBH DOUB N N 14
-DRY CAV  CBA DOUB Y N 15
-DRY CAV  CAW SING Y N 16
-DRY CBA  CAX SING Y N 17
-DRY CBA  HBA SING N N 18
-DRY CAW  HAW SING N N 19
-DRY CAW  CAZ DOUB Y N 20
-DRY CAZ  HAZ SING N N 21
-DRY CAZ  CAY SING Y N 22
-DRY CAY  CAX DOUB Y N 23
-DRY CAY  CBD SING Y N 24
-DRY CBD  CAE DOUB Y N 25
-DRY CBD  CBE SING N N 26
-DRY CBE HBE1 SING N N 27
-DRY CBE HBE2 SING N N 28
-DRY CBE  CBF SING N N 29
-DRY CBF HBF1 SING N N 30
-DRY CBF HBF2 SING N N 31
-DRY CBF  CBG SING N N 32
-DRY CBG HBG1 SING N N 33
-DRY CBG HBG2 SING N N 34
-DRY CBG HBG3 SING N N 35
-DRY CAX  CBB SING Y N 36
-DRY CBB  CBC DOUB Y N 37
-DRY CBB  HBB SING N N 38
-DRY CBC  CAE SING Y N 39
-DRY CBC  HBC SING N N 40
-DRY CAE  OAD SING N N 41
-DRY OAD  CAC SING N N 42
-DRY CAC  CAB SING N N 43
-DRY CAC HAC1 SING N N 44
-DRY CAC HAC2 SING N N 45
-DRY CAB  CAA SING N N 46
-DRY CAB HAB1 SING N N 47
-DRY CAB HAB2 SING N N 48
-DRY CAA  NAM SING N N 49
-DRY CAA HAA1 SING N N 50
-DRY CAA HAA2 SING N N 51
-DRY NAM  CAH SING Y N 52
-DRY NAM  CAN SING Y N 53
-DRY CAN  HAN SING N N 54
-DRY CAN  CAF DOUB Y N 55
-DRY CAF  HAF SING N N 56
-DRY CAF  CAG SING Y N 57
-DRY CAG  CAH DOUB Y N 58
-DRY CAG  CAL SING Y N 59
-DRY CAL  CAI DOUB Y N 60
-DRY CAL  HAL SING N N 61
-DRY CAH  CAK SING Y N 62
-DRY CAK  CAJ DOUB Y N 63
-DRY CAK  HAK SING N N 64
-DRY CAJ  CAI SING Y N 65
-DRY CAJ  HAJ SING N N 66
-DRY CAI  OBI SING N N 67
-DRY OBI  CBJ SING N N 68
-DRY CBJ  CBK SING N N 69
-DRY CBJ HBJ1 SING N N 70
-DRY CBJ HBJ2 SING N N 71
-DRY CBK  OBM SING N N 72
-DRY CBK  OBL DOUB N N 73
-DRY OBM  HBM SING N N 74
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+DRY CAO CAR  DOUB Y N 1  
+DRY CAO CAT  SING Y N 2  
+DRY CAO HAO  SING N N 3  
+DRY CAR CAQ  SING Y N 4  
+DRY CAR HAR  SING N N 5  
+DRY CAQ CAP  DOUB Y N 6  
+DRY CAQ HAQ  SING N N 7  
+DRY CAP CAS  SING Y N 8  
+DRY CAP HAP  SING N N 9  
+DRY CAS CAT  DOUB Y N 10 
+DRY CAS HAS  SING N N 11 
+DRY CAT CAU  SING N N 12 
+DRY CAU CAV  SING N N 13 
+DRY CAU OBH  DOUB N N 14 
+DRY CAV CBA  DOUB Y N 15 
+DRY CAV CAW  SING Y N 16 
+DRY CBA CAX  SING Y N 17 
+DRY CBA HBA  SING N N 18 
+DRY CAW HAW  SING N N 19 
+DRY CAW CAZ  DOUB Y N 20 
+DRY CAZ HAZ  SING N N 21 
+DRY CAZ CAY  SING Y N 22 
+DRY CAY CAX  DOUB Y N 23 
+DRY CAY CBD  SING Y N 24 
+DRY CBD CAE  DOUB Y N 25 
+DRY CBD CBE  SING N N 26 
+DRY CBE HBE1 SING N N 27 
+DRY CBE HBE2 SING N N 28 
+DRY CBE CBF  SING N N 29 
+DRY CBF HBF1 SING N N 30 
+DRY CBF HBF2 SING N N 31 
+DRY CBF CBG  SING N N 32 
+DRY CBG HBG1 SING N N 33 
+DRY CBG HBG2 SING N N 34 
+DRY CBG HBG3 SING N N 35 
+DRY CAX CBB  SING Y N 36 
+DRY CBB CBC  DOUB Y N 37 
+DRY CBB HBB  SING N N 38 
+DRY CBC CAE  SING Y N 39 
+DRY CBC HBC  SING N N 40 
+DRY CAE OAD  SING N N 41 
+DRY OAD CAC  SING N N 42 
+DRY CAC CAB  SING N N 43 
+DRY CAC HAC1 SING N N 44 
+DRY CAC HAC2 SING N N 45 
+DRY CAB CAA  SING N N 46 
+DRY CAB HAB1 SING N N 47 
+DRY CAB HAB2 SING N N 48 
+DRY CAA NAM  SING N N 49 
+DRY CAA HAA1 SING N N 50 
+DRY CAA HAA2 SING N N 51 
+DRY NAM CAH  SING Y N 52 
+DRY NAM CAN  SING Y N 53 
+DRY CAN HAN  SING N N 54 
+DRY CAN CAF  DOUB Y N 55 
+DRY CAF HAF  SING N N 56 
+DRY CAF CAG  SING Y N 57 
+DRY CAG CAH  DOUB Y N 58 
+DRY CAG CAL  SING Y N 59 
+DRY CAL CAI  DOUB Y N 60 
+DRY CAL HAL  SING N N 61 
+DRY CAH CAK  SING Y N 62 
+DRY CAK CAJ  DOUB Y N 63 
+DRY CAK HAK  SING N N 64 
+DRY CAJ CAI  SING Y N 65 
+DRY CAJ HAJ  SING N N 66 
+DRY CAI OBI  SING N N 67 
+DRY OBI CBJ  SING N N 68 
+DRY CBJ CBK  SING N N 69 
+DRY CBJ HBJ1 SING N N 70 
+DRY CBJ HBJ2 SING N N 71 
+DRY CBK OBM  SING N N 72 
+DRY CBK OBL  DOUB N N 73 
+DRY OBM HBM  SING N N 74 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-DRY           SMILES              ACDLabs 10.04                                                                                                                                     O=C(c1ccccc1)c5cc4ccc(OCCCn3c2ccc(OCC(=O)O)cc2cc3)c(c4cc5)CCC
-DRY SMILES_CANONICAL               CACTVS 3.341                                                                                                                                     CCCc1c(OCCCn2ccc3cc(OCC(O)=O)ccc23)ccc4cc(ccc14)C(=O)c5ccccc5
-DRY           SMILES               CACTVS 3.341                                                                                                                                     CCCc1c(OCCCn2ccc3cc(OCC(O)=O)ccc23)ccc4cc(ccc14)C(=O)c5ccccc5
-DRY SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                       CCCc1c2ccc(cc2ccc1OCCCn3ccc4c3ccc(c4)OCC(=O)O)C(=O)c5ccccc5
-DRY           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                       CCCc1c2ccc(cc2ccc1OCCCn3ccc4c3ccc(c4)OCC(=O)O)C(=O)c5ccccc5
-DRY            InChI                InChI  1.03 InChI=1S/C33H31NO5/c1-2-7-29-28-13-10-26(33(37)23-8-4-3-5-9-23)20-24(28)11-15-31(29)38-19-6-17-34-18-16-25-21-27(12-14-30(25)34)39-22-32(35)36/h3-5,8-16,18,20-21H,2,6-7,17,19,22H2,1H3,(H,35,36)
-DRY         InChIKey                InChI  1.03                                                                                                                                                                       CIJITCGUOBZSCP-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+DRY SMILES           ACDLabs              10.04 "O=C(c1ccccc1)c5cc4ccc(OCCCn3c2ccc(OCC(=O)O)cc2cc3)c(c4cc5)CCC"                                                                                                                                     
+DRY SMILES_CANONICAL CACTVS               3.341 "CCCc1c(OCCCn2ccc3cc(OCC(O)=O)ccc23)ccc4cc(ccc14)C(=O)c5ccccc5"                                                                                                                                     
+DRY SMILES           CACTVS               3.341 "CCCc1c(OCCCn2ccc3cc(OCC(O)=O)ccc23)ccc4cc(ccc14)C(=O)c5ccccc5"                                                                                                                                     
+DRY SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CCCc1c2ccc(cc2ccc1OCCCn3ccc4c3ccc(c4)OCC(=O)O)C(=O)c5ccccc5"                                                                                                                                       
+DRY SMILES           "OpenEye OEToolkits" 1.5.0 "CCCc1c2ccc(cc2ccc1OCCCn3ccc4c3ccc(c4)OCC(=O)O)C(=O)c5ccccc5"                                                                                                                                       
+DRY InChI            InChI                1.03  "InChI=1S/C33H31NO5/c1-2-7-29-28-13-10-26(33(37)23-8-4-3-5-9-23)20-24(28)11-15-31(29)38-19-6-17-34-18-16-25-21-27(12-14-30(25)34)39-22-32(35)36/h3-5,8-16,18,20-21H,2,6-7,17,19,22H2,1H3,(H,35,36)" 
+DRY InChIKey         InChI                1.03  CIJITCGUOBZSCP-UHFFFAOYSA-N                                                                                                                                                                         
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-DRY "SYSTEMATIC NAME"              ACDLabs 10.04 "{[1-(3-{[6-(phenylcarbonyl)-1-propylnaphthalen-2-yl]oxy}propyl)-1H-indol-5-yl]oxy}acetic acid"
-DRY "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0    "2-[1-[3-[6-(phenylcarbonyl)-1-propyl-naphthalen-2-yl]oxypropyl]indol-5-yl]oxyethanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+DRY "SYSTEMATIC NAME" ACDLabs              10.04 "{[1-(3-{[6-(phenylcarbonyl)-1-propylnaphthalen-2-yl]oxy}propyl)-1H-indol-5-yl]oxy}acetic acid" 
+DRY "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "2-[1-[3-[6-(phenylcarbonyl)-1-propyl-naphthalen-2-yl]oxypropyl]indol-5-yl]oxyethanoic acid"    
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-DRY  "Create component" 2006-08-09 PDBJ
-DRY "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-DRY CAO C 26.472  0.222  1
-DRY CAR C 27.774 -0.523  2
-DRY CAQ C 29.070  0.232  3
-DRY CAP C 29.064  1.732  4
-DRY CAS C 27.762  2.477  5
-DRY CAT C 26.466  1.722  6
-DRY CAU C 25.164  2.467  7
-DRY OBH O 25.158  3.967  8
-DRY CAV C 23.868  1.712  9
-DRY CBA C 22.509  2.483 10
-DRY CAW C 23.868  0.149 11
-DRY CAZ C 22.509 -0.621 12
-DRY CAY C 21.168  0.181 13
-DRY CBD C 19.869 -0.569 14
-DRY CBE C 19.869 -2.069 15
-DRY CBF C 18.570 -2.819 16
-DRY CBG C 18.570 -4.319 17
-DRY CAX C 21.168  1.681 18
-DRY CBB C 19.869  2.431 19
-DRY CBC C 18.570  1.681 20
-DRY CAE C 18.570  0.181 21
-DRY OAD O 17.271 -0.569 22
-DRY CAC C 15.972  0.181 23
-DRY CAB C 14.673 -0.569 24
-DRY CAA C 13.374  0.181 25
-DRY NAM N 12.075 -0.569 26
-DRY CAN C 11.920 -2.052 27
-DRY CAF C 10.462 -2.366 28
-DRY CAG C  9.711 -1.078 29
-DRY CAL C  8.244 -0.769 30
-DRY CAH C 10.713  0.039 31
-DRY CAK C 10.247  1.464 32
-DRY CAJ C  8.779  1.774 33
-DRY CAI C  7.777  0.657 34
-DRY OBI O  6.310  0.967 35
-DRY CBJ C  5.844  2.392 36
-DRY CBK C  4.376  2.702 37
-DRY OBM O  3.910  4.127 38
-DRY OBL O  3.374  1.585 39
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-DRY CAO CAR DOUBLE NONE  1
-DRY CAO CAT SINGLE NONE  2
-DRY CAR CAQ SINGLE NONE  3
-DRY CAQ CAP DOUBLE NONE  4
-DRY CAP CAS SINGLE NONE  5
-DRY CAS CAT DOUBLE NONE  6
-DRY CAT CAU SINGLE NONE  7
-DRY CAU CAV SINGLE NONE  8
-DRY CAU OBH DOUBLE NONE  9
-DRY CAV CBA DOUBLE NONE 10
-DRY CAV CAW SINGLE NONE 11
-DRY CBA CAX SINGLE NONE 12
-DRY CAW CAZ DOUBLE NONE 13
-DRY CAZ CAY SINGLE NONE 14
-DRY CAY CAX DOUBLE NONE 15
-DRY CAY CBD SINGLE NONE 16
-DRY CBD CAE DOUBLE NONE 17
-DRY CBD CBE SINGLE NONE 18
-DRY CBE CBF SINGLE NONE 19
-DRY CBF CBG SINGLE NONE 20
-DRY CAX CBB SINGLE NONE 21
-DRY CBB CBC DOUBLE NONE 22
-DRY CBC CAE SINGLE NONE 23
-DRY CAE OAD SINGLE NONE 24
-DRY OAD CAC SINGLE NONE 25
-DRY CAC CAB SINGLE NONE 26
-DRY CAB CAA SINGLE NONE 27
-DRY CAA NAM SINGLE NONE 28
-DRY NAM CAH SINGLE NONE 29
-DRY NAM CAN SINGLE NONE 30
-DRY CAN CAF DOUBLE NONE 31
-DRY CAF CAG SINGLE NONE 32
-DRY CAG CAH DOUBLE NONE 33
-DRY CAG CAL SINGLE NONE 34
-DRY CAL CAI DOUBLE NONE 35
-DRY CAH CAK SINGLE NONE 36
-DRY CAK CAJ DOUBLE NONE 37
-DRY CAJ CAI SINGLE NONE 38
-DRY CAI OBI SINGLE NONE 39
-DRY OBI CBJ SINGLE NONE 40
-DRY CBJ CBK SINGLE NONE 41
-DRY CBK OBM SINGLE NONE 42
-DRY CBK OBL DOUBLE NONE 43
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-DRY MurckoScaffold S1 scaffold O=C(c1ccccc1)c1ccc2cc(OCCCn3ccc4ccccc43)ccc2c1 InChI=1S/C28H23NO2/c30-28(22-8-2-1-3-9-22)25-12-11-24-20-26(14-13-23(24)19-25)31-18-6-16-29-17-15-21-7-4-5-10-27(21)29/h1-5,7-15,17,19-20H,6,16,18H2 OUYJAHFQZNHWNE-UHFFFAOYSA-N
-DRY         indole F1 fragment                               c1ccc2[nH]ccc2c1                                                                                                        InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H SIKJAQJRHWYJAI-UHFFFAOYSA-N
-DRY     napthalene F2 fragment                                 c1ccc2ccccc2c1                                                                                                      InChI=1S/C10H8/c1-2-6-10-8-4-3-7-9(10)5-1/h1-8H UFWIBTONFRDIAS-UHFFFAOYSA-N
-DRY         phenyl F3 fragment                                       c1ccccc1                                                                                                                   InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-DRY        pyrrole F4 fragment                                     c1cc[nH]c1                                                                                                                    InChI=1S/C4H5N/c1-2-4-5-3-1/h1-5H KAESVJOAVNADME-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-DRY CAH F1 1
-DRY CAG F1 1
-DRY CAF F1 1
-DRY CAN F1 1
-DRY NAM F1 1
-DRY CAL F1 1
-DRY CAI F1 1
-DRY CAJ F1 1
-DRY CAK F1 1
-DRY CAV F2 1
-DRY CAW F2 1
-DRY CAZ F2 1
-DRY CAY F2 1
-DRY CAX F2 1
-DRY CBA F2 1
-DRY CBB F2 1
-DRY CBC F2 1
-DRY CAE F2 1
-DRY CBD F2 1
-DRY CAO F3 1
-DRY CAR F3 1
-DRY CAQ F3 1
-DRY CAP F3 1
-DRY CAS F3 1
-DRY CAT F3 1
-DRY CAV F3 2
-DRY CBA F3 2
-DRY CAX F3 2
-DRY CAY F3 2
-DRY CAZ F3 2
-DRY CAW F3 2
-DRY CAY F3 3
-DRY CBD F3 3
-DRY CAE F3 3
-DRY CBC F3 3
-DRY CBB F3 3
-DRY CAX F3 3
-DRY CAG F3 4
-DRY CAL F3 4
-DRY CAI F3 4
-DRY CAJ F3 4
-DRY CAK F3 4
-DRY CAH F3 4
-DRY CAN F4 1
-DRY CAF F4 1
-DRY CAG F4 1
-DRY CAH F4 1
-DRY NAM F4 1
-DRY CAO S1 1
-DRY CAR S1 1
-DRY CAQ S1 1
-DRY CAP S1 1
-DRY CAS S1 1
-DRY CAT S1 1
-DRY CAU S1 1
-DRY OBH S1 1
-DRY CAV S1 1
-DRY CBA S1 1
-DRY CAW S1 1
-DRY CAZ S1 1
-DRY CAY S1 1
-DRY CBD S1 1
-DRY CAX S1 1
-DRY CBB S1 1
-DRY CBC S1 1
-DRY CAE S1 1
-DRY OAD S1 1
-DRY CAC S1 1
-DRY CAB S1 1
-DRY CAA S1 1
-DRY NAM S1 1
-DRY CAN S1 1
-DRY CAF S1 1
-DRY CAG S1 1
-DRY CAL S1 1
-DRY CAH S1 1
-DRY CAK S1 1
-DRY CAJ S1 1
-DRY CAI S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               DRY
-_pdbe_chem_comp_rdkit_properties.exactmw                               521.220
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     13
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.212
-_pdbe_chem_comp_rdkit_properties.NumRings                              5
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      5
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       1
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             270.598
-_pdbe_chem_comp_rdkit_properties.tpsa                                  77.760
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          4.965
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             146.568
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         39
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-DRY UniChem    ChEMBL     CHEMBL414868
-DRY UniChem      ZINC ZINC000016052147
-DRY UniChem BindingDb         50196245
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DRY  CAO  -7.923 -0.909  1.267 ETKDGv2  1
-DRY  CAR  -8.975 -0.523  2.000 ETKDGv2  2
-DRY  CAQ -10.344 -0.680  1.471 ETKDGv2  3
-DRY  CAP -10.536 -1.217  0.261 ETKDGv2  4
-DRY  CAS  -9.378 -1.647 -0.552 ETKDGv2  5
-DRY  CAT  -8.123 -1.489 -0.089 ETKDGv2  6
-DRY  CAU  -6.963 -1.930 -0.899 ETKDGv2  7
-DRY  OBH  -7.096 -2.915 -1.678 ETKDGv2  8
-DRY  CAV  -5.648 -1.249 -0.820 ETKDGv2  9
-DRY  CBA  -4.511 -1.940 -0.995 ETKDGv2 10
-DRY  CAW  -5.571  0.213 -0.589 ETKDGv2 11
-DRY  CAZ  -4.388  0.833 -0.529 ETKDGv2 12
-DRY  CAY  -3.117  0.072 -0.700 ETKDGv2 13
-DRY  CBD  -1.765  0.731 -0.628 ETKDGv2 14
-DRY  CBE  -1.618  2.224 -0.377 ETKDGv2 15
-DRY  CBF  -1.332  2.541  1.099 ETKDGv2 16
-DRY  CBG  -2.527  2.260  2.008 ETKDGv2 17
-DRY  CAX  -3.195 -1.262 -0.922 ETKDGv2 18
-DRY  CBB  -1.969 -2.064 -1.081 ETKDGv2 19
-DRY  CBC  -0.771 -1.488 -1.001 ETKDGv2 20
-DRY  CAE  -0.647 -0.026 -0.761 ETKDGv2 21
-DRY  OAD   0.614  0.591 -0.660 ETKDGv2 22
-DRY  CAC   1.871 -0.049 -0.870 ETKDGv2 23
-DRY  CAB   2.130 -0.249 -2.369 ETKDGv2 24
-DRY  CAA   3.435 -1.009 -2.624 ETKDGv2 25
-DRY  NAM   4.586 -0.241 -2.155 ETKDGv2 26
-DRY  CAN   5.099  0.968 -2.718 ETKDGv2 27
-DRY  CAF   6.161  1.389 -2.033 ETKDGv2 28
-DRY  CAG   6.374  0.422 -0.960 ETKDGv2 29
-DRY  CAL   7.379  0.405  0.115 ETKDGv2 30
-DRY  CAH   5.448 -0.511 -1.057 ETKDGv2 31
-DRY  CAK   5.368 -1.612 -0.080 ETKDGv2 32
-DRY  CAJ   6.277 -1.649  0.911 ETKDGv2 33
-DRY  CAI   7.335 -0.600  1.023 ETKDGv2 34
-DRY  OBI   8.251 -0.700  2.081 ETKDGv2 35
-DRY  CBJ   9.314  0.220  2.325 ETKDGv2 36
-DRY  CBK  10.088 -0.197  3.533 ETKDGv2 37
-DRY  OBM   9.729 -1.339  4.243 ETKDGv2 38
-DRY  OBL  11.071  0.494  3.911 ETKDGv2 39
-DRY  HBM  10.250 -1.626  5.063 ETKDGv2 40
-DRY HBJ1   8.898  1.236  2.497 ETKDGv2 41
-DRY HBJ2   9.998  0.240  1.449 ETKDGv2 42
-DRY  HAJ   6.239 -2.447  1.641 ETKDGv2 43
-DRY  HAK   4.600 -2.370 -0.148 ETKDGv2 44
-DRY  HAN   4.679  1.468 -3.581 ETKDGv2 45
-DRY  HAF   6.742  2.279 -2.239 ETKDGv2 46
-DRY  HAL   8.122  1.188  0.158 ETKDGv2 47
-DRY HAA1   3.545 -1.196 -3.713 ETKDGv2 48
-DRY HAA2   3.395 -1.997 -2.120 ETKDGv2 49
-DRY HAB1   2.167  0.741 -2.873 ETKDGv2 50
-DRY HAB2   1.295 -0.824 -2.821 ETKDGv2 51
-DRY HAC1   2.661  0.612 -0.455 ETKDGv2 52
-DRY HAC2   1.920 -1.009 -0.314 ETKDGv2 53
-DRY  HBC   0.105 -2.110 -1.115 ETKDGv2 54
-DRY  HBB  -2.038 -3.131 -1.257 ETKDGv2 55
-DRY  HBA  -4.542 -3.009 -1.173 ETKDGv2 56
-DRY  HAW  -6.478  0.794 -0.479 ETKDGv2 57
-DRY  HAZ  -4.393  1.896 -0.348 ETKDGv2 58
-DRY HBE1  -0.775  2.618 -0.986 ETKDGv2 59
-DRY HBE2  -2.493  2.799 -0.734 ETKDGv2 60
-DRY HBF1  -0.456  1.956  1.453 ETKDGv2 61
-DRY HBF2  -1.072  3.618  1.186 ETKDGv2 62
-DRY HBG1  -3.405  2.860  1.689 ETKDGv2 63
-DRY HBG2  -2.785  1.181  1.992 ETKDGv2 64
-DRY HBG3  -2.271  2.541  3.051 ETKDGv2 65
-DRY  HAS  -9.561 -2.075 -1.530 ETKDGv2 66
-DRY  HAP -11.539 -1.336 -0.127 ETKDGv2 67
-DRY  HAQ -11.191 -0.365  2.067 ETKDGv2 68
-DRY  HAR  -8.824 -0.104  2.986 ETKDGv2 69
-DRY  HAO  -6.927 -0.809  1.678 ETKDGv2 70
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+DRY "Create component"  2006-08-09 PDBJ 
+DRY "Modify descriptor" 2011-06-04 RCSB 
+# 

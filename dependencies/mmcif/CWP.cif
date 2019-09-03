@@ -1,347 +1,159 @@
 data_CWP
-#
-_chem_comp.id                                        CWP
-_chem_comp.name                                      N-[(1,3-dimethyl-1H-pyrazol-5-yl)methyl]-5-methyl-3H-imidazo[4,5-b]pyridin-2-amine
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C13 H16 N6"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2017-10-05
-_chem_comp.pdbx_modified_date                        2017-12-22
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            256.306
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         CWP
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6B7C
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    CWP 
+_chem_comp.name                                  "N-[(1,3-dimethyl-1H-pyrazol-5-yl)methyl]-5-methyl-3H-imidazo[4,5-b]pyridin-2-amine" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C13 H16 N6" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-10-05 
+_chem_comp.pdbx_modified_date                    2017-12-22 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        256.306 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     CWP 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6B7C 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-CWP  C1  C1 C 0 1 Y N N 37.348  99.632 192.618 -0.657  0.280 -0.287  C1 CWP  1
-CWP  C3  C2 C 0 1 Y N N 35.437  99.924 191.718 -2.724 -0.174  0.368  C3 CWP  2
-CWP C12  C3 C 0 1 Y N N 40.321 100.120 192.123  2.978 -0.210  0.375 C12 CWP  3
-CWP C13  C4 C 0 1 Y N N 39.939 101.359 191.776  3.781  0.726  0.930 C13 CWP  4
-CWP C14  C5 C 0 1 Y N N 40.903 101.767 190.750  5.064  0.565  0.397 C14 CWP  5
-CWP C16  C6 C 0 1 N N N 42.118  98.545 191.513  3.253 -2.051 -1.307 C16 CWP  6
-CWP C17  C7 C 0 1 N N N 40.961 103.063 189.995  6.274  1.396  0.738 C17 CWP  7
-CWP C18  C8 C 0 1 N N N 39.663  99.251 193.156  1.511 -0.405  0.659 C18 CWP  8
-CWP C10  C9 C 0 1 N N N 32.243 100.206 189.944 -6.281 -0.697  1.131 C10 CWP  9
-CWP  C4 C10 C 0 1 Y N N 36.159  98.997 190.979 -2.749  0.648 -0.772  C4 CWP 10
-CWP  C7 C11 C 0 1 Y N N 33.652  99.746 190.288 -5.027 -0.217  0.448  C7 CWP 11
-CWP  C8 C12 C 0 1 Y N N 34.335  98.798 189.514 -5.131  0.597 -0.668  C8 CWP 12
-CWP  C9 C13 C 0 1 Y N N 35.633  98.396 189.838 -3.983  1.038 -1.300  C9 CWP 13
-CWP N11  N1 N 0 1 Y N N 41.384  99.796 191.431  3.725 -0.935 -0.485 N11 CWP 14
-CWP N15  N2 N 0 1 Y N N 41.708 100.808 190.610  5.032 -0.433 -0.449 N15 CWP 15
-CWP N19  N3 N 0 1 N N N 38.334  99.771 193.460  0.720  0.313 -0.343 N19 CWP 16
-CWP  N2  N4 N 0 1 Y N N 36.260 100.273 192.718 -1.389 -0.387  0.655  N2 CWP 17
-CWP  N5  N5 N 0 1 Y N N 37.362  98.847 191.571 -1.459  0.888 -1.125  N5 CWP 18
-CWP  N6  N6 N 0 1 Y N N 34.201 100.291 191.393 -3.853 -0.569  0.932  N6 CWP 19
-CWP  H1  H1 H 0 1 N N N 39.108 101.928 192.165  3.484  1.467  1.658  H1 CWP 20
-CWP  H2  H2 H 0 1 N N N 42.961  98.567 190.807  2.902 -1.673 -2.267  H2 CWP 21
-CWP  H3  H3 H 0 1 N N N 42.499  98.410 192.536  4.070 -2.754 -1.471  H3 CWP 22
-CWP  H4  H4 H 0 1 N N N 41.449  97.710 191.258  2.435 -2.559 -0.796  H4 CWP 23
-CWP  H5  H5 H 0 1 N N N 41.814 103.046 189.301  6.800  0.944  1.579  H5 CWP 24
-CWP  H6  H6 H 0 1 N N N 40.029 103.198 189.426  6.939  1.441 -0.125  H6 CWP 25
-CWP  H7  H7 H 0 1 N N N 41.082 103.895 190.704  5.958  2.404  1.006  H7 CWP 26
-CWP  H8  H8 H 0 1 N N N 39.575  98.225 192.769  1.271 -1.468  0.619  H8 CWP 27
-CWP  H9  H9 H 0 1 N N N 40.272  99.246 194.072  1.279 -0.018  1.651  H9 CWP 28
-CWP H10 H10 H 0 1 N N N 31.903 100.937 190.692 -6.579  0.025  1.892 H10 CWP 29
-CWP H11 H11 H 0 1 N N N 32.243 100.673 188.948 -7.080 -0.799  0.396 H11 CWP 30
-CWP H12 H12 H 0 1 N N N 31.565  99.340 189.943 -6.093 -1.663  1.600 H12 CWP 31
-CWP H13 H13 H 0 1 N N N 33.848  98.370 188.650 -6.102  0.878 -1.048 H13 CWP 32
-CWP H14 H14 H 0 1 N N N 36.185  97.677 189.251 -4.038  1.666 -2.176 H14 CWP 33
-CWP H15 H15 H 0 1 N N N 38.441 100.754 193.612  1.165  0.811 -1.046 H15 CWP 34
-CWP H16 H16 H 0 1 N N N 36.047 100.938 193.434 -1.036 -0.913  1.390 H16 CWP 35
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+CWP C1  C1  C 0 1 Y N N 37.348 99.632  192.618 -0.657 0.280  -0.287 C1  CWP 1  
+CWP C3  C2  C 0 1 Y N N 35.437 99.924  191.718 -2.724 -0.174 0.368  C3  CWP 2  
+CWP C12 C3  C 0 1 Y N N 40.321 100.120 192.123 2.978  -0.210 0.375  C12 CWP 3  
+CWP C13 C4  C 0 1 Y N N 39.939 101.359 191.776 3.781  0.726  0.930  C13 CWP 4  
+CWP C14 C5  C 0 1 Y N N 40.903 101.767 190.750 5.064  0.565  0.397  C14 CWP 5  
+CWP C16 C6  C 0 1 N N N 42.118 98.545  191.513 3.253  -2.051 -1.307 C16 CWP 6  
+CWP C17 C7  C 0 1 N N N 40.961 103.063 189.995 6.274  1.396  0.738  C17 CWP 7  
+CWP C18 C8  C 0 1 N N N 39.663 99.251  193.156 1.511  -0.405 0.659  C18 CWP 8  
+CWP C10 C9  C 0 1 N N N 32.243 100.206 189.944 -6.281 -0.697 1.131  C10 CWP 9  
+CWP C4  C10 C 0 1 Y N N 36.159 98.997  190.979 -2.749 0.648  -0.772 C4  CWP 10 
+CWP C7  C11 C 0 1 Y N N 33.652 99.746  190.288 -5.027 -0.217 0.448  C7  CWP 11 
+CWP C8  C12 C 0 1 Y N N 34.335 98.798  189.514 -5.131 0.597  -0.668 C8  CWP 12 
+CWP C9  C13 C 0 1 Y N N 35.633 98.396  189.838 -3.983 1.038  -1.300 C9  CWP 13 
+CWP N11 N1  N 0 1 Y N N 41.384 99.796  191.431 3.725  -0.935 -0.485 N11 CWP 14 
+CWP N15 N2  N 0 1 Y N N 41.708 100.808 190.610 5.032  -0.433 -0.449 N15 CWP 15 
+CWP N19 N3  N 0 1 N N N 38.334 99.771  193.460 0.720  0.313  -0.343 N19 CWP 16 
+CWP N2  N4  N 0 1 Y N N 36.260 100.273 192.718 -1.389 -0.387 0.655  N2  CWP 17 
+CWP N5  N5  N 0 1 Y N N 37.362 98.847  191.571 -1.459 0.888  -1.125 N5  CWP 18 
+CWP N6  N6  N 0 1 Y N N 34.201 100.291 191.393 -3.853 -0.569 0.932  N6  CWP 19 
+CWP H1  H1  H 0 1 N N N 39.108 101.928 192.165 3.484  1.467  1.658  H1  CWP 20 
+CWP H2  H2  H 0 1 N N N 42.961 98.567  190.807 2.902  -1.673 -2.267 H2  CWP 21 
+CWP H3  H3  H 0 1 N N N 42.499 98.410  192.536 4.070  -2.754 -1.471 H3  CWP 22 
+CWP H4  H4  H 0 1 N N N 41.449 97.710  191.258 2.435  -2.559 -0.796 H4  CWP 23 
+CWP H5  H5  H 0 1 N N N 41.814 103.046 189.301 6.800  0.944  1.579  H5  CWP 24 
+CWP H6  H6  H 0 1 N N N 40.029 103.198 189.426 6.939  1.441  -0.125 H6  CWP 25 
+CWP H7  H7  H 0 1 N N N 41.082 103.895 190.704 5.958  2.404  1.006  H7  CWP 26 
+CWP H8  H8  H 0 1 N N N 39.575 98.225  192.769 1.271  -1.468 0.619  H8  CWP 27 
+CWP H9  H9  H 0 1 N N N 40.272 99.246  194.072 1.279  -0.018 1.651  H9  CWP 28 
+CWP H10 H10 H 0 1 N N N 31.903 100.937 190.692 -6.579 0.025  1.892  H10 CWP 29 
+CWP H11 H11 H 0 1 N N N 32.243 100.673 188.948 -7.080 -0.799 0.396  H11 CWP 30 
+CWP H12 H12 H 0 1 N N N 31.565 99.340  189.943 -6.093 -1.663 1.600  H12 CWP 31 
+CWP H13 H13 H 0 1 N N N 33.848 98.370  188.650 -6.102 0.878  -1.048 H13 CWP 32 
+CWP H14 H14 H 0 1 N N N 36.185 97.677  189.251 -4.038 1.666  -2.176 H14 CWP 33 
+CWP H15 H15 H 0 1 N N N 38.441 100.754 193.612 1.165  0.811  -1.046 H15 CWP 34 
+CWP H16 H16 H 0 1 N N N 36.047 100.938 193.434 -1.036 -0.913 1.390  H16 CWP 35 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-CWP  C8  C9 DOUB Y N  1
-CWP  C8  C7 SING Y N  2
-CWP  C9  C4 SING Y N  3
-CWP C10  C7 SING N N  4
-CWP C17 C14 SING N N  5
-CWP  C7  N6 DOUB Y N  6
-CWP N15 C14 DOUB Y N  7
-CWP N15 N11 SING Y N  8
-CWP C14 C13 SING Y N  9
-CWP  C4  N5 SING Y N 10
-CWP  C4  C3 DOUB Y N 11
-CWP  N6  C3 SING Y N 12
-CWP N11 C16 SING N N 13
-CWP N11 C12 SING Y N 14
-CWP  N5  C1 DOUB Y N 15
-CWP  C3  N2 SING Y N 16
-CWP C13 C12 DOUB Y N 17
-CWP C12 C18 SING N N 18
-CWP  C1  N2 SING Y N 19
-CWP  C1 N19 SING N N 20
-CWP C18 N19 SING N N 21
-CWP C13  H1 SING N N 22
-CWP C16  H2 SING N N 23
-CWP C16  H3 SING N N 24
-CWP C16  H4 SING N N 25
-CWP C17  H5 SING N N 26
-CWP C17  H6 SING N N 27
-CWP C17  H7 SING N N 28
-CWP C18  H8 SING N N 29
-CWP C18  H9 SING N N 30
-CWP C10 H10 SING N N 31
-CWP C10 H11 SING N N 32
-CWP C10 H12 SING N N 33
-CWP  C8 H13 SING N N 34
-CWP  C9 H14 SING N N 35
-CWP N19 H15 SING N N 36
-CWP  N2 H16 SING N N 37
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+CWP C8  C9  DOUB Y N 1  
+CWP C8  C7  SING Y N 2  
+CWP C9  C4  SING Y N 3  
+CWP C10 C7  SING N N 4  
+CWP C17 C14 SING N N 5  
+CWP C7  N6  DOUB Y N 6  
+CWP N15 C14 DOUB Y N 7  
+CWP N15 N11 SING Y N 8  
+CWP C14 C13 SING Y N 9  
+CWP C4  N5  SING Y N 10 
+CWP C4  C3  DOUB Y N 11 
+CWP N6  C3  SING Y N 12 
+CWP N11 C16 SING N N 13 
+CWP N11 C12 SING Y N 14 
+CWP N5  C1  DOUB Y N 15 
+CWP C3  N2  SING Y N 16 
+CWP C13 C12 DOUB Y N 17 
+CWP C12 C18 SING N N 18 
+CWP C1  N2  SING Y N 19 
+CWP C1  N19 SING N N 20 
+CWP C18 N19 SING N N 21 
+CWP C13 H1  SING N N 22 
+CWP C16 H2  SING N N 23 
+CWP C16 H3  SING N N 24 
+CWP C16 H4  SING N N 25 
+CWP C17 H5  SING N N 26 
+CWP C17 H6  SING N N 27 
+CWP C17 H7  SING N N 28 
+CWP C18 H8  SING N N 29 
+CWP C18 H9  SING N N 30 
+CWP C10 H10 SING N N 31 
+CWP C10 H11 SING N N 32 
+CWP C10 H12 SING N N 33 
+CWP C8  H13 SING N N 34 
+CWP C9  H14 SING N N 35 
+CWP N19 H15 SING N N 36 
+CWP N2  H16 SING N N 37 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-CWP           SMILES              ACDLabs 12.01                                                                           c1(nc2c(n1)ccc(C)n2)NCc3cc(C)nn3C
-CWP            InChI                InChI  1.03 InChI=1S/C13H16N6/c1-8-4-5-11-12(15-8)17-13(16-11)14-7-10-6-9(2)18-19(10)3/h4-6H,7H2,1-3H3,(H2,14,15,16,17)
-CWP         InChIKey                InChI  1.03                                                                                 CZOWPFJOPIQOCT-UHFFFAOYSA-N
-CWP SMILES_CANONICAL               CACTVS 3.385                                                                            Cn1nc(C)cc1CNc2[nH]c3nc(C)ccc3n2
-CWP           SMILES               CACTVS 3.385                                                                            Cn1nc(C)cc1CNc2[nH]c3nc(C)ccc3n2
-CWP SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                          Cc1ccc2c(n1)[nH]c(n2)NCc3cc(nn3C)C
-CWP           SMILES "OpenEye OEToolkits" 2.0.6                                                                          Cc1ccc2c(n1)[nH]c(n2)NCc3cc(nn3C)C
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+CWP SMILES           ACDLabs              12.01 "c1(nc2c(n1)ccc(C)n2)NCc3cc(C)nn3C"                                                                           
+CWP InChI            InChI                1.03  "InChI=1S/C13H16N6/c1-8-4-5-11-12(15-8)17-13(16-11)14-7-10-6-9(2)18-19(10)3/h4-6H,7H2,1-3H3,(H2,14,15,16,17)" 
+CWP InChIKey         InChI                1.03  CZOWPFJOPIQOCT-UHFFFAOYSA-N                                                                                   
+CWP SMILES_CANONICAL CACTVS               3.385 "Cn1nc(C)cc1CNc2[nH]c3nc(C)ccc3n2"                                                                            
+CWP SMILES           CACTVS               3.385 "Cn1nc(C)cc1CNc2[nH]c3nc(C)ccc3n2"                                                                            
+CWP SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "Cc1ccc2c(n1)[nH]c(n2)NCc3cc(nn3C)C"                                                                          
+CWP SMILES           "OpenEye OEToolkits" 2.0.6 "Cc1ccc2c(n1)[nH]c(n2)NCc3cc(nn3C)C"                                                                          
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-CWP "SYSTEMATIC NAME"              ACDLabs 12.01   N-[(1,3-dimethyl-1H-pyrazol-5-yl)methyl]-5-methyl-3H-imidazo[4,5-b]pyridin-2-amine
-CWP "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 ~{N}-[(2,5-dimethylpyrazol-3-yl)methyl]-5-methyl-3~{H}-imidazo[4,5-b]pyridin-2-amine
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+CWP "SYSTEMATIC NAME" ACDLabs              12.01 "N-[(1,3-dimethyl-1H-pyrazol-5-yl)methyl]-5-methyl-3H-imidazo[4,5-b]pyridin-2-amine"   
+CWP "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "~{N}-[(2,5-dimethylpyrazol-3-yl)methyl]-5-methyl-3~{H}-imidazo[4,5-b]pyridin-2-amine" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-CWP "Create component" 2017-10-05 RCSB
-CWP  "Initial release" 2017-12-27 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-CWP  C1 C  9.192  0.924  1
-CWP  C3 C  6.897  0.174  2
-CWP C12 C 12.942 -0.375  3
-CWP C13 C 13.824  0.839  4
-CWP C14 C 15.250  0.375  5
-CWP C16 C 13.360 -3.015  6
-CWP C17 C 16.464  1.257  7
-CWP C18 C 11.442 -0.375  8
-CWP C10 C  3.000 -0.576  9
-CWP  C4 C  6.897  1.674 10
-CWP  C7 C  4.299  0.174 11
-CWP  C8 C  4.299  1.674 12
-CWP  C9 C  5.598  2.424 13
-CWP N11 N 13.824 -1.589 14
-CWP N15 N 15.250 -1.125 15
-CWP N19 N 10.692  0.924 16
-CWP  N2 N  8.316 -0.283 17
-CWP  N5 N  8.316  2.131 18
-CWP  N6 N  5.598 -0.576 19
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-CWP  C8  C9 SINGLE NONE  1
-CWP  C8  C7 DOUBLE NONE  2
-CWP  C9  C4 DOUBLE NONE  3
-CWP C10  C7 SINGLE NONE  4
-CWP C17 C14 SINGLE NONE  5
-CWP  C7  N6 SINGLE NONE  6
-CWP N15 C14 DOUBLE NONE  7
-CWP N15 N11 SINGLE NONE  8
-CWP C14 C13 SINGLE NONE  9
-CWP  C4  N5 SINGLE NONE 10
-CWP  C4  C3 SINGLE NONE 11
-CWP  N6  C3 DOUBLE NONE 12
-CWP N11 C16 SINGLE NONE 13
-CWP N11 C12 SINGLE NONE 14
-CWP  N5  C1 DOUBLE NONE 15
-CWP  C3  N2 SINGLE NONE 16
-CWP C13 C12 DOUBLE NONE 17
-CWP C12 C18 SINGLE NONE 18
-CWP  C1  N2 SINGLE NONE 19
-CWP  C1 N19 SINGLE NONE 20
-CWP C18 N19 SINGLE NONE 21
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-CWP MurckoScaffold S1 scaffold c1cnc2[nH]c(NCc3ccn[nH]3)nc2c1 InChI=1S/C10H10N6/c1-2-8-9(11-4-1)15-10(14-8)12-6-7-3-5-13-16-7/h1-5H,6H2,(H,13,16)(H2,11,12,14,15) JJINLERQLQJNLA-UHFFFAOYSA-N
-CWP      imidazole F1 fragment                     c1c[nH]cn1                                                          InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-CWP       pyrazole F2 fragment                     c1cn[nH]c1                                                          InChI=1S/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5) WTKZEGDFNFYCGP-UHFFFAOYSA-N
-CWP       pyridine F3 fragment                       c1ccncc1                                                                 InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-CWP  C3 F1 1
-CWP  C4 F1 1
-CWP  N5 F1 1
-CWP  C1 F1 1
-CWP  N2 F1 1
-CWP C12 F2 1
-CWP C13 F2 1
-CWP C14 F2 1
-CWP N15 F2 1
-CWP N11 F2 1
-CWP  C3 F3 1
-CWP  C4 F3 1
-CWP  C9 F3 1
-CWP  C8 F3 1
-CWP  C7 F3 1
-CWP  N6 F3 1
-CWP  C1 S1 1
-CWP  C3 S1 1
-CWP C12 S1 1
-CWP C13 S1 1
-CWP C14 S1 1
-CWP C18 S1 1
-CWP  C4 S1 1
-CWP  C7 S1 1
-CWP  C8 S1 1
-CWP  C9 S1 1
-CWP N11 S1 1
-CWP N15 S1 1
-CWP N19 S1 1
-CWP  N2 S1 1
-CWP  N5 S1 1
-CWP  N6 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               CWP
-_pdbe_chem_comp_rdkit_properties.exactmw                               256.144
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           6
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                5
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        6
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.308
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               3
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             133.031
-_pdbe_chem_comp_rdkit_properties.tpsa                                  71.420
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.947
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             70.069
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         19
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CWP  C1  0.784 -0.465  0.021 ETKDGv2  1
-CWP  C3  2.910  0.167 -0.033 ETKDGv2  2
-CWP C12 -2.832  0.604  0.426 ETKDGv2  3
-CWP C13 -3.551  0.381  1.517 ETKDGv2  4
-CWP C14 -4.907  0.102  1.034 ETKDGv2  5
-CWP C16 -3.281  0.517 -2.114 ETKDGv2  6
-CWP C17 -6.068 -0.284  1.887 ETKDGv2  7
-CWP C18 -1.350  0.834  0.384 ETKDGv2  8
-CWP C10  6.576  0.737 -0.210 ETKDGv2  9
-CWP  C4  2.792 -1.230 -0.252 ETKDGv2 10
-CWP  C7  5.258  0.026 -0.229 ETKDGv2 11
-CWP  C8  5.186 -1.316 -0.443 ETKDGv2 12
-CWP  C9  3.860 -1.996 -0.456 ETKDGv2 13
-CWP N11 -3.669  0.447 -0.712 ETKDGv2 14
-CWP N15 -4.951  0.124 -0.260 ETKDGv2 15
-CWP N19 -0.643 -0.419  0.132 ETKDGv2 16
-CWP  N2  1.620  0.705  0.150 ETKDGv2 17
-CWP  N5  1.418 -1.586 -0.209 ETKDGv2 18
-CWP  N6  4.046  0.794 -0.014 ETKDGv2 19
-CWP  H1 -3.195  0.374  2.539 ETKDGv2 20
-CWP  H2 -4.158  0.311 -2.762 ETKDGv2 21
-CWP  H3 -2.493 -0.236 -2.321 ETKDGv2 22
-CWP  H4 -2.892  1.531 -2.342 ETKDGv2 23
-CWP  H5 -7.017  0.036  1.408 ETKDGv2 24
-CWP  H6 -5.985  0.204  2.881 ETKDGv2 25
-CWP  H7 -6.078 -1.386  2.021 ETKDGv2 26
-CWP  H8 -1.120  1.560 -0.424 ETKDGv2 27
-CWP  H9 -1.009  1.266  1.350 ETKDGv2 28
-CWP H10  6.585  1.515 -1.001 ETKDGv2 29
-CWP H11  6.716  1.225  0.777 ETKDGv2 30
-CWP H12  7.424  0.042 -0.386 ETKDGv2 31
-CWP H13  6.080 -1.904 -0.605 ETKDGv2 32
-CWP H14  3.770 -3.061 -0.623 ETKDGv2 33
-CWP H15 -1.177 -1.312  0.027 ETKDGv2 34
-CWP H16  1.350  1.696  0.333 ETKDGv2 35
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+CWP "Create component" 2017-10-05 RCSB 
+CWP "Initial release"  2017-12-27 RCSB 
+# 

@@ -1,292 +1,128 @@
 data_HAV
-#
-_chem_comp.id                                        HAV
-_chem_comp.name                                      HYDROXYAMINOVALINE
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C5 H12 N2 O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            132.161
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         HAV
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1BM6
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    HAV 
+_chem_comp.name                                  HYDROXYAMINOVALINE 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C5 H12 N2 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        132.161 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     HAV 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1BM6 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-HAV   NA   NA N 0 1 N N N -1.631  0.751  0.853 -1.844 -0.357  1.117   NA HAV  1
-HAV   CA   CA C 0 1 N N R -2.485 -0.380  0.425 -0.465 -0.468  0.625   CA HAV  2
-HAV   CB   CB C 0 1 N N N -2.680 -1.262  1.639  0.456  0.390  1.492   CB HAV  3
-HAV  CG1  CG1 C 0 1 N N N -3.173 -2.644  1.210  0.391 -0.094  2.942  CG1 HAV  4
-HAV  CG2  CG2 C 0 1 N N N -3.709 -0.614  2.565  1.893  0.275  0.980  CG2 HAV  5
-HAV    C    C C 0 1 N N N -1.796 -1.187 -0.689 -0.400  0.009 -0.802    C HAV  6
-HAV    O    O O 0 1 N N N -0.621 -1.040 -0.957 -1.168  0.864 -1.190    O HAV  7
-HAV   O1   O1 O 0 1 N N N -1.981 -2.821 -2.356  0.569 -0.063 -2.989   O1 HAV  8
-HAV    N    N N 0 1 N N N -2.540 -2.035 -1.349  0.509 -0.513 -1.647    N HAV  9
-HAV HNA1 1HNA H 0 0 N N N -1.499  1.345  0.034 -2.428 -0.852  0.459 HNA1 HAV 10
-HAV HNA2 2HNA H 0 0 N N N -0.753  0.453  1.279 -2.097  0.617  1.053 HNA2 HAV 11
-HAV   HA   HA H 0 1 N N N -3.440 -0.016  0.082 -0.144 -1.509  0.674   HA HAV 12
-HAV   HB   HB H 0 1 N N N -1.729 -1.346  2.150  0.136  1.431  1.443   HB HAV 13
-HAV HG11 1HG1 H 0 0 N N N -2.435 -3.106  0.571  1.048  0.517  3.560 HG11 HAV 14
-HAV HG12 2HG1 H 0 0 N N N -3.332 -3.258  2.082 -0.632 -0.011  3.307 HG12 HAV 15
-HAV HG13 3HG1 H 0 0 N N N -4.101 -2.539  0.669  0.712 -1.135  2.991 HG13 HAV 16
-HAV HG21 1HG2 H 0 0 N N N -4.230  0.168  2.031  2.214 -0.765  1.029 HG21 HAV 17
-HAV HG22 2HG2 H 0 0 N N N -4.417 -1.359  2.894  1.940  0.620 -0.052 HG22 HAV 18
-HAV HG23 3HG2 H 0 0 N N N -3.206 -0.191  3.423  2.550  0.887  1.598 HG23 HAV 19
-HAV  HO1  HO1 H 0 1 N N N -2.641 -3.169 -2.960  1.280 -0.559 -3.418  HO1 HAV 20
-HAV   HN   HN H 0 1 N N N -3.493 -2.126 -1.128  1.123 -1.197 -1.337   HN HAV 21
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+HAV NA   NA   N 0 1 N N N -1.631 0.751  0.853  -1.844 -0.357 1.117  NA   HAV 1  
+HAV CA   CA   C 0 1 N N R -2.485 -0.380 0.425  -0.465 -0.468 0.625  CA   HAV 2  
+HAV CB   CB   C 0 1 N N N -2.680 -1.262 1.639  0.456  0.390  1.492  CB   HAV 3  
+HAV CG1  CG1  C 0 1 N N N -3.173 -2.644 1.210  0.391  -0.094 2.942  CG1  HAV 4  
+HAV CG2  CG2  C 0 1 N N N -3.709 -0.614 2.565  1.893  0.275  0.980  CG2  HAV 5  
+HAV C    C    C 0 1 N N N -1.796 -1.187 -0.689 -0.400 0.009  -0.802 C    HAV 6  
+HAV O    O    O 0 1 N N N -0.621 -1.040 -0.957 -1.168 0.864  -1.190 O    HAV 7  
+HAV O1   O1   O 0 1 N N N -1.981 -2.821 -2.356 0.569  -0.063 -2.989 O1   HAV 8  
+HAV N    N    N 0 1 N N N -2.540 -2.035 -1.349 0.509  -0.513 -1.647 N    HAV 9  
+HAV HNA1 1HNA H 0 0 N N N -1.499 1.345  0.034  -2.428 -0.852 0.459  HNA1 HAV 10 
+HAV HNA2 2HNA H 0 0 N N N -0.753 0.453  1.279  -2.097 0.617  1.053  HNA2 HAV 11 
+HAV HA   HA   H 0 1 N N N -3.440 -0.016 0.082  -0.144 -1.509 0.674  HA   HAV 12 
+HAV HB   HB   H 0 1 N N N -1.729 -1.346 2.150  0.136  1.431  1.443  HB   HAV 13 
+HAV HG11 1HG1 H 0 0 N N N -2.435 -3.106 0.571  1.048  0.517  3.560  HG11 HAV 14 
+HAV HG12 2HG1 H 0 0 N N N -3.332 -3.258 2.082  -0.632 -0.011 3.307  HG12 HAV 15 
+HAV HG13 3HG1 H 0 0 N N N -4.101 -2.539 0.669  0.712  -1.135 2.991  HG13 HAV 16 
+HAV HG21 1HG2 H 0 0 N N N -4.230 0.168  2.031  2.214  -0.765 1.029  HG21 HAV 17 
+HAV HG22 2HG2 H 0 0 N N N -4.417 -1.359 2.894  1.940  0.620  -0.052 HG22 HAV 18 
+HAV HG23 3HG2 H 0 0 N N N -3.206 -0.191 3.423  2.550  0.887  1.598  HG23 HAV 19 
+HAV HO1  HO1  H 0 1 N N N -2.641 -3.169 -2.960 1.280  -0.559 -3.418 HO1  HAV 20 
+HAV HN   HN   H 0 1 N N N -3.493 -2.126 -1.128 1.123  -1.197 -1.337 HN   HAV 21 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-HAV  NA   CA SING N N  1
-HAV  NA HNA1 SING N N  2
-HAV  NA HNA2 SING N N  3
-HAV  CA   CB SING N N  4
-HAV  CA    C SING N N  5
-HAV  CA   HA SING N N  6
-HAV  CB  CG1 SING N N  7
-HAV  CB  CG2 SING N N  8
-HAV  CB   HB SING N N  9
-HAV CG1 HG11 SING N N 10
-HAV CG1 HG12 SING N N 11
-HAV CG1 HG13 SING N N 12
-HAV CG2 HG21 SING N N 13
-HAV CG2 HG22 SING N N 14
-HAV CG2 HG23 SING N N 15
-HAV   C    O DOUB N N 16
-HAV   C    N SING N N 17
-HAV  O1    N SING N N 18
-HAV  O1  HO1 SING N N 19
-HAV   N   HN SING N N 20
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+HAV NA  CA   SING N N 1  
+HAV NA  HNA1 SING N N 2  
+HAV NA  HNA2 SING N N 3  
+HAV CA  CB   SING N N 4  
+HAV CA  C    SING N N 5  
+HAV CA  HA   SING N N 6  
+HAV CB  CG1  SING N N 7  
+HAV CB  CG2  SING N N 8  
+HAV CB  HB   SING N N 9  
+HAV CG1 HG11 SING N N 10 
+HAV CG1 HG12 SING N N 11 
+HAV CG1 HG13 SING N N 12 
+HAV CG2 HG21 SING N N 13 
+HAV CG2 HG22 SING N N 14 
+HAV CG2 HG23 SING N N 15 
+HAV C   O    DOUB N N 16 
+HAV C   N    SING N N 17 
+HAV O1  N    SING N N 18 
+HAV O1  HO1  SING N N 19 
+HAV N   HN   SING N N 20 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-HAV           SMILES              ACDLabs 10.04                                                          O=C(NO)C(N)C(C)C
-HAV SMILES_CANONICAL               CACTVS 3.341                                                     CC(C)[C@@H](N)C(=O)NO
-HAV           SMILES               CACTVS 3.341                                                       CC(C)[CH](N)C(=O)NO
-HAV SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                      CC(C)[C@H](C(=O)NO)N
-HAV           SMILES "OpenEye OEToolkits" 1.5.0                                                          CC(C)C(C(=O)NO)N
-HAV            InChI                InChI  1.03 InChI=1S/C5H12N2O2/c1-3(2)4(6)5(8)7-9/h3-4,9H,6H2,1-2H3,(H,7,8)/t4-/m1/s1
-HAV         InChIKey                InChI  1.03                                               USSBBYRBOWZYSB-SCSAIBSYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+HAV SMILES           ACDLabs              10.04 "O=C(NO)C(N)C(C)C"                                                          
+HAV SMILES_CANONICAL CACTVS               3.341 "CC(C)[C@@H](N)C(=O)NO"                                                     
+HAV SMILES           CACTVS               3.341 "CC(C)[CH](N)C(=O)NO"                                                       
+HAV SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(C)[C@H](C(=O)NO)N"                                                      
+HAV SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C)C(C(=O)NO)N"                                                          
+HAV InChI            InChI                1.03  "InChI=1S/C5H12N2O2/c1-3(2)4(6)5(8)7-9/h3-4,9H,6H2,1-2H3,(H,7,8)/t4-/m1/s1" 
+HAV InChIKey         InChI                1.03  USSBBYRBOWZYSB-SCSAIBSYSA-N                                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-HAV "SYSTEMATIC NAME"              ACDLabs 10.04                     N-hydroxy-D-valinamide
-HAV "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 (2R)-2-amino-N-hydroxy-3-methyl-butanamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+HAV "SYSTEMATIC NAME" ACDLabs              10.04 N-hydroxy-D-valinamide                       
+HAV "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-amino-N-hydroxy-3-methyl-butanamide" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-HAV  "Create component" 1999-07-08 RCSB
-HAV "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   HAV
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02697
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Hydroxyaminovaline
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           HAV
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02697
-_pdbe_chem_comp_drugbank_classification.parent            "Valine and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as valine and derivatives. These are compounds containing valine or a derivative thereof resulting from reaction of valine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-HAV DB02697 "Collagenase 3" Humans P45452 unknown 1
-HAV DB02697   Stromelysin-1 Humans P08254 unknown 2
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-HAV  NA N 3.805  0.750 1
-HAV  CA C 5.104  0.000 2
-HAV  CB C 5.104 -1.500 3
-HAV CG1 C 3.805 -2.250 4
-HAV CG2 C 6.404 -2.250 5
-HAV   C C 6.404  0.750 6
-HAV   O O 6.404  2.250 7
-HAV  O1 O 9.002  0.750 8
-HAV   N N 7.702  0.000 9
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-HAV NA  CA SINGLE BEGINDASH 1
-HAV CA  CB SINGLE      NONE 2
-HAV CA   C SINGLE      NONE 3
-HAV CB CG1 SINGLE      NONE 4
-HAV CB CG2 SINGLE      NONE 5
-HAV  C   O DOUBLE      NONE 6
-HAV  C   N SINGLE      NONE 7
-HAV O1   N SINGLE      NONE 8
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-HAV   amide F1 fragment CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-HAV peptide F2 fragment   NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-HAV  N F1 1
-HAV  C F1 1
-HAV  O F1 1
-HAV CA F1 1
-HAV  O F2 1
-HAV  C F2 1
-HAV CA F2 1
-HAV NA F2 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               HAV
-_pdbe_chem_comp_rdkit_properties.exactmw                               132.090
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.800
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             71.119
-_pdbe_chem_comp_rdkit_properties.tpsa                                  75.350
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.525
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             32.743
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-HAV UniChem   ChEMBL    CHEMBL1233234
-HAV UniChem DrugBank          DB02697
-HAV UniChem     ZINC ZINC000003997609
-HAV UniChem   BRENDA            47184
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-HAV   NA -0.255 -1.958 -0.100 ETKDGv2  1
-HAV   CA  0.303 -0.631 -0.387 ETKDGv2  2
-HAV   CB -0.799  0.464 -0.342 ETKDGv2  3
-HAV  CG1 -1.871  0.210 -1.411 ETKDGv2  4
-HAV  CG2 -1.452  0.606  1.043 ETKDGv2  5
-HAV    C  1.466 -0.294  0.524 ETKDGv2  6
-HAV    O  1.723 -1.012  1.530 ETKDGv2  7
-HAV   O1  3.311  1.174  1.068 ETKDGv2  8
-HAV    N  2.293  0.838  0.239 ETKDGv2  9
-HAV HNA1  0.479 -2.678 -0.294 ETKDGv2 10
-HAV HNA2 -0.505 -2.035  0.912 ETKDGv2 11
-HAV   HA  0.711 -0.655 -1.423 ETKDGv2 12
-HAV   HB -0.327  1.441 -0.587 ETKDGv2 13
-HAV HG11 -2.606  1.043 -1.421 ETKDGv2 14
-HAV HG12 -1.405  0.151 -2.417 ETKDGv2 15
-HAV HG13 -2.414 -0.739 -1.210 ETKDGv2 16
-HAV HG21 -0.684  0.786  1.823 ETKDGv2 17
-HAV HG22 -2.033 -0.303  1.307 ETKDGv2 18
-HAV HG23 -2.147  1.473  1.044 ETKDGv2 19
-HAV  HO1  4.100  0.695  0.707 ETKDGv2 20
-HAV   HN  2.112  1.423 -0.607 ETKDGv2 21
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+HAV "Create component"  1999-07-08 RCSB 
+HAV "Modify descriptor" 2011-06-04 RCSB 
+# 

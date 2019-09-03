@@ -1,551 +1,225 @@
 data_CVE
-#
-_chem_comp.id                                        CVE
-_chem_comp.name                                      "(3~{S})-3-[[(2~{R})-2-[3-methyl-2,6-bis(oxidanylidene)-5-[[4-(quinoxalin-2-ylamino)phenyl]carbonylamino]pyrimidin-1-yl]propanoyl]amino]-4-oxidanyl-butanoic acid"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C27 H27 N7 O7"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2017-12-07
-_chem_comp.pdbx_modified_date                        2018-04-27
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            561.546
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         CVE
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6F6R
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    CVE 
+_chem_comp.name                                  "(3~{S})-3-[[(2~{R})-2-[3-methyl-2,6-bis(oxidanylidene)-5-[[4-(quinoxalin-2-ylamino)phenyl]carbonylamino]pyrimidin-1-yl]propanoyl]amino]-4-oxidanyl-butanoic acid" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C27 H27 N7 O7" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-12-07 
+_chem_comp.pdbx_modified_date                    2018-04-27 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        561.546 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     CVE 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6F6R 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-CVE  C4  C1 C 0 1 N N N -0.461 31.748  7.206 -2.444  1.273  0.124  C4 CVE  1
-CVE  C6  C2 C 0 1 N N N -2.378 30.338  7.976 -3.827  3.071  0.687  C6 CVE  2
-CVE  N1  N1 N 0 1 N N N -2.936 31.482  8.500 -2.923  3.950  0.218  N1 CVE  3
-CVE  C9  C3 C 0 1 N N R -0.395 29.256  7.013 -4.599  0.813  1.160  C9 CVE  4
-CVE C10  C4 C 0 1 N N N  0.909 29.027  7.771 -3.990 -0.012  2.296 C10 CVE  5
-CVE C11  C5 C 0 1 N N N -0.296 29.237  5.481 -5.046 -0.108  0.054 C11 CVE  6
-CVE  O7  O1 O 0 1 N N N -2.992 29.287  7.924 -4.871  3.480  1.158  O7 CVE  7
-CVE C14  C6 C 0 1 N N N -4.272 31.376  9.086 -3.207  5.386  0.282 C14 CVE  8
-CVE  O8  O2 O 0 1 N N N  0.574 31.857  6.543 -2.237  0.074  0.079  O8 CVE  9
-CVE  C2  C7 C 0 1 N N N -2.304 32.691  8.453 -1.738  3.515 -0.318  C2 CVE 10
-CVE  C3  C8 C 0 1 N N N -1.123 32.925  7.817 -1.477  2.187 -0.376  C3 CVE 11
-CVE  N5  N2 N 0 1 N N N -1.102 30.476  7.440 -3.595  1.746  0.642  N5 CVE 12
-CVE N12  N3 N 0 1 N N N  0.879 28.864  4.951 -5.972 -1.056  0.300 N12 CVE 13
-CVE O13  O3 O 0 1 N N N -1.274 29.532  4.794 -4.573  0.004 -1.057 O13 CVE 14
-CVE N15  N4 N 0 1 N N N -0.265 34.041  7.875 -0.269  1.720 -0.921 N15 CVE 15
-CVE C16  C9 C 0 1 N N N -0.248 34.966  8.893  0.566  0.975 -0.170 C16 CVE 16
-CVE C17 C10 C 0 1 Y N N  0.627 36.158  8.694  1.882  0.576 -0.705 C17 CVE 17
-CVE O18  O4 O 0 1 N N N -0.825 34.776  9.962  0.234  0.630  0.948 O18 CVE 18
-CVE C19 C11 C 0 1 Y N N  0.433 37.286  9.491  2.749 -0.197  0.073 C19 CVE 19
-CVE C20 C12 C 0 1 Y N N  1.287 38.373  9.400  3.976 -0.567 -0.428 C20 CVE 20
-CVE C21 C13 C 0 1 Y N N  2.355 38.353  8.508  4.354 -0.172 -1.709 C21 CVE 21
-CVE C22 C14 C 0 1 Y N N  2.557 37.229  7.710  3.493  0.599 -2.485 C22 CVE 22
-CVE C23 C15 C 0 1 Y N N  1.693 36.150  7.792  2.263  0.967 -1.992 C23 CVE 23
-CVE N24  N5 N 0 1 N N N  3.197 39.484  8.458  5.596 -0.547 -2.213 N24 CVE 24
-CVE C25 C16 C 0 1 Y N N  4.032 39.952  7.459  6.681 -0.680 -1.357 C25 CVE 25
-CVE C26 C17 C 0 1 Y N N  4.806 41.117  7.733  7.903 -1.170 -1.851 C26 CVE 26
-CVE N27  N6 N 0 1 Y N N  5.641 41.629  6.853  8.939 -1.302 -1.058 N27 CVE 27
-CVE N28  N7 N 0 1 Y N N  4.109 39.313  6.301  6.560 -0.340 -0.088 N28 CVE 28
-CVE C29 C18 C 0 1 Y N N  4.970 39.829  5.369  7.609 -0.463  0.734 C29 CVE 29
-CVE C30 C19 C 0 1 Y N N  5.737 40.984  5.644  8.835 -0.968  0.235 C30 CVE 30
-CVE C31 C20 C 0 1 Y N N  6.603 41.492  4.646  9.932 -1.095  1.104 C31 CVE 31
-CVE C32 C21 C 0 1 Y N N  6.690 40.865  3.428  9.804 -0.732  2.410 C32 CVE 32
-CVE C33 C22 C 0 1 Y N N  5.935 39.728  3.158  8.598 -0.237  2.901 C33 CVE 33
-CVE C34 C23 C 0 1 Y N N  5.084 39.210  4.102  7.510 -0.116  2.092 C34 CVE 34
-CVE C35 C24 C 0 1 N N S  1.044 28.544  3.533 -6.407 -1.951 -0.775 C35 CVE 35
-CVE C36 C25 C 0 1 N N N  1.701 27.192  3.334 -7.522 -1.279 -1.579 C36 CVE 36
-CVE O37  O5 O 0 1 N N N  0.286 29.596  0.963 -6.025 -5.156  1.121 O37 CVE 37
-CVE C38 C26 C 0 1 N N N  1.485 29.693  1.320 -5.800 -3.979  0.516 C38 CVE 38
-CVE C39 C27 C 0 1 N N N  1.796 29.660  2.814 -6.929 -3.257 -0.172 C39 CVE 39
-CVE O40  O6 O 0 1 N N N  2.455 29.806  0.539 -4.691 -3.499  0.523 O40 CVE 40
-CVE O41  O7 O 0 1 N N N  1.722 26.773  1.970 -8.669 -1.103 -0.746 O41 CVE 41
-CVE  H1  H1 H 0 1 N N N -1.047 28.411  7.279 -5.455  1.372  1.536  H1 CVE 42
-CVE  H2  H2 H 0 1 N N N  0.716 29.062  8.853 -4.737 -0.706  2.681  H2 CVE 43
-CVE  H3  H3 H 0 1 N N N  1.320 28.042  7.504 -3.134 -0.572  1.920  H3 CVE 44
-CVE  H4  H4 H 0 1 N N N  1.632 29.811  7.502 -3.667  0.654  3.096  H4 CVE 45
-CVE  H5  H5 H 0 1 N N N -4.587 32.361  9.462 -2.839  5.787  1.226  H5 CVE 46
-CVE  H6  H6 H 0 1 N N N -4.982 31.031  8.320 -2.709  5.891 -0.546  H6 CVE 47
-CVE  H7  H7 H 0 1 N N N -4.252 30.656  9.917 -4.282  5.547  0.212  H7 CVE 48
-CVE  H8  H8 H 0 1 N N N -2.775 33.522  8.957 -1.017  4.226 -0.693  H8 CVE 49
-CVE  H9  H9 H 0 1 N N N  1.676 28.802  5.551 -6.350 -1.146  1.189  H9 CVE 50
-CVE H10 H10 H 0 1 N N N  0.379 34.170  7.121 -0.036  1.934 -1.838 H10 CVE 51
-CVE H11 H11 H 0 1 N N N -0.392 37.312 10.187  2.456 -0.503  1.066 H11 CVE 52
-CVE H12 H12 H 0 1 N N N  1.123 39.239 10.024  4.646 -1.164  0.172 H12 CVE 53
-CVE H13 H13 H 0 1 N N N  3.391 37.199  7.025  3.788  0.900 -3.480 H13 CVE 54
-CVE H14 H14 H 0 1 N N N  1.845 35.294  7.152  1.595  1.564 -2.595 H14 CVE 55
-CVE H15 H15 H 0 1 N N N  3.189 40.043  9.287  5.703 -0.716 -3.162 H15 CVE 56
-CVE H16 H16 H 0 1 N N N  4.704 41.596  8.695  7.989 -1.441 -2.893 H16 CVE 57
-CVE H17 H17 H 0 1 N N N  7.195 42.373  4.843 10.873 -1.478  0.738 H17 CVE 58
-CVE H18 H18 H 0 1 N N N  7.352 41.259  2.671 10.649 -0.831  3.075 H18 CVE 59
-CVE H19 H19 H 0 1 N N N  6.020 39.247  2.194  8.521  0.043  3.941 H19 CVE 60
-CVE H20 H20 H 0 1 N N N  4.501 38.329  3.877  6.581  0.270  2.486 H20 CVE 61
-CVE H21 H21 H 0 1 N N N  0.042 28.488  3.082 -5.564 -2.166 -1.432 H21 CVE 62
-CVE H22 H22 H 0 1 N N N  1.147 26.444  3.921 -7.178 -0.307 -1.934 H22 CVE 63
-CVE H23 H23 H 0 1 N N N  2.737 27.250  3.698 -7.784 -1.906 -2.431 H23 CVE 64
-CVE H24 H24 H 0 1 N N N  0.234 29.622  0.015 -5.270 -5.582  1.549 H24 CVE 65
-CVE H25 H25 H 0 1 N N N  2.876 29.503  2.948 -7.713 -3.034  0.552 H25 CVE 66
-CVE H26 H26 H 0 1 N N N  1.508 30.625  3.258 -7.334 -3.886 -0.964 H26 CVE 67
-CVE H27 H27 H 0 1 N N N  2.143 25.924  1.906 -9.417 -0.681 -1.191 H27 CVE 68
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+CVE C4  C1  C 0 1 N N N -0.461 31.748 7.206  -2.444 1.273  0.124  C4  CVE 1  
+CVE C6  C2  C 0 1 N N N -2.378 30.338 7.976  -3.827 3.071  0.687  C6  CVE 2  
+CVE N1  N1  N 0 1 N N N -2.936 31.482 8.500  -2.923 3.950  0.218  N1  CVE 3  
+CVE C9  C3  C 0 1 N N R -0.395 29.256 7.013  -4.599 0.813  1.160  C9  CVE 4  
+CVE C10 C4  C 0 1 N N N 0.909  29.027 7.771  -3.990 -0.012 2.296  C10 CVE 5  
+CVE C11 C5  C 0 1 N N N -0.296 29.237 5.481  -5.046 -0.108 0.054  C11 CVE 6  
+CVE O7  O1  O 0 1 N N N -2.992 29.287 7.924  -4.871 3.480  1.158  O7  CVE 7  
+CVE C14 C6  C 0 1 N N N -4.272 31.376 9.086  -3.207 5.386  0.282  C14 CVE 8  
+CVE O8  O2  O 0 1 N N N 0.574  31.857 6.543  -2.237 0.074  0.079  O8  CVE 9  
+CVE C2  C7  C 0 1 N N N -2.304 32.691 8.453  -1.738 3.515  -0.318 C2  CVE 10 
+CVE C3  C8  C 0 1 N N N -1.123 32.925 7.817  -1.477 2.187  -0.376 C3  CVE 11 
+CVE N5  N2  N 0 1 N N N -1.102 30.476 7.440  -3.595 1.746  0.642  N5  CVE 12 
+CVE N12 N3  N 0 1 N N N 0.879  28.864 4.951  -5.972 -1.056 0.300  N12 CVE 13 
+CVE O13 O3  O 0 1 N N N -1.274 29.532 4.794  -4.573 0.004  -1.057 O13 CVE 14 
+CVE N15 N4  N 0 1 N N N -0.265 34.041 7.875  -0.269 1.720  -0.921 N15 CVE 15 
+CVE C16 C9  C 0 1 N N N -0.248 34.966 8.893  0.566  0.975  -0.170 C16 CVE 16 
+CVE C17 C10 C 0 1 Y N N 0.627  36.158 8.694  1.882  0.576  -0.705 C17 CVE 17 
+CVE O18 O4  O 0 1 N N N -0.825 34.776 9.962  0.234  0.630  0.948  O18 CVE 18 
+CVE C19 C11 C 0 1 Y N N 0.433  37.286 9.491  2.749  -0.197 0.073  C19 CVE 19 
+CVE C20 C12 C 0 1 Y N N 1.287  38.373 9.400  3.976  -0.567 -0.428 C20 CVE 20 
+CVE C21 C13 C 0 1 Y N N 2.355  38.353 8.508  4.354  -0.172 -1.709 C21 CVE 21 
+CVE C22 C14 C 0 1 Y N N 2.557  37.229 7.710  3.493  0.599  -2.485 C22 CVE 22 
+CVE C23 C15 C 0 1 Y N N 1.693  36.150 7.792  2.263  0.967  -1.992 C23 CVE 23 
+CVE N24 N5  N 0 1 N N N 3.197  39.484 8.458  5.596  -0.547 -2.213 N24 CVE 24 
+CVE C25 C16 C 0 1 Y N N 4.032  39.952 7.459  6.681  -0.680 -1.357 C25 CVE 25 
+CVE C26 C17 C 0 1 Y N N 4.806  41.117 7.733  7.903  -1.170 -1.851 C26 CVE 26 
+CVE N27 N6  N 0 1 Y N N 5.641  41.629 6.853  8.939  -1.302 -1.058 N27 CVE 27 
+CVE N28 N7  N 0 1 Y N N 4.109  39.313 6.301  6.560  -0.340 -0.088 N28 CVE 28 
+CVE C29 C18 C 0 1 Y N N 4.970  39.829 5.369  7.609  -0.463 0.734  C29 CVE 29 
+CVE C30 C19 C 0 1 Y N N 5.737  40.984 5.644  8.835  -0.968 0.235  C30 CVE 30 
+CVE C31 C20 C 0 1 Y N N 6.603  41.492 4.646  9.932  -1.095 1.104  C31 CVE 31 
+CVE C32 C21 C 0 1 Y N N 6.690  40.865 3.428  9.804  -0.732 2.410  C32 CVE 32 
+CVE C33 C22 C 0 1 Y N N 5.935  39.728 3.158  8.598  -0.237 2.901  C33 CVE 33 
+CVE C34 C23 C 0 1 Y N N 5.084  39.210 4.102  7.510  -0.116 2.092  C34 CVE 34 
+CVE C35 C24 C 0 1 N N S 1.044  28.544 3.533  -6.407 -1.951 -0.775 C35 CVE 35 
+CVE C36 C25 C 0 1 N N N 1.701  27.192 3.334  -7.522 -1.279 -1.579 C36 CVE 36 
+CVE O37 O5  O 0 1 N N N 0.286  29.596 0.963  -6.025 -5.156 1.121  O37 CVE 37 
+CVE C38 C26 C 0 1 N N N 1.485  29.693 1.320  -5.800 -3.979 0.516  C38 CVE 38 
+CVE C39 C27 C 0 1 N N N 1.796  29.660 2.814  -6.929 -3.257 -0.172 C39 CVE 39 
+CVE O40 O6  O 0 1 N N N 2.455  29.806 0.539  -4.691 -3.499 0.523  O40 CVE 40 
+CVE O41 O7  O 0 1 N N N 1.722  26.773 1.970  -8.669 -1.103 -0.746 O41 CVE 41 
+CVE H1  H1  H 0 1 N N N -1.047 28.411 7.279  -5.455 1.372  1.536  H1  CVE 42 
+CVE H2  H2  H 0 1 N N N 0.716  29.062 8.853  -4.737 -0.706 2.681  H2  CVE 43 
+CVE H3  H3  H 0 1 N N N 1.320  28.042 7.504  -3.134 -0.572 1.920  H3  CVE 44 
+CVE H4  H4  H 0 1 N N N 1.632  29.811 7.502  -3.667 0.654  3.096  H4  CVE 45 
+CVE H5  H5  H 0 1 N N N -4.587 32.361 9.462  -2.839 5.787  1.226  H5  CVE 46 
+CVE H6  H6  H 0 1 N N N -4.982 31.031 8.320  -2.709 5.891  -0.546 H6  CVE 47 
+CVE H7  H7  H 0 1 N N N -4.252 30.656 9.917  -4.282 5.547  0.212  H7  CVE 48 
+CVE H8  H8  H 0 1 N N N -2.775 33.522 8.957  -1.017 4.226  -0.693 H8  CVE 49 
+CVE H9  H9  H 0 1 N N N 1.676  28.802 5.551  -6.350 -1.146 1.189  H9  CVE 50 
+CVE H10 H10 H 0 1 N N N 0.379  34.170 7.121  -0.036 1.934  -1.838 H10 CVE 51 
+CVE H11 H11 H 0 1 N N N -0.392 37.312 10.187 2.456  -0.503 1.066  H11 CVE 52 
+CVE H12 H12 H 0 1 N N N 1.123  39.239 10.024 4.646  -1.164 0.172  H12 CVE 53 
+CVE H13 H13 H 0 1 N N N 3.391  37.199 7.025  3.788  0.900  -3.480 H13 CVE 54 
+CVE H14 H14 H 0 1 N N N 1.845  35.294 7.152  1.595  1.564  -2.595 H14 CVE 55 
+CVE H15 H15 H 0 1 N N N 3.189  40.043 9.287  5.703  -0.716 -3.162 H15 CVE 56 
+CVE H16 H16 H 0 1 N N N 4.704  41.596 8.695  7.989  -1.441 -2.893 H16 CVE 57 
+CVE H17 H17 H 0 1 N N N 7.195  42.373 4.843  10.873 -1.478 0.738  H17 CVE 58 
+CVE H18 H18 H 0 1 N N N 7.352  41.259 2.671  10.649 -0.831 3.075  H18 CVE 59 
+CVE H19 H19 H 0 1 N N N 6.020  39.247 2.194  8.521  0.043  3.941  H19 CVE 60 
+CVE H20 H20 H 0 1 N N N 4.501  38.329 3.877  6.581  0.270  2.486  H20 CVE 61 
+CVE H21 H21 H 0 1 N N N 0.042  28.488 3.082  -5.564 -2.166 -1.432 H21 CVE 62 
+CVE H22 H22 H 0 1 N N N 1.147  26.444 3.921  -7.178 -0.307 -1.934 H22 CVE 63 
+CVE H23 H23 H 0 1 N N N 2.737  27.250 3.698  -7.784 -1.906 -2.431 H23 CVE 64 
+CVE H24 H24 H 0 1 N N N 0.234  29.622 0.015  -5.270 -5.582 1.549  H24 CVE 65 
+CVE H25 H25 H 0 1 N N N 2.876  29.503 2.948  -7.713 -3.034 0.552  H25 CVE 66 
+CVE H26 H26 H 0 1 N N N 1.508  30.625 3.258  -7.334 -3.886 -0.964 H26 CVE 67 
+CVE H27 H27 H 0 1 N N N 2.143  25.924 1.906  -9.417 -0.681 -1.191 H27 CVE 68 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-CVE O40 C38 DOUB N N  1
-CVE O37 C38 SING N N  2
-CVE C38 C39 SING N N  3
-CVE O41 C36 SING N N  4
-CVE C39 C35 SING N N  5
-CVE C33 C32 DOUB Y N  6
-CVE C33 C34 SING Y N  7
-CVE C36 C35 SING N N  8
-CVE C32 C31 SING Y N  9
-CVE C35 N12 SING N N 10
-CVE C34 C29 DOUB Y N 11
-CVE C31 C30 DOUB Y N 12
-CVE O13 C11 DOUB N N 13
-CVE N12 C11 SING N N 14
-CVE C29 C30 SING Y N 15
-CVE C29 N28 SING Y N 16
-CVE C11  C9 SING N N 17
-CVE C30 N27 SING Y N 18
-CVE N28 C25 DOUB Y N 19
-CVE  O8  C4 DOUB N N 20
-CVE N27 C26 DOUB Y N 21
-CVE  C9  N5 SING N N 22
-CVE  C9 C10 SING N N 23
-CVE  C4  N5 SING N N 24
-CVE  C4  C3 SING N N 25
-CVE  N5  C6 SING N N 26
-CVE C25 C26 SING Y N 27
-CVE C25 N24 SING N N 28
-CVE C22 C23 DOUB Y N 29
-CVE C22 C21 SING Y N 30
-CVE C23 C17 SING Y N 31
-CVE  C3 N15 SING N N 32
-CVE  C3  C2 DOUB N N 33
-CVE N15 C16 SING N N 34
-CVE  O7  C6 DOUB N N 35
-CVE  C6  N1 SING N N 36
-CVE  C2  N1 SING N N 37
-CVE N24 C21 SING N N 38
-CVE  N1 C14 SING N N 39
-CVE C21 C20 DOUB Y N 40
-CVE C17 C16 SING N N 41
-CVE C17 C19 DOUB Y N 42
-CVE C16 O18 DOUB N N 43
-CVE C20 C19 SING Y N 44
-CVE  C9  H1 SING N N 45
-CVE C10  H2 SING N N 46
-CVE C10  H3 SING N N 47
-CVE C10  H4 SING N N 48
-CVE C14  H5 SING N N 49
-CVE C14  H6 SING N N 50
-CVE C14  H7 SING N N 51
-CVE  C2  H8 SING N N 52
-CVE N12  H9 SING N N 53
-CVE N15 H10 SING N N 54
-CVE C19 H11 SING N N 55
-CVE C20 H12 SING N N 56
-CVE C22 H13 SING N N 57
-CVE C23 H14 SING N N 58
-CVE N24 H15 SING N N 59
-CVE C26 H16 SING N N 60
-CVE C31 H17 SING N N 61
-CVE C32 H18 SING N N 62
-CVE C33 H19 SING N N 63
-CVE C34 H20 SING N N 64
-CVE C35 H21 SING N N 65
-CVE C36 H22 SING N N 66
-CVE C36 H23 SING N N 67
-CVE O37 H24 SING N N 68
-CVE C39 H25 SING N N 69
-CVE C39 H26 SING N N 70
-CVE O41 H27 SING N N 71
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+CVE O40 C38 DOUB N N 1  
+CVE O37 C38 SING N N 2  
+CVE C38 C39 SING N N 3  
+CVE O41 C36 SING N N 4  
+CVE C39 C35 SING N N 5  
+CVE C33 C32 DOUB Y N 6  
+CVE C33 C34 SING Y N 7  
+CVE C36 C35 SING N N 8  
+CVE C32 C31 SING Y N 9  
+CVE C35 N12 SING N N 10 
+CVE C34 C29 DOUB Y N 11 
+CVE C31 C30 DOUB Y N 12 
+CVE O13 C11 DOUB N N 13 
+CVE N12 C11 SING N N 14 
+CVE C29 C30 SING Y N 15 
+CVE C29 N28 SING Y N 16 
+CVE C11 C9  SING N N 17 
+CVE C30 N27 SING Y N 18 
+CVE N28 C25 DOUB Y N 19 
+CVE O8  C4  DOUB N N 20 
+CVE N27 C26 DOUB Y N 21 
+CVE C9  N5  SING N N 22 
+CVE C9  C10 SING N N 23 
+CVE C4  N5  SING N N 24 
+CVE C4  C3  SING N N 25 
+CVE N5  C6  SING N N 26 
+CVE C25 C26 SING Y N 27 
+CVE C25 N24 SING N N 28 
+CVE C22 C23 DOUB Y N 29 
+CVE C22 C21 SING Y N 30 
+CVE C23 C17 SING Y N 31 
+CVE C3  N15 SING N N 32 
+CVE C3  C2  DOUB N N 33 
+CVE N15 C16 SING N N 34 
+CVE O7  C6  DOUB N N 35 
+CVE C6  N1  SING N N 36 
+CVE C2  N1  SING N N 37 
+CVE N24 C21 SING N N 38 
+CVE N1  C14 SING N N 39 
+CVE C21 C20 DOUB Y N 40 
+CVE C17 C16 SING N N 41 
+CVE C17 C19 DOUB Y N 42 
+CVE C16 O18 DOUB N N 43 
+CVE C20 C19 SING Y N 44 
+CVE C9  H1  SING N N 45 
+CVE C10 H2  SING N N 46 
+CVE C10 H3  SING N N 47 
+CVE C10 H4  SING N N 48 
+CVE C14 H5  SING N N 49 
+CVE C14 H6  SING N N 50 
+CVE C14 H7  SING N N 51 
+CVE C2  H8  SING N N 52 
+CVE N12 H9  SING N N 53 
+CVE N15 H10 SING N N 54 
+CVE C19 H11 SING N N 55 
+CVE C20 H12 SING N N 56 
+CVE C22 H13 SING N N 57 
+CVE C23 H14 SING N N 58 
+CVE N24 H15 SING N N 59 
+CVE C26 H16 SING N N 60 
+CVE C31 H17 SING N N 61 
+CVE C32 H18 SING N N 62 
+CVE C33 H19 SING N N 63 
+CVE C34 H20 SING N N 64 
+CVE C35 H21 SING N N 65 
+CVE C36 H22 SING N N 66 
+CVE C36 H23 SING N N 67 
+CVE O37 H24 SING N N 68 
+CVE C39 H25 SING N N 69 
+CVE C39 H26 SING N N 70 
+CVE O41 H27 SING N N 71 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-CVE            InChI                InChI  1.03 InChI=1S/C27H27N7O7/c1-15(24(38)30-18(14-35)11-23(36)37)34-26(40)21(13-33(2)27(34)41)32-25(39)16-7-9-17(10-8-16)29-22-12-28-19-5-3-4-6-20(19)31-22/h3-10,12-13,15,18,35H,11,14H2,1-2H3,(H,29,31)(H,30,38)(H,32,39)(H,36,37)/t15-,18+/m1/s1
-CVE         InChIKey                InChI  1.03                                                                                                                                                                                                                FDRYWPYDHDHBBU-QAPCUYQASA-N
-CVE SMILES_CANONICAL               CACTVS 3.385                                                                                                                                                         C[C@@H](N1C(=O)N(C)C=C(NC(=O)c2ccc(Nc3cnc4ccccc4n3)cc2)C1=O)C(=O)N[C@H](CO)CC(O)=O
-CVE           SMILES               CACTVS 3.385                                                                                                                                                            C[CH](N1C(=O)N(C)C=C(NC(=O)c2ccc(Nc3cnc4ccccc4n3)cc2)C1=O)C(=O)N[CH](CO)CC(O)=O
-CVE SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                                                                         C[C@H](C(=O)N[C@@H](CC(=O)O)CO)N1C(=O)C(=CN(C1=O)C)NC(=O)c2ccc(cc2)Nc3cnc4ccccc4n3
-CVE           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                                                                                  CC(C(=O)NC(CC(=O)O)CO)N1C(=O)C(=CN(C1=O)C)NC(=O)c2ccc(cc2)Nc3cnc4ccccc4n3
-#
-_pdbx_chem_comp_identifier.comp_id               CVE
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.6
-_pdbx_chem_comp_identifier.identifier            "(3~{S})-3-[[(2~{R})-2-[3-methyl-2,6-bis(oxidanylidene)-5-[[4-(quinoxalin-2-ylamino)phenyl]carbonylamino]pyrimidin-1-yl]propanoyl]amino]-4-oxidanyl-butanoic acid"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+CVE InChI            InChI                1.03  
+"InChI=1S/C27H27N7O7/c1-15(24(38)30-18(14-35)11-23(36)37)34-26(40)21(13-33(2)27(34)41)32-25(39)16-7-9-17(10-8-16)29-22-12-28-19-5-3-4-6-20(19)31-22/h3-10,12-13,15,18,35H,11,14H2,1-2H3,(H,29,31)(H,30,38)(H,32,39)(H,36,37)/t15-,18+/m1/s1" 
+CVE InChIKey         InChI                1.03  FDRYWPYDHDHBBU-QAPCUYQASA-N 
+CVE SMILES_CANONICAL CACTVS               3.385 "C[C@@H](N1C(=O)N(C)C=C(NC(=O)c2ccc(Nc3cnc4ccccc4n3)cc2)C1=O)C(=O)N[C@H](CO)CC(O)=O" 
+CVE SMILES           CACTVS               3.385 "C[CH](N1C(=O)N(C)C=C(NC(=O)c2ccc(Nc3cnc4ccccc4n3)cc2)C1=O)C(=O)N[CH](CO)CC(O)=O" 
+CVE SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C[C@H](C(=O)N[C@@H](CC(=O)O)CO)N1C(=O)C(=CN(C1=O)C)NC(=O)c2ccc(cc2)Nc3cnc4ccccc4n3" 
+CVE SMILES           "OpenEye OEToolkits" 2.0.6 "CC(C(=O)NC(CC(=O)O)CO)N1C(=O)C(=CN(C1=O)C)NC(=O)c2ccc(cc2)Nc3cnc4ccccc4n3" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-CVE "Create component" 2017-12-07  EBI
-CVE  "Initial release" 2018-05-02 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+CVE "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "(3~{S})-3-[[(2~{R})-2-[3-methyl-2,6-bis(oxidanylidene)-5-[[4-(quinoxalin-2-ylamino)phenyl]carbonylamino]pyrimidin-1-yl]propanoyl]amino]-4-oxidanyl-butanoic acid" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-CVE  C4 C 18.690 -0.660  1
-CVE  C6 C 19.989  1.590  2
-CVE  N1 N 18.690  2.340  3
-CVE  C9 C 21.288 -0.660  4
-CVE C10 C 21.288 -2.160  5
-CVE C11 C 22.587  0.090  6
-CVE  O7 O 21.288  2.340  7
-CVE C14 C 18.690  3.840  8
-CVE  O8 O 18.690 -2.160  9
-CVE  C2 C 17.391  1.590 10
-CVE  C3 C 17.391  0.090 11
-CVE  N5 N 19.989  0.090 12
-CVE N12 N 23.887 -0.660 13
-CVE O13 O 22.587  1.590 14
-CVE N15 N 16.092 -0.660 15
-CVE C16 C 14.793  0.090 16
-CVE C17 C 13.494 -0.660 17
-CVE O18 O 14.793  1.590 18
-CVE C19 C 13.494 -2.160 19
-CVE C20 C 12.195 -2.910 20
-CVE C21 C 10.896 -2.160 21
-CVE C22 C 10.896 -0.660 22
-CVE C23 C 12.195  0.090 23
-CVE N24 N  9.597 -2.910 24
-CVE C25 C  8.298 -2.160 25
-CVE C26 C  8.298 -0.660 26
-CVE N27 N  6.999  0.090 27
-CVE N28 N  6.999 -2.910 28
-CVE C29 C  5.700 -2.160 29
-CVE C30 C  5.700 -0.660 30
-CVE C31 C  4.359  0.142 31
-CVE C32 C  3.000 -0.629 32
-CVE C33 C  3.000 -2.191 33
-CVE C34 C  4.359 -2.962 34
-CVE C35 C 25.186  0.090 35
-CVE C36 C 25.186  1.590 36
-CVE O37 O 29.083 -0.660 37
-CVE C38 C 27.784  0.090 38
-CVE C39 C 26.485 -0.660 39
-CVE O40 O 27.784  1.590 40
-CVE O41 O 26.485  2.340 41
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-CVE O40 C38 DOUBLE       NONE  1
-CVE O37 C38 SINGLE       NONE  2
-CVE C38 C39 SINGLE       NONE  3
-CVE O41 C36 SINGLE       NONE  4
-CVE C39 C35 SINGLE BEGINWEDGE  5
-CVE C33 C32 DOUBLE       NONE  6
-CVE C33 C34 SINGLE       NONE  7
-CVE C36 C35 SINGLE       NONE  8
-CVE C32 C31 SINGLE       NONE  9
-CVE C35 N12 SINGLE       NONE 10
-CVE C34 C29 DOUBLE       NONE 11
-CVE C31 C30 DOUBLE       NONE 12
-CVE O13 C11 DOUBLE       NONE 13
-CVE N12 C11 SINGLE       NONE 14
-CVE C29 C30 SINGLE       NONE 15
-CVE C29 N28 SINGLE       NONE 16
-CVE C11  C9 SINGLE       NONE 17
-CVE C30 N27 SINGLE       NONE 18
-CVE N28 C25 DOUBLE       NONE 19
-CVE  O8  C4 DOUBLE       NONE 20
-CVE N27 C26 DOUBLE       NONE 21
-CVE  C9  N5 SINGLE       NONE 22
-CVE  C9 C10 SINGLE  BEGINDASH 23
-CVE  C4  N5 SINGLE       NONE 24
-CVE  C4  C3 SINGLE       NONE 25
-CVE  N5  C6 SINGLE       NONE 26
-CVE C25 C26 SINGLE       NONE 27
-CVE C25 N24 SINGLE       NONE 28
-CVE C22 C23 DOUBLE       NONE 29
-CVE C22 C21 SINGLE       NONE 30
-CVE C23 C17 SINGLE       NONE 31
-CVE  C3 N15 SINGLE       NONE 32
-CVE  C3  C2 DOUBLE       NONE 33
-CVE N15 C16 SINGLE       NONE 34
-CVE  O7  C6 DOUBLE       NONE 35
-CVE  C6  N1 SINGLE       NONE 36
-CVE  C2  N1 SINGLE       NONE 37
-CVE N24 C21 SINGLE       NONE 38
-CVE  N1 C14 SINGLE       NONE 39
-CVE C21 C20 DOUBLE       NONE 40
-CVE C17 C16 SINGLE       NONE 41
-CVE C17 C19 DOUBLE       NONE 42
-CVE C16 O18 DOUBLE       NONE 43
-CVE C20 C19 SINGLE       NONE 44
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-CVE MurckoScaffold S1 scaffold O=C(Nc1c[nH]c(=O)[nH]c1=O)c1ccc(Nc2cnc3ccccc3n2)cc1 InChI=1S/C19H14N6O3/c26-17(24-15-9-21-19(28)25-18(15)27)11-5-7-12(8-6-11)22-16-10-20-13-3-1-2-4-14(13)23-16/h1-10H,(H,22,23)(H,24,26)(H2,21,25,27,28) LEGAMGVKMOIXHZ-UHFFFAOYSA-N
-CVE          amide F1 fragment                                             CC(N)=O                                                                                                                InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-CVE        peptide F2 fragment                                               NCC=O                                                                                                                    InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-CVE         phenyl F3 fragment                                            c1ccccc1                                                                                                                    InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-CVE       pyrazine F4 fragment                                            c1cnccn1                                                                                                                  InChI=1S/C4H4N2/c1-2-6-4-3-5-1/h1-4H KYQCOXFCLRTKLS-UHFFFAOYSA-N
-CVE     pyrimidine F5 fragment                                            c1cncnc1                                                                                                                  InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-CVE    quinoxaline F6 fragment                                      c1ccc2nccnc2c1                                                                                                       InChI=1S/C8H6N2/c1-2-4-8-7(3-1)9-5-6-10-8/h1-6H XSCHRSMBECNVNS-UHFFFAOYSA-N
-CVE     Z111666026 F7 fragment                    O=c1[nH]cc(NCc2ccccc2)c(=O)[nH]1                                                      InChI=1S/C11H11N3O2/c15-10-9(7-13-11(16)14-10)12-6-8-4-2-1-3-5-8/h1-5,7,12H,6H2,(H2,13,14,15,16) PBRBBWKUUQNONR-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-CVE N12 F1 1
-CVE C11 F1 1
-CVE O13 F1 1
-CVE  C9 F1 1
-CVE N15 F1 2
-CVE C16 F1 2
-CVE O18 F1 2
-CVE C17 F1 2
-CVE O13 F2 1
-CVE C11 F2 1
-CVE  C9 F2 1
-CVE  N5 F2 1
-CVE C17 F3 1
-CVE C19 F3 1
-CVE C20 F3 1
-CVE C21 F3 1
-CVE C22 F3 1
-CVE C23 F3 1
-CVE C29 F3 2
-CVE C30 F3 2
-CVE C31 F3 2
-CVE C32 F3 2
-CVE C33 F3 2
-CVE C34 F3 2
-CVE C25 F4 1
-CVE C26 F4 1
-CVE N27 F4 1
-CVE C30 F4 1
-CVE C29 F4 1
-CVE N28 F4 1
-CVE  C3 F5 1
-CVE  C4 F5 1
-CVE  N5 F5 1
-CVE  C6 F5 1
-CVE  N1 F5 1
-CVE  C2 F5 1
-CVE C32 F6 1
-CVE C33 F6 1
-CVE C34 F6 1
-CVE C29 F6 1
-CVE C30 F6 1
-CVE C31 F6 1
-CVE N27 F6 1
-CVE C26 F6 1
-CVE C25 F6 1
-CVE N28 F6 1
-CVE  O7 F7 1
-CVE  C6 F7 1
-CVE  N1 F7 1
-CVE  C2 F7 1
-CVE  C3 F7 1
-CVE N15 F7 1
-CVE C16 F7 1
-CVE C17 F7 1
-CVE C19 F7 1
-CVE C20 F7 1
-CVE C21 F7 1
-CVE C22 F7 1
-CVE C23 F7 1
-CVE  C4 F7 1
-CVE  O8 F7 1
-CVE  N5 F7 1
-CVE  C4 S1 1
-CVE  C6 S1 1
-CVE  N1 S1 1
-CVE  O7 S1 1
-CVE  O8 S1 1
-CVE  C2 S1 1
-CVE  C3 S1 1
-CVE  N5 S1 1
-CVE N15 S1 1
-CVE C16 S1 1
-CVE C17 S1 1
-CVE O18 S1 1
-CVE C19 S1 1
-CVE C20 S1 1
-CVE C21 S1 1
-CVE C22 S1 1
-CVE C23 S1 1
-CVE N24 S1 1
-CVE C25 S1 1
-CVE C26 S1 1
-CVE N27 S1 1
-CVE N28 S1 1
-CVE C29 S1 1
-CVE C30 S1 1
-CVE C31 S1 1
-CVE C32 S1 1
-CVE C33 S1 1
-CVE C34 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               CVE
-_pdbe_chem_comp_rdkit_properties.exactmw                               561.197
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           14
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     13
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                12
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        14
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         2
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.222
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      4
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             270.138
-_pdbe_chem_comp_rdkit_properties.tpsa                                  197.540
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.174
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             144.411
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         41
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-CVE  C4 -2.712 -1.496  0.899 ETKDGv2  1
-CVE  C6 -4.318 -2.984 -0.248 ETKDGv2  2
-CVE  N1 -3.211 -3.605 -0.924 ETKDGv2  3
-CVE  C9 -5.212 -1.171  1.286 ETKDGv2  4
-CVE C10 -5.253 -1.468  2.792 ETKDGv2  5
-CVE C11 -5.153  0.305  0.971 ETKDGv2  6
-CVE  O7 -5.490 -3.412 -0.440 ETKDGv2  7
-CVE C14 -3.440 -4.729 -1.834 ETKDGv2  8
-CVE  O8 -2.451 -0.547  1.687 ETKDGv2  9
-CVE  C2 -1.864 -3.195 -0.633 ETKDGv2 10
-CVE  C3 -1.599 -2.210  0.238 ETKDGv2 11
-CVE  N5 -4.081 -1.882  0.650 ETKDGv2 12
-CVE N12 -5.139  0.730 -0.400 ETKDGv2 13
-CVE O13 -5.121  1.158  1.901 ETKDGv2 14
-CVE N15 -0.244 -1.792  0.487 ETKDGv2 15
-CVE C16  0.871 -2.699  0.547 ETKDGv2 16
-CVE C17  2.264 -2.208  0.417 ETKDGv2 17
-CVE O18  0.668 -3.926  0.757 ETKDGv2 18
-CVE C19  2.540 -1.025 -0.164 ETKDGv2 19
-CVE C20  3.937 -0.560 -0.295 ETKDGv2 20
-CVE C21  4.950 -1.307  0.179 ETKDGv2 21
-CVE C22  4.654 -2.623  0.786 ETKDGv2 22
-CVE C23  3.390 -3.048  0.902 ETKDGv2 23
-CVE N24  6.319 -0.895  0.031 ETKDGv2 24
-CVE C25  6.772  0.467  0.090 ETKDGv2 25
-CVE C26  6.047  1.483  0.910 ETKDGv2 26
-CVE N27  6.470  2.712  0.990 ETKDGv2 27
-CVE N28  7.870  0.793 -0.535 ETKDGv2 28
-CVE C29  8.385  2.127 -0.493 ETKDGv2 29
-CVE C30  7.649  3.132  0.298 ETKDGv2 30
-CVE C31  8.090  4.395  0.365 ETKDGv2 31
-CVE C32  9.322  4.777 -0.361 ETKDGv2 32
-CVE C33  9.992  3.863 -1.080 ETKDGv2 33
-CVE C34  9.501  2.468 -1.150 ETKDGv2 34
-CVE C35 -5.049  2.137 -0.805 ETKDGv2 35
-CVE C36 -3.888  2.297 -1.799 ETKDGv2 36
-CVE O37 -8.272  1.323 -0.380 ETKDGv2 37
-CVE C38 -7.501  2.481 -0.434 ETKDGv2 38
-CVE C39 -6.384  2.587 -1.425 ETKDGv2 39
-CVE O40 -7.717  3.420  0.378 ETKDGv2 40
-CVE O41 -3.644  3.654 -2.063 ETKDGv2 41
-CVE  H1 -6.178 -1.531  0.871 ETKDGv2 42
-CVE  H2 -6.162 -1.017  3.244 ETKDGv2 43
-CVE  H3 -5.291 -2.565  2.956 ETKDGv2 44
-CVE  H4 -4.360 -1.062  3.311 ETKDGv2 45
-CVE  H5 -2.555 -4.907 -2.481 ETKDGv2 46
-CVE  H6 -3.646 -5.648 -1.246 ETKDGv2 47
-CVE  H7 -4.305 -4.516 -2.498 ETKDGv2 48
-CVE  H8 -1.046 -3.678 -1.153 ETKDGv2 49
-CVE  H9 -5.247  0.005 -1.146 ETKDGv2 50
-CVE H10 -0.082 -0.797  0.759 ETKDGv2 51
-CVE H11  1.755 -0.401 -0.571 ETKDGv2 52
-CVE H12  4.127  0.379 -0.799 ETKDGv2 53
-CVE H13  5.464 -3.245  1.147 ETKDGv2 54
-CVE H14  3.196 -4.010  1.359 ETKDGv2 55
-CVE H15  7.038 -1.640 -0.116 ETKDGv2 56
-CVE H16  5.165  1.199  1.468 ETKDGv2 57
-CVE H17  7.555  5.135  0.947 ETKDGv2 58
-CVE H18  9.682  5.797 -0.310 ETKDGv2 59
-CVE H19 10.893  4.144 -1.610 ETKDGv2 60
-CVE H20 10.044  1.734 -1.732 ETKDGv2 61
-CVE H21 -4.828  2.782  0.074 ETKDGv2 62
-CVE H22 -2.969  1.864 -1.349 ETKDGv2 63
-CVE H23 -4.094  1.733 -2.739 ETKDGv2 64
-CVE H24 -9.018  1.227  0.299 ETKDGv2 65
-CVE H25 -6.621  1.961 -2.313 ETKDGv2 66
-CVE H26 -6.310  3.643 -1.763 ETKDGv2 67
-CVE H27 -4.157  3.886 -2.880 ETKDGv2 68
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+CVE "Create component" 2017-12-07 EBI  
+CVE "Initial release"  2018-05-02 RCSB 
+# 

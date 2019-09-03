@@ -1,310 +1,126 @@
 data_DGN
-#
-_chem_comp.id                                        DGN
-_chem_comp.name                                      D-GLUTAMINE
-_chem_comp.type                                      "D-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C5 H10 N2 O3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            146.144
-_chem_comp.one_letter_code                           Q
-_chem_comp.three_letter_code                         DGN
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1B74
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    DGN 
+_chem_comp.name                                  D-GLUTAMINE 
+_chem_comp.type                                  "D-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C5 H10 N2 O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        146.144 
+_chem_comp.one_letter_code                       Q 
+_chem_comp.three_letter_code                     DGN 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1B74 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-DGN    N    N N 0 1 N N N 22.834 33.480 29.804  1.852 -0.150 -1.124    N DGN  1
-DGN   CA   CA C 0 1 N N R 22.324 33.590 28.511  0.511  0.450 -1.103   CA DGN  2
-DGN    C    C C 0 1 N N N 21.840 32.263 28.066 -0.249  0.021 -2.330    C DGN  3
-DGN    O    O O 0 1 N N N 21.313 32.123 26.945 -0.022 -1.050 -2.839    O DGN  4
-DGN  OXT  OXT O 0 1 N Y N 21.973 31.279 28.810 -1.180  0.831 -2.859  OXT DGN  5
-DGN   CB   CB C 0 1 N N N 21.251 34.601 28.529 -0.235 -0.013  0.148   CB DGN  6
-DGN   CG   CG C 0 1 N N N 21.763 35.903 29.131  0.537  0.421  1.394   CG DGN  7
-DGN   CD   CD C 0 1 N N N 20.648 36.832 29.130 -0.198 -0.035  2.627   CD DGN  8
-DGN  OE1  OE1 O 0 1 N N N 19.488 36.396 28.937 -1.238 -0.649  2.520  OE1 DGN  9
-DGN  NE2  NE2 N 0 1 N N N 21.012 38.127 29.358  0.299  0.237  3.850  NE2 DGN 10
-DGN    H    H H 0 1 N N N 23.167 34.394 30.110  2.267  0.097 -2.010    H DGN 11
-DGN   H2  HN2 H 0 1 N Y N 23.553 32.760 29.877  1.721 -1.150 -1.134   H2 DGN 12
-DGN   HA   HA H 0 1 N N N 23.105 33.918 27.786  0.600  1.536 -1.091   HA DGN 13
-DGN  HXT  HXT H 0 1 N Y N 21.662 30.427 28.524 -1.669  0.556 -3.647  HXT DGN 14
-DGN  HB2  1HB H 0 1 N N N 20.808 34.756 27.517 -1.230  0.431  0.164  HB2 DGN 15
-DGN  HB3  2HB H 0 1 N N N 20.339 34.230 29.052 -0.324 -1.100  0.136  HB3 DGN 16
-DGN  HG2  1HG H 0 1 N N N 22.223 35.770 30.137  1.532 -0.024  1.379  HG2 DGN 17
-DGN  HG3  2HG H 0 1 N N N 22.667 36.300 28.613  0.626  1.507  1.406  HG3 DGN 18
-DGN HE21 1HE2 H 0 0 N N N 21.955 38.481 29.515 -0.173 -0.057  4.643 HE21 DGN 19
-DGN HE22 2HE2 H 0 0 N N N 20.228 38.779 29.357  1.132  0.727  3.936 HE22 DGN 20
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+DGN N    N    N 0 1 N N N 22.834 33.480 29.804 1.852  -0.150 -1.124 N    DGN 1  
+DGN CA   CA   C 0 1 N N R 22.324 33.590 28.511 0.511  0.450  -1.103 CA   DGN 2  
+DGN C    C    C 0 1 N N N 21.840 32.263 28.066 -0.249 0.021  -2.330 C    DGN 3  
+DGN O    O    O 0 1 N N N 21.313 32.123 26.945 -0.022 -1.050 -2.839 O    DGN 4  
+DGN OXT  OXT  O 0 1 N Y N 21.973 31.279 28.810 -1.180 0.831  -2.859 OXT  DGN 5  
+DGN CB   CB   C 0 1 N N N 21.251 34.601 28.529 -0.235 -0.013 0.148  CB   DGN 6  
+DGN CG   CG   C 0 1 N N N 21.763 35.903 29.131 0.537  0.421  1.394  CG   DGN 7  
+DGN CD   CD   C 0 1 N N N 20.648 36.832 29.130 -0.198 -0.035 2.627  CD   DGN 8  
+DGN OE1  OE1  O 0 1 N N N 19.488 36.396 28.937 -1.238 -0.649 2.520  OE1  DGN 9  
+DGN NE2  NE2  N 0 1 N N N 21.012 38.127 29.358 0.299  0.237  3.850  NE2  DGN 10 
+DGN H    H    H 0 1 N N N 23.167 34.394 30.110 2.267  0.097  -2.010 H    DGN 11 
+DGN H2   HN2  H 0 1 N Y N 23.553 32.760 29.877 1.721  -1.150 -1.134 H2   DGN 12 
+DGN HA   HA   H 0 1 N N N 23.105 33.918 27.786 0.600  1.536  -1.091 HA   DGN 13 
+DGN HXT  HXT  H 0 1 N Y N 21.662 30.427 28.524 -1.669 0.556  -3.647 HXT  DGN 14 
+DGN HB2  1HB  H 0 1 N N N 20.808 34.756 27.517 -1.230 0.431  0.164  HB2  DGN 15 
+DGN HB3  2HB  H 0 1 N N N 20.339 34.230 29.052 -0.324 -1.100 0.136  HB3  DGN 16 
+DGN HG2  1HG  H 0 1 N N N 22.223 35.770 30.137 1.532  -0.024 1.379  HG2  DGN 17 
+DGN HG3  2HG  H 0 1 N N N 22.667 36.300 28.613 0.626  1.507  1.406  HG3  DGN 18 
+DGN HE21 1HE2 H 0 0 N N N 21.955 38.481 29.515 -0.173 -0.057 4.643  HE21 DGN 19 
+DGN HE22 2HE2 H 0 0 N N N 20.228 38.779 29.357 1.132  0.727  3.936  HE22 DGN 20 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-DGN   N   CA SING N N  1
-DGN   N    H SING N N  2
-DGN   N   H2 SING N N  3
-DGN  CA    C SING N N  4
-DGN  CA   CB SING N N  5
-DGN  CA   HA SING N N  6
-DGN   C    O DOUB N N  7
-DGN   C  OXT SING N N  8
-DGN OXT  HXT SING N N  9
-DGN  CB   CG SING N N 10
-DGN  CB  HB2 SING N N 11
-DGN  CB  HB3 SING N N 12
-DGN  CG   CD SING N N 13
-DGN  CG  HG2 SING N N 14
-DGN  CG  HG3 SING N N 15
-DGN  CD  OE1 DOUB N N 16
-DGN  CD  NE2 SING N N 17
-DGN NE2 HE21 SING N N 18
-DGN NE2 HE22 SING N N 19
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+DGN N   CA   SING N N 1  
+DGN N   H    SING N N 2  
+DGN N   H2   SING N N 3  
+DGN CA  C    SING N N 4  
+DGN CA  CB   SING N N 5  
+DGN CA  HA   SING N N 6  
+DGN C   O    DOUB N N 7  
+DGN C   OXT  SING N N 8  
+DGN OXT HXT  SING N N 9  
+DGN CB  CG   SING N N 10 
+DGN CB  HB2  SING N N 11 
+DGN CB  HB3  SING N N 12 
+DGN CG  CD   SING N N 13 
+DGN CG  HG2  SING N N 14 
+DGN CG  HG3  SING N N 15 
+DGN CD  OE1  DOUB N N 16 
+DGN CD  NE2  SING N N 17 
+DGN NE2 HE21 SING N N 18 
+DGN NE2 HE22 SING N N 19 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-DGN           SMILES              ACDLabs 10.04                                                              O=C(N)CCC(N)C(=O)O
-DGN SMILES_CANONICAL               CACTVS 3.341                                                          N[C@H](CCC(N)=O)C(O)=O
-DGN           SMILES               CACTVS 3.341                                                           N[CH](CCC(N)=O)C(O)=O
-DGN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                        C(CC(=O)N)[C@H](C(=O)O)N
-DGN           SMILES "OpenEye OEToolkits" 1.5.0                                                            C(CC(=O)N)C(C(=O)O)N
-DGN            InChI                InChI  1.03 InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)/t3-/m1/s1
-DGN         InChIKey                InChI  1.03                                                     ZDXPYRJPNDTMRX-GSVOUGTGSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+DGN SMILES           ACDLabs              10.04 "O=C(N)CCC(N)C(=O)O"                                                              
+DGN SMILES_CANONICAL CACTVS               3.341 "N[C@H](CCC(N)=O)C(O)=O"                                                          
+DGN SMILES           CACTVS               3.341 "N[CH](CCC(N)=O)C(O)=O"                                                           
+DGN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C(CC(=O)N)[C@H](C(=O)O)N"                                                        
+DGN SMILES           "OpenEye OEToolkits" 1.5.0 "C(CC(=O)N)C(C(=O)O)N"                                                            
+DGN InChI            InChI                1.03  "InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)/t3-/m1/s1" 
+DGN InChIKey         InChI                1.03  ZDXPYRJPNDTMRX-GSVOUGTGSA-N                                                       
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-DGN "SYSTEMATIC NAME"              ACDLabs 10.04                             D-glutamine
-DGN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2,5-diamino-5-oxo-pentanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+DGN "SYSTEMATIC NAME" ACDLabs              10.04 D-glutamine                             
+DGN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2,5-diamino-5-oxo-pentanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-DGN  "Create component" 1999-07-08 RCSB
-DGN "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   DGN
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02174
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      D-Glutamine
-_pdbe_chem_comp_drugbank_details.description               "A non-essential amino acid present abundantly throughout the body and is involved in many metabolic processes. It is synthesized from glutamic acid and ammonia. It is the principal carrier of nitrogen in the body and is an important energy source for many cells."
-_pdbe_chem_comp_drugbank_details.cas_number                5959-95-5
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           DGN
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02174
-_pdbe_chem_comp_drugbank_classification.parent            "D-alpha-amino acids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as d-alpha-amino acids. These are alpha amino acids which have the D-configuration of the alpha-carbon atom."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        DGN
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02174
-_pdbe_chem_comp_drugbank_targets.name                           "Glutamate racemase"
-_pdbe_chem_comp_drugbank_targets.organism                       "Aquifex pyrophilus"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P56868
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-DGN                             SID26756688   ChEMBL
-DGN                            SID144205600   ChEMBL
-DGN                             SID11111226   ChEMBL
-DGN "(2R)-2-amino-4-carbamoylbutanoic acid" DrugBank
-DGN  "(2R)-2,5-diamino-5-oxopentanoic acid" DrugBank
-DGN   "(R)-2,5-diamino-5-oxopentanoic acid" DrugBank
-DGN              "D-2-Aminoglutaramic acid" DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-DGN   N N 5.104  2.340  1
-DGN  CA C 6.404  1.590  2
-DGN   C C 7.702  2.340  3
-DGN   O O 9.002  1.590  4
-DGN OXT O 7.702  3.840  5
-DGN  CB C 6.404  0.090  6
-DGN  CG C 5.104 -0.660  7
-DGN  CD C 5.104 -2.160  8
-DGN OE1 O 6.404 -2.910  9
-DGN NE2 N 3.805 -2.910 10
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-DGN  N  CA SINGLE BEGINWEDGE 1
-DGN CA   C SINGLE       NONE 2
-DGN CA  CB SINGLE       NONE 3
-DGN  C   O DOUBLE       NONE 4
-DGN  C OXT SINGLE       NONE 5
-DGN CB  CG SINGLE       NONE 6
-DGN CG  CD SINGLE       NONE 7
-DGN CD OE1 DOUBLE       NONE 8
-DGN CD NE2 SINGLE       NONE 9
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-DGN   amide F1 fragment CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-DGN peptide F2 fragment   NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-DGN NE2 F1 1
-DGN  CD F1 1
-DGN OE1 F1 1
-DGN  CG F1 1
-DGN   O F2 1
-DGN   C F2 1
-DGN  CA F2 1
-DGN   N F2 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               DGN
-_pdbe_chem_comp_rdkit_properties.exactmw                               146.069
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           5
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.600
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             72.365
-_pdbe_chem_comp_rdkit_properties.tpsa                                  106.410
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.336
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             34.040
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-DGN UniChem        ChEMBL    CHEMBL1232207
-DGN UniChem      DrugBank          DB02174
-DGN UniChem "KEGG LIGAND"           C00819
-DGN UniChem         ChEBI            17061
-DGN UniChem         ChEBI            58000
-DGN UniChem          ZINC ZINC000001532609
-DGN UniChem          ZINC     ZINC01532609
-DGN UniChem     BindingDb           181129
-DGN UniChem  MetaboLights       MTBLC17061
-DGN UniChem  MetaboLights       MTBLC58000
-DGN UniChem        BRENDA             2138
-DGN UniChem        BRENDA             2731
-DGN UniChem          Rhea            58000
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DGN    N -0.761 -1.526 -0.541 ETKDGv2  1
-DGN   CA -0.857 -0.067 -0.419 ETKDGv2  2
-DGN    C -2.276  0.371 -0.662 ETKDGv2  3
-DGN    O -2.546  1.600 -0.749 ETKDGv2  4
-DGN  OXT -3.295 -0.568 -0.802 ETKDGv2  5
-DGN   CB -0.378  0.431  0.967 ETKDGv2  6
-DGN   CG  1.097  0.117  1.266 ETKDGv2  7
-DGN   CD  2.026  0.787  0.295 ETKDGv2  8
-DGN  OE1  2.074  2.045  0.241 ETKDGv2  9
-DGN  NE2  2.861  0.012 -0.566 ETKDGv2 10
-DGN    H  0.241 -1.795 -0.665 ETKDGv2 11
-DGN   H2 -1.112 -1.980  0.334 ETKDGv2 12
-DGN   HA -0.232  0.397 -1.214 ETKDGv2 13
-DGN  HXT -4.251 -0.277 -0.968 ETKDGv2 14
-DGN  HB2 -0.524  1.532  1.037 ETKDGv2 15
-DGN  HB3 -1.005 -0.030  1.762 ETKDGv2 16
-DGN  HG2  1.339  0.479  2.288 ETKDGv2 17
-DGN  HG3  1.259 -0.981  1.269 ETKDGv2 18
-DGN HE21  3.505  0.484 -1.238 ETKDGv2 19
-DGN HE22  2.835 -1.032 -0.540 ETKDGv2 20
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+DGN "Create component"  1999-07-08 RCSB 
+DGN "Modify descriptor" 2011-06-04 RCSB 
+# 

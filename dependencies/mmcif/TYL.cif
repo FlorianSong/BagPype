@@ -1,395 +1,127 @@
 data_TYL
-#
-_chem_comp.id                                        TYL
-_chem_comp.name                                      "N-(4-HYDROXYPHENYL)ACETAMIDE (TYLENOL)"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C8 H9 N O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             NNS
-_chem_comp.formula_weight                            151.163
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         TYL
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1TYM
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    TYL 
+_chem_comp.name                                  "N-(4-HYDROXYPHENYL)ACETAMIDE (TYLENOL)" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C8 H9 N O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         NNS 
+_chem_comp.formula_weight                        151.163 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     TYL 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1TYM 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-TYL  C1  C1 C 0 1 Y N N  -8.898 3.718  7.061  0.462  0.191  0.227  C1 TYL  1
-TYL  C2  C2 C 0 1 Y N N  -8.065 3.974  8.157 -0.832  0.424 -0.216  C2 TYL  2
-TYL  C3  C3 C 0 1 Y N N  -8.596 4.607  9.276 -1.132  0.312 -1.559  C3 TYL  3
-TYL  C4  C4 C 0 1 Y N N  -9.939 5.007  9.289 -0.140 -0.033 -2.465  C4 TYL  4
-TYL  C5  C5 C 0 1 Y N N -10.736 4.788  8.193  1.153 -0.266 -2.022  C5 TYL  5
-TYL  C6  C6 C 0 1 Y N N -10.214 4.152  7.076  1.456 -0.148 -0.680  C6 TYL  6
-TYL   N   N N 0 1 N N N  -8.385 3.057  5.927  0.767  0.306  1.590   N TYL  7
-TYL   C   C C 0 1 N N N  -8.830 2.093  5.111 -0.123 -0.100  2.516   C TYL  8
-TYL  CM  CM C 0 1 N N N -10.199 1.528  5.373  0.149  0.137  3.979  CM TYL  9
-TYL  O4  O4 O 0 1 N N N -10.380 5.634 10.435 -0.436 -0.144 -3.788  O4 TYL 10
-TYL   O   O O 0 1 N N N  -8.145 1.687  4.155 -1.144 -0.657  2.172   O TYL 11
-TYL  H2  H2 H 0 1 N N N  -7.002 3.680  8.139 -1.605  0.693  0.488  H2 TYL 12
-TYL  H3  H3 H 0 1 N N N  -7.952 4.791 10.152 -2.139  0.493 -1.905  H3 TYL 13
-TYL  H5  H5 H 0 1 N N N -11.787 5.120  8.209  1.925 -0.535 -2.728  H5 TYL 14
-TYL  H6  H6 H 0 1 N N N -10.851 3.989  6.190  2.463 -0.329 -0.335  H6 TYL 15
-TYL  HN  HN H 0 1 N N N  -7.457 3.350  5.619  1.619  0.678  1.866  HN TYL 16
-TYL HM1 1HM H 0 1 N N N -10.569 0.725  4.693 -0.676 -0.257  4.571 HM1 TYL 17
-TYL HM2 2HM H 0 1 N N N -10.251 1.169  6.427  1.073 -0.367  4.263 HM2 TYL 18
-TYL HM3 3HM H 0 1 N N N -10.940 2.360  5.396  0.248  1.207  4.161 HM3 TYL 19
-TYL HO4 HO4 H 0 1 N N N -11.290 5.905 10.443 -0.294  0.728 -4.180 HO4 TYL 20
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+TYL C1  C1  C 0 1 Y N N -8.898  3.718 7.061  0.462  0.191  0.227  C1  TYL 1  
+TYL C2  C2  C 0 1 Y N N -8.065  3.974 8.157  -0.832 0.424  -0.216 C2  TYL 2  
+TYL C3  C3  C 0 1 Y N N -8.596  4.607 9.276  -1.132 0.312  -1.559 C3  TYL 3  
+TYL C4  C4  C 0 1 Y N N -9.939  5.007 9.289  -0.140 -0.033 -2.465 C4  TYL 4  
+TYL C5  C5  C 0 1 Y N N -10.736 4.788 8.193  1.153  -0.266 -2.022 C5  TYL 5  
+TYL C6  C6  C 0 1 Y N N -10.214 4.152 7.076  1.456  -0.148 -0.680 C6  TYL 6  
+TYL N   N   N 0 1 N N N -8.385  3.057 5.927  0.767  0.306  1.590  N   TYL 7  
+TYL C   C   C 0 1 N N N -8.830  2.093 5.111  -0.123 -0.100 2.516  C   TYL 8  
+TYL CM  CM  C 0 1 N N N -10.199 1.528 5.373  0.149  0.137  3.979  CM  TYL 9  
+TYL O4  O4  O 0 1 N N N -10.380 5.634 10.435 -0.436 -0.144 -3.788 O4  TYL 10 
+TYL O   O   O 0 1 N N N -8.145  1.687 4.155  -1.144 -0.657 2.172  O   TYL 11 
+TYL H2  H2  H 0 1 N N N -7.002  3.680 8.139  -1.605 0.693  0.488  H2  TYL 12 
+TYL H3  H3  H 0 1 N N N -7.952  4.791 10.152 -2.139 0.493  -1.905 H3  TYL 13 
+TYL H5  H5  H 0 1 N N N -11.787 5.120 8.209  1.925  -0.535 -2.728 H5  TYL 14 
+TYL H6  H6  H 0 1 N N N -10.851 3.989 6.190  2.463  -0.329 -0.335 H6  TYL 15 
+TYL HN  HN  H 0 1 N N N -7.457  3.350 5.619  1.619  0.678  1.866  HN  TYL 16 
+TYL HM1 1HM H 0 1 N N N -10.569 0.725 4.693  -0.676 -0.257 4.571  HM1 TYL 17 
+TYL HM2 2HM H 0 1 N N N -10.251 1.169 6.427  1.073  -0.367 4.263  HM2 TYL 18 
+TYL HM3 3HM H 0 1 N N N -10.940 2.360 5.396  0.248  1.207  4.161  HM3 TYL 19 
+TYL HO4 HO4 H 0 1 N N N -11.290 5.905 10.443 -0.294 0.728  -4.180 HO4 TYL 20 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-TYL C1  C2 DOUB Y N  1
-TYL C1  C6 SING Y N  2
-TYL C1   N SING N N  3
-TYL C2  C3 SING Y N  4
-TYL C2  H2 SING N N  5
-TYL C3  C4 DOUB Y N  6
-TYL C3  H3 SING N N  7
-TYL C4  C5 SING Y N  8
-TYL C4  O4 SING N N  9
-TYL C5  C6 DOUB Y N 10
-TYL C5  H5 SING N N 11
-TYL C6  H6 SING N N 12
-TYL  N   C SING N N 13
-TYL  N  HN SING N N 14
-TYL  C  CM SING N N 15
-TYL  C   O DOUB N N 16
-TYL CM HM1 SING N N 17
-TYL CM HM2 SING N N 18
-TYL CM HM3 SING N N 19
-TYL O4 HO4 SING N N 20
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+TYL C1 C2  DOUB Y N 1  
+TYL C1 C6  SING Y N 2  
+TYL C1 N   SING N N 3  
+TYL C2 C3  SING Y N 4  
+TYL C2 H2  SING N N 5  
+TYL C3 C4  DOUB Y N 6  
+TYL C3 H3  SING N N 7  
+TYL C4 C5  SING Y N 8  
+TYL C4 O4  SING N N 9  
+TYL C5 C6  DOUB Y N 10 
+TYL C5 H5  SING N N 11 
+TYL C6 H6  SING N N 12 
+TYL N  C   SING N N 13 
+TYL N  HN  SING N N 14 
+TYL C  CM  SING N N 15 
+TYL C  O   DOUB N N 16 
+TYL CM HM1 SING N N 17 
+TYL CM HM2 SING N N 18 
+TYL CM HM3 SING N N 19 
+TYL O4 HO4 SING N N 20 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-TYL           SMILES              ACDLabs 10.04                                                O=C(Nc1ccc(O)cc1)C
-TYL SMILES_CANONICAL               CACTVS 3.341                                                CC(=O)Nc1ccc(O)cc1
-TYL           SMILES               CACTVS 3.341                                                CC(=O)Nc1ccc(O)cc1
-TYL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                CC(=O)Nc1ccc(cc1)O
-TYL           SMILES "OpenEye OEToolkits" 1.5.0                                                CC(=O)Nc1ccc(cc1)O
-TYL            InChI                InChI  1.03 InChI=1S/C8H9NO2/c1-6(10)9-7-2-4-8(11)5-3-7/h2-5,11H,1H3,(H,9,10)
-TYL         InChIKey                InChI  1.03                                       RZVAJINKPMORJF-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+TYL SMILES           ACDLabs              10.04 "O=C(Nc1ccc(O)cc1)C"                                                
+TYL SMILES_CANONICAL CACTVS               3.341 "CC(=O)Nc1ccc(O)cc1"                                                
+TYL SMILES           CACTVS               3.341 "CC(=O)Nc1ccc(O)cc1"                                                
+TYL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(=O)Nc1ccc(cc1)O"                                                
+TYL SMILES           "OpenEye OEToolkits" 1.5.0 "CC(=O)Nc1ccc(cc1)O"                                                
+TYL InChI            InChI                1.03  "InChI=1S/C8H9NO2/c1-6(10)9-7-2-4-8(11)5-3-7/h2-5,11H,1H3,(H,9,10)" 
+TYL InChIKey         InChI                1.03  RZVAJINKPMORJF-UHFFFAOYSA-N                                         
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-TYL "SYSTEMATIC NAME"              ACDLabs 10.04  N-(4-hydroxyphenyl)acetamide
-TYL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 N-(4-hydroxyphenyl)ethanamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+TYL "SYSTEMATIC NAME" ACDLabs              10.04 "N-(4-hydroxyphenyl)acetamide"  
+TYL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "N-(4-hydroxyphenyl)ethanamide" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-TYL  "Create component" 1999-07-08  EBI
-TYL "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   TYL
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB00316
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Acetaminophen
-_pdbe_chem_comp_drugbank_details.description               "Acetaminophen (paracetamol), also commonly known as _Tylenol_, is the most commonly taken analgesic worldwide and is recommended as first-line therapy in pain conditions by the World Health Organization (WHO) [A176318].  It is also used for its antipyretic effects, helping to reduce fever [F4124]. This drug was initially approved by the U.S. FDA in 1951 [FDA label] and is available in a variety of forms including syrup form, regular tablets, effervescent tablets, injection, suppository, and other forms [L5756, L5774, F4124], [FDA label].    Acetaminophen is often found combined with other drugs in more than 600 over the counter (OTC) allergy medications, cold medications, sleep medications, pain relievers, and other products [L5783]. Confusion about dosing of this drug may be caused by the availability of different formulas, strengths, and dosage instructions for children of different ages [L5783].  Due to the possibility of fatal overdose and liver failure associated with the incorrect use of acetaminophen, it is important to follow current and available national and manufacturer dosing guidelines while this drug is taken or prescribed [L5786, L5789], [FDA label]."
-_pdbe_chem_comp_drugbank_details.cas_number                103-90-2
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Although acetaminophen's exact mechanism of action has not been fully established, according to the FDA label [FDA label], it is categorized as an NSAID (a nonsteroidal anti-inflammatory drug) due to that fact that it inhibits the cyclooxygenase (COX) pathways [T518], and it is thought to exert central actions which ultimately lead to the alleviation of pain symptoms [FDA label].   One theory is that acetaminophen increases the pain threshold by inhibiting two isoforms of cyclooxygenase, COX-1 and COX-2, which are involved in prostaglandin (PG) synthesis. Prostaglandins are responsible for eliciting pain sensations [A176366]. Acetaminophen does not inhibit cyclooxygenase in peripheral tissues and, therefore, has no peripheral anti-inflammatory effects. Though acetylsalicylic acid (aspirin) is an irreversible inhibitor of COX and directly blocks the active site of this enzyme, studies have shown that acetaminophen (paracetamol) blocks COX indirectly [F4133].  Studies also suggest that acetaminophen selectively blocks a variant type of the COX enzyme [A468] that is unique from the known variants COX-1 and COX-2. This enzyme has been referred to as _COX-3_. The antipyretic actions of acetaminophen are likely attributed to direct action on heat-regulating centers in the brain, resulting in peripheral vasodilation, sweating, and loss of body heat [F4133]. The exact mechanism of action of this drug is not fully understood at this time, but future research may contribute to deeper knowledge [F4133]."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           TYL
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00316
-_pdbe_chem_comp_drugbank_classification.parent            "1-hydroxy-2-unsubstituted benzenoids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             Phenols
-_pdbe_chem_comp_drugbank_classification.superclass        Benzenoids
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as 1-hydroxy-2-unsubstituted benzenoids. These are phenols that a unsubstituted at the 2-position."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-TYL DB00316                                     "Prostaglandin G/H synthase 2" Humans P35354     yes 1
-TYL DB00316                                     "Prostaglandin G/H synthase 1" Humans P23219     yes 2
-TYL DB00316                                     "Fatty-acid amide hydrolase 1" Humans O00519 unknown 3
-TYL DB00316 "Transient receptor potential cation channel subfamily V member 1" Humans Q8NER1 unknown 4
-TYL DB00316                                      "Glutathione S-transferase P" Humans P09211 unknown 5
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-TYL                      Abdine   ChEMBL
-TYL                    Paravict   ChEMBL
-TYL                    Placidex   ChEMBL
-TYL                     Alvedon   ChEMBL
-TYL                "Tramil 500"   ChEMBL
-TYL                     Tixymol   ChEMBL
-TYL         "Infants' Feverall"   ChEMBL
-TYL               Acetaminophen   ChEMBL
-TYL                    Dafalgan   ChEMBL
-TYL                      Neopap   ChEMBL
-TYL                   Phenaphen   ChEMBL
-TYL                     Miradol   ChEMBL
-TYL      "Medinol For Children"   ChEMBL
-TYL                     Panadol   ChEMBL
-TYL                       Hedex   ChEMBL
-TYL                "Panadol OA"   ChEMBL
-TYL           "Calpol Six Plus"   ChEMBL
-TYL                    Mandanol   ChEMBL
-TYL                     Ofirmev   ChEMBL
-TYL                     Rimadol   ChEMBL
-TYL                     Cupanol   ChEMBL
-TYL             "Medised Plain"   ChEMBL
-TYL                     Paramin   ChEMBL
-TYL                      Calpol   ChEMBL
-TYL               "Panadol Jnr"   ChEMBL
-TYL                    Fennings   ChEMBL
-TYL                  Injectapap   ChEMBL
-TYL           "Panaleve 6 Plus"   ChEMBL
-TYL                        APAP   ChEMBL
-TYL                     Angiers   ChEMBL
-TYL           "Junior Parapaed"   ChEMBL
-TYL              "Parapaed Jnr"   ChEMBL
-TYL                     Tylenol   ChEMBL
-TYL             "Panadol Advan"   ChEMBL
-TYL                   Perfalgan   ChEMBL
-TYL            "Disprol Infant"   ChEMBL
-TYL                    Galpamol   ChEMBL
-TYL                     Acephen   ChEMBL
-TYL          "Panadol Actifast"   ChEMBL
-TYL               "Disprol Jnr"   ChEMBL
-TYL                     Medinol   ChEMBL
-TYL         "Parapaed Six Plus"   ChEMBL
-TYL            "Medinol Over 6"   ChEMBL
-TYL                 Paracetamol   ChEMBL
-TYL                     Salzone   ChEMBL
-TYL                    Paldesic   ChEMBL
-TYL     "Panadol ActiFast Solb"   ChEMBL
-TYL                      Datril   ChEMBL
-TYL                     Disprol   ChEMBL
-TYL              "Disprol Paed"   ChEMBL
-TYL           "Medinol Under 6"   ChEMBL
-TYL                   Infadrops   ChEMBL
-TYL                    Panaleve   ChEMBL
-TYL "Calpol Six Plus Fastmelts"   ChEMBL
-TYL              "Child Lemsip"   ChEMBL
-TYL       4-(Acetylamino)phenol DrugBank
-TYL           4-acetamidophenol DrugBank
-TYL     "4'-hydroxyacetanilide" DrugBank
-TYL                      Acenol DrugBank
-TYL                        APAP DrugBank
-TYL      N-acetyl-p-aminophenol DrugBank
-TYL           p-acetamidophenol DrugBank
-TYL           p-acetaminophenol DrugBank
-TYL         p-Acetylaminophenol DrugBank
-TYL        p-hydroxy-acetanilid DrugBank
-TYL        p-hydroxyacetanilide DrugBank
-TYL    p-hydroxyphenolacetamide DrugBank
-TYL                 Paracetamol DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-TYL C1 C 4.299  0.608  1
-TYL C2 C 3.000 -0.142  2
-TYL C3 C 3.000 -1.643  3
-TYL C4 C 4.299 -2.393  4
-TYL C5 C 5.598 -1.643  5
-TYL C6 C 5.598 -0.142  6
-TYL  N N 4.299  2.107  7
-TYL  C C 5.598  2.857  8
-TYL CM C 6.897  2.107  9
-TYL O4 O 4.299 -3.893 10
-TYL  O O 5.598  4.357 11
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-TYL C1 C2 DOUBLE NONE  1
-TYL C1 C6 SINGLE NONE  2
-TYL C1  N SINGLE NONE  3
-TYL C2 C3 SINGLE NONE  4
-TYL C3 C4 DOUBLE NONE  5
-TYL C4 C5 SINGLE NONE  6
-TYL C4 O4 SINGLE NONE  7
-TYL C5 C6 DOUBLE NONE  8
-TYL  N  C SINGLE NONE  9
-TYL  C CM SINGLE NONE 10
-TYL  C  O DOUBLE NONE 11
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-TYL MurckoScaffold S1 scaffold c1ccccc1     InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-TYL          amide F1 fragment  CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-TYL         phenyl F2 fragment c1ccccc1     InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-TYL  N F1 1
-TYL  C F1 1
-TYL  O F1 1
-TYL CM F1 1
-TYL C1 F2 1
-TYL C2 F2 1
-TYL C3 F2 1
-TYL C4 F2 1
-TYL C5 F2 1
-TYL C6 F2 1
-TYL C1 S1 1
-TYL C2 S1 1
-TYL C3 S1 1
-TYL C4 S1 1
-TYL C5 S1 1
-TYL C6 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               TYL
-_pdbe_chem_comp_rdkit_properties.exactmw                               151.063
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     3
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                2
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.125
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             77.456
-_pdbe_chem_comp_rdkit_properties.tpsa                                  49.330
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.508
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             40.977
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         11
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-TYL UniChem        ChEMBL        CHEMBL112
-TYL UniChem      DrugBank          DB00316
-TYL UniChem "KEGG LIGAND"           C06804
-TYL UniChem         ChEBI            46195
-TYL UniChem          ZINC ZINC000013550868
-TYL UniChem          ZINC     ZINC18274777
-TYL UniChem    NMRShiftDB            89614
-TYL UniChem     BindingDb            26197
-TYL UniChem  MetaboLights       MTBLC46195
-TYL UniChem        BRENDA           111336
-TYL UniChem        BRENDA           111608
-TYL UniChem        BRENDA           111868
-TYL UniChem        BRENDA           114965
-TYL UniChem        BRENDA           143804
-TYL UniChem        BRENDA            19996
-TYL UniChem        BRENDA             2541
-TYL UniChem        BRENDA            69698
-TYL UniChem        BRENDA             7459
-TYL UniChem        BRENDA            84044
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-TYL  C1  0.058  0.219 -0.033 ETKDGv2  1
-TYL  C2  0.912  1.204 -0.360 ETKDGv2  2
-TYL  C3  2.371  1.004 -0.234 ETKDGv2  3
-TYL  C4  2.856 -0.173  0.189 ETKDGv2  4
-TYL  C5  1.926 -1.272  0.519 ETKDGv2  5
-TYL  C6  0.603 -1.092  0.411 ETKDGv2  6
-TYL   N -1.358  0.430 -0.176 ETKDGv2  7
-TYL   C -2.349 -0.202  0.648 ETKDGv2  8
-TYL  CM -3.795 -0.090  0.289 ETKDGv2  9
-TYL  O4  4.229 -0.377  0.316 ETKDGv2 10
-TYL   O -2.022 -0.779  1.719 ETKDGv2 11
-TYL  H2  0.541  2.161 -0.705 ETKDGv2 12
-TYL  H3  3.041  1.816 -0.484 ETKDGv2 13
-TYL  H5  2.316 -2.231  0.837 ETKDGv2 14
-TYL  H6 -0.059 -1.921  0.621 ETKDGv2 15
-TYL  HN -1.686  1.135 -0.875 ETKDGv2 16
-TYL HM1 -3.919 -0.173 -0.812 ETKDGv2 17
-TYL HM2 -4.185  0.893  0.627 ETKDGv2 18
-TYL HM3 -4.378 -0.900  0.775 ETKDGv2 19
-TYL HO4  4.899  0.351  0.098 ETKDGv2 20
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+TYL "Create component"  1999-07-08 EBI  
+TYL "Modify descriptor" 2011-06-04 RCSB 
+# 

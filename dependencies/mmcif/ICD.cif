@@ -1,403 +1,161 @@
 data_ICD
-#
-_chem_comp.id                                        ICD
-_chem_comp.name                                      "4-hydroxy-2-methyl-N-(5-methyl-1,2-oxazol-3-yl)-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C14 H13 N3 O5 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             Isoxicam
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2013-08-09
-_chem_comp.pdbx_modified_date                        2014-01-17
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            335.335
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         ICD
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            4M10
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    ICD 
+_chem_comp.name                                  "4-hydroxy-2-methyl-N-(5-methyl-1,2-oxazol-3-yl)-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C14 H13 N3 O5 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         Isoxicam 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2013-08-09 
+_chem_comp.pdbx_modified_date                    2014-01-17 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        335.335 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ICD 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4M10 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-ICD  CAA  CAA C 0 1 Y N N 79.227 22.970 58.925  2.482 -1.158  0.032  CAA ICD  1
-ICD  CAB  CAB C 0 1 Y N N 80.051 21.884 58.765  3.140  0.074  0.128  CAB ICD  2
-ICD  CAC  CAC C 0 1 N N N 78.506 23.079 60.140  1.015 -1.224 -0.010  CAC ICD  3
-ICD  CAD  CAD C 0 1 Y N N 79.445 24.101 58.134  3.243 -2.329 -0.029  CAD ICD  4
-ICD  SAE  SAE S 0 1 N N N 79.597 20.665 59.811  2.158  1.542  0.200  SAE ICD  5
-ICD  CAF  CAF C 0 1 Y N N 80.811 21.715 57.615  4.511  0.137  0.166  CAF ICD  6
-ICD  CAG  CAG C 0 1 N N N 78.588 22.119 61.226  0.214 -0.169 -0.274  CAG ICD  7
-ICD  OAH  OAH O 0 1 N N N 77.651 23.976 60.208  0.428 -2.421  0.231  OAH ICD  8
-ICD  CAI  CAI C 0 1 Y N N 80.278 24.007 57.011  4.620 -2.256  0.010  CAI ICD  9
-ICD  NAJ  NAJ N 0 1 N N N 79.637 21.171 61.258  0.721  1.119 -0.532  NAJ ICD 10
-ICD  OAK  OAK O 0 1 N N N 80.633 19.579 59.705  2.785  2.497 -0.645  OAK ICD 11
-ICD  OAL  OAL O 0 1 N N N 78.291 20.025 59.405  1.868  1.776  1.571  OAL ICD 12
-ICD  CAM  CAM C 0 1 Y N N 80.965 22.808 56.754  5.255 -1.031  0.110  CAM ICD 13
-ICD  CAN  CAN C 0 1 N N N 77.808 22.392 62.379 -1.191 -0.366 -0.292  CAN ICD 14
-ICD  CAO  CAO C 0 1 N N N 80.638 21.701 62.198  0.013  2.053 -1.411  CAO ICD 15
-ICD  NAP  NAP N 0 1 N N N 76.908 23.394 62.288 -2.016  0.634  0.076  NAP ICD 16
-ICD  OAQ  OAQ O 0 1 N N N 77.969 21.578 63.442 -1.651 -1.439 -0.638  OAQ ICD 17
-ICD  CAR  CAR C 0 1 Y N N 76.099 23.758 63.295 -3.390  0.411  0.153  CAR ICD 18
-ICD  NAS  NAS N 0 1 Y N N 75.254 24.784 63.189 -4.308  1.280  0.486  NAS ICD 19
-ICD  CAT  CAT C 0 1 Y N N 76.015 23.235 64.517 -4.073 -0.803 -0.121  CAT ICD 20
-ICD  OAU  OAU O 0 1 Y N N 74.541 24.893 64.410 -5.413  0.788  0.462  OAU ICD 21
-ICD  CAV  CAV C 0 1 Y N N 75.043 23.887 65.160 -5.374 -0.502  0.097  CAV ICD 22
-ICD  CAW  CAW C 0 1 N N N 74.591 23.624 66.591 -6.550 -1.433 -0.046  CAW ICD 23
-ICD  HAD  HAD H 0 1 N N N 78.975 25.040 58.386  2.755 -3.289 -0.107  HAD ICD 24
-ICD  HAF  HAF H 0 1 N N N 81.272 20.764 57.391  5.007  1.093  0.239  HAF ICD 25
-ICD  HAH  HAH H 0 1 N N N 77.235 23.953 61.062  1.053 -3.136  0.412  HAH ICD 26
-ICD  HAI  HAI H 0 1 N N N 80.391 24.851 56.347  5.206 -3.161 -0.037  HAI ICD 27
-ICD  HAM  HAM H 0 1 N N N 81.612 22.730 55.892  6.334 -0.984  0.139  HAM ICD 28
-ICD  HAO  HAO H 0 1 N N N 81.621 21.735 61.706  0.299  1.865 -2.446  HAO ICD 29
-ICD HAOA HAOA H 0 0 N N N 80.348 22.716 62.508 -1.062  1.912 -1.299 HAOA ICD 30
-ICD HAOB HAOB H 0 0 N N N 80.692 21.049 63.082  0.275  3.076 -1.141 HAOB ICD 31
-ICD HNAP HNAP H 0 0 N N N 76.840 23.892 61.423 -1.654  1.509  0.286 HNAP ICD 32
-ICD  HAT  HAT H 0 1 N N N 76.620 22.433 64.914 -3.652 -1.748 -0.431  HAT ICD 33
-ICD  HAW  HAW H 0 1 N N N 73.828 24.363 66.877 -6.733 -1.936  0.903  HAW ICD 34
-ICD HAWA HAWA H 0 0 N N N 74.166 22.612 66.661 -7.433 -0.862 -0.331 HAWA ICD 35
-ICD HAWB HAWB H 0 0 N N N 75.453 23.707 67.269 -6.334 -2.175 -0.815 HAWB ICD 36
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ICD CAA  CAA  C 0 1 Y N N 79.227 22.970 58.925 2.482  -1.158 0.032  CAA  ICD 1  
+ICD CAB  CAB  C 0 1 Y N N 80.051 21.884 58.765 3.140  0.074  0.128  CAB  ICD 2  
+ICD CAC  CAC  C 0 1 N N N 78.506 23.079 60.140 1.015  -1.224 -0.010 CAC  ICD 3  
+ICD CAD  CAD  C 0 1 Y N N 79.445 24.101 58.134 3.243  -2.329 -0.029 CAD  ICD 4  
+ICD SAE  SAE  S 0 1 N N N 79.597 20.665 59.811 2.158  1.542  0.200  SAE  ICD 5  
+ICD CAF  CAF  C 0 1 Y N N 80.811 21.715 57.615 4.511  0.137  0.166  CAF  ICD 6  
+ICD CAG  CAG  C 0 1 N N N 78.588 22.119 61.226 0.214  -0.169 -0.274 CAG  ICD 7  
+ICD OAH  OAH  O 0 1 N N N 77.651 23.976 60.208 0.428  -2.421 0.231  OAH  ICD 8  
+ICD CAI  CAI  C 0 1 Y N N 80.278 24.007 57.011 4.620  -2.256 0.010  CAI  ICD 9  
+ICD NAJ  NAJ  N 0 1 N N N 79.637 21.171 61.258 0.721  1.119  -0.532 NAJ  ICD 10 
+ICD OAK  OAK  O 0 1 N N N 80.633 19.579 59.705 2.785  2.497  -0.645 OAK  ICD 11 
+ICD OAL  OAL  O 0 1 N N N 78.291 20.025 59.405 1.868  1.776  1.571  OAL  ICD 12 
+ICD CAM  CAM  C 0 1 Y N N 80.965 22.808 56.754 5.255  -1.031 0.110  CAM  ICD 13 
+ICD CAN  CAN  C 0 1 N N N 77.808 22.392 62.379 -1.191 -0.366 -0.292 CAN  ICD 14 
+ICD CAO  CAO  C 0 1 N N N 80.638 21.701 62.198 0.013  2.053  -1.411 CAO  ICD 15 
+ICD NAP  NAP  N 0 1 N N N 76.908 23.394 62.288 -2.016 0.634  0.076  NAP  ICD 16 
+ICD OAQ  OAQ  O 0 1 N N N 77.969 21.578 63.442 -1.651 -1.439 -0.638 OAQ  ICD 17 
+ICD CAR  CAR  C 0 1 Y N N 76.099 23.758 63.295 -3.390 0.411  0.153  CAR  ICD 18 
+ICD NAS  NAS  N 0 1 Y N N 75.254 24.784 63.189 -4.308 1.280  0.486  NAS  ICD 19 
+ICD CAT  CAT  C 0 1 Y N N 76.015 23.235 64.517 -4.073 -0.803 -0.121 CAT  ICD 20 
+ICD OAU  OAU  O 0 1 Y N N 74.541 24.893 64.410 -5.413 0.788  0.462  OAU  ICD 21 
+ICD CAV  CAV  C 0 1 Y N N 75.043 23.887 65.160 -5.374 -0.502 0.097  CAV  ICD 22 
+ICD CAW  CAW  C 0 1 N N N 74.591 23.624 66.591 -6.550 -1.433 -0.046 CAW  ICD 23 
+ICD HAD  HAD  H 0 1 N N N 78.975 25.040 58.386 2.755  -3.289 -0.107 HAD  ICD 24 
+ICD HAF  HAF  H 0 1 N N N 81.272 20.764 57.391 5.007  1.093  0.239  HAF  ICD 25 
+ICD HAH  HAH  H 0 1 N N N 77.235 23.953 61.062 1.053  -3.136 0.412  HAH  ICD 26 
+ICD HAI  HAI  H 0 1 N N N 80.391 24.851 56.347 5.206  -3.161 -0.037 HAI  ICD 27 
+ICD HAM  HAM  H 0 1 N N N 81.612 22.730 55.892 6.334  -0.984 0.139  HAM  ICD 28 
+ICD HAO  HAO  H 0 1 N N N 81.621 21.735 61.706 0.299  1.865  -2.446 HAO  ICD 29 
+ICD HAOA HAOA H 0 0 N N N 80.348 22.716 62.508 -1.062 1.912  -1.299 HAOA ICD 30 
+ICD HAOB HAOB H 0 0 N N N 80.692 21.049 63.082 0.275  3.076  -1.141 HAOB ICD 31 
+ICD HNAP HNAP H 0 0 N N N 76.840 23.892 61.423 -1.654 1.509  0.286  HNAP ICD 32 
+ICD HAT  HAT  H 0 1 N N N 76.620 22.433 64.914 -3.652 -1.748 -0.431 HAT  ICD 33 
+ICD HAW  HAW  H 0 1 N N N 73.828 24.363 66.877 -6.733 -1.936 0.903  HAW  ICD 34 
+ICD HAWA HAWA H 0 0 N N N 74.166 22.612 66.661 -7.433 -0.862 -0.331 HAWA ICD 35 
+ICD HAWB HAWB H 0 0 N N N 75.453 23.707 67.269 -6.334 -2.175 -0.815 HAWB ICD 36 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-ICD CAD  CAA DOUB Y N  1
-ICD CAB  CAA SING Y N  2
-ICD CAA  CAC SING N N  3
-ICD CAF  CAB DOUB Y N  4
-ICD CAB  SAE SING N N  5
-ICD CAC  OAH SING N N  6
-ICD CAC  CAG DOUB N N  7
-ICD CAI  CAD SING Y N  8
-ICD CAD  HAD SING N N  9
-ICD OAL  SAE DOUB N N 10
-ICD OAK  SAE DOUB N N 11
-ICD SAE  NAJ SING N N 12
-ICD CAM  CAF SING Y N 13
-ICD CAF  HAF SING N N 14
-ICD CAG  NAJ SING N N 15
-ICD CAG  CAN SING N N 16
-ICD OAH  HAH SING N N 17
-ICD CAM  CAI DOUB Y N 18
-ICD CAI  HAI SING N N 19
-ICD NAJ  CAO SING N N 20
-ICD CAM  HAM SING N N 21
-ICD NAP  CAN SING N N 22
-ICD CAN  OAQ DOUB N N 23
-ICD CAO  HAO SING N N 24
-ICD CAO HAOA SING N N 25
-ICD CAO HAOB SING N N 26
-ICD NAP  CAR SING N N 27
-ICD NAP HNAP SING N N 28
-ICD NAS  CAR DOUB Y N 29
-ICD CAR  CAT SING Y N 30
-ICD NAS  OAU SING Y N 31
-ICD CAT  CAV DOUB Y N 32
-ICD CAT  HAT SING N N 33
-ICD OAU  CAV SING Y N 34
-ICD CAV  CAW SING N N 35
-ICD CAW  HAW SING N N 36
-ICD CAW HAWA SING N N 37
-ICD CAW HAWB SING N N 38
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ICD CAD CAA  DOUB Y N 1  
+ICD CAB CAA  SING Y N 2  
+ICD CAA CAC  SING N N 3  
+ICD CAF CAB  DOUB Y N 4  
+ICD CAB SAE  SING N N 5  
+ICD CAC OAH  SING N N 6  
+ICD CAC CAG  DOUB N N 7  
+ICD CAI CAD  SING Y N 8  
+ICD CAD HAD  SING N N 9  
+ICD OAL SAE  DOUB N N 10 
+ICD OAK SAE  DOUB N N 11 
+ICD SAE NAJ  SING N N 12 
+ICD CAM CAF  SING Y N 13 
+ICD CAF HAF  SING N N 14 
+ICD CAG NAJ  SING N N 15 
+ICD CAG CAN  SING N N 16 
+ICD OAH HAH  SING N N 17 
+ICD CAM CAI  DOUB Y N 18 
+ICD CAI HAI  SING N N 19 
+ICD NAJ CAO  SING N N 20 
+ICD CAM HAM  SING N N 21 
+ICD NAP CAN  SING N N 22 
+ICD CAN OAQ  DOUB N N 23 
+ICD CAO HAO  SING N N 24 
+ICD CAO HAOA SING N N 25 
+ICD CAO HAOB SING N N 26 
+ICD NAP CAR  SING N N 27 
+ICD NAP HNAP SING N N 28 
+ICD NAS CAR  DOUB Y N 29 
+ICD CAR CAT  SING Y N 30 
+ICD NAS OAU  SING Y N 31 
+ICD CAT CAV  DOUB Y N 32 
+ICD CAT HAT  SING N N 33 
+ICD OAU CAV  SING Y N 34 
+ICD CAV CAW  SING N N 35 
+ICD CAW HAW  SING N N 36 
+ICD CAW HAWA SING N N 37 
+ICD CAW HAWB SING N N 38 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-ICD           SMILES              ACDLabs 12.01                                                                        O=C(C2=C(O)c1c(cccc1)S(=O)(=O)N2C)Nc3noc(c3)C
-ICD            InChI                InChI  1.03 InChI=1S/C14H13N3O5S/c1-8-7-11(16-22-8)15-14(19)12-13(18)9-5-3-4-6-10(9)23(20,21)17(12)2/h3-7,18H,1-2H3,(H,15,16,19)
-ICD         InChIKey                InChI  1.03                                                                                          YYUAYBYLJSNDCX-UHFFFAOYSA-N
-ICD SMILES_CANONICAL               CACTVS 3.370                                                                        CN1C(=C(O)c2ccccc2[S]1(=O)=O)C(=O)Nc3cc(C)on3
-ICD           SMILES               CACTVS 3.370                                                                        CN1C(=C(O)c2ccccc2[S]1(=O)=O)C(=O)Nc3cc(C)on3
-ICD SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                                       Cc1cc(no1)NC(=O)C2=C(c3ccccc3S(=O)(=O)[N@]2C)O
-ICD           SMILES "OpenEye OEToolkits" 1.7.6                                                                          Cc1cc(no1)NC(=O)C2=C(c3ccccc3S(=O)(=O)N2C)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ICD SMILES           ACDLabs              12.01 "O=C(C2=C(O)c1c(cccc1)S(=O)(=O)N2C)Nc3noc(c3)C"                                                                        
+ICD InChI            InChI                1.03  "InChI=1S/C14H13N3O5S/c1-8-7-11(16-22-8)15-14(19)12-13(18)9-5-3-4-6-10(9)23(20,21)17(12)2/h3-7,18H,1-2H3,(H,15,16,19)" 
+ICD InChIKey         InChI                1.03  YYUAYBYLJSNDCX-UHFFFAOYSA-N                                                                                            
+ICD SMILES_CANONICAL CACTVS               3.370 "CN1C(=C(O)c2ccccc2[S]1(=O)=O)C(=O)Nc3cc(C)on3"                                                                        
+ICD SMILES           CACTVS               3.370 "CN1C(=C(O)c2ccccc2[S]1(=O)=O)C(=O)Nc3cc(C)on3"                                                                        
+ICD SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "Cc1cc(no1)NC(=O)C2=C(c3ccccc3S(=O)(=O)[N@]2C)O"                                                                       
+ICD SMILES           "OpenEye OEToolkits" 1.7.6 "Cc1cc(no1)NC(=O)C2=C(c3ccccc3S(=O)(=O)N2C)O"                                                                          
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-ICD "SYSTEMATIC NAME"              ACDLabs 12.01                   "4-hydroxy-2-methyl-N-(5-methyl-1,2-oxazol-3-yl)-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide"
-ICD "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 (2S)-2-methyl-N-(5-methyl-1,2-oxazol-3-yl)-4-oxidanyl-1,1-bis(oxidanylidene)-1$l^{6},2-benzothiazine-3-carboxamide
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+ICD "SYSTEMATIC NAME" ACDLabs              12.01 "4-hydroxy-2-methyl-N-(5-methyl-1,2-oxazol-3-yl)-2H-1,2-benzothiazine-3-carboxamide 1,1-dioxide"                     
+ICD "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2S)-2-methyl-N-(5-methyl-1,2-oxazol-3-yl)-4-oxidanyl-1,1-bis(oxidanylidene)-1$l^{6},2-benzothiazine-3-carboxamide" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-ICD "Create component" 2013-08-09 RCSB
-ICD  "Initial release" 2014-01-22 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   ICD
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB08942
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Isoxicam
-_pdbe_chem_comp_drugbank_details.description               "Isoxicam is a non-steroidal anti-inflammatory drug that is not marketed in the United States."
-_pdbe_chem_comp_drugbank_details.cas_number                34552-84-6
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           ICD
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB08942
-_pdbe_chem_comp_drugbank_classification.parent            Benzothiazines
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             Benzothiazines
-_pdbe_chem_comp_drugbank_classification.superclass        "Organoheterocyclic compounds"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as benzothiazines. These are organic compounds containing a benzene fused to a thiazine ring (a six-membered ring with four carbon atoms, one nitrogen atom and one sulfur atom)."
-
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-ICD Isoxicam ChEMBL
-ICD   W-8495 ChEMBL
-ICD  Maxicam ChEMBL
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-ICD CAA C  5.700 -0.627  1
-ICD CAB C  5.700 -2.127  2
-ICD CAC C  6.999  0.123  3
-ICD CAD C  4.359  0.175  4
-ICD SAE S  6.999 -2.877  5
-ICD CAF C  4.359 -2.929  6
-ICD CAG C  8.298 -0.627  7
-ICD OAH O  6.999  1.623  8
-ICD CAI C  3.000 -0.596  9
-ICD NAJ N  8.298 -2.127 10
-ICD OAK O  7.749 -4.176 11
-ICD OAL O  6.249 -4.176 12
-ICD CAM C  3.000 -2.159 13
-ICD CAN C  9.597  0.123 14
-ICD CAO C  9.597 -2.877 15
-ICD NAP N  9.597  1.623 16
-ICD OAQ O 10.896 -0.627 17
-ICD CAR C 10.896  2.373 18
-ICD NAS N 11.053  3.864 19
-ICD CAT C 12.267  1.763 20
-ICD OAU O 12.520  4.176 21
-ICD CAV C 13.270  2.877 22
-ICD CAW C 14.762  2.721 23
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-ICD CAD CAA SINGLE NONE  1
-ICD CAB CAA DOUBLE NONE  2
-ICD CAA CAC SINGLE NONE  3
-ICD CAF CAB SINGLE NONE  4
-ICD CAB SAE SINGLE NONE  5
-ICD CAC OAH SINGLE NONE  6
-ICD CAC CAG DOUBLE NONE  7
-ICD CAI CAD DOUBLE NONE  8
-ICD OAL SAE DOUBLE NONE  9
-ICD OAK SAE DOUBLE NONE 10
-ICD SAE NAJ SINGLE NONE 11
-ICD CAM CAF DOUBLE NONE 12
-ICD CAG NAJ SINGLE NONE 13
-ICD CAG CAN SINGLE NONE 14
-ICD CAM CAI SINGLE NONE 15
-ICD NAJ CAO SINGLE NONE 16
-ICD NAP CAN SINGLE NONE 17
-ICD CAN OAQ DOUBLE NONE 18
-ICD NAP CAR SINGLE NONE 19
-ICD NAS CAR DOUBLE NONE 20
-ICD CAR CAT SINGLE NONE 21
-ICD NAS OAU SINGLE NONE 22
-ICD CAT CAV DOUBLE NONE 23
-ICD OAU CAV SINGLE NONE 24
-ICD CAV CAW SINGLE NONE 25
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-ICD MurckoScaffold S1 scaffold O=C(Nc1ccon1)C1=Cc2ccccc2S(=O)(=O)N1 InChI=1S/C12H9N3O4S/c16-12(13-11-5-6-19-14-11)9-7-8-3-1-2-4-10(8)20(17,18)15-9/h1-7,15H,(H,13,14,16) USDMMNZGWYJUQY-UHFFFAOYSA-N
-ICD          amide F1 fragment                              CC(N)=O                                                               InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-ICD      isoxazole F2 fragment                              c1cnoc1                                                                   InChI=1S/C3H3NO/c1-2-4-5-3-1/h1-3H CTAPFRYPJLPFDF-UHFFFAOYSA-N
-ICD        peptide F3 fragment                                NCC=O                                                                   InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-ICD         phenyl F4 fragment                             c1ccccc1                                                                   InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-ICD NAP F1 1
-ICD CAN F1 1
-ICD OAQ F1 1
-ICD CAG F1 1
-ICD CAV F2 1
-ICD CAT F2 1
-ICD CAR F2 1
-ICD NAS F2 1
-ICD OAU F2 1
-ICD OAQ F3 1
-ICD CAN F3 1
-ICD CAG F3 1
-ICD NAJ F3 1
-ICD CAA F4 1
-ICD CAB F4 1
-ICD CAF F4 1
-ICD CAM F4 1
-ICD CAI F4 1
-ICD CAD F4 1
-ICD CAA S1 1
-ICD CAB S1 1
-ICD CAC S1 1
-ICD CAD S1 1
-ICD SAE S1 1
-ICD CAF S1 1
-ICD CAG S1 1
-ICD CAI S1 1
-ICD NAJ S1 1
-ICD OAK S1 1
-ICD OAL S1 1
-ICD CAM S1 1
-ICD CAN S1 1
-ICD NAP S1 1
-ICD OAQ S1 1
-ICD CAR S1 1
-ICD NAS S1 1
-ICD CAT S1 1
-ICD OAU S1 1
-ICD CAV S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               ICD
-_pdbe_chem_comp_rdkit_properties.exactmw                               335.058
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                6
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        9
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.143
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             150.019
-_pdbe_chem_comp_rdkit_properties.tpsa                                  112.740
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.884
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             80.023
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         23
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-ICD UniChem       ChEMBL      CHEMBL53292
-ICD UniChem     DrugBank          DB08942
-ICD UniChem        ChEBI            76163
-ICD UniChem         ZINC ZINC000049538599
-ICD UniChem MetaboLights       MTBLC76163
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-ICD  CAA -2.579  0.729 -0.357 ETKDGv2  1
-ICD  CAB -3.505 -0.250 -0.248 ETKDGv2  2
-ICD  CAC -1.122  0.440 -0.591 ETKDGv2  3
-ICD  CAD -3.038  2.143 -0.232 ETKDGv2  4
-ICD  SAE -3.018 -1.920 -0.247 ETKDGv2  5
-ICD  CAF -4.939  0.079 -0.080 ETKDGv2  6
-ICD  CAG -0.544 -0.762 -0.335 ETKDGv2  7
-ICD  OAH -0.313  1.449 -1.127 ETKDGv2  8
-ICD  CAI -4.335  2.433 -0.073 ETKDGv2  9
-ICD  NAJ -1.321 -1.910  0.066 ETKDGv2 10
-ICD  OAK -3.746 -2.652  0.846 ETKDGv2 11
-ICD  OAL -3.297 -2.555 -1.579 ETKDGv2 12
-ICD  CAM -5.333  1.353 -0.006 ETKDGv2 13
-ICD  CAN  0.919 -0.915 -0.524 ETKDGv2 14
-ICD  CAO -0.704 -3.059  0.733 ETKDGv2 15
-ICD  NAP  1.832  0.007  0.096 ETKDGv2 16
-ICD  OAQ  1.352 -1.871 -1.223 ETKDGv2 17
-ICD  CAR  3.249 -0.001 -0.122 ETKDGv2 18
-ICD  NAS  3.858 -0.806 -0.931 ETKDGv2 19
-ICD  CAT  4.195  0.905  0.525 ETKDGv2 20
-ICD  OAU  5.195 -0.492 -0.864 ETKDGv2 21
-ICD  CAV  5.371  0.553  0.030 ETKDGv2 22
-ICD  CAW  6.684  1.176  0.367 ETKDGv2 23
-ICD  HAD -2.330  2.960 -0.226 ETKDGv2 24
-ICD  HAF -5.674 -0.714 -0.017 ETKDGv2 25
-ICD  HAH -0.679  2.312 -1.508 ETKDGv2 26
-ICD  HAI -4.654  3.463  0.026 ETKDGv2 27
-ICD  HAM -6.381  1.593  0.117 ETKDGv2 28
-ICD  HAO -0.120 -2.714  1.613 ETKDGv2 29
-ICD HAOA -1.471 -3.779  1.085 ETKDGv2 30
-ICD HAOB -0.036 -3.596  0.029 ETKDGv2 31
-ICD HNAP  1.448  0.717  0.759 ETKDGv2 32
-ICD  HAT  3.993  1.688  1.244 ETKDGv2 33
-ICD  HAW  6.677  2.246  0.072 ETKDGv2 34
-ICD HAWA  6.870  1.094  1.458 ETKDGv2 35
-ICD HAWB  7.498  0.655 -0.179 ETKDGv2 36
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ICD "Create component" 2013-08-09 RCSB 
+ICD "Initial release"  2014-01-22 RCSB 
+# 

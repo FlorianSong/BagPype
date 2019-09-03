@@ -1,287 +1,135 @@
 data_FY3
-#
-_chem_comp.id                                        FY3
-_chem_comp.name                                      2,3,5-trifluoro-L-tyrosine
-_chem_comp.type                                      "L-peptide linking"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C9 H8 F3 N O3"
-_chem_comp.mon_nstd_parent_comp_id                   TYR
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2015-07-13
-_chem_comp.pdbx_modified_date                        2016-07-08
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            235.160
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         FY3
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       Y
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            5CI3
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    FY3 
+_chem_comp.name                                  2,3,5-trifluoro-L-tyrosine 
+_chem_comp.type                                  "L-peptide linking" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C9 H8 F3 N O3" 
+_chem_comp.mon_nstd_parent_comp_id               TYR 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2015-07-13 
+_chem_comp.pdbx_modified_date                    2016-07-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        235.160 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     FY3 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5CI3 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FY3   N N1 N 0 1 N N N -27.546 -19.340 -15.075  2.005  1.370  1.209   N FY3  1
-FY3   C C1 C 0 1 N N N -26.087 -17.680 -16.079  3.724  0.056  0.102   C FY3  2
-FY3   O O1 O 0 1 N N N -25.728 -16.474 -16.032  4.415  1.046  0.140   O FY3  3
-FY3  CA C2 C 0 1 N N S -26.464 -18.396 -14.822  2.257  0.148  0.433  CA FY3  4
-FY3  CB C3 C 0 1 N N N -25.265 -19.066 -14.192  1.443  0.190 -0.862  CB FY3  5
-FY3  CG C4 C 0 1 Y N N -25.544 -19.799 -12.907 -0.027  0.158 -0.533  CG FY3  6
-FY3 CD1 C5 C 0 1 Y N N -26.035 -19.114 -11.804 -0.640 -1.044 -0.221 CD1 FY3  7
-FY3 CD2 C6 C 0 1 Y N N -25.318 -21.159 -12.819 -0.761  1.329 -0.538 CD2 FY3  8
-FY3 CE1 C7 C 0 1 Y N N -26.308 -19.769 -10.614 -1.991 -1.076  0.082 CE1 FY3  9
-FY3 CE2 C8 C 0 1 Y N N -25.593 -21.811 -11.632 -2.111  1.303 -0.236 CE2 FY3 10
-FY3  CZ C9 C 0 1 Y N N -26.083 -21.133 -10.534 -2.730  0.099  0.072  CZ FY3 11
-FY3  OH O2 O 0 1 N N N -26.344 -21.830  -9.375 -4.057  0.072  0.368  OH FY3 12
-FY3  F2 F1 F 0 1 N N N -26.251 -17.814 -11.883  0.081 -2.187 -0.212  F2 FY3 13
-FY3  F3 F2 F 0 1 N N N -26.785 -19.085  -9.562 -2.589 -2.248  0.386  F3 FY3 14
-FY3  F5 F3 F 0 1 N N N -25.388 -23.108 -11.538 -2.827  2.449 -0.242  F5 FY3 15
-FY3  H1 H1 H 0 1 N N N -27.785 -19.809 -14.225  2.271  2.191  0.686  H1 FY3 16
-FY3  H2 H2 H 0 1 N N N -28.345 -18.847 -15.419  1.040  1.422  1.498  H2 FY3 17
-FY3  H5 H5 H 0 1 N N N -26.830 -17.643 -14.109  1.961 -0.722  1.020  H5 FY3 18
-FY3  H6 H6 H 0 1 N N N -24.860 -19.789 -14.915  1.674  1.105 -1.407  H6 FY3 19
-FY3  H7 H7 H 0 1 N N N -24.511 -18.292 -13.986  1.696 -0.673 -1.478  H7 FY3 20
-FY3  H8 H8 H 0 1 N N N -24.932 -21.705 -13.667 -0.280  2.266 -0.777  H8 FY3 21
-FY3  H9 H9 H 0 1 N N N -26.673 -21.233  -8.713 -4.253  0.190  1.308  H9 FY3 22
-FY3  O1 O3 O 0 1 N Y N       ?       ?       ?  4.263 -1.126 -0.235  O1 FY3 23
-FY3  H3 H3 H 0 1 N Y N       ?       ?       ?  5.208 -1.135 -0.439  H3 FY3 24
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FY3 N   N1 N 0 1 N N N -27.546 -19.340 -15.075 2.005  1.370  1.209  N   FY3 1  
+FY3 C   C1 C 0 1 N N N -26.087 -17.680 -16.079 3.724  0.056  0.102  C   FY3 2  
+FY3 O   O1 O 0 1 N N N -25.728 -16.474 -16.032 4.415  1.046  0.140  O   FY3 3  
+FY3 CA  C2 C 0 1 N N S -26.464 -18.396 -14.822 2.257  0.148  0.433  CA  FY3 4  
+FY3 CB  C3 C 0 1 N N N -25.265 -19.066 -14.192 1.443  0.190  -0.862 CB  FY3 5  
+FY3 CG  C4 C 0 1 Y N N -25.544 -19.799 -12.907 -0.027 0.158  -0.533 CG  FY3 6  
+FY3 CD1 C5 C 0 1 Y N N -26.035 -19.114 -11.804 -0.640 -1.044 -0.221 CD1 FY3 7  
+FY3 CD2 C6 C 0 1 Y N N -25.318 -21.159 -12.819 -0.761 1.329  -0.538 CD2 FY3 8  
+FY3 CE1 C7 C 0 1 Y N N -26.308 -19.769 -10.614 -1.991 -1.076 0.082  CE1 FY3 9  
+FY3 CE2 C8 C 0 1 Y N N -25.593 -21.811 -11.632 -2.111 1.303  -0.236 CE2 FY3 10 
+FY3 CZ  C9 C 0 1 Y N N -26.083 -21.133 -10.534 -2.730 0.099  0.072  CZ  FY3 11 
+FY3 OH  O2 O 0 1 N N N -26.344 -21.830 -9.375  -4.057 0.072  0.368  OH  FY3 12 
+FY3 F2  F1 F 0 1 N N N -26.251 -17.814 -11.883 0.081  -2.187 -0.212 F2  FY3 13 
+FY3 F3  F2 F 0 1 N N N -26.785 -19.085 -9.562  -2.589 -2.248 0.386  F3  FY3 14 
+FY3 F5  F3 F 0 1 N N N -25.388 -23.108 -11.538 -2.827 2.449  -0.242 F5  FY3 15 
+FY3 H1  H1 H 0 1 N N N -27.785 -19.809 -14.225 2.271  2.191  0.686  H1  FY3 16 
+FY3 H2  H2 H 0 1 N N N -28.345 -18.847 -15.419 1.040  1.422  1.498  H2  FY3 17 
+FY3 H5  H5 H 0 1 N N N -26.830 -17.643 -14.109 1.961  -0.722 1.020  H5  FY3 18 
+FY3 H6  H6 H 0 1 N N N -24.860 -19.789 -14.915 1.674  1.105  -1.407 H6  FY3 19 
+FY3 H7  H7 H 0 1 N N N -24.511 -18.292 -13.986 1.696  -0.673 -1.478 H7  FY3 20 
+FY3 H8  H8 H 0 1 N N N -24.932 -21.705 -13.667 -0.280 2.266  -0.777 H8  FY3 21 
+FY3 H9  H9 H 0 1 N N N -26.673 -21.233 -8.713  -4.253 0.190  1.308  H9  FY3 22 
+FY3 O1  O3 O 0 1 N Y N ?       ?       ?       4.263  -1.126 -0.235 O1  FY3 23 
+FY3 H3  H3 H 0 1 N Y N ?       ?       ?       5.208  -1.135 -0.439 H3  FY3 24 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FY3   C   O DOUB N N  1
-FY3   C  CA SING N N  2
-FY3   N  CA SING N N  3
-FY3  CA  CB SING N N  4
-FY3  CB  CG SING N N  5
-FY3  CG CD2 DOUB Y N  6
-FY3  CG CD1 SING Y N  7
-FY3 CD2 CE2 SING Y N  8
-FY3  F2 CD1 SING N N  9
-FY3 CD1 CE1 DOUB Y N 10
-FY3 CE2  F5 SING N N 11
-FY3 CE2  CZ DOUB Y N 12
-FY3 CE1  CZ SING Y N 13
-FY3 CE1  F3 SING N N 14
-FY3  CZ  OH SING N N 15
-FY3   N  H1 SING N N 16
-FY3   N  H2 SING N N 17
-FY3  CA  H5 SING N N 18
-FY3  CB  H6 SING N N 19
-FY3  CB  H7 SING N N 20
-FY3 CD2  H8 SING N N 21
-FY3  OH  H9 SING N N 22
-FY3   C  O1 SING N N 23
-FY3  O1  H3 SING N N 24
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FY3 C   O   DOUB N N 1  
+FY3 C   CA  SING N N 2  
+FY3 N   CA  SING N N 3  
+FY3 CA  CB  SING N N 4  
+FY3 CB  CG  SING N N 5  
+FY3 CG  CD2 DOUB Y N 6  
+FY3 CG  CD1 SING Y N 7  
+FY3 CD2 CE2 SING Y N 8  
+FY3 F2  CD1 SING N N 9  
+FY3 CD1 CE1 DOUB Y N 10 
+FY3 CE2 F5  SING N N 11 
+FY3 CE2 CZ  DOUB Y N 12 
+FY3 CE1 CZ  SING Y N 13 
+FY3 CE1 F3  SING N N 14 
+FY3 CZ  OH  SING N N 15 
+FY3 N   H1  SING N N 16 
+FY3 N   H2  SING N N 17 
+FY3 CA  H5  SING N N 18 
+FY3 CB  H6  SING N N 19 
+FY3 CB  H7  SING N N 20 
+FY3 CD2 H8  SING N N 21 
+FY3 OH  H9  SING N N 22 
+FY3 C   O1  SING N N 23 
+FY3 O1  H3  SING N N 24 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FY3           SMILES              ACDLabs 12.01                                                                    NC(C(=O)O)Cc1cc(F)c(c(c1F)F)O
-FY3            InChI                InChI  1.03 InChI=1S/C9H8F3NO3/c10-4-1-3(2-5(13)9(15)16)6(11)7(12)8(4)14/h1,5,14H,2,13H2,(H,15,16)/t5-/m0/s1
-FY3         InChIKey                InChI  1.03                                                                      AUJOGVIKYBGMRE-YFKPBYRVSA-N
-FY3 SMILES_CANONICAL               CACTVS 3.385                                                               N[C@@H](Cc1cc(F)c(O)c(F)c1F)C(O)=O
-FY3           SMILES               CACTVS 3.385                                                                 N[CH](Cc1cc(F)c(O)c(F)c1F)C(O)=O
-FY3 SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2                                                             c1c(c(c(c(c1F)O)F)F)C[C@@H](C(=O)O)N
-FY3           SMILES "OpenEye OEToolkits" 1.9.2                                                                  c1c(c(c(c(c1F)O)F)F)CC(C(=O)O)N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FY3 SMILES           ACDLabs              12.01 "NC(C(=O)O)Cc1cc(F)c(c(c1F)F)O"                                                                    
+FY3 InChI            InChI                1.03  "InChI=1S/C9H8F3NO3/c10-4-1-3(2-5(13)9(15)16)6(11)7(12)8(4)14/h1,5,14H,2,13H2,(H,15,16)/t5-/m0/s1" 
+FY3 InChIKey         InChI                1.03  AUJOGVIKYBGMRE-YFKPBYRVSA-N                                                                        
+FY3 SMILES_CANONICAL CACTVS               3.385 "N[C@@H](Cc1cc(F)c(O)c(F)c1F)C(O)=O"                                                               
+FY3 SMILES           CACTVS               3.385 "N[CH](Cc1cc(F)c(O)c(F)c1F)C(O)=O"                                                                 
+FY3 SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "c1c(c(c(c(c1F)O)F)F)C[C@@H](C(=O)O)N"                                                             
+FY3 SMILES           "OpenEye OEToolkits" 1.9.2 "c1c(c(c(c(c1F)O)F)F)CC(C(=O)O)N"                                                                  
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FY3 "SYSTEMATIC NAME"              ACDLabs 12.01                                                2,3,5-trifluoro-L-tyrosine
-FY3 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "(2S)-2-azanyl-3-[2,3,5-tris(fluoranyl)-4-oxidanyl-phenyl]propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FY3 "SYSTEMATIC NAME" ACDLabs              12.01 2,3,5-trifluoro-L-tyrosine                                                
+FY3 "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "(2S)-2-azanyl-3-[2,3,5-tris(fluoranyl)-4-oxidanyl-phenyl]propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FY3 "Create component" 2015-07-13 RCSB
-FY3  "Initial release" 2016-07-13 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FY3   N N 8.196  1.268  1
-FY3   C C 6.897  3.518  2
-FY3   O O 8.196  4.268  3
-FY3  CA C 6.897  2.018  4
-FY3  CB C 5.598  1.268  5
-FY3  CG C 5.598 -0.233  6
-FY3 CD1 C 4.299 -0.983  7
-FY3 CD2 C 6.897 -0.983  8
-FY3 CE1 C 4.299 -2.482  9
-FY3 CE2 C 6.897 -2.482 10
-FY3  CZ C 5.598 -3.232 11
-FY3  OH O 5.598 -4.732 12
-FY3  F2 F 3.000 -0.233 13
-FY3  F3 F 3.000 -3.232 14
-FY3  F5 F 8.196 -3.232 15
-FY3  O1 O 5.598  4.268 16
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-FY3   C   O DOUBLE      NONE  1
-FY3   C  CA SINGLE      NONE  2
-FY3   N  CA SINGLE BEGINDASH  3
-FY3  CA  CB SINGLE      NONE  4
-FY3  CB  CG SINGLE      NONE  5
-FY3  CG CD2 DOUBLE      NONE  6
-FY3  CG CD1 SINGLE      NONE  7
-FY3 CD2 CE2 SINGLE      NONE  8
-FY3  F2 CD1 SINGLE      NONE  9
-FY3 CD1 CE1 DOUBLE      NONE 10
-FY3 CE2  F5 SINGLE      NONE 11
-FY3 CE2  CZ DOUBLE      NONE 12
-FY3 CE1  CZ SINGLE      NONE 13
-FY3 CE1  F3 SINGLE      NONE 14
-FY3  CZ  OH SINGLE      NONE 15
-FY3   C  O1 SINGLE      NONE 16
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-FY3 MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-FY3        peptide F1 fragment    NCC=O InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-FY3         phenyl F2 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-FY3   O F1 1
-FY3   C F1 1
-FY3  CA F1 1
-FY3   N F1 1
-FY3  CG F2 1
-FY3 CD1 F2 1
-FY3 CE1 F2 1
-FY3  CZ F2 1
-FY3 CE2 F2 1
-FY3 CD2 F2 1
-FY3  CG S1 1
-FY3 CD1 S1 1
-FY3 CD2 S1 1
-FY3 CE1 S1 1
-FY3 CE2 S1 1
-FY3  CZ S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FY3
-_pdbe_chem_comp_rdkit_properties.exactmw                               235.046
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.222
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             99.642
-_pdbe_chem_comp_rdkit_properties.tpsa                                  83.550
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.247
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             46.420
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         16
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FY3   N  1.637 -1.262  1.089 ETKDGv2  1
-FY3   C  3.349  0.288  0.267 ETKDGv2  2
-FY3   O  4.021 -0.561 -0.377 ETKDGv2  3
-FY3  CA  1.877  0.064  0.512 ETKDGv2  4
-FY3  CB  1.089  0.231 -0.800 ETKDGv2  5
-FY3  CG -0.399  0.103 -0.578 ETKDGv2  6
-FY3 CD1 -1.133 -1.099 -1.056 ETKDGv2  7
-FY3 CD2 -1.079  1.081  0.047 ETKDGv2  8
-FY3 CE1 -2.455 -1.203 -0.859 ETKDGv2  9
-FY3 CE2 -2.536  0.964  0.263 ETKDGv2 10
-FY3  CZ -3.195 -0.125 -0.169 ETKDGv2 11
-FY3  OH -4.570 -0.260  0.023 ETKDGv2 12
-FY3  F2 -0.470 -2.103 -1.684 ETKDGv2 13
-FY3  F3 -3.120 -2.303 -1.293 ETKDGv2 14
-FY3  F5 -3.194  1.965  0.898 ETKDGv2 15
-FY3  H1  2.171 -1.340  1.986 ETKDGv2 16
-FY3  H2  1.999 -2.000  0.442 ETKDGv2 17
-FY3  H5  1.520  0.827  1.238 ETKDGv2 18
-FY3  H6  1.436 -0.526 -1.536 ETKDGv2 19
-FY3  H7  1.302  1.230 -1.243 ETKDGv2 20
-FY3  H8 -0.567  1.970  0.397 ETKDGv2 21
-FY3  H9 -5.122  0.450  0.490 ETKDGv2 22
-FY3  O1  3.975  1.447  0.720 ETKDGv2 23
-FY3  H3  3.464  2.160  1.225 ETKDGv2 24
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FY3 "Create component" 2015-07-13 RCSB 
+FY3 "Initial release"  2016-07-13 RCSB 
+# 

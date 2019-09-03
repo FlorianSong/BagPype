@@ -1,211 +1,114 @@
 data_EMM
-#
-_chem_comp.id                                        EMM
-_chem_comp.name                                      "[METHYL(VINYL)AMINO]METHANOL"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C4 H7 N O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             N,N-ETHYLMETHYLCARBAMATE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2001-12-04
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            101.104
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         EMM
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1GQR
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    EMM 
+_chem_comp.name                                  "[METHYL(VINYL)AMINO]METHANOL" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C4 H7 N O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         N,N-ETHYLMETHYLCARBAMATE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2001-12-04 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        101.104 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     EMM 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1GQR 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-EMM   C1   C1 C 0 1 N N N 7.570 62.323 61.795 -0.717  0.000 -1.323   C1 EMM  1
-EMM   C2   C2 C 0 1 N N N 5.315 62.071 62.847  1.639  0.000 -0.570   C2 EMM  2
-EMM    C    C C 0 1 N N N 5.779 63.838 60.913 -0.225  0.000  0.997    C EMM  3
-EMM    O    O O 0 1 N N N 4.722 63.443 60.391 -1.416  0.000  1.238    O EMM  4
-EMM    N    N N 0 1 N N N 6.249 62.825 61.954  0.203  0.000 -0.279    N EMM  5
-EMM   C3   C3 C 0 1 N N N 8.597 63.155 62.072 -0.297  0.000 -2.574   C3 EMM  6
-EMM  OXT  OXT O 0 1 N Y N 6.828 64.306 60.038  0.666  0.000  2.007  OXT EMM  7
-EMM   H1   H1 H 0 1 N N N 7.750 61.289 61.457 -1.776  0.000 -1.109   H1 EMM  8
-EMM H2C1 1H2C H 0 0 N N N 4.279 62.465 62.972  2.199  0.000  0.364 H2C1 EMM  9
-EMM H2C2 2H2C H 0 0 N N N 5.785 61.953 63.851  1.894 -0.890 -1.146 H2C2 EMM 10
-EMM H2C3 3H2C H 0 0 N N N 5.265 61.009 62.511  1.894  0.890 -1.146 H2C3 EMM 11
-EMM H3C1 1H3C H 0 0 N N N 9.622 62.766 61.949 -1.012 -0.000 -3.383 H3C1 EMM 12
-EMM H3C2 2H3C H 0 0 N N N 8.417 64.189 62.410  0.760  0.000 -2.788 H3C2 EMM 13
-EMM  HXT  HXT H 0 1 N N N 7.635 64.607 60.436  0.358  0.000  2.923  HXT EMM 14
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+EMM C1   C1   C 0 1 N N N 7.570 62.323 61.795 -0.717 0.000  -1.323 C1   EMM 1  
+EMM C2   C2   C 0 1 N N N 5.315 62.071 62.847 1.639  0.000  -0.570 C2   EMM 2  
+EMM C    C    C 0 1 N N N 5.779 63.838 60.913 -0.225 0.000  0.997  C    EMM 3  
+EMM O    O    O 0 1 N N N 4.722 63.443 60.391 -1.416 0.000  1.238  O    EMM 4  
+EMM N    N    N 0 1 N N N 6.249 62.825 61.954 0.203  0.000  -0.279 N    EMM 5  
+EMM C3   C3   C 0 1 N N N 8.597 63.155 62.072 -0.297 0.000  -2.574 C3   EMM 6  
+EMM OXT  OXT  O 0 1 N Y N 6.828 64.306 60.038 0.666  0.000  2.007  OXT  EMM 7  
+EMM H1   H1   H 0 1 N N N 7.750 61.289 61.457 -1.776 0.000  -1.109 H1   EMM 8  
+EMM H2C1 1H2C H 0 0 N N N 4.279 62.465 62.972 2.199  0.000  0.364  H2C1 EMM 9  
+EMM H2C2 2H2C H 0 0 N N N 5.785 61.953 63.851 1.894  -0.890 -1.146 H2C2 EMM 10 
+EMM H2C3 3H2C H 0 0 N N N 5.265 61.009 62.511 1.894  0.890  -1.146 H2C3 EMM 11 
+EMM H3C1 1H3C H 0 0 N N N 9.622 62.766 61.949 -1.012 -0.000 -3.383 H3C1 EMM 12 
+EMM H3C2 2H3C H 0 0 N N N 8.417 64.189 62.410 0.760  0.000  -2.788 H3C2 EMM 13 
+EMM HXT  HXT  H 0 1 N N N 7.635 64.607 60.436 0.358  0.000  2.923  HXT  EMM 14 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-EMM  C1    N SING N N  1
-EMM  C1   C3 DOUB N N  2
-EMM  C1   H1 SING N N  3
-EMM  C2    N SING N N  4
-EMM  C2 H2C1 SING N N  5
-EMM  C2 H2C2 SING N N  6
-EMM  C2 H2C3 SING N N  7
-EMM   C    O DOUB N N  8
-EMM   C    N SING N N  9
-EMM   C  OXT SING N N 10
-EMM  C3 H3C1 SING N N 11
-EMM  C3 H3C2 SING N N 12
-EMM OXT  HXT SING N N 13
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+EMM C1  N    SING N N 1  
+EMM C1  C3   DOUB N N 2  
+EMM C1  H1   SING N N 3  
+EMM C2  N    SING N N 4  
+EMM C2  H2C1 SING N N 5  
+EMM C2  H2C2 SING N N 6  
+EMM C2  H2C3 SING N N 7  
+EMM C   O    DOUB N N 8  
+EMM C   N    SING N N 9  
+EMM C   OXT  SING N N 10 
+EMM C3  H3C1 SING N N 11 
+EMM C3  H3C2 SING N N 12 
+EMM OXT HXT  SING N N 13 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-EMM           SMILES              ACDLabs 10.04                                      O=C(O)N(\C=C)C
-EMM SMILES_CANONICAL               CACTVS 3.341                                       CN(C=C)C(O)=O
-EMM           SMILES               CACTVS 3.341                                       CN(C=C)C(O)=O
-EMM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                       CN(C=C)C(=O)O
-EMM           SMILES "OpenEye OEToolkits" 1.5.0                                       CN(C=C)C(=O)O
-EMM            InChI                InChI  1.03 InChI=1S/C4H7NO2/c1-3-5(2)4(6)7/h3H,1H2,2H3,(H,6,7)
-EMM         InChIKey                InChI  1.03                         RIKKDQCPYLBOND-UHFFFAOYSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+EMM SMILES           ACDLabs              10.04 "O=C(O)N(\C=C)C"                                      
+EMM SMILES_CANONICAL CACTVS               3.341 "CN(C=C)C(O)=O"                                       
+EMM SMILES           CACTVS               3.341 "CN(C=C)C(O)=O"                                       
+EMM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CN(C=C)C(=O)O"                                       
+EMM SMILES           "OpenEye OEToolkits" 1.5.0 "CN(C=C)C(=O)O"                                       
+EMM InChI            InChI                1.03  "InChI=1S/C4H7NO2/c1-3-5(2)4(6)7/h3H,1H2,2H3,(H,6,7)" 
+EMM InChIKey         InChI                1.03  RIKKDQCPYLBOND-UHFFFAOYSA-N                           
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-EMM "SYSTEMATIC NAME"              ACDLabs 10.04 "ethenyl(methyl)carbamic acid"
-EMM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "ethenyl-methyl-carbamic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+EMM "SYSTEMATIC NAME" ACDLabs              10.04 "ethenyl(methyl)carbamic acid" 
+EMM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "ethenyl-methyl-carbamic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-EMM  "Create component" 2001-12-04  EBI
-EMM "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-EMM  C1 C 4.299  0.375 1
-EMM  C2 C 5.598 -1.875 2
-EMM   C C 6.897  0.375 3
-EMM   O O 8.196 -0.375 4
-EMM   N N 5.598 -0.375 5
-EMM  C3 C 3.000 -0.375 6
-EMM OXT O 6.897  1.875 7
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-EMM C1   N SINGLE NONE 1
-EMM C1  C3 DOUBLE NONE 2
-EMM C2   N SINGLE NONE 3
-EMM  C   O DOUBLE NONE 4
-EMM  C   N SINGLE NONE 5
-EMM  C OXT SINGLE NONE 6
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               EMM
-_pdbe_chem_comp_rdkit_properties.exactmw                               101.048
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     2
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                2
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.250
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             51.782
-_pdbe_chem_comp_rdkit_properties.tpsa                                  40.540
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          0.740
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             25.985
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-EMM UniChem ChEMBL    CHEMBL1232516
-EMM UniChem   ZINC ZINC000004633182
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-EMM   C1  0.468  0.972  0.009 ETKDGv2  1
-EMM   C2  0.382 -1.486 -0.620 ETKDGv2  2
-EMM    C -1.639 -0.314  0.315 ETKDGv2  3
-EMM    O -2.120 -1.384  0.774 ETKDGv2  4
-EMM    N -0.266 -0.265 -0.122 ETKDGv2  5
-EMM   C3  1.695  1.150 -0.484 ETKDGv2  6
-EMM  OXT -2.461  0.808  0.231 ETKDGv2  7
-EMM   H1  0.021  1.801  0.544 ETKDGv2  8
-EMM H2C1 -0.313 -2.351 -0.619 ETKDGv2  9
-EMM H2C2  1.253 -1.738  0.022 ETKDGv2 10
-EMM H2C3  0.721 -1.333 -1.666 ETKDGv2 11
-EMM H3C1  2.196  2.099 -0.346 ETKDGv2 12
-EMM H3C2  2.218  0.375 -1.028 ETKDGv2 13
-EMM  HXT -2.156  1.665 -0.214 ETKDGv2 14
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+EMM "Create component"  2001-12-04 EBI  
+EMM "Modify descriptor" 2011-06-04 RCSB 
+# 

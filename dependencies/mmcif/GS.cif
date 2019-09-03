@@ -325,11 +325,15 @@ _pdbe_chem_comp_rdkit_properties.CrippenMR                             78.936
 _pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         23
 
 #
-_pdbe_chem_comp_external_mappings.comp_id           GS
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ChEMBL
-_pdbe_chem_comp_external_mappings.resource_id       CHEMBL1233119
-
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+GS UniChem ChEMBL CHEMBL1233119
+GS UniChem      P     135516852
+GS UniChem      P     137349452
+GS UniChem      P       9998785
 #
 loop_
 _pdbe_chem_comp_rdkit_conformer.comp_id             
@@ -339,41 +343,41 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-GS      P -5.551  0.009  0.083 ETKDGv2  1
-GS    OP1 -5.573  1.435  0.588 ETKDGv2  2
-GS    S2P -5.917 -0.008 -2.002 ETKDGv2  3
-GS    OP3 -6.779 -0.861  0.855 ETKDGv2  4
-GS  "O5'" -4.052 -0.725  0.438 ETKDGv2  5
-GS  "C5'" -3.022  0.055 -0.124 ETKDGv2  6
-GS  "C4'" -1.666 -0.589  0.189 ETKDGv2  7
-GS  "O4'" -0.622  0.184 -0.357 ETKDGv2  8
-GS  "C3'" -1.392 -0.777  1.682 ETKDGv2  9
-GS  "O3'" -1.935  0.256  2.473 ETKDGv2 10
-GS  "C2'"  0.113 -0.767  1.729 ETKDGv2 11
-GS  "C1'"  0.493  0.060  0.503 ETKDGv2 12
-GS     N9  1.607 -0.552 -0.217 ETKDGv2 13
-GS     C8  1.626 -1.773 -0.966 ETKDGv2 14
-GS     N7  2.743 -1.969 -1.607 ETKDGv2 15
-GS     C5  3.531 -0.825 -1.289 ETKDGv2 16
-GS     C6  4.867 -0.472 -1.754 ETKDGv2 17
-GS     O6  5.523 -1.226 -2.520 ETKDGv2 18
-GS     N1  5.402  0.780 -1.299 ETKDGv2 19
-GS     C2  4.608  1.622 -0.428 ETKDGv2 20
-GS     N2  5.128  2.871  0.024 ETKDGv2 21
-GS     N3  3.412  1.244 -0.053 ETKDGv2 22
-GS     C4  2.881 -0.011 -0.501 ETKDGv2 23
-GS   HSP2 -7.169  0.612 -1.841 ETKDGv2 24
-GS   HOP3 -6.695 -1.782  0.501 ETKDGv2 25
-GS  "H5'" -3.034  1.093  0.278 ETKDGv2 26
-GS "H5''" -3.126  0.100 -1.231 ETKDGv2 27
-GS  "H4'" -1.644 -1.589 -0.301 ETKDGv2 28
-GS  "H3'" -1.794 -1.752  2.038 ETKDGv2 29
-GS "HO3'" -1.537  1.117  2.178 ETKDGv2 30
-GS  "H2'"  0.501 -0.316  2.669 ETKDGv2 31
-GS "H2''"  0.493 -1.810  1.646 ETKDGv2 32
-GS  "H1'"  0.785  1.080  0.837 ETKDGv2 33
-GS     H8  0.796 -2.466 -1.007 ETKDGv2 34
-GS    HN1  6.356  1.082 -1.599 ETKDGv2 35
-GS   HN21  6.080  3.184 -0.268 ETKDGv2 36
-GS   HN22  4.563  3.485  0.652 ETKDGv2 37
+GS      P  5.148 -1.333  0.684 ETKDGv2  1
+GS    OP1  4.697 -1.574  2.107 ETKDGv2  2
+GS    S2P  5.174 -3.168 -0.370 ETKDGv2  3
+GS    OP3  6.716 -0.701  0.709 ETKDGv2  4
+GS  "O5'"  4.116 -0.210 -0.083 ETKDGv2  5
+GS  "C5'"  2.797 -0.702 -0.037 ETKDGv2  6
+GS  "C4'"  1.842  0.317 -0.683 ETKDGv2  7
+GS  "O4'"  0.589 -0.297 -0.890 ETKDGv2  8
+GS  "C3'"  1.617  1.580  0.150 ETKDGv2  9
+GS  "O3'"  2.707  1.889  0.980 ETKDGv2 10
+GS  "C2'"  0.390  1.240  0.948 ETKDGv2 11
+GS  "C1'" -0.301  0.180  0.097 ETKDGv2 12
+GS     N9 -1.488  0.734 -0.550 ETKDGv2 13
+GS     C8 -1.571  1.740 -1.568 ETKDGv2 14
+GS     N7 -2.785  1.945 -1.993 ETKDGv2 15
+GS     C5 -3.578  1.034 -1.235 ETKDGv2 16
+GS     C6 -5.015  0.798 -1.295 ETKDGv2 17
+GS     O6 -5.762  1.444 -2.076 ETKDGv2 18
+GS     N1 -5.543 -0.211 -0.420 ETKDGv2 19
+GS     C2 -4.647 -0.935  0.458 ETKDGv2 20
+GS     N2 -5.161 -1.941  1.328 ETKDGv2 21
+GS     N3 -3.365 -0.673  0.457 ETKDGv2 22
+GS     C4 -2.838  0.338 -0.414 ETKDGv2 23
+GS   HSP2  6.102 -3.730  0.526 ETKDGv2 24
+GS   HOP3  6.940 -0.545 -0.243 ETKDGv2 25
+GS  "H5'"  2.723 -1.651 -0.615 ETKDGv2 26
+GS "H5''"  2.467 -0.890  1.011 ETKDGv2 27
+GS  "H4'"  2.258  0.605 -1.674 ETKDGv2 28
+GS  "H3'"  1.397  2.433 -0.535 ETKDGv2 29
+GS "HO3'"  2.529  2.792  1.353 ETKDGv2 30
+GS  "H2'" -0.243  2.138  1.121 ETKDGv2 31
+GS "H2''"  0.676  0.803  1.931 ETKDGv2 32
+GS  "H1'" -0.602 -0.671  0.747 ETKDGv2 33
+GS     H8 -0.715  2.275 -1.956 ETKDGv2 34
+GS    HN1 -6.566 -0.421 -0.420 ETKDGv2 35
+GS   HN21 -6.182 -2.161  1.338 ETKDGv2 36
+GS   HN22 -4.523 -2.469  1.965 ETKDGv2 37
 #

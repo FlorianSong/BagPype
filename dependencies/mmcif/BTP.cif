@@ -1,315 +1,137 @@
 data_BTP
-#
-_chem_comp.id                                        BTP
-_chem_comp.name                                      "2-THIOMETHYL-3-PHENYLPROPANOIC ACID"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C10 H12 O2 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            196.266
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         BTP
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2DTF
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    BTP 
+_chem_comp.name                                  "2-THIOMETHYL-3-PHENYLPROPANOIC ACID" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C10 H12 O2 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        196.266 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     BTP 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2DTF 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-BTP    C1    C1 C 0 1 N N N 46.100 66.870 -14.409  1.697 -0.265  0.711    C1 BTP  1
-BTP    O1    O1 O 0 1 N N N 44.790 66.795 -14.492  2.386  0.718  0.840    O1 BTP  2
-BTP    O2    O2 O 0 1 N Y N 46.643 67.781 -13.684  2.217 -1.382  0.178    O2 BTP  3
-BTP    C2    C2 C 0 1 N N S 47.206 65.926 -15.114  0.255 -0.238  1.147    C2 BTP  4
-BTP    C3    C3 C 0 1 N N N 48.081 65.410 -14.115 -0.496  0.834  0.357    C3 BTP  5
-BTP "C1'" "C1'" C 0 1 Y N N 47.108 64.545 -13.390 -0.543  0.446 -1.097 "C1'" BTP  6
-BTP "C2'" "C2'" C 0 1 Y N N 46.110 63.916 -14.182 -1.546 -0.384 -1.559 "C2'" BTP  7
-BTP "C3'" "C3'" C 0 1 Y N N 45.119 63.242 -13.572 -1.589 -0.740 -2.894 "C3'" BTP  8
-BTP "C4'" "C4'" C 0 1 Y N N 45.101 63.279 -12.117 -0.629 -0.264 -3.768 "C4'" BTP  9
-BTP "C5'" "C5'" C 0 1 Y N N 46.145 63.745 -11.429  0.373  0.567 -3.306 "C5'" BTP 10
-BTP "C6'" "C6'" C 0 1 Y N N 47.234 64.437 -12.025  0.413  0.926 -1.972 "C6'" BTP 11
-BTP  "C'"    C* C 0 1 N N N 48.081 66.536 -16.246  0.180  0.081  2.641  "C'" BTP 12
-BTP  "S'"    S* S 0 1 N N N 47.452 66.797 -17.882 -1.539 -0.049  3.202  "S'" BTP 13
-BTP   HO2   HO2 H 0 1 N N N 47.589 67.835 -13.624  3.142 -1.399 -0.101   HO2 BTP 14
-BTP    H2    H2 H 0 1 N N N 46.587 65.154 -15.628 -0.198 -1.212  0.961    H2 BTP 15
-BTP   H31   1H3 H 0 1 N N N 49.010 64.913 -14.478 -1.512  0.923  0.742   H31 BTP 16
-BTP   H32   2H3 H 0 1 N N N 48.629 66.161 -13.500  0.017  1.789  0.462   H32 BTP 17
-BTP "H2'" "H2'" H 0 1 N N N 46.104 63.951 -15.284 -2.297 -0.756 -0.877 "H2'" BTP 18
-BTP "H3'" "H3'" H 0 1 N N N 44.389 62.709 -14.205 -2.373 -1.390 -3.255 "H3'" BTP 19
-BTP "H4'" "H4'" H 0 1 N N N 44.251 62.935 -11.503 -0.662 -0.543 -4.811 "H4'" BTP 20
-BTP "H5'" "H5'" H 0 1 N N N 46.106 63.553 -10.343  1.123  0.938 -3.988 "H5'" BTP 21
-BTP "H6'" "H6'" H 0 1 N N N 48.097 64.852 -11.478  1.197  1.576 -1.611 "H6'" BTP 22
-BTP "H'1"   1H* H 0 1 N N N 48.483 67.508 -15.877  0.798 -0.625  3.196 "H'1" BTP 23
-BTP "H'2"   2H* H 0 1 N N N 49.005 65.917 -16.331  0.542  1.094  2.814 "H'2" BTP 24
-BTP "HS'"   HS* H 0 1 N N N 47.986 67.169 -18.573 -1.385  0.261  4.502 "HS'" BTP 25
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+BTP C1    C1    C 0 1 N N N 46.100 66.870 -14.409 1.697  -0.265 0.711  C1    BTP 1  
+BTP O1    O1    O 0 1 N N N 44.790 66.795 -14.492 2.386  0.718  0.840  O1    BTP 2  
+BTP O2    O2    O 0 1 N Y N 46.643 67.781 -13.684 2.217  -1.382 0.178  O2    BTP 3  
+BTP C2    C2    C 0 1 N N S 47.206 65.926 -15.114 0.255  -0.238 1.147  C2    BTP 4  
+BTP C3    C3    C 0 1 N N N 48.081 65.410 -14.115 -0.496 0.834  0.357  C3    BTP 5  
+BTP "C1'" "C1'" C 0 1 Y N N 47.108 64.545 -13.390 -0.543 0.446  -1.097 "C1'" BTP 6  
+BTP "C2'" "C2'" C 0 1 Y N N 46.110 63.916 -14.182 -1.546 -0.384 -1.559 "C2'" BTP 7  
+BTP "C3'" "C3'" C 0 1 Y N N 45.119 63.242 -13.572 -1.589 -0.740 -2.894 "C3'" BTP 8  
+BTP "C4'" "C4'" C 0 1 Y N N 45.101 63.279 -12.117 -0.629 -0.264 -3.768 "C4'" BTP 9  
+BTP "C5'" "C5'" C 0 1 Y N N 46.145 63.745 -11.429 0.373  0.567  -3.306 "C5'" BTP 10 
+BTP "C6'" "C6'" C 0 1 Y N N 47.234 64.437 -12.025 0.413  0.926  -1.972 "C6'" BTP 11 
+BTP "C'"  C*    C 0 1 N N N 48.081 66.536 -16.246 0.180  0.081  2.641  "C'"  BTP 12 
+BTP "S'"  S*    S 0 1 N N N 47.452 66.797 -17.882 -1.539 -0.049 3.202  "S'"  BTP 13 
+BTP HO2   HO2   H 0 1 N N N 47.589 67.835 -13.624 3.142  -1.399 -0.101 HO2   BTP 14 
+BTP H2    H2    H 0 1 N N N 46.587 65.154 -15.628 -0.198 -1.212 0.961  H2    BTP 15 
+BTP H31   1H3   H 0 1 N N N 49.010 64.913 -14.478 -1.512 0.923  0.742  H31   BTP 16 
+BTP H32   2H3   H 0 1 N N N 48.629 66.161 -13.500 0.017  1.789  0.462  H32   BTP 17 
+BTP "H2'" "H2'" H 0 1 N N N 46.104 63.951 -15.284 -2.297 -0.756 -0.877 "H2'" BTP 18 
+BTP "H3'" "H3'" H 0 1 N N N 44.389 62.709 -14.205 -2.373 -1.390 -3.255 "H3'" BTP 19 
+BTP "H4'" "H4'" H 0 1 N N N 44.251 62.935 -11.503 -0.662 -0.543 -4.811 "H4'" BTP 20 
+BTP "H5'" "H5'" H 0 1 N N N 46.106 63.553 -10.343 1.123  0.938  -3.988 "H5'" BTP 21 
+BTP "H6'" "H6'" H 0 1 N N N 48.097 64.852 -11.478 1.197  1.576  -1.611 "H6'" BTP 22 
+BTP "H'1" 1H*   H 0 1 N N N 48.483 67.508 -15.877 0.798  -0.625 3.196  "H'1" BTP 23 
+BTP "H'2" 2H*   H 0 1 N N N 49.005 65.917 -16.331 0.542  1.094  2.814  "H'2" BTP 24 
+BTP "HS'" HS*   H 0 1 N N N 47.986 67.169 -18.573 -1.385 0.261  4.502  "HS'" BTP 25 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-BTP    C1    O1 DOUB N N  1
-BTP    C1    O2 SING N N  2
-BTP    C1    C2 SING N N  3
-BTP    O2   HO2 SING N N  4
-BTP    C2    C3 SING N N  5
-BTP    C2  "C'" SING N N  6
-BTP    C2    H2 SING N N  7
-BTP    C3 "C1'" SING N N  8
-BTP    C3   H31 SING N N  9
-BTP    C3   H32 SING N N 10
-BTP "C1'" "C2'" DOUB Y N 11
-BTP "C1'" "C6'" SING Y N 12
-BTP "C2'" "C3'" SING Y N 13
-BTP "C2'" "H2'" SING N N 14
-BTP "C3'" "C4'" DOUB Y N 15
-BTP "C3'" "H3'" SING N N 16
-BTP "C4'" "C5'" SING Y N 17
-BTP "C4'" "H4'" SING N N 18
-BTP "C5'" "C6'" DOUB Y N 19
-BTP "C5'" "H5'" SING N N 20
-BTP "C6'" "H6'" SING N N 21
-BTP  "C'"  "S'" SING N N 22
-BTP  "C'" "H'1" SING N N 23
-BTP  "C'" "H'2" SING N N 24
-BTP  "S'" "HS'" SING N N 25
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+BTP C1    O1    DOUB N N 1  
+BTP C1    O2    SING N N 2  
+BTP C1    C2    SING N N 3  
+BTP O2    HO2   SING N N 4  
+BTP C2    C3    SING N N 5  
+BTP C2    "C'"  SING N N 6  
+BTP C2    H2    SING N N 7  
+BTP C3    "C1'" SING N N 8  
+BTP C3    H31   SING N N 9  
+BTP C3    H32   SING N N 10 
+BTP "C1'" "C2'" DOUB Y N 11 
+BTP "C1'" "C6'" SING Y N 12 
+BTP "C2'" "C3'" SING Y N 13 
+BTP "C2'" "H2'" SING N N 14 
+BTP "C3'" "C4'" DOUB Y N 15 
+BTP "C3'" "H3'" SING N N 16 
+BTP "C4'" "C5'" SING Y N 17 
+BTP "C4'" "H4'" SING N N 18 
+BTP "C5'" "C6'" DOUB Y N 19 
+BTP "C5'" "H5'" SING N N 20 
+BTP "C6'" "H6'" SING N N 21 
+BTP "C'"  "S'"  SING N N 22 
+BTP "C'"  "H'1" SING N N 23 
+BTP "C'"  "H'2" SING N N 24 
+BTP "S'"  "HS'" SING N N 25 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-BTP           SMILES              ACDLabs 10.04                                                                     O=C(O)C(CS)Cc1ccccc1
-BTP SMILES_CANONICAL               CACTVS 3.341                                                                OC(=O)[C@@H](CS)Cc1ccccc1
-BTP           SMILES               CACTVS 3.341                                                                  OC(=O)[CH](CS)Cc1ccccc1
-BTP SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                               c1ccc(cc1)C[C@H](CS)C(=O)O
-BTP           SMILES "OpenEye OEToolkits" 1.5.0                                                                   c1ccc(cc1)CC(CS)C(=O)O
-BTP            InChI                InChI  1.03 InChI=1S/C10H12O2S/c11-10(12)9(7-13)6-8-4-2-1-3-5-8/h1-5,9,13H,6-7H2,(H,11,12)/t9-/m1/s1
-BTP         InChIKey                InChI  1.03                                                              ZUEBVBPVXLQMQR-SECBINFHSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+BTP SMILES           ACDLabs              10.04 "O=C(O)C(CS)Cc1ccccc1"                                                                     
+BTP SMILES_CANONICAL CACTVS               3.341 "OC(=O)[C@@H](CS)Cc1ccccc1"                                                                
+BTP SMILES           CACTVS               3.341 "OC(=O)[CH](CS)Cc1ccccc1"                                                                  
+BTP SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1ccc(cc1)C[C@H](CS)C(=O)O"                                                               
+BTP SMILES           "OpenEye OEToolkits" 1.5.0 "c1ccc(cc1)CC(CS)C(=O)O"                                                                   
+BTP InChI            InChI                1.03  "InChI=1S/C10H12O2S/c11-10(12)9(7-13)6-8-4-2-1-3-5-8/h1-5,9,13H,6-7H2,(H,11,12)/t9-/m1/s1" 
+BTP InChIKey         InChI                1.03  ZUEBVBPVXLQMQR-SECBINFHSA-N                                                                
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-BTP "SYSTEMATIC NAME"              ACDLabs 10.04          "(2S)-2-benzyl-3-sulfanylpropanoic acid"
-BTP "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-(phenylmethyl)-3-sulfanyl-propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+BTP "SYSTEMATIC NAME" ACDLabs              10.04 "(2S)-2-benzyl-3-sulfanylpropanoic acid"          
+BTP "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-(phenylmethyl)-3-sulfanyl-propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-BTP  "Create component" 1999-07-08 RCSB
-BTP "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   BTP
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02953
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "2-Thiomethyl-3-Phenylpropanoic Acid"
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           BTP
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02953
-_pdbe_chem_comp_drugbank_classification.parent            "Phenylpropanoic acids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Phenylpropanoic acids"
-_pdbe_chem_comp_drugbank_classification.superclass        "Phenylpropanoids and polyketides"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as phenylpropanoic acids. These are compounds with a structure containing a benzene ring conjugated to a propanoic acid."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        BTP
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02953
-_pdbe_chem_comp_drugbank_targets.name                           "Neutrophil collagenase"
-_pdbe_chem_comp_drugbank_targets.organism                       Humans
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     P22894
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-BTP    C1 C 5.598  2.535  1
-BTP    O1 O 6.897  3.285  2
-BTP    O2 O 4.299  3.285  3
-BTP    C2 C 5.598  1.035  4
-BTP    C3 C 4.299  0.285  5
-BTP "C1'" C 4.299 -1.215  6
-BTP "C2'" C 3.000 -1.965  7
-BTP "C3'" C 3.000 -3.465  8
-BTP "C4'" C 4.299 -4.215  9
-BTP "C5'" C 5.598 -3.465 10
-BTP "C6'" C 5.598 -1.965 11
-BTP  "C'" C 6.897  0.285 12
-BTP  "S'" S 8.196  1.035 13
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-BTP    C1    O1 DOUBLE       NONE  1
-BTP    C1    O2 SINGLE       NONE  2
-BTP    C1    C2 SINGLE       NONE  3
-BTP    C2    C3 SINGLE BEGINWEDGE  4
-BTP    C2  "C'" SINGLE       NONE  5
-BTP    C3 "C1'" SINGLE       NONE  6
-BTP "C1'" "C2'" DOUBLE       NONE  7
-BTP "C1'" "C6'" SINGLE       NONE  8
-BTP "C2'" "C3'" SINGLE       NONE  9
-BTP "C3'" "C4'" DOUBLE       NONE 10
-BTP "C4'" "C5'" SINGLE       NONE 11
-BTP "C5'" "C6'" DOUBLE       NONE 12
-BTP  "C'"  "S'" SINGLE       NONE 13
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-BTP MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-BTP         phenyl F1 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-BTP "C1'" F1 1
-BTP "C2'" F1 1
-BTP "C3'" F1 1
-BTP "C4'" F1 1
-BTP "C5'" F1 1
-BTP "C6'" F1 1
-BTP "C1'" S1 1
-BTP "C2'" S1 1
-BTP "C3'" S1 1
-BTP "C4'" S1 1
-BTP "C5'" S1 1
-BTP "C6'" S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               BTP
-_pdbe_chem_comp_rdkit_properties.exactmw                               196.056
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           2
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.300
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             99.629
-_pdbe_chem_comp_rdkit_properties.tpsa                                  37.300
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.805
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             54.859
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         13
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-BTP UniChem    ChEMBL CHEMBL90403
-BTP UniChem  DrugBank     DB02953
-BTP UniChem BindingDb    50281176
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-BTP    C1 -2.863  0.439  0.926 ETKDGv2  1
-BTP    O1 -3.358  1.558  0.625 ETKDGv2  2
-BTP    O2 -3.538 -0.381  1.827 ETKDGv2  3
-BTP    C2 -1.556 -0.002  0.311 ETKDGv2  4
-BTP    C3 -0.440  0.993  0.698 ETKDGv2  5
-BTP "C1'"  0.930  0.503  0.300 ETKDGv2  6
-BTP "C2'"  1.495 -0.545  0.928 ETKDGv2  7
-BTP "C3'"  2.839 -1.016  0.531 ETKDGv2  8
-BTP "C4'"  3.504 -0.398 -0.452 ETKDGv2  9
-BTP "C5'"  2.895  0.758 -1.142 ETKDGv2 10
-BTP "C6'"  1.678  1.187 -0.786 ETKDGv2 11
-BTP  "C'" -1.694 -0.131 -1.219 ETKDGv2 12
-BTP  "S'" -2.910 -1.410 -1.675 ETKDGv2 13
-BTP   HO2 -3.174 -1.288  2.090 ETKDGv2 14
-BTP    H2 -1.293 -1.001  0.722 ETKDGv2 15
-BTP   H31 -0.644  1.978  0.222 ETKDGv2 16
-BTP   H32 -0.448  1.159  1.798 ETKDGv2 17
-BTP "H2'"  0.977 -1.054  1.731 ETKDGv2 18
-BTP "H3'"  3.284 -1.862  1.039 ETKDGv2 19
-BTP "H4'"  4.488 -0.742 -0.743 ETKDGv2 20
-BTP "H5'"  3.436  1.256 -1.936 ETKDGv2 21
-BTP "H6'"  1.239  2.033 -1.300 ETKDGv2 22
-BTP "H'1" -0.720 -0.415 -1.671 ETKDGv2 23
-BTP "H'2" -2.008  0.839 -1.663 ETKDGv2 24
-BTP "HS'" -2.120 -2.457 -1.163 ETKDGv2 25
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+BTP "Create component"  1999-07-08 RCSB 
+BTP "Modify descriptor" 2011-06-04 RCSB 
+# 

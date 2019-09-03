@@ -1,277 +1,114 @@
 data_DSN
-#
-_chem_comp.id                                        DSN
-_chem_comp.name                                      D-SERINE
-_chem_comp.type                                      "D-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C3 H7 N O3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            105.093
-_chem_comp.one_letter_code                           S
-_chem_comp.three_letter_code                         DSN
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       Y
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1BFW
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    DSN 
+_chem_comp.name                                  D-SERINE 
+_chem_comp.type                                  "D-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C3 H7 N O3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        105.093 
+_chem_comp.one_letter_code                       S 
+_chem_comp.three_letter_code                     DSN 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1BFW 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-DSN   N   N N 0 1 N N N  2.939 10.455 -1.900 -0.787 -0.923  0.538   N DSN  1
-DSN  CA  CA C 0 1 N N R  2.468 11.798 -2.190 -0.469 -2.117 -0.207  CA DSN  2
-DSN   C   C C 0 1 N N N  1.876 11.853 -3.600 -1.299 -2.093 -1.474   C DSN  3
-DSN   O   O O 0 1 N N N  0.872 11.200 -3.881 -1.583 -1.087 -2.112   O DSN  4
-DSN OXT OXT O 0 1 N Y N      ?      ?      ? -1.749 -3.331 -1.808 OXT DSN  5
-DSN  CB  CB C 0 1 N N N  1.430 12.251 -1.161  1.014 -2.190 -0.542  CB DSN  6
-DSN  OG  OG O 0 1 N N N  1.463 11.453  0.019  1.271 -3.390 -1.262  OG DSN  7
-DSN   H   H H 0 1 N N N  3.333 10.418 -0.960 -1.409 -0.247  0.132   H DSN  8
-DSN  H2 HN2 H 0 1 N Y N  3.597 10.120 -2.604 -0.233 -0.692  1.345  H2 DSN  9
-DSN  HA  HA H 0 1 N N N  3.337 12.493 -2.132 -0.782 -2.950  0.431  HA DSN 10
-DSN HXT HXT H 0 1 N Y N -0.367  0.034 -0.875 -2.322 -3.366 -2.604 HXT DSN 11
-DSN HB2 1HB H 0 1 N N N  1.545 13.333 -0.920  1.622 -2.208  0.368 HB2 DSN 12
-DSN HB3 2HB H 0 1 N N N  0.406 12.276 -1.603  1.331 -1.339 -1.154 HB3 DSN 13
-DSN  HG HOG H 0 1 N N N  0.818 11.734  0.657  1.917 -3.168 -1.952  HG DSN 14
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+DSN N   N   N 0 1 N N N 2.939  10.455 -1.900 -0.787 -0.923 0.538  N   DSN 1  
+DSN CA  CA  C 0 1 N N R 2.468  11.798 -2.190 -0.469 -2.117 -0.207 CA  DSN 2  
+DSN C   C   C 0 1 N N N 1.876  11.853 -3.600 -1.299 -2.093 -1.474 C   DSN 3  
+DSN O   O   O 0 1 N N N 0.872  11.200 -3.881 -1.583 -1.087 -2.112 O   DSN 4  
+DSN OXT OXT O 0 1 N Y N ?      ?      ?      -1.749 -3.331 -1.808 OXT DSN 5  
+DSN CB  CB  C 0 1 N N N 1.430  12.251 -1.161 1.014  -2.190 -0.542 CB  DSN 6  
+DSN OG  OG  O 0 1 N N N 1.463  11.453 0.019  1.271  -3.390 -1.262 OG  DSN 7  
+DSN H   H   H 0 1 N N N 3.333  10.418 -0.960 -1.409 -0.247 0.132  H   DSN 8  
+DSN H2  HN2 H 0 1 N Y N 3.597  10.120 -2.604 -0.233 -0.692 1.345  H2  DSN 9  
+DSN HA  HA  H 0 1 N N N 3.337  12.493 -2.132 -0.782 -2.950 0.431  HA  DSN 10 
+DSN HXT HXT H 0 1 N Y N -0.367 0.034  -0.875 -2.322 -3.366 -2.604 HXT DSN 11 
+DSN HB2 1HB H 0 1 N N N 1.545  13.333 -0.920 1.622  -2.208 0.368  HB2 DSN 12 
+DSN HB3 2HB H 0 1 N N N 0.406  12.276 -1.603 1.331  -1.339 -1.154 HB3 DSN 13 
+DSN HG  HOG H 0 1 N N N 0.818  11.734 0.657  1.917  -3.168 -1.952 HG  DSN 14 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-DSN   N  CA SING N N  1
-DSN   N   H SING N N  2
-DSN   N  H2 SING N N  3
-DSN  CA   C SING N N  4
-DSN  CA  CB SING N N  5
-DSN  CA  HA SING N N  6
-DSN   C   O DOUB N N  7
-DSN   C OXT SING N N  8
-DSN OXT HXT SING N N  9
-DSN  CB  OG SING N N 10
-DSN  CB HB2 SING N N 11
-DSN  CB HB3 SING N N 12
-DSN  OG  HG SING N N 13
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+DSN N   CA  SING N N 1  
+DSN N   H   SING N N 2  
+DSN N   H2  SING N N 3  
+DSN CA  C   SING N N 4  
+DSN CA  CB  SING N N 5  
+DSN CA  HA  SING N N 6  
+DSN C   O   DOUB N N 7  
+DSN C   OXT SING N N 8  
+DSN OXT HXT SING N N 9  
+DSN CB  OG  SING N N 10 
+DSN CB  HB2 SING N N 11 
+DSN CB  HB3 SING N N 12 
+DSN OG  HG  SING N N 13 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-DSN           SMILES              ACDLabs 10.04                                                  O=C(O)C(N)CO
-DSN SMILES_CANONICAL               CACTVS 3.341                                              N[C@H](CO)C(O)=O
-DSN           SMILES               CACTVS 3.341                                               N[CH](CO)C(O)=O
-DSN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                            C([C@H](C(=O)O)N)O
-DSN           SMILES "OpenEye OEToolkits" 1.5.0                                                C(C(C(=O)O)N)O
-DSN            InChI                InChI  1.03 InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m1/s1
-DSN         InChIKey                InChI  1.03                                   MTCFGRXMJLQNBG-UWTATZPHSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+DSN SMILES           ACDLabs              10.04 "O=C(O)C(N)CO"                                                  
+DSN SMILES_CANONICAL CACTVS               3.341 "N[C@H](CO)C(O)=O"                                              
+DSN SMILES           CACTVS               3.341 "N[CH](CO)C(O)=O"                                               
+DSN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C([C@H](C(=O)O)N)O"                                            
+DSN SMILES           "OpenEye OEToolkits" 1.5.0 "C(C(C(=O)O)N)O"                                                
+DSN InChI            InChI                1.03  "InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m1/s1" 
+DSN InChIKey         InChI                1.03  MTCFGRXMJLQNBG-UWTATZPHSA-N                                     
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-DSN "SYSTEMATIC NAME"              ACDLabs 10.04                                D-serine
-DSN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-amino-3-hydroxy-propanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+DSN "SYSTEMATIC NAME" ACDLabs              10.04 D-serine                                
+DSN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R)-2-amino-3-hydroxy-propanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-DSN  "Create component" 1999-07-08 RCSB
-DSN "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   DSN
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03929
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      D-Serine
-_pdbe_chem_comp_drugbank_details.description               "A non-essential amino acid occurring in natural form as the L-isomer. It is synthesized from GLYCINE or THREONINE. It is involved in the biosynthesis of PURINES; PYRIMIDINES; and other amino acids. [PubChem]"
-_pdbe_chem_comp_drugbank_details.cas_number                312-84-5
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           DSN
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03929
-_pdbe_chem_comp_drugbank_classification.parent            "Serine and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as serine and derivatives. These are compounds containing serine or a derivative thereof resulting from reaction of serine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-DSN DB03929      "Glycine receptor subunit alpha-1"             Humans P23415 unknown 1
-DSN DB03929 "Glutamate receptor ionotropic, NMDA 1"             Humans Q05586 unknown 2
-DSN DB03929                             "Serpin B3"             Humans P29508 unknown 3
-DSN DB03929               "Head decoration protein" "Bacteriophage 21" P36275 unknown 4
-#
-_pdbx_chem_comp_synonyms.comp_id          DSN
-_pdbx_chem_comp_synonyms.name             D-Serine
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-DSN   N N 3.805  1.215 1
-DSN  CA C 5.104  0.465 2
-DSN   C C 6.404  1.215 3
-DSN   O O 7.702  0.465 4
-DSN OXT O 6.404  2.715 5
-DSN  CB C 5.104 -1.035 6
-DSN  OG O 6.404 -1.785 7
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-DSN  N  CA SINGLE BEGINWEDGE 1
-DSN CA   C SINGLE       NONE 2
-DSN CA  CB SINGLE       NONE 3
-DSN  C   O DOUBLE       NONE 4
-DSN  C OXT SINGLE       NONE 5
-DSN CB  OG SINGLE       NONE 6
-#
-_pdbe_chem_comp_substructure.comp_id                      DSN
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-DSN  O F1 1
-DSN  C F1 1
-DSN CA F1 1
-DSN  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               DSN
-_pdbe_chem_comp_rdkit_properties.exactmw                               105.043
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           4
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     4
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             50.683
-_pdbe_chem_comp_rdkit_properties.tpsa                                  83.550
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.609
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             22.697
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         7
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-DSN UniChem        ChEMBL     CHEMBL285123
-DSN UniChem      DrugBank          DB03929
-DSN UniChem "KEGG LIGAND"           C00740
-DSN UniChem         ChEBI            16523
-DSN UniChem         ChEBI            35247
-DSN UniChem          ZINC ZINC000000895342
-DSN UniChem          ZINC     ZINC00895342
-DSN UniChem     BindingDb            23167
-DSN UniChem  MetaboLights       MTBLC16523
-DSN UniChem  MetaboLights       MTBLC35247
-DSN UniChem        BRENDA              481
-DSN UniChem        BRENDA              972
-DSN UniChem          Rhea            35247
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DSN   N -0.898  1.049 -1.060 ETKDGv2  1
-DSN  CA  0.055  0.114 -0.452 ETKDGv2  2
-DSN   C  1.360  0.809 -0.154 ETKDGv2  3
-DSN   O  1.457  2.062 -0.246 ETKDGv2  4
-DSN OXT  2.480  0.070  0.218 ETKDGv2  5
-DSN  CB -0.522 -0.516  0.831 ETKDGv2  6
-DSN  OG -1.710 -1.207  0.556 ETKDGv2  7
-DSN   H -1.724  0.511 -1.410 ETKDGv2  8
-DSN  H2 -1.246  1.718 -0.333 ETKDGv2  9
-DSN  HA  0.268 -0.695 -1.185 ETKDGv2 10
-DSN HXT  2.449 -0.940  0.276 ETKDGv2 11
-DSN HB2 -0.738  0.280  1.576 ETKDGv2 12
-DSN HB3  0.218 -1.210  1.290 ETKDGv2 13
-DSN  HG -1.450 -2.046  0.093 ETKDGv2 14
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+DSN "Create component"  1999-07-08 RCSB 
+DSN "Modify descriptor" 2011-06-04 RCSB 
+# 

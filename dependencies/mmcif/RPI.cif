@@ -1,309 +1,147 @@
 data_RPI
-#
-_chem_comp.id                                        RPI
-_chem_comp.name                                      phospho-arginine
-_chem_comp.type                                      "L-peptide linking"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C6 H15 N4 O5 P"
-_chem_comp.mon_nstd_parent_comp_id                   ARG
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2016-01-02
-_chem_comp.pdbx_modified_date                        2016-10-07
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            254.181
-_chem_comp.one_letter_code                           R
-_chem_comp.three_letter_code                         RPI
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            5HBN
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    RPI 
+_chem_comp.name                                  phospho-arginine 
+_chem_comp.type                                  "L-peptide linking" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C6 H15 N4 O5 P" 
+_chem_comp.mon_nstd_parent_comp_id               ARG 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2016-01-02 
+_chem_comp.pdbx_modified_date                    2016-10-07 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        254.181 
+_chem_comp.one_letter_code                       R 
+_chem_comp.three_letter_code                     RPI 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5HBN 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-RPI   P  P1 P 0 1 N N N 22.184 27.498  8.357 -4.405 -0.075 -0.064   P RPI  1
-RPI   N  N1 N 0 1 N N N 25.496 26.248 15.174  4.470 -1.803  0.153   N RPI  2
-RPI  CA  C1 C 0 1 N N S 25.428 27.428 14.360  4.399 -0.449 -0.413  CA RPI  3
-RPI  CB  C2 C 0 1 N N N 24.628 27.152 13.104  3.151  0.260  0.115  CB RPI  4
-RPI  CG  C3 C 0 1 N N N 25.423 26.301 12.144  1.901 -0.458 -0.398  CG RPI  5
-RPI  CD  C4 C 0 1 N N N 25.846 27.139 10.961  0.652  0.250  0.130  CD RPI  6
-RPI  NE  N2 N 0 1 N N N 24.723 27.287 10.118 -0.544 -0.438 -0.362  NE RPI  7
-RPI  CZ  C5 C 0 1 N N N 24.909 27.203  8.739 -1.793  0.022 -0.016  CZ RPI  8
-RPI NH1  N3 N 0 1 N N N 26.095 26.994  8.232 -1.912  1.070  0.750 NH1 RPI  9
-RPI NH2  N4 N 0 1 N N N 23.758 27.363  7.890 -2.915 -0.623 -0.477 NH2 RPI 10
-RPI O1P  O1 O 0 1 N N N 21.571 26.157  8.052 -4.584  1.437 -0.586 O1P RPI 11
-RPI O2P  O2 O 0 1 N N N 21.592 28.544  7.457 -5.437 -0.936 -0.683 O2P RPI 12
-RPI O3P  O3 O 0 1 N N N 22.033 27.820  9.814 -4.565 -0.112  1.538 O3P RPI 13
-RPI   C  C6 C 0 1 N N N 24.844 28.624 15.093  5.626  0.328 -0.010   C RPI 14
-RPI   O  O4 O 0 1 N N N 23.736 29.142 14.750  6.282 -0.028  0.940   O RPI 15
-RPI OXT  O5 O 0 1 N Y N 25.506 29.138 16.028  5.990  1.417 -0.706 OXT RPI 16
-RPI  H1  H1 H 0 1 N N N 26.026 26.442 16.000  5.251 -2.314 -0.230  H1 RPI 17
-RPI  H2  H2 H 0 1 N N N 24.571 25.966 15.430  4.517 -1.772  1.160  H2 RPI 18
-RPI  H4  H4 H 0 1 N N N 26.448 27.697 14.050  4.350 -0.511 -1.500  H4 RPI 19
-RPI  H5  H5 H 0 1 N N N 24.377 28.106 12.618  3.157  0.244  1.205  H5 RPI 20
-RPI  H6  H6 H 0 1 N N N 23.702 26.623 13.374  3.144  1.293 -0.233  H6 RPI 21
-RPI  H7  H7 H 0 1 N N N 24.802 25.463 11.796  1.895 -0.442 -1.488  H7 RPI 22
-RPI  H8  H8 H 0 1 N N N 26.316 25.909 12.654  1.907 -1.491 -0.050  H8 RPI 23
-RPI  H9  H9 H 0 1 N N N 26.659 26.636 10.417  0.659  0.234  1.219  H9 RPI 24
-RPI H10 H10 H 0 1 N N N 26.190 28.126 11.304  0.646  1.283 -0.219 H10 RPI 25
-RPI H11 H11 H 0 1 N N N 23.814 27.449 10.502 -0.456 -1.218 -0.932 H11 RPI 26
-RPI H12 H12 H 0 1 N N N 26.796 26.910  8.940 -1.120  1.526  1.075 H12 RPI 27
-RPI H14 H14 H 0 1 N N N 23.933 27.396  6.906 -2.827 -1.403 -1.047 H14 RPI 28
-RPI H15 H15 H 0 1 N N N 20.936 26.251  7.352 -3.939  2.059 -0.221 H15 RPI 29
-RPI H16 H16 H 0 1 N N N 21.579 28.649  9.910 -5.424  0.199  1.854 H16 RPI 30
-RPI H17 H17 H 0 1 N N N 25.043 29.896 16.365  6.784  1.882 -0.410 H17 RPI 31
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+RPI P   P1  P 0 1 N N N 22.184 27.498 8.357  -4.405 -0.075 -0.064 P   RPI 1  
+RPI N   N1  N 0 1 N N N 25.496 26.248 15.174 4.470  -1.803 0.153  N   RPI 2  
+RPI CA  C1  C 0 1 N N S 25.428 27.428 14.360 4.399  -0.449 -0.413 CA  RPI 3  
+RPI CB  C2  C 0 1 N N N 24.628 27.152 13.104 3.151  0.260  0.115  CB  RPI 4  
+RPI CG  C3  C 0 1 N N N 25.423 26.301 12.144 1.901  -0.458 -0.398 CG  RPI 5  
+RPI CD  C4  C 0 1 N N N 25.846 27.139 10.961 0.652  0.250  0.130  CD  RPI 6  
+RPI NE  N2  N 0 1 N N N 24.723 27.287 10.118 -0.544 -0.438 -0.362 NE  RPI 7  
+RPI CZ  C5  C 0 1 N N N 24.909 27.203 8.739  -1.793 0.022  -0.016 CZ  RPI 8  
+RPI NH1 N3  N 0 1 N N N 26.095 26.994 8.232  -1.912 1.070  0.750  NH1 RPI 9  
+RPI NH2 N4  N 0 1 N N N 23.758 27.363 7.890  -2.915 -0.623 -0.477 NH2 RPI 10 
+RPI O1P O1  O 0 1 N N N 21.571 26.157 8.052  -4.584 1.437  -0.586 O1P RPI 11 
+RPI O2P O2  O 0 1 N N N 21.592 28.544 7.457  -5.437 -0.936 -0.683 O2P RPI 12 
+RPI O3P O3  O 0 1 N N N 22.033 27.820 9.814  -4.565 -0.112 1.538  O3P RPI 13 
+RPI C   C6  C 0 1 N N N 24.844 28.624 15.093 5.626  0.328  -0.010 C   RPI 14 
+RPI O   O4  O 0 1 N N N 23.736 29.142 14.750 6.282  -0.028 0.940  O   RPI 15 
+RPI OXT O5  O 0 1 N Y N 25.506 29.138 16.028 5.990  1.417  -0.706 OXT RPI 16 
+RPI H1  H1  H 0 1 N N N 26.026 26.442 16.000 5.251  -2.314 -0.230 H1  RPI 17 
+RPI H2  H2  H 0 1 N N N 24.571 25.966 15.430 4.517  -1.772 1.160  H2  RPI 18 
+RPI H4  H4  H 0 1 N N N 26.448 27.697 14.050 4.350  -0.511 -1.500 H4  RPI 19 
+RPI H5  H5  H 0 1 N N N 24.377 28.106 12.618 3.157  0.244  1.205  H5  RPI 20 
+RPI H6  H6  H 0 1 N N N 23.702 26.623 13.374 3.144  1.293  -0.233 H6  RPI 21 
+RPI H7  H7  H 0 1 N N N 24.802 25.463 11.796 1.895  -0.442 -1.488 H7  RPI 22 
+RPI H8  H8  H 0 1 N N N 26.316 25.909 12.654 1.907  -1.491 -0.050 H8  RPI 23 
+RPI H9  H9  H 0 1 N N N 26.659 26.636 10.417 0.659  0.234  1.219  H9  RPI 24 
+RPI H10 H10 H 0 1 N N N 26.190 28.126 11.304 0.646  1.283  -0.219 H10 RPI 25 
+RPI H11 H11 H 0 1 N N N 23.814 27.449 10.502 -0.456 -1.218 -0.932 H11 RPI 26 
+RPI H12 H12 H 0 1 N N N 26.796 26.910 8.940  -1.120 1.526  1.075  H12 RPI 27 
+RPI H14 H14 H 0 1 N N N 23.933 27.396 6.906  -2.827 -1.403 -1.047 H14 RPI 28 
+RPI H15 H15 H 0 1 N N N 20.936 26.251 7.352  -3.939 2.059  -0.221 H15 RPI 29 
+RPI H16 H16 H 0 1 N N N 21.579 28.649 9.910  -5.424 0.199  1.854  H16 RPI 30 
+RPI H17 H17 H 0 1 N N N 25.043 29.896 16.365 6.784  1.882  -0.410 H17 RPI 31 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-RPI O2P   P DOUB N N  1
-RPI NH2   P SING N N  2
-RPI NH2  CZ SING N N  3
-RPI O1P   P SING N N  4
-RPI NH1  CZ DOUB N N  5
-RPI   P O3P SING N N  6
-RPI  CZ  NE SING N N  7
-RPI  NE  CD SING N N  8
-RPI  CD  CG SING N N  9
-RPI  CG  CB SING N N 10
-RPI  CB  CA SING N N 11
-RPI  CA   C SING N N 12
-RPI  CA   N SING N N 13
-RPI   O   C DOUB N N 14
-RPI   C OXT SING N N 15
-RPI   N  H1 SING N N 16
-RPI   N  H2 SING N N 17
-RPI  CA  H4 SING N N 18
-RPI  CB  H5 SING N N 19
-RPI  CB  H6 SING N N 20
-RPI  CG  H7 SING N N 21
-RPI  CG  H8 SING N N 22
-RPI  CD  H9 SING N N 23
-RPI  CD H10 SING N N 24
-RPI  NE H11 SING N N 25
-RPI NH1 H12 SING N N 26
-RPI NH2 H14 SING N N 27
-RPI O1P H15 SING N N 28
-RPI O3P H16 SING N N 29
-RPI OXT H17 SING N N 30
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+RPI O2P P   DOUB N N 1  
+RPI NH2 P   SING N N 2  
+RPI NH2 CZ  SING N N 3  
+RPI O1P P   SING N N 4  
+RPI NH1 CZ  DOUB N N 5  
+RPI P   O3P SING N N 6  
+RPI CZ  NE  SING N N 7  
+RPI NE  CD  SING N N 8  
+RPI CD  CG  SING N N 9  
+RPI CG  CB  SING N N 10 
+RPI CB  CA  SING N N 11 
+RPI CA  C   SING N N 12 
+RPI CA  N   SING N N 13 
+RPI O   C   DOUB N N 14 
+RPI C   OXT SING N N 15 
+RPI N   H1  SING N N 16 
+RPI N   H2  SING N N 17 
+RPI CA  H4  SING N N 18 
+RPI CB  H5  SING N N 19 
+RPI CB  H6  SING N N 20 
+RPI CG  H7  SING N N 21 
+RPI CG  H8  SING N N 22 
+RPI CD  H9  SING N N 23 
+RPI CD  H10 SING N N 24 
+RPI NE  H11 SING N N 25 
+RPI NH1 H12 SING N N 26 
+RPI NH2 H14 SING N N 27 
+RPI O1P H15 SING N N 28 
+RPI O3P H16 SING N N 29 
+RPI OXT H17 SING N N 30 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-RPI            InChI                InChI  1.03 InChI=1S/C6H15N4O5P/c7-4(5(11)12)2-1-3-9-6(8)10-16(13,14)15/h4H,1-3,7H2,(H,11,12)(H5,8,9,10,13,14,15)/t4-/m0/s1
-RPI         InChIKey                InChI  1.03                                                                                     CCTIOCVIZPCTGO-BYPYZUCNSA-N
-RPI SMILES_CANONICAL               CACTVS 3.385                                                                            N[C@@H](CCCNC(=N)N[P](O)(O)=O)C(O)=O
-RPI           SMILES               CACTVS 3.385                                                                              N[CH](CCCNC(=N)N[P](O)(O)=O)C(O)=O
-RPI SMILES_CANONICAL "OpenEye OEToolkits" 2.0.4                                                                      "[H]/N=C(/NCCC[C@@H](C(=O)O)N)\NP(=O)(O)O"
-RPI           SMILES "OpenEye OEToolkits" 2.0.4                                                                                 C(CC(C(=O)O)N)CNC(=N)NP(=O)(O)O
-#
-_pdbx_chem_comp_identifier.comp_id               RPI
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.4
-_pdbx_chem_comp_identifier.identifier            "(2~{S})-2-azanyl-5-[(~{N}-phosphonocarbamimidoyl)amino]pentanoic acid"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+RPI InChI            InChI                1.03  "InChI=1S/C6H15N4O5P/c7-4(5(11)12)2-1-3-9-6(8)10-16(13,14)15/h4H,1-3,7H2,(H,11,12)(H5,8,9,10,13,14,15)/t4-/m0/s1" 
+RPI InChIKey         InChI                1.03  CCTIOCVIZPCTGO-BYPYZUCNSA-N                                                                                       
+RPI SMILES_CANONICAL CACTVS               3.385 "N[C@@H](CCCNC(=N)N[P](O)(O)=O)C(O)=O"                                                                            
+RPI SMILES           CACTVS               3.385 "N[CH](CCCNC(=N)N[P](O)(O)=O)C(O)=O"                                                                              
+RPI SMILES_CANONICAL "OpenEye OEToolkits" 2.0.4 "[H]/N=C(/NCCC[C@@H](C(=O)O)N)\NP(=O)(O)O"                                                                        
+RPI SMILES           "OpenEye OEToolkits" 2.0.4 "C(CC(C(=O)O)N)CNC(=N)NP(=O)(O)O"                                                                                 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-RPI "Create component" 2016-01-02  EBI
-RPI      "Modify name" 2016-01-02  EBI
-RPI  "Initial release" 2016-10-12 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+RPI "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.4 "(2~{S})-2-azanyl-5-[(~{N}-phosphonocarbamimidoyl)amino]pentanoic acid" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-RPI   P P  5.104  3.518  1
-RPI   N N  9.002 -3.232  2
-RPI  CA C 10.301 -2.482  3
-RPI  CB C 10.301 -0.983  4
-RPI  CG C  9.002 -0.233  5
-RPI  CD C  9.002  1.268  6
-RPI  NE N  7.702  2.018  7
-RPI  CZ C  7.702  3.518  8
-RPI NH1 N  9.002  4.268  9
-RPI NH2 N  6.404  4.268 10
-RPI O1P O  3.805  2.768 11
-RPI O2P O  4.354  4.816 12
-RPI O3P O  5.854  2.219 13
-RPI   C C 11.600 -3.232 14
-RPI   O O 11.600 -4.732 15
-RPI OXT O 12.899 -2.482 16
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-RPI O2P   P DOUBLE      NONE  1
-RPI NH2   P SINGLE      NONE  2
-RPI NH2  CZ SINGLE      NONE  3
-RPI O1P   P SINGLE      NONE  4
-RPI NH1  CZ DOUBLE      NONE  5
-RPI   P O3P SINGLE      NONE  6
-RPI  CZ  NE SINGLE      NONE  7
-RPI  NE  CD SINGLE      NONE  8
-RPI  CD  CG SINGLE      NONE  9
-RPI  CG  CB SINGLE      NONE 10
-RPI  CB  CA SINGLE      NONE 11
-RPI  CA   C SINGLE      NONE 12
-RPI  CA   N SINGLE BEGINDASH 13
-RPI   O   C DOUBLE      NONE 14
-RPI   C OXT SINGLE      NONE 15
-#
-_pdbe_chem_comp_substructure.comp_id                      RPI
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-RPI  O F1 1
-RPI  C F1 1
-RPI CA F1 1
-RPI  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               RPI
-_pdbe_chem_comp_rdkit_properties.exactmw                               254.078
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           9
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           8
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     9
-_pdbe_chem_comp_rdkit_properties.NumHBD                                7
-_pdbe_chem_comp_rdkit_properties.NumHBA                                7
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        10
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.667
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             113.377
-_pdbe_chem_comp_rdkit_properties.tpsa                                  168.760
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.615
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             55.754
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         16
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-RPI UniChem "KEGG LIGAND"           C05945
-RPI UniChem         ChEBI            18412
-RPI UniChem          ZINC ZINC000001530092
-RPI UniChem  MetaboLights       MTBLC18412
-RPI UniChem        BRENDA            10583
-RPI UniChem        BRENDA           114013
-RPI UniChem        BRENDA           128935
-RPI UniChem        BRENDA           197747
-RPI UniChem        BRENDA            37939
-RPI UniChem        BRENDA             4034
-RPI UniChem        BRENDA            40791
-RPI UniChem        BRENDA             4669
-RPI UniChem        BRENDA            69588
-RPI UniChem        BRENDA            94766
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-RPI   P  5.150  0.114  0.695 ETKDGv2  1
-RPI   N -3.442  0.850  1.201 ETKDGv2  2
-RPI  CA -3.237 -0.377  0.425 ETKDGv2  3
-RPI  CB -2.587 -0.051 -0.936 ETKDGv2  4
-RPI  CG -1.249  0.701 -0.822 ETKDGv2  5
-RPI  CD -0.129 -0.161 -0.221 ETKDGv2  6
-RPI  NE  1.154  0.541 -0.275 ETKDGv2  7
-RPI  CZ  2.365 -0.051  0.218 ETKDGv2  8
-RPI NH1  2.334 -1.246  0.726 ETKDGv2  9
-RPI NH2  3.590  0.699  0.135 ETKDGv2 10
-RPI O1P  6.333  1.285  0.392 ETKDGv2 11
-RPI O2P  5.087 -0.159  2.181 ETKDGv2 12
-RPI O3P  5.554 -1.310 -0.125 ETKDGv2 13
-RPI   C -4.535 -1.121  0.217 ETKDGv2 14
-RPI   O -4.521 -2.260 -0.323 ETKDGv2 15
-RPI OXT -5.748 -0.569  0.622 ETKDGv2 16
-RPI  H1 -3.843  0.600  2.134 ETKDGv2 17
-RPI  H2 -4.132  1.466  0.710 ETKDGv2 18
-RPI  H4 -2.564 -1.048  1.000 ETKDGv2 19
-RPI  H5 -2.424 -0.991 -1.508 ETKDGv2 20
-RPI  H6 -3.288  0.576 -1.529 ETKDGv2 21
-RPI  H7 -0.944  1.010 -1.847 ETKDGv2 22
-RPI  H8 -1.375  1.626 -0.220 ETKDGv2 23
-RPI  H9 -0.047 -1.112 -0.791 ETKDGv2 24
-RPI H10 -0.363 -0.394  0.839 ETKDGv2 25
-RPI H11  1.202  1.505 -0.678 ETKDGv2 26
-RPI H12  3.169 -1.741  1.103 ETKDGv2 27
-RPI H14  3.564  1.654 -0.288 ETKDGv2 28
-RPI H15  6.017  2.094  0.868 ETKDGv2 29
-RPI H16  5.530 -1.063 -1.083 ETKDGv2 30
-RPI H17 -6.618 -1.068  0.485 ETKDGv2 31
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+RPI "Create component" 2016-01-02 EBI  
+RPI "Modify name"      2016-01-02 EBI  
+RPI "Initial release"  2016-10-12 RCSB 
+# 

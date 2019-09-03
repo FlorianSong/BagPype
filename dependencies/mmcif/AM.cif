@@ -121,11 +121,13 @@ _pdbe_chem_comp_rdkit_properties.CrippenMR                             0
 _pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         1
 
 #
-_pdbe_chem_comp_external_mappings.comp_id           AM
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ChEBI
-_pdbe_chem_comp_external_mappings.resource_id       33389
-
+loop_
+_pdbe_chem_comp_external_mappings.comp_id           
+_pdbe_chem_comp_external_mappings.source            
+_pdbe_chem_comp_external_mappings.resource          
+_pdbe_chem_comp_external_mappings.resource_id       
+AM UniChem ChEBI 33389
+AM UniChem     P 23966
 #
 _pdbe_chem_comp_rdkit_conformer.comp_id             AM
 _pdbe_chem_comp_rdkit_conformer.atom_id             AM

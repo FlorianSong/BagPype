@@ -1,349 +1,178 @@
 data_KEO
-#
-_chem_comp.id                                        KEO
-_chem_comp.name                                      e(R)-beta-lysyl-hydroxylysine
-_chem_comp.type                                      "L-peptide linking"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C12 H26 N4 O4"
-_chem_comp.mon_nstd_parent_comp_id                   LYS
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2017-10-05
-_chem_comp.pdbx_modified_date                        2017-11-17
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            290.359
-_chem_comp.one_letter_code                           K
-_chem_comp.three_letter_code                         KEO
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6ENU
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    KEO 
+_chem_comp.name                                  "e(R)-beta-lysyl-hydroxylysine" 
+_chem_comp.type                                  "L-peptide linking" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C12 H26 N4 O4" 
+_chem_comp.mon_nstd_parent_comp_id               LYS 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-10-05 
+_chem_comp.pdbx_modified_date                    2017-11-17 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        290.359 
+_chem_comp.one_letter_code                       K 
+_chem_comp.three_letter_code                     KEO 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6ENU 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-KEO  CA  C1 C 0 1 N N S 177.342 201.288 197.779   5.545 -0.123 -0.457  CA KEO  1
-KEO   N  N1 N 0 1 N N N 177.359 200.335 198.885   5.725 -1.520 -0.038   N KEO  2
-KEO   C  C2 C 0 1 N N N 177.114 200.666 196.404   6.760  0.679 -0.067   C KEO  3
-KEO   O  O1 O 0 1 N N N 177.365 201.291 195.435   7.504  0.269  0.792   O KEO  4
-KEO  CB  C3 C 0 1 N N N 178.575 202.179 197.746   4.308  0.459  0.230 C01 KEO  5
-KEO  CG  C4 C 0 1 N N S 178.270 203.596 198.184   3.059 -0.275 -0.262 C02 KEO  6
-KEO  CD  C5 C 0 1 N N N 179.478 204.105 198.934   1.812  0.388  0.329 C03 KEO  7
-KEO  CE  C6 C 0 1 N N N 179.399 205.611 199.039   0.560 -0.266 -0.260 C04 KEO  8
-KEO C05  C7 C 0 1 N N N 179.267 207.665 197.674  -1.859 -0.047 -0.070 C05 KEO  9
-KEO C06  C8 C 0 1 N N N 179.417 208.484 198.947  -3.087  0.605  0.511 C06 KEO 10
-KEO C07  C9 C 0 1 N N S 180.417 209.594 198.711  -4.339 -0.048 -0.077 C07 KEO 11
-KEO C08 C10 C 0 1 N N N 179.652 210.898 198.574  -5.582  0.695  0.416 C08 KEO 12
-KEO C09 C11 C 0 1 N N N 179.400 211.506 199.941  -6.824  0.122 -0.268 C09 KEO 13
-KEO C10 C12 C 0 1 N N N 180.701 211.819 200.664  -8.067  0.865  0.225 C10 KEO 14
-KEO  NZ  N2 N 0 1 N N N 179.259 206.221 197.740  -0.633  0.369  0.305 N01 KEO 15
-KEO N02  N3 N 0 1 N N N 181.107 209.319 197.471  -4.406 -1.452  0.351 N02 KEO 16
-KEO N03  N4 N 0 1 N N N 180.551 211.581 202.082  -9.260  0.314 -0.432 N03 KEO 17
-KEO O01  O2 O 0 1 N N N 177.181 203.601 199.059   3.114 -1.641  0.154 O01 KEO 18
-KEO O02  O3 O 0 1 N N N 179.169 208.216 196.634  -1.974 -0.947 -0.876 O02 KEO 19
-KEO OXT  O4 O 0 1 N Y N 176.624 199.435 196.363   7.015  1.849 -0.674  O1 KEO 20
-KEO  H1  H1 H 0 1 N N N 176.488 201.959 197.953   5.414 -0.082 -1.538  H1 KEO 21
-KEO  H2  H2 H 0 1 N N N 177.513 200.823 199.744   5.849 -1.585  0.961  H2 KEO 22
-KEO  H3  H3 H 0 1 N N N 176.482 199.857 198.926   4.952 -2.092 -0.345  H3 KEO 23
-KEO  H5  H5 H 0 1 N N N 179.335 201.756 198.419   4.400  0.337  1.309  H5 KEO 24
-KEO  H6  H6 H 0 1 N N N 178.967 202.203 196.719   4.224  1.519 -0.010  H6 KEO 25
-KEO  H7  H7 H 0 1 N N N 178.084 204.227 197.303   3.014 -0.228 -1.350  H7 KEO 26
-KEO  H8  H8 H 0 1 N N N 179.497 203.666 199.943   1.812  0.263  1.411  H8 KEO 27
-KEO  H9  H9 H 0 1 N N N 180.393 203.821 198.394   1.816  1.450  0.085  H9 KEO 28
-KEO H10 H10 H 0 1 N N N 180.318 205.986 199.513   0.560 -0.141 -1.343 H10 KEO 29
-KEO H11 H11 H 0 1 N N N 178.531 205.882 199.657   0.557 -1.328 -0.016 H11 KEO 30
-KEO H12 H12 H 0 1 N N N 178.444 208.918 199.222  -3.087  0.481  1.594 H12 KEO 31
-KEO H13 H13 H 0 1 N N N 179.773 207.836 199.761  -3.083  1.668  0.268 H13 KEO 32
-KEO H14 H14 H 0 1 N N N 181.122 209.655 199.553  -4.296 -0.002 -1.165 H14 KEO 33
-KEO H15 H15 H 0 1 N N N 180.240 211.602 197.967  -5.673  0.573  1.496 H15 KEO 34
-KEO H16 H16 H 0 1 N N N 178.689 210.703 198.080  -5.491  1.754  0.176 H16 KEO 35
-KEO H17 H17 H 0 1 N N N 178.828 212.437 199.817  -6.733  0.243 -1.348 H17 KEO 36
-KEO H18 H18 H 0 1 N N N 178.818 210.795 200.546  -6.915 -0.938 -0.028 H18 KEO 37
-KEO H19 H19 H 0 1 N N N 181.501 211.175 200.270  -8.159  0.743  1.304 H19 KEO 38
-KEO H20 H20 H 0 1 N N N 180.965 212.874 200.498  -7.977  1.924 -0.015 H20 KEO 39
-KEO H21 H21 H 0 1 N N N 179.160 205.665 196.915  -0.541  1.088  0.949 H21 KEO 40
-KEO H22 H22 H 0 1 N N N 181.613 208.461 197.554  -4.446 -1.522  1.357 H22 KEO 41
-KEO H23 H23 H 0 1 N N N 180.441 209.242 196.729  -5.189 -1.923 -0.076 H23 KEO 42
-KEO H25 H25 H 0 1 N N N 181.411 211.789 202.548  -9.331 -0.680 -0.278 H25 KEO 43
-KEO H26 H26 H 0 1 N N N 179.826 212.167 202.443 -10.095  0.789 -0.123 H26 KEO 44
-KEO H28 H28 H 0 1 N N N 176.996 204.493 199.329   3.155 -1.758  1.113 H28 KEO 45
-KEO H29 H29 H 0 1 N N N 176.519 199.166 195.458   7.806  2.327 -0.390 H29 KEO 46
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+KEO CA  C1  C 0 1 N N S 177.342 201.288 197.779 5.545   -0.123 -0.457 CA  KEO 1  
+KEO N   N1  N 0 1 N N N 177.359 200.335 198.885 5.725   -1.520 -0.038 N   KEO 2  
+KEO C   C2  C 0 1 N N N 177.114 200.666 196.404 6.760   0.679  -0.067 C   KEO 3  
+KEO O   O1  O 0 1 N N N 177.365 201.291 195.435 7.504   0.269  0.792  O   KEO 4  
+KEO CB  C3  C 0 1 N N N 178.575 202.179 197.746 4.308   0.459  0.230  C01 KEO 5  
+KEO CG  C4  C 0 1 N N S 178.270 203.596 198.184 3.059   -0.275 -0.262 C02 KEO 6  
+KEO CD  C5  C 0 1 N N N 179.478 204.105 198.934 1.812   0.388  0.329  C03 KEO 7  
+KEO CE  C6  C 0 1 N N N 179.399 205.611 199.039 0.560   -0.266 -0.260 C04 KEO 8  
+KEO C05 C7  C 0 1 N N N 179.267 207.665 197.674 -1.859  -0.047 -0.070 C05 KEO 9  
+KEO C06 C8  C 0 1 N N N 179.417 208.484 198.947 -3.087  0.605  0.511  C06 KEO 10 
+KEO C07 C9  C 0 1 N N S 180.417 209.594 198.711 -4.339  -0.048 -0.077 C07 KEO 11 
+KEO C08 C10 C 0 1 N N N 179.652 210.898 198.574 -5.582  0.695  0.416  C08 KEO 12 
+KEO C09 C11 C 0 1 N N N 179.400 211.506 199.941 -6.824  0.122  -0.268 C09 KEO 13 
+KEO C10 C12 C 0 1 N N N 180.701 211.819 200.664 -8.067  0.865  0.225  C10 KEO 14 
+KEO NZ  N2  N 0 1 N N N 179.259 206.221 197.740 -0.633  0.369  0.305  N01 KEO 15 
+KEO N02 N3  N 0 1 N N N 181.107 209.319 197.471 -4.406  -1.452 0.351  N02 KEO 16 
+KEO N03 N4  N 0 1 N N N 180.551 211.581 202.082 -9.260  0.314  -0.432 N03 KEO 17 
+KEO O01 O2  O 0 1 N N N 177.181 203.601 199.059 3.114   -1.641 0.154  O01 KEO 18 
+KEO O02 O3  O 0 1 N N N 179.169 208.216 196.634 -1.974  -0.947 -0.876 O02 KEO 19 
+KEO OXT O4  O 0 1 N Y N 176.624 199.435 196.363 7.015   1.849  -0.674 O1  KEO 20 
+KEO H1  H1  H 0 1 N N N 176.488 201.959 197.953 5.414   -0.082 -1.538 H1  KEO 21 
+KEO H2  H2  H 0 1 N N N 177.513 200.823 199.744 5.849   -1.585 0.961  H2  KEO 22 
+KEO H3  H3  H 0 1 N N N 176.482 199.857 198.926 4.952   -2.092 -0.345 H3  KEO 23 
+KEO H5  H5  H 0 1 N N N 179.335 201.756 198.419 4.400   0.337  1.309  H5  KEO 24 
+KEO H6  H6  H 0 1 N N N 178.967 202.203 196.719 4.224   1.519  -0.010 H6  KEO 25 
+KEO H7  H7  H 0 1 N N N 178.084 204.227 197.303 3.014   -0.228 -1.350 H7  KEO 26 
+KEO H8  H8  H 0 1 N N N 179.497 203.666 199.943 1.812   0.263  1.411  H8  KEO 27 
+KEO H9  H9  H 0 1 N N N 180.393 203.821 198.394 1.816   1.450  0.085  H9  KEO 28 
+KEO H10 H10 H 0 1 N N N 180.318 205.986 199.513 0.560   -0.141 -1.343 H10 KEO 29 
+KEO H11 H11 H 0 1 N N N 178.531 205.882 199.657 0.557   -1.328 -0.016 H11 KEO 30 
+KEO H12 H12 H 0 1 N N N 178.444 208.918 199.222 -3.087  0.481  1.594  H12 KEO 31 
+KEO H13 H13 H 0 1 N N N 179.773 207.836 199.761 -3.083  1.668  0.268  H13 KEO 32 
+KEO H14 H14 H 0 1 N N N 181.122 209.655 199.553 -4.296  -0.002 -1.165 H14 KEO 33 
+KEO H15 H15 H 0 1 N N N 180.240 211.602 197.967 -5.673  0.573  1.496  H15 KEO 34 
+KEO H16 H16 H 0 1 N N N 178.689 210.703 198.080 -5.491  1.754  0.176  H16 KEO 35 
+KEO H17 H17 H 0 1 N N N 178.828 212.437 199.817 -6.733  0.243  -1.348 H17 KEO 36 
+KEO H18 H18 H 0 1 N N N 178.818 210.795 200.546 -6.915  -0.938 -0.028 H18 KEO 37 
+KEO H19 H19 H 0 1 N N N 181.501 211.175 200.270 -8.159  0.743  1.304  H19 KEO 38 
+KEO H20 H20 H 0 1 N N N 180.965 212.874 200.498 -7.977  1.924  -0.015 H20 KEO 39 
+KEO H21 H21 H 0 1 N N N 179.160 205.665 196.915 -0.541  1.088  0.949  H21 KEO 40 
+KEO H22 H22 H 0 1 N N N 181.613 208.461 197.554 -4.446  -1.522 1.357  H22 KEO 41 
+KEO H23 H23 H 0 1 N N N 180.441 209.242 196.729 -5.189  -1.923 -0.076 H23 KEO 42 
+KEO H25 H25 H 0 1 N N N 181.411 211.789 202.548 -9.331  -0.680 -0.278 H25 KEO 43 
+KEO H26 H26 H 0 1 N N N 179.826 212.167 202.443 -10.095 0.789  -0.123 H26 KEO 44 
+KEO H28 H28 H 0 1 N N N 176.996 204.493 199.329 3.155   -1.758 1.113  H28 KEO 45 
+KEO H29 H29 H 0 1 N N N 176.519 199.166 195.458 7.806   2.327  -0.390 H29 KEO 46 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-KEO   O   C DOUB N N  1
-KEO   C  CA SING N N  2
-KEO O02 C05 DOUB N N  3
-KEO N02 C07 SING N N  4
-KEO C05  NZ SING N N  5
-KEO C05 C06 SING N N  6
-KEO  NZ  CE SING N N  7
-KEO  CB  CA SING N N  8
-KEO  CB  CG SING N N  9
-KEO  CA   N SING N N 10
-KEO  CG  CD SING N N 11
-KEO  CG O01 SING N N 12
-KEO C08 C07 SING N N 13
-KEO C08 C09 SING N N 14
-KEO C07 C06 SING N N 15
-KEO  CD  CE SING N N 16
-KEO C09 C10 SING N N 17
-KEO C10 N03 SING N N 18
-KEO   C OXT SING N N 19
-KEO  CA  H1 SING N N 20
-KEO   N  H2 SING N N 21
-KEO   N  H3 SING N N 22
-KEO  CB  H5 SING N N 23
-KEO  CB  H6 SING N N 24
-KEO  CG  H7 SING N N 25
-KEO  CD  H8 SING N N 26
-KEO  CD  H9 SING N N 27
-KEO  CE H10 SING N N 28
-KEO  CE H11 SING N N 29
-KEO C06 H12 SING N N 30
-KEO C06 H13 SING N N 31
-KEO C07 H14 SING N N 32
-KEO C08 H15 SING N N 33
-KEO C08 H16 SING N N 34
-KEO C09 H17 SING N N 35
-KEO C09 H18 SING N N 36
-KEO C10 H19 SING N N 37
-KEO C10 H20 SING N N 38
-KEO  NZ H21 SING N N 39
-KEO N02 H22 SING N N 40
-KEO N02 H23 SING N N 41
-KEO N03 H25 SING N N 42
-KEO N03 H26 SING N N 43
-KEO O01 H28 SING N N 44
-KEO OXT H29 SING N N 45
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+KEO O   C   DOUB N N 1  
+KEO C   CA  SING N N 2  
+KEO O02 C05 DOUB N N 3  
+KEO N02 C07 SING N N 4  
+KEO C05 NZ  SING N N 5  
+KEO C05 C06 SING N N 6  
+KEO NZ  CE  SING N N 7  
+KEO CB  CA  SING N N 8  
+KEO CB  CG  SING N N 9  
+KEO CA  N   SING N N 10 
+KEO CG  CD  SING N N 11 
+KEO CG  O01 SING N N 12 
+KEO C08 C07 SING N N 13 
+KEO C08 C09 SING N N 14 
+KEO C07 C06 SING N N 15 
+KEO CD  CE  SING N N 16 
+KEO C09 C10 SING N N 17 
+KEO C10 N03 SING N N 18 
+KEO C   OXT SING N N 19 
+KEO CA  H1  SING N N 20 
+KEO N   H2  SING N N 21 
+KEO N   H3  SING N N 22 
+KEO CB  H5  SING N N 23 
+KEO CB  H6  SING N N 24 
+KEO CG  H7  SING N N 25 
+KEO CD  H8  SING N N 26 
+KEO CD  H9  SING N N 27 
+KEO CE  H10 SING N N 28 
+KEO CE  H11 SING N N 29 
+KEO C06 H12 SING N N 30 
+KEO C06 H13 SING N N 31 
+KEO C07 H14 SING N N 32 
+KEO C08 H15 SING N N 33 
+KEO C08 H16 SING N N 34 
+KEO C09 H17 SING N N 35 
+KEO C09 H18 SING N N 36 
+KEO C10 H19 SING N N 37 
+KEO C10 H20 SING N N 38 
+KEO NZ  H21 SING N N 39 
+KEO N02 H22 SING N N 40 
+KEO N02 H23 SING N N 41 
+KEO N03 H25 SING N N 42 
+KEO N03 H26 SING N N 43 
+KEO O01 H28 SING N N 44 
+KEO OXT H29 SING N N 45 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-KEO            InChI                InChI  1.03 InChI=1S/C12H26N4O4/c13-4-1-2-8(14)6-11(18)16-5-3-9(17)7-10(15)12(19)20/h8-10,17H,1-7,13-15H2,(H,16,18)(H,19,20)/t8-,9-,10-/m0/s1
-KEO         InChIKey                InChI  1.03                                                                                                       PVEXBIJTZBFREJ-GUBZILKMSA-N
-KEO SMILES_CANONICAL               CACTVS 3.385                                                                                      NCCC[C@H](N)CC(=O)NCC[C@H](O)C[C@H](N)C(O)=O
-KEO           SMILES               CACTVS 3.385                                                                                         NCCC[CH](N)CC(=O)NCC[CH](O)C[CH](N)C(O)=O
-KEO SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                 C(C[C@@H](CC(=O)NCC[C@@H](C[C@@H](C(=O)O)N)O)N)CN
-KEO           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                C(CC(CC(=O)NCCC(CC(C(=O)O)N)O)N)CN
-#
-_pdbx_chem_comp_identifier.comp_id               KEO
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       2.0.6
-_pdbx_chem_comp_identifier.identifier            "(2~{S},4~{S})-2-azanyl-6-[[(3~{S})-3,6-bis(azanyl)hexanoyl]amino]-4-oxidanyl-hexanoic acid"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+KEO InChI            InChI                1.03  "InChI=1S/C12H26N4O4/c13-4-1-2-8(14)6-11(18)16-5-3-9(17)7-10(15)12(19)20/h8-10,17H,1-7,13-15H2,(H,16,18)(H,19,20)/t8-,9-,10-/m0/s1" 
+KEO InChIKey         InChI                1.03  PVEXBIJTZBFREJ-GUBZILKMSA-N                                                                                                         
+KEO SMILES_CANONICAL CACTVS               3.385 "NCCC[C@H](N)CC(=O)NCC[C@H](O)C[C@H](N)C(O)=O"                                                                                      
+KEO SMILES           CACTVS               3.385 "NCCC[CH](N)CC(=O)NCC[CH](O)C[CH](N)C(O)=O"                                                                                         
+KEO SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C(C[C@@H](CC(=O)NCC[C@@H](C[C@@H](C(=O)O)N)O)N)CN"                                                                                 
+KEO SMILES           "OpenEye OEToolkits" 2.0.6 "C(CC(CC(=O)NCCC(CC(C(=O)O)N)O)N)CN"                                                                                                
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-KEO   "Create component" 2017-10-05  EBI
-KEO "Other modification" 2017-10-05  EBI
-KEO "Other modification" 2017-10-06  EBI
-KEO    "Initial release" 2017-11-22 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+KEO "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "(2~{S},4~{S})-2-azanyl-6-[[(3~{S})-3,6-bis(azanyl)hexanoyl]amino]-4-oxidanyl-hexanoic acid" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-KEO  CA C  6.404  1.590  1
-KEO   N N  6.404  0.090  2
-KEO   C C  5.104  2.340  3
-KEO   O O  3.805  1.590  4
-KEO  CB C  7.702  2.340  5
-KEO  CG C  9.002  1.590  6
-KEO  CD C 10.301  2.340  7
-KEO  CE C 11.600  1.590  8
-KEO C05 C 14.198  1.590  9
-KEO C06 C 15.497  2.340 10
-KEO C07 C 16.796  1.590 11
-KEO C08 C 16.796  0.090 12
-KEO C09 C 18.095 -0.660 13
-KEO C10 C 18.095 -2.160 14
-KEO  NZ N 12.899  2.340 15
-KEO N02 N 18.095  2.340 16
-KEO N03 N 19.394 -2.910 17
-KEO O01 O  9.002  0.090 18
-KEO O02 O 14.198  0.090 19
-KEO OXT O  5.104  3.840 20
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-KEO   O   C DOUBLE      NONE  1
-KEO   C  CA SINGLE      NONE  2
-KEO O02 C05 DOUBLE      NONE  3
-KEO N02 C07 SINGLE BEGINDASH  4
-KEO C05  NZ SINGLE      NONE  5
-KEO C05 C06 SINGLE      NONE  6
-KEO  NZ  CE SINGLE      NONE  7
-KEO  CB  CA SINGLE      NONE  8
-KEO  CB  CG SINGLE      NONE  9
-KEO  CA   N SINGLE BEGINDASH 10
-KEO  CG  CD SINGLE      NONE 11
-KEO  CG O01 SINGLE BEGINDASH 12
-KEO C08 C07 SINGLE      NONE 13
-KEO C08 C09 SINGLE      NONE 14
-KEO C07 C06 SINGLE      NONE 15
-KEO  CD  CE SINGLE      NONE 16
-KEO C09 C10 SINGLE      NONE 17
-KEO C10 N03 SINGLE      NONE 18
-KEO   C OXT SINGLE      NONE 19
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-KEO   amide F1 fragment CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-KEO peptide F2 fragment   NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-KEO  NZ F1 1
-KEO C05 F1 1
-KEO O02 F1 1
-KEO C06 F1 1
-KEO   O F2 1
-KEO   C F2 1
-KEO  CA F2 1
-KEO   N F2 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               KEO
-_pdbe_chem_comp_rdkit_properties.exactmw                               290.195
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           8
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           9
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     15
-_pdbe_chem_comp_rdkit_properties.NumHBD                                6
-_pdbe_chem_comp_rdkit_properties.NumHBA                                7
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        8
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.833
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             155.344
-_pdbe_chem_comp_rdkit_properties.tpsa                                  164.690
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -1.888
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             74.743
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         20
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-KEO  CA -4.008  3.067 -0.074 ETKDGv2  1
-KEO   N -4.269  3.797  1.167 ETKDGv2  2
-KEO   C -5.294  2.925 -0.849 ETKDGv2  3
-KEO   O -5.370  3.373 -2.023 ETKDGv2  4
-KEO  CB -3.395  1.686  0.247 ETKDGv2  5
-KEO  CG -2.938  0.925 -1.016 ETKDGv2  6
-KEO  CD -2.528 -0.530 -0.700 ETKDGv2  7
-KEO  CE -1.295 -0.642  0.206 ETKDGv2  8
-KEO C05  0.374 -2.580 -0.055 ETKDGv2  9
-KEO C06  1.542 -1.678 -0.383 ETKDGv2 10
-KEO C07  2.913 -2.397 -0.385 ETKDGv2 11
-KEO C08  4.011 -1.556 -1.087 ETKDGv2 12
-KEO C09  4.152 -0.086 -0.632 ETKDGv2 13
-KEO C10  4.617  0.107  0.818 ETKDGv2 14
-KEO  NZ -0.902 -2.047  0.335 ETKDGv2 15
-KEO N02  3.321 -2.746  0.979 ETKDGv2 16
-KEO N03  5.960 -0.431  1.017 ETKDGv2 17
-KEO O01 -1.876  1.614 -1.625 ETKDGv2 18
-KEO O02  0.497 -3.831 -0.155 ETKDGv2 19
-KEO OXT -6.409  2.311 -0.281 ETKDGv2 20
-KEO  H1 -3.278  3.649 -0.683 ETKDGv2 21
-KEO  H2 -4.644  4.742  0.921 ETKDGv2 22
-KEO  H3 -3.356  3.969  1.648 ETKDGv2 23
-KEO  H5 -2.516  1.840  0.909 ETKDGv2 24
-KEO  H6 -4.132  1.073  0.810 ETKDGv2 25
-KEO  H7 -3.799  0.874 -1.723 ETKDGv2 26
-KEO  H8 -3.384 -1.059 -0.225 ETKDGv2 27
-KEO  H9 -2.312 -1.049 -1.660 ETKDGv2 28
-KEO H10 -1.531 -0.252  1.218 ETKDGv2 29
-KEO H11 -0.475 -0.029 -0.217 ETKDGv2 30
-KEO H12  1.355 -1.237 -1.386 ETKDGv2 31
-KEO H13  1.577 -0.858  0.366 ETKDGv2 32
-KEO H14  2.819 -3.336 -0.977 ETKDGv2 33
-KEO H15  3.777 -1.540 -2.175 ETKDGv2 34
-KEO H16  4.991 -2.072 -0.998 ETKDGv2 35
-KEO H17  4.891  0.410 -1.298 ETKDGv2 36
-KEO H18  3.193  0.452 -0.781 ETKDGv2 37
-KEO H19  4.635  1.200  1.026 ETKDGv2 38
-KEO H20  3.901 -0.345  1.537 ETKDGv2 39
-KEO H21 -1.618 -2.716  0.700 ETKDGv2 40
-KEO H22  4.190 -3.325  0.924 ETKDGv2 41
-KEO H23  2.596 -3.367  1.404 ETKDGv2 42
-KEO H25  5.888 -1.467  1.135 ETKDGv2 43
-KEO H26  6.320 -0.062  1.927 ETKDGv2 44
-KEO H28 -1.799  1.263 -2.551 ETKDGv2 45
-KEO H29 -6.391  1.960  0.668 ETKDGv2 46
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+KEO "Create component"   2017-10-05 EBI  
+KEO "Other modification" 2017-10-05 EBI  
+KEO "Other modification" 2017-10-06 EBI  
+KEO "Initial release"    2017-11-22 RCSB 
+# 

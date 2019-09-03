@@ -1,593 +1,260 @@
 data_INP
-#
-_chem_comp.id                                        INP
-_chem_comp.name                                      4-[[N-[(PHENYLMETHOXY)CARBONYL]-/NL/N-LEUCYL]AMINO]-1[(2S)-2-[[[4-(PYRIDINYLMETHOXY)CARBONYL]AMINO]-4-METHYLPENT/NYL]-3-PYRROLIDINONE/N
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C31 H43 N5 O6"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             PYRROLIDINONE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            581.703
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         INP
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1AU4
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    INP 
+_chem_comp.name                                  "4-[[N-[(PHENYLMETHOXY)CARBONYL]-/NL/N-LEUCYL]AMINO]-1[(2S)-2-[[[4-(PYRIDINYLMETHOXY)CARBONYL]AMINO]-4-METHYLPENT/NYL]-3-PYRROLIDINONE/N" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C31 H43 N5 O6" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         PYRROLIDINONE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        581.703 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     INP 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1AU4 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-INP   C1   C1 C 0 1 Y N N -14.751 -27.515 59.810 -5.043 -1.743   7.153   C1 INP  1
-INP   C2   C2 C 0 1 Y N N -15.581 -26.769 58.938 -3.896 -0.972   7.189   C2 INP  2
-INP   C3   C3 C 0 1 Y N N -15.238 -25.444 58.654 -3.618 -0.098   6.155   C3 INP  3
-INP   C4   C4 C 0 1 Y N N -14.064 -24.884 59.247 -4.490  0.008   5.087   C4 INP  4
-INP   C5   C5 C 0 1 Y N N -13.215 -25.640 60.138 -5.635 -0.765   5.049   C5 INP  5
-INP   C6   C6 C 0 1 Y N N -13.568 -26.959 60.417 -5.912 -1.640   6.083   C6 INP  6
-INP   C7   C7 C 0 1 N N N -16.115 -24.626 57.717 -2.368  0.742   6.194   C7 INP  7
-INP   O8   O8 O 0 1 N N N -17.389 -25.285 57.481 -1.281  0.023   5.555   O8 INP  8
-INP   C9   C9 C 0 1 N N N -18.432 -24.529 57.002 -0.060  0.584   5.472   C9 INP  9
-INP  O10  O10 O 0 1 N N N -18.331 -23.634 56.167  0.132  1.692   5.932  O10 INP 10
-INP  N11  N11 N 0 1 N N N -19.575 -24.861 57.542  0.949 -0.083   4.879  N11 INP 11
-INP  C12  C12 C 0 1 N N S -20.878 -24.222 57.229  2.305  0.470   4.899  C12 INP 12
-INP  C13  C13 C 0 1 N N N -21.314 -23.285 58.418  2.912  0.384   3.498  C13 INP 13
-INP  N14  N14 N 0 1 N N N -21.056 -21.864 58.155  2.084  1.152   2.558  N14 INP 14
-INP  C15  C15 C 0 1 N N N -21.677 -21.412 56.872  2.726  1.028   1.223  C15 INP 15
-INP  C16  C16 C 0 1 N N N -21.586 -21.004 59.272  0.808  0.408   2.407  C16 INP 16
-INP  C17  C17 C 0 1 N N N -22.573 -20.070 58.552  0.317  0.754   1.011  C17 INP 17
-INP  C18  C18 C 0 1 N N R -22.154 -19.994 57.096  1.554  1.154   0.227  C18 INP 18
-INP  C19  C19 C 0 1 N N N -21.871 -25.400 57.013  3.167 -0.329   5.878  C19 INP 19
-INP  C20  C20 C 0 1 N N N -22.734 -25.740 58.209  2.607 -0.176   7.294  C20 INP 20
-INP  C21  C21 C 0 1 N N N -22.940 -27.216 58.285  3.387 -1.080   8.251  C21 INP 21
-INP  C22  C22 C 0 1 N N N -24.001 -25.008 57.984  2.744  1.279   7.742  C22 INP 22
-INP  N23  N23 N 0 1 N N N -23.180 -19.451 56.177  1.752  0.249  -0.907  N23 INP 23
-INP  C24  C24 C 0 1 N N N -23.120 -18.154 55.840  1.262  0.571  -2.120  C24 INP 24
-INP  O25  O25 O 0 1 N N N -22.202 -17.422 56.279  0.656  1.611  -2.272  O25 INP 25
-INP  C26  C26 C 0 1 N N S -24.245 -17.590 54.909  1.466 -0.359  -3.287  C26 INP 26
-INP  C27  C27 C 0 1 N N N -24.003 -18.046 53.427  2.964 -0.548  -3.533  C27 INP 27
-INP  C28  C28 C 0 1 N N N -25.222 -18.054 52.507  3.172 -1.560  -4.661  C28 INP 28
-INP  C29  C29 C 0 1 N N N -25.140 -19.244 51.660  4.660 -1.632  -5.014  C29 INP 29
-INP  C30  C30 C 0 1 N N N -25.249 -16.769 51.690  2.689 -2.938  -4.205  C30 INP 30
-INP  N31  N31 N 0 1 N N N -24.301 -16.098 54.922  0.843  0.213  -4.484  N31 INP 31
-INP  C32  C32 C 0 1 N N N -24.853 -15.340 55.866  0.067 -0.555  -5.273  C32 INP 32
-INP  O33  O33 O 0 1 N N N -25.403 -15.839 56.832 -0.138 -1.715  -4.978  O33 INP 33
-INP  O34  O34 O 0 1 N N N -24.716 -13.963 55.636 -0.479 -0.037  -6.389  O34 INP 34
-INP  C35  C35 C 0 1 N N N -24.744 -13.117 56.805 -1.315 -0.865  -7.239  C35 INP 35
-INP  C36  C36 C 0 1 Y N N -25.683 -11.909 56.617 -1.798 -0.052  -8.413  C36 INP 36
-INP  C37  C37 C 0 1 Y N N -25.212 -10.603 56.856 -1.066  0.000  -9.589  C37 INP 37
-INP  C38  C38 C 0 1 Y N N -26.095  -9.519 56.737 -1.541  0.756 -10.645  C38 INP 38
-INP  N39  N39 N 0 1 Y N N -27.371  -9.727 56.396 -2.675  1.420 -10.542  N39 INP 39
-INP  C40  C40 C 0 1 Y N N -27.846 -10.957 56.159 -3.397  1.393  -9.439  C40 INP 40
-INP  C41  C41 C 0 1 Y N N -27.029 -12.077 56.260 -2.989  0.654  -8.345  C41 INP 41
-INP  O42  O42 O 0 1 N N N -22.659 -18.720 58.883 -0.821  0.718   0.609  O42 INP 42
-INP   H1   H1 H 0 1 N N N -15.034 -28.559 60.022 -5.259 -2.427   7.961   H1 INP 43
-INP   H2   H2 H 0 1 N N N -16.483 -27.214 58.485 -3.217 -1.052   8.025   H2 INP 44
-INP   H4   H4 H 0 1 N N N -13.805 -23.838 59.010 -4.273  0.692   4.280   H4 INP 45
-INP   H5   H5 H 0 1 N N N -12.307 -25.215 60.599 -6.313 -0.685   4.213   H5 INP 46
-INP   H6   H6 H 0 1 N N N -12.929 -27.545 61.098 -6.807 -2.243   6.054   H6 INP 47
-INP  H71  1H7 H 0 1 N N N -16.254 -23.584 58.090 -2.105  0.953   7.230  H71 INP 48
-INP  H72  2H7 H 0 1 N N N -15.589 -24.394 56.761 -2.544  1.679   5.666  H72 INP 49
-INP  HN1  HN1 H 0 1 N N N -19.449 -25.621 58.210  0.777 -0.930   4.438  HN1 INP 50
-INP  H12  H12 H 0 1 N N N -20.837 -23.572 56.323  2.267  1.512   5.216  H12 INP 51
-INP H131 1H13 H 0 0 N N N -22.383 -23.452 58.684  3.921  0.796   3.513 H131 INP 52
-INP H132 2H13 H 0 0 N N N -20.835 -23.605 59.372  2.950 -0.657   3.181 H132 INP 53
-INP H151 1H15 H 0 0 N N N -20.997 -21.514 55.994  3.445  1.833   1.069 H151 INP 54
-INP H152 2H15 H 0 0 N N N -22.480 -22.094 56.507  3.211  0.057   1.121 H152 INP 55
-INP H161 1H16 H 0 0 N N N -22.021 -21.570 60.128  0.982 -0.664   2.492 H161 INP 56
-INP H162 2H16 H 0 0 N N N -20.802 -20.481 59.868  0.086  0.737   3.155 H162 INP 57
-INP  H18  H18 H 0 1 N N N -21.362 -19.243 56.864  1.463  2.182  -0.121  H18 INP 58
-INP H191 1H19 H 0 0 N N N -22.510 -25.204 56.120  4.191  0.044   5.850 H191 INP 59
-INP H192 2H19 H 0 0 N N N -21.322 -26.306 56.665  3.157 -1.382   5.595 H192 INP 60
-INP  H20  H20 H 0 1 N N N -22.272 -25.445 59.180  1.555 -0.461   7.301  H20 INP 61
-INP H211 1H21 H 0 0 N N N -23.575 -27.466 59.166  2.988 -0.971   9.259 H211 INP 62
-INP H212 2H21 H 0 0 N N N -23.357 -27.629 57.337  3.289 -2.118   7.932 H212 INP 63
-INP H213 3H21 H 0 0 N N N -21.974 -27.773 58.294  4.439 -0.795   8.244 H213 INP 64
-INP H221 1H22 H 0 0 N N N -24.636 -25.258 58.865  3.793  1.575   7.701 H221 INP 65
-INP H222 2H22 H 0 0 N N N -23.867 -23.913 57.818  2.161  1.919   7.080 H222 INP 66
-INP H223 3H22 H 0 0 N N N -24.481 -25.227 57.002  2.377  1.381   8.763 H223 INP 67
-INP  HN2  HN2 H 0 1 N N N -23.946 -19.983 55.766  2.237 -0.582  -0.785  HN2 INP 68
-INP  H26  H26 H 0 1 N N N -25.208 -17.991 55.302  1.009 -1.324  -3.067  H26 INP 69
-INP H271 1H27 H 0 0 N N N -23.194 -17.427 52.972  3.409  0.406  -3.814 H271 INP 70
-INP H272 2H27 H 0 0 N N N -23.520 -19.051 53.418  3.438 -0.915  -2.623 H272 INP 71
-INP  H28  H28 H 0 1 N N N -26.171 -18.094 53.089  2.606 -1.248  -5.538  H28 INP 72
-INP H291 1H29 H 0 0 N N N -26.030 -19.249 50.988  4.808 -2.353  -5.818 H291 INP 73
-INP H292 2H29 H 0 0 N N N -24.177 -19.310 51.101  5.004 -0.650  -5.339 H292 INP 74
-INP H293 3H29 H 0 0 N N N -25.036 -20.185 52.247  5.226 -1.944  -4.137 H293 INP 75
-INP H301 1H30 H 0 0 N N N -26.139 -16.774 51.018  3.198 -3.214  -3.282 H301 INP 76
-INP H302 2H30 H 0 0 N N N -25.212 -15.859 52.333  1.613 -2.907  -4.033 H302 INP 77
-INP H303 3H30 H 0 0 N N N -24.299 -16.605 51.129  2.913 -3.675  -4.977 H303 INP 78
-INP  HN3  HN3 H 0 1 N N N -23.907 -15.515 54.183  0.990  1.146  -4.707  HN3 INP 79
-INP H351 1H35 H 0 0 N N N -25.008 -13.697 57.719 -0.737 -1.715  -7.600 H351 INP 80
-INP H352 2H35 H 0 0 N N N -23.717 -12.791 57.094 -2.171 -1.223  -6.668 H352 INP 81
-INP  H37  H37 H 0 1 N N N -24.158 -10.430 57.134 -0.136 -0.540  -9.679  H37 INP 82
-INP  H38  H38 H 0 1 N N N -25.778  -8.477 56.915 -0.976  0.802 -11.564  H38 INP 83
-INP  H40  H40 H 0 1 N N N -28.909 -11.047 55.880 -4.321  1.950  -9.392  H40 INP 84
-INP  H41  H41 H 0 1 N N N -27.441 -13.080 56.060 -3.585  0.635  -7.444  H41 INP 85
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+INP C1   C1   C 0 1 Y N N -14.751 -27.515 59.810 -5.043 -1.743 7.153   C1   INP 1  
+INP C2   C2   C 0 1 Y N N -15.581 -26.769 58.938 -3.896 -0.972 7.189   C2   INP 2  
+INP C3   C3   C 0 1 Y N N -15.238 -25.444 58.654 -3.618 -0.098 6.155   C3   INP 3  
+INP C4   C4   C 0 1 Y N N -14.064 -24.884 59.247 -4.490 0.008  5.087   C4   INP 4  
+INP C5   C5   C 0 1 Y N N -13.215 -25.640 60.138 -5.635 -0.765 5.049   C5   INP 5  
+INP C6   C6   C 0 1 Y N N -13.568 -26.959 60.417 -5.912 -1.640 6.083   C6   INP 6  
+INP C7   C7   C 0 1 N N N -16.115 -24.626 57.717 -2.368 0.742  6.194   C7   INP 7  
+INP O8   O8   O 0 1 N N N -17.389 -25.285 57.481 -1.281 0.023  5.555   O8   INP 8  
+INP C9   C9   C 0 1 N N N -18.432 -24.529 57.002 -0.060 0.584  5.472   C9   INP 9  
+INP O10  O10  O 0 1 N N N -18.331 -23.634 56.167 0.132  1.692  5.932   O10  INP 10 
+INP N11  N11  N 0 1 N N N -19.575 -24.861 57.542 0.949  -0.083 4.879   N11  INP 11 
+INP C12  C12  C 0 1 N N S -20.878 -24.222 57.229 2.305  0.470  4.899   C12  INP 12 
+INP C13  C13  C 0 1 N N N -21.314 -23.285 58.418 2.912  0.384  3.498   C13  INP 13 
+INP N14  N14  N 0 1 N N N -21.056 -21.864 58.155 2.084  1.152  2.558   N14  INP 14 
+INP C15  C15  C 0 1 N N N -21.677 -21.412 56.872 2.726  1.028  1.223   C15  INP 15 
+INP C16  C16  C 0 1 N N N -21.586 -21.004 59.272 0.808  0.408  2.407   C16  INP 16 
+INP C17  C17  C 0 1 N N N -22.573 -20.070 58.552 0.317  0.754  1.011   C17  INP 17 
+INP C18  C18  C 0 1 N N R -22.154 -19.994 57.096 1.554  1.154  0.227   C18  INP 18 
+INP C19  C19  C 0 1 N N N -21.871 -25.400 57.013 3.167  -0.329 5.878   C19  INP 19 
+INP C20  C20  C 0 1 N N N -22.734 -25.740 58.209 2.607  -0.176 7.294   C20  INP 20 
+INP C21  C21  C 0 1 N N N -22.940 -27.216 58.285 3.387  -1.080 8.251   C21  INP 21 
+INP C22  C22  C 0 1 N N N -24.001 -25.008 57.984 2.744  1.279  7.742   C22  INP 22 
+INP N23  N23  N 0 1 N N N -23.180 -19.451 56.177 1.752  0.249  -0.907  N23  INP 23 
+INP C24  C24  C 0 1 N N N -23.120 -18.154 55.840 1.262  0.571  -2.120  C24  INP 24 
+INP O25  O25  O 0 1 N N N -22.202 -17.422 56.279 0.656  1.611  -2.272  O25  INP 25 
+INP C26  C26  C 0 1 N N S -24.245 -17.590 54.909 1.466  -0.359 -3.287  C26  INP 26 
+INP C27  C27  C 0 1 N N N -24.003 -18.046 53.427 2.964  -0.548 -3.533  C27  INP 27 
+INP C28  C28  C 0 1 N N N -25.222 -18.054 52.507 3.172  -1.560 -4.661  C28  INP 28 
+INP C29  C29  C 0 1 N N N -25.140 -19.244 51.660 4.660  -1.632 -5.014  C29  INP 29 
+INP C30  C30  C 0 1 N N N -25.249 -16.769 51.690 2.689  -2.938 -4.205  C30  INP 30 
+INP N31  N31  N 0 1 N N N -24.301 -16.098 54.922 0.843  0.213  -4.484  N31  INP 31 
+INP C32  C32  C 0 1 N N N -24.853 -15.340 55.866 0.067  -0.555 -5.273  C32  INP 32 
+INP O33  O33  O 0 1 N N N -25.403 -15.839 56.832 -0.138 -1.715 -4.978  O33  INP 33 
+INP O34  O34  O 0 1 N N N -24.716 -13.963 55.636 -0.479 -0.037 -6.389  O34  INP 34 
+INP C35  C35  C 0 1 N N N -24.744 -13.117 56.805 -1.315 -0.865 -7.239  C35  INP 35 
+INP C36  C36  C 0 1 Y N N -25.683 -11.909 56.617 -1.798 -0.052 -8.413  C36  INP 36 
+INP C37  C37  C 0 1 Y N N -25.212 -10.603 56.856 -1.066 0.000  -9.589  C37  INP 37 
+INP C38  C38  C 0 1 Y N N -26.095 -9.519  56.737 -1.541 0.756  -10.645 C38  INP 38 
+INP N39  N39  N 0 1 Y N N -27.371 -9.727  56.396 -2.675 1.420  -10.542 N39  INP 39 
+INP C40  C40  C 0 1 Y N N -27.846 -10.957 56.159 -3.397 1.393  -9.439  C40  INP 40 
+INP C41  C41  C 0 1 Y N N -27.029 -12.077 56.260 -2.989 0.654  -8.345  C41  INP 41 
+INP O42  O42  O 0 1 N N N -22.659 -18.720 58.883 -0.821 0.718  0.609   O42  INP 42 
+INP H1   H1   H 0 1 N N N -15.034 -28.559 60.022 -5.259 -2.427 7.961   H1   INP 43 
+INP H2   H2   H 0 1 N N N -16.483 -27.214 58.485 -3.217 -1.052 8.025   H2   INP 44 
+INP H4   H4   H 0 1 N N N -13.805 -23.838 59.010 -4.273 0.692  4.280   H4   INP 45 
+INP H5   H5   H 0 1 N N N -12.307 -25.215 60.599 -6.313 -0.685 4.213   H5   INP 46 
+INP H6   H6   H 0 1 N N N -12.929 -27.545 61.098 -6.807 -2.243 6.054   H6   INP 47 
+INP H71  1H7  H 0 1 N N N -16.254 -23.584 58.090 -2.105 0.953  7.230   H71  INP 48 
+INP H72  2H7  H 0 1 N N N -15.589 -24.394 56.761 -2.544 1.679  5.666   H72  INP 49 
+INP HN1  HN1  H 0 1 N N N -19.449 -25.621 58.210 0.777  -0.930 4.438   HN1  INP 50 
+INP H12  H12  H 0 1 N N N -20.837 -23.572 56.323 2.267  1.512  5.216   H12  INP 51 
+INP H131 1H13 H 0 0 N N N -22.383 -23.452 58.684 3.921  0.796  3.513   H131 INP 52 
+INP H132 2H13 H 0 0 N N N -20.835 -23.605 59.372 2.950  -0.657 3.181   H132 INP 53 
+INP H151 1H15 H 0 0 N N N -20.997 -21.514 55.994 3.445  1.833  1.069   H151 INP 54 
+INP H152 2H15 H 0 0 N N N -22.480 -22.094 56.507 3.211  0.057  1.121   H152 INP 55 
+INP H161 1H16 H 0 0 N N N -22.021 -21.570 60.128 0.982  -0.664 2.492   H161 INP 56 
+INP H162 2H16 H 0 0 N N N -20.802 -20.481 59.868 0.086  0.737  3.155   H162 INP 57 
+INP H18  H18  H 0 1 N N N -21.362 -19.243 56.864 1.463  2.182  -0.121  H18  INP 58 
+INP H191 1H19 H 0 0 N N N -22.510 -25.204 56.120 4.191  0.044  5.850   H191 INP 59 
+INP H192 2H19 H 0 0 N N N -21.322 -26.306 56.665 3.157  -1.382 5.595   H192 INP 60 
+INP H20  H20  H 0 1 N N N -22.272 -25.445 59.180 1.555  -0.461 7.301   H20  INP 61 
+INP H211 1H21 H 0 0 N N N -23.575 -27.466 59.166 2.988  -0.971 9.259   H211 INP 62 
+INP H212 2H21 H 0 0 N N N -23.357 -27.629 57.337 3.289  -2.118 7.932   H212 INP 63 
+INP H213 3H21 H 0 0 N N N -21.974 -27.773 58.294 4.439  -0.795 8.244   H213 INP 64 
+INP H221 1H22 H 0 0 N N N -24.636 -25.258 58.865 3.793  1.575  7.701   H221 INP 65 
+INP H222 2H22 H 0 0 N N N -23.867 -23.913 57.818 2.161  1.919  7.080   H222 INP 66 
+INP H223 3H22 H 0 0 N N N -24.481 -25.227 57.002 2.377  1.381  8.763   H223 INP 67 
+INP HN2  HN2  H 0 1 N N N -23.946 -19.983 55.766 2.237  -0.582 -0.785  HN2  INP 68 
+INP H26  H26  H 0 1 N N N -25.208 -17.991 55.302 1.009  -1.324 -3.067  H26  INP 69 
+INP H271 1H27 H 0 0 N N N -23.194 -17.427 52.972 3.409  0.406  -3.814  H271 INP 70 
+INP H272 2H27 H 0 0 N N N -23.520 -19.051 53.418 3.438  -0.915 -2.623  H272 INP 71 
+INP H28  H28  H 0 1 N N N -26.171 -18.094 53.089 2.606  -1.248 -5.538  H28  INP 72 
+INP H291 1H29 H 0 0 N N N -26.030 -19.249 50.988 4.808  -2.353 -5.818  H291 INP 73 
+INP H292 2H29 H 0 0 N N N -24.177 -19.310 51.101 5.004  -0.650 -5.339  H292 INP 74 
+INP H293 3H29 H 0 0 N N N -25.036 -20.185 52.247 5.226  -1.944 -4.137  H293 INP 75 
+INP H301 1H30 H 0 0 N N N -26.139 -16.774 51.018 3.198  -3.214 -3.282  H301 INP 76 
+INP H302 2H30 H 0 0 N N N -25.212 -15.859 52.333 1.613  -2.907 -4.033  H302 INP 77 
+INP H303 3H30 H 0 0 N N N -24.299 -16.605 51.129 2.913  -3.675 -4.977  H303 INP 78 
+INP HN3  HN3  H 0 1 N N N -23.907 -15.515 54.183 0.990  1.146  -4.707  HN3  INP 79 
+INP H351 1H35 H 0 0 N N N -25.008 -13.697 57.719 -0.737 -1.715 -7.600  H351 INP 80 
+INP H352 2H35 H 0 0 N N N -23.717 -12.791 57.094 -2.171 -1.223 -6.668  H352 INP 81 
+INP H37  H37  H 0 1 N N N -24.158 -10.430 57.134 -0.136 -0.540 -9.679  H37  INP 82 
+INP H38  H38  H 0 1 N N N -25.778 -8.477  56.915 -0.976 0.802  -11.564 H38  INP 83 
+INP H40  H40  H 0 1 N N N -28.909 -11.047 55.880 -4.321 1.950  -9.392  H40  INP 84 
+INP H41  H41  H 0 1 N N N -27.441 -13.080 56.060 -3.585 0.635  -7.444  H41  INP 85 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-INP  C1   C2 DOUB Y N  1
-INP  C1   C6 SING Y N  2
-INP  C1   H1 SING N N  3
-INP  C2   C3 SING Y N  4
-INP  C2   H2 SING N N  5
-INP  C3   C4 DOUB Y N  6
-INP  C3   C7 SING N N  7
-INP  C4   C5 SING Y N  8
-INP  C4   H4 SING N N  9
-INP  C5   C6 DOUB Y N 10
-INP  C5   H5 SING N N 11
-INP  C6   H6 SING N N 12
-INP  C7   O8 SING N N 13
-INP  C7  H71 SING N N 14
-INP  C7  H72 SING N N 15
-INP  O8   C9 SING N N 16
-INP  C9  O10 DOUB N N 17
-INP  C9  N11 SING N N 18
-INP N11  C12 SING N N 19
-INP N11  HN1 SING N N 20
-INP C12  C13 SING N N 21
-INP C12  C19 SING N N 22
-INP C12  H12 SING N N 23
-INP C13  N14 SING N N 24
-INP C13 H131 SING N N 25
-INP C13 H132 SING N N 26
-INP N14  C15 SING N N 27
-INP N14  C16 SING N N 28
-INP C15  C18 SING N N 29
-INP C15 H151 SING N N 30
-INP C15 H152 SING N N 31
-INP C16  C17 SING N N 32
-INP C16 H161 SING N N 33
-INP C16 H162 SING N N 34
-INP C17  C18 SING N N 35
-INP C17  O42 DOUB N N 36
-INP C18  N23 SING N N 37
-INP C18  H18 SING N N 38
-INP C19  C20 SING N N 39
-INP C19 H191 SING N N 40
-INP C19 H192 SING N N 41
-INP C20  C21 SING N N 42
-INP C20  C22 SING N N 43
-INP C20  H20 SING N N 44
-INP C21 H211 SING N N 45
-INP C21 H212 SING N N 46
-INP C21 H213 SING N N 47
-INP C22 H221 SING N N 48
-INP C22 H222 SING N N 49
-INP C22 H223 SING N N 50
-INP N23  C24 SING N N 51
-INP N23  HN2 SING N N 52
-INP C24  O25 DOUB N N 53
-INP C24  C26 SING N N 54
-INP C26  C27 SING N N 55
-INP C26  N31 SING N N 56
-INP C26  H26 SING N N 57
-INP C27  C28 SING N N 58
-INP C27 H271 SING N N 59
-INP C27 H272 SING N N 60
-INP C28  C29 SING N N 61
-INP C28  C30 SING N N 62
-INP C28  H28 SING N N 63
-INP C29 H291 SING N N 64
-INP C29 H292 SING N N 65
-INP C29 H293 SING N N 66
-INP C30 H301 SING N N 67
-INP C30 H302 SING N N 68
-INP C30 H303 SING N N 69
-INP N31  C32 SING N N 70
-INP N31  HN3 SING N N 71
-INP C32  O33 DOUB N N 72
-INP C32  O34 SING N N 73
-INP O34  C35 SING N N 74
-INP C35  C36 SING N N 75
-INP C35 H351 SING N N 76
-INP C35 H352 SING N N 77
-INP C36  C37 DOUB Y N 78
-INP C36  C41 SING Y N 79
-INP C37  C38 SING Y N 80
-INP C37  H37 SING N N 81
-INP C38  N39 DOUB Y N 82
-INP C38  H38 SING N N 83
-INP N39  C40 SING Y N 84
-INP C40  C41 DOUB Y N 85
-INP C40  H40 SING N N 86
-INP C41  H41 SING N N 87
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+INP C1  C2   DOUB Y N 1  
+INP C1  C6   SING Y N 2  
+INP C1  H1   SING N N 3  
+INP C2  C3   SING Y N 4  
+INP C2  H2   SING N N 5  
+INP C3  C4   DOUB Y N 6  
+INP C3  C7   SING N N 7  
+INP C4  C5   SING Y N 8  
+INP C4  H4   SING N N 9  
+INP C5  C6   DOUB Y N 10 
+INP C5  H5   SING N N 11 
+INP C6  H6   SING N N 12 
+INP C7  O8   SING N N 13 
+INP C7  H71  SING N N 14 
+INP C7  H72  SING N N 15 
+INP O8  C9   SING N N 16 
+INP C9  O10  DOUB N N 17 
+INP C9  N11  SING N N 18 
+INP N11 C12  SING N N 19 
+INP N11 HN1  SING N N 20 
+INP C12 C13  SING N N 21 
+INP C12 C19  SING N N 22 
+INP C12 H12  SING N N 23 
+INP C13 N14  SING N N 24 
+INP C13 H131 SING N N 25 
+INP C13 H132 SING N N 26 
+INP N14 C15  SING N N 27 
+INP N14 C16  SING N N 28 
+INP C15 C18  SING N N 29 
+INP C15 H151 SING N N 30 
+INP C15 H152 SING N N 31 
+INP C16 C17  SING N N 32 
+INP C16 H161 SING N N 33 
+INP C16 H162 SING N N 34 
+INP C17 C18  SING N N 35 
+INP C17 O42  DOUB N N 36 
+INP C18 N23  SING N N 37 
+INP C18 H18  SING N N 38 
+INP C19 C20  SING N N 39 
+INP C19 H191 SING N N 40 
+INP C19 H192 SING N N 41 
+INP C20 C21  SING N N 42 
+INP C20 C22  SING N N 43 
+INP C20 H20  SING N N 44 
+INP C21 H211 SING N N 45 
+INP C21 H212 SING N N 46 
+INP C21 H213 SING N N 47 
+INP C22 H221 SING N N 48 
+INP C22 H222 SING N N 49 
+INP C22 H223 SING N N 50 
+INP N23 C24  SING N N 51 
+INP N23 HN2  SING N N 52 
+INP C24 O25  DOUB N N 53 
+INP C24 C26  SING N N 54 
+INP C26 C27  SING N N 55 
+INP C26 N31  SING N N 56 
+INP C26 H26  SING N N 57 
+INP C27 C28  SING N N 58 
+INP C27 H271 SING N N 59 
+INP C27 H272 SING N N 60 
+INP C28 C29  SING N N 61 
+INP C28 C30  SING N N 62 
+INP C28 H28  SING N N 63 
+INP C29 H291 SING N N 64 
+INP C29 H292 SING N N 65 
+INP C29 H293 SING N N 66 
+INP C30 H301 SING N N 67 
+INP C30 H302 SING N N 68 
+INP C30 H303 SING N N 69 
+INP N31 C32  SING N N 70 
+INP N31 HN3  SING N N 71 
+INP C32 O33  DOUB N N 72 
+INP C32 O34  SING N N 73 
+INP O34 C35  SING N N 74 
+INP C35 C36  SING N N 75 
+INP C35 H351 SING N N 76 
+INP C35 H352 SING N N 77 
+INP C36 C37  DOUB Y N 78 
+INP C36 C41  SING Y N 79 
+INP C37 C38  SING Y N 80 
+INP C37 H37  SING N N 81 
+INP C38 N39  DOUB Y N 82 
+INP C38 H38  SING N N 83 
+INP N39 C40  SING Y N 84 
+INP C40 C41  DOUB Y N 85 
+INP C40 H40  SING N N 86 
+INP C41 H41  SING N N 87 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-INP           SMILES              ACDLabs 10.04                                                                                                                                                             O=C(OCc1ccncc1)NC(C(=O)NC3C(=O)CN(CC(NC(=O)OCc2ccccc2)CC(C)C)C3)CC(C)C
-INP SMILES_CANONICAL               CACTVS 3.341                                                                                                                                               CC(C)C[C@@H](CN1C[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)OCc2ccncc2)C(=O)C1)NC(=O)OCc3ccccc3
-INP           SMILES               CACTVS 3.341                                                                                                                                                    CC(C)C[CH](CN1C[CH](NC(=O)[CH](CC(C)C)NC(=O)OCc2ccncc2)C(=O)C1)NC(=O)OCc3ccccc3
-INP SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                             CC(C)C[C@@H](C[N@]1C[C@H](C(=O)C1)NC(=O)[C@H](CC(C)C)NC(=O)OCc2ccncc2)NC(=O)OCc3ccccc3
-INP           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                             CC(C)CC(CN1CC(C(=O)C1)NC(=O)C(CC(C)C)NC(=O)OCc2ccncc2)NC(=O)OCc3ccccc3
-INP            InChI                InChI  1.03 InChI=1S/C31H43N5O6/c1-21(2)14-25(33-30(39)41-19-23-8-6-5-7-9-23)16-36-17-27(28(37)18-36)34-29(38)26(15-22(3)4)35-31(40)42-20-24-10-12-32-13-11-24/h5-13,21-22,25-27H,14-20H2,1-4H3,(H,33,39)(H,34,38)(H,35,40)/t25-,26-,27+/m0/s1
-INP         InChIKey                InChI  1.03                                                                                                                                                                                                        YCGCXDDZHQMZQY-GMQQYTKMSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+INP SMILES           ACDLabs              10.04 "O=C(OCc1ccncc1)NC(C(=O)NC3C(=O)CN(CC(NC(=O)OCc2ccccc2)CC(C)C)C3)CC(C)C" 
+INP SMILES_CANONICAL CACTVS               3.341 "CC(C)C[C@@H](CN1C[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)OCc2ccncc2)C(=O)C1)NC(=O)OCc3ccccc3" 
+INP SMILES           CACTVS               3.341 "CC(C)C[CH](CN1C[CH](NC(=O)[CH](CC(C)C)NC(=O)OCc2ccncc2)C(=O)C1)NC(=O)OCc3ccccc3" 
+INP SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(C)C[C@@H](C[N@]1C[C@H](C(=O)C1)NC(=O)[C@H](CC(C)C)NC(=O)OCc2ccncc2)NC(=O)OCc3ccccc3" 
+INP SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C)CC(CN1CC(C(=O)C1)NC(=O)C(CC(C)C)NC(=O)OCc2ccncc2)NC(=O)OCc3ccccc3" 
+INP InChI            InChI                1.03  
+"InChI=1S/C31H43N5O6/c1-21(2)14-25(33-30(39)41-19-23-8-6-5-7-9-23)16-36-17-27(28(37)18-36)34-29(38)26(15-22(3)4)35-31(40)42-20-24-10-12-32-13-11-24/h5-13,21-22,25-27H,14-20H2,1-4H3,(H,33,39)(H,34,38)(H,35,40)/t25-,26-,27+/m0/s1" 
+INP InChIKey         InChI                1.03  YCGCXDDZHQMZQY-GMQQYTKMSA-N 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-INP "SYSTEMATIC NAME"              ACDLabs 10.04                       N-{(3R)-1-[(2S)-2-{[(benzyloxy)carbonyl]amino}-4-methylpentyl]-4-oxopyrrolidin-3-yl}-N~2~-[(pyridin-4-ylmethoxy)carbonyl]-L-leucinamide
-INP "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "phenylmethyl N-[(2S)-4-methyl-1-[(1S,3R)-3-[[(2S)-4-methyl-2-(pyridin-4-ylmethoxycarbonylamino)pentanoyl]amino]-4-oxo-pyrrolidin-1-yl]pentan-2-yl]carbamate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+INP "SYSTEMATIC NAME" ACDLabs              10.04 "N-{(3R)-1-[(2S)-2-{[(benzyloxy)carbonyl]amino}-4-methylpentyl]-4-oxopyrrolidin-3-yl}-N~2~-[(pyridin-4-ylmethoxy)carbonyl]-L-leucinamide"                     
+INP "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "phenylmethyl N-[(2S)-4-methyl-1-[(1S,3R)-3-[[(2S)-4-methyl-2-(pyridin-4-ylmethoxycarbonylamino)pentanoyl]amino]-4-oxo-pyrrolidin-1-yl]pentan-2-yl]carbamate" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-INP  "Create component" 1999-07-08 RCSB
-INP "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-INP  C1 C 23.339 -1.060  1
-INP  C2 C 21.847 -0.903  2
-INP  C3 C 21.237  0.468  3
-INP  C4 C 22.119  1.681  4
-INP  C5 C 23.611  1.524  5
-INP  C6 C 24.221  0.154  6
-INP  C7 C 19.746  0.624  7
-INP  O8 O 19.135  1.995  8
-INP  C9 C 17.644  2.151  9
-INP O10 O 16.762  0.938 10
-INP N11 N 17.034  3.522 11
-INP C12 C 15.542  3.679 12
-INP C13 C 14.660  2.465 13
-INP N14 N 13.168  2.622 14
-INP C15 C 12.165  1.507 15
-INP C16 C 12.418  3.921 16
-INP C17 C 10.951  3.609 17
-INP C18 C 10.794  2.117 18
-INP C19 C 14.932  5.049 19
-INP C20 C 15.813  6.263 20
-INP C21 C 15.203  7.633 21
-INP C22 C 17.305  6.106 22
-INP N23 N  9.495  1.367 23
-INP C24 C  8.196  2.117 24
-INP O25 O  8.196  3.617 25
-INP C26 C  6.897  1.367 26
-INP C27 C  5.598  2.117 27
-INP C28 C  5.598  3.617 28
-INP C29 C  4.299  4.367 29
-INP C30 C  6.897  4.367 30
-INP N31 N  6.897 -0.133 31
-INP C32 C  5.598 -0.883 32
-INP O33 O  4.299 -0.133 33
-INP O34 O  5.598 -2.383 34
-INP C35 C  4.299 -3.133 35
-INP C36 C  4.299 -4.633 36
-INP C37 C  3.000 -5.383 37
-INP C38 C  3.000 -6.883 38
-INP N39 N  4.299 -7.633 39
-INP C40 C  5.598 -6.883 40
-INP C41 C  5.598 -5.383 41
-INP O42 O  9.836  4.613 42
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-INP  C1  C2 DOUBLE       NONE  1
-INP  C1  C6 SINGLE       NONE  2
-INP  C2  C3 SINGLE       NONE  3
-INP  C3  C4 DOUBLE       NONE  4
-INP  C3  C7 SINGLE       NONE  5
-INP  C4  C5 SINGLE       NONE  6
-INP  C5  C6 DOUBLE       NONE  7
-INP  C7  O8 SINGLE       NONE  8
-INP  O8  C9 SINGLE       NONE  9
-INP  C9 O10 DOUBLE       NONE 10
-INP  C9 N11 SINGLE       NONE 11
-INP N11 C12 SINGLE       NONE 12
-INP C12 C13 SINGLE  BEGINDASH 13
-INP C12 C19 SINGLE       NONE 14
-INP C13 N14 SINGLE       NONE 15
-INP N14 C15 SINGLE       NONE 16
-INP N14 C16 SINGLE       NONE 17
-INP C15 C18 SINGLE       NONE 18
-INP C16 C17 SINGLE       NONE 19
-INP C17 C18 SINGLE       NONE 20
-INP C17 O42 DOUBLE       NONE 21
-INP C18 N23 SINGLE  BEGINDASH 22
-INP C19 C20 SINGLE       NONE 23
-INP C20 C21 SINGLE       NONE 24
-INP C20 C22 SINGLE       NONE 25
-INP N23 C24 SINGLE       NONE 26
-INP C24 O25 DOUBLE       NONE 27
-INP C24 C26 SINGLE       NONE 28
-INP C26 C27 SINGLE BEGINWEDGE 29
-INP C26 N31 SINGLE       NONE 30
-INP C27 C28 SINGLE       NONE 31
-INP C28 C29 SINGLE       NONE 32
-INP C28 C30 SINGLE       NONE 33
-INP N31 C32 SINGLE       NONE 34
-INP C32 O33 DOUBLE       NONE 35
-INP C32 O34 SINGLE       NONE 36
-INP O34 C35 SINGLE       NONE 37
-INP C35 C36 SINGLE       NONE 38
-INP C36 C37 DOUBLE       NONE 39
-INP C36 C41 SINGLE       NONE 40
-INP C37 C38 SINGLE       NONE 41
-INP C38 N39 DOUBLE       NONE 42
-INP N39 C40 SINGLE       NONE 43
-INP C40 C41 DOUBLE       NONE 44
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-INP MurckoScaffold S1 scaffold O=C(CNC(=O)OCc1ccncc1)N[C@H]1CN(CCNC(=O)OCc2ccccc2)CC1=O InChI=1S/C23H27N5O6/c29-20-14-28(11-10-25-22(31)33-15-17-4-2-1-3-5-17)13-19(20)27-21(30)12-26-23(32)34-16-18-6-8-24-9-7-18/h1-9,19H,10-16H2,(H,25,31)(H,26,32)(H,27,30)/t19-/m0/s1 LZDRIVQMFCLLME-IBGZPJMESA-N
-INP          amide F1 fragment                                                  CC(N)=O                                                                                                                                             InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-INP        peptide F2 fragment                                                    NCC=O                                                                                                                                                 InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-INP         phenyl F3 fragment                                                 c1ccccc1                                                                                                                                                 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-INP       pyridine F4 fragment                                                 c1ccncc1                                                                                                                                                InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H JUJWROOIHBZHMG-UHFFFAOYSA-N
-INP    Z1650040241 F5 fragment                                          CCC(=O)NC1CCNC1                                                                                                                 InChI=1S/C7H14N2O/c1-2-7(10)9-6-3-4-8-5-6/h6,8H,2-5H2,1H3,(H,9,10) JTOGNXBWLDRNON-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-INP N23 F1 1
-INP C24 F1 1
-INP O25 F1 1
-INP C26 F1 1
-INP O25 F2 1
-INP C24 F2 1
-INP C26 F2 1
-INP N31 F2 1
-INP O42 F2 2
-INP C17 F2 2
-INP C16 F2 2
-INP N14 F2 2
-INP O42 F2 3
-INP C17 F2 3
-INP C18 F2 3
-INP N23 F2 3
-INP  C1 F3 1
-INP  C2 F3 1
-INP  C3 F3 1
-INP  C4 F3 1
-INP  C5 F3 1
-INP  C6 F3 1
-INP C38 F4 1
-INP C37 F4 1
-INP C36 F4 1
-INP C41 F4 1
-INP C40 F4 1
-INP N39 F4 1
-INP C27 F5 1
-INP C26 F5 1
-INP C24 F5 1
-INP O25 F5 1
-INP N23 F5 1
-INP C18 F5 1
-INP C17 F5 1
-INP C16 F5 1
-INP N14 F5 1
-INP C15 F5 1
-INP  C1 S1 1
-INP  C2 S1 1
-INP  C3 S1 1
-INP  C4 S1 1
-INP  C5 S1 1
-INP  C6 S1 1
-INP  C7 S1 1
-INP  O8 S1 1
-INP  C9 S1 1
-INP O10 S1 1
-INP N11 S1 1
-INP C12 S1 1
-INP C13 S1 1
-INP N14 S1 1
-INP C15 S1 1
-INP C16 S1 1
-INP C17 S1 1
-INP C18 S1 1
-INP N23 S1 1
-INP C24 S1 1
-INP O25 S1 1
-INP C26 S1 1
-INP N31 S1 1
-INP C32 S1 1
-INP O33 S1 1
-INP O34 S1 1
-INP C35 S1 1
-INP C36 S1 1
-INP C37 S1 1
-INP C38 S1 1
-INP N39 S1 1
-INP C40 S1 1
-INP C41 S1 1
-INP O42 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               INP
-_pdbe_chem_comp_rdkit_properties.exactmw                               581.321
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           11
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     18
-_pdbe_chem_comp_rdkit_properties.NumHBD                                3
-_pdbe_chem_comp_rdkit_properties.NumHBA                                8
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        11
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         3
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.516
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             307.872
-_pdbe_chem_comp_rdkit_properties.tpsa                                  138.960
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          3.324
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             156.652
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         42
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-INP UniChem ChEMBL    CHEMBL1233623
-INP UniChem   ZINC ZINC000084541645
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-INP   C1  6.427  3.896  0.373 ETKDGv2  1
-INP   C2  6.899  2.669  0.123 ETKDGv2  2
-INP   C3  6.769  1.596  1.140 ETKDGv2  3
-INP   C4  6.169  1.869  2.313 ETKDGv2  4
-INP   C5  5.657  3.228  2.589 ETKDGv2  5
-INP   C6  5.776  4.190  1.666 ETKDGv2  6
-INP   C7  7.206  0.197  0.800 ETKDGv2  7
-INP   O8  6.268 -0.396 -0.094 ETKDGv2  8
-INP   C9  4.967 -0.738  0.288 ETKDGv2  9
-INP  O10  4.671 -0.855  1.509 ETKDGv2 10
-INP  N11  3.967 -0.918 -0.721 ETKDGv2 11
-INP  C12  2.534 -0.959 -0.421 ETKDGv2 12
-INP  C13  1.983 -2.341 -0.818 ETKDGv2 13
-INP  N14  0.584 -2.482 -0.372 ETKDGv2 14
-INP  C15 -0.156 -3.495 -1.142 ETKDGv2 15
-INP  C16  0.454 -2.878  1.039 ETKDGv2 16
-INP  C17 -0.803 -3.657  1.085 ETKDGv2 17
-INP  C18 -1.340 -3.924 -0.270 ETKDGv2 18
-INP  C19  1.787  0.169 -1.180 ETKDGv2 19
-INP  C20  2.137  1.628 -0.780 ETKDGv2 20
-INP  C21  3.459  2.116 -1.387 ETKDGv2 21
-INP  C22  2.107  1.870  0.735 ETKDGv2 22
-INP  N23 -2.514 -3.080 -0.521 ETKDGv2 23
-INP  C24 -3.796 -3.355  0.069 ETKDGv2 24
-INP  O25 -3.973 -4.434  0.698 ETKDGv2 25
-INP  C26 -4.939 -2.361  0.009 ETKDGv2 26
-INP  C27 -4.908 -1.456 -1.252 ETKDGv2 27
-INP  C28 -6.193 -0.638 -1.544 ETKDGv2 28
-INP  C29 -6.416  0.509 -0.549 ETKDGv2 29
-INP  C30 -7.449 -1.511 -1.668 ETKDGv2 30
-INP  N31 -4.990 -1.576  1.247 ETKDGv2 31
-INP  C32 -3.969 -0.658  1.660 ETKDGv2 32
-INP  O33 -4.208  0.148  2.600 ETKDGv2 33
-INP  O34 -2.718 -0.664  1.036 ETKDGv2 34
-INP  C35 -1.717  0.320  1.275 ETKDGv2 35
-INP  C36 -2.038  1.579  0.523 ETKDGv2 36
-INP  C37 -2.074  1.578 -0.819 ETKDGv2 37
-INP  C38 -2.392  2.826 -1.538 ETKDGv2 38
-INP  N39 -2.633  3.919 -0.874 ETKDGv2 39
-INP  C40 -2.598  3.950  0.564 ETKDGv2 40
-INP  C41 -2.314  2.838  1.253 ETKDGv2 41
-INP  O42 -1.320 -4.052  2.118 ETKDGv2 42
-INP   H1  6.516  4.675 -0.373 ETKDGv2 43
-INP   H2  7.365  2.457 -0.831 ETKDGv2 44
-INP   H4  6.035  1.097  3.061 ETKDGv2 45
-INP   H5  5.176  3.440  3.535 ETKDGv2 46
-INP   H6  5.395  5.183  1.864 ETKDGv2 47
-INP  H71  8.195  0.241  0.299 ETKDGv2 48
-INP  H72  7.323 -0.434  1.709 ETKDGv2 49
-INP  HN1  4.274 -0.957 -1.719 ETKDGv2 50
-INP  H12  2.363 -0.834  0.669 ETKDGv2 51
-INP H131  2.624 -3.146 -0.394 ETKDGv2 52
-INP H132  2.043 -2.434 -1.927 ETKDGv2 53
-INP H151  0.487 -4.385 -1.339 ETKDGv2 54
-INP H152 -0.486 -3.077 -2.118 ETKDGv2 55
-INP H161  1.292 -3.524  1.383 ETKDGv2 56
-INP H162  0.377 -1.980  1.684 ETKDGv2 57
-INP  H18 -1.578 -4.999 -0.426 ETKDGv2 58
-INP H191  1.943  0.043 -2.274 ETKDGv2 59
-INP H192  0.696  0.040 -1.013 ETKDGv2 60
-INP  H20  1.339  2.269 -1.220 ETKDGv2 61
-INP H211  4.330  1.646 -0.894 ETKDGv2 62
-INP H212  3.494  1.897 -2.475 ETKDGv2 63
-INP H213  3.549  3.216 -1.255 ETKDGv2 64
-INP H221  2.164  2.959  0.944 ETKDGv2 65
-INP H222  2.968  1.379  1.235 ETKDGv2 66
-INP H223  1.162  1.483  1.170 ETKDGv2 67
-INP  HN2 -2.387 -2.216 -1.092 ETKDGv2 68
-INP  H26 -5.863 -2.976 -0.045 ETKDGv2 69
-INP H271 -4.061 -0.743 -1.193 ETKDGv2 70
-INP H272 -4.717 -2.103 -2.137 ETKDGv2 71
-INP  H28 -6.035 -0.164 -2.539 ETKDGv2 72
-INP H291 -6.761  0.130  0.434 ETKDGv2 73
-INP H292 -5.480  1.092 -0.410 ETKDGv2 74
-INP H293 -7.194  1.198 -0.941 ETKDGv2 75
-INP H301 -7.255 -2.374 -2.341 ETKDGv2 76
-INP H302 -7.777 -1.887 -0.677 ETKDGv2 77
-INP H303 -8.280 -0.915 -2.101 ETKDGv2 78
-INP  HN3 -5.844 -1.659  1.844 ETKDGv2 79
-INP H351 -0.744 -0.068  0.916 ETKDGv2 80
-INP H352 -1.616  0.510  2.366 ETKDGv2 81
-INP  H37 -1.873  0.674 -1.381 ETKDGv2 82
-INP  H38 -2.425  2.834 -2.619 ETKDGv2 83
-INP  H40 -2.803  4.875  1.085 ETKDGv2 84
-INP  H41 -2.290  2.865  2.335 ETKDGv2 85
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+INP "Create component"  1999-07-08 RCSB 
+INP "Modify descriptor" 2011-06-04 RCSB 
+# 

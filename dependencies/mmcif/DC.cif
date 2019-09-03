@@ -184,11 +184,6 @@ _pdbe_chem_comp_drugbank_targets.ordinal
 DC DB03798 "Deoxycytidylate 5-hydroxymethyltransferase" "Enterobacteria phage T4" P08773 unknown 1
 DC DB03798                       "Thymidylate synthase"     "Lactobacillus casei" P00469 unknown 2
 #
-_pdbx_chem_comp_synonyms.comp_id          DC
-_pdbx_chem_comp_synonyms.name             "2'-Deoxycytidinemonophosphate"
-_pdbx_chem_comp_synonyms.provenance       ChEMBL
-
-#
 loop_
 _software.name              
 _software.version           
@@ -342,6 +337,7 @@ DC UniChem      DrugBank          DB03798
 DC UniChem "KEGG LIGAND"           C00239
 DC UniChem         ChEBI            15918
 DC UniChem          ZINC ZINC000003861759
+DC UniChem             P            13945
 DC UniChem  MetaboLights       MTBLC15918
 DC UniChem        BRENDA           102264
 DC UniChem        BRENDA           113292
@@ -365,38 +361,38 @@ _pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit
 _pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
 _pdbe_chem_comp_rdkit_conformer.rdkit_method        
 _pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DC    OP3 -4.956 -1.571  0.739 ETKDGv2  1
-DC      P -4.675  0.040  1.177 ETKDGv2  2
-DC    OP1 -5.055  0.225  2.628 ETKDGv2  3
-DC    OP2 -5.626  1.067  0.223 ETKDGv2  4
-DC  "O5'" -3.024  0.424  0.987 ETKDGv2  5
-DC  "C5'" -2.676  0.235 -0.364 ETKDGv2  6
-DC  "C4'" -1.206  0.622 -0.561 ETKDGv2  7
-DC  "O4'" -0.374 -0.225  0.205 ETKDGv2  8
-DC  "C3'" -0.745  0.589 -2.022 ETKDGv2  9
-DC  "O3'" -1.388 -0.426 -2.753 ETKDGv2 10
-DC  "C2'"  0.709  0.249 -1.879 ETKDGv2 11
-DC  "C1'"  0.733 -0.575 -0.599 ETKDGv2 12
-DC     N1  1.988 -0.385  0.144 ETKDGv2 13
-DC     C2  2.306  0.849  0.820 ETKDGv2 14
-DC     O2  1.510  1.825  0.801 ETKDGv2 15
-DC     N3  3.545  0.962  1.526 ETKDGv2 16
-DC     C4  4.388 -0.027  1.577 ETKDGv2 17
-DC     N4  5.613  0.126  2.293 ETKDGv2 18
-DC     C5  4.085 -1.307  0.901 ETKDGv2 19
-DC     C6  2.942 -1.461  0.226 ETKDGv2 20
-DC   HOP3 -5.188 -1.538 -0.224 ETKDGv2 21
-DC   HOP2 -5.351  1.981  0.484 ETKDGv2 22
-DC  "H5'" -3.297  0.883 -1.024 ETKDGv2 23
-DC "H5''" -2.805 -0.834 -0.651 ETKDGv2 24
-DC  "H4'" -1.075  1.661 -0.184 ETKDGv2 25
-DC  "H3'" -0.871  1.581 -2.516 ETKDGv2 26
-DC "HO3'" -2.194 -0.017 -3.164 ETKDGv2 27
-DC  "H2'"  1.302  1.184 -1.771 ETKDGv2 28
-DC "H2''"  1.098 -0.327 -2.748 ETKDGv2 29
-DC  "H1'"  0.614 -1.646 -0.879 ETKDGv2 30
-DC    H41  5.836  1.026  2.774 ETKDGv2 31
-DC    H42  6.302 -0.657  2.344 ETKDGv2 32
-DC     H5  4.793 -2.125  0.950 ETKDGv2 33
-DC     H6  2.743 -2.406 -0.264 ETKDGv2 34
+DC    OP3 -5.371 -0.956  0.794 ETKDGv2  1
+DC      P -5.000  0.488 -0.012 ETKDGv2  2
+DC    OP1 -5.074  1.652  0.952 ETKDGv2  3
+DC    OP2 -6.129  0.727 -1.249 ETKDGv2  4
+DC  "O5'" -3.444  0.401 -0.706 ETKDGv2  5
+DC  "C5'" -2.513  0.125  0.315 ETKDGv2  6
+DC  "C4'" -1.100  0.089 -0.281 ETKDGv2  7
+DC  "O4'" -0.155 -0.196  0.726 ETKDGv2  8
+DC  "C3'" -0.921 -0.926 -1.411 ETKDGv2  9
+DC  "O3'" -1.693 -2.092 -1.229 ETKDGv2 10
+DC  "C2'"  0.551 -1.228 -1.330 ETKDGv2 11
+DC  "C1'"  0.880 -0.963  0.138 ETKDGv2 12
+DC     N1  2.183 -0.290  0.269 ETKDGv2 13
+DC     C2  3.408 -1.032  0.120 ETKDGv2 14
+DC     O2  3.392 -2.272 -0.106 ETKDGv2 15
+DC     N3  4.661 -0.350  0.231 ETKDGv2 16
+DC     C4  4.717  0.930  0.451 ETKDGv2 17
+DC     N4  5.986  1.574  0.555 ETKDGv2 18
+DC     C5  3.476  1.723  0.589 ETKDGv2 19
+DC     C6  2.281  1.130  0.498 ETKDGv2 20
+DC   HOP3 -5.041 -0.830  1.719 ETKDGv2 21
+DC   HOP2 -7.010  0.695 -0.797 ETKDGv2 22
+DC  "H5'" -2.728 -0.853  0.801 ETKDGv2 23
+DC "H5''" -2.532  0.924  1.090 ETKDGv2 24
+DC  "H4'" -0.875  1.103 -0.682 ETKDGv2 25
+DC  "H3'" -1.179 -0.474 -2.394 ETKDGv2 26
+DC "HO3'" -1.424 -2.515 -0.371 ETKDGv2 27
+DC  "H2'"  1.110 -0.527 -1.991 ETKDGv2 28
+DC "H2''"  0.785 -2.274 -1.625 ETKDGv2 29
+DC  "H1'"  0.915 -1.933  0.683 ETKDGv2 30
+DC    H41  6.869  1.023  0.457 ETKDGv2 31
+DC    H42  6.051  2.601  0.730 ETKDGv2 32
+DC     H5  3.533  2.790  0.760 ETKDGv2 33
+DC     H6  1.390  1.738  0.591 ETKDGv2 34
 #

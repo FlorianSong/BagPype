@@ -86,12 +86,11 @@ _pdbe_chem_comp_drugbank_details.cas_number                14701-21-4
 _pdbe_chem_comp_drugbank_details.mechanism_of_action       .
 
 #
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-AG Silver ChEMBL
-AG   E174 ChEMBL
+_pdbe_chem_comp_synonyms.comp_id          AG
+_pdbe_chem_comp_synonyms.name             Silver
+_pdbe_chem_comp_synonyms.provenance       ChEMBL
+_pdbe_chem_comp_synonyms.type             "International Nonproprietary Name"
+
 #
 loop_
 _software.name              
@@ -145,6 +144,7 @@ _pdbe_chem_comp_external_mappings.resource_id
 AG UniChem   ChEMBL CHEMBL1230866
 AG UniChem DrugBank       DB14521
 AG UniChem    ChEBI         49468
+AG UniChem        P        104755
 AG UniChem   BRENDA         48798
 AG UniChem   BRENDA         48799
 AG UniChem   BRENDA            75

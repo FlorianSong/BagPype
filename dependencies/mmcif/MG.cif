@@ -105,11 +105,12 @@ _pdbe_chem_comp_drugbank_targets.ordinal                        1
 
 #
 loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-MG        "Magnesium ion" DrugBank
-MG "Magnesium, ion(Mg2+)" DrugBank
+_pdbe_chem_comp_synonyms.comp_id          
+_pdbe_chem_comp_synonyms.name             
+_pdbe_chem_comp_synonyms.provenance       
+_pdbe_chem_comp_synonyms.type             
+MG        "Magnesium ion" DrugBank .
+MG "Magnesium, ion(Mg2+)" DrugBank .
 #
 loop_
 _software.name              
@@ -164,6 +165,7 @@ MG UniChem        ChEMBL CHEMBL1234291
 MG UniChem      DrugBank       DB01378
 MG UniChem "KEGG LIGAND"        C00305
 MG UniChem         ChEBI         18420
+MG UniChem             P           888
 MG UniChem        BRENDA         32293
 MG UniChem        BRENDA         32294
 MG UniChem        BRENDA          5185

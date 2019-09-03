@@ -1,542 +1,191 @@
 data_FOL
-#
-_chem_comp.id                                        FOL
-_chem_comp.name                                      "FOLIC ACID"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C19 H19 N7 O6"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             FA
-_chem_comp.formula_weight                            441.397
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         FOL
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            4CD2
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    FOL 
+_chem_comp.name                                  "FOLIC ACID" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C19 H19 N7 O6" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         FA 
+_chem_comp.formula_weight                        441.397 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     FOL 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4CD2 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-FOL   N1   N1 N 0 1 Y N N  9.955 57.995 30.200 -1.069  0.579  7.888   N1 FOL  1
-FOL   C2   C2 C 0 1 Y N N  9.906 57.055 29.224 -0.146 -0.159  8.558   C2 FOL  2
-FOL  NA2  NA2 N 0 1 N N N 10.752 57.222 28.285 -0.209 -0.199  9.922  NA2 FOL  3
-FOL   N3   N3 N 0 1 Y N N  8.978 56.090 29.236  0.802 -0.841  7.952   N3 FOL  4
-FOL   C4   C4 C 0 1 Y N N  8.177 55.992 30.277  0.922 -0.847  6.618   C4 FOL  5
-FOL   O4   O4 O 0 1 N N N  7.284 55.048 30.396  1.807 -1.485  6.073   O4 FOL  6
-FOL  C4A  C4A C 0 1 Y N N  8.242 56.932 31.411 -0.043 -0.061  5.822  C4A FOL  7
-FOL   N5   N5 N 0 1 Y N N  7.439 56.784 32.478  0.011 -0.018  4.498   N5 FOL  8
-FOL   C6   C6 C 0 1 Y N N  7.578 57.733 33.395 -0.874  0.697  3.834   C6 FOL  9
-FOL   C7   C7 C 0 1 Y N N  8.511 58.751 33.255 -1.860  1.403  4.512   C7 FOL 10
-FOL   N8   N8 N 0 1 Y N N  9.345 58.864 32.244 -1.924  1.368  5.831   N8 FOL 11
-FOL  C8A  C8A C 0 1 Y N N  9.173 57.960 31.300 -1.040  0.652  6.511  C8A FOL 12
-FOL   C9   C9 C 0 1 N N N  6.687 57.700 34.637 -0.817  0.750  2.329   C9 FOL 13
-FOL  N10  N10 N 0 1 N N N  6.022 56.471 34.831  0.300 -0.068  1.853  N10 FOL 14
-FOL  C11  C11 C 0 1 Y N N  7.734 52.635 35.405  1.060 -0.385 -2.225  C11 FOL 15
-FOL  C12  C12 C 0 1 Y N N  6.366 52.838 35.477  1.870 -1.059 -1.307  C12 FOL 16
-FOL  C13  C13 C 0 1 Y N N  5.823 54.121 35.322  1.616 -0.953  0.040  C13 FOL 17
-FOL  C14  C14 C 0 1 Y N N  6.630 55.243 35.059  0.554 -0.174  0.490  C14 FOL 18
-FOL  C15  C15 C 0 1 Y N N  8.005 55.010 35.019 -0.257  0.494 -0.421  C15 FOL 19
-FOL  C16  C16 C 0 1 Y N N  8.501 53.758 35.220 -0.005  0.396 -1.770  C16 FOL 20
-FOL    C    C C 0 1 N N N  8.325 51.302 35.580  1.330 -0.497 -3.671    C FOL 21
-FOL    O    O O 0 1 N N N  7.710 50.238 35.775  2.258 -1.176 -4.065    O FOL 22
-FOL    N    N N 0 1 N N N  9.608 51.094 35.612  0.548  0.153 -4.555    N FOL 23
-FOL   CA   CA C 0 1 N N S 10.299 49.867 35.882  0.816  0.042 -5.991   CA FOL 24
-FOL   CB   CB C 0 1 N N N 10.308 48.900 34.685 -0.494  0.181 -6.767   CB FOL 25
-FOL   CG   CG C 0 1 N N N  8.966 48.247 34.539 -1.459 -0.926 -6.340   CG FOL 26
-FOL   CD   CD C 0 1 N N N  9.166 47.106 33.629 -2.751 -0.789 -7.105   CD FOL 27
-FOL  OE1  OE1 O 0 1 N N N 10.212 46.558 33.108 -2.886  0.103 -7.908  OE1 FOL 28
-FOL  OE2  OE2 O 0 1 N N N  8.166 46.393 33.207 -3.751 -1.659 -6.893  OE2 FOL 29
-FOL   CT   CT C 0 1 N N N 11.747 50.216 36.245  1.766  1.134 -6.410   CT FOL 30
-FOL   O1   O1 O 0 1 N N N 12.251 49.334 36.953  2.527  0.952 -7.331   O1 FOL 31
-FOL   O2   O2 O 0 1 N N N 12.199 51.216 35.728  1.768  2.309 -5.761   O2 FOL 32
-FOL  HN1  HN1 H 0 1 N N N  9.814 58.902 29.755 -1.752  1.060  8.381  HN1 FOL 33
-FOL HN21 1HN2 H 0 0 N N N 10.715 56.514 27.550  0.436 -0.722 10.422 HN21 FOL 34
-FOL HN22 2HN2 H 0 0 N N N 11.695 57.289 28.665 -0.897  0.298 10.391 HN22 FOL 35
-FOL   H7   H7 H 0 1 N N N  8.597 59.543 34.017 -2.580  1.985  3.957   H7 FOL 36
-FOL  H91  1H9 H 0 1 N N N  7.270 57.977 35.545 -1.750  0.366  1.916  H91 FOL 37
-FOL  H92  2H9 H 0 1 N N N  5.956 58.542 34.618 -0.674  1.782  2.007  H92 FOL 38
-FOL  HN0  HN0 H 0 1 N N N  5.409 56.344 34.025  0.863 -0.536  2.490  HN0 FOL 39
-FOL  H12  H12 H 0 1 N N N  5.705 51.973 35.658  2.695 -1.663 -1.655  H12 FOL 40
-FOL  H13  H13 H 0 1 N N N  4.731 54.251 35.409  2.242 -1.473  0.750  H13 FOL 41
-FOL  H15  H15 H 0 1 N N N  8.714 55.832 34.824 -1.081  1.097 -0.068  H15 FOL 42
-FOL  H16  H16 H 0 1 N N N  9.598 53.645 35.233 -0.633  0.918 -2.477  H16 FOL 43
-FOL   HN   HN H 0 1 N N N 10.110 51.958 35.410 -0.191  0.696 -4.240   HN FOL 44
-FOL   HA   HA H 0 1 N N N  9.765 49.348 36.712  1.262 -0.928 -6.203   HA FOL 45
-FOL  HB1  1HB H 0 1 N N N 10.631 49.403 33.744 -0.941  1.153 -6.554  HB1 FOL 46
-FOL  HB2  2HB H 0 1 N N N 11.130 48.150 34.760 -0.295  0.099 -7.835  HB2 FOL 47
-FOL  HG1  1HG H 0 1 N N N  8.501 47.963 35.512 -1.013 -1.898 -6.553  HG1 FOL 48
-FOL  HG2  2HG H 0 1 N N N  8.164 48.946 34.205 -1.659 -0.843 -5.272  HG2 FOL 49
-FOL HOE2 2HOE H 0 0 N N N  8.295 45.657 32.620 -4.580 -1.571 -7.383 HOE2 FOL 50
-FOL  HO2  HO2 H 0 1 N N N 13.096 51.432 35.952  2.377  3.009 -6.030  HO2 FOL 51
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+FOL N1   N1   N 0 1 Y N N 9.955  57.995 30.200 -1.069 0.579  7.888  N1   FOL 1  
+FOL C2   C2   C 0 1 Y N N 9.906  57.055 29.224 -0.146 -0.159 8.558  C2   FOL 2  
+FOL NA2  NA2  N 0 1 N N N 10.752 57.222 28.285 -0.209 -0.199 9.922  NA2  FOL 3  
+FOL N3   N3   N 0 1 Y N N 8.978  56.090 29.236 0.802  -0.841 7.952  N3   FOL 4  
+FOL C4   C4   C 0 1 Y N N 8.177  55.992 30.277 0.922  -0.847 6.618  C4   FOL 5  
+FOL O4   O4   O 0 1 N N N 7.284  55.048 30.396 1.807  -1.485 6.073  O4   FOL 6  
+FOL C4A  C4A  C 0 1 Y N N 8.242  56.932 31.411 -0.043 -0.061 5.822  C4A  FOL 7  
+FOL N5   N5   N 0 1 Y N N 7.439  56.784 32.478 0.011  -0.018 4.498  N5   FOL 8  
+FOL C6   C6   C 0 1 Y N N 7.578  57.733 33.395 -0.874 0.697  3.834  C6   FOL 9  
+FOL C7   C7   C 0 1 Y N N 8.511  58.751 33.255 -1.860 1.403  4.512  C7   FOL 10 
+FOL N8   N8   N 0 1 Y N N 9.345  58.864 32.244 -1.924 1.368  5.831  N8   FOL 11 
+FOL C8A  C8A  C 0 1 Y N N 9.173  57.960 31.300 -1.040 0.652  6.511  C8A  FOL 12 
+FOL C9   C9   C 0 1 N N N 6.687  57.700 34.637 -0.817 0.750  2.329  C9   FOL 13 
+FOL N10  N10  N 0 1 N N N 6.022  56.471 34.831 0.300  -0.068 1.853  N10  FOL 14 
+FOL C11  C11  C 0 1 Y N N 7.734  52.635 35.405 1.060  -0.385 -2.225 C11  FOL 15 
+FOL C12  C12  C 0 1 Y N N 6.366  52.838 35.477 1.870  -1.059 -1.307 C12  FOL 16 
+FOL C13  C13  C 0 1 Y N N 5.823  54.121 35.322 1.616  -0.953 0.040  C13  FOL 17 
+FOL C14  C14  C 0 1 Y N N 6.630  55.243 35.059 0.554  -0.174 0.490  C14  FOL 18 
+FOL C15  C15  C 0 1 Y N N 8.005  55.010 35.019 -0.257 0.494  -0.421 C15  FOL 19 
+FOL C16  C16  C 0 1 Y N N 8.501  53.758 35.220 -0.005 0.396  -1.770 C16  FOL 20 
+FOL C    C    C 0 1 N N N 8.325  51.302 35.580 1.330  -0.497 -3.671 C    FOL 21 
+FOL O    O    O 0 1 N N N 7.710  50.238 35.775 2.258  -1.176 -4.065 O    FOL 22 
+FOL N    N    N 0 1 N N N 9.608  51.094 35.612 0.548  0.153  -4.555 N    FOL 23 
+FOL CA   CA   C 0 1 N N S 10.299 49.867 35.882 0.816  0.042  -5.991 CA   FOL 24 
+FOL CB   CB   C 0 1 N N N 10.308 48.900 34.685 -0.494 0.181  -6.767 CB   FOL 25 
+FOL CG   CG   C 0 1 N N N 8.966  48.247 34.539 -1.459 -0.926 -6.340 CG   FOL 26 
+FOL CD   CD   C 0 1 N N N 9.166  47.106 33.629 -2.751 -0.789 -7.105 CD   FOL 27 
+FOL OE1  OE1  O 0 1 N N N 10.212 46.558 33.108 -2.886 0.103  -7.908 OE1  FOL 28 
+FOL OE2  OE2  O 0 1 N N N 8.166  46.393 33.207 -3.751 -1.659 -6.893 OE2  FOL 29 
+FOL CT   CT   C 0 1 N N N 11.747 50.216 36.245 1.766  1.134  -6.410 CT   FOL 30 
+FOL O1   O1   O 0 1 N N N 12.251 49.334 36.953 2.527  0.952  -7.331 O1   FOL 31 
+FOL O2   O2   O 0 1 N N N 12.199 51.216 35.728 1.768  2.309  -5.761 O2   FOL 32 
+FOL HN1  HN1  H 0 1 N N N 9.814  58.902 29.755 -1.752 1.060  8.381  HN1  FOL 33 
+FOL HN21 1HN2 H 0 0 N N N 10.715 56.514 27.550 0.436  -0.722 10.422 HN21 FOL 34 
+FOL HN22 2HN2 H 0 0 N N N 11.695 57.289 28.665 -0.897 0.298  10.391 HN22 FOL 35 
+FOL H7   H7   H 0 1 N N N 8.597  59.543 34.017 -2.580 1.985  3.957  H7   FOL 36 
+FOL H91  1H9  H 0 1 N N N 7.270  57.977 35.545 -1.750 0.366  1.916  H91  FOL 37 
+FOL H92  2H9  H 0 1 N N N 5.956  58.542 34.618 -0.674 1.782  2.007  H92  FOL 38 
+FOL HN0  HN0  H 0 1 N N N 5.409  56.344 34.025 0.863  -0.536 2.490  HN0  FOL 39 
+FOL H12  H12  H 0 1 N N N 5.705  51.973 35.658 2.695  -1.663 -1.655 H12  FOL 40 
+FOL H13  H13  H 0 1 N N N 4.731  54.251 35.409 2.242  -1.473 0.750  H13  FOL 41 
+FOL H15  H15  H 0 1 N N N 8.714  55.832 34.824 -1.081 1.097  -0.068 H15  FOL 42 
+FOL H16  H16  H 0 1 N N N 9.598  53.645 35.233 -0.633 0.918  -2.477 H16  FOL 43 
+FOL HN   HN   H 0 1 N N N 10.110 51.958 35.410 -0.191 0.696  -4.240 HN   FOL 44 
+FOL HA   HA   H 0 1 N N N 9.765  49.348 36.712 1.262  -0.928 -6.203 HA   FOL 45 
+FOL HB1  1HB  H 0 1 N N N 10.631 49.403 33.744 -0.941 1.153  -6.554 HB1  FOL 46 
+FOL HB2  2HB  H 0 1 N N N 11.130 48.150 34.760 -0.295 0.099  -7.835 HB2  FOL 47 
+FOL HG1  1HG  H 0 1 N N N 8.501  47.963 35.512 -1.013 -1.898 -6.553 HG1  FOL 48 
+FOL HG2  2HG  H 0 1 N N N 8.164  48.946 34.205 -1.659 -0.843 -5.272 HG2  FOL 49 
+FOL HOE2 2HOE H 0 0 N N N 8.295  45.657 32.620 -4.580 -1.571 -7.383 HOE2 FOL 50 
+FOL HO2  HO2  H 0 1 N N N 13.096 51.432 35.952 2.377  3.009  -6.030 HO2  FOL 51 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-FOL  N1   C2 SING Y N  1
-FOL  N1  C8A SING Y N  2
-FOL  N1  HN1 SING N N  3
-FOL  C2  NA2 SING N N  4
-FOL  C2   N3 DOUB Y N  5
-FOL NA2 HN21 SING N N  6
-FOL NA2 HN22 SING N N  7
-FOL  N3   C4 SING Y N  8
-FOL  C4   O4 DOUB N N  9
-FOL  C4  C4A SING Y N 10
-FOL C4A   N5 SING Y N 11
-FOL C4A  C8A DOUB Y N 12
-FOL  N5   C6 DOUB Y N 13
-FOL  C6   C7 SING Y N 14
-FOL  C6   C9 SING N N 15
-FOL  C7   N8 DOUB Y N 16
-FOL  C7   H7 SING N N 17
-FOL  N8  C8A SING Y N 18
-FOL  C9  N10 SING N N 19
-FOL  C9  H91 SING N N 20
-FOL  C9  H92 SING N N 21
-FOL N10  C14 SING N N 22
-FOL N10  HN0 SING N N 23
-FOL C11  C12 DOUB Y N 24
-FOL C11  C16 SING Y N 25
-FOL C11    C SING N N 26
-FOL C12  C13 SING Y N 27
-FOL C12  H12 SING N N 28
-FOL C13  C14 DOUB Y N 29
-FOL C13  H13 SING N N 30
-FOL C14  C15 SING Y N 31
-FOL C15  C16 DOUB Y N 32
-FOL C15  H15 SING N N 33
-FOL C16  H16 SING N N 34
-FOL   C    O DOUB N N 35
-FOL   C    N SING N N 36
-FOL   N   CA SING N N 37
-FOL   N   HN SING N N 38
-FOL  CA   CB SING N N 39
-FOL  CA   CT SING N N 40
-FOL  CA   HA SING N N 41
-FOL  CB   CG SING N N 42
-FOL  CB  HB1 SING N N 43
-FOL  CB  HB2 SING N N 44
-FOL  CG   CD SING N N 45
-FOL  CG  HG1 SING N N 46
-FOL  CG  HG2 SING N N 47
-FOL  CD  OE1 DOUB N N 48
-FOL  CD  OE2 SING N N 49
-FOL OE2 HOE2 SING N N 50
-FOL  CT   O1 DOUB N N 51
-FOL  CT   O2 SING N N 52
-FOL  O2  HO2 SING N N 53
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+FOL N1  C2   SING Y N 1  
+FOL N1  C8A  SING Y N 2  
+FOL N1  HN1  SING N N 3  
+FOL C2  NA2  SING N N 4  
+FOL C2  N3   DOUB Y N 5  
+FOL NA2 HN21 SING N N 6  
+FOL NA2 HN22 SING N N 7  
+FOL N3  C4   SING Y N 8  
+FOL C4  O4   DOUB N N 9  
+FOL C4  C4A  SING Y N 10 
+FOL C4A N5   SING Y N 11 
+FOL C4A C8A  DOUB Y N 12 
+FOL N5  C6   DOUB Y N 13 
+FOL C6  C7   SING Y N 14 
+FOL C6  C9   SING N N 15 
+FOL C7  N8   DOUB Y N 16 
+FOL C7  H7   SING N N 17 
+FOL N8  C8A  SING Y N 18 
+FOL C9  N10  SING N N 19 
+FOL C9  H91  SING N N 20 
+FOL C9  H92  SING N N 21 
+FOL N10 C14  SING N N 22 
+FOL N10 HN0  SING N N 23 
+FOL C11 C12  DOUB Y N 24 
+FOL C11 C16  SING Y N 25 
+FOL C11 C    SING N N 26 
+FOL C12 C13  SING Y N 27 
+FOL C12 H12  SING N N 28 
+FOL C13 C14  DOUB Y N 29 
+FOL C13 H13  SING N N 30 
+FOL C14 C15  SING Y N 31 
+FOL C15 C16  DOUB Y N 32 
+FOL C15 H15  SING N N 33 
+FOL C16 H16  SING N N 34 
+FOL C   O    DOUB N N 35 
+FOL C   N    SING N N 36 
+FOL N   CA   SING N N 37 
+FOL N   HN   SING N N 38 
+FOL CA  CB   SING N N 39 
+FOL CA  CT   SING N N 40 
+FOL CA  HA   SING N N 41 
+FOL CB  CG   SING N N 42 
+FOL CB  HB1  SING N N 43 
+FOL CB  HB2  SING N N 44 
+FOL CG  CD   SING N N 45 
+FOL CG  HG1  SING N N 46 
+FOL CG  HG2  SING N N 47 
+FOL CD  OE1  DOUB N N 48 
+FOL CD  OE2  SING N N 49 
+FOL OE2 HOE2 SING N N 50 
+FOL CT  O1   DOUB N N 51 
+FOL CT  O2   SING N N 52 
+FOL O2  HO2  SING N N 53 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-FOL           SMILES              ACDLabs 10.04                                                                                                                                          O=C(O)C(NC(=O)c1ccc(cc1)NCc2nc3c(nc2)NC(=NC3=O)N)CCC(=O)O
-FOL SMILES_CANONICAL               CACTVS 3.341                                                                                                                                     NC1=NC(=O)c2nc(CNc3ccc(cc3)C(=O)N[C@@H](CCC(O)=O)C(O)=O)cnc2N1
-FOL           SMILES               CACTVS 3.341                                                                                                                                       NC1=NC(=O)c2nc(CNc3ccc(cc3)C(=O)N[CH](CCC(O)=O)C(O)=O)cnc2N1
-FOL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                   c1cc(ccc1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCc2cnc3c(n2)C(=O)N=C(N3)N
-FOL           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                        c1cc(ccc1C(=O)NC(CCC(=O)O)C(=O)O)NCc2cnc3c(n2)C(=O)N=C(N3)N
-FOL            InChI                InChI  1.03 InChI=1S/C19H19N7O6/c20-19-25-15-14(17(30)26-19)23-11(8-22-15)7-21-10-3-1-9(2-4-10)16(29)24-12(18(31)32)5-6-13(27)28/h1-4,8,12,21H,5-7H2,(H,24,29)(H,27,28)(H,31,32)(H3,20,22,25,26,30)/t12-/m0/s1
-FOL         InChIKey                InChI  1.03                                                                                                                                                                        OVBPIULPVIDEAO-LBPRGKRZSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+FOL SMILES           ACDLabs              10.04 "O=C(O)C(NC(=O)c1ccc(cc1)NCc2nc3c(nc2)NC(=NC3=O)N)CCC(=O)O"                                                                                                                                          
+FOL SMILES_CANONICAL CACTVS               3.341 "NC1=NC(=O)c2nc(CNc3ccc(cc3)C(=O)N[C@@H](CCC(O)=O)C(O)=O)cnc2N1"                                                                                                                                     
+FOL SMILES           CACTVS               3.341 "NC1=NC(=O)c2nc(CNc3ccc(cc3)C(=O)N[CH](CCC(O)=O)C(O)=O)cnc2N1"                                                                                                                                       
+FOL SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCc2cnc3c(n2)C(=O)N=C(N3)N"                                                                                                                                   
+FOL SMILES           "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1C(=O)NC(CCC(=O)O)C(=O)O)NCc2cnc3c(n2)C(=O)N=C(N3)N"                                                                                                                                        
+FOL InChI            InChI                1.03  "InChI=1S/C19H19N7O6/c20-19-25-15-14(17(30)26-19)23-11(8-22-15)7-21-10-3-1-9(2-4-10)16(29)24-12(18(31)32)5-6-13(27)28/h1-4,8,12,21H,5-7H2,(H,24,29)(H,27,28)(H,31,32)(H3,20,22,25,26,30)/t12-/m0/s1" 
+FOL InChIKey         InChI                1.03  OVBPIULPVIDEAO-LBPRGKRZSA-N                                                                                                                                                                          
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-FOL "SYSTEMATIC NAME"              ACDLabs 10.04  "N-[(4-{[(2-amino-4-oxo-1,4-dihydropteridin-6-yl)methyl]amino}phenyl)carbonyl]-L-glutamic acid"
-FOL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-[[4-[(2-amino-4-oxo-1H-pteridin-6-yl)methylamino]phenyl]carbonylamino]pentanedioic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+FOL "SYSTEMATIC NAME" ACDLabs              10.04 "N-[(4-{[(2-amino-4-oxo-1,4-dihydropteridin-6-yl)methyl]amino}phenyl)carbonyl]-L-glutamic acid"  
+FOL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-[[4-[(2-amino-4-oxo-1H-pteridin-6-yl)methylamino]phenyl]carbonylamino]pentanedioic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-FOL  "Create component" 1999-07-08 RCSB
-FOL "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   FOL
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB00158
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "Folic acid"
-_pdbe_chem_comp_drugbank_details.description               "Folic acid, also known as folate or Vitamin B9, is a member of the B vitamin family and an essential cofactor for enzymes involved in DNA and RNA synthesis. More specifically, Folic acid is required by the body for the synthesis of purines, pyrimidines, and methionine before incorporation into DNA or protein. Folic acid is particularly important during phases of rapid cell division, such as infancy, pregnancy, and erythropoiesis, and plays a protective factor in the development of cancer. As humans are unable to synthesize folic acid endogenously, diet and supplementation is necessary to prevent deficiencies. For example, folic acid is present in green vegetables, beans, avocado, and some fruits [L5744].  In order to function properly within the body, folic acid must first be reduced by the enzyme dihydrofolate reductase (DHFR) into the cofactors dihydrofolate (DHF) and tetrahydrofolate (THF). This important pathway, which is required for de novo synthesis of nucleic acids and amino acids, is disrupted by anti-metabolite therapies such as [DB00563] as they function as DHFR inhibitors to prevent DNA synthesis in rapidly dividing cells, and therefore prevent the formation of DHF and THF. When used in high doses such as for cancer therapy, or in low doses such as for Rheumatoid Arthritis or psoriasis, [DB00563] impedes the body's ability to create folic acid. This results in a deficiency of coenzymes and a resultant buildup of toxic substances that are responsible for numerous adverse side effects. As a result, supplementation with 1-5mg of folic acid is recommended to prevent deficiency and a number of side effects associated with MTX therapy including mouth ulcers and gastrointestinal irritation. [DB00650] (also known as folinic acid) supplementation is typically used for high-dose MTX regimens for the treatment of cancer. Levoleucovorin and leucovorin are analogs of tetrahydrofolate (THF), and are able to bypass DHFR reduction and act as a cellular replacement for the co-factor THF.  There are also several antiepileptic drugs (AEDs) that are associated with reduced serum and red blood cell folate, including [DB00564] (CBZ), [DB00252] (PHT), or barbiturates [A37004]. Folic acid is therefore often provided as supplementation to individuals using these medications, particularly to women of child-bearing age.   Inadequate folate levels can result in a number of health concerns including cardiovascular disease, megaloblastic anemias, cognitive deficiencies, and neural tube defects (NTDs). Folic acid is typically supplemented during pregnancy to prevent the development of NTDs and in individuals with alcoholism to prevent the development of neurological disorders, for example."
-_pdbe_chem_comp_drugbank_details.cas_number                59-30-3
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       "Folic acid, as it is biochemically inactive, is converted to tetrahydrofolic acid and methyltetrahydrofolate by dihydrofolate reductase (DHFR). These folic acid congeners are transported across cells by receptor-mediated endocytosis where they are needed to maintain normal erythropoiesis, synthesize purine and thymidylate nucleic acids, interconvert amino acids, methylate tRNA, and generate and use formate. Using vitamin B12 as a cofactor, folic acid can normalize high homocysteine levels by remethylation of homocysteine to methionine via methionine synthetase."
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           FOL
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB00158
-_pdbe_chem_comp_drugbank_classification.parent            "Glutamic acid and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as glutamic acid and derivatives. These are compounds containing glutamic acid or a derivative thereof resulting from reaction of glutamic acid at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-FOL DB00158 "Folate receptor gamma" Humans P41439 unknown 1
-FOL DB00158  "Folate receptor beta" Humans P14207 unknown 2
-FOL DB00158 "Folate receptor alpha" Humans P15328 unknown 3
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-FOL                                                                                          Lexpec   ChEMBL
-FOL                                                                                         Folvite   ChEMBL
-FOL                                                                                        Folicare   ChEMBL
-FOL                                                                                         Folacin   ChEMBL
-FOL                                                                                    "Vitamin Bc"   ChEMBL
-FOL                                                                                    "Folic Acid"   ChEMBL
-FOL                                                                                           Roche   ChEMBL
-FOL                                                                          "Pteroylglutamic Acid"   ChEMBL
-FOL                                                                                          Folsan   ChEMBL
-FOL                                                                                   "Bio Science"   ChEMBL
-FOL                                                                                     Preconceive   ChEMBL
-FOL                                                                                    "Natur Flow"   ChEMBL
-FOL                                                                                         Folicet   ChEMBL
-FOL                                                                                     "Vitamin M"   ChEMBL
-FOL                                                                                         Folacin DrugBank
-FOL                                                                                          Folate DrugBank
-FOL                                                                                    "Folic Acid" DrugBank
-FOL "N-[(4-{[(2-amino-4-oxo-1,4-dihydropteridin-6-yl)methyl]amino}phenyl)carbonyl]-L-glutamic acid" DrugBank
-FOL                                                                     "N-pteroyl-L-glutamic acid" DrugBank
-FOL                                                                                             PGA DrugBank
-FOL                                                                                          PteGlu DrugBank
-FOL                                                                             Pteroyl-L-glutamate DrugBank
-FOL                                                                       "Pteroyl-L-glutamic acid" DrugBank
-FOL                                                                   "Pteroyl-L-monoglutamic acid" DrugBank
-FOL                                                                          "Pteroylglutamic acid" DrugBank
-FOL                                                                                    "Vitamin B9" DrugBank
-FOL                                                                                    "Vitamin Bc" DrugBank
-FOL                                                                                     "Vitamin M" DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-FOL  N1 N  6.404 -4.916  1
-FOL  C2 C  5.104 -4.166  2
-FOL NA2 N  3.805 -4.916  3
-FOL  N3 N  5.104 -2.666  4
-FOL  C4 C  6.404 -1.916  5
-FOL  O4 O  6.404 -0.416  6
-FOL C4A C  7.702 -2.666  7
-FOL  N5 N  9.043 -1.864  8
-FOL  C6 C 10.402 -2.635  9
-FOL  C7 C 10.402 -4.197 10
-FOL  N8 N  9.043 -4.968 11
-FOL C8A C  7.702 -4.166 12
-FOL  C9 C 11.699 -1.879 13
-FOL N10 N 13.001 -2.624 14
-FOL C11 C 16.889 -0.359 15
-FOL C12 C 15.587  0.386 16
-FOL C13 C 14.291 -0.369 17
-FOL C14 C 14.297 -1.869 18
-FOL C15 C 15.599 -2.614 19
-FOL C16 C 16.895 -1.859 20
-FOL   C C 18.185  0.396 21
-FOL   O O 18.179  1.896 22
-FOL   N N 19.487 -0.349 23
-FOL  CA C 20.783  0.406 24
-FOL  CB C 20.777  1.906 25
-FOL  CG C 22.074  2.661 26
-FOL  CD C 22.068  4.161 27
-FOL OE1 O 23.364  4.916 28
-FOL OE2 O 20.766  4.906 29
-FOL  CT C 22.085 -0.339 30
-FOL  O1 O 23.381  0.416 31
-FOL  O2 O 22.091 -1.839 32
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-FOL  N1  C2 SINGLE      NONE  1
-FOL  N1 C8A SINGLE      NONE  2
-FOL  C2 NA2 SINGLE      NONE  3
-FOL  C2  N3 DOUBLE      NONE  4
-FOL  N3  C4 SINGLE      NONE  5
-FOL  C4  O4 DOUBLE      NONE  6
-FOL  C4 C4A SINGLE      NONE  7
-FOL C4A  N5 SINGLE      NONE  8
-FOL C4A C8A DOUBLE      NONE  9
-FOL  N5  C6 DOUBLE      NONE 10
-FOL  C6  C7 SINGLE      NONE 11
-FOL  C6  C9 SINGLE      NONE 12
-FOL  C7  N8 DOUBLE      NONE 13
-FOL  N8 C8A SINGLE      NONE 14
-FOL  C9 N10 SINGLE      NONE 15
-FOL N10 C14 SINGLE      NONE 16
-FOL C11 C12 DOUBLE      NONE 17
-FOL C11 C16 SINGLE      NONE 18
-FOL C11   C SINGLE      NONE 19
-FOL C12 C13 SINGLE      NONE 20
-FOL C13 C14 DOUBLE      NONE 21
-FOL C14 C15 SINGLE      NONE 22
-FOL C15 C16 DOUBLE      NONE 23
-FOL   C   O DOUBLE      NONE 24
-FOL   C   N SINGLE      NONE 25
-FOL   N  CA SINGLE      NONE 26
-FOL  CA  CB SINGLE BEGINDASH 27
-FOL  CA  CT SINGLE      NONE 28
-FOL  CB  CG SINGLE      NONE 29
-FOL  CG  CD SINGLE      NONE 30
-FOL  CD OE1 DOUBLE      NONE 31
-FOL  CD OE2 SINGLE      NONE 32
-FOL  CT  O1 DOUBLE      NONE 33
-FOL  CT  O2 SINGLE      NONE 34
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-FOL MurckoScaffold S1 scaffold O=c1nc[nH]c2ncc(CNc3ccccc3)nc12 InChI=1S/C13H11N5O/c19-13-11-12(16-8-17-13)15-7-10(18-11)6-14-9-4-2-1-3-5-9/h1-5,7-8,14H,6H2,(H,15,16,17,19) JKBXCYBRFWFQPJ-UHFFFAOYSA-N
-FOL          amide F1 fragment                         CC(N)=O                                                                       InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-FOL        peptide F2 fragment                           NCC=O                                                                           InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-FOL         phenyl F3 fragment                        c1ccccc1                                                                           InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-FOL      pteridine F4 fragment                  c1cnc2ncncc2n1                                                              InChI=1S/C6H4N4/c1-2-9-6-5(8-1)3-7-4-10-6/h1-4H CPNGPNLZQNNVQM-UHFFFAOYSA-N
-FOL       pyrazine F5 fragment                        c1cnccn1                                                                         InChI=1S/C4H4N2/c1-2-6-4-3-5-1/h1-4H KYQCOXFCLRTKLS-UHFFFAOYSA-N
-FOL     pyrimidine F6 fragment                        c1cncnc1                                                                         InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-FOL   N F1 1
-FOL   C F1 1
-FOL   O F1 1
-FOL C11 F1 1
-FOL  O1 F2 1
-FOL  CT F2 1
-FOL  CA F2 1
-FOL   N F2 1
-FOL C11 F3 1
-FOL C12 F3 1
-FOL C13 F3 1
-FOL C14 F3 1
-FOL C15 F3 1
-FOL C16 F3 1
-FOL  C6 F4 1
-FOL  N5 F4 1
-FOL C4A F4 1
-FOL C8A F4 1
-FOL  N8 F4 1
-FOL  C7 F4 1
-FOL  N1 F4 1
-FOL  C2 F4 1
-FOL  N3 F4 1
-FOL  C4 F4 1
-FOL C4A F5 1
-FOL C8A F5 1
-FOL  N8 F5 1
-FOL  C7 F5 1
-FOL  C6 F5 1
-FOL  N5 F5 1
-FOL C4A F6 1
-FOL  C4 F6 1
-FOL  N3 F6 1
-FOL  C2 F6 1
-FOL  N1 F6 1
-FOL C8A F6 1
-FOL  N1 S1 1
-FOL  C2 S1 1
-FOL  N3 S1 1
-FOL  C4 S1 1
-FOL  O4 S1 1
-FOL C4A S1 1
-FOL  N5 S1 1
-FOL  C6 S1 1
-FOL  C7 S1 1
-FOL  N8 S1 1
-FOL C8A S1 1
-FOL  C9 S1 1
-FOL N10 S1 1
-FOL C11 S1 1
-FOL C12 S1 1
-FOL C13 S1 1
-FOL C14 S1 1
-FOL C15 S1 1
-FOL C16 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               FOL
-_pdbe_chem_comp_rdkit_properties.exactmw                               441.140
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           13
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           7
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     10
-_pdbe_chem_comp_rdkit_properties.NumHBD                                6
-_pdbe_chem_comp_rdkit_properties.NumHBA                                11
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        13
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.211
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       2
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             206.436
-_pdbe_chem_comp_rdkit_properties.tpsa                                  213.280
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.444
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             107.617
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         32
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-FOL UniChem        ChEMBL       CHEMBL1622
-FOL UniChem      DrugBank          DB00158
-FOL UniChem "KEGG LIGAND"           C00504
-FOL UniChem         ChEBI            27470
-FOL UniChem          ZINC ZINC000008577218
-FOL UniChem    NMRShiftDB         20096834
-FOL UniChem     BindingDb         50367343
-FOL UniChem  MetaboLights       MTBLC27470
-FOL UniChem        BRENDA            10763
-FOL UniChem        BRENDA           108872
-FOL UniChem        BRENDA            12672
-FOL UniChem        BRENDA            12830
-FOL UniChem        BRENDA             1322
-FOL UniChem        BRENDA           142288
-FOL UniChem        BRENDA           150199
-FOL UniChem        BRENDA           170829
-FOL UniChem        BRENDA            19682
-FOL UniChem        BRENDA           218797
-FOL UniChem        BRENDA             2840
-FOL UniChem        BRENDA            30367
-FOL UniChem        BRENDA            46495
-FOL UniChem        BRENDA            49991
-FOL UniChem        BRENDA            96506
-FOL UniChem        BRENDA            96507
-FOL UniChem        BRENDA            98564
-FOL UniChem        BRENDA            98605
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-FOL   N1  8.283  0.369 -0.871 ETKDGv2  1
-FOL   C2  8.924  1.437 -0.151 ETKDGv2  2
-FOL  NA2 10.248  1.839 -0.498 ETKDGv2  3
-FOL   N3  8.299  2.040  0.819 ETKDGv2  4
-FOL   C4  6.968  1.662  1.195 ETKDGv2  5
-FOL   O4  6.386  2.262  2.136 ETKDGv2  6
-FOL  C4A  6.297  0.572  0.472 ETKDGv2  7
-FOL   N5  4.962  0.158  0.808 ETKDGv2  8
-FOL   C6  4.381 -0.818  0.170 ETKDGv2  9
-FOL   C7  5.100 -1.486 -0.940 ETKDGv2 10
-FOL   N8  6.306 -1.104 -1.247 ETKDGv2 11
-FOL  C8A  6.952 -0.041 -0.527 ETKDGv2 12
-FOL   C9  2.973 -1.205  0.510 ETKDGv2 13
-FOL  N10  2.020 -0.498 -0.349 ETKDGv2 14
-FOL  C11 -2.240 -0.933 -0.143 ETKDGv2 15
-FOL  C12 -1.449 -1.641  0.684 ETKDGv2 16
-FOL  C13  0.021 -1.500  0.626 ETKDGv2 17
-FOL  C14  0.592 -0.666 -0.264 ETKDGv2 18
-FOL  C15 -0.276  0.099 -1.189 ETKDGv2 19
-FOL  C16 -1.608 -0.026 -1.136 ETKDGv2 20
-FOL    C -3.714 -1.075 -0.076 ETKDGv2 21
-FOL    O -4.212 -2.144  0.373 ETKDGv2 22
-FOL    N -4.579 -0.008 -0.507 ETKDGv2 23
-FOL   CA -6.043 -0.112 -0.566 ETKDGv2 24
-FOL   CB -6.659 -0.209  0.851 ETKDGv2 25
-FOL   CG -6.256  0.957  1.769 ETKDGv2 26
-FOL   CD -6.753  2.278  1.258 ETKDGv2 27
-FOL  OE1 -5.931  3.159  0.893 ETKDGv2 28
-FOL  OE2 -8.117  2.548  1.191 ETKDGv2 29
-FOL   CT -6.448 -1.255 -1.465 ETKDGv2 30
-FOL   O1 -7.154 -2.205 -1.030 ETKDGv2 31
-FOL   O2 -6.044 -1.269 -2.796 ETKDGv2 32
-FOL  HN1  8.786 -0.112 -1.649 ETKDGv2 33
-FOL HN21 10.721  2.613  0.019 ETKDGv2 34
-FOL HN22 10.759  1.363 -1.274 ETKDGv2 35
-FOL   H7  4.631 -2.286 -1.498 ETKDGv2 36
-FOL  H91  2.852 -2.302  0.377 ETKDGv2 37
-FOL  H92  2.768 -0.956  1.574 ETKDGv2 38
-FOL  HN0  2.388  0.168 -1.067 ETKDGv2 39
-FOL  H12 -1.874 -2.315  1.419 ETKDGv2 40
-FOL  H13  0.614 -2.081  1.318 ETKDGv2 41
-FOL  H15  0.168  0.758 -1.924 ETKDGv2 42
-FOL  H16 -2.211  0.521 -1.848 ETKDGv2 43
-FOL   HN -4.161  0.912 -0.769 ETKDGv2 44
-FOL   HA -6.440  0.812 -1.040 ETKDGv2 45
-FOL  HB1 -7.767 -0.240  0.768 ETKDGv2 46
-FOL  HB2 -6.346 -1.157  1.338 ETKDGv2 47
-FOL  HG1 -5.151  0.982  1.883 ETKDGv2 48
-FOL  HG2 -6.686  0.787  2.779 ETKDGv2 49
-FOL HOE2 -8.803  1.869  1.500 ETKDGv2 50
-FOL  HO2 -5.478 -0.521 -3.179 ETKDGv2 51
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+FOL "Create component"  1999-07-08 RCSB 
+FOL "Modify descriptor" 2011-06-04 RCSB 
+# 

@@ -1,317 +1,133 @@
 data_TYB
-#
-_chem_comp.id                                        TYB
-_chem_comp.name                                      TYROSINAL
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C9 H11 N O2"
-_chem_comp.mon_nstd_parent_comp_id                   TYR
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2000-12-01
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            165.189
-_chem_comp.one_letter_code                           Y
-_chem_comp.three_letter_code                         TYB
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1KE1
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
-
-#
+# 
+_chem_comp.id                                    TYB 
+_chem_comp.name                                  TYROSINAL 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C9 H11 N O2" 
+_chem_comp.mon_nstd_parent_comp_id               TYR 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2000-12-01 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        165.189 
+_chem_comp.one_letter_code                       Y 
+_chem_comp.three_letter_code                     TYB 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1KE1 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-TYB   N   N N 0 1 N N N 25.951 13.740 12.057  1.130  0.760  1.911   N TYB  1
-TYB  CA  CA C 0 1 N N S 26.810 13.074 13.039 -0.279  0.388  2.090  CA TYB  2
-TYB   C   C C 0 1 N N N 26.778 13.808 14.385 -0.529  0.048  3.537   C TYB  3
-TYB   O   O O 0 1 N N N 27.598 13.075 15.362  0.373  0.110  4.336   O TYB  4
-TYB  CB  CB C 0 1 N N N 28.239 13.006 12.511 -0.600 -0.827  1.218  CB TYB  5
-TYB  CG  CG C 0 1 Y N N 28.461 12.021 11.377 -0.350 -0.487 -0.228  CG TYB  6
-TYB CD1 CD1 C 0 1 Y N N 29.319 12.322 10.329  0.896 -0.708 -0.783 CD1 TYB  7
-TYB CD2 CD2 C 0 1 Y N N 27.800 10.796 11.379 -1.370  0.038 -1.000 CD2 TYB  8
-TYB CE1 CE1 C 0 1 Y N N 29.506 11.394  9.304  1.128 -0.397 -2.109 CE1 TYB  9
-TYB CE2 CE2 C 0 1 Y N N 27.982  9.875 10.359 -1.141  0.355 -2.325 CE2 TYB 10
-TYB  CZ  CZ C 0 1 Y N N 28.839 10.196  9.324  0.108  0.135 -2.884  CZ TYB 11
-TYB  OH  OH O 0 1 N N N 29.016  9.263  8.307  0.333  0.441 -4.189  OH TYB 12
-TYB   H   H H 0 1 N N N 25.972 13.251 11.161  1.679 -0.038  2.192   H TYB 13
-TYB  H2 HN2 H 0 1 N Y N 26.191 14.725 11.953  1.275  0.877  0.919  H2 TYB 14
-TYB  HA  HA H 0 1 N N N 26.426 12.039 13.200 -0.915  1.223  1.797  HA TYB 15
-TYB  HC  HC H 0 1 N N N 26.236 14.740 14.619 -1.516 -0.249  3.859  HC TYB 16
-TYB HB2 1HB H 0 1 N N N 28.586 14.022 12.210  0.035 -1.662  1.510 HB2 TYB 17
-TYB HB3 2HB H 0 1 N N N 28.947 12.796 13.346 -1.646 -1.103  1.351 HB3 TYB 18
-TYB HD1 HD1 H 0 1 N N N 29.847 13.290 10.310  1.689 -1.124 -0.180 HD1 TYB 19
-TYB HD2 HD2 H 0 1 N N N 27.115 10.549 12.208 -2.343  0.209 -0.564 HD2 TYB 20
-TYB HE1 HE1 H 0 1 N N N 30.190 11.610  8.466  2.102 -0.569 -2.542 HE1 TYB 21
-TYB HE2 HE2 H 0 1 N N N 27.455  8.905 10.370 -1.937  0.771 -2.925 HE2 TYB 22
-TYB  HH  HH H 0 1 N N N 28.553  8.433  8.320  0.119 -0.349 -4.702  HH TYB 23
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+TYB N   N   N 0 1 N N N 25.951 13.740 12.057 1.130  0.760  1.911  N   TYB 1  
+TYB CA  CA  C 0 1 N N S 26.810 13.074 13.039 -0.279 0.388  2.090  CA  TYB 2  
+TYB C   C   C 0 1 N N N 26.778 13.808 14.385 -0.529 0.048  3.537  C   TYB 3  
+TYB O   O   O 0 1 N N N 27.598 13.075 15.362 0.373  0.110  4.336  O   TYB 4  
+TYB CB  CB  C 0 1 N N N 28.239 13.006 12.511 -0.600 -0.827 1.218  CB  TYB 5  
+TYB CG  CG  C 0 1 Y N N 28.461 12.021 11.377 -0.350 -0.487 -0.228 CG  TYB 6  
+TYB CD1 CD1 C 0 1 Y N N 29.319 12.322 10.329 0.896  -0.708 -0.783 CD1 TYB 7  
+TYB CD2 CD2 C 0 1 Y N N 27.800 10.796 11.379 -1.370 0.038  -1.000 CD2 TYB 8  
+TYB CE1 CE1 C 0 1 Y N N 29.506 11.394 9.304  1.128  -0.397 -2.109 CE1 TYB 9  
+TYB CE2 CE2 C 0 1 Y N N 27.982 9.875  10.359 -1.141 0.355  -2.325 CE2 TYB 10 
+TYB CZ  CZ  C 0 1 Y N N 28.839 10.196 9.324  0.108  0.135  -2.884 CZ  TYB 11 
+TYB OH  OH  O 0 1 N N N 29.016 9.263  8.307  0.333  0.441  -4.189 OH  TYB 12 
+TYB H   H   H 0 1 N N N 25.972 13.251 11.161 1.679  -0.038 2.192  H   TYB 13 
+TYB H2  HN2 H 0 1 N Y N 26.191 14.725 11.953 1.275  0.877  0.919  H2  TYB 14 
+TYB HA  HA  H 0 1 N N N 26.426 12.039 13.200 -0.915 1.223  1.797  HA  TYB 15 
+TYB HC  HC  H 0 1 N N N 26.236 14.740 14.619 -1.516 -0.249 3.859  HC  TYB 16 
+TYB HB2 1HB H 0 1 N N N 28.586 14.022 12.210 0.035  -1.662 1.510  HB2 TYB 17 
+TYB HB3 2HB H 0 1 N N N 28.947 12.796 13.346 -1.646 -1.103 1.351  HB3 TYB 18 
+TYB HD1 HD1 H 0 1 N N N 29.847 13.290 10.310 1.689  -1.124 -0.180 HD1 TYB 19 
+TYB HD2 HD2 H 0 1 N N N 27.115 10.549 12.208 -2.343 0.209  -0.564 HD2 TYB 20 
+TYB HE1 HE1 H 0 1 N N N 30.190 11.610 8.466  2.102  -0.569 -2.542 HE1 TYB 21 
+TYB HE2 HE2 H 0 1 N N N 27.455 8.905  10.370 -1.937 0.771  -2.925 HE2 TYB 22 
+TYB HH  HH  H 0 1 N N N 28.553 8.433  8.320  0.119  -0.349 -4.702 HH  TYB 23 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-TYB   N  CA SING N N  1
-TYB   N   H SING N N  2
-TYB   N  H2 SING N N  3
-TYB  CA   C SING N N  4
-TYB  CA  CB SING N N  5
-TYB  CA  HA SING N N  6
-TYB   C   O DOUB N N  7
-TYB   C  HC SING N N  8
-TYB  CB  CG SING N N  9
-TYB  CB HB2 SING N N 10
-TYB  CB HB3 SING N N 11
-TYB  CG CD1 DOUB Y N 12
-TYB  CG CD2 SING Y N 13
-TYB CD1 CE1 SING Y N 14
-TYB CD1 HD1 SING N N 15
-TYB CD2 CE2 DOUB Y N 16
-TYB CD2 HD2 SING N N 17
-TYB CE1  CZ DOUB Y N 18
-TYB CE1 HE1 SING N N 19
-TYB CE2  CZ SING Y N 20
-TYB CE2 HE2 SING N N 21
-TYB  CZ  OH SING N N 22
-TYB  OH  HH SING N N 23
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+TYB N   CA  SING N N 1  
+TYB N   H   SING N N 2  
+TYB N   H2  SING N N 3  
+TYB CA  C   SING N N 4  
+TYB CA  CB  SING N N 5  
+TYB CA  HA  SING N N 6  
+TYB C   O   DOUB N N 7  
+TYB C   HC  SING N N 8  
+TYB CB  CG  SING N N 9  
+TYB CB  HB2 SING N N 10 
+TYB CB  HB3 SING N N 11 
+TYB CG  CD1 DOUB Y N 12 
+TYB CG  CD2 SING Y N 13 
+TYB CD1 CE1 SING Y N 14 
+TYB CD1 HD1 SING N N 15 
+TYB CD2 CE2 DOUB Y N 16 
+TYB CD2 HD2 SING N N 17 
+TYB CE1 CZ  DOUB Y N 18 
+TYB CE1 HE1 SING N N 19 
+TYB CE2 CZ  SING Y N 20 
+TYB CE2 HE2 SING N N 21 
+TYB CZ  OH  SING N N 22 
+TYB OH  HH  SING N N 23 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-TYB           SMILES              ACDLabs 10.04                                                           O=CC(N)Cc1ccc(O)cc1
-TYB SMILES_CANONICAL               CACTVS 3.341                                                      N[C@@H](Cc1ccc(O)cc1)C=O
-TYB           SMILES               CACTVS 3.341                                                        N[CH](Cc1ccc(O)cc1)C=O
-TYB SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                      c1cc(ccc1C[C@@H](C=O)N)O
-TYB           SMILES "OpenEye OEToolkits" 1.5.0                                                           c1cc(ccc1CC(C=O)N)O
-TYB            InChI                InChI  1.03 InChI=1S/C9H11NO2/c10-8(6-11)5-7-1-3-9(12)4-2-7/h1-4,6,8,12H,5,10H2/t8-/m0/s1
-TYB         InChIKey                InChI  1.03                                                   DXGAIOIQACHYRK-QMMMGPOBSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+TYB SMILES           ACDLabs              10.04 "O=CC(N)Cc1ccc(O)cc1"                                                           
+TYB SMILES_CANONICAL CACTVS               3.341 "N[C@@H](Cc1ccc(O)cc1)C=O"                                                      
+TYB SMILES           CACTVS               3.341 "N[CH](Cc1ccc(O)cc1)C=O"                                                        
+TYB SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1C[C@@H](C=O)N)O"                                                      
+TYB SMILES           "OpenEye OEToolkits" 1.5.0 "c1cc(ccc1CC(C=O)N)O"                                                           
+TYB InChI            InChI                1.03  "InChI=1S/C9H11NO2/c10-8(6-11)5-7-1-3-9(12)4-2-7/h1-4,6,8,12H,5,10H2/t8-/m0/s1" 
+TYB InChIKey         InChI                1.03  DXGAIOIQACHYRK-QMMMGPOBSA-N                                                     
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-TYB "SYSTEMATIC NAME"              ACDLabs 10.04 (2S)-2-amino-3-(4-hydroxyphenyl)propanal
-TYB "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 (2S)-2-amino-3-(4-hydroxyphenyl)propanal
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+TYB "SYSTEMATIC NAME" ACDLabs              10.04 "(2S)-2-amino-3-(4-hydroxyphenyl)propanal" 
+TYB "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-3-(4-hydroxyphenyl)propanal" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-TYB  "Create component" 2000-12-01  EBI
-TYB "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   TYB
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB03978
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      Tyrosinal
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           TYB
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB03978
-_pdbe_chem_comp_drugbank_classification.parent            "Amphetamines and derivatives"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Benzene and substituted derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        Benzenoids
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as amphetamines and derivatives. These are organic compounds containing or derived from 1-phenylpropan-2-amine."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-TYB DB03978              "Tyrosine--tRNA ligase" "Thermus thermophilus (strain HB27 / ATCC BAA-163 / DSM 7039)" P83453 unknown 1
-TYB DB03978                      Pseudomonalisin                                 "Pseudomonas sp. (strain 101)" P42790 unknown 2
-TYB DB03978 "Tyrosine--tRNA ligase, cytoplasmic"                                                         Humans P54577 unknown 3
-TYB DB03978              "Tyrosine--tRNA ligase"                                                           APMV Q5UPJ7 unknown 4
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-TYB   N N 5.598  4.125  1
-TYB  CA C 5.598  2.625  2
-TYB   C C 6.897  1.875  3
-TYB   O O 8.196  2.625  4
-TYB  CB C 4.299  1.875  5
-TYB  CG C 4.299  0.375  6
-TYB CD1 C 3.000 -0.375  7
-TYB CD2 C 5.598 -0.375  8
-TYB CE1 C 3.000 -1.875  9
-TYB CE2 C 5.598 -1.875 10
-TYB  CZ C 4.299 -2.625 11
-TYB  OH O 4.299 -4.125 12
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-TYB   N  CA SINGLE BEGINDASH  1
-TYB  CA   C SINGLE      NONE  2
-TYB  CA  CB SINGLE      NONE  3
-TYB   C   O DOUBLE      NONE  4
-TYB  CB  CG SINGLE      NONE  5
-TYB  CG CD1 DOUBLE      NONE  6
-TYB  CG CD2 SINGLE      NONE  7
-TYB CD1 CE1 SINGLE      NONE  8
-TYB CD2 CE2 DOUBLE      NONE  9
-TYB CE1  CZ DOUBLE      NONE 10
-TYB CE2  CZ SINGLE      NONE 11
-TYB  CZ  OH SINGLE      NONE 12
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-TYB MurckoScaffold S1 scaffold c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-TYB        peptide F1 fragment    NCC=O InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-TYB         phenyl F2 fragment c1ccccc1 InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-TYB   O F1 1
-TYB   C F1 1
-TYB  CA F1 1
-TYB   N F1 1
-TYB  CG F2 1
-TYB CD1 F2 1
-TYB CE1 F2 1
-TYB  CZ F2 1
-TYB CE2 F2 1
-TYB CD2 F2 1
-TYB  CG S1 1
-TYB CD1 S1 1
-TYB CD2 S1 1
-TYB CE1 S1 1
-TYB CE2 S1 1
-TYB  CZ S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               TYB
-_pdbe_chem_comp_rdkit_properties.exactmw                               165.079
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        3
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.222
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             86.479
-_pdbe_chem_comp_rdkit_properties.tpsa                                  63.320
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.056
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             44.974
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         12
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-TYB UniChem   ChEMBL    CHEMBL1236467
-TYB UniChem DrugBank          DB03978
-TYB UniChem    ChEBI            46209
-TYB UniChem     ZINC ZINC000002043207
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-TYB   N -1.817  0.677 -1.628 ETKDGv2  1
-TYB  CA -2.066 -0.202 -0.480 ETKDGv2  2
-TYB   C -3.518 -0.187 -0.059 ETKDGv2  3
-TYB   O -4.337  0.532 -0.612 ETKDGv2  4
-TYB  CB -1.174  0.206  0.706 ETKDGv2  5
-TYB  CG  0.291  0.108  0.358 ETKDGv2  6
-TYB CD1  1.050  1.214  0.243 ETKDGv2  7
-TYB CD2  0.913 -1.223  0.150 ETKDGv2  8
-TYB CE1  2.483  1.103 -0.097 ETKDGv2  9
-TYB CE2  2.213 -1.321 -0.158 ETKDGv2 10
-TYB  CZ  3.039 -0.100 -0.290 ETKDGv2 11
-TYB  OH  4.391 -0.195 -0.611 ETKDGv2 12
-TYB   H -2.392  0.348 -2.437 ETKDGv2 13
-TYB  H2 -2.118  1.652 -1.395 ETKDGv2 14
-TYB  HA -1.818 -1.245 -0.774 ETKDGv2 15
-TYB  HC -3.843 -0.831  0.751 ETKDGv2 16
-TYB HB2 -1.438  1.240  1.023 ETKDGv2 17
-TYB HB3 -1.373 -0.461  1.573 ETKDGv2 18
-TYB HD1  0.622  2.198  0.391 ETKDGv2 19
-TYB HD2  0.318 -2.122  0.251 ETKDGv2 20
-TYB HE1  3.081  2.001 -0.191 ETKDGv2 21
-TYB HE2  2.659 -2.296 -0.307 ETKDGv2 22
-TYB  HH  4.832 -1.094 -0.761 ETKDGv2 23
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+TYB "Create component"  2000-12-01 EBI  
+TYB "Modify descriptor" 2011-06-04 RCSB 
+# 

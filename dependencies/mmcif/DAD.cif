@@ -1,431 +1,177 @@
 data_DAD
-#
-_chem_comp.id                                        DAD
-_chem_comp.name                                      "2',3'-DIDEOXYADENOSINE-5'-TRIPHOSPHATE"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C10 H16 N5 O11 P3"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            475.182
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         DAD
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1CJT
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    DAD 
+_chem_comp.name                                  "2',3'-DIDEOXYADENOSINE-5'-TRIPHOSPHATE" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C10 H16 N5 O11 P3" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        475.182 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     DAD 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1CJT 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-DAD     PG   PG P 0 1 N N N 56.851  -6.523 58.752  1.154  0.282 -6.595     PG DAD  1
-DAD    O1G  O1G O 0 1 N N N 56.324  -5.374 57.973 -0.203  0.096 -7.154    O1G DAD  2
-DAD    O2G  O2G O 0 1 N N N 55.991  -7.718 58.956  2.043  1.148 -7.622    O2G DAD  3
-DAD    O3G  O3G O 0 1 N N N 57.282  -6.017 60.085  1.843 -1.154 -6.369    O3G DAD  4
-DAD     PB   PB P 0 1 N N S 58.577  -8.235 57.439  0.156  0.140 -4.215     PB DAD  5
-DAD    O1B  O1B O 0 1 N N N 58.271  -9.389 58.332  0.805 -1.178 -4.044    O1B DAD  6
-DAD    O2B  O2B O 0 1 N N N 59.952  -8.064 56.888 -1.303 -0.060 -4.863    O2B DAD  7
-DAD    O3B  O3B O 0 1 N N N 58.162  -6.965 58.136  1.053  1.057 -5.188    O3B DAD  8
-DAD     PA   PA P 0 1 N N R 56.784  -9.174 55.499 -0.890 -0.108 -1.865     PA DAD  9
-DAD    O1A  O1A O 0 1 N N N 56.406  -8.510 54.229 -0.225 -1.423 -1.729    O1A DAD 10
-DAD    O2A  O2A O 0 1 N N N 55.730  -9.752 56.372 -2.333 -0.304 -2.552    O2A DAD 11
-DAD    O3A  O3A O 0 1 N N N 57.599  -8.221 56.305  0.013  0.858 -2.781    O3A DAD 12
-DAD  "O5'"  O5* O 0 1 N N N 57.848 -10.307 55.139 -1.075  0.552 -0.408  "O5'" DAD 13
-DAD  "C5'"  C5* C 0 1 N N N 57.450 -11.666 54.995 -1.881 -0.348  0.353  "C5'" DAD 14
-DAD  "C4'"  C4* C 0 1 N N R 56.935 -11.914 53.595 -2.096  0.222  1.757  "C4'" DAD 15
-DAD  "O4'"  O4* O 0 1 N N N 56.307 -13.215 53.565 -0.841  0.305  2.467  "O4'" DAD 16
-DAD  "C3'"  C3* C 0 1 N N N 57.982 -11.917 52.477 -2.967 -0.735  2.599  "C3'" DAD 17
-DAD  "C2'"  C2* C 0 1 N N N 57.404 -12.883 51.443 -2.363 -0.640  4.018  "C2'" DAD 18
-DAD  "C1'"  C1* C 0 1 N N S 56.561 -13.807 52.319 -1.199  0.363  3.865  "C1'" DAD 19
-DAD     N9   N9 N 0 1 Y N N 56.716 -15.252 52.419 -0.064 -0.040  4.699     N9 DAD 20
-DAD     C8   C8 C 0 1 Y N N 57.849 -15.959 52.714  0.946 -0.879  4.335     C8 DAD 21
-DAD     N7   N7 N 0 1 Y N N 57.702 -17.255 52.619  1.785 -1.017  5.320     N7 DAD 22
-DAD     C5   C5 C 0 1 Y N N 56.374 -17.409 52.247  1.370 -0.274  6.374     C5 DAD 23
-DAD     C6   C6 C 0 1 Y N N 55.601 -18.548 51.963  1.853 -0.045  7.674     C6 DAD 24
-DAD     N6   N6 N 0 1 N N N 56.060 -19.800 52.069  3.022 -0.645  8.110     N6 DAD 25
-DAD     N1   N1 N 0 1 Y N N 54.301 -18.354 51.632  1.165  0.763  8.472     N1 DAD 26
-DAD     C2   C2 C 0 1 Y N N 53.848 -17.099 51.529  0.049  1.339  8.064     C2 DAD 27
-DAD     N3   N3 N 0 1 Y N N 54.486 -15.954 51.758 -0.444  1.150  6.859     N3 DAD 28
-DAD     C4   C4 C 0 1 Y N N 55.762 -16.185 52.104  0.175  0.357  5.991     C4 DAD 29
-DAD   HOG2 2HOG H 0 0 N N N 56.328  -8.453 59.454  2.078  0.650 -8.450   HOG2 DAD 30
-DAD   HOG3 3HOG H 0 0 N N N 57.619  -6.752 60.583  2.724 -0.988 -6.005   HOG3 DAD 31
-DAD   HOB2 2HOB H 0 0 N N N 60.147  -7.328 56.319 -1.690  0.820 -4.957   HOB2 DAD 32
-DAD   HOA2 2HOA H 0 0 N N N 55.972 -10.177 57.186 -2.731  0.573 -2.621   HOA2 DAD 33
-DAD "H5'1" 1H5* H 0 0 N N N 58.269 -12.371 55.268 -1.379 -1.312  0.427 "H5'1" DAD 34
-DAD "H5'2" 2H5* H 0 0 N N N 56.708 -11.967 55.771 -2.846 -0.477 -0.137 "H5'2" DAD 35
-DAD  "H4'"  H4* H 0 1 N N N 56.251 -11.057 53.391 -2.562  1.206  1.698  "H4'" DAD 36
-DAD "H3'1" 1H3* H 0 0 N N N 58.230 -10.906 52.075 -2.892 -1.754  2.219 "H3'1" DAD 37
-DAD "H3'2" 2H3* H 0 0 N N N 59.015 -12.166 52.814 -4.005 -0.403  2.604 "H3'2" DAD 38
-DAD "H2'1" 1H2* H 0 0 N N N 56.857 -12.402 50.598 -1.989 -1.613  4.340 "H2'1" DAD 39
-DAD "H2'2" 2H2* H 0 0 N N N 58.157 -13.395 50.800 -3.103 -0.262  4.724 "H2'2" DAD 40
-DAD  "H1'"  H1* H 0 1 N N N 55.693 -13.871 51.622 -1.527  1.367  4.131  "H1'" DAD 41
-DAD     H8   H8 H 0 1 N N N 58.814 -15.514 53.008  1.037 -1.358  3.372     H8 DAD 42
-DAD   HN61 1HN6 H 0 0 N N N 55.499 -20.626 51.862  3.348 -0.476  9.008   HN61 DAD 43
-DAD   HN62 2HN6 H 0 0 N N N 56.421 -19.909 53.016  3.513 -1.237  7.519   HN62 DAD 44
-DAD     H2   H2 H 0 1 N N N 52.797 -16.993 51.209 -0.478  1.990  8.746     H2 DAD 45
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+DAD PG     PG   P 0 1 N N N 56.851 -6.523  58.752 1.154  0.282  -6.595 PG     DAD 1  
+DAD O1G    O1G  O 0 1 N N N 56.324 -5.374  57.973 -0.203 0.096  -7.154 O1G    DAD 2  
+DAD O2G    O2G  O 0 1 N N N 55.991 -7.718  58.956 2.043  1.148  -7.622 O2G    DAD 3  
+DAD O3G    O3G  O 0 1 N N N 57.282 -6.017  60.085 1.843  -1.154 -6.369 O3G    DAD 4  
+DAD PB     PB   P 0 1 N N S 58.577 -8.235  57.439 0.156  0.140  -4.215 PB     DAD 5  
+DAD O1B    O1B  O 0 1 N N N 58.271 -9.389  58.332 0.805  -1.178 -4.044 O1B    DAD 6  
+DAD O2B    O2B  O 0 1 N N N 59.952 -8.064  56.888 -1.303 -0.060 -4.863 O2B    DAD 7  
+DAD O3B    O3B  O 0 1 N N N 58.162 -6.965  58.136 1.053  1.057  -5.188 O3B    DAD 8  
+DAD PA     PA   P 0 1 N N R 56.784 -9.174  55.499 -0.890 -0.108 -1.865 PA     DAD 9  
+DAD O1A    O1A  O 0 1 N N N 56.406 -8.510  54.229 -0.225 -1.423 -1.729 O1A    DAD 10 
+DAD O2A    O2A  O 0 1 N N N 55.730 -9.752  56.372 -2.333 -0.304 -2.552 O2A    DAD 11 
+DAD O3A    O3A  O 0 1 N N N 57.599 -8.221  56.305 0.013  0.858  -2.781 O3A    DAD 12 
+DAD "O5'"  O5*  O 0 1 N N N 57.848 -10.307 55.139 -1.075 0.552  -0.408 "O5'"  DAD 13 
+DAD "C5'"  C5*  C 0 1 N N N 57.450 -11.666 54.995 -1.881 -0.348 0.353  "C5'"  DAD 14 
+DAD "C4'"  C4*  C 0 1 N N R 56.935 -11.914 53.595 -2.096 0.222  1.757  "C4'"  DAD 15 
+DAD "O4'"  O4*  O 0 1 N N N 56.307 -13.215 53.565 -0.841 0.305  2.467  "O4'"  DAD 16 
+DAD "C3'"  C3*  C 0 1 N N N 57.982 -11.917 52.477 -2.967 -0.735 2.599  "C3'"  DAD 17 
+DAD "C2'"  C2*  C 0 1 N N N 57.404 -12.883 51.443 -2.363 -0.640 4.018  "C2'"  DAD 18 
+DAD "C1'"  C1*  C 0 1 N N S 56.561 -13.807 52.319 -1.199 0.363  3.865  "C1'"  DAD 19 
+DAD N9     N9   N 0 1 Y N N 56.716 -15.252 52.419 -0.064 -0.040 4.699  N9     DAD 20 
+DAD C8     C8   C 0 1 Y N N 57.849 -15.959 52.714 0.946  -0.879 4.335  C8     DAD 21 
+DAD N7     N7   N 0 1 Y N N 57.702 -17.255 52.619 1.785  -1.017 5.320  N7     DAD 22 
+DAD C5     C5   C 0 1 Y N N 56.374 -17.409 52.247 1.370  -0.274 6.374  C5     DAD 23 
+DAD C6     C6   C 0 1 Y N N 55.601 -18.548 51.963 1.853  -0.045 7.674  C6     DAD 24 
+DAD N6     N6   N 0 1 N N N 56.060 -19.800 52.069 3.022  -0.645 8.110  N6     DAD 25 
+DAD N1     N1   N 0 1 Y N N 54.301 -18.354 51.632 1.165  0.763  8.472  N1     DAD 26 
+DAD C2     C2   C 0 1 Y N N 53.848 -17.099 51.529 0.049  1.339  8.064  C2     DAD 27 
+DAD N3     N3   N 0 1 Y N N 54.486 -15.954 51.758 -0.444 1.150  6.859  N3     DAD 28 
+DAD C4     C4   C 0 1 Y N N 55.762 -16.185 52.104 0.175  0.357  5.991  C4     DAD 29 
+DAD HOG2   2HOG H 0 0 N N N 56.328 -8.453  59.454 2.078  0.650  -8.450 HOG2   DAD 30 
+DAD HOG3   3HOG H 0 0 N N N 57.619 -6.752  60.583 2.724  -0.988 -6.005 HOG3   DAD 31 
+DAD HOB2   2HOB H 0 0 N N N 60.147 -7.328  56.319 -1.690 0.820  -4.957 HOB2   DAD 32 
+DAD HOA2   2HOA H 0 0 N N N 55.972 -10.177 57.186 -2.731 0.573  -2.621 HOA2   DAD 33 
+DAD "H5'1" 1H5* H 0 0 N N N 58.269 -12.371 55.268 -1.379 -1.312 0.427  "H5'1" DAD 34 
+DAD "H5'2" 2H5* H 0 0 N N N 56.708 -11.967 55.771 -2.846 -0.477 -0.137 "H5'2" DAD 35 
+DAD "H4'"  H4*  H 0 1 N N N 56.251 -11.057 53.391 -2.562 1.206  1.698  "H4'"  DAD 36 
+DAD "H3'1" 1H3* H 0 0 N N N 58.230 -10.906 52.075 -2.892 -1.754 2.219  "H3'1" DAD 37 
+DAD "H3'2" 2H3* H 0 0 N N N 59.015 -12.166 52.814 -4.005 -0.403 2.604  "H3'2" DAD 38 
+DAD "H2'1" 1H2* H 0 0 N N N 56.857 -12.402 50.598 -1.989 -1.613 4.340  "H2'1" DAD 39 
+DAD "H2'2" 2H2* H 0 0 N N N 58.157 -13.395 50.800 -3.103 -0.262 4.724  "H2'2" DAD 40 
+DAD "H1'"  H1*  H 0 1 N N N 55.693 -13.871 51.622 -1.527 1.367  4.131  "H1'"  DAD 41 
+DAD H8     H8   H 0 1 N N N 58.814 -15.514 53.008 1.037  -1.358 3.372  H8     DAD 42 
+DAD HN61   1HN6 H 0 0 N N N 55.499 -20.626 51.862 3.348  -0.476 9.008  HN61   DAD 43 
+DAD HN62   2HN6 H 0 0 N N N 56.421 -19.909 53.016 3.513  -1.237 7.519  HN62   DAD 44 
+DAD H2     H2   H 0 1 N N N 52.797 -16.993 51.209 -0.478 1.990  8.746  H2     DAD 45 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-DAD    PG    O1G DOUB N N  1
-DAD    PG    O2G SING N N  2
-DAD    PG    O3G SING N N  3
-DAD    PG    O3B SING N N  4
-DAD   O2G   HOG2 SING N N  5
-DAD   O3G   HOG3 SING N N  6
-DAD    PB    O1B DOUB N N  7
-DAD    PB    O2B SING N N  8
-DAD    PB    O3B SING N N  9
-DAD    PB    O3A SING N N 10
-DAD   O2B   HOB2 SING N N 11
-DAD    PA    O1A DOUB N N 12
-DAD    PA    O2A SING N N 13
-DAD    PA    O3A SING N N 14
-DAD    PA  "O5'" SING N N 15
-DAD   O2A   HOA2 SING N N 16
-DAD "O5'"  "C5'" SING N N 17
-DAD "C5'"  "C4'" SING N N 18
-DAD "C5'" "H5'1" SING N N 19
-DAD "C5'" "H5'2" SING N N 20
-DAD "C4'"  "O4'" SING N N 21
-DAD "C4'"  "C3'" SING N N 22
-DAD "C4'"  "H4'" SING N N 23
-DAD "O4'"  "C1'" SING N N 24
-DAD "C3'"  "C2'" SING N N 25
-DAD "C3'" "H3'1" SING N N 26
-DAD "C3'" "H3'2" SING N N 27
-DAD "C2'"  "C1'" SING N N 28
-DAD "C2'" "H2'1" SING N N 29
-DAD "C2'" "H2'2" SING N N 30
-DAD "C1'"     N9 SING N N 31
-DAD "C1'"  "H1'" SING N N 32
-DAD    N9     C8 SING Y N 33
-DAD    N9     C4 SING Y N 34
-DAD    C8     N7 DOUB Y N 35
-DAD    C8     H8 SING N N 36
-DAD    N7     C5 SING Y N 37
-DAD    C5     C6 SING Y N 38
-DAD    C5     C4 DOUB Y N 39
-DAD    C6     N6 SING N N 40
-DAD    C6     N1 DOUB Y N 41
-DAD    N6   HN61 SING N N 42
-DAD    N6   HN62 SING N N 43
-DAD    N1     C2 SING Y N 44
-DAD    C2     N3 DOUB Y N 45
-DAD    C2     H2 SING N N 46
-DAD    N3     C4 SING Y N 47
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+DAD PG    O1G    DOUB N N 1  
+DAD PG    O2G    SING N N 2  
+DAD PG    O3G    SING N N 3  
+DAD PG    O3B    SING N N 4  
+DAD O2G   HOG2   SING N N 5  
+DAD O3G   HOG3   SING N N 6  
+DAD PB    O1B    DOUB N N 7  
+DAD PB    O2B    SING N N 8  
+DAD PB    O3B    SING N N 9  
+DAD PB    O3A    SING N N 10 
+DAD O2B   HOB2   SING N N 11 
+DAD PA    O1A    DOUB N N 12 
+DAD PA    O2A    SING N N 13 
+DAD PA    O3A    SING N N 14 
+DAD PA    "O5'"  SING N N 15 
+DAD O2A   HOA2   SING N N 16 
+DAD "O5'" "C5'"  SING N N 17 
+DAD "C5'" "C4'"  SING N N 18 
+DAD "C5'" "H5'1" SING N N 19 
+DAD "C5'" "H5'2" SING N N 20 
+DAD "C4'" "O4'"  SING N N 21 
+DAD "C4'" "C3'"  SING N N 22 
+DAD "C4'" "H4'"  SING N N 23 
+DAD "O4'" "C1'"  SING N N 24 
+DAD "C3'" "C2'"  SING N N 25 
+DAD "C3'" "H3'1" SING N N 26 
+DAD "C3'" "H3'2" SING N N 27 
+DAD "C2'" "C1'"  SING N N 28 
+DAD "C2'" "H2'1" SING N N 29 
+DAD "C2'" "H2'2" SING N N 30 
+DAD "C1'" N9     SING N N 31 
+DAD "C1'" "H1'"  SING N N 32 
+DAD N9    C8     SING Y N 33 
+DAD N9    C4     SING Y N 34 
+DAD C8    N7     DOUB Y N 35 
+DAD C8    H8     SING N N 36 
+DAD N7    C5     SING Y N 37 
+DAD C5    C6     SING Y N 38 
+DAD C5    C4     DOUB Y N 39 
+DAD C6    N6     SING N N 40 
+DAD C6    N1     DOUB Y N 41 
+DAD N6    HN61   SING N N 42 
+DAD N6    HN62   SING N N 43 
+DAD N1    C2     SING Y N 44 
+DAD C2    N3     DOUB Y N 45 
+DAD C2    H2     SING N N 46 
+DAD N3    C4     SING Y N 47 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-DAD SMILES_CANONICAL               CACTVS 3.341                                                                                                           Nc1ncnc2n(cnc12)[C@@H]3CC[C@H](CO[P@](O)(=O)O[P@](O)(=O)O[P](O)(O)=O)O3
-DAD           SMILES               CACTVS 3.341                                                                                                                Nc1ncnc2n(cnc12)[CH]3CC[CH](CO[P](O)(=O)O[P](O)(=O)O[P](O)(O)=O)O3
-DAD SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                      c1nc(c2c(n1)n(cn2)[C@@H]3CC[C@@H](O3)CO[P@@](=O)(O)O[P@@](=O)(O)OP(=O)(O)O)N
-DAD           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                        c1nc(c2c(n1)n(cn2)C3CCC(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)N
-DAD            InChI                InChI  1.03 InChI=1S/C10H16N5O11P3/c11-9-8-10(13-4-12-9)15(5-14-8)7-2-1-6(24-7)3-23-28(19,20)26-29(21,22)25-27(16,17)18/h4-7H,1-3H2,(H,19,20)(H,21,22)(H2,11,12,13)(H2,16,17,18)/t6-,7+/m1/s1
-DAD         InChIKey                InChI  1.03                                                                                                                                                       OAKPWEUQDVLTCN-RQJHMYQMSA-N
-#
-_pdbx_chem_comp_identifier.comp_id               DAD
-_pdbx_chem_comp_identifier.type                  "SYSTEMATIC NAME"
-_pdbx_chem_comp_identifier.program               "OpenEye OEToolkits"
-_pdbx_chem_comp_identifier.program_version       1.5.0
-_pdbx_chem_comp_identifier.identifier            "[[(2R,5S)-5-(6-aminopurin-9-yl)oxolan-2-yl]methoxy-hydroxy-phosphoryl] phosphono hydrogen phosphate"
-
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+DAD SMILES_CANONICAL CACTVS               3.341 "Nc1ncnc2n(cnc12)[C@@H]3CC[C@H](CO[P@](O)(=O)O[P@](O)(=O)O[P](O)(O)=O)O3"                                                                                                           
+DAD SMILES           CACTVS               3.341 "Nc1ncnc2n(cnc12)[CH]3CC[CH](CO[P](O)(=O)O[P](O)(=O)O[P](O)(O)=O)O3"                                                                                                                
+DAD SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1nc(c2c(n1)n(cn2)[C@@H]3CC[C@@H](O3)CO[P@@](=O)(O)O[P@@](=O)(O)OP(=O)(O)O)N"                                                                                                      
+DAD SMILES           "OpenEye OEToolkits" 1.5.0 "c1nc(c2c(n1)n(cn2)C3CCC(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)N"                                                                                                                        
+DAD InChI            InChI                1.03  "InChI=1S/C10H16N5O11P3/c11-9-8-10(13-4-12-9)15(5-14-8)7-2-1-6(24-7)3-23-28(19,20)26-29(21,22)25-27(16,17)18/h4-7H,1-3H2,(H,19,20)(H,21,22)(H2,11,12,13)(H2,16,17,18)/t6-,7+/m1/s1" 
+DAD InChIKey         InChI                1.03  OAKPWEUQDVLTCN-RQJHMYQMSA-N                                                                                                                                                         
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-DAD  "Create component" 1999-07-08 RCSB
-DAD "Modify descriptor" 2011-06-04 RCSB
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+DAD "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[[(2R,5S)-5-(6-aminopurin-9-yl)oxolan-2-yl]methoxy-hydroxy-phosphoryl] phosphono hydrogen phosphate" 
+# 
 loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-DAD    PG P  8.660  7.728  1
-DAD   O1G O  8.199  9.155  2
-DAD   O2G O 10.088  8.189  3
-DAD   O3G O  7.233  7.267  4
-DAD    PB P  8.116  5.188  5
-DAD   O1B O  7.003  6.193  6
-DAD   O2B O  9.229  4.182  7
-DAD   O3B O  9.121  6.301  8
-DAD    PA P  7.571  2.647  9
-DAD   O1A O  8.998  3.108 10
-DAD   O2A O  6.144  2.186 11
-DAD   O3A O  7.110  4.075 12
-DAD "O5'" O  8.032  1.220 13
-DAD "C5'" C  7.027  0.107 14
-DAD "C4'" C  7.487 -1.320 15
-DAD "O4'" O  6.604 -2.532 16
-DAD "C3'" C  8.913 -1.786 17
-DAD "C2'" C  8.911 -3.287 18
-DAD "C1'" C  7.483 -3.748 19
-DAD    N9 N  7.018 -5.173 20
-DAD    C8 C  7.893 -6.380 21
-DAD    N7 N  7.018 -7.588 22
-DAD    C5 C  5.598 -7.130 23
-DAD    C6 C  4.299 -7.880 24
-DAD    N6 N  4.299 -9.380 25
-DAD    N1 N  3.000 -7.130 26
-DAD    C2 C  3.000 -5.630 27
-DAD    N3 N  4.299 -4.880 28
-DAD    C4 C  5.598 -5.630 29
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-DAD    PG   O1G DOUBLE       NONE  1
-DAD    PG   O2G SINGLE       NONE  2
-DAD    PG   O3G SINGLE       NONE  3
-DAD    PG   O3B SINGLE       NONE  4
-DAD    PB   O1B DOUBLE       NONE  5
-DAD    PB   O2B SINGLE BEGINWEDGE  6
-DAD    PB   O3B SINGLE       NONE  7
-DAD    PB   O3A SINGLE       NONE  8
-DAD    PA   O1A DOUBLE       NONE  9
-DAD    PA   O2A SINGLE BEGINWEDGE 10
-DAD    PA   O3A SINGLE       NONE 11
-DAD    PA "O5'" SINGLE       NONE 12
-DAD "O5'" "C5'" SINGLE       NONE 13
-DAD "C5'" "C4'" SINGLE  BEGINDASH 14
-DAD "C4'" "O4'" SINGLE       NONE 15
-DAD "C4'" "C3'" SINGLE       NONE 16
-DAD "O4'" "C1'" SINGLE       NONE 17
-DAD "C3'" "C2'" SINGLE       NONE 18
-DAD "C2'" "C1'" SINGLE       NONE 19
-DAD "C1'"    N9 SINGLE  BEGINDASH 20
-DAD    N9    C8 SINGLE       NONE 21
-DAD    N9    C4 SINGLE       NONE 22
-DAD    C8    N7 DOUBLE       NONE 23
-DAD    N7    C5 SINGLE       NONE 24
-DAD    C5    C6 SINGLE       NONE 25
-DAD    C5    C4 DOUBLE       NONE 26
-DAD    C6    N6 SINGLE       NONE 27
-DAD    C6    N1 DOUBLE       NONE 28
-DAD    N1    C2 SINGLE       NONE 29
-DAD    C2    N3 DOUBLE       NONE 30
-DAD    N3    C4 SINGLE       NONE 31
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-DAD MurckoScaffold S1 scaffold c1ncc2ncn([C@H]3CCCO3)c2n1 InChI=1S/C9H10N4O/c1-2-8(14-3-1)13-6-12-7-4-10-5-11-9(7)13/h4-6,8H,1-3H2/t8-/m1/s1 DAKONNSVCLKUJN-MRVPVSSYSA-N
-DAD        adenine F1 fragment          Nc1ncnc2nc[nH]c12                    InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-DAD      imidazole F2 fragment                 c1c[nH]cn1                                         InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-DAD      phosphate F3 fragment                 O=P(O)(O)O                                            InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4) NBIIXXVUZAFLBC-UHFFFAOYSA-N
-DAD         purine F4 fragment           c1ncc2[nH]cnc2n1                           InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-DAD     pyrimidine F5 fragment                   c1cncnc1                                               InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-DAD    N1 F1 1
-DAD    C6 F1 1
-DAD    C5 F1 1
-DAD    C4 F1 1
-DAD    N3 F1 1
-DAD    C2 F1 1
-DAD    N9 F1 1
-DAD    C8 F1 1
-DAD    N7 F1 1
-DAD    N6 F1 1
-DAD    C5 F2 1
-DAD    C4 F2 1
-DAD    N9 F2 1
-DAD    C8 F2 1
-DAD    N7 F2 1
-DAD   O2G F3 1
-DAD    PG F3 1
-DAD   O1G F3 1
-DAD   O3G F3 1
-DAD   O3B F3 1
-DAD   O2B F3 2
-DAD    PB F3 2
-DAD   O1B F3 2
-DAD   O3B F3 2
-DAD   O3A F3 2
-DAD   O2A F3 3
-DAD    PA F3 3
-DAD   O1A F3 3
-DAD   O3A F3 3
-DAD "O5'" F3 3
-DAD    N7 F4 1
-DAD    C8 F4 1
-DAD    N9 F4 1
-DAD    C4 F4 1
-DAD    C5 F4 1
-DAD    C6 F4 1
-DAD    N1 F4 1
-DAD    C2 F4 1
-DAD    N3 F4 1
-DAD    C5 F5 1
-DAD    C6 F5 1
-DAD    N1 F5 1
-DAD    C2 F5 1
-DAD    N3 F5 1
-DAD    C4 F5 1
-DAD "C4'" S1 1
-DAD "O4'" S1 1
-DAD "C3'" S1 1
-DAD "C2'" S1 1
-DAD "C1'" S1 1
-DAD    N9 S1 1
-DAD    C8 S1 1
-DAD    N7 S1 1
-DAD    C5 S1 1
-DAD    C6 S1 1
-DAD    N1 S1 1
-DAD    C2 S1 1
-DAD    N3 S1 1
-DAD    C4 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               DAD
-_pdbe_chem_comp_rdkit_properties.exactmw                               475.006
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           16
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     13
-_pdbe_chem_comp_rdkit_properties.NumHBD                                5
-_pdbe_chem_comp_rdkit_properties.NumHBA                                16
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        19
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.500
-_pdbe_chem_comp_rdkit_properties.NumRings                              3
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             184.572
-_pdbe_chem_comp_rdkit_properties.tpsa                                  238.670
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.380
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             89.666
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         29
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-DAD UniChem ChEMBL    CHEMBL1232097
-DAD UniChem   ZINC ZINC000012501708
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-DAD     PG  3.703  1.703  0.092 ETKDGv2  1
-DAD    O1G  3.897  1.739  1.591 ETKDGv2  2
-DAD    O2G  2.093  1.293 -0.236 ETKDGv2  3
-DAD    O3G  4.033  3.239 -0.538 ETKDGv2  4
-DAD     PB  4.318  0.285 -2.182 ETKDGv2  5
-DAD    O1B  5.403 -0.512 -2.873 ETKDGv2  6
-DAD    O2B  4.142  1.756 -3.004 ETKDGv2  7
-DAD    O3B  4.779  0.560 -0.566 ETKDGv2  8
-DAD     PA  3.101 -2.133 -1.658 ETKDGv2  9
-DAD    O1A  3.836 -2.944 -2.701 ETKDGv2 10
-DAD    O2A  4.005 -2.115 -0.224 ETKDGv2 11
-DAD    O3A  2.838 -0.556 -2.249 ETKDGv2 12
-DAD  "O5'"  1.590 -2.868 -1.370 ETKDGv2 13
-DAD  "C5'"  0.969 -2.189 -0.304 ETKDGv2 14
-DAD  "C4'" -0.469 -2.687 -0.144 ETKDGv2 15
-DAD  "O4'" -1.071 -2.041  0.956 ETKDGv2 16
-DAD  "C3'" -1.307 -2.431 -1.390 ETKDGv2 17
-DAD  "C2'" -2.668 -2.161 -0.829 ETKDGv2 18
-DAD  "C1'" -2.380 -1.671  0.583 ETKDGv2 19
-DAD     N9 -2.514 -0.217  0.663 ETKDGv2 20
-DAD     C8 -1.692  0.797  0.067 ETKDGv2 21
-DAD     N7 -1.971  2.000  0.482 ETKDGv2 22
-DAD     C5 -3.034  1.810  1.412 ETKDGv2 23
-DAD     C6 -3.710  2.792  2.268 ETKDGv2 24
-DAD     N6 -3.404  4.184  2.189 ETKDGv2 25
-DAD     N1 -4.605  2.355  3.114 ETKDGv2 26
-DAD     C2 -4.923  0.943  3.214 ETKDGv2 27
-DAD     N3 -4.313  0.070  2.455 ETKDGv2 28
-DAD     C4 -3.338  0.546  1.519 ETKDGv2 29
-DAD   HOG2  1.560  2.042  0.131 ETKDGv2 30
-DAD   HOG3  5.004  3.367 -0.395 ETKDGv2 31
-DAD   HOB2  5.044  2.164 -2.990 ETKDGv2 32
-DAD   HOA2  4.074 -3.067  0.043 ETKDGv2 33
-DAD "H5'1"  1.514 -2.391  0.646 ETKDGv2 34
-DAD "H5'2"  0.938 -1.090 -0.478 ETKDGv2 35
-DAD  "H4'" -0.449 -3.781  0.064 ETKDGv2 36
-DAD "H3'1" -0.951 -1.536 -1.946 ETKDGv2 37
-DAD "H3'2" -1.311 -3.311 -2.069 ETKDGv2 38
-DAD "H2'1" -3.250 -3.109 -0.788 ETKDGv2 39
-DAD "H2'2" -3.225 -1.417 -1.441 ETKDGv2 40
-DAD  "H1'" -3.099 -2.144  1.287 ETKDGv2 41
-DAD     H8 -0.908  0.594 -0.649 ETKDGv2 42
-DAD   HN61 -3.894  4.868  2.807 ETKDGv2 43
-DAD   HN62 -2.688  4.534  1.514 ETKDGv2 44
-DAD     H2 -5.664  0.609  3.927 ETKDGv2 45
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+DAD "Create component"  1999-07-08 RCSB 
+DAD "Modify descriptor" 2011-06-04 RCSB 
+# 

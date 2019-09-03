@@ -1,605 +1,263 @@
 data_G53
-#
-_chem_comp.id                                        G53
-_chem_comp.name                                      "methyl 2-{4-[{(2R,3S)-3-[({[(3R,3aS,6aR)-hexahydrofuro[2,3-b]furan-3-yl]oxy}carbonyl)amino]-2-hydroxy-4-phenylbutyl}(2-methylpropyl)sulfamoyl]phenyl}-1,3-oxazole-4-carboxylate"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C32 H39 N3 O10 S"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2017-09-28
-_chem_comp.pdbx_modified_date                        2017-11-17
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            657.731
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         G53
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            6B4N
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    G53 
+_chem_comp.name                                  "methyl 2-{4-[{(2R,3S)-3-[({[(3R,3aS,6aR)-hexahydrofuro[2,3-b]furan-3-yl]oxy}carbonyl)amino]-2-hydroxy-4-phenylbutyl}(2-methylpropyl)sulfamoyl]phenyl}-1,3-oxazole-4-carboxylate" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C32 H39 N3 O10 S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2017-09-28 
+_chem_comp.pdbx_modified_date                    2017-11-17 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        657.731 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     G53 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6B4N 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-G53  C2  C1 C 0 1 Y N N 21.401 27.550 15.037   5.247 -0.372  0.892  C2 G53  1
-G53  C3  C2 C 0 1 Y N N 20.045 27.762 14.765   5.341  1.015  0.771  C3 G53  2
-G53  C4  C3 C 0 1 Y N N 19.089 26.772 15.002   4.204  1.791  0.871  C4 G53  3
-G53  C5  C4 C 0 1 Y N N 19.490 25.545 15.466   2.974  1.197  1.090  C5 G53  4
-G53  C6  C5 C 0 1 Y N N 20.834 25.322 15.756   2.875 -0.178  1.212  C6 G53  5
-G53  C7  C6 C 0 1 Y N N 21.789 26.291 15.499   4.004 -0.965  1.114  C7 G53  6
-G53  S8  S1 S 0 1 N N N 18.351 24.245 15.892   1.528  2.195  1.216  S8 G53  7
-G53  O9  O1 O 0 1 N N N 17.235 24.303 14.908   0.641  1.508  2.088  O9 G53  8
-G53 O10  O2 O 0 1 N N N 19.133 23.022 16.004   1.976  3.523  1.452 O10 G53  9
-G53 N11  N1 N 0 1 N N N 17.715 24.606 17.352   0.806  2.203 -0.274 N11 G53 10
-G53 C12  C7 C 0 1 N N N 18.656 24.767 18.427   1.066  3.302 -1.208 C12 G53 11
-G53 C13  C8 C 0 1 N N N 18.326 24.061 19.765   1.818  2.766 -2.428 C13 G53 12
-G53 C14  C9 C 0 1 N N N 18.300 22.539 19.598   2.016  3.895 -3.441 C14 G53 13
-G53 C15 C10 C 0 1 N N N 19.305 24.523 20.833   3.183  2.229 -1.991 C15 G53 14
-G53 C16 C11 C 0 1 N N N 16.413 25.257 17.372  -0.092  1.112 -0.659 C16 G53 15
-G53 C17 C12 C 0 1 N N R 15.309 24.310 17.953  -1.538  1.512 -0.361 C17 G53 16
-G53 O18  O3 O 0 1 N N N 14.171 25.112 18.288  -1.908  2.616 -1.190 O18 G53 17
-G53 C19 C13 C 0 1 N N S 14.920 23.201 16.960  -2.465  0.328 -0.645 C19 G53 18
-G53 N20  N2 N 0 1 N N N 14.048 22.260 17.705  -3.832  0.672 -0.247 N20 G53 19
-G53 C21 C14 C 0 1 N N N 14.365 21.020 18.037  -4.704 -0.303  0.078 C21 G53 20
-G53 O22  O4 O 0 1 N N N 15.437 20.434 17.858  -4.356 -1.467  0.041 O22 G53 21
-G53 O23  O5 O 0 1 N N N 13.308 20.425 18.715  -5.961  0.012  0.443 O23 G53 22
-G53 C24 C15 C 0 1 N N R 13.480 19.024 18.955  -6.846 -1.089  0.780 C24 G53 23
-G53 C25 C16 C 0 1 N N N 12.849 18.830 20.356  -6.778 -1.389  2.288 C25 G53 24
-G53 O26  O6 O 0 1 N N N 11.459 18.801 20.120  -8.071 -1.103  2.841 O26 G53 25
-G53 C27 C17 C 0 1 N N R 11.183 18.188 18.848  -9.044 -1.245  1.788 C27 G53 26
-G53 O28  O7 O 0 1 N N N 10.246 19.048 18.126 -10.127 -0.338  2.037 O28 G53 27
-G53 C29 C18 C 0 1 N N N 10.939 19.689 17.047  -9.854  0.939  1.451 C29 G53 28
-G53 C30 C19 C 0 1 N N N 12.163 18.826 16.736  -8.486  0.845  0.744 C30 G53 29
-G53 C31 C20 C 0 1 N N S 12.504 18.204 18.094  -8.315 -0.695  0.523 C31 G53 30
-G53 C32 C21 C 0 1 N N N 14.162 23.698 15.725  -2.434  0.005 -2.140 C32 G53 31
-G53 C33 C22 C 0 1 Y N N 12.494 22.083 14.678  -4.597 -1.130 -2.688 C33 G53 32
-G53 C34 C23 C 0 1 Y N N 12.176 20.947 13.908  -5.343 -2.267 -2.934 C34 G53 33
-G53 C35 C24 C 0 1 Y N N 13.161 20.241 13.204  -4.741 -3.511 -2.894 C35 G53 34
-G53 C36 C25 C 0 1 Y N N 14.482 20.699 13.339  -3.393 -3.617 -2.607 C36 G53 35
-G53 C37 C26 C 0 1 Y N N 14.819 21.830 14.146  -2.647 -2.480 -2.362 C37 G53 36
-G53 C38 C27 C 0 1 Y N N 13.806 22.511 14.826  -3.249 -1.236 -2.402 C38 G53 37
-G53 C39 C28 C 0 1 Y N N 22.348 28.496 14.902   6.460 -1.211  0.780 C39 G53 38
-G53 O40  O8 O 0 1 Y N N 23.661 28.215 14.950   6.494 -2.552  0.874 O40 G53 39
-G53 C41 C29 C 0 1 Y N N 24.401 29.403 14.860   7.766 -2.951  0.721 C41 G53 40
-G53 C42 C30 C 0 1 Y N N 23.503 30.358 14.585   8.518 -1.830  0.532 C42 G53 41
-G53 N43  N3 N 0 1 Y N N 22.289 29.786 14.694   7.673 -0.767  0.569 N43 G53 42
-G53 C44 C31 C 0 1 N N N 23.869 31.604 14.740   9.975 -1.781  0.317 C44 G53 43
-G53 O45  O9 O 0 1 N N N 23.097 32.551 14.946  10.622 -2.810  0.306 O45 G53 44
-G53 O46 O10 O 0 1 N N N 25.235 31.780 14.680  10.589 -0.596  0.132 O46 G53 45
-G53 C47 C32 C 0 1 N N N 25.796 30.688 15.432  12.026 -0.624 -0.074 C47 G53 46
-G53  H1  H1 H 0 1 N N N 19.730 28.713 14.362   6.300  1.480  0.600  H1 G53 47
-G53  H2  H2 H 0 1 N N N 18.043 26.971 14.822   4.275  2.865  0.777  H2 G53 48
-G53  H3  H3 H 0 1 N N N 21.136 24.379 16.188   1.912 -0.635  1.383  H3 G53 49
-G53  H4  H4 H 0 1 N N N 22.835 26.073 15.656   3.925 -2.038  1.208  H4 G53 50
-G53  H5  H5 H 0 1 N N N 19.626 24.381 18.079   0.120  3.738 -1.528  H5 G53 51
-G53  H6  H6 H 0 1 N N N 18.742 25.844 18.633   1.670  4.063 -0.714  H6 G53 52
-G53  H7  H7 H 0 1 N N N 17.319 24.382 20.069   1.242  1.963 -2.887  H7 G53 53
-G53  H8  H8 H 0 1 N N N 18.063 22.068 20.563   2.592  4.699 -2.983  H8 G53 54
-G53  H9  H9 H 0 1 N N N 17.533 22.264 18.858   2.552  3.514 -4.311  H9 G53 55
-G53 H10 H10 H 0 1 N N N 19.285 22.191 19.252   1.044  4.278 -3.753 H10 G53 56
-G53 H11 H11 H 0 1 N N N 19.073 24.023 21.785   3.043  1.339 -1.378 H11 G53 57
-G53 H12 H12 H 0 1 N N N 20.330 24.268 20.526   3.772  1.975 -2.872 H12 G53 58
-G53 H13 H13 H 0 1 N N N 19.221 25.612 20.961   3.704  2.991 -1.412 H13 G53 59
-G53 H14 H14 H 0 1 N N N 16.474 26.161 17.996   0.017  0.910 -1.724 H14 G53 60
-G53 H15 H15 H 0 1 N N N 16.138 25.539 16.345   0.161  0.216 -0.091 H15 G53 61
-G53 H16 H16 H 0 1 N N N 15.711 23.836 18.861  -1.627  1.800  0.687 H16 G53 62
-G53 H17 H17 H 0 1 N N N 14.430 25.790 18.901  -1.852  2.431 -2.138 H17 G53 63
-G53 H18 H18 H 0 1 N N N 15.832 22.680 16.634  -2.129 -0.540 -0.078 H18 G53 64
-G53 H19 H19 H 0 1 N N N 13.145 22.591 17.979  -4.110  1.600 -0.218 H19 G53 65
-G53 H20 H20 H 0 1 N N N 14.518 18.665 18.896  -6.583 -1.976  0.204 H20 G53 66
-G53 H21 H21 H 0 1 N N N 13.186 17.885 20.806  -6.532 -2.439  2.446 H21 G53 67
-G53 H22 H22 H 0 1 N N N 13.113 19.667 21.020  -6.025 -0.757  2.758 H22 G53 68
-G53 H23 H23 H 0 1 N N N 10.801 17.162 18.953  -9.381 -2.274  1.666 H23 G53 69
-G53 H24 H24 H 0 1 N N N 11.254 20.700 17.346 -10.629  1.186  0.725 H24 G53 70
-G53 H25 H25 H 0 1 N N N 10.287 19.754 16.163  -9.818  1.702  2.228 H25 G53 71
-G53 H26 H26 H 0 1 N N N 11.921 18.049 15.996  -8.506  1.372 -0.210 H26 G53 72
-G53 H27 H27 H 0 1 N N N 12.995 19.441 16.363  -7.693  1.232  1.384 H27 G53 73
-G53 H28 H28 H 0 1 N N N 12.883 17.180 17.960  -8.720 -1.053 -0.423 H28 G53 74
-G53 H29 H29 H 0 1 N N N 14.795 24.403 15.166  -2.853  0.840 -2.701 H29 G53 75
-G53 H30 H30 H 0 1 N N N 13.239 24.206 16.042  -1.404 -0.164 -2.454 H30 G53 76
-G53 H31 H31 H 0 1 N N N 11.701 22.632 15.163  -5.067 -0.158 -2.724 H31 G53 77
-G53 H32 H32 H 0 1 N N N 11.150 20.613 13.859  -6.397 -2.184 -3.158 H32 G53 78
-G53 H33 H33 H 0 1 N N N 12.917 19.388 12.589  -5.324 -4.399 -3.085 H33 G53 79
-G53 H34 H34 H 0 1 N N N 15.270 20.179 12.815  -2.923 -4.589 -2.575 H34 G53 80
-G53 H35 H35 H 0 1 N N N 15.846 22.155 14.229  -1.593 -2.562 -2.138 H35 G53 81
-G53 H36 H36 H 0 1 N N N 25.467 29.522 14.986   8.126 -3.969  0.744 H36 G53 82
-G53 H37 H37 H 0 1 N N N 26.893 30.764 15.427  12.509 -1.072  0.795 H37 G53 83
-G53 H38 H38 H 0 1 N N N 25.430 30.731 16.469  12.255 -1.214 -0.961 H38 G53 84
-G53 H39 H39 H 0 1 N N N 25.493 29.734 14.975  12.394  0.394 -0.209 H39 G53 85
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+G53 C2  C1  C 0 1 Y N N 21.401 27.550 15.037 5.247   -0.372 0.892  C2  G53 1  
+G53 C3  C2  C 0 1 Y N N 20.045 27.762 14.765 5.341   1.015  0.771  C3  G53 2  
+G53 C4  C3  C 0 1 Y N N 19.089 26.772 15.002 4.204   1.791  0.871  C4  G53 3  
+G53 C5  C4  C 0 1 Y N N 19.490 25.545 15.466 2.974   1.197  1.090  C5  G53 4  
+G53 C6  C5  C 0 1 Y N N 20.834 25.322 15.756 2.875   -0.178 1.212  C6  G53 5  
+G53 C7  C6  C 0 1 Y N N 21.789 26.291 15.499 4.004   -0.965 1.114  C7  G53 6  
+G53 S8  S1  S 0 1 N N N 18.351 24.245 15.892 1.528   2.195  1.216  S8  G53 7  
+G53 O9  O1  O 0 1 N N N 17.235 24.303 14.908 0.641   1.508  2.088  O9  G53 8  
+G53 O10 O2  O 0 1 N N N 19.133 23.022 16.004 1.976   3.523  1.452  O10 G53 9  
+G53 N11 N1  N 0 1 N N N 17.715 24.606 17.352 0.806   2.203  -0.274 N11 G53 10 
+G53 C12 C7  C 0 1 N N N 18.656 24.767 18.427 1.066   3.302  -1.208 C12 G53 11 
+G53 C13 C8  C 0 1 N N N 18.326 24.061 19.765 1.818   2.766  -2.428 C13 G53 12 
+G53 C14 C9  C 0 1 N N N 18.300 22.539 19.598 2.016   3.895  -3.441 C14 G53 13 
+G53 C15 C10 C 0 1 N N N 19.305 24.523 20.833 3.183   2.229  -1.991 C15 G53 14 
+G53 C16 C11 C 0 1 N N N 16.413 25.257 17.372 -0.092  1.112  -0.659 C16 G53 15 
+G53 C17 C12 C 0 1 N N R 15.309 24.310 17.953 -1.538  1.512  -0.361 C17 G53 16 
+G53 O18 O3  O 0 1 N N N 14.171 25.112 18.288 -1.908  2.616  -1.190 O18 G53 17 
+G53 C19 C13 C 0 1 N N S 14.920 23.201 16.960 -2.465  0.328  -0.645 C19 G53 18 
+G53 N20 N2  N 0 1 N N N 14.048 22.260 17.705 -3.832  0.672  -0.247 N20 G53 19 
+G53 C21 C14 C 0 1 N N N 14.365 21.020 18.037 -4.704  -0.303 0.078  C21 G53 20 
+G53 O22 O4  O 0 1 N N N 15.437 20.434 17.858 -4.356  -1.467 0.041  O22 G53 21 
+G53 O23 O5  O 0 1 N N N 13.308 20.425 18.715 -5.961  0.012  0.443  O23 G53 22 
+G53 C24 C15 C 0 1 N N R 13.480 19.024 18.955 -6.846  -1.089 0.780  C24 G53 23 
+G53 C25 C16 C 0 1 N N N 12.849 18.830 20.356 -6.778  -1.389 2.288  C25 G53 24 
+G53 O26 O6  O 0 1 N N N 11.459 18.801 20.120 -8.071  -1.103 2.841  O26 G53 25 
+G53 C27 C17 C 0 1 N N R 11.183 18.188 18.848 -9.044  -1.245 1.788  C27 G53 26 
+G53 O28 O7  O 0 1 N N N 10.246 19.048 18.126 -10.127 -0.338 2.037  O28 G53 27 
+G53 C29 C18 C 0 1 N N N 10.939 19.689 17.047 -9.854  0.939  1.451  C29 G53 28 
+G53 C30 C19 C 0 1 N N N 12.163 18.826 16.736 -8.486  0.845  0.744  C30 G53 29 
+G53 C31 C20 C 0 1 N N S 12.504 18.204 18.094 -8.315  -0.695 0.523  C31 G53 30 
+G53 C32 C21 C 0 1 N N N 14.162 23.698 15.725 -2.434  0.005  -2.140 C32 G53 31 
+G53 C33 C22 C 0 1 Y N N 12.494 22.083 14.678 -4.597  -1.130 -2.688 C33 G53 32 
+G53 C34 C23 C 0 1 Y N N 12.176 20.947 13.908 -5.343  -2.267 -2.934 C34 G53 33 
+G53 C35 C24 C 0 1 Y N N 13.161 20.241 13.204 -4.741  -3.511 -2.894 C35 G53 34 
+G53 C36 C25 C 0 1 Y N N 14.482 20.699 13.339 -3.393  -3.617 -2.607 C36 G53 35 
+G53 C37 C26 C 0 1 Y N N 14.819 21.830 14.146 -2.647  -2.480 -2.362 C37 G53 36 
+G53 C38 C27 C 0 1 Y N N 13.806 22.511 14.826 -3.249  -1.236 -2.402 C38 G53 37 
+G53 C39 C28 C 0 1 Y N N 22.348 28.496 14.902 6.460   -1.211 0.780  C39 G53 38 
+G53 O40 O8  O 0 1 Y N N 23.661 28.215 14.950 6.494   -2.552 0.874  O40 G53 39 
+G53 C41 C29 C 0 1 Y N N 24.401 29.403 14.860 7.766   -2.951 0.721  C41 G53 40 
+G53 C42 C30 C 0 1 Y N N 23.503 30.358 14.585 8.518   -1.830 0.532  C42 G53 41 
+G53 N43 N3  N 0 1 Y N N 22.289 29.786 14.694 7.673   -0.767 0.569  N43 G53 42 
+G53 C44 C31 C 0 1 N N N 23.869 31.604 14.740 9.975   -1.781 0.317  C44 G53 43 
+G53 O45 O9  O 0 1 N N N 23.097 32.551 14.946 10.622  -2.810 0.306  O45 G53 44 
+G53 O46 O10 O 0 1 N N N 25.235 31.780 14.680 10.589  -0.596 0.132  O46 G53 45 
+G53 C47 C32 C 0 1 N N N 25.796 30.688 15.432 12.026  -0.624 -0.074 C47 G53 46 
+G53 H1  H1  H 0 1 N N N 19.730 28.713 14.362 6.300   1.480  0.600  H1  G53 47 
+G53 H2  H2  H 0 1 N N N 18.043 26.971 14.822 4.275   2.865  0.777  H2  G53 48 
+G53 H3  H3  H 0 1 N N N 21.136 24.379 16.188 1.912   -0.635 1.383  H3  G53 49 
+G53 H4  H4  H 0 1 N N N 22.835 26.073 15.656 3.925   -2.038 1.208  H4  G53 50 
+G53 H5  H5  H 0 1 N N N 19.626 24.381 18.079 0.120   3.738  -1.528 H5  G53 51 
+G53 H6  H6  H 0 1 N N N 18.742 25.844 18.633 1.670   4.063  -0.714 H6  G53 52 
+G53 H7  H7  H 0 1 N N N 17.319 24.382 20.069 1.242   1.963  -2.887 H7  G53 53 
+G53 H8  H8  H 0 1 N N N 18.063 22.068 20.563 2.592   4.699  -2.983 H8  G53 54 
+G53 H9  H9  H 0 1 N N N 17.533 22.264 18.858 2.552   3.514  -4.311 H9  G53 55 
+G53 H10 H10 H 0 1 N N N 19.285 22.191 19.252 1.044   4.278  -3.753 H10 G53 56 
+G53 H11 H11 H 0 1 N N N 19.073 24.023 21.785 3.043   1.339  -1.378 H11 G53 57 
+G53 H12 H12 H 0 1 N N N 20.330 24.268 20.526 3.772   1.975  -2.872 H12 G53 58 
+G53 H13 H13 H 0 1 N N N 19.221 25.612 20.961 3.704   2.991  -1.412 H13 G53 59 
+G53 H14 H14 H 0 1 N N N 16.474 26.161 17.996 0.017   0.910  -1.724 H14 G53 60 
+G53 H15 H15 H 0 1 N N N 16.138 25.539 16.345 0.161   0.216  -0.091 H15 G53 61 
+G53 H16 H16 H 0 1 N N N 15.711 23.836 18.861 -1.627  1.800  0.687  H16 G53 62 
+G53 H17 H17 H 0 1 N N N 14.430 25.790 18.901 -1.852  2.431  -2.138 H17 G53 63 
+G53 H18 H18 H 0 1 N N N 15.832 22.680 16.634 -2.129  -0.540 -0.078 H18 G53 64 
+G53 H19 H19 H 0 1 N N N 13.145 22.591 17.979 -4.110  1.600  -0.218 H19 G53 65 
+G53 H20 H20 H 0 1 N N N 14.518 18.665 18.896 -6.583  -1.976 0.204  H20 G53 66 
+G53 H21 H21 H 0 1 N N N 13.186 17.885 20.806 -6.532  -2.439 2.446  H21 G53 67 
+G53 H22 H22 H 0 1 N N N 13.113 19.667 21.020 -6.025  -0.757 2.758  H22 G53 68 
+G53 H23 H23 H 0 1 N N N 10.801 17.162 18.953 -9.381  -2.274 1.666  H23 G53 69 
+G53 H24 H24 H 0 1 N N N 11.254 20.700 17.346 -10.629 1.186  0.725  H24 G53 70 
+G53 H25 H25 H 0 1 N N N 10.287 19.754 16.163 -9.818  1.702  2.228  H25 G53 71 
+G53 H26 H26 H 0 1 N N N 11.921 18.049 15.996 -8.506  1.372  -0.210 H26 G53 72 
+G53 H27 H27 H 0 1 N N N 12.995 19.441 16.363 -7.693  1.232  1.384  H27 G53 73 
+G53 H28 H28 H 0 1 N N N 12.883 17.180 17.960 -8.720  -1.053 -0.423 H28 G53 74 
+G53 H29 H29 H 0 1 N N N 14.795 24.403 15.166 -2.853  0.840  -2.701 H29 G53 75 
+G53 H30 H30 H 0 1 N N N 13.239 24.206 16.042 -1.404  -0.164 -2.454 H30 G53 76 
+G53 H31 H31 H 0 1 N N N 11.701 22.632 15.163 -5.067  -0.158 -2.724 H31 G53 77 
+G53 H32 H32 H 0 1 N N N 11.150 20.613 13.859 -6.397  -2.184 -3.158 H32 G53 78 
+G53 H33 H33 H 0 1 N N N 12.917 19.388 12.589 -5.324  -4.399 -3.085 H33 G53 79 
+G53 H34 H34 H 0 1 N N N 15.270 20.179 12.815 -2.923  -4.589 -2.575 H34 G53 80 
+G53 H35 H35 H 0 1 N N N 15.846 22.155 14.229 -1.593  -2.562 -2.138 H35 G53 81 
+G53 H36 H36 H 0 1 N N N 25.467 29.522 14.986 8.126   -3.969 0.744  H36 G53 82 
+G53 H37 H37 H 0 1 N N N 26.893 30.764 15.427 12.509  -1.072 0.795  H37 G53 83 
+G53 H38 H38 H 0 1 N N N 25.430 30.731 16.469 12.255  -1.214 -0.961 H38 G53 84 
+G53 H39 H39 H 0 1 N N N 25.493 29.734 14.975 12.394  0.394  -0.209 H39 G53 85 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-G53 C35 C36 DOUB Y N  1
-G53 C35 C34 SING Y N  2
-G53 C36 C37 SING Y N  3
-G53 C34 C33 DOUB Y N  4
-G53 C37 C38 DOUB Y N  5
-G53 C42 N43 SING Y N  6
-G53 C42 C44 SING N N  7
-G53 C42 C41 DOUB Y N  8
-G53 C33 C38 SING Y N  9
-G53 O46 C44 SING N N 10
-G53 O46 C47 SING N N 11
-G53 N43 C39 DOUB Y N 12
-G53 C44 O45 DOUB N N 13
-G53  C3  C4 DOUB Y N 14
-G53  C3  C2 SING Y N 15
-G53 C38 C32 SING N N 16
-G53 C41 O40 SING Y N 17
-G53 C39 O40 SING Y N 18
-G53 C39  C2 SING N N 19
-G53  O9  S8 DOUB N N 20
-G53  C4  C5 SING Y N 21
-G53  C2  C7 DOUB Y N 22
-G53  C5  C6 DOUB Y N 23
-G53  C5  S8 SING N N 24
-G53  C7  C6 SING Y N 25
-G53 C32 C19 SING N N 26
-G53  S8 O10 DOUB N N 27
-G53  S8 N11 SING N N 28
-G53 C30 C29 SING N N 29
-G53 C30 C31 SING N N 30
-G53 C19 N20 SING N N 31
-G53 C19 C17 SING N N 32
-G53 C29 O28 SING N N 33
-G53 N11 C16 SING N N 34
-G53 N11 C12 SING N N 35
-G53 C16 C17 SING N N 36
-G53 N20 C21 SING N N 37
-G53 O22 C21 DOUB N N 38
-G53 C17 O18 SING N N 39
-G53 C21 O23 SING N N 40
-G53 C31 C27 SING N N 41
-G53 C31 C24 SING N N 42
-G53 O28 C27 SING N N 43
-G53 C12 C13 SING N N 44
-G53 O23 C24 SING N N 45
-G53 C27 O26 SING N N 46
-G53 C24 C25 SING N N 47
-G53 C14 C13 SING N N 48
-G53 C13 C15 SING N N 49
-G53 O26 C25 SING N N 50
-G53  C3  H1 SING N N 51
-G53  C4  H2 SING N N 52
-G53  C6  H3 SING N N 53
-G53  C7  H4 SING N N 54
-G53 C12  H5 SING N N 55
-G53 C12  H6 SING N N 56
-G53 C13  H7 SING N N 57
-G53 C14  H8 SING N N 58
-G53 C14  H9 SING N N 59
-G53 C14 H10 SING N N 60
-G53 C15 H11 SING N N 61
-G53 C15 H12 SING N N 62
-G53 C15 H13 SING N N 63
-G53 C16 H14 SING N N 64
-G53 C16 H15 SING N N 65
-G53 C17 H16 SING N N 66
-G53 O18 H17 SING N N 67
-G53 C19 H18 SING N N 68
-G53 N20 H19 SING N N 69
-G53 C24 H20 SING N N 70
-G53 C25 H21 SING N N 71
-G53 C25 H22 SING N N 72
-G53 C27 H23 SING N N 73
-G53 C29 H24 SING N N 74
-G53 C29 H25 SING N N 75
-G53 C30 H26 SING N N 76
-G53 C30 H27 SING N N 77
-G53 C31 H28 SING N N 78
-G53 C32 H29 SING N N 79
-G53 C32 H30 SING N N 80
-G53 C33 H31 SING N N 81
-G53 C34 H32 SING N N 82
-G53 C35 H33 SING N N 83
-G53 C36 H34 SING N N 84
-G53 C37 H35 SING N N 85
-G53 C41 H36 SING N N 86
-G53 C47 H37 SING N N 87
-G53 C47 H38 SING N N 88
-G53 C47 H39 SING N N 89
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+G53 C35 C36 DOUB Y N 1  
+G53 C35 C34 SING Y N 2  
+G53 C36 C37 SING Y N 3  
+G53 C34 C33 DOUB Y N 4  
+G53 C37 C38 DOUB Y N 5  
+G53 C42 N43 SING Y N 6  
+G53 C42 C44 SING N N 7  
+G53 C42 C41 DOUB Y N 8  
+G53 C33 C38 SING Y N 9  
+G53 O46 C44 SING N N 10 
+G53 O46 C47 SING N N 11 
+G53 N43 C39 DOUB Y N 12 
+G53 C44 O45 DOUB N N 13 
+G53 C3  C4  DOUB Y N 14 
+G53 C3  C2  SING Y N 15 
+G53 C38 C32 SING N N 16 
+G53 C41 O40 SING Y N 17 
+G53 C39 O40 SING Y N 18 
+G53 C39 C2  SING N N 19 
+G53 O9  S8  DOUB N N 20 
+G53 C4  C5  SING Y N 21 
+G53 C2  C7  DOUB Y N 22 
+G53 C5  C6  DOUB Y N 23 
+G53 C5  S8  SING N N 24 
+G53 C7  C6  SING Y N 25 
+G53 C32 C19 SING N N 26 
+G53 S8  O10 DOUB N N 27 
+G53 S8  N11 SING N N 28 
+G53 C30 C29 SING N N 29 
+G53 C30 C31 SING N N 30 
+G53 C19 N20 SING N N 31 
+G53 C19 C17 SING N N 32 
+G53 C29 O28 SING N N 33 
+G53 N11 C16 SING N N 34 
+G53 N11 C12 SING N N 35 
+G53 C16 C17 SING N N 36 
+G53 N20 C21 SING N N 37 
+G53 O22 C21 DOUB N N 38 
+G53 C17 O18 SING N N 39 
+G53 C21 O23 SING N N 40 
+G53 C31 C27 SING N N 41 
+G53 C31 C24 SING N N 42 
+G53 O28 C27 SING N N 43 
+G53 C12 C13 SING N N 44 
+G53 O23 C24 SING N N 45 
+G53 C27 O26 SING N N 46 
+G53 C24 C25 SING N N 47 
+G53 C14 C13 SING N N 48 
+G53 C13 C15 SING N N 49 
+G53 O26 C25 SING N N 50 
+G53 C3  H1  SING N N 51 
+G53 C4  H2  SING N N 52 
+G53 C6  H3  SING N N 53 
+G53 C7  H4  SING N N 54 
+G53 C12 H5  SING N N 55 
+G53 C12 H6  SING N N 56 
+G53 C13 H7  SING N N 57 
+G53 C14 H8  SING N N 58 
+G53 C14 H9  SING N N 59 
+G53 C14 H10 SING N N 60 
+G53 C15 H11 SING N N 61 
+G53 C15 H12 SING N N 62 
+G53 C15 H13 SING N N 63 
+G53 C16 H14 SING N N 64 
+G53 C16 H15 SING N N 65 
+G53 C17 H16 SING N N 66 
+G53 O18 H17 SING N N 67 
+G53 C19 H18 SING N N 68 
+G53 N20 H19 SING N N 69 
+G53 C24 H20 SING N N 70 
+G53 C25 H21 SING N N 71 
+G53 C25 H22 SING N N 72 
+G53 C27 H23 SING N N 73 
+G53 C29 H24 SING N N 74 
+G53 C29 H25 SING N N 75 
+G53 C30 H26 SING N N 76 
+G53 C30 H27 SING N N 77 
+G53 C31 H28 SING N N 78 
+G53 C32 H29 SING N N 79 
+G53 C32 H30 SING N N 80 
+G53 C33 H31 SING N N 81 
+G53 C34 H32 SING N N 82 
+G53 C35 H33 SING N N 83 
+G53 C36 H34 SING N N 84 
+G53 C37 H35 SING N N 85 
+G53 C41 H36 SING N N 86 
+G53 C47 H37 SING N N 87 
+G53 C47 H38 SING N N 88 
+G53 C47 H39 SING N N 89 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-G53           SMILES              ACDLabs 12.01                                                                                                                                                                          c1(ccc(cc1)S(=O)(N(CC(O)C(NC(OC2COC3OCCC23)=O)Cc4ccccc4)CC(C)C)=O)c5occ(n5)C(=O)OC
-G53            InChI                InChI  1.03 InChI=1S/C32H39N3O10S/c1-20(2)16-35(46(39,40)23-11-9-22(10-12-23)29-33-26(18-43-29)30(37)41-3)17-27(36)25(15-21-7-5-4-6-8-21)34-32(38)45-28-19-44-31-24(28)13-14-42-31/h4-12,18,20,24-25,27-28,31,36H,13-17,19H2,1-3H3,(H,34,38)/t24-,25-,27+,28-,31+/m0/s1
-G53         InChIKey                InChI  1.03                                                                                                                                                                                                                                 JQOKXPZOASVDIX-FHDJBOIYSA-N
-G53 SMILES_CANONICAL               CACTVS 3.385                                                                                                                                                    COC(=O)c1coc(n1)c2ccc(cc2)[S](=O)(=O)N(CC(C)C)C[C@@H](O)[C@H](Cc3ccccc3)NC(=O)O[C@H]4CO[C@H]5OCC[C@@H]45
-G53           SMILES               CACTVS 3.385                                                                                                                                                           COC(=O)c1coc(n1)c2ccc(cc2)[S](=O)(=O)N(CC(C)C)C[CH](O)[CH](Cc3ccccc3)NC(=O)O[CH]4CO[CH]5OCC[CH]45
-G53 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6                                                                                                                                                       CC(C)CN(C[C@H]([C@H](Cc1ccccc1)NC(=O)O[C@H]2CO[C@@H]3[C@H]2CCO3)O)S(=O)(=O)c4ccc(cc4)c5nc(co5)C(=O)OC
-G53           SMILES "OpenEye OEToolkits" 2.0.6                                                                                                                                                                            CC(C)CN(CC(C(Cc1ccccc1)NC(=O)OC2COC3C2CCO3)O)S(=O)(=O)c4ccc(cc4)c5nc(co5)C(=O)OC
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+G53 SMILES           ACDLabs              12.01 "c1(ccc(cc1)S(=O)(N(CC(O)C(NC(OC2COC3OCCC23)=O)Cc4ccccc4)CC(C)C)=O)c5occ(n5)C(=O)OC" 
+G53 InChI            InChI                1.03  
+"InChI=1S/C32H39N3O10S/c1-20(2)16-35(46(39,40)23-11-9-22(10-12-23)29-33-26(18-43-29)30(37)41-3)17-27(36)25(15-21-7-5-4-6-8-21)34-32(38)45-28-19-44-31-24(28)13-14-42-31/h4-12,18,20,24-25,27-28,31,36H,13-17,19H2,1-3H3,(H,34,38)/t24-,25-,27+,28-,31+/m0/s1" 
+G53 InChIKey         InChI                1.03  JQOKXPZOASVDIX-FHDJBOIYSA-N 
+G53 SMILES_CANONICAL CACTVS               3.385 "COC(=O)c1coc(n1)c2ccc(cc2)[S](=O)(=O)N(CC(C)C)C[C@@H](O)[C@H](Cc3ccccc3)NC(=O)O[C@H]4CO[C@H]5OCC[C@@H]45" 
+G53 SMILES           CACTVS               3.385 "COC(=O)c1coc(n1)c2ccc(cc2)[S](=O)(=O)N(CC(C)C)C[CH](O)[CH](Cc3ccccc3)NC(=O)O[CH]4CO[CH]5OCC[CH]45" 
+G53 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "CC(C)CN(C[C@H]([C@H](Cc1ccccc1)NC(=O)O[C@H]2CO[C@@H]3[C@H]2CCO3)O)S(=O)(=O)c4ccc(cc4)c5nc(co5)C(=O)OC" 
+G53 SMILES           "OpenEye OEToolkits" 2.0.6 "CC(C)CN(CC(C(Cc1ccccc1)NC(=O)OC2COC3C2CCO3)O)S(=O)(=O)c4ccc(cc4)c5nc(co5)C(=O)OC" 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-G53 "SYSTEMATIC NAME"              ACDLabs 12.01                                         "methyl 2-{4-[{(2R,3S)-3-[({[(3R,3aS,6aR)-hexahydrofuro[2,3-b]furan-3-yl]oxy}carbonyl)amino]-2-hydroxy-4-phenylbutyl}(2-methylpropyl)sulfamoyl]phenyl}-1,3-oxazole-4-carboxylate"
-G53 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "methyl 2-[4-[[(2~{R},3~{S})-3-[[(3~{a}~{S},4~{R},6~{a}~{R})-2,3,3~{a},4,5,6~{a}-hexahydrofuro[2,3-b]furan-4-yl]oxycarbonylamino]-2-oxidanyl-4-phenyl-butyl]-(2-methylpropyl)sulfamoyl]phenyl]-1,3-oxazole-4-carboxylate"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+G53 "SYSTEMATIC NAME" ACDLabs              12.01 "methyl 2-{4-[{(2R,3S)-3-[({[(3R,3aS,6aR)-hexahydrofuro[2,3-b]furan-3-yl]oxy}carbonyl)amino]-2-hydroxy-4-phenylbutyl}(2-methylpropyl)sulfamoyl]phenyl}-1,3-oxazole-4-carboxylate" 
+G53 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 
+"methyl 2-[4-[[(2~{R},3~{S})-3-[[(3~{a}~{S},4~{R},6~{a}~{R})-2,3,3~{a},4,5,6~{a}-hexahydrofuro[2,3-b]furan-4-yl]oxycarbonylamino]-2-oxidanyl-4-phenyl-butyl]-(2-methylpropyl)sulfamoyl]phenyl]-1,3-oxazole-4-carboxylate" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-G53 "Create component" 2017-09-28 RCSB
-G53  "Initial release" 2017-11-22 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-G53  C2 C 12.497   3.703  1
-G53  C3 C 12.960   2.276  2
-G53  C4 C 11.957   1.161  3
-G53  C5 C 10.489   1.473  4
-G53  C6 C 10.026   2.900  5
-G53  C7 C 11.030   4.014  6
-G53  S8 S  9.486   0.358  7
-G53  O9 O  8.371   1.362  8
-G53 O10 O 10.601  -0.645  9
-G53 N11 N  8.482  -0.756 10
-G53 C12 C  7.015  -0.445 11
-G53 C13 C  6.551   0.982 12
-G53 C14 C  5.084   1.294 13
-G53 C15 C  7.555   2.097 14
-G53 C16 C  8.946  -2.183 15
-G53 C17 C  7.942  -3.298 16
-G53 O18 O  6.475  -2.986 17
-G53 C19 C  8.405  -4.724 18
-G53 N20 N  9.873  -5.036 19
-G53 C21 C 10.336  -6.463 20
-G53 O22 O  9.332  -7.577 21
-G53 O23 O 11.803  -6.775 22
-G53 C24 C 12.267  -8.201 23
-G53 C25 C 11.385  -9.415 24
-G53 O26 O 12.267 -10.628 25
-G53 C27 C 13.694 -10.165 26
-G53 O28 O 15.113 -10.622 27
-G53 C29 C 15.988  -9.415 28
-G53 C30 C 15.113  -8.208 29
-G53 C31 C 13.694  -8.665 30
-G53 C32 C  7.402  -5.839 31
-G53 C33 C  4.931  -6.642 32
-G53 C34 C  3.463  -6.330 33
-G53 C35 C  3.000  -4.903 34
-G53 C36 C  4.004  -3.788 35
-G53 C37 C  5.471  -4.100 36
-G53 C38 C  5.934  -5.527 37
-G53 C39 C 13.500   4.817 38
-G53 O40 O 14.992   4.660 39
-G53 C41 C 15.602   6.031 40
-G53 C42 C 14.488   7.035 41
-G53 N43 N 13.189   6.285 42
-G53 C44 C 14.645   8.526 43
-G53 O45 O 13.431   9.408 44
-G53 O46 O 16.015   9.136 45
-G53 C47 C 16.172  10.628 46
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-G53 C35 C36 DOUBLE       NONE  1
-G53 C35 C34 SINGLE       NONE  2
-G53 C36 C37 SINGLE       NONE  3
-G53 C34 C33 DOUBLE       NONE  4
-G53 C37 C38 DOUBLE       NONE  5
-G53 C42 N43 SINGLE       NONE  6
-G53 C42 C44 SINGLE       NONE  7
-G53 C42 C41 DOUBLE       NONE  8
-G53 C33 C38 SINGLE       NONE  9
-G53 O46 C44 SINGLE       NONE 10
-G53 O46 C47 SINGLE       NONE 11
-G53 N43 C39 DOUBLE       NONE 12
-G53 C44 O45 DOUBLE       NONE 13
-G53  C3  C4 DOUBLE       NONE 14
-G53  C3  C2 SINGLE       NONE 15
-G53 C38 C32 SINGLE       NONE 16
-G53 C41 O40 SINGLE       NONE 17
-G53 C39 O40 SINGLE       NONE 18
-G53 C39  C2 SINGLE       NONE 19
-G53  O9  S8 DOUBLE       NONE 20
-G53  C4  C5 SINGLE       NONE 21
-G53  C2  C7 DOUBLE       NONE 22
-G53  C5  C6 DOUBLE       NONE 23
-G53  C5  S8 SINGLE       NONE 24
-G53  C7  C6 SINGLE       NONE 25
-G53 C32 C19 SINGLE BEGINWEDGE 26
-G53  S8 O10 DOUBLE       NONE 27
-G53  S8 N11 SINGLE       NONE 28
-G53 C30 C29 SINGLE       NONE 29
-G53 C30 C31 SINGLE       NONE 30
-G53 C19 N20 SINGLE       NONE 31
-G53 C19 C17 SINGLE       NONE 32
-G53 C29 O28 SINGLE       NONE 33
-G53 N11 C16 SINGLE       NONE 34
-G53 N11 C12 SINGLE       NONE 35
-G53 C16 C17 SINGLE       NONE 36
-G53 N20 C21 SINGLE       NONE 37
-G53 O22 C21 DOUBLE       NONE 38
-G53 C17 O18 SINGLE  BEGINDASH 39
-G53 C21 O23 SINGLE       NONE 40
-G53 C31 C27 SINGLE       NONE 41
-G53 C31 C24 SINGLE       NONE 42
-G53 O28 C27 SINGLE       NONE 43
-G53 C12 C13 SINGLE       NONE 44
-G53 O23 C24 SINGLE  BEGINDASH 45
-G53 C27 O26 SINGLE       NONE 46
-G53 C24 C25 SINGLE       NONE 47
-G53 C14 C13 SINGLE       NONE 48
-G53 C13 C15 SINGLE       NONE 49
-G53 O26 C25 SINGLE       NONE 50
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-G53 MurckoScaffold S1 scaffold O=C(N[C@H](CCNS(=O)(=O)c1ccc(-c2ncco2)cc1)Cc1ccccc1)O[C@H]1CO[C@@H]2OCC[C@H]21 InChI=1S/C26H29N3O7S/c30-26(36-23-17-35-25-22(23)11-14-34-25)29-20(16-18-4-2-1-3-5-18)10-12-28-37(31,32)21-8-6-19(7-9-21)24-27-13-15-33-24/h1-9,13,15,20,22-23,25,28H,10-12,14,16-17H2,(H,29,30)/t20-,22+,23+,25+/m1/s1 NBGQXQMLEQVVGY-GIQJJWITSA-N
-G53       furanose F1 fragment                                                                       OC1CCCO1                                                                                                                                                                              InChI=1S/C4H8O2/c5-4-2-1-3-6-4/h4-5H,1-3H2 JNODDICFTDYODH-UHFFFAOYSA-N
-G53        oxazole F2 fragment                                                                        c1cocn1                                                                                                                                                                                      InChI=1S/C3H3NO/c1-2-5-3-4-1/h1-3H ZCQWOFVYLHDMMC-UHFFFAOYSA-N
-G53         phenyl F3 fragment                                                                       c1ccccc1                                                                                                                                                                                      InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-G53      Z45516134 F4 fragment                                                    CCN(CC)S(=O)(=O)c1ccc(C)cc1                                                                                                                                           InChI=1S/C11H17NO2S/c1-4-12(5-2)15(13,14)11-8-6-10(3)7-9-11/h6-9H,4-5H2,1-3H3 AOJBACHWNDMRQP-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-G53 C24 F1 1
-G53 C25 F1 1
-G53 O26 F1 1
-G53 C27 F1 1
-G53 C31 F1 1
-G53 O28 F1 1
-G53 C30 F1 2
-G53 C29 F1 2
-G53 O28 F1 2
-G53 C27 F1 2
-G53 C31 F1 2
-G53 O26 F1 2
-G53 C41 F2 1
-G53 C42 F2 1
-G53 N43 F2 1
-G53 C39 F2 1
-G53 O40 F2 1
-G53  C2 F3 1
-G53  C3 F3 1
-G53  C4 F3 1
-G53  C5 F3 1
-G53  C6 F3 1
-G53  C7 F3 1
-G53 C33 F3 2
-G53 C34 F3 2
-G53 C35 F3 2
-G53 C36 F3 2
-G53 C37 F3 2
-G53 C38 F3 2
-G53 C13 F4 1
-G53 C12 F4 1
-G53 N11 F4 1
-G53 C16 F4 1
-G53 C17 F4 1
-G53  S8 F4 1
-G53  O9 F4 1
-G53 O10 F4 1
-G53  C5 F4 1
-G53  C4 F4 1
-G53  C3 F4 1
-G53  C2 F4 1
-G53 C39 F4 1
-G53  C7 F4 1
-G53  C6 F4 1
-G53  C2 S1 1
-G53  C3 S1 1
-G53  C4 S1 1
-G53  C5 S1 1
-G53  C6 S1 1
-G53  C7 S1 1
-G53  S8 S1 1
-G53  O9 S1 1
-G53 O10 S1 1
-G53 N11 S1 1
-G53 C16 S1 1
-G53 C17 S1 1
-G53 C19 S1 1
-G53 N20 S1 1
-G53 C21 S1 1
-G53 O22 S1 1
-G53 O23 S1 1
-G53 C24 S1 1
-G53 C25 S1 1
-G53 O26 S1 1
-G53 C27 S1 1
-G53 O28 S1 1
-G53 C29 S1 1
-G53 C30 S1 1
-G53 C31 S1 1
-G53 C32 S1 1
-G53 C33 S1 1
-G53 C34 S1 1
-G53 C35 S1 1
-G53 C36 S1 1
-G53 C37 S1 1
-G53 C38 S1 1
-G53 C39 S1 1
-G53 O40 S1 1
-G53 C41 S1 1
-G53 C42 S1 1
-G53 N43 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               G53
-_pdbe_chem_comp_rdkit_properties.exactmw                               657.236
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           13
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           2
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     17
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                11
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        14
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.469
-_pdbe_chem_comp_rdkit_properties.NumRings                              5
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     2
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              2
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             322.332
-_pdbe_chem_comp_rdkit_properties.tpsa                                  166.730
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.637
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             162.736
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         46
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-G53  C2  5.024  1.167  1.360 ETKDGv2  1
-G53  C3  5.076 -0.287  1.650 ETKDGv2  2
-G53  C4  3.951 -1.012  1.683 ETKDGv2  3
-G53  C5  2.642 -0.371  1.427 ETKDGv2  4
-G53  C6  2.590  0.945  1.169 ETKDGv2  5
-G53  C7  3.830  1.747  1.132 ETKDGv2  6
-G53  S8  1.166 -1.338  1.450 ETKDGv2  7
-G53  O9  1.350 -2.498  2.389 ETKDGv2  8
-G53 O10  0.028 -0.501  1.967 ETKDGv2  9
-G53 N11  0.777 -1.925 -0.154 ETKDGv2 10
-G53 C12  1.779 -2.919 -0.612 ETKDGv2 11
-G53 C13  1.106 -4.278 -0.893 ETKDGv2 12
-G53 C14  2.129 -5.274 -1.453 ETKDGv2 13
-G53 C15  0.444 -4.854  0.366 ETKDGv2 14
-G53 C16  0.629 -0.782 -1.083 ETKDGv2 15
-G53 C17 -0.340 -1.099 -2.244 ETKDGv2 16
-G53 O18  0.247 -2.018 -3.129 ETKDGv2 17
-G53 C19 -1.697 -1.657 -1.742 ETKDGv2 18
-G53 N20 -2.270 -0.815 -0.681 ETKDGv2 19
-G53 C21 -2.706  0.540 -0.851 ETKDGv2 20
-G53 O22 -2.562  1.130 -1.956 ETKDGv2 21
-G53 O23 -3.300  1.200  0.229 ETKDGv2 22
-G53 C24 -3.834  2.521  0.137 ETKDGv2 23
-G53 C25 -5.195  2.540 -0.615 ETKDGv2 24
-G53 O26 -6.248  2.687  0.339 ETKDGv2 25
-G53 C27 -5.617  2.346  1.537 ETKDGv2 26
-G53 O28 -6.198  2.815  2.717 ETKDGv2 27
-G53 C29 -5.104  2.775  3.634 ETKDGv2 28
-G53 C30 -3.783  2.652  2.833 ETKDGv2 29
-G53 C31 -4.300  3.005  1.475 ETKDGv2 30
-G53 C32 -2.699 -1.851 -2.903 ETKDGv2 31
-G53 C33 -5.215 -1.396 -2.477 ETKDGv2 32
-G53 C34 -6.408 -1.789 -2.015 ETKDGv2 33
-G53 C35 -6.572 -3.140 -1.443 ETKDGv2 34
-G53 C36 -5.527 -3.974 -1.385 ETKDGv2 35
-G53 C37 -4.206 -3.543 -1.888 ETKDGv2 36
-G53 C38 -4.047 -2.311 -2.407 ETKDGv2 37
-G53 C39  6.277  1.948  1.326 ETKDGv2 38
-G53 O40  7.532  1.395  1.555 ETKDGv2 39
-G53 C41  8.417  2.452  1.431 ETKDGv2 40
-G53 C42  7.714  3.537  1.151 ETKDGv2 41
-G53 N43  6.327  3.220  1.081 ETKDGv2 42
-G53 C44  8.254  4.885  0.937 ETKDGv2 43
-G53 O45  9.497  5.090  1.016 ETKDGv2 44
-G53 O46  7.378  5.934  0.647 ETKDGv2 45
-G53 C47  7.824  7.267  0.428 ETKDGv2 46
-G53  H1  6.026 -0.771  1.839 ETKDGv2 47
-G53  H2  4.006 -2.071  1.900 ETKDGv2 48
-G53  H3  1.644  1.435  0.980 ETKDGv2 49
-G53  H4  3.756  2.806  0.918 ETKDGv2 50
-G53  H5  2.299 -2.584 -1.537 ETKDGv2 51
-G53  H6  2.587 -3.075  0.136 ETKDGv2 52
-G53  H7  0.318 -4.142 -1.663 ETKDGv2 53
-G53  H8  2.574 -4.880 -2.392 ETKDGv2 54
-G53  H9  2.943 -5.457 -0.718 ETKDGv2 55
-G53 H10  1.635 -6.241 -1.689 ETKDGv2 56
-G53 H11  1.196 -5.006  1.170 ETKDGv2 57
-G53 H12 -0.349 -4.170  0.735 ETKDGv2 58
-G53 H13 -0.033 -5.830  0.135 ETKDGv2 59
-G53 H14  1.615 -0.449 -1.479 ETKDGv2 60
-G53 H15  0.210  0.100 -0.552 ETKDGv2 61
-G53 H16 -0.530 -0.149 -2.793 ETKDGv2 62
-G53 H17  0.947 -1.528 -3.634 ETKDGv2 63
-G53 H18 -1.506 -2.661 -1.307 ETKDGv2 64
-G53 H19 -2.395 -1.244  0.264 ETKDGv2 65
-G53 H20 -3.090  3.221 -0.306 ETKDGv2 66
-G53 H21 -5.223  3.401 -1.316 ETKDGv2 67
-G53 H22 -5.348  1.607 -1.199 ETKDGv2 68
-G53 H23 -5.557  1.225  1.597 ETKDGv2 69
-G53 H24 -5.099  3.712  4.231 ETKDGv2 70
-G53 H25 -5.221  1.912  4.326 ETKDGv2 71
-G53 H26 -3.388  1.611  2.866 ETKDGv2 72
-G53 H27 -3.014  3.375  3.180 ETKDGv2 73
-G53 H28 -4.428  4.116  1.423 ETKDGv2 74
-G53 H29 -2.808 -0.903 -3.471 ETKDGv2 75
-G53 H30 -2.304 -2.605 -3.617 ETKDGv2 76
-G53 H31 -5.104 -0.403 -2.893 ETKDGv2 77
-G53 H32 -7.256 -1.117 -2.061 ETKDGv2 78
-G53 H33 -7.539 -3.454 -1.072 ETKDGv2 79
-G53 H34 -5.645 -4.965 -0.966 ETKDGv2 80
-G53 H35 -3.371 -4.230 -1.830 ETKDGv2 81
-G53 H36  9.491  2.386  1.547 ETKDGv2 82
-G53 H37  8.513  7.299 -0.442 ETKDGv2 83
-G53 H38  6.948  7.915  0.217 ETKDGv2 84
-G53 H39  8.344  7.648  1.333 ETKDGv2 85
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+G53 "Create component" 2017-09-28 RCSB 
+G53 "Initial release"  2017-11-22 RCSB 
+# 

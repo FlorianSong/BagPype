@@ -1,383 +1,139 @@
 data_3FK
-#
-_chem_comp.id                                        3FK
-_chem_comp.name                                      "(2R)-(3,5-dichlorophenyl)(dimethylamino)ethanoic acid"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C10 H11 Cl2 N O2"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2014-08-12
-_chem_comp.pdbx_modified_date                        2014-09-05
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            248.106
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         3FK
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       Y
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            4PIS
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    3FK 
+_chem_comp.name                                  "(2R)-(3,5-dichlorophenyl)(dimethylamino)ethanoic acid" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C10 H11 Cl2 N O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2014-08-12 
+_chem_comp.pdbx_modified_date                    2014-09-05 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        248.106 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     3FK 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4PIS 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-3FK C11 C11  C 0 1 Y N N -38.091 17.590 -12.492  1.446 -1.311  0.140 C11 3FK  1
-3FK C12 C12  C 0 1 Y N N -37.467 18.702 -13.096  2.385 -0.299  0.062 C12 3FK  2
-3FK C13 C13  C 0 1 Y N N -37.984 19.218 -14.302  1.977  1.012 -0.103 C13 3FK  3
-3FK C14 C14  C 0 1 Y N N -39.116 18.609 -14.897  0.629  1.311 -0.189 C14 3FK  4
-3FK C22 C22  C 0 1 N N N -43.278 16.885 -15.729 -3.857  0.000 -1.278 C22 3FK  5
-3FK C23 C23  C 0 1 N N N -42.408 18.816 -14.547 -1.755 -0.305 -2.441 C23 3FK  6
-3FK  C7  C7  C 0 1 N N N -40.360 15.741 -15.771 -2.410  0.498  1.157  C7 3FK  7
-3FK  C8  C8  C 0 1 N N R -40.972 16.741 -14.803 -1.778  0.625 -0.205  C8 3FK  8
-3FK  C9  C9  C 0 1 Y N N -39.734 17.490 -14.279 -0.310  0.299 -0.111  C9 3FK  9
-3FK C10 C10  C 0 1 Y N N -39.205 16.995 -13.083  0.098 -1.012  0.049 C10 3FK 10
-3FK CL1 CL1 CL 0 0 N N N -37.485 16.842 -11.037  1.957 -2.957  0.346 CL1 3FK 11
-3FK CL2 CL2 CL 0 0 N N N -37.241 20.635 -15.029  3.156  2.283 -0.200 CL2 3FK 12
-3FK O17 O17  O 0 1 N N N -40.089 14.641 -15.298 -2.939 -0.537  1.484 O17 3FK 13
-3FK N21 N21  N 0 1 N N N -42.031 17.635 -15.386 -2.428 -0.308 -1.135 N21 3FK 14
-3FK  H2  H2  H 0 1 N N N -36.600 19.155 -12.638  3.438 -0.533  0.130  H2 3FK 15
-3FK  H3  H3  H 0 1 N N N -39.511 18.997 -15.824  0.310  2.335 -0.317  H3 3FK 16
-3FK H12 H12  H 0 1 N N N -44.020 17.579 -16.150 -3.973  1.014 -1.662 H12 3FK 17
-3FK H13 H13  H 0 1 N N N -43.045 16.105 -16.468 -4.314 -0.706 -1.971 H13 3FK 18
-3FK H14 H14  H 0 1 N N N -43.687 16.419 -14.820 -4.345 -0.078 -0.306 H14 3FK 19
-3FK H15 H15  H 0 1 N N N -41.503 19.383 -14.283 -1.778  0.702 -2.858 H15 3FK 20
-3FK H16 H16  H 0 1 N N N -43.094 19.464 -15.113 -0.720 -0.624 -2.318 H16 3FK 21
-3FK H17 H17  H 0 1 N N N -42.904 18.470 -13.629 -2.269 -0.989 -3.116 H17 3FK 22
-3FK H25 H25  H 0 1 N N N -41.412 16.182 -13.964 -1.901  1.645 -0.569 H25 3FK 23
-3FK H26 H26  H 0 1 N N N -39.666 16.140 -12.610 -0.636 -1.802  0.110 H26 3FK 24
-3FK OXT OXT  O 0 1 N Y N       ?      ?       ? -2.384  1.536  2.008 OXT 3FK 25
-3FK HXT HXT  H 0 1 N Y N       ?      ?       ? -2.802  1.408  2.870 HXT 3FK 26
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+3FK C11 C11 C  0 1 Y N N -38.091 17.590 -12.492 1.446  -1.311 0.140  C11 3FK 1  
+3FK C12 C12 C  0 1 Y N N -37.467 18.702 -13.096 2.385  -0.299 0.062  C12 3FK 2  
+3FK C13 C13 C  0 1 Y N N -37.984 19.218 -14.302 1.977  1.012  -0.103 C13 3FK 3  
+3FK C14 C14 C  0 1 Y N N -39.116 18.609 -14.897 0.629  1.311  -0.189 C14 3FK 4  
+3FK C22 C22 C  0 1 N N N -43.278 16.885 -15.729 -3.857 0.000  -1.278 C22 3FK 5  
+3FK C23 C23 C  0 1 N N N -42.408 18.816 -14.547 -1.755 -0.305 -2.441 C23 3FK 6  
+3FK C7  C7  C  0 1 N N N -40.360 15.741 -15.771 -2.410 0.498  1.157  C7  3FK 7  
+3FK C8  C8  C  0 1 N N R -40.972 16.741 -14.803 -1.778 0.625  -0.205 C8  3FK 8  
+3FK C9  C9  C  0 1 Y N N -39.734 17.490 -14.279 -0.310 0.299  -0.111 C9  3FK 9  
+3FK C10 C10 C  0 1 Y N N -39.205 16.995 -13.083 0.098  -1.012 0.049  C10 3FK 10 
+3FK CL1 CL1 CL 0 0 N N N -37.485 16.842 -11.037 1.957  -2.957 0.346  CL1 3FK 11 
+3FK CL2 CL2 CL 0 0 N N N -37.241 20.635 -15.029 3.156  2.283  -0.200 CL2 3FK 12 
+3FK O17 O17 O  0 1 N N N -40.089 14.641 -15.298 -2.939 -0.537 1.484  O17 3FK 13 
+3FK N21 N21 N  0 1 N N N -42.031 17.635 -15.386 -2.428 -0.308 -1.135 N21 3FK 14 
+3FK H2  H2  H  0 1 N N N -36.600 19.155 -12.638 3.438  -0.533 0.130  H2  3FK 15 
+3FK H3  H3  H  0 1 N N N -39.511 18.997 -15.824 0.310  2.335  -0.317 H3  3FK 16 
+3FK H12 H12 H  0 1 N N N -44.020 17.579 -16.150 -3.973 1.014  -1.662 H12 3FK 17 
+3FK H13 H13 H  0 1 N N N -43.045 16.105 -16.468 -4.314 -0.706 -1.971 H13 3FK 18 
+3FK H14 H14 H  0 1 N N N -43.687 16.419 -14.820 -4.345 -0.078 -0.306 H14 3FK 19 
+3FK H15 H15 H  0 1 N N N -41.503 19.383 -14.283 -1.778 0.702  -2.858 H15 3FK 20 
+3FK H16 H16 H  0 1 N N N -43.094 19.464 -15.113 -0.720 -0.624 -2.318 H16 3FK 21 
+3FK H17 H17 H  0 1 N N N -42.904 18.470 -13.629 -2.269 -0.989 -3.116 H17 3FK 22 
+3FK H25 H25 H  0 1 N N N -41.412 16.182 -13.964 -1.901 1.645  -0.569 H25 3FK 23 
+3FK H26 H26 H  0 1 N N N -39.666 16.140 -12.610 -0.636 -1.802 0.110  H26 3FK 24 
+3FK OXT OXT O  0 1 N Y N ?       ?      ?       -2.384 1.536  2.008  OXT 3FK 25 
+3FK HXT HXT H  0 1 N Y N ?       ?      ?       -2.802 1.408  2.870  HXT 3FK 26 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-3FK  C7 O17 DOUB N N  1
-3FK  C7  C8 SING N N  2
-3FK C22 N21 SING N N  3
-3FK N21  C8 SING N N  4
-3FK N21 C23 SING N N  5
-3FK CL2 C13 SING N N  6
-3FK C14 C13 DOUB Y N  7
-3FK C14  C9 SING Y N  8
-3FK  C8  C9 SING N N  9
-3FK C13 C12 SING Y N 10
-3FK  C9 C10 DOUB Y N 11
-3FK C12 C11 DOUB Y N 12
-3FK C10 C11 SING Y N 13
-3FK C11 CL1 SING N N 14
-3FK C12  H2 SING N N 15
-3FK C14  H3 SING N N 16
-3FK C22 H12 SING N N 17
-3FK C22 H13 SING N N 18
-3FK C22 H14 SING N N 19
-3FK C23 H15 SING N N 20
-3FK C23 H16 SING N N 21
-3FK C23 H17 SING N N 22
-3FK  C8 H25 SING N N 23
-3FK C10 H26 SING N N 24
-3FK  C7 OXT SING N N 25
-3FK OXT HXT SING N N 26
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+3FK C7  O17 DOUB N N 1  
+3FK C7  C8  SING N N 2  
+3FK C22 N21 SING N N 3  
+3FK N21 C8  SING N N 4  
+3FK N21 C23 SING N N 5  
+3FK CL2 C13 SING N N 6  
+3FK C14 C13 DOUB Y N 7  
+3FK C14 C9  SING Y N 8  
+3FK C8  C9  SING N N 9  
+3FK C13 C12 SING Y N 10 
+3FK C9  C10 DOUB Y N 11 
+3FK C12 C11 DOUB Y N 12 
+3FK C10 C11 SING Y N 13 
+3FK C11 CL1 SING N N 14 
+3FK C12 H2  SING N N 15 
+3FK C14 H3  SING N N 16 
+3FK C22 H12 SING N N 17 
+3FK C22 H13 SING N N 18 
+3FK C22 H14 SING N N 19 
+3FK C23 H15 SING N N 20 
+3FK C23 H16 SING N N 21 
+3FK C23 H17 SING N N 22 
+3FK C8  H25 SING N N 23 
+3FK C10 H26 SING N N 24 
+3FK C7  OXT SING N N 25 
+3FK OXT HXT SING N N 26 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-3FK           SMILES              ACDLabs 12.01                                                                 Clc1cc(cc(Cl)c1)C(C(=O)O)N(C)C
-3FK            InChI                InChI  1.03 InChI=1S/C10H11Cl2NO2/c1-13(2)9(10(14)15)6-3-7(11)5-8(12)4-6/h3-5,9H,1-2H3,(H,14,15)/t9-/m1/s1
-3FK         InChIKey                InChI  1.03                                                                    FBZPIHFBJZHLPX-SECBINFHSA-N
-3FK SMILES_CANONICAL               CACTVS 3.385                                                            CN(C)[C@@H](C(O)=O)c1cc(Cl)cc(Cl)c1
-3FK           SMILES               CACTVS 3.385                                                              CN(C)[CH](C(O)=O)c1cc(Cl)cc(Cl)c1
-3FK SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6                                                             CN(C)[C@H](c1cc(cc(c1)Cl)Cl)C(=O)O
-3FK           SMILES "OpenEye OEToolkits" 1.7.6                                                                 CN(C)C(c1cc(cc(c1)Cl)Cl)C(=O)O
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+3FK SMILES           ACDLabs              12.01 "Clc1cc(cc(Cl)c1)C(C(=O)O)N(C)C"                                                                 
+3FK InChI            InChI                1.03  "InChI=1S/C10H11Cl2NO2/c1-13(2)9(10(14)15)6-3-7(11)5-8(12)4-6/h3-5,9H,1-2H3,(H,14,15)/t9-/m1/s1" 
+3FK InChIKey         InChI                1.03  FBZPIHFBJZHLPX-SECBINFHSA-N                                                                      
+3FK SMILES_CANONICAL CACTVS               3.385 "CN(C)[C@@H](C(O)=O)c1cc(Cl)cc(Cl)c1"                                                            
+3FK SMILES           CACTVS               3.385 "CN(C)[CH](C(O)=O)c1cc(Cl)cc(Cl)c1"                                                              
+3FK SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "CN(C)[C@H](c1cc(cc(c1)Cl)Cl)C(=O)O"                                                             
+3FK SMILES           "OpenEye OEToolkits" 1.7.6 "CN(C)C(c1cc(cc(c1)Cl)Cl)C(=O)O"                                                                 
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-3FK "SYSTEMATIC NAME"              ACDLabs 12.01            "(2R)-(3,5-dichlorophenyl)(dimethylamino)ethanoic acid"
-3FK "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2R)-2-[3,5-bis(chloranyl)phenyl]-2-(dimethylamino)ethanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+3FK "SYSTEMATIC NAME" ACDLabs              12.01 "(2R)-(3,5-dichlorophenyl)(dimethylamino)ethanoic acid"            
+3FK "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2R)-2-[3,5-bis(chloranyl)phenyl]-2-(dimethylamino)ethanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-3FK "Create component" 2014-08-12 RCSB
-3FK  "Initial release" 2014-09-10 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-3FK C11  C 6.897 -2.857  1
-3FK C12  C 5.598 -3.607  2
-3FK C13  C 4.299 -2.857  3
-3FK C14  C 4.299 -1.357  4
-3FK C22  C 6.897  3.143  5
-3FK C23  C 8.196  0.892  6
-3FK  C7  C 4.299  1.643  7
-3FK  C8  C 5.598  0.892  8
-3FK  C9  C 5.598 -0.608  9
-3FK C10  C 6.897 -1.357 10
-3FK CL1 Cl 8.196 -3.607 11
-3FK CL2 Cl 3.000 -3.607 12
-3FK O17  O 4.299  3.143 13
-3FK N21  N 6.897  1.643 14
-3FK OXT  O 3.000  0.892 15
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-3FK  C7 O17 DOUBLE       NONE  1
-3FK  C7  C8 SINGLE BEGINWEDGE  2
-3FK C22 N21 SINGLE       NONE  3
-3FK N21  C8 SINGLE       NONE  4
-3FK N21 C23 SINGLE       NONE  5
-3FK CL2 C13 SINGLE       NONE  6
-3FK C14 C13 DOUBLE       NONE  7
-3FK C14  C9 SINGLE       NONE  8
-3FK  C8  C9 SINGLE       NONE  9
-3FK C13 C12 SINGLE       NONE 10
-3FK  C9 C10 DOUBLE       NONE 11
-3FK C12 C11 DOUBLE       NONE 12
-3FK C10 C11 SINGLE       NONE 13
-3FK C11 CL1 SINGLE       NONE 14
-3FK  C7 OXT SINGLE       NONE 15
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-3FK MurckoScaffold S1 scaffold           c1ccccc1                          InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-3FK        peptide F1 fragment              NCC=O                          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-3FK         phenyl F2 fragment           c1ccccc1                          InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-3FK     Z159528162 F3 fragment CNC(C)c1cccc(Cl)c1 InChI=1S/C9H12ClN/c1-7(11-2)8-4-3-5-9(10)6-8/h3-7,11H,1-2H3 IYUOJXAYGDGASL-UHFFFAOYSA-N
-3FK    Z2856434770 F4 fragment    CNCc1cccc(Cl)c1  InChI=1S/C8H10ClN/c1-10-6-7-3-2-4-8(9)5-7/h2-5,10H,6H2,1H3 ZPNLAQVYPIAHTO-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-3FK O17 F1 1
-3FK  C7 F1 1
-3FK  C8 F1 1
-3FK N21 F1 1
-3FK C11 F2 1
-3FK C12 F2 1
-3FK C13 F2 1
-3FK C14 F2 1
-3FK  C9 F2 1
-3FK C10 F2 1
-3FK C22 F3 1
-3FK N21 F3 1
-3FK  C8 F3 1
-3FK  C7 F3 1
-3FK  C9 F3 1
-3FK C14 F3 1
-3FK C13 F3 1
-3FK C12 F3 1
-3FK C11 F3 1
-3FK CL1 F3 1
-3FK C10 F3 1
-3FK C22 F3 2
-3FK N21 F3 2
-3FK  C8 F3 2
-3FK  C7 F3 2
-3FK  C9 F3 2
-3FK C10 F3 2
-3FK C11 F3 2
-3FK C12 F3 2
-3FK C13 F3 2
-3FK CL2 F3 2
-3FK C14 F3 2
-3FK C23 F3 3
-3FK N21 F3 3
-3FK  C8 F3 3
-3FK  C7 F3 3
-3FK  C9 F3 3
-3FK C14 F3 3
-3FK C13 F3 3
-3FK C12 F3 3
-3FK C11 F3 3
-3FK CL1 F3 3
-3FK C10 F3 3
-3FK C23 F3 4
-3FK N21 F3 4
-3FK  C8 F3 4
-3FK  C7 F3 4
-3FK  C9 F3 4
-3FK C10 F3 4
-3FK C11 F3 4
-3FK C12 F3 4
-3FK C13 F3 4
-3FK CL2 F3 4
-3FK C14 F3 4
-3FK C22 F4 1
-3FK N21 F4 1
-3FK  C8 F4 1
-3FK  C9 F4 1
-3FK C14 F4 1
-3FK C13 F4 1
-3FK C12 F4 1
-3FK C11 F4 1
-3FK CL1 F4 1
-3FK C10 F4 1
-3FK C22 F4 2
-3FK N21 F4 2
-3FK  C8 F4 2
-3FK  C9 F4 2
-3FK C10 F4 2
-3FK C11 F4 2
-3FK C12 F4 2
-3FK C13 F4 2
-3FK CL2 F4 2
-3FK C14 F4 2
-3FK C23 F4 3
-3FK N21 F4 3
-3FK  C8 F4 3
-3FK  C9 F4 3
-3FK C14 F4 3
-3FK C13 F4 3
-3FK C12 F4 3
-3FK C11 F4 3
-3FK CL1 F4 3
-3FK C10 F4 3
-3FK C23 F4 4
-3FK N21 F4 4
-3FK  C8 F4 4
-3FK  C9 F4 4
-3FK C10 F4 4
-3FK C11 F4 4
-3FK C12 F4 4
-3FK C13 F4 4
-3FK CL2 F4 4
-3FK C14 F4 4
-3FK C11 S1 1
-3FK C12 S1 1
-3FK C13 S1 1
-3FK C14 S1 1
-3FK  C9 S1 1
-3FK C10 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               3FK
-_pdbe_chem_comp_rdkit_properties.exactmw                               247.017
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     5
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.300
-_pdbe_chem_comp_rdkit_properties.NumRings                              1
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             113.755
-_pdbe_chem_comp_rdkit_properties.tpsa                                  40.540
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          2.626
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             60.260
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         15
-
-#
-_pdbe_chem_comp_external_mappings.comp_id           3FK
-_pdbe_chem_comp_external_mappings.source            UniChem
-_pdbe_chem_comp_external_mappings.resource          ZINC
-_pdbe_chem_comp_external_mappings.resource_id       ZINC000037425148
-
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-3FK C11  2.261  1.965  0.221 ETKDGv2  1
-3FK C12  3.095  1.009  0.644 ETKDGv2  2
-3FK C13  2.693 -0.410  0.567 ETKDGv2  3
-3FK C14  1.492 -0.741  0.075 ETKDGv2  4
-3FK C22 -1.478 -1.204  1.152 ETKDGv2  5
-3FK C23 -2.255  1.044  0.721 ETKDGv2  6
-3FK  C7 -0.776 -1.236 -1.876 ETKDGv2  7
-3FK  C8 -0.827 -0.044 -0.950 ETKDGv2  8
-3FK  C9  0.550  0.315 -0.393 ETKDGv2  9
-3FK C10  0.934  1.604 -0.323 ETKDGv2 10
-3FK CL1  2.734  3.652  0.310 ETKDGv2 11
-3FK CL2  3.795 -1.658  1.119 ETKDGv2 12
-3FK O17  0.170 -1.356 -2.701 ETKDGv2 13
-3FK N21 -1.856 -0.234  0.108 ETKDGv2 14
-3FK  H2  4.067  1.270  1.044 ETKDGv2 15
-3FK  H3  1.209 -1.784  0.018 ETKDGv2 16
-3FK H12 -1.132 -2.157  0.701 ETKDGv2 17
-3FK H13 -0.683 -0.800  1.815 ETKDGv2 18
-3FK H14 -2.365 -1.445  1.776 ETKDGv2 19
-3FK H15 -1.415  1.497  1.292 ETKDGv2 20
-3FK H16 -2.595  1.759 -0.058 ETKDGv2 21
-3FK H17 -3.110  0.883  1.412 ETKDGv2 22
-3FK H25 -1.161  0.787 -1.612 ETKDGv2 23
-3FK H26  0.273  2.395 -0.655 ETKDGv2 24
-3FK OXT -1.816 -2.162 -1.885 ETKDGv2 25
-3FK HXT -1.804 -2.950 -2.522 ETKDGv2 26
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+3FK "Create component" 2014-08-12 RCSB 
+3FK "Initial release"  2014-09-10 RCSB 
+# 

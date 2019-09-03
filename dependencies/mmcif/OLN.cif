@@ -1,331 +1,146 @@
 data_OLN
-#
-_chem_comp.id                                        OLN
-_chem_comp.name                                      "(S)-2-ACETAMIDO-5-UREIDOPENTANOIC ACID"
-_chem_comp.type                                      NON-POLYMER
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C8 H15 N3 O4"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             N-ACETYL-L-CITRULLINE
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2005-01-10
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            217.222
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         OLN
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            ?
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    OLN 
+_chem_comp.name                                  "(S)-2-ACETAMIDO-5-UREIDOPENTANOIC ACID" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C8 H15 N3 O4" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         N-ACETYL-L-CITRULLINE 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2005-01-10 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        217.222 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     OLN 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        ? 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-OLN   CA   CA C 0 1 N N S 109.246 42.407 82.275 -0.480 -0.333 -1.610   CA OLN  1
-OLN    C    C C 0 1 N N N 109.349 43.152 80.949 -1.501 -0.034 -2.678    C OLN  2
-OLN    O    O O 0 1 N N N 108.294 43.642 80.498 -2.291 -0.885 -3.013    O OLN  3
-OLN  OXT  OXT O 0 1 N N N 110.471 43.240 80.394 -1.532  1.175 -3.257  OXT OLN  4
-OLN   CB   CB C 0 1 N N N 108.642 43.342 83.329 -1.057  0.024 -0.239   CB OLN  5
-OLN   CG   CG C 0 1 N N N 108.365 42.694 84.660 -0.020 -0.278  0.844   CG OLN  6
-OLN   CD   CD C 0 1 N N N 107.216 43.393 85.358 -0.597  0.079  2.215   CD OLN  7
-OLN   NE   NE N 0 1 N N N 107.570 44.683 85.942  0.395 -0.210  3.253   NE OLN  8
-OLN   CZ   CZ C 0 1 N N N 106.693 45.459 86.577  0.105  0.027  4.548   CZ OLN  9
-OLN   O2   O2 O 0 1 N N N 105.486 45.187 86.625 -0.979  0.483  4.854   O2 OLN 10
-OLN  NH2  NH2 N 0 1 N N N 107.205 46.540 87.162  1.018 -0.239  5.503  NH2 OLN 11
-OLN   N1   N1 N 0 1 N N N 110.530 41.830 82.688  0.727  0.458 -1.854   N1 OLN 12
-OLN   C1   C1 C 0 1 N N N 111.036 40.680 82.252  1.716 -0.039 -2.622   C1 OLN 13
-OLN   O1   O1 O 0 1 N N N 110.388 39.899 81.560  1.606 -1.143 -3.111   O1 OLN 14
-OLN   C2   C2 C 0 1 N N N 112.470 40.429 82.686  2.958  0.775 -2.873   C2 OLN 15
-OLN   HA   HA H 0 1 N N N 108.566 41.532 82.152 -0.230 -1.394 -1.633   HA OLN 16
-OLN   HO   HO H 0 1 N N N 110.535 43.704 79.568 -2.187  1.367 -3.942   HO OLN 17
-OLN  HB1  1HB H 0 1 N N N 107.718 43.825 82.934 -1.307  1.085 -0.216  HB1 OLN 18
-OLN  HB2  2HB H 0 1 N N N 109.287 44.242 83.463 -1.955 -0.564 -0.057  HB2 OLN 19
-OLN  HG1  1HG H 0 1 N N N 109.277 42.653 85.300  0.229 -1.339  0.821  HG1 OLN 20
-OLN  HG2  2HG H 0 1 N N N 108.185 41.598 84.559  0.877  0.311  0.663  HG2 OLN 21
-OLN  HD1  1HD H 0 1 N N N 106.763 42.726 86.128 -0.847  1.140  2.238  HD1 OLN 22
-OLN  HD2  2HD H 0 1 N N N 106.347 43.502 84.668 -1.496 -0.509  2.397  HD2 OLN 23
-OLN  HNE  HNE H 0 1 N N N 107.996 45.245 85.205  1.260 -0.573  3.009  HNE OLN 24
-OLN HH21 1HH2 H 0 0 N N N 106.534 47.134 87.648  0.810 -0.067  6.434 HH21 OLN 25
-OLN HH22 2HH2 H 0 0 N N N 108.199 46.764 87.123  1.883 -0.602  5.258 HH22 OLN 26
-OLN  HN1  HN1 H 0 1 N N N 111.147 42.284 83.361  0.815  1.342 -1.463  HN1 OLN 27
-OLN  H21  1H2 H 0 1 N N N 112.561 40.500 83.795  3.640  0.212 -3.511  H21 OLN 28
-OLN  H22  2H2 H 0 1 N N N 112.894 39.465 82.320  2.687  1.709 -3.366  H22 OLN 29
-OLN  H23  3H2 H 0 1 N N N 113.124 41.282 82.388  3.447  0.994 -1.924  H23 OLN 30
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+OLN CA   CA   C 0 1 N N S 109.246 42.407 82.275 -0.480 -0.333 -1.610 CA   OLN 1  
+OLN C    C    C 0 1 N N N 109.349 43.152 80.949 -1.501 -0.034 -2.678 C    OLN 2  
+OLN O    O    O 0 1 N N N 108.294 43.642 80.498 -2.291 -0.885 -3.013 O    OLN 3  
+OLN OXT  OXT  O 0 1 N N N 110.471 43.240 80.394 -1.532 1.175  -3.257 OXT  OLN 4  
+OLN CB   CB   C 0 1 N N N 108.642 43.342 83.329 -1.057 0.024  -0.239 CB   OLN 5  
+OLN CG   CG   C 0 1 N N N 108.365 42.694 84.660 -0.020 -0.278 0.844  CG   OLN 6  
+OLN CD   CD   C 0 1 N N N 107.216 43.393 85.358 -0.597 0.079  2.215  CD   OLN 7  
+OLN NE   NE   N 0 1 N N N 107.570 44.683 85.942 0.395  -0.210 3.253  NE   OLN 8  
+OLN CZ   CZ   C 0 1 N N N 106.693 45.459 86.577 0.105  0.027  4.548  CZ   OLN 9  
+OLN O2   O2   O 0 1 N N N 105.486 45.187 86.625 -0.979 0.483  4.854  O2   OLN 10 
+OLN NH2  NH2  N 0 1 N N N 107.205 46.540 87.162 1.018  -0.239 5.503  NH2  OLN 11 
+OLN N1   N1   N 0 1 N N N 110.530 41.830 82.688 0.727  0.458  -1.854 N1   OLN 12 
+OLN C1   C1   C 0 1 N N N 111.036 40.680 82.252 1.716  -0.039 -2.622 C1   OLN 13 
+OLN O1   O1   O 0 1 N N N 110.388 39.899 81.560 1.606  -1.143 -3.111 O1   OLN 14 
+OLN C2   C2   C 0 1 N N N 112.470 40.429 82.686 2.958  0.775  -2.873 C2   OLN 15 
+OLN HA   HA   H 0 1 N N N 108.566 41.532 82.152 -0.230 -1.394 -1.633 HA   OLN 16 
+OLN HO   HO   H 0 1 N N N 110.535 43.704 79.568 -2.187 1.367  -3.942 HO   OLN 17 
+OLN HB1  1HB  H 0 1 N N N 107.718 43.825 82.934 -1.307 1.085  -0.216 HB1  OLN 18 
+OLN HB2  2HB  H 0 1 N N N 109.287 44.242 83.463 -1.955 -0.564 -0.057 HB2  OLN 19 
+OLN HG1  1HG  H 0 1 N N N 109.277 42.653 85.300 0.229  -1.339 0.821  HG1  OLN 20 
+OLN HG2  2HG  H 0 1 N N N 108.185 41.598 84.559 0.877  0.311  0.663  HG2  OLN 21 
+OLN HD1  1HD  H 0 1 N N N 106.763 42.726 86.128 -0.847 1.140  2.238  HD1  OLN 22 
+OLN HD2  2HD  H 0 1 N N N 106.347 43.502 84.668 -1.496 -0.509 2.397  HD2  OLN 23 
+OLN HNE  HNE  H 0 1 N N N 107.996 45.245 85.205 1.260  -0.573 3.009  HNE  OLN 24 
+OLN HH21 1HH2 H 0 0 N N N 106.534 47.134 87.648 0.810  -0.067 6.434  HH21 OLN 25 
+OLN HH22 2HH2 H 0 0 N N N 108.199 46.764 87.123 1.883  -0.602 5.258  HH22 OLN 26 
+OLN HN1  HN1  H 0 1 N N N 111.147 42.284 83.361 0.815  1.342  -1.463 HN1  OLN 27 
+OLN H21  1H2  H 0 1 N N N 112.561 40.500 83.795 3.640  0.212  -3.511 H21  OLN 28 
+OLN H22  2H2  H 0 1 N N N 112.894 39.465 82.320 2.687  1.709  -3.366 H22  OLN 29 
+OLN H23  3H2  H 0 1 N N N 113.124 41.282 82.388 3.447  0.994  -1.924 H23  OLN 30 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-OLN  CA    C SING N N  1
-OLN  CA   CB SING N N  2
-OLN  CA   N1 SING N N  3
-OLN  CA   HA SING N N  4
-OLN   C    O DOUB N N  5
-OLN   C  OXT SING N N  6
-OLN OXT   HO SING N N  7
-OLN  CB   CG SING N N  8
-OLN  CB  HB1 SING N N  9
-OLN  CB  HB2 SING N N 10
-OLN  CG   CD SING N N 11
-OLN  CG  HG1 SING N N 12
-OLN  CG  HG2 SING N N 13
-OLN  CD   NE SING N N 14
-OLN  CD  HD1 SING N N 15
-OLN  CD  HD2 SING N N 16
-OLN  NE   CZ SING N N 17
-OLN  NE  HNE SING N N 18
-OLN  CZ   O2 DOUB N N 19
-OLN  CZ  NH2 SING N N 20
-OLN NH2 HH21 SING N N 21
-OLN NH2 HH22 SING N N 22
-OLN  N1   C1 SING N N 23
-OLN  N1  HN1 SING N N 24
-OLN  C1   O1 DOUB N N 25
-OLN  C1   C2 SING N N 26
-OLN  C2  H21 SING N N 27
-OLN  C2  H22 SING N N 28
-OLN  C2  H23 SING N N 29
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+OLN CA  C    SING N N 1  
+OLN CA  CB   SING N N 2  
+OLN CA  N1   SING N N 3  
+OLN CA  HA   SING N N 4  
+OLN C   O    DOUB N N 5  
+OLN C   OXT  SING N N 6  
+OLN OXT HO   SING N N 7  
+OLN CB  CG   SING N N 8  
+OLN CB  HB1  SING N N 9  
+OLN CB  HB2  SING N N 10 
+OLN CG  CD   SING N N 11 
+OLN CG  HG1  SING N N 12 
+OLN CG  HG2  SING N N 13 
+OLN CD  NE   SING N N 14 
+OLN CD  HD1  SING N N 15 
+OLN CD  HD2  SING N N 16 
+OLN NE  CZ   SING N N 17 
+OLN NE  HNE  SING N N 18 
+OLN CZ  O2   DOUB N N 19 
+OLN CZ  NH2  SING N N 20 
+OLN NH2 HH21 SING N N 21 
+OLN NH2 HH22 SING N N 22 
+OLN N1  C1   SING N N 23 
+OLN N1  HN1  SING N N 24 
+OLN C1  O1   DOUB N N 25 
+OLN C1  C2   SING N N 26 
+OLN C2  H21  SING N N 27 
+OLN C2  H22  SING N N 28 
+OLN C2  H23  SING N N 29 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-OLN           SMILES              ACDLabs 10.04                                                                                     O=C(O)C(NC(=O)C)CCCNC(=O)N
-OLN SMILES_CANONICAL               CACTVS 3.341                                                                                CC(=O)N[C@@H](CCCNC(N)=O)C(O)=O
-OLN           SMILES               CACTVS 3.341                                                                                  CC(=O)N[CH](CCCNC(N)=O)C(O)=O
-OLN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                CC(=O)N[C@@H](CCCNC(=O)N)C(=O)O
-OLN           SMILES "OpenEye OEToolkits" 1.5.0                                                                                     CC(=O)NC(CCCNC(=O)N)C(=O)O
-OLN            InChI                InChI  1.03 InChI=1S/C8H15N3O4/c1-5(12)11-6(7(13)14)3-2-4-10-8(9)15/h6H,2-4H2,1H3,(H,11,12)(H,13,14)(H3,9,10,15)/t6-/m0/s1
-OLN         InChIKey                InChI  1.03                                                                                    WMQMIOYQXNRROC-LURJTMIESA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+OLN SMILES           ACDLabs              10.04 "O=C(O)C(NC(=O)C)CCCNC(=O)N"                                                                                     
+OLN SMILES_CANONICAL CACTVS               3.341 "CC(=O)N[C@@H](CCCNC(N)=O)C(O)=O"                                                                                
+OLN SMILES           CACTVS               3.341 "CC(=O)N[CH](CCCNC(N)=O)C(O)=O"                                                                                  
+OLN SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(=O)N[C@@H](CCCNC(=O)N)C(=O)O"                                                                                
+OLN SMILES           "OpenEye OEToolkits" 1.5.0 "CC(=O)NC(CCCNC(=O)N)C(=O)O"                                                                                     
+OLN InChI            InChI                1.03  "InChI=1S/C8H15N3O4/c1-5(12)11-6(7(13)14)3-2-4-10-8(9)15/h6H,2-4H2,1H3,(H,11,12)(H,13,14)(H3,9,10,15)/t6-/m0/s1" 
+OLN InChIKey         InChI                1.03  WMQMIOYQXNRROC-LURJTMIESA-N                                                                                      
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-OLN "SYSTEMATIC NAME"              ACDLabs 10.04                  N~2~-acetyl-N~5~-carbamoyl-L-ornithine
-OLN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-acetamido-5-(aminocarbonylamino)pentanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+OLN "SYSTEMATIC NAME" ACDLabs              10.04 N~2~-acetyl-N~5~-carbamoyl-L-ornithine                  
+OLN "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-acetamido-5-(aminocarbonylamino)pentanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-OLN  "Create component" 2005-01-10 RCSB
-OLN "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   OLN
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02368
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      N-Acetyl-L-Citrulline
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                .
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           OLN
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02368
-_pdbe_chem_comp_drugbank_classification.parent            "N-acyl-L-alpha-amino acids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as n-acyl-l-alpha-amino acids. These are n-acylated alpha amino acids which have the L-configuration of the alpha-carbon atom."
-
-#
-_pdbe_chem_comp_drugbank_targets.comp_id                        OLN
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    DB02368
-_pdbe_chem_comp_drugbank_targets.name                           "N-acetylornithine carbamoyltransferase"
-_pdbe_chem_comp_drugbank_targets.organism                       "Xanthomonas campestris pv. campestris (strain ATCC 33913 / DSM 3586 / NCPPB 528 / LMG 568 / P 25)"
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     Q8P8J2
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       unknown
-_pdbe_chem_comp_drugbank_targets.ordinal                        1
-
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-OLN  CA C  6.897  2.715  1
-OLN   C C  8.196  3.465  2
-OLN   O O  9.495  2.715  3
-OLN OXT O  8.196  4.965  4
-OLN  CB C  6.897  1.215  5
-OLN  CG C  8.196  0.465  6
-OLN  CD C  8.196 -1.035  7
-OLN  NE N  9.495 -1.785  8
-OLN  CZ C  9.495 -3.285  9
-OLN  O2 O  8.196 -4.035 10
-OLN NH2 N 10.794 -4.035 11
-OLN  N1 N  5.598  3.465 12
-OLN  C1 C  4.299  2.715 13
-OLN  O1 O  4.299  1.215 14
-OLN  C2 C  3.000  3.465 15
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-OLN CA   C SINGLE      NONE  1
-OLN CA  CB SINGLE BEGINDASH  2
-OLN CA  N1 SINGLE      NONE  3
-OLN  C   O DOUBLE      NONE  4
-OLN  C OXT SINGLE      NONE  5
-OLN CB  CG SINGLE      NONE  6
-OLN CG  CD SINGLE      NONE  7
-OLN CD  NE SINGLE      NONE  8
-OLN NE  CZ SINGLE      NONE  9
-OLN CZ  O2 DOUBLE      NONE 10
-OLN CZ NH2 SINGLE      NONE 11
-OLN N1  C1 SINGLE      NONE 12
-OLN C1  O1 DOUBLE      NONE 13
-OLN C1  C2 SINGLE      NONE 14
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-OLN   amide F1 fragment CC(N)=O InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-OLN peptide F2 fragment   NCC=O     InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-OLN N1 F1 1
-OLN C1 F1 1
-OLN O1 F1 1
-OLN C2 F1 1
-OLN  O F2 1
-OLN  C F2 1
-OLN CA F2 1
-OLN N1 F2 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               OLN
-_pdbe_chem_comp_rdkit_properties.exactmw                               217.106
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           7
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           5
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                4
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        7
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         3
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.625
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             108.406
-_pdbe_chem_comp_rdkit_properties.tpsa                                  121.520
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.976
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             52.061
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         15
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-OLN UniChem        ChEMBL    CHEMBL1234982
-OLN UniChem      DrugBank          DB02368
-OLN UniChem "KEGG LIGAND"           C15532
-OLN UniChem         ChEBI            49002
-OLN UniChem          ZINC ZINC000012494450
-OLN UniChem        BRENDA            99956
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-OLN   CA -1.472  0.218  0.783 ETKDGv2  1
-OLN    C -1.487  1.725  0.798 ETKDGv2  2
-OLN    O -0.886  2.347  1.714 ETKDGv2  3
-OLN  OXT -2.162  2.438 -0.189 ETKDGv2  4
-OLN   CB -0.042 -0.337  0.620 ETKDGv2  5
-OLN   CG  0.629  0.056 -0.711 ETKDGv2  6
-OLN   CD  2.084 -0.427 -0.779 ETKDGv2  7
-OLN   NE  2.949  0.339  0.118 ETKDGv2  8
-OLN   CZ  4.345  0.043  0.243 ETKDGv2  9
-OLN   O2  4.859 -0.899 -0.418 ETKDGv2 10
-OLN  NH2  5.164  0.816  1.119 ETKDGv2 11
-OLN   N1 -2.352 -0.302 -0.271 ETKDGv2 12
-OLN   C1 -3.397 -1.254 -0.022 ETKDGv2 13
-OLN   O1 -3.576 -1.725  1.134 ETKDGv2 14
-OLN   C2 -4.258 -1.723 -1.149 ETKDGv2 15
-OLN   HA -1.841 -0.114  1.778 ETKDGv2 16
-OLN   HO -2.174  3.451 -0.182 ETKDGv2 17
-OLN  HB1 -0.085 -1.446  0.687 ETKDGv2 18
-OLN  HB2  0.576  0.018  1.473 ETKDGv2 19
-OLN  HG1  0.603  1.158 -0.854 ETKDGv2 20
-OLN  HG2  0.074 -0.411 -1.552 ETKDGv2 21
-OLN  HD1  2.133 -1.507 -0.517 ETKDGv2 22
-OLN  HD2  2.451 -0.308 -1.821 ETKDGv2 23
-OLN  HNE  2.560  1.136  0.671 ETKDGv2 24
-OLN HH21  4.755  1.600  1.675 ETKDGv2 25
-OLN HH22  6.182  0.605  1.214 ETKDGv2 26
-OLN  HN1 -2.210  0.023 -1.254 ETKDGv2 27
-OLN  H21 -5.128 -2.296 -0.764 ETKDGv2 28
-OLN  H22 -3.663 -2.375 -1.821 ETKDGv2 29
-OLN  H23 -4.632 -0.850 -1.723 ETKDGv2 30
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+OLN "Create component"  2005-01-10 RCSB 
+OLN "Modify descriptor" 2011-06-04 RCSB 
+# 

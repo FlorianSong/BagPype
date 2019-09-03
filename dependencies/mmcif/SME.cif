@@ -1,312 +1,128 @@
 data_SME
-#
-_chem_comp.id                                        SME
-_chem_comp.name                                      "METHIONINE SULFOXIDE"
-_chem_comp.type                                      "L-PEPTIDE LINKING"
-_chem_comp.pdbx_type                                 ATOMP
-_chem_comp.formula                                   "C5 H11 N O3 S"
-_chem_comp.mon_nstd_parent_comp_id                   MET
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         1999-07-08
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            165.211
-_chem_comp.one_letter_code                           M
-_chem_comp.three_letter_code                         SME
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1BA6
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
-
-#
+# 
+_chem_comp.id                                    SME 
+_chem_comp.name                                  "METHIONINE SULFOXIDE" 
+_chem_comp.type                                  "L-PEPTIDE LINKING" 
+_chem_comp.pdbx_type                             ATOMP 
+_chem_comp.formula                               "C5 H11 N O3 S" 
+_chem_comp.mon_nstd_parent_comp_id               MET 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        165.211 
+_chem_comp.one_letter_code                       M 
+_chem_comp.three_letter_code                     SME 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1BA6 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
 loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-SME   N   N N 0 1 N N N 7.763 -0.195 -10.134 -1.797 -0.400 -1.472   N SME  1
-SME  CA  CA C 0 1 N N S 6.958  0.781 -10.922 -0.566  0.400 -1.524  CA SME  2
-SME  CB  CB C 0 1 N N N 5.987 -0.007 -11.847  0.285  0.107 -0.288  CB SME  3
-SME  CG  CG C 0 1 N N N 5.729  0.796 -13.133 -0.504  0.467  0.972  CG SME  4
-SME   S   S S 0 1 N N R 4.691 -0.181 -14.233  0.506  0.120  2.438   S SME  5
-SME  OE  OE O 0 1 N N N 5.421 -1.423 -14.572  0.742 -1.277  2.530  OE SME  6
-SME  CE  CE C 0 1 N N N 4.760  0.909 -15.665 -0.648  0.626  3.743  CE SME  7
-SME   C   C C 0 1 N N N 6.186  1.682  -9.946  0.210  0.046 -2.765   C SME  8
-SME   O   O O 0 1 N N N 5.088  2.131 -10.217  0.137 -1.067 -3.227   O SME  9
-SME OXT OXT O 0 1 N Y N 6.817  1.912  -8.824  0.985  0.968 -3.358 OXT SME 10
-SME   H 1HN H 0 1 N N N 7.570 -0.314  -9.184 -2.230 -0.208 -0.581   H SME 11
-SME  H2 2HN H 0 1 N Y N 8.248 -0.869 -10.726 -1.512 -1.368 -1.453  H2 SME 12
-SME  HA  HA H 0 1 N N N 7.644  1.398 -11.474 -0.823  1.459 -1.546  HA SME 13
-SME HB2 1HB H 0 1 N N N 5.051 -0.194 -11.341  1.198  0.702 -0.326 HB2 SME 14
-SME HB3 2HB H 0 1 N N N 6.421 -0.960 -12.111  0.542 -0.951 -0.266 HB3 SME 15
-SME HG2 1HG H 0 1 N N N 6.662  1.016 -13.632 -1.417 -0.127  1.011 HG2 SME 16
-SME HG3 2HG H 0 1 N N N 5.223  1.722 -12.902 -0.761  1.526  0.950 HG3 SME 17
-SME HE1 1HE H 0 1 N N N 4.397  1.889 -15.391 -0.182  0.477  4.717 HE1 SME 18
-SME HE2 2HE H 0 1 N N N 4.143  0.505 -16.454 -0.899  1.679  3.617 HE2 SME 19
-SME HE3 3HE H 0 1 N N N 5.780  0.986 -16.011 -1.555  0.025  3.678 HE3 SME 20
-SME HXT HXT H 0 1 N Y N 6.339  2.469  -8.220  1.484  0.741 -4.154 HXT SME 21
-#
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+SME N   N   N 0 1 N N N 7.763 -0.195 -10.134 -1.797 -0.400 -1.472 N   SME 1  
+SME CA  CA  C 0 1 N N S 6.958 0.781  -10.922 -0.566 0.400  -1.524 CA  SME 2  
+SME CB  CB  C 0 1 N N N 5.987 -0.007 -11.847 0.285  0.107  -0.288 CB  SME 3  
+SME CG  CG  C 0 1 N N N 5.729 0.796  -13.133 -0.504 0.467  0.972  CG  SME 4  
+SME S   S   S 0 1 N N R 4.691 -0.181 -14.233 0.506  0.120  2.438  S   SME 5  
+SME OE  OE  O 0 1 N N N 5.421 -1.423 -14.572 0.742  -1.277 2.530  OE  SME 6  
+SME CE  CE  C 0 1 N N N 4.760 0.909  -15.665 -0.648 0.626  3.743  CE  SME 7  
+SME C   C   C 0 1 N N N 6.186 1.682  -9.946  0.210  0.046  -2.765 C   SME 8  
+SME O   O   O 0 1 N N N 5.088 2.131  -10.217 0.137  -1.067 -3.227 O   SME 9  
+SME OXT OXT O 0 1 N Y N 6.817 1.912  -8.824  0.985  0.968  -3.358 OXT SME 10 
+SME H   1HN H 0 1 N N N 7.570 -0.314 -9.184  -2.230 -0.208 -0.581 H   SME 11 
+SME H2  2HN H 0 1 N Y N 8.248 -0.869 -10.726 -1.512 -1.368 -1.453 H2  SME 12 
+SME HA  HA  H 0 1 N N N 7.644 1.398  -11.474 -0.823 1.459  -1.546 HA  SME 13 
+SME HB2 1HB H 0 1 N N N 5.051 -0.194 -11.341 1.198  0.702  -0.326 HB2 SME 14 
+SME HB3 2HB H 0 1 N N N 6.421 -0.960 -12.111 0.542  -0.951 -0.266 HB3 SME 15 
+SME HG2 1HG H 0 1 N N N 6.662 1.016  -13.632 -1.417 -0.127 1.011  HG2 SME 16 
+SME HG3 2HG H 0 1 N N N 5.223 1.722  -12.902 -0.761 1.526  0.950  HG3 SME 17 
+SME HE1 1HE H 0 1 N N N 4.397 1.889  -15.391 -0.182 0.477  4.717  HE1 SME 18 
+SME HE2 2HE H 0 1 N N N 4.143 0.505  -16.454 -0.899 1.679  3.617  HE2 SME 19 
+SME HE3 3HE H 0 1 N N N 5.780 0.986  -16.011 -1.555 0.025  3.678  HE3 SME 20 
+SME HXT HXT H 0 1 N Y N 6.339 2.469  -8.220  1.484  0.741  -4.154 HXT SME 21 
+# 
 loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-SME   N  CA SING N N  1
-SME   N   H SING N N  2
-SME   N  H2 SING N N  3
-SME  CA  CB SING N N  4
-SME  CA   C SING N N  5
-SME  CA  HA SING N N  6
-SME  CB  CG SING N N  7
-SME  CB HB2 SING N N  8
-SME  CB HB3 SING N N  9
-SME  CG   S SING N N 10
-SME  CG HG2 SING N N 11
-SME  CG HG3 SING N N 12
-SME   S  OE DOUB N N 13
-SME   S  CE SING N N 14
-SME  CE HE1 SING N N 15
-SME  CE HE2 SING N N 16
-SME  CE HE3 SING N N 17
-SME   C   O DOUB N N 18
-SME   C OXT SING N N 19
-SME OXT HXT SING N N 20
-#
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+SME N   CA  SING N N 1  
+SME N   H   SING N N 2  
+SME N   H2  SING N N 3  
+SME CA  CB  SING N N 4  
+SME CA  C   SING N N 5  
+SME CA  HA  SING N N 6  
+SME CB  CG  SING N N 7  
+SME CB  HB2 SING N N 8  
+SME CB  HB3 SING N N 9  
+SME CG  S   SING N N 10 
+SME CG  HG2 SING N N 11 
+SME CG  HG3 SING N N 12 
+SME S   OE  DOUB N N 13 
+SME S   CE  SING N N 14 
+SME CE  HE1 SING N N 15 
+SME CE  HE2 SING N N 16 
+SME CE  HE3 SING N N 17 
+SME C   O   DOUB N N 18 
+SME C   OXT SING N N 19 
+SME OXT HXT SING N N 20 
+# 
 loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-SME           SMILES              ACDLabs 10.04                                                             O=C(O)C(N)CCS(=O)C
-SME SMILES_CANONICAL               CACTVS 3.341                                                     C[S@@](=O)CC[C@H](N)C(O)=O
-SME           SMILES               CACTVS 3.341                                                        C[S](=O)CC[CH](N)C(O)=O
-SME SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                    C[S@@](=O)CC[C@@H](C(=O)O)N
-SME           SMILES "OpenEye OEToolkits" 1.5.0                                                             CS(=O)CCC(C(=O)O)N
-SME            InChI                InChI  1.03 InChI=1S/C5H11NO3S/c1-10(9)3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-,10+/m0/s1
-SME         InChIKey                InChI  1.03                                                    QEFRNWWLZKMPFJ-ZXPFJRLXSA-N
-#
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+SME SMILES           ACDLabs              10.04 "O=C(O)C(N)CCS(=O)C"                                                             
+SME SMILES_CANONICAL CACTVS               3.341 "C[S@@](=O)CC[C@H](N)C(O)=O"                                                     
+SME SMILES           CACTVS               3.341 "C[S](=O)CC[CH](N)C(O)=O"                                                        
+SME SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "C[S@@](=O)CC[C@@H](C(=O)O)N"                                                    
+SME SMILES           "OpenEye OEToolkits" 1.5.0 "CS(=O)CCC(C(=O)O)N"                                                             
+SME InChI            InChI                1.03  "InChI=1S/C5H11NO3S/c1-10(9)3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-,10+/m0/s1" 
+SME InChIKey         InChI                1.03  QEFRNWWLZKMPFJ-ZXPFJRLXSA-N                                                      
+# 
 loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-SME "SYSTEMATIC NAME"              ACDLabs 10.04 "(2S)-2-amino-4-[(R)-methylsulfinyl]butanoic acid"
-SME "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-4-[(R)-methylsulfinyl]butanoic acid"
-#
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+SME "SYSTEMATIC NAME" ACDLabs              10.04 "(2S)-2-amino-4-[(R)-methylsulfinyl]butanoic acid" 
+SME "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2S)-2-amino-4-[(R)-methylsulfinyl]butanoic acid" 
+# 
 loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-SME  "Create component" 1999-07-08 RCSB
-SME "Modify descriptor" 2011-06-04 RCSB
-#
-_pdbe_chem_comp_drugbank_details.comp_id                   SME
-_pdbe_chem_comp_drugbank_details.drugbank_id               DB02235
-_pdbe_chem_comp_drugbank_details.type                      "small molecule"
-_pdbe_chem_comp_drugbank_details.name                      "L-methionine (R)-S-oxide"
-_pdbe_chem_comp_drugbank_details.description               .
-_pdbe_chem_comp_drugbank_details.cas_number                62697-73-8
-_pdbe_chem_comp_drugbank_details.mechanism_of_action       .
-
-#
-_pdbe_chem_comp_drugbank_classification.comp_id           SME
-_pdbe_chem_comp_drugbank_classification.drugbank_id       DB02235
-_pdbe_chem_comp_drugbank_classification.parent            "L-alpha-amino acids"
-_pdbe_chem_comp_drugbank_classification.kingdom           "Organic compounds"
-_pdbe_chem_comp_drugbank_classification.class             "Carboxylic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.superclass        "Organic acids and derivatives"
-_pdbe_chem_comp_drugbank_classification.description       "This compound belongs to the class of organic compounds known as l-alpha-amino acids. These are alpha amino acids which have the L-configuration of the alpha-carbon atom."
-
-#
-loop_
-_pdbe_chem_comp_drugbank_targets.comp_id                        
-_pdbe_chem_comp_drugbank_targets.drugbank_id                    
-_pdbe_chem_comp_drugbank_targets.name                           
-_pdbe_chem_comp_drugbank_targets.organism                       
-_pdbe_chem_comp_drugbank_targets.uniprot_id                     
-_pdbe_chem_comp_drugbank_targets.pharmacologically_active       
-_pdbe_chem_comp_drugbank_targets.ordinal                        
-SME DB02235                  Protease "Bacillus sp. KSM-KP43" Q93UV9 unknown 1
-SME DB02235 "Amyloid beta A4 protein"                  Humans P05067 unknown 2
-SME DB02235                  Catalase    "Micrococcus luteus" P29422 unknown 3
-#
-loop_
-_pdbx_chem_comp_synonyms.comp_id          
-_pdbx_chem_comp_synonyms.name             
-_pdbx_chem_comp_synonyms.provenance       
-SME "Methionine Sulfoxide"   ChEMBL
-SME "Methionine Sulfoxide" DrugBank
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-SME   N N 3.805  1.875  1
-SME  CA C 5.104  1.125  2
-SME  CB C 5.104 -0.375  3
-SME  CG C 6.404 -1.125  4
-SME   S S 6.404 -2.625  5
-SME  OE O 5.104 -3.375  6
-SME  CE C 7.702 -3.375  7
-SME   C C 6.404  1.875  8
-SME   O O 7.702  1.125  9
-SME OXT O 6.404  3.375 10
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-SME  N  CA SINGLE BEGINWEDGE 1
-SME CA  CB SINGLE       NONE 2
-SME CA   C SINGLE       NONE 3
-SME CB  CG SINGLE       NONE 4
-SME CG   S SINGLE       NONE 5
-SME  S  OE DOUBLE       NONE 6
-SME  S  CE SINGLE  BEGINDASH 7
-SME  C   O DOUBLE       NONE 8
-SME  C OXT SINGLE       NONE 9
-#
-_pdbe_chem_comp_substructure.comp_id                      SME
-_pdbe_chem_comp_substructure.substructure_name            peptide
-_pdbe_chem_comp_substructure.id                           F1
-_pdbe_chem_comp_substructure.substructure_type            fragment
-_pdbe_chem_comp_substructure.substructure_smiles          NCC=O
-_pdbe_chem_comp_substructure.substructure_inchis          InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2
-_pdbe_chem_comp_substructure.substructure_inchikeys       LYIIBVSRGJSHAV-UHFFFAOYSA-N
-
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-SME  O F1 1
-SME  C F1 1
-SME CA F1 1
-SME  N F1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               SME
-_pdbe_chem_comp_rdkit_properties.exactmw                               165.046
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           4
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           3
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     6
-_pdbe_chem_comp_rdkit_properties.NumHBD                                2
-_pdbe_chem_comp_rdkit_properties.NumHBA                                4
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        5
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.800
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             77.526
-_pdbe_chem_comp_rdkit_properties.tpsa                                  80.390
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -0.833
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             39.162
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         10
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-SME UniChem        ChEMBL    CHEMBL1234321
-SME UniChem      DrugBank          DB02235
-SME UniChem "KEGG LIGAND"           C15998
-SME UniChem         ChEBI            49032
-SME UniChem         ChEBI            58773
-SME UniChem          ZINC ZINC000001529567
-SME UniChem          ZINC     ZINC03861729
-SME UniChem  MetaboLights       MTBLC49032
-SME UniChem  MetaboLights       MTBLC58773
-SME UniChem        BRENDA            16102
-SME UniChem        BRENDA            17716
-SME UniChem        BRENDA            22025
-SME UniChem        BRENDA            25592
-SME UniChem        BRENDA             3924
-SME UniChem        BRENDA             4709
-SME UniChem        BRENDA            51132
-SME UniChem        BRENDA            52637
-SME UniChem        BRENDA            57252
-SME UniChem        BRENDA             8608
-SME UniChem          Rhea            58773
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-SME   N -2.825 -1.001  0.745 ETKDGv2  1
-SME  CA -1.572 -0.712  0.044 ETKDGv2  2
-SME  CB -0.383 -0.664  1.035 ETKDGv2  3
-SME  CG  0.990 -0.641  0.344 ETKDGv2  4
-SME   S  1.444  1.022 -0.206 ETKDGv2  5
-SME  OE  1.772  1.757  1.087 ETKDGv2  6
-SME  CE  3.054  0.801 -0.984 ETKDGv2  7
-SME   C -1.721  0.571 -0.730 ETKDGv2  8
-SME   O -1.609  0.560 -1.984 ETKDGv2  9
-SME OXT -1.987  1.777 -0.084 ETKDGv2 10
-SME   H -2.776 -1.972  1.132 ETKDGv2 11
-SME  H2 -2.931 -0.351  1.559 ETKDGv2 12
-SME  HA -1.390 -1.540 -0.679 ETKDGv2 13
-SME HB2 -0.479  0.199  1.729 ETKDGv2 14
-SME HB3 -0.422 -1.582  1.661 ETKDGv2 15
-SME HG2  1.002 -1.335 -0.524 ETKDGv2 16
-SME HG3  1.762 -0.988  1.064 ETKDGv2 17
-SME HE1  3.750  0.306 -0.276 ETKDGv2 18
-SME HE2  2.942  0.171 -1.891 ETKDGv2 19
-SME HE3  3.464  1.790 -1.273 ETKDGv2 20
-SME HXT -2.085  1.831  0.922 ETKDGv2 21
-#
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+SME "Create component"  1999-07-08 RCSB 
+SME "Modify descriptor" 2011-06-04 RCSB 
+# 
