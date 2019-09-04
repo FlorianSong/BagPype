@@ -296,7 +296,8 @@ class BioMolecule(object):
         # that will supply us with the next chain name
         # and residue offset
         def chain_position_generator(orig_pos, orig_chainname):
-            available_letters = string.ascii_uppercase[string.ascii_uppercase.index(min(orig_chains)): ]
+            available_letters = string.ascii_uppercase + string.ascii_lowercase + string.digits
+            available_letters = available_letters[available_letters.index(min(orig_chains)): ]
             available_letters = sorted( list(set(available_letters) - set(orig_chains)))
             chain_list = [orig_chainname] + available_letters[orig_pos::len(orig_chains)]
 
@@ -318,7 +319,9 @@ class BioMolecule(object):
             chain_store[chain] = chain_position_generator(pos, chain)
 
         # should we, or shouldn't we renumber atoms uniquely? we will.
-        atom_numbers = dict.fromkeys(string.ascii_uppercase, 0)
+        atom_numbers = dict.fromkeys(string.ascii_uppercase + 
+                                     string.ascii_lowercase + 
+                                     string.digits, 0)
 
         for rg in self.replication_groups:
             for old_chain, chains in sorted(rg.replicated_chains.items()):

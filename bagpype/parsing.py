@@ -51,7 +51,8 @@ class PDBParser(object):
     def parse(self, protein,
               model=1, strip='default', 
               strip_ANISOU=True, strip_LINK=False, strip_CONECT=True,
-              strip_HETATM=False, add_H=None, alternate_location="A", 
+              strip_HETATM=False, add_H=None, trim_H=False,
+              alternate_location="A", 
               MakeMultimer_number=1, strip_weird_H=[]
               ):
         """ Takes a bagpype Protein object and loads it with data 
@@ -154,7 +155,7 @@ class PDBParser(object):
 
         if add_H or not self._has_hydrogens():
             print("Adding hydrogens to PDB file")
-            self._add_hydrogens()
+            self._add_hydrogens(trim_H)
             print("Finished adding hydrogens")
 
         ### Here, pdb_filename = 1xyz_stripped_mm#_H.pdb
@@ -409,12 +410,16 @@ class PDBParser(object):
             return False
 
 
-    def _add_hydrogens(self):
+    def _add_hydrogens(self, trim_before):
         """ Runs the command-line program Reduce to add hydrogens
         to the specified pdb file
         Runs with subprocess.call to retain compatibility with Python2.7
         """
         if sys.platform.startswith("linux"):
+            if trim_before:
+                subprocess.call(bagpype.settings.REDUCE + ' -Quiet -trim ' + self.pdb_filename + 
+                                " > " + self.pdb_filename[0:-4] + '_trimmedH.pdb', shell = True)
+                self.pdb_filename = self.pdb_filename[0:-4] + '_trimmedH.pdb'
             subprocess.call(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
