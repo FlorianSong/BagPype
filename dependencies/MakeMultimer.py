@@ -298,14 +298,14 @@ class BioMolecule(object):
         def chain_position_generator(orig_pos, orig_chainname):
             available_letters = string.ascii_uppercase + string.ascii_lowercase + string.digits
             available_letters = available_letters[available_letters.index(min(orig_chains)): ]
-            available_letters = sorted( list(set(available_letters) - set(orig_chains)))
+            available_letters = [i for i in available_letters if i not in orig_chains]
             chain_list = [orig_chainname] + available_letters[orig_pos::len(orig_chains)]
 
             chain_counter = 0
 
             while True:
                 residue_offset = 0
-                for x in range(self.options['renamechains']):
+                for _ in range(self.options['renamechains']):
                     yield chain_list[chain_counter], residue_offset
                     residue_offset += self.options['renumberresidues']
                 chain_counter += 1

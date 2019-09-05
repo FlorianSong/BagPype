@@ -44,7 +44,8 @@ class PDBParser(object):
 
         if download:
             import urllib.request
-            url = "https://files.rcsb.org/download/" + pdb_filename
+            name = pdb_filename.split("/")[-1]
+            url = "https://files.rcsb.org/download/" + name
             urllib.request.urlretrieve(url, pdb_filename)
 
         
