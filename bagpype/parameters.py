@@ -242,59 +242,59 @@ DC_sigma_pi['H41'] = [0.2075, 0]
 
 distance_cutoffs = {
   # All of the below are taken from FIRST
-('C', 'C'): 1.75, 
-('C', 'CL'): 1.563, 
-('C', 'H'): 1.18, 
-('C', 'MG'): 0.00, 
-('C', 'N'): 1.58, 
-('C', 'O'): 1.60, 
-('C', 'P'): 1.99, 
-('C', 'S'): 2.05, 
-('C', 'ZN'): 0.00, 
-('CA', 'O'): 1.822 +0.1, # ('CA', 'O'): 2.70, # Replaced by corresponding data from Huheey
-('CA', 'N'): 2.45, 
-('CA', 'S'): 2.60, 
+# ('C', 'C'): 1.75, 
+# ('C', 'CL'): 1.563, 
+# ('C', 'H'): 1.18, 
+# ('C', 'MG'): 0.00, 
+# ('C', 'N'): 1.58, 
+# ('C', 'O'): 1.60, 
+# ('C', 'P'): 1.99, 
+# ('C', 'S'): 2.05, 
+# ('C', 'ZN'): 0.00, 
+# ('CA', 'O'): 1.822 +0.1, # ('CA', 'O'): 2.70, # Replaced by corresponding data from Huheey
+# ('CA', 'N'): 2.45, 
+# ('CA', 'S'): 2.60, 
 ('CU', 'N'): 0, # ('CU', 'N'): 2.20, Currently set to not bond as CU is usually an ion
 ('CU', 'O'): 0, # ('CU', 'O'): 2.20, Currently set to not bond as CU is usually an ion
-('CU', 'S'): 2.20, 
-('FE', 'H'): 1.00, 
-('FE', 'N'): 2.40, 
+# ('CU', 'S'): 2.20, 
+# ('FE', 'H'): 1.00, 
+# ('FE', 'N'): 2.40, 
 ("FE", "O"): 0, # ('FE', 'O'): 2.40, Set to not bond...
-('FE', 'S'): 2.40, 
-('GE', 'GE'): 2.95, 
-('GE', 'SE'): 2.95, 
+# ('FE', 'S'): 2.40, 
+# ('GE', 'GE'): 2.95, 
+# ('GE', 'SE'): 2.95, 
 # ('H', 'H'): 0.78, # This seems to lead to situations where due to bad structural files, two H were covalently bonded even though they shouldn't be.
 ('H', 'H'): 0.,
-('H', 'MG'): 0.00, 
-('H', 'N'): 1.08+ .1, 
-('H', 'O'): 1.05, 
-('H', 'P'): 1.50, 
-('H', 'S'): 1.38, 
-('H', 'ZN'): 0.00, 
+# ('H', 'MG'): 0.00, 
+# ('H', 'N'): 1.08+ .1, 
+# ('H', 'O'): 1.05, 
+# ('H', 'P'): 1.50, 
+# ('H', 'S'): 1.38, 
+# ('H', 'ZN'): 0.00, 
 ('K', 'O'): 0., # ('K', 'O'): 3.10, # Could not find evidence that this exists as a covalent bond.
-('MG', 'MG'): 3.782, 
+# ('MG', 'MG'): 3.782, 
 ('MG', 'N'): 0, # ('MG', 'N'): 2.50, Currently set to not bond as MG is usually an ion
-("MG", "O"): 1.749 +0.1,  # ('MG', 'O'): 2.50, # Replaced by corresponding data from Huheey (double bond!)
-('MG', 'S'): 2.50, 
+# ("MG", "O"): 1.749 +0.1,  # ('MG', 'O'): 2.50, # Replaced by corresponding data from Huheey (double bond!)
+# ('MG', 'S'): 2.50, 
 ('MN', 'N'): 0, # ('MN', 'N'): 2.50, Currently set to not bond as MN is usually an ion
 ('MN', 'O'): 0, # ('MN', 'O'): 2.50, Currently set to not bond as MN is usually an ion
-('MN', 'S'): 2.50, 
-('N', 'N'): 1.46, 
-('N', 'O'): 1.50, 
-('N', 'P'): 1.75, 
-('N', 'S'): 1.73, 
+# ('MN', 'S'): 2.50, 
+# ('N', 'N'): 1.46, 
+# ('N', 'O'): 1.50, 
+# ('N', 'P'): 1.75, 
+# ('N', 'S'): 1.73, 
 ('N', 'ZN'): 0, # ('N', 'ZN'): 2.50, Currently set to not bond as ZN is usually an ion
-('NA', 'F'): 1.830, 
+# ('NA', 'F'): 1.830, 
 ('NA', 'O'): 0., # ('NA', 'O'): 2.70,  # Could not find evidence that this exists as a covalent bond.
-('O', 'O'): 1.55, 
-('O', 'P'): 1.80, 
-('O', 'S'): 1.60, 
-('O', 'ZN'): 2.50, 
+# ('O', 'O'): 1.55, 
+# ('O', 'P'): 1.80, 
+# ('O', 'S'): 1.60, 
+# ('O', 'ZN'): 2.50, 
 ('P', 'P'): 0, # ('P', 'P'): 2.30, # Could not find evidence that this exists as a covalent bond.
-('P', 'S'): 2.10, 
-('S', 'S'): 2.10, 
+# ('P', 'S'): 2.10, 
+# ('S', 'S'): 2.10, 
 ('S', 'ZN'): 0., # ('S', 'ZN'): 2.50, # Could not find evidence that this exists as a covalent bond.
-('SE', 'SE'): 2.95, 
+# ('SE', 'SE'): 2.95, 
 
 # We add 0.1 to all values to take into account a small tolerance as the values below are usually at equilibrium.
 ("N", "SE"): 1.76 +0.1, #S Sulfur-Nitrogen Compounds Part 3 Compounds with Sulfur of Oxidation Number IV
