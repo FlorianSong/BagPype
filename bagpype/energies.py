@@ -9,14 +9,10 @@
 
 import bagpype.settings
 import bagpype.parameters
+from bagpype.errors import MissingEnergyError, UnknownResidueError, UnusualCIFFile
 import shlex
 from CifFile import ReadCif
 
-class MissingEnergyError(Exception):
-    pass
-
-class UnknownResidueError(Exception):
-    pass
 
 def generate_energies_dictionary(AA):
     """
@@ -130,7 +126,7 @@ def generate_energies_dictionary(AA):
 
         # Quick check of bond_lists, just a cautionary thing so that the next bit of code can work fine
         if len(bond_list1) != len(bond_list2):
-            raise Exception("Something went wrong with the bonds!")
+            raise UnusualCIFFile(aa)
 
         # Loop over bonds in the bond_list
         for i in range(len(bond_list1)):
@@ -155,7 +151,7 @@ def generate_energies_dictionary(AA):
                     try:
                         bond_strength = singlebond_energies[lookup_reversed]
                     except KeyError:
-                        raise MissingEnergyError("Please add the single bond between " + atom1_element + " and " + atom2_element)
+                        raise MissingEnergyError(atom1_element, atom2_element, aa, bond_type)
             elif bond_type == "DOUB":
                 try:
                     bond_strength = doublebond_energies[lookup]
@@ -163,7 +159,7 @@ def generate_energies_dictionary(AA):
                     try:
                         bond_strength = doublebond_energies[lookup_reversed]
                     except KeyError:
-                        raise MissingEnergyError("Please add the double bond between " + atom1_element + " and " + atom2_element)
+                        raise MissingEnergyError(atom1_element, atom2_element, aa, bond_type)
             elif bond_type == "TRIP":
                 try:
                     bond_strength = triplebond_energies[lookup]
@@ -171,9 +167,9 @@ def generate_energies_dictionary(AA):
                     try:
                         bond_strength = triplebond_energies[lookup_reversed]
                     except KeyError:
-                        raise MissingEnergyError("Please add the triple bond between " + atom1_element + " and " + atom2_element)
+                        raise MissingEnergyError(atom1_element, atom2_element, aa, bond_type)
             else:
-                raise Exception("Something went wrong with the bond types in {}!".format(aa))
+                raise UnusualCIFFile(aa)
 
 
             # Add bond to the dictionary both ways
@@ -204,7 +200,7 @@ def generate_energies_dictionary(AA):
             Output: returns updated bonds_dictionary
             """
             if len(neighbours) != 2:
-                raise IndexError("Bond averaging received more than two atoms!")
+                raise Exception("Bond averaging received more than two atoms!")
             original_bond_strength1 = bonds_dictionary[atom][neighbours[0]]
             original_bond_strength2 = bonds_dictionary[atom][neighbours[1]]
             new_bond_strength = (original_bond_strength1 + original_bond_strength2) / 2.

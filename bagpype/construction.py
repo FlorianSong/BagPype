@@ -3,6 +3,7 @@ import bagpype.parameters
 import bagpype.settings
 import bagpype.molecules
 import bagpype.parsing
+from bagpype.errors import *
 import scipy 
 import numpy as np
 import time
@@ -10,8 +11,6 @@ import itertools
 import pandas as pd
 
 
-class ConstructionError(Exception):
-    pass
 
 #####################################
 #                                   #
@@ -289,7 +288,7 @@ class Graph_constructor(object):
 
         try:
             # Checking only one way is enough, because covalent bond energies are generated both ways round by default.
-            bond_strength = bond_dict[atom1.name][atom2.name]
+            bond_strength = bond_dict[atom1.name][atom2.name] if within_cov_bonding_distance(atom1, atom2) else None
         except KeyError:
             bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2, print_warnings = True)
             
@@ -325,7 +324,13 @@ class Graph_constructor(object):
             if print_warnings:
                 print(("WARNING: Adding bond between " + str(atom1.id) + " " + atom1.name + " in res " + atom1.res_name + atom1.res_num + 
                        " and " + str(atom2.id) + " " + atom2.name + " in res " + atom2.res_name + atom2.res_num + " based on distance constraints using single bond energies!"))
-            strength = bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
+            
+            try: 
+                strength = bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
+            except KeyError:
+                raise MissingEnergyError(atom1.element, atom2.element, 
+                                         (atom1.res_name+atom1.res_num, atom2.res_name+atom2.res_num))
+                    # "Please add the single bond between " + atom1.element + " and " + atom2.element)
         else:
             strength = None
         return strength
@@ -445,17 +450,20 @@ class Graph_constructor(object):
         partner.
         """
         if atom.element != 'H':
-            raise ValueError("You have tried to find the donor of atom {0}, "
-                             "but atom {0} is not a hydrogen.".format(atom.id))
+            raise UnusualHydrogenError(
+                "You have tried to find the donor of atom {0}, "
+                "but atom {0} is not a hydrogen.".format(atom.id))
 
         cov_bonding_partners_ids = list(self.covalent_bonds_graph.neighbors(atom.id))
         # cov_bonding_partners_ids = [(bond.atom1.id, bond.atom2.id) for bond in covalent_bonds if bond.atom1.id == atom.id or bond.atom2.id == atom.id]
         if len(cov_bonding_partners_ids) > 1:
-            raise ValueError("Atom {0} is a hydrogen, but has more than one covalent "
-                             "bonding partner: {1}.".format(atom.id, cov_bonding_partners_ids))
+            raise UnusualHydrogenError(
+                "Atom {0} is a hydrogen, but has more than one covalent "
+                "bonding partner: {1}.".format(atom.id, cov_bonding_partners_ids))
         elif len(cov_bonding_partners_ids) == 0:
-            raise ValueError("Atom {0} is a hydrogen, but has no covalent "
-                             "bonding partners.".format(atom.id))
+            raise UnusualHydrogenError(
+                "Atom {0} is a hydrogen, but has no covalent "
+                "bonding partners.".format(atom.id))
         else:
             return self.protein.atoms[cov_bonding_partners_ids[0]]
 
@@ -517,14 +525,14 @@ class Graph_constructor(object):
         elif self.Hbond_status[donor.id]["Hybridisation"] == "sp3":
             D_SP3 = True
         else:
-            raise ValueError("Hybridisation state for atom " + str(donor.id) + " is invalid: " + str(self.Hbond_status[donor.id]["Hybridisation"]))
+            raise GraphConstructionError("Hybridisation state for atom " + str(donor.id) + " is invalid: " + str(self.Hbond_status[donor.id]["Hybridisation"]))
         
         if self.Hbond_status[acceptor.id]["Hybridisation"] == "sp2":
             A_SP2 = True
         elif self.Hbond_status[acceptor.id]["Hybridisation"] == "sp3":
             A_SP3 = True
         else:
-            raise ValueError("Hybridisation state for atom " + str(acceptor.id) + " is invalid: " + str(self.Hbond_status[acceptor.id]["Hybridisation"]))
+            raise GraphConstructionError("Hybridisation state for atom " + str(acceptor.id) + " is invalid: " + str(self.Hbond_status[acceptor.id]["Hybridisation"]))
 
 
         if D_SP2 and A_SP2:
@@ -584,7 +592,7 @@ class Graph_constructor(object):
                 if phi < best_phi:
                     best_phi = phi
 
-                E_angular = np.cos(best_phi - diff_angle) ** 2 * prefactor
+            E_angular = np.cos(best_phi - diff_angle) ** 2 * prefactor
 
 
         E = E_distance * E_angular
@@ -599,7 +607,7 @@ class Graph_constructor(object):
         degree = nx.degree(self.covalent_bonds_graph, site1)
         
         if degree < 1:
-            raise ValueError("Couldn't find triplet for single atom {} with no bonds!".format(str(atom.id)))
+            raise bagpype.errors.GraphConstructionError("Couldn't find triplet for single atom {} with no bonds!".format(str(atom.id)))
 
         elif degree == 1:
             site2 = list(self.covalent_bonds_graph.neighbors(atom.id))[0]
@@ -650,14 +658,14 @@ class Graph_constructor(object):
             status_out = self.determine_status_S(atom)
 
         else:
-            raise ValueError("Function for Hbond status assignment did not receive an atom of element N, O or S.")
+            raise GraphConstructionError("Function for Hbond status assignment did not receive an atom of element N, O or S.")
 
         # perform a check:
         if (status_out is not None and
             (status_out["DonorAcceptor"] not in ("donor", "acceptor", "both") or 
             status_out["Charged"] not in (True, False) or 
             status_out["Hybridisation"] not in ("sp2", "sp3"))):
-            raise ValueError("Atom " + str(atom.id) + " was not correctly given a Hydrogen status. Something must have gone wrong in the code.")
+            raise GraphConstructionError("Atom " + str(atom.id) + " was not correctly given a Hydrogen status. Something must have gone wrong in the code.")
 
         return status_out
 
@@ -836,7 +844,7 @@ class Graph_constructor(object):
             degree = nx.degree(self.covalent_bonds_graph, atom.id)
 
             if degree == 0:
-                raise Exception("The Oxygen atom " + str(atom.id) + " has no covalent bonding partners.")
+                raise GraphConstructionError("The Oxygen atom {} has no covalent bonding partners. This was caused in residue: {}".format(atom.id, atom.res_name+atom.res_num))
 
             if degree == 1:
                 sec_neighbors_id = sec_neighborhood(self.covalent_bonds_graph, atom.id)
@@ -1253,7 +1261,7 @@ class Graph_constructor(object):
             return True
 
         else: 
-            raise IOError("The extent for the neighbourhood variable needs to be either 1 or 2.")
+            raise GraphConstructionError("The extent for the neighbourhood variable needs to be either 1 or 2.")
 
 
 
@@ -1302,7 +1310,7 @@ class Graph_constructor(object):
             elif atom_name[0] == "O":
                 element_identifier = 4
             else: 
-                raise ValueError("Could not find atom: " + atom_name)
+                raise GraphConstructionError("Could not find atom: " + atom_name + " for atom-specific parameters in stacked interactions.")
             return K[element_identifier], R[element_identifier]
 
         def get_pisigma_charges(base, normal, coord, base_atom_name):
