@@ -288,7 +288,7 @@ class Graph_constructor(object):
 
         try:
             # Checking only one way is enough, because covalent bond energies are generated both ways round by default.
-            bond_strength = bond_dict[atom1.name][atom2.name] if within_cov_bonding_distance(atom1, atom2) else None
+            bond_strength = bond_dict[atom1.name][atom2.name] # if within_cov_bonding_distance(atom1, atom2) else None
         except KeyError:
             bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2, print_warnings = True)
             

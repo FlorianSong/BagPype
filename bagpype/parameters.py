@@ -251,7 +251,7 @@ distance_cutoffs = {
 # ('C', 'P'): 1.99, 
 # ('C', 'S'): 2.05, 
 # ('C', 'ZN'): 0.00, 
-# ('CA', 'O'): 1.822 +0.1, # ('CA', 'O'): 2.70, # Replaced by corresponding data from Huheey
+('CA', 'O'): 1.822 +0.1, # ('CA', 'O'): 2.70, # Replaced by corresponding data from Huheey
 # ('CA', 'N'): 2.45, 
 # ('CA', 'S'): 2.60, 
 ('CU', 'N'): 0, # ('CU', 'N'): 2.20, Currently set to not bond as CU is usually an ion
