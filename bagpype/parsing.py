@@ -226,91 +226,54 @@ class PDBParser(object):
             for chain in bm.collected_chains:
                 new_chain_names.setdefault(chain[0], []).append(chain[1])
 
-            new_LINK_lines = []
-            first_LINK_line = len(header)
-            last_LINK_line = 0
+            new_header = []
+            for i, line in enumerate(header):
+                if line.startswith("LINK  "):
+                    try:
+                        chainID1_new_names = new_chain_names[line[21]]
+                    except KeyError:
+                        # print("WARNING: Link entry between {} and {} was ignores as chain {} is not part of the final biologically relevant molecule.".format())
+                        continue
+                    try:
+                        chainID2_new_names = new_chain_names[line[51]]
+                    except KeyError:
+                        continue
+                    
+                    for combo in zip(chainID1_new_names, chainID2_new_names):
+                        new_header.append(line[:21] + combo[0] + line[22:51] + combo[1] + line[52:] )
+
+                elif line.startswith("HELIX "):
+                    try:
+                        chainID1_new_names = new_chain_names[line[19]]
+                    except KeyError:
+                        # print("WARNING: HELIX entry between {} and {} was ignores as chain {} is not part of the final biologically relevant molecule.".format())
+                        continue
+                    try:
+                        chainID2_new_names = new_chain_names[line[31]]
+                    except KeyError:
+                        continue
+                    
+                    for combo in zip(chainID1_new_names, chainID2_new_names):
+                        new_header.append(line[:19] + combo[0] + line[20:31] + combo[1] + line[32:]  )
+
+                elif line.startswith("SHEET "):
+                    try:
+                        chainID1_new_names = new_chain_names[line[21]]
+                    except KeyError:
+                        # print("WARNING: HELIX entry between {} and {} was ignores as chain {} is not part of the final biologically relevant molecule.".format())
+                        continue
+                    try:
+                        chainID2_new_names = new_chain_names[line[32]]
+                    except KeyError:
+                        continue
+                    
+                    for combo in zip(chainID1_new_names, chainID2_new_names):
+                        new_header.append(line[:21] + combo[0] + line[22:32] + combo[1] + line[33:40] + "\n"  )
+
+                else:
+                    new_header.append(line)
             
-            for i, LINK_line in ((i, line) for i, line in enumerate(header) if line.startswith("LINK  ")):
-                
-                first_LINK_line = min(first_LINK_line, i)
-                last_LINK_line = max(last_LINK_line, i)
-                
-                try:
-                    chainID1_new_names = new_chain_names[LINK_line[21]]
-                except KeyError:
-                    # print("WARNING: Link entry between {} and {} was ignores as chain {} is not part of the final biologically relevant molecule.".format())
-                    continue
-                try:
-                    chainID2_new_names = new_chain_names[LINK_line[51]]
-                except KeyError:
-                    continue
-                
-                for combo in itertools.product(chainID1_new_names, chainID2_new_names):
-                    new_LINK_lines.append(LINK_line[:21] + combo[0] + \
-                                          LINK_line[22:51] + combo[1] + \
-                                          LINK_line[52:]  )
-
-            header[first_LINK_line:last_LINK_line+1] = new_LINK_lines
-            
-            
-            
-            new_HELIX_lines = []
-            first_HELIX_line = len(header)
-            last_HELIX_line = 0
-            for i, HELIX_line in ((i, line) for i, line in enumerate(header) if line.startswith("HELIX ")):
-                
-                first_HELIX_line = min(first_HELIX_line, i)
-                last_HELIX_line = max(last_HELIX_line, i)
-                
-                try:
-                    chainID1_new_names = new_chain_names[HELIX_line[19]]
-                except KeyError:
-                    # print("WARNING: HELIX entry between {} and {} was ignores as chain {} is not part of the final biologically relevant molecule.".format())
-                    continue
-                try:
-                    chainID2_new_names = new_chain_names[HELIX_line[31]]
-                except KeyError:
-                    continue
-                
-                for combo in itertools.product(chainID1_new_names, chainID2_new_names):
-                    new_HELIX_lines.append(HELIX_line[:19] + combo[0] + \
-                                          HELIX_line[20:31] + combo[1] + \
-                                          HELIX_line[32:]  )
-
-            header[first_HELIX_line:last_HELIX_line+1] = new_HELIX_lines
-
-
-
-
-            new_SHEET_lines = []
-            first_SHEET_line = len(header)
-            last_SHEET_line = 0
-            for i, SHEET_line in ((i, line) for i, line in enumerate(header) if line.startswith("SHEET ")):
-                
-                first_SHEET_line = min(first_SHEET_line, i)
-                last_SHEET_line = max(last_SHEET_line, i)
-                
-                try:
-                    chainID1_new_names = new_chain_names[SHEET_line[19]]
-                except KeyError:
-                    # print("WARNING: SHEET entry between {} and {} was ignores as chain {} is not part of the final biologically relevant molecule.".format())
-                    continue
-                try:
-                    chainID2_new_names = new_chain_names[SHEET_line[31]]
-                except KeyError:
-                    continue
-                
-                for combo in itertools.product(chainID1_new_names, chainID2_new_names):
-                    new_SHEET_lines.append(SHEET_line[:19] + combo[0] + \
-                                          SHEET_line[20:31] + combo[1] + \
-                                          SHEET_line[32:]  )
-
-            header[first_SHEET_line:last_SHEET_line+1] = new_SHEET_lines
-
-
-
-            
-            open(outfile, 'w').write("".join(header) + MakeMultimer_output + "".join(footer))
+            open(outfile, 'w').write("".join(new_header) + MakeMultimer_output + "".join(footer))
 
         self.pdb_filename = outfile_template % (MakeMultimer_number)
         # self._MakeMultimer_out = r
