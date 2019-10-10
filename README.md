@@ -1,5 +1,5 @@
 
-![Image](../bagpype/master/logo.png?raw=true)
+![Image](logo.png?raw=true)
 
 
 
