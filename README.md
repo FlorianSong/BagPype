@@ -1,5 +1,5 @@
 
-![Image](logo.png?raw=true)
+![Image](logo.png)
 
 
 
