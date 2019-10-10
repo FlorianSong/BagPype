@@ -1,5 +1,5 @@
 
-![alt text](https://raw.githubusercontent.com/floriansong/bagpype/master/logo.png)
+![Image](../bagpype/master/logo.png?raw=true)
 
 
 
