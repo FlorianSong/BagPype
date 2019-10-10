@@ -1,3 +1,8 @@
+
+![alt text](https://raw.githubusercontent.com/floriansong/bagpype/master/logo.png)
+
+
+
 A typical bagpype run looks like this: 
 
 ```python 
