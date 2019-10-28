@@ -8,7 +8,7 @@ REDUCE = DEPENDENCIES_ROOT + '/reduce'
 
 # Names for amino acids you would like automatically removed
 # aa_to_eliminate = ['SOL', 'NA+', 'CL', 'EDO']
-aa_to_eliminate = []
+aa_to_eliminate = ["UNK", "UNL", "UNX"]
 
 
 head_string = u"\

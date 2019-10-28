@@ -322,8 +322,7 @@ class Graph_constructor(object):
     def add_covalent_bonds_using_distance_contraints(self, atom1, atom2, print_warnings = False):
         if within_cov_bonding_distance(atom1, atom2):
             if print_warnings:
-                print(("WARNING: Adding bond between " + str(atom1.id) + " " + atom1.name + " in res " + atom1.res_name + atom1.res_num + 
-                       " and " + str(atom2.id) + " " + atom2.name + " in res " + atom2.res_name + atom2.res_num + " based on distance constraints using single bond energies!"))
+                print(("WARNING: Adding bond between {} and {} based on distance constraints using single bond energies!".format(atom1, atom2)))
             
             try: 
                 strength = bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
@@ -790,7 +789,7 @@ class Graph_constructor(object):
                 return dict(DonorAcceptor = "donor", Charged = True, Hybridisation = "sp3")
 
             elif degree > 4:
-                print("Something went wrong atom {0} is a Nitrogen".format(atom.id) \
+                print("Something went wrong, atom {0} is a Nitrogen".format(atom) \
                       + "but has more than 4 covalent bonds")
                 return None
 
@@ -886,7 +885,7 @@ class Graph_constructor(object):
                     return dict(DonorAcceptor = "acceptor", Charged = False, Hybridisation = "sp3")
 
             elif degree > 2:
-                print("Something went wrong. Atom {0} is an Oxygen ".format(atom.id) \
+                print("Something went wrong. Atom {0} is an Oxygen ".format(atom) \
                       + "but has more than 2 covalent bonds")
                 return None
 
@@ -925,7 +924,7 @@ class Graph_constructor(object):
                 return dict(DonorAcceptor = "donor", Charged = True, Hybridisation = "sp3")
 
             else:
-                print("Something went wrong. Atom {0} is a Sulfur ".format(atom.id) \
+                print("Something went wrong. Atom {0} is a Sulfur ".format(atom) \
                       + "but has more than 3 covalent bonds. Couldn't determine H-bonding status.")
                 return None
 
@@ -1542,8 +1541,8 @@ class Graph_constructor(object):
                     continue
                 
                 if LINK_entry[1]["distance"] != round(bond_length,2):
-                    print(("WARNING: The LINK entry between {} and {} has a different distance value than the computed one (rounded to two decimal places):" \
-                                    " Computed = {}, in PDB = {}. The computed one will be used.").format(atom1, atom2, bond_length, LINK_entry[1]["distance"]))
+                    print(("WARNING: The LINK entry between {} and {} has a different distance value than the computed one:" \
+                                    " Computed = {}, in PDB = {}. The computed one will be used.").format(atom1, atom2, round(bond_length,2), LINK_entry[1]["distance"]))
 
                 if LINK_entry[1]["is_covalent"]:
                     # For this case, see find_covalent().

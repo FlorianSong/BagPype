@@ -95,9 +95,12 @@ def generate_energies_dictionary(AA):
 
 
         # Extract covalent bond information from the dictionary
-        atom_list = parsed_cif[lower_case_aa]['_chem_comp_atom.atom_id']
-        element_list = parsed_cif[lower_case_aa]['_chem_comp_atom.type_symbol']
-        aromaticity = parsed_cif[lower_case_aa]["_chem_comp_atom.pdbx_aromatic_flag"]
+        try:
+            atom_list = parsed_cif[lower_case_aa]['_chem_comp_atom.atom_id']
+            element_list = parsed_cif[lower_case_aa]['_chem_comp_atom.type_symbol']
+            aromaticity = parsed_cif[lower_case_aa]["_chem_comp_atom.pdbx_aromatic_flag"]
+        except KeyError:
+            raise UnusualCIFFile(aa)
 
         try:
             bond_list1 = parsed_cif[lower_case_aa]['_chem_comp_bond.atom_id_1']
