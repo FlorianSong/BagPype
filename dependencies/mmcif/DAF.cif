@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     1999-07-08 
-_chem_comp.pdbx_modified_date                    2012-12-22 
+_chem_comp.pdbx_modified_date                    2019-09-17 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -45,7 +45,7 @@ _chem_comp_atom.pdbx_component_atom_id
 _chem_comp_atom.pdbx_component_comp_id 
 _chem_comp_atom.pdbx_ordinal 
 DAF C1   C1   C 0 1 N N S 6.194 67.673 36.749 3.701  -0.894 0.360  C1   DAF 1  
-DAF O1   O1   O 0 1 N N N 7.247 66.714 36.916 4.209  -1.583 1.504  O1   DAF 2  
+DAF O1   O1   O 0 1 N Y N 7.247 66.714 36.916 4.209  -1.583 1.504  O1   DAF 2  
 DAF C2   C2   C 0 1 N N R 4.853 67.029 36.438 3.479  0.580  0.708  C2   DAF 3  
 DAF O2   O2   O 0 1 N N N 4.560 65.927 37.292 2.564  0.679  1.802  O2   DAF 4  
 DAF C3   C3   C 0 1 N N S 4.835 66.551 34.975 2.901  1.309  -0.509 C3   DAF 5  
@@ -161,7 +161,8 @@ _pdbx_chem_comp_audit.comp_id
 _pdbx_chem_comp_audit.action_type 
 _pdbx_chem_comp_audit.date 
 _pdbx_chem_comp_audit.processing_site 
-DAF "Create component"   1999-07-08 RCSB 
-DAF "Modify descriptor"  2011-06-04 RCSB 
-DAF "Other modification" 2012-12-22 RCSB 
+DAF "Create component"         1999-07-08 RCSB 
+DAF "Modify descriptor"        2011-06-04 RCSB 
+DAF "Other modification"       2012-12-22 RCSB 
+DAF "Modify leaving atom flag" 2019-09-17 PDBE 
 # 

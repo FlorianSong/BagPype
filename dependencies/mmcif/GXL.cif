@@ -2,14 +2,14 @@ data_GXL
 # 
 _chem_comp.id                                    GXL 
 _chem_comp.name                                  ALPHA-L-GALACTOPYRANOSE 
-_chem_comp.type                                  NON-POLYMER 
+_chem_comp.type                                  L-SACCHARIDE 
 _chem_comp.pdbx_type                             ATOMS 
 _chem_comp.formula                               "C6 H12 O6" 
 _chem_comp.mon_nstd_parent_comp_id               ? 
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2005-04-18 
-_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_modified_date                    2019-09-17 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -50,7 +50,7 @@ GXL C3   C3   C 0 1 N N R 27.753 20.035 59.589 -0.651 -0.592 -1.244 C3   GXL 3
 GXL C4   C4   C 0 1 N N S 29.081 20.672 59.941 -1.222 -0.387 0.163  C4   GXL 4  
 GXL C5   C5   C 0 1 N N S 29.933 19.689 60.739 -0.067 -0.330 1.166  C5   GXL 5  
 GXL C6   C6   C 0 1 N N N 31.329 20.240 60.995 -0.629 -0.161 2.579  C6   GXL 6  
-GXL O1   O1   O 0 1 N N N 28.175 17.528 60.941 2.043  -0.797 -0.316 O1   GXL 7  
+GXL O1   O1   O 0 1 N Y N 28.175 17.528 60.941 2.043  -0.797 -0.316 O1   GXL 7  
 GXL O2   O2   O 0 1 N N N 26.711 18.154 58.567 1.044  0.242  -2.757 O2   GXL 8  
 GXL O3   O3   O 0 1 N N N 26.985 20.924 58.731 -1.700 -0.499 -2.209 O3   GXL 9  
 GXL O4   O4   O 0 1 N N N 29.702 21.088 58.705 -1.958 0.836  0.206  O4   GXL 10 
@@ -122,14 +122,19 @@ _pdbx_chem_comp_identifier.type
 _pdbx_chem_comp_identifier.program 
 _pdbx_chem_comp_identifier.program_version 
 _pdbx_chem_comp_identifier.identifier 
-GXL "SYSTEMATIC NAME" ACDLabs              10.04 alpha-L-galactopyranose                                  
-GXL "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "(2R,3S,4R,5S,6S)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol" 
+GXL "SYSTEMATIC NAME"             ACDLabs              10.04 alpha-L-galactopyranose                                  
+GXL "SYSTEMATIC NAME"             "OpenEye OEToolkits" 1.5.0 "(2R,3S,4R,5S,6S)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol" 
+GXL "CONDENSED IUPAC CARB SYMBOL" GMML                 1.0   LGalpa                                                   
+GXL "COMMON NAME"                 GMML                 1.0   a-L-galactopyranose                                      
+GXL "IUPAC CARB SYMBOL"           PDB-CARE             1.0   a-L-Galp                                                 
 # 
 loop_
 _pdbx_chem_comp_audit.comp_id 
 _pdbx_chem_comp_audit.action_type 
 _pdbx_chem_comp_audit.date 
 _pdbx_chem_comp_audit.processing_site 
-GXL "Create component"  2005-04-18 EBI  
-GXL "Modify descriptor" 2011-06-04 RCSB 
+GXL "Create component"         2005-04-18 EBI  
+GXL "Modify descriptor"        2011-06-04 RCSB 
+GXL "Other modification"       2019-08-12 RCSB 
+GXL "Modify leaving atom flag" 2019-09-17 PDBE 
 # 
