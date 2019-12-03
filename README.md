@@ -1,5 +1,5 @@
 
-![Image](logo.png)
+![Image](logo_full_new.png)
 
 
 
