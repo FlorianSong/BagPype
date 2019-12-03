@@ -452,6 +452,12 @@ class PDBParser(object):
             self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
         
         elif sys.platform.startswith("darwin"):
+
+            if trim_before:
+                subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -trim ' + self.pdb_filename + 
+                                " > " + self.pdb_filename[0:-4] + '_trimmedH.pdb', shell = True)
+                self.pdb_filename = self.pdb_filename[0:-4] + '_trimmedH.pdb'
+
             subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
