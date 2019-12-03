@@ -439,21 +439,25 @@ class PDBParser(object):
         Runs with subprocess.call to retain compatibility with Python2.7
         """
         if sys.platform.startswith("linux"):
+            
             if trim_before:
                 subprocess.call(bagpype.settings.REDUCE + ' -Quiet -trim ' + self.pdb_filename + 
                                 " > " + self.pdb_filename[0:-4] + '_trimmedH.pdb', shell = True)
                 self.pdb_filename = self.pdb_filename[0:-4] + '_trimmedH.pdb'
+            
             subprocess.call(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
                         + '_H.pdb', shell=True)
             self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
+        
         elif sys.platform.startswith("darwin"):
             subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
                         + '_H.pdb', shell=True)
             self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
+        
         else:
             print("Sorry, but adding hydrogens with Reduce is currently only implemented for UNIX based operating systems.")
 

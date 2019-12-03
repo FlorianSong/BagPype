@@ -458,11 +458,11 @@ class Graph_constructor(object):
         if len(cov_bonding_partners_ids) > 1:
             raise UnusualHydrogenError(
                 "Atom {0} is a hydrogen, but has more than one covalent "
-                "bonding partner: {1}.".format(atom.id, cov_bonding_partners_ids))
+                "bonding partner: {1}.".format(atom, cov_bonding_partners_ids))
         elif len(cov_bonding_partners_ids) == 0:
             raise UnusualHydrogenError(
                 "Atom {0} is a hydrogen, but has no covalent "
-                "bonding partners.".format(atom.id))
+                "bonding partners.".format(atom))
         else:
             return self.protein.atoms[cov_bonding_partners_ids[0]]
 
