@@ -346,7 +346,7 @@ class PDBParser(object):
                         atom.chain not in strip.get('chain', []) and
                         atom.res_num not in strip.get('res_num', []) and
                         atom.res_name not in strip.get('res_name', []) and
-                        [atom.res_num, atom.chain] not in strip.get('residues', [])
+                        (atom.res_num, atom.chain) not in strip.get('residues', [])
                 ):
                     out_lines.append(line)
             # elif line.startswith('CONECT'):
