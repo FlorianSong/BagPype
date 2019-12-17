@@ -136,28 +136,30 @@ class Graph_constructor(object):
 
 
     def _initialise_possible_bonds(self):
-        """ Initialises all possible bonds (ie all atoms within certain distance of atom), which saves a lot of computing time later 
+        """
+        Initialises all possible bonds (ie all atoms within certain distance of atom), which saves a lot of computing time later 
         Relies on the fact that atom ids run from 0 to # of atoms
         """
         print("Initialising all possible bonds...")
-        self.possible_bonds = nx.Graph()
-        self.possible_bonds.add_nodes_from(self.protein.atoms.id())
 
         # Get coordinates of all atoms as an array
         atom_coords = self.protein.atoms.coordinates()
 
+
         # Compute a distance matrix between each atom, note that pdist will compute a condensed distance matrix (1-dimensional)
         dist_matrix = scipy.spatial.distance.pdist(atom_coords)
-        
+
         # Find all entries that are below the cutoff and write all those pairs of atoms to a nx graph
         # n = number of atoms, k = indices of distances less than cutoff (but in 1D format), i,j = matrix indices computed from k
         n = atom_coords.shape[0]
         k = np.where(dist_matrix <= self.max_cutoff)[0]
         i = n - 2 - np.floor(np.sqrt(-8*k + 4*n*(n-1)-7)/2.0 - 0.5)
         j = k + i + 1 - n*(n-1)/2 + (n-i)*((n-i)-1)/2
-        
-        all_possible_bonds =  list(zip(i.astype(int), j.astype(int)))
-        self.possible_bonds.add_edges_from(all_possible_bonds)
+
+        self.possible_bonds = {}
+        for indx in range(len(i)):
+            self.possible_bonds.setdefault( int(i[indx]), []).append( int(j[indx]) )
+            self.possible_bonds.setdefault( int(j[indx]), []).append( int(i[indx]) )
 
 
     def write_bonds_to_csv_file(self, name):
@@ -235,7 +237,7 @@ class Graph_constructor(object):
         self.cov_bond_energies = self.initialise_covbond_dictionary()
 
         for atom1 in self.protein.atoms:
-            for atom2 in self.protein.atoms[list(self.possible_bonds.neighbors(atom1.id))]:
+            for atom2 in self.protein.atoms[ self.possible_bonds[atom1.id] ]:
                 if atom2.id > atom1.id:
 
                     if in_same_residue(atom1, atom2):
@@ -367,7 +369,7 @@ class Graph_constructor(object):
             if donor.element not in ["N", "O", "S"] or self.Hbond_status[donor.id] == None or donor.name in ["OXT"]:
                 continue
 
-            for acceptor in [atom for atom in self.protein.atoms[list(self.possible_bonds.neighbors(hydrogen.id))] if atom.element in ["N", "O", "S"]]:
+            for acceptor in [atom for atom in self.protein.atoms[ self.possible_bonds[hydrogen.id] ] if atom.element in ["N", "O", "S"]]:
                 
                 if self.Hbond_status[acceptor.id] == None or acceptor.name in ["OXT"]:
                     continue
@@ -958,7 +960,7 @@ class Graph_constructor(object):
             # Requirements for atom1 to be eligible: only Carbon or Sulfur and only bonded to Carbon, Sulfur or Hydrogen
             if atom1.element in ('C', 'S') and self.only_bonded_to_CSH(atom1):
 
-                for atom2 in self.protein.atoms[ list(self.possible_bonds.neighbors(atom1.id)) ]:
+                for atom2 in self.protein.atoms[ self.possible_bonds[atom1.id] ]:
 
                     # Remaining requirements for hydrophbic interactions to be feasible
                     # Python's logical and/or are short circuit evaluated, so putting all conditions in one is fine, if the most basic condition is in first place
@@ -1365,7 +1367,7 @@ class Graph_constructor(object):
 
         def determine_if_DNA_residues_are_linked(set1, set2):
             for n1 in set1:
-                for n2 in self.possible_bonds.neighbors(n1):
+                for n2 in self.possible_bonds[n1]:
                     if n2 in set2:
                         return True
             return False

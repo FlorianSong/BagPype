@@ -141,7 +141,7 @@ class AtomList(object):
         return self.atoms.index(atom)
 
     def __getitem__(self, idx):
-        if isinstance(idx, int):
+        if isinstance(idx, (int, np.integer)):
             return self.atoms[idx] 
         elif isinstance(idx, list):
             return AtomList([self.atoms[i] for i in idx])
