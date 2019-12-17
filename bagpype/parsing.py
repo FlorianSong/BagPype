@@ -346,7 +346,7 @@ class PDBParser(object):
                         atom.chain not in strip.get('chain', []) and
                         atom.res_num not in strip.get('res_num', []) and
                         atom.res_name not in strip.get('res_name', []) and
-                        [atom.res_num, atom.chain] not in strip.get('residues', [])
+                        (atom.res_num, atom.chain) not in strip.get('residues', [])
                 ):
                     out_lines.append(line)
             # elif line.startswith('CONECT'):
@@ -452,6 +452,12 @@ class PDBParser(object):
             self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
         
         elif sys.platform.startswith("darwin"):
+
+            if trim_before:
+                subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -trim ' + self.pdb_filename + 
+                                " > " + self.pdb_filename[0:-4] + '_trimmedH.pdb', shell = True)
+                self.pdb_filename = self.pdb_filename[0:-4] + '_trimmedH.pdb'
+
             subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
                         bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
                         + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
