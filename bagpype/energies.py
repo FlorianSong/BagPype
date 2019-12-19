@@ -23,7 +23,7 @@ def generate_energies_dictionary(AA):
     
     AA = [AA] if isinstance(AA, str) else AA
 
-    print(("    Generating covalent bond energies for " + ", ".join(AA)))
+    print(("Initialising covalent bond energies for " + ", ".join(AA)))
 
     # Single bond energies in kJ/mol taken from parameters.py
     singlebond_energies = dict()
@@ -32,24 +32,10 @@ def generate_energies_dictionary(AA):
         partners = single_bond_energies[key1]
         for key2 in partners:
             singlebond_energies[(key1, key2)] = single_bond_energies[key1][key2]
+            
+    doublebond_energies = bagpype.parameters.double_bond_energies
+    triplebond_energies = bagpype.parameters.triple_bond_energies
     
-    # Double bond energies in kJ/mol
-    doublebond_energies = {
-    ('C', 'C'): 602,
-    ('C', 'N'): 615,
-    ('C', 'O'): 799,
-    ('P', 'O'): 544,
-    ('S', 'O'): 517,
-    ('N', 'O'): 607,
-    ('P', 'S'): 335,
-    ('N', 'S'): None,
-    }
-
-    triplebond_energies = {
-    ("C", "N"): 887,
-    ("C", "O"): 1071,
-    }
-
     for aa in AA:
 
         try:
@@ -60,36 +46,6 @@ def generate_energies_dictionary(AA):
         ################################
         # Parse corresponding CIF file #
         ################################
-
-        # # Read the cif file in & convert information to a dictionary
-        # # Written myself, so needs refining, see DNA faulty line
-        # cif_parsed = {}
-        # for line in file:
-        #     if line.startswith("_chem_comp"):
-        #         entries =  shlex.split(line)
-        #         cif_parsed[entries[0]] = entries[1]
-        #     elif line.startswith("#"):
-        #         pass
-
-        #     elif line.startswith("loop_"):
-        #         loop_list = []
-        #         for line in file:
-        #             if line.startswith("#"):
-        #                 break
-        #             else:
-        #                 if line.startswith(';'):
-        #                     continue
-        #                 elif line.startswith("_"):
-        #                     cif_parsed[line.strip()] = []
-        #                     loop_list.append(line.strip())
-        #                 else:
-        #                     splitline = shlex.split(line)
-        #                     if not len(splitline) == len(loop_list):
-        #                         if aa not in ["DT", "DC", "DA", "DG", "A", "T", "C", "G"]:
-        #                             print("Something went wrong in the loops! This is the faulty line:")
-        #                             print(line)
-        #                     for i in range(len(splitline)):
-        #                         cif_parsed[loop_list[i]].append(splitline[i])
         parsed_cif = ReadCif(file)
         lower_case_aa = aa.lower()
 

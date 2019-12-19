@@ -419,7 +419,7 @@ class PDBParser(object):
                     temp[6:6+(5-len(str(number)))] = list(dummy[0:(5-len(str(number)))])
                 out_lines.append("".join(temp))
         with open(self.pdb_filename, "w") as fout:
-            fout.writelines(out_lines)      
+            fout.writelines(out_lines)
 
 
     def _has_hydrogens(self):

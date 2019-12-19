@@ -21,7 +21,26 @@ single_bond_energies = \
  "MG" : {"O":377},
  "ZN" : {"O":None}
 }
-# Note: for double bond energies, see energies.py
+
+    
+# Double bond energies in kJ/mol
+double_bond_energies = {
+('C', 'C'): 602,
+('C', 'N'): 615,
+('C', 'O'): 799,
+('P', 'O'): 544,
+('S', 'O'): 517,
+('N', 'O'): 607,
+('P', 'S'): 335,
+('N', 'S'): None,
+}
+
+triple_bond_energies = {
+("C", "N"): 887,
+("C", "O"): 1071,
+}
+
+
 
 non_standard_residues = {
   "ABC": {"C": {"C": 12345678}}

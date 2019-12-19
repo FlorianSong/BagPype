@@ -69,9 +69,13 @@ class Graph_constructor(object):
         time1 = time.time()
 
         self._initialise_possible_bonds()
+        self._initialise_covbond_dictionary()
         if self.protein.LINKs:
             self._process_LINKs()
+        
 
+
+        # Start finding covalent bonds & interactions
         self.find_covalent_bonds()
 
         # This has to be done so that the other functions can use the covalent bonds too:
@@ -162,6 +166,19 @@ class Graph_constructor(object):
             self.possible_bonds.setdefault( int(j[indx]), []).append( int(i[indx]) )
 
 
+    def _initialise_covbond_dictionary(self):
+        list_of_present_residues = []
+        for atom in self.protein.atoms:
+            list_of_present_residues.append(atom.res_name)
+        
+        list_of_present_residues = sorted(list(set(list_of_present_residues)))
+        self.cov_bond_energies = bagpype.energies.generate_energies_dictionary(list_of_present_residues)
+        
+        for key in bagpype.parameters.non_standard_residues:
+            self.cov_bond_energies[key] = {}
+        self.cov_bond_energies.update(bagpype.parameters.non_standard_residues)
+
+
     def write_bonds_to_csv_file(self, name):
         bond_data = []
         for bond in self.bonds:
@@ -234,15 +251,13 @@ class Graph_constructor(object):
     ##################
     def find_covalent_bonds(self):
         print("Finding covalent bonds...")
-        self.cov_bond_energies = self.initialise_covbond_dictionary()
 
         for atom1 in self.protein.atoms:
             for atom2 in self.protein.atoms[ self.possible_bonds[atom1.id] ]:
                 if atom2.id > atom1.id:
 
                     if in_same_residue(atom1, atom2):
-
-                        self.add_intra_residue_bond(atom1, atom2, self.cov_bond_energies)
+                        self.add_intra_residue_bond(atom1, atom2)
                     else:
                         self.add_inter_residue_bond(atom1, atom2)
             
@@ -270,27 +285,14 @@ class Graph_constructor(object):
         #
         #################
 
-    def initialise_covbond_dictionary(self):
-        list_of_present_residues = []
-        for atom in self.protein.atoms:
-            list_of_present_residues.append(atom.res_name)
-        
-        list_of_present_residues = sorted(list(set(list_of_present_residues)))
-        dictionary = bagpype.energies.generate_energies_dictionary(list_of_present_residues)
-        
-        for key in bagpype.parameters.non_standard_residues:
-            dictionary[key] = {}
-        dictionary.update(bagpype.parameters.non_standard_residues)
-        
-        return dictionary
-
-    def add_intra_residue_bond(self, atom1, atom2, cov_bond_energies_input):
+    def add_intra_residue_bond(self, atom1, atom2):
         residue = atom1.res_name
-        bond_dict = cov_bond_energies_input[residue]
+        if atom2.res_name != residue:
+            raise GraphConstructionError("Something went wrong, trying to add intra-residue bond for two atoms of different residue names.")
 
         try:
             # Checking only one way is enough, because covalent bond energies are generated both ways round by default.
-            bond_strength = bond_dict[atom1.name][atom2.name] # if within_cov_bonding_distance(atom1, atom2) else None
+            bond_strength = self.cov_bond_energies[residue][atom1.name][atom2.name] # if within_cov_bonding_distance(atom1, atom2) else None
         except KeyError:
             bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2, print_warnings = True)
             
@@ -305,37 +307,33 @@ class Graph_constructor(object):
         (atom1.element == "N" and atom2.element == "C") or \
         (atom1.element == 'O' and atom2.element == 'P') or \
         (atom1.element == 'P' and atom2.element == 'O')
-        # (atom1.element == "S" and atom2.element == "S") or \
         
-        if conditions:
-            bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2)
-            if bond_strength is not None:
-                bond_strength *= self.k_factor/6.022
-                self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
-
         # Distinguish between covalent bonds and DISULFIDE bridges! O.o
-        if atom1.element == "S" and atom2.element == "S":
+        if conditions:
+            bond_type = "COVALENT"
+        elif atom1.element == "S" and atom2.element == "S":
+            bond_type = "DISULFIDE"
+        else:
+            bond_type = None
+        
+        if bond_type is not None:
             bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2)
             if bond_strength is not None:
                 bond_strength *= self.k_factor/6.022
-                self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'DISULFIDE'))
+                self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, bond_type))
 
 
     def add_covalent_bonds_using_distance_contraints(self, atom1, atom2, print_warnings = False):
-        if within_cov_bonding_distance(atom1, atom2):
-            if print_warnings:
-                print(("WARNING: Adding bond between {} and {} based on distance constraints using single bond energies!".format(atom1, atom2)))
-            
+        if within_cov_bonding_distance(atom1, atom2):            
             try: 
-                strength = bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
+                if print_warnings:
+                    print(("WARNING: Adding bond between {} and {} based on distance constraints using single bond energies!".format(atom1, atom2)))
+                return bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
             except KeyError:
                 raise MissingEnergyError(atom1.element, atom2.element, 
                                          (atom1.res_name+atom1.res_num, atom2.res_name+atom2.res_num))
-                    # "Please add the single bond between " + atom1.element + " and " + atom2.element)
         else:
-            strength = None
-        return strength
-
+            return None
 
 
 

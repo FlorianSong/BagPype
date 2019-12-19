@@ -39,7 +39,7 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
     for i,row in enumerate(reader):
         current_percentage = 100*i/total_number_edges
         if current_percentage>=percentage+10:
-            print("Processed {}%".format(current_percentage))
+            print("Processed {}%".format(round(current_percentage)))
             percentage = current_percentage
         if i == total_number_edges-1:
             print("Finished!")
