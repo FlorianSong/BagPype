@@ -309,7 +309,7 @@ class Atom(object):
                      self.res_num, self.res_name))
 
     def __repr__(self):
-        output = ('<Atom ID: {0}. Atom {1} from residue {2} {3} in chain {4}>'
+        output = ('<Atom {0:>5}. {1} from residue {2:>3}{3:>3} in chain {4}>'
                   .format(self.id, 
                           self.name, 
                           self.res_name, 
@@ -375,7 +375,7 @@ class Bond(object):
         return not self.__eq__(bond)
 
     def __repr__(self):
-        output = ('<Bond ID: {0}.  {1} bond between atoms {2} '
+        output = ('<Bond ID: {0}. {1} bond between atoms {2} '
                   .format(self.id, self.bond_type, self.atom1.PDBnum) + 
                   'and {0} of strength {1}>'
                   .format(self.atom2.PDBnum, self.weight))
