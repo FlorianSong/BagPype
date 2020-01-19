@@ -100,15 +100,15 @@ def load_remote_pdb(pdbcode):
     - be alphanumeric
     '''
     # urltemplate = 'http://dx.doi.org/10.2210/pdb%s/pdb'
-    urltemplate = "http://ftp.rcsb.org/download/%s/pdb.gz"
+    urltemplate = "http://ftp.rcsb.org/download/{}/pdb.gz"
 
     pdbcode = pdbcode.split('.')[0].lower()
 
-    if len(pdbcode) != 4 or re.findall('\W', pdbcode):
+    if len(pdbcode) != 4 or re.findall(r'\W', pdbcode):
         raise PdbError('malformed pdb code')
 
     # pdb code looks o.k. - let's try
-    url = urltemplate % pdbcode
+    url = urltemplate.format(pdbcode)
     request = urllib.request.urlopen(url)
     binary = request.read()
     pseudo_file = io.StringIO(binary)
@@ -143,15 +143,16 @@ class Atom(object):
         info2 = rawline[26:30]
         info3 = rawline[54:]
 
-        self.descriptor_template = '%s%%5d%s%%s%%4d%s' % (info0, info1, info2)
-        self.coordinate_template = '%%8.3f%%8.3f%%8.3f%s' %  info3
+        self.descriptor_template = '{0}{{:>5}}{1}{{}}{{:>4}}{2}'.format(info0, info1, info2)
+        self.coordinate_template = '{:>8.8}{:>8.8}{:>8.8}' + info3
 
     def transformed(self, *coords):
         '''
         fill in new coordinates, leave descriptor template blank -
         will be filled in later.
         '''
-        return self.descriptor_template + self.coordinate_template % coords
+        nicely_formatted_numbers = [ "{:.3f}".format(n) for n in coords ]
+        return self.descriptor_template + self.coordinate_template.format(*nicely_formatted_numbers)
 
     def __str__(self):
         return self.rawline
@@ -190,9 +191,9 @@ class ReplicationGroup(object):
             first, matrix_lines = matrix_lines[:3], matrix_lines[3:]
             new_matrix = []
             for j in range(3):
-                ml = first[j][11:]
-                frags = ml.split()
-                new_matrix.append([float(x) for x in ml.split() ])
+                ml = first[j]
+                values = ml.split()[2:]
+                new_matrix.append([float(x) for x in values])
             self.matrices.append(new_matrix)
 
         for chain in sorted(list(self.source_chains)):
@@ -209,8 +210,7 @@ class ReplicationGroup(object):
         atoms = self.original_chains[chain]
         replicated = []
 
-        # for i, matrix in enumerate(self.matrices):
-        for matrix in self.matrices:
+        for _, matrix in enumerate(self.matrices):
             transformed_atoms = []
 
             for atom in atoms:
@@ -239,7 +239,7 @@ class BioMolecule(object):
     class, the parsing here is rather dumb. the main job here is to delegate
     to one or more ReplicationGroups and later to merge their output as needed.
     '''
-    title_template = 'Multimer expanded from BIOMT matrix in pdb file %s'
+    title_template = 'Multimer expanded from BIOMT matrix in pdb file {}'
     # header_line_template = 'chain: %s orig. chain: %s  residues: %4d-%4d  atoms: %5d-%5d'
 
     chain_titles = ['Chain','original', '1st resid.',
@@ -311,7 +311,7 @@ class BioMolecule(object):
                 chain_counter += 1
                 if chain_counter == len(chain_list):
                     self.overflow_warnings.add(\
-                    'Chain name overflow when replicating chain %s' % chain_list[0])
+                    'Chain name overflow when replicating chain {}'.format( chain_list[0]))
                     chain_counter -= 1  # revert to last available letter
 
         chain_store = {}
@@ -335,21 +335,25 @@ class BioMolecule(object):
                     for atom, res_no in chain:
                         # calculate atom number
                         atom_counter += 1
-                        new_atom_no = atom_offset + atom_counter
+                        if atom_counter >= 99999:
+                            atom_counter = 1
+                        
+                        
+                        new_atom_no = atom_counter # + atom_offset
                         if new_atom_no == 100000:
-                            self.overflow_warnings.add('Atom number overflow when replicating chain %s' % old_chain)
+                            self.overflow_warnings.add('Atom number overflow when replicating chain {}'.format( old_chain))
                             new_atom_no = 1
 
                         # adjust offset of res_no
                         rn_corrected = res_no + residue_offset
                         if rn_corrected > 9999:
                             self.overflow_warnings.add(\
-                              'Residue number overflow when replicating chain %s' % old_chain)
+                              'Residue number overflow when replicating chain {}'.format(old_chain))
                             rn_corrected = max(1, rn_corrected - 10000)
 
                         # fill in the atom annotation
-                        stuff = (new_atom_no, new_chain, rn_corrected)
-                        filled = atom % (new_atom_no, new_chain, rn_corrected)
+                        _ = (new_atom_no, new_chain, rn_corrected)
+                        filled = atom.format(new_atom_no, new_chain, rn_corrected)
                         lst.append((new_atom_no, rn_corrected, filled))
 
                     self.collected_chains.append((old_chain, new_chain, \
@@ -371,8 +375,8 @@ class BioMolecule(object):
         '''
         self.collate()
 
-        header = [self.title_template % filename]
-        header.append('by MakeMultimer.py (%s)' % url)
+        header = [self.title_template.format(filename)]
+        header.append('by MakeMultimer.py ({})'.format(url))
         header.append('')
 
         if self.overflow_warnings:
@@ -577,8 +581,8 @@ if __name__ == '__main__':
 
         r = PdbReplicator(pdblurb, options)
 
-        outfile_template = infile.split('.')[0] + '_mm%s.pdb'
+        outfile_template = infile.split('.')[0] + '_mm{}.pdb'
 
         for i, bm in enumerate(r.biomolecules):
-            outfile = outfile_template % (i+1)
+            outfile = outfile_template.format(i+1)
             open(outfile, 'w').write(bm.output(infile))

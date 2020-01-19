@@ -414,6 +414,9 @@ class PDBParser(object):
                 temp = list(line)
                 if line.startswith("ATOM") or line.startswith("HETATM"):
                     number = number+1
+                    if number > 99999:
+                        number = 1
+                    
                     temp[6+(5-len(str(number))):11] =  list(str(number))
                     dummy='     '
                     temp[6:6+(5-len(str(number)))] = list(dummy[0:(5-len(str(number)))])
