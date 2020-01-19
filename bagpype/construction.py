@@ -68,7 +68,9 @@ class Graph_constructor(object):
         
         time1 = time.time()
 
-        self._initialise_possible_bonds()
+        # self._initialise_possible_bonds()
+        
+        self._initialise_possible_bonds_memeff()
         self._initialise_covbond_dictionary()
         if self.protein.LINKs:
             self._process_LINKs()
@@ -134,7 +136,7 @@ class Graph_constructor(object):
 
         time2 = time.time()
 
-        print("Finished constructing the graph!" + " # atoms = %d, # bonds = %d" % (len(protein.atoms), len(protein.bonds)))
+        print("Finished constructing the graph!" + " #residues = {}, #atoms = {}, #bonds = {}".format(len(protein.residues), len(protein.atoms), len(protein.bonds)))
         print(("    Time taken = %.2fs, final filename: %s" % (time2-time1, protein.pdb_id)))
         print()
 
@@ -165,6 +167,23 @@ class Graph_constructor(object):
             self.possible_bonds.setdefault( int(i[indx]), []).append( int(j[indx]) )
             self.possible_bonds.setdefault( int(j[indx]), []).append( int(i[indx]) )
 
+
+    def _initialise_possible_bonds_memeff(self):
+        """
+        Initialises all possible bonds (ie all atoms within certain distance of atom), which saves a lot of computing time later 
+        Relies on the fact that atom ids run from 0 to # of atoms
+        """
+
+        print("Initialising all possible bonds, memory efficiently...")
+        atom_coords = self.protein.atoms.coordinates()
+        
+        self.possible_bonds = {}
+        
+        for atom1 in range(atom_coords.shape[0]):
+            atom1_coords = atom_coords[np.newaxis, atom1,]
+            neighbours = list( np.where( scipy.spatial.distance.cdist(atom1_coords, atom_coords) <= self.max_cutoff)[1] )
+            neighbours.remove(atom1)
+            self.possible_bonds[atom1] = neighbours
 
     def _initialise_covbond_dictionary(self):
         list_of_present_residues = []
@@ -949,8 +968,11 @@ class Graph_constructor(object):
         print(("Finding hydrophobics..."))
 
         # Initiate list of hydrophobic interactions
-        # self._hphobes_list = []
+
         hphobic_graph = nx.Graph()
+        # hphobic_weights = []
+        # hphobic_rows = []
+        # hphobic_columns = []
 
         # Loop through all atoms
         for atom1 in self.protein.atoms:
@@ -976,6 +998,28 @@ class Graph_constructor(object):
 
                     if energy is not None:
                         hphobic_graph.add_edge( atom1.id, atom2.id, weight = -1*energy, distance = distance, energy = energy)
+                        
+                        # hphobic_weights.append(energy)
+                        # hphobic_rows.append(atom1.id)
+                        # hphobic_columns.append(atom2.id)
+
+
+
+        
+        # matches_sparse = self.hydrophobic_selection_sparse(hphobic_weights, hphobic_rows, hphobic_columns)
+        # matches_sparse = sorted([tuple(sorted(x)) for x in matches_sparse])
+        # # matches_sparse_atoms = [ (node_dictionary[key1], node_dictionary[key2 ]) for key1,key2 in matches_sparse ]
+        
+        # total_hydrophobic_energy = sum([hphobic_adjacency[i,j] for i,j in matches_sparse])
+        # print("    Total energy of hydrophobic effect: " + str(round(total_hydrophobic_energy, 2)) + " kcal/mol" )
+
+        # for bond in matches_sparse:
+        #     atom1, atom2 = self.protein.atoms[node_dictionary[bond[0]]], self.protein.atoms[node_dictionary[bond[1]]]
+        #     bond_strength = hphobic_adjacency[bond[0], bond[1]]
+        #     bond_strength *= -self.k_factor*4.184/6.022
+        #     self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'HYDROPHOBIC'))
+        
+        
         
         # The code further down won't work if the graph is empty.
         if nx.is_empty(hphobic_graph):
@@ -983,18 +1027,6 @@ class Graph_constructor(object):
         
         matches = self.hydrophobic_selection2(hphobic_graph)
         matches = sorted([sorted(x) for x in matches])
-
-        # print()
-        # matches_weights = [(x[0], x[1], hphobic_graph[x[0]][x[1]]["energy"]) for x in matches]
-        # new_hphobic_graph = nx.Graph()
-        # new_hphobic_graph.add_nodes_from([atom.id for atom in self.protein.atoms])
-        # new_hphobic_graph.add_weighted_edges_from(matches_weights, weight="energy")
-        # print(new_hphobic_graph.size(weight="energy"))
-        # self.hydrophobic_burn_bridges = False
-        # new_matches = self.hydrophobic_selection(new_hphobic_graph)
-        # print(len(new_matches), len(matches))
-        # print()
-        # matches=new_matches
 
         # Calculate total hydrophobic energy for command line output
         total_hydrophobic_energy = sum([hphobic_graph[i][j]["energy"] for i,j in matches])
@@ -1010,7 +1042,7 @@ class Graph_constructor(object):
                                                           bond_strength, 'HYDROPHOBIC'))
 
 
-    def hydrophobic_selection(self, graph):
+    def hydrophobic_selection_legacyNetworkx(self, graph):
         """ This function represents the sparsification step. 
         Sparsification is done via a modified version of RMST (relaxed minimum spanning tree).
         Reference:
@@ -1118,8 +1150,8 @@ class Graph_constructor(object):
         E_final = np.multiply(E_criterion, D)
 
         nonzeros = np.nonzero(np.triu(E_final))
-        matches = list(zip([node_dictionary[key] for key in nonzeros[0].tolist()], 
-                           [node_dictionary[key] for key in nonzeros[1].tolist()] ))
+        matches = list(zip((node_dictionary[key] for key in nonzeros[0].tolist()), 
+                           (node_dictionary[key] for key in nonzeros[1].tolist()) ))
         
         print("    RMST sparsification used. Accepted: " + str(len(matches)-np.count_nonzero(np.triu(Emst))) + ", rejected: " + str(len(graph.edges) - len(matches)) + 
               "; MST size: " + str(np.count_nonzero(np.triu(Emst))))
@@ -1215,12 +1247,138 @@ class Graph_constructor(object):
             Ttemp = D[idx,otheridx]
             
             if len(T) > 0:
-                idxless = np.where(Ttemp < T)
+                idxless = (Ttemp < T).nonzero()
                 T[idxless] = Ttemp[idxless]
-                P[idxless[1]] = idx
+                P[idxless[1]] = idx # [1] is necessary since np.where seems to always consider two dimensions
                 
         return E, LLink
 
+
+
+    def hydrophobic_selection_sparse(self, weights, rows, columns):
+        
+        D = scipy.sparse.csr_matrix((weights, (rows, columns)), 
+                                    shape = (len(self.protein.atoms), len(self.protein.atoms)),
+                                    dtype=np.float)
+        D = D + D.transpose()
+        node_list = (np.where(D.getnnz(0)>0)[0]).tolist()
+        node_dictionary = dict(zip(range(len(self.protein.atoms)), node_list))
+        
+        D = D[D.getnnz(1)>0][:, D.getnnz(0)>0]
+
+        N = D.shape[0]
+
+        Emst, LLink = self.RMST_prim_algorithm_sparse(D)
+        LLink = scipy.sparse.csr_matrix(LLink)  
+
+        LLink.setdiag(-10.)
+
+
+        Dtemp = D.copy()
+        # Dtemp.setdiag(D.max())
+
+        # Dtemp[Dtemp==0] = np.amax(D)
+        mD = Dtemp[ np.arange(N), Dtemp.argmin(axis = 0) ]
+        # print(mD.T.shape,  scipy.sparse.csr_matrix(np.ones([1, N])).shape  )
+        mD = scipy.sparse.csr_matrix(np.ones([N, 1])) * mD
+        mD = abs( mD + mD.transpose())/2.
+        mD *= self.hydrophobic_RMST_gamma
+
+        E_criterion = (LLink+mD > D).astype(int)
+        
+        E_final = E_criterion.multiply( D )
+        nonzeros = scipy.sparse.triu(E_final).nonzero()
+        matches = list(zip(nonzeros[0].tolist(), 
+                           nonzeros[1].tolist() ))
+        
+        # print("    RMST sparsification used. Accepted: " + str(len(matches)-np.count_nonzero(np.triu(Emst))) + ", rejected: " + str(len(graph.edges) - len(matches)) + 
+        #       "; MST size: " + str(np.count_nonzero(np.triu(Emst))))
+
+
+        # Additional step to RMST sparsification: removal of graph bridges
+        # A bridge is an edge of a graph whose deletion increases its number of connected components.
+        # Note that here we do not have to worry about weighting
+        if self.hydrophobic_burn_bridges:
+            # In order to use networkx, need to initialise new Graph
+            rmst_graph = nx.Graph(matches)
+
+            # Use networkx to find all bridges in the graph and remove them
+            bridges = list(nx.bridges(rmst_graph))
+            rmst_graph.remove_edges_from(bridges)
+            matches = rmst_graph.edges
+
+            print("    Removed bridges: " + str(len(bridges)) + "; Final # hydrophobic interactions: " + str(len(matches)) + 
+                    ", components: " + str(nx.number_connected_components(nx.Graph(matches))))
+
+        return matches
+
+
+
+    def RMST_prim_algorithm_sparse(self, D):
+        #Initialise matrix containing all largest links along MST
+        LLink = np.zeros(D.shape)
+        # LLink = scipy.sparse.lil_matrix(D.shape)
+        # LLink[:] = 0.0000001
+        
+
+        #Number of nodes in the network
+        N = D.shape[0]
+
+        #Allocate a matrix for the edge list
+        E = scipy.sparse.lil_matrix(D.shape)
+
+        #Start with a node
+        mstidx = np.array([0])
+        otheridx = np.arange(1,N,1)
+
+        T = D[otheridx,0]
+        P = np.zeros( otheridx.size, dtype=int)
+
+
+        while T.size > 0:
+            i = T.argmin()
+            idx = otheridx[i]
+
+            #Start with a node
+            E[idx,P[i]] = D[idx,P[i]]
+            E[P[i],idx] = D[P[i],idx]
+            
+            # 1) Update the longest links
+            #indexes of the nodes without the parent
+            tempmstidx = mstidx[mstidx != P[i]]
+
+            # 2) update the link to the parent
+            LLink[idx, P[i]] = -1* D[idx,P[i]]
+            LLink[P[i], idx] = -1* D[P[i],idx]
+            
+            # 3) find the maximal
+            if len(tempmstidx)>0:
+                new_edge = -1* D[idx, P[i]]
+                tempLLink = LLink[P[i], tempmstidx] 
+                tempLLink[tempLLink > new_edge] = new_edge
+                
+                LLink[idx, tempmstidx] = tempLLink
+                LLink[tempmstidx, idx] = tempLLink
+
+
+            # As a node is added clear his entries
+            delete_row_csr(T, i)
+            P = np.delete(P, i)
+
+            # Add the node to the list
+            mstidx = np.append(mstidx,idx)
+            
+            # Remove the node from the list of the free nodes
+            otheridx = np.delete(otheridx,i)
+            
+            #update the distance matrix
+            Ttemp = D[otheridx, idx]
+            
+            if T.size > 0:
+                P[(Ttemp < T).nonzero()[0]] = idx
+                T = scipy.sparse.lil_matrix.minimum(T, Ttemp)
+        
+        return E, -LLink
 
 
 
@@ -1649,3 +1807,18 @@ def uniquify(bond_list):
             bonds_unique.append(bond)
             count += 1
     return bonds_unique
+
+
+def delete_row_csr(mat, i):
+    if not isinstance(mat, scipy.sparse.csr_matrix):
+        raise ValueError("works only for CSR format -- use .tocsr() first")
+    n = mat.indptr[i+1] - mat.indptr[i]
+    if n > 0:
+        mat.data[mat.indptr[i]:-n] = mat.data[mat.indptr[i+1]:]
+        mat.data = mat.data[:-n]
+        mat.indices[mat.indptr[i]:-n] = mat.indices[mat.indptr[i+1]:]
+        mat.indices = mat.indices[:-n]
+    mat.indptr[i:-1] = mat.indptr[i+1:]
+    mat.indptr[i:] -= n
+    mat.indptr = mat.indptr[:-1]
+    mat._shape = (mat._shape[0]-1, mat._shape[1])
