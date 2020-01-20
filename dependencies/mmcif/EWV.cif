@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         "8,9-dimethoxy-11,12-dihydro-2H-[1,3]dioxolo[4,5-h]isoquinolino[2,1-b]isoquinolin-13-ium" 
 _chem_comp.pdbx_formal_charge                    1 
 _chem_comp.pdbx_initial_date                     2018-02-08 
-_chem_comp.pdbx_modified_date                    2018-06-15 
+_chem_comp.pdbx_modified_date                    2019-12-08 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -69,8 +69,8 @@ EWV C1  C18 C 0 1 Y N N -3.610 4.843 -3.717 2.280  -1.057 -0.128 C1  EWV 22
 EWV C2  C19 C 0 1 Y N N -4.989 5.010 -3.795 3.664  -1.045 -0.105 C2  EWV 23 
 EWV O1  O4  O 0 1 N N N -5.680 5.031 -4.968 4.355  -2.208 -0.244 O1  EWV 24 
 EWV CA  C20 C 0 1 N N N -4.905 4.651 -6.111 3.589  -3.403 -0.410 CA  EWV 25 
-EWV 3H1 H1  H 0 0 N N N -1.297 5.098 -4.603 -0.063 -1.961 0.262  3H1 EWV 26 
-EWV 2H1 H2  H 0 0 N N N 0.902  5.066 -5.708 -2.283 -3.121 0.432  2H1 EWV 27 
+EWV H13 H1  H 0 1 N N N -1.297 5.098 -4.603 -0.063 -1.961 0.262  3H1 EWV 26 
+EWV H12 H2  H 0 1 N N N 0.902  5.066 -5.708 -2.283 -3.121 0.432  2H1 EWV 27 
 EWV H71 H3  H 0 1 N N N -2.763 6.819 -0.200 1.217  2.732  1.411  H71 EWV 28 
 EWV H72 H4  H 0 1 N N N -3.692 5.542 0.655  2.092  3.457  0.041  H72 EWV 29 
 EWV H61 H5  H 0 1 N N N -2.018 3.859 0.090  -0.411 3.409  -0.247 H61 EWV 30 
@@ -82,7 +82,7 @@ EWV H4  H10 H 0 1 N N N -5.618 5.843 -0.571 4.182  2.276  0.336  H4  EWV 35
 EWV H8  H11 H 0 1 N N N 0.940  5.153 -0.224 -2.333 2.352  -0.357 H8  EWV 36 
 EWV HC2 H12 H 0 1 N N N 5.380  4.715 -1.204 -6.996 1.349  0.047  HC2 EWV 37 
 EWV HC1 H13 H 0 1 N N N 5.045  6.468 -1.402 -6.335 0.697  -1.485 HC1 EWV 38 
-EWV 1H1 H14 H 0 0 N N N 3.366  5.207 -5.470 -4.712 -2.974 0.471  1H1 EWV 39 
+EWV H11 H14 H 0 1 N N N 3.366  5.207 -5.470 -4.712 -2.974 0.471  1H1 EWV 39 
 EWV H1  H15 H 0 1 N N N -3.054 4.535 -4.590 1.747  -1.987 -0.258 H1  EWV 40 
 EWV HA2 H16 H 0 1 N N N -5.534 4.694 -7.012 4.261  -4.255 -0.510 HA2 EWV 41 
 EWV HA1 H17 H 0 1 N N N -4.056 5.341 -6.224 2.946  -3.546 0.458  HA1 EWV 42 
@@ -125,8 +125,8 @@ EWV C16 C5  SING N N 26
 EWV N7  C8  SING Y N 27 
 EWV N7  C6  SING N N 28 
 EWV C5  C6  SING N N 29 
-EWV C13 3H1 SING N N 30 
-EWV C12 2H1 SING N N 31 
+EWV C13 H13 SING N N 30 
+EWV C12 H12 SING N N 31 
 EWV C5  H71 SING N N 32 
 EWV C5  H72 SING N N 33 
 EWV C6  H61 SING N N 34 
@@ -138,7 +138,7 @@ EWV C4  H4  SING N N 39
 EWV C8  H8  SING N N 40 
 EWV CC  HC2 SING N N 41 
 EWV CC  HC1 SING N N 42 
-EWV C11 1H1 SING N N 43 
+EWV C11 H11 SING N N 43 
 EWV C1  H1  SING N N 44 
 EWV CA  HA2 SING N N 45 
 EWV CA  HA1 SING N N 46 
@@ -174,4 +174,5 @@ _pdbx_chem_comp_audit.processing_site
 EWV "Create component" 2018-02-08 RCSB 
 EWV "Modify synonyms"  2018-02-08 RCSB 
 EWV "Initial release"  2018-06-20 RCSB 
+EWV "Modify atom id"   2019-12-08 RCSB 
 # 
