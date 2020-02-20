@@ -7,10 +7,9 @@
 # Huheey - Inorganic Chemistry 
 # Yu-Ran Luo - Comprehensive handbook of chemical bond energies
 
-import bagpype.settings
+import os
 import bagpype.parameters
 from bagpype.errors import MissingEnergyError, UnknownResidueError, UnusualCIFFile
-import shlex
 from CifFile import ReadCif
 
 
@@ -39,7 +38,7 @@ def generate_energies_dictionary(AA):
     for aa in AA:
 
         try:
-            file = open(bagpype.settings.DEPENDENCIES_ROOT +'/mmcif/' + aa + '.cif', "r")
+            file = open(os.path.dirname(os.path.dirname(bagpype.__file__)) + "/dependencies/mmcif/" + aa + '.cif', "r")
         except IOError:
             raise UnknownResidueError(("The residue named " + str(aa) + " was not found in the cif file library of residues. Please add it manually in 'parameters.py'."))
 

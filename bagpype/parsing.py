@@ -1,22 +1,12 @@
-from __future__ import print_function
 import networkx as nx
 import os
-import warnings
 import sys
-import array
-import shutil
 import subprocess
 from collections import defaultdict
 import string
 import numpy as np
-import csv
-import itertools
 
-
-import bagpype.parameters
-import bagpype.settings
 import bagpype.molecules
-import bagpype.construction
 
 import dependencies.MakeMultimer
 
@@ -326,7 +316,7 @@ class PDBParser(object):
         strip : dict
           Dictionary 
         """
-        aa_to_eliminate = bagpype.settings.aa_to_eliminate
+        aa_to_eliminate = ["UNK", "UNL", "UNX"]
 
         if strip == 'default':
             strip = {}
@@ -441,30 +431,32 @@ class PDBParser(object):
         to the specified pdb file
         Runs with subprocess.call to retain compatibility with Python2.7
         """
+        current_directory = os.path.dirname(os.path.dirname(bagpype.__file__))
+        
         if sys.platform.startswith("linux"):
             
             if trim_before:
-                subprocess.call(bagpype.settings.REDUCE + ' -Quiet -trim ' + self.pdb_filename + 
+                subprocess.call(current_directory + "/dependencies/reduce" + ' -Quiet -trim ' + self.pdb_filename + 
                                 " > " + self.pdb_filename[0:-4] + '_trimmedH.pdb', shell = True)
                 self.pdb_filename = self.pdb_filename[0:-4] + '_trimmedH.pdb'
             
-            subprocess.call(bagpype.settings.REDUCE + ' -Quiet -BUILD -DB ' +
-                        bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
-                        + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
-                        + '_H.pdb', shell=True)
+            subprocess.call(current_directory + "/dependencies/reduce" + 
+                            ' -Quiet -BUILD -DB ' + current_directory + '/dependencies/reduce_wwPDB_het_dict.txt ' +
+                            self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
+                            + '_H.pdb', shell=True)
             self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
         
         elif sys.platform.startswith("darwin"):
 
             if trim_before:
-                subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -trim ' + self.pdb_filename + 
+                subprocess.call(current_directory + "/dependencies/reduce.macosx" + ' -Quiet -trim ' + self.pdb_filename + 
                                 " > " + self.pdb_filename[0:-4] + '_trimmedH.pdb', shell = True)
                 self.pdb_filename = self.pdb_filename[0:-4] + '_trimmedH.pdb'
-
-            subprocess.call(bagpype.settings.DEPENDENCIES_ROOT + "/reduce.macosx" + ' -Quiet -BUILD -DB ' +
-                        bagpype.settings.DEPENDENCIES_ROOT + '/reduce_wwPDB_het_dict.txt ' 
-                        + self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
-                        + '_H.pdb', shell=True)
+            
+            subprocess.call(current_directory + "/dependencies/reduce.macosx" + 
+                            ' -Quiet -BUILD -DB ' + current_directory + '/dependencies/reduce_wwPDB_het_dict.txt ' +
+                            self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
+                            + '_H.pdb', shell=True)
             self.pdb_filename = self.pdb_filename[0:-4] + '_H.pdb'
         
         else:

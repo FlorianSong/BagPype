@@ -1,9 +1,8 @@
 import networkx as nx
 import bagpype.parameters
-import bagpype.settings
 import bagpype.molecules
-import bagpype.parsing
-from bagpype.errors import *
+import bagpype.energies
+from bagpype.errors import GraphConstructionError, MissingEnergyError, UnusualHydrogenError
 import scipy 
 import numpy as np
 import time
@@ -32,8 +31,8 @@ class Graph_constructor(object):
         # old values commented at the very right
         self.H_acceptor_cutoff = 4 #2.6 
         self.donor_acceptor_cutoff = 5 #3.6 
-        self.donor_H_acceptor_min = 100 #90 
-        self.donor_H_acceptor_max = 180
+        self.donor_H_acceptor_min_angle = 100 #90 
+        self.donor_H_acceptor_max_angle = 180
         self.H_acceptor_neighbour_cutoff = 80
 
         self.H_bond_energy_cutoff = -0.01
@@ -399,7 +398,7 @@ class Graph_constructor(object):
                     if d < self.donor_acceptor_cutoff and r < self.H_acceptor_cutoff:
                         theta = self.get_angle(donor, hydrogen, acceptor)
 
-                        if self.donor_H_acceptor_min <= np.rad2deg(theta) <= self.donor_H_acceptor_max:
+                        if self.donor_H_acceptor_min_angle <= np.rad2deg(theta) <= self.donor_H_acceptor_max_angle:
 
                             salt_bridge_indicator = self.is_salt_bridge(hydrogen, donor, acceptor)
                             
@@ -625,7 +624,7 @@ class Graph_constructor(object):
         degree = nx.degree(self.covalent_bonds_graph, site1)
         
         if degree < 1:
-            raise bagpype.errors.GraphConstructionError("Couldn't find triplet for single atom {} with no bonds!".format(str(atom.id)))
+            raise GraphConstructionError("Couldn't find triplet for single atom {} with no bonds!".format(str(atom.id)))
 
         elif degree == 1:
             site2 = list(self.covalent_bonds_graph.neighbors(atom.id))[0]
@@ -1749,7 +1748,7 @@ def sec_neighborhood(G, node):
     sec_nbhood.remove(node)
     return list(sec_nbhood)
 
-def within_cov_bonding_distance(atom1, atom2):
+def within_cov_bonding_distance(atom1, atom2, error = 0.01):
     """ Checks distance between two atoms is within covalent
     bonding distance for that pair of elements.  Uses the
     parameters specified by Pyykkö (doi: 10.1002/chem.200901472).
@@ -1765,7 +1764,7 @@ def within_cov_bonding_distance(atom1, atom2):
     
     return True \
         if cutoff is not None and \
-           distance_between_two_atoms(atom1, atom2) < min(cutoff, 3.0) \
+           distance_between_two_atoms(atom1, atom2) < min(cutoff+ error, 3.0) \
     else False
 
 

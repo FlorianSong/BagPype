@@ -47,39 +47,6 @@ class Protein(object):
                           RuntimeWarning)
             return atoms
 
-class GNMProtein(object):
-
-    def __init__(self, **kwargs):
-        self.name = []
-        self.pdb_id = []
-        self.graph = []
-        self.residues = []
-        self.residue_id_map = {}
-
-class Residue(object):
-
-    def __init__(self, id_, res_name, chain, res_num, coordinates, bfactor):
-        self.id_ = id_
-        self.res_name = res_name
-        self.chain = chain
-        self.res_num = res_num
-        self.bfactor = bfactor
-        self.xyz = coordinates
-
-class ResidueList(object):
-
-    def __init__(self):
-        self.residues = []
-
-    def append(self, residue):
-        self.residues.append(residue)
-
-    def id(self):
-        return [residue.id_ for residue in self.residues]
-    
-    def __getitem__(self, idx):
-        return self.residues[idx]
-
 class AtomList(object):
     """ Create a list of atoms. Provides interface to atoms which allows
         accessing members of the list by their PDB number, retrieving 
