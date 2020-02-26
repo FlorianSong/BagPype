@@ -5,6 +5,7 @@ import bagpype.covalent
 import bagpype.construction
 import bagpype.parsing
 
+import bagpype.stetings # for compatibility with the server for now
 
 head_string = u"\
     \n\
