@@ -1,7 +1,7 @@
 import networkx as nx
 import bagpype.parameters
 import bagpype.molecules
-import bagpype.energies
+import bagpype.covalent
 from bagpype.errors import GraphConstructionError, MissingEnergyError, UnusualHydrogenError
 import scipy 
 import numpy as np
@@ -190,7 +190,7 @@ class Graph_constructor(object):
             list_of_present_residues.append(atom.res_name)
         
         list_of_present_residues = sorted(list(set(list_of_present_residues)))
-        self.cov_bond_energies = bagpype.energies.generate_energies_dictionary(list_of_present_residues)
+        self.cov_bond_energies = bagpype.covalent.generate_energies_dictionary(list_of_present_residues)
         
         for key in bagpype.parameters.non_standard_residues:
             self.cov_bond_energies[key] = {}
@@ -342,7 +342,7 @@ class Graph_constructor(object):
 
 
     def add_covalent_bonds_using_distance_contraints(self, atom1, atom2, print_warnings = False):
-        if within_cov_bonding_distance(atom1, atom2):            
+        if within_cov_bonding_distance(atom1, atom2):
             try: 
                 if print_warnings:
                     print(("WARNING: Adding bond between {} and {} based on distance constraints using single bond energies!".format(atom1, atom2)))
@@ -476,7 +476,7 @@ class Graph_constructor(object):
         if len(cov_bonding_partners_ids) > 1:
             raise UnusualHydrogenError(
                 "Atom {0} is a hydrogen, but has more than one covalent "
-                "bonding partner: {1}.".format(atom, cov_bonding_partners_ids))
+                "bonding partner: {1}.".format(atom, [self.protein.atoms[x] for x in cov_bonding_partners_ids]))
         elif len(cov_bonding_partners_ids) == 0:
             raise UnusualHydrogenError(
                 "Atom {0} is a hydrogen, but has no covalent "
@@ -624,7 +624,7 @@ class Graph_constructor(object):
         degree = nx.degree(self.covalent_bonds_graph, site1)
         
         if degree < 1:
-            raise GraphConstructionError("Couldn't find triplet for single atom {} with no bonds!".format(str(atom.id)))
+            raise GraphConstructionError("Couldn't find triplet for single atom {} with no bonds!".format(atom))
 
         elif degree == 1:
             site2 = list(self.covalent_bonds_graph.neighbors(atom.id))[0]
@@ -791,8 +791,10 @@ class Graph_constructor(object):
 
         else:
             degree = nx.degree(self.covalent_bonds_graph, atom.id)
+            if degree == 0:
+                raise GraphConstructionError("The Nitrogen {} has no covalent bonding partners.".format(atom))
 
-            if degree == 2:
+            elif degree == 2:
                 for n in self.covalent_bonds_graph.neighbors(atom.id):
 
                      if self.is_double_bond(atom, self.protein.atoms[n]):
@@ -862,13 +864,13 @@ class Graph_constructor(object):
 
             if degree == 0:
                 if atom.res_name == "HOH":
-                    raise GraphConstructionError("The Oxygen atom {} has no covalent bonding partners. This was caused in residue: {}. "
+                    raise GraphConstructionError("The Oxygen {} has no covalent bonding partners. "
                                                  "Since this O belongs to a water molecule, this error was very likely to be caused by Reduce, "
                                                  "a third-party software that BaGPyPe uses to add hydrogens to PDB files. Unfortunately, "
                                                  "Reduce is not able to add hydrogens to single Oxygen atoms (belonging to waters). If you would like to include water molecules "
-                                                 "in the atomistic graph, please consider using a different software to add hydrogen atoms.".format(atom.id, atom.res_name+atom.res_num))
+                                                 "in the atomistic graph, please consider using a different software to add hydrogen atoms.".format(atom))
                 else: 
-                    raise GraphConstructionError("The Oxygen atom {} has no covalent bonding partners. This was caused in residue: {}".format(atom.id, atom.res_name+atom.res_num))
+                    raise GraphConstructionError("The Oxygen {} has no covalent bonding partners.".format(atom))
 
             if degree == 1:
                 sec_neighbors_id = sec_neighborhood(self.covalent_bonds_graph, atom.id)
@@ -926,7 +928,10 @@ class Graph_constructor(object):
         else:
             degree = nx.degree(self.covalent_bonds_graph, atom.id)
 
-            if degree == 1:
+            if degree == 0:
+                raise GraphConstructionError("The Sulfur {} has no covalent bonding partners.".format(atom))
+
+            elif degree == 1:
                 return dict(DonorAcceptor = "acceptor", Charged = True, Hybridisation = "sp2")
 
             elif degree == 2:
@@ -1261,13 +1266,13 @@ class Graph_constructor(object):
                                     dtype=np.float)
         D = D + D.transpose()
         node_list = (np.where(D.getnnz(0)>0)[0]).tolist()
-        node_dictionary = dict(zip(range(len(self.protein.atoms)), node_list))
+        _node_dictionary = dict(zip(range(len(self.protein.atoms)), node_list))
         
         D = D[D.getnnz(1)>0][:, D.getnnz(0)>0]
 
         N = D.shape[0]
 
-        Emst, LLink = self.RMST_prim_algorithm_sparse(D)
+        _Emst, LLink = self.RMST_prim_algorithm_sparse(D)
         LLink = scipy.sparse.csr_matrix(LLink)  
 
         LLink.setdiag(-10.)
@@ -1748,7 +1753,7 @@ def sec_neighborhood(G, node):
     sec_nbhood.remove(node)
     return list(sec_nbhood)
 
-def within_cov_bonding_distance(atom1, atom2, error = 0.01):
+def within_cov_bonding_distance(atom1, atom2, tolerance = 0.01):
     """ Checks distance between two atoms is within covalent
     bonding distance for that pair of elements.  Uses the
     parameters specified by Pyykkö (doi: 10.1002/chem.200901472).
@@ -1764,7 +1769,7 @@ def within_cov_bonding_distance(atom1, atom2, error = 0.01):
     
     return True \
         if cutoff is not None and \
-           distance_between_two_atoms(atom1, atom2) < min(cutoff+ error, 3.0) \
+           distance_between_two_atoms(atom1, atom2) < min(cutoff+ tolerance, 3.0) \
     else False
 
 

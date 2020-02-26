@@ -42,7 +42,7 @@ class PDBParser(object):
     def parse(self, protein,
               model=1, strip='default', 
               strip_ANISOU=True, strip_LINK=False, strip_CONECT=True,
-              strip_HETATM=False, add_H=None, trim_H=False,
+              strip_HETATM=False, add_H=None, trim_H="",
               alternate_location="A", 
               MakeMultimer_number=1, strip_weird_H=[]
               ):
@@ -62,6 +62,8 @@ class PDBParser(object):
           specifies whether LINK entries should be removed from the PDB file
         strip_HETATM : bool
           specifies whether HETATM entries should be removed from the PDB file
+        trim_H : str "all" or "notHOH" or ""
+          trims all hydrogens from file, except for waters in the case of "notHOH"
         add_H : bool
           specifies whether REDUCE should be run to add H's to the PDB file
         alternate_location : str (1)
@@ -125,6 +127,13 @@ class PDBParser(object):
         if alternate_location is not None:
             self._strip_alternate_location(alternate_location)
 
+        if trim_H:
+            if trim_H == True: trim_H = "all" 
+            print( {"all": "Deleting ALL H's", 
+                    "notHOH": "Deleting H's except in waters"
+                    }[trim_H])
+            self._strip_Hs(trim_H)
+
         self.pdb_filename = self.pdb_filename[0:-4] + '_stripped.pdb'
         open(self.pdb_filename, "w").writelines(self.pdb_lines)
         
@@ -146,7 +155,7 @@ class PDBParser(object):
 
         if add_H or not self._has_hydrogens():
             print("Adding hydrogens to PDB file")
-            self._add_hydrogens(trim_H)
+            self._add_hydrogens()
             print("Finished adding hydrogens")
 
         ### Here, pdb_filename = 1xyz_stripped_mm#_H.pdb
@@ -376,6 +385,17 @@ class PDBParser(object):
                 out_lines.append(line)
 
         self.pdb_lines = out_lines
+        
+
+    def _strip_Hs(self, option):
+        out_lines = []
+        for line in self.pdb_lines:
+            if (option == "all" and line[76:78].strip() == "H") or \
+                (option == "notHOH" and line[76:78].strip() == "H" and line[17:20].strip() != "HOH"): 
+                continue
+            else:
+                out_lines.append(line)
+        self.pdb_lines = out_lines
 
     def _strip_weird_H(self, list_of_atom_ids):
         with open(self.pdb_filename, 'r') as fin:
@@ -426,7 +446,7 @@ class PDBParser(object):
             return False
 
 
-    def _add_hydrogens(self, trim_before):
+    def _add_hydrogens(self):
         """ Runs the command-line program Reduce to add hydrogens
         to the specified pdb file
         Runs with subprocess.call to retain compatibility with Python2.7
@@ -434,11 +454,6 @@ class PDBParser(object):
         current_directory = os.path.dirname(os.path.dirname(bagpype.__file__))
         
         if sys.platform.startswith("linux"):
-            
-            if trim_before:
-                subprocess.call(current_directory + "/dependencies/reduce" + ' -Quiet -trim ' + self.pdb_filename + 
-                                " > " + self.pdb_filename[0:-4] + '_trimmedH.pdb', shell = True)
-                self.pdb_filename = self.pdb_filename[0:-4] + '_trimmedH.pdb'
             
             subprocess.call(current_directory + "/dependencies/reduce" + 
                             ' -Quiet -BUILD -DB ' + current_directory + '/dependencies/reduce_wwPDB_het_dict.txt ' +
@@ -448,11 +463,6 @@ class PDBParser(object):
         
         elif sys.platform.startswith("darwin"):
 
-            if trim_before:
-                subprocess.call(current_directory + "/dependencies/reduce.macosx" + ' -Quiet -trim ' + self.pdb_filename + 
-                                " > " + self.pdb_filename[0:-4] + '_trimmedH.pdb', shell = True)
-                self.pdb_filename = self.pdb_filename[0:-4] + '_trimmedH.pdb'
-            
             subprocess.call(current_directory + "/dependencies/reduce.macosx" + 
                             ' -Quiet -BUILD -DB ' + current_directory + '/dependencies/reduce_wwPDB_het_dict.txt ' +
                             self.pdb_filename + ' > ' + self.pdb_filename[0:-4] 
@@ -679,7 +689,10 @@ def _parse_atom_line(line):
     coordinates = np.array([float(line[30:38]),
                             float(line[38:46]),
                             float(line[46:54])])
-                
+
+    if element == "D":
+        element = "H" # This is for compatibility with heavy waters
+    
     # Create Atom object with this information
     atom = bagpype.molecules.Atom(-1, PDBnum, element, name,
                                         chainID, res_num, res_name,

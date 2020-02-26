@@ -1,7 +1,7 @@
 import bagpype.molecules
 import bagpype.parameters
 
-import bagpype.energies
+import bagpype.covalent
 import bagpype.construction
 import bagpype.parsing
 
@@ -18,6 +18,7 @@ head_string = u"\
 Biochemical, Atomistic Graph construction   \n\
 software in PYthon for Proteins, Etc.       \n\
 (C) Yaliraki group @ Imperial College London\n\
+\a\
 "
 
 print(head_string)
@@ -29,7 +30,7 @@ def standard_run(pdb_file):
 
     myprot = bagpype.molecules.Protein()
 
-    parser = bagpype.parsing.PDBParser(pdb_file)
+    parser = bagpype.parsing.PDBParser(pdb_file, download=True)
     parser.parse(myprot, strip = {'res_name': ['HOH']})
 
     ggenerator = bagpype.construction.Graph_constructor()
