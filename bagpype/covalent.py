@@ -13,25 +13,21 @@ from bagpype.errors import MissingEnergyError, UnknownResidueError, UnusualCIFFi
 from CifFile import ReadCif
 
 
-def generate_energies_dictionary(AA):
+def generate_energies_dictionary(AA, nomenclature = "new"):
     """
-    Input: LIST of amino acids or any residue identifier
+    Input: 
+    - LIST of amino acids or any residue identifier 
+    - nomenclature: either "new" (True) or "old" (False)
     Output: Dictionary of bond energies as required by parsing.py
     """
-    final_final_dict = {}
+    final_all_residues_output_dict = {}
     
     AA = [AA] if isinstance(AA, str) else AA
 
     print(("Initialising covalent bond energies for " + ", ".join(AA)))
 
-    # Single bond energies in kJ/mol taken from parameters.py
-    singlebond_energies = dict()
-    single_bond_energies = bagpype.parameters.single_bond_energies
-    for key1 in single_bond_energies:
-        partners = single_bond_energies[key1]
-        for key2 in partners:
-            singlebond_energies[(key1, key2)] = single_bond_energies[key1][key2]
-            
+    # Bond energies in kJ/mol taken from parameters.py
+    singlebond_energies = bagpype.parameters.single_bond_energies
     doublebond_energies = bagpype.parameters.double_bond_energies
     triplebond_energies = bagpype.parameters.triple_bond_energies
     
@@ -310,13 +306,13 @@ def generate_energies_dictionary(AA):
         #     final_dict[old_atom] = dict_to_add
 
         # Put the resulting dictionary into a dictionary with the id at the front and then add that to the outputs
-        to_add_to_final_final_dict = {}
-        to_add_to_final_final_dict[parsed_cif[lower_case_aa]['_chem_comp.id']] = final_dict
-        final_final_dict.update(to_add_to_final_final_dict)
+        to_add_to_final_all_residues_output_dict = {}
+        to_add_to_final_all_residues_output_dict[parsed_cif[lower_case_aa]['_chem_comp.id']] = final_dict
+        final_all_residues_output_dict.update(to_add_to_final_all_residues_output_dict)
 
     ###################
     # Post-processing #
     ###################
 
-    return final_final_dict
+    return final_all_residues_output_dict
 

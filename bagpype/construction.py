@@ -343,13 +343,19 @@ class Graph_constructor(object):
 
     def add_covalent_bonds_using_distance_contraints(self, atom1, atom2, print_warnings = False):
         if within_cov_bonding_distance(atom1, atom2):
-            try: 
-                if print_warnings:
-                    print(("WARNING: Adding bond between {} and {} based on distance constraints using single bond energies!".format(atom1, atom2)))
-                return bagpype.parameters.single_bond_energies[atom1.element][atom2.element]
+            lookup = tuple([atom1.element, atom2.element])
+            lookup_reversed = tuple([atom2.element, atom1.element])
+            if print_warnings:
+                print(("WARNING: Adding bond between {} and {} based on distance constraints using single bond energies!".format(atom1, atom2)))
+
+            try:
+                return bagpype.parameters.single_bond_energies[lookup]
             except KeyError:
-                raise MissingEnergyError(atom1.element, atom2.element, 
-                                         (atom1.res_name+atom1.res_num, atom2.res_name+atom2.res_num))
+                try:
+                    return bagpype.parameters.single_bond_energies[lookup_reversed]
+                except KeyError:
+                    raise MissingEnergyError(atom1.element, atom2.element, 
+                                            (atom1.res_name+atom1.res_num, atom2.res_name+atom2.res_num))
         else:
             return None
 

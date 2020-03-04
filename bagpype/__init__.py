@@ -6,6 +6,9 @@ import bagpype.construction
 import bagpype.parsing
 
 import bagpype.settings # for compatibility with the server for now
+from bagpype.molecules import Protein
+from bagpype.parsing import PDBParser
+from bagpype.construction import Graph_constructor
 
 head_string = u"\
     \n\
