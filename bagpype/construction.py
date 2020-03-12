@@ -699,7 +699,9 @@ class Graph_constructor(object):
     def compute_hydrogen_bond_energy(
         self, hydrogen, donor, acceptor, donor_acceptor_distance, theta
     ):
-        """ Computes hydrogen bond energy according to formula which is printed in FIRST manual, derived from Mayo potential
+        """ 
+        Computes hydrogen bond energy according to formula which is printed in FIRST manual, 
+        derived from Mayo potential
         """
 
         D_SP2 = False
@@ -1111,7 +1113,8 @@ class Graph_constructor(object):
                         "The Oxygen {} has no covalent bonding partners. "
                         "Since this O belongs to a water molecule, this error was very likely to be caused by Reduce, "
                         "a third-party software that BaGPyPe uses to add hydrogens to PDB files. Unfortunately, "
-                        "Reduce is not able to add hydrogens to single Oxygen atoms (belonging to waters). If you would like to include water molecules "
+                        "Reduce is not able to add hydrogens to single Oxygen atoms (belonging to waters). "
+                        "If you would like to include water molecules "
                         "in the atomistic graph, please consider using a different software to add hydrogen atoms.".format(
                             atom.id
                         )
