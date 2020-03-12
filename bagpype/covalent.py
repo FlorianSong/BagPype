@@ -11,6 +11,7 @@ import os
 import bagpype.parameters
 from bagpype.errors import MissingEnergyError, UnknownResidueError, UnusualCIFFile
 from CifFile import ReadCif
+# Bond energies in kJ/mol taken from parameters.py
 
 
 def generate_energies_dictionary(AA, nomenclature = "new"):
@@ -26,11 +27,6 @@ def generate_energies_dictionary(AA, nomenclature = "new"):
 
     print(("Initialising covalent bond energies for " + ", ".join(AA)))
 
-    # Bond energies in kJ/mol taken from parameters.py
-    singlebond_energies = bagpype.parameters.single_bond_energies
-    doublebond_energies = bagpype.parameters.double_bond_energies
-    triplebond_energies = bagpype.parameters.triple_bond_energies
-    
     for aa in AA:
 
         try:
@@ -100,26 +96,26 @@ def generate_energies_dictionary(AA, nomenclature = "new"):
             # Look up bond strength depending on bond type
             if bond_type == "SING":
                 try:
-                    bond_strength = singlebond_energies[lookup]
+                    bond_strength = bagpype.parameters.single_bond_energies[lookup]
                 except KeyError:
                     try:
-                        bond_strength = singlebond_energies[lookup_reversed]
+                        bond_strength = bagpype.parameters.single_bond_energies[lookup_reversed]
                     except KeyError:
                         raise MissingEnergyError(atom1_element, atom2_element, aa, bond_type)
             elif bond_type == "DOUB":
                 try:
-                    bond_strength = doublebond_energies[lookup]
+                    bond_strength = bagpype.parameters.double_bond_energies[lookup]
                 except KeyError:
                     try:
-                        bond_strength = doublebond_energies[lookup_reversed]
+                        bond_strength = bagpype.parameters.double_bond_energies[lookup_reversed]
                     except KeyError:
                         raise MissingEnergyError(atom1_element, atom2_element, aa, bond_type)
             elif bond_type == "TRIP":
                 try:
-                    bond_strength = triplebond_energies[lookup]
+                    bond_strength = bagpype.parameters.triple_bond_energies[lookup]
                 except KeyError:
                     try:
-                        bond_strength = triplebond_energies[lookup_reversed]
+                        bond_strength = bagpype.parameters.triple_bond_energies[lookup_reversed]
                     except KeyError:
                         raise MissingEnergyError(atom1_element, atom2_element, aa, bond_type)
             else:

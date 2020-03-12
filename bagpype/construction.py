@@ -26,6 +26,10 @@ class Graph_constructor(object):
     """
 
     def __init__(self):
+        
+        ### Covalent bond related parameters:
+        self.use_morse = False
+        self.morse_well_width = 1
 
         ### Hydrogen bond related parameters:
         # old values commented at the very right
@@ -67,8 +71,6 @@ class Graph_constructor(object):
         
         time1 = time.time()
 
-        # self._initialise_possible_bonds()
-        
         self._initialise_possible_bonds_memeff()
         self._initialise_covbond_dictionary()
         if self.protein.LINKs:
@@ -78,6 +80,7 @@ class Graph_constructor(object):
 
         # Start finding covalent bonds & interactions
         self.find_covalent_bonds()
+        self.find_covalent_LINK_bonds()
 
         # This has to be done so that the other functions can use the covalent bonds too:
         self.covalent_bonds_graph = nx.Graph()
@@ -185,11 +188,8 @@ class Graph_constructor(object):
             self.possible_bonds[atom1] = neighbours
 
     def _initialise_covbond_dictionary(self):
-        list_of_present_residues = []
-        for atom in self.protein.atoms:
-            list_of_present_residues.append(atom.res_name)
-        
-        list_of_present_residues = sorted(list(set(list_of_present_residues)))
+        list_of_present_residues = sorted(list(set([atom.res_name for atom in self.protein.atoms])))
+
         self.cov_bond_energies = bagpype.covalent.generate_energies_dictionary(list_of_present_residues)
         
         for key in bagpype.parameters.non_standard_residues:
@@ -264,6 +264,8 @@ class Graph_constructor(object):
 
 
 
+
+
     ##################
     # COVALENT BONDS #
     ##################
@@ -279,29 +281,6 @@ class Graph_constructor(object):
                     else:
                         self.add_inter_residue_bond(atom1, atom2)
             
-        #################
-        # Covalent LINK entries        
-        if self.protein.LINKs:
-            are_there_LINK_covalent_bonds = bool(sum([x[1]["is_covalent"] for x in self._LINK_list]))
-            if are_there_LINK_covalent_bonds:
-                print("    Considering covalent LINK entries...")
-
-                # To avoid doubly adding covalent LINK entries where they have already been detected, we need the following list of covalent bonds
-                cov_bonds = [(bond.atom1.id, bond.atom2.id) for bond in self.bonds if "COVALENT" in bond.bond_type]
-                cov_bonds.extend([bond[::-1] for bond in cov_bonds])
-
-                for item in self._LINK_list:
-                    atom1, atom2 = item[0]
-
-                    # Is this LINK entry covalent and is this bond not already included?
-                    if item[1]["is_covalent"] and (atom1.id, atom2.id) not in cov_bonds:
-
-                        bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2, print_warnings = True)
-                        if bond_strength is not None:
-                            bond_strength *= self.k_factor/6.022
-                            self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
-        #
-        #################
 
     def add_intra_residue_bond(self, atom1, atom2):
         residue = atom1.res_name
@@ -316,6 +295,7 @@ class Graph_constructor(object):
             
         if bond_strength is not None:
             bond_strength *= self.k_factor/6.022
+            bond_strength *= self._morse_potential(atom1, atom2) if self.use_morse else 1
             self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
 
     def add_inter_residue_bond(self, atom1, atom2):
@@ -338,6 +318,7 @@ class Graph_constructor(object):
             bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2)
             if bond_strength is not None:
                 bond_strength *= self.k_factor/6.022
+                bond_strength *= self._morse_potential(atom1, atom2) if self.use_morse else 1
                 self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, bond_type))
 
 
@@ -359,8 +340,32 @@ class Graph_constructor(object):
         else:
             return None
 
+    def _morse_potential(self, atom1, atom2):
+        delta_r = abs(distance_between_two_atoms(atom1, atom2) - equilibrium_distance(atom1, atom2))
+        return -( np.exp( -2* self.morse_well_width *(delta_r)) - 2* np.exp( -self.morse_well_width * (delta_r)) ) 
 
+    def find_covalent_LINK_bonds(self):
+        # Covalent LINK entries        
+        if self.protein.LINKs:
+            are_there_LINK_covalent_bonds = bool(sum([x[1]["is_covalent"] for x in self._LINK_list]))
+            if are_there_LINK_covalent_bonds:
+                print("    Considering covalent LINK entries...")
 
+                # To avoid doubly adding covalent LINK entries where they have already been detected, we need the following list of covalent bonds
+                cov_bonds = [(bond.atom1.id, bond.atom2.id) for bond in self.bonds if "COVALENT" in bond.bond_type]
+                cov_bonds.extend([bond[::-1] for bond in cov_bonds])
+
+                for item in self._LINK_list:
+                    atom1, atom2 = item[0]
+
+                    # Is this LINK entry covalent and is this bond not already included?
+                    if item[1]["is_covalent"] and (atom1.id, atom2.id) not in cov_bonds:
+
+                        bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2, print_warnings = True)
+                        if bond_strength is not None:
+                            bond_strength *= self.k_factor/6.022
+                            bond_strength *= self._morse_potential(atom1, atom2) if self.use_morse else 1
+                            self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'COVALENT'))
 
 
     ##################
@@ -1749,6 +1754,10 @@ def in_same_residue(atom1, atom2):
 def distance_between_two_atoms(atom1, atom2):
     return np.asscalar( np.linalg.norm(atom1.xyz - atom2.xyz) )
 
+def equilibrium_distance(atom1, atom2):
+    return bagpype.parameters.covalent_radii[atom1.element] + \
+           bagpype.parameters.covalent_radii[atom2.element]
+
 def sec_neighborhood(G, node):
     """ Returns the second neighbourhood of a node in a Graph G as a set;
         does not include the node itself
@@ -1759,7 +1768,7 @@ def sec_neighborhood(G, node):
     sec_nbhood.remove(node)
     return list(sec_nbhood)
 
-def within_cov_bonding_distance(atom1, atom2, tolerance = 0.01):
+def within_cov_bonding_distance(atom1, atom2, tolerance = 0.1):
     """ Checks distance between two atoms is within covalent
     bonding distance for that pair of elements.  Uses the
     parameters specified by Pyykkö (doi: 10.1002/chem.200901472).
@@ -1772,10 +1781,11 @@ def within_cov_bonding_distance(atom1, atom2, tolerance = 0.01):
         except KeyError:
             cutoff = bagpype.parameters.covalent_radii[atom1.element] + \
                      bagpype.parameters.covalent_radii[atom2.element]
+            cutoff += tolerance
     
     return True \
         if cutoff is not None and \
-           distance_between_two_atoms(atom1, atom2) < min(cutoff+ tolerance, 3.0) \
+           distance_between_two_atoms(atom1, atom2) < min(cutoff, 3.0) \
     else False
 
 
