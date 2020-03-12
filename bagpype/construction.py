@@ -139,7 +139,7 @@ class Graph_constructor(object):
         time2 = time.time()
 
         print("Finished constructing the graph!" + " #residues = {}, #atoms = {}, #bonds = {}".format(len(protein.residues), len(protein.atoms), len(protein.bonds)))
-        print(("    Time taken = %.2fs, final filename: %s" % (time2-time1, protein.pdb_id)))
+        print("    Time taken = %.2fs, final filename: %s" % (time2-time1, protein.pdb_id))
         print()
 
 
@@ -327,7 +327,7 @@ class Graph_constructor(object):
             lookup = tuple([atom1.element, atom2.element])
             lookup_reversed = tuple([atom2.element, atom1.element])
             if print_warnings:
-                print(("WARNING: Adding bond between {} and {} based on distance constraints using single bond energies!".format(atom1, atom2)))
+                print("WARNING: Adding bond between {} and {} based on distance constraints using single bond energies!".format(atom1, atom2))
 
             try:
                 return bagpype.parameters.single_bond_energies[lookup]
@@ -980,7 +980,7 @@ class Graph_constructor(object):
 
         Florian Song, September 2018 - April 2019
         """
-        print(("Finding hydrophobics..."))
+        print("Finding hydrophobics...")
 
         # Initiate list of hydrophobic interactions
 
@@ -1696,7 +1696,7 @@ class Graph_constructor(object):
         """
 
         if self.protein.LINKs:
-            print(("Finding electrostatic interactions using LINK entries...")) 
+            print("Finding electrostatic interactions using LINK entries...")
 
             # epsilon is the dielectric constant
             epsilon = 4
@@ -1710,12 +1710,12 @@ class Graph_constructor(object):
                 bond_length = distance_between_two_atoms(atom1, atom2)
                 
                 if bond_length>10:
-                    print(("WARNING: The LINK entry between {} and {} has a distance value greater than 10A. It will be skipped.").format(atom1, atom2))
+                    print("WARNING: The LINK entry between {} and {} has a distance value greater than 10A. It will be skipped.").format(atom1, atom2)
                     continue
                 
                 if LINK_entry[1]["distance"] != round(bond_length,2):
-                    print(("WARNING: The LINK entry between {} and {} has a different distance value than the computed one:" \
-                                    " Computed = {}, in PDB = {}. The computed one will be used.").format(atom1, atom2, round(bond_length,2), LINK_entry[1]["distance"]))
+                    print("WARNING: The LINK entry between {} and {} has a different distance value than the computed one:" \
+                                    " Computed = {}, in PDB = {}. The computed one will be used.").format(atom1, atom2, round(bond_length,2), LINK_entry[1]["distance"])
 
                 if LINK_entry[1]["is_covalent"]:
                     # For this case, see find_covalent().
