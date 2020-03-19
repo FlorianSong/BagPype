@@ -164,7 +164,7 @@ class PDBParser(object):
 
         self._renumber_atoms()
 
-        if add_H or not self._has_hydrogens():
+        if add_H or not self._has_hydrogens() or trim_H == "notHOH":
             print("Adding hydrogens to PDB file")
             self._add_hydrogens()
             print("Finished adding hydrogens")

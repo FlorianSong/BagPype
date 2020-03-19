@@ -25,6 +25,7 @@ single_bond_energies = \
   ('C', 'N') : 305, # 304.6,
   ('C', 'P') : 264, 
   ('C', 'SE'): 582, 
+  ('C', 'FE'): None,
 
   ('N', 'N') : 167, 
   ('N', 'F') : 283, 
@@ -58,7 +59,6 @@ single_bond_energies = \
   ('CA', 'O'): 460, # CA=O
   ('CA', 'S'): 310, # CA=S
   ('BE', 'O'): 444, # BE=O
-  ('FE', 'N'): None, 
   ('MG', 'O'): 377, # MG=O
   ('ZN', 'O'): None,
 
