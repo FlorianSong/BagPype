@@ -2028,8 +2028,11 @@ class Graph_constructor(object):
 
                 if bond_length > 10:
                     print(
-                        "WARNING: The LINK entry between {} and {} has a distance value greater than 10A. It will be skipped."
-                    ).format(atom1, atom2)
+                        (
+                            "WARNING: The LINK entry between {} and {} has a distance value greater than 10A. "
+                            "It will be skipped. A possible reason for this is due to multimer replication."
+                        ).format(atom1, atom2)
+                    )
                     continue
 
                 if LINK_entry[1]["distance"] != round(bond_length, 2):
