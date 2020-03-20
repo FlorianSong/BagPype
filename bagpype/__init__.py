@@ -10,6 +10,9 @@ from bagpype.molecules import Protein
 from bagpype.parsing import PDBParser
 from bagpype.construction import Graph_constructor
 
+import bagpype.manybody
+import bagpype.constrain_parameters
+
 
 head_string = (
     u"\n"
