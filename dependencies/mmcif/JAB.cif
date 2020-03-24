@@ -1,0 +1,109 @@
+data_JAB
+# 
+_chem_comp.id                                    JAB 
+_chem_comp.name                                  1,2-oxazole-5-carbothioamide 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C4 H4 N2 O S" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2019-02-13 
+_chem_comp.pdbx_modified_date                    2020-02-21 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        128.152 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     JAB 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6QOO 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+JAB N01 N1 N 0 1 N N N 17.326 -17.404 -12.456 1.432  -1.672 -0.370 N01 JAB 1  
+JAB C02 C1 C 0 1 N N N 18.736 -17.350 -12.610 1.033  -0.415 -0.092 C02 JAB 2  
+JAB S03 S1 S 0 1 N N N 19.560 -15.912 -12.838 2.194  0.804  0.217  S03 JAB 3  
+JAB C04 C2 C 0 1 Y N N 19.509 -18.633 -12.567 -0.403 -0.091 -0.053 C04 JAB 4  
+JAB C05 C3 C 0 1 Y N N 20.883 -18.755 -12.711 -0.993 1.080  -0.447 C05 JAB 5  
+JAB C06 C4 C 0 1 Y N N 21.176 -20.107 -12.602 -2.367 0.865  -0.202 C06 JAB 6  
+JAB N07 N2 N 0 1 Y N N 20.021 -20.768 -12.400 -2.474 -0.337 0.286  N07 JAB 7  
+JAB O08 O1 O 0 1 Y N N 18.980 -19.860 -12.374 -1.401 -0.888 0.373  O08 JAB 8  
+JAB H1  H1 H 0 1 N N N 16.788 -16.562 -12.482 0.774  -2.362 -0.545 H1  JAB 9  
+JAB H2  H2 H 0 1 N N N 16.871 -18.284 -12.322 2.378  -1.885 -0.400 H2  JAB 10 
+JAB H3  H3 H 0 1 N N N 21.588 -17.954 -12.876 -0.519 1.962  -0.851 H3  JAB 11 
+JAB H4  H4 H 0 1 N N N 22.158 -20.551 -12.668 -3.172 1.562  -0.384 H4  JAB 12 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+JAB S03 C02 DOUB N N 1  
+JAB C05 C06 SING Y N 2  
+JAB C05 C04 DOUB Y N 3  
+JAB C02 C04 SING N N 4  
+JAB C02 N01 SING N N 5  
+JAB C06 N07 DOUB Y N 6  
+JAB C04 O08 SING Y N 7  
+JAB N07 O08 SING Y N 8  
+JAB N01 H1  SING N N 9  
+JAB N01 H2  SING N N 10 
+JAB C05 H3  SING N N 11 
+JAB C06 H4  SING N N 12 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+JAB InChI            InChI                1.03  "InChI=1S/C4H4N2OS/c5-4(8)3-1-2-6-7-3/h1-2H,(H2,5,8)" 
+JAB InChIKey         InChI                1.03  CEDRGDFENMZKCQ-UHFFFAOYSA-N                           
+JAB SMILES_CANONICAL CACTVS               3.385 "NC(=S)c1oncc1"                                       
+JAB SMILES           CACTVS               3.385 "NC(=S)c1oncc1"                                       
+JAB SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cnoc1C(=S)N"                                       
+JAB SMILES           "OpenEye OEToolkits" 2.0.7 "c1cnoc1C(=S)N"                                       
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+JAB "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 1,2-oxazole-5-carbothioamide 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+JAB "Create component" 2019-02-13 RCSB 
+JAB "Initial release"  2020-02-26 RCSB 
+# 

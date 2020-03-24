@@ -1,0 +1,115 @@
+data_JBE
+# 
+_chem_comp.id                                    JBE 
+_chem_comp.name                                  3-nitropyridin-2-amine 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C5 H5 N3 O2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2019-02-13 
+_chem_comp.pdbx_modified_date                    2020-02-21 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        139.112 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     JBE 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        6QOM 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+JBE O01 O1 O 0  1 N N N -20.302 15.099 -12.813 2.178  0.545  -0.603 O01 JBE 1  
+JBE N02 N1 N 1  1 N N N -19.429 16.148 -12.720 1.545  -0.327 -0.033 N02 JBE 2  
+JBE O03 O2 O -1 1 N N N -18.222 15.945 -12.685 2.130  -1.230 0.538  O03 JBE 3  
+JBE C04 C1 C 0  1 Y N N -19.907 17.482 -12.656 0.191  -0.288 -0.030 C04 JBE 4  
+JBE C05 C2 C 0  1 Y N N -21.265 17.762 -12.653 -0.544 -1.454 -0.143 C05 JBE 5  
+JBE C06 C3 C 0  1 Y N N -21.678 19.088 -12.588 -1.930 -1.367 -0.135 C06 JBE 6  
+JBE C07 C4 C 0  1 Y N N -20.726 20.095 -12.524 -2.529 -0.130 -0.016 C07 JBE 7  
+JBE N08 N2 N 0  1 Y N N -19.415 19.794 -12.526 -1.803 0.967  0.090  N08 JBE 8  
+JBE C09 C5 C 0  1 Y N N -18.988 18.522 -12.591 -0.479 0.925  0.093  C09 JBE 9  
+JBE N10 N3 N 0  1 N N N -17.595 18.224 -12.595 0.247  2.104  0.213  N10 JBE 10 
+JBE H1  H1 H 0  1 N N N -21.990 16.963 -12.700 -0.051 -2.411 -0.235 H1  JBE 11 
+JBE H2  H2 H 0  1 N N N -22.730 19.332 -12.587 -2.533 -2.259 -0.222 H2  JBE 12 
+JBE H3  H3 H 0  1 N N N -21.039 21.127 -12.472 -3.607 -0.058 -0.010 H3  JBE 13 
+JBE H4  H4 H 0  1 N N N -17.072 19.075 -12.545 1.208  2.072  0.334  H4  JBE 14 
+JBE H5  H5 H 0  1 N N N -17.375 17.650 -11.806 -0.209 2.960  0.176  H5  JBE 15 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+JBE O01 N02 DOUB N N 1  
+JBE N02 O03 SING N N 2  
+JBE N02 C04 SING N N 3  
+JBE C04 C05 DOUB Y N 4  
+JBE C04 C09 SING Y N 5  
+JBE C05 C06 SING Y N 6  
+JBE N10 C09 SING N N 7  
+JBE C09 N08 DOUB Y N 8  
+JBE C06 C07 DOUB Y N 9  
+JBE N08 C07 SING Y N 10 
+JBE C05 H1  SING N N 11 
+JBE C06 H2  SING N N 12 
+JBE C07 H3  SING N N 13 
+JBE N10 H4  SING N N 14 
+JBE N10 H5  SING N N 15 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+JBE InChI            InChI                1.03  "InChI=1S/C5H5N3O2/c6-5-4(8(9)10)2-1-3-7-5/h1-3H,(H2,6,7)" 
+JBE InChIKey         InChI                1.03  BPYHGTCRXDWOIQ-UHFFFAOYSA-N                                
+JBE SMILES_CANONICAL CACTVS               3.385 "Nc1ncccc1[N+]([O-])=O"                                    
+JBE SMILES           CACTVS               3.385 "Nc1ncccc1[N+]([O-])=O"                                    
+JBE SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc(c(nc1)N)[N+](=O)[O-]"                                
+JBE SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc(c(nc1)N)[N+](=O)[O-]"                                
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+JBE "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 3-nitropyridin-2-amine 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+JBE "Create component" 2019-02-13 RCSB 
+JBE "Initial release"  2020-02-26 RCSB 
+# 
