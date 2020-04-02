@@ -2036,7 +2036,6 @@ class Graph_constructor(object):
                     continue
 
                 if LINK_entry[1]["distance"] != round(bond_length, 2):
-                    print(atom1, atom2, round(bond_length, 2), LINK_entry[1]["distance"])
                     print(
                         "WARNING: The LINK entry between {} and {} has a different distance value than the computed one:"
                         " Computed = {}, in PDB = {}. The computed one will be used.".format(
