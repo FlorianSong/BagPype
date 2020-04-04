@@ -3,7 +3,9 @@ import sys
 import csv
 
 def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], 
-              file_name = "bonds.csv", specific_residues = [] # e.g. [('1', 'A')]
+              file_name = "bonds.csv", 
+              specific_residues = [], # e.g. [('1', 'A')]
+              specific_bonds = [] # just a list of ids
               ):
     if list_of_types == "weak":
         list_of_types = ["HYDROGEN", "SALTBRIDGE", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"]
@@ -60,6 +62,11 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
         bond_type = bond_data["bond_type"].split(",")
         atom1_id = str(int( bond_data["atom1_id"]) +1 )
         atom2_id = str(int( bond_data["atom2_id"]) +1 )
+
+        # skip bond_ids
+        if specific_bonds:
+            if bond_id not in specific_bonds:
+                continue
 
         if len(bond_type) == 1:
 
