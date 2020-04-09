@@ -32,7 +32,7 @@ def generate_energies_dictionary(AA, nomenclature = "new"):
         try:
             file = open(os.path.dirname(os.path.dirname(bagpype.__file__)) + "/dependencies/mmcif/" + aa + '.cif', "r")
         except IOError:
-            raise UnknownResidueError(("The residue named " + str(aa) + " was not found in the cif file library of residues. Please add it manually in 'parameters.py'."))
+            raise UnknownResidueError(str(aa))
 
         ################################
         # Parse corresponding CIF file #

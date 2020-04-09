@@ -2019,34 +2019,33 @@ class Graph_constructor(object):
             epsilon = 4
 
             for LINK_entry in self._LINK_list:
-
-                # Load the two atoms from the LINK entry parsed in parsing.
-                atom1, atom2 = LINK_entry[0]
-
-                # The bond distance given in the LINK entry is not always accurate.
-                bond_length = distance_between_two_atoms(atom1, atom2)
-
-                if bond_length > 10:
-                    print(
-                        (
-                            "WARNING: The LINK entry between {} and {} has a distance value greater than 10A. "
-                            "It will be skipped. A possible reason for this is due to multimer replication."
-                        ).format(atom1, atom2)
-                    )
-                    continue
-
-                if LINK_entry[1]["distance"] != round(bond_length, 2):
-                    print(
-                        "WARNING: The LINK entry between {} and {} has a different distance value than the computed one:"
-                        " Computed = {}, in PDB = {}. The computed one will be used.".format(
-                            atom1, atom2, round(bond_length, 2), LINK_entry[1]["distance"]
-                        )
-                    )
-
                 if LINK_entry[1]["is_covalent"]:
                     # For this case, see find_covalent().
                     pass
                 else:
+                    # Load the two atoms from the LINK entry parsed in parsing.
+                    atom1, atom2 = LINK_entry[0]
+
+                    # The bond distance given in the LINK entry is not always accurate.
+                    bond_length = distance_between_two_atoms(atom1, atom2)
+
+                    if bond_length > 10:
+                        print(
+                            (
+                                "WARNING: The LINK entry between {} and {} has a distance value greater than 10A. "
+                                "It will be skipped. A possible reason for this is due to multimer replication."
+                            ).format(atom1, atom2)
+                        )
+                        continue
+
+                    if LINK_entry[1]["distance"] != round(bond_length, 2):
+                        print(
+                            "WARNING: The LINK entry between {} and {} has a different distance value than the computed one:"
+                            " Computed = {}, in PDB = {}. The computed one will be used.".format(
+                                atom1, atom2, round(bond_length, 2), LINK_entry[1]["distance"]
+                            )
+                        )
+
                     try:
                         # Find charges of the two atoms using charge database
                         # in bagpype.parameters file

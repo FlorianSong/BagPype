@@ -23,12 +23,17 @@ head_string = (
     u"Biochemical, Atomistic Graph construction   \n"
     u"software in PYthon for Proteins, Etc.       \n"
     u"(C) Yaliraki group @ Imperial College London\n"
-    u"\a"
+    u""
 )
 
 print(head_string)
-
-
+# Finish importing with a random quote.
+import requests 
+response = requests.get("https://api.quotable.io/random")
+if response.status_code == 200:
+    response = response.json()
+    print('"' + response["content"] + '"') 
+    print("by " + response["author"] + "\n" )
 ################################################
 
 
