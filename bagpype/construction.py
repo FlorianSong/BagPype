@@ -61,6 +61,7 @@ class Graph_constructor(object):
         atoms_file_name="atoms.csv",
         bonds_file_name="bonds.csv",
         gexf_file_name=None,
+        barebones_graph=True,
     ):
         """ This is the main driver function which calls
         the functions to generate each of the different types
@@ -107,19 +108,34 @@ class Graph_constructor(object):
         self.bonds = uniquify(self.bonds)
 
         graph = nx.Graph()
-        graph.add_nodes_from(self.protein.atoms.id())
+        if barebones_graph:
+            graph.add_nodes_from(self.protein.atoms.id())
+        else:
+            for atom in self.protein.atoms:
+                graph.add_node(
+                    atom.id,
+                    name=atom.name,
+                    chain=atom.chain,
+                    res_num=atom.res_num,
+                    res_name=atom.res_name,
+                    element=atom.element,
+                    xyz=atom.xyz,
+                )
 
         # Construct graph from list of bonds
         id_counter = 0
         for bond in self.bonds:
             bond.id = id_counter
-            graph.add_edge(
-                bond.atom1.id,
-                bond.atom2.id,
-                weight=bond.weight,
-                id=id_counter,
-                bond_type=bond.bond_type,
-            )
+            if barebones_graph:
+                graph.add_edge(bond.atom1.id, bond.atom2.id)
+            else:
+                graph.add_edge(
+                    bond.atom1.id,
+                    bond.atom2.id,
+                    weight=bond.weight,
+                    id=id_counter,
+                    bond_type=bond.bond_type,
+                )
             id_counter += 1
 
         # Check graph is connected
@@ -2042,7 +2058,10 @@ class Graph_constructor(object):
                         print(
                             "WARNING: The LINK entry between {} and {} has a different distance value than the computed one:"
                             " Computed = {}, in PDB = {}. The computed one will be used.".format(
-                                atom1, atom2, round(bond_length, 2), LINK_entry[1]["distance"]
+                                atom1,
+                                atom2,
+                                round(bond_length, 2),
+                                LINK_entry[1]["distance"],
                             )
                         )
 
