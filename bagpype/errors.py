@@ -1,6 +1,9 @@
+import urllib
+
 class GraphConstructionError(Exception):
-    def __init__(self, *args, **kwargs):
-        Exception.__init__(self, *args, **kwargs)
+    def __init__(self, message, *args, **kwargs):
+        message = urllib.parse.quote(message, safe='')
+        Exception.__init__(self, message, *args, **kwargs)
 
 
 class MissingEnergyError(Exception):
