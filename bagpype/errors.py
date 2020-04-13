@@ -1,8 +1,5 @@
-import urllib
-
 class GraphConstructionError(Exception):
     def __init__(self, message, *args, **kwargs):
-        message = message.replace(".", "")
         Exception.__init__(self, message, *args, **kwargs)
 
 
