@@ -62,7 +62,7 @@ class Graph_constructor(object):
         atoms_file_name="atoms.csv",
         bonds_file_name="bonds.csv",
         gexf_file_name=None,
-        barebones_graph=True,
+        barebones_graph=False,
     ):
         """ This is the main driver function which calls
         the functions to generate each of the different types
@@ -128,8 +128,7 @@ class Graph_constructor(object):
         for bond in self.bonds:
             bond.id = id_counter
             if barebones_graph:
-                graph.add_edge(bond.atom1.id, bond.atom2.id,
-                id = id_counter)
+                graph.add_edge(bond.atom1.id, bond.atom2.id)
             else:
                 graph.add_edge(
                     bond.atom1.id,
