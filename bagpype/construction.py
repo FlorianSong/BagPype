@@ -45,6 +45,7 @@ class Graph_constructor(object):
         self.hydrophobic_RMST_gamma = 0.1
         self.hydrophobic_neighbourhood = 1
         self.hydrophobic_burn_bridges = False
+        self.hydrophobic_k_core = 0
 
         # Used to initialise all possible bonds, should always be LARGER than the longest possible bond
         self.max_cutoff = 9
@@ -127,7 +128,8 @@ class Graph_constructor(object):
         for bond in self.bonds:
             bond.id = id_counter
             if barebones_graph:
-                graph.add_edge(bond.atom1.id, bond.atom2.id)
+                graph.add_edge(bond.atom1.id, bond.atom2.id,
+                id = id_counter)
             else:
                 graph.add_edge(
                     bond.atom1.id,
@@ -374,7 +376,7 @@ class Graph_constructor(object):
         residue = atom1.res_name
         if atom2.res_name != residue:
             raise GraphConstructionError(
-                "Something went wrong, trying to add intra-residue bond for two atoms of different residue names."
+                "Something went wrong, trying to add intra-residue bond for two atoms of different residue names. "
             )
 
         try:
@@ -650,7 +652,7 @@ class Graph_constructor(object):
         if atom.element != "H":
             raise UnusualHydrogenError(
                 "You have tried to find the donor of atom {0}, "
-                "but atom {0} is not a hydrogen.".format(atom.id)
+                "but atom {0} is not a hydrogen. ".format(atom.id)
             )
 
         cov_bonding_partners_ids = list(self.covalent_bonds_graph.neighbors(atom.id))
@@ -658,14 +660,14 @@ class Graph_constructor(object):
         if len(cov_bonding_partners_ids) > 1:
             raise UnusualHydrogenError(
                 "Atom {0} is a hydrogen, but has more than one covalent "
-                "bonding partner: {1}.".format(
+                "bonding partner: {1}. ".format(
                     atom, [self.protein.atoms[x] for x in cov_bonding_partners_ids]
                 )
             )
         elif len(cov_bonding_partners_ids) == 0:
             raise UnusualHydrogenError(
                 "Atom {0} is a hydrogen, but has no covalent "
-                "bonding partners.".format(atom)
+                "bonding partners. ".format(atom)
             )
         else:
             return self.protein.atoms[cov_bonding_partners_ids[0]]
@@ -838,7 +840,7 @@ class Graph_constructor(object):
 
         if degree < 1:
             raise GraphConstructionError(
-                "Couldn't find triplet for single atom {} with no bonds!".format(atom)
+                "Couldn't find triplet for single atom {} with no bonds! ".format(atom)
             )
 
         elif degree == 1:
@@ -902,7 +904,7 @@ class Graph_constructor(object):
 
         else:
             raise GraphConstructionError(
-                "Function for Hbond status assignment did not receive an atom of element N, O or S."
+                "Function for Hbond status assignment did not receive an atom of element N, O or S. "
             )
 
         # perform a check:
@@ -914,7 +916,7 @@ class Graph_constructor(object):
             raise GraphConstructionError(
                 "Atom "
                 + str(atom.id)
-                + " was not correctly given a Hydrogen status. Something must have gone wrong in the code."
+                + " was not correctly given a Hydrogen status. Something must have gone wrong in the code. "
             )
 
         return status_out
@@ -1036,7 +1038,7 @@ class Graph_constructor(object):
             degree = nx.degree(self.covalent_bonds_graph, atom.id)
             if degree == 0:
                 raise GraphConstructionError(
-                    "The Nitrogen {} has no covalent bonding partners.".format(atom)
+                    "The Nitrogen {} has no covalent bonding partners. ".format(atom)
                 )
 
             elif degree == 2:
@@ -1131,13 +1133,13 @@ class Graph_constructor(object):
                         "a third-party software that BaGPyPe uses to add hydrogens to PDB files. Unfortunately, "
                         "Reduce is not able to add hydrogens to single Oxygen atoms (belonging to waters). "
                         "If you would like to include water molecules "
-                        "in the atomistic graph, please consider using a different software to add hydrogen atoms.".format(
+                        "in the atomistic graph, please consider using a different software to add hydrogen atoms. ".format(
                             atom.id
                         )
                     )
                 else:
                     raise GraphConstructionError(
-                        "The Oxygen {} has no covalent bonding partners.".format(atom)
+                        "The Oxygen {} has no covalent bonding partners. ".format(atom)
                     )
 
             if degree == 1:
@@ -1207,7 +1209,7 @@ class Graph_constructor(object):
 
             if degree == 0:
                 raise GraphConstructionError(
-                    "The Sulfur {} has no covalent bonding partners.".format(atom)
+                    "The Sulfur {} has no covalent bonding partners. ".format(atom)
                 )
 
             elif degree == 1:
@@ -1310,6 +1312,47 @@ class Graph_constructor(object):
             return
 
         matches = self.hydrophobic_selection2(hphobic_graph)
+        
+        if self.hydrophobic_burn_bridges:
+            # Additional step to RMST sparsification: removal of graph bridges
+            # A bridge is an edge of a graph whose deletion increases its number of connected components.
+            # Note that here we do not have to worry about weighting
+            # In order to use networkx, need to initialise new Graph
+            rmst_graph = nx.Graph(matches)
+
+            # Use networkx to find all bridges in the graph and remove them
+            bridges = list(nx.bridges(rmst_graph))
+            rmst_graph.remove_edges_from(bridges)
+            matches = rmst_graph.edges
+
+            print(
+                "    Removed bridges: "
+                + str(len(bridges))
+                + "; Final # hydrophobic interactions: "
+                + str(len(matches))
+                + ", components: "
+                + str(nx.number_connected_components(nx.Graph(matches)))
+            )
+        if self.hydrophobic_k_core:
+            # Additional step to RMST sparsification: computing the k-core
+            # A k-core is a maximal subgraph st. no node has degree less than k.
+            # Note that here we do not have to worry about weighting
+            # In order to use networkx, need to initialise new Graph
+            rmst_graph = nx.Graph(matches)
+
+            # Use networkx to prune first degree nodes off
+            k = int(self.hydrophobic_k_core)
+            matches = nx.k_core(rmst_graph, k).edges
+
+            print(
+                "    Removed kth k-core shell!"
+                " Final # hydrophobic interactions: "
+                + str(len(matches))
+                + ", components: "
+                + str(nx.number_connected_components(nx.Graph(matches)))
+            )
+
+
         matches = sorted([sorted(x) for x in matches])
 
         # Calculate total hydrophobic energy for command line output
@@ -1330,13 +1373,6 @@ class Graph_constructor(object):
             )
 
     def hydrophobic_selection_legacyNetworkx(self, graph):
-        """ This function represents the sparsification step. 
-        Sparsification is done via a modified version of RMST (relaxed minimum spanning tree).
-        Reference:
-        Beguerisse-Diaz, M., Vangelov, B. & Barahona, M. 
-        Finding role communities in directed networks using Role-Based Similarity, Markov Stability and the Relaxed Minimum Spanning Tree.
-        2013 IEEE Global Conference on Signal and Information Processing 937–940 (IEEE, 2013). doi:10.1109/GlobalSIP.2013.6737046
-        """
 
         # First step is to calculate a minimum spanning tree, note that the weight is "energy", ie negative values, units kcal/mol
         mst = nx.minimum_spanning_tree(graph, weight="energy")
@@ -1381,30 +1417,17 @@ class Graph_constructor(object):
             + str(len(mst.edges))
         )
 
-        # Additional step to RMST sparsification: removal of graph bridges
-        # A bridge is an edge of a graph whose deletion increases its number of connected components.
-        # Note that here we do not have to worry about weighting
-        if self.hydrophobic_burn_bridges:
-            # In order to use networkx, need to initialise new Graph
-            rmst_graph = nx.Graph(matches)
-
-            # Use networkx to find all bridges in the graph and remove them
-            bridges = list(nx.bridges(rmst_graph))
-            rmst_graph.remove_edges_from(bridges)
-            matches = rmst_graph.edges
-
-            print(
-                "    Removed bridges: "
-                + str(len(bridges))
-                + "; Final # hydrophobic interactions: "
-                + str(len(matches))
-                + ", components: "
-                + str(nx.number_connected_components(nx.Graph(matches)))
-            )
-
         return sorted(matches)
 
     def hydrophobic_selection2(self, graph):
+        """ This function represents the sparsification step. 
+        Sparsification is done via a modified version of RMST (relaxed minimum spanning tree).
+        Reference:
+        Beguerisse-Diaz, M., Vangelov, B. & Barahona, M. 
+        Finding role communities in directed networks using Role-Based Similarity, Markov Stability and the Relaxed Minimum Spanning Tree.
+        2013 IEEE Global Conference on Signal and Information Processing 937–940 (IEEE, 2013). doi:10.1109/GlobalSIP.2013.6737046
+        """
+
         node_list = list(graph.nodes)
         D = nx.adjacency_matrix(graph, weight="energy", nodelist=node_list).todense()
         N = np.shape(D)[0]
@@ -1480,26 +1503,6 @@ class Graph_constructor(object):
         #             print(mst.has_edge(indx1, indx2), Emst[i,j])
         # print("Check done")
 
-        # Additional step to RMST sparsification: removal of graph bridges
-        # A bridge is an edge of a graph whose deletion increases its number of connected components.
-        # Note that here we do not have to worry about weighting
-        if self.hydrophobic_burn_bridges:
-            # In order to use networkx, need to initialise new Graph
-            rmst_graph = nx.Graph(matches)
-
-            # Use networkx to find all bridges in the graph and remove them
-            bridges = list(nx.bridges(rmst_graph))
-            rmst_graph.remove_edges_from(bridges)
-            matches = rmst_graph.edges
-
-            print(
-                "    Removed bridges: "
-                + str(len(bridges))
-                + "; Final # hydrophobic interactions: "
-                + str(len(matches))
-                + ", components: "
-                + str(nx.number_connected_components(nx.Graph(matches)))
-            )
 
         return matches
 
@@ -1566,130 +1569,6 @@ class Graph_constructor(object):
 
         return E, LLink
 
-    def hydrophobic_selection_sparse(self, weights, rows, columns):
-
-        D = scipy.sparse.csr_matrix(
-            (weights, (rows, columns)),
-            shape=(len(self.protein.atoms), len(self.protein.atoms)),
-            dtype=np.float,
-        )
-        D = D + D.transpose()
-        node_list = (np.where(D.getnnz(0) > 0)[0]).tolist()
-        _node_dictionary = dict(zip(range(len(self.protein.atoms)), node_list))
-
-        D = D[D.getnnz(1) > 0][:, D.getnnz(0) > 0]
-
-        N = D.shape[0]
-
-        _Emst, LLink = self.RMST_prim_algorithm_sparse(D)
-        LLink = scipy.sparse.csr_matrix(LLink)
-
-        LLink.setdiag(-10.0)
-
-        Dtemp = D.copy()
-        # Dtemp.setdiag(D.max())
-
-        # Dtemp[Dtemp==0] = np.amax(D)
-        mD = Dtemp[np.arange(N), Dtemp.argmin(axis=0)]
-        # print(mD.T.shape,  scipy.sparse.csr_matrix(np.ones([1, N])).shape  )
-        mD = scipy.sparse.csr_matrix(np.ones([N, 1])) * mD
-        mD = abs(mD + mD.transpose()) / 2.0
-        mD *= self.hydrophobic_RMST_gamma
-
-        E_criterion = (LLink + mD > D).astype(int)
-
-        E_final = E_criterion.multiply(D)
-        nonzeros = scipy.sparse.triu(E_final).nonzero()
-        matches = list(zip(nonzeros[0].tolist(), nonzeros[1].tolist()))
-
-        # print("    RMST sparsification used. Accepted: " + str(len(matches)-np.count_nonzero(np.triu(Emst))) + ", rejected: " + str(len(graph.edges) - len(matches)) +
-        #       "; MST size: " + str(np.count_nonzero(np.triu(Emst))))
-
-        # Additional step to RMST sparsification: removal of graph bridges
-        # A bridge is an edge of a graph whose deletion increases its number of connected components.
-        # Note that here we do not have to worry about weighting
-        if self.hydrophobic_burn_bridges:
-            # In order to use networkx, need to initialise new Graph
-            rmst_graph = nx.Graph(matches)
-
-            # Use networkx to find all bridges in the graph and remove them
-            bridges = list(nx.bridges(rmst_graph))
-            rmst_graph.remove_edges_from(bridges)
-            matches = rmst_graph.edges
-
-            print(
-                "    Removed bridges: "
-                + str(len(bridges))
-                + "; Final # hydrophobic interactions: "
-                + str(len(matches))
-                + ", components: "
-                + str(nx.number_connected_components(nx.Graph(matches)))
-            )
-
-        return matches
-
-    def RMST_prim_algorithm_sparse(self, D):
-        # Initialise matrix containing all largest links along MST
-        LLink = np.zeros(D.shape)
-        # LLink = scipy.sparse.lil_matrix(D.shape)
-        # LLink[:] = 0.0000001
-
-        # Number of nodes in the network
-        N = D.shape[0]
-
-        # Allocate a matrix for the edge list
-        E = scipy.sparse.lil_matrix(D.shape)
-
-        # Start with a node
-        mstidx = np.array([0])
-        otheridx = np.arange(1, N, 1)
-
-        T = D[otheridx, 0]
-        P = np.zeros(otheridx.size, dtype=int)
-
-        while T.size > 0:
-            i = T.argmin()
-            idx = otheridx[i]
-
-            # Start with a node
-            E[idx, P[i]] = D[idx, P[i]]
-            E[P[i], idx] = D[P[i], idx]
-
-            # 1) Update the longest links
-            # indexes of the nodes without the parent
-            tempmstidx = mstidx[mstidx != P[i]]
-
-            # 2) update the link to the parent
-            LLink[idx, P[i]] = -1 * D[idx, P[i]]
-            LLink[P[i], idx] = -1 * D[P[i], idx]
-
-            # 3) find the maximal
-            if len(tempmstidx) > 0:
-                new_edge = -1 * D[idx, P[i]]
-                tempLLink = LLink[P[i], tempmstidx]
-                tempLLink[tempLLink > new_edge] = new_edge
-
-                LLink[idx, tempmstidx] = tempLLink
-                LLink[tempmstidx, idx] = tempLLink
-
-            # As a node is added clear his entries
-            delete_row_csr(T, i)
-            P = np.delete(P, i)
-
-            # Add the node to the list
-            mstidx = np.append(mstidx, idx)
-
-            # Remove the node from the list of the free nodes
-            otheridx = np.delete(otheridx, i)
-
-            # update the distance matrix
-            Ttemp = D[otheridx, idx]
-
-            if T.size > 0:
-                P[(Ttemp < T).nonzero()[0]] = idx
-                T = scipy.sparse.lil_matrix.minimum(T, Ttemp)
-
-        return E, -LLink
 
     def hydrophobic_potential(self, r, element1="C", element2="C"):
         """ Hydrophobic potential as defined in 
@@ -1735,7 +1614,7 @@ class Graph_constructor(object):
 
         else:
             raise GraphConstructionError(
-                "The extent for the neighbourhood variable needs to be either 1 or 2."
+                "The extent for the neighbourhood variable needs to be either 1 or 2. "
             )
 
     ########################
@@ -1783,7 +1662,7 @@ class Graph_constructor(object):
                 raise GraphConstructionError(
                     "Could not find atom: "
                     + atom_name
-                    + " for atom-specific parameters in stacked interactions."
+                    + " for atom-specific parameters in stacked interactions. "
                 )
             return K[element_identifier], R[element_identifier]
 

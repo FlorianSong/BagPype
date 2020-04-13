@@ -21,7 +21,7 @@ class UnknownResidueError(Exception):
     def __init__(self, aa, *args, **kwargs):
         output = (
             "The residue named {} was not found in the cif file library of residues. "
-            "Please add it manually in 'parameters.py'."
+            "Please add it manually in 'parameters.py'. "
         ).format(aa)
         Exception.__init__(self, output, *args, **kwargs)
 

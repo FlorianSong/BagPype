@@ -150,7 +150,7 @@ def generate_energies_dictionary(AA, nomenclature = "new"):
             Output: returns updated bonds_dictionary
             """
             if len(neighbours) != 2:
-                raise Exception("Bond averaging received more than two atoms!")
+                raise Exception("Bond averaging received more than two atoms! ")
             original_bond_strength1 = bonds_dictionary[atom][neighbours[0]]
             original_bond_strength2 = bonds_dictionary[atom][neighbours[1]]
             new_bond_strength = (original_bond_strength1 + original_bond_strength2) / 2.
