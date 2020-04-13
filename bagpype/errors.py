@@ -3,6 +3,7 @@ import urllib
 class GraphConstructionError(Exception):
     def __init__(self, message, *args, **kwargs):
         message = urllib.parse.quote(message, safe='')
+        message = message.replace(".", "%2E")
         Exception.__init__(self, message, *args, **kwargs)
 
 
