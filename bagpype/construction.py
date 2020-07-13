@@ -1990,7 +1990,7 @@ def in_same_residue(atom1, atom2):
 
 
 def distance_between_two_atoms(atom1, atom2):
-    return np.asscalar(np.linalg.norm(atom1.xyz - atom2.xyz))
+    return np.round(np.asscalar(np.linalg.norm(atom1.xyz - atom2.xyz)), 12)
 
 
 def equilibrium_distance(atom1, atom2):
