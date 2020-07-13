@@ -51,7 +51,7 @@ class Graph_constructor(object):
         self.max_cutoff = 9
 
         # Currently obsolete.
-        self.k_factor = 6.022 / 4.184
+        # self.k_factor = 6.022 / 4.184
 
         # List of all bonds
         self.bonds = bagpype.molecules.BondList()
@@ -389,7 +389,8 @@ class Graph_constructor(object):
             )
 
         if bond_strength is not None:
-            bond_strength *= self.k_factor / 6.022
+            # bond_strength *= self.k_factor / 6.022
+            bond_strength /= 4.184
             bond_strength *= self._morse_potential(atom1, atom2) if self.use_morse else 1
             self.bonds.append(
                 bagpype.molecules.Bond([], atom1, atom2, bond_strength, "COVALENT")
@@ -415,7 +416,8 @@ class Graph_constructor(object):
         if bond_type is not None:
             bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2)
             if bond_strength is not None:
-                bond_strength *= self.k_factor / 6.022
+                # bond_strength *= self.k_factor / 6.022
+                bond_strength /= 4.184
                 bond_strength *= self._morse_potential(atom1, atom2) if self.use_morse else 1
                 self.bonds.append(
                     bagpype.molecules.Bond([], atom1, atom2, bond_strength, bond_type)
@@ -484,7 +486,8 @@ class Graph_constructor(object):
                             atom1, atom2, print_warnings=True
                         )
                         if bond_strength is not None:
-                            bond_strength *= self.k_factor / 6.022
+                            # bond_strength *= self.k_factor / 6.022
+                            bond_strength /= 4.184
                             bond_strength *= (
                                 self._morse_potential(atom1, atom2) if self.use_morse else 1
                             )
@@ -575,7 +578,8 @@ class Graph_constructor(object):
                             ):
                                 atom1, atom2 = hydrogen, acceptor
 
-                                bond_strength *= -self.k_factor * 4.184 / 6.022
+                                # bond_strength *= -self.k_factor * 4.184 / 6.022
+                                bond_strength *= -1
                                 total_hydrogen_energy += -bond_strength
 
                                 self.bonds.append(
@@ -1366,7 +1370,8 @@ class Graph_constructor(object):
         for bond in matches:
             atom1, atom2 = self.protein.atoms[bond[0]], self.protein.atoms[bond[1]]
             bond_strength = hphobic_graph[bond[0]][bond[1]]["energy"]
-            bond_strength *= -self.k_factor * 4.184 / 6.022
+            # bond_strength *= -self.k_factor * 4.184 / 6.022
+            bond_strength *= -1
             self.bonds.append(
                 bagpype.molecules.Bond([], atom1, atom2, bond_strength, "HYDROPHOBIC")
             )
@@ -1630,7 +1635,7 @@ class Graph_constructor(object):
 
         # Parameters for DNA stacking
         energy_threshold = (
-            0.0019872041 * 300 * (self.k_factor * 4.184 / 6.022)
+            0.0019872041 * 300 # * (self.k_factor * 4.184 / 6.022)
         )  # Energy of thermal fluctuations at temperature 300 K
         A = 0.214
         C = 4.7e4
@@ -1778,7 +1783,8 @@ class Graph_constructor(object):
                         / (2.0 * np.sqrt(R1 * R2))
                     )
                     vdw += (
-                        (-self.k_factor * 4.184 / 6.022)
+                        # (-self.k_factor * 4.184 / 6.022)
+                        -1
                         * K1
                         * K2
                         * (C * np.exp(-alpha * z) - A / z ** 6.0)
@@ -1802,13 +1808,14 @@ class Graph_constructor(object):
                     for m in range(3):
                         for n in range(3):
                             electro += (
-                                (-self.k_factor * 4.184 / 6.022)
+                                # (-self.k_factor * 4.184 / 6.022)
+                                -1
                                 * (332 / epsilon)
                                 * q1[m]
                                 * q2[n]
                                 / (np.linalg.norm(c1[m] - c2[n]))
                             )
-
+                            
             sum_vdw_electro[(base_key1, base_key2)] = vdw + electro
 
         # sum both energies and only keep those that surpass the threshold
@@ -1885,7 +1892,8 @@ class Graph_constructor(object):
                         self.protein.atoms[atom1_id].xyz - self.protein.atoms[atom2_id].xyz
                     )
                     energy = abs(
-                        (-self.k_factor * 4.184 / 6.022)
+                        # (-self.k_factor * 4.184 / 6.022)
+                        -1
                         * (332 / epsilon)
                         * (delta ** 2)
                         / rij
@@ -1951,7 +1959,8 @@ class Graph_constructor(object):
 
                         # Calculate bond strength using Coulomb's law
                         bond_strength = (332 * charge1 * charge2) / (epsilon * bond_length)
-                        bond_strength *= -self.k_factor * 4.184 / 6.022
+                        # bond_strength *= -self.k_factor * 4.184 / 6.022
+                        bond_strength *= -1
                         if bond_strength > 0:
                             bond = bagpype.molecules.Bond(
                                 [], atom1, atom2, bond_strength, "ELECTROSTATIC"
