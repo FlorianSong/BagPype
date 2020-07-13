@@ -301,7 +301,7 @@ class Bond(object):
         self.id = id
         self.atom1 = atom1
         self.atom2 = atom2
-        self.weight = weight#round(weight, 10)
+        self.weight = round(weight, 12)
         if isinstance(types, list):
             self.bond_type = types
         else:
