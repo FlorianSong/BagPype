@@ -1,3 +1,6 @@
+# Capping parameter - number of decimals to cap to
+capping_decimals = 10
+
 import bagpype.molecules
 import bagpype.parameters
 

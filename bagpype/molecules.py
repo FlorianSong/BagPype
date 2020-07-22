@@ -1,5 +1,6 @@
 import numpy as np
 import warnings
+from bagpype.settings import capping_decimals
 
 ##################################
 #                                #
@@ -301,7 +302,7 @@ class Bond(object):
         self.id = id
         self.atom1 = atom1
         self.atom2 = atom2
-        self.weight = round(weight, 12)
+        self.weight = round(weight, capping_decimals)
         if isinstance(types, list):
             self.bond_type = types
         else:

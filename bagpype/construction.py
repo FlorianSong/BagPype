@@ -3,6 +3,7 @@ import bagpype.parameters
 import bagpype.molecules
 import bagpype.covalent
 from bagpype.errors import GraphConstructionError, MissingEnergyError, UnusualHydrogenError
+from bagpype.settings import capping_decimals
 import scipy
 import numpy as np
 import time
@@ -1990,7 +1991,7 @@ def in_same_residue(atom1, atom2):
 
 
 def distance_between_two_atoms(atom1, atom2):
-    return np.round(np.asscalar(np.linalg.norm(atom1.xyz - atom2.xyz)), 12)
+    return np.round(np.asscalar(np.linalg.norm(atom1.xyz - atom2.xyz)), capping_decimals)
 
 
 def equilibrium_distance(atom1, atom2):
