@@ -2,14 +2,14 @@ data_DAN
 # 
 _chem_comp.id                                    DAN 
 _chem_comp.name                                  "2-DEOXY-2,3-DEHYDRO-N-ACETYL-NEURAMINIC ACID" 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.type                                  D-saccharide 
+_chem_comp.pdbx_type                             ATOMS 
 _chem_comp.formula                               "C11 H17 N O8" 
 _chem_comp.mon_nstd_parent_comp_id               ? 
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     1999-07-08 
-_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_modified_date                    2020-04-11 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -76,7 +76,7 @@ DAN H111 1H11 H 0 0 N N N 42.605 50.399 54.466 3.299  -0.172 -4.553 H111 DAN 29
 DAN H112 2H11 H 0 0 N N N 41.317 49.647 53.418 2.868  1.470  -4.022 H112 DAN 30 
 DAN H113 3H11 H 0 0 N N N 42.878 48.935 53.415 3.863  0.429  -2.976 H113 DAN 31 
 DAN HN5  HN5  H 0 1 N N N 42.196 49.241 51.109 1.726  1.303  -1.587 HN5  DAN 32 
-DAN HOB1 1HOB H 0 0 N N N 44.412 52.045 44.329 -4.076 -0.703 2.868  HOB1 DAN 33 
+DAN HO1B 1HOB H 0 0 N N N 44.412 52.045 44.329 -4.076 -0.703 2.868  HOB1 DAN 33 
 DAN HO4  HO4  H 0 1 N N N 40.194 50.414 50.364 -2.241 0.542  -3.534 HO4  DAN 34 
 DAN HO7  HO7  H 0 1 N N N 45.814 52.624 50.775 0.799  -1.973 1.056  HO7  DAN 35 
 DAN HO8  HO8  H 0 1 N N N 47.304 49.212 48.165 2.031  2.000  2.032  HO8  DAN 36 
@@ -122,7 +122,7 @@ DAN C11 H111 SING N N 29
 DAN C11 H112 SING N N 30 
 DAN C11 H113 SING N N 31 
 DAN N5  HN5  SING N N 32 
-DAN O1B HOB1 SING N N 33 
+DAN O1B HO1B SING N N 33 
 DAN O4  HO4  SING N N 34 
 DAN O7  HO7  SING N N 35 
 DAN O8  HO8  SING N N 36 
@@ -158,4 +158,5 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site 
 DAN "Create component"  1999-07-08 RCSB 
 DAN "Modify descriptor" 2011-06-04 RCSB 
+DAN "Modify atom id"    2020-04-11 RCSB 
 # 
