@@ -1,156 +1,226 @@
 data_JFZ
-# 
-_chem_comp.id                                    JFZ 
-_chem_comp.name                                  4-nitrophenyl-alpha-L-fucose 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C12 H15 N O7" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2019-02-19 
-_chem_comp.pdbx_modified_date                    2019-02-22 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        285.250 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     JFZ 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        2WVU 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   JFZ
+_chem_comp.name                                 "4-nitrophenyl 6-deoxy-alpha-L-galactopyranoside"
+_chem_comp.type                                 L-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C12 H15 N O7"
+_chem_comp.mon_nstd_parent_comp_id              FUC
+_chem_comp.pdbx_synonyms                        
+;4-nitrophenyl-alpha-L-fucose; 4-nitrophenyl 6-deoxy-alpha-L-galactoside; 4-nitrophenyl 6-deoxy-L-galactoside;
+4-nitrophenyl 6-deoxy-galactoside
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2019-02-19
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       285.250
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    JFZ
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       2WVU
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-JFZ C1    C1  C 0  1 N N S 17.944 -54.251 -39.976 1.319  0.451  -0.878 C1    JFZ 1  
-JFZ C2    C2  C 0  1 N N S 18.937 -54.474 -38.816 2.746  0.991  -0.748 C2    JFZ 2  
-JFZ O2    O1  O 0  1 N N N 19.537 -55.751 -38.879 2.725  2.418  -0.828 O2    JFZ 3  
-JFZ C3    C3  C 0  1 N N R 19.998 -53.349 -38.776 3.325  0.563  0.604  C3    JFZ 4  
-JFZ O3    O2  O 0  1 N N N 21.107 -53.568 -38.297 4.681  1.000  0.704  O3    JFZ 5  
-JFZ C4    C4  C 0  1 N N S 19.534 -51.907 -38.975 3.270  -0.964 0.710  C4    JFZ 6  
-JFZ O4    O3  O 0  1 N N N 19.034 -51.554 -37.677 4.092  -1.543 -0.306 O4    JFZ 7  
-JFZ C5    C5  C 0  1 N N S 18.393 -51.812 -40.020 1.823  -1.429 0.524  C5    JFZ 8  
-JFZ C6    C6  C 0  1 N N N 17.619 -50.485 -39.964 1.769  -2.958 0.568  C6    JFZ 9  
-JFZ O5    O4  O 0  1 N N N 17.393 -52.898 -39.865 1.336  -0.971 -0.739 O5    JFZ 10 
-JFZ "O1'" O5  O 0  1 N N N 18.592 -54.527 -41.267 0.499  1.020  0.145  "O1'" JFZ 11 
-JFZ "C1'" C7  C 0  1 Y N N 17.815 -54.591 -42.400 -0.826 0.723  0.109  "C1'" JFZ 12 
-JFZ "C2'" C8  C 0  1 Y N N 18.429 -54.301 -43.624 -1.327 -0.104 -0.887 "C2'" JFZ 13 
-JFZ "C3'" C9  C 0  1 Y N N 17.695 -54.358 -44.807 -2.674 -0.409 -0.918 "C3'" JFZ 14 
-JFZ "C4'" C10 C 0  1 Y N N 16.344 -54.713 -44.769 -3.523 0.109  0.042  "C4'" JFZ 15 
-JFZ "C5'" C11 C 0  1 Y N N 15.728 -55.014 -43.547 -3.027 0.933  1.035  "C5'" JFZ 16 
-JFZ "C6'" C12 C 0  1 Y N N 16.461 -54.956 -42.362 -1.681 1.241  1.071  "C6'" JFZ 17 
-JFZ "N1'" N1  N 1  1 N N N 15.636 -54.767 -45.901 -4.966 -0.219 0.007  "N1'" JFZ 18 
-JFZ "O2'" O6  O 0  1 N N N 14.540 -55.665 -45.998 -5.404 -0.945 -0.868 "O2'" JFZ 19 
-JFZ "O3'" O7  O -1 1 N N N 15.955 -53.917 -47.016 -5.715 0.236  0.852  "O3'" JFZ 20 
-JFZ H1    H1  H 0  1 N N N 17.121 -54.969 -39.845 0.918  0.716  -1.856 H1    JFZ 21 
-JFZ H2    H2  H 0  1 N N N 18.360 -54.403 -37.882 3.362  0.589  -1.552 H2    JFZ 22 
-JFZ H3    H3  H 0  1 N N N 20.140 -55.854 -38.152 2.365  2.760  -1.658 H3    JFZ 23 
-JFZ H4    H4  H 0  1 N N N 20.378 -51.269 -39.276 3.630  -1.275 1.691  H4    JFZ 24 
-JFZ H5    H5  H 0  1 N N N 19.736 -51.613 -37.040 4.104  -2.510 -0.298 H5    JFZ 25 
-JFZ H6    H6  H 0  1 N N N 18.847 -51.895 -41.019 1.204  -1.020 1.322  H6    JFZ 26 
-JFZ H7    H7  H 0  1 N N N 18.321 -49.645 -40.075 2.388  -3.367 -0.230 H7    JFZ 27 
-JFZ H8    H8  H 0  1 N N N 16.881 -50.456 -40.779 2.140  -3.307 1.531  H8    JFZ 28 
-JFZ H9    H9  H 0  1 N N N 17.100 -50.404 -38.997 0.739  -3.289 0.434  H9    JFZ 29 
-JFZ H10   H10 H 0  1 N N N 19.475 -54.032 -43.652 -0.664 -0.508 -1.637 H10   JFZ 30 
-JFZ H11   H11 H 0  1 N N N 18.169 -54.129 -45.750 -3.064 -1.052 -1.693 H11   JFZ 31 
-JFZ H12   H12 H 0  1 N N N 14.684 -55.291 -43.523 -3.693 1.337  1.784  H12   JFZ 32 
-JFZ H13   H13 H 0  1 N N N 15.989 -55.191 -41.420 -1.293 1.881  1.849  H13   JFZ 33 
-JFZ H14   H14 H 0  1 N N N 20.305 -53.485 -39.823 2.738  1.007  1.409  H14   JFZ 34 
-JFZ H15   H15 H 0  1 N N N 21.247 -54.506 -38.237 4.791  1.959  0.638  H15   JFZ 35 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  JFZ  4-nitrophenyl-alpha-L-fucose                 PDB  ?  
+2  JFZ  "4-nitrophenyl 6-deoxy-alpha-L-galactoside"  PDB  ?  
+3  JFZ  "4-nitrophenyl 6-deoxy-L-galactoside"        PDB  ?  
+4  JFZ  "4-nitrophenyl 6-deoxy-galactoside"          PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-JFZ "O3'" "N1'" SING N N 1  
-JFZ "O2'" "N1'" DOUB N N 2  
-JFZ "N1'" "C4'" SING N N 3  
-JFZ "C3'" "C4'" DOUB Y N 4  
-JFZ "C3'" "C2'" SING Y N 5  
-JFZ "C4'" "C5'" SING Y N 6  
-JFZ "C2'" "C1'" DOUB Y N 7  
-JFZ "C5'" "C6'" DOUB Y N 8  
-JFZ "C1'" "C6'" SING Y N 9  
-JFZ "C1'" "O1'" SING N N 10 
-JFZ "O1'" C1    SING N N 11 
-JFZ C5    C6    SING N N 12 
-JFZ C5    O5    SING N N 13 
-JFZ C5    C4    SING N N 14 
-JFZ C1    O5    SING N N 15 
-JFZ C1    C2    SING N N 16 
-JFZ C4    C3    SING N N 17 
-JFZ C4    O4    SING N N 18 
-JFZ O2    C2    SING N N 19 
-JFZ C2    C3    SING N N 20 
-JFZ C3    O3    SING N N 21 
-JFZ C1    H1    SING N N 22 
-JFZ C2    H2    SING N N 23 
-JFZ O2    H3    SING N N 24 
-JFZ C4    H4    SING N N 25 
-JFZ O4    H5    SING N N 26 
-JFZ C5    H6    SING N N 27 
-JFZ C6    H7    SING N N 28 
-JFZ C6    H8    SING N N 29 
-JFZ C6    H9    SING N N 30 
-JFZ "C2'" H10   SING N N 31 
-JFZ "C3'" H11   SING N N 32 
-JFZ "C5'" H12   SING N N 33 
-JFZ "C6'" H13   SING N N 34 
-JFZ C3    H14   SING N N 35 
-JFZ O3    H15   SING N N 36 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+JFZ  C1     C1     C   0  1  N  N  S  17.944  -54.251  -39.976   1.319   0.451  -0.878  C1     JFZ   1  
+JFZ  C2     C2     C   0  1  N  N  S  18.937  -54.474  -38.816   2.746   0.991  -0.748  C2     JFZ   2  
+JFZ  O2     O2     O   0  1  N  N  N  19.537  -55.751  -38.879   2.725   2.418  -0.828  O2     JFZ   3  
+JFZ  C3     C3     C   0  1  N  N  R  19.998  -53.349  -38.776   3.325   0.563   0.604  C3     JFZ   4  
+JFZ  O3     O3     O   0  1  N  N  N  21.107  -53.568  -38.297   4.681   1.000   0.704  O3     JFZ   5  
+JFZ  C4     C4     C   0  1  N  N  S  19.534  -51.907  -38.975   3.270  -0.964   0.710  C4     JFZ   6  
+JFZ  O4     O4     O   0  1  N  N  N  19.034  -51.554  -37.677   4.092  -1.543  -0.306  O4     JFZ   7  
+JFZ  C5     C5     C   0  1  N  N  S  18.393  -51.812  -40.020   1.823  -1.429   0.524  C5     JFZ   8  
+JFZ  C6     C6     C   0  1  N  N  N  17.619  -50.485  -39.964   1.769  -2.958   0.568  C6     JFZ   9  
+JFZ  O5     O5     O   0  1  N  N  N  17.393  -52.898  -39.865   1.336  -0.971  -0.739  O5     JFZ  10  
+JFZ  O1     "O1'"  O   0  1  N  N  N  18.592  -54.527  -41.267   0.499   1.020   0.145  O1     JFZ  11  
+JFZ  "C1'"  "C1'"  C   0  1  Y  N  N  17.815  -54.591  -42.400  -0.826   0.723   0.109  "C1'"  JFZ  12  
+JFZ  "C2'"  "C2'"  C   0  1  Y  N  N  18.429  -54.301  -43.624  -1.327  -0.104  -0.887  "C2'"  JFZ  13  
+JFZ  "C3'"  "C3'"  C   0  1  Y  N  N  17.695  -54.358  -44.807  -2.674  -0.409  -0.918  "C3'"  JFZ  14  
+JFZ  "C4'"  "C4'"  C   0  1  Y  N  N  16.344  -54.713  -44.769  -3.523   0.109   0.042  "C4'"  JFZ  15  
+JFZ  "C5'"  "C5'"  C   0  1  Y  N  N  15.728  -55.014  -43.547  -3.027   0.933   1.035  "C5'"  JFZ  16  
+JFZ  "C6'"  "C6'"  C   0  1  Y  N  N  16.461  -54.956  -42.362  -1.681   1.241   1.071  "C6'"  JFZ  17  
+JFZ  "N1'"  "N1'"  N   1  1  N  N  N  15.636  -54.767  -45.901  -4.966  -0.219   0.007  "N1'"  JFZ  18  
+JFZ  "O2'"  "O2'"  O   0  1  N  N  N  14.540  -55.665  -45.998  -5.404  -0.945  -0.868  "O2'"  JFZ  19  
+JFZ  "O3'"  "O3'"  O  -1  1  N  N  N  15.955  -53.917  -47.016  -5.715   0.236   0.852  "O3'"  JFZ  20  
+JFZ  H1     H1     H   0  1  N  N  N  17.121  -54.969  -39.845   0.918   0.716  -1.856  H1     JFZ  21  
+JFZ  H2     H2     H   0  1  N  N  N  18.360  -54.403  -37.882   3.362   0.589  -1.552  H2     JFZ  22  
+JFZ  HO2    H3     H   0  1  N  Y  N  20.140  -55.854  -38.152   2.365   2.760  -1.658  HO2    JFZ  23  
+JFZ  H4     H4     H   0  1  N  N  N  20.378  -51.269  -39.276   3.630  -1.275   1.691  H4     JFZ  24  
+JFZ  HO4    H5     H   0  1  N  Y  N  19.736  -51.613  -37.040   4.104  -2.510  -0.298  HO4    JFZ  25  
+JFZ  H5     H6     H   0  1  N  N  N  18.847  -51.895  -41.019   1.204  -1.020   1.322  H5     JFZ  26  
+JFZ  H61    H7     H   0  1  N  N  N  18.321  -49.645  -40.075   2.388  -3.367  -0.230  H61    JFZ  27  
+JFZ  H62    H8     H   0  1  N  N  N  16.881  -50.456  -40.779   2.140  -3.307   1.531  H62    JFZ  28  
+JFZ  H63    H9     H   0  1  N  N  N  17.100  -50.404  -38.997   0.739  -3.289   0.434  H63    JFZ  29  
+JFZ  H10    H10    H   0  1  N  N  N  19.475  -54.032  -43.652  -0.664  -0.508  -1.637  H10    JFZ  30  
+JFZ  H11    H11    H   0  1  N  N  N  18.169  -54.129  -45.750  -3.064  -1.052  -1.693  H11    JFZ  31  
+JFZ  H12    H12    H   0  1  N  N  N  14.684  -55.291  -43.523  -3.693   1.337   1.784  H12    JFZ  32  
+JFZ  H13    H13    H   0  1  N  N  N  15.989  -55.191  -41.420  -1.293   1.881   1.849  H13    JFZ  33  
+JFZ  H3     H14    H   0  1  N  N  N  20.305  -53.485  -39.823   2.738   1.007   1.409  H3     JFZ  34  
+JFZ  HO3    H15    H   0  1  N  Y  N  21.247  -54.506  -38.237   4.791   1.959   0.638  HO3    JFZ  35  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-JFZ InChI            InChI                1.03  "InChI=1S/C12H15NO7/c1-6-9(14)10(15)11(16)12(19-6)20-8-4-2-7(3-5-8)13(17)18/h2-6,9-12,14-16H,1H3/t6-,9+,10+,11-,12-/m0/s1" 
-JFZ InChIKey         InChI                1.03  YILIDCGSXCGACV-SQKFTNEHSA-N                                                                                                
-JFZ SMILES_CANONICAL CACTVS               3.385 "C[C@@H]1O[C@@H](Oc2ccc(cc2)[N+]([O-])=O)[C@@H](O)[C@H](O)[C@@H]1O"                                                        
-JFZ SMILES           CACTVS               3.385 "C[CH]1O[CH](Oc2ccc(cc2)[N+]([O-])=O)[CH](O)[CH](O)[CH]1O"                                                                 
-JFZ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)Oc2ccc(cc2)[N+](=O)[O-])O)O)O"                                                        
-JFZ SMILES           "OpenEye OEToolkits" 2.0.7 "CC1C(C(C(C(O1)Oc2ccc(cc2)[N+](=O)[O-])O)O)O"                                                                              
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+JFZ  "O3'"  "N1'"  SING  N  N   1  
+JFZ  "O2'"  "N1'"  DOUB  N  N   2  
+JFZ  "N1'"  "C4'"  SING  N  N   3  
+JFZ  "C3'"  "C4'"  DOUB  Y  N   4  
+JFZ  "C3'"  "C2'"  SING  Y  N   5  
+JFZ  "C4'"  "C5'"  SING  Y  N   6  
+JFZ  "C2'"  "C1'"  DOUB  Y  N   7  
+JFZ  "C5'"  "C6'"  DOUB  Y  N   8  
+JFZ  "C1'"  "C6'"  SING  Y  N   9  
+JFZ  "C1'"  O1     SING  N  N  10  
+JFZ  O1     C1     SING  N  N  11  
+JFZ  C5     C6     SING  N  N  12  
+JFZ  C5     O5     SING  N  N  13  
+JFZ  C5     C4     SING  N  N  14  
+JFZ  C1     O5     SING  N  N  15  
+JFZ  C1     C2     SING  N  N  16  
+JFZ  C4     C3     SING  N  N  17  
+JFZ  C4     O4     SING  N  N  18  
+JFZ  O2     C2     SING  N  N  19  
+JFZ  C2     C3     SING  N  N  20  
+JFZ  C3     O3     SING  N  N  21  
+JFZ  C1     H1     SING  N  N  22  
+JFZ  C2     H2     SING  N  N  23  
+JFZ  O2     HO2    SING  N  N  24  
+JFZ  C4     H4     SING  N  N  25  
+JFZ  O4     HO4    SING  N  N  26  
+JFZ  C5     H5     SING  N  N  27  
+JFZ  C6     H61    SING  N  N  28  
+JFZ  C6     H62    SING  N  N  29  
+JFZ  C6     H63    SING  N  N  30  
+JFZ  "C2'"  H10    SING  N  N  31  
+JFZ  "C3'"  H11    SING  N  N  32  
+JFZ  "C5'"  H12    SING  N  N  33  
+JFZ  "C6'"  H13    SING  N  N  34  
+JFZ  C3     H3     SING  N  N  35  
+JFZ  O3     HO3    SING  N  N  36  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-JFZ "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(2~{S},3~{S},4~{R},5~{S},6~{S})-2-methyl-6-(4-nitrophenoxy)oxane-3,4,5-triol" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+JFZ  InChI             InChI                 1.03   "InChI=1S/C12H15NO7/c1-6-9(14)10(15)11(16)12(19-6)20-8-4-2-7(3-5-8)13(17)18/h2-6,9-12,14-16H,1H3/t6-,9+,10+,11-,12-/m0/s1"  
+JFZ  InChIKey          InChI                 1.03   YILIDCGSXCGACV-SQKFTNEHSA-N  
+JFZ  SMILES_CANONICAL  CACTVS                3.385  "C[C@@H]1O[C@@H](Oc2ccc(cc2)[N+]([O-])=O)[C@@H](O)[C@H](O)[C@@H]1O"  
+JFZ  SMILES            CACTVS                3.385  "C[CH]1O[CH](Oc2ccc(cc2)[N+]([O-])=O)[CH](O)[CH](O)[CH]1O"  
+JFZ  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)Oc2ccc(cc2)[N+](=O)[O-])O)O)O"  
+JFZ  SMILES            "OpenEye OEToolkits"  2.0.7  "CC1C(C(C(C(O1)Oc2ccc(cc2)[N+](=O)[O-])O)O)O"  
+#
+_pdbx_chem_comp_identifier.comp_id          JFZ
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "(2~{S},3~{S},4~{R},5~{S},6~{S})-2-methyl-6-(4-nitrophenoxy)oxane-3,4,5-triol"
+#
+_pdbx_chem_comp_related.comp_id            JFZ
+_pdbx_chem_comp_related.related_comp_id    FUC
+_pdbx_chem_comp_related.relationship_type  "Carbohydrate core"
+_pdbx_chem_comp_related.details            ?
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-JFZ "Create component" 2019-02-19 EBI  
-JFZ "Initial release"  2019-02-27 RCSB 
-# 
+_pdbx_chem_comp_atom_related.ordinal
+_pdbx_chem_comp_atom_related.comp_id
+_pdbx_chem_comp_atom_related.atom_id
+_pdbx_chem_comp_atom_related.related_comp_id
+_pdbx_chem_comp_atom_related.related_atom_id
+_pdbx_chem_comp_atom_related.related_type
+ 1  JFZ  C1   FUC  C1   "Carbohydrate core"  
+ 2  JFZ  C2   FUC  C2   "Carbohydrate core"  
+ 3  JFZ  C3   FUC  C3   "Carbohydrate core"  
+ 4  JFZ  C4   FUC  C4   "Carbohydrate core"  
+ 5  JFZ  C5   FUC  C5   "Carbohydrate core"  
+ 6  JFZ  C6   FUC  C6   "Carbohydrate core"  
+ 7  JFZ  O1   FUC  O1   "Carbohydrate core"  
+ 8  JFZ  O2   FUC  O2   "Carbohydrate core"  
+ 9  JFZ  O3   FUC  O3   "Carbohydrate core"  
+10  JFZ  O4   FUC  O4   "Carbohydrate core"  
+11  JFZ  O5   FUC  O5   "Carbohydrate core"  
+12  JFZ  H1   FUC  H1   "Carbohydrate core"  
+13  JFZ  H3   FUC  H3   "Carbohydrate core"  
+14  JFZ  HO3  FUC  HO3  "Carbohydrate core"  
+15  JFZ  H2   FUC  H2   "Carbohydrate core"  
+16  JFZ  HO2  FUC  HO2  "Carbohydrate core"  
+17  JFZ  H4   FUC  H4   "Carbohydrate core"  
+18  JFZ  HO4  FUC  HO4  "Carbohydrate core"  
+19  JFZ  H5   FUC  H5   "Carbohydrate core"  
+20  JFZ  H61  FUC  H61  "Carbohydrate core"  
+21  JFZ  H62  FUC  H62  "Carbohydrate core"  
+22  JFZ  H63  FUC  H63  "Carbohydrate core"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+JFZ  "CARBOHYDRATE ISOMER"                  L         PDB  ?  
+JFZ  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+JFZ  "CARBOHYDRATE ANOMER"                  alpha     PDB  ?  
+JFZ  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+JFZ  "Create component"          2019-02-19  EBI   
+JFZ  "Initial release"           2019-02-27  RCSB  
+JFZ  "Other modification"        2020-07-03  RCSB  
+JFZ  "Modify parent residue"     2020-07-17  RCSB  
+JFZ  "Modify name"               2020-07-17  RCSB  
+JFZ  "Modify synonyms"           2020-07-17  RCSB  
+JFZ  "Modify internal type"      2020-07-17  RCSB  
+JFZ  "Modify linking type"       2020-07-17  RCSB  
+JFZ  "Modify atom id"            2020-07-17  RCSB  
+JFZ  "Modify component atom id"  2020-07-17  RCSB  
+JFZ  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

@@ -1,143 +1,177 @@
 data_Z4S
-# 
-_chem_comp.id                                    Z4S 
-_chem_comp.name                                  "N-[(1R,2S,3R,4R,5R)-2,3-bis(oxidanyl)-6,8-dioxabicyclo[3.2.1]octan-4-yl]ethanamide" 
-_chem_comp.type                                  SACCHARIDE 
-_chem_comp.pdbx_type                             ATOMS 
-_chem_comp.formula                               "C8 H13 N O5" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2012-12-18 
-_chem_comp.pdbx_modified_date                    2018-03-09 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        203.193 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     Z4S 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        2F2L 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  RCSB 
-# 
+#
+
+_chem_comp.id                                   Z4S
+_chem_comp.name                                 "1,6-anhydro-N-acetyl-beta-D-glucopyranosamine"
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C8 H13 N O5"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        
+;N-[(1R,2S,3R,4R,5R)-2,3-bis(oxidanyl)-6,8-dioxabicyclo[3.2.1]octan-4-yl]ethanamide;
+1,6-anhydro-N-acetyl-beta-D-glucosamine; 1,6-anhydro-N-acetyl-D-glucosamine; 1,6-anhydro-N-acetyl-glucosamine
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2012-12-18
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       203.193
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    Z4S
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       2F2L
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-Z4S O4   O4   O 0 1 N N N 31.274 16.009 12.504 -0.344 2.333  0.076  O4   Z4S 1  
-Z4S C4   C4   C 0 1 N N S 30.743 14.880 13.238 -1.338 1.370  -0.282 C4   Z4S 2  
-Z4S C5   C5   C 0 1 N N R 30.279 13.687 12.402 -1.791 0.607  0.973  C5   Z4S 3  
-Z4S O5   O5   O 0 1 N N N 28.856 13.363 12.557 -0.603 0.050  1.588  O5   Z4S 4  
-Z4S C6   C6   C 0 1 N N N 30.916 12.560 13.139 -2.553 -0.656 0.506  C6   Z4S 5  
-Z4S O6   O6   O 0 1 N N N 30.035 12.314 14.217 -1.544 -1.676 0.390  O6   Z4S 6  
-Z4S C1   C1   C 0 1 N N R 28.808 13.060 13.961 -0.285 -1.060 0.719  C1   Z4S 7  
-Z4S C2   C2   C 0 1 N N R 28.863 14.359 14.781 0.318  -0.481 -0.570 C2   Z4S 8  
-Z4S N2   N2   N 0 1 N N N 27.489 14.808 15.093 1.472  0.359  -0.238 N2   Z4S 9  
-Z4S C7   C7   C 0 1 N N N 27.070 15.029 16.326 2.687  -0.200 -0.076 C7   Z4S 10 
-Z4S C8   C8   C 0 1 N N N 25.623 15.468 16.426 3.874  0.663  0.265  C8   Z4S 11 
-Z4S O7   O7   O 0 1 N N N 27.774 14.915 17.330 2.826  -1.398 -0.205 O7   Z4S 12 
-Z4S C3   C3   C 0 1 N N R 29.573 15.470 14.010 -0.746 0.366  -1.277 C3   Z4S 13 
-Z4S O3   O3   O 0 1 N N N 30.096 16.514 14.904 -1.784 -0.486 -1.769 O3   Z4S 14 
-Z4S H3O  H3O  H 0 1 N Y N 29.380 16.897 15.397 -2.494 -0.016 -2.226 H3O  Z4S 15 
-Z4S H41  H41  H 0 1 N N N 31.494 14.526 13.960 -2.192 1.876  -0.732 H41  Z4S 16 
-Z4S H51  H51  H 0 1 N N N 30.602 13.756 11.353 -2.368 1.230  1.657  H51  Z4S 17 
-Z4S H61  H61  H 0 1 N N N 31.004 11.672 12.496 -3.299 -0.944 1.245  H61  Z4S 18 
-Z4S H62  H62  H 0 1 N N N 31.912 12.847 13.506 -3.024 -0.479 -0.461 H62  Z4S 19 
-Z4S H11  H11  H 0 1 N N N 27.915 12.475 14.226 0.388  -1.766 1.205  H11  Z4S 20 
-Z4S H21  H21  H 0 1 N N N 29.410 14.166 15.716 0.634  -1.294 -1.223 H21  Z4S 21 
-Z4S H21N H21N H 0 0 N N N 26.849 14.950 14.338 1.361  1.317  -0.136 H21N Z4S 22 
-Z4S H81  H81  H 0 1 N N N 25.365 15.644 17.481 3.558  1.704  0.339  H81  Z4S 23 
-Z4S H82  H82  H 0 1 N N N 25.481 16.397 15.854 4.295  0.343  1.219  H82  Z4S 24 
-Z4S H83  H83  H 0 1 N N N 24.972 14.682 16.016 4.629  0.567  -0.515 H83  Z4S 25 
-Z4S H31  H31  H 0 1 N N N 28.864 15.916 13.297 -0.291 0.903  -2.109 H31  Z4S 26 
-Z4S H4O  H4O  H 0 1 N N N 31.531 16.691 13.113 -0.647 2.992  0.715  H4O  Z4S 27 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  Z4S  "N-[(1R,2S,3R,4R,5R)-2,3-bis(oxidanyl)-6,8-dioxabicyclo[3.2.1]octan-4-yl]ethanamide"  PDB  ?  
+2  Z4S  "1,6-anhydro-N-acetyl-beta-D-glucosamine"                                             PDB  ?  
+3  Z4S  "1,6-anhydro-N-acetyl-D-glucosamine"                                                  PDB  ?  
+4  Z4S  "1,6-anhydro-N-acetyl-glucosamine"                                                    PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-Z4S O4  C4   SING N N 1  
-Z4S C4  C5   SING N N 2  
-Z4S C4  C3   SING N N 3  
-Z4S C4  H41  SING N N 4  
-Z4S C5  O5   SING N N 5  
-Z4S C5  C6   SING N N 6  
-Z4S C5  H51  SING N N 7  
-Z4S O5  C1   SING N N 8  
-Z4S C6  O6   SING N N 9  
-Z4S C6  H61  SING N N 10 
-Z4S C6  H62  SING N N 11 
-Z4S O6  C1   SING N N 12 
-Z4S C1  C2   SING N N 13 
-Z4S C1  H11  SING N N 14 
-Z4S C2  N2   SING N N 15 
-Z4S C2  C3   SING N N 16 
-Z4S C2  H21  SING N N 17 
-Z4S N2  C7   SING N N 18 
-Z4S N2  H21N SING N N 19 
-Z4S C7  C8   SING N N 20 
-Z4S C7  O7   DOUB N N 21 
-Z4S C8  H81  SING N N 22 
-Z4S C8  H82  SING N N 23 
-Z4S C8  H83  SING N N 24 
-Z4S C3  O3   SING N N 25 
-Z4S C3  H31  SING N N 26 
-Z4S H3O O3   SING N N 27 
-Z4S O4  H4O  SING N N 28 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+Z4S  O4   O4    O  0  1  N  N  N  31.274  16.009  12.504  -0.344   2.333   0.076  O4   Z4S   1  
+Z4S  C4   C4    C  0  1  N  N  S  30.743  14.880  13.238  -1.338   1.370  -0.282  C4   Z4S   2  
+Z4S  C5   C5    C  0  1  N  N  R  30.279  13.687  12.402  -1.791   0.607   0.973  C5   Z4S   3  
+Z4S  O5   O5    O  0  1  N  N  N  28.856  13.363  12.557  -0.603   0.050   1.588  O5   Z4S   4  
+Z4S  C6   C6    C  0  1  N  N  N  30.916  12.560  13.139  -2.553  -0.656   0.506  C6   Z4S   5  
+Z4S  O6   O6    O  0  1  N  N  N  30.035  12.314  14.217  -1.544  -1.676   0.390  O6   Z4S   6  
+Z4S  C1   C1    C  0  1  N  N  R  28.808  13.060  13.961  -0.285  -1.060   0.719  C1   Z4S   7  
+Z4S  C2   C2    C  0  1  N  N  R  28.863  14.359  14.781   0.318  -0.481  -0.570  C2   Z4S   8  
+Z4S  N2   N2    N  0  1  N  N  N  27.489  14.808  15.093   1.472   0.359  -0.238  N2   Z4S   9  
+Z4S  C7   C7    C  0  1  N  N  N  27.070  15.029  16.326   2.687  -0.200  -0.076  C7   Z4S  10  
+Z4S  C8   C8    C  0  1  N  N  N  25.623  15.468  16.426   3.874   0.663   0.265  C8   Z4S  11  
+Z4S  O7   O7    O  0  1  N  N  N  27.774  14.915  17.330   2.826  -1.398  -0.205  O7   Z4S  12  
+Z4S  C3   C3    C  0  1  N  N  R  29.573  15.470  14.010  -0.746   0.366  -1.277  C3   Z4S  13  
+Z4S  O3   O3    O  0  1  N  N  N  30.096  16.514  14.904  -1.784  -0.486  -1.769  O3   Z4S  14  
+Z4S  HO3  H3O   H  0  1  N  Y  N  29.380  16.897  15.397  -2.494  -0.016  -2.226  HO3  Z4S  15  
+Z4S  H4   H41   H  0  1  N  N  N  31.494  14.526  13.960  -2.192   1.876  -0.732  H4   Z4S  16  
+Z4S  H5   H51   H  0  1  N  N  N  30.602  13.756  11.353  -2.368   1.230   1.657  H5   Z4S  17  
+Z4S  H61  H61   H  0  1  N  N  N  31.004  11.672  12.496  -3.299  -0.944   1.245  H61  Z4S  18  
+Z4S  H62  H62   H  0  1  N  N  N  31.912  12.847  13.506  -3.024  -0.479  -0.461  H62  Z4S  19  
+Z4S  H1   H11   H  0  1  N  N  N  27.915  12.475  14.226   0.388  -1.766   1.205  H1   Z4S  20  
+Z4S  H2   H21   H  0  1  N  N  N  29.410  14.166  15.716   0.634  -1.294  -1.223  H2   Z4S  21  
+Z4S  HN2  H21N  H  0  1  N  N  N  26.849  14.950  14.338   1.361   1.317  -0.136  HN2  Z4S  22  
+Z4S  H81  H81   H  0  1  N  N  N  25.365  15.644  17.481   3.558   1.704   0.339  H81  Z4S  23  
+Z4S  H82  H82   H  0  1  N  N  N  25.481  16.397  15.854   4.295   0.343   1.219  H82  Z4S  24  
+Z4S  H83  H83   H  0  1  N  N  N  24.972  14.682  16.016   4.629   0.567  -0.515  H83  Z4S  25  
+Z4S  H3   H31   H  0  1  N  N  N  28.864  15.916  13.297  -0.291   0.903  -2.109  H3   Z4S  26  
+Z4S  HO4  H4O   H  0  1  N  N  N  31.531  16.691  13.113  -0.647   2.992   0.715  HO4  Z4S  27  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-Z4S SMILES           ACDLabs              12.01 "O=C(NC2C(O)C(O)C1OC2OC1)C"                                                                                  
-Z4S InChI            InChI                1.03  "InChI=1S/C8H13NO5/c1-3(10)9-5-7(12)6(11)4-2-13-8(5)14-4/h4-8,11-12H,2H2,1H3,(H,9,10)/t4-,5-,6-,7-,8-/m1/s1" 
-Z4S InChIKey         InChI                1.03  PJFUEEUSPVNDFW-FMDGEEDCSA-N                                                                                  
-Z4S SMILES_CANONICAL CACTVS               3.370 "CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@H]2CO[C@@H]1O2"                                                           
-Z4S SMILES           CACTVS               3.370 "CC(=O)N[CH]1[CH](O)[CH](O)[CH]2CO[CH]1O2"                                                                   
-Z4S SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H]2CO[C@@H]1O2)O)O"                                                           
-Z4S SMILES           "OpenEye OEToolkits" 1.7.6 "CC(=O)NC1C(C(C2COC1O2)O)O"                                                                                  
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+Z4S  O4   C4   SING  N  N   1  
+Z4S  C4   C5   SING  N  N   2  
+Z4S  C4   C3   SING  N  N   3  
+Z4S  C4   H4   SING  N  N   4  
+Z4S  C5   O5   SING  N  N   5  
+Z4S  C5   C6   SING  N  N   6  
+Z4S  C5   H5   SING  N  N   7  
+Z4S  O5   C1   SING  N  N   8  
+Z4S  C6   O6   SING  N  N   9  
+Z4S  C6   H61  SING  N  N  10  
+Z4S  C6   H62  SING  N  N  11  
+Z4S  O6   C1   SING  N  N  12  
+Z4S  C1   C2   SING  N  N  13  
+Z4S  C1   H1   SING  N  N  14  
+Z4S  C2   N2   SING  N  N  15  
+Z4S  C2   C3   SING  N  N  16  
+Z4S  C2   H2   SING  N  N  17  
+Z4S  N2   C7   SING  N  N  18  
+Z4S  N2   HN2  SING  N  N  19  
+Z4S  C7   C8   SING  N  N  20  
+Z4S  C7   O7   DOUB  N  N  21  
+Z4S  C8   H81  SING  N  N  22  
+Z4S  C8   H82  SING  N  N  23  
+Z4S  C8   H83  SING  N  N  24  
+Z4S  C3   O3   SING  N  N  25  
+Z4S  C3   H3   SING  N  N  26  
+Z4S  HO3  O3   SING  N  N  27  
+Z4S  O4   HO4  SING  N  N  28  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-Z4S "SYSTEMATIC NAME" ACDLabs              12.01 "N-[(1R,2S,3R,4R,5R)-2,3-dihydroxy-6,8-dioxabicyclo[3.2.1]oct-4-yl]acetamide (non-preferred name)" 
-Z4S "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "N-[(1R,2S,3R,4R,5R)-2,3-bis(oxidanyl)-6,8-dioxabicyclo[3.2.1]octan-4-yl]ethanamide"               
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+Z4S  SMILES            ACDLabs               12.01  "O=C(NC2C(O)C(O)C1OC2OC1)C"  
+Z4S  InChI             InChI                 1.03   "InChI=1S/C8H13NO5/c1-3(10)9-5-7(12)6(11)4-2-13-8(5)14-4/h4-8,11-12H,2H2,1H3,(H,9,10)/t4-,5-,6-,7-,8-/m1/s1"  
+Z4S  InChIKey          InChI                 1.03   PJFUEEUSPVNDFW-FMDGEEDCSA-N  
+Z4S  SMILES_CANONICAL  CACTVS                3.370  "CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@H]2CO[C@@H]1O2"  
+Z4S  SMILES            CACTVS                3.370  "CC(=O)N[CH]1[CH](O)[CH](O)[CH]2CO[CH]1O2"  
+Z4S  SMILES_CANONICAL  "OpenEye OEToolkits"  1.7.6  "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H]2CO[C@@H]1O2)O)O"  
+Z4S  SMILES            "OpenEye OEToolkits"  1.7.6  "CC(=O)NC1C(C(C2COC1O2)O)O"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-Z4S "Create component" 2012-12-18 RCSB 
-Z4S "Modify atom id"   2012-12-20 RCSB 
-Z4S "Initial release"  2018-03-14 RCSB 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+Z4S  "SYSTEMATIC NAME"  ACDLabs               12.01  "N-[(1R,2S,3R,4R,5R)-2,3-dihydroxy-6,8-dioxabicyclo[3.2.1]oct-4-yl]acetamide (non-preferred name)"  
+Z4S  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  1.7.6  "N-[(1R,2S,3R,4R,5R)-2,3-bis(oxidanyl)-6,8-dioxabicyclo[3.2.1]octan-4-yl]ethanamide"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+Z4S  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+Z4S  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+Z4S  "CARBOHYDRATE ANOMER"                  beta      PDB  ?  
+Z4S  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+Z4S  "Create component"          2012-12-18  RCSB  
+Z4S  "Modify atom id"            2012-12-20  RCSB  
+Z4S  "Initial release"           2018-03-14  RCSB  
+Z4S  "Other modification"        2020-07-03  RCSB  
+Z4S  "Modify name"               2020-07-17  RCSB  
+Z4S  "Modify synonyms"           2020-07-17  RCSB  
+Z4S  "Modify linking type"       2020-07-17  RCSB  
+Z4S  "Modify atom id"            2020-07-17  RCSB  
+Z4S  "Modify component atom id"  2020-07-17  RCSB  
+##
+

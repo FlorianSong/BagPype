@@ -1,536 +1,228 @@
 data_PU
-#
-_chem_comp.id                                        PU
-_chem_comp.name                                      "PUROMYCIN-N-AMINOPHOSPHONIC ACID"
-_chem_comp.type                                      "RNA LINKING"
-_chem_comp.pdbx_type                                 ATOMN
-_chem_comp.formula                                   "C22 H30 N7 O8 P"
-_chem_comp.mon_nstd_parent_comp_id                   A
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2000-08-02
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            551.489
-_chem_comp.one_letter_code                           A
-_chem_comp.three_letter_code                         PU
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            ?
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            1FFZ
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      RCSB
+# 
+_chem_comp.id                                    PU 
+_chem_comp.name                                  "PUROMYCIN-N-AMINOPHOSPHONIC ACID" 
+_chem_comp.type                                  "RNA LINKING" 
+_chem_comp.pdbx_type                             ATOMN 
+_chem_comp.formula                               "C22 H30 N7 O8 P" 
+_chem_comp.mon_nstd_parent_comp_id               A 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2000-08-02 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        551.489 
+_chem_comp.one_letter_code                       A 
+_chem_comp.three_letter_code                     PU 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        ? 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        1FFZ 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  RCSB 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+PU P      P    P 0 1 N N N 72.764 117.658 99.420  0.507  2.285  4.270   P      PU 1  
+PU OP1    O1P  O 0 1 N N N 72.997 119.126 99.345  0.214  3.394  5.205   OP1    PU 2  
+PU OP2    O2P  O 0 1 N N N 72.050 116.980 98.292  1.494  1.230  4.981   OP2    PU 3  
+PU OP3    O3P  O 0 1 N Y N 74.131 117.050 99.988  1.211  2.870  2.946   OP3    PU 4  
+PU N      N    N 0 1 N N N 71.879 117.470 100.624 -0.927 1.513  3.848   N      PU 5  
+PU CA     CA   C 0 1 N N S 71.975 118.481 101.603 -0.568 0.429  2.924   CA     PU 6  
+PU C      C    C 0 1 N N N 73.171 118.420 102.635 -1.262 0.644  1.604   C      PU 7  
+PU O      O    O 0 1 N N N 74.314 118.079 102.233 -2.335 1.207  1.567   O      PU 8  
+PU CB     CB   C 0 1 N N N 70.686 118.046 102.441 -1.004 -0.911 3.517   CB     PU 9  
+PU CG     CG   C 0 1 Y N N 69.327 118.368 101.655 -0.310 -1.125 4.838   CG     PU 10 
+PU CD1    CD1  C 0 1 Y N N 68.377 119.340 101.982 -0.898 -0.679 6.007   CD1    PU 11 
+PU CD2    CD2  C 0 1 Y N N 68.886 117.564 100.595 0.913  -1.767 4.878   CD2    PU 12 
+PU CE1    CE1  C 0 1 Y N N 66.968 119.570 101.147 -0.264 -0.875 7.219   CE1    PU 13 
+PU CE2    CE2  C 0 1 Y N N 67.499 117.795 99.791  1.553  -1.960 6.087   CE2    PU 14 
+PU CZ     CZ   C 0 1 Y N N 66.655 118.767 100.239 0.963  -1.519 7.262   CZ     PU 15 
+PU OC     OC   O 0 1 N N N 65.553 118.758 99.529  1.588  -1.712 8.453   OC     PU 16 
+PU CM     CM   C 0 1 N N N 64.509 119.774 99.922  2.813  -2.392 8.170   CM     PU 17 
+PU "O5'"  O5*  O 0 1 N N N 73.788 116.268 105.850 -4.469 -1.699 -1.237  "O5'"  PU 18 
+PU "C5'"  C5*  C 0 1 N N N 73.056 117.144 106.749 -3.688 -0.577 -0.821  "C5'"  PU 19 
+PU "C4'"  C4*  C 0 1 N N S 73.262 118.578 106.335 -2.222 -0.813 -1.186  "C4'"  PU 20 
+PU "O4'"  O4*  O 0 1 N N N 74.154 119.253 107.252 -2.075 -0.948 -2.619  "O4'"  PU 21 
+PU "C3'"  C3*  C 0 1 N N S 73.854 118.765 104.963 -1.364 0.418  -0.820  "C3'"  PU 22 
+PU "N3'"  N3*  N 0 1 N N N 72.862 118.728 103.883 -0.689 0.209  0.463   "N3'"  PU 23 
+PU "C2'"  C2*  C 0 1 N N R 74.494 120.136 105.081 -0.331 0.514  -1.964  "C2'"  PU 24 
+PU "O2'"  O2*  O 0 1 N N N 73.149 120.556 104.921 0.996  0.377  -1.454  "O2'"  PU 25 
+PU "C1'"  C1*  C 0 1 N N R 74.972 120.157 106.549 -0.684 -0.671 -2.889  "C1'"  PU 26 
+PU N9     N9   N 0 1 Y N N 76.345 119.795 106.884 -0.500 -0.295 -4.293  N9     PU 27 
+PU C8     C8   C 0 1 Y N N 76.847 118.513 106.839 -1.441 0.257  -5.110  C8     PU 28 
+PU N7     N7   N 0 1 Y N N 78.103 118.420 107.203 -0.938 0.463  -6.293  N7     PU 29 
+PU C5     C5   C 0 1 Y N N 78.447 119.732 107.551 0.354  0.057  -6.309  C5     PU 30 
+PU C6     C6   C 0 1 Y N N 79.624 120.308 108.012 1.370  0.035  -7.280  C6     PU 31 
+PU N6     N6   N 0 1 N N N 80.742 119.629 108.251 1.137  0.506  -8.560  N6     PU 32 
+PU C9     C9   C 0 1 N N N 80.794 118.193 107.992 2.392  0.339  -9.306  C9     PU 33 
+PU C10    C10  C 0 1 N N N 81.945 120.240 108.723 0.158  -0.402 -9.172  C10    PU 34 
+PU N1     N1   N 0 1 Y N N 79.650 121.653 108.251 2.560  -0.447 -6.939  N1     PU 35 
+PU C2     C2   C 0 1 Y N N 78.513 122.336 108.029 2.792  -0.899 -5.720  C2     PU 36 
+PU C4     C4   C 0 1 Y N N 77.363 120.573 107.368 0.652  -0.428 -5.025  C4     PU 37 
+PU N3     N3   N 0 1 Y N N 77.345 121.912 107.595 1.871  -0.898 -4.779  N3     PU 38 
+PU HOP2   2HOP H 0 0 N N N 71.901 116.042 98.339  2.302  1.711  5.207   HOP2   PU 39 
+PU HOP3   3HOP H 0 0 N N N 73.982 116.112 100.035 1.385  2.117  2.365   HOP3   PU 40 
+PU HN1    1HN  H 0 1 N N N 72.048 116.556 101.045 -1.469 2.179  3.317   HN1    PU 41 
+PU HA     HA   H 0 1 N N N 72.090 119.484 101.131 0.510  0.425  2.771   HA     PU 42 
+PU HB1    1HB  H 0 1 N N N 70.738 116.972 102.737 -0.737 -1.715 2.832   HB1    PU 43 
+PU HB2    2HB  H 0 1 N N N 70.686 118.508 103.455 -2.083 -0.907 3.670   HB2    PU 44 
+PU HD1    HD1  H 0 1 N N N 68.725 119.903 102.864 -1.854 -0.178 5.973   HD1    PU 45 
+PU HD2    HD2  H 0 1 N N N 69.618 116.763 100.396 1.370  -2.115 3.964   HD2    PU 46 
+PU HE1    HE1  H 0 1 N N N 66.166 120.325 101.200 -0.724 -0.526 8.132   HE1    PU 47 
+PU HE2    HE2  H 0 1 N N N 67.113 117.268 98.901  2.509  -2.462 6.118   HE2    PU 48 
+PU HM1    1HM  H 0 1 N N N 63.571 119.766 99.318  3.352  -2.570 9.101   HM1    PU 49 
+PU HM2    2HM  H 0 1 N N N 64.263 119.666 101.004 2.596  -3.346 7.688   HM2    PU 50 
+PU HM3    3HM  H 0 1 N N N 64.954 120.796 99.918  3.424  -1.780 7.507   HM3    PU 51 
+PU "HO5'" H5T  H 0 0 N Y N 73.658 115.363 106.111 -5.385 -1.510 -0.988  "HO5'" PU 52 
+PU "H5'"  1H5* H 0 1 N N N 71.975 116.875 106.811 -3.778 -0.451 0.257   "H5'"  PU 53 
+PU "H5''" 2H5* H 0 0 N N N 73.325 116.971 107.817 -4.048 0.321  -1.323  "H5''" PU 54 
+PU "H4'"  H4*  H 0 1 N N N 72.231 119.004 106.337 -1.843 -1.701 -0.681  "H4'"  PU 55 
+PU "H3'"  H3*  H 0 1 N N N 74.558 117.945 104.688 -1.980 1.316  -0.785  "H3'"  PU 56 
+PU "HN'3" 3HN* H 0 0 N N N 71.871 118.934 104.010 0.168  -0.240 0.493   "HN'3" PU 57 
+PU "H2'"  H2*  H 0 1 N N N 75.318 120.597 104.489 -0.438 1.459  -2.497  "H2'"  PU 58 
+PU "HO2'" *HO2 H 0 0 N N N 73.549 121.414 104.994 1.595  0.445  -2.210  "HO2'" PU 59 
+PU "H1'"  H1*  H 0 1 N N N 74.911 121.238 106.814 -0.070 -1.538 -2.646  "H1'"  PU 60 
+PU H8     H8   H 0 1 N N N 76.279 117.618 106.531 -2.455 0.489  -4.820  H8     PU 61 
+PU H91    1H9  H 0 1 N N N 81.731 117.623 108.192 2.258  0.697  -10.327 H91    PU 62 
+PU H92    2H9  H 0 1 N N N 79.959 117.704 108.546 3.182  0.911  -8.820  H92    PU 63 
+PU H93    3H9  H 0 1 N N N 80.492 118.014 106.933 2.666  -0.715 -9.324  H93    PU 64 
+PU H101   1H10 H 0 0 N N N 82.882 119.670 108.923 -0.058 -0.071 -10.187 H101   PU 65 
+PU H102   2H10 H 0 0 N N N 82.200 121.061 108.013 0.567  -1.412 -9.198  H102   PU 66 
+PU H103   3H10 H 0 0 N N N 81.690 120.798 109.654 -0.759 -0.397 -8.584  H103   PU 67 
+PU H2     H2   H 0 1 N N N 78.543 123.418 108.236 3.773  -1.283 -5.485  H2     PU 68 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+PU P     OP1    DOUB N N 1  
+PU P     OP2    SING N N 2  
+PU P     OP3    SING N N 3  
+PU P     N      SING N N 4  
+PU OP2   HOP2   SING N N 5  
+PU OP3   HOP3   SING N N 6  
+PU N     CA     SING N N 7  
+PU N     HN1    SING N N 8  
+PU CA    C      SING N N 9  
+PU CA    CB     SING N N 10 
+PU CA    HA     SING N N 11 
+PU C     O      DOUB N N 12 
+PU C     "N3'"  SING N N 13 
+PU CB    CG     SING N N 14 
+PU CB    HB1    SING N N 15 
+PU CB    HB2    SING N N 16 
+PU CG    CD1    DOUB Y N 17 
+PU CG    CD2    SING Y N 18 
+PU CD1   CE1    SING Y N 19 
+PU CD1   HD1    SING N N 20 
+PU CD2   CE2    DOUB Y N 21 
+PU CD2   HD2    SING N N 22 
+PU CE1   CZ     DOUB Y N 23 
+PU CE1   HE1    SING N N 24 
+PU CE2   CZ     SING Y N 25 
+PU CE2   HE2    SING N N 26 
+PU CZ    OC     SING N N 27 
+PU OC    CM     SING N N 28 
+PU CM    HM1    SING N N 29 
+PU CM    HM2    SING N N 30 
+PU CM    HM3    SING N N 31 
+PU "O5'" "C5'"  SING N N 32 
+PU "O5'" "HO5'" SING N N 33 
+PU "C5'" "C4'"  SING N N 34 
+PU "C5'" "H5'"  SING N N 35 
+PU "C5'" "H5''" SING N N 36 
+PU "C4'" "O4'"  SING N N 37 
+PU "C4'" "C3'"  SING N N 38 
+PU "C4'" "H4'"  SING N N 39 
+PU "O4'" "C1'"  SING N N 40 
+PU "C3'" "N3'"  SING N N 41 
+PU "C3'" "C2'"  SING N N 42 
+PU "C3'" "H3'"  SING N N 43 
+PU "N3'" "HN'3" SING N N 44 
+PU "C2'" "O2'"  SING N N 45 
+PU "C2'" "C1'"  SING N N 46 
+PU "C2'" "H2'"  SING N N 47 
+PU "O2'" "HO2'" SING N N 48 
+PU "C1'" N9     SING N N 49 
+PU "C1'" "H1'"  SING N N 50 
+PU N9    C8     SING Y N 51 
+PU N9    C4     SING Y N 52 
+PU C8    N7     DOUB Y N 53 
+PU C8    H8     SING N N 54 
+PU N7    C5     SING Y N 55 
+PU C5    C6     DOUB Y N 56 
+PU C5    C4     SING Y N 57 
+PU C6    N6     SING N N 58 
+PU C6    N1     SING Y N 59 
+PU N6    C9     SING N N 60 
+PU N6    C10    SING N N 61 
+PU C9    H91    SING N N 62 
+PU C9    H92    SING N N 63 
+PU C9    H93    SING N N 64 
+PU C10   H101   SING N N 65 
+PU C10   H102   SING N N 66 
+PU C10   H103   SING N N 67 
+PU N1    C2     DOUB Y N 68 
+PU C2    N3     SING Y N 69 
+PU C2    H2     SING N N 70 
+PU C4    N3     DOUB Y N 71 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+PU SMILES           ACDLabs              10.04 "O=P(O)(O)NC(C(=O)NC3C(OC(n2cnc1c2ncnc1N(C)C)C3O)CO)Cc4ccc(OC)cc4" 
+PU SMILES_CANONICAL CACTVS               3.341 "COc1ccc(C[C@H](N[P](O)(O)=O)C(=O)N[C@H]2[C@@H](O)[C@@H](O[C@@H]2CO)n3cnc4c(ncnc34)N(C)C)cc1" 
+PU SMILES           CACTVS               3.341 "COc1ccc(C[CH](N[P](O)(O)=O)C(=O)N[CH]2[CH](O)[CH](O[CH]2CO)n3cnc4c(ncnc34)N(C)C)cc1" 
+PU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CN(C)c1c2c(ncn1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)NC(=O)[C@H](Cc4ccc(cc4)OC)NP(=O)(O)O)O" 
+PU SMILES           "OpenEye OEToolkits" 1.5.0 "CN(C)c1c2c(ncn1)n(cn2)C3C(C(C(O3)CO)NC(=O)C(Cc4ccc(cc4)OC)NP(=O)(O)O)O" 
+PU InChI            InChI                1.03  
+"InChI=1S/C22H30N7O8P/c1-28(2)19-17-20(24-10-23-19)29(11-25-17)22-18(31)16(15(9-30)37-22)26-21(32)14(27-38(33,34)35)8-12-4-6-13(36-3)7-5-12/h4-7,10-11,14-16,18,22,30-31H,8-9H2,1-3H3,(H,26,32)(H3,27,33,34,35)/t14-,15+,16+,18+,22+/m0/s1" 
+PU InChIKey         InChI                1.03  FHDMBNGCWMYGNF-NVWDDTSBSA-N 
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+PU "SYSTEMATIC NAME" ACDLabs              10.04 "3'-deoxy-N,N-dimethyl-3'-[(O-methyl-N-phosphono-L-tyrosyl)amino]adenosine"                                                                                        
+PU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[[(2S)-1-[[(2S,3S,4R,5R)-5-(6-dimethylaminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl]amino]-3-(4-methoxyphenyl)-1-oxo-propan-2-yl]amino]phosphonic acid" 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+PU "Create component"  2000-08-02 RCSB 
+PU "Modify descriptor" 2011-06-04 RCSB 
+# 
 
-#
-loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-PU      P    P P 0 1 N N N 72.764 117.658  99.420  0.507  2.285   4.270      P PU  1
-PU    OP1  O1P O 0 1 N N N 72.997 119.126  99.345  0.214  3.394   5.205    OP1 PU  2
-PU    OP2  O2P O 0 1 N N N 72.050 116.980  98.292  1.494  1.230   4.981    OP2 PU  3
-PU    OP3  O3P O 0 1 N Y N 74.131 117.050  99.988  1.211  2.870   2.946    OP3 PU  4
-PU      N    N N 0 1 N N N 71.879 117.470 100.624 -0.927  1.513   3.848      N PU  5
-PU     CA   CA C 0 1 N N S 71.975 118.481 101.603 -0.568  0.429   2.924     CA PU  6
-PU      C    C C 0 1 N N N 73.171 118.420 102.635 -1.262  0.644   1.604      C PU  7
-PU      O    O O 0 1 N N N 74.314 118.079 102.233 -2.335  1.207   1.567      O PU  8
-PU     CB   CB C 0 1 N N N 70.686 118.046 102.441 -1.004 -0.911   3.517     CB PU  9
-PU     CG   CG C 0 1 Y N N 69.327 118.368 101.655 -0.310 -1.125   4.838     CG PU 10
-PU    CD1  CD1 C 0 1 Y N N 68.377 119.340 101.982 -0.898 -0.679   6.007    CD1 PU 11
-PU    CD2  CD2 C 0 1 Y N N 68.886 117.564 100.595  0.913 -1.767   4.878    CD2 PU 12
-PU    CE1  CE1 C 0 1 Y N N 66.968 119.570 101.147 -0.264 -0.875   7.219    CE1 PU 13
-PU    CE2  CE2 C 0 1 Y N N 67.499 117.795  99.791  1.553 -1.960   6.087    CE2 PU 14
-PU     CZ   CZ C 0 1 Y N N 66.655 118.767 100.239  0.963 -1.519   7.262     CZ PU 15
-PU     OC   OC O 0 1 N N N 65.553 118.758  99.529  1.588 -1.712   8.453     OC PU 16
-PU     CM   CM C 0 1 N N N 64.509 119.774  99.922  2.813 -2.392   8.170     CM PU 17
-PU  "O5'"  O5* O 0 1 N N N 73.788 116.268 105.850 -4.469 -1.699  -1.237  "O5'" PU 18
-PU  "C5'"  C5* C 0 1 N N N 73.056 117.144 106.749 -3.688 -0.577  -0.821  "C5'" PU 19
-PU  "C4'"  C4* C 0 1 N N S 73.262 118.578 106.335 -2.222 -0.813  -1.186  "C4'" PU 20
-PU  "O4'"  O4* O 0 1 N N N 74.154 119.253 107.252 -2.075 -0.948  -2.619  "O4'" PU 21
-PU  "C3'"  C3* C 0 1 N N S 73.854 118.765 104.963 -1.364  0.418  -0.820  "C3'" PU 22
-PU  "N3'"  N3* N 0 1 N N N 72.862 118.728 103.883 -0.689  0.209   0.463  "N3'" PU 23
-PU  "C2'"  C2* C 0 1 N N R 74.494 120.136 105.081 -0.331  0.514  -1.964  "C2'" PU 24
-PU  "O2'"  O2* O 0 1 N N N 73.149 120.556 104.921  0.996  0.377  -1.454  "O2'" PU 25
-PU  "C1'"  C1* C 0 1 N N R 74.972 120.157 106.549 -0.684 -0.671  -2.889  "C1'" PU 26
-PU     N9   N9 N 0 1 Y N N 76.345 119.795 106.884 -0.500 -0.295  -4.293     N9 PU 27
-PU     C8   C8 C 0 1 Y N N 76.847 118.513 106.839 -1.441  0.257  -5.110     C8 PU 28
-PU     N7   N7 N 0 1 Y N N 78.103 118.420 107.203 -0.938  0.463  -6.293     N7 PU 29
-PU     C5   C5 C 0 1 Y N N 78.447 119.732 107.551  0.354  0.057  -6.309     C5 PU 30
-PU     C6   C6 C 0 1 Y N N 79.624 120.308 108.012  1.370  0.035  -7.280     C6 PU 31
-PU     N6   N6 N 0 1 N N N 80.742 119.629 108.251  1.137  0.506  -8.560     N6 PU 32
-PU     C9   C9 C 0 1 N N N 80.794 118.193 107.992  2.392  0.339  -9.306     C9 PU 33
-PU    C10  C10 C 0 1 N N N 81.945 120.240 108.723  0.158 -0.402  -9.172    C10 PU 34
-PU     N1   N1 N 0 1 Y N N 79.650 121.653 108.251  2.560 -0.447  -6.939     N1 PU 35
-PU     C2   C2 C 0 1 Y N N 78.513 122.336 108.029  2.792 -0.899  -5.720     C2 PU 36
-PU     C4   C4 C 0 1 Y N N 77.363 120.573 107.368  0.652 -0.428  -5.025     C4 PU 37
-PU     N3   N3 N 0 1 Y N N 77.345 121.912 107.595  1.871 -0.898  -4.779     N3 PU 38
-PU   HOP2 2HOP H 0 0 N N N 71.901 116.042  98.339  2.302  1.711   5.207   HOP2 PU 39
-PU   HOP3 3HOP H 0 0 N N N 73.982 116.112 100.035  1.385  2.117   2.365   HOP3 PU 40
-PU    HN1  1HN H 0 1 N N N 72.048 116.556 101.045 -1.469  2.179   3.317    HN1 PU 41
-PU     HA   HA H 0 1 N N N 72.090 119.484 101.131  0.510  0.425   2.771     HA PU 42
-PU    HB1  1HB H 0 1 N N N 70.738 116.972 102.737 -0.737 -1.715   2.832    HB1 PU 43
-PU    HB2  2HB H 0 1 N N N 70.686 118.508 103.455 -2.083 -0.907   3.670    HB2 PU 44
-PU    HD1  HD1 H 0 1 N N N 68.725 119.903 102.864 -1.854 -0.178   5.973    HD1 PU 45
-PU    HD2  HD2 H 0 1 N N N 69.618 116.763 100.396  1.370 -2.115   3.964    HD2 PU 46
-PU    HE1  HE1 H 0 1 N N N 66.166 120.325 101.200 -0.724 -0.526   8.132    HE1 PU 47
-PU    HE2  HE2 H 0 1 N N N 67.113 117.268  98.901  2.509 -2.462   6.118    HE2 PU 48
-PU    HM1  1HM H 0 1 N N N 63.571 119.766  99.318  3.352 -2.570   9.101    HM1 PU 49
-PU    HM2  2HM H 0 1 N N N 64.263 119.666 101.004  2.596 -3.346   7.688    HM2 PU 50
-PU    HM3  3HM H 0 1 N N N 64.954 120.796  99.918  3.424 -1.780   7.507    HM3 PU 51
-PU "HO5'"  H5T H 0 0 N Y N 73.658 115.363 106.111 -5.385 -1.510  -0.988 "HO5'" PU 52
-PU  "H5'" 1H5* H 0 1 N N N 71.975 116.875 106.811 -3.778 -0.451   0.257  "H5'" PU 53
-PU "H5''" 2H5* H 0 0 N N N 73.325 116.971 107.817 -4.048  0.321  -1.323 "H5''" PU 54
-PU  "H4'"  H4* H 0 1 N N N 72.231 119.004 106.337 -1.843 -1.701  -0.681  "H4'" PU 55
-PU  "H3'"  H3* H 0 1 N N N 74.558 117.945 104.688 -1.980  1.316  -0.785  "H3'" PU 56
-PU "HN'3" 3HN* H 0 0 N N N 71.871 118.934 104.010  0.168 -0.240   0.493 "HN'3" PU 57
-PU  "H2'"  H2* H 0 1 N N N 75.318 120.597 104.489 -0.438  1.459  -2.497  "H2'" PU 58
-PU "HO2'" *HO2 H 0 0 N N N 73.549 121.414 104.994  1.595  0.445  -2.210 "HO2'" PU 59
-PU  "H1'"  H1* H 0 1 N N N 74.911 121.238 106.814 -0.070 -1.538  -2.646  "H1'" PU 60
-PU     H8   H8 H 0 1 N N N 76.279 117.618 106.531 -2.455  0.489  -4.820     H8 PU 61
-PU    H91  1H9 H 0 1 N N N 81.731 117.623 108.192  2.258  0.697 -10.327    H91 PU 62
-PU    H92  2H9 H 0 1 N N N 79.959 117.704 108.546  3.182  0.911  -8.820    H92 PU 63
-PU    H93  3H9 H 0 1 N N N 80.492 118.014 106.933  2.666 -0.715  -9.324    H93 PU 64
-PU   H101 1H10 H 0 0 N N N 82.882 119.670 108.923 -0.058 -0.071 -10.187   H101 PU 65
-PU   H102 2H10 H 0 0 N N N 82.200 121.061 108.013  0.567 -1.412  -9.198   H102 PU 66
-PU   H103 3H10 H 0 0 N N N 81.690 120.798 109.654 -0.759 -0.397  -8.584   H103 PU 67
-PU     H2   H2 H 0 1 N N N 78.543 123.418 108.236  3.773 -1.283  -5.485     H2 PU 68
-#
-loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-PU     P    OP1 DOUB N N  1
-PU     P    OP2 SING N N  2
-PU     P    OP3 SING N N  3
-PU     P      N SING N N  4
-PU   OP2   HOP2 SING N N  5
-PU   OP3   HOP3 SING N N  6
-PU     N     CA SING N N  7
-PU     N    HN1 SING N N  8
-PU    CA      C SING N N  9
-PU    CA     CB SING N N 10
-PU    CA     HA SING N N 11
-PU     C      O DOUB N N 12
-PU     C  "N3'" SING N N 13
-PU    CB     CG SING N N 14
-PU    CB    HB1 SING N N 15
-PU    CB    HB2 SING N N 16
-PU    CG    CD1 DOUB Y N 17
-PU    CG    CD2 SING Y N 18
-PU   CD1    CE1 SING Y N 19
-PU   CD1    HD1 SING N N 20
-PU   CD2    CE2 DOUB Y N 21
-PU   CD2    HD2 SING N N 22
-PU   CE1     CZ DOUB Y N 23
-PU   CE1    HE1 SING N N 24
-PU   CE2     CZ SING Y N 25
-PU   CE2    HE2 SING N N 26
-PU    CZ     OC SING N N 27
-PU    OC     CM SING N N 28
-PU    CM    HM1 SING N N 29
-PU    CM    HM2 SING N N 30
-PU    CM    HM3 SING N N 31
-PU "O5'"  "C5'" SING N N 32
-PU "O5'" "HO5'" SING N N 33
-PU "C5'"  "C4'" SING N N 34
-PU "C5'"  "H5'" SING N N 35
-PU "C5'" "H5''" SING N N 36
-PU "C4'"  "O4'" SING N N 37
-PU "C4'"  "C3'" SING N N 38
-PU "C4'"  "H4'" SING N N 39
-PU "O4'"  "C1'" SING N N 40
-PU "C3'"  "N3'" SING N N 41
-PU "C3'"  "C2'" SING N N 42
-PU "C3'"  "H3'" SING N N 43
-PU "N3'" "HN'3" SING N N 44
-PU "C2'"  "O2'" SING N N 45
-PU "C2'"  "C1'" SING N N 46
-PU "C2'"  "H2'" SING N N 47
-PU "O2'" "HO2'" SING N N 48
-PU "C1'"     N9 SING N N 49
-PU "C1'"  "H1'" SING N N 50
-PU    N9     C8 SING Y N 51
-PU    N9     C4 SING Y N 52
-PU    C8     N7 DOUB Y N 53
-PU    C8     H8 SING N N 54
-PU    N7     C5 SING Y N 55
-PU    C5     C6 DOUB Y N 56
-PU    C5     C4 SING Y N 57
-PU    C6     N6 SING N N 58
-PU    C6     N1 SING Y N 59
-PU    N6     C9 SING N N 60
-PU    N6    C10 SING N N 61
-PU    C9    H91 SING N N 62
-PU    C9    H92 SING N N 63
-PU    C9    H93 SING N N 64
-PU   C10   H101 SING N N 65
-PU   C10   H102 SING N N 66
-PU   C10   H103 SING N N 67
-PU    N1     C2 DOUB Y N 68
-PU    C2     N3 SING Y N 69
-PU    C2     H2 SING N N 70
-PU    C4     N3 DOUB Y N 71
-#
-loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-PU           SMILES              ACDLabs 10.04                                                                                                                                                                          O=P(O)(O)NC(C(=O)NC3C(OC(n2cnc1c2ncnc1N(C)C)C3O)CO)Cc4ccc(OC)cc4
-PU SMILES_CANONICAL               CACTVS 3.341                                                                                                                                               COc1ccc(C[C@H](N[P](O)(O)=O)C(=O)N[C@H]2[C@@H](O)[C@@H](O[C@@H]2CO)n3cnc4c(ncnc34)N(C)C)cc1
-PU           SMILES               CACTVS 3.341                                                                                                                                                       COc1ccc(C[CH](N[P](O)(O)=O)C(=O)N[CH]2[CH](O)[CH](O[CH]2CO)n3cnc4c(ncnc34)N(C)C)cc1
-PU SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0                                                                                                                                              CN(C)c1c2c(ncn1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)NC(=O)[C@H](Cc4ccc(cc4)OC)NP(=O)(O)O)O
-PU           SMILES "OpenEye OEToolkits" 1.5.0                                                                                                                                                                    CN(C)c1c2c(ncn1)n(cn2)C3C(C(C(O3)CO)NC(=O)C(Cc4ccc(cc4)OC)NP(=O)(O)O)O
-PU            InChI                InChI  1.03 InChI=1S/C22H30N7O8P/c1-28(2)19-17-20(24-10-23-19)29(11-25-17)22-18(31)16(15(9-30)37-22)26-21(32)14(27-38(33,34)35)8-12-4-6-13(36-3)7-5-12/h4-7,10-11,14-16,18,22,30-31H,8-9H2,1-3H3,(H,26,32)(H3,27,33,34,35)/t14-,15+,16+,18+,22+/m0/s1
-PU         InChIKey                InChI  1.03                                                                                                                                                                                                               FHDMBNGCWMYGNF-NVWDDTSBSA-N
-#
-loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-PU "SYSTEMATIC NAME"              ACDLabs 10.04                                                                                        "3'-deoxy-N,N-dimethyl-3'-[(O-methyl-N-phosphono-L-tyrosyl)amino]adenosine"
-PU "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[[(2S)-1-[[(2S,3S,4R,5R)-5-(6-dimethylaminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl]amino]-3-(4-methoxyphenyl)-1-oxo-propan-2-yl]amino]phosphonic acid"
-#
-loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-PU  "Create component" 2000-08-02 RCSB
-PU "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-PU     P P  9.666  5.788  1
-PU   OP1 O  8.296  6.401  2
-PU   OP2 O 10.278  7.158  3
-PU   OP3 O  9.053  4.419  4
-PU     N N 11.035  5.176  5
-PU    CA C 11.189  3.684  6
-PU     C C  9.974  2.804  7
-PU     O O  8.605  3.417  8
-PU    CB C 12.559  3.071  9
-PU    CG C 13.774  3.951 10
-PU   CD1 C 15.143  3.339 11
-PU   CD2 C 13.619  5.443 12
-PU   CE1 C 16.358  4.218 13
-PU   CE2 C 14.834  6.323 14
-PU    CZ C 16.204  5.710 15
-PU    OC O 17.419  6.590 16
-PU    CM C 18.788  5.977 17
-PU "O5'" O  5.560  2.641 18
-PU "C5'" C  7.027  2.326 19
-PU "C4'" C  7.487  0.899 20
-PU "O4'" O  6.604 -0.313 21
-PU "C3'" C  8.913  0.433 22
-PU "N3'" N 10.129  1.312 23
-PU "C2'" C  8.911 -1.067 24
-PU "O2'" O 10.123 -1.951 25
-PU "C1'" C  7.483 -1.528 26
-PU    N9 N  7.018 -2.954 27
-PU    C8 C  7.893 -4.161 28
-PU    N7 N  7.018 -5.368 29
-PU    C5 C  5.598 -4.911 30
-PU    C6 C  4.299 -5.661 31
-PU    N6 N  4.299 -7.161 32
-PU    C9 C  3.000 -7.911 33
-PU   C10 C  5.598 -7.911 34
-PU    N1 N  3.000 -4.911 35
-PU    C2 C  3.000 -3.411 36
-PU    C4 C  5.598 -3.411 37
-PU    N3 N  4.299 -2.661 38
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-PU     P   OP1 DOUBLE       NONE  1
-PU     P   OP2 SINGLE       NONE  2
-PU     P   OP3 SINGLE       NONE  3
-PU     P     N SINGLE       NONE  4
-PU     N    CA SINGLE       NONE  5
-PU    CA     C SINGLE       NONE  6
-PU    CA    CB SINGLE BEGINWEDGE  7
-PU     C     O DOUBLE       NONE  8
-PU     C "N3'" SINGLE       NONE  9
-PU    CB    CG SINGLE       NONE 10
-PU    CG   CD1 DOUBLE       NONE 11
-PU    CG   CD2 SINGLE       NONE 12
-PU   CD1   CE1 SINGLE       NONE 13
-PU   CD2   CE2 DOUBLE       NONE 14
-PU   CE1    CZ DOUBLE       NONE 15
-PU   CE2    CZ SINGLE       NONE 16
-PU    CZ    OC SINGLE       NONE 17
-PU    OC    CM SINGLE       NONE 18
-PU "O5'" "C5'" SINGLE       NONE 19
-PU "C5'" "C4'" SINGLE BEGINWEDGE 20
-PU "C4'" "O4'" SINGLE       NONE 21
-PU "C4'" "C3'" SINGLE       NONE 22
-PU "O4'" "C1'" SINGLE       NONE 23
-PU "C3'" "N3'" SINGLE  BEGINDASH 24
-PU "C3'" "C2'" SINGLE       NONE 25
-PU "C2'" "O2'" SINGLE BEGINWEDGE 26
-PU "C2'" "C1'" SINGLE       NONE 27
-PU "C1'"    N9 SINGLE BEGINWEDGE 28
-PU    N9    C8 SINGLE       NONE 29
-PU    N9    C4 SINGLE       NONE 30
-PU    C8    N7 DOUBLE       NONE 31
-PU    N7    C5 SINGLE       NONE 32
-PU    C5    C6 SINGLE       NONE 33
-PU    C5    C4 DOUBLE       NONE 34
-PU    C6    N6 SINGLE       NONE 35
-PU    C6    N1 DOUBLE       NONE 36
-PU    N6    C9 SINGLE       NONE 37
-PU    N6   C10 SINGLE       NONE 38
-PU    N1    C2 SINGLE       NONE 39
-PU    C2    N3 DOUBLE       NONE 40
-PU    C4    N3 SINGLE       NONE 41
-#
-loop_
-_pdbe_chem_comp_substructure.comp_id                      
-_pdbe_chem_comp_substructure.substructure_name            
-_pdbe_chem_comp_substructure.id                           
-_pdbe_chem_comp_substructure.substructure_type            
-_pdbe_chem_comp_substructure.substructure_smiles          
-_pdbe_chem_comp_substructure.substructure_inchis          
-_pdbe_chem_comp_substructure.substructure_inchikeys       
-PU MurckoScaffold S1 scaffold O=C(CCc1ccccc1)N[C@H]1CO[C@H](n2cnc3cncnc32)C1 InChI=1S/C18H19N5O2/c24-16(7-6-13-4-2-1-3-5-13)22-14-8-17(25-10-14)23-12-21-15-9-19-11-20-18(15)23/h1-5,9,11-12,14,17H,6-8,10H2,(H,22,24)/t14-,17+/m1/s1 FLBWBRCJRGWICS-PBHICJAKSA-N
-PU        adenine F1 fragment                              Nc1ncnc2nc[nH]c12                                                                                          InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10) GFFGJBXGBJISGV-UHFFFAOYSA-N
-PU          amide F2 fragment                                        CC(N)=O                                                                                                                   InChI=1S/C2H5NO/c1-2(3)4/h1H3,(H2,3,4) DLFVBJFMPXGRIB-UHFFFAOYSA-N
-PU      imidazole F3 fragment                                     c1c[nH]cn1                                                                                                               InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5) RAXXELZNTBOGNW-UHFFFAOYSA-N
-PU        peptide F4 fragment                                          NCC=O                                                                                                                       InChI=1S/C2H5NO/c3-1-2-4/h2H,1,3H2 LYIIBVSRGJSHAV-UHFFFAOYSA-N
-PU         phenyl F5 fragment                                       c1ccccc1                                                                                                                       InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H UHOVQNZJYSORNB-UHFFFAOYSA-N
-PU         purine F6 fragment                               c1ncc2[nH]cnc2n1                                                                                                 InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9) KDCGOANMDULRCW-UHFFFAOYSA-N
-PU     pyrimidine F7 fragment                                       c1cncnc1                                                                                                                     InChI=1S/C4H4N2/c1-2-5-4-6-3-1/h1-4H CZPWVGJYEJSRLH-UHFFFAOYSA-N
-#
-loop_
-_pdbe_chem_comp_substructure_mapping.comp_id                    
-_pdbe_chem_comp_substructure_mapping.atom_id                    
-_pdbe_chem_comp_substructure_mapping.substructure_id            
-_pdbe_chem_comp_substructure_mapping.substructure_ordinal       
-PU    N1 F1 1
-PU    C6 F1 1
-PU    C5 F1 1
-PU    C4 F1 1
-PU    N3 F1 1
-PU    C2 F1 1
-PU    N9 F1 1
-PU    C8 F1 1
-PU    N7 F1 1
-PU    N6 F1 1
-PU "N3'" F2 1
-PU     C F2 1
-PU     O F2 1
-PU    CA F2 1
-PU    C5 F3 1
-PU    C4 F3 1
-PU    N9 F3 1
-PU    C8 F3 1
-PU    N7 F3 1
-PU     O F4 1
-PU     C F4 1
-PU    CA F4 1
-PU     N F4 1
-PU    CG F5 1
-PU   CD1 F5 1
-PU   CE1 F5 1
-PU    CZ F5 1
-PU   CE2 F5 1
-PU   CD2 F5 1
-PU    N7 F6 1
-PU    C8 F6 1
-PU    N9 F6 1
-PU    C4 F6 1
-PU    C5 F6 1
-PU    C6 F6 1
-PU    N1 F6 1
-PU    C2 F6 1
-PU    N3 F6 1
-PU    C5 F7 1
-PU    C6 F7 1
-PU    N1 F7 1
-PU    C2 F7 1
-PU    N3 F7 1
-PU    C4 F7 1
-PU    CA S1 1
-PU     C S1 1
-PU     O S1 1
-PU    CB S1 1
-PU    CG S1 1
-PU   CD1 S1 1
-PU   CD2 S1 1
-PU   CE1 S1 1
-PU   CE2 S1 1
-PU    CZ S1 1
-PU "C4'" S1 1
-PU "O4'" S1 1
-PU "C3'" S1 1
-PU "N3'" S1 1
-PU "C2'" S1 1
-PU "C1'" S1 1
-PU    N9 S1 1
-PU    C8 S1 1
-PU    N7 S1 1
-PU    C5 S1 1
-PU    C6 S1 1
-PU    N1 S1 1
-PU    C2 S1 1
-PU    C4 S1 1
-PU    N3 S1 1
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               PU
-_pdbe_chem_comp_rdkit_properties.exactmw                               551.189
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           15
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           6
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     17
-_pdbe_chem_comp_rdkit_properties.NumHBD                                6
-_pdbe_chem_comp_rdkit_properties.NumHBA                                13
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        16
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         1
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          0.455
-_pdbe_chem_comp_rdkit_properties.NumRings                              4
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      3
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     1
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     1
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       3
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               2
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              1
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             259.813
-_pdbe_chem_comp_rdkit_properties.tpsa                                  204.420
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          -2.396
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             130.343
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         38
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-PU UniChem ChEMBL    CHEMBL1235495
-PU UniChem   ZINC ZINC000058661157
-PU UniChem      P         49867537
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-PU      P   3.911  1.833 -1.643 ETKDGv2  1
-PU    OP1   4.041  0.521 -2.384 ETKDGv2  2
-PU    OP2   2.414  2.539 -1.995 ETKDGv2  3
-PU    OP3   5.147  2.874 -2.144 ETKDGv2  4
-PU      N   4.058  1.561  0.094 ETKDGv2  5
-PU     CA   3.095  0.549  0.563 ETKDGv2  6
-PU      C   1.680  1.084  0.556 ETKDGv2  7
-PU      O   1.390  2.091  1.258 ETKDGv2  8
-PU     CB   3.474  0.093  1.983 ETKDGv2  9
-PU     CG   4.838 -0.550  2.010 ETKDGv2 10
-PU    CD1   5.878  0.059  2.607 ETKDGv2 11
-PU    CD2   5.042 -1.875  1.376 ETKDGv2 12
-PU    CE1   7.211 -0.579  2.620 ETKDGv2 13
-PU    CE2   6.250 -2.452  1.389 ETKDGv2 14
-PU     CZ   7.397 -1.780  2.037 ETKDGv2 15
-PU     OC   8.641 -2.430  2.018 ETKDGv2 16
-PU     CM   9.835 -1.912  2.597 ETKDGv2 17
-PU  "O5'"  -2.577  2.998 -1.519 ETKDGv2 18
-PU  "C5'"  -1.378  2.713 -2.188 ETKDGv2 19
-PU  "C4'"  -0.951  1.264 -1.924 ETKDGv2 20
-PU  "O4'"  -1.962  0.386 -2.374 ETKDGv2 21
-PU  "C3'"  -0.672  1.000 -0.431 ETKDGv2 22
-PU  "N3'"   0.678  0.452 -0.255 ETKDGv2 23
-PU  "C2'"  -1.710 -0.033 -0.050 ETKDGv2 24
-PU  "O2'"  -2.818  0.592  0.548 ETKDGv2 25
-PU  "C1'"  -2.088 -0.623 -1.403 ETKDGv2 26
-PU     N9  -3.445 -1.171 -1.409 ETKDGv2 27
-PU     C8  -3.882 -2.336 -0.698 ETKDGv2 28
-PU     N7  -5.164 -2.364 -0.480 ETKDGv2 29
-PU     C5  -5.654 -1.157 -1.056 ETKDGv2 30
-PU     C6  -7.002 -0.548 -0.965 ETKDGv2 31
-PU     N6  -8.148 -1.244 -0.421 ETKDGv2 32
-PU     C9  -8.071 -2.659 -0.044 ETKDGv2 33
-PU    C10  -9.418 -0.523 -0.276 ETKDGv2 34
-PU     N1  -7.131  0.677 -1.411 ETKDGv2 35
-PU     C2  -6.016  1.417 -1.963 ETKDGv2 36
-PU     C4  -4.666 -0.470 -1.571 ETKDGv2 37
-PU     N3  -4.832  0.874 -2.034 ETKDGv2 38
-PU   HOP2   2.414  2.658 -2.978 ETKDGv2 39
-PU   HOP3   4.982  3.716 -1.649 ETKDGv2 40
-PU    HN1   3.887  2.473  0.577 ETKDGv2 41
-PU     HA   3.147 -0.345 -0.096 ETKDGv2 42
-PU    HB1   3.437  0.965  2.673 ETKDGv2 43
-PU    HB2   2.729 -0.646  2.351 ETKDGv2 44
-PU    HD1   5.758  1.027  3.076 ETKDGv2 45
-PU    HD2   4.212 -2.384  0.902 ETKDGv2 46
-PU    HE1   8.024 -0.056  3.104 ETKDGv2 47
-PU    HE2   6.389 -3.419  0.923 ETKDGv2 48
-PU    HM1   9.700 -1.772  3.690 ETKDGv2 49
-PU    HM2  10.661 -2.635  2.432 ETKDGv2 50
-PU    HM3  10.105 -0.948  2.118 ETKDGv2 51
-PU "HO5'"  -2.795  3.941 -1.737 ETKDGv2 52
-PU  "H5'"  -0.577  3.404 -1.844 ETKDGv2 53
-PU "H5''"  -1.519  2.855 -3.283 ETKDGv2 54
-PU  "H4'"  -0.035  1.074 -2.528 ETKDGv2 55
-PU  "H3'"  -0.800  1.921  0.182 ETKDGv2 56
-PU "HN'3"   0.929 -0.420 -0.774 ETKDGv2 57
-PU  "H2'"  -1.304 -0.826  0.622 ETKDGv2 58
-PU "HO2'"  -2.573  0.755  1.496 ETKDGv2 59
-PU  "H1'"  -1.378 -1.443 -1.656 ETKDGv2 60
-PU     H8  -3.211 -3.108 -0.346 ETKDGv2 61
-PU    H91  -7.396 -2.779  0.828 ETKDGv2 62
-PU    H92  -9.065 -3.065  0.239 ETKDGv2 63
-PU    H93  -7.698 -3.259 -0.901 ETKDGv2 64
-PU   H101 -10.207 -1.159  0.178 ETKDGv2 65
-PU   H102  -9.774 -0.186 -1.272 ETKDGv2 66
-PU   H103  -9.273  0.361  0.380 ETKDGv2 67
-PU     H2  -6.164  2.431 -2.310 ETKDGv2 68
-#

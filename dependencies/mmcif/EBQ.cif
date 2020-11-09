@@ -1,160 +1,231 @@
 data_EBQ
-# 
-_chem_comp.id                                    EBQ 
-_chem_comp.name                                  "(2~{R},3~{S},4~{S},5~{R},6~{S})-2-(hydroxymethyl)-6-[(3~{S})-3-oxidanylbutoxy]oxane-3,4,5-triol" 
-_chem_comp.type                                  D-saccharide 
-_chem_comp.pdbx_type                             ATOMS 
-_chem_comp.formula                               "C10 H20 O7" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         "reacted 3R,4-EPOXYBUTYL-ALPHA-D-GLUCOPYRANOSIDE" 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2010-06-04 
-_chem_comp.pdbx_modified_date                    2019-01-26 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        252.262 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     EBQ 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        2XGI 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   EBQ
+_chem_comp.name                                 "(3S)-3-hydroxybutyl alpha-D-glucopyranoside"
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C10 H20 O7"
+_chem_comp.mon_nstd_parent_comp_id              GLC
+_chem_comp.pdbx_synonyms                        
+;(2~{R},3~{S},4~{S},5~{R},6~{S})-2-(hydroxymethyl)-6-[(3~{S})-3-oxidanylbutoxy]oxane-3,4,5-triol; reacted
+3R,4-EPOXYBUTYL-ALPHA-D-GLUCOPYRANOSIDE; (3S)-3-hydroxybutyl alpha-D-glucoside; (3S)-3-hydroxybutyl D-glucoside;
+(3S)-3-hydroxybutyl glucoside
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2010-06-04
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       252.262
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    EBQ
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       2XGI
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-EBQ O17 O1  O 0 1 N N N 15.377 10.211 25.526 4.744  -0.442 0.750  O17 EBQ 1  
-EBQ C9  C1  C 0 1 N N S 14.424 9.462  24.801 4.162  0.282  -0.336 C9  EBQ 2  
-EBQ C16 C2  C 0 1 N N N 14.075 10.263 23.535 5.102  0.237  -1.542 C16 EBQ 3  
-EBQ C8  C3  C 0 1 N N N 14.998 8.058  24.643 2.821  -0.352 -0.711 C8  EBQ 4  
-EBQ C7  C4  C 0 1 N N N 15.233 7.573  26.069 1.840  -0.196 0.453  C7  EBQ 5  
-EBQ O1  O2  O 0 1 N N N 14.061 8.009  26.751 0.587  -0.788 0.102  O1  EBQ 6  
-EBQ C1  C5  C 0 1 N N S 13.885 7.329  27.973 -0.406 -0.696 1.126  C1  EBQ 7  
-EBQ C2  C6  C 0 1 N N R 12.393 7.147  28.157 -1.607 -1.568 0.752  C2  EBQ 8  
-EBQ O2  O3  O 0 1 N N N 11.913 6.603  26.935 -1.177 -2.918 0.561  O2  EBQ 9  
-EBQ C3  C7  C 0 1 N N S 11.694 8.470  28.443 -2.227 -1.041 -0.546 C3  EBQ 10 
-EBQ O3  O4  O 0 1 N N N 10.313 8.257  28.746 -3.392 -1.803 -0.864 O3  EBQ 11 
-EBQ C4  C8  C 0 1 N N S 12.374 9.191  29.592 -2.612 0.429  -0.354 C4  EBQ 12 
-EBQ O4  O5  O 0 1 N N N 11.707 10.453 29.779 -3.125 0.953  -1.581 O4  EBQ 13 
-EBQ C5  C9  C 0 1 N N R 13.859 9.369  29.242 -1.372 1.224  0.063  C5  EBQ 14 
-EBQ O5  O6  O 0 1 N N N 14.483 8.098  29.004 -0.828 0.663  1.259  O5  EBQ 15 
-EBQ C6  C10 C 0 1 N N N 14.660 10.065 30.327 -1.762 2.682  0.315  C6  EBQ 16 
-EBQ O6  O7  O 0 1 N N N 14.707 9.247  31.492 -0.587 3.448  0.591  O6  EBQ 17 
-EBQ H1  H1  H 0 1 N N N 15.614 9.741  26.317 4.914  -1.373 0.556  H1  EBQ 18 
-EBQ H2  H2  H 0 1 N N N 13.505 9.378  25.400 4.003  1.319  -0.038 H2  EBQ 19 
-EBQ H3  H3  H 0 1 N N N 13.675 11.247 23.822 5.262  -0.800 -1.839 H3  EBQ 20 
-EBQ H4  H4  H 0 1 N N N 14.981 10.398 22.926 4.658  0.789  -2.370 H4  EBQ 21 
-EBQ H5  H5  H 0 1 N N N 14.283 7.403  24.123 2.419  0.143  -1.594 H5  EBQ 22 
-EBQ H6  H6  H 0 1 N N N 15.944 8.087  24.082 2.967  -1.412 -0.923 H6  EBQ 23 
-EBQ H7  H7  H 0 1 N N N 15.327 6.478  26.104 2.242  -0.691 1.336  H7  EBQ 24 
-EBQ H8  H8  H 0 1 N N N 16.135 8.032  26.499 1.694  0.863  0.665  H8  EBQ 25 
-EBQ H9  H9  H 0 1 N N N 14.357 6.336  27.924 0.014  -1.041 2.071  H9  EBQ 26 
-EBQ H10 H10 H 0 1 N N N 12.210 6.453  28.990 -2.348 -1.530 1.551  H10 EBQ 27 
-EBQ H11 H11 H 0 1 N N N 10.975 6.467  26.995 -0.769 -3.315 1.343  H11 EBQ 28 
-EBQ H12 H12 H 0 1 N N N 11.777 9.101  27.546 -1.503 -1.126 -1.357 H12 EBQ 29 
-EBQ H13 H13 H 0 1 N N N 9.894  9.092  28.921 -3.222 -2.746 -0.993 H13 EBQ 30 
-EBQ H14 H14 H 0 1 N N N 12.293 8.578  30.502 -3.374 0.507  0.422  H14 EBQ 31 
-EBQ H15 H15 H 0 1 N N N 12.116 10.925 30.495 -3.910 0.493  -1.907 H15 EBQ 32 
-EBQ H16 H16 H 0 1 N N N 13.920 9.978  28.328 -0.628 1.179  -0.732 H16 EBQ 33 
-EBQ H17 H17 H 0 1 N N N 15.683 10.246 29.966 -2.259 3.084  -0.568 H17 EBQ 34 
-EBQ H18 H18 H 0 1 N N N 14.183 11.025 30.574 -2.438 2.735  1.168  H18 EBQ 35 
-EBQ H19 H19 H 0 1 N N N 15.209 9.687  32.168 -0.759 4.384  0.761  H19 EBQ 36 
-EBQ H20 H20 H 0 1 N N N 13.319 9.716  22.952 6.058  0.689  -1.275 H20 EBQ 37 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  EBQ  "(2~{R},3~{S},4~{S},5~{R},6~{S})-2-(hydroxymethyl)-6-[(3~{S})-3-oxidanylbutoxy]oxane-3,4,5-triol"  PDB  ?  
+2  EBQ  "reacted 3R,4-EPOXYBUTYL-ALPHA-D-GLUCOPYRANOSIDE"                                                  PDB  ?  
+3  EBQ  "(3S)-3-hydroxybutyl alpha-D-glucoside"                                                            PDB  ?  
+4  EBQ  "(3S)-3-hydroxybutyl D-glucoside"                                                                  PDB  ?  
+5  EBQ  "(3S)-3-hydroxybutyl glucoside"                                                                    PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-EBQ C16 C9  SING N N 1  
-EBQ C8  C9  SING N N 2  
-EBQ C8  C7  SING N N 3  
-EBQ C9  O17 SING N N 4  
-EBQ C7  O1  SING N N 5  
-EBQ O1  C1  SING N N 6  
-EBQ O2  C2  SING N N 7  
-EBQ C1  C2  SING N N 8  
-EBQ C1  O5  SING N N 9  
-EBQ C2  C3  SING N N 10 
-EBQ C3  O3  SING N N 11 
-EBQ C3  C4  SING N N 12 
-EBQ O5  C5  SING N N 13 
-EBQ C5  C4  SING N N 14 
-EBQ C5  C6  SING N N 15 
-EBQ C4  O4  SING N N 16 
-EBQ C6  O6  SING N N 17 
-EBQ O17 H1  SING N N 18 
-EBQ C9  H2  SING N N 19 
-EBQ C16 H3  SING N N 20 
-EBQ C16 H4  SING N N 21 
-EBQ C8  H5  SING N N 22 
-EBQ C8  H6  SING N N 23 
-EBQ C7  H7  SING N N 24 
-EBQ C7  H8  SING N N 25 
-EBQ C1  H9  SING N N 26 
-EBQ C2  H10 SING N N 27 
-EBQ O2  H11 SING N N 28 
-EBQ C3  H12 SING N N 29 
-EBQ O3  H13 SING N N 30 
-EBQ C4  H14 SING N N 31 
-EBQ O4  H15 SING N N 32 
-EBQ C5  H16 SING N N 33 
-EBQ C6  H17 SING N N 34 
-EBQ C6  H18 SING N N 35 
-EBQ O6  H19 SING N N 36 
-EBQ C16 H20 SING N N 37 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+EBQ  O17  O17  O  0  1  N  N  N  15.377  10.211  25.526   4.744  -0.442   0.750  O17  EBQ   1  
+EBQ  C9   C9   C  0  1  N  N  S  14.424   9.462  24.801   4.162   0.282  -0.336  C9   EBQ   2  
+EBQ  C16  C16  C  0  1  N  N  N  14.075  10.263  23.535   5.102   0.237  -1.542  C16  EBQ   3  
+EBQ  C8   C8   C  0  1  N  N  N  14.998   8.058  24.643   2.821  -0.352  -0.711  C8   EBQ   4  
+EBQ  C7   C7   C  0  1  N  N  N  15.233   7.573  26.069   1.840  -0.196   0.453  C7   EBQ   5  
+EBQ  O1   O1   O  0  1  N  N  N  14.061   8.009  26.751   0.587  -0.788   0.102  O1   EBQ   6  
+EBQ  C1   C1   C  0  1  N  N  S  13.885   7.329  27.973  -0.406  -0.696   1.126  C1   EBQ   7  
+EBQ  C2   C2   C  0  1  N  N  R  12.393   7.147  28.157  -1.607  -1.568   0.752  C2   EBQ   8  
+EBQ  O2   O2   O  0  1  N  N  N  11.913   6.603  26.935  -1.177  -2.918   0.561  O2   EBQ   9  
+EBQ  C3   C3   C  0  1  N  N  S  11.694   8.470  28.443  -2.227  -1.041  -0.546  C3   EBQ  10  
+EBQ  O3   O3   O  0  1  N  N  N  10.313   8.257  28.746  -3.392  -1.803  -0.864  O3   EBQ  11  
+EBQ  C4   C4   C  0  1  N  N  S  12.374   9.191  29.592  -2.612   0.429  -0.354  C4   EBQ  12  
+EBQ  O4   O4   O  0  1  N  N  N  11.707  10.453  29.779  -3.125   0.953  -1.581  O4   EBQ  13  
+EBQ  C5   C5   C  0  1  N  N  R  13.859   9.369  29.242  -1.372   1.224   0.063  C5   EBQ  14  
+EBQ  O5   O5   O  0  1  N  N  N  14.483   8.098  29.004  -0.828   0.663   1.259  O5   EBQ  15  
+EBQ  C6   C6   C  0  1  N  N  N  14.660  10.065  30.327  -1.762   2.682   0.315  C6   EBQ  16  
+EBQ  O6   O6   O  0  1  N  N  N  14.707   9.247  31.492  -0.587   3.448   0.591  O6   EBQ  17  
+EBQ  H1A  H1   H  0  1  N  N  N  15.614   9.741  26.317   4.914  -1.373   0.556  H1A  EBQ  18  
+EBQ  H2A  H2   H  0  1  N  N  N  13.505   9.378  25.400   4.003   1.319  -0.038  H2A  EBQ  19  
+EBQ  H3A  H3   H  0  1  N  N  N  13.675  11.247  23.822   5.262  -0.800  -1.839  H3A  EBQ  20  
+EBQ  H4A  H4   H  0  1  N  N  N  14.981  10.398  22.926   4.658   0.789  -2.370  H4A  EBQ  21  
+EBQ  H5A  H5   H  0  1  N  N  N  14.283   7.403  24.123   2.419   0.143  -1.594  H5A  EBQ  22  
+EBQ  H6   H6   H  0  1  N  N  N  15.944   8.087  24.082   2.967  -1.412  -0.923  H6   EBQ  23  
+EBQ  H7   H7   H  0  1  N  N  N  15.327   6.478  26.104   2.242  -0.691   1.336  H7   EBQ  24  
+EBQ  H8   H8   H  0  1  N  N  N  16.135   8.032  26.499   1.694   0.863   0.665  H8   EBQ  25  
+EBQ  H1   H9   H  0  1  N  N  N  14.357   6.336  27.924   0.014  -1.041   2.071  H1   EBQ  26  
+EBQ  H2   H10  H  0  1  N  N  N  12.210   6.453  28.990  -2.348  -1.530   1.551  H2   EBQ  27  
+EBQ  HO2  H11  H  0  1  N  Y  N  10.975   6.467  26.995  -0.769  -3.315   1.343  HO2  EBQ  28  
+EBQ  H3   H12  H  0  1  N  N  N  11.777   9.101  27.546  -1.503  -1.126  -1.357  H3   EBQ  29  
+EBQ  HO3  H13  H  0  1  N  Y  N   9.894   9.092  28.921  -3.222  -2.746  -0.993  HO3  EBQ  30  
+EBQ  H4   H14  H  0  1  N  N  N  12.293   8.578  30.502  -3.374   0.507   0.422  H4   EBQ  31  
+EBQ  HO4  H15  H  0  1  N  Y  N  12.116  10.925  30.495  -3.910   0.493  -1.907  HO4  EBQ  32  
+EBQ  H5   H16  H  0  1  N  N  N  13.920   9.978  28.328  -0.628   1.179  -0.732  H5   EBQ  33  
+EBQ  H61  H17  H  0  1  N  N  N  15.683  10.246  29.966  -2.259   3.084  -0.568  H61  EBQ  34  
+EBQ  H62  H18  H  0  1  N  N  N  14.183  11.025  30.574  -2.438   2.735   1.168  H62  EBQ  35  
+EBQ  HO6  H19  H  0  1  N  Y  N  15.209   9.687  32.168  -0.759   4.384   0.761  HO6  EBQ  36  
+EBQ  H20  H20  H  0  1  N  N  N  13.319   9.716  22.952   6.058   0.689  -1.275  H20  EBQ  37  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-EBQ InChI            InChI                1.03  "InChI=1S/C10H20O7/c1-5(12)2-3-16-10-9(15)8(14)7(13)6(4-11)17-10/h5-15H,2-4H2,1H3/t5-,6+,7+,8-,9+,10-/m0/s1" 
-EBQ InChIKey         InChI                1.03  IQTXPPTUXXJFDH-DLXYEPTOSA-N                                                                                  
-EBQ SMILES_CANONICAL CACTVS               3.385 "C[C@H](O)CCO[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O"                                                       
-EBQ SMILES           CACTVS               3.385 "C[CH](O)CCO[CH]1O[CH](CO)[CH](O)[CH](O)[CH]1O"                                                              
-EBQ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C[C@@H](CCO[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)O"                                                  
-EBQ SMILES           "OpenEye OEToolkits" 2.0.6 "CC(CCOC1C(C(C(C(O1)CO)O)O)O)O"                                                                              
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+EBQ  C16  C9   SING  N  N   1  
+EBQ  C8   C9   SING  N  N   2  
+EBQ  C8   C7   SING  N  N   3  
+EBQ  C9   O17  SING  N  N   4  
+EBQ  C7   O1   SING  N  N   5  
+EBQ  O1   C1   SING  N  N   6  
+EBQ  O2   C2   SING  N  N   7  
+EBQ  C1   C2   SING  N  N   8  
+EBQ  C1   O5   SING  N  N   9  
+EBQ  C2   C3   SING  N  N  10  
+EBQ  C3   O3   SING  N  N  11  
+EBQ  C3   C4   SING  N  N  12  
+EBQ  O5   C5   SING  N  N  13  
+EBQ  C5   C4   SING  N  N  14  
+EBQ  C5   C6   SING  N  N  15  
+EBQ  C4   O4   SING  N  N  16  
+EBQ  C6   O6   SING  N  N  17  
+EBQ  O17  H1A  SING  N  N  18  
+EBQ  C9   H2A  SING  N  N  19  
+EBQ  C16  H3A  SING  N  N  20  
+EBQ  C16  H4A  SING  N  N  21  
+EBQ  C8   H5A  SING  N  N  22  
+EBQ  C8   H6   SING  N  N  23  
+EBQ  C7   H7   SING  N  N  24  
+EBQ  C7   H8   SING  N  N  25  
+EBQ  C1   H1   SING  N  N  26  
+EBQ  C2   H2   SING  N  N  27  
+EBQ  O2   HO2  SING  N  N  28  
+EBQ  C3   H3   SING  N  N  29  
+EBQ  O3   HO3  SING  N  N  30  
+EBQ  C4   H4   SING  N  N  31  
+EBQ  O4   HO4  SING  N  N  32  
+EBQ  C5   H5   SING  N  N  33  
+EBQ  C6   H61  SING  N  N  34  
+EBQ  C6   H62  SING  N  N  35  
+EBQ  O6   HO6  SING  N  N  36  
+EBQ  C16  H20  SING  N  N  37  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-EBQ "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "(2~{R},3~{S},4~{S},5~{R},6~{S})-2-(hydroxymethyl)-6-[(3~{S})-3-oxidanylbutoxy]oxane-3,4,5-triol" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+EBQ  InChI             InChI                 1.03   "InChI=1S/C10H20O7/c1-5(12)2-3-16-10-9(15)8(14)7(13)6(4-11)17-10/h5-15H,2-4H2,1H3/t5-,6+,7+,8-,9+,10-/m0/s1"  
+EBQ  InChIKey          InChI                 1.03   IQTXPPTUXXJFDH-DLXYEPTOSA-N  
+EBQ  SMILES_CANONICAL  CACTVS                3.385  "C[C@H](O)CCO[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O"  
+EBQ  SMILES            CACTVS                3.385  "C[CH](O)CCO[CH]1O[CH](CO)[CH](O)[CH](O)[CH]1O"  
+EBQ  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.6  "C[C@@H](CCO[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)O"  
+EBQ  SMILES            "OpenEye OEToolkits"  2.0.6  "CC(CCOC1C(C(C(C(O1)CO)O)O)O)O"  
+#
+_pdbx_chem_comp_identifier.comp_id          EBQ
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.6
+_pdbx_chem_comp_identifier.identifier       "(2~{R},3~{S},4~{S},5~{R},6~{S})-2-(hydroxymethyl)-6-[(3~{S})-3-oxidanylbutoxy]oxane-3,4,5-triol"
+#
+_pdbx_chem_comp_related.comp_id            EBQ
+_pdbx_chem_comp_related.related_comp_id    GLC
+_pdbx_chem_comp_related.relationship_type  "Carbohydrate core"
+_pdbx_chem_comp_related.details            ?
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-EBQ "Create component"   2010-06-04 EBI  
-EBQ "Modify descriptor"  2011-06-04 RCSB 
-EBQ "Other modification" 2019-01-26 EBI  
-# 
+_pdbx_chem_comp_atom_related.ordinal
+_pdbx_chem_comp_atom_related.comp_id
+_pdbx_chem_comp_atom_related.atom_id
+_pdbx_chem_comp_atom_related.related_comp_id
+_pdbx_chem_comp_atom_related.related_atom_id
+_pdbx_chem_comp_atom_related.related_type
+ 1  EBQ  C1   GLC  C1   "Carbohydrate core"  
+ 2  EBQ  C2   GLC  C2   "Carbohydrate core"  
+ 3  EBQ  C3   GLC  C3   "Carbohydrate core"  
+ 4  EBQ  C4   GLC  C4   "Carbohydrate core"  
+ 5  EBQ  C5   GLC  C5   "Carbohydrate core"  
+ 6  EBQ  C6   GLC  C6   "Carbohydrate core"  
+ 7  EBQ  O1   GLC  O1   "Carbohydrate core"  
+ 8  EBQ  O2   GLC  O2   "Carbohydrate core"  
+ 9  EBQ  O3   GLC  O3   "Carbohydrate core"  
+10  EBQ  O4   GLC  O4   "Carbohydrate core"  
+11  EBQ  O5   GLC  O5   "Carbohydrate core"  
+12  EBQ  O6   GLC  O6   "Carbohydrate core"  
+13  EBQ  H2   GLC  H2   "Carbohydrate core"  
+14  EBQ  HO2  GLC  HO2  "Carbohydrate core"  
+15  EBQ  H3   GLC  H3   "Carbohydrate core"  
+16  EBQ  HO3  GLC  HO3  "Carbohydrate core"  
+17  EBQ  H4   GLC  H4   "Carbohydrate core"  
+18  EBQ  HO4  GLC  HO4  "Carbohydrate core"  
+19  EBQ  H5   GLC  H5   "Carbohydrate core"  
+20  EBQ  H61  GLC  H61  "Carbohydrate core"  
+21  EBQ  H62  GLC  H62  "Carbohydrate core"  
+22  EBQ  HO6  GLC  HO6  "Carbohydrate core"  
+23  EBQ  H1   GLC  H1   "Carbohydrate core"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+EBQ  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+EBQ  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+EBQ  "CARBOHYDRATE ANOMER"                  alpha     PDB  ?  
+EBQ  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+EBQ  "Create component"          2010-06-04  EBI   
+EBQ  "Modify descriptor"         2011-06-04  RCSB  
+EBQ  "Other modification"        2019-01-26  EBI   
+EBQ  "Other modification"        2020-07-03  RCSB  
+EBQ  "Modify parent residue"     2020-07-17  RCSB  
+EBQ  "Modify name"               2020-07-17  RCSB  
+EBQ  "Modify synonyms"           2020-07-17  RCSB  
+EBQ  "Modify atom id"            2020-07-17  RCSB  
+EBQ  "Modify component atom id"  2020-07-17  RCSB  
+EBQ  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

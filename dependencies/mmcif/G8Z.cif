@@ -1,155 +1,224 @@
 data_G8Z
-# 
-_chem_comp.id                                    G8Z 
-_chem_comp.name                                  Allyl-Alpha-4-Methyl-Mannoside 
-_chem_comp.type                                  D-SACCHARIDE 
-_chem_comp.pdbx_type                             ATOMS 
-_chem_comp.formula                               "C10 H18 O6" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2016-01-04 
-_chem_comp.pdbx_modified_date                    2017-03-24 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        234.246 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     G8Z 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        5FSC 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   G8Z
+_chem_comp.name                                 "prop-2-en-1-yl 4-O-methyl-alpha-D-mannopyranoside"
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C10 H18 O6"
+_chem_comp.mon_nstd_parent_comp_id              MAN
+_chem_comp.pdbx_synonyms                        
+;Allyl-Alpha-4-Methyl-Mannoside; prop-2-en-1-yl 4-O-methyl-alpha-D-mannoside; prop-2-en-1-yl 4-O-methyl-D-mannoside;
+prop-2-en-1-yl 4-O-methyl-mannoside
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2016-01-04
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       234.246
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    G8Z
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       5FSC
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-G8Z O6   O6   O 0 1 N N N 6.316 -19.584 10.761 0.756  3.116  0.963  O6   G8Z 1  
-G8Z C6   C6   C 0 1 N N N 5.861 -18.323 10.372 -0.486 2.461  0.698  C6   G8Z 2  
-G8Z C5   C5   C 0 1 N N R 6.063 -18.120 8.870  -0.216 1.029  0.229  C5   G8Z 3  
-G8Z C4   C4   C 0 1 N N S 5.353 -16.817 8.443  -1.536 0.367  -0.174 C4   G8Z 4  
-G8Z O4   O4   O 0 1 N N N 6.066 -15.779 9.095  -2.110 1.076  -1.274 O4   G8Z 5  
-G8Z C7   C7   C 0 1 N N N 5.353 -15.177 10.153 -3.538 1.033  -1.312 C7   G8Z 6  
-G8Z C3   C3   C 0 1 N N R 5.463 -16.602 6.927  -1.266 -1.084 -0.585 C3   G8Z 7  
-G8Z O3   O3   O 0 1 N N N 4.774 -15.417 6.522  -2.502 -1.732 -0.892 O3   G8Z 8  
-G8Z C2   C2   C 0 1 N N S 4.925 -17.863 6.218  -0.581 -1.812 0.575  C2   G8Z 9  
-G8Z O2   O2   O 0 1 N N N 3.518 -17.928 6.309  -1.459 -1.847 1.702  O2   G8Z 10 
-G8Z O5   O5   O 0 1 N N N 5.504 -19.219 8.150  0.384  0.285  1.291  O5   G8Z 11 
-G8Z C1   C1   C 0 1 N N S 5.683 -19.122 6.750  0.702  -1.066 0.950  C1   G8Z 12 
-G8Z O1   O1   O 0 1 N N N 7.002 -18.871 6.351  1.601  -1.077 -0.161 O1   G8Z 13 
-G8Z C8   C8   C 0 1 N N N 8.070 -19.803 6.416  2.914  -0.607 0.149  C8   G8Z 14 
-G8Z C9   C9   C 0 1 N N N 7.675 -21.111 7.040  3.773  -0.662 -1.088 C9   G8Z 15 
-G8Z C10  C10  C 0 1 N N N 6.664 -21.872 6.591  4.544  0.351  -1.397 C10  G8Z 16 
-G8Z HO6  HO6  H 0 1 N N N 6.184 -19.695 11.695 0.661  4.030  1.265  HO6  G8Z 17 
-G8Z H61C H61C H 0 0 N N N 4.790 -18.236 10.608 -1.086 2.438  1.607  H61C G8Z 18 
-G8Z H62C H62C H 0 0 N N N 6.421 -17.551 10.920 -1.024 3.002  -0.080 H62C G8Z 19 
-G8Z H5   H5   H 0 1 N N N 7.139 -18.027 8.660  0.458  1.048  -0.628 H5   G8Z 20 
-G8Z H4   H4   H 0 1 N N N 4.296 -16.845 8.747  -2.226 0.385  0.670  H4   G8Z 21 
-G8Z H3   H3   H 0 1 N N N 6.530 -16.505 6.676  -0.618 -1.100 -1.461 H3   G8Z 22 
-G8Z H71C H71C H 0 0 N N N 5.968 -14.386 10.607 -3.868 -0.003 -1.390 H71C G8Z 23 
-G8Z H72C H72C H 0 0 N N N 4.421 -14.740 9.765  -3.939 1.475  -0.401 H72C G8Z 24 
-G8Z H73C H73C H 0 0 N N N 5.114 -15.936 10.912 -3.895 1.594  -2.176 H73C G8Z 25 
-G8Z HO3  HO3  H 0 1 N N N 4.857 -15.307 5.582  -2.406 -2.655 -1.161 HO3  G8Z 26 
-G8Z H2   H2   H 0 1 N N N 5.195 -17.765 5.156  -0.336 -2.830 0.273  H2   G8Z 27 
-G8Z HO2  HO2  H 0 1 N N N 3.207 -18.710 5.867  -1.089 -2.295 2.476  HO2  G8Z 28 
-G8Z H1   H1   H 0 1 N N N 5.283 -20.013 6.244  1.172  -1.555 1.803  H1   G8Z 29 
-G8Z H81C H81C H 0 0 N N N 8.428 -19.997 5.394  2.857  0.421  0.506  H81C G8Z 30 
-G8Z H82C H82C H 0 0 N N N 8.883 -19.362 7.012  3.352  -1.237 0.924  H82C G8Z 31 
-G8Z H9   H9   H 0 1 N N N 8.234 -21.458 7.896  3.753  -1.538 -1.721 H9   G8Z 32 
-G8Z H101 H101 H 0 0 N N N 6.429 -22.804 7.084  4.564  1.226  -0.764 H101 G8Z 33 
-G8Z H102 H102 H 0 0 N N N 6.086 -21.552 5.737  5.159  0.312  -2.283 H102 G8Z 34 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  G8Z  Allyl-Alpha-4-Methyl-Mannoside                 PDB  ?  
+2  G8Z  "prop-2-en-1-yl 4-O-methyl-alpha-D-mannoside"  PDB  ?  
+3  G8Z  "prop-2-en-1-yl 4-O-methyl-D-mannoside"        PDB  ?  
+4  G8Z  "prop-2-en-1-yl 4-O-methyl-mannoside"          PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-G8Z O6  C6   SING N N 1  
-G8Z C6  C5   SING N N 2  
-G8Z C5  C4   SING N N 3  
-G8Z C5  O5   SING N N 4  
-G8Z C4  O4   SING N N 5  
-G8Z C4  C3   SING N N 6  
-G8Z O4  C7   SING N N 7  
-G8Z C3  O3   SING N N 8  
-G8Z C3  C2   SING N N 9  
-G8Z C2  O2   SING N N 10 
-G8Z C2  C1   SING N N 11 
-G8Z O5  C1   SING N N 12 
-G8Z C1  O1   SING N N 13 
-G8Z O1  C8   SING N N 14 
-G8Z C8  C9   SING N N 15 
-G8Z C9  C10  DOUB N N 16 
-G8Z O6  HO6  SING N N 17 
-G8Z C6  H61C SING N N 18 
-G8Z C6  H62C SING N N 19 
-G8Z C5  H5   SING N N 20 
-G8Z C4  H4   SING N N 21 
-G8Z C3  H3   SING N N 22 
-G8Z C7  H71C SING N N 23 
-G8Z C7  H72C SING N N 24 
-G8Z C7  H73C SING N N 25 
-G8Z O3  HO3  SING N N 26 
-G8Z C2  H2   SING N N 27 
-G8Z O2  HO2  SING N N 28 
-G8Z C1  H1   SING N N 29 
-G8Z C8  H81C SING N N 30 
-G8Z C8  H82C SING N N 31 
-G8Z C9  H9   SING N N 32 
-G8Z C10 H101 SING N N 33 
-G8Z C10 H102 SING N N 34 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+G8Z  O6    O6    O  0  1  N  N  N  6.316  -19.584  10.761   0.756   3.116   0.963  O6    G8Z   1  
+G8Z  C6    C6    C  0  1  N  N  N  5.861  -18.323  10.372  -0.486   2.461   0.698  C6    G8Z   2  
+G8Z  C5    C5    C  0  1  N  N  R  6.063  -18.120   8.870  -0.216   1.029   0.229  C5    G8Z   3  
+G8Z  C4    C4    C  0  1  N  N  S  5.353  -16.817   8.443  -1.536   0.367  -0.174  C4    G8Z   4  
+G8Z  O4    O4    O  0  1  N  N  N  6.066  -15.779   9.095  -2.110   1.076  -1.274  O4    G8Z   5  
+G8Z  C7    C7    C  0  1  N  N  N  5.353  -15.177  10.153  -3.538   1.033  -1.312  C7    G8Z   6  
+G8Z  C3    C3    C  0  1  N  N  R  5.463  -16.602   6.927  -1.266  -1.084  -0.585  C3    G8Z   7  
+G8Z  O3    O3    O  0  1  N  N  N  4.774  -15.417   6.522  -2.502  -1.732  -0.892  O3    G8Z   8  
+G8Z  C2    C2    C  0  1  N  N  S  4.925  -17.863   6.218  -0.581  -1.812   0.575  C2    G8Z   9  
+G8Z  O2    O2    O  0  1  N  N  N  3.518  -17.928   6.309  -1.459  -1.847   1.702  O2    G8Z  10  
+G8Z  O5    O5    O  0  1  N  N  N  5.504  -19.219   8.150   0.384   0.285   1.291  O5    G8Z  11  
+G8Z  C1    C1    C  0  1  N  N  S  5.683  -19.122   6.750   0.702  -1.066   0.950  C1    G8Z  12  
+G8Z  O1    O1    O  0  1  N  N  N  7.002  -18.871   6.351   1.601  -1.077  -0.161  O1    G8Z  13  
+G8Z  C8    C8    C  0  1  N  N  N  8.070  -19.803   6.416   2.914  -0.607   0.149  C8    G8Z  14  
+G8Z  C9    C9    C  0  1  N  N  N  7.675  -21.111   7.040   3.773  -0.662  -1.088  C9    G8Z  15  
+G8Z  C10   C10   C  0  1  N  N  N  6.664  -21.872   6.591   4.544   0.351  -1.397  C10   G8Z  16  
+G8Z  HO6   HO6   H  0  1  N  Y  N  6.184  -19.695  11.695   0.661   4.030   1.265  HO6   G8Z  17  
+G8Z  H61   H61C  H  0  1  N  N  N  4.790  -18.236  10.608  -1.086   2.438   1.607  H61   G8Z  18  
+G8Z  H62   H62C  H  0  1  N  N  N  6.421  -17.551  10.920  -1.024   3.002  -0.080  H62   G8Z  19  
+G8Z  H5    H5    H  0  1  N  N  N  7.139  -18.027   8.660   0.458   1.048  -0.628  H5    G8Z  20  
+G8Z  H4    H4    H  0  1  N  N  N  4.296  -16.845   8.747  -2.226   0.385   0.670  H4    G8Z  21  
+G8Z  H3    H3    H  0  1  N  N  N  6.530  -16.505   6.676  -0.618  -1.100  -1.461  H3    G8Z  22  
+G8Z  H71C  H71C  H  0  0  N  N  N  5.968  -14.386  10.607  -3.868  -0.003  -1.390  H71C  G8Z  23  
+G8Z  H72C  H72C  H  0  0  N  N  N  4.421  -14.740   9.765  -3.939   1.475  -0.401  H72C  G8Z  24  
+G8Z  H73C  H73C  H  0  0  N  N  N  5.114  -15.936  10.912  -3.895   1.594  -2.176  H73C  G8Z  25  
+G8Z  HO3   HO3   H  0  1  N  Y  N  4.857  -15.307   5.582  -2.406  -2.655  -1.161  HO3   G8Z  26  
+G8Z  H2    H2    H  0  1  N  N  N  5.195  -17.765   5.156  -0.336  -2.830   0.273  H2    G8Z  27  
+G8Z  HO2   HO2   H  0  1  N  Y  N  3.207  -18.710   5.867  -1.089  -2.295   2.476  HO2   G8Z  28  
+G8Z  H1    H1    H  0  1  N  N  N  5.283  -20.013   6.244   1.172  -1.555   1.803  H1    G8Z  29  
+G8Z  H81C  H81C  H  0  0  N  N  N  8.428  -19.997   5.394   2.857   0.421   0.506  H81C  G8Z  30  
+G8Z  H82C  H82C  H  0  0  N  N  N  8.883  -19.362   7.012   3.352  -1.237   0.924  H82C  G8Z  31  
+G8Z  H9    H9    H  0  1  N  N  N  8.234  -21.458   7.896   3.753  -1.538  -1.721  H9    G8Z  32  
+G8Z  H101  H101  H  0  0  N  N  N  6.429  -22.804   7.084   4.564   1.226  -0.764  H101  G8Z  33  
+G8Z  H102  H102  H  0  0  N  N  N  6.086  -21.552   5.737   5.159   0.312  -2.283  H102  G8Z  34  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-G8Z InChI            InChI                1.03  "InChI=1S/C10H18O6/c1-3-4-15-10-8(13)7(12)9(14-2)6(5-11)16-10/h3,6-13H,1,4-5H2,2H3/t6-,7-,8+,9-,10+/m1/s1" 
-G8Z InChIKey         InChI                1.03  VOIKDSWIMJSKCR-SPFKKGSWSA-N                                                                                
-G8Z SMILES_CANONICAL CACTVS               3.385 "CO[C@H]1[C@H](O)[C@H](O)[C@@H](OCC=C)O[C@@H]1CO"                                                          
-G8Z SMILES           CACTVS               3.385 "CO[CH]1[CH](O)[CH](O)[CH](OCC=C)O[CH]1CO"                                                                 
-G8Z SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "CO[C@@H]1[C@H](O[C@@H]([C@H]([C@H]1O)O)OCC=C)CO"                                                          
-G8Z SMILES           "OpenEye OEToolkits" 1.7.6 "COC1C(OC(C(C1O)O)OCC=C)CO"                                                                                
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+G8Z  O6   C6    SING  N  N   1  
+G8Z  C6   C5    SING  N  N   2  
+G8Z  C5   C4    SING  N  N   3  
+G8Z  C5   O5    SING  N  N   4  
+G8Z  C4   O4    SING  N  N   5  
+G8Z  C4   C3    SING  N  N   6  
+G8Z  O4   C7    SING  N  N   7  
+G8Z  C3   O3    SING  N  N   8  
+G8Z  C3   C2    SING  N  N   9  
+G8Z  C2   O2    SING  N  N  10  
+G8Z  C2   C1    SING  N  N  11  
+G8Z  O5   C1    SING  N  N  12  
+G8Z  C1   O1    SING  N  N  13  
+G8Z  O1   C8    SING  N  N  14  
+G8Z  C8   C9    SING  N  N  15  
+G8Z  C9   C10   DOUB  N  N  16  
+G8Z  O6   HO6   SING  N  N  17  
+G8Z  C6   H61   SING  N  N  18  
+G8Z  C6   H62   SING  N  N  19  
+G8Z  C5   H5    SING  N  N  20  
+G8Z  C4   H4    SING  N  N  21  
+G8Z  C3   H3    SING  N  N  22  
+G8Z  C7   H71C  SING  N  N  23  
+G8Z  C7   H72C  SING  N  N  24  
+G8Z  C7   H73C  SING  N  N  25  
+G8Z  O3   HO3   SING  N  N  26  
+G8Z  C2   H2    SING  N  N  27  
+G8Z  O2   HO2   SING  N  N  28  
+G8Z  C1   H1    SING  N  N  29  
+G8Z  C8   H81C  SING  N  N  30  
+G8Z  C8   H82C  SING  N  N  31  
+G8Z  C9   H9    SING  N  N  32  
+G8Z  C10  H101  SING  N  N  33  
+G8Z  C10  H102  SING  N  N  34  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-G8Z "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.7.6 "(2S,3S,4R,5S,6R)-6-(hydroxymethyl)-5-methoxy-2-prop-2-enoxy-oxane-3,4-diol" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+G8Z  InChI             InChI                 1.03   "InChI=1S/C10H18O6/c1-3-4-15-10-8(13)7(12)9(14-2)6(5-11)16-10/h3,6-13H,1,4-5H2,2H3/t6-,7-,8+,9-,10+/m1/s1"  
+G8Z  InChIKey          InChI                 1.03   VOIKDSWIMJSKCR-SPFKKGSWSA-N  
+G8Z  SMILES_CANONICAL  CACTVS                3.385  "CO[C@H]1[C@H](O)[C@H](O)[C@@H](OCC=C)O[C@@H]1CO"  
+G8Z  SMILES            CACTVS                3.385  "CO[CH]1[CH](O)[CH](O)[CH](OCC=C)O[CH]1CO"  
+G8Z  SMILES_CANONICAL  "OpenEye OEToolkits"  1.7.6  "CO[C@@H]1[C@H](O[C@@H]([C@H]([C@H]1O)O)OCC=C)CO"  
+G8Z  SMILES            "OpenEye OEToolkits"  1.7.6  "COC1C(OC(C(C1O)O)OCC=C)CO"  
+#
+_pdbx_chem_comp_identifier.comp_id          G8Z
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  1.7.6
+_pdbx_chem_comp_identifier.identifier       "(2S,3S,4R,5S,6R)-6-(hydroxymethyl)-5-methoxy-2-prop-2-enoxy-oxane-3,4-diol"
+#
+_pdbx_chem_comp_related.comp_id            G8Z
+_pdbx_chem_comp_related.related_comp_id    MAN
+_pdbx_chem_comp_related.relationship_type  "Carbohydrate core"
+_pdbx_chem_comp_related.details            ?
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-G8Z "Create component"   2016-01-04 EBI  
-G8Z "Modify atom id"     2016-02-22 EBI  
-G8Z "Other modification" 2016-03-03 EBI  
-G8Z "Initial release"    2017-03-29 RCSB 
-# 
+_pdbx_chem_comp_atom_related.ordinal
+_pdbx_chem_comp_atom_related.comp_id
+_pdbx_chem_comp_atom_related.atom_id
+_pdbx_chem_comp_atom_related.related_comp_id
+_pdbx_chem_comp_atom_related.related_atom_id
+_pdbx_chem_comp_atom_related.related_type
+ 1  G8Z  C1   MAN  C1   "Carbohydrate core"  
+ 2  G8Z  C2   MAN  C2   "Carbohydrate core"  
+ 3  G8Z  C3   MAN  C3   "Carbohydrate core"  
+ 4  G8Z  C4   MAN  C4   "Carbohydrate core"  
+ 5  G8Z  C5   MAN  C5   "Carbohydrate core"  
+ 6  G8Z  C6   MAN  C6   "Carbohydrate core"  
+ 7  G8Z  O1   MAN  O1   "Carbohydrate core"  
+ 8  G8Z  O2   MAN  O2   "Carbohydrate core"  
+ 9  G8Z  O3   MAN  O3   "Carbohydrate core"  
+10  G8Z  O4   MAN  O4   "Carbohydrate core"  
+11  G8Z  O5   MAN  O5   "Carbohydrate core"  
+12  G8Z  O6   MAN  O6   "Carbohydrate core"  
+13  G8Z  H1   MAN  H1   "Carbohydrate core"  
+14  G8Z  H2   MAN  H2   "Carbohydrate core"  
+15  G8Z  H3   MAN  H3   "Carbohydrate core"  
+16  G8Z  H4   MAN  H4   "Carbohydrate core"  
+17  G8Z  H5   MAN  H5   "Carbohydrate core"  
+18  G8Z  H61  MAN  H61  "Carbohydrate core"  
+19  G8Z  H62  MAN  H62  "Carbohydrate core"  
+20  G8Z  HO2  MAN  HO2  "Carbohydrate core"  
+21  G8Z  HO3  MAN  HO3  "Carbohydrate core"  
+22  G8Z  HO6  MAN  HO6  "Carbohydrate core"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+G8Z  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+G8Z  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+G8Z  "CARBOHYDRATE ANOMER"                  alpha     PDB  ?  
+G8Z  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+G8Z  "Create component"          2016-01-04  EBI   
+G8Z  "Modify atom id"            2016-02-22  EBI   
+G8Z  "Other modification"        2016-03-03  EBI   
+G8Z  "Initial release"           2017-03-29  RCSB  
+G8Z  "Other modification"        2020-07-03  RCSB  
+G8Z  "Modify parent residue"     2020-07-17  RCSB  
+G8Z  "Modify name"               2020-07-17  RCSB  
+G8Z  "Modify synonyms"           2020-07-17  RCSB  
+G8Z  "Modify linking type"       2020-07-17  RCSB  
+G8Z  "Modify atom id"            2020-07-17  RCSB  
+G8Z  "Modify component atom id"  2020-07-17  RCSB  
+G8Z  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

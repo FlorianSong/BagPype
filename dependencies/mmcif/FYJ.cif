@@ -1,154 +1,184 @@
 data_FYJ
-# 
-_chem_comp.id                                    FYJ 
-_chem_comp.name                                  "phenyl 1-thio-beta-D-glucopyranosiduronic acid" 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C12 H14 O6 S" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2018-04-25 
-_chem_comp.pdbx_modified_date                    2018-10-12 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        286.301 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     FYJ 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        6D7F 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  RCSB 
-# 
+#
+
+_chem_comp.id                                   FYJ
+_chem_comp.name                                 "phenyl 1-thio-beta-D-glucopyranosiduronic acid"
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C12 H14 O6 S"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        "phenyl 1-thio-beta-D-glucosiduronic acid; phenyl 1-thio-D-glucosiduronic acid; phenyl 1-thio-glucosiduronic acid"
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2018-04-25
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       286.301
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    FYJ
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6D7F
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-FYJ C10 C1  C 0 1 N N N 101.569 -75.340 -30.172 -1.692 2.361  0.364  C10 FYJ 1  
-FYJ C02 C2  C 0 1 N N S 98.582  -75.482 -27.884 -2.487 -1.288 -0.476 C02 FYJ 2  
-FYJ C03 C3  C 0 1 N N R 99.062  -74.602 -26.780 -1.219 -1.862 0.164  C03 FYJ 3  
-FYJ C05 C4  C 0 1 N N S 100.588 -74.433 -26.686 -0.043 -0.925 -0.123 C05 FYJ 4  
-FYJ C07 C5  C 0 1 N N S 100.754 -75.443 -28.884 -1.490 0.986  -0.218 C07 FYJ 5  
-FYJ C08 C6  C 0 1 N N S 99.302  -75.188 -29.167 -2.724 0.125  0.065  C08 FYJ 6  
-FYJ C14 C7  C 0 1 Y N N 102.855 -72.920 -25.268 2.704  -0.455 0.135  C14 FYJ 7  
-FYJ C15 C8  C 0 1 Y N N 103.870 -72.694 -26.187 2.382  0.591  -0.721 C15 FYJ 8  
-FYJ C16 C9  C 0 1 Y N N 105.241 -72.685 -25.780 3.368  1.458  -1.150 C16 FYJ 9  
-FYJ C17 C10 C 0 1 Y N N 105.560 -72.921 -24.479 4.674  1.286  -0.729 C17 FYJ 10 
-FYJ C18 C11 C 0 1 Y N N 104.539 -73.167 -23.541 4.998  0.246  0.124  C18 FYJ 11 
-FYJ C19 C12 C 0 1 Y N N 103.179 -73.149 -23.948 4.017  -0.624 0.557  C19 FYJ 12 
-FYJ O01 O1  O 0 1 N N N 97.191  -75.296 -28.101 -3.604 -2.119 -0.154 O01 FYJ 13 
-FYJ O04 O2  O 0 1 N N N 98.623  -75.081 -25.518 -0.948 -3.151 -0.388 O04 FYJ 14 
-FYJ O06 O3  O 0 1 N N N 101.223 -74.392 -28.019 -0.342 0.380  0.379  O06 FYJ 15 
-FYJ O09 O4  O 0 1 N N N 98.901  -75.985 -30.326 -3.864 0.699  -0.579 O09 FYJ 16 
-FYJ O11 O5  O 0 1 N N N 101.670 -76.360 -30.907 -0.986 2.744  1.267  O11 FYJ 17 
-FYJ O12 O6  O 0 1 N N N 102.111 -74.219 -30.427 -2.652 3.162  -0.124 O12 FYJ 18 
-FYJ S13 S1  S 0 1 N N N 101.083 -72.892 -25.799 1.449  -1.559 0.691  S13 FYJ 19 
-FYJ H1  H1  H 0 1 N N N 98.775  -76.529 -27.608 -2.363 -1.247 -1.559 H1  FYJ 20 
-FYJ H2  H2  H 0 1 N N N 98.635  -73.601 -26.942 -1.362 -1.948 1.241  H2  FYJ 21 
-FYJ H3  H3  H 0 1 N N N 101.006 -75.264 -26.098 0.125  -0.871 -1.199 H3  FYJ 22 
-FYJ H4  H4  H 0 1 N N N 100.891 -76.434 -28.426 -1.341 1.065  -1.294 H4  FYJ 23 
-FYJ H5  H5  H 0 1 N N N 99.174  -74.121 -29.403 -2.897 0.079  1.140  H5  FYJ 24 
-FYJ H6  H6  H 0 1 N N N 103.621 -72.523 -27.224 1.363  0.725  -1.051 H6  FYJ 25 
-FYJ H7  H7  H 0 1 N N N 106.020 -72.492 -26.503 3.118  2.271  -1.816 H7  FYJ 26 
-FYJ H8  H8  H 0 1 N N N 106.594 -72.920 -24.166 5.443  1.965  -1.067 H8  FYJ 27 
-FYJ H9  H9  H 0 1 N N N 104.791 -73.370 -22.511 6.018  0.115  0.451  H9  FYJ 28 
-FYJ H10 H10 H 0 1 N N N 102.397 -73.315 -23.222 4.271  -1.436 1.223  H10 FYJ 29 
-FYJ H11 H11 H 0 1 N N N 96.718  -75.478 -27.298 -3.517 -3.031 -0.462 H11 FYJ 30 
-FYJ H12 H12 H 0 1 N N N 98.941  -74.505 -24.832 -0.157 -3.575 -0.028 H12 FYJ 31 
-FYJ H13 H13 H 0 1 N N N 99.675  -76.292 -30.783 -4.070 1.597  -0.287 H13 FYJ 32 
-FYJ H14 H14 H 0 1 N N N 102.593 -74.278 -31.244 -2.743 4.035  0.282  H14 FYJ 33 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  FYJ  "phenyl 1-thio-beta-D-glucosiduronic acid"  PDB  ?  
+2  FYJ  "phenyl 1-thio-D-glucosiduronic acid"       PDB  ?  
+3  FYJ  "phenyl 1-thio-glucosiduronic acid"         PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-FYJ O11 C10 DOUB N N 1  
-FYJ O12 C10 SING N N 2  
-FYJ O09 C08 SING N N 3  
-FYJ C10 C07 SING N N 4  
-FYJ C08 C07 SING N N 5  
-FYJ C08 C02 SING N N 6  
-FYJ C07 O06 SING N N 7  
-FYJ O01 C02 SING N N 8  
-FYJ O06 C05 SING N N 9  
-FYJ C02 C03 SING N N 10 
-FYJ C03 C05 SING N N 11 
-FYJ C03 O04 SING N N 12 
-FYJ C05 S13 SING N N 13 
-FYJ C15 C16 DOUB Y N 14 
-FYJ C15 C14 SING Y N 15 
-FYJ S13 C14 SING N N 16 
-FYJ C16 C17 SING Y N 17 
-FYJ C14 C19 DOUB Y N 18 
-FYJ C17 C18 DOUB Y N 19 
-FYJ C19 C18 SING Y N 20 
-FYJ C02 H1  SING N N 21 
-FYJ C03 H2  SING N N 22 
-FYJ C05 H3  SING N N 23 
-FYJ C07 H4  SING N N 24 
-FYJ C08 H5  SING N N 25 
-FYJ C15 H6  SING N N 26 
-FYJ C16 H7  SING N N 27 
-FYJ C17 H8  SING N N 28 
-FYJ C18 H9  SING N N 29 
-FYJ C19 H10 SING N N 30 
-FYJ O01 H11 SING N N 31 
-FYJ O04 H12 SING N N 32 
-FYJ O09 H13 SING N N 33 
-FYJ O12 H14 SING N N 34 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+FYJ  C6   C10  C  0  1  N  N  N  101.569  -75.340  -30.172  -1.692   2.361   0.364  C6   FYJ   1  
+FYJ  C3   C02  C  0  1  N  N  S   98.582  -75.482  -27.884  -2.487  -1.288  -0.476  C3   FYJ   2  
+FYJ  C2   C03  C  0  1  N  N  R   99.062  -74.602  -26.780  -1.219  -1.862   0.164  C2   FYJ   3  
+FYJ  C1   C05  C  0  1  N  N  S  100.588  -74.433  -26.686  -0.043  -0.925  -0.123  C1   FYJ   4  
+FYJ  C5   C07  C  0  1  N  N  S  100.754  -75.443  -28.884  -1.490   0.986  -0.218  C5   FYJ   5  
+FYJ  C4   C08  C  0  1  N  N  S   99.302  -75.188  -29.167  -2.724   0.125   0.065  C4   FYJ   6  
+FYJ  C14  C14  C  0  1  Y  N  N  102.855  -72.920  -25.268   2.704  -0.455   0.135  C14  FYJ   7  
+FYJ  C15  C15  C  0  1  Y  N  N  103.870  -72.694  -26.187   2.382   0.591  -0.721  C15  FYJ   8  
+FYJ  C16  C16  C  0  1  Y  N  N  105.241  -72.685  -25.780   3.368   1.458  -1.150  C16  FYJ   9  
+FYJ  C17  C17  C  0  1  Y  N  N  105.560  -72.921  -24.479   4.674   1.286  -0.729  C17  FYJ  10  
+FYJ  C18  C18  C  0  1  Y  N  N  104.539  -73.167  -23.541   4.998   0.246   0.124  C18  FYJ  11  
+FYJ  C19  C19  C  0  1  Y  N  N  103.179  -73.149  -23.948   4.017  -0.624   0.557  C19  FYJ  12  
+FYJ  O3   O01  O  0  1  N  N  N   97.191  -75.296  -28.101  -3.604  -2.119  -0.154  O3   FYJ  13  
+FYJ  O2   O04  O  0  1  N  N  N   98.623  -75.081  -25.518  -0.948  -3.151  -0.388  O2   FYJ  14  
+FYJ  O5   O06  O  0  1  N  N  N  101.223  -74.392  -28.019  -0.342   0.380   0.379  O5   FYJ  15  
+FYJ  O4   O09  O  0  1  N  N  N   98.901  -75.985  -30.326  -3.864   0.699  -0.579  O4   FYJ  16  
+FYJ  O11  O11  O  0  1  N  N  N  101.670  -76.360  -30.907  -0.986   2.744   1.267  O11  FYJ  17  
+FYJ  O6   O12  O  0  1  N  N  N  102.111  -74.219  -30.427  -2.652   3.162  -0.124  O6   FYJ  18  
+FYJ  S13  S13  S  0  1  N  N  N  101.083  -72.892  -25.799   1.449  -1.559   0.691  S13  FYJ  19  
+FYJ  H3   H1   H  0  1  N  N  N   98.775  -76.529  -27.608  -2.363  -1.247  -1.559  H3   FYJ  20  
+FYJ  H2   H2   H  0  1  N  N  N   98.635  -73.601  -26.942  -1.362  -1.948   1.241  H2   FYJ  21  
+FYJ  H1   H3   H  0  1  N  N  N  101.006  -75.264  -26.098   0.125  -0.871  -1.199  H1   FYJ  22  
+FYJ  H5   H4   H  0  1  N  N  N  100.891  -76.434  -28.426  -1.341   1.065  -1.294  H5   FYJ  23  
+FYJ  H4   H5   H  0  1  N  N  N   99.174  -74.121  -29.403  -2.897   0.079   1.140  H4   FYJ  24  
+FYJ  H6   H6   H  0  1  N  N  N  103.621  -72.523  -27.224   1.363   0.725  -1.051  H6   FYJ  25  
+FYJ  H7   H7   H  0  1  N  N  N  106.020  -72.492  -26.503   3.118   2.271  -1.816  H7   FYJ  26  
+FYJ  H8   H8   H  0  1  N  N  N  106.594  -72.920  -24.166   5.443   1.965  -1.067  H8   FYJ  27  
+FYJ  H9   H9   H  0  1  N  N  N  104.791  -73.370  -22.511   6.018   0.115   0.451  H9   FYJ  28  
+FYJ  H10  H10  H  0  1  N  N  N  102.397  -73.315  -23.222   4.271  -1.436   1.223  H10  FYJ  29  
+FYJ  HO3  H11  H  0  1  N  Y  N   96.718  -75.478  -27.298  -3.517  -3.031  -0.462  HO3  FYJ  30  
+FYJ  HO2  H12  H  0  1  N  Y  N   98.941  -74.505  -24.832  -0.157  -3.575  -0.028  HO2  FYJ  31  
+FYJ  HO4  H13  H  0  1  N  Y  N   99.675  -76.292  -30.783  -4.070   1.597  -0.287  HO4  FYJ  32  
+FYJ  HO6  H14  H  0  1  N  Y  N  102.593  -74.278  -31.244  -2.743   4.035   0.282  HO6  FYJ  33  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-FYJ SMILES           ACDLabs              12.01 "C(C1OC(C(C(C1O)O)O)Sc2ccccc2)(=O)O"                                                                                         
-FYJ InChI            InChI                1.03  "InChI=1S/C12H14O6S/c13-7-8(14)10(11(16)17)18-12(9(7)15)19-6-4-2-1-3-5-6/h1-5,7-10,12-15H,(H,16,17)/t7-,8-,9+,10-,12-/m0/s1" 
-FYJ InChIKey         InChI                1.03  XXJOOMMTHULGSD-LIJGXYGRSA-N                                                                                                  
-FYJ SMILES_CANONICAL CACTVS               3.385 "O[C@@H]1[C@@H](O)[C@@H](O[C@@H]([C@H]1O)C(O)=O)Sc2ccccc2"                                                                   
-FYJ SMILES           CACTVS               3.385 "O[CH]1[CH](O)[CH](O[CH]([CH]1O)C(O)=O)Sc2ccccc2"                                                                            
-FYJ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "c1ccc(cc1)S[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)C(=O)O)O)O)O"                                                                 
-FYJ SMILES           "OpenEye OEToolkits" 2.0.6 "c1ccc(cc1)SC2C(C(C(C(O2)C(=O)O)O)O)O"                                                                                       
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+FYJ  O11  C6   DOUB  N  N   1  
+FYJ  O6   C6   SING  N  N   2  
+FYJ  O4   C4   SING  N  N   3  
+FYJ  C6   C5   SING  N  N   4  
+FYJ  C4   C5   SING  N  N   5  
+FYJ  C4   C3   SING  N  N   6  
+FYJ  C5   O5   SING  N  N   7  
+FYJ  O3   C3   SING  N  N   8  
+FYJ  O5   C1   SING  N  N   9  
+FYJ  C3   C2   SING  N  N  10  
+FYJ  C2   C1   SING  N  N  11  
+FYJ  C2   O2   SING  N  N  12  
+FYJ  C1   S13  SING  N  N  13  
+FYJ  C15  C16  DOUB  Y  N  14  
+FYJ  C15  C14  SING  Y  N  15  
+FYJ  S13  C14  SING  N  N  16  
+FYJ  C16  C17  SING  Y  N  17  
+FYJ  C14  C19  DOUB  Y  N  18  
+FYJ  C17  C18  DOUB  Y  N  19  
+FYJ  C19  C18  SING  Y  N  20  
+FYJ  C3   H3   SING  N  N  21  
+FYJ  C2   H2   SING  N  N  22  
+FYJ  C1   H1   SING  N  N  23  
+FYJ  C5   H5   SING  N  N  24  
+FYJ  C4   H4   SING  N  N  25  
+FYJ  C15  H6   SING  N  N  26  
+FYJ  C16  H7   SING  N  N  27  
+FYJ  C17  H8   SING  N  N  28  
+FYJ  C18  H9   SING  N  N  29  
+FYJ  C19  H10  SING  N  N  30  
+FYJ  O3   HO3  SING  N  N  31  
+FYJ  O2   HO2  SING  N  N  32  
+FYJ  O4   HO4  SING  N  N  33  
+FYJ  O6   HO6  SING  N  N  34  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-FYJ "SYSTEMATIC NAME" ACDLabs              12.01 "phenyl 1-thio-beta-D-glucopyranosiduronic acid"                                                
-FYJ "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "(2~{S},3~{S},4~{S},5~{R},6~{S})-3,4,5-tris(oxidanyl)-6-phenylsulfanyl-oxane-2-carboxylic acid" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+FYJ  SMILES            ACDLabs               12.01  "C(C1OC(C(C(C1O)O)O)Sc2ccccc2)(=O)O"  
+FYJ  InChI             InChI                 1.03   "InChI=1S/C12H14O6S/c13-7-8(14)10(11(16)17)18-12(9(7)15)19-6-4-2-1-3-5-6/h1-5,7-10,12-15H,(H,16,17)/t7-,8-,9+,10-,12-/m0/s1"  
+FYJ  InChIKey          InChI                 1.03   XXJOOMMTHULGSD-LIJGXYGRSA-N  
+FYJ  SMILES_CANONICAL  CACTVS                3.385  "O[C@@H]1[C@@H](O)[C@@H](O[C@@H]([C@H]1O)C(O)=O)Sc2ccccc2"  
+FYJ  SMILES            CACTVS                3.385  "O[CH]1[CH](O)[CH](O[CH]([CH]1O)C(O)=O)Sc2ccccc2"  
+FYJ  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.6  "c1ccc(cc1)S[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)C(=O)O)O)O)O"  
+FYJ  SMILES            "OpenEye OEToolkits"  2.0.6  "c1ccc(cc1)SC2C(C(C(C(O2)C(=O)O)O)O)O"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-FYJ "Create component" 2018-04-25 RCSB 
-FYJ "Initial release"  2018-10-17 RCSB 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+FYJ  "SYSTEMATIC NAME"  ACDLabs               12.01  "phenyl 1-thio-beta-D-glucopyranosiduronic acid"  
+FYJ  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.6  "(2~{S},3~{S},4~{S},5~{R},6~{S})-3,4,5-tris(oxidanyl)-6-phenylsulfanyl-oxane-2-carboxylic acid"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+FYJ  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+FYJ  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+FYJ  "CARBOHYDRATE ANOMER"                  beta      PDB  ?  
+FYJ  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+FYJ  "Create component"          2018-04-25  RCSB  
+FYJ  "Initial release"           2018-10-17  RCSB  
+FYJ  "Other modification"        2020-07-03  RCSB  
+FYJ  "Modify synonyms"           2020-07-17  RCSB  
+FYJ  "Modify internal type"      2020-07-17  RCSB  
+FYJ  "Modify linking type"       2020-07-17  RCSB  
+FYJ  "Modify atom id"            2020-07-17  RCSB  
+FYJ  "Modify component atom id"  2020-07-17  RCSB  
+FYJ  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

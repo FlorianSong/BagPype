@@ -1,162 +1,201 @@
 data_DYM
-# 
-_chem_comp.id                                    DYM 
-_chem_comp.name                                  "6-(2,3-DIHYDROXYPROPOXY)-5-ACETAMIDO-5,6-DIHYDRO-4-HYDROXY-4H-PYRAN-2-CARBOXYLIC ACID" 
-_chem_comp.type                                  L-saccharide 
-_chem_comp.pdbx_type                             ATOMS 
-_chem_comp.formula                               "C11 H17 N O8" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         "2,3-DIHYDROXYPROPYL ETHER MIMETIC" 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2005-11-28 
-_chem_comp.pdbx_modified_date                    2020-04-11 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        291.255 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     DYM 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        2F13 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  RCSB 
-# 
+#
+
+_chem_comp.id                                   DYM
+_chem_comp.name                                 "(2R)-2,3-dihydroxypropyl 2-acetamido-2,4-dideoxy-alpha-L-threo-hex-4-enopyranosiduronic acid"
+_chem_comp.type                                 L-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C11 H17 N O8"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        
+;6-(2,3-DIHYDROXYPROPOXY)-5-ACETAMIDO-5,6-DIHYDRO-4-HYDROXY-4H-PYRAN-2-CARBOXYLIC ACID; 2,3-DIHYDROXYPROPYL ETHER
+MIMETIC; (2R)-2,3-dihydroxypropyl 2-acetamido-2,4-dideoxy-alpha-L-threo-hex-4-enosiduronic acid;
+(2R)-2,3-dihydroxypropyl 2-acetamido-2,4-dideoxy-L-threo-hex-4-enosiduronic acid; (2R)-2,3-dihydroxypropyl
+2-acetamido-2,4-dideoxy-threo-hex-4-enosiduronic acid
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2005-11-28
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       291.255
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    DYM
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       2F13
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-DYM C1   C1   C 0 1 N N N 77.991 30.365 24.640 1.807  3.286  -0.111 C1   DYM 1  
-DYM C2   C2   C 0 1 N N N 77.516 30.208 25.973 1.587  1.842  0.079  C2   DYM 2  
-DYM C3   C3   C 0 1 N N N 76.680 31.309 26.690 2.631  1.075  0.358  C3   DYM 3  
-DYM C4   C4   C 0 1 N N S 76.274 30.879 28.168 2.504  -0.408 0.577  C4   DYM 4  
-DYM C5   C5   C 0 1 N N R 77.318 29.943 28.807 1.166  -0.894 0.010  C5   DYM 5  
-DYM C6   C6   C 0 1 N N R 77.429 28.672 27.911 0.064  0.058  0.495  C6   DYM 6  
-DYM C7   C7   C 0 1 N N N 78.638 26.398 27.603 -2.314 0.354  0.530  C7   DYM 7  
-DYM C8   C8   C 0 1 N N R 79.711 25.471 28.185 -3.617 -0.226 -0.024 C8   DYM 8  
-DYM C9   C9   C 0 1 N N N 81.047 25.908 28.038 -4.807 0.504  0.602  C9   DYM 9  
-DYM C10  C10  C 0 1 N N N 77.454 29.804 31.356 1.403  -3.313 -0.168 C10  DYM 10 
-DYM C11  C11  C 0 1 N N N 76.732 29.336 32.597 1.121  -4.709 0.323  C11  DYM 11 
-DYM N5   N5   N 0 1 N N N 76.859 29.598 30.177 0.891  -2.252 0.487  N5   DYM 12 
-DYM O1A  O1A  O 0 1 N N N 78.715 29.382 24.031 2.926  3.749  -0.012 O1A  DYM 13 
-DYM O1B  O1B  O 0 1 N N N 77.749 31.429 23.968 0.767  4.094  -0.401 O1B  DYM 14 
-DYM O4   O4   O 0 1 N N N 76.137 32.092 28.952 3.575  -1.081 -0.087 O4   DYM 15 
-DYM O6   O6   O 0 1 N N N 77.843 29.040 26.543 0.326  1.359  -0.033 O6   DYM 16 
-DYM O7   O7   O 0 1 N N N 78.471 27.683 28.439 -1.208 -0.404 0.036  O7   DYM 17 
-DYM O8   O8   O 0 1 N N N 79.655 25.321 29.539 -3.648 -0.058 -1.443 O8   DYM 18 
-DYM O9   O9   O 0 1 N N N 82.115 25.186 28.504 -6.023 -0.113 0.175  O9   DYM 19 
-DYM O10  O10  O 0 1 N N N 78.687 30.419 31.510 2.092  -3.143 -1.152 O10  DYM 20 
-DYM H3   H3   H 0 1 N N N 76.408 32.252 26.238 3.608  1.531  0.430  H3   DYM 21 
-DYM H4   H4   H 0 1 N N N 75.310 30.352 28.119 2.546  -0.623 1.644  H4   DYM 22 
-DYM H5   H5   H 0 1 N N N 78.294 30.449 28.846 1.204  -0.887 -1.079 H5   DYM 23 
-DYM H6   H6   H 0 1 N N N 76.448 28.176 27.881 0.068  0.099  1.585  H6   DYM 24 
-DYM H71  H71  H 0 1 N N N 78.926 26.676 26.578 -2.215 1.392  0.213  H71  DYM 25 
-DYM H72  H72  H 0 1 N N N 77.678 25.861 27.581 -2.329 0.306  1.619  H72  DYM 26 
-DYM H8   H8   H 0 1 N N N 79.600 24.491 27.698 -3.675 -1.287 0.218  H8   DYM 27 
-DYM H91  H91  H 0 1 N N N 81.210 26.032 26.957 -4.735 0.451  1.688  H91  DYM 28 
-DYM H92  H92  H 0 1 N N N 81.103 26.889 28.532 -4.799 1.548  0.288  H92  DYM 29 
-DYM H111 H111 H 0 0 N N N 77.337 29.572 33.485 0.046  -4.888 0.313  H111 DYM 30 
-DYM H112 H112 H 0 0 N N N 75.760 29.846 32.670 1.615  -5.430 -0.329 H112 DYM 31 
-DYM H113 H113 H 0 0 N N N 76.573 28.249 32.540 1.498  -4.820 1.340  H113 DYM 32 
-DYM HN5  HN5  H 0 1 N N N 75.970 29.143 30.224 0.341  -2.387 1.274  HN5  DYM 33 
-DYM HO4  HO4  H 0 1 N N N 75.894 31.868 29.843 4.454  -0.822 0.221  HO4  DYM 34 
-DYM HO8  HO8  H 0 1 N N N 80.348 24.736 29.822 -3.601 0.864  -1.731 HO8  DYM 35 
-DYM HO9  HO9  H 0 1 N N N 82.921 25.649 28.307 -6.821 0.300  0.534  HO9  DYM 36 
-DYM HO1B H1   H 0 0 N N N 78.137 31.354 23.104 0.960  5.034  -0.517 H1   DYM 37 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  DYM  "6-(2,3-DIHYDROXYPROPOXY)-5-ACETAMIDO-5,6-DIHYDRO-4-HYDROXY-4H-PYRAN-2-CARBOXYLIC ACID"   PDB  ?  
+2  DYM  "2,3-DIHYDROXYPROPYL ETHER MIMETIC"                                                       PDB  ?  
+3  DYM  "(2R)-2,3-dihydroxypropyl 2-acetamido-2,4-dideoxy-alpha-L-threo-hex-4-enosiduronic acid"  PDB  ?  
+4  DYM  "(2R)-2,3-dihydroxypropyl 2-acetamido-2,4-dideoxy-L-threo-hex-4-enosiduronic acid"        PDB  ?  
+5  DYM  "(2R)-2,3-dihydroxypropyl 2-acetamido-2,4-dideoxy-threo-hex-4-enosiduronic acid"          PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-DYM C1  C2   SING N N 1  
-DYM C1  O1A  DOUB N N 2  
-DYM C1  O1B  SING N N 3  
-DYM C2  C3   DOUB N N 4  
-DYM C2  O6   SING N N 5  
-DYM C3  C4   SING N N 6  
-DYM C3  H3   SING N N 7  
-DYM C4  C5   SING N N 8  
-DYM C4  O4   SING N N 9  
-DYM C4  H4   SING N N 10 
-DYM C5  C6   SING N N 11 
-DYM C5  N5   SING N N 12 
-DYM C5  H5   SING N N 13 
-DYM C6  O6   SING N N 14 
-DYM C6  O7   SING N N 15 
-DYM C6  H6   SING N N 16 
-DYM C7  C8   SING N N 17 
-DYM C7  O7   SING N N 18 
-DYM C7  H71  SING N N 19 
-DYM C7  H72  SING N N 20 
-DYM C8  C9   SING N N 21 
-DYM C8  O8   SING N N 22 
-DYM C8  H8   SING N N 23 
-DYM C9  O9   SING N N 24 
-DYM C9  H91  SING N N 25 
-DYM C9  H92  SING N N 26 
-DYM C10 C11  SING N N 27 
-DYM C10 N5   SING N N 28 
-DYM C10 O10  DOUB N N 29 
-DYM C11 H111 SING N N 30 
-DYM C11 H112 SING N N 31 
-DYM C11 H113 SING N N 32 
-DYM N5  HN5  SING N N 33 
-DYM O4  HO4  SING N N 34 
-DYM O8  HO8  SING N N 35 
-DYM O9  HO9  SING N N 36 
-DYM O1B HO1B SING N N 37 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+DYM  C1    C1    C  0  1  N  N  N  77.991  30.365  24.640   1.807   3.286  -0.111  C1    DYM   1  
+DYM  C2    C2    C  0  1  N  N  N  77.516  30.208  25.973   1.587   1.842   0.079  C2    DYM   2  
+DYM  C3    C3    C  0  1  N  N  N  76.680  31.309  26.690   2.631   1.075   0.358  C3    DYM   3  
+DYM  C4    C4    C  0  1  N  N  S  76.274  30.879  28.168   2.504  -0.408   0.577  C4    DYM   4  
+DYM  C5    C5    C  0  1  N  N  R  77.318  29.943  28.807   1.166  -0.894   0.010  C5    DYM   5  
+DYM  C6    C6    C  0  1  N  N  R  77.429  28.672  27.911   0.064   0.058   0.495  C6    DYM   6  
+DYM  C7    C7    C  0  1  N  N  N  78.638  26.398  27.603  -2.314   0.354   0.530  C7    DYM   7  
+DYM  C8    C8    C  0  1  N  N  R  79.711  25.471  28.185  -3.617  -0.226  -0.024  C8    DYM   8  
+DYM  C9    C9    C  0  1  N  N  N  81.047  25.908  28.038  -4.807   0.504   0.602  C9    DYM   9  
+DYM  C10   C10   C  0  1  N  N  N  77.454  29.804  31.356   1.403  -3.313  -0.168  C10   DYM  10  
+DYM  C11   C11   C  0  1  N  N  N  76.732  29.336  32.597   1.121  -4.709   0.323  C11   DYM  11  
+DYM  N5    N5    N  0  1  N  N  N  76.859  29.598  30.177   0.891  -2.252   0.487  N5    DYM  12  
+DYM  O1A   O1A   O  0  1  N  N  N  78.715  29.382  24.031   2.926   3.749  -0.012  O1A   DYM  13  
+DYM  O1B   O1B   O  0  1  N  N  N  77.749  31.429  23.968   0.767   4.094  -0.401  O1B   DYM  14  
+DYM  O4    O4    O  0  1  N  N  N  76.137  32.092  28.952   3.575  -1.081  -0.087  O4    DYM  15  
+DYM  O6    O6    O  0  1  N  N  N  77.843  29.040  26.543   0.326   1.359  -0.033  O6    DYM  16  
+DYM  O7    O7    O  0  1  N  N  N  78.471  27.683  28.439  -1.208  -0.404   0.036  O7    DYM  17  
+DYM  O8    O8    O  0  1  N  N  N  79.655  25.321  29.539  -3.648  -0.058  -1.443  O8    DYM  18  
+DYM  O9    O9    O  0  1  N  N  N  82.115  25.186  28.504  -6.023  -0.113   0.175  O9    DYM  19  
+DYM  O10   O10   O  0  1  N  N  N  78.687  30.419  31.510   2.092  -3.143  -1.152  O10   DYM  20  
+DYM  H3    H3    H  0  1  N  N  N  76.408  32.252  26.238   3.608   1.531   0.430  H3    DYM  21  
+DYM  H4    H4    H  0  1  N  N  N  75.310  30.352  28.119   2.546  -0.623   1.644  H4    DYM  22  
+DYM  H5    H5    H  0  1  N  N  N  78.294  30.449  28.846   1.204  -0.887  -1.079  H5    DYM  23  
+DYM  H6    H6    H  0  1  N  N  N  76.448  28.176  27.881   0.068   0.099   1.585  H6    DYM  24  
+DYM  H71   H71   H  0  1  N  N  N  78.926  26.676  26.578  -2.215   1.392   0.213  H71   DYM  25  
+DYM  H72   H72   H  0  1  N  N  N  77.678  25.861  27.581  -2.329   0.306   1.619  H72   DYM  26  
+DYM  H8    H8    H  0  1  N  N  N  79.600  24.491  27.698  -3.675  -1.287   0.218  H8    DYM  27  
+DYM  H91   H91   H  0  1  N  N  N  81.210  26.032  26.957  -4.735   0.451   1.688  H91   DYM  28  
+DYM  H92   H92   H  0  1  N  N  N  81.103  26.889  28.532  -4.799   1.548   0.288  H92   DYM  29  
+DYM  H111  H111  H  0  0  N  N  N  77.337  29.572  33.485   0.046  -4.888   0.313  H111  DYM  30  
+DYM  H112  H112  H  0  0  N  N  N  75.760  29.846  32.670   1.615  -5.430  -0.329  H112  DYM  31  
+DYM  H113  H113  H  0  0  N  N  N  76.573  28.249  32.540   1.498  -4.820   1.340  H113  DYM  32  
+DYM  HN5   HN5   H  0  1  N  N  N  75.970  29.143  30.224   0.341  -2.387   1.274  HN5   DYM  33  
+DYM  HO4   HO4   H  0  1  N  N  N  75.894  31.868  29.843   4.454  -0.822   0.221  HO4   DYM  34  
+DYM  HO8   HO8   H  0  1  N  N  N  80.348  24.736  29.822  -3.601   0.864  -1.731  HO8   DYM  35  
+DYM  HO9   HO9   H  0  1  N  N  N  82.921  25.649  28.307  -6.821   0.300   0.534  HO9   DYM  36  
+DYM  HO1B  HO1B  H  0  0  N  N  N  78.137  31.354  23.104   0.960   5.034  -0.517  HO1B  DYM  37  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-DYM SMILES           ACDLabs              12.01 "C(C1=CC(C(C(O1)OCC(CO)O)NC(C)=O)O)(=O)O"                                                                                                         
-DYM InChI            InChI                1.03  "InChI=1S/C11H17NO8/c1-5(14)12-9-7(16)2-8(10(17)18)20-11(9)19-4-6(15)3-13/h2,6-7,9,11,13,15-16H,3-4H2,1H3,(H,12,14)(H,17,18)/t6-,7+,9-,11-/m1/s1" 
-DYM InChIKey         InChI                1.03  HEEZEJCEFZJVGN-YRCORFKGSA-N                                                                                                                       
-DYM SMILES_CANONICAL CACTVS               3.385 "CC(=O)N[C@@H]1[C@@H](O)C=C(O[C@H]1OC[C@H](O)CO)C(O)=O"                                                                                           
-DYM SMILES           CACTVS               3.385 "CC(=O)N[CH]1[CH](O)C=C(O[CH]1OC[CH](O)CO)C(O)=O"                                                                                                 
-DYM SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CC(=O)N[C@@H]1[C@H](C=C(O[C@H]1OC[C@@H](CO)O)C(=O)O)O"                                                                                           
-DYM SMILES           "OpenEye OEToolkits" 2.0.7 "CC(=O)NC1C(C=C(OC1OCC(CO)O)C(=O)O)O"                                                                                                             
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+DYM  C1   C2    SING  N  N   1  
+DYM  C1   O1A   DOUB  N  N   2  
+DYM  C1   O1B   SING  N  N   3  
+DYM  C2   C3    DOUB  N  N   4  
+DYM  C2   O6    SING  N  N   5  
+DYM  C3   C4    SING  N  N   6  
+DYM  C3   H3    SING  N  N   7  
+DYM  C4   C5    SING  N  N   8  
+DYM  C4   O4    SING  N  N   9  
+DYM  C4   H4    SING  N  N  10  
+DYM  C5   C6    SING  N  N  11  
+DYM  C5   N5    SING  N  N  12  
+DYM  C5   H5    SING  N  N  13  
+DYM  C6   O6    SING  N  N  14  
+DYM  C6   O7    SING  N  N  15  
+DYM  C6   H6    SING  N  N  16  
+DYM  C7   C8    SING  N  N  17  
+DYM  C7   O7    SING  N  N  18  
+DYM  C7   H71   SING  N  N  19  
+DYM  C7   H72   SING  N  N  20  
+DYM  C8   C9    SING  N  N  21  
+DYM  C8   O8    SING  N  N  22  
+DYM  C8   H8    SING  N  N  23  
+DYM  C9   O9    SING  N  N  24  
+DYM  C9   H91   SING  N  N  25  
+DYM  C9   H92   SING  N  N  26  
+DYM  C10  C11   SING  N  N  27  
+DYM  C10  N5    SING  N  N  28  
+DYM  C10  O10   DOUB  N  N  29  
+DYM  C11  H111  SING  N  N  30  
+DYM  C11  H112  SING  N  N  31  
+DYM  C11  H113  SING  N  N  32  
+DYM  N5   HN5   SING  N  N  33  
+DYM  O4   HO4   SING  N  N  34  
+DYM  O8   HO8   SING  N  N  35  
+DYM  O9   HO9   SING  N  N  36  
+DYM  O1B  HO1B  SING  N  N  37  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-DYM "SYSTEMATIC NAME" ACDLabs              12.01 "(2R)-2,3-dihydroxypropyl 2-(acetylamino)-2,4-dideoxy-alpha-L-threo-hex-4-enopyranosiduronic acid"                          
-DYM "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(2~{R},3~{R},4~{S})-3-acetamido-2-[(2~{R})-2,3-bis(oxidanyl)propoxy]-4-oxidanyl-3,4-dihydro-2~{H}-pyran-6-carboxylic acid" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+DYM  SMILES            ACDLabs               12.01  "C(C1=CC(C(C(O1)OCC(CO)O)NC(C)=O)O)(=O)O"  
+DYM  InChI             InChI                 1.03   "InChI=1S/C11H17NO8/c1-5(14)12-9-7(16)2-8(10(17)18)20-11(9)19-4-6(15)3-13/h2,6-7,9,11,13,15-16H,3-4H2,1H3,(H,12,14)(H,17,18)/t6-,7+,9-,11-/m1/s1"  
+DYM  InChIKey          InChI                 1.03   HEEZEJCEFZJVGN-YRCORFKGSA-N  
+DYM  SMILES_CANONICAL  CACTVS                3.385  "CC(=O)N[C@@H]1[C@@H](O)C=C(O[C@H]1OC[C@H](O)CO)C(O)=O"  
+DYM  SMILES            CACTVS                3.385  "CC(=O)N[CH]1[CH](O)C=C(O[CH]1OC[CH](O)CO)C(O)=O"  
+DYM  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "CC(=O)N[C@@H]1[C@H](C=C(O[C@H]1OC[C@@H](CO)O)C(=O)O)O"  
+DYM  SMILES            "OpenEye OEToolkits"  2.0.7  "CC(=O)NC1C(C=C(OC1OCC(CO)O)C(=O)O)O"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-DYM "Create component"   2005-11-28 RCSB 
-DYM "Modify descriptor"  2011-06-04 RCSB 
-DYM "Other modification" 2020-04-11 RCSB 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+DYM  "SYSTEMATIC NAME"  ACDLabs               12.01  "(2R)-2,3-dihydroxypropyl 2-(acetylamino)-2,4-dideoxy-alpha-L-threo-hex-4-enopyranosiduronic acid"  
+DYM  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.7  
+;(2~{R},3~{R},4~{S})-3-acetamido-2-[(2~{R})-2,3-bis(oxidanyl)propoxy]-4-oxidanyl-3,4-dihydro-2~{H}-pyran-6-carboxylic
+acid
+;
+  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+DYM  "CARBOHYDRATE ISOMER"                  L             PDB  ?  
+DYM  "CARBOHYDRATE RING"                    dihydropyran  PDB  ?  
+DYM  "CARBOHYDRATE ANOMER"                  alpha         PDB  ?  
+DYM  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  ketose        PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+DYM  "Create component"          2005-11-28  RCSB  
+DYM  "Modify descriptor"         2011-06-04  RCSB  
+DYM  "Other modification"        2020-04-11  RCSB  
+DYM  "Other modification"        2020-07-03  RCSB  
+DYM  "Modify name"               2020-07-17  RCSB  
+DYM  "Modify synonyms"           2020-07-17  RCSB  
+DYM  "Modify component atom id"  2020-07-17  RCSB  
+##
+

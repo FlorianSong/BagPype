@@ -1,145 +1,181 @@
 data_49S
-# 
-_chem_comp.id                                    49S 
-_chem_comp.name                                  "2-(acetylamino)-2-deoxy-beta-D-mannopyranuronic acid" 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C8 H13 N O7" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2015-02-18 
-_chem_comp.pdbx_modified_date                    2017-01-26 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        235.191 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     49S 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        4Y9V 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   49S
+_chem_comp.name                                 "2-acetamido-2-deoxy-beta-D-mannopyranuronic acid"
+_chem_comp.type                                 "D-saccharide, beta linking"
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C8 H13 N O7"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        
+;2-(acetylamino)-2-deoxy-beta-D-mannopyranuronic acid; 2-acetamido-2-deoxy-beta-D-mannuronic acid;
+2-acetamido-2-deoxy-D-mannuronic acid; 2-acetamido-2-deoxy-mannuronic acid
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2015-02-18
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       235.191
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    49S
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       4Y9V
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-49S C8  C1  C 0 1 N N N -20.135 27.152 40.159 -3.441 0.340  -2.117 C8  49S 1  
-49S C7  C2  C 0 1 N N N -20.252 28.337 41.094 -2.898 0.116  -0.729 C7  49S 2  
-49S O7  O1  O 0 1 N N N -21.352 28.655 41.595 -3.601 0.322  0.237  O7  49S 3  
-49S N2  N1  N 0 1 N N N -19.118 29.010 41.345 -1.632 -0.316 -0.562 N2  49S 4  
-49S C2  C3  C 0 1 N N S -19.063 30.205 42.162 -1.105 -0.534 0.787  C2  49S 5  
-49S C3  C4  C 0 1 N N R -18.439 29.946 43.536 0.032  -1.559 0.732  C3  49S 6  
-49S O3  O2  O 0 1 N N N -19.179 28.959 44.255 -0.444 -2.771 0.144  O3  49S 7  
-49S C1  C5  C 0 1 N N R -18.245 31.266 41.451 -0.566 0.785  1.345  C1  49S 8  
-49S O1  O3  O 0 1 N N N -18.720 31.527 40.162 -1.607 1.763  1.347  O1  49S 9  
-49S O5  O4  O 0 1 N N N -16.909 30.793 41.277 0.515  1.241  0.528  O5  49S 10 
-49S C5  C6  C 0 1 N N S -16.244 30.659 42.546 1.626  0.345  0.477  C5  49S 11 
-49S C6  C7  C 0 1 N N N -14.802 30.276 42.284 2.711  0.937  -0.385 C6  49S 12 
-49S OAK O5  O 0 1 N N N -14.561 29.397 41.419 2.514  1.972  -0.976 OAK 49S 13 
-49S O6  O6  O 0 1 N N N -13.931 30.857 42.978 3.895  0.314  -0.497 O6  49S 14 
-49S C4  C8  C 0 1 N N S -16.955 29.615 43.409 1.175  -0.993 -0.116 C4  49S 15 
-49S O4  O7  O 0 1 N N N -16.252 29.709 44.653 2.271  -1.910 -0.114 O4  49S 16 
-49S H1  H1  H 0 1 N N N -21.123 26.685 40.033 -2.670 0.104  -2.851 H1  49S 17 
-49S H2  H2  H 0 1 N N N -19.762 27.492 39.181 -4.306 -0.303 -2.278 H2  49S 18 
-49S H3  H3  H 0 1 N N N -19.434 26.418 40.583 -3.738 1.383  -2.226 H3  49S 19 
-49S H4  H4  H 0 1 N N N -18.266 28.669 40.947 -1.070 -0.481 -1.335 H4  49S 20 
-49S H5  H5  H 0 1 N N N -20.082 30.592 42.312 -1.900 -0.906 1.433  H5  49S 21 
-49S H6  H6  H 0 1 N N N -18.505 30.891 44.095 0.391  -1.760 1.742  H6  49S 22 
-49S H7  H7  H 0 1 N N N -18.775 28.815 45.103 0.225  -3.466 0.078  H7  49S 23 
-49S H8  H8  H 0 1 N N N -18.246 32.184 42.057 -0.210 0.631  2.364  H8  49S 24 
-49S H9  H9  H 0 1 N N N -19.613 31.848 40.212 -1.336 2.626  1.689  H9  49S 25 
-49S H10 H10 H 0 1 N N N -16.262 31.622 43.078 2.010  0.184  1.485  H10 49S 26 
-49S H11 H11 H 0 1 N N N -13.070 30.529 42.746 4.559  0.733  -1.062 H11 49S 27 
-49S H12 H12 H 0 1 N N N -16.834 28.618 42.960 0.829  -0.839 -1.138 H12 49S 28 
-49S H13 H13 H 0 1 N N N -16.620 29.091 45.273 3.034  -1.612 -0.629 H13 49S 29 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  49S  "2-(acetylamino)-2-deoxy-beta-D-mannopyranuronic acid"  PDB  ?  
+2  49S  "2-acetamido-2-deoxy-beta-D-mannuronic acid"            PDB  ?  
+3  49S  "2-acetamido-2-deoxy-D-mannuronic acid"                 PDB  ?  
+4  49S  "2-acetamido-2-deoxy-mannuronic acid"                   PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-49S C8  C7  SING N N 1  
-49S O1  C1  SING N N 2  
-49S C7  N2  SING N N 3  
-49S C7  O7  DOUB N N 4  
-49S O5  C1  SING N N 5  
-49S O5  C5  SING N N 6  
-49S N2  C2  SING N N 7  
-49S OAK C6  DOUB N N 8  
-49S C1  C2  SING N N 9  
-49S C2  C3  SING N N 10 
-49S C6  C5  SING N N 11 
-49S C6  O6  SING N N 12 
-49S C5  C4  SING N N 13 
-49S C4  C3  SING N N 14 
-49S C4  O4  SING N N 15 
-49S C3  O3  SING N N 16 
-49S C8  H1  SING N N 17 
-49S C8  H2  SING N N 18 
-49S C8  H3  SING N N 19 
-49S N2  H4  SING N N 20 
-49S C2  H5  SING N N 21 
-49S C3  H6  SING N N 22 
-49S O3  H7  SING N N 23 
-49S C1  H8  SING N N 24 
-49S O1  H9  SING N N 25 
-49S C5  H10 SING N N 26 
-49S O6  H11 SING N N 27 
-49S C4  H12 SING N N 28 
-49S O4  H13 SING N N 29 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+49S  C8    C8   C  0  1  N  N  N  -20.135  27.152  40.159  -3.441   0.340  -2.117  C8    49S   1  
+49S  C7    C7   C  0  1  N  N  N  -20.252  28.337  41.094  -2.898   0.116  -0.729  C7    49S   2  
+49S  O7    O7   O  0  1  N  N  N  -21.352  28.655  41.595  -3.601   0.322   0.237  O7    49S   3  
+49S  N2    N2   N  0  1  N  N  N  -19.118  29.010  41.345  -1.632  -0.316  -0.562  N2    49S   4  
+49S  C2    C2   C  0  1  N  N  S  -19.063  30.205  42.162  -1.105  -0.534   0.787  C2    49S   5  
+49S  C3    C3   C  0  1  N  N  R  -18.439  29.946  43.536   0.032  -1.559   0.732  C3    49S   6  
+49S  O3    O3   O  0  1  N  N  N  -19.179  28.959  44.255  -0.444  -2.771   0.144  O3    49S   7  
+49S  C1    C1   C  0  1  N  N  R  -18.245  31.266  41.451  -0.566   0.785   1.345  C1    49S   8  
+49S  O1    O1   O  0  1  N  Y  N  -18.720  31.527  40.162  -1.607   1.763   1.347  O1    49S   9  
+49S  O5    O5   O  0  1  N  N  N  -16.909  30.793  41.277   0.515   1.241   0.528  O5    49S  10  
+49S  C5    C5   C  0  1  N  N  S  -16.244  30.659  42.546   1.626   0.345   0.477  C5    49S  11  
+49S  C6    C6   C  0  1  N  N  N  -14.802  30.276  42.284   2.711   0.937  -0.385  C6    49S  12  
+49S  O6A   OAK  O  0  1  N  N  N  -14.561  29.397  41.419   2.514   1.972  -0.976  O6A   49S  13  
+49S  O6B   O6   O  0  1  N  N  N  -13.931  30.857  42.978   3.895   0.314  -0.497  O6B   49S  14  
+49S  C4    C4   C  0  1  N  N  S  -16.955  29.615  43.409   1.175  -0.993  -0.116  C4    49S  15  
+49S  O4    O4   O  0  1  N  N  N  -16.252  29.709  44.653   2.271  -1.910  -0.114  O4    49S  16  
+49S  H1A   H1   H  0  1  N  N  N  -21.123  26.685  40.033  -2.670   0.104  -2.851  H1A   49S  17  
+49S  H2A   H2   H  0  1  N  N  N  -19.762  27.492  39.181  -4.306  -0.303  -2.278  H2A   49S  18  
+49S  H3A   H3   H  0  1  N  N  N  -19.434  26.418  40.583  -3.738   1.383  -2.226  H3A   49S  19  
+49S  H4A   H4   H  0  1  N  N  N  -18.266  28.669  40.947  -1.070  -0.481  -1.335  H4A   49S  20  
+49S  H2    H5   H  0  1  N  N  N  -20.082  30.592  42.312  -1.900  -0.906   1.433  H2    49S  21  
+49S  H3    H6   H  0  1  N  N  N  -18.505  30.891  44.095   0.391  -1.760   1.742  H3    49S  22  
+49S  HO3   H7   H  0  1  N  Y  N  -18.775  28.815  45.103   0.225  -3.466   0.078  HO3   49S  23  
+49S  H1    H8   H  0  1  N  N  N  -18.246  32.184  42.057  -0.210   0.631   2.364  H1    49S  24  
+49S  HO1   H9   H  0  1  N  Y  N  -19.613  31.848  40.212  -1.336   2.626   1.689  HO1   49S  25  
+49S  H5    H10  H  0  1  N  N  N  -16.262  31.622  43.078   2.010   0.184   1.485  H5    49S  26  
+49S  HO6B  H11  H  0  0  N  N  N  -13.070  30.529  42.746   4.559   0.733  -1.062  HO6B  49S  27  
+49S  H4    H12  H  0  1  N  N  N  -16.834  28.618  42.960   0.829  -0.839  -1.138  H4    49S  28  
+49S  HO4   H13  H  0  1  N  Y  N  -16.620  29.091  45.273   3.034  -1.612  -0.629  HO4   49S  29  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-49S SMILES           ACDLabs              12.01 "O=C(O)C1OC(O)C(NC(=O)C)C(O)C1O"                                                                                           
-49S InChI            InChI                1.03  "InChI=1S/C8H13NO7/c1-2(10)9-3-4(11)5(12)6(7(13)14)16-8(3)15/h3-6,8,11-12,15H,1H3,(H,9,10)(H,13,14)/t3-,4+,5-,6-,8+/m0/s1" 
-49S InChIKey         InChI                1.03  KSOXQRPSZKLEOR-YMPULBMMSA-N                                                                                                
-49S SMILES_CANONICAL CACTVS               3.385 "CC(=O)N[C@@H]1[C@H](O)O[C@@H]([C@@H](O)[C@@H]1O)C(O)=O"                                                                   
-49S SMILES           CACTVS               3.385 "CC(=O)N[CH]1[CH](O)O[CH]([CH](O)[CH]1O)C(O)=O"                                                                            
-49S SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "CC(=O)N[C@H]1[C@H]([C@@H]([C@H](O[C@H]1O)C(=O)O)O)O"                                                                      
-49S SMILES           "OpenEye OEToolkits" 1.9.2 "CC(=O)NC1C(C(C(OC1O)C(=O)O)O)O"                                                                                           
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+49S  C8   C7    SING  N  N   1  
+49S  O1   C1    SING  N  N   2  
+49S  C7   N2    SING  N  N   3  
+49S  C7   O7    DOUB  N  N   4  
+49S  O5   C1    SING  N  N   5  
+49S  O5   C5    SING  N  N   6  
+49S  N2   C2    SING  N  N   7  
+49S  O6A  C6    DOUB  N  N   8  
+49S  C1   C2    SING  N  N   9  
+49S  C2   C3    SING  N  N  10  
+49S  C6   C5    SING  N  N  11  
+49S  C6   O6B   SING  N  N  12  
+49S  C5   C4    SING  N  N  13  
+49S  C4   C3    SING  N  N  14  
+49S  C4   O4    SING  N  N  15  
+49S  C3   O3    SING  N  N  16  
+49S  C8   H1A   SING  N  N  17  
+49S  C8   H2A   SING  N  N  18  
+49S  C8   H3A   SING  N  N  19  
+49S  N2   H4A   SING  N  N  20  
+49S  C2   H2    SING  N  N  21  
+49S  C3   H3    SING  N  N  22  
+49S  O3   HO3   SING  N  N  23  
+49S  C1   H1    SING  N  N  24  
+49S  O1   HO1   SING  N  N  25  
+49S  C5   H5    SING  N  N  26  
+49S  O6B  HO6B  SING  N  N  27  
+49S  C4   H4    SING  N  N  28  
+49S  O4   HO4   SING  N  N  29  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-49S "SYSTEMATIC NAME" ACDLabs              12.01 "2-(acetylamino)-2-deoxy-beta-D-mannopyranuronic acid"                     
-49S "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "(2S,3S,4R,5S,6R)-5-acetamido-3,4,6-tris(oxidanyl)oxane-2-carboxylic acid" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+49S  SMILES            ACDLabs               12.01  "O=C(O)C1OC(O)C(NC(=O)C)C(O)C1O"  
+49S  InChI             InChI                 1.03   "InChI=1S/C8H13NO7/c1-2(10)9-3-4(11)5(12)6(7(13)14)16-8(3)15/h3-6,8,11-12,15H,1H3,(H,9,10)(H,13,14)/t3-,4+,5-,6-,8+/m0/s1"  
+49S  InChIKey          InChI                 1.03   KSOXQRPSZKLEOR-YMPULBMMSA-N  
+49S  SMILES_CANONICAL  CACTVS                3.385  "CC(=O)N[C@@H]1[C@H](O)O[C@@H]([C@@H](O)[C@@H]1O)C(O)=O"  
+49S  SMILES            CACTVS                3.385  "CC(=O)N[CH]1[CH](O)O[CH]([CH](O)[CH]1O)C(O)=O"  
+49S  SMILES_CANONICAL  "OpenEye OEToolkits"  1.9.2  "CC(=O)N[C@H]1[C@H]([C@@H]([C@H](O[C@H]1O)C(=O)O)O)O"  
+49S  SMILES            "OpenEye OEToolkits"  1.9.2  "CC(=O)NC1C(C(C(OC1O)C(=O)O)O)O"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-49S "Create component" 2015-02-18 EBI  
-49S "Initial release"  2017-02-01 RCSB 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+49S  "SYSTEMATIC NAME"  ACDLabs               12.01  "2-(acetylamino)-2-deoxy-beta-D-mannopyranuronic acid"  
+49S  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  1.9.2  "(2S,3S,4R,5S,6R)-5-acetamido-3,4,6-tris(oxidanyl)oxane-2-carboxylic acid"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+49S  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+49S  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+49S  "CARBOHYDRATE ANOMER"                  beta      PDB  ?  
+49S  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+49S  "Create component"          2015-02-18  EBI   
+49S  "Initial release"           2017-02-01  RCSB  
+49S  "Other modification"        2020-07-03  RCSB  
+49S  "Modify name"               2020-07-17  RCSB  
+49S  "Modify synonyms"           2020-07-17  RCSB  
+49S  "Modify internal type"      2020-07-17  RCSB  
+49S  "Modify linking type"       2020-07-17  RCSB  
+49S  "Modify atom id"            2020-07-17  RCSB  
+49S  "Modify component atom id"  2020-07-17  RCSB  
+49S  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

@@ -1,162 +1,196 @@
 data_PNJ
-# 
-_chem_comp.id                                    PNJ 
-_chem_comp.name                                  PNP-BETA-D-GLUCOSAMINE 
-_chem_comp.type                                  non-polymer 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C12 H16 N2 O7" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2008-08-05 
-_chem_comp.pdbx_modified_date                    2019-10-16 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        300.265 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     PNJ 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        2VZU 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   PNJ
+_chem_comp.name                                 "4-nitrophenyl 2-amino-2-deoxy-beta-D-glucopyranoside"
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C12 H16 N2 O7"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        
+;PNP-BETA-D-GLUCOSAMINE; 4-nitrophenyl 2-amino-2-deoxy-beta-D-glucoside; 4-nitrophenyl 2-amino-2-deoxy-D-glucoside;
+4-nitrophenyl 2-amino-2-deoxy-glucoside
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2008-08-05
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       300.265
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    PNJ
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       2VZU
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-PNJ C1   C1   C 0  1 N N S 50.836 40.612 71.124 1.146  0.810  -0.111 C1   PNJ 1  
-PNJ C2   C2   C 0  1 N N R 50.150 40.749 72.511 2.466  1.557  0.096  C2   PNJ 2  
-PNJ C4   C4   C 0  1 N N S 49.681 43.127 71.880 3.615  -0.656 0.172  C4   PNJ 3  
-PNJ C5   C5   C 0  1 N N R 50.072 42.747 70.424 2.250  -1.317 -0.038 C5   PNJ 4  
-PNJ C6   C6   C 0  1 N N N 50.480 43.903 69.472 2.226  -2.673 0.671  C6   PNJ 5  
-PNJ C7   C7   C 0  1 Y N N 52.934 39.681 70.459 -1.181 1.079  0.299  C7   PNJ 6  
-PNJ C8   C8   C 0  1 Y N N 52.534 39.705 69.126 -2.263 1.751  0.848  C8   PNJ 7  
-PNJ C9   C9   C 0  1 Y N N 53.416 39.370 68.123 -3.543 1.267  0.660  C9   PNJ 8  
-PNJ C10  C10  C 0  1 Y N N 54.707 38.995 68.442 -3.746 0.113  -0.075 C10  PNJ 9  
-PNJ C11  C11  C 0  1 Y N N 55.134 38.966 69.781 -2.668 -0.559 -0.622 C11  PNJ 10 
-PNJ C12  C12  C 0  1 Y N N 54.243 39.303 70.801 -1.387 -0.075 -0.443 C12  PNJ 11 
-PNJ N1   N1   N 1  1 N N N 55.544 38.678 67.430 -5.118 -0.404 -0.275 N1   PNJ 12 
-PNJ O1   O1   O 0  1 N N N 52.076 40.023 71.447 0.080  1.554  0.483  O1   PNJ 13 
-PNJ O3   O3   O 0  1 N N N 48.733 42.210 73.885 4.856  1.380  -0.236 O3   PNJ 14 
-PNJ O4   O4   O 0  1 N N N 48.753 44.157 71.880 4.634  -1.465 -0.419 O4   PNJ 15 
-PNJ C3   C3   C 0  1 N N R 49.082 41.875 72.557 3.611  0.725  -0.490 C3   PNJ 16 
-PNJ O5   O5   O 0  1 N N N 51.190 41.876 70.591 1.228  -0.478 0.502  O5   PNJ 17 
-PNJ O6   O6   O 0  1 N N N 51.690 44.454 69.958 0.997  -3.341 0.379  O6   PNJ 18 
-PNJ O7   O7   O -1 1 N N N 56.942 38.677 67.668 -5.298 -1.421 -0.921 O7   PNJ 19 
-PNJ N2   N2   N 0  1 N N N 49.711 39.428 73.007 2.406  2.858  -0.584 N2   PNJ 20 
-PNJ O8   O8   O 0  1 N N N 55.029 38.406 66.127 -6.068 0.187  0.208  O8   PNJ 21 
-PNJ H8   H8   H 0  1 N N N 51.522 39.989 68.876 -2.105 2.652  1.422  H8   PNJ 22 
-PNJ H9   H9   H 0  1 N N N 53.100 39.400 67.091 -4.386 1.790  1.087  H9   PNJ 23 
-PNJ H11  H11  H 0  1 N N N 56.149 38.684 70.020 -2.829 -1.460 -1.195 H11  PNJ 24 
-PNJ H12  H12  H 0  1 N N N 54.554 39.274 71.835 -0.546 -0.600 -0.871 H12  PNJ 25 
-PNJ H1   H1   H 0  1 N N N 50.228 40.004 70.438 0.957  0.694  -1.178 H1   PNJ 26 
-PNJ H2   H2   H 0  1 N N N 50.946 41.079 73.194 2.635  1.711  1.162  H2   PNJ 27 
-PNJ H5   H5   H 0  1 N N N 49.232 42.202 69.969 2.077  -1.462 -1.105 H5   PNJ 28 
-PNJ H61C H61C H 0  0 N N N 50.628 43.515 68.453 3.061  -3.280 0.323  H61C PNJ 29 
-PNJ H62C H62C H 0  0 N N N 49.695 44.674 69.461 2.310  -2.521 1.747  H62C PNJ 30 
-PNJ H4   H4   H 0  1 N N N 50.592 43.419 72.422 3.808  -0.548 1.239  H4   PNJ 31 
-PNJ H6   H6   H 0  1 N N N 51.964 45.166 69.392 0.912  -4.209 0.797  H6   PNJ 32 
-PNJ HA   HA   H 0  1 N N N 48.524 44.378 72.775 4.693  -2.356 -0.047 HA   PNJ 33 
-PNJ H3   H3   H 0  1 N N N 48.197 41.550 71.990 3.468  0.615  -1.565 H3   PNJ 34 
-PNJ HB   HB   H 0  1 N N N 48.362 41.449 74.317 5.627  0.905  -0.575 HB   PNJ 35 
-PNJ H21N H21N H 0  0 N N N 49.272 39.535 73.899 1.654  3.423  -0.218 H21N PNJ 36 
-PNJ H22N H22N H 0  0 N N N 49.060 39.029 72.361 3.289  3.342  -0.516 H22N PNJ 37 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  PNJ  PNP-BETA-D-GLUCOSAMINE                            PDB  ?  
+2  PNJ  "4-nitrophenyl 2-amino-2-deoxy-beta-D-glucoside"  PDB  ?  
+3  PNJ  "4-nitrophenyl 2-amino-2-deoxy-D-glucoside"       PDB  ?  
+4  PNJ  "4-nitrophenyl 2-amino-2-deoxy-glucoside"         PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-PNJ C8  C9   SING Y N 1  
-PNJ C8  C7   DOUB Y N 2  
-PNJ C9  C10  DOUB Y N 3  
-PNJ C10 N1   SING N N 4  
-PNJ C10 C11  SING Y N 5  
-PNJ N1  O8   DOUB N N 6  
-PNJ N1  O7   SING N N 7  
-PNJ C11 C12  DOUB Y N 8  
-PNJ C12 C7   SING Y N 9  
-PNJ C7  O1   SING N N 10 
-PNJ O1  C1   SING N N 11 
-PNJ C1  O5   SING N N 12 
-PNJ C1  C2   SING N N 13 
-PNJ O5  C5   SING N N 14 
-PNJ C5  C6   SING N N 15 
-PNJ C5  C4   SING N N 16 
-PNJ C6  O6   SING N N 17 
-PNJ C4  O4   SING N N 18 
-PNJ C4  C3   SING N N 19 
-PNJ C3  O3   SING N N 20 
-PNJ C3  C2   SING N N 21 
-PNJ C2  N2   SING N N 22 
-PNJ C8  H8   SING N N 23 
-PNJ C9  H9   SING N N 24 
-PNJ C11 H11  SING N N 25 
-PNJ C12 H12  SING N N 26 
-PNJ C1  H1   SING N N 27 
-PNJ C2  H2   SING N N 28 
-PNJ C5  H5   SING N N 29 
-PNJ C6  H61C SING N N 30 
-PNJ C6  H62C SING N N 31 
-PNJ C4  H4   SING N N 32 
-PNJ O6  H6   SING N N 33 
-PNJ O4  HA   SING N N 34 
-PNJ C3  H3   SING N N 35 
-PNJ O3  HB   SING N N 36 
-PNJ N2  H21N SING N N 37 
-PNJ N2  H22N SING N N 38 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+PNJ  C1    C1    C   0  1  N  N  S  50.836  40.612  71.124   1.146   0.810  -0.111  C1    PNJ   1  
+PNJ  C2    C2    C   0  1  N  N  R  50.150  40.749  72.511   2.466   1.557   0.096  C2    PNJ   2  
+PNJ  C4    C4    C   0  1  N  N  S  49.681  43.127  71.880   3.615  -0.656   0.172  C4    PNJ   3  
+PNJ  C5    C5    C   0  1  N  N  R  50.072  42.747  70.424   2.250  -1.317  -0.038  C5    PNJ   4  
+PNJ  C6    C6    C   0  1  N  N  N  50.480  43.903  69.472   2.226  -2.673   0.671  C6    PNJ   5  
+PNJ  C7    C7    C   0  1  Y  N  N  52.934  39.681  70.459  -1.181   1.079   0.299  C7    PNJ   6  
+PNJ  C8    C8    C   0  1  Y  N  N  52.534  39.705  69.126  -2.263   1.751   0.848  C8    PNJ   7  
+PNJ  C9    C9    C   0  1  Y  N  N  53.416  39.370  68.123  -3.543   1.267   0.660  C9    PNJ   8  
+PNJ  C10   C10   C   0  1  Y  N  N  54.707  38.995  68.442  -3.746   0.113  -0.075  C10   PNJ   9  
+PNJ  C11   C11   C   0  1  Y  N  N  55.134  38.966  69.781  -2.668  -0.559  -0.622  C11   PNJ  10  
+PNJ  C12   C12   C   0  1  Y  N  N  54.243  39.303  70.801  -1.387  -0.075  -0.443  C12   PNJ  11  
+PNJ  N1    N1    N   1  1  N  N  N  55.544  38.678  67.430  -5.118  -0.404  -0.275  N1    PNJ  12  
+PNJ  O1    O1    O   0  1  N  N  N  52.076  40.023  71.447   0.080   1.554   0.483  O1    PNJ  13  
+PNJ  O3    O3    O   0  1  N  N  N  48.733  42.210  73.885   4.856   1.380  -0.236  O3    PNJ  14  
+PNJ  O4    O4    O   0  1  N  N  N  48.753  44.157  71.880   4.634  -1.465  -0.419  O4    PNJ  15  
+PNJ  C3    C3    C   0  1  N  N  R  49.082  41.875  72.557   3.611   0.725  -0.490  C3    PNJ  16  
+PNJ  O5    O5    O   0  1  N  N  N  51.190  41.876  70.591   1.228  -0.478   0.502  O5    PNJ  17  
+PNJ  O6    O6    O   0  1  N  N  N  51.690  44.454  69.958   0.997  -3.341   0.379  O6    PNJ  18  
+PNJ  O7    O7    O  -1  1  N  N  N  56.942  38.677  67.668  -5.298  -1.421  -0.921  O7    PNJ  19  
+PNJ  N2    N2    N   0  1  N  N  N  49.711  39.428  73.007   2.406   2.858  -0.584  N2    PNJ  20  
+PNJ  O8    O8    O   0  1  N  N  N  55.029  38.406  66.127  -6.068   0.187   0.208  O8    PNJ  21  
+PNJ  H8    H8    H   0  1  N  N  N  51.522  39.989  68.876  -2.105   2.652   1.422  H8    PNJ  22  
+PNJ  H9    H9    H   0  1  N  N  N  53.100  39.400  67.091  -4.386   1.790   1.087  H9    PNJ  23  
+PNJ  H11   H11   H   0  1  N  N  N  56.149  38.684  70.020  -2.829  -1.460  -1.195  H11   PNJ  24  
+PNJ  H12   H12   H   0  1  N  N  N  54.554  39.274  71.835  -0.546  -0.600  -0.871  H12   PNJ  25  
+PNJ  H1    H1    H   0  1  N  N  N  50.228  40.004  70.438   0.957   0.694  -1.178  H1    PNJ  26  
+PNJ  H2    H2    H   0  1  N  N  N  50.946  41.079  73.194   2.635   1.711   1.162  H2    PNJ  27  
+PNJ  H5    H5    H   0  1  N  N  N  49.232  42.202  69.969   2.077  -1.462  -1.105  H5    PNJ  28  
+PNJ  H61   H61C  H   0  1  N  N  N  50.628  43.515  68.453   3.061  -3.280   0.323  H61   PNJ  29  
+PNJ  H62   H62C  H   0  1  N  N  N  49.695  44.674  69.461   2.310  -2.521   1.747  H62   PNJ  30  
+PNJ  H4    H4    H   0  1  N  N  N  50.592  43.419  72.422   3.808  -0.548   1.239  H4    PNJ  31  
+PNJ  HO6   H6    H   0  1  N  Y  N  51.964  45.166  69.392   0.912  -4.209   0.797  HO6   PNJ  32  
+PNJ  HO4   HA    H   0  1  N  Y  N  48.524  44.378  72.775   4.693  -2.356  -0.047  HO4   PNJ  33  
+PNJ  H3    H3    H   0  1  N  N  N  48.197  41.550  71.990   3.468   0.615  -1.565  H3    PNJ  34  
+PNJ  HO3   HB    H   0  1  N  Y  N  48.362  41.449  74.317   5.627   0.905  -0.575  HO3   PNJ  35  
+PNJ  HN2   H21N  H   0  1  N  N  N  49.272  39.535  73.899   1.654   3.423  -0.218  HN2   PNJ  36  
+PNJ  H22N  H22N  H   0  0  N  N  N  49.060  39.029  72.361   3.289   3.342  -0.516  H22N  PNJ  37  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-PNJ InChI            InChI                1.03  "InChI=1S/C12H16N2O7/c13-9-11(17)10(16)8(5-15)21-12(9)20-7-3-1-6(2-4-7)14(18)19/h1-4,8-12,15-17H,5,13H2/t8-,9-,10-,11-,12-/m1/s1" 
-PNJ InChIKey         InChI                1.03  ZRNBGANFPXCMFT-LZQZFOIKSA-N                                                                                                       
-PNJ SMILES_CANONICAL CACTVS               3.385 "N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1Oc2ccc(cc2)[N+]([O-])=O"                                                               
-PNJ SMILES           CACTVS               3.385 "N[CH]1[CH](O)[CH](O)[CH](CO)O[CH]1Oc2ccc(cc2)[N+]([O-])=O"                                                                       
-PNJ SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1[N+](=O)[O-])O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)N"                                                              
-PNJ SMILES           "OpenEye OEToolkits" 2.0.7 "c1cc(ccc1[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)N"                                                                                    
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+PNJ  C8   C9    SING  Y  N   1  
+PNJ  C8   C7    DOUB  Y  N   2  
+PNJ  C9   C10   DOUB  Y  N   3  
+PNJ  C10  N1    SING  N  N   4  
+PNJ  C10  C11   SING  Y  N   5  
+PNJ  N1   O8    DOUB  N  N   6  
+PNJ  N1   O7    SING  N  N   7  
+PNJ  C11  C12   DOUB  Y  N   8  
+PNJ  C12  C7    SING  Y  N   9  
+PNJ  C7   O1    SING  N  N  10  
+PNJ  O1   C1    SING  N  N  11  
+PNJ  C1   O5    SING  N  N  12  
+PNJ  C1   C2    SING  N  N  13  
+PNJ  O5   C5    SING  N  N  14  
+PNJ  C5   C6    SING  N  N  15  
+PNJ  C5   C4    SING  N  N  16  
+PNJ  C6   O6    SING  N  N  17  
+PNJ  C4   O4    SING  N  N  18  
+PNJ  C4   C3    SING  N  N  19  
+PNJ  C3   O3    SING  N  N  20  
+PNJ  C3   C2    SING  N  N  21  
+PNJ  C2   N2    SING  N  N  22  
+PNJ  C8   H8    SING  N  N  23  
+PNJ  C9   H9    SING  N  N  24  
+PNJ  C11  H11   SING  N  N  25  
+PNJ  C12  H12   SING  N  N  26  
+PNJ  C1   H1    SING  N  N  27  
+PNJ  C2   H2    SING  N  N  28  
+PNJ  C5   H5    SING  N  N  29  
+PNJ  C6   H61   SING  N  N  30  
+PNJ  C6   H62   SING  N  N  31  
+PNJ  C4   H4    SING  N  N  32  
+PNJ  O6   HO6   SING  N  N  33  
+PNJ  O4   HO4   SING  N  N  34  
+PNJ  C3   H3    SING  N  N  35  
+PNJ  O3   HO3   SING  N  N  36  
+PNJ  N2   HN2   SING  N  N  37  
+PNJ  N2   H22N  SING  N  N  38  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-PNJ "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(2~{R},3~{S},4~{R},5~{R},6~{S})-5-azanyl-2-(hydroxymethyl)-6-(4-nitrophenoxy)oxane-3,4-diol" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+PNJ  InChI             InChI                 1.03   "InChI=1S/C12H16N2O7/c13-9-11(17)10(16)8(5-15)21-12(9)20-7-3-1-6(2-4-7)14(18)19/h1-4,8-12,15-17H,5,13H2/t8-,9-,10-,11-,12-/m1/s1"  
+PNJ  InChIKey          InChI                 1.03   ZRNBGANFPXCMFT-LZQZFOIKSA-N  
+PNJ  SMILES_CANONICAL  CACTVS                3.385  "N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1Oc2ccc(cc2)[N+]([O-])=O"  
+PNJ  SMILES            CACTVS                3.385  "N[CH]1[CH](O)[CH](O)[CH](CO)O[CH]1Oc2ccc(cc2)[N+]([O-])=O"  
+PNJ  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "c1cc(ccc1[N+](=O)[O-])O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)N"  
+PNJ  SMILES            "OpenEye OEToolkits"  2.0.7  "c1cc(ccc1[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)N"  
+#
+_pdbx_chem_comp_identifier.comp_id          PNJ
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "(2~{R},3~{S},4~{R},5~{R},6~{S})-5-azanyl-2-(hydroxymethyl)-6-(4-nitrophenoxy)oxane-3,4-diol"
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-PNJ "Create component"     2008-08-05 EBI  
-PNJ "Modify aromatic_flag" 2011-06-04 RCSB 
-PNJ "Modify descriptor"    2011-06-04 RCSB 
-PNJ "Other modification"   2019-10-16 PDBE 
-# 
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+PNJ  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+PNJ  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+PNJ  "CARBOHYDRATE ANOMER"                  beta      PDB  ?  
+PNJ  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+PNJ  "Create component"          2008-08-05  EBI   
+PNJ  "Modify aromatic_flag"      2011-06-04  RCSB  
+PNJ  "Modify descriptor"         2011-06-04  RCSB  
+PNJ  "Other modification"        2019-10-16  PDBE  
+PNJ  "Other modification"        2020-07-03  RCSB  
+PNJ  "Modify name"               2020-07-17  RCSB  
+PNJ  "Modify synonyms"           2020-07-17  RCSB  
+PNJ  "Modify internal type"      2020-07-17  RCSB  
+PNJ  "Modify linking type"       2020-07-17  RCSB  
+PNJ  "Modify atom id"            2020-07-17  RCSB  
+PNJ  "Modify component atom id"  2020-07-17  RCSB  
+PNJ  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+
