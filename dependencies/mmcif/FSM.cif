@@ -1,202 +1,209 @@
 data_FSM
-# 
-_chem_comp.id                                    FSM 
-_chem_comp.name                                  "FORSMANN ANTIGEN" 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C16 H28 N2 O11" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         "2-(ACETYLAMINO)-3-O-[2-(ACETYLAMINO)-2-DEOXY-ALPHA-L-GALACTOPYRANOSYL]-2-DEOXY-BETA-L-GALACTOPYRANOSE" 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2006-10-19 
-_chem_comp.pdbx_modified_date                    2011-06-04 
-_chem_comp.pdbx_ambiguous_flag                   ? 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        424.400 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     FSM 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        ? 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        ? 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  RCSB 
-# 
+#
+
+_chem_comp.id                                   FSM
+_chem_comp.name                                 "FORSMANN ANTIGEN"
+_chem_comp.type                                 saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C16 H28 N2 O11"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        "2-(ACETYLAMINO)-3-O-[2-(ACETYLAMINO)-2-DEOXY-ALPHA-L-GALACTOPYRANOSYL]-2-DEOXY-BETA-L-GALACTOPYRANOSE"
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2006-10-19
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  ?
+_chem_comp.pdbx_release_status                  OBS
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       424.400
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    FSM
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       2CGY
+_chem_comp.pdbx_subcomponent_list               "NGA A2G"
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-FSM C2A    AC2    C 0 1 N N R -15.089 32.588 15.201 3.171  -0.291 2.054  C2A    FSM 1  
-FSM C3A    AC3    C 0 1 N N R -14.822 31.431 14.230 4.051  0.464  3.057  C3A    FSM 2  
-FSM C4A    AC4    C 0 1 N N R -13.336 31.109 14.117 5.060  1.353  2.320  C4A    FSM 3  
-FSM C5A    AC5    C 0 1 N N R -12.726 30.944 15.498 4.333  2.257  1.317  C5A    FSM 4  
-FSM C6A    AC6    C 0 1 N N N -11.268 30.572 15.261 5.287  3.096  0.474  C6A    FSM 5  
-FSM C7A    AC7    C 0 1 N N N -17.219 33.845 15.308 1.682  -2.275 2.232  C7A    FSM 6  
-FSM C8A    AC8    C 0 1 N N N -18.724 33.752 15.625 0.644  -2.917 3.092  C8A    FSM 7  
-FSM N2A    AN2    N 0 1 N N N -16.537 32.701 15.455 2.162  -1.077 2.726  N2A    FSM 8  
-FSM O1A    AO1    O 0 1 N N N -17.041 31.521 19.305 -0.988 0.628  2.205  O1A    FSM 9  
-FSM O3A    AO3    O 0 1 N N N -15.303 31.777 12.924 4.746  -0.470 3.881  O3A    FSM 10 
-FSM O4A    AO4    O 0 1 N N N -12.678 32.163 13.407 5.991  0.512  1.634  O4A    FSM 11 
-FSM O5A    AO5    O 0 1 N N N -12.921 32.165 16.247 3.545  1.472  0.410  O5A    FSM 12 
-FSM C1     C1     C 0 1 N N S -14.335 32.407 16.527 2.537  0.687  1.054  C1     FSM 13 
-FSM O6A    AO6    O 0 1 N N N -10.446 31.440 16.024 4.524  3.884  -0.422 O6A    FSM 14 
-FSM O7A    AO7    O 0 1 N N N -16.716 34.914 14.960 2.029  -2.824 1.193  O7A    FSM 15 
-FSM C1B    BC1    C 0 1 N N R -14.196 30.866 21.048 -1.273 3.601  0.410  C1B    FSM 16 
-FSM C2B    BC2    C 0 1 N N R -14.467 30.363 19.618 -0.010 3.262  1.216  C2B    FSM 17 
-FSM C3B    BC3    C 0 1 N N R -14.676 31.612 18.740 0.527  1.881  0.822  C3B    FSM 18 
-FSM C4B    BC4    C 0 1 N N R -15.876 32.348 19.360 -0.582 0.826  0.849  C4B    FSM 19 
-FSM C5B    BC5    C 0 1 N N R -15.611 32.685 20.830 -1.771 1.301  0.009  C5B    FSM 20 
-FSM C6B    BC6    C 0 1 N N N -16.803 33.429 21.456 -2.945 0.330  0.040  C6B    FSM 21 
-FSM C7B    BC7    C 0 1 N N N -13.439 28.568 18.235 1.513  5.048  2.034  C7B    FSM 22 
-FSM C8B    BC8    C 0 1 N N N -12.134 27.824 17.923 2.547  6.030  1.594  C8B    FSM 23 
-FSM N2B    BN2    N 0 1 N N N -13.334 29.529 19.163 1.000  4.276  1.010  N2B    FSM 24 
-FSM O1B    BO1    O 0 1 N N N -13.739 29.876 21.976 -1.843 4.824  0.876  O1B    FSM 25 
-FSM O3B    BO3    O 0 1 N N N -14.942 31.367 17.343 1.570  1.507  1.708  O3B    FSM 26 
-FSM O5B    BO5    O 0 1 N N N -15.411 31.440 21.535 -2.243 2.557  0.508  O5B    FSM 27 
-FSM O6B    BO6    O 0 1 N N N -17.849 32.485 21.733 -2.516 -0.915 -0.481 O6B    FSM 28 
-FSM O7B    BO7    O 0 1 N N N -14.481 28.276 17.645 1.201  4.989  3.218  O7B    FSM 29 
-FSM HAA    HAA    H 0 1 N N N -14.741 33.534 14.725 3.792  -1.014 1.510  HAA    FSM 30 
-FSM HAB    HAB    H 0 1 N N N -15.364 30.524 14.588 3.430  1.080  3.718  HAB    FSM 31 
-FSM HAD    HAD    H 0 1 N N N -13.213 30.157 13.550 5.639  1.945  3.037  HAD    FSM 32 
-FSM HAF    HAF    H 0 1 N N N -13.237 30.105 16.026 3.670  2.948  1.851  HAF    FSM 33 
-FSM HAA1   1HAA   H 0 0 N N N -10.999 30.572 14.179 5.952  2.446  -0.094 HAA1   FSM 34 
-FSM HAA2   2HAA   H 0 0 N N N -11.063 29.496 15.472 5.875  3.751  1.118  HAA2   FSM 35 
-FSM "HA'1" "1HA'" H 0 0 N N N -19.179 32.784 15.940 -0.311 -3.062 2.561  "HA'1" FSM 36 
-FSM "HA'2" "2HA'" H 0 0 N N N -19.290 34.133 14.743 0.943  -3.920 3.434  "HA'2" FSM 37 
-FSM "HA'3" "3HA'" H 0 0 N N N -18.965 34.519 16.398 0.384  -2.364 4.009  "HA'3" FSM 38 
-FSM "HA'"  "HA'"  H 0 1 N N N -17.044 31.869 15.757 1.787  -0.731 3.605  "HA'"  FSM 39 
-FSM HAH    HAH    H 0 1 N N N -17.782 31.976 19.688 -1.867 1.026  2.287  HAH    FSM 40 
-FSM HAC    HAC    H 0 1 N N N -15.138 31.060 12.323 5.280  -1.019 3.286  HAC    FSM 41 
-FSM HAE    HAE    H 0 1 N N N -11.752 31.962 13.337 6.681  1.096  1.288  HAE    FSM 42 
-FSM H1     H1     H 0 1 N N N -14.409 33.366 17.091 2.007  0.130  0.275  H1     FSM 43 
-FSM HAG    HAG    H 0 1 N N N -9.537  31.208 15.876 4.847  3.689  -1.319 HAG    FSM 44 
-FSM HBE    HBE    H 0 1 N N N -13.428 31.672 20.993 -1.033 3.754  -0.649 HBE    FSM 45 
-FSM HBB    HBB    H 0 1 N N N -15.399 29.751 19.614 -0.228 3.278  2.291  HBB    FSM 46 
-FSM "HB'"  "HB'"  H 0 1 N N N -13.775 32.263 18.824 0.957  1.929  -0.187 "HB'"  FSM 47 
-FSM HBA    HBA    H 0 1 N N N -16.065 33.290 18.794 -0.193 -0.131 0.484  HBA    FSM 48 
-FSM HBC    HBC    H 0 1 N N N -14.693 33.313 20.911 -1.461 1.432  -1.036 HBC    FSM 49 
-FSM "HB'1" "1HB'" H 0 0 N N N -17.153 34.278 20.824 -3.763 0.713  -0.571 "HB'1" FSM 50 
-FSM "HB'2" "2HB'" H 0 0 N N N -16.511 34.016 22.358 -3.288 0.191  1.066  "HB'2" FSM 51 
-FSM HBA1   1HBA   H 0 0 N N N -12.221 27.024 17.151 2.265  7.070  1.825  HBA1   FSM 52 
-FSM HBA2   2HBA   H 0 0 N N N -11.694 27.409 18.860 3.516  5.874  2.094  HBA2   FSM 53 
-FSM HBA3   3HBA   H 0 0 N N N -11.336 28.549 17.638 2.774  6.024  0.516  HBA3   FSM 54 
-FSM HBG    HBG    H 0 1 N N N -12.418 29.695 19.580 1.349  4.428  0.069  HBG    FSM 55 
-FSM HBF    HBF    H 0 1 N N N -13.572 30.186 22.858 -2.225 5.261  0.100  HBF    FSM 56 
-FSM HBD    HBD    H 0 1 N N N -18.585 32.944 22.120 -2.606 -1.569 0.232  HBD    FSM 57 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_residue_numbering
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_polymer_type
+_chem_comp_atom.pdbx_component_id
+_chem_comp_atom.pdbx_ordinal
+FSM  C1B     C9   C  0  1  N  N  R  -14.196  30.866  21.048  -3.258  -0.795   0.110  NGA  1  C1   polymer  1   1  
+FSM  C2B     C10  C  0  1  N  N  R  -14.467  30.363  19.618  -1.845  -0.754  -0.478  NGA  1  C2   polymer  1   2  
+FSM  C3B     C11  C  0  1  N  N  R  -14.676  31.612  18.740  -0.991   0.223   0.336  NGA  1  C3   polymer  1   3  
+FSM  C4B     C12  C  0  1  N  N  R  -15.876  32.348  19.360  -1.664   1.599   0.330  NGA  1  C4   polymer  1   4  
+FSM  C5B     C13  C  0  1  N  N  R  -15.611  32.685  20.830  -3.084   1.467   0.886  NGA  1  C5   polymer  1   5  
+FSM  C6B     C14  C  0  1  N  N  N  -16.803  33.429  21.456  -3.783   2.826   0.827  NGA  1  C6   polymer  1   6  
+FSM  C7B     C15  C  0  1  N  N  N  -13.439  28.568  18.235  -1.493  -2.982  -1.400  NGA  1  C7   polymer  1   7  
+FSM  C8B     C16  C  0  1  N  N  N  -12.134  27.824  17.923  -0.881  -4.357  -1.338  NGA  1  C8   polymer  1   8  
+FSM  N2B     N2   N  0  1  N  N  N  -13.334  29.529  19.163  -1.250  -2.092  -0.417  NGA  1  N2   polymer  1   9  
+FSM  O1B     O7   O  0  1  N  N  N  -13.739  29.876  21.976  -4.077  -1.663  -0.678  NGA  1  O1   polymer  1  10  
+FSM  O3B     O8   O  0  1  N  N  N  -14.942  31.367  17.343   0.309   0.324  -0.250  NGA  1  O3   polymer  1  11  
+FSM  O1A     O1   O  0  1  N  N  N  -17.041  31.521  19.305  -1.719   2.098  -1.008  NGA  1  O4   polymer  1  12  
+FSM  O5B     O9   O  0  1  N  N  N  -15.411  31.440  21.535  -3.814   0.521   0.103  NGA  1  O5   polymer  1  13  
+FSM  O6B     O10  O  0  1  N  N  N  -17.849  32.485  21.733  -5.065   2.730   1.452  NGA  1  O6   polymer  1  14  
+FSM  O7B     O11  O  0  1  N  N  N  -14.481  28.276  17.645  -2.203  -2.675  -2.334  NGA  1  O7   polymer  1  15  
+FSM  O5A     O4   O  0  1  N  N  N  -12.921  32.165  16.247   1.564  -0.531   1.522  A2G  2  O    polymer  1  16  
+FSM  C1      C8   C  0  1  N  N  S  -14.335  32.407  16.527   1.348   0.609   0.688  A2G  2  C1   polymer  1  17  
+FSM  C2A     C1   C  0  1  N  N  R  -15.089  32.588  15.201   2.639   0.940  -0.065  A2G  2  C2   polymer  1  18  
+FSM  N2A     N1   N  0  1  N  N  N  -16.537  32.701  15.455   2.405   2.072  -0.965  A2G  2  N2   polymer  1  19  
+FSM  C3A     C2   C  0  1  N  N  R  -14.822  31.431  14.230   3.072  -0.282  -0.881  A2G  2  C3   polymer  1  20  
+FSM  O3A     O2   O  0  1  N  N  N  -15.303  31.777  12.924   4.315  -0.007  -1.530  A2G  2  O3   polymer  1  21  
+FSM  C4A     C3   C  0  1  N  N  R  -13.336  31.109  14.117   3.239  -1.479   0.060  A2G  2  C4   polymer  1  22  
+FSM  O4A     O3   O  0  1  N  N  N  -12.678  32.163  13.407   4.281  -1.206   1.000  A2G  2  O4   polymer  1  23  
+FSM  C5A     C4   C  0  1  N  N  R  -12.726  30.944  15.498   1.925  -1.716   0.809  A2G  2  C5   polymer  1  24  
+FSM  C6A     C5   C  0  1  N  N  N  -11.268  30.572  15.261   2.101  -2.872   1.796  A2G  2  C6   polymer  1  25  
+FSM  O6A     O5   O  0  1  N  N  N  -10.446  31.440  16.024   0.846  -3.170   2.410  A2G  2  O6   polymer  1  26  
+FSM  C7A     C6   C  0  1  N  N  N  -17.219  33.845  15.308   2.511   3.333  -0.503  A2G  2  C7   polymer  1  27  
+FSM  O7A     O6   O  0  1  N  N  N  -16.716  34.914  14.960   2.802   3.532   0.658  A2G  2  O7   polymer  1  28  
+FSM  C8A     C7   C  0  1  N  N  N  -18.724  33.752  15.625   2.270   4.498  -1.429  A2G  2  C8   polymer  1  29  
+FSM  HBE     H16  H  0  1  N  N  N  -13.436  31.658  20.977  -3.216  -1.167   1.134  NGA  1  H1   polymer  1  30  
+FSM  HBB     H17  H  0  1  N  N  N  -15.392  29.767  19.618  -1.891  -0.421  -1.515  NGA  1  H2   polymer  1  31  
+FSM  "HB'"   H18  H  0  1  N  N  N  -13.789  32.255  18.838  -0.902  -0.136   1.361  NGA  1  H3   polymer  1  32  
+FSM  HBA     H19  H  0  1  N  N  N  -16.045  33.283  18.805  -1.091   2.288   0.951  NGA  1  H4   polymer  1  33  
+FSM  HBC     H20  H  0  1  N  N  N  -14.713  33.316  20.902  -3.039   1.125   1.920  NGA  1  H5   polymer  1  34  
+FSM  "HB'1"  H21  H  0  1  N  N  N  -16.486  33.913  22.391  -3.180   3.569   1.350  NGA  1  H61  polymer  1  35  
+FSM  "HB'2"  H22  H  0  1  N  N  N  -17.171  34.192  20.755  -3.908   3.126  -0.213  NGA  1  H62  polymer  1  36  
+FSM  HBA1    H23  H  0  1  N  N  N  -12.320  27.065  17.149  -1.188  -4.931  -2.213  NGA  1  H81  polymer  1  37  
+FSM  HBA2    H24  H  0  1  N  N  N  -11.381  28.540  17.561   0.206  -4.272  -1.322  NGA  1  H82  polymer  1  38  
+FSM  HBA3    H25  H  0  1  N  N  N  -11.765  27.333  18.836  -1.218  -4.865  -0.434  NGA  1  H83  polymer  1  39  
+FSM  HBG     H26  H  0  1  N  N  N  -12.436  29.692  19.572  -0.682  -2.336   0.330  NGA  1  HN2  polymer  1  40  
+FSM  HBF     H27  H  0  1  N  N  N  -13.600  30.278  22.826  -4.988  -1.737  -0.363  NGA  1  HO1  polymer  1  41  
+FSM  HAH     H11  H  0  1  N  N  N  -17.776  31.983  19.690  -2.134   2.968  -1.087  NGA  1  HO4  polymer  1  42  
+FSM  HBD     H28  H  0  1  N  N  N  -18.590  32.937  22.120  -5.566   3.557   1.452  NGA  1  HO6  polymer  1  43  
+FSM  H1      H14  H  0  1  N  N  N  -14.414  33.358  17.074   1.059   1.460   1.305  A2G  2  H1   polymer  1  44  
+FSM  HAA     H1   H  0  1  N  N  N  -14.736  33.518  14.731   3.422   1.197   0.648  A2G  2  H2   polymer  1  45  
+FSM  "HA'"   H10  H  0  1  N  N  N  -17.034  31.885  15.751   2.172   1.913  -1.893  A2G  2  HN2  polymer  1  46  
+FSM  HAB     H2   H  0  1  N  N  N  -15.348  30.538  14.598   2.312  -0.508  -1.630  A2G  2  H3   polymer  1  47  
+FSM  HAC     H12  H  0  1  N  N  N  -15.137  31.059  12.324   4.650  -0.740  -2.066  A2G  2  HO3  polymer  1  48  
+FSM  HAD     H3   H  0  1  N  N  N  -13.224  30.163  13.568   3.494  -2.365  -0.519  A2G  2  H4   polymer  1  49  
+FSM  HAE     H13  H  0  1  N  N  N  -11.751  31.966  13.334   4.441  -1.922   1.628  A2G  2  HO4  polymer  1  50  
+FSM  HAF     H4   H  0  1  N  N  N  -13.226  30.108  16.010   1.139  -1.964   0.095  A2G  2  H5   polymer  1  51  
+FSM  HAA2    H6   H  0  1  N  N  N  -11.028  30.679  14.193   2.822  -2.588   2.562  A2G  2  H6   polymer  1  52  
+FSM  "HA'2"  H8   H  0  1  N  N  N  -19.197  33.025  14.948   2.401   5.431  -0.881  A2G  2  H8   polymer  1  53  
+FSM  "HA'1"  H7   H  0  1  N  N  N  -19.190  34.739  15.486   1.254   4.446  -1.820  A2G  2  H8A  polymer  1  54  
+FSM  "HA'3"  H9   H  0  1  N  N  N  -18.860  33.426  16.667   2.980   4.459  -2.254  A2G  2  H8B  polymer  1  55  
+FSM  HAA1    H5   H  0  1  N  N  N  -11.096  29.531  15.573   2.463  -3.751   1.264  A2G  2  H14  polymer  1  56  
+FSM  HAG     H15  H  0  1  N  N  N   -9.533  31.217  15.884   0.882  -3.894   3.049  A2G  2  H15  polymer  1  57  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-FSM C2A C3A    SING N N 1  
-FSM C2A N2A    SING N N 2  
-FSM C2A C1     SING N N 3  
-FSM C2A HAA    SING N N 4  
-FSM C3A C4A    SING N N 5  
-FSM C3A O3A    SING N N 6  
-FSM C3A HAB    SING N N 7  
-FSM C4A C5A    SING N N 8  
-FSM C4A O4A    SING N N 9  
-FSM C4A HAD    SING N N 10 
-FSM C5A C6A    SING N N 11 
-FSM C5A O5A    SING N N 12 
-FSM C5A HAF    SING N N 13 
-FSM C6A O6A    SING N N 14 
-FSM C6A HAA1   SING N N 15 
-FSM C6A HAA2   SING N N 16 
-FSM C7A C8A    SING N N 17 
-FSM C7A N2A    SING N N 18 
-FSM C7A O7A    DOUB N N 19 
-FSM C8A "HA'1" SING N N 20 
-FSM C8A "HA'2" SING N N 21 
-FSM C8A "HA'3" SING N N 22 
-FSM N2A "HA'"  SING N N 23 
-FSM O1A C4B    SING N N 24 
-FSM O1A HAH    SING N N 25 
-FSM O3A HAC    SING N N 26 
-FSM O4A HAE    SING N N 27 
-FSM O5A C1     SING N N 28 
-FSM C1  O3B    SING N N 29 
-FSM C1  H1     SING N N 30 
-FSM O6A HAG    SING N N 31 
-FSM C1B C2B    SING N N 32 
-FSM C1B O1B    SING N N 33 
-FSM C1B O5B    SING N N 34 
-FSM C1B HBE    SING N N 35 
-FSM C2B C3B    SING N N 36 
-FSM C2B N2B    SING N N 37 
-FSM C2B HBB    SING N N 38 
-FSM C3B C4B    SING N N 39 
-FSM C3B O3B    SING N N 40 
-FSM C3B "HB'"  SING N N 41 
-FSM C4B C5B    SING N N 42 
-FSM C4B HBA    SING N N 43 
-FSM C5B C6B    SING N N 44 
-FSM C5B O5B    SING N N 45 
-FSM C5B HBC    SING N N 46 
-FSM C6B O6B    SING N N 47 
-FSM C6B "HB'1" SING N N 48 
-FSM C6B "HB'2" SING N N 49 
-FSM C7B C8B    SING N N 50 
-FSM C7B N2B    SING N N 51 
-FSM C7B O7B    DOUB N N 52 
-FSM C8B HBA1   SING N N 53 
-FSM C8B HBA2   SING N N 54 
-FSM C8B HBA3   SING N N 55 
-FSM N2B HBG    SING N N 56 
-FSM O1B HBF    SING N N 57 
-FSM O6B HBD    SING N N 58 
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+FSM  C2A  C3A     SING  N  N   1  
+FSM  C2A  N2A     SING  N  N   2  
+FSM  C2A  C1      SING  N  N   3  
+FSM  C3A  O3A     SING  N  N   4  
+FSM  C3A  C4A     SING  N  N   5  
+FSM  C4A  O4A     SING  N  N   6  
+FSM  C4A  C5A     SING  N  N   7  
+FSM  C5A  C6A     SING  N  N   8  
+FSM  C5A  O5A     SING  N  N   9  
+FSM  C6A  O6A     SING  N  N  10  
+FSM  C7A  C8A     SING  N  N  11  
+FSM  C7A  N2A     SING  N  N  12  
+FSM  C7A  O7A     DOUB  N  N  13  
+FSM  O1A  C4B     SING  N  N  14  
+FSM  O5A  C1      SING  N  N  15  
+FSM  C1   O3B     SING  N  N  16  
+FSM  C1B  C2B     SING  N  N  17  
+FSM  C1B  O5B     SING  N  N  18  
+FSM  C1B  O1B     SING  N  N  19  
+FSM  C2B  C3B     SING  N  N  20  
+FSM  C2B  N2B     SING  N  N  21  
+FSM  C3B  O3B     SING  N  N  22  
+FSM  C3B  C4B     SING  N  N  23  
+FSM  C4B  C5B     SING  N  N  24  
+FSM  C5B  O5B     SING  N  N  25  
+FSM  C5B  C6B     SING  N  N  26  
+FSM  C6B  O6B     SING  N  N  27  
+FSM  C7B  O7B     DOUB  N  N  28  
+FSM  C7B  C8B     SING  N  N  29  
+FSM  C7B  N2B     SING  N  N  30  
+FSM  C2A  HAA     SING  N  N  31  
+FSM  C3A  HAB     SING  N  N  32  
+FSM  C4A  HAD     SING  N  N  33  
+FSM  C5A  HAF     SING  N  N  34  
+FSM  C6A  HAA1    SING  N  N  35  
+FSM  C6A  HAA2    SING  N  N  36  
+FSM  C8A  "HA'1"  SING  N  N  37  
+FSM  C8A  "HA'2"  SING  N  N  38  
+FSM  C8A  "HA'3"  SING  N  N  39  
+FSM  N2A  "HA'"   SING  N  N  40  
+FSM  O1A  HAH     SING  N  N  41  
+FSM  O3A  HAC     SING  N  N  42  
+FSM  O4A  HAE     SING  N  N  43  
+FSM  C1   H1      SING  N  N  44  
+FSM  O6A  HAG     SING  N  N  45  
+FSM  C1B  HBE     SING  N  N  46  
+FSM  C2B  HBB     SING  N  N  47  
+FSM  C3B  "HB'"   SING  N  N  48  
+FSM  C4B  HBA     SING  N  N  49  
+FSM  C5B  HBC     SING  N  N  50  
+FSM  C6B  "HB'1"  SING  N  N  51  
+FSM  C6B  "HB'2"  SING  N  N  52  
+FSM  C8B  HBA1    SING  N  N  53  
+FSM  C8B  HBA2    SING  N  N  54  
+FSM  C8B  HBA3    SING  N  N  55  
+FSM  N2B  HBG     SING  N  N  56  
+FSM  O1B  HBF     SING  N  N  57  
+FSM  O6B  HBD     SING  N  N  58  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-FSM SMILES           ACDLabs              10.04 "O=C(NC2C(OC1OC(C(O)C(O)C1NC(=O)C)CO)C(O)C(OC2O)CO)C"                                                                                                                                                    
-FSM SMILES_CANONICAL CACTVS               3.341 "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@@H](CO)O[C@@H]1O[C@H]2[C@@H](O)[C@@H](CO)O[C@@H](O)[C@@H]2NC(C)=O"                                                                                                   
-FSM SMILES           CACTVS               3.341 "CC(=O)N[CH]1[CH](O)[CH](O)[CH](CO)O[CH]1O[CH]2[CH](O)[CH](CO)O[CH](O)[CH]2NC(C)=O"                                                                                                                      
-FSM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@@H]1O[C@@H]2[C@H]([C@@H](O[C@@H]([C@@H]2O)CO)O)NC(=O)C)CO)O)O"                                                                                                      
-FSM SMILES           "OpenEye OEToolkits" 1.5.0 "CC(=O)NC1C(C(C(OC1OC2C(C(OC(C2O)CO)O)NC(=O)C)CO)O)O"                                                                                                                                                    
-FSM InChI            InChI                1.03  "InChI=1S/C16H28N2O11/c1-5(21)17-9-13(25)11(23)7(3-19)28-16(9)29-14-10(18-6(2)22)15(26)27-8(4-20)12(14)24/h7-16,19-20,23-26H,3-4H2,1-2H3,(H,17,21)(H,18,22)/t7-,8-,9-,10-,11+,12+,13-,14-,15-,16-/m1/s1" 
-FSM InChIKey         InChI                1.03  FJGXDMQHNYEUHI-LRFIHEIOSA-N                                                                                                                                                                              
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+FSM  SMILES            ACDLabs               10.04  "O=C(NC2C(OC1OC(C(O)C(O)C1NC(=O)C)CO)C(O)C(OC2O)CO)C"  
+FSM  SMILES_CANONICAL  CACTVS                3.341  "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@@H](CO)O[C@@H]1O[C@H]2[C@@H](O)[C@@H](CO)O[C@@H](O)[C@@H]2NC(C)=O"  
+FSM  SMILES            CACTVS                3.341  "CC(=O)N[CH]1[CH](O)[CH](O)[CH](CO)O[CH]1O[CH]2[CH](O)[CH](CO)O[CH](O)[CH]2NC(C)=O"  
+FSM  SMILES_CANONICAL  "OpenEye OEToolkits"  1.5.0  "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@@H]1O[C@@H]2[C@H]([C@@H](O[C@@H]([C@@H]2O)CO)O)NC(=O)C)CO)O)O"  
+FSM  SMILES            "OpenEye OEToolkits"  1.5.0  "CC(=O)NC1C(C(C(OC1OC2C(C(OC(C2O)CO)O)NC(=O)C)CO)O)O"  
+FSM  InChI             InChI                 1.03   "InChI=1S/C16H28N2O11/c1-5(21)17-9-13(25)11(23)7(3-19)28-16(9)29-14-10(18-6(2)22)15(26)27-8(4-20)12(14)24/h7-16,19-20,23-26H,3-4H2,1-2H3,(H,17,21)(H,18,22)/t7-,8-,9-,10-,11+,12+,13-,14-,15-,16-/m1/s1"  
+FSM  InChIKey          InChI                 1.03   FJGXDMQHNYEUHI-LRFIHEIOSA-N  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-FSM "SYSTEMATIC NAME" ACDLabs              10.04 "2-(acetylamino)-3-O-[2-(acetylamino)-2-deoxy-alpha-D-galactopyranosyl]-2-deoxy-beta-D-galactopyranose"                                                
-FSM "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "N-[(2S,3R,4R,5R,6R)-2-[(2R,3R,4R,5R,6R)-3-acetamido-2,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl]ethanamide" 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+FSM  "SYSTEMATIC NAME"  ACDLabs               10.04  "2-(acetylamino)-3-O-[2-(acetylamino)-2-deoxy-alpha-D-galactopyranosyl]-2-deoxy-beta-D-galactopyranose"  
+FSM  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  1.5.0  "N-[(2S,3R,4R,5R,6R)-2-[(2R,3R,4R,5R,6R)-3-acetamido-2,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl]ethanamide"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-FSM "Create component"  2006-10-19 RCSB 
-FSM "Modify descriptor" 2011-06-04 RCSB 
-# 
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+FSM  "Create component"    2006-10-19  RCSB  
+FSM  "Modify descriptor"   2011-06-04  RCSB  
+FSM  "Other modification"  2020-07-03  RCSB  
+FSM  "Obsolete component"  2020-07-17  RCSB  
+##
+

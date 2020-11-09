@@ -1,224 +1,231 @@
 data_2OS
-# 
-_chem_comp.id                                    2OS 
-_chem_comp.name                                  3-N-OCTANOYLSUCROSE 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             ATOMS 
-_chem_comp.formula                               "C20 H36 O12" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         "3'-O-N-OCTANOYL-A-D-GLUCOPYRANOSYL-B-D-FRUCTOFURANOSIDE" 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2004-05-02 
-_chem_comp.pdbx_modified_date                    2011-06-04 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        468.493 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     2OS 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        ? 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        1T3I 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  RCSB 
-# 
+#
+
+_chem_comp.id                                   2OS
+_chem_comp.name                                 3-N-OCTANOYLSUCROSE
+_chem_comp.type                                 saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C20 H36 O12"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        "3'-O-N-OCTANOYL-A-D-GLUCOPYRANOSYL-B-D-FRUCTOFURANOSIDE"
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2004-05-02
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  OBS
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       468.493
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    2OS
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       1T3I
+_chem_comp.pdbx_subcomponent_list               "TU4 FRU"
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-2OS C4   C4   C 0 1 N N N 4.866  44.514 -6.491  -0.697 0.083  2.822  C4   2OS 1  
-2OS C7   C7   C 0 1 N N N 5.037  44.235 -4.984  -1.111 0.365  4.243  C7   2OS 2  
-2OS C8   C8   C 0 1 N N N 4.542  45.481 -4.186  -0.032 -0.145 5.200  C8   2OS 3  
-2OS C9   C9   C 0 1 N N N 4.858  45.190 -2.688  -0.453 0.141  6.643  C9   2OS 4  
-2OS C10  C10  C 0 1 N N N 4.569  46.441 -1.899  0.625  -0.370 7.600  C10  2OS 5  
-2OS C11  C11  C 0 1 N N N 4.986  46.134 -0.464  0.204  -0.083 9.043  C11  2OS 6  
-2OS C12  C12  C 0 1 N N N 4.876  47.336 0.404   1.283  -0.594 9.999  C12  2OS 7  
-2OS C1   C1   C 0 1 N N R 3.499  41.677 -14.113 0.958  -0.028 -5.121 C1   2OS 8  
-2OS C2   C2   C 0 1 N N S 4.265  42.989 -14.266 1.157  -1.477 -4.612 C2   2OS 9  
-2OS C3   C3   C 0 1 N N S 3.423  44.001 -13.497 2.094  -1.237 -3.394 C3   2OS 10 
-2OS C13  C13  C 0 1 N N S 2.717  43.286 -12.395 1.596  0.124  -2.865 C13  2OS 11 
-2OS O2   O2   O 0 1 N N N 2.464  41.893 -12.926 0.909  0.782  -3.936 O2   2OS 12 
-2OS O4   O4   O 0 1 N N N 4.363  43.336 -15.668 1.795  -2.288 -5.601 O4   2OS 13 
-2OS C17  C17  C 0 1 N N N 4.309  40.456 -13.933 -0.353 0.088  -5.899 C17  2OS 14 
-2OS O1   O1   O 0 1 N N N 3.301  39.377 -13.924 -0.512 1.430  -6.366 O1   2OS 15 
-2OS C18  C18  C 0 1 N N N 1.421  44.012 -12.068 2.786  0.972  -2.413 C18  2OS 16 
-2OS O3   O3   O 0 1 N N N 0.798  43.368 -11.035 2.314  2.215  -1.889 O3   2OS 17 
-2OS O5   O5   O 0 1 N N N 4.187  45.242 -13.025 1.925  -2.262 -2.412 O5   2OS 18 
-2OS C21  C21  C 0 1 N N R 3.969  42.073 -10.336 -0.030 1.137  -1.602 C21  2OS 19 
-2OS C24  C24  C 0 1 N N R 4.008  42.492 -8.848  -0.299 1.363  -0.112 C24  2OS 20 
-2OS C27  C27  C 0 1 N N S 5.393  43.277 -8.564  -1.095 0.174  0.436  C27  2OS 21 
-2OS C16  C16  C 0 1 N N R 6.597  42.418 -8.969  -2.342 -0.028 -0.432 C16  2OS 22 
-2OS C29  C29  C 0 1 N N R 6.444  42.125 -10.562 -1.915 -0.151 -1.896 C29  2OS 23 
-2OS O9   O9   O 0 1 N N N 2.858  43.283 -8.554  0.942  1.480  0.585  O9   2OS 24 
-2OS O11  O11  O 0 1 N N N 5.490  43.588 -7.118  -1.495 0.446  1.805  O11  2OS 25 
-2OS O13  O13  O 0 1 N N N 7.710  43.245 -8.693  -3.018 -1.220 -0.027 O13  2OS 26 
-2OS O15  O15  O 0 1 N N N 5.169  41.372 -10.728 -1.264 1.047  -2.312 O15  2OS 27 
-2OS O6   O6   O 0 1 N N N 3.765  43.216 -11.233 0.702  -0.078 -1.769 O6   2OS 28 
-2OS C32  C32  C 0 1 N N N 7.589  41.271 -11.073 -3.150 -0.386 -2.768 C32  2OS 29 
-2OS O17  O17  O 0 1 N N N 7.654  39.980 -10.259 -2.741 -0.659 -4.110 O17  2OS 30 
-2OS C31  C31  C 0 1 N N N 3.468  47.553 0.937   0.863  -0.308 11.442 C31  2OS 31 
-2OS O7   O7   O 0 1 N N N 4.610  45.656 -7.092  0.353  -0.469 2.597  O7   2OS 32 
-2OS H71  1H7  H 0 1 N N N 4.530  43.294 -4.664  -2.053 -0.140 4.454  H71  2OS 33 
-2OS H72  2H7  H 0 1 N N N 6.080  43.945 -4.719  -1.237 1.440  4.378  H72  2OS 34 
-2OS H81  1H8  H 0 1 N N N 4.972  46.442 -4.551  0.909  0.360  4.989  H81  2OS 35 
-2OS H82  2H8  H 0 1 N N N 3.471  45.731 -4.373  0.093  -1.219 5.065  H82  2OS 36 
-2OS H91  1H9  H 0 1 N N N 4.313  44.298 -2.297  -1.395 -0.364 6.854  H91  2OS 37 
-2OS H92  2H9  H 0 1 N N N 5.895  44.811 -2.531  -0.579 1.215  6.778  H92  2OS 38 
-2OS H101 1H10 H 0 0 N N N 5.052  47.354 -2.318  1.567  0.135  7.389  H101 2OS 39 
-2OS H102 2H10 H 0 0 N N N 3.515  46.793 -1.991  0.751  -1.444 7.465  H102 2OS 40 
-2OS H111 1H11 H 0 0 N N N 4.410  45.275 -0.046  -0.737 -0.589 9.254  H111 2OS 41 
-2OS H112 2H11 H 0 0 N N N 6.009  45.692 -0.421  0.078  0.990  9.178  H112 2OS 42 
-2OS H121 1H12 H 0 0 N N N 5.616  47.295 1.237   2.225  -0.088 9.788  H121 2OS 43 
-2OS H122 2H12 H 0 0 N N N 5.247  48.245 -0.124  1.409  -1.668 9.864  H122 2OS 44 
-2OS H1   H1   H 0 1 N N N 2.994  41.464 -15.084 1.798  0.270  -5.749 H1   2OS 45 
-2OS H2   H2   H 0 1 N N N 5.310  42.942 -13.880 0.210  -1.917 -4.299 H2   2OS 46 
-2OS H3   H3   H 0 1 N N N 2.673  44.433 -14.200 3.134  -1.174 -3.711 H3   2OS 47 
-2OS HO4  HO4  H 0 1 N N N 4.839  44.152 -15.763 1.208  -2.305 -6.369 HO4  2OS 48 
-2OS H171 1H17 H 0 0 N N N 5.121  40.324 -14.685 -1.186 -0.170 -5.247 H171 2OS 49 
-2OS H172 2H17 H 0 0 N N N 4.978  40.471 -13.041 -0.332 -0.591 -6.751 H172 2OS 50 
-2OS HO1  HO1  H 0 1 N N N 3.822  38.591 -13.808 -1.384 1.480  -6.780 HO1  2OS 51 
-2OS H181 1H18 H 0 0 N N N 1.582  45.094 -11.857 3.441  1.162  -3.264 H181 2OS 52 
-2OS H182 2H18 H 0 0 N N N 0.760  44.123 -12.959 3.340  0.439  -1.641 H182 2OS 53 
-2OS HO3  HO3  H 0 1 N N N -0.011 43.821 -10.830 3.094  2.718  -1.617 HO3  2OS 54 
-2OS HO5  HO5  H 0 1 N N N 3.662  45.872 -12.545 2.168  -3.097 -2.835 HO5  2OS 55 
-2OS H21  H21  H 0 1 N N N 3.096  41.386 -10.432 0.554  1.969  -1.995 H21  2OS 56 
-2OS H24  H24  H 0 1 N N N 3.979  41.602 -8.176  -0.878 2.277  0.018  H24  2OS 57 
-2OS H27  H27  H 0 1 N N N 5.399  44.215 -9.165  -0.479 -0.723 0.407  H27  2OS 58 
-2OS H16  H16  H 0 1 N N N 6.690  41.439 -8.442  -3.010 0.825  -0.317 H16  2OS 59 
-2OS H29  H29  H 0 1 N N N 6.451  43.082 -11.134 -1.229 -0.991 -2.004 H29  2OS 60 
-2OS HO9  HO9  H 0 1 N N N 2.882  43.540 -7.639  1.408  2.235  0.202  HO9  2OS 61 
-2OS H13  H13  H 0 1 N N N 8.455  42.712 -8.943  -3.793 -1.310 -0.597 H13  2OS 62 
-2OS H321 1H32 H 0 0 N N N 7.516  41.077 -12.168 -3.712 -1.235 -2.380 H321 2OS 63 
-2OS H322 2H32 H 0 0 N N N 8.559  41.820 -11.074 -3.779 0.503  -2.754 H322 2OS 64 
-2OS H17  H17  H 0 1 N N N 8.371  39.445 -10.579 -3.546 -0.722 -4.640 H17  2OS 65 
-2OS H311 1H31 H 0 0 N N N 3.385  48.454 1.588   1.631  -0.672 12.124 H311 2OS 66 
-2OS H312 2H31 H 0 0 N N N 2.727  47.593 0.104   0.736  0.766  11.577 H312 2OS 67 
-2OS H313 3H31 H 0 0 N N N 3.096  46.644 1.465   -0.079 -0.813 11.653 H313 2OS 68 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_residue_numbering
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_polymer_type
+_chem_comp_atom.pdbx_component_id
+_chem_comp_atom.pdbx_ordinal
+2OS  C4    C1   C  0  1  N  N  N   4.866  44.514   -6.491   -2.789   0.822   0.046  TU4  1  C13  polymer  1   1  
+2OS  C7    C2   C  0  1  N  N  N   5.037  44.235   -4.984   -4.238   1.231   0.100  TU4  1  C7   polymer  1   2  
+2OS  C8    C3   C  0  1  N  N  N   4.542  45.481   -4.186   -5.123   0.008  -0.152  TU4  1  C8   polymer  1   3  
+2OS  C9    C4   C  0  1  N  N  N   4.858  45.190   -2.688   -6.594   0.424  -0.097  TU4  1  C9   polymer  1   4  
+2OS  C10   C5   C  0  1  N  N  N   4.569  46.441   -1.899   -7.479  -0.799  -0.350  TU4  1  C10  polymer  1   5  
+2OS  C11   C6   C  0  1  N  N  N   4.986  46.134   -0.464   -8.951  -0.383  -0.295  TU4  1  C11  polymer  1   6  
+2OS  C12   C7   C  0  1  N  N  N   4.876  47.336    0.404   -9.835  -1.606  -0.547  TU4  1  C12  polymer  1   7  
+2OS  C21   C14  C  0  1  N  N  R   3.969  42.073  -10.336    1.481   0.417   1.503  TU4  1  C1   polymer  1   8  
+2OS  C24   C15  C  0  1  N  N  R   4.008  42.492   -8.848    0.008   0.832   1.567  TU4  1  C2   polymer  1   9  
+2OS  C27   C16  C  0  1  N  N  S   5.393  43.277   -8.564   -0.452   1.271   0.174  TU4  1  C3   polymer  1  10  
+2OS  C16   C17  C  0  1  N  N  R   6.597  42.418   -8.969    0.451   2.407  -0.316  TU4  1  C4   polymer  1  11  
+2OS  C29   C18  C  0  1  N  N  R   6.444  42.125  -10.562    1.906   1.932  -0.307  TU4  1  C5   polymer  1  12  
+2OS  O9    O6   O  0  1  N  N  N   2.858  43.283   -8.554   -0.781  -0.276   2.004  TU4  1  O2   polymer  1  13  
+2OS  O11   O7   O  0  1  N  N  N   5.490  43.588   -7.118   -1.826   1.736   0.240  TU4  1  O3   polymer  1  14  
+2OS  O13   O8   O  0  1  N  N  N   7.710  43.245   -8.693    0.077   2.775  -1.645  TU4  1  O4   polymer  1  15  
+2OS  O15   O9   O  0  1  N  N  N   5.169  41.372  -10.728    2.260   1.509   1.011  TU4  1  O5   polymer  1  16  
+2OS  C32   C19  C  0  1  N  N  N   7.589  41.271  -11.073    2.821   3.080  -0.738  TU4  1  C6   polymer  1  17  
+2OS  O17   O11  O  0  1  N  N  N   7.654  39.980  -10.259    4.165   2.606  -0.842  TU4  1  O6   polymer  1  18  
+2OS  C31   C20  C  0  1  N  N  N   3.468  47.553    0.937  -11.307  -1.190  -0.492  TU4  1  C31  polymer  1  19  
+2OS  O7    O12  O  0  1  N  N  N   4.610  45.656   -7.092   -2.494  -0.331  -0.167  TU4  1  O7   polymer  1  20  
+2OS  C18   C13  C  0  1  N  N  N   1.421  44.012  -12.068    3.285  -1.686   2.090  FRU  2  C1   polymer  1  21  
+2OS  C13   C11  C  0  1  N  N  S   2.717  43.286  -12.395    2.920  -1.301   0.655  FRU  2  C2   polymer  1  22  
+2OS  C3    C10  C  0  1  N  N  S   3.423  44.001  -13.497    2.939  -2.553  -0.244  FRU  2  C3   polymer  1  23  
+2OS  C2    C9   C  0  1  N  N  S   4.265  42.989  -14.266    4.053  -2.260  -1.278  FRU  2  C4   polymer  1  24  
+2OS  C1    C8   C  0  1  N  N  R   3.499  41.677  -14.113    4.890  -1.174  -0.556  FRU  2  C5   polymer  1  25  
+2OS  C17   C12  C  0  1  N  N  N   4.309  40.456  -13.933    5.652  -0.318  -1.569  FRU  2  C6   polymer  1  26  
+2OS  O3    O4   O  0  1  N  N  N   0.798  43.368  -11.035    3.464  -0.502   2.870  FRU  2  O1   polymer  1  27  
+2OS  O6    O10  O  0  1  N  N  N   3.765  43.216  -11.233    1.623  -0.703   0.627  FRU  2  O2   polymer  1  28  
+2OS  O5    O5   O  0  1  N  N  N   4.187  45.242  -13.025    1.679  -2.718  -0.898  FRU  2  O3   polymer  1  29  
+2OS  O4    O2   O  0  1  N  N  N   4.363  43.336  -15.668    4.838  -3.429  -1.526  FRU  2  O4   polymer  1  30  
+2OS  O2    O1   O  0  1  N  N  N   2.464  41.893  -12.926    3.894  -0.382   0.133  FRU  2  O5   polymer  1  31  
+2OS  O1    O3   O  0  1  N  N  N   3.301  39.377  -13.924    6.503   0.597  -0.876  FRU  2  O6   polymer  1  32  
+2OS  H71   H1   H  0  1  N  N  N   4.443  43.354   -4.701   -4.462   1.645   1.083  TU4  1  H13  polymer  1  33  
+2OS  H72   H2   H  0  1  N  N  N   6.098  44.049   -4.760   -4.432   1.983  -0.664  TU4  1  H14  polymer  1  34  
+2OS  H81   H3   H  0  1  N  N  N   5.074  46.384   -4.520   -4.899  -0.406  -1.135  TU4  1  H15  polymer  1  35  
+2OS  H82   H4   H  0  1  N  N  N   3.460  45.620   -4.328   -4.929  -0.744   0.612  TU4  1  H16  polymer  1  36  
+2OS  H91   H5   H  0  1  N  N  N   4.225  44.366   -2.326   -6.819   0.838   0.886  TU4  1  H17  polymer  1  37  
+2OS  H92   H6   H  0  1  N  N  N   5.917  44.915   -2.577   -6.788   1.176  -0.862  TU4  1  H6   polymer  1  38  
+2OS  H101  H7   H  0  1  N  N  N   5.151  47.286   -2.294   -7.255  -1.213  -1.332  TU4  1  H7   polymer  1  39  
+2OS  H102  H8   H  0  1  N  N  N   3.497  46.682   -1.943   -7.286  -1.551   0.415  TU4  1  H8   polymer  1  40  
+2OS  H112  H9   H  0  1  N  N  N   4.334  45.343   -0.064   -9.175   0.031   0.688  TU4  1  H9   polymer  1  41  
+2OS  H111  H10  H  0  1  N  N  N   6.029  45.786   -0.462   -9.144   0.369  -1.059  TU4  1  H10  polymer  1  42  
+2OS  H121  H11  H  0  1  N  N  N   5.560  47.217    1.257   -9.611  -2.020  -1.530  TU4  1  H11  polymer  1  43  
+2OS  H122  H12  H  0  1  N  N  N   5.170  48.220   -0.181   -9.642  -2.358   0.217  TU4  1  H12  polymer  1  44  
+2OS  H21   H24  H  0  1  N  N  N   3.115  41.390  -10.456    1.825   0.145   2.501  TU4  1  H1   polymer  1  45  
+2OS  H24   H25  H  0  1  N  N  N   4.008  41.582   -8.230   -0.107   1.660   2.267  TU4  1  H2   polymer  1  46  
+2OS  H27   H26  H  0  1  N  N  N   5.392  44.207   -9.152   -0.385   0.428  -0.514  TU4  1  H3   polymer  1  47  
+2OS  H16   H27  H  0  1  N  N  N   6.615  41.469   -8.413    0.344   3.267   0.345  TU4  1  H4   polymer  1  48  
+2OS  H29   H28  H  0  1  N  N  N   6.407  43.083  -11.102    2.020   1.097  -0.999  TU4  1  H5   polymer  1  49  
+2OS  HO9   H29  H  0  1  N  N  N   2.877  43.543   -7.641   -0.541  -0.610   2.879  TU4  1  HO2  polymer  1  50  
+2OS  H13   H30  H  0  1  N  N  N   7.769  43.395   -7.757    0.609   3.491  -2.019  TU4  1  HO4  polymer  1  51  
+2OS  H321  H31  H  0  1  N  N  N   7.423  41.030  -12.133    2.494   3.461  -1.705  TU4  1  H61  polymer  1  52  
+2OS  H322  H32  H  0  1  N  N  N   8.535  41.822  -10.966    2.774   3.879   0.002  TU4  1  H62  polymer  1  53  
+2OS  H17   H33  H  0  1  N  N  N   8.370  39.441  -10.575    4.801   3.282  -1.112  TU4  1  HO6  polymer  1  54  
+2OS  H311  H34  H  0  1  N  N  N   3.449  48.453    1.569  -11.531  -0.776   0.491  TU4  1  H34  polymer  1  55  
+2OS  H312  H35  H  0  1  N  N  N   2.773  47.683    0.094  -11.501  -0.438  -1.256  TU4  1  H35  polymer  1  56  
+2OS  H313  H36  H  0  1  N  N  N   3.163  46.680    1.533  -11.937  -2.061  -0.672  TU4  1  H36  polymer  1  57  
+2OS  H181  H20  H  0  1  N  N  N   1.643  45.049  -11.776    2.483  -2.287   2.520  FRU  2  H11  polymer  1  58  
+2OS  H182  H21  H  0  1  N  N  N   0.765  44.012  -12.951    4.210  -2.263   2.088  FRU  2  H12  polymer  1  59  
+2OS  H3    H15  H  0  1  N  N  N   2.650  44.358  -14.193    3.182  -3.439   0.342  FRU  2  H3   polymer  1  60  
+2OS  H2    H14  H  0  1  N  N  N   5.261  42.900  -13.808    3.631  -1.873  -2.206  FRU  2  H4   polymer  1  61  
+2OS  H1    H13  H  0  1  N  N  N   2.899  41.547  -15.026    5.579  -1.631   0.154  FRU  2  H5   polymer  1  62  
+2OS  H171  H17  H  0  1  N  N  N   5.017  40.327  -14.765    6.255  -0.962  -2.209  FRU  2  H61  polymer  1  63  
+2OS  H172  H18  H  0  1  N  N  N   4.862  40.487  -12.982    4.942   0.239  -2.181  FRU  2  H62  polymer  1  64  
+2OS  HO3   H22  H  0  1  N  N  N  -0.013  43.816  -10.825    3.697  -0.670   3.793  FRU  2  HO1  polymer  1  65  
+2OS  HO5   H23  H  0  1  N  N  N   3.595  45.820  -12.557    1.635  -3.491  -1.477  FRU  2  HO3  polymer  1  66  
+2OS  HO4   H16  H  0  1  N  N  N   4.840  44.152  -15.760    5.602  -3.275  -2.098  FRU  2  HO4  polymer  1  67  
+2OS  HO1   H19  H  0  1  N  N  N   3.734  38.539  -13.811    7.017   1.173  -1.458  FRU  2  HO6  polymer  1  68  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-2OS C4  C7   SING N N 1  
-2OS C4  O11  SING N N 2  
-2OS C4  O7   DOUB N N 3  
-2OS C7  C8   SING N N 4  
-2OS C7  H71  SING N N 5  
-2OS C7  H72  SING N N 6  
-2OS C8  C9   SING N N 7  
-2OS C8  H81  SING N N 8  
-2OS C8  H82  SING N N 9  
-2OS C9  C10  SING N N 10 
-2OS C9  H91  SING N N 11 
-2OS C9  H92  SING N N 12 
-2OS C10 C11  SING N N 13 
-2OS C10 H101 SING N N 14 
-2OS C10 H102 SING N N 15 
-2OS C11 C12  SING N N 16 
-2OS C11 H111 SING N N 17 
-2OS C11 H112 SING N N 18 
-2OS C12 C31  SING N N 19 
-2OS C12 H121 SING N N 20 
-2OS C12 H122 SING N N 21 
-2OS C1  C2   SING N N 22 
-2OS C1  O2   SING N N 23 
-2OS C1  C17  SING N N 24 
-2OS C1  H1   SING N N 25 
-2OS C2  C3   SING N N 26 
-2OS C2  O4   SING N N 27 
-2OS C2  H2   SING N N 28 
-2OS C3  C13  SING N N 29 
-2OS C3  O5   SING N N 30 
-2OS C3  H3   SING N N 31 
-2OS C13 O2   SING N N 32 
-2OS C13 C18  SING N N 33 
-2OS C13 O6   SING N N 34 
-2OS O4  HO4  SING N N 35 
-2OS C17 O1   SING N N 36 
-2OS C17 H171 SING N N 37 
-2OS C17 H172 SING N N 38 
-2OS O1  HO1  SING N N 39 
-2OS C18 O3   SING N N 40 
-2OS C18 H181 SING N N 41 
-2OS C18 H182 SING N N 42 
-2OS O3  HO3  SING N N 43 
-2OS O5  HO5  SING N N 44 
-2OS C21 C24  SING N N 45 
-2OS C21 O15  SING N N 46 
-2OS C21 O6   SING N N 47 
-2OS C21 H21  SING N N 48 
-2OS C24 C27  SING N N 49 
-2OS C24 O9   SING N N 50 
-2OS C24 H24  SING N N 51 
-2OS C27 C16  SING N N 52 
-2OS C27 O11  SING N N 53 
-2OS C27 H27  SING N N 54 
-2OS C16 C29  SING N N 55 
-2OS C16 O13  SING N N 56 
-2OS C16 H16  SING N N 57 
-2OS C29 O15  SING N N 58 
-2OS C29 C32  SING N N 59 
-2OS C29 H29  SING N N 60 
-2OS O9  HO9  SING N N 61 
-2OS O13 H13  SING N N 62 
-2OS C32 O17  SING N N 63 
-2OS C32 H321 SING N N 64 
-2OS C32 H322 SING N N 65 
-2OS O17 H17  SING N N 66 
-2OS C31 H311 SING N N 67 
-2OS C31 H312 SING N N 68 
-2OS C31 H313 SING N N 69 
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+2OS  O4   C2    SING  N  N   1  
+2OS  C2   C1    SING  N  N   2  
+2OS  C2   C3    SING  N  N   3  
+2OS  C1   C17   SING  N  N   4  
+2OS  C1   O2    SING  N  N   5  
+2OS  C17  O1    SING  N  N   6  
+2OS  C3   O5    SING  N  N   7  
+2OS  C3   C13   SING  N  N   8  
+2OS  O2   C13   SING  N  N   9  
+2OS  C13  C18   SING  N  N  10  
+2OS  C13  O6    SING  N  N  11  
+2OS  C18  O3    SING  N  N  12  
+2OS  O6   C21   SING  N  N  13  
+2OS  C32  C29   SING  N  N  14  
+2OS  C32  O17   SING  N  N  15  
+2OS  O15  C29   SING  N  N  16  
+2OS  O15  C21   SING  N  N  17  
+2OS  C29  C16   SING  N  N  18  
+2OS  C21  C24   SING  N  N  19  
+2OS  C16  O13   SING  N  N  20  
+2OS  C16  C27   SING  N  N  21  
+2OS  C24  C27   SING  N  N  22  
+2OS  C24  O9    SING  N  N  23  
+2OS  C27  O11   SING  N  N  24  
+2OS  O11  C4    SING  N  N  25  
+2OS  O7   C4    DOUB  N  N  26  
+2OS  C4   C7    SING  N  N  27  
+2OS  C7   C8    SING  N  N  28  
+2OS  C8   C9    SING  N  N  29  
+2OS  C9   C10   SING  N  N  30  
+2OS  C10  C11   SING  N  N  31  
+2OS  C11  C12   SING  N  N  32  
+2OS  C12  C31   SING  N  N  33  
+2OS  C7   H71   SING  N  N  34  
+2OS  C7   H72   SING  N  N  35  
+2OS  C8   H81   SING  N  N  36  
+2OS  C8   H82   SING  N  N  37  
+2OS  C9   H91   SING  N  N  38  
+2OS  C9   H92   SING  N  N  39  
+2OS  C10  H101  SING  N  N  40  
+2OS  C10  H102  SING  N  N  41  
+2OS  C11  H112  SING  N  N  42  
+2OS  C11  H111  SING  N  N  43  
+2OS  C12  H121  SING  N  N  44  
+2OS  C12  H122  SING  N  N  45  
+2OS  C1   H1    SING  N  N  46  
+2OS  C2   H2    SING  N  N  47  
+2OS  C3   H3    SING  N  N  48  
+2OS  O4   HO4   SING  N  N  49  
+2OS  C17  H171  SING  N  N  50  
+2OS  C17  H172  SING  N  N  51  
+2OS  O1   HO1   SING  N  N  52  
+2OS  C18  H181  SING  N  N  53  
+2OS  C18  H182  SING  N  N  54  
+2OS  O3   HO3   SING  N  N  55  
+2OS  O5   HO5   SING  N  N  56  
+2OS  C21  H21   SING  N  N  57  
+2OS  C24  H24   SING  N  N  58  
+2OS  C27  H27   SING  N  N  59  
+2OS  C16  H16   SING  N  N  60  
+2OS  C29  H29   SING  N  N  61  
+2OS  O9   HO9   SING  N  N  62  
+2OS  O13  H13   SING  N  N  63  
+2OS  C32  H321  SING  N  N  64  
+2OS  C32  H322  SING  N  N  65  
+2OS  O17  H17   SING  N  N  66  
+2OS  C31  H311  SING  N  N  67  
+2OS  C31  H312  SING  N  N  68  
+2OS  C31  H313  SING  N  N  69  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-2OS SMILES           ACDLabs              10.04 "O=C(OC1C(O)C(OC(CO)C1O)OC2(OC(C(O)C2O)CO)CO)CCCCCCC"                                                                                                                                              
-2OS SMILES_CANONICAL CACTVS               3.341 "CCCCCCCC(=O)O[C@H]1[C@H](O)[C@@H](CO)O[C@H](O[C@]2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@@H]1O"                                                                                                       
-2OS SMILES           CACTVS               3.341 "CCCCCCCC(=O)O[CH]1[CH](O)[CH](CO)O[CH](O[C]2(CO)O[CH](CO)[CH](O)[CH]2O)[CH]1O"                                                                                                                    
-2OS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CCCCCCCC(=O)O[C@H]1[C@@H]([C@H](O[C@@H]([C@@H]1O)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)CO)O"                                                                                                     
-2OS SMILES           "OpenEye OEToolkits" 1.5.0 "CCCCCCCC(=O)OC1C(C(OC(C1O)OC2(C(C(C(O2)CO)O)O)CO)CO)O"                                                                                                                                            
-2OS InChI            InChI                1.03  "InChI=1S/C20H36O12/c1-2-3-4-5-6-7-13(24)30-17-14(25)11(8-21)29-19(16(17)27)32-20(10-23)18(28)15(26)12(9-22)31-20/h11-12,14-19,21-23,25-28H,2-10H2,1H3/t11-,12-,14-,15-,16-,17+,18+,19-,20+/m1/s1" 
-2OS InChIKey         InChI                1.03  NMVDZWILYFXVBZ-PQJCEUABSA-N                                                                                                                                                                        
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+2OS  SMILES            ACDLabs               10.04  "O=C(OC1C(O)C(OC(CO)C1O)OC2(OC(C(O)C2O)CO)CO)CCCCCCC"  
+2OS  SMILES_CANONICAL  CACTVS                3.341  "CCCCCCCC(=O)O[C@H]1[C@H](O)[C@@H](CO)O[C@H](O[C@]2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@@H]1O"  
+2OS  SMILES            CACTVS                3.341  "CCCCCCCC(=O)O[CH]1[CH](O)[CH](CO)O[CH](O[C]2(CO)O[CH](CO)[CH](O)[CH]2O)[CH]1O"  
+2OS  SMILES_CANONICAL  "OpenEye OEToolkits"  1.5.0  "CCCCCCCC(=O)O[C@H]1[C@@H]([C@H](O[C@@H]([C@@H]1O)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)CO)O"  
+2OS  SMILES            "OpenEye OEToolkits"  1.5.0  "CCCCCCCC(=O)OC1C(C(OC(C1O)OC2(C(C(C(O2)CO)O)O)CO)CO)O"  
+2OS  InChI             InChI                 1.03   "InChI=1S/C20H36O12/c1-2-3-4-5-6-7-13(24)30-17-14(25)11(8-21)29-19(16(17)27)32-20(10-23)18(28)15(26)12(9-22)31-20/h11-12,14-19,21-23,25-28H,2-10H2,1H3/t11-,12-,14-,15-,16-,17+,18+,19-,20+/m1/s1"  
+2OS  InChIKey          InChI                 1.03   NMVDZWILYFXVBZ-PQJCEUABSA-N  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-2OS "SYSTEMATIC NAME" ACDLabs              10.04 "beta-D-fructofuranosyl 3-O-octanoyl-alpha-D-glucopyranoside"                                                                                
-2OS "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.5.0 "[(2R,3R,4S,5R,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-3,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl] octanoate" 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+2OS  "SYSTEMATIC NAME"  ACDLabs               10.04  "beta-D-fructofuranosyl 3-O-octanoyl-alpha-D-glucopyranoside"  
+2OS  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  1.5.0  "[(2R,3R,4S,5R,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-3,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl] octanoate"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-2OS "Create component"  2004-05-02 RCSB 
-2OS "Modify descriptor" 2011-06-04 RCSB 
-# 
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+2OS  "Create component"    2004-05-02  RCSB  
+2OS  "Modify descriptor"   2011-06-04  RCSB  
+2OS  "Other modification"  2020-07-03  RCSB  
+2OS  "Obsolete component"  2020-07-17  RCSB  
+##
+

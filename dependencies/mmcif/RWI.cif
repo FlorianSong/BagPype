@@ -1,171 +1,245 @@
 data_RWI
-# 
-_chem_comp.id                                    RWI 
-_chem_comp.name                                  "(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-alpha-D-glucopyranosyl}oxy)butanedioic acid" 
-_chem_comp.type                                  D-saccharide 
-_chem_comp.pdbx_type                             ATOMS 
-_chem_comp.formula                               "C11 H18 N2 O11" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2019-10-09 
-_chem_comp.pdbx_modified_date                    2020-01-03 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        354.267 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     RWI 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        6ULL 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  RCSB 
-# 
+#
+
+_chem_comp.id                                   RWI
+_chem_comp.name                                 "(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-alpha-D-glucopyranosyl}oxy)butanedioic acid"
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C11 H18 N2 O11"
+_chem_comp.mon_nstd_parent_comp_id              PA1
+_chem_comp.pdbx_synonyms                        
+;(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-alpha-D-glucosyl}oxy)butanedioic acid;
+(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-D-glucosyl}oxy)butanedioic acid;
+(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-glucosyl}oxy)butanedioic acid
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2019-10-09
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       354.267
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    RWI
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6ULL
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-RWI O7  O1  O 0 1 N N N 29.747 28.378 -11.807 -2.747 1.517  1.465  O7  RWI 1  
-RWI C7  C1  C 0 1 N N N 28.528 28.494 -11.554 -2.811 1.361  0.261  C7  RWI 2  
-RWI N8  N1  N 0 1 N N N 27.677 27.853 -12.340 -4.008 1.187  -0.333 N8  RWI 3  
-RWI O2  O2  O 0 1 N N N 28.253 27.077 -13.375 -5.191 1.184  0.445  O2  RWI 4  
-RWI N2  N2  N 0 1 N N N 28.014 29.309 -10.608 -1.686 1.369  -0.481 N2  RWI 5  
-RWI C2  C2  C 0 1 N N R 28.867 29.984 -9.640  -0.385 1.565  0.164  C2  RWI 6  
-RWI C3  C3  C 0 1 N N R 28.251 29.767 -8.249  0.607  2.144  -0.849 C3  RWI 7  
-RWI O3  O3  O 0 1 N N N 28.098 28.353 -8.025  0.159  3.433  -1.273 O3  RWI 8  
-RWI C4  C4  C 0 1 N N S 29.250 30.318 -7.272  1.982  2.272  -0.186 C4  RWI 9  
-RWI O4  O4  O 0 1 N N N 28.757 30.199 -5.894  2.932  2.743  -1.144 O4  RWI 10 
-RWI C5  C5  C 0 1 N N R 29.614 31.799 -7.560  2.418  0.899  0.334  C5  RWI 11 
-RWI C6  C6  C 0 1 N N N 30.786 32.359 -6.788  3.763  1.029  1.051  C6  RWI 12 
-RWI O6  O5  O 0 1 N N N 31.971 31.517 -6.954  4.226  -0.267 1.434  O6  RWI 13 
-RWI O5  O6  O 0 1 N N N 30.005 31.975 -8.931  1.437  0.404  1.248  O5  RWI 14 
-RWI C1  C7  C 0 1 N N R 29.079 31.450 -9.906  0.142  0.220  0.671  C1  RWI 15 
-RWI O1  O7  O 0 1 N N N 27.757 32.083 -9.775  0.233  -0.698 -0.420 O1  RWI 16 
-RWI C9  C8  C 0 1 N N S 27.759 33.498 -9.929  0.424  -2.057 -0.022 C9  RWI 17 
-RWI C10 C9  C 0 1 N N N 26.806 34.151 -8.882  1.775  -2.533 -0.491 C10 RWI 18 
-RWI O13 O8  O 0 1 N N N 26.815 35.430 -8.814  2.441  -1.837 -1.219 O13 RWI 19 
-RWI O14 O9  O 0 1 N N N 26.156 33.378 -8.097  2.237  -3.731 -0.100 O14 RWI 20 
-RWI C11 C10 C 0 1 N N N 27.300 33.839 -11.317 -0.669 -2.929 -0.645 C11 RWI 21 
-RWI C12 C11 C 0 1 N N N 28.387 33.540 -12.378 -2.009 -2.533 -0.082 C12 RWI 22 
-RWI O16 O10 O 0 1 N N N 29.391 34.317 -12.425 -3.121 -3.167 -0.486 O16 RWI 23 
-RWI O15 O11 O 0 1 N N N 28.203 32.567 -13.156 -2.083 -1.644 0.734  O15 RWI 24 
-RWI H1  H1  H 0 1 N N N 26.687 27.913 -12.211 -4.060 1.063  -1.294 H1  RWI 25 
-RWI H2  H2  H 0 1 N N N 29.199 27.154 -13.340 -6.000 1.052  -0.068 H2  RWI 26 
-RWI H3  H3  H 0 1 N N N 27.025 29.452 -10.571 -1.737 1.245  -1.441 H3  RWI 27 
-RWI H4  H4  H 0 1 N N N 29.852 29.495 -9.644  -0.494 2.254  1.002  H4  RWI 28 
-RWI H5  H5  H 0 1 N N N 27.291 30.299 -8.169  0.676  1.481  -1.712 H5  RWI 29 
-RWI H6  H6  H 0 1 N N N 27.717 28.207 -7.167  0.741  3.860  -1.917 H6  RWI 30 
-RWI H7  H7  H 0 1 N N N 30.174 29.729 -7.363  1.922  2.975  0.644  H7  RWI 31 
-RWI H8  H8  H 0 1 N N N 29.403 30.553 -5.294  3.826  2.847  -0.792 H8  RWI 32 
-RWI H9  H9  H 0 1 N N N 28.728 32.415 -7.348  2.517  0.208  -0.503 H9  RWI 33 
-RWI H10 H10 H 0 1 N N N 31.009 33.371 -7.156  4.489  1.491  0.381  H10 RWI 34 
-RWI H11 H11 H 0 1 N N N 30.525 32.406 -5.721  3.643  1.650  1.939  H11 RWI 35 
-RWI H12 H12 H 0 1 N N N 32.694 31.887 -6.461  5.076  -0.261 1.895  H12 RWI 36 
-RWI H13 H13 H 0 1 N N N 29.468 31.590 -10.925 -0.538 -0.177 1.424  H13 RWI 37 
-RWI H14 H14 H 0 1 N N N 28.772 33.897 -9.775  0.370  -2.128 1.064  H14 RWI 38 
-RWI H15 H15 H 0 1 N N N 25.683 33.899 -7.459  3.109  -3.993 -0.426 H15 RWI 39 
-RWI H16 H16 H 0 1 N N N 27.051 34.910 -11.356 -0.673 -2.789 -1.725 H16 RWI 40 
-RWI H17 H17 H 0 1 N N N 26.404 33.246 -11.550 -0.473 -3.976 -0.414 H17 RWI 41 
-RWI H18 H18 H 0 1 N N N 29.968 34.047 -13.130 -3.957 -2.878 -0.097 H18 RWI 42 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  RWI  "(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-alpha-D-glucosyl}oxy)butanedioic acid"  PDB  ?  
+2  RWI  "(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-D-glucosyl}oxy)butanedioic acid"        PDB  ?  
+3  RWI  "(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-glucosyl}oxy)butanedioic acid"          PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-RWI O2  N8  SING N N 1  
-RWI O15 C12 DOUB N N 2  
-RWI O16 C12 SING N N 3  
-RWI C12 C11 SING N N 4  
-RWI N8  C7  SING N N 5  
-RWI O7  C7  DOUB N N 6  
-RWI C7  N2  SING N N 7  
-RWI C11 C9  SING N N 8  
-RWI N2  C2  SING N N 9  
-RWI C9  O1  SING N N 10 
-RWI C9  C10 SING N N 11 
-RWI C1  O1  SING N N 12 
-RWI C1  C2  SING N N 13 
-RWI C1  O5  SING N N 14 
-RWI C2  C3  SING N N 15 
-RWI O5  C5  SING N N 16 
-RWI C10 O13 DOUB N N 17 
-RWI C10 O14 SING N N 18 
-RWI C3  O3  SING N N 19 
-RWI C3  C4  SING N N 20 
-RWI C5  C4  SING N N 21 
-RWI C5  C6  SING N N 22 
-RWI C4  O4  SING N N 23 
-RWI O6  C6  SING N N 24 
-RWI N8  H1  SING N N 25 
-RWI O2  H2  SING N N 26 
-RWI N2  H3  SING N N 27 
-RWI C2  H4  SING N N 28 
-RWI C3  H5  SING N N 29 
-RWI O3  H6  SING N N 30 
-RWI C4  H7  SING N N 31 
-RWI O4  H8  SING N N 32 
-RWI C5  H9  SING N N 33 
-RWI C6  H10 SING N N 34 
-RWI C6  H11 SING N N 35 
-RWI O6  H12 SING N N 36 
-RWI C1  H13 SING N N 37 
-RWI C9  H14 SING N N 38 
-RWI O14 H15 SING N N 39 
-RWI C11 H16 SING N N 40 
-RWI C11 H17 SING N N 41 
-RWI O16 H18 SING N N 42 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+RWI  O7    O7   O  0  1  N  N  N  29.747  28.378  -11.807  -2.747   1.517   1.465  O7    RWI   1  
+RWI  C7    C7   C  0  1  N  N  N  28.528  28.494  -11.554  -2.811   1.361   0.261  C7    RWI   2  
+RWI  N8    N8   N  0  1  N  N  N  27.677  27.853  -12.340  -4.008   1.187  -0.333  N8    RWI   3  
+RWI  O2    O2   O  0  1  N  N  N  28.253  27.077  -13.375  -5.191   1.184   0.445  O2    RWI   4  
+RWI  N2    N2   N  0  1  N  N  N  28.014  29.309  -10.608  -1.686   1.369  -0.481  N2    RWI   5  
+RWI  C2    C2   C  0  1  N  N  R  28.867  29.984   -9.640  -0.385   1.565   0.164  C2    RWI   6  
+RWI  C3    C3   C  0  1  N  N  R  28.251  29.767   -8.249   0.607   2.144  -0.849  C3    RWI   7  
+RWI  O3    O3   O  0  1  N  N  N  28.098  28.353   -8.025   0.159   3.433  -1.273  O3    RWI   8  
+RWI  C4    C4   C  0  1  N  N  S  29.250  30.318   -7.272   1.982   2.272  -0.186  C4    RWI   9  
+RWI  O4    O4   O  0  1  N  N  N  28.757  30.199   -5.894   2.932   2.743  -1.144  O4    RWI  10  
+RWI  C5    C5   C  0  1  N  N  R  29.614  31.799   -7.560   2.418   0.899   0.334  C5    RWI  11  
+RWI  C6    C6   C  0  1  N  N  N  30.786  32.359   -6.788   3.763   1.029   1.051  C6    RWI  12  
+RWI  O6    O6   O  0  1  N  N  N  31.971  31.517   -6.954   4.226  -0.267   1.434  O6    RWI  13  
+RWI  O5    O5   O  0  1  N  N  N  30.005  31.975   -8.931   1.437   0.404   1.248  O5    RWI  14  
+RWI  C1    C1   C  0  1  N  N  R  29.079  31.450   -9.906   0.142   0.220   0.671  C1    RWI  15  
+RWI  O1    O1   O  0  1  N  N  N  27.757  32.083   -9.775   0.233  -0.698  -0.420  O1    RWI  16  
+RWI  C9    C9   C  0  1  N  N  S  27.759  33.498   -9.929   0.424  -2.057  -0.022  C9    RWI  17  
+RWI  C10   C10  C  0  1  N  N  N  26.806  34.151   -8.882   1.775  -2.533  -0.491  C10   RWI  18  
+RWI  O13   O13  O  0  1  N  N  N  26.815  35.430   -8.814   2.441  -1.837  -1.219  O13   RWI  19  
+RWI  O14   O14  O  0  1  N  N  N  26.156  33.378   -8.097   2.237  -3.731  -0.100  O14   RWI  20  
+RWI  C11   C11  C  0  1  N  N  N  27.300  33.839  -11.317  -0.669  -2.929  -0.645  C11   RWI  21  
+RWI  C12   C12  C  0  1  N  N  N  28.387  33.540  -12.378  -2.009  -2.533  -0.082  C12   RWI  22  
+RWI  O16   O16  O  0  1  N  N  N  29.391  34.317  -12.425  -3.121  -3.167  -0.486  O16   RWI  23  
+RWI  O15   O15  O  0  1  N  N  N  28.203  32.567  -13.156  -2.083  -1.644   0.734  O15   RWI  24  
+RWI  H1A   H1   H  0  1  N  N  N  26.687  27.913  -12.211  -4.060   1.063  -1.294  H1A   RWI  25  
+RWI  H2A   H2   H  0  1  N  N  N  29.199  27.154  -13.340  -6.000   1.052  -0.068  H2A   RWI  26  
+RWI  HN21  H3   H  0  0  N  N  N  27.025  29.452  -10.571  -1.737   1.245  -1.441  HN21  RWI  27  
+RWI  H2    H4   H  0  1  N  N  N  29.852  29.495   -9.644  -0.494   2.254   1.002  H2    RWI  28  
+RWI  H3    H5   H  0  1  N  N  N  27.291  30.299   -8.169   0.676   1.481  -1.712  H3    RWI  29  
+RWI  HO3   H6   H  0  1  N  Y  N  27.717  28.207   -7.167   0.741   3.860  -1.917  HO3   RWI  30  
+RWI  H4    H7   H  0  1  N  N  N  30.174  29.729   -7.363   1.922   2.975   0.644  H4    RWI  31  
+RWI  HO4   H8   H  0  1  N  Y  N  29.403  30.553   -5.294   3.826   2.847  -0.792  HO4   RWI  32  
+RWI  H5    H9   H  0  1  N  N  N  28.728  32.415   -7.348   2.517   0.208  -0.503  H5    RWI  33  
+RWI  H61   H10  H  0  1  N  N  N  31.009  33.371   -7.156   4.489   1.491   0.381  H61   RWI  34  
+RWI  H62   H11  H  0  1  N  N  N  30.525  32.406   -5.721   3.643   1.650   1.939  H62   RWI  35  
+RWI  HO6   H12  H  0  1  N  Y  N  32.694  31.887   -6.461   5.076  -0.261   1.895  HO6   RWI  36  
+RWI  H1    H13  H  0  1  N  N  N  29.468  31.590  -10.925  -0.538  -0.177   1.424  H1    RWI  37  
+RWI  H14   H14  H  0  1  N  N  N  28.772  33.897   -9.775   0.370  -2.128   1.064  H14   RWI  38  
+RWI  H15   H15  H  0  1  N  N  N  25.683  33.899   -7.459   3.109  -3.993  -0.426  H15   RWI  39  
+RWI  H16   H16  H  0  1  N  N  N  27.051  34.910  -11.356  -0.673  -2.789  -1.725  H16   RWI  40  
+RWI  H17   H17  H  0  1  N  N  N  26.404  33.246  -11.550  -0.473  -3.976  -0.414  H17   RWI  41  
+RWI  H18   H18  H  0  1  N  N  N  29.968  34.047  -13.130  -3.957  -2.878  -0.097  H18   RWI  42  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-RWI SMILES           ACDLabs              12.01 "O=C(NC1C(O)C(O)C(CO)OC1OC(C(=O)O)CC(O)=O)NO"                                                                                                                                     
-RWI InChI            InChI                1.03  "InChI=1S/C11H18N2O11/c14-2-4-7(17)8(18)6(12-11(21)13-22)10(24-4)23-3(9(19)20)1-5(15)16/h3-4,6-8,10,14,17-18,22H,1-2H2,(H,15,16)(H,19,20)(H2,12,13,21)/t3-,4+,6+,7+,8+,10-/m0/s1" 
-RWI InChIKey         InChI                1.03  QOPUTRBEPJZLTE-NKQVSKEESA-N                                                                                                                                                       
-RWI SMILES_CANONICAL CACTVS               3.385 "OC[C@H]1O[C@H](O[C@@H](CC(O)=O)C(O)=O)[C@H](NC(=O)NO)[C@@H](O)[C@@H]1O"                                                                                                          
-RWI SMILES           CACTVS               3.385 "OC[CH]1O[CH](O[CH](CC(O)=O)C(O)=O)[CH](NC(=O)NO)[CH](O)[CH]1O"                                                                                                                   
-RWI SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H](CC(=O)O)C(=O)O)NC(=O)NO)O)O)O"                                                                                                      
-RWI SMILES           "OpenEye OEToolkits" 2.0.7 "C(C1C(C(C(C(O1)OC(CC(=O)O)C(=O)O)NC(=O)NO)O)O)O"                                                                                                                                 
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+RWI  O2   N8    SING  N  N   1  
+RWI  O15  C12   DOUB  N  N   2  
+RWI  O16  C12   SING  N  N   3  
+RWI  C12  C11   SING  N  N   4  
+RWI  N8   C7    SING  N  N   5  
+RWI  O7   C7    DOUB  N  N   6  
+RWI  C7   N2    SING  N  N   7  
+RWI  C11  C9    SING  N  N   8  
+RWI  N2   C2    SING  N  N   9  
+RWI  C9   O1    SING  N  N  10  
+RWI  C9   C10   SING  N  N  11  
+RWI  C1   O1    SING  N  N  12  
+RWI  C1   C2    SING  N  N  13  
+RWI  C1   O5    SING  N  N  14  
+RWI  C2   C3    SING  N  N  15  
+RWI  O5   C5    SING  N  N  16  
+RWI  C10  O13   DOUB  N  N  17  
+RWI  C10  O14   SING  N  N  18  
+RWI  C3   O3    SING  N  N  19  
+RWI  C3   C4    SING  N  N  20  
+RWI  C5   C4    SING  N  N  21  
+RWI  C5   C6    SING  N  N  22  
+RWI  C4   O4    SING  N  N  23  
+RWI  O6   C6    SING  N  N  24  
+RWI  N8   H1A   SING  N  N  25  
+RWI  O2   H2A   SING  N  N  26  
+RWI  N2   HN21  SING  N  N  27  
+RWI  C2   H2    SING  N  N  28  
+RWI  C3   H3    SING  N  N  29  
+RWI  O3   HO3   SING  N  N  30  
+RWI  C4   H4    SING  N  N  31  
+RWI  O4   HO4   SING  N  N  32  
+RWI  C5   H5    SING  N  N  33  
+RWI  C6   H61   SING  N  N  34  
+RWI  C6   H62   SING  N  N  35  
+RWI  O6   HO6   SING  N  N  36  
+RWI  C1   H1    SING  N  N  37  
+RWI  C9   H14   SING  N  N  38  
+RWI  O14  H15   SING  N  N  39  
+RWI  C11  H16   SING  N  N  40  
+RWI  C11  H17   SING  N  N  41  
+RWI  O16  H18   SING  N  N  42  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-RWI "SYSTEMATIC NAME" ACDLabs              12.01 "(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-alpha-D-glucopyranosyl}oxy)butanedioic acid"                                               
-RWI "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "(2~{S})-2-[(2~{R},3~{R},4~{R},5~{S},6~{R})-6-(hydroxymethyl)-4,5-bis(oxidanyl)-3-(oxidanylcarbamoylamino)oxan-2-yl]oxybutanedioic acid" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+RWI  SMILES            ACDLabs               12.01  "O=C(NC1C(O)C(O)C(CO)OC1OC(C(=O)O)CC(O)=O)NO"  
+RWI  InChI             InChI                 1.03   "InChI=1S/C11H18N2O11/c14-2-4-7(17)8(18)6(12-11(21)13-22)10(24-4)23-3(9(19)20)1-5(15)16/h3-4,6-8,10,14,17-18,22H,1-2H2,(H,15,16)(H,19,20)(H2,12,13,21)/t3-,4+,6+,7+,8+,10-/m0/s1"  
+RWI  InChIKey          InChI                 1.03   QOPUTRBEPJZLTE-NKQVSKEESA-N  
+RWI  SMILES_CANONICAL  CACTVS                3.385  "OC[C@H]1O[C@H](O[C@@H](CC(O)=O)C(O)=O)[C@H](NC(=O)NO)[C@@H](O)[C@@H]1O"  
+RWI  SMILES            CACTVS                3.385  "OC[CH]1O[CH](O[CH](CC(O)=O)C(O)=O)[CH](NC(=O)NO)[CH](O)[CH]1O"  
+RWI  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H](CC(=O)O)C(=O)O)NC(=O)NO)O)O)O"  
+RWI  SMILES            "OpenEye OEToolkits"  2.0.7  "C(C1C(C(C(C(O1)OC(CC(=O)O)C(=O)O)NC(=O)NO)O)O)O"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-RWI "Create component" 2019-10-09 RCSB 
-RWI "Initial release"  2020-01-08 RCSB 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+RWI  "SYSTEMATIC NAME"  ACDLabs               12.01  "(2S)-2-({2-deoxy-2-[(hydroxycarbamoyl)amino]-alpha-D-glucopyranosyl}oxy)butanedioic acid"  
+RWI  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.7  
+;(2~{S})-2-[(2~{R},3~{R},4~{R},5~{S},6~{R})-6-(hydroxymethyl)-4,5-bis(oxidanyl)-3-(oxidanylcarbamoylamino)oxan-2-yl]oxyb
+utanedioic acid
+;
+  
+#
+_pdbx_chem_comp_related.comp_id            RWI
+_pdbx_chem_comp_related.related_comp_id    PA1
+_pdbx_chem_comp_related.relationship_type  "Carbohydrate core"
+_pdbx_chem_comp_related.details            ?
+#   #
+loop_
+_pdbx_chem_comp_atom_related.ordinal
+_pdbx_chem_comp_atom_related.comp_id
+_pdbx_chem_comp_atom_related.atom_id
+_pdbx_chem_comp_atom_related.related_comp_id
+_pdbx_chem_comp_atom_related.related_atom_id
+_pdbx_chem_comp_atom_related.related_type
+ 1  RWI  C1    PA1  C1    "Carbohydrate core"  
+ 2  RWI  C2    PA1  C2    "Carbohydrate core"  
+ 3  RWI  C3    PA1  C3    "Carbohydrate core"  
+ 4  RWI  C4    PA1  C4    "Carbohydrate core"  
+ 5  RWI  C5    PA1  C5    "Carbohydrate core"  
+ 6  RWI  C6    PA1  C6    "Carbohydrate core"  
+ 7  RWI  N2    PA1  N2    "Carbohydrate core"  
+ 8  RWI  O1    PA1  O1    "Carbohydrate core"  
+ 9  RWI  O3    PA1  O3    "Carbohydrate core"  
+10  RWI  O4    PA1  O4    "Carbohydrate core"  
+11  RWI  O5    PA1  O5    "Carbohydrate core"  
+12  RWI  O6    PA1  O6    "Carbohydrate core"  
+13  RWI  H61   PA1  H61   "Carbohydrate core"  
+14  RWI  H62   PA1  H62   "Carbohydrate core"  
+15  RWI  HO6   PA1  HO6   "Carbohydrate core"  
+16  RWI  H1    PA1  H1    "Carbohydrate core"  
+17  RWI  HN21  PA1  HN21  "Carbohydrate core"  
+18  RWI  H2    PA1  H2    "Carbohydrate core"  
+19  RWI  H3    PA1  H3    "Carbohydrate core"  
+20  RWI  HO3   PA1  HO3   "Carbohydrate core"  
+21  RWI  H4    PA1  H4    "Carbohydrate core"  
+22  RWI  HO4   PA1  HO4   "Carbohydrate core"  
+23  RWI  H5    PA1  H5    "Carbohydrate core"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+RWI  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+RWI  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+RWI  "CARBOHYDRATE ANOMER"                  alpha     PDB  ?  
+RWI  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+RWI  "Create component"          2019-10-09  RCSB  
+RWI  "Initial release"           2020-01-08  RCSB  
+RWI  "Other modification"        2020-07-03  RCSB  
+RWI  "Modify parent residue"     2020-07-17  RCSB  
+RWI  "Modify synonyms"           2020-07-17  RCSB  
+RWI  "Modify atom id"            2020-07-17  RCSB  
+RWI  "Modify component atom id"  2020-07-17  RCSB  
+RWI  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

@@ -1,143 +1,177 @@
 data_MRH
-# 
-_chem_comp.id                                    MRH 
-_chem_comp.name                                  alpha-N-Acetylperosamine 
-_chem_comp.type                                  non-polymer 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C8 H15 N O5" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2019-10-21 
-_chem_comp.pdbx_modified_date                    2020-01-10 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        205.208 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     MRH 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        6T72 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   MRH
+_chem_comp.name                                 "4-acetamido-4,6-dideoxy-alpha-D-mannopyranose"
+_chem_comp.type                                 "D-saccharide, alpha linking"
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C8 H15 N O5"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        
+;alpha-N-Acetylperosamine; 4-acetamido-4,6-dideoxy-alpha-D-mannose; 4-acetamido-4,6-dideoxy-D-mannose;
+4-acetamido-4,6-dideoxy-mannose
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2019-10-21
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       205.208
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    MRH
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6T72
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-MRH C1  C1  C 0 1 N N S 144.733 229.874 169.056 2.442  0.651  -0.084 C1  MRH 1  
-MRH O5  O1  O 0 1 N N N 143.361 230.107 168.693 1.394  1.476  0.429  O5  MRH 2  
-MRH C5  C2  C 0 1 N N R 142.442 229.090 169.109 0.122  1.252  -0.183 C5  MRH 3  
-MRH C6  C3  C 0 1 N N N 141.087 229.471 168.532 -0.910 2.205  0.422  C6  MRH 4  
-MRH C4  C4  C 0 1 N N S 142.500 228.933 170.641 -0.313 -0.195 0.062  C4  MRH 5  
-MRH N4  N1  N 0 1 N N N 141.651 227.860 171.165 -1.588 -0.444 -0.615 N4  MRH 6  
-MRH C7  C5  C 0 1 N N N 141.192 226.795 170.484 -2.748 -0.129 -0.005 C7  MRH 7  
-MRH C8  C6  C 0 1 N N N 142.191 225.763 170.049 -4.059 -0.386 -0.701 C8  MRH 8  
-MRH O7  O2  O 0 1 N N N 139.991 226.631 170.305 -2.736 0.361  1.105  O7  MRH 9  
-MRH C3  C7  C 0 1 N N S 143.927 228.825 171.187 0.755  -1.142 -0.493 C3  MRH 10 
-MRH O3  O3  O 0 1 N N N 143.931 228.930 172.606 0.393  -2.494 -0.204 O3  MRH 11 
-MRH C2  C8  C 0 1 N N S 144.870 229.859 170.568 2.100  -0.820 0.165  C2  MRH 12 
-MRH O2  O4  O 0 1 N N N 144.615 231.161 171.094 2.012  -1.059 1.571  O2  MRH 13 
-MRH O1  O5  O 0 1 N Y N 145.342 228.656 168.559 2.582  0.877  -1.488 O1  MRH 14 
-MRH H1  H1  H 0 1 N N N 145.329 230.722 168.688 3.377  0.897  0.419  H1  MRH 15 
-MRH H2  H2  H 0 1 N N N 142.742 228.130 168.663 0.199  1.432  -1.255 H2  MRH 16 
-MRH H3  H3  H 0 1 N N N 140.339 228.719 168.823 -0.600 3.235  0.248  H3  MRH 17 
-MRH H4  H4  H 0 1 N N N 140.787 230.455 168.921 -1.880 2.034  -0.045 H4  MRH 18 
-MRH H5  H5  H 0 1 N N N 141.155 229.515 167.435 -0.987 2.024  1.494  H5  MRH 19 
-MRH H6  H6  H 0 1 N N N 142.098 229.872 171.048 -0.430 -0.364 1.132  H6  MRH 20 
-MRH H7  H7  H 0 1 N N N 141.386 227.926 172.127 -1.598 -0.836 -1.502 H7  MRH 21 
-MRH H8  H8  H 0 1 N N N 141.665 224.916 169.583 -4.155 -1.450 -0.915 H8  MRH 22 
-MRH H9  H9  H 0 1 N N N 142.885 226.209 169.321 -4.880 -0.069 -0.058 H9  MRH 23 
-MRH H10 H10 H 0 1 N N N 142.755 225.408 170.924 -4.091 0.177  -1.634 H10 MRH 24 
-MRH H11 H11 H 0 1 N N N 144.307 227.831 170.909 0.835  -1.009 -1.572 H11 MRH 25 
-MRH H12 H12 H 0 1 N N N 143.341 228.282 172.974 1.026  -3.149 -0.528 H12 MRH 26 
-MRH H13 H13 H 0 1 N N N 145.901 229.565 170.813 2.878  -1.452 -0.264 H13 MRH 27 
-MRH H14 H14 H 0 1 N N N 144.703 231.144 172.040 2.829  -0.870 2.054  H14 MRH 28 
-MRH H15 H15 H 0 1 N N N 146.242 228.607 168.858 2.799  1.790  -1.720 H15 MRH 29 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  MRH  alpha-N-Acetylperosamine                   PDB  ?  
+2  MRH  "4-acetamido-4,6-dideoxy-alpha-D-mannose"  PDB  ?  
+3  MRH  "4-acetamido-4,6-dideoxy-D-mannose"        PDB  ?  
+4  MRH  "4-acetamido-4,6-dideoxy-mannose"          PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-MRH C6 C5  SING N N 1  
-MRH O5 C1  SING N N 2  
-MRH O5 C5  SING N N 3  
-MRH C1 C2  SING N N 4  
-MRH C5 C4  SING N N 5  
-MRH C8 C7  SING N N 6  
-MRH O7 C7  DOUB N N 7  
-MRH C7 N4  SING N N 8  
-MRH C2 O2  SING N N 9  
-MRH C2 C3  SING N N 10 
-MRH C4 N4  SING N N 11 
-MRH C4 C3  SING N N 12 
-MRH C3 O3  SING N N 13 
-MRH C1 O1  SING N N 14 
-MRH C1 H1  SING N N 15 
-MRH C5 H2  SING N N 16 
-MRH C6 H3  SING N N 17 
-MRH C6 H4  SING N N 18 
-MRH C6 H5  SING N N 19 
-MRH C4 H6  SING N N 20 
-MRH N4 H7  SING N N 21 
-MRH C8 H8  SING N N 22 
-MRH C8 H9  SING N N 23 
-MRH C8 H10 SING N N 24 
-MRH C3 H11 SING N N 25 
-MRH O3 H12 SING N N 26 
-MRH C2 H13 SING N N 27 
-MRH O2 H14 SING N N 28 
-MRH O1 H15 SING N N 29 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+MRH  C1   C1   C  0  1  N  N  S  144.733  229.874  169.056   2.442   0.651  -0.084  C1   MRH   1  
+MRH  O5   O5   O  0  1  N  N  N  143.361  230.107  168.693   1.394   1.476   0.429  O5   MRH   2  
+MRH  C5   C5   C  0  1  N  N  R  142.442  229.090  169.109   0.122   1.252  -0.183  C5   MRH   3  
+MRH  C6   C6   C  0  1  N  N  N  141.087  229.471  168.532  -0.910   2.205   0.422  C6   MRH   4  
+MRH  C4   C4   C  0  1  N  N  S  142.500  228.933  170.641  -0.313  -0.195   0.062  C4   MRH   5  
+MRH  N4   N4   N  0  1  N  N  N  141.651  227.860  171.165  -1.588  -0.444  -0.615  N4   MRH   6  
+MRH  C7   C7   C  0  1  N  N  N  141.192  226.795  170.484  -2.748  -0.129  -0.005  C7   MRH   7  
+MRH  C8   C8   C  0  1  N  N  N  142.191  225.763  170.049  -4.059  -0.386  -0.701  C8   MRH   8  
+MRH  O7   O7   O  0  1  N  N  N  139.991  226.631  170.305  -2.736   0.361   1.105  O7   MRH   9  
+MRH  C3   C3   C  0  1  N  N  S  143.927  228.825  171.187   0.755  -1.142  -0.493  C3   MRH  10  
+MRH  O3   O3   O  0  1  N  N  N  143.931  228.930  172.606   0.393  -2.494  -0.204  O3   MRH  11  
+MRH  C2   C2   C  0  1  N  N  S  144.870  229.859  170.568   2.100  -0.820   0.165  C2   MRH  12  
+MRH  O2   O2   O  0  1  N  N  N  144.615  231.161  171.094   2.012  -1.059   1.571  O2   MRH  13  
+MRH  O1   O1   O  0  1  N  Y  N  145.342  228.656  168.559   2.582   0.877  -1.488  O1   MRH  14  
+MRH  H1   H1   H  0  1  N  N  N  145.329  230.722  168.688   3.377   0.897   0.419  H1   MRH  15  
+MRH  H5   H2   H  0  1  N  N  N  142.742  228.130  168.663   0.199   1.432  -1.255  H5   MRH  16  
+MRH  H61  H3   H  0  1  N  N  N  140.339  228.719  168.823  -0.600   3.235   0.248  H61  MRH  17  
+MRH  H62  H4   H  0  1  N  N  N  140.787  230.455  168.921  -1.880   2.034  -0.045  H62  MRH  18  
+MRH  H5A  H5   H  0  1  N  N  N  141.155  229.515  167.435  -0.987   2.024   1.494  H5A  MRH  19  
+MRH  H4   H6   H  0  1  N  N  N  142.098  229.872  171.048  -0.430  -0.364   1.132  H4   MRH  20  
+MRH  H7   H7   H  0  1  N  N  N  141.386  227.926  172.127  -1.598  -0.836  -1.502  H7   MRH  21  
+MRH  H8   H8   H  0  1  N  N  N  141.665  224.916  169.583  -4.155  -1.450  -0.915  H8   MRH  22  
+MRH  H9   H9   H  0  1  N  N  N  142.885  226.209  169.321  -4.880  -0.069  -0.058  H9   MRH  23  
+MRH  H10  H10  H  0  1  N  N  N  142.755  225.408  170.924  -4.091   0.177  -1.634  H10  MRH  24  
+MRH  H3   H11  H  0  1  N  N  N  144.307  227.831  170.909   0.835  -1.009  -1.572  H3   MRH  25  
+MRH  HO3  H12  H  0  1  N  Y  N  143.341  228.282  172.974   1.026  -3.149  -0.528  HO3  MRH  26  
+MRH  H2   H13  H  0  1  N  N  N  145.901  229.565  170.813   2.878  -1.452  -0.264  H2   MRH  27  
+MRH  HO2  H14  H  0  1  N  Y  N  144.703  231.144  172.040   2.829  -0.870   2.054  HO2  MRH  28  
+MRH  HO1  H15  H  0  1  N  Y  N  146.242  228.607  168.858   2.799   1.790  -1.720  HO1  MRH  29  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-MRH InChI            InChI                1.03  "InChI=1S/C8H15NO5/c1-3-5(9-4(2)10)6(11)7(12)8(13)14-3/h3,5-8,11-13H,1-2H3,(H,9,10)/t3-,5-,6+,7+,8+/m1/s1" 
-MRH InChIKey         InChI                1.03  LMIZXKMXHCOVTQ-PCRKCNGPSA-N                                                                                
-MRH SMILES_CANONICAL CACTVS               3.385 "C[C@H]1O[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1NC(C)=O"                                                         
-MRH SMILES           CACTVS               3.385 "C[CH]1O[CH](O)[CH](O)[CH](O)[CH]1NC(C)=O"                                                                 
-MRH SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C[C@@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O)O)O)NC(=O)C"                                                       
-MRH SMILES           "OpenEye OEToolkits" 2.0.7 "CC1C(C(C(C(O1)O)O)O)NC(=O)C"                                                                              
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+MRH  C6  C5   SING  N  N   1  
+MRH  O5  C1   SING  N  N   2  
+MRH  O5  C5   SING  N  N   3  
+MRH  C1  C2   SING  N  N   4  
+MRH  C5  C4   SING  N  N   5  
+MRH  C8  C7   SING  N  N   6  
+MRH  O7  C7   DOUB  N  N   7  
+MRH  C7  N4   SING  N  N   8  
+MRH  C2  O2   SING  N  N   9  
+MRH  C2  C3   SING  N  N  10  
+MRH  C4  N4   SING  N  N  11  
+MRH  C4  C3   SING  N  N  12  
+MRH  C3  O3   SING  N  N  13  
+MRH  C1  O1   SING  N  N  14  
+MRH  C1  H1   SING  N  N  15  
+MRH  C5  H5   SING  N  N  16  
+MRH  C6  H61  SING  N  N  17  
+MRH  C6  H62  SING  N  N  18  
+MRH  C6  H5A  SING  N  N  19  
+MRH  C4  H4   SING  N  N  20  
+MRH  N4  H7   SING  N  N  21  
+MRH  C8  H8   SING  N  N  22  
+MRH  C8  H9   SING  N  N  23  
+MRH  C8  H10  SING  N  N  24  
+MRH  C3  H3   SING  N  N  25  
+MRH  O3  HO3  SING  N  N  26  
+MRH  C2  H2   SING  N  N  27  
+MRH  O2  HO2  SING  N  N  28  
+MRH  O1  HO1  SING  N  N  29  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-MRH "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.7 "~{N}-[(2~{R},3~{S},4~{S},5~{S},6~{S})-2-methyl-4,5,6-tris(oxidanyl)oxan-3-yl]ethanamide" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+MRH  InChI             InChI                 1.03   "InChI=1S/C8H15NO5/c1-3-5(9-4(2)10)6(11)7(12)8(13)14-3/h3,5-8,11-13H,1-2H3,(H,9,10)/t3-,5-,6+,7+,8+/m1/s1"  
+MRH  InChIKey          InChI                 1.03   LMIZXKMXHCOVTQ-PCRKCNGPSA-N  
+MRH  SMILES_CANONICAL  CACTVS                3.385  "C[C@H]1O[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1NC(C)=O"  
+MRH  SMILES            CACTVS                3.385  "C[CH]1O[CH](O)[CH](O)[CH](O)[CH]1NC(C)=O"  
+MRH  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "C[C@@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O)O)O)NC(=O)C"  
+MRH  SMILES            "OpenEye OEToolkits"  2.0.7  "CC1C(C(C(C(O1)O)O)O)NC(=O)C"  
+#
+_pdbx_chem_comp_identifier.comp_id          MRH
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "~{N}-[(2~{R},3~{S},4~{S},5~{S},6~{S})-2-methyl-4,5,6-tris(oxidanyl)oxan-3-yl]ethanamide"
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-MRH "Create component" 2019-10-21 EBI  
-MRH "Initial release"  2020-01-15 RCSB 
-# 
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+MRH  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+MRH  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+MRH  "CARBOHYDRATE ANOMER"                  alpha     PDB  ?  
+MRH  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+MRH  "Create component"          2019-10-21  EBI   
+MRH  "Initial release"           2020-01-15  RCSB  
+MRH  "Other modification"        2020-07-03  RCSB  
+MRH  "Modify name"               2020-07-17  RCSB  
+MRH  "Modify synonyms"           2020-07-17  RCSB  
+MRH  "Modify internal type"      2020-07-17  RCSB  
+MRH  "Modify linking type"       2020-07-17  RCSB  
+MRH  "Modify atom id"            2020-07-17  RCSB  
+MRH  "Modify component atom id"  2020-07-17  RCSB  
+MRH  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

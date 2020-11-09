@@ -1,201 +1,265 @@
 data_BTG
-# 
-_chem_comp.id                                    BTG 
-_chem_comp.name                                  
-;2'-{[2-(acetylamino)-2-deoxy-beta-D-galactopyranosyl]oxy}[1,1'-biphenyl]-3-carboxylic acid
-;
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C21 H23 N O8" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         
-;ortho-biphenyl-2'-carboxyl N-acetyl-beta-galactosaminoside
-;
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2017-08-24 
-_chem_comp.pdbx_modified_date                    2018-02-23 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        417.409 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     BTG 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        6AS8 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  RCSB 
-# 
+#
+
+_chem_comp.id                                   BTG
+_chem_comp.name                                 "ortho-biphenyl-2'-carboxyl N-acetyl-beta-galactosaminoside"
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C21 H23 N O8"
+_chem_comp.mon_nstd_parent_comp_id              NGA
+_chem_comp.pdbx_synonyms                        "2'-{[2-(acetylamino)-2-deoxy-beta-D-galactopyranosyl]oxy}[1,1'-biphenyl]-3-carboxylic acid"
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2017-08-24
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       417.409
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    BTG
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6AS8
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#
+_pdbx_chem_comp_synonyms.ordinal     1
+_pdbx_chem_comp_synonyms.comp_id     BTG
+_pdbx_chem_comp_synonyms.name        "2'-{[2-(acetylamino)-2-deoxy-beta-D-galactopyranosyl]oxy}[1,1'-biphenyl]-3-carboxylic acid"
+_pdbx_chem_comp_synonyms.provenance  PDB
+_pdbx_chem_comp_synonyms.type        ?
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-BTG C13  C1  C 0 1 Y N N 23.504 128.776 132.348 0.469  3.781  1.158  C13  BTG 1  
-BTG C15  C2  C 0 1 Y N N 22.356 127.870 134.254 -1.705 3.224  0.316  C15  BTG 2  
-BTG C17  C3  C 0 1 Y N N 21.004 125.747 134.053 -2.213 0.924  -0.502 C17  BTG 3  
-BTG C20  C4  C 0 1 Y N N 19.403 123.743 135.105 -3.942 -0.949 -1.606 C20  BTG 4  
-BTG C21  C5  C 0 1 Y N N 20.757 123.521 134.916 -4.349 -0.189 -0.507 C21  BTG 5  
-BTG C22  C6  C 0 1 N N N 21.367 122.185 135.284 -5.696 -0.380 0.068  C22  BTG 6  
-BTG C26  C7  C 0 1 N N R 21.859 124.087 129.692 2.059  -1.525 0.329  C26  BTG 7  
-BTG C28  C8  C 0 1 N N N 22.407 122.475 131.493 -0.071 -2.592 0.841  C28  BTG 8  
-BTG O01  O1  O 0 1 N N N 21.666 122.556 127.880 3.790  -3.213 0.392  O01  BTG 9  
-BTG C02  C9  C 0 1 N N R 22.002 123.886 128.203 3.524  -1.834 0.651  C02  BTG 10 
-BTG C03  C10 C 0 1 N N R 21.063 124.832 127.499 4.424  -0.964 -0.233 C03  BTG 11 
-BTG O04  O2  O 0 1 N N N 19.744 124.578 127.926 4.212  -1.298 -1.606 O04  BTG 12 
-BTG C05  C11 C 0 1 N N R 21.459 126.242 127.861 4.077  0.510  -0.006 C05  BTG 13 
-BTG C06  C12 C 0 1 N N N 20.549 127.221 127.156 4.930  1.383  -0.929 C06  BTG 14 
-BTG O07  O3  O 0 1 N N N 19.462 127.542 127.995 4.692  2.761  -0.636 O07  BTG 15 
-BTG O08  O4  O 0 1 N N N 21.351 126.399 129.258 2.694  0.723  -0.294 O08  BTG 16 
-BTG C09  C13 C 0 1 N N S 22.108 125.528 130.069 1.803  -0.029 0.534  C09  BTG 17 
-BTG O10  O5  O 0 1 N N N 21.705 125.654 131.411 0.453  0.276  0.181  O10  BTG 18 
-BTG C11  C14 C 0 1 Y N N 22.223 126.753 132.129 0.030  1.548  0.405  C11  BTG 19 
-BTG C12  C15 C 0 1 Y N N 23.035 127.732 131.565 0.899  2.486  0.937  C12  BTG 20 
-BTG C14  C16 C 0 1 Y N N 23.164 128.846 133.691 -0.829 4.148  0.851  C14  BTG 21 
-BTG C16  C17 C 0 1 Y N N 21.887 126.830 133.470 -1.280 1.918  0.084  C16  BTG 22 
-BTG C18  C18 C 0 1 Y N N 19.648 125.969 134.235 -1.819 0.159  -1.599 C18  BTG 23 
-BTG C19  C19 C 0 1 Y N N 18.848 124.967 134.764 -2.684 -0.771 -2.143 C19  BTG 24 
-BTG O23  O6  O 0 1 N N N 20.842 121.119 134.870 -6.048 0.282  1.024  O23  BTG 25 
-BTG O24  O7  O 0 1 N N N 22.402 122.142 136.001 -6.535 -1.289 -0.467 O24  BTG 26 
-BTG C25  C20 C 0 1 Y N N 21.555 124.523 134.388 -3.480 0.751  0.045  C25  BTG 27 
-BTG N27  N1  N 0 1 N N N 22.801 123.266 130.378 1.188  -2.296 1.219  N27  BTG 28 
-BTG C29  C21 C 0 1 N N N 23.425 121.614 132.206 -0.966 -3.386 1.757  C29  BTG 29 
-BTG O30  O8  O 0 1 N N N 21.258 122.481 131.885 -0.484 -2.219 -0.236 O30  BTG 30 
-BTG H131 H1  H 0 0 N N N 24.135 129.536 131.911 1.148  4.509  1.577  H131 BTG 31 
-BTG H151 H2  H 0 0 N N N 22.093 127.921 135.300 -2.718 3.513  0.079  H151 BTG 32 
-BTG H201 H3  H 0 0 N N N 18.780 122.963 135.518 -4.614 -1.678 -2.036 H201 BTG 33 
-BTG H261 H4  H 0 0 N N N 20.836 123.814 129.990 1.848  -1.791 -0.707 H261 BTG 34 
-BTG H011 H5  H 0 0 N N N 22.259 121.962 128.325 4.701  -3.479 0.575  H011 BTG 35 
-BTG H021 H6  H 0 0 N N N 23.037 124.110 127.904 3.720  -1.615 1.701  H021 BTG 36 
-BTG H031 H7  H 0 0 N N N 21.155 124.695 126.411 5.468  -1.137 0.029  H031 BTG 37 
-BTG H041 H8  H 0 0 N N N 19.502 123.689 127.695 4.747  -0.782 -2.223 H041 BTG 38 
-BTG H051 H9  H 0 0 N N N 22.495 126.418 127.535 4.277  0.775  1.032  H051 BTG 39 
-BTG H062 H10 H 0 0 N N N 21.110 128.136 126.917 5.985  1.155  -0.772 H062 BTG 40 
-BTG H061 H11 H 0 0 N N N 20.173 126.768 126.227 4.666  1.181  -1.967 H061 BTG 41 
-BTG H071 H12 H 0 0 N N N 18.890 128.157 127.552 5.201  3.373  -1.185 H071 BTG 42 
-BTG H091 H13 H 0 0 N N N 23.182 125.745 129.968 1.974  0.229  1.579  H091 BTG 43 
-BTG H121 H14 H 0 0 N N N 23.300 127.679 130.519 1.913  2.206  1.178  H121 BTG 44 
-BTG H141 H15 H 0 0 N N N 23.529 129.661 134.298 -1.160 5.160  1.031  H141 BTG 45 
-BTG H181 H16 H 0 0 N N N 19.215 126.921 133.965 -0.835 0.293  -2.024 H181 BTG 46 
-BTG H191 H17 H 0 0 N N N 17.792 125.140 134.910 -2.373 -1.362 -2.993 H191 BTG 47 
-BTG H1   H18 H 0 1 N N N 22.657 121.237 136.136 -7.405 -1.378 -0.056 H1   BTG 48 
-BTG H251 H19 H 0 0 N N N 22.610 124.348 134.238 -3.789 1.342  0.895  H251 BTG 49 
-BTG H271 H20 H 0 0 N N N 23.753 123.246 130.071 1.519  -2.595 2.081  H271 BTG 50 
-BTG H293 H21 H 0 0 N N N 22.938 121.081 133.036 -0.848 -4.449 1.549  H293 BTG 51 
-BTG H291 H22 H 0 0 N N N 23.847 120.885 131.499 -0.694 -3.187 2.794  H291 BTG 52 
-BTG H292 H23 H 0 0 N N N 24.231 122.250 132.601 -2.004 -3.096 1.592  H292 BTG 53 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+BTG  C13   C13   C  0  1  Y  N  N  23.504  128.776  132.348   0.469   3.781   1.158  C13   BTG   1  
+BTG  C15   C15   C  0  1  Y  N  N  22.356  127.870  134.254  -1.705   3.224   0.316  C15   BTG   2  
+BTG  C17   C17   C  0  1  Y  N  N  21.004  125.747  134.053  -2.213   0.924  -0.502  C17   BTG   3  
+BTG  C20   C20   C  0  1  Y  N  N  19.403  123.743  135.105  -3.942  -0.949  -1.606  C20   BTG   4  
+BTG  C21   C21   C  0  1  Y  N  N  20.757  123.521  134.916  -4.349  -0.189  -0.507  C21   BTG   5  
+BTG  C22   C22   C  0  1  N  N  N  21.367  122.185  135.284  -5.696  -0.380   0.068  C22   BTG   6  
+BTG  C2    C26   C  0  1  N  N  R  21.859  124.087  129.692   2.059  -1.525   0.329  C2    BTG   7  
+BTG  C7    C28   C  0  1  N  N  N  22.407  122.475  131.493  -0.071  -2.592   0.841  C7    BTG   8  
+BTG  O3    O01   O  0  1  N  N  N  21.666  122.556  127.880   3.790  -3.213   0.392  O3    BTG   9  
+BTG  C3    C02   C  0  1  N  N  R  22.002  123.886  128.203   3.524  -1.834   0.651  C3    BTG  10  
+BTG  C4    C03   C  0  1  N  N  R  21.063  124.832  127.499   4.424  -0.964  -0.233  C4    BTG  11  
+BTG  O4    O04   O  0  1  N  N  N  19.744  124.578  127.926   4.212  -1.298  -1.606  O4    BTG  12  
+BTG  C5    C05   C  0  1  N  N  R  21.459  126.242  127.861   4.077   0.510  -0.006  C5    BTG  13  
+BTG  C6    C06   C  0  1  N  N  N  20.549  127.221  127.156   4.930   1.383  -0.929  C6    BTG  14  
+BTG  O6    O07   O  0  1  N  N  N  19.462  127.542  127.995   4.692   2.761  -0.636  O6    BTG  15  
+BTG  O5    O08   O  0  1  N  N  N  21.351  126.399  129.258   2.694   0.723  -0.294  O5    BTG  16  
+BTG  C1    C09   C  0  1  N  N  S  22.108  125.528  130.069   1.803  -0.029   0.534  C1    BTG  17  
+BTG  O1    O10   O  0  1  N  N  N  21.705  125.654  131.411   0.453   0.276   0.181  O1    BTG  18  
+BTG  C11   C11   C  0  1  Y  N  N  22.223  126.753  132.129   0.030   1.548   0.405  C11   BTG  19  
+BTG  C12   C12   C  0  1  Y  N  N  23.035  127.732  131.565   0.899   2.486   0.937  C12   BTG  20  
+BTG  C14   C14   C  0  1  Y  N  N  23.164  128.846  133.691  -0.829   4.148   0.851  C14   BTG  21  
+BTG  C16   C16   C  0  1  Y  N  N  21.887  126.830  133.470  -1.280   1.918   0.084  C16   BTG  22  
+BTG  C18   C18   C  0  1  Y  N  N  19.648  125.969  134.235  -1.819   0.159  -1.599  C18   BTG  23  
+BTG  C19   C19   C  0  1  Y  N  N  18.848  124.967  134.764  -2.684  -0.771  -2.143  C19   BTG  24  
+BTG  O23   O23   O  0  1  N  N  N  20.842  121.119  134.870  -6.048   0.282   1.024  O23   BTG  25  
+BTG  O24   O24   O  0  1  N  N  N  22.402  122.142  136.001  -6.535  -1.289  -0.467  O24   BTG  26  
+BTG  C25   C25   C  0  1  Y  N  N  21.555  124.523  134.388  -3.480   0.751   0.045  C25   BTG  27  
+BTG  N2    N27   N  0  1  N  N  N  22.801  123.266  130.378   1.188  -2.296   1.219  N2    BTG  28  
+BTG  C8    C29   C  0  1  N  N  N  23.425  121.614  132.206  -0.966  -3.386   1.757  C8    BTG  29  
+BTG  O7    O30   O  0  1  N  N  N  21.258  122.481  131.885  -0.484  -2.219  -0.236  O7    BTG  30  
+BTG  H131  H131  H  0  0  N  N  N  24.135  129.536  131.911   1.148   4.509   1.577  H131  BTG  31  
+BTG  H151  H151  H  0  0  N  N  N  22.093  127.921  135.300  -2.718   3.513   0.079  H151  BTG  32  
+BTG  H201  H201  H  0  0  N  N  N  18.780  122.963  135.518  -4.614  -1.678  -2.036  H201  BTG  33  
+BTG  H2    H261  H  0  1  N  N  N  20.836  123.814  129.990   1.848  -1.791  -0.707  H2    BTG  34  
+BTG  HO3   H011  H  0  1  N  Y  N  22.259  121.962  128.325   4.701  -3.479   0.575  HO3   BTG  35  
+BTG  H3    H021  H  0  1  N  N  N  23.037  124.110  127.904   3.720  -1.615   1.701  H3    BTG  36  
+BTG  H4    H031  H  0  1  N  N  N  21.155  124.695  126.411   5.468  -1.137   0.029  H4    BTG  37  
+BTG  HO4   H041  H  0  1  N  Y  N  19.502  123.689  127.695   4.747  -0.782  -2.223  HO4   BTG  38  
+BTG  H5    H051  H  0  1  N  N  N  22.495  126.418  127.535   4.277   0.775   1.032  H5    BTG  39  
+BTG  H61   H062  H  0  1  N  N  N  21.110  128.136  126.917   5.985   1.155  -0.772  H61   BTG  40  
+BTG  H62   H061  H  0  1  N  N  N  20.173  126.768  126.227   4.666   1.181  -1.967  H62   BTG  41  
+BTG  HO6   H071  H  0  1  N  Y  N  18.890  128.157  127.552   5.201   3.373  -1.185  HO6   BTG  42  
+BTG  H1    H091  H  0  1  N  N  N  23.182  125.745  129.968   1.974   0.229   1.579  H1    BTG  43  
+BTG  H121  H121  H  0  0  N  N  N  23.300  127.679  130.519   1.913   2.206   1.178  H121  BTG  44  
+BTG  H141  H141  H  0  0  N  N  N  23.529  129.661  134.298  -1.160   5.160   1.031  H141  BTG  45  
+BTG  H181  H181  H  0  0  N  N  N  19.215  126.921  133.965  -0.835   0.293  -2.024  H181  BTG  46  
+BTG  H191  H191  H  0  0  N  N  N  17.792  125.140  134.910  -2.373  -1.362  -2.993  H191  BTG  47  
+BTG  H1A   H1    H  0  1  N  N  N  22.657  121.237  136.136  -7.405  -1.378  -0.056  H1A   BTG  48  
+BTG  H251  H251  H  0  0  N  N  N  22.610  124.348  134.238  -3.789   1.342   0.895  H251  BTG  49  
+BTG  HN2   H271  H  0  1  N  N  N  23.753  123.246  130.071   1.519  -2.595   2.081  HN2   BTG  50  
+BTG  H81   H293  H  0  1  N  N  N  22.938  121.081  133.036  -0.848  -4.449   1.549  H81   BTG  51  
+BTG  H82   H291  H  0  1  N  N  N  23.847  120.885  131.499  -0.694  -3.187   2.794  H82   BTG  52  
+BTG  H83   H292  H  0  1  N  N  N  24.231  122.250  132.601  -2.004  -3.096   1.592  H83   BTG  53  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-BTG C06 C05  SING N N 1  
-BTG C06 O07  SING N N 2  
-BTG C03 C05  SING N N 3  
-BTG C03 O04  SING N N 4  
-BTG C03 C02  SING N N 5  
-BTG C05 O08  SING N N 6  
-BTG O01 C02  SING N N 7  
-BTG C02 C26  SING N N 8  
-BTG O08 C09  SING N N 9  
-BTG C26 C09  SING N N 10 
-BTG C26 N27  SING N N 11 
-BTG C09 O10  SING N N 12 
-BTG N27 C28  SING N N 13 
-BTG O10 C11  SING N N 14 
-BTG C28 O30  DOUB N N 15 
-BTG C28 C29  SING N N 16 
-BTG C12 C11  DOUB Y N 17 
-BTG C12 C13  SING Y N 18 
-BTG C11 C16  SING Y N 19 
-BTG C13 C14  DOUB Y N 20 
-BTG C16 C17  SING N N 21 
-BTG C16 C15  DOUB Y N 22 
-BTG C14 C15  SING Y N 23 
-BTG C17 C18  DOUB Y N 24 
-BTG C17 C25  SING Y N 25 
-BTG C18 C19  SING Y N 26 
-BTG C25 C21  DOUB Y N 27 
-BTG C19 C20  DOUB Y N 28 
-BTG O23 C22  DOUB N N 29 
-BTG C21 C20  SING Y N 30 
-BTG C21 C22  SING N N 31 
-BTG C22 O24  SING N N 32 
-BTG C13 H131 SING N N 33 
-BTG C15 H151 SING N N 34 
-BTG C20 H201 SING N N 35 
-BTG C26 H261 SING N N 36 
-BTG O01 H011 SING N N 37 
-BTG C02 H021 SING N N 38 
-BTG C03 H031 SING N N 39 
-BTG O04 H041 SING N N 40 
-BTG C05 H051 SING N N 41 
-BTG C06 H062 SING N N 42 
-BTG C06 H061 SING N N 43 
-BTG O07 H071 SING N N 44 
-BTG C09 H091 SING N N 45 
-BTG C12 H121 SING N N 46 
-BTG C14 H141 SING N N 47 
-BTG C18 H181 SING N N 48 
-BTG C19 H191 SING N N 49 
-BTG O24 H1   SING N N 50 
-BTG C25 H251 SING N N 51 
-BTG N27 H271 SING N N 52 
-BTG C29 H293 SING N N 53 
-BTG C29 H291 SING N N 54 
-BTG C29 H292 SING N N 55 
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+BTG  C6   C5    SING  N  N   1  
+BTG  C6   O6    SING  N  N   2  
+BTG  C4   C5    SING  N  N   3  
+BTG  C4   O4    SING  N  N   4  
+BTG  C4   C3    SING  N  N   5  
+BTG  C5   O5    SING  N  N   6  
+BTG  O3   C3    SING  N  N   7  
+BTG  C3   C2    SING  N  N   8  
+BTG  O5   C1    SING  N  N   9  
+BTG  C2   C1    SING  N  N  10  
+BTG  C2   N2    SING  N  N  11  
+BTG  C1   O1    SING  N  N  12  
+BTG  N2   C7    SING  N  N  13  
+BTG  O1   C11   SING  N  N  14  
+BTG  C7   O7    DOUB  N  N  15  
+BTG  C7   C8    SING  N  N  16  
+BTG  C12  C11   DOUB  Y  N  17  
+BTG  C12  C13   SING  Y  N  18  
+BTG  C11  C16   SING  Y  N  19  
+BTG  C13  C14   DOUB  Y  N  20  
+BTG  C16  C17   SING  N  N  21  
+BTG  C16  C15   DOUB  Y  N  22  
+BTG  C14  C15   SING  Y  N  23  
+BTG  C17  C18   DOUB  Y  N  24  
+BTG  C17  C25   SING  Y  N  25  
+BTG  C18  C19   SING  Y  N  26  
+BTG  C25  C21   DOUB  Y  N  27  
+BTG  C19  C20   DOUB  Y  N  28  
+BTG  O23  C22   DOUB  N  N  29  
+BTG  C21  C20   SING  Y  N  30  
+BTG  C21  C22   SING  N  N  31  
+BTG  C22  O24   SING  N  N  32  
+BTG  C13  H131  SING  N  N  33  
+BTG  C15  H151  SING  N  N  34  
+BTG  C20  H201  SING  N  N  35  
+BTG  C2   H2    SING  N  N  36  
+BTG  O3   HO3   SING  N  N  37  
+BTG  C3   H3    SING  N  N  38  
+BTG  C4   H4    SING  N  N  39  
+BTG  O4   HO4   SING  N  N  40  
+BTG  C5   H5    SING  N  N  41  
+BTG  C6   H61   SING  N  N  42  
+BTG  C6   H62   SING  N  N  43  
+BTG  O6   HO6   SING  N  N  44  
+BTG  C1   H1    SING  N  N  45  
+BTG  C12  H121  SING  N  N  46  
+BTG  C14  H141  SING  N  N  47  
+BTG  C18  H181  SING  N  N  48  
+BTG  C19  H191  SING  N  N  49  
+BTG  O24  H1A   SING  N  N  50  
+BTG  C25  H251  SING  N  N  51  
+BTG  N2   HN2   SING  N  N  52  
+BTG  C8   H81   SING  N  N  53  
+BTG  C8   H82   SING  N  N  54  
+BTG  C8   H83   SING  N  N  55  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-BTG SMILES           ACDLabs              12.01 "c3ccc(c1cccc(C(O)=O)c1)c(OC2C(NC(=O)C)C(O)C(C(O2)CO)O)c3"                                                                                                                                     
-BTG InChI            InChI                1.03  "InChI=1S/C21H23NO8/c1-11(24)22-17-19(26)18(25)16(10-23)30-21(17)29-15-8-3-2-7-14(15)12-5-4-6-13(9-12)20(27)28/h2-9,16-19,21,23,25-26H,10H2,1H3,(H,22,24)(H,27,28)/t16-,17-,18+,19-,21-/m1/s1" 
-BTG InChIKey         InChI                1.03  FLXAKMSHXBTMLT-GQUPQBGVSA-N                                                                                                                                                                    
-BTG SMILES_CANONICAL CACTVS               3.385 "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@@H](CO)O[C@H]1Oc2ccccc2c3cccc(c3)C(O)=O"                                                                                                                   
-BTG SMILES           CACTVS               3.385 "CC(=O)N[CH]1[CH](O)[CH](O)[CH](CO)O[CH]1Oc2ccccc2c3cccc(c3)C(O)=O"                                                                                                                            
-BTG SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@H]1Oc2ccccc2c3cccc(c3)C(=O)O)CO)O)O"                                                                                                                      
-BTG SMILES           "OpenEye OEToolkits" 2.0.6 "CC(=O)NC1C(C(C(OC1Oc2ccccc2c3cccc(c3)C(=O)O)CO)O)O"                                                                                                                                           
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+BTG  SMILES            ACDLabs               12.01  "c3ccc(c1cccc(C(O)=O)c1)c(OC2C(NC(=O)C)C(O)C(C(O2)CO)O)c3"  
+BTG  InChI             InChI                 1.03   "InChI=1S/C21H23NO8/c1-11(24)22-17-19(26)18(25)16(10-23)30-21(17)29-15-8-3-2-7-14(15)12-5-4-6-13(9-12)20(27)28/h2-9,16-19,21,23,25-26H,10H2,1H3,(H,22,24)(H,27,28)/t16-,17-,18+,19-,21-/m1/s1"  
+BTG  InChIKey          InChI                 1.03   FLXAKMSHXBTMLT-GQUPQBGVSA-N  
+BTG  SMILES_CANONICAL  CACTVS                3.385  "CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@@H](CO)O[C@H]1Oc2ccccc2c3cccc(c3)C(O)=O"  
+BTG  SMILES            CACTVS                3.385  "CC(=O)N[CH]1[CH](O)[CH](O)[CH](CO)O[CH]1Oc2ccccc2c3cccc(c3)C(O)=O"  
+BTG  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.6  "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@H]1Oc2ccccc2c3cccc(c3)C(=O)O)CO)O)O"  
+BTG  SMILES            "OpenEye OEToolkits"  2.0.6  "CC(=O)NC1C(C(C(OC1Oc2ccccc2c3cccc(c3)C(=O)O)CO)O)O"  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-BTG "SYSTEMATIC NAME" ACDLabs              12.01 
-;2'-{[2-(acetylamino)-2-deoxy-beta-D-galactopyranosyl]oxy}[1,1'-biphenyl]-3-carboxylic acid
-;
-BTG "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "3-[2-[(2~{S},3~{R},4~{R},5~{R},6~{R})-3-acetamido-6-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-2-yl]oxyphenyl]benzoic acid" 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+BTG  "SYSTEMATIC NAME"  ACDLabs               12.01  "2'-{[2-(acetylamino)-2-deoxy-beta-D-galactopyranosyl]oxy}[1,1'-biphenyl]-3-carboxylic acid"  
+BTG  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.6  "3-[2-[(2~{S},3~{R},4~{R},5~{R},6~{R})-3-acetamido-6-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-2-yl]oxyphenyl]benzoic acid"  
+#
+_pdbx_chem_comp_related.comp_id            BTG
+_pdbx_chem_comp_related.related_comp_id    NGA
+_pdbx_chem_comp_related.relationship_type  "Carbohydrate core"
+_pdbx_chem_comp_related.details            ?
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-BTG "Create component" 2017-08-24 RCSB 
-BTG "Initial release"  2018-02-28 RCSB 
-# 
+_pdbx_chem_comp_atom_related.ordinal
+_pdbx_chem_comp_atom_related.comp_id
+_pdbx_chem_comp_atom_related.atom_id
+_pdbx_chem_comp_atom_related.related_comp_id
+_pdbx_chem_comp_atom_related.related_atom_id
+_pdbx_chem_comp_atom_related.related_type
+ 1  BTG  C3   NGA  C3   "Carbohydrate core"  
+ 2  BTG  C4   NGA  C4   "Carbohydrate core"  
+ 3  BTG  C5   NGA  C5   "Carbohydrate core"  
+ 4  BTG  C6   NGA  C6   "Carbohydrate core"  
+ 5  BTG  C1   NGA  C1   "Carbohydrate core"  
+ 6  BTG  C2   NGA  C2   "Carbohydrate core"  
+ 7  BTG  C7   NGA  C7   "Carbohydrate core"  
+ 8  BTG  C8   NGA  C8   "Carbohydrate core"  
+ 9  BTG  N2   NGA  N2   "Carbohydrate core"  
+10  BTG  O3   NGA  O3   "Carbohydrate core"  
+11  BTG  O4   NGA  O4   "Carbohydrate core"  
+12  BTG  O6   NGA  O6   "Carbohydrate core"  
+13  BTG  O5   NGA  O5   "Carbohydrate core"  
+14  BTG  O1   NGA  O1   "Carbohydrate core"  
+15  BTG  O7   NGA  O7   "Carbohydrate core"  
+16  BTG  HO3  NGA  HO3  "Carbohydrate core"  
+17  BTG  H3   NGA  H3   "Carbohydrate core"  
+18  BTG  H4   NGA  H4   "Carbohydrate core"  
+19  BTG  HO4  NGA  HO4  "Carbohydrate core"  
+20  BTG  H5   NGA  H5   "Carbohydrate core"  
+21  BTG  H62  NGA  H62  "Carbohydrate core"  
+22  BTG  H61  NGA  H61  "Carbohydrate core"  
+23  BTG  HO6  NGA  HO6  "Carbohydrate core"  
+24  BTG  H1   NGA  H1   "Carbohydrate core"  
+25  BTG  H2   NGA  H2   "Carbohydrate core"  
+26  BTG  HN2  NGA  HN2  "Carbohydrate core"  
+27  BTG  H82  NGA  H82  "Carbohydrate core"  
+28  BTG  H83  NGA  H83  "Carbohydrate core"  
+29  BTG  H81  NGA  H81  "Carbohydrate core"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+BTG  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+BTG  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+BTG  "CARBOHYDRATE ANOMER"                  beta      PDB  ?  
+BTG  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+BTG  "Create component"          2017-08-24  RCSB  
+BTG  "Initial release"           2018-02-28  RCSB  
+BTG  "Other modification"        2020-07-03  RCSB  
+BTG  "Modify parent residue"     2020-07-17  RCSB  
+BTG  "Modify name"               2020-07-17  RCSB  
+BTG  "Modify synonyms"           2020-07-17  RCSB  
+BTG  "Modify internal type"      2020-07-17  RCSB  
+BTG  "Modify linking type"       2020-07-17  RCSB  
+BTG  "Modify atom id"            2020-07-17  RCSB  
+BTG  "Modify component atom id"  2020-07-17  RCSB  
+BTG  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

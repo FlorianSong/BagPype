@@ -1,0 +1,113 @@
+data_LV5
+#
+
+_chem_comp.id                                   LV5
+_chem_comp.name                                 "3,4-Dichloroaniline"
+_chem_comp.type                                 NON-POLYMER
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C6 H5 Cl2 N"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2019-09-13
+_chem_comp.pdbx_modified_date                   2020-09-25
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       162.017
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    LV5
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6SU7
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBE
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+LV5  C01  C1   C   0  1  Y  N  N  47.628  10.177  39.749   1.850   1.331   0.003  C01  LV5   1  
+LV5  C02  C2   C   0  1  Y  N  N  46.400  10.073  40.379   0.519   1.700   0.001  C02  LV5   2  
+LV5  C03  C3   C   0  1  Y  N  N  45.240  10.354  39.679  -0.468   0.731   0.000  C03  LV5   3  
+LV5  C04  C4   C   0  1  Y  N  N  45.307  10.740  38.350  -0.125  -0.611   0.001  C04  LV5   4  
+LV5  C05  C5   C   0  1  Y  N  N  46.537  10.845  37.719   1.205  -0.985   0.002  C05  LV5   5  
+LV5  C06  C6   C   0  1  Y  N  N  47.698  10.562  38.420   2.198  -0.013  -0.003  C06  LV5   6  
+LV5  N07  N1   N   0  1  N  N  N  48.990  10.670  37.766   3.544  -0.388  -0.002  N07  LV5   7  
+LV5  CL1  CL1  CL  0  0  N  N  N  43.805  11.099  37.455  -1.367  -1.824   0.000  CL1  LV5   8  
+LV5  CL2  CL2  CL  0  0  N  N  N  43.659  10.220  40.493  -2.140   1.198  -0.001  CL2  LV5   9  
+LV5  H1   H1   H   0  1  N  N  N  48.534   9.958  40.295   2.621   2.089   0.004  H1   LV5  10  
+LV5  H2   H2   H   0  1  N  N  N  46.347   9.773  41.415   0.249   2.745   0.001  H2   LV5  11  
+LV5  H3   H3   H   0  1  N  N  N  46.590  11.147  36.683   1.473  -2.031   0.004  H3   LV5  12  
+LV5  H4   H4   H   0  1  N  N  N  49.713  10.431  38.414   3.786  -1.327   0.002  H4   LV5  13  
+LV5  H5   H5   H   0  1  N  N  N  49.022  10.045  36.986   4.237   0.291  -0.006  H5   LV5  14  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+LV5  CL1  C04  SING  N  N   1  
+LV5  C05  C04  DOUB  Y  N   2  
+LV5  C05  C06  SING  Y  N   3  
+LV5  N07  C06  SING  N  N   4  
+LV5  C04  C03  SING  Y  N   5  
+LV5  C06  C01  DOUB  Y  N   6  
+LV5  C03  C02  DOUB  Y  N   7  
+LV5  C03  CL2  SING  N  N   8  
+LV5  C01  C02  SING  Y  N   9  
+LV5  C01  H1   SING  N  N  10  
+LV5  C02  H2   SING  N  N  11  
+LV5  C05  H3   SING  N  N  12  
+LV5  N07  H4   SING  N  N  13  
+LV5  N07  H5   SING  N  N  14  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+LV5  InChI             InChI                 1.03   "InChI=1S/C6H5Cl2N/c7-5-2-1-4(9)3-6(5)8/h1-3H,9H2"  
+LV5  InChIKey          InChI                 1.03   SDYWXFYBZPNOFX-UHFFFAOYSA-N  
+LV5  SMILES_CANONICAL  CACTVS                3.385  "Nc1ccc(Cl)c(Cl)c1"  
+LV5  SMILES            CACTVS                3.385  "Nc1ccc(Cl)c(Cl)c1"  
+LV5  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "c1cc(c(cc1N)Cl)Cl"  
+LV5  SMILES            "OpenEye OEToolkits"  2.0.7  "c1cc(c(cc1N)Cl)Cl"  
+#
+_pdbx_chem_comp_identifier.comp_id          LV5
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "3,4-bis(chloranyl)aniline"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+LV5  "Create component"  2019-09-13  PDBE  
+LV5  "Initial release"   2020-09-30  RCSB  
+##
+

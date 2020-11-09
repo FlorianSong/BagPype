@@ -1,243 +1,131 @@
 data_VR
-#
-_chem_comp.id                                        VR
-_chem_comp.name                                      "2-METHYLPROPYL HYDROGEN (R)-METHYLPHOSPHONATE"
-_chem_comp.type                                      non-polymer
-_chem_comp.pdbx_type                                 HETAIN
-_chem_comp.formula                                   "C5 H13 O3 P"
-_chem_comp.mon_nstd_parent_comp_id                   ?
-_chem_comp.pdbx_synonyms                             ?
-_chem_comp.pdbx_formal_charge                        0
-_chem_comp.pdbx_initial_date                         2010-09-02
-_chem_comp.pdbx_modified_date                        2011-06-04
-_chem_comp.pdbx_ambiguous_flag                       N
-_chem_comp.pdbx_release_status                       REL
-_chem_comp.pdbx_replaced_by                          ?
-_chem_comp.pdbx_replaces                             ?
-_chem_comp.formula_weight                            152.129
-_chem_comp.one_letter_code                           ?
-_chem_comp.three_letter_code                         VR
-_chem_comp.pdbx_model_coordinates_details            ?
-_chem_comp.pdbx_model_coordinates_missing_flag       N
-_chem_comp.pdbx_ideal_coordinates_details            Corina
-_chem_comp.pdbx_ideal_coordinates_missing_flag       N
-_chem_comp.pdbx_model_coordinates_db_code            2XQG
-_chem_comp.pdbx_subcomponent_list                    ?
-_chem_comp.pdbx_processing_site                      EBI
+# 
+_chem_comp.id                                    VR 
+_chem_comp.name                                  "2-METHYLPROPYL HYDROGEN (R)-METHYLPHOSPHONATE" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C5 H13 O3 P" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2010-09-02 
+_chem_comp.pdbx_modified_date                    2011-06-04 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        152.129 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     VR 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        2XQG 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+VR C4   C4   C 0 1 N N N -13.639 -39.426 -20.349 3.609  -0.864 -0.004 C4   VR 1  
+VR C3   C3   C 0 1 N N N -14.308 -39.691 -21.701 2.452  0.051  0.402  C3   VR 2  
+VR C5   C5   C 0 1 N N N -13.489 -40.608 -22.510 2.667  1.442  -0.198 C5   VR 3  
+VR C2   C2   C 0 1 N N N -14.327 -38.394 -22.487 1.136  -0.530 -0.116 C2   VR 4  
+VR O2   O2   O 0 1 N N N -15.379 -37.706 -21.934 0.045  0.260  0.361  O2   VR 5  
+VR P1   P1   P 0 1 N N R -16.364 -36.933 -22.869 -1.492 -0.064 0.009  P1   VR 6  
+VR C1   C1   C 0 1 N N N -17.963 -37.813 -22.658 -2.579 1.080  0.923  C1   VR 7  
+VR O1   O1   O 0 1 N N N -16.189 -36.701 -24.319 -1.805 -1.457 0.398  O1   VR 8  
+VR O3   O3   O 0 1 N Y N -16.632 -35.548 -21.969 -1.731 0.118  -1.572 O3   VR 9  
+VR H41C H41C H 0 0 N N N -12.549 -39.362 -20.485 4.547  -0.449 0.365  H41C VR 10 
+VR H42C H42C H 0 0 N N N -14.013 -38.478 -19.935 3.457  -1.855 0.424  H42C VR 11 
+VR H43C H43C H 0 0 N N N -13.875 -40.247 -19.656 3.648  -0.939 -1.091 H43C VR 12 
+VR H3   H3   H 0 1 N N N -15.310 -40.105 -21.512 2.413  0.127  1.489  H3   VR 13 
+VR H51C H51C H 0 0 N N N -13.285 -40.151 -23.489 1.843  2.094  0.091  H51C VR 14 
+VR H52C H52C H 0 0 N N N -12.539 -40.805 -21.992 3.605  1.857  0.171  H52C VR 15 
+VR H53C H53C H 0 0 N N N -14.032 -41.554 -22.653 2.706  1.367  -1.285 H53C VR 16 
+VR H21C H21C H 0 0 N N N -13.381 -37.842 -22.380 1.140  -0.524 -1.206 H21C VR 17 
+VR H22C H22C H 0 0 N N N -14.440 -38.551 -23.570 1.026  -1.555 0.240  H22C VR 18 
+VR H11C H11C H 0 0 N N N -18.147 -37.989 -21.588 -2.349 2.106  0.637  H11C VR 19 
+VR H12C H12C H 0 0 N N N -18.776 -37.200 -23.074 -3.620 0.860  0.685  H12C VR 20 
+VR H13C H13C H 0 0 N N N -17.923 -38.777 -23.186 -2.417 0.956  1.994  H13C VR 21 
+VR H30  H30  H 0 1 N N N -16.683 -35.773 -21.048 -1.545 1.010  -1.898 H30  VR 22 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+VR C4 C3   SING N N 1  
+VR C3 C5   SING N N 2  
+VR C3 C2   SING N N 3  
+VR C2 O2   SING N N 4  
+VR O2 P1   SING N N 5  
+VR P1 C1   SING N N 6  
+VR P1 O1   DOUB N N 7  
+VR P1 O3   SING N N 8  
+VR C4 H41C SING N N 9  
+VR C4 H42C SING N N 10 
+VR C4 H43C SING N N 11 
+VR C3 H3   SING N N 12 
+VR C5 H51C SING N N 13 
+VR C5 H52C SING N N 14 
+VR C5 H53C SING N N 15 
+VR C2 H21C SING N N 16 
+VR C2 H22C SING N N 17 
+VR C1 H11C SING N N 18 
+VR C1 H12C SING N N 19 
+VR C1 H13C SING N N 20 
+VR O3 H30  SING N N 21 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+VR SMILES           ACDLabs              10.04 "O=P(O)(OCC(C)C)C"                                           
+VR SMILES_CANONICAL CACTVS               3.352 "CC(C)CO[P](C)(O)=O"                                         
+VR SMILES           CACTVS               3.352 "CC(C)CO[P](C)(O)=O"                                         
+VR SMILES_CANONICAL "OpenEye OEToolkits" 1.6.1 "CC(C)CO[P@@](=O)(C)O"                                       
+VR SMILES           "OpenEye OEToolkits" 1.6.1 "CC(C)COP(=O)(C)O"                                           
+VR InChI            InChI                1.03  "InChI=1S/C5H13O3P/c1-5(2)4-8-9(3,6)7/h5H,4H2,1-3H3,(H,6,7)" 
+VR InChIKey         InChI                1.03  ZNGLGLXWTVMUCL-UHFFFAOYSA-N                                  
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+VR "SYSTEMATIC NAME" ACDLabs              10.04 "2-methylpropyl hydrogen (R)-methylphosphonate" 
+VR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1 "methyl-(2-methylpropoxy)phosphinic acid"       
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+VR "Create component"  2010-09-02 EBI  
+VR "Modify descriptor" 2011-06-04 RCSB 
+# 
 
-#
-loop_
-_chem_comp_atom.comp_id                        
-_chem_comp_atom.atom_id                        
-_chem_comp_atom.alt_atom_id                    
-_chem_comp_atom.type_symbol                    
-_chem_comp_atom.charge                         
-_chem_comp_atom.pdbx_align                     
-_chem_comp_atom.pdbx_aromatic_flag             
-_chem_comp_atom.pdbx_leaving_atom_flag         
-_chem_comp_atom.pdbx_stereo_config             
-_chem_comp_atom.model_Cartn_x                  
-_chem_comp_atom.model_Cartn_y                  
-_chem_comp_atom.model_Cartn_z                  
-_chem_comp_atom.pdbx_model_Cartn_x_ideal       
-_chem_comp_atom.pdbx_model_Cartn_y_ideal       
-_chem_comp_atom.pdbx_model_Cartn_z_ideal       
-_chem_comp_atom.pdbx_component_atom_id         
-_chem_comp_atom.pdbx_component_comp_id         
-_chem_comp_atom.pdbx_ordinal                   
-VR   C4   C4 C 0 1 N N N -13.639 -39.426 -20.349  3.609 -0.864 -0.004   C4 VR  1
-VR   C3   C3 C 0 1 N N N -14.308 -39.691 -21.701  2.452  0.051  0.402   C3 VR  2
-VR   C5   C5 C 0 1 N N N -13.489 -40.608 -22.510  2.667  1.442 -0.198   C5 VR  3
-VR   C2   C2 C 0 1 N N N -14.327 -38.394 -22.487  1.136 -0.530 -0.116   C2 VR  4
-VR   O2   O2 O 0 1 N N N -15.379 -37.706 -21.934  0.045  0.260  0.361   O2 VR  5
-VR   P1   P1 P 0 1 N N R -16.364 -36.933 -22.869 -1.492 -0.064  0.009   P1 VR  6
-VR   C1   C1 C 0 1 N N N -17.963 -37.813 -22.658 -2.579  1.080  0.923   C1 VR  7
-VR   O1   O1 O 0 1 N N N -16.189 -36.701 -24.319 -1.805 -1.457  0.398   O1 VR  8
-VR   O3   O3 O 0 1 N Y N -16.632 -35.548 -21.969 -1.731  0.118 -1.572   O3 VR  9
-VR H41C H41C H 0 0 N N N -12.549 -39.362 -20.485  4.547 -0.449  0.365 H41C VR 10
-VR H42C H42C H 0 0 N N N -14.013 -38.478 -19.935  3.457 -1.855  0.424 H42C VR 11
-VR H43C H43C H 0 0 N N N -13.875 -40.247 -19.656  3.648 -0.939 -1.091 H43C VR 12
-VR   H3   H3 H 0 1 N N N -15.310 -40.105 -21.512  2.413  0.127  1.489   H3 VR 13
-VR H51C H51C H 0 0 N N N -13.285 -40.151 -23.489  1.843  2.094  0.091 H51C VR 14
-VR H52C H52C H 0 0 N N N -12.539 -40.805 -21.992  3.605  1.857  0.171 H52C VR 15
-VR H53C H53C H 0 0 N N N -14.032 -41.554 -22.653  2.706  1.367 -1.285 H53C VR 16
-VR H21C H21C H 0 0 N N N -13.381 -37.842 -22.380  1.140 -0.524 -1.206 H21C VR 17
-VR H22C H22C H 0 0 N N N -14.440 -38.551 -23.570  1.026 -1.555  0.240 H22C VR 18
-VR H11C H11C H 0 0 N N N -18.147 -37.989 -21.588 -2.349  2.106  0.637 H11C VR 19
-VR H12C H12C H 0 0 N N N -18.776 -37.200 -23.074 -3.620  0.860  0.685 H12C VR 20
-VR H13C H13C H 0 0 N N N -17.923 -38.777 -23.186 -2.417  0.956  1.994 H13C VR 21
-VR  H30  H30 H 0 1 N N N -16.683 -35.773 -21.048 -1.545  1.010 -1.898  H30 VR 22
-#
-loop_
-_chem_comp_bond.comp_id                  
-_chem_comp_bond.atom_id_1                
-_chem_comp_bond.atom_id_2                
-_chem_comp_bond.value_order              
-_chem_comp_bond.pdbx_aromatic_flag       
-_chem_comp_bond.pdbx_stereo_config       
-_chem_comp_bond.pdbx_ordinal             
-VR C4   C3 SING N N  1
-VR C3   C5 SING N N  2
-VR C3   C2 SING N N  3
-VR C2   O2 SING N N  4
-VR O2   P1 SING N N  5
-VR P1   C1 SING N N  6
-VR P1   O1 DOUB N N  7
-VR P1   O3 SING N N  8
-VR C4 H41C SING N N  9
-VR C4 H42C SING N N 10
-VR C4 H43C SING N N 11
-VR C3   H3 SING N N 12
-VR C5 H51C SING N N 13
-VR C5 H52C SING N N 14
-VR C5 H53C SING N N 15
-VR C2 H21C SING N N 16
-VR C2 H22C SING N N 17
-VR C1 H11C SING N N 18
-VR C1 H12C SING N N 19
-VR C1 H13C SING N N 20
-VR O3  H30 SING N N 21
-#
-loop_
-_pdbx_chem_comp_descriptor.comp_id               
-_pdbx_chem_comp_descriptor.type                  
-_pdbx_chem_comp_descriptor.program               
-_pdbx_chem_comp_descriptor.program_version       
-_pdbx_chem_comp_descriptor.descriptor            
-VR           SMILES              ACDLabs 10.04                                           O=P(O)(OCC(C)C)C
-VR SMILES_CANONICAL               CACTVS 3.352                                         CC(C)CO[P](C)(O)=O
-VR           SMILES               CACTVS 3.352                                         CC(C)CO[P](C)(O)=O
-VR SMILES_CANONICAL "OpenEye OEToolkits" 1.6.1                                       CC(C)CO[P@@](=O)(C)O
-VR           SMILES "OpenEye OEToolkits" 1.6.1                                           CC(C)COP(=O)(C)O
-VR            InChI                InChI  1.03 InChI=1S/C5H13O3P/c1-5(2)4-8-9(3,6)7/h5H,4H2,1-3H3,(H,6,7)
-VR         InChIKey                InChI  1.03                                ZNGLGLXWTVMUCL-UHFFFAOYSA-N
-#
-loop_
-_pdbx_chem_comp_identifier.comp_id               
-_pdbx_chem_comp_identifier.type                  
-_pdbx_chem_comp_identifier.program               
-_pdbx_chem_comp_identifier.program_version       
-_pdbx_chem_comp_identifier.identifier            
-VR "SYSTEMATIC NAME"              ACDLabs 10.04 "2-methylpropyl hydrogen (R)-methylphosphonate"
-VR "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.6.1       "methyl-(2-methylpropoxy)phosphinic acid"
-#
-loop_
-_pdbx_chem_comp_audit.comp_id               
-_pdbx_chem_comp_audit.action_type           
-_pdbx_chem_comp_audit.date                  
-_pdbx_chem_comp_audit.processing_site       
-VR  "Create component" 2010-09-02  EBI
-VR "Modify descriptor" 2011-06-04 RCSB
-#
-loop_
-_software.name              
-_software.version           
-_software.description       
-       rdkit 2019.03.2                                      "Core functionality."
-pdbeccdutils     0.5.2 "Wrapper to provide 2D templates and molecular fragments."
-#
-loop_
-_pdbe_chem_comp_atom_depiction.comp_id             
-_pdbe_chem_comp_atom_depiction.atom_id             
-_pdbe_chem_comp_atom_depiction.element             
-_pdbe_chem_comp_atom_depiction.model_Cartn_x       
-_pdbe_chem_comp_atom_depiction.model_Cartn_y       
-_pdbe_chem_comp_atom_depiction.pdbx_ordinal        
-VR C4 C 10.301 -0.475 1
-VR C3 C  9.002  0.275 2
-VR C5 C  9.002  1.774 3
-VR C2 C  7.702 -0.475 4
-VR O2 O  6.404  0.275 5
-VR P1 P  5.104 -0.475 6
-VR C1 C  3.805 -1.226 7
-VR O1 O  5.854 -1.774 8
-VR O3 O  4.354  0.824 9
-#
-loop_
-_pdbe_chem_comp_bond_depiction.comp_id            
-_pdbe_chem_comp_bond_depiction.atom_id_1          
-_pdbe_chem_comp_bond_depiction.atom_id_2          
-_pdbe_chem_comp_bond_depiction.value_order        
-_pdbe_chem_comp_bond_depiction.bond_dir           
-_pdbe_chem_comp_bond_depiction.pdbx_ordinal       
-VR C4 C3 SINGLE      NONE 1
-VR C3 C5 SINGLE      NONE 2
-VR C3 C2 SINGLE      NONE 3
-VR C2 O2 SINGLE      NONE 4
-VR O2 P1 SINGLE      NONE 5
-VR P1 C1 SINGLE BEGINDASH 6
-VR P1 O1 DOUBLE      NONE 7
-VR P1 O3 SINGLE      NONE 8
-#
-_pdbe_chem_comp_rdkit_properties.comp_id                               VR
-_pdbe_chem_comp_rdkit_properties.exactmw                               152.060
-_pdbe_chem_comp_rdkit_properties.lipinskiHBA                           3
-_pdbe_chem_comp_rdkit_properties.lipinskiHBD                           1
-_pdbe_chem_comp_rdkit_properties.NumRotatableBonds                     7
-_pdbe_chem_comp_rdkit_properties.NumHBD                                1
-_pdbe_chem_comp_rdkit_properties.NumHBA                                3
-_pdbe_chem_comp_rdkit_properties.NumHeteroatoms                        4
-_pdbe_chem_comp_rdkit_properties.NumAmideBonds                         0
-_pdbe_chem_comp_rdkit_properties.FractionCSP3                          1
-_pdbe_chem_comp_rdkit_properties.NumRings                              0
-_pdbe_chem_comp_rdkit_properties.NumAromaticRings                      0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticRings                     0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedRings                     0
-_pdbe_chem_comp_rdkit_properties.NumHeterocycles                       0
-_pdbe_chem_comp_rdkit_properties.NumAromaticHeterocycles               0
-_pdbe_chem_comp_rdkit_properties.NumSaturatedHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumAliphaticHeterocycles              0
-_pdbe_chem_comp_rdkit_properties.NumSpiroAtoms                         0
-_pdbe_chem_comp_rdkit_properties.NumBridgeheadAtoms                    0
-_pdbe_chem_comp_rdkit_properties.NumAtomStereoCenters                  0
-_pdbe_chem_comp_rdkit_properties.NumUnspecifiedAtomStereoCenters       0
-_pdbe_chem_comp_rdkit_properties.labuteASA                             73.921
-_pdbe_chem_comp_rdkit_properties.tpsa                                  46.530
-_pdbe_chem_comp_rdkit_properties.CrippenClogP                          1.474
-_pdbe_chem_comp_rdkit_properties.CrippenMR                             36.539
-_pdbe_chem_comp_rdkit_properties.NumHeavyAtoms                         9
-
-#
-loop_
-_pdbe_chem_comp_external_mappings.comp_id           
-_pdbe_chem_comp_external_mappings.source            
-_pdbe_chem_comp_external_mappings.resource          
-_pdbe_chem_comp_external_mappings.resource_id       
-VR UniChem ChEMBL    CHEMBL1615274
-VR UniChem   ZINC ZINC000034742777
-VR UniChem      P         15764431
-VR UniChem BRENDA           166496
-VR UniChem BRENDA           166497
-VR UniChem BRENDA            37123
-#
-loop_
-_pdbe_chem_comp_rdkit_conformer.comp_id             
-_pdbe_chem_comp_rdkit_conformer.atom_id             
-_pdbe_chem_comp_rdkit_conformer.Cartn_x_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_y_rdkit       
-_pdbe_chem_comp_rdkit_conformer.Cartn_z_rdkit       
-_pdbe_chem_comp_rdkit_conformer.rdkit_method        
-_pdbe_chem_comp_rdkit_conformer.rdkit_ordinal       
-VR   C4 -1.885  1.362  0.599 ETKDGv2  1
-VR   C3 -1.745 -0.163  0.503 ETKDGv2  2
-VR   C5 -2.444 -0.694 -0.755 ETKDGv2  3
-VR   C2 -0.269 -0.591  0.544 ETKDGv2  4
-VR   O2  0.424 -0.053 -0.560 ETKDGv2  5
-VR   P1  2.061 -0.529 -0.477 ETKDGv2  6
-VR   C1  2.907  0.293  0.906 ETKDGv2  7
-VR   O1  2.173 -2.029 -0.318 ETKDGv2  8
-VR   O3  2.827 -0.078 -1.916 ETKDGv2  9
-VR H41C -1.396  1.734  1.524 ETKDGv2 10
-VR H42C -2.959  1.644  0.637 ETKDGv2 11
-VR H43C -1.418  1.858 -0.279 ETKDGv2 12
-VR   H3 -2.253 -0.607  1.387 ETKDGv2 13
-VR H51C -3.524 -0.434 -0.731 ETKDGv2 14
-VR H52C -2.357 -1.801 -0.803 ETKDGv2 15
-VR H53C -1.993 -0.259 -1.673 ETKDGv2 16
-VR H21C -0.229 -1.704  0.532 ETKDGv2 17
-VR H22C  0.169 -0.230  1.502 ETKDGv2 18
-VR H11C  2.746  1.389  0.838 ETKDGv2 19
-VR H12C  2.510 -0.081  1.872 ETKDGv2 20
-VR H13C  3.993  0.077  0.854 ETKDGv2 21
-VR  H30  2.663  0.896 -1.994 ETKDGv2 22
-#

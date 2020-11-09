@@ -1,127 +1,144 @@
 data_DGO
-# 
-_chem_comp.id                                    DGO 
-_chem_comp.name                                  D-glucal 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C6 H10 O4" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2016-01-14 
-_chem_comp.pdbx_modified_date                    2016-07-22 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        146.141 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     DGO 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        5HJO 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   DGO
+_chem_comp.name                                 D-glucal
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C6 H10 O4"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2016-01-14
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       146.141
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    DGO
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       5HJO
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-DGO C1  C1  C 0 1 N N N -15.430 -47.993 -52.195 -0.439 -2.000 0.066  C1  DGO 1  
-DGO C2  C2  C 0 1 N N R -16.037 -46.541 -54.054 0.835  -0.012 -0.238 C2  DGO 2  
-DGO C3  C3  C 0 1 N N S -14.927 -47.231 -54.846 -0.400 0.758  0.250  C3  DGO 3  
-DGO C5  C4  C 0 1 N N N -17.268 -46.222 -54.872 2.103  0.640  0.316  C5  DGO 4  
-DGO C4  C5  C 0 1 N N R -13.766 -47.772 -53.987 -1.642 0.108  -0.373 C4  DGO 5  
-DGO O3  O1  O 0 1 N N N -17.762 -47.357 -55.573 3.251  -0.027 -0.212 O3  DGO 6  
-DGO O   O2  O 0 1 N N N -16.389 -47.295 -52.872 0.738  -1.359 0.236  O   DGO 7  
-DGO O2  O3  O 0 1 N N N -14.435 -46.218 -55.711 -0.313 2.122  -0.166 O2  DGO 8  
-DGO O1  O4  O 0 1 N N N -13.225 -48.940 -54.618 -2.814 0.590  0.287  O1  DGO 9  
-DGO C   C6  C 0 1 N N N -14.202 -48.195 -52.614 -1.558 -1.386 -0.212 C   DGO 10 
-DGO H1  H1  H 0 1 N N N -15.704 -48.413 -51.238 -0.454 -3.076 0.160  H1  DGO 11 
-DGO H2  H2  H 0 1 N N N -15.626 -45.578 -53.718 0.865  -0.007 -1.327 H2  DGO 12 
-DGO H3  H3  H 0 1 N N N -15.359 -48.060 -55.426 -0.460 0.707  1.337  H3  DGO 13 
-DGO H4  H4  H 0 1 N N N -17.014 -45.439 -55.602 2.128  1.691  0.026  H4  DGO 14 
-DGO H5  H5  H 0 1 N N N -18.055 -45.853 -54.197 2.106  0.563  1.403  H5  DGO 15 
-DGO H6  H6  H 0 1 N N N -12.995 -46.992 -53.901 -1.691 0.359  -1.432 H6  DGO 16 
-DGO H7  H7  H 0 1 N N N -18.533 -47.111 -56.071 4.093  0.335  0.097  H7  DGO 17 
-DGO H8  H8  H 0 1 N N N -13.733 -46.570 -56.245 -1.063 2.667  0.110  H8  DGO 18 
-DGO H9  H9  H 0 1 N N N -12.509 -49.280 -54.095 -3.639 0.220  -0.056 H9  DGO 19 
-DGO H10 H10 H 0 1 N N N -13.491 -48.675 -51.958 -2.457 -1.973 -0.331 H10 DGO 20 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+DGO  C1   C1   C  0  1  N  N  N  -15.430  -47.993  -52.195  -0.439  -2.000   0.066  C1   DGO   1  
+DGO  C5   C2   C  0  1  N  N  R  -16.037  -46.541  -54.054   0.835  -0.012  -0.238  C5   DGO   2  
+DGO  C4   C3   C  0  1  N  N  S  -14.927  -47.231  -54.846  -0.400   0.758   0.250  C4   DGO   3  
+DGO  C6   C5   C  0  1  N  N  N  -17.268  -46.222  -54.872   2.103   0.640   0.316  C6   DGO   4  
+DGO  C3   C4   C  0  1  N  N  R  -13.766  -47.772  -53.987  -1.642   0.108  -0.373  C3   DGO   5  
+DGO  O6   O3   O  0  1  N  N  N  -17.762  -47.357  -55.573   3.251  -0.027  -0.212  O6   DGO   6  
+DGO  O5   O    O  0  1  N  N  N  -16.389  -47.295  -52.872   0.738  -1.359   0.236  O5   DGO   7  
+DGO  O4   O2   O  0  1  N  N  N  -14.435  -46.218  -55.711  -0.313   2.122  -0.166  O4   DGO   8  
+DGO  O3   O1   O  0  1  N  N  N  -13.225  -48.940  -54.618  -2.814   0.590   0.287  O3   DGO   9  
+DGO  C2   C    C  0  1  N  N  N  -14.202  -48.195  -52.614  -1.558  -1.386  -0.212  C2   DGO  10  
+DGO  H1   H1   H  0  1  N  N  N  -15.704  -48.413  -51.238  -0.454  -3.076   0.160  H1   DGO  11  
+DGO  H5   H2   H  0  1  N  N  N  -15.626  -45.578  -53.718   0.865  -0.007  -1.327  H5   DGO  12  
+DGO  H4   H3   H  0  1  N  N  N  -15.359  -48.060  -55.426  -0.460   0.707   1.337  H4   DGO  13  
+DGO  C61  H4   H  0  1  N  N  N  -17.014  -45.439  -55.602   2.128   1.691   0.026  C61  DGO  14  
+DGO  C62  H5   H  0  1  N  N  N  -18.055  -45.853  -54.197   2.106   0.563   1.403  C62  DGO  15  
+DGO  H3   H6   H  0  1  N  N  N  -12.995  -46.992  -53.901  -1.691   0.359  -1.432  H3   DGO  16  
+DGO  HO6  H7   H  0  1  N  N  N  -18.533  -47.111  -56.071   4.093   0.335   0.097  HO6  DGO  17  
+DGO  HO4  H8   H  0  1  N  N  N  -13.733  -46.570  -56.245  -1.063   2.667   0.110  HO4  DGO  18  
+DGO  HO3  H9   H  0  1  N  N  N  -12.509  -49.280  -54.095  -3.639   0.220  -0.056  HO3  DGO  19  
+DGO  H2   H10  H  0  1  N  N  N  -13.491  -48.675  -51.958  -2.457  -1.973  -0.331  H2   DGO  20  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-DGO O2 C3  SING N N 1  
-DGO O3 C5  SING N N 2  
-DGO C5 C2  SING N N 3  
-DGO C3 C2  SING N N 4  
-DGO C3 C4  SING N N 5  
-DGO O1 C4  SING N N 6  
-DGO C2 O   SING N N 7  
-DGO C4 C   SING N N 8  
-DGO O  C1  SING N N 9  
-DGO C  C1  DOUB N N 10 
-DGO C1 H1  SING N N 11 
-DGO C2 H2  SING N N 12 
-DGO C3 H3  SING N N 13 
-DGO C5 H4  SING N N 14 
-DGO C5 H5  SING N N 15 
-DGO C4 H6  SING N N 16 
-DGO O3 H7  SING N N 17 
-DGO O2 H8  SING N N 18 
-DGO O1 H9  SING N N 19 
-DGO C  H10 SING N N 20 
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+DGO  O4  C4   SING  N  N   1  
+DGO  O6  C6   SING  N  N   2  
+DGO  C6  C5   SING  N  N   3  
+DGO  C4  C5   SING  N  N   4  
+DGO  C4  C3   SING  N  N   5  
+DGO  O3  C3   SING  N  N   6  
+DGO  C5  O5   SING  N  N   7  
+DGO  C3  C2   SING  N  N   8  
+DGO  O5  C1   SING  N  N   9  
+DGO  C2  C1   DOUB  N  N  10  
+DGO  C1  H1   SING  N  N  11  
+DGO  C5  H5   SING  N  N  12  
+DGO  C4  H4   SING  N  N  13  
+DGO  C6  C61  SING  N  N  14  
+DGO  C6  C62  SING  N  N  15  
+DGO  C3  H3   SING  N  N  16  
+DGO  O6  HO6  SING  N  N  17  
+DGO  O4  HO4  SING  N  N  18  
+DGO  O3  HO3  SING  N  N  19  
+DGO  C2  H2   SING  N  N  20  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-DGO SMILES           ACDLabs              12.01 "C=1OC(C(C(C=1)O)O)CO"                                                   
-DGO InChI            InChI                1.03  "InChI=1S/C6H10O4/c7-3-5-6(9)4(8)1-2-10-5/h1-2,4-9H,3H2/t4-,5-,6+/m1/s1" 
-DGO InChIKey         InChI                1.03  YVECGMZCTULTIS-PBXRRBTRSA-N                                              
-DGO SMILES_CANONICAL CACTVS               3.385 "OC[C@H]1OC=C[C@@H](O)[C@@H]1O"                                          
-DGO SMILES           CACTVS               3.385 "OC[CH]1OC=C[CH](O)[CH]1O"                                               
-DGO SMILES_CANONICAL "OpenEye OEToolkits" 2.0.4 "C1=CO[C@@H]([C@H]([C@@H]1O)O)CO"                                        
-DGO SMILES           "OpenEye OEToolkits" 2.0.4 "C1=COC(C(C1O)O)CO"                                                      
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+DGO  SMILES            ACDLabs               12.01  "C=1OC(C(C(C=1)O)O)CO"  
+DGO  InChI             InChI                 1.03   "InChI=1S/C6H10O4/c7-3-5-6(9)4(8)1-2-10-5/h1-2,4-9H,3H2/t4-,5-,6+/m1/s1"  
+DGO  InChIKey          InChI                 1.03   YVECGMZCTULTIS-PBXRRBTRSA-N  
+DGO  SMILES_CANONICAL  CACTVS                3.385  "OC[C@H]1OC=C[C@@H](O)[C@@H]1O"  
+DGO  SMILES            CACTVS                3.385  "OC[CH]1OC=C[CH](O)[CH]1O"  
+DGO  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.4  "C1=CO[C@@H]([C@H]([C@@H]1O)O)CO"  
+DGO  SMILES            "OpenEye OEToolkits"  2.0.4  "C1=COC(C(C1O)O)CO"  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-DGO "SYSTEMATIC NAME" ACDLabs              12.01 1,5-anhydro-2-deoxy-D-arabino-hex-1-enitol                               
-DGO "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.4 "(2~{R},3~{S},4~{R})-2-(hydroxymethyl)-3,4-dihydro-2~{H}-pyran-3,4-diol" 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+DGO  "SYSTEMATIC NAME"  ACDLabs               12.01  "1,5-anhydro-2-deoxy-D-arabino-hex-1-enitol"  
+DGO  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.4  "(2~{R},3~{S},4~{R})-2-(hydroxymethyl)-3,4-dihydro-2~{H}-pyran-3,4-diol"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-DGO "Create component" 2016-01-14 EBI  
-DGO "Initial release"  2016-07-27 RCSB 
-# 
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+DGO  "CARBOHYDRATE ISOMER"                  D             PDB  ?  
+DGO  "CARBOHYDRATE RING"                    dihydropyran  PDB  ?  
+DGO  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose        PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+DGO  "Create component"          2016-01-14  EBI   
+DGO  "Initial release"           2016-07-27  RCSB  
+DGO  "Other modification"        2020-07-03  RCSB  
+DGO  "Modify internal type"      2020-07-17  RCSB  
+DGO  "Modify linking type"       2020-07-17  RCSB  
+DGO  "Modify atom id"            2020-07-17  RCSB  
+DGO  "Modify component atom id"  2020-07-17  RCSB  
+##
+

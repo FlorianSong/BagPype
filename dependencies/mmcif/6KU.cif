@@ -1,174 +1,208 @@
 data_6KU
-# 
-_chem_comp.id                                    6KU 
-_chem_comp.name                                  4-Deoxy-Heptylmannoside 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C13 H26 O5" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2016-05-27 
-_chem_comp.pdbx_modified_date                    2017-06-16 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        262.343 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     6KU 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        5L4X 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   6KU
+_chem_comp.name                                 "heptyl 4-deoxy-4-deoxy-alpha-D-mannopyranoside"
+_chem_comp.type                                 D-saccharide
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C13 H26 O5"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        
+;4-Deoxy-Heptylmannoside; heptyl 4-deoxy-4-deoxy-alpha-D-mannoside; heptyl 4-deoxy-4-deoxy-D-mannoside; heptyl
+4-deoxy-4-deoxy-mannoside
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2016-05-27
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       262.343
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    6KU
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       5L4X
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-6KU C4  C1  C 0 1 N N N -20.706 -6.830 -11.005 -3.497 -0.498 1.000  C4  6KU 1  
-6KU C5  C2  C 0 1 N N S -21.000 -5.683 -11.965 -2.298 -1.228 0.388  C5  6KU 2  
-6KU C6  C3  C 0 1 N N N -22.202 -4.881 -11.462 -2.586 -2.730 0.340  C6  6KU 3  
-6KU C3  C4  C 0 1 N N S -19.523 -7.599 -11.538 -3.228 1.010  0.991  C3  6KU 4  
-6KU CAR C5  C 0 1 N N N -21.952 -4.523 -21.831 8.018  -0.238 0.112  CAR 6KU 5  
-6KU CAQ C6  C 0 1 N N N -21.530 -5.488 -20.723 6.729  0.322  0.717  CAQ 6KU 6  
-6KU CAP C7  C 0 1 N N N -20.941 -4.686 -19.559 5.547  -0.025 -0.191 CAP 6KU 7  
-6KU CAO C8  C 0 1 N N N -20.552 -5.649 -18.428 4.258  0.534  0.414  CAO 6KU 8  
-6KU CAN C9  C 0 1 N N N -20.035 -4.855 -17.220 3.076  0.187  -0.493 CAN 6KU 9  
-6KU CAM C10 C 0 1 N N N -19.682 -5.841 -16.111 1.787  0.747  0.112  CAM 6KU 10 
-6KU CAL C11 C 0 1 N N N -19.238 -5.089 -14.844 0.605  0.400  -0.796 CAL 6KU 11 
-6KU O1  O1  O 0 1 N N N -18.945 -6.070 -13.850 -0.599 0.922  -0.231 O1  6KU 12 
-6KU C1  C12 C 0 1 N N S -18.687 -5.504 -12.558 -1.770 0.652  -1.005 C1  6KU 13 
-6KU O5  O2  O 0 1 N N N -19.854 -4.798 -12.074 -2.074 -0.743 -0.937 O5  6KU 14 
-6KU O6  O3  O 0 1 N N N -21.899 -4.292 -10.177 -1.424 -3.422 -0.123 O6  6KU 15 
-6KU O3  O4  O 0 1 N N N -19.202 -8.685 -10.674 -4.372 1.703  1.494  O3  6KU 16 
-6KU C2  C13 C 0 1 N N S -18.350 -6.630 -11.614 -2.948 1.459  -0.447 C2  6KU 17 
-6KU O2  O5  O 0 1 N N N -18.079 -6.119 -10.303 -4.107 1.230  -1.251 O2  6KU 18 
-6KU H41 H1  H 0 1 N N N -20.471 -6.430 -10.008 -4.391 -0.712 0.415  H41 6KU 19 
-6KU H42 H2  H 0 1 N N N -21.581 -7.493 -10.938 -3.643 -0.836 2.026  H42 6KU 20 
-6KU H5  H3  H 0 1 N N N -21.243 -6.101 -12.953 -1.413 -1.046 0.997  H5  6KU 21 
-6KU H62 H4  H 0 1 N N N -22.435 -4.083 -12.183 -2.845 -3.082 1.338  H62 6KU 22 
-6KU H61 H5  H 0 1 N N N -23.070 -5.549 -11.361 -3.416 -2.919 -0.340 H61 6KU 23 
-6KU H31 H6  H 0 1 N N N -19.753 -7.966 -12.549 -2.363 1.230  1.618  H31 6KU 24 
-6KU HAR H7  H 0 1 N N N -22.376 -5.092 -22.671 8.176  0.199  -0.874 HAR 6KU 25 
-6KU HAS H8  H 0 1 N N N -22.708 -3.826 -21.441 8.860  0.010  0.758  HAS 6KU 26 
-6KU HAT H9  H 0 1 N N N -21.075 -3.957 -22.178 7.936  -1.321 0.020  HAT 6KU 27 
-6KU HAQ H10 H 0 1 N N N -22.406 -6.054 -20.374 6.570  -0.115 1.702  HAQ 6KU 28 
-6KU HAU H11 H 0 1 N N N -20.773 -6.186 -21.110 6.811  1.405  0.808  HAU 6KU 29 
-6KU HAV H12 H 0 1 N N N -20.049 -4.141 -19.902 5.705  0.412  -1.177 HAV 6KU 30 
-6KU HAP H13 H 0 1 N N N -21.689 -3.969 -19.190 5.465  -1.108 -0.282 HAP 6KU 31 
-6KU HAO H14 H 0 1 N N N -21.433 -6.235 -18.129 4.100  0.097  1.400  HAO 6KU 32 
-6KU HAW H15 H 0 1 N N N -19.763 -6.328 -18.783 4.340  1.617  0.506  HAW 6KU 33 
-6KU HAX H16 H 0 1 N N N -19.140 -4.283 -17.507 3.234  0.624  -1.479 HAX 6KU 34 
-6KU HAN H17 H 0 1 N N N -20.815 -4.164 -16.868 2.994  -0.896 -0.585 HAN 6KU 35 
-6KU HAM H18 H 0 1 N N N -20.565 -6.455 -15.877 1.629  0.310  1.097  HAM 6KU 36 
-6KU HAY H19 H 0 1 N N N -18.863 -6.491 -16.452 1.869  1.830  0.203  HAY 6KU 37 
-6KU HAZ H20 H 0 1 N N N -18.341 -4.489 -15.057 0.763  0.837  -1.782 HAZ 6KU 38 
-6KU HAL H21 H 0 1 N N N -20.046 -4.429 -14.495 0.523  -0.683 -0.887 HAL 6KU 39 
-6KU H1  H22 H 0 1 N N N -17.831 -4.815 -12.613 -1.593 0.936  -2.042 H1  6KU 40 
-6KU H63 H23 H 0 1 N N N -22.649 -3.796 -9.871  -1.534 -4.381 -0.178 H63 6KU 41 
-6KU H32 H24 H 0 1 N N N -19.938 -9.285 -10.632 -4.611 1.462  2.400  H32 6KU 42 
-6KU H21 H25 H 0 1 N N N -17.471 -7.168 -11.998 -2.700 2.520  -0.456 H21 6KU 43 
-6KU H22 H26 H 0 1 N N N -17.868 -6.838 -9.719  -3.999 1.487  -2.178 H22 6KU 44 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  6KU  4-Deoxy-Heptylmannoside                     PDB  ?  
+2  6KU  "heptyl 4-deoxy-4-deoxy-alpha-D-mannoside"  PDB  ?  
+3  6KU  "heptyl 4-deoxy-4-deoxy-D-mannoside"        PDB  ?  
+4  6KU  "heptyl 4-deoxy-4-deoxy-mannoside"          PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-6KU CAR CAQ SING N N 1  
-6KU CAQ CAP SING N N 2  
-6KU CAP CAO SING N N 3  
-6KU CAO CAN SING N N 4  
-6KU CAN CAM SING N N 5  
-6KU CAM CAL SING N N 6  
-6KU CAL O1  SING N N 7  
-6KU O1  C1  SING N N 8  
-6KU C1  O5  SING N N 9  
-6KU C1  C2  SING N N 10 
-6KU O5  C5  SING N N 11 
-6KU C5  C6  SING N N 12 
-6KU C5  C4  SING N N 13 
-6KU C2  C3  SING N N 14 
-6KU C2  O2  SING N N 15 
-6KU C3  C4  SING N N 16 
-6KU C3  O3  SING N N 17 
-6KU C6  O6  SING N N 18 
-6KU C4  H41 SING N N 19 
-6KU C4  H42 SING N N 20 
-6KU C5  H5  SING N N 21 
-6KU C6  H62 SING N N 22 
-6KU C6  H61 SING N N 23 
-6KU C3  H31 SING N N 24 
-6KU CAR HAR SING N N 25 
-6KU CAR HAS SING N N 26 
-6KU CAR HAT SING N N 27 
-6KU CAQ HAQ SING N N 28 
-6KU CAQ HAU SING N N 29 
-6KU CAP HAV SING N N 30 
-6KU CAP HAP SING N N 31 
-6KU CAO HAO SING N N 32 
-6KU CAO HAW SING N N 33 
-6KU CAN HAX SING N N 34 
-6KU CAN HAN SING N N 35 
-6KU CAM HAM SING N N 36 
-6KU CAM HAY SING N N 37 
-6KU CAL HAZ SING N N 38 
-6KU CAL HAL SING N N 39 
-6KU C1  H1  SING N N 40 
-6KU O6  H63 SING N N 41 
-6KU O3  H32 SING N N 42 
-6KU C2  H21 SING N N 43 
-6KU O2  H22 SING N N 44 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+6KU  C4   C4   C  0  1  N  N  N  -20.706  -6.830  -11.005  -3.497  -0.498   1.000  C4   6KU   1  
+6KU  C5   C5   C  0  1  N  N  S  -21.000  -5.683  -11.965  -2.298  -1.228   0.388  C5   6KU   2  
+6KU  C6   C6   C  0  1  N  N  N  -22.202  -4.881  -11.462  -2.586  -2.730   0.340  C6   6KU   3  
+6KU  C3   C3   C  0  1  N  N  S  -19.523  -7.599  -11.538  -3.228   1.010   0.991  C3   6KU   4  
+6KU  CAR  CAR  C  0  1  N  N  N  -21.952  -4.523  -21.831   8.018  -0.238   0.112  CAR  6KU   5  
+6KU  CAQ  CAQ  C  0  1  N  N  N  -21.530  -5.488  -20.723   6.729   0.322   0.717  CAQ  6KU   6  
+6KU  CAP  CAP  C  0  1  N  N  N  -20.941  -4.686  -19.559   5.547  -0.025  -0.191  CAP  6KU   7  
+6KU  CAO  CAO  C  0  1  N  N  N  -20.552  -5.649  -18.428   4.258   0.534   0.414  CAO  6KU   8  
+6KU  CAN  CAN  C  0  1  N  N  N  -20.035  -4.855  -17.220   3.076   0.187  -0.493  CAN  6KU   9  
+6KU  CAM  CAM  C  0  1  N  N  N  -19.682  -5.841  -16.111   1.787   0.747   0.112  CAM  6KU  10  
+6KU  CAL  CAL  C  0  1  N  N  N  -19.238  -5.089  -14.844   0.605   0.400  -0.796  CAL  6KU  11  
+6KU  O1   O1   O  0  1  N  N  N  -18.945  -6.070  -13.850  -0.599   0.922  -0.231  O1   6KU  12  
+6KU  C1   C1   C  0  1  N  N  S  -18.687  -5.504  -12.558  -1.770   0.652  -1.005  C1   6KU  13  
+6KU  O5   O5   O  0  1  N  N  N  -19.854  -4.798  -12.074  -2.074  -0.743  -0.937  O5   6KU  14  
+6KU  O6   O6   O  0  1  N  N  N  -21.899  -4.292  -10.177  -1.424  -3.422  -0.123  O6   6KU  15  
+6KU  O3   O3   O  0  1  N  N  N  -19.202  -8.685  -10.674  -4.372   1.703   1.494  O3   6KU  16  
+6KU  C2   C2   C  0  1  N  N  S  -18.350  -6.630  -11.614  -2.948   1.459  -0.447  C2   6KU  17  
+6KU  O2   O2   O  0  1  N  N  N  -18.079  -6.119  -10.303  -4.107   1.230  -1.251  O2   6KU  18  
+6KU  H4   H41  H  0  1  N  N  N  -20.471  -6.430  -10.008  -4.391  -0.712   0.415  H4   6KU  19  
+6KU  H42  H42  H  0  1  N  N  N  -21.581  -7.493  -10.938  -3.643  -0.836   2.026  H42  6KU  20  
+6KU  H5   H5   H  0  1  N  N  N  -21.243  -6.101  -12.953  -1.413  -1.046   0.997  H5   6KU  21  
+6KU  H61  H62  H  0  1  N  N  N  -22.435  -4.083  -12.183  -2.845  -3.082   1.338  H61  6KU  22  
+6KU  H62  H61  H  0  1  N  N  N  -23.070  -5.549  -11.361  -3.416  -2.919  -0.340  H62  6KU  23  
+6KU  H3   H31  H  0  1  N  N  N  -19.753  -7.966  -12.549  -2.363   1.230   1.618  H3   6KU  24  
+6KU  HAR  HAR  H  0  1  N  N  N  -22.376  -5.092  -22.671   8.176   0.199  -0.874  HAR  6KU  25  
+6KU  HAS  HAS  H  0  1  N  N  N  -22.708  -3.826  -21.441   8.860   0.010   0.758  HAS  6KU  26  
+6KU  HAT  HAT  H  0  1  N  N  N  -21.075  -3.957  -22.178   7.936  -1.321   0.020  HAT  6KU  27  
+6KU  HAQ  HAQ  H  0  1  N  N  N  -22.406  -6.054  -20.374   6.570  -0.115   1.702  HAQ  6KU  28  
+6KU  HAU  HAU  H  0  1  N  N  N  -20.773  -6.186  -21.110   6.811   1.405   0.808  HAU  6KU  29  
+6KU  HAV  HAV  H  0  1  N  N  N  -20.049  -4.141  -19.902   5.705   0.412  -1.177  HAV  6KU  30  
+6KU  HAP  HAP  H  0  1  N  N  N  -21.689  -3.969  -19.190   5.465  -1.108  -0.282  HAP  6KU  31  
+6KU  HAO  HAO  H  0  1  N  N  N  -21.433  -6.235  -18.129   4.100   0.097   1.400  HAO  6KU  32  
+6KU  HAW  HAW  H  0  1  N  N  N  -19.763  -6.328  -18.783   4.340   1.617   0.506  HAW  6KU  33  
+6KU  HAX  HAX  H  0  1  N  N  N  -19.140  -4.283  -17.507   3.234   0.624  -1.479  HAX  6KU  34  
+6KU  HAN  HAN  H  0  1  N  N  N  -20.815  -4.164  -16.868   2.994  -0.896  -0.585  HAN  6KU  35  
+6KU  HAM  HAM  H  0  1  N  N  N  -20.565  -6.455  -15.877   1.629   0.310   1.097  HAM  6KU  36  
+6KU  HAY  HAY  H  0  1  N  N  N  -18.863  -6.491  -16.452   1.869   1.830   0.203  HAY  6KU  37  
+6KU  HAZ  HAZ  H  0  1  N  N  N  -18.341  -4.489  -15.057   0.763   0.837  -1.782  HAZ  6KU  38  
+6KU  HAL  HAL  H  0  1  N  N  N  -20.046  -4.429  -14.495   0.523  -0.683  -0.887  HAL  6KU  39  
+6KU  H1   H1   H  0  1  N  N  N  -17.831  -4.815  -12.613  -1.593   0.936  -2.042  H1   6KU  40  
+6KU  HO6  H63  H  0  1  N  Y  N  -22.649  -3.796   -9.871  -1.534  -4.381  -0.178  HO6  6KU  41  
+6KU  HO3  H32  H  0  1  N  Y  N  -19.938  -9.285  -10.632  -4.611   1.462   2.400  HO3  6KU  42  
+6KU  H2   H21  H  0  1  N  N  N  -17.471  -7.168  -11.998  -2.700   2.520  -0.456  H2   6KU  43  
+6KU  HO2  H22  H  0  1  N  Y  N  -17.868  -6.838   -9.719  -3.999   1.487  -2.178  HO2  6KU  44  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-6KU InChI            InChI                1.03  "InChI=1S/C13H26O5/c1-2-3-4-5-6-7-17-13-12(16)11(15)8-10(9-14)18-13/h10-16H,2-9H2,1H3/t10-,11-,12-,13-/m0/s1" 
-6KU InChIKey         InChI                1.03  JEMWDTFNPZXRJX-CYDGBPFRSA-N                                                                                   
-6KU SMILES_CANONICAL CACTVS               3.385 "CCCCCCCO[C@H]1O[C@H](CO)C[C@H](O)[C@@H]1O"                                                                   
-6KU SMILES           CACTVS               3.385 "CCCCCCCO[CH]1O[CH](CO)C[CH](O)[CH]1O"                                                                        
-6KU SMILES_CANONICAL "OpenEye OEToolkits" 2.0.5 "CCCCCCCO[C@@H]1[C@H]([C@H](C[C@H](O1)CO)O)O"                                                                 
-6KU SMILES           "OpenEye OEToolkits" 2.0.5 "CCCCCCCOC1C(C(CC(O1)CO)O)O"                                                                                  
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+6KU  CAR  CAQ  SING  N  N   1  
+6KU  CAQ  CAP  SING  N  N   2  
+6KU  CAP  CAO  SING  N  N   3  
+6KU  CAO  CAN  SING  N  N   4  
+6KU  CAN  CAM  SING  N  N   5  
+6KU  CAM  CAL  SING  N  N   6  
+6KU  CAL  O1   SING  N  N   7  
+6KU  O1   C1   SING  N  N   8  
+6KU  C1   O5   SING  N  N   9  
+6KU  C1   C2   SING  N  N  10  
+6KU  O5   C5   SING  N  N  11  
+6KU  C5   C6   SING  N  N  12  
+6KU  C5   C4   SING  N  N  13  
+6KU  C2   C3   SING  N  N  14  
+6KU  C2   O2   SING  N  N  15  
+6KU  C3   C4   SING  N  N  16  
+6KU  C3   O3   SING  N  N  17  
+6KU  C6   O6   SING  N  N  18  
+6KU  C4   H4   SING  N  N  19  
+6KU  C4   H42  SING  N  N  20  
+6KU  C5   H5   SING  N  N  21  
+6KU  C6   H61  SING  N  N  22  
+6KU  C6   H62  SING  N  N  23  
+6KU  C3   H3   SING  N  N  24  
+6KU  CAR  HAR  SING  N  N  25  
+6KU  CAR  HAS  SING  N  N  26  
+6KU  CAR  HAT  SING  N  N  27  
+6KU  CAQ  HAQ  SING  N  N  28  
+6KU  CAQ  HAU  SING  N  N  29  
+6KU  CAP  HAV  SING  N  N  30  
+6KU  CAP  HAP  SING  N  N  31  
+6KU  CAO  HAO  SING  N  N  32  
+6KU  CAO  HAW  SING  N  N  33  
+6KU  CAN  HAX  SING  N  N  34  
+6KU  CAN  HAN  SING  N  N  35  
+6KU  CAM  HAM  SING  N  N  36  
+6KU  CAM  HAY  SING  N  N  37  
+6KU  CAL  HAZ  SING  N  N  38  
+6KU  CAL  HAL  SING  N  N  39  
+6KU  C1   H1   SING  N  N  40  
+6KU  O6   HO6  SING  N  N  41  
+6KU  O3   HO3  SING  N  N  42  
+6KU  C2   H2   SING  N  N  43  
+6KU  O2   HO2  SING  N  N  44  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-6KU "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.5 "(2~{S},3~{S},4~{S},6~{S})-2-heptoxy-6-(hydroxymethyl)oxane-3,4-diol" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+6KU  InChI             InChI                 1.03   "InChI=1S/C13H26O5/c1-2-3-4-5-6-7-17-13-12(16)11(15)8-10(9-14)18-13/h10-16H,2-9H2,1H3/t10-,11-,12-,13-/m0/s1"  
+6KU  InChIKey          InChI                 1.03   JEMWDTFNPZXRJX-CYDGBPFRSA-N  
+6KU  SMILES_CANONICAL  CACTVS                3.385  "CCCCCCCO[C@H]1O[C@H](CO)C[C@H](O)[C@@H]1O"  
+6KU  SMILES            CACTVS                3.385  "CCCCCCCO[CH]1O[CH](CO)C[CH](O)[CH]1O"  
+6KU  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.5  "CCCCCCCO[C@@H]1[C@H]([C@H](C[C@H](O1)CO)O)O"  
+6KU  SMILES            "OpenEye OEToolkits"  2.0.5  "CCCCCCCOC1C(C(CC(O1)CO)O)O"  
+#
+_pdbx_chem_comp_identifier.comp_id          6KU
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.5
+_pdbx_chem_comp_identifier.identifier       "(2~{S},3~{S},4~{S},6~{S})-2-heptoxy-6-(hydroxymethyl)oxane-3,4-diol"
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-6KU "Create component"   2016-05-27 EBI  
-6KU "Other modification" 2016-06-02 RCSB 
-6KU "Initial release"    2017-06-21 RCSB 
-# 
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+6KU  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+6KU  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+6KU  "CARBOHYDRATE ANOMER"                  alpha     PDB  ?  
+6KU  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+6KU  "Create component"          2016-05-27  EBI   
+6KU  "Other modification"        2016-06-02  RCSB  
+6KU  "Initial release"           2017-06-21  RCSB  
+6KU  "Other modification"        2020-07-03  RCSB  
+6KU  "Modify name"               2020-07-17  RCSB  
+6KU  "Modify synonyms"           2020-07-17  RCSB  
+6KU  "Modify internal type"      2020-07-17  RCSB  
+6KU  "Modify linking type"       2020-07-17  RCSB  
+6KU  "Modify atom id"            2020-07-17  RCSB  
+6KU  "Modify component atom id"  2020-07-17  RCSB  
+6KU  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+

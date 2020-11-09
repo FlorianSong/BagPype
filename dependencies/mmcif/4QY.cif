@@ -1,157 +1,239 @@
 data_4QY
-# 
-_chem_comp.id                                    4QY 
-_chem_comp.name                                  beta-N-acetylglucosamine-6-phosphate 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C8 H16 N O9 P" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2015-05-13 
-_chem_comp.pdbx_modified_date                    2016-06-03 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        301.188 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     4QY 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        4ZSK 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  EBI 
-# 
+#
+
+_chem_comp.id                                   4QY
+_chem_comp.name                                 2-acetamido-2-deoxy-6-O-phosphono-beta-D-glucopyranose
+_chem_comp.type                                 "D-saccharide, beta linking"
+_chem_comp.pdbx_type                            ATOMS
+_chem_comp.formula                              "C8 H16 N O9 P"
+_chem_comp.mon_nstd_parent_comp_id              NAG
+_chem_comp.pdbx_synonyms                        
+;beta-N-acetylglucosamine-6-phosphate; N-acetyl-6-O-phosphono-beta-D-glucosamine;
+2-acetamido-2-deoxy-6-O-phosphono-beta-D-glucose; 2-acetamido-2-deoxy-6-O-phosphono-D-glucose;
+2-acetamido-2-deoxy-6-O-phosphono-glucose
+;
+
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2015-05-13
+_chem_comp.pdbx_modified_date                   2020-07-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       301.188
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    4QY
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       4ZSK
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-4QY C2  C1  C 0 1 N N R -15.831 -4.237  -28.427 -2.455 -0.168 -0.104 C2  4QY 1  
-4QY C4  C2  C 0 1 N N S -15.040 -5.555  -30.477 -0.494 -1.700 -0.275 C4  4QY 2  
-4QY C5  C3  C 0 1 N N R -15.370 -6.801  -29.669 0.374  -0.575 0.295  C5  4QY 3  
-4QY C6  C4  C 0 1 N N N -14.605 -8.052  -30.086 1.786  -0.676 -0.284 C6  4QY 4  
-4QY C8  C5  C 0 1 N N N -18.043 -1.330  -27.326 -6.029 1.064  0.500  C8  4QY 5  
-4QY OAG O1  O 0 1 N N N -16.164 -10.674 -30.760 4.323  0.693  -1.493 OAG 4QY 6  
-4QY PAS P1  P 0 1 N N N -15.044 -10.635 -29.754 4.183  0.479  -0.035 PAS 4QY 7  
-4QY OAH O2  O 0 1 N N N -13.668 -10.818 -30.336 4.991  -0.847 0.393  OAH 4QY 8  
-4QY OAC O3  O 0 1 N N N -15.326 -11.462 -28.504 4.780  1.749  0.754  OAC 4QY 9  
-4QY O6  O4  O 0 1 N N N -15.008 -9.121  -29.211 2.626  0.301  0.334  O6  4QY 10 
-4QY O4  O5  O 0 1 N N N -15.347 -5.773  -31.875 0.041  -2.964 0.123  O4  4QY 11 
-4QY C3  C6  C 0 1 N N R -15.861 -4.369  -29.951 -1.921 -1.556 0.262  C3  4QY 12 
-4QY O3  O6  O 0 1 N N N -15.380 -3.169  -30.559 -2.755 -2.558 -0.322 O3  4QY 13 
-4QY O5  O7  O 0 1 N N N -15.166 -6.566  -28.267 -0.196 0.688  -0.056 O5  4QY 14 
-4QY C1  C7  C 0 1 N N R -16.115 -5.592  -27.774 -1.512 0.898  0.460  C1  4QY 15 
-4QY O1  O8  O 0 1 N N N -16.005 -5.520  -26.352 -1.973 2.195  0.074  O1  4QY 16 
-4QY N2  N1  N 0 1 N N N -16.954 -3.352  -28.104 -3.792 0.009  0.469  N2  4QY 17 
-4QY C7  C8  C 0 1 N N N -16.792 -2.129  -27.601 -4.654 0.882  -0.089 C7  4QY 18 
-4QY O7  O9  O 0 1 N N N -15.695 -1.675  -27.357 -4.323 1.520  -1.066 O7  4QY 19 
-4QY H1  H1  H 0 1 N N N -14.870 -3.826  -28.084 -2.508 -0.071 -1.188 H1  4QY 20 
-4QY H2  H2  H 0 1 N N N -13.971 -5.325  -30.359 -0.506 -1.635 -1.363 H2  4QY 21 
-4QY H3  H3  H 0 1 N N N -16.438 -7.012  -29.826 0.418  -0.664 1.380  H3  4QY 22 
-4QY H4  H4  H 0 1 N N N -14.846 -8.309  -31.128 2.186  -1.672 -0.094 H4  4QY 23 
-4QY H5  H5  H 0 1 N N N -13.523 -7.878  -29.992 1.752  -0.498 -1.359 H5  4QY 24 
-4QY H6  H6  H 0 1 N N N -17.769 -0.353  -26.902 -5.940 1.405  1.531  H6  4QY 25 
-4QY H7  H7  H 0 1 N N N -18.596 -1.180  -28.265 -6.578 1.804  -0.082 H7  4QY 26 
-4QY H8  H8  H 0 1 N N N -18.676 -1.875  -26.611 -6.563 0.114  0.476  H8  4QY 27 
-4QY H9  H9  H 0 1 N N N -13.734 -10.932 -31.277 4.943  -1.049 1.337  H9  4QY 28 
-4QY H10 H10 H 0 1 N N N -16.181 -11.869 -28.579 5.716  1.917  0.578  H10 4QY 29 
-4QY H11 H11 H 0 1 N N N -14.839 -6.507  -32.201 0.944  -3.123 -0.184 H11 4QY 30 
-4QY H12 H12 H 0 1 N N N -16.907 -4.528  -30.252 -1.916 -1.670 1.346  H12 4QY 31 
-4QY H13 H13 H 0 1 N N N -15.882 -2.428  -30.240 -2.471 -3.464 -0.136 H13 4QY 32 
-4QY H14 H14 H 0 1 N N N -17.133 -5.902  -28.051 -1.492 0.828  1.547  H14 4QY 33 
-4QY H15 H15 H 0 1 N N N -16.186 -6.374  -25.976 -1.422 2.921  0.397  H15 4QY 34 
-4QY H16 H16 H 0 1 N N N -17.884 -3.681  -28.269 -4.056 -0.501 1.250  H16 4QY 35 
-# 
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  4QY  beta-N-acetylglucosamine-6-phosphate              PDB  ?  
+2  4QY  N-acetyl-6-O-phosphono-beta-D-glucosamine         PDB  ?  
+3  4QY  2-acetamido-2-deoxy-6-O-phosphono-beta-D-glucose  PDB  ?  
+4  4QY  2-acetamido-2-deoxy-6-O-phosphono-D-glucose       PDB  ?  
+5  4QY  2-acetamido-2-deoxy-6-O-phosphono-glucose         PDB  ?  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-4QY O4  C4  SING N N 1  
-4QY OAG PAS DOUB N N 2  
-4QY O3  C3  SING N N 3  
-4QY C4  C3  SING N N 4  
-4QY C4  C5  SING N N 5  
-4QY OAH PAS SING N N 6  
-4QY C6  C5  SING N N 7  
-4QY C6  O6  SING N N 8  
-4QY C3  C2  SING N N 9  
-4QY PAS O6  SING N N 10 
-4QY PAS OAC SING N N 11 
-4QY C5  O5  SING N N 12 
-4QY C2  N2  SING N N 13 
-4QY C2  C1  SING N N 14 
-4QY O5  C1  SING N N 15 
-4QY N2  C7  SING N N 16 
-4QY C1  O1  SING N N 17 
-4QY C7  O7  DOUB N N 18 
-4QY C7  C8  SING N N 19 
-4QY C2  H1  SING N N 20 
-4QY C4  H2  SING N N 21 
-4QY C5  H3  SING N N 22 
-4QY C6  H4  SING N N 23 
-4QY C6  H5  SING N N 24 
-4QY C8  H6  SING N N 25 
-4QY C8  H7  SING N N 26 
-4QY C8  H8  SING N N 27 
-4QY OAH H9  SING N N 28 
-4QY OAC H10 SING N N 29 
-4QY O4  H11 SING N N 30 
-4QY C3  H12 SING N N 31 
-4QY O3  H13 SING N N 32 
-4QY C1  H14 SING N N 33 
-4QY O1  H15 SING N N 34 
-4QY N2  H16 SING N N 35 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+4QY  C2   C2   C  0  1  N  N  R  -15.831   -4.237  -28.427  -2.455  -0.168  -0.104  C2   4QY   1  
+4QY  C4   C4   C  0  1  N  N  S  -15.040   -5.555  -30.477  -0.494  -1.700  -0.275  C4   4QY   2  
+4QY  C5   C5   C  0  1  N  N  R  -15.370   -6.801  -29.669   0.374  -0.575   0.295  C5   4QY   3  
+4QY  C6   C6   C  0  1  N  N  N  -14.605   -8.052  -30.086   1.786  -0.676  -0.284  C6   4QY   4  
+4QY  C8   C8   C  0  1  N  N  N  -18.043   -1.330  -27.326  -6.029   1.064   0.500  C8   4QY   5  
+4QY  OAG  OAG  O  0  1  N  N  N  -16.164  -10.674  -30.760   4.323   0.693  -1.493  OAG  4QY   6  
+4QY  PAS  PAS  P  0  1  N  N  N  -15.044  -10.635  -29.754   4.183   0.479  -0.035  PAS  4QY   7  
+4QY  OAH  OAH  O  0  1  N  N  N  -13.668  -10.818  -30.336   4.991  -0.847   0.393  OAH  4QY   8  
+4QY  OAC  OAC  O  0  1  N  N  N  -15.326  -11.462  -28.504   4.780   1.749   0.754  OAC  4QY   9  
+4QY  O6   O6   O  0  1  N  N  N  -15.008   -9.121  -29.211   2.626   0.301   0.334  O6   4QY  10  
+4QY  O4   O4   O  0  1  N  N  N  -15.347   -5.773  -31.875   0.041  -2.964   0.123  O4   4QY  11  
+4QY  C3   C3   C  0  1  N  N  R  -15.861   -4.369  -29.951  -1.921  -1.556   0.262  C3   4QY  12  
+4QY  O3   O3   O  0  1  N  N  N  -15.380   -3.169  -30.559  -2.755  -2.558  -0.322  O3   4QY  13  
+4QY  O5   O5   O  0  1  N  N  N  -15.166   -6.566  -28.267  -0.196   0.688  -0.056  O5   4QY  14  
+4QY  C1   C1   C  0  1  N  N  R  -16.115   -5.592  -27.774  -1.512   0.898   0.460  C1   4QY  15  
+4QY  O1   O1   O  0  1  N  Y  N  -16.005   -5.520  -26.352  -1.973   2.195   0.074  O1   4QY  16  
+4QY  N2   N2   N  0  1  N  N  N  -16.954   -3.352  -28.104  -3.792   0.009   0.469  N2   4QY  17  
+4QY  C7   C7   C  0  1  N  N  N  -16.792   -2.129  -27.601  -4.654   0.882  -0.089  C7   4QY  18  
+4QY  O7   O7   O  0  1  N  N  N  -15.695   -1.675  -27.357  -4.323   1.520  -1.066  O7   4QY  19  
+4QY  H2   H1   H  0  1  N  N  N  -14.870   -3.826  -28.084  -2.508  -0.071  -1.188  H2   4QY  20  
+4QY  H4   H2   H  0  1  N  N  N  -13.971   -5.325  -30.359  -0.506  -1.635  -1.363  H4   4QY  21  
+4QY  H5   H3   H  0  1  N  N  N  -16.438   -7.012  -29.826   0.418  -0.664   1.380  H5   4QY  22  
+4QY  H61  H4   H  0  1  N  N  N  -14.846   -8.309  -31.128   2.186  -1.672  -0.094  H61  4QY  23  
+4QY  H62  H5   H  0  1  N  N  N  -13.523   -7.878  -29.992   1.752  -0.498  -1.359  H62  4QY  24  
+4QY  H81  H6   H  0  1  N  N  N  -17.769   -0.353  -26.902  -5.940   1.405   1.531  H81  4QY  25  
+4QY  H82  H7   H  0  1  N  N  N  -18.596   -1.180  -28.265  -6.578   1.804  -0.082  H82  4QY  26  
+4QY  H83  H8   H  0  1  N  N  N  -18.676   -1.875  -26.611  -6.563   0.114   0.476  H83  4QY  27  
+4QY  H9   H9   H  0  1  N  N  N  -13.734  -10.932  -31.277   4.943  -1.049   1.337  H9   4QY  28  
+4QY  H10  H10  H  0  1  N  N  N  -16.181  -11.869  -28.579   5.716   1.917   0.578  H10  4QY  29  
+4QY  HO4  H11  H  0  1  N  Y  N  -14.839   -6.507  -32.201   0.944  -3.123  -0.184  HO4  4QY  30  
+4QY  H3   H12  H  0  1  N  N  N  -16.907   -4.528  -30.252  -1.916  -1.670   1.346  H3   4QY  31  
+4QY  HO3  H13  H  0  1  N  Y  N  -15.882   -2.428  -30.240  -2.471  -3.464  -0.136  HO3  4QY  32  
+4QY  H1   H14  H  0  1  N  N  N  -17.133   -5.902  -28.051  -1.492   0.828   1.547  H1   4QY  33  
+4QY  HO1  H15  H  0  1  N  Y  N  -16.186   -6.374  -25.976  -1.422   2.921   0.397  HO1  4QY  34  
+4QY  HN2  H16  H  0  1  N  N  N  -17.884   -3.681  -28.269  -4.056  -0.501   1.250  HN2  4QY  35  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-4QY SMILES           ACDLabs              12.01 "C1(NC(C)=O)C(OC(C(C1O)O)COP(=O)(O)O)O"                                                                                                 
-4QY InChI            InChI                1.03  "InChI=1S/C8H16NO9P/c1-3(10)9-5-7(12)6(11)4(18-8(5)13)2-17-19(14,15)16/h4-8,11-13H,2H2,1H3,(H,9,10)(H2,14,15,16)/t4-,5-,6-,7-,8-/m1/s1" 
-4QY InChIKey         InChI                1.03  BRGMHAYQAZFZDJ-FMDGEEDCSA-N                                                                                                             
-4QY SMILES_CANONICAL CACTVS               3.385 "CC(=O)N[C@H]1[C@H](O)O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@@H]1O"                                                                           
-4QY SMILES           CACTVS               3.385 "CC(=O)N[CH]1[CH](O)O[CH](CO[P](O)(O)=O)[CH](O)[CH]1O"                                                                                  
-4QY SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)COP(=O)(O)O)O)O"                                                                             
-4QY SMILES           "OpenEye OEToolkits" 1.9.2 "CC(=O)NC1C(C(C(OC1O)COP(=O)(O)O)O)O"                                                                                                   
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+4QY  O4   C4   SING  N  N   1  
+4QY  OAG  PAS  DOUB  N  N   2  
+4QY  O3   C3   SING  N  N   3  
+4QY  C4   C3   SING  N  N   4  
+4QY  C4   C5   SING  N  N   5  
+4QY  OAH  PAS  SING  N  N   6  
+4QY  C6   C5   SING  N  N   7  
+4QY  C6   O6   SING  N  N   8  
+4QY  C3   C2   SING  N  N   9  
+4QY  PAS  O6   SING  N  N  10  
+4QY  PAS  OAC  SING  N  N  11  
+4QY  C5   O5   SING  N  N  12  
+4QY  C2   N2   SING  N  N  13  
+4QY  C2   C1   SING  N  N  14  
+4QY  O5   C1   SING  N  N  15  
+4QY  N2   C7   SING  N  N  16  
+4QY  C1   O1   SING  N  N  17  
+4QY  C7   O7   DOUB  N  N  18  
+4QY  C7   C8   SING  N  N  19  
+4QY  C2   H2   SING  N  N  20  
+4QY  C4   H4   SING  N  N  21  
+4QY  C5   H5   SING  N  N  22  
+4QY  C6   H61  SING  N  N  23  
+4QY  C6   H62  SING  N  N  24  
+4QY  C8   H81  SING  N  N  25  
+4QY  C8   H82  SING  N  N  26  
+4QY  C8   H83  SING  N  N  27  
+4QY  OAH  H9   SING  N  N  28  
+4QY  OAC  H10  SING  N  N  29  
+4QY  O4   HO4  SING  N  N  30  
+4QY  C3   H3   SING  N  N  31  
+4QY  O3   HO3  SING  N  N  32  
+4QY  C1   H1   SING  N  N  33  
+4QY  O1   HO1  SING  N  N  34  
+4QY  N2   HN2  SING  N  N  35  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-4QY "SYSTEMATIC NAME" ACDLabs              12.01 "2-(acetylamino)-2-deoxy-6-O-phosphono-beta-D-glucopyranose"                              
-4QY "SYSTEMATIC NAME" "OpenEye OEToolkits" 1.9.2 "[(2R,3S,4R,5R,6R)-5-acetamido-3,4,6-tris(oxidanyl)oxan-2-yl]methyl dihydrogen phosphate" 
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+4QY  SMILES            ACDLabs               12.01  "C1(NC(C)=O)C(OC(C(C1O)O)COP(=O)(O)O)O"  
+4QY  InChI             InChI                 1.03   "InChI=1S/C8H16NO9P/c1-3(10)9-5-7(12)6(11)4(18-8(5)13)2-17-19(14,15)16/h4-8,11-13H,2H2,1H3,(H,9,10)(H2,14,15,16)/t4-,5-,6-,7-,8-/m1/s1"  
+4QY  InChIKey          InChI                 1.03   BRGMHAYQAZFZDJ-FMDGEEDCSA-N  
+4QY  SMILES_CANONICAL  CACTVS                3.385  "CC(=O)N[C@H]1[C@H](O)O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@@H]1O"  
+4QY  SMILES            CACTVS                3.385  "CC(=O)N[CH]1[CH](O)O[CH](CO[P](O)(O)=O)[CH](O)[CH]1O"  
+4QY  SMILES_CANONICAL  "OpenEye OEToolkits"  1.9.2  "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)COP(=O)(O)O)O)O"  
+4QY  SMILES            "OpenEye OEToolkits"  1.9.2  "CC(=O)NC1C(C(C(OC1O)COP(=O)(O)O)O)O"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-4QY "Create component" 2015-05-13 EBI  
-4QY "Initial release"  2016-06-08 RCSB 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+4QY  "SYSTEMATIC NAME"            ACDLabs               12.01  "2-(acetylamino)-2-deoxy-6-O-phosphono-beta-D-glucopyranose"  
+4QY  "SYSTEMATIC NAME"            "OpenEye OEToolkits"  1.9.2  "[(2R,3S,4R,5R,6R)-5-acetamido-3,4,6-tris(oxidanyl)oxan-2-yl]methyl dihydrogen phosphate"  
+4QY  "IUPAC CARBOHYDRATE SYMBOL"  PDB-CARE              1.0    b-D-GlcpNAc6PO3  
+#
+_pdbx_chem_comp_related.comp_id            4QY
+_pdbx_chem_comp_related.related_comp_id    NAG
+_pdbx_chem_comp_related.relationship_type  "Carbohydrate core"
+_pdbx_chem_comp_related.details            ?
+#   #
+loop_
+_pdbx_chem_comp_atom_related.ordinal
+_pdbx_chem_comp_atom_related.comp_id
+_pdbx_chem_comp_atom_related.atom_id
+_pdbx_chem_comp_atom_related.related_comp_id
+_pdbx_chem_comp_atom_related.related_atom_id
+_pdbx_chem_comp_atom_related.related_type
+ 1  4QY  C1   NAG  C1   "Carbohydrate core"  
+ 2  4QY  C2   NAG  C2   "Carbohydrate core"  
+ 3  4QY  C3   NAG  C3   "Carbohydrate core"  
+ 4  4QY  C4   NAG  C4   "Carbohydrate core"  
+ 5  4QY  C5   NAG  C5   "Carbohydrate core"  
+ 6  4QY  C6   NAG  C6   "Carbohydrate core"  
+ 7  4QY  C7   NAG  C7   "Carbohydrate core"  
+ 8  4QY  C8   NAG  C8   "Carbohydrate core"  
+ 9  4QY  N2   NAG  N2   "Carbohydrate core"  
+10  4QY  O1   NAG  O1   "Carbohydrate core"  
+11  4QY  O3   NAG  O3   "Carbohydrate core"  
+12  4QY  O4   NAG  O4   "Carbohydrate core"  
+13  4QY  O5   NAG  O5   "Carbohydrate core"  
+14  4QY  O6   NAG  O6   "Carbohydrate core"  
+15  4QY  O7   NAG  O7   "Carbohydrate core"  
+16  4QY  H2   NAG  H2   "Carbohydrate core"  
+17  4QY  HO4  NAG  HO4  "Carbohydrate core"  
+18  4QY  H3   NAG  H3   "Carbohydrate core"  
+19  4QY  HO3  NAG  HO3  "Carbohydrate core"  
+20  4QY  H1   NAG  H1   "Carbohydrate core"  
+21  4QY  HO1  NAG  HO1  "Carbohydrate core"  
+22  4QY  HN2  NAG  HN2  "Carbohydrate core"  
+23  4QY  H4   NAG  H4   "Carbohydrate core"  
+24  4QY  H5   NAG  H5   "Carbohydrate core"  
+25  4QY  H61  NAG  H61  "Carbohydrate core"  
+26  4QY  H62  NAG  H62  "Carbohydrate core"  
+27  4QY  H81  NAG  H81  "Carbohydrate core"  
+28  4QY  H82  NAG  H82  "Carbohydrate core"  
+29  4QY  H83  NAG  H83  "Carbohydrate core"  
+#   #
+loop_
+_pdbx_chem_comp_feature.comp_id
+_pdbx_chem_comp_feature.type
+_pdbx_chem_comp_feature.value
+_pdbx_chem_comp_feature.source
+_pdbx_chem_comp_feature.support
+4QY  "CARBOHYDRATE ISOMER"                  D         PDB  ?  
+4QY  "CARBOHYDRATE RING"                    pyranose  PDB  ?  
+4QY  "CARBOHYDRATE ANOMER"                  beta      PDB  ?  
+4QY  "CARBOHYDRATE PRIMARY CARBONYL GROUP"  aldose    PDB  ?  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+4QY  "Create component"          2015-05-13  EBI   
+4QY  "Initial release"           2016-06-08  RCSB  
+4QY  "Other modification"        2020-07-03  RCSB  
+4QY  "Modify parent residue"     2020-07-17  RCSB  
+4QY  "Modify name"               2020-07-17  RCSB  
+4QY  "Modify synonyms"           2020-07-17  RCSB  
+4QY  "Modify internal type"      2020-07-17  RCSB  
+4QY  "Modify linking type"       2020-07-17  RCSB  
+4QY  "Modify atom id"            2020-07-17  RCSB  
+4QY  "Modify component atom id"  2020-07-17  RCSB  
+4QY  "Modify leaving atom flag"  2020-07-17  RCSB  
+##
+
