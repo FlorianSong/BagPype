@@ -1131,18 +1131,19 @@ class Graph_constructor(object):
 
             if degree == 0:
                 if atom.res_name == "HOH":
-                    raise GraphConstructionError(
-                        "The Oxygen {} has no covalent bonding partners. "
-                        "Since this O belongs to a water molecule, this error was very likely to be caused by Reduce, "
-                        "a third-party software that BaGPyPe uses to add hydrogens to PDB files. " 
+                    raise Exception(
+                        "Generic error."
+                        # "The Oxygen {} has no covalent bonding partners. "
+                        # "Since this O belongs to a water molecule, this error was very likely to be caused by Reduce, "
+                        # "a third-party software that BaGPyPe uses to add hydrogens to PDB files. " 
                         # " Unfortunately, "
                         # "Reduce is not able to add hydrogens to single Oxygen atoms (belonging to waters). "
                         # "If you would like to include water molecules "
                         # "in the atomistic graph, "
-                        "Please consider using a different software to add hydrogen atoms. "
-                        "".format(
-                            atom.id
-                        )
+                        # "Please consider using a different software to add hydrogen atoms. "
+                        # "".format(
+                        #     atom.id
+                        # )
                     )
                 else:
                     raise GraphConstructionError(
