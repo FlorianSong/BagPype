@@ -728,7 +728,7 @@ def _parse_atom_line(line):
       atom object representing the atom in the input line
     """
 
-    element = line[76:78].strip()
+    element = line[76:78].strip().upper()
     name = line[12:16].strip()
     PDBnum = int(line[6:11])
     chainID = line[21]
