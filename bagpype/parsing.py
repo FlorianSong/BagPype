@@ -492,10 +492,14 @@ class PDBParser(object):
                 + " -Quiet -BUILD -DB "
                 + current_directory
                 + "/dependencies/reduce_wwPDB_het_dict.txt "
+                + "'"
                 + self.pdb_filename
+                + "'"
                 + " > "
+                + "'"
                 + self.pdb_filename[0:-4]
-                + "_H.pdb",
+                + "_H.pdb"
+                + "'",
                 shell=True,
             )
             self.pdb_filename = self.pdb_filename[0:-4] + "_H.pdb"
@@ -508,10 +512,14 @@ class PDBParser(object):
                 + " -Quiet -BUILD -DB "
                 + current_directory
                 + "/dependencies/reduce_wwPDB_het_dict.txt "
+                + "'"
                 + self.pdb_filename
+                + "'"
                 + " > "
+                + "'"
                 + self.pdb_filename[0:-4]
-                + "_H.pdb",
+                + "_H.pdb"
+                + "'",
                 shell=True,
             )
             self.pdb_filename = self.pdb_filename[0:-4] + "_H.pdb"
