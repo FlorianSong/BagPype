@@ -35,8 +35,13 @@ class PDBParser(object):
 
         if download:
             import urllib.request
-
-            name = pdb_filename.split("/")[-1]
+            
+            path_split = pdb_filename.split("/")
+            folders = path_split[:-1]
+            path = "/".join(folders)
+            if not os.path.exists(path):
+                os.makedirs(path)
+            name = path_split[-1]
             url = "https://files.rcsb.org/download/" + name
             urllib.request.urlretrieve(url, pdb_filename)
 
