@@ -39,7 +39,7 @@ class PDBParser(object):
             path_split = pdb_filename.split("/")
             folders = path_split[:-1]
             path = "/".join(folders)
-            if not os.path.exists(path):
+            if len(path) > 0 and not os.path.exists(path):
                 os.makedirs(path)
             name = path_split[-1]
             url = "https://files.rcsb.org/download/" + name
