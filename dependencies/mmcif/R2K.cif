@@ -1,0 +1,106 @@
+data_R2K
+#
+
+_chem_comp.id                                   R2K
+_chem_comp.name                                 "(3-oxidanylidene-3-sodiooxy-propanoyl)oxysodium"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C3 H2 Na2 O4"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2020-08-26
+_chem_comp.pdbx_modified_date                   2021-02-12
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       148.025
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    R2K
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       7A6Q
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBE
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+R2K  C02   C1   C   0  1  N  N  N  -30.395  -62.749  -31.487  -1.230   0.256  -0.004  C02   R2K   1  
+R2K  C03   C2   C   0  1  N  N  N  -29.984  -64.043  -30.780  -0.000   1.126  -0.002  C03   R2K   2  
+R2K  C04   C3   C   0  1  N  N  N  -30.386  -64.074  -29.300   1.230   0.256  -0.001  C04   R2K   3  
+R2K  O01   O1   O   0  1  N  N  N  -31.537  -62.435  -31.473  -1.120  -0.947  -0.005  O01   R2K   4  
+R2K  O05   O2   O   0  1  N  N  N  -29.532  -64.718  -28.415   2.450   0.818   0.002  O05   R2K   5  
+R2K  O07   O3   O   0  1  N  N  N  -31.153  -63.287  -28.846   1.120  -0.947  -0.002  O07   R2K   6  
+R2K  O08   O4   O   0  1  N  N  N  -29.480  -62.012  -32.262  -2.450   0.818  -0.000  O08   R2K   7  
+R2K  NA1   NA1  NA  0  0  N  N  N  -28.330  -65.582  -27.205   4.012  -0.415   0.003  NA06  R2K   8  
+R2K  NA2   NA2  NA  0  0  N  N  N  -28.249  -61.001  -33.344  -4.012  -0.415   0.005  NA09  R2K   9  
+R2K  H032  H1   H   0  0  N  N  N  -30.466  -64.889  -31.291   0.001   1.756  -0.891  H032  R2K  10  
+R2K  H031  H2   H   0  0  N  N  N  -28.891  -64.147  -30.848  -0.001   1.755   0.888  H031  R2K  11  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+R2K  NA2  O08   SING  N  N   1  
+R2K  O08  C02   SING  N  N   2  
+R2K  C02  O01   DOUB  N  N   3  
+R2K  C02  C03   SING  N  N   4  
+R2K  C03  C04   SING  N  N   5  
+R2K  C04  O07   DOUB  N  N   6  
+R2K  C04  O05   SING  N  N   7  
+R2K  O05  NA1   SING  N  N   8  
+R2K  C03  H032  SING  N  N   9  
+R2K  C03  H031  SING  N  N  10  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+R2K  InChI             InChI                 1.03   "InChI=1S/C3H4O4.2Na/c4-2(5)1-3(6)7;;/h1H2,(H,4,5)(H,6,7);;/q;2*+1/p-2"  
+R2K  InChIKey          InChI                 1.03   PRWXGRGLHYDWPS-UHFFFAOYSA-L  
+R2K  SMILES_CANONICAL  CACTVS                3.385  "[Na]OC(=O)CC(=O)O[Na]"  
+R2K  SMILES            CACTVS                3.385  "[Na]OC(=O)CC(=O)O[Na]"  
+R2K  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "C(C(=O)O[Na])C(=O)O[Na]"  
+R2K  SMILES            "OpenEye OEToolkits"  2.0.7  "C(C(=O)O[Na])C(=O)O[Na]"  
+#
+_pdbx_chem_comp_identifier.comp_id          R2K
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "(3-oxidanylidene-3-sodiooxy-propanoyl)oxysodium"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+R2K  "Create component"  2020-08-26  PDBE  
+R2K  "Initial release"   2021-02-17  RCSB  
+##
+

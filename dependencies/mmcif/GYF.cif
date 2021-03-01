@@ -1,0 +1,114 @@
+data_GYF
+#
+
+_chem_comp.id                                   GYF
+_chem_comp.name                                 "methyl 3-sulfanylpropanoate"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C4 H8 O2 S"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2020-10-08
+_chem_comp.pdbx_modified_date                   2021-01-22
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       120.170
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    GYF
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       7D79
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBJ
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+GYF  C02  C1  C  0  1  N  N  N  41.968  42.364  49.659  -1.108  -0.023   0.004  C02  GYF   1  
+GYF  C03  C2  C  0  1  N  N  N  42.778  41.492  50.616   0.271   0.584   0.003  C03  GYF   2  
+GYF  C04  C3  C  0  1  N  N  N  42.026  41.377  51.939   1.319  -0.531  -0.001  C04  GYF   3  
+GYF  C07  C4  C  0  1  N  N  N  41.791  43.090  47.434  -3.487   0.117  -0.004  C07  GYF   4  
+GYF  O01  O1  O  0  1  N  N  N  41.839  42.002  48.313  -2.191   0.771   0.001  O01  GYF   5  
+GYF  O06  O2  O  0  1  N  N  N  41.445  43.348  50.062  -1.240  -1.224   0.002  O06  GYF   6  
+GYF  S05  S1  S  0  1  N  N  N  42.970  40.348  53.100   2.979   0.200  -0.001  S05  GYF   7  
+GYF  H1   H1  H  0  1  N  N  N  42.912  40.491  50.180   0.395   1.202  -0.886  H1   GYF   8  
+GYF  H2   H2  H  0  1  N  N  N  43.762  41.951  50.790   0.398   1.199   0.894  H2   GYF   9  
+GYF  H3   H3  H  0  1  N  N  N  41.889  42.380  52.369   1.194  -1.149   0.888  H3   GYF  10  
+GYF  H4   H4  H  0  1  N  N  N  41.043  40.917  51.761   1.192  -1.146  -0.891  H4   GYF  11  
+GYF  H5   H5  H  0  1  N  N  N  41.690  42.724  46.402  -3.578  -0.504  -0.896  H5   GYF  12  
+GYF  H6   H6  H  0  1  N  N  N  40.929  43.725  47.684  -3.584  -0.507   0.884  H6   GYF  13  
+GYF  H7   H7  H  0  1  N  N  N  42.717  43.676  47.526  -4.275   0.871  -0.006  H7   GYF  14  
+GYF  H8   H8  H  0  1  N  N  N  42.204  40.354  54.151   3.784  -0.878  -0.004  H8   GYF  15  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+GYF  C07  O01  SING  N  N   1  
+GYF  O01  C02  SING  N  N   2  
+GYF  C02  O06  DOUB  N  N   3  
+GYF  C02  C03  SING  N  N   4  
+GYF  C03  C04  SING  N  N   5  
+GYF  C04  S05  SING  N  N   6  
+GYF  C03  H1   SING  N  N   7  
+GYF  C03  H2   SING  N  N   8  
+GYF  C04  H3   SING  N  N   9  
+GYF  C04  H4   SING  N  N  10  
+GYF  C07  H5   SING  N  N  11  
+GYF  C07  H6   SING  N  N  12  
+GYF  C07  H7   SING  N  N  13  
+GYF  S05  H8   SING  N  N  14  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+GYF  InChI             InChI                 1.03   "InChI=1S/C4H8O2S/c1-6-4(5)2-3-7/h7H,2-3H2,1H3"  
+GYF  InChIKey          InChI                 1.03   LDTLDBDUBGAEDT-UHFFFAOYSA-N  
+GYF  SMILES_CANONICAL  CACTVS                3.385  "COC(=O)CCS"  
+GYF  SMILES            CACTVS                3.385  "COC(=O)CCS"  
+GYF  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "COC(=O)CCS"  
+GYF  SMILES            "OpenEye OEToolkits"  2.0.7  "COC(=O)CCS"  
+#
+_pdbx_chem_comp_identifier.comp_id          GYF
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "methyl 3-sulfanylpropanoate"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+GYF  "Create component"  2020-10-08  PDBJ  
+GYF  "Initial release"   2021-01-27  RCSB  
+##
+

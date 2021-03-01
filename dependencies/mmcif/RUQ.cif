@@ -1,0 +1,96 @@
+data_RUQ
+#
+
+_chem_comp.id                                   RUQ
+_chem_comp.name                                 "(dicuprio-$l^{3}-sulfanyl)-sulfanyl-copper"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "Cu3 H S2"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   1
+_chem_comp.pdbx_initial_date                    2020-10-20
+_chem_comp.pdbx_modified_date                   2021-01-22
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       255.776
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    RUQ
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       ?
+_chem_comp.pdbx_ideal_coordinates_missing_flag  Y
+_chem_comp.pdbx_model_coordinates_db_code       7AQA
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBE
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+RUQ  S1   S1   S   1  1  N  N  N  17.944  30.173  20.416  ?  ?  ?  S1   RUQ  1  
+RUQ  S2   S2   S   0  1  N  N  N  14.484  29.255  21.198  ?  ?  ?  S2   RUQ  2  
+RUQ  CU2  CU1  CU  0  0  N  N  N  19.385  28.584  20.914  ?  ?  ?  CU2  RUQ  3  
+RUQ  CU3  CU2  CU  0  0  N  N  N  17.908  28.882  18.600  ?  ?  ?  CU3  RUQ  4  
+RUQ  CU4  CU3  CU  0  0  N  N  N  16.657  28.387  21.203  ?  ?  ?  CU4  RUQ  5  
+RUQ  H1   H1   H   0  1  N  N  N  13.790  28.248  21.638  ?  ?  ?  H1   RUQ  6  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+RUQ  S1  CU2  SING  N  N  1  
+RUQ  S1  CU3  SING  N  N  2  
+RUQ  S1  CU4  SING  N  N  3  
+RUQ  S2  CU4  SING  N  N  4  
+RUQ  S2  H1   SING  N  N  5  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+RUQ  InChI             InChI                 1.03   "InChI=1S/3Cu.H2S.S/h;;;1H2;/q;;+1;;+1/p-1"  
+RUQ  InChIKey          InChI                 1.03   GESPGIVOECOYJT-UHFFFAOYSA-M  
+RUQ  SMILES_CANONICAL  CACTVS                3.385  "S[Cu][S+]([Cu])[Cu]"  
+RUQ  SMILES            CACTVS                3.385  "S[Cu][S+]([Cu])[Cu]"  
+RUQ  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "S[Cu][S+]([Cu])[Cu]"  
+RUQ  SMILES            "OpenEye OEToolkits"  2.0.7  "S[Cu][S+]([Cu])[Cu]"  
+#
+_pdbx_chem_comp_identifier.comp_id          RUQ
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "dicupriosulfonio(sulfanyl)copper"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+RUQ  "Create component"  2020-10-20  PDBE  
+RUQ  "Initial release"   2021-01-27  RCSB  
+##
+

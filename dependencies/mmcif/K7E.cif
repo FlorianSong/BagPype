@@ -1,0 +1,98 @@
+data_K7E
+#
+
+_chem_comp.id                                   K7E
+_chem_comp.name                                 "sulfanyl-(tricuprio-$l^{4}-sulfanyl)copper"
+_chem_comp.type                                 NON-POLYMER
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "Cu4 H S2"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2019-05-01
+_chem_comp.pdbx_modified_date                   2021-01-22
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       319.322
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    K7E
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6RL0
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBE
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+K7E  CU1  CU1  CU  0  0  N  N  N  25.388  8.883  -3.951  -0.436   1.903  -0.479  CU1  K7E  1  
+K7E  CU2  CU2  CU  0  0  N  N  N  23.582  7.190  -7.777  -0.508  -1.896  -0.470  CU2  K7E  2  
+K7E  CU3  CU3  CU  0  0  N  N  N  23.307  6.798  -5.034  -1.835   0.032   0.850  CU3  K7E  3  
+K7E  CU4  CU4  CU  0  0  N  N  N  25.871  6.560  -6.341   1.356  -0.030   0.044  CU4  K7E  4  
+K7E  S1   S1   S   0  1  N  N  N  24.403  8.372  -6.116  -0.472   0.004  -0.474  S1   K7E  5  
+K7E  S2   S2   S   0  1  N  N  N  27.468  7.447  -4.629   3.183  -0.063   0.562  S2   K7E  6  
+K7E  H1   H1   H   0  1  N  N  N  28.390  6.530  -4.619   3.499   1.242   0.642  H1   K7E  7  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+K7E  CU2  S1   SING  N  N  1  
+K7E  CU3  S1   SING  N  N  2  
+K7E  CU4  S1   SING  N  N  3  
+K7E  S1   CU1  SING  N  N  4  
+K7E  CU4  S2   SING  N  N  5  
+K7E  S2   H1   SING  N  N  6  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+K7E  InChI             InChI                 1.03   "InChI=1S/4Cu.H2S.S/h;;;;1H2;/q;;;+1;;/p-1"  
+K7E  InChIKey          InChI                 1.03   HNDPNHLKTCWFEP-UHFFFAOYSA-M  
+K7E  SMILES_CANONICAL  CACTVS                3.385  "S[Cu][S]([Cu])([Cu])[Cu]"  
+K7E  SMILES            CACTVS                3.385  "S[Cu][S]([Cu])([Cu])[Cu]"  
+K7E  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "S[Cu]S([Cu])([Cu])[Cu]"  
+K7E  SMILES            "OpenEye OEToolkits"  2.0.7  "S[Cu]S([Cu])([Cu])[Cu]"  
+#
+_pdbx_chem_comp_identifier.comp_id          K7E
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "sulfanyl-(tricuprio-$l^{4}-sulfanyl)copper"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+K7E  "Create component"  2019-05-01  PDBE  
+K7E  "Initial release"   2021-01-27  RCSB  
+##
+

@@ -1,0 +1,115 @@
+data_P3K
+#
+
+_chem_comp.id                                   P3K
+_chem_comp.name                                 "2,3-bis(oxidanyl)benzenecarbonitrile"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C7 H5 N O2"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2020-04-14
+_chem_comp.pdbx_modified_date                   2020-12-25
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       135.120
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    P3K
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6YO3
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBE
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+P3K  C4  C1  C  0  1  Y  N  N  -38.323  6.499  7.452   0.821  -2.059  -0.013  C4  P3K   1  
+P3K  C5  C2  C  0  1  Y  N  N  -38.262  5.446  6.558   1.804  -1.084   0.007  C5  P3K   2  
+P3K  C6  C3  C  0  1  Y  N  N  -37.461  5.537  5.435   1.458   0.257   0.025  C6  P3K   3  
+P3K  C7  C4  C  0  1  Y  N  N  -36.697  6.695  5.226   0.118   0.630   0.023  C7  P3K   4  
+P3K  N1  N1  N  0  1  N  N  N  -35.342  9.899  5.660  -3.356   0.310   0.002  N1  P3K   5  
+P3K  C3  C5  C  0  1  Y  N  N  -37.552  7.638  7.269  -0.511  -1.706  -0.020  C3  P3K   6  
+P3K  C1  C6  C  0  1  N  N  N  -35.982  8.963  5.902  -2.259   0.015   0.003  C1  P3K   7  
+P3K  C2  C7  C  0  1  Y  N  N  -36.735  7.752  6.146  -0.876  -0.356   0.004  C2  P3K   8  
+P3K  O1  O1  O  0  1  N  N  N  -37.365  4.529  4.512   2.428   1.210   0.044  O1  P3K   9  
+P3K  O2  O2  O  0  1  N  N  N  -35.943  6.727  4.104  -0.225   1.944   0.042  O2  P3K  10  
+P3K  H1  H1  H  0  1  N  N  N  -38.981  6.434  8.306   1.100  -3.102  -0.027  H1  P3K  11  
+P3K  H2  H2  H  0  1  N  N  N  -38.841  4.552  6.737   2.845  -1.370   0.008  H2  P3K  12  
+P3K  H3  H3  H  0  1  N  N  N  -37.585  8.436  7.996  -1.273  -2.471  -0.040  H3  P3K  13  
+P3K  H4  H4  H  0  1  N  N  N  -37.928  3.809  4.770   2.714   1.498  -0.833  H4  P3K  14  
+P3K  H5  H5  H  0  1  N  N  N  -35.470  7.550  4.063  -0.320   2.338  -0.836  H5  P3K  15  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+P3K  O2  C7  SING  N  N   1  
+P3K  O1  C6  SING  N  N   2  
+P3K  C7  C6  DOUB  Y  N   3  
+P3K  C7  C2  SING  Y  N   4  
+P3K  C6  C5  SING  Y  N   5  
+P3K  N1  C1  TRIP  N  N   6  
+P3K  C1  C2  SING  N  N   7  
+P3K  C2  C3  DOUB  Y  N   8  
+P3K  C5  C4  DOUB  Y  N   9  
+P3K  C3  C4  SING  Y  N  10  
+P3K  C4  H1  SING  N  N  11  
+P3K  C5  H2  SING  N  N  12  
+P3K  C3  H3  SING  N  N  13  
+P3K  O1  H4  SING  N  N  14  
+P3K  O2  H5  SING  N  N  15  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+P3K  InChI             InChI                 1.03   "InChI=1S/C7H5NO2/c8-4-5-2-1-3-6(9)7(5)10/h1-3,9-10H"  
+P3K  InChIKey          InChI                 1.03   XHPDHXXZBWDFIB-UHFFFAOYSA-N  
+P3K  SMILES_CANONICAL  CACTVS                3.385  "Oc1cccc(C#N)c1O"  
+P3K  SMILES            CACTVS                3.385  "Oc1cccc(C#N)c1O"  
+P3K  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "c1cc(c(c(c1)O)O)C#N"  
+P3K  SMILES            "OpenEye OEToolkits"  2.0.7  "c1cc(c(c(c1)O)O)C#N"  
+#
+_pdbx_chem_comp_identifier.comp_id          P3K
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "2,3-bis(oxidanyl)benzenecarbonitrile"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+P3K  "Create component"  2020-04-14  PDBE  
+P3K  "Initial release"   2020-12-30  RCSB  
+##
+
