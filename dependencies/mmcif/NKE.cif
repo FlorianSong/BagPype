@@ -1,0 +1,114 @@
+data_NKE
+#
+
+_chem_comp.id                                   NKE
+_chem_comp.name                                 "4,7-bis(bromanyl)-1~{H}-benzotriazole"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C6 H3 Br2 N3"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2019-12-03
+_chem_comp.pdbx_modified_date                   2020-12-11
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       276.916
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    NKE
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6TLR
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBE
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+NKE  C1   C1   C   0  1  Y  N  N  69.630  19.031  27.305   0.685   1.594   0.008  C1   NKE   1  
+NKE  C2   C2   C   0  1  Y  N  N  69.965  19.596  26.067  -0.704   1.586   0.006  C2   NKE   2  
+NKE  C3   C3   C   0  1  Y  N  N  69.387  19.105  24.902  -1.395   0.409  -0.000  C3   NKE   3  
+NKE  C4   C4   C   0  1  Y  N  N  68.700  17.984  27.359   1.390   0.410   0.004  C4   NKE   4  
+NKE  C6   C5   C   0  1  Y  N  N  68.130  17.519  26.178   0.704  -0.800   0.003  C6   NKE   5  
+NKE  BR1  BR1  BR  0  0  N  N  N  68.206  17.164  29.029   3.281   0.430  -0.002  BR1  NKE   6  
+NKE  N5   N1   N   0  1  Y  N  N  67.217  16.546  25.910   1.093  -2.119  -0.000  N5   NKE   7  
+NKE  N9   N2   N   0  1  Y  N  N  67.013  16.502  24.592  -0.084  -2.882   0.002  N9   NKE   8  
+NKE  N8   N3   N   0  1  Y  N  N  67.772  17.415  24.005  -1.103  -2.097   0.005  N8   NKE   9  
+NKE  C7   C6   C   0  1  Y  N  N  68.480  18.071  24.963  -0.702  -0.809  -0.004  C7   NKE  10  
+NKE  BR2  BR2  BR  0  0  N  N  N  69.824  19.819  23.216  -3.286   0.422  -0.002  BR2  NKE  11  
+NKE  H1   H1   H   0  1  N  N  N  70.086  19.400  28.212   1.216   2.534   0.008  H1   NKE  12  
+NKE  H2   H2   H   0  1  N  N  N  70.671  20.412  26.018  -1.243   2.522   0.009  H2   NKE  13  
+NKE  H3   H3   H   0  1  N  N  N  66.773  15.961  26.588   2.003  -2.455  -0.004  H3   NKE  14  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+NKE  BR2  C3   SING  N  N   1  
+NKE  N8   N9   DOUB  Y  N   2  
+NKE  N8   C7   SING  Y  N   3  
+NKE  N9   N5   SING  Y  N   4  
+NKE  C3   C7   DOUB  Y  N   5  
+NKE  C3   C2   SING  Y  N   6  
+NKE  C7   C6   SING  Y  N   7  
+NKE  N5   C6   SING  Y  N   8  
+NKE  C2   C1   DOUB  Y  N   9  
+NKE  C6   C4   DOUB  Y  N  10  
+NKE  C1   C4   SING  Y  N  11  
+NKE  C4   BR1  SING  N  N  12  
+NKE  C1   H1   SING  N  N  13  
+NKE  C2   H2   SING  N  N  14  
+NKE  N5   H3   SING  N  N  15  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+NKE  InChI             InChI                 1.03   "InChI=1S/C6H3Br2N3/c7-3-1-2-4(8)6-5(3)9-11-10-6/h1-2H,(H,9,10,11)"  
+NKE  InChIKey          InChI                 1.03   OWEQSMBFLCRRMV-UHFFFAOYSA-N  
+NKE  SMILES_CANONICAL  CACTVS                3.385  "Brc1ccc(Br)c2nn[nH]c12"  
+NKE  SMILES            CACTVS                3.385  "Brc1ccc(Br)c2nn[nH]c12"  
+NKE  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "c1cc(c2c(c1Br)[nH]nn2)Br"  
+NKE  SMILES            "OpenEye OEToolkits"  2.0.7  "c1cc(c2c(c1Br)[nH]nn2)Br"  
+#
+_pdbx_chem_comp_identifier.comp_id          NKE
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "4,7-bis(bromanyl)-1~{H}-benzotriazole"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+NKE  "Create component"  2019-12-03  PDBE  
+NKE  "Initial release"   2020-12-16  RCSB  
+##
+
