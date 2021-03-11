@@ -148,6 +148,8 @@ class PDBParser(object):
                 }[trim_H]
             )
             self._strip_Hs(trim_H)
+        
+        self.fix_res_name_spacing()
 
         self.pdb_filename = self.pdb_filename[0:-4] + "_stripped.pdb"
         open(self.pdb_filename, "w").writelines(self.pdb_lines)
@@ -448,6 +450,21 @@ class PDBParser(object):
                         out_lines.append(line)
         with open(self.pdb_filename, "w") as fout:
             fout.writelines(out_lines)
+            
+        
+    def fix_res_name_spacing(self):
+        """ Just a small function that right aligns res_names, 
+            since it seems to break reduce if the space is on the right
+        """
+        out_lines = []
+        for line in self.pdb_lines:
+            if (line.startswith("ATOM") or line.startswith("HETATM")) and (" " in line[17:20]):
+                out_lines.append(line[:17] + "{:>3}".format(line[17:20].strip()) + line[20:])
+            else:
+                out_lines.append(line)
+        self.pdb_lines = out_lines
+
+
 
     def _renumber_atoms(self):
         # This function renumbers the ATOM and HETATM records following the output from reduce such that they can be treated by FIRST
