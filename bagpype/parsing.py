@@ -458,7 +458,7 @@ class PDBParser(object):
         """
         out_lines = []
         for line in self.pdb_lines:
-            if (line.startswith("ATOM") or line.startswith("HETATM")) and (" " in line[17:20]):
+            if (line.startswith("ATOM") or line.startswith("HETATM") or line.startswith("ANISOU")) and (" " in line[17:20]):
                 out_lines.append(line[:17] + "{:>3}".format(line[17:20].strip()) + line[20:])
             else:
                 out_lines.append(line)
