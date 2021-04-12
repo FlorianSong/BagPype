@@ -1132,9 +1132,9 @@ class Graph_constructor(object):
             if degree == 0:
                 if atom.res_name == "HOH":
                     raise GraphConstructionError(
-                        "The Oxygen {} has no covalent bonding partner. This was very likely caused by the REDUCE Software for Adding Hydrogens, "
-                        "which is unable to hydrogenate lone oxygens of water molecules. "
-                        "Please consider using different software to add hydrogens or use advanced settings "
+                        "The Oxygen {} has no covalent bonding partner. This is usually caused by the REDUCE Software for Adding Hydrogens, "
+                        "which is unable to hydrogenate lone oxygens of waters. "
+                        "Please use external software to add H's or the advanced settings "
                         "to strip water molecules."
                         "".format(
                             atom.id
