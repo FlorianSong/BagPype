@@ -1132,16 +1132,11 @@ class Graph_constructor(object):
             if degree == 0:
                 if atom.res_name == "HOH":
                     raise GraphConstructionError(
-                        # "Generic error."
-                        "The Oxygen {} has no covalent bonding partners. "
-                        # "Since this O belongs to a water molecule, 
-                        "This error was very likely to be caused by Reduce, "
-                        "a third-party software used to add hydrogens to PDB files. " 
-                        # " Unfortunately, "
-                        # "Reduce is not able to add hydrogens to single Oxygen atoms (belonging to waters). "
-                        # "If you would like to include water molecules "
-                        # "in the atomistic graph, "
-                        "Please consider using a different software to add hydrogen atoms. "
+                        "The Oxygen {} has no covalent bonding partner. This error was very likely to be caused by Reduce, "
+                        "a third-party software used to add hydrogens to PDB files. "
+                        "As Reduce is not able to add hydrogens to single oxygen atoms of water molecules, "
+                        "please consider using a different software to add hydrogens or use advanced settings "
+                        "to strip water molecules."
                         "".format(
                             atom.id
                         )
