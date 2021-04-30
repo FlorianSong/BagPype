@@ -1810,8 +1810,7 @@ class Graph_constructor(object):
                         for n in range(3):
                             electro += (
                                 # (-self.k_factor * 4.184 / 6.022)
-                                -1
-                                * (332 / epsilon)
+                                (332 / epsilon)
                                 * q1[m]
                                 * q2[n]
                                 / (np.linalg.norm(c1[m] - c2[n]))
