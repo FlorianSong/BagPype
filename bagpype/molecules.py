@@ -1,19 +1,17 @@
+"""
+The following classes are the key data structures, 
+representin atoms, bonds and proteins. 
+"""
+
 import numpy as np
 import warnings
 from bagpype.settings import capping_decimals
 
-##################################
-#                                #
-# The following classes are the  #
-# key data members, representing #
-# atoms, bonds and proteins      #
-#                                #
-##################################
-
 
 class Protein(object):
-    """ Stores information about atoms/residues/bonds and 
+    """Stores information about atoms/residues/bonds and
     an associated network of atoms and bonds.
+    This is the main object of bagpype.
     """
 
     def __init__(self, **kwargs):
@@ -29,12 +27,12 @@ class Protein(object):
         self.pdbNum_to_atomID = []
 
     def get_atoms(self, selection):
-        """ Returns atoms in specified residues.
+        """Returns atoms in specified residues.
 
         :param selection: List of residues with format (res_num, chain)
         :type selection: list of tuples
 
-        :returns: AtomList of atoms in the specified residues  
+        :returns: AtomList of atoms in the specified residues
         """
 
         atoms = AtomList()
@@ -48,26 +46,26 @@ class Protein(object):
 
 
 class AtomList(object):
-    """ Create a list of atoms. Provides interface to atoms which allows
-        accessing members of the list by their PDB number, retrieving 
+    """Create a list of atoms. Provides interface to atoms which allows
+        accessing members of the list by their PDB number, retrieving
         the coordinates of the atoms, and getting the id numbers of
         all atoms in the list.
-    
+
     Parameters
     -----------
-    atoms : list 
+    atoms : list
       Initial list of atoms
     """
 
     def __init__(self, atoms=None):
-        if not (atoms is None):
+        if not atoms is None:
             self.atoms = list(atoms)
         else:
             self.atoms = []
 
     def coordinates(self):
-        """ Returns an N x 3 matrix containing the coordinates of the 
-            atoms in the list"""
+        """Returns an N x 3 matrix containing the coordinates of the
+        atoms in the list"""
 
         nAtoms = len(self.atoms)
         coordinates = np.zeros((nAtoms, 3))
@@ -87,10 +85,10 @@ class AtomList(object):
     def find_by_PDBnum(self, idx):
         """Returns an AtomList containing atoms whose PDB ID number
         matches those in idx
-        
+
         Parameters
         ----------
-        idx : int or list of int 
+        idx : int or list of int
           PDB ID numbers of atoms to be found
         """
 
@@ -138,7 +136,7 @@ class AtomList(object):
 
 
 class BondList(object):
-    """ Create a list of bonds
+    """Create a list of bonds
 
     Parameters
     ----------
@@ -162,12 +160,12 @@ class BondList(object):
         return [bond.id for bond in self.bonds]
 
     def return_by_id(self, idx):
-        """ Return a list of bonds whose id matches those
+        """Return a list of bonds whose id matches those
         in idx.
-        
+
         Parameters
         ----------
-        idx : list of ints 
+        idx : list of ints
           List of ids for the bonds you would like returned
         """
         if isinstance(idx, int):
@@ -220,7 +218,7 @@ class Atom(object):
 
     Parameters
     ----------
-    id : int 
+    id : int
       unique id number for atom
     PDBnum : int
       number of the atom in the PDB file
@@ -234,7 +232,7 @@ class Atom(object):
       Number of the residue the atom belongs to (may include insertion code)
     res_name : str
       Name of the residue the atom belongs to
-    bfactor : float 
+    bfactor : float
       B-factor of the atom (measures uncertainty/disorder)
     xyz : tuple
       co-ordinates of the atom from the PDB file (x, y, z)
@@ -277,7 +275,11 @@ class Atom(object):
 
     def __repr__(self):
         return "<Atom{0:0>5}. {1:_>4} from residue {2:_>3}{3:0>3} in chain {4}>".format(
-            self.id, self.name, self.res_name, self.res_num, self.chain,
+            self.id,
+            self.name,
+            self.res_name,
+            self.res_num,
+            self.chain,
         )
 
 
@@ -290,10 +292,10 @@ class Bond(object):
       unique id number for the bond
     atom1 : :bagpype:Atom
       first atom forming the bond
-    atom2 : :bagpype:Atom 
+    atom2 : :bagpype:Atom
       second atom forming the bond
-    weight : float 
-      strength of the bond (in J/A^2)
+    weight : float
+      strength of the bond (in )
     bond_type : list of str
       Types of interaction contributing to the bond
     """
@@ -309,9 +311,9 @@ class Bond(object):
             self.bond_type = [types]
 
     def add_interaction(self, weight, types):
-        """ Adds a new contribution to the bond from 
-            a certain type of interation (covalent/hydrogen/
-            hydrophobic/electrostatic)
+        """Adds a new contribution to the bond from
+        a certain type of interation (covalent/hydrogen/
+        hydrophobic/electrostatic)
         """
 
         self.weight += weight
@@ -320,7 +322,7 @@ class Bond(object):
             self.bond_type.append(bond_type)
 
     def __eq__(self, bond):
-        """ Check if two bonds are the same (i.e. they link 
+        """Check if two bonds are the same (i.e. they link
         the same two atoms.
         """
 
@@ -336,10 +338,12 @@ class Bond(object):
         return not self.__eq__(bond)
 
     def __repr__(self):
-        return "<Bond{0:0>5}. {1:_>4} between atoms {2:0>3} & {3:0>3} of strength {4}>".format(
-            self.id,
-            ",".join(self.bond_type),
-            self.atom1.id,
-            self.atom2.id,
-            "{0:.{1}f}".format(self.weight, 2),
+        return (
+            "<Bond{0:0>5}. {1:_>4} between atoms {2:0>3} & {3:0>3} of strength {4}>".format(
+                self.id,
+                ",".join(self.bond_type),
+                self.atom1.id,
+                self.atom2.id,
+                "{0:.{1}f}".format(self.weight, 2),
+            )
         )
