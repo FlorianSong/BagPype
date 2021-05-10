@@ -1,5 +1,5 @@
 import urllib.request
-import os 
+import os
 
 
 url = "ftp://ftp.wwpdb.org/pub/pdb/data/monomers/components.cif"
@@ -16,7 +16,8 @@ with open(file_name) as f:
         if line.startswith("data"):
             current_file_connection.close()
             current_code = line[5:].strip()
-            if len(current_code) == 1: print(current_code)
+            if len(current_code) == 1:
+                print(current_code)
             # print(current_code)
             current_file = "mmcif/" + current_code + ".cif"
             current_file_connection = open(current_file, "w")
