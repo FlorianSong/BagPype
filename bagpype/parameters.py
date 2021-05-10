@@ -1,6 +1,28 @@
+"""
+A file full of all chemical parameters needed to run bagpype:
+* Single covalent bond dissociation energies
+* Double covalent bond dissociation energies
+* Triple covalent bond dissociation energies
+* Partial charges for a range of residues & small molecules
+* DNA pi and sigma charges (for DNA pi-pi stacking interactions)
+* Covalent distance cutoffs for manual overriding of:
+* Covalent radii for all elements in case there is no bond distance
+
+Also provided: A way to manually add covalent bond energies for non-standard residues
+"""
+
+# Some experimental structures that have not been published
+# will include non-standard residues. 
+# Use this mask to specify non-standard residue bond energies.
+non_standard_residues = {
+  "ABC": {"C": {"C": 12345678}}
+}
+
+
+
+
 # These are all from Huheey - Inorganic Chemistry - fourth edition
 # Except from James Speight - Lange's Handbook of Chemistry - Seventeenth edition: C-SE, BE-O, FE-S
-
 single_bond_energies = \
 {
   ('H', 'H') : 432, 
@@ -107,10 +129,6 @@ triple_bond_energies = {
 }
 
 
-
-non_standard_residues = {
-  "ABC": {"C": {"C": 12345678}}
-}
 
 
 charges = {#"ACE":{"CA":0,"C":0.38,"O":-0.38,},

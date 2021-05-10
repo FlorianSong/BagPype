@@ -5,7 +5,8 @@ import bagpype.covalent
 import bagpype.construction
 import bagpype.parsing
 
-import bagpype.settings  # for compatibility with the server for now
+import bagpype.settings
+
 from bagpype.molecules import Protein
 from bagpype.parsing import PDBParser
 from bagpype.construction import Graph_constructor
@@ -29,12 +30,13 @@ head_string = (
 print(head_string)
 # Finish importing with a random quote.
 import requests
+
 try:
     response = requests.get("https://api.quotable.io/random")
     if response.status_code == 200:
         response = response.json()
-        print('"' + response["content"] + '"') 
-        print("by " + response["author"] + "\n" )
+        print('"' + response["content"] + '"')
+        print("by " + response["author"] + "\n")
 except:
     pass
 ################################################
