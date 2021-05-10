@@ -7,10 +7,10 @@ _chem_comp.type                                 NON-POLYMER
 _chem_comp.pdbx_type                            HETAD
 _chem_comp.formula                              "C32 H44 N2 O9"
 _chem_comp.mon_nstd_parent_comp_id              ?
-_chem_comp.pdbx_synonyms                        "2-PYRROLIDINEACETAMIDE; 4-[6-(1,4-DIMETHYLSPIRO[2,9-DIOXABICYCLO[3.3.1]NON-6-ENE-8,2'-OXIRAN-3-YL)-1-HYDROXY-4-METHYL-2,4-HEPTADIENYLIDENE]-N,ALPHA-DIMETHYL-3,5-DIOXO-1-(TETRAHYDRO-5-HYDROXY-6-METHYL-2H-PYRAN-2-YL)-; PORTAMYCIN"
+_chem_comp.pdbx_synonyms                        "2-PYRROLIDINEACETAMIDE; PORTAMYCIN"
 _chem_comp.pdbx_formal_charge                   0
 _chem_comp.pdbx_initial_date                    2005-08-01
-_chem_comp.pdbx_modified_date                   2020-05-27
+_chem_comp.pdbx_modified_date                   2021-03-13
 _chem_comp.pdbx_ambiguous_flag                  N
 _chem_comp.pdbx_release_status                  REL
 _chem_comp.pdbx_replaced_by                     ?
@@ -264,5 +264,15 @@ _pdbx_chem_comp_audit.processing_site
 STD  "Create component"   2005-08-01  RCSB  
 STD  "Modify descriptor"  2011-06-04  RCSB  
 STD  "Modify synonyms"    2020-05-27  PDBE  
+STD  "Modify synonyms"    2021-03-13  RCSB  
+#   #
+loop_
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  STD  2-PYRROLIDINEACETAMIDE  ?  ?  
+2  STD  PORTAMYCIN              ?  ?  
 ##
 

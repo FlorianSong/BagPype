@@ -10,7 +10,7 @@ _chem_comp.mon_nstd_parent_comp_id              ?
 _chem_comp.pdbx_synonyms                        "19-NOR-14-EPI-23-YNE-1,25 DIHYDROXYVITAMIN D3; TX522"
 _chem_comp.pdbx_formal_charge                   0
 _chem_comp.pdbx_initial_date                    2004-07-12
-_chem_comp.pdbx_modified_date                   2020-10-23
+_chem_comp.pdbx_modified_date                   2021-03-13
 _chem_comp.pdbx_ambiguous_flag                  N
 _chem_comp.pdbx_release_status                  REL
 _chem_comp.pdbx_replaced_by                     ?
@@ -222,5 +222,15 @@ _pdbx_chem_comp_audit.processing_site
 TX5  "Create component"   2004-07-12  RCSB  
 TX5  "Modify descriptor"  2011-06-04  RCSB  
 TX5  "Modify synonyms"    2020-05-27  PDBE  
+TX5  "Modify synonyms"    2021-03-13  RCSB  
+#   #
+loop_
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  TX5  "19-NOR-14-EPI-23-YNE-1,25 DIHYDROXYVITAMIN D3"  PDB  ?  
+2  TX5  TX522                                            PDB  ?  
 ##
 

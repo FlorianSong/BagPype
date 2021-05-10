@@ -10,9 +10,9 @@ _chem_comp.mon_nstd_parent_comp_id              ?
 _chem_comp.pdbx_synonyms                        ?
 _chem_comp.pdbx_formal_charge                   0
 _chem_comp.pdbx_initial_date                    2001-10-04
-_chem_comp.pdbx_modified_date                   2009-03-13
+_chem_comp.pdbx_modified_date                   2021-03-29
 _chem_comp.pdbx_ambiguous_flag                  Y
-_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_release_status                  OBS
 _chem_comp.pdbx_replaced_by                     ?
 _chem_comp.pdbx_replaces                        ?
 _chem_comp.formula_weight                       303.509
@@ -22,7 +22,7 @@ _chem_comp.pdbx_model_coordinates_details       ?
 _chem_comp.pdbx_model_coordinates_missing_flag  N
 _chem_comp.pdbx_ideal_coordinates_details       Corina
 _chem_comp.pdbx_ideal_coordinates_missing_flag  Y
-_chem_comp.pdbx_model_coordinates_db_code       ?
+_chem_comp.pdbx_model_coordinates_db_code       1GN9
 _chem_comp.pdbx_subcomponent_list               ?
 _chem_comp.pdbx_processing_site                 EBI
 #   #
@@ -83,5 +83,15 @@ FSF  SMILES_CANONICAL  CACTVS                3.341  "[Fe]|1|2S[Fe]3|1O[Fe][Fe]S|
 FSF  SMILES            CACTVS                3.341  "[Fe]|1|2S[Fe]3|1O[Fe][Fe]S|23"  
 FSF  SMILES_CANONICAL  "OpenEye OEToolkits"  1.5.0  O1[Fe][Fe][S@]2[Fe@]13[Fe]2S3  
 FSF  SMILES            "OpenEye OEToolkits"  1.5.0  O1[Fe][Fe][S]2[Fe]13[Fe]2S3  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+FSF  "Create component"    2007-08-17  PDBE  
+FSF  "Initial release"     2008-10-15  RCSB  
+FSF  "Other modification"  2009-03-13  PDBE  
+FSF  "Obsolete component"  2021-03-29  PDBE  
 ##
 

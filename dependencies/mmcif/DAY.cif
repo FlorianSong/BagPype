@@ -10,7 +10,7 @@ _chem_comp.mon_nstd_parent_comp_id              ?
 _chem_comp.pdbx_synonyms                        "Deacylcortivazol; 11beta,17,21-Trihydroxy-6,16alpha-dimethyl-2'-phenyl-2'H-pregna-2,4,6-trieno(3,2-c)pyrazol-20-one; 2'H-Pregna-2,4,6-trieno(3,2-c)pyrazol-20-one; 11,17,21-trihydroxy-6,16-dimethyl-2'-phenyl-(11beta,16alpha)-(9CI); 6,16A-DIMETHYLPREGNA-4,6-DIENE-11B,17A,21-TRIOL-20-ONE-2'-PHENYL-(3,2-C)- PYRAZO"
 _chem_comp.pdbx_formal_charge                   0
 _chem_comp.pdbx_initial_date                    2008-01-02
-_chem_comp.pdbx_modified_date                   2020-05-27
+_chem_comp.pdbx_modified_date                   2021-03-13
 _chem_comp.pdbx_ambiguous_flag                  N
 _chem_comp.pdbx_release_status                  REL
 _chem_comp.pdbx_replaced_by                     ?
@@ -233,5 +233,18 @@ DAY  "Create component"      2008-01-02  RCSB
 DAY  "Modify aromatic_flag"  2011-06-04  RCSB  
 DAY  "Modify descriptor"     2011-06-04  RCSB  
 DAY  "Modify synonyms"       2020-05-27  PDBE  
+DAY  "Modify synonyms"       2021-03-13  RCSB  
+#   #
+loop_
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  DAY  Deacylcortivazol                                                                                     ?  ?  
+2  DAY  "6,16A-DIMETHYLPREGNA-4,6-DIENE-11B,17A,21-TRIOL-20-ONE-2'-PHENYL-(3,2-C)- PYRAZO"                   ?  ?  
+3  DAY  "2'H-Pregna-2,4,6-trieno(3,2-c)pyrazol-20-one"                                                       ?  ?  
+4  DAY  "11,17,21-trihydroxy-6,16-dimethyl-2'-phenyl-(11beta,16alpha)-(9CI)"                                 ?  ?  
+5  DAY  "11beta,17,21-Trihydroxy-6,16alpha-dimethyl-2'-phenyl-2'H-pregna-2,4,6-trieno(3,2-c)pyrazol-20-one"  ?  ?  
 ##
 

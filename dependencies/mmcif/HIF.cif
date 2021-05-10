@@ -10,7 +10,7 @@ _chem_comp.mon_nstd_parent_comp_id              ?
 _chem_comp.pdbx_synonyms                        "FE-MESOPONE; (8,12-DIETHYL-3,8,13,17-TETRAMETHYL-7-OXO-PORPHYRINATO-2,18-DIPROPIONIC ACID)IRON(III)"
 _chem_comp.pdbx_formal_charge                   0
 _chem_comp.pdbx_initial_date                    2002-01-22
-_chem_comp.pdbx_modified_date                   2020-06-17
+_chem_comp.pdbx_modified_date                   2021-03-13
 _chem_comp.pdbx_ambiguous_flag                  Y
 _chem_comp.pdbx_release_status                  REL
 _chem_comp.pdbx_replaced_by                     ?
@@ -234,16 +234,22 @@ HIF  SMILES_CANONICAL  CACTVS                3.341  "CCc1c(C)c2C=C3N|4=C(C=c5n6[
 HIF  SMILES            CACTVS                3.341  "CCc1c(C)c2C=C3N|4=C(C=c5n6[Fe]7|4|N8=C(C=c6c(C)c5CCC(O)=O)C(=O)[C](C)(CC)C8=Cc1n27)C(=C3C)CCC(O)=O"  
 HIF  SMILES_CANONICAL  "OpenEye OEToolkits"  1.5.0  "CCc1c(c2n3c1C=C4[C@](C(=O)C5=[N]4[Fe]36[N]7=C(C=C8N6C(=C5)C(=C8CCC(=O)O)C)C(=C(C7=C2)C)CCC(=O)O)(C)CC)C"  
 HIF  SMILES            "OpenEye OEToolkits"  1.5.0  "CCc1c(c2n3c1C=C4C(C(=O)C5=[N]4[Fe]36[N]7=C(C=C8N6C(=C5)C(=C8CCC(=O)O)C)C(=C(C7=C2)C)CCC(=O)O)(C)CC)C"  
-#
-_pdbx_chem_comp_audit.comp_id          HIF
-_pdbx_chem_comp_audit.date             2020-06-11
-_pdbx_chem_comp_audit.processing_site  PDBE
-_pdbx_chem_comp_audit.action_type      "Modify synonyms"
-#
-_pdbx_chem_comp_synonyms.ordinal     1
-_pdbx_chem_comp_synonyms.comp_id     HIF
-_pdbx_chem_comp_synonyms.name        "FE-MESOPONE; (8,12-DIETHYL-3,8,13,17-TETRAMETHYL-7-OXO-PORPHYRINATO-2,18-DIPROPIONIC ACID)IRON(III)"
-_pdbx_chem_comp_synonyms.provenance  ?
-_pdbx_chem_comp_synonyms.type        ?
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+_pdbx_chem_comp_audit.action_type
+HIF  2020-06-11  PDBE  "Modify synonyms"  
+HIF  2021-03-13  RCSB  "Modify synonyms"  
+#   #
+loop_
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  HIF  "(8,12-DIETHYL-3,8,13,17-TETRAMETHYL-7-OXO-PORPHYRINATO-2,18-DIPROPIONIC ACID)IRON(III)"  ?  ?  
+2  HIF  FE-MESOPONE                                                                               ?  ?  
 ##
 

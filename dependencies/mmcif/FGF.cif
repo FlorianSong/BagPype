@@ -7,10 +7,10 @@ _chem_comp.type                                 NON-POLYMER
 _chem_comp.pdbx_type                            HETAIN
 _chem_comp.formula                              "C25 H30 N8 O4"
 _chem_comp.mon_nstd_parent_comp_id              ?
-_chem_comp.pdbx_synonyms                        "Roblitinib,FGF-401"
+_chem_comp.pdbx_synonyms                        "Roblitinib; FGF-401"
 _chem_comp.pdbx_formal_charge                   0
 _chem_comp.pdbx_initial_date                    2019-04-02
-_chem_comp.pdbx_modified_date                   2019-05-10
+_chem_comp.pdbx_modified_date                   2021-03-13
 _chem_comp.pdbx_ambiguous_flag                  N
 _chem_comp.pdbx_release_status                  REL
 _chem_comp.pdbx_replaced_by                     ?
@@ -218,5 +218,15 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site
 FGF  "Create component"  2019-04-02  PDBJ  
 FGF  "Initial release"   2019-05-15  RCSB  
+FGF  "Modify synonyms"   2021-03-13  RCSB  
+#   #
+loop_
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  FGF  Roblitinib  PDB  ?  
+2  FGF  FGF-401     PDB  ?  
 ##
 

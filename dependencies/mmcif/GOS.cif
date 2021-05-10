@@ -1,159 +1,167 @@
 data_GOS
-# 
-_chem_comp.id                                    GOS 
-_chem_comp.name                                  D-Glucitol-1,6-bisphosphate 
-_chem_comp.type                                  NON-POLYMER 
-_chem_comp.pdbx_type                             HETAIN 
-_chem_comp.formula                               "C6 H16 O12 P2" 
-_chem_comp.mon_nstd_parent_comp_id               ? 
-_chem_comp.pdbx_synonyms                         1,6-di-O-phosphono-D-glucitol 
-_chem_comp.pdbx_formal_charge                    0 
-_chem_comp.pdbx_initial_date                     2017-04-20 
-_chem_comp.pdbx_modified_date                    2018-04-06 
-_chem_comp.pdbx_ambiguous_flag                   N 
-_chem_comp.pdbx_release_status                   REL 
-_chem_comp.pdbx_replaced_by                      ? 
-_chem_comp.pdbx_replaces                         ? 
-_chem_comp.formula_weight                        342.132 
-_chem_comp.one_letter_code                       ? 
-_chem_comp.three_letter_code                     GOS 
-_chem_comp.pdbx_model_coordinates_details        ? 
-_chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
-_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
-_chem_comp.pdbx_model_coordinates_db_code        5VJE 
-_chem_comp.pdbx_subcomponent_list                ? 
-_chem_comp.pdbx_processing_site                  RCSB 
-# 
+#
+
+_chem_comp.id                                   GOS
+_chem_comp.name                                 "D-Glucitol-1,6-bisphosphate"
+_chem_comp.type                                 NON-POLYMER
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C6 H16 O12 P2"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        "1,6-di-O-phosphono-D-glucitol"
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2017-04-20
+_chem_comp.pdbx_modified_date                   2021-03-13
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       342.132
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    GOS
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       5VJE
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
 loop_
-_chem_comp_atom.comp_id 
-_chem_comp_atom.atom_id 
-_chem_comp_atom.alt_atom_id 
-_chem_comp_atom.type_symbol 
-_chem_comp_atom.charge 
-_chem_comp_atom.pdbx_align 
-_chem_comp_atom.pdbx_aromatic_flag 
-_chem_comp_atom.pdbx_leaving_atom_flag 
-_chem_comp_atom.pdbx_stereo_config 
-_chem_comp_atom.model_Cartn_x 
-_chem_comp_atom.model_Cartn_y 
-_chem_comp_atom.model_Cartn_z 
-_chem_comp_atom.pdbx_model_Cartn_x_ideal 
-_chem_comp_atom.pdbx_model_Cartn_y_ideal 
-_chem_comp_atom.pdbx_model_Cartn_z_ideal 
-_chem_comp_atom.pdbx_component_atom_id 
-_chem_comp_atom.pdbx_component_comp_id 
-_chem_comp_atom.pdbx_ordinal 
-GOS C1  C1  C 0 1 N N N -6.806  -33.033 61.365 3.132  -0.367 0.088  C1  GOS 1  
-GOS C2  C2  C 0 1 N N S -6.198  -34.396 61.634 1.862  0.268  -0.484 C2  GOS 2  
-GOS C3  C3  C 0 1 N N R -4.676  -34.282 61.608 0.640  -0.524 -0.016 C3  GOS 3  
-GOS C4  C4  C 0 1 N N R -4.139  -34.580 60.209 -0.635 0.181  -0.484 C4  GOS 4  
-GOS C5  C5  C 0 1 N N R -3.075  -33.553 59.899 -1.856 -0.540 0.089  C5  GOS 5  
-GOS C6  C6  C 0 1 N N N -2.293  -33.786 58.611 -3.131 0.165  -0.379 C6  GOS 6  
-GOS O1  O1  O 0 1 N N N -8.136  -33.240 60.927 4.279  0.301  -0.442 O1  GOS 7  
-GOS O11 O2  O 0 1 N N N -10.244 -32.540 59.794 6.036  0.181  1.510  O11 GOS 8  
-GOS O12 O3  O 0 1 N N N -8.050  -31.448 59.212 5.996  -1.546 -0.331 O12 GOS 9  
-GOS O13 O4  O 0 1 N N N -9.104  -30.963 61.404 6.820  0.762  -0.932 O13 GOS 10 
-GOS O2  O5  O 0 1 N N N -6.728  -34.853 62.884 1.758  1.618  -0.028 O2  GOS 11 
-GOS O3  O6  O 0 1 N N N -4.056  -35.203 62.498 0.643  -0.605 1.411  O3  GOS 12 
-GOS O4  O7  O 0 1 N N N -3.616  -35.901 60.185 -0.624 1.536  -0.028 O4  GOS 13 
-GOS O5  O8  O 0 1 N N N -3.802  -32.356 59.737 -1.866 -1.895 -0.367 O5  GOS 14 
-GOS O6  O9  O 0 1 N N N -1.340  -32.731 58.464 -4.265 -0.437 0.248  O6  GOS 15 
-GOS O61 O10 O 0 1 N N N -1.177  -32.297 55.947 -6.057 0.029  -1.467 O61 GOS 16 
-GOS O62 O11 O 0 1 N N N 0.203   -34.098 57.022 -6.800 -0.925 0.749  O62 GOS 17 
-GOS O63 O12 O 0 1 N N N 0.700   -31.688 57.475 -5.955 1.556  0.540  O63 GOS 18 
-GOS P1  P1  P 0 1 N N N -8.925  -31.991 60.310 5.787  -0.107 -0.055 P1  GOS 19 
-GOS P6  P2  P 0 1 N N N -0.374  -32.700 57.180 -5.776 0.055  -0.014 P6  GOS 20 
-GOS H12 H1  H 0 1 N N N -6.231  -32.512 60.586 3.126  -0.274 1.174  H12 GOS 21 
-GOS H11 H2  H 0 1 N N N -6.803  -32.432 62.286 3.166  -1.421 -0.186 H11 GOS 22 
-GOS H21 H3  H 0 1 N N N -6.507  -35.080 60.830 1.909  0.255  -1.573 H21 GOS 23 
-GOS H31 H4  H 0 1 N N N -4.397  -33.253 61.878 0.675  -1.529 -0.437 H31 GOS 24 
-GOS H41 H5  H 0 1 N N N -4.959  -34.479 59.483 -0.680 0.165  -1.572 H41 GOS 25 
-GOS H51 H6  H 0 1 N N N -2.375  -33.480 60.744 -1.810 -0.524 1.178  H51 GOS 26 
-GOS H61 H7  H 0 1 N N N -2.982  -33.787 57.753 -3.083 1.219  -0.108 H61 GOS 27 
-GOS H62 H8  H 0 1 N N N -1.771  -34.753 58.663 -3.221 0.071  -1.461 H62 GOS 28 
-GOS H1  H9  H 0 1 N N N -10.281 -32.440 58.850 5.917  1.107  1.763  H1  GOS 29 
-GOS H2  H10 H 0 1 N N N -8.625  -30.174 61.179 7.750  0.569  -0.750 H2  GOS 30 
-GOS H22 H11 H 0 1 N N N -6.368  -35.708 63.087 1.713  1.706  0.933  H22 GOS 31 
-GOS H32 H12 H 0 1 N N N -4.367  -35.048 63.382 0.613  0.254  1.854  H32 GOS 32 
-GOS H42 H13 H 0 1 N N N -4.309  -36.520 60.383 -0.585 1.626  0.934  H42 GOS 33 
-GOS H52 H14 H 0 1 N N N -4.303  -32.180 60.525 -1.906 -1.986 -1.329 H52 GOS 34 
-GOS H3  H15 H 0 1 N N N -0.051  -34.452 56.178 -7.730 -0.688 0.635  H3  GOS 35 
-GOS H4  H16 H 0 1 N N N 0.666   -30.992 56.830 -5.786 1.648  1.488  H4  GOS 36 
-# 
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+GOS  C1   C1   C  0  1  N  N  N   -6.806  -33.033  61.365   3.132  -0.367   0.088  C1   GOS   1  
+GOS  C2   C2   C  0  1  N  N  S   -6.198  -34.396  61.634   1.862   0.268  -0.484  C2   GOS   2  
+GOS  C3   C3   C  0  1  N  N  R   -4.676  -34.282  61.608   0.640  -0.524  -0.016  C3   GOS   3  
+GOS  C4   C4   C  0  1  N  N  R   -4.139  -34.580  60.209  -0.635   0.181  -0.484  C4   GOS   4  
+GOS  C5   C5   C  0  1  N  N  R   -3.075  -33.553  59.899  -1.856  -0.540   0.089  C5   GOS   5  
+GOS  C6   C6   C  0  1  N  N  N   -2.293  -33.786  58.611  -3.131   0.165  -0.379  C6   GOS   6  
+GOS  O1   O1   O  0  1  N  N  N   -8.136  -33.240  60.927   4.279   0.301  -0.442  O1   GOS   7  
+GOS  O11  O2   O  0  1  N  N  N  -10.244  -32.540  59.794   6.036   0.181   1.510  O11  GOS   8  
+GOS  O12  O3   O  0  1  N  N  N   -8.050  -31.448  59.212   5.996  -1.546  -0.331  O12  GOS   9  
+GOS  O13  O4   O  0  1  N  N  N   -9.104  -30.963  61.404   6.820   0.762  -0.932  O13  GOS  10  
+GOS  O2   O5   O  0  1  N  N  N   -6.728  -34.853  62.884   1.758   1.618  -0.028  O2   GOS  11  
+GOS  O3   O6   O  0  1  N  N  N   -4.056  -35.203  62.498   0.643  -0.605   1.411  O3   GOS  12  
+GOS  O4   O7   O  0  1  N  N  N   -3.616  -35.901  60.185  -0.624   1.536  -0.028  O4   GOS  13  
+GOS  O5   O8   O  0  1  N  N  N   -3.802  -32.356  59.737  -1.866  -1.895  -0.367  O5   GOS  14  
+GOS  O6   O9   O  0  1  N  N  N   -1.340  -32.731  58.464  -4.265  -0.437   0.248  O6   GOS  15  
+GOS  O61  O10  O  0  1  N  N  N   -1.177  -32.297  55.947  -6.057   0.029  -1.467  O61  GOS  16  
+GOS  O62  O11  O  0  1  N  N  N    0.203  -34.098  57.022  -6.800  -0.925   0.749  O62  GOS  17  
+GOS  O63  O12  O  0  1  N  N  N    0.700  -31.688  57.475  -5.955   1.556   0.540  O63  GOS  18  
+GOS  P1   P1   P  0  1  N  N  N   -8.925  -31.991  60.310   5.787  -0.107  -0.055  P1   GOS  19  
+GOS  P6   P2   P  0  1  N  N  N   -0.374  -32.700  57.180  -5.776   0.055  -0.014  P6   GOS  20  
+GOS  H12  H1   H  0  1  N  N  N   -6.231  -32.512  60.586   3.126  -0.274   1.174  H12  GOS  21  
+GOS  H11  H2   H  0  1  N  N  N   -6.803  -32.432  62.286   3.166  -1.421  -0.186  H11  GOS  22  
+GOS  H21  H3   H  0  1  N  N  N   -6.507  -35.080  60.830   1.909   0.255  -1.573  H21  GOS  23  
+GOS  H31  H4   H  0  1  N  N  N   -4.397  -33.253  61.878   0.675  -1.529  -0.437  H31  GOS  24  
+GOS  H41  H5   H  0  1  N  N  N   -4.959  -34.479  59.483  -0.680   0.165  -1.572  H41  GOS  25  
+GOS  H51  H6   H  0  1  N  N  N   -2.375  -33.480  60.744  -1.810  -0.524   1.178  H51  GOS  26  
+GOS  H61  H7   H  0  1  N  N  N   -2.982  -33.787  57.753  -3.083   1.219  -0.108  H61  GOS  27  
+GOS  H62  H8   H  0  1  N  N  N   -1.771  -34.753  58.663  -3.221   0.071  -1.461  H62  GOS  28  
+GOS  H1   H9   H  0  1  N  N  N  -10.281  -32.440  58.850   5.917   1.107   1.763  H1   GOS  29  
+GOS  H2   H10  H  0  1  N  N  N   -8.625  -30.174  61.179   7.750   0.569  -0.750  H2   GOS  30  
+GOS  H22  H11  H  0  1  N  N  N   -6.368  -35.708  63.087   1.713   1.706   0.933  H22  GOS  31  
+GOS  H32  H12  H  0  1  N  N  N   -4.367  -35.048  63.382   0.613   0.254   1.854  H32  GOS  32  
+GOS  H42  H13  H  0  1  N  N  N   -4.309  -36.520  60.383  -0.585   1.626   0.934  H42  GOS  33  
+GOS  H52  H14  H  0  1  N  N  N   -4.303  -32.180  60.525  -1.906  -1.986  -1.329  H52  GOS  34  
+GOS  H3   H15  H  0  1  N  N  N   -0.051  -34.452  56.178  -7.730  -0.688   0.635  H3   GOS  35  
+GOS  H4   H16  H  0  1  N  N  N    0.666  -30.992  56.830  -5.786   1.648   1.488  H4   GOS  36  
+#   #
 loop_
-_chem_comp_bond.comp_id 
-_chem_comp_bond.atom_id_1 
-_chem_comp_bond.atom_id_2 
-_chem_comp_bond.value_order 
-_chem_comp_bond.pdbx_aromatic_flag 
-_chem_comp_bond.pdbx_stereo_config 
-_chem_comp_bond.pdbx_ordinal 
-GOS O61 P6  DOUB N N 1  
-GOS O62 P6  SING N N 2  
-GOS P6  O63 SING N N 3  
-GOS P6  O6  SING N N 4  
-GOS O6  C6  SING N N 5  
-GOS C6  C5  SING N N 6  
-GOS O12 P1  DOUB N N 7  
-GOS O5  C5  SING N N 8  
-GOS O11 P1  SING N N 9  
-GOS C5  C4  SING N N 10 
-GOS O4  C4  SING N N 11 
-GOS C4  C3  SING N N 12 
-GOS P1  O1  SING N N 13 
-GOS P1  O13 SING N N 14 
-GOS O1  C1  SING N N 15 
-GOS C1  C2  SING N N 16 
-GOS C3  C2  SING N N 17 
-GOS C3  O3  SING N N 18 
-GOS C2  O2  SING N N 19 
-GOS C1  H12 SING N N 20 
-GOS C1  H11 SING N N 21 
-GOS C2  H21 SING N N 22 
-GOS C3  H31 SING N N 23 
-GOS C4  H41 SING N N 24 
-GOS C5  H51 SING N N 25 
-GOS C6  H61 SING N N 26 
-GOS C6  H62 SING N N 27 
-GOS O11 H1  SING N N 28 
-GOS O13 H2  SING N N 29 
-GOS O2  H22 SING N N 30 
-GOS O3  H32 SING N N 31 
-GOS O4  H42 SING N N 32 
-GOS O5  H52 SING N N 33 
-GOS O62 H3  SING N N 34 
-GOS O63 H4  SING N N 35 
-# 
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+GOS  O61  P6   DOUB  N  N   1  
+GOS  O62  P6   SING  N  N   2  
+GOS  P6   O63  SING  N  N   3  
+GOS  P6   O6   SING  N  N   4  
+GOS  O6   C6   SING  N  N   5  
+GOS  C6   C5   SING  N  N   6  
+GOS  O12  P1   DOUB  N  N   7  
+GOS  O5   C5   SING  N  N   8  
+GOS  O11  P1   SING  N  N   9  
+GOS  C5   C4   SING  N  N  10  
+GOS  O4   C4   SING  N  N  11  
+GOS  C4   C3   SING  N  N  12  
+GOS  P1   O1   SING  N  N  13  
+GOS  P1   O13  SING  N  N  14  
+GOS  O1   C1   SING  N  N  15  
+GOS  C1   C2   SING  N  N  16  
+GOS  C3   C2   SING  N  N  17  
+GOS  C3   O3   SING  N  N  18  
+GOS  C2   O2   SING  N  N  19  
+GOS  C1   H12  SING  N  N  20  
+GOS  C1   H11  SING  N  N  21  
+GOS  C2   H21  SING  N  N  22  
+GOS  C3   H31  SING  N  N  23  
+GOS  C4   H41  SING  N  N  24  
+GOS  C5   H51  SING  N  N  25  
+GOS  C6   H61  SING  N  N  26  
+GOS  C6   H62  SING  N  N  27  
+GOS  O11  H1   SING  N  N  28  
+GOS  O13  H2   SING  N  N  29  
+GOS  O2   H22  SING  N  N  30  
+GOS  O3   H32  SING  N  N  31  
+GOS  O4   H42  SING  N  N  32  
+GOS  O5   H52  SING  N  N  33  
+GOS  O62  H3   SING  N  N  34  
+GOS  O63  H4   SING  N  N  35  
+#   #
 loop_
-_pdbx_chem_comp_descriptor.comp_id 
-_pdbx_chem_comp_descriptor.type 
-_pdbx_chem_comp_descriptor.program 
-_pdbx_chem_comp_descriptor.program_version 
-_pdbx_chem_comp_descriptor.descriptor 
-GOS SMILES           ACDLabs              12.01 "C(C(O)C(O)C(C(COP(=O)(O)O)O)O)OP(O)(=O)O"                                                                                           
-GOS InChI            InChI                1.03  "InChI=1S/C6H16O12P2/c7-3(1-17-19(11,12)13)5(9)6(10)4(8)2-18-20(14,15)16/h3-10H,1-2H2,(H2,11,12,13)(H2,14,15,16)/t3-,4+,5-,6-/m1/s1" 
-GOS InChIKey         InChI                1.03  WOYYTQHMNDWRCW-JGWLITMVSA-N                                                                                                          
-GOS SMILES_CANONICAL CACTVS               3.385 "O[C@@H](CO[P](O)(O)=O)[C@@H](O)[C@H](O)[C@H](O)CO[P](O)(O)=O"                                                                       
-GOS SMILES           CACTVS               3.385 "O[CH](CO[P](O)(O)=O)[CH](O)[CH](O)[CH](O)CO[P](O)(O)=O"                                                                             
-GOS SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C([C@H]([C@H]([C@@H]([C@H](COP(=O)(O)O)O)O)O)O)OP(=O)(O)O"                                                                          
-GOS SMILES           "OpenEye OEToolkits" 2.0.6 "C(C(C(C(C(COP(=O)(O)O)O)O)O)O)OP(=O)(O)O"                                                                                           
-# 
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+GOS  SMILES            ACDLabs               12.01  "C(C(O)C(O)C(C(COP(=O)(O)O)O)O)OP(O)(=O)O"  
+GOS  InChI             InChI                 1.03   "InChI=1S/C6H16O12P2/c7-3(1-17-19(11,12)13)5(9)6(10)4(8)2-18-20(14,15)16/h3-10H,1-2H2,(H2,11,12,13)(H2,14,15,16)/t3-,4+,5-,6-/m1/s1"  
+GOS  InChIKey          InChI                 1.03   WOYYTQHMNDWRCW-JGWLITMVSA-N  
+GOS  SMILES_CANONICAL  CACTVS                3.385  "O[C@@H](CO[P](O)(O)=O)[C@@H](O)[C@H](O)[C@H](O)CO[P](O)(O)=O"  
+GOS  SMILES            CACTVS                3.385  "O[CH](CO[P](O)(O)=O)[CH](O)[CH](O)[CH](O)CO[P](O)(O)=O"  
+GOS  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.6  "C([C@H]([C@H]([C@@H]([C@H](COP(=O)(O)O)O)O)O)O)OP(=O)(O)O"  
+GOS  SMILES            "OpenEye OEToolkits"  2.0.6  "C(C(C(C(C(COP(=O)(O)O)O)O)O)O)OP(=O)(O)O"  
+#   #
 loop_
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-GOS "SYSTEMATIC NAME" ACDLabs              12.01 1,6-di-O-phosphono-D-glucitol                                                                      
-GOS "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.6 "[(2~{S},3~{R},4~{R},5~{R})-2,3,4,5-tetrakis(oxidanyl)-6-phosphonooxy-hexyl] dihydrogen phosphate" 
-# 
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+GOS  "SYSTEMATIC NAME"  ACDLabs               12.01  "1,6-di-O-phosphono-D-glucitol"  
+GOS  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.6  "[(2~{S},3~{R},4~{R},5~{R})-2,3,4,5-tetrakis(oxidanyl)-6-phosphonooxy-hexyl] dihydrogen phosphate"  
+#   #
 loop_
-_pdbx_chem_comp_audit.comp_id 
-_pdbx_chem_comp_audit.action_type 
-_pdbx_chem_comp_audit.date 
-_pdbx_chem_comp_audit.processing_site 
-GOS "Create component" 2017-04-20 RCSB 
-GOS "Initial release"  2018-04-11 RCSB 
-# 
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+GOS  "Create component"  2017-04-20  RCSB  
+GOS  "Initial release"   2018-04-11  RCSB  
+GOS  "Modify synonyms"   2021-03-13  RCSB  
+#
+_pdbx_chem_comp_synonyms.ordinal     1
+_pdbx_chem_comp_synonyms.comp_id     GOS
+_pdbx_chem_comp_synonyms.name        "1,6-di-O-phosphono-D-glucitol"
+_pdbx_chem_comp_synonyms.provenance  PDB
+_pdbx_chem_comp_synonyms.type        ?
+##
 

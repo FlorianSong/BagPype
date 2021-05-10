@@ -7,10 +7,10 @@ _chem_comp.type                                 NON-POLYMER
 _chem_comp.pdbx_type                            HETAIN
 _chem_comp.formula                              "C24 H22 F N4 O3 Ru S4"
 _chem_comp.mon_nstd_parent_comp_id              ?
-_chem_comp.pdbx_synonyms                        "(3-fluoro-9-methoxypyrido[2,3-a]pyrrolo[3,4-c]carbazole-5,7(6H,12H)-dionato)(1,4,7-trithiacyclodecan)ruthenium(II)-isothiocyanate, EM5"
+_chem_comp.pdbx_synonyms                        "(3-fluoro-9-methoxypyrido[2,3-a]pyrrolo[3,4-c]carbazole-5,7(6H,12H)-dionato)(1,4,7-trithiacyclodecan)ruthenium(II)-isothiocyanate; EM5"
 _chem_comp.pdbx_formal_charge                   0
 _chem_comp.pdbx_initial_date                    2014-12-21
-_chem_comp.pdbx_modified_date                   2015-01-16
+_chem_comp.pdbx_modified_date                   2021-03-13
 _chem_comp.pdbx_ambiguous_flag                  N
 _chem_comp.pdbx_release_status                  REL
 _chem_comp.pdbx_replaced_by                     ?
@@ -208,5 +208,15 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site
 3T3  "Create component"  2014-12-21  RCSB  
 3T3  "Initial release"   2015-01-21  RCSB  
+3T3  "Modify synonyms"   2021-03-13  RCSB  
+#   #
+loop_
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1  3T3  "(3-fluoro-9-methoxypyrido[2,3-a]pyrrolo[3,4-c]carbazole-5,7(6H,12H)-dionato)(1,4,7-trithiacyclodecan)ruthenium(II)-isothiocyanate"  PDB  ?  
+2  3T3  EM5                                                                                                                                  PDB  ?  
 ##
 
