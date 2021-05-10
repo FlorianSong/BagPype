@@ -1,10 +1,10 @@
-import networkx as nx
 import os
 import sys
 import subprocess
 from collections import defaultdict
 import string
 import numpy as np
+import networkx as nx
 
 import bagpype.molecules
 
@@ -19,23 +19,21 @@ import dependencies.MakeMultimer
 
 
 class PDBParser(object):
-    """Class for loading information on atoms and residues 
-    from specified PDB file. 
+    """Main class for loading information on atoms and residues
+    from specified PDB file.
 
     Parameters
     -----------
-    pdb_filename : str 
+    pdb_filename : str
       PDB ID or file name
     """
 
     def __init__(self, pdb_filename, download=False):
-        # self.pdb = pdb_filename
-        # filename after adding hydrogens/stripping unwanted atoms etc.
         self.pdb_filename = pdb_filename
 
         if download:
             import urllib.request
-            
+
             path_split = pdb_filename.split("/")
             folders = path_split[:-1]
             path = "/".join(folders)
@@ -60,7 +58,7 @@ class PDBParser(object):
         MakeMultimer_number=1,
         strip_weird_H=[],
     ):
-        """ Takes a bagpype Protein object and loads it with data 
+        """Takes a bagpype Protein object and loads it with data
         from the given PDB file.
 
         Parameters
@@ -72,7 +70,7 @@ class PDBParser(object):
           name of objects to be removed from PDB file
         strip_ANISOU : bool
           specifies whether remove ANISOU entries should be removed from PDB file
-        strip_LINK : bool 
+        strip_LINK : bool
           specifies whether LINK entries should be removed from the PDB file
         strip_HETATM : bool
           specifies whether HETATM entries should be removed from the PDB file
@@ -92,7 +90,7 @@ class PDBParser(object):
         if not os.path.isfile(self.pdb_filename):
             raise IOError("Couldn't open PDB file " + self.pdb_filename)
 
-        ### Here, pdb_filename = 1xyz.pdb
+        ### Here, pdb_filename is: "1xyz.pdb"
 
         #######################################
         # The area below uses self.pdb_lines
@@ -116,7 +114,7 @@ class PDBParser(object):
             print("Removing HETATM entries")
             self._strip_HETATM_entries()
 
-        # Strip all HETATM entries if wanted
+        # Strip all CONECT entries if wanted
         if strip_CONECT and any([l.startswith("CONECT") for l in self.pdb_lines]):
             print("Removing CONECT entries")
             self._strip_CONECT_entries()
@@ -136,20 +134,23 @@ class PDBParser(object):
             raise TypeError("'strip' should be a dict")
         self._strip_atoms(strip)
 
+        # Some atoms have alternate locations, this function strips all except one
         if alternate_location is not None:
             self._strip_alternate_location(alternate_location)
 
+        # Sometimes it is better to strip all hydrogen atoms
         if trim_H:
             if trim_H == True:
                 trim_H = "all"
             print(
-                {"all": "Deleting ALL H's",
-                 "notHOH": "Deleting H's except in waters"
-                }[trim_H]
+                {"all": "Deleting ALL H's", "notHOH": "Deleting H's except in waters"}[
+                    trim_H
+                ]
             )
             self._strip_Hs(trim_H)
-        
-        self.fix_res_name_spacing()
+
+        # Just a short function to fix spacing issues with residue names in PDB files
+        self._fix_res_name_spacing()
 
         self.pdb_filename = self.pdb_filename[0:-4] + "_stripped.pdb"
         open(self.pdb_filename, "w").writelines(self.pdb_lines)
@@ -158,7 +159,7 @@ class PDBParser(object):
         # The area above uses self.pdb_lines
         #######################################
 
-        ### Here, pdb_filename = 1xyz_stripped.pdb
+        ### Here, pdb_filename is "1xyz_stripped.pdb"
 
         # MakeMultimer step
         if MakeMultimer_number is not None and any(
@@ -167,7 +168,7 @@ class PDBParser(object):
             print("Applying MakeMultimer and using Biomolecule number:", MakeMultimer_number)
             self._MakeMultimer_wrapper(MakeMultimer_number)
 
-        ### Here, pdb_filename = 1xyz_stripped_mm#.pdb
+        ### Here, pdb_filename is "1xyz_stripped_mm#.pdb"
 
         self._renumber_atoms()
 
@@ -176,7 +177,7 @@ class PDBParser(object):
             self._add_hydrogens()
             print("Finished adding hydrogens")
 
-        ### Here, pdb_filename = 1xyz_stripped_mm#_H.pdb
+        ### Here, pdb_filename is "1xyz_stripped_mm#_H.pdb"
 
         self._renumber_atoms()
 
@@ -196,6 +197,7 @@ class PDBParser(object):
 
         protein.pdb_id = self.pdb_filename
 
+        # Parse LINK entries for later
         protein.LINKs = self._parse_LINK()
 
     ####################
@@ -208,6 +210,8 @@ class PDBParser(object):
         MakeMultimer_renamechains=1,
         MakeMultimer_renumberresidues=0,
     ):
+        """A wrapper function for MakeMultimer,
+        full script can be found in dependencies/"""
 
         MakeMultimer_options = dict(
             backbone=False,
@@ -315,8 +319,7 @@ class PDBParser(object):
         # self._MakeMultimer_out = r
 
     def _strip_ANISOU(self):
-        """Strips ANISOU records from the PDB file
-        """
+        """Strips ANISOU records from the PDB file"""
         out_lines = []
         for line in self.pdb_lines:
             if not line.startswith("ANISOU"):
@@ -324,8 +327,7 @@ class PDBParser(object):
         self.pdb_lines = out_lines
 
     def _strip_HETATM_entries(self):
-        """Strips ANISOU records from the PDB file
-        """
+        """Strips ANISOU records from the PDB file"""
         out_lines = []
         for line in self.pdb_lines:
             if not line.startswith("HETATM"):
@@ -333,8 +335,7 @@ class PDBParser(object):
         self.pdb_lines = out_lines
 
     def _strip_LINK_entries(self):
-        """Removes LINK entries.
-        """
+        """Removes LINK entries."""
         out_lines = []
         for line in self.pdb_lines:
             if not line.startswith("LINK"):
@@ -342,8 +343,7 @@ class PDBParser(object):
         self.pdb_lines = out_lines
 
     def _strip_CONECT_entries(self):
-        """Removes CONECT entries.
-        """
+        """Removes CONECT entries."""
         out_lines = []
         for line in self.pdb_lines:
             if not line.startswith("CONECT"):
@@ -354,12 +354,13 @@ class PDBParser(object):
         """Creates a new PDB file with atoms specified in the dictionary
         'strip' removed.
         # "CONECT" entries are also removed.
-        
+
         Parameters
         ----------
         strip : dict
-          Dictionary 
+          Dictionary
         """
+        # some hard-coded residues that will always be stripped
         aa_to_eliminate = ["UNK", "UNL", "UNX"]
 
         if strip == "default":
@@ -391,6 +392,7 @@ class PDBParser(object):
         self.pdb_lines = out_lines
 
     def _strip_alternate_location(self, alternate_location):
+        """Strips all alternate location atoms, other than the one specified"""
         out_lines = []
         for line in self.pdb_lines:
             if line.startswith("ATOM") or line.startswith("HETATM"):
@@ -401,6 +403,7 @@ class PDBParser(object):
         self.pdb_lines = out_lines
 
     def _strip_models(self, model):
+        """Removes all models except for the one selected"""
         out_lines = []
         currentModel = False
         for line in self.pdb_lines:
@@ -450,21 +453,22 @@ class PDBParser(object):
                         out_lines.append(line)
         with open(self.pdb_filename, "w") as fout:
             fout.writelines(out_lines)
-            
-        
-    def fix_res_name_spacing(self):
-        """ Just a small function that right aligns res_names, 
-            since it seems to break reduce if the space is on the right
+
+    def _fix_res_name_spacing(self):
+        """Just a small function that right aligns res_names,
+        since it seems to break reduce if the space is on the right
         """
         out_lines = []
         for line in self.pdb_lines:
-            if (line.startswith("ATOM") or line.startswith("HETATM") or line.startswith("ANISOU")) and (" " in line[17:20]):
+            if (
+                line.startswith("ATOM")
+                or line.startswith("HETATM")
+                or line.startswith("ANISOU")
+            ) and (" " in line[17:20]):
                 out_lines.append(line[:17] + "{:>3}".format(line[17:20].strip()) + line[20:])
             else:
                 out_lines.append(line)
         self.pdb_lines = out_lines
-
-
 
     def _renumber_atoms(self):
         # This function renumbers the ATOM and HETATM records following the output from reduce such that they can be treated by FIRST
@@ -490,7 +494,7 @@ class PDBParser(object):
             fout.writelines(out_lines)
 
     def _has_hydrogens(self):
-        """Search PDB file for hydrogen atoms. If one is found the 
+        """Search PDB file for hydrogen atoms. If one is found the
         file is assumed to have had hydrogens previously added.
         """
         with open(self.pdb_filename, "r") as pdbf:
@@ -500,7 +504,7 @@ class PDBParser(object):
             return False
 
     def _add_hydrogens(self):
-        """ Runs the command-line program Reduce to add hydrogens
+        """Runs the command-line program Reduce to add hydrogens
         to the specified pdb file
         Runs with subprocess.call to retain compatibility with Python2.7
         """
@@ -550,7 +554,7 @@ class PDBParser(object):
         -------
         pdb_data : tuple
           tuple of data for the atoms in the protein containing
-            1. AtomList of the atoms in the PDB file 
+            1. AtomList of the atoms in the PDB file
             2. Dict mapping residues to lists of atoms
             3. Dict mapping chains to atom IDs
             4. Dict mapping PDB numbers to unique atom ids
@@ -580,7 +584,9 @@ class PDBParser(object):
         return pdb_data
 
     def _combine_models(self):
-        """ Combine multiple models into a single model. Chains and atoms
+        """CURRENTLY OBSOLETE, PROCEED WITH CARE
+
+        Combine multiple models into a single model. Chains and atoms
         are renamed so that they do not clash.
         """
 
@@ -706,9 +712,9 @@ class PDBParser(object):
 def _load_atoms(
     pdb, PDBnum="all", name="all", res_name="all", chain="all", res_num="all", model=None
 ):
-    """ Load a list of atoms from a pdb file
+    """Load a list of atoms from a pdb file
     Note that the selection process is currently obsolete. This is done by _strip_atoms().
-    
+
     Returns
     --------
     atoms : :bagpype:AtomList
@@ -742,7 +748,7 @@ def _load_atoms(
 
 
 def _parse_atom_line(line):
-    """ Extract data from a single ATOM line in a pdb file
+    """Extract data from a single ATOM line in a pdb file
 
     Returns
     -------
