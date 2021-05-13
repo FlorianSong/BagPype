@@ -20,9 +20,10 @@ import pandas as pd
 
 
 class Graph_constructor(object):
-    """ This class is responsible for construction of the atomistic
+    """This class is responsible for construction of the atomistic
     graph of a protein.  It identifies covalent bonds, hydrogen
-    bonds, hydrophobic tethers, stacking interactions in DNA and .
+    bonds, hydrophobic interactions, stacking interactions in DNA and
+    various types of electrostatic interactions.
     Atom data should already have been loaded into the protein.
     """
 
@@ -30,7 +31,7 @@ class Graph_constructor(object):
 
         ### Covalent bond related parameters:
         self.use_morse = False
-        self.morse_well_width = 1
+        self.morse_well_width = 1.0
 
         ### Hydrogen bond related parameters:
         # old values commented at the very right
@@ -65,12 +66,17 @@ class Graph_constructor(object):
         gexf_file_name=None,
         barebones_graph=False,
     ):
-        """ This is the main driver function which calls
-        the functions to generate each of the different types
+        """This is the main driver function which calls
+        sub-routines to generate each of the different types
         of bonds.
+        The graph should already have atom data loaded.
+
+        Options:
+        atoms_file_name: specify file path for output file of atoms in csv format
+        bonds_file_name: specify file path for output file of bonds in csv format
+        gexf_file_name: specify file path for output file of graph in gexf format
+        barebones_graph: Boolean specifying if you want a graph with no nodes/edges data
         """
-        # The protein should have already had atom data loaded
-        # from the pdb file
 
         print()
         print("Graph construction started")
@@ -79,7 +85,7 @@ class Graph_constructor(object):
 
         time1 = time.time()
 
-        self._initialise_possible_bonds_memeff()
+        self._initialise_possible_bonds()
         self._initialise_covbond_dictionary()
         if self.protein.LINKs:
             self._process_LINKs()
@@ -148,13 +154,13 @@ class Graph_constructor(object):
                 % (number_connected_components)
             )
 
-        protein.bonds = self.bonds
-        protein.graph = graph
+        self.protein.bonds = self.bonds
+        self.protein.graph = graph
 
         if atoms_file_name is not None:
-            self.write_atoms_to_csv_file(atoms_file_name)
+            self._write_atoms_to_csv_file(atoms_file_name)
         if bonds_file_name is not None:
-            self.write_bonds_to_csv_file(bonds_file_name)
+            self._write_bonds_to_csv_file(bonds_file_name)
 
         if gexf_file_name is not None:
             graph_modded = graph.copy()
@@ -167,41 +173,23 @@ class Graph_constructor(object):
         print(
             "Finished constructing the graph!"
             + " #residues = {}, #atoms = {}, #bonds = {}".format(
-                len(protein.residues), len(protein.atoms), len(protein.bonds)
+                len(self.protein.residues), len(self.protein.atoms), len(self.protein.bonds)
             )
         )
-        print("    Time taken = %.2fs, final filename: %s" % (time2 - time1, protein.pdb_id))
+        print(
+            "    Time taken = %.2fs, final filename: %s"
+            % (time2 - time1, self.protein.pdb_id)
+        )
         print()
 
     def _initialise_possible_bonds(self):
         """
-        Initialises all possible bonds (ie all atoms within certain distance of atom), which saves a lot of computing time later 
-        Relies on the fact that atom ids run from 0 to # of atoms
-        """
-        print("Initialising all possible bonds...")
+        Initialises all possible bonds (ie all atoms within certain distance of atom),
+        which saves a lot of computing time later.
+        Relies on the fact that atom ids run from 0 to # of atoms.
 
-        # Get coordinates of all atoms as an array
-        atom_coords = self.protein.atoms.coordinates()
-
-        # Compute a distance matrix between each atom, note that pdist will compute a condensed distance matrix (1-dimensional)
-        dist_matrix = scipy.spatial.distance.pdist(atom_coords)
-
-        # Find all entries that are below the cutoff and write all those pairs of atoms to a nx graph
-        # n = number of atoms, k = indices of distances less than cutoff (but in 1D format), i,j = matrix indices computed from k
-        n = atom_coords.shape[0]
-        k = np.where(dist_matrix <= self.max_cutoff)[0]
-        i = n - 2 - np.floor(np.sqrt(-8 * k + 4 * n * (n - 1) - 7) / 2.0 - 0.5)
-        j = k + i + 1 - n * (n - 1) / 2 + (n - i) * ((n - i) - 1) / 2
-
-        self.possible_bonds = {}
-        for indx in range(len(i)):
-            self.possible_bonds.setdefault(int(i[indx]), []).append(int(j[indx]))
-            self.possible_bonds.setdefault(int(j[indx]), []).append(int(i[indx]))
-
-    def _initialise_possible_bonds_memeff(self):
-        """
-        Initialises all possible bonds (ie all atoms within certain distance of atom), which saves a lot of computing time later 
-        Relies on the fact that atom ids run from 0 to # of atoms
+        *This is the memory efficient version, which turns out to also be faster,
+        and so it is to be preferred in most cases!*
         """
 
         print("Initialising all possible bonds, memory efficiently...")
@@ -209,10 +197,13 @@ class Graph_constructor(object):
 
         self.possible_bonds = {}
 
+        # One single loop through all atoms
         for atom1 in range(atom_coords.shape[0]):
             atom1_coords = atom_coords[
-                np.newaxis, atom1,
+                np.newaxis,
+                atom1,
             ]
+            # find all close contacts to atom1 by computing all distances of all atoms to atom1
             neighbours = list(
                 np.where(
                     scipy.spatial.distance.cdist(atom1_coords, atom_coords)
@@ -223,6 +214,11 @@ class Graph_constructor(object):
             self.possible_bonds[atom1] = neighbours
 
     def _initialise_covbond_dictionary(self):
+        """
+        This is a wrapper function to run bagpype.covalent.
+        It will create a dictionary of all covalent bond energies based on a list of residues
+        that are present in the structure.
+        """
         list_of_present_residues = sorted(
             list(set([atom.res_name for atom in self.protein.atoms]))
         )
@@ -235,7 +231,10 @@ class Graph_constructor(object):
             self.cov_bond_energies[key] = {}
         self.cov_bond_energies.update(bagpype.parameters.non_standard_residues)
 
-    def write_bonds_to_csv_file(self, name):
+    def _write_bonds_to_csv_file(self, name):
+        """
+        Writes bond data to a generic csv file
+        """
         bond_data = []
         for bond in self.bonds:
             bond_data.append(
@@ -277,7 +276,7 @@ class Graph_constructor(object):
         )
         bond_df.to_csv(name, header=True, index=False)
 
-    def write_atoms_to_csv_file(self, name):
+    def _write_atoms_to_csv_file(self, name):
         atom_data = []
         for atom in self.protein.atoms:
             atom_data.append(
@@ -308,6 +307,12 @@ class Graph_constructor(object):
         atom_df.to_csv(name, header=True, index=False)
 
     def _process_LINKs(self):
+        """
+        Since LINK entries can be either covalent or electrostatic, we need
+        to process them beforehand. This function will judge based on the
+        distance between the two atoms whether a LINK entry is describing
+        a covalent bond or electrostatic interaction.
+        """
         print("Processing LINK entries...")
         LINK_bonds = self.protein.LINKs
         LINK_list = []
@@ -361,6 +366,12 @@ class Graph_constructor(object):
     # COVALENT BONDS #
     ##################
     def find_covalent_bonds(self):
+        """
+        Self-explanatory function. Finds covalent bonds by looping through
+        all atoms once and considering all possible neighbours in a radius
+        for covalent bonds, depending on whether they are in the same or
+        different residues.
+        """
         print("Finding covalent bonds...")
 
         for atom1 in self.protein.atoms:
@@ -368,11 +379,40 @@ class Graph_constructor(object):
                 if atom2.id > atom1.id:
 
                     if in_same_residue(atom1, atom2):
-                        self.add_intra_residue_bond(atom1, atom2)
+                        self._add_intra_residue_bond(atom1, atom2)
                     else:
-                        self.add_inter_residue_bond(atom1, atom2)
+                        self._add_inter_residue_bond(atom1, atom2)
 
-    def add_intra_residue_bond(self, atom1, atom2):
+    def _add_covalent_bond(self, atom1, atom2, bond_strength, bond_type="COVALENT"):
+        """
+        The generic function to add covalent bonds.
+        """
+        if bond_strength is not None:
+            # bond_strength *= self.k_factor / 6.022
+            bond_strength /= 4.184
+            bond_strength *= self._morse_potential(atom1, atom2) if self.use_morse else 1
+            self.bonds.append(
+                bagpype.molecules.Bond([], atom1, atom2, bond_strength, bond_type)
+            )
+
+    def _morse_potential(self, atom1, atom2):
+        """
+        A short function to implement the Morse potential for covalent bonds.
+        This is not usually used, but implemented as an option to explore anyways.
+        """
+        delta_r = abs(
+            distance_between_two_atoms(atom1, atom2) - equilibrium_distance(atom1, atom2)
+        )
+        return 1 - (1 - np.exp(-self.morse_well_width * delta_r)) ** 2
+
+    def _add_intra_residue_bond(self, atom1, atom2):
+        """
+        Sub-routine for adding intra-residue bonds. It will check the
+        covalent bond dictionary for known covalent bonds, and if that
+        fails, it will potentially add them based on distance constraints
+        anyway.
+        """
+        # this is just a sanity check
         residue = atom1.res_name
         if atom2.res_name != residue:
             raise GraphConstructionError(
@@ -385,19 +425,17 @@ class Graph_constructor(object):
                 atom2.name
             ]  # if within_cov_bonding_distance(atom1, atom2) else None
         except KeyError:
-            bond_strength = self.add_covalent_bonds_using_distance_contraints(
+            bond_strength = self._add_covalent_bonds_using_distance_contraints(
                 atom1, atom2, print_warnings=True
             )
 
-        if bond_strength is not None:
-            # bond_strength *= self.k_factor / 6.022
-            bond_strength /= 4.184
-            bond_strength *= self._morse_potential(atom1, atom2) if self.use_morse else 1
-            self.bonds.append(
-                bagpype.molecules.Bond([], atom1, atom2, bond_strength, "COVALENT")
-            )
+        self._add_covalent_bond(atom1, atom2, bond_strength)
 
-    def add_inter_residue_bond(self, atom1, atom2):
+    def _add_inter_residue_bond(self, atom1, atom2):
+        """
+        Sub-routine for adding INTER-residue covalent bonds.
+        These are only allowed for the three types listed below.
+        """
         # peptide bond, disulfide bridge and nucleic bond
         conditions = (
             (atom1.element == "C" and atom2.element == "N")
@@ -415,18 +453,17 @@ class Graph_constructor(object):
             bond_type = None
 
         if bond_type is not None:
-            bond_strength = self.add_covalent_bonds_using_distance_contraints(atom1, atom2)
-            if bond_strength is not None:
-                # bond_strength *= self.k_factor / 6.022
-                bond_strength /= 4.184
-                bond_strength *= self._morse_potential(atom1, atom2) if self.use_morse else 1
-                self.bonds.append(
-                    bagpype.molecules.Bond([], atom1, atom2, bond_strength, bond_type)
-                )
+            bond_strength = self._add_covalent_bonds_using_distance_contraints(atom1, atom2)
+            self._add_covalent_bond(atom1, atom2, bond_strength, bond_type=bond_type)
 
-    def add_covalent_bonds_using_distance_contraints(
+    def _add_covalent_bonds_using_distance_contraints(
         self, atom1, atom2, print_warnings=False
     ):
+        """
+        This function will check whether two atoms are within covalent
+        bonding distance, and then attempt to lookup the corresponding
+        bond energy from the parameters file.
+        """
         if within_cov_bonding_distance(atom1, atom2):
             lookup = tuple([atom1.element, atom2.element])
             lookup_reversed = tuple([atom2.element, atom1.element])
@@ -437,6 +474,7 @@ class Graph_constructor(object):
                     )
                 )
 
+            # Look up the single bond energy and if not found, raise an error
             try:
                 return bagpype.parameters.single_bond_energies[lookup]
             except KeyError:
@@ -451,16 +489,10 @@ class Graph_constructor(object):
         else:
             return None
 
-    def _morse_potential(self, atom1, atom2):
-        delta_r = abs(
-            distance_between_two_atoms(atom1, atom2) - equilibrium_distance(atom1, atom2)
-        )
-        return -(
-            np.exp(-2 * self.morse_well_width * (delta_r))
-            - 2 * np.exp(-self.morse_well_width * (delta_r))
-        )
-
     def find_covalent_LINK_bonds(self):
+        """
+        This auxiliary sub_routine will process covalent LINK entries.
+        """
         # Covalent LINK entries
         if self.protein.LINKs:
             are_there_LINK_covalent_bonds = bool(
@@ -483,27 +515,18 @@ class Graph_constructor(object):
                     # Is this LINK entry covalent and is this bond not already included?
                     if item[1]["is_covalent"] and (atom1.id, atom2.id) not in cov_bonds:
 
-                        bond_strength = self.add_covalent_bonds_using_distance_contraints(
+                        bond_strength = self._add_covalent_bonds_using_distance_contraints(
                             atom1, atom2, print_warnings=True
                         )
-                        if bond_strength is not None:
-                            # bond_strength *= self.k_factor / 6.022
-                            bond_strength /= 4.184
-                            bond_strength *= (
-                                self._morse_potential(atom1, atom2) if self.use_morse else 1
-                            )
-                            self.bonds.append(
-                                bagpype.molecules.Bond(
-                                    [], atom1, atom2, bond_strength, "COVALENT"
-                                )
-                            )
+                        self._add_covalent_bond(atom1, atom2, bond_strength)
 
     ##################
     # HYDROGEN BONDS #
     ##################
 
     def find_hydrogen_bonds(self):
-        """ Determine hydrogen bonds 
+        """
+        Top-level wrapper funciton to determine hydrogen bonds
         """
         print(
             "Finding hydrogen bonds at cutoff = "
@@ -518,14 +541,13 @@ class Graph_constructor(object):
         self.Hbond_status = {}
         for atom in self.protein.atoms:
             if atom.element in ["N", "O", "S"]:
-                self.Hbond_status[atom.id] = self.assign_Hbond_status(atom)
+                self.Hbond_status[atom.id] = self._assign_Hbond_status(atom)
 
         print("    Applying constraints and computing bond strengths...")
         # This is where hydrogen bonds are identified
         for hydrogen in [atom for atom in self.protein.atoms if atom.element == "H"]:
-
-            donor = self.find_donor(hydrogen)
-
+            donor = self._find_donor(hydrogen)
+            # some preliminary conditions for the donor to not be eligible
             if (
                 donor.element not in ["N", "O", "S"]
                 or self.Hbond_status[donor.id] == None
@@ -533,6 +555,7 @@ class Graph_constructor(object):
             ):
                 continue
 
+            # Now loop through all possible acceptors
             for acceptor in [
                 atom
                 for atom in self.protein.atoms[self.possible_bonds[hydrogen.id]]
@@ -542,9 +565,10 @@ class Graph_constructor(object):
                 if self.Hbond_status[acceptor.id] == None or acceptor.name in ["OXT"]:
                     continue
 
+                # Some more conditions for the triple to eligible
                 if (
-                    self.is_donor(donor)
-                    and self.is_acceptor(acceptor)
+                    self._is_donor(donor)
+                    and self._is_acceptor(acceptor)
                     and not in_third_neighbourhood(
                         self.covalent_bonds_graph, hydrogen, acceptor
                     )
@@ -554,22 +578,22 @@ class Graph_constructor(object):
                     d = distance_between_two_atoms(acceptor, donor)
 
                     if d < self.donor_acceptor_cutoff and r < self.H_acceptor_cutoff:
-                        theta = self.get_angle(donor, hydrogen, acceptor)
+                        theta = self._get_angle(donor, hydrogen, acceptor)
 
                         if (
                             self.donor_H_acceptor_min_angle
                             <= np.rad2deg(theta)
                             <= self.donor_H_acceptor_max_angle
                         ):
-
-                            salt_bridge_indicator = self.is_salt_bridge(
+                            # Is this a salt bridge?
+                            salt_bridge_indicator = self._is_salt_bridge(
                                 hydrogen, donor, acceptor
                             )
 
                             if salt_bridge_indicator:
-                                bond_strength = self.compute_salt_bridge_energy(d)
+                                bond_strength = self._compute_salt_bridge_energy(d)
                             else:
-                                bond_strength = self.compute_hydrogen_bond_energy(
+                                bond_strength = self._compute_hydrogen_bond_energy(
                                     hydrogen, donor, acceptor, d, theta
                                 )
 
@@ -581,7 +605,7 @@ class Graph_constructor(object):
 
                                 # bond_strength *= -self.k_factor * 4.184 / 6.022
                                 bond_strength *= -1
-                                total_hydrogen_energy += -bond_strength
+                                total_hydrogen_energy -= bond_strength
 
                                 self.bonds.append(
                                     bagpype.molecules.Bond(
@@ -601,8 +625,9 @@ class Graph_constructor(object):
             + " kcal/mol"
         )
 
-    def get_angle(self, atom1, atom2, atom3):
-        """ Finds the angle formed by the three input atoms, where atom2 is the vertex of the angle.
+    def _get_angle(self, atom1, atom2, atom3):
+        """
+        Finds the angle formed by the three input atoms, where atom2 is the vertex of the angle.
         input: three atom objects
         output: angle IN RAD!!
         """
@@ -614,15 +639,15 @@ class Graph_constructor(object):
         # Note: as the arccos is only defined on [0, pi], we do not have to worry about this.
         return np.arccos(cosine_angle)
 
-    def get_out_of_plane_angle(self, donor_list, acceptor_list):
-        """ Find the angle between the two planes formed by donor_list and acceptor_list 
+    def _get_out_of_plane_angle(self, donor_list, acceptor_list):
+        """
+        Find the angle between the two planes formed by donor_list and acceptor_list
         input: two lists of three atom ids
         output: angle IN RAD!!
         """
 
         def normal_unit_vector(point1, point2, point3):
-            """ Function to find normal unit vector for 3 points in 3D space
-            """
+            """Function to find normal unit vector for 3 points in 3D space"""
             v12 = point1 - point2
             v13 = point1 - point3
             normal_vector = np.cross(v12, v13)
@@ -647,8 +672,9 @@ class Graph_constructor(object):
             gamma = np.pi - gamma
         return gamma
 
-    def find_donor(self, atom):
-        """" This identifies the covalent bonding partner of a hydrogen
+    def _find_donor(self, atom):
+        """
+        This identifies the covalent bonding partner of a hydrogen
         atom. There should be exactly one. This will raise an error if
         the atom is not a hydrogen or the atom has more than 1 covalent bonding
         partner.
@@ -676,23 +702,22 @@ class Graph_constructor(object):
         else:
             return self.protein.atoms[cov_bonding_partners_ids[0]]
 
-    def is_donor(self, atom):
+    def _is_donor(self, atom):
         return (
             True
             if self.Hbond_status[atom.id]["DonorAcceptor"] in ("donor", "both")
             else False
         )
 
-    def is_acceptor(self, atom):
+    def _is_acceptor(self, atom):
         return (
             True
             if self.Hbond_status[atom.id]["DonorAcceptor"] in ("acceptor", "both")
             else False
         )
 
-    def is_salt_bridge(self, hydrogen, donor, acceptor):
-        """ Check if triplet is a salt bridge
-        """
+    def _is_salt_bridge(self, hydrogen, donor, acceptor):
+        """Check if triplet is a salt bridge"""
 
         # Donor and acceptor need to be charged
         if (
@@ -702,14 +727,14 @@ class Graph_constructor(object):
 
             for n in self.covalent_bonds_graph.neighbors(acceptor.id):
                 neighbor_atom = self.protein.atoms[n]
-                phi = self.get_angle(hydrogen, acceptor, neighbor_atom)
+                phi = self._get_angle(hydrogen, acceptor, neighbor_atom)
                 if np.rad2deg(phi) < self.H_acceptor_neighbour_cutoff:
                     return False
             return True
         else:
             return False
 
-    def compute_salt_bridge_energy(self, donor_acceptor_distance):
+    def _compute_salt_bridge_energy(self, donor_acceptor_distance):
         R_s = 3.2
         x = 0.375
         V_0 = 10
@@ -718,11 +743,11 @@ class Graph_constructor(object):
         E = V_0 * (5 * (Rnorm ** 12) - 6 * (Rnorm ** 10))
         return E
 
-    def compute_hydrogen_bond_energy(
+    def _compute_hydrogen_bond_energy(
         self, hydrogen, donor, acceptor, donor_acceptor_distance, theta
     ):
-        """ 
-        Computes hydrogen bond energy according to formula which is printed in FIRST manual, 
+        """
+        Computes hydrogen bond energy according to formula which is printed in FIRST manual,
         derived from Mayo potential
         """
 
@@ -731,8 +756,8 @@ class Graph_constructor(object):
         A_SP2 = False
         A_SP3 = False
 
-        donor_triplet_list = self.find_all_atom_triples(hydrogen)
-        acceptor_triplet_list = self.find_all_atom_triples(acceptor)
+        donor_triplet_list = self._find_all_atom_triples(hydrogen)
+        acceptor_triplet_list = self._find_all_atom_triples(acceptor)
 
         R_s = 2.8
         V_0 = 8.0
@@ -775,10 +800,10 @@ class Graph_constructor(object):
             for donor_triplet in donor_triplet_list:
                 for acceptor_triplet in acceptor_triplet_list:
 
-                    phi = self.get_angle(
+                    phi = self._get_angle(
                         hydrogen, acceptor, self.protein.atoms[acceptor_triplet[1]]
                     )
-                    gamma = self.get_out_of_plane_angle(donor_triplet, acceptor_triplet)
+                    gamma = self._get_out_of_plane_angle(donor_triplet, acceptor_triplet)
 
                     if np.rad2deg(phi) <= 90:
                         return None
@@ -797,7 +822,7 @@ class Graph_constructor(object):
 
             best_phi = 0.0
             for acceptor_triplet in acceptor_triplet_list:
-                phi = self.get_angle(
+                phi = self._get_angle(
                     hydrogen, acceptor, self.protein.atoms[acceptor_triplet[1]]
                 )
 
@@ -819,7 +844,7 @@ class Graph_constructor(object):
 
             for acceptor_triplet in acceptor_triplet_list:
 
-                phi = self.get_angle(
+                phi = self._get_angle(
                     hydrogen, acceptor, self.protein.atoms[acceptor_triplet[1]]
                 )
 
@@ -834,8 +859,9 @@ class Graph_constructor(object):
         E = E_distance * E_angular
         return E
 
-    def find_all_atom_triples(self, atom):
-        """ Find all triplets 
+    def _find_all_atom_triples(self, atom):
+        """
+        Finds all possible triplets surrounding atom.
         """
         triple_list = []
 
@@ -866,10 +892,10 @@ class Graph_constructor(object):
 
         return triple_list
 
-    def assign_Hbond_status(self, atom):
+    def _assign_Hbond_status(self, atom):
         """Determine and assign H-bonding status to atoms
         Input: one atom object
-        Writes status into a dictionary with the following possible values: 
+        Writes status into a dictionary with the following possible values:
         Hybridisation: "sp2", "sp3"
         Charged: True, False
         DonorAcceptor: "donor", "acceptor", "both"
@@ -878,7 +904,7 @@ class Graph_constructor(object):
         status_out = {}
 
         if atom.element == "N":
-            if self.is_mainchain(atom):
+            if self._is_mainchain(atom):
                 # tests for terminal Nitrogens
                 if nx.degree(self.covalent_bonds_graph, atom.id) == 4:
                     status_out.update(
@@ -888,23 +914,23 @@ class Graph_constructor(object):
                     status_out.update(
                         DonorAcceptor="donor", Charged=False, Hybridisation="sp2"
                     )
-            elif self.get_charged_residue(atom) is not None:
-                status_out = self.get_charged_residue(atom)
+            elif self._get_charged_residue(atom) is not None:
+                status_out = self._get_charged_residue(atom)
             else:
-                status_out = self.determine_status_N(atom)
+                status_out = self._determine_status_N(atom)
 
         elif atom.element == "O":
-            if self.is_mainchain(atom):
+            if self._is_mainchain(atom):
                 status_out.update(
                     DonorAcceptor="acceptor", Charged=False, Hybridisation="sp2"
                 )
-            elif self.get_charged_residue(atom) is not None:
-                status_out = self.get_charged_residue(atom)
+            elif self._get_charged_residue(atom) is not None:
+                status_out = self._get_charged_residue(atom)
             else:
-                status_out = self.determine_status_O(atom)
+                status_out = self._determine_status_O(atom)
 
         elif atom.element == "S":
-            status_out = self.determine_status_S(atom)
+            status_out = self._determine_status_S(atom)
 
         else:
             raise GraphConstructionError(
@@ -925,9 +951,8 @@ class Graph_constructor(object):
 
         return status_out
 
-    def is_mainchain(self, atom):
-        """ Check if atom is on peptide mainchain
-        """
+    def _is_mainchain(self, atom):
+        """Check if atom is on peptide mainchain"""
 
         neighbour_atom_names = [
             self.protein.atoms[a].name for a in self.covalent_bonds_graph.neighbors(atom.id)
@@ -962,7 +987,7 @@ class Graph_constructor(object):
                     return True
 
         elif atom.name == "H":
-            # if N direct and CA second nearest neighbout
+            # if N direct and CA second nearest neighbour
             if "N" in neighbour_atom_names:
                 sec_neighbour_ids = sec_neighborhood(self.covalent_bonds_graph, atom.id)
                 sec_neighbour_names = [self.protein.atoms[a].name for a in sec_neighbour_ids]
@@ -979,9 +1004,8 @@ class Graph_constructor(object):
         # Default
         return False
 
-    def get_charged_residue(self, atom):
-        """ Check if atom is in a charged residue and assign orbid and charge status
-        """
+    def _get_charged_residue(self, atom):
+        """Check if atom is in a charged residue and assign orbid and charge status"""
 
         if atom.element == "N":
             if atom.res_name == "ARG":
@@ -1018,16 +1042,15 @@ class Graph_constructor(object):
                         )
         return None
 
-    def determine_status_N(self, atom):
-        """ Determines and assigns hydrogen-bonding status to Nitrogen atoms
-        """
+    def _determine_status_N(self, atom):
+        """Determines and assigns hydrogen-bonding status to Nitrogen atoms"""
 
         if atom.res_name == "ASN" or atom.res_name == "GLN":
             return dict(DonorAcceptor="donor", Charged=False, Hybridisation="sp2")
 
         elif atom.res_name == "HIS":
 
-            hist_state = self.get_histidine_protonation_state(atom)
+            hist_state = self._get_histidine_protonation_state(atom)
 
             if hist_state == 1 or hist_state == 3:
                 return dict(DonorAcceptor="donor", Charged=True, Hybridisation="sp2")
@@ -1048,7 +1071,7 @@ class Graph_constructor(object):
             elif degree == 2:
                 for n in self.covalent_bonds_graph.neighbors(atom.id):
 
-                    if self.is_double_bond(atom, self.protein.atoms[n]):
+                    if self._is_double_bond(atom, self.protein.atoms[n]):
                         return dict(
                             DonorAcceptor="acceptor", Charged=False, Hybridisation="sp2"
                         )
@@ -1071,9 +1094,8 @@ class Graph_constructor(object):
         # This is a relict in FIRST, this will never happen as the above covers all possible cases. Included for completeness's sake
         return dict(DonorAcceptor="donor", Charged=False, Hybridisation="sp2")
 
-    def get_histidine_protonation_state(self, atom):
-        """ Determines Histidine protonation state
-        """
+    def _get_histidine_protonation_state(self, atom):
+        """Determines Histidine protonation state"""
 
         state = 0
         for neighbour_atom in [
@@ -1098,9 +1120,8 @@ class Graph_constructor(object):
                                 state += 2
         return state
 
-    def is_double_bond(self, atom1, atom2):
-        """Check if bond is actually a double bond -- it has to be within 1.4 A
-        """
+    def _is_double_bond(self, atom1, atom2):
+        """Check if bond is actually a double bond -- it has to be within 1.4 A"""
 
         return (
             True
@@ -1112,9 +1133,8 @@ class Graph_constructor(object):
             else False
         )
 
-    def determine_status_O(self, atom):
-        """ Determines and assigns hydrogen-bonding status to Oxygen atoms
-        """
+    def _determine_status_O(self, atom):
+        """Determines and assigns hydrogen-bonding status to Oxygen atoms"""
 
         if atom.res_name == "SER" or atom.res_name == "THR":
             return dict(DonorAcceptor="both", Charged=False, Hybridisation="sp3")
@@ -1192,9 +1212,8 @@ class Graph_constructor(object):
                 )
                 return None
 
-    def determine_status_S(self, atom):
-        """ Determines and assigns hydrogen-bonding status to Sulfur atoms
-        """
+    def _determine_status_S(self, atom):
+        """Determines and assigns hydrogen-bonding status to Sulfur atoms"""
 
         if atom.res_name == "MET":
             return dict(DonorAcceptor="acceptor", Charged=False, Hybridisation="sp3")
@@ -1243,8 +1262,8 @@ class Graph_constructor(object):
     ############################
 
     def find_hydrophobics(self):
-        """ Function that implements hydrophobic interaction as a three step process: 1. Pre-selection, 2. Weighting, 3. Sparsification
-        Parameters are passed as values belonging to self: 
+        """Function that implements hydrophobic interaction as a three step process: 1. Pre-selection, 2. Weighting, 3. Sparsification
+        Parameters are passed as values belonging to self:
         self.hydrophobic_RMST_gamma, self.hydrophobic_neighbourhood, self.hydrophobic_burn_bridges
 
         Florian Song, September 2018 - April 2019
@@ -1253,10 +1272,7 @@ class Graph_constructor(object):
 
         # Initiate list of hydrophobic interactions
 
-        hphobic_graph = nx.Graph()
-        # hphobic_weights = []
-        # hphobic_rows = []
-        # hphobic_columns = []
+        self._all_possible_hphobic_graph = nx.Graph()
 
         # Loop through all atoms
         for atom1 in self.protein.atoms:
@@ -1266,8 +1282,10 @@ class Graph_constructor(object):
 
                 for atom2 in self.protein.atoms[self.possible_bonds[atom1.id]]:
 
-                    # Remaining requirements for hydrophbic interactions to be feasible
-                    # Python's logical and/or are short circuit evaluated, so putting all conditions in one is fine, if the most basic condition is in first place
+                    # Remaining requirements for hydrophobic interactions to be feasible
+                    # Python's logical and/or are short circuit evaluated,
+                    # so putting all conditions in one is fine,
+                    # if the most basic condition is in first place
                     conditions = (
                         atom1.id < atom2.id
                         and atom2.element in ("C", "S")
@@ -1279,46 +1297,29 @@ class Graph_constructor(object):
                     )
                     if conditions:
                         distance = distance_between_two_atoms(atom1, atom2)
-                        energy = self.hydrophobic_potential(
-                            distance, atom1.element, atom2.element
-                        )
+                        energy = self.hydrophobic_potential(distance)
                     else:
                         energy = None
 
                     if energy is not None:
-                        hphobic_graph.add_edge(
+                        self._all_possible_hphobic_graph.add_edge(
                             atom1.id,
                             atom2.id,
-                            weight=-1 * energy,
+                            # weight=-1 * energy,
                             distance=distance,
                             energy=energy,
                         )
 
-                        # hphobic_weights.append(energy)
-                        # hphobic_rows.append(atom1.id)
-                        # hphobic_columns.append(atom2.id)
-
-        # matches_sparse = self.hydrophobic_selection_sparse(hphobic_weights, hphobic_rows, hphobic_columns)
-        # matches_sparse = sorted([tuple(sorted(x)) for x in matches_sparse])
-        # # matches_sparse_atoms = [ (node_dictionary[key1], node_dictionary[key2 ]) for key1,key2 in matches_sparse ]
-
-        # total_hydrophobic_energy = sum([hphobic_adjacency[i,j] for i,j in matches_sparse])
-        # print("    Total energy of hydrophobic effect: " + str(round(total_hydrophobic_energy, 2)) + " kcal/mol" )
-
-        # for bond in matches_sparse:
-        #     atom1, atom2 = self.protein.atoms[node_dictionary[bond[0]]], self.protein.atoms[node_dictionary[bond[1]]]
-        #     bond_strength = hphobic_adjacency[bond[0], bond[1]]
-        #     bond_strength *= -self.k_factor*4.184/6.022
-        #     self.bonds.append(bagpype.molecules.Bond([], atom1, atom2, bond_strength, 'HYDROPHOBIC'))
-
         # The code further down won't work if the graph is empty.
-        if nx.is_empty(hphobic_graph):
+        if nx.is_empty(self._all_possible_hphobic_graph):
             return
 
-        matches = self.hydrophobic_selection2(hphobic_graph)
-        
+        # Compute the RMST of all eligible hydrophobic interactions
+        matches = self._hydrophobic_selection2(self._all_possible_hphobic_graph)
+
         if self.hydrophobic_burn_bridges:
             # Additional step to RMST sparsification: removal of graph bridges
+            # This step is not recommended by default, but presents an interesting additional sparsification
             # A bridge is an edge of a graph whose deletion increases its number of connected components.
             # Note that here we do not have to worry about weighting
             # In order to use networkx, need to initialise new Graph
@@ -1337,9 +1338,11 @@ class Graph_constructor(object):
                 + ", components: "
                 + str(nx.number_connected_components(nx.Graph(matches)))
             )
+
         if self.hydrophobic_k_core:
             # Additional step to RMST sparsification: computing the k-core
-            # A k-core is a maximal subgraph st. no node has degree less than k.
+            # This step is not recommended by default, but presents an interesting additional sparsification
+            # A k-core is a maximal subgraph s.t. no node has degree less than k.
             # Note that here we do not have to worry about weighting
             # In order to use networkx, need to initialise new Graph
             rmst_graph = nx.Graph(matches)
@@ -1349,36 +1352,43 @@ class Graph_constructor(object):
             matches = nx.k_core(rmst_graph, k).edges
 
             print(
-                "    Removed kth k-core shell!"
-                " Final # hydrophobic interactions: "
+                "    Removed {} k-core shell!".format(
+                    str(k) + {1: "st", 2: "nd", 3: "rd"}.get(k % 10, "th")
+                )
+                + " Final # hydrophobic interactions: "
                 + str(len(matches))
                 + ", components: "
                 + str(nx.number_connected_components(nx.Graph(matches)))
             )
 
-
+        # Sort the final hydrophobic interactions for consistency
         matches = sorted([sorted(x) for x in matches])
-
-        # Calculate total hydrophobic energy for command line output
-        total_hydrophobic_energy = sum([hphobic_graph[i][j]["energy"] for i, j in matches])
-        print(
-            "    Total energy of hydrophobic effect: "
-            + str(round(total_hydrophobic_energy, 2))
-            + " kcal/mol"
-        )
 
         # Finally, write all bonds to self.bonds
         for bond in matches:
             atom1, atom2 = self.protein.atoms[bond[0]], self.protein.atoms[bond[1]]
-            bond_strength = hphobic_graph[bond[0]][bond[1]]["energy"]
+            bond_strength = self._all_possible_hphobic_graph[bond[0]][bond[1]]["energy"]
             # bond_strength *= -self.k_factor * 4.184 / 6.022
             bond_strength *= -1
             self.bonds.append(
                 bagpype.molecules.Bond([], atom1, atom2, bond_strength, "HYDROPHOBIC")
             )
 
-    def hydrophobic_selection_legacyNetworkx(self, graph):
+        # Calculate total hydrophobic energy for command line output
+        total_hydrophobic_energy = sum(
+            [self._all_possible_hphobic_graph[i][j]["energy"] for i, j in matches]
+        )
+        print(
+            "    Total energy of hydrophobic effect: "
+            + str(round(total_hydrophobic_energy, 2))
+            + " kcal/mol"
+        )
 
+    def _hydrophobic_selection_legacyNetworkx(self, graph):
+        """
+        This is an older, but more readable implementation of RMST using Networkx.
+        Please see the next function for a much faster and more memory-efficient version.
+        """
         # First step is to calculate a minimum spanning tree, note that the weight is "energy", ie negative values, units kcal/mol
         mst = nx.minimum_spanning_tree(graph, weight="energy")
 
@@ -1405,8 +1415,11 @@ class Graph_constructor(object):
 
             # RMST criterion for adding edge back into the tree
             # hydrophobic_RMST_gamma is the gamma parameter as described in RMST
-            left_hand_side = mlink + self.hydrophobic_RMST_gamma * abs(
-                d[node_list.index(i)] + d[node_list.index(j)]
+            left_hand_side = (
+                mlink
+                + self.hydrophobic_RMST_gamma
+                * abs(d[node_list.index(i)] + d[node_list.index(j)])
+                / 2
             )
             right_hand_side = graph[i][j]["energy"]
 
@@ -1424,11 +1437,14 @@ class Graph_constructor(object):
 
         return sorted(matches)
 
-    def hydrophobic_selection2(self, graph):
-        """ This function represents the sparsification step. 
+    def _hydrophobic_selection2(self, graph):
+        """
+        This function represents the sparsification step.
         Sparsification is done via a modified version of RMST (relaxed minimum spanning tree).
+        Note that the computations below may seem unnecessarily complicated, but
+        are by a large margin faster than the more readable Networkx implementation above.
         Reference:
-        Beguerisse-Diaz, M., Vangelov, B. & Barahona, M. 
+        Beguerisse-Diaz, M., Vangelov, B. & Barahona, M.
         Finding role communities in directed networks using Role-Based Similarity, Markov Stability and the Relaxed Minimum Spanning Tree.
         2013 IEEE Global Conference on Signal and Information Processing 937–940 (IEEE, 2013). doi:10.1109/GlobalSIP.2013.6737046
         """
@@ -1437,39 +1453,15 @@ class Graph_constructor(object):
         D = nx.adjacency_matrix(graph, weight="energy", nodelist=node_list).todense()
         N = np.shape(D)[0]
         node_dictionary = dict(zip(range(N), node_list))
-        Emst, LLink = self.RMST_prim_algorithm(D)
+
+        # Use a modified version of Prim's algorithm
+        Emst, LLink = self._RMST_prim_algorithm(D)
 
         Dtemp = D + np.eye(N) * np.amax(D)
-        # Dtemp[Dtemp==0] = np.amax(D)
+
         mD = np.amin(Dtemp, 0)
         mD = np.abs(np.tile(mD, (N, 1)) + np.tile(np.transpose(mD), (1, N))) / 2
         mD *= self.hydrophobic_RMST_gamma
-
-        # mlink_matrix = LLink
-        # d_i_matrix = np.abs ( np.tile(np.amin(Dtemp,0), (N,1)) + np.tile(np.transpose(np.amin(Dtemp,0)), (1,N)) )
-        # weight_matrix = D
-        # np.savetxt("./mlink.txt", mlink_matrix)
-        # np.savetxt("./d_i.txt", d_i_matrix)
-        # np.savetxt("./weight.txt", weight_matrix)
-
-        # gamma_matrix = (D-LLink)/(mD/self.hydrophobic_RMST_gamma)
-        # atoms_asfdadf = self.protein.atoms.coordinates()
-        # distance_matrix = scipy.spatial.distance.cdist(atoms_asfdadf[node_list,:],atoms_asfdadf[node_list,:])
-        # np.savetxt("./distance_matrix.txt", distance_matrix)
-        # np.savetxt("./gamma_matrix.txt", gamma_matrix)
-        # np.savetxt("./energy_matrix.txt", (D))
-        # x, y = np.nonzero(np.triu(D))
-        # with open("gammas.txt", "w") as f:
-        #     for i, j in zip(x,y):
-        #         atom_id1 = node_dictionary[i]
-        #         atom_id2 = node_dictionary[j]
-        #         gamma_val = gamma_matrix[i,j]
-        #         atom1 = self.protein.atoms[atom_id1]
-        #         atom2 = self.protein.atoms[atom_id2]
-
-        #         f.write( "{}, {}, {}, {}, {}, {} \n".format(atom_id1, atom_id2, gamma_val, atom1.res_name, atom2.res_name,
-        #                                                     self.hydrophobic_potential(distance_between_two_atoms(atom1, atom2),
-        #                                                                                atom1.element, atom2.element)))
 
         E_criterion = np.greater(LLink + mD, D).astype(int)
         E_final = np.multiply(E_criterion, D)
@@ -1491,27 +1483,13 @@ class Graph_constructor(object):
             + str(np.count_nonzero(np.triu(Emst)))
         )
 
-        # mst = nx.minimum_spanning_tree(graph, weight='energy')
-        # d = D.min(axis = 0).flatten().tolist()[0]
-        # for i in range(N):
-        #     for j in range(i+1,N):
-        #         if (self.hydrophobic_RMST_gamma*abs(d[i] + d[j]) - mD[i,j] > 0.0000001):
-        #             print(self.hydrophobic_RMST_gamma*abs(d[i] + d[j]))
-        #             print( mD[i,j])
-        #         path = nx.shortest_path(mst, source = node_dictionary[i], target = node_dictionary[j])
-        #         weights_along_path = [graph[u][v]["energy"] for u,v in zip(path[:-1], path[1:])]
-        #         if max(weights_along_path) != LLink[i,j]:
-        #             print(max(weights_along_path), LLink[i,j])
-
-        #         indx1, indx2 = node_dictionary[i], node_dictionary[j]
-        #         if mst.has_edge(indx1, indx2) != (Emst[i,j]!=0):
-        #             print(mst.has_edge(indx1, indx2), Emst[i,j])
-        # print("Check done")
-
-
         return matches
 
-    def RMST_prim_algorithm(self, D):
+    def _RMST_prim_algorithm(self, D):
+        """
+        A very fast implementation of the first half of the RMST algorithm.
+        Credit:
+        """
 
         # Initialise matrix containing all largest links along MST
         LLink = -10 * np.ones(np.shape(D))
@@ -1574,10 +1552,9 @@ class Graph_constructor(object):
 
         return E, LLink
 
-
-    def hydrophobic_potential(self, r, element1="C", element2="C"):
-        """ Hydrophobic potential as defined in 
-        Lin, M. S., Fawzi, N. L. & Head-Gordon, T. 
+    def hydrophobic_potential(self, r):
+        """Hydrophobic potential as defined in
+        Lin, M. S., Fawzi, N. L. & Head-Gordon, T.
         Hydrophobic Potential of Mean Force as a Solvation Function for Protein Structure Prediction. Structure 15, 727–740 (2007).
         """
 
@@ -1586,22 +1563,10 @@ class Graph_constructor(object):
         h = np.array([-0.73080, 0.20016, -0.09055])
         presum = h * np.exp(-(((r - c) / w) ** 2))
 
-        # def Lennard_Jones(r, element1, element2):
-        #     epsilon_dict = {"C": -0.11, "S": -0.45}
-        #     epsilon1 = epsilon_dict[element1]
-        #     epsilon2 = epsilon_dict[element2]
-
-        #     epsilon = np.sqrt(epsilon1*epsilon2)
-        #     r_min = 2
-
-        #     temp = r_min/r
-        #     return epsilon* ( (temp)**12 - 2*(temp)**6 )
-
-        return np.sum(presum)  # + Lennard_Jones(r, element1, element2)
+        return np.sum(presum)
 
     def only_bonded_to_CSH(self, atom):
-        """ Check whether atom is only bonded to Carbon, Sulfur or Hydrogen
-        """
+        """Check whether atom is only bonded to Carbon, Sulfur or Hydrogen"""
         if self.hydrophobic_neighbourhood == 1:
             for nhbr in self.covalent_bonds_graph.neighbors(atom.id):
                 if self.protein.atoms[nhbr].element not in ["C", "S", "H"]:
@@ -1627,7 +1592,7 @@ class Graph_constructor(object):
     ########################
 
     def find_stacked(self):
-        """ Function that implements pi stacking interactions, with inspiration taken from Antoine Delmotte's DNA code.
+        """Function that implements pi stacking interactions, with inspiration taken from Antoine Delmotte's DNA code.
         No input, function will add bonds to internal bond list
 
         Florian Song, May 2017
@@ -1636,7 +1601,7 @@ class Graph_constructor(object):
 
         # Parameters for DNA stacking
         energy_threshold = (
-            0.0019872041 * 300 # * (self.k_factor * 4.184 / 6.022)
+            0.0019872041 * 300  # * (self.k_factor * 4.184 / 6.022)
         )  # Energy of thermal fluctuations at temperature 300 K
         A = 0.214
         C = 4.7e4
@@ -1644,7 +1609,8 @@ class Graph_constructor(object):
         epsilon = 4.0
 
         def get_atom_specific_parameters(atom_name):
-            """ Function to get atom-specific parameters, in particular K (???) & R (vdW radii)
+            """
+            Function to get atom-specific parameters, in particular K (???) & R (vdW radii)
             input: atom name
             output: tuple of relevant K and R
             """
@@ -1672,15 +1638,16 @@ class Graph_constructor(object):
             return K[element_identifier], R[element_identifier]
 
         def get_pisigma_charges(base, normal, coord, base_atom_name):
-            """ Function to get sigma and pi charges from data in energies.py 
-            input: 
+            """
+            Function to get sigma and pi charges from data in parameters.py
+            input:
             base = one of DA, DC, DG, DT
             normal = np vector in 3d, the normal to the ring plane
             coord = np vector in 3d, coordinates of the relevant atom
             base_atom_name = name of relevant atom, eg. "C2"
             """
 
-            # retrieve the relevant dictionary from energies.py
+            # retrieve the relevant dictionary from parameters.py
             dictio = {
                 "DA": bagpype.parameters.DA_sigma_pi,
                 "DC": bagpype.parameters.DC_sigma_pi,
@@ -1737,10 +1704,6 @@ class Graph_constructor(object):
 
             if determine_if_DNA_residues_are_linked(set_of_atoms1, set_of_atoms2):
                 close_DNA_residues.append(pair_of_bases)
-
-        # for i in close_DNA_residues: print(i)
-        # print(len([i for i in itertools.combinations(set_nuclear_bases,2)]))
-        # print("Preselected bases", len(close_DNA_residues))
 
         # Initialisations
         sum_vdw_electro = {}
@@ -1816,17 +1779,13 @@ class Graph_constructor(object):
                                 * q2[n]
                                 / (np.linalg.norm(c1[m] - c2[n]))
                             )
-                            
+            print(vdw, electro)
             sum_vdw_electro[(base_key1, base_key2)] = vdw + electro
 
         # sum both energies and only keep those that surpass the threshold
         for key in list(sum_vdw_electro.keys()):
             if not sum_vdw_electro[key] > energy_threshold:
                 sum_vdw_electro.pop(key)
-
-        # for key in sum_vdw_electro:
-        #     print(key, sum_vdw_electro[key])
-        # print("Final number of accepted interactions", len(sum_vdw_electro))
 
         # spread this energy onto the 6 corresponding atoms of the rings
         for key in sorted(
@@ -1851,9 +1810,8 @@ class Graph_constructor(object):
     #############################
 
     def find_DNA_backbone(self):
-        """ Function that implements interactions between phosphates in DNA as per Antoine Delmotte's DNA code.
-        No input, function will add bonds to internal bond list.bond
-
+        """Function that implements interactions between phosphates in DNA as per Antoine Delmotte's DNA code.
+        No input, function will add bonds to internal bond list
         Florian, May 2017
         """
         print("Finding DNA backbone interactions...")
@@ -1912,7 +1870,10 @@ class Graph_constructor(object):
     ##############################
 
     def find_electrostatics(self):
-        """ Load electrostatic bonds using LINK entries in the PDB file. Some of these may be covalent bonds though. These are added as well.
+        """
+        Load electrostatic bonds using LINK entries in the PDB file.
+        Some of these may be covalent bonds though. These are added as well,
+        but in a different sub-routine.
         """
 
         if self.protein.LINKs:
@@ -2002,8 +1963,8 @@ def equilibrium_distance(atom1, atom2):
 
 
 def sec_neighborhood(G, node):
-    """ Returns the second neighbourhood of a node in a Graph G as a set;
-        does not include the node itself
+    """Returns the second neighbourhood of a node in a Graph G as a set;
+    does not include the node itself
     """
     sec_nbhood = set([node])
     for n in G[node]:
@@ -2013,7 +1974,7 @@ def sec_neighborhood(G, node):
 
 
 def within_cov_bonding_distance(atom1, atom2, tolerance=0.1):
-    """ Checks distance between two atoms is within covalent
+    """Checks distance between two atoms is within covalent
     bonding distance for that pair of elements.  Uses the
     parameters specified by Pyykkö (doi: 10.1002/chem.200901472).
     """
@@ -2037,8 +1998,7 @@ def within_cov_bonding_distance(atom1, atom2, tolerance=0.1):
 
 
 def in_third_neighbourhood(G, source_atom, target_atom):
-    """ check if a node is within distance at most d=3 from another node
-    """
+    """check if a node is within distance at most d=3 from another node"""
     # length = nx.single_source_shortest_path_length(G, source_atom.id, cutoff=3)
     # return True if target_atom.id in length else False
     for edge in nx.bfs_edges(G, source=source_atom.id, depth_limit=3):
@@ -2049,17 +2009,17 @@ def in_third_neighbourhood(G, source_atom, target_atom):
 
 def uniquify(bond_list):
     """Takes a list of bonds which may contain multiple bonds between
-    the same two atoms and returns a list where these have been combined 
+    the same two atoms and returns a list where these have been combined
     into a single bond with the interaction energies summed.
 
     Parameters
     ----------
-    bond_list : BondList 
+    bond_list : BondList
       List of non-unique bonds
 
     Returns
     -------
-    bonds_unique : BondList 
+    bonds_unique : BondList
       List of bonds where separate Bonds between the same two atoms are
       combined into a single Bond with the interaction energies summed
     """
@@ -2075,18 +2035,3 @@ def uniquify(bond_list):
             bonds_unique.append(bond)
             count += 1
     return bonds_unique
-
-
-def delete_row_csr(mat, i):
-    if not isinstance(mat, scipy.sparse.csr_matrix):
-        raise ValueError("works only for CSR format -- use .tocsr() first")
-    n = mat.indptr[i + 1] - mat.indptr[i]
-    if n > 0:
-        mat.data[mat.indptr[i] : -n] = mat.data[mat.indptr[i + 1] :]
-        mat.data = mat.data[:-n]
-        mat.indices[mat.indptr[i] : -n] = mat.indices[mat.indptr[i + 1] :]
-        mat.indices = mat.indices[:-n]
-    mat.indptr[i:-1] = mat.indptr[i + 1 :]
-    mat.indptr[i:] -= n
-    mat.indptr = mat.indptr[:-1]
-    mat._shape = (mat._shape[0] - 1, mat._shape[1])
