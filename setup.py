@@ -13,7 +13,7 @@ setuptools.setup(
     description="Biomolecular, atomistic graph construction software in Python for proteins, etc.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/FlorianSong/BagPype",
+    url="https://floriansong.github.io/BagPype/",
     # project_urls={
     #     "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
     # },
