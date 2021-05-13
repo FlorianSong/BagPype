@@ -8,7 +8,7 @@ import networkx as nx
 
 import bagpype.molecules
 
-import dependencies.MakeMultimer
+import bagpype.MakeMultimer
 
 #####################################
 #                                   #
@@ -222,7 +222,7 @@ class PDBParser(object):
         )
 
         pdblurb = open(self.pdb_filename, "r").read()
-        r = dependencies.MakeMultimer.PdbReplicator(pdblurb, MakeMultimer_options)
+        r = bagpype.MakeMultimer.PdbReplicator(pdblurb, MakeMultimer_options)
         outfile_template = self.pdb_filename.split(".")[0] + "_mm%s.pdb"
 
         for i, bm in enumerate(r.biomolecules):
@@ -514,10 +514,10 @@ class PDBParser(object):
 
             subprocess.call(
                 current_directory
-                + "/dependencies/reduce"
+                + "/bagpype/dependencies/reduce"
                 + " -Quiet -BUILD -DB "
                 + current_directory
-                + "/dependencies/reduce_wwPDB_het_dict.txt "
+                + "/bagpype/dependencies/reduce_wwPDB_het_dict.txt "
                 + self.pdb_filename
                 + " > "
                 + self.pdb_filename[0:-4]
@@ -530,10 +530,10 @@ class PDBParser(object):
 
             subprocess.call(
                 current_directory
-                + "/dependencies/reduce.macosx"
+                + "/bagpype/dependencies/reduce.macosx"
                 + " -Quiet -BUILD -DB "
                 + current_directory
-                + "/dependencies/reduce_wwPDB_het_dict.txt "
+                + "/bagpype/dependencies/reduce_wwPDB_het_dict.txt "
                 + self.pdb_filename
                 + " > "
                 + self.pdb_filename[0:-4]

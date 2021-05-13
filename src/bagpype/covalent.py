@@ -39,7 +39,7 @@ def generate_energies_dictionary(AA, nomenclature="new"):
         try:
             file = open(
                 os.path.dirname(os.path.dirname(bagpype.__file__))
-                + "/dependencies/mmcif/"
+                + "/bagpype/dependencies/mmcif/"
                 + aa
                 + ".cif",
                 "r",
