@@ -1779,7 +1779,6 @@ class Graph_constructor(object):
                                 * q2[n]
                                 / (np.linalg.norm(c1[m] - c2[n]))
                             )
-            print(vdw, electro)
             sum_vdw_electro[(base_key1, base_key2)] = vdw + electro
 
         # sum both energies and only keep those that surpass the threshold
