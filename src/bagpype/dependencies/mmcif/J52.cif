@@ -1,0 +1,104 @@
+data_J52
+#
+
+_chem_comp.id                                   J52
+_chem_comp.name                                 "dicyano-(oxidaniumylidynemethylnickelio)-(oxidanylidenemethylidene)iron"
+_chem_comp.type                                 NON-POLYMER
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C4 Fe N2 Ni O2"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   1
+_chem_comp.pdbx_initial_date                    2019-01-25
+_chem_comp.pdbx_modified_date                   2019-10-18
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       222.593
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    J52
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6QGT
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 EBI
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+J52  FE  FE1  FE  0  0  N  N  N  244.426  76.322  37.233   1.077  -0.000   0.004  FE  J52   1  
+J52  NI  NI1  NI  0  0  N  N  N  241.934  75.315  36.974  -1.563   0.000  -0.006  NI  J52   2  
+J52  C1  C1   C   0  1  N  N  N  245.204  76.245  35.567   1.727  -1.584  -0.909  C1  J52   3  
+J52  N1  N1   N   0  1  N  N  N  245.647  76.184  34.475   2.108  -2.511  -1.443  N1  J52   4  
+J52  C2  C2   C   0  1  N  N  N  244.415  78.161  37.181   1.727   1.584  -0.908  C2  J52   5  
+J52  N2  N2   N   0  1  N  N  N  244.381  79.330  37.162   2.108   2.512  -1.442  N2  J52   6  
+J52  C3  C3   C   0  1  N  N  N  246.090  76.176  38.073   1.632  -0.000   1.593  C3  J52   7  
+J52  O3  O1   O   0  1  N  N  N  247.123  76.088  38.616   2.030  -0.001   2.734  O3  J52   8  
+J52  C   C4   C   0  1  N  N  N  241.843  75.418  35.240  -3.747   0.000  -0.014  C   J52   9  
+J52  O   O2   O   1  1  N  N  N  241.444  75.579  34.173  -4.751   0.000  -0.018  O   J52  10  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+J52  FE  C1  SING  N  N  1  
+J52  FE  C2  SING  N  N  2  
+J52  FE  C3  DOUB  N  N  3  
+J52  NI  C   SING  N  N  4  
+J52  C1  N1  TRIP  N  N  5  
+J52  C2  N2  TRIP  N  N  6  
+J52  C3  O3  DOUB  N  N  7  
+J52  C   O   TRIP  N  N  8  
+J52  FE  NI  SING  N  N  9  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+J52  InChI             InChI                 1.03   "InChI=1S/2CN.2CO.Fe.Ni/c4*1-2;;/q;;;+1;;"  
+J52  InChIKey          InChI                 1.03   MJFCHCXJXOCHFY-UHFFFAOYSA-N  
+J52  SMILES_CANONICAL  CACTVS                3.385  "[Ni]C#[O+].O=C=[Fe](C#N)C#N"  
+J52  SMILES            CACTVS                3.385  "[Ni]C#[O+].O=C=[Fe](C#N)C#N"  
+J52  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.6  "C(#N)[Fe](=C=O)(C#N)[Ni]C#[O+]"  
+J52  SMILES            "OpenEye OEToolkits"  2.0.6  "C(#N)[Fe](=C=O)(C#N)[Ni]C#[O+]"  
+#
+_pdbx_chem_comp_identifier.comp_id          J52
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.6
+_pdbx_chem_comp_identifier.identifier       "dicyano-(oxidaniumylidynemethylnickelio)-(oxidanylidenemethylidene)iron"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+J52  "Create component"  2019-01-25  EBI   
+J52  "Initial release"   2019-10-23  RCSB  
+##
+

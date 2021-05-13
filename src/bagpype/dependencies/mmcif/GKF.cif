@@ -1,0 +1,120 @@
+data_GKF
+#
+
+_chem_comp.id                                   GKF
+_chem_comp.name                                 "3-iodanyl-1~{H}-indazole-7-carbaldehyde"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C8 H5 I N2 O"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2020-09-03
+_chem_comp.pdbx_modified_date                   2020-09-11
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       272.043
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    GKF
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       7CX9
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBJ
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+GKF  C01  C1  C  0  1  N  N  N  -19.215  -37.277   2.366  -4.323   0.846   0.002  C01  GKF   1  
+GKF  O02  O1  O  0  1  N  N  N  -20.293  -37.582   2.824  -5.434   0.359   0.002  O02  GKF   2  
+GKF  C03  C2  C  0  1  Y  N  N  -18.779  -37.776   1.075  -3.141  -0.023   0.001  C03  GKF   3  
+GKF  C04  C3  C  0  1  Y  N  N  -17.518  -37.506   0.588  -3.288  -1.411   0.000  C04  GKF   4  
+GKF  C05  C4  C  0  1  Y  N  N  -17.123  -38.030  -0.638  -2.176  -2.234  -0.001  C05  GKF   5  
+GKF  C06  C5  C  0  1  Y  N  N  -17.969  -38.824  -1.380  -0.905  -1.701  -0.001  C06  GKF   6  
+GKF  C07  C6  C  0  1  Y  N  N  -19.243  -39.081  -0.842  -0.728  -0.314  -0.000  C07  GKF   7  
+GKF  C08  C7  C  0  1  Y  N  N  -19.638  -38.556   0.382  -1.848   0.537  -0.005  C08  GKF   8  
+GKF  N09  N1  N  0  1  Y  N  N  -20.901  -38.945   0.701  -1.375   1.816  -0.003  N09  GKF   9  
+GKF  N10  N2  N  0  1  Y  N  N  -21.306  -39.728  -0.375   0.024   1.789   0.003  N10  GKF  10  
+GKF  C11  C8  C  0  1  Y  N  N  -20.315  -39.780  -1.237   0.446   0.556   0.000  C11  GKF  11  
+GKF  I12  I1  I  0  1  N  N  N  -20.574  -40.890  -3.073   2.447  -0.065   0.000  I12  GKF  12  
+GKF  H1   H1  H  0  1  N  N  N  -18.566  -36.622   2.928  -4.205   1.919  -0.002  H1   GKF  13  
+GKF  H2   H2  H  0  1  N  N  N  -16.839  -36.889   1.157  -4.277  -1.845   0.001  H2   GKF  14  
+GKF  H3   H3  H  0  1  N  N  N  -16.135  -37.810  -1.015  -2.306  -3.306  -0.001  H3   GKF  15  
+GKF  H4   H4  H  0  1  N  N  N  -17.667  -39.232  -2.334  -0.046  -2.355   0.003  H4   GKF  16  
+GKF  H5   H5  H  0  1  N  N  N  -21.422  -38.719   1.524  -1.921   2.618  -0.006  H5   GKF  17  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+GKF  I12  C11  SING  N  N   1  
+GKF  C06  C07  DOUB  Y  N   2  
+GKF  C06  C05  SING  Y  N   3  
+GKF  C11  C07  SING  Y  N   4  
+GKF  C11  N10  DOUB  Y  N   5  
+GKF  C07  C08  SING  Y  N   6  
+GKF  C05  C04  DOUB  Y  N   7  
+GKF  N10  N09  SING  Y  N   8  
+GKF  C08  N09  SING  Y  N   9  
+GKF  C08  C03  DOUB  Y  N  10  
+GKF  C04  C03  SING  Y  N  11  
+GKF  C03  C01  SING  N  N  12  
+GKF  C01  O02  DOUB  N  N  13  
+GKF  C01  H1   SING  N  N  14  
+GKF  C04  H2   SING  N  N  15  
+GKF  C05  H3   SING  N  N  16  
+GKF  C06  H4   SING  N  N  17  
+GKF  N09  H5   SING  N  N  18  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+GKF  InChI             InChI                 1.03   "InChI=1S/C8H5IN2O/c9-8-6-3-1-2-5(4-12)7(6)10-11-8/h1-4H,(H,10,11)"  
+GKF  InChIKey          InChI                 1.03   QWWAONJINWEHJL-UHFFFAOYSA-N  
+GKF  SMILES_CANONICAL  CACTVS                3.385  "Ic1n[nH]c2c(C=O)cccc12"  
+GKF  SMILES            CACTVS                3.385  "Ic1n[nH]c2c(C=O)cccc12"  
+GKF  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "c1cc(c2c(c1)c(n[nH]2)I)C=O"  
+GKF  SMILES            "OpenEye OEToolkits"  2.0.7  "c1cc(c2c(c1)c(n[nH]2)I)C=O"  
+#
+_pdbx_chem_comp_identifier.comp_id          GKF
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "3-iodanyl-1~{H}-indazole-7-carbaldehyde"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+GKF  "Create component"  2020-09-03  PDBJ  
+GKF  "Initial release"   2020-09-16  RCSB  
+##
+

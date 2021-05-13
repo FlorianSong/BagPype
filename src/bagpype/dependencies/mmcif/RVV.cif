@@ -1,0 +1,123 @@
+data_RVV
+#
+
+_chem_comp.id                                   RVV
+_chem_comp.name                                 "2,4-dimethylpyridine"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C7 H9 N"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2020-02-27
+_chem_comp.pdbx_modified_date                   2021-01-22
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       107.153
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    RVV
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6VYJ
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+RVV  C01   C1  C  0  1  N  N  N  -5.383  2.348  28.448   2.532   1.015   0.000  C01   RVV   1  
+RVV  C02   C2  C  0  1  Y  N  N  -5.497  2.148  26.947   1.212   0.289   0.001  C02   RVV   2  
+RVV  C03   C3  C  0  1  Y  N  N  -4.826  2.882  26.133   0.016   0.990   0.000  C03   RVV   3  
+RVV  C04   C4  C  0  1  Y  N  N  -4.967  2.655  24.632  -1.176   0.289   0.001  C04   RVV   4  
+RVV  C06   C5  C  0  1  Y  N  N  -6.521  0.898  25.131  -0.065  -1.729  -0.001  C06   RVV   5  
+RVV  C07   C6  C  0  1  Y  N  N  -6.407  1.083  26.426   1.164  -1.097  -0.002  C07   RVV   6  
+RVV  C08   C7  C  0  1  N  N  N  -4.187  3.515  23.645  -2.482   1.041  -0.001  C08   RVV   7  
+RVV  N05   N1  N  0  1  Y  N  N  -5.743  1.733  24.185  -1.183  -1.030   0.003  N05   RVV   8  
+RVV  H013  H1  H  0  0  N  N  N  -6.137  3.078  28.779   2.850   1.192   1.028  H013  RVV   9  
+RVV  H011  H2  H  0  0  N  N  N  -5.552  1.389  28.959   3.279   0.410  -0.512  H011  RVV  10  
+RVV  H012  H3  H  0  0  N  N  N  -4.378  2.722  28.693   2.421   1.969  -0.515  H012  RVV  11  
+RVV  H031  H4  H  0  0  N  N  N  -4.169  3.652  26.509   0.015   2.070  -0.001  H031  RVV  12  
+RVV  H061  H5  H  0  0  N  N  N  -7.185  0.134  24.753  -0.110  -2.808  -0.004  H061  RVV  13  
+RVV  H071  H6  H  0  0  N  N  N  -6.969  0.467  27.113   2.076  -1.676  -0.005  H071  RVV  14  
+RVV  H082  H7  H  0  0  N  N  N  -4.419  3.197  22.618  -2.796   1.220  -1.030  H082  RVV  15  
+RVV  H081  H8  H  0  0  N  N  N  -4.469  4.570  23.775  -3.241   0.451   0.513  H081  RVV  16  
+RVV  H083  H9  H  0  0  N  N  N  -3.109  3.399  23.830  -2.353   1.994   0.511  H083  RVV  17  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+RVV  C08  C04   SING  N  N   1  
+RVV  N05  C04   DOUB  Y  N   2  
+RVV  N05  C06   SING  Y  N   3  
+RVV  C04  C03   SING  Y  N   4  
+RVV  C06  C07   DOUB  Y  N   5  
+RVV  C03  C02   DOUB  Y  N   6  
+RVV  C07  C02   SING  Y  N   7  
+RVV  C02  C01   SING  N  N   8  
+RVV  C01  H013  SING  N  N   9  
+RVV  C01  H011  SING  N  N  10  
+RVV  C01  H012  SING  N  N  11  
+RVV  C03  H031  SING  N  N  12  
+RVV  C06  H061  SING  N  N  13  
+RVV  C07  H071  SING  N  N  14  
+RVV  C08  H082  SING  N  N  15  
+RVV  C08  H081  SING  N  N  16  
+RVV  C08  H083  SING  N  N  17  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+RVV  SMILES            ACDLabs               12.01  "Cc1cc(C)ncc1"  
+RVV  InChI             InChI                 1.03   "InChI=1S/C7H9N/c1-6-3-4-8-7(2)5-6/h3-5H,1-2H3"  
+RVV  InChIKey          InChI                 1.03   JYYNAJVZFGKDEQ-UHFFFAOYSA-N  
+RVV  SMILES_CANONICAL  CACTVS                3.385  "Cc1ccnc(C)c1"  
+RVV  SMILES            CACTVS                3.385  "Cc1ccnc(C)c1"  
+RVV  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "Cc1ccnc(c1)C"  
+RVV  SMILES            "OpenEye OEToolkits"  2.0.7  "Cc1ccnc(c1)C"  
+#   #
+loop_
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+RVV  "SYSTEMATIC NAME"  ACDLabs               12.01  "2,4-dimethylpyridine"  
+RVV  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.7  "2,4-dimethylpyridine"  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+RVV  "Create component"  2020-02-27  RCSB  
+RVV  "Initial release"   2021-01-27  RCSB  
+##
+

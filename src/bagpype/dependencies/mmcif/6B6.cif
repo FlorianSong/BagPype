@@ -1,0 +1,106 @@
+data_6B6
+# 
+_chem_comp.id                                    6B6 
+_chem_comp.name                                  "platinum(4+) tetrahydroxide" 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "H4 O4 Pt" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2016-03-01 
+_chem_comp.pdbx_modified_date                    2016-12-02 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        263.107 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     6B6 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   Y 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5IHG 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  EBI 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+6B6 O2  O1  O  0 1 N N N 10.015 -12.370 2.355 -0.767 -0.000 -1.842 O2  6B6 1 
+6B6 PT1 PT1 PT 0 0 N N N 11.902 -11.492 1.423 0.005  0.000  0.003  PT1 6B6 2 
+6B6 O3  O2  O  0 1 N N N 13.638 -10.766 0.499 -0.608 1.633  0.982  O3  6B6 3 
+6B6 O1  O3  O  0 1 N N N 12.878 -11.493 3.208 -0.608 -1.633 0.982  O1  6B6 4 
+6B6 O4  O4  O  0 1 N Y N ?      ?       ?     2.002  0.000  -0.109 O4  6B6 5 
+6B6 H1  H1  H  0 1 N N N 13.908 -9.959  0.921 -1.568 1.699  1.074  H1  6B6 6 
+6B6 H2  H2  H  0 1 N N N ?      ?       ?     2.370  0.765  -0.572 H2  6B6 7 
+6B6 H4  H4  H  0 1 N N N 9.723  -11.811 3.065 -1.733 -0.000 -1.864 H4  6B6 8 
+6B6 H3  H3  H  0 1 N N N 12.293 -11.803 3.889 -0.345 -2.464 0.563  H3  6B6 9 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+6B6 O3  PT1 SING N N 1 
+6B6 PT1 O2  SING N N 2 
+6B6 PT1 O1  SING N N 3 
+6B6 PT1 O4  SING N N 4 
+6B6 O3  H1  SING N N 5 
+6B6 O4  H2  SING N N 6 
+6B6 O2  H4  SING N N 7 
+6B6 O1  H3  SING N N 8 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+6B6 SMILES           ACDLabs              12.01 "O[Pt](O)(O)O"                       
+6B6 InChI            InChI                1.03  InChI=1S/4H2O.Pt/h4*1H2;/q;;;;+4/p-4 
+6B6 InChIKey         InChI                1.03  JTAFSELAEYLDJR-UHFFFAOYSA-J          
+6B6 SMILES_CANONICAL CACTVS               3.385 "O[Pt](O)(O)O"                       
+6B6 SMILES           CACTVS               3.385 "O[Pt](O)(O)O"                       
+6B6 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.4 "O[Pt](O)(O)O"                       
+6B6 SMILES           "OpenEye OEToolkits" 2.0.4 "O[Pt](O)(O)O"                       
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+6B6 "SYSTEMATIC NAME" ACDLabs              12.01 "platinum(4+) tetrahydroxide" 
+6B6 "SYSTEMATIC NAME" "OpenEye OEToolkits" 2.0.4 "tetrakis(oxidanyl)platinum"  
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+6B6 "Create component"   2016-03-01 EBI  
+6B6 "Other modification" 2016-03-08 EBI  
+6B6 "Initial release"    2016-12-07 RCSB 
+# 
+

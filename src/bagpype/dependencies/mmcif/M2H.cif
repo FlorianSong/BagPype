@@ -1,0 +1,119 @@
+data_M2H
+#
+
+_chem_comp.id                                   M2H
+_chem_comp.name                                 "3,5-dimethyl-1~{H}-pyrrole-2-carbonitrile"
+_chem_comp.type                                 non-polymer
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C7 H8 N2"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        ?
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2019-10-02
+_chem_comp.pdbx_modified_date                   2020-01-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       120.152
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    M2H
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6SZH
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 PDBE
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+M2H  C01  C1  C  0  1  N  N  N  -33.746  -0.917  -15.233   3.079   0.687  -0.002  C01  M2H   1  
+M2H  C02  C2  C  0  1  Y  N  N  -34.381  -0.736  -16.578   1.638   0.249  -0.001  C02  M2H   2  
+M2H  C03  C3  C  0  1  Y  N  N  -34.691  -1.632  -17.570   1.204  -1.033   0.001  C03  M2H   3  
+M2H  C04  C4  C  0  1  Y  N  N  -35.264  -0.980  -18.650  -0.195  -1.014   0.002  C04  M2H   4  
+M2H  C05  C5  C  0  1  N  N  N  -35.749  -1.621  -19.922  -1.107  -2.213  -0.001  C05  M2H   5  
+M2H  C06  C6  C  0  1  Y  N  N  -35.311   0.389  -18.274  -0.582   0.309  -0.000  C06  M2H   6  
+M2H  N07  N1  N  0  1  Y  N  N  -34.766   0.502  -17.020   0.561   1.076   0.004  N07  M2H   7  
+M2H  C08  C7  C  0  1  N  N  N  -35.784   1.507  -19.019  -1.928   0.798  -0.001  C08  M2H   8  
+M2H  N09  N2  N  0  1  N  N  N  -36.106   2.424  -19.623  -2.996   1.185  -0.001  N09  M2H   9  
+M2H  H1   H1  H  0  1  N  N  N  -32.654  -0.820  -15.326   3.427   0.791  -1.030  H1   M2H  10  
+M2H  H2   H2  H  0  1  N  N  N  -34.125  -0.149  -14.543   3.168   1.645   0.510  H2   M2H  11  
+M2H  H3   H3  H  0  1  N  N  N  -33.993  -1.915  -14.842   3.686  -0.058   0.513  H3   M2H  12  
+M2H  H4   H4  H  0  1  N  N  N  -34.513  -2.696  -17.516   1.828  -1.915   0.001  H4   M2H  13  
+M2H  H5   H5  H  0  1  N  N  N  -34.932  -1.640  -20.658  -1.324  -2.503  -1.029  H5   M2H  14  
+M2H  H6   H6  H  0  1  N  N  N  -36.077  -2.650  -19.712  -0.621  -3.041   0.515  H6   M2H  15  
+M2H  H7   H7  H  0  1  N  N  N  -36.593  -1.042  -20.325  -2.037  -1.963   0.510  H7   M2H  16  
+M2H  H8   H8  H  0  1  N  N  N  -34.665   1.355  -16.508   0.592   2.045   0.004  H8   M2H  17  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+M2H  C05  C04  SING  N  N   1  
+M2H  N09  C08  TRIP  N  N   2  
+M2H  C08  C06  SING  N  N   3  
+M2H  C04  C06  DOUB  Y  N   4  
+M2H  C04  C03  SING  Y  N   5  
+M2H  C06  N07  SING  Y  N   6  
+M2H  C03  C02  DOUB  Y  N   7  
+M2H  N07  C02  SING  Y  N   8  
+M2H  C02  C01  SING  N  N   9  
+M2H  C01  H1   SING  N  N  10  
+M2H  C01  H2   SING  N  N  11  
+M2H  C01  H3   SING  N  N  12  
+M2H  C03  H4   SING  N  N  13  
+M2H  C05  H5   SING  N  N  14  
+M2H  C05  H6   SING  N  N  15  
+M2H  C05  H7   SING  N  N  16  
+M2H  N07  H8   SING  N  N  17  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+M2H  InChI             InChI                 1.03   "InChI=1S/C7H8N2/c1-5-3-6(2)9-7(5)4-8/h3,9H,1-2H3"  
+M2H  InChIKey          InChI                 1.03   CTILJTUXIQXEOW-UHFFFAOYSA-N  
+M2H  SMILES_CANONICAL  CACTVS                3.385  "Cc1[nH]c(C#N)c(C)c1"  
+M2H  SMILES            CACTVS                3.385  "Cc1[nH]c(C#N)c(C)c1"  
+M2H  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "Cc1cc([nH]c1C#N)C"  
+M2H  SMILES            "OpenEye OEToolkits"  2.0.7  "Cc1cc([nH]c1C#N)C"  
+#
+_pdbx_chem_comp_identifier.comp_id          M2H
+_pdbx_chem_comp_identifier.type             "SYSTEMATIC NAME"
+_pdbx_chem_comp_identifier.program          "OpenEye OEToolkits"
+_pdbx_chem_comp_identifier.program_version  2.0.7
+_pdbx_chem_comp_identifier.identifier       "3,5-dimethyl-1~{H}-pyrrole-2-carbonitrile"
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+M2H  "Create component"  2019-10-02  PDBE  
+M2H  "Initial release"   2020-01-22  RCSB  
+##
+

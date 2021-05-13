@@ -1,0 +1,126 @@
+data_OA7
+#
+
+_chem_comp.id                                   OA7
+_chem_comp.name                                 "6-hydroxypyridine-3-carboxylic acid"
+_chem_comp.type                                 NON-POLYMER
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C6 H5 N O3"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        "6-hydroxynicotinic acid"
+_chem_comp.pdbx_formal_charge                   0
+_chem_comp.pdbx_initial_date                    2019-06-19
+_chem_comp.pdbx_modified_date                   2020-06-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       139.109
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    OA7
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       6PCP
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+OA7  CAA  C1  C  0  1  Y  N  N  19.184  10.152  -15.728  -0.090   1.257   0.008  CAA  OA7   1  
+OA7  CAB  C2  C  0  1  Y  N  N  18.631  10.911  -14.708  -1.458   1.203   0.010  CAB  OA7   2  
+OA7  CAC  C3  C  0  1  Y  N  N  18.706  12.290  -14.799  -2.093  -0.035   0.018  CAC  OA7   3  
+OA7  CAE  C4  C  0  1  Y  N  N  19.830  12.160  -16.823  -0.076  -1.155   0.011  CAE  OA7   4  
+OA7  CAF  C5  C  0  1  Y  N  N  19.795  10.778  -16.805   0.627   0.051   0.009  CAF  OA7   5  
+OA7  CAG  C6  C  0  1  N  N  N  20.417   9.972  -17.942   2.102   0.057  -0.005  CAG  OA7   6  
+OA7  NAD  N1  N  0  1  Y  N  N  19.296  12.849  -15.836  -1.393  -1.160   0.023  NAD  OA7   7  
+OA7  OAH  O1  O  0  1  N  N  N  18.159  13.094  -13.789  -3.447  -0.091   0.020  OAH  OA7   8  
+OA7  OAI  O2  O  0  1  N  N  N  20.118   8.761  -18.109   2.780  -1.107  -0.016  OAI  OA7   9  
+OA7  OAJ  O3  O  0  1  N  N  N  21.249  10.522  -18.705   2.705   1.112  -0.007  OAJ  OA7  10  
+OA7  H1   H1  H  0  1  N  N  N  19.139   9.074  -15.684   0.426   2.206   0.002  H1   OA7  11  
+OA7  H2   H2  H  0  1  N  N  N  18.153  10.438  -13.863  -2.039   2.113   0.006  H2   OA7  12  
+OA7  H4   H4  H  0  1  N  N  N  20.297  12.676  -17.649   0.463  -2.090   0.010  H4   OA7  13  
+OA7  H5   H5  H  0  1  N  N  N  20.605   8.413  -18.847   3.746  -1.052  -0.024  H5   OA7  14  
+OA7  H3   H3  H  0  1  N  N  N  18.297  14.009  -14.003  -3.841  -0.112  -0.863  H3   OA7  15  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+OA7  OAJ  CAG  DOUB  N  N   1  
+OA7  OAI  CAG  SING  N  N   2  
+OA7  CAG  CAF  SING  N  N   3  
+OA7  CAE  CAF  DOUB  Y  N   4  
+OA7  CAE  NAD  SING  Y  N   5  
+OA7  CAF  CAA  SING  Y  N   6  
+OA7  NAD  CAC  DOUB  Y  N   7  
+OA7  CAA  CAB  DOUB  Y  N   8  
+OA7  CAC  CAB  SING  Y  N   9  
+OA7  CAC  OAH  SING  N  N  10  
+OA7  CAA  H1   SING  N  N  11  
+OA7  CAB  H2   SING  N  N  12  
+OA7  CAE  H4   SING  N  N  13  
+OA7  OAI  H5   SING  N  N  14  
+OA7  OAH  H3   SING  N  N  15  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+OA7  SMILES            ACDLabs               12.01  "c1cc(O)ncc1C(O)=O"  
+OA7  InChI             InChI                 1.03   "InChI=1S/C6H5NO3/c8-5-2-1-4(3-7-5)6(9)10/h1-3H,(H,7,8)(H,9,10)"  
+OA7  InChIKey          InChI                 1.03   BLHCMGRVFXRYRN-UHFFFAOYSA-N  
+OA7  SMILES_CANONICAL  CACTVS                3.385  "OC(=O)c1ccc(O)nc1"  
+OA7  SMILES            CACTVS                3.385  "OC(=O)c1ccc(O)nc1"  
+OA7  SMILES_CANONICAL  "OpenEye OEToolkits"  2.0.7  "c1cc(ncc1C(=O)O)O"  
+OA7  SMILES            "OpenEye OEToolkits"  2.0.7  "c1cc(ncc1C(=O)O)O"  
+#   #
+loop_
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+OA7  "SYSTEMATIC NAME"  ACDLabs               12.01  "6-hydroxypyridine-3-carboxylic acid"  
+OA7  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  2.0.7  "6-oxidanylpyridine-3-carboxylic acid"  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+OA7  "Create component"  2019-06-19  RCSB  
+OA7  "Initial release"   2019-11-06  RCSB  
+OA7  "Modify synonyms"   2020-06-05  PDBE  
+#
+_pdbx_chem_comp_synonyms.ordinal     1
+_pdbx_chem_comp_synonyms.comp_id     OA7
+_pdbx_chem_comp_synonyms.name        "6-hydroxynicotinic acid"
+_pdbx_chem_comp_synonyms.provenance  ?
+_pdbx_chem_comp_synonyms.type        ?
+##
+

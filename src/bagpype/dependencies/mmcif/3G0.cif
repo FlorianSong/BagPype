@@ -1,0 +1,113 @@
+data_3G0
+#
+
+_chem_comp.id                                   3G0
+_chem_comp.name                                 "tetracyanoplatinate(II)"
+_chem_comp.type                                 NON-POLYMER
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C4 N4 Pt"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        "[Pt(CN)4]2-"
+_chem_comp.pdbx_formal_charge                   -2
+_chem_comp.pdbx_initial_date                    2014-08-12
+_chem_comp.pdbx_modified_date                   2020-06-17
+_chem_comp.pdbx_ambiguous_flag                  N
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       299.148
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    3G0
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  N
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  N
+_chem_comp.pdbx_model_coordinates_db_code       4QZQ
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+3G0  C1  C1  C    0  1  N  N  N  323.929  182.733  51.387   1.755  -0.000   1.241  C1  3G0  1  
+3G0  N1  N1  N    0  1  N  N  N  325.019  182.873  51.707   2.683  -0.000   1.897  N1  3G0  2  
+3G0  C2  C2  C    0  1  N  N  N  321.934  184.402  50.961   0.000  -1.755  -1.241  C2  3G0  3  
+3G0  PT  PT  PT  -2  0  N  N  N  322.141  182.555  50.889  -0.000  -0.000   0.000  PT  3G0  4  
+3G0  N2  N2  N    0  1  N  N  N  321.799  185.531  51.065   0.000  -2.683  -1.897  N2  3G0  5  
+3G0  C3  C3  C    0  1  N  N  N  320.440  182.417  50.112  -1.755   0.000   1.241  C3  3G0  6  
+3G0  N3  N3  N    0  1  N  N  N  319.413  182.277  49.609  -2.683   0.000   1.897  N3  3G0  7  
+3G0  C4  C4  C    0  1  N  N  N  322.231  180.689  51.030   0.000   1.755  -1.241  C4  3G0  8  
+3G0  N4  N4  N    0  1  N  N  N  322.294  179.542  51.130   0.000   2.683  -1.897  N4  3G0  9  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+3G0  N3  C3  TRIP  N  N  1  
+3G0  C3  PT  SING  N  N  2  
+3G0  PT  C2  SING  N  N  3  
+3G0  PT  C4  SING  N  N  4  
+3G0  PT  C1  SING  N  N  5  
+3G0  C2  N2  TRIP  N  N  6  
+3G0  C4  N4  TRIP  N  N  7  
+3G0  C1  N1  TRIP  N  N  8  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+3G0  SMILES            ACDLabs               12.01  "N#C[Pt-2](C#N)(C#N)C#N"  
+3G0  InChI             InChI                 1.03   "InChI=1S/4CN.Pt/c4*1-2;/q;;;;-2"  
+3G0  InChIKey          InChI                 1.03   YGIVBGPIGPIOSX-UHFFFAOYSA-N  
+3G0  SMILES_CANONICAL  CACTVS                3.385  "N#C[Pt--](C#N)(C#N)C#N"  
+3G0  SMILES            CACTVS                3.385  "N#C[Pt--](C#N)(C#N)C#N"  
+3G0  SMILES_CANONICAL  "OpenEye OEToolkits"  1.7.6  "C(#N)[Pt-2](C#N)(C#N)C#N"  
+3G0  SMILES            "OpenEye OEToolkits"  1.7.6  "C(#N)[Pt-2](C#N)(C#N)C#N"  
+#   #
+loop_
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+3G0  "SYSTEMATIC NAME"  ACDLabs               12.01  "tetrakis(cyano-kappaC)platinate(2-)"  
+3G0  "SYSTEMATIC NAME"  "OpenEye OEToolkits"  1.7.6  "tetracyanoplatinum(2-)"  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+3G0  "Create component"  2014-08-12  RCSB  
+3G0  "Initial release"   2019-07-10  RCSB  
+3G0  "Modify synonyms"   2020-06-05  PDBE  
+#
+_pdbx_chem_comp_synonyms.ordinal     1
+_pdbx_chem_comp_synonyms.comp_id     3G0
+_pdbx_chem_comp_synonyms.name        "[Pt(CN)4]2-"
+_pdbx_chem_comp_synonyms.provenance  ?
+_pdbx_chem_comp_synonyms.type        ?
+##
+

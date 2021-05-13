@@ -1,0 +1,106 @@
+data_ZPT
+#
+
+_chem_comp.id                                   ZPT
+_chem_comp.name                                 "Trichloro(ethene)platinate(II)"
+_chem_comp.type                                 NON-POLYMER
+_chem_comp.pdbx_type                            HETAIN
+_chem_comp.formula                              "C2 H4 Cl3 Pt"
+_chem_comp.mon_nstd_parent_comp_id              ?
+_chem_comp.pdbx_synonyms                        "Zeise's salt"
+_chem_comp.pdbx_formal_charge                   -1
+_chem_comp.pdbx_initial_date                    2016-07-13
+_chem_comp.pdbx_modified_date                   2020-06-17
+_chem_comp.pdbx_ambiguous_flag                  Y
+_chem_comp.pdbx_release_status                  REL
+_chem_comp.pdbx_replaced_by                     ?
+_chem_comp.pdbx_replaces                        ?
+_chem_comp.formula_weight                       329.490
+_chem_comp.one_letter_code                      ?
+_chem_comp.three_letter_code                    ZPT
+_chem_comp.pdbx_model_coordinates_details       ?
+_chem_comp.pdbx_model_coordinates_missing_flag  Y
+_chem_comp.pdbx_ideal_coordinates_details       Corina
+_chem_comp.pdbx_ideal_coordinates_missing_flag  Y
+_chem_comp.pdbx_model_coordinates_db_code       5K08
+_chem_comp.pdbx_subcomponent_list               ?
+_chem_comp.pdbx_processing_site                 RCSB
+#   #
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_component_atom_id
+_chem_comp_atom.pdbx_component_comp_id
+_chem_comp_atom.pdbx_ordinal
+ZPT  PT   PT   PT   2  0  N  N  N  ?  ?  ?  ?  ?  ?  PT   ZPT   1  
+ZPT  C1   C1   C    0  1  N  Y  N  ?  ?  ?  ?  ?  ?  C1   ZPT   2  
+ZPT  C2   C2   C    0  1  N  Y  N  ?  ?  ?  ?  ?  ?  C2   ZPT   3  
+ZPT  CL1  CL1  CL  -1  0  N  Y  N  ?  ?  ?  ?  ?  ?  CL1  ZPT   4  
+ZPT  CL2  CL2  CL  -1  0  N  Y  N  ?  ?  ?  ?  ?  ?  CL2  ZPT   5  
+ZPT  CL3  CL3  CL  -1  0  N  Y  N  ?  ?  ?  ?  ?  ?  CL3  ZPT   6  
+ZPT  H11  H11  H    0  1  N  Y  N  ?  ?  ?  ?  ?  ?  H11  ZPT   7  
+ZPT  H12  H12  H    0  1  N  Y  N  ?  ?  ?  ?  ?  ?  H12  ZPT   8  
+ZPT  H21  H21  H    0  1  N  Y  N  ?  ?  ?  ?  ?  ?  H21  ZPT   9  
+ZPT  H22  H22  H    0  1  N  Y  N  ?  ?  ?  ?  ?  ?  H22  ZPT  10  
+#   #
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+ZPT  PT  C1   SING  N  N   1  
+ZPT  PT  C2   SING  N  N   2  
+ZPT  PT  CL1  SING  N  N   3  
+ZPT  PT  CL2  SING  N  N   4  
+ZPT  PT  CL3  SING  N  N   5  
+ZPT  C1  C2   DOUB  N  N   6  
+ZPT  C1  H11  SING  N  N   7  
+ZPT  C1  H12  SING  N  N   8  
+ZPT  C2  H21  SING  N  N   9  
+ZPT  C2  H22  SING  N  N  10  
+#   #
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+ZPT  InChI             InChI                 1.03   "InChI=1S/C2H4.3ClH.Pt/c1-2;;;;/h1-2H2;3*1H;/q;;;;+2/p-3"  
+ZPT  InChIKey          InChI                 1.03   LJEKXYSRMGLQBW-UHFFFAOYSA-K  
+ZPT  SMILES_CANONICAL  CACTVS                3.385  "[Cl-]|[Pt++]|1(|[Cl-])(|[Cl-])|C=C|1"  
+ZPT  SMILES            CACTVS                3.385  "[Cl-]|[Pt++]|1(|[Cl-])(|[Cl-])|C=C|1"  
+ZPT  SMILES_CANONICAL  "OpenEye OEToolkits"  1.7.6  "[CH2]1=[CH2][Pt+2]1([Cl-])([Cl-])[Cl-]"  
+ZPT  SMILES            "OpenEye OEToolkits"  1.7.6  "[CH2]1=[CH2][Pt+2]1([Cl-])([Cl-])[Cl-]"  
+#   #
+loop_
+_pdbx_chem_comp_audit.comp_id
+_pdbx_chem_comp_audit.action_type
+_pdbx_chem_comp_audit.date
+_pdbx_chem_comp_audit.processing_site
+ZPT  "Create component"  2016-07-13  RCSB  
+ZPT  "Initial release"   2016-09-21  RCSB  
+ZPT  "Modify synonyms"   2020-06-05  PDBE  
+#
+_pdbx_chem_comp_synonyms.ordinal     1
+_pdbx_chem_comp_synonyms.comp_id     ZPT
+_pdbx_chem_comp_synonyms.name        "Zeise's salt"
+_pdbx_chem_comp_synonyms.provenance  ?
+_pdbx_chem_comp_synonyms.type        ?
+##
+
