@@ -17,7 +17,7 @@
 # echo # added by proteinClass installer >> ~/.bashrc
 # export PYTHONPATH="$PWD:$PYTHONPATH"
 
-chmod +x dependencies/reduce
+chmod +x src/bagpype/dependencies/reduce
 
 # This bit changes the settings.py file so that no modification there is necessary
 # line="DEPENDENCIES_ROOT = '$PWD/dependencies' # Modify this line"
