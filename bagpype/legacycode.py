@@ -101,3 +101,81 @@
                 T = scipy.sparse.lil_matrix.minimum(T, Ttemp)
 
         return E, -LLink
+
+
+
+
+    def _initialise_possible_bonds(self):
+        """
+        Initialises all possible bonds (ie all atoms within certain distance of atom), 
+        which saves a lot of computing time later.
+        Relies on the fact that atom ids run from 0 to # of atoms.
+        """
+        print("Initialising all possible bonds...")
+
+        # Get coordinates of all atoms as an array
+        atom_coords = self.protein.atoms.coordinates()
+
+        # Compute a distance matrix between each atom, note that pdist will compute a condensed distance matrix (1-dimensional)
+        dist_matrix = scipy.spatial.distance.pdist(atom_coords)
+
+        # Find all entries that are below the cutoff and write all those pairs of atoms to a nx graph
+        # n = number of atoms, k = indices of distances less than cutoff (but in 1D format), i,j = matrix indices computed from k
+        n = atom_coords.shape[0]
+        k = np.where(dist_matrix <= self.max_cutoff)[0]
+        i = n - 2 - np.floor(np.sqrt(-8 * k + 4 * n * (n - 1) - 7) / 2.0 - 0.5)
+        j = k + i + 1 - n * (n - 1) / 2 + (n - i) * ((n - i) - 1) / 2
+
+        self.possible_bonds = {}
+        for indx in range(len(i)):
+            self.possible_bonds.setdefault(int(i[indx]), []).append(int(j[indx]))
+            self.possible_bonds.setdefault(int(j[indx]), []).append(int(i[indx]))
+
+
+
+    def hydrophobic_selection_legacyNetworkx(self, graph):
+
+        # First step is to calculate a minimum spanning tree, note that the weight is "energy", ie negative values, units kcal/mol
+        mst = nx.minimum_spanning_tree(graph, weight="energy")
+
+        # notmst contains all edges that are in graph but not in mst
+        notmst = nx.difference(graph, mst)
+
+        # Initialise the final output list of accepted edges
+        matches = sorted(mst.edges)
+
+        # Find d_i (as defined by RMST). This is the strongest interaction originating at i.
+        D = nx.adjacency_matrix(graph, weight="energy")
+        d = D.min(axis=0).toarray().flatten().tolist()
+        node_list = list(graph.nodes)
+
+        for edge_not_in_mst in notmst.edges:
+            i, j = edge_not_in_mst[0], edge_not_in_mst[1]
+
+            # Find the path between i and j along the MST and the corresponding weights
+            path = nx.shortest_path(mst, source=i, target=j)
+            weights_along_path = [graph[u][v]["energy"] for u, v in zip(path[:-1], path[1:])]
+
+            # mlink is the maximum of the weights along the MST path
+            mlink = max(weights_along_path)
+
+            # RMST criterion for adding edge back into the tree
+            # hydrophobic_RMST_gamma is the gamma parameter as described in RMST
+            left_hand_side = mlink + self.hydrophobic_RMST_gamma * abs(
+                d[node_list.index(i)] + d[node_list.index(j)]
+            )
+            right_hand_side = graph[i][j]["energy"]
+
+            if left_hand_side > right_hand_side:
+                matches += [(i, j)]
+
+        print(
+            "    RMST sparsification used. Accepted: "
+            + str(len(matches) - len(mst.edges))
+            + ", rejected: "
+            + str(len(graph.edges) - len(matches))
+            + "; MST size: "
+            + str(len(mst.edges))
+        )
+
+        return sorted(matches)
