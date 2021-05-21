@@ -8,7 +8,7 @@ import networkx as nx
 
 import bagpype.molecules
 
-import bagpype.MakeMultimer
+import bagpype.makemultimer
 
 #####################################
 #                                   #
@@ -222,7 +222,7 @@ class PDBParser(object):
         )
 
         pdblurb = open(self.pdb_filename, "r").read()
-        r = bagpype.MakeMultimer.PdbReplicator(pdblurb, MakeMultimer_options)
+        r = bagpype.makemultimer.PdbReplicator(pdblurb, MakeMultimer_options)
         outfile_template = self.pdb_filename.split(".")[0] + "_mm%s.pdb"
 
         for i, bm in enumerate(r.biomolecules):
