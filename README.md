@@ -1,8 +1,13 @@
-
-![Image](bagpype.png)
-
+<img src="bagpype.png" width="500">
 
 
+Summary
+----------
+
+
+
+Usage
+-------
 A typical bagpype run looks like this: 
 
 ```python 
