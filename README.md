@@ -1,5 +1,6 @@
 <img src="figures/bagpype.png" width="300">
 
+[![DOI](https://zenodo.org/badge/153472292.svg)](https://zenodo.org/badge/latestdoi/153472292)
 
 Summary
 ----------
