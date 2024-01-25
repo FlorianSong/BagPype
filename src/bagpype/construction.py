@@ -1460,7 +1460,7 @@ class Graph_constructor(object):
         Dtemp = D + np.eye(N) * np.amax(D)
 
         mD = np.amin(Dtemp, 0)
-        mD = np.abs(np.tile(mD, (N, 1)) + np.tile(np.transpose(mD), (1, N))) / 2
+        mD = np.abs(np.tile(mD, (N, 1)) + np.transpose(np.tile(mD, (N, 1)))) / 2
         mD *= self.hydrophobic_RMST_gamma
 
         E_criterion = np.greater(LLink + mD, D).astype(int)
@@ -1547,8 +1547,8 @@ class Graph_constructor(object):
                 idxless = (Ttemp < T).nonzero()
                 T[idxless] = Ttemp[idxless]
                 P[
-                    idxless[1]
-                ] = idx  # [1] is necessary since np.where seems to always consider two dimensions
+                    idxless #[1] 
+                ] = idx  # [1] is necessary since np.where seems to always consider two dimensions --> Maybe not anymore (KM)?
 
         return E, LLink
 
@@ -1740,12 +1740,10 @@ class Graph_constructor(object):
                 for id2 in id_list2:
                     K2, R2 = get_atom_specific_parameters(self.protein.atoms[id2].name)
 
-                    z = np.asscalar(
-                        np.linalg.norm(
+                    z = np.linalg.norm(
                             self.protein.atoms[id1].xyz - self.protein.atoms[id2].xyz
-                        )
-                        / (2.0 * np.sqrt(R1 * R2))
-                    )
+                        ) / (2.0 * np.sqrt(R1 * R2)).item()
+                    
                     vdw += (
                         # (-self.k_factor * 4.184 / 6.022)
                         -1
@@ -1951,7 +1949,7 @@ def in_same_residue(atom1, atom2):
 
 
 def distance_between_two_atoms(atom1, atom2):
-    return np.round(np.asscalar(np.linalg.norm(atom1.xyz - atom2.xyz)), capping_decimals)
+    return np.round(np.linalg.norm(atom1.xyz - atom2.xyz).item(), capping_decimals)
 
 
 def equilibrium_distance(atom1, atom2):
