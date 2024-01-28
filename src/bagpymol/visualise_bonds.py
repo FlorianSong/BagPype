@@ -3,7 +3,7 @@ import sys
 import csv
 
 def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE", "HYDROPHOBIC", "STACKED", "BACKBONE", "ELECTROSTATIC"], 
-              file_name = "bonds.csv", 
+              file_name = "/Users/kevinmicha/Documents/PhD/BagPype/bonds.csv", 
               specific_residues = [], # e.g. [('1', 'A')]
               specific_bonds = [] # just a list of ids
               ):
@@ -111,4 +111,5 @@ def visualise(list_of_types = ["COVALENT", "DISULFIDE", "HYDROGEN", "SALTBRIDGE"
 
     f.close()
 
-cmd.extend("visualise", visualise)
+#cmd.extend("visualise", visualise)
+visualise()
