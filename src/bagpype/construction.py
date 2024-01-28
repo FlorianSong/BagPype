@@ -65,6 +65,7 @@ class Graph_constructor(object):
         bonds_file_name="bonds.csv",
         gexf_file_name=None,
         barebones_graph=False,
+        exclude_backbone=False,
     ):
         """This is the main driver function which calls
         sub-routines to generate each of the different types
@@ -76,12 +77,14 @@ class Graph_constructor(object):
         bonds_file_name: specify file path for output file of bonds in csv format
         gexf_file_name: specify file path for output file of graph in gexf format
         barebones_graph: Boolean specifying if you want a graph with no nodes/edges data
+        exclude_backbone: Boolean specifying if you want to exclude the backbone interactions
         """
 
         print()
         print("Graph construction started")
 
         self.protein = protein
+        self.exclude_backbone = exclude_backbone
 
         time1 = time.time()
 
@@ -136,7 +139,7 @@ class Graph_constructor(object):
             bond.id = id_counter
             if barebones_graph:
                 graph.add_edge(bond.atom1.id, bond.atom2.id)
-            else:
+            elif not self.exclude_backbone or bond.bond_type != ['COVALENT']:
                 graph.add_edge(
                     bond.atom1.id,
                     bond.atom2.id,
@@ -148,7 +151,7 @@ class Graph_constructor(object):
 
         # Check graph is connected
         number_connected_components = nx.number_connected_components(graph)
-        if number_connected_components > 1:
+        if number_connected_components > 1 and not self.exclude_backbone:
             print(
                 "WARNING: Number of connected components is greater than 1. (It's %d)"
                 % (number_connected_components)
@@ -156,11 +159,12 @@ class Graph_constructor(object):
 
         self.protein.bonds = self.bonds
         self.protein.graph = graph
-
+        
         if atoms_file_name is not None:
             self._write_atoms_to_csv_file(atoms_file_name)
         if bonds_file_name is not None:
             self._write_bonds_to_csv_file(bonds_file_name)
+            np.save('adjacency.npy', nx.to_numpy_array(graph))
 
         if gexf_file_name is not None:
             graph_modded = graph.copy()
@@ -237,24 +241,25 @@ class Graph_constructor(object):
         """
         bond_data = []
         for bond in self.bonds:
-            bond_data.append(
-                [
-                    bond.id,
-                    ",".join(bond.bond_type),
-                    bond.weight,
-                    distance_between_two_atoms(bond.atom1, bond.atom2),
-                    bond.atom1.id,
-                    bond.atom1.name,
-                    bond.atom1.res_name,
-                    bond.atom1.res_num,
-                    bond.atom1.chain,
-                    bond.atom2.id,
-                    bond.atom2.name,
-                    bond.atom2.res_name,
-                    bond.atom2.res_num,
-                    bond.atom2.chain,
-                ]
-            )
+            if not self.exclude_backbone or bond.bond_type != ['COVALENT']:
+                bond_data.append(
+                    [
+                        bond.id,
+                        ",".join(bond.bond_type),
+                        bond.weight,
+                        distance_between_two_atoms(bond.atom1, bond.atom2),
+                        bond.atom1.id,
+                        bond.atom1.name,
+                        bond.atom1.res_name,
+                        bond.atom1.res_num,
+                        bond.atom1.chain,
+                        bond.atom2.id,
+                        bond.atom2.name,
+                        bond.atom2.res_name,
+                        bond.atom2.res_num,
+                        bond.atom2.chain,
+                    ]
+                )
         bond_df = pd.DataFrame(
             data=bond_data,
             columns=[
