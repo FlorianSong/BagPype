@@ -65,6 +65,7 @@ class Graph_constructor(object):
         bonds_file_name="bonds.csv",
         gexf_file_name=None,
         barebones_graph=False,
+        exclude_backbone=False,
     ):
         """This is the main driver function which calls
         sub-routines to generate each of the different types
@@ -76,12 +77,14 @@ class Graph_constructor(object):
         bonds_file_name: specify file path for output file of bonds in csv format
         gexf_file_name: specify file path for output file of graph in gexf format
         barebones_graph: Boolean specifying if you want a graph with no nodes/edges data
+        exclude_backbone: Boolean specifying if you want to exclude the backbone interactions
         """
 
         print()
         print("Graph construction started")
 
         self.protein = protein
+        self.exclude_backbone = exclude_backbone
 
         time1 = time.time()
 
@@ -136,7 +139,7 @@ class Graph_constructor(object):
             bond.id = id_counter
             if barebones_graph:
                 graph.add_edge(bond.atom1.id, bond.atom2.id)
-            else:
+            elif not self.exclude_backbone or bond.bond_type != ['COVALENT']:
                 graph.add_edge(
                     bond.atom1.id,
                     bond.atom2.id,
@@ -148,7 +151,7 @@ class Graph_constructor(object):
 
         # Check graph is connected
         number_connected_components = nx.number_connected_components(graph)
-        if number_connected_components > 1:
+        if number_connected_components > 1 and not self.exclude_backbone:
             print(
                 "WARNING: Number of connected components is greater than 1. (It's %d)"
                 % (number_connected_components)
@@ -156,11 +159,12 @@ class Graph_constructor(object):
 
         self.protein.bonds = self.bonds
         self.protein.graph = graph
-
+        
         if atoms_file_name is not None:
             self._write_atoms_to_csv_file(atoms_file_name)
         if bonds_file_name is not None:
             self._write_bonds_to_csv_file(bonds_file_name)
+            np.save('adjacency.npy', nx.to_numpy_array(graph))
 
         if gexf_file_name is not None:
             graph_modded = graph.copy()
@@ -237,24 +241,25 @@ class Graph_constructor(object):
         """
         bond_data = []
         for bond in self.bonds:
-            bond_data.append(
-                [
-                    bond.id,
-                    ",".join(bond.bond_type),
-                    bond.weight,
-                    distance_between_two_atoms(bond.atom1, bond.atom2),
-                    bond.atom1.id,
-                    bond.atom1.name,
-                    bond.atom1.res_name,
-                    bond.atom1.res_num,
-                    bond.atom1.chain,
-                    bond.atom2.id,
-                    bond.atom2.name,
-                    bond.atom2.res_name,
-                    bond.atom2.res_num,
-                    bond.atom2.chain,
-                ]
-            )
+            if not self.exclude_backbone or bond.bond_type != ['COVALENT']:
+                bond_data.append(
+                    [
+                        bond.id,
+                        ",".join(bond.bond_type),
+                        bond.weight,
+                        distance_between_two_atoms(bond.atom1, bond.atom2),
+                        bond.atom1.id,
+                        bond.atom1.name,
+                        bond.atom1.res_name,
+                        bond.atom1.res_num,
+                        bond.atom1.chain,
+                        bond.atom2.id,
+                        bond.atom2.name,
+                        bond.atom2.res_name,
+                        bond.atom2.res_num,
+                        bond.atom2.chain,
+                    ]
+                )
         bond_df = pd.DataFrame(
             data=bond_data,
             columns=[
@@ -1460,7 +1465,7 @@ class Graph_constructor(object):
         Dtemp = D + np.eye(N) * np.amax(D)
 
         mD = np.amin(Dtemp, 0)
-        mD = np.abs(np.tile(mD, (N, 1)) + np.tile(np.transpose(mD), (1, N))) / 2
+        mD = np.abs(np.tile(mD, (N, 1)) + np.transpose(np.tile(mD, (N, 1)))) / 2
         mD *= self.hydrophobic_RMST_gamma
 
         E_criterion = np.greater(LLink + mD, D).astype(int)
@@ -1547,8 +1552,8 @@ class Graph_constructor(object):
                 idxless = (Ttemp < T).nonzero()
                 T[idxless] = Ttemp[idxless]
                 P[
-                    idxless[1]
-                ] = idx  # [1] is necessary since np.where seems to always consider two dimensions
+                    idxless #[1] 
+                ] = idx  # [1] is necessary since np.where seems to always consider two dimensions --> Maybe not anymore (KM)?
 
         return E, LLink
 
@@ -1740,12 +1745,10 @@ class Graph_constructor(object):
                 for id2 in id_list2:
                     K2, R2 = get_atom_specific_parameters(self.protein.atoms[id2].name)
 
-                    z = np.asscalar(
-                        np.linalg.norm(
+                    z = np.linalg.norm(
                             self.protein.atoms[id1].xyz - self.protein.atoms[id2].xyz
-                        )
-                        / (2.0 * np.sqrt(R1 * R2))
-                    )
+                        ) / (2.0 * np.sqrt(R1 * R2)).item()
+                    
                     vdw += (
                         # (-self.k_factor * 4.184 / 6.022)
                         -1
@@ -1951,7 +1954,7 @@ def in_same_residue(atom1, atom2):
 
 
 def distance_between_two_atoms(atom1, atom2):
-    return np.round(np.asscalar(np.linalg.norm(atom1.xyz - atom2.xyz)), capping_decimals)
+    return np.round(np.linalg.norm(atom1.xyz - atom2.xyz).item(), capping_decimals)
 
 
 def equilibrium_distance(atom1, atom2):
