@@ -161,10 +161,10 @@ class Graph_constructor(object):
         self.protein.graph = graph
         
         if atoms_file_name is not None:
-            self._write_atoms_to_csv_file(atoms_file_name)
+            self._write_atoms_to_csv_file(atoms_file_name[:-4]+'_'+self.protein.pdb_id[5:9]+'.csv')
         if bonds_file_name is not None:
-            self._write_bonds_to_csv_file(bonds_file_name)
-            np.save('adjacency.npy', nx.to_numpy_array(graph))
+            self._write_bonds_to_csv_file(bonds_file_name[:-4]+'_'+self.protein.pdb_id[5:9]+'.csv')
+            np.save(f'adjacency_{self.protein.pdb_id[5:9]}.npy', nx.to_numpy_array(graph))
 
         if gexf_file_name is not None:
             graph_modded = graph.copy()
