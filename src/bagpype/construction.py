@@ -164,7 +164,6 @@ class Graph_constructor(object):
             self._write_atoms_to_csv_file(atoms_file_name)
         if bonds_file_name is not None:
             self._write_bonds_to_csv_file(bonds_file_name)
-            np.save('adjacency.npy', nx.to_numpy_array(graph))
 
         if gexf_file_name is not None:
             graph_modded = graph.copy()
@@ -185,6 +184,8 @@ class Graph_constructor(object):
             % (time2 - time1, self.protein.pdb_id)
         )
         print()
+
+        return nx.to_numpy_array(graph)
 
     def _initialise_possible_bonds(self):
         """
