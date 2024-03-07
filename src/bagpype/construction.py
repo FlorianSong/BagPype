@@ -161,7 +161,7 @@ class Graph_constructor(object):
         self.protein.graph = graph
         
         if atoms_file_name is not None:
-            self._write_atoms_to_csv_file(atoms_file_name[:-4]+'_'+self.protein.pdb_id[5:9]+'.csv')
+            self._write_atoms_to_csv_file(atoms_file_name)
         if bonds_file_name is not None:
             self._write_bonds_to_csv_file(bonds_file_name)
 
